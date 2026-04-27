@@ -1,3 +1,4 @@
+import Foundation
 import SiteKit
 
 @main struct Site {
@@ -11,7 +12,7 @@ import SiteKit
             .renderer(HTMLRedirectPageRenderer())
             .run()
       } catch {
-         fputs("Error: \(error)\n", stderr)
+         FileHandle.standardError.write(Data("Error: \(error)\n".utf8))
          throw error
       }
    }
