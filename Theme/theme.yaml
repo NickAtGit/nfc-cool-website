@@ -1,11 +1,13 @@
 name: "NFC.cool"
+preset: "minimal"
 colorScheme: "custom"
 fontPairing: "custom"
 selfHostedFonts: true
 favicons:
    - "images/favicon.png"
 css:
-   - "css/theme.css"
+   - "css/theme-base.css"
+   - "css/landing.css"
 js:
    - "js/theme.js"
 headInlineScript: "(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})()"
@@ -20,53 +22,44 @@ tokens:
       any: "#E6B400"
       dark: "#FFC700"
    colorAccentLight:
-      any: "rgba(255, 199, 0, 0.08)"
-      dark: "rgba(255, 199, 0, 0.12)"
+      any: "rgba(255, 199, 0, 0.1)"
+      dark: "rgba(255, 199, 0, 0.15)"
    colorBg:
       any: "#FFFFFF"
       dark: "#0D1117"
    colorBgAlt:
-      any: "#F2F2F2"
+      any: "#F6F8FA"
       dark: "#161B22"
    colorBgCard:
       any: "#FFFFFF"
-      dark: "#161B22"
+      dark: "#21262D"
    colorText:
-      any: "#212529"
+      any: "#24292F"
       dark: "#E6EDF3"
    colorTextSecondary:
-      any: "#4A5058"
+      any: "#57606A"
       dark: "#8B949E"
    colorTextMuted:
-      any: "#6D737B"
+      any: "#6E7781"
       dark: "#7D8590"
    colorBorder:
-      any: "#DEE2E6"
+      any: "#D0D7DE"
       dark: "#30363D"
    colorBorderLight:
-      any: "#E9ECEF"
+      any: "#E8ECF0"
       dark: "#21262D"
    colorShadow:
-      any: "rgba(33, 37, 41, 0.08)"
-      dark: "rgba(0, 0, 0, 0.3)"
+      any: "rgba(31, 35, 40, 0.08)"
+      dark: "rgba(0, 0, 0, 0.25)"
    colorShadowLg:
-      any: "rgba(33, 37, 41, 0.15)"
-      dark: "rgba(0, 0, 0, 0.45)"
-   colorGradientStart:
-      any: "#1170CF"
-      dark: "#00AAFF"
-   colorGradientEnd:
-      any: "#00AAFF"
-      dark: "#1170CF"
+      any: "rgba(31, 35, 40, 0.15)"
+      dark: "rgba(0, 0, 0, 0.4)"
    fontHeading:
       family: "Titillium Web"
       weights: [400, 600, 700]
    fontBody:
       family: "Titillium Web"
       weights: [400, 600, 700]
-   fontAccent:
-      family: "Caveat"
-      weights: [400, 700]
    maxWidth: "1200px"
    contentWidth: "720px"
    headerHeight: "64px"

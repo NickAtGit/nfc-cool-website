@@ -1,13 +1,17 @@
-// NFC.cool theme JS — dark mode toggle
-(function() {
-   const toggle = document.querySelector('.sk-theme-toggle');
+document.addEventListener('DOMContentLoaded', function () {
+   // Syntax highlighting (if highlight.js is loaded)
+   if (typeof hljs !== 'undefined') {
+      hljs.highlightAll();
+   }
+
+   // Theme toggle (dark/light mode)
+   var toggle = document.querySelector('.sk-theme-toggle');
    if (toggle) {
-      toggle.addEventListener('click', function(e) {
-         e.preventDefault();
-         const current = document.documentElement.getAttribute('data-theme');
-         const next = current === 'dark' ? 'light' : 'dark';
+      toggle.addEventListener('click', function () {
+         var current = document.documentElement.getAttribute('data-theme');
+         var next = current === 'dark' ? 'light' : 'dark';
          document.documentElement.setAttribute('data-theme', next);
          localStorage.setItem('theme', next);
       });
    }
-})();
+});
