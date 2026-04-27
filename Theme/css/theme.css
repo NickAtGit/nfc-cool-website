@@ -1,0 +1,468 @@
+/* NFC.cool Landing Page Theme
+   Brand Colors: #212529 (dark), #FFC700 (yellow accent), #1170CF→#00AAFF (blue gradient), #F2F2F2 (light gray)
+   Fonts: Titillium Web (primary), Caveat (accent)
+   Gradient: diagonal blue → cyan
+*/
+
+/* Landing Container */
+.landing-container {
+   max-width: var(--max-width, 1200px);
+   margin: 0 auto;
+   padding: 0 1.5rem;
+}
+
+/* Section Title */
+.landing-section-title {
+   font-size: 2rem;
+   font-weight: 800;
+   text-align: center;
+   margin-bottom: 0.5rem;
+   letter-spacing: -0.02em;
+}
+
+.landing-section-subtitle {
+   text-align: center;
+   color: var(--color-text-muted);
+   margin-bottom: 2rem;
+   font-size: 1.1rem;
+}
+
+/* ============================
+   HERO
+   ============================ */
+.landing-hero {
+   background: linear-gradient(135deg, #1170CF 0%, #00AAFF 100%);
+   padding: 6rem 0 5rem;
+   text-align: center;
+   color: #fff;
+   position: relative;
+   overflow: hidden;
+}
+
+.landing-hero::after {
+   content: '';
+   position: absolute;
+   top: 0; left: 0; right: 0; bottom: 0;
+   background: radial-gradient(ellipse at 30% 50%, rgba(255,255,255,0.08) 0%, transparent 70%);
+   pointer-events: none;
+}
+
+.landing-hero-title {
+   font-size: 3rem;
+   font-weight: 800;
+   margin-bottom: 1rem;
+   letter-spacing: -0.03em;
+   position: relative;
+   z-index: 1;
+}
+
+.landing-hero-subtitle {
+   font-size: 1.25rem;
+   opacity: 0.92;
+   margin-bottom: 2rem;
+   max-width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   z-index: 1;
+}
+
+.landing-hero-actions {
+   position: relative;
+   z-index: 1;
+}
+
+.landing-appstore-badge img {
+   height: 48px;
+   width: auto;
+   transition: transform 0.2s;
+}
+
+.landing-appstore-badge:hover img {
+   transform: scale(1.05);
+}
+
+/* ============================
+   FEATURE GRID
+   ============================ */
+.landing-feature-grid {
+   padding: 4rem 0;
+   background: var(--color-bg-alt);
+}
+
+.landing-features {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+   gap: 2rem;
+}
+
+.landing-feature-card-link {
+   text-decoration: none;
+   color: inherit;
+}
+
+.landing-feature-card {
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border-light);
+   border-radius: var(--radius-lg, 12px);
+   padding: 2rem;
+   text-align: center;
+   transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.landing-feature-card-link:hover .landing-feature-card {
+   transform: translateY(-4px);
+   box-shadow: var(--color-shadow-lg);
+}
+
+.landing-feature-image {
+   width: 64px;
+   height: 64px;
+   margin-bottom: 1rem;
+   filter: var(--feature-icon-filter, none);
+}
+
+[data-theme="dark"] .landing-feature-image {
+   filter: invert(1) brightness(0.9);
+}
+
+.landing-feature-title {
+   font-size: 1.25rem;
+   font-weight: 700;
+   margin-bottom: 0.5rem;
+   color: var(--color-text);
+}
+
+.landing-feature-desc {
+   color: var(--color-text-secondary);
+   font-size: 0.95rem;
+   line-height: 1.5;
+}
+
+.landing-feature-card-link {
+   display: block;
+}
+
+/* ============================
+   PRICING
+   ============================ */
+.landing-pricing {
+   padding: 4rem 0;
+}
+
+.landing-pricing-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   gap: 2rem;
+   margin-top: 2rem;
+}
+
+.landing-pricing-card {
+   background: var(--color-bg-card);
+   border: 2px solid var(--color-border);
+   border-radius: var(--radius-lg, 12px);
+   padding: 2rem;
+   text-align: center;
+   transition: transform 0.2s;
+}
+
+.landing-pricing-card:hover {
+   transform: translateY(-2px);
+}
+
+.landing-pricing-highlighted {
+   border-color: #FFC700;
+   background: var(--color-bg);
+   box-shadow: 0 0 0 1px #FFC700, var(--color-shadow-lg);
+}
+
+.landing-pricing-header {
+   margin-bottom: 1rem;
+}
+
+.landing-pricing-name {
+   font-size: 1.25rem;
+   font-weight: 700;
+}
+
+.landing-pricing-badge {
+   display: inline-block;
+   background: #FFC700;
+   color: #212529;
+   font-size: 0.75rem;
+   font-weight: 700;
+   padding: 0.2rem 0.75rem;
+   border-radius: 999px;
+   margin-left: 0.5rem;
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+}
+
+.landing-pricing-price {
+   font-size: 2.5rem;
+   font-weight: 800;
+   margin: 1rem 0;
+   color: var(--color-text);
+}
+
+.landing-pricing-period {
+   font-size: 1rem;
+   font-weight: 400;
+   color: var(--color-text-muted);
+}
+
+.landing-pricing-features {
+   list-style: none;
+   padding: 0;
+   margin: 1.5rem 0;
+   text-align: left;
+}
+
+.landing-pricing-features li {
+   padding: 0.4rem 0;
+   border-bottom: 1px solid var(--color-border-light);
+   font-size: 0.95rem;
+   color: var(--color-text-secondary);
+}
+
+.landing-pricing-features li::before {
+   content: '✓ ';
+   color: #FFC700;
+   font-weight: 700;
+}
+
+/* ============================
+   REVIEWS
+   ============================ */
+.landing-reviews {
+   padding: 4rem 0;
+   background: var(--color-bg-alt);
+}
+
+.landing-reviews-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   gap: 1.5rem;
+   margin-top: 2rem;
+}
+
+.landing-review-card {
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border-light);
+   border-radius: var(--radius-lg, 12px);
+   padding: 1.5rem;
+}
+
+.landing-review-stars {
+   color: #FFC700;
+   font-size: 1.2rem;
+   margin-bottom: 0.75rem;
+}
+
+.landing-review-quote {
+   font-style: italic;
+   color: var(--color-text);
+   margin-bottom: 1rem;
+   line-height: 1.6;
+}
+
+.landing-review-author {
+   display: flex;
+   align-items: center;
+   gap: 0.75rem;
+}
+
+.landing-review-avatar {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background: var(--color-bg-alt);
+}
+
+.landing-review-author strong {
+   display: block;
+   font-size: 0.95rem;
+}
+
+.landing-review-author span {
+   font-size: 0.82rem;
+   color: var(--color-text-muted);
+}
+
+/* ============================
+   FAQ
+   ============================ */
+.landing-faq {
+   padding: 4rem 0;
+}
+
+.landing-faq-item {
+   border-bottom: 1px solid var(--color-border);
+   padding: 1rem 0;
+}
+
+.landing-faq-item summary {
+   font-weight: 600;
+   font-size: 1.05rem;
+   cursor: pointer;
+   padding: 0.5rem 0;
+   color: var(--color-text);
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.landing-faq-item summary::after {
+   content: '+';
+   font-size: 1.2rem;
+   color: var(--color-text-muted);
+   transition: transform 0.2s;
+}
+
+.landing-faq-item[open] summary::after {
+   content: '−';
+}
+
+.landing-faq-item p {
+   padding: 0.5rem 0 1rem;
+   color: var(--color-text-secondary);
+   line-height: 1.6;
+}
+
+/* ============================
+   CTA
+   ============================ */
+.landing-final-cta {
+   background: linear-gradient(135deg, #1170CF 0%, #00AAFF 100%);
+   padding: 5rem 0;
+   text-align: center;
+   color: #fff;
+}
+
+.landing-cta-title {
+   font-size: 2.5rem;
+   font-weight: 800;
+   margin-bottom: 2rem;
+   letter-spacing: -0.02em;
+}
+
+.landing-cta-button {
+   display: inline-block;
+   background: #FFC700;
+   color: #212529;
+   font-weight: 700;
+   font-size: 1rem;
+   padding: 0.8rem 2rem;
+   border-radius: 999px;
+   text-decoration: none;
+   transition: background 0.2s, transform 0.2s;
+}
+
+.landing-cta-button:hover {
+   background: #e6b400;
+   transform: translateY(-2px);
+   text-decoration: none;
+}
+
+.landing-cta-button-large {
+   font-size: 1.15rem;
+   padding: 1rem 3rem;
+}
+
+/* ============================
+   RESPONSIVE
+   ============================ */
+@media (max-width: 768px) {
+   .landing-hero {
+      padding: 4rem 0 3rem;
+   }
+
+   .landing-hero-title {
+      font-size: 2.2rem;
+   }
+
+   .landing-hero-subtitle {
+      font-size: 1.1rem;
+   }
+
+   .landing-section-title {
+      font-size: 1.6rem;
+   }
+
+   .landing-cta-title {
+      font-size: 1.8rem;
+   }
+
+   .landing-features {
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .landing-pricing-grid {
+      grid-template-columns: 1fr;
+   }
+}
+
+@media (max-width: 480px) {
+   .landing-features {
+      grid-template-columns: 1fr;
+   }
+
+   .landing-hero-title {
+      font-size: 1.8rem;
+   }
+}
+
+/* ============================
+   STATIC PAGES (feature detail, etc.)
+   ============================ */
+.sk-page-static .sk-main {
+   max-width: var(--content-width, 720px);
+   margin: 3rem auto;
+   padding: 0 1.5rem;
+}
+
+.sk-page-static h1 {
+   font-size: 2.2rem;
+   font-weight: 800;
+   margin-bottom: 0.5rem;
+   letter-spacing: -0.02em;
+}
+
+.sk-page-static h2 {
+   font-size: 1.5rem;
+   font-weight: 700;
+   margin-top: 2rem;
+   margin-bottom: 0.75rem;
+}
+
+.sk-page-static h3 {
+   font-size: 1.2rem;
+   font-weight: 600;
+   margin-top: 1.5rem;
+   margin-bottom: 0.5rem;
+}
+
+.sk-page-static p {
+   line-height: 1.7;
+   color: var(--color-text-secondary);
+   margin-bottom: 1rem;
+}
+
+.sk-page-static a {
+   color: var(--color-accent);
+}
+
+.sk-page-static ul {
+   margin: 1rem 0;
+   padding-left: 1.5rem;
+}
+
+.sk-page-static li {
+   margin-bottom: 0.4rem;
+   color: var(--color-text-secondary);
+}
+
+.sk-page-static strong {
+   color: var(--color-text);
+}

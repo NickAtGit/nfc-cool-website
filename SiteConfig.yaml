@@ -1,0 +1,46 @@
+name: "NFC.cool"
+baseURL: "https://new.nfc.cool"
+description: "Scan NFC, QR & Barcodes, Documents, 3D Objects and Rooms — The All-in-One Scanner for Your Smartphone"
+language: "en"
+
+contentDirectory: "Content"
+outputDirectory: "_Site"
+assetsDirectory: "Content/Assets"
+
+navigation:
+  logo:
+    image: "/assets/theme/images/logo-white.svg"
+    text: "NFC.cool"
+  items:
+    - title: "NFC"
+      url: "/nfc-reader-writer/"
+    - title: "QR & Barcode"
+      url: "/qr-barcode-scanner/"
+    - title: "Documents"
+      url: "/document-scanner/"
+    - title: "3D Scanner"
+      url: "/3d-room-scanner/"
+    - title: "Blog"
+      url: "https://blog.nfc.cool"
+    - title: "Support"
+      url: "/contact/"
+  showSearch: false
+  showThemeToggle: true
+
+sections: []
+
+footer:
+  copyrightName: "NFC.cool"
+  startYear: 2024
+  social:
+    - platform: "instagram"
+      url: "https://www.instagram.com/nfc.cool"
+    - platform: "tiktok"
+      url: "https://www.tiktok.com/@nfc.cool"
+  links:
+    - title: "Privacy"
+      url: "/privacy-policy/"
+    - title: "Terms"
+      url: "/terms/"
+    - title: "Blog"
+      url: "https://blog.nfc.cool"
