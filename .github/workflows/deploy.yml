@@ -12,33 +12,34 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
-    runs-on: macos-15
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Swift
-        run: |
-          swift --version || true
+      - name: Setup Swift
+        uses: swift-actions/setup-swift@v2
+        with:
+          swift-version: "6.2"
 
-      - name: Build Site
-        run: |
-          swift run Site build
+      - name: Build site
+        run: swift run Site build 2>&1 || swift run -c release Site build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _Site
+          path: '_Site'
 
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
