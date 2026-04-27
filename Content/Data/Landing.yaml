@@ -1,31 +1,25 @@
 appStoreURL: "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=Website&mt=8"
-googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite"
 
 hero:
   title: "The All-in-One Scanner"
   subtitle: "Scan NFC tags, QR codes, barcodes, documents, 3D objects, and entire rooms — all in one app."
-  ctaText: "Download Free"
 
 features:
   - title: "NFC Reader & Writer"
     description: "Read, write, and program any NFC tag. Share contact info, URLs, and more with a tap."
-    imagePath: "/assets/images/Features/nfc.svg"
+    imagePath: "/assets/theme/images/nfc.svg"
     url: "/nfc-reader-writer/"
   - title: "QR & Barcode Scanner"
     description: "Scan any QR code or barcode instantly. Create custom QR codes with the built-in studio."
-    imagePath: "/assets/images/Features/qr.svg"
+    imagePath: "/assets/theme/images/qr.svg"
     url: "/qr-barcode-scanner/"
   - title: "Document Scanner"
     description: "Go paperless — scan, sign, and share documents with professional quality."
-    imagePath: "/assets/images/Features/document.svg"
+    imagePath: "/assets/theme/images/document.svg"
     url: "/document-scanner/"
-  - title: "Digital Business Card"
-    description: "Create and share your digital business card with an NFC tap. No app needed on the receiving end."
-    imagePath: "/assets/images/Features/nfc.svg"
-    url: "/business-card/"
   - title: "3D Object & Room Scanner"
     description: "Create high-quality 3D models of objects and entire rooms with LiDAR support."
-    imagePath: "/assets/images/Features/3d.svg"
+    imagePath: "/assets/theme/images/3d.svg"
     url: "/3d-room-scanner/"
 
 pricing:
@@ -64,8 +58,6 @@ faq:
     answer: "Reading NFC tags, scanning QR codes & barcodes, and basic document scanning are all free. Writing NFC tags, advanced features, and 3D export require a Platinum subscription."
   - question: "Is my data private?"
     answer: "Absolutely. NFC.cool stores everything locally on your device. No accounts, no cloud, no tracking. Your data stays yours."
-  - question: "Is NFC.cool available on Android?"
-    answer: "Yes! NFC.cool is available on both iOS and Android. Download from the App Store or Google Play Store."
 
 cta:
   title: "Ready to Scan the World?"

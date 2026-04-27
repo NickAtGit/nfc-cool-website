@@ -81,7 +81,7 @@ struct LandingPageRenderer: Renderer {
             <p class="landing-hero-subtitle">\(hero.subtitle.htmlEscaped)</p>
             <div class="landing-hero-actions">
                <a href="\(appStoreURL)" class="landing-appstore-badge">
-                  <img src="/assets/images/AppStore/AppStore_Black.svg" alt="Download on the App Store" width="156" height="40"/>
+                  <img src="/assets/theme/images/app-store-badge.svg" alt="Download on the App Store" width="156" height="40"/>
                </a>
             </div>
          </div>
