@@ -1,5 +1,0 @@
-redirects:
-  - from: "/terms-and-conditions"
-    to: "/terms/"
-  - from: "/webhook"
-    to: "/"
