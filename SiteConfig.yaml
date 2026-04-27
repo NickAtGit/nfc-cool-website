@@ -20,10 +20,8 @@ author:
 
 navigation:
   logo:
-    image: "/assets/images/Tools-iOS/AppIcon-1024.png"
-    imageWidth: 32
-    imageHeight: 32
-    text: "NFC.cool"
+    image: "/assets/theme/images/nfc-cool-logo-dark.svg"
+    text: ""
   items:
     - title: "Features"
       url: "/#features"
