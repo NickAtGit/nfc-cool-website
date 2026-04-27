@@ -77,7 +77,7 @@ struct LandingPageRenderer: Renderer {
       """
       <section class="landing-hero">
          <div class="landing-container">
-            <h1 class="landing-hero-title">\(hero.title)</h1>
+            <h1 class="landing-hero-title">The <span class="accent">All-in-One</span> Scanner</h1>
             <p class="landing-hero-subtitle">\(hero.subtitle.htmlEscaped)</p>
             <div class="landing-hero-actions">
                <a href="\(appStoreURL)" class="landing-appstore-badge">
