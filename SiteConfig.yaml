@@ -1,15 +1,13 @@
 name: "NFC.cool"
 baseURL: "https://new.nfc.cool"
 description: "Scan NFC, QR & Barcodes, Documents, 3D Objects and Rooms — The All-in-One Scanner for Your Smartphone"
-language: "en"
-
 contentDirectory: "Content"
 outputDirectory: "_Site"
-assetsDirectory: "Content/Assets"
+
+sections: []
 
 navigation:
   logo:
-    image: "/assets/theme/images/logo-white.svg"
     text: "NFC.cool"
   items:
     - title: "NFC"
@@ -27,16 +25,6 @@ navigation:
   showSearch: false
   showThemeToggle: true
 
-author:
-  name: "NFC.cool"
-  email: "hello@nfc.cool"
-
-homePage:
-  title: "NFC.cool"
-  subtitle: "The All-in-One Scanner for Your Smartphone"
-
-sections: []
-
 footer:
   copyrightName: "NFC.cool"
   startYear: 2024
@@ -50,5 +38,3 @@ footer:
       url: "/privacy-policy/"
     - title: "Terms"
       url: "/terms/"
-    - title: "Blog"
-      url: "https://blog.nfc.cool"
