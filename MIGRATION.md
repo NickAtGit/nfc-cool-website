@@ -1,6 +1,6 @@
 # NFC.cool Website Migration Tracker
 
-## Status: In Progress
+## Status: In Progress — CI Build Testing
 
 ### What's Done
 - [x] Created SiteKit project structure (AppLanding blueprint)
@@ -8,13 +8,18 @@
 - [x] Landing.yaml with hero, features, pricing, reviews, FAQ, CTA
 - [x] Dedicated feature pages (NFC, QR, Document, 3D)
 - [x] Privacy Policy & Terms pages
-- [x] GitHub repo pushed: robin-wonderboy/nfc-cool-website
-- [x] GitHub Pages configured with CNAME: new.nfc.cool
-- [x] GitHub Actions deploy workflow
+- [x] GitHub repo: robin-wonderboy/nfc-cool-website (public, GitHub Pages enabled)
+- [x] CNAME: new.nfc.cool configured
+- [x] GitHub Actions deploy workflow (Ubuntu + Swift 6.2)
+- [x] PAT_TOKEN secret configured for SiteKit-Package access
+- [x] Fixed SiteConfig missing required `language` field
+
+### Current Blocker
+- CI build fails with `SiteConfigError.invalidYAML("The data is missing")` — testing fix now
 
 ### Needs Work
-- [ ] DNS: Add CNAME record for new.nfc.cool → robin-wonderboy.github.io (Nico needs to do this in Cloudflare)
-- [ ] Verify first successful GitHub Actions build (macos-15 runner needs Swift 6.2 — may need adjustment)
+- [ ] Verify first successful GitHub Actions build
+- [ ] DNS: Add CNAME record for new.nfc.cool → robin-wonderboy.github.io
 - [ ] Visual QA: Compare new site vs current Webflow site
 - [ ] Hero section: Add app screenshots/mockups
 - [ ] Feature pages: Add more detail, screenshots, App Store deep links
@@ -26,6 +31,6 @@
 - [ ] Dark mode QA
 - [ ] Cut over: Switch nfc.cool DNS from Webflow to GitHub Pages when ready
 
-### Known Issues
-- Can't build locally (needs macOS 26 / Swift 6.2 runtime) — builds fine in Xcode, runs in CI
-- GitHub Actions needs `macos-15` runner with Xcode 26 beta for Swift 6.2
+### Notes
+- Can't build locally (needs macOS 26 / Swift 6.2 runtime) — CI builds on Ubuntu
+- SiteKit-Package is private — needs PAT_TOKEN in GitHub Actions
