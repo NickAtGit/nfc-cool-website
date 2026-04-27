@@ -7,6 +7,7 @@ contentDirectory: "Content"
 outputDirectory: "_Site"
 assetsDirectory: "Content/Assets"
 blogURLPrefix: "blog"
+redirectsFile: "redirects.yaml"
 categories: []
 
 author:
@@ -25,6 +26,8 @@ navigation:
       url: "/document-scanner/"
     - title: "3D Scanner"
       url: "/3d-room-scanner/"
+    - title: "Business Card"
+      url: "/business-card/"
     - title: "Blog"
       url: "https://blog.nfc.cool"
     - title: "Support"
@@ -44,7 +47,17 @@ footer:
   social:
     - platform: "instagram"
       url: "https://www.instagram.com/nfc.cool"
+    - platform: "twitter"
+      url: "https://twitter.com/NFC_for_iPhone"
+    - platform: "youtube"
+      url: "https://www.youtube.com/@NFC_cool"
+    - platform: "tiktok"
+      url: "https://www.tiktok.com/@nfc.cool"
+    - platform: "facebook"
+      url: "https://www.facebook.com/NFC.cool/"
   links:
+    - title: "Business Card"
+      url: "/business-card/"
     - title: "Privacy"
       url: "/privacy-policy/"
     - title: "Terms"
