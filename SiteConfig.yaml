@@ -1,0 +1,49 @@
+name: "NFC.cool"
+baseURL: "https://new.nfc.cool"
+description: "NFC, QR & barcode, document, 3D and room scanning — plus a digital business card. The all-in-one scanning toolkit, free on iPhone and Android."
+language: "en"
+
+contentDirectory: "Content"
+outputDirectory: "_Site"
+assetsDirectory: "Content/Assets"
+
+categories: []
+sections: []
+
+homePage:
+  title: "NFC.cool"
+  subtitle: "All-in-one scanning toolkit — free on iPhone and Android"
+
+author:
+  name: "NFC.cool"
+  email: "hello@nfc.cool"
+
+navigation:
+  logo:
+    image: "/assets/images/Tools-iOS/AppIcon-1024.png"
+    imageWidth: 32
+    imageHeight: 32
+    text: "NFC.cool"
+  items:
+    - title: "Features"
+      url: "/#features"
+    - title: "Business Card"
+      url: "/#business-card"
+    - title: "FAQ"
+      url: "/#faq"
+  showSearch: false
+  showThemeToggle: true
+
+footer:
+  copyrightName: "NFC.cool"
+  startYear: 2024
+  social:
+    - platform: "instagram"
+      url: "https://www.instagram.com/nfc.cool"
+    - platform: "tiktok"
+      url: "https://www.tiktok.com/@nfc.cool"
+  links:
+    - title: "Privacy"
+      url: "/privacy/"
+    - title: "Imprint"
+      url: "/impressum/"

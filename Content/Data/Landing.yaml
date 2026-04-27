@@ -1,0 +1,55 @@
+appStoreURL: "https://ios.nfc.cool"
+googlePlayURL: "https://android.nfc.cool"
+
+hero:
+  title: "NFC.cool"
+  subtitle: "NFC, QR codes, documents, 3D and room scanning — plus a digital business card. The all-in-one scanning toolkit, free on iPhone and Android."
+
+features:
+  - title: "NFC reading & writing"
+    description: "Read any NFC tag and write 25+ message types — links, Wi-Fi, contacts, payments, shortcuts, social profiles. Encrypt secrets with NFC Safe (256-bit AES)."
+    imagePath: "/assets/images/Tools-iOS/Screenshot-1.png"
+    platforms: "iOS · Android"
+  - title: "QR & barcode scanning"
+    description: "Scan QR and 25+ barcode formats with batch mode. Detect QR codes in photos. Design custom QR codes with logos and Genmoji."
+    imagePath: "/assets/images/Tools-iOS/Screenshot-2.png"
+    platforms: "iOS only"
+  - title: "Document scanning with OCR"
+    description: "Capture documents with automatic edge detection and on-device OCR. Save as searchable PDFs."
+    imagePath: "/assets/images/Tools-iOS/Screenshot-3.png"
+    platforms: "iOS only"
+  - title: "3D object & room scanning"
+    description: "Photogrammetry for 3D models, LiDAR for floor plans with automatic detection of doors, windows, and furniture. Requires iPhone with LiDAR (12 Pro and newer)."
+    imagePath: "/assets/images/Tools-iOS/Screenshot-4.png"
+    platforms: "iOS only"
+  - title: "Automation & widgets"
+    description: "Webhooks, iOS Shortcuts, lock-screen widgets, auto-actions. Send scan data anywhere. Quick-launch from home screen or Control Center."
+    imagePath: "/assets/images/Tools-iOS/Screenshot-5.png"
+    platforms: "iOS only"
+  - title: "Privacy by default"
+    description: "Scans stay on your device. Optional webhooks let you send data to your own server — never to ours."
+    imagePath: "/assets/images/Tools-iOS/Screenshot-6.png"
+    platforms: "iOS · Android"
+
+featureBanner:
+  title: "NFC.cool Business Card"
+  subtitle: "A dedicated digital business card app for iPhone — share via NFC tap, QR code, AppClip, or Apple Wallet. Track who saves your card, organize leads, and Conference Mode for live events. On Android, the same features are bundled inside NFC.cool Tools."
+  ctaText: "Get NFC.cool Business Card"
+  imagePath: "/assets/images/BusinessCard/Screenshot-1.jpg"
+  linkURL: "https://business-card.nfc.cool"
+
+faq:
+  - question: "What's the difference between iOS and Android?"
+    answer: "The iPhone app is a full scanning toolkit — NFC, QR & barcodes, documents (with OCR), 3D and room scanning. The Android app focuses on NFC reading and writing and includes the digital business card features. Other features will arrive on Android over time."
+  - question: "Is the digital business card a separate app?"
+    answer: "On iPhone, yes — NFC.cool Business Card Maker is a dedicated app. On Android, the same business card features are included inside NFC.cool Tools."
+  - question: "Do I need a special iPhone for 3D and room scanning?"
+    answer: "Room scanning needs LiDAR — that's iPhone 12 Pro and newer Pro models. Photogrammetry-based 3D object scanning works on more devices."
+  - question: "Is the app free?"
+    answer: "Yes — both apps are free on the App Store and Google Play. Some advanced features may be unlockable inside the apps."
+  - question: "Where is my data stored?"
+    answer: "Scans stay on your device by default. You can opt in to webhooks if you want to send scan data to your own server."
+
+cta:
+  title: "Start scanning. It's free."
+  buttonText: "Download for iOS"

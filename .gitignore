@@ -1,6 +1,7 @@
 .build/
 _Site/
 .swiftpm/
+.sitekit-cache/
 Package.resolved
 *.xcodeproj
 *.xcworkspace
