@@ -27,6 +27,14 @@ navigation:
   showSearch: false
   showThemeToggle: true
 
+author:
+  name: "NFC.cool"
+  email: "hello@nfc.cool"
+
+homePage:
+  title: "NFC.cool"
+  subtitle: "The All-in-One Scanner for Your Smartphone"
+
 sections: []
 
 footer:
