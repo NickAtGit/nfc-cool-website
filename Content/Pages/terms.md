@@ -1,8 +1,8 @@
 ---
 title: "Terms and Conditions"
 description: "NFC.cool terms and conditions for using our app and services."
+slug: "terms"
 date: 2024-01-01
-layout: page
 ---
 
 ## Terms and Conditions

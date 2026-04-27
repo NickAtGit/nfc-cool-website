@@ -1,8 +1,8 @@
 ---
 title: "Support"
 description: "Get help with NFC.cool — contact our support team for questions, feedback, or assistance."
+slug: "contact"
 date: 2026-04-27
-layout: page
 ---
 
 ## Need Help?

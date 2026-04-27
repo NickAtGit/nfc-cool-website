@@ -1,8 +1,8 @@
 ---
 title: "3D Object & Room Scanner"
-description: "Create high-quality 3D models of objects and entire rooms. LiDAR support for accurate measurements and realistic scans."
+description: "Create high-quality 3D models of objects and entire rooms. LiDAR support for accurate measurements."
+slug: "3d-room-scanner"
 date: 2026-04-27
-layout: feature
 ---
 
 ## Scan in 3D

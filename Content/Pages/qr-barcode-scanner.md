@@ -1,8 +1,8 @@
 ---
 title: "QR & Barcode Scanner"
-description: "Scan any QR code or barcode instantly. Create custom QR codes with the built-in QR Code Studio — URLs, Wi-Fi, vCards, and more."
+description: "Scan any QR code or barcode instantly. Create custom QR codes with the built-in QR Code Studio."
+slug: "qr-barcode-scanner"
 date: 2026-04-27
-layout: feature
 ---
 
 ## Scan & Create QR Codes

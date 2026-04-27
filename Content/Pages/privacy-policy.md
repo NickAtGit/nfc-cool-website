@@ -1,8 +1,8 @@
 ---
 title: "Privacy Policy"
 description: "NFC.cool privacy policy — your data stays on your device."
+slug: "privacy-policy"
 date: 2024-01-01
-layout: page
 ---
 
 ## Privacy Policy

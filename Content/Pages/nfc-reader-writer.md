@@ -1,8 +1,8 @@
 ---
 title: "NFC Reader & Writer"
 description: "Read, write, and program any NFC tag with NFC.cool. Share contact info, URLs, and more with a tap. Supports all NFC tag types."
+slug: "nfc-reader-writer"
 date: 2026-04-27
-layout: feature
 ---
 
 ## The Complete NFC Toolkit

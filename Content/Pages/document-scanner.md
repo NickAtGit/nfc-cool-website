@@ -1,8 +1,8 @@
 ---
 title: "Document Scanner"
-description: "Go paperless — scan, sign, and share documents with professional quality using NFC.cool's built-in document scanner."
+description: "Go paperless — scan, sign, and share documents with professional quality."
+slug: "document-scanner"
 date: 2026-04-27
-layout: feature
 ---
 
 ## Go Paperless
