@@ -4,6 +4,8 @@ struct LandingData: Decodable, Sendable {
    let appStoreURL: String
    let googlePlayURL: String?
    let hero: HeroSection
+   let trust: TrustSection?
+   let heroImagePath: String?
    let features: [Feature]?
    let featureBanner: FeatureBannerSection?
    let testimonials: [Testimonial]?
@@ -13,6 +15,14 @@ struct LandingData: Decodable, Sendable {
    let faq: [FAQItem]?
    let cta: CTASection?
    let techSpecs: TechSpecsSection?
+   let slogan: String?
+}
+
+struct TrustSection: Decodable, Sendable {
+   let rating: String?
+   let ratingCount: Int?
+   let version: String?
+   let price: String?
 }
 
 struct HeroSection: Decodable, Sendable {

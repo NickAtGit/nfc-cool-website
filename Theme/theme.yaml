@@ -1,10 +1,44 @@
-name: "AppLanding"
-colorScheme: "violet"
-fontPairing: "professional"
+name: "NFC.cool"
+preset: "minimal"
+colorScheme: "custom"
+fontPairing: "custom"
+selfHostedFonts: true
+
 css:
-  - "css/theme.css"
-  - "css/landing.css"
+   - "css/theme.css"
+   - "css/landing.css"
 js:
-  - "js/theme.js"
+   - "js/theme.js"
 favicons:
-  - "images/favicon.svg"
+   - "images/favicon.svg"
+
+tokens:
+   # Brand-defined palette (Brand Manual V1)
+   colorAccent:        { any: "#FFC709", dark: "#FFC709" }
+   colorAccentHover:   { any: "#E6B400", dark: "#FFD93D" }
+   colorAccentLight:   { any: "rgba(255,199,9,0.12)", dark: "rgba(255,199,9,0.18)" }
+   colorBg:            { any: "#FFFFFF", dark: "#0E1116" }
+   colorBgAlt:         { any: "#F5F6F8", dark: "#161B22" }
+   colorBgCard:        { any: "#FFFFFF", dark: "#1C2128" }
+   colorText:          { any: "#212529", dark: "#F0F2F5" }
+   colorTextSecondary: { any: "#495057", dark: "#C2C8D0" }
+   colorTextMuted:     { any: "#6C757D", dark: "#8B949E" }
+   colorBorder:        { any: "#E6E8EB", dark: "#30363D" }
+   colorBorderLight:   { any: "#F0F1F3", dark: "#21262D" }
+   colorCodeBg:        { any: "#F5F6F8", dark: "#161B22" }
+   colorCodeText:      { any: "#212529", dark: "#F0F2F5" }
+   colorShadow:        { any: "rgba(33,37,41,0.06)", dark: "rgba(0,0,0,0.30)" }
+   colorShadowLg:      { any: "rgba(33,37,41,0.16)", dark: "rgba(0,0,0,0.50)" }
+
+   # Brand-defined typography (Titillium Web for body/headings, Caveat for script accents)
+   fontHeading:        { family: "Titillium Web", weights: [400, 600, 700] }
+   fontBody:           { family: "Titillium Web", weights: [400, 600, 700] }
+   fontMono:           { family: "Titillium Web", weights: [400, 600] }
+
+   # Layout
+   maxWidth:           "1200px"
+   contentWidth:       "680px"
+   headerHeight:       "72px"
+   radius:             "8px"
+   radiusLg:           "14px"
+   transition:         "0.2s ease"

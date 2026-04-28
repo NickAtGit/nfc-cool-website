@@ -1,367 +1,508 @@
-/* NFC.cool Landing Page Styles
-   Clean, modern design inspired by fline.dev's SiteKit aesthetic
-   Uses SiteKit token system — all colors via var(--color-*) 
-   Layout from Minimal theme template */
+/* NFC.cool — Landing page sections (Brand Manual V1) */
 
 /* ============================================================
-   LANDING HERO — Clean, centered, brand-accented
-   ============================================================ */
-.landing-hero {
-   padding: 5rem 0 3rem;
-   text-align: center;
-}
-
-.landing-hero-title {
-   font-size: clamp(2rem, 5vw, 3rem);
-   font-weight: 800;
-   margin-bottom: 0.75rem;
-   letter-spacing: -0.03em;
-   color: var(--color-text);
-}
-
-.landing-hero-title .accent {
-   color: var(--color-accent);
-}
-
-.landing-hero-subtitle {
-   font-size: clamp(1.0625rem, 2.5vw, 1.25rem);
-   color: var(--color-text-secondary);
-   margin-bottom: 2rem;
-   max-width: 560px;
-   margin-left: auto;
-   margin-right: auto;
-   line-height: 1.7;
-}
-
-.landing-hero-actions {
-   display: flex;
-   justify-content: center;
-   gap: 1rem;
-   flex-wrap: wrap;
-}
-
-.landing-appstore-badge {
-   display: inline-block;
-   transition: transform 0.2s;
-}
-
-.landing-appstore-badge:hover {
-   transform: scale(1.05);
-}
-
-.landing-appstore-badge img {
-   height: 48px;
-   width: auto;
-}
-
-/* ============================================================
-   FEATURE GRID — Clean cards with icons
-   ============================================================ */
-.landing-feature-grid {
-   padding: 3rem 0;
-   background: var(--color-bg-alt);
-}
-
-.landing-features {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-   gap: 1.25rem;
-}
-
-.landing-feature-card-link {
-   text-decoration: none;
-   color: inherit;
-   display: block;
-}
-
-.landing-feature-card {
-   background: var(--color-bg-card);
-   border: 1px solid var(--color-border-light);
-   border-radius: var(--radius-lg);
-   padding: 1.75rem 1.5rem;
-   transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.landing-feature-card-link:hover .landing-feature-card {
-   transform: translateY(-3px);
-   box-shadow: var(--color-shadow-lg);
-}
-
-.landing-feature-image {
-   width: 48px;
-   height: 48px;
-   margin-bottom: 0.875rem;
-}
-
-[data-theme="dark"] .landing-feature-image {
-   filter: brightness(0) invert(1) opacity(0.85);
-}
-
-.landing-feature-title {
-   font-size: 1.0625rem;
-   font-weight: 700;
-   margin-bottom: 0.375rem;
-   color: var(--color-text);
-}
-
-.landing-feature-desc {
-   color: var(--color-text-muted);
-   font-size: 0.9375rem;
-   line-height: 1.6;
-}
-
-/* ============================================================
-   PRICING — Clean tier cards
-   ============================================================ */
-.landing-pricing {
-   padding: 4rem 0;
-}
-
-.landing-section-title {
-   font-size: 1.75rem;
-   font-weight: 800;
-   text-align: center;
-   margin-bottom: 0.5rem;
-   letter-spacing: -0.02em;
-}
-
-.landing-section-subtitle {
-   text-align: center;
-   color: var(--color-text-muted);
-   margin-bottom: 2rem;
-   font-size: 1.0625rem;
-}
-
-.landing-pricing-grid {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-   gap: 1.5rem;
-   margin-top: 2rem;
-}
-
-.landing-pricing-card {
-   background: var(--color-bg-card);
-   border: 2px solid var(--color-border);
-   border-radius: var(--radius-lg);
-   padding: 2rem;
-   text-align: center;
-   transition: transform 0.2s;
-}
-
-.landing-pricing-card:hover {
-   transform: translateY(-2px);
-}
-
-.landing-pricing-highlighted {
-   border-color: var(--color-accent);
-   box-shadow: 0 0 0 1px var(--color-accent), var(--color-shadow-lg);
-}
-
-.landing-pricing-header {
-   margin-bottom: 1rem;
-}
-
-.landing-pricing-name {
-   font-size: 1.25rem;
-   font-weight: 700;
-}
-
-.landing-pricing-badge {
-   display: inline-block;
-   background: var(--color-accent);
-   color: #212529;
-   font-size: 0.75rem;
-   font-weight: 700;
-   padding: 0.2rem 0.75rem;
-   border-radius: 999px;
-   margin-left: 0.5rem;
-   text-transform: uppercase;
-   letter-spacing: 0.05em;
-}
-
-.landing-pricing-price {
-   font-size: 2.25rem;
-   font-weight: 800;
-   margin: 1rem 0;
-   color: var(--color-text);
-}
-
-.landing-pricing-features {
-   list-style: none;
-   padding: 0;
-   margin: 1.5rem 0;
-   text-align: left;
-}
-
-.landing-pricing-features li {
-   padding: 0.35rem 0;
-   border-bottom: 1px solid var(--color-border-light);
-   font-size: 0.9375rem;
-   color: var(--color-text-secondary);
-}
-
-.landing-pricing-features li::before {
-   content: '✓ ';
-   color: var(--color-accent);
-   font-weight: 700;
-}
-
-/* ============================================================
-   REVIEWS — Subtle quote cards
-   ============================================================ */
-.landing-reviews {
-   padding: 4rem 0;
-   background: var(--color-bg-alt);
-}
-
-.landing-reviews-grid {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-   gap: 1.25rem;
-   margin-top: 2rem;
-}
-
-.landing-review-card {
-   background: var(--color-bg-card);
-   border: 1px solid var(--color-border-light);
-   border-radius: var(--radius-lg);
-   padding: 1.5rem;
-}
-
-.landing-review-stars {
-   color: var(--color-accent);
-   font-size: 1rem;
-   margin-bottom: 0.75rem;
-}
-
-.landing-review-quote {
-   font-style: italic;
-   color: var(--color-text);
-   margin-bottom: 1rem;
-   line-height: 1.65;
-   font-size: 0.9375rem;
-}
-
-.landing-review-author {
-   display: flex;
-   align-items: center;
-   gap: 0.5rem;
-}
-
-.landing-review-author strong {
-   font-size: 0.875rem;
-}
-
-.landing-review-author span {
-   font-size: 0.8125rem;
-   color: var(--color-text-muted);
-}
-
-/* ============================================================
-   FAQ — Collapsible details
-   ============================================================ */
-.landing-faq {
-   padding: 4rem 0;
-}
-
-.landing-faq-item {
-   border-bottom: 1px solid var(--color-border);
-   padding: 0.75rem 0;
-}
-
-.landing-faq-item summary {
-   font-weight: 600;
-   font-size: 1.0625rem;
-   cursor: pointer;
-   padding: 0.5rem 0;
-   color: var(--color-text);
-   list-style: none;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.landing-faq-item summary::after {
-   content: '+';
-   font-size: 1.2rem;
-   color: var(--color-text-muted);
-   transition: transform 0.2s;
-}
-
-.landing-faq-item[open] summary::after {
-   content: '−';
-}
-
-.landing-faq-item p {
-   padding: 0.5rem 0 1rem;
-   color: var(--color-text-secondary);
-   line-height: 1.7;
-}
-
-/* ============================================================
-   CTA — Accent background, clean button
-   ============================================================ */
-.landing-final-cta {
-   background: var(--color-bg-alt);
-   padding: 5rem 0;
-   text-align: center;
-}
-
-.landing-cta-title {
-   font-size: clamp(1.75rem, 4vw, 2.5rem);
-   font-weight: 800;
-   margin-bottom: 2rem;
-   letter-spacing: -0.02em;
-}
-
-.landing-cta-button {
-   display: inline-block;
-   background: var(--color-accent);
-   color: #212529;
-   font-weight: 700;
-   font-size: 1rem;
-   padding: 0.8rem 2rem;
-   border-radius: 999px;
-   text-decoration: none;
-   transition: background 0.2s, transform 0.2s;
-}
-
-.landing-cta-button:hover {
-   background: var(--color-accent-hover);
-   transform: translateY(-2px);
-   text-decoration: none;
-   color: #212529;
-}
-
-.landing-cta-button-large {
-   font-size: 1.125rem;
-   padding: 1rem 2.5rem;
-}
-
-/* ============================================================
-   CONTAINER
+   Container
    ============================================================ */
 .landing-container {
-   max-width: var(--max-width, 1200px);
+   max-width: var(--max-width);
    margin: 0 auto;
    padding: 0 1.5rem;
 }
 
 /* ============================================================
-   RESPONSIVE
+   HERO — Full-bleed brand-blue gradient
    ============================================================ */
-@media (max-width: 768px) {
-   .landing-features {
-      grid-template-columns: 1fr 1fr;
-   }
+.landing-hero {
+   position: relative;
+   background: var(--brand-gradient);
+   color: #FFFFFF;
+   padding: clamp(4rem, 9vw, 7rem) 0 clamp(3rem, 6vw, 5rem);
+   overflow: hidden;
+   isolation: isolate;
+}
+/* Subtle radial highlight to add depth (matches brand cover) */
+.landing-hero::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: radial-gradient(at 70% 25%, rgba(255,255,255,0.18) 0%, transparent 55%);
+   pointer-events: none;
+   z-index: -1;
+}
+/* Subtle grain to avoid flat-banding on big gradient surfaces */
+.landing-hero::after {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background-image:
+      radial-gradient(circle at 0 0, rgba(255,255,255,0.04) 1px, transparent 1px),
+      radial-gradient(circle at 8px 8px, rgba(255,255,255,0.04) 1px, transparent 1px);
+   background-size: 16px 16px;
+   pointer-events: none;
+   opacity: 0.5;
+   z-index: -1;
+}
+.landing-hero .landing-container {
+   display: grid;
+   grid-template-columns: 1.1fr 1fr;
+   gap: clamp(2rem, 4vw, 4rem);
+   align-items: center;
+}
+.landing-hero-title {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(2.25rem, 6vw, 4rem);
+   line-height: 1.05;
+   letter-spacing: -0.025em;
+   margin: 0 0 1rem;
+   color: #FFFFFF;
+}
+.landing-hero-title .brand-tail {
+   /* yellow ".cool" override the .brand-tail base color stays yellow */
+   margin-left: -0.05em;
+   font-size: 0.78em;
+   line-height: 0.6;
+   display: inline-block;
+   transform: translateY(-0.06em);
+}
+.landing-hero-subtitle {
+   font-size: clamp(1.0625rem, 1.6vw, 1.25rem);
+   line-height: 1.55;
+   color: rgba(255, 255, 255, 0.9);
+   margin: 0 0 2rem;
+   max-width: 30em;
+}
+.landing-hero-actions {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.75rem;
+   margin-bottom: 1.25rem;
+}
+.landing-hero-trust {
+   margin: 0;
+   color: rgba(255, 255, 255, 0.85);
+   font-size: 0.875rem;
+   font-feature-settings: "tnum";
+   letter-spacing: 0.01em;
+}
+.landing-hero-trust .stars {
+   color: var(--color-accent);
+   margin-right: 0.4em;
+   letter-spacing: 0.05em;
+}
+.landing-hero-trust .sep {
+   margin: 0 0.5em;
+   opacity: 0.55;
+}
 
-   .landing-pricing-grid {
+/* Hero visual — phone screenshot in soft float */
+.landing-hero-visual {
+   position: relative;
+   align-self: center;
+}
+.landing-hero-visual img {
+   display: block;
+   max-width: 100%;
+   width: 100%;
+   height: auto;
+   border-radius: 36px;
+   box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.35), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
+   transform: rotate(-2deg);
+}
+
+/* ============================================================
+   STORE BUTTONS — official App Store badge + matching Google Play text button
+   ============================================================ */
+.landing-store-buttons {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.75rem;
+}
+.landing-store-button {
+   display: inline-flex;
+   align-items: center;
+   gap: 0.625rem;
+   height: 52px;
+   padding: 0 1.125rem;
+   background: #000000;
+   color: #FFFFFF;
+   border-radius: 10px;
+   text-decoration: none;
+   transition: transform var(--transition), box-shadow var(--transition);
+   line-height: 1.05;
+   font-family: var(--font-body);
+}
+.landing-store-button:hover {
+   transform: translateY(-1px);
+   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+   color: #FFFFFF;
+}
+.landing-store-button.is-apple {
+   /* Replaces the SVG badge wrapper — height + padding match brand badge proportions */
+   padding: 0;
+   background: transparent;
+}
+.landing-store-button.is-apple img {
+   height: 52px;
+   width: auto;
+   display: block;
+}
+.landing-store-button.is-google {
+   padding-left: 0.875rem;
+   padding-right: 1.25rem;
+}
+.landing-store-button.is-google .glyph {
+   display: inline-flex;
+   width: 22px;
+   height: 22px;
+   align-items: center;
+   justify-content: center;
+}
+.landing-store-button.is-google .glyph svg {
+   width: 22px;
+   height: 22px;
+}
+.landing-store-button-meta {
+   display: block;
+   font-size: 0.6875rem;
+   font-weight: 500;
+   letter-spacing: 0.04em;
+   opacity: 0.85;
+   text-transform: uppercase;
+}
+.landing-store-button-name {
+   display: block;
+   font-size: 1.125rem;
+   font-weight: 600;
+   letter-spacing: -0.01em;
+}
+/* Hero variant: badges keep dark style on the blue gradient — they have authority */
+
+/* ============================================================
+   FEATURE GRID — numbered, clean white cards on bone bg
+   ============================================================ */
+.landing-feature-grid {
+   background: var(--color-bg);
+   padding: clamp(4rem, 7vw, 6rem) 0;
+}
+.landing-feature-grid .landing-section-title,
+.landing-feature-banner .landing-section-title,
+.landing-faq .landing-section-title {
+   font-family: var(--font-heading);
+   font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+   font-weight: 700;
+   text-align: left;
+   letter-spacing: -0.02em;
+   margin: 0 0 2.5rem;
+   color: var(--color-text);
+}
+.landing-features {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   gap: 1.25rem;
+}
+.landing-feature-card {
+   position: relative;
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border-light);
+   border-radius: var(--radius-lg);
+   padding: 2rem 1.5rem 1.5rem;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+   overflow: hidden;
+}
+.landing-feature-card:hover {
+   transform: translateY(-2px);
+   border-color: var(--color-accent);
+   box-shadow: 0 16px 36px -16px var(--color-shadow-lg);
+}
+/* Numbered prefix in Caveat (brand script) — large, yellow */
+.landing-feature-num {
+   position: absolute;
+   top: 0.75rem;
+   right: 1.25rem;
+   font-family: var(--font-script);
+   font-size: 2.5rem;
+   font-weight: 700;
+   color: var(--color-accent);
+   line-height: 1;
+   pointer-events: none;
+}
+.landing-feature-image {
+   width: 100%;
+   max-width: 220px;
+   margin: 0 auto;
+   aspect-ratio: 9 / 16;
+   object-fit: cover;
+   object-position: top;
+   border-radius: 18px;
+   background: var(--color-bg-alt);
+}
+.landing-feature-card-text {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+.landing-feature-title {
+   font-family: var(--font-heading);
+   font-size: 1.0625rem;
+   font-weight: 700;
+   margin: 0;
+   color: var(--color-text);
+}
+.landing-feature-platforms {
+   display: inline-block;
+   font-size: 0.6875rem;
+   font-weight: 600;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   padding: 0.2rem 0.625rem;
+   border-radius: 999px;
+   background: var(--color-bg-alt);
+   color: var(--color-text-secondary);
+   align-self: flex-start;
+   margin: 0;
+}
+.landing-feature-platforms.landing-platform-ios {
+   background: var(--color-accent-light);
+   color: #8A6A00;
+}
+[data-theme="dark"] .landing-feature-platforms.landing-platform-ios {
+   color: var(--color-accent);
+}
+.landing-feature-desc {
+   margin: 0;
+   color: var(--color-text-secondary);
+   font-size: 0.9375rem;
+   line-height: 1.6;
+}
+
+/* ============================================================
+   BUSINESS CARD BANNER — yellow background, brand-black text
+   ============================================================ */
+.landing-feature-banner {
+   background: var(--color-accent);
+   color: #212529;
+   padding: clamp(4rem, 7vw, 6rem) 0;
+}
+.landing-feature-banner .landing-section-title {
+   color: #212529;
+   margin-bottom: 1rem;
+}
+.landing-feature-banner-content {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: clamp(2rem, 4vw, 4rem);
+   align-items: center;
+}
+.landing-feature-banner-video,
+.landing-feature-banner-image {
+   position: relative;
+}
+.landing-feature-banner-video img,
+.landing-feature-banner-video video,
+.landing-feature-banner-image img {
+   display: block;
+   width: 100%;
+   max-width: 320px;
+   margin: 0 auto;
+   height: auto;
+   border-radius: 32px;
+   box-shadow: 0 30px 60px -25px rgba(33, 37, 41, 0.4);
+   transform: rotate(2deg);
+}
+.landing-feature-banner-text {
+   font-size: 1.0625rem;
+   line-height: 1.65;
+}
+.landing-feature-banner-text p {
+   color: #212529;
+   margin: 0 0 1.5rem;
+   max-width: 30em;
+}
+.landing-cta-button {
+   display: inline-flex;
+   align-items: center;
+   gap: 0.5rem;
+   padding: 0.875rem 1.75rem;
+   background: #212529;
+   color: #FFFFFF;
+   font-weight: 700;
+   font-size: 1rem;
+   letter-spacing: 0.005em;
+   border-radius: 10px;
+   text-decoration: none;
+   transition: transform var(--transition), background var(--transition);
+}
+.landing-cta-button:hover {
+   transform: translateY(-1px);
+   background: #000;
+   color: #FFFFFF;
+}
+.landing-cta-button.landing-cta-button-large {
+   padding: 1rem 2rem;
+   font-size: 1.0625rem;
+}
+
+/* ============================================================
+   SLOGAN — "The Cool Way To Connect" SVG accent
+   ============================================================ */
+.landing-slogan {
+   text-align: center;
+   padding: clamp(2.5rem, 5vw, 4rem) 1.5rem;
+   background: var(--color-bg);
+}
+.landing-slogan img {
+   max-width: 380px;
+   width: 60%;
+   height: auto;
+   opacity: 0.9;
+}
+[data-theme="dark"] .landing-slogan img {
+   filter: invert(1) brightness(1.2);
+}
+
+/* ============================================================
+   FAQ — Rules-only accordion
+   ============================================================ */
+.landing-faq {
+   background: var(--color-bg);
+   padding: clamp(3rem, 6vw, 5rem) 0;
+}
+.landing-faq .landing-container {
+   max-width: 760px;
+}
+.landing-faq-item {
+   border-bottom: 1px solid var(--color-border-light);
+   padding: 1.25rem 0;
+}
+.landing-faq-item summary {
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 1.0625rem;
+   color: var(--color-text);
+   cursor: pointer;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 1rem;
+   padding: 0.25rem 0;
+}
+.landing-faq-item summary::-webkit-details-marker { display: none; }
+.landing-faq-item summary::after {
+   content: "+";
+   font-family: var(--font-script);
+   font-size: 2rem;
+   font-weight: 700;
+   color: var(--color-accent);
+   line-height: 0.6;
+   transition: transform var(--transition);
+   flex-shrink: 0;
+}
+.landing-faq-item[open] summary::after {
+   content: "−";
+   transform: translateY(-2px);
+}
+.landing-faq-item p {
+   margin: 0.75rem 0 0.25rem;
+   color: var(--color-text-secondary);
+   line-height: 1.65;
+}
+
+/* ============================================================
+   FINAL CTA — bookend with brand-blue gradient
+   ============================================================ */
+.landing-final-cta {
+   position: relative;
+   background: var(--brand-gradient);
+   color: #FFFFFF;
+   padding: clamp(4rem, 8vw, 6rem) 0 clamp(5rem, 9vw, 7rem);
+   text-align: center;
+   overflow: hidden;
+   isolation: isolate;
+}
+.landing-final-cta::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: radial-gradient(at 50% 0%, rgba(255,255,255,0.15) 0%, transparent 60%);
+   pointer-events: none;
+   z-index: -1;
+}
+.landing-cta-title {
+   font-family: var(--font-heading);
+   font-size: clamp(2rem, 5vw, 3rem);
+   font-weight: 700;
+   line-height: 1.15;
+   letter-spacing: -0.02em;
+   color: #FFFFFF;
+   margin: 0 0 0.875rem;
+}
+.landing-cta-title .brand-tail {
+   font-size: 0.78em;
+   line-height: 0.6;
+   display: inline-block;
+   transform: translateY(-0.06em);
+   margin-left: -0.05em;
+}
+.landing-final-cta .landing-hero-trust {
+   justify-content: center;
+   margin: 0 0 2rem;
+}
+.landing-final-cta .landing-store-buttons {
+   justify-content: center;
+}
+
+/* ============================================================
+   Section title baseline (used outside specific sections too)
+   ============================================================ */
+.landing-section-title {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   color: var(--color-text);
+   margin: 0 0 1.5rem;
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 900px) {
+   .landing-hero .landing-container {
       grid-template-columns: 1fr;
+      gap: 2.5rem;
+   }
+   .landing-hero-visual {
+      max-width: 320px;
+      justify-self: center;
+   }
+   .landing-feature-banner-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+   }
+   .landing-feature-banner-text {
+      text-align: center;
+   }
+   .landing-feature-banner-text p {
+      margin-left: auto;
+      margin-right: auto;
    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
    .landing-features {
       grid-template-columns: 1fr;
    }
+   .landing-feature-card {
+      padding: 1.75rem 1.25rem 1.25rem;
+   }
+   .landing-feature-num {
+      top: 0.5rem;
+      right: 1rem;
+      font-size: 2rem;
+   }
+   .landing-store-button { height: 48px; }
+   .landing-store-button.is-apple img { height: 48px; }
 }

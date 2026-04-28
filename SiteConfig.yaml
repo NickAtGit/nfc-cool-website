@@ -20,7 +20,9 @@ author:
 
 navigation:
   logo:
-    image: "/assets/theme/images/nfc-cool-logo-dark.svg"
+    image: "/assets/theme/images/NFC_MainLogo-black.png"
+    imageWidth: 96
+    imageHeight: 32
     text: ""
   items:
     - title: "Features"
