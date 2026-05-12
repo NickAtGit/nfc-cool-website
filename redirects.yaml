@@ -38,24 +38,25 @@ redirects:
   - from: "/post/exploring-namedrops-elegance-and-the-enduring-edge-of-nfc-business-cards"
     to: "/blog/namedrop-vs-nfc-business-cards/"
 
-  # ----- Posts not yet migrated → fall back to the blog index for now -----
-  # When each is migrated, change the `to` to the new /blog/{slug}/ path.
+  # ----- Webflow blog → newly migrated /blog/ slugs (Phase B) -----
   - from: "/post/tapping-into-the-magic-of-nfc-on-iphones-an-insiders-look"
-    to: "/blog/"
+    to: "/blog/nfc-on-iphones-insider-look/"
   - from: "/post/breaking-free-from-monotony---adding-flair-to-qr-codes"
-    to: "/blog/"
+    to: "/blog/flair-qr-codes/"
   - from: "/post/tap-scan-thrive-nfc-cools-qr-code-symphony-in-the-digital-age"
-    to: "/blog/"
+    to: "/blog/tap-scan-thrive/"
   - from: "/post/nfc-cool-app---now-available-on-play-store"
-    to: "/blog/"
+    to: "/blog/nfc-cool-on-play-store/"
   - from: "/post/nfc-cools-guide-to-document-scanning-pocket-ready-and-power-packed"
-    to: "/blog/"
+    to: "/blog/document-scanning-guide/"
   - from: "/post/the-cutting-edge-3d-scan-feature-redefining-object-visualization-and-printing"
-    to: "/blog/"
+    to: "/blog/3d-scan-feature/"
   - from: "/post/elevating-the-experience-business-card-service"
-    to: "/blog/"
+    to: "/blog/business-card-service/"
   - from: "/post/nfc-cool-app-presentation-podcast"
-    to: "/blog/"
+    to: "/blog/nfc-cool-podcast/"
+  - from: "/post/help-i-cant-remember-anyone-i-meet-this-smart-business-card-app-can"
+    to: "/blog/smart-context-remember-everyone/"
 
   # ----- blog.nfc.cool legacy subdomain → unified /blog/ -----
   # Note: these only fire if the visitor lands on the MAIN domain with these paths.
