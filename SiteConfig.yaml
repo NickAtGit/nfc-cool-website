@@ -58,6 +58,8 @@ navigation:
     imageHeight: 28
     text: ""
   items:
+    - title: "Home"
+      url: "/"
     - title: "Features"
       url: "/features/"
     - title: "Business Card"
