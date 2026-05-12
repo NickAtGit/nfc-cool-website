@@ -855,8 +855,19 @@
    margin: 0 auto;
    text-align: left;
 }
-.page-hero:has(.page-hero-grid) { text-align: left; }
-.page-hero:has(.page-hero-grid) > .page-hero-grid { max-width: var(--max-width); }
+/* Lock the blue hero to roughly the same total height as the landing hero
+   so every page reads as part of the same product, regardless of which
+   asset sits on the right. */
+.page-hero:has(.page-hero-grid) {
+   text-align: left;
+   min-height: clamp(520px, 64vh, 680px);
+   display: flex;
+   align-items: center;
+}
+.page-hero:has(.page-hero-grid) > .page-hero-grid {
+   max-width: var(--max-width);
+   width: 100%;
+}
 .page-hero-text > * { max-width: 100%; }
 .page-hero-text h1 {
    font-family: var(--font-heading);
@@ -883,16 +894,24 @@
 .page-hero-visual {
    position: relative;
    align-self: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* Reserve the same vertical real estate as the landing hero's image
+      so the blue box never collapses around shorter assets. */
+   min-height: clamp(360px, 46vh, 480px);
 }
 .page-hero-visual img {
    display: block;
-   width: 100%;
+   width: auto;
    max-width: 100%;
+   max-height: clamp(360px, 46vh, 480px);
    height: auto;
-   margin: 0;
+   margin: 0 auto;
    border-radius: 36px;
    box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.35), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
    transform: rotate(-2deg);
+   object-fit: contain;
 }
 /* For brand-logo / icon-style hero images, drop the shadow, corner radius
    and rotation so the mark sits cleanly on the gradient. */
@@ -901,10 +920,15 @@
    box-shadow: none;
    transform: none;
    max-width: 420px;
+   max-height: clamp(220px, 28vh, 300px);
    margin: 0 auto;
 }
 
 @media (max-width: 900px) {
+   .page-hero:has(.page-hero-grid) {
+      min-height: 0;
+      display: block;
+   }
    .page-hero-grid {
       grid-template-columns: 1fr;
       gap: 2.5rem;
@@ -921,11 +945,18 @@
       margin-left: auto;
       margin-right: auto;
    }
+   .page-hero-visual {
+      min-height: 0;
+   }
    .page-hero-visual img {
       max-width: 360px;
+      max-height: 400px;
       margin: 0 auto;
    }
-   .page-hero-visual.is-brand img { max-width: 320px; }
+   .page-hero-visual.is-brand img {
+      max-width: 320px;
+      max-height: 200px;
+   }
 }
 /* Static-page sections — full-bleed, alternating bg, 1200px container,
    760px text reading column. Matches landing's section rhythm. */
