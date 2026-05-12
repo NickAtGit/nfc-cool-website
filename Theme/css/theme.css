@@ -465,7 +465,7 @@ body.landing .sk-site-footer {
    background: var(--color-border-light);
    margin: 1.5rem auto;
    width: 100%;
-   max-width: 720px;
+   max-width: var(--content-width);
 }
 
 /* Nav link row — wraps gracefully, evenly spaced, centered */

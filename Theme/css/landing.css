@@ -411,7 +411,7 @@
    padding: clamp(3.5rem, 7vw, 6rem) 0;
 }
 .landing-faq .landing-container {
-   max-width: 820px;
+   max-width: var(--faq-width);
 }
 .landing-faq-item {
    background: var(--color-bg-card);
@@ -649,7 +649,7 @@
    padding: clamp(4rem, 8vw, 7rem) 0;
 }
 .landing-newsletter .landing-container {
-   max-width: 680px;
+   max-width: var(--content-width);
 }
 .landing-newsletter-card {
    position: relative;
@@ -1517,7 +1517,7 @@
    background: var(--color-bg);
 }
 .blog-post-body {
-   max-width: 760px;
+   max-width: var(--prose-width);
    margin: 0 auto;
    font-size: 1.0625rem;
    line-height: 1.7;
