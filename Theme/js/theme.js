@@ -34,22 +34,88 @@ document.addEventListener('DOMContentLoaded', function() {
       });
    }
 
-   // Language toggle — flips between default locale ("/") and "/de/" prefix.
-   // SiteKit ships an empty dropdown menu; we hijack the button to navigate
-   // directly to the locale counterpart of the current page.
-   document.querySelectorAll('.sk-lang-btn').forEach(function(btn) {
-      const labelEl = btn.querySelector('.sk-lang-current');
-      const path = window.location.pathname;
-      const isDe = path === '/de' || path.startsWith('/de/');
-      const target = isDe
-         ? (path === '/de' ? '/' : path.replace(/^\/de/, ''))
-         : '/de' + path;
-      if (labelEl) labelEl.textContent = isDe ? 'EN' : 'DE';
-      btn.setAttribute('aria-label', isDe ? 'Switch to English' : 'Switch to German');
+   // Language picker — dropdown listing every configured locale. The set
+   // of locales is read from the hreflang <link> tags SiteKit already emits
+   // on every page, so adding a new language only requires adding it to
+   // SiteConfig.yaml localization.languages -- no JS change needed.
+   document.querySelectorAll('.sk-lang-picker').forEach(function(picker) {
+      const btn = picker.querySelector('.sk-lang-btn');
+      const menu = picker.querySelector('.sk-lang-menu');
+      const labelEl = btn && btn.querySelector('.sk-lang-current');
+      if (!btn || !menu) return;
+
+      const currentLang = (document.documentElement.getAttribute('lang') || 'en').toLowerCase();
+      const alternates = Array.from(
+         document.querySelectorAll('link[rel="alternate"][hreflang]')
+      )
+         .map(function(link) {
+            return { lang: link.getAttribute('hreflang').toLowerCase(), href: link.getAttribute('href') };
+         })
+         .filter(function(item) { return item.lang && item.lang !== 'x-default'; });
+
+      // Fallback if no hreflang links present (e.g., single-locale site): keep
+      // the picker but only show the current locale.
+      const seen = new Set();
+      const locales = alternates.filter(function(item) {
+         if (seen.has(item.lang)) return false;
+         seen.add(item.lang);
+         return true;
+      });
+      if (!locales.length) {
+         picker.style.display = 'none';
+         return;
+      }
+
+      // Display labels per locale code (extend here when adding locales).
+      const labels = { en: 'EN', de: 'DE', ja: 'JA' };
+      const names  = { en: 'English', de: 'Deutsch', ja: '日本語' /* 日本語 */ };
+
+      // Set the button label to the current locale.
+      if (labelEl) labelEl.textContent = labels[currentLang] || currentLang.toUpperCase();
+      btn.setAttribute('aria-haspopup', 'menu');
+      btn.setAttribute('aria-expanded', 'false');
+
+      // Populate the menu with one item per locale.
+      menu.textContent = '';
+      menu.setAttribute('role', 'menu');
+      locales.sort(function(a, b) { return a.lang.localeCompare(b.lang); });
+      locales.forEach(function(item) {
+         const a = document.createElement('a');
+         a.href = item.href;
+         a.setAttribute('hreflang', item.lang);
+         a.setAttribute('role', 'menuitem');
+         a.className = 'sk-lang-item' + (item.lang === currentLang ? ' is-current' : '');
+         const code = document.createElement('span');
+         code.className = 'sk-lang-item-code';
+         code.textContent = labels[item.lang] || item.lang.toUpperCase();
+         const name = document.createElement('span');
+         name.className = 'sk-lang-item-name';
+         name.textContent = names[item.lang] || item.lang;
+         a.appendChild(code);
+         a.appendChild(name);
+         a.addEventListener('click', function() {
+            try { localStorage.setItem('preferredLang', item.lang); } catch (e) {}
+         });
+         menu.appendChild(a);
+      });
+
+      // Toggle menu on button click.
+      function setOpen(open) {
+         picker.classList.toggle('is-open', open);
+         btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      }
       btn.addEventListener('click', function(event) {
          event.preventDefault();
-         try { localStorage.setItem('preferredLang', isDe ? 'en' : 'de'); } catch (e) {}
-         window.location.pathname = target;
+         event.stopPropagation();
+         setOpen(!picker.classList.contains('is-open'));
+      });
+      // Close on outside click or Escape.
+      document.addEventListener('click', function(event) {
+         if (!picker.classList.contains('is-open')) return;
+         if (!event.target.closest('.sk-lang-picker')) setOpen(false);
+      });
+      document.addEventListener('keydown', function(event) {
+         if (event.key === 'Escape' && picker.classList.contains('is-open')) setOpen(false);
       });
    });
 

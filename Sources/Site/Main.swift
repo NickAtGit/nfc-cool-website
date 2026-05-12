@@ -4,6 +4,7 @@ import SiteKit
    static func main() throws {
       try SiteBuilder.blog(configPath: "SiteConfig.yaml")
          .replacing(HomePageRenderer.self, with: LandingPageRenderer())
+         .replacing(ErrorPageRenderer.self, with: CustomErrorPageRenderer())
          .renderer(FeaturePageRenderer())
          .renderer(FeaturesIndexRenderer())
          .removing(ContentIndexRenderer.self)

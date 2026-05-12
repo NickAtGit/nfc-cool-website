@@ -1,0 +1,53 @@
+---
+title: "NFC.cool Business Card"
+slug: "business-card"
+description: "iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppClip、Apple Walletで共有可能。誰がカードを保存したかをトラッキングし、ライブイベントでConference Modeを実行できます。"
+image: "/assets/images/BusinessCard/Screenshot-1.jpg"
+---
+
+<section class="page-hero">
+
+# NFC.cool Business Card
+
+iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppClip、Apple Walletで連絡先を一瞬で共有 - 誰が実際にあなたのカードを保存したかも確認できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。
+
+<a href="https://business-card.nfc.cool" class="landing-cta-button">NFC.cool Business Cardを入手</a>
+
+</section>
+
+<section class="page-section">
+
+## 仕組み
+
+- **タップで共有。** 2台のiPhoneを近づけるだけで、相手は何もインストールせずにあなたのカードを見られます。
+- **QRフォールバック。** QRコードを表示すれば、カメラ付きのどんなスマホでも読み取れます。
+- **AppClip & Apple Wallet。** 受け取った相手はNFC.coolアカウント不要でカードをウォレットに保存できます。
+- **リアルタイム・トラッキング。** インプレッション数、保存数、共有方法の内訳が見られます - 相手の身元は記録しません。
+
+</section>
+
+<section class="page-section">
+
+## Conference Mode
+
+展示会、ミートアップ、ライブイベント向け。Conference Modeに切り替えると、アプリが共有画面を表示したまま、各タップを自動カウントし、新しい連絡先ごとにメモを取れます - イベント終了時にカード履歴へ即同期されます。
+
+</section>
+
+<section class="page-section">
+
+## プライバシー
+
+カードの内容はあなたのデバイス上にあります。受け取った相手はそのままiPhoneの「連絡先」に保存します - NFC.coolが見ることはありません。トラッキング分析はカウントのみで、相手の個人情報は収集されません。
+
+詳細は[プライバシーポリシー](/ja/privacy/)をご覧ください。
+
+</section>
+
+<section class="page-section">
+
+## Androidでは
+
+Androidでは Business Card機能が[NFC.cool Tools](https://android.nfc.cool)に組み込まれています - 別アプリは不要。アプリを開いてカードを設定し、タップで共有。同じデータモデル、同じNFCハンドシェイク、同じQRフォールバックです。
+
+</section>

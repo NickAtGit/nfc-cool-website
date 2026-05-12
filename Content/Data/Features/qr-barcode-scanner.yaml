@@ -50,6 +50,15 @@ specs:
       - "Logo overlays up to 30% area"
       - "Custom eye shapes & frames"
 
+featuredReviewsTitle: "What people are saying"
+featuredReviews:
+  - quote: "I'm loving my new way of promoting myself. Thanks to you guys."
+    author: "Super.Sanchez"
+    location: "App Store · Nov 2021"
+  - quote: "Just downloaded it and it's definitely worth the time to explore and try out!"
+    author: "User 220220"
+    location: "App Store · Nov 2022"
+
 faqTitle: "Frequently asked"
 faq:
   - question: "Why is this iOS-only?"

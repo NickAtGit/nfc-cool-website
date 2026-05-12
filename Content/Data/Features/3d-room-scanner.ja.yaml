@@ -1,0 +1,68 @@
+slug: "3d-room-scanner"
+appStoreURL: "https://ios.nfc.cool"
+backLinkText: "← すべての機能"
+
+hero:
+  title: "3Dオブジェクト & ルーム・スキャン"
+  subtitle: "フォトグラメトリで高精細な3Dオブジェクトモデルを作成。LiDAR搭載デバイスのRoomPlanで、ドア・窓・家具まで自動認識した美しい間取り図を生成。USDZ、OBJ、STL、PLY形式で3D印刷やARに書き出せます。"
+  platforms: "iOSのみ"
+  heroImagePath: "/assets/images/Webflow/3d-room.webp"
+
+capabilitiesTitle: "できること"
+capabilities:
+  - title: "オブジェクト・スキャン(フォトグラメトリ)"
+    description: "オブジェクトの周りを歩きながら30〜100枚の写真を撮影。オンデバイスのフォトグラメトリ・パイプラインが、リアルなジオメトリを持つテクスチャ付き3Dモデルを再構成します。"
+  - title: "ルーム・スキャン(LiDAR)"
+    description: "iPhoneのLiDARセンサーを使って部屋を歩くだけ。NFC.coolが壁、ドア、窓、認識した家具をパラメトリックなUSDZシーンとして構築します。"
+  - title: "編集 & 仕上げ"
+    description: "ノイズの削除、メッシュのスムージング、ジオメトリの簡略化、テクスチャの除去。書き出し前に3Dでプレビューできます。"
+  - title: "どこへでも書き出し"
+    description: "AR Quick Look用にUSDZ、3D印刷用にSTL、Blender用にOBJ/PLY、プロダクション用にUSD/ABC。頂点精度とテクスチャ解像度を選択可能です。"
+  - title: "AR Quick Look"
+    description: "AR Quick Lookでスキャンしたオブジェクトをリビングに配置。USDZファイルを友人と共有 - メッセージ内でそのまま表示できます。"
+
+screenshots:
+  - path: "/assets/images/Webflow/3d-room.webp"
+    alt: "LiDARで部屋をスキャン"
+  - path: "/assets/images/Webflow/3d-object.webp"
+    alt: "フォトグラメトリでオブジェクトをキャプチャ"
+
+specsTitle: "ハードウェア & 書き出し"
+specs:
+  - title: "ハードウェア要件"
+    items:
+      - "オブジェクト・スキャン: iOS 17以降と十分なパフォーマンスを持つiPhone"
+      - "ルーム・スキャン: LiDAR搭載iPhone(12 Pro以降のProモデル)"
+      - "iPad Pro 2020以降も両モードに対応"
+  - title: "オブジェクト出力"
+    items:
+      - "USDZ(AR Quick Look)"
+      - "OBJ + MTL(テクスチャ付き)"
+      - "STL(バイナリまたはASCII)"
+      - "PLY(点群 + メッシュ)"
+      - "USD(プロダクション・パイプライン向け)"
+  - title: "ルーム出力"
+    items:
+      - "名前付きエンティティを含むUSDZシーン"
+      - "壁、ドア、窓、開口部"
+      - "認識された家具カテゴリ"
+      - "床面積と寸法"
+
+featuredReviewsTitle: "ユーザーの声"
+featuredReviews:
+  - quote: "Room Mapperがとても素晴らしい。タグの書き込みだけじゃない、はるかに多機能なアプリです。"
+    author: "rockphikapps"
+    location: "App Store · 2022年12月"
+
+faqTitle: "よくある質問"
+faq:
+  - question: "オブジェクト・スキャンにLiDARは必要ですか?"
+    answer: "いいえ - オブジェクト・スキャンは任意の最新iPhoneでフォトグラメトリにより動作します。LiDARが必要なのはルーム・スキャン(RoomPlan)のみです。"
+  - question: "スキャンにはどのくらい時間がかかりますか?"
+    answer: "オブジェクト・スキャン: 30〜100枚の撮影に数分、その後オンデバイスの再構成に2〜5分。ルーム・スキャン: 部屋を歩くだけで即座に結果が得られます。"
+  - question: "結果を3D印刷できますか?"
+    answer: "はい - STL形式で書き出し、お好みのスライサーに読み込んでください。印刷前に簡略化/スムージング処理を行い、頂点数を抑えることをおすすめします。"
+
+cta:
+  title: "世界を3Dでキャプチャしよう。"
+  buttonText: "iOS版をダウンロード"

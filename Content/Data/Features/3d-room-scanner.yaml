@@ -48,6 +48,12 @@ specs:
       - "Recognized furniture categories"
       - "Floor area and dimensions"
 
+featuredReviewsTitle: "What people are saying"
+featuredReviews:
+  - quote: "The room mapper is pretty awesome. This app does so much more than write tags."
+    author: "rockphikapps"
+    location: "App Store · Dec 2022"
+
 faqTitle: "Frequently asked"
 faq:
   - question: "Do I need LiDAR for object scanning?"

@@ -50,6 +50,27 @@ specs:
       - "Pro-Endpunkt aktivieren/deaktivieren"
       - "Manueller Replay aus dem Verlauf"
 
+comparison:
+  title: "iOS vs. Android"
+  iosHeader: "iOS"
+  androidHeader: "Android"
+  rows:
+    - feature: "Scans an deine URL POSTen"
+      ios: "✓"
+      android: "✓"
+    - feature: "Filter-Regeln pro Endpunkt"
+      ios: "✓"
+      android: "✓"
+    - feature: "Eigene Auth-Header"
+      ios: "✓"
+      android: "✓"
+    - feature: "Offline-Retry-Queue"
+      ios: "✓"
+      android: "✓"
+    - feature: "Manueller Replay aus dem Verlauf"
+      ios: "✓"
+      android: "✓"
+
 faqTitle: "Häufige Fragen"
 faq:
   - question: "Funktioniert das auf Android?"

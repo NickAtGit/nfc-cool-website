@@ -8,6 +8,9 @@ struct FeatureData: Decodable, Sendable {
    let screenshots: [FeatureScreenshot]?
    let specs: [FeatureSpecGroup]?
    let specsTitle: String?
+   let comparison: ComparisonTable?
+   let featuredReviews: [AppStoreReview]?
+   let featuredReviewsTitle: String?
    let faq: [FAQItem]?
    let faqTitle: String?
    let cta: FeatureCTA?
@@ -15,6 +18,19 @@ struct FeatureData: Decodable, Sendable {
    let googlePlayURL: String?
    let docsBody: String?
    let backLinkText: String?
+}
+
+struct ComparisonTable: Decodable, Sendable {
+   let title: String?
+   let iosHeader: String?
+   let androidHeader: String?
+   let rows: [ComparisonRow]
+}
+
+struct ComparisonRow: Decodable, Sendable {
+   let feature: String
+   let ios: String?
+   let android: String?
 }
 
 struct FeatureHero: Decodable, Sendable {

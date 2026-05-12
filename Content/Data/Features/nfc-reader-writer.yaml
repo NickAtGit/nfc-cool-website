@@ -49,6 +49,39 @@ specs:
       - "Android 6+ with hardware NFC chip"
       - "Tag writes from iOS require Core NFC entitlements (handled by the app)"
 
+comparison:
+  title: "iOS vs Android"
+  iosHeader: "iOS"
+  androidHeader: "Android"
+  rows:
+    - feature: "Read NDEF tags"
+      ios: "✓"
+      android: "✓"
+    - feature: "Write 25+ message types"
+      ios: "✓"
+      android: "✓"
+    - feature: "NFC Safe (AES-256 encrypted payloads)"
+      ios: "✓"
+      android: "✓"
+    - feature: "Lock & password-protect tags"
+      ios: "✓"
+      android: "✓"
+    - feature: "Background tag reading from lock screen"
+      ios: "iPhone XS+"
+      android: "✓"
+    - feature: "Batch write"
+      ios: "✓"
+      android: "✓"
+
+featuredReviewsTitle: "What people say about NFC"
+featuredReviews:
+  - quote: "Beautiful UX and nearly flawless execution unlike the other NFC apps."
+    author: "garretthoyos"
+    location: "App Store · Mar 2023"
+  - quote: "I LOVE THIS APP. It's awesome for people like me who know little to nothing about NFC tags!"
+    author: "Dallasg479"
+    location: "App Store · Oct 2020"
+
 faqTitle: "Frequently asked"
 faq:
   - question: "Does my iPhone need to be unlocked to read a tag?"

@@ -772,12 +772,44 @@
 
 
 /* ============================================================
-   Static content pages (BusinessCard, Contact, Press, Terms)
+   Static content pages — marketing-page hero with brand-blue gradient.
+   Legal pages (Privacy / Terms / Impressum) author their content without a
+   .page-hero section, so they naturally stay text-first.
    ============================================================ */
 .page-hero {
-   padding: clamp(3.5rem, 7vw, 5.5rem) 0 clamp(2rem, 4vw, 3rem);
-   background: var(--color-bg-alt);
-   text-align: left;
+   position: relative;
+   padding: clamp(4rem, 9vw, 7rem) 1.5rem clamp(3rem, 6vw, 5rem);
+   background: var(--brand-gradient);
+   color: #FFFFFF;
+   overflow: hidden;
+   isolation: isolate;
+   text-align: center;
+}
+.page-hero::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: radial-gradient(at 70% 25%, rgba(255,255,255,0.18) 0%, transparent 55%);
+   pointer-events: none;
+   z-index: -1;
+}
+.page-hero::after {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background-image:
+      radial-gradient(circle at 0 0, rgba(255,255,255,0.04) 1px, transparent 1px),
+      radial-gradient(circle at 8px 8px, rgba(255,255,255,0.04) 1px, transparent 1px);
+   background-size: 16px 16px;
+   pointer-events: none;
+   opacity: 0.5;
+   z-index: -1;
+}
+/* Tightly center the hero column so the gradient feels deliberate. */
+.page-hero > * {
+   max-width: var(--max-width);
+   margin-left: auto;
+   margin-right: auto;
 }
 .page-hero h1 {
    font-family: var(--font-heading);
@@ -786,21 +818,22 @@
    line-height: 1.1;
    letter-spacing: -0.02em;
    margin: 0 0 1rem;
-   color: var(--color-text);
+   color: #FFFFFF;
+   max-width: 22ch;
 }
 .page-hero > p {
    font-size: clamp(1rem, 1.3vw, 1.1875rem);
    line-height: 1.55;
-   color: var(--color-text-secondary);
-   max-width: 720px;
-   margin: 0 0 1.5rem;
+   color: rgba(255, 255, 255, 0.92);
+   max-width: 36em;
+   margin: 0 auto 1.75rem;
 }
 .page-hero .landing-cta-button {
    display: inline-block;
-   padding: 0.85rem 1.75rem;
+   padding: 0.875rem 1.75rem;
    background: var(--color-accent);
    color: #0E1116;
-   font-weight: 600;
+   font-weight: 700;
    border-radius: var(--radius);
    text-decoration: none;
    transition: background var(--transition), transform var(--transition);
@@ -1042,6 +1075,190 @@
 
 .feature-faq {
    background: var(--color-bg-alt);
+}
+
+/* ============================================================
+   Feature comparison (iOS vs Android matrix)
+   ============================================================ */
+.feature-comparison {
+   padding: clamp(3rem, 6vw, 5rem) 0;
+   background: var(--color-bg);
+}
+.feature-comparison-wrap {
+   max-width: 760px;
+   margin: 0 auto;
+   overflow-x: auto;
+   border-radius: var(--radius-lg);
+   border: 1px solid var(--color-border);
+   box-shadow: 0 1px 2px var(--color-shadow);
+}
+.feature-comparison-table {
+   width: 100%;
+   border-collapse: collapse;
+   background: var(--color-bg-card);
+   font-size: 0.9375rem;
+}
+.feature-comparison-table thead th {
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 0.8125rem;
+   text-transform: uppercase;
+   letter-spacing: 0.06em;
+   padding: 0.875rem 1rem;
+   color: var(--color-text-secondary);
+   text-align: center;
+   border-bottom: 1px solid var(--color-border);
+   background: var(--color-bg-alt);
+}
+.feature-comparison-table thead th:first-child { background: transparent; }
+.feature-comparison-table tbody th {
+   font-weight: 600;
+   font-size: 0.9375rem;
+   color: var(--color-text);
+   text-align: left;
+   padding: 0.875rem 1rem;
+   border-bottom: 1px solid var(--color-border-light);
+   white-space: normal;
+   line-height: 1.4;
+}
+.feature-comparison-table tbody td {
+   padding: 0.875rem 1rem;
+   border-bottom: 1px solid var(--color-border-light);
+   text-align: center;
+   color: var(--color-text-secondary);
+   line-height: 1.4;
+}
+.feature-comparison-table tbody tr:last-child th,
+.feature-comparison-table tbody tr:last-child td { border-bottom: 0; }
+.feature-comparison-pill {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   min-width: 1.75rem;
+   height: 1.75rem;
+   padding: 0 0.5rem;
+   border-radius: 999px;
+   font-size: 0.8125rem;
+   font-weight: 600;
+   line-height: 1;
+}
+.feature-comparison-pill.is-yes {
+   background: rgba(5, 150, 105, 0.12);
+   color: var(--color-success);
+}
+.feature-comparison-pill.is-no {
+   background: rgba(220, 38, 38, 0.10);
+   color: #DC2626;
+}
+.feature-comparison-pill.is-na {
+   background: var(--color-bg-alt);
+   color: var(--color-text-muted);
+}
+.feature-comparison-pill.is-soon {
+   background: var(--color-accent-light);
+   color: var(--color-text);
+   padding: 0 0.65rem;
+}
+.feature-comparison-text {
+   font-size: 0.875rem;
+   color: var(--color-text);
+}
+
+/* Featured reviews on feature pages — keep the landing-reviews look but
+   give the heading a touch more breathing room above the cards grid. */
+.feature-featured-reviews {
+   padding: clamp(3rem, 6vw, 5rem) 0;
+}
+
+/* ============================================================
+   Custom 404 page
+   ============================================================ */
+.sk-page-error .error-hero {
+   position: relative;
+   background: var(--brand-gradient);
+   color: #FFFFFF;
+   padding: clamp(4rem, 10vw, 7rem) 0 clamp(3.5rem, 8vw, 6rem);
+   overflow: hidden;
+   isolation: isolate;
+   text-align: center;
+}
+.sk-page-error .error-hero::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: radial-gradient(at 70% 25%, rgba(255,255,255,0.18) 0%, transparent 55%);
+   pointer-events: none;
+   z-index: -1;
+}
+.sk-page-error .error-hero::after {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background-image:
+      radial-gradient(circle at 0 0, rgba(255,255,255,0.04) 1px, transparent 1px),
+      radial-gradient(circle at 8px 8px, rgba(255,255,255,0.04) 1px, transparent 1px);
+   background-size: 16px 16px;
+   pointer-events: none;
+   opacity: 0.5;
+   z-index: -1;
+}
+.error-eyebrow {
+   font-family: var(--font-script);
+   font-size: clamp(5rem, 14vw, 9rem);
+   font-weight: 700;
+   line-height: 0.9;
+   color: var(--color-accent);
+   margin: 0;
+   letter-spacing: 0.02em;
+}
+.error-title {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(1.75rem, 4vw, 2.75rem);
+   color: #FFFFFF;
+   margin: 0.5rem 0 1rem;
+   letter-spacing: -0.02em;
+}
+.error-message {
+   font-size: clamp(1rem, 1.3vw, 1.1875rem);
+   line-height: 1.55;
+   color: rgba(255, 255, 255, 0.92);
+   max-width: 32em;
+   margin: 0 auto 2.5rem;
+}
+.error-actions {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+   gap: 0.875rem;
+   max-width: 720px;
+   margin: 0 auto;
+}
+.error-action-card {
+   display: inline-flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1rem;
+   padding: 1rem 1.25rem;
+   background: rgba(255, 255, 255, 0.10);
+   border: 1px solid rgba(255, 255, 255, 0.20);
+   border-radius: var(--radius-lg);
+   color: #FFFFFF;
+   text-decoration: none;
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 1rem;
+   transition: background var(--transition), transform var(--transition);
+   backdrop-filter: blur(6px);
+   -webkit-backdrop-filter: blur(6px);
+}
+.error-action-card:hover {
+   background: rgba(255, 255, 255, 0.18);
+   color: #FFFFFF;
+   transform: translateY(-2px);
+}
+.error-action-arrow {
+   color: var(--color-accent);
+   font-size: 1.25rem;
 }
 
 .feature-cta {

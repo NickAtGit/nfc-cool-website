@@ -74,6 +74,12 @@ struct FeaturePageRenderer: Renderer {
          if let specs = feature.specs, !specs.isEmpty {
             sections.append(self.renderSpecs(specs, title: feature.specsTitle))
          }
+         if let comparison = feature.comparison {
+            sections.append(self.renderComparison(comparison))
+         }
+         if let reviews = feature.featuredReviews, !reviews.isEmpty {
+            sections.append(self.renderFeaturedReviews(reviews, title: feature.featuredReviewsTitle))
+         }
          if let faq = feature.faq, !faq.isEmpty {
             sections.append(self.renderFAQ(faq, title: feature.faqTitle))
          }
@@ -177,6 +183,89 @@ struct FeaturePageRenderer: Renderer {
       <section class="feature-docs">
          <div class="landing-container">
             <div class="feature-docs-body">\(body)</div>
+         </div>
+      </section>
+      """
+   }
+
+   private func renderComparison(_ comparison: ComparisonTable) -> String {
+      let heading = (comparison.title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(comparison.title!.htmlEscaped)</h2>"
+      let iosHead = (comparison.iosHeader ?? "iOS").htmlEscaped
+      let androidHead = (comparison.androidHeader ?? "Android").htmlEscaped
+      let rows = comparison.rows.map { row in
+         let feat = row.feature.htmlEscaped
+         let ios = (row.ios ?? "—").htmlEscaped
+         let android = (row.android ?? "—").htmlEscaped
+         return """
+         <tr>
+            <th scope="row">\(feat)</th>
+            <td>\(self.markComparisonCell(ios))</td>
+            <td>\(self.markComparisonCell(android))</td>
+         </tr>
+         """
+      }.joined()
+      return """
+      <section class="feature-comparison">
+         <div class="landing-container">
+            \(heading)
+            <div class="feature-comparison-wrap">
+               <table class="feature-comparison-table">
+                  <thead>
+                     <tr><th></th><th scope="col">\(iosHead)</th><th scope="col">\(androidHead)</th></tr>
+                  </thead>
+                  <tbody>\(rows)</tbody>
+               </table>
+            </div>
+         </div>
+      </section>
+      """
+   }
+
+   /// Wrap simple status cell content in a small badge for richer rendering.
+   /// Recognized tokens (case-insensitive): ✓, ✗, —, "yes", "no", "coming soon".
+   private func markComparisonCell(_ raw: String) -> String {
+      let trimmed = raw.trimmingCharacters(in: .whitespaces)
+      let lower = trimmed.lowercased()
+      if trimmed == "✓" || lower == "yes" {
+         return "<span class=\"feature-comparison-pill is-yes\" aria-label=\"yes\">✓</span>"
+      }
+      if trimmed == "✗" || lower == "no" {
+         return "<span class=\"feature-comparison-pill is-no\" aria-label=\"no\">✗</span>"
+      }
+      if trimmed == "—" || trimmed == "-" {
+         return "<span class=\"feature-comparison-pill is-na\" aria-label=\"not applicable\">—</span>"
+      }
+      if lower.contains("coming") {
+         return "<span class=\"feature-comparison-pill is-soon\">\(trimmed)</span>"
+      }
+      return "<span class=\"feature-comparison-text\">\(trimmed)</span>"
+   }
+
+   private func renderFeaturedReviews(_ reviews: [AppStoreReview], title: String?) -> String {
+      let heading = (title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(title!.htmlEscaped)</h2>"
+      let cards = reviews.map { review in
+         let avatarHTML = review.avatarPath.map {
+            "<img src=\"\($0)\" alt=\"\(review.author.htmlEscaped)\" width=\"40\" height=\"40\" loading=\"lazy\" class=\"landing-review-avatar\"/>"
+         } ?? ""
+         return """
+         <div class="landing-review-card">
+            <div class="landing-review-stars">★★★★★</div>
+            <blockquote class="landing-review-quote">\(review.quote)</blockquote>
+            <div class="landing-review-author">
+               \(avatarHTML)
+               <div>
+                  <strong>\(review.author.htmlEscaped)</strong>
+                  <span>\(review.location.htmlEscaped)</span>
+               </div>
+            </div>
+         </div>
+         """
+      }.joined()
+      return """
+      <section class="feature-featured-reviews landing-reviews">
+         <div class="landing-container">
+            \(heading)
+            <div class="landing-reviews-grid">\(cards)</div>
          </div>
       </section>
       """

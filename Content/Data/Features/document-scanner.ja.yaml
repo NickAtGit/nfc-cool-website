@@ -1,0 +1,61 @@
+slug: "document-scanner"
+appStoreURL: "https://ios.nfc.cool"
+backLinkText: "← すべての機能"
+
+hero:
+  title: "OCR付き書類スキャナー"
+  subtitle: "自動エッジ検出とパース補正で書類をキャプチャ。オンデバイスOCRが検索可能なPDFに変換し、後からSpotlightやFinderで見つけられます。"
+  platforms: "iOSのみ"
+  heroImagePath: "/assets/images/Webflow/document-scan.webp"
+
+capabilitiesTitle: "できること"
+capabilities:
+  - title: "自動エッジ検出"
+    description: "ページに向けるだけ。NFC.coolが角を認識し自動でシャッターを切ります。マルチページスキャンで一度に束ごと取り込めます。"
+  - title: "パース補正"
+    description: "斜めから撮影しても、NFC.coolがページをきれいな長方形に変形し、影を取り除いてコントラストを強調 - フラットスキャンのような仕上がりに。"
+  - title: "オンデバイスOCR"
+    description: "テキスト認識はiPhone上で完結 - 書類もテキストもアップロードされません。検索可能なPDFはiOS SpotlightとmacOS Finderでインデックスされます。"
+  - title: "検索可能なPDF"
+    description: "テキストレイヤー付きPDFとして書き出し。ファイル検索と同じ感覚で、スキャン済み書類全体を横断検索できます。"
+  - title: "ワンタッチ共有"
+    description: "メール、メッセージ、AirDropでPDFを送信、またはファイルApp内に保存。透かしも登録も不要です。"
+
+screenshots:
+  - path: "/assets/images/Webflow/document-scan.webp"
+    alt: "マルチページ書類をスキャン"
+  - path: "/assets/images/Webflow/document-scan-detail.webp"
+    alt: "スキャンしたPDFを確認"
+
+specsTitle: "機能 & 制限"
+specs:
+  - title: "認識"
+    items:
+      - "VisionフレームワークOCR(iOS 13以降)"
+      - "ラテン、キリル、ギリシャ文字"
+      - "iOS 16以降で手書き認識対応"
+      - "多言語自動判別"
+  - title: "出力"
+    items:
+      - "テキストレイヤー付きPDF"
+      - "1ページあたりJPEG / HEIC画像"
+      - "マルチページ書類"
+      - "オプションの白黒モード"
+  - title: "プライバシー"
+    items:
+      - "OCRはすべてデバイス上で実行"
+      - "テキストはNFC.coolにアップロードされません"
+      - "書類はアプリのサンドボックスに保存"
+
+faqTitle: "よくある質問"
+faq:
+  - question: "OCRはオフラインで使えますか?"
+    answer: "はい - iOSのVisionフレームワークはOCRを完全にデバイス上で処理します。飛行機の中でもスキャンとOCRが可能です。"
+  - question: "OCRはどの言語に対応していますか?"
+    answer: "iOS Visionは現在、英語、フランス語、イタリア語、ドイツ語、スペイン語、ポルトガル語、中国語(簡体字)を認識します。手書き認識にはiOS 16以降が必要です。"
+  - question: "OCRの精度はどのくらいですか?"
+    answer: "印刷文字は非常に高精度です。手書きの精度は文字の丁寧さとコントラストに左右されます。スキャン後に認識テキストを編集することもできます。"
+
+cta:
+  title: "紙を検索可能なファイルへ。"
+  buttonText: "iOS版をダウンロード"

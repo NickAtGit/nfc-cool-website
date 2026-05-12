@@ -49,6 +49,39 @@ specs:
       - "Android 6+ mit NFC-Hardware"
       - "iOS-NFC-Schreibvorgänge benötigen Core-NFC-Berechtigungen (die App kümmert sich darum)"
 
+comparison:
+  title: "iOS vs. Android"
+  iosHeader: "iOS"
+  androidHeader: "Android"
+  rows:
+    - feature: "NDEF-Tags lesen"
+      ios: "✓"
+      android: "✓"
+    - feature: "Über 25 Nachrichtenarten schreiben"
+      ios: "✓"
+      android: "✓"
+    - feature: "NFC Safe (AES-256-verschlüsselte Payloads)"
+      ios: "✓"
+      android: "✓"
+    - feature: "Tags sperren & passwortschützen"
+      ios: "✓"
+      android: "✓"
+    - feature: "Hintergrund-Lesen vom Sperrbildschirm"
+      ios: "ab iPhone XS"
+      android: "✓"
+    - feature: "Batch-Schreiben"
+      ios: "✓"
+      android: "✓"
+
+featuredReviewsTitle: "Was Nutzer über NFC sagen"
+featuredReviews:
+  - quote: "Wunderschöne UX und nahezu makellose Umsetzung - im Gegensatz zu anderen NFC-Apps."
+    author: "garretthoyos"
+    location: "App Store · März 2023"
+  - quote: "Ich LIEBE diese App. Perfekt für Leute wie mich, die fast nichts über NFC-Tags wissen!"
+    author: "Dallasg479"
+    location: "App Store · Okt. 2020"
+
 faqTitle: "Häufige Fragen"
 faq:
   - question: "Muss mein iPhone entsperrt sein, um einen Tag zu lesen?"

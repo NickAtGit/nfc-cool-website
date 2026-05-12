@@ -5,7 +5,7 @@ language: "en"
 
 localization:
   defaultLanguage: "en"
-  languages: ["de"]
+  languages: ["de", "ja"]
   translationMode: "manual"
   legalLanguage: "de"
 
@@ -37,6 +37,11 @@ sections:
     contentDirectory: "Blog"
     urlPrefix: "blog"
     description: "News, deep-dives, and engineering write-ups from the NFC.cool team."
+  - name: "Changelog"
+    slug: "changelog"
+    contentDirectory: "Changelog"
+    urlPrefix: "changelog"
+    description: "Release notes for NFC.cool Tools, Business Card, and the website."
 
 homePage:
   title: "NFC.cool"
@@ -90,6 +95,16 @@ footer:
       url: "/features/"
     - title: "Business Card"
       url: "/business-card/"
+    - title: "Integrations"
+      url: "/integrations/"
+    - title: "Developers"
+      url: "/developers/"
+    - title: "Reviews"
+      url: "/reviews/"
+    - title: "About"
+      url: "/about/"
+    - title: "Changelog"
+      url: "/changelog/"
     - title: "Blog"
       url: "/blog/"
     - title: "Support"

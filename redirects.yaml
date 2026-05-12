@@ -49,6 +49,30 @@ redirects:
   - from: "/post/nfc-cool-app-presentation-podcast"
     to: "/blog/"
 
+  # ----- blog.nfc.cool posts (legacy subdomain) → migrated to /blog/ on main site -----
+  # Note: these only fire if the visitor lands on the MAIN domain with these paths.
+  # The blog.nfc.cool subdomain itself needs a DNS-level redirect to handle visitors
+  # who go directly to blog.nfc.cool/blog/<slug> — see TODO.md.
+  - from: "/blog/nfc-safe-encrypt-secrets-on-nfc-tags"
+    to: "/blog/nfc-safe-encrypted-secrets/"
+  - from: "/blog/reset-sonicare-brush-head-nfc"
+    to: "/blog/sonicare-brush-head-reset/"
+  - from: "/blog/digital-business-card-doctors-healthcare"
+    to: "/blog/digital-business-card-healthcare/"
+  - from: "/blog/vcard-nfc-iphone-not-working"
+    to: "/blog/vcard-nfc-iphone/"
+  # The following blog.nfc.cool posts haven't been migrated yet — fall back to blog index.
+  - from: "/blog/share-digital-business-card-without-app-download"
+    to: "/blog/"
+  - from: "/blog/openprinttag-read-write-nfc-spools-phone"
+    to: "/blog/openprinttag-support/"
+  - from: "/blog/write-nfc-tags-iphone"
+    to: "/blog/"
+  - from: "/blog/why-privacy-matters-digital-business-card"
+    to: "/blog/"
+  - from: "/blog/welcome-to-the-nfc-cool-blog"
+    to: "/blog/"
+
   # ----- Webflow top-level pages → new equivalents -----
   # Note: /contact already exists as a real page, so no path-level redirect is
   # needed for it. Cloudflare's `_redirects` handles trailing-slash normalisation.

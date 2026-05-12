@@ -48,6 +48,12 @@ specs:
       - "Erkannte Möbel-Kategorien"
       - "Bodenfläche und Maße"
 
+featuredReviewsTitle: "Was Nutzer sagen"
+featuredReviews:
+  - quote: "Der Raum-Mapper ist ziemlich genial. Diese App kann so viel mehr als nur Tags zu schreiben."
+    author: "rockphikapps"
+    location: "App Store · Dez. 2022"
+
 faqTitle: "Häufige Fragen"
 faq:
   - question: "Brauche ich LiDAR für Objektscans?"

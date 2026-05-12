@@ -1,0 +1,87 @@
+slug: "webhooks"
+appStoreURL: "https://ios.nfc.cool"
+googlePlayURL: "https://android.nfc.cool"
+backLinkText: "← すべての機能"
+
+hero:
+  title: "Webhook & オートメーション"
+  subtitle: "スキャンしたNFCやQRデータをリアルタイムであなたのサーバーへ直接送信。ペーパーレスのワークフローを構築し、CRMと同期し、Zapierのオートメーションを起動。NFC.coolはスキャナー、データはあなたのものです。"
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/webhook.webp"
+
+capabilitiesTitle: "できること"
+capabilities:
+  - title: "任意のURLへスキャンをPOST"
+    description: "1つ以上のWebhookエンドポイントを設定すると、各スキャンがペイロード、タイムスタンプ、タグUID、付与したメタデータを含む構造化JSONをHTTP POSTで送信します。"
+  - title: "タグやペイロードでフィルタ"
+    description: "特定のタグUIDやペイロードパターンを特定のエンドポイントへルーティング。あるタグはSlackを、別のタグは在庫システムを更新 - 自由に組み合わせられます。"
+  - title: "カスタムヘッダー & 認証"
+    description: "Authorization、X-API-Keyなど任意のカスタムヘッダーを追加。NFC.coolにシークレットを渡すことなく、ご自身のサービスに対して認証できます。"
+  - title: "リトライ & キュー"
+    description: "ネットワークが不安定でも、NFC.coolが失敗したPOSTをキューに溜め、指数バックオフで再試行します。スキャン記録が失われることはありません。"
+  - title: "プライバシーが第一"
+    description: "データがあなたのデバイスを離れた後、NFC.coolはそれを目にしません。NFC.coolアカウントも、当社サーバーへのアップロードも、スキャンへの分析もありません。"
+
+screenshots:
+  - path: "/assets/images/Webflow/webhook.webp"
+    alt: "Webhookエンドポイントを設定"
+  - path: "/assets/images/Tools-iOS/Screenshot-6.png"
+    alt: "スキャンからWebhookを起動"
+
+specsTitle: "技術詳細"
+specs:
+  - title: "HTTPトランスポート"
+    items:
+      - "HTTPSのみ(TLS 1.2以降)"
+      - "JSONボディ付きPOST"
+      - "リクエストあたり最大32 KBのペイロード"
+      - "カスタムヘッダーに対応"
+  - title: "ペイロード形式"
+    items:
+      - "`type`: nfc | qr | barcode"
+      - "`payload`: デコードされた内容"
+      - "`uid`: タグ/コードの識別子"
+      - "`timestamp`: ISO 8601"
+      - "`device`: オプションのデバイスラベル"
+  - title: "信頼性"
+    items:
+      - "オフライン・スキャン用のローカルキュー"
+      - "指数バックオフ・リトライ(最大5回)"
+      - "エンドポイントごとに有効/無効"
+      - "履歴からの手動再送信"
+
+comparison:
+  title: "iOS と Android の比較"
+  iosHeader: "iOS"
+  androidHeader: "Android"
+  rows:
+    - feature: "スキャンをURLへPOST"
+      ios: "✓"
+      android: "✓"
+    - feature: "エンドポイントごとのフィルター・ルール"
+      ios: "✓"
+      android: "✓"
+    - feature: "カスタム認証ヘッダー"
+      ios: "✓"
+      android: "✓"
+    - feature: "オフライン・リトライキュー"
+      ios: "✓"
+      android: "✓"
+    - feature: "履歴からの手動再送信"
+      ios: "✓"
+      android: "✓"
+
+faqTitle: "よくある質問"
+faq:
+  - question: "Androidでも使えますか?"
+    answer: "はい - Webhookは NFC.cool ToolsのiOS版とAndroid版の両方で利用できます。"
+  - question: "1回のスキャンで複数のエンドポイントを起動できますか?"
+    answer: "はい。有効化された各Webhookが独立してイベントを受け取ります。フィルタールールで、どのペイロードをどのエンドポイントに送るかを決められます。"
+  - question: "レート制限はありますか?"
+    answer: "NFC.cool自体にレート制限はありませんが、受信側のサービスにはほぼ必ずあります。Webhookのフィルタリングを使って、無関係なスキャンでエンドポイントを溢れさせないようにしてください。"
+  - question: "サーバーがオフラインのときはどうなりますか?"
+    answer: "失敗したPOSTはデバイス上のローカルキューに溜まり、指数バックオフで再試行されます。履歴ビューから過去のスキャンをいつでも手動で再送信できます。"
+
+cta:
+  title: "スキャンをワークフローに組み込もう。"
+  buttonText: "NFC.coolを入手"

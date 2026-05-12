@@ -1,0 +1,96 @@
+slug: "nfc-reader-writer"
+appStoreURL: "https://ios.nfc.cool"
+googlePlayURL: "https://android.nfc.cool"
+backLinkText: "← すべての機能"
+
+hero:
+  title: "NFCリーダー & ライター"
+  subtitle: "あらゆるNFCタグを読み取り、25種類以上のメッセージタイプを書き込み。NFC Safe(256ビットAES)で機密情報を暗号化。タグをロックしたりパスワード保護したりして改ざんを防げます。"
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+
+capabilitiesTitle: "できること"
+capabilities:
+  - title: "すべてのNDEFタグを読み取り"
+    description: "NFCタグをタッチしてNDEFレコードを読み取り - URL、連絡先、テキスト、MIMEデータ、アプリ起動、カスタムペイロード。技術タイプや生バイトも確認できます。"
+  - title: "25種類以上のメッセージタイプを書き込み"
+    description: "ウェブサイト、電話番号、vCard、Wi-Fi設定、Apple PayとPayPalのリンク、Spotify、Apple Music、YouTube、ショートカット、Instagram、X、Threads、LinkedIn、Mastodonなど。"
+  - title: "NFC Safe(暗号化)"
+    description: "パスワードやリカバリーフレーズなどの機密情報を256ビットAES暗号化でタグに保存。あなたのパスフレーズだけがペイロードを解除できる - 盗まれたタグも読み取れません。"
+  - title: "ロック & パスワード保護"
+    description: "タグを読み取り専用にして上書きできないようにしたり、パスワードで保護して許可されたデバイスだけが読み書きできるように設定。業務レベルのタグ管理に対応します。"
+  - title: "フォーマット & バッチ書き込み"
+    description: "空のタグをフォーマットしたり、イベントや製品発売向けに同じペイロードをまとめて書き込んだり、あるタグの内容を別のタグへ複製できます。"
+
+screenshots:
+  - path: "/assets/images/Webflow/nfc-card.webp"
+    alt: "NFC.coolでNFCタグを読み取る"
+  - path: "/assets/images/Webflow/nfc-scan-tag.webp"
+    alt: "NFCステッカーをスキャン"
+
+specsTitle: "対応タグ & 技術"
+specs:
+  - title: "タグ・ファミリー"
+    items:
+      - "NFC Forum Type 1, 2, 3, 4, 5"
+      - "NTAG 213, 215, 216, 424 DNA"
+      - "MIFARE Classic, MIFARE Ultralight, MIFARE DESFire"
+      - "ISO 14443 A/B, ISO 15693, FeliCa"
+  - title: "レコードタイプ"
+    items:
+      - "URI、テキスト、vCard、Wi-Fi"
+      - "Bluetoothペアリング"
+      - "Smart Poster、MIME"
+      - "アプリ起動(URI)"
+      - "暗号化ペイロード(NFC.cool Safe)"
+  - title: "プラットフォーム情報"
+    items:
+      - "iOS 14以降(iPhone XS以降はバックグラウンドNFC対応)"
+      - "Android 6以降、NFCチップ搭載端末"
+      - "iOSからのタグ書き込みにはCore NFCの権限が必要(アプリ側で処理)"
+
+comparison:
+  title: "iOS と Android の比較"
+  iosHeader: "iOS"
+  androidHeader: "Android"
+  rows:
+    - feature: "NDEFタグの読み取り"
+      ios: "✓"
+      android: "✓"
+    - feature: "25種類以上のメッセージタイプの書き込み"
+      ios: "✓"
+      android: "✓"
+    - feature: "NFC Safe(AES-256暗号化ペイロード)"
+      ios: "✓"
+      android: "✓"
+    - feature: "タグのロック & パスワード保護"
+      ios: "✓"
+      android: "✓"
+    - feature: "ロック画面からのバックグラウンド読み取り"
+      ios: "iPhone XS以降"
+      android: "✓"
+    - feature: "バッチ書き込み"
+      ios: "✓"
+      android: "✓"
+
+featuredReviewsTitle: "NFCに関するユーザーの声"
+featuredReviews:
+  - quote: "他のNFCアプリとは違って、美しいUXとほぼ完璧な仕上がり。"
+    author: "garretthoyos"
+    location: "App Store · 2023年3月"
+  - quote: "このアプリ大好き。NFCタグについてほとんど知らない私のような人にぴったり!"
+    author: "Dallasg479"
+    location: "App Store · 2020年10月"
+
+faqTitle: "よくある質問"
+faq:
+  - question: "タグを読み取るにはiPhoneのロックを解除する必要がありますか?"
+    answer: "ほとんどのスキャンではい、ただしiPhone XS以降はロック画面からバックグラウンドでNDEFタグを読み取れます - アプリの起動は不要です。"
+  - question: "インターネット接続なしでもタグを読み取れますか?"
+    answer: "はい。NFC読み取りはすべてデバイス上で行われます。NFC.coolがタグの内容をサーバーへアップロードすることはありません。"
+  - question: "NFCタグへの書き込みは安全ですか?"
+    answer: "標準では書き込みは安全で、後から取り消せます。ロック機能は確実なときだけ使用してください - 一度永続ロックされたタグは再書き込みできません。"
+
+cta:
+  title: "タッチで始めましょう。"
+  buttonText: "NFC.cool Toolsをダウンロード"

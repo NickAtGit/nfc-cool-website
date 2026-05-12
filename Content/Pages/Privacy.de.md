@@ -23,6 +23,29 @@ Wenn du **Visitenkarten-Analytics** (nur Business Card App) aktivierst, werden a
 
 Die Apps nutzen Apples NFC-, Scan- und Dokumentenerkennungs-Frameworks auf dem iPhone sowie die entsprechenden System-Frameworks auf Android. Diese laufen vollständig auf dem Gerät.
 
+### Auftragsverarbeiter
+
+Die einzigen externen Dienste, die begrenzte Daten verarbeiten können:
+
+- **Apple Inc.** - App-Store-Distribution, App-Store-Bewertungen, App-Clip-Hosting, iCloud-Sync (dein iCloud-Konto, nicht unseres). Apples Datenschutzpraktiken gelten.
+- **Google LLC** - Google-Play-Distribution und Store-Bewertungen. Googles Datenschutzpraktiken gelten.
+- **Mailjet SAS (Frankreich/EU)** - Newsletter-Zustellung, falls du dich angemeldet hast. Speichert deine E-Mail zum Versand der abonnierten Updates. Ein-Klick-Abmeldung in jeder E-Mail.
+- **Cloudflare, Inc.** - bedient diese Website. Kann Server-Logs bis zu 30 Tage zur Missbrauchserkennung aufbewahren.
+- **GitHub, Inc.** - hostet das Source-Repository und die CI dieser Website.
+
+Kein Analytics, keine Werbenetzwerke, kein Cross-Site-Tracking. Deine Daten werden nicht verkauft oder mit weiteren Drittparteien geteilt.
+
+### Aufbewahrung
+
+- Newsletter-Abonnenten-E-Mail: bis zur Abmeldung oder Löschanfrage.
+- Server-Zugriffsprotokolle (Cloudflare): bis zu 30 Tage.
+- App-Daten auf deinem Gerät: bis du die App oder ihre Daten löschst.
+- Mailjet-eigene Logs: gemäß Mailjets Aufbewahrungspolicy (typischerweise Monate, nicht Jahre).
+
+### Deine Rechte (DSGVO)
+
+In der EU/EWR hast du das Recht auf Auskunft, Berichtigung, Datenübertragbarkeit und Löschung der personenbezogenen Daten, die wir über dich halten. Die einzige personenbezogene Datenkategorie ist deine E-Mail-Adresse im Newsletter-System (falls angemeldet). Zur Ausübung dieser Rechte: <hello@nfc.cool>. Wir antworten innerhalb von 30 Tagen.
+
 ### Kontakt
 
 Fragen zu dieser Erklärung: <hello@nfc.cool>.

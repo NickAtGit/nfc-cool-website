@@ -44,6 +44,17 @@
    --brand-gradient-radial: radial-gradient(at 80% 20%, var(--brand-blue-2) 0%, var(--brand-blue-1) 60%);
 }
 
+/* Japanese locale: Titillium Web has no CJK coverage. Prepend OS-native
+   JA families so glyphs render correctly. Slightly looser line-height
+   for CJK readability. */
+html[lang="ja"] {
+   --font-sans: "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", "Titillium Web", -apple-system, BlinkMacSystemFont, sans-serif;
+   --font-heading: "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", "Titillium Web", -apple-system, BlinkMacSystemFont, sans-serif;
+   --font-mono: "Hiragino Sans", "Yu Gothic", "SF Mono", "Fira Code", Menlo, monospace;
+}
+html[lang="ja"] body { line-height: 1.7; }
+html[lang="ja"] p { line-height: 1.75; }
+
 /* ============================================================
    Typography baseline
    ============================================================ */
@@ -224,8 +235,51 @@ em.brand-tail {
 }
 .sk-lang-btn svg { display: none; }
 .sk-lang-current { line-height: 1; }
-/* SiteKit emits an empty dropdown menu we never use — hide it */
-.sk-lang-menu { display: none; }
+/* Dropdown menu attached to the lang button. Hidden by default; the picker
+   adds .is-open via JS on button click. */
+.sk-lang-menu {
+   position: absolute;
+   top: calc(100% + 0.375rem);
+   right: 0;
+   min-width: 180px;
+   padding: 0.375rem;
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius);
+   box-shadow: 0 12px 32px var(--color-shadow-lg);
+   display: none;
+   z-index: 70;
+}
+.sk-lang-picker.is-open .sk-lang-menu { display: block; }
+.sk-lang-item {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 0.75rem;
+   padding: 0.5rem 0.75rem;
+   border-radius: 6px;
+   color: var(--color-text-secondary);
+   font-size: 0.875rem;
+   text-decoration: none;
+   transition: background var(--transition), color var(--transition);
+}
+.sk-lang-item:hover,
+.sk-lang-item:focus-visible {
+   color: var(--color-text);
+   background: var(--color-accent-light);
+}
+.sk-lang-item.is-current {
+   color: var(--color-text);
+   font-weight: 600;
+}
+.sk-lang-item-code {
+   font-family: var(--font-heading);
+   font-weight: 600;
+   letter-spacing: 0.04em;
+   font-size: 0.75rem;
+   color: var(--color-text-muted);
+}
+.sk-lang-item.is-current .sk-lang-item-code { color: var(--color-accent); }
 
 /* The nav uses a 2rem gap between its children. Pull the theme toggle
    closer to the language picker so they read as one control cluster. */

@@ -50,6 +50,27 @@ specs:
       - "Per-endpoint enable/disable"
       - "Manual replay from history"
 
+comparison:
+  title: "iOS vs Android"
+  iosHeader: "iOS"
+  androidHeader: "Android"
+  rows:
+    - feature: "POST scans to your URL"
+      ios: "✓"
+      android: "✓"
+    - feature: "Per-endpoint filter rules"
+      ios: "✓"
+      android: "✓"
+    - feature: "Custom auth headers"
+      ios: "✓"
+      android: "✓"
+    - feature: "Offline retry queue"
+      ios: "✓"
+      android: "✓"
+    - feature: "Manual replay from history"
+      ios: "✓"
+      android: "✓"
+
 faqTitle: "Frequently asked"
 faq:
   - question: "Does this work on Android?"

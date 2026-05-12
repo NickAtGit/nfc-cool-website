@@ -50,6 +50,15 @@ specs:
       - "Logo-Überlagerung bis 30 % Fläche"
       - "Eigene Augenformen & Rahmen"
 
+featuredReviewsTitle: "Was Nutzer sagen"
+featuredReviews:
+  - quote: "Ich liebe meine neue Art, mich selbst zu präsentieren. Danke euch!"
+    author: "Super.Sanchez"
+    location: "App Store · Nov. 2021"
+  - quote: "Gerade heruntergeladen - definitiv wert, sich Zeit zu nehmen und sie auszuprobieren!"
+    author: "User 220220"
+    location: "App Store · Nov. 2022"
+
 faqTitle: "Häufige Fragen"
 faq:
   - question: "Warum nur auf iOS?"
