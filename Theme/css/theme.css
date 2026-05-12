@@ -44,15 +44,16 @@
    --brand-gradient-radial: radial-gradient(at 80% 20%, var(--brand-blue-2) 0%, var(--brand-blue-1) 60%);
 }
 
-/* Dark-mode hero — deep navy plate with a soft brand-blue glow in the
-   upper-right that mirrors the radial highlight overlay the hero
-   already paints on top. Reads as a quiet night-sky version of the
-   light brand gradient without any new hues. */
+/* Dark-mode hero — vertical dark→amber→dark band. Base is deep navy
+   (#050C18 → #0F1A2E → #050C18), with a soft brand-yellow radial
+   glow (rgba 255,199,9, .22) centered horizontally that mixes with
+   the dark base to produce a warm amber middle. Dark at top, dark at
+   bottom, brand-warmth in the middle. */
 [data-theme="dark"] {
    --brand-gradient:
-      radial-gradient(ellipse 85% 65% at 80% 10%, #1E4F87 0%, transparent 65%),
-      linear-gradient(160deg, #0B1A2E 0%, #050C18 100%);
-   --brand-gradient-radial: radial-gradient(at 80% 20%, #1E4F87 0%, #0B1A2E 60%);
+      radial-gradient(ellipse 85% 50% at 50% 50%, rgba(255, 199, 9, 0.22) 0%, transparent 65%),
+      linear-gradient(180deg, #050C18 0%, #0F1A2E 50%, #050C18 100%);
+   --brand-gradient-radial: radial-gradient(at 50% 50%, rgba(255, 199, 9, 0.18) 0%, #050C18 60%);
 }
 
 /* Japanese locale: Titillium Web has no CJK coverage. Prepend OS-native
