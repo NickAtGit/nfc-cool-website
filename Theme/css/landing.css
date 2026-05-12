@@ -1721,6 +1721,13 @@
    border: 1px solid var(--color-border);
    box-shadow: 0 1px 2px var(--color-shadow);
 }
+/* When a .page-section contains a comparison table, narrow the section's
+   title and intro paragraph so they line up with the table's 820px frame
+   instead of the section's default 1200px column. */
+.page-section:has(.feature-comparison-wrap) > h2,
+.page-section:has(.feature-comparison-wrap) > p {
+   max-width: 820px;
+}
 .feature-comparison-table {
    width: 100%;
    border-collapse: collapse;
