@@ -12,12 +12,12 @@ js:
 favicons:
    - "images/favicon.svg"
 
-# Synchronous theme-detect script: runs before first paint so the saved
-# theme (or the OS prefers-color-scheme) is applied to <html data-theme>
-# immediately, preventing a light→dark flash on page navigation. On the
-# first visit (no localStorage entry yet) we also persist the resolved
-# value, so subsequent navigations are deterministic instead of
-# re-evaluating prefers-color-scheme on every page.
+# Synchronous theme-detect script: resolves and applies the saved
+# data-theme before first paint, persisting auto-detected values on the
+# first visit so subsequent navigations are deterministic. (Font
+# preload hints are emitted server-side by FontPreloadProcessor — they
+# need to appear in raw HTML for the preload scanner to find them, which
+# a JS-injected approach can't guarantee.)
 headInlineScript: |
    (function(){var s=localStorage.getItem('theme');if(!s){s=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';try{localStorage.setItem('theme',s);}catch(e){}}document.documentElement.setAttribute('data-theme',s);})()
 

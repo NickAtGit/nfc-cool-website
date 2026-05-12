@@ -11,6 +11,7 @@ import SiteKit
          .renderer(FeaturePageRenderer())
          .renderer(FeaturesIndexRenderer())
          .removing(ContentIndexRenderer.self)
+         .processor(FontPreloadProcessor())
          .run()
    }
 }
