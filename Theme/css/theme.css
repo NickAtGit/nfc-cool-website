@@ -237,9 +237,9 @@ em.brand-tail {
    background: rgba(19, 123, 217, 0.10);
 }
 [data-theme="dark"] .sk-theme-toggle:hover {
-   color: #6BB6FF;
-   border-color: #6BB6FF;
-   background: rgba(10, 132, 255, 0.16);
+   color: var(--color-accent);
+   border-color: var(--color-accent);
+   background: var(--color-accent-light);
 }
 .sk-search-btn { display: none; }
 
@@ -274,9 +274,9 @@ em.brand-tail {
    background: rgba(19, 123, 217, 0.10);
 }
 [data-theme="dark"] .sk-lang-btn:hover {
-   color: #6BB6FF;
-   border-color: #6BB6FF;
-   background: rgba(10, 132, 255, 0.16);
+   color: var(--color-accent);
+   border-color: var(--color-accent);
+   background: var(--color-accent-light);
 }
 .sk-lang-btn svg { display: none; }
 .sk-lang-current { line-height: 1; }
@@ -315,15 +315,15 @@ em.brand-tail {
 }
 [data-theme="dark"] .sk-lang-item:hover,
 [data-theme="dark"] .sk-lang-item:focus-visible {
-   color: #6BB6FF;
-   background: rgba(10, 132, 255, 0.16);
+   color: var(--color-accent);
+   background: var(--color-accent-light);
 }
 .sk-lang-item.is-current {
    color: var(--brand-blue-1);
    font-weight: 600;
 }
 [data-theme="dark"] .sk-lang-item.is-current {
-   color: #6BB6FF;
+   color: var(--color-accent);
 }
 .sk-lang-item-code {
    font-family: var(--font-heading);
@@ -333,7 +333,7 @@ em.brand-tail {
    color: var(--color-text-muted);
 }
 .sk-lang-item.is-current .sk-lang-item-code { color: var(--brand-blue-1); }
-[data-theme="dark"] .sk-lang-item.is-current .sk-lang-item-code { color: #6BB6FF; }
+[data-theme="dark"] .sk-lang-item.is-current .sk-lang-item-code { color: var(--color-accent); }
 
 /* The nav uses a 2rem gap between its children. Pull the theme toggle
    closer to the language picker so they read as one control cluster. */
