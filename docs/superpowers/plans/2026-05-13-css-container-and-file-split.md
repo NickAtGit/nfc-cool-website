@@ -77,70 +77,72 @@ EOF
 
 ---
 
-### Task 2: Add named width tokens to `theme.yaml`
+### Task 2: Add named width tokens to `theme.css`
 
-Introduce `containerPadding`, `proseWidth`, `faqWidth` so subsequent tasks can replace hardcoded values with `var(--container-padding)`, `var(--prose-width)`, `var(--faq-width)`. SiteKit converts each `tokens.*` entry into a CSS custom property in the inline `:root` block at the top of every page.
+Introduce `--container-padding`, `--prose-width`, `--faq-width` so subsequent tasks can replace hardcoded values with `var(--container-padding)`, `var(--prose-width)`, `var(--faq-width)`.
+
+**Note:** SiteKit's `ThemeTokens` struct only recognizes a fixed set of layout token keys (`maxWidth`, `contentWidth`, `wideContentWidth`, `headerHeight`, `radius`, `radiusLg`, `transition`). Adding arbitrary keys under `tokens:` in `theme.yaml` does nothing — SiteKit silently ignores them. So we define our new vars in a plain `:root { }` block at the top of `theme.css` instead. Standard CSS practice; no SiteKit changes required. The SiteKit-emitted inline `:root` (in `<head>`) and our `:root` rule in `theme.css` both contribute to the same CSS custom-property cascade.
 
 **Files:**
-- Modify: `Theme/theme.yaml`
+- Modify: `Theme/css/theme.css`
 
-- [ ] **Step 1: Read the current tokens block**
+- [ ] **Step 1: Inspect current top of `theme.css`**
 
-Run: `awk '/^tokens:/,0' Theme/theme.yaml`
+Run: `head -20 Theme/css/theme.css`
 
-Expected: a block ending with the layout group:
-```yaml
-   # Layout
-   maxWidth:           "1200px"
-   contentWidth:       "680px"
-   headerHeight:       "72px"
-   radius:             "8px"
-   radiusLg:           "14px"
-   transition:         "0.2s ease"
+Expected: a file-header comment followed by an `@font-face` block. Find the first divider comment (`/* ============... */`) — the `:root` rule should be inserted *before* the first content section, ideally right after the file-header `/* NFC.cool — Theme chrome... */` comment.
+
+- [ ] **Step 2: Insert the `:root` block**
+
+Add this block immediately after the file-header comment at the top of `theme.css` (before the existing `@font-face` and `/* =====... */` content), separated from surrounding code by one blank line above and below:
+
+```css
+/* ============================================================
+   Theme-local width tokens.
+   SiteKit's token system only emits a fixed set of layout vars
+   (--max-width, --content-width, --wide-content-width, etc.) into
+   the inline :root in <head>. The vars below complement those for
+   intents SiteKit doesn't know about: the gutter inside our 1200px
+   container, the blog prose reading column, the landing FAQ
+   accordion measure. Defined here so every stylesheet that uses
+   them inherits a single source of truth.
+   ============================================================ */
+:root {
+   --container-padding: 1.5rem;
+   --prose-width: 760px;
+   --faq-width: 820px;
+}
 ```
 
-- [ ] **Step 2: Edit `Theme/theme.yaml` — add three new layout tokens**
-
-In the layout group, between `contentWidth` and `headerHeight`, insert three lines so the section reads:
-
-```yaml
-   # Layout
-   maxWidth:           "1200px"
-   contentWidth:       "680px"
-   containerPadding:   "1.5rem"
-   proseWidth:         "760px"
-   faqWidth:           "820px"
-   headerHeight:       "72px"
-   radius:             "8px"
-   radiusLg:           "14px"
-   transition:         "0.2s ease"
-```
-
-- [ ] **Step 3: Build and confirm tokens propagate into the inline `:root` block**
+- [ ] **Step 3: Build and confirm the vars are emitted in the rendered CSS**
 
 Run: `swift run Site build 2>&1 | tail -3`
 Expected: `Build completed successfully!`
 
-Run: `grep -oE '\-\-(container-padding|prose-width|faq-width):[^;]+;' _Site/index.html | sort -u`
-Expected three lines, each appearing once:
+Run: `grep -oE '\-\-(container-padding|prose-width|faq-width):\s*[^;]+;' _Site/assets/theme/css/theme.css | sort -u`
+Expected three lines (in some order):
 ```
---container-padding:1.5rem;
---faq-width:820px;
---prose-width:760px;
+--container-padding: 1.5rem;
+--faq-width: 820px;
+--prose-width: 760px;
 ```
 
-If any are missing: SiteKit may transform `containerPadding` to a different CSS-var name (e.g. `--container-padding` vs `--containerpadding`). Inspect `_Site/index.html`'s inline `:root` block and adjust the token *names* in `theme.yaml` until they emit as the expected kebab-case CSS custom properties. Do not proceed until the three vars appear.
+If any are missing, double-check the `:root` block in `theme.css` and rebuild. (SiteKit copies CSS files verbatim into `_Site/assets/theme/css/` — what's in the source is what ships.)
 
 - [ ] **Step 4: Commit**
 
 ```bash
-git add Theme/theme.yaml
+git add Theme/css/theme.css
 git commit -m "$(cat <<'EOF'
-Theme tokens: name the container-padding, prose, FAQ width tiers
+CSS: name the container-padding, prose, FAQ width tiers
 
 Adds --container-padding (1.5rem), --prose-width (760px),
---faq-width (820px) so subsequent CSS edits can reference named
-intent instead of hardcoded numbers.
+--faq-width (820px) as theme.css :root vars so subsequent CSS edits
+can reference named intent instead of hardcoded numbers.
+
+SiteKit's ThemeTokens struct only emits a fixed set of layout
+keys; the additional intents above live as plain CSS vars defined
+alongside the existing token block.
 
 EOF
 )"
