@@ -165,7 +165,7 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <a href="https://indieapps.space/@NFC" class="contact-social-card" target="_blank" rel="noopener">
 <span class="contact-social-name">Mastodon</span>
-<span class="contact-social-handle">@NFC@indieapps.space</span>
+<span class="contact-social-handle">@NFC</span>
 </a>
 
 <a href="/feed.xml" class="contact-social-card">
