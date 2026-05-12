@@ -40,18 +40,28 @@
    --font-script: 'Caveat', 'Brush Script MT', cursive;
    --brand-blue-1: #137BD9;
    --brand-blue-2: #00A2F3;
-   /* Three-stop diagonal gradient — light cyan top-left → brand mid blue
-      → deeper navy bottom-right. Gives the hero more depth than a flat
-      two-stop top-down ramp. */
-   --brand-gradient: linear-gradient(135deg, #1AB0FF 0%, #0E7CCB 50%, #0A4F8E 100%);
+   /* Mesh-style hero gradient: bright cyan glow top-left, deep navy plate
+      bottom-right, with a warm brand-yellow tint in the lower-left corner
+      to hint at the accent palette. Layered radials on top of a diagonal
+      base give the hero a designed, three-dimensional feel instead of a
+      flat ramp. */
+   --brand-gradient:
+      radial-gradient(ellipse 70% 65% at 15% 20%, #2DC2FF 0%, transparent 60%),
+      radial-gradient(ellipse 55% 55% at 90% 85%, #082B58 0%, transparent 65%),
+      radial-gradient(ellipse 45% 45% at 10% 95%, rgba(255, 199, 9, 0.18) 0%, transparent 70%),
+      linear-gradient(135deg, #0E6DBE 0%, #0A4F8E 100%);
    --brand-gradient-radial: radial-gradient(at 80% 20%, var(--brand-blue-2) 0%, var(--brand-blue-1) 60%);
 }
 
-/* Dark-mode: same diagonal motion, but deep-navy → near-black so the hero
-   reads as a darkened version of the brand gradient instead of a glowing
-   blue band on top of the page. */
+/* Dark-mode mesh — same shape, but deep-navy + near-black so the hero
+   sits comfortably on a dark body. Keeps a faint warm corner so the
+   accent personality survives the switch. */
 [data-theme="dark"] {
-   --brand-gradient: linear-gradient(135deg, #1A3D63 0%, #0E2848 50%, #050E1C 100%);
+   --brand-gradient:
+      radial-gradient(ellipse 70% 65% at 15% 20%, #1A4D7C 0%, transparent 60%),
+      radial-gradient(ellipse 55% 55% at 90% 85%, #03081A 0%, transparent 65%),
+      radial-gradient(ellipse 45% 45% at 10% 95%, rgba(255, 199, 9, 0.10) 0%, transparent 70%),
+      linear-gradient(135deg, #0E2848 0%, #050E1C 100%);
    --brand-gradient-radial: radial-gradient(at 80% 20%, #173A5E 0%, #050E1C 60%);
 }
 
