@@ -15,7 +15,14 @@ image: "/assets/images/BusinessCard/Screenshot-1.jpg"
 
 Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit einem Tipp — NFC, QR-Code, AppClip oder Apple Wallet — und sieh, wer deine Karte tatsächlich speichert. Auf Android sind die gleichen Funktionen direkt in NFC.cool Tools integriert.
 
-<a href="https://business-card.nfc.cool" class="landing-cta-button">NFC.cool Business Card holen</a>
+<div class="landing-store-buttons">
+<a href="https://business-card.nfc.cool/?ct=web_de" class="landing-store-button is-apple" aria-label="Download on the App Store">
+<img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
+</a>
+<a href="https://android.nfc.cool/?referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_de" class="landing-store-button is-google" aria-label="Get it on Google Play">
+<img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
+</a>
+</div>
 
 </div>
 
