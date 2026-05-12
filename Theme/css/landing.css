@@ -811,8 +811,8 @@
    max-width: var(--max-width);
    margin-left: auto;
    margin-right: auto;
-   padding-left: 1.5rem;
-   padding-right: 1.5rem;
+   padding-left: var(--container-padding);
+   padding-right: var(--container-padding);
 }
 .page-hero h1 {
    font-family: var(--font-heading);
@@ -1012,8 +1012,8 @@
    max-width: var(--max-width);
    margin-left: auto;
    margin-right: auto;
-   padding-left: 1.5rem;
-   padding-right: 1.5rem;
+   padding-left: var(--container-padding);
+   padding-right: var(--container-padding);
 }
 
 /* Section title — text-align left, but the h2's box keeps the same
