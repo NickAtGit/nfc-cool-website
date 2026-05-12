@@ -1085,7 +1085,10 @@
 
 /* Tight feature-list bullets inside .page-card so they read as
    compact list-items instead of body paragraphs. Used by /business-card/
-   "Complete feature set" cards. */
+   "Complete feature set" cards.
+   Explicit margin: 0 on the first li overrides the .page-section li
+   { margin: 0.35rem 0 } rule, so the gap between h3 and the first
+   bullet matches the h3-to-paragraph gap on neighbouring cards. */
 .page-card ul {
    padding-left: 1.1em;
    margin: 0;
@@ -1094,13 +1097,13 @@
    color: var(--color-text-secondary);
 }
 .page-card ul li {
-   margin-bottom: 0.4rem;
+   margin: 0 0 0.4rem;
 }
 .page-card ul li:last-child {
    margin-bottom: 0;
 }
 .page-card ul li::marker {
-   color: var(--color-accent);
+   color: var(--brand-blue-1);
 }
 .page-card ul li strong {
    color: var(--color-text);
