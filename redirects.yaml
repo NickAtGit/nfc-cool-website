@@ -28,7 +28,7 @@ redirects:
 
   # ----- Webflow blog post URLs → migrated SiteKit posts -----
   - from: "/post/openprinttag-support-nfc-cool-ios"
-    to: "/blog/openprinttag-support/"
+    to: "/blog/openprinttag-read-write-nfc-spools-phone/"
   - from: "/post/building-a-great-app-clip-experience-lessons-from-nfc-cool-business-card"
     to: "/blog/app-clip-lessons-from-business-card/"
   - from: "/post/why-cant-my-iphone-open-my-condos-rfid-door-understanding-nfc-vs-rfid"
@@ -57,29 +57,34 @@ redirects:
   - from: "/post/nfc-cool-app-presentation-podcast"
     to: "/blog/"
 
-  # ----- blog.nfc.cool posts (legacy subdomain) → migrated to /blog/ on main site -----
+  # ----- blog.nfc.cool legacy subdomain → unified /blog/ -----
   # Note: these only fire if the visitor lands on the MAIN domain with these paths.
-  # The blog.nfc.cool subdomain itself needs a DNS-level redirect to handle visitors
-  # who go directly to blog.nfc.cool/blog/<slug> — see TODO.md.
+  # The blog.nfc.cool subdomain itself needs a DNS-level redirect for direct visitors.
+  # Most blog.nfc.cool slugs are now canonical here — no redirect needed for those.
+  # Exception: nfc-safe was renamed to drop the verb cluster.
   - from: "/blog/nfc-safe-encrypt-secrets-on-nfc-tags"
     to: "/blog/nfc-safe-encrypted-secrets/"
-  - from: "/blog/reset-sonicare-brush-head-nfc"
-    to: "/blog/sonicare-brush-head-reset/"
-  - from: "/blog/digital-business-card-doctors-healthcare"
-    to: "/blog/digital-business-card-healthcare/"
-  - from: "/blog/vcard-nfc-iphone-not-working"
-    to: "/blog/vcard-nfc-iphone/"
-  # The following blog.nfc.cool posts haven't been migrated yet — fall back to blog index.
-  - from: "/blog/share-digital-business-card-without-app-download"
-    to: "/blog/"
-  - from: "/blog/openprinttag-read-write-nfc-spools-phone"
-    to: "/blog/openprinttag-support/"
-  - from: "/blog/write-nfc-tags-iphone"
-    to: "/blog/"
-  - from: "/blog/why-privacy-matters-digital-business-card"
-    to: "/blog/"
+  # The "we moved" intro stays a fallback to the index.
   - from: "/blog/welcome-to-the-nfc-cool-blog"
     to: "/blog/"
+
+  # ----- Old nfc-cool-website slugs → new canonical (blog.nfc.cool-aligned) slugs -----
+  - from: "/blog/openprinttag-support"
+    to: "/blog/openprinttag-read-write-nfc-spools-phone/"
+  - from: "/blog/openprinttag-support/"
+    to: "/blog/openprinttag-read-write-nfc-spools-phone/"
+  - from: "/blog/vcard-nfc-iphone"
+    to: "/blog/vcard-nfc-iphone-not-working/"
+  - from: "/blog/vcard-nfc-iphone/"
+    to: "/blog/vcard-nfc-iphone-not-working/"
+  - from: "/blog/digital-business-card-healthcare"
+    to: "/blog/digital-business-card-doctors-healthcare/"
+  - from: "/blog/digital-business-card-healthcare/"
+    to: "/blog/digital-business-card-doctors-healthcare/"
+  - from: "/blog/sonicare-brush-head-reset"
+    to: "/blog/reset-sonicare-brush-head-nfc/"
+  - from: "/blog/sonicare-brush-head-reset/"
+    to: "/blog/reset-sonicare-brush-head-nfc/"
 
   # ----- Webflow top-level pages → new equivalents -----
   # Note: /contact already exists as a real page, so no path-level redirect is
