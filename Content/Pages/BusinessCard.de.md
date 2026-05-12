@@ -149,15 +149,17 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 </ul>
 </article>
 
+<article class="page-card">
+<h3>Konferenzmodus</h3>
+<ul>
+<li><strong>QR auf dem Sperrbildschirm</strong> — der QR-Code deiner Karte heftet auf dem iPhone-Lock-Screen, scanbar ohne Entsperren</li>
+<li><strong>Bleibt 8 Stunden</strong> — deckt einen kompletten Event-Tag ab, danach wird er automatisch entfernt</li>
+<li><strong>App muss nicht offen sein</strong> — Telefon hinhalten, scannen lassen, fertig</li>
+<li><strong>Nur iOS</strong> — nutzt Apples Live-Activities-API</li>
+</ul>
+</article>
+
 </div>
-
-</section>
-
-<section class="page-section">
-
-## Konferenzmodus
-
-Für Messen, Meetups und Live-Events. Im Konferenzmodus lebt dein QR-Code als Live-Activity auf dem iPhone-Sperrbildschirm — Telefon hochheben, einmal tippen, fertig. Jeder Tipp zählt in deine Event-Analytics, und Notizen zu neuen Leads synchronisieren sich nach Konferenzende mit deinem Karten-Verlauf.
 
 </section>
 

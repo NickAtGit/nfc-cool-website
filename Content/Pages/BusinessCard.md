@@ -149,15 +149,17 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 </ul>
 </article>
 
+<article class="page-card">
+<h3>Conference Mode</h3>
+<ul>
+<li><strong>QR on the Lock Screen</strong> — your card's QR code pinned to the iPhone Lock Screen so anyone can scan it without unlocking</li>
+<li><strong>Stays for 8 hours</strong> — covers a full event day, then clears itself</li>
+<li><strong>No app open required</strong> — just hand the phone over, they scan, done</li>
+<li><strong>iOS only</strong> — uses Apple's Live Activities API</li>
+</ul>
+</article>
+
 </div>
-
-</section>
-
-<section class="page-section">
-
-## Conference Mode
-
-For trade shows, meetups, and live events. Switch to Conference Mode and your QR code lives on the iPhone Lock Screen as a Live Activity — bring your phone out, tap once, and your card is shareable without unlocking. Every tap counts toward your event analytics, and notes attached to a new lead sync back to your card history when the conference ends.
 
 </section>
 

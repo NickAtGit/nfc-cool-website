@@ -149,15 +149,17 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 </ul>
 </article>
 
+<article class="page-card">
+<h3>Conference Mode</h3>
+<ul>
+<li><strong>ロック画面にQR</strong> — あなたの名刺のQRコードがiPhoneのロック画面に表示され、解除なしでスキャン可能</li>
+<li><strong>8時間表示</strong> — 1日のイベントをカバー、その後自動で消えます</li>
+<li><strong>アプリを開く必要なし</strong> — 端末を差し出すだけで完了</li>
+<li><strong>iOSのみ</strong> — AppleのLive Activities APIを利用</li>
+</ul>
+</article>
+
 </div>
-
-</section>
-
-<section class="page-section">
-
-## Conference Mode
-
-展示会、ミートアップ、ライブイベント向け。Conference Modeを有効にすると、QRコードがLive ActivityとしてiPhoneのロック画面に表示されます — 端末を取り出し、一度タップするだけで共有可能。各タップはイベントのアナリティクスに自動でカウントされ、新規リードに紐づけたメモはイベント終了時にカード履歴へ同期されます。
 
 </section>
 
