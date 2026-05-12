@@ -90,6 +90,10 @@ footer:
       url: "https://bsky.app/profile/nfc.cool"
     - platform: "threads"
       url: "https://www.threads.net/@nfc.cool"
+    - platform: "facebook"
+      url: "https://www.facebook.com/NFC.cool/"
+    - platform: "mastodon"
+      url: "https://indieapps.space/@NFC"
     - platform: "rss"
       url: "/feed.xml"
   links:

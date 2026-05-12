@@ -158,6 +158,16 @@ description: "NFC.coolへのお問い合わせ。メール、FAQ、SNS。"
 <span class="contact-social-handle">@nfc.cool</span>
 </a>
 
+<a href="https://www.facebook.com/NFC.cool/" class="contact-social-card" target="_blank" rel="noopener">
+<span class="contact-social-name">Facebook</span>
+<span class="contact-social-handle">NFC.cool</span>
+</a>
+
+<a href="https://indieapps.space/@NFC" class="contact-social-card" target="_blank" rel="noopener">
+<span class="contact-social-name">Mastodon</span>
+<span class="contact-social-handle">@NFC@indieapps.space</span>
+</a>
+
 <a href="/feed.xml" class="contact-social-card">
 <span class="contact-social-name">RSS</span>
 <span class="contact-social-handle">feed.xml</span>
