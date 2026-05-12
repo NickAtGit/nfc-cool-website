@@ -18,10 +18,29 @@ Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage ben
 
 ## Auf einen Blick
 
-- **Was es ist:** NFC.cool ist eine Familie unabhängiger Apps für NFC, QR, Dokumente, 3D- und Raumscan sowie eine eigenständige digitale Visitenkarte, von Nicolo Stanciu.
-- **Wo es läuft:** Apple App Store und Google Play. Kostenlos zum Herunterladen.
-- **Bundle-IDs:** `de.nicolo-stanciu.nfcing` (Tools iOS), `cool.nfc` (Tools Android), `io.stanc.DigitalBusinessCardApp` (Business Card iOS).
-- **Kurz-URLs:** [ios.nfc.cool](https://ios.nfc.cool) · [android.nfc.cool](https://android.nfc.cool) · [business-card.nfc.cool](https://business-card.nfc.cool)
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Was es ist</h3>
+<p>NFC.cool ist eine Familie unabhängiger Apps für NFC, QR, Dokumente, 3D- und Raumscan sowie eine eigenständige digitale Visitenkarte, von Nicolo Stanciu.</p>
+</article>
+
+<article class="page-card">
+<h3>Wo es läuft</h3>
+<p>Apple App Store und Google Play. Kostenlos zum Herunterladen.</p>
+</article>
+
+<article class="page-card">
+<h3>Bundle-IDs</h3>
+<p><code>de.nicolo-stanciu.nfcing</code> (Tools iOS), <code>cool.nfc</code> (Tools Android), <code>io.stanc.DigitalBusinessCardApp</code> (Business Card iOS).</p>
+</article>
+
+<article class="page-card">
+<h3>Kurz-URLs</h3>
+<p><a href="https://ios.nfc.cool">ios.nfc.cool</a> · <a href="https://android.nfc.cool">android.nfc.cool</a> · <a href="https://business-card.nfc.cool">business-card.nfc.cool</a></p>
+</article>
+
+</div>
 
 </section>
 

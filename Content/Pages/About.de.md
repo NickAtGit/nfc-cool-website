@@ -28,11 +28,34 @@ Ich halte das absichtlich so. Kein VC, keine Analytics, kein Growth-Team - nur e
 
 ## Wofür NFC.cool steht
 
-- **Datenschutz von Haus aus.** Scans, Dokumente, Kontakte - alles bleibt auf deinem Gerät. Nichts fließt zu mir zurück, es sei denn, du aktivierst Webhooks explizit (und selbst dann ist das Ziel *dein* Server).
-- **Verarbeitung auf dem Gerät.** OCR, Photogrammetrie, NFC-Parsing - alles läuft lokal. Keine Cloud-Roundtrips, keine Internet-Pflicht.
-- **Offene Standards.** NFC-Forum-Typen, NDEF, vCard, iCalendar, OpenPrintTag. Wo Standards existieren, folgt NFC.cool ihnen.
-- **Kein Tracking, keine Analytics.** Ich weiß nicht, welche Funktionen du benutzt, wie oft oder wer du bist. Ich schreibe die Apps; die Daten gehören dir.
-- **Wo möglich kostenlos.** Das Kern-Toolkit ist kostenlos und werbefrei. Einige fortgeschrittene Workflows können in den Apps freischaltbar sein, aber für das Wesentliche brauchst du nie ein Abo.
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Datenschutz von Haus aus</h3>
+<p>Scans, Dokumente, Kontakte — alles bleibt auf deinem Gerät. Nichts fließt zu mir zurück, es sei denn, du aktivierst Webhooks explizit (und selbst dann ist das Ziel <em>dein</em> Server).</p>
+</article>
+
+<article class="page-card">
+<h3>Verarbeitung auf dem Gerät</h3>
+<p>OCR, Photogrammetrie, NFC-Parsing — alles läuft lokal. Keine Cloud-Roundtrips, keine Internet-Pflicht.</p>
+</article>
+
+<article class="page-card">
+<h3>Offene Standards</h3>
+<p>NFC-Forum-Typen, NDEF, vCard, iCalendar, OpenPrintTag. Wo Standards existieren, folgt NFC.cool ihnen.</p>
+</article>
+
+<article class="page-card">
+<h3>Kein Tracking, keine Analytics</h3>
+<p>Ich weiß nicht, welche Funktionen du benutzt, wie oft oder wer du bist. Ich schreibe die Apps; die Daten gehören dir.</p>
+</article>
+
+<article class="page-card">
+<h3>Wo möglich kostenlos</h3>
+<p>Das Kern-Toolkit ist kostenlos und werbefrei. Einige fortgeschrittene Workflows können in den Apps freischaltbar sein, aber für das Wesentliche brauchst du nie ein Abo.</p>
+</article>
+
+</div>
 
 </section>
 

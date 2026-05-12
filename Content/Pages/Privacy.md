@@ -25,13 +25,36 @@ The apps use Apple's NFC, scanning, and document recognition frameworks on iPhon
 
 ### Sub-processors
 
-The only external services that may process limited data are:
+The only external services that may process limited data:
 
-- **Apple Inc.** - App Store distribution, App Store reviews, App Clip hosting, iCloud sync (your iCloud account, not ours). Apple's privacy practices apply.
-- **Google LLC** - Google Play distribution and store reviews. Google's privacy practices apply.
-- **Mailjet SAS (France/EU)** - newsletter delivery if you subscribe. Stores your email for the purpose of sending you the updates you signed up for. One-click unsubscribe in every email.
-- **Cloudflare, Inc.** - serves this website. May retain server logs for up to 30 days for abuse detection.
-- **GitHub, Inc.** - hosts the source repository and CI for this website. Receives a request log only when assets are fetched from a GitHub-hosted CDN (currently: none on production).
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Apple Inc.</h3>
+<p>App Store distribution, App Store reviews, App Clip hosting, iCloud sync (your iCloud account, not ours). Apple's privacy practices apply.</p>
+</article>
+
+<article class="page-card">
+<h3>Google LLC</h3>
+<p>Google Play distribution and store reviews. Google's privacy practices apply.</p>
+</article>
+
+<article class="page-card">
+<h3>Mailjet SAS (France/EU)</h3>
+<p>Newsletter delivery if you subscribe. Stores your email for the purpose of sending the updates you signed up for. One-click unsubscribe in every email.</p>
+</article>
+
+<article class="page-card">
+<h3>Cloudflare, Inc.</h3>
+<p>Serves this website. May retain server logs for up to 30 days for abuse detection.</p>
+</article>
+
+<article class="page-card">
+<h3>GitHub, Inc.</h3>
+<p>Hosts the source repository and CI for this website. Receives a request log only when assets are fetched from a GitHub-hosted CDN (currently: none on production).</p>
+</article>
+
+</div>
 
 No analytics, no ad networks, no cross-site tracking. Your data is not sold or shared with any other third party.
 

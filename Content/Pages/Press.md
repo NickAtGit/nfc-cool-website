@@ -18,10 +18,29 @@ For coverage, partnerships, and anything that needs an official statement, this 
 
 ## At a glance
 
-- **What it is:** NFC.cool is a family of independent apps for NFC, QR, Document, 3D, and Room Scanning, plus a dedicated Digital Business Card, by Nicolo Stanciu.
-- **Where it runs:** Apple App Store and Google Play. Free to download.
-- **Bundle IDs:** `de.nicolo-stanciu.nfcing` (Tools iOS), `cool.nfc` (Tools Android), `io.stanc.DigitalBusinessCardApp` (Business Card iOS).
-- **Short URLs:** [ios.nfc.cool](https://ios.nfc.cool) · [android.nfc.cool](https://android.nfc.cool) · [business-card.nfc.cool](https://business-card.nfc.cool)
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>What it is</h3>
+<p>NFC.cool is a family of independent apps for NFC, QR, Document, 3D, and Room Scanning, plus a dedicated Digital Business Card, by Nicolo Stanciu.</p>
+</article>
+
+<article class="page-card">
+<h3>Where it runs</h3>
+<p>Apple App Store and Google Play. Free to download.</p>
+</article>
+
+<article class="page-card">
+<h3>Bundle IDs</h3>
+<p><code>de.nicolo-stanciu.nfcing</code> (Tools iOS), <code>cool.nfc</code> (Tools Android), <code>io.stanc.DigitalBusinessCardApp</code> (Business Card iOS).</p>
+</article>
+
+<article class="page-card">
+<h3>Short URLs</h3>
+<p><a href="https://ios.nfc.cool">ios.nfc.cool</a> · <a href="https://android.nfc.cool">android.nfc.cool</a> · <a href="https://business-card.nfc.cool">business-card.nfc.cool</a></p>
+</article>
+
+</div>
 
 </section>
 

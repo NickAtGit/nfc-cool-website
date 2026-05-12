@@ -28,11 +28,34 @@ I keep it that way on purpose. No VC, no analytics, no growth team — just one 
 
 ## What NFC.cool stands for
 
-- **Privacy by default.** Scans, documents, contacts — everything stays on your device. Nothing flows back to me unless you explicitly opt into webhooks (and even then, the destination is *your* server).
-- **On-device processing.** OCR, photogrammetry, NFC parsing — all run locally. No cloud round-trips, no internet required.
-- **Open standards.** NFC Forum types, NDEF, vCard, iCalendar, OpenPrintTag. Where standards exist, NFC.cool follows them.
-- **No analytics, no tracking.** I don't know which features you use, how often, or who you are. I write the apps; the data is yours.
-- **Free where it can be.** The core toolkit is free with no ads. A few advanced workflows may unlock inside the apps, but you'll never need a subscription for the essentials.
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Privacy by default</h3>
+<p>Scans, documents, contacts — everything stays on your device. Nothing flows back to me unless you explicitly opt into webhooks (and even then, the destination is <em>your</em> server).</p>
+</article>
+
+<article class="page-card">
+<h3>On-device processing</h3>
+<p>OCR, photogrammetry, NFC parsing — all run locally. No cloud round-trips, no internet required.</p>
+</article>
+
+<article class="page-card">
+<h3>Open standards</h3>
+<p>NFC Forum types, NDEF, vCard, iCalendar, OpenPrintTag. Where standards exist, NFC.cool follows them.</p>
+</article>
+
+<article class="page-card">
+<h3>No analytics, no tracking</h3>
+<p>I don't know which features you use, how often, or who you are. I write the apps; the data is yours.</p>
+</article>
+
+<article class="page-card">
+<h3>Free where it can be</h3>
+<p>The core toolkit is free with no ads. A few advanced workflows may unlock inside the apps, but you'll never need a subscription for the essentials.</p>
+</article>
+
+</div>
 
 </section>
 

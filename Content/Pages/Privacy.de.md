@@ -27,11 +27,34 @@ Die Apps nutzen Apples NFC-, Scan- und Dokumentenerkennungs-Frameworks auf dem i
 
 Die einzigen externen Dienste, die begrenzte Daten verarbeiten können:
 
-- **Apple Inc.** - App-Store-Distribution, App-Store-Bewertungen, App-Clip-Hosting, iCloud-Sync (dein iCloud-Konto, nicht unseres). Apples Datenschutzpraktiken gelten.
-- **Google LLC** - Google-Play-Distribution und Store-Bewertungen. Googles Datenschutzpraktiken gelten.
-- **Mailjet SAS (Frankreich/EU)** - Newsletter-Zustellung, falls du dich angemeldet hast. Speichert deine E-Mail zum Versand der abonnierten Updates. Ein-Klick-Abmeldung in jeder E-Mail.
-- **Cloudflare, Inc.** - bedient diese Website. Kann Server-Logs bis zu 30 Tage zur Missbrauchserkennung aufbewahren.
-- **GitHub, Inc.** - hostet das Source-Repository und die CI dieser Website.
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Apple Inc.</h3>
+<p>App-Store-Distribution, App-Store-Bewertungen, App-Clip-Hosting, iCloud-Sync (dein iCloud-Konto, nicht unseres). Apples Datenschutzpraktiken gelten.</p>
+</article>
+
+<article class="page-card">
+<h3>Google LLC</h3>
+<p>Google-Play-Distribution und Store-Bewertungen. Googles Datenschutzpraktiken gelten.</p>
+</article>
+
+<article class="page-card">
+<h3>Mailjet SAS (Frankreich/EU)</h3>
+<p>Newsletter-Zustellung, falls du dich angemeldet hast. Speichert deine E-Mail zum Versand der abonnierten Updates. Ein-Klick-Abmeldung in jeder E-Mail.</p>
+</article>
+
+<article class="page-card">
+<h3>Cloudflare, Inc.</h3>
+<p>Bedient diese Website. Kann Server-Logs bis zu 30 Tage zur Missbrauchserkennung aufbewahren.</p>
+</article>
+
+<article class="page-card">
+<h3>GitHub, Inc.</h3>
+<p>Hostet das Source-Repository und die CI dieser Website.</p>
+</article>
+
+</div>
 
 Kein Analytics, keine Werbenetzwerke, kein Cross-Site-Tracking. Deine Daten werden nicht verkauft oder mit weiteren Drittparteien geteilt.
 

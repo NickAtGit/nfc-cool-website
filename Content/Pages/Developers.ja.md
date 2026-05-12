@@ -125,13 +125,44 @@ async def webhook(request: Request, authorization: str | None = Header(None)):
 
 ツール、検索エンジン、AIエージェント向けに発見可能なフィード:
 
-- [`/sitemap.xml`](/sitemap.xml) — サイト全体のインデックス
-- [`/llms.txt`](/llms.txt) — AI向けのサイト・ディレクトリ(自動生成)
-- [`/feed.xml`](/feed.xml) — サイト全体のRSS(全文)
-- [`/blog/feed.xml`](/blog/feed.xml) — ブログ専用RSS
-- [`/changelog/feed.xml`](/changelog/feed.xml) — リリースフィード
-- [`/assets/nav-index.json`](/assets/nav-index.json) — 構造化されたナビゲーション・インデックス
-- [`/assets/search-index.json`](/assets/search-index.json) — 全文検索インデックス
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3><a href="/sitemap.xml"><code>/sitemap.xml</code></a></h3>
+<p>サイト全体のインデックス — すべてのルートと最終更新日時。</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/llms.txt"><code>/llms.txt</code></a></h3>
+<p>AI向けのサイト・ディレクトリ(自動生成)。</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/feed.xml"><code>/feed.xml</code></a></h3>
+<p>サイト全体のRSS、各セクションの全文を含みます。</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/blog/feed.xml"><code>/blog/feed.xml</code></a></h3>
+<p>ブログ専用のRSSフィード。</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/changelog/feed.xml"><code>/changelog/feed.xml</code></a></h3>
+<p>リリースフィード — バージョン、日付、変更内容。</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/assets/nav-index.json"><code>/assets/nav-index.json</code></a></h3>
+<p>タイトル、サマリー、タグ、URLを含む構造化ナビゲーション・インデックス。</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/assets/search-index.json"><code>/assets/search-index.json</code></a></h3>
+<p>クライアントサイド検索用に、すべての記事のプレーンテキスト・コンテンツ。</p>
+</article>
+
+</div>
 
 インテグレーションや自動ディスカバリーを構築していて、必要なものが見つからない場合は: <hello@nfc.cool>。
 

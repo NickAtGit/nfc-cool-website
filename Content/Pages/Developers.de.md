@@ -125,13 +125,44 @@ Empfohlene Antwort: `204 No Content` bei Erfolg. Jeder 2xx wird als erfolgreiche
 
 Auffindbare Feeds für Tooling, Suchmaschinen und KI-Agenten:
 
-- [`/sitemap.xml`](/sitemap.xml) - vollständiger Site-Index
-- [`/llms.txt`](/llms.txt) - KI-freundliches Site-Verzeichnis (automatisch generiert)
-- [`/feed.xml`](/feed.xml) - seitenweiter RSS, Volltext-Inhalt
-- [`/blog/feed.xml`](/blog/feed.xml) - Blog-RSS
-- [`/changelog/feed.xml`](/changelog/feed.xml) - Release-Feed
-- [`/assets/nav-index.json`](/assets/nav-index.json) - strukturierter Navigations-Index
-- [`/assets/search-index.json`](/assets/search-index.json) - Volltext-Such-Index
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3><a href="/sitemap.xml"><code>/sitemap.xml</code></a></h3>
+<p>Vollständiger Site-Index — jede Route plus letztes Änderungsdatum.</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/llms.txt"><code>/llms.txt</code></a></h3>
+<p>KI-freundliches Site-Verzeichnis (automatisch generiert).</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/feed.xml"><code>/feed.xml</code></a></h3>
+<p>Seitenweiter RSS mit Volltext-Inhalt aus jeder Sektion.</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/blog/feed.xml"><code>/blog/feed.xml</code></a></h3>
+<p>Blog-spezifischer RSS-Feed.</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/changelog/feed.xml"><code>/changelog/feed.xml</code></a></h3>
+<p>Release-Feed — Versionen, Daten, Changelog-Einträge.</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/assets/nav-index.json"><code>/assets/nav-index.json</code></a></h3>
+<p>Strukturierter Navigations-Index mit Titeln, Zusammenfassungen, Tags und URLs.</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/assets/search-index.json"><code>/assets/search-index.json</code></a></h3>
+<p>Volltext-Inhalt jedes Artikels für client-seitige Suche.</p>
+</article>
+
+</div>
 
 Baust du eine Integration oder eine automatisierte Discovery, und etwas fehlt? <hello@nfc.cool>.
 

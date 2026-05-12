@@ -19,10 +19,29 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 
 ## How it works
 
-- **Tap to share.** Bring two iPhones close together; the other person sees your card without installing anything.
-- **QR fallback.** Show a QR code; any phone with a camera can scan it.
-- **AppClip & Apple Wallet.** Visitors can save your card to their wallet - no NFC.cool account required.
-- **Live tracking.** See impression counts, save counts, and which sharing method was used - never the visitor's identity.
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Tap to share</h3>
+<p>Bring two iPhones close together; the other person sees your card without installing anything.</p>
+</article>
+
+<article class="page-card">
+<h3>QR fallback</h3>
+<p>Show a QR code; any phone with a camera can scan it.</p>
+</article>
+
+<article class="page-card">
+<h3>AppClip & Apple Wallet</h3>
+<p>Visitors can save your card to their wallet — no NFC.cool account required.</p>
+</article>
+
+<article class="page-card">
+<h3>Live tracking</h3>
+<p>See impression counts, save counts, and which sharing method was used — never the visitor's identity.</p>
+</article>
+
+</div>
 
 </section>
 

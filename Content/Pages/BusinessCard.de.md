@@ -19,10 +19,29 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 
 ## So funktioniert es
 
-- **Tap to share.** Halte zwei iPhones aneinander; die Gegenseite sieht deine Karte, ohne etwas zu installieren.
-- **QR-Fallback.** Zeige einen QR-Code; jedes Telefon mit Kamera kann ihn scannen.
-- **AppClip & Apple Wallet.** Empfänger können deine Karte in ihrer Wallet speichern - kein NFC.cool-Konto nötig.
-- **Live-Tracking.** Sieh Impressionen, Speicherungen und welche Sharing-Methode genutzt wurde - nie die Identität der Empfänger.
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Tap to share</h3>
+<p>Halte zwei iPhones aneinander; die Gegenseite sieht deine Karte, ohne etwas zu installieren.</p>
+</article>
+
+<article class="page-card">
+<h3>QR-Fallback</h3>
+<p>Zeige einen QR-Code; jedes Telefon mit Kamera kann ihn scannen.</p>
+</article>
+
+<article class="page-card">
+<h3>AppClip & Apple Wallet</h3>
+<p>Empfänger können deine Karte in ihrer Wallet speichern — kein NFC.cool-Konto nötig.</p>
+</article>
+
+<article class="page-card">
+<h3>Live-Tracking</h3>
+<p>Sieh Impressionen, Speicherungen und welche Sharing-Methode genutzt wurde — nie die Identität der Empfänger.</p>
+</article>
+
+</div>
 
 </section>
 

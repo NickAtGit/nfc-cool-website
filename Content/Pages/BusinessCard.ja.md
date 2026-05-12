@@ -19,10 +19,29 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 
 ## 仕組み
 
-- **タップで共有。** 2台のiPhoneを近づけるだけで、相手は何もインストールせずにあなたのカードを見られます。
-- **QRフォールバック。** QRコードを表示すれば、カメラ付きのどんなスマホでも読み取れます。
-- **AppClip & Apple Wallet。** 受け取った相手はNFC.coolアカウント不要でカードをウォレットに保存できます。
-- **リアルタイム・トラッキング。** インプレッション数、保存数、共有方法の内訳が見られます - 相手の身元は記録しません。
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>タップで共有</h3>
+<p>2台のiPhoneを近づけるだけで、相手は何もインストールせずにあなたのカードを見られます。</p>
+</article>
+
+<article class="page-card">
+<h3>QRフォールバック</h3>
+<p>QRコードを表示すれば、カメラ付きのどんなスマホでも読み取れます。</p>
+</article>
+
+<article class="page-card">
+<h3>AppClip & Apple Wallet</h3>
+<p>受け取った相手はNFC.coolアカウント不要でカードをウォレットに保存できます。</p>
+</article>
+
+<article class="page-card">
+<h3>リアルタイム・トラッキング</h3>
+<p>インプレッション数、保存数、共有方法の内訳が見られます — 相手の身元は記録しません。</p>
+</article>
+
+</div>
 
 </section>
 

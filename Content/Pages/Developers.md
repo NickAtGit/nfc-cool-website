@@ -125,13 +125,44 @@ Recommended response: return `204 No Content` on success. Any 2xx is treated as 
 
 Discoverable feeds for tooling, search engines, and AI agents:
 
-- [`/sitemap.xml`](/sitemap.xml) — full site index
-- [`/llms.txt`](/llms.txt) — AI-friendly site directory (auto-emitted)
-- [`/feed.xml`](/feed.xml) — site-wide RSS, full-text content
-- [`/blog/feed.xml`](/blog/feed.xml) — blog-only RSS
-- [`/changelog/feed.xml`](/changelog/feed.xml) — release feed
-- [`/assets/nav-index.json`](/assets/nav-index.json) — structured navigation index
-- [`/assets/search-index.json`](/assets/search-index.json) — full-text search index
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3><a href="/sitemap.xml"><code>/sitemap.xml</code></a></h3>
+<p>Full site index — every route + last-modified.</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/llms.txt"><code>/llms.txt</code></a></h3>
+<p>AI-friendly site directory (auto-emitted by SiteKit).</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/feed.xml"><code>/feed.xml</code></a></h3>
+<p>Site-wide RSS with full-text content from every section.</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/blog/feed.xml"><code>/blog/feed.xml</code></a></h3>
+<p>Blog-only RSS feed.</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/changelog/feed.xml"><code>/changelog/feed.xml</code></a></h3>
+<p>Release feed — versions, dates, and changelog entries.</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/assets/nav-index.json"><code>/assets/nav-index.json</code></a></h3>
+<p>Structured navigation index with titles, summaries, tags, and URLs.</p>
+</article>
+
+<article class="page-card">
+<h3><a href="/assets/search-index.json"><code>/assets/search-index.json</code></a></h3>
+<p>Plain-text content of every article for client-side search.</p>
+</article>
+
+</div>
 
 If you're building an integration or doing automated discovery and run into something missing, drop a note: <hello@nfc.cool>.
 
