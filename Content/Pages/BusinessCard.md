@@ -92,7 +92,7 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 <div class="page-cards-grid">
 
 <article class="page-card">
-<h3>📇 Smart business cards</h3>
+<h3>Smart business cards</h3>
 <ul>
 <li><strong>Digital card creation</strong> — build cards that match your brand</li>
 <li><strong>Up to 100 cards</strong> — for different roles, occasions, or teammates</li>
@@ -102,7 +102,7 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 </article>
 
 <article class="page-card">
-<h3>🎨 Customization & branding</h3>
+<h3>Customization & branding</h3>
 <ul>
 <li><strong>Customizable logos</strong> — separate light and dark mode marks</li>
 <li><strong>Custom colors</strong> — background, border, and tile colors (iOS)</li>
@@ -111,7 +111,7 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 </article>
 
 <article class="page-card">
-<h3>🤝 Lead generation & networking <em>iOS</em></h3>
+<h3>Lead generation & networking</h3>
 <ul>
 <li><strong>Lead-capture forms</strong> — collect contact info from viewers</li>
 <li><strong>Status tracking</strong> — New → Contacted → Qualified → Converted → Archived</li>
@@ -121,7 +121,7 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 </article>
 
 <article class="page-card">
-<h3>📊 Analytics <em>iOS</em></h3>
+<h3>Analytics</h3>
 <ul>
 <li><strong>Profile views</strong> — see exactly how many people opened your card</li>
 <li><strong>Contact saves</strong> — track who saved you to their phone</li>
@@ -131,7 +131,7 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 </article>
 
 <article class="page-card">
-<h3>🔒 Privacy & security</h3>
+<h3>Privacy & security</h3>
 <ul>
 <li><strong>PIN-protected profiles</strong> — 4-digit PIN, rate-limited verification</li>
 <li><strong>Public / private toggle</strong> — searchable or invisible by URL only</li>
@@ -141,11 +141,11 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 </article>
 
 <article class="page-card">
-<h3>🌐 Sharing & connectivity</h3>
+<h3>Sharing & connectivity</h3>
 <ul>
 <li><strong>Social platforms</strong> — Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord and more</li>
 <li><strong>NFC, QR, custom URL</strong> — three sharing modes, one tap each</li>
-<li><strong>AppClip <em>iOS</em></strong> — receivers see your card without installing</li>
+<li><strong>AppClip</strong> — receivers see your card without installing (iOS)</li>
 <li><strong>Cross-platform</strong> — works on iOS and Android</li>
 </ul>
 </article>
@@ -156,7 +156,7 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 
 <section class="page-section">
 
-## Conference Mode <em>iOS</em>
+## Conference Mode
 
 For trade shows, meetups, and live events. Switch to Conference Mode and your QR code lives on the iPhone Lock Screen as a Live Activity — bring your phone out, tap once, and your card is shareable without unlocking. Every tap counts toward your event analytics, and notes attached to a new lead sync back to your card history when the conference ends.
 

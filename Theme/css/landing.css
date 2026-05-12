@@ -1083,6 +1083,30 @@
 .page-card ul,
 .page-card ol { max-width: none; margin-left: 0; margin-right: 0; }
 
+/* Tight feature-list bullets inside .page-card so they read as
+   compact list-items instead of body paragraphs. Used by /business-card/
+   "Complete feature set" cards. */
+.page-card ul {
+   padding-left: 1.1em;
+   margin: 0;
+   font-size: 0.9375rem;
+   line-height: 1.5;
+   color: var(--color-text-secondary);
+}
+.page-card ul li {
+   margin-bottom: 0.4rem;
+}
+.page-card ul li:last-child {
+   margin-bottom: 0;
+}
+.page-card ul li::marker {
+   color: var(--color-accent);
+}
+.page-card ul li strong {
+   color: var(--color-text);
+   font-weight: 600;
+}
+
 /* Screenshot gallery on static marketing pages — 2-4 device shots in a row,
    tilted slightly for visual interest. Used inside .page-section. */
 .page-section--gallery { padding-top: 0; padding-bottom: clamp(2rem, 5vw, 3.5rem); }

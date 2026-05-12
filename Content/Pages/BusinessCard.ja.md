@@ -92,7 +92,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 <div class="page-cards-grid">
 
 <article class="page-card">
-<h3>📇 スマートな名刺</h3>
+<h3>スマートな名刺</h3>
 <ul>
 <li><strong>デジタルカード作成</strong> — ブランドにマッチしたデザイン</li>
 <li><strong>最大100枚</strong> — 役割、シーン、チームメンバーごとに使い分け</li>
@@ -102,7 +102,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 </article>
 
 <article class="page-card">
-<h3>🎨 カスタマイズ & ブランディング</h3>
+<h3>カスタマイズ & ブランディング</h3>
 <ul>
 <li><strong>カスタムロゴ</strong> — ライトモード/ダークモード別に設定</li>
 <li><strong>カラー設定</strong> — 背景、枠、タイル(iOS)</li>
@@ -111,7 +111,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 </article>
 
 <article class="page-card">
-<h3>🤝 リードジェネレーション & ネットワーキング <em>iOS</em></h3>
+<h3>リードジェネレーション & ネットワーキング</h3>
 <ul>
 <li><strong>リード取得フォーム</strong> — 閲覧者から自動的に連絡先を収集</li>
 <li><strong>ステータス管理</strong> — 新規 → 連絡済 → 適格 → 成約 → アーカイブ</li>
@@ -121,7 +121,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 </article>
 
 <article class="page-card">
-<h3>📊 アナリティクス <em>iOS</em></h3>
+<h3>アナリティクス</h3>
 <ul>
 <li><strong>プロフィール表示</strong> — 何人がカードを開いたか</li>
 <li><strong>連絡先保存</strong> — 誰がデバイスに保存したか</li>
@@ -131,7 +131,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 </article>
 
 <article class="page-card">
-<h3>🔒 プライバシー & セキュリティ</h3>
+<h3>プライバシー & セキュリティ</h3>
 <ul>
 <li><strong>PIN保護プロフィール</strong> — 4桁PIN、レート制限つき照合</li>
 <li><strong>公開 / 非公開切替</strong> — 検索可能か、URLでのみアクセス可能か</li>
@@ -141,11 +141,11 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 </article>
 
 <article class="page-card">
-<h3>🌐 共有 & 接続</h3>
+<h3>共有 & 接続</h3>
 <ul>
 <li><strong>SNS各種</strong> — Instagram、LinkedIn、TikTok、X、Facebook、GitHub、YouTube、WhatsApp、Telegram、Discord ほか</li>
 <li><strong>NFC、QR、カスタムURL</strong> — 3つの共有方式、それぞれワンタップ</li>
-<li><strong>AppClip <em>iOS</em></strong> — 受け取り側はアプリ未インストールでも閲覧可能</li>
+<li><strong>AppClip</strong> — 受け取り側はアプリ未インストールでも閲覧可能(iOS)</li>
 <li><strong>クロスプラットフォーム</strong> — iOSとAndroidに対応</li>
 </ul>
 </article>
@@ -156,7 +156,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 
 <section class="page-section">
 
-## Conference Mode <em>iOS</em>
+## Conference Mode
 
 展示会、ミートアップ、ライブイベント向け。Conference Modeを有効にすると、QRコードがLive ActivityとしてiPhoneのロック画面に表示されます — 端末を取り出し、一度タップするだけで共有可能。各タップはイベントのアナリティクスに自動でカウントされ、新規リードに紐づけたメモはイベント終了時にカード履歴へ同期されます。
 

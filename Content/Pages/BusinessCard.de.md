@@ -92,7 +92,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 <div class="page-cards-grid">
 
 <article class="page-card">
-<h3>📇 Smarte Visitenkarten</h3>
+<h3>Smarte Visitenkarten</h3>
 <ul>
 <li><strong>Digitale Karten erstellen</strong> — Karten, die deine Marke wiedergeben</li>
 <li><strong>Bis zu 100 Karten</strong> — für verschiedene Rollen, Anlässe oder Teammitglieder</li>
@@ -102,7 +102,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 </article>
 
 <article class="page-card">
-<h3>🎨 Customization & Branding</h3>
+<h3>Customization & Branding</h3>
 <ul>
 <li><strong>Anpassbare Logos</strong> — separate Marken für Hell- und Dunkelmodus</li>
 <li><strong>Eigene Farben</strong> — Hintergrund, Rahmen und Kacheln (iOS)</li>
@@ -111,7 +111,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 </article>
 
 <article class="page-card">
-<h3>🤝 Lead-Generierung & Netzwerken <em>iOS</em></h3>
+<h3>Lead-Generierung & Netzwerken</h3>
 <ul>
 <li><strong>Lead-Formulare</strong> — Kontaktdaten von Betrachtern erfassen</li>
 <li><strong>Status-Tracking</strong> — Neu → Kontaktiert → Qualifiziert → Konvertiert → Archiviert</li>
@@ -121,7 +121,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 </article>
 
 <article class="page-card">
-<h3>📊 Analytics <em>iOS</em></h3>
+<h3>Analytics</h3>
 <ul>
 <li><strong>Profilaufrufe</strong> — wie viele Personen deine Karte geöffnet haben</li>
 <li><strong>Kontakt-Speicherungen</strong> — wer dich in seine Kontakte aufgenommen hat</li>
@@ -131,7 +131,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 </article>
 
 <article class="page-card">
-<h3>🔒 Datenschutz & Sicherheit</h3>
+<h3>Datenschutz & Sicherheit</h3>
 <ul>
 <li><strong>PIN-geschützte Profile</strong> — 4-stellige PIN mit ratenlimitierter Prüfung</li>
 <li><strong>Öffentlich / Privat</strong> — durchsuchbar oder nur per URL erreichbar</li>
@@ -141,11 +141,11 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 </article>
 
 <article class="page-card">
-<h3>🌐 Teilen & Konnektivität</h3>
+<h3>Teilen & Konnektivität</h3>
 <ul>
 <li><strong>Social-Plattformen</strong> — Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord und mehr</li>
 <li><strong>NFC, QR, eigene URL</strong> — drei Sharing-Modi, jeweils ein Tipp</li>
-<li><strong>AppClip <em>iOS</em></strong> — Empfänger sehen deine Karte ohne Installation</li>
+<li><strong>AppClip</strong> — Empfänger sehen deine Karte ohne Installation (iOS)</li>
 <li><strong>Plattformübergreifend</strong> — auf iOS und Android</li>
 </ul>
 </article>
@@ -156,7 +156,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 
 <section class="page-section">
 
-## Konferenzmodus <em>iOS</em>
+## Konferenzmodus
 
 Für Messen, Meetups und Live-Events. Im Konferenzmodus lebt dein QR-Code als Live-Activity auf dem iPhone-Sperrbildschirm — Telefon hochheben, einmal tippen, fertig. Jeder Tipp zählt in deine Event-Analytics, und Notizen zu neuen Leads synchronisieren sich nach Konferenzende mit deinem Karten-Verlauf.
 
