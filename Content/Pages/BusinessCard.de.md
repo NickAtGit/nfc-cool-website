@@ -26,7 +26,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 
 </div>
 
-<div class="page-hero-visual">
+<div class="page-hero-visual is-framed">
 <img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="NFC.cool Business Card Profilansicht mit Name, Foto und Social-Media-Links" loading="eager" fetchpriority="high"/>
 </div>
 

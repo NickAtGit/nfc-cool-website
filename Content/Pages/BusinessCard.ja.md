@@ -26,7 +26,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 
 </div>
 
-<div class="page-hero-visual">
+<div class="page-hero-visual is-framed">
 <img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="NFC.cool Business Card — 名前、写真、SNSリンクを表示したプロフィール" loading="eager" fetchpriority="high"/>
 </div>
 
