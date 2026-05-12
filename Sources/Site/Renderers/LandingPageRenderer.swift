@@ -37,7 +37,7 @@ struct LandingPageRenderer: Renderer {
       var sections: [String] = []
       sections.append(self.renderHero(data.hero, trust: data.trust, heroImagePath: data.heroImagePath, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL))
       if let features = data.features, !features.isEmpty {
-         sections.append(self.renderFeatureGrid(features, title: data.featuresTitle))
+         sections.append(self.renderFeatureGrid(features, title: data.featuresTitle, basePath: context.router.homePath()))
       }
       if let banner = data.featureBanner {
          sections.append(self.renderFeatureBanner(banner, fallbackURL: data.appStoreURL))
@@ -261,7 +261,7 @@ struct LandingPageRenderer: Renderer {
       """
    }
 
-   private func renderFeatureGrid(_ features: [Feature], title: String?) -> String {
+   private func renderFeatureGrid(_ features: [Feature], title: String?, basePath: String) -> String {
       var cards: [String] = []
       for (index, feature) in features.enumerated() {
          let num = String(format: "%02d", index + 1)
@@ -269,17 +269,23 @@ struct LandingPageRenderer: Renderer {
             guard let platforms = feature.platforms else { return "" }
             return PlatformBadge.render(platforms: platforms, wrapperClass: "landing-feature-platforms")
          }()
-         cards.append("""
-            <article class="landing-feature-card">
-               <span class="landing-feature-num" aria-hidden="true">\(num)</span>
-               <img src="\(feature.imagePath)" alt="\(feature.title.htmlEscaped)" loading="lazy" class="landing-feature-image"/>
-               <div class="landing-feature-card-text">
-                  <h3 class="landing-feature-title">\(feature.title.htmlEscaped)</h3>
-                  \(platformsHTML)
-                  <p class="landing-feature-desc">\(feature.description.htmlEscaped)</p>
-               </div>
-            </article>
-         """)
+         let body = """
+            <span class="landing-feature-num" aria-hidden="true">\(num)</span>
+            <img src="\(feature.imagePath)" alt="\(feature.title.htmlEscaped)" loading="lazy" class="landing-feature-image"/>
+            <div class="landing-feature-card-text">
+               <h3 class="landing-feature-title">\(feature.title.htmlEscaped)</h3>
+               \(platformsHTML)
+               <p class="landing-feature-desc">\(feature.description.htmlEscaped)</p>
+            </div>
+         """
+         // When the YAML names a feature-detail slug, render the card as an
+         // anchor so the whole thing is clickable into /features/{slug}/.
+         if let slug = feature.slug, !slug.isEmpty {
+            let href = "\(basePath)features/\(slug)/"
+            cards.append("<a class=\"landing-feature-card is-linked\" href=\"\(href)\">\(body)</a>")
+         } else {
+            cards.append("<article class=\"landing-feature-card\">\(body)</article>")
+         }
       }
       let heading = (title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(title!.htmlEscaped)</h2>"
       return """

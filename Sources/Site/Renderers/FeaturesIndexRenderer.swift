@@ -47,14 +47,19 @@ struct FeaturesIndexRenderer: Renderer {
          }
       }()
 
+      _ = exploreLabel // not used — cards now mirror landing-feature-card style verbatim.
+
       // Per-locale Tools campaign URLs so the hero badges match every other
       // page on the site.
       let toolsAppStoreURL = "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_\(locale)&mt=8"
       let toolsGooglePlayURL = "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_\(locale)"
 
-      // Re-build the cards with the localized "explore" label and per-card hero image.
+      // Build the per-feature cards using the SAME .landing-feature-card markup
+      // the landing page emits, so both grids look identical and the whole card
+      // is a link into /features/{slug}/.
       cards.removeAll()
-      for slug in FeaturePageRenderer.slugs {
+      let basePath = context.router.homePath()
+      for (index, slug) in FeaturePageRenderer.slugs.enumerated() {
          let yamlPath = context.projectDirectory
             .appendingPathComponent(context.config.contentDirectory)
             .appendingPathComponent("Data")
@@ -64,30 +69,26 @@ struct FeaturesIndexRenderer: Renderer {
          let yamlData = try Data(contentsOf: yamlPath)
          let feature = try YAMLDecoder().decode(FeatureData.self, from: yamlData)
 
-         let basePath = context.router.homePath()
+         let num = String(format: "%02d", index + 1)
          let href = "\(basePath)features/\(slug)/"
+         let imagePath = feature.hero.heroImagePath ?? ""
          let platformsHTML: String = {
             guard let p = feature.hero.platforms else { return "" }
-            return PlatformBadge.render(platforms: p, wrapperClass: "feature-index-platforms")
-         }()
-         let imageHTML: String = {
-            guard let path = feature.hero.heroImagePath else { return "" }
-            return "<div class=\"feature-index-card-image\"><img src=\"\(path)\" alt=\"\(feature.hero.title.htmlEscaped)\" loading=\"lazy\"/></div>"
+            return PlatformBadge.render(platforms: p, wrapperClass: "landing-feature-platforms")
          }()
          cards.append("""
-         <a href="\(href)" class="feature-index-card">
-            \(imageHTML)
-            <div class="feature-index-card-body">
+         <a class="landing-feature-card is-linked" href="\(href)">
+            <span class="landing-feature-num" aria-hidden="true">\(num)</span>
+            <img src="\(imagePath)" alt="\(feature.hero.title.htmlEscaped)" loading="lazy" class="landing-feature-image"/>
+            <div class="landing-feature-card-text">
+               <h3 class="landing-feature-title">\(feature.hero.title.htmlEscaped)</h3>
                \(platformsHTML)
-               <h3>\(feature.hero.title.htmlEscaped)</h3>
-               <p>\(feature.hero.subtitle.htmlEscaped)</p>
-               <span class="feature-index-card-cta">\(exploreLabel.htmlEscaped)</span>
+               <p class="landing-feature-desc">\(feature.hero.subtitle.htmlEscaped)</p>
             </div>
          </a>
          """)
       }
 
-      let basePath = context.router.homePath()
       let pagePath = "\(basePath)features/"
 
       let head = helper.buildHead(
@@ -114,9 +115,9 @@ struct FeaturesIndexRenderer: Renderer {
                </div>
             </div>
          </section>
-         <section class="features-index-grid-section">
+         <section class="landing-feature-grid features-index-grid-section">
             <div class="landing-container">
-               <div class="feature-index-grid">\(cards.joined())</div>
+               <div class="landing-features">\(cards.joined())</div>
             </div>
          </section>
       </main>

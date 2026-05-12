@@ -53,6 +53,9 @@ struct Feature: Decodable, Sendable {
    let description: String
    let imagePath: String
    let platforms: String?
+   /// Optional feature-page slug. When set, the landing-page card becomes a
+   /// link to `/features/{slug}/` so visitors can drill into the detail page.
+   let slug: String?
 }
 
 struct Testimonial: Decodable, Sendable {
