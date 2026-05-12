@@ -28,20 +28,20 @@ struct FeaturesIndexRenderer: Renderer {
          switch locale {
          case "de":
             return (
-               "Funktionen im Detail",
-               "Eine eigene Seite pro Funktion mit Screenshots, technischen Details und häufigen Fragen.",
+               "NFC.cool Funktionen",
+               "NFC-Tags lesen, schreiben und dekodieren. QR-Codes und Barcodes scannen. Dokumente, 3D-Objekte und Räume erfassen. Jeden Scan an deinen eigenen Webhook senden — eine App, jeder Scanner, der dein Smartphone sein kann.",
                "Im Detail ansehen →"
             )
          case "ja":
             return (
-               "機能の詳細",
-               "各機能の専用ページにスクリーンショット、技術詳細、よくある質問をまとめました。",
+               "NFC.cool の機能",
+               "NFCタグの読み取り・書き込み・デコード。QRコードとバーコードのスキャン。書類、3Dオブジェクト、ルームの取り込み。すべてのスキャンをあなたのWebhookへ — スマホを、考えられるすべてのスキャナーに。",
                "詳しく見る →"
             )
          default:
             return (
-               "Features in depth",
-               "A dedicated page per feature, with screenshots, technical details, and frequently-asked questions.",
+               "NFC.cool Features",
+               "Read, write, and decode NFC tags. Scan QR codes and 25+ barcode formats. Capture documents, 3D objects, and rooms. Forward every scan to your own webhook — one app, every scanner your phone can be.",
                "Explore →"
             )
          }
