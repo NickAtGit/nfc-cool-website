@@ -1207,10 +1207,11 @@
 .page-gallery {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-   gap: 1rem;
+   gap: 0.4rem;
    max-width: var(--max-width);
    margin: 0 auto;
    padding: 0;
+   align-items: center;
 }
 .page-gallery img {
    width: 100%;
@@ -1220,11 +1221,6 @@
    display: block;
    border-radius: 18px;
    box-shadow: 0 24px 60px -20px var(--color-shadow-lg);
-}
-@media (min-width: 720px) {
-   /* Slight stagger for visual rhythm */
-   .page-gallery img:nth-child(odd)  { transform: translateY(-12px); }
-   .page-gallery img:nth-child(even) { transform: translateY(12px); }
 }
 
 /* ============================================================
