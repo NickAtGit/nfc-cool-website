@@ -119,10 +119,51 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 <section class="page-section">
 
-## Anderswo
+## Social Media
 
-- Instagram - [@nfc.cool](https://www.instagram.com/nfc.cool)
-- TikTok - [@nfc.cool](https://www.tiktok.com/@nfc.cool)
+<div class="contact-social-grid">
+
+<a href="https://www.instagram.com/nfc.cool" class="contact-social-card" target="_blank" rel="noopener">
+<span class="contact-social-name">Instagram</span>
+<span class="contact-social-handle">@nfc.cool</span>
+</a>
+
+<a href="https://www.tiktok.com/@nfc.cool" class="contact-social-card" target="_blank" rel="noopener">
+<span class="contact-social-name">TikTok</span>
+<span class="contact-social-handle">@nfc.cool</span>
+</a>
+
+<a href="https://www.youtube.com/@nfc.cool" class="contact-social-card" target="_blank" rel="noopener">
+<span class="contact-social-name">YouTube</span>
+<span class="contact-social-handle">@nfc.cool</span>
+</a>
+
+<a href="https://x.com/nfc_cool" class="contact-social-card" target="_blank" rel="noopener">
+<span class="contact-social-name">X</span>
+<span class="contact-social-handle">@nfc_cool</span>
+</a>
+
+<a href="https://www.linkedin.com/company/nfc-cool" class="contact-social-card" target="_blank" rel="noopener">
+<span class="contact-social-name">LinkedIn</span>
+<span class="contact-social-handle">nfc-cool</span>
+</a>
+
+<a href="https://bsky.app/profile/nfc.cool" class="contact-social-card" target="_blank" rel="noopener">
+<span class="contact-social-name">Bluesky</span>
+<span class="contact-social-handle">@nfc.cool</span>
+</a>
+
+<a href="https://www.threads.net/@nfc.cool" class="contact-social-card" target="_blank" rel="noopener">
+<span class="contact-social-name">Threads</span>
+<span class="contact-social-handle">@nfc.cool</span>
+</a>
+
+<a href="/feed.xml" class="contact-social-card">
+<span class="contact-social-name">RSS</span>
+<span class="contact-social-handle">feed.xml</span>
+</a>
+
+</div>
 
 Für Presseanfragen und Markenassets siehe das [Press-Kit](/de/press/).
 

@@ -1102,6 +1102,59 @@
 }
 .page-card a:hover { color: var(--color-accent-hover); }
 
+/* ============================================================
+   Social-media card grid used on /contact/. Each card shows the
+   platform icon (via CSS mask, same data URLs the footer uses),
+   the platform name, and the @handle. Hover lifts like .page-card.
+   ============================================================ */
+.contact-social-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+   gap: 0.75rem;
+   max-width: var(--max-width);
+   margin: 0 auto;
+}
+.contact-social-card {
+   display: flex;
+   align-items: center;
+   gap: 0.875rem;
+   padding: 0.9rem 1.1rem;
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-lg);
+   text-decoration: none;
+   color: inherit;
+   box-shadow: 0 1px 2px var(--color-shadow);
+   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+.contact-social-card:hover {
+   transform: translateY(-2px);
+   box-shadow: 0 10px 26px var(--color-shadow-lg);
+   border-color: var(--color-accent);
+   color: inherit;
+}
+.contact-social-card::before {
+   content: "";
+   width: 24px;
+   height: 24px;
+   flex-shrink: 0;
+   background-color: var(--color-text);
+   mask: var(--sk-social-icon, none) center / contain no-repeat;
+   -webkit-mask: var(--sk-social-icon, none) center / contain no-repeat;
+}
+.contact-social-name {
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 0.9375rem;
+   color: var(--color-text);
+}
+.contact-social-handle {
+   margin-left: auto;
+   font-size: 0.8125rem;
+   color: var(--color-text-muted);
+   font-feature-settings: "tnum";
+}
+
 /* Reset reading-column constraint when content is inside a card */
 .page-card p,
 .page-card ul,
