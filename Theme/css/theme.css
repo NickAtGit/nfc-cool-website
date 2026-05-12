@@ -54,9 +54,9 @@
    --brand-gradient-radial: radial-gradient(at 50% 50%, rgba(255, 199, 9, 0.08) 0%, #161B22 60%);
 }
 /* Suppress the light-mode white-tint radial highlight + grain on every
-   hero ::before / ::after in dark mode — the bright top-right glow was
-   creating a visible edge between the hero and the surrounding dark
-   sections. Heros stay flat and seamless in dark mode. */
+   brand-gradient section in dark mode. The bright top-right glow that
+   gives the light mode hero depth was creating a visible edge between
+   the dark section and the surrounding body in dark mode. */
 [data-theme="dark"] .landing-hero::before,
 [data-theme="dark"] .landing-hero::after,
 [data-theme="dark"] .page-hero::before,
@@ -64,7 +64,11 @@
 [data-theme="dark"] .blog-index-hero::before,
 [data-theme="dark"] .blog-index-hero::after,
 [data-theme="dark"] .blog-post-hero::before,
-[data-theme="dark"] .blog-post-hero::after {
+[data-theme="dark"] .blog-post-hero::after,
+[data-theme="dark"] .landing-feature-banner::before,
+[data-theme="dark"] .landing-feature-banner::after,
+[data-theme="dark"] .landing-final-cta::before,
+[data-theme="dark"] .landing-final-cta::after {
    display: none;
 }
 
