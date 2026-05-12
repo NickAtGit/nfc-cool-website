@@ -79,7 +79,7 @@ struct BlogIndexRenderer: Renderer {
       let body = """
       <main class="sk-main blog-index">
          <section class="page-hero blog-index-hero">
-            <div class="page-hero-grid landing-container">
+            <div class="page-hero-grid">
                <div class="page-hero-text">
                   <h1 class="blog-index-title">\(title.htmlEscaped)</h1>
                   <p class="blog-index-subtitle">\(subtitle.htmlEscaped)</p>

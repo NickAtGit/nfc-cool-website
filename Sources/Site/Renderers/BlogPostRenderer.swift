@@ -100,7 +100,7 @@ struct BlogPostRenderer: Renderer {
       let body = """
       <main class="sk-main blog-post">
          <section class="page-hero blog-post-hero">
-            <div class="page-hero-grid landing-container">
+            <div class="page-hero-grid">
                <div class="page-hero-text">
                   <p class="blog-post-back"><a href="\(listingPath)">\(backText.htmlEscaped)</a></p>
                   <h1 class="blog-post-title">\(page.title.htmlEscaped)</h1>

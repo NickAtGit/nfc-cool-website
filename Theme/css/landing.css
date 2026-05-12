@@ -779,7 +779,7 @@
    ============================================================ */
 .page-hero {
    position: relative;
-   padding: clamp(4rem, 9vw, 7rem) 1.5rem clamp(3rem, 6vw, 5rem);
+   padding: clamp(4rem, 9vw, 7rem) 0 clamp(3rem, 6vw, 5rem);
    background: var(--brand-gradient);
    color: #FFFFFF;
    overflow: hidden;
@@ -811,6 +811,8 @@
    max-width: var(--max-width);
    margin-left: auto;
    margin-right: auto;
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
 }
 .page-hero h1 {
    font-family: var(--font-heading);
@@ -993,7 +995,7 @@
 /* Static-page sections — full-bleed, alternating bg, 1200px container,
    760px text reading column. Matches landing's section rhythm. */
 .page-section {
-   padding: clamp(3.5rem, 6vw, 5rem) 1.5rem;
+   padding: clamp(3.5rem, 6vw, 5rem) 0;
    background: var(--color-bg);
 }
 /* Alternating section backgrounds (sibling-based, ignores the .page-hero above) */
@@ -1010,6 +1012,8 @@
    max-width: var(--max-width);
    margin-left: auto;
    margin-right: auto;
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
 }
 
 /* Section title — text-align left, but the h2's box keeps the same
@@ -1222,7 +1226,7 @@
    position: relative;
    background: var(--brand-gradient);
    color: #FFFFFF;
-   padding: clamp(4rem, 9vw, 6.5rem) 1.5rem clamp(3rem, 6vw, 4.5rem);
+   padding: clamp(4rem, 9vw, 6.5rem) 0 clamp(3rem, 6vw, 4.5rem);
    overflow: hidden;
    isolation: isolate;
    text-align: center;
@@ -1285,7 +1289,7 @@
    background: rgba(255, 255, 255, 0.10);
 }
 .blog-index-grid-section {
-   padding: clamp(3.5rem, 7vw, 6rem) 1.5rem clamp(4rem, 8vw, 7rem);
+   padding: clamp(3.5rem, 7vw, 6rem) 0 clamp(4rem, 8vw, 7rem);
    background: var(--color-bg);
 }
 .blog-card-grid {
@@ -1408,7 +1412,7 @@
    position: relative;
    background: var(--brand-gradient);
    color: #FFFFFF;
-   padding: clamp(3.5rem, 7vw, 5.5rem) 1.5rem clamp(3rem, 5vw, 4rem);
+   padding: clamp(3.5rem, 7vw, 5.5rem) 0 clamp(3rem, 5vw, 4rem);
    overflow: hidden;
    isolation: isolate;
    text-align: center;
@@ -1509,7 +1513,7 @@
    display: block;
 }
 .blog-post-body-section {
-   padding: clamp(3rem, 6vw, 5rem) 1.5rem;
+   padding: clamp(3rem, 6vw, 5rem) 0;
    background: var(--color-bg);
 }
 .blog-post-body {
@@ -1580,7 +1584,7 @@
    margin: 1.5rem auto;
 }
 .blog-post-related {
-   padding: clamp(3.5rem, 7vw, 5rem) 1.5rem;
+   padding: clamp(3.5rem, 7vw, 5rem) 0;
    background: var(--color-bg-alt);
 }
 
