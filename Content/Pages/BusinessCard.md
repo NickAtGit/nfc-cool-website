@@ -26,7 +26,7 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 
 </div>
 
-<div class="page-hero-visual is-framed">
+<div class="page-hero-visual">
 <img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="NFC.cool Business Card profile view with name, photo and social media links" loading="eager" fetchpriority="high"/>
 </div>
 
