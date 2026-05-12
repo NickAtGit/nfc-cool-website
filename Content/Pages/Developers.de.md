@@ -6,9 +6,23 @@ description: "Webhook-Payload-Referenz, Code-Beispiele in cURL/Node.js/Python un
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # Für Entwickler
 
-NFC.cool ist ein Scanner, der deinen Stack respektiert. Jeder Scan kann ein strukturierter HTTP-POST an dein eigenes Backend werden - mit vorhersehbarem JSON, konfigurierbarer Authentifizierung und einer Offline-Retry-Queue.
+NFC.cool ist ein Scanner, der deinen Stack respektiert. Jeder Scan kann ein strukturierter HTTP-POST an dein eigenes Backend werden — mit vorhersehbarem JSON, konfigurierbarer Authentifizierung und einer Offline-Retry-Queue.
+
+<a href="#webhook-payload" class="landing-cta-button">Payload ansehen</a>
+
+</div>
+
+<div class="page-hero-visual">
+<img src="/assets/images/Webflow/webhook.webp" alt="Webhook-Payload-Illustration" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 

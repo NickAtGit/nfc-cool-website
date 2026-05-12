@@ -53,7 +53,23 @@ struct BlogPostRenderer: Renderer {
       let heroImageHTML: String = {
          guard let img = page.image else { return "" }
          let alt = (page.imageAlt ?? page.title).htmlEscaped
-         return "<div class=\"blog-post-hero-image\"><img src=\"\(img)\" alt=\"\(alt)\" loading=\"eager\" fetchpriority=\"high\"/></div>"
+         return "<img src=\"\(img)\" alt=\"\(alt)\" loading=\"eager\" fetchpriority=\"high\"/>"
+      }()
+
+      let heroVisualHTML: String = {
+         if heroImageHTML.isEmpty {
+            let titleAlt = page.title.htmlEscaped
+            return """
+            <div class="page-hero-visual is-brand">
+               <img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="\(titleAlt)" loading="eager" fetchpriority="high"/>
+            </div>
+            """
+         }
+         return """
+         <div class="page-hero-visual">
+            \(heroImageHTML)
+         </div>
+         """
       }()
 
       // Related: pick 3 newest from same section, excluding current.
@@ -83,18 +99,20 @@ struct BlogPostRenderer: Renderer {
 
       let body = """
       <main class="sk-main blog-post">
-         <section class="blog-post-hero">
-            <div class="landing-container">
-               <p class="blog-post-back"><a href="\(listingPath)">\(backText.htmlEscaped)</a></p>
-               <h1 class="blog-post-title">\(page.title.htmlEscaped)</h1>
-               <p class="blog-post-meta">
-                  \(dateText.isEmpty ? "" : "<span>\(dateText.htmlEscaped)</span>")
-                  \(author.isEmpty ? "" : "<span>·</span><span>\(author.htmlEscaped)</span>")
-               </p>
-               \(tagsHTML.isEmpty ? "" : "<div class=\"blog-post-tags\">\(tagsHTML)</div>")
+         <section class="page-hero blog-post-hero">
+            <div class="page-hero-grid landing-container">
+               <div class="page-hero-text">
+                  <p class="blog-post-back"><a href="\(listingPath)">\(backText.htmlEscaped)</a></p>
+                  <h1 class="blog-post-title">\(page.title.htmlEscaped)</h1>
+                  <p class="blog-post-meta">
+                     \(dateText.isEmpty ? "" : "<span>\(dateText.htmlEscaped)</span>")
+                     \(author.isEmpty ? "" : "<span>·</span><span>\(author.htmlEscaped)</span>")
+                  </p>
+                  \(tagsHTML.isEmpty ? "" : "<div class=\"blog-post-tags\">\(tagsHTML)</div>")
+               </div>
+               \(heroVisualHTML)
             </div>
          </section>
-         \(heroImageHTML.isEmpty ? "" : "<section class=\"blog-post-hero-image-section\"><div class=\"landing-container\">\(heroImageHTML)</div></section>")
          <section class="blog-post-body-section">
             <div class="landing-container">
                <article class="blog-post-body">

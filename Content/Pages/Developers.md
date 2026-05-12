@@ -6,9 +6,23 @@ description: "Webhook payload reference, code samples in cURL/Node.js/Python, an
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # For builders
 
 NFC.cool is a scanner that respects your stack. Every scan can be a structured HTTP POST to your own backend, with predictable JSON, configurable auth, and an offline retry queue.
+
+<a href="#webhook-payload" class="landing-cta-button">See the payload</a>
+
+</div>
+
+<div class="page-hero-visual">
+<img src="/assets/images/Webflow/webhook.webp" alt="Webhook payload illustration" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 

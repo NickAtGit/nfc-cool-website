@@ -67,13 +67,19 @@ struct BlogIndexRenderer: Renderer {
          """
       }
 
+      let heroVisualAlt = title.htmlEscaped
       let body = """
       <main class="sk-main blog-index">
-         <section class="blog-index-hero">
-            <div class="landing-container">
-               <h1 class="blog-index-title">\(title.htmlEscaped)</h1>
-               <p class="blog-index-subtitle">\(subtitle.htmlEscaped)</p>
-               <a class="blog-index-rss" href="\(rssFeedPath)" aria-label="RSS feed">RSS</a>
+         <section class="page-hero blog-index-hero">
+            <div class="page-hero-grid landing-container">
+               <div class="page-hero-text">
+                  <h1 class="blog-index-title">\(title.htmlEscaped)</h1>
+                  <p class="blog-index-subtitle">\(subtitle.htmlEscaped)</p>
+                  <a class="landing-cta-button blog-index-rss" href="\(rssFeedPath)" aria-label="RSS feed">RSS feed</a>
+               </div>
+               <div class="page-hero-visual is-brand">
+                  <img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="\(heroVisualAlt)" loading="eager" fetchpriority="high"/>
+               </div>
             </div>
          </section>
          <section class="blog-index-grid-section">

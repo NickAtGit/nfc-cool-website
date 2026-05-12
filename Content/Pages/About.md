@@ -6,9 +6,23 @@ description: "The story, the mission, and the person behind NFC.cool — a priva
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # Built independently, in Portugal.
 
 NFC.cool is an independent product from **Nicolo Stanciu**, made in Lisbon. One person, one mission: ship the best mobile scanning toolkit anyone has, without spying on the people using it.
+
+<a href="mailto:hello@nfc.cool" class="landing-cta-button">Get in touch</a>
+
+</div>
+
+<div class="page-hero-visual is-brand">
+<img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="NFC.cool wordmark" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 

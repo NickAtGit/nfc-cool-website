@@ -7,11 +7,34 @@ image: "/assets/images/BusinessCard/Screenshot-1.jpg"
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # NFC.cool Business Card
 
-A dedicated Digital Business Card app for iPhone. Share your contact details with a tap - NFC, QR code, AppClip, or Apple Wallet - and see who actually saves your card. On Android, the same features are bundled inside NFC.cool Tools.
+A dedicated Digital Business Card app for iPhone. Share your contact details with a tap — NFC, QR code, AppClip, or Apple Wallet — and see who actually saves your card. On Android, the same features are bundled inside NFC.cool Tools.
 
 <a href="https://business-card.nfc.cool" class="landing-cta-button">Get NFC.cool Business Card</a>
+
+</div>
+
+<div class="page-hero-visual">
+<img src="/assets/images/BusinessCard/Screenshot-1.jpg" alt="NFC.cool Business Card main view" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
+
+</section>
+
+<section class="page-section page-section--gallery">
+
+<div class="page-gallery">
+<img src="/assets/images/BusinessCard/Screenshot-3.jpg" alt="NFC.cool Business Card - share via NFC tap" loading="lazy"/>
+<img src="/assets/images/BusinessCard/Screenshot-5.jpg" alt="NFC.cool Business Card - track who saved your card" loading="lazy"/>
+<img src="/assets/images/BusinessCard/Screenshot-7.jpg" alt="NFC.cool Business Card - Conference Mode" loading="lazy"/>
+<img src="/assets/images/BusinessCard/Screenshot-9.jpg" alt="NFC.cool Business Card - AppClip flow" loading="lazy"/>
+</div>
 
 </section>
 

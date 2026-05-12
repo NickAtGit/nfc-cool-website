@@ -7,6 +7,7 @@ import SiteKit
          .replacing(ErrorPageRenderer.self, with: CustomErrorPageRenderer())
          .replacing(SectionListingRenderer.self, with: BlogIndexRenderer())
          .replacing(ArticlePageRenderer.self, with: BlogPostRenderer())
+         .replacing(StaticPageRenderer.self, with: MarketingPageRenderer())
          .renderer(FeaturePageRenderer())
          .renderer(FeaturesIndexRenderer())
          .removing(ContentIndexRenderer.self)

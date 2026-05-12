@@ -6,11 +6,23 @@ description: "Nimm Kontakt mit NFC.cool auf. E-Mail, FAQ und Social-Kanäle."
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # Support & Kontakt
 
-Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich.
+Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich und antworten innerhalb eines Werktags.
 
 <a href="mailto:hello@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">hello@nfc.cool schreiben</a>
+
+</div>
+
+<div class="page-hero-visual">
+<img src="/assets/images/Webflow/nfc-scan-tag.webp" alt="iPhone scannt einen NFC-Tag" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 

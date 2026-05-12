@@ -6,11 +6,23 @@ description: "NFC.coolへのお問い合わせ。メール、FAQ、SNS。"
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # サポート & お問い合わせ
 
-いちばん早い連絡手段はメールです。一通一通、すべて目を通しています。
+いちばん早い連絡手段はメールです。一通一通、すべて目を通し、原則として翌営業日までに返信します。
 
 <a href="mailto:hello@nfc.cool?subject=NFC.cool%20support" class="landing-cta-button">hello@nfc.coolへメール</a>
+
+</div>
+
+<div class="page-hero-visual">
+<img src="/assets/images/Webflow/nfc-scan-tag.webp" alt="iPhoneでNFCタグをスキャン" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 

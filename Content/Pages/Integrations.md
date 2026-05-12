@@ -6,9 +6,23 @@ description: "Pipe NFC and QR scans into your existing tools — Zapier, n8n, Ma
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # Plug NFC.cool into anything
 
 Every NFC.cool scan can fire an HTTP POST to a URL you control. That means if your tool of choice can receive a webhook, it can receive scans. No middleman, no NFC.cool account, no upload to our servers.
+
+<a href="/features/webhooks/" class="landing-cta-button">See webhook docs</a>
+
+</div>
+
+<div class="page-hero-visual">
+<img src="/assets/images/Webflow/webhook.webp" alt="Scan data flowing to a webhook endpoint" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 

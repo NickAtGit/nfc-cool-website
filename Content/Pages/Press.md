@@ -6,11 +6,23 @@ description: "Press resources, brand assets, and contact details for journalists
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # Press & brand
 
 For coverage, partnerships, and anything that needs an official statement, this is the right place to start.
 
 <a href="mailto:hello@nfc.cool?subject=Press%20inquiry" class="landing-cta-button">Email press@nfc.cool</a>
+
+</div>
+
+<div class="page-hero-visual is-brand">
+<img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="NFC.cool wordmark" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 

@@ -6,9 +6,23 @@ description: "Die Geschichte, die Mission und die Person hinter NFC.cool - ein d
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # Unabhängig entwickelt, in Portugal.
 
-NFC.cool ist ein unabhängiges Produkt von **Nicolo Stanciu**, gemacht in Lissabon. Eine Person, eine Mission: das beste mobile Scan-Toolkit zu liefern - ohne die Leute auszuspionieren, die es benutzen.
+NFC.cool ist ein unabhängiges Produkt von **Nicolo Stanciu**, gemacht in Lissabon. Eine Person, eine Mission: das beste mobile Scan-Toolkit zu liefern — ohne die Leute auszuspionieren, die es benutzen.
+
+<a href="mailto:hello@nfc.cool" class="landing-cta-button">Kontakt aufnehmen</a>
+
+</div>
+
+<div class="page-hero-visual is-brand">
+<img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="NFC.cool Wortmarke" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 

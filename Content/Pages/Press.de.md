@@ -6,11 +6,23 @@ description: "Presse-Ressourcen, Marken-Assets und Kontaktdaten für Journalist:
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # Presse & Marke
 
 Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage benötigt, beginnst du hier richtig.
 
 <a href="mailto:hello@nfc.cool?subject=Presseanfrage" class="landing-cta-button">press@nfc.cool schreiben</a>
+
+</div>
+
+<div class="page-hero-visual is-brand">
+<img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="NFC.cool Wortmarke" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 

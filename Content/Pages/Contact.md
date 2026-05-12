@@ -6,11 +6,23 @@ description: "Get in touch with NFC.cool. Email, FAQ, and social channels."
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # Support & contact
 
-The fastest way to reach us is by email. We read every message personally.
+The fastest way to reach us is by email. We read every message personally and reply within a business day.
 
 <a href="mailto:hello@nfc.cool?subject=NFC.cool%20support" class="landing-cta-button">Email hello@nfc.cool</a>
+
+</div>
+
+<div class="page-hero-visual">
+<img src="/assets/images/Webflow/nfc-scan-tag.webp" alt="iPhone scanning an NFC tag" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 

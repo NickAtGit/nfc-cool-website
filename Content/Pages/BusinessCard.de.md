@@ -7,11 +7,34 @@ image: "/assets/images/BusinessCard/Screenshot-1.jpg"
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # NFC.cool Business Card
 
-Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit einem Tipp - NFC, QR-Code, AppClip oder Apple Wallet - und sieh, wer deine Karte tatsächlich speichert. Auf Android sind die gleichen Funktionen direkt in NFC.cool Tools integriert.
+Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit einem Tipp — NFC, QR-Code, AppClip oder Apple Wallet — und sieh, wer deine Karte tatsächlich speichert. Auf Android sind die gleichen Funktionen direkt in NFC.cool Tools integriert.
 
 <a href="https://business-card.nfc.cool" class="landing-cta-button">NFC.cool Business Card holen</a>
+
+</div>
+
+<div class="page-hero-visual">
+<img src="/assets/images/BusinessCard/Screenshot-1.jpg" alt="NFC.cool Business Card - Hauptansicht" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
+
+</section>
+
+<section class="page-section page-section--gallery">
+
+<div class="page-gallery">
+<img src="/assets/images/BusinessCard/Screenshot-3.jpg" alt="NFC.cool Business Card - per NFC-Tipp teilen" loading="lazy"/>
+<img src="/assets/images/BusinessCard/Screenshot-5.jpg" alt="NFC.cool Business Card - sehen, wer deine Karte gespeichert hat" loading="lazy"/>
+<img src="/assets/images/BusinessCard/Screenshot-7.jpg" alt="NFC.cool Business Card - Konferenzmodus" loading="lazy"/>
+<img src="/assets/images/BusinessCard/Screenshot-9.jpg" alt="NFC.cool Business Card - AppClip-Ablauf" loading="lazy"/>
+</div>
 
 </section>
 

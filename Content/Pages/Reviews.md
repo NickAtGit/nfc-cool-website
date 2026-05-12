@@ -6,9 +6,23 @@ description: "Real 5-star App Store reviews of NFC.cool from users around the wo
 
 <section class="page-hero">
 
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
 # 6,500+ ratings, 4.5 stars
 
 The reviews below are pulled directly from the App Store. Every quote is a real 5-star review — nothing rewritten, nothing cherry-picked beyond filtering out the very short ones.
+
+<a href="https://ios.nfc.cool" class="landing-cta-button">Read on the App Store</a>
+
+</div>
+
+<div class="page-hero-visual">
+<img src="/assets/images/Tools-iOS/Screenshot-1.png" alt="NFC.cool Tools on iPhone" loading="eager" fetchpriority="high"/>
+</div>
+
+</div>
 
 </section>
 
