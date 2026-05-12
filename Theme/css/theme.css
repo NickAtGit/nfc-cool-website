@@ -46,14 +46,26 @@
 
 /* Dark-mode hero — match the page bg (#161B22 = --color-bg in dark mode)
    at top and bottom so the hero blends seamlessly into the surrounding
-   sections, with a soft brand-yellow radial in the middle that mixes
-   with the dark base to produce a warm amber accent. No hard edge
-   between the hero and the body below. */
+   sections, with a faint brand-yellow radial in the middle. */
 [data-theme="dark"] {
    --brand-gradient:
-      radial-gradient(ellipse 85% 55% at 50% 50%, rgba(255, 199, 9, 0.20) 0%, transparent 70%),
+      radial-gradient(ellipse 85% 55% at 50% 50%, rgba(255, 199, 9, 0.10) 0%, transparent 70%),
       linear-gradient(180deg, #161B22 0%, #161B22 100%);
-   --brand-gradient-radial: radial-gradient(at 50% 50%, rgba(255, 199, 9, 0.16) 0%, #161B22 60%);
+   --brand-gradient-radial: radial-gradient(at 50% 50%, rgba(255, 199, 9, 0.08) 0%, #161B22 60%);
+}
+/* Suppress the light-mode white-tint radial highlight + grain on every
+   hero ::before / ::after in dark mode — the bright top-right glow was
+   creating a visible edge between the hero and the surrounding dark
+   sections. Heros stay flat and seamless in dark mode. */
+[data-theme="dark"] .landing-hero::before,
+[data-theme="dark"] .landing-hero::after,
+[data-theme="dark"] .page-hero::before,
+[data-theme="dark"] .page-hero::after,
+[data-theme="dark"] .blog-index-hero::before,
+[data-theme="dark"] .blog-index-hero::after,
+[data-theme="dark"] .blog-post-hero::before,
+[data-theme="dark"] .blog-post-hero::after {
+   display: none;
 }
 
 /* Japanese locale: Titillium Web has no CJK coverage. Prepend OS-native
