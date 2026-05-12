@@ -34,16 +34,6 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 
 </section>
 
-<section class="page-section page-section--gallery">
-
-<div class="page-gallery">
-<img src="/assets/images/BusinessCard/01AppClip.webp" alt="iPhoneのロック画面に表示されたAppClipカード — 名刺を相手にすぐ届けるプレビュー" loading="lazy"/>
-<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="名前、写真、SNSリンクを表示したプロフィール" loading="lazy"/>
-<img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="住所、電話番号、メールを表示したプロフィール" loading="lazy"/>
-</div>
-
-</section>
-
 <section class="page-section">
 
 ## NFC.cool Business Cardを選ぶ理由
@@ -80,6 +70,16 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 <p>1枚のデジタルカードで紙の名刺の山を置き換え。変更はすぐに反映 — 再印刷も廃棄もありません。</p>
 </article>
 
+</div>
+
+</section>
+
+<section class="page-section page-section--gallery">
+
+<div class="page-gallery">
+<img src="/assets/images/BusinessCard/01AppClip.webp" alt="iPhoneのロック画面に表示されたAppClipカード — 名刺を相手にすぐ届けるプレビュー" loading="lazy"/>
+<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="名前、写真、SNSリンクを表示したプロフィール" loading="lazy"/>
+<img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="住所、電話番号、メールを表示したプロフィール" loading="lazy"/>
 </div>
 
 </section>

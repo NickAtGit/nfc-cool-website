@@ -34,16 +34,6 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 
 </section>
 
-<section class="page-section page-section--gallery">
-
-<div class="page-gallery">
-<img src="/assets/images/BusinessCard/01AppClip.webp" alt="AppClip card on the iPhone Lock Screen — Nice to meet you, Here is my Business Card" loading="lazy"/>
-<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="Profile view with name, photo, and social media links" loading="lazy"/>
-<img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="Profile view with address, phone number, and email" loading="lazy"/>
-</div>
-
-</section>
-
 <section class="page-section">
 
 ## Why NFC.cool Business Card
@@ -80,6 +70,16 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 <p>One digital card replaces a stack of paper. Update anytime — every change reflects immediately, no reprint, no waste.</p>
 </article>
 
+</div>
+
+</section>
+
+<section class="page-section page-section--gallery">
+
+<div class="page-gallery">
+<img src="/assets/images/BusinessCard/01AppClip.webp" alt="AppClip card on the iPhone Lock Screen — Nice to meet you, Here is my Business Card" loading="lazy"/>
+<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="Profile view with name, photo, and social media links" loading="lazy"/>
+<img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="Profile view with address, phone number, and email" loading="lazy"/>
 </div>
 
 </section>

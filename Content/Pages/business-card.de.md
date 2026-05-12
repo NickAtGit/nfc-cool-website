@@ -34,16 +34,6 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 
 </section>
 
-<section class="page-section page-section--gallery">
-
-<div class="page-gallery">
-<img src="/assets/images/BusinessCard/01AppClip.webp" alt="AppClip-Karte auf dem iPhone-Sperrbildschirm — freundlicher Empfangsgruß und Business-Card-Vorschau" loading="lazy"/>
-<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="Profilansicht mit Name, Foto und Social-Media-Links" loading="lazy"/>
-<img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="Profilansicht mit Adresse, Telefonnummer und E-Mail" loading="lazy"/>
-</div>
-
-</section>
-
 <section class="page-section">
 
 ## Warum NFC.cool Business Card
@@ -80,6 +70,16 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 <p>Eine digitale Karte ersetzt einen Stapel Papier. Änderungen sind sofort sichtbar — kein Nachdruck, kein Abfall.</p>
 </article>
 
+</div>
+
+</section>
+
+<section class="page-section page-section--gallery">
+
+<div class="page-gallery">
+<img src="/assets/images/BusinessCard/01AppClip.webp" alt="AppClip-Karte auf dem iPhone-Sperrbildschirm — freundlicher Empfangsgruß und Business-Card-Vorschau" loading="lazy"/>
+<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="Profilansicht mit Name, Foto und Social-Media-Links" loading="lazy"/>
+<img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="Profilansicht mit Adresse, Telefonnummer und E-Mail" loading="lazy"/>
 </div>
 
 </section>
