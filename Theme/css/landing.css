@@ -925,10 +925,11 @@
    margin: 0 auto;
 }
 
-/* Framed-iPhone hero variant — mirror .landing-hero-visual img exactly,
-   stripping any wrapper styling so the framed-iPhone PNG gets the SAME
-   CSS as the landing hero image (full column width, 36px radius, dual
-   shadow, -2° rotation). The container is just layout. */
+/* Framed-iPhone hero variant — mirror .landing-hero-visual img on the
+   <img>, but cap the height so the portrait phone PNG (506×1024 ≈ 0.49
+   aspect) doesn't render twice as tall as the landing's square image
+   at the same column width. Container is plain layout, no wrapper
+   styling. */
 .page-hero-visual.is-framed {
    background: transparent;
    border: 0;
@@ -938,14 +939,16 @@
    border-radius: 0;
    max-width: none;
    aspect-ratio: auto;
-   display: block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .page-hero-visual.is-framed img {
    display: block;
+   width: auto;
    max-width: 100%;
-   width: 100%;
    height: auto;
-   max-height: none;
+   max-height: clamp(360px, 46vh, 480px);
    margin: 0;
    border-radius: 36px;
    box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.35), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
