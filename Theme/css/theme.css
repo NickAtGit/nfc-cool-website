@@ -4,6 +4,22 @@
  */
 
 /* ============================================================
+   Theme-local width tokens.
+   SiteKit's token system only emits a fixed set of layout vars
+   (--max-width, --content-width, --wide-content-width, etc.) into
+   the inline :root in <head>. The vars below complement those for
+   intents SiteKit doesn't know about: the gutter inside our 1200px
+   container, the blog prose reading column, the landing FAQ
+   accordion measure. Defined here so every stylesheet that uses
+   them inherits a single source of truth.
+   ============================================================ */
+:root {
+   --container-padding: 1.5rem;
+   --prose-width: 760px;
+   --faq-width: 820px;
+}
+
+/* ============================================================
    Self-hosted brand fonts not auto-emitted by SiteKit's token system
    (Caveat as script accent + Titillium Web italic variants)
    ============================================================ */
