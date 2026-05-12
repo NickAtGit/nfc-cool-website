@@ -40,27 +40,19 @@
    --font-script: 'Caveat', 'Brush Script MT', cursive;
    --brand-blue-1: #137BD9;
    --brand-blue-2: #00A2F3;
-   /* Aurora-style mesh hero — cyan sky top-left, indigo center, magenta
-      glow bottom-right, deep indigo plate. Reads as a contemporary SaaS
-      hero with hue motion, not a flat brand-blue ramp. */
-   --brand-gradient:
-      radial-gradient(ellipse 80% 70% at 10% 0%, #38BDF8 0%, transparent 55%),
-      radial-gradient(ellipse 75% 75% at 100% 25%, #6366F1 0%, transparent 60%),
-      radial-gradient(ellipse 65% 65% at 85% 110%, #EC4899 0%, transparent 55%),
-      linear-gradient(135deg, #1E3A8A 0%, #312E81 100%);
+   --brand-gradient: linear-gradient(180deg, var(--brand-blue-1) 0%, var(--brand-blue-2) 100%);
    --brand-gradient-radial: radial-gradient(at 80% 20%, var(--brand-blue-2) 0%, var(--brand-blue-1) 60%);
 }
 
-/* Dark-mode aurora — same hue shifts, but every stop is significantly
-   darker so the hero feels like a deep-night sky with subtle aurora
-   colour, not a glowing rainbow band. */
+/* Dark-mode hero — deep navy plate with a soft brand-blue glow in the
+   upper-right that mirrors the radial highlight overlay the hero
+   already paints on top. Reads as a quiet night-sky version of the
+   light brand gradient without any new hues. */
 [data-theme="dark"] {
    --brand-gradient:
-      radial-gradient(ellipse 80% 70% at 10% 0%, #0E5A8E 0%, transparent 55%),
-      radial-gradient(ellipse 75% 75% at 100% 25%, #251D5A 0%, transparent 60%),
-      radial-gradient(ellipse 65% 65% at 85% 110%, #4A1640 0%, transparent 55%),
-      linear-gradient(135deg, #0A1530 0%, #1A1248 100%);
-   --brand-gradient-radial: radial-gradient(at 80% 20%, #173A5E 0%, #050E1C 60%);
+      radial-gradient(ellipse 85% 65% at 80% 10%, #1E4F87 0%, transparent 65%),
+      linear-gradient(160deg, #0B1A2E 0%, #050C18 100%);
+   --brand-gradient-radial: radial-gradient(at 80% 20%, #1E4F87 0%, #0B1A2E 60%);
 }
 
 /* Japanese locale: Titillium Web has no CJK coverage. Prepend OS-native
