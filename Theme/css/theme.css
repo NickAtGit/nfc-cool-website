@@ -40,17 +40,19 @@
    --font-script: 'Caveat', 'Brush Script MT', cursive;
    --brand-blue-1: #137BD9;
    --brand-blue-2: #00A2F3;
-   --brand-gradient: linear-gradient(180deg, var(--brand-blue-1) 0%, var(--brand-blue-2) 100%);
+   /* Three-stop diagonal gradient — light cyan top-left → brand mid blue
+      → deeper navy bottom-right. Gives the hero more depth than a flat
+      two-stop top-down ramp. */
+   --brand-gradient: linear-gradient(135deg, #1AB0FF 0%, #0E7CCB 50%, #0A4F8E 100%);
    --brand-gradient-radial: radial-gradient(at 80% 20%, var(--brand-blue-2) 0%, var(--brand-blue-1) 60%);
 }
 
-/* In dark mode, the bright blue hero gradient overpowers the page. Swap to
-   a subtle deep-navy gradient so the hero still feels distinct from the
-   body background but doesn't blast the user with brand-blue. White text
-   and brand-yellow CTAs keep their contrast. */
+/* Dark-mode: same diagonal motion, but deep-navy → near-black so the hero
+   reads as a darkened version of the brand gradient instead of a glowing
+   blue band on top of the page. */
 [data-theme="dark"] {
-   --brand-gradient: linear-gradient(180deg, #0A1A2E 0%, #122B47 100%);
-   --brand-gradient-radial: radial-gradient(at 80% 20%, #173A5E 0%, #0A1A2E 60%);
+   --brand-gradient: linear-gradient(135deg, #1A3D63 0%, #0E2848 50%, #050E1C 100%);
+   --brand-gradient-radial: radial-gradient(at 80% 20%, #173A5E 0%, #050E1C 60%);
 }
 
 /* Japanese locale: Titillium Web has no CJK coverage. Prepend OS-native
