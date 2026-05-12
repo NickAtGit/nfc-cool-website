@@ -207,8 +207,13 @@ em.brand-tail {
 }
 .sk-nav-item a:hover,
 .sk-nav-item a.active {
-   color: var(--color-text);
-   background: var(--color-accent-light);
+   color: var(--brand-blue-1);
+   background: rgba(19, 123, 217, 0.10);
+}
+[data-theme="dark"] .sk-nav-item a:hover,
+[data-theme="dark"] .sk-nav-item a.active {
+   color: #6BB6FF;
+   background: rgba(10, 132, 255, 0.16);
 }
 .sk-nav-icon { display: none; }
 
