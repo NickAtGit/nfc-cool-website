@@ -32,11 +32,11 @@ categories:
     description: "Articles about NFC.cool Business Card and digital networking."
 
 sections:
-  - name: "Blog"
+  - name: "NFC.cool Blog"
     slug: "blog"
     contentDirectory: "Blog"
     urlPrefix: "blog"
-    description: "News, deep-dives, and engineering write-ups from the NFC.cool team."
+    description: "Guides, comparisons, and how-tos on NFC tags, QR codes, barcodes, and digital business cards on iPhone and Android. Written by the developer behind NFC.cool."
   - name: "Changelog"
     slug: "changelog"
     contentDirectory: "Changelog"

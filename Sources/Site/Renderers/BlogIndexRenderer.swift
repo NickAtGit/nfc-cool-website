@@ -116,9 +116,9 @@ struct BlogIndexRenderer: Renderer {
 
    private static func localizedSubtitle(forSlug slug: String, locale: String) -> String {
       switch (slug, locale) {
-      case ("blog", "de"): return "Neuigkeiten, Deep-Dives und Engineering-Notizen vom NFC.cool-Team."
-      case ("blog", "ja"): return "NFC.coolチームによるニュース、深掘り、エンジニアリングのノート。"
-      case ("blog", _):    return "News, deep-dives, and engineering write-ups from the NFC.cool team."
+      case ("blog", "de"): return "Anleitungen, Vergleiche und How-tos zu NFC-Tags, QR-Codes, Barcodes und digitalen Visitenkarten auf iPhone und Android. Geschrieben vom Entwickler hinter NFC.cool."
+      case ("blog", "ja"): return "NFCタグ、QRコード、バーコード、iPhoneとAndroidのデジタル名刺に関するガイド、比較、ハウツー。NFC.coolの開発者が直接執筆しています。"
+      case ("blog", _):    return "Guides, comparisons, and how-tos on NFC tags, QR codes, barcodes, and digital business cards on iPhone and Android. Written by the developer behind NFC.cool."
       case ("changelog", "de"): return "Release-Notes für NFC.cool Tools, Business Card und die Website."
       case ("changelog", "ja"): return "NFC.cool Tools、Business Card、ウェブサイトのリリースノート。"
       case ("changelog", _):    return "Release notes for NFC.cool Tools, Business Card, and the website."
