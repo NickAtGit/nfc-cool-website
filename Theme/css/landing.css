@@ -926,23 +926,24 @@
 }
 
 /* For transparent-background mockups (framed iPhone product shots),
-   define the "blue box" with just a border + shadow and let the hero
-   gradient flow through. This guarantees the box's blue matches the
-   surrounding hero exactly at every vertical position, instead of a
-   solid panel that only matches one stop of the gradient. */
+   wrap them in a white rounded card so they read like the landing
+   hero image — which is itself a white-background photo with the
+   same 36px radius + dual shadow + -2° rotation. Container owns the
+   rotation/shadow/radius; the image inside renders flat. */
 .page-hero-visual.is-framed {
-   background: transparent;
-   border: 1px solid rgba(255, 255, 255, 0.22);
+   background: #FFFFFF;
    border-radius: 36px;
    padding: clamp(1rem, 2.5vw, 1.75rem);
-   box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.45), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
+   box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.35), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
    transform: rotate(-2deg);
+   overflow: hidden;
 }
 .page-hero-visual.is-framed img {
    border-radius: 0;
    box-shadow: none;
    transform: none;
    margin: 0 auto;
+   width: 100%;
 }
 
 @media (max-width: 900px) {
