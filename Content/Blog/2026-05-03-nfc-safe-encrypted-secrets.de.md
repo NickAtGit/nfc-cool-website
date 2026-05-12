@@ -6,8 +6,6 @@ category: "nfc"
 tags: ["nfc", "security", "encryption", "privacy"]
 summary: "256-Bit AES auf epoxidbeschichteten NFC-Tags. Papier verbrennt. Cloud-Backups gehen down. NFC-Tags nicht."
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/openprinttag.png"
-imageAlt: "NFC-Safe-Verschlüsselungsablauf"
 ---
 
 Deine Seed Phrase liegt auf einem Stück Papier. Vielleicht in einem Safe. Vielleicht unter einer Diele. Vielleicht auf drei Orte verteilt, weil jemand auf Reddit meinte, das machen "ernsthafte" Crypto-Leute so. Aber es ist immer noch Papier. Papier verbrennt. Papier saugt sich voll. Papier geht verloren.

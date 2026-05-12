@@ -50,9 +50,17 @@ struct BlogIndexRenderer: Renderer {
             "<span class=\"blog-card-tag\">\(tag.htmlEscaped)</span>"
          }.joined()
          let imageHTML: String = {
-            guard let img = page.image else { return "" }
-            let alt = (page.imageAlt ?? page.title).htmlEscaped
-            return "<div class=\"blog-card-image\"><img src=\"\(img)\" alt=\"\(alt)\" loading=\"lazy\"/></div>"
+            if let img = page.image {
+               let alt = (page.imageAlt ?? page.title).htmlEscaped
+               return "<div class=\"blog-card-image\"><img src=\"\(img)\" alt=\"\(alt)\" loading=\"lazy\"/></div>"
+            }
+            // No hero image — show a brand-gradient placeholder with the wordmark
+            // so the card grid stays visually balanced.
+            return """
+            <div class="blog-card-image is-placeholder" aria-hidden="true">
+               <img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt=""/>
+            </div>
+            """
          }()
          return """
          <a class="blog-card" href="\(href)">

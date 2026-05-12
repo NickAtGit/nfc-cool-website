@@ -6,8 +6,6 @@ category: "nfc"
 tags: ["nfc", "security", "encryption", "privacy"]
 summary: "256-bit AES on epoxy-coated NFC tags. Paper backups burn. Cloud backups go down. NFC tags don't."
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/openprinttag.png"
-imageAlt: "NFC Safe encryption flow"
 ---
 
 Your seed phrase is on a piece of paper. Maybe it's in a safe. Maybe under a floorboard. Maybe split across three locations because someone on Reddit said that's what "serious" crypto people do. But it's still paper. Paper burns. Paper floods. Paper gets lost.

@@ -1263,6 +1263,33 @@
    height: 100%;
    object-fit: cover;
 }
+/* Brand-gradient placeholder shown when a post has no hero image yet.
+   Centers the white wordmark on the gradient so cards-without-art
+   still feel intentional in the grid. */
+.blog-card-image.is-placeholder {
+   background: var(--brand-gradient);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   isolation: isolate;
+}
+.blog-card-image.is-placeholder::after {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: radial-gradient(at 70% 25%, rgba(255,255,255,0.16) 0%, transparent 55%);
+   pointer-events: none;
+   z-index: -1;
+}
+.blog-card-image.is-placeholder img {
+   width: auto;
+   height: auto;
+   max-width: 60%;
+   max-height: 50%;
+   object-fit: contain;
+   opacity: 0.92;
+}
 .blog-card-body {
    padding: 1.25rem 1.25rem 1.5rem;
    display: flex;

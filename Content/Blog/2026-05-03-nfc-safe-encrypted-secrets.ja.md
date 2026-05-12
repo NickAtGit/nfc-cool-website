@@ -6,8 +6,6 @@ category: "nfc"
 tags: ["nfc", "security", "encryption", "privacy"]
 summary: "エポキシ加工のNFCタグに256-bit AES。紙は燃える。クラウドは落ちる。NFCタグは違います。"
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/openprinttag.png"
-imageAlt: "NFC Safeの暗号化フロー"
 ---
 
 あなたのSeed Phraseは紙に書かれている。金庫の中かもしれない。床下かもしれない。Redditで「本気の」crypto勢はそうしていると読んで3カ所に分けて保管しているかもしれない。それでも紙は紙です。紙は燃えます。紙は水を吸います。紙はなくします。
