@@ -40,28 +40,26 @@
    --font-script: 'Caveat', 'Brush Script MT', cursive;
    --brand-blue-1: #137BD9;
    --brand-blue-2: #00A2F3;
-   /* Mesh-style hero gradient: bright cyan glow top-left, deep navy plate
-      bottom-right, with a warm brand-yellow tint in the lower-left corner
-      to hint at the accent palette. Layered radials on top of a diagonal
-      base give the hero a designed, three-dimensional feel instead of a
-      flat ramp. */
+   /* Aurora-style mesh hero — cyan sky top-left, indigo center, magenta
+      glow bottom-right, deep indigo plate. Reads as a contemporary SaaS
+      hero with hue motion, not a flat brand-blue ramp. */
    --brand-gradient:
-      radial-gradient(ellipse 70% 65% at 15% 20%, #2DC2FF 0%, transparent 60%),
-      radial-gradient(ellipse 55% 55% at 90% 85%, #082B58 0%, transparent 65%),
-      radial-gradient(ellipse 45% 45% at 10% 95%, rgba(255, 199, 9, 0.18) 0%, transparent 70%),
-      linear-gradient(135deg, #0E6DBE 0%, #0A4F8E 100%);
+      radial-gradient(ellipse 80% 70% at 10% 0%, #38BDF8 0%, transparent 55%),
+      radial-gradient(ellipse 75% 75% at 100% 25%, #6366F1 0%, transparent 60%),
+      radial-gradient(ellipse 65% 65% at 85% 110%, #EC4899 0%, transparent 55%),
+      linear-gradient(135deg, #1E3A8A 0%, #312E81 100%);
    --brand-gradient-radial: radial-gradient(at 80% 20%, var(--brand-blue-2) 0%, var(--brand-blue-1) 60%);
 }
 
-/* Dark-mode mesh — same shape, but deep-navy + near-black so the hero
-   sits comfortably on a dark body. Keeps a faint warm corner so the
-   accent personality survives the switch. */
+/* Dark-mode aurora — same hue shifts, but every stop is significantly
+   darker so the hero feels like a deep-night sky with subtle aurora
+   colour, not a glowing rainbow band. */
 [data-theme="dark"] {
    --brand-gradient:
-      radial-gradient(ellipse 70% 65% at 15% 20%, #1A4D7C 0%, transparent 60%),
-      radial-gradient(ellipse 55% 55% at 90% 85%, #03081A 0%, transparent 65%),
-      radial-gradient(ellipse 45% 45% at 10% 95%, rgba(255, 199, 9, 0.10) 0%, transparent 70%),
-      linear-gradient(135deg, #0E2848 0%, #050E1C 100%);
+      radial-gradient(ellipse 80% 70% at 10% 0%, #0E5A8E 0%, transparent 55%),
+      radial-gradient(ellipse 75% 75% at 100% 25%, #251D5A 0%, transparent 60%),
+      radial-gradient(ellipse 65% 65% at 85% 110%, #4A1640 0%, transparent 55%),
+      linear-gradient(135deg, #0A1530 0%, #1A1248 100%);
    --brand-gradient-radial: radial-gradient(at 80% 20%, #173A5E 0%, #050E1C 60%);
 }
 
