@@ -44,6 +44,15 @@
    --brand-gradient-radial: radial-gradient(at 80% 20%, var(--brand-blue-2) 0%, var(--brand-blue-1) 60%);
 }
 
+/* In dark mode, the bright blue hero gradient overpowers the page. Swap to
+   a subtle deep-navy gradient so the hero still feels distinct from the
+   body background but doesn't blast the user with brand-blue. White text
+   and brand-yellow CTAs keep their contrast. */
+[data-theme="dark"] {
+   --brand-gradient: linear-gradient(180deg, #0A1A2E 0%, #122B47 100%);
+   --brand-gradient-radial: radial-gradient(at 80% 20%, #173A5E 0%, #0A1A2E 60%);
+}
+
 /* Japanese locale: Titillium Web has no CJK coverage. Prepend OS-native
    JA families so glyphs render correctly. Slightly looser line-height
    for CJK readability. */
