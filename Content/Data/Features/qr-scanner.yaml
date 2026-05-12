@@ -1,0 +1,55 @@
+slug: "qr-scanner"
+appStoreURL: "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_en&mt=8"
+backLinkText: "← All features"
+
+hero:
+  title: "QR Code Scanner & Studio"
+  subtitle: "Scan any QR code from the camera or pick one out of a screenshot. Design custom QR codes with logos, Genmoji, and brand colors in the built-in QR Code Studio."
+  platforms: "iOS only"
+  heroImagePath: "/assets/images/Webflow/qr-studio.webp"
+
+capabilitiesTitle: "What you can do"
+capabilities:
+  - title: "Universal QR scanning"
+    description: "URLs, vCards, Wi-Fi credentials, calendar events, payments, app store deep-links — NFC.cool detects the payload type and offers the right action."
+  - title: "Detect QR codes in photos"
+    description: "Pick a screenshot or photo from your library and NFC.cool finds and decodes any QR code inside it — even partially obscured ones."
+  - title: "QR Code Studio"
+    description: "Design QR codes with custom colors, rounded eye patterns, logos in the center, or Genmoji on iOS 18+. Export as SVG or PNG at print-ready resolutions."
+  - title: "History & re-share"
+    description: "Every scan is saved locally — re-open the payload, copy it, share it, or jump straight back to the action."
+
+screenshots:
+  - path: "/assets/images/Webflow/qr-studio.webp"
+    alt: "QR Code Studio designer"
+  - path: "/assets/images/Webflow/qr-barcode.webp"
+    alt: "Scanning a QR code"
+
+specsTitle: "Supported formats & exports"
+specs:
+  - title: "2D codes"
+    items:
+      - "QR Code (M1–M4)"
+      - "Micro QR"
+      - "Aztec"
+      - "Data Matrix"
+      - "PDF417"
+  - title: "Studio export"
+    items:
+      - "SVG (vector)"
+      - "PNG up to 4096×4096"
+      - "Logo overlays up to 30% area"
+      - "Custom eye shapes & frames"
+
+faqTitle: "Frequently asked"
+faq:
+  - question: "Why is this iOS-only?"
+    answer: "The Android version of NFC.cool currently focuses on NFC and the Digital Business Card. QR scanning is on the Android roadmap."
+  - question: "Are the QR codes from the Studio compatible with all readers?"
+    answer: "Yes — they're standard QR codes with optional cosmetic styling. All standard QR readers (including iOS Camera and Google Lens) can decode them."
+  - question: "Can I scan a QR code from a screenshot?"
+    answer: "Yes — pick any image from your photo library and NFC.cool will find every QR code in it."
+
+cta:
+  title: "Scan and design with one tap."
+  buttonText: "Download for iOS"

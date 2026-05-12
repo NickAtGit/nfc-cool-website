@@ -41,7 +41,7 @@ The site is intended to deploy to **Cloudflare Pages** (so the Pages Function in
 | `/sitemap.xml`, `/sitemap_index.xml`, `/llms.txt` | - | SiteKit (auto) |
 | `/_redirects` (Cloudflare) | - | `redirects.yaml` via SiteKit `RedirectRenderer` |
 
-Feature slugs: `nfc-reader-writer`, `qr-barcode-scanner`, `document-scanner`, `3d-room-scanner`, `webhooks`. To add a new feature: append a slug to `FeaturePageRenderer.slugs` in `Sources/Site/Renderers/FeaturePageRenderer.swift` and drop `{slug}.yaml` + `{slug}.de.yaml` into `Content/Data/Features/`.
+Feature slugs: `nfc-reader-writer`, `qr-scanner`, `barcode-scanner`, `document-scanner`, `3d-room-scanner`, `webhooks`. To add a new feature: append a slug to `FeaturePageRenderer.slugs` in `Sources/Site/Renderers/FeaturePageRenderer.swift` and drop `{slug}.yaml` + `{slug}.de.yaml` + `{slug}.ja.yaml` into `Content/Data/Features/`.
 
 ## Brand structure (the part visitors care about)
 
@@ -64,7 +64,8 @@ Content/
 │   ├── Landing.de.yaml          ← Landing content (de)
 │   └── Features/
 │       ├── nfc-reader-writer.yaml         + .de.yaml
-│       ├── qr-barcode-scanner.yaml        + .de.yaml
+│       ├── qr-scanner.yaml                + .de.yaml + .ja.yaml
+│       ├── barcode-scanner.yaml           + .de.yaml + .ja.yaml
 │       ├── document-scanner.yaml          + .de.yaml
 │       ├── 3d-room-scanner.yaml           + .de.yaml
 │       └── webhooks.yaml                  + .de.yaml

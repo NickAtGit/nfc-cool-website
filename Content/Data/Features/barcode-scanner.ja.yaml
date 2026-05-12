@@ -1,0 +1,53 @@
+slug: "barcode-scanner"
+appStoreURL: "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_ja&mt=8"
+backLinkText: "← すべての機能"
+
+hero:
+  title: "バーコードスキャナー"
+  subtitle: "EAN、UPC、Code 128、PDF417、Aztec、Data Matrixなど20種類以上の形式に対応。バッチモードでカメラを開いたままに — 棚卸しやイベント受付に最適です。"
+  platforms: "iOSのみ"
+  heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
+
+capabilitiesTitle: "できること"
+capabilities:
+  - title: "主要なバーコード形式すべてに対応"
+    description: "EAN-13/8、UPC-A/E、Code 128、Code 39、ITF、PDF417、Aztec、Data Matrixなど — 自動形式判定で、モード切替不要。"
+  - title: "バッチモード"
+    description: "再照準なしで連続してバーコードをスキャン。棚卸し、イベントの受付、図書館アーカイブなどに最適です。"
+  - title: "商品検索"
+    description: "小売バーコードをウェブ検索や事前設定された小売業者(Amazon、Google Shopping、eBay)でワンタップ検索。"
+  - title: "スキャン履歴"
+    description: "すべてのスキャンが日時と形式とともに保存されます。CSV書き出しや個別コードのコピーが可能です。"
+
+screenshots:
+  - path: "/assets/images/Webflow/qr-barcode.webp"
+    alt: "カメラでバーコードをスキャン"
+
+specsTitle: "対応フォーマット"
+specs:
+  - title: "1Dバーコード"
+    items:
+      - "EAN-13、EAN-8"
+      - "UPC-A、UPC-E"
+      - "Code 128、Code 39、Code 93"
+      - "Interleaved 2 of 5(ITF)"
+      - "Codabar"
+  - title: "スタック / 2D"
+    items:
+      - "PDF417"
+      - "Aztec"
+      - "Data Matrix"
+      - "MaxiCode"
+
+faqTitle: "よくある質問"
+faq:
+  - question: "なぜiOS限定ですか?"
+    answer: "現在のAndroid版NFC.coolはNFCとデジタル名刺に注力しています。バーコードスキャンはAndroidロードマップに含まれています。"
+  - question: "複数のバーコードを一度にスキャンできますか?"
+    answer: "はい — バッチモードはカメラを開いたままにし、見つけたすべてのバーコードをキューに溜めます。キューの項目をタップすると操作できます。"
+  - question: "スキャン履歴を書き出せますか?"
+    answer: "はい — 履歴ビューから日時・形式・生ペイロード付きでCSVに書き出せます。"
+
+cta:
+  title: "あらゆるものを、どれだけでもスキャン。"
+  buttonText: "iOS版をダウンロード"

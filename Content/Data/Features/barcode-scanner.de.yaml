@@ -1,0 +1,53 @@
+slug: "barcode-scanner"
+appStoreURL: "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_de&mt=8"
+backLinkText: "← Alle Funktionen"
+
+hero:
+  title: "Barcode-Scanner"
+  subtitle: "Scanne EAN, UPC, Code 128, PDF417, Aztec, Data Matrix und über 20 weitere Formate. Im Batch-Modus bleibt die Kamera offen — ideal für Inventur und Event-Check-ins."
+  platforms: "Nur iOS"
+  heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
+
+capabilitiesTitle: "Was du machen kannst"
+capabilities:
+  - title: "Alle gängigen Barcode-Formate"
+    description: "EAN-13/8, UPC-A/E, Code 128, Code 39, ITF, PDF417, Aztec, Data Matrix und mehr — automatische Formaterkennung, kein Modus-Wechsel."
+  - title: "Batch-Modus"
+    description: "Scanne eine Reihe von Barcodes hintereinander, ohne neu zu zielen. Praktisch für Inventur, Event-Check-ins oder Bibliotheks-Archivierung."
+  - title: "Produktsuche"
+    description: "Schlage Einzelhandels-Barcodes per Web-Suche oder vorkonfigurierten Händlern (Amazon, Google Shopping, eBay) mit einem Tipp nach."
+  - title: "Scan-Verlauf"
+    description: "Jeder Scan wird mit Zeitstempel und Format gespeichert. Exportiere die Liste als CSV oder kopiere einzelne Codes."
+
+screenshots:
+  - path: "/assets/images/Webflow/qr-barcode.webp"
+    alt: "Barcode mit der Kamera scannen"
+
+specsTitle: "Unterstützte Formate"
+specs:
+  - title: "1D-Barcodes"
+    items:
+      - "EAN-13, EAN-8"
+      - "UPC-A, UPC-E"
+      - "Code 128, Code 39, Code 93"
+      - "Interleaved 2 of 5 (ITF)"
+      - "Codabar"
+  - title: "Gestapelt / 2D"
+    items:
+      - "PDF417"
+      - "Aztec"
+      - "Data Matrix"
+      - "MaxiCode"
+
+faqTitle: "Häufige Fragen"
+faq:
+  - question: "Warum nur auf iOS?"
+    answer: "Die Android-Version von NFC.cool konzentriert sich derzeit auf NFC und die digitale Visitenkarte. Barcode-Scannen ist auf der Android-Roadmap."
+  - question: "Kann ich mehrere Barcodes auf einmal scannen?"
+    answer: "Ja — im Batch-Modus bleibt die Kamera offen und reiht jeden gefundenen Barcode in eine Warteschlange ein. Tippe auf einen Eintrag, um damit zu arbeiten."
+  - question: "Kann ich den Scan-Verlauf exportieren?"
+    answer: "Ja — die Verlaufsansicht exportiert nach CSV mit Zeitstempel, Format und Roh-Payload."
+
+cta:
+  title: "Alles scannen — in jeder Menge."
+  buttonText: "Für iOS herunterladen"

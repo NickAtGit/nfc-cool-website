@@ -13,7 +13,8 @@ struct FeaturePageRenderer: Renderer {
    /// `Content/Data/Features/{slug}.yaml` for the default locale.
    static let slugs: [String] = [
       "nfc-reader-writer",
-      "qr-barcode-scanner",
+      "qr-scanner",
+      "barcode-scanner",
       "document-scanner",
       "3d-room-scanner",
       "webhooks",

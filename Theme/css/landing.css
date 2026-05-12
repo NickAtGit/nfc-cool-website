@@ -1840,62 +1840,91 @@
 }
 
 /* ============================================================
-   Features index (/features/)
+   Features index (/features/) — unified .page-hero on top + polished
+   image-card grid below (matches the landing feature aesthetic).
    ============================================================ */
-.features-index-hero {
-   padding: clamp(4rem, 8vw, 6rem) 0 clamp(2rem, 4vw, 3rem);
-   text-align: center;
-   background: var(--color-bg);
-}
-.features-index-subtitle {
-   font-size: clamp(1rem, 1.2vw, 1.125rem);
-   color: var(--color-text-secondary);
-   max-width: 620px;
-   margin: -1.5rem auto 0;
-   line-height: 1.55;
-}
 .features-index-grid-section {
-   padding: clamp(1rem, 3vw, 2rem) 0 clamp(4rem, 8vw, 6rem);
-   background: var(--color-bg);
+   padding: clamp(3.5rem, 7vw, 6rem) 1.5rem clamp(4rem, 8vw, 7rem);
+   background: var(--color-bg-alt);
 }
 .feature-index-grid {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-   gap: 1.25rem;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 1.5rem;
+   max-width: var(--max-width);
+   margin: 0 auto;
 }
 .feature-index-card {
-   display: block;
+   display: flex;
+   flex-direction: column;
    background: var(--color-bg-card);
    border: 1px solid var(--color-border);
    border-radius: var(--radius-lg);
-   padding: 1.75rem;
    text-decoration: none;
    color: inherit;
    box-shadow: 0 1px 2px var(--color-shadow);
    transition: transform var(--transition), box-shadow var(--transition);
+   overflow: hidden;
 }
 .feature-index-card:hover {
-   transform: translateY(-2px);
-   box-shadow: 0 8px 24px var(--color-shadow-lg);
+   transform: translateY(-3px);
+   box-shadow: 0 14px 36px var(--color-shadow-lg);
+   color: inherit;
 }
-.feature-index-card h3 {
+.feature-index-card-image {
+   aspect-ratio: 16 / 10;
+   background: var(--color-bg-alt);
+   overflow: hidden;
+}
+.feature-index-card-image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: transform 0.4s ease;
+}
+.feature-index-card:hover .feature-index-card-image img {
+   transform: scale(1.04);
+}
+.feature-index-card-body {
+   padding: 1.5rem 1.5rem 1.75rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   flex: 1;
+}
+.feature-index-card-body h3 {
    font-family: var(--font-heading);
    font-weight: 700;
    font-size: 1.25rem;
-   margin: 0 0 0.5rem;
+   line-height: 1.25;
+   margin: 0.25rem 0 0.25rem;
    color: var(--color-text);
 }
-.feature-index-card p {
+.feature-index-card-body p {
    font-size: 0.9375rem;
    line-height: 1.55;
    color: var(--color-text-secondary);
-   margin: 0.5rem 0 0;
+   margin: 0;
+   flex: 1;
+}
+.feature-index-card-cta {
+   display: inline-block;
+   margin-top: 0.75rem;
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 0.875rem;
+   color: var(--color-accent-hover);
+   letter-spacing: 0.01em;
+   transition: transform var(--transition);
+}
+.feature-index-card:hover .feature-index-card-cta {
+   transform: translateX(3px);
 }
 .feature-index-platforms {
    display: inline-flex;
    flex-wrap: wrap;
    gap: 0.35rem;
-   margin: 0.25rem 0 0;
+   margin: 0 0 0.25rem;
 }
 
 /* ============================================================

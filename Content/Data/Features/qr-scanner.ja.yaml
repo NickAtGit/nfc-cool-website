@@ -1,0 +1,55 @@
+slug: "qr-scanner"
+appStoreURL: "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_ja&mt=8"
+backLinkText: "← すべての機能"
+
+hero:
+  title: "QRコードスキャナー & スタジオ"
+  subtitle: "カメラからQRコードをスキャン、スクリーンショットからの抽出にも対応。組み込みのQRコードスタジオでロゴ、Genmoji、ブランドカラーを使ったオリジナルデザインを作れます。"
+  platforms: "iOSのみ"
+  heroImagePath: "/assets/images/Webflow/qr-studio.webp"
+
+capabilitiesTitle: "できること"
+capabilities:
+  - title: "万能QRスキャン"
+    description: "URL、vCard、Wi-Fi設定、カレンダーイベント、決済、アプリストアのディープリンク — NFC.coolがペイロードの種類を判定し、最適なアクションを提案します。"
+  - title: "写真からQRコードを検出"
+    description: "ライブラリのスクリーンショットや写真を選ぶと、NFC.coolが内部のQRコードを検出してデコード — 一部隠れていても認識します。"
+  - title: "QRコードスタジオ"
+    description: "カスタムカラー、丸みのある目パターン、中央のロゴ、iOS 18以降ではGenmojiを使ったQRコードをデザイン。SVGまたは印刷品質のPNGで書き出せます。"
+  - title: "履歴と再共有"
+    description: "すべてのスキャンは端末内に保存されます — ペイロードを再表示、コピー、共有、または直接アクションへ。"
+
+screenshots:
+  - path: "/assets/images/Webflow/qr-studio.webp"
+    alt: "QRコードスタジオのデザイナー"
+  - path: "/assets/images/Webflow/qr-barcode.webp"
+    alt: "QRコードをスキャン"
+
+specsTitle: "対応フォーマットと書き出し"
+specs:
+  - title: "2Dコード"
+    items:
+      - "QRコード(M1–M4)"
+      - "Micro QR"
+      - "Aztec"
+      - "Data Matrix"
+      - "PDF417"
+  - title: "スタジオ書き出し"
+    items:
+      - "SVG(ベクター)"
+      - "PNG 最大4096×4096"
+      - "ロゴオーバーレイ 最大30%"
+      - "カスタム目形状 & フレーム"
+
+faqTitle: "よくある質問"
+faq:
+  - question: "なぜiOS限定ですか?"
+    answer: "現在のAndroid版NFC.coolはNFCとデジタル名刺に注力しています。QRスキャンはAndroidロードマップに含まれています。"
+  - question: "スタジオで作ったQRコードはすべてのリーダーで読めますか?"
+    answer: "はい — 標準のQRコードに装飾スタイルを加えているだけです。標準のQRリーダー(iOSカメラやGoogle Lensを含む)で問題なくデコードできます。"
+  - question: "スクリーンショットからQRコードをスキャンできますか?"
+    answer: "はい — ライブラリの任意の画像を選ぶと、NFC.coolが含まれるすべてのQRコードを検出します。"
+
+cta:
+  title: "ワンタッチでスキャン & デザイン。"
+  buttonText: "iOS版をダウンロード"
