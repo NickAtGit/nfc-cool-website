@@ -12,6 +12,12 @@ js:
 favicons:
    - "images/favicon.svg"
 
+# Synchronous theme-detect script: runs before first paint so the saved
+# theme (or the OS prefers-color-scheme) is applied to <html data-theme>
+# immediately, preventing a light→dark flash on page navigation.
+headInlineScript: |
+   (function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);})()
+
 tokens:
    # Brand-defined palette (Brand Manual V1)
    colorAccent:        { any: "#FFC709", dark: "#FFC709" }
