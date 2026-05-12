@@ -165,6 +165,4 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 </div>
 
-Für Presseanfragen und Markenassets siehe das [Press-Kit](/de/press/).
-
 </section>

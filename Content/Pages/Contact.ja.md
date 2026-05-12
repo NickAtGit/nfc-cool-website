@@ -165,6 +165,4 @@ description: "NFC.coolへのお問い合わせ。メール、FAQ、SNS。"
 
 </div>
 
-プレス関連のお問い合わせやブランド素材は[プレスキット](/ja/press/)をご覧ください。
-
 </section>

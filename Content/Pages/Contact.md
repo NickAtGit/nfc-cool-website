@@ -165,6 +165,4 @@ The fastest way to reach us is by email. We read every message personally and re
 
 </div>
 
-For press inquiries and brand assets, see the [press kit](/press/).
-
 </section>
