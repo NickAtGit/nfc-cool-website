@@ -18,7 +18,11 @@ redirects:
   - from: "/document-scanner"
     to: "/features/document-scanner/"
   - from: "/3d-room-scanner"
-    to: "/features/3d-room-scanner/"
+    to: "/features/room-scanner/"
+  - from: "/features/3d-room-scanner"
+    to: "/features/3d-object-scanner/"
+  - from: "/features/3d-room-scanner/"
+    to: "/features/3d-object-scanner/"
   - from: "/webhook"
     to: "/features/webhooks/"
 

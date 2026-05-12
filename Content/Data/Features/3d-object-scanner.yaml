@@ -1,0 +1,52 @@
+slug: "3d-object-scanner"
+appStoreURL: "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_en&mt=8"
+backLinkText: "← All features"
+
+hero:
+  title: "3D Object Scanning"
+  subtitle: "Walk around a real-world object with your iPhone — NFC.cool runs on-device photogrammetry to reconstruct a textured 3D model. Export to USDZ for AR Quick Look, STL for 3D printing, or OBJ/PLY for Blender."
+  platforms: "iOS only"
+  heroImagePath: "/assets/images/Webflow/3d-object.webp"
+
+capabilitiesTitle: "What you can do"
+capabilities:
+  - title: "Photogrammetry capture"
+    description: "Walk around an object capturing 30–100 photos. The on-device photogrammetry pipeline reconstructs a textured 3D model with realistic geometry."
+  - title: "Edit & refine"
+    description: "Trim noise, smooth meshes, simplify geometry, or strip textures. Preview in 3D before export."
+  - title: "Export anywhere"
+    description: "USDZ for AR Quick Look, STL for 3D printing, OBJ/PLY for Blender, USD/ABC for production pipelines. Choose vertex precision and texture resolution."
+  - title: "AR Quick Look"
+    description: "Drop any scanned object into your living room via AR Quick Look. Share USDZ files with friends — they can view them right in Messages."
+
+screenshots:
+  - path: "/assets/images/Webflow/3d-object.webp"
+    alt: "Capturing an object with photogrammetry"
+
+specsTitle: "Hardware & export"
+specs:
+  - title: "Hardware requirements"
+    items:
+      - "Any iPhone with iOS 17+"
+      - "Adequate compute (A14 Bionic or newer recommended)"
+      - "iPad Pro 2020+ also supported"
+  - title: "Export formats"
+    items:
+      - "USDZ (AR Quick Look)"
+      - "OBJ + MTL with textures"
+      - "STL (binary or ASCII)"
+      - "PLY (point cloud + mesh)"
+      - "USD for production pipelines"
+
+faqTitle: "Frequently asked"
+faq:
+  - question: "Do I need LiDAR for object scanning?"
+    answer: "No — photogrammetry works on any modern iPhone. LiDAR is only required for Room Scanning (RoomPlan)."
+  - question: "How long does a scan take?"
+    answer: "A few minutes to capture 30–100 photos, then 2–5 minutes of on-device reconstruction."
+  - question: "Can I 3D-print the results?"
+    answer: "Yes — export to STL and load into your slicer of choice. We recommend the simplify/smooth step before printing to reduce vertex count."
+
+cta:
+  title: "Capture the world in 3D."
+  buttonText: "Download for iOS"

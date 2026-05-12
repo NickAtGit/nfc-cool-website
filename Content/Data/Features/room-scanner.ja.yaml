@@ -1,0 +1,51 @@
+slug: "room-scanner"
+appStoreURL: "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_ja&mt=8"
+backLinkText: "← すべての機能"
+
+hero:
+  title: "ルーム・スキャン"
+  subtitle: "LiDAR搭載のRoomPlanで、部屋を歩くだけ — 壁、ドア、窓、認識された家具まで含めた美しいパラメトリックな間取り図を、ひとつのUSDZシーンとして書き出せます。"
+  platforms: "iOSのみ"
+  heroImagePath: "/assets/images/Webflow/3d-room.webp"
+
+capabilitiesTitle: "できること"
+capabilities:
+  - title: "RoomPlanキャプチャ"
+    description: "iPhoneのLiDARセンサーで部屋を歩くだけ。NFC.coolが壁、ドア、窓、開口部を含むパラメトリックモデルをリアルタイムに構築します。"
+  - title: "家具の認識"
+    description: "ベッド、ソファ、テーブル、椅子、収納、コンロ、シンク、トイレ、バスタブ、テレビをシーン内で認識し、ラベル付けします。"
+  - title: "床面積 & 寸法"
+    description: "各部屋ごとに床面積、天井高、壁の長さを出力。数値はJSONとして書き出せるほか、USDZの中でも利用できます。"
+  - title: "AR Quick Look"
+    description: "完成した部屋をAR Quick Lookで開いたり、USDZを共有 — 受け取った相手はメッセージ内でモデルの中を歩けます。"
+
+screenshots:
+  - path: "/assets/images/Webflow/3d-room.webp"
+    alt: "LiDARで部屋をスキャン"
+
+specsTitle: "ハードウェア & 出力"
+specs:
+  - title: "ハードウェア要件"
+    items:
+      - "LiDAR搭載iPhone(12 Pro以降のProモデル)"
+      - "iPad Pro 2020以降にも対応"
+      - "最新のRoomPlan機能にはiOS 17以降"
+  - title: "出力"
+    items:
+      - "名前付きエンティティを含むUSDZシーン"
+      - "壁、ドア、窓、開口部"
+      - "認識された家具カテゴリ"
+      - "床面積と寸法"
+
+faqTitle: "よくある質問"
+faq:
+  - question: "LiDARは必要ですか?"
+    answer: "はい — RoomPlanはAppleのLiDAR専用APIです。オブジェクト・スキャン(フォトグラメトリ)は任意のiPhoneで動作しますが、ルーム・スキャンにはLiDARが必要です。"
+  - question: "スキャンにはどのくらい時間がかかりますか?"
+    answer: "部屋を歩くだけです。結果はライブで生成され、終わった時点で完成しています。"
+  - question: "結果をCADソフトで開けますか?"
+    answer: "はい — USDZは最新の多くのCAD/3Dツールでサポートされています。SketchUpやRevitのワークフローでは、Blenderや無料のUSD→OBJツールで変換してください。"
+
+cta:
+  title: "数分であなたの空間をマッピング。"
+  buttonText: "iOS版をダウンロード"

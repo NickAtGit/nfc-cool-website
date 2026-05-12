@@ -16,7 +16,8 @@ struct FeaturePageRenderer: Renderer {
       "qr-scanner",
       "barcode-scanner",
       "document-scanner",
-      "3d-room-scanner",
+      "3d-object-scanner",
+      "room-scanner",
       "webhooks",
    ]
 
