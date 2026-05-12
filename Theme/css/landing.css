@@ -1728,6 +1728,11 @@
 .page-section:has(.feature-comparison-wrap) > p {
    max-width: 820px;
 }
+/* Pure-prose sections (no card grid, no comparison table) — narrow the h2
+   to match the 760px reading column the paragraphs already use. */
+.page-section:not(:has(.page-cards-grid)):not(:has(.feature-comparison-wrap)):not(:has(.page-gallery)) > h2 {
+   max-width: 760px;
+}
 .feature-comparison-table {
    width: 100%;
    border-collapse: collapse;
