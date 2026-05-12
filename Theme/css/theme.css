@@ -319,8 +319,11 @@ em.brand-tail {
    background: rgba(10, 132, 255, 0.16);
 }
 .sk-lang-item.is-current {
-   color: var(--color-text);
+   color: var(--brand-blue-1);
    font-weight: 600;
+}
+[data-theme="dark"] .sk-lang-item.is-current {
+   color: #6BB6FF;
 }
 .sk-lang-item-code {
    font-family: var(--font-heading);
@@ -329,7 +332,8 @@ em.brand-tail {
    font-size: 0.75rem;
    color: var(--color-text-muted);
 }
-.sk-lang-item.is-current .sk-lang-item-code { color: var(--color-accent); }
+.sk-lang-item.is-current .sk-lang-item-code { color: var(--brand-blue-1); }
+[data-theme="dark"] .sk-lang-item.is-current .sk-lang-item-code { color: #6BB6FF; }
 
 /* The nav uses a 2rem gap between its children. Pull the theme toggle
    closer to the language picker so they read as one control cluster. */
