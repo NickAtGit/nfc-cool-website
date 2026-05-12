@@ -5,13 +5,14 @@ import SiteKit
 ///
 /// Splits the input on the `·` separator and emits one pill per platform.
 /// Platform detection is case-insensitive substring matching on the label:
-///   - contains "android"            → Android pill
-///   - contains "ios" or "iphone"    → iOS pill
-///   - otherwise                     → generic pill (no icon)
+///   - contains "android"            → Android pill (label normalised to "Android")
+///   - contains "ios" or "iphone"    → iOS pill (label normalised to "iOS")
+///   - otherwise                     → generic pill, label preserved verbatim
 ///
-/// The label text inside each pill is preserved verbatim (so localized variants
-/// like "Nur iOS" render as-is) — this also keeps "iOS" correctly cased without
-/// relying on CSS `text-transform`.
+/// The label is normalised so localized qualifiers ("iOS only", "Nur iOS",
+/// "iOSのみ") all render as the canonical platform name. The qualifier is
+/// already implicit in the chip set — emitting one pill means that platform
+/// only.
 enum PlatformBadge {
    /// Wraps the pill row in a span with `wrapperClass` (which scopes section-specific
    /// spacing — e.g. `landing-feature-platforms`, `feature-hero-platforms`).
@@ -21,17 +22,21 @@ enum PlatformBadge {
          let lower = part.lowercased()
          let icon: String
          let modClass: String
+         let label: String
          if lower.contains("android") {
             icon = androidIconSVG
             modClass = "is-android"
+            label = "Android"
          } else if lower.contains("ios") || lower.contains("iphone") {
             icon = appleIconSVG
             modClass = "is-ios"
+            label = "iOS"
          } else {
             icon = ""
             modClass = "is-other"
+            label = part
          }
-         return "<span class=\"platform-pill \(modClass)\">\(icon)<span class=\"platform-pill-label\">\(part.htmlEscaped)</span></span>"
+         return "<span class=\"platform-pill \(modClass)\">\(icon)<span class=\"platform-pill-label\">\(label.htmlEscaped)</span></span>"
       }
       return "<span class=\"\(wrapperClass)\">\(pills.joined())</span>"
    }
