@@ -20,11 +20,11 @@ Pending content and follow-ups from the round-2 build. Each item below was scaff
 
 - [ ] **Press kit iCloud Drive URL** — replace the `https://www.icloud.com/` placeholder in `Content/Pages/Press.md`, `Press.de.md`, `Press.ja.md`.
 - [ ] **Brand kit iCloud Drive URL** — same files, separate line for the brand-kit link.
-- [ ] **Founder photo** for `/about/` — drop a photo of Nicolo into `Content/Assets/Images/About/` and reference it from `About.md` (+ de, ja).
+- [ ] **Founder photo** for `/about/` — drop a photo of Nicolo into `Content/Assets/images/About/` and reference it from `About.md` (+ de, ja).
 
 ## Product imagery
 
-- [ ] **Replace iPad Tools-iOS screenshots with iPhone exports** — `iTunes Lookup` currently returns iPad-only. Drop iPhone screenshots into `Content/Assets/Images/Tools-iOS/Screenshot-N.png` (8 slots).
+- [ ] **Replace iPad Tools-iOS screenshots with iPhone exports** — `iTunes Lookup` currently returns iPad-only. Drop iPhone screenshots into `Content/Assets/images/Tools-iOS/Screenshot-N.png` (8 slots).
 - [ ] **Business Card icon (flat 1024 px PNG)** — the Xcode 16 layered icon at `~/Developer/DigitalBusinessCardApp/AppIcon.icon/` can't be flattened by shell tools. Need a manual export.
 - [ ] **3-5 additional feature-page screenshots per feature** — current pages have 2 each (`Webflow/*.webp` + Tools-iOS shots). The plan calls for 3-5 product-accurate shots showing each feature in real use:
    - `/features/nfc-reader-writer/` — additional reader/writer in-app shots
@@ -78,7 +78,32 @@ The 5 most-recent posts from blog.nfc.cool are migrated in full English. Remaini
 - [ ] **Press page** — add brand color swatches, typography spec, do/don't logo usage examples. (`Content/Pages/Press.md` + de, ja.)
 - [ ] **Terms** — add jurisdiction (Portugal), IP ownership, refund policy reference. (`Content/Pages/Terms.md` + de, ja.)
 - [ ] **Impressum (beyond postal address)** — VAT/Steuernummer placeholder, EU Online Dispute Resolution link.
-- [ ] **Business Card page** — screenshots gallery from `Content/Assets/Images/BusinessCard/`, iOS-vs-Android comparison table, AppClip demo link.
+- [ ] **Business Card page** — screenshots gallery from `Content/Assets/images/BusinessCard/`, iOS-vs-Android comparison table, AppClip demo link.
+
+## Mobile-app & SEO files (parity with the live Webflow site)
+
+Audited against `https://www.nfc.cool` and `https://nfc.cool/.well-known/...` on 2026-05-12.
+
+- [ ] **Apple App Site Association** — the live site serves a working AASA at `https://nfc.cool/.well-known/apple-app-site-association`. Recreate it in the new build so Universal Links + the Business Card AppClip keep working. Drop the file at `Content/Assets/.well-known/apple-app-site-association` (no extension, served as `application/json`). Current content:
+   ```json
+   {
+     "applinks": { "apps": [], "details": [{ "appID": "FMXL9R3NPC.de.nicolo-stanciu.nfcing", "paths": ["/*"] }] },
+     "appclips": { "apps": ["FMXL9R3NPC.io.stanc.DigitalBusinessCardApp.Clip"] },
+     "webcredentials": { "apps": ["FMXL9R3NPC.de.nicolo-stanciu.nfcing"] }
+   }
+   ```
+- [ ] **`app-ads.txt`** — live site has a single AdMob entry. Add `Content/Assets/app-ads.txt` (copied to site root):
+   ```
+   google.com, pub-2698788927130711, DIRECT, f08c47fec0942fa0
+   ```
+- [ ] **Android `assetlinks.json`** — not present on the live site (404). If the Android Tools app uses App Links to open NFC.cool URLs, add `Content/Assets/.well-known/assetlinks.json` with the SHA-256 cert fingerprints from Play Console → "App signing".
+- [ ] **Google Search Console verification** — live `<head>` has `<meta name="google-site-verification" content="8Deh-qJD2ZKg_mAjM5-dMRDWS15XcUiIc6w4h9fL9-U"/>`. Add it to `SiteConfig.yaml` (or the site-wide `<head>` extra-meta hook) so Search Console keeps verifying after the cutover.
+- [ ] **Twitter / Open Graph image** — live site uses a single hero card (`twitter:image` on a Shopify CDN URL, plus `twitter:site=@NFC_for_iPhone`, `twitter:image:alt="3 Phones Networking Showing NFC.cool App & NFC.cool Products"`). Decide on a brand-correct 1200×630 OG image, drop it in `Content/Assets/images/` and wire it into `SiteConfig.yaml`.
+- [ ] **Replace press-kit / brand-kit placeholders with real iCloud Drive URLs** (see `Content/Pages/Press.{md,de.md,ja.md}` — the live Webflow site links:
+   - Press Kit: `https://www.icloud.com/iclouddrive/0e7Gy46aFsq8U2kqEyIs9Wleg#NFC.cool_Press_Kit`
+   - Brand Kit: `https://www.icloud.com/iclouddrive/0ebMuI8X63LN-CiUiF8YlVb2A#NFC.cool_Brand_Kit`
+- [ ] **Webflow ecommerce-leftover redirects** — `redirects.yaml` is missing entries for `/shipping-and-returns`, `/newsletter`, `/affiliate-links`. Decide where each should land (probably `/` and `/#newsletter`) and add them so old inbound links don't 404.
+- [ ] **Install ImageMagick on CI** — `.github/workflows/deploy.yml` doesn't install `imagemagick`, so `srcset` variants like `Screenshot-1-900w.jpg` are silently skipped in production builds. Add `sudo apt-get install -y imagemagick` before the Swift build step.
 
 ## Verification (do this before launch)
 
