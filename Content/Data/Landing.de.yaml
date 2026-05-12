@@ -52,7 +52,7 @@ features:
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "Eine eigenständige Visitenkarten-App fürs iPhone - teile sie per NFC-Tipp, QR-Code, AppClip oder Apple Wallet. Sieh, wer deine Karte speichert, organisiere Leads und nutze den Konferenzmodus auf Events. Auf Android sind die gleichen Funktionen direkt in NFC.cool Tools integriert."
-  imagePath: "/assets/images/BusinessCard/Screenshot-1.jpg"
+  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
   # iOS: eigenständige NFC.cool Business Card App
   appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
   # Android: Visitenkarten-Funktionen sind in NFC.cool Tools enthalten

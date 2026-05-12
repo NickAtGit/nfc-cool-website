@@ -2,7 +2,7 @@
 title: "NFC.cool Business Card"
 slug: "business-card"
 description: "iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppClip、Apple Walletで共有可能。誰がカードを保存したかをトラッキングし、ライブイベントでConference Modeを実行できます。"
-image: "/assets/images/BusinessCard/Screenshot-1.jpg"
+image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
 <section class="page-hero">
@@ -27,7 +27,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 </div>
 
 <div class="page-hero-visual">
-<img src="/assets/images/BusinessCard/Screenshot-1.jpg" alt="NFC.cool Business Card - メイン画面" loading="eager" fetchpriority="high"/>
+<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="NFC.cool Business Card — 名前、写真、SNSリンクを表示したプロフィール" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>
@@ -37,10 +37,9 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 <section class="page-section page-section--gallery">
 
 <div class="page-gallery">
-<img src="/assets/images/BusinessCard/Screenshot-3.jpg" alt="NFC.cool Business Card - NFCタッチで共有" loading="lazy"/>
-<img src="/assets/images/BusinessCard/Screenshot-5.jpg" alt="NFC.cool Business Card - 誰がカードを保存したかを確認" loading="lazy"/>
-<img src="/assets/images/BusinessCard/Screenshot-7.jpg" alt="NFC.cool Business Card - Conference Mode" loading="lazy"/>
-<img src="/assets/images/BusinessCard/Screenshot-9.jpg" alt="NFC.cool Business Card - AppClipフロー" loading="lazy"/>
+<img src="/assets/images/BusinessCard/01AppClip.webp" alt="iPhoneのロック画面に表示されたAppClipカード — 名刺を相手にすぐ届けるプレビュー" loading="lazy"/>
+<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="名前、写真、SNSリンクを表示したプロフィール" loading="lazy"/>
+<img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="住所、電話番号、メールを表示したプロフィール" loading="lazy"/>
 </div>
 
 </section>

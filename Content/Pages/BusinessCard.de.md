@@ -2,7 +2,7 @@
 title: "NFC.cool Business Card"
 slug: "business-card"
 description: "Eine eigenständige Visitenkarten-App fürs iPhone. Teile sie per NFC-Tipp, QR-Code, AppClip oder Apple Wallet. Sieh, wer deine Karte speichert, und nutze den Konferenzmodus auf Events."
-image: "/assets/images/BusinessCard/Screenshot-1.jpg"
+image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
 <section class="page-hero">
@@ -27,7 +27,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 </div>
 
 <div class="page-hero-visual">
-<img src="/assets/images/BusinessCard/Screenshot-1.jpg" alt="NFC.cool Business Card - Hauptansicht" loading="eager" fetchpriority="high"/>
+<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="NFC.cool Business Card Profilansicht mit Name, Foto und Social-Media-Links" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>
@@ -37,10 +37,9 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 <section class="page-section page-section--gallery">
 
 <div class="page-gallery">
-<img src="/assets/images/BusinessCard/Screenshot-3.jpg" alt="NFC.cool Business Card - per NFC-Tipp teilen" loading="lazy"/>
-<img src="/assets/images/BusinessCard/Screenshot-5.jpg" alt="NFC.cool Business Card - sehen, wer deine Karte gespeichert hat" loading="lazy"/>
-<img src="/assets/images/BusinessCard/Screenshot-7.jpg" alt="NFC.cool Business Card - Konferenzmodus" loading="lazy"/>
-<img src="/assets/images/BusinessCard/Screenshot-9.jpg" alt="NFC.cool Business Card - AppClip-Ablauf" loading="lazy"/>
+<img src="/assets/images/BusinessCard/01AppClip.webp" alt="AppClip-Karte auf dem iPhone-Sperrbildschirm — freundlicher Empfangsgruß und Business-Card-Vorschau" loading="lazy"/>
+<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="Profilansicht mit Name, Foto und Social-Media-Links" loading="lazy"/>
+<img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="Profilansicht mit Adresse, Telefonnummer und E-Mail" loading="lazy"/>
 </div>
 
 </section>

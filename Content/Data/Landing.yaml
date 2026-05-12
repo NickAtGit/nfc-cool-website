@@ -52,7 +52,7 @@ features:
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "A dedicated Digital Business Card app for iPhone - share via NFC tap, QR code, AppClip, or Apple Wallet. Track who saves your card, organize leads, and switch on Conference Mode for live events. On Android, the same features are bundled inside NFC.cool Tools."
-  imagePath: "/assets/images/BusinessCard/Screenshot-1.jpg"
+  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
   # iOS: dedicated NFC.cool Business Card app (App Store id 6502926572)
   appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
   # Android: business card features are bundled in NFC.cool Tools

@@ -2,7 +2,7 @@
 title: "NFC.cool Business Card"
 slug: "business-card"
 description: "A dedicated Digital Business Card app for iPhone. Share via NFC tap, QR code, AppClip or Apple Wallet. Track who saves your card, run Conference Mode at live events."
-image: "/assets/images/BusinessCard/Screenshot-1.jpg"
+image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
 <section class="page-hero">
@@ -27,7 +27,7 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 </div>
 
 <div class="page-hero-visual">
-<img src="/assets/images/BusinessCard/Screenshot-1.jpg" alt="NFC.cool Business Card main view" loading="eager" fetchpriority="high"/>
+<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="NFC.cool Business Card profile view with name, photo and social media links" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>
@@ -37,10 +37,9 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 <section class="page-section page-section--gallery">
 
 <div class="page-gallery">
-<img src="/assets/images/BusinessCard/Screenshot-3.jpg" alt="NFC.cool Business Card - share via NFC tap" loading="lazy"/>
-<img src="/assets/images/BusinessCard/Screenshot-5.jpg" alt="NFC.cool Business Card - track who saved your card" loading="lazy"/>
-<img src="/assets/images/BusinessCard/Screenshot-7.jpg" alt="NFC.cool Business Card - Conference Mode" loading="lazy"/>
-<img src="/assets/images/BusinessCard/Screenshot-9.jpg" alt="NFC.cool Business Card - AppClip flow" loading="lazy"/>
+<img src="/assets/images/BusinessCard/01AppClip.webp" alt="AppClip card on the iPhone Lock Screen — Nice to meet you, Here is my Business Card" loading="lazy"/>
+<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="Profile view with name, photo, and social media links" loading="lazy"/>
+<img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="Profile view with address, phone number, and email" loading="lazy"/>
 </div>
 
 </section>
