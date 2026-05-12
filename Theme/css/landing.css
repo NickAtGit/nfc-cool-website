@@ -925,13 +925,13 @@
 }
 
 /* For transparent-background mockups (framed iPhone product shots),
-   sit them inside a brand-blue rounded card on the gradient hero so
-   the subject doesn't float disembodied. Uses the same blue family as
-   the hero (--brand-blue-1) instead of a whitish overlay that would
-   lighten the gradient to a different tone. */
+   define the "blue box" with just a border + shadow and let the hero
+   gradient flow through. This guarantees the box's blue matches the
+   surrounding hero exactly at every vertical position, instead of a
+   solid panel that only matches one stop of the gradient. */
 .page-hero-visual.is-framed {
-   background: var(--brand-blue-1);
-   border: 1px solid rgba(255, 255, 255, 0.18);
+   background: transparent;
+   border: 1px solid rgba(255, 255, 255, 0.22);
    border-radius: 36px;
    padding: clamp(1rem, 2.5vw, 1.75rem);
    box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.45), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
