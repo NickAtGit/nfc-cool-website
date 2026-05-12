@@ -1484,18 +1484,17 @@
    font-size: 0.8125rem;
    padding: 0.35rem 0.8rem 0.35rem 0.65rem;
 }
-/* Platform pills on the gradient hero — the default tinted-on-light treatment
-   blends into the blue background. Swap to a frosted-white chip with high
-   contrast so iOS / Android are clearly readable. */
+/* Platform pills on the gradient hero — outlined treatment: transparent fill,
+   white border + label so they read cleanly against the blue gradient. */
 .page-hero .platform-pill,
 .page-hero .platform-pill.is-ios,
 .page-hero .platform-pill.is-android {
-   background: rgba(255, 255, 255, 0.96);
-   color: #0E1116;
-   border-color: rgba(255, 255, 255, 0.96);
+   background: transparent;
+   color: #FFFFFF;
+   border: 1px solid rgba(255, 255, 255, 0.65);
 }
-.page-hero .platform-pill.is-ios .platform-pill-icon { color: #000000; }
-.page-hero .platform-pill.is-android .platform-pill-icon { color: #3DDC84; }
+.page-hero .platform-pill.is-ios .platform-pill-icon,
+.page-hero .platform-pill.is-android .platform-pill-icon { color: #FFFFFF; }
 
 .feature-capabilities {
    padding: clamp(3rem, 6vw, 5rem) 0;
