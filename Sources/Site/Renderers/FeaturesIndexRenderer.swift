@@ -111,7 +111,7 @@ struct FeaturesIndexRenderer: Renderer {
                   <div class="landing-hero-actions">\(self.renderStoreButtons(appStoreURL: toolsAppStoreURL, googlePlayURL: toolsGooglePlayURL))</div>
                </div>
                <div class="page-hero-visual">
-                  <img src="/assets/images/Webflow/hero-brand.webp" alt="\(title.htmlEscaped)" loading="eager" fetchpriority="high"/>
+                  <img src="/assets/images/Webflow/qr-studio.webp" alt="\(title.htmlEscaped)" loading="eager" fetchpriority="high"/>
                </div>
             </div>
          </section>
