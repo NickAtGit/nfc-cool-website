@@ -145,7 +145,8 @@
 }
 .landing-feature-grid .landing-section-title,
 .landing-feature-banner .landing-section-title,
-.landing-faq .landing-section-title {
+.landing-faq .landing-section-title,
+.landing-reviews .landing-section-title {
    font-family: var(--font-heading);
    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
    font-weight: 700;
@@ -1000,7 +1001,8 @@
    margin-right: auto;
 }
 
-/* Section title — centred, larger, matches landing-section-title */
+/* Section title — left-aligned to match the landing feature-grid /
+   feature-banner / faq / reviews section titles. */
 .page-section h2 {
    font-family: var(--font-heading);
    font-weight: 700;
@@ -1008,8 +1010,8 @@
    line-height: 1.15;
    letter-spacing: -0.015em;
    color: var(--color-text);
-   margin: 0 auto 2rem;
-   text-align: center;
+   margin: 0 0 2rem;
+   text-align: left;
    max-width: var(--max-width);
 }
 .page-section h3 {
