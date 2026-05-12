@@ -110,8 +110,8 @@ struct FeaturesIndexRenderer: Renderer {
                   <p>\(subtitle.htmlEscaped)</p>
                   <div class="landing-hero-actions">\(self.renderStoreButtons(appStoreURL: toolsAppStoreURL, googlePlayURL: toolsGooglePlayURL))</div>
                </div>
-               <div class="page-hero-visual is-brand">
-                  <img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="NFC.cool" loading="eager" fetchpriority="high"/>
+               <div class="page-hero-visual">
+                  <img src="/assets/images/Webflow/hero-brand.webp" alt="\(title.htmlEscaped)" loading="eager" fetchpriority="high"/>
                </div>
             </div>
          </section>
