@@ -55,13 +55,13 @@ struct FeaturePageRenderer: Renderer {
             }
          )
 
-         let appStoreURL = feature.appStoreURL ?? "https://ios.nfc.cool"
-         let googlePlayURL = feature.googlePlayURL ?? "https://android.nfc.cool"
+         let appStoreURL = feature.appStoreURL ?? "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_\(locale)&mt=8"
+         let googlePlayURL = feature.googlePlayURL ?? "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_\(locale)"
          let backLinkText = feature.backLinkText ?? "← All features"
          let featuresIndexPath = "\(basePath)features/"
 
          var sections: [String] = []
-         sections.append(self.renderHero(feature.hero, slug: slug, backLinkText: backLinkText, backHref: featuresIndexPath))
+         sections.append(self.renderHero(feature.hero, slug: slug, backLinkText: backLinkText, backHref: featuresIndexPath, appStoreURL: appStoreURL, googlePlayURL: googlePlayURL))
          if let capabilities = feature.capabilities, !capabilities.isEmpty {
             sections.append(self.renderCapabilities(capabilities, title: feature.capabilitiesTitle))
          }
@@ -109,30 +109,50 @@ struct FeaturePageRenderer: Renderer {
 
    // MARK: - Sections
 
-   private func renderHero(_ hero: FeatureHero, slug: String, backLinkText: String, backHref: String) -> String {
+   private func renderHero(_ hero: FeatureHero, slug: String, backLinkText: String, backHref: String, appStoreURL: String, googlePlayURL: String?) -> String {
       let platformsHTML: String = {
          guard let platforms = hero.platforms else { return "" }
          return PlatformBadge.render(platforms: platforms, wrapperClass: "feature-hero-platforms")
       }()
       let imageHTML: String = {
          guard let path = hero.heroImagePath else { return "" }
-         return "<div class=\"feature-hero-visual\"><img src=\"\(path)\" alt=\"\(hero.title.htmlEscaped)\" loading=\"eager\" fetchpriority=\"high\"/></div>"
+         return "<div class=\"page-hero-visual\"><img src=\"\(path)\" alt=\"\(hero.title.htmlEscaped)\" loading=\"eager\" fetchpriority=\"high\"/></div>"
       }()
+      let storeButtons = self.renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL)
       return """
-      <section class="feature-hero">
-         <div class="landing-container">
-            <p class="feature-breadcrumb"><a href="\(backHref)">\(backLinkText.htmlEscaped)</a></p>
-            <div class="feature-hero-grid">
-               <div class="feature-hero-text">
-                  \(platformsHTML)
-                  <h1 class="feature-hero-title">\(hero.title.htmlEscaped)</h1>
-                  <p class="feature-hero-subtitle">\(hero.subtitle.htmlEscaped)</p>
-               </div>
-               \(imageHTML)
+      <section class="page-hero">
+         <div class="page-hero-grid landing-container">
+            <div class="page-hero-text">
+               <p class="feature-breadcrumb"><a href="\(backHref)">\(backLinkText.htmlEscaped)</a></p>
+               \(platformsHTML)
+               <h1>\(hero.title.htmlEscaped)</h1>
+               <p>\(hero.subtitle.htmlEscaped)</p>
+               <div class="landing-hero-actions">\(storeButtons)</div>
             </div>
+            \(imageHTML)
          </div>
       </section>
       """
+   }
+
+   /// App Store + Google Play badge pair, identical markup to the landing
+   /// hero so styling matches. URLs are expected to be fully-formed campaign
+   /// links (see Content/Data/Features/*.yaml).
+   private func renderStoreButtons(appStoreURL: String, googlePlayURL: String?) -> String {
+      var buttons: [String] = []
+      buttons.append("""
+         <a href="\(appStoreURL)" class="landing-store-button is-apple" aria-label="Download on the App Store">
+            <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
+         </a>
+         """)
+      if let url = googlePlayURL {
+         buttons.append("""
+            <a href="\(url)" class="landing-store-button is-google" aria-label="Get it on Google Play">
+               <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
+            </a>
+            """)
+      }
+      return "<div class=\"landing-store-buttons\">\(buttons.joined())</div>"
    }
 
    private func renderCapabilities(_ capabilities: [FeatureCapability], title: String?) -> String {
