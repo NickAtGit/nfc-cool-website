@@ -1,0 +1,62 @@
+slug: "3d-room-scanner"
+appStoreURL: "https://ios.nfc.cool"
+backLinkText: "← All features"
+
+hero:
+  title: "3D Object & Room Scanning"
+  subtitle: "Photogrammetry for high-fidelity 3D models of objects. LiDAR-powered RoomPlan for clean floor plans that automatically detect doors, windows, and furniture. Export to USDZ, OBJ, STL, PLY for 3D printing or AR."
+  platforms: "iOS only"
+  heroImagePath: "/assets/images/Webflow/3d-room.webp"
+
+capabilitiesTitle: "What you can do"
+capabilities:
+  - title: "Object scanning (photogrammetry)"
+    description: "Walk around an object capturing 30-100 photos. The on-device photogrammetry pipeline reconstructs a textured 3D model with realistic geometry."
+  - title: "Room scanning (LiDAR)"
+    description: "Walk through a room with your iPhone's LiDAR sensor; NFC.cool builds a parametric model with walls, doors, windows, and recognized furniture as a clean USDZ scene."
+  - title: "Edit & refine"
+    description: "Trim noise, smooth meshes, simplify geometry, or strip textures. Preview in 3D before export."
+  - title: "Export anywhere"
+    description: "USDZ for AR Quick Look, STL for 3D printing, OBJ/PLY for Blender, USD/ABC for production pipelines. Choose vertex precision and texture resolution."
+  - title: "AR Quick Look"
+    description: "Drop any scanned object into your living room via AR Quick Look. Share USDZ files with friends - they can view them right in Messages."
+
+screenshots:
+  - path: "/assets/images/Webflow/3d-room.webp"
+    alt: "Scanning a room with LiDAR"
+  - path: "/assets/images/Webflow/3d-object.webp"
+    alt: "Capturing an object with photogrammetry"
+
+specsTitle: "Hardware & export"
+specs:
+  - title: "Hardware requirements"
+    items:
+      - "Object scanning: any iPhone with iOS 17+ and adequate compute"
+      - "Room scanning: iPhone with LiDAR (12 Pro and newer Pro models)"
+      - "iPad Pro 2020+ also supports both modes"
+  - title: "Object output"
+    items:
+      - "USDZ (AR Quick Look)"
+      - "OBJ + MTL with textures"
+      - "STL (binary or ASCII)"
+      - "PLY (point cloud + mesh)"
+      - "USD for production pipelines"
+  - title: "Room output"
+    items:
+      - "USDZ scene with named entities"
+      - "Walls, doors, windows, openings"
+      - "Recognized furniture categories"
+      - "Floor area and dimensions"
+
+faqTitle: "Frequently asked"
+faq:
+  - question: "Do I need LiDAR for object scanning?"
+    answer: "No - Object Scanning works via photogrammetry on any modern iPhone. LiDAR is only required for Room Scanning (RoomPlan)."
+  - question: "How long does a scan take?"
+    answer: "Object scanning: a few minutes to capture 30–100 photos, then 2–5 minutes of on-device reconstruction. Room scanning: just walk through the room, the result is instant."
+  - question: "Can I 3D-print the results?"
+    answer: "Yes - export to STL and load into your slicer of choice. We recommend the simplify/smooth step before printing to reduce vertex count."
+
+cta:
+  title: "Capture the world in 3D."
+  buttonText: "Download for iOS"

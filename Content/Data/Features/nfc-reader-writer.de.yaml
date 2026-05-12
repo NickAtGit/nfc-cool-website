@@ -1,0 +1,63 @@
+slug: "nfc-reader-writer"
+appStoreURL: "https://ios.nfc.cool"
+googlePlayURL: "https://android.nfc.cool"
+backLinkText: "← Alle Funktionen"
+
+hero:
+  title: "NFC lesen & schreiben"
+  subtitle: "Lies jeden NFC-Tag und schreibe über 25 Nachrichtenarten. Schütze Geheimes mit NFC Safe (256-Bit-AES). Sperre und passwortschütze Tags, damit sie nicht manipuliert werden können."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+
+capabilitiesTitle: "Was du machen kannst"
+capabilities:
+  - title: "Jeden NDEF-Tag lesen"
+    description: "Tippe einen NFC-Tag an, um seine NDEF-Records zu lesen - URLs, Kontakte, Text, MIME-Daten, App-Verknüpfungen, eigene Payloads. Inspiziere Technik-Typen und Roh-Bytes."
+  - title: "Über 25 Nachrichtenarten schreiben"
+    description: "Webseiten, Telefonnummern, vCards, WLAN-Zugangsdaten, Apple-Pay- und PayPal-Links, Spotify, Apple Music, YouTube, Kurzbefehle, Instagram, X, Threads, LinkedIn, Mastodon - und mehr."
+  - title: "NFC Safe (verschlüsselt)"
+    description: "Speichere Geheimnisse wie Passwörter oder Wiederherstellungs-Codes auf einem Tag mit 256-Bit-AES-Verschlüsselung. Nur deine Passphrase entschlüsselt - selbst ein gestohlener Tag ist unlesbar."
+  - title: "Sperren & Passwortschutz"
+    description: "Mache einen Tag schreibgeschützt, damit er nie überschrieben werden kann, oder passwortschütze ihn, damit nur autorisierte Geräte lesen oder schreiben können. Industrietaugliches Tag-Management."
+  - title: "Formatieren & Batch-Schreiben"
+    description: "Formatiere leere Tags, schreibe denselben Inhalt im Stapel auf viele Tags für Events oder Produkt-Launches und klone den Inhalt eines Tags auf einen anderen."
+
+screenshots:
+  - path: "/assets/images/Webflow/nfc-card.webp"
+    alt: "NFC-Tag-Lesevorgang in NFC.cool"
+  - path: "/assets/images/Webflow/nfc-scan-tag.webp"
+    alt: "NFC-Sticker scannen"
+
+specsTitle: "Unterstützte Tags & Technologien"
+specs:
+  - title: "Tag-Familien"
+    items:
+      - "NFC Forum Typ 1, 2, 3, 4, 5"
+      - "NTAG 213, 215, 216, 424 DNA"
+      - "MIFARE Classic, MIFARE Ultralight, MIFARE DESFire"
+      - "ISO 14443 A/B, ISO 15693, FeliCa"
+  - title: "Record-Typen"
+    items:
+      - "URI, Text, vCard, WLAN"
+      - "Bluetooth-Pairing"
+      - "Smart Poster, MIME"
+      - "App-Start (URI)"
+      - "Verschlüsselte Payload (NFC.cool Safe)"
+  - title: "Plattform-Hinweise"
+    items:
+      - "iOS 14+ (Hintergrund-NFC ab iPhone XS)"
+      - "Android 6+ mit NFC-Hardware"
+      - "iOS-NFC-Schreibvorgänge benötigen Core-NFC-Berechtigungen (die App kümmert sich darum)"
+
+faqTitle: "Häufige Fragen"
+faq:
+  - question: "Muss mein iPhone entsperrt sein, um einen Tag zu lesen?"
+    answer: "Für die meisten Scans ja, aber iPhone XS und neuer können NDEF-Tags im Hintergrund vom Sperrbildschirm lesen - ohne App-Start."
+  - question: "Kann ich einen Tag ohne Internet lesen?"
+    answer: "Ja. NFC-Lesevorgänge passieren komplett auf dem Gerät. NFC.cool überträgt Tag-Inhalte nie an einen Server."
+  - question: "Ist das Beschreiben von NFC-Tags sicher?"
+    answer: "Das Schreiben ist standardmäßig sicher und reversibel. Nutze die Sperr-Funktion nur, wenn du sicher bist - ein dauerhaft gesperrter Tag kann nicht mehr neu beschrieben werden."
+
+cta:
+  title: "Bereit zum Antippen?"
+  buttonText: "NFC.cool Tools herunterladen"

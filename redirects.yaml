@@ -1,0 +1,58 @@
+# Webflow → SiteKit URL map.
+# Consumed by SiteKit's RedirectRenderer (emits `_redirects` for Cloudflare Pages
+# + HTMLRedirectPageRenderer fallback pages for any host that doesn't honour `_redirects`).
+#
+# `from` is the legacy URL on the old Webflow site (path-only, since we map within nfc.cool).
+# `to`   is the new path on this SiteKit-driven site.
+
+redirects:
+  # ----- Webflow feature subpages → new /features/ pages -----
+  - from: "/nfc-reader-writer"
+    to: "/features/nfc-reader-writer/"
+  - from: "/qr-barcode-scanner"
+    to: "/features/qr-barcode-scanner/"
+  - from: "/document-scanner"
+    to: "/features/document-scanner/"
+  - from: "/3d-room-scanner"
+    to: "/features/3d-room-scanner/"
+  - from: "/webhook"
+    to: "/features/webhooks/"
+
+  # ----- Webflow blog post URLs → migrated SiteKit posts -----
+  - from: "/post/openprinttag-support-nfc-cool-ios"
+    to: "/blog/openprinttag-support/"
+  - from: "/post/building-a-great-app-clip-experience-lessons-from-nfc-cool-business-card"
+    to: "/blog/app-clip-lessons-from-business-card/"
+  - from: "/post/why-cant-my-iphone-open-my-condos-rfid-door-understanding-nfc-vs-rfid"
+    to: "/blog/iphone-rfid-condo-doors/"
+  - from: "/post/understanding-the-different-types-of-nfc-tags-and-their-suitability-for-iphones"
+    to: "/blog/nfc-tag-types-for-iphones/"
+  - from: "/post/exploring-namedrops-elegance-and-the-enduring-edge-of-nfc-business-cards"
+    to: "/blog/namedrop-vs-nfc-business-cards/"
+
+  # ----- Posts not yet migrated → fall back to the blog index for now -----
+  # When each is migrated, change the `to` to the new /blog/{slug}/ path.
+  - from: "/post/tapping-into-the-magic-of-nfc-on-iphones-an-insiders-look"
+    to: "/blog/"
+  - from: "/post/breaking-free-from-monotony---adding-flair-to-qr-codes"
+    to: "/blog/"
+  - from: "/post/tap-scan-thrive-nfc-cools-qr-code-symphony-in-the-digital-age"
+    to: "/blog/"
+  - from: "/post/nfc-cool-app---now-available-on-play-store"
+    to: "/blog/"
+  - from: "/post/nfc-cools-guide-to-document-scanning-pocket-ready-and-power-packed"
+    to: "/blog/"
+  - from: "/post/the-cutting-edge-3d-scan-feature-redefining-object-visualization-and-printing"
+    to: "/blog/"
+  - from: "/post/elevating-the-experience-business-card-service"
+    to: "/blog/"
+  - from: "/post/nfc-cool-app-presentation-podcast"
+    to: "/blog/"
+
+  # ----- Webflow top-level pages → new equivalents -----
+  # Note: /contact already exists as a real page, so no path-level redirect is
+  # needed for it. Cloudflare's `_redirects` handles trailing-slash normalisation.
+  - from: "/terms-and-conditions"
+    to: "/terms/"
+  - from: "/privacy-policy"
+    to: "/privacy/"

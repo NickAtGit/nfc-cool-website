@@ -17,7 +17,7 @@ tokens:
    colorAccent:        { any: "#FFC709", dark: "#FFC709" }
    colorAccentHover:   { any: "#E6B400", dark: "#FFD93D" }
    colorAccentLight:   { any: "rgba(255,199,9,0.12)", dark: "rgba(255,199,9,0.18)" }
-   colorBg:            { any: "#FFFFFF", dark: "#0E1116" }
+   colorBg:            { any: "#F5F6F8", dark: "#161B22" }
    colorBgAlt:         { any: "#F5F6F8", dark: "#161B22" }
    colorBgCard:        { any: "#FFFFFF", dark: "#1C2128" }
    colorText:          { any: "#212529", dark: "#F0F2F5" }

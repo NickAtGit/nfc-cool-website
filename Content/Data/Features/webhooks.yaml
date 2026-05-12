@@ -1,0 +1,66 @@
+slug: "webhooks"
+appStoreURL: "https://ios.nfc.cool"
+googlePlayURL: "https://android.nfc.cool"
+backLinkText: "← All features"
+
+hero:
+  title: "Webhooks & Automation"
+  subtitle: "Pipe scanned NFC and QR data straight to your own server in real time. Build paperless workflows, sync with CRMs, fire off Zapier automations. NFC.cool is the scanner; you own the data."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/webhook.webp"
+
+capabilitiesTitle: "What you can do"
+capabilities:
+  - title: "POST scans to any URL"
+    description: "Configure one or more webhook endpoints; each scan triggers an HTTP POST with structured JSON containing the payload, timestamp, tag UID, and any metadata you've attached."
+  - title: "Filter by tag or payload"
+    description: "Route specific tag UIDs or payload patterns to specific endpoints. One tag fires Slack; another updates your inventory system. Build it however you want."
+  - title: "Custom headers & auth"
+    description: "Add Authorization, X-API-Key, or any custom headers. Authenticate against your own service without exposing secrets to NFC.cool."
+  - title: "Retry & queue"
+    description: "If the network is flaky, NFC.cool queues failed POSTs and retries with exponential backoff. Your scan log never gets lost."
+  - title: "Privacy stays first"
+    description: "NFC.cool never sees the data after it leaves your device. There is no NFC.cool account, no upload to our servers, no analytics on your scans."
+
+screenshots:
+  - path: "/assets/images/Webflow/webhook.webp"
+    alt: "Configuring a webhook endpoint"
+  - path: "/assets/images/Tools-iOS/Screenshot-6.png"
+    alt: "Triggering a webhook from a scan"
+
+specsTitle: "Technical details"
+specs:
+  - title: "HTTP transport"
+    items:
+      - "HTTPS only (TLS 1.2+)"
+      - "POST with JSON body"
+      - "Up to 32 KB payload per request"
+      - "Custom headers supported"
+  - title: "Payload format"
+    items:
+      - "`type`: nfc | qr | barcode"
+      - "`payload`: decoded content"
+      - "`uid`: tag/code identifier"
+      - "`timestamp`: ISO 8601"
+      - "`device`: optional device label"
+  - title: "Reliability"
+    items:
+      - "Local queue for offline scans"
+      - "Exponential retry (max 5 attempts)"
+      - "Per-endpoint enable/disable"
+      - "Manual replay from history"
+
+faqTitle: "Frequently asked"
+faq:
+  - question: "Does this work on Android?"
+    answer: "Yes - webhooks are available on both iOS and Android versions of NFC.cool Tools."
+  - question: "Can multiple endpoints fire on a single scan?"
+    answer: "Yes. Each enabled webhook receives the event independently. Filter rules let you decide which payloads hit which endpoint."
+  - question: "Is there a rate limit?"
+    answer: "NFC.cool itself doesn't rate-limit, but most receiving services do. Use webhook filtering to avoid spamming endpoints with irrelevant scans."
+  - question: "What if my server is offline?"
+    answer: "Failed POSTs queue locally on the device and retry with exponential backoff. You can also replay any past scan from the history view at any time."
+
+cta:
+  title: "Wire scans into your workflow."
+  buttonText: "Get NFC.cool"

@@ -1,0 +1,63 @@
+slug: "nfc-reader-writer"
+appStoreURL: "https://ios.nfc.cool"
+googlePlayURL: "https://android.nfc.cool"
+backLinkText: "← All features"
+
+hero:
+  title: "NFC Reader & Writer"
+  subtitle: "Read any NFC tag and write more than 25 message types. Encrypt secrets with NFC Safe (256-bit AES). Lock and password-protect tags so they can't be tampered with."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+
+capabilitiesTitle: "What you can do"
+capabilities:
+  - title: "Read every NDEF tag"
+    description: "Tap any NFC tag to read its NDEF records - URLs, contacts, plain text, MIME data, applications, custom payloads. Inspect tech types and raw bytes."
+  - title: "Write 25+ message types"
+    description: "Websites, phone numbers, vCards, Wi-Fi credentials, Apple Pay & PayPal links, Spotify, Apple Music, YouTube, Shortcuts, Instagram, X, Threads, LinkedIn, Mastodon - and more."
+  - title: "NFC Safe (encrypted)"
+    description: "Store secrets like passwords or recovery phrases on a tag with 256-bit AES encryption. Only your passphrase unlocks the payload - even a stolen tag is unreadable."
+  - title: "Lock & password-protect"
+    description: "Make a tag read-only so its contents can never be overwritten, or password-protect it so only authorised devices can read or write. Industrial-grade tag management."
+  - title: "Format & batch-write"
+    description: "Format empty tags, batch-write the same payload to a stack of tags for events or product launches, and clone the contents of one tag to another."
+
+screenshots:
+  - path: "/assets/images/Webflow/nfc-card.webp"
+    alt: "Reading an NFC tag in NFC.cool"
+  - path: "/assets/images/Webflow/nfc-scan-tag.webp"
+    alt: "Scanning an NFC sticker"
+
+specsTitle: "Supported tags & technologies"
+specs:
+  - title: "Tag families"
+    items:
+      - "NFC Forum Type 1, 2, 3, 4, 5"
+      - "NTAG 213, 215, 216, 424 DNA"
+      - "MIFARE Classic, MIFARE Ultralight, MIFARE DESFire"
+      - "ISO 14443 A/B, ISO 15693, FeliCa"
+  - title: "Record types"
+    items:
+      - "URI, Text, vCard, Wi-Fi"
+      - "Bluetooth pairing"
+      - "Smart Poster, MIME"
+      - "Application launch (URI)"
+      - "Encrypted payload (NFC.cool Safe)"
+  - title: "Platform notes"
+    items:
+      - "iOS 14+ (background NFC on iPhone XS+)"
+      - "Android 6+ with hardware NFC chip"
+      - "Tag writes from iOS require Core NFC entitlements (handled by the app)"
+
+faqTitle: "Frequently asked"
+faq:
+  - question: "Does my iPhone need to be unlocked to read a tag?"
+    answer: "For most tag scans yes, but iPhone XS and newer can read NDEF tags from the lock screen in the background - no app launch required."
+  - question: "Can I read a tag without an internet connection?"
+    answer: "Yes. NFC reads happen entirely on-device. NFC.cool never uploads tag content to any server."
+  - question: "Is writing NFC tags safe?"
+    answer: "Writing is safe and reversible by default. Use the lock feature only when you're sure - once a tag is permanently locked, it cannot be rewritten."
+
+cta:
+  title: "Ready to start tapping?"
+  buttonText: "Download NFC.cool Tools"

@@ -1,0 +1,64 @@
+slug: "qr-barcode-scanner"
+appStoreURL: "https://ios.nfc.cool"
+backLinkText: "← All features"
+
+hero:
+  title: "QR & Barcode Scanner"
+  subtitle: "Scan QR codes and 25+ Barcode formats with fast batch mode. Detect QR codes in photos. Design custom QR codes with logos, Genmoji, and brand colors in the built-in QR Code Studio."
+  platforms: "iOS only"
+  heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
+
+capabilitiesTitle: "What you can do"
+capabilities:
+  - title: "Universal QR scanning"
+    description: "URLs, vCards, Wi-Fi credentials, calendar events, payments, app store deep-links - NFC.cool detects payload type and offers the right action."
+  - title: "All major Barcode formats"
+    description: "Scan EAN-13, UPC-A/E, Code 128, Code 39, ITF, PDF417, Aztec, Data Matrix and more. Look up products via web search or specific retailers."
+  - title: "Detect QR codes in photos"
+    description: "Pick a screenshot or photo from your library and NFC.cool finds and decodes any QR code inside it - even partially obscured ones."
+  - title: "Batch mode"
+    description: "Scan a stack of barcodes back-to-back without re-aiming. Useful for inventory counts, event check-ins, or library archives."
+  - title: "QR Code Studio"
+    description: "Design QR codes with custom colors, rounded eye patterns, logos in the center, or Genmoji on iOS 18+. Export as SVG or PNG at print-ready resolutions."
+
+screenshots:
+  - path: "/assets/images/Webflow/qr-studio.webp"
+    alt: "QR Code Studio designer"
+  - path: "/assets/images/Webflow/qr-barcode.webp"
+    alt: "Scanning a QR code or barcode"
+
+specsTitle: "Supported formats"
+specs:
+  - title: "2D codes"
+    items:
+      - "QR Code (M1–M4)"
+      - "Micro QR"
+      - "Aztec"
+      - "Data Matrix"
+      - "PDF417"
+  - title: "1D Barcodes"
+    items:
+      - "EAN-13, EAN-8"
+      - "UPC-A, UPC-E"
+      - "Code 128, Code 39, Code 93"
+      - "Interleaved 2 of 5 (ITF)"
+      - "Codabar"
+  - title: "QR Studio export"
+    items:
+      - "SVG (vector)"
+      - "PNG up to 4096×4096"
+      - "Logo overlays up to 30% area"
+      - "Custom eye shapes & frames"
+
+faqTitle: "Frequently asked"
+faq:
+  - question: "Why is this iOS-only?"
+    answer: "The Android version of NFC.cool currently focuses on NFC and the Digital Business Card. QR & Barcode Scanning is on the Android roadmap."
+  - question: "Can I scan multiple codes at once?"
+    answer: "Yes - batch mode keeps the camera open and queues every code it finds. Tap any item in the queue to act on it."
+  - question: "Are the QR codes from the Studio compatible with all readers?"
+    answer: "Yes - they're standard QR codes with optional cosmetic styling. All standard QR readers (including iOS Camera and Google Lens) can decode them."
+
+cta:
+  title: "Scan and design with one tap."
+  buttonText: "Download for iOS"

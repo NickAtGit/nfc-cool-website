@@ -1,0 +1,66 @@
+slug: "webhooks"
+appStoreURL: "https://ios.nfc.cool"
+googlePlayURL: "https://android.nfc.cool"
+backLinkText: "← Alle Funktionen"
+
+hero:
+  title: "Webhooks & Automatisierung"
+  subtitle: "Schicke NFC- und QR-Scan-Daten in Echtzeit direkt an deinen eigenen Server. Baue papierlose Workflows, synchronisiere mit CRMs, löse Zapier-Automatisierungen aus. NFC.cool ist der Scanner; die Daten gehören dir."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/webhook.webp"
+
+capabilitiesTitle: "Was du machen kannst"
+capabilities:
+  - title: "Scans an jede URL POSTen"
+    description: "Konfiguriere einen oder mehrere Webhook-Endpunkte; jeder Scan löst einen HTTP POST mit strukturiertem JSON aus - Payload, Zeitstempel, Tag-UID und jegliche Metadaten, die du angefügt hast."
+  - title: "Nach Tag oder Payload filtern"
+    description: "Leite bestimmte Tag-UIDs oder Payload-Muster an bestimmte Endpunkte. Ein Tag löst Slack aus; ein anderer aktualisiert dein Inventar-System. Du entscheidest die Logik."
+  - title: "Eigene Header & Auth"
+    description: "Füge Authorization, X-API-Key oder beliebige eigene Header hinzu. Authentifiziere dich an deinem Service, ohne Secrets gegenüber NFC.cool offenzulegen."
+  - title: "Retry & Queue"
+    description: "Bei wackliger Verbindung stellt NFC.cool fehlgeschlagene POSTs in eine Warteschlange und versucht es mit exponentiellem Backoff erneut. Dein Scan-Protokoll geht nie verloren."
+  - title: "Datenschutz bleibt zuerst"
+    description: "NFC.cool sieht die Daten nie, nachdem sie dein Gerät verlassen. Kein NFC.cool-Konto, kein Upload zu unseren Servern, kein Analytics auf deine Scans."
+
+screenshots:
+  - path: "/assets/images/Webflow/webhook.webp"
+    alt: "Webhook-Endpunkt konfigurieren"
+  - path: "/assets/images/Tools-iOS/Screenshot-6.png"
+    alt: "Webhook durch einen Scan auslösen"
+
+specsTitle: "Technische Details"
+specs:
+  - title: "HTTP-Transport"
+    items:
+      - "Nur HTTPS (TLS 1.2+)"
+      - "POST mit JSON-Body"
+      - "Bis zu 32 KB Payload pro Anfrage"
+      - "Eigene Header unterstützt"
+  - title: "Payload-Format"
+    items:
+      - "`type`: nfc | qr | barcode"
+      - "`payload`: dekodierter Inhalt"
+      - "`uid`: Tag-/Code-Identifier"
+      - "`timestamp`: ISO 8601"
+      - "`device`: optionales Gerätelabel"
+  - title: "Zuverlässigkeit"
+    items:
+      - "Lokale Warteschlange für Offline-Scans"
+      - "Exponentieller Retry (max. 5 Versuche)"
+      - "Pro-Endpunkt aktivieren/deaktivieren"
+      - "Manueller Replay aus dem Verlauf"
+
+faqTitle: "Häufige Fragen"
+faq:
+  - question: "Funktioniert das auf Android?"
+    answer: "Ja - Webhooks sind sowohl in der iOS- als auch in der Android-Version von NFC.cool Tools verfügbar."
+  - question: "Können mehrere Endpunkte bei einem Scan ausgelöst werden?"
+    answer: "Ja. Jeder aktivierte Webhook erhält das Ereignis unabhängig. Filter-Regeln bestimmen, welche Payloads an welche Endpunkte gehen."
+  - question: "Gibt es ein Rate-Limit?"
+    answer: "NFC.cool selbst limitiert nicht, aber die meisten Empfänger-Services tun es. Nutze Webhook-Filter, um Endpunkte nicht mit irrelevanten Scans zu fluten."
+  - question: "Was passiert, wenn mein Server offline ist?"
+    answer: "Fehlgeschlagene POSTs werden lokal auf dem Gerät in die Warteschlange gestellt und mit exponentiellem Backoff wiederholt. Du kannst jeden vergangenen Scan jederzeit aus dem Verlauf manuell erneut senden."
+
+cta:
+  title: "Scans in deinen Workflow einbinden."
+  buttonText: "NFC.cool holen"

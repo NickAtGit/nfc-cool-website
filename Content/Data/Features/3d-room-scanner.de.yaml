@@ -1,0 +1,62 @@
+slug: "3d-room-scanner"
+appStoreURL: "https://ios.nfc.cool"
+backLinkText: "← Alle Funktionen"
+
+hero:
+  title: "3D-Objekt- & Raumscan"
+  subtitle: "Photogrammetrie für hochauflösende 3D-Modelle von Objekten. LiDAR-gestütztes RoomPlan für saubere Grundrisse mit automatischer Erkennung von Türen, Fenstern und Möbeln. Export nach USDZ, OBJ, STL, PLY für 3D-Druck oder AR."
+  platforms: "Nur iOS"
+  heroImagePath: "/assets/images/Webflow/3d-room.webp"
+
+capabilitiesTitle: "Was du machen kannst"
+capabilities:
+  - title: "Objektscan (Photogrammetrie)"
+    description: "Umrunde ein Objekt mit 30–100 Aufnahmen. Die On-Device-Photogrammetrie-Pipeline rekonstruiert ein texturiertes 3D-Modell mit realistischer Geometrie."
+  - title: "Raumscan (LiDAR)"
+    description: "Gehe mit dem LiDAR-Sensor deines iPhones durch einen Raum; NFC.cool baut ein parametrisches Modell mit Wänden, Türen, Fenstern und erkannten Möbeln als sauberes USDZ-Szenenfile."
+  - title: "Bearbeiten & verfeinern"
+    description: "Rauschen entfernen, Meshes glätten, Geometrie vereinfachen oder Texturen abziehen. Vorschau in 3D vor dem Export."
+  - title: "Überall exportieren"
+    description: "USDZ für AR Quick Look, STL für 3D-Druck, OBJ/PLY für Blender, USD/ABC für Produktions-Pipelines. Wähle Vertex-Präzision und Textur-Auflösung."
+  - title: "AR Quick Look"
+    description: "Platziere jedes gescannte Objekt per AR Quick Look in deinem Wohnzimmer. Teile USDZ-Dateien mit Freunden - sie können sie direkt in Nachrichten anschauen."
+
+screenshots:
+  - path: "/assets/images/Webflow/3d-room.webp"
+    alt: "Raum mit LiDAR scannen"
+  - path: "/assets/images/Webflow/3d-object.webp"
+    alt: "Objekt per Photogrammetrie erfassen"
+
+specsTitle: "Hardware & Export"
+specs:
+  - title: "Hardware-Anforderungen"
+    items:
+      - "Objektscan: jedes iPhone mit iOS 17+ und ausreichend Leistung"
+      - "Raumscan: iPhone mit LiDAR (12 Pro und neuere Pro-Modelle)"
+      - "iPad Pro ab 2020 unterstützt ebenfalls beide Modi"
+  - title: "Objekt-Ausgabe"
+    items:
+      - "USDZ (AR Quick Look)"
+      - "OBJ + MTL mit Texturen"
+      - "STL (binär oder ASCII)"
+      - "PLY (Punktwolke + Mesh)"
+      - "USD für Produktions-Pipelines"
+  - title: "Raum-Ausgabe"
+    items:
+      - "USDZ-Szene mit benannten Elementen"
+      - "Wände, Türen, Fenster, Öffnungen"
+      - "Erkannte Möbel-Kategorien"
+      - "Bodenfläche und Maße"
+
+faqTitle: "Häufige Fragen"
+faq:
+  - question: "Brauche ich LiDAR für Objektscans?"
+    answer: "Nein - Objektscans funktionieren per Photogrammetrie auf jedem modernen iPhone. LiDAR wird nur für Raumscans (RoomPlan) benötigt."
+  - question: "Wie lange dauert ein Scan?"
+    answer: "Objektscan: ein paar Minuten für 30–100 Fotos, dann 2–5 Minuten On-Device-Rekonstruktion. Raumscan: einfach durch den Raum gehen - das Ergebnis ist sofort da."
+  - question: "Kann ich die Ergebnisse 3D-drucken?"
+    answer: "Ja - Export als STL und in deinen bevorzugten Slicer laden. Wir empfehlen vor dem Druck den Vereinfachen/Glätten-Schritt, um die Vertex-Anzahl zu reduzieren."
+
+cta:
+  title: "Die Welt in 3D festhalten."
+  buttonText: "Für iOS herunterladen"

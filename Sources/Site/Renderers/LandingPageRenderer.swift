@@ -36,17 +36,17 @@ struct LandingPageRenderer: Renderer {
 
       var sections: [String] = []
       sections.append(self.renderHero(data.hero, trust: data.trust, heroImagePath: data.heroImagePath, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL))
+      if let features = data.features, !features.isEmpty {
+         sections.append(self.renderFeatureGrid(features, title: data.featuresTitle))
+      }
       if let banner = data.featureBanner {
          sections.append(self.renderFeatureBanner(banner, fallbackURL: data.appStoreURL))
       }
-      if let testimonials = data.testimonials?.filter({ ($0.row ?? 1) == 1 }), !testimonials.isEmpty {
-         sections.append(self.renderTestimonials(testimonials))
+      if let reviews = data.appStoreReviews, !reviews.isEmpty {
+         sections.append(self.renderAppStoreReviews(reviews, title: data.appStoreReviewsTitle))
       }
-      if let features = data.features, !features.isEmpty {
-         sections.append(self.renderFeatureGrid(features))
-      }
-      if let testimonials = data.testimonials?.filter({ ($0.row ?? 1) == 2 }), !testimonials.isEmpty {
-         sections.append(self.renderTestimonials(testimonials))
+      if let testimonials = data.testimonials, !testimonials.isEmpty {
+         sections.append(self.renderTestimonials(testimonials, title: data.testimonialsTitle))
       }
       if let pricing = data.pricing {
          sections.append(self.renderPricing(pricing, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL))
@@ -54,17 +54,17 @@ struct LandingPageRenderer: Renderer {
       if let specs = data.techSpecs {
          sections.append(self.renderTechSpecs(specs))
       }
-      if let reviews = data.appStoreReviews, !reviews.isEmpty {
-         sections.append(self.renderAppStoreReviews(reviews))
-      }
       if let apps = data.trustedBy, !apps.isEmpty {
          sections.append(self.renderTrustedBy(apps))
       }
+      if let items = data.faq, !items.isEmpty {
+         sections.append(self.renderFAQ(items, title: data.faqTitle))
+      }
+      if let newsletter = data.newsletter {
+         sections.append(self.renderNewsletter(newsletter))
+      }
       if data.slogan != nil {
          sections.append(self.renderSlogan())
-      }
-      if let items = data.faq, !items.isEmpty {
-         sections.append(self.renderFAQ(items))
       }
       if let cta = data.cta {
          sections.append(self.renderCTA(cta, trust: data.trust, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL))
@@ -138,28 +138,17 @@ struct LandingPageRenderer: Renderer {
 
    private func renderStoreButtons(appStoreURL: String, googlePlayURL: String?) -> String {
       var buttons: [String] = []
-      // Apple App Store — official brand-kit badge SVG
+      // App Store badge — mirrored from the live Webflow site (official Apple badge).
       buttons.append("""
          <a href="\(appStoreURL)" class="landing-store-button is-apple" aria-label="Download on the App Store">
-            <img src="/assets/theme/images/AppStore-Black.svg" alt="Download on the App Store" width="156" height="52"/>
+            <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
          </a>
          """)
-      // Google Play — matched text button (no official Google badge in brand kit)
+      // Google Play badge — mirrored from the live Webflow site (official Google badge).
       if let url = googlePlayURL {
          buttons.append("""
             <a href="\(url)" class="landing-store-button is-google" aria-label="Get it on Google Play">
-               <span class="glyph">
-                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                     <path d="M3.6 2.5c-.3.3-.5.7-.5 1.3v16.5c0 .6.2 1 .5 1.3l9.5-9.5L3.6 2.5z"/>
-                     <path d="M16.7 14.6l-2.9-1.7-9.6 9.6c.4.1.8 0 1.2-.2l11.3-6.5c.3-.2.5-.4.5-.7-.1-.2-.2-.4-.5-.5z" fill="#FFC709"/>
-                     <path d="M19.6 10.7l-3.7-2.1-2.7 2.7 3.1 3.1 3.3-1.9c.7-.4.8-1.4 0-1.8z"/>
-                     <path d="M4.3 1.7c-.3-.1-.7-.1-1 .1l11 11 2.7-2.7L5.5 2.4c-.4-.3-.8-.6-1.2-.7z" fill="#137BD9"/>
-                  </svg>
-               </span>
-               <span class="text">
-                  <span class="landing-store-button-meta">Get it on</span>
-                  <span class="landing-store-button-name">Google Play</span>
-               </span>
+               <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
             </a>
             """)
       }
@@ -216,7 +205,17 @@ struct LandingPageRenderer: Renderer {
       } else {
          media = ""
       }
-      let linkURL = banner.linkURL ?? fallbackURL
+      let actionHTML: String = {
+         // When the banner specifies its own store URLs, render the same dual
+         // App Store + Google Play badges used in the hero so the call-to-action
+         // is consistent. Otherwise fall back to a single themed CTA button.
+         if let appStore = banner.appStoreURL {
+            return self.renderStoreButtons(appStoreURL: appStore, googlePlayURL: banner.googlePlayURL)
+         }
+         let linkURL = banner.linkURL ?? fallbackURL
+         let label = banner.ctaText ?? ""
+         return "<a href=\"\(linkURL)\" class=\"landing-cta-button\">\(label.htmlEscaped)</a>"
+      }()
       return """
       <section id="business-card" class="landing-feature-banner">
          <div class="landing-container">
@@ -225,7 +224,7 @@ struct LandingPageRenderer: Renderer {
                <div class="landing-feature-banner-text">
                   <h2 class="landing-section-title">\(banner.title.htmlEscaped)</h2>
                   <p>\(banner.subtitle.htmlEscaped)</p>
-                  <a href="\(linkURL)" class="landing-cta-button">\(banner.ctaText.htmlEscaped)</a>
+                  \(actionHTML)
                </div>
             </div>
          </div>
@@ -233,7 +232,7 @@ struct LandingPageRenderer: Renderer {
       """
    }
 
-   private func renderTestimonials(_ testimonials: [Testimonial]) -> String {
+   private func renderTestimonials(_ testimonials: [Testimonial], title: String?) -> String {
       var cards: [String] = []
       for testimonial in testimonials {
          cards.append("""
@@ -249,18 +248,24 @@ struct LandingPageRenderer: Renderer {
             </div>
          """)
       }
-      return "<section class=\"landing-testimonials\"><div class=\"landing-testimonials-grid\">\(cards.joined())</div></section>"
+      let heading = title.map { "<h2 class=\"landing-section-title\">\($0.htmlEscaped)</h2>" } ?? ""
+      return """
+      <section class="landing-testimonials">
+         <div class="landing-container">
+            \(heading)
+            <div class="landing-testimonials-grid">\(cards.joined())</div>
+         </div>
+      </section>
+      """
    }
 
-   private func renderFeatureGrid(_ features: [Feature]) -> String {
+   private func renderFeatureGrid(_ features: [Feature], title: String?) -> String {
       var cards: [String] = []
       for (index, feature) in features.enumerated() {
          let num = String(format: "%02d", index + 1)
          let platformsHTML: String = {
             guard let platforms = feature.platforms else { return "" }
-            let isIOSOnly = platforms.lowercased().contains("ios only") || platforms.lowercased().contains("iphone only")
-            let cls = isIOSOnly ? "landing-feature-platforms landing-platform-ios" : "landing-feature-platforms"
-            return "<span class=\"\(cls)\">\(platforms.htmlEscaped)</span>"
+            return PlatformBadge.render(platforms: platforms, wrapperClass: "landing-feature-platforms")
          }()
          cards.append("""
             <article class="landing-feature-card">
@@ -274,10 +279,11 @@ struct LandingPageRenderer: Renderer {
             </article>
          """)
       }
+      let heading = (title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(title!.htmlEscaped)</h2>"
       return """
       <section id="features" class="landing-feature-grid">
          <div class="landing-container">
-            <h2 class="landing-section-title">Everything you need to scan</h2>
+            \(heading)
             <div class="landing-features">\(cards.joined())</div>
          </div>
       </section>
@@ -330,7 +336,7 @@ struct LandingPageRenderer: Renderer {
       """
    }
 
-   private func renderAppStoreReviews(_ reviews: [AppStoreReview]) -> String {
+   private func renderAppStoreReviews(_ reviews: [AppStoreReview], title: String?) -> String {
       var cards: [String] = []
       for review in reviews {
          let avatarHTML = review.avatarPath.map {
@@ -350,10 +356,11 @@ struct LandingPageRenderer: Renderer {
             </div>
          """)
       }
+      let heading = (title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(title!.htmlEscaped)</h2>"
       return """
       <section class="landing-reviews">
          <div class="landing-container">
-            <h2 class="landing-section-title">App Store Reviews</h2>
+            \(heading)
             <div class="landing-reviews-grid">\(cards.joined())</div>
          </div>
       </section>
@@ -382,7 +389,7 @@ struct LandingPageRenderer: Renderer {
       """
    }
 
-   private func renderFAQ(_ items: [FAQItem]) -> String {
+   private func renderFAQ(_ items: [FAQItem], title: String?) -> String {
       let faqItems = items.map { item in
          """
          <details class="landing-faq-item">
@@ -391,11 +398,45 @@ struct LandingPageRenderer: Renderer {
          </details>
          """
       }.joined()
+      let heading = (title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(title!.htmlEscaped)</h2>"
       return """
       <section id="faq" class="landing-faq">
          <div class="landing-container">
-            <h2 class="landing-section-title">Frequently asked</h2>
+            \(heading)
             \(faqItems)
+         </div>
+      </section>
+      """
+   }
+
+   private func renderNewsletter(_ newsletter: NewsletterSection) -> String {
+      let subtitle = newsletter.subtitle.map { "<p class=\"landing-newsletter-subtitle\">\($0.htmlEscaped)</p>" } ?? ""
+      let consent = newsletter.consent.map { "<p class=\"landing-newsletter-consent\">\($0.htmlEscaped)</p>" } ?? ""
+      let endpoint = newsletter.endpoint ?? ""
+      let listID = newsletter.listID ?? ""
+      let envelopeIcon = #"<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>"#
+      return """
+      <section id="newsletter" class="landing-newsletter">
+         <div class="landing-container">
+            <div class="landing-newsletter-card">
+               <div class="landing-newsletter-icon" aria-hidden="true">\(envelopeIcon)</div>
+               <h2 class="landing-section-title">\(newsletter.title.htmlEscaped)</h2>
+               \(subtitle)
+               <form class="landing-newsletter-form"
+                     data-endpoint="\(endpoint)"
+                     data-list-id="\(listID)"
+                     data-success="\(newsletter.successText.htmlEscaped)"
+                     data-error="\(newsletter.errorText.htmlEscaped)"
+                     novalidate>
+                  <label for="newsletter-email" class="sr-only">\(newsletter.placeholder.htmlEscaped)</label>
+                  <input id="newsletter-email" type="email" name="email" required
+                         placeholder="\(newsletter.placeholder.htmlEscaped)"
+                         autocomplete="email" inputmode="email"/>
+                  <button type="submit" class="landing-newsletter-button">\(newsletter.buttonText.htmlEscaped)</button>
+                  <p class="landing-newsletter-status" role="status" aria-live="polite"></p>
+               </form>
+               \(consent)
+            </div>
          </div>
       </section>
       """

@@ -7,12 +7,17 @@ struct LandingData: Decodable, Sendable {
    let trust: TrustSection?
    let heroImagePath: String?
    let features: [Feature]?
+   let featuresTitle: String?
    let featureBanner: FeatureBannerSection?
    let testimonials: [Testimonial]?
+   let testimonialsTitle: String?
    let pricing: PricingSection?
    let appStoreReviews: [AppStoreReview]?
+   let appStoreReviewsTitle: String?
    let trustedBy: [TrustedByApp]?
+   let newsletter: NewsletterSection?
    let faq: [FAQItem]?
+   let faqTitle: String?
    let cta: CTASection?
    let techSpecs: TechSpecsSection?
    let slogan: String?
@@ -33,10 +38,14 @@ struct HeroSection: Decodable, Sendable {
 struct FeatureBannerSection: Decodable, Sendable {
    let title: String
    let subtitle: String
-   let ctaText: String
+   let ctaText: String?
    let videoPath: String?
    let imagePath: String?
    let linkURL: String?
+   /// When provided, the banner renders dual store badges instead of a single
+   /// CTA — typically pointing at platform-specific products with campaign URLs.
+   let appStoreURL: String?
+   let googlePlayURL: String?
 }
 
 struct Feature: Decodable, Sendable {
@@ -99,4 +108,16 @@ struct FAQItem: Decodable, Sendable {
 struct CTASection: Decodable, Sendable {
    let title: String
    let buttonText: String
+}
+
+struct NewsletterSection: Decodable, Sendable {
+   let title: String
+   let subtitle: String?
+   let placeholder: String
+   let buttonText: String
+   let successText: String
+   let errorText: String
+   let endpoint: String?
+   let listID: String?
+   let consent: String?
 }

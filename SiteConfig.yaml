@@ -1,18 +1,46 @@
 name: "NFC.cool"
 baseURL: "https://new.nfc.cool"
-description: "NFC, QR & barcode, document, 3D and room scanning — plus a digital business card. The all-in-one scanning toolkit, free on iPhone and Android."
+description: "NFC, QR & Barcode, Document, 3D and Room Scanning - plus a Digital Business Card. The all-in-one scanning toolkit, free on iPhone and Android."
 language: "en"
+
+localization:
+  defaultLanguage: "en"
+  languages: ["de"]
+  translationMode: "manual"
+  legalLanguage: "de"
 
 contentDirectory: "Content"
 outputDirectory: "_Site"
 assetsDirectory: "Content/Assets"
+redirectsFile: "redirects.yaml"
 
-categories: []
-sections: []
+categories:
+  - name: "NFC"
+    slug: "nfc"
+    description: "Articles about NFC tags, NDEF records, and tap interactions."
+  - name: "QR & Barcode"
+    slug: "qr-barcode"
+    description: "Articles about QR codes, barcode formats, and the QR Code Studio."
+  - name: "Document"
+    slug: "document"
+    description: "Articles about document scanning, OCR, and PDFs."
+  - name: "3D Scan"
+    slug: "3d-scan"
+    description: "Articles about photogrammetry, LiDAR, and 3D model export."
+  - name: "Business Card"
+    slug: "business-card"
+    description: "Articles about NFC.cool Business Card and digital networking."
+
+sections:
+  - name: "Blog"
+    slug: "blog"
+    contentDirectory: "Blog"
+    urlPrefix: "blog"
+    description: "News, deep-dives, and engineering write-ups from the NFC.cool team."
 
 homePage:
   title: "NFC.cool"
-  subtitle: "All-in-one scanning toolkit — free on iPhone and Android"
+  subtitle: "All-in-one scanning toolkit - free on iPhone and Android"
 
 author:
   name: "NFC.cool"
@@ -20,30 +48,57 @@ author:
 
 navigation:
   logo:
-    image: "/assets/theme/images/NFC_MainLogo-black.png"
-    imageWidth: 96
-    imageHeight: 32
+    image: "/assets/theme/images/NFC_SecondaryLogo_Black.webp"
+    imageWidth: 114
+    imageHeight: 28
     text: ""
   items:
     - title: "Features"
-      url: "/#features"
+      url: "/features/"
     - title: "Business Card"
-      url: "/#business-card"
-    - title: "FAQ"
-      url: "/#faq"
+      url: "/business-card/"
+    - title: "Blog"
+      url: "/blog/"
+    - title: "Support"
+      url: "/contact/"
   showSearch: false
   showThemeToggle: true
 
 footer:
   copyrightName: "NFC.cool"
-  startYear: 2024
+  startYear: 2017
+  showAttribution: false
   social:
     - platform: "instagram"
       url: "https://www.instagram.com/nfc.cool"
     - platform: "tiktok"
       url: "https://www.tiktok.com/@nfc.cool"
+    - platform: "youtube"
+      url: "https://www.youtube.com/@nfc.cool"
+    - platform: "x"
+      url: "https://x.com/nfc_cool"
+    - platform: "linkedin"
+      url: "https://www.linkedin.com/company/nfc-cool"
+    - platform: "bluesky"
+      url: "https://bsky.app/profile/nfc.cool"
+    - platform: "threads"
+      url: "https://www.threads.net/@nfc.cool"
+    - platform: "rss"
+      url: "/feed.xml"
   links:
+    - title: "Features"
+      url: "/features/"
+    - title: "Business Card"
+      url: "/business-card/"
+    - title: "Blog"
+      url: "/blog/"
+    - title: "Support"
+      url: "/contact/"
+    - title: "Press"
+      url: "/press/"
     - title: "Privacy"
       url: "/privacy/"
+    - title: "Terms"
+      url: "/terms/"
     - title: "Imprint"
       url: "/impressum/"

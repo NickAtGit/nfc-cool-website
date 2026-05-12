@@ -1,0 +1,61 @@
+slug: "document-scanner"
+appStoreURL: "https://ios.nfc.cool"
+backLinkText: "← Alle Funktionen"
+
+hero:
+  title: "Dokumenten-Scanner mit OCR"
+  subtitle: "Erfasse Dokumente mit automatischer Kantenerkennung und Perspektiv-Korrektur. On-Device-OCR macht durchsuchbare PDFs daraus, die du später in Spotlight oder Finder findest."
+  platforms: "Nur iOS"
+  heroImagePath: "/assets/images/Webflow/document-scan.webp"
+
+capabilitiesTitle: "Was du machen kannst"
+capabilities:
+  - title: "Automatische Kantenerkennung"
+    description: "Richte auf eine Seite - NFC.cool findet die Ecken und löst automatisch aus. Mehrseitige Scans erfassen einen ganzen Stapel in einer Session."
+  - title: "Perspektiv-Korrektur"
+    description: "Schiefer Schuss? NFC.cool richtet die Seite zu einem sauberen Rechteck aus, entfernt Schatten und verstärkt den Kontrast - das Ergebnis sieht wie ein Flachbett-Scan aus."
+  - title: "On-Device-OCR"
+    description: "Texterkennung läuft lokal auf deinem iPhone - kein Dokument, kein Text wird hochgeladen. Durchsuchbare PDFs werden von iOS Spotlight und macOS Finder indexiert."
+  - title: "Durchsuchbare PDFs"
+    description: "Exportiere als PDF mit eingebetteter Textebene. Suche jede Phrase über alle gescannten Dokumente hinweg wie nach normalen Dateien."
+  - title: "Schnelles Teilen"
+    description: "Versende das PDF per Mail, Nachrichten, AirDrop oder speichere es in Dateien. Kein Wasserzeichen, keine Anmeldung."
+
+screenshots:
+  - path: "/assets/images/Webflow/document-scan.webp"
+    alt: "Mehrseitiges Dokument scannen"
+  - path: "/assets/images/Webflow/document-scan-detail.webp"
+    alt: "Gescanntes PDF prüfen"
+
+specsTitle: "Funktionen & Limits"
+specs:
+  - title: "Erkennung"
+    items:
+      - "Vision-Framework-OCR (iOS 13+)"
+      - "Lateinische, kyrillische, griechische Schriften"
+      - "Handschrift-Erkennung ab iOS 16+"
+      - "Mehrsprachige Erkennung"
+  - title: "Ausgabe"
+    items:
+      - "PDF mit eingebetteter Textebene"
+      - "JPEG- / HEIC-Bilder pro Seite"
+      - "Mehrseitige Dokumente"
+      - "Optionaler Schwarz-Weiß-Modus"
+  - title: "Datenschutz"
+    items:
+      - "Alle OCR-Vorgänge auf dem Gerät"
+      - "Kein Text wird zu NFC.cool gesendet"
+      - "Dokumente bleiben in der App-Sandbox"
+
+faqTitle: "Häufige Fragen"
+faq:
+  - question: "Funktioniert OCR offline?"
+    answer: "Ja - das Vision-Framework von iOS macht OCR vollständig auf dem Gerät. Du kannst im Flugzeug scannen und OCR durchführen."
+  - question: "Welche Sprachen unterstützt OCR?"
+    answer: "iOS Vision erkennt aktuell Englisch, Französisch, Italienisch, Deutsch, Spanisch, Portugiesisch und vereinfachtes Chinesisch. Handschriftliche Erkennung benötigt iOS 16+."
+  - question: "Wie genau ist die OCR?"
+    answer: "Sehr genau bei gedrucktem Text. Handschrift-Genauigkeit hängt von Sauberkeit und Kontrast ab. Du kannst jeden erkannten Text nach dem Scan bearbeiten."
+
+cta:
+  title: "Papier in durchsuchbare Dateien verwandeln."
+  buttonText: "Für iOS herunterladen"
