@@ -843,9 +843,9 @@
    transform: translateY(-1px);
 }
 
-/* Split hero (mirrors landing hero): left text, right image. Activated by
-   wrapping markdown content in `<div class="page-hero-grid">` with
-   `<div class="page-hero-text">` + `<div class="page-hero-visual">` inside. */
+/* Split hero — same look as the landing hero (.landing-hero-*).
+   Activated by wrapping markdown content in `<div class="page-hero-grid">`
+   with `<div class="page-hero-text">` + `<div class="page-hero-visual">`. */
 .page-hero-grid {
    display: grid;
    grid-template-columns: 1.1fr 1fr;
@@ -859,35 +859,49 @@
 .page-hero:has(.page-hero-grid) > .page-hero-grid { max-width: var(--max-width); }
 .page-hero-text > * { max-width: 100%; }
 .page-hero-text h1 {
-   max-width: 18ch;
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(2.25rem, 6vw, 4rem);
+   line-height: 1.05;
+   letter-spacing: -0.025em;
+   color: #FFFFFF;
    margin: 0 0 1rem;
+   max-width: none;
    text-align: left;
 }
 .page-hero-text > p {
-   max-width: 32em;
-   margin: 0 0 1.5rem;
+   font-size: clamp(1.0625rem, 1.6vw, 1.25rem);
+   line-height: 1.55;
+   color: rgba(255, 255, 255, 0.9);
+   max-width: 30em;
+   margin: 0 0 2rem;
    text-align: left;
 }
+.page-hero-text .landing-cta-button {
+   margin-bottom: 0;
+}
 .page-hero-visual {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   position: relative;
+   align-self: center;
 }
 .page-hero-visual img {
-   width: 100%;
-   max-width: 420px;
-   height: auto;
-   margin: 0 auto;
    display: block;
-   border-radius: var(--radius-lg);
-   box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.45);
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+   margin: 0;
+   border-radius: 36px;
+   box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.35), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
+   transform: rotate(-2deg);
 }
-/* For brand-logo / icon-style hero images, drop the shadow + corner radius
-   and let them float on the gradient cleanly. Set via `.is-brand` modifier. */
+/* For brand-logo / icon-style hero images, drop the shadow, corner radius
+   and rotation so the mark sits cleanly on the gradient. */
 .page-hero-visual.is-brand img {
    border-radius: 0;
    box-shadow: none;
-   max-width: 360px;
+   transform: none;
+   max-width: 420px;
+   margin: 0 auto;
 }
 
 @media (max-width: 900px) {
@@ -907,7 +921,11 @@
       margin-left: auto;
       margin-right: auto;
    }
-   .page-hero-visual img { max-width: 320px; }
+   .page-hero-visual img {
+      max-width: 360px;
+      margin: 0 auto;
+   }
+   .page-hero-visual.is-brand img { max-width: 320px; }
 }
 /* Static-page sections — full-bleed, alternating bg, 1200px container,
    760px text reading column. Matches landing's section rhythm. */
@@ -1073,13 +1091,7 @@
    text-align: center;
 }
 .blog-index-hero.page-hero { background: var(--brand-gradient); color: #FFFFFF; }
-.blog-index-hero .blog-index-title { text-align: inherit; }
-.blog-index-hero .blog-index-subtitle { margin-left: 0; margin-right: 0; }
 .blog-index-hero .blog-index-rss { margin-top: 0.25rem; }
-.blog-index-hero .page-hero-visual.is-brand img { filter: brightness(0) invert(1); opacity: 0.85; }
-@media (max-width: 900px) {
-   .blog-index-hero .blog-index-subtitle { margin-left: auto; margin-right: auto; }
-}
 .blog-index-hero::before {
    content: "";
    position: absolute;
@@ -1238,12 +1250,9 @@
    text-align: center;
 }
 .blog-post-hero.page-hero { background: var(--brand-gradient); color: #FFFFFF; }
-.blog-post-hero .blog-post-title { margin: 0 0 0.75rem; max-width: 18ch; text-align: inherit; }
 .blog-post-hero .blog-post-meta { margin: 0; }
 .blog-post-hero .blog-post-tags { justify-content: flex-start; }
-.blog-post-hero .page-hero-visual.is-brand img { filter: brightness(0) invert(1); opacity: 0.85; }
 @media (max-width: 900px) {
-   .blog-post-hero .blog-post-title { margin-left: auto; margin-right: auto; }
    .blog-post-hero .blog-post-tags { justify-content: center; }
 }
 .blog-post-hero::before {
