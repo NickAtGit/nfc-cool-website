@@ -16,7 +16,7 @@ image: "/assets/images/BusinessCard/Screenshot-1.jpg"
 iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppClip、Apple Walletで連絡先を一瞬で共有 — 誰が実際にあなたのカードを保存したかも確認できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。
 
 <div class="landing-store-buttons">
-<a href="https://business-card.nfc.cool/?ct=web_ja" class="landing-store-button is-apple" aria-label="Download on the App Store">
+<a href="https://apps.apple.com/app/id6502926572?ct=web_ja" class="landing-store-button is-apple" aria-label="Download on the App Store">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
 <a href="https://android.nfc.cool/?referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_ja" class="landing-store-button is-google" aria-label="Get it on Google Play">

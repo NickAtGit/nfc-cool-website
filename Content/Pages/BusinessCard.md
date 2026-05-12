@@ -16,7 +16,7 @@ image: "/assets/images/BusinessCard/Screenshot-1.jpg"
 A dedicated Digital Business Card app for iPhone. Share your contact details with a tap — NFC, QR code, AppClip, or Apple Wallet — and see who actually saves your card. On Android, the same features are bundled inside NFC.cool Tools.
 
 <div class="landing-store-buttons">
-<a href="https://business-card.nfc.cool/?ct=web_en" class="landing-store-button is-apple" aria-label="Download on the App Store">
+<a href="https://apps.apple.com/app/id6502926572?ct=web_en" class="landing-store-button is-apple" aria-label="Download on the App Store">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
 <a href="https://android.nfc.cool/?referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_en" class="landing-store-button is-google" aria-label="Get it on Google Play">
