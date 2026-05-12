@@ -374,26 +374,26 @@ body.landing .sk-site-footer {
    display: grid;
    grid-template-columns: 1fr;
    grid-template-areas:
-      "links"
-      "rule"
       "socials"
+      "rule"
+      "links"
       "copy";
    gap: 0;
    max-width: var(--max-width);
    margin: 0 auto;
    text-align: center;
 }
-.sk-footer-left   { grid-area: socials; justify-self: center; }
-.sk-footer-center { grid-area: copy;    justify-self: center; margin-top: 1rem; }
+.sk-footer-left   { grid-area: socials; justify-self: center; margin-bottom: 0.5rem; }
 .sk-footer-right  { grid-area: links;   justify-self: center; }
+.sk-footer-center { grid-area: copy;    justify-self: center; margin-top: 1rem; }
 
-/* Thin divider between link row and socials/copyright stack */
+/* Thin divider between the socials row and the footer-proper (nav + copy) */
 .sk-footer-inner::before {
    content: "";
    grid-area: rule;
    height: 1px;
    background: var(--color-border-light);
-   margin: 1.5rem auto 1.5rem;
+   margin: 1.5rem auto;
    width: 100%;
    max-width: 720px;
 }
