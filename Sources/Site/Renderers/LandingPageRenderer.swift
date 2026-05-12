@@ -35,12 +35,12 @@ struct LandingPageRenderer: Renderer {
       )
 
       var sections: [String] = []
-      sections.append(self.renderHero(data.hero, trust: data.trust, heroImagePath: data.heroImagePath, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL, locale: locale))
+      sections.append(self.renderHero(data.hero, trust: data.trust, heroImagePath: data.heroImagePath, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL))
       if let features = data.features, !features.isEmpty {
          sections.append(self.renderFeatureGrid(features, title: data.featuresTitle))
       }
       if let banner = data.featureBanner {
-         sections.append(self.renderFeatureBanner(banner, fallbackURL: data.appStoreURL, locale: locale))
+         sections.append(self.renderFeatureBanner(banner, fallbackURL: data.appStoreURL))
       }
       if let reviews = data.appStoreReviews, !reviews.isEmpty {
          sections.append(self.renderAppStoreReviews(reviews, title: data.appStoreReviewsTitle))
@@ -49,7 +49,7 @@ struct LandingPageRenderer: Renderer {
          sections.append(self.renderTestimonials(testimonials, title: data.testimonialsTitle))
       }
       if let pricing = data.pricing {
-         sections.append(self.renderPricing(pricing, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL, locale: locale))
+         sections.append(self.renderPricing(pricing, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL))
       }
       if let specs = data.techSpecs {
          sections.append(self.renderTechSpecs(specs))
@@ -67,7 +67,7 @@ struct LandingPageRenderer: Renderer {
          sections.append(self.renderSlogan())
       }
       if let cta = data.cta {
-         sections.append(self.renderCTA(cta, trust: data.trust, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL, locale: locale))
+         sections.append(self.renderCTA(cta, trust: data.trust, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL))
       }
 
       let mainContent = "<main class=\"sk-main landing-page\">\(sections.joined())</main>"
@@ -136,20 +136,20 @@ struct LandingPageRenderer: Renderer {
       return formatter.string(from: NSNumber(value: n)) ?? "\(n)"
    }
 
-   private func renderStoreButtons(appStoreURL: String, googlePlayURL: String?, locale: String) -> String {
+   /// Render the App Store + Google Play badge pair shared across the
+   /// landing hero, feature banner, pricing, and final CTA. Campaign
+   /// tracking lives directly on the URL strings — each locale's YAML
+   /// holds its own `?ct=web_<lang>` / `&referrer=...&utm_campaign=web_<lang>`.
+   private func renderStoreButtons(appStoreURL: String, googlePlayURL: String?) -> String {
       var buttons: [String] = []
-      let trackedApple = self.appendCampaign(to: appStoreURL, isApple: true, locale: locale)
-      // App Store badge — mirrored from the live Webflow site (official Apple badge).
       buttons.append("""
-         <a href="\(trackedApple)" class="landing-store-button is-apple" aria-label="Download on the App Store">
+         <a href="\(appStoreURL)" class="landing-store-button is-apple" aria-label="Download on the App Store">
             <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
          </a>
          """)
-      // Google Play badge — mirrored from the live Webflow site (official Google badge).
       if let url = googlePlayURL {
-         let trackedGoogle = self.appendCampaign(to: url, isApple: false, locale: locale)
          buttons.append("""
-            <a href="\(trackedGoogle)" class="landing-store-button is-google" aria-label="Get it on Google Play">
+            <a href="\(url)" class="landing-store-button is-google" aria-label="Get it on Google Play">
                <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
             </a>
             """)
@@ -157,23 +157,9 @@ struct LandingPageRenderer: Renderer {
       return "<div class=\"landing-store-buttons\">\(buttons.joined())</div>"
    }
 
-   /// Append App Store / Play Store campaign tracking, keyed by site language.
-   /// Apple → `?ct=web_<lang>` (App Analytics campaign token).
-   /// Google → `?referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_<lang>`
-   /// (the Play install-referrer envelope, URL-encoded).
-   private func appendCampaign(to url: String, isApple: Bool, locale: String) -> String {
-      let campaign = "web_\(locale)"
-      let separator = url.contains("?") ? "&" : "?"
-      if isApple {
-         return "\(url)\(separator)ct=\(campaign)"
-      }
-      let referrer = "utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3D\(campaign)"
-      return "\(url)\(separator)referrer=\(referrer)"
-   }
-
    // MARK: - Section Renderers
 
-   private func renderHero(_ hero: HeroSection, trust: TrustSection?, heroImagePath: String?, appStoreURL: String, googlePlayURL: String?, locale: String) -> String {
+   private func renderHero(_ hero: HeroSection, trust: TrustSection?, heroImagePath: String?, appStoreURL: String, googlePlayURL: String?) -> String {
       let titleHTML = self.renderTitleWithBrandTail(hero.title, tagName: "h1", classAttr: "landing-hero-title")
       let visualHTML: String
       if let path = heroImagePath {
@@ -192,7 +178,7 @@ struct LandingPageRenderer: Renderer {
                \(titleHTML)
                <p class="landing-hero-subtitle">\(hero.subtitle.htmlEscaped)</p>
                <div class="landing-hero-actions">
-                  \(self.renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL, locale: locale))
+                  \(self.renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL))
                </div>
                \(self.renderTrust(trust))
             </div>
@@ -202,7 +188,7 @@ struct LandingPageRenderer: Renderer {
       """
    }
 
-   private func renderFeatureBanner(_ banner: FeatureBannerSection, fallbackURL: String, locale: String) -> String {
+   private func renderFeatureBanner(_ banner: FeatureBannerSection, fallbackURL: String) -> String {
       let media: String
       if let videoPath = banner.videoPath {
          media = """
@@ -226,7 +212,7 @@ struct LandingPageRenderer: Renderer {
          // App Store + Google Play badges used in the hero so the call-to-action
          // is consistent. Otherwise fall back to a single themed CTA button.
          if let appStore = banner.appStoreURL {
-            return self.renderStoreButtons(appStoreURL: appStore, googlePlayURL: banner.googlePlayURL, locale: locale)
+            return self.renderStoreButtons(appStoreURL: appStore, googlePlayURL: banner.googlePlayURL)
          }
          let linkURL = banner.linkURL ?? fallbackURL
          let label = banner.ctaText ?? ""
@@ -306,7 +292,7 @@ struct LandingPageRenderer: Renderer {
       """
    }
 
-   private func renderPricing(_ pricing: PricingSection, appStoreURL: String, googlePlayURL: String?, locale: String) -> String {
+   private func renderPricing(_ pricing: PricingSection, appStoreURL: String, googlePlayURL: String?) -> String {
       var tierCards: [String] = []
       for tier in pricing.tiers {
          let highlightClass = (tier.highlighted ?? false) ? " landing-pricing-highlighted" : ""
@@ -332,7 +318,7 @@ struct LandingPageRenderer: Renderer {
             <h2 class="landing-section-title">\(pricing.title.htmlEscaped)</h2>
             <div class="landing-pricing-grid">\(tierCards.joined())</div>
             <p class="landing-pricing-note">\(pricing.subtitle)</p>
-            \(self.renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL, locale: locale))
+            \(self.renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL))
          </div>
       </section>
       """
@@ -458,14 +444,14 @@ struct LandingPageRenderer: Renderer {
       """
    }
 
-   private func renderCTA(_ cta: CTASection, trust: TrustSection?, appStoreURL: String, googlePlayURL: String?, locale: String) -> String {
+   private func renderCTA(_ cta: CTASection, trust: TrustSection?, appStoreURL: String, googlePlayURL: String?) -> String {
       let titleHTML = self.renderTitleWithBrandTail(cta.title, tagName: "h2", classAttr: "landing-cta-title")
       return """
       <section class="landing-final-cta">
          <div class="landing-container">
             \(titleHTML)
             \(self.renderTrust(trust))
-            \(self.renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL, locale: locale))
+            \(self.renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL))
          </div>
       </section>
       """

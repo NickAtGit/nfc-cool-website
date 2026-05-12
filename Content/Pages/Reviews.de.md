@@ -15,10 +15,10 @@ description: "Echte 5-Sterne-Bewertungen von NFC.cool aus dem App Store - aus al
 Die folgenden Reviews stammen direkt aus dem App Store. Jedes Zitat ist eine echte 5-Sterne-Bewertung — nichts umgeschrieben, nichts gefiltert außer den ganz kurzen.
 
 <div class="landing-store-buttons">
-<a href="https://ios.nfc.cool/?ct=web_de" class="landing-store-button is-apple" aria-label="Download on the App Store">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://android.nfc.cool/?referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_de" class="landing-store-button is-google" aria-label="Get it on Google Play">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_de" class="landing-store-button is-google" aria-label="Get it on Google Play">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
