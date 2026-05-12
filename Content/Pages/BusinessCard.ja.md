@@ -47,28 +47,38 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 
 <section class="page-section">
 
-## 仕組み
+## NFC.cool Business Cardを選ぶ理由
 
 <div class="page-cards-grid">
 
 <article class="page-card">
-<h3>タップで共有</h3>
-<p>2台のiPhoneを近づけるだけで、相手は何もインストールせずにあなたのカードを見られます。</p>
+<h3>双方向のリードジェネレーション</h3>
+<p>カードを受け取った相手は、あなたへ折り返し連絡できます。すべての共有が、新規 → 連絡済 → 適格 → 成約までステータス追跡できるリードに変わります。</p>
 </article>
 
 <article class="page-card">
-<h3>QRフォールバック</h3>
-<p>QRコードを表示すれば、カメラ付きのどんなスマホでも読み取れます。</p>
+<h3>最大100枚のカード</h3>
+<p>役割、ブランド、イベントごとに別のカードを管理。ワンタップで切り替え。小規模チームや成長中の企業に最適です。</p>
 </article>
 
 <article class="page-card">
-<h3>AppClip & Apple Wallet</h3>
-<p>受け取った相手はNFC.coolアカウント不要でカードをウォレットに保存できます。</p>
+<h3>リアルタイムの分析</h3>
+<p>プロフィール表示、連絡先保存、リード成約 — 日次・週次・月次で分解。どのイベントが効いているかが実際にわかります。</p>
 </article>
 
 <article class="page-card">
-<h3>リアルタイム・トラッキング</h3>
-<p>インプレッション数、保存数、共有方法の内訳が見られます — 相手の身元は記録しません。</p>
+<h3>プライバシーは自分で制御</h3>
+<p>検索可能な公開プロフィール、またはPIN保護のプライベートカード。GDPR準拠のデータ書き出し(ZIP)はいつでも可能。トラッキングは数値のみで、相手の身元は記録しません。</p>
+</article>
+
+<article class="page-card">
+<h3>プロフェッショナルな見た目</h3>
+<p>ライト・ダークそれぞれのロゴ、背景・枠・タイルのカスタムカラー。受信側のデバイス設定に合わせてカードが自動で適応します。</p>
+</article>
+
+<article class="page-card">
+<h3>環境にやさしい</h3>
+<p>1枚のデジタルカードで紙の名刺の山を置き換え。変更はすぐに反映 — 再印刷も廃棄もありません。</p>
 </article>
 
 </div>
@@ -77,19 +87,109 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 
 <section class="page-section">
 
-## Conference Mode
+## 機能一覧
 
-展示会、ミートアップ、ライブイベント向け。Conference Modeに切り替えると、アプリが共有画面を表示したまま、各タップを自動カウントし、新しい連絡先ごとにメモを取れます - イベント終了時にカード履歴へ即同期されます。
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>📇 スマートな名刺</h3>
+<ul>
+<li><strong>デジタルカード作成</strong> — ブランドにマッチしたデザイン</li>
+<li><strong>最大100枚</strong> — 役割、シーン、チームメンバーごとに使い分け</li>
+<li><strong>連絡先からインポート</strong> — 既存の連絡先をそのままカードへ</li>
+<li><strong>常に最新</strong> — 編集は即時反映、再印刷不要</li>
+</ul>
+</article>
+
+<article class="page-card">
+<h3>🎨 カスタマイズ & ブランディング</h3>
+<ul>
+<li><strong>カスタムロゴ</strong> — ライトモード/ダークモード別に設定</li>
+<li><strong>カラー設定</strong> — 背景、枠、タイル(iOS)</li>
+<li><strong>ダーク & ライト</strong> — 閲覧者のシステム設定に自動追従</li>
+</ul>
+</article>
+
+<article class="page-card">
+<h3>🤝 リードジェネレーション & ネットワーキング <em>iOS</em></h3>
+<ul>
+<li><strong>リード取得フォーム</strong> — 閲覧者から自動的に連絡先を収集</li>
+<li><strong>ステータス管理</strong> — 新規 → 連絡済 → 適格 → 成約 → アーカイブ</li>
+<li><strong>リアルタイム通知</strong> — 接続があるとプッシュで即通知</li>
+<li><strong>カレンダー & リマインダー</strong> — リードから直接フォローアップを設定</li>
+</ul>
+</article>
+
+<article class="page-card">
+<h3>📊 アナリティクス <em>iOS</em></h3>
+<ul>
+<li><strong>プロフィール表示</strong> — 何人がカードを開いたか</li>
+<li><strong>連絡先保存</strong> — 誰がデバイスに保存したか</li>
+<li><strong>日 / 週 / 月</strong> 別の分析ダッシュボード</li>
+<li><strong>トレンド分析</strong> — 時間軸でネットワーキング傾向を把握</li>
+</ul>
+</article>
+
+<article class="page-card">
+<h3>🔒 プライバシー & セキュリティ</h3>
+<ul>
+<li><strong>PIN保護プロフィール</strong> — 4桁PIN、レート制限つき照合</li>
+<li><strong>公開 / 非公開切替</strong> — 検索可能か、URLでのみアクセス可能か</li>
+<li><strong>GDPRデータ書き出し</strong> — いつでもZIPでダウンロード</li>
+<li><strong>セッション保護</strong> — PINセッションは自動でタイムアウト</li>
+</ul>
+</article>
+
+<article class="page-card">
+<h3>🌐 共有 & 接続</h3>
+<ul>
+<li><strong>SNS各種</strong> — Instagram、LinkedIn、TikTok、X、Facebook、GitHub、YouTube、WhatsApp、Telegram、Discord ほか</li>
+<li><strong>NFC、QR、カスタムURL</strong> — 3つの共有方式、それぞれワンタップ</li>
+<li><strong>AppClip <em>iOS</em></strong> — 受け取り側はアプリ未インストールでも閲覧可能</li>
+<li><strong>クロスプラットフォーム</strong> — iOSとAndroidに対応</li>
+</ul>
+</article>
+
+</div>
 
 </section>
 
 <section class="page-section">
 
-## プライバシー
+## Conference Mode <em>iOS</em>
 
-カードの内容はあなたのデバイス上にあります。受け取った相手はそのままiPhoneの「連絡先」に保存します - NFC.coolが見ることはありません。トラッキング分析はカウントのみで、相手の個人情報は収集されません。
+展示会、ミートアップ、ライブイベント向け。Conference Modeを有効にすると、QRコードがLive ActivityとしてiPhoneのロック画面に表示されます — 端末を取り出し、一度タップするだけで共有可能。各タップはイベントのアナリティクスに自動でカウントされ、新規リードに紐づけたメモはイベント終了時にカード履歴へ同期されます。
 
-詳細は[プライバシーポリシー](/ja/privacy/)をご覧ください。
+</section>
+
+<section class="page-section">
+
+## 料金プラン
+
+ネットワーキングの使い方に合わせて選べます。有料プランはすべて、vCard保存、リードジェネレーション、アナリティクス、無制限の共有を含みます。
+
+<div class="feature-comparison-wrap">
+<table class="feature-comparison-table">
+<thead>
+<tr><th></th><th scope="col">Free</th><th scope="col">Personal</th><th scope="col">Small&nbsp;Business</th><th scope="col">Business</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">価格</th><td><strong>$0</strong></td><td><strong>$19.99</strong></td><td><strong>$49.99</strong></td><td><strong>$99.99</strong></td></tr>
+<tr><th scope="row">カード数</th><td>1</td><td>1</td><td>10</td><td>100</td></tr>
+<tr><th scope="row">プロフィール表示</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">vCard保存</th><td>—</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">リードジェネレーション</th><td>—</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">アナリティクス</th><td>—</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">カスタムロゴ</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">NFC & QR共有</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Conference Mode</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">PIN保護</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">リアルタイム通知</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">データ書き出し(GDPR)</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">想定ユーザー</th><td>お試し</td><td>個人</td><td>小規模チーム</td><td>成長企業</td></tr>
+</tbody>
+</table>
+</div>
 
 </section>
 
@@ -97,6 +197,6 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 
 ## Androidでは
 
-Androidでは Business Card機能が[NFC.cool Tools](https://android.nfc.cool)に組み込まれています - 別アプリは不要。アプリを開いてカードを設定し、タップで共有。同じデータモデル、同じNFCハンドシェイク、同じQRフォールバックです。
+AndroidではBusiness Card機能が[NFC.cool Tools](https://android.nfc.cool)に組み込まれています — 別アプリは不要。アプリを開いてカードを設定し、タップで共有。同じデータモデル、同じNFCハンドシェイク、同じQRフォールバックです。リードジェネレーション、詳細アナリティクス、Conference Modeは現在iOSのみで提供されます。
 
 </section>

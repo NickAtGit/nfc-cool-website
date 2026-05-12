@@ -47,28 +47,38 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 
 <section class="page-section">
 
-## How it works
+## Why NFC.cool Business Card
 
 <div class="page-cards-grid">
 
 <article class="page-card">
-<h3>Tap to share</h3>
-<p>Bring two iPhones close together; the other person sees your card without installing anything.</p>
+<h3>Two-way lead generation</h3>
+<p>When someone receives your card, they can connect back — turning every share into a tracked lead with status from New → Contacted → Qualified → Converted.</p>
 </article>
 
 <article class="page-card">
-<h3>QR fallback</h3>
-<p>Show a QR code; any phone with a camera can scan it.</p>
+<h3>Up to 100 cards</h3>
+<p>Manage separate cards for different roles, brands, or events. Switch between them with one tap. Ideal for small teams and growing companies.</p>
 </article>
 
 <article class="page-card">
-<h3>AppClip & Apple Wallet</h3>
-<p>Visitors can save your card to their wallet — no NFC.cool account required.</p>
+<h3>Real-time insights</h3>
+<p>Profile views, contact saves, and lead conversions broken down daily, weekly, and monthly — so you actually know which events are working.</p>
 </article>
 
 <article class="page-card">
-<h3>Live tracking</h3>
-<p>See impression counts, save counts, and which sharing method was used — never the visitor's identity.</p>
+<h3>Privacy you control</h3>
+<p>Public searchable profiles or PIN-protected private cards. GDPR-compliant data export (ZIP) at any time. Tracking is counts-only, never identities.</p>
+</article>
+
+<article class="page-card">
+<h3>Professional appearance</h3>
+<p>Light and dark mode logos, custom background, border, and tile colors. The card automatically adapts to your recipient's appearance preference.</p>
+</article>
+
+<article class="page-card">
+<h3>Eco-friendly</h3>
+<p>One digital card replaces a stack of paper. Update anytime — every change reflects immediately, no reprint, no waste.</p>
 </article>
 
 </div>
@@ -77,19 +87,109 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 
 <section class="page-section">
 
-## Conference Mode
+## Complete feature set
 
-For trade shows, meetups, and live events. Switch to Conference Mode and the app keeps the share screen active, automatically counts each tap, and lets you take quick notes against each new contact - instantly synced to your card history when the conference ends.
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>📇 Smart business cards</h3>
+<ul>
+<li><strong>Digital card creation</strong> — build cards that match your brand</li>
+<li><strong>Up to 100 cards</strong> — for different roles, occasions, or teammates</li>
+<li><strong>Import from Contacts</strong> — turn any existing contact into a card</li>
+<li><strong>Always up to date</strong> — edits reflect immediately, no reprint</li>
+</ul>
+</article>
+
+<article class="page-card">
+<h3>🎨 Customization & branding</h3>
+<ul>
+<li><strong>Customizable logos</strong> — separate light and dark mode marks</li>
+<li><strong>Custom colors</strong> — background, border, and tile colors (iOS)</li>
+<li><strong>Dark & light mode</strong> — card adapts to viewer's system preference</li>
+</ul>
+</article>
+
+<article class="page-card">
+<h3>🤝 Lead generation & networking <em>iOS</em></h3>
+<ul>
+<li><strong>Lead-capture forms</strong> — collect contact info from viewers</li>
+<li><strong>Status tracking</strong> — New → Contacted → Qualified → Converted → Archived</li>
+<li><strong>Real-time notifications</strong> — instant push when someone connects</li>
+<li><strong>Calendar & Reminders</strong> — schedule follow-ups directly from a lead</li>
+</ul>
+</article>
+
+<article class="page-card">
+<h3>📊 Analytics <em>iOS</em></h3>
+<ul>
+<li><strong>Profile views</strong> — see exactly how many people opened your card</li>
+<li><strong>Contact saves</strong> — track who saved you to their phone</li>
+<li><strong>Daily / weekly / monthly</strong> breakdowns in the dashboard</li>
+<li><strong>Trend analysis</strong> — understand your networking over time</li>
+</ul>
+</article>
+
+<article class="page-card">
+<h3>🔒 Privacy & security</h3>
+<ul>
+<li><strong>PIN-protected profiles</strong> — 4-digit PIN, rate-limited verification</li>
+<li><strong>Public / private toggle</strong> — searchable or invisible by URL only</li>
+<li><strong>GDPR data export</strong> — download everything as a ZIP at any time</li>
+<li><strong>Session security</strong> — automatic PIN-session timeout</li>
+</ul>
+</article>
+
+<article class="page-card">
+<h3>🌐 Sharing & connectivity</h3>
+<ul>
+<li><strong>Social platforms</strong> — Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord and more</li>
+<li><strong>NFC, QR, custom URL</strong> — three sharing modes, one tap each</li>
+<li><strong>AppClip <em>iOS</em></strong> — receivers see your card without installing</li>
+<li><strong>Cross-platform</strong> — works on iOS and Android</li>
+</ul>
+</article>
+
+</div>
 
 </section>
 
 <section class="page-section">
 
-## Privacy
+## Conference Mode <em>iOS</em>
 
-Card content lives on your device. Visitors who save your card do so directly in their iPhone Contacts - NFC.cool never sees them. Tracking analytics show counts only; no personal data of visitors is collected.
+For trade shows, meetups, and live events. Switch to Conference Mode and your QR code lives on the iPhone Lock Screen as a Live Activity — bring your phone out, tap once, and your card is shareable without unlocking. Every tap counts toward your event analytics, and notes attached to a new lead sync back to your card history when the conference ends.
 
-For details, see the [Privacy policy](/privacy/).
+</section>
+
+<section class="page-section">
+
+## Pricing
+
+Choose the plan that fits how much you network. All paid plans include vCard save, lead generation, analytics, and unlimited sharing.
+
+<div class="feature-comparison-wrap">
+<table class="feature-comparison-table">
+<thead>
+<tr><th></th><th scope="col">Free</th><th scope="col">Personal</th><th scope="col">Small&nbsp;Business</th><th scope="col">Business</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Price</th><td><strong>$0</strong></td><td><strong>$19.99</strong></td><td><strong>$49.99</strong></td><td><strong>$99.99</strong></td></tr>
+<tr><th scope="row">Cards</th><td>1</td><td>1</td><td>10</td><td>100</td></tr>
+<tr><th scope="row">Profile viewing</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">vCard save</th><td>—</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Lead generation</th><td>—</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Analytics</th><td>—</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Custom logo</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">NFC & QR sharing</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Conference Mode</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">PIN protection</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Real-time notifications</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Data export (GDPR)</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Ideal for</th><td>Testing</td><td>Individuals</td><td>Small teams</td><td>Growing companies</td></tr>
+</tbody>
+</table>
+</div>
 
 </section>
 
@@ -97,6 +197,6 @@ For details, see the [Privacy policy](/privacy/).
 
 ## On Android
 
-The Business Card feature on Android is built into [NFC.cool Tools](https://android.nfc.cool) - no second app. Open the app, set up your card, tap to share. Same data model, same NFC handshake, same QR fallback.
+The Business Card feature on Android is built into [NFC.cool Tools](https://android.nfc.cool) — no second app. Open the app, set up your card, tap to share. Same data model, same NFC handshake, same QR fallback. Lead-generation, advanced analytics, and Conference Mode are currently iOS-only.
 
 </section>
