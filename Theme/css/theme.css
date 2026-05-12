@@ -372,34 +372,37 @@ body.landing .sk-site-footer {
 }
 .sk-footer-inner {
    display: grid;
-   grid-template-columns: 1fr auto;
+   grid-template-columns: 1fr;
    grid-template-areas:
-      "links   links"
-      "rule    rule"
-      "copy    socials";
+      "links"
+      "rule"
+      "socials"
+      "copy";
    gap: 0;
    max-width: var(--max-width);
    margin: 0 auto;
-   align-items: center;
+   text-align: center;
 }
-.sk-footer-left   { grid-area: socials; justify-self: end; }
-.sk-footer-center { grid-area: copy;    justify-self: start; }
-.sk-footer-right  { grid-area: links;   justify-self: stretch; }
+.sk-footer-left   { grid-area: socials; justify-self: center; }
+.sk-footer-center { grid-area: copy;    justify-self: center; margin-top: 1rem; }
+.sk-footer-right  { grid-area: links;   justify-self: center; }
 
-/* Thin divider between link row and copyright/socials row, drawn via grid pseudo */
+/* Thin divider between link row and socials/copyright stack */
 .sk-footer-inner::before {
    content: "";
    grid-area: rule;
    height: 1px;
    background: var(--color-border-light);
-   margin: 1.5rem 0 1.25rem;
+   margin: 1.5rem auto 1.5rem;
    width: 100%;
+   max-width: 720px;
 }
 
-/* Nav link row — wraps gracefully, evenly spaced */
+/* Nav link row — wraps gracefully, evenly spaced, centered */
 .sk-footer-links {
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    gap: 0.5rem 1.75rem;
    list-style: none;
    margin: 0;
@@ -414,10 +417,11 @@ body.landing .sk-site-footer {
 }
 .sk-footer-links a:hover { color: var(--color-text); }
 
-/* Social icon row — rounded chips, monochrome icons via mask */
+/* Social icon row — rounded chips, monochrome icons via mask, centered */
 .sk-social-links {
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    gap: 0.5rem;
    list-style: none;
    margin: 0;
@@ -488,7 +492,9 @@ body.landing .sk-site-footer {
 }
 .sk-social-links a[href$="/feed.xml"]::before,
 .sk-social-links a[href$="/feed.rss"]::before {
-   --sk-social-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416 0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96 14.3 96 0 81.7 0 64zM0 224c0-17.7 14.3-32 32-32 141.4 0 256 114.6 256 256 0 17.7-14.3 32-32 32s-32-14.3-32-32c0-106-86-192-192-192-17.7 0-32-14.3-32-32zM96 416a64 64 0 1 1 128 0 64 64 0 1 1 -128 0z"/></svg>');
+   /* Square-viewBox RSS icon — matches the chip's aspect ratio so the
+      antennas sit visually centered like the platform icons next to it. */
+   --sk-social-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3c9.941 0 18 8.059 18 18h-3c0-8.284-6.716-15-15-15V3zm0 7c6.075 0 11 4.925 11 11h-3c0-4.418-3.582-8-8-8v-3zm2 11a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/></svg>');
 }
 
 .sk-copyright {
