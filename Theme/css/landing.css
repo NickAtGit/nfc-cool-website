@@ -1111,7 +1111,10 @@
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
    gap: 0.75rem;
-   max-width: var(--max-width);
+   /* Match the 760px reading column that .page-section > details (FAQ
+      cards) uses, so the Social Media grid sits at the same width as the
+      FAQ block above it. */
+   max-width: 760px;
    margin: 0 auto;
 }
 .contact-social-card {
