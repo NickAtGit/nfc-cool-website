@@ -537,7 +537,7 @@
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
    gap: 1.25rem;
-   max-width: 1100px;
+   max-width: var(--max-width);
    margin: 0 auto;
 }
 .landing-review-card {
@@ -1001,8 +1001,10 @@
    margin-right: auto;
 }
 
-/* Section title — left-aligned to match the landing feature-grid /
-   feature-banner / faq / reviews section titles. */
+/* Section title — text-align left, but the h2's box keeps the same
+   max-width + auto-margins (inherited from .page-section > *), so the
+   left edge of the text aligns with the left edge of the .page-cards-grid
+   below it instead of hugging the section's outer padding. */
 .page-section h2 {
    font-family: var(--font-heading);
    font-weight: 700;
@@ -1010,7 +1012,7 @@
    line-height: 1.15;
    letter-spacing: -0.015em;
    color: var(--color-text);
-   margin: 0 0 2rem;
+   margin: 0 auto 2rem;
    text-align: left;
    max-width: var(--max-width);
 }
