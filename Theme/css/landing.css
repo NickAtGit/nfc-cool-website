@@ -1033,19 +1033,12 @@
    font-size: 1.125rem;
    color: var(--color-text);
    margin: 1.5rem auto 0.5rem;
-   max-width: 760px;
 }
 
-/* Prose content sits in a 760px reading column */
-.page-section p,
-.page-section ul,
-.page-section ol,
-.page-section blockquote,
-.page-section > details {
-   max-width: 760px;
-   margin-left: auto;
-   margin-right: auto;
-}
+/* Prose, lists, and FAQ items inherit max-width: var(--max-width) from
+   .page-section > * so every direct child sits at the same 1200px tier
+   as the card grids / tables / galleries / heros. No more mid-scroll
+   wobble between cards (1200) and prose (760). */
 .page-section p {
    line-height: 1.65;
    color: var(--color-text-secondary);
@@ -1122,10 +1115,9 @@
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
    gap: 0.75rem;
-   /* Match the 760px reading column that .page-section > details (FAQ
-      cards) uses, so the Social Media grid sits at the same width as the
-      FAQ block above it. */
-   max-width: 760px;
+   /* Inherit the 1200px container all .page-section direct children use,
+      so the grid lines up with the hero + FAQ block above it. */
+   max-width: var(--max-width);
    margin: 0 auto;
 }
 .contact-social-card {
