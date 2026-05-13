@@ -1223,36 +1223,9 @@
    Blog index (/blog/, /changelog/) - gradient hero + card grid
    ============================================================ */
 .blog-index-hero {
-   position: relative;
-   background: var(--brand-gradient);
-   color: #FFFFFF;
    padding: clamp(4rem, 9vw, 6.5rem) 0 clamp(3rem, 6vw, 4.5rem);
-   overflow: hidden;
-   isolation: isolate;
-   text-align: center;
 }
-.blog-index-hero.page-hero { background: var(--brand-gradient); color: #FFFFFF; }
 .blog-index-hero .blog-index-rss { margin-top: 0.25rem; }
-.blog-index-hero::before {
-   content: "";
-   position: absolute;
-   inset: 0;
-   background: radial-gradient(at 70% 25%, rgba(255,255,255,0.18) 0%, transparent 55%);
-   pointer-events: none;
-   z-index: -1;
-}
-.blog-index-hero::after {
-   content: "";
-   position: absolute;
-   inset: 0;
-   background-image:
-      radial-gradient(circle at 0 0, rgba(255,255,255,0.04) 1px, transparent 1px),
-      radial-gradient(circle at 8px 8px, rgba(255,255,255,0.04) 1px, transparent 1px);
-   background-size: 16px 16px;
-   pointer-events: none;
-   opacity: 0.5;
-   z-index: -1;
-}
 .blog-index-title {
    font-family: var(--font-heading);
    font-weight: 700;
@@ -1409,39 +1382,12 @@
    gradient hero + reading column + related
    ============================================================ */
 .blog-post-hero {
-   position: relative;
-   background: var(--brand-gradient);
-   color: #FFFFFF;
    padding: clamp(3.5rem, 7vw, 5.5rem) 0 clamp(3rem, 5vw, 4rem);
-   overflow: hidden;
-   isolation: isolate;
-   text-align: center;
 }
-.blog-post-hero.page-hero { background: var(--brand-gradient); color: #FFFFFF; }
 .blog-post-hero .blog-post-meta { margin: 0; }
 .blog-post-hero .blog-post-tags { justify-content: flex-start; }
 @media (max-width: 900px) {
    .blog-post-hero .blog-post-tags { justify-content: center; }
-}
-.blog-post-hero::before {
-   content: "";
-   position: absolute;
-   inset: 0;
-   background: radial-gradient(at 70% 25%, rgba(255,255,255,0.18) 0%, transparent 55%);
-   pointer-events: none;
-   z-index: -1;
-}
-.blog-post-hero::after {
-   content: "";
-   position: absolute;
-   inset: 0;
-   background-image:
-      radial-gradient(circle at 0 0, rgba(255,255,255,0.04) 1px, transparent 1px),
-      radial-gradient(circle at 8px 8px, rgba(255,255,255,0.04) 1px, transparent 1px);
-   background-size: 16px 16px;
-   pointer-events: none;
-   opacity: 0.5;
-   z-index: -1;
 }
 .blog-post-back {
    margin: 0 0 0.75rem;
