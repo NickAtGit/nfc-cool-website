@@ -79,6 +79,6 @@ I keep it that way on purpose. No VC, no analytics, no growth team — just one 
 
 The fastest way to reach me is by email — <hello@nfc.cool>. I read everything personally. Feature requests directly shape the roadmap; bug reports get triaged within a day.
 
-For press inquiries, see the [press page](/press/). For company details, the [imprint](/impressum/).
+For press inquiries, see the [press page](/press/).
 
 </section>

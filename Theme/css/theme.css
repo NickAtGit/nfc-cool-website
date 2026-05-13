@@ -371,19 +371,10 @@ body.landing .sk-main {
    margin: 0;
    padding: 0;
 }
-/* Static pages keep a centered measure */
-/* Legal pages (Privacy, Terms, Impressum) - SiteKit's StaticPageRenderer
-   gives each a body class like `sk-page-privacy`. Constrain their .sk-main
-   to a reading column. All other non-landing pages have their own custom
-   layout via .page-hero / .blog-* / .feature-* / .features-* sections that
-   handle width on their own. */
-.sk-page-privacy .sk-main,
-.sk-page-terms .sk-main,
-.sk-page-impressum .sk-main {
-   max-width: var(--content-width);
-   margin: 0 auto;
-   padding: 3rem 1.5rem 4rem;
-}
+/* Legal + marketing pages all render full-bleed: each authors its own
+   .page-hero (full-width brand-blue gradient) followed by .page-section
+   blocks that handle their own measure via the marketing layer. No
+   per-slug overrides needed here. */
 
 /* ============================================================
    Static pages (Privacy, Imprint)
@@ -701,10 +692,6 @@ body.sk-mobile-menu-open { overflow: hidden; }
    /* Lang + theme buttons sit beside the burger — neutralize the negative
       margin used on desktop to prevent overlap */
    .sk-lang-picker + .sk-theme-toggle { margin-left: 0; }
-
-   .sk-page-privacy .sk-main,
-   .sk-page-terms .sk-main,
-   .sk-page-impressum .sk-main { padding: 2rem 1rem 3rem; }
 
    /* Footer stacks centered on mobile */
    .sk-footer-inner {

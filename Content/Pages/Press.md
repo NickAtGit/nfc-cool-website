@@ -1,7 +1,7 @@
 ---
 title: "Press & brand kit"
 slug: "press"
-description: "Press resources, brand assets, and contact details for journalists and partners covering NFC.cool."
+description: "Press resources, brand assets, logos, screenshots, and contact details for journalists and partners covering NFC.cool."
 ---
 
 <section class="page-hero">
@@ -12,7 +12,7 @@ description: "Press resources, brand assets, and contact details for journalists
 
 # Press & brand
 
-For coverage, partnerships, and anything that needs an official statement, this is the right place to start.
+For coverage, partnerships, and anything that needs an official statement, this is the right place to start. Press kit and brand kit are linked below — no form to fill in.
 
 <a href="mailto:hello@nfc.cool?subject=Press%20inquiry" class="landing-cta-button">Email press@nfc.cool</a>
 
@@ -28,13 +28,35 @@ For coverage, partnerships, and anything that needs an official statement, this 
 
 <section class="page-section">
 
+## Downloads
+
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Press kit</h3>
+<p>Curated screenshots, app icons, and recent product shots, ready to embed. Hosted on iCloud Drive — no account needed to view or download.</p>
+<p><a href="https://www.icloud.com/iclouddrive/0e7Gy46aFsq8U2kqEyIs9Wleg#NFC.cool_Press_Kit" class="landing-cta-button">Open press kit</a></p>
+</article>
+
+<article class="page-card">
+<h3>Brand kit</h3>
+<p>Logos (light + dark, SVG + PNG), color palette, typography spec, and clear-space guidance. Same iCloud Drive setup — open directly, no Apple ID required.</p>
+<p><a href="https://www.icloud.com/iclouddrive/0ebMuI8X63LN-CiUiF8YlVb2A#NFC.cool_Brand_Kit" class="landing-cta-button">Open brand kit</a></p>
+</article>
+
+</div>
+
+</section>
+
+<section class="page-section">
+
 ## At a glance
 
 <div class="page-cards-grid">
 
 <article class="page-card">
 <h3>What it is</h3>
-<p>NFC.cool is a family of independent apps for NFC, QR, Document, 3D, and Room Scanning, plus a dedicated Digital Business Card, by Nicolo Stanciu.</p>
+<p>NFC.cool is a family of independent apps for NFC, QR, document, 3D, and room scanning, plus a dedicated digital business card, by Nicolo Stanciu.</p>
 </article>
 
 <article class="page-card">
@@ -58,33 +80,25 @@ For coverage, partnerships, and anything that needs an official statement, this 
 
 <section class="page-section">
 
-## Brand kit
+## Brand basics
 
-Logos, color palette, font specs, and product screenshots.
+<div class="page-cards-grid">
 
-- [Brand kit (Apple iCloud Drive)](https://www.icloud.com/) <!-- TODO: paste real iCloud Drive share URL here -->
-- Brand palette: yellow `#FFC709`, dark `#0E1116`, light `#FFFFFF`.
-- Primary typeface: Titillium Web (open source, SIL OFL).
+<article class="page-card">
+<h3>Color palette</h3>
+<p>Brand yellow <code>#FFC709</code> · brand black <code>#0E1116</code> · brand white <code>#FFFFFF</code>. Yellow is the accent; reserve it for moments that need to pop.</p>
+</article>
 
-When using NFC.cool marks, keep the word *cool* lowercase and adjacent to the period. Do not stretch, recolor, or reflow the logo.
+<article class="page-card">
+<h3>Typography</h3>
+<p>Primary typeface <strong>Titillium Web</strong> (open source, SIL OFL). Script accents in <strong>Caveat</strong>. Both bundled in the brand kit.</p>
+</article>
 
-</section>
+<article class="page-card">
+<h3>Wordmark usage</h3>
+<p>Keep <em>cool</em> lowercase and adjacent to the period. Do not stretch, recolor, or reflow the logo. Always leave clear-space equal to the height of the "N".</p>
+</article>
 
-<section class="page-section">
-
-## Press kit
-
-Curated screenshots, app icons, and recent product shots, ready to embed.
-
-- [Press kit (Apple iCloud Drive)](https://www.icloud.com/) <!-- TODO: paste real iCloud Drive share URL here -->
-- App Store listings have additional 16:9 hero shots ready for use.
-
-</section>
-
-<section class="page-section">
-
-## Imprint & legal
-
-See the [Imprint](/impressum/) for company details (§ 5 TMG) and the [Privacy policy](/privacy/) for data handling.
+</div>
 
 </section>

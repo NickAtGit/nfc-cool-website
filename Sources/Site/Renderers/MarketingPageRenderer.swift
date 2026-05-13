@@ -9,28 +9,20 @@ import SiteKit
 ///     `<div class="sk-article-body">…</div>`
 ///   `</article>`
 ///
-/// That works for legal pages (where the markdown body has no h1), but it
-/// double-renders the title on marketing pages that author their own
-/// `<section class="page-hero"><h1>…</h1></section>` at the top of the body.
-/// It also injects link-underline styling via base.css `.sk-article-body :is(…) a`
+/// That double-renders the title on pages that author their own
+/// `<section class="page-hero"><h1>…</h1></section>` at the top of the body,
+/// and it injects link-underline styling via base.css `.sk-article-body :is(…) a`
 /// that competes with our brand-yellow border-bottom treatment.
 ///
-/// Strategy:
-/// - **Legal pages** (privacy, terms, impressum) keep SiteKit's wrapper so they
-///   get the auto-h1 and continue to look like reading documents.
-/// - **Marketing pages** drop the wrapper - the markdown's `.page-hero` is the
-///   first thing inside `<main>`, no duplicate title, no inherited link rules.
+/// Every static page on this site now authors its own `.page-hero` in
+/// markdown, so we always drop the SiteKit wrapper — the markdown's hero is
+/// the first thing inside `<main>`, no duplicate title, no inherited link
+/// rules.
 struct MarketingPageRenderer: Renderer {
-   /// Slugs treated as legal documents - keep the SiteKit reading-doc shell.
-   private let legalSlugs: Set<String> = ["privacy", "terms", "impressum"]
-
    func render(context: BuildContext) throws -> [OutputFile] {
       let helper = OutputFileRenderer(context: context)
       return context.staticPages.map { page in
-         if self.legalSlugs.contains(page.slug) {
-            return helper.renderStaticPage(page)
-         }
-         return self.renderMarketingPage(page, context: context, helper: helper)
+         self.renderMarketingPage(page, context: context, helper: helper)
       }
    }
 

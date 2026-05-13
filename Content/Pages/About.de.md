@@ -79,6 +79,6 @@ Ich halte das absichtlich so. Kein VC, keine Analytics, kein Growth-Team - nur e
 
 Am schnellsten erreichst du mich per E-Mail - <hello@nfc.cool>. Ich lese alles persönlich. Feature-Wünsche fließen direkt in die Roadmap; Fehlerberichte werden innerhalb eines Tages bearbeitet.
 
-Für Presseanfragen siehe die [Presseseite](/de/press/). Für Firmendaten das [Impressum](/de/impressum/).
+Für Presseanfragen siehe die [Presseseite](/de/press/).
 
 </section>

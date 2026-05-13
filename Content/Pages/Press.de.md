@@ -1,7 +1,7 @@
 ---
 title: "Presse & Brand Kit"
 slug: "press"
-description: "Presse-Ressourcen, Marken-Assets und Kontaktdaten für Journalist:innen und Partner, die über NFC.cool berichten."
+description: "Presse-Ressourcen, Marken-Assets, Logos, Screenshots und Kontaktdaten für Journalist:innen und Partner, die über NFC.cool berichten."
 ---
 
 <section class="page-hero">
@@ -12,7 +12,7 @@ description: "Presse-Ressourcen, Marken-Assets und Kontaktdaten für Journalist:
 
 # Presse & Marke
 
-Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage benötigt, beginnst du hier richtig.
+Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage benötigt, beginnst du hier richtig. Press Kit und Brand Kit sind unten verlinkt – kein Formular auszufüllen.
 
 <a href="mailto:hello@nfc.cool?subject=Presseanfrage" class="landing-cta-button">press@nfc.cool schreiben</a>
 
@@ -21,6 +21,28 @@ Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage ben
 <div class="page-hero-visual is-brand">
 <img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="NFC.cool Wortmarke" loading="eager" fetchpriority="high"/>
 </div>
+
+</div>
+
+</section>
+
+<section class="page-section">
+
+## Downloads
+
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Press Kit</h3>
+<p>Kuratierte Screenshots, App-Icons und aktuelle Produktbilder, fertig zum Einbinden. Auf iCloud Drive – kein Apple-ID-Login nötig zum Ansehen oder Herunterladen.</p>
+<p><a href="https://www.icloud.com/iclouddrive/0e7Gy46aFsq8U2kqEyIs9Wleg#NFC.cool_Press_Kit" class="landing-cta-button">Press Kit öffnen</a></p>
+</article>
+
+<article class="page-card">
+<h3>Brand Kit</h3>
+<p>Logos (hell + dunkel, SVG + PNG), Farbpalette, Schriftspezifikation und Schutzraum-Hinweise. Ebenfalls iCloud Drive – direkt öffnen, ohne Apple ID.</p>
+<p><a href="https://www.icloud.com/iclouddrive/0ebMuI8X63LN-CiUiF8YlVb2A#NFC.cool_Brand_Kit" class="landing-cta-button">Brand Kit öffnen</a></p>
+</article>
 
 </div>
 
@@ -58,33 +80,25 @@ Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage ben
 
 <section class="page-section">
 
-## Brand Kit
+## Markenbasis
 
-Logos, Farbpalette, Schriftspezifikationen und Produkt-Screenshots.
+<div class="page-cards-grid">
 
-- [Brand Kit (Apple iCloud Drive)](https://www.icloud.com/) <!-- TODO: echte iCloud-Drive-Share-URL einfügen -->
-- Markenpalette: Gelb `#FFC709`, dunkel `#0E1116`, hell `#FFFFFF`.
-- Hauptschriftart: Titillium Web (Open Source, SIL OFL).
+<article class="page-card">
+<h3>Farbpalette</h3>
+<p>Markengelb <code>#FFC709</code> · Markenschwarz <code>#0E1116</code> · Markenweiß <code>#FFFFFF</code>. Gelb ist der Akzent – für Momente, die heraus­stechen sollen.</p>
+</article>
 
-Beim Einsatz der NFC.cool-Marken bleibt *cool* klein geschrieben und direkt am Punkt. Logo bitte nicht strecken, umfärben oder umsetzen.
+<article class="page-card">
+<h3>Typografie</h3>
+<p>Hauptschrift <strong>Titillium Web</strong> (Open Source, SIL OFL). Akzente in <strong>Caveat</strong>. Beide im Brand Kit enthalten.</p>
+</article>
 
-</section>
+<article class="page-card">
+<h3>Wortmarken-Nutzung</h3>
+<p><em>cool</em> bleibt klein und direkt am Punkt. Logo nicht strecken, nicht umfärben, nicht umsetzen. Schutzraum: Höhe des „N" rundherum freihalten.</p>
+</article>
 
-<section class="page-section">
-
-## Press Kit
-
-Kuratierte Screenshots, App-Icons und aktuelle Produkt-Aufnahmen, bereit zum Einbinden.
-
-- [Press Kit (Apple iCloud Drive)](https://www.icloud.com/) <!-- TODO: echte iCloud-Drive-Share-URL einfügen -->
-- App-Store-Listings haben zusätzliche 16:9-Hero-Shots zur Verwendung.
-
-</section>
-
-<section class="page-section">
-
-## Impressum & Rechtliches
-
-Siehe das [Impressum](/de/impressum/) für Firmenangaben (§ 5 TMG) und die [Datenschutzerklärung](/de/privacy/) für den Umgang mit Daten.
+</div>
 
 </section>
