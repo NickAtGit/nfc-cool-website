@@ -48,6 +48,6 @@ Remember that the main application for NFC on iPhones is reading NFC Data Exchan
 
 If you're looking for NFC tags to use with your iPhone, Type 2 tags from the NTAG series by NXP Semiconductors are your best option. They're cost-effective and offer the best compatibility and functionality for what most people want to do with NFC on iPhones.
 
-The world of NFC is continually evolving, so keep an eye on the latest developments and tag specifications for best performance. For more, see our earlier post on [tapping into the magic of NFC on iPhones](https://nfc.cool/post/tapping-into-the-magic-of-nfc-on-iphones-an-insiders-look) (link goes to the legacy site while we migrate older posts).
+The world of NFC is continually evolving, so keep an eye on the latest developments and tag specifications for best performance. For more, see our earlier post on [tapping into the magic of NFC on iPhones](/blog/nfc-on-iphones-insider-look/).
 
 Happy tagging!

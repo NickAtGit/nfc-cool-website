@@ -48,6 +48,6 @@ Denk dran: Der Hauptanwendungsfall von NFC auf iPhones ist das Lesen von NFC-Dat
 
 Wenn du NFC-Tags für dein iPhone suchst, sind Type-2-Tags aus der NTAG-Serie von NXP Semiconductors die beste Option. Sie sind kostengünstig und bieten die beste Kompatibilität und Funktionalität für das, was die meisten Leute mit NFC auf dem iPhone tun wollen.
 
-Die NFC-Welt entwickelt sich ständig weiter, also behalte aktuelle Entwicklungen und Tag-Spezifikationen im Auge, um die beste Performance zu erzielen. Mehr dazu findest du in unserem früheren Post über [die Magie von NFC auf iPhones](https://nfc.cool/post/tapping-into-the-magic-of-nfc-on-iphones-an-insiders-look) (Link führt zur Legacy-Seite, während wir ältere Posts migrieren).
+Die NFC-Welt entwickelt sich ständig weiter, also behalte aktuelle Entwicklungen und Tag-Spezifikationen im Auge, um die beste Performance zu erzielen. Mehr dazu findest du in unserem früheren Post über [die Magie von NFC auf iPhones](/de/blog/nfc-on-iphones-insider-look/).
 
 Happy Tagging!
