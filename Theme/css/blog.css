@@ -1,0 +1,328 @@
+/* ============================================================
+   blog.css
+   Blog hub (BlogIndexRenderer) + blog post (BlogPostRenderer)
+   under /blog/ and /changelog/.
+
+   Both BlogIndexRenderer and BlogPostRenderer emit class lists
+   that include `.page-hero` (e.g. class="page-hero blog-index-hero"),
+   so the rules in marketing.css apply via cascade. This file must
+   load AFTER marketing.css per theme.yaml's css: ordering.
+
+   Final cascade order:
+   theme.css → landing.css → marketing.css → blog.css → features.css.
+   ============================================================ */
+
+/* ============================================================
+   Blog index (/blog/, /changelog/) - gradient hero + card grid
+   ============================================================ */
+.blog-index-hero {
+   padding: clamp(4rem, 9vw, 6.5rem) 0 clamp(3rem, 6vw, 4.5rem);
+}
+.blog-index-hero .blog-index-rss { margin-top: 0.25rem; }
+.blog-index-title {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(2rem, 5vw, 3.25rem);
+   line-height: 1.1;
+   letter-spacing: -0.02em;
+   margin: 0 0 0.75rem;
+   color: #FFFFFF;
+}
+.blog-index-subtitle {
+   font-size: clamp(1rem, 1.3vw, 1.1875rem);
+   line-height: 1.55;
+   color: rgba(255, 255, 255, 0.92);
+   max-width: 38em;
+   margin: 0 auto 1rem;
+}
+.blog-index-rss {
+   display: inline-flex;
+   align-items: center;
+   gap: 0.375rem;
+   padding: 0.3rem 0.75rem;
+   border: 1px solid rgba(255, 255, 255, 0.30);
+   border-radius: 999px;
+   color: #FFFFFF;
+   text-decoration: none;
+   font-family: var(--font-heading);
+   font-size: 0.75rem;
+   font-weight: 600;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+.blog-index-rss:hover {
+   color: #FFFFFF;
+   background: rgba(255, 255, 255, 0.10);
+}
+.blog-index-grid-section {
+   padding: clamp(3.5rem, 7vw, 6rem) 0 clamp(4rem, 8vw, 7rem);
+   background: var(--color-bg);
+}
+.blog-card-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   gap: 1.25rem;
+   max-width: var(--max-width);
+   margin: 0 auto;
+}
+.blog-card {
+   display: flex;
+   flex-direction: column;
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-lg);
+   text-decoration: none;
+   color: inherit;
+   box-shadow: 0 1px 2px var(--color-shadow);
+   transition: transform var(--transition), box-shadow var(--transition);
+   overflow: hidden;
+}
+.blog-card:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 12px 32px var(--color-shadow-lg);
+   color: inherit;
+}
+.blog-card-image {
+   aspect-ratio: 16 / 9;
+   background: var(--color-bg-alt);
+   overflow: hidden;
+}
+.blog-card-image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+/* Brand-gradient placeholder shown when a post has no hero image yet.
+   Centers the white wordmark on the gradient so cards-without-art
+   still feel intentional in the grid. */
+.blog-card-image.is-placeholder {
+   background: var(--brand-gradient);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   isolation: isolate;
+}
+.blog-card-image.is-placeholder::after {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: radial-gradient(at 70% 25%, rgba(255,255,255,0.16) 0%, transparent 55%);
+   pointer-events: none;
+   z-index: -1;
+}
+.blog-card-image.is-placeholder img {
+   width: auto;
+   height: auto;
+   max-width: 60%;
+   max-height: 50%;
+   object-fit: contain;
+   opacity: 0.92;
+}
+.blog-card-body {
+   padding: 1.25rem 1.25rem 1.5rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   flex: 1;
+}
+.blog-card-meta {
+   font-size: 0.75rem;
+   font-weight: 600;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
+   color: var(--color-text-muted);
+   margin: 0;
+}
+.blog-card-title {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: 1.125rem;
+   line-height: 1.3;
+   color: var(--color-text);
+   margin: 0;
+}
+.blog-card-summary {
+   font-size: 0.9375rem;
+   line-height: 1.55;
+   color: var(--color-text-secondary);
+   margin: 0;
+   /* clamp to 3 lines for visual consistency */
+   display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+.blog-card-tags {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.375rem;
+   margin-top: auto;
+   padding-top: 0.5rem;
+}
+.blog-card-tag {
+   font-size: 0.6875rem;
+   font-weight: 600;
+   padding: 0.2rem 0.55rem;
+   border-radius: 999px;
+   background: var(--color-bg-alt);
+   color: var(--color-text-muted);
+   letter-spacing: 0.02em;
+}
+
+/* ============================================================
+   Blog post (/blog/{slug}/, /changelog/{slug}/) -
+   gradient hero + reading column + related
+   ============================================================ */
+.blog-post-hero {
+   padding: clamp(3.5rem, 7vw, 5.5rem) 0 clamp(3rem, 5vw, 4rem);
+}
+.blog-post-hero .blog-post-meta { margin: 0; }
+.blog-post-hero .blog-post-tags { justify-content: flex-start; }
+@media (max-width: 900px) {
+   .blog-post-hero .blog-post-tags { justify-content: center; }
+}
+.blog-post-back {
+   margin: 0 0 0.75rem;
+   font-size: 0.8125rem;
+   font-weight: 600;
+   letter-spacing: 0.04em;
+}
+.blog-post-back a {
+   color: rgba(255, 255, 255, 0.82);
+   text-decoration: none;
+   border-bottom: 1px solid transparent;
+   transition: color var(--transition), border-color var(--transition);
+}
+.blog-post-back a:hover {
+   color: #FFFFFF;
+   border-bottom-color: var(--color-accent);
+}
+.blog-post-title {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(1.875rem, 4.5vw, 2.875rem);
+   line-height: 1.15;
+   letter-spacing: -0.02em;
+   color: #FFFFFF;
+   margin: 0 auto 0.75rem;
+   max-width: 24ch;
+}
+.blog-post-meta {
+   margin: 0 auto;
+   color: rgba(255, 255, 255, 0.78);
+   font-size: 0.875rem;
+   display: inline-flex;
+   gap: 0.5rem;
+   align-items: center;
+}
+.blog-post-tags {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 0.375rem;
+   margin-top: 1rem;
+}
+.blog-post-tag {
+   font-size: 0.6875rem;
+   font-weight: 600;
+   padding: 0.25rem 0.7rem;
+   border-radius: 999px;
+   background: rgba(255, 255, 255, 0.14);
+   color: #FFFFFF;
+   letter-spacing: 0.04em;
+}
+.blog-post-hero-image-section {
+   background: var(--color-bg);
+   padding: 0;
+}
+.blog-post-hero-image {
+   max-width: 880px;
+   margin: -3rem auto 0;
+   border-radius: var(--radius-lg);
+   overflow: hidden;
+   box-shadow: 0 24px 60px -20px var(--color-shadow-lg);
+   aspect-ratio: 16 / 9;
+   background: var(--color-bg-alt);
+}
+.blog-post-hero-image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+}
+.blog-post-body-section {
+   padding: clamp(3rem, 6vw, 5rem) 0;
+   background: var(--color-bg);
+}
+.blog-post-body {
+   max-width: var(--prose-width);
+   margin: 0 auto;
+   font-size: 1.0625rem;
+   line-height: 1.7;
+   color: var(--color-text-secondary);
+}
+.blog-post-body h2 {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(1.375rem, 2.5vw, 1.75rem);
+   line-height: 1.25;
+   color: var(--color-text);
+   margin: 2.25rem 0 1rem;
+   letter-spacing: -0.015em;
+}
+.blog-post-body h3 {
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 1.125rem;
+   color: var(--color-text);
+   margin: 1.75rem 0 0.5rem;
+}
+.blog-post-body p { margin: 0 0 1.1em; }
+.blog-post-body ul,
+.blog-post-body ol { padding-left: 1.5rem; margin: 0 0 1.1em; }
+.blog-post-body li { margin: 0.35rem 0; }
+.blog-post-body a {
+   color: var(--color-text);
+   border-bottom: 1px solid var(--color-accent);
+   text-decoration: none;
+}
+.blog-post-body a:hover { color: var(--color-accent-hover); }
+.blog-post-body blockquote {
+   margin: 1.5rem 0;
+   padding: 0.5rem 1.25rem;
+   border-left: 3px solid var(--color-accent);
+   color: var(--color-text);
+   font-style: italic;
+}
+.blog-post-body code {
+   font-family: var(--font-mono);
+   background: var(--color-code-bg);
+   color: var(--color-code-text);
+   padding: 0.15em 0.4em;
+   border-radius: 4px;
+   font-size: 0.9em;
+}
+.blog-post-body pre {
+   margin: 1.5rem 0;
+   padding: 1rem 1.25rem;
+   background: var(--color-code-bg);
+   border-radius: var(--radius);
+   overflow-x: auto;
+   font-size: 0.875rem;
+   line-height: 1.55;
+}
+.blog-post-body pre code {
+   background: transparent;
+   padding: 0;
+   font-size: inherit;
+}
+.blog-post-body img {
+   max-width: 100%;
+   border-radius: var(--radius);
+   margin: 1.5rem auto;
+}
+.blog-post-related {
+   padding: clamp(3.5rem, 7vw, 5rem) 0;
+   background: var(--color-bg-alt);
+}
