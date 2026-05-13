@@ -231,8 +231,9 @@
       max-height: 200px;
    }
 }
-/* Static-page sections — full-bleed, alternating bg, 1200px container,
-   760px text reading column. Matches landing's section rhythm. */
+/* Static-page sections — full-bleed, alternating bg, 1152px content
+   area (--max-width minus 2× --container-padding). Matches landing's
+   section rhythm. */
 .page-section {
    padding: clamp(3.5rem, 6vw, 5rem) 0;
    background: var(--color-bg);
