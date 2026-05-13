@@ -14,17 +14,14 @@ Requires Swift 6.2+ and macOS 26 locally. CI uses `swift-actions/setup-swift@v2`
 
 ## Deploy
 
-The site is intended to deploy to **Cloudflare Pages** (so the Pages Function in `functions/api/subscribe.js` runs and `_redirects` is honoured server-side). The existing `.github/workflows/deploy.yml` produces a static build for GitHub Pages, which works for everything except the newsletter form (which needs the function) and server-side 301s (which fall back to HTML meta-refresh pages via SiteKit's `HTMLRedirectPageRenderer`).
+The site deploys to **GitHub Pages** via `.github/workflows/deploy.yml` (Swift 6.2 on Ubuntu, `swift run Site build`, `actions/upload-pages-artifact` + `actions/deploy-pages`). The repo-root `CNAME` binds it to `new.nfc.cool`.
 
-### Cloudflare Pages setup (one-time)
+GH Pages is a pure static host, which has two known consequences:
 
-1. Build command: `swift run Site build`, output directory: `_Site`.
-2. Function directory: `functions/` (auto-discovered).
-3. Environment variables (Settings → Environment Variables → Production + Preview):
-   - `MAILJET_API_KEY` - Mailjet API key
-   - `MAILJET_API_SECRET` - Mailjet API secret key
-   - `MAILJET_LIST_ID` - Numeric contact-list ID of the announcements list
-4. Custom domain: point `nfc.cool` (and any aliases) at the Pages project.
+- **Newsletter form** posts directly to a shared Cloudflare Worker at `https://mailjet.02mining-hollers.workers.dev/` (the same Worker the iOS apps use — its source lives in the `nfcreader` Swift project's `EmailService` module). The Worker has Mailjet credentials + list ID baked in; the website's form just sends `{ email }` and CORS is wide-open. There is no Pages Function in this repo.
+- **Webflow → new-URL redirects** in `redirects.yaml` (35 entries) are emitted to `_Site/_redirects` for hosts that honour it, but GH Pages does not — visitors land on HTML meta-refresh fallback pages emitted by SiteKit's `HTMLRedirectPageRenderer` instead. Slightly slower than a real 301, slightly worse for SEO, but functional.
+
+If we ever move to Cloudflare Pages, the form already works as-is (Worker is host-agnostic) and `_redirects` / `_headers` will start being honoured for free.
 
 ## Sitemap (what visitors get)
 
@@ -39,7 +36,7 @@ The site is intended to deploy to **Cloudflare Pages** (so the Pages Function in
 | `/contact/`, `/press/`, `/terms/`, `/privacy/`, `/impressum/` | `/de/*` | `Content/Pages/*.md` + `*.de.md` |
 | `/feed.xml`, `/de/feed.xml` | - | SiteKit `RSSFeedRenderer` |
 | `/sitemap.xml`, `/sitemap_index.xml`, `/llms.txt` | - | SiteKit (auto) |
-| `/_redirects` (Cloudflare) | - | `redirects.yaml` via SiteKit `RedirectRenderer` |
+| `/_redirects` (Cloudflare format, currently unused on GH Pages) | - | `redirects.yaml` via SiteKit `RedirectRenderer` |
 
 Feature slugs: `nfc-reader-writer`, `qr-scanner`, `barcode-scanner`, `document-scanner`, `3d-object-scanner`, `room-scanner`, `webhooks`. To add a new feature: append a slug to `FeaturePageRenderer.slugs` in `Sources/Site/Renderers/FeaturePageRenderer.swift` and drop `{slug}.yaml` + `{slug}.de.yaml` + `{slug}.ja.yaml` into `Content/Data/Features/`.
 
@@ -100,16 +97,15 @@ Theme/
 │   └── landing.css              ← all section styles (landing + features + static pages)
 ├── js/theme.js                  ← dark-mode toggle + nav toggle + newsletter form
 └── images/favicon.svg
-functions/
-└── api/
-    └── subscribe.js             ← Cloudflare Pages Function proxying newsletter form → Mailjet
 ```
+
+The newsletter form posts cross-origin to a shared Cloudflare Worker; this repo contains no Pages Functions.
 
 ## Customization tips
 
 - **Add or reorder a feature card on the landing page:** edit `features:` in `Content/Data/Landing.yaml` AND `Landing.de.yaml`. The `platforms` field is free-form text rendered as a chip (use `iOS · Android` or `iOS only` for visual consistency; DE uses `Nur iOS`).
 - **Add a new feature subpage:** drop a slug into `FeaturePageRenderer.slugs` in Swift code, then create `Content/Data/Features/<slug>.yaml` + `<slug>.de.yaml`. The renderer auto-picks them up.
-- **Edit the newsletter copy:** `newsletter:` block in `Landing.yaml` / `Landing.de.yaml`. The form posts to `/api/subscribe` which is wired by the Cloudflare Pages Function. List ID lives in the Cloudflare env var, NOT in YAML.
+- **Edit the newsletter copy:** `newsletter:` block in `Landing.yaml` / `Landing.de.yaml`. The form posts directly to the shared Mailjet Worker (`https://mailjet.02mining-hollers.workers.dev/`). To override per-form, set `data-endpoint` on the form via the renderer.
 - **Add a blog post:** create `Content/Blog/YYYY-MM-DD-<slug>.md` with frontmatter (`title`, `date`, `category`, `tags`, `summary`, `author`, `id`). Posts render in `/blog/` automatically and appear in `/feed.xml`.
 - **Add a Webflow → new URL redirect:** add to `redirects.yaml`. SiteKit emits both `_redirects` (server-side on Cloudflare) and HTML fallbacks.
 - **Change the dual-CTA buttons** (text or layout): see `renderStoreButtons(...)` in `LandingPageRenderer.swift` and the `.landing-store-*` rules in `landing.css`.
@@ -119,8 +115,6 @@ functions/
 ## Tasks still on the punch-list
 
 - [ ] **Fill in the postal address in `Content/Pages/Impressum.md` and `Impressum.de.md`** (TMG § 5 compliance - required before launch).
-- [ ] **Wire Mailjet env vars in Cloudflare Pages** (`MAILJET_API_KEY`, `MAILJET_API_SECRET`, `MAILJET_LIST_ID`). Until then, the newsletter form will respond `503 not_configured`.
-- [ ] **Decide hosting target.** GitHub Pages works for everything except the newsletter form and server-side 301s. Cloudflare Pages handles both natively.
 - [ ] **Migrate the remaining 9 Webflow blog posts.** Five are already in `Content/Blog/`; the rest currently fall back via `redirects.yaml` → `/blog/`. Sources are listed in that file.
 - [ ] **Author DE versions of the migrated blog posts.** Currently EN-only; the build emits "Missing translation" warnings until `.de.md` siblings exist.
 - [ ] **Drop real iCloud Drive URLs for press kit + brand kit** in `Content/Pages/Press.md` + `Press.de.md` (placeholders today).

@@ -191,14 +191,15 @@ document.addEventListener('DOMContentLoaded', function() {
       mq.addEventListener('change', function(e) { if (e.matches) setOpen(false); });
    })();
 
-   // Newsletter form — POSTs to a same-origin endpoint (Cloudflare Pages Function
-   // or similar) that proxies to Mailjet using server-side credentials.
+   // Newsletter form — POSTs directly to the shared Mailjet-proxy Cloudflare
+   // Worker that's already in production for the NFC.cool iOS apps. The Worker
+   // has its Mailjet credentials + target list ID baked in and accepts a
+   // simple `{ email }` body; CORS is wide-open so any origin works.
    document.querySelectorAll('.landing-newsletter-form').forEach(function(form) {
       const status = form.querySelector('.landing-newsletter-status');
       const button = form.querySelector('button[type="submit"]');
       const input = form.querySelector('input[type="email"]');
-      const endpoint = form.dataset.endpoint || '/api/subscribe';
-      const listID = form.dataset.listId || '';
+      const endpoint = form.dataset.endpoint || 'https://mailjet.02mining-hollers.workers.dev/';
       const successText = form.dataset.success || 'Thanks!';
       const errorText = form.dataset.error || 'Something went wrong. Please try again.';
 
@@ -218,7 +219,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const response = await fetch(endpoint, {
                method: 'POST',
                headers: { 'Content-Type': 'application/json' },
-               body: JSON.stringify({ email: input.value.trim(), listID: listID, locale: document.documentElement.lang || 'en' })
+               body: JSON.stringify({ email: input.value.trim() })
             });
             if (!response.ok) throw new Error('HTTP ' + response.status);
             setStatus(successText, 'success');

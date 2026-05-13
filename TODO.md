@@ -6,14 +6,9 @@ Pending content and follow-ups from the round-2 build. Each item below was scaff
 
 - [ ] **Impressum postal address** — TMG § 5 requires a full physical address. Update `Content/Pages/Impressum.md`, `Impressum.de.md`, and `Impressum.ja.md`. The `> **TODO:**` line marks the spot.
 
-## Hosting & integrations (needed for the form to work)
+## Hosting & integrations
 
-- [ ] **Mailjet credentials** in Cloudflare Pages env vars:
-   - `MAILJET_API_KEY`
-   - `MAILJET_API_SECRET`
-   - `MAILJET_LIST_ID`
-   - Until these land, the newsletter form returns `503 not_configured`. The Pages Function at `functions/api/subscribe.js` is ready to go.
-- [ ] **Deploy target decision** — Cloudflare Pages is needed for the newsletter function and server-side `_redirects`. GitHub Pages works for everything else (HTML meta-refresh redirect fallbacks emit alongside `_redirects`).
+- [x] **Deploy target: GitHub Pages.** Newsletter posts cross-origin to the shared Mailjet Cloudflare Worker (`https://mailjet.02mining-hollers.workers.dev/`, same one the iOS apps use) — no Pages Function needed in this repo.
 - [ ] **blog.nfc.cool subdomain** — DNS-level redirect or CNAME at the host level so `blog.nfc.cool/blog/{slug}` lands on the new site. The path-level entries in `redirects.yaml` only fire on visits to the main domain.
 
 ## Brand assets
@@ -90,7 +85,7 @@ Audited against `https://www.nfc.cool` and `https://nfc.cool/.well-known/...` on
 - [ ] `swift run Site validate` — zero missing translations across `en`, `de`, `ja`
 - [ ] Walk every route per the plan's checklist in `/Users/nico/.claude/plans/i-want-to-get-goofy-volcano.md`
 - [ ] W3C feed validator on `/feed.xml`, `/de/feed.xml`, `/ja/feed.xml`, `/blog/feed.xml`, `/changelog/feed.xml`
-- [ ] Test newsletter form end-to-end on Cloudflare Pages preview with real Mailjet creds
+- [ ] Test newsletter form end-to-end against the live Mailjet Worker (submit a real address, confirm it lands in the Mailjet announcements list)
 - [ ] Test `/` with `Accept-Language: de` and `Accept-Language: ja` — should redirect appropriately
 - [ ] Mobile responsive at 375 / 768 / 1280 px on real devices
 - [ ] Dark mode pass on every new page
