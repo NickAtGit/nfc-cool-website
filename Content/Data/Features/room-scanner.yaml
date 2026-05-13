@@ -6,7 +6,7 @@ hero:
   title: "Room Scanning"
   subtitle: "LiDAR-powered RoomPlan turns a walk through your space into a clean parametric floor plan — walls, doors, windows, and recognised furniture, exported as a single USDZ scene."
   platforms: "iOS only"
-  heroImagePath: "/assets/images/Webflow/3d-room.webp"
+  heroImagePath: "/assets/images/Webflow/scan-room.webp"
 
 capabilitiesTitle: "What you can do"
 capabilities:
@@ -20,7 +20,7 @@ capabilities:
     description: "Open the finished room in AR Quick Look or share the USDZ — recipients can walk around the model right in Messages."
 
 screenshots:
-  - path: "/assets/images/Webflow/3d-room.webp"
+  - path: "/assets/images/Webflow/scan-room.webp"
     alt: "Scanning a room with LiDAR"
 
 specsTitle: "Hardware & output"

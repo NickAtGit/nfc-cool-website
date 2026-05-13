@@ -6,7 +6,7 @@ hero:
   title: "ルーム・スキャン"
   subtitle: "LiDAR搭載のRoomPlanで、部屋を歩くだけ — 壁、ドア、窓、認識された家具まで含めた美しいパラメトリックな間取り図を、ひとつのUSDZシーンとして書き出せます。"
   platforms: "iOSのみ"
-  heroImagePath: "/assets/images/Webflow/3d-room.webp"
+  heroImagePath: "/assets/images/Webflow/scan-room.webp"
 
 capabilitiesTitle: "できること"
 capabilities:
@@ -20,7 +20,7 @@ capabilities:
     description: "完成した部屋をAR Quick Lookで開いたり、USDZを共有 — 受け取った相手はメッセージ内でモデルの中を歩けます。"
 
 screenshots:
-  - path: "/assets/images/Webflow/3d-room.webp"
+  - path: "/assets/images/Webflow/scan-room.webp"
     alt: "LiDARで部屋をスキャン"
 
 specsTitle: "ハードウェア & 出力"

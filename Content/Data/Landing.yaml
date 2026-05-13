@@ -36,7 +36,7 @@ features:
     slug: "3d-object-scanner"
   - title: "Room Scanning"
     description: "LiDAR-powered floor plans with automatic detection of doors, windows, and furniture. Requires iPhone with LiDAR (12 Pro and newer) or recent iPad Pro."
-    imagePath: "/assets/images/Webflow/3d-room.webp"
+    imagePath: "/assets/images/Webflow/scan-room.webp"
     platforms: "iOS only"
     slug: "room-scanner"
   - title: "Webhooks & Automation"

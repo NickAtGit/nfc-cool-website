@@ -36,7 +36,7 @@ features:
     slug: "3d-object-scanner"
   - title: "Raumscan"
     description: "LiDAR-gestützte Grundrisse mit automatischer Erkennung von Türen, Fenstern und Möbeln. Benötigt iPhone mit LiDAR (12 Pro und neuer) oder neueres iPad Pro."
-    imagePath: "/assets/images/Webflow/3d-room.webp"
+    imagePath: "/assets/images/Webflow/scan-room.webp"
     platforms: "Nur iOS"
     slug: "room-scanner"
   - title: "Webhooks & Automatisierung"

@@ -6,7 +6,7 @@ hero:
   title: "Raumscan"
   subtitle: "LiDAR-gestütztes RoomPlan verwandelt einen Spaziergang durch dein Zuhause in einen sauberen, parametrischen Grundriss — Wände, Türen, Fenster und erkannte Möbel, exportiert als einzelne USDZ-Szene."
   platforms: "Nur iOS"
-  heroImagePath: "/assets/images/Webflow/3d-room.webp"
+  heroImagePath: "/assets/images/Webflow/scan-room.webp"
 
 capabilitiesTitle: "Was du machen kannst"
 capabilities:
@@ -20,7 +20,7 @@ capabilities:
     description: "Öffne den fertigen Raum in AR Quick Look oder teile das USDZ — Empfänger können direkt in Nachrichten durch das Modell laufen."
 
 screenshots:
-  - path: "/assets/images/Webflow/3d-room.webp"
+  - path: "/assets/images/Webflow/scan-room.webp"
     alt: "Raum mit LiDAR scannen"
 
 specsTitle: "Hardware & Ausgabe"

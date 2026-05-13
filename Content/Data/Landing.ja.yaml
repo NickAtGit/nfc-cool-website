@@ -36,7 +36,7 @@ features:
     slug: "3d-object-scanner"
   - title: "ルーム・スキャン"
     description: "LiDAR搭載デバイスで間取り図を自動生成し、ドア、窓、家具まで認識します。LiDAR搭載iPhone(12 Pro以降)または新しめのiPad Proが必要です。"
-    imagePath: "/assets/images/Webflow/3d-room.webp"
+    imagePath: "/assets/images/Webflow/scan-room.webp"
     platforms: "iOSのみ"
     slug: "room-scanner"
   - title: "Webhook & オートメーション"
