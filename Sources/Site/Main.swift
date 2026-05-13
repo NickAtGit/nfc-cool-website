@@ -10,8 +10,10 @@ import SiteKit
          .replacing(StaticPageRenderer.self, with: MarketingPageRenderer())
          .renderer(FeaturePageRenderer())
          .renderer(FeaturesIndexRenderer())
+         .renderer(StaticRootFilesRenderer())
          .removing(ContentIndexRenderer.self)
          .processor(FontPreloadProcessor())
+         .processor(GoogleSiteVerificationProcessor())
          .run()
    }
 }
