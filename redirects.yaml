@@ -65,9 +65,6 @@ redirects:
   # Exception: nfc-safe was renamed to drop the verb cluster.
   - from: "/blog/nfc-safe-encrypt-secrets-on-nfc-tags"
     to: "/blog/nfc-safe-encrypted-secrets/"
-  # The "we moved" intro stays a fallback to the index.
-  - from: "/blog/welcome-to-the-nfc-cool-blog"
-    to: "/blog/"
 
   # ----- Old nfc-cool-website slugs → new canonical (blog.nfc.cool-aligned) slugs -----
   - from: "/blog/openprinttag-support"

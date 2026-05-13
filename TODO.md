@@ -33,30 +33,9 @@ Pending content and follow-ups from the round-2 build. Each item below was scaff
    - `/features/3d-room-scanner/` — RoomPlan in progress, exported USDZ in AR Quick Look
    - `/features/webhooks/` — webhook config screen, history view, retry queue
 
-## Blog migration (partial)
+## Blog migration
 
-The 5 most-recent posts from blog.nfc.cool are migrated in full English. Remaining work:
-
-- [ ] **DE + JA translations of newly-migrated blog posts** (10 posts × 2 languages):
-   - `2026-05-03-nfc-safe-encrypted-secrets.{de,ja}.md`
-   - `2026-05-02-nfc-cool-comes-to-mac.{de,ja}.md`
-   - `2026-04-21-sonicare-brush-head-reset.{de,ja}.md`
-   - `2026-04-19-digital-business-card-healthcare.{de,ja}.md`
-   - `2026-04-16-vcard-nfc-iphone.{de,ja}.md`
-   - The DE/JA versions exist on blog.nfc.cool/de and blog.nfc.cool/ja — fetch and migrate.
-- [ ] **DE + JA translations of round-1 posts** (5 posts × 2 languages):
-   - `2024-05-02-namedrop-vs-nfc-business-cards.{de,ja}.md`
-   - `2025-05-20-nfc-tag-types-for-iphones.{de,ja}.md`
-   - `2025-09-28-iphone-rfid-condo-doors.{de,ja}.md`
-   - `2026-01-23-app-clip-lessons-from-business-card.{de,ja}.md`
-   - `2026-05-01-openprinttag-support.{de,ja}.md`
-- [ ] **Migrate the 5 remaining blog.nfc.cool posts** (currently redirect to `/blog/` index):
-   - share-digital-business-card-without-app-download
-   - openprinttag-read-write-nfc-spools-phone (overlaps with the round-1 openprinttag post — choose one)
-   - write-nfc-tags-iphone
-   - why-privacy-matters-digital-business-card
-   - welcome-to-the-nfc-cool-blog
-- [ ] **Verify completeness against blog.nfc.cool source-of-truth** — make sure no post from the legacy blog is missing.
+- [x] **Migration complete (2026-05-13).** All 30 posts from `blog.nfc.cool` ported to `Content/Blog/` with full EN + DE + JA translations and verified against the legacy source-of-truth (10 of 10 indexed posts present). DE/JA quality polish (native-speaker pass) still tracked separately under "Japanese translation quality review" below.
 
 ## Japanese translation quality review
 
