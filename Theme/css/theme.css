@@ -608,10 +608,7 @@ body.landing .sk-site-footer {
 }
 
 /* ============================================================
-   Responsive
-   ============================================================ */
-/* ============================================================
-   Burger menu — hidden on desktop, injected by theme.js
+   Responsive — burger menu, hidden on desktop, injected by theme.js
    ============================================================ */
 .sk-nav-toggle {
    display: none; /* shown only at mobile breakpoint */
@@ -729,4 +726,95 @@ body.sk-mobile-menu-open { overflow: hidden; }
 
 @media (prefers-reduced-motion: reduce) {
    .sk-site-header { backdrop-filter: none; -webkit-backdrop-filter: none; }
+}
+
+/* ============================================================
+   Custom 404 page — error template (CustomErrorPageRenderer).
+   ============================================================ */
+.sk-page-error .error-hero {
+   position: relative;
+   background: var(--brand-gradient);
+   color: #FFFFFF;
+   padding: clamp(4rem, 10vw, 7rem) 0 clamp(3.5rem, 8vw, 6rem);
+   overflow: hidden;
+   isolation: isolate;
+   text-align: center;
+}
+.sk-page-error .error-hero::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: radial-gradient(at 70% 25%, rgba(255,255,255,0.18) 0%, transparent 55%);
+   pointer-events: none;
+   z-index: -1;
+}
+.sk-page-error .error-hero::after {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background-image:
+      radial-gradient(circle at 0 0, rgba(255,255,255,0.04) 1px, transparent 1px),
+      radial-gradient(circle at 8px 8px, rgba(255,255,255,0.04) 1px, transparent 1px);
+   background-size: 16px 16px;
+   pointer-events: none;
+   opacity: 0.5;
+   z-index: -1;
+}
+.error-eyebrow {
+   font-family: var(--font-script);
+   font-size: clamp(5rem, 14vw, 9rem);
+   font-weight: 700;
+   line-height: 0.9;
+   color: var(--color-accent);
+   margin: 0;
+   letter-spacing: 0.02em;
+}
+.error-title {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(1.75rem, 4vw, 2.75rem);
+   color: #FFFFFF;
+   margin: 0.5rem 0 1rem;
+   letter-spacing: -0.02em;
+}
+.error-message {
+   font-size: clamp(1rem, 1.3vw, 1.1875rem);
+   line-height: 1.55;
+   color: rgba(255, 255, 255, 0.92);
+   max-width: 32em;
+   margin: 0 auto 2.5rem;
+}
+.error-actions {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+   gap: 0.875rem;
+   max-width: 720px;
+   margin: 0 auto;
+}
+.error-action-card {
+   display: inline-flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1rem;
+   padding: 1rem 1.25rem;
+   background: rgba(255, 255, 255, 0.10);
+   border: 1px solid rgba(255, 255, 255, 0.20);
+   border-radius: var(--radius-lg);
+   color: #FFFFFF;
+   text-decoration: none;
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 1rem;
+   transition: background var(--transition), transform var(--transition);
+   backdrop-filter: blur(6px);
+   -webkit-backdrop-filter: blur(6px);
+}
+.error-action-card:hover {
+   background: rgba(255, 255, 255, 0.18);
+   color: #FFFFFF;
+   transform: translateY(-2px);
+}
+.error-action-arrow {
+   color: var(--color-accent);
+   font-size: 1.25rem;
 }

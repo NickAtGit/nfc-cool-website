@@ -9,6 +9,7 @@ css:
    - "css/landing.css"
    - "css/marketing.css"
    - "css/blog.css"
+   - "css/features.css"
 js:
    - "js/theme.js"
 favicons:
