@@ -12,7 +12,7 @@ description: "Real 5-star App Store reviews of NFC.cool from users around the wo
 
 # 6,500+ ratings, 4.5 stars
 
-The reviews below are pulled directly from the App Store. Every quote is a real 5-star review — nothing rewritten, nothing cherry-picked beyond filtering out the very short ones.
+The reviews below are pulled directly from the App Store. Every quote is a real 5-star review - nothing rewritten, nothing cherry-picked beyond filtering out the very short ones.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store">
@@ -35,7 +35,7 @@ The reviews below are pulled directly from the App Store. Every quote is a real 
 
 <section class="page-section">
 
-## NFC.cool Tools — App Store
+## NFC.cool Tools - App Store
 
 <div class="landing-reviews-grid">
 
@@ -81,7 +81,7 @@ The reviews below are pulled directly from the App Store. Every quote is a real 
 
 <section class="page-section">
 
-## NFC.cool Tools — App Store Deutschland
+## NFC.cool Tools - App Store Deutschland
 
 <div class="landing-reviews-grid">
 
@@ -99,7 +99,7 @@ The reviews below are pulled directly from the App Store. Every quote is a real 
 
 <div class="landing-review-card">
 <div class="landing-review-stars">★★★★★</div>
-<blockquote class="landing-review-quote">Funktioniert beim Auslesen einer meiner Geldkarten, bei 2 anderen wird nichts erkannt — gehe davon aus, dass der Fehler nicht an der App liegt. Die App ist definitiv kostenlos als Basisversion verfügbar.</blockquote>
+<blockquote class="landing-review-quote">Funktioniert beim Auslesen einer meiner Geldkarten, bei 2 anderen wird nichts erkannt - gehe davon aus, dass der Fehler nicht an der App liegt. Die App ist definitiv kostenlos als Basisversion verfügbar.</blockquote>
 <div class="landing-review-author"><div><strong>A. Akasha</strong><span>App Store · Deutschland</span></div></div>
 </div>
 
@@ -109,7 +109,7 @@ The reviews below are pulled directly from the App Store. Every quote is a real 
 
 <section class="page-section">
 
-## NFC.cool Tools — App Store 日本
+## NFC.cool Tools - App Store 日本
 
 <div class="landing-reviews-grid">
 
@@ -133,7 +133,7 @@ The reviews below are pulled directly from the App Store. Every quote is a real 
 
 ## Want to add yours?
 
-If you've used NFC.cool and have a moment, a quick App Store rating helps a lot — and it's the only signal that doesn't require running analytics.
+If you've used NFC.cool and have a moment, a quick App Store rating helps a lot - and it's the only signal that doesn't require running analytics.
 
 - [Rate NFC.cool Tools on the App Store](https://apps.apple.com/app/apple-store/id1249686798?action=write-review)
 - [Rate NFC.cool Business Card on the App Store](https://apps.apple.com/app/apple-store/id6502926572?action=write-review)

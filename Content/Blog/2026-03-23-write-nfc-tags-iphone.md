@@ -34,7 +34,7 @@ For the best experience, use an iPhone with **background NFC reading** (iPhone X
 
 ### 2. Blank NFC Tags
 
-You can buy blank NFC tags online for as little as **€0.30–€1.00 each**. They come in several form factors:
+You can buy blank NFC tags online for as little as **€0.30-€1.00 each**. They come in several form factors:
 
 | Form Factor | Best For |
 |-------------|----------|

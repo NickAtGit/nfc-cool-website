@@ -11,7 +11,7 @@ hero:
 capabilitiesTitle: "What you can do"
 capabilities:
   - title: "All major barcode formats"
-    description: "Scan EAN-13/8, UPC-A/E, Code 128, Code 39, ITF, PDF417, Aztec, Data Matrix and more — automatic format detection, no mode switching."
+    description: "Scan EAN-13/8, UPC-A/E, Code 128, Code 39, ITF, PDF417, Aztec, Data Matrix and more - automatic format detection, no mode switching."
   - title: "Batch mode"
     description: "Scan a stack of barcodes back-to-back without re-aiming. Useful for inventory counts, event check-ins, or library archives."
   - title: "Product lookup"
@@ -44,9 +44,9 @@ faq:
   - question: "Why is this iOS-only?"
     answer: "The Android version of NFC.cool currently focuses on NFC and the Digital Business Card. Barcode scanning is on the Android roadmap."
   - question: "Can I scan multiple barcodes at once?"
-    answer: "Yes — batch mode keeps the camera open and queues every barcode it finds. Tap any item in the queue to act on it."
+    answer: "Yes - batch mode keeps the camera open and queues every barcode it finds. Tap any item in the queue to act on it."
   - question: "Can I export the scan history?"
-    answer: "Yes — the history view exports to CSV with timestamp, format, and raw payload."
+    answer: "Yes - the history view exports to CSV with timestamp, format, and raw payload."
 
 cta:
   title: "Scan anything, in any quantity."

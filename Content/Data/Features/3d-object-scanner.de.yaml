@@ -4,20 +4,20 @@ backLinkText: "← Alle Funktionen"
 
 hero:
   title: "3D-Objektscan"
-  subtitle: "Umrunde ein reales Objekt mit deinem iPhone — NFC.cool führt On-Device-Photogrammetrie aus und rekonstruiert ein texturiertes 3D-Modell. Export als USDZ für AR Quick Look, STL für 3D-Druck oder OBJ/PLY für Blender."
+  subtitle: "Umrunde ein reales Objekt mit deinem iPhone - NFC.cool führt On-Device-Photogrammetrie aus und rekonstruiert ein texturiertes 3D-Modell. Export als USDZ für AR Quick Look, STL für 3D-Druck oder OBJ/PLY für Blender."
   platforms: "Nur iOS"
   heroImagePath: "/assets/images/Webflow/3d-object.webp"
 
 capabilitiesTitle: "Was du machen kannst"
 capabilities:
   - title: "Photogrammetrie-Aufnahme"
-    description: "Umrunde ein Objekt mit 30–100 Aufnahmen. Die On-Device-Photogrammetrie-Pipeline rekonstruiert ein texturiertes 3D-Modell mit realistischer Geometrie."
+    description: "Umrunde ein Objekt mit 30-100 Aufnahmen. Die On-Device-Photogrammetrie-Pipeline rekonstruiert ein texturiertes 3D-Modell mit realistischer Geometrie."
   - title: "Bearbeiten & verfeinern"
     description: "Rauschen entfernen, Meshes glätten, Geometrie vereinfachen oder Texturen abziehen. Vorschau in 3D vor dem Export."
   - title: "Überall exportieren"
     description: "USDZ für AR Quick Look, STL für 3D-Druck, OBJ/PLY für Blender, USD/ABC für Produktions-Pipelines. Wähle Vertex-Präzision und Textur-Auflösung."
   - title: "AR Quick Look"
-    description: "Platziere jedes gescannte Objekt per AR Quick Look in deinem Wohnzimmer. Teile USDZ-Dateien mit Freunden — sie können sie direkt in Nachrichten anschauen."
+    description: "Platziere jedes gescannte Objekt per AR Quick Look in deinem Wohnzimmer. Teile USDZ-Dateien mit Freunden - sie können sie direkt in Nachrichten anschauen."
 
 screenshots:
   - path: "/assets/images/Webflow/3d-object.webp"
@@ -41,11 +41,11 @@ specs:
 faqTitle: "Häufige Fragen"
 faq:
   - question: "Brauche ich LiDAR für Objektscans?"
-    answer: "Nein — Photogrammetrie funktioniert auf jedem modernen iPhone. LiDAR wird nur für Raumscans (RoomPlan) benötigt."
+    answer: "Nein - Photogrammetrie funktioniert auf jedem modernen iPhone. LiDAR wird nur für Raumscans (RoomPlan) benötigt."
   - question: "Wie lange dauert ein Scan?"
-    answer: "Ein paar Minuten für 30–100 Fotos, dann 2–5 Minuten On-Device-Rekonstruktion."
+    answer: "Ein paar Minuten für 30-100 Fotos, dann 2-5 Minuten On-Device-Rekonstruktion."
   - question: "Kann ich die Ergebnisse 3D-drucken?"
-    answer: "Ja — Export als STL und in deinen bevorzugten Slicer laden. Wir empfehlen vor dem Druck den Vereinfachen/Glätten-Schritt, um die Vertex-Anzahl zu reduzieren."
+    answer: "Ja - Export als STL und in deinen bevorzugten Slicer laden. Wir empfehlen vor dem Druck den Vereinfachen/Glätten-Schritt, um die Vertex-Anzahl zu reduzieren."
 
 cta:
   title: "Die Welt in 3D festhalten."

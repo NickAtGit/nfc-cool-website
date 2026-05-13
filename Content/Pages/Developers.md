@@ -48,12 +48,12 @@ Each scan triggers a single `POST` to the URL you configure. Body is JSON, conte
 
 Field reference:
 
-- `type` — one of `nfc`, `qr`, `barcode`.
-- `payload` — decoded content (URI, text, vCard, Wi-Fi credentials, etc.). For NFC tags this is the parsed NDEF record value; for QR/barcode it's the raw decoded string.
-- `uid` — tag identifier (for NFC) or code identifier (for QR/barcode). Same tag always emits the same UID; useful for deduplication.
-- `timestamp` — ISO 8601 in UTC, when the scan happened on-device.
-- `device` — optional, user-configurable device label (e.g., "Reception iPhone").
-- `metadata` — optional key/value bag you set per-tag inside NFC.cool.
+- `type` - one of `nfc`, `qr`, `barcode`.
+- `payload` - decoded content (URI, text, vCard, Wi-Fi credentials, etc.). For NFC tags this is the parsed NDEF record value; for QR/barcode it's the raw decoded string.
+- `uid` - tag identifier (for NFC) or code identifier (for QR/barcode). Same tag always emits the same UID; useful for deduplication.
+- `timestamp` - ISO 8601 in UTC, when the scan happened on-device.
+- `device` - optional, user-configurable device label (e.g., "Reception iPhone").
+- `metadata` - optional key/value bag you set per-tag inside NFC.cool.
 
 </section>
 
@@ -61,13 +61,13 @@ Field reference:
 
 ## Security
 
-Webhooks support custom request headers — use them for authentication so secrets stay out of any client-side code:
+Webhooks support custom request headers - use them for authentication so secrets stay out of any client-side code:
 
 - **Bearer token:** `Authorization: Bearer YOUR_TOKEN`
 - **API key:** `X-API-Key: YOUR_KEY`
 - **HMAC signature:** Add a custom `X-Signature` header computed from a shared secret + payload; verify server-side.
 
-The app stores headers in the system keychain. NFC.cool itself never sees or transmits them — they go directly from device to your endpoint over TLS 1.2+.
+The app stores headers in the system keychain. NFC.cool itself never sees or transmits them - they go directly from device to your endpoint over TLS 1.2+.
 
 </section>
 
@@ -75,7 +75,7 @@ The app stores headers in the system keychain. NFC.cool itself never sees or tra
 
 ## Example receivers
 
-### cURL — quick smoke test
+### cURL - quick smoke test
 
 ```bash
 curl -X POST https://your-server.example/webhook \
@@ -84,7 +84,7 @@ curl -X POST https://your-server.example/webhook \
   -d '{"type":"nfc","payload":"hello","uid":"04:00","timestamp":"2026-05-12T14:00:00Z"}'
 ```
 
-### Node.js — Express receiver
+### Node.js - Express receiver
 
 ```js
 import express from "express";
@@ -104,7 +104,7 @@ app.post("/webhook", (req, res) => {
 app.listen(3000);
 ```
 
-### Python — FastAPI receiver
+### Python - FastAPI receiver
 
 ```python
 from fastapi import FastAPI, Header, HTTPException, Request
@@ -143,7 +143,7 @@ Discoverable feeds for tooling, search engines, and AI agents:
 
 <article class="page-card">
 <h3><a href="/sitemap.xml"><code>/sitemap.xml</code></a></h3>
-<p>Full site index — every route + last-modified.</p>
+<p>Full site index - every route + last-modified.</p>
 </article>
 
 <article class="page-card">
@@ -163,7 +163,7 @@ Discoverable feeds for tooling, search engines, and AI agents:
 
 <article class="page-card">
 <h3><a href="/changelog/feed.xml"><code>/changelog/feed.xml</code></a></h3>
-<p>Release feed — versions, dates, and changelog entries.</p>
+<p>Release feed - versions, dates, and changelog entries.</p>
 </article>
 
 <article class="page-card">

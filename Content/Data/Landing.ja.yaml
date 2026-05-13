@@ -10,7 +10,7 @@ heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
 featuresTitle: "スキャンに必要なすべてが、ひとつに"
 features:
   - title: "NFCの読み取り & 書き込み"
-    description: "あらゆるNFCタグを読み取り、25種類以上のメッセージタイプを書き込み — リンク、Wi-Fi、連絡先、決済、ショートカット、SNSプロフィール。NFC Safe(256ビットAES)で機密情報を暗号化できます。"
+    description: "あらゆるNFCタグを読み取り、25種類以上のメッセージタイプを書き込み - リンク、Wi-Fi、連絡先、決済、ショートカット、SNSプロフィール。NFC Safe(256ビットAES)で機密情報を暗号化できます。"
     imagePath: "/assets/images/Webflow/nfc-card.webp"
     platforms: "iOS · Android"
     slug: "nfc-reader-writer"
@@ -40,7 +40,7 @@ features:
     platforms: "iOSのみ"
     slug: "room-scanner"
   - title: "Webhook & オートメーション"
-    description: "スキャンしたNFC・QRデータをリアルタイムであなたのサーバーへ送信。ワークフローを自動化し、CRMに接続し、ペーパーレスのプロセスを構築 — データが当社のサーバーを経由することはありません。"
+    description: "スキャンしたNFC・QRデータをリアルタイムであなたのサーバーへ送信。ワークフローを自動化し、CRMに接続し、ペーパーレスのプロセスを構築 - データが当社のサーバーを経由することはありません。"
     imagePath: "/assets/images/Webflow/webhook.webp"
     platforms: "iOS · Android"
     slug: "webhooks"
@@ -51,7 +51,7 @@ features:
 
 featureBanner:
   title: "NFC.cool Business Card"
-  subtitle: "iPhone専用のデジタル名刺アプリ — NFCタッチ、QRコード、AppClip、Apple Walletで共有できます。誰がカードを保存したかをトラッキングし、リードを管理し、イベント向けにConference Modeを利用できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。"
+  subtitle: "iPhone専用のデジタル名刺アプリ - NFCタッチ、QRコード、AppClip、Apple Walletで共有できます。誰がカードを保存したかをトラッキングし、リードを管理し、イベント向けにConference Modeを利用できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。"
   imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
   appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
   googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness_card_banner"
@@ -102,7 +102,7 @@ newsletter:
   buttonText: "登録する"
   successText: "ありがとうございます!受信トレイをご確認ください。"
   errorText: "問題が発生しました。もう一度お試しください。"
-  consent: "登録すると、不定期のお知らせを受け取ることに同意したものとみなされます。配信停止はいつでも可能 — すべてのメールにワンクリックの解除リンクが含まれます。"
+  consent: "登録すると、不定期のお知らせを受け取ることに同意したものとみなされます。配信停止はいつでも可能 - すべてのメールにワンクリックの解除リンクが含まれます。"
 
 cta:
   title: "スキャンの準備はいい?"

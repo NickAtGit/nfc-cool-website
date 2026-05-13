@@ -12,7 +12,7 @@ description: "Webhook-Payload-Referenz, Code-Beispiele in cURL/Node.js/Python un
 
 # Für Entwickler
 
-NFC.cool ist ein Scanner, der deinen Stack respektiert. Jeder Scan kann ein strukturierter HTTP-POST an dein eigenes Backend werden — mit vorhersehbarem JSON, konfigurierbarer Authentifizierung und einer Offline-Retry-Queue.
+NFC.cool ist ein Scanner, der deinen Stack respektiert. Jeder Scan kann ein strukturierter HTTP-POST an dein eigenes Backend werden - mit vorhersehbarem JSON, konfigurierbarer Authentifizierung und einer Offline-Retry-Queue.
 
 <a href="#webhook-payload" class="landing-cta-button">Payload ansehen</a>
 
@@ -143,7 +143,7 @@ Auffindbare Feeds für Tooling, Suchmaschinen und KI-Agenten:
 
 <article class="page-card">
 <h3><a href="/sitemap.xml"><code>/sitemap.xml</code></a></h3>
-<p>Vollständiger Site-Index — jede Route plus letztes Änderungsdatum.</p>
+<p>Vollständiger Site-Index - jede Route plus letztes Änderungsdatum.</p>
 </article>
 
 <article class="page-card">
@@ -163,7 +163,7 @@ Auffindbare Feeds für Tooling, Suchmaschinen und KI-Agenten:
 
 <article class="page-card">
 <h3><a href="/changelog/feed.xml"><code>/changelog/feed.xml</code></a></h3>
-<p>Release-Feed — Versionen, Daten, Changelog-Einträge.</p>
+<p>Release-Feed - Versionen, Daten, Changelog-Einträge.</p>
 </article>
 
 <article class="page-card">

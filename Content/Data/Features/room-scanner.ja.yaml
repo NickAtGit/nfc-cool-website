@@ -4,7 +4,7 @@ backLinkText: "← すべての機能"
 
 hero:
   title: "ルーム・スキャン"
-  subtitle: "LiDAR搭載のRoomPlanで、部屋を歩くだけ — 壁、ドア、窓、認識された家具まで含めた美しいパラメトリックな間取り図を、ひとつのUSDZシーンとして書き出せます。"
+  subtitle: "LiDAR搭載のRoomPlanで、部屋を歩くだけ - 壁、ドア、窓、認識された家具まで含めた美しいパラメトリックな間取り図を、ひとつのUSDZシーンとして書き出せます。"
   platforms: "iOSのみ"
   heroImagePath: "/assets/images/Webflow/scan-room.webp"
 
@@ -17,7 +17,7 @@ capabilities:
   - title: "床面積 & 寸法"
     description: "各部屋ごとに床面積、天井高、壁の長さを出力。数値はJSONとして書き出せるほか、USDZの中でも利用できます。"
   - title: "AR Quick Look"
-    description: "完成した部屋をAR Quick Lookで開いたり、USDZを共有 — 受け取った相手はメッセージ内でモデルの中を歩けます。"
+    description: "完成した部屋をAR Quick Lookで開いたり、USDZを共有 - 受け取った相手はメッセージ内でモデルの中を歩けます。"
 
 screenshots:
   - path: "/assets/images/Webflow/scan-room.webp"
@@ -40,11 +40,11 @@ specs:
 faqTitle: "よくある質問"
 faq:
   - question: "LiDARは必要ですか?"
-    answer: "はい — RoomPlanはAppleのLiDAR専用APIです。オブジェクト・スキャン(フォトグラメトリ)は任意のiPhoneで動作しますが、ルーム・スキャンにはLiDARが必要です。"
+    answer: "はい - RoomPlanはAppleのLiDAR専用APIです。オブジェクト・スキャン(フォトグラメトリ)は任意のiPhoneで動作しますが、ルーム・スキャンにはLiDARが必要です。"
   - question: "スキャンにはどのくらい時間がかかりますか?"
     answer: "部屋を歩くだけです。結果はライブで生成され、終わった時点で完成しています。"
   - question: "結果をCADソフトで開けますか?"
-    answer: "はい — USDZは最新の多くのCAD/3Dツールでサポートされています。SketchUpやRevitのワークフローでは、Blenderや無料のUSD→OBJツールで変換してください。"
+    answer: "はい - USDZは最新の多くのCAD/3Dツールでサポートされています。SketchUpやRevitのワークフローでは、Blenderや無料のUSD→OBJツールで変換してください。"
 
 cta:
   title: "数分であなたの空間をマッピング。"

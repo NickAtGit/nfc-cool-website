@@ -12,7 +12,7 @@ description: "Die Geschichte, die Mission und die Person hinter NFC.cool - ein d
 
 # Unabhängig entwickelt, in Portugal.
 
-NFC.cool ist ein unabhängiges Produkt von **Nicolo Stanciu**, gemacht in Lissabon. Eine Person, eine Mission: das beste mobile Scan-Toolkit zu liefern — ohne die Leute auszuspionieren, die es benutzen.
+NFC.cool ist ein unabhängiges Produkt von **Nicolo Stanciu**, gemacht in Lissabon. Eine Person, eine Mission: das beste mobile Scan-Toolkit zu liefern - ohne die Leute auszuspionieren, die es benutzen.
 
 <a href="mailto:hello@nfc.cool" class="landing-cta-button">Kontakt aufnehmen</a>
 
@@ -46,12 +46,12 @@ Ich halte das absichtlich so. Kein VC, keine Analytics, kein Growth-Team - nur e
 
 <article class="page-card">
 <h3>Datenschutz von Haus aus</h3>
-<p>Scans, Dokumente, Kontakte — alles bleibt auf deinem Gerät. Nichts fließt zu mir zurück, es sei denn, du aktivierst Webhooks explizit (und selbst dann ist das Ziel <em>dein</em> Server).</p>
+<p>Scans, Dokumente, Kontakte - alles bleibt auf deinem Gerät. Nichts fließt zu mir zurück, es sei denn, du aktivierst Webhooks explizit (und selbst dann ist das Ziel <em>dein</em> Server).</p>
 </article>
 
 <article class="page-card">
 <h3>Verarbeitung auf dem Gerät</h3>
-<p>OCR, Photogrammetrie, NFC-Parsing — alles läuft lokal. Keine Cloud-Roundtrips, keine Internet-Pflicht.</p>
+<p>OCR, Photogrammetrie, NFC-Parsing - alles läuft lokal. Keine Cloud-Roundtrips, keine Internet-Pflicht.</p>
 </article>
 
 <article class="page-card">

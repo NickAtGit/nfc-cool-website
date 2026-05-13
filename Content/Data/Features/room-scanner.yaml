@@ -4,20 +4,20 @@ backLinkText: "← All features"
 
 hero:
   title: "Room Scanning"
-  subtitle: "LiDAR-powered RoomPlan turns a walk through your space into a clean parametric floor plan — walls, doors, windows, and recognised furniture, exported as a single USDZ scene."
+  subtitle: "LiDAR-powered RoomPlan turns a walk through your space into a clean parametric floor plan - walls, doors, windows, and recognised furniture, exported as a single USDZ scene."
   platforms: "iOS only"
   heroImagePath: "/assets/images/Webflow/scan-room.webp"
 
 capabilitiesTitle: "What you can do"
 capabilities:
   - title: "RoomPlan capture"
-    description: "Walk through a room with your iPhone's LiDAR sensor. NFC.cool builds a parametric model in real time — walls, doors, windows, and openings."
+    description: "Walk through a room with your iPhone's LiDAR sensor. NFC.cool builds a parametric model in real time - walls, doors, windows, and openings."
   - title: "Recognised furniture"
     description: "Beds, sofas, tables, chairs, storage, stoves, sinks, toilets, bathtubs and TVs are detected and labelled inside the scene."
   - title: "Floor area & dimensions"
     description: "Every room reports floor area, ceiling height, and per-wall dimensions. Export the numbers as JSON or use them inside the USDZ."
   - title: "AR Quick Look"
-    description: "Open the finished room in AR Quick Look or share the USDZ — recipients can walk around the model right in Messages."
+    description: "Open the finished room in AR Quick Look or share the USDZ - recipients can walk around the model right in Messages."
 
 screenshots:
   - path: "/assets/images/Webflow/scan-room.webp"
@@ -40,11 +40,11 @@ specs:
 faqTitle: "Frequently asked"
 faq:
   - question: "Do I need LiDAR?"
-    answer: "Yes — RoomPlan is a LiDAR-only API from Apple. Object Scanning (photogrammetry) works on any iPhone, but Room Scanning requires LiDAR."
+    answer: "Yes - RoomPlan is a LiDAR-only API from Apple. Object Scanning (photogrammetry) works on any iPhone, but Room Scanning requires LiDAR."
   - question: "How long does a scan take?"
     answer: "Just walk through the room. The result is generated live and is ready when you finish."
   - question: "Can I open the result in CAD software?"
-    answer: "Yes — USDZ is supported by most modern CAD/3D tools. For SketchUp / Revit workflows, convert via Blender or a free USD-to-OBJ tool."
+    answer: "Yes - USDZ is supported by most modern CAD/3D tools. For SketchUp / Revit workflows, convert via Blender or a free USD-to-OBJ tool."
 
 cta:
   title: "Map your space in minutes."

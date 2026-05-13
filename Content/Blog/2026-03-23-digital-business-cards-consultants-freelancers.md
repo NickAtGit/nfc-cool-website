@@ -45,7 +45,7 @@ NFC-enabled digital cards help here. A tap is nearly instant - the NFC tag conta
 
 When a corporate employee gets business cards, the company pays. When you get business cards, *you* pay. That changes the calculus entirely.
 
-Every subscription needs to justify itself. Every $10/month is $120/year that comes directly out of your revenue. And premium business card platforms that charge $8–15/month for features you don't need? That's money better spent on your actual business.
+Every subscription needs to justify itself. Every $10/month is $120/year that comes directly out of your revenue. And premium business card platforms that charge $8-15/month for features you don't need? That's money better spent on your actual business.
 
 ---
 
@@ -180,7 +180,7 @@ This sounds obvious, but it's the #1 advantage of going digital. Update your car
 
 ### Are digital business cards worth it for freelancers on a tight budget?
 
-Yes - and many are free. Even paid options typically cost $5–10/month, which pays for itself if a single networking encounter turns into a client. Compare that to paper cards: $50–80 per print run, outdated within months, and 88% end up in the trash.
+Yes - and many are free. Even paid options typically cost $5-10/month, which pays for itself if a single networking encounter turns into a client. Compare that to paper cards: $50-80 per print run, outdated within months, and 88% end up in the trash.
 
 ### Can I have different cards for different services?
 

@@ -47,7 +47,7 @@ NFC is actually a subset of RFID (Radio-Frequency Identification). The main diff
 
 | | NFC | RFID |
 |---|---|---|
-| **Frequency** | 13.56 MHz only | 125 KHz – 960 MHz |
+| **Frequency** | 13.56 MHz only | 125 KHz - 960 MHz |
 | **Range** | Up to ~4 cm | Up to several meters |
 | **Communication** | Two-way | Usually one-way |
 | **Standardized** | ISO 14443 / ISO 18092 | Multiple standards |
@@ -68,7 +68,7 @@ These are by far the most common NFC tags for consumer use:
 #### NTAG213
 - **Memory:** 144 bytes (about 132 usable)
 - **Best for:** URLs, contact cards, simple automations
-- **Price:** Cheapest option (~$0.15–$0.30 per tag)
+- **Price:** Cheapest option (~$0.15-$0.30 per tag)
 - **URL capacity:** ~130 characters
 
 The workhorse. If you're storing a single URL or a short piece of text, NTAG213 is all you need. This is what most NFC business cards and marketing tags use.
@@ -76,7 +76,7 @@ The workhorse. If you're storing a single URL or a short piece of text, NTAG213 
 #### NTAG215
 - **Memory:** 504 bytes (about 488 usable)
 - **Best for:** Longer URLs, vCards with multiple fields, Wi-Fi credentials
-- **Price:** ~$0.20–$0.40 per tag
+- **Price:** ~$0.20-$0.40 per tag
 - **URL capacity:** ~480 characters
 
 The sweet spot for slightly more complex data. Also the chip type used in Nintendo Amiibo figures, which created a huge secondary market for writable NTAG215 tags.
@@ -84,7 +84,7 @@ The sweet spot for slightly more complex data. Also the chip type used in Ninten
 #### NTAG216
 - **Memory:** 888 bytes (about 868 usable)
 - **Best for:** Full vCards, multiple records, longer text content
-- **Price:** ~$0.30–$0.60 per tag
+- **Price:** ~$0.30-$0.60 per tag
 - **URL capacity:** ~850 characters
 
 The most storage in the NTAG consumer line. Choose this if you need to store a complete vCard with a photo URL, multiple phone numbers, and addresses - or if you want headroom for future edits.
@@ -286,13 +286,13 @@ No. NFC tags are completely passive - they draw power from the reading device's 
 Standard NFC tags have no encryption by default. Anyone with an NFC phone can read an unlocked, unprotected tag. For most use cases (sharing a URL, triggering a shortcut), this isn't a concern. For sensitive applications, use tags with cryptographic features (like NTAG424 DNA) or ensure the tag only triggers an action that requires further authentication.
 
 ### How close do I need to hold my phone?
-Within about 1–4 cm (0.5–1.5 inches). On iPhones, the NFC antenna is at the top of the phone. On most Android phones, it's in the upper-middle back. You'll learn the sweet spot quickly.
+Within about 1-4 cm (0.5-1.5 inches). On iPhones, the NFC antenna is at the top of the phone. On most Android phones, it's in the upper-middle back. You'll learn the sweet spot quickly.
 
 ### Can I rewrite NFC tags?
 Yes - if the tag hasn't been locked. Most NFC tags support approximately 100,000 write cycles, so you can reprogram them extensively. Once locked, a tag becomes permanently read-only.
 
 ### How much data can an NFC tag store?
-It depends on the chip. NTAG213 holds ~144 bytes, NTAG215 holds ~504 bytes, and NTAG216 holds ~888 bytes. For context, a typical URL is 30–80 bytes. It's not a lot of storage - NFC tags are best for short data or pointers to online content.
+It depends on the chip. NTAG213 holds ~144 bytes, NTAG215 holds ~504 bytes, and NTAG216 holds ~888 bytes. For context, a typical URL is 30-80 bytes. It's not a lot of storage - NFC tags are best for short data or pointers to online content.
 
 ### Do NFC tags work through cases?
 Yes. NFC works through most phone cases, stickers, and thin materials. Very thick or metallic cases might reduce range. If you're sticking a tag on metal (like a laptop), use tags designed for metal surfaces (they have a ferrite shielding layer).

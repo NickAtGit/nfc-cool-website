@@ -32,32 +32,32 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="landing-faq-item">
 <summary>Does my phone have NFC?</summary>
-<p>All iPhones from iPhone 7 onward have NFC, and iPhone XS and newer can read tags from the lock screen without launching an app. On Android, most phones from 2015 onward have NFC — check your device specs. NFC.cool will tell you on first launch if your device isn't compatible.</p>
+<p>All iPhones from iPhone 7 onward have NFC, and iPhone XS and newer can read tags from the lock screen without launching an app. On Android, most phones from 2015 onward have NFC - check your device specs. NFC.cool will tell you on first launch if your device isn't compatible.</p>
 </details>
 
 <details class="landing-faq-item">
 <summary>What's the difference between iOS and Android?</summary>
-<p>The iPhone app is a full scanning toolkit — NFC, QR &amp; Barcodes, Documents (with OCR), 3D and Room Scanning. The Android app focuses on NFC reading and writing and includes the Digital Business Card features. The other tools are on the Android roadmap.</p>
+<p>The iPhone app is a full scanning toolkit - NFC, QR &amp; Barcodes, Documents (with OCR), 3D and Room Scanning. The Android app focuses on NFC reading and writing and includes the Digital Business Card features. The other tools are on the Android roadmap.</p>
 </details>
 
 <details class="landing-faq-item">
 <summary>Is the Digital Business Card a separate app?</summary>
-<p>On iPhone, yes — NFC.cool Business Card Maker is a dedicated app available at business-card.nfc.cool. On Android, the same Business Card features are included inside NFC.cool Tools — no extra install needed.</p>
+<p>On iPhone, yes - NFC.cool Business Card Maker is a dedicated app available at business-card.nfc.cool. On Android, the same Business Card features are included inside NFC.cool Tools - no extra install needed.</p>
 </details>
 
 <details class="landing-faq-item">
 <summary>Which NFC tags should I buy?</summary>
-<p>For iPhone, NTAG-series Type 2 tags (NTAG213/215/216) work best. NFC.cool supports the full NFC Forum spec (Types 1–5) including MIFARE Classic, MIFARE Ultralight, MIFARE DESFire, ISO 14443, ISO 15693, and FeliCa. Avoid extremely cheap stickers — antenna quality matters.</p>
+<p>For iPhone, NTAG-series Type 2 tags (NTAG213/215/216) work best. NFC.cool supports the full NFC Forum spec (Types 1-5) including MIFARE Classic, MIFARE Ultralight, MIFARE DESFire, ISO 14443, ISO 15693, and FeliCa. Avoid extremely cheap stickers - antenna quality matters.</p>
 </details>
 
 <details class="landing-faq-item">
 <summary>Do I need a special iPhone for 3D and Room Scanning?</summary>
-<p>Room scanning uses Apple's LiDAR sensor — that's iPhone 12 Pro and newer Pro models, plus iPad Pro 2020 and later. Photogrammetry-based 3D object scanning runs on any iPhone with iOS 17 and enough compute (basically any 2020+ device).</p>
+<p>Room scanning uses Apple's LiDAR sensor - that's iPhone 12 Pro and newer Pro models, plus iPad Pro 2020 and later. Photogrammetry-based 3D object scanning runs on any iPhone with iOS 17 and enough compute (basically any 2020+ device).</p>
 </details>
 
 <details class="landing-faq-item">
 <summary>Are the apps free?</summary>
-<p>Yes — both apps are free on the App Store and Google Play, with no ads. Some advanced workflows may be unlockable inside the apps, but the core NFC, QR, document, 3D, and Business Card features are free.</p>
+<p>Yes - both apps are free on the App Store and Google Play, with no ads. Some advanced workflows may be unlockable inside the apps, but the core NFC, QR, document, 3D, and Business Card features are free.</p>
 </details>
 
 <details class="landing-faq-item">
@@ -72,7 +72,7 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="landing-faq-item">
 <summary>Where is my data stored?</summary>
-<p>By default, everything stays on your device — scans, written tags, contacts, documents, 3D models. Nothing is uploaded to NFC.cool. You can opt in to webhooks if you want to forward scan data to your own server; even then NFC.cool never sees the data.</p>
+<p>By default, everything stays on your device - scans, written tags, contacts, documents, 3D models. Nothing is uploaded to NFC.cool. You can opt in to webhooks if you want to forward scan data to your own server; even then NFC.cool never sees the data.</p>
 </details>
 
 <details class="landing-faq-item">
@@ -82,7 +82,7 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="landing-faq-item">
 <summary>Can businesses use NFC.cool?</summary>
-<p>Yes — webhooks let teams pipe NFC and QR scans straight into their own backends, CRMs, or automation tools (Zapier, n8n, Make). There's no NFC.cool account or upload involved, so your data never crosses our servers. For NFC tag campaigns at scale or custom branding, email hello@nfc.cool.</p>
+<p>Yes - webhooks let teams pipe NFC and QR scans straight into their own backends, CRMs, or automation tools (Zapier, n8n, Make). There's no NFC.cool account or upload involved, so your data never crosses our servers. For NFC tag campaigns at scale or custom branding, email hello@nfc.cool.</p>
 </details>
 
 <details class="landing-faq-item">

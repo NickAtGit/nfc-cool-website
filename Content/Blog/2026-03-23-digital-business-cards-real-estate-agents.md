@@ -28,7 +28,7 @@ But "going digital" isn't just about replacing paper. For real estate agents spe
 
 ### Your info changes constantly
 
-Switched brokerages? New phone number? Added a team member? With paper cards, every change means another print run - $50–$150 each time, plus the weeks of handing out outdated cards before the new ones arrive.
+Switched brokerages? New phone number? Added a team member? With paper cards, every change means another print run - $50-$150 each time, plus the weeks of handing out outdated cards before the new ones arrive.
 
 Digital cards update instantly. Change your brokerage affiliation once, and everyone who saved your card sees the new info immediately.
 
@@ -130,7 +130,7 @@ Full disclosure: this is the NFC.cool blog, so yes, we're going to talk about ou
 
 **Privacy-first.** NFC.cool doesn't contact your recipients. Period. No solicitation emails, no data enrichment, no conversation recording, no data monetization or advertising. When you're handling sensitive property transactions and client financial information, this matters.
 
-**NFC hardware that isn't locked in.** NFC.cool doesn't sell NFC tags - and you don't need to buy proprietary $30–$60 NFC cards from any app maker. Any third-party NFC tag or sticker works. Grab a $2 NFC sticker, write your card URL to it, and you're set.
+**NFC hardware that isn't locked in.** NFC.cool doesn't sell NFC tags - and you don't need to buy proprietary $30-$60 NFC cards from any app maker. Any third-party NFC tag or sticker works. Grab a $2 NFC sticker, write your card URL to it, and you're set.
 
 **QR codes built in.** Every NFC.cool Business Card comes with a QR code you can print, display, or share digitally. Perfect for open house setups.
 
@@ -162,7 +162,7 @@ Getting started takes about five minutes:
 Let's do some quick math:
 
 - Average agent prints 500 business cards: **~$50**
-- Reprints when info changes (2–3× per year): **~$100–$150**
+- Reprints when info changes (2-3× per year): **~$100-$150**
 - Lost leads from illegible open house sign-ins: **incalculable, but painful**
 - Lost leads from discarded paper cards (88% discard rate): **that's 440 out of every 500**
 

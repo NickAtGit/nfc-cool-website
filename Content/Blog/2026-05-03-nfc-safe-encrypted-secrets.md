@@ -14,9 +14,9 @@ Your seed phrase is on a piece of paper. Maybe it's in a safe. Maybe under a flo
 
 What if your backup couldn't rot, couldn't degrade, and looked like nothing to anyone who found it?
 
-That's what **NFC Safe** does. It encrypts any text — seed phrases, passwords, recovery codes, whatever you need to keep secret — onto an NFC tag with 256-bit AES encryption. The tag is self-contained. No cloud. No server. No account. To read the secret, you need the physical tag *and* the passphrase. Without both, the tag is just a tiny piece of plastic with some gibberish on it.
+That's what **NFC Safe** does. It encrypts any text - seed phrases, passwords, recovery codes, whatever you need to keep secret - onto an NFC tag with 256-bit AES encryption. The tag is self-contained. No cloud. No server. No account. To read the secret, you need the physical tag *and* the passphrase. Without both, the tag is just a tiny piece of plastic with some gibberish on it.
 
-The encryption format is [fully documented and open](https://github.com/NickAtGit/nfc.cool-nfc-safe-format), including a reference Python decoder. Your secrets don't depend on the app existing — if NFC.cool ever disappears, you can still recover your data with a standard NFC reader and the spec.
+The encryption format is [fully documented and open](https://github.com/NickAtGit/nfc.cool-nfc-safe-format), including a reference Python decoder. Your secrets don't depend on the app existing - if NFC.cool ever disappears, you can still recover your data with a standard NFC reader and the spec.
 
 ### The problem with storing secrets
 
@@ -38,7 +38,7 @@ NFC Safe lives inside NFC.cool Tools under NFC Apps. Encrypt or Decrypt with a s
 **To decrypt:**
 1. Same screen, switch to **Decrypt**
 2. Enter your passphrase
-3. Tap a previously-encrypted tag — your secret appears
+3. Tap a previously-encrypted tag - your secret appears
 
 Under the hood: AES-256-GCM with PBKDF2 (HMAC-SHA-256, 100,000 iterations, 16-byte random salt). Stored on the tag as a custom NDEF record (`urn:nfc:ext:crypto`). [Format spec on GitHub](https://github.com/NickAtGit/nfc.cool-nfc-safe-format).
 
@@ -48,12 +48,12 @@ An NTAG216 tag costs about a coffee. Buy a handful, encrypt the same secret to e
 
 ### Why NFC instead of USB or SD card
 
-- **No connector** — nothing to corrode or bend
-- **No battery** — passive, powered by the reader
-- **No filesystem** — nothing to corrupt
-- **No driver** — every smartphone reads NFC natively
-- **Small and cheap** — coin-sized, under a dollar in quantity
-- **Durable** — epoxy variants handle water, impact, UV
+- **No connector** - nothing to corrode or bend
+- **No battery** - passive, powered by the reader
+- **No filesystem** - nothing to corrupt
+- **No driver** - every smartphone reads NFC natively
+- **Small and cheap** - coin-sized, under a dollar in quantity
+- **Durable** - epoxy variants handle water, impact, UV
 
 Capacity is the only limit: ~500-700 bytes after encryption overhead. Plenty for a 24-word seed phrase, master password, or recovery codes.
 
@@ -62,7 +62,7 @@ Capacity is the only limit: ~500-700 bytes after encryption overhead. Plenty for
 - **Your passphrase is everything.** 256-bit AES is unbreakable. A weak passphrase isn't. Use a randomly-generated 20+ character string.
 - **NFC range is short** (~4 cm). Nobody scans from across the room.
 - **No remote wipe.** Lost tag? Destroy it physically (scissors work).
-- **No passphrase recovery.** Forget it and the data is gone — by design. Write it down somewhere separate from the tags.
+- **No passphrase recovery.** Forget it and the data is gone - by design. Write it down somewhere separate from the tags.
 
 ### The bigger picture
 

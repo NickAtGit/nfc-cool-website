@@ -12,7 +12,7 @@ description: "Presse-Ressourcen, Marken-Assets, Logos, Screenshots und Kontaktda
 
 # Presse & Marke
 
-Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage benötigt, beginnst du hier richtig. Press Kit und Brand Kit sind unten verlinkt – kein Formular auszufüllen.
+Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage benötigt, beginnst du hier richtig. Press Kit und Brand Kit sind unten verlinkt - kein Formular auszufüllen.
 
 <a href="mailto:hello@nfc.cool?subject=Presseanfrage" class="landing-cta-button">press@nfc.cool schreiben</a>
 
@@ -34,13 +34,13 @@ Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage ben
 
 <article class="page-card">
 <h3>Press Kit</h3>
-<p>Kuratierte Screenshots, App-Icons und aktuelle Produktbilder, fertig zum Einbinden. Auf iCloud Drive – kein Apple-ID-Login nötig zum Ansehen oder Herunterladen.</p>
+<p>Kuratierte Screenshots, App-Icons und aktuelle Produktbilder, fertig zum Einbinden. Auf iCloud Drive - kein Apple-ID-Login nötig zum Ansehen oder Herunterladen.</p>
 <p><a href="https://www.icloud.com/iclouddrive/0e7Gy46aFsq8U2kqEyIs9Wleg#NFC.cool_Press_Kit" class="landing-cta-button">Press Kit herunterladen</a></p>
 </article>
 
 <article class="page-card">
 <h3>Brand Kit</h3>
-<p>Logos (hell + dunkel, SVG + PNG), Farbpalette, Schriftspezifikation und Schutzraum-Hinweise. Ebenfalls iCloud Drive – direkt öffnen, ohne Apple ID.</p>
+<p>Logos (hell + dunkel, SVG + PNG), Farbpalette, Schriftspezifikation und Schutzraum-Hinweise. Ebenfalls iCloud Drive - direkt öffnen, ohne Apple ID.</p>
 <p><a href="https://www.icloud.com/iclouddrive/0ebMuI8X63LN-CiUiF8YlVb2A#NFC.cool_Brand_Kit" class="landing-cta-button">Brand Kit herunterladen</a></p>
 </article>
 
@@ -86,7 +86,7 @@ Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage ben
 
 <article class="page-card">
 <h3>Farbpalette</h3>
-<p>Markengelb <code>#FFC709</code> · Markenschwarz <code>#0E1116</code> · Markenweiß <code>#FFFFFF</code>. Gelb ist der Akzent – für Momente, die heraus­stechen sollen.</p>
+<p>Markengelb <code>#FFC709</code> · Markenschwarz <code>#0E1116</code> · Markenweiß <code>#FFFFFF</code>. Gelb ist der Akzent - für Momente, die heraus­stechen sollen.</p>
 </article>
 
 <article class="page-card">

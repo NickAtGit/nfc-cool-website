@@ -1,7 +1,7 @@
 ---
 title: "プライバシーポリシー"
 slug: "privacy"
-description: "NFC.coolがあなたの個人データをどのように収集・処理・保護するか — ウェブサイトとNFC.coolアプリ群について。"
+description: "NFC.coolがあなたの個人データをどのように収集・処理・保護するか - ウェブサイトとNFC.coolアプリ群について。"
 ---
 
 <section class="page-hero">

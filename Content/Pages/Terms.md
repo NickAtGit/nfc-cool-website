@@ -207,7 +207,7 @@ No joint venture, partnership, employment, or agency relationship is created bet
 
 To resolve Service complaints or receive further information, contact:
 
-**Nicolo Stanciu — NFC.cool Unipessoal LDA**
+**Nicolo Stanciu - NFC.cool Unipessoal LDA**
 Rua da Sofia 139, 3000-390 Coimbra, Portugal
 <info@nfc.cool>
 

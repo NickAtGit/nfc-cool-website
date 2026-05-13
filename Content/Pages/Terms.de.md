@@ -28,7 +28,7 @@ Die rechtliche Vereinbarung zwischen dir und NFC.cool Unipessoal LDA über diese
 
 <section class="page-section">
 
-Diese Bedingungen gelten für die öffentliche NFC.cool-Website unter nfc.cool und die NFC.cool-Familie an Apps. Die rechtlich verbindliche Fassung — soweit nach deutschem Recht erforderlich — ist diese deutsche Version.
+Diese Bedingungen gelten für die öffentliche NFC.cool-Website unter nfc.cool und die NFC.cool-Familie an Apps. Die rechtlich verbindliche Fassung - soweit nach deutschem Recht erforderlich - ist diese deutsche Version.
 
 ## Nutzung dieser Website
 
@@ -36,11 +36,11 @@ Diese Website wird kostenlos für private und gewerbliche Nutzung bereitgestellt
 
 ## Nutzung der Apps
 
-Die NFC.cool-Apps werden im Apple App Store und auf Google Play unter den Standard-Vertriebsbedingungen dieser Stores angeboten. Die Bereitstellung erfolgt „wie sie ist" — wir geben keine Garantie für die Eignung für einen bestimmten Zweck. Scan-, Dokumenten- und 3D-Funktionen hängen von den Fähigkeiten deiner Geräte-Hardware und deines Betriebssystems ab.
+Die NFC.cool-Apps werden im Apple App Store und auf Google Play unter den Standard-Vertriebsbedingungen dieser Stores angeboten. Die Bereitstellung erfolgt „wie sie ist" - wir geben keine Garantie für die Eignung für einen bestimmten Zweck. Scan-, Dokumenten- und 3D-Funktionen hängen von den Fähigkeiten deiner Geräte-Hardware und deines Betriebssystems ab.
 
 ## Deine Daten
 
-Die Apps verarbeiten deine Daten auf deinem Gerät. Details siehe [Datenschutzerklärung](/de/privacy/). Von dir konfigurierte Webhooks senden Daten an URLs, die du selbst kontrollierst — wir haften nicht für das, was mit diesen Daten geschieht, nachdem sie deinen Endpunkt erreicht haben.
+Die Apps verarbeiten deine Daten auf deinem Gerät. Details siehe [Datenschutzerklärung](/de/privacy/). Von dir konfigurierte Webhooks senden Daten an URLs, die du selbst kontrollierst - wir haften nicht für das, was mit diesen Daten geschieht, nachdem sie deinen Endpunkt erreicht haben.
 
 ## Haftung
 

@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 slug: "privacy"
-description: "How NFC.cool collects, processes, and protects your personal data — across the website and the NFC.cool family of apps."
+description: "How NFC.cool collects, processes, and protects your personal data - across the website and the NFC.cool family of apps."
 ---
 
 <section class="page-hero">
@@ -44,7 +44,7 @@ What personal data we collect, how we use it, the third parties involved, and th
 
 <article class="page-card">
 <h3>How do we process your information?</h3>
-<p>To provide and improve services, communicate with users, prevent fraud, and comply with legal obligations — with a valid legal reason for each instance.</p>
+<p>To provide and improve services, communicate with users, prevent fraud, and comply with legal obligations - with a valid legal reason for each instance.</p>
 </article>
 
 <article class="page-card">
@@ -76,7 +76,7 @@ Information voluntarily provided during registration or service interactions may
 
 ### Sensitive information
 
-Sensitive data — details about racial or ethnic background, health, religious views, or other categories listed by applicable data protection laws — is not processed by us intentionally.
+Sensitive data - details about racial or ethnic background, health, religious views, or other categories listed by applicable data protection laws - is not processed by us intentionally.
 
 ### Information automatically collected
 
@@ -113,12 +113,12 @@ Processing relies on one or more of:
 
 Personal information may be shared with:
 
-- **Google Analytics** — for tracking and analyzing service usage; opt-out available at <https://tools.google.com/dlpage/gaoptout>.
-- **Google Maps Platform APIs** — for mapping and location services.
-- **AdMob** — for targeted advertising; collects device information and user interests.
-- **Firebase** — for analytics, crash reporting, and performance metrics.
-- **Stripe** — for payment processing.
-- **Affiliate marketing programs** — to track referral success.
+- **Google Analytics** - for tracking and analyzing service usage; opt-out available at <https://tools.google.com/dlpage/gaoptout>.
+- **Google Maps Platform APIs** - for mapping and location services.
+- **AdMob** - for targeted advertising; collects device information and user interests.
+- **Firebase** - for analytics, crash reporting, and performance metrics.
+- **Stripe** - for payment processing.
+- **Affiliate marketing programs** - to track referral success.
 
 ### Business transfers
 
@@ -186,7 +186,7 @@ We may update this privacy notice from time to time. The updated version will be
 
 ## Contact
 
-**NFC.cool Unipessoal LDA — Nicolo Stanciu**
+**NFC.cool Unipessoal LDA - Nicolo Stanciu**
 Rua da Sofia 139, 3000-390 Coimbra, Portugal
 <info@nfc.cool>
 

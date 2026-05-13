@@ -4,7 +4,7 @@ backLinkText: "← すべての機能"
 
 hero:
   title: "3Dオブジェクト・スキャン"
-  subtitle: "iPhoneでオブジェクトの周りを歩くだけ — NFC.coolがオンデバイスのフォトグラメトリでテクスチャ付き3Dモデルを再構成します。AR Quick Look用のUSDZ、3D印刷用のSTL、Blender用のOBJ/PLY形式に書き出せます。"
+  subtitle: "iPhoneでオブジェクトの周りを歩くだけ - NFC.coolがオンデバイスのフォトグラメトリでテクスチャ付き3Dモデルを再構成します。AR Quick Look用のUSDZ、3D印刷用のSTL、Blender用のOBJ/PLY形式に書き出せます。"
   platforms: "iOSのみ"
   heroImagePath: "/assets/images/Webflow/3d-object.webp"
 
@@ -17,7 +17,7 @@ capabilities:
   - title: "どこへでも書き出し"
     description: "AR Quick Look用にUSDZ、3D印刷用にSTL、Blender用にOBJ/PLY、プロダクション用にUSD/ABC。頂点精度とテクスチャ解像度を選択可能です。"
   - title: "AR Quick Look"
-    description: "AR Quick Lookでスキャンしたオブジェクトをリビングに配置。USDZファイルを友人と共有 — メッセージ内でそのまま表示できます。"
+    description: "AR Quick Lookでスキャンしたオブジェクトをリビングに配置。USDZファイルを友人と共有 - メッセージ内でそのまま表示できます。"
 
 screenshots:
   - path: "/assets/images/Webflow/3d-object.webp"
@@ -41,11 +41,11 @@ specs:
 faqTitle: "よくある質問"
 faq:
   - question: "オブジェクト・スキャンにLiDARは必要ですか?"
-    answer: "いいえ — フォトグラメトリは任意の最新iPhoneで動作します。LiDARが必要なのはルーム・スキャン(RoomPlan)のみです。"
+    answer: "いいえ - フォトグラメトリは任意の最新iPhoneで動作します。LiDARが必要なのはルーム・スキャン(RoomPlan)のみです。"
   - question: "スキャンにはどのくらい時間がかかりますか?"
     answer: "30〜100枚の撮影に数分、その後オンデバイスの再構成に2〜5分です。"
   - question: "結果を3D印刷できますか?"
-    answer: "はい — STL形式で書き出し、お好みのスライサーに読み込んでください。印刷前に簡略化/スムージング処理を行い、頂点数を抑えることをおすすめします。"
+    answer: "はい - STL形式で書き出し、お好みのスライサーに読み込んでください。印刷前に簡略化/スムージング処理を行い、頂点数を抑えることをおすすめします。"
 
 cta:
   title: "世界を3Dでキャプチャしよう。"

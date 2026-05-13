@@ -32,7 +32,7 @@ Before we get to the solution, let's be honest about the problem. Paper business
 
 At a conference, everything that's slightly inconvenient about paper becomes a real problem:
 
-**You run out.** The average conference attendee meets dozens of people over two or three days. Most people bring 50–100 cards and hope for the best. If you're a speaker, exhibitor, or just genuinely good at networking, that's not enough.
+**You run out.** The average conference attendee meets dozens of people over two or three days. Most people bring 50-100 cards and hope for the best. If you're a speaker, exhibitor, or just genuinely good at networking, that's not enough.
 
 **They get destroyed.** Cards get shoved into badge holders, folded into jacket pockets, stacked under coffee cups, and dropped on expo floors. By the time someone finds your card a week later, it looks like it went through the wash.
 
@@ -212,7 +212,7 @@ All iPhones since iPhone 7 (2016) and the vast majority of Android phones from 2
 
 ### How much does it cost compared to printing paper cards?
 
-A basic digital business card is free on most platforms (including NFC.cool). A physical NFC card or sticker typically costs $5–$30 as a one-time purchase and can be reprogrammed for every event. Compare that to $50–$150 per print run of paper cards that can't be updated and go straight to the recycling bin.
+A basic digital business card is free on most platforms (including NFC.cool). A physical NFC card or sticker typically costs $5-$30 as a one-time purchase and can be reprogrammed for every event. Compare that to $50-$150 per print run of paper cards that can't be updated and go straight to the recycling bin.
 
 ### What about data privacy at conferences?
 

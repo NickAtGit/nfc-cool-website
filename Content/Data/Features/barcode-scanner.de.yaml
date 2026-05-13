@@ -4,14 +4,14 @@ backLinkText: "← Alle Funktionen"
 
 hero:
   title: "Barcode-Scanner"
-  subtitle: "Scanne EAN, UPC, Code 128, PDF417, Aztec, Data Matrix und über 20 weitere Formate. Im Batch-Modus bleibt die Kamera offen — ideal für Inventur und Event-Check-ins."
+  subtitle: "Scanne EAN, UPC, Code 128, PDF417, Aztec, Data Matrix und über 20 weitere Formate. Im Batch-Modus bleibt die Kamera offen - ideal für Inventur und Event-Check-ins."
   platforms: "Nur iOS"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "Was du machen kannst"
 capabilities:
   - title: "Alle gängigen Barcode-Formate"
-    description: "EAN-13/8, UPC-A/E, Code 128, Code 39, ITF, PDF417, Aztec, Data Matrix und mehr — automatische Formaterkennung, kein Modus-Wechsel."
+    description: "EAN-13/8, UPC-A/E, Code 128, Code 39, ITF, PDF417, Aztec, Data Matrix und mehr - automatische Formaterkennung, kein Modus-Wechsel."
   - title: "Batch-Modus"
     description: "Scanne eine Reihe von Barcodes hintereinander, ohne neu zu zielen. Praktisch für Inventur, Event-Check-ins oder Bibliotheks-Archivierung."
   - title: "Produktsuche"
@@ -44,10 +44,10 @@ faq:
   - question: "Warum nur auf iOS?"
     answer: "Die Android-Version von NFC.cool konzentriert sich derzeit auf NFC und die digitale Visitenkarte. Barcode-Scannen ist auf der Android-Roadmap."
   - question: "Kann ich mehrere Barcodes auf einmal scannen?"
-    answer: "Ja — im Batch-Modus bleibt die Kamera offen und reiht jeden gefundenen Barcode in eine Warteschlange ein. Tippe auf einen Eintrag, um damit zu arbeiten."
+    answer: "Ja - im Batch-Modus bleibt die Kamera offen und reiht jeden gefundenen Barcode in eine Warteschlange ein. Tippe auf einen Eintrag, um damit zu arbeiten."
   - question: "Kann ich den Scan-Verlauf exportieren?"
-    answer: "Ja — die Verlaufsansicht exportiert nach CSV mit Zeitstempel, Format und Roh-Payload."
+    answer: "Ja - die Verlaufsansicht exportiert nach CSV mit Zeitstempel, Format und Roh-Payload."
 
 cta:
-  title: "Alles scannen — in jeder Menge."
+  title: "Alles scannen - in jeder Menge."
   buttonText: "Für iOS herunterladen"

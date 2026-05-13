@@ -1,7 +1,7 @@
 ---
 title: "Integrations"
 slug: "integrations"
-description: "Pipe NFC and QR scans into your existing tools — Zapier, n8n, Make, IFTTT, or any HTTP endpoint."
+description: "Pipe NFC and QR scans into your existing tools - Zapier, n8n, Make, IFTTT, or any HTTP endpoint."
 ---
 
 <section class="page-hero">
@@ -34,7 +34,7 @@ Every NFC.cool scan can fire an HTTP POST to a URL you control. That means if yo
 
 <article class="feature-capability-card">
 <h3>Zapier</h3>
-<p>Use Zapier's "Catch Webhook" trigger to route scans into 5,000+ apps — CRMs, sheets, Slack, you name it. Free Zapier tier handles light volumes.</p>
+<p>Use Zapier's "Catch Webhook" trigger to route scans into 5,000+ apps - CRMs, sheets, Slack, you name it. Free Zapier tier handles light volumes.</p>
 </article>
 
 <article class="feature-capability-card">
@@ -72,7 +72,7 @@ Every NFC.cool scan can fire an HTTP POST to a URL you control. That means if yo
 
 - **Inventory + audit trail.** Tap a tag on an item, NFC.cool POSTs to a sheet or warehouse system; a row appears with timestamp + device + payload.
 - **Lead capture at events.** Tap a tag on your booth banner, your CRM fires off a follow-up email automatically.
-- **Smart-home triggers.** Tap a tag on the front door to mark "I'm home" — Home Assistant / Homey / Hubitat picks it up via webhook.
+- **Smart-home triggers.** Tap a tag on the front door to mark "I'm home" - Home Assistant / Homey / Hubitat picks it up via webhook.
 - **Asset tracking.** Maintenance staff tap tags on equipment to log inspections; backend builds the compliance log.
 - **Conference check-ins.** Tap an attendee's NFC badge; the webhook updates your event platform in real time.
 

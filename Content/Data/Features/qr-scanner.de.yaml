@@ -11,13 +11,13 @@ hero:
 capabilitiesTitle: "Was du machen kannst"
 capabilities:
   - title: "Universelles QR-Scannen"
-    description: "URLs, vCards, WLAN-Zugangsdaten, Kalender-Events, Zahlungen, App-Store-Deep-Links — NFC.cool erkennt den Payload-Typ und schlägt die richtige Aktion vor."
+    description: "URLs, vCards, WLAN-Zugangsdaten, Kalender-Events, Zahlungen, App-Store-Deep-Links - NFC.cool erkennt den Payload-Typ und schlägt die richtige Aktion vor."
   - title: "QR-Codes in Fotos erkennen"
-    description: "Wähle einen Screenshot oder ein Foto aus der Mediathek — NFC.cool findet und dekodiert jeden QR-Code darin, sogar teilweise verdeckte."
+    description: "Wähle einen Screenshot oder ein Foto aus der Mediathek - NFC.cool findet und dekodiert jeden QR-Code darin, sogar teilweise verdeckte."
   - title: "QR Code Studio"
     description: "Gestalte QR-Codes mit eigenen Farben, abgerundeten Augenformen, Logos in der Mitte oder Genmoji auf iOS 18+. Exportiere als SVG oder PNG in druckreifer Auflösung."
   - title: "Verlauf & Wiederfreigabe"
-    description: "Jeder Scan wird lokal gespeichert — öffne den Payload erneut, kopiere ihn, teile ihn oder springe direkt zurück zur Aktion."
+    description: "Jeder Scan wird lokal gespeichert - öffne den Payload erneut, kopiere ihn, teile ihn oder springe direkt zurück zur Aktion."
 
 screenshots:
   - path: "/assets/images/Webflow/qr-studio.webp"
@@ -29,7 +29,7 @@ specsTitle: "Unterstützte Formate & Exporte"
 specs:
   - title: "2D-Codes"
     items:
-      - "QR Code (M1–M4)"
+      - "QR Code (M1-M4)"
       - "Micro QR"
       - "Aztec"
       - "Data Matrix"
@@ -46,9 +46,9 @@ faq:
   - question: "Warum nur auf iOS?"
     answer: "Die Android-Version von NFC.cool konzentriert sich derzeit auf NFC und die digitale Visitenkarte. QR-Scannen ist auf der Android-Roadmap."
   - question: "Sind die Studio-QR-Codes mit allen Readern kompatibel?"
-    answer: "Ja — es sind standardisierte QR-Codes mit optionalem Styling. Jeder Standard-Reader (inklusive iOS-Kamera und Google Lens) kann sie dekodieren."
+    answer: "Ja - es sind standardisierte QR-Codes mit optionalem Styling. Jeder Standard-Reader (inklusive iOS-Kamera und Google Lens) kann sie dekodieren."
   - question: "Kann ich einen QR-Code aus einem Screenshot scannen?"
-    answer: "Ja — wähle ein beliebiges Bild aus der Mediathek und NFC.cool findet jeden QR-Code darin."
+    answer: "Ja - wähle ein beliebiges Bild aus der Mediathek und NFC.cool findet jeden QR-Code darin."
 
 cta:
   title: "Scannen und gestalten mit einem Tipp."

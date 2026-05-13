@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit einem Tipp — NFC, QR-Code, AppClip oder Apple Wallet — und sieh, wer deine Karte tatsächlich speichert. Auf Android sind die gleichen Funktionen direkt in NFC.cool Tools integriert.
+Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit einem Tipp - NFC, QR-Code, AppClip oder Apple Wallet - und sieh, wer deine Karte tatsächlich speichert. Auf Android sind die gleichen Funktionen direkt in NFC.cool Tools integriert.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web_de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store">
@@ -42,7 +42,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 
 <article class="page-card">
 <h3>Lead-Generierung in beide Richtungen</h3>
-<p>Empfänger deiner Karte können direkt zurück verbinden — jedes Teilen wird zum Lead mit Status von Neu → Kontaktiert → Qualifiziert → Konvertiert.</p>
+<p>Empfänger deiner Karte können direkt zurück verbinden - jedes Teilen wird zum Lead mit Status von Neu → Kontaktiert → Qualifiziert → Konvertiert.</p>
 </article>
 
 <article class="page-card">
@@ -52,7 +52,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 
 <article class="page-card">
 <h3>Echtzeit-Insights</h3>
-<p>Profilaufrufe, gespeicherte Kontakte und Lead-Konvertierungen — täglich, wöchentlich, monatlich. So weißt du wirklich, welches Event funktioniert.</p>
+<p>Profilaufrufe, gespeicherte Kontakte und Lead-Konvertierungen - täglich, wöchentlich, monatlich. So weißt du wirklich, welches Event funktioniert.</p>
 </article>
 
 <article class="page-card">
@@ -67,7 +67,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 
 <article class="page-card">
 <h3>Umweltfreundlich</h3>
-<p>Eine digitale Karte ersetzt einen Stapel Papier. Änderungen sind sofort sichtbar — kein Nachdruck, kein Abfall.</p>
+<p>Eine digitale Karte ersetzt einen Stapel Papier. Änderungen sind sofort sichtbar - kein Nachdruck, kein Abfall.</p>
 </article>
 
 </div>
@@ -77,7 +77,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 <section class="page-section page-section--gallery">
 
 <div class="page-gallery">
-<img src="/assets/images/BusinessCard/01AppClip.webp" alt="AppClip-Karte auf dem iPhone-Sperrbildschirm — freundlicher Empfangsgruß und Business-Card-Vorschau" loading="lazy"/>
+<img src="/assets/images/BusinessCard/01AppClip.webp" alt="AppClip-Karte auf dem iPhone-Sperrbildschirm - freundlicher Empfangsgruß und Business-Card-Vorschau" loading="lazy"/>
 <img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="Profilansicht mit Name, Foto und Social-Media-Links" loading="lazy"/>
 <img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="Profilansicht mit Adresse, Telefonnummer und E-Mail" loading="lazy"/>
 </div>
@@ -93,69 +93,69 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 <article class="page-card">
 <h3>Smarte Visitenkarten</h3>
 <ul>
-<li><strong>Digitale Karten erstellen</strong> — Karten, die deine Marke wiedergeben</li>
-<li><strong>Bis zu 100 Karten</strong> — für verschiedene Rollen, Anlässe oder Teammitglieder</li>
-<li><strong>Aus Kontakten importieren</strong> — jeden bestehenden Kontakt als Karte nutzen</li>
-<li><strong>Immer aktuell</strong> — Änderungen werden sofort wirksam, ohne Nachdruck</li>
+<li><strong>Digitale Karten erstellen</strong> - Karten, die deine Marke wiedergeben</li>
+<li><strong>Bis zu 100 Karten</strong> - für verschiedene Rollen, Anlässe oder Teammitglieder</li>
+<li><strong>Aus Kontakten importieren</strong> - jeden bestehenden Kontakt als Karte nutzen</li>
+<li><strong>Immer aktuell</strong> - Änderungen werden sofort wirksam, ohne Nachdruck</li>
 </ul>
 </article>
 
 <article class="page-card">
 <h3>Customization & Branding</h3>
 <ul>
-<li><strong>Anpassbare Logos</strong> — separate Marken für Hell- und Dunkelmodus</li>
-<li><strong>Eigene Farben</strong> — Hintergrund, Rahmen und Kacheln (iOS)</li>
-<li><strong>Dark & Light Mode</strong> — die Karte passt sich der Geräteeinstellung an</li>
+<li><strong>Anpassbare Logos</strong> - separate Marken für Hell- und Dunkelmodus</li>
+<li><strong>Eigene Farben</strong> - Hintergrund, Rahmen und Kacheln (iOS)</li>
+<li><strong>Dark & Light Mode</strong> - die Karte passt sich der Geräteeinstellung an</li>
 </ul>
 </article>
 
 <article class="page-card">
 <h3>Lead-Generierung & Netzwerken</h3>
 <ul>
-<li><strong>Lead-Formulare</strong> — Kontaktdaten von Betrachtern erfassen</li>
-<li><strong>Status-Tracking</strong> — Neu → Kontaktiert → Qualifiziert → Konvertiert → Archiviert</li>
-<li><strong>Echtzeit-Benachrichtigungen</strong> — sofortiger Push, wenn jemand verbindet</li>
-<li><strong>Kalender & Erinnerungen</strong> — Follow-ups direkt aus einem Lead planen</li>
+<li><strong>Lead-Formulare</strong> - Kontaktdaten von Betrachtern erfassen</li>
+<li><strong>Status-Tracking</strong> - Neu → Kontaktiert → Qualifiziert → Konvertiert → Archiviert</li>
+<li><strong>Echtzeit-Benachrichtigungen</strong> - sofortiger Push, wenn jemand verbindet</li>
+<li><strong>Kalender & Erinnerungen</strong> - Follow-ups direkt aus einem Lead planen</li>
 </ul>
 </article>
 
 <article class="page-card">
 <h3>Analytics</h3>
 <ul>
-<li><strong>Profilaufrufe</strong> — wie viele Personen deine Karte geöffnet haben</li>
-<li><strong>Kontakt-Speicherungen</strong> — wer dich in seine Kontakte aufgenommen hat</li>
+<li><strong>Profilaufrufe</strong> - wie viele Personen deine Karte geöffnet haben</li>
+<li><strong>Kontakt-Speicherungen</strong> - wer dich in seine Kontakte aufgenommen hat</li>
 <li><strong>Tag / Woche / Monat</strong> im Dashboard aufgeschlüsselt</li>
-<li><strong>Trend-Analyse</strong> — verstehe dein Networking über die Zeit</li>
+<li><strong>Trend-Analyse</strong> - verstehe dein Networking über die Zeit</li>
 </ul>
 </article>
 
 <article class="page-card">
 <h3>Datenschutz & Sicherheit</h3>
 <ul>
-<li><strong>PIN-geschützte Profile</strong> — 4-stellige PIN mit ratenlimitierter Prüfung</li>
-<li><strong>Öffentlich / Privat</strong> — durchsuchbar oder nur per URL erreichbar</li>
-<li><strong>DSGVO-Export</strong> — alles als ZIP herunterladen, jederzeit</li>
-<li><strong>Session-Sicherheit</strong> — automatischer Timeout der PIN-Sitzung</li>
+<li><strong>PIN-geschützte Profile</strong> - 4-stellige PIN mit ratenlimitierter Prüfung</li>
+<li><strong>Öffentlich / Privat</strong> - durchsuchbar oder nur per URL erreichbar</li>
+<li><strong>DSGVO-Export</strong> - alles als ZIP herunterladen, jederzeit</li>
+<li><strong>Session-Sicherheit</strong> - automatischer Timeout der PIN-Sitzung</li>
 </ul>
 </article>
 
 <article class="page-card">
 <h3>Teilen & Konnektivität</h3>
 <ul>
-<li><strong>Social-Plattformen</strong> — Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord und mehr</li>
-<li><strong>NFC, QR, eigene URL</strong> — drei Sharing-Modi, jeweils ein Tipp</li>
-<li><strong>AppClip</strong> — Empfänger sehen deine Karte ohne Installation (iOS)</li>
-<li><strong>Plattformübergreifend</strong> — auf iOS und Android</li>
+<li><strong>Social-Plattformen</strong> - Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord und mehr</li>
+<li><strong>NFC, QR, eigene URL</strong> - drei Sharing-Modi, jeweils ein Tipp</li>
+<li><strong>AppClip</strong> - Empfänger sehen deine Karte ohne Installation (iOS)</li>
+<li><strong>Plattformübergreifend</strong> - auf iOS und Android</li>
 </ul>
 </article>
 
 <article class="page-card">
 <h3>Konferenzmodus</h3>
 <ul>
-<li><strong>QR auf dem Sperrbildschirm</strong> — der QR-Code deiner Karte heftet auf dem iPhone-Lock-Screen, scanbar ohne Entsperren</li>
-<li><strong>Bleibt 8 Stunden</strong> — deckt einen kompletten Event-Tag ab, danach wird er automatisch entfernt</li>
-<li><strong>App muss nicht offen sein</strong> — Telefon hinhalten, scannen lassen, fertig</li>
-<li><strong>Nur iOS</strong> — nutzt Apples Live-Activities-API</li>
+<li><strong>QR auf dem Sperrbildschirm</strong> - der QR-Code deiner Karte heftet auf dem iPhone-Lock-Screen, scanbar ohne Entsperren</li>
+<li><strong>Bleibt 8 Stunden</strong> - deckt einen kompletten Event-Tag ab, danach wird er automatisch entfernt</li>
+<li><strong>App muss nicht offen sein</strong> - Telefon hinhalten, scannen lassen, fertig</li>
+<li><strong>Nur iOS</strong> - nutzt Apples Live-Activities-API</li>
 </ul>
 </article>
 
@@ -178,9 +178,9 @@ Wähle den Plan, der zu deinem Networking-Pensum passt. Alle bezahlten Pläne en
 <tr><th scope="row">Preis</th><td><strong>$0</strong></td><td><strong>$19,99</strong></td><td><strong>$49,99</strong></td><td><strong>$99,99</strong></td></tr>
 <tr><th scope="row">Karten</th><td>1</td><td>1</td><td>10</td><td>100</td></tr>
 <tr><th scope="row">Profilaufrufe</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">vCard speichern</th><td>—</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">Lead-Generierung</th><td>—</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">Analytics</th><td>—</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">vCard speichern</th><td>-</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Lead-Generierung</th><td>-</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Analytics</th><td>-</td><td>✓</td><td>✓</td><td>✓</td></tr>
 <tr><th scope="row">Eigenes Logo</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
 <tr><th scope="row">NFC & QR teilen</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
 <tr><th scope="row">Konferenzmodus</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
@@ -198,6 +198,6 @@ Wähle den Plan, der zu deinem Networking-Pensum passt. Alle bezahlten Pläne en
 
 ## Auf Android
 
-Die Visitenkarten-Funktion auf Android ist direkt in [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_de) eingebaut — keine zweite App. App öffnen, Karte einrichten, antippen zum Teilen. Gleiches Datenmodell, gleicher NFC-Handshake, gleicher QR-Fallback. Lead-Generierung, erweiterte Analytics und Konferenzmodus sind aktuell nur unter iOS verfügbar.
+Die Visitenkarten-Funktion auf Android ist direkt in [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_de) eingebaut - keine zweite App. App öffnen, Karte einrichten, antippen zum Teilen. Gleiches Datenmodell, gleicher NFC-Handshake, gleicher QR-Fallback. Lead-Generierung, erweiterte Analytics und Konferenzmodus sind aktuell nur unter iOS verfügbar.
 
 </section>

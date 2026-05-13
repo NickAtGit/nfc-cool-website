@@ -293,7 +293,7 @@ Pricing changes frequently, so always check the latest on each app's website. He
 - **NFC.cool** - Free tier available; Personal at €20/year (1 card), Small Business at €50/year (10 cards), Business at €100/year (100 cards)
 - **Wave Connect** - Free (generous); Pro at $7/month or $59/year; Teams at $60/user/year
 - **Blinq** - Free (with branding); Premium ~$9.99/month; Business $4.99/user/month (min 5)
-- **HiHello** - Free (4 cards); Professional $6–8/month; Business $5–6/user/month
+- **HiHello** - Free (4 cards); Professional $6-8/month; Business $5-6/user/month
 - **Popl** - Free (very basic); Teams/Enterprise require demo booking
 - **Mobilo** - No free plan; ~$4/month + hardware purchase
 - **Linq** - Varies by card type + subscription tier

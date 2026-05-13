@@ -12,7 +12,7 @@ description: "Echte 5-Sterne-Bewertungen von NFC.cool aus dem App Store - aus al
 
 # 6.500+ Bewertungen, 4,5 Sterne
 
-Die folgenden Reviews stammen direkt aus dem App Store. Jedes Zitat ist eine echte 5-Sterne-Bewertung — nichts umgeschrieben, nichts gefiltert außer den ganz kurzen.
+Die folgenden Reviews stammen direkt aus dem App Store. Jedes Zitat ist eine echte 5-Sterne-Bewertung - nichts umgeschrieben, nichts gefiltert außer den ganz kurzen.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store">
@@ -53,7 +53,7 @@ Die folgenden Reviews stammen direkt aus dem App Store. Jedes Zitat ist eine ech
 
 <div class="landing-review-card">
 <div class="landing-review-stars">★★★★★</div>
-<blockquote class="landing-review-quote">Funktioniert beim Auslesen einer meiner Geldkarten, bei 2 anderen wird nichts erkannt — gehe davon aus, dass der Fehler nicht an der App liegt. Die App ist definitiv kostenlos als Basisversion verfügbar.</blockquote>
+<blockquote class="landing-review-quote">Funktioniert beim Auslesen einer meiner Geldkarten, bei 2 anderen wird nichts erkannt - gehe davon aus, dass der Fehler nicht an der App liegt. Die App ist definitiv kostenlos als Basisversion verfügbar.</blockquote>
 <div class="landing-review-author"><div><strong>A. Akasha</strong><span>App Store · Deutschland</span></div></div>
 </div>
 
@@ -115,7 +115,7 @@ Die folgenden Reviews stammen direkt aus dem App Store. Jedes Zitat ist eine ech
 
 ## Eigene Bewertung hinzufügen
 
-Wenn du NFC.cool nutzt und einen Moment Zeit hast, hilft eine kurze App-Store-Bewertung enorm — und es ist das einzige Signal, das nicht auf Analytics angewiesen ist.
+Wenn du NFC.cool nutzt und einen Moment Zeit hast, hilft eine kurze App-Store-Bewertung enorm - und es ist das einzige Signal, das nicht auf Analytics angewiesen ist.
 
 - [NFC.cool Tools im App Store bewerten](https://apps.apple.com/app/apple-store/id1249686798?action=write-review)
 - [NFC.cool Business Card im App Store bewerten](https://apps.apple.com/app/apple-store/id6502926572?action=write-review)

@@ -1,7 +1,7 @@
 ---
 title: "Datenschutzerklärung"
 slug: "privacy"
-description: "Wie NFC.cool deine personenbezogenen Daten erhebt, verarbeitet und schützt — auf der Website und in der NFC.cool-Familie an Apps."
+description: "Wie NFC.cool deine personenbezogenen Daten erhebt, verarbeitet und schützt - auf der Website und in der NFC.cool-Familie an Apps."
 ---
 
 <section class="page-hero">
@@ -36,7 +36,7 @@ Wenn du das Newsletter-Formular absendest, wird deine E-Mail-Adresse per HTTPS a
 
 ## Apps
 
-NFC.cool Tools und NFC.cool Business Card verarbeiten deine Daten lokal auf deinem Gerät. Scans, NFC-Schreibvorgänge, Kontakte und Notizen werden ausschließlich auf deinem Gerät gespeichert — sie werden nicht an Server von NFC.cool übertragen.
+NFC.cool Tools und NFC.cool Business Card verarbeiten deine Daten lokal auf deinem Gerät. Scans, NFC-Schreibvorgänge, Kontakte und Notizen werden ausschließlich auf deinem Gerät gespeichert - sie werden nicht an Server von NFC.cool übertragen.
 
 Wenn du **Webhooks** aktivierst, werden Scan-Ergebnisse an die von dir konfigurierte URL gesendet. NFC.cool ist nicht der Empfänger und sieht deine Scan-Daten nicht.
 
