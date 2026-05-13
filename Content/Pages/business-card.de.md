@@ -198,6 +198,6 @@ Wähle den Plan, der zu deinem Networking-Pensum passt. Alle bezahlten Pläne en
 
 ## Auf Android
 
-Die Visitenkarten-Funktion auf Android ist direkt in [NFC.cool Tools](https://android.nfc.cool) eingebaut — keine zweite App. App öffnen, Karte einrichten, antippen zum Teilen. Gleiches Datenmodell, gleicher NFC-Handshake, gleicher QR-Fallback. Lead-Generierung, erweiterte Analytics und Konferenzmodus sind aktuell nur unter iOS verfügbar.
+Die Visitenkarten-Funktion auf Android ist direkt in [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_de) eingebaut — keine zweite App. App öffnen, Karte einrichten, antippen zum Teilen. Gleiches Datenmodell, gleicher NFC-Handshake, gleicher QR-Fallback. Lead-Generierung, erweiterte Analytics und Konferenzmodus sind aktuell nur unter iOS verfügbar.
 
 </section>

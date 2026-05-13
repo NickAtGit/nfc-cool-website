@@ -35,13 +35,13 @@ Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage ben
 <article class="page-card">
 <h3>Press Kit</h3>
 <p>Kuratierte Screenshots, App-Icons und aktuelle Produktbilder, fertig zum Einbinden. Auf iCloud Drive – kein Apple-ID-Login nötig zum Ansehen oder Herunterladen.</p>
-<p><a href="https://www.icloud.com/iclouddrive/0e7Gy46aFsq8U2kqEyIs9Wleg#NFC.cool_Press_Kit" class="landing-cta-button">Press Kit öffnen</a></p>
+<p><a href="https://www.icloud.com/iclouddrive/0e7Gy46aFsq8U2kqEyIs9Wleg#NFC.cool_Press_Kit" class="landing-cta-button">Press Kit herunterladen</a></p>
 </article>
 
 <article class="page-card">
 <h3>Brand Kit</h3>
 <p>Logos (hell + dunkel, SVG + PNG), Farbpalette, Schriftspezifikation und Schutzraum-Hinweise. Ebenfalls iCloud Drive – direkt öffnen, ohne Apple ID.</p>
-<p><a href="https://www.icloud.com/iclouddrive/0ebMuI8X63LN-CiUiF8YlVb2A#NFC.cool_Brand_Kit" class="landing-cta-button">Brand Kit öffnen</a></p>
+<p><a href="https://www.icloud.com/iclouddrive/0ebMuI8X63LN-CiUiF8YlVb2A#NFC.cool_Brand_Kit" class="landing-cta-button">Brand Kit herunterladen</a></p>
 </article>
 
 </div>

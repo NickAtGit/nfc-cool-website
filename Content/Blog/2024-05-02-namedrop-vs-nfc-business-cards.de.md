@@ -18,4 +18,4 @@ Und genau hier kommen NFC-Visitenkarten ins Spiel: eine plattformübergreifende 
 
 Fazit: NameDrop überzeugt mit Design und User Experience, NFC-Visitenkarten stehen für umfassendes, inklusives digitales Networking. Sie erreichen ein breiteres Publikum und sind damit die robustere Wahl für alle, die sich durch das komplexe Netz moderner Kommunikation bewegen.
 
-Lust auf eine? [NFC.cool Business Card holen](https://business-card.nfc.cool) für iPhone, oder die mitgelieferte Visitenkarte in [NFC.cool Tools für Android](https://android.nfc.cool) nutzen.
+Lust auf eine? [NFC.cool Business Card holen](https://business-card.nfc.cool) für iPhone, oder die mitgelieferte Visitenkarte in [NFC.cool Tools für Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_de) nutzen.

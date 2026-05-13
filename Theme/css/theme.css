@@ -20,6 +20,13 @@
    --container-padding: max(1.5rem, env(safe-area-inset-left), env(safe-area-inset-right));
    --prose-width: 760px;
    --faq-width: 820px;
+   /* Radius scale. --radius (8px) and --radius-lg (14px) come from
+      Theme/theme.yaml via SiteKit's TokenCSSGenerator; the sizes below
+      fill the gaps (SiteKit only emits those two known keys). */
+   --radius-sm: 4px;
+   --radius-md: 10px;
+   --radius-xl: 32px;
+   --radius-pill: 999px;
 }
 
 /* ============================================================
@@ -321,7 +328,7 @@ em.brand-tail {
    justify-content: space-between;
    gap: 0.75rem;
    padding: 0.5rem 0.75rem;
-   border-radius: 6px;
+   border-radius: var(--radius-sm);
    color: var(--color-text-secondary);
    font-size: 0.875rem;
    text-decoration: none;
@@ -417,7 +424,7 @@ body.landing .sk-main {
 .sk-static-page code {
    background: var(--color-code-bg);
    padding: 0.15rem 0.4rem;
-   border-radius: 4px;
+   border-radius: var(--radius-sm);
    font-size: 0.9em;
    font-family: var(--font-mono);
 }

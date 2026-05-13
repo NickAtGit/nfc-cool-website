@@ -70,20 +70,9 @@
    max-width: 36em;
    margin: 0 auto 1.75rem;
 }
-.page-hero .landing-cta-button {
-   display: inline-block;
-   padding: 0.875rem 1.75rem;
-   background: var(--color-accent);
-   color: #0E1116;
-   font-weight: 700;
-   border-radius: var(--radius);
-   text-decoration: none;
-   transition: background var(--transition), transform var(--transition);
-}
-.page-hero .landing-cta-button:hover {
-   background: var(--color-accent-hover);
-   transform: translateY(-1px);
-}
+/* .landing-cta-button is now defined globally in landing.css and the base
+   yellow-accent style works on the brand-blue page-hero gradient out of the
+   box — no override needed here. */
 
 /* Split hero — same look as the landing hero (.landing-hero-*).
    Activated by wrapping markdown content in `<div class="page-hero-grid">`
@@ -150,7 +139,7 @@
    max-height: clamp(360px, 46vh, 480px);
    height: auto;
    margin: 0 auto;
-   border-radius: 36px;
+   border-radius: var(--radius-xl);
    box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.35), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
    transform: rotate(-2deg);
    object-fit: contain;
@@ -191,7 +180,7 @@
    height: auto;
    max-height: clamp(360px, 46vh, 480px);
    margin: 0;
-   border-radius: 36px;
+   border-radius: var(--radius-xl);
    box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.35), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
    transform: rotate(-2deg);
    object-fit: contain;
@@ -282,11 +271,14 @@
    line-height: 1.65;
 }
 .page-section li { margin: 0.35rem 0; }
-.page-section a {
+/* Inline text links inside a page-section get the brand-yellow underline.
+   Carve out .landing-cta-button so the unified primary button keeps its
+   outlined-pill design without a yellow bottom-edge bleeding through. */
+.page-section a:not(.landing-cta-button) {
    color: var(--color-text);
    border-bottom: 1px solid var(--color-accent);
 }
-.page-section a:hover { color: var(--color-accent-hover); }
+.page-section a:not(.landing-cta-button):hover { color: var(--color-accent-hover); }
 
 /* Tighten the gap between hero and first section */
 .page-hero + .page-section { padding-top: clamp(3rem, 5vw, 4rem); }
@@ -332,11 +324,20 @@
    color: var(--color-text-secondary);
    max-width: none;
 }
-.page-card a {
+/* Stack subsequent paragraphs inside a card with breathing room — the
+   common case is `<p>description</p><p><a class="landing-cta-button">CTA</a></p>`,
+   where the button paragraph needs visual separation from the text above. */
+.page-card p + p {
+   margin-top: 0.875rem;
+}
+/* Inline text links inside a card get the brand-yellow underline. The
+   `:not(.landing-cta-button)` carve-out keeps the unified primary-button
+   rule from inheriting a yellow border-bottom that fights its own outline. */
+.page-card a:not(.landing-cta-button) {
    color: var(--color-text);
    border-bottom: 1px solid var(--color-accent);
 }
-.page-card a:hover { color: var(--color-accent-hover); }
+.page-card a:not(.landing-cta-button):hover { color: var(--color-accent-hover); }
 
 /* ============================================================
    Social-media card grid used on /contact/. Each card shows the
@@ -443,6 +444,6 @@
    height: auto;
    margin: 0 auto;
    display: block;
-   border-radius: 18px;
+   border-radius: var(--radius-lg);
    box-shadow: 0 24px 60px -20px var(--color-shadow-lg);
 }

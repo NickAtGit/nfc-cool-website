@@ -117,6 +117,8 @@ footer:
       url: "/contact/"
     - title: "Press"
       url: "/press/"
+    - title: "NFC tags"
+      url: "/affiliate-links/"
     - title: "Privacy"
       url: "/privacy/"
     - title: "Terms"

@@ -198,6 +198,6 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 
 ## Androidでは
 
-AndroidではBusiness Card機能が[NFC.cool Tools](https://android.nfc.cool)に組み込まれています — 別アプリは不要。アプリを開いてカードを設定し、タップで共有。同じデータモデル、同じNFCハンドシェイク、同じQRフォールバックです。リードジェネレーション、詳細アナリティクス、Conference Modeは現在iOSのみで提供されます。
+AndroidではBusiness Card機能が[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_ja)に組み込まれています — 別アプリは不要。アプリを開いてカードを設定し、タップで共有。同じデータモデル、同じNFCハンドシェイク、同じQRフォールバックです。リードジェネレーション、詳細アナリティクス、Conference Modeは現在iOSのみで提供されます。
 
 </section>

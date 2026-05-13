@@ -35,13 +35,13 @@ For coverage, partnerships, and anything that needs an official statement, this 
 <article class="page-card">
 <h3>Press kit</h3>
 <p>Curated screenshots, app icons, and recent product shots, ready to embed. Hosted on iCloud Drive — no account needed to view or download.</p>
-<p><a href="https://www.icloud.com/iclouddrive/0e7Gy46aFsq8U2kqEyIs9Wleg#NFC.cool_Press_Kit" class="landing-cta-button">Open press kit</a></p>
+<p><a href="https://www.icloud.com/iclouddrive/0e7Gy46aFsq8U2kqEyIs9Wleg#NFC.cool_Press_Kit" class="landing-cta-button">Download Press Kit</a></p>
 </article>
 
 <article class="page-card">
 <h3>Brand kit</h3>
 <p>Logos (light + dark, SVG + PNG), color palette, typography spec, and clear-space guidance. Same iCloud Drive setup — open directly, no Apple ID required.</p>
-<p><a href="https://www.icloud.com/iclouddrive/0ebMuI8X63LN-CiUiF8YlVb2A#NFC.cool_Brand_Kit" class="landing-cta-button">Open brand kit</a></p>
+<p><a href="https://www.icloud.com/iclouddrive/0ebMuI8X63LN-CiUiF8YlVb2A#NFC.cool_Brand_Kit" class="landing-cta-button">Download Brand Kit</a></p>
 </article>
 
 </div>

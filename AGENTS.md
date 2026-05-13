@@ -125,7 +125,6 @@ The newsletter form posts cross-origin to a shared Cloudflare Worker; this repo 
 - [ ] **Android `assetlinks.json`** at `/.well-known/assetlinks.json` if the Android Tools app uses App Links.
 - [ ] **Google Search Console verification meta** — preserve `google-site-verification=8Deh-qJD2ZKg_mAjM5-dMRDWS15XcUiIc6w4h9fL9-U` on cutover.
 - [ ] **Twitter / OG hero image** — pick a 1200×630 brand image, wire into `SiteConfig.yaml`; set `twitter:site=@NFC_for_iPhone`.
-- [ ] **Webflow ecommerce redirects** — add `/shipping-and-returns`, `/newsletter`, `/affiliate-links` to `redirects.yaml`.
 - [ ] **Install ImageMagick on CI** so `srcset` variants generate in the GitHub Pages build.
 
 ## SiteKit references

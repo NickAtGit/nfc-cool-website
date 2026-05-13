@@ -113,7 +113,7 @@
    max-width: 100%;
    width: 100%;
    height: auto;
-   border-radius: 36px;
+   border-radius: var(--radius-xl);
    box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.35), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
    transform: rotate(-2deg);
 }
@@ -131,7 +131,7 @@
    line-height: 0;
    text-decoration: none;
    transition: transform var(--transition), box-shadow var(--transition);
-   border-radius: 10px;
+   border-radius: var(--radius-md);
 }
 .landing-store-button:hover {
    transform: translateY(-1px);
@@ -204,7 +204,7 @@
    max-width: 100%;
    margin: 0 auto;
    object-fit: contain;
-   border-radius: 18px;
+   border-radius: var(--radius-lg);
 }
 .landing-feature-card-text {
    display: flex;
@@ -234,7 +234,7 @@
    align-items: center;
    gap: 0.4rem;
    padding: 0.3rem 0.7rem 0.3rem 0.55rem;
-   border-radius: 999px;
+   border-radius: var(--radius-pill);
    font-size: 0.75rem;
    font-weight: 600;
    line-height: 1;
@@ -356,7 +356,7 @@
    max-width: 320px;
    margin: 0 auto;
    height: auto;
-   border-radius: 32px;
+   border-radius: var(--radius-xl);
    box-shadow: 0 30px 60px -25px rgba(33, 37, 41, 0.4);
    transform: rotate(2deg);
 }
@@ -369,28 +369,89 @@
    margin: 0 0 1.5rem;
    max-width: 30em;
 }
+/* Primary CTA button — outlined, context-aware via four local custom
+   properties (--cta-border / --cta-text / --cta-fill-hover /
+   --cta-border-hover). Contexts rebind them; rule body never repeats.
+   Base radius uses --radius-lg to align with cards / FAQ items. The
+   .landing-cta-button--pill modifier (used by the newsletter submit
+   inside a pill input) keeps the rounded form.
+   - Light mode page section: brand-blue-1 outline + text.
+   - Dark mode page section: brand-yellow #FFC800 outline + text.
+   - Brand-blue gradient context (any mode): translucent-white outline +
+     white text. */
 .landing-cta-button {
+   --cta-border: var(--brand-blue-1);
+   --cta-text: var(--brand-blue-1);
+   --cta-fill-hover: rgba(19, 123, 217, 0.10);
+   --cta-border-hover: var(--brand-blue-1);
+
    display: inline-flex;
    align-items: center;
    gap: 0.5rem;
-   padding: 0.875rem 1.75rem;
-   background: #212529;
-   color: #FFFFFF;
-   font-weight: 700;
-   font-size: 1rem;
-   letter-spacing: 0.005em;
-   border-radius: 10px;
+   padding: 0.625rem 1.5rem;
+   background: transparent;
+   color: var(--cta-text);
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 0.9375rem;
+   letter-spacing: 0.04em;
+   border-radius: var(--radius-lg);
+   border: 1.5px solid var(--cta-border);
    text-decoration: none;
-   transition: transform var(--transition), background var(--transition);
+   cursor: pointer;
+   transition: background var(--transition), border-color var(--transition), color var(--transition), transform var(--transition);
 }
 .landing-cta-button:hover {
+   background: var(--cta-fill-hover);
+   color: var(--cta-text);
+   border-color: var(--cta-border-hover);
    transform: translateY(-1px);
-   background: #000;
-   color: #FFFFFF;
+}
+.landing-cta-button:active {
+   transform: translateY(0);
+}
+.landing-cta-button:focus-visible {
+   outline: 2px solid var(--cta-border);
+   outline-offset: 3px;
+}
+.landing-cta-button:disabled {
+   opacity: 0.6;
+   cursor: not-allowed;
+   transform: none;
 }
 .landing-cta-button.landing-cta-button-large {
-   padding: 1rem 2rem;
-   font-size: 1.0625rem;
+   padding: 0.85rem 1.875rem;
+   font-size: 1rem;
+}
+/* --pill modifier — used by the newsletter submit button, which sits
+   inside a pill-shaped input wrapper, so it needs to stay rounded. All
+   other CTAs use the rectangular --radius-lg from the base rule. */
+.landing-cta-button.landing-cta-button--pill {
+   border-radius: var(--radius-pill);
+}
+
+/* Dark-mode page section — lighter blue (brand-blue-2, #00A2F3) so the
+   outlined pill stays high-contrast on the dark card backgrounds while
+   keeping the colour palette purely in the brand-blue family. */
+[data-theme="dark"] .landing-cta-button {
+   --cta-border: var(--brand-blue-2);
+   --cta-text: var(--brand-blue-2);
+   --cta-fill-hover: rgba(0, 162, 243, 0.12);
+   --cta-border-hover: var(--brand-blue-2);
+}
+
+/* Brand-blue gradient backgrounds (heroes, feature banner, final CTA,
+   converted feature-cta) — translucent-white outline + white text. Same in
+   both modes (the gradient is brand, not theme). Placed after the dark-mode
+   block so this wins for dark + hero. */
+.landing-hero .landing-cta-button,
+.landing-feature-banner .landing-cta-button,
+.landing-final-cta .landing-cta-button,
+.page-hero .landing-cta-button {
+   --cta-border: rgba(255, 255, 255, 0.5);
+   --cta-text: #FFFFFF;
+   --cta-fill-hover: rgba(255, 255, 255, 0.12);
+   --cta-border-hover: #FFFFFF;
 }
 
 /* ============================================================
@@ -712,7 +773,7 @@
    margin: 0 auto;
    background: var(--color-bg);
    border: 1px solid var(--color-border);
-   border-radius: 999px;
+   border-radius: var(--radius-pill);
    padding: 5px;
    transition: border-color var(--transition), box-shadow var(--transition);
 }
@@ -735,29 +796,12 @@
 .landing-newsletter-form input[type="email"]::placeholder {
    color: var(--color-text-muted);
 }
-.landing-newsletter-button {
-   font-family: var(--font-heading);
-   font-weight: 600;
-   font-size: 0.9375rem;
-   padding: 0.625rem 1.375rem;
-   border-radius: 999px;
-   border: 0;
-   background: var(--color-accent);
-   color: #0E1116;
-   cursor: pointer;
-   transition: background var(--transition), transform var(--transition);
+/* Newsletter submit button now uses the unified .landing-cta-button rule
+   with the --pill modifier; only keep newsletter-specific layout overrides
+   that the global button doesn't care about. */
+.landing-newsletter-form .landing-cta-button--pill {
    white-space: nowrap;
    flex-shrink: 0;
-}
-.landing-newsletter-button:hover {
-   background: var(--color-accent-hover);
-}
-.landing-newsletter-button:active {
-   transform: translateY(1px);
-}
-.landing-newsletter-button:disabled {
-   opacity: 0.6;
-   cursor: not-allowed;
 }
 .landing-newsletter-status {
    position: absolute;

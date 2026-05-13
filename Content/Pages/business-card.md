@@ -198,6 +198,6 @@ Choose the plan that fits how much you network. All paid plans include vCard sav
 
 ## On Android
 
-The Business Card feature on Android is built into [NFC.cool Tools](https://android.nfc.cool) — no second app. Open the app, set up your card, tap to share. Same data model, same NFC handshake, same QR fallback. Lead-generation, advanced analytics, and Conference Mode are currently iOS-only.
+The Business Card feature on Android is built into [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_en) — no second app. Open the app, set up your card, tap to share. Same data model, same NFC handshake, same QR fallback. Lead-generation, advanced analytics, and Conference Mode are currently iOS-only.
 
 </section>

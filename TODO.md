@@ -76,7 +76,6 @@ Audited against `https://www.nfc.cool` and `https://nfc.cool/.well-known/...` on
 - [ ] **Replace press-kit / brand-kit placeholders with real iCloud Drive URLs** (see `Content/Pages/Press.{md,de.md,ja.md}` — the live Webflow site links:
    - Press Kit: `https://www.icloud.com/iclouddrive/0e7Gy46aFsq8U2kqEyIs9Wleg#NFC.cool_Press_Kit`
    - Brand Kit: `https://www.icloud.com/iclouddrive/0ebMuI8X63LN-CiUiF8YlVb2A#NFC.cool_Brand_Kit`
-- [ ] **Webflow ecommerce-leftover redirects** — `redirects.yaml` is missing entries for `/shipping-and-returns`, `/newsletter`, `/affiliate-links`. Decide where each should land (probably `/` and `/#newsletter`) and add them so old inbound links don't 404.
 - [ ] **Install ImageMagick on CI** — `.github/workflows/deploy.yml` doesn't install `imagemagick`, so `srcset` variants like `Screenshot-1-900w.jpg` are silently skipped in production builds. Add `sudo apt-get install -y imagemagick` before the Swift build step.
 
 ## Verification (do this before launch)
