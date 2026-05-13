@@ -14,7 +14,10 @@
    them inherits a single source of truth.
    ============================================================ */
 :root {
-   --container-padding: 1.5rem;
+   /* Horizontal gutter inside our 1200px container. Uses max() against the
+      device safe-area insets so notched iPhones in landscape don't tuck
+      content under the rounded corners / camera bezel. */
+   --container-padding: max(1.5rem, env(safe-area-inset-left), env(safe-area-inset-right));
    --prose-width: 760px;
    --faq-width: 820px;
 }
@@ -173,7 +176,7 @@ em.brand-tail {
    align-items: center;
    max-width: var(--max-width);
    margin: 0 auto;
-   padding: 0 1.5rem;
+   padding: 0 var(--container-padding);
    height: 100%;
    gap: 2rem;
 }
@@ -612,36 +615,32 @@ body.landing .sk-site-footer {
    ============================================================ */
 .sk-nav-toggle {
    display: none; /* shown only at mobile breakpoint */
-   position: relative;
    width: 36px;
    height: 36px;
-   margin-left: auto; /* pushes burger to the right on mobile */
    padding: 0;
    background: none;
    border: 1px solid var(--color-border);
    border-radius: var(--radius);
    cursor: pointer;
    color: var(--color-text-secondary);
-   transition: color var(--transition), border-color var(--transition);
+   transition: all var(--transition);
    flex-shrink: 0;
+   align-items: center;
+   justify-content: center;
 }
-.sk-nav-toggle:hover { color: var(--color-text); border-color: var(--color-text); }
-.sk-nav-toggle-bar {
-   position: absolute;
-   left: 50%;
-   width: 16px;
-   height: 2px;
-   background: currentColor;
-   border-radius: 2px;
-   transform-origin: center;
-   transition: transform 0.22s ease, opacity 0.22s ease, top 0.22s ease;
+.sk-nav-toggle:hover {
+   color: var(--brand-blue-1);
+   border-color: var(--brand-blue-1);
+   background: rgba(19, 123, 217, 0.10);
 }
-.sk-nav-toggle-bar:nth-child(1) { top: 11px; transform: translateX(-50%); }
-.sk-nav-toggle-bar:nth-child(2) { top: 17px; transform: translateX(-50%); }
-.sk-nav-toggle-bar:nth-child(3) { top: 23px; transform: translateX(-50%); }
-.sk-nav-toggle.is-open .sk-nav-toggle-bar:nth-child(1) { top: 17px; transform: translateX(-50%) rotate(45deg); }
-.sk-nav-toggle.is-open .sk-nav-toggle-bar:nth-child(2) { opacity: 0; }
-.sk-nav-toggle.is-open .sk-nav-toggle-bar:nth-child(3) { top: 17px; transform: translateX(-50%) rotate(-45deg); }
+[data-theme="dark"] .sk-nav-toggle:hover {
+   color: var(--color-accent);
+   border-color: var(--color-accent);
+   background: var(--color-accent-light);
+}
+.sk-nav-toggle-icon-close { display: none; }
+.sk-nav-toggle.is-open .sk-nav-toggle-icon-open { display: none; }
+.sk-nav-toggle.is-open .sk-nav-toggle-icon-close { display: inline; }
 
 /* Prevent body scroll while mobile menu is open */
 body.sk-mobile-menu-open { overflow: hidden; }
@@ -650,10 +649,14 @@ body.sk-mobile-menu-open { overflow: hidden; }
    Responsive
    ============================================================ */
 @media (max-width: 768px) {
-   .sk-site-nav { gap: 0.5rem; padding: 0 1.5rem; }
+   .sk-site-nav { gap: 0.5rem; padding: 0 var(--container-padding); }
 
    /* Show the injected burger button */
    .sk-nav-toggle { display: inline-flex; }
+
+   /* With the burger now sitting last in the DOM, the right-side cluster
+      (lang · theme · burger) needs the auto-margin instead. */
+   .sk-lang-picker { margin-left: auto; }
 
    /* Mobile nav-list — anchored to the sticky header as a dropdown panel.
       Uses display none/flex rather than transform-based slide so it works

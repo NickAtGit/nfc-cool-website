@@ -134,13 +134,38 @@ document.addEventListener('DOMContentLoaded', function() {
       toggle.setAttribute('aria-label', 'Toggle navigation menu');
       toggle.setAttribute('aria-expanded', 'false');
       toggle.setAttribute('aria-controls', 'sk-nav-list');
-      for (let i = 0; i < 3; i++) {
-         const bar = document.createElement('span');
-         bar.className = 'sk-nav-toggle-bar';
-         toggle.appendChild(bar);
+      // Build a hamburger + close SVG pair so the burger reads as the same
+      // visual weight as the lang-globe / theme-toggle icons next to it
+      // (both use a 2-unit stroke on a 24×24 viewBox rendered at 16×16).
+      const SVG_NS = 'http://www.w3.org/2000/svg';
+      function makeIcon(modifierClass, lines) {
+         const svg = document.createElementNS(SVG_NS, 'svg');
+         svg.setAttribute('class', 'sk-nav-toggle-icon ' + modifierClass);
+         svg.setAttribute('width', '16');
+         svg.setAttribute('height', '16');
+         svg.setAttribute('viewBox', '0 0 24 24');
+         svg.setAttribute('fill', 'none');
+         svg.setAttribute('stroke', 'currentColor');
+         svg.setAttribute('stroke-width', '2');
+         svg.setAttribute('stroke-linecap', 'round');
+         svg.setAttribute('stroke-linejoin', 'round');
+         svg.setAttribute('aria-hidden', 'true');
+         lines.forEach(function(coords) {
+            const line = document.createElementNS(SVG_NS, 'line');
+            line.setAttribute('x1', coords[0]);
+            line.setAttribute('y1', coords[1]);
+            line.setAttribute('x2', coords[2]);
+            line.setAttribute('y2', coords[3]);
+            svg.appendChild(line);
+         });
+         return svg;
       }
+      toggle.appendChild(makeIcon('sk-nav-toggle-icon-open',
+         [[4, 7, 20, 7], [4, 12, 20, 12], [4, 17, 20, 17]]));
+      toggle.appendChild(makeIcon('sk-nav-toggle-icon-close',
+         [[6, 6, 18, 18], [18, 6, 6, 18]]));
       if (!navList.id) navList.id = 'sk-nav-list';
-      nav.insertBefore(toggle, navList);
+      nav.appendChild(toggle);
 
       function setOpen(open) {
          navList.classList.toggle('sk-nav-open', open);
