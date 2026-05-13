@@ -4,6 +4,8 @@ title: "iPhoneでNFCタグに書き込む方法"
 date: 2026-03-23
 tags: [nfc-tech, iphone, automation]
 summary: "iPhoneはNFCタグを読み取るだけでなく、書き込むこともできます。適切なタグの選び方から、URL、Wi-Fi認証情報、連絡先カード、オートメーションの書き込みまで、ステップバイステップで解説します。"
+image: "/assets/images/Blog/write-nfc-tags-iphone.webp"
+imageAlt: "進捗とチェックアイコンとともに空のNFCタグへ書き込むiPhone"
 metaTitle: "iPhoneでNFCタグに書き込む方法：ステップバイステップガイド（2026年版）"
 metaDescription: "iPhoneでNFCタグに書き込む方法を学びましょう。NFC.cool ToolsとiOSショートカットを使って、URL、Wi-Fi、連絡先、オートメーションをプログラムする手順を詳しく解説します。"
 ogTitle: "iPhoneでNFCタグに書き込む方法"

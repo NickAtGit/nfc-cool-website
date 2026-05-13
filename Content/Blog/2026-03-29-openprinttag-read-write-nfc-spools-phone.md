@@ -4,6 +4,8 @@ title: "OpenPrintTag: How to Read & Write Smart 3D Printing Spools with Your Pho
 date: 2026-03-29
 tags: [nfc-tech, 3d-printing, openprinttag]
 summary: "OpenPrintTag is the open standard for smart filament spools. Learn how it works, what data it stores, and how to read and write OpenPrintTag NFC tags using just your phone."
+image: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
+imageAlt: "3D printing spool with NFC tag being read by a phone"
 metaTitle: "OpenPrintTag: Read & Write Smart 3D Printing Spools with Your Phone"
 metaDescription: "Learn how to use OpenPrintTag to manage your 3D printing filament spools with NFC. Read, write, and track material data from your iPhone or Android, no proprietary apps needed."
 ogTitle: "OpenPrintTag: Smart 3D Printing Spools with NFC"

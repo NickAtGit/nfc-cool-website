@@ -4,6 +4,8 @@ title: "NFC.coolブログへようこそ"
 date: 2026-03-23
 tags: [announcement]
 summary: "NFC.coolブログがスタートしました。NFCのガイド、デジタル名刺の比較、業界インサイトをまとめた拠点 — 2019年から何百万人ものユーザーにNFCアプリを届けてきたチームが運営しています。"
+image: "/assets/images/Blog/welcome-to-the-nfc-cool-blog.webp"
+imageAlt: "スマートフォン、NFCカード、タグ、QRモチーフを含むNFC.coolブログのコラージュ"
 metaTitle: "NFC.coolブログへようこそ"
 metaDescription: "NFC.coolブログが始動。NFC.coolの開発チームが、実践的なNFCガイド、デジタル名刺の率直な比較、業界深掘り記事をお届けします。"
 ogTitle: "NFC.coolブログへようこそ"

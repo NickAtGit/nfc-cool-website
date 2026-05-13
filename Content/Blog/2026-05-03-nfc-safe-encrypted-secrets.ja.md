@@ -5,6 +5,8 @@ date: "2026-05-03"
 category: "nfc"
 tags: ["nfc", "security", "encryption", "privacy"]
 summary: "エポキシ加工のNFCタグに256-bit AES。紙は燃える。クラウドは落ちる。NFCタグは違います。"
+image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
+imageAlt: "暗号化されたNFCシークレットを表すスマートフォン、NFCカード、盾、鍵"
 author: "Nicolo Stanciu"
 ---
 

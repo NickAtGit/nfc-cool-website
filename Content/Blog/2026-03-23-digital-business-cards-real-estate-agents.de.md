@@ -4,6 +4,8 @@ title: "Digitale Visitenkarten für Immobilienmakler: Der komplette Guide"
 date: 2026-03-23
 tags: [digital-business-cards, real-estate, networking]
 summary: "Immobilienmakler verlieren täglich Leads an Papierkarten und veraltete Infos. Hier ist, wie digitale Visitenkarten die größten Networking-Probleme in der Immobilienbranche lösen - von Open Houses bis internationale Kunden."
+image: "/assets/images/Blog/digital-business-cards-real-estate-agents.webp"
+imageAlt: "Digitale Immobilien-Visitenkarte wird per Smartphone mit Haus- und Schlüsselmotive geteilt"
 metaTitle: "Digitale Visitenkarten für Immobilienmakler - Kompletter Guide (2026)"
 metaDescription: "Lerne, wie Immobilienmakler digitale Visitenkarten nutzen, um mehr Leads bei Open Houses zu gewinnen, beim Broker-Wechsel aktuell zu bleiben und tech-affine Käufer zu beeindrucken. Praktische Tipps + App-Empfehlungen."
 ogTitle: "Digitale Visitenkarten für Immobilienmakler"

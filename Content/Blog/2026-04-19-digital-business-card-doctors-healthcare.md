@@ -4,6 +4,8 @@ title: "The Doctor's Digital Business Card: Why Healthcare Professionals Are Goi
 date: 2026-04-19
 tags: [digital-business-cards, healthcare, doctors, NFC, privacy]
 summary: "Doctors juggle department phone numbers, fax lines, and referral contacts. A digital business card puts all of it, always up to date, on one tap. Here's why physicians are making the switch."
+image: "/assets/images/Blog/digital-business-card-doctors-healthcare.webp"
+imageAlt: "Doctor contact card shared from a phone with healthcare and NFC motifs"
 metaTitle: "Digital Business Cards for Doctors & Healthcare Professionals (2026)"
 metaDescription: "Why doctors, dentists, and healthcare professionals are switching to digital business cards. Hygiene, multiple department contacts, privacy, and how NFC.cool works for medical practices."
 ogTitle: "The Doctor's Digital Business Card"

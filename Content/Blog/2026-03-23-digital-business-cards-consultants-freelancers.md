@@ -4,6 +4,8 @@ title: "Digital Business Cards for Consultants & Freelancers: Why They're Your B
 date: 2026-03-23
 tags: [digital-business-cards, consultants, freelancers]
 summary: "As a freelancer or independent consultant, your personal brand is your business. Here's how digital business cards solve the unique networking challenges of going solo - from juggling multiple roles to impressing clients on a budget."
+image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
+imageAlt: "Consultant workspace with digital business card panels and NFC sharing"
 metaTitle: "Digital Business Cards for Consultants & Freelancers (2026 Guide)"
 metaDescription: "The solo professional's guide to digital business cards. Learn how freelancers and consultants use digital cards to manage multiple identities, network internationally, and win more clients."
 ogTitle: "Digital Business Cards for Consultants & Freelancers"

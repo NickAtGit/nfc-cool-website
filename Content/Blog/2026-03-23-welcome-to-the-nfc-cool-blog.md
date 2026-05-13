@@ -4,6 +4,8 @@ title: "Welcome to the NFC.cool Blog"
 date: 2026-03-23
 tags: [announcement]
 summary: "The NFC.cool Blog has launched as a hub for NFC guides, digital business card comparisons, and industry insights — from the team that's been shipping NFC apps to millions of users since 2019."
+image: "/assets/images/Blog/welcome-to-the-nfc-cool-blog.webp"
+imageAlt: "NFC.cool blog topic collage with phone, NFC card, tags, and QR motif"
 metaTitle: "Welcome to the NFC.cool Blog"
 metaDescription: "The NFC.cool Blog has launched: practical NFC guides, honest digital-business-card comparisons, and industry deep dives — from the team behind NFC.cool."
 ogTitle: "Welcome to the NFC.cool Blog"

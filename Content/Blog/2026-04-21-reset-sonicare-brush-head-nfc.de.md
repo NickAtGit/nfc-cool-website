@@ -4,6 +4,8 @@ title: "Sonicare-Bürstenkopf-Zähler per NFC auslesen und zurücksetzen"
 date: 2026-04-21
 tags: [nfc-tech, sonicare, guides]
 summary: "Deine Sonicare-Zahnbürste hat in jedem Bürstenkopf einen NFC-Chip, der herunterzählt, bis du Ersatz kaufst. Hier ist, was er wirklich misst – und wie du deinen Verbrauch prüfen oder den Zähler mit NFC.cool Tools zurücksetzen kannst."
+image: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
+imageAlt: "NFC-Tag eines elektrischen Zahnbürstenkopfs wird per Smartphone zurückgesetzt"
 metaTitle: "Philips Sonicare Bürstenkopf-Zähler per NFC prüfen & zurücksetzen (2026)"
 metaDescription: "Dein Sonicare-Bürstenkopf hat einen NFC-Chip, der mitzählt, wie lange du putzt. Sieh, wie viel Lebenszeit übrig ist, und setze den Zähler mit NFC.cool Tools zurück."
 ogTitle: "So prüfst und resettest du deinen Sonicare-Bürstenkopf-Zähler"

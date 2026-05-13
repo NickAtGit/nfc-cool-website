@@ -4,6 +4,8 @@ title: "次のカンファレンスで紙の名刺を卒業する方法"
 date: 2026-03-23
 tags: [digital-business-cards, networking, conferences]
 summary: "カンファレンスは紙の名刺が最もうまく機能しない場所です。イベント前・当日・後の完全なデジタル化プランを紹介します。もう名刺を探し回ることはありません。"
+image: "/assets/images/Blog/replace-paper-business-cards-conference.webp"
+imageAlt: "紙の名刺をデジタルNFC名刺に置き換えるカンファレンスのネットワーキング場面"
 metaTitle: "次のカンファレンスで紙の名刺を卒業する方法（2026年）"
 metaDescription: "カンファレンスで紙の名刺をやめるためのステップバイステップガイド。NFC、QRコード、共有リンクを使ったデジタル名刺の設定、共有、フォローアップ方法を解説します。"
 ogTitle: "次のカンファレンスで紙の名刺を卒業する方法"

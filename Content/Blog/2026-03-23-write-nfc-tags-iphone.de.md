@@ -4,6 +4,8 @@ title: "NFC-Tags mit dem iPhone beschreiben: So geht's"
 date: 2026-03-23
 tags: [nfc-tech, iphone, automation]
 summary: "Dein iPhone kann mehr als NFC-Tags lesen - es kann sie auch beschreiben. Hier ist eine Schritt-für-Schritt-Anleitung, um NFC-Tags mit deinem iPhone zu programmieren - von der Wahl der richtigen Tags bis zum Schreiben von URLs, WLAN-Zugangsdaten, Kontaktkarten und Automatisierungen."
+image: "/assets/images/Blog/write-nfc-tags-iphone.webp"
+imageAlt: "iPhone schreibt Daten auf leere NFC-Tags mit Fortschritts- und Häkchensymbolen"
 metaTitle: "NFC-Tags mit dem iPhone beschreiben: Schritt-für-Schritt-Guide (2026)"
 metaDescription: "Lerne, wie du NFC-Tags mit deinem iPhone beschreibst. Schritt-für-Schritt-Anleitung für URLs, WLAN, Kontakte und Automatisierungen mit NFC.cool Tools und iOS-Kurzbefehlen."
 ogTitle: "NFC-Tags mit dem iPhone beschreiben"

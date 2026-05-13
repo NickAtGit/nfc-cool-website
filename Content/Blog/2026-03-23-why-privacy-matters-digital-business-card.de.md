@@ -4,6 +4,8 @@ title: "Warum Datenschutz für deine digitale Visitenkarte wichtig ist"
 date: 2026-03-23
 tags: [digital-business-cards, privacy, gdpr]
 summary: "Deine digitale Visitenkarte enthält deinen Namen, deine E-Mail, deine Telefonnummer und mehr - doch die meisten denken nie darüber nach, wo diese Daten eigentlich landen. Hier ist, warum Datenschutz dein wichtigstes Kriterium sein sollte."
+image: "/assets/images/Blog/why-privacy-matters-digital-business-card.webp"
+imageAlt: "Digitale Visitenkarte wird durch Datenschutzkontrollen, Schild und NFC-Motive geschützt"
 metaTitle: "Warum Datenschutz für deine digitale Visitenkarte wichtig ist (Guide 2026)"
 metaDescription: "Digitale Visitenkarten verarbeiten deine persönlichsten professionellen Daten. Lerne, welche Datenschutzrisiken du beachten musst, welche Fragen du stellen solltest und wie du deine Kontakte schützt."
 ogTitle: "Warum Datenschutz für deine digitale Visitenkarte wichtig ist"

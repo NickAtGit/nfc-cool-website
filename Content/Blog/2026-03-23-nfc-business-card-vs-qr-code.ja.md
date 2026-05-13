@@ -4,6 +4,8 @@ title: "NFCデジタル名刺 vs QRコード：ネットワーキングに最適
 date: 2026-03-23
 tags: [digital-business-cards, comparison, qr-code]
 summary: "NFCタップとQRコードスキャン - 連絡先を共有するのに最適な方法はどちらでしょうか？スピード、互換性、コスト、実際の使用シーンを比較して、あなたに合った方法を見つけましょう。"
+image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"
+imageAlt: "スマートフォンとチェックマークで示すNFC名刺とQRコードスキャンの比較"
 metaTitle: "NFCデジタル名刺 vs QRコード：どちらが優れている？（2026年比較）"
 metaDescription: "NFCデジタル名刺 vs QRコード - スピード、互換性、コスト、実際のパフォーマンスを比較します。2026年のネットワーキングに最適な共有方法をご紹介します。"
 ogTitle: "NFCデジタル名刺 vs QRコード：どちらが優れている？"

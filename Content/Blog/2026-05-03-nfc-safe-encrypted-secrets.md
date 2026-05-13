@@ -5,6 +5,8 @@ date: "2026-05-03"
 category: "nfc"
 tags: ["nfc", "security", "encryption", "privacy"]
 summary: "256-bit AES on epoxy-coated NFC tags. Paper backups burn. Cloud backups go down. NFC tags don't."
+image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
+imageAlt: "Phone, NFC card, shield, and lock representing encrypted NFC secrets"
 author: "Nicolo Stanciu"
 ---
 

@@ -4,6 +4,8 @@ title: "NFC-Tags erklärt: Ein kompletter Einsteiger-Guide"
 date: 2026-03-23
 tags: [nfc-tech, nfc-tags, smart-home, automation]
 summary: "NFC-Tags sind winzige, stromlose Chips, die Aktionen auf deinem Handy mit einem einzigen Tippen auslösen können. Hier ist alles, was du wissen musst - was sie sind, wie sie funktionieren, welche Typen du kaufen solltest und 15+ praktische Anwendungen."
+image: "/assets/images/Blog/nfc-tags-beginners-guide.webp"
+imageAlt: "Smartphone und mehrere NFC-Tags mit einfachen Workflow-Symbolen"
 metaTitle: "NFC-Tags erklärt: Ein kompletter Einsteiger-Guide (2026)"
 metaDescription: "Lerne, was NFC-Tags sind, wie sie funktionieren, die verschiedenen Typen (NTAG213, 215, 216) und 15+ praktische Einsätze - von Smart-Home-Automation bis digitale Visitenkarten."
 ogTitle: "NFC-Tags erklärt: Ein kompletter Einsteiger-Guide"

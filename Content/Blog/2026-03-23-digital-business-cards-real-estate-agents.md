@@ -4,6 +4,8 @@ title: "Digital Business Cards for Real Estate Agents: The Complete Guide"
 date: 2026-03-23
 tags: [digital-business-cards, real-estate, networking]
 summary: "Real estate agents lose leads every day to paper cards and outdated info. Here's how digital business cards solve the biggest networking pain points in real estate - from open houses to international clients."
+image: "/assets/images/Blog/digital-business-cards-real-estate-agents.webp"
+imageAlt: "Real estate digital business card shared by phone with house and key motifs"
 metaTitle: "Digital Business Cards for Real Estate Agents - Complete Guide (2026)"
 metaDescription: "Learn how real estate agents use digital business cards to capture more leads at open houses, stay current when switching brokerages, and impress tech-savvy buyers. Practical tips + app recommendations."
 ogTitle: "Digital Business Cards for Real Estate Agents"

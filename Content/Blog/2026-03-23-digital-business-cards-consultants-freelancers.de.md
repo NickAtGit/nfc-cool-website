@@ -4,6 +4,8 @@ title: "Digitale Visitenkarten für Berater & Freelancer: Warum sie dein bestes 
 date: 2026-03-23
 tags: [digital-business-cards, consultants, freelancers]
 summary: "Als Freelancer oder unabhängiger Berater ist deine persönliche Marke dein Business. Hier ist, wie digitale Visitenkarten die einzigartigen Networking-Herausforderungen der Selbstständigkeit lösen - von mehreren Rollen bis zum Kunden-Eindruck auf Budget."
+image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
+imageAlt: "Beraterarbeitsplatz mit digitalen Visitenkarten und NFC-Freigabe"
 metaTitle: "Digitale Visitenkarten für Berater & Freelancer (Guide 2026)"
 metaDescription: "Der Guide für Solo-Professionals zu digitalen Visitenkarten. Lerne, wie Freelancer und Berater digitale Karten nutzen, um mehrere Identitäten zu managen, international zu netzwerken und mehr Kunden zu gewinnen."
 ogTitle: "Digitale Visitenkarten für Berater & Freelancer"

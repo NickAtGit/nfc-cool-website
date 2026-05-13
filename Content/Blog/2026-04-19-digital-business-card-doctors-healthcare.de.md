@@ -4,6 +4,8 @@ title: "Die digitale Visitenkarte für Ärzte: Warum das Gesundheitswesen auf ko
 date: 2026-04-19
 tags: [digital-business-cards, healthcare, doctors, NFC, privacy]
 summary: "Ärzte jonglieren mit Durchwahlen, Faxnummern und Zuweisungskontakten. Eine digitale Visitenkarte packt alles – immer aktuell – in ein einziges Tap. Hier ist der Grund, warum Ärzte umsteigen."
+image: "/assets/images/Blog/digital-business-card-doctors-healthcare.webp"
+imageAlt: "Arztkontaktkarte wird per Smartphone mit Healthcare- und NFC-Motiven geteilt"
 metaTitle: "Digitale Visitenkarten für Ärzte & medizinisches Fachpersonal (2026)"
 metaDescription: "Warum Ärzte, Zahnärzte und medizinisches Fachpersonal auf digitale Visitenkarten umsteigen. Hygiene, mehrere Abteilungskontakte, Datenschutz und wie NFC.cool für Arztpraxen funktioniert."
 ogTitle: "Die digitale Visitenkarte für Ärzte"
