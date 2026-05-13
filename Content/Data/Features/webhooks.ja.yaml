@@ -25,7 +25,7 @@ capabilities:
 screenshots:
   - path: "/assets/images/Webflow/webhook.webp"
     alt: "Webhookエンドポイントを設定"
-  - path: "/assets/images/Tools-iOS/Screenshot-6.png"
+  - path: "/assets/images/Tools-iOS/Screenshot-6.webp"
     alt: "スキャンからWebhookを起動"
 
 specsTitle: "技術詳細"

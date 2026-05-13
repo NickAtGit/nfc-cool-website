@@ -8,7 +8,7 @@ metaTitle: "NFC.cool Digitale Visitenkarte einrichten - Anleitung"
 metaDescription: "Schritt-für-Schritt-Einrichtung der NFC.cool Digitalen Visitenkarte - bauen, auf NFC schreiben, teilen. Warum eine editierbare URL einen eingefrorenen vCard schlägt."
 ogTitle: "Die NFC.cool Digitale Visitenkarte einrichten"
 ogDescription: "Eine Anleitung zum Bauen, Anpassen und Teilen deiner NFC.cool Digitalen Visitenkarte."
-image: "/assets/images/Blog/business-card-service.png"
+image: "/assets/images/Blog/business-card-service.webp"
 ---
 Eine Papier-Visitenkarte ist ein eingefrorenes Artefakt. In dem Moment, in dem dein Titel sich ändert, deine Telefonnummer wechselt oder du die Agentur wechselst, ist jede Karte in irgendjemandes Geldbeutel falsche Information über dich.
 

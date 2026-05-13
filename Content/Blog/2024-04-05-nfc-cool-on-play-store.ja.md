@@ -8,7 +8,7 @@ metaTitle: "NFC.cool Tools - Google Playで公開"
 metaDescription: "NFC.cool ToolsがAndroidで利用可能に。NFCスキャン、タグの書き込み、同梱のNFC.cool Business Card - 同じブランド、同じ機能セット、Androidで。"
 ogTitle: "NFC.coolがPlayストアに登場"
 ogDescription: "NFC.cool ToolsがGoogle Playで公開 - NFCスキャン、タグの書き込み、同梱のNFC.cool Business Card。"
-image: "/assets/images/Blog/nfc-cool-on-play-store.png"
+image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
 **NFC.cool Tools**が[Google Playストア](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-play-store-launch)で利用可能になりました。iOSで数年を経て、Android版がライブです - そしてNFC.cool Business Cardが内蔵されています。
 

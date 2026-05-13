@@ -8,7 +8,7 @@ metaTitle: "Smart Context: The Memory Upgrade for Digital Business Cards"
 metaDescription: "Digital business cards solve paper. They don't solve forgetting people. NFC.cool Business Card's Smart Context layer captures where, when, and why - synced to your calendar."
 ogTitle: "I can't remember anyone I meet. So I built this into the business card app."
 ogDescription: "Why digital business cards needed more than contact info - and the Smart Context layer that fixes it."
-image: "/assets/images/Blog/smart-context-remember-everyone.jpg"
+image: "/assets/images/Blog/smart-context-remember-everyone.webp"
 ---
 After years of building digital business card software, there was one problem that kept bothering me: we'd solved the wrong half.
 

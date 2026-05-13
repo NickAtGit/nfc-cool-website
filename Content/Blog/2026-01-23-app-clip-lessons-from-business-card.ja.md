@@ -6,7 +6,7 @@ category: "business-card"
 tags: ["app-clip", "ios", "conference-talk", "business-card"]
 summary: "プラハで開催されたmDevCamp 2025での講演の振り返り。NFC.cool Business CardのApp Clipフローを支えるアーキテクチャについて。"
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/app-clip-mdevcamp.jpg"
+image: "/assets/images/Blog/app-clip-mdevcamp.webp"
 imageAlt: "プラハのmDevCamp 2025での登壇"
 ---
 

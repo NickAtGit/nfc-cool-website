@@ -6,7 +6,7 @@ category: "nfc"
 tags: ["nfc", "rfid", "access-control", "explainer"]
 summary: "Die ehrliche Antwort auf eine der häufigsten Fragen in unserem Posteingang: Das NFC deines iPhones kann nicht mit der RFID-Karte deines Apartments sprechen - und Apple will das so."
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/iphone-rfid-doors.png"
+image: "/assets/images/Blog/iphone-rfid-doors.webp"
 imageAlt: "Ein iPhone vor einem RFID-Türleser eines Apartmenthauses"
 ---
 

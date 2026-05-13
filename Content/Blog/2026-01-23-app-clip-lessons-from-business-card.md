@@ -6,7 +6,7 @@ category: "business-card"
 tags: ["app-clip", "ios", "conference-talk", "business-card"]
 summary: "Recap of the mDevCamp 2025 talk in Prague about the architecture behind NFC.cool Business Card's App Clip flow."
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/app-clip-mdevcamp.jpg"
+image: "/assets/images/Blog/app-clip-mdevcamp.webp"
 imageAlt: "Speaking at mDevCamp 2025 in Prague"
 ---
 

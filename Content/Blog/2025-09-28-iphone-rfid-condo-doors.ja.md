@@ -6,7 +6,7 @@ category: "nfc"
 tags: ["nfc", "rfid", "access-control", "explainer"]
 summary: "受信箱に最もよく届く質問のひとつへの正直な答え。iPhoneのNFCはあなたのマンションのRFIDカードと話せません。しかもAppleはそれを意図しています。"
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/iphone-rfid-doors.png"
+image: "/assets/images/Blog/iphone-rfid-doors.webp"
 imageAlt: "マンションのRFID専用ドアリーダーに向き合うiPhone"
 ---
 

@@ -8,7 +8,7 @@ metaTitle: "How to Set Up Your NFC.cool Digital Business Card"
 metaDescription: "Step-by-step setup of the NFC.cool digital business card - build it, write to NFC, share. Why an editable URL beats a frozen vCard."
 ogTitle: "Setting up the NFC.cool digital business card"
 ogDescription: "A walkthrough of building, customising and sharing your NFC.cool digital business card."
-image: "/assets/images/Blog/business-card-service.png"
+image: "/assets/images/Blog/business-card-service.webp"
 ---
 A paper business card is a frozen artefact. The minute your job title changes, your phone number changes, or you move agencies, every card in someone's wallet becomes wrong information about you.
 

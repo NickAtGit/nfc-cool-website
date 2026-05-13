@@ -6,7 +6,7 @@ category: "business-card"
 tags: ["namedrop", "business-card", "ios", "cross-platform"]
 summary: "NameDrop ist wunderschön - aber nur für iOS. Warum NFC-Visitenkarten beim ernsthaften Networking die plattformübergreifende Wahl bleiben."
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/namedrop.png"
+image: "/assets/images/Blog/namedrop.webp"
 imageAlt: "Zwei iPhones tauschen Kontaktdaten neben einer NFC-Visitenkarte aus"
 ---
 

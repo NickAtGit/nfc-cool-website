@@ -8,7 +8,7 @@ metaTitle: "個性あるQRコードをデザインする - NFC.cool QR Studio"
 metaDescription: "色、ロゴ、絵文字、形でQRコードをカスタマイズ - スキャンを壊さずに。ブランドに合うQRコードを作るための実践ガイド。"
 ogTitle: "個性あるQRコードをデザインする：スキャンを壊さないカスタマイズ"
 ogDescription: "色、ロゴ、絵文字でQRコードをカスタマイズしながらスキャン可能に。"
-image: "/assets/images/Blog/flair-qr-codes.png"
+image: "/assets/images/Blog/flair-qr-codes.webp"
 ---
 QRコードは単純な白黒の四角である必要はありません。QR規格のエラー訂正には十分な余裕があり、色、ロゴ、小さな画像で装飾しても確実にスキャンできます。NFC.coolの**QR Studio**はこの発想で作られています。後付けに見えず、ブランドの一部のように見えるQRコードのデザイナーです。
 

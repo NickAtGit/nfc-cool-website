@@ -8,7 +8,7 @@ metaTitle: "Wie NFC auf dem iPhone funktioniert: Ein Blick hinter die Kulissen"
 metaDescription: "Eine praktische Erklärung von NFC auf dem iPhone - wie das Protokoll funktioniert, Apple Pays Secure Element, Core NFC Tag-Lesung und warum kurze Reichweite ein Sicherheitsfeature ist."
 ogTitle: "NFC auf dem iPhone: Ein Blick hinter die Kulissen"
 ogDescription: "Wie NFC auf dem iPhone tatsächlich funktioniert - Protokoll, Secure Element, Core NFC und die iOS-Geschichte."
-image: "/assets/images/Blog/nfc-on-iphones-insider-look.jpg"
+image: "/assets/images/Blog/nfc-on-iphones-insider-look.webp"
 ---
 Viel von der Technik, die wir täglich nutzen, verschwindet im Hintergrund. Wir tippen zum Bezahlen, Entsperren, Scannen, Teilen - und denken nie über das Protokoll darunter nach. NFC ist eines dieser stillen Infrastrukturstücke. Hier ist, wie es auf deinem iPhone tatsächlich funktioniert.
 

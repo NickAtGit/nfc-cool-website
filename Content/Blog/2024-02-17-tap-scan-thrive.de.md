@@ -8,7 +8,7 @@ metaTitle: "Was QR-Codes transportieren können: Mehr als nur URLs"
 metaDescription: "QR-Codes können WLAN-Zugangsdaten, Kontakte, Kalendereinträge, Standorte und mehr kodieren - nicht nur URLs. Ein praktischer Guide zu jedem QR-Payload-Typ."
 ogTitle: "Tap, Scan, Thrive: Was QR-Codes jenseits einer URL transportieren können"
 ogDescription: "QR-Codes können WLAN, Kontakte, Kalender, Standorte kodieren - nicht nur URLs."
-image: "/assets/images/Blog/tap-scan-thrive.png"
+image: "/assets/images/Blog/tap-scan-thrive.webp"
 ---
 Ein QR-Code ist einfach ein Eimer voller Bytes. URLs sind bei Weitem die häufigste Payload, aber der Spec ist das egal - du kannst WLAN-Zugangsdaten, einen Kalendereintrag, eine Karten-Pin, eine Kontaktkarte, Klartext oder eine beliebige Custom-Payload kodieren, die eine App entschlüsseln kann.
 

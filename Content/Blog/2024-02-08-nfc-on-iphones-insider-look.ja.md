@@ -8,7 +8,7 @@ metaTitle: "iPhoneでNFCはどう動くのか：内部の仕組み"
 metaDescription: "iPhoneのNFCの実践的な解説 - プロトコルの仕組み、Apple PayのSecure Element、Core NFCのタグ読み取り、短距離通信がセキュリティ機能である理由。"
 ogTitle: "iPhoneのNFCを深掘り：内部の仕組み"
 ogDescription: "iPhoneでNFCが実際どう動いているのか - プロトコル、Secure Element、Core NFC、iOSの歴史。"
-image: "/assets/images/Blog/nfc-on-iphones-insider-look.jpg"
+image: "/assets/images/Blog/nfc-on-iphones-insider-look.webp"
 ---
 私たちが毎日使っているテクノロジーの多くは、背景に消えていきます。タップして支払い、解錠、スキャン、共有 - そしてその下のプロトコルについて考えることはありません。NFCはそういった静かなインフラのひとつです。iPhoneでNFCが実際にどう動いているのか、見ていきましょう。
 

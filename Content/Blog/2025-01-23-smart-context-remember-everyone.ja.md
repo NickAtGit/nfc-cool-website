@@ -8,7 +8,7 @@ metaTitle: "Smart Context：デジタル名刺の記憶アップグレード"
 metaDescription: "デジタル名刺は紙の問題を解決します。しかし人を忘れる問題は解決しません。NFC.cool Business CardのSmart Contextレイヤーは、どこで、いつ、なぜを記録し、カレンダーと同期します。"
 ogTitle: "出会った人を覚えられない。だから名刺アプリにこの機能を入れた。"
 ogDescription: "デジタル名刺になぜ連絡先情報以上が必要だったのか - そしてそれを解決するSmart Contextレイヤー。"
-image: "/assets/images/Blog/smart-context-remember-everyone.jpg"
+image: "/assets/images/Blog/smart-context-remember-everyone.webp"
 ---
 何年もデジタル名刺ソフトウェアを作ってきて、ずっと気になっていた問題がありました：私たちは間違った半分を解いていたのです。
 

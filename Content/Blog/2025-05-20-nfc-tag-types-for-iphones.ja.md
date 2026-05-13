@@ -6,7 +6,7 @@ category: "nfc"
 tags: ["nfc", "tag-types", "ntag", "buying-guide"]
 summary: "Type 1からType 5まで、誰が作っているのか、そしてなぜiPhone向けのプロジェクトにはNTAGシリーズ（Type 2）が一番無難なのかを解説します。"
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/nfc-tag-types.png"
+image: "/assets/images/Blog/nfc-tag-types.webp"
 imageAlt: "iPhoneの隣に並べられた各種NFCタグ"
 ---
 

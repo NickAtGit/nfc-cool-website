@@ -8,7 +8,7 @@ metaTitle: "QR-Codes mit Stil designen - NFC.cool QR Studio"
 metaDescription: "QR-Codes mit Farbe, Logos, Emojis und Formen anpassen - ohne den Scan zu brechen. Ein praktischer Guide für QR-Codes, die zu deiner Marke passen."
 ogTitle: "QR-Codes mit Stil: Anpassung, ohne den Scan zu killen"
 ogDescription: "QR-Codes mit Farbe, Logos und Emojis anpassen - und trotzdem scanbar halten."
-image: "/assets/images/Blog/flair-qr-codes.png"
+image: "/assets/images/Blog/flair-qr-codes.webp"
 ---
 QR-Codes müssen keine schlichten Schwarz-Weiß-Quadrate sein. Die Fehlerkorrektur in der QR-Spezifikation ist großzügig genug, dass du den Code mit Farbe, Logos und kleinen Bildern dekorieren kannst, und er scannt trotzdem zuverlässig. NFC.cools **QR Studio** ist um diese Idee gebaut - ein Designer für QR-Codes, die wie Teil deiner Marke aussehen, statt wie nachträglich aufgeklebt.
 

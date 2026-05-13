@@ -8,7 +8,7 @@ metaTitle: "NFC.cool ToolsでiPhone 3Dスキャン"
 metaDescription: "NFC.cool Toolsの3Dスキャナーの仕組み - フォトグラメトリー、LiDAR、AppleのObject Capture API。3DプリントとAR向けに.stl、.obj、.ply、.usdzにエクスポート。"
 ogTitle: "iPhoneでの3Dスキャン：フォトグラメトリーとLiDARでポケットに収まる"
 ogDescription: "NFC.cool Toolsの3Dスキャナーの仕組み - フォトグラメトリー、LiDAR、.stl、.obj、.usdzへのエクスポート。"
-image: "/assets/images/Blog/3d-scan-feature.png"
+image: "/assets/images/Blog/3d-scan-feature.webp"
 ---
 数年前まで、3Dスキャンといえば電子レンジサイズの専用スキャナーと、ハードウェアより高価なソフトウェアが必要でした。今ではLiDARセンサー搭載のiPhoneとAppleのObject Capture APIで、わずかな写真から実用的な3Dモデルを生成できます。
 

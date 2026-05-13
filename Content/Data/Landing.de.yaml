@@ -46,7 +46,7 @@ features:
     slug: "webhooks"
   - title: "Kurzbefehle & Widgets"
     description: "iOS-Kurzbefehle, Sperrbildschirm-Widgets, Action-Button-Hooks. Starte einen Scan direkt vom Homescreen oder Kontrollzentrum."
-    imagePath: "/assets/images/Tools-iOS/Screenshot-4.png"
+    imagePath: "/assets/images/Tools-iOS/Screenshot-4.webp"
     platforms: "Nur iOS"
 
 featureBanner:

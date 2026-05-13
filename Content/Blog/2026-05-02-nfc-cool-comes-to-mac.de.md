@@ -39,7 +39,7 @@ Alles mit einem Tap (oder Klick) erreichbar. Die Seitenleiste passt sich auch au
 
 <div style="text-align: center;">
 
-![NFC-Nachrichten in der Seitenleiste](/assets/images/Blog/mac-nfc-list.png)
+![NFC-Nachrichten in der Seitenleiste](/assets/images/Blog/mac-nfc-list.webp)
 
 </div>
 
@@ -63,7 +63,7 @@ Deine Daten folgen dir über alle Geräte, weil sie in deinem iCloud-Konto liege
 
 <div style="text-align: center;">
 
-![Gespeicherte 3D-Modelle, synchronisiert über iCloud](/assets/images/Blog/mac-3d-model-list.png)
+![Gespeicherte 3D-Modelle, synchronisiert über iCloud](/assets/images/Blog/mac-3d-model-list.webp)
 
 </div>
 
@@ -79,7 +79,7 @@ Nützlich, um schnell einen Produkt-Barcode nachzuschlagen, während du arbeites
 
 <div style="text-align: center;">
 
-![QR-Code-Scan mit der Mac-Kamera](/assets/images/Blog/mac-qr-scan.png)
+![QR-Code-Scan mit der Mac-Kamera](/assets/images/Blog/mac-qr-scan.webp)
 
 </div>
 
@@ -101,7 +101,7 @@ Aber mal ehrlich: Du brauchst sie auf dem Mac wahrscheinlich auch nicht. Du scan
 
 <div style="text-align: center;">
 
-![Gespeicherte 3D-Modelle - Detailansicht auf dem Mac](/assets/images/Blog/mac-3d-detail.png)
+![Gespeicherte 3D-Modelle - Detailansicht auf dem Mac](/assets/images/Blog/mac-3d-detail.webp)
 
 </div>
 

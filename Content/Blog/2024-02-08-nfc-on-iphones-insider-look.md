@@ -8,7 +8,7 @@ metaTitle: "How NFC Works on iPhone: An Insider's Look"
 metaDescription: "A practical explanation of NFC on iPhone - how the protocol works, Apple Pay's secure element, Core NFC tag reading, and why short range is a security feature."
 ogTitle: "Tapping into NFC on iPhone: an insider's look"
 ogDescription: "How NFC actually works on iPhone - protocol, secure element, Core NFC tag reading, and the iOS history."
-image: "/assets/images/Blog/nfc-on-iphones-insider-look.jpg"
+image: "/assets/images/Blog/nfc-on-iphones-insider-look.webp"
 ---
 A lot of the technology we use every day disappears into the background. We tap to pay, unlock, scan, share - and never think about the protocol underneath. NFC is one of those quiet pieces of plumbing. Here's how it actually works on your iPhone.
 

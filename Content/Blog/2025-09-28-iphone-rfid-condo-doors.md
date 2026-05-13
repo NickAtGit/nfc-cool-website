@@ -6,7 +6,7 @@ category: "nfc"
 tags: ["nfc", "rfid", "access-control", "explainer"]
 summary: "The honest answer to one of the most common questions in our inbox: your iPhone's NFC can't talk to your condo's RFID card, and Apple's intentional about that."
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/iphone-rfid-doors.png"
+image: "/assets/images/Blog/iphone-rfid-doors.webp"
 imageAlt: "An iPhone meeting an RFID-only condo door reader"
 ---
 

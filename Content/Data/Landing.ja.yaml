@@ -46,7 +46,7 @@ features:
     slug: "webhooks"
   - title: "ショートカット & ウィジェット"
     description: "iOSショートカット、ロック画面ウィジェット、Action Buttonと連携。ホーム画面やコントロールセンターからスキャンを即起動できます。"
-    imagePath: "/assets/images/Tools-iOS/Screenshot-4.png"
+    imagePath: "/assets/images/Tools-iOS/Screenshot-4.webp"
     platforms: "iOSのみ"
 
 featureBanner:

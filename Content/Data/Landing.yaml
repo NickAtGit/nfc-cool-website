@@ -46,7 +46,7 @@ features:
     slug: "webhooks"
   - title: "Shortcuts & Widgets"
     description: "iOS Shortcuts, lock-screen widgets, Action Button hooks. Quick-launch a scan from home screen or Control Center."
-    imagePath: "/assets/images/Tools-iOS/Screenshot-4.png"
+    imagePath: "/assets/images/Tools-iOS/Screenshot-4.webp"
     platforms: "iOS only"
 
 featureBanner:

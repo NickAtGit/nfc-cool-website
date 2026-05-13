@@ -8,7 +8,7 @@ metaTitle: "NFC.coolデジタル名刺のセットアップ方法"
 metaDescription: "NFC.coolデジタル名刺のステップバイステップ・セットアップ - 作成、NFCへ書き込み、共有。編集可能なURLが固定vCardに勝る理由。"
 ogTitle: "NFC.coolデジタル名刺のセットアップ"
 ogDescription: "NFC.coolデジタル名刺の構築、カスタマイズ、共有の手順を解説。"
-image: "/assets/images/Blog/business-card-service.png"
+image: "/assets/images/Blog/business-card-service.webp"
 ---
 紙の名刺は凍結されたアーティファクトです。あなたの肩書きが変わった瞬間、電話番号が変わった瞬間、代理店を移った瞬間に、誰かの財布の中の全ての名刺はあなたについての誤った情報になります。
 

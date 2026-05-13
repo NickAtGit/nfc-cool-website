@@ -26,7 +26,7 @@ Die folgenden Reviews stammen direkt aus dem App Store. Jedes Zitat ist eine ech
 </div>
 
 <div class="page-hero-visual">
-<img src="/assets/images/Tools-iOS/Screenshot-1.png" alt="NFC.cool Tools auf dem iPhone" loading="eager" fetchpriority="high"/>
+<img src="/assets/images/Tools-iOS/Screenshot-1.webp" alt="NFC.cool Tools auf dem iPhone" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

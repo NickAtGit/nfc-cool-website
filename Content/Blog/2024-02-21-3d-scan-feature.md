@@ -8,7 +8,7 @@ metaTitle: "3D Scanning on iPhone with NFC.cool Tools"
 metaDescription: "How NFC.cool Tools' 3D scanner works - photogrammetry, LiDAR, and Apple's Object Capture API. Export to .stl, .obj, .ply, .usdz for 3D printing and AR."
 ogTitle: "3D scanning on iPhone: what photogrammetry and LiDAR can do in your pocket"
 ogDescription: "How NFC.cool Tools' 3D scanner works - photogrammetry, LiDAR, and export to .stl, .obj, .usdz."
-image: "/assets/images/Blog/3d-scan-feature.png"
+image: "/assets/images/Blog/3d-scan-feature.webp"
 ---
 A few years ago, 3D scanning meant a dedicated scanner the size of a microwave, plus software that cost more than the hardware. Today an iPhone with a LiDAR sensor and Apple's Object Capture API can produce a useable 3D model from a handful of photos.
 

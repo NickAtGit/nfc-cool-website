@@ -8,7 +8,7 @@ metaTitle: "QRコードが運べるもの：URL以外の選択肢"
 metaDescription: "QRコードはWi-Fi認証情報、連絡先、カレンダー、位置情報などをエンコード可能 - URLだけではありません。各QRペイロードタイプの実用ガイド。"
 ogTitle: "タップ、スキャン、その先へ：QRコードがURL以外に運べるもの"
 ogDescription: "QRコードはWi-Fi、連絡先、カレンダー、位置情報をエンコード可能 - URLだけではない。"
-image: "/assets/images/Blog/tap-scan-thrive.png"
+image: "/assets/images/Blog/tap-scan-thrive.webp"
 ---
 QRコードは単なるバイトの入れ物です。URLが圧倒的に最も一般的なペイロードですが、仕様はそれを気にしません - Wi-Fi認証情報、カレンダーイベント、地図のピン、連絡先カード、プレーンテキスト、アプリが解読可能な任意のカスタムペイロードをエンコードできます。
 

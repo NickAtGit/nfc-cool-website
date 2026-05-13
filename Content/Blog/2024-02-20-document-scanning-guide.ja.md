@@ -8,7 +8,7 @@ metaTitle: "NFC.cool Toolsでのドキュメントスキャン - 実践ガイド
 metaDescription: "NFC.cool Toolsでドキュメントをスキャンする方法 - 撮影、後処理、OCR実行、検索可能PDFへのエクスポート。照明とコーナー検出のコツも。"
 ogTitle: "ポケットで使えるドキュメントスキャン - NFC.cool Tools実践ガイド"
 ogDescription: "NFC.cool Toolsでドキュメントをスキャン、OCRを実行、検索可能なPDFにエクスポートする方法。"
-image: "/assets/images/Blog/document-scanning-guide.png"
+image: "/assets/images/Blog/document-scanning-guide.webp"
 ---
 最新のiPhoneは、カメラと処理性能が十分にあるので「ドキュメントをスキャンする」のはもはやプリンターの機能ではなく、タップの操作です。NFC.cool ToolsのドキュメントスキャナーはAppleのVisionフレームワーク上に構築されており、高速な撮影、自動エッジ検出、完全オンデバイスのOCRが手に入ります。
 

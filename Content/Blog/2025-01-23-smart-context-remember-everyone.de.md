@@ -8,7 +8,7 @@ metaTitle: "Smart Context: Das Memory-Upgrade für digitale Visitenkarten"
 metaDescription: "Digitale Visitenkarten lösen Papier. Sie lösen nicht, dass man Leute vergisst. NFC.cool Business Cards Smart-Context-Layer hält wo, wann und warum fest - synchronisiert mit deinem Kalender."
 ogTitle: "Ich kann mir niemanden merken, den ich kennenlerne. Also habe ich das in die Visitenkarten-App gebaut."
 ogDescription: "Warum digitale Visitenkarten mehr als Kontaktdaten brauchten - und der Smart-Context-Layer, der das löst."
-image: "/assets/images/Blog/smart-context-remember-everyone.jpg"
+image: "/assets/images/Blog/smart-context-remember-everyone.webp"
 ---
 Nach Jahren des Bauens digitaler Visitenkarten-Software gab es ein Problem, das mich nicht losließ: Wir hatten die falsche Hälfte gelöst.
 

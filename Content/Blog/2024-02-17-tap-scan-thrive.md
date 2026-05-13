@@ -8,7 +8,7 @@ metaTitle: "What QR Codes Can Carry: Beyond Just URLs"
 metaDescription: "QR codes can encode Wi-Fi credentials, contacts, calendar events, locations and more - not just URLs. A practical guide to every QR payload type."
 ogTitle: "Tap, scan, thrive: what QR codes can carry beyond a URL"
 ogDescription: "QR codes can encode Wi-Fi, contacts, calendars, locations - not just URLs."
-image: "/assets/images/Blog/tap-scan-thrive.png"
+image: "/assets/images/Blog/tap-scan-thrive.webp"
 ---
 A QR code is just a bucket of bytes. URLs are by far the most common payload, but the spec doesn't care - you can encode Wi-Fi credentials, a calendar event, a map pin, a contact card, plain text, or any custom payload an app knows how to decode.
 

@@ -8,7 +8,7 @@ metaTitle: "Document Scanning with NFC.cool Tools - A Practical Guide"
 metaDescription: "How to scan documents with NFC.cool Tools - capture, post-process, run OCR, and export as searchable PDFs. With tips on lighting and corner detection."
 ogTitle: "Pocket-ready document scanning with NFC.cool Tools"
 ogDescription: "How to scan documents, run OCR, and export searchable PDFs with NFC.cool Tools."
-image: "/assets/images/Blog/document-scanning-guide.png"
+image: "/assets/images/Blog/document-scanning-guide.webp"
 ---
 A modern iPhone has enough camera and processing power that "scanning a document" is no longer a printer feature - it's a tap. NFC.cool Tools' document scanner is built on Apple's Vision framework, which means you get fast capture, automatic edge detection, and OCR that runs entirely on-device.
 

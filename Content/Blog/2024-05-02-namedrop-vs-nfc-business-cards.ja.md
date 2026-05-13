@@ -6,7 +6,7 @@ category: "business-card"
 tags: ["namedrop", "business-card", "ios", "cross-platform"]
 summary: "NameDropは美しい。けれどiOS専用です。本気のネットワーキングでNFC名刺がクロスプラットフォームの王者であり続ける理由を解説します。"
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/namedrop.png"
+image: "/assets/images/Blog/namedrop.webp"
 imageAlt: "NFC名刺の横で連絡先を交換する2台のiPhone"
 ---
 

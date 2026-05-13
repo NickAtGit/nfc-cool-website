@@ -6,7 +6,7 @@ category: "nfc"
 tags: ["nfc", "tag-types", "ntag", "buying-guide"]
 summary: "Type 1 bis Type 5, wer sie herstellt und warum die NTAG-Serie (Type 2) die sicherste Wahl für iPhone-Projekte ist."
 author: "Nicolo Stanciu"
-image: "/assets/images/Blog/nfc-tag-types.png"
+image: "/assets/images/Blog/nfc-tag-types.webp"
 imageAlt: "Verschiedene NFC-Tag-Typen neben einem iPhone aufgereiht"
 ---
 
