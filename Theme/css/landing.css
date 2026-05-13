@@ -795,13 +795,6 @@
       grid-template-columns: 1fr;
       gap: 2rem;
    }
-   .landing-feature-banner-text {
-      text-align: center;
-   }
-   .landing-feature-banner-text p {
-      margin-left: auto;
-      margin-right: auto;
-   }
 }
 
 @media (max-width: 600px) {
