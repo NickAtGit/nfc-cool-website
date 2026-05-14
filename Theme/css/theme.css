@@ -237,15 +237,13 @@ em.brand-tail {
    border-radius: var(--radius);
    transition: color var(--transition), background var(--transition);
 }
-.sk-nav-item a:hover,
-.sk-nav-item a.active {
-   color: var(--brand-blue-1);
-   background: rgba(19, 123, 217, 0.10);
+.sk-nav-item a:hover {
+   color: var(--color-link-hover);
+   background: var(--color-link-light);
 }
-[data-theme="dark"] .sk-nav-item a:hover,
-[data-theme="dark"] .sk-nav-item a.active {
-   color: var(--color-accent);
-   background: var(--color-accent-light);
+.sk-nav-item a.active {
+   color: var(--color-link);
+   background: var(--color-link-light);
 }
 .sk-nav-icon { display: none; }
 
@@ -264,14 +262,9 @@ em.brand-tail {
    flex-shrink: 0;
 }
 .sk-theme-toggle:hover {
-   color: var(--brand-blue-1);
-   border-color: var(--brand-blue-1);
-   background: rgba(19, 123, 217, 0.10);
-}
-[data-theme="dark"] .sk-theme-toggle:hover {
-   color: var(--color-accent);
-   border-color: var(--color-accent);
-   background: var(--color-accent-light);
+   color: var(--color-link-hover);
+   border-color: var(--color-link-hover);
+   background: var(--color-link-light);
 }
 .sk-search-btn { display: none; }
 
@@ -301,14 +294,9 @@ em.brand-tail {
    flex-shrink: 0;
 }
 .sk-lang-btn:hover {
-   color: var(--brand-blue-1);
-   border-color: var(--brand-blue-1);
-   background: rgba(19, 123, 217, 0.10);
-}
-[data-theme="dark"] .sk-lang-btn:hover {
-   color: var(--color-accent);
-   border-color: var(--color-accent);
-   background: var(--color-accent-light);
+   color: var(--color-link-hover);
+   border-color: var(--color-link-hover);
+   background: var(--color-link-light);
 }
 .sk-lang-btn svg { display: none; }
 .sk-lang-current { line-height: 1; }
@@ -342,20 +330,12 @@ em.brand-tail {
 }
 .sk-lang-item:hover,
 .sk-lang-item:focus-visible {
-   color: var(--brand-blue-1);
-   background: rgba(19, 123, 217, 0.10);
-}
-[data-theme="dark"] .sk-lang-item:hover,
-[data-theme="dark"] .sk-lang-item:focus-visible {
-   color: var(--color-accent);
-   background: var(--color-accent-light);
+   color: var(--color-link-hover);
+   background: var(--color-link-light);
 }
 .sk-lang-item.is-current {
-   color: var(--brand-blue-1);
+   color: var(--color-link);
    font-weight: 600;
-}
-[data-theme="dark"] .sk-lang-item.is-current {
-   color: var(--color-accent);
 }
 .sk-lang-item-code {
    font-family: var(--font-heading);
@@ -364,8 +344,7 @@ em.brand-tail {
    font-size: 0.75rem;
    color: var(--color-text-muted);
 }
-.sk-lang-item.is-current .sk-lang-item-code { color: var(--brand-blue-1); }
-[data-theme="dark"] .sk-lang-item.is-current .sk-lang-item-code { color: var(--color-accent); }
+.sk-lang-item.is-current .sk-lang-item-code { color: var(--color-link); }
 
 /* The nav uses a 2rem gap between its children. Pull the theme toggle
    closer to the language picker so they read as one control cluster. */
@@ -553,14 +532,9 @@ body.landing .sk-site-footer {
    justify-content: center;
 }
 .sk-nav-toggle:hover {
-   color: var(--brand-blue-1);
-   border-color: var(--brand-blue-1);
-   background: rgba(19, 123, 217, 0.10);
-}
-[data-theme="dark"] .sk-nav-toggle:hover {
-   color: var(--color-accent);
-   border-color: var(--color-accent);
-   background: var(--color-accent-light);
+   color: var(--color-link-hover);
+   border-color: var(--color-link-hover);
+   background: var(--color-link-light);
 }
 .sk-nav-toggle-icon-close { display: none; }
 .sk-nav-toggle.is-open .sk-nav-toggle-icon-open { display: none; }

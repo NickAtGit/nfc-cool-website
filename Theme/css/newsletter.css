@@ -71,7 +71,7 @@
    transition: border-color var(--transition), box-shadow var(--transition);
 }
 .newsletter-form:focus-within {
-   border-color: var(--color-link);
+   border-color: var(--color-link-hover);
    box-shadow: 0 0 0 4px var(--color-link-light);
 }
 .newsletter-form input[type="email"] {
@@ -104,7 +104,7 @@
    --cta-border: var(--color-link);
    --cta-text: var(--color-link);
    --cta-fill-hover: var(--color-link-light);
-   --cta-border-hover: var(--color-link);
+   --cta-border-hover: var(--color-link-hover);
 }
 .newsletter-status {
    position: absolute;

@@ -42,7 +42,7 @@
 .sk-social-links a:hover {
    color: var(--color-text);
    background: var(--color-link-light);
-   border-color: var(--color-link);
+   border-color: var(--color-link-hover);
    transform: translateY(-2px);
 }
 
@@ -89,7 +89,7 @@
 .contact-social-card:hover {
    transform: translateY(-2px);
    box-shadow: 0 10px 26px var(--color-shadow-lg);
-   border-color: var(--color-link);
+   border-color: var(--color-link-hover);
    color: inherit;
 }
 .contact-social-card::before {

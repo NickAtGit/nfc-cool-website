@@ -10,6 +10,7 @@ css:
    - "css/newsletter.css"
    - "css/marketing.css"
    - "css/social.css"
+   - "css/faq.css"
    - "css/blog.css"
    - "css/features.css"
 js:
