@@ -2,7 +2,7 @@
    marketing.css
    Marketing-page sections rendered by MarketingPageRenderer.
    Used by /business-card/, /about/, /contact/, /press/,
-   /developers/, /integrations/, /reviews/.
+   /developers/, /reviews/.
 
    Blog and feature pages also use .page-hero / .page-section (composed
    in the rendered HTML's class lists, e.g. class="page-hero blog-index-hero"),

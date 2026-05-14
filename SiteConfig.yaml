@@ -101,8 +101,6 @@ footer:
       url: "/features/"
     - title: "Business Card"
       url: "/business-card/"
-    - title: "Integrations"
-      url: "/integrations/"
     - title: "Developers"
       url: "/developers/"
     - title: "Reviews"

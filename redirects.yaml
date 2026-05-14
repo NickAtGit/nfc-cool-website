@@ -91,3 +91,17 @@ redirects:
     to: "/terms/"
   - from: "/privacy-policy"
     to: "/privacy/"
+
+  # ----- Integrations consolidated into /developers/ -----
+  - from: "/integrations"
+    to: "/developers/"
+  - from: "/integrations/"
+    to: "/developers/"
+  - from: "/de/integrations"
+    to: "/de/developers/"
+  - from: "/de/integrations/"
+    to: "/de/developers/"
+  - from: "/ja/integrations"
+    to: "/ja/developers/"
+  - from: "/ja/integrations/"
+    to: "/ja/developers/"
