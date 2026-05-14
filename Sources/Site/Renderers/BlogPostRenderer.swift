@@ -105,13 +105,27 @@ struct BlogPostRenderer: Renderer {
       let ogImageAbsolute: String? = page.image.map { path in
          path.hasPrefix("http") ? path : context.config.baseURL + path
       }
-      let jsonLD = StructuredData.blogPostBreadcrumb(
+      let isoDate = Self.isoDateFormatter.string(from: page.date ?? Date())
+      let lastModified: String? = (page.extensionValue("lastModified") as String?).flatMap { raw in
+         // Accept frontmatter strings in either "yyyy-MM-dd" or full ISO; trim to date only.
+         String(raw.prefix(10))
+      }
+      let postMeta = BlogPostMeta(
+         title: page.title,
+         path: pagePath,
+         description: page.summary ?? page.description,
+         image: page.image,
+         datePublished: isoDate,
+         dateModified: lastModified,
+         locale: page.locale
+      )
+      let jsonLD = StructuredData.blogPostGraph(
          baseURL: context.config.baseURL,
          homePath: context.router.homePath(),
+         siteName: context.config.name,
          sectionName: section.config.name,
          sectionPath: listingPath,
-         postTitle: page.title,
-         postPath: pagePath
+         post: postMeta
       )
 
       let head = helper.buildHead(
@@ -197,4 +211,15 @@ struct BlogPostRenderer: Renderer {
       df.locale = Locale(identifier: locale)
       return df
    }
+
+   /// Locale-independent ISO 8601 date formatter (`yyyy-MM-dd`) used to emit
+   /// `datePublished` / `dateModified` in BlogPosting JSON-LD. Schema.org
+   /// dates must not localize formatting.
+   private static let isoDateFormatter: DateFormatter = {
+      let df = DateFormatter()
+      df.locale = Locale(identifier: "en_US_POSIX")
+      df.timeZone = TimeZone(identifier: "UTC")
+      df.dateFormat = "yyyy-MM-dd"
+      return df
+   }()
 }

@@ -51,6 +51,21 @@ author:
   name: "NFC.cool"
   email: "hello@nfc.cool"
 
+# Per-app rating data injected into the SoftwareApplication JSON-LD blocks on
+# the landing page. Refresh manually from App Store Connect / Play Console
+# every few months; AI answer engines like Gemini weight these heavily for
+# "best NFC app" / "best business card app" type queries.
+apps:
+  toolsIOS:
+    ratingValue: 4.52
+    ratingCount: 70660
+  toolsAndroid:
+    ratingValue: 4.60
+    ratingCount: 1280
+  businessCardIOS:
+    ratingValue: 4.80
+    ratingCount: 593
+
 navigation:
   logo:
     image: "/assets/theme/images/nfc-secondary-logo-black.webp"

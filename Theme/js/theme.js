@@ -44,7 +44,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const labelEl = btn && btn.querySelector('.sk-lang-current');
       if (!btn || !menu) return;
 
-      const currentLang = (document.documentElement.getAttribute('lang') || 'en').toLowerCase();
+      // Normalize to bare language code: `<html lang>` is `en-US` / `de-DE` /
+      // `ja-JP` since LocaleRegionProcessor added country codes for SEO, but
+      // the `labels` / `names` maps below are keyed on bare codes (en/de/ja).
+      const currentLang = (document.documentElement.getAttribute('lang') || 'en').toLowerCase().split('-')[0];
       const alternates = Array.from(
          document.querySelectorAll('link[rel="alternate"][hreflang]')
       )
@@ -66,9 +69,13 @@ document.addEventListener('DOMContentLoaded', function() {
          return;
       }
 
-      // Display labels per locale code (extend here when adding locales).
-      const labels = { en: 'EN', de: 'DE', ja: 'JA' };
-      const names  = { en: 'English', de: 'Deutsch', ja: '日本語' /* 日本語 */ };
+      // Display labels per locale code: flag emojis for visual recognition,
+      // full names spelled out in their own language in the menu.
+      // (Extend here when adding locales.) Windows 10+ and all modern
+      // mobile/desktop browsers render these via Segoe UI Emoji or system
+      // emoji fonts — no Twemoji dependency needed.
+      const labels = { en: '🇺🇸', de: '🇩🇪', ja: '🇯🇵' };
+      const names  = { en: 'English', de: 'Deutsch', ja: '日本語' };
 
       // Set the button label to the current locale.
       if (labelEl) labelEl.textContent = labels[currentLang] || currentLang.toUpperCase();

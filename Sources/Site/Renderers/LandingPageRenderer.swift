@@ -2,6 +2,13 @@ import Foundation
 import SiteKit
 import Yams
 
+/// Minimal SiteConfig fragment used to decode the custom `apps:` block.
+/// SiteKit's `SiteConfig` decoder ignores unknown keys, so we parse the
+/// YAML separately here.
+private struct AppRatingsWrapper: Decodable {
+   let apps: AppRatings?
+}
+
 struct LandingPageRenderer: Renderer {
    func render(context: BuildContext) throws -> [OutputFile] {
       let helper = OutputFileRenderer(context: context)
@@ -29,10 +36,12 @@ struct LandingPageRenderer: Renderer {
       let ogImageAbsolute: String? = data.ogImage.map { path in
          path.hasPrefix("http") ? path : context.config.baseURL + path
       }
+      let ratings = Self.loadAppRatings(projectDirectory: context.projectDirectory)
       let jsonLD = StructuredData.landingGraph(
          baseURL: context.config.baseURL,
          siteName: context.config.name,
          description: context.config.description,
+         ratings: ratings,
          faq: data.faq
       )
 
@@ -107,6 +116,18 @@ struct LandingPageRenderer: Renderer {
    }
 
    // MARK: - Helpers
+
+   /// Loads the per-app rating block from `SiteConfig.yaml`. SiteKit's
+   /// `SiteConfig` decoder ignores the custom `apps:` key, so we re-read the
+   /// file with a minimal local decoder. Returns `.empty` (no
+   /// `aggregateRating` emitted) when the block is missing or malformed.
+   private static func loadAppRatings(projectDirectory: URL) -> AppRatings {
+      let configPath = projectDirectory.appendingPathComponent("SiteConfig.yaml")
+      guard let yaml = try? String(contentsOf: configPath, encoding: .utf8),
+            let wrapper = try? YAMLDecoder().decode(AppRatingsWrapper.self, from: yaml)
+      else { return .empty }
+      return wrapper.apps ?? .empty
+   }
 
    /// Splits a brand-headline title at ".cool" so the suffix can render in the script font/yellow.
    /// Example: "NFC.cool" → ("NFC", ".cool"). "All-in-one tools" → ("All-in-one tools", nil).

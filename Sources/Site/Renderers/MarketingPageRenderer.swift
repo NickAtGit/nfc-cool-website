@@ -41,12 +41,18 @@ struct MarketingPageRenderer: Renderer {
    private func renderMarketingPage(_ page: Page, context: BuildContext, helper: OutputFileRenderer) -> OutputFile {
       let hreflangMap: [String: String]? = page.extensionValue("hreflang")
       let pageTitle = "\(page.title) - \(context.config.name)"
+      // ProfilePage + Person JSON-LD on the About page so AI engines can
+      // resolve "who wrote this" claims that appear on every blog post.
+      let jsonLD: String? = page.slug == "about"
+         ? StructuredData.aboutPageGraph(baseURL: context.config.baseURL, siteName: context.config.name)
+         : nil
       let head = helper.buildHead(
          title: pageTitle,
          description: page.description,
          canonicalURL: "\(context.config.baseURL)\(context.router.staticPagePath(for: page))",
          ogType: "website",
          image: page.image,
+         jsonLD: jsonLD,
          hreflang: hreflangMap
       )
 
