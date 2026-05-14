@@ -53,7 +53,7 @@ author:
 
 navigation:
   logo:
-    image: "/assets/theme/images/NFC_SecondaryLogo_Black.webp"
+    image: "/assets/theme/images/nfc-secondary-logo-black.webp"
     imageWidth: 114
     imageHeight: 28
     text: ""

@@ -139,7 +139,7 @@ Die praktische Erkenntnis: Wähle eine Plattform, die DSGVO standardmäßig erns
 
 Voller Transparenz: das ist der NFC.cool Blog, also werden wir über unseren Ansatz sprechen. Aber wir haben oben versucht, ehrlich über die Landschaft zu sein und werden es hier auch sein.
 
-Als wir [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_why-privacy-matters-digital-business-card_de&mt=8) bauten, war Datenschutz kein nachträglicher Gedanke oder eine Marketing-Checkbox. Er hat das Produkt geprägt:
+Als wir [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) bauten, war Datenschutz kein nachträglicher Gedanke oder eine Marketing-Checkbox. Er hat das Produkt geprägt:
 
 **PIN-geschützte Profile** - Du kannst deine Visitenkarte hinter einer 4-stelligen PIN mit ratenlimitierten Versuchen sperren. Teile deine Karten-URL frei, aber lass Leute deine Details nur sehen, wenn du willst. Das ist nützlich für NFC-Karten, die du verlieren könntest, oder für Momente, in denen du kontrollieren willst, wer deine vollständigen Kontaktdaten sieht.
 
@@ -190,4 +190,4 @@ Wähle weise.
 
 ---
 
-*Bereit, eine datenschutz-first digitale Visitenkarte auszuprobieren? [Lade NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_why-privacy-matters-digital-business-card_de&mt=8) für iPhone oder [hole es auf Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_why-privacy-matters-digital-business-card_de). App-UI und App Clip in 35 Sprachen verfügbar.*
+*Bereit, eine datenschutz-first digitale Visitenkarte auszuprobieren? [Lade NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) für iPhone oder [hole es auf Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-de). App-UI und App Clip in 35 Sprachen verfügbar.*

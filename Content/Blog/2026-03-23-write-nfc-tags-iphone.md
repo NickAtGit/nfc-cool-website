@@ -58,7 +58,7 @@ If you're unsure, start with a mixed pack of NTAG215 stickers. They handle 90% o
 
 Your iPhone needs an app to write data to tags. Apple's built-in NFC support handles reading, but for writing, you need a dedicated app.
 
-**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_write-nfc-tags-iphone_en&mt=8)** is purpose-built for this. It supports writing all standard NDEF record types - URLs, text, Wi-Fi configurations, contacts, and more - with a clean interface that shows exactly how much tag memory you're using. It also lets you lock tags, read technical details, and automate writing through iOS Shortcuts.
+**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** is purpose-built for this. It supports writing all standard NDEF record types - URLs, text, Wi-Fi configurations, contacts, and more - with a clean interface that shows exactly how much tag memory you're using. It also lets you lock tags, read technical details, and automate writing through iOS Shortcuts.
 
 Other options exist (like Apple's Shortcuts app for basic URL writing), but a dedicated NFC app gives you more control over what you write and how.
 
@@ -129,7 +129,7 @@ This is essentially what a digital business card does, but baked directly into a
 
 **Memory needed:** ~100-400 bytes depending on how many fields you include. Use NTAG215 or NTAG216 for contacts with addresses and notes.
 
-**Note:** For a richer experience with photos, social links, and analytics, check out **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_write-nfc-tags-iphone_en&mt=8)** - it creates a hosted digital business card profile and can write the link to any NFC tag. When someone taps, iOS users see a native App Clip and Android users open a website on the nfc.cool domain - no app needed. Better than raw vCards for networking.
+**Note:** For a richer experience with photos, social links, and analytics, check out **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** - it creates a hosted digital business card profile and can write the link to any NFC tag. When someone taps, iOS users see a native App Clip and Android users open a website on the nfc.cool domain - no app needed. Better than raw vCards for networking.
 
 ### Plain Text
 
@@ -330,10 +330,10 @@ Unlimited. There's no restriction on how many tags you write. The limiting facto
 
 Now that you know how to write NFC tags, the possibilities are wide open. Start with a simple project - a Wi-Fi tag for guests or a business card tag - and build from there.
 
-If you're looking for a powerful, easy-to-use NFC writing app, **[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_write-nfc-tags-iphone_en&mt=8)** handles everything from basic URL writing to advanced tag management, with iOS Shortcuts integration for automation.
+If you're looking for a powerful, easy-to-use NFC writing app, **[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** handles everything from basic URL writing to advanced tag management, with iOS Shortcuts integration for automation.
 
-And if you want to turn NFC tags into professional digital business cards, **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_write-nfc-tags-iphone_en&mt=8)** lets you create a beautiful card profile and write its URL to any NFC tag. The app UI and App Clip support 35 languages on iOS, and Android recipients see a website on the nfc.cool domain (currently English only).
+And if you want to turn NFC tags into professional digital business cards, **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** lets you create a beautiful card profile and write its URL to any NFC tag. The app UI and App Clip support 35 languages on iOS, and Android recipients see a website on the nfc.cool domain (currently English only).
 
-**Download NFC.cool Tools:** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_write-nfc-tags-iphone_en&mt=8) | [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_write-nfc-tags-iphone_en)
+**Download NFC.cool Tools:** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8) | [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en)
 
-**Download NFC.cool Business Card:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_write-nfc-tags-iphone_en&mt=8) | [Android (in NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_write-nfc-tags-iphone_en)
+**Download NFC.cool Business Card:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8) | [Android (in NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en)

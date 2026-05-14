@@ -56,7 +56,7 @@ featureBanner:
   subtitle: "iPhone専用のデジタル名刺アプリ - NFCタッチ、QRコード、AppClip、Apple Walletで共有できます。誰がカードを保存したかをトラッキングし、リードを管理し、イベント向けにConference Modeを利用できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。"
   imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
   appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
-  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness_card_banner"
+  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
 
 appStoreReviewsTitle: "ユーザーの声"
 appStoreReviews:

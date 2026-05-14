@@ -44,7 +44,7 @@ The most common alternative to URLs. Encode a full vCard (name, phone, email, or
 
 QR business cards work this way out of the box. It's also why a vCard QR works on every phone with no special app - vCard is a 30-year-old standard the OS already knows.
 
-The trade-off vs the NFC.cool business card flow: a vCard QR can't be updated. Once printed, the contact data is frozen. If you want a "single source of truth" that you can edit later, encode a URL to your live business card page instead - that's what [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_tap-scan-thrive_en&mt=8) does, and it's why we recommend it over raw vCard QR for serious networking.
+The trade-off vs the NFC.cool business card flow: a vCard QR can't be updated. Once printed, the contact data is frozen. If you want a "single source of truth" that you can edit later, encode a URL to your live business card page instead - that's what [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8) does, and it's why we recommend it over raw vCard QR for serious networking.
 
 ## Plain text
 
@@ -58,4 +58,4 @@ Some apps register custom URL schemes (`myapp://...`) and recognise QR codes enc
 
 NFC.cool's scanner reads any of the above formats and routes them to the right action: URLs open in the browser, vCards offer to save, Wi-Fi prompts to connect, locations open in maps. It also keeps a local history of every scan, which is useful when you've scanned 30 menus at a conference and want to revisit one.
 
-The whole QR stack - generator and scanner - is available inside [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_tap-scan-thrive_en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_tap-scan-thrive_en).
+The whole QR stack - generator and scanner - is available inside [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-en).

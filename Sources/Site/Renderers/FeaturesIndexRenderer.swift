@@ -49,8 +49,8 @@ struct FeaturesIndexRenderer: Renderer {
 
       _ = exploreLabel // not used - cards now mirror landing-feature-card style verbatim.
 
-      let toolsAppStoreURL = StoreLink.appStore(app: .tools, page: "web_features", locale: locale)
-      let toolsGooglePlayURL = StoreLink.googlePlay(app: .tools, page: "web_features", locale: locale)
+      let toolsAppStoreURL = StoreLink.appStore(app: .tools, page: "web-features", locale: locale)
+      let toolsGooglePlayURL = StoreLink.googlePlay(app: .tools, page: "web-features", locale: locale)
 
       // Build the per-feature cards using the SAME .landing-feature-card markup
       // the landing page emits, so both grids look identical and the whole card

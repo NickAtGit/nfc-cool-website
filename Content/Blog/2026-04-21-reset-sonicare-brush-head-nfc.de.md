@@ -65,7 +65,7 @@ NFC.cool Tools übernimmt den ganzen Prozess: Tag auslesen, Passwort berechnen, 
 4. Die App zeigt einen **Prozent-Indikator** an, wie viel Lebenszeit der Kopf verbraucht hat, mit verbrauchter und verbleibender Zeit darunter
 5. Tippe auf **Reset Timer**, um den Nutzungszähler auf null zurückzusetzen, oder scanne einen weiteren Kopf
 
-Verfügbar jetzt für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_reset-sonicare-brush-head-nfc_de&mt=8), kommt mit einem zukünftigen Update auf [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_reset-sonicare-brush-head-nfc_de).
+Verfügbar jetzt für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-de&mt=8), kommt mit einem zukünftigen Update auf [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-de).
 
 ## Was der Reset eigentlich macht
 
@@ -89,4 +89,4 @@ NFC.cool Tools liest und schreibt sie alle. Die Sonicare-Funktion ist ein Beispi
 
 ---
 
-*Hast du einen Sonicare-Bürstenkopf zum Prüfen? [Lade NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_reset-sonicare-brush-head-nfc_de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_reset-sonicare-brush-head-nfc_de) (Sonicare-Reset kommt bald auf Android) und sieh, was deine Zahnbürste über dich gespeichert hat.*
+*Hast du einen Sonicare-Bürstenkopf zum Prüfen? [Lade NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-de) (Sonicare-Reset kommt bald auf Android) und sieh, was deine Zahnbürste über dich gespeichert hat.*

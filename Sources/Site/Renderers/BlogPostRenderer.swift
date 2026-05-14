@@ -74,7 +74,7 @@ struct BlogPostRenderer: Renderer {
             let titleAlt = page.title.htmlEscaped
             return """
             <div class="page-hero-visual is-brand">
-               <img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="\(titleAlt)" loading="eager" fetchpriority="high"/>
+               <img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt="\(titleAlt)" loading="eager" fetchpriority="high"/>
             </div>
             """
          }

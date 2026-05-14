@@ -165,7 +165,7 @@ This is where it gets fun. Writing to NFC tags lets you program them with whatev
 
 ### What You Need
 1. An NFC-enabled phone
-2. An NFC writing app (like **NFC.cool Tools** - available for [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_nfc-tags-beginners-guide_en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_nfc-tags-beginners-guide_en))
+2. An NFC writing app (like **NFC.cool Tools** - available for [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-en))
 3. A blank (or rewritable) NFC tag
 
 ### How to Write a Tag
@@ -217,7 +217,7 @@ Place a tag on a pill bottle. Scanning it logs a timestamp in a note or spreadsh
 ### At Work
 
 **6. Digital business cards**
-The most popular NFC use case in business. Instead of carrying paper cards, an NFC business card shares your contact details with a single tap. [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_nfc-tags-beginners-guide_en&mt=8) lets you create a professional digital card and write its URL to any third-party NFC tag - iOS recipients see a native App Clip, Android recipients open a website on the nfc.cool domain, and both can save your contact with one tap.
+The most popular NFC use case in business. Instead of carrying paper cards, an NFC business card shares your contact details with a single tap. [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) lets you create a professional digital card and write its URL to any third-party NFC tag - iOS recipients see a native App Clip, Android recipients open a website on the nfc.cool domain, and both can save your contact with one tap.
 
 **7. Conference room check-in**
 Place a tag outside meeting rooms. Tapping it launches your calendar or logs attendance - simpler than any booking system.
@@ -309,7 +309,7 @@ Ready to try? Here's a five-minute project:
 **Project: Wi-Fi sharing tag for your home**
 
 1. **Buy tags:** Get a pack of NTAG215 stickers (available on Amazon for ~$10 for 25 tags)
-2. **Download NFC.cool Tools:** Available for [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_nfc-tags-beginners-guide_en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_nfc-tags-beginners-guide_en)
+2. **Download NFC.cool Tools:** Available for [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-en)
 3. **Write Wi-Fi credentials:** Open the app → Write → Wi-Fi → Enter your network name and password → Hold your phone to the tag
 4. **Place the tag:** Stick it somewhere visible - near the front door, on the fridge, or in a guest room
 5. **Test it:** Tap with a different phone. You should see a prompt to join the network
@@ -324,6 +324,6 @@ NFC tags are one of those technologies that sound complex but are remarkably sim
 
 Whether you want to automate your morning routine, share your business contact, or build something creative - NFC tags are the bridge between tapping a phone and making something happen in the real world.
 
-**Ready to start programming NFC tags?** Download [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_nfc-tags-beginners-guide_en&mt=8) for iPhone or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_nfc-tags-beginners-guide_en) - it's the easiest way to read, write, and manage NFC tags.
+**Ready to start programming NFC tags?** Download [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) for iPhone or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-en) - it's the easiest way to read, write, and manage NFC tags.
 
-**Want a digital business card powered by NFC?** Check out [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_nfc-tags-beginners-guide_en&mt=8) - share your contact with a single tap. App UI and App Clip available in 35 languages.
+**Want a digital business card powered by NFC?** Check out [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) - share your contact with a single tap. App UI and App Clip available in 35 languages.

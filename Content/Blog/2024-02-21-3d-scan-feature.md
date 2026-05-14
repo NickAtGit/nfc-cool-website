@@ -74,4 +74,4 @@ For the things it's good at, the result is genuinely useful - not a toy. For the
 
 ---
 
-3D Scan is part of [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_3d-scan-feature_en&mt=8). Photogrammetry works on any modern iPhone; LiDAR augmentation works on Pro models.
+3D Scan is part of [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-3d-scan-feature-en&mt=8). Photogrammetry works on any modern iPhone; LiDAR augmentation works on Pro models.

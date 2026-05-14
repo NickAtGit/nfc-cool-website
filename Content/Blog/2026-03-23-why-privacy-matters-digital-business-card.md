@@ -139,7 +139,7 @@ The practical takeaway: choose a platform that takes GDPR seriously by default, 
 
 Full disclosure: this is the NFC.cool blog, so we're going to talk about our approach. But we've tried to be honest about the landscape above, and we'll be honest here too.
 
-When we built [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_why-privacy-matters-digital-business-card_en&mt=8), privacy wasn't an afterthought or a marketing checkbox. It shaped the product:
+When we built [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8), privacy wasn't an afterthought or a marketing checkbox. It shaped the product:
 
 **PIN-Protected Profiles** - You can lock your business card behind a 4-digit PIN with rate-limited attempts. Share your card URL freely, but only let people see your details when you want them to. This is useful for NFC cards you might lose, or for times when you want to control who sees your full contact info.
 
@@ -190,4 +190,4 @@ Choose wisely.
 
 ---
 
-*Ready to try a privacy-first digital business card? [Download NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_why-privacy-matters-digital-business-card_en&mt=8) for iPhone or [get it on Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_why-privacy-matters-digital-business-card_en). App UI and App Clip available in 35 languages.*
+*Ready to try a privacy-first digital business card? [Download NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8) for iPhone or [get it on Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-en). App UI and App Clip available in 35 languages.*

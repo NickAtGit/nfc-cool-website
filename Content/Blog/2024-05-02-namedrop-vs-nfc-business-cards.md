@@ -18,4 +18,4 @@ This is where NFC business cards enter the scene, offering a cross-platform solu
 
 In conclusion, while NameDrop dazzles with its design and user experience, NFC business cards embody comprehensive and inclusive digital networking. They reach a broader audience, making them a stronger choice for professionals navigating the complex web of modern communication.
 
-Want one? [Get NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_namedrop-vs-nfc-business-cards_en&mt=8) on iPhone, or use the bundled business card in [NFC.cool Tools for Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_namedrop-vs-nfc-business-cards_en).
+Want one? [Get NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-en&mt=8) on iPhone, or use the bundled business card in [NFC.cool Tools for Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-en).

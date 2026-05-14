@@ -78,7 +78,7 @@ struct FeaturePageRenderer: Renderer {
             }
          )
 
-         let page = "web_feature-\(slug)"
+         let page = "web-feature-\(slug)"
          let appStoreURL = StoreLink.appStore(app: .tools, page: page, locale: locale)
          let googlePlayURL = StoreLink.googlePlay(app: .tools, page: page, locale: locale)
          let backLinkText = feature.backLinkText ?? "← All features"

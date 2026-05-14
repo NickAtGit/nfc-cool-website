@@ -33,6 +33,7 @@ import SiteKit
          .processor(CSSBackgroundImageProcessor())
          .processor(FontAwesomeInliner())
          .processor(FontPreloadProcessor())
+         .processor(LocaleRegionProcessor())
          .processor(CSSAsyncLoadProcessor())
          .processor(GoogleSiteVerificationProcessor())
          .processor(TwitterSiteProcessor())

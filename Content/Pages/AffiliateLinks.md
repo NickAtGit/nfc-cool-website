@@ -127,10 +127,10 @@ For 95% of use cases - writing your contact card, automation triggers, URL short
 Open NFC.cool Tools, tap **Write**, pick a content type (URL, contact card, Wi-Fi, automation), hold a blank tag to the top of your phone, done. The app handles encoding, error correction, and (optionally) permanent locking so the tag can't be overwritten.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_affiliate-links_en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-affiliate-links-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_affiliate-links_en" class="landing-store-button is-google" aria-label="Get it on Google Play">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-affiliate-links-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>

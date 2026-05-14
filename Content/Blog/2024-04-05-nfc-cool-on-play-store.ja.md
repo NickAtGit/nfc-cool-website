@@ -10,7 +10,7 @@ ogTitle: "NFC.coolがPlayストアに登場"
 ogDescription: "NFC.cool ToolsがGoogle Playで公開 - NFCスキャン、タグの書き込み、同梱のNFC.cool Business Card。"
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
-**NFC.cool Tools**が[Google Playストア](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_nfc-cool-on-play-store_ja)で利用可能になりました。iOSで数年を経て、Android版がライブです - そしてNFC.cool Business Cardが内蔵されています。
+**NFC.cool Tools**が[Google Playストア](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-ja)で利用可能になりました。iOSで数年を経て、Android版がライブです - そしてNFC.cool Business Cardが内蔵されています。
 
 ## Android版に入っているもの
 
@@ -34,7 +34,7 @@ AndroidはiPhoneより長く、2012年からNFCをサポートしてきました
 
 ## 入手先
 
-- **Android：** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_nfc-cool-on-play-store_ja)
-- **iOS：** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_nfc-cool-on-play-store_ja&mt=8)
+- **Android：** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-ja)
+- **iOS：** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-ja&mt=8)
 
 同じブランド。ハードウェアを共有する部分は同じ機能セット。今後の計画：NFC関連はすべて両プラットフォーム同時進行で。

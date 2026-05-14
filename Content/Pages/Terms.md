@@ -19,7 +19,7 @@ The legal agreement between you and NFC.cool Unipessoal LDA covering this websit
 </div>
 
 <div class="page-hero-visual is-brand">
-<img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="NFC.cool wordmark" loading="eager" fetchpriority="high"/>
+<img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt="NFC.cool wordmark" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

@@ -62,4 +62,4 @@ In einer Welt, in der wir Kontakte schneller tauschen als je zuvor, sind die Dat
 
 ---
 
-[NFC.cool Business Card für iPhone herunterladen](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_smart-context-remember-everyone_de&mt=8). Android-Nutzer bekommen dieselbe Business-Card und Smart-Context-Features eingebaut in [NFC.cool Tools für Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_smart-context-remember-everyone_de).
+[NFC.cool Business Card für iPhone herunterladen](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-de&mt=8). Android-Nutzer bekommen dieselbe Business-Card und Smart-Context-Features eingebaut in [NFC.cool Tools für Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-de).

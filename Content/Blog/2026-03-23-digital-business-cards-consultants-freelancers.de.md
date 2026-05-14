@@ -73,7 +73,7 @@ Mit einer digitalen Karte, die auf einer Folie angezeigt oder als QR-Code auf de
 
 Freelancer arbeiten zunehmend grenzübergreifend. Du könntest ein in Berlin ansässiger Berater sein, der mit Kunden in São Paulo, Tokio und New York arbeitet. Papierkarten in einer Sprache fühlen sich einschränkend an.
 
-Digitale Visitenkarten, die mehrere Sprachen unterstützen, lassen dich deine Informationen in der Sprache präsentieren, die dein Kunde bevorzugt. Das ist ein subtiles, aber starkes Signal, dass du die Beziehung ernst nimmst. [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-cards-consultants-freelancers_de&mt=8) unterstützt 35 Sprachen in der App-UI und im App Clip - deine Karte passt sich also praktisch jedem internationalen Kontext auf iOS an. Die Android-Sharing-Erfahrung über die nfc.cool-Website ist derzeit nur auf Englisch.
+Digitale Visitenkarten, die mehrere Sprachen unterstützen, lassen dich deine Informationen in der Sprache präsentieren, die dein Kunde bevorzugt. Das ist ein subtiles, aber starkes Signal, dass du die Beziehung ernst nimmst. [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-consultants-freelancers-de&mt=8) unterstützt 35 Sprachen in der App-UI und im App Clip - deine Karte passt sich also praktisch jedem internationalen Kontext auf iOS an. Die Android-Sharing-Erfahrung über die nfc.cool-Website ist derzeit nur auf Englisch.
 
 ### 5. E-Mail-Signaturen
 
@@ -210,10 +210,10 @@ Als Freelancer oder unabhängiger Berater hast du nicht den Luxus einer großen 
 
 Digitale Visitenkarten nehmen die Reibung heraus. du halten deine Infos aktuell, unterstützen mehrere professionelle Identitäten, funktionieren international und kosten einen Bruchteil von dem, was du in einem Jahr für Papier ausgeben würdest.
 
-Die beste Karte für dich hängt von deinen spezifischen Bedürfnissen ab: Wenn CRM-Integration kritisch ist, schau dir Wave Connect oder Blinq an. Wenn Team-Verwaltung wichtig ist, ziehe HiHello in Betracht. Wenn du eine bezahlbare, datenschutz-first Karte willst, die NFC-Hardware und 35 Sprachen unterstützt, wurde [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-cards-consultants-freelancers_de&mt=8) genau dafür gebaut.
+Die beste Karte für dich hängt von deinen spezifischen Bedürfnissen ab: Wenn CRM-Integration kritisch ist, schau dir Wave Connect oder Blinq an. Wenn Team-Verwaltung wichtig ist, ziehe HiHello in Betracht. Wenn du eine bezahlbare, datenschutz-first Karte willst, die NFC-Hardware und 35 Sprachen unterstützt, wurde [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-consultants-freelancers-de&mt=8) genau dafür gebaut.
 
 Was auch immer du wählst - mach den Wechsel. Deine zukünftigen Kunden werden dir danken - und die Bäume auch.
 
 ---
 
-*NFC.cool Business Card ist im [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-cards-consultants-freelancers_de&mt=8) und auf [Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_digital-business-cards-consultants-freelancers_de) verfügbar. Erstelle deine erste digitale Karte in unter zwei Minuten.*
+*NFC.cool Business Card ist im [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-consultants-freelancers-de&mt=8) und auf [Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-consultants-freelancers-de) verfügbar. Erstelle deine erste digitale Karte in unter zwei Minuten.*

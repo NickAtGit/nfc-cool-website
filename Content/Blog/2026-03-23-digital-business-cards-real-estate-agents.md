@@ -146,7 +146,7 @@ Full disclosure: this is the NFC.cool blog, so yes, we're going to talk about ou
 
 Getting started takes about five minutes:
 
-1. **Download the app** - NFC.cool Business Card is available on [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-cards-real-estate-agents_en&mt=8) and on [Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_digital-business-cards-real-estate-agents_en)
+1. **Download the app** - NFC.cool Business Card is available on [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-real-estate-agents-en&mt=8) and on [Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-real-estate-agents-en)
 2. **Create your card** - Add your name, title, brokerage, phone, email, website, and social links
 3. **Add your photo** - A professional headshot helps prospects remember you
 4. **Generate your QR code** - Print it for open house materials
@@ -194,7 +194,7 @@ A digital business card doesn't replace your hustle - but it removes the frictio
 
 The technology is proven, the cost is minimal, and the upside is every lead you would have otherwise lost.
 
-Ready to try it? [Download NFC.cool Business Card for iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-cards-real-estate-agents_en&mt=8) or [get it on Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_digital-business-cards-real-estate-agents_en).
+Ready to try it? [Download NFC.cool Business Card for iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-real-estate-agents-en&mt=8) or [get it on Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-real-estate-agents-en).
 
 ---
 

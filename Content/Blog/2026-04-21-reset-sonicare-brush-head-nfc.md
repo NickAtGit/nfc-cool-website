@@ -65,7 +65,7 @@ NFC.cool Tools handles the whole process: reading the tag, computing the passwor
 4. The app shows a **percentage gauge** of how much life the head has used, with used and remaining time below
 5. Tap **Reset Timer** to set the usage counter back to zero, or scan another head
 
-Available now on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_reset-sonicare-brush-head-nfc_en&mt=8), coming to [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_reset-sonicare-brush-head-nfc_en) in a future update.
+Available now on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8), coming to [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) in a future update.
 
 ## What the Reset Actually Does
 
@@ -89,4 +89,4 @@ NFC.cool Tools reads and writes all of these. The Sonicare feature is one exampl
 
 ---
 
-*Have a Sonicare brush head to check? [Download NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_reset-sonicare-brush-head-nfc_en&mt=8) or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_reset-sonicare-brush-head-nfc_en) (Sonicare reset coming soon on Android) and see what your toothbrush has been tracking.*
+*Have a Sonicare brush head to check? [Download NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) (Sonicare reset coming soon on Android) and see what your toothbrush has been tracking.*

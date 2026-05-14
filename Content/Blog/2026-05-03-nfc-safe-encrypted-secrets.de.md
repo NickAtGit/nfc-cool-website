@@ -70,4 +70,4 @@ NFC-Tags entwickeln sich zum Speichermedium für Dinge, die zählen. Der EU Digi
 
 NFC Safe nimmt diese Robustheit und legt Verschlüsselung obendrauf. Ein Backup, das Papier überdauert, von niemandem gelesen werden kann, der es findet, und weniger kostet als eine Tasse Kaffee.
 
-Jetzt verfügbar in [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_nfc-safe-encrypted-secrets_de&mt=8). Android folgt bald.
+Jetzt verfügbar in [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-de&mt=8). Android folgt bald.

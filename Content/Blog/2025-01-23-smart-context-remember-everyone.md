@@ -62,4 +62,4 @@ In a world where we trade contacts faster than ever, the data that matters isn't
 
 ---
 
-[Download NFC.cool Business Card for iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_smart-context-remember-everyone_en&mt=8). Android users get the same business card and Smart Context features bundled into [NFC.cool Tools for Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_smart-context-remember-everyone_en).
+[Download NFC.cool Business Card for iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-en&mt=8). Android users get the same business card and Smart Context features bundled into [NFC.cool Tools for Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-en).

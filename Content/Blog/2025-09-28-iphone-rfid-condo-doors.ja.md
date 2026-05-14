@@ -15,7 +15,7 @@ imageAlt: "マンションのRFID専用ドアリーダーに向き合うiPhone"
 ### 技術の話、難しくない版
 
 - **RFID（Radio-Frequency Identification、無線自動識別）**は、物体を無線で識別・追跡する広範な技術です。RFIDは、道の向こう側の友人に呼びかけるようなもの - 多くの場合は一方向のやりとりで、マンションのRFIDカードが信号を発信し、ドアがそれを聞きます。RFIDには低周波（LF）、高周波（HF）、超高周波（UHF）といった種類があります。入退室カード、ペットのマイクロチップ、在庫管理、そしてそう、あの厄介なマンションのカードも、すべてRFIDです。
-- **NFC（Near-Field Communication、近距離無線通信）**は、本質的にはRFIDの中でも高周波帯（13.56 MHz）で動作する特化したサブセットです。すぐ近くに立った2人の友人の親密な会話のようなものです。NFCは双方向通信、安全なデータ交換、リッチなインタラクションを可能にします。だからこそ、iPhoneはApple Pay、AirTag、[デジタル名刺](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_iphone-rfid-condo-doors_ja&mt=8)などにNFCを使っているのです。
+- **NFC（Near-Field Communication、近距離無線通信）**は、本質的にはRFIDの中でも高周波帯（13.56 MHz）で動作する特化したサブセットです。すぐ近くに立った2人の友人の親密な会話のようなものです。NFCは双方向通信、安全なデータ交換、リッチなインタラクションを可能にします。だからこそ、iPhoneはApple Pay、AirTag、[デジタル名刺](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-iphone-rfid-condo-doors-ja&mt=8)などにNFCを使っているのです。
 
 ### iPhoneがマンションのカードに「ノー」と言う理由
 

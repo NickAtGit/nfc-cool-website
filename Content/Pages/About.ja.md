@@ -19,7 +19,7 @@ NFC.coolは**Nicolo Stanciu**が手がける独立系プロダクトで、リス
 </div>
 
 <div class="page-hero-visual is-brand">
-<img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="NFC.coolワードマーク" loading="eager" fetchpriority="high"/>
+<img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt="NFC.coolワードマーク" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

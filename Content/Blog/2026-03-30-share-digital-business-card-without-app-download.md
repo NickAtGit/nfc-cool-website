@@ -96,7 +96,7 @@ It's a small thing, but at a busy event where you're holding a coffee in one han
 ## Getting Started
 
 **As the card owner:**
-- Download NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_share-digital-business-card-without-app-download_en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_share-digital-business-card-without-app-download_en))
+- Download NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en))
 - Create your card with your details, photo, and social links
 - Share via NFC tag, QR code, or direct link
 

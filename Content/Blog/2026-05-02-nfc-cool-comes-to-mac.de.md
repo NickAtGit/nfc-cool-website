@@ -113,6 +113,6 @@ Die Mac-App ist kein separates Produkt. Es ist dieselbe NFC.cool-App, die du sch
 
 Wenn du NFC.cool bereits auf deinem iPhone oder iPad hast, wartet sie schon im Mac App Store auf dich - dasselbe Abo, dasselbe Konto, dieselbe Bibliothek.
 
-[NFC.cool Tools für iPhone, iPad und Mac herunterladen](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_nfc-cool-comes-to-mac_de&mt=8)
+[NFC.cool Tools für iPhone, iPad und Mac herunterladen](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-comes-to-mac-de&mt=8)
 
-Android-Nutzer? [NFC.cool für Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_nfc-cool-comes-to-mac_de) ist auch für euch da.
+Android-Nutzer? [NFC.cool für Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-comes-to-mac-de) ist auch für euch da.

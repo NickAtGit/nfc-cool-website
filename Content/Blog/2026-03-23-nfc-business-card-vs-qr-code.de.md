@@ -187,7 +187,7 @@ Einige Plattformen verlangen monatliche Abos ($5-15/Monat) für Features, die ei
 
 Voller Transparenz: das ist unser Blog, also werden wir natürlich unsere eigene Lösung erwähnen. Aber wir denken, sie ist hier wirklich relevant.
 
-[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_nfc-business-card-vs-qr-code_de&mt=8) wurde von Anfang an so gebaut, dass sie **sowohl NFC- als auch QR-Code-Sharing** unterstützt - nicht als separate Produkte, sondern als zwei Seiten derselben Karte:
+[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-de&mt=8) wurde von Anfang an so gebaut, dass sie **sowohl NFC- als auch QR-Code-Sharing** unterstützt - nicht als separate Produkte, sondern als zwei Seiten derselben Karte:
 
 - **NFC-Tap** - Schreibe deine Visitenkarte auf einen beliebigen Standard-NFC-Tag (Sticker, Karten, Schlüsselanhänger - deine Wahl) und teile mit einem Tap. Keine proprietäre Hardware erforderlich.
 - **QR-Code** - Generiere einen scannbaren Code direkt in der App. Zeige ihn auf deinem Handy oder drucke ihn.
@@ -201,7 +201,7 @@ Einige Dinge, die sie herausstechen lassen:
 - **Offenes NFC** - Funktioniert mit jedem Standard-NFC-Tag - NFC.cool verkauft keine proprietäre Hardware
 - **Bezahlbar** - Personal-Plan für 20€/Jahr, Small Business für 50€/Jahr (10 Karten), Business für 100€/Jahr (100 Karten)
 
-➡️ **NFC.cool Business Card ausprobieren:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_nfc-business-card-vs-qr-code_de&mt=8) · [Android (inside NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_nfc-business-card-vs-qr-code_de)
+➡️ **NFC.cool Business Card ausprobieren:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-de&mt=8) · [Android (inside NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-de)
 
 ---
 

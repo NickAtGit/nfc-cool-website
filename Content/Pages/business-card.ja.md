@@ -16,10 +16,10 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppClip、Apple Walletで連絡先を一瞬で共有 - 誰が実際にあなたのカードを保存したかも確認できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web_business-card_ja&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store">
+<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ja&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_business-card_ja" class="landing-store-button is-google" aria-label="Get it on Google Play">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ja" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -198,6 +198,6 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 
 ## Androidでは
 
-AndroidではBusiness Card機能が[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_business-card_ja)に組み込まれています - 別アプリは不要。アプリを開いてカードを設定し、タップで共有。同じデータモデル、同じNFCハンドシェイク、同じQRフォールバックです。リードジェネレーション、詳細アナリティクス、Conference Modeは現在iOSのみで提供されます。
+AndroidではBusiness Card機能が[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ja)に組み込まれています - 別アプリは不要。アプリを開いてカードを設定し、タップで共有。同じデータモデル、同じNFCハンドシェイク、同じQRフォールバックです。リードジェネレーション、詳細アナリティクス、Conference Modeは現在iOSのみで提供されます。
 
 </section>

@@ -79,7 +79,7 @@ struct BlogIndexRenderer: Renderer {
             // so the card grid stays visually balanced.
             return """
             <div class="blog-card-image is-placeholder" aria-hidden="true">
-               <img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt=""/>
+               <img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt=""/>
             </div>
             """
          }()
@@ -107,7 +107,7 @@ struct BlogIndexRenderer: Renderer {
                   <a class="landing-cta-button" href="\(rssFeedPath)" aria-label="RSS Feed">RSS Feed</a>
                </div>
                <div class="page-hero-visual is-brand">
-                  <img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="\(heroVisualAlt)" loading="eager" fetchpriority="high"/>
+                  <img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt="\(heroVisualAlt)" loading="eager" fetchpriority="high"/>
                </div>
             </div>
          </section>

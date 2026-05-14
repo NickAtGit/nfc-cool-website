@@ -59,4 +59,4 @@ For receipts, contracts, signed forms, business documents - scan, don't photogra
 
 ---
 
-Document scanning is part of [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_document-scanning-guide_en&mt=8) (Android version focuses on NFC; the document scanner needs Apple's Vision framework).
+Document scanning is part of [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-document-scanning-guide-en&mt=8) (Android version focuses on NFC; the document scanner needs Apple's Vision framework).

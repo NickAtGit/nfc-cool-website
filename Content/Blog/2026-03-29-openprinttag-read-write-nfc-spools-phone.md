@@ -76,7 +76,7 @@ If you're buying blank tags, look for **ICODE SLIX2** or **ISO 15693** specifica
 
 You don't need a Prusa printer or any special hardware to work with OpenPrintTag, just your phone.
 
-NFC.cool Tools supports OpenPrintTag natively on both [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_openprinttag-read-write-nfc-spools-phone_en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_openprinttag-read-write-nfc-spools-phone_en), and the feature is completely free.
+NFC.cool Tools supports OpenPrintTag natively on both [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-en), and the feature is completely free.
 
 **Reading a tag:**
 1. Open NFC.cool Tools
@@ -133,7 +133,7 @@ The 3D printing industry has needed an open standard for smart spools for years.
 
 **What you need:**
 - iPhone 7 or later, or an Android phone with NFC
-- NFC.cool Tools ([App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_openprinttag-read-write-nfc-spools-phone_en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_openprinttag-read-write-nfc-spools-phone_en)), free, OpenPrintTag included
+- NFC.cool Tools ([App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-en)), free, OpenPrintTag included
 - Blank ICODE SLIX2 / ISO 15693 NFC tags ([Amazon US](https://amzn.to/3LTh1fT) / [Amazon Europe](https://amzn.to/4oJpQr4), affiliate links)
 - Some filament spools to tag
 

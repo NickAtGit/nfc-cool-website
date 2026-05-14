@@ -212,7 +212,7 @@ em.brand-tail {
    opacity: 0.85;
 }
 [data-theme="dark"] .sk-site-logo img {
-   content: url("/assets/theme/images/NFC_SecondaryLogo_White.webp");
+   content: url("/assets/theme/images/nfc-secondary-logo-white.webp");
 }
 .sk-site-logo-text {
    display: none; /* logo image already says "NFC.cool" - avoid double */

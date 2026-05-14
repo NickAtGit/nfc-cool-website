@@ -50,8 +50,8 @@ struct LandingPageRenderer: Renderer {
          preloadImageURL: data.heroImagePath
       )
 
-      let homeAppStore = StoreLink.appStore(app: .tools, page: "web_home", locale: locale)
-      let homeGooglePlay = StoreLink.googlePlay(app: .tools, page: "web_home", locale: locale)
+      let homeAppStore = StoreLink.appStore(app: .tools, page: "web-home", locale: locale)
+      let homeGooglePlay = StoreLink.googlePlay(app: .tools, page: "web-home", locale: locale)
 
       var sections: [String] = []
       sections.append(self.renderHero(data.hero, trust: data.trust, heroImagePath: data.heroImagePath, heroImageWidth: data.heroImageWidth, heroImageHeight: data.heroImageHeight, appStoreURL: homeAppStore, googlePlayURL: homeGooglePlay))
@@ -158,17 +158,24 @@ struct LandingPageRenderer: Renderer {
    /// Render the App Store + Google Play badge pair shared across the
    /// landing hero, feature banner, pricing, and final CTA. Campaign
    /// tracking lives directly on the URL strings - each locale's YAML
-   /// holds its own `?ct=web_<lang>` / `&referrer=...&utm_campaign=web_<lang>`.
+   /// holds its own `?ct=web-<lang>` / `&referrer=...&utm_campaign=web-<lang>`.
+   ///
+   /// External commercial CTAs: open in a new tab (`target="_blank"`) and
+   /// carry `rel="noopener nofollow sponsored"`:
+   ///  - `noopener` is required for security whenever `target="_blank"` is set
+   ///  - `nofollow sponsored` keeps SEO audits from flagging the commercial
+   ///    outbound link as PageRank-leaking; `sponsored` is Google's preferred
+   ///    rel for app-store / affiliate / paid-placement destinations.
    private func renderStoreButtons(appStoreURL: String, googlePlayURL: String?) -> String {
       var buttons: [String] = []
       buttons.append("""
-         <a href="\(appStoreURL)" class="landing-store-button is-apple" aria-label="Download on the App Store">
+         <a href="\(appStoreURL)" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
             <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
          </a>
          """)
       if let url = googlePlayURL {
          buttons.append("""
-            <a href="\(url)" class="landing-store-button is-google" aria-label="Get it on Google Play">
+            <a href="\(url)" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
                <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
             </a>
             """)
@@ -239,9 +246,9 @@ struct LandingPageRenderer: Renderer {
             return "<a href=\"\(linkURL)\" class=\"landing-cta-button\">\(ctaText.htmlEscaped)</a>"
          }
          let appStore = banner.appStoreURL
-            ?? StoreLink.appStore(app: .businessCard, page: "web_business-card-banner", locale: locale)
+            ?? StoreLink.appStore(app: .businessCard, page: "web-business-card-banner", locale: locale)
          let googlePlay = banner.googlePlayURL
-            ?? StoreLink.googlePlay(app: .businessCard, page: "web_business-card-banner", locale: locale)
+            ?? StoreLink.googlePlay(app: .businessCard, page: "web-business-card-banner", locale: locale)
          return self.renderStoreButtons(appStoreURL: appStore, googlePlayURL: googlePlay)
       }()
       return """
@@ -418,7 +425,7 @@ struct LandingPageRenderer: Renderer {
    private func renderSlogan() -> String {
       """
       <section class="landing-slogan" aria-hidden="true">
-         <img src="/assets/theme/images/NFC_TheCoolWayToConnect-Black.svg" alt=""/>
+         <img src="/assets/theme/images/nfc-the-cool-way-to-connect-black.svg" alt=""/>
       </section>
       """
    }

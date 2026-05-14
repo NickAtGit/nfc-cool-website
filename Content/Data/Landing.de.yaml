@@ -58,7 +58,7 @@ featureBanner:
   # iOS: eigenständige NFC.cool Business Card App
   appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
   # Android: Visitenkarten-Funktionen sind in NFC.cool Tools enthalten
-  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness_card_banner"
+  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
 
 appStoreReviewsTitle: "Was unsere Nutzer sagen"
 appStoreReviews:

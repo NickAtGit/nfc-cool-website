@@ -19,7 +19,7 @@ Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage ben
 </div>
 
 <div class="page-hero-visual is-brand">
-<img src="/assets/theme/images/NFC_SecondaryLogo_White.webp" alt="NFC.cool Wortmarke" loading="eager" fetchpriority="high"/>
+<img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt="NFC.cool Wortmarke" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

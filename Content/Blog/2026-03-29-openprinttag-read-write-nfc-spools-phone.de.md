@@ -76,7 +76,7 @@ Wenn du leere Tags kaufst, suche speziell nach **ICODE SLIX2** oder **ISO 15693*
 
 Du brauchst keinen Prusa-Drucker oder spezielle Hardware, um mit OpenPrintTag zu arbeiten - nur dein Handy.
 
-NFC.cool Tools unterstützt OpenPrintTag nativ auf [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_openprinttag-read-write-nfc-spools-phone_de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_openprinttag-read-write-nfc-spools-phone_de), und das Feature ist komplett gratis.
+NFC.cool Tools unterstützt OpenPrintTag nativ auf [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-de), und das Feature ist komplett gratis.
 
 **Einen Tag lesen:**
 1. Öffne NFC.cool Tools
@@ -133,7 +133,7 @@ Die 3D-Druck-Industrie hat seit Jahren einen offenen Standard für smarte Spulen
 
 **Was du brauchst:**
 - iPhone 7 oder neuer, oder ein Android-Handy mit NFC
-- NFC.cool Tools ([App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_openprinttag-read-write-nfc-spools-phone_de&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_openprinttag-read-write-nfc-spools-phone_de)) - gratis, OpenPrintTag inklusive
+- NFC.cool Tools ([App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-de&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-de)) - gratis, OpenPrintTag inklusive
 - Leere ICODE SLIX2 / ISO 15693 NFC-Tags ([Amazon US](https://amzn.to/3LTh1fT) / [Amazon Europa](https://amzn.to/4oJpQr4) - Affiliate-Links)
 - Ein paar Filament-Spulen zum Taggen
 
