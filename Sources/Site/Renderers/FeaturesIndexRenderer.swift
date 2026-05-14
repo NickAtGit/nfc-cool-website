@@ -89,11 +89,35 @@ struct FeaturesIndexRenderer: Renderer {
 
       let pagePath = "\(basePath)features/"
 
+      // Build the (title, slug) list for JSON-LD ItemList. Loads each feature
+      // YAML once more here to surface the localized title; small cost since
+      // we already loaded them above for the card grid.
+      let itemListEntries: [(title: String, slug: String)] = FeaturePageRenderer.slugs.compactMap { slug in
+         let yamlPath = context.projectDirectory
+            .appendingPathComponent(context.config.contentDirectory)
+            .appendingPathComponent("Data")
+            .appendingPathComponent("Features")
+            .appendingPathComponent("\(slug)\(suffix).yaml")
+         guard FileManager.default.fileExists(atPath: yamlPath.path) else { return nil }
+         guard let yamlData = try? Data(contentsOf: yamlPath) else { return nil }
+         guard let feature = try? YAMLDecoder().decode(FeatureData.self, from: yamlData) else { return nil }
+         return (feature.hero.title, slug)
+      }
+      let jsonLD = StructuredData.featuresIndexGraph(
+         baseURL: context.config.baseURL,
+         homePath: basePath,
+         featuresLabel: title,
+         items: itemListEntries
+      )
+
       let head = helper.buildHead(
          title: "\(title) - \(context.config.name)",
          description: subtitle,
          canonicalURL: context.config.baseURL + pagePath,
          ogType: "website",
+         image: context.config.baseURL + "/assets/images/Webflow/qr-studio.webp",
+         imageAlt: title,
+         jsonLD: jsonLD,
          hreflang: helper.buildHreflangForAllLanguages { router in
             "\(router.homePath())features/"
          }

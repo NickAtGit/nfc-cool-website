@@ -89,11 +89,29 @@ struct BlogPostRenderer: Renderer {
          """
       }.joined()
 
+      let ogImageAbsolute: String? = page.image.map { path in
+         path.hasPrefix("http") ? path : context.config.baseURL + path
+      }
+      let jsonLD = StructuredData.blogPostBreadcrumb(
+         baseURL: context.config.baseURL,
+         homePath: context.router.homePath(),
+         sectionName: section.config.name,
+         sectionPath: listingPath,
+         postTitle: page.title,
+         postPath: pagePath
+      )
+
       let head = helper.buildHead(
          title: "\(page.title) - \(context.config.name)",
          description: page.summary ?? context.config.description,
          canonicalURL: "\(context.config.baseURL)\(pagePath)",
          ogType: "article",
+         image: ogImageAbsolute,
+         imageAlt: page.imageAlt ?? page.title,
+         articleDate: page.date,
+         articleAuthor: page.author,
+         articleCategory: page.category,
+         jsonLD: jsonLD,
          hreflang: helper.buildHreflangForAllLanguages { $0.pagePath(for: page, in: section.config) }
       )
 

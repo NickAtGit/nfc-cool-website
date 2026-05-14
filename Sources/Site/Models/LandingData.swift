@@ -4,6 +4,11 @@ struct LandingData: Decodable, Sendable {
    let hero: HeroSection
    let trust: TrustSection?
    let heroImagePath: String?
+   /// Optional 1200×630 brand image used for og:image / twitter:image on the
+   /// landing page. Same path is expected across all three locale YAMLs (one
+   /// shared image). When nil, the homepage emits no preview card.
+   let ogImage: String?
+   let ogImageAlt: String?
    let features: [Feature]?
    let featuresTitle: String?
    let featureBanner: FeatureBannerSection?

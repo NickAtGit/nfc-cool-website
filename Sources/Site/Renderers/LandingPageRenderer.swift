@@ -26,11 +26,26 @@ struct LandingPageRenderer: Renderer {
          return "\(data.hero.title) - \(context.config.name)"
       }()
 
+      let ogImageAbsolute: String? = data.ogImage.map { path in
+         path.hasPrefix("http") ? path : context.config.baseURL + path
+      }
+      let jsonLD = StructuredData.landingGraph(
+         baseURL: context.config.baseURL,
+         siteName: context.config.name,
+         description: context.config.description,
+         faq: data.faq
+      )
+
       let head = helper.buildHead(
          title: pageTitle,
          description: context.config.description,
          canonicalURL: context.config.baseURL + context.router.homePath(),
          ogType: "website",
+         image: ogImageAbsolute,
+         imageAlt: data.ogImageAlt,
+         rssFeedURL: "/feed.xml",
+         rssFeedTitle: "\(context.config.name) - \(context.uiStrings.locale == "de" ? "Blog & Changelog" : (context.uiStrings.locale == "ja" ? "ブログ・更新履歴" : "Blog & Changelog"))",
+         jsonLD: jsonLD,
          hreflang: helper.buildHreflangForAllLanguages { $0.homePath() }
       )
 

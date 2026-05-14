@@ -14,6 +14,11 @@ import SiteKit
          .removing(ContentIndexRenderer.self)
          .processor(FontPreloadProcessor())
          .processor(GoogleSiteVerificationProcessor())
+         .processor(TwitterSiteProcessor())
+         .processor(ThemeColorProcessor())
+         .processor(RobotsIndexableProcessor())
+         .processor(SmartAppBannerProcessor())
+         .processor(OGImageDimensionsProcessor())
          .run()
    }
 }

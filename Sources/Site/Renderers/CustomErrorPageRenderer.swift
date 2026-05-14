@@ -17,7 +17,8 @@ struct CustomErrorPageRenderer: Renderer {
 
       let head = helper.buildHead(
          title: "\(strings.title) - \(context.config.name)",
-         description: strings.message
+         description: strings.message,
+         noindex: true
       )
 
       let mainContent = """

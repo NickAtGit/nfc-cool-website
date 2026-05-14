@@ -47,11 +47,32 @@ struct FeaturePageRenderer: Renderer {
          let basePath = context.router.homePath() // "/" or "/{locale}/"
          let pagePath = "\(basePath)features/\(slug)/"
 
+         let ogImageAbsolute: String? = feature.hero.heroImagePath.map { path in
+            path.hasPrefix("http") ? path : context.config.baseURL + path
+         }
+         let featuresLabel: String = {
+            switch locale {
+            case "de": return "Funktionen"
+            case "ja": return "機能"
+            default:   return "Features"
+            }
+         }()
+         let jsonLD = StructuredData.featureBreadcrumb(
+            baseURL: context.config.baseURL,
+            homePath: basePath,
+            featuresLabel: featuresLabel,
+            featureTitle: feature.hero.title,
+            featureSlug: slug
+         )
+
          let head = helper.buildHead(
             title: pageTitle,
             description: feature.hero.subtitle,
             canonicalURL: context.config.baseURL + pagePath,
             ogType: "website",
+            image: ogImageAbsolute,
+            imageAlt: feature.hero.title,
+            jsonLD: jsonLD,
             hreflang: helper.buildHreflangForAllLanguages { router in
                "\(router.homePath())features/\(slug)/"
             }
