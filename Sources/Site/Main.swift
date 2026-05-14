@@ -8,10 +8,19 @@ import SiteKit
          .replacing(SectionListingRenderer.self, with: BlogIndexRenderer())
          .replacing(ArticlePageRenderer.self, with: BlogPostRenderer())
          .replacing(StaticPageRenderer.self, with: MarketingPageRenderer())
+         .replacing(SiteKit.CategoryListingRenderer.self, with: CategoryListingRenderer())
+         .replacing(SiteKit.TagListingRenderer.self, with: TagListingRenderer())
          .renderer(FeaturePageRenderer())
          .renderer(FeaturesIndexRenderer())
          .renderer(StaticRootFilesRenderer())
          .removing(ContentIndexRenderer.self)
+         // SectionPageRenderer is an additional built-in that ALSO emits one
+         // HTML file per section page — so BlogPostRenderer's output was
+         // being silently double-written (and our fallback-skip logic
+         // wasn't taking effect, since the built-in renderer doesn't skip).
+         // BlogPostRenderer is the only renderer this site needs for
+         // /blog/{slug}/ and /changelog/{slug}/.
+         .removing(SectionPageRenderer.self)
          // `.processor(...)` replaces the default processors list rather than
          // appending — so we re-add SiteKit's defaults here in their
          // documented order (ImageResizer → FontAwesomeInliner →
@@ -29,6 +38,7 @@ import SiteKit
          .processor(TwitterSiteProcessor())
          .processor(ThemeColorProcessor())
          .processor(RobotsIndexableProcessor())
+         .processor(RedirectNoindexProcessor())
          .processor(SmartAppBannerProcessor())
          .processor(OGImageDimensionsProcessor())
          .processor(AssetMinifier())

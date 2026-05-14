@@ -32,7 +32,7 @@ struct BlogIndexRenderer: Renderer {
 
       let head = helper.buildHead(
          title: "\(title) - \(context.config.name)",
-         description: section.config.description ?? context.config.description,
+         description: subtitle,
          canonicalURL: "\(context.config.baseURL)\(listingPath)",
          ogType: "website",
          rssFeedURL: rssFeedPath,
@@ -41,9 +41,30 @@ struct BlogIndexRenderer: Renderer {
       )
 
       let dateFormatter = Self.dateFormatter(for: locale)
+      let defaultLang = context.config.effectiveDefaultLanguage
 
       let cards: [String] = sortedPages.map { page in
-         let href = context.router.pagePath(for: page, in: section.config)
+         // If this card represents a fallback page (e.g. an EN-only changelog
+         // post showing in /de/changelog/), point the link at the EN canonical
+         // URL — BlogPostRenderer skips emitting the localized URL, so the
+         // /de/... path would 404 otherwise.
+         let isFallback: Bool = {
+            guard page.locale != defaultLang else { return false }
+            return !page.sourcePath.lastPathComponent.contains(".\(page.locale).")
+         }()
+         let href: String = {
+            if isFallback {
+               // Build the EN canonical path: section listing minus the locale
+               // prefix, then the page slug.
+               let sectionPath = context.router.sectionListingPath(for: section.config)
+               let prefix = "/\(page.locale)/"
+               let enSectionPath = sectionPath.hasPrefix(prefix)
+                  ? "/" + sectionPath.dropFirst(prefix.count)
+                  : sectionPath
+               return "\(enSectionPath)\(page.slug)/"
+            }
+            return context.router.pagePath(for: page, in: section.config)
+         }()
          let dateText = page.date.map { dateFormatter.string(from: $0) } ?? ""
          let summary = (page.summary ?? "").htmlEscaped
          let tags = page.tags.prefix(3).map { tag in

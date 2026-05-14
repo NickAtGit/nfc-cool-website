@@ -21,8 +21,20 @@ import SiteKit
 struct MarketingPageRenderer: Renderer {
    func render(context: BuildContext) throws -> [OutputFile] {
       let helper = OutputFileRenderer(context: context)
-      return context.staticPages.map { page in
-         self.renderMarketingPage(page, context: context, helper: helper)
+      let defaultLang = context.config.effectiveDefaultLanguage
+      return context.staticPages.compactMap { page in
+         // Skip non-default-locale pages that fall back to the default
+         // language's source file (e.g. /de/terms/ when only Terms.md exists).
+         // Without this guard SiteKit emits an EN-content page under a DE/JA
+         // URL, which SEO audits flag as duplicate content. Drop the page
+         // entirely; visitors reaching the DE/JA path will get a 404 (and
+         // the EN canonical is already the only hreflang link).
+         if page.locale != defaultLang {
+            let filename = page.sourcePath.lastPathComponent
+            let localeInfix = ".\(page.locale)."
+            if !filename.contains(localeInfix) { return nil }
+         }
+         return self.renderMarketingPage(page, context: context, helper: helper)
       }
    }
 

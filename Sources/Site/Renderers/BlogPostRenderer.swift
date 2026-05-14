@@ -10,6 +10,7 @@ struct BlogPostRenderer: Renderer {
    func render(context: BuildContext) throws -> [OutputFile] {
       var files: [OutputFile] = []
       let locale = context.uiStrings.locale
+      let defaultLang = context.config.effectiveDefaultLanguage
       let dateFormatter = Self.dateFormatter(for: locale)
 
       for section in context.sections {
@@ -17,6 +18,18 @@ struct BlogPostRenderer: Renderer {
             (a.date ?? Date.distantPast) > (b.date ?? Date.distantPast)
          }
          for page in section.pages {
+            // Skip pages that are falling back to the default language's
+            // source file. Without this guard we ship EN content under
+            // DE/JA URLs (e.g. /de/changelog/tools-openprinttag/) with
+            // duplicate `<meta description>` — SEO audits flag those as
+            // duplicate content. Visitors reaching the missing path get a
+            // 404; hreflang on the EN canonical already reflects "this
+            // post is not translated".
+            if page.locale != defaultLang {
+               let filename = page.sourcePath.lastPathComponent
+               let localeInfix = ".\(page.locale)."
+               if !filename.contains(localeInfix) { continue }
+            }
             files.append(self.renderPost(
                page,
                section: section,

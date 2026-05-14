@@ -126,6 +126,7 @@ The newsletter form posts cross-origin to a shared Cloudflare Worker; this repo 
 - [ ] **Google Search Console verification meta** - preserve `google-site-verification=8Deh-qJD2ZKg_mAjM5-dMRDWS15XcUiIc6w4h9fL9-U` on cutover.
 - [ ] **Twitter / OG hero image** - pick a 1200×630 brand image, wire into `SiteConfig.yaml`; set `twitter:site=@NFC_for_iPhone`.
 - [ ] **Install ImageMagick on CI** so `srcset` variants generate in the GitHub Pages build.
+- [ ] **Re-evaluate `redirects.yaml` around 2027-05.** The 35 Webflow→new-URL bridge pages are currently emitted with `noindex,follow` (via `RedirectNoindexProcessor`) so old inbound links keep working without polluting search. Once Google has re-indexed the new URLs and most external backlinks have updated (roughly 12 months after cutover), the bridge layer becomes pure overhead and `redirects.yaml` can be deleted along with the corresponding `HTMLRedirectPageRenderer` files.
 
 ## SiteKit references
 
