@@ -62,7 +62,7 @@ The easiest way to exercise your rights is by visiting us [here](/contact), or b
 
 ## Table of Contents
 
-<ul style="padding-inline-start: 3rem">
+<ul>
 <li>What information do we collect?</li>
 <li>How do we process your information?</li>
 <li>What legal bases do we rely on to process your personal information?</li>
@@ -89,7 +89,7 @@ We collect personal information that you voluntarily provide to us when you regi
 
 The personal information that we collect depend on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:
 
-<ul style="padding-inline-start: 3rem">
+<ul>
 <li>Names</li>
 <li>Phone Numbers</li>
 <li>Email Adresses</li>
@@ -126,7 +126,7 @@ Like many businesses, we also collect information through cookies and similar te
 
 The information we collect includes:
 
-<ul style="padding-inline-start: 3rem">
+<ul>
 <li>**Log and Usage Data:** Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, errors reports (sometimes called "crash dumps"), and hardware settings).</li>
 <li>**Device Data:** We collect device data such as information about your computes, phone, tablet or other device you use to access the Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, Internet service provider and/or mobile carrier, operating system and system configuration information.</li>
 <li>**Location Data:** We collect location data such as information about device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling you Location settings on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.</li>
@@ -138,7 +138,7 @@ We process your information to provide, improve and administer our Services, com
 
 We process your personal information for a variety of reasons, depending on how you interact with our Services, including:
 
-<ul style="padding-inline-start: 3rem">
+<ul>
 <li>To facilitate account creation and authentication and otherwise manage user accounts. We may process your information so you can create and log in to your account, as well as keep your account in working order.</li>
 <li>To fulfil and manage orders. We may process your information to fulfil and mage your orders, payments, returns, and exchanges made through the Services.</li>
 <li>To Save or protect and individual's vital interest. We may process your information when necessary to save or protect and individual's vital interest, such as to prevent harm.</li>
@@ -150,7 +150,7 @@ We only process your personal information when we believe it is necessary and we
 
 The General Data Protection Regulation (GDPR) require us to explain the valid legal bases we reply on in order to process your personal information. As such, we may rely on the following legal bases to process your personal information:
 
-<ul style="padding-inline-start: 3rem">
+<ul>
 <li>**Consent:** We may process your information if you have given us permission (i.e., consent) to use your personal information for a specific purpose. You can withdraw you consent at any time.</li>
 <li>**Performance of a Contract:**We may process your personal information when we believe it is necessary to fulfill our contractual obligations to you, including providing our Services or at your request prior to entering into a contract with you.</li>
 <li>**Legal Obligations:**We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved.</li>
@@ -167,7 +167,7 @@ By using our app, you consent to the data processing practices outlined by AdMob
 
 We may need to share your personal information in the following situations:
 
-<ul style="padding-inline-start: 3rem">
+<ul>
 <li>**Business Transfers:**We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
 <li>**When we use Google Analytics:** We may share your information with Google Analytics to track and analyze the use of the Services. To opt out o f being tracked by Google Analytics across the Services visit: [https://tools.google.com/dlpage/gaoptout](https://tools.google.com/dlpage/gaoptout).</li>
 <li>**When we use Google Maps Platform APIs:**We may share your information with certain Google Maps Platform APIs (e.g., Google Maps API, Places API).</li>
@@ -200,7 +200,7 @@ At NFC.cool, we may utilize the Facebook Tracking Pixel to enhance our website's
 
 The Facebook Tracking Pixel may collect the following information:
 
-<ul style="padding-inline-start: 3rem">
+<ul>
 <li>**User Interactions:** We may track your interactions on our website, such as page views, clicks, and other engagement metrics.</li>
 <li>**Conversion Tracking:** The pixel helps us measure the success of our Facebook advertising campaigns by tracking whether users take specific actions (e.g., making a purchase) after clicking on our ads.</li>
 </ul>
@@ -209,7 +209,7 @@ The Facebook Tracking Pixel may collect the following information:
 
 The data collected through the Facebook Tracking Pixel is used for the following purposes:
 
-<ul style="padding-inline-start: 3rem">
+<ul>
 <li>**Marketing Optimization:** To assess and enhance the effectiveness of our Facebook advertising campaigns.</li>
 <li>**Personalized Advertising:** To deliver more relevant and personalized advertisements to users based on their interactions with our website.</li>
 </ul>
@@ -218,7 +218,7 @@ The data collected through the Facebook Tracking Pixel is used for the following
 
 We respect your privacy, and you have the option to control the use of the Facebook Tracking Pixel:
 
-<ul style="padding-inline-start: 3rem">
+<ul>
 <li>**Opt-Out:** If you prefer not to participate in the data collection facilitated by the Facebook Tracking Pixel, you can adjust your browser settings to disable cookies. Additionally, you can opt-out of personalized ads on Facebook through the[Facebook Ad Preferences](https://www.facebook.com/help/247395082112892).</li>
 </ul>
 

@@ -46,7 +46,7 @@ You will be subject to, and will be deemed to have been made aware of and to hav
 
 ## Table of Contents
 
-<ul style="padding-inline-start: 3rem">
+<ul>
 <li>Our Services</li>
 <li>Intellectual Property Rights</li>
 <li>User Representations</li>
@@ -108,7 +108,7 @@ Submissions: By directly sending us any question, comment, suggestion, idea, fee
 
 You are responsible for what you post or upload: By sending us Submissions through any part of the Services you:
 
-<ol style="padding-inline-start: 3rem">
+<ol>
 <li>Confirm that you have read and agree with our "PROHIBITED ACTIVITIES" and will not post, send, publish, upload, or transmit through the Services any Submission that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading;</li>
 <li>To the extent permissible by applicable law, waive any and all moral rights to any such Submission;</li>
 <li>Warrant that any such Submission are original to you or that you have the necessary rights and licenses to submit such Submissions and that you have full authority to grant us the above-mentioned rights in relation to your Submissions;</li>
@@ -121,7 +121,7 @@ You are solely responsible for your Submissions and you expressly agree to reimb
 
 By using the Services, you represent and warrant that:
 
-<ol style="padding-inline-start: 3rem">
+<ol>
 <li>You have the legal capacity and you agree to comply with these Legal Terms;</li>
 <li>You are not a minor in the jurisdiction in which you reside;</li>
 <li>You will not access the Services through automated or non-human means, whether through a bot, script or otherwise; (4) you will not use the Services for any illegal or unauthorized purpose;</li>
@@ -136,7 +136,7 @@ You may not access or use the Services for any purpose other than that for which
 
 As a user of the Services, you agree not to:
 
-<ol style="padding-inline-start: 3rem">
+<ol>
 <li>Systematically retrieve data or other content from the Services to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.</li>
 <li>Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.</li>
 <li>Circumvent, disable, or otherwise interfere with security-related features of the Services, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Services and/or the Content contained therein.</li>
@@ -181,7 +181,7 @@ You agree that we may download and install updates to the Services on your devic
 
 We reserve the right, but not the obligation, to:
 
-<ol style="padding-inline-start: 3rem">
+<ol>
 <li>Monitor the Services for violations of these Legal Terms;</li>
 <li>Take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities;</li>
 <li>In our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof;</li>
@@ -243,7 +243,7 @@ IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR A
 
 You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneys' fees and expenses, made by any third party due to or arising out of:
 
-<ol style="padding-inline-start: 3rem">
+<ol>
 <li>Your Contributions;</li>
 <li>Use of the Services;</li>
 <li>Breach of these Legal Terms;</li>
