@@ -195,8 +195,8 @@ document.addEventListener('DOMContentLoaded', function() {
    // Worker that's already in production for the NFC.cool iOS apps. The Worker
    // has its Mailjet credentials + target list ID baked in and accepts a
    // simple `{ email }` body; CORS is wide-open so any origin works.
-   document.querySelectorAll('.landing-newsletter-form').forEach(function(form) {
-      const status = form.querySelector('.landing-newsletter-status');
+   document.querySelectorAll('.newsletter-form').forEach(function(form) {
+      const status = form.querySelector('.newsletter-status');
       const button = form.querySelector('button[type="submit"]');
       const input = form.querySelector('input[type="email"]');
       const endpoint = form.dataset.endpoint || 'https://mailjet.02mining-hollers.workers.dev/';

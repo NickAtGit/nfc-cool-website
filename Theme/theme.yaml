@@ -7,7 +7,9 @@ selfHostedFonts: true
 css:
    - "css/theme.css"
    - "css/landing.css"
+   - "css/newsletter.css"
    - "css/marketing.css"
+   - "css/social.css"
    - "css/blog.css"
    - "css/features.css"
 js:

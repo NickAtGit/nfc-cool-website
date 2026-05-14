@@ -61,7 +61,7 @@ struct LandingPageRenderer: Renderer {
          sections.append(self.renderFAQ(items, title: data.faqTitle))
       }
       if let newsletter = data.newsletter {
-         sections.append(self.renderNewsletter(newsletter))
+         sections.append(NewsletterForm.render(newsletter))
       }
       if data.slogan != nil {
          sections.append(self.renderSlogan())
@@ -412,39 +412,6 @@ struct LandingPageRenderer: Renderer {
          <div class="landing-container">
             \(heading)
             \(faqItems)
-         </div>
-      </section>
-      """
-   }
-
-   private func renderNewsletter(_ newsletter: NewsletterSection) -> String {
-      let subtitle = newsletter.subtitle.map { "<p class=\"landing-newsletter-subtitle\">\($0.htmlEscaped)</p>" } ?? ""
-      let consent = newsletter.consent.map { "<p class=\"landing-newsletter-consent\">\($0.htmlEscaped)</p>" } ?? ""
-      let endpoint = newsletter.endpoint ?? ""
-      let listID = newsletter.listID ?? ""
-      let envelopeIcon = #"<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>"#
-      return """
-      <section id="newsletter" class="landing-newsletter">
-         <div class="landing-container">
-            <div class="landing-newsletter-card">
-               <div class="landing-newsletter-icon" aria-hidden="true">\(envelopeIcon)</div>
-               <h2 class="landing-section-title">\(newsletter.title.htmlEscaped)</h2>
-               \(subtitle)
-               <form class="landing-newsletter-form"
-                     data-endpoint="\(endpoint)"
-                     data-list-id="\(listID)"
-                     data-success="\(newsletter.successText.htmlEscaped)"
-                     data-error="\(newsletter.errorText.htmlEscaped)"
-                     novalidate>
-                  <label for="newsletter-email" class="sr-only">\(newsletter.placeholder.htmlEscaped)</label>
-                  <input id="newsletter-email" type="email" name="email" required
-                         placeholder="\(newsletter.placeholder.htmlEscaped)"
-                         autocomplete="email" inputmode="email"/>
-                  <button type="submit" class="landing-cta-button landing-cta-button--pill">\(newsletter.buttonText.htmlEscaped)</button>
-                  <p class="landing-newsletter-status" role="status" aria-live="polite"></p>
-               </form>
-               \(consent)
-            </div>
          </div>
       </section>
       """
