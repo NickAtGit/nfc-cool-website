@@ -4,11 +4,11 @@ import Logging
 
 /// Copies arbitrary static files from `Content/StaticFiles/` into the site
 /// root, preserving directory structure. Use for files that must live at
-/// fixed root-level paths (AASA, app-ads.txt, assetlinks.json, …) — i.e.
+/// fixed root-level paths (AASA, app-ads.txt, assetlinks.json, …) - i.e.
 /// where the URL is dictated by an external spec, not by routing.
 ///
 /// Mirrors FaviconRenderer (SiteKit) but recursive, so `.well-known/foo`
-/// survives. Hidden files (dotfiles) ARE copied — that's intentional, since
+/// survives. Hidden files (dotfiles) ARE copied - that's intentional, since
 /// `.well-known/` is the canonical location for several of these specs.
 struct StaticRootFilesRenderer: Renderer {
    private let logger = Logger(label: "Site.StaticRootFilesRenderer")

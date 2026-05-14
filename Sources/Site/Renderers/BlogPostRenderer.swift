@@ -90,7 +90,7 @@ struct BlogPostRenderer: Renderer {
       }.joined()
 
       let head = helper.buildHead(
-         title: "\(page.title) — \(context.config.name)",
+         title: "\(page.title) - \(context.config.name)",
          description: page.summary ?? context.config.description,
          canonicalURL: "\(context.config.baseURL)\(pagePath)",
          ogType: "article",

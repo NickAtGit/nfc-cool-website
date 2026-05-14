@@ -12,7 +12,7 @@
    ============================================================ */
 
 /* ============================================================
-   Static content pages — marketing-page hero with brand-blue gradient.
+   Static content pages - marketing-page hero with brand-blue gradient.
    Legal pages (Privacy / Terms / Impressum) author their content without a
    .page-hero section, so they naturally stay text-first.
    ============================================================ */
@@ -72,9 +72,9 @@
 }
 /* .landing-cta-button is now defined globally in landing.css and the base
    yellow-accent style works on the brand-blue page-hero gradient out of the
-   box — no override needed here. */
+   box - no override needed here. */
 
-/* Split hero — same look as the landing hero (.landing-hero-*).
+/* Split hero - same look as the landing hero (.landing-hero-*).
    Activated by wrapping markdown content in `<div class="page-hero-grid">`
    with `<div class="page-hero-text">` + `<div class="page-hero-visual">`. */
 .page-hero-grid {
@@ -155,7 +155,7 @@
    margin: 0 auto;
 }
 
-/* Framed-iPhone hero variant — mirror .landing-hero-visual img on the
+/* Framed-iPhone hero variant - mirror .landing-hero-visual img on the
    <img>, but cap the height so the portrait phone PNG (506×1024 ≈ 0.49
    aspect) doesn't render twice as tall as the landing's square image
    at the same column width. Container is plain layout, no wrapper
@@ -208,7 +208,7 @@
       max-height: 200px;
    }
 }
-/* Static-page sections — full-bleed, alternating bg, 1152px content
+/* Static-page sections - full-bleed, alternating bg, 1152px content
    area (--max-width minus 2× --container-padding). Matches landing's
    section rhythm. */
 .page-section {
@@ -233,7 +233,7 @@
    padding-right: var(--container-padding);
 }
 
-/* Section title — text-align left, but the h2's box keeps the same
+/* Section title - text-align left, but the h2's box keeps the same
    max-width + auto-margins (inherited from .page-section > *), so the
    left edge of the text aligns with the left edge of the .page-cards-grid
    below it instead of hugging the section's outer padding. */
@@ -279,7 +279,7 @@
 .page-hero + .page-section { padding-top: clamp(3rem, 5vw, 4rem); }
 
 /* ============================================================
-   Card grids on static pages — used inside .page-section to render
+   Card grids on static pages - used inside .page-section to render
    markdown lists as branded cards (mirrors .landing-feature-card
    aesthetic). Wrap markdown content in:
      <div class="page-cards-grid">
@@ -319,7 +319,7 @@
    color: var(--color-text-secondary);
    max-width: none;
 }
-/* Stack subsequent paragraphs inside a card with breathing room — the
+/* Stack subsequent paragraphs inside a card with breathing room - the
    common case is `<p>description</p><p><a class="landing-cta-button">CTA</a></p>`,
    where the button paragraph needs visual separation from the text above. */
 .page-card p + p {
@@ -340,7 +340,7 @@
 .page-card ul {
    /* Native browser marker sits at the start of each li so the bullet
       lines up with the h3 title's left edge. (list-style-position: inside
-      means wrapped lines wrap under the marker — fine for these short
+      means wrapped lines wrap under the marker - fine for these short
       feature-list items.) */
    padding-left: 0;
    margin: 0;
@@ -360,7 +360,7 @@
    font-weight: 600;
 }
 
-/* Brand-aware list markers across every list inside a marketing page —
+/* Brand-aware list markers across every list inside a marketing page -
    bullets on /developers/, /privacy/, /reviews/; numbers on /terms/;
    card bullets on /business-card/. var(--color-link) flips to brand blue
    in light mode and brand yellow in dark mode (theme.css :root and
@@ -370,7 +370,7 @@
    color: var(--color-link);
 }
 
-/* Screenshot gallery on static marketing pages — 2-4 device shots in a row,
+/* Screenshot gallery on static marketing pages - 2-4 device shots in a row,
    tilted slightly for visual interest. Used inside .page-section. */
 .page-section--gallery { padding-top: 0; padding-bottom: clamp(2rem, 5vw, 3.5rem); }
 .page-gallery {

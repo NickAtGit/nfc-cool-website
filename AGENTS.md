@@ -18,8 +18,8 @@ The site deploys to **GitHub Pages** via `.github/workflows/deploy.yml` (Swift 6
 
 GH Pages is a pure static host, which has two known consequences:
 
-- **Newsletter form** posts directly to a shared Cloudflare Worker at `https://mailjet.02mining-hollers.workers.dev/` (the same Worker the iOS apps use — its source lives in the `nfcreader` Swift project's `EmailService` module). The Worker has Mailjet credentials + list ID baked in; the website's form just sends `{ email }` and CORS is wide-open. There is no Pages Function in this repo.
-- **Webflow → new-URL redirects** in `redirects.yaml` (35 entries) are emitted to `_Site/_redirects` for hosts that honour it, but GH Pages does not — visitors land on HTML meta-refresh fallback pages emitted by SiteKit's `HTMLRedirectPageRenderer` instead. Slightly slower than a real 301, slightly worse for SEO, but functional.
+- **Newsletter form** posts directly to a shared Cloudflare Worker at `https://mailjet.02mining-hollers.workers.dev/` (the same Worker the iOS apps use - its source lives in the `nfcreader` Swift project's `EmailService` module). The Worker has Mailjet credentials + list ID baked in; the website's form just sends `{ email }` and CORS is wide-open. There is no Pages Function in this repo.
+- **Webflow → new-URL redirects** in `redirects.yaml` (35 entries) are emitted to `_Site/_redirects` for hosts that honour it, but GH Pages does not - visitors land on HTML meta-refresh fallback pages emitted by SiteKit's `HTMLRedirectPageRenderer` instead. Slightly slower than a real 301, slightly worse for SEO, but functional.
 
 If we ever move to Cloudflare Pages, the form already works as-is (Worker is host-agnostic) and `_redirects` / `_headers` will start being honoured for free.
 
@@ -120,11 +120,11 @@ The newsletter form posts cross-origin to a shared Cloudflare Worker; this repo 
 - [ ] **Drop real iCloud Drive URLs for press kit + brand kit** in `Content/Pages/Press.md` + `Press.de.md` (placeholders today).
 - [ ] **Replace the `iPad` screenshots in Tools-iOS with proper `iPhone` screenshots** (iTunes Lookup currently returns iPad-only - likely an App Store Connect config). Drop them into `Content/Assets/images/Tools-iOS/Screenshot-N.png`.
 - [ ] **Provide a flat 1024px PNG export of the current Business Card "glass" icon** - the Xcode 16 layered icon at `~/Developer/DigitalBusinessCardApp/AppIcon.icon/` can't be flattened by shell tools. The current `AppIcon-512.jpg` is the App Store thumbnail.
-- [ ] **Apple App Site Association** at `/.well-known/apple-app-site-association` (Universal Links + Business Card AppClip — content lifted from the live Webflow site, see TODO.md).
+- [ ] **Apple App Site Association** at `/.well-known/apple-app-site-association` (Universal Links + Business Card AppClip - content lifted from the live Webflow site, see TODO.md).
 - [ ] **`app-ads.txt`** at site root (AdMob entry from the live site, see TODO.md).
 - [ ] **Android `assetlinks.json`** at `/.well-known/assetlinks.json` if the Android Tools app uses App Links.
-- [ ] **Google Search Console verification meta** — preserve `google-site-verification=8Deh-qJD2ZKg_mAjM5-dMRDWS15XcUiIc6w4h9fL9-U` on cutover.
-- [ ] **Twitter / OG hero image** — pick a 1200×630 brand image, wire into `SiteConfig.yaml`; set `twitter:site=@NFC_for_iPhone`.
+- [ ] **Google Search Console verification meta** - preserve `google-site-verification=8Deh-qJD2ZKg_mAjM5-dMRDWS15XcUiIc6w4h9fL9-U` on cutover.
+- [ ] **Twitter / OG hero image** - pick a 1200×630 brand image, wire into `SiteConfig.yaml`; set `twitter:site=@NFC_for_iPhone`.
 - [ ] **Install ImageMagick on CI** so `srcset` variants generate in the GitHub Pages build.
 
 ## SiteKit references

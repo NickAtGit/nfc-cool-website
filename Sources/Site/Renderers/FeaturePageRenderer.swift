@@ -7,7 +7,7 @@ import Yams
 ///
 /// One output is produced per (slug × locale) when a YAML for that combination
 /// exists. Missing locale-specific YAMLs simply skip that page for that locale
-/// (no fallback to default-language content — keeps locale boundaries honest).
+/// (no fallback to default-language content - keeps locale boundaries honest).
 struct FeaturePageRenderer: Renderer {
    /// Feature slugs to render. Each must have at least one YAML at
    /// `Content/Data/Features/{slug}.yaml` for the default locale.
@@ -43,7 +43,7 @@ struct FeaturePageRenderer: Renderer {
          let yamlData = try Data(contentsOf: yamlPath)
          let feature = try YAMLDecoder().decode(FeatureData.self, from: yamlData)
 
-         let pageTitle = "\(feature.hero.title) — \(context.config.name)"
+         let pageTitle = "\(feature.hero.title) - \(context.config.name)"
          let basePath = context.router.homePath() // "/" or "/{locale}/"
          let pagePath = "\(basePath)features/\(slug)/"
 
@@ -199,7 +199,7 @@ struct FeaturePageRenderer: Renderer {
 
    private func renderDocsBody(_ body: String) -> String {
       // The YAML field is plain markdown. SiteKit's MarkdownRenderer would be ideal,
-      // but we already have it inline here — keep it simple: render basic paragraphs.
+      // but we already have it inline here - keep it simple: render basic paragraphs.
       // Authors can use raw HTML in the YAML field if they need rich structure.
       return """
       <section class="feature-docs">
@@ -216,8 +216,8 @@ struct FeaturePageRenderer: Renderer {
       let androidHead = (comparison.androidHeader ?? "Android").htmlEscaped
       let rows = comparison.rows.map { row in
          let feat = row.feature.htmlEscaped
-         let ios = (row.ios ?? "—").htmlEscaped
-         let android = (row.android ?? "—").htmlEscaped
+         let ios = (row.ios ?? "-").htmlEscaped
+         let android = (row.android ?? "-").htmlEscaped
          return """
          <tr>
             <th scope="row">\(feat)</th>
@@ -244,7 +244,7 @@ struct FeaturePageRenderer: Renderer {
    }
 
    /// Wrap simple status cell content in a small badge for richer rendering.
-   /// Recognized tokens (case-insensitive): ✓, ✗, —, "yes", "no", "coming soon".
+   /// Recognized tokens (case-insensitive): ✓, ✗, -, "yes", "no", "coming soon".
    private func markComparisonCell(_ raw: String) -> String {
       let trimmed = raw.trimmingCharacters(in: .whitespaces)
       let lower = trimmed.lowercased()
@@ -254,8 +254,8 @@ struct FeaturePageRenderer: Renderer {
       if trimmed == "✗" || lower == "no" {
          return "<span class=\"feature-comparison-pill is-no\" aria-label=\"no\">✗</span>"
       }
-      if trimmed == "—" || trimmed == "-" {
-         return "<span class=\"feature-comparison-pill is-na\" aria-label=\"not applicable\">—</span>"
+      if trimmed == "-" {
+         return "<span class=\"feature-comparison-pill is-na\" aria-label=\"not applicable\">-</span>"
       }
       if lower.contains("coming") {
          return "<span class=\"feature-comparison-pill is-soon\">\(trimmed)</span>"

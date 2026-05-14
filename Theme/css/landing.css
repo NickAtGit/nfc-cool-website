@@ -3,7 +3,7 @@
    Landing-page sections (LandingPageRenderer). Plus a small set
    of cross-cutting utilities (.landing-container, .landing-section-title,
    .landing-cta-button, .landing-store-button*, .platform-pill) that
-   are shared with marketing and feature pages — kept here because
+   are shared with marketing and feature pages - kept here because
    they are referenced from markdown content and renaming would
    cascade through every locale.
    ============================================================ */
@@ -18,7 +18,7 @@
 }
 
 /* ============================================================
-   HERO — Full-bleed brand-blue gradient
+   HERO - Full-bleed brand-blue gradient
    ============================================================ */
 .landing-hero {
    position: relative;
@@ -103,7 +103,7 @@
    opacity: 0.55;
 }
 
-/* Hero visual — phone screenshot in soft float */
+/* Hero visual - phone screenshot in soft float */
 .landing-hero-visual {
    position: relative;
    align-self: center;
@@ -119,7 +119,7 @@
 }
 
 /* ============================================================
-   STORE BUTTONS — official App Store badge + matching Google Play text button
+   STORE BUTTONS - official App Store badge + matching Google Play text button
    ============================================================ */
 .landing-store-buttons {
    display: flex;
@@ -142,10 +142,10 @@
    width: auto;
    display: block;
 }
-/* Hero variant: badges keep dark style on the blue gradient — they have authority */
+/* Hero variant: badges keep dark style on the blue gradient - they have authority */
 
 /* ============================================================
-   FEATURE GRID — numbered, clean white cards on bone bg
+   FEATURE GRID - numbered, clean white cards on bone bg
    ============================================================ */
 .landing-feature-grid {
    background: var(--color-bg);
@@ -185,7 +185,7 @@
    transform: translateY(-2px);
    box-shadow: 0 8px 24px var(--color-shadow-lg);
 }
-/* Numbered prefix in Caveat (brand script) — large, yellow */
+/* Numbered prefix in Caveat (brand script) - large, yellow */
 .landing-feature-num {
    position: absolute;
    top: 0.75rem;
@@ -251,7 +251,7 @@
 .platform-pill-label {
    display: inline-block;
 }
-/* iOS pill — iOS blue background + text, with a monochrome Apple mark
+/* iOS pill - iOS blue background + text, with a monochrome Apple mark
    (black in light mode, white in dark mode, per Apple brand guidelines) */
 .platform-pill.is-ios {
    background: rgba(0, 122, 255, 0.10);
@@ -271,7 +271,7 @@
 }
 [data-theme="dark"] .platform-pill.is-ios .platform-pill-icon { color: #FFFFFF; }
 
-/* Android pill — Android green */
+/* Android pill - Android green */
 .platform-pill.is-android {
    background: rgba(61, 220, 132, 0.14);
    color: #1C7A47;
@@ -286,7 +286,7 @@
 }
 [data-theme="dark"] .platform-pill.is-android .platform-pill-icon { color: #5BE39A; }
 
-/* Legacy iOS-only modifier styling — keep for safety though renderer no longer emits it */
+/* Legacy iOS-only modifier styling - keep for safety though renderer no longer emits it */
 .landing-feature-platforms.landing-platform-ios {
    background: transparent;
    color: inherit;
@@ -302,7 +302,7 @@
 }
 
 /* ============================================================
-   BUSINESS CARD BANNER — yellow background, brand-black text
+   BUSINESS CARD BANNER - yellow background, brand-black text
    ============================================================ */
 .landing-feature-banner {
    position: relative;
@@ -369,7 +369,7 @@
    margin: 0 0 1.5rem;
    max-width: 30em;
 }
-/* Primary CTA button — outlined, context-aware via four local custom
+/* Primary CTA button - outlined, context-aware via four local custom
    properties (--cta-border / --cta-text / --cta-fill-hover /
    --cta-border-hover). Contexts rebind them; rule body never repeats.
    Base radius uses --radius-lg to align with cards / FAQ items. The
@@ -423,14 +423,14 @@
    padding: 0.85rem 1.875rem;
    font-size: 1rem;
 }
-/* --pill modifier — used by the newsletter submit button, which sits
+/* --pill modifier - used by the newsletter submit button, which sits
    inside a pill-shaped input wrapper, so it needs to stay rounded. All
    other CTAs use the rectangular --radius-lg from the base rule. */
 .landing-cta-button.landing-cta-button--pill {
    border-radius: var(--radius-pill);
 }
 
-/* Dark-mode page section — lighter blue (brand-blue-2, #00A2F3) so the
+/* Dark-mode page section - lighter blue (brand-blue-2, #00A2F3) so the
    outlined pill stays high-contrast on the dark card backgrounds while
    keeping the colour palette purely in the brand-blue family. */
 [data-theme="dark"] .landing-cta-button {
@@ -441,7 +441,7 @@
 }
 
 /* Brand-blue gradient backgrounds (heroes, feature banner, final CTA,
-   converted feature-cta) — translucent-white outline + white text. Same in
+   converted feature-cta) - translucent-white outline + white text. Same in
    both modes (the gradient is brand, not theme). Placed after the dark-mode
    block so this wins for dark + hero. */
 .landing-hero .landing-cta-button,
@@ -455,7 +455,7 @@
 }
 
 /* ============================================================
-   SLOGAN — "The Cool Way To Connect" SVG accent
+   SLOGAN - "The Cool Way To Connect" SVG accent
    ============================================================ */
 .landing-slogan {
    text-align: center;
@@ -473,7 +473,7 @@
 }
 
 /* ============================================================
-   FAQ — Rules-only accordion
+   FAQ - Rules-only accordion
    ============================================================ */
 .landing-faq {
    background: var(--color-bg);
@@ -538,7 +538,7 @@
 }
 
 /* ============================================================
-   FINAL CTA — bookend with brand-blue gradient
+   FINAL CTA - bookend with brand-blue gradient
    ============================================================ */
 .landing-final-cta {
    position: relative;
@@ -663,7 +663,7 @@
 }
 
 /* ============================================================
-   Testimonials (generic — not currently used; AppStoreReviews above)
+   Testimonials (generic - not currently used; AppStoreReviews above)
    ============================================================ */
 .landing-testimonials {
    padding: clamp(3.5rem, 7vw, 6rem) 0;

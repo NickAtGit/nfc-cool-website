@@ -5,7 +5,7 @@ import SiteKit
 /// `<head>`. Preserves the existing Search Console property on DNS cutover
 /// from the legacy Webflow site (token is already attached server-side).
 ///
-/// The token is intentionally a hardcoded constant — it's a public string
+/// The token is intentionally a hardcoded constant - it's a public string
 /// meant to live in HTML, and there's no SiteConfig.yaml hook for custom
 /// meta tags in current SiteKit.
 struct GoogleSiteVerificationProcessor: OutputProcessor {

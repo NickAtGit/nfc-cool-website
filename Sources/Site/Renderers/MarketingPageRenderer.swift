@@ -15,7 +15,7 @@ import SiteKit
 /// that competes with our brand-yellow border-bottom treatment.
 ///
 /// Every static page on this site now authors its own `.page-hero` in
-/// markdown, so we always drop the SiteKit wrapper — the markdown's hero is
+/// markdown, so we always drop the SiteKit wrapper - the markdown's hero is
 /// the first thing inside `<main>`, no duplicate title, no inherited link
 /// rules.
 struct MarketingPageRenderer: Renderer {

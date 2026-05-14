@@ -2,7 +2,7 @@ import Foundation
 import SiteKit
 import Yams
 
-/// Renders the `/features/` index — a hub page that lists every feature
+/// Renders the `/features/` index - a hub page that lists every feature
 /// detail page available for the current locale.
 struct FeaturesIndexRenderer: Renderer {
    func render(context: BuildContext) throws -> [OutputFile] {
@@ -23,31 +23,31 @@ struct FeaturesIndexRenderer: Renderer {
       }
       guard hasAnyFeature else { return [] }
 
-      // Localized hub headings — keep a tiny in-code dictionary.
+      // Localized hub headings - keep a tiny in-code dictionary.
       let (title, subtitle, exploreLabel): (String, String, String) = {
          switch locale {
          case "de":
             return (
                "NFC.cool Funktionen",
-               "NFC-Tags lesen, schreiben und dekodieren. QR-Codes und Barcodes scannen. Dokumente, 3D-Objekte und Räume erfassen. Jeden Scan an deinen eigenen Webhook senden — eine App, jeder Scanner, der dein Smartphone sein kann.",
+               "NFC-Tags lesen, schreiben und dekodieren. QR-Codes und Barcodes scannen. Dokumente, 3D-Objekte und Räume erfassen. Jeden Scan an deinen eigenen Webhook senden - eine App, jeder Scanner, der dein Smartphone sein kann.",
                "Im Detail ansehen →"
             )
          case "ja":
             return (
                "NFC.cool の機能",
-               "NFCタグの読み取り・書き込み・デコード。QRコードとバーコードのスキャン。書類、3Dオブジェクト、ルームの取り込み。すべてのスキャンをあなたのWebhookへ — スマホを、考えられるすべてのスキャナーに。",
+               "NFCタグの読み取り・書き込み・デコード。QRコードとバーコードのスキャン。書類、3Dオブジェクト、ルームの取り込み。すべてのスキャンをあなたのWebhookへ - スマホを、考えられるすべてのスキャナーに。",
                "詳しく見る →"
             )
          default:
             return (
                "NFC.cool Features",
-               "Read, write, and decode NFC tags. Scan QR codes and 25+ barcode formats. Capture documents, 3D objects, and rooms. Forward every scan to your own webhook — one app, every scanner your phone can be.",
+               "Read, write, and decode NFC tags. Scan QR codes and 25+ barcode formats. Capture documents, 3D objects, and rooms. Forward every scan to your own webhook - one app, every scanner your phone can be.",
                "Explore →"
             )
          }
       }()
 
-      _ = exploreLabel // not used — cards now mirror landing-feature-card style verbatim.
+      _ = exploreLabel // not used - cards now mirror landing-feature-card style verbatim.
 
       // Per-locale Tools campaign URLs so the hero badges match every other
       // page on the site.
@@ -92,7 +92,7 @@ struct FeaturesIndexRenderer: Renderer {
       let pagePath = "\(basePath)features/"
 
       let head = helper.buildHead(
-         title: "\(title) — \(context.config.name)",
+         title: "\(title) - \(context.config.name)",
          description: subtitle,
          canonicalURL: context.config.baseURL + pagePath,
          ogType: "website",

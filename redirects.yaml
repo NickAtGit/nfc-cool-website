@@ -61,7 +61,7 @@ redirects:
   # ----- blog.nfc.cool legacy subdomain → unified /blog/ -----
   # Note: these only fire if the visitor lands on the MAIN domain with these paths.
   # The blog.nfc.cool subdomain itself needs a DNS-level redirect for direct visitors.
-  # Most blog.nfc.cool slugs are now canonical here — no redirect needed for those.
+  # Most blog.nfc.cool slugs are now canonical here - no redirect needed for those.
   # Exception: nfc-safe was renamed to drop the verb cluster.
   - from: "/blog/nfc-safe-encrypt-secrets-on-nfc-tags"
     to: "/blog/nfc-safe-encrypted-secrets/"

@@ -31,12 +31,12 @@ struct BlogIndexRenderer: Renderer {
       let subtitle = Self.localizedSubtitle(forSlug: section.config.slug, locale: locale)
 
       let head = helper.buildHead(
-         title: "\(title) — \(context.config.name)",
+         title: "\(title) - \(context.config.name)",
          description: section.config.description ?? context.config.description,
          canonicalURL: "\(context.config.baseURL)\(listingPath)",
          ogType: "website",
          rssFeedURL: rssFeedPath,
-         rssFeedTitle: "\(title) — \(context.config.name)",
+         rssFeedTitle: "\(title) - \(context.config.name)",
          hreflang: helper.buildHreflangForAllLanguages { $0.sectionListingPath(for: section.config) }
       )
 
@@ -54,7 +54,7 @@ struct BlogIndexRenderer: Renderer {
                let alt = (page.imageAlt ?? page.title).htmlEscaped
                return "<div class=\"blog-card-image\"><img src=\"\(img)\" alt=\"\(alt)\" loading=\"lazy\"/></div>"
             }
-            // No hero image — show a brand-gradient placeholder with the wordmark
+            // No hero image - show a brand-gradient placeholder with the wordmark
             // so the card grid stays visually balanced.
             return """
             <div class="blog-card-image is-placeholder" aria-hidden="true">

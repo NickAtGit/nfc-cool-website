@@ -20,7 +20,7 @@ favicons:
 # Synchronous theme-detect script: resolves and applies the saved
 # data-theme before first paint, persisting auto-detected values on the
 # first visit so subsequent navigations are deterministic. (Font
-# preload hints are emitted server-side by FontPreloadProcessor — they
+# preload hints are emitted server-side by FontPreloadProcessor - they
 # need to appear in raw HTML for the preload scanner to find them, which
 # a JS-injected approach can't guarantee.)
 headInlineScript: |

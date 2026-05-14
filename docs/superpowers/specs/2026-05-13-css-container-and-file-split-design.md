@@ -1,16 +1,16 @@
 # CSS container model unification and `landing.css` split
 
 **Date:** 2026-05-13
-**Status:** design — awaiting implementation plan
+**Status:** design - awaiting implementation plan
 **Scope:** `Theme/css/`, `Theme/theme.yaml`, `Sources/Site/Renderers/BlogIndexRenderer.swift`, `Sources/Site/Renderers/BlogPostRenderer.swift`
 
 ## Problem
 
 Two related issues in the site's CSS:
 
-1. **Marketing pages render with a content area 48 px wider than the landing page** at desktop widths. The landing page wraps content in `.landing-container { max-width: 1200px; padding: 0 1.5rem }` so the effective content area is **1152 px**. Marketing pages (business-card, about, contact, press, developers, integrations, reviews — all rendered by `MarketingPageRenderer`) wrap content via `.page-hero > *` and `.page-section > *` with `max-width: var(--max-width)` but the 1.5 rem gutter lives on the *outer* section, not inside the max-width box — so the inner content reaches **1200 px**. Verified by direct measurement at 1440 px viewport before the fix.
+1. **Marketing pages render with a content area 48 px wider than the landing page** at desktop widths. The landing page wraps content in `.landing-container { max-width: 1200px; padding: 0 1.5rem }` so the effective content area is **1152 px**. Marketing pages (business-card, about, contact, press, developers, integrations, reviews - all rendered by `MarketingPageRenderer`) wrap content via `.page-hero > *` and `.page-section > *` with `max-width: var(--max-width)` but the 1.5 rem gutter lives on the *outer* section, not inside the max-width box - so the inner content reaches **1200 px**. Verified by direct measurement at 1440 px viewport before the fix.
 
-2. **`Theme/css/landing.css` (2,034 lines) styles every page type, not just the landing page.** The filename misleads: it contains rules for `.page-hero/.page-section` (marketing pages), `.blog-index-*/.blog-post-*` (blog hub and posts), `.feature-*/.features-index-*` (features), plus dead-code overlap with `theme.css` (duplicate `::before/::after` gradient overlays on three different hero selectors). A comment at line 993 admits this: *"Static-page sections — full-bleed, alternating bg, 1200 px container, 760 px text reading column."*
+2. **`Theme/css/landing.css` (2,034 lines) styles every page type, not just the landing page.** The filename misleads: it contains rules for `.page-hero/.page-section` (marketing pages), `.blog-index-*/.blog-post-*` (blog hub and posts), `.feature-*/.features-index-*` (features), plus dead-code overlap with `theme.css` (duplicate `::before/::after` gradient overlays on three different hero selectors). A comment at line 993 admits this: *"Static-page sections - full-bleed, alternating bg, 1200 px container, 760 px text reading column."*
 
 Both issues compound: every time a hardcoded width tier (820 px FAQ, 680 px newsletter, 760 px blog body, 720 px footer divider) drifts, it's hard to spot because related rules are scattered across one monolithic file.
 
@@ -19,7 +19,7 @@ Both issues compound: every time a hardcoded width tier (820 px FAQ, 680 px news
 - **Single content-area width** at desktop on every page type that wraps content (landing, marketing, blog hub, blog post, features hub, feature page).
 - **One file per renderer concern**, so a future change to "the way feature pages look" has an obvious file to edit.
 - **Named tokens for every non-default width tier**, so hardcoded numbers don't drift.
-- **No markdown content changes.** The only Swift edits are dropping a `landing-container` class composition from two blog renderers — markdown authors stay free to write `.page-hero` + `.page-section` the way they do today.
+- **No markdown content changes.** The only Swift edits are dropping a `landing-container` class composition from two blog renderers - markdown authors stay free to write `.page-hero` + `.page-section` the way they do today.
 
 ## Non-goals
 
@@ -50,8 +50,8 @@ This was prototyped on the working tree, built with `swift run Site build`, and 
 
 Two structural conventions coexist:
 
-- **Class-wrapper convention** (landing, blog grid section, blog body section, blog related section, features hub, feature page) — markdown/Swift wraps content in `<div class="landing-container">`. The wrapper is `max-width: var(--max-width); margin: 0 auto; padding: 0 var(--container-padding)`. The outer section has vertical padding only.
-- **Direct-children convention** (marketing pages — business-card, about, contact, press, developers, integrations, reviews) — markdown emits `<section class="page-hero">` and `<section class="page-section">` with content as direct children. The CSS applies the same wrapper shape to those direct children: `.page-hero > *` and `.page-section > *` get `max-width: var(--max-width); margin-inline: auto; padding-inline: var(--container-padding)`. The outer `.page-hero` / `.page-section` has vertical padding only.
+- **Class-wrapper convention** (landing, blog grid section, blog body section, blog related section, features hub, feature page) - markdown/Swift wraps content in `<div class="landing-container">`. The wrapper is `max-width: var(--max-width); margin: 0 auto; padding: 0 var(--container-padding)`. The outer section has vertical padding only.
+- **Direct-children convention** (marketing pages - business-card, about, contact, press, developers, integrations, reviews) - markdown emits `<section class="page-hero">` and `<section class="page-section">` with content as direct children. The CSS applies the same wrapper shape to those direct children: `.page-hero > *` and `.page-section > *` get `max-width: var(--max-width); margin-inline: auto; padding-inline: var(--container-padding)`. The outer `.page-hero` / `.page-section` has vertical padding only.
 
 Both conventions produce **1152 px effective content area** at desktop. Verified.
 
@@ -91,7 +91,7 @@ Two Swift edits drop the workaround `landing-container` class composed onto `pag
 
 …in `Sources/Site/Renderers/BlogIndexRenderer.swift` and `Sources/Site/Renderers/BlogPostRenderer.swift`. (The `landing-container` was a per-renderer hack to import the inner gutter; with `.page-hero > *` now carrying it, the hack becomes a *double* gutter at narrow viewports.)
 
-### 3. File split — `Theme/css/`
+### 3. File split - `Theme/css/`
 
 Replace the two-file layout (`theme.css`, `landing.css`) with five focused files. Total byte count is unchanged; the split is purely organizational.
 
@@ -113,10 +113,10 @@ Concrete rules to remove during the split:
 
 - **Hero overlay duplicates.** `.page-hero::before/::after` defines a radial-gradient + dot-grid overlay. `.blog-index-hero::before/::after` and `.blog-post-hero::before/::after` redefine identical overlays. Both blog heroes already carry the `.page-hero` class, so the inherited rule is sufficient. Delete the four duplicate blocks.
 - **Background re-assertions.** `.blog-index-hero.page-hero { background: var(--brand-gradient); color: #FFFFFF }` and `.blog-post-hero.page-hero { ... same ... }` re-assert what `.page-hero` already sets. Delete both lines.
-- **Footer divider tier.** `theme.css` line ~452 hardcodes `max-width: 720px` on a footer divider. Snap to `var(--content-width)` (680 px) — removes the orphan 720 px tier.
-- **Newsletter container width.** `.landing-newsletter .landing-container { max-width: 680px }` (line ~651) — replace with `max-width: var(--content-width)`.
-- **FAQ container width.** `.landing-faq .landing-container { max-width: 820px }` (line ~413) — replace with `max-width: var(--faq-width)`.
-- **Blog body width.** `.blog-post-body { max-width: 760px }` (line ~1515) — replace with `max-width: var(--prose-width)`.
+- **Footer divider tier.** `theme.css` line ~452 hardcodes `max-width: 720px` on a footer divider. Snap to `var(--content-width)` (680 px) - removes the orphan 720 px tier.
+- **Newsletter container width.** `.landing-newsletter .landing-container { max-width: 680px }` (line ~651) - replace with `max-width: var(--content-width)`.
+- **FAQ container width.** `.landing-faq .landing-container { max-width: 820px }` (line ~413) - replace with `max-width: var(--faq-width)`.
+- **Blog body width.** `.blog-post-body { max-width: 760px }` (line ~1515) - replace with `max-width: var(--prose-width)`.
 
 These edits change the *values* of zero pixels. They change the *names* so the intent travels with the number.
 

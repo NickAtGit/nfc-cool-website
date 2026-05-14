@@ -1,5 +1,5 @@
 /* ============================================================
-   Newsletter signup — self-contained component used by NewsletterForm.swift.
+   Newsletter signup - self-contained component used by NewsletterForm.swift.
    Drop on any page; depends only on theme tokens (--color-link*,
    --color-bg*, --content-width, --container-padding) and the unified
    .landing-cta-button rule.
@@ -22,7 +22,7 @@
    box-shadow: 0 1px 2px var(--color-shadow);
    overflow: hidden;
 }
-/* Top accent stripe — blue gradient in light mode, yellow in dark
+/* Top accent stripe - blue gradient in light mode, yellow in dark
    (via --color-link / --color-link-hover, which flip per theme). */
 .newsletter-card::before {
    content: "";
@@ -96,7 +96,7 @@
    flex-shrink: 0;
 }
 /* Recolour the Subscribe button to follow the blue-in-light / yellow-in-dark
-   rule — overriding the unified button's --cta-* vars only inside the
+   rule - overriding the unified button's --cta-* vars only inside the
    newsletter form, leaving every other CTA on the site untouched. Loaded
    after landing.css, so this wins over the default + dark-mode rules at
    equal specificity. */

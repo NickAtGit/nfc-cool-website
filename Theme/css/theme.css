@@ -1,4 +1,4 @@
-/* NFC.cool — Theme chrome (header, nav, footer, static pages)
+/* NFC.cool - Theme chrome (header, nav, footer, static pages)
  * Brand Manual V1: Titillium Web body, Caveat script accent,
  * yellow #FFC709, black #212529, blue gradient #137BD9 → #00A2F3.
  */
@@ -73,7 +73,7 @@
    --color-link-light: rgba(19, 123, 217, 0.12);
 }
 
-/* Dark-mode hero — match the page bg (#161B22 = --color-bg in dark mode)
+/* Dark-mode hero - match the page bg (#161B22 = --color-bg in dark mode)
    at top and bottom so the hero blends seamlessly into the surrounding
    sections, with a faint brand-yellow radial in the middle. */
 [data-theme="dark"] {
@@ -140,7 +140,7 @@ h3 { font-size: 1.25rem; margin-top: 1.5em; }
 p { margin: 0 0 1.25em; line-height: 1.65; }
 strong { font-weight: 700; }
 
-/* ".cool" tail — used in headlines via <em class="brand-tail">.cool</em> */
+/* ".cool" tail - used in headlines via <em class="brand-tail">.cool</em> */
 .brand-tail,
 em.brand-tail {
    font-family: var(--font-script);
@@ -168,7 +168,7 @@ em.brand-tail {
 .sk-skip-link:focus { top: 0.5rem; }
 
 /* ============================================================
-   Site header — sticky white bar with thin bottom rule
+   Site header - sticky white bar with thin bottom rule
    ============================================================ */
 .sk-site-header {
    position: sticky;
@@ -215,7 +215,7 @@ em.brand-tail {
    content: url("/assets/theme/images/NFC_SecondaryLogo_White.webp");
 }
 .sk-site-logo-text {
-   display: none; /* logo image already says "NFC.cool" — avoid double */
+   display: none; /* logo image already says "NFC.cool" - avoid double */
 }
 .sk-nav-list {
    display: flex;
@@ -275,7 +275,7 @@ em.brand-tail {
 }
 .sk-search-btn { display: none; }
 
-/* Language picker — styled to match .sk-theme-toggle, click toggles locale */
+/* Language picker - styled to match .sk-theme-toggle, click toggles locale */
 .sk-lang-picker {
    position: relative;
    flex-shrink: 0;
@@ -378,7 +378,7 @@ em.brand-tail {
    ============================================================ */
 .sk-main { flex: 1; width: 100%; }
 
-/* Landing pages get full-bleed sections — no centering wrapper */
+/* Landing pages get full-bleed sections - no centering wrapper */
 body.landing .sk-main {
    max-width: none;
    margin: 0;
@@ -482,7 +482,7 @@ body.landing .sk-site-footer {
    max-width: var(--content-width);
 }
 
-/* Nav link row — wraps gracefully, evenly spaced, centered */
+/* Nav link row - wraps gracefully, evenly spaced, centered */
 .sk-footer-links {
    display: flex;
    flex-wrap: wrap;
@@ -535,7 +535,7 @@ body.landing .sk-site-footer {
 }
 
 /* ============================================================
-   Responsive — burger menu, hidden on desktop, injected by theme.js
+   Responsive - burger menu, hidden on desktop, injected by theme.js
    ============================================================ */
 .sk-nav-toggle {
    display: none; /* shown only at mobile breakpoint */
@@ -582,7 +582,7 @@ body.sk-mobile-menu-open { overflow: hidden; }
       (lang · theme · burger) needs the auto-margin instead. */
    .sk-lang-picker { margin-left: auto; }
 
-   /* Mobile nav-list — anchored to the sticky header as a dropdown panel.
+   /* Mobile nav-list - anchored to the sticky header as a dropdown panel.
       Uses display none/flex rather than transform-based slide so it works
       bulletproof across browsers; opacity adds a soft fade. */
    .sk-nav-list {
@@ -622,7 +622,7 @@ body.sk-mobile-menu-open { overflow: hidden; }
    }
    .sk-nav-item:last-child a { border-bottom: 0; }
 
-   /* Lang + theme buttons sit beside the burger — neutralize the negative
+   /* Lang + theme buttons sit beside the burger - neutralize the negative
       margin used on desktop to prevent overlap */
    .sk-lang-picker + .sk-theme-toggle { margin-left: 0; }
 
@@ -652,7 +652,7 @@ body.sk-mobile-menu-open { overflow: hidden; }
 }
 
 /* ============================================================
-   Custom 404 page — error template (CustomErrorPageRenderer).
+   Custom 404 page - error template (CustomErrorPageRenderer).
    ============================================================ */
 .sk-page-error .error-hero {
    position: relative;

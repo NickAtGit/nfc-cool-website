@@ -21,9 +21,9 @@ struct LandingPageRenderer: Renderer {
 
       let pageTitle: String = {
          if data.hero.title == context.config.name {
-            return "\(context.config.name) — \(context.config.description)"
+            return "\(context.config.name) - \(context.config.description)"
          }
-         return "\(data.hero.title) — \(context.config.name)"
+         return "\(data.hero.title) - \(context.config.name)"
       }()
 
       let head = helper.buildHead(
@@ -138,7 +138,7 @@ struct LandingPageRenderer: Renderer {
 
    /// Render the App Store + Google Play badge pair shared across the
    /// landing hero, feature banner, pricing, and final CTA. Campaign
-   /// tracking lives directly on the URL strings — each locale's YAML
+   /// tracking lives directly on the URL strings - each locale's YAML
    /// holds its own `?ct=web_<lang>` / `&referrer=...&utm_campaign=web_<lang>`.
    private func renderStoreButtons(appStoreURL: String, googlePlayURL: String?) -> String {
       var buttons: [String] = []

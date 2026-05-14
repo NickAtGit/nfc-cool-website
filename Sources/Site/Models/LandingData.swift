@@ -43,7 +43,7 @@ struct FeatureBannerSection: Decodable, Sendable {
    let imagePath: String?
    let linkURL: String?
    /// When provided, the banner renders dual store badges instead of a single
-   /// CTA — typically pointing at platform-specific products with campaign URLs.
+   /// CTA - typically pointing at platform-specific products with campaign URLs.
    let appStoreURL: String?
    let googlePlayURL: String?
 }

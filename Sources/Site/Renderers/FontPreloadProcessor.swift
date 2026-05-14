@@ -7,7 +7,7 @@ import SiteKit
 /// SiteKit's `FontsFaceCSSRenderer` already preloads `fonts.css`, but not
 /// the individual woff2 binaries. Without those, the browser only starts
 /// fetching the font files AFTER fonts.css is parsed AND a node using the
-/// font-family is encountered — too late to avoid FOUT on first paint.
+/// font-family is encountered - too late to avoid FOUT on first paint.
 ///
 /// This processor scans every `.html` file under the output directory and
 /// inserts `<link rel="preload" as="font">` tags right after the opening

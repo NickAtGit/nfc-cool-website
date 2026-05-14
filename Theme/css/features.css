@@ -10,7 +10,7 @@
    ============================================================ */
 
 /* ============================================================
-   Feature pages — shared with /features/{slug}/
+   Feature pages - shared with /features/{slug}/
    ============================================================ */
 .feature-page {
    padding-top: 0;
@@ -42,7 +42,7 @@
    font-size: 0.8125rem;
    padding: 0.35rem 0.8rem 0.35rem 0.65rem;
 }
-/* Platform pills on the gradient hero — outlined treatment: transparent fill,
+/* Platform pills on the gradient hero - outlined treatment: transparent fill,
    white border + label so they read cleanly against the blue gradient. */
 .page-hero .platform-pill,
 .page-hero .platform-pill.is-ios,
@@ -273,7 +273,7 @@
    color: var(--color-text);
 }
 
-/* Featured reviews on feature pages — keep the landing-reviews look but
+/* Featured reviews on feature pages - keep the landing-reviews look but
    give the heading a touch more breathing room above the cards grid. */
 .feature-featured-reviews {
    padding: clamp(3rem, 6vw, 5rem) 0;
@@ -295,13 +295,13 @@
 }
 
 /* ============================================================
-   Features index (/features/) — reuses .landing-feature-card markup,
+   Features index (/features/) - reuses .landing-feature-card markup,
    so the grid below the hero looks identical to the landing page.
    ============================================================ */
 .features-index-grid-section {
    background: var(--color-bg);
 }
-/* Linked variant of .landing-feature-card — applied on the features index
+/* Linked variant of .landing-feature-card - applied on the features index
    AND on the landing-page cards (when YAML provides a slug). Keep the
    anchor semantics quiet: inherit colors, no underline, slightly stronger
    hover lift to signal interactivity. */

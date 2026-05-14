@@ -1,10 +1,10 @@
-# CSS container model unification + landing.css split — Implementation Plan
+# CSS container model unification + landing.css split - Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Unify the page-container model so every page type renders content at the same 1152 px effective width, then split the 2,034-line `Theme/css/landing.css` into focused per-renderer files (`landing.css`, `marketing.css`, `blog.css`, `features.css`) and replace hardcoded width tiers with named tokens.
 
-**Architecture:** Two file-touching phases, one config-touching phase. (1) Foundation — drop horizontal padding from outer sections and apply it to the inner wrappers; add named tokens to `theme.yaml`. (2) Replace hardcoded narrow widths with tokens; dedupe redundant hero overlay rules. (3) Move CSS blocks out of `landing.css` into three new files; list them in `theme.yaml`. Build verifies after each task; visual spot-check at the end.
+**Architecture:** Two file-touching phases, one config-touching phase. (1) Foundation - drop horizontal padding from outer sections and apply it to the inner wrappers; add named tokens to `theme.yaml`. (2) Replace hardcoded narrow widths with tokens; dedupe redundant hero overlay rules. (3) Move CSS blocks out of `landing.css` into three new files; list them in `theme.yaml`. Build verifies after each task; visual spot-check at the end.
 
 **Tech Stack:** Swift 6.2+ / SiteKit static site generator. Theme assets in `Theme/`. Build with `swift run Site build`. Dev server with `swift run Site serve` (http://localhost:8080).
 
@@ -47,7 +47,7 @@ If different: re-apply per the spec's "Concrete edits" subsection (7 rules in `l
 - [ ] **Step 2: Build to confirm no syntax errors**
 
 Run: `swift run Site build 2>&1 | tail -3`
-Expected: a line containing `Build completed successfully!`. If it fails, read the error — likely a typo in one of the CSS edits.
+Expected: a line containing `Build completed successfully!`. If it fails, read the error - likely a typo in one of the CSS edits.
 
 - [ ] **Step 3: Commit**
 
@@ -61,7 +61,7 @@ Strip horizontal padding from outer .page-hero/.page-section and the
 three blog wrapper sections; move the 1.5rem gutter onto the inner
 .page-hero > * / .page-section > * rules so the effective content
 area is 1152px on every page (was 1152px on landing but 1200px on
-marketing-rendered pages — a 48px discrepancy at desktop widths).
+marketing-rendered pages - a 48px discrepancy at desktop widths).
 
 Drop the legacy landing-container class composed onto page-hero-grid
 in the two blog renderers; with .page-hero > * carrying the gutter
@@ -81,7 +81,7 @@ EOF
 
 Introduce `--container-padding`, `--prose-width`, `--faq-width` so subsequent tasks can replace hardcoded values with `var(--container-padding)`, `var(--prose-width)`, `var(--faq-width)`.
 
-**Note:** SiteKit's `ThemeTokens` struct only recognizes a fixed set of layout token keys (`maxWidth`, `contentWidth`, `wideContentWidth`, `headerHeight`, `radius`, `radiusLg`, `transition`). Adding arbitrary keys under `tokens:` in `theme.yaml` does nothing — SiteKit silently ignores them. So we define our new vars in a plain `:root { }` block at the top of `theme.css` instead. Standard CSS practice; no SiteKit changes required. The SiteKit-emitted inline `:root` (in `<head>`) and our `:root` rule in `theme.css` both contribute to the same CSS custom-property cascade.
+**Note:** SiteKit's `ThemeTokens` struct only recognizes a fixed set of layout token keys (`maxWidth`, `contentWidth`, `wideContentWidth`, `headerHeight`, `radius`, `radiusLg`, `transition`). Adding arbitrary keys under `tokens:` in `theme.yaml` does nothing - SiteKit silently ignores them. So we define our new vars in a plain `:root { }` block at the top of `theme.css` instead. Standard CSS practice; no SiteKit changes required. The SiteKit-emitted inline `:root` (in `<head>`) and our `:root` rule in `theme.css` both contribute to the same CSS custom-property cascade.
 
 **Files:**
 - Modify: `Theme/css/theme.css`
@@ -90,7 +90,7 @@ Introduce `--container-padding`, `--prose-width`, `--faq-width` so subsequent ta
 
 Run: `head -20 Theme/css/theme.css`
 
-Expected: a file-header comment followed by an `@font-face` block. Find the first divider comment (`/* ============... */`) — the `:root` rule should be inserted *before* the first content section, ideally right after the file-header `/* NFC.cool — Theme chrome... */` comment.
+Expected: a file-header comment followed by an `@font-face` block. Find the first divider comment (`/* ============... */`) - the `:root` rule should be inserted *before* the first content section, ideally right after the file-header `/* NFC.cool - Theme chrome... */` comment.
 
 - [ ] **Step 2: Insert the `:root` block**
 
@@ -127,7 +127,7 @@ Expected three lines (in some order):
 --prose-width: 760px;
 ```
 
-If any are missing, double-check the `:root` block in `theme.css` and rebuild. (SiteKit copies CSS files verbatim into `_Site/assets/theme/css/` — what's in the source is what ships.)
+If any are missing, double-check the `:root` block in `theme.css` and rebuild. (SiteKit copies CSS files verbatim into `_Site/assets/theme/css/` - what's in the source is what ships.)
 
 - [ ] **Step 4: Commit**
 
@@ -220,10 +220,10 @@ EOF
 ### Task 4: Token-ize the remaining hardcoded narrow widths
 
 Four hardcoded narrow widths remain after Task 1:
-- `.landing-faq .landing-container` — 820px (line 414) → `var(--faq-width)`
-- `.landing-newsletter .landing-container` — 680px (line 652) → `var(--content-width)`
-- `.blog-post-body` — 760px (line 1520) → `var(--prose-width)`
-- Footer divider — 720px (theme.css line 452) → `var(--content-width)` (drops the orphan 720px tier per spec)
+- `.landing-faq .landing-container` - 820px (line 414) → `var(--faq-width)`
+- `.landing-newsletter .landing-container` - 680px (line 652) → `var(--content-width)`
+- `.blog-post-body` - 760px (line 1520) → `var(--prose-width)`
+- Footer divider - 720px (theme.css line 452) → `var(--content-width)` (drops the orphan 720px tier per spec)
 
 **Files:**
 - Modify: `Theme/css/landing.css` (3 rules)
@@ -279,7 +279,7 @@ to:
    max-width: var(--content-width);
 ```
 
-(Read 2 lines of context first to confirm you're editing the footer divider rule, not some other 720px occurrence. There should only be one — but verify.)
+(Read 2 lines of context first to confirm you're editing the footer divider rule, not some other 720px occurrence. There should only be one - but verify.)
 
 - [ ] **Step 5: Build and confirm zero remaining narrow-tier hardcodes**
 
@@ -321,17 +321,17 @@ Run:
 grep -nE "^\.blog-index-hero|^\.blog-post-hero" Theme/css/landing.css
 ```
 Expected lines (approximate; numbers may shift after earlier tasks):
-- `.blog-index-hero {` (around 1224) — keep, but trim
-- `.blog-index-hero.page-hero { background: var(--brand-gradient); color: #FFFFFF; }` — DELETE entire line
-- `.blog-index-hero .blog-index-rss { ... }` — keep
-- `.blog-index-hero::before { ... }` — DELETE the whole 7-line rule
-- `.blog-index-hero::after { ... }` — DELETE the whole 10-line rule
-- `.blog-post-hero {` — keep, but trim
-- `.blog-post-hero.page-hero { background: var(--brand-gradient); color: #FFFFFF; }` — DELETE entire line
-- `.blog-post-hero .blog-post-meta { ... }` — keep
-- `.blog-post-hero .blog-post-tags { ... }` — keep
-- `.blog-post-hero::before { ... }` — DELETE the whole 7-line rule
-- `.blog-post-hero::after { ... }` — DELETE the whole 10-line rule
+- `.blog-index-hero {` (around 1224) - keep, but trim
+- `.blog-index-hero.page-hero { background: var(--brand-gradient); color: #FFFFFF; }` - DELETE entire line
+- `.blog-index-hero .blog-index-rss { ... }` - keep
+- `.blog-index-hero::before { ... }` - DELETE the whole 7-line rule
+- `.blog-index-hero::after { ... }` - DELETE the whole 10-line rule
+- `.blog-post-hero {` - keep, but trim
+- `.blog-post-hero.page-hero { background: var(--brand-gradient); color: #FFFFFF; }` - DELETE entire line
+- `.blog-post-hero .blog-post-meta { ... }` - keep
+- `.blog-post-hero .blog-post-tags { ... }` - keep
+- `.blog-post-hero::before { ... }` - DELETE the whole 7-line rule
+- `.blog-post-hero::after { ... }` - DELETE the whole 10-line rule
 
 - [ ] **Step 2: Edit `.blog-index-hero {`**
 
@@ -348,7 +348,7 @@ Find:
 }
 ```
 
-Replace with (drops everything that `.page-hero` already provides — only padding stays, since the blog hero uses a slightly tighter vertical clamp):
+Replace with (drops everything that `.page-hero` already provides - only padding stays, since the blog hero uses a slightly tighter vertical clamp):
 ```css
 .blog-index-hero {
    padding: clamp(4rem, 9vw, 6.5rem) 0 clamp(3rem, 6vw, 4.5rem);
@@ -424,7 +424,7 @@ grep -nE "^/\* =+" Theme/css/landing.css | head -25
 ```
 
 Locate the three section-start lines whose immediately-following comment lines read (run `grep -nE "Static content pages|Card grids on static|Social-media card grid"` to be sure):
-- "Static content pages — marketing-page hero..."
+- "Static content pages - marketing-page hero..."
 - "Card grids on static pages..."
 - "Social-media card grid used on /contact/..."
 
@@ -626,11 +626,11 @@ Write with this header, then paste the three feature blocks:
    cascade.
    ============================================================ */
 
-/* (paste "Feature pages — shared with /features/{slug}/" block) */
+/* (paste "Feature pages - shared with /features/{slug}/" block) */
 
 /* (paste "Feature comparison (iOS vs Android matrix)" block) */
 
-/* (paste "Features index (/features/) — ..." block) */
+/* (paste "Features index (/features/) - ..." block) */
 ```
 
 Plus, append any feature-targeting @media rules at the bottom.
@@ -641,7 +641,7 @@ Read the "Custom 404 page" block from `landing.css`. Append it to `theme.css` (a
 
 ```css
 /* ============================================================
-   Custom 404 page — error template (CustomErrorPageRenderer).
+   Custom 404 page - error template (CustomErrorPageRenderer).
    ============================================================ */
 
 /* (paste 404 block) */
@@ -650,15 +650,15 @@ Read the "Custom 404 page" block from `landing.css`. Append it to `theme.css` (a
 - [ ] **Step 5: Remove the moved blocks from `landing.css`**
 
 Sections in `landing.css`'s tail (after Tasks 1–7) appear in this order:
-1. "Feature pages — shared with /features/{slug}/" → goes to `features.css`
+1. "Feature pages - shared with /features/{slug}/" → goes to `features.css`
 2. "Feature comparison (iOS vs Android matrix)" → goes to `features.css`
 3. "Custom 404 page" → goes to `theme.css`
-4. "Features index (/features/) — ..." → goes to `features.css`
-5. "Responsive" — route each `@media` rule per Step 2
+4. "Features index (/features/) - ..." → goes to `features.css`
+5. "Responsive" - route each `@media` rule per Step 2
 
 Delete sections 1–4 in their entirety from `landing.css` (already copied into their destinations in Steps 3 and 4). For section 5, delete only those rules you moved out; rules that target `.landing-*` stay.
 
-What remains in `landing.css` should be only landing-page sections + cross-cutting `.landing-container`, `.landing-section-title`, `.landing-cta-button`, `.landing-store-button*`, `.platform-pill` (which is shared with features — keeping it in landing.css works because features.css loads later, but document this in `landing.css`'s file header below).
+What remains in `landing.css` should be only landing-page sections + cross-cutting `.landing-container`, `.landing-section-title`, `.landing-cta-button`, `.landing-store-button*`, `.platform-pill` (which is shared with features - keeping it in landing.css works because features.css loads later, but document this in `landing.css`'s file header below).
 
 - [ ] **Step 6: Add a file header to the trimmed `landing.css`**
 
@@ -670,7 +670,7 @@ Replace any existing leading content above the first divider with:
    Landing-page sections (LandingPageRenderer). Plus a small set
    of cross-cutting utilities (.landing-container, .platform-pill,
    .landing-cta-button, .landing-store-button*) that are shared
-   with marketing and feature pages — kept here because they are
+   with marketing and feature pages - kept here because they are
    referenced from markdown content and renaming would cascade
    through every locale.
    ============================================================ */
@@ -696,12 +696,12 @@ Expected: `Build completed successfully!`
 - [ ] **Step 9: Visual regression spot-check**
 
 Start `swift run Site serve`. Visit each:
-- http://localhost:8080/ — landing page
-- http://localhost:8080/features/ — features hub
-- http://localhost:8080/features/nfc-reader-writer/ — a feature page
-- http://localhost:8080/404 (or any nonexistent URL) — 404 page
-- http://localhost:8080/business-card/ — marketing (re-check after split)
-- http://localhost:8080/blog/ — blog hub (re-check)
+- http://localhost:8080/ - landing page
+- http://localhost:8080/features/ - features hub
+- http://localhost:8080/features/nfc-reader-writer/ - a feature page
+- http://localhost:8080/404 (or any nonexistent URL) - 404 page
+- http://localhost:8080/business-card/ - marketing (re-check after split)
+- http://localhost:8080/blog/ - blog hub (re-check)
 
 For each: confirm rendering matches before the split (no missing styles, no overlapping content, gradient heroes intact, FAQ rows aligned). Kill server.
 
@@ -762,16 +762,16 @@ href="/assets/theme/css/theme.css?v=..."
 - [ ] **Step 3: Page-by-page visual sweep**
 
 Start `swift run Site serve`. Open each URL and confirm matches the pre-change rendering (compare against your screenshot or memory of how the site looked):
-- `/` — landing hero gradient, feature grid, business-card banner, FAQ accordion, newsletter card, final CTA.
-- `/business-card/` — gradient hero, page-section cards-grid, pricing table, footer.
-- `/about/` — gradient hero, section cards.
-- `/contact/` — gradient hero, social-media card grid.
-- `/blog/` — gradient hero, blog card grid.
-- `/blog/3d-scan-feature/` — gradient hero, narrow reading column body, related cards.
-- `/features/` — features hub.
-- `/features/nfc-reader-writer/` — feature page with spec groups and comparison table.
-- `/privacy/` — legal page, 680px reading column.
-- A 404 page (`/does-not-exist/`) — error template renders.
+- `/` - landing hero gradient, feature grid, business-card banner, FAQ accordion, newsletter card, final CTA.
+- `/business-card/` - gradient hero, page-section cards-grid, pricing table, footer.
+- `/about/` - gradient hero, section cards.
+- `/contact/` - gradient hero, social-media card grid.
+- `/blog/` - gradient hero, blog card grid.
+- `/blog/3d-scan-feature/` - gradient hero, narrow reading column body, related cards.
+- `/features/` - features hub.
+- `/features/nfc-reader-writer/` - feature page with spec groups and comparison table.
+- `/privacy/` - legal page, 680px reading column.
+- A 404 page (`/does-not-exist/`) - error template renders.
 
 For each: no missing styles, no horizontal overflow, hero gradients intact, card grids aligned, content widths match across page types at the same viewport.
 
@@ -800,11 +800,11 @@ Output:
 
 Each requirement in `docs/superpowers/specs/2026-05-13-css-container-and-file-split-design.md` maps to a task above:
 
-- Spec §2 container model — Tasks 1, 3
-- Spec §1 width tokens — Tasks 2, 4
-- Spec §3 file split (5 files) — Tasks 6, 7, 8
-- Spec §3 cascade load order — Tasks 6, 7, 8 (`theme.yaml` updated at each step)
-- Spec §4 deduplication targets — Tasks 4, 5
-- Spec verification recipe — Task 9 (manual visual sweep; the puppeteer measurement scaffolding from brainstorming is deliberately not reinstalled — if a regression is suspected, the recipe is in the spec)
+- Spec §2 container model - Tasks 1, 3
+- Spec §1 width tokens - Tasks 2, 4
+- Spec §3 file split (5 files) - Tasks 6, 7, 8
+- Spec §3 cascade load order - Tasks 6, 7, 8 (`theme.yaml` updated at each step)
+- Spec §4 deduplication targets - Tasks 4, 5
+- Spec verification recipe - Task 9 (manual visual sweep; the puppeteer measurement scaffolding from brainstorming is deliberately not reinstalled - if a regression is suspected, the recipe is in the spec)
 
 No items left uncovered.

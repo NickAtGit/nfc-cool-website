@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
    }
 
-   // Language picker — dropdown listing every configured locale. The set
+   // Language picker - dropdown listing every configured locale. The set
    // of locales is read from the hreflang <link> tags SiteKit already emits
    // on every page, so adding a new language only requires adding it to
    // SiteConfig.yaml localization.languages -- no JS change needed.
@@ -119,9 +119,9 @@ document.addEventListener('DOMContentLoaded', function() {
       });
    });
 
-   // FAQ accordion — details/summary handles this natively
+   // FAQ accordion - details/summary handles this natively
 
-   // Mobile burger menu — SiteKit doesn't emit a toggle button, so we inject
+   // Mobile burger menu - SiteKit doesn't emit a toggle button, so we inject
    // one and wire it to the existing `.sk-nav-list` / `.sk-nav-open` pattern.
    (function() {
       const nav = document.querySelector('.sk-site-nav');
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
       mq.addEventListener('change', function(e) { if (e.matches) setOpen(false); });
    })();
 
-   // Newsletter form — POSTs directly to the shared Mailjet-proxy Cloudflare
+   // Newsletter form - POSTs directly to the shared Mailjet-proxy Cloudflare
    // Worker that's already in production for the NFC.cool iOS apps. The Worker
    // has its Mailjet credentials + target list ID baked in and accepts a
    // simple `{ email }` body; CORS is wide-open so any origin works.
