@@ -109,8 +109,14 @@ struct MarketingPageRenderer: Renderer {
       let canonicalPath = defaultRouter.staticPagePath(for: page)
       let refreshTarget = "\(canonicalPath)?noredirect=1"
       let canonical = "\(context.config.baseURL)\(canonicalPath)"
+      // Inline `location.replace` in <head> runs synchronously before any
+      // body parsing, so JS-enabled visitors never see flash content. The
+      // meta-refresh stays as a no-JS / no-script-execution fallback (also
+      // the signal RedirectNoindexProcessor uses to stamp `noindex,follow`),
+      // and the <noscript> link covers the rare edge case of JS disabled +
+      // meta-refresh suppressed.
       let html = """
-      <!DOCTYPE html><html lang="\(defaultLang)"><head><meta charset="UTF-8"><title>Redirecting…</title><meta http-equiv="refresh" content="0; url=\(refreshTarget)"><link rel="canonical" href="\(canonical)"><meta name="robots" content="noindex,follow"></head><body><p>Redirecting to <a href="\(refreshTarget)">\(canonical)</a></p></body></html>
+      <!DOCTYPE html><html lang="\(defaultLang)"><head><meta charset="UTF-8"><title>Redirecting…</title><script>window.location.replace("\(refreshTarget)")</script><meta http-equiv="refresh" content="0; url=\(refreshTarget)"><link rel="canonical" href="\(canonical)"><meta name="robots" content="noindex,follow"></head><body><noscript><p>Redirecting to <a href="\(refreshTarget)">\(canonical)</a>.</p></noscript></body></html>
       """
       let relativePath = String(context.router.staticPagePath(for: page).dropFirst())
       let outputPath = context.outputDirectory
