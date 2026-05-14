@@ -146,7 +146,7 @@ Voller Transparenz: das ist der NFC.cool Blog, also ja, wir werden über unsere 
 
 Loszulegen dauert etwa fünf Minuten:
 
-1. **Lade die App** - NFC.cool Business Card ist auf [iOS](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogRealEstate&mt=8) und auf [Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-real-estate) verfügbar
+1. **Lade die App** - NFC.cool Business Card ist auf [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-cards-real-estate-agents_de&mt=8) und auf [Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_digital-business-cards-real-estate-agents_de) verfügbar
 2. **Erstelle deine Karte** - Füge deinen Namen, Titel, Broker, Telefon, E-Mail, Website und Social-Links hinzu
 3. **Füge dein Foto hinzu** - Ein professionelles Porträt hilft Interessenten, sich an dich zu erinnern
 4. **Generiere deinen QR-Code** - Drucke ihn für Open-House-Materialien
@@ -194,7 +194,7 @@ Eine digitale Visitenkarte ersetzt nicht deinen Einsatz - aber sie nimmt die Rei
 
 Die Technologie ist bewährt, die Kosten sind minimal und der Upside ist jeder Lead, den du sonst verloren hättest.
 
-Bereit, es auszuprobieren? [Lade NFC.cool Business Card für iOS](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogRealEstate&mt=8) oder [hole es auf Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-real-estate).
+Bereit, es auszuprobieren? [Lade NFC.cool Business Card für iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-cards-real-estate-agents_de&mt=8) oder [hole es auf Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_digital-business-cards-real-estate-agents_de).
 
 ---
 

@@ -57,8 +57,9 @@ struct FeaturePageRenderer: Renderer {
             }
          )
 
-         let appStoreURL = feature.appStoreURL ?? "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_\(locale)&mt=8"
-         let googlePlayURL = feature.googlePlayURL ?? "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_\(locale)"
+         let page = "web_feature-\(slug)"
+         let appStoreURL = StoreLink.appStore(app: .tools, page: page, locale: locale)
+         let googlePlayURL = StoreLink.googlePlay(app: .tools, page: page, locale: locale)
          let backLinkText = feature.backLinkText ?? "← All features"
          let featuresIndexPath = "\(basePath)features/"
 
@@ -318,7 +319,7 @@ struct FeaturePageRenderer: Renderer {
       let heading = (title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(title!.htmlEscaped)</h2>"
       let faqItems = items.map { item in
          """
-         <details class="landing-faq-item">
+         <details class="faq-item">
             <summary>\(item.question.htmlEscaped)</summary>
             <p>\(item.answer.htmlEscaped)</p>
          </details>

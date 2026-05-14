@@ -19,6 +19,6 @@ What's new:
 
 OpenPrintTag is an open initiative by Prusa Research aiming to unify smart-spool data across the 3D-printing ecosystem. Adding native support means NFC.cool is now a practical tool for makers managing filament across multiple brands.
 
-Available now on [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_en&mt=8) and the latest [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_en) release. Free.
+Available now on [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=changelog_tools-openprinttag_en&mt=8) and the latest [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dchangelog%26utm_campaign%3Dchangelog_tools-openprinttag_en) release. Free.
 
 [Read the full announcement on the blog →](/blog/openprinttag-support/)

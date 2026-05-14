@@ -109,7 +109,7 @@ Hier ist ein Überblick über alle acht Apps:
 
 ### 1. NFC.cool Business Card - Am besten für Datenschutz & mehrsprachige Professionals
 
-**Was es ist:** Eine digitale Visitenkarten-App von NFC.cool, dem Indie-Studio hinter 13 NFC- und Utility-Apps mit über 9 Millionen Downloads. Als eigenständige App auf iOS und als Teil von [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-best-apps-2026) auf Android verfügbar.
+**Was es ist:** Eine digitale Visitenkarten-App von NFC.cool, dem Indie-Studio hinter 13 NFC- und Utility-Apps mit über 9 Millionen Downloads. Als eigenständige App auf iOS und als Teil von [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_best-digital-business-card-apps-2026_de) auf Android verfügbar.
 
 **Was uns gefällt:**
 - **35 Sprachen** - Die App-UI und der App Clip sind in 35 Sprachen verfügbar, was sie mit Abstand zur mehrsprachigsten digitalen Visitenkarte auf dem Markt macht. Wenn du international arbeitest, ist das wichtig.
@@ -129,7 +129,7 @@ Hier ist ein Überblick über alle acht Apps:
 
 **Am besten für:** Datenschutzbewusste Professionals, internationale Networker, alle die NFC-Flexibilität ohne Hardware-Lock-in wollen, Indie-/KMU-Nutzer, die transparente Entwicklung schätzen.
 
-[NFC.cool Business Card im App Store laden](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogBestApps2026&mt=8) · [Auf Android (in NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-best-apps-2026)
+[NFC.cool Business Card im App Store laden](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_best-digital-business-card-apps-2026_de&mt=8) · [Auf Android (in NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_best-digital-business-card-apps-2026_de)
 
 ---
 
@@ -343,4 +343,4 @@ Was auch immer du wählst - schmeiß die Papierkarten. Es ist 2026 - deine Visit
 
 ---
 
-*Bereit, NFC.cool Business Card auszuprobieren? Lade es gratis aus dem [App Store](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogBestApps2026&mt=8) oder [hole es auf Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-best-apps-2026).*
+*Bereit, NFC.cool Business Card auszuprobieren? Lade es gratis aus dem [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_best-digital-business-card-apps-2026_de&mt=8) oder [hole es auf Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_best-digital-business-card-apps-2026_de).*

@@ -15,7 +15,7 @@ Ever find yourself confidently tapping your iPhone on your condo's entry system,
 ### The tech talk, without the geek-speak
 
 - **RFID (Radio-Frequency Identification)** is a broad technology used to wirelessly identify and track objects. Think of RFID like shouting across the street to a friend - typically a one-way exchange where your condo's RFID card broadcasts a signal and the door listens. RFID comes in different flavours: low-frequency (LF), high-frequency (HF), and ultra-high-frequency (UHF). It powers access cards, pet microchips, inventory tracking, and yes, those pesky condo cards.
-- **NFC (Near-Field Communication)** is essentially a specialised subset of RFID operating at high frequency (13.56 MHz). It's a cosy chat between two friends standing very close to each other. NFC enables two-way communication, secure data exchange, and rich interaction - which is exactly why your iPhone uses NFC for features like Apple Pay, AirTags, and [digital business cards](https://business-card.nfc.cool).
+- **NFC (Near-Field Communication)** is essentially a specialised subset of RFID operating at high frequency (13.56 MHz). It's a cosy chat between two friends standing very close to each other. NFC enables two-way communication, secure data exchange, and rich interaction - which is exactly why your iPhone uses NFC for features like Apple Pay, AirTags, and [digital business cards](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_iphone-rfid-condo-doors_en&mt=8).
 
 ### Why your iPhone says "no" to your condo card
 

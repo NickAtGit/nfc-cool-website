@@ -70,4 +70,4 @@ NFC tags are becoming the storage medium for things that matter. The EU Digital 
 
 NFC Safe takes that durability and adds encryption. A backup that outlasts paper, can't be read by anyone who finds it, and costs less than a cup of coffee.
 
-Available now on [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_en&mt=8). Coming soon to Android.
+Available now on [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_nfc-safe-encrypted-secrets_en&mt=8). Coming soon to Android.

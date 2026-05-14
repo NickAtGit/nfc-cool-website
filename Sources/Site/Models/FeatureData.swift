@@ -14,8 +14,6 @@ struct FeatureData: Decodable, Sendable {
    let faq: [FAQItem]?
    let faqTitle: String?
    let cta: FeatureCTA?
-   let appStoreURL: String?
-   let googlePlayURL: String?
    let docsBody: String?
    let backLinkText: String?
 }

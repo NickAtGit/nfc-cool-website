@@ -64,7 +64,7 @@ Du hast einen NFC-Tag an deinem Ausweis-Lanyard oder auf deinem Schreibtisch. Ei
 
 ### Auf Kongressen
 
-Medizinische Kongresse sind Networking pur. Du triffst 30 Menschen an einem Tag. Mit Papierkarten gehst du mit einem Stapel nach Hause, den du nie sortieren wirst. Mit einer digitalen Karte erzeugt jeder Tap einen teilbaren, aktualisierbaren Kontakt. Wenn du [NFC.cool Business Card](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogDoctorCard&mt=8) ([Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-doctor-card)) nutzt, kannst du sehen, welche Kontakte deine Karte tatsächlich angesehen haben, und entsprechend nachfassen.
+Medizinische Kongresse sind Networking pur. Du triffst 30 Menschen an einem Tag. Mit Papierkarten gehst du mit einem Stapel nach Hause, den du nie sortieren wirst. Mit einer digitalen Karte erzeugt jeder Tap einen teilbaren, aktualisierbaren Kontakt. Wenn du [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-card-doctors-healthcare_de&mt=8) ([Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_digital-business-card-doctors-healthcare_de)) nutzt, kannst du sehen, welche Kontakte deine Karte tatsächlich angesehen haben, und entsprechend nachfassen.
 
 ### Für Zuweisungen
 
@@ -125,4 +125,4 @@ Papiervisitenkarten wurden für eine Welt gemacht, in der eine Person eine Telef
 
 Eine digitale Visitenkarte, die sich sofort aktualisiert, ohne physischen Kontakt geteilt wird und alle Abteilungsinformationen in einem Tap hält, ist kein Nice-to-have. Für einen Beruf, in dem korrekte Informationen den Patienten Zugang direkt beeinflussen, ist es der logische nächste Schritt.
 
-[Erstelle deine kostenlose medizinische digitale Karte mit NFC.cool Business Card](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogDoctorCard&mt=8) auf [iPhone](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogDoctorCard&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-doctor-card).
+[Erstelle deine kostenlose medizinische digitale Karte mit NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-card-doctors-healthcare_de&mt=8) auf [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-card-doctors-healthcare_de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_digital-business-card-doctors-healthcare_de).

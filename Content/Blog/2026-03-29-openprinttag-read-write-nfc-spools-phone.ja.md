@@ -76,7 +76,7 @@ Prusament、Voron、Fillamentum、3DXTech、SimplyPrint、PrintedSolidなど、2
 
 OpenPrintTagを使うのにPrusaプリンターや特別なハードウェアは必要ありません。スマートフォンだけでOKです。
 
-NFC.cool Toolsは[iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogOpenPrintTag&mt=8)と[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-openprinttag)の両方でOpenPrintTagにネイティブ対応しており、この機能は完全無料です。
+NFC.cool Toolsは[iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_openprinttag-read-write-nfc-spools-phone_ja&mt=8)と[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_openprinttag-read-write-nfc-spools-phone_ja)の両方でOpenPrintTagにネイティブ対応しており、この機能は完全無料です。
 
 **タグを読み取る：**
 1. NFC.cool Toolsを開く
@@ -133,7 +133,7 @@ OpenPrintTagはまだ若い規格ですが、勢いは増しています：
 
 **必要なもの：**
 - iPhone 7以降、またはNFC対応のAndroidスマートフォン
-- NFC.cool Tools（[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogOpenPrintTag&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-openprinttag)）無料、OpenPrintTag対応
+- NFC.cool Tools（[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_openprinttag-read-write-nfc-spools-phone_ja&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_openprinttag-read-write-nfc-spools-phone_ja)）無料、OpenPrintTag対応
 - ブランクのICODE SLIX2 / ISO 15693 NFCタグ（[Amazon US](https://amzn.to/3LTh1fT) / [Amazon Europe](https://amzn.to/4oJpQr4) アフィリエイトリンク）
 - タグ付けしたいフィラメントスプール
 

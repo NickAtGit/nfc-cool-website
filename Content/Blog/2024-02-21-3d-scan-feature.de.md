@@ -74,4 +74,4 @@ Für die Dinge, in denen es gut ist, ist das Ergebnis wirklich brauchbar - kein 
 
 ---
 
-3D-Scan ist Teil von [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=Blog3DScan&mt=8). Photogrammetrie funktioniert auf jedem modernen iPhone; LiDAR-Anreicherung funktioniert auf Pro-Modellen.
+3D-Scan ist Teil von [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_3d-scan-feature_de&mt=8). Photogrammetrie funktioniert auf jedem modernen iPhone; LiDAR-Anreicherung funktioniert auf Pro-Modellen.

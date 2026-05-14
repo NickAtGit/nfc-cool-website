@@ -15,10 +15,10 @@ description: "Real 5-star App Store reviews of NFC.cool from users around the wo
 The reviews below are pulled directly from the App Store. Every quote is a real 5-star review - nothing rewritten, nothing cherry-picked beyond filtering out the very short ones.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_reviews_en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_en" class="landing-store-button is-google" aria-label="Get it on Google Play">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_reviews_en" class="landing-store-button is-google" aria-label="Get it on Google Play">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -135,9 +135,9 @@ The reviews below are pulled directly from the App Store. Every quote is a real 
 
 If you've used NFC.cool and have a moment, a quick App Store rating helps a lot - and it's the only signal that doesn't require running analytics.
 
-- [Rate NFC.cool Tools on the App Store](https://apps.apple.com/app/apple-store/id1249686798?action=write-review)
-- [Rate NFC.cool Business Card on the App Store](https://apps.apple.com/app/apple-store/id6502926572?action=write-review)
-- [Rate NFC.cool Tools on Google Play](https://play.google.com/store/apps/details?id=cool.nfc)
+- [Rate NFC.cool Tools on the App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_reviews_en&mt=8)
+- [Rate NFC.cool Business Card on the App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web_reviews_en&mt=8)
+- [Rate NFC.cool Tools on Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_reviews_en)
 
 Thank you for being part of this.
 

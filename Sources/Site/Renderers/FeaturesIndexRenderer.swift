@@ -49,10 +49,8 @@ struct FeaturesIndexRenderer: Renderer {
 
       _ = exploreLabel // not used - cards now mirror landing-feature-card style verbatim.
 
-      // Per-locale Tools campaign URLs so the hero badges match every other
-      // page on the site.
-      let toolsAppStoreURL = "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web_\(locale)&mt=8"
-      let toolsGooglePlayURL = "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_\(locale)"
+      let toolsAppStoreURL = StoreLink.appStore(app: .tools, page: "web_features", locale: locale)
+      let toolsGooglePlayURL = StoreLink.googlePlay(app: .tools, page: "web_features", locale: locale)
 
       // Build the per-feature cards using the SAME .landing-feature-card markup
       // the landing page emits, so both grids look identical and the whole card

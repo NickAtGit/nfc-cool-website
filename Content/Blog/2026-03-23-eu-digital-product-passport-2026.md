@@ -123,7 +123,7 @@ That said, QR codes remain essential as a **fallback and cost-effective option**
 
 If you're a manufacturer or brand implementing DPP via NFC, you'll need tools to **program NFC tags at scale** with the correct URLs pointing to your passport data infrastructure.
 
-This is exactly what apps like [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogDPP&mt=8) are built for. NFC.cool Tools lets you read, write, format, and lock NFC tags directly from your iPhone or Android device - no extra hardware required. For small-batch production, prototyping, or testing your DPP implementation, it's the fastest way to get tags programmed and verified.
+This is exactly what apps like [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_eu-digital-product-passport-2026_en&mt=8) are built for. NFC.cool Tools lets you read, write, format, and lock NFC tags directly from your iPhone or Android device - no extra hardware required. For small-batch production, prototyping, or testing your DPP implementation, it's the fastest way to get tags programmed and verified.
 
 For enterprise-scale deployments, desktop NFC writers (compatible with NTAG, ICODE, and MIFARE chips) handle bulk programming, but the mobile app remains invaluable for **field verification** - scanning products on the shelf or warehouse floor to confirm the passport link works correctly.
 
@@ -161,7 +161,7 @@ Decide whether QR, NFC, or both make sense for your product. Consider the produc
 Your DPP needs to last as long as your product does. That means the data must be hosted on infrastructure that will persist, with the ability to update records post-sale.
 
 ### 5. Get Your NFC Tooling Ready
-If you're going the NFC route, familiarize yourself with tag programming. [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-dpp) supports reading, writing, and verifying NFC tags on both iOS and Android - a practical starting point for testing your DPP tags before committing to bulk production.
+If you're going the NFC route, familiarize yourself with tag programming. [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_eu-digital-product-passport-2026_en) supports reading, writing, and verifying NFC tags on both iOS and Android - a practical starting point for testing your DPP tags before committing to bulk production.
 
 ---
 
@@ -197,4 +197,4 @@ Whether you're a brand preparing for compliance or a consumer curious about what
 
 ---
 
-*Need to read, write, or test NFC tags? [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogDPP&mt=8) is available for free on [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogDPP&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-dpp).*
+*Need to read, write, or test NFC tags? [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_eu-digital-product-passport-2026_en&mt=8) is available for free on [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_eu-digital-product-passport-2026_en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_eu-digital-product-passport-2026_en).*

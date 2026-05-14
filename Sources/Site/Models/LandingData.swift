@@ -1,8 +1,6 @@
 import Foundation
 
 struct LandingData: Decodable, Sendable {
-   let appStoreURL: String
-   let googlePlayURL: String?
    let hero: HeroSection
    let trust: TrustSection?
    let heroImagePath: String?

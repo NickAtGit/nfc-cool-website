@@ -44,7 +44,7 @@ Die häufigste Alternative zu URLs. Kodiere eine vollständige vCard (Name, Tele
 
 QR-Visitenkarten funktionieren genau so out of the box. Es ist auch der Grund, warum eine vCard-QR auf jedem Handy ohne spezielle App funktioniert - vCard ist ein 30 Jahre alter Standard, den das OS bereits kennt.
 
-Der Trade-off vs. dem NFC.cool-Business-Card-Flow: Eine vCard-QR kann nicht aktualisiert werden. Einmal gedruckt, sind die Kontaktdaten eingefroren. Wenn du eine "Single Source of Truth" willst, die du später editieren kannst, kodiere stattdessen eine URL zu deiner Live-Visitenkarten-Seite - genau das macht [NFC.cool Business Card](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogTapScan&mt=8), und deshalb empfehlen wir es für ernsthaftes Networking statt einer rohen vCard-QR.
+Der Trade-off vs. dem NFC.cool-Business-Card-Flow: Eine vCard-QR kann nicht aktualisiert werden. Einmal gedruckt, sind die Kontaktdaten eingefroren. Wenn du eine "Single Source of Truth" willst, die du später editieren kannst, kodiere stattdessen eine URL zu deiner Live-Visitenkarten-Seite - genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_tap-scan-thrive_de&mt=8), und deshalb empfehlen wir es für ernsthaftes Networking statt einer rohen vCard-QR.
 
 ## Klartext
 
@@ -58,4 +58,4 @@ Manche Apps registrieren Custom-URL-Schemes (`myapp://...`) und erkennen damit k
 
 NFC.cools Scanner liest jedes der obigen Formate und routet zur passenden Aktion: URLs öffnen im Browser, vCards bieten Speicherung an, WLAN bietet Verbindung, Standorte öffnen in Maps. Er führt auch eine lokale Historie jedes Scans - nützlich, wenn du 30 Speisekarten auf einer Konferenz gescannt hast und eine wiederfinden willst.
 
-Der gesamte QR-Stack - Generator und Scanner - ist verfügbar in [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogTapScan&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-tap-scan).
+Der gesamte QR-Stack - Generator und Scanner - ist verfügbar in [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_tap-scan-thrive_de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_tap-scan-thrive_de).

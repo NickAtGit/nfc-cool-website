@@ -74,4 +74,4 @@ NFC.cool Toolsは下流で実際に必要な形式にエクスポートします
 
 ---
 
-3DスキャンはNFC.cool Tools for iPhoneの一部です：[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=Blog3DScan&mt=8)。フォトグラメトリーは最新のあらゆるiPhoneで動作します。LiDAR補強はProモデルで動作します。
+3DスキャンはNFC.cool Tools for iPhoneの一部です：[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_3d-scan-feature_ja&mt=8)。フォトグラメトリーは最新のあらゆるiPhoneで動作します。LiDAR補強はProモデルで動作します。

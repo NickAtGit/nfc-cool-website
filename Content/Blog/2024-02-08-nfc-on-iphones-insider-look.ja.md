@@ -51,4 +51,4 @@ NFC無線の上のデータ層が**NDEF**（NFC Data Exchange Format）です。
 
 NFCは、機能するときには姿を消すプロトコルのひとつです。改札機、決済端末、名刺、スマートスピーカーにタップして - 何かが起こる。ペアリングなし、PINなし、アプリ起動なし。意図的な物理的ジェスチャーが、1つの特定のやり取りを認可するだけ。
 
-だから[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogInsiderNFC&mt=8)を作りました。プロトコルを学ばなくても、NFCのNDEF全面を使えるようにするためです。あらゆるタグを読み、あらゆるレコードタイプを書き、終わったらタグをロックする。iPhoneでも[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-insider-nfc)でも。
+だから[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_nfc-on-iphones-insider-look_ja&mt=8)を作りました。プロトコルを学ばなくても、NFCのNDEF全面を使えるようにするためです。あらゆるタグを読み、あらゆるレコードタイプを書き、終わったらタグをロックする。iPhoneでも[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_nfc-on-iphones-insider-look_ja)でも。

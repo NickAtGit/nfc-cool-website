@@ -59,4 +59,4 @@ Für Quittungen, Verträge, unterschriebene Formulare, Geschäftsdokumente - sca
 
 ---
 
-Dokumenten-Scan ist Teil von [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogDocScan&mt=8) (die Android-Version konzentriert sich auf NFC; der Dokumenten-Scanner braucht Apples Vision-Framework).
+Dokumenten-Scan ist Teil von [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_document-scanning-guide_de&mt=8) (die Android-Version konzentriert sich auf NFC; der Dokumenten-Scanner braucht Apples Vision-Framework).

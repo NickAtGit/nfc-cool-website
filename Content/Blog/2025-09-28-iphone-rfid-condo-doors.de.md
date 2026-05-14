@@ -15,7 +15,7 @@ Kennst du das? Du tippst selbstbewusst dein iPhone an die Eingangsanlage deines 
 ### Die Technik, ohne Geek-Speak
 
 - **RFID (Radio-Frequency Identification)** ist eine breite Technologie zur drahtlosen Identifikation und Verfolgung von Objekten. Stell dir RFID vor wie das Zurufen über die Straße zu einer Freundin - meist eine Einbahn-Kommunikation, bei der die RFID-Karte deines Apartments ein Signal aussendet und die Tür zuhört. RFID gibt es in verschiedenen Geschmacksrichtungen: niederfrequent (LF), hochfrequent (HF) und ultrahochfrequent (UHF). Sie steckt in Zutrittskarten, Haustier-Mikrochips, Inventar-Tracking - und ja, auch in diesen nervigen Apartment-Karten.
-- **NFC (Near-Field Communication)** ist im Grunde eine spezialisierte Untermenge von RFID, die im Hochfrequenzbereich (13,56 MHz) arbeitet. Es ist eher das vertraute Gespräch zwischen zwei Freundinnen, die ganz dicht beieinander stehen. NFC ermöglicht bidirektionale Kommunikation, sicheren Datenaustausch und reichhaltige Interaktion - genau deshalb nutzt dein iPhone NFC für Features wie Apple Pay, AirTags und [digitale Visitenkarten](https://business-card.nfc.cool).
+- **NFC (Near-Field Communication)** ist im Grunde eine spezialisierte Untermenge von RFID, die im Hochfrequenzbereich (13,56 MHz) arbeitet. Es ist eher das vertraute Gespräch zwischen zwei Freundinnen, die ganz dicht beieinander stehen. NFC ermöglicht bidirektionale Kommunikation, sicheren Datenaustausch und reichhaltige Interaktion - genau deshalb nutzt dein iPhone NFC für Features wie Apple Pay, AirTags und [digitale Visitenkarten](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_iphone-rfid-condo-doors_de&mt=8).
 
 ### Warum dein iPhone "Nein" zu deiner Apartment-Karte sagt
 

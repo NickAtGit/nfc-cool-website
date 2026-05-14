@@ -16,10 +16,10 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit einem Tipp - NFC, QR-Code, AppClip oder Apple Wallet - und sieh, wer deine Karte tatsächlich speichert. Auf Android sind die gleichen Funktionen direkt in NFC.cool Tools integriert.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web_de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store">
+<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web_business-card_de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_de" class="landing-store-button is-google" aria-label="Get it on Google Play">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_business-card_de" class="landing-store-button is-google" aria-label="Get it on Google Play">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -198,6 +198,6 @@ Wähle den Plan, der zu deinem Networking-Pensum passt. Alle bezahlten Pläne en
 
 ## Auf Android
 
-Die Visitenkarten-Funktion auf Android ist direkt in [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_de) eingebaut - keine zweite App. App öffnen, Karte einrichten, antippen zum Teilen. Gleiches Datenmodell, gleicher NFC-Handshake, gleicher QR-Fallback. Lead-Generierung, erweiterte Analytics und Konferenzmodus sind aktuell nur unter iOS verfügbar.
+Die Visitenkarten-Funktion auf Android ist direkt in [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb_business-card_de) eingebaut - keine zweite App. App öffnen, Karte einrichten, antippen zum Teilen. Gleiches Datenmodell, gleicher NFC-Handshake, gleicher QR-Fallback. Lead-Generierung, erweiterte Analytics und Konferenzmodus sind aktuell nur unter iOS verfügbar.
 
 </section>

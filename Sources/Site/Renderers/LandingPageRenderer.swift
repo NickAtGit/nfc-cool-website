@@ -34,13 +34,16 @@ struct LandingPageRenderer: Renderer {
          hreflang: helper.buildHreflangForAllLanguages { $0.homePath() }
       )
 
+      let homeAppStore = StoreLink.appStore(app: .tools, page: "web_home", locale: locale)
+      let homeGooglePlay = StoreLink.googlePlay(app: .tools, page: "web_home", locale: locale)
+
       var sections: [String] = []
-      sections.append(self.renderHero(data.hero, trust: data.trust, heroImagePath: data.heroImagePath, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL))
+      sections.append(self.renderHero(data.hero, trust: data.trust, heroImagePath: data.heroImagePath, appStoreURL: homeAppStore, googlePlayURL: homeGooglePlay))
       if let features = data.features, !features.isEmpty {
          sections.append(self.renderFeatureGrid(features, title: data.featuresTitle, basePath: context.router.homePath()))
       }
       if let banner = data.featureBanner {
-         sections.append(self.renderFeatureBanner(banner, fallbackURL: data.appStoreURL))
+         sections.append(self.renderFeatureBanner(banner, locale: locale))
       }
       if let reviews = data.appStoreReviews, !reviews.isEmpty {
          sections.append(self.renderAppStoreReviews(reviews, title: data.appStoreReviewsTitle))
@@ -49,7 +52,7 @@ struct LandingPageRenderer: Renderer {
          sections.append(self.renderTestimonials(testimonials, title: data.testimonialsTitle))
       }
       if let pricing = data.pricing {
-         sections.append(self.renderPricing(pricing, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL))
+         sections.append(self.renderPricing(pricing, appStoreURL: homeAppStore, googlePlayURL: homeGooglePlay))
       }
       if let specs = data.techSpecs {
          sections.append(self.renderTechSpecs(specs))
@@ -67,7 +70,7 @@ struct LandingPageRenderer: Renderer {
          sections.append(self.renderSlogan())
       }
       if let cta = data.cta {
-         sections.append(self.renderCTA(cta, trust: data.trust, appStoreURL: data.appStoreURL, googlePlayURL: data.googlePlayURL))
+         sections.append(self.renderCTA(cta, trust: data.trust, appStoreURL: homeAppStore, googlePlayURL: homeGooglePlay))
       }
 
       let mainContent = "<main class=\"sk-main landing-page\">\(sections.joined())</main>"
@@ -188,7 +191,7 @@ struct LandingPageRenderer: Renderer {
       """
    }
 
-   private func renderFeatureBanner(_ banner: FeatureBannerSection, fallbackURL: String) -> String {
+   private func renderFeatureBanner(_ banner: FeatureBannerSection, locale: String) -> String {
       let media: String
       if let videoPath = banner.videoPath {
          media = """
@@ -208,15 +211,18 @@ struct LandingPageRenderer: Renderer {
          media = ""
       }
       let actionHTML: String = {
-         // When the banner specifies its own store URLs, render the same dual
-         // App Store + Google Play badges used in the hero so the call-to-action
-         // is consistent. Otherwise fall back to a single themed CTA button.
-         if let appStore = banner.appStoreURL {
-            return self.renderStoreButtons(appStoreURL: appStore, googlePlayURL: banner.googlePlayURL)
+         // The featureBanner promotes a different app (Business Card) than the
+         // landing hero (Tools). When the YAML provides explicit ctaText+linkURL,
+         // render a single themed button; otherwise render dual store badges
+         // defaulted to Business Card and overridable via YAML.
+         if let ctaText = banner.ctaText, let linkURL = banner.linkURL {
+            return "<a href=\"\(linkURL)\" class=\"landing-cta-button\">\(ctaText.htmlEscaped)</a>"
          }
-         let linkURL = banner.linkURL ?? fallbackURL
-         let label = banner.ctaText ?? ""
-         return "<a href=\"\(linkURL)\" class=\"landing-cta-button\">\(label.htmlEscaped)</a>"
+         let appStore = banner.appStoreURL
+            ?? StoreLink.appStore(app: .businessCard, page: "web_business-card-banner", locale: locale)
+         let googlePlay = banner.googlePlayURL
+            ?? StoreLink.googlePlay(app: .businessCard, page: "web_business-card-banner", locale: locale)
+         return self.renderStoreButtons(appStoreURL: appStore, googlePlayURL: googlePlay)
       }()
       return """
       <section id="business-card" class="landing-feature-banner">
@@ -400,7 +406,7 @@ struct LandingPageRenderer: Renderer {
    private func renderFAQ(_ items: [FAQItem], title: String?) -> String {
       let faqItems = items.map { item in
          """
-         <details class="landing-faq-item">
+         <details class="faq-item">
             <summary>\(item.question.htmlEscaped)</summary>
             <p>\(item.answer.htmlEscaped)</p>
          </details>

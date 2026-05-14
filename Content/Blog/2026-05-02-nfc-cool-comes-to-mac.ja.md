@@ -113,6 +113,6 @@ Macアプリは別製品ではありません。あなたが知っているNFC.c
 
 すでにiPhoneやiPadでNFC.coolを使っているなら、Mac App Storeで待っています - 同じサブスク、同じアカウント、同じライブラリ。
 
-[iPhone、iPad、Mac向けNFC.cool Toolsをダウンロード](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogMacUpdate&mt=8)
+[iPhone、iPad、Mac向けNFC.cool Toolsをダウンロード](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_nfc-cool-comes-to-mac_ja&mt=8)
 
-Androidユーザーの方は？[NFC.cool for Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-mac-update)もご利用いただけます。
+Androidユーザーの方は？[NFC.cool for Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_nfc-cool-comes-to-mac_ja)もご利用いただけます。

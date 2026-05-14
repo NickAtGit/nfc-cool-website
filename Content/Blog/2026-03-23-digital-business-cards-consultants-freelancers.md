@@ -73,7 +73,7 @@ With a digital card displayed on a slide or printed as a QR code on your handout
 
 Freelancers increasingly work across borders. You might be a consultant based in Berlin working with clients in São Paulo, Tokyo, and New York. Paper cards in one language feel limiting.
 
-Digital business cards that support multiple languages let you present your information in whatever language your client prefers. This is a subtle but powerful signal that you take the relationship seriously. [NFC.cool Business Card](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogConsultants&mt=8) supports 35 languages in the app UI and App Clip - meaning your card adapts to virtually any international context on iOS. The Android sharing experience via the nfc.cool website is currently English only.
+Digital business cards that support multiple languages let you present your information in whatever language your client prefers. This is a subtle but powerful signal that you take the relationship seriously. [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-cards-consultants-freelancers_en&mt=8) supports 35 languages in the app UI and App Clip - meaning your card adapts to virtually any international context on iOS. The Android sharing experience via the nfc.cool website is currently English only.
 
 ### 5. Email Signatures
 
@@ -210,10 +210,10 @@ As a freelancer or independent consultant, you don't have the luxury of a big br
 
 Digital business cards remove the friction. They keep your info current, support multiple professional identities, work internationally, and cost a fraction of what you'd spend on paper over a year.
 
-The best card for you depends on your specific needs: if CRM integration is critical, look at Wave Connect or Blinq. If team management matters, consider HiHello. If you want an affordable, privacy-first card that supports NFC hardware and 35 languages, [NFC.cool Business Card](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogConsultants&mt=8) was built for exactly this.
+The best card for you depends on your specific needs: if CRM integration is critical, look at Wave Connect or Blinq. If team management matters, consider HiHello. If you want an affordable, privacy-first card that supports NFC hardware and 35 languages, [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-cards-consultants-freelancers_en&mt=8) was built for exactly this.
 
 Whatever you choose, make the switch. Your future clients will thank you - and so will the trees.
 
 ---
 
-*NFC.cool Business Card is available on the [App Store](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogConsultants&mt=8) and on [Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-consultants). Create your first digital card in under two minutes.*
+*NFC.cool Business Card is available on the [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_digital-business-cards-consultants-freelancers_en&mt=8) and on [Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_digital-business-cards-consultants-freelancers_en). Create your first digital card in under two minutes.*

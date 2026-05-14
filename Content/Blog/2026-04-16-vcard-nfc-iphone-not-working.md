@@ -48,7 +48,7 @@ I don't make the rules. I just build around them.
 
 ## But Wait - Can't an App Read vCards on iPhone?
 
-Technically, yes. If you install an NFC reader app like [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogVcardIphone&mt=8) on iPhone or [NFC.cool Tools on Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-vcard-iphone), it can read the raw tag data - including vCard records - and display the contact info. On Android, [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-vcard-iphone) does this automatically when it detects a vCard on a tag.
+Technically, yes. If you install an NFC reader app like [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_vcard-nfc-iphone-not-working_en&mt=8) on iPhone or [NFC.cool Tools on Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_vcard-nfc-iphone-not-working_en), it can read the raw tag data - including vCard records - and display the contact info. On Android, [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_vcard-nfc-iphone-not-working_en) does this automatically when it detects a vCard on a tag.
 
 But here's the problem: **the person scanning your card needs to already have the app installed.**
 
@@ -68,7 +68,7 @@ Here's the thing nobody tells you when you buy an NFC business card:
 
 Instead, store a URL that points to a digital profile.
 
-That's exactly what [NFC.cool Business Card](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogVcardIphone&mt=8) does. Instead of cramming vCard data onto the tag (where iPhones ignore it), we store a smart link to your digital profile.
+That's exactly what [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_vcard-nfc-iphone-not-working_en&mt=8) does. Instead of cramming vCard data onto the tag (where iPhones ignore it), we store a smart link to your digital profile.
 
 **When someone taps your card:**
 
@@ -107,7 +107,7 @@ Changed jobs? New phone number? Update your profile once - everyone who has your
 vCards can't do any of this. They're frozen in time the moment you write them.
 
 ▸ **Works on Every Phone**
-Unlike vCard, a URL-based profile works on every smartphone - iPhone, Android, even older devices with just a browser. The [NFC.cool Business Card app](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogVcardIphone&mt=8) on iOS uses an [App Clip](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogVcardIphone&mt=8) so recipients don't even need to install anything. On Android, [NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-vcard-iphone) (inside NFC.cool Tools) opens a web profile instantly.
+Unlike vCard, a URL-based profile works on every smartphone - iPhone, Android, even older devices with just a browser. The [NFC.cool Business Card app](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_vcard-nfc-iphone-not-working_en&mt=8) on iOS uses an [App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_vcard-nfc-iphone-not-working_en&mt=8) so recipients don't even need to install anything. On Android, [NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_vcard-nfc-iphone-not-working_en) (inside NFC.cool Tools) opens a web profile instantly.
 
 ---
 
@@ -123,7 +123,7 @@ Yes. Every iPhone with background NFC reading (iPhone XS and newer, running iOS 
 
 **Can I read vCard NFC tags on iPhone at all?**
 
-Only with an NFC reader app installed. [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogVcardIphone&mt=8) on iPhone and [NFC.cool Tools on Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-vcard-iphone) can both read and display vCard data from NFC tags. Android does this natively without an app; iPhone requires one. But for business card sharing, the better path is [NFC.cool Business Card](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogVcardIphone&mt=8) - no app needed on the receiving end.
+Only with an NFC reader app installed. [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_vcard-nfc-iphone-not-working_en&mt=8) on iPhone and [NFC.cool Tools on Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_vcard-nfc-iphone-not-working_en) can both read and display vCard data from NFC tags. Android does this natively without an app; iPhone requires one. But for business card sharing, the better path is [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_vcard-nfc-iphone-not-working_en&mt=8) - no app needed on the receiving end.
 
 **What NFC tags work best for digital business cards?**
 
@@ -131,7 +131,7 @@ Any NTAG213 or NTAG215 tag works great. The data stored is just a URL, so you do
 
 **Can I write NFC tags with my iPhone?**
 
-Yes - [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogVcardIphone&mt=8) lets you write URLs and other data to NFC tags directly on iPhone. It supports all common NDEF record types and works with any NTAG tag.
+Yes - [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_vcard-nfc-iphone-not-working_en&mt=8) lets you write URLs and other data to NFC tags directly on iPhone. It supports all common NDEF record types and works with any NTAG tag.
 
 ---
 
@@ -153,4 +153,4 @@ I tap. They save. We both move on with our lives.
 
 ---
 
-*NFC.cool Business Card is available on the [App Store](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogVcardIphone&mt=8) and [Android (inside NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-vcard-iphone). NFC.cool Tools (tag reader and writer) is available on the [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=BlogVcardIphone&mt=8) and [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-vcard-iphone).*
+*NFC.cool Business Card is available on the [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_vcard-nfc-iphone-not-working_en&mt=8) and [Android (inside NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_vcard-nfc-iphone-not-working_en). NFC.cool Tools (tag reader and writer) is available on the [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog_vcard-nfc-iphone-not-working_en&mt=8) and [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_vcard-nfc-iphone-not-working_en).*

@@ -64,7 +64,7 @@ If you don't have one yet, look for these conference-specific features:
 - **No app required for recipients** - The person you're meeting shouldn't need to download anything. If your card requires the other person to install an app before they can see your info, you've already lost them.
 - **Multi-language support** - For international conferences, having your card available in the recipient's language is a real differentiator.
 
-[NFC.cool Business Card](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogConference&mt=8) covers all of these - NFC + QR + link sharing, multiple card profiles, no app needed for recipients (App Clip on iOS, website on Android), and the app UI and App Clip support 35 languages. It's what we'd recommend, but whatever you choose, make sure it hits those criteria.
+[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_replace-paper-business-cards-conference_en&mt=8) covers all of these - NFC + QR + link sharing, multiple card profiles, no app needed for recipients (App Clip on iOS, website on Android), and the app UI and App Clip support 35 languages. It's what we'd recommend, but whatever you choose, make sure it hits those criteria.
 
 #### Create an event-specific card (or update your existing one)
 
@@ -181,7 +181,7 @@ And if someone genuinely insists on paper, you can always say "I've gone digital
 
 Here's everything you need to do, in order:
 
-- [ ] **Download a digital business card app** (we recommend [NFC.cool Business Card](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogConference&mt=8) - free on [iOS](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogConference&mt=8) and [Android (inside NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-conference))
+- [ ] **Download a digital business card app** (we recommend [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_replace-paper-business-cards-conference_en&mt=8) - free on [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_replace-paper-business-cards-conference_en&mt=8) and [Android (inside NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_replace-paper-business-cards-conference_en))
 - [ ] **Create your card** with name, title, company, contact info, and links
 - [ ] **Add your photo** - it helps people remember you after the event
 - [ ] **Save your QR code to Apple Wallet (iOS)** for quick lock-screen access
@@ -230,4 +230,4 @@ Your next conference is coming up. This time, leave the paper at home.
 
 ---
 
-*NFC.cool Business Card is available for free on [iOS](https://apps.apple.com/app/nfc-cool-business-card-maker/id6502926572?pt=106913804&ct=BlogConference&mt=8) and on [Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dblog-conference). Create your first card in under a minute.*
+*NFC.cool Business Card is available for free on [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog_replace-paper-business-cards-conference_en&mt=8) and on [Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog_replace-paper-business-cards-conference_en). Create your first card in under a minute.*
