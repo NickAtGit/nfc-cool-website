@@ -271,14 +271,6 @@
    line-height: 1.65;
 }
 .page-section li { margin: 0.35rem 0; }
-/* Inline text links inside a page-section get the brand-yellow underline.
-   Carve out .landing-cta-button so the unified primary button keeps its
-   outlined-pill design without a yellow bottom-edge bleeding through. */
-.page-section a:not(.landing-cta-button) {
-   color: var(--color-text);
-   border-bottom: 1px solid var(--color-accent);
-}
-.page-section a:not(.landing-cta-button):hover { color: var(--color-accent-hover); }
 
 /* Tighten the gap between hero and first section */
 .page-hero + .page-section { padding-top: clamp(3rem, 5vw, 4rem); }
@@ -330,14 +322,6 @@
 .page-card p + p {
    margin-top: 0.875rem;
 }
-/* Inline text links inside a card get the brand-yellow underline. The
-   `:not(.landing-cta-button)` carve-out keeps the unified primary-button
-   rule from inheriting a yellow border-bottom that fights its own outline. */
-.page-card a:not(.landing-cta-button) {
-   color: var(--color-text);
-   border-bottom: 1px solid var(--color-accent);
-}
-.page-card a:not(.landing-cta-button):hover { color: var(--color-accent-hover); }
 
 /* ============================================================
    Social-media card grid used on /contact/. Each card shows the

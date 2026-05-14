@@ -68,6 +68,8 @@
    --brand-blue-2: #00A2F3;
    --brand-gradient: linear-gradient(180deg, var(--brand-blue-1) 0%, var(--brand-blue-2) 100%);
    --brand-gradient-radial: radial-gradient(at 80% 20%, var(--brand-blue-2) 0%, var(--brand-blue-1) 60%);
+   --color-link: var(--brand-blue-1);
+   --color-link-hover: var(--brand-blue-2);
 }
 
 /* Dark-mode hero — match the page bg (#161B22 = --color-bg in dark mode)
@@ -78,6 +80,8 @@
       radial-gradient(ellipse 85% 55% at 50% 50%, rgba(255, 199, 9, 0.10) 0%, transparent 70%),
       linear-gradient(180deg, #161B22 0%, #161B22 100%);
    --brand-gradient-radial: radial-gradient(at 50% 50%, rgba(255, 199, 9, 0.08) 0%, #161B22 60%);
+   --color-link: var(--color-accent);
+   --color-link-hover: var(--color-accent-hover);
 }
 /* Suppress the light-mode white-tint radial highlight + grain on every
    brand-gradient section in dark mode. The bright top-right glow that
@@ -404,15 +408,22 @@ body.landing .sk-main {
 .sk-static-page li {
    color: var(--color-text-secondary);
 }
-.sk-static-page a {
+.sk-static-page a,
+.page-section a:not(.landing-cta-button),
+.page-card a:not(.landing-cta-button),
+.blog-post-body a {
    color: var(--color-text);
    text-decoration: underline;
-   text-decoration-color: var(--color-accent);
+   text-decoration-color: var(--color-link);
    text-underline-offset: 3px;
    text-decoration-thickness: 2px;
 }
-.sk-static-page a:hover {
-   color: var(--color-accent-hover);
+.sk-static-page a:hover,
+.page-section a:not(.landing-cta-button):hover,
+.page-card a:not(.landing-cta-button):hover,
+.blog-post-body a:hover {
+   color: var(--color-link-hover);
+   text-decoration-color: var(--color-link-hover);
 }
 .sk-static-page blockquote {
    border-left: 3px solid var(--color-accent);
