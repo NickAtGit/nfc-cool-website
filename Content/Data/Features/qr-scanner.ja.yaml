@@ -24,15 +24,13 @@ screenshots:
   - path: "/assets/images/Webflow/qr-barcode.webp"
     alt: "QRコードをスキャン"
 
-specsTitle: "対応フォーマットと書き出し"
+specsTitle: "対応コードとスタジオ書き出し"
 specs:
-  - title: "2Dコード"
+  - title: "QRバリアント(カメラ + 写真ライブラリ)"
     items:
-      - "QRコード(M1-M4)"
-      - "Micro QR"
-      - "Aztec"
-      - "Data Matrix"
-      - "PDF417"
+      - "QRコード(バージョン 1-40)"
+      - "Micro QR(M1-M4)"
+      - "1枚の画像から複数コード検出"
   - title: "スタジオ書き出し"
     items:
       - "SVG(ベクター)"

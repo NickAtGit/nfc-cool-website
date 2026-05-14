@@ -24,15 +24,13 @@ screenshots:
   - path: "/assets/images/Webflow/qr-barcode.webp"
     alt: "QR-Code scannen"
 
-specsTitle: "Unterstützte Formate & Exporte"
+specsTitle: "Unterstützte Codes & Studio-Exporte"
 specs:
-  - title: "2D-Codes"
+  - title: "QR-Varianten (Kamera + Foto-Mediathek)"
     items:
-      - "QR Code (M1-M4)"
-      - "Micro QR"
-      - "Aztec"
-      - "Data Matrix"
-      - "PDF417"
+      - "QR Code (Versionen 1-40)"
+      - "Micro QR (M1-M4)"
+      - "Mehrere Codes pro Bild"
   - title: "Studio-Export"
     items:
       - "SVG (Vektor)"

@@ -3,14 +3,14 @@ backLinkText: "← すべての機能"
 
 hero:
   title: "バーコードスキャナー"
-  subtitle: "EAN、UPC、Code 128、PDF417、Aztec、Data Matrixなど20種類以上の形式に対応。バッチモードでカメラを開いたままに - 棚卸しやイベント受付に最適です。"
+  subtitle: "19種類のコード形式に対応 - 13種類のリニアバーコード(EAN、UPC、Code 128、GS1 DataBarなど)と6種類の2次元コード(QR、PDF417、Aztec、Data Matrix、Microバリアント)。バッチモードでカメラを開いたままに - 棚卸しやイベント受付に最適です。"
   platforms: "iOSのみ"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "できること"
 capabilities:
   - title: "主要なバーコード形式すべてに対応"
-    description: "EAN-13/8、UPC-A/E、Code 128、Code 39、ITF、PDF417、Aztec、Data Matrixなど - 自動形式判定で、モード切替不要。"
+    description: "EAN-13/8、UPC-E(UPC-AはEAN-13として読み取り)、Code 128、Code 39(Mod 43を含む)、Code 93、ITF、ITF-14、Codabar、GS1 DataBar、PDF417、Aztec、Data Matrixなど - 自動形式判定で、モード切替不要。"
   - title: "バッチモード"
     description: "再照準なしで連続してバーコードをスキャン。棚卸し、イベントの受付、図書館アーカイブなどに最適です。"
   - title: "商品検索"
@@ -22,18 +22,23 @@ screenshots:
   - path: "/assets/images/Webflow/qr-barcode.webp"
     alt: "カメラでバーコードをスキャン"
 
-specsTitle: "対応フォーマット"
+specsTitle: "対応フォーマット(全19種)"
 specs:
-  - title: "1Dバーコード"
+  - title: "1Dバーコード(13形式)"
     items:
       - "EAN-13、EAN-8"
-      - "UPC-A、UPC-E"
-      - "Code 128、Code 39、Code 93"
-      - "Interleaved 2 of 5(ITF)"
+      - "UPC-E(UPC-AはEAN-13として読み取り)"
+      - "Code 39、Code 39 Mod 43"
+      - "Code 93、Code 128"
       - "Codabar"
-  - title: "スタック / 2D"
+      - "Interleaved 2 of 5、ITF-14"
+      - "GS1 DataBar(標準、Expanded、Limited)"
+  - title: "2D・スタック型コード(6形式)"
     items:
+      - "QRコード"
+      - "Micro QR"
       - "PDF417"
+      - "Micro PDF417"
       - "Aztec"
       - "Data Matrix"
       - "MaxiCode"

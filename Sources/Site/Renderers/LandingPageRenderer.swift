@@ -452,11 +452,16 @@ struct LandingPageRenderer: Renderer {
    }
 
    private func renderFAQ(_ items: [FAQItem], title: String?) -> String {
+      // Question is plain text, escaped for safety. Answer is treated as
+      // raw HTML so authors can include inline links (e.g.
+      // `<a href="/affiliate-links/">…</a>`) and basic formatting. Source
+      // is `Content/Data/Landing*.yaml`, never user input — XSS isn't a
+      // concern.
       let faqItems = items.map { item in
          """
          <details class="faq-item">
             <summary>\(item.question.htmlEscaped)</summary>
-            <p>\(item.answer.htmlEscaped)</p>
+            <p>\(item.answer)</p>
          </details>
          """
       }.joined()

@@ -3,14 +3,14 @@ backLinkText: "← Alle Funktionen"
 
 hero:
   title: "Barcode-Scanner"
-  subtitle: "Scanne EAN, UPC, Code 128, PDF417, Aztec, Data Matrix und über 20 weitere Formate. Im Batch-Modus bleibt die Kamera offen - ideal für Inventur und Event-Check-ins."
+  subtitle: "Scanne 19 Code-Formate - 13 lineare Barcodes (EAN, UPC, Code 128, GS1 DataBar und mehr) plus 6 zweidimensionale Codes (QR, PDF417, Aztec, Data Matrix und Micro-Varianten). Im Batch-Modus bleibt die Kamera offen - ideal für Inventur und Event-Check-ins."
   platforms: "Nur iOS"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "Was du machen kannst"
 capabilities:
   - title: "Alle gängigen Barcode-Formate"
-    description: "EAN-13/8, UPC-A/E, Code 128, Code 39, ITF, PDF417, Aztec, Data Matrix und mehr - automatische Formaterkennung, kein Modus-Wechsel."
+    description: "EAN-13/8, UPC-E (UPC-A wird als EAN-13 gelesen), Code 128, Code 39 (inkl. Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix und mehr - automatische Formaterkennung, kein Modus-Wechsel."
   - title: "Batch-Modus"
     description: "Scanne eine Reihe von Barcodes hintereinander, ohne neu zu zielen. Praktisch für Inventur, Event-Check-ins oder Bibliotheks-Archivierung."
   - title: "Produktsuche"
@@ -22,18 +22,23 @@ screenshots:
   - path: "/assets/images/Webflow/qr-barcode.webp"
     alt: "Barcode mit der Kamera scannen"
 
-specsTitle: "Unterstützte Formate"
+specsTitle: "Unterstützte Formate (19 insgesamt)"
 specs:
-  - title: "1D-Barcodes"
+  - title: "1D-Barcodes (13 Formate)"
     items:
       - "EAN-13, EAN-8"
-      - "UPC-A, UPC-E"
-      - "Code 128, Code 39, Code 93"
-      - "Interleaved 2 of 5 (ITF)"
+      - "UPC-E (UPC-A wird als EAN-13 gelesen)"
+      - "Code 39, Code 39 Mod 43"
+      - "Code 93, Code 128"
       - "Codabar"
-  - title: "Gestapelt / 2D"
+      - "Interleaved 2 of 5, ITF-14"
+      - "GS1 DataBar (Standard, Expanded, Limited)"
+  - title: "2D- / gestapelte Codes (6 Formate)"
     items:
+      - "QR Code"
+      - "Micro QR"
       - "PDF417"
+      - "Micro PDF417"
       - "Aztec"
       - "Data Matrix"
       - "MaxiCode"
