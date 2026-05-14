@@ -4,6 +4,9 @@ hero:
 
 heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
 
+ogImage: "/assets/images/og-landing.webp"
+ogImageAlt: "NFC.cool - Scan NFC Tags, QR Codes, Barcodes, Documents, 3D Objects and Rooms"
+
 featuresTitle: "Everything you need to scan"
 features:
   - title: "NFC Reading & Writing"
