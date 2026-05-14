@@ -3,6 +3,10 @@ import Foundation
 struct LandingData: Decodable, Sendable {
    let hero: HeroSection
    let trust: TrustSection?
+   /// Meta description for the landing page. When present, takes precedence
+   /// over `hero.subtitle` as the value passed to `<meta name="description">`.
+   /// Should be 140+ chars (Latin) or 80+ chars (CJK) for SEO compliance.
+   let description: String?
    let heroImagePath: String?
    /// Intrinsic pixel dimensions of `heroImagePath`. Emitted as the `width`
    /// and `height` attributes on the hero `<img>` so the browser can reserve

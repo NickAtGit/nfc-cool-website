@@ -1,7 +1,7 @@
 ---
 title: "Was Nutzer sagen"
 slug: "reviews"
-description: "Echte 5-Sterne-Bewertungen von NFC.cool aus dem App Store - aus aller Welt."
+description: "Lies, was Menschen über NFC.cool sagen - echte 5-Sterne-Bewertungen aus dem App Store von Nutzer:innen in den USA, Deutschland, Japan und darüber hinaus, für iPhone und Android."
 ---
 
 <section class="page-hero">

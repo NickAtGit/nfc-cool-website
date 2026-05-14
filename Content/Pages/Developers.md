@@ -1,7 +1,7 @@
 ---
 title: "Developers"
 slug: "developers"
-description: "How to plug NFC.cool into your stack: webhook payload reference, App Intents, URL schemes, and machine-readable feeds."
+description: "How to plug NFC.cool into your stack - webhook payload reference, App Intents, URL schemes, machine-readable feeds, and everything you need for server-side integration on iPhone and Android."
 ---
 
 <section class="page-hero">

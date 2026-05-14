@@ -1,7 +1,7 @@
 ---
 title: "Presse & Brand Kit"
 slug: "press"
-description: "Presse-Ressourcen, Marken-Assets, Logos, Screenshots und Kontaktdaten für Journalist:innen und Partner, die über NFC.cool berichten."
+description: "Presse-Ressourcen für NFC.cool - Marken-Assets, Logos, Screenshots, App-Icons und direkte Kontaktdaten für Journalist:innen, Podcaster:innen und Partner, die über das All-in-One-Scan-Toolkit berichten."
 ---
 
 <section class="page-hero">

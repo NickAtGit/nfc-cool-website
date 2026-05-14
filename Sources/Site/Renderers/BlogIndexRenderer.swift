@@ -140,9 +140,9 @@ struct BlogIndexRenderer: Renderer {
       case ("blog", "de"): return "Anleitungen, Vergleiche und How-tos zu NFC-Tags, QR-Codes, Barcodes und digitalen Visitenkarten auf iPhone und Android. Geschrieben vom Entwickler hinter NFC.cool."
       case ("blog", "ja"): return "NFCタグ、QRコード、バーコード、iPhoneとAndroidのデジタル名刺に関するガイド、比較、ハウツー。NFC.coolの開発者が直接執筆しています。"
       case ("blog", _):    return "Guides, comparisons, and how-tos on NFC tags, QR codes, barcodes, and digital business cards on iPhone and Android. Written by the developer behind NFC.cool."
-      case ("changelog", "de"): return "Release-Notes für NFC.cool Tools, Business Card und die Website."
-      case ("changelog", "ja"): return "NFC.cool Tools、Business Card、ウェブサイトのリリースノート。"
-      case ("changelog", _):    return "Release notes for NFC.cool Tools, Business Card, and the website."
+      case ("changelog", "de"): return "Release-Notes für NFC.cool Tools (iOS + Android), die eigenständige Business Card App für iPhone und die Website - was neu ist, was sich verbessert hat und was als Nächstes kommt."
+      case ("changelog", "ja"): return "NFC.cool Tools(iOS + Android)、iPhone専用のBusiness Cardアプリ、そしてウェブサイトのリリースノート - 何がリリースされ、何が改善され、次に何が来るのか。"
+      case ("changelog", _):    return "Release notes for NFC.cool Tools (iOS + Android), the standalone Business Card iOS app, and the website - what shipped, what improved, what's next."
       default: return ""
       }
    }

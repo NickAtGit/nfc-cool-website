@@ -61,16 +61,21 @@ struct CategoryListingRenderer: Renderer {
 
    private static func localizedDescription(forSlug slug: String, locale: String) -> String? {
       switch (slug, locale) {
-      case ("nfc", "de"):                return "Artikel über NFC-Tags, NDEF-Datensätze und Tap-Interaktionen."
-      case ("nfc", "ja"):                return "NFCタグ、NDEFレコード、タップ操作に関する記事。"
-      case ("qr-barcode", "de"):         return "Artikel über QR-Codes, Barcode-Formate und das QR Code Studio."
-      case ("qr-barcode", "ja"):         return "QRコード、バーコード形式、QR Code Studioに関する記事。"
-      case ("document", "de"):           return "Artikel über Dokumentenscannen, OCR und PDFs."
-      case ("document", "ja"):           return "ドキュメントスキャン、OCR、PDFに関する記事。"
-      case ("3d-scan", "de"):            return "Artikel über Photogrammetrie, LiDAR und 3D-Modell-Export."
-      case ("3d-scan", "ja"):            return "フォトグラメトリ、LiDAR、3Dモデルのエクスポートに関する記事。"
-      case ("business-card", "de"):      return "Artikel über NFC.cool Business Card und digitales Networking."
-      case ("business-card", "ja"):      return "NFC.cool Business Cardとデジタルネットワーキングに関する記事。"
+      case ("nfc", "en"):                return "Articles about NFC tags, NDEF records, and tap interactions - choosing tags, writing them, and building NFC-powered automations on iPhone and Android."
+      case ("nfc", "de"):                return "Artikel über NFC-Tags, NDEF-Datensätze und Tap-Interaktionen - Tags auswählen, beschreiben und NFC-Automatisierungen auf iPhone und Android bauen."
+      case ("nfc", "ja"):                return "NFCタグ、NDEFレコード、タップ操作に関する記事 - タグの選び方、書き込み方、そしてiPhoneとAndroidでNFCを使った自動化を構築する方法を紹介します。"
+      case ("qr-barcode", "en"):         return "Articles about QR codes, barcode formats (EAN, UPC, Code 128, Aztec, PDF417), and designing branded QR codes in the NFC.cool QR Code Studio."
+      case ("qr-barcode", "de"):         return "Artikel über QR-Codes, Barcode-Formate (EAN, UPC, Code 128, Aztec, PDF417) und das Gestalten von Marken-QR-Codes im NFC.cool QR Code Studio."
+      case ("qr-barcode", "ja"):         return "QRコード、バーコード形式(EAN、UPC、Code 128、Aztec、PDF417)、そしてNFC.cool QR Code Studioでブランドに合わせたQRコードをデザインする方法に関する記事。"
+      case ("document", "en"):           return "Articles about document scanning, on-device OCR, and producing searchable, indexed PDFs with the NFC.cool Tools document scanner on iPhone and iPad."
+      case ("document", "de"):           return "Artikel über Dokumentenscannen, On-Device-OCR und das Erstellen durchsuchbarer PDFs mit dem NFC.cool Tools Dokumenten-Scanner auf dem iPhone."
+      case ("document", "ja"):           return "ドキュメントスキャン、オンデバイスOCR、そしてNFC.cool ToolsのドキュメントスキャナーでiPhoneから検索可能なPDFを作成する方法に関する記事。"
+      case ("3d-scan", "en"):            return "Articles about photogrammetry, LiDAR-based room mapping, and exporting textured 3D models (USDZ, OBJ, STL, PLY) for AR, 3D printing, and visualisation on iPhone."
+      case ("3d-scan", "de"):            return "Artikel über Photogrammetrie, LiDAR-basiertes Raum-Mapping und den Export von 3D-Modellen (USDZ, OBJ, STL, PLY) für AR und 3D-Druck auf dem iPhone."
+      case ("3d-scan", "ja"):            return "フォトグラメトリ、LiDARによる空間マッピング、そしてiPhoneでARや3D印刷向けに3Dモデル(USDZ、OBJ、STL、PLY)をエクスポートする方法に関する記事。"
+      case ("business-card", "en"):      return "Articles about NFC.cool Business Card and digital networking - NFC taps, AppClips, Apple Wallet passes, and replacing paper cards at conferences and meetups."
+      case ("business-card", "de"):      return "Artikel über NFC.cool Business Card und digitales Networking - NFC-Taps, AppClips, Apple Wallet Pässe und der Verzicht auf Papierkarten bei Konferenzen und Meetups."
+      case ("business-card", "ja"):      return "NFC.cool Business Cardとデジタルネットワーキングに関する記事 - NFCタップ、AppClip、Apple Walletパス、そしてカンファレンスやミートアップで紙の名刺を置き換える方法を紹介します。"
       default:                           return nil  // Let SiteKit fall back to the English description from SiteConfig.yaml
       }
    }

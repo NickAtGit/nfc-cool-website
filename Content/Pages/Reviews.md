@@ -1,7 +1,7 @@
 ---
 title: "What people are saying"
 slug: "reviews"
-description: "Real 5-star App Store reviews of NFC.cool from users around the world."
+description: "Read what people say about NFC.cool - real 5-star App Store reviews from users in the United States, Germany, Japan and beyond, covering NFC.cool Tools on iPhone and Android."
 ---
 
 <section class="page-hero">

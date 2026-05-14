@@ -1,7 +1,7 @@
 ---
 title: "Über NFC.cool"
 slug: "about"
-description: "Die Geschichte, die Mission und die Person hinter NFC.cool - ein datenschutzfreundliches Scan-Toolkit, das unabhängig entwickelt wurde."
+description: "Die Geschichte, die Mission und die Person hinter NFC.cool - ein datenschutzfreundliches Scan-Toolkit für iPhone und Android, unabhängig entwickelt von einem Solo-Entwickler mit tiefem Plattform-Know-how."
 ---
 
 <section class="page-hero">

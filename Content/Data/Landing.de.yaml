@@ -2,6 +2,8 @@ hero:
   title: "Der All-in-One-Scanner für dein Smartphone"
   subtitle: "Scanne NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle und Räume!"
 
+description: "Scanne NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle und Räume mit NFC.cool - das All-in-One-Scan-Toolkit für iPhone und Android, kostenlos."
+
 heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
 heroImageWidth: 2540
 heroImageHeight: 2540

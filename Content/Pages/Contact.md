@@ -1,7 +1,7 @@
 ---
 title: "Support & Contact"
 slug: "contact"
-description: "Get in touch with NFC.cool. Email, FAQ, and social channels."
+description: "Reach NFC.cool - email support, frequently asked questions, the developer's direct line for partnership and integration enquiries, and social channels."
 ---
 
 <section class="page-hero">

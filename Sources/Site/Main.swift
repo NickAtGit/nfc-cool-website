@@ -10,6 +10,7 @@ import SiteKit
          .replacing(StaticPageRenderer.self, with: MarketingPageRenderer())
          .replacing(SiteKit.CategoryListingRenderer.self, with: CategoryListingRenderer())
          .replacing(SiteKit.TagListingRenderer.self, with: TagListingRenderer())
+         .replacing(SiteKit.RobotsTxtRenderer.self, with: RobotsTxtRenderer())
          .renderer(FeaturePageRenderer())
          .renderer(FeaturesIndexRenderer())
          .renderer(StaticRootFilesRenderer())

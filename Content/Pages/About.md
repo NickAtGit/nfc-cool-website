@@ -1,7 +1,7 @@
 ---
 title: "About NFC.cool"
 slug: "about"
-description: "The story, the mission, and the person behind NFC.cool - a privacy-first scanning toolkit built independently."
+description: "The story, the mission, and the person behind NFC.cool - a privacy-first scanning toolkit for iPhone and Android, built independently by a solo developer with deep platform knowledge."
 ---
 
 <section class="page-hero">

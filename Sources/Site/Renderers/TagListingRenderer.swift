@@ -61,9 +61,9 @@ struct TagListingRenderer: Renderer {
 
    private static func localizedDescription(locale: String) -> String {
       switch locale {
-      case "de": return "Themen im NFC.cool Blog durchstöbern."
-      case "ja": return "NFC.coolブログの記事をトピック別に閲覧。"
-      default:   return "Browse posts by topic on the NFC.cool blog."
+      case "de": return "Themen im NFC.cool Blog durchstöbern - Artikel zu NFC-Tags, QR-Codes, Barcodes, Dokumentenscannen, 3D-Erfassung und digitalen Visitenkarten für iPhone und Android."
+      case "ja": return "NFC.coolブログの記事をトピック別に閲覧 - NFCタグ、QRコード、バーコード、ドキュメントスキャン、3Dキャプチャ、そしてiPhoneとAndroid向けのデジタル名刺に関する記事を紹介。"
+      default:   return "Browse posts by topic on the NFC.cool blog - NFC tags, QR codes, barcodes, document scanning, 3D capture, and digital business cards for iPhone and Android."
       }
    }
 }

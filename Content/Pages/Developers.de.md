@@ -1,7 +1,7 @@
 ---
 title: "Entwickler"
 slug: "developers"
-description: "NFC.cool in deinen Stack einbinden: Webhook-Payload, App Intents, URL-Schemata und maschinenlesbare Feeds."
+description: "NFC.cool in deinen Stack einbinden - Webhook-Payload-Referenz, App Intents, URL-Schemata, maschinenlesbare Feeds und alles, was du für eine serverseitige Integration auf iPhone und Android brauchst."
 ---
 
 <section class="page-hero">

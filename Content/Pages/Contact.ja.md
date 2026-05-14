@@ -1,7 +1,7 @@
 ---
 title: "サポート & お問い合わせ"
 slug: "contact"
-description: "NFC.coolへのお問い合わせ。メール、FAQ、SNS。"
+description: "NFC.coolへのお問い合わせ - メールサポート、よくある質問、パートナーシップやインテグレーションに関する開発者への直接連絡、そして各種SNSチャンネル。NFC.coolについてご質問のある方はお気軽にどうぞ。"
 ---
 
 <section class="page-hero">

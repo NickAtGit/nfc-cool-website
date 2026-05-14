@@ -38,7 +38,7 @@ struct LandingPageRenderer: Renderer {
 
       let head = helper.buildHead(
          title: pageTitle,
-         description: data.hero.subtitle,
+         description: data.description ?? data.hero.subtitle,
          canonicalURL: context.config.baseURL + context.router.homePath(),
          ogType: "website",
          image: ogImageAbsolute,
