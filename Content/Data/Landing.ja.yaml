@@ -3,6 +3,8 @@ hero:
   subtitle: "NFCタグ、QRコード、バーコード、書類、3Dモデル、お部屋までスキャン!"
 
 heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+heroImageWidth: 2540
+heroImageHeight: 2540
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - NFCタグ、QRコード、バーコード、書類、3Dオブジェクト、ルームをスキャン"

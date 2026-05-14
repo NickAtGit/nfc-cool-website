@@ -46,14 +46,15 @@ struct LandingPageRenderer: Renderer {
          rssFeedURL: "/feed.xml",
          rssFeedTitle: "\(context.config.name) - \(context.uiStrings.locale == "de" ? "Blog & Changelog" : (context.uiStrings.locale == "ja" ? "ブログ・更新履歴" : "Blog & Changelog"))",
          jsonLD: jsonLD,
-         hreflang: helper.buildHreflangForAllLanguages { $0.homePath() }
+         hreflang: helper.buildHreflangForAllLanguages { $0.homePath() },
+         preloadImageURL: data.heroImagePath
       )
 
       let homeAppStore = StoreLink.appStore(app: .tools, page: "web_home", locale: locale)
       let homeGooglePlay = StoreLink.googlePlay(app: .tools, page: "web_home", locale: locale)
 
       var sections: [String] = []
-      sections.append(self.renderHero(data.hero, trust: data.trust, heroImagePath: data.heroImagePath, appStoreURL: homeAppStore, googlePlayURL: homeGooglePlay))
+      sections.append(self.renderHero(data.hero, trust: data.trust, heroImagePath: data.heroImagePath, heroImageWidth: data.heroImageWidth, heroImageHeight: data.heroImageHeight, appStoreURL: homeAppStore, googlePlayURL: homeGooglePlay))
       if let features = data.features, !features.isEmpty {
          sections.append(self.renderFeatureGrid(features, title: data.featuresTitle, basePath: context.router.homePath()))
       }
@@ -177,13 +178,17 @@ struct LandingPageRenderer: Renderer {
 
    // MARK: - Section Renderers
 
-   private func renderHero(_ hero: HeroSection, trust: TrustSection?, heroImagePath: String?, appStoreURL: String, googlePlayURL: String?) -> String {
+   private func renderHero(_ hero: HeroSection, trust: TrustSection?, heroImagePath: String?, heroImageWidth: Int?, heroImageHeight: Int?, appStoreURL: String, googlePlayURL: String?) -> String {
       let titleHTML = self.renderTitleWithBrandTail(hero.title, tagName: "h1", classAttr: "landing-hero-title")
       let visualHTML: String
       if let path = heroImagePath {
+         let dimensions: String = {
+            guard let width = heroImageWidth, let height = heroImageHeight else { return "" }
+            return " width=\"\(width)\" height=\"\(height)\""
+         }()
          visualHTML = """
             <div class="landing-hero-visual">
-               <img src="\(path)" alt="\(hero.title.htmlEscaped) screenshot" loading="eager" fetchpriority="high"/>
+               <img src="\(path)" alt="\(hero.title.htmlEscaped) screenshot"\(dimensions) loading="eager" fetchpriority="high"/>
             </div>
          """
       } else {

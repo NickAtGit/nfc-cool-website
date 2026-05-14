@@ -1,0 +1,43 @@
+# Declares CSS display widths so SiteKit's ImageResizer generates appropriately-
+# sized WebP variants and emits responsive srcset / sizes on each `<img>`. Without
+# this manifest, the pipeline falls back to a heuristic that ships the source
+# image at full width to every viewport.
+#
+# Roles are tested top-to-bottom, first match wins. Keep `default` last.
+
+roles:
+  # Landing hero — the LCP element. Source is square 2540×2540 (oversized iPad
+  # screenshot); mobile renders at max-width 320 CSS px, desktop around 500 CSS px.
+  # Setting mobileWidth=390 / desktopWidth=720 covers 2× DPR on each.
+  - name: landing-hero
+    selector: ".landing-hero-visual > img"
+    desktopWidth: 720
+    mobileWidth: 390
+
+  # Feature grid cards — render at ~220 CSS px width on desktop (3-column grid)
+  # and stack to ~390 CSS px wide on mobile. Use the wider value for both at 2×.
+  - name: feature-card
+    selector: "img.landing-feature-image"
+    desktopWidth: 440
+    mobileWidth: 440
+
+  # Business Card / feature banner image — large below-fold media.
+  - name: feature-banner
+    selector: ".landing-feature-banner-image > img"
+    desktopWidth: 960
+    mobileWidth: 720
+
+  # Small inline avatars (testimonials, App Store reviews, trusted-by icons) —
+  # rendered at 40–48 CSS px. 96 px covers 2× DPR.
+  - name: small-avatar
+    selector: "img.landing-testimonial-avatar, img.landing-review-avatar, img.landing-trusted-icon"
+    desktopWidth: 96
+    mobileWidth: 96
+
+  # Catch-all — covers blog post images, marketing-page figures, etc.
+  - name: default
+    selector: "img"
+    desktopWidth: 1200
+    mobileWidth: 720
+
+mobileBreakpoint: 768

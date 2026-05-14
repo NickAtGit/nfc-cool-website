@@ -3,6 +3,8 @@ hero:
   subtitle: "Scanne NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle und Räume!"
 
 heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+heroImageWidth: 2540
+heroImageHeight: 2540
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Objekte und Räume scannen"

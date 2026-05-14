@@ -4,6 +4,12 @@ struct LandingData: Decodable, Sendable {
    let hero: HeroSection
    let trust: TrustSection?
    let heroImagePath: String?
+   /// Intrinsic pixel dimensions of `heroImagePath`. Emitted as the `width`
+   /// and `height` attributes on the hero `<img>` so the browser can reserve
+   /// layout space before the bytes arrive (eliminates CLS). When nil, the
+   /// attributes are omitted and the browser falls back to post-load reflow.
+   let heroImageWidth: Int?
+   let heroImageHeight: Int?
    /// Optional 1200×630 brand image used for og:image / twitter:image on the
    /// landing page. Same path is expected across all three locale YAMLs (one
    /// shared image). When nil, the homepage emits no preview card.
