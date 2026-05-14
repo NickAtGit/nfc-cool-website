@@ -1,4 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
+   // Strip `?noredirect=1` from the URL once the page has loaded. The
+   // fallback-redirect pages for EN-only static slugs (Terms, Privacy in
+   // DE/JA) target `/{slug}/?noredirect=1` to bypass the inline language-
+   // redirect script (otherwise we'd loop forever). After the page is up,
+   // there's no reason to keep the query param visible.
+   try {
+      const url = new URL(window.location.href);
+      if (url.searchParams.has('noredirect')) {
+         url.searchParams.delete('noredirect');
+         const cleaned = url.pathname + (url.searchParams.toString() ? '?' + url.searchParams.toString() : '') + url.hash;
+         history.replaceState(null, '', cleaned);
+      }
+   } catch (e) { /* old browser, no-op */ }
+
    // External links → new tab. Any anchor whose hostname differs from the
    // current origin gets target="_blank" + rel="noopener noreferrer" so the
    // user stays on the marketing site after clicking out (and the opened tab
