@@ -3,32 +3,40 @@ backLinkText: "← Alle Funktionen"
 
 hero:
   title: "Raumscan"
-  subtitle: "LiDAR-gestütztes RoomPlan verwandelt einen Spaziergang durch dein Zuhause in einen sauberen, parametrischen Grundriss - Wände, Türen, Fenster und erkannte Möbel, exportiert als einzelne USDZ-Szene."
+  subtitle: "LiDAR-gestütztes RoomPlan verwandelt einen Spaziergang durch dein Zuhause in einen sauberen, parametrischen Grundriss – Wände, Türen, Fenster und erkannte Möbel, exportiert als einzelne USDZ-Szene."
   platforms: "Nur iOS"
   heroImagePath: "/assets/images/Webflow/scan-room.webp"
 
-capabilitiesTitle: "Was du machen kannst"
+capabilitiesTitle: "Was du tun kannst"
 capabilities:
   - title: "RoomPlan-Aufnahme"
-    description: "Gehe mit dem LiDAR-Sensor deines iPhones durch einen Raum. NFC.cool baut in Echtzeit ein parametrisches Modell - Wände, Türen, Fenster und Öffnungen."
+    description: "Gehe mit dem LiDAR-Sensor deines iPhones durch einen Raum. NFC.cool baut in Echtzeit ein parametrisches Modell – Wände, Türen, Fenster und Öffnungen."
   - title: "Erkannte Möbel"
     description: "Betten, Sofas, Tische, Stühle, Schränke, Herde, Spülen, Toiletten, Badewannen und Fernseher werden erkannt und in der Szene benannt."
   - title: "Bodenfläche & Maße"
-    description: "Jeder Raum liefert Bodenfläche, Deckenhöhe und Wandlängen. Exportiere die Zahlen als JSON oder nutze sie direkt in der USDZ-Datei."
+    description: "Jeder Raum liefert Bodenfläche, Deckenhöhe und Wandlängen. Lies sie direkt am Modell ab oder bette sie in das exportierte USDZ ein."
   - title: "AR Quick Look"
-    description: "Öffne den fertigen Raum in AR Quick Look oder teile das USDZ - Empfänger können direkt in Nachrichten durch das Modell laufen."
+    description: "Öffne den fertigen Raum in AR Quick Look oder teile das USDZ – Empfänger können direkt in Nachrichten durch das Modell laufen."
 
-screenshots:
-  - path: "/assets/images/Webflow/scan-room.webp"
-    alt: "Raum mit LiDAR scannen"
+subsectionsTitle: "Vom Rundgang zum echten Grundriss"
+subsections:
+  - title: "Deinen Raum in AR begehen"
+    body: "<p>Sobald ein Scan fertig ist, lege ihn in AR Quick Look und gehe physisch um das digitale Pendant herum. Praktisch, um Möbelplatzierung vor dem Kauf zu prüfen, oder einfach um ein Größengefühl zu bekommen, das Zeichnungen auf dem Tablet nicht vermitteln.</p>"
+    imagePath: "/assets/images/Blog/mac-3d-detail.webp"
+    imageAlt: "Raum-Scan-Detail-Ansicht"
+    platforms: "iOS"
+
+  - title: "Workflows mit mehreren Räumen"
+    body: "<p>Jeder Scan ist ein Raum. Erfasse die Küche, das Wohnzimmer, die Schlafzimmer – sie liegen nebeneinander in deiner Bibliothek, und ein 3D-Editor deiner Wahl kann sie zu einem Multi-Raum-USDZ zusammensetzen. Besonders nützlich für Immobilien-Listings, Renovierungs-Planung oder Versicherungs-Dokumentation.</p>"
+    platforms: "iOS"
 
 specsTitle: "Hardware & Ausgabe"
 specs:
   - title: "Hardware-Anforderungen"
     items:
       - "iPhone mit LiDAR (12 Pro und neuere Pro-Modelle)"
-      - "iPad Pro ab 2020 wird ebenfalls unterstützt"
-      - "iOS 17+ für die aktuellsten RoomPlan-Features"
+      - "iPad Pro (2020) und neuer werden ebenfalls unterstützt"
+      - "RoomPlan verfügbar ab iOS 16; die neuesten Verbesserungen kommen mit iOS 17+"
   - title: "Ausgabe"
     items:
       - "USDZ-Szene mit benannten Elementen"
@@ -36,15 +44,35 @@ specs:
       - "Erkannte Möbel-Kategorien"
       - "Bodenfläche und Maße"
 
-faqTitle: "Häufige Fragen"
+pricing:
+  title: "Free vs Platinum"
+  freeHeader: "Free"
+  platinumHeader: "Platinum"
+  rows:
+    - feature: "Räume mit RoomPlan scannen"
+      free: "✓"
+      platinum: "✓"
+    - feature: "Parametrisches Modell betrachten"
+      free: "✓"
+      platinum: "✓"
+    - feature: "In AR Quick Look begehen"
+      free: "✓"
+      platinum: "✓"
+    - feature: "Raum als USDZ exportieren"
+      free: "✗"
+      platinum: "✓"
+    - feature: "Bodenflächen-Berechnung"
+      free: "✗"
+      platinum: "✓"
+    - feature: "Roh-Raumfotos exportieren"
+      free: "✗"
+      platinum: "✓"
+
+faqTitle: "Häufig gefragt"
 faq:
   - question: "Brauche ich LiDAR?"
-    answer: "Ja - RoomPlan ist eine reine LiDAR-API von Apple. Objektscans (Photogrammetrie) funktionieren auf jedem iPhone, Raumscans benötigen LiDAR."
+    answer: "Ja. RoomPlan ist eine reine LiDAR-API von Apple. (Object Capture für 3D-Objektscans braucht ebenfalls LiDAR – Apples Object-Capture-Session prüft auf das Vorhandensein.)"
   - question: "Wie lange dauert ein Scan?"
     answer: "Einfach durch den Raum gehen. Das Ergebnis wird live erzeugt und ist fertig, sobald du aufhörst."
   - question: "Kann ich das Ergebnis in CAD-Software öffnen?"
-    answer: "Ja - USDZ wird von den meisten modernen CAD-/3D-Tools unterstützt. Für SketchUp- oder Revit-Workflows konvertiere über Blender oder ein USD-zu-OBJ-Tool."
-
-cta:
-  title: "Deinen Raum in Minuten erfassen."
-  buttonText: "Für iOS herunterladen"
+    answer: "Ja – USDZ wird von den meisten modernen CAD-/3D-Tools unterstützt. Für SketchUp- oder Revit-Workflows konvertiere über Blender oder ein USD-zu-OBJ-Tool."

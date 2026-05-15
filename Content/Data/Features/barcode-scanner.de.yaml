@@ -3,24 +3,32 @@ backLinkText: "← Alle Funktionen"
 
 hero:
   title: "Barcode-Scanner"
-  subtitle: "Scanne 19 Code-Formate - 13 lineare Barcodes (EAN, UPC, Code 128, GS1 DataBar und mehr) plus 6 zweidimensionale Codes (QR, PDF417, Aztec, Data Matrix und Micro-Varianten). Im Batch-Modus bleibt die Kamera offen - ideal für Inventur und Event-Check-ins."
+  subtitle: "Scanne 19 Code-Formate – 13 lineare Barcodes (EAN, UPC, Code 128, GS1 DataBar und mehr) plus 6 zweidimensionale Codes (QR, PDF417, Aztec, Data Matrix und Micro-Varianten). Im Batch-Modus bleibt die Kamera offen – ideal für Inventur und Event-Check-ins."
   platforms: "Nur iOS"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
-capabilitiesTitle: "Was du machen kannst"
+capabilitiesTitle: "Was du tun kannst"
 capabilities:
   - title: "Alle gängigen Barcode-Formate"
-    description: "EAN-13/8, UPC-E (UPC-A wird als EAN-13 gelesen), Code 128, Code 39 (inkl. Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix und mehr - automatische Formaterkennung, kein Modus-Wechsel."
+    description: "EAN-13/8, UPC-E (UPC-A wird als EAN-13 gelesen), Code 128, Code 39 (inkl. Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix und mehr – automatische Formaterkennung, kein Modus-Wechsel."
   - title: "Batch-Modus"
     description: "Scanne eine Reihe von Barcodes hintereinander, ohne neu zu zielen. Praktisch für Inventur, Event-Check-ins oder Bibliotheks-Archivierung."
   - title: "Produktsuche"
     description: "Schlage Einzelhandels-Barcodes per Web-Suche oder vorkonfigurierten Händlern (Amazon, Google Shopping, eBay) mit einem Tipp nach."
-  - title: "Scan-Verlauf"
+  - title: "Scan-Verlauf & CSV-Export"
     description: "Jeder Scan wird mit Zeitstempel und Format gespeichert. Exportiere die Liste als CSV oder kopiere einzelne Codes."
+  - title: "Automatische Aktion beim Lesen"
+    description: "URLs und Shortcut-Codes öffnen sich beim Scannen automatisch, lösen einen Webhook aus oder werden vorgelesen – dieselben fünf Hooks wie bei NFC und QR."
 
-screenshots:
-  - path: "/assets/images/Webflow/qr-barcode.webp"
-    alt: "Barcode mit der Kamera scannen"
+subsectionsTitle: "Für die Arbeit mit der Kamera in der Hand"
+subsections:
+  - title: "Endlos-Scan für Inventur"
+    body: "<p>Kombiniere <strong>Batch-Modus</strong> mit <strong>Multi-Scan</strong>, und die Kamera wird zum Hands-free-Fließband: zielen, Piep, weiterzielen, Piep, weiter. Jeder neue Code landet in der Verlaufsliste – kein Tippen dazwischen. Zusammen mit dem CSV-Export ersetzt das Handy in deiner Tasche einen 500-€-Einzelhandelsscanner.</p>"
+    platforms: "iOS"
+
+  - title: "Webhooks für Bestandsführung & Event-Check-in"
+    body: "<p>Richte den Barcode-Scanner auf dein Backend-System aus. Jeder gelesene Barcode löst einen Webhook an deine URL aus, sodass deine Inventur-Datenbank, dein Teilnehmer-CRM oder dein Bibliothekskatalog in Echtzeit aktualisiert wird, während die Kamera weiterläuft. Siehe <a href=\"/de/features/webhooks/\">Webhooks & Automatisierung</a> für JSON-Payload und Referenz-Server.</p>"
+    platforms: "iOS"
 
 specsTitle: "Unterstützte Formate (19 insgesamt)"
 specs:
@@ -41,17 +49,44 @@ specs:
       - "Micro PDF417"
       - "Aztec"
       - "Data Matrix"
-      - "MaxiCode"
 
-faqTitle: "Häufige Fragen"
+pricing:
+  title: "Free vs Platinum"
+  freeHeader: "Free"
+  platinumHeader: "Platinum"
+  rows:
+    - feature: "Alle 19 Formate scannen"
+      free: "✓"
+      platinum: "✓"
+    - feature: "Automatische Formaterkennung"
+      free: "✓"
+      platinum: "✓"
+    - feature: "Produktsuche (Amazon, Google Shopping, eBay)"
+      free: "✓"
+      platinum: "✓"
+    - feature: "Scan-Verlauf mit Zeitstempel"
+      free: "✓"
+      platinum: "✓"
+    - feature: "Batch-Modus / Endlos-Scannen"
+      free: "✗"
+      platinum: "✓"
+    - feature: "Multi-Scan (mehrere Codes pro Session)"
+      free: "✗"
+      platinum: "✓"
+    - feature: "CSV-Export des Scan-Verlaufs"
+      free: "✗"
+      platinum: "✓"
+    - feature: "Webhooks beim Scannen"
+      free: "✗"
+      platinum: "✓"
+
+faqTitle: "Häufig gefragt"
 faq:
   - question: "Warum nur auf iOS?"
-    answer: "Die Android-Version von NFC.cool konzentriert sich derzeit auf NFC und die digitale Visitenkarte. Barcode-Scannen ist auf der Android-Roadmap."
+    answer: "Die Android-Version von NFC.cool fokussiert sich derzeit auf NFC und die digitale Visitenkarte. Barcode-Scannen steht auf der Android-Roadmap."
   - question: "Kann ich mehrere Barcodes auf einmal scannen?"
-    answer: "Ja - im Batch-Modus bleibt die Kamera offen und reiht jeden gefundenen Barcode in eine Warteschlange ein. Tippe auf einen Eintrag, um damit zu arbeiten."
+    answer: "Ja – im Batch-Modus bleibt die Kamera offen und reiht jeden gefundenen Barcode in eine Warteschlange. Tippe auf einen Eintrag, um damit zu arbeiten."
   - question: "Kann ich den Scan-Verlauf exportieren?"
-    answer: "Ja - die Verlaufsansicht exportiert nach CSV mit Zeitstempel, Format und Roh-Payload."
-
-cta:
-  title: "Alles scannen - in jeder Menge."
-  buttonText: "Für iOS herunterladen"
+    answer: "Ja – die Verlaufsansicht exportiert nach CSV mit Zeitstempel, Format und Roh-Payload."
+  - question: "Funktioniert der Scanner offline?"
+    answer: "Das Scannen selbst ja. Die Produktsuche braucht Internet (sie fragt Amazon / Google Shopping / eBay), aber das Lesen des Barcodes passiert nur auf dem Gerät."

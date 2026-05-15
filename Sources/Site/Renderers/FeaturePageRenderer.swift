@@ -27,6 +27,11 @@ struct FeaturePageRenderer: Renderer {
       let suffix = locale == defaultLang ? "" : ".\(locale)"
       let helper = OutputFileRenderer(context: context)
 
+      // Final CTA is sourced from Landing{.locale}.yaml so every feature
+      // page (and the features index) closes with the same brand-gradient
+      // block as the home page.
+      let landing = try loadLandingData(context: context)
+
       var outputs: [OutputFile] = []
 
       for slug in Self.slugs {
@@ -89,8 +94,8 @@ struct FeaturePageRenderer: Renderer {
          if let capabilities = feature.capabilities, !capabilities.isEmpty {
             sections.append(self.renderCapabilities(capabilities, title: feature.capabilitiesTitle))
          }
-         if let shots = feature.screenshots, !shots.isEmpty {
-            sections.append(self.renderScreenshots(shots))
+         if let subsections = feature.subsections, !subsections.isEmpty {
+            sections.append(self.renderSubsections(subsections, title: feature.subsectionsTitle))
          }
          if let body = feature.docsBody, !body.isEmpty {
             sections.append(self.renderDocsBody(body))
@@ -98,8 +103,8 @@ struct FeaturePageRenderer: Renderer {
          if let specs = feature.specs, !specs.isEmpty {
             sections.append(self.renderSpecs(specs, title: feature.specsTitle))
          }
-         if let comparison = feature.comparison {
-            sections.append(self.renderComparison(comparison))
+         if let pricing = feature.pricing {
+            sections.append(self.renderPricing(pricing))
          }
          if let reviews = feature.featuredReviews, !reviews.isEmpty {
             sections.append(self.renderFeaturedReviews(reviews, title: feature.featuredReviewsTitle))
@@ -107,8 +112,8 @@ struct FeaturePageRenderer: Renderer {
          if let faq = feature.faq, !faq.isEmpty {
             sections.append(self.renderFAQ(faq, title: feature.faqTitle))
          }
-         if let cta = feature.cta {
-            sections.append(self.renderCTA(cta, appStoreURL: appStoreURL, googlePlayURL: googlePlayURL))
+         if let cta = landing.cta {
+            sections.append(renderFinalCTA(cta: cta, trust: landing.trust, appStoreURL: appStoreURL, googlePlayURL: googlePlayURL))
          }
 
          let mainContent = "<main class=\"sk-main feature-page\">\(sections.joined())</main>"
@@ -142,14 +147,14 @@ struct FeaturePageRenderer: Renderer {
          guard let path = hero.heroImagePath else { return "" }
          return "<div class=\"page-hero-visual\"><img src=\"\(path)\" alt=\"\(hero.title.htmlEscaped)\" loading=\"eager\" fetchpriority=\"high\"/></div>"
       }()
-      let storeButtons = self.renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL)
+      let storeButtons = renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL)
       return """
       <section class="page-hero">
          <div class="page-hero-grid landing-container">
             <div class="page-hero-text">
                <p class="feature-breadcrumb"><a href="\(backHref)">\(backLinkText.htmlEscaped)</a></p>
-               \(platformsHTML)
                <h1>\(hero.title.htmlEscaped)</h1>
+               \(platformsHTML)
                <p>\(hero.subtitle.htmlEscaped)</p>
                <div class="landing-hero-actions">\(storeButtons)</div>
             </div>
@@ -157,26 +162,6 @@ struct FeaturePageRenderer: Renderer {
          </div>
       </section>
       """
-   }
-
-   /// App Store + Google Play badge pair, identical markup to the landing
-   /// hero so styling matches. URLs are expected to be fully-formed campaign
-   /// links (see Content/Data/Features/*.yaml).
-   private func renderStoreButtons(appStoreURL: String, googlePlayURL: String?) -> String {
-      var buttons: [String] = []
-      buttons.append("""
-         <a href="\(appStoreURL)" class="landing-store-button is-apple" aria-label="Download on the App Store">
-            <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
-         </a>
-         """)
-      if let url = googlePlayURL {
-         buttons.append("""
-            <a href="\(url)" class="landing-store-button is-google" aria-label="Get it on Google Play">
-               <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
-            </a>
-            """)
-      }
-      return "<div class=\"landing-store-buttons\">\(buttons.joined())</div>"
    }
 
    private func renderCapabilities(_ capabilities: [FeatureCapability], title: String?) -> String {
@@ -199,24 +184,96 @@ struct FeaturePageRenderer: Renderer {
       """
    }
 
-   private func renderScreenshots(_ shots: [FeatureScreenshot]) -> String {
-      let cards = shots.map { shot in
-         let captionHTML = shot.caption.map { "<figcaption>\($0.htmlEscaped)</figcaption>" } ?? ""
-         let alt = shot.alt ?? ""
+   private func renderSubsections(_ subsections: [FeatureSubsection], title: String?) -> String {
+      let heading = (title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(title!.htmlEscaped)</h2>"
+      let blocks = subsections.enumerated().map { index, sub in
+         let imageFirst = index.isMultiple(of: 2) == false // 0 = text-left, 1 = image-left, alternating
+         let platformsHTML: String = sub.platforms.map {
+            PlatformBadge.render(platforms: $0, wrapperClass: "feature-subsection-platforms")
+         } ?? ""
+         let imageHTML: String = {
+            guard let path = sub.imagePath else { return "" }
+            let alt = (sub.imageAlt ?? sub.title).htmlEscaped
+            return "<div class=\"feature-subsection-visual\"><img src=\"\(path)\" alt=\"\(alt)\" loading=\"lazy\"/></div>"
+         }()
+         let textHTML = """
+         <div class="feature-subsection-text">
+            <h3>\(sub.title.htmlEscaped)</h3>
+            \(platformsHTML)
+            <div class="feature-subsection-body">\(sub.body)</div>
+         </div>
+         """
+         let inner = imageHTML.isEmpty
+            ? textHTML
+            : (imageFirst ? imageHTML + textHTML : textHTML + imageHTML)
+         let rowClass = imageHTML.isEmpty
+            ? "feature-subsection feature-subsection--text-only"
+            : (imageFirst ? "feature-subsection feature-subsection--image-left" : "feature-subsection feature-subsection--image-right")
          return """
-         <figure class="feature-screenshot">
-            <img src="\(shot.path)" alt="\(alt.htmlEscaped)" loading="lazy"/>
-            \(captionHTML)
-         </figure>
+         <article class="\(rowClass)">\(inner)</article>
          """
       }.joined()
       return """
-      <section class="feature-screenshots">
+      <section class="feature-subsections">
          <div class="landing-container">
-            <div class="feature-screenshots-row">\(cards)</div>
+            \(heading)
+            \(blocks)
          </div>
       </section>
       """
+   }
+
+   private func renderPricing(_ pricing: FeaturePricingTier) -> String {
+      let heading = (pricing.title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(pricing.title!.htmlEscaped)</h2>"
+      let freeHead = (pricing.freeHeader ?? "Free").htmlEscaped
+      let platHead = (pricing.platinumHeader ?? "Platinum").htmlEscaped
+      let rows = pricing.rows.map { row in
+         let feat = row.feature.htmlEscaped
+         let free = (row.free ?? "-").htmlEscaped
+         let plat = (row.platinum ?? "-").htmlEscaped
+         return """
+         <tr>
+            <th scope="row">\(feat)</th>
+            <td>\(self.markPricingCell(free))</td>
+            <td>\(self.markPricingCell(plat))</td>
+         </tr>
+         """
+      }.joined()
+      return """
+      <section class="feature-pricing">
+         <div class="landing-container">
+            \(heading)
+            <div class="feature-pricing-wrap">
+               <table class="feature-pricing-table">
+                  <thead>
+                     <tr><th></th><th scope="col">\(freeHead)</th><th scope="col">\(platHead)</th></tr>
+                  </thead>
+                  <tbody>\(rows)</tbody>
+               </table>
+            </div>
+         </div>
+      </section>
+      """
+   }
+
+   private func markPricingCell(_ raw: String) -> String {
+      let trimmed = raw.trimmingCharacters(in: .whitespaces)
+      let lower = trimmed.lowercased()
+      if trimmed == "✓" || lower == "yes" {
+         return "<span class=\"feature-pricing-pill is-yes\" aria-label=\"included\">✓</span>"
+      }
+      if trimmed == "✗" || lower == "no" {
+         return "<span class=\"feature-pricing-pill is-no\" aria-label=\"not included\">✗</span>"
+      }
+      if lower == "limited" || lower == "partial" || trimmed == "~" {
+         // FontAwesome 6 Free Solid "minus" — clean horizontal bar, parallels ✓/✗ visual weight.
+         let svg = #"<svg class="feature-pricing-pill-icon" viewBox="0 0 448 512" aria-hidden="true"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>"#
+         return "<span class=\"feature-pricing-pill is-limited\" aria-label=\"limited\">\(svg)</span>"
+      }
+      if trimmed == "-" {
+         return "<span class=\"feature-pricing-pill is-na\" aria-label=\"not applicable\">-</span>"
+      }
+      return "<span class=\"feature-pricing-text\">\(trimmed)</span>"
    }
 
    private func renderDocsBody(_ body: String) -> String {
@@ -230,59 +287,6 @@ struct FeaturePageRenderer: Renderer {
          </div>
       </section>
       """
-   }
-
-   private func renderComparison(_ comparison: ComparisonTable) -> String {
-      let heading = (comparison.title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(comparison.title!.htmlEscaped)</h2>"
-      let iosHead = (comparison.iosHeader ?? "iOS").htmlEscaped
-      let androidHead = (comparison.androidHeader ?? "Android").htmlEscaped
-      let rows = comparison.rows.map { row in
-         let feat = row.feature.htmlEscaped
-         let ios = (row.ios ?? "-").htmlEscaped
-         let android = (row.android ?? "-").htmlEscaped
-         return """
-         <tr>
-            <th scope="row">\(feat)</th>
-            <td>\(self.markComparisonCell(ios))</td>
-            <td>\(self.markComparisonCell(android))</td>
-         </tr>
-         """
-      }.joined()
-      return """
-      <section class="feature-comparison">
-         <div class="landing-container">
-            \(heading)
-            <div class="feature-comparison-wrap">
-               <table class="feature-comparison-table">
-                  <thead>
-                     <tr><th></th><th scope="col">\(iosHead)</th><th scope="col">\(androidHead)</th></tr>
-                  </thead>
-                  <tbody>\(rows)</tbody>
-               </table>
-            </div>
-         </div>
-      </section>
-      """
-   }
-
-   /// Wrap simple status cell content in a small badge for richer rendering.
-   /// Recognized tokens (case-insensitive): ✓, ✗, -, "yes", "no", "coming soon".
-   private func markComparisonCell(_ raw: String) -> String {
-      let trimmed = raw.trimmingCharacters(in: .whitespaces)
-      let lower = trimmed.lowercased()
-      if trimmed == "✓" || lower == "yes" {
-         return "<span class=\"feature-comparison-pill is-yes\" aria-label=\"yes\">✓</span>"
-      }
-      if trimmed == "✗" || lower == "no" {
-         return "<span class=\"feature-comparison-pill is-no\" aria-label=\"no\">✗</span>"
-      }
-      if trimmed == "-" {
-         return "<span class=\"feature-comparison-pill is-na\" aria-label=\"not applicable\">-</span>"
-      }
-      if lower.contains("coming") {
-         return "<span class=\"feature-comparison-pill is-soon\">\(trimmed)</span>"
-      }
-      return "<span class=\"feature-comparison-text\">\(trimmed)</span>"
    }
 
    private func renderFeaturedReviews(_ reviews: [AppStoreReview], title: String?) -> String {
@@ -356,18 +360,4 @@ struct FeaturePageRenderer: Renderer {
       """
    }
 
-   private func renderCTA(_ cta: FeatureCTA, appStoreURL: String, googlePlayURL: String?) -> String {
-      let buttonHTML: String = {
-         guard let label = cta.buttonText else { return "" }
-         return "<a href=\"\(appStoreURL)\" class=\"landing-cta-button\">\(label.htmlEscaped)</a>"
-      }()
-      return """
-      <section class="feature-cta landing-final-cta">
-         <div class="landing-container">
-            <h2 class="landing-cta-title">\(cta.title.htmlEscaped)</h2>
-            \(buttonHTML)
-         </div>
-      </section>
-      """
-   }
 }

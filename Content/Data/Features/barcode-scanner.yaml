@@ -3,28 +3,36 @@ backLinkText: "← All features"
 
 hero:
   title: "Barcode Scanner"
-  subtitle: "Scan 19 code formats - 13 linear barcodes (EAN, UPC, Code 128, GS1 DataBar and more) plus 6 two-dimensional codes (QR, PDF417, Aztec, Data Matrix and Micro variants). Batch mode keeps the camera open for inventory counts and event check-ins."
+  subtitle: "Scan 19 code formats — 13 linear barcodes (EAN, UPC, Code 128, GS1 DataBar and more) plus 6 two-dimensional codes (QR, PDF417, Aztec, Data Matrix and Micro variants). Batch mode keeps the camera open for inventory counts and event check-ins."
   platforms: "iOS only"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "What you can do"
 capabilities:
   - title: "All major barcode formats"
-    description: "Scan EAN-13/8, UPC-E (UPC-A read as EAN-13), Code 128, Code 39 (incl. Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix and more - automatic format detection, no mode switching."
+    description: "Scan EAN-13/8, UPC-E (UPC-A is read as EAN-13), Code 128, Code 39 (incl. Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix and more — automatic format detection, no mode switching."
   - title: "Batch mode"
     description: "Scan a stack of barcodes back-to-back without re-aiming. Useful for inventory counts, event check-ins, or library archives."
   - title: "Product lookup"
     description: "Look up retail barcodes via web search or pre-configured retailers (Amazon, Google Shopping, eBay) with one tap from the scan."
-  - title: "Scan history"
+  - title: "Scan history & CSV export"
     description: "Every scan is saved with timestamp and format. Export the list as CSV or copy individual codes."
+  - title: "Auto-action on read"
+    description: "URLs and shortcut codes can auto-open the moment they're scanned, fire a webhook, or get spoken aloud — the same five-hook automation that powers NFC and QR."
 
-screenshots:
-  - path: "/assets/images/Webflow/qr-barcode.webp"
-    alt: "Scanning a barcode with the camera"
+subsectionsTitle: "Built for working camera-in-hand"
+subsections:
+  - title: "Continuous scanning for inventory"
+    body: "<p>Combine <strong>batch mode</strong> with <strong>multi-scan</strong> and the camera turns into a hands-free conveyor: aim, hear the chirp, aim at the next, hear the chirp, repeat. Each new code drops into the history list — no taps in between. Pair with the CSV export and you've replaced a $500 retail scanner with the phone in your pocket.</p>"
+    platforms: "iOS"
+
+  - title: "Webhooks for stocktake & event check-ins"
+    body: "<p>Point the barcode scanner at your back-office system. Every barcode read fires a webhook to your URL, so your inventory database, attendee CRM, or library catalogue updates in real time as the camera moves. See <a href=\"/features/webhooks/\">Webhooks & Automation</a> for the JSON payload shape and a reference server.</p>"
+    platforms: "iOS"
 
 specsTitle: "Supported formats (19 total)"
 specs:
-  - title: "1D Barcodes (13 formats)"
+  - title: "1D barcodes (13 formats)"
     items:
       - "EAN-13, EAN-8"
       - "UPC-E (UPC-A read as EAN-13)"
@@ -42,15 +50,43 @@ specs:
       - "Aztec"
       - "Data Matrix"
 
+pricing:
+  title: "Free vs Platinum"
+  freeHeader: "Free"
+  platinumHeader: "Platinum"
+  rows:
+    - feature: "Scan all 19 formats"
+      free: "✓"
+      platinum: "✓"
+    - feature: "Automatic format detection"
+      free: "✓"
+      platinum: "✓"
+    - feature: "Product lookup (Amazon, Google Shopping, eBay)"
+      free: "✓"
+      platinum: "✓"
+    - feature: "Scan history with timestamp"
+      free: "✓"
+      platinum: "✓"
+    - feature: "Batch mode / continuous scanning"
+      free: "✗"
+      platinum: "✓"
+    - feature: "Multi-scan (queue several codes per session)"
+      free: "✗"
+      platinum: "✓"
+    - feature: "CSV export of scan history"
+      free: "✗"
+      platinum: "✓"
+    - feature: "Webhooks on scan"
+      free: "✗"
+      platinum: "✓"
+
 faqTitle: "Frequently asked"
 faq:
   - question: "Why is this iOS-only?"
     answer: "The Android version of NFC.cool currently focuses on NFC and the Digital Business Card. Barcode scanning is on the Android roadmap."
   - question: "Can I scan multiple barcodes at once?"
-    answer: "Yes - batch mode keeps the camera open and queues every barcode it finds. Tap any item in the queue to act on it."
+    answer: "Yes — batch mode keeps the camera open and queues every barcode it finds. Tap any item in the queue to act on it."
   - question: "Can I export the scan history?"
-    answer: "Yes - the history view exports to CSV with timestamp, format, and raw payload."
-
-cta:
-  title: "Scan anything, in any quantity."
-  buttonText: "Download for iOS"
+    answer: "Yes — the history view exports to CSV with timestamp, format, and raw payload."
+  - question: "Does the scanner work offline?"
+    answer: "Yes for the scan itself. Product lookup needs internet (it hits Amazon / Google Shopping / eBay), but the barcode read is on-device only."

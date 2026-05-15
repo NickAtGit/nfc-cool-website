@@ -5,30 +5,17 @@ struct FeatureData: Decodable, Sendable {
    let hero: FeatureHero
    let capabilities: [FeatureCapability]?
    let capabilitiesTitle: String?
-   let screenshots: [FeatureScreenshot]?
+   let subsections: [FeatureSubsection]?
+   let subsectionsTitle: String?
    let specs: [FeatureSpecGroup]?
    let specsTitle: String?
-   let comparison: ComparisonTable?
+   let pricing: FeaturePricingTier?
    let featuredReviews: [AppStoreReview]?
    let featuredReviewsTitle: String?
    let faq: [FAQItem]?
    let faqTitle: String?
-   let cta: FeatureCTA?
    let docsBody: String?
    let backLinkText: String?
-}
-
-struct ComparisonTable: Decodable, Sendable {
-   let title: String?
-   let iosHeader: String?
-   let androidHeader: String?
-   let rows: [ComparisonRow]
-}
-
-struct ComparisonRow: Decodable, Sendable {
-   let feature: String
-   let ios: String?
-   let android: String?
 }
 
 struct FeatureHero: Decodable, Sendable {
@@ -43,10 +30,12 @@ struct FeatureCapability: Decodable, Sendable {
    let description: String
 }
 
-struct FeatureScreenshot: Decodable, Sendable {
-   let path: String
-   let alt: String?
-   let caption: String?
+struct FeatureSubsection: Decodable, Sendable {
+   let title: String
+   let body: String
+   let imagePath: String?
+   let imageAlt: String?
+   let platforms: String?
 }
 
 struct FeatureSpecGroup: Decodable, Sendable {
@@ -54,7 +43,15 @@ struct FeatureSpecGroup: Decodable, Sendable {
    let items: [String]
 }
 
-struct FeatureCTA: Decodable, Sendable {
-   let title: String
-   let buttonText: String?
+struct FeaturePricingTier: Decodable, Sendable {
+   let title: String?
+   let freeHeader: String?
+   let platinumHeader: String?
+   let rows: [FeaturePricingRow]
+}
+
+struct FeaturePricingRow: Decodable, Sendable {
+   let feature: String
+   let free: String?
+   let platinum: String?
 }

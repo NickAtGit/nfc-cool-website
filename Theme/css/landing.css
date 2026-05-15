@@ -688,3 +688,249 @@
    }
    .landing-store-button img { height: 48px; }
 }
+
+/* ============================================================
+   Feature detail pages
+   - Left-aligned section titles for editorial consistency
+   - Marquee subsections with alternating image/text rows
+   - Free vs Platinum pricing table
+   - Dev-friendly code blocks (used on /features/webhooks/)
+   ============================================================ */
+.feature-page .landing-section-title {
+   text-align: left;
+}
+
+/* Marquee subsections (zig-zag) */
+.feature-subsections {
+   padding: clamp(2.5rem, 6vw, 5rem) 0;
+}
+/* Use the section title's own `margin: 0 0 2rem` to control title-to-content gap
+   (same as every other feature-page section), and a small sibling margin between
+   subsection cards — matches the 1.25rem gap of `.landing-feature-grid`. */
+.feature-subsection + .feature-subsection {
+   margin-top: 1.25rem;
+}
+.feature-subsection {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   gap: clamp(1.5rem, 4vw, 3rem);
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-lg);
+   padding: clamp(1.5rem, 3vw, 2.5rem);
+   box-shadow: 0 1px 2px var(--color-shadow);
+   transition: transform var(--transition), box-shadow var(--transition);
+}
+.feature-subsection:hover {
+   transform: translateY(-2px);
+   box-shadow: 0 8px 24px var(--color-shadow-lg);
+}
+.feature-subsection--text-only {
+   grid-template-columns: 1fr;
+}
+.feature-subsection-visual {
+   display: flex;
+   justify-content: center;
+}
+.feature-subsection-visual img {
+   width: 100%;
+   max-width: 460px;
+   height: auto;
+   border-radius: var(--radius-lg);
+}
+.feature-subsection-text h3 {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(1.25rem, 2.2vw, 1.625rem);
+   line-height: 1.2;
+   letter-spacing: -0.01em;
+   color: var(--color-text);
+   margin: 0 0 0.85rem;
+}
+.feature-subsection-body {
+   font-size: 1rem;
+   line-height: 1.6;
+   color: var(--color-text);
+}
+.feature-subsection-body p {
+   margin: 0 0 0.85rem;
+}
+.feature-subsection-body p:last-child {
+   margin-bottom: 0;
+}
+.feature-subsection-body strong {
+   font-weight: 600;
+}
+.feature-subsection-body a {
+   color: var(--color-accent);
+   text-decoration: underline;
+   text-underline-offset: 2px;
+}
+.feature-subsection-body ul {
+   margin: 0 0 0.85rem;
+   padding-left: 1.25rem;
+}
+.feature-subsection-body li {
+   margin: 0 0 0.35rem;
+   line-height: 1.55;
+}
+.feature-hero-platforms,
+.feature-subsection-platforms {
+   display: inline-flex;
+   flex-wrap: wrap;
+   gap: 0.375rem;
+   align-items: center;
+   margin: 0.5rem 0 0.85rem;
+}
+.feature-subsection-text h3 + .feature-subsection-platforms {
+   margin-top: 0.5rem;
+}
+
+/* Free vs Platinum table */
+.feature-pricing {
+   padding: clamp(2.5rem, 6vw, 5rem) 0;
+   background: var(--color-bg-alt);
+}
+.feature-pricing-wrap {
+   overflow-x: auto;
+   border-radius: var(--radius-lg);
+   border: 1px solid var(--color-border);
+   background: var(--color-bg-card);
+}
+.feature-pricing-table {
+   width: 100%;
+   border-collapse: collapse;
+   font-size: 0.95rem;
+}
+.feature-pricing-table thead th {
+   font-weight: 600;
+   color: var(--color-text);
+   background: var(--color-bg-alt);
+   padding: 0.85rem 1rem;
+   text-align: left;
+   border-bottom: 1px solid var(--color-border);
+}
+.feature-pricing-table thead th[scope="col"] {
+   text-align: center;
+}
+.feature-pricing-table tbody th {
+   font-weight: 500;
+   text-align: left;
+   padding: 0.75rem 1rem;
+   color: var(--color-text);
+   border-bottom: 1px solid var(--color-border);
+}
+.feature-pricing-table tbody td {
+   padding: 0.75rem 1rem;
+   text-align: center;
+   color: var(--color-text-muted);
+   border-bottom: 1px solid var(--color-border);
+   vertical-align: middle;
+}
+.feature-pricing-table tbody tr:last-child th,
+.feature-pricing-table tbody tr:last-child td {
+   border-bottom: 0;
+}
+.feature-pricing-pill {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 1.6rem;
+   height: 1.6rem;
+   padding: 0;
+   border-radius: 50%;
+   font-size: 0.85rem;
+   font-weight: 600;
+   line-height: 1;
+}
+.feature-pricing-pill.is-yes {
+   background: rgba(46, 160, 67, 0.15);
+   color: #1a7f33;
+   border: 1px solid rgba(46, 160, 67, 0.55);
+}
+.feature-pricing-pill.is-no {
+   background: rgba(207, 34, 46, 0.12);
+   color: #b81d27;
+   border: 1px solid rgba(207, 34, 46, 0.55);
+}
+.feature-pricing-pill.is-limited {
+   background: rgba(212, 130, 12, 0.15);
+   color: #a35408;
+   border: 1px solid rgba(212, 130, 12, 0.55);
+}
+.feature-pricing-pill.is-na {
+   background: var(--color-bg-alt);
+   color: var(--color-text-muted);
+   border: 1px solid var(--color-border);
+}
+.feature-pricing-pill-icon {
+   width: 0.85em;
+   height: 0.85em;
+   display: block;
+}
+[data-theme="dark"] .feature-pricing-pill.is-yes {
+   background: rgba(63, 185, 80, 0.20);
+   color: #56d364;
+   border-color: rgba(63, 185, 80, 0.6);
+}
+[data-theme="dark"] .feature-pricing-pill.is-no {
+   background: rgba(248, 81, 73, 0.20);
+   color: #ff7b72;
+   border-color: rgba(248, 81, 73, 0.6);
+}
+[data-theme="dark"] .feature-pricing-pill.is-limited {
+   background: rgba(245, 158, 46, 0.22);
+   color: #ffb454;
+   border-color: rgba(245, 158, 46, 0.6);
+}
+.feature-pricing-text {
+   font-size: 0.875rem;
+   color: var(--color-text);
+}
+
+/* Dev-friendly code blocks used inside .feature-subsection-body
+   for the Webhooks page. Authors render them as <pre><code class="language-json">…</code></pre>. */
+.feature-subsection-body pre {
+   margin: 0 0 1rem;
+   padding: 1rem 1.15rem;
+   background: #0d1117;
+   color: #e6edf3;
+   border-radius: var(--radius-lg);
+   overflow-x: auto;
+   font-size: 0.85rem;
+   line-height: 1.55;
+   font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+.feature-subsection-body pre code {
+   color: inherit;
+   background: none;
+   padding: 0;
+   font-family: inherit;
+   font-size: inherit;
+}
+.feature-subsection-body code {
+   background: var(--color-bg-alt);
+   color: var(--color-text);
+   padding: 0.1em 0.35em;
+   border-radius: 4px;
+   font-size: 0.875em;
+   font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+@media (max-width: 760px) {
+   .feature-subsection,
+   .feature-subsection--image-left,
+   .feature-subsection--image-right {
+      grid-template-columns: 1fr;
+   }
+   .feature-subsection--image-left .feature-subsection-visual {
+      order: -1;
+   }
+   .feature-subsection--image-right .feature-subsection-visual {
+      order: -1;
+   }
+   .feature-subsection-visual img {
+      max-width: 100%;
+   }
+}
