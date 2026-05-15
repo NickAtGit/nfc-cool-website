@@ -52,6 +52,14 @@ struct FeaturesIndexRenderer: Renderer {
       let toolsAppStoreURL = StoreLink.appStore(app: .tools, page: "web-features", locale: locale)
       let toolsGooglePlayURL = StoreLink.googlePlay(app: .tools, page: "web-features", locale: locale)
 
+      // Final CTA reuses the landing's closing block so this hub page closes
+      // with the same brand-gradient prompt as the home and per-feature pages.
+      let landing = try loadLandingData(context: context)
+      let finalCTAHTML: String = {
+         guard let cta = landing.cta else { return "" }
+         return renderFinalCTA(cta: cta, trust: landing.trust, appStoreURL: toolsAppStoreURL, googlePlayURL: toolsGooglePlayURL)
+      }()
+
       // Build the per-feature cards using the SAME .landing-feature-card markup
       // the landing page emits, so both grids look identical and the whole card
       // is a link into /features/{slug}/.
@@ -130,7 +138,7 @@ struct FeaturesIndexRenderer: Renderer {
                <div class="page-hero-text">
                   <h1>\(title.htmlEscaped)</h1>
                   <p>\(subtitle.htmlEscaped)</p>
-                  <div class="landing-hero-actions">\(self.renderStoreButtons(appStoreURL: toolsAppStoreURL, googlePlayURL: toolsGooglePlayURL))</div>
+                  <div class="landing-hero-actions">\(renderStoreButtons(appStoreURL: toolsAppStoreURL, googlePlayURL: toolsGooglePlayURL))</div>
                </div>
                <div class="page-hero-visual">
                   <img src="/assets/images/Webflow/qr-studio.webp" alt="\(title.htmlEscaped)" loading="eager" fetchpriority="high"/>
@@ -142,6 +150,7 @@ struct FeaturesIndexRenderer: Renderer {
                <div class="landing-features">\(cards.joined())</div>
             </div>
          </section>
+         \(finalCTAHTML)
       </main>
       """
 
@@ -158,25 +167,5 @@ struct FeaturesIndexRenderer: Renderer {
          .appendingPathComponent("index.html")
 
       return [OutputFile(outputPath: outputPath, content: html)]
-   }
-
-   /// Same dual-badge markup as LandingPageRenderer/FeaturePageRenderer so the
-   /// CSS styling stays unified. URLs are expected to be fully-formed campaign
-   /// links (see Content/Data/Landing.yaml).
-   private func renderStoreButtons(appStoreURL: String, googlePlayURL: String?) -> String {
-      var buttons: [String] = []
-      buttons.append("""
-         <a href="\(appStoreURL)" class="landing-store-button is-apple" aria-label="Download on the App Store">
-            <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
-         </a>
-         """)
-      if let url = googlePlayURL {
-         buttons.append("""
-            <a href="\(url)" class="landing-store-button is-google" aria-label="Get it on Google Play">
-               <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
-            </a>
-            """)
-      }
-      return "<div class=\"landing-store-buttons\">\(buttons.joined())</div>"
    }
 }
