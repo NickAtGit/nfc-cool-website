@@ -407,99 +407,66 @@
 
 .tap-demo-card {
    width: 100%;
-   max-width: 420px;
+   max-width: 400px;
    margin: 0 auto;
    text-align: left;
-   background: var(--color-bg-card);
+   background: var(--color-bg);
    border: 1px solid var(--color-border);
    border-radius: var(--radius-lg);
    padding: clamp(1.75rem, 3.5vw, 2.5rem);
    box-shadow: 0 24px 60px -24px var(--color-shadow-lg);
 }
 
-.tap-demo-kicker {
-   margin: 0 0 1.25rem;
-   text-transform: uppercase;
-   letter-spacing: 0.14em;
-   font-size: 0.75rem;
-   font-weight: 700;
+/* One quiet label style for every label in either card */
+.tap-demo-label {
+   margin: 0;
+   font-size: 0.8125rem;
+   font-weight: 600;
    color: var(--color-text-muted);
 }
 
-/* Result state - the live scan count + tag ID decoded from ?nfc= */
-.tap-demo-count-row { margin: 0; }
+/* Result card - the live scan count + tag ID decoded from ?nfc= */
+.tap-demo-count-row { margin: 0.6rem 0 0; }
 .tap-demo-count {
    margin: 0;
    font-family: var(--font-heading);
    font-weight: 700;
    font-size: clamp(3.5rem, 7vw, 5rem);
    line-height: 1;
-   letter-spacing: -0.035em;
+   letter-spacing: -0.04em;
    color: var(--color-text);
    font-variant-numeric: tabular-nums;
 }
-.tap-demo-count-caption {
-   margin: 0.55rem 0 0;
+.tap-demo-caption {
+   margin: 0.5rem 0 0;
    font-size: 0.95rem;
-   line-height: 1.45;
+   line-height: 1.5;
    color: var(--color-text-secondary);
 }
-.tap-demo-id-row {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   gap: 1rem;
+
+/* Instructional copy in the empty card */
+.tap-demo-text {
+   margin: 0.6rem 0 0;
+   font-size: 1rem;
+   line-height: 1.6;
+   color: var(--color-text-secondary);
+}
+
+/* Bordered field - tag ID in the result card, the URL in the empty one */
+.tap-demo-field {
    margin: 1.5rem 0 0;
-   padding: 1.25rem 0 0;
+   padding: 1.5rem 0 0;
    border-top: 1px solid var(--color-border);
 }
-.tap-demo-id-label {
-   text-transform: uppercase;
-   letter-spacing: 0.1em;
-   font-size: 0.72rem;
-   font-weight: 700;
-   color: var(--color-text-muted);
-}
-.tap-demo-raw {
-   margin: 1rem 0 0;
-   font-size: 0.8rem;
-   color: var(--color-text-muted);
-}
-
-/* Instructional state - shown until a ?nfc= value arrives from a tag */
-.tap-demo-empty-text {
-   margin: 0 0 1.5rem;
+.tap-demo-field .tap-demo-label { margin-bottom: 0.4rem; }
+.tap-demo-value {
+   margin: 0;
    font-size: 1.0625rem;
-   line-height: 1.55;
-   color: var(--color-text-secondary);
-}
-.tap-demo-empty-hint {
-   margin: 0 0 0.45rem;
-   text-transform: uppercase;
-   letter-spacing: 0.1em;
-   font-size: 0.7rem;
-   font-weight: 700;
-   color: var(--color-text-muted);
-}
-.tap-demo-url { margin: 0; }
-
-/* Mono value chips - the tag ID, the raw ?nfc= value and the URL */
-.tap-demo-id-value,
-.tap-demo-raw code,
-.tap-demo-url code {
-   font-family: var(--font-mono, monospace);
+   font-weight: 600;
+   letter-spacing: 0.01em;
    color: var(--color-text);
-   background: var(--color-code-bg);
-   border: 1px solid var(--color-border);
-   border-radius: var(--radius);
+   font-variant-numeric: tabular-nums;
    word-break: break-all;
-}
-.tap-demo-id-value { font-size: 0.95rem; padding: 0.3rem 0.6rem; }
-.tap-demo-raw code { font-size: 0.95em; padding: 0.1rem 0.35rem; }
-.tap-demo-url code {
-   display: inline-block;
-   font-size: 0.95rem;
-   padding: 0.5rem 0.75rem;
 }
 
 /* On mobile the split hero stacks - show the demo card above the copy
@@ -507,4 +474,52 @@
 @media (max-width: 900px) {
    .tap-counter-hero .page-hero-text { order: 2; }
    .tap-counter-hero .page-hero-visual { order: 1; }
+}
+
+/* ============================================================
+   Closing call-to-action - a second brand-gradient hero band at the
+   foot of /tap-counter/, pointing to the in-depth guide + feature.
+   ============================================================ */
+.tap-cta { text-align: center; }
+.tap-cta h2 {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(1.75rem, 4vw, 2.75rem);
+   line-height: 1.15;
+   letter-spacing: -0.02em;
+   color: #FFFFFF;
+   margin: 0 auto 1rem;
+   max-width: 18ch;
+}
+.tap-cta-buttons {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.85rem;
+   justify-content: center;
+   margin-top: 2rem;
+}
+.tap-cta-button {
+   display: inline-flex;
+   align-items: center;
+   padding: 0.85rem 1.7rem;
+   border-radius: var(--radius);
+   font-weight: 600;
+   font-size: 1rem;
+   text-decoration: none;
+   border: 1px solid transparent;
+   transition: transform var(--transition), background var(--transition), border-color var(--transition);
+}
+.tap-cta-button.is-primary {
+   background: #FFFFFF;
+   color: #212529;
+}
+.tap-cta-button.is-secondary {
+   background: rgba(255, 255, 255, 0.08);
+   border-color: rgba(255, 255, 255, 0.45);
+   color: #FFFFFF;
+}
+.tap-cta-button:hover { transform: translateY(-2px); }
+.tap-cta-button.is-secondary:hover {
+   background: rgba(255, 255, 255, 0.16);
+   border-color: #FFFFFF;
 }

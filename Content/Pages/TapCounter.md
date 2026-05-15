@@ -30,22 +30,23 @@ An NFC tag can count its own scans - the number lives in the chip, not on a serv
 
 <div id="tap-counter-demo" class="tap-demo">
 <div class="tap-demo-card tap-demo-result">
-<p class="tap-demo-kicker">Tag scanned</p>
+<p class="tap-demo-label">Tag scanned</p>
 <div class="tap-demo-count-row">
 <p class="tap-demo-count" data-tap-count>0</p>
-<p class="tap-demo-count-caption">scans, counted by the tag itself</p>
+<p class="tap-demo-caption">scans counted by the tag</p>
 </div>
-<div class="tap-demo-id-row">
-<span class="tap-demo-id-label">Tag ID</span>
-<code class="tap-demo-id-value" data-tap-id></code>
+<div class="tap-demo-field tap-demo-id-row">
+<p class="tap-demo-label">Tag ID</p>
+<p class="tap-demo-value" data-tap-id></p>
 </div>
-<p class="tap-demo-raw">Decoded from <code data-tap-raw></code></p>
 </div>
 <div class="tap-demo-card tap-demo-empty">
-<p class="tap-demo-kicker">Live demo</p>
-<p class="tap-demo-empty-text">Tap an NFC tag that points here and its scan count appears in this card.</p>
-<p class="tap-demo-empty-hint">Point your tag at</p>
-<p class="tap-demo-url"><code>https://nfc.cool/tap-counter/</code></p>
+<p class="tap-demo-label">Live demo</p>
+<p class="tap-demo-text">Tap an NFC tag that points here and its scan count appears in this card.</p>
+<div class="tap-demo-field">
+<p class="tap-demo-label">Point your tag at</p>
+<p class="tap-demo-value">https://nfc.cool/tap-counter/</p>
+</div>
 </div>
 </div>
 
@@ -108,6 +109,17 @@ An NFC tag can count its own scans - the number lives in the chip, not on a serv
 
 </div>
 
-Want the full story - which chips work and the step-by-step setup? Read [How to Count NFC Tag Scans Without a Server](/blog/count-nfc-tag-scans/), or see the complete [NFC reader and writer feature](/features/nfc-reader-writer/).
+</section>
+
+<section class="page-hero tap-cta">
+
+## Want the Full Story?
+
+There is more to the NFC Tap Counter - which chips work, the real-world use cases, and the full step-by-step setup.
+
+<div class="tap-cta-buttons">
+<a href="/blog/count-nfc-tag-scans/" class="tap-cta-button is-primary">Read the guide</a>
+<a href="/features/nfc-reader-writer/" class="tap-cta-button is-secondary">See the feature</a>
+</div>
 
 </section>

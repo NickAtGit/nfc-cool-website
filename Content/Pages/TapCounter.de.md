@@ -30,22 +30,23 @@ Ein NFC-Tag kann seine eigenen Scans zählen - die Zahl steckt im Chip, nicht au
 
 <div id="tap-counter-demo" class="tap-demo">
 <div class="tap-demo-card tap-demo-result">
-<p class="tap-demo-kicker">Tag gescannt</p>
+<p class="tap-demo-label">Tag gescannt</p>
 <div class="tap-demo-count-row">
 <p class="tap-demo-count" data-tap-count>0</p>
-<p class="tap-demo-count-caption">Scans, vom Tag selbst gezählt</p>
+<p class="tap-demo-caption">Scans, vom Tag gezählt</p>
 </div>
-<div class="tap-demo-id-row">
-<span class="tap-demo-id-label">Tag-ID</span>
-<code class="tap-demo-id-value" data-tap-id></code>
+<div class="tap-demo-field tap-demo-id-row">
+<p class="tap-demo-label">Tag-ID</p>
+<p class="tap-demo-value" data-tap-id></p>
 </div>
-<p class="tap-demo-raw">Dekodiert aus <code data-tap-raw></code></p>
 </div>
 <div class="tap-demo-card tap-demo-empty">
-<p class="tap-demo-kicker">Live-Demo</p>
-<p class="tap-demo-empty-text">Tippe einen NFC-Tag an, der hierher zeigt, und sein Zählerstand erscheint in dieser Karte.</p>
-<p class="tap-demo-empty-hint">Richte deinen Tag auf</p>
-<p class="tap-demo-url"><code>https://nfc.cool/de/tap-counter/</code></p>
+<p class="tap-demo-label">Live-Demo</p>
+<p class="tap-demo-text">Tippe einen NFC-Tag an, der hierher zeigt, und sein Zählerstand erscheint in dieser Karte.</p>
+<div class="tap-demo-field">
+<p class="tap-demo-label">Richte deinen Tag auf</p>
+<p class="tap-demo-value">https://nfc.cool/de/tap-counter/</p>
+</div>
 </div>
 </div>
 
@@ -108,6 +109,17 @@ Ein NFC-Tag kann seine eigenen Scans zählen - die Zahl steckt im Chip, nicht au
 
 </div>
 
-Du willst die ganze Geschichte - welche Chips funktionieren und die Einrichtung Schritt für Schritt? Lies [NFC-Tag-Scans ohne Server zählen](/de/blog/count-nfc-tag-scans/) oder sieh dir die komplette [NFC-Reader-und-Writer-Funktion](/de/features/nfc-reader-writer/) an.
+</section>
+
+<section class="page-hero tap-cta">
+
+## Die ganze Geschichte
+
+Zum NFC-Tap-Zähler gibt es mehr - welche Chips funktionieren, die Anwendungsfälle aus der Praxis und die komplette Einrichtung Schritt für Schritt.
+
+<div class="tap-cta-buttons">
+<a href="/de/blog/count-nfc-tag-scans/" class="tap-cta-button is-primary">Guide lesen</a>
+<a href="/de/features/nfc-reader-writer/" class="tap-cta-button is-secondary">Funktion ansehen</a>
+</div>
 
 </section>
