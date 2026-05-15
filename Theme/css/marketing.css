@@ -394,72 +394,117 @@
 
 /* ============================================================
    NFC Tap Counter live demo - /tap-counter/. The #tap-counter-demo
-   block sits inside .page-hero. By default the instructional
-   .tap-demo-empty state shows; theme.js adds .is-active and fills the
-   [data-tap-*] slots when the page is opened with a ?nfc= value from
-   a scanned tag, swapping in the .tap-demo-result state.
+   block is the right-hand visual of the split hero. By default the
+   instructional .tap-demo-empty card shows; theme.js adds .is-active
+   and fills the [data-tap-*] slots when the page is opened with a
+   ?nfc= value from a scanned tag, swapping in the .tap-demo-result
+   card. Both cards reuse the site's .page-card surface tokens.
    ============================================================ */
+.tap-demo { width: 100%; }
 .tap-demo-result { display: none; }
 .tap-demo.is-active .tap-demo-empty { display: none; }
 .tap-demo.is-active .tap-demo-result { display: block; }
 
-.tap-demo-heading { margin-bottom: 1.25rem; }
+.tap-demo-card {
+   width: 100%;
+   max-width: 420px;
+   margin: 0 auto;
+   text-align: left;
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-lg);
+   padding: clamp(1.75rem, 3.5vw, 2.5rem);
+   box-shadow: 0 24px 60px -24px var(--color-shadow-lg);
+}
 
-.tap-demo-lead {
-   font-size: clamp(1rem, 1.3vw, 1.1875rem);
-   line-height: 1.6;
-   color: rgba(255, 255, 255, 0.92);
-   max-width: 40em;
-   margin: 0 auto 1.5rem;
-}
-.tap-demo-url,
-.tap-demo-raw {
-   font-size: 0.95rem;
-   color: rgba(255, 255, 255, 0.85);
-   margin: 0;
-}
-.tap-demo code {
-   font-family: var(--font-mono, monospace);
-   background: rgba(255, 255, 255, 0.14);
-   border: 1px solid rgba(255, 255, 255, 0.22);
-   border-radius: var(--radius);
-   padding: 0.15em 0.5em;
-   font-size: 0.9em;
-   word-break: break-all;
+.tap-demo-kicker {
+   margin: 0 0 1.25rem;
+   text-transform: uppercase;
+   letter-spacing: 0.14em;
+   font-size: 0.75rem;
+   font-weight: 700;
+   color: var(--color-text-muted);
 }
 
 /* Result state - the live scan count + tag ID decoded from ?nfc= */
-.tap-demo-count-row { margin: 0 0 1.5rem; }
+.tap-demo-count-row { margin: 0; }
 .tap-demo-count {
-   display: block;
+   margin: 0;
    font-family: var(--font-heading);
    font-weight: 700;
-   font-size: clamp(4rem, 14vw, 8rem);
+   font-size: clamp(3.5rem, 7vw, 5rem);
    line-height: 1;
-   letter-spacing: -0.03em;
-   color: var(--color-accent);
+   letter-spacing: -0.035em;
+   color: var(--color-text);
+   font-variant-numeric: tabular-nums;
 }
 .tap-demo-count-caption {
-   display: block;
-   margin-top: 0.35rem;
-   font-size: 1.0625rem;
-   color: rgba(255, 255, 255, 0.9);
+   margin: 0.55rem 0 0;
+   font-size: 0.95rem;
+   line-height: 1.45;
+   color: var(--color-text-secondary);
 }
 .tap-demo-id-row {
-   display: inline-flex;
+   display: flex;
    align-items: center;
-   gap: 0.6rem;
-   margin: 0 auto 1rem;
+   justify-content: space-between;
+   gap: 1rem;
+   margin: 1.5rem 0 0;
+   padding: 1.25rem 0 0;
+   border-top: 1px solid var(--color-border);
 }
 .tap-demo-id-label {
    text-transform: uppercase;
-   letter-spacing: 0.08em;
-   font-size: 0.75rem;
-   font-weight: 600;
-   color: rgba(255, 255, 255, 0.7);
+   letter-spacing: 0.1em;
+   font-size: 0.72rem;
+   font-weight: 700;
+   color: var(--color-text-muted);
 }
-.tap-demo-note {
-   margin: 1.25rem 0 0;
+.tap-demo-raw {
+   margin: 1rem 0 0;
+   font-size: 0.8rem;
+   color: var(--color-text-muted);
+}
+
+/* Instructional state - shown until a ?nfc= value arrives from a tag */
+.tap-demo-empty-text {
+   margin: 0 0 1.5rem;
+   font-size: 1.0625rem;
+   line-height: 1.55;
+   color: var(--color-text-secondary);
+}
+.tap-demo-empty-hint {
+   margin: 0 0 0.45rem;
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+   font-size: 0.7rem;
+   font-weight: 700;
+   color: var(--color-text-muted);
+}
+.tap-demo-url { margin: 0; }
+
+/* Mono value chips - the tag ID, the raw ?nfc= value and the URL */
+.tap-demo-id-value,
+.tap-demo-raw code,
+.tap-demo-url code {
+   font-family: var(--font-mono, monospace);
+   color: var(--color-text);
+   background: var(--color-code-bg);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius);
+   word-break: break-all;
+}
+.tap-demo-id-value { font-size: 0.95rem; padding: 0.3rem 0.6rem; }
+.tap-demo-raw code { font-size: 0.95em; padding: 0.1rem 0.35rem; }
+.tap-demo-url code {
+   display: inline-block;
    font-size: 0.95rem;
-   color: rgba(255, 255, 255, 0.78);
+   padding: 0.5rem 0.75rem;
+}
+
+/* On mobile the split hero stacks - show the demo card above the copy
+   so a tag tap lands straight on the live count. */
+@media (max-width: 900px) {
+   .tap-counter-hero .page-hero-text { order: 2; }
+   .tap-counter-hero .page-hero-visual { order: 1; }
 }

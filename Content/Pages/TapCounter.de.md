@@ -5,28 +5,15 @@ description: "Eine Live-Demo des NFC-Tap-Zählers. Schreibe die URL dieser Seite
 image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 ---
 
-<section class="page-hero">
+<section class="page-hero tap-counter-hero">
 
-<div id="tap-counter-demo" class="tap-demo">
+<div class="page-hero-grid">
 
-<h1 class="tap-demo-heading">NFC-Tap-Zähler</h1>
+<div class="page-hero-text">
 
-<div class="tap-demo-result">
-<div class="tap-demo-count-row">
-<span class="tap-demo-count" data-tap-count>0</span>
-<span class="tap-demo-count-caption">Scans, vom Tag selbst gezählt</span>
-</div>
-<p class="tap-demo-id-row"><span class="tap-demo-id-label">Tag-ID</span> <code class="tap-demo-id-value" data-tap-id></code></p>
-<p class="tap-demo-raw">Direkt aus der URL des Tags gelesen: <code data-tap-raw></code></p>
-<p class="tap-demo-note">Kein Server, kein Internet - der Chip hat gezählt.</p>
-</div>
+# NFC-Tap-Zähler
 
-<div class="tap-demo-empty">
-<p class="tap-demo-lead">Das ist eine Live-Demo des NFC-Tap-Zählers in NFC.cool Tools. Schreibe einen NFC-Tag so, dass er auf die untenstehende URL zeigt, tippe ihn an, und der Zählerstand und die ID des Tags erscheinen genau hier - direkt aus der Adresszeile dekodiert, ganz ohne Server.</p>
-<p class="tap-demo-url">Richte deinen Tag auf <code>https://nfc.cool/de/tap-counter/</code></p>
-</div>
-
-</div>
+Ein NFC-Tag kann seine eigenen Scans zählen - die Zahl steckt im Chip, nicht auf einem Server. Beschreibe einen Tag, der auf diese Seite zeigt, tippe ihn an, und der Live-Zählerstand und die Tag-ID erscheinen in der Karte.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-tap-counter-de&mt=8" class="landing-store-button is-apple" aria-label="Im App Store laden" target="_blank" rel="noopener nofollow sponsored">
@@ -37,19 +24,90 @@ image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 </a>
 </div>
 
+</div>
+
+<div class="page-hero-visual">
+
+<div id="tap-counter-demo" class="tap-demo">
+<div class="tap-demo-card tap-demo-result">
+<p class="tap-demo-kicker">Tag gescannt</p>
+<div class="tap-demo-count-row">
+<p class="tap-demo-count" data-tap-count>0</p>
+<p class="tap-demo-count-caption">Scans, vom Tag selbst gezählt</p>
+</div>
+<div class="tap-demo-id-row">
+<span class="tap-demo-id-label">Tag-ID</span>
+<code class="tap-demo-id-value" data-tap-id></code>
+</div>
+<p class="tap-demo-raw">Dekodiert aus <code data-tap-raw></code></p>
+</div>
+<div class="tap-demo-card tap-demo-empty">
+<p class="tap-demo-kicker">Live-Demo</p>
+<p class="tap-demo-empty-text">Tippe einen NFC-Tag an, der hierher zeigt, und sein Zählerstand erscheint in dieser Karte.</p>
+<p class="tap-demo-empty-hint">Richte deinen Tag auf</p>
+<p class="tap-demo-url"><code>https://nfc.cool/de/tap-counter/</code></p>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 <section class="page-section">
 
-## Wie diese Demo funktioniert
+## So funktioniert es
 
-Wenn du den NFC-Tap-Zähler in NFC.cool Tools einschaltest und einen Tag beschreibst, bettet die App Platzhalter-Bytes in die URL ein. Bei jedem Scan ersetzt der NTAG21x-Chip sie durch zwei Live-Werte, noch bevor dein Telefon den Tag liest: den laufenden Zählerstand des Tags und seine eindeutige Werks-ID.
+<div class="page-cards-grid">
 
-Diese Seite ist genau diese Website. Sie hat kein Backend - sie liest einfach den `?nfc=`-Wert, den der Chip an seine eigene Adresse angehängt hat, und zeigt dir, was angekommen ist. Gezählt wurde im Chip; diese Seite zeigt es nur an.
+<article class="page-card">
+<h3>Der Chip zählt mit</h3>
+<p>NTAG21x-Chips - die NTAG213, NTAG215 und NTAG216 in den meisten NFC-Stickern - haben einen Zähler in der Hardware. Jeder Lesevorgang zählt ihn um eins hoch, ohne App und ohne Server.</p>
+</article>
 
-- Der **Zählerstand** kommt als sechsstellige Hexadezimalzahl an (`000007` ist der siebte Scan).
-- Die **Tag-ID** ist die 7-Byte-Werksseriennummer des Chips, bei jedem Lesevorgang identisch.
+<article class="page-card">
+<h3>Die URL trägt es</h3>
+<p>NFC.cool Tools bettet beim Beschreiben des Tags Platzhalter-Bytes ein. Bei jedem Scan ersetzt der Chip sie durch die Live-Werte und hängt sie als <code>?nfc=</code> an - zuerst die Tag-ID, dann den Zählerstand.</p>
+</article>
 
-Du willst die ganze Geschichte - welche Chips funktionieren, die Anwendungsfälle aus der Praxis und die Einrichtung Schritt für Schritt? Lies [NFC-Tag-Scans ohne Server zählen](/de/blog/count-nfc-tag-scans/) oder sieh dir die komplette [NFC-Reader-und-Writer-Funktion](/de/features/nfc-reader-writer/) an.
+<article class="page-card">
+<h3>Diese Seite liest es nur</h3>
+<p>Kein Backend, keine Datenbank. Diese Seite dekodiert den <code>?nfc=</code>-Wert direkt aus ihrer eigenen Adresszeile und zeigt dir, was der Chip übergeben hat. Gezählt wurde schon.</p>
+</article>
+
+</div>
+
+</section>
+
+<section class="page-section">
+
+## Was ein selbstzählender Tag kann
+
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Tags unterscheiden</h3>
+<p>Schreib dieselbe URL auf fünfzig Sticker, und die Tag-ID verrät dir trotzdem, welcher physische angetippt wurde. Ein Link zu verwalten, fünfzig Tags zu erkennen.</p>
+</article>
+
+<article class="page-card">
+<h3>Gratis-Zugang begrenzen</h3>
+<p>Der Zählerstand reist bei jedem Tap mit, also kannst du darauf reagieren - die ersten hundert Scans bekommen eine Belohnung, der Rest wird woanders hingeleitet.</p>
+</article>
+
+<article class="page-card">
+<h3>Engagement verfolgen</h3>
+<p>Kleb einen Tag auf eine Karte, ein Poster oder eine Produktverpackung, und der Zähler wird zur stillen Engagement-Kennzahl - ganz ohne Analytics-Pipeline.</p>
+</article>
+
+<article class="page-card">
+<h3>Echtheit nachweisen</h3>
+<p>Der Zähler geht nur nach oben und lässt sich nicht zurückdrehen, was ihn schwer fälschbar macht - nützlich für limitierte Editionen und Echtheitsprüfungen.</p>
+</article>
+
+</div>
+
+Du willst die ganze Geschichte - welche Chips funktionieren und die Einrichtung Schritt für Schritt? Lies [NFC-Tag-Scans ohne Server zählen](/de/blog/count-nfc-tag-scans/) oder sieh dir die komplette [NFC-Reader-und-Writer-Funktion](/de/features/nfc-reader-writer/) an.
 
 </section>

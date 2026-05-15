@@ -5,28 +5,15 @@ description: "A live demo of the NFC Tap Counter. Write this page's URL to an NF
 image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 ---
 
-<section class="page-hero">
+<section class="page-hero tap-counter-hero">
 
-<div id="tap-counter-demo" class="tap-demo">
+<div class="page-hero-grid">
 
-<h1 class="tap-demo-heading">NFC Tap Counter</h1>
+<div class="page-hero-text">
 
-<div class="tap-demo-result">
-<div class="tap-demo-count-row">
-<span class="tap-demo-count" data-tap-count>0</span>
-<span class="tap-demo-count-caption">scans, counted by the tag itself</span>
-</div>
-<p class="tap-demo-id-row"><span class="tap-demo-id-label">Tag ID</span> <code class="tap-demo-id-value" data-tap-id></code></p>
-<p class="tap-demo-raw">Read straight from the tag's URL: <code data-tap-raw></code></p>
-<p class="tap-demo-note">No server, no internet - the chip did the counting.</p>
-</div>
+# NFC Tap Counter
 
-<div class="tap-demo-empty">
-<p class="tap-demo-lead">This is a live demo of the NFC Tap Counter in NFC.cool Tools. Write an NFC tag so it points to the URL below, tap it, and the tag's own scan count and ID appear right here - decoded straight from the address bar, with no server in the loop.</p>
-<p class="tap-demo-url">Point your tag at <code>https://nfc.cool/tap-counter/</code></p>
-</div>
-
-</div>
+An NFC tag can count its own scans - the number lives in the chip, not on a server. Write a tag that points to this page, give it a tap, and the live count and tag ID show up in the card.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-tap-counter-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -37,19 +24,90 @@ image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 </a>
 </div>
 
+</div>
+
+<div class="page-hero-visual">
+
+<div id="tap-counter-demo" class="tap-demo">
+<div class="tap-demo-card tap-demo-result">
+<p class="tap-demo-kicker">Tag scanned</p>
+<div class="tap-demo-count-row">
+<p class="tap-demo-count" data-tap-count>0</p>
+<p class="tap-demo-count-caption">scans, counted by the tag itself</p>
+</div>
+<div class="tap-demo-id-row">
+<span class="tap-demo-id-label">Tag ID</span>
+<code class="tap-demo-id-value" data-tap-id></code>
+</div>
+<p class="tap-demo-raw">Decoded from <code data-tap-raw></code></p>
+</div>
+<div class="tap-demo-card tap-demo-empty">
+<p class="tap-demo-kicker">Live demo</p>
+<p class="tap-demo-empty-text">Tap an NFC tag that points here and its scan count appears in this card.</p>
+<p class="tap-demo-empty-hint">Point your tag at</p>
+<p class="tap-demo-url"><code>https://nfc.cool/tap-counter/</code></p>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 <section class="page-section">
 
-## How This Demo Works
+## How It Works
 
-When you switch on the NFC Tap Counter in NFC.cool Tools and write a tag, the app embeds placeholder bytes into the URL. On every scan, the NTAG21x chip replaces them with two live values before your phone ever reads the tag: the tag's running scan count and its unique factory ID.
+<div class="page-cards-grid">
 
-This page is that website. It carries no backend - it simply reads the `?nfc=` value the chip appended to its own address and shows you what arrived. The counting happened inside the chip; this page only displays it.
+<article class="page-card">
+<h3>The chip keeps the count</h3>
+<p>NTAG21x chips - the NTAG213, NTAG215 and NTAG216 used in most NFC stickers - have a counter built into the hardware. Every read ticks it up by one, with no app and no server in the loop.</p>
+</article>
 
-- The **scan count** arrives as a six-digit hexadecimal number (`000007` is the seventh scan).
-- The **tag ID** is the chip's 7-byte factory serial number, identical on every read.
+<article class="page-card">
+<h3>The URL carries it</h3>
+<p>NFC.cool Tools embeds placeholder bytes when it writes the tag. On every scan the chip swaps them for the live values and appends them as <code>?nfc=</code> - the tag ID first, then the count.</p>
+</article>
 
-Want the full story - which chips work, the real-world use cases, and the step-by-step setup? Read [How to Count NFC Tag Scans Without a Server](/blog/count-nfc-tag-scans/), or see the complete [NFC reader and writer feature](/features/nfc-reader-writer/).
+<article class="page-card">
+<h3>This page just reads it</h3>
+<p>No backend, no database. This page decodes the <code>?nfc=</code> value straight out of its own address bar and shows you what the chip handed over. The counting already happened.</p>
+</article>
+
+</div>
+
+</section>
+
+<section class="page-section">
+
+## What You Can Do With a Self-Counting Tag
+
+<div class="page-cards-grid">
+
+<article class="page-card">
+<h3>Tell tags apart</h3>
+<p>Put the same URL on fifty stickers and the tag ID still tells you which physical one was tapped. One link to manage, fifty tags you can identify.</p>
+</article>
+
+<article class="page-card">
+<h3>Limit free access</h3>
+<p>The count travels with every tap, so you can act on it - give the first hundred scans a reward and redirect the rest somewhere else.</p>
+</article>
+
+<article class="page-card">
+<h3>Track engagement</h3>
+<p>Stick a tag on a card, a poster or a product box and the counter becomes a quiet engagement metric - no analytics pipeline required.</p>
+</article>
+
+<article class="page-card">
+<h3>Prove authenticity</h3>
+<p>The counter only ever goes up and cannot be wound back, which makes it hard to fake - useful for limited editions and anti-counterfeit checks.</p>
+</article>
+
+</div>
+
+Want the full story - which chips work and the step-by-step setup? Read [How to Count NFC Tag Scans Without a Server](/blog/count-nfc-tag-scans/), or see the complete [NFC reader and writer feature](/features/nfc-reader-writer/).
 
 </section>
