@@ -14,7 +14,7 @@ description: "Reach NFC.cool - email support, frequently asked questions, the de
 
 The fastest way to reach us is by email. We read every message personally and reply within a business day.
 
-<a href="mailto:hello@nfc.cool?subject=NFC.cool%20support" class="landing-cta-button">Email hello@nfc.cool</a>
+<a href="mailto:info@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">Email us</a>
 
 </div>
 
@@ -82,7 +82,7 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="faq-item">
 <summary>Can businesses use NFC.cool?</summary>
-<p>Yes - webhooks let teams pipe NFC and QR scans straight into their own backends, CRMs, or automation tools (Zapier, n8n, Make). There's no NFC.cool account or upload involved, so your data never crosses our servers. For NFC tag campaigns at scale or custom branding, email hello@nfc.cool.</p>
+<p>Yes - webhooks let teams pipe NFC and QR scans straight into their own backends, CRMs, or automation tools (Zapier, n8n, Make). There's no NFC.cool account or upload involved, so your data never crosses our servers. For NFC tag campaigns at scale or custom branding, <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">email us</a>.</p>
 </details>
 
 <details class="faq-item">
@@ -102,17 +102,17 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="faq-item">
 <summary>I'd like to suggest a feature.</summary>
-<p>Please do - email hello@nfc.cool. We log every suggestion and they directly inform the roadmap.</p>
+<p>Please do - <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">email us</a>. We log every suggestion and they directly inform the roadmap.</p>
 </details>
 
 <details class="faq-item">
 <summary>Is there a business / team plan?</summary>
-<p>Webhooks unlock most team workflows already - no special plan needed. For larger deployments (NFC tag campaigns, custom branding, bulk-write tooling), email hello@nfc.cool and we'll sort it.</p>
+<p>Webhooks unlock most team workflows already - no special plan needed. For larger deployments (NFC tag campaigns, custom branding, bulk-write tooling), <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">email us</a> and we'll sort it.</p>
 </details>
 
 <details class="faq-item">
 <summary>I'd like to report a privacy concern.</summary>
-<p>Email hello@nfc.cool. We respond to privacy queries within 5 business days.</p>
+<p><a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">Email us</a>. We respond to privacy queries within 5 business days.</p>
 </details>
 
 </section>

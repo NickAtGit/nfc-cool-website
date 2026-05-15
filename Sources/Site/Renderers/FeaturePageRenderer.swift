@@ -346,7 +346,7 @@ struct FeaturePageRenderer: Renderer {
          """
          <details class="faq-item">
             <summary>\(item.question.htmlEscaped)</summary>
-            <p>\(item.answer.htmlEscaped)</p>
+            <p>\(item.answer)</p>
          </details>
          """
       }.joined()

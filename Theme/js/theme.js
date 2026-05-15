@@ -37,6 +37,23 @@ document.addEventListener('DOMContentLoaded', function() {
       a.setAttribute('rel', existingRel.join(' '));
    });
 
+   // Email de-obfuscation - EmailObfuscationProcessor (build step) drops the
+   // real `mailto:` href and stashes it Base64-encoded in `data-eml`, so
+   // harvester bots (which don't run JS) can't scrape the address. Here we
+   // decode it back onto the link. Decoding goes through Uint8Array +
+   // TextDecoder rather than bare atob so a non-ASCII subject would survive.
+   // Without JS the link is inert, but its generic label ("Email us" etc.)
+   // still reads fine - no address is exposed either way.
+   document.querySelectorAll('a[data-eml]').forEach(function(el) {
+      try {
+         const bytes = Uint8Array.from(atob(el.getAttribute('data-eml')), function(c) {
+            return c.charCodeAt(0);
+         });
+         el.setAttribute('href', new TextDecoder().decode(bytes));
+         el.removeAttribute('data-eml');
+      } catch (e) { /* link stays inert, no address leaked */ }
+   });
+
    // Dark mode toggle
    const toggle = document.querySelector('.sk-theme-toggle');
    if (toggle) {

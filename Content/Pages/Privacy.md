@@ -292,10 +292,10 @@ Coimbra 3000-390
 
 Portugal
 
-E-Mail: [click here](mailto:info@nfc.cool)
+E-Mail: [click here](mailto:info@nfc.cool?subject=NFC.cool%20Support)
 
 ## How can you review, update, or delete the data we collect from you?
 
-Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information please contact us via [e-mail](mailto:info@nfc.cool).
+Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information please contact us via [e-mail](mailto:info@nfc.cool?subject=NFC.cool%20Support).
 
 </section>

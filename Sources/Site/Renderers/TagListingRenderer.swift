@@ -53,9 +53,9 @@ struct TagListingRenderer: Renderer {
 
    private static func localizedTitle(locale: String, siteName: String) -> String {
       switch locale {
-      case "de": return "Themen — \(siteName)"
-      case "ja": return "タグ — \(siteName)"
-      default:   return "Tags — \(siteName)"
+      case "de": return "Themen - \(siteName)"
+      case "ja": return "タグ - \(siteName)"
+      default:   return "Tags - \(siteName)"
       }
    }
 

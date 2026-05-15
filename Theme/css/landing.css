@@ -454,6 +454,14 @@
    --cta-border-hover: #FFFFFF;
 }
 
+/* Obfuscated email anchors carry no `href` until theme.js decodes them, so
+   they aren't interactive by default - keep the pointer cursor for the brief
+   pre-JS window. After decoding, the attribute is removed and normal link
+   styling applies. */
+a[data-eml] {
+   cursor: pointer;
+}
+
 /* ============================================================
    SLOGAN - "The Cool Way To Connect" SVG accent
    ============================================================ */
@@ -731,11 +739,9 @@
 }
 .feature-subsection-visual {
    display: flex;
-   justify-content: center;
 }
 .feature-subsection-visual img {
    width: 100%;
-   max-width: 460px;
    height: auto;
    border-radius: var(--radius-lg);
 }
@@ -924,8 +930,5 @@
    }
    .feature-subsection--image-right .feature-subsection-visual {
       order: -1;
-   }
-   .feature-subsection-visual img {
-      max-width: 100%;
    }
 }

@@ -307,6 +307,6 @@ nfcforiphone://scan-room         (iOS 17+)
 
 </div>
 
-NFC.coolの上に何か作っていますか?ここに掲載すべきインテグレーション・パートナーをご存知ですか?<hello@nfc.cool>までご連絡ください。
+NFC.coolの上に何か作っていますか?ここに掲載すべきインテグレーション・パートナーをご存知ですか?[メールでご連絡ください](mailto:info@nfc.cool?subject=NFC.cool%20Support)。
 
 </section>

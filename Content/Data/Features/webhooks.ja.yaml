@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "GitHub上のリファレンスサーバー"
-    body: "<p>ループ全体を端から端まで見る一番速い方法: <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">github.com/NickAtGit/nfc-cool-webhook-server</a>。NFC.coolのWebhookペイロードを受信し、ログを出し、構造をライブで表示する最小限のサンプルサーバー。クローンして起動し、iPhoneを向ければ、スキャンが届くのが見えます。</p>"
+    body: "<p>ループ全体を端から端まで見る一番速い方法: <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">GitHub上のWebサーバー</a>。NFC.coolのWebhookペイロードを受信し、ログを出し、構造をライブで表示する最小限のサンプルサーバー。クローンして起動し、iPhoneを向ければ、スキャンが届くのが見えます。</p>"
     platforms: "iOS · Android"
 
 specsTitle: "技術的な詳細"
@@ -97,4 +97,4 @@ faq:
   - question: "ペイロードサイズの制限は?"
     answer: "NFC.cool側からのハード制限はありません。タグ自体のペイロードはNFC規格(典型的なNDEFタグで数KB)で制限されます。"
   - question: "実際に動くのを見られますか?"
-    answer: "github.com/NickAtGit/nfc-cool-webhook-serverのリファレンスサーバーをクローンしてローカルで起動、アプリをそこに向ければ、すべてのスキャンがリアルタイムで届くのが見えます。"
+    answer: "<a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">GitHub上のWebサーバー</a>をクローンしてローカルで起動、アプリをそこに向ければ、すべてのスキャンがリアルタイムで届くのが見えます。"

@@ -14,7 +14,7 @@ description: "Press resources for NFC.cool - brand assets, logos, screenshots, a
 
 For coverage, partnerships, and anything that needs an official statement, this is the right place to start. Press kit and brand kit are linked below - no form to fill in.
 
-<a href="mailto:hello@nfc.cool?subject=Press%20inquiry" class="landing-cta-button">Email press@nfc.cool</a>
+<a href="mailto:info@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">Email us</a>
 
 </div>
 

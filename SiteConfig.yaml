@@ -49,7 +49,7 @@ homePage:
 
 author:
   name: "NFC.cool"
-  email: "hello@nfc.cool"
+  email: "info@nfc.cool"
 
 # Per-app rating data injected into the SoftwareApplication JSON-LD blocks on
 # the landing page. Refresh manually from App Store Connect / Play Console

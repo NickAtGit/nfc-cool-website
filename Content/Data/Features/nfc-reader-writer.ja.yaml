@@ -3,7 +3,7 @@ backLinkText: "← すべての機能"
 
 hero:
   title: "NFCリーダー & ライター"
-  subtitle: "あらゆる一般的なNFCタグを読み取り、25種類以上のメッセージタイプを書き込みます。NFC Safe(AES-256-GCM)で秘密情報をタグ自体に暗号化。ロックとパスワード保護で改ざんを防ぎます。"
+  subtitle: "どんなNFCタグもタップで読み取り、自分でも書き込めます - リンク、連絡先、Wi-Fiなど。パスワードや秘密の情報をタグに安全に保存し、ロックすれば他の誰にも書き換えられません。"
   platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
 
@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "OpenPrintTag - 3Dプリンターのフィラメントをスプールに載せる"
-    body: "<p>OpenPrintTagはフィラメント・スプールのメタデータ(素材、色、メーカー、UUID、残量)を小さなCBORエンコードされたNDEFレコードに埋め込むためのオープン規格です。NFC.coolはこのフォーマットを両プラットフォームでネイティブに読み書きします - Bambu、Prusa、あるいはNFCリーダーを備えたあらゆるプリンターが、スプールがセットされた瞬間に内容を識別できます。フォーマットについて詳しく知りたい方は、<a href=\"/ja/blog/openprinttag-read-write-nfc-spools-phone/\">OpenPrintTagスプールの読み書きガイド</a>をどうぞ。</p><p>同じフォーマットが<a href=\"/ja/features/webhooks/\">Webhookと自動化</a>ページの構造化Webhookペイロードを支えています - 新しいスプールが検出された瞬間にプリントファームへPOSTを発火できます。</p>"
+    body: "<p>OpenPrintTagはフィラメント・スプールのメタデータ(素材、色、メーカー、UUID、残量)を小さなCBORエンコードされたNDEFレコードに埋め込むためのオープン規格です。NFC.coolはこのフォーマットを両プラットフォームでネイティブに読み書きします - 対応プリンターが、スプールがセットされた瞬間に内容を識別できます。フォーマットについて詳しく知りたい方は、<a href=\"/ja/blog/openprinttag-read-write-nfc-spools-phone/\">OpenPrintTagスプールの読み書きガイド</a>をどうぞ。</p><p>同じフォーマットが<a href=\"/ja/features/webhooks/\">Webhookと自動化</a>ページの構造化Webhookペイロードを支えています - 新しいスプールが検出された瞬間にプリントファームへPOSTを発火できます。</p>"
     imagePath: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
     imageAlt: "スマホでOpenPrintTagのNFCスプールを読み書き"
     platforms: "iOS · Android"
@@ -70,6 +70,12 @@ subsections:
     imageAlt: "iPhoneが音声波形とともにNFCタグを読み上げ"
     platforms: "iOS"
 
+  - title: "CSVバッチ書き込み"
+    body: "<p>iOS上の本格的なNFCオペレーター向け: ペイロードのスプレッドシートをアップロードし、スマホをアシスタントに渡せば、1セッションでタグの山すべてに書き込めます。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
+    imageAlt: "iPhoneが表から複数のNFCタグに一括書き込み"
+    platforms: "iOS"
+
   - title: "ショートカット & App Intent"
     body: "<p>NFC.coolは組み込みアクションでiOSのショートカットアプリと直接つながります: 最後にスキャンしたNFCタグを取得、タグにメッセージを書き込み、スキャナーを開く、最後にスキャンしたQRコードを取得。これらをつなげて、タグをスキャンしてペイロードをパースし、その後何でも - 自動化、ロギング、ジャーナリング、思いつくものすべて - を実行するショートカットを作れます。同じアクションがiOS 17以降のロック画面<strong>スキャンボタン</strong>コントロールも支えています。</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
@@ -80,12 +86,6 @@ subsections:
     body: "<p>スキャン履歴、NFC Safeエントリー、書き込みテンプレートは、同じiCloudアカウントでサインインしたすべての端末でシームレスに同期します。ポケットのiPhoneでタグをタッチした次の瞬間、そのスキャンはiPadのライブラリに現れます。NFC.coolは<a href=\"/ja/blog/nfc-cool-comes-to-mac/\">Apple Silicon Macでも動作するようになり</a>、同じライブラリがそちらにも表示されます。</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "iPhone・iPad・MacでNFC.coolが同期"
-    platforms: "iOS"
-
-  - title: "CSVバッチ書き込み"
-    body: "<p>iOS上の本格的なNFCオペレーター向け: ペイロードのスプレッドシートをアップロードし、スマホをアシスタントに渡せば、1セッションでタグの山すべてに書き込めます。</p>"
-    imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
-    imageAlt: "iPhoneが表から複数のNFCタグに一括書き込み"
     platforms: "iOS"
 
 specsTitle: "対応タグ & 技術"

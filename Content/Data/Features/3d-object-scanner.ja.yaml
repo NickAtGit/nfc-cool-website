@@ -2,8 +2,8 @@ slug: "3d-object-scanner"
 backLinkText: "← すべての機能"
 
 hero:
-  title: "3Dオブジェクト・スキャン"
-  subtitle: "iPhoneでオブジェクトの周りを歩くだけ - NFC.coolがAppleのオンデバイスObject Captureを使い、テクスチャ付き3Dモデルを再構成します。AR Quick Look用のUSDZ、Blender用のOBJに書き出せます。"
+  title: "3Dオブジェクト・スキャナー"
+  subtitle: "iPhoneでオブジェクトの周りを歩くだけ - NFC.coolがAppleのオンデバイスObject Captureを使い、テクスチャ付き3Dモデルを再構成します。完成したモデルをARや好みの3Dツールに書き出せます。"
   platforms: "iOSのみ"
   heroImagePath: "/assets/images/Webflow/3d-object.webp"
 
@@ -15,19 +15,25 @@ capabilities:
     description: "書き出し前にモデルを3Dで確認。セッションで撮影された生の画像も確認でき、カメラが何を見たかが分かります。"
   - title: "AR Quick Look"
     description: "AR Quick Lookでスキャンしたオブジェクトをリビングに配置。USDZファイルを友人と共有 - メッセージ内でそのまま表示できます。"
-  - title: "ARとBlenderへの書き出し"
-    description: "AR Quick Look用にUSDZ、3DコンテンツパイプラインのためのBlender用OBJ(テクスチャマップ付き)。"
+  - title: "6つの書き出し形式"
+    description: "テクスチャ付きのUSDZをAR Quick Lookに、ジオメトリのみのUSD・OBJ・STL・PLY・ABCをBlenderやその他の3Dコンテンツパイプラインに書き出せます。"
 
 subsectionsTitle: "あなたの手からARの中へ"
 subsections:
+  - title: "メッセージで使えるAR Quick Look"
+    body: "<p>USDZはAppleのネイティブAR形式。スキャンしたオブジェクトをiMessageやAirDropで共有すると、受信者は回転、自分の空間に配置、スクリーンショットができます - メッセージのプレビューから、アプリインストール不要で。プロダクトプレビュー、彫刻のドキュメント、あるいはちょっとした自慢にも最適。</p>"
+    platforms: "iOS"
+
+  - title: "ショートカット & App Intent"
+    body: "<p>NFC.coolは組み込みアクションでiOSのショートカットアプリと直接つながります: 最後にスキャンしたNFCタグを取得、タグにメッセージを書き込み、スキャナーを開く、最後にスキャンしたQRコードを取得。これらをつなげて、タグをスキャンしてペイロードをパースし、その後何でも - 自動化、ロギング、ジャーナリング、思いつくものすべて - を実行するショートカットを作れます。同じアクションがiOS 17以降のロック画面<strong>スキャンボタン</strong>コントロールも支えています。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhoneがNFCタグを自動化ブロックにつなぐ"
+    platforms: "iOS"
+
   - title: "iPhone・iPad・MacでiCloud同期"
     body: "<p>スキャンしたモデルはiCloud Documentsフォルダに保管されるので、スキャンしたiPhone、確認したiPad、編集する<a href=\"/ja/blog/nfc-cool-comes-to-mac/\">Mac</a> - すべてが同じライブラリを見ます。外で撮って、机で仕上げる。</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "iPhone・iPad・MacでNFC.coolが同期"
-    platforms: "iOS"
-
-  - title: "メッセージで使えるAR Quick Look"
-    body: "<p>USDZはAppleのネイティブAR形式。スキャンしたオブジェクトをiMessageやAirDropで共有すると、受信者は回転、自分の空間に配置、スクリーンショットができます - メッセージのプレビューから、アプリインストール不要で。プロダクトプレビュー、彫刻のドキュメント、あるいはちょっとした自慢にも最適。</p>"
     platforms: "iOS"
 
 specsTitle: "ハードウェア & 書き出し"
@@ -39,8 +45,8 @@ specs:
       - "iPad Pro(2020)以降にも対応"
   - title: "書き出し形式"
     items:
-      - "USDZ - AppleのAR Quick Look形式"
-      - "OBJ + MTL(テクスチャマップ付き、ModelIO経由)"
+      - "USDZ - テクスチャ付き、AppleのAR Quick Look形式"
+      - "USD・OBJ・STL・PLY・ABC - ジオメトリのみ(ModelIO経由)"
       - "セッションの生画像(Platinum)"
 
 pricing:
@@ -48,23 +54,17 @@ pricing:
   freeHeader: "Free"
   platinumHeader: "Platinum"
   rows:
-    - feature: "Object Captureで3Dスキャン"
+    - feature: "3Dオブジェクトをスキャンする"
       free: "✓"
       platinum: "✓"
-    - feature: "モデルを3Dで確認"
+    - feature: "ARにオブジェクトを配置する"
       free: "✓"
       platinum: "✓"
-    - feature: "AR Quick Lookで配置"
-      free: "✓"
-      platinum: "✓"
-    - feature: "3Dモデルの書き出し(USDZ、OBJ)"
+    - feature: "3Dモデルをエクスポートする"
       free: "✗"
       platinum: "✓"
-    - feature: "生のキャプチャ写真の書き出し"
+    - feature: "写真をエクスポートする"
       free: "✗"
-      platinum: "✓"
-    - feature: "iPhone・iPad・MacでiCloud同期"
-      free: "✓"
       platinum: "✓"
 
 faqTitle: "よくある質問"
@@ -75,5 +75,5 @@ faq:
     answer: "オブジェクトの周りを歩くのに数分、その後オンデバイスの再構成に数分です。大きい・テクスチャの多いオブジェクトほど時間がかかります。"
   - question: "結果を3D印刷できますか?"
     answer: "OBJで書き出し、Blender、MeshLab、その他の標準3DツールでSTLに変換できます。中サイズで質感のはっきりしたオブジェクトが最も良い結果になります。"
-  - question: "ルーム・スキャンとの違いは?"
-    answer: "Object Capture(この機能)は1つの物体の3Dモデルを作ります。ルーム・スキャンはLiDARとAppleのRoomPlanで空間の間取り(壁、ドア、家具)を作ります。どちらもLiDARが必要ですが、別の質問に答えます。"
+  - question: "ルーム・スキャナーとの違いは?"
+    answer: "Object Capture(この機能)は1つの物体の3Dモデルを作ります。ルーム・スキャナーはLiDARとAppleのRoomPlanで空間の間取り(壁、ドア、家具)を作ります。どちらもLiDARが必要ですが、別の質問に答えます。"

@@ -43,6 +43,7 @@ import SiteKit
          .processor(RedirectNoindexProcessor())
          .processor(SmartAppBannerProcessor())
          .processor(OGImageDimensionsProcessor())
+         .processor(EmailObfuscationProcessor())
          .processor(AssetMinifier())
          .run()
    }

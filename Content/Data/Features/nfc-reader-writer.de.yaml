@@ -3,7 +3,7 @@ backLinkText: "← Alle Funktionen"
 
 hero:
   title: "NFC lesen & schreiben"
-  subtitle: "Lies jeden gängigen NFC-Tag und schreibe über 25 Nachrichtenarten. Verschlüssele Geheimnisse direkt auf dem Tag mit NFC Safe (AES-256-GCM). Sperre und schütze Tags per Passwort, damit niemand sie verändern kann."
+  subtitle: "Lies jeden NFC-Tag mit einem Tippen und beschreibe ihn selbst - mit Links, Kontakten, WLAN und mehr. Speichere Passwörter und Geheimnisse sicher direkt auf dem Tag und sperre Tags, damit niemand sie verändern kann."
   platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
 
@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "OpenPrintTag - dein 3D-Drucker-Filament, direkt auf der Spule"
-    body: "<p>OpenPrintTag ist ein offener Standard, um Filament-Spulen-Metadaten (Material, Farbe, Hersteller, UUID, Restlänge) in einem kleinen CBOR-codierten NDEF-Record einzubetten. NFC.cool liest und schreibt das Format nativ auf beiden Plattformen - Bambu, Prusa oder jeder Drucker mit angeschlossenem NFC-Reader erkennt deine Spule, sobald sie eingelegt ist. Neu beim Format? <a href=\"/de/blog/openprinttag-read-write-nfc-spools-phone/\">Unser Blog-Guide erklärt das Lesen und Schreiben von OpenPrintTag-Spulen</a>.</p><p>Dasselbe Format speist die strukturierten Webhook-Payloads auf der Seite <a href=\"/de/features/webhooks/\">Webhooks & Automatisierung</a> - ein POST an deine Druck-Farm in dem Moment, in dem eine frische Spule erkannt wird.</p>"
+    body: "<p>OpenPrintTag ist ein offener Standard, um Filament-Spulen-Metadaten (Material, Farbe, Hersteller, UUID, Restlänge) in einem kleinen CBOR-codierten NDEF-Record einzubetten. NFC.cool liest und schreibt das Format nativ auf beiden Plattformen - kompatible Drucker erkennen deine Spule, sobald sie eingelegt ist. Neu beim Format? <a href=\"/de/blog/openprinttag-read-write-nfc-spools-phone/\">Unser Blog-Guide erklärt das Lesen und Schreiben von OpenPrintTag-Spulen</a>.</p><p>Dasselbe Format speist die strukturierten Webhook-Payloads auf der Seite <a href=\"/de/features/webhooks/\">Webhooks & Automatisierung</a> - ein POST an deine Druck-Farm in dem Moment, in dem eine frische Spule erkannt wird.</p>"
     imagePath: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
     imageAlt: "OpenPrintTag-NFC-Spulen mit dem Handy lesen und schreiben"
     platforms: "iOS · Android"
@@ -70,6 +70,12 @@ subsections:
     imageAlt: "iPhone liest einen NFC-Tag mit Audiowellen vor"
     platforms: "iOS"
 
+  - title: "CSV-Batch-Write"
+    body: "<p>Für ernsthafte NFC-Profis auf iOS: lade eine Tabelle mit Payloads hoch, gib das Handy einer Assistenz und schreibe den ganzen Stapel in einer Session.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
+    imageAlt: "iPhone beschreibt viele NFC-Tags aus einer Tabelle"
+    platforms: "iOS"
+
   - title: "Shortcuts & App Intents"
     body: "<p>NFC.cool klinkt sich mit eingebauten Aktionen direkt in die iOS-Kurzbefehle-App ein: den zuletzt gescannten NFC-Tag abrufen, eine Nachricht auf einen Tag schreiben, den Scanner öffnen oder den zuletzt gescannten QR-Code holen. Verkette sie zu Shortcuts, die einen Tag scannen, die Payload parsen und dann tun, was immer du willst - Automatisierung, Logging, Journaling, alles. Dieselben Aktionen treiben den <strong>Scan-Button</strong> auf dem Lockscreen unter iOS 17+ an.</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
@@ -80,12 +86,6 @@ subsections:
     body: "<p>Scan-Verlauf, NFC-Safe-Einträge und Schreibvorlagen synchronisieren nahtlos über alle Geräte, die mit deiner iCloud angemeldet sind. Tippe einen Tag auf dem iPhone in deiner Tasche, und der Scan ist Sekunden später in der iPad-Bibliothek. NFC.cool <a href=\"/de/blog/nfc-cool-comes-to-mac/\">läuft jetzt auch auf Apple-Silicon-Macs</a>, also taucht dieselbe Bibliothek dort auf.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool synchronisiert über iPhone, iPad und Mac"
-    platforms: "iOS"
-
-  - title: "CSV-Batch-Write"
-    body: "<p>Für ernsthafte NFC-Profis auf iOS: lade eine Tabelle mit Payloads hoch, gib das Handy einer Assistenz und schreibe den ganzen Stapel in einer Session.</p>"
-    imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
-    imageAlt: "iPhone beschreibt viele NFC-Tags aus einer Tabelle"
     platforms: "iOS"
 
 specsTitle: "Unterstützte Tags & Technologien"

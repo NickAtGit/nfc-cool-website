@@ -14,7 +14,7 @@ description: "The story, the mission, and the person behind NFC.cool - a privacy
 
 NFC.cool is an independent product from **Nicolo Stanciu**, made in Lisbon. One person, one mission: ship the best mobile scanning toolkit anyone has, without spying on the people using it.
 
-<a href="mailto:hello@nfc.cool" class="landing-cta-button">Get in touch</a>
+<a href="mailto:info@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">Get in touch</a>
 
 </div>
 
@@ -77,7 +77,7 @@ I keep it that way on purpose. No VC, no analytics, no growth team - just one pe
 
 ## Get in touch
 
-The fastest way to reach me is by email - <hello@nfc.cool>. I read everything personally. Feature requests directly shape the roadmap; bug reports get triaged within a day.
+The fastest way to reach me is [by email](mailto:info@nfc.cool?subject=NFC.cool%20Support). I read everything personally. Feature requests directly shape the roadmap; bug reports get triaged within a day.
 
 For press inquiries, see the [press page](/press/).
 

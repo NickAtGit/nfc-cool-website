@@ -307,6 +307,6 @@ Discoverable feeds for tooling, search engines, and AI agents:
 
 </div>
 
-Building something on top of NFC.cool? Or spotted an integration partner that should be on this page? Drop a note: <hello@nfc.cool>.
+Building something on top of NFC.cool? Or spotted an integration partner that should be on this page? [Drop us a note](mailto:info@nfc.cool?subject=NFC.cool%20Support).
 
 </section>

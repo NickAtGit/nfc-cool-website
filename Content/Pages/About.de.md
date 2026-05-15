@@ -14,7 +14,7 @@ description: "Die Geschichte, die Mission und die Person hinter NFC.cool - ein d
 
 NFC.cool ist ein unabhängiges Produkt von **Nicolo Stanciu**, gemacht in Lissabon. Eine Person, eine Mission: das beste mobile Scan-Toolkit zu liefern - ohne die Leute auszuspionieren, die es benutzen.
 
-<a href="mailto:hello@nfc.cool" class="landing-cta-button">Kontakt aufnehmen</a>
+<a href="mailto:info@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">Kontakt aufnehmen</a>
 
 </div>
 
@@ -77,7 +77,7 @@ Ich halte das absichtlich so. Kein VC, keine Analytics, kein Growth-Team - nur e
 
 ## Kontakt
 
-Am schnellsten erreichst du mich per E-Mail - <hello@nfc.cool>. Ich lese alles persönlich. Feature-Wünsche fließen direkt in die Roadmap; Fehlerberichte werden innerhalb eines Tages bearbeitet.
+Am schnellsten erreichst du mich [per E-Mail](mailto:info@nfc.cool?subject=NFC.cool%20Support). Ich lese alles persönlich. Feature-Wünsche fließen direkt in die Roadmap; Fehlerberichte werden innerhalb eines Tages bearbeitet.
 
 Für Presseanfragen siehe die [Presseseite](/de/press/).
 

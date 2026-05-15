@@ -169,24 +169,24 @@ A dedicated Digital Business Card app for iPhone. Share your contact details wit
 
 Choose the plan that fits how much you network. All paid plans include vCard save, lead generation, analytics, and unlimited sharing.
 
-<div class="feature-comparison-wrap">
-<table class="feature-comparison-table">
+<div class="feature-pricing-wrap">
+<table class="feature-pricing-table">
 <thead>
 <tr><th></th><th scope="col">Free</th><th scope="col">Personal</th><th scope="col">Small&nbsp;Business</th><th scope="col">Business</th></tr>
 </thead>
 <tbody>
 <tr><th scope="row">Price</th><td><strong>$0</strong></td><td><strong>$19.99</strong></td><td><strong>$49.99</strong></td><td><strong>$99.99</strong></td></tr>
 <tr><th scope="row">Cards</th><td>1</td><td>1</td><td>10</td><td>100</td></tr>
-<tr><th scope="row">Profile viewing</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">vCard save</th><td>-</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">Lead generation</th><td>-</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">Analytics</th><td>-</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">Custom logo</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">NFC & QR sharing</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">Conference Mode</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">PIN protection</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">Real-time notifications</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
-<tr><th scope="row">Data export (GDPR)</th><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><th scope="row">Profile viewing</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
+<tr><th scope="row">vCard save</th><td><span class="feature-pricing-pill is-no" aria-label="not included">✗</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
+<tr><th scope="row">Lead generation</th><td><span class="feature-pricing-pill is-no" aria-label="not included">✗</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
+<tr><th scope="row">Analytics</th><td><span class="feature-pricing-pill is-no" aria-label="not included">✗</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
+<tr><th scope="row">Custom logo</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
+<tr><th scope="row">NFC & QR sharing</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
+<tr><th scope="row">Conference Mode</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
+<tr><th scope="row">PIN protection</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
+<tr><th scope="row">Real-time notifications</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
+<tr><th scope="row">Data export (GDPR)</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
 <tr><th scope="row">Ideal for</th><td>Testing</td><td>Individuals</td><td>Small teams</td><td>Growing companies</td></tr>
 </tbody>
 </table>

@@ -14,7 +14,7 @@ description: "Presse-Ressourcen für NFC.cool - Marken-Assets, Logos, Screenshot
 
 Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage benötigt, beginnst du hier richtig. Press Kit und Brand Kit sind unten verlinkt - kein Formular auszufüllen.
 
-<a href="mailto:hello@nfc.cool?subject=Presseanfrage" class="landing-cta-button">press@nfc.cool schreiben</a>
+<a href="mailto:info@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">E-Mail schreiben</a>
 
 </div>
 

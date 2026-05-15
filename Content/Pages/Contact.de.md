@@ -14,7 +14,7 @@ description: "Nimm Kontakt mit NFC.cool auf - E-Mail-Support, häufig gestellte 
 
 Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich und antworten innerhalb eines Werktags.
 
-<a href="mailto:hello@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">hello@nfc.cool schreiben</a>
+<a href="mailto:info@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">E-Mail schreiben</a>
 
 </div>
 
@@ -82,7 +82,7 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 <details class="faq-item">
 <summary>Können Unternehmen NFC.cool nutzen?</summary>
-<p>Ja - Webhooks erlauben Teams, NFC- und QR-Scans direkt in ihre eigenen Backends, CRMs oder Automatisierungstools (Zapier, n8n, Make) zu leiten. Kein NFC.cool-Konto und keine Datenübertragung an uns nötig. Für NFC-Tag-Kampagnen im großen Stil oder eigenes Branding schreibe an hello@nfc.cool.</p>
+<p>Ja - Webhooks erlauben Teams, NFC- und QR-Scans direkt in ihre eigenen Backends, CRMs oder Automatisierungstools (Zapier, n8n, Make) zu leiten. Kein NFC.cool-Konto und keine Datenübertragung an uns nötig. Für NFC-Tag-Kampagnen im großen Stil oder eigenes Branding <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">schreib uns</a>.</p>
 </details>
 
 <details class="faq-item">
@@ -102,17 +102,17 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 <details class="faq-item">
 <summary>Ich möchte eine Funktion vorschlagen.</summary>
-<p>Sehr gerne - E-Mail an hello@nfc.cool. Wir notieren jeden Vorschlag, und sie fließen direkt in die Roadmap ein.</p>
+<p>Sehr gerne - <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">schreib uns</a>. Wir notieren jeden Vorschlag, und sie fließen direkt in die Roadmap ein.</p>
 </details>
 
 <details class="faq-item">
 <summary>Gibt es einen Business-/Team-Plan?</summary>
-<p>Webhooks decken bereits die meisten Team-Workflows ab - kein spezieller Plan nötig. Für größere Einsätze (NFC-Tag-Kampagnen, individuelles Branding, Bulk-Schreib-Tools) schreibe an hello@nfc.cool, dann finden wir eine Lösung.</p>
+<p>Webhooks decken bereits die meisten Team-Workflows ab - kein spezieller Plan nötig. Für größere Einsätze (NFC-Tag-Kampagnen, individuelles Branding, Bulk-Schreib-Tools) <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">schreib uns</a>, dann finden wir eine Lösung.</p>
 </details>
 
 <details class="faq-item">
 <summary>Ich möchte ein Datenschutzanliegen melden.</summary>
-<p>Schreibe an hello@nfc.cool. Wir antworten auf Datenschutzanfragen innerhalb von 5 Werktagen.</p>
+<p><a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">Schreib uns</a>. Wir antworten auf Datenschutzanfragen innerhalb von 5 Werktagen.</p>
 </details>
 
 </section>

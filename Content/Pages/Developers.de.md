@@ -307,6 +307,6 @@ Auffindbare Feeds für Tooling, Suchmaschinen und KI-Agenten:
 
 </div>
 
-Du baust auf NFC.cool auf, oder kennst einen Integrations-Partner, der hier stehen sollte? Schreib uns: <hello@nfc.cool>.
+Du baust auf NFC.cool auf, oder kennst einen Integrations-Partner, der hier stehen sollte? [Schreib uns](mailto:info@nfc.cool?subject=NFC.cool%20Support).
 
 </section>
