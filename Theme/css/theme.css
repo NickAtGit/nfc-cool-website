@@ -392,7 +392,8 @@ body.landing .sk-main {
 .sk-static-page a,
 .page-section a:not(.landing-cta-button),
 .page-card a:not(.landing-cta-button),
-.blog-post-body a {
+.blog-post-body a,
+.feature-subsection-body a {
    color: var(--color-text);
    text-decoration: underline;
    text-decoration-color: var(--color-link);
@@ -402,7 +403,8 @@ body.landing .sk-main {
 .sk-static-page a:hover,
 .page-section a:not(.landing-cta-button):hover,
 .page-card a:not(.landing-cta-button):hover,
-.blog-post-body a:hover {
+.blog-post-body a:hover,
+.feature-subsection-body a:hover {
    color: var(--color-link-hover);
    text-decoration-color: var(--color-link-hover);
 }

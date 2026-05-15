@@ -762,11 +762,6 @@
 .feature-subsection-body strong {
    font-weight: 600;
 }
-.feature-subsection-body a {
-   color: var(--color-accent);
-   text-decoration: underline;
-   text-underline-offset: 2px;
-}
 .feature-subsection-body ul {
    margin: 0 0 0.85rem;
    padding-left: 1.25rem;
