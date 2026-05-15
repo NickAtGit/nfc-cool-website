@@ -107,4 +107,6 @@ If you need to stock up, our [recommended NFC tags](/affiliate-links/) page list
 
 Counting NFC taps used to mean unique links and a backend to tally them. The NTAG21x counter quietly removes that requirement: the tag keeps its own tally, and the NFC Tap Counter feature in NFC.cool Tools is what switches it on.
 
+Want to see it work before writing a single tag? Our [live tap counter demo](/tap-counter/) is a page that does exactly what this post describes - write a tag that points at it, give it a tap, and the page shows you the scan count and tag ID the chip just handed it. No server in the loop, just the URL.
+
 It is available now in NFC.cool Tools, on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-en). To see the full NFC toolkit, take a look at the [NFC reader and writer feature](/features/nfc-reader-writer/).

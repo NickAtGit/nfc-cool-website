@@ -107,4 +107,6 @@ Wenn du dich eindecken willst, listet unsere Seite mit [empfohlenen NFC-Tags](/d
 
 NFC-Taps zu zählen bedeutete früher eindeutige Links und ein Backend, das mitzählt. Der NTAG21x-Zähler nimmt diese Voraussetzung leise weg: Der Tag führt seine eigene Zählung, und die Funktion NFC-Tap-Zähler in NFC.cool Tools schaltet sie ein.
 
+Willst du es in Aktion sehen, bevor du einen Tag beschreibst? Unsere [Live-Demo des Tap-Zählers](/de/tap-counter/) ist eine Seite, die genau das tut, was dieser Beitrag beschreibt - beschreibe einen Tag, der auf sie zeigt, tippe ihn an, und die Seite zeigt dir den Zählerstand und die Tag-ID, die der Chip ihr gerade übergeben hat. Kein Server dazwischen, nur die URL.
+
 Sie ist jetzt verfügbar in NFC.cool Tools, auf [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-de). Den vollen NFC-Werkzeugkasten zeigt dir die [NFC-Reader-und-Writer-Funktion](/de/features/nfc-reader-writer/).

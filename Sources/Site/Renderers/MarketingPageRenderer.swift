@@ -57,7 +57,7 @@ struct MarketingPageRenderer: Renderer {
       let hreflangMap = allLangMap?.filter { entry in
          entry.key == "x-default" || availableLocales.contains(entry.key)
       }
-      let head = helper.buildHead(
+      var head = helper.buildHead(
          title: pageTitle,
          description: page.description,
          canonicalURL: "\(context.config.baseURL)\(context.router.staticPagePath(for: page))",
@@ -66,6 +66,17 @@ struct MarketingPageRenderer: Renderer {
          jsonLD: jsonLD,
          hreflang: hreflangMap
       )
+
+      // The /tap-counter/ demo decodes the chip-appended `?nfc=` value out of
+      // the query string. SiteKit's buildHead inlines a synchronous
+      // language-redirect <script> on every default-locale page, and that
+      // script does `location.replace('/' + lang + location.pathname)` —
+      // dropping location.search. A DE/JA-browser visitor tapping a tag would
+      // be redirected and silently lose the scan data, so strip the redirect
+      // for this one page; the URL (and its query) is then never rewritten.
+      if page.slug == "tap-counter" {
+         head = Self.removingLanguageRedirectScript(from: head)
+      }
 
       // Marketing pages author their own .page-hero / .page-section structure
       // in markdown. Just drop the rendered body inside <main> - no auto h1,
@@ -156,5 +167,21 @@ struct MarketingPageRenderer: Renderer {
          }
       }
       return available
+   }
+
+   /// Removes the inline language-redirect `<script>` from a `buildHead`
+   /// result. Locates the `<script>` element that contains the
+   /// `preferredLang` token (SiteKit's redirect snippet, emitted as the first
+   /// inline script in `<head>`) and drops that whole element. A no-op when
+   /// the script is absent — e.g. on non-default-locale pages, which never
+   /// receive it.
+   private static func removingLanguageRedirectScript(from head: String) -> String {
+      guard let marker = head.range(of: "preferredLang"),
+            let open = head.range(of: "<script>", options: .backwards, range: head.startIndex..<marker.lowerBound),
+            let close = head.range(of: "</script>", range: marker.upperBound..<head.endIndex)
+      else { return head }
+      var result = head
+      result.removeSubrange(open.lowerBound..<close.upperBound)
+      return result
    }
 }

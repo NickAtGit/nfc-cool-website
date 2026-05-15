@@ -391,3 +391,75 @@
    border-radius: var(--radius-lg);
    box-shadow: 0 24px 60px -20px var(--color-shadow-lg);
 }
+
+/* ============================================================
+   NFC Tap Counter live demo - /tap-counter/. The #tap-counter-demo
+   block sits inside .page-hero. By default the instructional
+   .tap-demo-empty state shows; theme.js adds .is-active and fills the
+   [data-tap-*] slots when the page is opened with a ?nfc= value from
+   a scanned tag, swapping in the .tap-demo-result state.
+   ============================================================ */
+.tap-demo-result { display: none; }
+.tap-demo.is-active .tap-demo-empty { display: none; }
+.tap-demo.is-active .tap-demo-result { display: block; }
+
+.tap-demo-heading { margin-bottom: 1.25rem; }
+
+.tap-demo-lead {
+   font-size: clamp(1rem, 1.3vw, 1.1875rem);
+   line-height: 1.6;
+   color: rgba(255, 255, 255, 0.92);
+   max-width: 40em;
+   margin: 0 auto 1.5rem;
+}
+.tap-demo-url,
+.tap-demo-raw {
+   font-size: 0.95rem;
+   color: rgba(255, 255, 255, 0.85);
+   margin: 0;
+}
+.tap-demo code {
+   font-family: var(--font-mono, monospace);
+   background: rgba(255, 255, 255, 0.14);
+   border: 1px solid rgba(255, 255, 255, 0.22);
+   border-radius: var(--radius);
+   padding: 0.15em 0.5em;
+   font-size: 0.9em;
+   word-break: break-all;
+}
+
+/* Result state - the live scan count + tag ID decoded from ?nfc= */
+.tap-demo-count-row { margin: 0 0 1.5rem; }
+.tap-demo-count {
+   display: block;
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(4rem, 14vw, 8rem);
+   line-height: 1;
+   letter-spacing: -0.03em;
+   color: var(--color-accent);
+}
+.tap-demo-count-caption {
+   display: block;
+   margin-top: 0.35rem;
+   font-size: 1.0625rem;
+   color: rgba(255, 255, 255, 0.9);
+}
+.tap-demo-id-row {
+   display: inline-flex;
+   align-items: center;
+   gap: 0.6rem;
+   margin: 0 auto 1rem;
+}
+.tap-demo-id-label {
+   text-transform: uppercase;
+   letter-spacing: 0.08em;
+   font-size: 0.75rem;
+   font-weight: 600;
+   color: rgba(255, 255, 255, 0.7);
+}
+.tap-demo-note {
+   margin: 1.25rem 0 0;
+   font-size: 0.95rem;
+   color: rgba(255, 255, 255, 0.78);
+}

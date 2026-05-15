@@ -269,4 +269,56 @@ document.addEventListener('DOMContentLoaded', function() {
          }
       });
    });
+
+   // NFC Tap Counter demo - the /tap-counter/ page. A NTAG21x tag written
+   // with NFC.cool Tools' Tap Counter feature appends `?nfc={uid}x{counter}`
+   // to this page's URL on every scan: counter is a hex string (6 chars,
+   // padded), uid is a 14-char hex serial, joined by a literal `x`. Either
+   // part can appear alone. The chip did the counting - this block only
+   // decodes the query string and reveals the result.
+   (function() {
+      const demo = document.getElementById('tap-counter-demo');
+      if (!demo) return;
+      const raw = new URLSearchParams(window.location.search).get('nfc');
+      if (!raw) return;
+
+      const isHex = function(s) { return /^[0-9a-fA-F]+$/.test(s); };
+      let uid = null;
+      let counterHex = null;
+      if (raw.indexOf('x') !== -1) {
+         const parts = raw.split('x');
+         uid = parts[0];
+         counterHex = parts[1];
+      } else if (/^[0-9a-fA-F]{14}$/.test(raw)) {
+         uid = raw;
+      } else if (isHex(raw)) {
+         counterHex = raw;
+      }
+
+      const tagId = uid && isHex(uid) ? uid.toUpperCase() : null;
+      const count = counterHex && isHex(counterHex) ? parseInt(counterHex, 16) : null;
+      // Nothing usable in the parameter - leave the instructional state up.
+      if (tagId === null && count === null) return;
+
+      const countRow = demo.querySelector('.tap-demo-count-row');
+      const idRow = demo.querySelector('.tap-demo-id-row');
+      const countEl = demo.querySelector('[data-tap-count]');
+      const idEl = demo.querySelector('[data-tap-id]');
+      const rawEl = demo.querySelector('[data-tap-raw]');
+
+      if (count !== null && countEl) {
+         countEl.textContent = count.toLocaleString();
+      } else if (countRow) {
+         countRow.style.display = 'none';
+      }
+
+      if (tagId !== null && idEl) {
+         idEl.textContent = tagId;
+      } else if (idRow) {
+         idRow.style.display = 'none';
+      }
+
+      if (rawEl) rawEl.textContent = raw;
+      demo.classList.add('is-active');
+   })();
 });
