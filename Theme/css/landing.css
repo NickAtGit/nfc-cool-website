@@ -745,6 +745,12 @@ a[data-eml] {
    height: auto;
    border-radius: var(--radius-lg);
 }
+.feature-subsection-text {
+   /* Grid item: let it shrink below its content's min-content so a wide
+      <pre> code block scrolls inside its own overflow-x box instead of
+      stretching the grid track (and the page) past the viewport on mobile. */
+   min-width: 0;
+}
 .feature-subsection-text h3 {
    font-family: var(--font-heading);
    font-weight: 700;
