@@ -7,12 +7,13 @@
 
 roles:
   # Landing hero — the LCP element. Source is square 2540×2540 (oversized iPad
-  # screenshot); mobile renders at max-width 320 CSS px, desktop around 500 CSS px.
-  # Setting mobileWidth=390 / desktopWidth=720 covers 2× DPR on each.
+  # screenshot); desktop renders at ~560 CSS px, mobile at max-width 320 CSS px.
+  # 560 → density srcset of 560w (1×) + 1120w (2×); the 1120w exactly covers a
+  # 2× DPR desktop display without over-serving.
   - name: landing-hero
     selector: ".landing-hero-visual > img"
-    desktopWidth: 720
-    mobileWidth: 390
+    desktopWidth: 560
+    mobileWidth: 320
 
   # Feature grid cards — `.landing-feature-image` is locked to height:220px /
   # width:auto at every breakpoint, so it never renders wider than ~220 CSS px.
