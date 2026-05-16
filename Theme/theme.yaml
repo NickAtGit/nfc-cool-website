@@ -35,7 +35,7 @@ tokens:
    colorBgCard:        { any: "#FFFFFF", dark: "#1C2128" }
    colorText:          { any: "#212529", dark: "#F0F2F5" }
    colorTextSecondary: { any: "#495057", dark: "#C2C8D0" }
-   colorTextMuted:     { any: "#6C757D", dark: "#8B949E" }
+   colorTextMuted:     { any: "#686F76", dark: "#8B949E" }
    colorBorder:        { any: "#E6E8EB", dark: "#30363D" }
    colorBorderLight:   { any: "#F0F1F3", dark: "#21262D" }
    colorCodeBg:        { any: "#F5F6F8", dark: "#161B22" }
