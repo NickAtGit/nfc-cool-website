@@ -552,24 +552,23 @@
 /* ============================================================
    Online NFC Reader - /nfc-reader/. The #nfc-reader-app widget is
    the right-hand visual of the split hero. Its data-state attribute
-   (set by theme.js) decides which .nfc-reader-panel is visible:
-   unsupported / ready / scanning / result / error. The card surface
-   matches .tap-demo-card.
+   (set by theme.js) switches the visible .nfc-reader-panel:
+   unsupported / ready / scanning / result / error.
    ============================================================ */
 .nfc-reader { width: 100%; }
 .nfc-reader-card {
    width: 100%;
    max-width: 400px;
    margin: 0 auto;
-   text-align: left;
-   background: var(--color-bg);
+   text-align: center;
+   background: var(--color-bg-card);
    border: 1px solid var(--color-border);
    border-radius: var(--radius-lg);
    padding: clamp(1.75rem, 3.5vw, 2.5rem);
    box-shadow: 0 24px 60px -24px var(--color-shadow-lg);
 }
-/* Images inside the card (App Store / Play badges) must opt out of the
-   .page-hero-visual img treatment - rotation, shadow, full-width stretch. */
+/* Store badges in the unsupported panel must opt out of the
+   .page-hero-visual img treatment - rotation, shadow, stretch. */
 .nfc-reader-card img {
    width: auto;
    max-width: 100%;
@@ -585,89 +584,188 @@
 .nfc-reader[data-state="result"] [data-panel="result"],
 .nfc-reader[data-state="error"] [data-panel="error"] { display: block; }
 
-.nfc-reader-label {
-   margin: 0;
-   font-size: 0.8125rem;
-   font-weight: 600;
-   color: var(--color-text-muted);
-}
-.nfc-reader-lead {
-   margin: 0.6rem 0 0;
-   font-size: 1rem;
-   line-height: 1.6;
-   color: var(--color-text-secondary);
-}
-.nfc-reader-btn {
-   margin-top: 1.5rem;
-   width: 100%;
-   justify-content: center;
-   cursor: pointer;
-   border: 0;
-   font: inherit;
-}
-.nfc-reader [data-panel="unsupported"] .landing-store-buttons {
-   margin-top: 1.25rem;
-}
-
-/* Scanning state - a pulsing dot */
-.nfc-reader-pulse {
-   width: 56px;
-   height: 56px;
-   margin: 1.25rem 0;
-   border-radius: 50%;
-   background: var(--color-link);
-   animation: nfc-reader-pulse 1.4s ease-in-out infinite;
-}
-@keyframes nfc-reader-pulse {
-   0%, 100% { transform: scale(0.7); opacity: 0.35; }
-   50%      { transform: scale(1);   opacity: 0.9; }
-}
-@media (prefers-reduced-motion: reduce) {
-   .nfc-reader-pulse { animation: none; opacity: 0.8; }
-}
-
-/* Result state - the decoded NDEF records */
-.nfc-reader-records {
-   list-style: none;
-   margin: 0.6rem 0 0;
-   padding: 0;
-}
-.nfc-reader-record {
-   margin: 0.5rem 0 0;
-   padding: 0.75rem 0 0;
-   border-top: 1px solid var(--color-border);
-   display: flex;
-   flex-direction: column;
-   gap: 0.25rem;
-}
-.nfc-reader-record:first-child {
-   border-top: 0;
-   padding-top: 0;
-   margin-top: 0;
-}
-.nfc-reader-record-label {
+/* Status badge at the top of each panel */
+.nfc-reader-badge {
+   display: inline-flex;
+   align-items: center;
+   gap: 0.4rem;
+   padding: 0.32rem 0.72rem;
+   border-radius: var(--radius-pill);
    font-size: 0.75rem;
    font-weight: 600;
-   text-transform: uppercase;
-   letter-spacing: 0.04em;
+   background: rgba(61, 220, 132, 0.12);
+   border: 1px solid rgba(61, 220, 132, 0.32);
+   color: var(--color-text-secondary);
+}
+.nfc-reader-badge.is-error {
+   background: rgba(214, 69, 69, 0.12);
+   border-color: rgba(214, 69, 69, 0.32);
+   color: #C0303C;
+}
+.nfc-reader-badge.is-muted {
+   background: var(--color-bg);
+   border-color: var(--color-border);
    color: var(--color-text-muted);
 }
-.nfc-reader-record-value {
+.nfc-reader-os-icon { width: 1rem; height: 1rem; color: #3DDC84; flex-shrink: 0; }
+.nfc-reader-check { width: 0.95rem; height: 0.95rem; color: #1FA85A; flex-shrink: 0; }
+
+.nfc-reader-title {
+   margin: 0.9rem 0 0;
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: 1.25rem;
+   line-height: 1.25;
+   color: var(--color-text);
+}
+.nfc-reader-lead {
+   margin: 0.4rem 0 0;
+   font-size: 0.9375rem;
+   line-height: 1.55;
+   color: var(--color-text-secondary);
+}
+
+/* Primary call-to-action - the scan button */
+.nfc-reader-btn {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.55rem;
+   width: 100%;
+   margin-top: 1.5rem;
+   padding: 0.9rem 1.25rem;
+   border: 0;
+   border-radius: var(--radius);
+   background: var(--color-accent);
+   color: #1A1A1A;
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: 1.0625rem;
+   cursor: pointer;
+   transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+   box-shadow: 0 10px 22px -10px rgba(255, 199, 9, 0.75);
+}
+.nfc-reader-btn:hover {
+   background: var(--color-accent-hover);
+   transform: translateY(-2px);
+   box-shadow: 0 14px 28px -10px rgba(255, 199, 9, 0.85);
+}
+.nfc-reader-btn:active { transform: translateY(0); }
+.nfc-reader-btn .nfc-reader-wave-icon { width: 1.2em; height: 1.2em; }
+.nfc-reader-btn.is-secondary {
+   background: transparent;
+   color: var(--color-text);
+   border: 1px solid var(--color-border);
+   box-shadow: none;
    font-size: 1rem;
+}
+.nfc-reader-btn.is-secondary:hover {
+   background: var(--color-bg);
+   border-color: var(--color-text-muted);
+}
+
+/* Scanning state - expanding radar rings around an NFC core */
+.nfc-reader-radar {
+   position: relative;
+   width: 104px;
+   height: 104px;
+   margin: 1.6rem auto 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.nfc-reader-radar::before,
+.nfc-reader-radar::after {
+   content: "";
+   position: absolute;
+   inset: 0;
+   border-radius: 50%;
+   border: 2px solid var(--color-accent);
+   animation: nfc-reader-ripple 1.8s ease-out infinite;
+}
+.nfc-reader-radar::after { animation-delay: 0.9s; }
+@keyframes nfc-reader-ripple {
+   0%   { transform: scale(0.34); opacity: 0.85; }
+   100% { transform: scale(1);    opacity: 0; }
+}
+.nfc-reader-radar-core {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 54px;
+   height: 54px;
+   border-radius: 50%;
+   background: var(--color-accent);
+   color: #1A1A1A;
+}
+.nfc-reader-radar-core .nfc-reader-wave-icon { width: 26px; height: 26px; }
+@media (prefers-reduced-motion: reduce) {
+   .nfc-reader-radar::before,
+   .nfc-reader-radar::after { animation: none; opacity: 0.3; }
+}
+
+/* Result state - decoded NDEF records as inset cards */
+.nfc-reader-records {
+   list-style: none;
+   margin: 1rem 0 0;
+   padding: 0;
+   text-align: left;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+.nfc-reader-record {
+   background: var(--color-bg);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius);
+   padding: 0.7rem 0.85rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.35rem;
+   font-size: 0.9375rem;
+   line-height: 1.45;
+   color: var(--color-text-secondary);
+}
+.nfc-reader-record-label {
+   align-self: flex-start;
+   font-size: 0.625rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.06em;
+   color: var(--color-text-muted);
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-pill);
+   padding: 0.14rem 0.5rem;
+}
+.nfc-reader-record-value {
    color: var(--color-text);
    word-break: break-word;
 }
-a.nfc-reader-record-value { color: var(--color-link); }
+a.nfc-reader-record-value { color: var(--color-link); text-decoration: none; }
+a.nfc-reader-record-value:hover { text-decoration: underline; }
 
+/* Tag serial number */
 .nfc-reader-field {
-   margin: 1.25rem 0 0;
-   padding: 1.25rem 0 0;
-   border-top: 1px solid var(--color-border);
+   margin: 0.75rem 0 0;
+   padding: 0.7rem 0.85rem;
+   background: var(--color-bg);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius);
+   text-align: left;
 }
-.nfc-reader-field .nfc-reader-label { margin-bottom: 0.35rem; }
+.nfc-reader-field-label {
+   display: block;
+   margin-bottom: 0.2rem;
+   font-size: 0.625rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.06em;
+   color: var(--color-text-muted);
+}
 .nfc-reader-value {
    margin: 0;
-   font-size: 1.0625rem;
+   font-size: 0.9375rem;
    font-weight: 600;
    color: var(--color-text);
    font-variant-numeric: tabular-nums;

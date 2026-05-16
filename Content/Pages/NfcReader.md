@@ -19,7 +19,37 @@ Read an NFC tag straight from your browser - no app, no sign-up. Press *Scan a T
 
 <div class="page-hero-visual">
 
-<div id="nfc-reader-app" class="nfc-reader" data-state="unsupported"><div class="nfc-reader-card"><div class="nfc-reader-panel" data-panel="ready"><p class="nfc-reader-label">Browser NFC reader</p><p class="nfc-reader-lead">Your phone can read NFC tags right on this page. Press the button, then hold a tag to the top of your phone.</p><button type="button" class="landing-cta-button nfc-reader-btn" data-nfc-scan>Scan a Tag</button></div><div class="nfc-reader-panel" data-panel="scanning"><p class="nfc-reader-label">Scanning</p><div class="nfc-reader-pulse" aria-hidden="true"></div><p class="nfc-reader-lead">Hold an NFC tag against the top of your phone.</p></div><div class="nfc-reader-panel" data-panel="result"><p class="nfc-reader-label">Tag contents</p><ul class="nfc-reader-records" data-nfc-records></ul><div class="nfc-reader-field"><p class="nfc-reader-label">Serial number</p><p class="nfc-reader-value" data-nfc-serial></p></div><button type="button" class="landing-cta-button nfc-reader-btn" data-nfc-again>Scan Another Tag</button></div><div class="nfc-reader-panel" data-panel="error"><p class="nfc-reader-label">Couldn't read the tag</p><p class="nfc-reader-lead" data-nfc-error-msg>Something went wrong.</p><button type="button" class="landing-cta-button nfc-reader-btn" data-nfc-retry>Try Again</button></div><div class="nfc-reader-panel" data-panel="unsupported"><p class="nfc-reader-label">Use the app on this device</p><p class="nfc-reader-lead">In-browser NFC reading runs on Android with Chrome. On iPhone and on desktop, read and write tags with the free NFC.cool app.</p><div class="landing-store-buttons"><a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/></a><a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/></a></div></div></div></div>
+<div id="nfc-reader-app" class="nfc-reader" data-state="unsupported">
+<div class="nfc-reader-card">
+<div class="nfc-reader-panel" data-panel="ready">
+<span class="nfc-reader-badge"><svg class="nfc-reader-os-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7.6 4 9.3 6.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16.4 4 14.7 6.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M4.5 13.5a7.5 7.5 0 0 1 15 0Z" fill="currentColor"/><circle cx="9.3" cy="10.4" r="1" fill="#fff"/><circle cx="14.7" cy="10.4" r="1" fill="#fff"/></svg>Android · Chrome</span>
+<p class="nfc-reader-title">Read an NFC tag</p>
+<p class="nfc-reader-lead">Press the button, then hold a tag to the top of your phone.</p>
+<button type="button" class="nfc-reader-btn" data-nfc-scan><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg><span>Scan a Tag</span></button>
+</div>
+<div class="nfc-reader-panel" data-panel="scanning">
+<div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg></span></div>
+<p class="nfc-reader-title">Hold your tag close</p>
+<p class="nfc-reader-lead">Touch an NFC tag to the top of your phone.</p>
+</div>
+<div class="nfc-reader-panel" data-panel="result">
+<span class="nfc-reader-badge is-success"><svg class="nfc-reader-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Tag read</span>
+<ul class="nfc-reader-records" data-nfc-records></ul>
+<div class="nfc-reader-field"><span class="nfc-reader-field-label">Serial number</span><span class="nfc-reader-value" data-nfc-serial></span></div>
+<button type="button" class="nfc-reader-btn is-secondary" data-nfc-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg><span>Scan Another Tag</span></button>
+</div>
+<div class="nfc-reader-panel" data-panel="error">
+<span class="nfc-reader-badge is-error">Couldn't read the tag</span>
+<p class="nfc-reader-lead" data-nfc-error-msg>Something went wrong.</p>
+<button type="button" class="nfc-reader-btn" data-nfc-retry><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg><span>Try Again</span></button>
+</div>
+<div class="nfc-reader-panel" data-panel="unsupported">
+<span class="nfc-reader-badge is-muted">Use the app on this device</span>
+<p class="nfc-reader-lead">In-browser NFC reading runs on Android with Chrome. On iPhone and on desktop, read and write tags with the free NFC.cool app.</p>
+<div class="landing-store-buttons"><a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/></a><a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/></a></div>
+</div>
+</div>
+</div>
 
 </div>
 
@@ -105,6 +135,8 @@ The free **NFC.cool app** does it instead. It reads any NFC tag with a tap, writ
 
 ## Online NFC Reader FAQ
 
+<div class="nfc-reader-faq">
+
 <details class="faq-item">
 <summary>Can I read an NFC tag online without an app?</summary>
 <p>Yes - on an Android phone using Chrome. This page reads the tag through your browser's built-in Web NFC support, so there is nothing to install. On iPhone, browser-based reading is not possible and you need the NFC.cool app.</p>
@@ -129,6 +161,8 @@ The free **NFC.cool app** does it instead. It reads any NFC tag with a tap, writ
 <summary>Why does my phone say NFC reading isn't supported?</summary>
 <p>Usually one of three reasons: you are on iPhone (browser NFC is blocked by Apple), you are on a desktop browser, or NFC is switched off in your Android settings. Turn NFC on in Settings, use Chrome, and reload the page.</p>
 </details>
+
+</div>
 
 </section>
 
