@@ -2,6 +2,7 @@ import Foundation
 
 struct FeatureData: Decodable, Sendable {
    let slug: String
+   let card: FeatureCard
    let hero: FeatureHero
    let capabilities: [FeatureCapability]?
    let capabilitiesTitle: String?
@@ -23,6 +24,17 @@ struct FeatureHero: Decodable, Sendable {
    let subtitle: String
    let platforms: String?
    let heroImagePath: String?
+}
+
+/// Grid-card content for a feature: the single source of truth for how the
+/// feature appears on the landing page and the features index. Independent
+/// of `FeatureHero` - the card carries its own short copy and may use a
+/// different image than the detail-page hero.
+struct FeatureCard: Decodable, Sendable {
+   let title: String
+   let description: String
+   let imagePath: String
+   let platforms: String?
 }
 
 struct FeatureCapability: Decodable, Sendable {
