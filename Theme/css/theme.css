@@ -61,6 +61,32 @@
    font-display: swap;
    src: url('/assets/theme/fonts/TitilliumWeb-700i.woff2') format('woff2');
 }
+/* Titillium Web normal faces are also emitted by SiteKit into fonts.css, but
+   that file is linked non-render-blocking - the font applies only after first
+   paint, swapping in late and shifting the hero (CLS). Redeclared here in
+   render-blocking theme.css so the family is registered before first paint;
+   font-display:optional then avoids any swap (binaries are preloaded). */
+@font-face {
+   font-family: 'Titillium Web';
+   font-style: normal;
+   font-weight: 400;
+   font-display: optional;
+   src: url('/assets/theme/fonts/TitilliumWeb-400.woff2') format('woff2');
+}
+@font-face {
+   font-family: 'Titillium Web';
+   font-style: normal;
+   font-weight: 600;
+   font-display: optional;
+   src: url('/assets/theme/fonts/TitilliumWeb-600.woff2') format('woff2');
+}
+@font-face {
+   font-family: 'Titillium Web';
+   font-style: normal;
+   font-weight: 700;
+   font-display: optional;
+   src: url('/assets/theme/fonts/TitilliumWeb-700.woff2') format('woff2');
+}
 
 :root {
    --font-script: 'Caveat', 'Brush Script MT', cursive;
@@ -89,8 +115,6 @@
    brand-gradient section in dark mode. The bright top-right glow that
    gives the light mode hero depth was creating a visible edge between
    the dark section and the surrounding body in dark mode. */
-[data-theme="dark"] .landing-hero::before,
-[data-theme="dark"] .landing-hero::after,
 [data-theme="dark"] .page-hero::before,
 [data-theme="dark"] .page-hero::after,
 [data-theme="dark"] .blog-index-hero::before,
@@ -393,7 +417,8 @@ body.landing .sk-main {
 .page-section a:not(.landing-cta-button),
 .page-card a:not(.landing-cta-button),
 .blog-post-body a,
-.feature-subsection-body a {
+.feature-subsection-body a,
+.faq-item a {
    color: var(--color-text);
    text-decoration: underline;
    text-decoration-color: var(--color-link);
@@ -404,7 +429,8 @@ body.landing .sk-main {
 .page-section a:not(.landing-cta-button):hover,
 .page-card a:not(.landing-cta-button):hover,
 .blog-post-body a:hover,
-.feature-subsection-body a:hover {
+.feature-subsection-body a:hover,
+.faq-item a:hover {
    color: var(--color-link-hover);
    text-decoration-color: var(--color-link-hover);
 }

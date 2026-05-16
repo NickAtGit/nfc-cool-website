@@ -11,10 +11,9 @@ metaDescription: "Der NFC.cool Blog ist da: praktische NFC-Anleitungen, ehrliche
 ogTitle: "Willkommen im NFC.cool Blog"
 ogDescription: "Praktische Anleitungen, ehrliche Vergleiche und Deep-Dives zu NFC und digitalen Visitenkarten - vom Team hinter NFC.cool."
 ---
-
-# Willkommen im NFC.cool Blog
-
 Sieben Jahre lang bauen wir nun NFC-Apps für iPhone und Android. In dieser Zeit haben wir dieselben Fragen wieder und wieder beantwortet - in App-Store-Bewertungen, Support-Mails und Forum-Threads: zu Tag-Typen, wie man NFC-Tags vom iPhone aus beschreibt, dem Unterschied zwischen NFC und RFID, warum deine Wohnungstür nicht aufgeht, warum deine vCard manchmal nicht gespeichert wird. Wir starten diesen Blog, damit die Antworten an einem stabilen, durchsuchbaren, kostenlosen Ort liegen.
+
+---
 
 ## Was dich hier erwartet
 
@@ -22,6 +21,8 @@ Sieben Jahre lang bauen wir nun NFC-Apps für iPhone und Android. In dieser Zeit
 - **Ehrliche Vergleiche** - direkte Gegenüberstellungen digitaler Visitenkarten-Apps, NFC-Tag-Formaten und verwandten Werkzeugen. Keine Sponsorings, keine Affiliate-Marotten.
 - **Branchen-Deep-Dives** - wie Ärzte, Makler, Berater:innen und Konferenz-Veranstalter:innen digitale Visitenkarten wirklich einsetzen.
 - **Technische Insights** - NFC-Standards, NDEF-Records, der EU Digital Product Passport, App Clips, Live Activities - und was sonst noch über unseren Schreibtisch geht.
+
+---
 
 ## Warum wir das machen
 

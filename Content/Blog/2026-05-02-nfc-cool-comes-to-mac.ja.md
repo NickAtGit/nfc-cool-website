@@ -11,9 +11,6 @@ metaDescription: "NFC.coolアプリがMacに対応。スキャンしたNFCタグ
 ogTitle: "NFC.coolがMacに登場"
 ogDescription: "NFC、QR、バーコード、書類、3Dスキャンの全ライブラリがMacで閲覧可能に。iCloudで同期。MacカメラでQR・バーコードスキャンも。"
 ---
-
-# NFC.coolがMacに登場 - すべてのスキャンライブラリを、どの画面でも
-
 iPhoneがスキャナー。Macがブラウザー。
 
 本日より、NFC.coolのiOS・iPadOSアプリがMacに対応しました - iPhone・iPad向けアプリと同じように、MacのApp Storeから直接インストールできます。

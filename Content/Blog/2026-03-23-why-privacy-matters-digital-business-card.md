@@ -11,9 +11,6 @@ metaDescription: "Digital business cards handle your most personal professional 
 ogTitle: "Why Privacy Matters for Your Digital Business Card"
 ogDescription: "Your name, email, phone number - all in one link. Here's why the platform you use to share it matters more than you think."
 ---
-
-# Why Privacy Matters for Your Digital Business Card
-
 Think about what's on your business card. Your full name. Your email address. Your phone number. Maybe your office address, your LinkedIn profile, your company name and title.
 
 Now think about this: when you share a digital business card, you're not just handing someone a piece of cardboard. You're giving a platform access to that data - *and* to data about the person you're sharing it with.
@@ -187,7 +184,5 @@ But your business card is your professional identity. It's the first thing peopl
 Privacy isn't about having something to hide. It's about having the right to choose what you share, with whom, and on whose terms.
 
 Choose wisely.
-
----
 
 *Ready to try a privacy-first digital business card? [Download NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8) for iPhone or [get it on Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-en). App UI and App Clip available in 35 languages.*

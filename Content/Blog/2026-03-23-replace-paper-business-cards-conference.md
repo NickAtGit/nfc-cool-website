@@ -11,9 +11,6 @@ metaDescription: "A step-by-step guide to ditching paper business cards at confe
 ogTitle: "How to Replace Paper Business Cards at Your Next Conference"
 ogDescription: "Stop printing 500 cards that end up in a landfill. Here's how to go digital at conferences - with a plan for before, during, and after the event."
 ---
-
-# How to Replace Paper Business Cards at Your Next Conference
-
 You've been there.
 
 It's day two of a three-day conference. You've already handed out your entire stack of business cards. The keynote speaker you've been waiting to meet is standing right there at the coffee station, and you're patting your pockets like you lost your wallet.
@@ -227,7 +224,5 @@ Conferences are where paper business cards are at their worst: you need too many
 Digital business cards are where conferences are at their best: fast sharing that actually impresses people, analytics that tell you who's interested, and follow-up that happens automatically instead of "someday."
 
 Your next conference is coming up. This time, leave the paper at home.
-
----
 
 *NFC.cool Business Card is available for free on [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) and on [Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en). Create your first card in under a minute.*

@@ -17,6 +17,8 @@ OpenPrintTag solves this. It's an open-source NFC standard created by [Prusa Res
 
 No cloud. No proprietary ecosystem. No internet required.
 
+---
+
 ## What Is OpenPrintTag?
 
 OpenPrintTag is a universal, open data format for 3D printing materials. Instead of every manufacturer inventing their own incompatible smart spool system, OpenPrintTag defines a single standard that anyone can adopt, including filament makers, printer manufacturers, slicer software, and apps like NFC.cool.
@@ -30,6 +32,8 @@ The key principles:
 - **Supports both FFF (filament) and SLA (resin)**
 
 Over 22 companies and groups have expressed interest, including Prusament, Voron, Fillamentum, 3DXTech, SimplyPrint, and PrintedSolid. The full specification is available at [specs.openprinttag.org](https://specs.openprinttag.org).
+
+---
 
 ## What Data Does an OpenPrintTag Store?
 
@@ -62,6 +66,8 @@ This is where it gets interesting. OpenPrintTag isn't just a label with a name o
 
 The spec even covers resin-specific fields like `last_stir_time`, which records when the resin was last stirred before printing.
 
+---
+
 ## The Tag: Not Your Usual NFC Sticker
 
 Here's an important technical detail: **OpenPrintTag is designed for ISO 15693 (NFC-V) tags**, specifically **NXP ICODE SLIX and ICODE SLIX2** chips. These are NFC Forum Type 5 tags with a significantly longer read range than standard NFC-A tags, up to 1.5 meters with a dedicated reader.
@@ -71,6 +77,8 @@ Why NFC-V? A printer's built-in NFC reader needs to detect the spool regardless 
 **What about regular NTAG stickers?** The OpenPrintTag data format is NDEF-based, so a phone app like NFC.cool can technically read and write OpenPrintTag data on any NFC tag, including NTAG213/215/216. However, **printer hardware and apps like Prusa's only recognize NFC-V tags**. If you want your tagged spools to work with built-in printer readers, use ICODE SLIX2 tags.
 
 If you're buying blank tags, look for **ICODE SLIX2** or **ISO 15693** specifically. You can find compatible tags on [Amazon US](https://amzn.to/3LTh1fT) or [Amazon Europe](https://amzn.to/4oJpQr4) (affiliate links).
+
+---
 
 ## How to Read and Write OpenPrintTag with Your Phone
 
@@ -95,6 +103,8 @@ After a print, update the consumed weight field on the tag. Next time you scan, 
 
 You can also use Expert Mode to inspect raw NDEF records if you need to debug a tag or verify the data structure.
 
+---
+
 ## Why Use Your Phone?
 
 Prusa printers are getting built-in NFC readers, and projects like [SpoolSense](https://github.com/SpoolSense) (an open-source ESP32 reader) are adding dedicated hardware options. So why bother with your phone?
@@ -104,6 +114,8 @@ Prusa printers are getting built-in NFC readers, and projects like [SpoolSense](
 - **Manage inventory away from your printer:** scan spools at your desk, in your storage, or at a makerspace
 - **Debug tags:** when a printer can't read a tag, scan it with your phone to see what's actually on it
 - **No extra hardware:** your phone already has an NFC reader
+
+---
 
 ## Practical Use Cases
 
@@ -117,6 +129,8 @@ Prusa printers are getting built-in NFC readers, and projects like [SpoolSense](
 
 **Multi-color and specialty materials:** OpenPrintTag supports up to 6 colors per spool and 68+ property tags. Your glow-in-dark, carbon-fiber-filled PETG can finally be properly labeled.
 
+---
+
 ## The Ecosystem Is Growing
 
 OpenPrintTag is still young, but momentum is building:
@@ -129,6 +143,8 @@ OpenPrintTag is still young, but momentum is building:
 
 The 3D printing industry has needed an open standard for smart spools for years. OpenPrintTag is the most credible attempt yet, backed by a major manufacturer, fully open source, and already shipping on real products.
 
+---
+
 ## Getting Started
 
 **What you need:**
@@ -138,7 +154,5 @@ The 3D printing industry has needed an open standard for smart spools for years.
 - Some filament spools to tag
 
 That's it. Five minutes from now, your first spool could be smart.
-
----
 
 *OpenPrintTag is an open-source initiative by Prusa Research. NFC.cool is an independent supporter of the standard. Learn more at [openprinttag.org](https://openprinttag.org).*

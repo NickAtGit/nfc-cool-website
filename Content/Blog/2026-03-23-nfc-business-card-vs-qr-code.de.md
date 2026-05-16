@@ -11,9 +11,6 @@ metaDescription: "NFC-Visitenkarte vs QR-Code - wir vergleichen Geschwindigkeit,
 ogTitle: "NFC-Visitenkarte vs QR-Code: Was ist besser?"
 ogDescription: "Geschwindigkeit vs Universalität. Wir vergleichen NFC- und QR-Code-Visitenkarten über alle Metriken - und erklären, warum die beste Antwort vielleicht beide ist."
 ---
-
-# NFC-Visitenkarte vs QR-Code: Was ist besser zum Netzwerken?
-
 Du bist auf einer Konferenz. Du hattest gerade ein tolles Gespräch und willst Kontaktdaten austauschen. Ziehst du dein Handy und zeigst einen QR-Code? Oder tippst du eine NFC-Karte an ihr Handy?
 
 Diese Frage kommt im Bereich der digitalen Visitenkarten oft auf - und die meisten Artikel, die sie beantworten, stammen von Unternehmen, die das eine oder das andere verkaufen. Wir versuchen, ehrlicher zu sein.

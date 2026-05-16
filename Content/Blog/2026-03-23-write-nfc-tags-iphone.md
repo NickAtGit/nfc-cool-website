@@ -11,9 +11,6 @@ metaDescription: "Learn how to write NFC tags with your iPhone. Step-by-step ins
 ogTitle: "How to Write NFC Tags with Your iPhone"
 ogDescription: "Step-by-step guide to writing NFC tags with your iPhone - URLs, Wi-Fi, contacts, and automations. No special equipment needed."
 ---
-
-# How to Write NFC Tags with Your iPhone
-
 Most people know their iPhone can *read* NFC tags - tap to pay, scan a transit card, open a link. But what many don't realize is that your iPhone can also *write* to NFC tags, turning blank tags into smart triggers for just about anything.
 
 Want a tag on your nightstand that silences your phone and sets an alarm? A tag on your desk that opens your work playlist? A tag at your front door that shares your Wi-Fi password with guests? Your iPhone can program all of these - and it's easier than you think.
@@ -34,7 +31,7 @@ For the best experience, use an iPhone with **background NFC reading** (iPhone X
 
 ### 2. Blank NFC Tags
 
-You can buy blank NFC tags online for as little as **€0.30-€1.00 each**. They come in several form factors:
+You can buy [blank NFC tags](/affiliate-links/) online for as little as **€0.30-€1.00 each**. They come in several form factors:
 
 | Form Factor | Best For |
 |-------------|----------|
@@ -46,19 +43,19 @@ You can buy blank NFC tags online for as little as **€0.30-€1.00 each**. The
 
 **Which chip should you buy?**
 
-For most projects, **NTAG215** is the sweet spot - 504 bytes of usable memory, widely compatible, and affordable. Here's the quick breakdown:
+For most projects, **NTAG216** is the sweet spot - 888 bytes of usable memory, widely compatible, and affordable in bulk. It's the chip we [recommend and test against](/affiliate-links/). Here's the quick breakdown:
 
 - **NTAG213** (144 bytes) - Enough for URLs and simple text. Cheapest option.
-- **NTAG215** (504 bytes) - Best all-rounder. Enough for contact cards, Wi-Fi credentials, and multiple records.
-- **NTAG216** (888 bytes) - For longer content like detailed vCards or multiple data records.
+- **NTAG215** (504 bytes) - Enough for contact cards, Wi-Fi credentials, and multiple records.
+- **NTAG216** (888 bytes) - Best all-rounder. The most headroom for contact cards, Wi-Fi credentials, and longer content like detailed vCards - what we recommend for most projects.
 
-If you're unsure, start with a mixed pack of NTAG215 stickers. They handle 90% of use cases.
+If you're unsure, start with a mixed pack of NTAG216 stickers. They handle 90% of use cases.
 
 ### 3. An NFC Writing App
 
 Your iPhone needs an app to write data to tags. Apple's built-in NFC support handles reading, but for writing, you need a dedicated app.
 
-**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** is purpose-built for this. It supports writing all standard NDEF record types - URLs, text, Wi-Fi configurations, contacts, and more - with a clean interface that shows exactly how much tag memory you're using. It also lets you lock tags, read technical details, and automate writing through iOS Shortcuts.
+**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** is purpose-built for this, on both iPhone and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en). It supports writing all standard NDEF record types - URLs, text, Wi-Fi configurations, contacts, and more - with a clean interface that shows exactly how much tag memory you're using. It also lets you lock tags, read technical details, and automate writing through iOS Shortcuts.
 
 Other options exist (like Apple's Shortcuts app for basic URL writing), but a dedicated NFC app gives you more control over what you write and how.
 
@@ -193,7 +190,7 @@ Perfect for batch inventory tagging or event badge setup.
 
 Here are ready-to-build projects you can set up in minutes:
 
-### 🏠 Smart Home Tags
+### Smart Home Tags
 
 **Nightstand Tag - "Bedtime Mode"**
 Write a URL that triggers an iOS Shortcut to:
@@ -213,7 +210,7 @@ Write a URL that triggers an iOS Shortcut to:
 - Show commute time
 - Trigger smart home "away" scene
 
-### 💼 Business Tags
+### Business Tags
 
 **Conference Badge Tag**
 Write your NFC.cool Business Card URL to a tag stuck on the back of your conference badge. Contacts tap your badge → your full digital business card appears.
@@ -224,7 +221,7 @@ Write links to product documentation, warranty registration, or support pages. A
 **Meeting Room Tags**
 Write links to room booking calendars or Wi-Fi credentials. Stick near the door.
 
-### 🎮 Creative Projects
+### Creative Projects
 
 **Music Tags**
 Write Spotify or Apple Music album links to NFC stickers. Stick them on physical album art, and tapping plays the album.
@@ -314,7 +311,7 @@ No. NFC tags are **passive** - they have no battery and draw power from your pho
 
 ### Can I password-protect an NFC tag?
 
-Standard NTAG tags don't support password protection in a user-friendly way. However, **NTAG 424 DNA** chips support cryptographic authentication and tamper detection. NFC.cool Tools supports reading these advanced tags. For simple protection, locking a tag prevents overwriting.
+Yes. NFC.cool Tools can set password protection on NTAG tags, on both iPhone and Android. Note that this only prevents the tag from being **overwritten** - it does not stop anyone from **reading** what's already on the tag. If you need the contents themselves to be unreadable without a key, you want encrypted data instead - see our guide to [NFC Safe](/blog/nfc-safe-encrypted-secrets/). Locking a tag is the other option: it permanently blocks any further writes.
 
 ### Will NFC tags work through a phone case?
 

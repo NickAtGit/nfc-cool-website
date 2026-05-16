@@ -11,9 +11,6 @@ metaDescription: "Learn how real estate agents use digital business cards to cap
 ogTitle: "Digital Business Cards for Real Estate Agents"
 ogDescription: "The complete guide to digital business cards in real estate - from open house lead capture to multilingual client support."
 ---
-
-# Digital Business Cards for Real Estate Agents: The Complete Guide
-
 Real estate runs on relationships. Every open house, every broker's open, every chance encounter at the coffee shop is an opportunity - and the difference between a closed deal and a lost lead often comes down to one thing: did they keep your card?
 
 The answer, with paper cards, is usually no. Studies estimate that 88% of paper business cards get thrown away within a week. For an agent who hands out hundreds of cards per month, that's a lot of missed connections.

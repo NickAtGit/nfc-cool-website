@@ -11,9 +11,6 @@ metaDescription: "The NFC.cool app is now compatible with Mac. Browse your scann
 ogTitle: "NFC.cool Comes to Mac"
 ogDescription: "Your entire NFC, QR, barcode, document, and 3D scan library - now on Mac. Synced via iCloud. Plus a built-in QR and barcode scanner using your Mac camera."
 ---
-
-# NFC.cool Comes to Mac - Your Entire Scan Library, On Every Screen
-
 Your iPhone is the scanner. Your Mac is the browser.
 
 Starting today, the NFC.cool iOS and iPadOS app is compatible with Mac - meaning you can install it directly from the App Store on your Mac, just like any other app designed for iPhone and iPad.

@@ -14,6 +14,8 @@ A modern iPhone has enough camera and processing power that "scanning a document
 
 Here's how to use it well.
 
+---
+
 ## Capture: hold steady, light matters
 
 Open NFC.cool Tools, tap the document icon, and frame the page. The scanner draws a yellow quad around what it thinks the page edges are. Most of the time it's right. When it isn't, drag the corners until they fit.
@@ -25,6 +27,8 @@ A few tips that genuinely improve the output:
 - **Avoid glare.** Tilt the phone slightly to avoid the white square reflection on glossy paper.
 - **Multi-page documents.** Just scan one page after another - the app stacks them in a single document.
 
+---
+
 ## Post-processing: snap corners, adjust colour
 
 After capture, you get a post-processing pass. The two things worth using:
@@ -34,17 +38,23 @@ After capture, you get a post-processing pass. The two things worth using:
 
 For most paperwork - invoices, receipts, contracts - greyscale gives the best balance of file size and OCR accuracy.
 
+---
+
 ## OCR: scanned image → searchable text
 
 Tap **Show recognised text** below the scanned image to run OCR. The text appears in a panel you can copy from, search through, or save.
 
 OCR quality depends on three things: image sharpness, lighting, and font. Printed text on a clean white background is recognised at very close to 100%. Handwriting is harder - Vision's handwriting recogniser is decent on neat block letters and struggles on cursive. If a scan came out wrong, the most common fix is to re-scan with better lighting rather than fight the OCR result.
 
+---
+
 ## Export: searchable PDF
 
 The trick that makes scans actually useful long-term is the **searchable PDF** export. It's a PDF where each page is the scanned image, with the OCR text layered invisibly underneath - so the document looks like an image, but search engines (and macOS Spotlight, and Finder) can find words inside it.
 
 In NFC.cool Tools, hit **Share page as PDF** and the export includes the OCR layer automatically. Drop the PDF into your filing system, search for "invoice 2024-02 acme corp" three months later, and the right document comes up.
+
+---
 
 ## Why scan instead of photograph?
 
@@ -56,7 +66,5 @@ You could just take a photo of the document. The reasons to use a scanner instea
 - **Searchable text.** OCR baked into the export.
 
 For receipts, contracts, signed forms, business documents - scan, don't photograph.
-
----
 
 Document scanning is part of [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-document-scanning-guide-en&mt=8) (Android version focuses on NFC; the document scanner needs Apple's Vision framework).

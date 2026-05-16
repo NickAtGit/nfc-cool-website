@@ -11,10 +11,9 @@ metaDescription: "The NFC.cool Blog has launched: practical NFC guides, honest d
 ogTitle: "Welcome to the NFC.cool Blog"
 ogDescription: "Practical guides, honest comparisons, and industry deep dives on NFC and digital business cards - from the team behind NFC.cool."
 ---
-
-# Welcome to the NFC.cool Blog
-
 We've spent the last seven years building NFC apps for iPhone and Android. Along the way we've answered the same questions over and over in App Store reviews, support emails, and forum threads - about tag types, writing NFC from an iPhone, the difference between NFC and RFID, why your condo door won't open, why your contact card sometimes won't save. So we're starting a blog to put the answers somewhere stable, searchable, and free.
+
+---
 
 ## What you'll find here
 
@@ -22,6 +21,8 @@ We've spent the last seven years building NFC apps for iPhone and Android. Along
 - **Honest comparisons** - head-to-head looks at digital business card apps, NFC tag formats, and adjacent tools. No sponsorships, no affiliate framing.
 - **Industry deep dives** - how doctors, real-estate agents, consultants, and conference organizers are actually using digital business cards in the wild.
 - **Technical insights** - NFC standards, NDEF records, the EU Digital Product Passport, App Clips, Live Activities, and whatever else lands on our desk.
+
+---
 
 ## Why we're doing this
 

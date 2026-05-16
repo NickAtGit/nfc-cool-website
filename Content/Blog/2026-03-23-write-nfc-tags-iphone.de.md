@@ -11,9 +11,6 @@ metaDescription: "Lerne, wie du NFC-Tags mit deinem iPhone beschreibst. Schritt-
 ogTitle: "NFC-Tags mit dem iPhone beschreiben"
 ogDescription: "Schritt-für-Schritt-Guide zum Beschreiben von NFC-Tags mit dem iPhone - URLs, WLAN, Kontakte und Automatisierungen. Keine Spezialausrüstung nötig."
 ---
-
-# NFC-Tags mit dem iPhone beschreiben: So geht's
-
 Die meisten Leute wissen, dass ihr iPhone NFC-Tags *lesen* kann - tippen zum Bezahlen, eine Transitkarte scannen, einen Link öffnen. Was viele nicht wissen: Dein iPhone kann NFC-Tags auch *beschreiben* und leere Tags in smarte Trigger für fast alles verwandeln.
 
 Willst du einen Tag auf dem Nachttisch, der dein Handy stumm schaltet und einen Wecker stellt? Einen Tag auf dem Schreibtisch, der deine Arbeits-Playlist öffnet? Einen Tag an der Haustür, der dein WLAN-Passwort mit Gästen teilt? Dein iPhone kann all diese programmieren - und es ist einfacher, als du denkst.
@@ -34,7 +31,7 @@ Für das beste Erlebnis nutze ein iPhone mit **Hintergrund-NFC-Lesung** (iPhone 
 
 ### 2. Leere NFC-Tags
 
-Du kannst leere NFC-Tags online für nur **0,30-1,00€ pro Stück** kaufen. du gibt es in mehreren Formfaktoren:
+Du kannst [leere NFC-Tags](/de/affiliate-links/) online für nur **0,30-1,00€ pro Stück** kaufen. du gibt es in mehreren Formfaktoren:
 
 | Formfaktor | Am besten für |
 |-------------|----------|
@@ -46,19 +43,19 @@ Du kannst leere NFC-Tags online für nur **0,30-1,00€ pro Stück** kaufen. du 
 
 **Welchen Chip solltest du kaufen?**
 
-Für die meisten Projekte ist **NTAG215** der Sweet Spot - 504 Bytes nutzbarer Speicher, weit kompatibel und bezahlbar. Hier die schnelle Übersicht:
+Für die meisten Projekte ist **NTAG216** der Sweet Spot - 888 Bytes nutzbarer Speicher, weit kompatibel und in größeren Mengen bezahlbar. Es ist der Chip, den wir [empfehlen und gegen den wir testen](/de/affiliate-links/). Hier die schnelle Übersicht:
 
 - **NTAG213** (144 Bytes) - Reicht für URLs und einfachen Text. Günstigste Option.
-- **NTAG215** (504 Bytes) - Bester Allrounder. Reicht für Kontaktkarten, WLAN-Zugangsdaten und mehrere Datensätze.
-- **NTAG216** (888 Bytes) - Für längere Inhalte wie detaillierte vCards oder mehrere Datensätze.
+- **NTAG215** (504 Bytes) - Reicht für Kontaktkarten, WLAN-Zugangsdaten und mehrere Datensätze.
+- **NTAG216** (888 Bytes) - Bester Allrounder. Der meiste Speicher für Kontaktkarten, WLAN-Zugangsdaten und längere Inhalte wie detaillierte vCards - was wir für die meisten Projekte empfehlen.
 
-Wenn du dir unsicher bist, starte mit einem gemischten Pack NTAG215-Stickern. du decken 90% der Anwendungsfälle ab.
+Wenn du dir unsicher bist, starte mit einem gemischten Pack NTAG216-Stickern. Sie decken 90% der Anwendungsfälle ab.
 
 ### 3. Eine NFC-Schreib-App
 
 Dein iPhone braucht eine App, um Daten auf Tags zu schreiben. Apples eingebaute NFC-Unterstützung handhabt das Lesen, aber fürs Schreiben brauchst du eine dedizierte App.
 
-**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-de&mt=8)** ist genau dafür gebaut. du unterstützt alle Standard-NDEF-Datensatz-Typen - URLs, Text, WLAN-Konfigurationen, Kontakte und mehr - mit einer sauberen Oberfläche, die genau zeigt, wie viel Tag-Speicher du nutzt. du lässt dich auch Tags sperren, technische Details lesen und das Schreiben über iOS-Kurzbefehle automatisieren.
+**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-de&mt=8)** ist genau dafür gebaut - auf iPhone und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-de). Die App unterstützt alle Standard-NDEF-Datensatz-Typen - URLs, Text, WLAN-Konfigurationen, Kontakte und mehr - mit einer sauberen Oberfläche, die genau zeigt, wie viel Tag-Speicher du nutzt. Sie lässt dich außerdem Tags sperren, technische Details lesen und das Schreiben über iOS-Kurzbefehle automatisieren.
 
 Andere Optionen gibt es auch (wie Apples Kurzbefehle-App für Basis-URL-Schreiben), aber eine dedizierte NFC-App gibt dir mehr Kontrolle darüber, was du schreibst und wie.
 
@@ -193,7 +190,7 @@ Perfekt für Bulk-Inventar-Tagging oder Event-Badge-Einrichtung.
 
 Hier sind fertige Projekte, die du in Minuten einrichten kannst:
 
-### 🏠 Smart-Home-Tags
+### Smart-Home-Tags
 
 **Nachttisch-Tag - "Schlafenszeit-Modus"**
 Schreibe eine URL, die einen iOS-Kurzbefehl auslöst zu:
@@ -213,7 +210,7 @@ Schreibe eine URL, die einen iOS-Kurzbefehl auslöst zu:
 - Pendelzeit anzeigen
 - Smart-Home "Abwesend"-Szene auslösen
 
-### 💼 Business-Tags
+### Business-Tags
 
 **Konferenz-Badge-Tag**
 Schreibe deine NFC.cool Business Card-URL auf einen Tag, der auf die Rückseite deines Konferenz-Badges geklebt wird. Kontakte tippen dein Badge → deine vollständige digitale Visitenkarte erscheint.
@@ -224,7 +221,7 @@ Schreibe Links zu Produktdokumentation, Garantieregistrierung oder Support-Seite
 **Meetingraum-Tags**
 Schreibe Links zu Raum-Buchungskalendern oder WLAN-Zugangsdaten. Nahe der Tür anbringen.
 
-### 🎮 Kreative Projekte
+### Kreative Projekte
 
 **Musik-Tags**
 Schreibe Spotify- oder Apple-Music-Album-Links auf NFC-Sticker. Klebe sie auf physische Album-Kunst, und Antippen spielt das Album.
@@ -314,7 +311,7 @@ Nein. NFC-Tags sind **passiv** - sie haben keine Batterie und ziehen Strom aus d
 
 ### Kann ich einen NFC-Tag passwortschützen?
 
-Standard-NTAG-Tags unterstützen keinen Passwortschutz in nutzerfreundlicher Weise. **NTAG 424 DNA**-Chips unterstützen jedoch kryptografische Authentifizierung und Manipulationserkennung. NFC.cool Tools unterstützt das Lesen dieser fortgeschrittenen Tags. Für einfachen Schutz verhindert das Sperren eines Tags das Überschreiben.
+Ja. NFC.cool Tools kann NTAG-Tags mit einem Passwortschutz versehen - auf iPhone und Android. Beachte, dass das nur das **Überschreiben** des Tags verhindert - es hindert niemanden daran, den vorhandenen Tag-Inhalt zu **lesen**. Wenn der Inhalt selbst ohne Schlüssel unlesbar sein soll, brauchst du verschlüsselte Daten - siehe unseren Beitrag zu [NFC Safe](/de/blog/nfc-safe-encrypted-secrets/). Das Sperren eines Tags ist die andere Option: Es blockiert jedes weitere Schreiben dauerhaft.
 
 ### Funktionieren NFC-Tags durch eine Handyhülle?
 

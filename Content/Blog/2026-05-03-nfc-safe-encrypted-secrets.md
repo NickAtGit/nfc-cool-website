@@ -18,13 +18,17 @@ That's what **NFC Safe** does. It encrypts any text - seed phrases, passwords, r
 
 The encryption format is [fully documented and open](https://github.com/NickAtGit/nfc.cool-nfc-safe-format), including a reference Python decoder. Your secrets don't depend on the app existing - if NFC.cool ever disappears, you can still recover your data with a standard NFC reader and the spec.
 
-### The problem with storing secrets
+---
+
+## The problem with storing secrets
 
 Every method of storing a secret has a weakness: paper burns, USB connectors corrode, cloud services get breached, hardware wallets only handle crypto seed phrases, and your brain forgets.
 
 The ideal backup would be: physically durable, encrypted, self-contained, redundant, and long-lasting. NFC tags hit all five. They have no battery, no moving parts, and the NTAG216 chip is rated for 10+ years of data retention. Epoxy-coated variants survive water, impact, and decades of neglect.
 
-### How to use NFC Safe
+---
+
+## How to use NFC Safe
 
 NFC Safe lives inside NFC.cool Tools under NFC Apps. Encrypt or Decrypt with a segmented control at the top.
 
@@ -42,11 +46,15 @@ NFC Safe lives inside NFC.cool Tools under NFC Apps. Encrypt or Decrypt with a s
 
 Under the hood: AES-256-GCM with PBKDF2 (HMAC-SHA-256, 100,000 iterations, 16-byte random salt). Stored on the tag as a custom NDEF record (`urn:nfc:ext:crypto`). [Format spec on GitHub](https://github.com/NickAtGit/nfc.cool-nfc-safe-format).
 
-### The redundancy strategy
+---
+
+## The redundancy strategy
 
 An NTAG216 tag costs about a coffee. Buy a handful, encrypt the same secret to each, distribute them: desk drawer, office, family member's house, safety deposit box, somewhere hidden. Each tag alone is meaningless without the passphrase. Two-factor by design: physical tag + passphrase, held in two separate places.
 
-### Why NFC instead of USB or SD card
+---
+
+## Why NFC instead of USB or SD card
 
 - **No connector** - nothing to corrode or bend
 - **No battery** - passive, powered by the reader
@@ -57,14 +65,18 @@ An NTAG216 tag costs about a coffee. Buy a handful, encrypt the same secret to e
 
 Capacity is the only limit: ~500-700 bytes after encryption overhead. Plenty for a 24-word seed phrase, master password, or recovery codes.
 
-### Security notes
+---
+
+## Security notes
 
 - **Your passphrase is everything.** 256-bit AES is unbreakable. A weak passphrase isn't. Use a randomly-generated 20+ character string.
 - **NFC range is short** (~4 cm). Nobody scans from across the room.
 - **No remote wipe.** Lost tag? Destroy it physically (scissors work).
 - **No passphrase recovery.** Forget it and the data is gone - by design. Write it down somewhere separate from the tags.
 
-### The bigger picture
+---
+
+## The bigger picture
 
 NFC tags are becoming the storage medium for things that matter. The EU Digital Product Passport will require NFC for product authenticity. Philips puts them in toothbrush heads. Hotels use them for room keys. Cheap, durable, universally readable by the device in your pocket.
 

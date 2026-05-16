@@ -11,9 +11,6 @@ metaDescription: "Digitale Visitenkarten verarbeiten deine persönlichsten profe
 ogTitle: "Warum Datenschutz für deine digitale Visitenkarte wichtig ist"
 ogDescription: "Dein Name, deine E-Mail, deine Telefonnummer - alles in einem Link. Hier ist, warum die Plattform, die du zum Teilen nutzt, wichtiger ist, als du denkst."
 ---
-
-# Warum Datenschutz für deine digitale Visitenkarte wichtig ist
-
 Denk darüber nach, was auf deiner Visitenkarte steht. Dein vollständiger Name. Deine E-Mail-Adresse. Deine Telefonnummer. Vielleicht deine Büroadresse, dein LinkedIn-Profil, dein Firmenname und deine Position.
 
 Und jetzt denk darüber nach: Wenn du eine digitale Visitenkarte teilst, gibst du nicht einfach jemandem ein Stück Karton. Du gibst einer Plattform Zugriff auf diese Daten - *und* auf Daten über die Person, mit der du sie teilst.
@@ -187,7 +184,5 @@ Aber deine Visitenkarte ist deine professionelle Identität. du ist das Erste, w
 Datenschutz geht nicht darum, etwas zu verbergen zu haben. Es geht darum, das Recht zu haben, zu wählen, was du teilst, mit wem und zu welchen Bedingungen.
 
 Wähle weise.
-
----
 
 *Bereit, eine datenschutz-first digitale Visitenkarte auszuprobieren? [Lade NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) für iPhone oder [hole es auf Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-de). App-UI und App Clip in 35 Sprachen verfügbar.*

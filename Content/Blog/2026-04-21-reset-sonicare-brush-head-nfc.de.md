@@ -22,6 +22,8 @@ Die Sache ist: Drei Monate sind eine Empfehlung, kein medizinischer Fakt. Der Bo
 
 NFC.cool Tools kann diesen Chip jetzt auslesen, dir genau zeigen, wie viel Lebenszeit dein Bürstenkopf verbraucht hat, und den Timer zurücksetzen, wenn du entscheidest, dass deine Borsten noch gut sind. So funktioniert's.
 
+---
+
 ## Was wirklich auf dem Chip steht
 
 Cyrill Künzi hat [das Protokoll auseinandergenommen](https://kuenzi.dev/toothbrush/) und mbirth [jedes Byte kartiert](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html). Das speichert der NTAG213 in deinem Bürstenkopf:
@@ -35,11 +37,15 @@ Cyrill Künzi hat [das Protokoll auseinandergenommen](https://kuenzi.dev/toothbr
 
 Wenn die aufaddierte Zeit das Ziel (21.600 Sekunden) überschreitet, blinkt am Handstück die gelbe LED. Das ist der Chip, der spricht - nicht die Borsten.
 
+---
+
 ## Warum du ihn vielleicht zurücksetzen willst
 
 Das Drei-Monats-Austauschintervall ist eine Empfehlung von Philips, keine wissenschaftliche Messung des Borstenverschleißes. Der Chip zählt Sekunden, nicht ausgefranste Borsten. Wenn du selbst entscheiden willst - indem du auf deine Borsten schaust statt einem Countdown zu gehorchen - kannst du das mit einem Reset des Zählers tun.
 
 Du könntest auch zurücksetzen, wenn du zwischen mehreren Köpfen rotierst (Reise vs. zu Hause) und sie selbst tracken willst.
+
+---
 
 ## Wie das Passwort funktioniert
 
@@ -48,6 +54,8 @@ Der NTAG213 ist passwortgeschützt. Jeder Bürstenkopf hat ein eigenes 4-Byte-Pa
 Das Passwort wird aus zwei Eingaben berechnet: der 7-Byte-UID des Tags und dem auf dem Tag gespeicherten (und auf dem Stiel gedruckten) Herstellungscode. [Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) hat den Algorithmus aus der Sonicare-Firmware reverse-engineered, nachdem Cyrill Künzi die Passwortübertragung ursprünglich mit einem Software Defined Radio mitgeschnitten hatte.
 
 ⚠️ **Wichtig:** Der NTAG213 sperrt sich nach **drei fehlgeschlagenen Passwortversuchen** dauerhaft. Der Chip wird für immer schreibgeschützt - nicht einmal die Zahnbürste kann dann noch darauf schreiben. Nicht raten.
+
+---
 
 ## So prüfst und resettest du mit NFC.cool Tools
 
@@ -67,11 +75,15 @@ NFC.cool Tools übernimmt den ganzen Prozess: Tag auslesen, Passwort berechnen, 
 
 Verfügbar jetzt für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-de&mt=8), kommt mit einem zukünftigen Update auf [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-de).
 
+---
+
 ## Was der Reset eigentlich macht
 
 Beim Zurücksetzen schreibst du `00:00:02:00` auf Seite `0x24` - derselbe Wert, mit dem ein nagelneuer Bürstenkopf ausgeliefert wird. Nur die ersten zwei Bytes (der Nutzungszähler) werden auf null gesetzt. Die Bedeutung der letzten zwei Bytes ist unbekannt, daher behält die App sie bei.
 
 Die Zahnbürste fängt wieder bei null an zu zählen, und das gelbe Licht meldet sich nach weiteren drei Monaten zurück. Dann kannst du deine Borsten anschauen und selbst entscheiden.
+
+---
 
 ## Das größere Bild: NFC in Alltagsgegenständen
 
@@ -81,12 +93,12 @@ Derselbe NTAG213-Chip wird auch für Dinge eingesetzt, die dem Verbraucher tats�
 
 NFC.cool Tools liest und schreibt sie alle. Die Sonicare-Funktion ist ein Beispiel dafür, was auf den Tags um dich herum steht - und selbst zu entscheiden, was du mit dieser Information machst.
 
+---
+
 ## Weiterführende Links
 
 - [Cyrill Künzis ursprüngliches Reverse-Engineering-Writeup](https://kuenzi.dev/toothbrush/) - SDR-Sniffing, Passwort-Extraktion und die erste detaillierte Analyse des Sonicare-NFC-Protokolls
 - [Aaron Christophels Passwort-Generator](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) - der aus der Sonicare-Firmware extrahierte Algorithmus
 - [mbirths NTAG213 Memory Map](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html) - detaillierte Dokumentation jedes Bytes auf dem Chip
-
----
 
 *Hast du einen Sonicare-Bürstenkopf zum Prüfen? [Lade NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-de) (Sonicare-Reset kommt bald auf Android) und sieh, was deine Zahnbürste über dich gespeichert hat.*

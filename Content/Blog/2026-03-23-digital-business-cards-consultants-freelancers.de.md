@@ -214,6 +214,4 @@ Die beste Karte für dich hängt von deinen spezifischen Bedürfnissen ab: Wenn 
 
 Was auch immer du wählst - mach den Wechsel. Deine zukünftigen Kunden werden dir danken - und die Bäume auch.
 
----
-
 *NFC.cool Business Card ist im [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-consultants-freelancers-de&mt=8) und auf [Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-consultants-freelancers-de) verfügbar. Erstelle deine erste digitale Karte in unter zwei Minuten.*

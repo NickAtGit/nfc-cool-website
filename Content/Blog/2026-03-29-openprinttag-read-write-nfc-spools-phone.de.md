@@ -17,6 +17,8 @@ OpenPrintTag löst das. Es ist ein Open-Source-NFC-Standard, der von [Prusa Rese
 
 Keine Cloud. Kein proprietäres Ökosystem. Kein Internet erforderlich.
 
+---
+
 ## Was ist OpenPrintTag?
 
 OpenPrintTag ist ein universelles, offenes Datenformat für 3D-Druck-Materialien. Anstatt dass jeder Hersteller sein eigenes inkompatibles Smart-Spule-System erfindet, definiert OpenPrintTag einen einzigen Standard, den jeder adoptieren kann - Filament-Hersteller, Druckerhersteller, Slicer-Software und Apps wie NFC.cool.
@@ -30,6 +32,8 @@ Die Kernprinzipien:
 - **Unterstützt FFF (Filament) und SLA (Harz)**
 
 Über 22 Unternehmen und Gruppen haben Interesse signalisiert, darunter Prusament, Voron, Fillamentum, 3DXTech, SimplyPrint und PrintedSolid. Die vollständige Spezifikation ist verfügbar unter [specs.openprinttag.org](https://specs.openprinttag.org).
+
+---
 
 ## Welche Daten speichert ein OpenPrintTag?
 
@@ -62,6 +66,8 @@ Hier wird es interessant. OpenPrintTag ist nicht einfach ein Label mit einem Nam
 
 Die Spec deckt sogar harzspezifische Felder wie `last_stir_time` ab - wann das Harz vor dem Drucken zuletzt umgerührt wurde.
 
+---
+
 ## Der Tag: Nicht dein üblicher NFC-Sticker
 
 Hier ist ein wichtiges technisches Detail: **OpenPrintTag ist für ISO 15693 (NFC-V) Tags konzipiert**, spezifisch **NXP ICODE SLIX und ICODE SLIX2** Chips. Das sind NFC-Forum-Typ-5-Tags mit einer deutlich längeren Lesereichweite als Standard-NFC-A-Tags - bis zu 1,5 Meter mit einem dedizierten Reader.
@@ -71,6 +77,8 @@ Warum NFC-V? Der eingebaute NFC-Reader eines Druckers muss die Spule unabhängig
 **Was ist mit normalen NTAG-Stickern?** Das OpenPrintTag-Datenformat ist NDEF-basiert, sodass eine Handy-App wie NFC.cool OpenPrintTag-Daten technisch auf jedem NFC-Tag lesen und schreiben kann - einschließlich NTAG213/215/216. Allerdings **erkenne Drucker-Hardware und Apps wie Prusas nur NFC-V-Tags**. Wenn deine markierten Spulen mit den eingebauten Druckerreadern funktionieren sollen, nutze ICODE SLIX2-Tags.
 
 Wenn du leere Tags kaufst, suche speziell nach **ICODE SLIX2** oder **ISO 15693**. Kompatible Tags findest du auf [Amazon US](https://amzn.to/3LTh1fT) oder [Amazon Europa](https://amzn.to/4oJpQr4) (Affiliate-Links).
+
+---
 
 ## OpenPrintTag mit dem Handy lesen und schreiben
 
@@ -95,6 +103,8 @@ Nach einem Druck aktualisiere das Feld für verbrauchtes Gewicht auf dem Tag. Be
 
 Du kannst auch den Expertenmodus nutzen, um rohe NDEF-Datensätze zu inspizieren, wenn du einen Tag debuggen oder die Datenstruktur verifizieren musst.
 
+---
+
 ## Warum das Handy nutzen?
 
 Prusa-Drucker bekommen eingebaute NFC-Reader, und Projekte wie [SpoolSense](https://github.com/SpoolSense) (ein Open-Source-ESP32-Reader) fügen dedizierte Hardware-Optionen hinzu. Warum also das Handy?
@@ -104,6 +114,8 @@ Prusa-Drucker bekommen eingebaute NFC-Reader, und Projekte wie [SpoolSense](http
 - **Inventar fernab vom Drucker verwalten** - scanne Spulen an deinem Schreibtisch, in deinem Lager oder in einem Makerspace
 - **Tags debuggen** - wenn ein Drucker einen Tag nicht lesen kann, scanne ihn mit dem Handy, um zu sehen, was wirklich drauf ist
 - **Keine zusätzliche Hardware** - dein Handy hat bereits einen NFC-Reader
+
+---
 
 ## Praktische Anwendungsfälle
 
@@ -117,6 +129,8 @@ Prusa-Drucker bekommen eingebaute NFC-Reader, und Projekte wie [SpoolSense](http
 
 **Mehrfarbige und Spezialmaterialien:** OpenPrintTag unterstützt bis zu 6 Farben pro Spule und 68+ Eigenschafts-Tags. Dein nachtleuchtendes, kohlefaser-gefülltes PETG kann endlich richtig beschriftet werden.
 
+---
+
 ## Das Ökosystem wächst
 
 OpenPrintTag ist noch jung, aber der Schwung baut sich auf:
@@ -129,6 +143,8 @@ OpenPrintTag ist noch jung, aber der Schwung baut sich auf:
 
 Die 3D-Druck-Industrie hat seit Jahren einen offenen Standard für smarte Spulen gebraucht. OpenPrintTag ist der glaubwürdigste Versuch bis jetzt - unterstützt von einem großen Hersteller, vollständig Open Source und bereits auf echten Produkten im Einsatz.
 
+---
+
 ## Los geht's
 
 **Was du brauchst:**
@@ -138,7 +154,5 @@ Die 3D-Druck-Industrie hat seit Jahren einen offenen Standard für smarte Spulen
 - Ein paar Filament-Spulen zum Taggen
 
 Das war's. In fünf Minuten ab jetzt könnte deine erste Spule smart sein.
-
----
 
 *OpenPrintTag ist eine Open-Source-Initiative von Prusa Research. NFC.cool ist ein unabhängiger Unterstützer des Standards. Mehr erfahren unter [openprinttag.org](https://openprinttag.org).*

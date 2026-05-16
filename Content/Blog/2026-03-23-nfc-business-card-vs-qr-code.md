@@ -11,9 +11,6 @@ metaDescription: "NFC business card vs QR code - we compare speed, compatibility
 ogTitle: "NFC Business Card vs QR Code: Which Is Better?"
 ogDescription: "Speed vs universality. We break down NFC and QR code business cards across every metric that matters - and explain why the best answer might be both."
 ---
-
-# NFC Business Card vs QR Code: Which Is Better for Networking?
-
 You're at a conference. You just had a great conversation and want to exchange contact info. Do you pull out your phone and show a QR code? Or do you tap an NFC card against their phone?
 
 It's a question that comes up a lot in the digital business card world - and most articles answering it are written by companies that sell one or the other. We'll try to be more honest than that.

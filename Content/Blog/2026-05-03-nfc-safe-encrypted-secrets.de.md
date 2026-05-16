@@ -18,13 +18,17 @@ Genau das macht **NFC Safe**. Es verschlüsselt beliebigen Text - Seed Phrases, 
 
 Das Verschlüsselungsformat ist [vollständig dokumentiert und offen](https://github.com/NickAtGit/nfc.cool-nfc-safe-format), inklusive Referenz-Decoder in Python. Deine Geheimnisse hängen nicht vom Weiterbestehen der App ab - selbst wenn NFC.cool eines Tages verschwindet, kannst du deine Daten mit einem Standard-NFC-Reader und der Spezifikation wiederherstellen.
 
-### Das Problem mit dem Speichern von Geheimnissen
+---
+
+## Das Problem mit dem Speichern von Geheimnissen
 
 Jede Methode hat eine Schwäche: Papier brennt, USB-Stecker korrodieren, Cloud-Dienste werden gehackt, Hardware-Wallets verwalten nur Crypto-Seeds, und dein Gehirn vergisst.
 
 Das ideale Backup wäre: physisch robust, verschlüsselt, in sich abgeschlossen, redundant und langlebig. NFC-Tags erfüllen alle fünf Kriterien. Keine Batterie, keine beweglichen Teile, und der NTAG216-Chip ist für mindestens 10 Jahre Datenerhalt spezifiziert. Epoxid-beschichtete Varianten überstehen Wasser, Stöße und jahrzehntelange Vernachlässigung.
 
-### Wie du NFC Safe verwendest
+---
+
+## Wie du NFC Safe verwendest
 
 NFC Safe steckt in NFC.cool Tools unter NFC Apps. Verschlüsseln oder Entschlüsseln über einen Segmented Control oben.
 
@@ -42,11 +46,15 @@ NFC Safe steckt in NFC.cool Tools unter NFC Apps. Verschlüsseln oder Entschlüs
 
 Unter der Haube: AES-256-GCM mit PBKDF2 (HMAC-SHA-256, 100.000 Iterationen, 16-Byte Random-Salt). Auf dem Tag als eigener NDEF-Record (`urn:nfc:ext:crypto`) abgelegt. [Format-Spec auf GitHub](https://github.com/NickAtGit/nfc.cool-nfc-safe-format).
 
-### Die Redundanz-Strategie
+---
+
+## Die Redundanz-Strategie
 
 Ein NTAG216-Tag kostet ungefähr so viel wie ein Kaffee. Kauf eine Handvoll, verschlüssele dasselbe Geheimnis auf jeden, verteile sie: Schreibtischschublade, Büro, Wohnung eines Familienmitglieds, Schließfach, irgendwo versteckt. Jeder einzelne Tag ist ohne Passphrase wertlos. Zwei-Faktor durch Design: physischer Tag + Passphrase, getrennt aufbewahrt.
 
-### Warum NFC statt USB oder SD-Karte
+---
+
+## Warum NFC statt USB oder SD-Karte
 
 - **Kein Stecker** - nichts kann korrodieren oder verbiegen
 - **Keine Batterie** - passiv, vom Reader mit Strom versorgt
@@ -57,14 +65,18 @@ Ein NTAG216-Tag kostet ungefähr so viel wie ein Kaffee. Kauf eine Handvoll, ver
 
 Die Kapazität ist die einzige Begrenzung: ~500-700 Byte nach dem Verschlüsselungs-Overhead. Reicht locker für eine 24-Wort-Seed-Phrase, ein Master-Passwort oder Recovery Codes.
 
-### Sicherheitshinweise
+---
+
+## Sicherheitshinweise
 
 - **Deine Passphrase ist alles.** 256-Bit AES ist unknackbar. Eine schwache Passphrase nicht. Nimm einen zufällig generierten String von mindestens 20 Zeichen.
 - **NFC-Reichweite ist gering** (~4 cm). Niemand scannt aus dem Raum.
 - **Kein Remote Wipe.** Tag verloren? Physisch zerstören (eine Schere reicht).
 - **Kein Passphrase-Recovery.** Wenn du sie vergisst, sind die Daten weg - bewusst so designt. Schreib sie an einem anderen Ort als die Tags auf.
 
-### Das größere Bild
+---
+
+## Das größere Bild
 
 NFC-Tags entwickeln sich zum Speichermedium für Dinge, die zählen. Der EU Digital Product Passport wird NFC für Produktauthentizität verlangen. Philips baut sie in Zahnbürstenköpfe. Hotels nutzen sie für Zimmerkarten. Günstig, robust, universell lesbar - vom Gerät in deiner Tasche.
 

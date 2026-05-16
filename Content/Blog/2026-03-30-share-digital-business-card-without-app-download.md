@@ -11,14 +11,13 @@ metaDescription: "No one wants to install an app just to see your contact info. 
 ogTitle: "Digital Business Cards Without App Downloads"
 ogDescription: "How App Clips and web profiles let anyone receive your digital business card instantly, no downloads, no friction, no ads."
 ---
-
-# Share Your Digital Business Card Without Making Anyone Download an App
-
 You tap your NFC card against someone's phone, or they scan your QR code. What happens next determines whether they actually save your contact or just walk away.
 
 The best digital business card in the world is useless if the person on the other end has a bad experience. And yet, most of the conversation around digital business cards focuses on the sender: how many fields can I add? How do I customize my card? What CRM does it integrate with?
 
 The question that actually matters is different: **what does the person receiving your card experience?**
+
+---
 
 ## The Recipient Experience Problem
 
@@ -31,6 +30,8 @@ In those three seconds, any friction kills the interaction:
 - A web page cluttered with ads or promotions for the card platform itself
 
 The recipient didn't choose your business card app. They didn't research it. They just tapped or scanned because you asked them to. The experience needs to be instant, clean, and obvious.
+
+---
 
 ## How NFC.cool Handles This
 
@@ -60,6 +61,8 @@ Android recipients get a clean web profile hosted on nfc.cool. Tap the NFC card 
 
 Same information (name, photo, social links, contact details) with a one-tap save option. No app download, no account required. It works on any Android phone with a browser.
 
+---
+
 ## Why the Native Experience Matters
 
 Most digital business card services use some form of web view or web page for recipients, and that works fine in many cases. But there's a meaningful difference between a web page and a native App Clip, especially on iOS.
@@ -71,6 +74,8 @@ Most digital business card services use some form of web view or web page for re
 **Reliability:** Native code handles contact saving through iOS's own frameworks, which means the save action works consistently. No browser quirks, no "did it actually save?" uncertainty.
 
 **Localization:** A web page can be translated, but a native App Clip localizes everything (UI labels, button text, date formats, contact field ordering) the way iOS users expect. NFC.cool supports 35 languages natively, so the recipient experience is localized whether they speak English, Japanese, Portuguese, or Arabic.
+
+---
 
 ## What the Recipient Doesn't See
 
@@ -85,6 +90,8 @@ When someone receives your NFC.cool business card:
 
 This matters more than most people realize. Your business card is often someone's first impression of you. If tapping your card leads to a cluttered page with banner ads or sends the recipient spam emails the next day, that reflects on you, not just the app.
 
+---
+
 ## Conference Mode: Sharing from Your Lock Screen
 
 At conferences and events, you're sharing your card dozens of times. NFC.cool has a feature called Conference Mode that uses iOS Live Activities to put a QR code directly on your lock screen.
@@ -92,6 +99,8 @@ At conferences and events, you're sharing your card dozens of times. NFC.cool ha
 No need to unlock your phone, open the app, or navigate to your card. Just show your lock screen, the other person scans the QR code, and the App Clip does the rest.
 
 It's a small thing, but at a busy event where you're holding a coffee in one hand and shaking hands with the other, it makes a real difference.
+
+---
 
 ## Getting Started
 
@@ -102,7 +111,5 @@ It's a small thing, but at a busy event where you're holding a coffee in one han
 
 **As the recipient:**
 - Nothing. That's the whole point.
-
----
 
 *NFC.cool Business Card is available on iOS and Android. App Clip functionality is an iOS feature; Android recipients receive an instant web profile instead.*

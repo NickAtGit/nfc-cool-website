@@ -11,9 +11,6 @@ metaDescription: "Schritt-für-Schritt-Anleitung, um Papier-Visitenkarten auf Ko
 ogTitle: "Wie du Papier-Visitenkarten auf deiner nächsten Konferenz ersetzt"
 ogDescription: "Hör auf, 500 Karten zu drucken, die auf dem Müll landen. Hier ist, wie du auf Konferenzen digital gehst - mit einem Plan für vor, während und nach dem Event."
 ---
-
-# Wie du Papier-Visitenkarten auf deiner nächsten Konferenz ersetzt
-
 Du warst schon da.
 
 Tag zwei einer dreitägigen Konferenz. Du hast deinen ganzen Stapel Visitenkarten schon verteilt. Der Keynote-Speaker, den du treffen wolltest, steht genau da an der Kaffeestation, und du klopfst dir auf die Taschen, als hättest du dein Portemonnaie verloren.
@@ -227,7 +224,5 @@ Konferenzen sind der Ort, an dem Papier-Visitenkarten am schlechtesten sind: du 
 Digitale Visitenkarten sind der Ort, an dem Konferenzen am besten sind: schnelles Sharing, das Leute wirklich beeindruckt, Analytics, die dir sagen, wer interessiert ist, und Follow-up, das automatisch passiert statt "irgendwann."
 
 Deine nächste Konferenz kommt. Diesmal lass das Papier zu Hause.
-
----
 
 *NFC.cool Business Card ist gratis auf [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) und auf [Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-de) verfügbar. Erstelle deine erste Karte in unter einer Minute.*

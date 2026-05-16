@@ -17,6 +17,8 @@ OpenPrintTagはこの問題を解決します。[Prusa Research](https://www.pru
 
 クラウド不要。プロプライエタリなエコシステム不要。インターネット接続不要。
 
+---
+
 ## OpenPrintTagとは？
 
 OpenPrintTagは、3Dプリンティング素材のためのユニバーサルなオープンデータフォーマットです。各メーカーが独自の互換性のないスマートスプールシステムを開発する代わりに、誰もが採用できる単一の規格を定義しています。フィラメントメーカー、プリンターメーカー、スライサーソフトウェア、そしてNFC.coolのようなアプリ。
@@ -30,6 +32,8 @@ OpenPrintTagは、3Dプリンティング素材のためのユニバーサルな
 - **FFF（フィラメント）とSLA（レジン）の両方に対応**
 
 Prusament、Voron、Fillamentum、3DXTech、SimplyPrint、PrintedSolidなど、22以上の企業・グループが関心を表明しています。完全な仕様は[specs.openprinttag.org](https://specs.openprinttag.org)で公開されています。
+
+---
 
 ## OpenPrintTagに保存できるデータ
 
@@ -62,6 +66,8 @@ Prusament、Voron、Fillamentum、3DXTech、SimplyPrint、PrintedSolidなど、2
 
 仕様にはレジン固有のフィールド（`last_stir_time`：最後にレジンを撹拌した時刻）も含まれています。
 
+---
+
 ## タグについて：普通のNFCステッカーとは違う
 
 重要な技術的ポイント：**OpenPrintTagはISO 15693（NFC-V）タグ向けに設計されています**。具体的には**NXP ICODE SLIXおよびICODE SLIX2**チップです。これらはNFC Forum Type 5タグで、標準的なNFC-Aタグよりもかなり長い読み取り距離を持ちます。専用リーダーで最大1.5メートル。
@@ -71,6 +77,8 @@ Prusament、Voron、Fillamentum、3DXTech、SimplyPrint、PrintedSolidなど、2
 **通常のNTAGステッカーは使えないの？** OpenPrintTagのデータフォーマットはNDEFベースなので、NFC.coolのようなスマホアプリはNTAG213/215/216を含むあらゆるNFCタグにOpenPrintTagデータを技術的に読み書きできます。ただし、**プリンターのハードウェアやPrusaのアプリはNFC-Vタグのみを認識します**。内蔵プリンターリーダーでタグ付きスプールを使いたい場合は、ICODE SLIX2タグを使用してください。
 
 ブランクタグを購入する場合は、**ICODE SLIX2**または**ISO 15693**と明記されたものを選んでください。対応タグは[Amazon US](https://amzn.to/3LTh1fT)または[Amazon Europe](https://amzn.to/4oJpQr4)（アフィリエイトリンク）で購入できます。
+
+---
 
 ## スマートフォンでOpenPrintTagを読み書きする方法
 
@@ -95,6 +103,8 @@ NFC.cool Toolsは[iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=10
 
 エキスパートモードで生のNDEFレコードを検査し、タグのデバッグやデータ構造の確認も可能です。
 
+---
+
 ## なぜスマートフォンを使うのか？
 
 Prusaプリンターには内蔵NFCリーダーが搭載されつつあり、[SpoolSense](https://github.com/SpoolSense)（オープンソースのESP32リーダー）のようなプロジェクトも専用ハードウェアの選択肢を提供しています。では、なぜスマートフォンを使うのでしょうか？
@@ -104,6 +114,8 @@ Prusaプリンターには内蔵NFCリーダーが搭載されつつあり、[Sp
 - **プリンターから離れた場所で在庫管理** - デスク、保管庫、メイカースペースでスプールをスキャン
 - **タグのデバッグ** - プリンターがタグを読めない時、スマホでスキャンして実際のデータを確認
 - **追加ハードウェア不要** - スマホにはNFCリーダーが内蔵済み
+
+---
 
 ## 実用的なユースケース
 
@@ -117,6 +129,8 @@ Prusaプリンターには内蔵NFCリーダーが搭載されつつあり、[Sp
 
 **マルチカラーや特殊素材：** OpenPrintTagはスプールあたり最大6色と68以上のプロパティタグをサポート。蓄光のカーボンファイバー入りPETGも、ようやく適切にラベル付けできます。
 
+---
+
 ## エコシステムは成長中
 
 OpenPrintTagはまだ若い規格ですが、勢いは増しています：
@@ -129,6 +143,8 @@ OpenPrintTagはまだ若い規格ですが、勢いは増しています：
 
 3Dプリンティング業界はスマートスプールのオープン規格を何年も求めてきました。OpenPrintTagはこれまでで最も信頼性の高い試みです。大手メーカーの支援、完全なオープンソース、そしてすでに実製品に搭載されています。
 
+---
+
 ## はじめ方
 
 **必要なもの：**
@@ -138,7 +154,5 @@ OpenPrintTagはまだ若い規格ですが、勢いは増しています：
 - タグ付けしたいフィラメントスプール
 
 それだけです。5分後には、あなたの最初のスプールがスマートになります。
-
----
 
 *OpenPrintTagはPrusa Researchによるオープンソースイニシアチブです。NFC.coolはこの規格の独立したサポーターです。詳細は[openprinttag.org](https://openprinttag.org)をご覧ください。*

@@ -22,6 +22,8 @@ The thing is, three months is a recommendation, not a medical fact. Bristle wear
 
 NFC.cool Tools can now read that chip, show you exactly how much life your brush head has used, and reset the timer if you decide your bristles are still good. Here's how it works.
 
+---
+
 ## What's Actually on the Chip
 
 Cyrill Künzi [tore down the protocol](https://kuenzi.dev/toothbrush/) and mbirth [mapped every byte](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html). Here's what the NTAG213 in your brush head stores:
@@ -35,11 +37,15 @@ Cyrill Künzi [tore down the protocol](https://kuenzi.dev/toothbrush/) and mbirt
 
 When the accumulated time exceeds the target (21,600 seconds), the handle blinks its amber LED. That's the chip talking, not the bristles.
 
+---
+
 ## Why You Might Want to Reset It
 
 The three-month replacement interval is a Philips recommendation, not a scientific measurement of bristle wear. The chip counts seconds, not bristle fraying. If you want to decide for yourself - by looking at your bristles instead of obeying a countdown timer - resetting the counter lets you do that.
 
 You might also reset if you rotate between multiple heads (travel vs. home) and want to track them yourself.
+
+---
 
 ## How the Password Works
 
@@ -48,6 +54,8 @@ The NTAG213 is password-protected. Every brush head has a unique 4-byte password
 The password is computed from two inputs: the tag's 7-byte UID and the manufacturing code stored on the tag (and printed on the stem). [Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) reverse-engineered the algorithm from the Sonicare firmware after Cyrill Künzi originally sniffed the password transmission using a software-defined radio.
 
 ⚠️ **Important:** The NTAG213 permanently locks after **three failed password attempts**. The chip becomes read-only forever - not even the toothbrush can write to it anymore. Don't guess.
+
+---
 
 ## How to Check and Reset with NFC.cool Tools
 
@@ -67,11 +75,15 @@ NFC.cool Tools handles the whole process: reading the tag, computing the passwor
 
 Available now on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8), coming to [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) in a future update.
 
+---
+
 ## What the Reset Actually Does
 
 When you reset, you're writing `00:00:02:00` to page `0x24` - the same value a brand-new brush head ships with. Only the first two bytes (the usage counter) are changed back to zero. The meaning of the last two bytes is unknown, so the app preserves them.
 
 The toothbrush starts counting from zero again, and the amber light comes back after another three months. At which point you can check your bristles and decide for yourself.
+
+---
 
 ## The Bigger Picture: NFC in Everyday Objects
 
@@ -81,12 +93,12 @@ The same NTAG213 chip is also used for things that actually serve the consumer: 
 
 NFC.cool Tools reads and writes all of these. The Sonicare feature is one example of understanding what's on the tags around you, and deciding what to do with that information.
 
+---
+
 ## Further Reading
 
 - [Cyrill Künzi's original reverse engineering writeup](https://kuenzi.dev/toothbrush/) - SDR sniffing, password extraction, and the first detailed analysis of the Sonicare NFC protocol
 - [Aaron Christophel's password generator](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) - the algorithm extracted from the Sonicare firmware
 - [mbirth's NTAG213 memory map](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html) - detailed documentation of every byte on the chip
-
----
 
 *Have a Sonicare brush head to check? [Download NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) (Sonicare reset coming soon on Android) and see what your toothbrush has been tracking.*

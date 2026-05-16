@@ -14,6 +14,8 @@ Ein modernes iPhone hat genug Kamera und Rechenleistung, dass "ein Dokument scan
 
 So nutzt du ihn gut.
 
+---
+
 ## Aufnahme: Ruhig halten, Licht ist wichtig
 
 Öffne NFC.cool Tools, tippe auf das Dokument-Icon und rahme die Seite ein. Der Scanner zeichnet ein gelbes Viereck um das, was er für die Seitenkanten hält. Meistens stimmt's. Wenn nicht, zieh die Ecken zurecht.
@@ -25,6 +27,8 @@ Ein paar Tipps, die den Output wirklich verbessern:
 - **Reflexionen vermeiden.** Neige das Handy leicht, um das weiße Rechteck-Spiegelbild auf glänzendem Papier zu vermeiden.
 - **Mehrseitige Dokumente.** Scanne einfach Seite für Seite - die App stapelt sie in einem Dokument.
 
+---
+
 ## Nachbearbeitung: Ecken justieren, Farbe anpassen
 
 Nach der Aufnahme bekommst du einen Nachbearbeitungs-Schritt. Die zwei Dinge, die sich lohnen:
@@ -34,17 +38,23 @@ Nach der Aufnahme bekommst du einen Nachbearbeitungs-Schritt. Die zwei Dinge, di
 
 Für die meisten Papiere - Rechnungen, Quittungen, Verträge - liefert Graustufen die beste Balance aus Dateigröße und OCR-Genauigkeit.
 
+---
+
 ## OCR: Scan-Bild → durchsuchbarer Text
 
 Tippe **Erkannten Text anzeigen** unter dem gescannten Bild, um OCR laufen zu lassen. Der Text erscheint in einem Panel, aus dem du kopieren, suchen oder speichern kannst.
 
 OCR-Qualität hängt von drei Dingen ab: Bildschärfe, Beleuchtung und Schrift. Gedruckter Text auf sauberem weißen Hintergrund wird zu nahezu 100% erkannt. Handschrift ist schwerer - Visions Handschrift-Erkenner ist okay bei sauberen Druckbuchstaben und tut sich schwer mit Schreibschrift. Wenn ein Scan schief war, ist die häufigste Lösung ein Neu-Scan mit besserem Licht, statt mit dem OCR-Ergebnis zu kämpfen.
 
+---
+
 ## Export: durchsuchbares PDF
 
 Der Trick, der Scans langfristig wirklich nützlich macht, ist der **durchsuchbare PDF**-Export. Es ist ein PDF, in dem jede Seite das gescannte Bild ist, mit dem OCR-Text unsichtbar darunter gelayert - das Dokument sieht aus wie ein Bild, aber Suchmaschinen (und macOS Spotlight, und Finder) finden Wörter darin.
 
 In NFC.cool Tools tippe **Als PDF teilen** und der Export enthält automatisch den OCR-Layer. Wirf das PDF in dein Ablagesystem, suche drei Monate später nach "Rechnung 2024-02 Acme Corp", und das richtige Dokument taucht auf.
+
+---
 
 ## Warum scannen statt fotografieren?
 
@@ -56,7 +66,5 @@ Du könntest auch einfach ein Foto vom Dokument machen. Gründe für den Scanner
 - **Durchsuchbarer Text.** OCR direkt im Export eingebacken.
 
 Für Quittungen, Verträge, unterschriebene Formulare, Geschäftsdokumente - scannen, nicht fotografieren.
-
----
 
 Dokumenten-Scan ist Teil von [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-document-scanning-guide-de&mt=8) (die Android-Version konzentriert sich auf NFC; der Dokumenten-Scanner braucht Apples Vision-Framework).

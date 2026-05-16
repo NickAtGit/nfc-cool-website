@@ -12,6 +12,8 @@ image: "/assets/images/Blog/flair-qr-codes.webp"
 ---
 QR-Codes müssen keine schlichten Schwarz-Weiß-Quadrate sein. Die Fehlerkorrektur in der QR-Spezifikation ist großzügig genug, dass du den Code mit Farbe, Logos und kleinen Bildern dekorieren kannst, und er scannt trotzdem zuverlässig. NFC.cools **QR Studio** ist um diese Idee gebaut - ein Designer für QR-Codes, die wie Teil deiner Marke aussehen, statt wie nachträglich aufgeklebt.
 
+---
+
 ## Farbe: Wähle was du willst, aber respektiere den Kontrast
 
 QR Studio lässt dich jede Farbe für den Vordergrund (die Module) und den Hintergrund wählen. Du kannst deine Markenpalette matchen, ein Kampagnenthema andeuten oder einfach den Code auf einem Poster weniger optisch beleidigend machen.
@@ -20,11 +22,15 @@ Es gibt aber eine harte Regel: **Kontrast**. Ein QR-Scanner funktioniert, indem 
 
 Praktische Faustregel: Dunkler Vordergrund auf hellem Hintergrund. Umgekehrter Kontrast (hell auf dunkel) funktioniert auf den meisten modernen Scannern, scheitert aber auf älteren. Im Zweifel scanne mit drei verschiedenen Handys, bevor du 10.000 von irgendwas druckst.
 
+---
+
 ## Hintergründe: Dezent ist besser
 
 QR Studio unterstützt auch Hintergründe - Vollfarben, Gradienten oder ein dezentes Bild hinter dem Code. Die gleiche Kontrastregel gilt, aber strenger: Jedes Rauschen im Hintergrund frisst die Fehlertoleranz des Scanners.
 
 Wenn du ein lebendiges Hintergrundbild willst, setze den QR-Code auf ein kleines uni-farbenes Panel innerhalb des Designs, statt die Module direkt auf die unruhige Textur zu legen. Das Panel kann markenfarben sein. Der Code drauf sollte trotzdem rauspoppen.
+
+---
 
 ## Persönlichkeit: Emojis, Symbole, Logos in der Mitte
 
@@ -36,18 +42,20 @@ Ein paar Richtlinien:
 - **Nutze Fehlerkorrektur-Level H**, wenn du ein großes Logo planst. Mehr Korrektur = mehr Redundanz = größeres Logo möglich. QR Studio setzt das automatisch, wenn du ein Mittelelement hinzufügst.
 - **Teste auf mehreren Scannern.** iOS-Kamera, Google Lens und dedizierte Scanner-Apps haben unterschiedliche Toleranzlevel. Ein Code, der in der iOS-Kamera scannt, sollte überall scannen.
 
+---
+
 ## Größen: Print vs. Digital
 
 Print braucht mehr physische Fläche. Für eine Visitenkarte willst du den QR-Code mindestens 2 cm × 2 cm. Für ein Poster, das aus 1 Meter Entfernung betrachtet wird, skaliere auf ca. 5 cm. Für ein Billboard skaliere entsprechend der Zuschauerdistanz - die Regel ist grob "Codegröße = Sichtdistanz ÷ 10".
 
 QR Studio exportiert scharfes PNG mit bis zu 4096×4096 Pixeln, also musst du dir keine Sorgen um Pixelmatsch machen.
 
+---
+
 ## Wo Persönlichkeit sich wirklich auszahlt
 
 Angepasste QR-Codes sind nicht nur ästhetisch - sie sind wiedererkennbar. Ein gebrandeter QR-Code in einem Museum, einer Speisekarte, auf einem Produktlabel oder einer Visitenkarte sagt dem Betrachter "das ist kuratierter Content, kein Spam". Die 0,5 Sekunden Vertrauen, die das kauft, sind der Unterschied zwischen einem Scan und einem Vorbeigehen.
 
 Genau dafür ist QR Studio gebaut: hübsche Codes, die trotzdem scannen, bereit für jedes Design.
-
----
 
 Verfügbar in [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-flair-qr-codes-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-flair-qr-codes-de).

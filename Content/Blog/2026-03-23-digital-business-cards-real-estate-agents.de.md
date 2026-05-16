@@ -11,9 +11,6 @@ metaDescription: "Lerne, wie Immobilienmakler digitale Visitenkarten nutzen, um 
 ogTitle: "Digitale Visitenkarten für Immobilienmakler"
 ogDescription: "Der komplette Guide zu digitalen Visitenkarten in der Immobilienbranche - von Open-House-Lead-Capture bis mehrsprachiger Kundenbetreuung."
 ---
-
-# Digitale Visitenkarten für Immobilienmakler: Der komplette Guide
-
 Immobilien leben von Beziehungen. Jedes Open House, jeder Broker's Open, jede zufällige Begegnung im Coffeeshop ist eine Gelegenheit - und der Unterschied zwischen einem abgeschlossenen Deal und einem verlorenen Lead hängt oft von einer Sache ab: haben sie deine Karte behalten?
 
 Die Antwort lautet bei Papierkarten meist: nein. Studien schätzen, dass 88% der Papier-Visitenkarten innerhalb einer Woche weggeworfen werden. Für einen Makler, der hunderte Karten pro Monat verteilt, sind das viele verpasste Kontakte.

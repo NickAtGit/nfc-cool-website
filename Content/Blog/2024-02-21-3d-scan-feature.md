@@ -14,6 +14,8 @@ A few years ago, 3D scanning meant a dedicated scanner the size of a microwave, 
 
 NFC.cool Tools' **3D Scan** feature wraps that pipeline into a pocketable workflow.
 
+---
+
 ## What's actually happening
 
 Two technologies work together:
@@ -22,6 +24,8 @@ Two technologies work together:
 - **LiDAR** - On iPhones with a LiDAR sensor (Pro models from iPhone 12 onwards), each frame is augmented with depth measurements taken by the sensor. This sharply improves the mesh in two ways: scale is accurate (the model is the real-world size), and surfaces without obvious visual features (a plain white wall, a glossy curve) get usable geometry where photogrammetry alone would fail.
 
 You don't have to think about either step - the app guides you through capture, then runs the reconstruction on-device.
+
+---
 
 ## How to capture a good scan
 
@@ -34,6 +38,8 @@ A few practical rules:
 - **Stand still for a moment at each angle.** Motion blur eats detail.
 
 The full scan takes 20-40 seconds of walking, then another 30-60 seconds of processing.
+
+---
 
 ## Export formats
 
@@ -48,6 +54,8 @@ NFC.cool Tools exports to the formats you actually need downstream:
 
 The model is the same. The format just decides which downstream tool can consume it.
 
+---
+
 ## What you can do with the result
 
 The most fun applications we've seen from users:
@@ -56,6 +64,8 @@ The most fun applications we've seen from users:
 - **Document a real-world asset.** Estate documentation, museum cataloguing, "what does grandma's vase actually look like".
 - **Share in AR.** Send the .usdz to someone on an iPhone - they tap it and see the object floating in their living room via AR Quick Look.
 - **Drop into a game engine.** A real-world prop in a Unity scene, modelled in 90 seconds without a 3D artist.
+
+---
 
 ## When it works, and when it doesn't
 
@@ -71,7 +81,5 @@ It struggles on:
 - Anything that moves
 
 For the things it's good at, the result is genuinely useful - not a toy. For the rest, expect to clean up the mesh in Blender or accept the limits.
-
----
 
 3D Scan is part of [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-3d-scan-feature-en&mt=8). Photogrammetry works on any modern iPhone; LiDAR augmentation works on Pro models.

@@ -20,7 +20,9 @@ Die übliche Antwort ist ein Server. Du erzeugst fünfzig eindeutige Links, leit
 
 Es geht einfacher - und die Lösung steckt die ganze Zeit schon im NFC-Chip. Viele Tags können ihre eigenen Scans zählen. Mit der richtigen Einrichtung verrät dir ein Tag, wie oft er gelesen wurde und welcher physische Tag er ist, ganz ohne Backend. So funktioniert das, und so richtest du es ein.
 
-### Was ein NFC-Tap-Zähler wirklich ist
+---
+
+## Was ein NFC-Tap-Zähler wirklich ist
 
 Die meisten [NFC-Sticker, die du kaufen kannst](/de/affiliate-links/), nutzen Chips aus der NTAG21x-Familie - `NTAG213`, `NTAG215` und `NTAG216`. Diese Chips haben eine kleine Funktion, die oft ungenutzt bleibt: einen eingebauten Zähler. Jedes Mal, wenn der Tag gelesen wird, zählt er um eins hoch. Er steckt in der Hardware des Chips, nicht in einer App und nicht auf einem Server.
 
@@ -30,7 +32,9 @@ Genau das macht die Funktion **NFC-Tap-Zähler** in NFC.cool Tools. Sie richtet 
 
 Dieselben Chips tragen außerdem eine eindeutige Tag-ID - eine ab Werk eingebrannte Seriennummer, ein bisschen wie eine MAC-Adresse einer Netzwerkkarte. Der Tap Counter kann auch die einblenden, und genau damit kannst du fünfzig identisch aussehende Sticker auseinanderhalten.
 
-### Wie es funktioniert, ohne Fachjargon
+---
+
+## Wie es funktioniert, ohne Fachjargon
 
 Wenn du mit aktiviertem Tap Counter Inhalte auf einen Tag schreibst, macht die App etwas Cleveres. Sie bettet eine Reihe von Platzhalterzeichen in das ein, was du schreibst - einen Stellvertreter für den Zählerstand und die ID.
 
@@ -40,7 +44,9 @@ Der Ablauf bei jedem Antippen sieht also so aus: Jemand hält sein Telefon an de
 
 Die Einrichtung machst du nur einmal. Nach diesem ersten Schreibvorgang ist der Tag auf sich allein gestellt: Er zählt und ersetzt bei jedem Antippen, von jeder Person, auf jedem Telefon, das ganze Stickerleben lang. Nichts in dieser Kette berührt das Internet. Das Zählen passiert im Chip. Das Ersetzen passiert im Chip. Wenn du die fertige URL auf eine Website leitest, die dir gehört, sieht dein eigener Server den Zählerstand ankommen - aber das ist deine Entscheidung, keine Voraussetzung der Funktion.
 
-### Was du damit anfangen kannst
+---
+
+## Was du damit anfangen kannst
 
 Ein selbstzählender Tag klingt nach einer netten Spielerei, bis du ihn mit einem echten Problem zusammenbringst. Hier sind vier, die häufig vorkommen.
 
@@ -54,7 +60,9 @@ Ein selbstzählender Tag klingt nach einer netten Spielerei, bis du ihn mit eine
 
 Kombiniere ein paar davon, und du bekommst so etwas: Ein Hersteller legt in jede nummerierte Produktserie einen Tag, alle zeigen auf dieselbe Landingpage. Die Tag-ID verrät, welchen Artikel ein Käufer in der Hand hält, der Zählerstand verrät, wie oft dieser Käufer wiedergekommen ist, und weil der Zähler nur steigt, kann ein Wiederverkäufer eine Kopie nicht stillschweigend als Original ausgeben. Keine Accounts, keine Datenbank, keine monatliche Rechnung - nur der Chip, der seine Arbeit macht.
 
-### Schritt für Schritt einrichten
+---
+
+## Schritt für Schritt einrichten
 
 Die Funktion steckt in NFC.cool Tools, auf iPhone und Android. Sie ist Teil des Pro-Abos (Platinum), das brauchst du also, um Tags mit Zähler zu schreiben.
 
@@ -70,7 +78,9 @@ Das ist die ganze Einrichtung. Ab da ist der Tag eigenständig - er zählt und m
 
 Wenn du es irgendwann stoppen willst, kann die App den Zähler auf einem vorhandenen Tag ausschalten. Der Chip ersetzt dann keine Live-Werte mehr, aber der Inhalt bleibt genau so auf dem Tag, wie er zuletzt geschrieben wurde. Gut zu wissen: Der Chip zählt intern weiter, auch nachdem du die Ersetzung ausgeschaltet hast - der Zählerstand geht nie verloren, er wird nur nicht mehr angezeigt.
 
-### Wo Zählerstand und Tag-ID erscheinen
+---
+
+## Wo Zählerstand und Tag-ID erscheinen
 
 Wo die Werte landen, hängt vom gewählten Inhaltstyp ab. Mit beiden Schaltern an werden Tag-ID und Zählerstand zusammen eingefügt - zuerst die ID, dann der Zählerstand, verbunden durch ein kleines `x`. Mit `049F50824F1390` als Tag-ID und `000007` als Zählerstand sieht das Vorher-Nachher für jeden Typ so aus:
 
@@ -85,13 +95,17 @@ Und warum `000007` und nicht einfach `7`? Der Zählerstand wird hexadezimal gesc
 
 Wenn du die fertige URL auf deine eigene Website leitest, liest dein Server diese Werte direkt aus der Adresse: den Zählerstand protokollieren, mit einer Schwelle vergleichen oder einen Tag am anderen über seine ID erkennen.
 
-### Welche Tags du brauchst
+---
+
+## Welche Tags du brauchst
 
 Diese Funktion hängt vom Chip ab, der Tag ist also wichtig. NFC.cool unterstützt für den Tap Counter die Chips `NTAG213`, `NTAG215` und `NTAG216`. Das sind die gängigsten NFC-Sticker für Telefone, du findest sie also leicht - prüfe aber lieber den Chiptyp, bevor du in großen Mengen kaufst. Wenn du einen Tag verwenden willst, den die Funktion nicht unterstützt, warnt dich die App, statt etwas zu schreiben, das nicht funktioniert.
 
 Wenn du dich eindecken willst, listet unsere Seite mit [empfohlenen NFC-Tags](/de/affiliate-links/) die `NTAG216`-Sticker auf, die wir selbst nutzen und testen. Und wenn du neu bei der Tag-Auswahl bist, geht unser Ratgeber zu den [verschiedenen NFC-Tag-Typen für iPhones](/de/blog/nfc-tag-types-for-iphones/) die Abwägungen in einfachen Worten durch.
 
-### Ein paar schnelle Fragen
+---
+
+## Ein paar schnelle Fragen
 
 **Kann ich den Zähler zurücksetzen?** Nein. Es ist ein einseitiger Zähler, der im Chip eingebaut ist und nur hochzählen kann. Das ist Absicht - ein zurücksetzbarer Zähler wäre für limitierte Editionen oder Echtheitsprüfungen nutzlos. Wenn du einen frischen Zählerstand brauchst, nimm einen neuen Tag.
 
@@ -103,7 +117,9 @@ Wenn du dich eindecken willst, listet unsere Seite mit [empfohlenen NFC-Tags](/d
 
 **Braucht es Internet?** Nein. Das Zählen und das Ersetzen passieren beide im Chip. Internet kommt nur ins Spiel, wenn die URL, die du geschrieben hast, auf eine Website zeigt.
 
-### Probier es aus
+---
+
+## Probier es aus
 
 NFC-Taps zu zählen bedeutete früher eindeutige Links und ein Backend, das mitzählt. Der NTAG21x-Zähler nimmt diese Voraussetzung leise weg: Der Tag führt seine eigene Zählung, und die Funktion NFC-Tap-Zähler in NFC.cool Tools schaltet sie ein.
 

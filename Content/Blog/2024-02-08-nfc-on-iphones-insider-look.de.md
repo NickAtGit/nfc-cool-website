@@ -12,17 +12,23 @@ image: "/assets/images/Blog/nfc-on-iphones-insider-look.webp"
 ---
 Viel von der Technik, die wir täglich nutzen, verschwindet im Hintergrund. Wir tippen zum Bezahlen, Entsperren, Scannen, Teilen - und denken nie über das Protokoll darunter nach. NFC ist eines dieser stillen Infrastrukturstücke. Hier ist, wie es auf deinem iPhone tatsächlich funktioniert.
 
+---
+
 ## Was NFC eigentlich ist
 
 **Near Field Communication** ist ein Funkprotokoll mit kurzer Reichweite - zwei Geräte können Daten austauschen, wenn sie innerhalb von etwa 4 cm zueinander sind. Es ist ein vereinfachter, viel kürzerer Verwandter von Bluetooth und Wi-Fi.
 
 Diese kurze Reichweite ist keine Einschränkung. Sie ist das Sicherheitsmodell. Du kannst nicht versehentlich quer durch den Raum an einem Zahlungsterminal tippen, und ein bösartiger Reader kann nicht aus der Ferne Daten aus deinem Wallet abgreifen.
 
+---
+
 ## NFC auf dem iPhone: Eine kurze Geschichte
 
 Apple verbaute zum ersten Mal NFC-Hardware im iPhone 6 und 6 Plus (2014), aber das Funkmodul war auf Apple Pay beschränkt. Dritt-Apps konnten gar keine NFC-Tags lesen.
 
 Das änderte sich mit **iOS 11** (2017), das das **Core NFC** Framework einführte und Entwicklern erlaubte, NDEF-Tags zu lesen. Apple hat die Schraube später weiter angezogen - iOS 13 brachte Schreibunterstützung, und iPhone XS und neuer ergänzten Hintergrund-Tag-Lesung. Heute kannst du auf jedem modernen iPhone einen Tag antippen, ohne etwas zu öffnen: Das OS erkennt ihn und schlägt die passende Aktion vor.
+
+---
 
 ## Wie NFC Daten überträgt
 
@@ -32,11 +38,15 @@ Wenn du mit Apple Pay zahlst, ist dein iPhone der aktive Reader. Es erzeugt ein 
 
 Beim Tippen auf einen NFC-Sticker auf einem Poster sind die Rollen vertauscht. Der Tag im Poster ist passiv - er hat keine Batterie. Der Reader deines iPhones versorgt ihn mit Strom, der Tag antwortet mit den gespeicherten NDEF-Records, und iOS entscheidet, was passiert (URL öffnen, App starten, Kontaktkarte zeigen, einen Kurzbefehl triggern).
 
+---
+
 ## NDEF: Die Lingua Franca
 
 Die Datenschicht über dem NFC-Funk ist **NDEF** - NFC Data Exchange Format. Es ist ein winziges selbstbeschreibendes Record-Format: Ein Tag trägt einen oder mehrere Records, und jeder hat einen Typ (URI, Text, vCard, WLAN-Zugangsdaten, Custom MIME) plus eine Payload.
 
 Jedes NFC-fähige Telefon auf dem Planeten spricht NDEF. Deshalb lässt sich ein auf Android programmierter Tag problemlos auf iPhone lesen und umgekehrt. Es ist einer der wenigen Bereiche im Mobile-Stack, in dem iOS und Android wirklich denselben Standard sprechen.
+
+---
 
 ## Privatsphäre und Sicherheit
 
@@ -46,6 +56,8 @@ Zwei Verteidigungslinien sind erwähnenswert:
 - **Tokenisierung.** Apple Pay überträgt nie deine echte Kartennummer. Jede Transaktion nutzt eine Device Account Number plus ein Einmal-Cryptogram, generiert im Secure Element. Selbst ein kompromittiertes Terminal kann das nicht replay-en.
 
 Beim Tag-Lesen sieht die Angriffsfläche anders aus - hier wird dem Tag vertraut. Wenn du kontrollierst, was draufsteht (deine eigenen Heim-Automatisierungen, deine Visitenkarte), bist du fein raus. Wenn du einen zufälligen Tag im öffentlichen Raum tippst, solltest du in iOS trotzdem einen Bestätigungs-Prompt sehen, bevor irgendetwas passiert.
+
+---
 
 ## Warum das wichtig ist
 

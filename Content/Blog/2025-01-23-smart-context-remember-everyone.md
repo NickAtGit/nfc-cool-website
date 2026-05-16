@@ -18,6 +18,8 @@ The paper-card problem is real - cards go stale, fill your wallet, get lost, can
 
 The contact details on your phone are useless if you can't remember why that person is in your address book.
 
+---
+
 ## Context is the missing piece
 
 So I added what I've been calling the "memory upgrade" to NFC.cool Business Card. Right after connecting - via the NFC tap, the App Clip, or the Conference Mode lock-screen QR - you get prompted to capture context:
@@ -29,17 +31,23 @@ So I added what I've been calling the "memory upgrade" to NFC.cool Business Card
 
 That last bit syncs into your calendar and reminders, because we're all bad at follow-through and we all need the nudge.
 
+---
+
 ## Why it's part of the exchange, not after
 
 The trick is that the prompt appears immediately after the contact is saved - while the conversation is still fresh in your head. Five minutes later you've moved on to the next person. Three days later you don't remember whether the AI founder was the one from the Austin pitch competition or the Berlin hackathon.
 
 Capturing the context in the same flow as the contact exchange means the data is actually written down. The alternative - adding context manually next week from memory - never happens.
 
+---
+
 ## What it changed for me
 
 During beta testing across a few events, the experience shifted from "I have these business cards in my phone now" to "I have a queryable graph of people, what they do, and what I owe them".
 
 I open the Networking tab in NFC.cool Business Card and see: who I met where, what we talked about, what I said I'd follow up on, what's still open. After meeting someone again, I update the entry - new conversation, new context. The card becomes a living record of the relationship, not a snapshot of contact details.
+
+---
 
 ## Works across the stack
 
@@ -52,6 +60,8 @@ The Smart Context layer works regardless of how the contact got into your addres
 
 The app handles up to 100 different cards (different roles, different events, different versions of you) and the Smart Context data stays separate per card - so a contact you met as "design consultant at the Berlin meetup" is a different record from the same person you met as "co-founder at the YC demo day".
 
+---
+
 ## Why this matters now
 
 The reason this didn't exist five years ago is that the bottleneck wasn't tech - it was friction. Capturing context required pulling out a separate notes app, typing while the other person watched, and then somehow associating those notes with the contact later. Most people gave up.
@@ -59,7 +69,5 @@ The reason this didn't exist five years ago is that the bottleneck wasn't tech -
 With NFC.cool Business Card, the capture is one tap inline with the contact exchange. It's the difference between "I should remember this" and "this is now remembered".
 
 In a world where we trade contacts faster than ever, the data that matters isn't who you know - it's why you know them.
-
----
 
 [Download NFC.cool Business Card for iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-en&mt=8). Android users get the same business card and Smart Context features bundled into [NFC.cool Tools for Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-en).

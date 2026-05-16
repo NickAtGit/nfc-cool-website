@@ -11,9 +11,6 @@ metaDescription: "Everything you need to know about the EU Digital Product Passp
 ogTitle: "EU Digital Product Passport: What You Need to Know in 2026"
 ogDescription: "The EU's biggest product transparency regulation is rolling out now. Learn what DPP means for batteries, textiles, electronics - and why NFC is central to making it work."
 ---
-
-# EU Digital Product Passport: What You Need to Know in 2026
-
 If you sell physical products in Europe - or buy them - there's a regulation you need to understand. The **EU Digital Product Passport (DPP)** is no longer a future concept. It's happening right now.
 
 Under the **Ecodesign for Sustainable Products Regulation (ESPR)**, which entered into force in July 2024, every covered product sold in the EU will need a machine-readable digital record containing verified data about its materials, environmental impact, and end-of-life handling.
@@ -194,7 +191,5 @@ The EU Digital Product Passport isn't just another regulation to comply with - i
 NFC technology is uniquely positioned to be the physical bridge between products and their digital identities. It's durable, secure, smartphone-compatible, and already proven at scale.
 
 Whether you're a brand preparing for compliance or a consumer curious about what that new NFC tag on your jacket does - the DPP era has begun.
-
----
 
 *Need to read, write, or test NFC tags? [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-eu-digital-product-passport-2026-en&mt=8) is available for free on [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-eu-digital-product-passport-2026-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-eu-digital-product-passport-2026-en).*

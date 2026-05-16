@@ -20,7 +20,9 @@ The usual answer is a server. You generate fifty unique links, point them all at
 
 There is a simpler way, and it has been sitting inside the NFC chip the whole time. Many tags can count their own scans. With the right setup, a tag will tell you how many times it has been read and which physical tag it is, with no backend involved at all. Here is how that works, and how to set it up.
 
-### What an NFC Tap Counter Actually Is
+---
+
+## What an NFC Tap Counter Actually Is
 
 Most [NFC stickers you can buy](/affiliate-links/) use chips from the NTAG21x family - `NTAG213`, `NTAG215`, and `NTAG216`. Those chips have a small feature that often goes unused: a built-in counter. Every time the tag is read, the counter ticks up by one. It lives in the chip's hardware, not in an app, and not on a server.
 
@@ -30,7 +32,9 @@ That is what the NFC Tap Counter feature in NFC.cool Tools does. It configures t
 
 The same chips also carry a unique tag ID - a serial number burned in at the factory, a bit like a MAC address on a network card. The Tap Counter feature can surface that too, which is what lets you tell fifty identical-looking stickers apart.
 
-### How It Works, Without the Jargon
+---
+
+## How It Works, Without the Jargon
 
 When you write content to a tag with Tap Counter turned on, the app does something clever. It embeds a row of placeholder characters into whatever you are writing - a stand-in for the count and the ID.
 
@@ -40,7 +44,9 @@ So the sequence on every tap looks like this. Someone holds their phone to the t
 
 You only do the setup once. After that first write, the tag is on its own: it will count and substitute for every tap, by every person, on every phone, for the life of the sticker. Nothing in that chain touches the internet. The counting happens in the chip. The substitution happens in the chip. If you point the finished URL at a website you control, your own server sees the count arrive - but that is your choice, not a requirement of the feature.
 
-### What You Can Actually Do With It
+---
+
+## What You Can Actually Do With It
 
 A self-counting tag sounds like a neat trick until you match it to a real problem. Here are four that come up often.
 
@@ -54,7 +60,9 @@ A self-counting tag sounds like a neat trick until you match it to a real proble
 
 Put a few of those together and you get something like this: a craft maker drops a tag into each numbered run of a product, all pointing at the same landing page. The tag ID tells them which item a buyer is holding, the count tells them how often that buyer has come back, and because the count only rises, a reseller cannot quietly pass a copy off as the original. No accounts, no database, no monthly bill - just the chip doing its job.
 
-### Setting It Up, Step by Step
+---
+
+## Setting It Up, Step by Step
 
 The feature lives in NFC.cool Tools, on both iPhone and Android. It is part of the Pro (Platinum) subscription, so you will need that to write counter-enabled tags.
 
@@ -70,7 +78,9 @@ That is the whole setup. From that point the tag is self-sufficient - it counts 
 
 If you ever want to stop it, the app can turn the counter off on an existing tag. The chip stops swapping in live values, but the content stays on the tag exactly as it was last written. Worth knowing: the chip keeps counting internally even after you switch the substitution off - the count is never lost, it just stops being shown.
 
-### Where the Count and Tag ID Show Up
+---
+
+## Where the Count and Tag ID Show Up
 
 Where the values land depends on the content type you chose. With both toggles on, the tag ID and the count are inserted together - the ID first, then the count, joined by a small `x`. Using `049F50824F1390` as the tag ID and `000007` as the count, here is the before and after for each type:
 
@@ -85,13 +95,17 @@ Now, why `000007` and not just `7`? The count is written in hexadecimal - the ba
 
 If you are routing the finished URL to your own website, your server reads those values straight out of the address: log the count, compare it to a threshold, or tell one tag from another by its ID.
 
-### Which Tags You Need
+---
+
+## Which Tags You Need
 
 This feature depends on the chip, so the tag matters. NFC.cool supports `NTAG213`, `NTAG215`, and `NTAG216` chips for Tap Counter. Those are the most common NFC stickers sold for phones, so they are easy to find, but it is worth checking the chip type before you buy in bulk. If you try to use a tag the feature does not support, the app warns you rather than writing something that will not work.
 
 If you need to stock up, our [recommended NFC tags](/affiliate-links/) page lists the `NTAG216` stickers we use and test against. And if you are new to choosing tags, our guide to [the different types of NFC tags for iPhones](/blog/nfc-tag-types-for-iphones/) walks through the trade-offs in plain terms.
 
-### A Few Quick Questions
+---
+
+## A Few Quick Questions
 
 **Can I reset the counter?** No. It is a one-way counter built into the chip and it can only go up. That is deliberate - a counter you could reset would be useless for limited editions or anti-counterfeit checks. If you need a fresh count, use a new tag.
 
@@ -103,7 +117,9 @@ If you need to stock up, our [recommended NFC tags](/affiliate-links/) page list
 
 **Does it need internet?** No. The counting and the substitution both happen inside the chip. Internet only enters the picture if the URL you wrote happens to point at a website.
 
-### Try It
+---
+
+## Try It
 
 Counting NFC taps used to mean unique links and a backend to tally them. The NTAG21x counter quietly removes that requirement: the tag keeps its own tally, and the NFC Tap Counter feature in NFC.cool Tools is what switches it on.
 

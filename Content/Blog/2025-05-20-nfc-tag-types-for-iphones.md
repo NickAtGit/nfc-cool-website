@@ -14,27 +14,39 @@ NFC tags are small integrated circuits designed to store information that can be
 
 This guide covers the different types of NFC tags and their compatibility with iPhones.
 
-### Understanding NFC tag types
+---
+
+## Understanding NFC tag types
 
 NFC tags are categorised into five types: Type 1, Type 2, Type 3, Type 4, and Type 5. The classification comes from the NFC Forum, the industry consortium that promotes NFC. Each type has different memory capacities and speeds, and can be either read-write or read-only.
 
-### Type 1 & 2 - Topaz and MIFARE Ultralight®
+---
+
+## Type 1 & 2 - Topaz and MIFARE Ultralight®
 
 Type 1 (Topaz, by Broadcom) and Type 2 (MIFARE Ultralight®, by [NXP Semiconductors](https://nxp.com)) are cost-effective and well suited to simple applications like posters and business cards. They have a small memory capacity (48 bytes to about 2 KB), which is plenty for a URL or a short text payload.
 
-### Type 3 - FeliCa™
+---
+
+## Type 3 - FeliCa™
 
 Type 3 tags, also known as FeliCa™, were developed by Sony. They're used predominantly in Asia for public transport tickets and e-money. They offer higher speed and memory (up to 1 MB), but their use is somewhat limited due to higher costs and region-specific applications.
 
-### Type 4 - MIFARE DESFire®
+---
+
+## Type 4 - MIFARE DESFire®
 
 MIFARE DESFire® tags, also from NXP Semiconductors, are Type 4. They're high-security, high-capacity tags used for complex applications like secure access control and public transport. They can store up to 8 KB.
 
-### Type 5 - ISO 15693
+---
+
+## Type 5 - ISO 15693
 
 Type 5 tags conform to the ISO 15693 standard and are relatively new in the NFC ecosystem. They're primarily used in industrial scenarios and offer extended read ranges compared to other types.
 
-### Which NFC tags should you choose for your iPhone?
+---
+
+## Which NFC tags should you choose for your iPhone?
 
 iPhones from iPhone 7 onward are compatible with NFC Type 1, 2, and 5, but offer the best support for Type 2. Type 2 NFC tags are the [NTAG series](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS) from NXP Semiconductors.
 
@@ -44,7 +56,9 @@ A practical note: the larger the tag and antenna, the better an NFC reader can p
 
 Remember that the main application for NFC on iPhones is reading NFC Data Exchange Format (NDEF) messages, which include URLs, plain text, or vCards (digital business cards). Any tag that supports NDEF - and most NTAG-series tags do - is a good choice for iPhone users.
 
-### Summary
+---
+
+## Summary
 
 If you're looking for NFC tags to use with your iPhone, Type 2 tags from the NTAG series by NXP Semiconductors are your best option. They're cost-effective and offer the best compatibility and functionality for what most people want to do with NFC on iPhones.
 

@@ -214,6 +214,4 @@ The best card for you depends on your specific needs: if CRM integration is crit
 
 Whatever you choose, make the switch. Your future clients will thank you - and so will the trees.
 
----
-
 *NFC.cool Business Card is available on the [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-consultants-freelancers-en&mt=8) and on [Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-consultants-freelancers-en). Create your first digital card in under two minutes.*
