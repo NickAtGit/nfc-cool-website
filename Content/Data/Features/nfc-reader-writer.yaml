@@ -41,7 +41,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Toothbrush Head Reset"
-    body: "<p>Philips Sonicare brush heads carry an NFC tag that tracks usage so the handle nags you to replace it. NFC.cool can reset that counter - read the tag's state, walk you through the reset, write the new state back. Same on both platforms. (We don't make brush heads; we just give yours another month of dignity.)</p>"
+    body: "<p>Philips Sonicare brush heads carry an NFC tag that tracks usage so the handle nags you to replace it. NFC.cool can reset that counter - read the tag's state, walk you through the reset, write the new state back. Same on both platforms. Want to know exactly what the chip tracks? <a href=\"/blog/reset-sonicare-brush-head-nfc/\">Read the Sonicare brush head guide on the blog</a>. (We don't make brush heads; we just give yours another month of dignity.)</p>"
     imagePath: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
     imageAlt: "Resetting a Philips Sonicare brush head with NFC"
     platforms: "iOS · Android"

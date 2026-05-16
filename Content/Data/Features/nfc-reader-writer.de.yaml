@@ -41,7 +41,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Zahnbürstenkopf zurücksetzen"
-    body: "<p>Philips-Sonicare-Bürstenköpfe tragen einen NFC-Tag, der die Nutzung verfolgt, damit dich der Griff zum Austausch mahnt. NFC.cool kann diesen Zähler zurücksetzen - Tag-Zustand lesen, dich durch den Reset führen, neuen Zustand zurückschreiben. Gleich auf beiden Plattformen. (Wir bauen keine Bürstenköpfe; wir geben deinem einfach noch einen Monat Würde.)</p>"
+    body: "<p>Philips-Sonicare-Bürstenköpfe tragen einen NFC-Tag, der die Nutzung verfolgt, damit dich der Griff zum Austausch mahnt. NFC.cool kann diesen Zähler zurücksetzen - Tag-Zustand lesen, dich durch den Reset führen, neuen Zustand zurückschreiben. Gleich auf beiden Plattformen. Du willst genau wissen, was der Chip mitzählt? <a href=\"/de/blog/reset-sonicare-brush-head-nfc/\">Lies den Sonicare-Bürstenkopf-Guide im Blog</a>. (Wir bauen keine Bürstenköpfe; wir geben deinem einfach noch einen Monat Würde.)</p>"
     imagePath: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
     imageAlt: "Philips-Sonicare-Bürstenkopf per NFC zurücksetzen"
     platforms: "iOS · Android"
