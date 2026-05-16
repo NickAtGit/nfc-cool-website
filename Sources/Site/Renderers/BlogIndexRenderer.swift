@@ -29,42 +29,41 @@ struct BlogIndexRenderer: Renderer {
 
       let title = section.config.name
       let subtitle = Self.localizedSubtitle(forSlug: section.config.slug, locale: locale)
+      let defaultLang = context.config.effectiveDefaultLanguage
+
+      // CollectionPage JSON-LD: marks this page as a curated index of the
+      // section's posts rather than a standalone article. Uses the same href
+      // logic as the cards so the ItemList never points at a 404.
+      let collectionItems: [(title: String, url: String)] = sortedPages.map { page in
+         let path = self.href(for: page, in: section, context: context, defaultLang: defaultLang)
+         return (title: page.title, url: "\(context.config.baseURL)\(path)")
+      }
+      let jsonLD = StructuredData.collectionPageGraph(
+         baseURL: context.config.baseURL,
+         homePath: context.router.homePath(),
+         sectionName: title,
+         sectionPath: listingPath,
+         description: subtitle,
+         items: collectionItems
+      )
 
       let head = helper.buildHead(
          title: "\(title) - \(context.config.name)",
          description: subtitle,
          canonicalURL: "\(context.config.baseURL)\(listingPath)",
          ogType: "website",
+         image: "\(context.config.baseURL)/assets/images/og-landing.webp",
+         imageAlt: "\(title) - \(context.config.name)",
          rssFeedURL: rssFeedPath,
          rssFeedTitle: "\(title) - \(context.config.name)",
+         jsonLD: jsonLD,
          hreflang: helper.buildHreflangForAllLanguages { $0.sectionListingPath(for: section.config) }
       )
 
       let dateFormatter = Self.dateFormatter(for: locale)
-      let defaultLang = context.config.effectiveDefaultLanguage
 
       let cards: [String] = sortedPages.map { page in
-         // If this card represents a fallback page (e.g. an EN-only changelog
-         // post showing in /de/changelog/), point the link at the EN canonical
-         // URL — BlogPostRenderer skips emitting the localized URL, so the
-         // /de/... path would 404 otherwise.
-         let isFallback: Bool = {
-            guard page.locale != defaultLang else { return false }
-            return !page.sourcePath.lastPathComponent.contains(".\(page.locale).")
-         }()
-         let href: String = {
-            if isFallback {
-               // Build the EN canonical path: section listing minus the locale
-               // prefix, then the page slug.
-               let sectionPath = context.router.sectionListingPath(for: section.config)
-               let prefix = "/\(page.locale)/"
-               let enSectionPath = sectionPath.hasPrefix(prefix)
-                  ? "/" + sectionPath.dropFirst(prefix.count)
-                  : sectionPath
-               return "\(enSectionPath)\(page.slug)/"
-            }
-            return context.router.pagePath(for: page, in: section.config)
-         }()
+         let href = self.href(for: page, in: section, context: context, defaultLang: defaultLang)
          let dateText = page.date.map { dateFormatter.string(from: $0) } ?? ""
          let summary = (page.summary ?? "").htmlEscaped
          let tags = page.tags.prefix(3).map { tag in
@@ -134,6 +133,33 @@ struct BlogIndexRenderer: Renderer {
          .appendingPathComponent("index.html")
 
       return OutputFile(outputPath: outputPath, content: html)
+   }
+
+   // MARK: - Linking
+
+   /// Resolves the URL for a post card on a section listing.
+   ///
+   /// If the post is a fallback page (e.g. an EN-only changelog post showing in
+   /// `/de/changelog/`), this points at the EN canonical URL — `BlogPostRenderer`
+   /// skips emitting the localized URL, so the `/de/...` path would 404.
+   /// Shared by the card markup and the CollectionPage JSON-LD ItemList so both
+   /// always agree on the destination.
+   private func href(for page: Page, in section: ContentSection, context: BuildContext, defaultLang: String) -> String {
+      let isFallback: Bool = {
+         guard page.locale != defaultLang else { return false }
+         return !page.sourcePath.lastPathComponent.contains(".\(page.locale).")
+      }()
+      guard isFallback else {
+         return context.router.pagePath(for: page, in: section.config)
+      }
+      // Build the EN canonical path: section listing minus the locale prefix,
+      // then the page slug.
+      let sectionPath = context.router.sectionListingPath(for: section.config)
+      let prefix = "/\(page.locale)/"
+      let enSectionPath = sectionPath.hasPrefix(prefix)
+         ? "/" + sectionPath.dropFirst(prefix.count)
+         : sectionPath
+      return "\(enSectionPath)\(page.slug)/"
    }
 
    // MARK: - Localization

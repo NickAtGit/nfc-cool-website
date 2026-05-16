@@ -11,6 +11,9 @@ import SiteKit
          .replacing(SiteKit.CategoryListingRenderer.self, with: CategoryListingRenderer())
          .replacing(SiteKit.TagListingRenderer.self, with: TagListingRenderer())
          .replacing(SiteKit.RobotsTxtRenderer.self, with: RobotsTxtRenderer())
+         // Default sitemap adapter is blind to the custom feature renderers —
+         // swap in one that also emits /features/ and /features/{slug}/.
+         .replacing(SitemapRenderer.self, with: SitemapRenderer(adapter: FeatureSitemapDataAdapter()))
          .renderer(FeaturePageRenderer())
          .renderer(FeaturesIndexRenderer())
          .renderer(StaticRootFilesRenderer())
@@ -44,6 +47,7 @@ import SiteKit
          .processor(SmartAppBannerProcessor())
          .processor(OGImageDimensionsProcessor())
          .processor(RatingsCountProcessor())
+         .processor(LlmsTxtFeaturesProcessor())
          .processor(EmailObfuscationProcessor())
          .processor(AssetMinifier())
          .run()

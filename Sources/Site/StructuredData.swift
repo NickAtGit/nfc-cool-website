@@ -63,6 +63,33 @@ enum StructuredData {
       """
    }
 
+   /// BreadcrumbList + CollectionPage graph for a section listing page
+   /// (`/blog/`, `/changelog/`). The `CollectionPage` wraps an `ItemList` of the
+   /// section's posts so search engines understand the page is a curated index
+   /// rather than a standalone article. Kept self-contained (no `@id` reference
+   /// to the landing-page `#website` node) so the graph resolves on its own.
+   static func collectionPageGraph(
+      baseURL: String,
+      homePath: String,
+      sectionName: String,
+      sectionPath: String,
+      description: String,
+      items: [(title: String, url: String)]
+   ) -> String {
+      let breadcrumb = """
+      {"@type":"BreadcrumbList","itemListElement":[\(self.listItem(position: 1, name: "Home", url: "\(baseURL)\(homePath)")),\(self.listItem(position: 2, name: sectionName, url: "\(baseURL)\(sectionPath)"))]}
+      """
+      let listEntries = items.enumerated().map { idx, item in
+         self.listItem(position: idx + 1, name: item.title, url: item.url)
+      }.joined(separator: ",")
+      let collection = """
+      {"@type":"CollectionPage","@id":"\(baseURL)\(sectionPath)#collection","url":"\(baseURL)\(sectionPath)","name":"\(sectionName.jsonEscaped)","description":"\(description.jsonEscaped)","mainEntity":{"@type":"ItemList","itemListElement":[\(listEntries)]}}
+      """
+      return """
+      {"@context":"https://schema.org","@graph":[\(breadcrumb),\(collection)]}
+      """
+   }
+
    /// Combined per-post graph: BlogPosting + BreadcrumbList + Person + Organization.
    ///
    /// AI answer engines (Gemini, ChatGPT, Perplexity) weight `BlogPosting`

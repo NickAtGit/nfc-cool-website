@@ -116,6 +116,8 @@ footer:
   links:
     - title: "Features"
       url: "/features/"
+    - title: "Online NFC Reader"
+      url: "/nfc-reader/"
     - title: "Business Card"
       url: "/business-card/"
     - title: "NFC Tags"

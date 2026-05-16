@@ -321,4 +321,118 @@ document.addEventListener('DOMContentLoaded', function() {
       if (rawEl) rawEl.textContent = raw;
       demo.classList.add('is-active');
    })();
+
+   // Online NFC Reader - the /nfc-reader/ page. Reads NFC tags in-browser via
+   // the Web NFC API (NDEFReader), supported on Android Chrome only. The
+   // #nfc-reader-app container's data-state attribute drives which panel shows
+   // (unsupported / ready / scanning / result / error - see .nfc-reader CSS).
+   // data-state starts at "unsupported" in the HTML, so a no-JS or
+   // unsupported visitor lands straight on the app-download panel.
+   (function() {
+      const app = document.getElementById('nfc-reader-app');
+      if (!app) return;
+
+      function setState(state) { app.setAttribute('data-state', state); }
+
+      if (typeof window.NDEFReader === 'undefined') {
+         setState('unsupported');
+         return;
+      }
+
+      const recordsEl = app.querySelector('[data-nfc-records]');
+      const serialEl = app.querySelector('[data-nfc-serial]');
+      const errorEl = app.querySelector('[data-nfc-error-msg]');
+      let reader = null;
+      let listening = false;
+
+      setState('ready');
+
+      // Decode one NDEF record into { label, value, href? }.
+      function decodeRecord(record) {
+         const type = record.recordType;
+         try {
+            if (type === 'text') {
+               return { label: 'Text', value: new TextDecoder(record.encoding || 'utf-8').decode(record.data) };
+            }
+            if (type === 'url' || type === 'absolute-url') {
+               const url = new TextDecoder().decode(record.data);
+               return { label: 'Link', value: url, href: url };
+            }
+            if (type === 'mime') {
+               return { label: record.mediaType || 'Data', value: record.data.byteLength + ' bytes' };
+            }
+            if (type === 'empty') {
+               return { label: 'Empty', value: 'No data on this record.' };
+            }
+            return { label: String(type), value: new TextDecoder().decode(record.data) };
+         } catch (e) {
+            return { label: String(type || 'Record'), value: '(could not be decoded)' };
+         }
+      }
+
+      function showResult(event) {
+         serialEl.textContent = event.serialNumber || 'unavailable';
+         recordsEl.textContent = '';
+         const records = (event.message && event.message.records) || [];
+         if (!records.length) {
+            const li = document.createElement('li');
+            li.className = 'nfc-reader-record';
+            li.textContent = 'The tag is readable but holds no records.';
+            recordsEl.appendChild(li);
+         } else {
+            records.forEach(function(record) {
+               const decoded = decodeRecord(record);
+               const li = document.createElement('li');
+               li.className = 'nfc-reader-record';
+               const label = document.createElement('span');
+               label.className = 'nfc-reader-record-label';
+               label.textContent = decoded.label;
+               const value = document.createElement(decoded.href ? 'a' : 'span');
+               value.className = 'nfc-reader-record-value';
+               value.textContent = decoded.value;
+               if (decoded.href) {
+                  value.href = decoded.href;
+                  value.target = '_blank';
+                  value.rel = 'noopener nofollow';
+               }
+               li.appendChild(label);
+               li.appendChild(value);
+               recordsEl.appendChild(li);
+            });
+         }
+         setState('result');
+      }
+
+      async function startScan() {
+         setState('scanning');
+         // The reader keeps listening once scan() resolves, so onreading fires
+         // on every later tap - no need to re-arm for "Scan Another".
+         if (listening) return;
+         try {
+            reader = new NDEFReader();
+            reader.onreading = showResult;
+            reader.onreadingerror = function() {
+               errorEl.textContent = 'That tag could not be read. Hold it flat against the top of your phone and try again.';
+               setState('error');
+            };
+            await reader.scan();
+            listening = true;
+         } catch (e) {
+            const name = e && e.name;
+            if (name === 'NotAllowedError') {
+               errorEl.textContent = 'NFC permission was denied. Allow NFC access for this site, then try again.';
+            } else if (name === 'NotSupportedError') {
+               setState('unsupported');
+               return;
+            } else {
+               errorEl.textContent = 'NFC scanning could not start. Check that NFC is turned on in your phone settings.';
+            }
+            setState('error');
+         }
+      }
+
+      app.querySelectorAll('[data-nfc-scan], [data-nfc-again], [data-nfc-retry]').forEach(function(btn) {
+         btn.addEventListener('click', startScan);
+      });
+   })();
 });

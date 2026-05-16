@@ -41,7 +41,7 @@ func renderFeatureCards(_ features: [(slug: String, data: FeatureData)], basePat
       return """
       <a class="landing-feature-card is-linked" href="\(href)">
          <span class="landing-feature-num" aria-hidden="true">\(num)</span>
-         <img src="\(card.imagePath)" alt="\(card.title.htmlEscaped)" loading="lazy" class="landing-feature-image"/>
+         <img src="\(card.imagePath)" alt="\((card.imageAlt ?? card.title).htmlEscaped)" loading="lazy" class="landing-feature-image"/>
          <div class="landing-feature-card-text">
             <h3 class="landing-feature-title">\(card.title.htmlEscaped)</h3>
             \(platformsHTML)

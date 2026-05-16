@@ -548,3 +548,147 @@
    background: rgba(255, 255, 255, 0.16);
    border-color: #FFFFFF;
 }
+
+/* ============================================================
+   Online NFC Reader - /nfc-reader/. The #nfc-reader-app widget is
+   the right-hand visual of the split hero. Its data-state attribute
+   (set by theme.js) decides which .nfc-reader-panel is visible:
+   unsupported / ready / scanning / result / error. The card surface
+   matches .tap-demo-card.
+   ============================================================ */
+.nfc-reader { width: 100%; }
+.nfc-reader-card {
+   width: 100%;
+   max-width: 400px;
+   margin: 0 auto;
+   text-align: left;
+   background: var(--color-bg);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-lg);
+   padding: clamp(1.75rem, 3.5vw, 2.5rem);
+   box-shadow: 0 24px 60px -24px var(--color-shadow-lg);
+}
+/* Images inside the card (App Store / Play badges) must opt out of the
+   .page-hero-visual img treatment - rotation, shadow, full-width stretch. */
+.nfc-reader-card img {
+   width: auto;
+   max-width: 100%;
+   max-height: none;
+   border-radius: 0;
+   box-shadow: none;
+   transform: none;
+}
+.nfc-reader-panel { display: none; }
+.nfc-reader[data-state="unsupported"] [data-panel="unsupported"],
+.nfc-reader[data-state="ready"] [data-panel="ready"],
+.nfc-reader[data-state="scanning"] [data-panel="scanning"],
+.nfc-reader[data-state="result"] [data-panel="result"],
+.nfc-reader[data-state="error"] [data-panel="error"] { display: block; }
+
+.nfc-reader-label {
+   margin: 0;
+   font-size: 0.8125rem;
+   font-weight: 600;
+   color: var(--color-text-muted);
+}
+.nfc-reader-lead {
+   margin: 0.6rem 0 0;
+   font-size: 1rem;
+   line-height: 1.6;
+   color: var(--color-text-secondary);
+}
+.nfc-reader-btn {
+   margin-top: 1.5rem;
+   width: 100%;
+   justify-content: center;
+   cursor: pointer;
+   border: 0;
+   font: inherit;
+}
+.nfc-reader [data-panel="unsupported"] .landing-store-buttons {
+   margin-top: 1.25rem;
+}
+
+/* Scanning state - a pulsing dot */
+.nfc-reader-pulse {
+   width: 56px;
+   height: 56px;
+   margin: 1.25rem 0;
+   border-radius: 50%;
+   background: var(--color-link);
+   animation: nfc-reader-pulse 1.4s ease-in-out infinite;
+}
+@keyframes nfc-reader-pulse {
+   0%, 100% { transform: scale(0.7); opacity: 0.35; }
+   50%      { transform: scale(1);   opacity: 0.9; }
+}
+@media (prefers-reduced-motion: reduce) {
+   .nfc-reader-pulse { animation: none; opacity: 0.8; }
+}
+
+/* Result state - the decoded NDEF records */
+.nfc-reader-records {
+   list-style: none;
+   margin: 0.6rem 0 0;
+   padding: 0;
+}
+.nfc-reader-record {
+   margin: 0.5rem 0 0;
+   padding: 0.75rem 0 0;
+   border-top: 1px solid var(--color-border);
+   display: flex;
+   flex-direction: column;
+   gap: 0.25rem;
+}
+.nfc-reader-record:first-child {
+   border-top: 0;
+   padding-top: 0;
+   margin-top: 0;
+}
+.nfc-reader-record-label {
+   font-size: 0.75rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 0.04em;
+   color: var(--color-text-muted);
+}
+.nfc-reader-record-value {
+   font-size: 1rem;
+   color: var(--color-text);
+   word-break: break-word;
+}
+a.nfc-reader-record-value { color: var(--color-link); }
+
+.nfc-reader-field {
+   margin: 1.25rem 0 0;
+   padding: 1.25rem 0 0;
+   border-top: 1px solid var(--color-border);
+}
+.nfc-reader-field .nfc-reader-label { margin-bottom: 0.35rem; }
+.nfc-reader-value {
+   margin: 0;
+   font-size: 1.0625rem;
+   font-weight: 600;
+   color: var(--color-text);
+   font-variant-numeric: tabular-nums;
+   word-break: break-all;
+}
+
+/* On mobile the split hero stacks - reader card above the copy */
+@media (max-width: 900px) {
+   .nfc-reader-hero .page-hero-text { order: 2; }
+   .nfc-reader-hero .page-hero-visual { order: 1; }
+}
+
+/* Closing CTA band - reuses the .tap-cta button styles */
+.nfc-reader-cta { text-align: center; }
+.nfc-reader-cta h2 {
+   font-family: var(--font-heading);
+   font-weight: 700;
+   font-size: clamp(1.75rem, 4vw, 2.75rem);
+   line-height: 1.15;
+   letter-spacing: -0.02em;
+   color: #FFFFFF;
+   margin: 0 auto 1rem;
+   max-width: 20ch;
+}

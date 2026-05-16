@@ -76,7 +76,7 @@ struct FeaturePageRenderer: Renderer {
             canonicalURL: context.config.baseURL + pagePath,
             ogType: "website",
             image: ogImageAbsolute,
-            imageAlt: feature.hero.title,
+            imageAlt: feature.hero.heroImageAlt ?? feature.hero.title,
             jsonLD: jsonLD,
             hreflang: helper.buildHreflangForAllLanguages { router in
                "\(router.homePath())features/\(slug)/"
@@ -152,7 +152,7 @@ struct FeaturePageRenderer: Renderer {
       <div class="landing-hero-actions">\(storeButtons)</div>
       """
       let visual = hero.heroImagePath.map { path in
-         PageHeroVisual(src: path, alt: hero.title.htmlEscaped)
+         PageHeroVisual(src: path, alt: (hero.heroImageAlt ?? hero.title).htmlEscaped)
       }
       return renderPageHero(text: text, visual: visual)
    }

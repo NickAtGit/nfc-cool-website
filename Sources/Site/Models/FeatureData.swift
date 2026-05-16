@@ -24,6 +24,8 @@ struct FeatureHero: Decodable, Sendable {
    let subtitle: String
    let platforms: String?
    let heroImagePath: String?
+   /// Descriptive alt text for the hero image. Falls back to `title` when nil.
+   let heroImageAlt: String?
 }
 
 /// Grid-card content for a feature: the single source of truth for how the
@@ -35,6 +37,8 @@ struct FeatureCard: Decodable, Sendable {
    let description: String
    let imagePath: String
    let platforms: String?
+   /// Descriptive alt text for the card image. Falls back to `title` when nil.
+   let imageAlt: String?
 }
 
 struct FeatureCapability: Decodable, Sendable {
