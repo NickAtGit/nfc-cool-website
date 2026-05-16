@@ -6,22 +6,24 @@
 # Roles are tested top-to-bottom, first match wins. Keep `default` last.
 
 roles:
-  # Landing hero — the LCP element. Source is square 2540×2540 (oversized iPad
-  # screenshot); desktop renders at ~560 CSS px, mobile at max-width 320 CSS px.
-  # 560 → density srcset of 560w (1×) + 1120w (2×); the 1120w exactly covers a
-  # 2× DPR desktop display without over-serving.
-  - name: landing-hero
-    selector: ".landing-hero-visual > img"
+  # Page hero - the LCP element on the landing page, features index, per-feature
+  # pages, and blog pages, all sharing the unified `.page-hero-visual` markup.
+  # Sources are large square screenshots; desktop renders at ~560 CSS px, mobile
+  # at max-width 320 CSS px. 560 gives a density srcset of 560w (1x) + 1120w (2x);
+  # the 1120w covers a 2x DPR desktop display without over-serving.
+  - name: page-hero
+    selector: ".page-hero-visual > img"
     desktopWidth: 560
     mobileWidth: 320
 
-  # Feature grid cards — `.landing-feature-image` is locked to height:220px /
+  # Feature grid cards - `.landing-feature-image` is locked to height:220px /
   # width:auto at every breakpoint, so it never renders wider than ~220 CSS px.
-  # 220 → density srcset of 220w (1×) + 440w (2×).
+  # 200 gives a density srcset of 200w (1x) + 400w (2x); the 200w 1x is a ~1.1x
+  # upscale of the 220 px slot (imperceptible) and 400w keeps retina sharp.
   - name: feature-card
     selector: "img.landing-feature-image"
-    desktopWidth: 220
-    mobileWidth: 220
+    desktopWidth: 200
+    mobileWidth: 200
 
   # Business Card / feature banner image — large below-fold media.
   - name: feature-banner
