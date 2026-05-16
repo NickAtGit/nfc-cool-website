@@ -631,7 +631,7 @@ Run: `grep -c 'Shortcuts & Widgets' _Site/index.html`
 Expected: `0` (the dropped card's title no longer appears)
 
 Run: `grep -c 'NFC lesen &amp; schreiben' _Site/de/index.html`
-Expected: `1` (German card title renders, ampersand HTML-escaped)
+Expected: `2` (the card title renders twice per card - once in the `<h3>` and once in the `<img alt>` - with the ampersand HTML-escaped)
 
 - [ ] **Step 5: Commit**
 
