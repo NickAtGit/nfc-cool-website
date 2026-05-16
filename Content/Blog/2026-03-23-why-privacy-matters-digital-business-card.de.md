@@ -48,13 +48,13 @@ Das könnte dich überraschen. Einige Plattformen bieten jetzt KI-gestützte Not
 
 Das Problem ist die Einwilligung. In vielen Gerichtsbarkeiten - einschließlich des Großteils der EU unter DSGVO und über einem Dutzend US-Bundesstaaten mit Two-Party-Consent-Gesetzen - ist die Aufzeichnung eines Gesprächs ohne das Wissen oder die ausdrückliche Einwilligung der anderen Person illegal. Selbst wo es technisch legal ist, wirft heimliche Aufzeichnung eines Networking-Gesprächs ernsthafte ethische Fragen auf.
 
-Die Person, die du gerade getroffen hast, denkt, sie führt ein freundliches Gespräch. du weiß nicht, dass dein Handy alles transkribiert, was sie sagt, und auf einen Cloud-Server hochlädt.
+Die Person, die du gerade getroffen hast, denkt, sie führt ein freundliches Gespräch. Sie weiß nicht, dass dein Handy alles transkribiert, was sie sagt, und auf einen Cloud-Server hochlädt.
 
 ### Datenanreicherung
 
 Einige Plattformen bieten "KI-Kontaktanreicherung" an - du scannst eine Visitenkarte oder tauschst Kontakte, und die Plattform zieht automatisch zusätzliche Daten aus öffentlichen Quellen: LinkedIn-Profile, Firmeninformationen, Social-Media-Konten.
 
-Praktisch? Klar. Aber es bedeutet, dass die Plattform ein Profil der Leute aufbaut, die du triffst, oft ohne deren Wissen. Deine Kontakte haben sich nicht dafür angemeldet. du haben ihre Visitenkarte geteilt, nicht ihren gesamten digitalen Footprint.
+Praktisch? Klar. Aber es bedeutet, dass die Plattform ein Profil der Leute aufbaut, die du triffst, oft ohne deren Wissen. Deine Kontakte haben sich nicht dafür angemeldet. Sie haben ihre Visitenkarte geteilt, nicht ihren gesamten digitalen Footprint.
 
 ---
 
@@ -119,7 +119,7 @@ Wenn du in Europa basiert bist - oder mit jemandem in Europa Geschäfte machst -
 - Du solltest genau wissen, welche Daten erfasst und geteilt werden
 
 **Für die Leute, die deine Karte ansehen:**
-- du haben auch Rechte - selbst wenn sie sich nie für die Plattform angemeldet haben
+- Sie haben auch Rechte - selbst wenn sie sich nie für die Plattform angemeldet haben
 - Die Plattform kann nicht einfach ihre Daten ernten ohne rechtliche Grundlage
 - IP-Adressen, Geräte-Infos und Surfverhalten erfassen gilt unter DSGVO als Verarbeitung personenbezogener Daten
 
@@ -179,7 +179,7 @@ Wenn eine Plattform bei mehr als ein oder zwei davon durchfällt, überlege, ob 
 
 Digitale Visitenkarten sind die Zukunft des Netzwerkens. Papier ist verschwenderisch, veraltet und kann nicht aktualisiert werden, nachdem du es weggegeben hast. Die Vorteile sind echt.
 
-Aber deine Visitenkarte ist deine professionelle Identität. du ist das Erste, was Leute sehen, wenn sie dich treffen. Die Plattform, der du diese Informationen anvertraust, sollte dieses Vertrauen verdienen - durch Transparenz, durch Nutzerkontrolle und durch ein Geschäftsmodell, das nicht davon abhängt, deine Daten oder die deiner Kontakte auszunutzen.
+Aber deine Visitenkarte ist deine professionelle Identität. Sie ist das Erste, was Leute sehen, wenn sie dich treffen. Die Plattform, der du diese Informationen anvertraust, sollte dieses Vertrauen verdienen - durch Transparenz, durch Nutzerkontrolle und durch ein Geschäftsmodell, das nicht davon abhängt, deine Daten oder die deiner Kontakte auszunutzen.
 
 Datenschutz geht nicht darum, etwas zu verbergen zu haben. Es geht darum, das Recht zu haben, zu wählen, was du teilst, mit wem und zu welchen Bedingungen.
 

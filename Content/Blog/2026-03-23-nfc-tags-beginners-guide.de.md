@@ -31,7 +31,7 @@ Jedes moderne Smartphone hat einen eingebauten NFC-Chip. iPhones unterstützen N
 
 ## Was ist ein NFC-Tag?
 
-Ein NFC-Tag ist ein kleiner, passiver Chip, der in einen Sticker, eine Karte, einen Schlüsselanhänger oder ein anderes Formfaktor eingebettet ist. "Passiv" ist das Schlüsselwort: **NFC-Tags haben keine Batterie.** du werden vollständig vom elektromagnetischen Feld des Lesegeräts mit Strom versorgt.
+Ein NFC-Tag ist ein kleiner, passiver Chip, der in einen Sticker, eine Karte, einen Schlüsselanhänger oder ein anderes Formfaktor eingebettet ist. "Passiv" ist das Schlüsselwort: **NFC-Tags haben keine Batterie.** Sie werden vollständig vom elektromagnetischen Feld des Lesegeräts mit Strom versorgt.
 
 Das macht sie:
 - **Praktisch unzerstörbar** - keine Batterie, die sterben kann, keine beweglichen Teile

@@ -17,7 +17,7 @@ Tag zwei einer dreitägigen Konferenz. Du hast deinen ganzen Stapel Visitenkarte
 
 Oder du hast das Event mit Karten überstanden - nur um nach Hause zu kommen mit einem zerknitterten Haufen von 47 anderen Leuten Karten, die du jetzt manuell in eine Tabelle abtippen musst, bevor du vergisst, wer wer war.
 
-Papier-Visitenkarten und Konferenzen waren nie ein gutes Match. du waren einfach die einzige Option für sehr lange Zeit.
+Papier-Visitenkarten und Konferenzen waren nie ein gutes Match. Sie waren einfach die einzige Option für sehr lange Zeit.
 
 Das sind sie nicht mehr.
 
@@ -25,7 +25,7 @@ Das sind sie nicht mehr.
 
 ## Warum Papierkarten auf Konferenzen versagen
 
-Bevor wir zur Lösung kommen, seien wir ehrlich über das Problem. Papier-Visitenkarten wurden nicht für hochvolumige Networking-Events entworfen. du wurden für Eins-zu-eins-Meetings gemacht, in denen du eine Karte einer Person gibst, vielleicht zweimal am Tag.
+Bevor wir zur Lösung kommen, seien wir ehrlich über das Problem. Papier-Visitenkarten wurden nicht für hochvolumige Networking-Events entworfen. Sie wurden für Eins-zu-eins-Meetings gemacht, in denen du eine Karte einer Person gibst, vielleicht zweimal am Tag.
 
 Auf einer Konferenz wird alles, was an Papier leicht unpraktisch ist, zum echten Problem:
 
@@ -70,7 +70,7 @@ Nutze nicht einfach deine generische Karte. Für Konferenzen überlege:
 - **Deinen Vortragstitel und die Zeit hinzufügen**, wenn du sprichst ("Mein Talk: 'KI im Fintech' - Halle B, Donnerstag 14 Uhr")
 - **Eine konferenzspezifische CTA einfügen** ("Lass uns auf dem Event einen Kaffee trinken - schreib mir")
 - **Relevante Arbeitsproben verlinken** - ein Portfolio, eine Fallstudie, ein Demo-Video
-- **Ballast entfernen** - Auf einer Konferenz brauchen Leute deine Faxnummer nicht. du brauchen deinen Namen, was du machst und den schnellsten Weg, dich zu erreichen.
+- **Ballast entfernen** - Auf einer Konferenz brauchen Leute deine Faxnummer nicht. Sie brauchen deinen Namen, was du machst und den schnellsten Weg, dich zu erreichen.
 
 Mit einer digitalen Karte kannst du diese Änderungen in Sekunden machen und nach dem Event zurücksetzen. Versuch das mal mit 500 gedruckten Karten.
 
@@ -156,7 +156,7 @@ Viele digitale Karten-Plattformen zeigen dir, wer deine Karte geöffnet hat und 
 - Wann sie es angesehen haben - jemand, der deine Karte drei Tage nach der Konferenz prüft, ist ein warmer Lead
 - Worauf er geklickt hat - dein Portfolio? Dein LinkedIn? Dein Buchungslink?
 
-Diese Daten sind Konferenz-Gold. du sagen dir, wen du bei deinem Follow-up priorisieren solltest.
+Diese Daten sind Konferenz-Gold. Sie sagen dir, wen du bei deinem Follow-up priorisieren solltest.
 
 #### Aktualisiere deine Karte für das nächste Mal
 
@@ -193,7 +193,7 @@ Hier ist alles, was du tun musst, in der Reihenfolge:
 
 ### Braucht die andere Person eine App, um meine digitale Karte zu erhalten?
 
-Nein. Wenn du per NFC-Tap, QR-Code oder Link teilst, öffnet sich deine Karte in ihrem Webbrowser. du können deine Kontaktdaten direkt in das Adressbuch ihres Handys speichern - kein App-Install erforderlich.
+Nein. Wenn du per NFC-Tap, QR-Code oder Link teilst, öffnet sich deine Karte in ihrem Webbrowser. Sie können deine Kontaktdaten direkt in das Adressbuch ihres Handys speichern - kein App-Install erforderlich.
 
 ### Was ist, wenn das Konferenz-WLAN furchtbar ist?
 

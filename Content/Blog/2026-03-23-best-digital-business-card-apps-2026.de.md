@@ -315,7 +315,7 @@ Preise ändern sich häufig, also prüfe immer die aktuellen Preise auf der Webs
 → **Blinq** oder **HiHello.** Beide haben starke Enterprise-Features, SSO und Verzeichnissynchronisation.
 
 **"Ich besuche viele Events und brauche Lead-Capture"**
-→ **Popl.** du haben ihr ganzes Produkt um Event-Lead-Capture aufgebaut.
+→ **Popl.** Sie haben ihr ganzes Produkt um Event-Lead-Capture aufgebaut.
 
 **"Ich will eine Premium-Physische NFC-Karte"**
 → **V1CE** für Luxusmaterialien, **Mobilo** für eine gute Hardware + Software-Kombi.

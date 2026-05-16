@@ -112,7 +112,7 @@ Deine digitale Visitenkarte lebt in Apple Wallet. Physische NFC-Karte zu Hause v
 ▸ **Jederzeit aktualisierbar**
 Neuer Job? Neue Telefonnummer? Aktualisiere dein Profil einmal - alle, die deinen Link haben, sehen sofort die neuen Infos. Kein Neudruck von Karten. Kein Neuprogrammieren von Tags.
 
-vCards können nichts davon. du sind im Moment des Schreibens eingefroren.
+vCards können nichts davon. Sie sind im Moment des Schreibens eingefroren.
 
 ▸ **Funktioniert auf jedem Handy**
 Im Gegensatz zu vCard funktioniert ein URL-basiertes Profil auf jedem Smartphone - iPhone, Android, selbst ältere Geräte mit nur einem Browser. Die [NFC.cool Business Card App](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-de&mt=8) auf iOS nutzt einen [App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-de&mt=8), sodass Empfänger nicht mal etwas installieren müssen. Auf Android öffnet [NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-de) (in NFC.cool Tools) sofort ein Web-Profil.
@@ -155,7 +155,7 @@ Die Lösung ist kein Workaround - es ist ein fundamental besserer Ansatz:
 
 Das ist, was NFC.cool Business Card macht. Es ist, was ich bei jeder Konferenz, jedem Meetup und jedem Networking-Event nutze.
 
-Ich tippe. du speichern. Wir machen beide weiter mit unserem Leben.
+Ich tippe. Sie speichern. Wir machen beide weiter mit unserem Leben.
 
 **So sollte es funktionieren.**
 

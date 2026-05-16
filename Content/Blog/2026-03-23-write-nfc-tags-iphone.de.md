@@ -31,7 +31,7 @@ Für das beste Erlebnis nutze ein iPhone mit **Hintergrund-NFC-Lesung** (iPhone 
 
 ### 2. Leere NFC-Tags
 
-Du kannst [leere NFC-Tags](/de/affiliate-links/) online für nur **0,30-1,00€ pro Stück** kaufen. du gibt es in mehreren Formfaktoren:
+Du kannst [leere NFC-Tags](/de/affiliate-links/) online für nur **0,30-1,00€ pro Stück** kaufen. Sie sind in mehreren Formfaktoren erhältlich:
 
 | Formfaktor | Am besten für |
 |-------------|----------|
@@ -179,7 +179,7 @@ NFC.cool Tools fügt eigene Kurzbefehl-Aktionen hinzu, die dir mehr Optionen geb
 Das eröffnet Automatisierungsmöglichkeiten. Du könntest beispielsweise einen Kurzbefehl erstellen, der:
 1. Nach einem Produktnamen fragt
 2. Eine URL wie `https://deineseite.com/produkt/{name}` generiert
-3. du auf einen NFC-Tag schreibt
+3. Die URL auf einen NFC-Tag schreibt
 4. Den Tag in einer Tabelle protokolliert
 
 Perfekt für Bulk-Inventar-Tagging oder Event-Badge-Einrichtung.
@@ -279,7 +279,7 @@ Wenn du einen Tag beschrieben hast und mit seinem Inhalt zufrieden bist, kannst 
 
 1. **Beschrifte deine Tags.** Ein leerer Sticker auf einem Schreibtisch hilft nicht. Nutze einen Etikettendrucker oder Edding, um anzudeuten, was der Tag macht ("Tippen für WLAN", "Arbeitsmodus" etc.).
 
-2. **Vermeide Metallflächen.** Metall stört NFC-Signale. Wenn du auf Metall kleben musst, nutze **Anti-Metall-NFC-Tags** (sie haben eine Ferritschicht gegen Interferenz). du sind etwas dicker und teurer, funktionieren aber perfekt auf Metall.
+2. **Vermeide Metallflächen.** Metall stört NFC-Signale. Wenn du auf Metall kleben musst, nutze **Anti-Metall-NFC-Tags** (sie haben eine Ferritschicht gegen Interferenz). Sie sind etwas dicker und teurer, funktionieren aber perfekt auf Metall.
 
 3. **Teste vor dem Kleben.** Schreibe den Tag, teste ihn, ziehe dann die Klebefolie ab und klebe ihn an Ort und Stelle. Einen festgeklebten Tag zum Neubeschreiben zu entfernen, ist nervig.
 

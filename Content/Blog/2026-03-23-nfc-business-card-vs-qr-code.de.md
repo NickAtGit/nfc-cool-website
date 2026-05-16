@@ -166,7 +166,7 @@ Dynamische QR-Codes (bei denen die Ziel-URL aktualisiert werden kann) sind essen
 
 ### Datenschutz
 
-Das ist ein übersehener aber kritischer Faktor. Einige Plattformen nutzen deine QR-Code-Scans und NFC-Taps, um Daten über die *Empfänger* zu sammeln - die Leute, die deine Karte ansehen. du könnten Marketing-E-Mails von der Plattform selbst bekommen, was für dich schlecht aussieht und eine Verletzung ihrer Privatsphäre ist.
+Das ist ein übersehener aber kritischer Faktor. Einige Plattformen nutzen deine QR-Code-Scans und NFC-Taps, um Daten über die *Empfänger* zu sammeln - die Leute, die deine Karte ansehen. Sie könnten Marketing-E-Mails von der Plattform selbst bekommen, was für dich schlecht aussieht und eine Verletzung ihrer Privatsphäre ist.
 
 Wähle eine Plattform, die sowohl deine Privatsphäre als auch die deiner Kontakte respektiert.
 

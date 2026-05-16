@@ -15,7 +15,7 @@ Wenn du unabhängiger Berater oder Freelancer bist, hast du keine Marketingabtei
 
 Das macht Networking zu deiner wichtigsten Tätigkeit und gleichzeitig zu deiner persönlichsten. Jede Interaktion spiegelt sich direkt in dir wider - und die Art, wie du deine Kontaktdaten teilst, ist Teil dieses ersten Eindrucks.
 
-Papier-Visitenkarten haben in der Unternehmenswelt jahrzehntelang funktioniert. Aber für unabhängige Professionals? du waren schon immer eine schlechte Wahl.
+Papier-Visitenkarten haben in der Unternehmenswelt jahrzehntelang funktioniert. Aber für unabhängige Professionals? Sie waren schon immer eine schlechte Wahl.
 
 ---
 
@@ -53,7 +53,7 @@ Jedes Abo muss sich rechtfertigen. Jede 10€/Monat sind 120€/Jahr, die direkt
 
 ### 1. Das Kaffee-Meeting
 
-Du kennst die Szene. Du triffst einen potenziellen Kunden in einem Café. Das Gespräch läuft gut. Am Ende, anstatt in deiner Tasche nach einer Karte zu wühlen, die deine aktuellen Infos haben könnte oder auch nicht, hebst du einfach dein Handy - mit NFC.cools Konferenz-Modus auf iOS liegt dein QR-Code bereits als Live Activity auf dem Sperrbildschirm. du scannen ihn in zwei Sekunden. Kein Entsperren, keine App öffnen.
+Du kennst die Szene. Du triffst einen potenziellen Kunden in einem Café. Das Gespräch läuft gut. Am Ende, anstatt in deiner Tasche nach einer Karte zu wühlen, die deine aktuellen Infos haben könnte oder auch nicht, hebst du einfach dein Handy - mit NFC.cools Konferenz-Modus auf iOS liegt dein QR-Code bereits als Live Activity auf dem Sperrbildschirm. Sie scannen ihn in zwei Sekunden. Kein Entsperren, keine App öffnen.
 
 Deine vollständigen Kontaktdaten - Telefon, E-Mail, Website, Portfolio, LinkedIn, Buchungslink - speichern sich direkt auf ihrem Handy. Keine Karte zum Verlieren. Keine Tippfehler in ihren Kontakten. Und du wirkst, als hättest du alles im Griff.
 
@@ -208,7 +208,7 @@ Das hängt von der Plattform ab. Einige zeichnen Gespräche bei Networking-Event
 
 Als Freelancer oder unabhängiger Berater hast du nicht den Luxus einer großen Marke, die dein Networking für dich macht. Jeder Handschlag, jedes Kaffee-Meeting, jedes Konferenzgespräch ist eine Gelegenheit - und die Art, wie du deine Kontaktdaten teilst, hilft oder schadet dieser Gelegenheit.
 
-Digitale Visitenkarten nehmen die Reibung heraus. du halten deine Infos aktuell, unterstützen mehrere professionelle Identitäten, funktionieren international und kosten einen Bruchteil von dem, was du in einem Jahr für Papier ausgeben würdest.
+Digitale Visitenkarten nehmen die Reibung heraus. Sie halten deine Infos aktuell, unterstützen mehrere professionelle Identitäten, funktionieren international und kosten einen Bruchteil von dem, was du in einem Jahr für Papier ausgeben würdest.
 
 Die beste Karte für dich hängt von deinen spezifischen Bedürfnissen ab: Wenn CRM-Integration kritisch ist, schau dir Wave Connect oder Blinq an. Wenn Team-Verwaltung wichtig ist, ziehe HiHello in Betracht. Wenn du eine bezahlbare, datenschutz-first Karte willst, die NFC-Hardware und 35 Sprachen unterstützt, wurde [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-consultants-freelancers-de&mt=8) genau dafür gebaut.
 

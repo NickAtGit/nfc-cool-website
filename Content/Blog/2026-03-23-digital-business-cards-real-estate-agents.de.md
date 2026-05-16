@@ -51,13 +51,13 @@ Digitale Karten bleiben im Handy des Interessenten. Einige Apps zeigen dir sogar
 
 ## Wie Immobilienmakler tatsächlich digitale Visitenkarten nutzen
 
-Die besten Makler tauschen nicht einfach Papier gegen Pixel. du integrieren digitale Karten in ihren Workflow an jedem Berührungspunkt.
+Die besten Makler tauschen nicht einfach Papier gegen Pixel. Sie integrieren digitale Karten in ihren Workflow an jedem Berührungspunkt.
 
 ### Bei Open Houses
 
 **Das Setup:** Platziere einen NFC-Tag auf einem kleinen Ständer am Eingangstisch und drucke einen QR-Code auf die Anmeldeliste oder das Immobilien-Flyer.
 
-**Was passiert:** Besucher tippen den NFC-Tag mit ihrem Handy oder scannen den QR-Code. du bekommen sofort deine vollständige digitale Visitenkarte - Name, Telefon, E-Mail, Website, aktuelle Listings und Social Media. Kein App-Download auf ihrer Seite erforderlich.
+**Was passiert:** Besucher tippen den NFC-Tag mit ihrem Handy oder scannen den QR-Code. Sie bekommen sofort deine vollständige digitale Visitenkarte - Name, Telefon, E-Mail, Website, aktuelle Listings und Social Media. Kein App-Download auf ihrer Seite erforderlich.
 
 **Warum es funktioniert:** Du erfasst jeden Besucher als digitalen Kontakt, nicht als gekritzelten Namen. Und Besucher behalten die Karte tatsächlich, weil sie in ihrem Handy ist, nicht in ihrer Tasche.
 

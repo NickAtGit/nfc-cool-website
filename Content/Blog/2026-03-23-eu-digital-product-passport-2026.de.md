@@ -108,7 +108,7 @@ Für verbrauchernahe Produkte etabliert sich **NFC als die Premium-Wahl** - aus 
 
 ### Warum NFC besser zu DPP passt als QR
 
-- **Haltbarkeit** - NFC-Tags können in Produkten eingebettet werden (Kleidungsetiketten, Batteriegehäuse, Elektronikgehäuse). du überstehen Waschen, Abnutzung und Jahre der Nutzung. QR-Codes auf Verpackungen werden weggeworfen.
+- **Haltbarkeit** - NFC-Tags können in Produkten eingebettet werden (Kleidungsetiketten, Batteriegehäuse, Elektronikgehäuse). Sie überstehen Waschen, Abnutzung und Jahre der Nutzung. QR-Codes auf Verpackungen werden weggeworfen.
 - **Manipulationswiderstand** - NFC-Chips können kryptografisch gesperrt werden, was es schwerer macht, Passdaten zu fälschen oder zu duplizieren. QR-Codes kann jeder drucken.
 - **Aktualisierbare Links** - NFC-Tags können auf dynamische URLs verweisen, die sicherstellen, dass die Passdaten über den gesamten Produktlebenszyklus aktuell bleiben.
 - **Keine Sichtlinie nötig** - Du musst keinen QR-Code finden und einrahmen. Halte einfach dein Handy in die Nähe des Produkts.
@@ -188,7 +188,7 @@ Die Kosten variieren stark je nach Produktkategorie, Daten-Readiness und gewähl
 
 Der EU Digital Product Passport ist nicht einfach eine weitere Regulierung, die man befolgen muss - er ist ein grundlegender Wandel darin, wie Produkte ihre Geschichte kommunizieren. Für Hersteller bedeutet er mehr Transparenz. Für Verbraucher informiertere Entscheidungen. Für den Planeten besseres Recycling und weniger Abfall.
 
-NFC-Technologie ist einzigartig positioniert, die physische Brücke zwischen Produkten und ihren digitalen Identitäten zu sein. du ist langlebig, sicher, smartphone-kompatibel und bereits im großen Maßstab bewährt.
+NFC-Technologie ist einzigartig positioniert, die physische Brücke zwischen Produkten und ihren digitalen Identitäten zu sein. Sie ist langlebig, sicher, smartphone-kompatibel und bereits im großen Maßstab bewährt.
 
 Egal ob du eine Marke bist, die sich auf Konformität vorbereitet, oder ein Verbraucher, der neugierig ist, was dieser neue NFC-Tag an deiner Jacke macht - die DPP-Ära hat begonnen.
 
