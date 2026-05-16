@@ -1,6 +1,12 @@
 slug: "document-scanner"
 backLinkText: "← All features"
 
+card:
+  title: "Document Scanner with OCR"
+  description: "Scan documents on iPhone or iPad with automatic edge detection and OCR - all on your device, nothing uploaded. Export searchable, multi-page PDFs."
+  imagePath: "/assets/images/Webflow/document-scan.webp"
+  platforms: "iOS only"
+
 hero:
   title: "Document Scanner with OCR"
   subtitle: "Capture documents with automatic edge detection and perspective correction. On-device OCR turns every scan into searchable text."

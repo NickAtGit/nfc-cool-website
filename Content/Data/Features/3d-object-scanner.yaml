@@ -1,6 +1,12 @@
 slug: "3d-object-scanner"
 backLinkText: "← All features"
 
+card:
+  title: "3D Object Scanner"
+  description: "Walk around an object and Apple's Object Capture builds a textured 3D model. Export to USDZ for AR, STL for 3D printing, or OBJ for Blender. Requires an iPhone Pro or iPad Pro with LiDAR."
+  imagePath: "/assets/images/Webflow/3d-object.webp"
+  platforms: "iOS only"
+
 hero:
   title: "3D Object Scanner"
   subtitle: "Walk around a real-world object with your iPhone - NFC.cool runs Apple's on-device Object Capture to reconstruct a textured 3D model. Export the finished model into AR or any 3D tool."

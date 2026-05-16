@@ -1,6 +1,12 @@
 slug: "qr-scanner"
 backLinkText: "← すべての機能"
 
+card:
+  title: "QRコードスキャナー & スタジオ"
+  description: "カメラからQRコードをスキャン、または写真から抽出。組み込みのQRコードスタジオで、アイコンやGenmojiを使ってオリジナルをデザインできます。"
+  imagePath: "/assets/images/Webflow/qr-studio.webp"
+  platforms: "iOSのみ"
+
 hero:
   title: "QRコードスキャナー & スタジオ"
   subtitle: "カメラからQRコードをスキャン、スクリーンショットからの抽出にも対応。組み込みのQRコードスタジオでロゴ、Genmoji、ブランドカラーを使ったオリジナルデザインを作れます。"

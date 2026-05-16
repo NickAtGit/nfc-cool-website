@@ -1,6 +1,12 @@
 slug: "room-scanner"
 backLinkText: "← All features"
 
+card:
+  title: "Room Scanner"
+  description: "Walk through a room and RoomPlan builds a clean floor plan - walls, doors, windows, and furniture - complete with room measurements and area calculation."
+  imagePath: "/assets/images/Webflow/scan-room.webp"
+  platforms: "iOS only"
+
 hero:
   title: "Room Scanner"
   subtitle: "LiDAR-powered RoomPlan turns a walk through your space into a clean parametric floor plan - walls, doors, windows, and recognised furniture, exported as a single USDZ scene."

@@ -1,6 +1,12 @@
 slug: "room-scanner"
 backLinkText: "← Alle Funktionen"
 
+card:
+  title: "Raumscanner"
+  description: "Geh durch einen Raum und RoomPlan erstellt einen sauberen Grundriss - Wände, Türen, Fenster und Möbel - inklusive Raummaße und Flächenberechnung."
+  imagePath: "/assets/images/Webflow/scan-room.webp"
+  platforms: "Nur iOS"
+
 hero:
   title: "Raumscanner"
   subtitle: "LiDAR-gestütztes RoomPlan verwandelt einen Spaziergang durch dein Zuhause in einen sauberen, parametrischen Grundriss - Wände, Türen, Fenster und erkannte Möbel, exportiert als einzelne USDZ-Szene."

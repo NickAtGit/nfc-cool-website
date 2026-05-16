@@ -1,6 +1,12 @@
 slug: "document-scanner"
 backLinkText: "← すべての機能"
 
+card:
+  title: "OCR付き書類スキャナー"
+  description: "iPhoneやiPadで書類をスキャン。自動エッジ検出とOCRがすべて端末上で完結し、アップロードは一切なし。検索可能な複数ページPDFに書き出せます。"
+  imagePath: "/assets/images/Webflow/document-scan.webp"
+  platforms: "iOSのみ"
+
 hero:
   title: "OCR付き書類スキャナー"
   subtitle: "自動エッジ検出とパース補正で書類をキャプチャ。オンデバイスOCRがすべてのスキャンを検索可能なテキストに。"

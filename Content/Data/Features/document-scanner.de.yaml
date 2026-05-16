@@ -1,6 +1,12 @@
 slug: "document-scanner"
 backLinkText: "← Alle Funktionen"
 
+card:
+  title: "Dokumenten-Scanner mit OCR"
+  description: "Scanne Dokumente auf iPhone oder iPad mit automatischer Kantenerkennung und OCR - alles auf deinem Gerät, nichts wird hochgeladen. Exportiere durchsuchbare, mehrseitige PDFs."
+  imagePath: "/assets/images/Webflow/document-scan.webp"
+  platforms: "Nur iOS"
+
 hero:
   title: "Dokumenten-Scanner mit OCR"
   subtitle: "Erfasse Dokumente mit automatischer Kantenerkennung und Perspektiv-Korrektur. On-Device-OCR macht jeden Scan zu durchsuchbarem Text."

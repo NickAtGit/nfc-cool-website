@@ -1,6 +1,12 @@
 slug: "room-scanner"
 backLinkText: "← すべての機能"
 
+card:
+  title: "ルーム・スキャナー"
+  description: "部屋を歩くだけでRoomPlanが美しい間取り図を作成 - 壁、ドア、窓、家具に加え、部屋の寸法と面積計算も。"
+  imagePath: "/assets/images/Webflow/scan-room.webp"
+  platforms: "iOSのみ"
+
 hero:
   title: "ルーム・スキャナー"
   subtitle: "LiDAR搭載のRoomPlanで、部屋を歩くだけ - 壁、ドア、窓、認識された家具まで含めた美しいパラメトリックな間取り図を、ひとつのUSDZシーンとして書き出せます。"

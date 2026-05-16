@@ -1,6 +1,12 @@
 slug: "webhooks"
 backLinkText: "← Alle Funktionen"
 
+card:
+  title: "Webhooks & Automatisierung"
+  description: "Fünf Hooks feuern im Moment, in dem du scannst - POST an deinen Server, Shortcut starten, URL öffnen, Ergebnis vorlesen oder Sound abspielen. NFC.cool scannt; was dann passiert, gehört dir."
+  imagePath: "/assets/images/Webflow/webhook.webp"
+  platforms: "iOS · Android"
+
 hero:
   title: "Webhooks & Automatisierung"
   subtitle: "Fünf eingebaute Hooks feuern im Moment, in dem du einen NFC-Tag, einen QR-Code oder einen Barcode scannst - POST an deinen Server, URL automatisch öffnen, Shortcut starten, Ergebnis vorlesen oder Sound abspielen. NFC.cool ist der Scanner; die Aktion gehört dir."

@@ -1,6 +1,12 @@
 slug: "nfc-reader-writer"
 backLinkText: "← すべての機能"
 
+card:
+  title: "NFCリーダー & ライター"
+  description: "どんなNFCタグも読み取り、25種類以上のメッセージタイプを書き込み - ウェブリンク、Wi-Fi、名刺、ショートカットなど。タグをロックし、NFC Safeで秘密の情報を暗号化できます。"
+  imagePath: "/assets/images/Webflow/nfc-card.webp"
+  platforms: "iOS · Android"
+
 hero:
   title: "NFCリーダー & ライター"
   subtitle: "どんなNFCタグもタップで読み取り、自分でも書き込めます - リンク、連絡先、Wi-Fiなど。パスワードや秘密の情報をタグに安全に保存し、ロックすれば他の誰にも書き換えられません。"

@@ -1,6 +1,12 @@
 slug: "3d-object-scanner"
 backLinkText: "← Alle Funktionen"
 
+card:
+  title: "3D-Objektscanner"
+  description: "Umrunde ein Objekt und Apples Object Capture baut ein texturiertes 3D-Modell. Exportiere als USDZ für AR, STL für den 3D-Druck oder OBJ für Blender. Erfordert ein iPhone Pro oder iPad Pro mit LiDAR."
+  imagePath: "/assets/images/Webflow/3d-object.webp"
+  platforms: "Nur iOS"
+
 hero:
   title: "3D-Objektscanner"
   subtitle: "Umrunde ein reales Objekt mit deinem iPhone - NFC.cool nutzt Apples On-Device Object Capture und rekonstruiert ein texturiertes 3D-Modell. Exportiere das fertige Modell in AR oder jedes 3D-Tool."

@@ -1,6 +1,12 @@
 slug: "nfc-reader-writer"
 backLinkText: "← Alle Funktionen"
 
+card:
+  title: "NFC lesen & schreiben"
+  description: "Lies jeden NFC-Tag und schreibe 25+ Nachrichtenarten - Weblinks, WLAN, Visitenkarten, Kurzbefehle und mehr. Sperre Tags und verschlüssele Geheimnisse mit NFC Safe."
+  imagePath: "/assets/images/Webflow/nfc-card.webp"
+  platforms: "iOS · Android"
+
 hero:
   title: "NFC lesen & schreiben"
   subtitle: "Lies jeden NFC-Tag mit einem Tippen und beschreibe ihn selbst - mit Links, Kontakten, WLAN und mehr. Speichere Passwörter und Geheimnisse sicher direkt auf dem Tag und sperre Tags, damit niemand sie verändern kann."

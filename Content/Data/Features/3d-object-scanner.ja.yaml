@@ -1,6 +1,12 @@
 slug: "3d-object-scanner"
 backLinkText: "← すべての機能"
 
+card:
+  title: "3Dオブジェクト・スキャナー"
+  description: "オブジェクトの周りを歩くと、AppleのObject Captureがテクスチャ付き3Dモデルを構築。AR用のUSDZ、3DプリントのSTL、Blender用のOBJに書き出せます。LiDAR搭載のiPhone ProまたはiPad Proが必要です。"
+  imagePath: "/assets/images/Webflow/3d-object.webp"
+  platforms: "iOSのみ"
+
 hero:
   title: "3Dオブジェクト・スキャナー"
   subtitle: "iPhoneでオブジェクトの周りを歩くだけ - NFC.coolがAppleのオンデバイスObject Captureを使い、テクスチャ付き3Dモデルを再構成します。完成したモデルをARや好みの3Dツールに書き出せます。"

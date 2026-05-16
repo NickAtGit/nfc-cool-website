@@ -1,6 +1,12 @@
 slug: "barcode-scanner"
 backLinkText: "← Alle Funktionen"
 
+card:
+  title: "Barcode-Scanner"
+  description: "Scanne 13 Barcode-Formate plus 6 zweidimensionale Codes - EAN, UPC, QR, PDF417, Data Matrix und mehr. Im Batch-Modus bleibt die Kamera offen - für Inventur und Check-ins."
+  imagePath: "/assets/images/Webflow/qr-barcode.webp"
+  platforms: "Nur iOS"
+
 hero:
   title: "Barcode-Scanner"
   subtitle: "Scanne 19 Code-Formate - 13 lineare Barcodes (EAN, UPC, Code 128, GS1 DataBar und mehr) plus 6 zweidimensionale Codes (QR, PDF417, Aztec, Data Matrix und Micro-Varianten). Im Batch-Modus bleibt die Kamera offen - ideal für Inventur und Event-Check-ins."

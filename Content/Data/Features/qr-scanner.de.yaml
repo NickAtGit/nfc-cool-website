@@ -1,6 +1,12 @@
 slug: "qr-scanner"
 backLinkText: "← Alle Funktionen"
 
+card:
+  title: "QR-Code-Scanner & Studio"
+  description: "Scanne QR-Codes mit der Kamera oder finde sie in einem beliebigen Foto - und gestalte dann eigene mit Icons und Genmoji im integrierten QR Code Studio."
+  imagePath: "/assets/images/Webflow/qr-studio.webp"
+  platforms: "Nur iOS"
+
 hero:
   title: "QR-Code-Scanner & Studio"
   subtitle: "Scanne jeden QR-Code mit der Kamera oder finde ihn in einem Screenshot. Gestalte eigene QR-Codes mit Logos, Genmoji und Markenfarben im integrierten QR Code Studio."

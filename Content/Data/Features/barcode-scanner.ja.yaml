@@ -1,6 +1,12 @@
 slug: "barcode-scanner"
 backLinkText: "← すべての機能"
 
+card:
+  title: "バーコードスキャナー"
+  description: "13種類のバーコード形式と6種類の2次元コード - EAN、UPC、QR、PDF417、Data Matrixなど - をスキャン。バッチモードでカメラを開いたまま、棚卸しや受付に対応。"
+  imagePath: "/assets/images/Webflow/qr-barcode.webp"
+  platforms: "iOSのみ"
+
 hero:
   title: "バーコードスキャナー"
   subtitle: "19種類のコード形式に対応 - 13種類のリニアバーコード(EAN、UPC、Code 128、GS1 DataBarなど)と6種類の2次元コード(QR、PDF417、Aztec、Data Matrix、Microバリアント)。バッチモードでカメラを開いたままに - 棚卸しやイベント受付に最適です。"
