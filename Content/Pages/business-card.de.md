@@ -1,5 +1,5 @@
 ---
-title: "Digitale Visitenkarten-App mit NFC"
+title: "Digitale Visitenkarte mit NFC für iPhone"
 slug: "business-card"
 description: "Eine eigenständige Visitenkarten-App fürs iPhone. Teile sie per NFC-Tipp, QR-Code, AppClip oder Apple Wallet. Sieh, wer deine Karte speichert, und nutze den Konferenzmodus auf Events."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"

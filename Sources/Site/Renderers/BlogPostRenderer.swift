@@ -60,7 +60,7 @@ struct BlogPostRenderer: Renderer {
       let relatedTitle = Self.localized(.related, locale: locale)
 
       let tagsHTML = page.tags.map { tag in
-         "<span class=\"blog-post-tag\">\(tag.htmlEscaped)</span>"
+         "<a class=\"blog-post-tag\" href=\"\(context.router.tagPath(for: tag))\">\(tag.htmlEscaped)</a>"
       }.joined()
 
       let heroVisual: PageHeroVisual = {

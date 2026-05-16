@@ -1,5 +1,5 @@
 ---
-title: "NFC対応デジタル名刺アプリ"
+title: "iPhone対応 NFCデジタル名刺アプリ"
 slug: "business-card"
 description: "iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppClip、Apple Walletで共有可能。誰がカードを保存したかをトラッキングし、ライブイベントでConference Modeを実行できます。"
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"

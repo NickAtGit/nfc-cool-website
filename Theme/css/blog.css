@@ -211,6 +211,12 @@
    background: rgba(255, 255, 255, 0.14);
    color: #FFFFFF;
    letter-spacing: 0.04em;
+   text-decoration: none;
+   display: inline-block;
+   transition: background var(--transition);
+}
+.blog-post-tag:hover {
+   background: rgba(255, 255, 255, 0.28);
 }
 .blog-post-hero-image-section {
    background: var(--color-bg);

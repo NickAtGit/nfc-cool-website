@@ -4,6 +4,9 @@ colorScheme: "custom"
 fontPairing: "custom"
 selfHostedFonts: true
 
+# Site-wide fallback OG/Twitter image for any page that doesn't pass its own.
+defaultImage: "/assets/images/og-landing.webp"
+
 css:
    - "css/theme.css"
    - "css/landing.css"
