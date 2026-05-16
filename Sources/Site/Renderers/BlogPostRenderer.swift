@@ -63,26 +63,17 @@ struct BlogPostRenderer: Renderer {
          "<span class=\"blog-post-tag\">\(tag.htmlEscaped)</span>"
       }.joined()
 
-      let heroImageHTML: String = {
-         guard let img = page.image else { return "" }
-         let alt = (page.imageAlt ?? page.title).htmlEscaped
-         return "<img src=\"\(img)\" alt=\"\(alt)\" loading=\"eager\" fetchpriority=\"high\"/>"
-      }()
-
-      let heroVisualHTML: String = {
-         if heroImageHTML.isEmpty {
-            let titleAlt = page.title.htmlEscaped
-            return """
-            <div class="page-hero-visual is-brand">
-               <img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt="\(titleAlt)" loading="eager" fetchpriority="high"/>
-            </div>
-            """
+      let heroVisual: PageHeroVisual = {
+         if let img = page.image {
+            let alt = (page.imageAlt ?? page.title).htmlEscaped
+            return PageHeroVisual(src: img, alt: alt)
          }
-         return """
-         <div class="page-hero-visual">
-            \(heroImageHTML)
-         </div>
-         """
+         // No hero image - fall back to the brand logo on the gradient.
+         return PageHeroVisual(
+            src: "/assets/theme/images/nfc-secondary-logo-white.webp",
+            alt: page.title.htmlEscaped,
+            isBrand: true
+         )
       }()
 
       // Related: pick 3 newest from same section, excluding current.
@@ -142,22 +133,19 @@ struct BlogPostRenderer: Renderer {
          hreflang: helper.buildHreflangForAllLanguages { $0.pagePath(for: page, in: section.config) }
       )
 
+      let heroText = """
+      <p class="blog-post-back"><a href="\(listingPath)">\(backText.htmlEscaped)</a></p>
+      <h1 class="blog-post-title">\(page.title.htmlEscaped)</h1>
+      <p class="blog-post-meta">
+         \(dateText.isEmpty ? "" : "<span>\(dateText.htmlEscaped)</span>")
+         \(author.isEmpty ? "" : "<span>·</span><span>\(author.htmlEscaped)</span>")
+      </p>
+      \(tagsHTML.isEmpty ? "" : "<div class=\"blog-post-tags\">\(tagsHTML)</div>")
+      """
+      let heroHTML = renderPageHero(modifier: "blog-post-hero", text: heroText, visual: heroVisual)
       let body = """
       <main class="sk-main blog-post">
-         <section class="page-hero blog-post-hero">
-            <div class="page-hero-grid">
-               <div class="page-hero-text">
-                  <p class="blog-post-back"><a href="\(listingPath)">\(backText.htmlEscaped)</a></p>
-                  <h1 class="blog-post-title">\(page.title.htmlEscaped)</h1>
-                  <p class="blog-post-meta">
-                     \(dateText.isEmpty ? "" : "<span>\(dateText.htmlEscaped)</span>")
-                     \(author.isEmpty ? "" : "<span>·</span><span>\(author.htmlEscaped)</span>")
-                  </p>
-                  \(tagsHTML.isEmpty ? "" : "<div class=\"blog-post-tags\">\(tagsHTML)</div>")
-               </div>
-               \(heroVisualHTML)
-            </div>
-         </section>
+         \(heroHTML)
          <section class="blog-post-body-section">
             <div class="landing-container">
                <article class="blog-post-body">

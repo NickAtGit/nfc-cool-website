@@ -18,53 +18,16 @@
 }
 
 /* ============================================================
-   HERO - Full-bleed brand-blue gradient
+   HERO
+   The split-hero skeleton (.page-hero / .page-hero-grid /
+   .page-hero-text / .page-hero-visual) lives in marketing.css and is
+   shared by the landing page, the features index, the feature pages,
+   and the blog. The landing page renders <section class="page-hero
+   landing-hero"> through renderPageHero(); only the landing-specific
+   rules below stay here.
    ============================================================ */
-.landing-hero {
-   position: relative;
-   background: var(--brand-gradient);
-   color: #FFFFFF;
-   padding: clamp(4rem, 9vw, 7rem) 0 clamp(3rem, 6vw, 5rem);
-   overflow: hidden;
-   isolation: isolate;
-}
-/* Subtle radial highlight to add depth (matches brand cover) */
-.landing-hero::before {
-   content: "";
-   position: absolute;
-   inset: 0;
-   background: radial-gradient(at 70% 25%, rgba(255,255,255,0.18) 0%, transparent 55%);
-   pointer-events: none;
-   z-index: -1;
-}
-/* Subtle grain to avoid flat-banding on big gradient surfaces */
-.landing-hero::after {
-   content: "";
-   position: absolute;
-   inset: 0;
-   background-image:
-      radial-gradient(circle at 0 0, rgba(255,255,255,0.04) 1px, transparent 1px),
-      radial-gradient(circle at 8px 8px, rgba(255,255,255,0.04) 1px, transparent 1px);
-   background-size: 16px 16px;
-   pointer-events: none;
-   opacity: 0.5;
-   z-index: -1;
-}
-.landing-hero .landing-container {
-   display: grid;
-   grid-template-columns: 1.1fr 1fr;
-   gap: clamp(2rem, 4vw, 4rem);
-   align-items: center;
-}
-.landing-hero-title {
-   font-family: var(--font-heading);
-   font-weight: 700;
-   font-size: clamp(2.25rem, 6vw, 4rem);
-   line-height: 1.05;
-   letter-spacing: -0.025em;
-   margin: 0 0 1rem;
-   color: #FFFFFF;
-}
+/* Brand ".cool" tail in the landing h1. The heading itself is sized by
+   .page-hero-text h1 in marketing.css - this only tweaks the script suffix. */
 .landing-hero-title .brand-tail {
    /* yellow ".cool" override the .brand-tail base color stays yellow */
    margin-left: -0.05em;
@@ -72,13 +35,6 @@
    line-height: 0.6;
    display: inline-block;
    transform: translateY(-0.06em);
-}
-.landing-hero-subtitle {
-   font-size: clamp(1.0625rem, 1.6vw, 1.25rem);
-   line-height: 1.55;
-   color: rgba(255, 255, 255, 0.9);
-   margin: 0 0 2rem;
-   max-width: 30em;
 }
 .landing-hero-actions {
    display: flex;
@@ -101,21 +57,6 @@
 .landing-hero-trust .sep {
    margin: 0 0.5em;
    opacity: 0.55;
-}
-
-/* Hero visual - phone screenshot in soft float */
-.landing-hero-visual {
-   position: relative;
-   align-self: center;
-}
-.landing-hero-visual img {
-   display: block;
-   max-width: 100%;
-   width: 100%;
-   height: auto;
-   border-radius: var(--radius-xl);
-   box-shadow: 0 30px 60px -20px rgba(0, 30, 70, 0.35), 0 8px 24px -8px rgba(0, 0, 0, 0.25);
-   transform: rotate(-2deg);
 }
 
 /* ============================================================
@@ -450,7 +391,6 @@
    converted feature-cta) - translucent-white outline + white text. Same in
    both modes (the gradient is brand, not theme). Placed after the dark-mode
    block so this wins for dark + hero. */
-.landing-hero .landing-cta-button,
 .landing-feature-banner .landing-cta-button,
 .landing-final-cta .landing-cta-button,
 .page-hero .landing-cta-button {
@@ -674,14 +614,6 @@ a[data-eml] {
    Responsive
    ============================================================ */
 @media (max-width: 900px) {
-   .landing-hero .landing-container {
-      grid-template-columns: 1fr;
-      gap: 2.5rem;
-   }
-   .landing-hero-visual {
-      max-width: 320px;
-      justify-self: center;
-   }
    .landing-feature-banner-content {
       grid-template-columns: 1fr;
       gap: 2rem;

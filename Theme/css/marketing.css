@@ -134,7 +134,7 @@
 }
 .page-hero-visual img {
    display: block;
-   width: auto;
+   width: 100%;
    max-width: 100%;
    max-height: clamp(360px, 46vh, 480px);
    height: auto;
@@ -145,12 +145,16 @@
    object-fit: contain;
 }
 /* For brand-logo / icon-style hero images, drop the shadow, corner radius
-   and rotation so the mark sits cleanly on the gradient. */
+   and rotation so the mark sits cleanly on the gradient. The width cap sits
+   on the container so the image itself can stay fluid (max-width: 100%). */
+.page-hero-visual.is-brand {
+   max-width: 420px;
+}
 .page-hero-visual.is-brand img {
    border-radius: 0;
    box-shadow: none;
    transform: none;
-   max-width: 420px;
+   max-width: 100%;
    max-height: clamp(220px, 28vh, 300px);
    margin: 0 auto;
 }
@@ -186,6 +190,16 @@
    object-fit: contain;
 }
 
+/* Landing-page hero modifier. The homepage screenshot is sized to fill its
+   column edge to edge, unlike the contained feature / blog assets, so it
+   opts out of the height cap and the reserved min-height. */
+.page-hero.landing-hero .page-hero-visual {
+   min-height: 0;
+}
+.page-hero.landing-hero .page-hero-visual img {
+   max-height: none;
+}
+
 @media (max-width: 900px) {
    .page-hero:has(.page-hero-grid) {
       min-height: 0;
@@ -195,16 +209,21 @@
       grid-template-columns: 1fr;
       gap: 2.5rem;
    }
+   /* Cap the container, not the image - a fixed max-width on the <img>
+      overflows viewports narrower than that cap. The image stays fluid
+      (width: 100% / max-width: 100%) and tracks the column down to 320px. */
    .page-hero-visual {
       min-height: 0;
+      max-width: 360px;
+      margin-inline: auto;
    }
    .page-hero-visual img {
-      max-width: 360px;
       max-height: 400px;
-      margin: 0 auto;
+   }
+   .page-hero-visual.is-brand {
+      max-width: 320px;
    }
    .page-hero-visual.is-brand img {
-      max-width: 320px;
       max-height: 200px;
    }
 }

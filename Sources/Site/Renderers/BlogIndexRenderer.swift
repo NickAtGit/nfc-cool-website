@@ -97,20 +97,23 @@ struct BlogIndexRenderer: Renderer {
       }
 
       let heroVisualAlt = title.htmlEscaped
+      let heroText = """
+      <h1 class="blog-index-title">\(title.htmlEscaped)</h1>
+      <p class="blog-index-subtitle">\(subtitle.htmlEscaped)</p>
+      <a class="landing-cta-button" href="\(rssFeedPath)" aria-label="RSS Feed">RSS Feed</a>
+      """
+      let heroHTML = renderPageHero(
+         modifier: "blog-index-hero",
+         text: heroText,
+         visual: PageHeroVisual(
+            src: "/assets/theme/images/nfc-secondary-logo-white.webp",
+            alt: heroVisualAlt,
+            isBrand: true
+         )
+      )
       let body = """
       <main class="sk-main blog-index">
-         <section class="page-hero blog-index-hero">
-            <div class="page-hero-grid">
-               <div class="page-hero-text">
-                  <h1 class="blog-index-title">\(title.htmlEscaped)</h1>
-                  <p class="blog-index-subtitle">\(subtitle.htmlEscaped)</p>
-                  <a class="landing-cta-button" href="\(rssFeedPath)" aria-label="RSS Feed">RSS Feed</a>
-               </div>
-               <div class="page-hero-visual is-brand">
-                  <img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt="\(heroVisualAlt)" loading="eager" fetchpriority="high"/>
-               </div>
-            </div>
-         </section>
+         \(heroHTML)
          <section class="blog-index-grid-section">
             <div class="landing-container">
                <div class="blog-card-grid">\(cards.joined())</div>

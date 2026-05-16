@@ -134,35 +134,23 @@ struct LandingPageRenderer: Renderer {
 
    private func renderHero(_ hero: HeroSection, trust: TrustSection?, heroImagePath: String?, heroImageWidth: Int?, heroImageHeight: Int?, appStoreURL: String, googlePlayURL: String?) -> String {
       let titleHTML = renderTitleWithBrandTail(hero.title, tagName: "h1", classAttr: "landing-hero-title")
-      let visualHTML: String
-      if let path = heroImagePath {
-         let dimensions: String = {
-            guard let width = heroImageWidth, let height = heroImageHeight else { return "" }
-            return " width=\"\(width)\" height=\"\(height)\""
-         }()
-         visualHTML = """
-            <div class="landing-hero-visual">
-               <img src="\(path)" alt="\(hero.title.htmlEscaped) screenshot"\(dimensions) loading="eager" fetchpriority="high"/>
-            </div>
-         """
-      } else {
-         visualHTML = ""
-      }
-      return """
-      <section class="landing-hero">
-         <div class="landing-container">
-            <div class="landing-hero-text">
-               \(titleHTML)
-               <p class="landing-hero-subtitle">\(hero.subtitle.htmlEscaped)</p>
-               <div class="landing-hero-actions">
-                  \(renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL))
-               </div>
-               \(renderTrust(trust))
-            </div>
-            \(visualHTML)
-         </div>
-      </section>
+      let text = """
+      \(titleHTML)
+      <p class="landing-hero-subtitle">\(hero.subtitle.htmlEscaped)</p>
+      <div class="landing-hero-actions">
+         \(renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL))
+      </div>
+      \(renderTrust(trust))
       """
+      let visual = heroImagePath.map { path in
+         PageHeroVisual(
+            src: path,
+            alt: "\(hero.title.htmlEscaped) screenshot",
+            width: heroImageWidth,
+            height: heroImageHeight
+         )
+      }
+      return renderPageHero(modifier: "landing-hero", text: text, visual: visual)
    }
 
    private func renderFeatureBanner(_ banner: FeatureBannerSection, locale: String) -> String {

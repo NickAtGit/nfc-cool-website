@@ -143,25 +143,18 @@ struct FeaturePageRenderer: Renderer {
          guard let platforms = hero.platforms else { return "" }
          return PlatformBadge.render(platforms: platforms, wrapperClass: "feature-hero-platforms")
       }()
-      let imageHTML: String = {
-         guard let path = hero.heroImagePath else { return "" }
-         return "<div class=\"page-hero-visual\"><img src=\"\(path)\" alt=\"\(hero.title.htmlEscaped)\" loading=\"eager\" fetchpriority=\"high\"/></div>"
-      }()
       let storeButtons = renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL)
-      return """
-      <section class="page-hero">
-         <div class="page-hero-grid landing-container">
-            <div class="page-hero-text">
-               <p class="feature-breadcrumb"><a href="\(backHref)">\(backLinkText.htmlEscaped)</a></p>
-               <h1>\(hero.title.htmlEscaped)</h1>
-               \(platformsHTML)
-               <p>\(hero.subtitle.htmlEscaped)</p>
-               <div class="landing-hero-actions">\(storeButtons)</div>
-            </div>
-            \(imageHTML)
-         </div>
-      </section>
+      let text = """
+      <p class="feature-breadcrumb"><a href="\(backHref)">\(backLinkText.htmlEscaped)</a></p>
+      <h1>\(hero.title.htmlEscaped)</h1>
+      \(platformsHTML)
+      <p>\(hero.subtitle.htmlEscaped)</p>
+      <div class="landing-hero-actions">\(storeButtons)</div>
       """
+      let visual = hero.heroImagePath.map { path in
+         PageHeroVisual(src: path, alt: hero.title.htmlEscaped)
+      }
+      return renderPageHero(text: text, visual: visual)
    }
 
    private func renderCapabilities(_ capabilities: [FeatureCapability], title: String?) -> String {

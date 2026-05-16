@@ -74,20 +74,20 @@ struct FeaturesIndexRenderer: Renderer {
          }
       )
 
+      let heroText = """
+      <h1>\(title.htmlEscaped)</h1>
+      <p>\(subtitle.htmlEscaped)</p>
+      <div class="landing-hero-actions">\(renderStoreButtons(appStoreURL: toolsAppStoreURL, googlePlayURL: toolsGooglePlayURL))</div>
+      """
+      let heroHTML = renderPageHero(
+         modifier: "features-index-hero",
+         text: heroText,
+         visual: PageHeroVisual(src: "/assets/images/Webflow/qr-studio.webp", alt: title.htmlEscaped)
+      )
+
       let body = """
       <main class="sk-main features-index">
-         <section class="page-hero features-index-hero">
-            <div class="page-hero-grid landing-container">
-               <div class="page-hero-text">
-                  <h1>\(title.htmlEscaped)</h1>
-                  <p>\(subtitle.htmlEscaped)</p>
-                  <div class="landing-hero-actions">\(renderStoreButtons(appStoreURL: toolsAppStoreURL, googlePlayURL: toolsGooglePlayURL))</div>
-               </div>
-               <div class="page-hero-visual">
-                  <img src="/assets/images/Webflow/qr-studio.webp" alt="\(title.htmlEscaped)" loading="eager" fetchpriority="high"/>
-               </div>
-            </div>
-         </section>
+         \(heroHTML)
          <section class="landing-feature-grid features-index-grid-section">
             <div class="landing-container">
                <div class="landing-features">\(cards)</div>
