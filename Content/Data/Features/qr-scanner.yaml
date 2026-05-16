@@ -14,7 +14,7 @@ capabilities:
   - title: "Detect QR Codes in Screenshots"
     description: "Pick any image from your photo library and NFC.cool finds and decodes any QR code inside it - even partially obscured or low-contrast ones."
   - title: "QR Code Studio"
-    description: "Design QR codes with custom colors, rounded eye patterns, custom pixel shapes, and a logo or Genmoji in the center. Export as SVG vector or PNG at up to 4096×4096."
+    description: "Design QR codes with custom colors, rounded eye patterns, custom pixel shapes, and a logo or Genmoji in the center. Export as PNG at up to 4096×4096."
   - title: "History & Re-Share"
     description: "Every scan is saved locally - re-open the payload, copy it, share it, or jump straight back to the action."
   - title: "Auto-Action on Read"
@@ -61,7 +61,6 @@ specs:
       - "Multiple codes per image"
   - title: "Studio Export Sizes"
     items:
-      - "SVG (vector, print-ready)"
       - "PNG at 512, 1024, 1536, 2048, 3072, or 4096 pixels square"
   - title: "Studio Customisation"
     items:

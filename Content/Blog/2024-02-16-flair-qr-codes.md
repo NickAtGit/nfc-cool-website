@@ -40,7 +40,7 @@ A few guidelines:
 
 Print needs more physical area. For a business card, you want the QR code at least 2 cm × 2 cm. For a poster viewed from 1 metre away, scale up to ~5 cm. For a billboard, scale to whatever the audience distance demands - the rule is roughly "code size = viewing distance ÷ 10".
 
-QR Studio exports at high resolution so you don't have to worry about pixelation - vector when possible, sharp PNG otherwise.
+QR Studio exports sharp PNG at up to 4096×4096 pixels, so you don't have to worry about pixelation.
 
 ## Where personality actually pays off
 

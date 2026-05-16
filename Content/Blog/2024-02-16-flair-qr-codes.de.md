@@ -40,7 +40,7 @@ Ein paar Richtlinien:
 
 Print braucht mehr physische Fläche. Für eine Visitenkarte willst du den QR-Code mindestens 2 cm × 2 cm. Für ein Poster, das aus 1 Meter Entfernung betrachtet wird, skaliere auf ca. 5 cm. Für ein Billboard skaliere entsprechend der Zuschauerdistanz - die Regel ist grob "Codegröße = Sichtdistanz ÷ 10".
 
-QR Studio exportiert in hoher Auflösung, also musst du dir keine Sorgen um Pixelmatsch machen - Vektor wenn möglich, scharfes PNG sonst.
+QR Studio exportiert scharfes PNG mit bis zu 4096×4096 Pixeln, also musst du dir keine Sorgen um Pixelmatsch machen.
 
 ## Wo Persönlichkeit sich wirklich auszahlt
 
