@@ -235,7 +235,7 @@ card:
   title: "Webhook & オートメーション"
   description: "スキャンした瞬間に5つのフックが起動 - サーバーへPOST、ショートカット実行、URLを開く、結果を読み上げ、サウンド再生。NFC.coolはスキャナー、次に何をするかはあなた次第です。"
   imagePath: "/assets/images/Webflow/webhook.webp"
-  platforms: "iOSのみ"
+  platforms: "iOS · Android"
 ```
 
 - [ ] **Step 4: Build to confirm the YAML is still valid**
