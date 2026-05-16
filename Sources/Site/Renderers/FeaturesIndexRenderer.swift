@@ -1,53 +1,38 @@
 import Foundation
 import SiteKit
-import Yams
 
 /// Renders the `/features/` index - a hub page that lists every feature
 /// detail page available for the current locale.
 struct FeaturesIndexRenderer: Renderer {
    func render(context: BuildContext) throws -> [OutputFile] {
-      let locale = context.uiStrings.locale
-      let defaultLang = context.config.effectiveDefaultLanguage
-      let suffix = locale == defaultLang ? "" : ".\(locale)"
       let helper = OutputFileRenderer(context: context)
+      let locale = context.uiStrings.locale
 
-      // Skip the locale entirely when none of the features have a localised YAML.
-      var cards: [String] = []
-      let hasAnyFeature = FeaturePageRenderer.slugs.contains { slug in
-         let yamlPath = context.projectDirectory
-            .appendingPathComponent(context.config.contentDirectory)
-            .appendingPathComponent("Data")
-            .appendingPathComponent("Features")
-            .appendingPathComponent("\(slug)\(suffix).yaml")
-         return FileManager.default.fileExists(atPath: yamlPath.path)
-      }
-      guard hasAnyFeature else { return [] }
+      // Load every feature available for this locale, in canonical slug order.
+      // Skip the locale entirely when it has no localized feature YAMLs.
+      let features = try loadFeatures(context: context)
+      guard !features.isEmpty else { return [] }
 
       // Localized hub headings - keep a tiny in-code dictionary.
-      let (title, subtitle, exploreLabel): (String, String, String) = {
+      let (title, subtitle): (String, String) = {
          switch locale {
          case "de":
             return (
                "NFC.cool Funktionen",
-               "NFC-Tags lesen, schreiben und dekodieren. QR-Codes und Barcodes scannen. Dokumente, 3D-Objekte und Räume erfassen. Jeden Scan an deinen eigenen Webhook senden - eine App, jeder Scanner, der dein Smartphone sein kann.",
-               "Im Detail ansehen →"
+               "NFC-Tags lesen, schreiben und dekodieren. QR-Codes und Barcodes scannen. Dokumente, 3D-Objekte und Räume erfassen. Jeden Scan an deinen eigenen Webhook senden - eine App, jeder Scanner, der dein Smartphone sein kann."
             )
          case "ja":
             return (
                "NFC.cool の機能",
-               "NFCタグの読み取り・書き込み・デコード。QRコードとバーコードのスキャン。書類、3Dオブジェクト、ルームの取り込み。すべてのスキャンをあなたのWebhookへ - スマホを、考えられるすべてのスキャナーに。",
-               "詳しく見る →"
+               "NFCタグの読み取り・書き込み・デコード。QRコードとバーコードのスキャン。書類、3Dオブジェクト、ルームの取り込み。すべてのスキャンをあなたのWebhookへ - スマホを、考えられるすべてのスキャナーに。"
             )
          default:
             return (
                "NFC.cool Features",
-               "Read, write, and decode NFC tags. Scan QR codes and 25+ barcode formats. Capture documents, 3D objects, and rooms. Forward every scan to your own webhook - one app, every scanner your phone can be.",
-               "Explore →"
+               "Read, write, and decode NFC tags. Scan QR codes and barcodes. Capture documents, 3D objects, and rooms. Forward every scan to your own webhook - one app, every scanner your phone can be."
             )
          }
       }()
-
-      _ = exploreLabel // not used - cards now mirror landing-feature-card style verbatim.
 
       let toolsAppStoreURL = StoreLink.appStore(app: .tools, page: "web-features", locale: locale)
       let toolsGooglePlayURL = StoreLink.googlePlay(app: .tools, page: "web-features", locale: locale)
@@ -60,56 +45,14 @@ struct FeaturesIndexRenderer: Renderer {
          return renderFinalCTA(cta: cta, trust: landing.trust, appStoreURL: toolsAppStoreURL, googlePlayURL: toolsGooglePlayURL)
       }()
 
-      // Build the per-feature cards using the SAME .landing-feature-card markup
-      // the landing page emits, so both grids look identical and the whole card
-      // is a link into /features/{slug}/.
-      cards.removeAll()
       let basePath = context.router.homePath()
-      for (index, slug) in FeaturePageRenderer.slugs.enumerated() {
-         let yamlPath = context.projectDirectory
-            .appendingPathComponent(context.config.contentDirectory)
-            .appendingPathComponent("Data")
-            .appendingPathComponent("Features")
-            .appendingPathComponent("\(slug)\(suffix).yaml")
-         guard FileManager.default.fileExists(atPath: yamlPath.path) else { continue }
-         let yamlData = try Data(contentsOf: yamlPath)
-         let feature = try YAMLDecoder().decode(FeatureData.self, from: yamlData)
-
-         let num = String(format: "%02d", index + 1)
-         let href = "\(basePath)features/\(slug)/"
-         let imagePath = feature.hero.heroImagePath ?? ""
-         let platformsHTML: String = {
-            guard let p = feature.hero.platforms else { return "" }
-            return PlatformBadge.render(platforms: p, wrapperClass: "landing-feature-platforms")
-         }()
-         cards.append("""
-         <a class="landing-feature-card is-linked" href="\(href)">
-            <span class="landing-feature-num" aria-hidden="true">\(num)</span>
-            <img src="\(imagePath)" alt="\(feature.hero.title.htmlEscaped)" loading="lazy" class="landing-feature-image"/>
-            <div class="landing-feature-card-text">
-               <h3 class="landing-feature-title">\(feature.hero.title.htmlEscaped)</h3>
-               \(platformsHTML)
-               <p class="landing-feature-desc">\(feature.hero.subtitle.htmlEscaped)</p>
-            </div>
-         </a>
-         """)
-      }
-
+      let cards = renderFeatureCards(features, basePath: basePath)
       let pagePath = "\(basePath)features/"
 
-      // Build the (title, slug) list for JSON-LD ItemList. Loads each feature
-      // YAML once more here to surface the localized title; small cost since
-      // we already loaded them above for the card grid.
-      let itemListEntries: [(title: String, slug: String)] = FeaturePageRenderer.slugs.compactMap { slug in
-         let yamlPath = context.projectDirectory
-            .appendingPathComponent(context.config.contentDirectory)
-            .appendingPathComponent("Data")
-            .appendingPathComponent("Features")
-            .appendingPathComponent("\(slug)\(suffix).yaml")
-         guard FileManager.default.fileExists(atPath: yamlPath.path) else { return nil }
-         guard let yamlData = try? Data(contentsOf: yamlPath) else { return nil }
-         guard let feature = try? YAMLDecoder().decode(FeatureData.self, from: yamlData) else { return nil }
-         return (feature.hero.title, slug)
+      // (title, slug) list for the JSON-LD ItemList - uses the card title so
+      // structured data matches what the card visually shows.
+      let itemListEntries: [(title: String, slug: String)] = features.map {
+         (title: $0.data.card.title, slug: $0.slug)
       }
       let jsonLD = StructuredData.featuresIndexGraph(
          baseURL: context.config.baseURL,
@@ -147,7 +90,7 @@ struct FeaturesIndexRenderer: Renderer {
          </section>
          <section class="landing-feature-grid features-index-grid-section">
             <div class="landing-container">
-               <div class="landing-features">\(cards.joined())</div>
+               <div class="landing-features">\(cards)</div>
             </div>
          </section>
          \(finalCTAHTML)
