@@ -19,7 +19,6 @@ struct LandingData: Decodable, Sendable {
    /// shared image). When nil, the homepage emits no preview card.
    let ogImage: String?
    let ogImageAlt: String?
-   let features: [Feature]?
    let featuresTitle: String?
    let featureBanner: FeatureBannerSection?
    let testimonials: [Testimonial]?
@@ -59,16 +58,6 @@ struct FeatureBannerSection: Decodable, Sendable {
    /// CTA - typically pointing at platform-specific products with campaign URLs.
    let appStoreURL: String?
    let googlePlayURL: String?
-}
-
-struct Feature: Decodable, Sendable {
-   let title: String
-   let description: String
-   let imagePath: String
-   let platforms: String?
-   /// Optional feature-page slug. When set, the landing-page card becomes a
-   /// link to `/features/{slug}/` so visitors can drill into the detail page.
-   let slug: String?
 }
 
 struct Testimonial: Decodable, Sendable {
