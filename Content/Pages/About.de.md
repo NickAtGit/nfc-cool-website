@@ -10,9 +10,9 @@ description: "Die Geschichte, die Mission und die Person hinter NFC.cool - ein d
 
 <div class="page-hero-text">
 
-# Unabhängig entwickelt, in Portugal.
+# Unabhängig entwickelt, in Europa.
 
-NFC.cool ist ein unabhängiges Produkt von **Nicolo Stanciu**, gemacht in Lissabon. Eine Person, eine Mission: das beste mobile Scan-Toolkit zu liefern - ohne die Leute auszuspionieren, die es benutzen.
+NFC.cool ist ein unabhängiges Produkt von **Nicolo Stanciu**, entwickelt zwischen Deutschland und Portugal. Eine Person, eine Mission: NFC für alle zugänglich zu machen. NFC gilt als Nerd-Technologie, und die meisten Apps dafür sind zu technisch - deshalb will NFC.cool das beste mobile Scan-Toolkit sein, das es gibt, gemacht für jeden.
 
 <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">Kontakt aufnehmen</a>
 
@@ -30,11 +30,11 @@ NFC.cool ist ein unabhängiges Produkt von **Nicolo Stanciu**, gemacht in Lissab
 
 ## Die Geschichte
 
-NFC.cool begann als persönliches Bedürfnis - Apple öffnete 2017 NFC auf iOS, und die verfügbaren Apps fühlten sich entweder zu eingeschränkt oder zu überladen an. Ich habe die erste Version von NFC.cool Tools für mich selbst gebaut, sie in den App Store gestellt, und eine kleine, aber leidenschaftliche Community hat sich rund um die App gebildet.
+NFC.cool begann als persönliches Bedürfnis. Apple öffnete 2017 NFC auf iOS, und ich war einer der Ersten, der dafür entwickelte - ich habe die erste Version von NFC.cool Tools in jenem Jahr gebaut, sie in den App Store gestellt, und eine kleine, aber leidenschaftliche Community hat sich rund um die App gebildet.
 
-Acht Jahre und 6.500+ Fünf-Sterne-Bewertungen später ist NFC.cool zu einer App-Familie gewachsen: das vollständige Scan-Toolkit (NFC, QR, Barcodes, Dokumente, 3D, Raumscan, Webhooks), die eigenständige Business-Card-App, und eine Android-Version, die sich auf das konzentriert, was Android am besten kann. Alles wird immer noch von einer Tastatur aus, in einer Wohnung, in Lissabon ausgeliefert.
+NFC.cool ist seither zu einer App-Familie gewachsen: das vollständige Scan-Toolkit (NFC, QR, Barcodes, Dokumente, 3D, Raumscan, Webhooks), die eigenständige Business-Card-App, und eine Android-Version, die sich auf das konzentriert, was Android am besten kann - zusammen mit {{RATINGS_TOTAL}}+ Bewertungen bei {{RATINGS_AVG}} Sternen im App Store und bei Google Play. Alles wird immer noch von einer Tastatur aus ausgeliefert - eine Person, die zwischen Deutschland und Portugal arbeitet.
 
-Ich halte das absichtlich so. Kein VC, keine Analytics, kein Growth-Team - nur eine Person, die jeden Tag tatsächlich nutzt, was sie veröffentlicht.
+Ich halte das absichtlich so. Kein VC, kein Growth-Team - nur eine Person, die jeden Tag tatsächlich nutzt, was sie veröffentlicht.
 
 </section>
 
@@ -60,13 +60,8 @@ Ich halte das absichtlich so. Kein VC, keine Analytics, kein Growth-Team - nur e
 </article>
 
 <article class="page-card">
-<h3>Kein Tracking, keine Analytics</h3>
-<p>Ich weiß nicht, welche Funktionen du benutzt, wie oft oder wer du bist. Ich schreibe die Apps; die Daten gehören dir.</p>
-</article>
-
-<article class="page-card">
 <h3>Wo möglich kostenlos</h3>
-<p>Das Kern-Toolkit ist kostenlos und werbefrei. Einige fortgeschrittene Workflows können in den Apps freischaltbar sein, aber für das Wesentliche brauchst du nie ein Abo.</p>
+<p>NFC-Tags lesen, QR-Codes und Barcodes scannen, Dokumentenscan, 3D- und Raumscan - das Kern-Toolkit ist kostenlos nutzbar. Die kostenlose Version ist werbefinanziert; ein optionales Platinum-Abo entfernt die Werbung und schaltet die fortgeschrittenen Workflows frei. Das Wesentliche kostet nie etwas.</p>
 </article>
 
 </div>

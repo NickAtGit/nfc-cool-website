@@ -10,9 +10,9 @@ description: "The story, the mission, and the person behind NFC.cool - a privacy
 
 <div class="page-hero-text">
 
-# Built independently, in Portugal.
+# Built independently, in Europe.
 
-NFC.cool is an independent product from **Nicolo Stanciu**, made in Lisbon. One person, one mission: ship the best mobile scanning toolkit anyone has, without spying on the people using it.
+NFC.cool is an independent product from **Nicolo Stanciu**, built between Germany and Portugal. One person, one mission: make NFC accessible for the rest of us. It's a famously nerdy technology and most apps for it are too technical - so NFC.cool sets out to be the best mobile scanning toolkit anyone has, built for everyone.
 
 <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">Get in touch</a>
 
@@ -30,11 +30,11 @@ NFC.cool is an independent product from **Nicolo Stanciu**, made in Lisbon. One 
 
 ## The story
 
-NFC.cool started as a personal itch - Apple opened up NFC on iOS in 2017 and the apps available all felt either too limited or too cluttered. I built the first version of NFC.cool Tools that year for myself, shipped it to the App Store, and watched a small but passionate community form around it.
+NFC.cool started as a personal itch. Apple opened up NFC on iOS in 2017, and I was one of the first to build for it - I shipped the first version of NFC.cool Tools that year, put it on the App Store, and watched a small but passionate community form around it.
 
-Eight years and 6,500+ five-star ratings later, NFC.cool has grown into a family of apps: the full scanning toolkit (NFC, QR, barcodes, documents, 3D, room scans, webhooks), the dedicated Business Card app, and an Android version focused on what Android does best. Everything still ships from one keyboard, in one apartment, in Lisbon.
+NFC.cool has since grown into a family of apps: the full scanning toolkit (NFC, QR, Barcodes, Documents, 3D, Room Scans, Webhooks), the dedicated Business Card app, and an Android version focused on what Android does best - together carrying {{RATINGS_TOTAL}}+ ratings at {{RATINGS_AVG}} stars across the App Store and Google Play. Everything still ships from one keyboard - one person, working between Germany and Portugal.
 
-I keep it that way on purpose. No VC, no analytics, no growth team - just one person who actually uses what they ship every day.
+I keep it that way on purpose. No VC, no growth team - just one person who actually uses what they ship every day.
 
 </section>
 
@@ -60,13 +60,8 @@ I keep it that way on purpose. No VC, no analytics, no growth team - just one pe
 </article>
 
 <article class="page-card">
-<h3>No analytics, no tracking</h3>
-<p>I don't know which features you use, how often, or who you are. I write the apps; the data is yours.</p>
-</article>
-
-<article class="page-card">
 <h3>Free where it can be</h3>
-<p>The core toolkit is free with no ads. A few advanced workflows may unlock inside the apps, but you'll never need a subscription for the essentials.</p>
+<p>Reading NFC tags, scanning QR codes and barcodes, document scanning, 3D and room scanning - the core toolkit is free to use. The free tier is ad-supported; an optional Platinum subscription removes the ads and unlocks the advanced workflows. The essentials never cost anything.</p>
 </article>
 
 </div>

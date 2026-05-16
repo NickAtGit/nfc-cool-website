@@ -84,9 +84,11 @@ A webhook is just a JSON `POST` to a URL you control - so anything that speaks H
 
 ## Webhooks
 
-Enable in **Settings → Webhook** inside the app: enter one HTTPS URL, optionally a username/password for HTTP Basic Auth, then toggle "NFC scans" and "QR & barcode scans" independently. Available on iOS and Android.
+Enable in **More tab → Webhook** inside the app: enter one HTTPS URL, optionally a username/password for HTTP Basic Auth, then toggle "NFC scans" and "QR & barcode scans" independently. Available on iOS and Android.
 
 The app fires a single `POST` per scan against the URL you configured. There's no separate retry queue: if your endpoint isn't reachable or returns a non-2xx response, the scan POST fails. Aim for `204 No Content` on success; any 2xx is treated as accepted.
+
+This page is the technical reference. For the feature overview - the other four iOS automation hooks, pricing, and FAQ - see the [Webhooks & Automation feature page](/features/webhooks/).
 
 </section>
 
@@ -112,7 +114,12 @@ Structured tags (currently OpenPrintTag) add two more fields:
   "date" : "2026-05-12T14:23:01Z",
   "content" : "Filament Spool #1234",
   "tagType" : "openPrintTag",
-  "structured" : { "...parsed fields..." }
+  "structured" : {
+    "material" : "PLA",
+    "color" : "#FF6F4C",
+    "manufacturer" : "Prusament",
+    "uuid" : "5e8a-7c1d-4f90"
+  }
 }
 ```
 
@@ -130,7 +137,7 @@ Field reference:
 
 ## Authentication
 
-Webhooks support **HTTP Basic Auth only**. In **Settings → Webhook** you optionally store a username and password in the iOS Keychain. The app then responds to standard HTTP `401 / WWW-Authenticate: Basic` challenges from your server with those credentials.
+Webhooks support **HTTP Basic Auth only**. In **More tab → Webhook** you optionally store a username and password in the iOS Keychain. The app then responds to standard HTTP `401 / WWW-Authenticate: Basic` challenges from your server with those credentials.
 
 That means your endpoint controls whether auth is required. If you don't need auth, leave the username and password blank in the app and skip the challenge on the server. If you do need it, return a `401` with `WWW-Authenticate: Basic realm="…"` on the first POST - the device will retry with `Authorization: Basic …` carrying the stored credentials. Everything travels over TLS; NFC.cool's servers never see your credentials.
 
@@ -141,6 +148,8 @@ There's no Bearer-token, API-key or HMAC-signature support today. If you need th
 <section class="page-section">
 
 ## Example receivers
+
+Need the whole loop end to end? Clone the [reference webhook server on GitHub](https://github.com/NickAtGit/nfc-cool-webhook-server) - it logs every payload live. The snippets below are minimal receivers for your own stack.
 
 ### cURL - quick smoke test
 

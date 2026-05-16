@@ -312,6 +312,12 @@
    max-width: var(--max-width);
    margin: 0 auto;
 }
+/* A trailing sentence after a card grid (e.g. the iOS 18 variants note on
+   /developers/) otherwise sits flush against the cards - the grid has no
+   bottom margin and .page-section p has margin-top: 0. */
+.page-cards-grid + p {
+   margin-top: 2rem;
+}
 .page-card {
    background: var(--color-bg-card);
    border: 1px solid var(--color-border);

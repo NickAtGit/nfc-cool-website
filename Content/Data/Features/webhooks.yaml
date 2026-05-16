@@ -33,11 +33,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Payload Shape"
-    body: "<p>Every POST sends a JSON body shaped like this:</p><pre><code>{\n  \"identifier\": \"04:A3:B2:81:C5:6E:80\",\n  \"date\": \"2026-05-15T10:42:18Z\",\n  \"content\": \"https://example.com/product/42\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-…\"\n  }\n}</code></pre><p><code>identifier</code> is the tag UID or scanned code. <code>date</code> is ISO 8601. <code>content</code> is the decoded payload. <code>tagType</code> and <code>structured</code> are present only for special formats like <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a> - every other scan omits them.</p>"
-    platforms: "iOS · Android"
-
-  - title: "Curl Example"
-    body: "<p>Here's what your server receives - the equivalent <code>curl</code> for a plain URL payload:</p><pre><code>curl -X POST https://your-server.example.com/scans \\\n  -H \"Content-Type: application/json\" \\\n  -u \"username:password\" \\\n  -d '{\n    \"identifier\": \"04:A3:B2:81:C5:6E:80\",\n    \"date\": \"2026-05-15T10:42:18Z\",\n    \"content\": \"https://example.com/menu\"\n  }'</code></pre><p>The <code>-u</code> flag matches what NFC.cool sends when you've configured HTTP Basic auth in Settings - username and password are stored encrypted in the iOS Keychain.</p>"
+    body: "<p>Every POST sends a JSON body shaped like this:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p><code>tagType</code> and <code>structured</code> appear only for special formats like <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a>; every other scan sends just the first three fields. The <a href=\"/developers/\">developer reference</a> has the full field-by-field breakdown, authentication, curl, and ready-to-run example servers.</p>"
     platforms: "iOS · Android"
 
   - title: "Reference Server on GitHub"

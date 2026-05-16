@@ -834,9 +834,16 @@ a[data-eml] {
    color: var(--color-text);
 }
 
-/* Dev-friendly code blocks used inside .feature-subsection-body
-   for the Webhooks page. Authors render them as <pre><code class="language-json">…</code></pre>. */
-.feature-subsection-body pre {
+/* Dev-friendly code blocks - dark terminal-style blocks shared by the
+   Webhooks feature page (.feature-subsection-body) and marketing pages such
+   as /developers/ (.marketing-page is the <main> class from
+   MarketingPageRenderer). Class-agnostic, so it covers both markdown-fenced
+   <pre><code class="language-json">…</code></pre> and hand-authored
+   <pre><code>. The inline-code rule also matters on marketing pages: the
+   renderer drops SiteKit's .sk-static-page wrapper, so theme.css's
+   .sk-static-page code rule no longer reaches them. */
+.feature-subsection-body pre,
+.marketing-page pre {
    margin: 0 0 1rem;
    padding: 1rem 1.15rem;
    background: #0d1117;
@@ -847,20 +854,36 @@ a[data-eml] {
    line-height: 1.55;
    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
-.feature-subsection-body pre code {
+.feature-subsection-body pre code,
+.marketing-page pre code {
    color: inherit;
    background: none;
    padding: 0;
    font-family: inherit;
    font-size: inherit;
 }
-.feature-subsection-body code {
+.feature-subsection-body code,
+.marketing-page code {
    background: var(--color-bg-alt);
    color: var(--color-text);
    padding: 0.1em 0.35em;
    border-radius: 4px;
    font-size: 0.875em;
    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+/* On marketing pages the code block is a direct child of the full-bleed
+   .page-section. `.page-section > *` gives every child a max-width box with
+   auto side-margins, then insets the *text* by container-padding - so the
+   section title and prose start container-padding inside that box. A <pre>
+   paints its dark background across the whole box, which would push the
+   block container-padding wider than the title on each side. Shrink the box
+   by 2x container-padding (and cap it the same way) so the dark block's
+   edges line up with the title and body text at every viewport width. */
+.marketing-page pre {
+   width: calc(100% - 2 * var(--container-padding));
+   max-width: calc(var(--max-width) - 2 * var(--container-padding));
+   margin-inline: auto;
 }
 
 @media (max-width: 760px) {

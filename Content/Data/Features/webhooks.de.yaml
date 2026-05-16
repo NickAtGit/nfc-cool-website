@@ -33,11 +33,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Payload-Form"
-    body: "<p>Jeder POST sendet einen JSON-Body in dieser Form:</p><pre><code>{\n  \"identifier\": \"04:A3:B2:81:C5:6E:80\",\n  \"date\": \"2026-05-15T10:42:18Z\",\n  \"content\": \"https://example.com/product/42\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-…\"\n  }\n}</code></pre><p><code>identifier</code> ist die Tag-UID oder der gescannte Code. <code>date</code> ist ISO 8601. <code>content</code> ist die dekodierte Payload. <code>tagType</code> und <code>structured</code> erscheinen nur bei speziellen Formaten wie <a href=\"/de/features/nfc-reader-writer/\">OpenPrintTag</a> - andere Scans lassen sie weg.</p>"
-    platforms: "iOS · Android"
-
-  - title: "Curl-Beispiel"
-    body: "<p>So sieht es auf der Serverseite aus - das <code>curl</code>-Äquivalent für eine normale URL-Payload:</p><pre><code>curl -X POST https://dein-server.example.com/scans \\\n  -H \"Content-Type: application/json\" \\\n  -u \"benutzername:passwort\" \\\n  -d '{\n    \"identifier\": \"04:A3:B2:81:C5:6E:80\",\n    \"date\": \"2026-05-15T10:42:18Z\",\n    \"content\": \"https://example.com/menu\"\n  }'</code></pre><p>Das <code>-u</code>-Flag entspricht dem, was NFC.cool sendet, wenn HTTP Basic Auth in den Einstellungen konfiguriert ist - Benutzername und Passwort liegen verschlüsselt im iOS-Keychain.</p>"
+    body: "<p>Jeder POST sendet einen JSON-Body in dieser Form:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p><code>tagType</code> und <code>structured</code> erscheinen nur bei speziellen Formaten wie <a href=\"/de/features/nfc-reader-writer/\">OpenPrintTag</a>; jeder andere Scan sendet nur die ersten drei Felder. Die <a href=\"/de/developers/\">Entwickler-Referenz</a> enthält die vollständige Feld-für-Feld-Aufschlüsselung, Authentifizierung, curl und einsatzfertige Beispiel-Server.</p>"
     platforms: "iOS · Android"
 
   - title: "Referenz-Server auf GitHub"

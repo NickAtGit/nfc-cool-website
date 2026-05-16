@@ -10,9 +10,9 @@ description: "Lies, was Menschen über NFC.cool sagen - echte 5-Sterne-Bewertung
 
 <div class="page-hero-text">
 
-# 72.500+ Bewertungen, 4,5 Sterne
+# {{RATINGS_TOTAL}}+ Bewertungen, {{RATINGS_AVG}} Sterne
 
-**4,52★** NFC.cool Tools auf iPhone (70.660 Bewertungen) · **4,60★** NFC.cool Tools auf Android (1.280 Bewertungen) · **4,80★** NFC.cool Business Card auf iPhone (593 Bewertungen).
+**{{RATINGS_TOOLS_IOS_VALUE}}★** NFC.cool Tools auf iPhone ({{RATINGS_TOOLS_IOS_COUNT}} Bewertungen) · **{{RATINGS_TOOLS_ANDROID_VALUE}}★** NFC.cool Tools auf Android ({{RATINGS_TOOLS_ANDROID_COUNT}} Bewertungen) · **{{RATINGS_BUSINESS_CARD_VALUE}}★** NFC.cool Business Card auf iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} Bewertungen).
 
 Jedes Zitat unten ist eine echte App-Store-Bewertung mit dem Original-Nicknamen - im Store findest du die Originalbewertung von Wort zu Wort wieder.
 
