@@ -172,11 +172,12 @@ Descriptions:
   Each `description` is a faithful translation of the approved English copy
   above (it is *not* the old `Landing.de.yaml` copy - the English wording
   changed in this work). Card titles match the German hero titles.
-- **Japanese**: only 4 feature files exist in Japanese (`qr-scanner`,
-  `barcode-scanner`, `3d-object-scanner`, `room-scanner`). Each gets a `card:`
-  block with a translated description. The features index already renders the
-  Japanese grid from only the slugs that have a `.ja.yaml`, so the Japanese
-  grid stays at 4 cards - unchanged.
+- **Japanese**: all 7 feature files exist in Japanese - the
+  `Content/Data/Features/` directory holds 21 YAMLs (7 slugs x 3 locales). Each
+  Japanese file gets a `card:` block with a translated description, so
+  `/ja/features/` shows all 7 cards. (AGENTS.md still lists only 4 `.ja.yaml`
+  files; that table is stale - the directory listing is authoritative.) There
+  is no Japanese landing page, so the landing grid is unaffected for Japanese.
 
 ## Related cleanup (already applied in this branch)
 
@@ -196,8 +197,8 @@ card refactor and is already done.
 3. Update `FeaturesIndexRenderer` to use the two helpers and `card.title`.
 4. Update `LandingPageRenderer` to use the two helpers; delete the slug-less
    card branch.
-5. Content: add `card:` blocks to all 7 EN + 7 DE + 4 JA feature YAMLs; remove
-   the `features:` array from `Landing.yaml` and `Landing.de.yaml`.
+5. Content: add `card:` blocks to all 21 feature YAMLs (7 EN + 7 DE + 7 JA);
+   remove the `features:` array from `Landing.yaml` and `Landing.de.yaml`.
 6. Verify (below).
 
 Steps 1-4 will not build cleanly until step 5 supplies the `card:` blocks
@@ -208,13 +209,13 @@ Steps 1-4 will not build cleanly until step 5 supplies the `card:` blocks
 - `swift run Site build` succeeds.
 - `swift run Site validate` passes (translation parity holds - `card:` blocks
   are added to en + de symmetrically).
-- Visual check: `/`, `/de/`, `/features/`, `/de/features/` each show the same
-  7 cards with the short card copy; `/ja/features/` shows 4. Every card links
-  to its `/features/{slug}/` page. Card images and platform chips are correct.
+- Visual check: `/`, `/de/`, `/features/`, `/de/features/`, `/ja/features/`
+  each show the same 7 cards with the short card copy. Every card links to its
+  `/features/{slug}/` page. Card images and platform chips are correct.
 
 ## Out of scope
 
 - The features index page hero (its own hardcoded title/subtitle/image).
 - Any change to the feature detail page hero.
 - Restyling the card grid.
-- Authoring missing Japanese feature files for the 3 slugs that lack them.
+- Updating the stale `.ja.yaml` table in AGENTS.md.
