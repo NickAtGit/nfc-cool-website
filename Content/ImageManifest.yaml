@@ -14,18 +14,25 @@ roles:
     desktopWidth: 720
     mobileWidth: 390
 
-  # Feature grid cards — render at ~220 CSS px width on desktop (3-column grid)
-  # and stack to ~390 CSS px wide on mobile. Use the wider value for both at 2×.
+  # Feature grid cards — `.landing-feature-image` is locked to height:220px /
+  # width:auto at every breakpoint, so it never renders wider than ~220 CSS px.
+  # 220 → density srcset of 220w (1×) + 440w (2×).
   - name: feature-card
     selector: "img.landing-feature-image"
-    desktopWidth: 440
-    mobileWidth: 440
+    desktopWidth: 220
+    mobileWidth: 220
 
   # Business Card / feature banner image — large below-fold media.
   - name: feature-banner
     selector: ".landing-feature-banner-image > img"
     desktopWidth: 960
     mobileWidth: 720
+
+  # Header logo — rendered at height:28px / width:auto (~114 CSS px).
+  - name: logo
+    selector: ".sk-site-logo > img"
+    desktopWidth: 114
+    mobileWidth: 114
 
   # Small inline avatars (testimonials, App Store reviews, trusted-by icons) —
   # rendered at 40–48 CSS px. 96 px covers 2× DPR.
