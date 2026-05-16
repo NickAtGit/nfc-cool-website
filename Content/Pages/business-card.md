@@ -1,5 +1,5 @@
 ---
-title: "NFC.cool Business Card"
+title: "NFC Digital Business Card App"
 slug: "business-card"
 description: "A dedicated Digital Business Card app for iPhone. Share via NFC tap, QR code, AppClip or Apple Wallet. Track who saves your card, run Conference Mode at live events."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
