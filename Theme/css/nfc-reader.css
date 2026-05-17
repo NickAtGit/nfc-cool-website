@@ -32,7 +32,6 @@
 .nfc-phone-screen {
    display: flex;
    flex-direction: column;
-   min-width: 294px;
    min-height: 500px;
    border-radius: 34px;
    overflow: hidden;
