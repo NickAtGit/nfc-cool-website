@@ -14,21 +14,21 @@ ogTitle: "How to Count NFC Tag Scans Without a Server"
 ogDescription: "Your NFC tag can count its own scans. Here's how to use that for engagement tracking, limited editions, and anti-counterfeit checks."
 ---
 
-You print the same URL onto fifty NFC stickers and stick them on fifty products, fifty posters, or fifty business cards. A week later, someone asks the obvious question: which one actually got tapped? And how many times?
+Say you print the same URL onto fifty NFC stickers and stick them on fifty products, fifty posters, or fifty business cards. A week later, someone asks the obvious question: which one actually got tapped? And how many times?
 
-The usual answer is a server. You generate fifty unique links, point them all at a backend, and let analytics software count the hits. It works, but now you are running infrastructure, paying for it, and trusting it to stay online for as long as those stickers exist.
+I've built NFC.cool for years now, and the usual answer I hear is a server. You generate fifty unique links, point them all at a backend, and let analytics software count the hits. It works, but now you are running infrastructure, paying for it, and trusting it to stay online for as long as those stickers exist. That always struck me as a lot of moving parts for a question this simple.
 
-There is a simpler way, and it has been sitting inside the NFC chip the whole time. Many tags can count their own scans. With the right setup, a tag will tell you how many times it has been read and which physical tag it is, with no backend involved at all. Here is how that works, and how to set it up.
+There is a simpler way, and it has been sitting inside the NFC chip the whole time. Many tags can count their own scans. With the right setup, a tag will tell you how many times it has been read and which physical tag it is, with no backend involved at all. This is one of my favorite NFC tricks to show people, so here is how it works, and how to set it up.
 
 ---
 
 ## What an NFC Tap Counter Actually Is
 
-Most [NFC stickers you can buy](/affiliate-links/) use chips from the NTAG21x family - `NTAG213`, `NTAG215`, and `NTAG216`. Those chips have a small feature that often goes unused: a built-in counter. Every time the tag is read, the counter ticks up by one. It lives in the chip's hardware, not in an app, and not on a server.
+Most [NFC stickers you can buy](/affiliate-links/) use chips from the NTAG21x family - `NTAG213`, `NTAG215`, and `NTAG216`. Those chips have a small feature that I find most people never knew was there: a built-in counter. Every time the tag is read, the counter ticks up by one. It lives in the chip's hardware, not in an app, and not on a server. (If you want the deeper breakdown of these chips, I covered them in [NFC tag types for iPhone](/blog/nfc-tag-types-for-iphones/).)
 
-Think of it as an odometer for the tag. A car's odometer counts miles whether or not anyone is watching it; the NFC counter counts reads the same way. The number is always there. The only question is whether anything is set up to show it to you.
+The way I describe it is an odometer for the tag. A car's odometer counts miles whether or not anyone is watching it; the NFC counter counts reads the same way. The number is always there. The only question is whether anything is set up to show it to you.
 
-That is what the NFC Tap Counter feature in NFC.cool Tools does. It configures the tag once so that, from then on, the tag reports its own count. You do not need to scan the tag yourself to check the number, and you do not need the app present when other people tap it. The tag does the counting and the reporting on its own.
+That is exactly what the NFC Tap Counter feature in NFC.cool Tools does, and it is the part I'm proudest of. It configures the tag once so that, from then on, the tag reports its own count. You do not need to scan the tag yourself to check the number, and you do not need the app present when other people tap it. The tag does the counting and the reporting on its own.
 
 The same chips also carry a unique tag ID - a serial number burned in at the factory, a bit like a MAC address on a network card. The Tap Counter feature can surface that too, which is what lets you tell fifty identical-looking stickers apart.
 
@@ -36,19 +36,19 @@ The same chips also carry a unique tag ID - a serial number burned in at the fac
 
 ## How It Works, Without the Jargon
 
-When you write content to a tag with Tap Counter turned on, the app does something clever. It embeds a row of placeholder characters into whatever you are writing - a stand-in for the count and the ID.
+When you write content to a tag with Tap Counter turned on, the app does something I think is genuinely clever. It embeds a row of placeholder characters into whatever you are writing - a stand-in for the count and the ID. That part still feels a little like a magic trick to me, even after building it.
 
 From then on, the chip handles the rest. As the help screen inside the app puts it: "The app embeds placeholder bytes in your content. On every scan, the chip replaces them with the current tap count (and/or tag ID) before the iPhone reads it. No server or internet needed."
 
 So the sequence on every tap looks like this. Someone holds their phone to the tag. The chip wakes up, bumps its counter, swaps the placeholders for the real numbers, and only then hands the finished content to the phone. The phone that scanned the tag never sees a placeholder - it sees a complete URL with a live count already baked in.
 
-You only do the setup once. After that first write, the tag is on its own: it will count and substitute for every tap, by every person, on every phone, for the life of the sticker. Nothing in that chain touches the internet. The counting happens in the chip. The substitution happens in the chip. If you point the finished URL at a website you control, your own server sees the count arrive - but that is your choice, not a requirement of the feature.
+The thing I want you to take away is that you only do the setup once. After that first write, the tag is on its own: it will count and substitute for every tap, by every person, on every phone, for the life of the sticker. Nothing in that chain touches the internet. The counting happens in the chip. The substitution happens in the chip. If you point the finished URL at a website you control, your own server sees the count arrive - but that is your choice, not a requirement of the feature.
 
 ---
 
 ## What You Can Actually Do With It
 
-A self-counting tag sounds like a neat trick until you match it to a real problem. Here are four that come up often.
+A self-counting tag sounds like a neat trick until you match it to a real problem. These are the four uses I keep coming back to when people ask me what it is for.
 
 **Tell which physical sticker was scanned.** This is the fifty-stickers problem from the start of this post. Put the same URL on every tag, switch on the tag ID, and each tap arrives stamped with the serial number of the exact tag it came from. One URL to manage, fifty tags you can still tell apart.
 
@@ -56,15 +56,15 @@ A self-counting tag sounds like a neat trick until you match it to a real proble
 
 **Track engagement.** Stick a tag on a business card, a poster, a product box, or a shop window, and the counter becomes a quiet engagement metric. You can see whether a card has been tapped twice or two hundred times without building an analytics pipeline for it.
 
-**Prove authenticity.** The counter only ever goes up - it cannot be wound back. A number that can only increase is hard to fake convincingly, which makes it useful for limited-edition items and anti-counterfeit checks. A genuine tag has a plausible, climbing history; a cloned one does not.
+**Prove authenticity.** The counter only ever goes up - it cannot be wound back. A number that can only increase is hard to fake convincingly, which is why I think it earns its place in limited-edition items and anti-counterfeit checks. A genuine tag has a plausible, climbing history; a cloned one does not. If that side of NFC interests you, I went further into it in [how NFC keeps encrypted secrets safe](/blog/nfc-safe-encrypted-secrets/).
 
-Put a few of those together and you get something like this: a craft maker drops a tag into each numbered run of a product, all pointing at the same landing page. The tag ID tells them which item a buyer is holding, the count tells them how often that buyer has come back, and because the count only rises, a reseller cannot quietly pass a copy off as the original. No accounts, no database, no monthly bill - just the chip doing its job.
+Put a few of those together and you get something like this: a craft maker drops a tag into each numbered run of a product, all pointing at the same landing page. The tag ID tells them which item a buyer is holding, the count tells them how often that buyer has come back, and because the count only rises, a reseller cannot quietly pass a copy off as the original. No accounts, no database, no monthly bill - just the chip doing its job. That is the kind of result I built this feature for.
 
 ---
 
 ## Setting It Up, Step by Step
 
-The feature lives in NFC.cool Tools, on both iPhone and Android. It is part of the Pro (Platinum) subscription, so you will need that to write counter-enabled tags.
+The feature lives in NFC.cool Tools, on both iPhone and Android. It is part of the Pro (Platinum) subscription, so you will need that to write counter-enabled tags. If you have never written a tag before, my walkthrough on [how to write NFC tags on iPhone](/blog/write-nfc-tags-iphone/) covers the basics first.
 
 1. Open NFC.cool Tools, go to the **NFC Tools** section, and tap **NFC Tap Counter**.
 2. Pick what the tag should deliver: a **URL**, an **Email**, an **SMS**, or a **Shortcut**. (Shortcut is iOS only, since Shortcuts is an Apple app; URL, Email, and SMS work on both platforms.)
@@ -74,9 +74,9 @@ The feature lives in NFC.cool Tools, on both iPhone and Android. It is part of t
 6. Check the **Preview**. It shows example output with stand-in values, so you can see exactly where the count and ID will land before you commit.
 7. Tap **Write to NFC Tag** and hold a tag to the top of your phone.
 
-That is the whole setup. From that point the tag is self-sufficient - it counts and reports on its own, for every person who taps it, with or without the app.
+That is the whole setup, and I deliberately kept it that short. From that point the tag is self-sufficient - it counts and reports on its own, for every person who taps it, with or without the app.
 
-If you ever want to stop it, the app can turn the counter off on an existing tag. The chip stops swapping in live values, but the content stays on the tag exactly as it was last written. Worth knowing: the chip keeps counting internally even after you switch the substitution off - the count is never lost, it just stops being shown.
+If you ever want to stop it, the app can turn the counter off on an existing tag. The chip stops swapping in live values, but the content stays on the tag exactly as it was last written. One detail worth knowing: the chip keeps counting internally even after you switch the substitution off - the count is never lost, it just stops being shown.
 
 ---
 
@@ -91,7 +91,7 @@ Where the values land depends on the content type you chose. With both toggles o
 
 The values are appended cleanly, so the rest of your content keeps working as normal. Switch one toggle off and you simply get the other on its own: just the count (`000007`) or just the tag ID (`049F50824F1390`).
 
-Now, why `000007` and not just `7`? The count is written in hexadecimal - the base-16 number system that runs 0 through 9 and then A through F - and padded out to six characters. So `000007` is simply the tag's seventh scan. Once you pass scan nine you start seeing letters: `00000A` is 10. The ceiling is `FFFFFF`, which is roughly 16 million scans, more headroom than almost any real-world tag will ever need. The tag ID is a longer hex string - the chip's 7-byte factory serial number - and unlike the count it never changes.
+Now, the question I always get here: why `000007` and not just `7`? The count is written in hexadecimal - the base-16 number system that runs 0 through 9 and then A through F - and padded out to six characters. So `000007` is simply the tag's seventh scan. Once you pass scan nine you start seeing letters: `00000A` is 10. The ceiling is `FFFFFF`, which is roughly 16 million scans, more headroom than almost any real-world tag will ever need. The tag ID is a longer hex string - the chip's 7-byte factory serial number - and unlike the count it never changes.
 
 If you are routing the finished URL to your own website, your server reads those values straight out of the address: log the count, compare it to a threshold, or tell one tag from another by its ID.
 
@@ -99,15 +99,15 @@ If you are routing the finished URL to your own website, your server reads those
 
 ## Which Tags You Need
 
-This feature depends on the chip, so the tag matters. NFC.cool supports `NTAG213`, `NTAG215`, and `NTAG216` chips for Tap Counter. Those are the most common NFC stickers sold for phones, so they are easy to find, but it is worth checking the chip type before you buy in bulk. If you try to use a tag the feature does not support, the app warns you rather than writing something that will not work.
+This feature depends on the chip, so the tag matters. NFC.cool supports `NTAG213`, `NTAG215`, and `NTAG216` chips for Tap Counter. Those are the most common NFC stickers sold for phones, so they are easy to find, but I would still check the chip type before you buy in bulk. If you try to use a tag the feature does not support, the app warns you rather than writing something that will not work - I made sure of that because I have seen how frustrating a silent failure is.
 
-If you need to stock up, our [recommended NFC tags](/affiliate-links/) page lists the `NTAG216` stickers we use and test against. And if you are new to choosing tags, our guide to [the different types of NFC tags for iPhones](/blog/nfc-tag-types-for-iphones/) walks through the trade-offs in plain terms.
+If you need to stock up, our [recommended NFC tags](/affiliate-links/) page lists the `NTAG216` stickers we use and test against. And if you are new to choosing tags, my guide to [the different types of NFC tags for iPhones](/blog/nfc-tag-types-for-iphones/) walks through the trade-offs in plain terms.
 
 ---
 
 ## A Few Quick Questions
 
-**Can I reset the counter?** No. It is a one-way counter built into the chip and it can only go up. That is deliberate - a counter you could reset would be useless for limited editions or anti-counterfeit checks. If you need a fresh count, use a new tag.
+**Can I reset the counter?** No. It is a one-way counter built into the chip and it can only go up. That is deliberate, and honestly the whole point - a counter you could reset would be useless for limited editions or anti-counterfeit checks. If you need a fresh count, use a new tag.
 
 **Can anyone read the count, or just me?** Anyone. Every phone that taps the tag gets the finished content with the count already in it, with or without the app installed. That is the point - the tag reports for itself.
 
@@ -121,8 +121,8 @@ If you need to stock up, our [recommended NFC tags](/affiliate-links/) page list
 
 ## Try It
 
-Counting NFC taps used to mean unique links and a backend to tally them. The NTAG21x counter quietly removes that requirement: the tag keeps its own tally, and the NFC Tap Counter feature in NFC.cool Tools is what switches it on.
+For most of the years I've worked with NFC, counting taps meant unique links and a backend to tally them. The NTAG21x counter quietly removes that requirement: the tag keeps its own tally, and the NFC Tap Counter feature in NFC.cool Tools is what switches it on. It is one of those features I keep wishing more people knew was even possible.
 
 Want to see it work before writing a single tag? Our [live tap counter demo](/tap-counter/) is a page that does exactly what this post describes - write a tag that points at it, give it a tap, and the page shows you the scan count and tag ID the chip just handed it. No server in the loop, just the URL.
 
-It is available now in NFC.cool Tools, on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-en). To see the full NFC toolkit, take a look at the [NFC reader and writer feature](/features/nfc-reader-writer/).
+It is available now in NFC.cool Tools, on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-en). To see the full NFC toolkit I've built, take a look at the [NFC reader and writer feature](/features/nfc-reader-writer/).
