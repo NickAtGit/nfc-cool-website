@@ -48,8 +48,6 @@
       'tech.note1': "A browser can't see the chip model, memory size or lock state. The ",
       'tech.appLink': 'NFC.cool app',
       'tech.note2': " reads all of that, plus the chip's raw memory.",
-      'btn.write': 'Write to Tag',
-      'btn.erase': 'Erase This Tag',
       'summary.contact': 'Contact: ',
       'summary.wifi': 'Wi-Fi: ',
       'valid.link': 'Enter a link to write to the tag.',
@@ -62,8 +60,6 @@
       'valid.contact': 'Enter a name for the contact.',
       'valid.wifiSsid': 'Enter the Wi-Fi network name.',
       'valid.wifiPass': 'Enter the Wi-Fi password.',
-      'valid.app': 'Enter the app package name.',
-      'valid.smartposter': 'Enter a link for the smart poster.',
       'err.readingError': "I couldn't read that tag. Hold it flat against the top of your phone, then try again.",
       'err.blocked': 'NFC access was blocked. Allow NFC for this site, then try again.',
       'err.notSupported': "This phone can't reach an NFC chip. Check that NFC is switched on in Android settings.",
@@ -119,7 +115,6 @@
       const typeSelectEl = app.querySelector('[data-nfc-type-select]');
       const fieldGroups = app.querySelectorAll('[data-nfc-fields]');
       const inputErrEl = app.querySelector('[data-nfc-input-error]');
-      const writeLabelEl = app.querySelector('[data-nfc-write-label]');
       const lockStartWrap = app.querySelector('[data-nfc-lock-start-wrap]');
       const lockConfirmEl = app.querySelector('[data-nfc-lock-confirm]');
 
@@ -466,33 +461,6 @@
                summary: t('summary.wifi') + ssid
             };
          }
-         if (writeType === 'app') {
-            const pkg = val('pkg').replace(/\s+/g, '');
-            if (!pkg) return fail(t('valid.app'), 'pkg');
-            const storeUrl = 'https://play.google.com/store/apps/details?id=' + pkg;
-            return {
-               records: [
-                  { recordType: 'url', data: storeUrl },
-                  { recordType: 'android.com:pkg', data: new TextEncoder().encode(pkg) }
-               ],
-               summary: pkg
-            };
-         }
-         if (writeType === 'smartposter') {
-            if (!val('url')) return fail(t('valid.smartposter'), 'url');
-            const url = normalizeUrl(val('url'));
-            if (!url) return fail(t('valid.linkInvalid'), 'url');
-            const title = val('title');
-            const nested = [{ recordType: 'url', data: url }];
-            if (title) nested.push({ recordType: 'text', data: title, lang: docLang });
-            return {
-               records: [{ recordType: 'smart-poster', data: { records: nested } }],
-               summary: title ? title + ' (' + url + ')' : url
-            };
-         }
-         if (writeType === 'erase') {
-            return { records: [{ recordType: 'empty' }], summary: '' };
-         }
          return null;
       }
 
@@ -505,13 +473,9 @@
          try {
             const writer = new NDEFReader();
             await writer.write({ records: built.records }, { signal: opAbort.signal });
-            if (writeType === 'erase') {
-               setState('erased');
-            } else {
-               writtenEl.textContent = built.summary;
-               resetLockConfirm();
-               setState('written');
-            }
+            writtenEl.textContent = built.summary;
+            resetLockConfirm();
+            setState('written');
          } catch (e) {
             if (e && e.name === 'AbortError') return; // caller already set the next state
             handleError(e, 'write');
@@ -590,7 +554,6 @@
             g.hidden = g.getAttribute('data-nfc-fields') !== type;
          });
          inputErrEl.textContent = '';
-         writeLabelEl.textContent = type === 'erase' ? t('btn.erase') : t('btn.write');
       }
 
       // --- Wiring ------------------------------------------------------

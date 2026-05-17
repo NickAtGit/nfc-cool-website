@@ -36,12 +36,14 @@
    display: inline-block;
    transform: translateY(-0.06em);
 }
+
 .landing-hero-actions {
    display: flex;
    flex-wrap: wrap;
    gap: 0.75rem;
    margin-bottom: 1.25rem;
 }
+
 .landing-hero-trust {
    margin: 0;
    color: rgba(255, 255, 255, 0.85);
@@ -49,11 +51,13 @@
    font-feature-settings: "tnum";
    letter-spacing: 0.01em;
 }
+
 .landing-hero-trust .stars {
    color: var(--color-accent);
    margin-right: 0.4em;
    letter-spacing: 0.05em;
 }
+
 .landing-hero-trust .sep {
    margin: 0 0.5em;
    opacity: 0.55;
@@ -67,6 +71,7 @@
    flex-wrap: wrap;
    gap: 0.75rem;
 }
+
 .landing-store-button {
    display: inline-block;
    line-height: 0;
@@ -74,15 +79,18 @@
    transition: transform var(--transition), box-shadow var(--transition);
    border-radius: var(--radius-md);
 }
+
 .landing-store-button:hover {
    transform: translateY(-1px);
    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
+
 .landing-store-button img {
    height: 52px;
    width: auto;
    display: block;
 }
+
 /* Hero variant: badges keep dark style on the blue gradient - they have authority */
 
 /* ============================================================
@@ -92,6 +100,7 @@
    background: var(--color-bg);
    padding: clamp(4rem, 7vw, 6rem) 0;
 }
+
 .landing-feature-grid .landing-section-title,
 .landing-feature-banner .landing-section-title,
 .landing-faq .landing-section-title,
@@ -104,11 +113,13 @@
    margin: 0 0 2.5rem;
    color: var(--color-text);
 }
+
 .landing-features {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
    gap: 1.25rem;
 }
+
 .landing-feature-card {
    position: relative;
    background: var(--color-bg-card);
@@ -122,10 +133,12 @@
    transition: transform var(--transition), box-shadow var(--transition);
    overflow: hidden;
 }
+
 .landing-feature-card:hover {
    transform: translateY(-2px);
    box-shadow: 0 8px 24px var(--color-shadow-lg);
 }
+
 /* Numbered prefix in Caveat (brand script) - large, yellow */
 .landing-feature-num {
    position: absolute;
@@ -141,6 +154,7 @@
    line-height: 1;
    pointer-events: none;
 }
+
 .landing-feature-image {
    display: block;
    height: 220px;
@@ -150,11 +164,13 @@
    object-fit: contain;
    border-radius: var(--radius-lg);
 }
+
 .landing-feature-card-text {
    display: flex;
    flex-direction: column;
    gap: 0.5rem;
 }
+
 .landing-feature-title {
    font-family: var(--font-heading);
    font-size: 1.0625rem;
@@ -162,6 +178,7 @@
    margin: 0;
    color: var(--color-text);
 }
+
 .landing-feature-platforms {
    display: inline-flex;
    flex-wrap: wrap;
@@ -186,15 +203,18 @@
    white-space: nowrap;
    border: 1px solid transparent;
 }
+
 .platform-pill-icon {
    width: 0.95em;
    height: 0.95em;
    flex-shrink: 0;
    display: block;
 }
+
 .platform-pill-label {
    display: inline-block;
 }
+
 /* iOS pill - brand-blue background + text, with a monochrome Apple mark
    (black in light mode, white in dark mode, per Apple brand guidelines) */
 .platform-pill.is-ios {
@@ -203,10 +223,11 @@
    color: #136BC0;
    border-color: rgba(19, 123, 217, 0.28);
 }
+
 .platform-pill.is-ios .platform-pill-icon {
    color: #000000;
-   /* small upward nudge to optically center the apple body inside its viewBox */
-   transform: translateY(-0.08em);
+   /* optical nudge to vertically center the apple mark in the pill */
+   transform: translateY(0.01em);
 }
 
 [data-theme="dark"] .platform-pill.is-ios {
@@ -216,7 +237,10 @@
    color: var(--brand-blue-2);
    border-color: rgba(0, 162, 243, 0.34);
 }
-[data-theme="dark"] .platform-pill.is-ios .platform-pill-icon { color: #FFFFFF; }
+
+[data-theme="dark"] .platform-pill.is-ios .platform-pill-icon {
+   color: #FFFFFF;
+}
 
 /* Android pill - Android green */
 .platform-pill.is-android {
@@ -224,23 +248,31 @@
    color: #1C7A47;
    border-color: rgba(61, 220, 132, 0.30);
 }
-.platform-pill.is-android .platform-pill-icon { color: #3DDC84; }
+
+.platform-pill.is-android .platform-pill-icon {
+   color: #3DDC84;
+}
 
 [data-theme="dark"] .platform-pill.is-android {
    background: rgba(61, 220, 132, 0.16);
    color: #5BE39A;
    border-color: rgba(61, 220, 132, 0.32);
 }
-[data-theme="dark"] .platform-pill.is-android .platform-pill-icon { color: #5BE39A; }
+
+[data-theme="dark"] .platform-pill.is-android .platform-pill-icon {
+   color: #5BE39A;
+}
 
 /* Legacy iOS-only modifier styling - keep for safety though renderer no longer emits it */
 .landing-feature-platforms.landing-platform-ios {
    background: transparent;
    color: inherit;
 }
+
 [data-theme="dark"] .landing-feature-platforms.landing-platform-ios {
    color: inherit;
 }
+
 .landing-feature-desc {
    margin: 0;
    color: var(--color-text-secondary);
@@ -259,42 +291,48 @@
    overflow: hidden;
    isolation: isolate;
 }
+
 /* Subtle radial highlight (matches hero) */
 .landing-feature-banner::before {
    content: "";
    position: absolute;
    inset: 0;
-   background: radial-gradient(at 70% 25%, rgba(255,255,255,0.18) 0%, transparent 55%);
+   background: radial-gradient(at 70% 25%, rgba(255, 255, 255, 0.18) 0%, transparent 55%);
    pointer-events: none;
    z-index: -1;
 }
+
 /* Subtle grain (matches hero) */
 .landing-feature-banner::after {
    content: "";
    position: absolute;
    inset: 0;
    background-image:
-      radial-gradient(circle at 0 0, rgba(255,255,255,0.04) 1px, transparent 1px),
-      radial-gradient(circle at 8px 8px, rgba(255,255,255,0.04) 1px, transparent 1px);
+      radial-gradient(circle at 0 0, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      radial-gradient(circle at 8px 8px, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
    background-size: 16px 16px;
    pointer-events: none;
    opacity: 0.5;
    z-index: -1;
 }
+
 .landing-feature-banner .landing-section-title {
    color: #FFFFFF;
    margin-bottom: 1rem;
 }
+
 .landing-feature-banner-content {
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: clamp(2rem, 4vw, 4rem);
    align-items: center;
 }
+
 .landing-feature-banner-video,
 .landing-feature-banner-image {
    position: relative;
 }
+
 .landing-feature-banner-video img,
 .landing-feature-banner-video video,
 .landing-feature-banner-image img {
@@ -307,15 +345,18 @@
    box-shadow: 0 30px 60px -25px rgba(33, 37, 41, 0.4);
    transform: rotate(2deg);
 }
+
 .landing-feature-banner-text {
    font-size: 1.0625rem;
    line-height: 1.65;
 }
+
 .landing-feature-banner-text p {
    color: rgba(255, 255, 255, 0.92);
    margin: 0 0 1.5rem;
    max-width: 30em;
 }
+
 /* Primary CTA button - the site's single button component. Outlined and
    context-aware via four local custom properties (--cta-border /
    --cta-text / --cta-fill-hover / --cta-border-hover); contexts rebind
@@ -347,35 +388,42 @@
    cursor: pointer;
    transition: background var(--transition), border-color var(--transition), color var(--transition), transform var(--transition);
 }
+
 .landing-cta-button:hover {
    background: var(--cta-fill-hover);
    color: var(--cta-text);
    border-color: var(--cta-border-hover);
    transform: translateY(-1px);
 }
+
 .landing-cta-button:active {
    transform: translateY(0);
 }
+
 .landing-cta-button:focus-visible {
    outline: 2px solid var(--cta-border);
    outline-offset: 3px;
 }
+
 .landing-cta-button:disabled {
    opacity: 0.6;
    cursor: not-allowed;
    transform: none;
 }
+
 /* Inline icon (e.g. the NFC reader widget buttons) sized to the label. */
 .landing-cta-button svg {
    width: 1.15em;
    height: 1.15em;
    flex-shrink: 0;
 }
+
 /* Larger size for prominent CTAs. */
 .landing-cta-button.landing-cta-button-large {
    padding: 0.85rem 1.875rem;
    font-size: 1rem;
 }
+
 /* Full-width - used by the stacked /nfc-reader/ widget buttons. */
 .landing-cta-button.landing-cta-button--block {
    width: 100%;
@@ -392,6 +440,7 @@
    --cta-fill-hover: rgba(255, 255, 255, 0.12);
    --cta-border-hover: #FFFFFF;
 }
+
 /* On a dark-mode hero the gradient turns dark - switch to a yellow outline
    for contrast. Deeper selector + placed after the rule above so it wins. */
 [data-theme="dark"] .landing-feature-banner .landing-cta-button,
@@ -419,12 +468,14 @@ a[data-eml] {
    padding: clamp(2.5rem, 5vw, 4rem) 1.5rem;
    background: var(--color-bg);
 }
+
 .landing-slogan img {
    max-width: 380px;
    width: 60%;
    height: auto;
    opacity: 0.9;
 }
+
 [data-theme="dark"] .landing-slogan img {
    filter: invert(1) brightness(1.2);
 }
@@ -436,9 +487,11 @@ a[data-eml] {
    background: var(--color-bg);
    padding: clamp(3.5rem, 7vw, 6rem) 0;
 }
+
 .landing-faq .landing-container {
    max-width: var(--faq-width);
 }
+
 /* ============================================================
    FINAL CTA - bookend with brand-blue gradient
    ============================================================ */
@@ -451,14 +504,16 @@ a[data-eml] {
    overflow: hidden;
    isolation: isolate;
 }
+
 .landing-final-cta::before {
    content: "";
    position: absolute;
    inset: 0;
-   background: radial-gradient(at 50% 0%, rgba(255,255,255,0.15) 0%, transparent 60%);
+   background: radial-gradient(at 50% 0%, rgba(255, 255, 255, 0.15) 0%, transparent 60%);
    pointer-events: none;
    z-index: -1;
 }
+
 .landing-cta-title {
    font-family: var(--font-heading);
    font-size: clamp(2rem, 5vw, 3rem);
@@ -468,6 +523,7 @@ a[data-eml] {
    color: #FFFFFF;
    margin: 0 0 0.875rem;
 }
+
 .landing-cta-title .brand-tail {
    font-size: 0.78em;
    line-height: 0.6;
@@ -475,10 +531,12 @@ a[data-eml] {
    transform: translateY(-0.06em);
    margin-left: -0.05em;
 }
+
 .landing-final-cta .landing-hero-trust {
    justify-content: center;
    margin: 0 0 2rem;
 }
+
 .landing-final-cta .landing-store-buttons {
    justify-content: center;
 }
@@ -504,6 +562,7 @@ a[data-eml] {
    padding: clamp(3.5rem, 7vw, 6rem) 0;
    background: var(--color-bg-alt);
 }
+
 .landing-reviews-grid {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -511,6 +570,7 @@ a[data-eml] {
    max-width: var(--max-width);
    margin: 0 auto;
 }
+
 .landing-review-card {
    background: var(--color-bg-card);
    border: 1px solid var(--color-border);
@@ -522,16 +582,19 @@ a[data-eml] {
    box-shadow: 0 1px 2px var(--color-shadow);
    transition: transform var(--transition), box-shadow var(--transition);
 }
+
 .landing-review-card:hover {
    transform: translateY(-2px);
    box-shadow: 0 8px 24px var(--color-shadow-lg);
 }
+
 .landing-review-stars {
    color: var(--color-accent);
    font-size: 1rem;
    letter-spacing: 0.1em;
    line-height: 1;
 }
+
 .landing-review-quote {
    font-size: 0.9375rem;
    line-height: 1.55;
@@ -541,6 +604,7 @@ a[data-eml] {
    padding: 0;
    font-style: normal;
 }
+
 .landing-review-author {
    display: flex;
    align-items: center;
@@ -550,15 +614,18 @@ a[data-eml] {
    font-size: 0.8125rem;
    color: var(--color-text-muted);
 }
+
 .landing-review-author strong {
    display: block;
    font-weight: 600;
    color: var(--color-text);
    font-size: 0.875rem;
 }
+
 .landing-review-author span {
    display: block;
 }
+
 .landing-review-avatar {
    border-radius: 50%;
    object-fit: cover;
@@ -570,11 +637,13 @@ a[data-eml] {
 .landing-testimonials {
    padding: clamp(3.5rem, 7vw, 6rem) 0;
 }
+
 .landing-testimonials-grid {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
    gap: 1.25rem;
 }
+
 .landing-testimonial-card {
    background: var(--color-bg-card);
    border: 1px solid var(--color-border);
@@ -583,30 +652,36 @@ a[data-eml] {
    box-shadow: 0 1px 2px var(--color-shadow);
    transition: transform var(--transition), box-shadow var(--transition);
 }
+
 .landing-testimonial-card:hover {
    transform: translateY(-2px);
    box-shadow: 0 8px 24px var(--color-shadow-lg);
 }
+
 .landing-testimonial-header {
    display: flex;
    align-items: center;
    gap: 0.75rem;
    margin-bottom: 0.75rem;
 }
+
 .landing-testimonial-avatar {
    border-radius: 50%;
    object-fit: cover;
 }
+
 .landing-testimonial-name {
    font-size: 1rem;
    font-weight: 600;
    margin: 0;
 }
+
 .landing-testimonial-handle {
    font-size: 0.8125rem;
    color: var(--color-text-muted);
    margin: 0;
 }
+
 .landing-testimonial-quote {
    font-size: 0.9375rem;
    line-height: 1.55;
@@ -627,15 +702,20 @@ a[data-eml] {
    .landing-features {
       grid-template-columns: 1fr;
    }
+
    .landing-feature-card {
       padding: 1.75rem 1.25rem 1.25rem;
    }
+
    .landing-feature-num {
       top: 0.5rem;
       right: 1rem;
       font-size: 2rem;
    }
-   .landing-store-button img { height: 48px; }
+
+   .landing-store-button img {
+      height: 48px;
+   }
 }
 
 /* ============================================================
@@ -653,12 +733,14 @@ a[data-eml] {
 .feature-subsections {
    padding: clamp(2.5rem, 6vw, 5rem) 0;
 }
+
 /* Use the section title's own `margin: 0 0 2rem` to control title-to-content gap
    (same as every other feature-page section), and a small sibling margin between
    subsection cards — matches the 1.25rem gap of `.landing-feature-grid`. */
-.feature-subsection + .feature-subsection {
+.feature-subsection+.feature-subsection {
    margin-top: 1.25rem;
 }
+
 .feature-subsection {
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -671,27 +753,33 @@ a[data-eml] {
    box-shadow: 0 1px 2px var(--color-shadow);
    transition: transform var(--transition), box-shadow var(--transition);
 }
+
 .feature-subsection:hover {
    transform: translateY(-2px);
    box-shadow: 0 8px 24px var(--color-shadow-lg);
 }
+
 .feature-subsection--text-only {
    grid-template-columns: 1fr;
 }
+
 .feature-subsection-visual {
    display: flex;
 }
+
 .feature-subsection-visual img {
    width: 100%;
    height: auto;
    border-radius: var(--radius-lg);
 }
+
 .feature-subsection-text {
    /* Grid item: let it shrink below its content's min-content so a wide
       <pre> code block scrolls inside its own overflow-x box instead of
       stretching the grid track (and the page) past the viewport on mobile. */
    min-width: 0;
 }
+
 .feature-subsection-text h3 {
    font-family: var(--font-heading);
    font-weight: 700;
@@ -701,28 +789,35 @@ a[data-eml] {
    color: var(--color-text);
    margin: 0 0 0.85rem;
 }
+
 .feature-subsection-body {
    font-size: 1rem;
    line-height: 1.6;
    color: var(--color-text);
 }
+
 .feature-subsection-body p {
    margin: 0 0 0.85rem;
 }
+
 .feature-subsection-body p:last-child {
    margin-bottom: 0;
 }
+
 .feature-subsection-body strong {
    font-weight: 600;
 }
+
 .feature-subsection-body ul {
    margin: 0 0 0.85rem;
    padding-left: 1.25rem;
 }
+
 .feature-subsection-body li {
    margin: 0 0 0.35rem;
    line-height: 1.55;
 }
+
 .feature-hero-platforms,
 .feature-subsection-platforms {
    display: inline-flex;
@@ -731,7 +826,8 @@ a[data-eml] {
    align-items: center;
    margin: 0.5rem 0 0.85rem;
 }
-.feature-subsection-text h3 + .feature-subsection-platforms {
+
+.feature-subsection-text h3+.feature-subsection-platforms {
    margin-top: 0.5rem;
 }
 
@@ -740,17 +836,20 @@ a[data-eml] {
    padding: clamp(2.5rem, 6vw, 5rem) 0;
    background: var(--color-bg-alt);
 }
+
 .feature-pricing-wrap {
    overflow-x: auto;
    border-radius: var(--radius-lg);
    border: 1px solid var(--color-border);
    background: var(--color-bg-card);
 }
+
 .feature-pricing-table {
    width: 100%;
    border-collapse: collapse;
    font-size: 0.95rem;
 }
+
 .feature-pricing-table thead th {
    font-weight: 600;
    color: var(--color-text);
@@ -759,9 +858,11 @@ a[data-eml] {
    text-align: left;
    border-bottom: 1px solid var(--color-border);
 }
+
 .feature-pricing-table thead th[scope="col"] {
    text-align: center;
 }
+
 .feature-pricing-table tbody th {
    font-weight: 500;
    text-align: left;
@@ -769,6 +870,7 @@ a[data-eml] {
    color: var(--color-text);
    border-bottom: 1px solid var(--color-border);
 }
+
 .feature-pricing-table tbody td {
    padding: 0.75rem 1rem;
    text-align: center;
@@ -776,10 +878,12 @@ a[data-eml] {
    border-bottom: 1px solid var(--color-border);
    vertical-align: middle;
 }
+
 .feature-pricing-table tbody tr:last-child th,
 .feature-pricing-table tbody tr:last-child td {
    border-bottom: 0;
 }
+
 .feature-pricing-pill {
    display: inline-flex;
    align-items: center;
@@ -792,46 +896,55 @@ a[data-eml] {
    font-weight: 600;
    line-height: 1;
 }
+
 .feature-pricing-pill.is-yes {
    background: rgba(46, 160, 67, 0.15);
    color: #1a7f33;
    border: 1px solid rgba(46, 160, 67, 0.55);
 }
+
 .feature-pricing-pill.is-no {
    background: rgba(207, 34, 46, 0.12);
    color: #b81d27;
    border: 1px solid rgba(207, 34, 46, 0.55);
 }
+
 .feature-pricing-pill.is-limited {
    background: rgba(212, 130, 12, 0.15);
    color: #a35408;
    border: 1px solid rgba(212, 130, 12, 0.55);
 }
+
 .feature-pricing-pill.is-na {
    background: var(--color-bg-alt);
    color: var(--color-text-muted);
    border: 1px solid var(--color-border);
 }
+
 .feature-pricing-pill-icon {
    width: 0.85em;
    height: 0.85em;
    display: block;
 }
+
 [data-theme="dark"] .feature-pricing-pill.is-yes {
    background: rgba(63, 185, 80, 0.20);
    color: #56d364;
    border-color: rgba(63, 185, 80, 0.6);
 }
+
 [data-theme="dark"] .feature-pricing-pill.is-no {
    background: rgba(248, 81, 73, 0.20);
    color: #ff7b72;
    border-color: rgba(248, 81, 73, 0.6);
 }
+
 [data-theme="dark"] .feature-pricing-pill.is-limited {
    background: rgba(245, 158, 46, 0.22);
    color: #ffb454;
    border-color: rgba(245, 158, 46, 0.6);
 }
+
 .feature-pricing-text {
    font-size: 0.875rem;
    color: var(--color-text);
@@ -857,6 +970,7 @@ a[data-eml] {
    line-height: 1.55;
    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
+
 .feature-subsection-body pre code,
 .marketing-page pre code {
    color: inherit;
@@ -865,6 +979,7 @@ a[data-eml] {
    font-family: inherit;
    font-size: inherit;
 }
+
 .feature-subsection-body code,
 .marketing-page code {
    background: var(--color-bg-alt);
@@ -890,14 +1005,17 @@ a[data-eml] {
 }
 
 @media (max-width: 760px) {
+
    .feature-subsection,
    .feature-subsection--image-left,
    .feature-subsection--image-right {
       grid-template-columns: 1fr;
    }
+
    .feature-subsection--image-left .feature-subsection-visual {
       order: -1;
    }
+
    .feature-subsection--image-right .feature-subsection-visual {
       order: -1;
    }

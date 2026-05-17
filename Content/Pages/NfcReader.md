@@ -15,7 +15,7 @@ image: "/assets/images/og-landing.webp"
 
 I built this so you can read an NFC tag straight from your browser - no app, no sign-up. Tap *Scan a Tag*, hold your phone to the tag, and its contents appear right away. Switch to the *Write* tab and you can put a link or text onto a tag too. Everything runs on your phone, and nothing you scan ever leaves it.
 
-<div class="nfc-hero-reqs"><span class="platform-pill is-android"><svg class="platform-pill-icon" viewBox="0 0 576 512" aria-hidden="true"><path fill="currentColor" d="M420.55 301.93a24 24 0 1 1 24-24 24 24 0 0 1-24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1-24 24m273.7-144.48l47.94-83a10 10 0 0 0-3.71-13.65 10 10 0 0 0-13.55 3.69l-48.54 84.07c-73.31-33.55-156.72-33.5-230.13 0L132.46 64.46a10 10 0 0 0-17.27 10l47.94 83C81.04 202.22 24.74 285.55 16.5 384h543c-8.24-98.45-64.54-181.78-146.85-226.55"/></svg><span class="platform-pill-label">Chrome on Android</span></span></div>
+<div class="nfc-hero-reqs"><span class="platform-pill is-android"><svg class="platform-pill-icon" viewBox="2 2 20 20" fill="none" aria-hidden="true"><path d="M8.4 3 9.9 5.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M15.6 3 14.1 5.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M5.5 10.4a6.5 6.5 0 0 1 13 0Z" fill="currentColor"/><circle cx="9.6" cy="7.9" r="1" fill="#fff"/><circle cx="14.4" cy="7.9" r="1" fill="#fff"/><rect x="5.6" y="11.3" width="12.8" height="7.3" rx="1.5" fill="currentColor"/><rect x="2.4" y="11.6" width="2.4" height="6" rx="1.2" fill="currentColor"/><rect x="19.2" y="11.6" width="2.4" height="6" rx="1.2" fill="currentColor"/><rect x="7.9" y="18" width="2.4" height="3.9" rx="1.2" fill="currentColor"/><rect x="13.7" y="18" width="2.4" height="3.9" rx="1.2" fill="currentColor"/></svg><span class="platform-pill-label">Chrome on Android</span></span></div>
 
 </div>
 
@@ -34,11 +34,12 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <p class="nfc-reader-title">Read an NFC tag</p>
 <p class="nfc-reader-lead">Tap the button, then hold a tag to the top of your phone. I'll show you what's on it.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>Scan a Tag</span></button>
+<p class="nfc-reader-fineprint">Do you want a native NFC experience with more NFC functions? <a href="/features/nfc-reader-writer/">Get the NFC.cool app!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg></span></div>
-<p class="nfc-reader-title">Hold your tag close</p>
-<p class="nfc-reader-lead">Touch an NFC tag to the top of your phone.</p>
+<p class="nfc-reader-title">Read NFC</p>
+<p class="nfc-reader-lead">Hold your NFC Tag on the top back of your phone.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-cancel><span>Cancel</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="result">
@@ -65,11 +66,6 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <optgroup label="Network">
 <option value="wifi">Wi-Fi network</option>
 <option value="location">Location</option>
-<option value="app">App</option>
-<option value="smartposter">Smart poster</option>
-</optgroup>
-<optgroup label="Utility">
-<option value="erase">Erase tag</option>
 </optgroup>
 </select>
 <div class="nfc-reader-form" data-nfc-form>
@@ -109,25 +105,15 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <option value="open">Open (no password)</option>
 </select>
 </div>
-<div class="nfc-reader-fields" data-nfc-fields="app" hidden>
-<input type="text" class="nfc-reader-input" data-k="pkg" placeholder="App package, e.g. cool.nfc" aria-label="Android app package name"/>
-</div>
-<div class="nfc-reader-fields" data-nfc-fields="smartposter" hidden>
-<input type="url" class="nfc-reader-input" data-k="url" placeholder="https://example.com" aria-label="Smart poster link"/>
-<input type="text" class="nfc-reader-input" data-k="title" placeholder="Title shown on the tag" aria-label="Smart poster title"/>
-</div>
-<div class="nfc-reader-fields" data-nfc-fields="erase" hidden>
-<p class="nfc-reader-lead">This wipes every record off the tag, leaving it blank and ready to reuse.</p>
-</div>
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span data-nfc-write-label>Write to Tag</span></button>
-<p class="nfc-reader-fineprint">Need WPA3 Wi-Fi, payment links or 25+ other record types? The <a href="/features/nfc-reader-writer/">NFC.cool app</a> writes them all.</p>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>Write to Tag</span></button>
+<p class="nfc-reader-fineprint">Do you want a native NFC experience with more NFC functions? <a href="/features/nfc-reader-writer/">Get the NFC.cool app!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg></span></div>
-<p class="nfc-reader-title">Hold your tag close</p>
-<p class="nfc-reader-lead">Touch the tag to your phone to write to it.</p>
+<p class="nfc-reader-title">Write NFC</p>
+<p class="nfc-reader-lead">Hold your NFC Tag on the top back of your phone.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-cancel><span>Cancel</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="written">
@@ -156,12 +142,6 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <p class="nfc-reader-title">This tag is now read-only</p>
 <p class="nfc-reader-lead">It keeps its data and can still be read anywhere - it just can't be rewritten.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>Write Another Tag</span></button>
-</div>
-<div class="nfc-reader-panel" data-panel="erased">
-<span class="nfc-reader-badge is-success"><svg class="nfc-reader-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Tag erased</span>
-<p class="nfc-reader-title">This tag is now blank</p>
-<p class="nfc-reader-lead">Every record was removed. You can write something new to it whenever you like.</p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>Write to a Tag</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="error">
 <span class="nfc-reader-badge is-error">Something went wrong</span>
@@ -331,7 +311,7 @@ There is one more thing no browser can do: run on iPhone at all. Apple blocks NF
 
 <details class="faq-item">
 <summary>Can I write to an NFC tag from the browser?</summary>
-<p>Yes. Switch to the Write tab, pick a type from the dropdown - link, text, phone, email, SMS, location, contact card, Wi-Fi network, app or smart poster - fill in the fields, and hold a tag to your phone. Writing uses the same Web NFC support as reading, so it also needs Chrome on Android. The app handles writing on iPhone.</p>
+<p>Yes. Switch to the Write tab, pick a type from the dropdown - link, text, phone, email, SMS, location, contact card or Wi-Fi network - fill in the fields, and hold a tag to your phone. Writing uses the same Web NFC support as reading, so it also needs Chrome on Android. The app handles writing on iPhone.</p>
 </details>
 
 <details class="faq-item">

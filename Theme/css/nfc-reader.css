@@ -51,8 +51,9 @@
 /* Read / Write tab bar - hidden on the non-interactive panels */
 .nfc-reader-tabs {
    display: flex;
+   order: 1;
    background: var(--color-bg);
-   border-bottom: 1px solid var(--color-border);
+   border-top: 1px solid var(--color-border);
 }
 .nfc-reader[data-state="desktop"] .nfc-reader-tabs,
 .nfc-reader[data-state="ios"] .nfc-reader-tabs,
@@ -61,7 +62,7 @@
    flex: 1;
    padding: 0.85rem 0.5rem;
    border: 0;
-   border-bottom: 2px solid transparent;
+   border-top: 2px solid transparent;
    background: transparent;
    font-family: var(--font-heading);
    font-weight: 600;
@@ -75,7 +76,7 @@
 .nfc-reader[data-mode="read"] .nfc-reader-tab[data-nfc-tab="read"],
 .nfc-reader[data-mode="write"] .nfc-reader-tab[data-nfc-tab="write"] {
    color: var(--color-text);
-   border-bottom-color: var(--color-link);
+   border-top-color: var(--color-link);
 }
 
 /* Screen body - one .nfc-reader-panel visible at a time */
@@ -96,7 +97,6 @@
 .nfc-reader[data-state="written"] [data-panel="written"],
 .nfc-reader[data-state="locking"] [data-panel="locking"],
 .nfc-reader[data-state="locked"] [data-panel="locked"],
-.nfc-reader[data-state="erased"] [data-panel="erased"],
 .nfc-reader[data-state="error"] [data-panel="error"],
 .nfc-reader[data-state="ios"] [data-panel="ios"],
 .nfc-reader[data-state="android-other"] [data-panel="android-other"],
@@ -288,18 +288,31 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
 }
 
 /* Write form - type dropdown + per-type field groups */
+/* Native arrow is dropped (appearance: none) for a custom chevron drawn
+   as a background SVG, so it keeps a comfortable gap from the border. */
 .nfc-reader-select {
    width: 100%;
    margin-top: 1.1rem;
-   padding: 0.6rem 0.85rem;
+   padding: 0.7rem 2.5rem 0.7rem 0.85rem;
    border: 1px solid var(--color-border);
    border-radius: var(--radius);
-   background: var(--color-bg);
+   background-color: var(--color-bg);
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%23686F76' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.5 6 6.5 11 1.5'/%3E%3C/svg%3E");
+   background-repeat: no-repeat;
+   background-position: right 0.9rem center;
    color: var(--color-text);
    font-family: inherit;
    font-size: 0.95rem;
+   line-height: 1.4;
    cursor: pointer;
+   appearance: none;
+   -webkit-appearance: none;
+   transition: border-color var(--transition), box-shadow var(--transition);
 }
+[data-theme="dark"] .nfc-reader-select {
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%238B949E' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.5 6 6.5 11 1.5'/%3E%3C/svg%3E");
+}
+.nfc-reader-select:hover { border-color: var(--color-text-muted); }
 .nfc-reader-select:focus {
    outline: none;
    border-color: var(--color-link);
