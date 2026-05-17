@@ -7,6 +7,8 @@ image: "/assets/images/og-landing.webp"
 
 <script type="application/json" id="nfc-i18n">{"rec.text":"テキスト","rec.link":"リンク","rec.phone":"電話番号","rec.email":"メール","rec.sms":"SMS","rec.location":"位置情報","rec.contact":"連絡先","rec.contactCard":"連絡先カード","rec.wifi":"Wi-Fi","rec.wifiNetwork":"Wi-Fi ネットワーク","rec.smartPoster":"スマートポスター","rec.app":"アプリ","rec.empty":"空","rec.emptyValue":"このレコードにはデータがありません。","rec.data":"データ","rec.generic":"レコード","rec.undecodable":"(デコードできませんでした)","read.unavailable":"利用不可","read.noRecords":"タグは読み取れましたが、レコードはありません。","unit.bytes":"バイト","tech.records":"レコード","tech.total":"ペイロード合計","tech.record":"レコード","tech.type":"タイプ","tech.media":"メディアタイプ","tech.id":"レコード ID","tech.encoding":"エンコーディング","tech.language":"言語","tech.size":"サイズ","tech.note1":"ブラウザではチップのモデル、メモリ容量、ロック状態は確認できません。","tech.appLink":"NFC.cool アプリ","tech.note2":"なら、それらに加えてチップの生メモリまで読み取れます。","summary.contact":"連絡先: ","summary.wifi":"Wi-Fi: ","valid.link":"タグに書き込むリンクを入力してください。","valid.linkInvalid":"有効なリンクではないようです。","valid.text":"タグに書き込むテキストを入力してください。","valid.phone":"電話番号を入力してください。","valid.email":"メールアドレスを入力してください。","valid.latlng":"緯度と経度の両方を入力してください。","valid.latlngNum":"緯度と経度は数値で入力してください。","valid.contact":"連絡先の名前を入力してください。","valid.wifiSsid":"Wi-Fi ネットワーク名を入力してください。","valid.wifiPass":"Wi-Fi のパスワードを入力してください。","err.readingError":"このタグを読み取れませんでした。スマートフォンの上部に平らに当てて、もう一度お試しください。","err.blocked":"NFC へのアクセスがブロックされました。このサイトに NFC を許可してから、もう一度お試しください。","err.notSupported":"このスマートフォンは NFC チップに到達できません。Android の設定で NFC がオンになっているか確認してください。","err.notReadable":"Android が NFC を開けませんでした。NFC がオンになっていることを確認してから、もう一度お試しください。","err.write":"タグに書き込めませんでした。ロックされているか、容量が足りないか、早く離してしまった可能性があります。","err.read":"スキャンが予期せず停止しました。タグをスマートフォンに当てて、もう一度お試しください。"}</script>
 
+<svg style="display:none" aria-hidden="true"><symbol id="nfc-icon-wave" viewBox="0 0 24 24"><path fill="currentColor" d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></symbol><symbol id="nfc-icon-android" viewBox="0 0 24 24" fill="none"><path d="M8.4 3 9.9 5.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M15.6 3 14.1 5.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M5.5 10.4a6.5 6.5 0 0 1 13 0Z" fill="currentColor"/><circle cx="9.6" cy="7.9" r="1" fill="#fff"/><circle cx="14.4" cy="7.9" r="1" fill="#fff"/><rect x="5.6" y="11.3" width="12.8" height="7.3" rx="1.5" fill="currentColor"/><rect x="2.4" y="11.6" width="2.4" height="6" rx="1.2" fill="currentColor"/><rect x="19.2" y="11.6" width="2.4" height="6" rx="1.2" fill="currentColor"/><rect x="7.9" y="18" width="2.4" height="3.9" rx="1.2" fill="currentColor"/><rect x="13.7" y="18" width="2.4" height="3.9" rx="1.2" fill="currentColor"/></symbol><symbol id="nfc-icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17.5 19 7"/></symbol><symbol id="nfc-icon-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol></svg>
+
 <section class="page-hero nfc-reader-hero">
 
 <div class="page-hero-grid">
@@ -32,27 +34,27 @@ image: "/assets/images/og-landing.webp"
 </div>
 <div class="nfc-reader-body">
 <div class="nfc-reader-panel" data-panel="read-ready">
-<span class="nfc-reader-badge"><svg class="nfc-reader-os-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8.4 3 9.9 5.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M15.6 3 14.1 5.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M5.5 10.4a6.5 6.5 0 0 1 13 0Z" fill="currentColor"/><circle cx="9.6" cy="7.9" r="1" fill="#fff"/><circle cx="14.4" cy="7.9" r="1" fill="#fff"/><rect x="5.6" y="11.3" width="12.8" height="7.3" rx="1.5" fill="currentColor"/><rect x="2.4" y="11.6" width="2.4" height="6" rx="1.2" fill="currentColor"/><rect x="19.2" y="11.6" width="2.4" height="6" rx="1.2" fill="currentColor"/><rect x="7.9" y="18" width="2.4" height="3.9" rx="1.2" fill="currentColor"/><rect x="13.7" y="18" width="2.4" height="3.9" rx="1.2" fill="currentColor"/></svg>Android · Chrome</span>
+<span class="nfc-reader-badge"><svg class="nfc-reader-os-icon" aria-hidden="true"><use href="#nfc-icon-android"/></svg>Android · Chrome</span>
 <p class="nfc-reader-title">NFC タグを読み取る</p>
 <p class="nfc-reader-lead">ボタンをタップして、スマートフォンの上部にタグを当ててください。中身を表示します。</p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>タグをスキャン</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>NFC を読み取る</span></button>
 <p class="nfc-reader-fineprint">より多くの NFC 機能を備えたネイティブの NFC 体験をご希望ですか？ <a href="/features/nfc-reader-writer/">NFC.cool アプリを入手！</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
-<div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg></span></div>
+<div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
 <p class="nfc-reader-title">NFC を読み取る</p>
 <p class="nfc-reader-lead">NFC タグをスマートフォンの背面上部に当ててください。</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-cancel><span>キャンセル</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="result">
-<span class="nfc-reader-badge is-success"><svg class="nfc-reader-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>タグを読み取りました</span>
+<span class="nfc-reader-badge is-success"><svg class="nfc-reader-check" aria-hidden="true"><use href="#nfc-icon-check"/></svg>タグを読み取りました</span>
 <ul class="nfc-reader-records" data-nfc-records></ul>
 <div class="nfc-reader-field"><span class="nfc-reader-field-label">シリアル番号</span><span class="nfc-reader-value" data-nfc-serial></span></div>
 <details class="nfc-reader-details"><summary>技術的な詳細</summary><div class="nfc-reader-tech" data-nfc-tech></div></details>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>別のタグをスキャン</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-again><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>NFC を読み取る</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="write-ready">
-<span class="nfc-reader-badge"><svg class="nfc-reader-os-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8.4 3 9.9 5.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M15.6 3 14.1 5.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M5.5 10.4a6.5 6.5 0 0 1 13 0Z" fill="currentColor"/><circle cx="9.6" cy="7.9" r="1" fill="#fff"/><circle cx="14.4" cy="7.9" r="1" fill="#fff"/><rect x="5.6" y="11.3" width="12.8" height="7.3" rx="1.5" fill="currentColor"/><rect x="2.4" y="11.6" width="2.4" height="6" rx="1.2" fill="currentColor"/><rect x="19.2" y="11.6" width="2.4" height="6" rx="1.2" fill="currentColor"/><rect x="7.9" y="18" width="2.4" height="3.9" rx="1.2" fill="currentColor"/><rect x="13.7" y="18" width="2.4" height="3.9" rx="1.2" fill="currentColor"/></svg>Android · Chrome</span>
+<span class="nfc-reader-badge"><svg class="nfc-reader-os-icon" aria-hidden="true"><use href="#nfc-icon-android"/></svg>Android · Chrome</span>
 <p class="nfc-reader-title">NFC タグに書き込む</p>
 <select class="nfc-reader-select" data-nfc-type-select aria-label="タグに書き込む内容">
 <optgroup label="基本">
@@ -109,24 +111,24 @@ image: "/assets/images/og-landing.webp"
 </div>
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>タグに書き込む</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>タグに書き込む</span></button>
 <p class="nfc-reader-fineprint">より多くの NFC 機能を備えたネイティブの NFC 体験をご希望ですか？ <a href="/features/nfc-reader-writer/">NFC.cool アプリを入手！</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
-<div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg></span></div>
+<div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
 <p class="nfc-reader-title">NFC に書き込む</p>
 <p class="nfc-reader-lead">NFC タグをスマートフォンの背面上部に当ててください。</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-cancel><span>キャンセル</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="written">
-<span class="nfc-reader-badge is-success"><svg class="nfc-reader-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>タグに書き込みました</span>
+<span class="nfc-reader-badge is-success"><svg class="nfc-reader-check" aria-hidden="true"><use href="#nfc-icon-check"/></svg>タグに書き込みました</span>
 <div class="nfc-reader-field"><span class="nfc-reader-field-label">タグに書き込んだ内容</span><span class="nfc-reader-value" data-nfc-written></span></div>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>別のタグに書き込む</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>別のタグに書き込む</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="error">
 <span class="nfc-reader-badge is-error">問題が発生しました</span>
 <p class="nfc-reader-lead" data-nfc-error-msg>問題が発生しました。</p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-retry><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>もう一度試す</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-retry><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>もう一度試す</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="ios">
 <span class="nfc-reader-badge is-muted">iPhone</span>
@@ -210,7 +212,7 @@ image: "/assets/images/og-landing.webp"
 </article>
 
 <article class="page-card nfc-feature-card">
-<span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+<span class="nfc-feature-icon"><svg aria-hidden="true"><use href="#nfc-icon-lock"/></svg></span>
 <h3>空のタグやロックされたタグ</h3>
 <p>空のタグはレコードがない状態できれいに読み取れます。書き込む前に新しいタグを確認するのに便利です。ロックされたタグでも、その種類とシリアル番号は表示されます。</p>
 </article>
@@ -228,7 +230,7 @@ image: "/assets/images/og-landing.webp"
 <div class="page-cards-grid">
 
 <article class="page-card nfc-feature-card">
-<span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+<span class="nfc-feature-icon"><svg aria-hidden="true"><use href="#nfc-icon-lock"/></svg></span>
 <h3>タグのロック、フォーマット、保護</h3>
 <p>タグをロックして内容を二度と変更できないようにしたり、空の状態に戻したり、自分の端末だけが書き換えられるようパスワードで保護したりできます。</p>
 </article>
