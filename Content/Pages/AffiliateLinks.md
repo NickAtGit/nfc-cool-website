@@ -13,9 +13,9 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 # Recommended NFC tags
 
-After seven years of shipping NFC apps and reading thousands of support emails, here's what we tell people to buy - what works with iPhone, what works with Android, and what to skip.
+After several years of shipping NFC apps and reading thousands of support emails, here's what I tell people to buy - what works with iPhone, what works with Android, and what to skip.
 
-<a href="#where-to-buy" class="landing-cta-button">Jump to buy links</a>
+<a href="#where-to-buy" class="landing-cta-button">Get NFC Tags</a>
 
 </div>
 
@@ -28,8 +28,6 @@ After seven years of shipping NFC apps and reading thousands of support emails, 
 </section>
 
 <section class="page-section">
-
-<p><strong>Disclosure:</strong> Some links below are Amazon affiliate links - if you buy through them we earn a small commission at no extra cost to you. We only recommend tags we use ourselves with the NFC.cool apps. No sponsorship, no paid placement.</p>
 
 ## Just want the short version?
 
@@ -57,6 +55,8 @@ For 95% of use cases - writing your contact card, automation triggers, URL short
 
 </div>
 
+<p class="affiliate-disclosure"><strong>Disclosure:</strong> The links above are Amazon affiliate links - if you buy through them I earn a small commission at no extra cost to you. I only recommend tags I use myself with the NFC.cool apps. No sponsorship, no paid placement.</p>
+
 </section>
 
 <section class="page-section">
@@ -71,8 +71,8 @@ For 95% of use cases - writing your contact card, automation triggers, URL short
 </article>
 
 <article class="page-card">
-<h3>Form factor: stickers</h3>
-<p>For most uses, 25 mm (1 inch) round stickers are the sweet spot - they fit on the back of phones, books, keys, mugs, and conference badges. PVC-backed stickers conform to curved surfaces; paper-backed ones are flatter and slightly cheaper.</p>
+<h3>Form factor</h3>
+<p>For most uses, 25 mm (1 inch) round stickers are the sweet spot - they fit on the back of phones, books, keys, mugs, and conference badges. Card-format tags are the most reliable, though: a credit-card-sized tag has a much larger antenna coil than a small sticker, so it couples with a phone more easily.</p>
 </article>
 
 <article class="page-card">

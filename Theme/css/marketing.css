@@ -293,6 +293,12 @@
    line-height: 1.65;
 }
 .page-section li { margin: 0.35rem 0; }
+/* Fine-print disclosure footer, e.g. under the affiliate buy-link cards */
+.affiliate-disclosure {
+   margin-top: 1.5rem;
+   font-size: 0.85rem;
+   color: var(--color-text-muted);
+}
 
 /* Tighten the gap between hero and first section */
 .page-hero + .page-section { padding-top: clamp(3rem, 5vw, 4rem); }
