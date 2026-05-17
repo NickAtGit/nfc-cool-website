@@ -2,7 +2,7 @@
 id: nfc-blog-021
 title: "Designing QR codes with flair: customisation without breaking the scan"
 date: 2024-02-16
-tags: [qr-codes, design, branding, qr-studio]
+tags: ["qr-codes", "industry"]
 summary: "QR codes don't have to be ugly black squares. With NFC.cool's QR Studio you can colour them, add a logo, drop an emoji in the middle - as long as you respect one rule: contrast."
 metaTitle: "Designing QR Codes with Flair - NFC.cool QR Studio"
 metaDescription: "Customise QR codes with colour, logos, emojis, and shapes - without breaking the scan. A practical guide to designing QR codes that match your brand."

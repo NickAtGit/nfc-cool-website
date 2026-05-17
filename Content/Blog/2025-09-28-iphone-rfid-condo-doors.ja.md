@@ -2,8 +2,7 @@
 id: "iphone-rfid-2025-09"
 title: "なぜiPhoneでマンションのRFIDドアが開かないのか - NFCとRFIDの違い"
 date: "2025-09-28"
-category: "nfc"
-tags: ["nfc", "rfid", "access-control", "explainer"]
+tags: ["nfc-tags", "automation", "iphone"]
 summary: "受信箱に最もよく届く質問のひとつへの正直な答え。iPhoneのNFCはあなたのマンションのRFIDカードと話せません。しかもAppleはそれを意図しています。"
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/iphone-rfid-doors.webp"

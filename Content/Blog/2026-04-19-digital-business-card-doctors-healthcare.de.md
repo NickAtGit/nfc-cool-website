@@ -2,7 +2,7 @@
 id: nfc-blog-014
 title: "Die digitale Visitenkarte für Ärzte: Warum das Gesundheitswesen auf kontaktlos setzt"
 date: 2026-04-19
-tags: [digital-business-cards, healthcare, doctors, NFC, privacy]
+tags: ["business-cards", "industry", "privacy"]
 summary: "Ärzte jonglieren mit Durchwahlen, Faxnummern und Zuweisungskontakten. Eine digitale Visitenkarte packt alles - immer aktuell - in ein einziges Tap. Hier ist der Grund, warum Ärzte umsteigen."
 image: "/assets/images/Blog/digital-business-card-doctors-healthcare.webp"
 imageAlt: "Arztkontaktkarte wird per Smartphone mit Healthcare- und NFC-Motiven geteilt"

@@ -2,7 +2,7 @@
 id: nfc-blog-004
 title: "デジタル名刺にプライバシーが重要な理由"
 date: 2026-03-23
-tags: [digital-business-cards, privacy, gdpr]
+tags: ["business-cards", "privacy"]
 summary: "あなたのデジタル名刺には名前、メールアドレス、電話番号などが含まれています - しかし、そのデータが実際にどこに行くのか考えたことがない人がほとんどです。プライバシーを最優先にすべき理由を解説します。"
 image: "/assets/images/Blog/why-privacy-matters-digital-business-card.webp"
 imageAlt: "プライバシー設定、盾、NFCモチーフで保護されたデジタル名刺"

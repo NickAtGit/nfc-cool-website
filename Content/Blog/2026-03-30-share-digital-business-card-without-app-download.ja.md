@@ -2,7 +2,7 @@
 id: nfc-blog-012
 title: "アプリをダウンロードさせずにデジタル名刺を共有する方法"
 date: 2026-03-30
-tags: [digital-business-cards, app-clips, networking]
+tags: ["business-cards", "networking", "iphone"]
 summary: "デジタル名刺は、受け取る側にとってもスムーズに機能するべきです。ダウンロード不要、煩わしさゼロ。App Clipとインスタントウェブプロフィールがそれを実現する仕組みを解説します。"
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
 imageAlt: "アプリのダウンロードなしでデジタル名刺を共有する2台のスマートフォン"

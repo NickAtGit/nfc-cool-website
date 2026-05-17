@@ -2,7 +2,7 @@
 id: nfc-blog-027
 title: "NFC.coolがポッドキャストで紹介"
 date: 2024-10-14
-tags: [announcements, podcast, nfc-tools]
+tags: ["announcements"]
 summary: "NFC.coolのアプリ紹介がポッドキャストとして公開されました - 機能リストではなく、アプリの仕組み、NFCとは何か、ブランドの方向性を音声で解説します。"
 metaTitle: "NFC.coolアプリ紹介ポッドキャスト"
 metaDescription: "NFC.coolの音声ウォークスルー - アプリの仕組み、NFCとは、製品の方向性。SoundCloudで利用可能。"

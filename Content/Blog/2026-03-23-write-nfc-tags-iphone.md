@@ -2,7 +2,7 @@
 id: nfc-blog-010
 title: "How to Write NFC Tags with Your iPhone"
 date: 2026-03-23
-tags: [nfc-tech, iphone, automation]
+tags: ["nfc-tags", "guides", "iphone"]
 summary: "Your iPhone can do more than read NFC tags - it can write them too. Here's a step-by-step guide to programming NFC tags with your iPhone, from choosing the right tags to writing URLs, Wi-Fi credentials, contact cards, and automations."
 image: "/assets/images/Blog/write-nfc-tags-iphone.webp"
 imageAlt: "iPhone writing data to blank NFC tags with progress and check icons"

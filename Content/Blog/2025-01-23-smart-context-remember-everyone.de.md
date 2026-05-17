@@ -2,7 +2,7 @@
 id: nfc-blog-028
 title: "Ich kann mir niemanden merken, den ich kennenlerne. Also habe ich das in die Visitenkarten-App gebaut."
 date: 2025-01-23
-tags: [business-card, networking, smart-context, ios]
+tags: ["business-cards", "networking", "iphone"]
 summary: "Nach genug Konferenzen und Networking-Events wurde mir klar, dass digitale Visitenkarten das falsche Problem gelöst hatten. Sie haben Bäume gerettet, aber nicht den Kontext. Also habe ich einen Smart-Context-Layer zu NFC.cool Business Card hinzugefügt - wo ihr euch getroffen habt, woran sie arbeiten, was nachzuhalten ist."
 metaTitle: "Smart Context: Das Memory-Upgrade für digitale Visitenkarten"
 metaDescription: "Digitale Visitenkarten lösen Papier. Sie lösen nicht, dass man Leute vergisst. NFC.cool Business Cards Smart-Context-Layer hält wo, wann und warum fest - synchronisiert mit deinem Kalender."

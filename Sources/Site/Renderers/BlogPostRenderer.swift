@@ -60,7 +60,7 @@ struct BlogPostRenderer: Renderer {
       let relatedTitle = Self.localized(.related, locale: locale)
 
       let tagsHTML = page.tags.map { tag in
-         "<a class=\"blog-post-tag\" href=\"\(context.router.tagPath(for: tag))\">\(tag.htmlEscaped)</a>"
+         "<a class=\"blog-post-tag\" href=\"\(context.router.tagPath(for: tag))\">\(TagListingRenderer.displayName(for: tag, locale: locale).htmlEscaped)</a>"
       }.joined()
 
       let heroVisual: PageHeroVisual = {
@@ -128,7 +128,6 @@ struct BlogPostRenderer: Renderer {
          imageAlt: page.imageAlt ?? page.title,
          articleDate: page.date,
          articleAuthor: page.author,
-         articleCategory: page.category,
          jsonLD: jsonLD,
          hreflang: helper.buildHreflangForAllLanguages { $0.pagePath(for: page, in: section.config) }
       )

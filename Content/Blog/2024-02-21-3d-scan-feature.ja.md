@@ -2,7 +2,7 @@
 id: nfc-blog-025
 title: "iPhoneでの3Dスキャン：フォトグラメトリーとLiDARでポケットに収まる"
 date: 2024-02-21
-tags: [3d-scanning, lidar, photogrammetry, ios, nfc-tools]
+tags: ["guides", "iphone"]
 summary: "NFC.cool ToolsはAppleのObject Capture APIを使ってiPhoneを3Dスキャナーに変えます。フォトグラメトリーとLiDARで、.stl、.obj、.usdzにエクスポート可能なモデルを生成 - 3Dプリント、AR、あらゆるモデリングパイプラインに対応。"
 metaTitle: "NFC.cool ToolsでiPhone 3Dスキャン"
 metaDescription: "NFC.cool Toolsの3Dスキャナーの仕組み - フォトグラメトリー、LiDAR、AppleのObject Capture API。3DプリントとAR向けに.stl、.obj、.ply、.usdzにエクスポート。"

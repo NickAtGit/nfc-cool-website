@@ -2,7 +2,7 @@
 id: nfc-blog-027
 title: "NFC.cool im Podcast-Format"
 date: 2024-10-14
-tags: [announcements, podcast, nfc-tools]
+tags: ["announcements"]
 summary: "Eine NFC.cool-App-Präsentation ist jetzt als Podcast verfügbar - ein Audio-Walkthrough, wie die App funktioniert, was NFC unter der Haube wirklich ist und wohin die Marke geht."
 metaTitle: "NFC.cool App-Präsentation Podcast"
 metaDescription: "Ein Audio-Walkthrough von NFC.cool - wie die App funktioniert, was NFC ist, wohin das Produkt geht. Auf SoundCloud verfügbar."

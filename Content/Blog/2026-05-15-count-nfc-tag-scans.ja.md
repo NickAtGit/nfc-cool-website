@@ -2,8 +2,7 @@
 id: "count-nfc-tag-scans-2026-05"
 title: "サーバーなしでNFCタグのスキャン回数を数える方法"
 date: "2026-05-15"
-category: "nfc"
-tags: ["nfc", "nfc-tags", "nfc-tech", "guides"]
+tags: ["nfc-tags", "guides"]
 summary: "同じURLを50枚のNFCステッカーに貼ると、どれがタップされたかわかりません - タグ自身が数えていない限りは。その方法を紹介します。"
 image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 imageAlt: "スマートフォンでタップされるNFCタグと、その横で増えていくスキャン回数"

@@ -2,7 +2,7 @@
 id: nfc-blog-015
 title: "Philips SonicareブラシヘッドのカウンターをNFCで確認・リセットする方法"
 date: 2026-04-21
-tags: [nfc-tech, sonicare, guides]
+tags: ["nfc-tags", "guides", "automation"]
 summary: "Sonicareの電動歯ブラシは、すべてのブラシヘッドの中にNFCチップを内蔵し、交換購入を促すまでカウントダウンしています。実際に何を記録しているのか、そしてNFC.cool Toolsで使用状況を確認してカウンターをリセットする方法を解説します。"
 image: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
 imageAlt: "スマートフォンでリセットされる電動歯ブラシヘッドのNFCタグ"

@@ -2,7 +2,7 @@
 id: nfc-blog-013
 title: "Warum vCard-NFC-Tags auf dem iPhone nicht funktionieren (und was wirklich geht)"
 date: 2026-04-16
-tags: [nfc, iphone, vcard, digital-business-cards, troubleshooting]
+tags: ["nfc-tags", "business-cards", "guides", "iphone"]
 summary: "Deine vCard-NFC-Visitenkarte funktioniert auf Android, aber nicht auf dem iPhone? Hier ist, warum iOS vCard-Daten ignoriert - und die einfache Lösung, die auf jedem Handy funktioniert."
 image: "/assets/images/Blog/vcard-nfc-iphone-not-working.webp"
 imageAlt: "iPhone behebt Probleme mit einer vCard-NFC-Visitenkarte anhand von Schritten"

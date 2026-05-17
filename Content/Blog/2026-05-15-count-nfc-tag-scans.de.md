@@ -2,8 +2,7 @@
 id: "count-nfc-tag-scans-2026-05"
 title: "NFC-Tag-Scans zählen - ganz ohne Server"
 date: "2026-05-15"
-category: "nfc"
-tags: ["nfc", "nfc-tags", "nfc-tech", "guides"]
+tags: ["nfc-tags", "guides"]
 summary: "Klebe dieselbe URL auf 50 NFC-Sticker und du weißt nicht, welcher angetippt wurde - es sei denn, der Tag zählt selbst mit. So geht's."
 image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 imageAlt: "Ein NFC-Tag wird von einem Smartphone angetippt, daneben eine steigende Scan-Zählung"

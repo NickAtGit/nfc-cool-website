@@ -2,8 +2,7 @@
 id: "namedrop-vs-nfc-2024-05"
 title: "NameDropの美しさと、それでもNFC名刺が勝る理由"
 date: "2024-05-02"
-category: "business-card"
-tags: ["namedrop", "business-card", "ios", "cross-platform"]
+tags: ["business-cards", "iphone", "networking"]
 summary: "NameDropは美しい。けれどiOS専用です。本気のネットワーキングでNFC名刺がクロスプラットフォームの王者であり続ける理由を解説します。"
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/namedrop.webp"

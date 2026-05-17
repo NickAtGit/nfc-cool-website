@@ -2,8 +2,7 @@
 id: "iphone-rfid-2025-09"
 title: "Warum öffnet mein iPhone die RFID-Tür meines Apartments nicht? NFC vs. RFID erklärt"
 date: "2025-09-28"
-category: "nfc"
-tags: ["nfc", "rfid", "access-control", "explainer"]
+tags: ["nfc-tags", "automation", "iphone"]
 summary: "Die ehrliche Antwort auf eine der häufigsten Fragen in unserem Posteingang: Das NFC deines iPhones kann nicht mit der RFID-Karte deines Apartments sprechen - und Apple will das so."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/iphone-rfid-doors.webp"

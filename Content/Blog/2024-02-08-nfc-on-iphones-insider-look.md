@@ -2,7 +2,7 @@
 id: nfc-blog-020
 title: "Tapping into NFC on iPhone: an insider's look"
 date: 2024-02-08
-tags: [nfc-tech, iphone, apple-pay, nfc-tags]
+tags: ["nfc-tags", "iphone"]
 summary: "How NFC actually works on iPhone - from Apple Pay's secure element to Core NFC tag reading. A practical look at the protocol, the iOS history, and why the short range is a feature, not a limitation."
 metaTitle: "How NFC Works on iPhone: An Insider's Look"
 metaDescription: "A practical explanation of NFC on iPhone - how the protocol works, Apple Pay's secure element, Core NFC tag reading, and why short range is a security feature."

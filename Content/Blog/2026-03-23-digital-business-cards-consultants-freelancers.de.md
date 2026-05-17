@@ -2,7 +2,7 @@
 id: nfc-blog-006
 title: "Digitale Visitenkarten für Berater & Freelancer: Warum sie dein bestes Networking-Investment sind"
 date: 2026-03-23
-tags: [digital-business-cards, consultants, freelancers]
+tags: ["business-cards", "industry"]
 summary: "Als Freelancer oder unabhängiger Berater ist deine persönliche Marke dein Business. Hier ist, wie digitale Visitenkarten die einzigartigen Networking-Herausforderungen der Selbstständigkeit lösen - von mehreren Rollen bis zum Kunden-Eindruck auf Budget."
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
 imageAlt: "Beraterarbeitsplatz mit digitalen Visitenkarten und NFC-Freigabe"

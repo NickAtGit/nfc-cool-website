@@ -2,7 +2,7 @@
 id: nfc-blog-023
 title: "NFC.coolがPlayストアに登場"
 date: 2024-04-05
-tags: [announcements, android, nfc-tools, business-card]
+tags: ["announcements", "android", "nfc-tags"]
 summary: "NFC.cool ToolsがGoogle Playで公開されました。NFCスキャン、タグの書き込み、同梱のNFC.cool Business Card - Androidでも、Android互換ハードウェアを共有する部分はiOSアプリと同じ機能セット。"
 metaTitle: "NFC.cool Tools - Google Playで公開"
 metaDescription: "NFC.cool ToolsがAndroidで利用可能に。NFCスキャン、タグの書き込み、同梱のNFC.cool Business Card - 同じブランド、同じ機能セット、Androidで。"

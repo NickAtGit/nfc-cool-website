@@ -2,7 +2,7 @@
 id: nfc-blog-026
 title: "Die NFC.cool Digitale Visitenkarte einrichten"
 date: 2024-04-06
-tags: [business-card, nfc-tags, setup-guide, nfc-tools]
+tags: ["business-cards", "guides"]
 summary: "Schritt für Schritt durch das Setup deiner NFC.cool Digitalen Visitenkarte: Kontakt anlegen, öffentliche Felder wählen, auf NFC-Tag schreiben und teilen. Plus warum eine editierbare URL die bessere Wahl ist als ein eingefrorener vCard-QR."
 metaTitle: "NFC.cool Digitale Visitenkarte einrichten - Anleitung"
 metaDescription: "Schritt-für-Schritt-Einrichtung der NFC.cool Digitalen Visitenkarte - bauen, auf NFC schreiben, teilen. Warum eine editierbare URL einen eingefrorenen vCard schlägt."

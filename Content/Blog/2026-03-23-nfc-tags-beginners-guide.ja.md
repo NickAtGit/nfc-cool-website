@@ -2,7 +2,7 @@
 id: nfc-blog-009
 title: "NFCタグ完全ガイド：初心者向けの基礎知識"
 date: 2026-03-23
-tags: [nfc-tech, nfc-tags, smart-home, automation]
+tags: ["nfc-tags", "guides", "automation"]
 summary: "NFCタグは電源不要の小さなチップで、スマホをかざすだけでさまざまなアクションを実行できます。NFCタグとは何か、仕組み、種類と選び方、15以上の実用的な使い方を解説します。"
 image: "/assets/images/Blog/nfc-tags-beginners-guide.webp"
 imageAlt: "初心者向けワークフローアイコンとスマートフォン、複数のNFCタグ"

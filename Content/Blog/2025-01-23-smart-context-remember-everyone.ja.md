@@ -2,7 +2,7 @@
 id: nfc-blog-028
 title: "出会った人を覚えられない。だから名刺アプリにこの機能を入れた。"
 date: 2025-01-23
-tags: [business-card, networking, smart-context, ios]
+tags: ["business-cards", "networking", "iphone"]
 summary: "十分な数のカンファレンスとネットワーキングイベントを経て、デジタル名刺は間違った問題を解いていたと気づきました。紙は救えても、コンテクストは救えない。だからNFC.cool BusinessCardにSmart Contextレイヤーを追加しました - どこで会ったか、何に取り組んでいるか、何をフォローアップすべきか。"
 metaTitle: "Smart Context：デジタル名刺の記憶アップグレード"
 metaDescription: "デジタル名刺は紙の問題を解決します。しかし人を忘れる問題は解決しません。NFC.cool Business CardのSmart Contextレイヤーは、どこで、いつ、なぜを記録し、カレンダーと同期します。"

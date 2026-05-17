@@ -2,7 +2,7 @@
 id: nfc-blog-014
 title: "医師のデジタル名刺：医療従事者がコンタクトレスに切り替える理由"
 date: 2026-04-19
-tags: [digital-business-cards, healthcare, doctors, NFC, privacy]
+tags: ["business-cards", "industry", "privacy"]
 summary: "医師は科の電話番号、FAX番号、紹介窓口の連絡先を使い分けています。デジタル名刺なら、そのすべてを常に最新の状態でワンタップで共有できます。医療従事者が切り替える理由をご紹介します。"
 image: "/assets/images/Blog/digital-business-card-doctors-healthcare.webp"
 imageAlt: "医療とNFCのモチーフとともにスマートフォンで共有される医師の連絡先カード"

@@ -2,8 +2,7 @@
 id: "count-nfc-tag-scans-2026-05"
 title: "How to Count NFC Tag Scans Without a Server"
 date: "2026-05-15"
-category: "nfc"
-tags: ["nfc", "nfc-tags", "nfc-tech", "guides"]
+tags: ["nfc-tags", "guides"]
 summary: "Put the same URL on 50 NFC stickers and you can't tell which one was tapped - unless the tag counts itself. Here's how."
 image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 imageAlt: "An NFC tag being tapped by a phone, with a rising scan-count number beside it"

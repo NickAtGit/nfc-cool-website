@@ -2,7 +2,7 @@
 id: nfc-blog-020
 title: "iPhoneのNFCを深掘り：内部の仕組み"
 date: 2024-02-08
-tags: [nfc-tech, iphone, apple-pay, nfc-tags]
+tags: ["nfc-tags", "iphone"]
 summary: "iPhoneでNFCが実際どう動いているのか - Apple PayのSecure ElementからCore NFCのタグ読み取りまで。プロトコル、iOSの歴史、そして短距離通信が制限ではなく機能である理由を解説します。"
 metaTitle: "iPhoneでNFCはどう動くのか：内部の仕組み"
 metaDescription: "iPhoneのNFCの実践的な解説 - プロトコルの仕組み、Apple PayのSecure Element、Core NFCのタグ読み取り、短距離通信がセキュリティ機能である理由。"

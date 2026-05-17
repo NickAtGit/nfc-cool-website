@@ -2,7 +2,7 @@
 id: nfc-blog-021
 title: "個性あるQRコードをデザインする：スキャンを壊さないカスタマイズ"
 date: 2024-02-16
-tags: [qr-codes, design, branding, qr-studio]
+tags: ["qr-codes", "industry"]
 summary: "QRコードは醜い黒い四角である必要はありません。NFC.coolのQR Studioを使えば、色を付けたり、ロゴを足したり、真ん中に絵文字を入れたりできます。守るべきルールはひとつだけ - コントラストです。"
 metaTitle: "個性あるQRコードをデザインする - NFC.cool QR Studio"
 metaDescription: "色、ロゴ、絵文字、形でQRコードをカスタマイズ - スキャンを壊さずに。ブランドに合うQRコードを作るための実践ガイド。"

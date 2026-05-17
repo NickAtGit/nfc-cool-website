@@ -2,7 +2,7 @@
 id: nfc-blog-024
 title: "Dokumente scannen aus der Hosentasche mit NFC.cool Tools"
 date: 2024-02-20
-tags: [document-scanning, ocr, ios, nfc-tools]
+tags: ["guides", "iphone"]
 summary: "Ein praktischer Guide zu NFC.cools Dokumenten-Scanner: Wie du scharfe Scans aufnimmst, warum der Post-Processing-Schritt wichtig ist und wie OCR den Scan in durchsuchbaren Text und PDFs verwandelt."
 metaTitle: "Dokumenten-Scan mit NFC.cool Tools - Ein praktischer Guide"
 metaDescription: "Wie du Dokumente mit NFC.cool Tools scannst - aufnehmen, nachbearbeiten, OCR laufen lassen und als durchsuchbare PDFs exportieren. Mit Tipps zu Licht und Kantenerkennung."

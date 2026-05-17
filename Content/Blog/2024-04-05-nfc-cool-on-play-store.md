@@ -2,7 +2,7 @@
 id: nfc-blog-023
 title: "NFC.cool is now on the Play Store"
 date: 2024-04-05
-tags: [announcements, android, nfc-tools, business-card]
+tags: ["announcements", "android", "nfc-tags"]
 summary: "NFC.cool Tools is live on Google Play. NFC scanning, tag writing, and the bundled NFC.cool Business Card - now on Android, with the same feature set as the iOS app for the parts that share Android-compatible hardware."
 metaTitle: "NFC.cool Tools - Now Live on Google Play"
 metaDescription: "NFC.cool Tools is available on Android. NFC scanning, tag writing, and the bundled NFC.cool Business Card - same brand, same feature set, on Android."

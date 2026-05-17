@@ -2,7 +2,7 @@
 id: nfc-blog-024
 title: "Pocket-ready document scanning with NFC.cool Tools"
 date: 2024-02-20
-tags: [document-scanning, ocr, ios, nfc-tools]
+tags: ["guides", "iphone"]
 summary: "A practical guide to NFC.cool's document scanner: how to capture sharp scans, why the post-processing step matters, and how OCR turns the scan into searchable text and PDFs."
 metaTitle: "Document Scanning with NFC.cool Tools - A Practical Guide"
 metaDescription: "How to scan documents with NFC.cool Tools - capture, post-process, run OCR, and export as searchable PDFs. With tips on lighting and corner detection."

@@ -8,7 +8,6 @@ import SiteKit
          .replacing(SectionListingRenderer.self, with: BlogIndexRenderer())
          .replacing(ArticlePageRenderer.self, with: BlogPostRenderer())
          .replacing(StaticPageRenderer.self, with: MarketingPageRenderer())
-         .replacing(SiteKit.CategoryListingRenderer.self, with: CategoryListingRenderer())
          .replacing(SiteKit.TagListingRenderer.self, with: TagListingRenderer())
          .replacing(SiteKit.RobotsTxtRenderer.self, with: RobotsTxtRenderer())
          // Default sitemap adapter is blind to the custom feature renderers —

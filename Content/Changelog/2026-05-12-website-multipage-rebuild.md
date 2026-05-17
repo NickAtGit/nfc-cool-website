@@ -2,8 +2,7 @@
 id: "site-2026-05-12"
 title: "Website: trilingual relaunch, new pages, full design pass"
 date: "2026-05-12"
-category: "website"
-tags: ["website", "trilingual", "design"]
+tags: ["announcements"]
 summary: "Migrated the marketing site off Webflow onto SiteKit. Three languages (EN/DE/JA), 5 feature subpages, blog, changelog, integrations + developers docs, and a fully unified design system."
 author: "Nicolo Stanciu"
 ---

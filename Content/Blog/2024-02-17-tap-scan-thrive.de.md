@@ -2,7 +2,7 @@
 id: nfc-blog-022
 title: "Tap, Scan, Thrive: Was QR-Codes jenseits einer URL transportieren können"
 date: 2024-02-17
-tags: [qr-codes, wifi, vcard, business-card]
+tags: ["qr-codes", "business-cards"]
 summary: "QR-Codes sind nicht nur für URLs. Sie können WLAN-Zugangsdaten, Kalendereinträge, Standorte, vCards, Klartext transportieren - alles, was du kodieren kannst. Hier ist das volle Menü dessen, was NFC.cools QR-Generator und -Scanner können."
 metaTitle: "Was QR-Codes transportieren können: Mehr als nur URLs"
 metaDescription: "QR-Codes können WLAN-Zugangsdaten, Kontakte, Kalendereinträge, Standorte und mehr kodieren - nicht nur URLs. Ein praktischer Guide zu jedem QR-Payload-Typ."

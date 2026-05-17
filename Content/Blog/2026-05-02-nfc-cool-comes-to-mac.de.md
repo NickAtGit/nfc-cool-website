@@ -2,7 +2,7 @@
 id: nfc-blog-015
 title: "NFC.cool kommt auf den Mac - Deine gesamte Scan-Bibliothek auf jedem Bildschirm"
 date: 2026-05-02
-tags: [nfc, mac, ipad, icloud, qr-code, barcode]
+tags: ["announcements", "iphone", "qr-codes"]
 summary: "Die NFC.cool iOS- und iPadOS-App ist jetzt auch auf dem Mac verfügbar. Durchsuche deine gescannten NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle und Raumscans - alles synchronisiert über iCloud. Plus: Nutze deine Mac-Kamera als QR- und Barcode-Scanner."
 image: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
 imageAlt: "Mac und iPhone zeigen NFC.cool App-Ansichten für NFC- und QR-Workflows"

@@ -2,8 +2,7 @@
 id: "namedrop-vs-nfc-2024-05"
 title: "NameDrops Eleganz und der bleibende Vorteil von NFC-Visitenkarten"
 date: "2024-05-02"
-category: "business-card"
-tags: ["namedrop", "business-card", "ios", "cross-platform"]
+tags: ["business-cards", "iphone", "networking"]
 summary: "NameDrop ist wunderschön - aber nur für iOS. Warum NFC-Visitenkarten beim ernsthaften Networking die plattformübergreifende Wahl bleiben."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/namedrop.webp"

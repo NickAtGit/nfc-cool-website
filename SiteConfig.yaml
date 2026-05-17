@@ -14,22 +14,9 @@ outputDirectory: "_Site"
 assetsDirectory: "Content/Assets"
 redirectsFile: "redirects.yaml"
 
-categories:
-  - name: "NFC"
-    slug: "nfc"
-    description: "Articles about NFC tags, NDEF records, and tap interactions."
-  - name: "QR & Barcode"
-    slug: "qr-barcode"
-    description: "Articles about QR codes, barcode formats, and the QR Code Studio."
-  - name: "Document"
-    slug: "document"
-    description: "Articles about document scanning, OCR, and PDFs."
-  - name: "3D Scan"
-    slug: "3d-scan"
-    description: "Articles about photogrammetry, LiDAR, and 3D model export."
-  - name: "Business Card"
-    slug: "business-card"
-    description: "Articles about NFC.cool Business Card and digital networking."
+# Blog posts use tags as their single taxonomy - no categories. SiteKit
+# requires the key to be present, so it is held as an empty list.
+categories: []
 
 sections:
   - name: "NFC.cool Blog"

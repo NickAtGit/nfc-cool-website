@@ -2,7 +2,7 @@
 id: nfc-blog-011
 title: "OpenPrintTag: Smarte 3D-Druck-Spulen mit dem Handy lesen & beschreiben"
 date: 2026-03-29
-tags: [nfc-tech, 3d-printing, openprinttag]
+tags: ["nfc-tags", "automation"]
 summary: "OpenPrintTag ist der offene Standard für smarte Filament-Spulen. Lerne, wie es funktioniert, welche Daten es speichert und wie du OpenPrintTag-NFC-Tags mit nur deinem Handy lesen und beschreiben kannst."
 image: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
 imageAlt: "3D-Druck-Spule mit NFC-Tag wird per Smartphone gelesen"

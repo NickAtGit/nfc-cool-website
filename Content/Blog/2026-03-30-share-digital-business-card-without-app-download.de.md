@@ -2,7 +2,7 @@
 id: nfc-blog-012
 title: "Deine digitale Visitenkarte teilen, ohne dass jemand eine App herunterladen muss"
 date: 2026-03-30
-tags: [digital-business-cards, app-clips, networking]
+tags: ["business-cards", "networking", "iphone"]
 summary: "Deine digitale Visitenkarte sollte für den Empfänger sofort funktionieren - keine Downloads, keine Reibung. Hier ist, wie App Clips und instant Web-Profile das möglich machen."
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
 imageAlt: "Zwei Smartphones teilen eine digitale Visitenkarte ohne App-Download"

@@ -2,7 +2,7 @@
 id: nfc-blog-024
 title: "ポケットで使えるドキュメントスキャン - NFC.cool Tools実践ガイド"
 date: 2024-02-20
-tags: [document-scanning, ocr, ios, nfc-tools]
+tags: ["guides", "iphone"]
 summary: "NFC.coolのドキュメントスキャナーの実践ガイド：シャープなスキャンを撮るコツ、後処理ステップが重要な理由、OCRが検索可能なテキストとPDFにスキャンを変える方法。"
 metaTitle: "NFC.cool Toolsでのドキュメントスキャン - 実践ガイド"
 metaDescription: "NFC.cool Toolsでドキュメントをスキャンする方法 - 撮影、後処理、OCR実行、検索可能PDFへのエクスポート。照明とコーナー検出のコツも。"

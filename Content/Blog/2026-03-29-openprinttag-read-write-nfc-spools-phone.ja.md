@@ -2,7 +2,7 @@
 id: nfc-blog-011
 title: "OpenPrintTag：スマホで3Dプリンターのスマートスプールを読み書きする方法"
 date: 2026-03-29
-tags: [nfc-tech, 3d-printing, openprinttag]
+tags: ["nfc-tags", "automation"]
 summary: "OpenPrintTagは3Dプリンター用フィラメントスプールのオープン規格です。仕組み、保存できるデータ、スマートフォンでの読み書き方法を解説します。"
 image: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
 imageAlt: "スマートフォンで読み取られるNFCタグ付き3Dプリント用スプール"

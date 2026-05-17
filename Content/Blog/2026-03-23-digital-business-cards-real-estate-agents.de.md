@@ -2,7 +2,7 @@
 id: nfc-blog-005
 title: "Digitale Visitenkarten für Immobilienmakler: Der komplette Guide"
 date: 2026-03-23
-tags: [digital-business-cards, real-estate, networking]
+tags: ["business-cards", "industry", "networking"]
 summary: "Immobilienmakler verlieren täglich Leads an Papierkarten und veraltete Infos. Hier ist, wie digitale Visitenkarten die größten Networking-Probleme in der Immobilienbranche lösen - von Open Houses bis internationale Kunden."
 image: "/assets/images/Blog/digital-business-cards-real-estate-agents.webp"
 imageAlt: "Digitale Immobilien-Visitenkarte wird per Smartphone mit Haus- und Schlüsselmotive geteilt"

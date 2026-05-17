@@ -2,7 +2,7 @@
 id: nfc-blog-026
 title: "NFC.coolデジタル名刺のセットアップ"
 date: 2024-04-06
-tags: [business-card, nfc-tags, setup-guide, nfc-tools]
+tags: ["business-cards", "guides"]
 summary: "NFC.coolデジタル名刺のセットアップ手順：連絡先を作成し、公開する項目を選び、NFCタグに書き込み、共有する。本格的なネットワーキングには、編集可能なURLが固定vCard QRに勝る理由も解説。"
 metaTitle: "NFC.coolデジタル名刺のセットアップ方法"
 metaDescription: "NFC.coolデジタル名刺のステップバイステップ・セットアップ - 作成、NFCへ書き込み、共有。編集可能なURLが固定vCardに勝る理由。"

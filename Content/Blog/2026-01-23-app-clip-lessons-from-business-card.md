@@ -2,8 +2,7 @@
 id: "app-clip-lessons-2026-01"
 title: "Building a great App Clip experience: lessons from NFC.cool Business Card"
 date: "2026-01-23"
-category: "business-card"
-tags: ["app-clip", "ios", "conference-talk", "business-card"]
+tags: ["business-cards", "networking", "iphone"]
 summary: "Recap of the mDevCamp 2025 talk in Prague about the architecture behind NFC.cool Business Card's App Clip flow."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/app-clip-mdevcamp.webp"

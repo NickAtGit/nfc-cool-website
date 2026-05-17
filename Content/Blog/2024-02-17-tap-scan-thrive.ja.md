@@ -2,7 +2,7 @@
 id: nfc-blog-022
 title: "タップ、スキャン、その先へ：QRコードがURL以外に運べるもの"
 date: 2024-02-17
-tags: [qr-codes, wifi, vcard, business-card]
+tags: ["qr-codes", "business-cards"]
 summary: "QRコードはURL専用ではありません。Wi-Fi認証情報、カレンダーイベント、位置情報、vCard、プレーンテキスト - エンコードできるものなら何でも運べます。NFC.coolのQRジェネレーターとスキャナーで何ができるか、フルメニューを解説します。"
 metaTitle: "QRコードが運べるもの：URL以外の選択肢"
 metaDescription: "QRコードはWi-Fi認証情報、連絡先、カレンダー、位置情報などをエンコード可能 - URLだけではありません。各QRペイロードタイプの実用ガイド。"

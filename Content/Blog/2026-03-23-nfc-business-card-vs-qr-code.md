@@ -2,7 +2,7 @@
 id: nfc-blog-003
 title: "NFC Business Card vs QR Code: Which Is Better for Networking?"
 date: 2026-03-23
-tags: [digital-business-cards, comparison, qr-code]
+tags: ["business-cards", "qr-codes", "networking"]
 summary: "NFC tap or QR code scan - which is the better way to share your contact info? We break down speed, compatibility, cost, and real-world use cases to help you decide."
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"
 imageAlt: "NFC card and QR code scanning comparison with phones and check marks"

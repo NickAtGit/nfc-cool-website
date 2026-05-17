@@ -2,7 +2,7 @@
 id: nfc-blog-008
 title: "EUデジタル製品パスポート：2026年に知っておくべきこと"
 date: 2026-03-23
-tags: [nfc-tech, eu-regulation, supply-chain]
+tags: ["nfc-tags", "automation"]
 summary: "EUデジタル製品パスポートが始まりました - バッテリーはすでに対象で、テキスタイルと電子機器が次に控えています。DPPがビジネス、消費者にとって何を意味し、NFCテクノロジーがなぜその中心にあるのかを解説します。"
 image: "/assets/images/Blog/eu-digital-product-passport-2026.webp"
 imageAlt: "NFCタグ付きデジタル製品パスポートのためにスマートフォンでスキャンされる製品パッケージ"

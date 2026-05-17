@@ -2,8 +2,7 @@
 id: "nfc-tag-types-2025-05"
 title: "Understanding the different types of NFC tags - and which work with iPhones"
 date: "2025-05-20"
-category: "nfc"
-tags: ["nfc", "tag-types", "ntag", "buying-guide"]
+tags: ["nfc-tags", "guides", "iphone"]
 summary: "Type 1 through Type 5, who makes them, and why NTAG-series (Type 2) is the safest bet for iPhone projects."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/nfc-tag-types.webp"

@@ -2,8 +2,7 @@
 id: "iphone-rfid-2025-09"
 title: "Why can't my iPhone open my condo's RFID door? Understanding NFC vs RFID"
 date: "2025-09-28"
-category: "nfc"
-tags: ["nfc", "rfid", "access-control", "explainer"]
+tags: ["nfc-tags", "automation", "iphone"]
 summary: "The honest answer to one of the most common questions in our inbox: your iPhone's NFC can't talk to your condo's RFID card, and Apple's intentional about that."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/iphone-rfid-doors.webp"

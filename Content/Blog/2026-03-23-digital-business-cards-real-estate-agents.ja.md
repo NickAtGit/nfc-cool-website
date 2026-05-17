@@ -2,7 +2,7 @@
 id: nfc-blog-005
 title: "不動産エージェントのためのデジタル名刺：完全ガイド"
 date: 2026-03-23
-tags: [digital-business-cards, real-estate, networking]
+tags: ["business-cards", "industry", "networking"]
 summary: "不動産エージェントは毎日、紙の名刺と古い情報のせいでリードを失っています。オープンハウスから海外のクライアント対応まで、不動産業界の最大のネットワーキング課題をデジタル名刺がどう解決するかをご紹介します。"
 image: "/assets/images/Blog/digital-business-cards-real-estate-agents.webp"
 imageAlt: "家と鍵のモチーフとともにスマートフォンで共有される不動産向けデジタル名刺"

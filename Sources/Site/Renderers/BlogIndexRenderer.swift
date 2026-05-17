@@ -67,7 +67,7 @@ struct BlogIndexRenderer: Renderer {
          let dateText = page.date.map { dateFormatter.string(from: $0) } ?? ""
          let summary = (page.summary ?? "").htmlEscaped
          let tags = page.tags.prefix(3).map { tag in
-            "<span class=\"blog-card-tag\">\(tag.htmlEscaped)</span>"
+            "<span class=\"blog-card-tag\">\(TagListingRenderer.displayName(for: tag, locale: locale).htmlEscaped)</span>"
          }.joined()
          let imageHTML: String = {
             if let img = page.image {
@@ -86,7 +86,7 @@ struct BlogIndexRenderer: Renderer {
          <a class="blog-card" href="\(href)">
             \(imageHTML)
             <div class="blog-card-body">
-               <p class="blog-card-meta">\(dateText.htmlEscaped)\(page.category.isEmpty ? "" : " · \(page.category.htmlEscaped)")</p>
+               <p class="blog-card-meta">\(dateText.htmlEscaped)</p>
                <h3 class="blog-card-title">\(page.title.htmlEscaped)</h3>
                \(summary.isEmpty ? "" : "<p class=\"blog-card-summary\">\(summary)</p>")
                \(tags.isEmpty ? "" : "<div class=\"blog-card-tags\">\(tags)</div>")

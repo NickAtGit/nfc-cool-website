@@ -2,7 +2,7 @@
 id: nfc-blog-welcome
 title: "NFC.coolブログへようこそ"
 date: 2026-03-23
-tags: [announcement]
+tags: ["announcements"]
 summary: "NFC.coolブログがスタートしました。NFCのガイド、デジタル名刺の比較、業界インサイトをまとめた拠点 - 2019年から何百万人ものユーザーにNFCアプリを届けてきたチームが運営しています。"
 image: "/assets/images/Blog/welcome-to-the-nfc-cool-blog.webp"
 imageAlt: "スマートフォン、NFCカード、タグ、QRモチーフを含むNFC.coolブログのコラージュ"

@@ -2,8 +2,7 @@
 id: "nfc-safe-2026-05"
 title: "NFC Safe: 耐久性のあるNFCタグに暗号化されたシークレットを保存する"
 date: "2026-05-03"
-category: "nfc"
-tags: ["nfc", "security", "encryption", "privacy"]
+tags: ["nfc-tags", "privacy"]
 summary: "エポキシ加工のNFCタグに256-bit AES。紙は燃える。クラウドは落ちる。NFCタグは違います。"
 image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
 imageAlt: "暗号化されたNFCシークレットを表すスマートフォン、NFCカード、盾、鍵"

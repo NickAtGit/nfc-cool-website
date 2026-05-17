@@ -151,6 +151,51 @@
 }
 
 /* ============================================================
+   Tag pages (/tags/, /tags/{slug}/)
+   Per-tag pages reuse .blog-index-hero + .blog-card-grid;
+   only the index chip grid and hero back link are new.
+   ============================================================ */
+.tag-index-list {
+   list-style: none;
+   margin: 0 auto;
+   padding: 0;
+   max-width: var(--max-width);
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.625rem;
+   justify-content: center;
+}
+.tag-index-chip {
+   display: inline-flex;
+   align-items: center;
+   gap: 0.5rem;
+   padding: 0.5rem 0.6rem 0.5rem 1rem;
+   border-radius: var(--radius-pill);
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   color: var(--color-text);
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 0.9375rem;
+   box-shadow: 0 1px 2px var(--color-shadow);
+   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+.tag-index-chip:hover {
+   transform: translateY(-2px);
+   box-shadow: 0 10px 24px var(--color-shadow-lg);
+   border-color: var(--color-accent);
+   color: var(--color-text);
+}
+.tag-index-count {
+   font-size: 0.75rem;
+   font-weight: 700;
+   padding: 0.1rem 0.5rem;
+   border-radius: var(--radius-pill);
+   background: var(--color-bg-alt);
+   color: var(--color-text-muted);
+}
+
+/* ============================================================
    Blog post (/blog/{slug}/, /changelog/{slug}/) -
    gradient hero + reading column + related
    ============================================================ */
@@ -162,19 +207,22 @@
 @media (max-width: 900px) {
    .blog-post-hero .blog-post-tags { justify-content: center; }
 }
-.blog-post-back {
+.blog-post-back,
+.tag-page-back {
    margin: 0 0 0.75rem;
    font-size: 0.8125rem;
    font-weight: 600;
    letter-spacing: 0.04em;
 }
-.blog-post-back a {
+.blog-post-back a,
+.tag-page-back a {
    color: rgba(255, 255, 255, 0.82);
    text-decoration: none;
    border-bottom: 1px solid transparent;
    transition: color var(--transition), border-color var(--transition);
 }
-.blog-post-back a:hover {
+.blog-post-back a:hover,
+.tag-page-back a:hover {
    color: #FFFFFF;
    border-bottom-color: var(--color-accent);
 }

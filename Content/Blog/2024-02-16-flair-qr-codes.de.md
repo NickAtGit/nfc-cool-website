@@ -2,7 +2,7 @@
 id: nfc-blog-021
 title: "QR-Codes mit Stil: Anpassung, ohne den Scan zu killen"
 date: 2024-02-16
-tags: [qr-codes, design, branding, qr-studio]
+tags: ["qr-codes", "industry"]
 summary: "QR-Codes müssen keine hässlichen schwarzen Quadrate sein. Mit NFC.cools QR Studio kannst du sie färben, ein Logo hinzufügen, ein Emoji in die Mitte setzen - solange du eine Regel respektierst: Kontrast."
 metaTitle: "QR-Codes mit Stil designen - NFC.cool QR Studio"
 metaDescription: "QR-Codes mit Farbe, Logos, Emojis und Formen anpassen - ohne den Scan zu brechen. Ein praktischer Guide für QR-Codes, die zu deiner Marke passen."

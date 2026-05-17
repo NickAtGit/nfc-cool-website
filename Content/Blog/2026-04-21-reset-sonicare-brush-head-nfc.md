@@ -2,7 +2,7 @@
 id: nfc-blog-015
 title: "How to Check and Reset Your Philips Sonicare Brush Head Counter with NFC"
 date: 2026-04-21
-tags: [nfc-tech, sonicare, guides]
+tags: ["nfc-tags", "guides", "automation"]
 summary: "Your Sonicare toothbrush has an NFC chip inside every brush head that counts down until you buy a replacement. Here's what it actually tracks, and how to check your usage or reset the counter with NFC.cool Tools."
 image: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
 imageAlt: "Electric toothbrush head NFC tag being reset with a phone"

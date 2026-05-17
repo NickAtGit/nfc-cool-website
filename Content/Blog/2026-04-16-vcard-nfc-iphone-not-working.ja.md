@@ -2,7 +2,7 @@
 id: nfc-blog-013
 title: "vCard NFCタグがiPhoneで動かない理由（と、実際に動く方法）"
 date: 2026-04-16
-tags: [nfc, iphone, vcard, digital-business-cards, troubleshooting]
+tags: ["nfc-tags", "business-cards", "guides", "iphone"]
 summary: "vCard NFC名刺がAndroidでは動くのにiPhoneでは動かない？iOSがvCardデータを無視する理由と、すべてのスマホで動くシンプルな解決策をご紹介します。"
 image: "/assets/images/Blog/vcard-nfc-iphone-not-working.webp"
 imageAlt: "vCard NFC名刺の問題を手順で解決するiPhone"

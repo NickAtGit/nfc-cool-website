@@ -2,7 +2,7 @@
 id: nfc-blog-020
 title: "NFC auf dem iPhone: Ein Blick hinter die Kulissen"
 date: 2024-02-08
-tags: [nfc-tech, iphone, apple-pay, nfc-tags]
+tags: ["nfc-tags", "iphone"]
 summary: "Wie NFC auf dem iPhone tatsächlich funktioniert - von Apple Pays Secure Element bis zu Core NFC. Ein praktischer Blick auf das Protokoll, die iOS-Geschichte und warum die kurze Reichweite ein Feature ist, kein Bug."
 metaTitle: "Wie NFC auf dem iPhone funktioniert: Ein Blick hinter die Kulissen"
 metaDescription: "Eine praktische Erklärung von NFC auf dem iPhone - wie das Protokoll funktioniert, Apple Pays Secure Element, Core NFC Tag-Lesung und warum kurze Reichweite ein Sicherheitsfeature ist."

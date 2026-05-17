@@ -2,7 +2,7 @@
 id: nfc-blog-028
 title: "I can't remember anyone I meet. So I built this into the business card app."
 date: 2025-01-23
-tags: [business-card, networking, smart-context, ios]
+tags: ["business-cards", "networking", "iphone"]
 summary: "After enough conferences and networking events, I realised digital business cards solved the wrong problem. They saved trees but not the context. So I added a Smart Context layer to NFC.cool Business Card - where you met, what they're working on, what to follow up on."
 metaTitle: "Smart Context: The Memory Upgrade for Digital Business Cards"
 metaDescription: "Digital business cards solve paper. They don't solve forgetting people. NFC.cool Business Card's Smart Context layer captures where, when, and why - synced to your calendar."

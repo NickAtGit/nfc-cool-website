@@ -2,7 +2,7 @@
 id: nfc-blog-006
 title: "コンサルタント＆フリーランサーのためのデジタル名刺：最高のネットワーキング投資"
 date: 2026-03-23
-tags: [digital-business-cards, consultants, freelancers]
+tags: ["business-cards", "industry"]
 summary: "フリーランサーや独立コンサルタントにとって、パーソナルブランドはビジネスそのものです。複数の役割の使い分けから、限られた予算でクライアントに好印象を与える方法まで、デジタル名刺が独立プロフェッショナルならではのネットワーキング課題をどう解決するかをご紹介します。"
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
 imageAlt: "デジタル名刺パネルとNFC共有を示すコンサルタントの作業環境"

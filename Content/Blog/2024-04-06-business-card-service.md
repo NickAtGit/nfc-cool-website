@@ -2,7 +2,7 @@
 id: nfc-blog-026
 title: "Setting up the NFC.cool digital business card"
 date: 2024-04-06
-tags: [business-card, nfc-tags, setup-guide, nfc-tools]
+tags: ["business-cards", "guides"]
 summary: "A walkthrough of setting up your NFC.cool digital business card: build the contact, pick what's public, write to an NFC tag, and share. Plus why a single editable URL beats a one-shot vCard QR for serious networking."
 metaTitle: "How to Set Up Your NFC.cool Digital Business Card"
 metaDescription: "Step-by-step setup of the NFC.cool digital business card - build it, write to NFC, share. Why an editable URL beats a frozen vCard."
