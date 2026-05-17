@@ -8,6 +8,113 @@ localization:
   languages: ["de", "ja"]
   translationMode: "manual"
   legalLanguage: "de"
+  # Localized nav + footer labels. URLs stay locale-agnostic; SiteKit prefixes
+  # /de/ and /ja/ automatically. Logo falls back to the default navigation.
+  localeOverrides:
+    de:
+      navigation:
+        items:
+          - title: "Start"
+            url: "/"
+          - title: "Funktionen"
+            url: "/features/"
+          - title: "Visitenkarte"
+            url: "/business-card/"
+          - title: "NFC-Tags kaufen"
+            url: "/affiliate-links/"
+          - title: "Online NFC Reader"
+            url: "/online-nfc-reader/"
+          - title: "Blog"
+            url: "/blog/"
+          - title: "Support & Kontakt"
+            url: "/contact/"
+        showSearch: false
+        showThemeToggle: true
+      footer:
+        copyrightName: "NFC.cool"
+        startYear: 2017
+        showAttribution: false
+        links:
+          - title: "Funktionen"
+            url: "/features/"
+          - title: "Online NFC Reader"
+            url: "/online-nfc-reader/"
+          - title: "Visitenkarte"
+            url: "/business-card/"
+          - title: "NFC-Tags"
+            url: "/affiliate-links/"
+          - title: "Entwickler"
+            url: "/developers/"
+          - title: "Bewertungen"
+            url: "/reviews/"
+          - title: "Über uns"
+            url: "/about/"
+          - title: "Changelog"
+            url: "/changelog/"
+          - title: "Blog"
+            url: "/blog/"
+          - title: "Support & Kontakt"
+            url: "/contact/"
+          - title: "Presse"
+            url: "/press/"
+          - title: "Datenschutz"
+            url: "/privacy/"
+          - title: "AGB"
+            url: "/terms/"
+          - title: "Beschwerdebuch"
+            url: "https://www.livroreclamacoes.pt/Inicio/"
+    ja:
+      navigation:
+        items:
+          - title: "ホーム"
+            url: "/"
+          - title: "機能"
+            url: "/features/"
+          - title: "名刺"
+            url: "/business-card/"
+          - title: "NFC タグを購入"
+            url: "/affiliate-links/"
+          - title: "オンライン NFC リーダー"
+            url: "/online-nfc-reader/"
+          - title: "ブログ"
+            url: "/blog/"
+          - title: "サポート & お問い合わせ"
+            url: "/contact/"
+        showSearch: false
+        showThemeToggle: true
+      footer:
+        copyrightName: "NFC.cool"
+        startYear: 2017
+        showAttribution: false
+        links:
+          - title: "機能"
+            url: "/features/"
+          - title: "オンライン NFC リーダー"
+            url: "/online-nfc-reader/"
+          - title: "名刺"
+            url: "/business-card/"
+          - title: "NFC タグ"
+            url: "/affiliate-links/"
+          - title: "開発者"
+            url: "/developers/"
+          - title: "レビュー"
+            url: "/reviews/"
+          - title: "概要"
+            url: "/about/"
+          - title: "変更履歴"
+            url: "/changelog/"
+          - title: "ブログ"
+            url: "/blog/"
+          - title: "サポート & お問い合わせ"
+            url: "/contact/"
+          - title: "プレス"
+            url: "/press/"
+          - title: "プライバシー"
+            url: "/privacy/"
+          - title: "利用規約"
+            url: "/terms/"
+          - title: "苦情記録簿"
+            url: "https://www.livroreclamacoes.pt/Inicio/"
 
 contentDirectory: "Content"
 outputDirectory: "_Site"
