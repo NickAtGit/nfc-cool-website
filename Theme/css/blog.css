@@ -204,9 +204,6 @@
 }
 .blog-post-hero .blog-post-meta { margin: 0; }
 .blog-post-hero .blog-post-tags { justify-content: flex-start; }
-@media (max-width: 900px) {
-   .blog-post-hero .blog-post-tags { justify-content: center; }
-}
 .blog-post-back,
 .tag-page-back {
    margin: 0 0 0.75rem;

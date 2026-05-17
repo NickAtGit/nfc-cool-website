@@ -6,6 +6,7 @@ tags: ["business-cards", "industry", "guides"]
 summary: "Paper business cards fail every profession, but they fail each one differently. A practical guide to digital business cards for real estate agents, healthcare professionals, and consultants - what to share, what to look for, and how to choose an app."
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
 imageAlt: "A professional sharing a digital business card from a phone"
+author: "Nicolo Stanciu"
 metaTitle: "Digital Business Cards by Profession: 2026 Guide"
 metaDescription: "How real estate agents, doctors, and consultants use digital business cards - the pain points paper creates for each profession, what to put on your card, and how to choose an NFC business card app."
 ogTitle: "Digital Business Cards by Profession"

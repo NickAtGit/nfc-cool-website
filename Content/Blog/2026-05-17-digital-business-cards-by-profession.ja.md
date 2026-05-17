@@ -6,6 +6,7 @@ tags: ["business-cards", "industry", "guides"]
 summary: "紙の名刺はどの職業でも通用しませんが、その理由は職業ごとに異なります。不動産エージェント、医療従事者、コンサルタント向けに、何を共有し、何に注目し、どのアプリを選ぶべきかを解説する実践的なガイドです。"
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
 imageAlt: "スマートフォンからデジタル名刺を共有するプロフェッショナル"
+author: "Nicolo Stanciu"
 metaTitle: "職業別デジタル名刺ガイド（2026年版）"
 metaDescription: "不動産エージェント、医師、コンサルタントがデジタル名刺をどう活用するか。紙が各職業に生む問題、名刺に載せるべき情報、NFC名刺アプリの選び方を解説します。"
 ogTitle: "職業別デジタル名刺ガイド"

@@ -6,6 +6,7 @@ tags: ["business-cards", "industry", "guides"]
 summary: "Papier-Visitenkarten versagen in jedem Beruf - aber jeweils anders. Ein praktischer Leitfaden zu digitalen Visitenkarten für Immobilienmakler, medizinisches Fachpersonal und Berater: was du teilst, worauf du achtest und wie du eine App auswählst."
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
 imageAlt: "Eine Fachkraft teilt eine digitale Visitenkarte vom Smartphone"
+author: "Nicolo Stanciu"
 metaTitle: "Digitale Visitenkarten nach Beruf: Guide 2026"
 metaDescription: "Wie Immobilienmakler, Ärzte und Berater digitale Visitenkarten nutzen - welche Probleme Papier in jedem Beruf schafft, was auf die Karte gehört und wie du eine NFC-Visitenkarten-App auswählst."
 ogTitle: "Digitale Visitenkarten nach Beruf"
