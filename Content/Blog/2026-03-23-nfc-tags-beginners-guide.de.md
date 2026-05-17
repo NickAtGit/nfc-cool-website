@@ -153,7 +153,7 @@ Was beim Scannen passiert, hängt von den Daten ab:
 - **App Clip** - startet einen App Clip, falls vorhanden
 - **Benutzerdefinierte Daten** - öffnet die zugehörige App
 
-Wenn du nur sehen willst, was gerade auf einem Tag steht, kannst du auf Android auch [NFC-Tags direkt aus dem Browser lesen](/de/nfc-reader/) - ohne Installation.
+Wenn du nur sehen willst, was gerade auf einem Tag steht, kannst du auf Android auch [NFC-Tags direkt aus dem Browser lesen](/de/online-nfc-reader/) - ohne Installation.
 
 ### Auf Android
 

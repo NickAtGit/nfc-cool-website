@@ -63,6 +63,6 @@ The main thing iPhones do with NFC is read NFC Data Exchange Format (NDEF) messa
 
 If you're shopping for NFC tags to use with your iPhone, my honest recommendation is simple: Type 2 tags from the NTAG series by NXP Semiconductors. They're cost-effective and they give you the best compatibility and functionality for what most people actually want to do with NFC on iPhones. Buy a pack of NTAG215 stickers and you'll be set for almost anything.
 
-NFC keeps evolving, so it's worth keeping half an eye on new developments and tag specifications. For more, see my earlier post on [tapping into the magic of NFC on iPhones](/blog/nfc-on-iphones-insider-look/), and if you just want to see what's already on a tag, you can [read NFC tags right from your browser](/nfc-reader/).
+NFC keeps evolving, so it's worth keeping half an eye on new developments and tag specifications. For more, see my earlier post on [tapping into the magic of NFC on iPhones](/blog/nfc-on-iphones-insider-look/), and if you just want to see what's already on a tag, you can [read NFC tags right from your browser](/online-nfc-reader/).
 
 Happy tagging!

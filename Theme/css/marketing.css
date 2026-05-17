@@ -523,31 +523,6 @@
    justify-content: center;
    margin-top: 2rem;
 }
-.tap-cta-button {
-   display: inline-flex;
-   align-items: center;
-   padding: 0.85rem 1.7rem;
-   border-radius: var(--radius);
-   font-weight: 600;
-   font-size: 1rem;
-   text-decoration: none;
-   border: 1px solid transparent;
-   transition: transform var(--transition), background var(--transition), border-color var(--transition);
-}
-.tap-cta-button.is-primary {
-   background: #FFFFFF;
-   color: #212529;
-}
-.tap-cta-button.is-secondary {
-   background: rgba(255, 255, 255, 0.08);
-   border-color: rgba(255, 255, 255, 0.45);
-   color: #FFFFFF;
-}
-.tap-cta-button:hover { transform: translateY(-2px); }
-.tap-cta-button.is-secondary:hover {
-   background: rgba(255, 255, 255, 0.16);
-   border-color: #FFFFFF;
-}
 
 /* ============================================================
    Online NFC Reader + Writer - /nfc-reader/. The #nfc-reader-app
@@ -697,59 +672,35 @@
    color: var(--color-text-secondary);
 }
 
-/* Primary call-to-action - the scan button */
-.nfc-reader-btn {
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   gap: 0.55rem;
-   width: 100%;
-   margin-top: 1.5rem;
-   padding: 0.9rem 1.25rem;
-   border: 0;
-   border-radius: var(--radius);
-   background: var(--color-accent);
-   color: #1A1A1A;
-   font-family: var(--font-heading);
-   font-weight: 700;
-   font-size: 1.0625rem;
-   cursor: pointer;
-   transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
-   box-shadow: 0 10px 22px -10px rgba(255, 199, 9, 0.75);
+/* Widget actions use the unified .landing-cta-button. The phone card is
+   nested inside .page-hero, so override the hero's white treatment back to
+   the normal blue/yellow; the lock action keeps a red (danger) outline.
+   Selector depth + load order win over the dark-hero rule in landing.css. */
+.nfc-reader .nfc-phone .landing-cta-button {
+   --cta-border: var(--color-link);
+   --cta-text: var(--color-link);
+   --cta-fill-hover: var(--color-link-light);
+   --cta-border-hover: var(--color-link-hover);
 }
-.nfc-reader-btn:hover {
-   background: var(--color-accent-hover);
-   transform: translateY(-2px);
-   box-shadow: 0 14px 28px -10px rgba(255, 199, 9, 0.85);
+.nfc-reader .nfc-phone .landing-cta-button--danger {
+   --cta-border: #C0303C;
+   --cta-text: #C0303C;
+   --cta-fill-hover: rgba(192, 48, 60, 0.10);
+   --cta-border-hover: #C0303C;
 }
-.nfc-reader-btn:active { transform: translateY(0); }
-.nfc-reader-btn .nfc-reader-wave-icon { width: 1.2em; height: 1.2em; }
-.nfc-reader-btn .nfc-reader-lock-icon { width: 1.15em; height: 1.15em; }
-.nfc-reader-btn.is-secondary {
-   background: transparent;
-   color: var(--color-text);
-   border: 1px solid var(--color-border);
-   box-shadow: none;
-   font-size: 1rem;
+[data-theme="dark"] .nfc-reader .nfc-phone .landing-cta-button--danger {
+   --cta-border: #E8888C;
+   --cta-text: #E8888C;
+   --cta-fill-hover: rgba(232, 136, 140, 0.14);
+   --cta-border-hover: #E8888C;
 }
-.nfc-reader-btn.is-secondary:hover {
-   background: var(--color-bg);
-   border-color: var(--color-text-muted);
-}
-/* Destructive variant - the irreversible "Lock Tag" confirm button */
-.nfc-reader-btn.is-danger {
-   background: #D64545;
-   color: #FFFFFF;
-   box-shadow: 0 10px 22px -10px rgba(214, 69, 69, 0.7);
-}
-.nfc-reader-btn.is-danger:hover { background: #C0303C; }
-/* Two buttons side by side (Cancel | Lock Tag) */
+/* Panel buttons get breathing room above; the two-up confirm row sits flush. */
+.nfc-reader-body .landing-cta-button { margin-top: 1.5rem; }
 .nfc-reader-btn-row {
    display: flex;
    gap: 0.6rem;
 }
-.nfc-reader-btn-row .nfc-reader-btn {
-   width: auto;
+.nfc-reader-btn-row .landing-cta-button {
    flex: 1;
    margin-top: 0;
 }
@@ -918,9 +869,9 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
 .nfc-reader-input-error:empty { display: none; }
 
 /* Written state - lock action + its irreversible confirm step */
-.nfc-reader-panel [data-nfc-lock-start-wrap] .nfc-reader-btn { margin-top: 1.1rem; }
+.nfc-reader-panel [data-nfc-lock-start-wrap] .landing-cta-button { margin-top: 1.1rem; }
 .nfc-reader-lock-confirm { margin-top: 1.1rem; }
-.nfc-reader-lock-confirm .nfc-reader-btn { margin-top: 0; }
+.nfc-reader-lock-confirm .landing-cta-button { margin-top: 0; }
 .nfc-reader-panel [data-nfc-write-again] { margin-top: 0.7rem; }
 .nfc-reader-warn {
    margin: 0 0 0.7rem;

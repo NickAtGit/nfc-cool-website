@@ -58,7 +58,7 @@ Das Modell ist dasselbe. Das Format entscheidet nur, welches downstream-Tool es 
 
 ## Was du mit dem Ergebnis machen kannst
 
-Die spannendsten Anwendungen, die wir von Nutzern gesehen haben:
+Die spannendsten Anwendungen, die ich von Nutzern gesehen habe:
 
 - **3D-Druck einer Einzelstück-Replik.** Scanne ein gefundenes Objekt, slice, druck.
 - **Dokumentation eines realen Assets.** Nachlassdokumentation, Museumskatalogisierung, "wie sieht Omas Vase eigentlich aus".

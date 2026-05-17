@@ -10,7 +10,7 @@ ogTitle: "NFC.cool im Podcast-Format"
 ogDescription: "Ein Audio-Walkthrough von NFC.cool - wie die App funktioniert und wohin es geht."
 image: "/assets/images/Blog/nfc-cool-podcast.webp"
 ---
-Wir haben eine kurze Präsentation von NFC.cool als Podcast aufgenommen - ein Audio-Walkthrough statt einer getippten Feature-Liste. Sie deckt ab, was NFC eigentlich ist, wo es im Alltags-Tech-Stack sitzt und wie NFC.cool daraus etwas macht, das du jemandem mit einem Tippen geben kannst.
+Ich habe eine kurze Präsentation von NFC.cool als Podcast aufgenommen - ein Audio-Walkthrough statt einer getippten Feature-Liste. Sie deckt ab, was NFC eigentlich ist, wo es im Alltags-Tech-Stack sitzt und wie NFC.cool daraus etwas macht, das du jemandem mit einem Tippen geben kannst.
 
 Wenn du dich je gefragt hast, was der Unterschied zwischen Apple-Pay-NFC und dem zufälligen NFC-Sticker an einem Museumsexponat ist, dann packt die Folge genau das aus - mit konkreten Beispielen, nicht Whitepaper-Jargon.
 
@@ -22,8 +22,8 @@ Themen in der Folge:
 - Wo NFC.cool Tools zwischen OS und Hardware sitzt
 - Die Cross-Platform-Plumbing hinter der NFC.cool Business Card (App Clip auf iOS, Web auf Android)
 - Die Roadmap: Was kommt als Nächstes auf iPhone, Android, Mac
-- Praktische NFC-Anwendungsfälle, die wir immer wieder in freier Wildbahn sehen
+- Praktische NFC-Anwendungsfälle, die ich immer wieder in freier Wildbahn sehe
 
-Ein guter Hörgenuss, wenn du Audio Dokumentation vorziehst, oder wenn du pendelst und einen 20-Minuten-Primer zu dem willst, was wir bauen.
+Ein guter Hörgenuss, wenn du Audio Dokumentation vorziehst, oder wenn du pendelst und einen 20-Minuten-Primer zu dem willst, was ich baue.
 
 Wenn der Podcast dich überzeugt, die App zu probieren: [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-podcast-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-podcast-de).

@@ -1,6 +1,6 @@
 ---
 id: "namedrop-vs-nfc-2024-05"
-title: "NameDrops Eleganz und der bleibende Vorteil von NFC-Visitenkarten"
+title: "NameDrop vs. NFC-Visitenkarten: Warum plattformübergreifend immer noch gewinnt"
 date: "2024-05-02"
 tags: ["business-cards", "iphone", "networking"]
 summary: "NameDrop ist wunderschön - aber nur für iOS. Warum NFC-Visitenkarten beim ernsthaften Networking die plattformübergreifende Wahl bleiben."
@@ -9,12 +9,16 @@ image: "/assets/images/Blog/namedrop.webp"
 imageAlt: "Zwei iPhones tauschen Kontaktdaten neben einer NFC-Visitenkarte aus"
 ---
 
-Apples Einführung von NameDrop mit iOS 17 ist ein klares Bekenntnis zu Eleganz und Funktionalität gleichermaßen. Mit seinen geschmeidigen Animationen und dem befriedigenden haptischen Feedback verwandelt das Feature die alltägliche Aufgabe, Kontaktdaten zu teilen, in ein kleines Erlebnis. NameDrop hat einen unbestreitbaren Charme - die Art, wie ein Kontakt zwischen zwei Geräten übertragen wird, hat genau die Feinheit, die man von Apples Designsprache erwartet.
+Als NameDrop mit iOS 17 kam, haben mir ein paar Leute dieselbe Frage gestellt: Macht das die NFC-Visitenkarte überflüssig? Ich entwickle eine App für digitale Visitenkarten, also war das eine berechtigte Frage an mich - und sie hat mich nicht gestört, denn NameDrop ist wirklich schön gemacht.
 
-Unter dieser polierten Oberfläche steckt aber eine deutliche Einschränkung: NameDrop ist nur für iOS. Und das ist in unserer vielfältigen digitalen Welt relevant, in der Networking herstellerübergreifend stattfindet. Genau hier liegt der Knackpunkt - so brillant NameDrop bei Einfachheit und Ästhetik ist, so sehr fehlt ihm die Cross-Platform-Unterstützung, die moderne berufliche Interaktion oft verlangt.
+Du hältst zwei iPhones nah aneinander, eine kleine Animation spielt ab, ein sanftes haptisches Feedback klopft kurz an, und ein Kontakt wandert von einem Telefon zum anderen. Genau diese Art von feinem kleinem Detail kann Apple gut. Ich habe es oft benutzt. Es funktioniert, und es fühlt sich gut an.
 
-Und genau hier kommen NFC-Visitenkarten ins Spiel: eine plattformübergreifende Lösung, die auf offenen Standards aufbaut. Anders als NameDrop mit seinem proprietären Ansatz funktionieren diese Karten ohne Umwege auf iOS und Android. Dieser universelle Zugang ist in einer vernetzten Welt entscheidend - dein digitaler Händedruck reicht so weit wie möglich, unabhängig von Marke oder Betriebssystem.
+Aber ich habe genug Leuten dabei zugesehen, wie sie in der echten Welt Kontaktdaten austauschen wollten, um zu wissen, wo es nicht mehr reicht.
 
-Fazit: NameDrop überzeugt mit Design und User Experience, NFC-Visitenkarten stehen für umfassendes, inklusives digitales Networking. Sie erreichen ein breiteres Publikum und sind damit die robustere Wahl für alle, die sich durch das komplexe Netz moderner Kommunikation bewegen.
+NameDrop ist iPhone zu iPhone. Mehr ist es nicht. In dem Moment, in dem die Person dir gegenüber ein Android-Telefon in der Hand hält - und weltweit ist das bei den meisten Menschen der Fall -, hat die elegante Animation nichts, womit sie sich verbinden könnte. Auf einer Konferenz, beim Kundenessen, bei einer Wohnungsbesichtigung suchst du dir nicht aus, was die andere Person dabei hat. Eine Methode, Kontaktdaten zu teilen, die nur funktioniert, wenn beide Seiten zufällig das richtige Telefon besitzen, ist eigentlich keine Methode. Es ist ein glücklicher Zufall.
+
+Einer NFC-Visitenkarte ist es egal, was das andere Telefon ist. Sie läuft über den offenen NFC-Standard, den iOS und Android seit Jahren lesen. Die andere Person tippt sie an oder scannt den QR-Code, und deine Daten landen auf ihrem Telefon - egal ob das ein iPhone ist oder nicht, und egal ob irgendeine App installiert ist. Keine Geste, die man lernen muss, kein Feature, das man einschalten muss, kein Betriebssystem, das passen muss.
+
+Das ist der unspektakuläre Grund, warum ich immer noch auf NFC statt auf NameDrop setze. NameDrop optimiert den besten Fall: zwei iPhone-Nutzer, beide mit aktiviertem Feature, beide kennen die Geste. NFC optimiert den Fall, der auf einem Event tatsächlich eintritt - zwei Menschen, zwei Telefone und keine gemeinsamen Annahmen über das eine oder das andere. NameDrop ist die bessere Demo. NFC ist die bessere Visitenkarte.
 
 Lust auf eine? [NFC.cool Business Card holen](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-de&mt=8) für iPhone, oder die mitgelieferte Visitenkarte in [NFC.cool Tools für Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-de) nutzen.

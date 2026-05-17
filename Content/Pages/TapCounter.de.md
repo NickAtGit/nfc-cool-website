@@ -118,8 +118,8 @@ Ein NFC-Tag kann seine eigenen Scans zählen - die Zahl steckt im Chip, nicht au
 Zum NFC-Tap-Zähler gibt es mehr - welche Chips funktionieren, die Anwendungsfälle aus der Praxis und die komplette Einrichtung Schritt für Schritt.
 
 <div class="tap-cta-buttons">
-<a href="/de/blog/count-nfc-tag-scans/" class="tap-cta-button is-primary">Guide lesen</a>
-<a href="/de/features/nfc-reader-writer/" class="tap-cta-button is-secondary">Funktion ansehen</a>
+<a href="/de/blog/count-nfc-tag-scans/" class="landing-cta-button">Guide lesen</a>
+<a href="/de/features/nfc-reader-writer/" class="landing-cta-button">Funktion ansehen</a>
 </div>
 
 </section>

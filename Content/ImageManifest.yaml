@@ -44,7 +44,36 @@ roles:
     desktopWidth: 96
     mobileWidth: 96
 
-  # Catch-all — covers blog post images, marketing-page figures, etc.
+  # Feature-page subsection images - the alternating two-column rows on every
+  # /features/{slug}/ page. `.feature-subsection` is `grid-template-columns:
+  # 1fr 1fr` inside the 1200 px content column, so the image cell renders at
+  # ~510 CSS px on desktop. Below the 760 px breakpoint the row stacks to one
+  # column and the image fills the card (~700 CSS px). 560 gives a density
+  # srcset of 560w (1x) + 1120w (2x).
+  - name: feature-subsection
+    selector: ".feature-subsection-visual > img"
+    desktopWidth: 560
+    mobileWidth: 720
+
+  # Blog / changelog / tag-page card thumbnails - `.blog-card-grid` is
+  # `repeat(auto-fit, minmax(280px, 1fr))`, so a card image renders at ~285 CSS
+  # px on desktop and tablet, widening to ~600 px only once the grid collapses
+  # to a single column on narrow phones. 320 covers the 1x desktop card; 640
+  # covers the widest single-column mobile case.
+  - name: blog-card
+    selector: ".blog-card-image > img"
+    desktopWidth: 320
+    mobileWidth: 640
+
+  # Screenshot gallery on marketing pages - `.page-gallery` lays device shots
+  # in an `auto-fit minmax(180px, 1fr)` grid, hard-capped at `max-width: 240px`.
+  - name: page-gallery
+    selector: ".page-gallery > img"
+    desktopWidth: 240
+    mobileWidth: 240
+
+  # Catch-all - covers blog post body images, the remaining marketing-page
+  # figures, etc.
   - name: default
     selector: "img"
     desktopWidth: 1200

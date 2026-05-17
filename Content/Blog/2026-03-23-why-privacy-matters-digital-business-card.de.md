@@ -132,29 +132,29 @@ Die praktische Erkenntnis: Wähle eine Plattform, die DSGVO standardmäßig erns
 
 ---
 
-## Warum wir NFC.cool Business Card mit Datenschutz first gebaut haben
+## Warum ich NFC.cool Business Card mit Datenschutz first gebaut habe
 
-Voller Transparenz: das ist der NFC.cool Blog, also werden wir über unseren Ansatz sprechen. Aber wir haben oben versucht, ehrlich über die Landschaft zu sein und werden es hier auch sein.
+Voller Transparenz: das ist der NFC.cool Blog, also werde ich über meinen Ansatz sprechen. Aber ich habe oben versucht, ehrlich über die Landschaft zu sein und werde es hier auch sein.
 
-Als wir [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) bauten, war Datenschutz kein nachträglicher Gedanke oder eine Marketing-Checkbox. Er hat das Produkt geprägt:
+Als ich [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) baute, war Datenschutz kein nachträglicher Gedanke oder eine Marketing-Checkbox. Er hat das Produkt geprägt:
 
 **PIN-geschützte Profile** - Du kannst deine Visitenkarte hinter einer 4-stelligen PIN mit ratenlimitierten Versuchen sperren. Teile deine Karten-URL frei, aber lass Leute deine Details nur sehen, wenn du willst. Das ist nützlich für NFC-Karten, die du verlieren könntest, oder für Momente, in denen du kontrollieren willst, wer deine vollständigen Kontaktdaten sieht.
 
 **Öffentlich/Privat-Schalter** - Wähle genau, welche Felder sichtbar sind. Vielleicht ist deine Telefonnummer nur für enge Kontakte. Vielleicht ist deine Adresse privat. Du kontrollierst die Granularität.
 
-**Keine Gesprächsaufzeichnung** - Wir zeichnen kein Audio auf. Punkt. Wir glauben, dass Networking auf Vertrauen aufbauen sollte, nicht auf Überwachung.
+**Keine Gesprächsaufzeichnung** - Ich zeichne kein Audio auf. Punkt. Ich glaube, dass Networking auf Vertrauen aufbauen sollte, nicht auf Überwachung.
 
-**Keine Empfängerwerbung** - Wenn jemand deine Karte ansieht, sieht er deine Karte. Er bekommt keine Marketing-E-Mails von uns. Deine Kontakte gehören dir, nicht unsere Leads.
+**Keine Empfängerwerbung** - Wenn jemand deine Karte ansieht, sieht er deine Karte. Er bekommt keine Marketing-E-Mails von mir. Deine Kontakte gehören dir, sie sind nicht meine Leads.
 
-**Keine Datenmonetarisierung oder Werbung** - Deine vCard- und Account-Daten werden auf unserem Server gespeichert, um den Service zu betreiben, aber nichts wird für Werbung oder Drittdatenverarbeitung verwendet.
+**Keine Datenmonetarisierung oder Werbung** - Deine vCard- und Account-Daten werden auf meinem Server gespeichert, um den Service zu betreiben, aber nichts wird für Werbung oder Drittdatenverarbeitung verwendet.
 
 **DSGVO-Datenexport** - Auf iOS kannst du deine Kontakte jederzeit als CSV exportieren. Keine Support-Tickets, keine Wartezeit.
 
-**NFC-Hardware-Freiheit** - Wir funktionieren mit jedem Standard-NFC-Tag. NFC.cool verkauft keine NFC-Hardware - du kannst jeden Drittanbieter-Tag deiner Wahl nutzen, ohne proprietäres Tracking, das du nicht prüfen kannst.
+**NFC-Hardware-Freiheit** - Es funktioniert mit jedem Standard-NFC-Tag. NFC.cool verkauft keine NFC-Hardware - du kannst jeden Drittanbieter-Tag deiner Wahl nutzen, ohne proprietäres Tracking, das du nicht prüfen kannst.
 
-**Europäischer Indie-Entwickler** - Wir sind ein kleines Team mit Sitz in Portugal. Wir haben keine VC-Investoren, die uns drängen, Nutzerdaten für Wachstums-Kennzahlen zu monetarisieren. Unser Anreiz ist ein Produkt zu bauen, dem Leute vertrauen, nicht die Datensammlung zu maximieren.
+**Europäischer Indie-Entwickler** - Ich bin ein Solo-Entwickler mit Sitz in Portugal. Ich habe keine VC-Investoren, die mich drängen, Nutzerdaten für Wachstums-Kennzahlen zu monetarisieren. Mein Anreiz ist ein Produkt zu bauen, dem Leute vertrauen, nicht die Datensammlung zu maximieren.
 
-Wir sind nicht perfekt. Analytics und Lead-Capture sind derzeit nur auf iOS (Android-Unterstützung kommt bald). Wir haben noch keine CRM-Integrationen oder Webhooks - iOS bietet CSV-Export für Kontakte. Unser Marketing-Budget ist ein Bruchteil der größeren Player. Aber unser Datenschutz-Modell ist etwas, an das wir echt glauben, und wir denken, dass es wichtig ist.
+Ich bin nicht perfekt. Analytics und Lead-Capture sind derzeit nur auf iOS (Android-Unterstützung kommt bald). Ich habe noch keine CRM-Integrationen oder Webhooks - iOS bietet CSV-Export für Kontakte. Mein Marketing-Budget ist ein Bruchteil der größeren Player. Aber mein Datenschutz-Modell ist etwas, an das ich echt glaube, und ich denke, dass es wichtig ist.
 
 ---
 

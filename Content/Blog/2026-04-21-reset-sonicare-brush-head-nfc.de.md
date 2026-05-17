@@ -26,7 +26,7 @@ NFC.cool Tools kann diesen Chip jetzt auslesen, dir genau zeigen, wie viel Leben
 
 ## Was wirklich auf dem Chip steht
 
-Cyrill Künzi hat [das Protokoll auseinandergenommen](https://kuenzi.dev/toothbrush/) und mbirth [jedes Byte kartiert](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html). Das speichert der NTAG213 in deinem Bürstenkopf:
+Ich habe das alles nicht selbst reverse-engineered. Cyrill Künzi hat [das Protokoll auseinandergenommen](https://kuenzi.dev/toothbrush/) und mbirth [jedes Byte kartiert](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html), und zusammen haben die beiden alles herausgefunden, was unten steht. Das speichert der NTAG213 in deinem Bürstenkopf:
 
 - **Bürstenkopf-Typ und -Farbe** - ein einzelnes Byte auf Seite `0x1F`, das das Modell (Premium All-in-One, Gum Care, DiamondClean usw.) und die Farbe identifiziert ([mbirths Memory Map](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html) listet 22 bekannte Typen)
 - **Ziel-Lebensdauer** - auf `0x21`, üblicherweise `0x5460` = 21.600 Sekunden, also 180 zweiminütige Putzsitzungen oder drei Monate bei zweimal täglicher Anwendung
@@ -53,7 +53,7 @@ Der NTAG213 ist passwortgeschützt. Jeder Bürstenkopf hat ein eigenes 4-Byte-Pa
 
 Das Passwort wird aus zwei Eingaben berechnet: der 7-Byte-UID des Tags und dem auf dem Tag gespeicherten (und auf dem Stiel gedruckten) Herstellungscode. [Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) hat den Algorithmus aus der Sonicare-Firmware reverse-engineered, nachdem Cyrill Künzi die Passwortübertragung ursprünglich mit einem Software Defined Radio mitgeschnitten hatte.
 
-⚠️ **Wichtig:** Der NTAG213 sperrt sich nach **drei fehlgeschlagenen Passwortversuchen** dauerhaft. Der Chip wird für immer schreibgeschützt - nicht einmal die Zahnbürste kann dann noch darauf schreiben. Nicht raten.
+⚠️**Wichtig:** Der NTAG213 sperrt sich nach **drei fehlgeschlagenen Passwortversuchen** dauerhaft. Der Chip wird für immer schreibgeschützt - nicht einmal die Zahnbürste kann dann noch darauf schreiben. Nicht raten.
 
 ---
 
@@ -87,7 +87,7 @@ Die Zahnbürste fängt wieder bei null an zu zählen, und das gelbe Licht meldet
 
 ## Das größere Bild: NFC in Alltagsgegenständen
 
-Ein Bürstenkopf mit NFC-Chip, der bis zum nächsten Kauf herunterzählt, ist Internet of Shit auf Höchststufe. Wir lieben NFC bei NFC.cool, aber es in Wegwerf-Plastik einzubetten, gezielt um dich zum Nachkaufen zu schubsen, ist… eine Entscheidung.
+Ein Bürstenkopf mit NFC-Chip, der bis zum nächsten Kauf herunterzählt, ist Internet of Shit auf Höchststufe. Ich habe meine Arbeit rund um NFC aufgebaut, weil ich es für wirklich nützlich halte, aber es in Wegwerf-Plastik einzubetten, gezielt um dich zum Nachkaufen zu schubsen, ist… eine Entscheidung.
 
 Derselbe NTAG213-Chip wird auch für Dinge eingesetzt, die dem Verbraucher tatsächlich dienen: Produktauthentifizierung, Zugangskontrolle und bald der EU Digital Product Passport, der NFC-Tags auf Verbraucherprodukten vorschreiben wird, damit du nachprüfen kannst, was du kaufst und woher es kommt. Das ist NFC, das *für* dich arbeitet, nicht gegen dich.
 

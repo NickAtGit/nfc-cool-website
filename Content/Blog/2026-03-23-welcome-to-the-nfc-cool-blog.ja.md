@@ -3,15 +3,15 @@ id: nfc-blog-welcome
 title: "NFC.coolブログへようこそ"
 date: 2026-03-23
 tags: ["announcements"]
-summary: "NFC.coolブログがスタートしました。NFCのガイド、デジタル名刺の比較、業界インサイトをまとめた拠点 - 2019年から何百万人ものユーザーにNFCアプリを届けてきたチームが運営しています。"
+summary: "NFC.coolブログがスタートしました。NFCのガイド、デジタル名刺の比較、業界インサイトをまとめた拠点 - 2019年から何百万人ものユーザーにNFCアプリを届けてきた開発者が運営しています。"
 image: "/assets/images/Blog/welcome-to-the-nfc-cool-blog.webp"
 imageAlt: "スマートフォン、NFCカード、タグ、QRモチーフを含むNFC.coolブログのコラージュ"
 metaTitle: "NFC.coolブログへようこそ"
-metaDescription: "NFC.coolブログが始動。NFC.coolの開発チームが、実践的なNFCガイド、デジタル名刺の率直な比較、業界深掘り記事をお届けします。"
+metaDescription: "NFC.coolブログが始動。NFC.coolの開発者が、実践的なNFCガイド、デジタル名刺の率直な比較、業界深掘り記事をお届けします。"
 ogTitle: "NFC.coolブログへようこそ"
-ogDescription: "NFCとデジタル名刺をテーマに、実践的なガイド・率直な比較・業界の深掘りを - NFC.coolの開発チームから。"
+ogDescription: "NFCとデジタル名刺をテーマに、実践的なガイド・率直な比較・業界の深掘りを - NFC.coolの開発者から。"
 ---
-私たちは過去7年間、iPhoneとAndroid向けのNFCアプリを作り続けてきました。その間、App Storeのレビュー、サポートメール、フォーラムで同じ質問に何度も答えてきました - タグの種類について、iPhoneからNFCタグを書き込む方法、NFCとRFIDの違い、なぜマンションの扉が開かないのか、vCardが時々保存されないのはなぜか。それらの答えを、安定して、検索でき、無料で読める場所にまとめるため、このブログを始めます。
+私は過去7年間、iPhoneとAndroid向けのNFCアプリを作り続けてきました。その間、App Storeのレビュー、サポートメール、フォーラムで同じ質問に何度も答えてきました - タグの種類について、iPhoneからNFCタグを書き込む方法、NFCとRFIDの違い、なぜマンションの扉が開かないのか、vCardが時々保存されないのはなぜか。それらの答えを、安定して、検索でき、無料で読める場所にまとめるため、このブログを始めます。
 
 ---
 

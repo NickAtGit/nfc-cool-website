@@ -76,7 +76,7 @@ I'll start you where I start everyone: writing a URL to a tag. It's the most com
 
 That's it. Anyone who taps that tag with their phone will now be taken to your URL - no app needed, no QR code to scan. The first time I saw a colleague's face when a blank sticker opened a website, I knew this was the demo to lead with.
 
-**Pro tip:** The NFC antenna on iPhones sits at the **top edge** of the phone, near the camera. For the strongest connection, hold the top of your iPhone directly over the tag. If you want to double-check what you wrote without an app, you can [read NFC tags right from your browser](/nfc-reader/) on Android.
+**Pro tip:** The NFC antenna on iPhones sits at the **top edge** of the phone, near the camera. For the strongest connection, hold the top of your iPhone directly over the tag. If you want to double-check what you wrote without an app, you can [read NFC tags right from your browser](/online-nfc-reader/) on Android.
 
 ---
 

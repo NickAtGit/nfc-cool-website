@@ -26,7 +26,7 @@ NFC.cool Tools can now read that chip, show you exactly how much life your brush
 
 ## What's Actually on the Chip
 
-Cyrill Künzi [tore down the protocol](https://kuenzi.dev/toothbrush/) and mbirth [mapped every byte](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html). Here's what the NTAG213 in your brush head stores:
+I didn't reverse-engineer any of this myself. Cyrill Künzi [tore down the protocol](https://kuenzi.dev/toothbrush/) and mbirth [mapped every byte](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html), and between them they worked out everything below. Here's what the NTAG213 in your brush head stores:
 
 - **Brush head type and color** - a single byte at page `0x1F` that identifies the model (Premium All-in-One, Gum Care, DiamondClean, etc.) and its color ([mbirth's memory map](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html) lists 22 known types)
 - **Target lifetime** - at `0x21`, usually `0x5460` = 21,600 seconds, which is 180 two-minute brushing sessions, or three months of twice-daily use
@@ -53,7 +53,7 @@ The NTAG213 is password-protected. Every brush head has a unique 4-byte password
 
 The password is computed from two inputs: the tag's 7-byte UID and the manufacturing code stored on the tag (and printed on the stem). [Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) reverse-engineered the algorithm from the Sonicare firmware after Cyrill Künzi originally sniffed the password transmission using a software-defined radio.
 
-⚠️ **Important:** The NTAG213 permanently locks after **three failed password attempts**. The chip becomes read-only forever - not even the toothbrush can write to it anymore. Don't guess.
+⚠️**Important:** The NTAG213 permanently locks after **three failed password attempts**. The chip becomes read-only forever - not even the toothbrush can write to it anymore. Don't guess.
 
 ---
 
@@ -87,7 +87,7 @@ The toothbrush starts counting from zero again, and the amber light comes back a
 
 ## The Bigger Picture: NFC in Everyday Objects
 
-A toothbrush head with an NFC chip that counts down to your next purchase is peak Internet of Shit. We love NFC at NFC.cool, but embedding it in disposable plastic specifically to nudge you toward buying more is... a choice.
+A toothbrush head with an NFC chip that counts down to your next purchase is peak Internet of Shit. I've built my work around NFC because I think it's genuinely useful, but embedding it in disposable plastic specifically to nudge you toward buying more is... a choice.
 
 The same NTAG213 chip is also used for things that actually serve the consumer: product authentication, access control, and soon the EU Digital Product Passport, which will require NFC tags on consumer products so you can verify what you're buying and where it came from. That's NFC being used *for* you, not against you.
 

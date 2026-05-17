@@ -63,6 +63,6 @@ Das Wichtigste, was iPhones mit NFC machen, ist das Lesen von NFC-Data-Exchange-
 
 Wenn du NFC-Tags für dein iPhone suchst, ist meine ehrliche Empfehlung simpel: Type-2-Tags aus der NTAG-Serie von NXP Semiconductors. Sie sind kostengünstig und bieten die beste Kompatibilität und Funktionalität für das, was die meisten Leute tatsächlich mit NFC auf dem iPhone tun wollen. Kauf dir eine Packung NTAG215-Sticker und du bist für fast alles gerüstet.
 
-NFC entwickelt sich ständig weiter, es lohnt sich also, neue Entwicklungen und Tag-Spezifikationen mit einem Auge im Blick zu behalten. Mehr dazu findest du in meinem früheren Post über [die Magie von NFC auf iPhones](/de/blog/nfc-on-iphones-insider-look/), und wenn du einfach nur sehen willst, was schon auf einem Tag steht, kannst du [NFC-Tags direkt im Browser auslesen](/de/nfc-reader/).
+NFC entwickelt sich ständig weiter, es lohnt sich also, neue Entwicklungen und Tag-Spezifikationen mit einem Auge im Blick zu behalten. Mehr dazu findest du in meinem früheren Post über [die Magie von NFC auf iPhones](/de/blog/nfc-on-iphones-insider-look/), und wenn du einfach nur sehen willst, was schon auf einem Tag steht, kannst du [NFC-Tags direkt im Browser auslesen](/de/online-nfc-reader/).
 
 Happy Tagging!

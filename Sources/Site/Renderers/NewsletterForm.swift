@@ -30,7 +30,7 @@ enum NewsletterForm {
                   <input id="newsletter-email" type="email" name="email" required
                          placeholder="\(newsletter.placeholder.htmlEscaped)"
                          autocomplete="email" inputmode="email"/>
-                  <button type="submit" class="landing-cta-button landing-cta-button--pill">\(newsletter.buttonText.htmlEscaped)</button>
+                  <button type="submit" class="landing-cta-button">\(newsletter.buttonText.htmlEscaped)</button>
                   <p class="newsletter-status" role="status" aria-live="polite"></p>
                </form>
                \(consent)

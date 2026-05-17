@@ -89,22 +89,13 @@
 .newsletter-form input[type="email"]::placeholder {
    color: var(--color-text-muted);
 }
-/* Submit button uses the unified .landing-cta-button rule with the --pill
-   modifier; only newsletter-specific layout overrides live here. */
-.newsletter-form .landing-cta-button--pill {
+/* Submit button is the unified .landing-cta-button; newsletter-specific
+   layout only. It stays pill-shaped so it nests concentrically inside the
+   pill-shaped form field (a pill within a pill with even padding lines up). */
+.newsletter-form .landing-cta-button {
    white-space: nowrap;
    flex-shrink: 0;
-}
-/* Recolour the Subscribe button to follow the blue-in-light / yellow-in-dark
-   rule - overriding the unified button's --cta-* vars only inside the
-   newsletter form, leaving every other CTA on the site untouched. Loaded
-   after landing.css, so this wins over the default + dark-mode rules at
-   equal specificity. */
-.newsletter-form .landing-cta-button {
-   --cta-border: var(--color-link);
-   --cta-text: var(--color-link);
-   --cta-fill-hover: var(--color-link-light);
-   --cta-border-hover: var(--color-link-hover);
+   border-radius: var(--radius-pill);
 }
 .newsletter-status {
    position: absolute;

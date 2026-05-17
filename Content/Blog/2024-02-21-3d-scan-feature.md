@@ -58,7 +58,7 @@ The model is the same. The format just decides which downstream tool can consume
 
 ## What you can do with the result
 
-The most fun applications we've seen from users:
+The most fun applications I've seen from users:
 
 - **3D print a one-off replica.** Scan a found object, slice, print.
 - **Document a real-world asset.** Estate documentation, museum cataloguing, "what does grandma's vase actually look like".

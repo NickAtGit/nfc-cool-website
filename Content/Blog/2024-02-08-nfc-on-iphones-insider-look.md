@@ -36,7 +36,7 @@ NFC devices operate in one of two roles per interaction: **active** (powered, ge
 
 When you make an Apple Pay payment, your iPhone is the active reader. It generates a radio field at 13.56 MHz. The payment terminal's NFC element wakes up inside that field, identifies itself, and exchanges a small amount of cryptographic payload with your phone. Your card data never leaves the **Secure Element** - a dedicated, hardware-isolated chip on the phone. What goes out is a one-time token.
 
-When you tap an NFC sticker on a poster, the roles flip. The poster's tag is passive - it has no battery. Your iPhone's reader powers it, the tag responds with whatever NDEF records are stored on it, and iOS decides what to do (open a URL, launch an app, show a contact card, trigger a Shortcut). That second half - the tag side - is the part NFC.cool lives in, and if you want to see it in action without installing anything, you can [read NFC tags straight from your browser](/nfc-reader/) on Android.
+When you tap an NFC sticker on a poster, the roles flip. The poster's tag is passive - it has no battery. Your iPhone's reader powers it, the tag responds with whatever NDEF records are stored on it, and iOS decides what to do (open a URL, launch an app, show a contact card, trigger a Shortcut). That second half - the tag side - is the part NFC.cool lives in, and if you want to see it in action without installing anything, you can [read NFC tags straight from your browser](/online-nfc-reader/) on Android.
 
 ---
 

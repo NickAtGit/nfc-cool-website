@@ -118,8 +118,8 @@ An NFC tag can count its own scans - the number lives in the chip, not on a serv
 There is more to the NFC Tap Counter - which chips work, the real-world use cases, and the full step-by-step setup.
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="tap-cta-button is-primary">Read the guide</a>
-<a href="/features/nfc-reader-writer/" class="tap-cta-button is-secondary">See the feature</a>
+<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">Read the guide</a>
+<a href="/features/nfc-reader-writer/" class="landing-cta-button">See the feature</a>
 </div>
 
 </section>

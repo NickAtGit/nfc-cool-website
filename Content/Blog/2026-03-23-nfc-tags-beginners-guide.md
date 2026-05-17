@@ -153,7 +153,7 @@ What happens when you scan depends on the data:
 - **App Clip** - launches an App Clip if one exists
 - **Custom data** - opens the associated app
 
-If you just want to see what's on a tag right now, you can also [read NFC tags straight from your browser](/nfc-reader/) on Android - no install.
+If you just want to see what's on a tag right now, you can also [read NFC tags straight from your browser](/online-nfc-reader/) on Android - no install.
 
 ### On Android
 

@@ -23,7 +23,7 @@ No separate Mac app. No subscription upgrade. Same app, one more screen.
 
 NFC.cool has always been a mobile-first app. You hold your phone, scan a tag, see the result. That works great on iPhone.
 
-But on iPad and Mac, a single-column phone layout wastes a lot of space. So we added a **sidebar navigation** - designed specifically for the bigger screen.
+But on iPad and Mac, a single-column phone layout wastes a lot of space. So I added a **sidebar navigation** - designed specifically for the bigger screen.
 
 The sidebar gives you quick access to all your content categories:
 
@@ -56,7 +56,7 @@ This means you can:
 - **Review and organize** on your Mac with the bigger screen
 - **Reference a tag or document** while working on your Mac - without reaching for your phone
 
-Your data follows you across devices because it lives in your iCloud account. Same privacy approach as always: your scans stay on your devices and in your iCloud. We never see them.
+Your data follows you across devices because it lives in your iCloud account. Same privacy approach as always: your scans stay on your devices and in your iCloud. I never see them.
 
 <div style="text-align: center;">
 
@@ -84,7 +84,7 @@ Useful for quickly looking up a product barcode while you're working, or scannin
 
 ## What Doesn't Work on Mac (And Why)
 
-We believe in being upfront about limitations, not hiding them.
+I believe in being upfront about limitations, not hiding them.
 
 **NFC scanning** doesn't work on Mac - Macs don't have NFC radio hardware. You need your iPhone for that.
 
@@ -92,7 +92,7 @@ We believe in being upfront about limitations, not hiding them.
 
 **3D scanning and room scans** need the LiDAR sensor (iPhone Pro / iPad Pro) - no Mac has one.
 
-These aren't software limitations we can fix. They're hardware constraints. The Mac simply doesn't have the sensors.
+These aren't software limitations I can fix. They're hardware constraints. The Mac simply doesn't have the sensors.
 
 But here's the thing: you probably don't need them on your Mac. You scan with your iPhone because it's in your hand. You browse and reference on your Mac because it has the big screen and keyboard. The Mac app is built for that workflow.
 

@@ -316,21 +316,20 @@
    margin: 0 0 1.5rem;
    max-width: 30em;
 }
-/* Primary CTA button - outlined, context-aware via four local custom
-   properties (--cta-border / --cta-text / --cta-fill-hover /
-   --cta-border-hover). Contexts rebind them; rule body never repeats.
-   Base radius uses --radius-lg to align with cards / FAQ items. The
-   .landing-cta-button--pill modifier (used by the newsletter submit
-   inside a pill input) keeps the rounded form.
-   - Light mode page section: brand-blue-1 outline + text.
-   - Dark mode page section: brand-yellow #FFC800 outline + text.
-   - Brand-blue gradient context (any mode): translucent-white outline +
-     white text. */
+/* Primary CTA button - the site's single button component. Outlined and
+   context-aware via four local custom properties (--cta-border /
+   --cta-text / --cta-fill-hover / --cta-border-hover); contexts rebind
+   them and the rule body never repeats. Corner radius matches the App
+   Store badges (--radius-md).
+   - Normal background: blue in light mode, yellow in dark mode - the
+     --color-link* tokens already flip per theme.
+   - Brand-blue gradient context (heroes, banner, final CTA): white
+     outline in light mode, yellow outline on a dark-mode hero. */
 .landing-cta-button {
-   --cta-border: var(--brand-blue-1);
-   --cta-text: var(--brand-blue-1);
-   --cta-fill-hover: rgba(19, 123, 217, 0.10);
-   --cta-border-hover: var(--brand-blue-2);
+   --cta-border: var(--color-link);
+   --cta-text: var(--color-link);
+   --cta-fill-hover: var(--color-link-light);
+   --cta-border-hover: var(--color-link-hover);
 
    display: inline-flex;
    align-items: center;
@@ -342,7 +341,7 @@
    font-weight: 600;
    font-size: 0.9375rem;
    letter-spacing: 0.04em;
-   border-radius: var(--radius-lg);
+   border-radius: var(--radius-md);
    border: 1.5px solid var(--cta-border);
    text-decoration: none;
    cursor: pointer;
@@ -366,31 +365,25 @@
    cursor: not-allowed;
    transform: none;
 }
+/* Inline icon (e.g. the NFC reader widget buttons) sized to the label. */
+.landing-cta-button svg {
+   width: 1.15em;
+   height: 1.15em;
+   flex-shrink: 0;
+}
+/* Larger size for prominent CTAs. */
 .landing-cta-button.landing-cta-button-large {
    padding: 0.85rem 1.875rem;
    font-size: 1rem;
 }
-/* --pill modifier - used by the newsletter submit button, which sits
-   inside a pill-shaped input wrapper, so it needs to stay rounded. All
-   other CTAs use the rectangular --radius-lg from the base rule. */
-.landing-cta-button.landing-cta-button--pill {
-   border-radius: var(--radius-pill);
+/* Full-width - used by the stacked /nfc-reader/ widget buttons. */
+.landing-cta-button.landing-cta-button--block {
+   width: 100%;
+   justify-content: center;
 }
 
-/* Dark-mode page section - lighter blue (brand-blue-2, #00A2F3) so the
-   outlined pill stays high-contrast on the dark card backgrounds while
-   keeping the colour palette purely in the brand-blue family. */
-[data-theme="dark"] .landing-cta-button {
-   --cta-border: var(--brand-blue-2);
-   --cta-text: var(--brand-blue-2);
-   --cta-fill-hover: rgba(0, 162, 243, 0.12);
-   --cta-border-hover: var(--brand-blue-2);
-}
-
-/* Brand-blue gradient backgrounds (heroes, feature banner, final CTA,
-   converted feature-cta) - translucent-white outline + white text. Same in
-   both modes (the gradient is brand, not theme). Placed after the dark-mode
-   block so this wins for dark + hero. */
+/* Brand-blue gradient backgrounds (heroes, feature banner, final CTA) -
+   white outline + white text in light mode. */
 .landing-feature-banner .landing-cta-button,
 .landing-final-cta .landing-cta-button,
 .page-hero .landing-cta-button {
@@ -398,6 +391,16 @@
    --cta-text: #FFFFFF;
    --cta-fill-hover: rgba(255, 255, 255, 0.12);
    --cta-border-hover: #FFFFFF;
+}
+/* On a dark-mode hero the gradient turns dark - switch to a yellow outline
+   for contrast. Deeper selector + placed after the rule above so it wins. */
+[data-theme="dark"] .landing-feature-banner .landing-cta-button,
+[data-theme="dark"] .landing-final-cta .landing-cta-button,
+[data-theme="dark"] .page-hero .landing-cta-button {
+   --cta-border: var(--color-accent);
+   --cta-text: var(--color-accent);
+   --cta-fill-hover: var(--color-accent-light);
+   --cta-border-hover: var(--color-accent-hover);
 }
 
 /* Obfuscated email anchors carry no `href` until theme.js decodes them, so

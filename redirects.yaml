@@ -58,6 +58,30 @@ redirects:
   - from: "/post/help-i-cant-remember-anyone-i-meet-this-smart-business-card-app-can"
     to: "/blog/smart-context-remember-everyone/"
 
+  # ----- Consolidated business-card persona posts → "by profession" pillar -----
+  # The consultants, real-estate, and healthcare persona posts were merged into
+  # one pillar (2026-05-17-digital-business-cards-by-profession). These bridge
+  # pages keep old inbound links working; RedirectNoindexProcessor stamps them
+  # noindex,follow so the retired slugs stop diluting the topical signal.
+  - from: "/blog/digital-business-cards-consultants-freelancers/"
+    to: "/blog/digital-business-cards-by-profession/"
+  - from: "/de/blog/digital-business-cards-consultants-freelancers/"
+    to: "/de/blog/digital-business-cards-by-profession/"
+  - from: "/ja/blog/digital-business-cards-consultants-freelancers/"
+    to: "/ja/blog/digital-business-cards-by-profession/"
+  - from: "/blog/digital-business-cards-real-estate-agents/"
+    to: "/blog/digital-business-cards-by-profession/"
+  - from: "/de/blog/digital-business-cards-real-estate-agents/"
+    to: "/de/blog/digital-business-cards-by-profession/"
+  - from: "/ja/blog/digital-business-cards-real-estate-agents/"
+    to: "/ja/blog/digital-business-cards-by-profession/"
+  - from: "/blog/digital-business-card-doctors-healthcare/"
+    to: "/blog/digital-business-cards-by-profession/"
+  - from: "/de/blog/digital-business-card-doctors-healthcare/"
+    to: "/de/blog/digital-business-cards-by-profession/"
+  - from: "/ja/blog/digital-business-card-doctors-healthcare/"
+    to: "/ja/blog/digital-business-cards-by-profession/"
+
   # ----- blog.nfc.cool legacy subdomain → unified /blog/ -----
   # Note: these only fire if the visitor lands on the MAIN domain with these paths.
   # The blog.nfc.cool subdomain itself needs a DNS-level redirect for direct visitors.

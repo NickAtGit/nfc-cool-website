@@ -36,7 +36,7 @@ NFC-Geräte arbeiten pro Interaktion in einer von zwei Rollen: **aktiv** (mit St
 
 Wenn du mit Apple Pay zahlst, ist dein iPhone der aktive Reader. Es erzeugt ein Funkfeld bei 13,56 MHz. Das NFC-Element des Terminals wird in diesem Feld aktiv, identifiziert sich, und tauscht eine kleine kryptografische Nutzlast mit deinem Phone. Deine Kartendaten verlassen das **Secure Element** nie - einen dedizierten, hardware-isolierten Chip im iPhone. Was rausgeht, ist ein Einmal-Token.
 
-Beim Tippen auf einen NFC-Sticker auf einem Poster sind die Rollen vertauscht. Der Tag im Poster ist passiv - er hat keine Batterie. Der Reader deines iPhones versorgt ihn mit Strom, der Tag antwortet mit den gespeicherten NDEF-Records, und iOS entscheidet, was passiert (URL öffnen, App starten, Kontaktkarte zeigen, einen Kurzbefehl triggern). Diese zweite Hälfte - die Tag-Seite - ist der Bereich, in dem NFC.cool lebt, und wenn du es ohne Installation in Aktion sehen willst, kannst du auf Android [NFC-Tags direkt im Browser lesen](/de/nfc-reader/).
+Beim Tippen auf einen NFC-Sticker auf einem Poster sind die Rollen vertauscht. Der Tag im Poster ist passiv - er hat keine Batterie. Der Reader deines iPhones versorgt ihn mit Strom, der Tag antwortet mit den gespeicherten NDEF-Records, und iOS entscheidet, was passiert (URL öffnen, App starten, Kontaktkarte zeigen, einen Kurzbefehl triggern). Diese zweite Hälfte - die Tag-Seite - ist der Bereich, in dem NFC.cool lebt, und wenn du es ohne Installation in Aktion sehen willst, kannst du auf Android [NFC-Tags direkt im Browser lesen](/de/online-nfc-reader/).
 
 ---
 

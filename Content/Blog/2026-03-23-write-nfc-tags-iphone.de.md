@@ -76,7 +76,7 @@ Ich starte dich da, wo ich jeden starte: mit dem Schreiben einer URL auf einen T
 
 Das war's. Jeder, der diesen Tag mit seinem Handy antippt, wird nun zu deiner URL weitergeleitet - keine App nötig, kein QR-Code zum Scannen. Als ich zum ersten Mal das Gesicht eines Kollegen sah, als ein leerer Sticker eine Website öffnete, wusste ich: Mit dieser Demo muss man anfangen.
 
-**Pro-Tipp:** Die NFC-Antenne bei iPhones befindet sich an der **oberen Kante** des Handys, nahe der Kamera. Für die stärkste Verbindung halte die Oberseite deines iPhones direkt über den Tag. Wenn du ohne App schnell prüfen willst, was du geschrieben hast, kannst du auf Android [NFC-Tags direkt im Browser lesen](/de/nfc-reader/).
+**Pro-Tipp:** Die NFC-Antenne bei iPhones befindet sich an der **oberen Kante** des Handys, nahe der Kamera. Für die stärkste Verbindung halte die Oberseite deines iPhones direkt über den Tag. Wenn du ohne App schnell prüfen willst, was du geschrieben hast, kannst du auf Android [NFC-Tags direkt im Browser lesen](/de/online-nfc-reader/).
 
 ---
 

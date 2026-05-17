@@ -56,7 +56,7 @@ Das heißt, du kannst:
 - **Überprüfen und organisieren** auf dem Mac mit dem größeren Bildschirm
 - **Einen Tag oder ein Dokument nachschlagen** während du am Mac arbeitest - ohne zum Handy zu greifen
 
-Deine Daten folgen dir über alle Geräte, weil sie in deinem iCloud-Konto liegen. Dasselbe Datenschutz-Prinzip wie immer: Deine Scans bleiben auf deinen Geräten und in deiner iCloud. Wir sehen sie nie.
+Deine Daten folgen dir über alle Geräte, weil sie in deinem iCloud-Konto liegen. Dasselbe Datenschutz-Prinzip wie immer: Deine Scans bleiben auf deinen Geräten und in deiner iCloud. Ich sehe sie nie.
 
 <div style="text-align: center;">
 
@@ -84,7 +84,7 @@ Nützlich, um schnell einen Produkt-Barcode nachzuschlagen, während du arbeites
 
 ## Was auf dem Mac nicht funktioniert (und warum)
 
-Wir glauben daran, ehrlich über Einschränkungen zu sein, sie nicht zu verstecken.
+Ich glaube daran, ehrlich über Einschränkungen zu sein, sie nicht zu verstecken.
 
 **NFC-Scannen** funktioniert nicht auf dem Mac - Macs haben keine NFC-Funkhardware. Dafür brauchst du dein iPhone.
 
@@ -92,7 +92,7 @@ Wir glauben daran, ehrlich über Einschränkungen zu sein, sie nicht zu versteck
 
 **3D-Scannen und Raumscans** benötigen den LiDAR-Sensor (iPhone Pro / iPad Pro) - kein Mac hat einen.
 
-Das sind keine Software-Einschränkungen, die wir beheben können. Es sind Hardware-Voraussetzungen. Der Mac hat die Sensoren einfach nicht.
+Das sind keine Software-Einschränkungen, die ich beheben kann. Es sind Hardware-Voraussetzungen. Der Mac hat die Sensoren einfach nicht.
 
 Aber mal ehrlich: Du brauchst sie auf dem Mac wahrscheinlich auch nicht. Du scannst mit dem iPhone, weil es in deiner Hand liegt. Du durchsuchst und schaust nach auf dem Mac, weil er den großen Bildschirm und die Tastatur hat. Die Mac-App ist genau für diesen Workflow gemacht.
 

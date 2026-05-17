@@ -132,29 +132,29 @@ The practical takeaway: choose a platform that takes GDPR seriously by default, 
 
 ---
 
-## Why We Built NFC.cool Business Card With Privacy First
+## Why I Built NFC.cool Business Card With Privacy First
 
-Full disclosure: this is the NFC.cool blog, so we're going to talk about our approach. But we've tried to be honest about the landscape above, and we'll be honest here too.
+Full disclosure: this is the NFC.cool blog, so I'm going to talk about my approach. But I've tried to be honest about the landscape above, and I'll be honest here too.
 
-When we built [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8), privacy wasn't an afterthought or a marketing checkbox. It shaped the product:
+When I built [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8), privacy wasn't an afterthought or a marketing checkbox. It shaped the product:
 
 **PIN-Protected Profiles** - You can lock your business card behind a 4-digit PIN with rate-limited attempts. Share your card URL freely, but only let people see your details when you want them to. This is useful for NFC cards you might lose, or for times when you want to control who sees your full contact info.
 
 **Public/Private Toggle** - Choose exactly which fields are visible. Maybe your phone number is only for close contacts. Maybe your address is private. You control the granularity.
 
-**No Conversation Recording** - We don't record audio. Period. We think networking should be built on trust, not surveillance.
+**No Conversation Recording** - I don't record audio. Period. I think networking should be built on trust, not surveillance.
 
-**No Recipient Solicitation** - When someone views your card, they see your card. They don't get marketing emails from us. Your contacts are yours, not our leads.
+**No Recipient Solicitation** - When someone views your card, they see your card. They don't get marketing emails from me. Your contacts are yours, not my leads.
 
-**No Data Monetization or Advertising** - Your vCard and account data are stored on our server to power the service, but nothing is used for advertising or third-party data processing.
+**No Data Monetization or Advertising** - Your vCard and account data are stored on my server to power the service, but nothing is used for advertising or third-party data processing.
 
 **GDPR Data Export** - On iOS, export your contacts as CSV anytime. No support tickets, no waiting period.
 
-**NFC Hardware Freedom** - We work with any standard NFC tag. NFC.cool doesn't sell NFC hardware - you're free to use any third-party tag you choose, without proprietary tracking you can't audit.
+**NFC Hardware Freedom** - It works with any standard NFC tag. NFC.cool doesn't sell NFC hardware - you're free to use any third-party tag you choose, without proprietary tracking you can't audit.
 
-**European Indie Developer** - We're a small team based in Portugal. We don't have VC investors pushing us to monetize user data for growth metrics. Our incentive is building a product people trust, not maximizing data collection.
+**European Indie Developer** - I'm a solo developer based in Portugal. I don't have VC investors pushing me to monetize user data for growth metrics. My incentive is building a product people trust, not maximizing data collection.
 
-We're not perfect. Analytics and lead capture are currently iOS-only (Android support coming soon). We don't have CRM integrations or webhooks yet - iOS offers CSV export for getting contacts out. Our marketing budget is a fraction of the bigger players. But our privacy model is something we genuinely believe in, and we think it matters.
+I'm not perfect. Analytics and lead capture are currently iOS-only (Android support coming soon). There are no CRM integrations or webhooks yet - iOS offers CSV export for getting contacts out. My marketing budget is a fraction of the bigger players. But my privacy model is something I genuinely believe in, and I think it matters.
 
 ---
 

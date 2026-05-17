@@ -1,6 +1,6 @@
 ---
 id: "app-clip-lessons-2026-01"
-title: "Building a great App Clip experience: lessons from NFC.cool Business Card"
+title: "Building a Great App Clip Experience: Lessons from NFC.cool Business Card"
 date: "2026-01-23"
 tags: ["business-cards", "networking", "iphone"]
 summary: "Recap of the mDevCamp 2025 talk in Prague about the architecture behind NFC.cool Business Card's App Clip flow."
@@ -9,10 +9,10 @@ image: "/assets/images/Blog/app-clip-mdevcamp.webp"
 imageAlt: "Speaking at mDevCamp 2025 in Prague"
 ---
 
-NFC.cool Business Card Maker is a foundational element within the broader NFC.cool ecosystem - a platform that connects tangible and digital experiences through NFC, QR, barcode, document, and 3D scanning. During my first conference presentation, I detailed the technical development process behind building an App Clip-based experience that prioritises speed, personalisation, and tight iOS-ecosystem integration.
+In 2025 I gave my first conference talk, and I picked a topic I'd spent years living inside but had never had to explain to a room: how the App Clip behind NFC.cool Business Card actually works. The talk was at mDevCamp 2025 in Prague, and I gave it the same title as this post.
 
-The talk was titled **"Building a Great App Clip Experience: Lessons from NFC.cool Business Card"**, delivered at **mDevCamp 2025 in Prague**. It walked attendees through the architectural decisions behind NFC.cool Business Card - how the App Clip is structured, where SwiftUI fits, and how the backend keeps shared-card data secure without forcing visitors to sign up.
+If you haven't run into one, an App Clip is the small piece of an iOS app that opens instantly from an NFC tap or a QR scan - no App Store, no install. It's what lets someone see your NFC.cool business card about a second after you tap phones, without downloading anything. Making that feel instant, while still keeping shared-card data secure and not forcing anyone to sign up, takes more architectural decisions than it looks like from the outside. The talk walked through them: how the App Clip is structured, where SwiftUI earns its place, and how the backend handles the card data.
 
-The experience was invaluable: a first stage presentation, conversations with seasoned iOS developers, and a clear sense that the community is genuinely interested in meaningful NFC-enabled experiences. The architecture we settled on - **App Clips, SwiftUI, and secure backend APIs** - resonated with the audience and produced constructive feedback we're already folding back into the product.
+Explaining it from a stage was good for me. It made me justify choices I'd mostly made on instinct, and the questions afterward - from iOS developers who had clearly fought the same fights - were sharper than any code review. The shape I'd settled on, App Clips with SwiftUI and a secure backend API, held up to that scrutiny, and a couple of suggestions from the hallway conversations have already made it into the app.
 
-Watch the full presentation at [Slideslive](https://slideslive.com/39043369/building-a-great-app-clip-experience-lessons-from-nfccool-business-card).
+You can watch the full talk on [Slideslive](https://slideslive.com/39043369/building-a-great-app-clip-experience-lessons-from-nfccool-business-card).
