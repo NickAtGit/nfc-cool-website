@@ -530,6 +530,11 @@
    phone. theme.js sets data-state (which .nfc-reader-panel shows)
    and data-mode (Read/Write tab highlight).
    ============================================================ */
+/* Lock the visual column to a content-independent width so the phone keeps
+   the same size when switching between the Read and Write panels. */
+@media (min-width: 901px) {
+   .nfc-reader-hero .page-hero-grid { grid-template-columns: 1.1fr minmax(0, 1fr); }
+}
 .nfc-reader {
    width: 100%;
    --reader-accent-fg: #fff; /* dark text on yellow (dark mode), white on blue (light) */
@@ -549,18 +554,6 @@
       0 30px 64px -22px var(--color-shadow-lg),
       0 6px 18px -6px rgba(0, 0, 0, 0.35),
       inset 0 0 0 1px rgba(255, 255, 255, 0.07);
-}
-/* Camera dot in the top bezel */
-.nfc-phone::before {
-   content: "";
-   position: absolute;
-   top: 5px;
-   left: 50%;
-   transform: translateX(-50%);
-   width: 7px;
-   height: 7px;
-   border-radius: 50%;
-   background: rgba(255, 255, 255, 0.18);
 }
 .nfc-phone-screen {
    display: flex;
@@ -602,6 +595,7 @@
    color: var(--color-text-muted);
    cursor: pointer;
    transition: color var(--transition), border-color var(--transition);
+   -webkit-tap-highlight-color: transparent;
 }
 .nfc-reader-tab:hover { color: var(--color-text-secondary); }
 .nfc-reader[data-mode="read"] .nfc-reader-tab[data-nfc-tab="read"],

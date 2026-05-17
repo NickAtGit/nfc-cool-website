@@ -6,6 +6,22 @@ Pending content and follow-ups from the round-2 build. Each item below was scaff
 
 - [ ] **Impressum postal address** - TMG § 5 requires a full physical address. Update `Content/Pages/Impressum.md`, `Impressum.de.md`, and `Impressum.ja.md`. The `> **TODO:**` line marks the spot.
 
+## SEO optimization follow-ups (May 2026 session)
+
+A whole-site SEO pass driven by Google Search Console data. Done and deployed: Phase 1 technical fixes (feature pages in the sitemap, blog/changelog `CollectionPage` JSON-LD, `llms.txt` features, per-feature alt-text fields), the new `/nfc-reader/` Online NFC Reader page, homepage + business-card `<title>` repositioning (EN/DE/JA), a site-wide default OG image, and blog-post tag links. Open follow-ups:
+
+- [x] **Commit + push the blog voice rewrites** - done: the 9 NFC-core posts rewritten into the developer's first-person voice, EN plus their 18 DE/JA versions, are committed and pushed.
+- [x] **Decide what to do with the business-card listicles** - done: the 3 near-identical persona posts (`digital-business-cards-consultants-freelancers`, `digital-business-cards-real-estate-agents`, `digital-business-card-doctors-healthcare`, plus their DE/JA siblings) were merged into one "Digital Business Cards by Profession" pillar (`2026-05-17-digital-business-cards-by-profession`, EN/DE/JA) with redirects from the 9 old locale slugs. The conference how-to (`replace-paper-business-cards-conference`) and the comparison post (`best-digital-business-card-apps-2026`) were kept standalone by decision - the conference post is a distinct procedural guide, not a near-duplicate.
+- [x] **Remaining robotic blog posts** - done: a fresh audit of the live files found the blog already largely first-person (the "~14" estimate was stale). Two genuinely robotic posts (`app-clip-lessons-from-business-card`, `reset-sonicare-brush-head-nfc`) were rewritten, plus `namedrop-vs-nfc-business-cards`. Eight more were converted from corporate "we" to the solo-developer "I" voice. All 11 EN posts and their 22 DE/JA siblings are updated.
+- [x] **Tag system overhaul** - done: the 48 fragmented tags are consolidated into a curated 11-tag vocabulary (`nfc-tags`, `business-cards`, `qr-codes`, `iphone`, `android`, `guides`, `privacy`, `networking`, `automation`, `industry`, `announcements`); the `category:` frontmatter field is dropped entirely (tags are the single taxonomy). `TagListingRenderer` was rewritten to emit `.blog-card`-styled per-tag pages plus a styled `/tags/` chip index, with section-aware post links (fixes the old `/nfc/{slug}/` 404s) and localized display names/descriptions across en/de/ja.
+- [ ] **Localize `/nfc-reader/` to DE and JA** - `Content/Pages/NfcReader.md` is EN-only; `/de/nfc-reader/` and `/ja/nfc-reader/` currently serve fallback redirects. Create `NfcReader.de.md` and `NfcReader.ja.md` (page copy plus the widget panel strings).
+- [ ] **Re-submit the EN sitemap in Google Search Console** - `https://nfc.cool/sitemap.xml` was last read 9 May 2026 (stale snapshot: 19 URLs vs the current 123). Re-submit it, and submit `https://nfc.cool/sitemap_index.xml`, so Google re-reads the full set.
+- [ ] **Review the agent-translated DE/JA blog posts** - the German and Japanese versions of the rewritten NFC-core posts, the new "Digital Business Cards by Profession" pillar, and the 11 voice-pass posts are agent translations of the approved English. Spot-check the German; verify the Japanese. Known cleanup: some JA posts use "--" as an em-dash substitute that should be normalized to a plain hyphen.
+- [ ] **Test the `/nfc-reader/` Web NFC widget on a real Android phone** - the live in-browser scan flow (`NDEFReader`) only works on Android Chrome with a physical tag, so it could not be verified without a device.
+- [x] **Add image roles to `Content/ImageManifest.yaml`** - done: added `feature-subsection`, `blog-card`, and `page-gallery` roles. Images using the conservative `default` role dropped from 456 to 15, and first-visit savings rose from ~21 MB to ~39 MB. The remaining 15 are heterogeneous marketing-page figures left on `default` deliberately.
+
+Strategy: keep NFC the clear core of the blog (QR/barcode/document/3D/business-card content is supporting only). The Webflow->SiteKit migration de-indexed most pages; recovery = topical authority + internal linking + first-person voice + external signals.
+
 ## Hosting & integrations
 
 - [x] **Deploy target: GitHub Pages.** Newsletter posts cross-origin to the shared Mailjet Cloudflare Worker (`https://mailjet.02mining-hollers.workers.dev/`, same one the iOS apps use) - no Pages Function needed in this repo.
@@ -71,12 +87,12 @@ Audited against `https://www.nfc.cool` and `https://nfc.cool/.well-known/...` on
    google.com, pub-2698788927130711, DIRECT, f08c47fec0942fa0
    ```
 - [ ] **Android `assetlinks.json`** - not present on the live site (404). If the Android Tools app uses App Links to open NFC.cool URLs, add `Content/Assets/.well-known/assetlinks.json` with the SHA-256 cert fingerprints from Play Console → "App signing".
-- [ ] **Google Search Console verification** - live `<head>` has `<meta name="google-site-verification" content="8Deh-qJD2ZKg_mAjM5-dMRDWS15XcUiIc6w4h9fL9-U"/>`. Add it to `SiteConfig.yaml` (or the site-wide `<head>` extra-meta hook) so Search Console keeps verifying after the cutover.
-- [ ] **Twitter / Open Graph image** - live site uses a single hero card (`twitter:image` on a Shopify CDN URL, plus `twitter:site=@NFC_for_iPhone`, `twitter:image:alt="3 Phones Networking Showing NFC.cool App & NFC.cool Products"`). Decide on a brand-correct 1200×630 OG image, drop it in `Content/Assets/images/` and wire it into `SiteConfig.yaml`.
+- [x] **Google Search Console verification** - done: `GoogleSiteVerificationProcessor` injects `<meta name="google-site-verification" content="8Deh-qJD2ZKg_mAjM5-dMRDWS15XcUiIc6w4h9fL9-U"/>` into every page's `<head>`.
+- [x] **Twitter / Open Graph image** - done: `twitter:site=@NFC_for_iPhone` is injected by `TwitterSiteProcessor`, and `og-landing.webp` (1200×630) is wired as the site-wide `defaultImage` in `Theme/theme.yaml`, so every page emits `og:image` / `twitter:image`.
 - [ ] **Replace press-kit / brand-kit placeholders with real iCloud Drive URLs** (see `Content/Pages/Press.{md,de.md,ja.md}` - the live Webflow site links:
    - Press Kit: `https://www.icloud.com/iclouddrive/0e7Gy46aFsq8U2kqEyIs9Wleg#NFC.cool_Press_Kit`
    - Brand Kit: `https://www.icloud.com/iclouddrive/0ebMuI8X63LN-CiUiF8YlVb2A#NFC.cool_Brand_Kit`
-- [ ] **Install ImageMagick on CI** - `.github/workflows/deploy.yml` doesn't install `imagemagick`, so `srcset` variants like `Screenshot-1-900w.jpg` are silently skipped in production builds. Add `sudo apt-get install -y imagemagick` before the Swift build step.
+- [x] **Install ImageMagick on CI** - done: `.github/workflows/deploy.yml` installs `imagemagick` (`sudo apt-get install -y imagemagick`) before the Swift build, so `srcset` variants generate in production builds.
 
 ## Verification (do this before launch)
 
