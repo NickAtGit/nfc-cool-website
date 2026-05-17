@@ -119,28 +119,6 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <div class="nfc-reader-panel" data-panel="written">
 <span class="nfc-reader-badge is-success"><svg class="nfc-reader-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Tag written</span>
 <div class="nfc-reader-field"><span class="nfc-reader-field-label">Written to the tag</span><span class="nfc-reader-value" data-nfc-written></span></div>
-<div data-nfc-lock-start-wrap>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-lock-start><svg class="nfc-reader-lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span>Lock This Tag</span></button>
-</div>
-<div class="nfc-reader-lock-confirm" data-nfc-lock-confirm hidden>
-<p class="nfc-reader-warn">Locking is permanent. Once locked, this tag can never be written again.</p>
-<div class="nfc-reader-btn-row">
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-lock-cancel><span>Cancel</span></button>
-<button type="button" class="landing-cta-button landing-cta-button--danger landing-cta-button--block" data-nfc-lock-go><svg class="nfc-reader-lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span>Lock Tag</span></button>
-</div>
-</div>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>Write Another Tag</span></button>
-</div>
-<div class="nfc-reader-panel" data-panel="locking">
-<div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span></div>
-<p class="nfc-reader-title">Hold your tag again</p>
-<p class="nfc-reader-lead">Touch the same tag to your phone to lock it.</p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-cancel><span>Cancel</span></button>
-</div>
-<div class="nfc-reader-panel" data-panel="locked">
-<span class="nfc-reader-badge is-success"><svg class="nfc-reader-lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Tag locked</span>
-<p class="nfc-reader-title">This tag is now read-only</p>
-<p class="nfc-reader-lead">It keeps its data and can still be read anywhere - it just can't be rewritten.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>Write Another Tag</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="error">
@@ -241,51 +219,45 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 
 <section class="page-section">
 
-## Write and Lock Tags in Your Browser
-
-Reading is only half of it. On the *Write* tab I let you put a link or a line of text onto a tag - the same way I would program one in the app. Pick what you want to store, type it in, hold a tag to your phone, and it is written.
-
-Once a tag is written, you can lock it. Locking makes the tag read-only for good: it keeps working everywhere, but no one (including you) can ever change it again. I put a confirmation step in front of it because there is no undo.
-
-Writing and locking need the same setup as reading - an Android phone running Chrome. On iPhone, the NFC.cool app handles writing and locking instead.
-
-</section>
-
-<section class="page-section">
-
 ## Want to Do More Than Read and Write?
 
-The reader on this page handles the everyday jobs - read a tag, write a link or some text, lock it. For most people that is the whole story, and the browser's Web NFC API stops right about there: plain NDEF records, Android Chrome only. When you want to go further, that is what I built the **NFC.cool app** for. It does everything on this page, then keeps going where a browser simply cannot:
+The reader on this page handles the everyday jobs - read a tag and write common data to one. For most people that is the whole story, and the browser's Web NFC API stops right about there: plain NDEF records, Android Chrome only. The **NFC.cool app** does everything on this page, then keeps going where a browser cannot:
 
 <div class="page-cards-grid">
 
 <article class="page-card nfc-feature-card">
-<span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L18.5 9.5a2.1 2.1 0 0 0-3-3L5 17v3Z"/><path d="m13.5 6.5 3 3"/></svg></span>
-<h3>Write 25+ kinds of data</h3>
-<p>This page writes a link or plain text. The app writes Wi-Fi logins, contact cards, payment links, Shortcuts, Spotify, social profiles, even crypto wallet addresses - 25+ types, each from a ready-made template.</p>
+<span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+<h3>Lock, format and protect tags</h3>
+<p>Lock a tag so its contents can never change, wipe one back to blank, or password-protect it so only your devices can rewrite it.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
-<h3>Protect and encrypt tags</h3>
-<p>A browser can only lock a tag read-only. The app also password-protects tags so only your devices can touch them, and NFC Safe encrypts a secret onto the chip itself with AES-256.</p>
+<h3>Encrypt secrets with NFC Safe</h3>
+<p>NFC Safe encrypts a secret onto the chip itself with AES-256, so the tag reads as scrambled data to anything but the app. <a href="/blog/nfc-safe-encrypted-secrets/">How NFC Safe works</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
-<h3>Automate every tap</h3>
-<p>Wire a tag to fire a webhook to your server, run an iOS Shortcut, speak its contents aloud, or open a link the moment it is tapped.</p>
+<h3>Automate what a tap does</h3>
+<p>A tag can fire a webhook, run an iOS Shortcut, speak its contents aloud, or count how often it is scanned. <a href="/blog/count-nfc-tag-scans/">How to count NFC tag scans</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
-<h3>See inside the chip</h3>
-<p>Power-User mode dumps a tag's full memory, names the chip - NTAG, MIFARE, FeliCa and more - and on iPhone sends raw APDU commands. Web NFC only ever shows you NDEF records.</p>
+<h3>Clone, reset and inspect tags</h3>
+<p>Clone a tag, dump and identify its raw chip memory, or reprogram NFC-gated hardware like <a href="/blog/openprinttag-read-write-nfc-spools-phone/">3D-printer filament spools</a> and <a href="/blog/reset-sonicare-brush-head-nfc/">electric-toothbrush heads</a>.</p>
 </article>
 
 </div>
 
-There is one more thing no browser can do: run on iPhone at all. Apple blocks NFC in every iOS browser, so a web reader cannot work there - the app reads and writes tags on iPhone just as well as on Android.
+</section>
+
+<section class="page-hero nfc-reader-cta">
+
+## NFC on iPhone Needs the App
+
+Apple blocks NFC in every iOS browser, so no website can read or write tags on an iPhone or iPad. The NFC.cool app does it natively, just as well as on Android.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -305,48 +277,28 @@ There is one more thing no browser can do: run on iPhone at all. Apple blocks NF
 <div class="nfc-reader-faq">
 
 <details class="faq-item">
-<summary>Can I read an NFC tag online without an app?</summary>
-<p>Yes - on an Android phone using Chrome. This page reads the tag through your browser's built-in Web NFC support, so there is nothing to install. On iPhone, browser-based reading is not possible and you need the NFC.cool app.</p>
+<summary>Can I read and write NFC tags without an app?</summary>
+<p>Yes, on an Android phone in Chrome. The page uses your browser's built-in Web NFC, so there is nothing to install - tap Scan to read a tag, or use the Write tab to put a link, text, contact, Wi-Fi network and more onto one.</p>
 </details>
 
 <details class="faq-item">
-<summary>Can I write to an NFC tag from the browser?</summary>
-<p>Yes. Switch to the Write tab, pick a type from the dropdown - link, text, phone, email, SMS, location, contact card or Wi-Fi network - fill in the fields, and hold a tag to your phone. Writing uses the same Web NFC support as reading, so it also needs Chrome on Android. The app handles writing on iPhone.</p>
+<summary>Can I write a Wi-Fi network or contact card to a tag?</summary>
+<p>Yes. Pick Wi-Fi network or Contact card in the Write dropdown and fill in the fields. A Wi-Fi tag prompts Android phones to join the network; a contact tag stores a standard vCard that phones offer to save.</p>
 </details>
 
 <details class="faq-item">
-<summary>Can I write a Wi-Fi network to an NFC tag?</summary>
-<p>Yes. Choose Wi-Fi network in the Write dropdown, enter the network name, password and security type, and hold a tag to your phone. Anyone who taps that tag with an Android phone gets a prompt to join the network, with no password to type. For WPA3 and other advanced options, use the NFC.cool app.</p>
+<summary>Does it work on iPhone?</summary>
+<p>No. Apple blocks NFC for every iOS browser, so no website can read or write tags on an iPhone or iPad. The free NFC.cool app does it on iPhone instead.</p>
 </details>
 
 <details class="faq-item">
-<summary>Can I save a contact to an NFC tag?</summary>
-<p>Yes. Pick Contact card in the Write dropdown and fill in the name, phone, email and organization. The tag stores a standard vCard, so tapping it offers to add the contact straight to the phone's address book.</p>
-</details>
-
-<details class="faq-item">
-<summary>What does locking a tag do?</summary>
-<p>Locking makes a tag permanently read-only. Its data still works everywhere, but it can never be rewritten - not by you, not by anyone. There is no way to undo it, so I always ask you to confirm first.</p>
-</details>
-
-<details class="faq-item">
-<summary>Does this work on iPhone?</summary>
-<p>No. Apple does not allow Safari or any other iOS browser to access the NFC chip, so no website can read or write NFC tags on iPhone or iPad. The free NFC.cool app reads, writes, and locks NFC tags on iPhone instead.</p>
+<summary>Which browsers are supported?</summary>
+<p>Web NFC works only in Chrome and other Chromium browsers on Android. Desktop and iOS browsers do not support it - if yours cannot, the page shows what to do instead.</p>
 </details>
 
 <details class="faq-item">
 <summary>Is the online NFC reader free?</summary>
-<p>Completely free. There is no sign-up, no limit on scans, and no payment. The tag's data is read or written on your own device and never uploaded.</p>
-</details>
-
-<details class="faq-item">
-<summary>Which browsers can read and write NFC tags?</summary>
-<p>Web NFC is supported by Chrome and most Chromium-based browsers on Android. Desktop browsers and all iOS browsers do not support it. If your browser cannot use NFC, this page shows you what to do instead.</p>
-</details>
-
-<details class="faq-item">
-<summary>Why don't I see the reader on my device?</summary>
-<p>It comes down to one of three things: you are on iPhone (browser NFC is blocked by Apple), you are on a desktop browser (no NFC hardware), or you are on Android in a browser other than Chrome. On Android, open the page in Chrome and turn NFC on in Settings.</p>
+<p>Completely free - no sign-up and no scan limit. Tags are read and written on your own device, and nothing is ever uploaded.</p>
 </details>
 
 </div>

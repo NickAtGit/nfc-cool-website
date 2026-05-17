@@ -1,6 +1,6 @@
 /* Online NFC Reader + Writer - powers the widget on /online-nfc-reader/.
-   Uses the Web NFC API (NDEFReader: scan / write / makeReadOnly), which
-   exists only in Chrome on Android. data-state picks the visible
+   Uses the Web NFC API (NDEFReader: scan / write), which exists only in
+   Chrome on Android. data-state picks the visible
    .nfc-reader-panel; data-mode highlights the Read/Write tab. The HTML
    default state is "desktop", so a no-JS visitor still lands on a panel.
 
@@ -65,7 +65,6 @@
       'err.notSupported': "This phone can't reach an NFC chip. Check that NFC is switched on in Android settings.",
       'err.notReadable': "Android couldn't open NFC. Make sure NFC is turned on, then try again.",
       'err.write': "The tag couldn't be written. It may be locked, too small, or it moved away too soon.",
-      'err.lock': "The tag couldn't be locked. Hold it still against your phone and try again.",
       'err.read': 'The scan stopped unexpectedly. Hold a tag to your phone and try again.'
    };
 
@@ -115,8 +114,6 @@
       const typeSelectEl = app.querySelector('[data-nfc-type-select]');
       const fieldGroups = app.querySelectorAll('[data-nfc-fields]');
       const inputErrEl = app.querySelector('[data-nfc-input-error]');
-      const lockStartWrap = app.querySelector('[data-nfc-lock-start-wrap]');
-      const lockConfirmEl = app.querySelector('[data-nfc-lock-confirm]');
 
       let scanReader = null;     // held so the active scan isn't GC'd
       let readArmed = false;     // reader.scan() is already listening
@@ -474,31 +471,10 @@
             const writer = new NDEFReader();
             await writer.write({ records: built.records }, { signal: opAbort.signal });
             writtenEl.textContent = built.summary;
-            resetLockConfirm();
             setState('written');
          } catch (e) {
             if (e && e.name === 'AbortError') return; // caller already set the next state
             handleError(e, 'write');
-         }
-      }
-
-      // --- Locking -----------------------------------------------------
-      function resetLockConfirm() {
-         lockStartWrap.hidden = false;
-         lockConfirmEl.hidden = true;
-      }
-
-      async function startLock() {
-         lastAction = 'lock';
-         setState('locking');
-         opAbort = new AbortController();
-         try {
-            const locker = new NDEFReader();
-            await locker.makeReadOnly({ signal: opAbort.signal });
-            setState('locked');
-         } catch (e) {
-            if (e && e.name === 'AbortError') return; // caller already set the next state
-            handleError(e, 'lock');
          }
       }
 
@@ -515,8 +491,6 @@
             msg = t('err.notReadable');
          } else if (action === 'write') {
             msg = t('err.write');
-         } else if (action === 'lock') {
-            msg = t('err.lock');
          } else {
             msg = t('err.read');
          }
@@ -526,18 +500,11 @@
 
       function retry() {
          if (lastAction === 'write') startWrite();
-         else if (lastAction === 'lock') startLock();
          else startScan();
       }
 
       function cancelOp() {
-         const wasLocking = stateNow() === 'locking';
          if (opAbort) opAbort.abort();
-         if (wasLocking) {
-            resetLockConfirm();
-            setState('written');
-            return;
-         }
          setState(app.getAttribute('data-mode') === 'write' ? 'write-ready' : 'read-ready');
       }
 
@@ -567,12 +534,6 @@
       onClick('[data-nfc-write-again]', function () { switchMode('write'); });
       onClick('[data-nfc-retry]', retry);
       onClick('[data-nfc-cancel]', cancelOp);
-      onClick('[data-nfc-lock-start]', function () {
-         lockStartWrap.hidden = true;
-         lockConfirmEl.hidden = false;
-      });
-      onClick('[data-nfc-lock-cancel]', resetLockConfirm);
-      onClick('[data-nfc-lock-go]', startLock);
       app.querySelectorAll('[data-nfc-tab]').forEach(function (tab) {
          tab.addEventListener('click', function () { switchMode(tab.getAttribute('data-nfc-tab')); });
       });

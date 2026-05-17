@@ -7,7 +7,7 @@
 /* Lock the visual column to a content-independent width so the phone keeps
    the same size when switching between the Read and Write panels. */
 @media (min-width: 901px) {
-   .nfc-reader-hero .page-hero-grid { grid-template-columns: 1.1fr minmax(0, 1fr); }
+   .nfc-reader-hero .page-hero-grid { grid-template-columns: 1fr 320px; }
 }
 .nfc-reader {
    width: 100%;
@@ -32,7 +32,8 @@
 .nfc-phone-screen {
    display: flex;
    flex-direction: column;
-   min-height: 440px;
+   min-width: 294px;
+   min-height: 500px;
    border-radius: 34px;
    overflow: hidden;
    background: var(--color-bg-card);
@@ -95,8 +96,6 @@
 .nfc-reader[data-state="write-ready"] [data-panel="write-ready"],
 .nfc-reader[data-state="writing"] [data-panel="writing"],
 .nfc-reader[data-state="written"] [data-panel="written"],
-.nfc-reader[data-state="locking"] [data-panel="locking"],
-.nfc-reader[data-state="locked"] [data-panel="locked"],
 .nfc-reader[data-state="error"] [data-panel="error"],
 .nfc-reader[data-state="ios"] [data-panel="ios"],
 .nfc-reader[data-state="android-other"] [data-panel="android-other"],
@@ -127,8 +126,6 @@
 }
 .nfc-reader-os-icon { width: 1rem; height: 1rem; color: #3DDC84; flex-shrink: 0; }
 .nfc-reader-check { width: 0.95rem; height: 0.95rem; color: #1FA85A; flex-shrink: 0; }
-.nfc-reader-lock-icon { width: 0.95rem; height: 0.95rem; flex-shrink: 0; }
-.nfc-reader-badge .nfc-reader-lock-icon { color: #1FA85A; }
 
 .nfc-reader-title {
    margin: 0.9rem 0 0;
@@ -147,36 +144,16 @@
 
 /* Widget actions use the unified .landing-cta-button. The phone card is
    nested inside .page-hero, so override the hero's white treatment back to
-   the normal blue/yellow; the lock action keeps a red (danger) outline.
-   Selector depth + load order win over the dark-hero rule in landing.css. */
+   the normal blue/yellow. Selector depth + load order win over the
+   dark-hero rule in landing.css. */
 .nfc-reader .nfc-phone .landing-cta-button {
    --cta-border: var(--color-link);
    --cta-text: var(--color-link);
    --cta-fill-hover: var(--color-link-light);
    --cta-border-hover: var(--color-link-hover);
 }
-.nfc-reader .nfc-phone .landing-cta-button--danger {
-   --cta-border: #C0303C;
-   --cta-text: #C0303C;
-   --cta-fill-hover: rgba(192, 48, 60, 0.10);
-   --cta-border-hover: #C0303C;
-}
-[data-theme="dark"] .nfc-reader .nfc-phone .landing-cta-button--danger {
-   --cta-border: #E8888C;
-   --cta-text: #E8888C;
-   --cta-fill-hover: rgba(232, 136, 140, 0.14);
-   --cta-border-hover: #E8888C;
-}
-/* Panel buttons get breathing room above; the two-up confirm row sits flush. */
+/* Panel buttons get breathing room above. */
 .nfc-reader-body .landing-cta-button { margin-top: 1.5rem; }
-.nfc-reader-btn-row {
-   display: flex;
-   gap: 0.6rem;
-}
-.nfc-reader-btn-row .landing-cta-button {
-   flex: 1;
-   margin-top: 0;
-}
 
 /* Scanning state - expanding radar rings around an NFC core */
 .nfc-reader-radar {
@@ -213,7 +190,6 @@
    color: var(--reader-accent-fg);
 }
 .nfc-reader-radar-core .nfc-reader-wave-icon { width: 26px; height: 26px; }
-.nfc-reader-radar-core .nfc-reader-lock-icon { width: 24px; height: 24px; }
 @media (prefers-reduced-motion: reduce) {
    .nfc-reader-radar::before,
    .nfc-reader-radar::after { animation: none; opacity: 0.3; }
@@ -412,17 +388,8 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
 }
 .nfc-reader-tech-note a { color: var(--color-link); }
 
-/* Written state - lock action + its irreversible confirm step */
-.nfc-reader-panel [data-nfc-lock-start-wrap] .landing-cta-button { margin-top: 1.1rem; }
-.nfc-reader-lock-confirm { margin-top: 1.1rem; }
-.nfc-reader-lock-confirm .landing-cta-button { margin-top: 0; }
+/* Written state */
 .nfc-reader-panel [data-nfc-write-again] { margin-top: 0.7rem; }
-.nfc-reader-warn {
-   margin: 0 0 0.7rem;
-   font-size: 0.85rem;
-   line-height: 1.5;
-   color: #C0303C;
-}
 
 /* Desktop panel - QR code to continue the reader on a phone */
 .nfc-phone .nfc-reader-qr {
@@ -472,7 +439,7 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
    .nfc-reader-hero .page-hero-visual { order: 1; }
 }
 
-/* Closing CTA band - reuses the .tap-cta button styles */
+/* CTA bands - the mid-page iPhone pitch and the closing band. */
 .nfc-reader-cta { text-align: center; }
 .nfc-reader-cta h2 {
    font-family: var(--font-heading);
@@ -483,4 +450,8 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
    color: #FFFFFF;
    margin: 0 auto 1rem;
    max-width: 20ch;
+}
+.nfc-reader-cta .landing-store-buttons {
+   justify-content: center;
+   margin-top: 2rem;
 }
