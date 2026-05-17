@@ -332,6 +332,10 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
    text-align: left;
 }
 .nfc-reader-details > summary {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1rem;
    padding: 0.6rem 0.85rem;
    font-size: 0.78rem;
    font-weight: 700;
@@ -342,11 +346,18 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
 }
 .nfc-reader-details > summary::-webkit-details-marker { display: none; }
 .nfc-reader-details > summary::after {
-   content: "+";
-   float: right;
-   color: var(--color-text-muted);
+   content: "";
+   width: 0;
+   height: 0;
+   flex-shrink: 0;
+   border-left: 5px solid transparent;
+   border-right: 5px solid transparent;
+   border-top: 6px solid var(--color-link);
+   transition: transform 0.2s ease;
 }
-.nfc-reader-details[open] > summary::after { content: "-"; }
+.nfc-reader-details[open] > summary::after {
+   transform: rotate(180deg);
+}
 .nfc-reader-tech { padding: 0 0.85rem 0.7rem; }
 .nfc-reader-tech-row {
    display: flex;
@@ -365,19 +376,6 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
    text-transform: uppercase;
    letter-spacing: 0.06em;
    color: var(--color-text-muted);
-}
-.nfc-reader-hex {
-   margin: 0.4rem 0 0;
-   padding: 0.5rem 0.6rem;
-   background: var(--color-bg-card);
-   border: 1px solid var(--color-border);
-   border-radius: var(--radius);
-   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-   font-size: 0.7rem;
-   line-height: 1.55;
-   color: var(--color-text-secondary);
-   white-space: pre-wrap;
-   word-break: break-all;
 }
 .nfc-reader-tech-note {
    margin: 0.75rem 0 0;

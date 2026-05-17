@@ -35,7 +35,6 @@
       'read.unavailable': 'unavailable',
       'read.noRecords': 'The tag is readable but holds no records.',
       'unit.bytes': 'bytes',
-      'tech.serial': 'Serial number',
       'tech.records': 'Records',
       'tech.total': 'Total payload',
       'tech.record': 'Record',
@@ -125,15 +124,6 @@
       setState('read-ready');
 
       // --- Reading -----------------------------------------------------
-      // Render a DataView as space-separated 2-digit hex.
-      function bytesToHex(view) {
-         const out = [];
-         for (let i = 0; i < view.byteLength; i++) {
-            out.push(view.getUint8(i).toString(16).padStart(2, '0'));
-         }
-         return out.join(' ').toUpperCase();
-      }
-
       // Pull the SSID out of a Wi-Fi Simple Config (WSC) payload.
       function wscSsid(view) {
          try {
@@ -227,11 +217,10 @@
       }
 
       // Fill the unfoldable "Technical details" section from the read event.
-      function buildTech(records, serial) {
+      function buildTech(records) {
          techEl.textContent = '';
          let totalBytes = 0;
          records.forEach(function (r) { totalBytes += (r.data && r.data.byteLength) || 0; });
-         techEl.appendChild(techRow(t('tech.serial'), serial));
          techEl.appendChild(techRow(t('tech.records'), String(records.length)));
          techEl.appendChild(techRow(t('tech.total'), totalBytes + ' ' + t('unit.bytes')));
          records.forEach(function (r, i) {
@@ -248,12 +237,6 @@
             if (r.lang) block.appendChild(techRow(t('tech.language'), r.lang));
             const len = (r.data && r.data.byteLength) || 0;
             block.appendChild(techRow(t('tech.size'), len + ' ' + t('unit.bytes')));
-            if (len) {
-               const hex = document.createElement('pre');
-               hex.className = 'nfc-reader-hex';
-               hex.textContent = bytesToHex(r.data);
-               block.appendChild(hex);
-            }
             techEl.appendChild(block);
          });
          const note = document.createElement('p');
@@ -298,7 +281,7 @@
                recordsEl.appendChild(li);
             });
          }
-         buildTech(records, serial);
+         buildTech(records);
          setState('result');
       }
 
