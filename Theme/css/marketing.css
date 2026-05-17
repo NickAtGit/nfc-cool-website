@@ -550,26 +550,50 @@
 }
 
 /* ============================================================
-   Online NFC Reader - /nfc-reader/. The #nfc-reader-app widget is
-   the right-hand visual of the split hero. Its data-state attribute
-   (set by theme.js) switches the visible .nfc-reader-panel:
-   unsupported / ready / scanning / result / error.
+   Online NFC Reader + Writer - /nfc-reader/. The #nfc-reader-app
+   widget is the right-hand visual of the split hero, framed as a
+   phone. theme.js sets data-state (which .nfc-reader-panel shows)
+   and data-mode (Read/Write tab highlight).
    ============================================================ */
 .nfc-reader { width: 100%; }
-.nfc-reader-card {
+
+/* Phone-frame bezel + inset screen */
+.nfc-phone {
+   position: relative;
    width: 100%;
-   max-width: 400px;
+   max-width: 320px;
    margin: 0 auto;
-   text-align: center;
-   background: var(--color-bg-card);
-   border: 1px solid var(--color-border);
-   border-radius: var(--radius-lg);
-   padding: clamp(1.75rem, 3.5vw, 2.5rem);
-   box-shadow: 0 24px 60px -24px var(--color-shadow-lg);
+   padding: 13px;
+   border-radius: 46px;
+   background: linear-gradient(165deg, #34363b 0%, #17181a 60%, #0e0f10 100%);
+   box-shadow:
+      0 30px 64px -22px var(--color-shadow-lg),
+      0 6px 18px -6px rgba(0, 0, 0, 0.35),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.07);
 }
-/* Store badges in the unsupported panel must opt out of the
-   .page-hero-visual img treatment - rotation, shadow, stretch. */
-.nfc-reader-card img {
+/* Camera dot in the top bezel */
+.nfc-phone::before {
+   content: "";
+   position: absolute;
+   top: 5px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 7px;
+   height: 7px;
+   border-radius: 50%;
+   background: rgba(255, 255, 255, 0.18);
+}
+.nfc-phone-screen {
+   display: flex;
+   flex-direction: column;
+   min-height: 440px;
+   border-radius: 34px;
+   overflow: hidden;
+   background: var(--color-bg-card);
+}
+/* QR + store badges opt out of the .page-hero-visual img treatment
+   (rotation, shadow, full-width stretch). */
+.nfc-phone img {
    width: auto;
    max-width: 100%;
    max-height: none;
@@ -577,12 +601,58 @@
    box-shadow: none;
    transform: none;
 }
+
+/* Read / Write tab bar - hidden on the non-interactive panels */
+.nfc-reader-tabs {
+   display: flex;
+   background: var(--color-bg);
+   border-bottom: 1px solid var(--color-border);
+}
+.nfc-reader[data-state="desktop"] .nfc-reader-tabs,
+.nfc-reader[data-state="ios"] .nfc-reader-tabs,
+.nfc-reader[data-state="android-other"] .nfc-reader-tabs { display: none; }
+.nfc-reader-tab {
+   flex: 1;
+   padding: 0.85rem 0.5rem;
+   border: 0;
+   border-bottom: 2px solid transparent;
+   background: transparent;
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 0.95rem;
+   color: var(--color-text-muted);
+   cursor: pointer;
+   transition: color var(--transition), border-color var(--transition);
+}
+.nfc-reader-tab:hover { color: var(--color-text-secondary); }
+.nfc-reader[data-mode="read"] .nfc-reader-tab[data-nfc-tab="read"],
+.nfc-reader[data-mode="write"] .nfc-reader-tab[data-nfc-tab="write"] {
+   color: var(--color-text);
+   border-bottom-color: var(--color-accent);
+}
+
+/* Screen body - one .nfc-reader-panel visible at a time */
+.nfc-reader-body {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   padding: clamp(1.4rem, 4.5vw, 1.9rem);
+}
 .nfc-reader-panel { display: none; }
-.nfc-reader[data-state="unsupported"] [data-panel="unsupported"],
-.nfc-reader[data-state="ready"] [data-panel="ready"],
+.nfc-reader[data-state="read-ready"] [data-panel="read-ready"],
 .nfc-reader[data-state="scanning"] [data-panel="scanning"],
 .nfc-reader[data-state="result"] [data-panel="result"],
-.nfc-reader[data-state="error"] [data-panel="error"] { display: block; }
+.nfc-reader[data-state="write-ready"] [data-panel="write-ready"],
+.nfc-reader[data-state="writing"] [data-panel="writing"],
+.nfc-reader[data-state="written"] [data-panel="written"],
+.nfc-reader[data-state="locking"] [data-panel="locking"],
+.nfc-reader[data-state="locked"] [data-panel="locked"],
+.nfc-reader[data-state="error"] [data-panel="error"],
+.nfc-reader[data-state="ios"] [data-panel="ios"],
+.nfc-reader[data-state="android-other"] [data-panel="android-other"],
+.nfc-reader[data-state="desktop"] [data-panel="desktop"] { display: block; }
 
 /* Status badge at the top of each panel */
 .nfc-reader-badge {
@@ -609,6 +679,8 @@
 }
 .nfc-reader-os-icon { width: 1rem; height: 1rem; color: #3DDC84; flex-shrink: 0; }
 .nfc-reader-check { width: 0.95rem; height: 0.95rem; color: #1FA85A; flex-shrink: 0; }
+.nfc-reader-lock-icon { width: 0.95rem; height: 0.95rem; flex-shrink: 0; }
+.nfc-reader-badge .nfc-reader-lock-icon { color: #1FA85A; }
 
 .nfc-reader-title {
    margin: 0.9rem 0 0;
@@ -652,6 +724,7 @@
 }
 .nfc-reader-btn:active { transform: translateY(0); }
 .nfc-reader-btn .nfc-reader-wave-icon { width: 1.2em; height: 1.2em; }
+.nfc-reader-btn .nfc-reader-lock-icon { width: 1.15em; height: 1.15em; }
 .nfc-reader-btn.is-secondary {
    background: transparent;
    color: var(--color-text);
@@ -662,6 +735,23 @@
 .nfc-reader-btn.is-secondary:hover {
    background: var(--color-bg);
    border-color: var(--color-text-muted);
+}
+/* Destructive variant - the irreversible "Lock Tag" confirm button */
+.nfc-reader-btn.is-danger {
+   background: #D64545;
+   color: #FFFFFF;
+   box-shadow: 0 10px 22px -10px rgba(214, 69, 69, 0.7);
+}
+.nfc-reader-btn.is-danger:hover { background: #C0303C; }
+/* Two buttons side by side (Cancel | Lock Tag) */
+.nfc-reader-btn-row {
+   display: flex;
+   gap: 0.6rem;
+}
+.nfc-reader-btn-row .nfc-reader-btn {
+   width: auto;
+   flex: 1;
+   margin-top: 0;
 }
 
 /* Scanning state - expanding radar rings around an NFC core */
@@ -699,6 +789,7 @@
    color: #1A1A1A;
 }
 .nfc-reader-radar-core .nfc-reader-wave-icon { width: 26px; height: 26px; }
+.nfc-reader-radar-core .nfc-reader-lock-icon { width: 24px; height: 24px; }
 @media (prefers-reduced-motion: reduce) {
    .nfc-reader-radar::before,
    .nfc-reader-radar::after { animation: none; opacity: 0.3; }
@@ -772,7 +863,115 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
    word-break: break-all;
 }
 
-/* On mobile the split hero stacks - reader card above the copy */
+/* Write form - record-type toggle + value input */
+.nfc-reader-type-toggle {
+   display: flex;
+   gap: 3px;
+   margin-top: 1.1rem;
+   padding: 3px;
+   background: var(--color-bg);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-pill);
+}
+.nfc-reader-type {
+   flex: 1;
+   padding: 0.45rem 0.5rem;
+   border: 0;
+   border-radius: var(--radius-pill);
+   background: transparent;
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 0.85rem;
+   color: var(--color-text-muted);
+   cursor: pointer;
+   transition: background var(--transition), color var(--transition);
+}
+.nfc-reader[data-write-type="url"] .nfc-reader-type[data-nfc-type="url"],
+.nfc-reader[data-write-type="text"] .nfc-reader-type[data-nfc-type="text"] {
+   background: var(--color-accent);
+   color: #1A1A1A;
+}
+.nfc-reader-input {
+   width: 100%;
+   margin-top: 0.8rem;
+   padding: 0.7rem 0.85rem;
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius);
+   background: var(--color-bg);
+   color: var(--color-text);
+   font-family: inherit;
+   font-size: 0.95rem;
+}
+.nfc-reader-input::placeholder { color: var(--color-text-muted); }
+.nfc-reader-input:focus {
+   outline: none;
+   border-color: var(--color-accent);
+   box-shadow: 0 0 0 3px rgba(255, 199, 9, 0.18);
+}
+.nfc-reader-input-error {
+   margin: 0.5rem 0 0;
+   font-size: 0.8rem;
+   line-height: 1.4;
+   color: #C0303C;
+   text-align: left;
+}
+.nfc-reader-input-error:empty { display: none; }
+
+/* Written state - lock action + its irreversible confirm step */
+.nfc-reader-panel [data-nfc-lock-start-wrap] .nfc-reader-btn { margin-top: 1.1rem; }
+.nfc-reader-lock-confirm { margin-top: 1.1rem; }
+.nfc-reader-lock-confirm .nfc-reader-btn { margin-top: 0; }
+.nfc-reader-panel [data-nfc-write-again] { margin-top: 0.7rem; }
+.nfc-reader-warn {
+   margin: 0 0 0.7rem;
+   font-size: 0.85rem;
+   line-height: 1.5;
+   color: #C0303C;
+}
+
+/* Desktop panel - QR code to continue the reader on a phone */
+.nfc-phone .nfc-reader-qr {
+   display: block;
+   width: 188px;
+   height: 188px;
+   margin: 1.1rem auto 0;
+   border: 1px solid var(--color-border);
+   border-radius: 12px;
+}
+.nfc-reader-fineprint {
+   margin: 0.85rem 0 0;
+   font-size: 0.8125rem;
+   color: var(--color-text-muted);
+}
+.nfc-reader-fineprint a { color: var(--color-link); }
+/* Store badges sit centred inside a panel */
+.nfc-reader-body .landing-store-buttons {
+   margin-top: 1.2rem;
+   justify-content: center;
+}
+
+/* "How It Works" reuses .landing-feature-num - the 01/02/03 script-font
+   numbers from the landing feature grid. The card only needs to be a
+   positioning context with headroom for the number. Icon cards below. */
+.nfc-step {
+   position: relative;
+   padding-top: 3.5rem;
+}
+.nfc-feature-icon {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 2.6rem;
+   height: 2.6rem;
+   margin-bottom: 0.8rem;
+   border-radius: var(--radius);
+   background: var(--color-bg);
+   border: 1px solid var(--color-border);
+   color: var(--color-link);
+}
+.nfc-feature-icon svg { width: 1.35rem; height: 1.35rem; }
+
+/* On mobile the split hero stacks - phone widget above the copy */
 @media (max-width: 900px) {
    .nfc-reader-hero .page-hero-text { order: 2; }
    .nfc-reader-hero .page-hero-visual { order: 1; }

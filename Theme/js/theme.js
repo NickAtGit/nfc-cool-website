@@ -322,31 +322,55 @@ document.addEventListener('DOMContentLoaded', function() {
       demo.classList.add('is-active');
    })();
 
-   // Online NFC Reader - the /nfc-reader/ page. Reads NFC tags in-browser via
-   // the Web NFC API (NDEFReader), supported on Android Chrome only. The
-   // #nfc-reader-app container's data-state attribute drives which panel shows
-   // (unsupported / ready / scanning / result / error - see .nfc-reader CSS).
-   // data-state starts at "unsupported" in the HTML, so a no-JS or
-   // unsupported visitor lands straight on the app-download panel.
+   // Online NFC Reader + Writer - the /nfc-reader/ page. Uses the Web NFC
+   // API (NDEFReader: scan / write / makeReadOnly), which exists only in
+   // Chrome on Android. data-state picks the visible .nfc-reader-panel and
+   // data-mode highlights the Read/Write tab. The HTML default state is
+   // "desktop", so a no-JS visitor still lands on a usable panel.
    (function() {
       const app = document.getElementById('nfc-reader-app');
       if (!app) return;
 
-      function setState(state) { app.setAttribute('data-state', state); }
+      function setState(s) { app.setAttribute('data-state', s); }
+      function stateNow() { return app.getAttribute('data-state'); }
+      function setMode(m) {
+         app.setAttribute('data-mode', m);
+         app.querySelectorAll('[data-nfc-tab]').forEach(function(tab) {
+            tab.setAttribute('aria-selected', tab.getAttribute('data-nfc-tab') === m ? 'true' : 'false');
+         });
+      }
 
-      if (typeof window.NDEFReader === 'undefined') {
-         setState('unsupported');
+      // Route non-Android-Chrome visitors to a device-specific panel. Web NFC
+      // (NDEFReader) ships only in Chrome on Android; iPhone and desktop get
+      // their own guidance instead of a misleading "unsupported" fallback.
+      const ua = navigator.userAgent || '';
+      const isIOS = /iPad|iPhone|iPod/.test(ua) ||
+         (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      const isAndroid = /Android/.test(ua);
+      if (!('NDEFReader' in window)) {
+         setState(isIOS ? 'ios' : (isAndroid ? 'android-other' : 'desktop'));
          return;
       }
 
       const recordsEl = app.querySelector('[data-nfc-records]');
       const serialEl = app.querySelector('[data-nfc-serial]');
       const errorEl = app.querySelector('[data-nfc-error-msg]');
-      let reader = null;
-      let listening = false;
+      const writtenEl = app.querySelector('[data-nfc-written]');
+      const inputEl = app.querySelector('[data-nfc-input]');
+      const inputErrEl = app.querySelector('[data-nfc-input-error]');
+      const lockStartWrap = app.querySelector('[data-nfc-lock-start-wrap]');
+      const lockConfirmEl = app.querySelector('[data-nfc-lock-confirm]');
 
-      setState('ready');
+      let scanReader = null;     // held so the active scan isn't GC'd
+      let readArmed = false;     // reader.scan() is already listening
+      let writeType = 'url';     // 'url' | 'text'
+      let lastAction = 'read';   // what the error panel's retry re-runs
+      let opAbort = null;        // aborts an in-flight write / lock
 
+      setMode('read');
+      setState('read-ready');
+
+      // --- Reading -----------------------------------------------------
       // Decode one NDEF record into { label, value, href? }.
       function decodeRecord(record) {
          const type = record.recordType;
@@ -404,35 +428,173 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       async function startScan() {
+         lastAction = 'read';
          setState('scanning');
-         // The reader keeps listening once scan() resolves, so onreading fires
-         // on every later tap - no need to re-arm for "Scan Another".
-         if (listening) return;
+         // The reader stays armed once scan() resolves; onreading is guarded
+         // on data-state so taps only count while the panel is "scanning".
+         if (readArmed) return;
          try {
-            reader = new NDEFReader();
-            reader.onreading = showResult;
-            reader.onreadingerror = function() {
-               errorEl.textContent = 'That tag could not be read. Hold it flat against the top of your phone and try again.';
+            scanReader = new NDEFReader();
+            scanReader.onreading = function(event) {
+               if (stateNow() === 'scanning') showResult(event);
+            };
+            scanReader.onreadingerror = function() {
+               if (stateNow() !== 'scanning') return;
+               errorEl.textContent = "I couldn't read that tag. Hold it flat against the top of your phone, then try again.";
+               lastAction = 'read';
                setState('error');
             };
-            await reader.scan();
-            listening = true;
+            await scanReader.scan();
+            readArmed = true;
          } catch (e) {
-            const name = e && e.name;
-            if (name === 'NotAllowedError') {
-               errorEl.textContent = 'NFC permission was denied. Allow NFC access for this site, then try again.';
-            } else if (name === 'NotSupportedError') {
-               setState('unsupported');
-               return;
-            } else {
-               errorEl.textContent = 'NFC scanning could not start. Check that NFC is turned on in your phone settings.';
-            }
-            setState('error');
+            handleError(e, 'read');
          }
       }
 
-      app.querySelectorAll('[data-nfc-scan], [data-nfc-again], [data-nfc-retry]').forEach(function(btn) {
-         btn.addEventListener('click', startScan);
+      // --- Writing -----------------------------------------------------
+      function buildRecord() {
+         const raw = (inputEl.value || '').trim();
+         if (!raw) {
+            inputErrEl.textContent = writeType === 'url'
+               ? 'Enter a link to write to the tag.'
+               : 'Enter some text to write to the tag.';
+            inputEl.focus();
+            return null;
+         }
+         if (writeType === 'url') {
+            let url = raw;
+            if (!/^[a-z][a-z0-9+.-]*:/i.test(url)) url = 'https://' + url;
+            try {
+               new URL(url);
+            } catch (e) {
+               inputErrEl.textContent = "That doesn't look like a valid link.";
+               inputEl.focus();
+               return null;
+            }
+            inputErrEl.textContent = '';
+            return { recordType: 'url', data: url };
+         }
+         inputErrEl.textContent = '';
+         return { recordType: 'text', data: raw, lang: 'en' };
+      }
+
+      async function startWrite() {
+         const record = buildRecord();
+         if (!record) return;
+         lastAction = 'write';
+         setState('writing');
+         opAbort = new AbortController();
+         try {
+            const writer = new NDEFReader();
+            await writer.write({ records: [record] }, { signal: opAbort.signal });
+            writtenEl.textContent = record.data;
+            resetLockConfirm();
+            setState('written');
+         } catch (e) {
+            if (e && e.name === 'AbortError') return; // caller already set the next state
+            handleError(e, 'write');
+         }
+      }
+
+      // --- Locking -----------------------------------------------------
+      function resetLockConfirm() {
+         lockStartWrap.hidden = false;
+         lockConfirmEl.hidden = true;
+      }
+
+      async function startLock() {
+         lastAction = 'lock';
+         setState('locking');
+         opAbort = new AbortController();
+         try {
+            const locker = new NDEFReader();
+            await locker.makeReadOnly({ signal: opAbort.signal });
+            setState('locked');
+         } catch (e) {
+            if (e && e.name === 'AbortError') return; // caller already set the next state
+            handleError(e, 'lock');
+         }
+      }
+
+      // --- Shared ------------------------------------------------------
+      function handleError(e, action) {
+         lastAction = action;
+         const name = e && e.name;
+         let msg;
+         if (name === 'NotAllowedError') {
+            msg = 'NFC access was blocked. Allow NFC for this site, then try again.';
+         } else if (name === 'NotSupportedError') {
+            msg = "This phone can't reach an NFC chip. Check that NFC is switched on in Android settings.";
+         } else if (name === 'NotReadableError') {
+            msg = "Android couldn't open NFC. Make sure NFC is turned on, then try again.";
+         } else if (action === 'write') {
+            msg = "The tag couldn't be written. It may be locked, too small, or it moved away too soon.";
+         } else if (action === 'lock') {
+            msg = "The tag couldn't be locked. Hold it still against your phone and try again.";
+         } else {
+            msg = 'The scan stopped unexpectedly. Hold a tag to your phone and try again.';
+         }
+         errorEl.textContent = msg;
+         setState('error');
+      }
+
+      function retry() {
+         if (lastAction === 'write') startWrite();
+         else if (lastAction === 'lock') startLock();
+         else startScan();
+      }
+
+      function cancelOp() {
+         const wasLocking = stateNow() === 'locking';
+         if (opAbort) opAbort.abort();
+         if (wasLocking) {
+            resetLockConfirm();
+            setState('written');
+            return;
+         }
+         setState(app.getAttribute('data-mode') === 'write' ? 'write-ready' : 'read-ready');
+      }
+
+      function switchMode(mode) {
+         if (opAbort) opAbort.abort();
+         setMode(mode);
+         setState(mode === 'write' ? 'write-ready' : 'read-ready');
+      }
+
+      function setWriteType(type) {
+         writeType = type;
+         app.setAttribute('data-write-type', type);
+         inputEl.type = type === 'url' ? 'url' : 'text';
+         inputEl.placeholder = type === 'url' ? 'https://example.com' : 'Your text here';
+         inputEl.value = '';
+         inputErrEl.textContent = '';
+      }
+
+      // --- Wiring ------------------------------------------------------
+      function onClick(selector, handler) {
+         app.querySelectorAll(selector).forEach(function(el) {
+            el.addEventListener('click', handler);
+         });
+      }
+      onClick('[data-nfc-scan], [data-nfc-again]', startScan);
+      onClick('[data-nfc-write]', startWrite);
+      onClick('[data-nfc-write-again]', function() { switchMode('write'); });
+      onClick('[data-nfc-retry]', retry);
+      onClick('[data-nfc-cancel]', cancelOp);
+      onClick('[data-nfc-lock-start]', function() {
+         lockStartWrap.hidden = true;
+         lockConfirmEl.hidden = false;
+      });
+      onClick('[data-nfc-lock-cancel]', resetLockConfirm);
+      onClick('[data-nfc-lock-go]', startLock);
+      app.querySelectorAll('[data-nfc-tab]').forEach(function(tab) {
+         tab.addEventListener('click', function() { switchMode(tab.getAttribute('data-nfc-tab')); });
+      });
+      app.querySelectorAll('[data-nfc-type]').forEach(function(btn) {
+         btn.addEventListener('click', function() { setWriteType(btn.getAttribute('data-nfc-type')); });
+      });
+      inputEl.addEventListener('keydown', function(e) {
+         if (e.key === 'Enter') { e.preventDefault(); startWrite(); }
       });
    })();
 });
