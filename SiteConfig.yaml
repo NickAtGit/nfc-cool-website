@@ -64,6 +64,8 @@ navigation:
       url: "/"
     - title: "Features"
       url: "/features/"
+    - title: "Online NFC Reader"
+      url: "/online-nfc-reader/"
     - title: "Business Card"
       url: "/business-card/"
     - title: "NFC Tags"

@@ -45,18 +45,84 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <span class="nfc-reader-badge is-success"><svg class="nfc-reader-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Tag read</span>
 <ul class="nfc-reader-records" data-nfc-records></ul>
 <div class="nfc-reader-field"><span class="nfc-reader-field-label">Serial number</span><span class="nfc-reader-value" data-nfc-serial></span></div>
+<details class="nfc-reader-details"><summary>Technical details</summary><div class="nfc-reader-tech" data-nfc-tech></div></details>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>Scan Another Tag</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="write-ready">
 <span class="nfc-reader-badge"><svg class="nfc-reader-os-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8.4 3 9.9 5.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M15.6 3 14.1 5.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M5.5 10.4a6.5 6.5 0 0 1 13 0Z" fill="currentColor"/><circle cx="9.6" cy="7.9" r="1" fill="#fff"/><circle cx="14.4" cy="7.9" r="1" fill="#fff"/><rect x="5.6" y="11.3" width="12.8" height="7.3" rx="1.5" fill="currentColor"/><rect x="2.4" y="11.6" width="2.4" height="6" rx="1.2" fill="currentColor"/><rect x="19.2" y="11.6" width="2.4" height="6" rx="1.2" fill="currentColor"/><rect x="7.9" y="18" width="2.4" height="3.9" rx="1.2" fill="currentColor"/><rect x="13.7" y="18" width="2.4" height="3.9" rx="1.2" fill="currentColor"/></svg>Android · Chrome</span>
 <p class="nfc-reader-title">Write an NFC tag</p>
-<div class="nfc-reader-type-toggle" role="group" aria-label="What to write">
-<button type="button" class="nfc-reader-type" data-nfc-type="url">Link</button>
-<button type="button" class="nfc-reader-type" data-nfc-type="text">Text</button>
+<select class="nfc-reader-select" data-nfc-type-select aria-label="What to write to the tag">
+<optgroup label="Basic">
+<option value="link">Link</option>
+<option value="text">Text</option>
+</optgroup>
+<optgroup label="Contact">
+<option value="phone">Phone number</option>
+<option value="email">Email</option>
+<option value="sms">SMS message</option>
+<option value="contact">Contact card</option>
+</optgroup>
+<optgroup label="Network">
+<option value="wifi">Wi-Fi network</option>
+<option value="location">Location</option>
+<option value="app">App</option>
+<option value="smartposter">Smart poster</option>
+</optgroup>
+<optgroup label="Utility">
+<option value="erase">Erase tag</option>
+</optgroup>
+</select>
+<div class="nfc-reader-form" data-nfc-form>
+<div class="nfc-reader-fields" data-nfc-fields="link">
+<input type="url" class="nfc-reader-input" data-k="url" placeholder="https://example.com" aria-label="Link to write"/>
 </div>
-<input type="url" class="nfc-reader-input" data-nfc-input placeholder="https://example.com" aria-label="Value to write to the tag"/>
+<div class="nfc-reader-fields" data-nfc-fields="text" hidden>
+<textarea class="nfc-reader-input nfc-reader-textarea" data-k="text" rows="3" placeholder="Your text here" aria-label="Text to write"></textarea>
+</div>
+<div class="nfc-reader-fields" data-nfc-fields="phone" hidden>
+<input type="tel" class="nfc-reader-input" data-k="tel" placeholder="Phone number" aria-label="Phone number"/>
+</div>
+<div class="nfc-reader-fields" data-nfc-fields="email" hidden>
+<input type="email" class="nfc-reader-input" data-k="email" placeholder="Email address" aria-label="Email address"/>
+<input type="text" class="nfc-reader-input" data-k="subject" placeholder="Subject (optional)" aria-label="Email subject, optional"/>
+</div>
+<div class="nfc-reader-fields" data-nfc-fields="sms" hidden>
+<input type="tel" class="nfc-reader-input" data-k="tel" placeholder="Phone number" aria-label="SMS phone number"/>
+<input type="text" class="nfc-reader-input" data-k="body" placeholder="Message (optional)" aria-label="SMS message, optional"/>
+</div>
+<div class="nfc-reader-fields" data-nfc-fields="location" hidden>
+<input type="text" class="nfc-reader-input" data-k="lat" inputmode="decimal" placeholder="Latitude" aria-label="Latitude"/>
+<input type="text" class="nfc-reader-input" data-k="lng" inputmode="decimal" placeholder="Longitude" aria-label="Longitude"/>
+</div>
+<div class="nfc-reader-fields" data-nfc-fields="contact" hidden>
+<input type="text" class="nfc-reader-input" data-k="name" placeholder="Full name" aria-label="Contact name"/>
+<input type="tel" class="nfc-reader-input" data-k="tel" placeholder="Phone (optional)" aria-label="Contact phone, optional"/>
+<input type="email" class="nfc-reader-input" data-k="email" placeholder="Email (optional)" aria-label="Contact email, optional"/>
+<input type="text" class="nfc-reader-input" data-k="org" placeholder="Organization (optional)" aria-label="Contact organization, optional"/>
+</div>
+<div class="nfc-reader-fields" data-nfc-fields="wifi" hidden>
+<input type="text" class="nfc-reader-input" data-k="ssid" placeholder="Network name (SSID)" aria-label="Wi-Fi network name"/>
+<input type="text" class="nfc-reader-input" data-k="password" placeholder="Password" aria-label="Wi-Fi password"/>
+<select class="nfc-reader-select" data-k="security" aria-label="Wi-Fi security">
+<option value="wpa">WPA / WPA2</option>
+<option value="wep">WEP</option>
+<option value="open">Open (no password)</option>
+</select>
+</div>
+<div class="nfc-reader-fields" data-nfc-fields="app" hidden>
+<input type="text" class="nfc-reader-input" data-k="pkg" placeholder="App package, e.g. cool.nfc" aria-label="Android app package name"/>
+</div>
+<div class="nfc-reader-fields" data-nfc-fields="smartposter" hidden>
+<input type="url" class="nfc-reader-input" data-k="url" placeholder="https://example.com" aria-label="Smart poster link"/>
+<input type="text" class="nfc-reader-input" data-k="title" placeholder="Title shown on the tag" aria-label="Smart poster title"/>
+</div>
+<div class="nfc-reader-fields" data-nfc-fields="erase" hidden>
+<p class="nfc-reader-lead">This wipes every record off the tag, leaving it blank and ready to reuse.</p>
+</div>
+</div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>Write to Tag</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span data-nfc-write-label>Write to Tag</span></button>
+<p class="nfc-reader-fineprint">Need WPA3 Wi-Fi, payment links or 25+ other record types? The <a href="/features/nfc-reader-writer/">NFC.cool app</a> writes them all.</p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg></span></div>
@@ -90,6 +156,12 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <p class="nfc-reader-title">This tag is now read-only</p>
 <p class="nfc-reader-lead">It keeps its data and can still be read anywhere - it just can't be rewritten.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>Write Another Tag</span></button>
+</div>
+<div class="nfc-reader-panel" data-panel="erased">
+<span class="nfc-reader-badge is-success"><svg class="nfc-reader-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Tag erased</span>
+<p class="nfc-reader-title">This tag is now blank</p>
+<p class="nfc-reader-lead">Every record was removed. You can write something new to it whenever you like.</p>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.77 12C8.77 10.18 8.14 8.48 7.02 7.15C6.29 6.29 5.22 7.27 5.77 7.97C6.84 9.32 7.25 10.44 7.25 12C7.25 13.55 6.84 14.67 5.77 16.02C5.23 16.72 6.3 17.69 7.02 16.83C8.14 15.51 8.77 13.82 8.77 12ZM13.56 12C13.56 9.22 12.69 6.61 11.12 4.5C10.41 3.56 9.18 4.47 9.84 5.33C11.28 7.22 12.05 9.53 12.05 12C12.05 14.46 11.28 16.77 9.84 18.66C9.18 19.53 10.41 20.44 11.12 19.48C12.69 17.37 13.56 14.77 13.56 12ZM18.38 12C18.38 8.26 17.21 4.78 15.14 1.89C14.5 1 13.2 1.78 13.89 2.71C15.83 5.37 16.86 8.58 16.86 12C16.86 15.42 15.82 18.62 13.89 21.28C13.22 22.2 14.47 23.02 15.14 22.1C17.21 19.21 18.38 15.73 18.38 12Z"/></svg><span>Write to a Tag</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="error">
 <span class="nfc-reader-badge is-error">Something went wrong</span>
@@ -259,7 +331,17 @@ There is one more thing no browser can do: run on iPhone at all. Apple blocks NF
 
 <details class="faq-item">
 <summary>Can I write to an NFC tag from the browser?</summary>
-<p>Yes. Switch to the Write tab, choose a link or text, type the value, and hold a tag to your phone. Writing uses the same Web NFC support as reading, so it also needs Chrome on Android. The app handles writing on iPhone.</p>
+<p>Yes. Switch to the Write tab, pick a type from the dropdown - link, text, phone, email, SMS, location, contact card, Wi-Fi network, app or smart poster - fill in the fields, and hold a tag to your phone. Writing uses the same Web NFC support as reading, so it also needs Chrome on Android. The app handles writing on iPhone.</p>
+</details>
+
+<details class="faq-item">
+<summary>Can I write a Wi-Fi network to an NFC tag?</summary>
+<p>Yes. Choose Wi-Fi network in the Write dropdown, enter the network name, password and security type, and hold a tag to your phone. Anyone who taps that tag with an Android phone gets a prompt to join the network, with no password to type. For WPA3 and other advanced options, use the NFC.cool app.</p>
+</details>
+
+<details class="faq-item">
+<summary>Can I save a contact to an NFC tag?</summary>
+<p>Yes. Pick Contact card in the Write dropdown and fill in the name, phone, email and organization. The tag stores a standard vCard, so tapping it offers to add the contact straight to the phone's address book.</p>
 </details>
 
 <details class="faq-item">

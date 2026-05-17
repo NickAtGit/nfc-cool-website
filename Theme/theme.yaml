@@ -12,12 +12,14 @@ css:
    - "css/landing.css"
    - "css/newsletter.css"
    - "css/marketing.css"
+   - "css/nfc-reader.css"
    - "css/social.css"
    - "css/faq.css"
    - "css/blog.css"
    - "css/features.css"
 js:
    - "js/theme.js"
+   - "js/nfc-reader.js"
 
 # Synchronous theme-detect script: resolves and applies the saved
 # data-theme before first paint, persisting auto-detected values on the
