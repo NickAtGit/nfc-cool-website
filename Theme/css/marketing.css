@@ -530,7 +530,11 @@
    phone. theme.js sets data-state (which .nfc-reader-panel shows)
    and data-mode (Read/Write tab highlight).
    ============================================================ */
-.nfc-reader { width: 100%; }
+.nfc-reader {
+   width: 100%;
+   --reader-accent-fg: #fff; /* dark text on yellow (dark mode), white on blue (light) */
+}
+[data-theme="dark"] .nfc-reader { --reader-accent-fg: #1A1A1A; }
 
 /* Phone-frame bezel + inset screen */
 .nfc-phone {
@@ -603,7 +607,7 @@
 .nfc-reader[data-mode="read"] .nfc-reader-tab[data-nfc-tab="read"],
 .nfc-reader[data-mode="write"] .nfc-reader-tab[data-nfc-tab="write"] {
    color: var(--color-text);
-   border-bottom-color: var(--color-accent);
+   border-bottom-color: var(--color-link);
 }
 
 /* Screen body - one .nfc-reader-panel visible at a time */
@@ -721,7 +725,7 @@
    position: absolute;
    inset: 0;
    border-radius: 50%;
-   border: 2px solid var(--color-accent);
+   border: 2px solid var(--color-link);
    animation: nfc-reader-ripple 1.8s ease-out infinite;
 }
 .nfc-reader-radar::after { animation-delay: 0.9s; }
@@ -736,8 +740,8 @@
    width: 54px;
    height: 54px;
    border-radius: 50%;
-   background: var(--color-accent);
-   color: #1A1A1A;
+   background: var(--color-link);
+   color: var(--reader-accent-fg);
 }
 .nfc-reader-radar-core .nfc-reader-wave-icon { width: 26px; height: 26px; }
 .nfc-reader-radar-core .nfc-reader-lock-icon { width: 24px; height: 24px; }
@@ -839,8 +843,8 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
 }
 .nfc-reader[data-write-type="url"] .nfc-reader-type[data-nfc-type="url"],
 .nfc-reader[data-write-type="text"] .nfc-reader-type[data-nfc-type="text"] {
-   background: var(--color-accent);
-   color: #1A1A1A;
+   background: var(--color-link);
+   color: var(--reader-accent-fg);
 }
 .nfc-reader-input {
    width: 100%;
@@ -856,8 +860,8 @@ a.nfc-reader-record-value:hover { text-decoration: underline; }
 .nfc-reader-input::placeholder { color: var(--color-text-muted); }
 .nfc-reader-input:focus {
    outline: none;
-   border-color: var(--color-accent);
-   box-shadow: 0 0 0 3px rgba(255, 199, 9, 0.18);
+   border-color: var(--color-link);
+   box-shadow: 0 0 0 3px var(--color-link-light);
 }
 .nfc-reader-input-error {
    margin: 0.5rem 0 0;

@@ -33,10 +33,10 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <span class="nfc-reader-badge"><svg class="nfc-reader-os-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7.6 4 9.3 6.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16.4 4 14.7 6.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M4.5 13.5a7.5 7.5 0 0 1 15 0Z" fill="currentColor"/><circle cx="9.3" cy="10.4" r="1" fill="#fff"/><circle cx="14.7" cy="10.4" r="1" fill="#fff"/></svg>Android · Chrome</span>
 <p class="nfc-reader-title">Read an NFC tag</p>
 <p class="nfc-reader-lead">Tap the button, then hold a tag to the top of your phone. I'll show you what's on it.</p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg><span>Scan a Tag</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12.36 1.82A12 12 0 0 1 12.36 22.18"/><path d="M10.24 5.22A8 8 0 0 1 10.24 18.78"/><path d="M8.12 8.61A4 4 0 0 1 8.12 15.39"/></svg><span>Scan a Tag</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
-<div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg></span></div>
+<div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12.36 1.82A12 12 0 0 1 12.36 22.18"/><path d="M10.24 5.22A8 8 0 0 1 10.24 18.78"/><path d="M8.12 8.61A4 4 0 0 1 8.12 15.39"/></svg></span></div>
 <p class="nfc-reader-title">Hold your tag close</p>
 <p class="nfc-reader-lead">Touch an NFC tag to the top of your phone.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-cancel><span>Cancel</span></button>
@@ -45,7 +45,7 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <span class="nfc-reader-badge is-success"><svg class="nfc-reader-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7"/></svg>Tag read</span>
 <ul class="nfc-reader-records" data-nfc-records></ul>
 <div class="nfc-reader-field"><span class="nfc-reader-field-label">Serial number</span><span class="nfc-reader-value" data-nfc-serial></span></div>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg><span>Scan Another Tag</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12.36 1.82A12 12 0 0 1 12.36 22.18"/><path d="M10.24 5.22A8 8 0 0 1 10.24 18.78"/><path d="M8.12 8.61A4 4 0 0 1 8.12 15.39"/></svg><span>Scan Another Tag</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="write-ready">
 <span class="nfc-reader-badge"><svg class="nfc-reader-os-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7.6 4 9.3 6.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M16.4 4 14.7 6.7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M4.5 13.5a7.5 7.5 0 0 1 15 0Z" fill="currentColor"/><circle cx="9.3" cy="10.4" r="1" fill="#fff"/><circle cx="14.7" cy="10.4" r="1" fill="#fff"/></svg>Android · Chrome</span>
@@ -56,10 +56,10 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 </div>
 <input type="url" class="nfc-reader-input" data-nfc-input placeholder="https://example.com" aria-label="Value to write to the tag"/>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg><span>Write to Tag</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12.36 1.82A12 12 0 0 1 12.36 22.18"/><path d="M10.24 5.22A8 8 0 0 1 10.24 18.78"/><path d="M8.12 8.61A4 4 0 0 1 8.12 15.39"/></svg><span>Write to Tag</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
-<div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg></span></div>
+<div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12.36 1.82A12 12 0 0 1 12.36 22.18"/><path d="M10.24 5.22A8 8 0 0 1 10.24 18.78"/><path d="M8.12 8.61A4 4 0 0 1 8.12 15.39"/></svg></span></div>
 <p class="nfc-reader-title">Hold your tag close</p>
 <p class="nfc-reader-lead">Touch the tag to your phone to write to it.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-cancel><span>Cancel</span></button>
@@ -77,7 +77,7 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <button type="button" class="landing-cta-button landing-cta-button--danger landing-cta-button--block" data-nfc-lock-go><svg class="nfc-reader-lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span>Lock Tag</span></button>
 </div>
 </div>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg><span>Write Another Tag</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12.36 1.82A12 12 0 0 1 12.36 22.18"/><path d="M10.24 5.22A8 8 0 0 1 10.24 18.78"/><path d="M8.12 8.61A4 4 0 0 1 8.12 15.39"/></svg><span>Write Another Tag</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="locking">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span></div>
@@ -89,12 +89,12 @@ I built this so you can read an NFC tag straight from your browser - no app, no 
 <span class="nfc-reader-badge is-success"><svg class="nfc-reader-lock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Tag locked</span>
 <p class="nfc-reader-title">This tag is now read-only</p>
 <p class="nfc-reader-lead">It keeps its data and can still be read anywhere - it just can't be rewritten.</p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg><span>Write Another Tag</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write-again><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12.36 1.82A12 12 0 0 1 12.36 22.18"/><path d="M10.24 5.22A8 8 0 0 1 10.24 18.78"/><path d="M8.12 8.61A4 4 0 0 1 8.12 15.39"/></svg><span>Write Another Tag</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="error">
 <span class="nfc-reader-badge is-error">Something went wrong</span>
 <p class="nfc-reader-lead" data-nfc-error-msg>Something went wrong.</p>
-<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-retry><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8.5 5.5a10 10 0 0 1 0 13"/><path d="M13 8.2a5.4 5.4 0 0 1 0 7.6"/><path d="M17.3 10.8a1.6 1.6 0 0 1 0 2.4"/></svg><span>Try Again</span></button>
+<button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-retry><svg class="nfc-reader-wave-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12.36 1.82A12 12 0 0 1 12.36 22.18"/><path d="M10.24 5.22A8 8 0 0 1 10.24 18.78"/><path d="M8.12 8.61A4 4 0 0 1 8.12 15.39"/></svg><span>Try Again</span></button>
 </div>
 <div class="nfc-reader-panel" data-panel="ios">
 <span class="nfc-reader-badge is-muted">iPhone</span>

@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       function showResult(event) {
-         serialEl.textContent = event.serialNumber || 'unavailable';
+         serialEl.textContent = event.serialNumber ? event.serialNumber.toUpperCase() : 'unavailable';
          recordsEl.textContent = '';
          const records = (event.message && event.message.records) || [];
          if (!records.length) {
