@@ -71,7 +71,7 @@ specs:
       - "Data Matrix"
 
 pricing:
-  title: "Free と Platinum の比較"
+  title: "FreeとPlatinumの比較"
   freeHeader: "Free"
   platinumHeader: "Platinum"
   rows:
@@ -84,11 +84,11 @@ pricing:
 
 faqTitle: "よくある質問"
 faq:
-  - question: "なぜiOS限定ですか?"
+  - question: "なぜiOS限定ですか？"
     answer: "現在のAndroid版NFC.coolはNFCとデジタル名刺に注力しています。バーコードスキャンはAndroidロードマップに含まれています。"
-  - question: "複数のバーコードを一度にスキャンできますか?"
+  - question: "複数のバーコードを一度にスキャンできますか？"
     answer: "はい - バッチモードはカメラを開いたままにし、見つけたすべてのバーコードをキューに溜めます。キューの項目をタップすると操作できます。"
-  - question: "スキャンを保存して共有できますか?"
+  - question: "スキャンを保存して共有できますか？"
     answer: "はい - すべてのスキャンが日時付きで履歴ビューに残ります。スキャンをお気に入り登録し、タイトルを付けて、そこから共有できます。"
-  - question: "スキャナーはオフラインで動作しますか?"
+  - question: "スキャナーはオフラインで動作しますか？"
     answer: "スキャン自体ははい。商品検索はインターネットが必要です(バーコード番号をウェブ検索エンジンに渡すため)が、バーコードの読み取りはデバイス上のみで完結します。"

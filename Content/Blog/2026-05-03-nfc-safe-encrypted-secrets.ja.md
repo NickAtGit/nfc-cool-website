@@ -1,6 +1,6 @@
 ---
 id: "nfc-safe-2026-05"
-title: "NFC Safe: 耐久性のあるNFCタグに暗号化されたシークレットを保存する"
+title: "NFC Safe：耐久性のあるNFCタグに暗号化されたシークレットを保存する"
 date: "2026-05-03"
 tags: ["nfc-tags", "privacy"]
 summary: "エポキシ加工のNFCタグに256-bit AES。紙は燃える。クラウドは落ちる。NFCタグは違います。"
@@ -32,7 +32,7 @@ author: "Nicolo Stanciu"
 NFC SafeはNFC.cool Tools内のNFC Appsにあります。私は全体を1つの画面にまとめ、上部にセグメントコントロールを置きました - 暗号化か復号かを切り替えるだけです。タグを書き込んだことがある人なら、何も戸惑うところはないはずです。
 
 **暗号化する：**
-1. Tools → NFC Apps → NFC Safe を開く
+1. Tools → NFC Apps → NFC Safeを開く
 2. **Encrypt** を選択
 3. シークレットを入力またはペースト
 4. 強いパスフレーズを設定

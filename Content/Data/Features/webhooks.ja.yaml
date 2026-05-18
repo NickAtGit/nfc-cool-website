@@ -18,7 +18,7 @@ capabilities:
   - title: "Webhook(あなたのURLへPOST)"
     description: "スキャン成功の瞬間に、構造化JSONのボディでHTTP POST。1つのURLとオプションのHTTP Basic認証を設定すれば完了です。iOSとAndroidの両方で利用可能。"
   - title: "ショートカット(iOS)"
-    description: "スキャンされたURLが <code>shortcuts://</code> スキームの場合、対応するiOSショートカットを自動実行 - 余分なタップは不要。Shortcutsが届くものすべてにスキャンデータを流せます。"
+    description: "スキャンされたURLが <code>shortcuts://</code> スキームの場合、対応するiOSショートカットを自動実行 - 余分なタップは不要。ショートカットの手が届くものすべてにスキャンデータを流せます。"
   - title: "リンクを開く(iOS)"
     description: "ペイロードが通常のURLの場合、Safari(または対応するディープリンク先)が自動で開きます。「タップして開く」のステップを省略します。"
   - title: "音声合成(iOS)"
@@ -44,7 +44,7 @@ specsTitle: "技術的な詳細"
 specs:
   - title: "トランスポート"
     items:
-      - "HTTPS推奨; 開発時はHTTPも可"
+      - "HTTPS推奨、開発時はHTTPも可"
       - "POST、`Content-Type: application/json`"
       - "オプションのHTTP Basic認証(ユーザー名 + パスワード)"
       - "認証情報はiOS Keychainに暗号化保存"
@@ -63,7 +63,7 @@ specs:
       - "各ソースは独立して有効化可能"
 
 pricing:
-  title: "Free と Platinum の比較"
+  title: "FreeとPlatinumの比較"
   freeHeader: "Free"
   platinumHeader: "Platinum"
   rows:
@@ -88,15 +88,15 @@ pricing:
 
 faqTitle: "よくある質問"
 faq:
-  - question: "Androidで動きますか?"
+  - question: "Androidで動きますか？"
     answer: "はい - WebhookはNFC.cool ToolsのiOS版とAndroid版の両方で利用できます。JSONペイロードの形はプラットフォーム間で共通です。(他の4つのiOSフック - 自動ショートカット、音声合成、オーディオ、リンクオープン - はiOSのみです。)"
-  - question: "URLは何個まで設定できますか?"
+  - question: "URLは何個まで設定できますか？"
     answer: "今のところ1つです。同じURLがすべてのスキャンイベントを受信し、有効化されたソーストグルとペイロードタイプで識別されます。"
-  - question: "どんな認証に対応していますか?"
+  - question: "どんな認証に対応していますか？"
     answer: "HTTP Basic認証 - ユーザー名 + パスワード、iOS Keychainに暗号化保存。Bearerトークン、カスタムヘッダー、HMAC署名は現在サポートされていません。"
-  - question: "サーバーがオフラインだった場合は?"
+  - question: "サーバーがオフラインだった場合は？"
     answer: "POSTは失敗し、イベントは端末上にログされます。今のところ自動リトライキューはありません - ハンドラーをidempotentに設計し、スキャン履歴から再トリガーできるようにしてください。"
-  - question: "ペイロードサイズの制限は?"
+  - question: "ペイロードサイズの制限は？"
     answer: "NFC.cool側からのハード制限はありません。タグ自体のペイロードはNFC規格(典型的なNDEFタグで数KB)で制限されます。"
-  - question: "実際に動くのを見られますか?"
+  - question: "実際に動くのを見られますか？"
     answer: "<a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">GitHub上のWebサーバー</a>をクローンしてローカルで起動、アプリをそこに向ければ、すべてのスキャンがリアルタイムで届くのが見えます。"

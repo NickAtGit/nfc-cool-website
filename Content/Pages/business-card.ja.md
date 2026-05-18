@@ -1,7 +1,7 @@
 ---
 title: "iPhone対応 NFCデジタル名刺アプリ"
 slug: "business-card"
-description: "iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppClip、Apple Walletで共有可能。誰がカードを保存したかをトラッキングし、ライブイベントでConference Modeを実行できます。"
+description: "iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、App Clip、Apple Walletで共有可能。誰がカードを保存したかをトラッキングし、ライブイベントでConference Modeを実行できます。"
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppClip、Apple Walletで連絡先を一瞬で共有 - 誰が実際にあなたのカードを保存したかも確認できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。
+iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、App Clip、Apple Walletで連絡先を一瞬で共有 - 誰が実際にあなたのカードを保存したかも確認できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ja&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -77,7 +77,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 <section class="page-section page-section--gallery">
 
 <div class="page-gallery">
-<img src="/assets/images/BusinessCard/01AppClip.webp" alt="iPhoneのロック画面に表示されたAppClipカード - 名刺を相手にすぐ届けるプレビュー" loading="lazy"/>
+<img src="/assets/images/BusinessCard/01AppClip.webp" alt="iPhoneのロック画面に表示されたApp Clipカード - 名刺を相手にすぐ届けるプレビュー" loading="lazy"/>
 <img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="名前、写真、SNSリンクを表示したプロフィール" loading="lazy"/>
 <img src="/assets/images/BusinessCard/03BusinessCardBottom.webp" alt="住所、電話番号、メールを表示したプロフィール" loading="lazy"/>
 </div>
@@ -144,7 +144,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、AppCli
 <ul>
 <li><strong>SNS各種</strong> - Instagram、LinkedIn、TikTok、X、Facebook、GitHub、YouTube、WhatsApp、Telegram、Discord ほか</li>
 <li><strong>NFC、QR、カスタムURL</strong> - 3つの共有方式、それぞれワンタップ</li>
-<li><strong>AppClip</strong> - 受け取り側はアプリ未インストールでも閲覧可能(iOS)</li>
+<li><strong>App Clip</strong> - 受け取り側はアプリ未インストールでも閲覧可能(iOS)</li>
 <li><strong>クロスプラットフォーム</strong> - iOSとAndroidに対応</li>
 </ul>
 </article>

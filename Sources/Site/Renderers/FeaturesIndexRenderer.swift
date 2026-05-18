@@ -23,7 +23,7 @@ struct FeaturesIndexRenderer: Renderer {
             )
          case "ja":
             return (
-               "NFC.cool の機能",
+               "NFC.coolの機能",
                "NFCタグの読み取り・書き込み・デコード。QRコードとバーコードのスキャン。書類、3Dオブジェクト、ルームの取り込み。すべてのスキャンをあなたのWebhookへ - スマホを、考えられるすべてのスキャナーに。"
             )
          default:

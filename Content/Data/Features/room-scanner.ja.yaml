@@ -63,11 +63,11 @@ specs:
       - "床面積と寸法"
 
 pricing:
-  title: "Free と Platinum の比較"
+  title: "FreeとPlatinumの比較"
   freeHeader: "Free"
   platinumHeader: "Platinum"
   rows:
-    - feature: "スキャンルーム"
+    - feature: "部屋をスキャンする"
       free: "✓"
       platinum: "✓"
     - feature: "部屋の寸法"
@@ -79,9 +79,9 @@ pricing:
 
 faqTitle: "よくある質問"
 faq:
-  - question: "LiDARは必要ですか?"
+  - question: "LiDARは必要ですか？"
     answer: "はい。RoomPlanはAppleのLiDAR専用APIです。(3DオブジェクトスキャナーのObject CaptureもLiDARが必要です - AppleのObject Captureセッションが確認します。)"
-  - question: "スキャンにはどのくらい時間がかかりますか?"
+  - question: "スキャンにはどのくらい時間がかかりますか？"
     answer: "部屋を歩くだけです。結果はライブで生成され、終わった時点で完成しています。"
-  - question: "結果をCADソフトで開けますか?"
+  - question: "結果をCADソフトで開けますか？"
     answer: "はい - USDZは最新の多くのCAD/3Dツールでサポートされています。SketchUpやRevitのワークフローでは、Blenderや無料のUSD→OBJツールで変換してください。"

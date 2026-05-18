@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS"
 
   - title: "写真ライブラリから取り込み"
-    body: "<p>普通のカメラで撮ったレシートはすでにある? ライブラリから画像を(複数も可)選ぶと、NFC.coolが新しい撮影と同じエッジ検出・パース補正・OCRを適用します。何ヶ月も散らばっていた写真をまとめて整理するのに便利です。</p>"
+    body: "<p>普通のカメラで撮ったレシートはすでにある？　ライブラリから画像を(複数も可)選ぶと、NFC.coolが新しい撮影と同じエッジ検出・パース補正・OCRを適用します。何ヶ月も散らばっていた写真をまとめて整理するのに便利です。</p>"
     platforms: "iOS"
 
   - title: "圧縮はあなたが制御"
@@ -77,14 +77,14 @@ specs:
       - "書類はiCloudかアプリのサンドボックスに - あなたが選択"
 
 pricing:
-  title: "Free と Platinum の比較"
+  title: "FreeとPlatinumの比較"
   freeHeader: "Free"
   platinumHeader: "Platinum"
   rows:
     - feature: "ドキュメントをスキャンする"
       free: "✓"
       platinum: "✓"
-    - feature: "写真資料"
+    - feature: "写真から取り込み"
       free: "✓"
       platinum: "✓"
     - feature: "光学式文字認識"
@@ -99,11 +99,11 @@ pricing:
 
 faqTitle: "よくある質問"
 faq:
-  - question: "OCRはオフラインで使えますか?"
+  - question: "OCRはオフラインで使えますか？"
     answer: "はい。iOS VisionはOCRを完全にデバイス上で処理します。飛行機の中、藪の中、どこでも。"
-  - question: "OCRはどの言語に対応していますか?"
+  - question: "OCRはどの言語に対応していますか？"
     answer: "iOS Visionは現在、英語、フランス語、イタリア語、ドイツ語、スペイン語、ポルトガル語、中国語(簡体字)を認識します。手書き認識も加えて対応しています。"
-  - question: "OCRの精度はどのくらいですか?"
+  - question: "OCRの精度はどのくらいですか？"
     answer: "印刷文字は非常に高精度です。手書きの精度は文字の丁寧さとコントラストに左右されます。スキャン後に認識テキストを編集することもできます。"
-  - question: "スキャンした書類はどこに保存されますか?"
+  - question: "スキャンした書類はどこに保存されますか？"
     answer: "Free: 端末のアプリ・サンドボックス内。Platinum: 任意でiCloud Documentsに自動エクスポート - ファイルAppから、そしてiCloudにサインインしたすべての端末から見られます。"

@@ -56,7 +56,7 @@ specs:
       - "セッションの生画像(Platinum)"
 
 pricing:
-  title: "Free と Platinum の比較"
+  title: "FreeとPlatinumの比較"
   freeHeader: "Free"
   platinumHeader: "Platinum"
   rows:
@@ -75,11 +75,11 @@ pricing:
 
 faqTitle: "よくある質問"
 faq:
-  - question: "iPhoneにLiDARは必要ですか?"
+  - question: "iPhoneにLiDARは必要ですか？"
     answer: "はい。AppleのObject CaptureセッションはLiDAR搭載デバイスを要求します - すなわちiPhone Pro(12 Pro以降)、または2020年以降のiPad Proです。非ProのiPhoneにはLiDARが搭載されていません。"
-  - question: "スキャンにはどのくらい時間がかかりますか?"
+  - question: "スキャンにはどのくらい時間がかかりますか？"
     answer: "オブジェクトの周りを歩くのに数分、その後オンデバイスの再構成に数分です。大きい・テクスチャの多いオブジェクトほど時間がかかります。"
-  - question: "結果を3D印刷できますか?"
+  - question: "結果を3D印刷できますか？"
     answer: "OBJで書き出し、Blender、MeshLab、その他の標準3DツールでSTLに変換できます。中サイズで質感のはっきりしたオブジェクトが最も良い結果になります。"
-  - question: "ルーム・スキャナーとの違いは?"
+  - question: "ルーム・スキャナーとの違いは？"
     answer: "Object Capture(この機能)は1つの物体の3Dモデルを作ります。ルーム・スキャナーはLiDARとAppleのRoomPlanで空間の間取り(壁、ドア、家具)を作ります。どちらもLiDARが必要ですが、別の質問に答えます。"

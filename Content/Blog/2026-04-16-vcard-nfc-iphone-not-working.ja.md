@@ -131,7 +131,7 @@ vCardと違い、URLベースのプロフィールはすべてのスマートフ
 
 **iPhoneでvCard NFCタグを読む方法はありますか？**
 
-NFCリーダーアプリのインストールが必要です。iPhoneの[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)とAndroidの[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ja)はどちらもNFCタグからvCardデータを読み取って表示できます。Androidはアプリなしでネイティブに処理しますが、iPhoneにはアプリが必要です。ただし、名刺共有には[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)が更好的な道です - 受け取る側にアプリが不要です。
+NFCリーダーアプリのインストールが必要です。iPhoneの[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)とAndroidの[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ja)はどちらもNFCタグからvCardデータを読み取って表示できます。Androidはアプリなしでネイティブに処理しますが、iPhoneにはアプリが必要です。ただし、名刺共有には[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)がより良い方法です - 受け取る側にアプリが不要です。
 
 **デジタル名刺に最適なNFCタグは？**
 
