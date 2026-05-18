@@ -18,26 +18,38 @@ func loadLandingData(context: BuildContext) throws -> LandingData {
    return try YAMLDecoder().decode(LandingData.self, from: yamlData)
 }
 
-/// Splits a brand-headline title at ".cool" so the suffix renders in the script font/yellow.
-/// "NFC.cool" → ("NFC", ".cool"). "All-in-one tools" → ("All-in-one tools", nil).
-private func splitBrandTail(_ title: String) -> (head: String, tail: String?) {
-   if let range = title.range(of: ".cool", options: [.caseInsensitive, .backwards]) {
-      let head = String(title[..<range.lowerBound])
-      let tail = String(title[range.lowerBound...])
-      return (head, tail)
-   }
-   return (title, nil)
-}
-
-/// Renders a heading with the brand `.cool` suffix split out into a styled `<em>`.
-/// Shared by the landing hero, features grid, and the final CTA.
+/// Renders a heading with the brand wordmark wrapped in `<span class="brand-name">`
+/// and the ".cool" token inside it styled as `<em class="brand-tail">` (script
+/// font). The wordmark is the trailing segment after the last " - " separator;
+/// that separator is dropped and the wordmark placed on its own line via `<br>`,
+/// so "Foo - NFC.cool Tools" renders "Foo" with "NFC.cool Tools" beneath it.
+/// Without a separator the wordmark follows inline. Titles without ".cool"
+/// render plain. Shared by the landing hero and the final CTA.
+///
+/// The whole `.brand-name` wordmark is held on one line by `white-space:
+/// nowrap` (set in CSS), so the inline-block `.brand-tail` can never let
+/// "NFC.cool Tools" break across lines on narrow screens.
 func renderTitleWithBrandTail(_ title: String, tagName: String, classAttr: String) -> String {
-   let parts = splitBrandTail(title)
-   let escapedHead = parts.head.htmlEscaped
-   if let tail = parts.tail {
-      return "<\(tagName) class=\"\(classAttr)\">\(escapedHead)<em class=\"brand-tail\">\(tail.htmlEscaped)</em></\(tagName)>"
+   guard let coolRange = title.range(of: ".cool", options: [.caseInsensitive, .backwards]) else {
+      return "<\(tagName) class=\"\(classAttr)\">\(title.htmlEscaped)</\(tagName)>"
    }
-   return "<\(tagName) class=\"\(classAttr)\">\(escapedHead)</\(tagName)>"
+   let lead: String
+   let separator: String
+   let brandStart: String.Index
+   if let sep = title.range(of: " - ", options: .backwards), sep.upperBound <= coolRange.lowerBound {
+      lead = String(title[..<sep.lowerBound]).htmlEscaped
+      separator = "<br/>"
+      brandStart = sep.upperBound
+   } else {
+      lead = String(title[..<coolRange.lowerBound]).htmlEscaped
+      separator = ""
+      brandStart = coolRange.lowerBound
+   }
+   let brandHead = String(title[brandStart..<coolRange.lowerBound]).htmlEscaped
+   let brandCool = String(title[coolRange]).htmlEscaped
+   let brandRest = String(title[coolRange.upperBound...]).htmlEscaped
+   let wordmark = "<span class=\"brand-name\">\(brandHead)<em class=\"brand-tail\">\(brandCool)</em>\(brandRest)</span>"
+   return "<\(tagName) class=\"\(classAttr)\">\(lead)\(separator)\(wordmark)</\(tagName)>"
 }
 
 private func formatThousands(_ n: Int) -> String {

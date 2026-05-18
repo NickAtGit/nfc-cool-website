@@ -30,6 +30,11 @@ struct LandingPageRenderer: Renderer {
          if data.hero.title == context.config.name {
             return "\(context.config.name) - \(context.config.description)"
          }
+         // A homepage title may already lead with the brand (e.g.
+         // "NFC.cool Tools - ..."); only append the brand when it is absent.
+         if data.hero.title.contains(context.config.name) {
+            return data.hero.title
+         }
          return "\(data.hero.title) - \(context.config.name)"
       }()
 

@@ -1,8 +1,8 @@
 hero:
-  title: "NFCリーダー＆スキャナー｜iPhone・Android対応"
-  subtitle: "NFCタグ、QRコード、バーコード、書類、3Dモデル、お部屋までスキャン！"
+  title: "NFCリーダー・ライター・タグスキャナー - NFC.cool Tools"
+  subtitle: "無料アプリひとつで全部できる。NFCタグの読み取りと書き込みから、QRコード、バーコード、書類、3Dモデル、お部屋のスキャンまで。"
 
-description: "NFCタグ、QRコード、バーコード、書類、3Dモデル、お部屋まで - NFC.coolは、iPhoneとAndroid向けのオールインワン・スキャンツールキット。無料でダウンロードできます。"
+description: "iPhone・Android対応の無料NFCツール。タップでNFCタグを読み取り、リンクやWi-Fi、連絡先を自分で書き込み。QRコード・バーコード・書類のスキャンにも対応しています。"
 
 heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
 heroImageWidth: 2540

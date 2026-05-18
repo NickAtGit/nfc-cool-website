@@ -28,13 +28,21 @@
    ============================================================ */
 /* Brand ".cool" tail in the landing h1. The heading itself is sized by
    .page-hero-text h1 in marketing.css - this only tweaks the script suffix. */
+/* The brand wordmark ("NFC.cool Tools") renders lighter than the bold
+   descriptive part of the headline so it reads as a wordmark, not a shout. */
+.landing-hero-title .brand-name {
+   font-weight: 400;
+   /* Keep the whole "NFC.cool Tools" wordmark on one line at every width -
+      the inline-block .brand-tail would otherwise allow mid-wordmark breaks. */
+   white-space: nowrap;
+}
 .landing-hero-title .brand-tail {
    /* yellow ".cool" override the .brand-tail base color stays yellow */
    margin-left: -0.05em;
    font-size: 0.78em;
    line-height: 0.6;
    display: inline-block;
-   transform: translateY(-0.06em);
+   transform: translateY(0.04em);
 }
 
 .landing-hero-actions {

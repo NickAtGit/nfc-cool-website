@@ -1,8 +1,8 @@
 hero:
-  title: "NFC Reader & Scanner for iPhone & Android"
-  subtitle: "Scan NFC Tags, QR Codes, Barcodes, Documents, 3D Models and Rooms!"
+  title: "NFC Reader, Writer & Tag Scanner - NFC.cool Tools"
+  subtitle: "One free app for all of it - read and write NFC tags, then scan QR codes, barcodes, documents, 3D models and rooms."
 
-description: "Scan NFC Tags, QR Codes, Barcodes, Documents, 3D Models and Rooms with NFC.cool - the all-in-one scanning toolkit for iPhone and Android, free to download."
+description: "Free NFC tools for iPhone and Android. Read any NFC tag with a tap, write your own with links, Wi-Fi and contacts, plus QR, barcode and document scanning."
 
 heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
 heroImageWidth: 2540
