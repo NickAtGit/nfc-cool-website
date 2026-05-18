@@ -92,3 +92,10 @@ faq:
     answer: "Yes - every scan stays in the history view with its timestamp. You can favorite a scan, give it a title, and share it from there."
   - question: "Does the scanner work offline?"
     answer: "Yes for the scan itself. Product lookup needs internet (it runs the barcode number through a search engine), but the barcode read is on-device only."
+
+relatedReadingTitle: "Keep Reading"
+relatedReading:
+  - title: "What QR Codes Can Carry Beyond a URL"
+    url: "/blog/tap-scan-thrive/"
+  - title: "QR Code Scanner & Studio"
+    url: "/features/qr-scanner/"

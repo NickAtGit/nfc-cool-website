@@ -107,3 +107,10 @@ faq:
     answer: "Very high for printed text. Handwriting accuracy depends on neatness and contrast. You can edit any recognised text after the scan."
   - question: "Where are scanned documents stored?"
     answer: "Free tier: in the app sandbox on the device. Platinum: optionally auto-exported to iCloud Documents so they show up in the Files app and on every device signed into your iCloud."
+
+relatedReadingTitle: "Keep Reading"
+relatedReading:
+  - title: "Pocket-Ready Document Scanning"
+    url: "/blog/document-scanning-guide/"
+  - title: "3D Object Scanner"
+    url: "/features/3d-object-scanner/"

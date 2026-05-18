@@ -52,7 +52,7 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 <details class="faq-item">
 <summary>Brauche ich ein spezielles iPhone für 3D- und Raumscan?</summary>
-<p>Für den Raumscan ist Apples LiDAR-Sensor erforderlich - ab iPhone 12 Pro und neueren Pro-Modellen sowie iPad Pro ab 2020. Photogrammetrie-basiertes 3D-Objektscannen läuft auf jedem iPhone mit iOS 17 und ausreichend Leistung (im Grunde alle 2020+ Geräte).</p>
+<p>Sowohl 3D-Objektscan als auch Raumscan nutzen Apples LiDAR-Sensor - das sind iPhone 12 Pro und neuere Pro-Modelle sowie iPad Pro ab 2020. Apples Object Capture und RoomPlan benötigen beide LiDAR und laufen daher nur auf Pro-Modellen.</p>
 </details>
 
 <details class="faq-item">

@@ -94,3 +94,12 @@ faq:
     answer: "No hard limit imposed by NFC.cool. Tag payloads themselves are bounded by the NFC standard (a few KB for typical NDEF tags)."
   - question: "Where can I see it actually working?"
     answer: "Clone the <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">Web Server on GitHub</a>, run it locally, point the app at it, and you'll see every scan arrive in real time."
+
+relatedReadingTitle: "Keep Reading"
+relatedReading:
+  - title: "OpenPrintTag: Read and Write Smart 3D Printing Spools"
+    url: "/blog/openprinttag-read-write-nfc-spools-phone/"
+  - title: "How to Count NFC Tag Scans Without a Server"
+    url: "/blog/count-nfc-tag-scans/"
+  - title: "NFC Reader & Writer"
+    url: "/features/nfc-reader-writer/"

@@ -17,6 +17,18 @@ struct FeatureData: Decodable, Sendable {
    let faqTitle: String?
    let docsBody: String?
    let backLinkText: String?
+   /// Optional "keep reading" links to related blog posts and pages. Renders
+   /// as a link list between the FAQ and the closing CTA. Optional and
+   /// per-locale, so an English-first rollout needs no DE/JA YAML changes.
+   let relatedReading: [FeatureRelatedLink]?
+   let relatedReadingTitle: String?
+}
+
+/// A single "related reading" link on a feature page: a blog post or other
+/// page worth visiting next. `url` is a site-relative path (e.g. `/blog/...`).
+struct FeatureRelatedLink: Decodable, Sendable {
+   let title: String
+   let url: String
 }
 
 struct FeatureHero: Decodable, Sendable {

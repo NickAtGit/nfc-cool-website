@@ -42,11 +42,37 @@ struct MarketingPageRenderer: Renderer {
       availableLocales: Set<String>
    ) -> OutputFile {
       let pageTitle = "\(page.title) - \(context.config.name)"
-      // ProfilePage + Person JSON-LD on the About page so AI engines can
-      // resolve "who wrote this" claims that appear on every blog post.
-      let jsonLD: String? = page.slug == "about"
-         ? StructuredData.aboutPageGraph(baseURL: context.config.baseURL, siteName: context.config.name)
-         : nil
+      let pagePath = context.router.staticPagePath(for: page)
+      // JSON-LD per page type:
+      //  - About: ProfilePage + Person, so AI engines can resolve the
+      //    "who wrote this" claims that appear on every blog post.
+      //  - Online NFC Reader: BreadcrumbList + FAQPage (the page's own Q&A);
+      //    FAQ schema is emitted only for the default locale to avoid
+      //    shipping English Q&A under DE/JA pages.
+      //  - Every other static page: a Home → page BreadcrumbList.
+      // Fallback redirect pages never reach here (renderFallbackRedirect
+      // handles them earlier), so every page below is genuinely indexable.
+      let jsonLD: String?
+      switch page.slug {
+      case "about":
+         jsonLD = StructuredData.aboutPageGraph(baseURL: context.config.baseURL, siteName: context.config.name)
+      case "online-nfc-reader":
+         let isDefaultLocale = page.locale == context.config.effectiveDefaultLanguage
+         jsonLD = StructuredData.staticPageGraph(
+            baseURL: context.config.baseURL,
+            homePath: context.router.homePath(),
+            pageTitle: page.title,
+            pagePath: pagePath,
+            faq: isDefaultLocale ? Self.onlineNfcReaderFAQ : nil
+         )
+      default:
+         jsonLD = StructuredData.staticPageGraph(
+            baseURL: context.config.baseURL,
+            homePath: context.router.homePath(),
+            pageTitle: page.title,
+            pagePath: pagePath
+         )
+      }
       // hreflang must reflect which locales *actually* exist on disk - the
       // lang picker JS reads `<link rel="alternate" hreflang>` to populate
       // its dropdown, so missing entries here mean missing options in the
@@ -60,7 +86,7 @@ struct MarketingPageRenderer: Renderer {
       var head = helper.buildHead(
          title: pageTitle,
          description: page.description,
-         canonicalURL: "\(context.config.baseURL)\(context.router.staticPagePath(for: page))",
+         canonicalURL: "\(context.config.baseURL)\(pagePath)",
          ogType: "website",
          image: page.image,
          jsonLD: jsonLD,
@@ -184,4 +210,31 @@ struct MarketingPageRenderer: Renderer {
       result.removeSubrange(open.lowerBound..<close.upperBound)
       return result
    }
+
+   /// FAQ for `/online-nfc-reader/`, mirroring the `<details class="faq-item">`
+   /// Q&A authored in `Content/Pages/NfcReader.md`. Kept as a constant rather
+   /// than parsed from the markdown so the FAQPage JSON-LD is reliable - if the
+   /// page's visible FAQ changes, update this list to match.
+   private static let onlineNfcReaderFAQ: [FAQItem] = [
+      FAQItem(
+         question: "Can I read and write NFC tags without an app?",
+         answer: "Yes, on an Android phone in Chrome. The page uses your browser's built-in Web NFC, so there is nothing to install - tap Scan to read a tag, or use the Write tab to put a link, text, contact, Wi-Fi network and more onto one."
+      ),
+      FAQItem(
+         question: "Can I write a Wi-Fi network or contact card to a tag?",
+         answer: "Yes. Pick Wi-Fi network or Contact card in the Write dropdown and fill in the fields. A Wi-Fi tag prompts Android phones to join the network; a contact tag stores a standard vCard that phones offer to save."
+      ),
+      FAQItem(
+         question: "Does it work on iPhone?",
+         answer: "No. Apple blocks NFC for every iOS browser, so no website can read or write tags on an iPhone or iPad. The free NFC.cool app does it on iPhone instead."
+      ),
+      FAQItem(
+         question: "Which browsers are supported?",
+         answer: "Web NFC works only in Chrome and other Chromium browsers on Android. Desktop and iOS browsers do not support it - if yours cannot, the page shows what to do instead."
+      ),
+      FAQItem(
+         question: "Is the online NFC reader free?",
+         answer: "Completely free - no sign-up and no scan limit. Tags are read and written on your own device, and nothing is ever uploaded."
+      ),
+   ]
 }

@@ -493,6 +493,66 @@ a[data-eml] {
 }
 
 /* ============================================================
+   FEATURE RELATED READING - card grid of cross-links. Kept
+   visually distinct from the FAQ accordion above it: a wide
+   multi-column grid rather than a narrow stack of bordered rows.
+   ============================================================ */
+.feature-related {
+   background: var(--color-bg);
+   padding: clamp(3rem, 6vw, 5rem) 0;
+}
+.feature-related-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+   gap: 1.25rem;
+   max-width: var(--max-width);
+   margin: 0 auto;
+}
+.feature-related-card {
+   display: flex;
+   flex-direction: column;
+   gap: 0.4rem;
+   padding: 1.3rem 1.4rem 1.15rem;
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-lg);
+   text-decoration: none;
+   box-shadow: 0 1px 2px var(--color-shadow);
+   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+.feature-related-card:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 12px 32px var(--color-shadow-lg);
+   border-color: var(--color-link);
+}
+.feature-related-kicker {
+   font-size: 0.6875rem;
+   font-weight: 700;
+   letter-spacing: 0.08em;
+   text-transform: uppercase;
+   color: var(--color-link);
+}
+.feature-related-card-title {
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 1.0625rem;
+   line-height: 1.35;
+   color: var(--color-text);
+}
+.feature-related-arrow {
+   margin-top: auto;
+   align-self: flex-end;
+   padding-top: 0.6rem;
+   font-size: 1.1rem;
+   line-height: 1;
+   color: var(--color-link);
+   transition: transform var(--transition);
+}
+.feature-related-card:hover .feature-related-arrow {
+   transform: translateX(3px);
+}
+
+/* ============================================================
    FINAL CTA - bookend with brand-blue gradient
    ============================================================ */
 .landing-final-cta {

@@ -374,3 +374,53 @@
    padding: clamp(3.5rem, 7vw, 5rem) 0;
    background: var(--color-bg-alt);
 }
+
+/* Prev/next post chain — sits below the related grid. The newer post is
+   pinned to column 2 so a lone link still lands on its correct side. */
+.blog-post-nav {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 1.25rem;
+   max-width: var(--max-width);
+   margin: 2rem auto 0;
+}
+.blog-post-nav-link {
+   display: flex;
+   flex-direction: column;
+   gap: 0.35rem;
+   padding: 1.1rem 1.25rem;
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-lg);
+   text-decoration: none;
+   color: inherit;
+   box-shadow: 0 1px 2px var(--color-shadow);
+   transition: transform var(--transition), box-shadow var(--transition);
+}
+.blog-post-nav-link:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 12px 32px var(--color-shadow-lg);
+   color: inherit;
+}
+.blog-post-nav-newer {
+   grid-column: 2;
+   text-align: right;
+}
+.blog-post-nav-label {
+   font-size: 0.75rem;
+   font-weight: 600;
+   letter-spacing: 0.04em;
+   text-transform: uppercase;
+   color: var(--color-text-muted);
+}
+.blog-post-nav-older .blog-post-nav-label::before { content: "← "; }
+.blog-post-nav-newer .blog-post-nav-label::after { content: " →"; }
+.blog-post-nav-post-title {
+   font-weight: 600;
+   color: var(--color-text);
+}
+@media (max-width: 540px) {
+   .blog-post-nav { grid-template-columns: 1fr; }
+   .blog-post-nav-newer { grid-column: 1; text-align: left; }
+   .blog-post-nav-newer .blog-post-nav-label::after { content: ""; }
+}

@@ -82,4 +82,4 @@ Es tut sich schwer mit:
 
 Für die Dinge, in denen es gut ist, ist das Ergebnis wirklich brauchbar - kein Spielzeug. Für den Rest erwarte, dass du das Mesh in Blender aufräumen musst, oder akzeptiere die Grenzen.
 
-3D-Scan ist Teil von [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-3d-scan-feature-de&mt=8). Photogrammetrie funktioniert auf jedem modernen iPhone; LiDAR-Anreicherung funktioniert auf Pro-Modellen.
+3D-Scan ist Teil von [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-3d-scan-feature-de&mt=8). Apples Object Capture benötigt einen LiDAR-Sensor und läuft daher auf den Pro-iPhones (iPhone 12 Pro und neuer) und iPad-Pro-Modellen (2020 und neuer).

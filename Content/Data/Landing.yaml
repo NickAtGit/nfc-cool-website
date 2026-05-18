@@ -70,7 +70,7 @@ faq:
   - question: "How do I get started with NFC.cool?"
     answer: "Download NFC.cool Tools from the App Store or Google Play, then explore the tabs: NFC for tag reading and writing, QR for QR codes and barcodes, Document for paper-to-PDF scanning, 3D for object and room capture. No account is required - everything runs on-device."
   - question: "How do I scan my first NFC tag?"
-    answer: "Open NFC.cool Tools, tap \"Read NFC\" and hold your iPhone's top edge against an NFC tag - NFC.cool then opens with a parsed view of the tag's content. No setup beyond installing the app."
+    answer: "Open NFC.cool Tools, tap \"Read NFC\" and hold your iPhone's top edge against an NFC tag - NFC.cool then opens with a parsed view of the tag's content. No setup beyond installing the app. On an Android phone you can also try it right away with the <a href=\"/online-nfc-reader/\">online NFC reader</a> - no install required."
   - question: "How do I write my first NFC tag?"
     answer: "Open NFC.cool Tools, switch to the NFC tab and choose \"Write NFC\", pick a message type (URL, Wi-Fi credential, contact card, iOS Shortcut, and more), enter the data, then tap your iPhone's top edge against a blank NTAG216 (or other NDEF-compliant tag). Now anyone tapping that tag triggers your chosen action. Buy NDEF tags from any of the retailers on the <a href=\"/affiliate-links/\">NFC Tags page</a>."
   - question: "Does NFC.cool work offline?"

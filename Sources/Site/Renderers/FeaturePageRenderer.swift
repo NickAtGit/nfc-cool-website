@@ -62,12 +62,13 @@ struct FeaturePageRenderer: Renderer {
             default:   return "Features"
             }
          }()
-         let jsonLD = StructuredData.featureBreadcrumb(
+         let jsonLD = StructuredData.featurePageGraph(
             baseURL: context.config.baseURL,
             homePath: basePath,
             featuresLabel: featuresLabel,
             featureTitle: feature.hero.title,
-            featureSlug: slug
+            featureSlug: slug,
+            faq: feature.faq
          )
 
          let head = helper.buildHead(
@@ -111,6 +112,9 @@ struct FeaturePageRenderer: Renderer {
          }
          if let faq = feature.faq, !faq.isEmpty {
             sections.append(self.renderFAQ(faq, title: feature.faqTitle))
+         }
+         if let relatedReading = feature.relatedReading, !relatedReading.isEmpty {
+            sections.append(self.renderRelatedReading(relatedReading, title: feature.relatedReadingTitle))
          }
          if let cta = landing.cta {
             sections.append(renderFinalCTA(cta: cta, trust: landing.trust, appStoreURL: appStoreURL, googlePlayURL: googlePlayURL))
@@ -351,6 +355,36 @@ struct FeaturePageRenderer: Renderer {
          </div>
       </section>
       """
+   }
+
+   private func renderRelatedReading(_ links: [FeatureRelatedLink], title: String?) -> String {
+      let heading = (title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(title!.htmlEscaped)</h2>"
+      let cards = links.map { link in
+         """
+         <a class="feature-related-card" href="\(link.url)">
+            <span class="feature-related-kicker">\(self.relatedReadingKicker(for: link.url))</span>
+            <span class="feature-related-card-title">\(link.title.htmlEscaped)</span>
+            <span class="feature-related-arrow" aria-hidden="true">&rarr;</span>
+         </a>
+         """
+      }.joined()
+      return """
+      <section class="feature-related">
+         <div class="landing-container">
+            \(heading)
+            <div class="feature-related-grid">\(cards)</div>
+         </div>
+      </section>
+      """
+   }
+
+   /// Kicker label for a related-reading card, derived from the link target:
+   /// blog posts read as "Article", feature pages as "Feature", anything else
+   /// (e.g. the interactive /online-nfc-reader/) as "Tool".
+   private func relatedReadingKicker(for url: String) -> String {
+      if url.hasPrefix("/blog/") { return "Article" }
+      if url.hasPrefix("/features/") { return "Feature" }
+      return "Tool"
    }
 
 }

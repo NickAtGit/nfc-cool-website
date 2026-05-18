@@ -83,3 +83,10 @@ faq:
     answer: "You can export to OBJ and convert to STL in Blender, MeshLab, or any standard 3D tool. The model fidelity is best for medium-sized, well-textured objects."
   - question: "What's the difference between this and the Room Scanner?"
     answer: "Object Capture (this feature) builds a single 3D model of a thing. The Room Scanner uses LiDAR and Apple's RoomPlan to build a floor plan of a space - walls, doors, furniture. Both need LiDAR; they answer different questions."
+
+relatedReadingTitle: "Keep Reading"
+relatedReading:
+  - title: "3D Scanning on iPhone with Photogrammetry and LiDAR"
+    url: "/blog/3d-scan-feature/"
+  - title: "Room Scanner"
+    url: "/features/room-scanner/"

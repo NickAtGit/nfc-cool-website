@@ -85,3 +85,10 @@ faq:
     answer: "Just walk through the room. The result is generated live and is ready when you finish."
   - question: "Can I open the result in CAD software?"
     answer: "Yes - USDZ is supported by most modern CAD/3D tools. For SketchUp / Revit workflows, convert via Blender or a free USD-to-OBJ tool."
+
+relatedReadingTitle: "Keep Reading"
+relatedReading:
+  - title: "3D Object Scanner"
+    url: "/features/3d-object-scanner/"
+  - title: "3D Scanning on iPhone with Photogrammetry and LiDAR"
+    url: "/blog/3d-scan-feature/"

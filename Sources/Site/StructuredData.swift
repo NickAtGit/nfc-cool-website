@@ -35,15 +35,25 @@ enum StructuredData {
       """
    }
 
-   /// BreadcrumbList for feature subpages: Home → Features → {feature title}.
-   static func featureBreadcrumb(baseURL: String, homePath: String, featuresLabel: String, featureTitle: String, featureSlug: String) -> String {
+   /// Combined feature-page graph: a BreadcrumbList (Home → Features →
+   /// {feature title}) plus an FAQPage node when the feature YAML carries FAQ
+   /// items. Returned as one `@graph` so a single JSON-LD script covers both;
+   /// the FAQPage lets the feature's `<details>` Q&A surface as rich results.
+   static func featurePageGraph(baseURL: String, homePath: String, featuresLabel: String, featureTitle: String, featureSlug: String, faq: [FAQItem]?) -> String {
       let items: [String] = [
          self.listItem(position: 1, name: "Home", url: "\(baseURL)\(homePath)"),
          self.listItem(position: 2, name: featuresLabel, url: "\(baseURL)\(homePath)features/"),
          self.listItem(position: 3, name: featureTitle, url: "\(baseURL)\(homePath)features/\(featureSlug)/")
       ]
+      let breadcrumb = """
+      {"@type":"BreadcrumbList","itemListElement":[\(items.joined(separator: ","))]}
+      """
+      var nodes = [breadcrumb]
+      if let faq, !faq.isEmpty {
+         nodes.append(self.faqPage(faq))
+      }
       return """
-      {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[\(items.joined(separator: ","))]}
+      {"@context":"https://schema.org","@graph":[\(nodes.joined(separator: ","))]}
       """
    }
 
@@ -135,6 +145,23 @@ enum StructuredData {
          self.person(baseURL: baseURL),
          self.organization(baseURL: baseURL, siteName: siteName),
       ]
+      return """
+      {"@context":"https://schema.org","@graph":[\(nodes.joined(separator: ","))]}
+      """
+   }
+
+   /// Graph for a static marketing page: a 2-level BreadcrumbList
+   /// (Home → {page}) plus an FAQPage node when the page carries FAQ content.
+   /// One `@graph` so a single JSON-LD script covers the page. `faq` is `nil`
+   /// for pages without Q&A, leaving just the breadcrumb node.
+   static func staticPageGraph(baseURL: String, homePath: String, pageTitle: String, pagePath: String, faq: [FAQItem]? = nil) -> String {
+      let breadcrumb = """
+      {"@type":"BreadcrumbList","itemListElement":[\(self.listItem(position: 1, name: "Home", url: "\(baseURL)\(homePath)")),\(self.listItem(position: 2, name: pageTitle, url: "\(baseURL)\(pagePath)"))]}
+      """
+      var nodes = [breadcrumb]
+      if let faq, !faq.isEmpty {
+         nodes.append(self.faqPage(faq))
+      }
       return """
       {"@context":"https://schema.org","@graph":[\(nodes.joined(separator: ","))]}
       """

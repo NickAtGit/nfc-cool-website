@@ -82,4 +82,4 @@ NFC.cool Toolsは下流で実際に必要な形式にエクスポートします
 
 得意分野では結果は本当に実用的です - おもちゃではありません。それ以外はBlenderでメッシュをクリーンアップするか、限界を受け入れるかになります。
 
-3DスキャンはNFC.cool Tools for iPhoneの一部です：[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-3d-scan-feature-ja&mt=8)。フォトグラメトリーは最新のあらゆるiPhoneで動作します。LiDAR補強はProモデルで動作します。
+3DスキャンはNFC.cool Tools for iPhoneの一部です：[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-3d-scan-feature-ja&mt=8)。AppleのObject CaptureはLiDARセンサーを必要とするため、iPhone Proモデル（iPhone 12 Pro以降）とiPad Pro（2020年以降）で動作します。

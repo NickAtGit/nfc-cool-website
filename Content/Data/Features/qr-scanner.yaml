@@ -112,3 +112,12 @@ faq:
     answer: "Yes. Pick any image from your photo library and NFC.cool finds every QR code inside - even partially covered ones."
   - question: "Does the Studio embed a watermark or NFC.cool branding?"
     answer: "Free codes carry a small attribution. Platinum codes are watermark-free - purely your design."
+
+relatedReadingTitle: "Keep Reading"
+relatedReading:
+  - title: "Designing QR Codes with Flair"
+    url: "/blog/flair-qr-codes/"
+  - title: "What QR Codes Can Carry Beyond a URL"
+    url: "/blog/tap-scan-thrive/"
+  - title: "NFC Business Card vs QR Code: Which Is Better for Networking?"
+    url: "/blog/nfc-business-card-vs-qr-code/"

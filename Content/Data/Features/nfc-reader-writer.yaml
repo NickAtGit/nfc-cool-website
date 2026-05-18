@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "NFC Reader & Writer"
-  subtitle: "Read any NFC tag with a tap, and write your own - links, contacts, Wi-Fi, and more. Store passwords and secrets safely on a tag, and lock tags so no one else can change them."
+  subtitle: "Read and write NFC tags on iPhone and Android. Tap to read any tag, write your own with links, contacts and Wi-Fi, then lock them so no one else can change them."
   platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
 
@@ -189,3 +189,14 @@ faq:
     answer: "Yes. The format is interoperable. Encrypt on one platform, decrypt on the other - same passphrase, same payload."
   - question: "Will resetting a Sonicare brush head void anything?"
     answer: "It resets the on-tag usage counter so the handle stops nagging you. The brush head itself doesn't know it's been reset; it just keeps brushing. Use your own judgment on when bristles need replacing."
+
+relatedReadingTitle: "Keep Reading"
+relatedReading:
+  - title: "Read NFC Tags Online in Your Browser"
+    url: "/online-nfc-reader/"
+  - title: "NFC Tags Explained: A Complete Beginner's Guide"
+    url: "/blog/nfc-tags-beginners-guide/"
+  - title: "How to Write NFC Tags with Your iPhone"
+    url: "/blog/write-nfc-tags-iphone/"
+  - title: "Which NFC Tag Types Work with iPhone"
+    url: "/blog/nfc-tag-types-for-iphones/"

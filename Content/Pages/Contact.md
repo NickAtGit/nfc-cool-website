@@ -52,7 +52,7 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="faq-item">
 <summary>Do I need a special iPhone for 3D and Room Scanning?</summary>
-<p>Room scanning uses Apple's LiDAR sensor - that's iPhone 12 Pro and newer Pro models, plus iPad Pro 2020 and later. Photogrammetry-based 3D object scanning runs on any iPhone with iOS 17 and enough compute (basically any 2020+ device).</p>
+<p>Both 3D object scanning and room scanning use Apple's LiDAR sensor - that's iPhone 12 Pro and newer Pro models, plus iPad Pro 2020 and later. Apple's Object Capture and RoomPlan both require LiDAR, so neither runs on a non-Pro iPhone.</p>
 </details>
 
 <details class="faq-item">
