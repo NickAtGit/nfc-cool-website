@@ -21,9 +21,9 @@ NFC.cool Tools' **3D-Scan**-Feature packt diese Pipeline in einen taschenfähige
 Zwei Technologien arbeiten zusammen:
 
 - **Photogrammetrie** - Die App nimmt Dutzende Fotos des Objekts aus verschiedenen Winkeln auf. Eine Photogrammetrie-Engine (Apples Object Capture API auf iOS) findet übereinstimmende Features in den Fotos und trianguliert sie zu einem 3D-Mesh.
-- **LiDAR** - Auf iPhones mit LiDAR-Sensor (Pro-Modelle ab iPhone 12) wird jedes Frame mit Tiefenmessungen vom Sensor angereichert. Das verbessert das Mesh in zwei Hinsichten deutlich: Maßstab ist akkurat (das Modell entspricht der realen Größe), und Oberflächen ohne offensichtliche visuelle Features (eine schlichte weiße Wand, eine glänzende Kurve) bekommen brauchbare Geometrie, wo Photogrammetrie allein scheitern würde.
+- **LiDAR** - Auf iPhones mit LiDAR-Sensor (Pro-Modelle ab iPhone 12) wird jedes Frame mit Tiefenmessungen vom Sensor angereichert. Das verbessert das Mesh in zweierlei Hinsicht deutlich: Der Maßstab stimmt (das Modell entspricht der realen Größe), und Oberflächen ohne offensichtliche visuelle Features (eine schlichte weiße Wand, eine glänzende Kurve) bekommen brauchbare Geometrie, wo Photogrammetrie allein scheitern würde.
 
-Du musst über keinen der Schritte nachdenken - die App führt dich durch die Aufnahme, dann läuft die Rekonstruktion on-device.
+Du musst über keinen der Schritte nachdenken - die App führt dich durch die Aufnahme, dann läuft die Rekonstruktion direkt auf dem Gerät.
 
 ---
 
@@ -37,13 +37,13 @@ Ein paar praktische Regeln:
 - **Texturierte Objekte scannen besser als featurelose.** Eine gemusterte Tasse scannt fast perfekt. Eine polierte Metallkugel ist echt schwer. LiDAR hilft bei letzterem, rettet es aber nicht komplett.
 - **Bleib einen Moment an jedem Winkel stehen.** Bewegungsunschärfe frisst Detail.
 
-Der gesamte Scan dauert 20-40 Sekunden Gehen, dann nochmal 30-60 Sekunden Verarbeitung.
+Der gesamte Scan dauert 20-40 Sekunden, in denen du um das Objekt herumgehst, dann nochmal 30-60 Sekunden für die Verarbeitung.
 
 ---
 
 ## Export-Formate
 
-NFC.cool Tools exportiert in die Formate, die du downstream tatsächlich brauchst:
+NFC.cool Tools exportiert in die Formate, die du in der Weiterverarbeitung tatsächlich brauchst:
 
 - **.stl** - 3D-Drucker. Slicer wie Bambu Studio, Cura, PrusaSlicer akzeptieren es alle.
 - **.obj** - Universelles 3D-Format. Importiert in Blender, Cinema 4D, Unity, Unreal, im Prinzip jedes Modellierungstool.
@@ -52,7 +52,7 @@ NFC.cool Tools exportiert in die Formate, die du downstream tatsächlich brauchs
 - **.abc** (Alembic) - Animations-Pipelines.
 - **.usd** - Universal Scene Description, von den meisten modernen DCC-Tools unterstützt.
 
-Das Modell ist dasselbe. Das Format entscheidet nur, welches downstream-Tool es konsumieren kann.
+Das Modell ist dasselbe. Das Format entscheidet nur, welches Tool in der Weiterverarbeitung es verwenden kann.
 
 ---
 
@@ -63,7 +63,7 @@ Die spannendsten Anwendungen, die ich von Nutzern gesehen habe:
 - **3D-Druck einer Einzelstück-Replik.** Scanne ein gefundenes Objekt, slice, druck.
 - **Dokumentation eines realen Assets.** Nachlassdokumentation, Museumskatalogisierung, "wie sieht Omas Vase eigentlich aus".
 - **In AR teilen.** Sende die .usdz an jemanden auf einem iPhone - er tippt drauf und sieht das Objekt via AR Quick Look in seinem Wohnzimmer schweben.
-- **In eine Game Engine droppen.** Ein realer Requisitengegenstand in einer Unity-Szene, in 90 Sekunden modelliert ohne 3D-Künstler.
+- **In eine Game Engine einsetzen.** Ein realer Requisitengegenstand in einer Unity-Szene, in 90 Sekunden modelliert ohne 3D-Künstler.
 
 ---
 

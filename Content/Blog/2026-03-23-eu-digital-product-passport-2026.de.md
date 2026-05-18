@@ -3,7 +3,7 @@ id: nfc-blog-008
 title: "EU Digital Product Passport: Was du 2026 wissen musst"
 date: 2026-03-23
 tags: ["nfc-tags", "automation"]
-summary: "Der EU Digital Product Passport ist da - Batterien sind schon erfasst, Textilien und Elektronik folgen. Hier ist, was DPP für Unternehmen, Verbraucher bedeutet und warum NFC-Technologie im Zentrum steht."
+summary: "Der EU Digital Product Passport ist da - Batterien sind schon erfasst, Textilien und Elektronik folgen. Was der DPP für Unternehmen und Verbraucher bedeutet und warum NFC-Technologie im Zentrum steht."
 image: "/assets/images/Blog/eu-digital-product-passport-2026.webp"
 imageAlt: "Produktverpackung wird per Smartphone für einen digitalen Produktpass mit NFC-Tag gescannt"
 metaTitle: "EU Digital Product Passport 2026 - Was er ist, wen er betrifft & NFCs Rolle"
@@ -17,7 +17,7 @@ Unter der **Ecodesign for Sustainable Products Regulation (ESPR)**, die im Juli 
 
 Batterien sind bereits in der ersten Durchsetzungswelle. Fristen für Textilien, Elektronik und Möbel nähern sich schnell.
 
-Ich bin kein Anwalt, und das hier ist keine Rechtsberatung - aber ich arbeite jeden Tag mit der Technologie, die im Zentrum davon steht. Hier ist meine Einschätzung, was das alles bedeutet, in verständlicher Sprache und mit den regulatorischen Fakten sauber gehalten.
+Ich bin kein Anwalt, und das hier ist keine Rechtsberatung - aber ich arbeite jeden Tag mit der Technologie, die im Zentrum davon steht. So sehe ich das alles, in verständlicher Sprache und mit sauber dargestellten regulatorischen Fakten.
 
 ---
 
@@ -37,7 +37,7 @@ Das ist der Punkt, bei dem ich aufgehorcht habe. Eine Regulierung dieser Größe
 
 ## Warum macht die EU das?
 
-Der DPP existiert, weil die Kreislaufwirtschaftsziele Europas **radikale Produkttransparenz** erfordern. Aktuell tragen die meisten Produkte minimale Informationen über ihren ökologischen Footprint. Labels sagen dir Faserzusammensetzung oder Energielabel, aber nicht das ganze Bild. Wer schon einmal herausfinden wollte, was wirklich in etwas steckt, das einem gehört, weiß, wie dünn diese Information meistens ist.
+Der DPP existiert, weil die Kreislaufwirtschaftsziele Europas **radikale Produkttransparenz** erfordern. Aktuell tragen die meisten Produkte nur minimale Informationen über ihren ökologischen Fußabdruck. Labels sagen dir Faserzusammensetzung oder Energielabel, aber nicht das ganze Bild. Wer schon einmal herausfinden wollte, was wirklich in etwas steckt, das einem gehört, weiß, wie dünn diese Information meistens ist.
 
 Die EU will das mit drei Zielen ändern:
 
@@ -54,7 +54,7 @@ Der Mechanismus ist die ESPR (EU-Verordnung 2024/1781), die den rechtlichen Rahm
 Die DPP-Einführung erfolgt in Phasen nach Produktkategorie, und das halte ich für die vernünftige Entscheidung - eine einzige Stichtagsfrist wäre Chaos gewesen. Hier ist der aktuelle Stand Anfang 2026:
 
 ### Bereits in Kraft
-- **Batterien** (Februar 2027 volle Durchsetzung) - Industriebatterien über 2 kWh, Autobatterien und Leichttransportbatterien. Über 100 Datenattribute erforderlich, einschließlich Materialzusammensetzung mit geografischer Herkunft, CO2-Footprint nach Lebenszyklusphase, Recycling-Anteile und Zustands-Indikatoren.
+- **Batterien** (Februar 2027 volle Durchsetzung) - Industriebatterien über 2 kWh, Autobatterien und Leichttransportbatterien. Über 100 Datenattribute erforderlich, einschließlich Materialzusammensetzung mit geografischer Herkunft, CO2-Fußabdruck nach Lebenszyklusphase, Recycling-Anteile und Zustands-Indikatoren.
 
 ### Kommt 2027
 - **Textilien & Bekleidung** - Faserzusammensetzung (alle Fasern über 1% nach Gewicht), chemische Behandlungen, Wasserverbrauch, Dokumentation zu Arbeitsbedingungen und Pflegehinweise für Langlebigkeit.
@@ -75,7 +75,7 @@ Während die Anforderungen je nach Produktkategorie variieren, sind bestimmte Fe
 
 - **Materialzusammensetzung** (nach Gewichtsprozent)
 - **Herkunftsland** der Herstellung
-- **CO2-Footprint pro Einheit** (ausgedrückt als kg CO₂e)
+- **CO2-Fußabdruck pro Einheit** (ausgedrückt als kg CO₂e)
 - **Recycling- und Entsorgungsanweisungen**
 - **Reparaturbarkeits- oder Langlebigkeits-Index** (wo anwendbar)
 - **Gefahrstoff-Informationen** (REACH-Konformität)
@@ -96,7 +96,7 @@ Nicht jeder sieht dieselben Daten. Der Zugriff ist nach Stakeholder strukturiert
 
 ## NFCs Rolle bei Digital Product Passports
 
-Auf diesen Teil habe ich gewartet. Für mich war NFC immer ein praktisches Verbraucher-Werkzeug - eine Möglichkeit, dein Zuhause zu automatisieren, einen Kontakt zu teilen, einen Tag zu tippen und etwas auszulösen. Mit dem DPP wird es zur kritischen Infrastruktur.
+Auf diesen Teil habe ich gewartet. Für mich war NFC immer ein praktisches Verbraucher-Werkzeug - eine Möglichkeit, dein Zuhause zu automatisieren, einen Kontakt zu teilen, an einen Tag zu tippen und etwas auszulösen. Mit dem DPP wird es zur kritischen Infrastruktur.
 
 Die ESPR schreibt standardisierte Datenträger für Produktpässe vor. Die drei zugelassenen Technologien sind:
 
@@ -118,7 +118,7 @@ Ich will aber ehrlich über den Kompromiss sein: QR-Codes bleiben essenziell als
 
 ### NFC-Tags für DPP-Konformität schreiben
 
-Wenn du ein Hersteller oder eine Marke bist, die DPP über NFC implementiert, brauchst du Tools, um **NFC-Tags im großen Maßstab zu programmieren** mit den korrekten URLs, die auf deine Pass-Daten-Infrastruktur verweisen. Die zugrunde liegende Mechanik ist nichts Exotisches - ein DPP-Tag ist im Kern ein Tag, der einen URL-Datensatz trägt, genau das, was ich in meiner Anleitung zum Thema [NFC-Tags mit dem iPhone beschreiben](/de/blog/write-nfc-tags-iphone/) zeige.
+Wenn du ein Hersteller oder eine Marke bist, die DPP über NFC implementiert, brauchst du Tools, um **NFC-Tags im großen Maßstab zu programmieren** mit den korrekten URLs, die auf deine Pass-Daten-Infrastruktur verweisen. Die zugrunde liegende Mechanik ist nichts Exotisches - ein DPP-Tag ist im Kern ein Tag, der einen URL-Datensatz trägt, genau das, was ich in meiner Anleitung zum [Beschreiben von NFC-Tags mit dem iPhone](/de/blog/write-nfc-tags-iphone/) zeige.
 
 Genau dafür sind Apps wie [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-eu-digital-product-passport-2026-de&mt=8) gemacht. Es ist die App, die ich entwickle, und sie lässt dich NFC-Tags direkt von deinem iPhone oder Android-Gerät lesen, schreiben, formatieren und sperren - keine zusätzliche Hardware nötig. Für Kleinserienproduktion, Prototyping oder das Testen deiner DPP-Implementierung ist es der schnellste Weg, den ich kenne, um Tags zu programmieren und zu verifizieren. Wenn du dich entscheiden musst, auf welchen Chip du standardisierst, erklärt meine Übersicht zu [NFC-Tag-Typen fürs iPhone](/de/blog/nfc-tag-types-for-iphones/) die praktischen Unterschiede, und für alles, was die von der Regulierung belohnte kryptografische Sperrung braucht, lohnt sich ein Blick auf einen [verschlüsselten, manipulationssicheren Tag](/de/blog/nfc-safe-encrypted-secrets/), bevor du dich festlegst.
 
@@ -137,7 +137,7 @@ China entwickelt ein paralleles staatlich verwaltetes DPP-System unter Führung 
 Die USA haben 2026 kein föderales DPP-Mandat. Marktkräfte treiben jedoch die Adoption - besonders für Marken, die sowohl in den US- als auch EU-Märkten verkaufen. DPP-Infrastruktur einmal für EU-Konformität aufzubauen und global zu erweitern, wird zum pragmatischen Ansatz.
 
 ### Globale Interoperabilität
-Die große Herausforderung der Zukunft ist **diese Systeme miteinander reden zu lassen**. Ein Produkt, das in China hergestellt, in Europa verkauft und in den USA recycelt wird, braucht einen Pass, der über alle drei Gerichtsbarkeiten funktioniert. Normungsgremien (CEN/CENELEC in Europa, ISO/IEC international) arbeiten an Harmonisierung, aber es ist noch früh.
+Die große Herausforderung der Zukunft ist es, **diese Systeme miteinander reden zu lassen**. Ein Produkt, das in China hergestellt, in Europa verkauft und in den USA recycelt wird, braucht einen Pass, der über alle drei Gerichtsbarkeiten funktioniert. Normungsgremien (CEN/CENELEC in Europa, ISO/IEC international) arbeiten an Harmonisierung, aber es ist noch früh.
 
 ---
 
@@ -145,11 +145,11 @@ Die große Herausforderung der Zukunft ist **diese Systeme miteinander reden zu 
 
 Wenn deine Produkte unter ESPR-Kategorien fallen, ist hier der praktische Aktionsplan, dem ich folgen würde:
 
-### 1. Auditiere deine Daten
-Starte mit dem, was du weißt - und, ehrlicher gesagt, mit dem, was du nicht weißt. Mappe deine Lieferketten-Daten gegen die DPP-Anforderungen für deine Produktkategorie. Die Lücken, die du jetzt findest, sind günstiger zu beheben als die, die Regulierungsbehörden später finden.
+### 1. Prüfe deine Daten
+Starte mit dem, was du weißt - und, ehrlicher gesagt, mit dem, was du nicht weißt. Gleiche deine Lieferketten-Daten mit den DPP-Anforderungen für deine Produktkategorie ab. Die Lücken, die du jetzt findest, sind günstiger zu beheben als die, die Regulierungsbehörden später finden.
 
 ### 2. Starte mit einem Produkt
-Versuche nicht, DPP gleichzeitig über dein gesamtes Portfolio zu implementieren. Wähle eine Produktlinie (idealerweise in der frühesten Durchsetzungskategorie) und nutze sie als Pilot. Validiere deinen Datenfluss vor dem Scaling. Ich habe genug Projekte gesehen, die sich früh übernommen haben, um das mit Nachdruck zu sagen.
+Versuche nicht, DPP gleichzeitig über dein gesamtes Portfolio zu implementieren. Wähle eine Produktlinie (idealerweise in der frühesten Durchsetzungskategorie) und nutze sie als Pilot. Validiere deinen Datenfluss, bevor du skalierst. Ich habe genug Projekte gesehen, die sich früh übernommen haben, um das mit Nachdruck zu sagen.
 
 ### 3. Wähle deinen Datenträger
 Entscheide, ob QR, NFC oder beides für dein Produkt Sinn machen. Berücksichtige die Lebensdauer des Produkts, seinen Wert und wo der Datenträger platziert wird. Meine Faustregel: Für alles, was Verbraucher länger als ein Jahr behalten, lohnt sich die NFC-Investition.
@@ -157,8 +157,8 @@ Entscheide, ob QR, NFC oder beides für dein Produkt Sinn machen. Berücksichtig
 ### 4. Baue aktualisierbare Infrastruktur
 Dein DPP muss so lange halten wie dein Produkt. Das heißt, die Daten müssen auf Infrastruktur gehostet werden, die besteht, mit der Fähigkeit, Datensätze nach dem Verkauf zu aktualisieren.
 
-### 5. Rüste dein NFC-Tooling
-Wenn du den NFC-Weg gehst, mach dich mit Tag-Programmierung vertraut, bevor es zur Deadline wird. [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-eu-digital-product-passport-2026-de) unterstützt Lesen, Schreiben und Verifizieren von NFC-Tags auf iOS und Android - es ist die App, die ich entwickle, und ein praktischer Startpunkt zum Testen deiner DPP-Tags, bevor du dich auf Bulk-Produktion festlegst. Wenn du das größere Bild davon willst, was NFC jenseits von Pässen kann, legt meine [Funktionsübersicht zu NFC-Reader und -Writer](/de/features/nfc-reader-writer/) es dar.
+### 5. Mache dein NFC-Tooling startklar
+Wenn du den NFC-Weg gehst, mach dich mit der Tag-Programmierung vertraut, bevor die Frist drängt. [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-eu-digital-product-passport-2026-de) unterstützt Lesen, Schreiben und Verifizieren von NFC-Tags auf iOS und Android - es ist die App, die ich entwickle, und ein praktischer Startpunkt zum Testen deiner DPP-Tags, bevor du dich auf Bulk-Produktion festlegst. Wenn du sehen willst, was NFC jenseits von Pässen sonst noch alles kann, legt meine [Funktionsübersicht zu NFC-Reader und -Writer](/de/features/nfc-reader-writer/) es dar.
 
 ---
 

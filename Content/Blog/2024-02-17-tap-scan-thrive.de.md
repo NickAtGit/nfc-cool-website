@@ -12,7 +12,7 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 ---
 Ein QR-Code ist einfach ein Eimer voller Bytes. URLs sind bei Weitem die häufigste Payload, aber der Spec ist das egal - du kannst WLAN-Zugangsdaten, einen Kalendereintrag, eine Karten-Pin, eine Kontaktkarte, Klartext oder eine beliebige Custom-Payload kodieren, die eine App entschlüsseln kann.
 
-NFC.cools QR-Generator deckt all das ab. Hier ist, was jede Variante beim Scannen tatsächlich macht.
+NFC.cools QR-Generator deckt all das ab. Und so verhält sich jede Variante beim Scannen tatsächlich.
 
 ---
 
@@ -28,7 +28,7 @@ Eine nützliche Variante: Kurzlinks. Wenn du Analytics-lastige URLs hast, generi
 
 Kodiere SSID, Passwort und Security-Typ (WPA2, WPA3, offen) im Standardformat `WIFI:T:WPA;S:...;P:...;;`. iOS, Android und modernes Windows erkennen das Format und bieten den Beitritt an.
 
-Druck das auf eine kleine Karte in deinem Gästezimmer. Kleb es auf die Rückseite des Routers. Tape es an die Wand in einem Café. Gäste scannen, treten bei, fertig - kein Tippen von 24-Zeichen-Passwörtern.
+Druck das auf eine kleine Karte in deinem Gästezimmer. Kleb es auf die Rückseite des Routers. Befestige es an der Wand in einem Café. Gäste scannen, treten bei, fertig - kein Tippen von 24-Zeichen-Passwörtern.
 
 ---
 
@@ -52,9 +52,9 @@ Restaurants, Venues, Treffpunkte: Klebe einen kleinen QR auf den Flyer oder die 
 
 Die häufigste Alternative zu URLs. Kodiere eine vollständige vCard (Name, Telefon, E-Mail, Firma, Adresse, URL, Foto) und das Gerät bietet an, sie als Kontakt zu speichern.
 
-QR-Visitenkarten funktionieren genau so out of the box. Es ist auch der Grund, warum eine vCard-QR auf jedem Handy ohne spezielle App funktioniert - vCard ist ein 30 Jahre alter Standard, den das OS bereits kennt.
+QR-Visitenkarten funktionieren genau so von Haus aus. Es ist auch der Grund, warum eine vCard-QR auf jedem Handy ohne spezielle App funktioniert - vCard ist ein 30 Jahre alter Standard, den das OS bereits kennt.
 
-Der Trade-off vs. dem NFC.cool-Business-Card-Flow: Eine vCard-QR kann nicht aktualisiert werden. Einmal gedruckt, sind die Kontaktdaten eingefroren. Wenn du eine "Single Source of Truth" willst, die du später editieren kannst, kodiere stattdessen eine URL zu deiner Live-Visitenkarten-Seite - genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-de&mt=8), und deshalb empfehlen wir es für ernsthaftes Networking statt einer rohen vCard-QR.
+Der Trade-off gegenüber dem NFC.cool-Business-Card-Flow: Eine vCard-QR kann nicht aktualisiert werden. Einmal gedruckt, sind die Kontaktdaten eingefroren. Wenn du eine "Single Source of Truth" willst, die du später editieren kannst, kodiere stattdessen eine URL zu deiner Live-Visitenkarten-Seite - genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-de&mt=8), und deshalb empfehlen wir es für ernsthaftes Networking statt einer rohen vCard-QR.
 
 ---
 

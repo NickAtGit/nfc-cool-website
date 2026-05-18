@@ -115,7 +115,7 @@ Mein ehrlicher Rat: Kauf dir ein Pack NTAG215-Sticker und hör auf, es zu zerden
 
 ## Wie NFC-Tags funktionieren (die einfache Version)
 
-Die Leute erwarten, dass das kompliziert ist. Ist es nicht. Hier ist das Ganze, von Anfang bis Ende:
+Die Leute erwarten, dass das kompliziert ist. Ist es nicht. So läuft das Ganze ab, von Anfang bis Ende:
 
 1. **Stromübertragung** - Die NFC-Antenne deines Handys erzeugt ein elektromagnetisches Feld. Wenn der Tag in dieses Feld eintritt (~4 cm), induziert das Feld einen winzigen elektrischen Strom in der Antennenspule des Tags. Dieser Strom versorgt den Chip.
 
@@ -211,7 +211,7 @@ Klebe einen Tag in die Nähe deiner Haustür oder deines Gästezimmers. Programm
 Platziere Tags in deinem Zuhause, um Automatisierungen auszulösen. Tippe den Tag auf deinem Nachttisch, um den "Gute-Nacht"-Modus zu aktivieren (Lichter aus, Alarm eingestellt, Handy auf Nicht stören). Tippe den an der Tür für "Verlasse Haus" (Lichter aus, Thermostat runter, Saugroboter startet).
 
 **3. Wecker**
-Lege einen Tag in die Küche oder das Bad. Richte eine Kurzbefehl ein, die deinen Morgen-Wecker nur deaktiviert, wenn du den Tag physisch scannst - was dich aus dem Bett zwingt.
+Lege einen Tag in die Küche oder das Bad. Richte einen Kurzbefehl ein, der deinen Morgen-Wecker nur deaktiviert, wenn du den Tag physisch scannst - was dich aus dem Bett zwingt.
 
 **4. Geräte-Handbücher**
 Klebe einen NFC-Tag auf deine Waschmaschine, Spülmaschine oder ein anderes Gerät. Programmiere ihn mit einer URL zum Handbuch-PDF. Nie wieder ein Handbuch suchen.

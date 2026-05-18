@@ -25,9 +25,9 @@ Du brauchst nur drei Dinge, um mit dem Schreiben zu starten, und keines davon is
 
 ### 1. Ein kompatibles iPhone
 
-NFC-Tag-Schreiben erfordert ein **iPhone 7 oder neuer** mit **iOS 13 oder später**. Wenn du dein iPhone in den letzten acht Jahren gekauft hast, bist du abgesichert.
+NFC-Tag-Schreiben erfordert ein **iPhone 7 oder neuer** mit **iOS 13 oder später**. Wenn du dein iPhone in den letzten acht Jahren gekauft hast, bist du auf der sicheren Seite.
 
-Für das beste Erlebnis würde ich zu einem iPhone mit **Hintergrund-NFC-Lesung** greifen (iPhone XS und neuer). Diese Modelle können NFC-Tags lesen, ohne zuerst eine App zu öffnen, was die Tags, die du beschreibst, im Alltag deutlich angenehmer macht. Wenn du genau wissen willst, wie die iPhone-Hardware das alles handhabt, bin ich in [einem Insider-Blick auf NFC bei iPhones](/de/blog/nfc-on-iphones-insider-look/) tief eingestiegen.
+Für das beste Erlebnis würde ich zu einem iPhone mit **Hintergrund-NFC-Lesen** greifen (iPhone XS und neuer). Diese Modelle können NFC-Tags lesen, ohne zuerst eine App zu öffnen, was die Tags, die du beschreibst, im Alltag deutlich angenehmer macht. Wenn du genau wissen willst, wie die iPhone-Hardware das alles handhabt, bin ich in [einem Insider-Blick auf NFC bei iPhones](/de/blog/nfc-on-iphones-insider-look/) tief eingestiegen.
 
 ### 2. Leere NFC-Tags
 
@@ -43,13 +43,13 @@ Du kannst [leere NFC-Tags kaufen](/de/affiliate-links/) - online für nur **0,30
 
 **Welchen Chip solltest du kaufen?**
 
-Wenn ich mich für einen entscheiden müsste, ist **NTAG216** für die meisten Projekte der Sweet Spot - 888 Bytes nutzbarer Speicher, weit kompatibel und in größeren Mengen bezahlbar. Das ist der Chip, den ich empfehle und gegen den ich am meisten teste. Hier die schnelle Übersicht:
+Wenn ich mich für einen entscheiden müsste, ist **NTAG216** für die meisten Projekte der Sweet Spot - 888 Bytes nutzbarer Speicher, weit kompatibel und in größeren Mengen bezahlbar. Das ist der Chip, den ich empfehle und mit dem ich am meisten teste. Hier die schnelle Übersicht:
 
 - **NTAG213** (144 Bytes) - Reicht für URLs und einfachen Text. Günstigste Option.
 - **NTAG215** (504 Bytes) - Reicht für Kontaktkarten, WLAN-Zugangsdaten und mehrere Datensätze.
 - **NTAG216** (888 Bytes) - Bester Allrounder. Der meiste Speicher für Kontaktkarten, WLAN-Zugangsdaten und längere Inhalte wie detaillierte vCards - was ich für die meisten Projekte empfehle.
 
-Wenn du dir unsicher bist, starte mit einem gemischten Pack NTAG216-Stickern und denk nicht zu lange darüber nach - sie decken 90% der Anwendungsfälle ab. Für die vollständige Aufschlüsselung Chip für Chip, inklusive welche Typen iPhones tatsächlich mögen, habe ich [einen Guide zu NFC-Tag-Typen für iPhones](/de/blog/nfc-tag-types-for-iphones/) geschrieben.
+Wenn du dir unsicher bist, starte mit einem gemischten Pack NTAG216-Stickern und denk nicht zu lange darüber nach - sie decken 90% der Anwendungsfälle ab. Für die vollständige Aufschlüsselung Chip für Chip, darunter auch, welche Typen iPhones tatsächlich mögen, habe ich [einen Guide zu NFC-Tag-Typen für iPhones](/de/blog/nfc-tag-types-for-iphones/) geschrieben.
 
 ### 3. Eine NFC-Schreib-App
 
@@ -63,7 +63,7 @@ Andere Optionen gibt es auch (wie Apples Kurzbefehle-App für Basis-URL-Schreibe
 
 ## Schritt-für-Schritt: Deinen ersten NFC-Tag beschreiben
 
-Ich starte dich da, wo ich jeden starte: mit dem Schreiben einer URL auf einen Tag. Das ist der häufigste Anwendungsfall und der schnellste Erfolg.
+Ich fange mit dir da an, wo ich mit jedem anfange: mit dem Schreiben einer URL auf einen Tag. Das ist der häufigste Anwendungsfall und der schnellste Erfolg.
 
 ### Eine URL schreiben
 
@@ -74,7 +74,7 @@ Ich starte dich da, wo ich jeden starte: mit dem Schreiben einer URL auf einen T
 5. **Halte dein iPhone nahe an den leeren NFC-Tag** - die obere Kante deines iPhones (wo die NFC-Antenne ist) sollte innerhalb von 2-3 cm über dem Tag sein
 6. **Warte auf die Erfolgsbestätigung** - du spürst ein haptisches Tippen und siehst einen Haken
 
-Das war's. Jeder, der diesen Tag mit seinem Handy antippt, wird nun zu deiner URL weitergeleitet - keine App nötig, kein QR-Code zum Scannen. Als ich zum ersten Mal das Gesicht eines Kollegen sah, als ein leerer Sticker eine Website öffnete, wusste ich: Mit dieser Demo muss man anfangen.
+Das war's. Jeder, der diesen Tag mit seinem Handy antippt, wird nun zu deiner URL weitergeleitet - keine App nötig, kein QR-Code zum Scannen. Als ich zum ersten Mal das Gesicht eines Kollegen sah, während ein leerer Sticker eine Website öffnete, wusste ich: Mit dieser Demo muss man anfangen.
 
 **Pro-Tipp:** Die NFC-Antenne bei iPhones befindet sich an der **oberen Kante** des Handys, nahe der Kamera. Für die stärkste Verbindung halte die Oberseite deines iPhones direkt über den Tag. Wenn du ohne App schnell prüfen willst, was du geschrieben hast, kannst du auf Android [NFC-Tags direkt im Browser lesen](/de/online-nfc-reader/).
 
@@ -82,7 +82,7 @@ Das war's. Jeder, der diesen Tag mit seinem Handy antippt, wird nun zu deiner UR
 
 ## Was kannst du auf NFC-Tags schreiben?
 
-NFC-Tags nutzen ein Format namens **NDEF** (NFC Data Exchange Format), das Standard-Datensatz-Typen definiert. Als dieses Modell bei mir Klick gemacht hat, hörte die ganze Technologie auf, sich wie Magie anzufühlen. Hier ist, was du schreiben kannst:
+NFC-Tags nutzen ein Format namens **NDEF** (NFC Data Exchange Format), das Standard-Datensatz-Typen definiert. Als dieses Modell bei mir Klick gemacht hat, hörte die ganze Technologie auf, sich wie Magie anzufühlen. Folgendes kannst du schreiben:
 
 ### URLs und Links
 
@@ -114,9 +114,9 @@ Schreibe deinen WLAN-Netzwerknamen (SSID) und das Passwort auf einen Tag. Gäste
 
 ### Kontaktkarten (vCard)
 
-Schreibe eine vCard-Kontakt auf einen Tag. Wenn jemand ihn antippt, poppen deine Kontaktdaten zum Speichern auf - Name, Telefon, E-Mail, Firma, Adresse.
+Schreibe einen vCard-Kontakt auf einen Tag. Wenn jemand ihn antippt, erscheinen deine Kontaktdaten zum Speichern - Name, Telefon, E-Mail, Firma, Adresse.
 
-Das ist im Wesentlichen, was eine digitale Visitenkarte macht, aber direkt in einen physischen Tag gebacken. Keine App, keine Internetverbindung nötig - die Kontaktdaten leben auf dem Tag selbst.
+Das ist im Wesentlichen, was eine digitale Visitenkarte macht, aber direkt in einen physischen Tag eingebettet. Keine App, keine Internetverbindung nötig - die Kontaktdaten liegen auf dem Tag selbst.
 
 **Einen Kontakt schreiben:**
 
@@ -128,7 +128,7 @@ Das ist im Wesentlichen, was eine digitale Visitenkarte macht, aber direkt in ei
 
 Eine ehrliche Warnung aus den Support-Mails, die ich lese: Rohe vCards auf einem Tag können sich auf dem iPhone unzuverlässig verhalten. Wenn deine nicht sauber öffnet, bin ich den Ursachen in [warum dein vCard-NFC-Tag auf dem iPhone nicht funktioniert](/de/blog/vcard-nfc-iphone-not-working/) nachgegangen.
 
-**Hinweis:** Für ein reichhaltigeres Erlebnis mit Fotos, Social-Links und Analytics schau dir **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-de&mt=8)** an - sie erstellt ein gehostetes digitales Visitenkarten-Profil und kann den Link auf jeden NFC-Tag schreiben. Wenn jemand antippt, sehen iOS-Nutzer einen nativen App Clip und Android-Nutzer öffnen eine Website auf der nfc.cool-Domain - keine App nötig. Bei meinem eigenen Netzwerken habe ich festgestellt, dass das weitaus zuverlässiger ist als rohe vCards.
+**Hinweis:** Für ein reichhaltigeres Erlebnis mit Fotos, Social-Links und Analytics schau dir **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-de&mt=8)** an - sie erstellt ein gehostetes digitales Visitenkarten-Profil und kann den Link auf jeden NFC-Tag schreiben. Wenn jemand antippt, sehen iOS-Nutzer einen nativen App Clip und Android-Nutzer öffnen eine Website auf der nfc.cool-Domain - keine App nötig. Beim Netzwerken habe ich selbst festgestellt, dass das weitaus zuverlässiger ist als rohe vCards.
 
 ### Klartext
 
@@ -136,7 +136,7 @@ Schreibe eine beliebige Textnachricht auf einen Tag. Seltener als URLs, aber nü
 
 - Inventar-Labels (Seriennummern, Beschreibungen)
 - Anweisungen oder Notizen an Geräten
-- Osterei-Nachrichten in Schnitzeljagden
+- Versteckte Nachrichten in Schnitzeljagden
 - Asset-Tracking in Lagerhallen
 
 **Speicherbedarf:** Variiert nach Textlänge (~1 Byte pro Zeichen)
@@ -184,7 +184,7 @@ Das eröffnet Automatisierungsmöglichkeiten. Du könntest beispielsweise einen 
 3. Die URL auf einen NFC-Tag schreibt
 4. Den Tag in einer Tabelle protokolliert
 
-Perfekt für Bulk-Inventar-Tagging oder Event-Badge-Einrichtung.
+Perfekt für die Inventarisierung großer Mengen oder das Einrichten von Event-Badges.
 
 ---
 
@@ -258,7 +258,7 @@ Wenn du einen Tag beschrieben hast und mit seinem Inhalt zufrieden bist, kannst 
 
 ## Fehlerbehebung
 
-Die meisten "Warum schreibt es nicht?"-Fragen, die ich bekomme, landen bei einer dieser vier Ursachen. So würde ich sie durchgehen.
+Die meisten "Warum schreibt es nicht?"-Fragen, die ich bekomme, lassen sich auf eine dieser vier Ursachen zurückführen. So würde ich sie durchgehen.
 
 ### "Schreiben nicht möglich"-Fehler
 
@@ -274,8 +274,8 @@ Die meisten "Warum schreibt es nicht?"-Fragen, die ich bekomme, landen bei einer
 
 ### Tag funktioniert auf Android, aber nicht auf iPhone
 
-- **Chip-Typ prüfen.** iPhones funktionieren am besten mit NTAG-Serie-Chips (NTAG213, 215, 216). Einige andere Chip-Typen sind möglicherweise nicht mit iOS kompatibel.
-- **NDEF-Formatierung.** Der Tag muss NDEF-formatiert sein. Einige im Bulk gekaufte Tags kommen unformatiert - schreibe sie mit NFC.cool Tools, um sie automatisch zu formatieren.
+- **Chip-Typ prüfen.** iPhones funktionieren am besten mit Chips der NTAG-Serie (NTAG213, 215, 216). Einige andere Chip-Typen sind möglicherweise nicht mit iOS kompatibel.
+- **NDEF-Formatierung.** Der Tag muss NDEF-formatiert sein. Einige in großen Mengen gekaufte Tags kommen unformatiert - beschreibe sie mit NFC.cool Tools, um sie automatisch zu formatieren.
 
 ---
 
@@ -283,11 +283,11 @@ Die meisten "Warum schreibt es nicht?"-Fragen, die ich bekomme, landen bei einer
 
 Das sind die kleinen Lektionen, die ich auf die harte Tour gelernt habe, damit du es nicht musst.
 
-1. **Beschrifte deine Tags.** Ein leerer Sticker auf einem Schreibtisch hilft nicht. Nutze einen Etikettendrucker oder Edding, um anzudeuten, was der Tag macht ("Tippen für WLAN", "Arbeitsmodus" etc.).
+1. **Beschrifte deine Tags.** Ein leerer Sticker auf einem Schreibtisch hilft nicht. Nutze einen Etikettendrucker oder Edding, um zu kennzeichnen, was der Tag macht ("Tippen für WLAN", "Arbeitsmodus" etc.).
 
 2. **Vermeide Metallflächen.** Metall stört NFC-Signale. Wenn du auf Metall kleben musst, nutze **Anti-Metall-NFC-Tags** (sie haben eine Ferritschicht gegen Interferenz). Sie sind etwas dicker und teurer, funktionieren aber perfekt auf Metall.
 
-3. **Teste vor dem Kleben.** Schreibe den Tag, teste ihn, ziehe dann die Klebefolie ab und klebe ihn an Ort und Stelle. Einen festgeklebten Tag zum Neubeschreiben wieder abzuziehen, ist genau die Art kleiner Ärger, die ich mir komplett abgewöhnt habe.
+3. **Teste vor dem Kleben.** Schreibe den Tag, teste ihn, ziehe dann die Klebefolie ab und klebe ihn an Ort und Stelle. Einen festgeklebten Tag zum Neubeschreiben wieder abzuziehen, ist genau die Art von kleinem Ärgernis, das ich mir inzwischen komplett erspare.
 
 4. **Nutze den richtigen Tag für den Job.** Verschende keinen NTAG216 (888 Bytes) für eine einfache URL, die 40 Bytes braucht. Und versuche nicht, eine vollständige vCard auf einen NTAG213 (144 Bytes) zu quetschen.
 

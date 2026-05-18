@@ -128,7 +128,7 @@ Die Berufe unterscheiden sich; die Checkliste meistens nicht. Was du auch tust, 
 
 Volle Transparenz: Das ist meine App, lies die nächsten Absätze also mit diesem Wissen. Ich versuche, ehrlich zu sein, wo sie stark ist und wo nicht.
 
-NFC.cool Business Card ist eine eigenständige App auf dem iPhone, und dieselben Funktionen sind auf Android in NFC.cool Tools gebündelt. Hier ist, was sie für die obigen Berufe gut macht:
+NFC.cool Business Card ist eine eigenständige App auf dem iPhone, und dieselben Funktionen sind auf Android in NFC.cool Tools gebündelt. Das macht sie für die obigen Berufe gut:
 
 - **35 Sprachen** in der App-Oberfläche und im App Clip - mehr als jede andere digitale Visitenkarte, die ich kenne. Deine Karte erscheint auf iOS in der Sprache deiner Kundschaft. (Die Android-Sharing-Website ist vorerst nur auf Englisch.)
 - **Keine App für die Person, die deine Karte empfängt.** Auf dem iPhone bekommt sie einen nativen App Clip; auf Android eine Seite auf der Domain nfc.cool. Beide haben eine Schaltfläche „Kontakt speichern".

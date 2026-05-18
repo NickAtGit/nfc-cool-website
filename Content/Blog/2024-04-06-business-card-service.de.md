@@ -5,7 +5,7 @@ date: 2024-04-06
 tags: ["business-cards", "guides"]
 summary: "Schritt für Schritt durch das Setup deiner NFC.cool Digitalen Visitenkarte: Kontakt anlegen, öffentliche Felder wählen, auf NFC-Tag schreiben und teilen. Plus warum eine editierbare URL die bessere Wahl ist als ein eingefrorener vCard-QR."
 metaTitle: "NFC.cool Digitale Visitenkarte einrichten - Anleitung"
-metaDescription: "Schritt-für-Schritt-Einrichtung der NFC.cool Digitalen Visitenkarte - bauen, auf NFC schreiben, teilen. Warum eine editierbare URL einen eingefrorenen vCard schlägt."
+metaDescription: "Schritt-für-Schritt-Einrichtung der NFC.cool Digitalen Visitenkarte - bauen, auf NFC schreiben, teilen. Warum eine editierbare URL eine eingefrorene vCard schlägt."
 ogTitle: "Die NFC.cool Digitale Visitenkarte einrichten"
 ogDescription: "Eine Anleitung zum Bauen, Anpassen und Teilen deiner NFC.cool Digitalen Visitenkarte."
 image: "/assets/images/Blog/business-card-service.webp"
@@ -22,9 +22,9 @@ Lade NFC.cool für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?
 
 ---
 
-## Den Quell-Kontakt in Kontakte bauen
+## Den Quell-Kontakt in Kontakte anlegen
 
-Öffne die Kontakte-App (iOS oder Android) und lege einen Kontakt für dich an, mit den Details, die du der Welt zur Verfügung stellen willst: Name, Firma, Titel, Arbeits-E-Mail, Arbeits-Telefon, Website, LinkedIn-URL. Doppelcheck Schreibweise und Format - das ist der Master-Datensatz.
+Öffne die Kontakte-App (iOS oder Android) und lege einen Kontakt für dich an, mit den Details, die du der Welt zur Verfügung stellen willst: Name, Firma, Titel, Arbeits-E-Mail, Arbeits-Telefon, Website, LinkedIn-URL. Prüfe Schreibweise und Format noch einmal - das ist der Master-Datensatz.
 
 Du musst nicht alles reinpacken. Alles Sensible (private Handynummer, Wohnadresse) kann komplett aus diesem Kontakt rausbleiben.
 
@@ -34,13 +34,13 @@ Du musst nicht alles reinpacken. Alles Sensible (private Handynummer, Wohnadress
 
 In NFC.cool zum **Business Card**-Bereich navigieren und auf **Account erstellen** tippen. Du legst einen Benutzernamen und eine PIN fest - die PIN schützt zukünftige Edits, also nicht verlieren.
 
-Tippe **Kontakte öffnen** und wähle den Kontakt, den du gerade gebaut hast. NFC.cool zieht die Daten rein und zeigt sie als deinen Visitenkarten-Entwurf.
+Tippe **Kontakte öffnen** und wähle den Kontakt, den du gerade angelegt hast. NFC.cool zieht die Daten rein und zeigt sie als deinen Visitenkarten-Entwurf.
 
 ---
 
 ## Wähle, welche Felder öffentlich sind
 
-Das ist der wichtigste Schritt. Du kannst jedes Feld abwählen, das du nicht teilen willst - wenn dein Kontakt-Eintrag eine private Handynummer enthält, die du lieber privat lässt, hake sie hier ab und sie erscheint nicht auf deiner geteilten Karte.
+Das ist der wichtigste Schritt. Du kannst jedes Feld abwählen, das du nicht teilen willst - wenn dein Kontakt-Eintrag eine private Handynummer enthält, die du lieber privat lässt, wähle sie hier ab und sie erscheint nicht auf deiner geteilten Karte.
 
 Häufige Setups:
 
@@ -80,7 +80,7 @@ Die klassische Alternative ist ein QR-Code mit direkt eingebettetem vCard. Funkt
 
 Der Trade-off: Lässt sich nicht aktualisieren. Druck 500 Karten, wechsel den Job, und du hast 500 Karten mit veralteten Daten.
 
-Der NFC.cool-Flow hält deine Kontaktdaten auf dem Server. Der Tag (oder QR) zeigt nur auf die URL. Du änderst deine Details einmal in der App; jeder Tag, den irgendjemand jemals getippt hat, löst jetzt zur aktualisierten Info auf.
+Der NFC.cool-Flow hält deine Kontaktdaten auf dem Server. Der Tag (oder QR) zeigt nur auf die URL. Du änderst deine Details einmal in der App; jeder Tag, den irgendjemand jemals angetippt hat, verweist jetzt auf die aktualisierte Info.
 
 Das ist das einzige Feature, das für ernsthaftes Networking zählt - die Daten überleben die gedruckte Karte.
 

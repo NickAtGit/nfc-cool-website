@@ -21,12 +21,12 @@ Keine Cloud. Kein proprietäres Ökosystem. Kein Internet erforderlich. Ich habe
 
 ## Was ist OpenPrintTag?
 
-OpenPrintTag ist ein universelles, offenes Datenformat für 3D-Druck-Materialien. Anstatt dass jeder Hersteller sein eigenes inkompatibles Smart-Spule-System erfindet - genau das Chaos, das ich in anderen Ecken der NFC-Welt erlebt habe - definiert OpenPrintTag einen einzigen Standard, den jeder adoptieren kann: Filament-Hersteller, Druckerhersteller, Slicer-Software und Apps wie NFC.cool.
+OpenPrintTag ist ein universelles, offenes Datenformat für 3D-Druck-Materialien. Anstatt dass jeder Hersteller sein eigenes inkompatibles Smart-Spule-System erfindet - genau das Chaos, das ich in anderen Ecken der NFC-Welt erlebt habe - definiert OpenPrintTag einen einzigen Standard, den jeder übernehmen kann: Filament-Hersteller, Druckerhersteller, Slicer-Software und Apps wie NFC.cool.
 
 Die Kernprinzipien, und die Gründe, warum ich es für beachtenswert halte:
 
 - **Open Source** - unter MIT-Lizenz veröffentlicht, kostenlos zu implementieren, keine Lizenzgebühren
-- **Offline by Design** - alle Daten leben auf dem Tag selbst, kein Cloud-Service nötig
+- **Von Grund auf offline** - alle Daten liegen auf dem Tag selbst, kein Cloud-Service nötig
 - **Beschreibbar** - verbleibendes Filament beim Drucken aktualisieren, Tags auf neuen Spulen wiederverwenden
 - **Universell** - funktioniert über Marken und Ökosysteme hinweg
 - **Unterstützt FFF (Filament) und SLA (Harz)**
@@ -70,11 +70,11 @@ Die Spec deckt sogar harzspezifische Felder wie `last_stir_time` ab, das festhä
 
 ## Der Tag: Nicht dein üblicher NFC-Sticker
 
-Hier ist ein technisches Detail, das ich dir nahelegen würde, bevor du etwas kaufst: **OpenPrintTag ist für ISO 15693 (NFC-V) Tags konzipiert**, spezifisch **NXP ICODE SLIX und ICODE SLIX2** Chips. Das sind NFC-Forum-Typ-5-Tags mit einer deutlich längeren Lesereichweite als Standard-NFC-A-Tags, bis zu 1,5 Meter mit einem dedizierten Reader. Wenn du bisher nur die billigen NTAG-Sticker gekauft hast, die die meisten Projekte nutzen, ist das eine andere Tag-Familie - ich gehe auf die gesamte Landschaft in [NFC-Tag-Typen fürs iPhone](/de/blog/nfc-tag-types-for-iphones/) ein.
+Auf ein technisches Detail würde ich dich hinweisen, bevor du etwas kaufst: **OpenPrintTag ist für ISO 15693 (NFC-V) Tags konzipiert**, spezifisch **NXP ICODE SLIX und ICODE SLIX2** Chips. Das sind NFC-Forum-Typ-5-Tags mit einer deutlich längeren Lesereichweite als Standard-NFC-A-Tags, bis zu 1,5 Meter mit einem dedizierten Reader. Wenn du bisher nur die billigen NTAG-Sticker gekauft hast, die die meisten Projekte nutzen, ist das eine andere Tag-Familie - ich gehe auf die gesamte Landschaft in [NFC-Tag-Typen fürs iPhone](/de/blog/nfc-tag-types-for-iphones/) ein.
 
-Warum NFC-V? Der eingebaute NFC-Reader eines Druckers muss die Spule unabhängig von ihrer Drehung erkennen. Die längere Reichweite von NFC-V macht das möglich, ohne präzise Tag-Ausrichtung zu erfordern, und das ist ein cleveres Stück Design.
+Warum NFC-V? Der eingebaute NFC-Reader eines Druckers muss die Spule unabhängig von ihrer Drehung erkennen. Die längere Reichweite von NFC-V macht das möglich, ohne präzise Tag-Ausrichtung zu erfordern, und das ist clever durchdacht.
 
-**Was ist mit normalen NTAG-Stickern?** Das OpenPrintTag-Datenformat ist NDEF-basiert, sodass eine Handy-App wie NFC.cool OpenPrintTag-Daten technisch auf jedem NFC-Tag lesen und schreiben kann - einschließlich NTAG213/215/216. Ich habe es gemacht, und für das Lesen von Handy zu Handy funktioniert es einwandfrei. Allerdings **erkennen Drucker-Hardware und Apps wie Prusas nur NFC-V-Tags**. Wenn deine markierten Spulen mit den eingebauten Druckerreadern funktionieren sollen, nutze also ICODE SLIX2-Tags. Mach nicht den Fehler, den ich von den meisten Leuten erwarten würde, und kauf dafür eine Tüte NTAG213.
+**Was ist mit normalen NTAG-Stickern?** Das OpenPrintTag-Datenformat ist NDEF-basiert, sodass eine Handy-App wie NFC.cool OpenPrintTag-Daten technisch auf jedem NFC-Tag lesen und schreiben kann - einschließlich NTAG213/215/216. Ich habe es gemacht, und für das Lesen von Handy zu Handy funktioniert es einwandfrei. Allerdings **erkennen Drucker-Hardware und Apps wie Prusas nur NFC-V-Tags**. Wenn deine markierten Spulen mit den eingebauten Druckerreadern funktionieren sollen, nutze also ICODE SLIX2-Tags. Mach nicht den Fehler, den die meisten Leute vermutlich machen würden, und kauf dir dafür eine Tüte NTAG213.
 
 Wenn du leere Tags kaufst, suche speziell nach **ICODE SLIX2** oder **ISO 15693**. Kompatible Tags findest du auf [Amazon US](https://amzn.to/3LTh1fT) oder [Amazon Europa](https://amzn.to/4oJpQr4) (Affiliate-Links).
 
@@ -82,7 +82,7 @@ Wenn du leere Tags kaufst, suche speziell nach **ICODE SLIX2** oder **ISO 15693*
 
 ## OpenPrintTag mit dem Handy lesen und schreiben
 
-Du brauchst keinen Prusa-Drucker oder spezielle Hardware, um mit OpenPrintTag zu arbeiten, nur dein Handy. Das ist der Teil, den ich am liebsten bauen wollte, denn ein Handy in der Hosentasche ist der zugänglichste NFC-Reader, den es gibt.
+Du brauchst keinen Prusa-Drucker oder spezielle Hardware, um mit OpenPrintTag zu arbeiten, nur dein Handy. Das ist der Teil, den ich unbedingt bauen wollte, denn ein Handy in der Hosentasche ist der zugänglichste NFC-Reader, den es gibt.
 
 NFC.cool Tools unterstützt OpenPrintTag nativ auf [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-de), und ich habe dafür gesorgt, dass das Feature komplett gratis ist.
 
@@ -107,12 +107,12 @@ Wenn du unter die Haube schauen willst, kannst du den Expertenmodus nutzen, um d
 
 ## Warum das Handy nutzen?
 
-Prusa-Drucker bekommen eingebaute NFC-Reader, und Projekte wie [SpoolSense](https://github.com/SpoolSense) (ein Open-Source-ESP32-Reader) fügen dedizierte Hardware-Optionen hinzu. Warum sich also mit dem Handy abmühen? Hier ist das Argument, das ich vorbringen würde:
+Prusa-Drucker bekommen eingebaute NFC-Reader, und Projekte wie [SpoolSense](https://github.com/SpoolSense) (ein Open-Source-ESP32-Reader) fügen dedizierte Hardware-Optionen hinzu. Warum sich also mit dem Handy abmühen? So würde ich argumentieren:
 
 - **Funktioniert mit jedem Drucker** - Voron, Bambu Lab, Creality, Ender, was auch immer du nutzt
 - **Tags für jedes Filament schreiben** - Prusament kommt vorgetaggt, aber du kannst Fillamentum, eSUN, Hatchbox oder jede Marke selbst taggen
 - **Inventar fernab vom Drucker verwalten** - scanne Spulen an deinem Schreibtisch, in deinem Lager oder in einem Makerspace
-- **Tags debuggen** - wenn ein Drucker einen Tag nicht lesen kann, scanne ihn mit dem Handy, um zu sehen, was wirklich drauf ist - das ist der Anwendungsfall, zu dem ich am häufigsten greifen würde
+- **Tags debuggen** - wenn ein Drucker einen Tag nicht lesen kann, scanne ihn mit dem Handy, um zu sehen, was wirklich drauf ist - dafür würde ich es am häufigsten nutzen
 - **Keine zusätzliche Hardware** - dein Handy hat bereits einen NFC-Reader, und genau darum geht es
 
 ---
@@ -127,13 +127,13 @@ Prusa-Drucker bekommen eingebaute NFC-Reader, und Projekte wie [SpoolSense](http
 
 **Filament-Test-Notizen:** Die perfekte Temperatur für eine spezifische Spule gefunden? Aktualisiere den Tag mit deinen Notizen für das nächste Mal.
 
-**Mehrfarbige und Spezialmaterialien:** OpenPrintTag unterstützt bis zu 6 Farben pro Spule und 68+ Eigenschafts-Tags. Dein nachtleuchtendes, kohlefaser-gefülltes PETG kann endlich richtig beschriftet werden.
+**Mehrfarbige und Spezialmaterialien:** OpenPrintTag unterstützt bis zu 6 Farben pro Spule und 68+ Eigenschafts-Tags. Dein nachtleuchtendes, kohlefaserverstärktes PETG kann endlich richtig beschriftet werden.
 
 ---
 
 ## Das Ökosystem wächst
 
-OpenPrintTag ist noch jung, aber der Schwung baut sich auf:
+OpenPrintTag ist noch jung, aber die Dynamik ist echt:
 
 - **Prusament** liefert mit OpenPrintTag-NFC-Tags auf jeder Spule
 - **Prusa-Drucker** bekommen native NFC-Reader
@@ -153,6 +153,6 @@ Ich habe jahrelang beobachtet, wie die 3D-Druck-Industrie einen offenen Standard
 - Leere ICODE SLIX2 / ISO 15693 NFC-Tags ([Amazon US](https://amzn.to/3LTh1fT) / [Amazon Europa](https://amzn.to/4oJpQr4) - Affiliate-Links)
 - Ein paar Filament-Spulen zum Taggen
 
-Das war's. In fünf Minuten ab jetzt könnte deine erste Spule smart sein. Falls NFC selbst neu für dich ist, ist mein [Einsteiger-Guide zu NFC-Tags](/de/blog/nfc-tags-beginners-guide/) die Stelle, auf die ich dich zuerst verweisen würde, und die [Feature-Seite zum NFC-Reader/Writer](/de/features/nfc-reader-writer/) zeigt, was NFC.cool Tools über OpenPrintTag hinaus kann.
+Das war's. Schon in fünf Minuten könnte deine erste Spule smart sein. Falls NFC selbst neu für dich ist, ist mein [Einsteiger-Guide zu NFC-Tags](/de/blog/nfc-tags-beginners-guide/) die Stelle, auf die ich dich zuerst verweisen würde, und die [Feature-Seite zum NFC-Reader/Writer](/de/features/nfc-reader-writer/) zeigt, was NFC.cool Tools über OpenPrintTag hinaus kann.
 
 *OpenPrintTag ist eine Open-Source-Initiative von Prusa Research. NFC.cool ist ein unabhängiger Unterstützer des Standards. Mehr erfahren unter [openprinttag.org](https://openprinttag.org).*

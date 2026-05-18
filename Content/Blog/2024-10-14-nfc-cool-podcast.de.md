@@ -20,10 +20,10 @@ Themen in der Folge:
 
 - Das Zwei-Modus-NFC-Protokoll: wer hat Strom, wer antwortet, warum das wichtig ist
 - Wo NFC.cool Tools zwischen OS und Hardware sitzt
-- Die Cross-Platform-Plumbing hinter der NFC.cool Business Card (App Clip auf iOS, Web auf Android)
+- Die plattformübergreifende Technik hinter der NFC.cool Business Card (App Clip auf iOS, Web auf Android)
 - Die Roadmap: Was kommt als Nächstes auf iPhone, Android, Mac
 - Praktische NFC-Anwendungsfälle, die ich immer wieder in freier Wildbahn sehe
 
-Ein guter Hörgenuss, wenn du Audio Dokumentation vorziehst, oder wenn du pendelst und einen 20-Minuten-Primer zu dem willst, was ich baue.
+Ein guter Hörgenuss, wenn du Audio gegenüber Dokumentation bevorzugst, oder wenn du pendelst und einen 20-Minuten-Einstieg in das willst, was ich baue.
 
 Wenn der Podcast dich überzeugt, die App zu probieren: [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-podcast-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-podcast-de).

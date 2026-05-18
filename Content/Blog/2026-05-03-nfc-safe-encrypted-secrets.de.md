@@ -3,15 +3,15 @@ id: "nfc-safe-2026-05"
 title: "NFC Safe: Verschlüsselte Geheimnisse auf langlebigen NFC-Tags speichern"
 date: "2026-05-03"
 tags: ["nfc-tags", "privacy"]
-summary: "256-Bit AES auf epoxidbeschichteten NFC-Tags. Papier verbrennt. Cloud-Backups gehen down. NFC-Tags nicht."
+summary: "256-Bit AES auf epoxidbeschichteten NFC-Tags. Papier verbrennt. Cloud-Backups fallen aus. NFC-Tags nicht."
 image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
 imageAlt: "Smartphone, NFC-Karte, Schild und Schloss stehen für verschlüsselte NFC-Geheimnisse"
 author: "Nicolo Stanciu"
 ---
 
-Deine Seed Phrase liegt wahrscheinlich auf einem Stück Papier. Vielleicht in einem Safe. Vielleicht unter einer Diele. Vielleicht auf drei Orte verteilt, weil jemand auf Reddit meinte, das machen "ernsthafte" Crypto-Leute so. Aber es ist immer noch Papier. Papier verbrennt. Papier saugt sich voll. Papier geht verloren.
+Deine Seed Phrase liegt wahrscheinlich auf einem Stück Papier. Vielleicht in einem Safe. Vielleicht unter einer Diele. Vielleicht auf drei Orte verteilt, weil jemand auf Reddit meinte, das machen "ernsthafte" Crypto-Leute so. Aber es ist immer noch Papier. Papier verbrennt. Papier wird durchnässt. Papier geht verloren.
 
-Ich baue seit Jahren an NFC.cool, einer App zum Lesen und Schreiben von NFC-Tags, und irgendwann habe ich mir eine Frage gestellt, die nichts mit Zahlungen oder Schlüsselkarten zu tun hat: Was wäre, wenn dein Backup nicht verrotten könnte, nicht altert und für jeden, der es findet, einfach nach nichts aussieht?
+Ich baue seit Jahren an NFC.cool, einer App zum Lesen und Schreiben von NFC-Tags, und irgendwann habe ich mir eine Frage gestellt, die nichts mit Zahlungen oder Schlüsselkarten zu tun hat: Was wäre, wenn dein Backup nicht verrotten und nicht verfallen könnte und für jeden, der es findet, einfach nach nichts aussehen würde?
 
 Wegen dieser Frage habe ich **NFC Safe** gebaut. Es verschlüsselt beliebigen Text - Seed Phrases, Passwörter, Recovery Codes, alles, was geheim bleiben muss - mit 256-Bit-AES-Verschlüsselung auf einen NFC-Tag. Der Tag ist in sich abgeschlossen. Keine Cloud. Kein Server. Kein Account. Um das Geheimnis zu lesen, brauchst du den physischen Tag *und* die Passphrase. Ohne beides ist der Tag nur ein winziges Stück Plastik mit Buchstabensalat darauf.
 
@@ -49,7 +49,7 @@ Was ich unter der Haube tatsächlich mache: AES-256-GCM mit PBKDF2 (HMAC-SHA-256
 
 ## Die Redundanz-Strategie
 
-So würde ich es selbst tatsächlich nutzen. Ein NTAG216-Tag kostet ungefähr so viel wie ein Kaffee, also gibt es keinen Grund, nur einen zu machen. Kauf eine Handvoll, verschlüssele dasselbe Geheimnis auf jeden und verteile sie: Schreibtischschublade, Büro, Wohnung eines Familienmitglieds, Schließfach, irgendwo, wo nur du nachschauen würdest. Jeder einzelne Tag ist ohne Passphrase bedeutungslos. Das ist der Teil des Designs, der mir am besten gefällt - es ist von Natur aus Zwei-Faktor: ein physischer Tag plus eine Passphrase, an zwei getrennten Orten aufbewahrt, ganz ohne zusätzlichen Aufwand für dich.
+So würde ich es selbst tatsächlich nutzen. Ein NTAG216-Tag kostet ungefähr so viel wie ein Kaffee, also gibt es keinen Grund, nur einen einzigen anzulegen. Kauf eine Handvoll, verschlüssele dasselbe Geheimnis auf jeden und verteile sie: Schreibtischschublade, Büro, Wohnung eines Familienmitglieds, Schließfach, irgendwo, wo nur du nachschauen würdest. Jeder einzelne Tag ist ohne Passphrase bedeutungslos. Das ist der Teil des Designs, der mir am besten gefällt - es ist von Natur aus Zwei-Faktor: ein physischer Tag plus eine Passphrase, an zwei getrennten Orten aufbewahrt, ganz ohne zusätzlichen Aufwand für dich.
 
 ---
 
@@ -70,7 +70,7 @@ Die einzige echte Begrenzung ist die Kapazität: rund 500-700 Byte nach dem Vers
 
 ## Sicherheitshinweise
 
-Ich sage dir die scharfen Kanten lieber von vornherein, statt dass du sie später entdeckst:
+Ich weise dich lieber von vornherein auf die scharfen Kanten hin, statt dass du sie später entdeckst:
 
 - **Deine Passphrase ist alles.** 256-Bit AES ist unknackbar. Eine schwache Passphrase nicht. Nimm einen zufällig generierten String von mindestens 20 Zeichen und mach hier keine Kompromisse.
 - **NFC-Reichweite ist gering** (~4 cm). Niemand scannt quer durch den Raum - diese winzige Reichweite ist ein Feature, kein Fehler.
@@ -79,7 +79,7 @@ Ich sage dir die scharfen Kanten lieber von vornherein, statt dass du sie späte
 
 ---
 
-## Das größere Bild
+## Das große Ganze
 
 Weil ich täglich mit NFC arbeite, habe ich beobachtet, wie diese Tags still und leise zum Speichermedium für Dinge werden, die zählen. Der EU Digital Product Passport wird NFC für Produktauthentizität verlangen. Philips baut sie in Zahnbürstenköpfe. Hotels nutzen sie für Zimmerkarten. Günstig, robust und universell lesbar von dem Gerät, das du sowieso schon in der Tasche hast - diese Kombination ist selten, und genau deshalb finde ich immer wieder neue Anwendungen für sie. Wenn du den breiteren Überblick willst, habe ich die Grundlagen in [NFC-Tags erklärt: ein kompletter Einsteiger-Guide](/de/blog/nfc-tags-beginners-guide/) behandelt.
 

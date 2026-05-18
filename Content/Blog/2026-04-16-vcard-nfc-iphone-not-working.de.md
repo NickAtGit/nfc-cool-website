@@ -3,15 +3,15 @@ id: nfc-blog-013
 title: "Warum vCard-NFC-Tags auf dem iPhone nicht funktionieren (und was wirklich geht)"
 date: 2026-04-16
 tags: ["nfc-tags", "business-cards", "guides", "iphone"]
-summary: "Deine vCard-NFC-Visitenkarte funktioniert auf Android, aber nicht auf dem iPhone? Hier ist, warum iOS vCard-Daten ignoriert - und die einfache Lösung, die auf jedem Handy funktioniert."
+summary: "Deine vCard-NFC-Visitenkarte funktioniert auf Android, aber nicht auf dem iPhone? Warum iOS vCard-Daten ignoriert - und die einfache Lösung, die auf jedem Handy funktioniert."
 image: "/assets/images/Blog/vcard-nfc-iphone-not-working.webp"
 imageAlt: "iPhone behebt Probleme mit einer vCard-NFC-Visitenkarte anhand von Schritten"
 metaTitle: "Warum vCard-NFC-Tags auf dem iPhone nicht funktionieren | NFC.cool"
-metaDescription: "Deine vCard-NFC-Visitenkarte funktioniert auf Android, aber nicht auf dem iPhone? Hier ist, warum iOS vCard-Daten ignoriert - und die einfache Lösung, die auf jedem Handy funktioniert."
+metaDescription: "Deine vCard-NFC-Visitenkarte funktioniert auf Android, aber nicht auf dem iPhone? Warum iOS vCard-Daten ignoriert - und die einfache Lösung, die auf jedem Handy funktioniert."
 ogTitle: "Warum vCard-NFC-Tags auf dem iPhone nicht funktionieren"
 ogDescription: "iPhones ignorieren vCard-Daten auf NFC-Tags stillschweigend. Hier ist der Grund - und was stattdessen wirklich funktioniert."
 ---
-Ich baue seit Jahren NFC-Apps. Und jede einzelne Woche - ohne Ausnahme - schreibt mir jemand eine Variante von:
+Ich baue seit Jahren NFC-Apps. Und jede einzelne Woche - ohne Ausnahme - schreibt mir jemand eine Variante von Folgendem:
 
 > "Hey, ich hab eine NFC-Visitenkarte gekauft. Meine vCard drauf programmiert. Funktioniert super auf dem Android meines Kollegen. Aber wenn ich sie an mein iPhone tippe? Passiert nichts. Ist meine Karte kaputt?"
 
@@ -25,11 +25,11 @@ Lass mich erklären, warum - und was stattdessen wirklich funktioniert.
 
 ## Warum vCard-NFC-Tags auf dem iPhone nicht funktionieren
 
-Hier ist, was passiert, wenn du einen NFC-Tag mit vCard-Daten antippst:
+Folgendes passiert, wenn du einen NFC-Tag mit vCard-Daten antippst:
 
 **Auf Android:** Die Kontakte-App öffnet sich. Du siehst die Kontaktdaten. Tippe auf Speichern. Fertig. Wunderschön.
 
-**Auf dem iPhone:** Nichts. Wörtlich nichts passiert. Kein Popup. Keine Fehlermeldung. Nur dein iPhone, das dich stillschweigend ignoriert.
+**Auf dem iPhone:** Nichts. Buchstäblich nichts passiert. Kein Popup. Keine Fehlermeldung. Nur dein iPhone, das dich stillschweigend ignoriert.
 
 Als ich das das erste Mal auf einer Konferenz gesehen habe, schaute die Person, die tippte, mich an, als wäre *ich* kaputt.
 
@@ -42,7 +42,7 @@ Laut Apples Entwicklerdokumentation unterstützt das Hintergrund-NFC-Tag-Lesen a
 - ✓ SMS-Links (sms:)
 - ✗ vCard-Kontaktdateien - **nicht unterstützt**
 
-Wenn dein iPhone einen NFC-Tag mit vCard-Daten erkennt, ignoriert er ihn einfach. Kein Fallback. Keine hilfreiche Fehlermeldung. Nur nichts.
+Wenn dein iPhone einen NFC-Tag mit vCard-Daten erkennt, ignoriert es ihn einfach. Kein Fallback. Keine hilfreiche Fehlermeldung. Einfach nichts.
 
 Android handhabt vCards nativ, weil Google entschied, dass das Sinn macht. Apple entschied, dass URLs reichen.
 
@@ -68,7 +68,7 @@ NFC.cool Tools ist toll zum Lesen und Schreiben von NFC-Tags - ich hab es genau 
 
 ## Die Lösung: URL-basierte NFC-Visitenkarten
 
-Hier ist das, was dir niemand sagt, wenn du eine NFC-Visitenkarte kaufst:
+Eines sagt dir niemand, wenn du eine NFC-Visitenkarte kaufst:
 
 **Du solltest gar keine Kontaktdaten auf dem Tag speichern.**
 
@@ -123,7 +123,7 @@ Im Gegensatz zu vCard funktioniert ein URL-basiertes Profil auf jedem Smartphone
 
 **Wird Apple jemals vCard auf NFC-Tags unterstützen?**
 
-Es ist schon Jahre her und Apple hat dieses Verhalten nicht geändert. Das Hintergrund-NFC-Lesen bleibt auf URLs, Telefonnummern und SMS-Links beschränkt seit dem iPhone XS. Ich würde nicht darauf zählen, dass sich das ändert.
+Es ist schon Jahre her und Apple hat dieses Verhalten nicht geändert. Das Hintergrund-NFC-Lesen ist seit dem iPhone XS auf URLs, Telefonnummern und SMS-Links beschränkt geblieben. Ich würde nicht darauf zählen, dass sich das ändert.
 
 **Betrifft das alle iPhones?**
 
@@ -155,7 +155,7 @@ Die Lösung ist kein Workaround - es ist ein fundamental besserer Ansatz:
 
 Das ist, was NFC.cool Business Card macht. Es ist, was ich bei jeder Konferenz, jedem Meetup und jedem Networking-Event nutze.
 
-Ich tippe. Sie speichern. Wir machen beide weiter mit unserem Leben.
+Ich tippe. Sie speichern. Wir gehen beide weiter unserer Wege.
 
 **So sollte es funktionieren.**
 

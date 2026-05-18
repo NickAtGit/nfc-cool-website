@@ -109,7 +109,7 @@ Das gesagt: **du brauchst keine teuren NFC-Karten.** Apps wie NFC.cool lassen di
 
 NFC glänzt in Szenarien, in denen du Leute **eins-zu-eins, persönlich** triffst:
 
-- **Konferenzen und Events** - Tippe dein Badge, deine Karte oder dein Handy für instant Sharing
+- **Konferenzen und Events** - Tippe dein Badge, deine Karte oder dein Handy an, um sofort zu teilen
 - **Kunden-Meetings** - Professionell, einprägsam und schnell
 - **Networking-Dinners** - Funktioniert bei schwachem Licht ohne das unangenehme Scannen
 - **Vertriebsteams** - Lead-Capture mit einem Tap (einige Plattformen integrieren direkt mit CRMs)
@@ -154,7 +154,7 @@ Der Schlüssel ist, eine Plattform zu finden, die beides nativ handhabt, ohne da
 
 ## Worauf du bei einer Plattform achten solltest
 
-Wenn du den "nutze beides"-Ansatz wählst, ist hier was zählt:
+Wenn du den "nutze beides"-Ansatz wählst, kommt es auf Folgendes an:
 
 ### NFC-Flexibilität
 
@@ -188,7 +188,7 @@ Voller Transparenz: das ist mein Blog, also werde ich natürlich meine eigene L�
 
 - **NFC-Tap** - Schreibe deine Visitenkarte auf einen beliebigen Standard-NFC-Tag (Sticker, Karten, Schlüsselanhänger - deine Wahl) und teile mit einem Tap. Keine proprietäre Hardware erforderlich.
 - **QR-Code** - Generiere einen scannbaren Code direkt in der App. Zeige ihn auf deinem Handy oder drucke ihn.
-- **Apple Wallet (iOS)** - Füge deine Karte als Wallet-Pass für instant Sperrbildschirm-Zugang hinzu.
+- **Apple Wallet (iOS)** - Füge deine Karte als Wallet-Pass hinzu, für sofortigen Zugriff direkt vom Sperrbildschirm.
 - **Link-Sharing** - Teile per SMS, E-Mail oder Social Media.
 
 Einige Dinge, die sie herausstechen lassen:

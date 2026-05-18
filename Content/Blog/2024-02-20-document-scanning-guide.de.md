@@ -34,7 +34,7 @@ Ein paar Tipps, die den Output wirklich verbessern:
 Nach der Aufnahme bekommst du einen Nachbearbeitungs-Schritt. Die zwei Dinge, die sich lohnen:
 
 - **Eckenanpassung.** Die Auto-Erkennung des Scanners ist gut, aber nicht perfekt. Wenn die Seite wenig Kontrast zur Unterlage hat, zieh die Ecken präzise.
-- **Farbmodus.** Drei Optionen: Farbe (Fotos, farbige Dokumente), Graustufen (Text auf weißem Papier - schärfste Ergebnisse für OCR) und Schwarzweiß (Handschrift, Quittungen - sauberstes mögliche).
+- **Farbmodus.** Drei Optionen: Farbe (Fotos, farbige Dokumente), Graustufen (Text auf weißem Papier - schärfste Ergebnisse für OCR) und Schwarzweiß (Handschrift, Quittungen - so sauber wie möglich).
 
 Für die meisten Papiere - Rechnungen, Quittungen, Verträge - liefert Graustufen die beste Balance aus Dateigröße und OCR-Genauigkeit.
 
