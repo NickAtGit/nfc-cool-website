@@ -13,6 +13,8 @@ struct PageHeroVisual {
    let alt: String
    /// Logo-mark styling (no shadow / radius / rotation).
    var isBrand: Bool = false
+   /// Transparent artwork styling (no rectangular shadow/radius).
+   var isCutout: Bool = false
    /// Intrinsic pixel width, emitted as the `width` attribute when set.
    var width: Int? = nil
    /// Intrinsic pixel height, emitted as the `height` attribute when set.
@@ -41,7 +43,11 @@ func renderPageHero(modifier: String? = nil, text: String, visual: PageHeroVisua
    let sectionClass = modifier.map { "page-hero \($0)" } ?? "page-hero"
    let visualHTML: String = {
       guard let visual else { return "" }
-      let visualClass = visual.isBrand ? "page-hero-visual is-brand" : "page-hero-visual"
+      let visualClass: String = {
+         if visual.isBrand { return "page-hero-visual is-brand" }
+         if visual.isCutout { return "page-hero-visual is-cutout" }
+         return "page-hero-visual"
+      }()
       let widthAttr = visual.width.map { " width=\"\($0)\"" } ?? ""
       let heightAttr = visual.height.map { " height=\"\($0)\"" } ?? ""
       return """

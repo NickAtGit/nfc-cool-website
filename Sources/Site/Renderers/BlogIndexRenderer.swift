@@ -105,9 +105,11 @@ struct BlogIndexRenderer: Renderer {
          modifier: "blog-index-hero",
          text: heroText,
          visual: PageHeroVisual(
-            src: "/assets/theme/images/nfc-secondary-logo-white.webp",
+            src: "/assets/images/Blog/blog-hero-transparent-v3.png",
             alt: heroVisualAlt,
-            isBrand: true
+            isCutout: true,
+            width: 1254,
+            height: 1254
          )
       )
       let body = """

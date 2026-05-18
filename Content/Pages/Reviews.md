@@ -27,8 +27,8 @@ Every quote below is a real App Store review, attributed by the reviewer's handl
 
 </div>
 
-<div class="page-hero-visual">
-<img src="/assets/images/Tools-iOS/Screenshot-1.webp" alt="NFC.cool Tools on iPhone" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-cutout">
+<img src="/assets/images/Reviews/reviews-hero.webp" alt="Five-star NFC.cool review speech bubble with app reviews on iPhone" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

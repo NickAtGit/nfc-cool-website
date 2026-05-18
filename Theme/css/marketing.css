@@ -144,6 +144,13 @@
    transform: rotate(-2deg);
    object-fit: contain;
 }
+/* Transparent hero artwork already carries its own depth. Avoid applying a
+   rectangular screenshot shadow to the alpha box. */
+.page-hero-visual.is-cutout img {
+   border-radius: 0;
+   box-shadow: none;
+   transform: none;
+}
 /* For brand-logo / icon-style hero images, drop the shadow, corner radius
    and rotation so the mark sits cleanly on the gradient. The width cap sits
    on the container so the image itself can stay fluid (max-width: 100%). */

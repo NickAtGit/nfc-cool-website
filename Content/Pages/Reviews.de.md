@@ -27,8 +27,8 @@ Jedes Zitat unten ist eine echte App-Store-Bewertung mit dem Original-Nicknamen 
 
 </div>
 
-<div class="page-hero-visual">
-<img src="/assets/images/Tools-iOS/Screenshot-1.webp" alt="NFC.cool Tools auf dem iPhone" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-cutout">
+<img src="/assets/images/Reviews/reviews-hero.webp" alt="Fünf-Sterne-Sprechblase für NFC.cool Rezensionen mit App-Bewertungen auf dem iPhone" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>
