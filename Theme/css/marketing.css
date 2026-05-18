@@ -203,6 +203,13 @@
    object-fit: contain;
 }
 
+/* Dark mode: swap the hero image's cool drop shadow for a soft brand-yellow
+   glow so the framed screenshot lifts warmly off the dark background. Cutout
+   and brand-logo visuals carry no shadow, so they stay excluded. */
+[data-theme="dark"] .page-hero-visual:not(.is-cutout):not(.is-brand) img {
+   box-shadow: 0 30px 60px -20px rgba(255, 199, 9, 0.28), 0 8px 24px -8px rgba(255, 199, 9, 0.16);
+}
+
 /* Landing-page hero modifier. The homepage screenshot is sized to fill its
    column edge to edge, unlike the contained feature / blog assets, so it
    opts out of the height cap and the reserved min-height. */
