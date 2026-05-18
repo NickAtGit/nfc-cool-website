@@ -10,14 +10,15 @@ import SiteKit
 struct BlogIndexRenderer: Renderer {
    func render(context: BuildContext) throws -> [OutputFile] {
       var files: [OutputFile] = []
+      let newsletterHTML = NewsletterForm.section(for: context)
       for section in context.sections {
          guard !section.pages.isEmpty else { continue }
-         files.append(self.renderSection(section, context: context))
+         files.append(self.renderSection(section, context: context, newsletterHTML: newsletterHTML))
       }
       return files
    }
 
-   private func renderSection(_ section: ContentSection, context: BuildContext) -> OutputFile {
+   private func renderSection(_ section: ContentSection, context: BuildContext, newsletterHTML: String) -> OutputFile {
       let helper = OutputFileRenderer(context: context)
       let locale = context.uiStrings.locale
       let listingPath = context.router.sectionListingPath(for: section.config)
@@ -120,6 +121,7 @@ struct BlogIndexRenderer: Renderer {
                <div class="blog-card-grid">\(cards.joined())</div>
             </div>
          </section>
+         \(newsletterHTML)
       </main>
       """
 

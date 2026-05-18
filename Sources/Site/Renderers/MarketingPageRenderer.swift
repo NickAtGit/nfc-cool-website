@@ -22,6 +22,7 @@ struct MarketingPageRenderer: Renderer {
    func render(context: BuildContext) throws -> [OutputFile] {
       let helper = OutputFileRenderer(context: context)
       let defaultLang = context.config.effectiveDefaultLanguage
+      let newsletterHTML = NewsletterForm.section(for: context)
       return context.staticPages.compactMap { page in
          let available = self.availableLocales(for: page, context: context)
          let isFallback = page.locale != defaultLang && !available.contains(page.locale)
@@ -31,7 +32,7 @@ struct MarketingPageRenderer: Renderer {
             // sees the meta-refresh and stamps `noindex,follow` automatically.
             return self.renderFallbackRedirect(page, context: context)
          }
-         return self.renderMarketingPage(page, context: context, helper: helper, availableLocales: available)
+         return self.renderMarketingPage(page, context: context, helper: helper, availableLocales: available, newsletterHTML: newsletterHTML)
       }
    }
 
@@ -39,7 +40,8 @@ struct MarketingPageRenderer: Renderer {
       _ page: Page,
       context: BuildContext,
       helper: OutputFileRenderer,
-      availableLocales: Set<String>
+      availableLocales: Set<String>,
+      newsletterHTML: String
    ) -> OutputFile {
       let pageTitle = "\(page.title) - \(context.config.name)"
       let pagePath = context.router.staticPagePath(for: page)
@@ -106,8 +108,11 @@ struct MarketingPageRenderer: Renderer {
 
       // Marketing pages author their own .page-hero / .page-section structure
       // in markdown. Just drop the rendered body inside <main> - no auto h1,
-      // no sk-article-body wrapper.
-      let mainContent = "<main class=\"sk-main marketing-page\" data-slug=\"\(page.slug)\">\(page.htmlContent)</main>"
+      // no sk-article-body wrapper. The newsletter signup closes every page
+      // except the legal ones, which stay focused with no signup CTA.
+      let legalSlugs: Set<String> = ["terms", "privacy", "impressum"]
+      let newsletter = legalSlugs.contains(page.slug) ? "" : newsletterHTML
+      let mainContent = "<main class=\"sk-main marketing-page\" data-slug=\"\(page.slug)\">\(page.htmlContent)\(newsletter)</main>"
 
       let html = helper.renderPageShell(
          head: head,

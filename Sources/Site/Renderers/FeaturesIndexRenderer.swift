@@ -44,6 +44,7 @@ struct FeaturesIndexRenderer: Renderer {
          guard let cta = landing.cta else { return "" }
          return renderFinalCTA(cta: cta, trust: landing.trust, appStoreURL: toolsAppStoreURL, googlePlayURL: toolsGooglePlayURL)
       }()
+      let newsletterHTML = NewsletterForm.section(for: context)
 
       let basePath = context.router.homePath()
       let cards = renderFeatureCards(features, basePath: basePath)
@@ -93,6 +94,7 @@ struct FeaturesIndexRenderer: Renderer {
                <div class="landing-features">\(cards)</div>
             </div>
          </section>
+         \(newsletterHTML)
          \(finalCTAHTML)
       </main>
       """

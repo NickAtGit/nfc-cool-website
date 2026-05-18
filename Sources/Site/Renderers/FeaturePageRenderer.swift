@@ -31,6 +31,7 @@ struct FeaturePageRenderer: Renderer {
       // page (and the features index) closes with the same brand-gradient
       // block as the home page.
       let landing = try loadLandingData(context: context)
+      let newsletterHTML = NewsletterForm.section(for: context)
 
       var outputs: [OutputFile] = []
 
@@ -115,6 +116,9 @@ struct FeaturePageRenderer: Renderer {
          }
          if let relatedReading = feature.relatedReading, !relatedReading.isEmpty {
             sections.append(self.renderRelatedReading(relatedReading, title: feature.relatedReadingTitle))
+         }
+         if !newsletterHTML.isEmpty {
+            sections.append(newsletterHTML)
          }
          if let cta = landing.cta {
             sections.append(renderFinalCTA(cta: cta, trust: landing.trust, appStoreURL: appStoreURL, googlePlayURL: googlePlayURL))

@@ -2,11 +2,28 @@ import Foundation
 import SiteKit
 
 /// Renders the Mailjet-backed newsletter signup card. Standalone so any page
-/// renderer can drop it in by calling `NewsletterForm.render(section)` with a
-/// `NewsletterSection` from `Content/Data/Landing.yaml` (or any equivalent
-/// data source). The form's submit handler is wired by `Theme/js/theme.js`
-/// via the `.newsletter-form` selector.
+/// renderer can drop it in.
+///
+/// Two entry points:
+///  - `section(for: context)` - the one-call form: loads the locale's
+///    `newsletter:` copy and renders the section, returning "" when absent.
+///    Used by every page renderer that shows the form.
+///  - `render(_:)` - renders from an already-loaded `NewsletterSection`.
+///
+/// Copy comes from the `newsletter:` block in `Content/Data/Landing*.yaml`.
+/// The form's submit handler is wired by `Theme/js/theme.js` via the
+/// `.newsletter-form` selector; `Theme/css/newsletter.css` is loaded
+/// site-wide, so the section works on any page with no extra setup.
 enum NewsletterForm {
+   /// Renders the locale-correct newsletter signup section for this build.
+   /// Returns "" when no `newsletter:` block is defined, so callers can
+   /// append the result unconditionally.
+   static func section(for context: BuildContext) -> String {
+      guard let newsletter = try? loadLandingData(context: context).newsletter
+      else { return "" }
+      return render(newsletter)
+   }
+
    static func render(_ newsletter: NewsletterSection) -> String {
       let subtitle = newsletter.subtitle.map { "<p class=\"newsletter-subtitle\">\($0.htmlEscaped)</p>" } ?? ""
       let consent = newsletter.consent.map { "<p class=\"newsletter-consent\">\($0.htmlEscaped)</p>" } ?? ""

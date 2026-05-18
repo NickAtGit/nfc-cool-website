@@ -12,6 +12,7 @@ struct BlogPostRenderer: Renderer {
       let locale = context.uiStrings.locale
       let defaultLang = context.config.effectiveDefaultLanguage
       let dateFormatter = Self.dateFormatter(for: locale)
+      let newsletterHTML = NewsletterForm.section(for: context)
 
       for section in context.sections {
          // Only pages that are actually emitted. Non-default-locale pages
@@ -32,7 +33,8 @@ struct BlogPostRenderer: Renderer {
                section: section,
                allInSection: renderable,
                context: context,
-               dateFormatter: dateFormatter
+               dateFormatter: dateFormatter,
+               newsletterHTML: newsletterHTML
             ))
          }
       }
@@ -53,7 +55,8 @@ struct BlogPostRenderer: Renderer {
       section: ContentSection,
       allInSection: [Page],
       context: BuildContext,
-      dateFormatter: DateFormatter
+      dateFormatter: DateFormatter,
+      newsletterHTML: String
    ) -> OutputFile {
       let helper = OutputFileRenderer(context: context)
       let locale = context.uiStrings.locale
@@ -213,6 +216,7 @@ struct BlogPostRenderer: Renderer {
             </div>
          </section>
          """)
+         \(newsletterHTML)
       </main>
       """
 
