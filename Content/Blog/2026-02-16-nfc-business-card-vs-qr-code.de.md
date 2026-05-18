@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-003
 title: "NFC-Visitenkarte vs QR-Code: Was ist besser zum Netzwerken?"
-date: 2026-03-23
+date: 2026-02-16
 tags: ["business-cards", "qr-codes", "networking"]
 summary: "NFC-Tap oder QR-Code-Scan - was ist der bessere Weg, deine Kontaktdaten zu teilen? Ich vergleiche Geschwindigkeit, Kompatibilität, Kosten und echte Anwendungsfälle."
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"

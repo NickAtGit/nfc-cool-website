@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-004
 title: "Warum Datenschutz für deine digitale Visitenkarte wichtig ist"
-date: 2026-03-23
+date: 2026-03-09
 tags: ["business-cards", "privacy"]
 summary: "Deine digitale Visitenkarte enthält deinen Namen, deine E-Mail, deine Telefonnummer und mehr - doch die meisten denken nie darüber nach, wo diese Daten eigentlich landen. Warum Datenschutz dein wichtigstes Kriterium sein sollte."
 image: "/assets/images/Blog/why-privacy-matters-digital-business-card.webp"

@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-010
 title: "iPhoneでNFCタグに書き込む方法"
-date: 2026-03-23
+date: 2026-03-16
 tags: ["nfc-tags", "guides", "iphone"]
 summary: "iPhoneはNFCタグを読み取るだけでなく、書き込むこともできます。適切なタグの選び方から、URL、Wi-Fi認証情報、連絡先カード、オートメーションの書き込みまで、ステップバイステップで解説します。"
 image: "/assets/images/Blog/write-nfc-tags-iphone.webp"

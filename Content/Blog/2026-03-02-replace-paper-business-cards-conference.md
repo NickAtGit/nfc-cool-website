@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-007
 title: "How to Replace Paper Business Cards at Your Next Conference"
-date: 2026-03-23
+date: 2026-03-02
 tags: ["business-cards", "networking"]
 summary: "Conferences are where paper business cards fail the hardest. Here's a step-by-step plan to go fully digital - before, during, and after your next event - so you never scramble for a card again."
 image: "/assets/images/Blog/replace-paper-business-cards-conference.webp"

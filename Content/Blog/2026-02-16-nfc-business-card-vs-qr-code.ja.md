@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-003
 title: "NFCデジタル名刺 vs QRコード：ネットワーキングに最適なのはどっち？"
-date: 2026-03-23
+date: 2026-02-16
 tags: ["business-cards", "qr-codes", "networking"]
 summary: "NFCタップとQRコードスキャン - 連絡先を共有するのに最適な方法はどちらでしょうか？スピード、互換性、コスト、実際の使用シーンを比較して、あなたに合った方法を見つけましょう。"
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"

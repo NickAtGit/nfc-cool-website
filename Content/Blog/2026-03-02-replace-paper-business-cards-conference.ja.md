@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-007
 title: "次のカンファレンスで紙の名刺を卒業する方法"
-date: 2026-03-23
+date: 2026-03-02
 tags: ["business-cards", "networking"]
 summary: "カンファレンスは紙の名刺が最もうまく機能しない場所です。イベント前・当日・後の完全なデジタル化プランを紹介します。もう名刺を探し回ることはありません。"
 image: "/assets/images/Blog/replace-paper-business-cards-conference.webp"

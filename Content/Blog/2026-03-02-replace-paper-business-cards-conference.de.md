@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-007
 title: "Wie du Papier-Visitenkarten auf deiner nächsten Konferenz ersetzt"
-date: 2026-03-23
+date: 2026-03-02
 tags: ["business-cards", "networking"]
 summary: "Konferenzen sind der Ort, an dem Papier-Visitenkarten am stärksten versagen. Hier ist ein Schritt-für-Schritt-Plan, um komplett auf digital umzustellen - vor, während und nach deinem nächsten Event - damit du nie wieder nach einer Karte suchst."
 image: "/assets/images/Blog/replace-paper-business-cards-conference.webp"

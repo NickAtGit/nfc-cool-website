@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-008
 title: "EU Digital Product Passport: Was du 2026 wissen musst"
-date: 2026-03-23
+date: 2026-02-09
 tags: ["nfc-tags", "automation"]
 summary: "Der EU Digital Product Passport ist da - Batterien sind schon erfasst, Textilien und Elektronik folgen. Was der DPP für Unternehmen und Verbraucher bedeutet und warum NFC-Technologie im Zentrum steht."
 image: "/assets/images/Blog/eu-digital-product-passport-2026.webp"

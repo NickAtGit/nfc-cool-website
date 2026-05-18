@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-002
 title: "2026年版デジタル名刺アプリのベスト比較：正直なレビュー"
-date: 2026-03-23
+date: 2026-02-02
 tags: ["business-cards", "networking", "privacy"]
 summary: "2026年のトップデジタル名刺アプリ - Wave ConnectからBlinq、NFC.coolまで - を実際にテストし、料金、プライバシー、NFC対応、機能を比較しました。その結果をお伝えします。"
 image: "/assets/images/Blog/best-digital-business-card-apps-2026.webp"

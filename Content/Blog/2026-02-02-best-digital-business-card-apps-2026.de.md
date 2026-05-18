@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-002
 title: "Die besten digitalen Visitenkarten-Apps 2026: Ein ehrlicher Vergleich"
-date: 2026-03-23
+date: 2026-02-02
 tags: ["business-cards", "networking", "privacy"]
 summary: "Ich habe die besten digitalen Visitenkarten-Apps 2026 getestet - von Wave Connect über Blinq bis NFC.cool - und Preise, Datenschutz, NFC-Unterstützung und Features verglichen. Hier sind die Ergebnisse."
 image: "/assets/images/Blog/best-digital-business-card-apps-2026.webp"

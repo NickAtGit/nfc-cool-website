@@ -54,7 +54,7 @@ redirects:
   - from: "/post/elevating-the-experience-business-card-service"
     to: "/blog/business-card-service/"
   - from: "/post/nfc-cool-app-presentation-podcast"
-    to: "/blog/nfc-cool-podcast/"
+    to: "/blog/"
   - from: "/post/help-i-cant-remember-anyone-i-meet-this-smart-business-card-app-can"
     to: "/blog/smart-context-remember-everyone/"
 
@@ -81,6 +81,22 @@ redirects:
     to: "/de/blog/digital-business-cards-by-profession/"
   - from: "/ja/blog/digital-business-card-doctors-healthcare/"
     to: "/ja/blog/digital-business-cards-by-profession/"
+
+  # ----- Removed posts → /blog/ index -----
+  # The podcast announcement and the blog-launch welcome post were retired with
+  # no replacement content, so old inbound links land on the blog index.
+  - from: "/blog/nfc-cool-podcast/"
+    to: "/blog/"
+  - from: "/de/blog/nfc-cool-podcast/"
+    to: "/de/blog/"
+  - from: "/ja/blog/nfc-cool-podcast/"
+    to: "/ja/blog/"
+  - from: "/blog/welcome-to-the-nfc-cool-blog/"
+    to: "/blog/"
+  - from: "/de/blog/welcome-to-the-nfc-cool-blog/"
+    to: "/de/blog/"
+  - from: "/ja/blog/welcome-to-the-nfc-cool-blog/"
+    to: "/ja/blog/"
 
   # ----- blog.nfc.cool legacy subdomain → unified /blog/ -----
   # Note: these only fire if the visitor lands on the MAIN domain with these paths.

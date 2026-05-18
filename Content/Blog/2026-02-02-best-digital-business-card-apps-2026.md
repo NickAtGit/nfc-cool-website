@@ -1,7 +1,7 @@
 ---
 id: nfc-blog-002
 title: "Best Digital Business Card Apps in 2026: An Honest Comparison"
-date: 2026-03-23
+date: 2026-02-02
 tags: ["business-cards", "networking", "privacy"]
 summary: "I tested the top digital business card apps of 2026 - from Wave Connect to Blinq to NFC.cool - and compared pricing, privacy, NFC support, and features. Here's what I found."
 image: "/assets/images/Blog/best-digital-business-card-apps-2026.webp"
