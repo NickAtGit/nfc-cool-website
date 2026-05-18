@@ -295,7 +295,8 @@ document.addEventListener('DOMContentLoaded', function() {
          counterHex = raw;
       }
 
-      const tagId = uid && isHex(uid) ? uid.toUpperCase() : null;
+      // Display the UID as colon-separated hex byte pairs (04:A1:B2:...).
+      const tagId = uid && isHex(uid) ? uid.toUpperCase().match(/.{1,2}/g).join(':') : null;
       const count = counterHex && isHex(counterHex) ? parseInt(counterHex, 16) : null;
       // Nothing usable in the parameter - leave the instructional state up.
       if (tagId === null && count === null) return;

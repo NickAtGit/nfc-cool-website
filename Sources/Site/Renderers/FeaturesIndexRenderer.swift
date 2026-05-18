@@ -76,7 +76,7 @@ struct FeaturesIndexRenderer: Renderer {
       )
 
       let heroText = """
-      <h1>\(title.htmlEscaped)</h1>
+      \(renderTitleWithBrandTail(title, tagName: "h1"))
       <p>\(subtitle.htmlEscaped)</p>
       <div class="landing-hero-actions">\(renderStoreButtons(appStoreURL: toolsAppStoreURL, googlePlayURL: toolsGooglePlayURL))</div>
       """

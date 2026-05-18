@@ -15,7 +15,7 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 NFCアプリを7年間開発し、何千ものサポートメールに答えてきた経験から - iPhoneで使えるもの、Androidで使えるもの、買わない方がよいものをまとめました。
 
-<a href="#buy" class="landing-cta-button">購入リンクへ</a>
+<a href="#buy" class="landing-cta-button">NFCタグを購入</a>
 
 </div>
 

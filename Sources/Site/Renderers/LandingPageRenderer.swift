@@ -197,7 +197,7 @@ struct LandingPageRenderer: Renderer {
             <div class="landing-feature-banner-content">
                \(media)
                <div class="landing-feature-banner-text">
-                  <h2 class="landing-section-title">\(banner.title.htmlEscaped)</h2>
+                  \(renderTitleWithBrandTail(banner.title, tagName: "h2", classAttr: "landing-section-title"))
                   <p>\(banner.subtitle.htmlEscaped)</p>
                   \(actionHTML)
                </div>

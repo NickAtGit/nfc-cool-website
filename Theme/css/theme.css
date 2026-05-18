@@ -164,16 +164,38 @@ h3 { font-size: 1.25rem; margin-top: 1.5em; }
 p { margin: 0 0 1.25em; line-height: 1.65; }
 strong { font-weight: 700; }
 
-/* ".cool" tail - used in headlines via <em class="brand-tail">.cool</em> */
+/* Brand wordmark - emitted by renderTitleWithBrandTail as
+   <span class="brand-name">NFC<em class="brand-tail">.cool</em></span>.
+   Styled globally so "NFC.cool" renders identically in every heading
+   (hero h1s, section headings, the final CTA). The wordmark has no
+   font-weight of its own - it inherits the heading's weight so the whole
+   title reads as one piece; only the script ".cool" tail stands apart. */
+.brand-name {
+   /* Keep "NFC.cool" on one line - the inline-block .brand-tail would
+      otherwise allow a break between "NFC" and ".cool". */
+   white-space: nowrap;
+}
 .brand-tail,
 em.brand-tail {
    font-family: var(--font-script);
    font-style: normal;
    font-weight: 400;
    color: var(--color-accent);
-   line-height: 0.7;
+   font-size: 0.78em;
+   line-height: 0.6;
    letter-spacing: 0;
+   display: inline-block;
+   /* Tuck ".cool" against the preceding letters, then add a bit of breathing
+      room before the next word (e.g. "Tools", "Business Card"). */
+   margin-left: -0.05em;
+   margin-right: 0.15em;
+   /* Nudge the script ".cool" up and right so it sits cleanly against the
+      preceding letters (translate, not margin, so layout/flow is untouched). */
+   transform: translate(0.06em, -0.02em);
 }
+
+/* Utility: keep a short phrase from breaking across lines. */
+.nowrap { white-space: nowrap; }
 
 /* ============================================================
    Skip link (a11y)

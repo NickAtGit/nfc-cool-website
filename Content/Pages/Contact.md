@@ -28,22 +28,36 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <section class="page-section">
 
-## Frequently asked
+## Frequently asked questions
+
+### Getting started
 
 <details class="faq-item">
-<summary>Does my phone have NFC?</summary>
-<p>All iPhones from iPhone 7 onward have NFC, and iPhone XS and newer can read tags from the lock screen without launching an app. On Android, most phones from 2015 onward have NFC - check your device specs. NFC.cool will tell you on first launch if your device isn't compatible.</p>
+<summary>Are the apps free?</summary>
+<p>Yes - both apps are free on the App Store and Google Play, with no ads. A few advanced workflows can be unlocked inside the apps, but every core feature - NFC, QR, document, 3D, and Business Card - is free.</p>
 </details>
 
 <details class="faq-item">
-<summary>What's the difference between iOS and Android?</summary>
+<summary>Does my phone have NFC?</summary>
+<p>All iPhones from iPhone 7 onward have NFC, and iPhone XS and newer can read tags from the lock screen without launching an app. On Android, most phones from 2015 onward have NFC - check your device specs. NFC.cool tells you on first launch if your device isn't compatible.</p>
+</details>
+
+<details class="faq-item">
+<summary>What's the difference between the iOS and Android apps?</summary>
 <p>The iPhone app is a full scanning toolkit - NFC, QR &amp; Barcodes, Documents (with OCR), 3D and Room Scanning. The Android app focuses on NFC reading and writing and includes the Digital Business Card features. The other tools are on the Android roadmap.</p>
+</details>
+
+<details class="faq-item">
+<summary>Is there a Mac, iPad, or Apple Watch version?</summary>
+<p>NFC.cool Tools runs on iPhone and iPad, and on the Mac as well - on Apple Silicon Macs it is available as a Mac-compatible iPad app (<a href="/blog/nfc-cool-comes-to-mac/">read about NFC.cool on the Mac</a>). 3D and Room Scanning need a LiDAR-equipped iPad. There's no Apple Watch app. NFC.cool Business Card is available on iOS and Android only.</p>
 </details>
 
 <details class="faq-item">
 <summary>Is the Digital Business Card a separate app?</summary>
 <p>On iPhone, yes - NFC.cool Business Card Maker is a dedicated app available at business-card.nfc.cool. On Android, the same Business Card features are included inside NFC.cool Tools - no extra install needed.</p>
 </details>
+
+### Devices, tags & features
 
 <details class="faq-item">
 <summary>Which NFC tags should I buy?</summary>
@@ -56,19 +70,16 @@ The fastest way to reach us is by email. We read every message personally and re
 </details>
 
 <details class="faq-item">
-<summary>Are the apps free?</summary>
-<p>Yes - both apps are free on the App Store and Google Play, with no ads. Some advanced workflows may be unlockable inside the apps, but the core NFC, QR, document, 3D, and Business Card features are free.</p>
-</details>
-
-<details class="faq-item">
 <summary>Which OCR languages are supported?</summary>
 <p>Document Scanning uses Apple's Vision framework, which currently recognizes English, French, Italian, German, Spanish, Portuguese, and Simplified Chinese. Handwriting recognition is supported on iOS 16 and later.</p>
 </details>
 
 <details class="faq-item">
-<summary>Is there a Mac, iPad, or Apple Watch version?</summary>
-<p>iPad Pro models with LiDAR can run the iPhone app and use the full 3D and Room Scanning toolset. There's no dedicated Mac or Apple Watch app today; the Business Card AppClip works on both Apple Watch and Mac via Continuity.</p>
+<summary>I can't read my NFC tag - what should I check?</summary>
+<p>Make sure your iPhone is iPhone 7 or newer. Hold the phone steady against the tag with the top edge near the chip. If the tag is brand new, confirm it's been formatted - NFC.cool can format empty tags for you.</p>
 </details>
+
+### Privacy & your data
 
 <details class="faq-item">
 <summary>Where is my data stored?</summary>
@@ -81,38 +92,25 @@ The fastest way to reach us is by email. We read every message personally and re
 </details>
 
 <details class="faq-item">
-<summary>Can businesses use NFC.cool?</summary>
-<p>Yes - webhooks let teams pipe NFC and QR scans straight into their own backends, CRMs, or automation tools (Zapier, n8n, Make). There's no NFC.cool account or upload involved, so your data never crosses our servers. For NFC tag campaigns at scale or custom branding, <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">email us</a>.</p>
-</details>
-
-<details class="faq-item">
-<summary>I can't read my NFC tag - what should I check?</summary>
-<p>Make sure your iPhone is iPhone 7 or newer. Hold the phone steady against the tag with the top edge near the chip. If the tag is brand new, confirm it's been formatted (NFC.cool can format empty tags for you).</p>
-</details>
-
-<details class="faq-item">
 <summary>How do I move my data between two iPhones?</summary>
-<p>NFC.cool data lives in the app sandbox. Use iCloud backup of the source device, then restore on the new device - your scans, written tags, business card, and webhook configs come with you.</p>
+<p>NFC.cool data lives in the app sandbox. Use an iCloud backup of the old device, then restore it on the new one - your scans, written tags, business card, and webhook configs all come with you.</p>
+</details>
+
+### Billing & contact
+
+<details class="faq-item">
+<summary>How do I cancel my subscription?</summary>
+<p>Subscriptions are billed through the App Store or Google Play, so you cancel them there, not with us. On iOS, follow <a href="https://support.apple.com/118428" target="_blank" rel="noopener">Apple's steps to cancel a subscription</a>. On Android, follow <a href="https://support.google.com/googleplay/answer/7018481" target="_blank" rel="noopener">Google Play's steps</a>.</p>
 </details>
 
 <details class="faq-item">
-<summary>How can I get a refund?</summary>
-<p>Refunds are handled directly by Apple or Google, not by us. On iOS: Settings → App Store → tap your name → Purchase History. On Android: Google Play → Account → Order history.</p>
+<summary>How do I get a refund?</summary>
+<p>Refunds are handled by Apple or Google, not by us. On iOS, request one through <a href="https://support.apple.com/118223" target="_blank" rel="noopener">Apple's refund page</a>. On Android, use <a href="https://support.google.com/googleplay/workflow/9813244" target="_blank" rel="noopener">Google Play's refund process</a>.</p>
 </details>
 
 <details class="faq-item">
-<summary>I'd like to suggest a feature.</summary>
-<p>Please do - <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">email us</a>. We log every suggestion and they directly inform the roadmap.</p>
-</details>
-
-<details class="faq-item">
-<summary>Is there a business / team plan?</summary>
-<p>Webhooks unlock most team workflows already - no special plan needed. For larger deployments (NFC tag campaigns, custom branding, bulk-write tooling), <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">email us</a> and we'll sort it.</p>
-</details>
-
-<details class="faq-item">
-<summary>I'd like to report a privacy concern.</summary>
-<p><a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">Email us</a>. We respond to privacy queries within 5 business days.</p>
+<summary>How do I suggest a feature or report a concern?</summary>
+<p><a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">Email us</a> either way. We log every feature suggestion and they directly inform the roadmap. For privacy or security concerns, we reply within 5 business days.</p>
 </details>
 
 </section>

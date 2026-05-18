@@ -187,7 +187,7 @@ struct BlogPostRenderer: Renderer {
 
       let heroText = """
       <p class="blog-post-back"><a href="\(listingPath)">\(backText.htmlEscaped)</a></p>
-      <h1 class="blog-post-title">\(page.title.htmlEscaped)</h1>
+      \(renderTitleWithBrandTail(page.title, tagName: "h1", classAttr: "blog-post-title"))
       <p class="blog-post-meta">
          \(dateText.isEmpty ? "" : "<span>\(dateText.htmlEscaped)</span>")
          \(author.isEmpty ? "" : "<span>·</span><span>\(author.htmlEscaped)</span>")

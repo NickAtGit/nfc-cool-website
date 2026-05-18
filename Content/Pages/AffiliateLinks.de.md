@@ -15,7 +15,7 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 Nach sieben Jahren NFC-App-Entwicklung und tausenden Support-E-Mails: Hier ist, was wir Leuten zum Kauf empfehlen - was mit iPhone funktioniert, was mit Android, und was du dir sparen kannst.
 
-<a href="#kaufen" class="landing-cta-button">Direkt zu den Kauflinks</a>
+<a href="#kaufen" class="landing-cta-button">NFC-Tags kaufen</a>
 
 </div>
 

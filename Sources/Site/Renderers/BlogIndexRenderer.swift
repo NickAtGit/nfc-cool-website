@@ -98,7 +98,7 @@ struct BlogIndexRenderer: Renderer {
 
       let heroVisualAlt = title.htmlEscaped
       let heroText = """
-      <h1 class="blog-index-title">\(title.htmlEscaped)</h1>
+      \(renderTitleWithBrandTail(title, tagName: "h1", classAttr: "blog-index-title"))
       <p class="blog-index-subtitle">\(subtitle.htmlEscaped)</p>
       <a class="landing-cta-button" href="\(rssFeedPath)" aria-label="RSS Feed">RSS Feed</a>
       """
@@ -106,9 +106,8 @@ struct BlogIndexRenderer: Renderer {
          modifier: "blog-index-hero",
          text: heroText,
          visual: PageHeroVisual(
-            src: "/assets/images/Blog/blog-hero-transparent-v3.png",
+            src: "/assets/images/Blog/blog-hero-transparent-v2.png",
             alt: heroVisualAlt,
-            isCutout: true,
             width: 1254,
             height: 1254
          )

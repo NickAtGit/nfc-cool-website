@@ -20,18 +20,23 @@ func loadLandingData(context: BuildContext) throws -> LandingData {
 
 /// Renders a heading with the brand wordmark wrapped in `<span class="brand-name">`
 /// and the ".cool" token inside it styled as `<em class="brand-tail">` (script
-/// font). The wordmark is the trailing segment after the last " - " separator;
-/// that separator is dropped and the wordmark placed on its own line via `<br>`,
-/// so "Foo - NFC.cool Tools" renders "Foo" with "NFC.cool Tools" beneath it.
-/// Without a separator the wordmark follows inline. Titles without ".cool"
-/// render plain. Shared by the landing hero and the final CTA.
+/// font). When the title has a " - " separator before ".cool", the wordmark is
+/// the trailing segment after it; the separator is dropped and the wordmark
+/// placed on its own line via `<br>`, so "Foo - NFC.cool Tools" renders "Foo"
+/// with "NFC.cool Tools" beneath it. Without a separator the wordmark starts at
+/// the word ".cool" sits in (e.g. "NFC" in "NFC.cool Blog"), so the whole
+/// "NFC.cool" reads as one unit. Titles without ".cool" render plain.
 ///
-/// The whole `.brand-name` wordmark is held on one line by `white-space:
-/// nowrap` (set in CSS), so the inline-block `.brand-tail` can never let
-/// "NFC.cool Tools" break across lines on narrow screens.
-func renderTitleWithBrandTail(_ title: String, tagName: String, classAttr: String) -> String {
+/// Reusable across every hero h1 (landing, features index, feature pages, blog),
+/// section headings, and the final CTA. Pass `classAttr` to put a class on the
+/// element, or omit it for a bare tag. The `.brand-name` span holds just the
+/// "NFC.cool" wordmark and is kept on one line via `white-space: nowrap`; any
+/// trailing descriptor (e.g. " Tools", " Business Card") sits outside the span
+/// so it can wrap freely on narrow screens.
+func renderTitleWithBrandTail(_ title: String, tagName: String, classAttr: String? = nil) -> String {
+   let classPart = classAttr.map { " class=\"\($0)\"" } ?? ""
    guard let coolRange = title.range(of: ".cool", options: [.caseInsensitive, .backwards]) else {
-      return "<\(tagName) class=\"\(classAttr)\">\(title.htmlEscaped)</\(tagName)>"
+      return "<\(tagName)\(classPart)>\(title.htmlEscaped)</\(tagName)>"
    }
    let lead: String
    let separator: String
@@ -41,15 +46,21 @@ func renderTitleWithBrandTail(_ title: String, tagName: String, classAttr: Strin
       separator = "<br/>"
       brandStart = sep.upperBound
    } else {
-      lead = String(title[..<coolRange.lowerBound]).htmlEscaped
+      // No separator: start the wordmark at the word ".cool" belongs to so the
+      // whole "NFC.cool" renders as one unit, matching the landing hero.
+      let beforeCool = title[..<coolRange.lowerBound]
+      brandStart = beforeCool.lastIndex(of: " ").map { title.index(after: $0) } ?? title.startIndex
+      lead = String(title[..<brandStart]).htmlEscaped
       separator = ""
-      brandStart = coolRange.lowerBound
    }
    let brandHead = String(title[brandStart..<coolRange.lowerBound]).htmlEscaped
    let brandCool = String(title[coolRange]).htmlEscaped
+   // Anything after ".cool" (e.g. " Tools", " Business Card") is a plain
+   // descriptor - kept outside .brand-name so only "NFC.cool" is held nowrap
+   // and the descriptor can wrap on narrow screens.
    let brandRest = String(title[coolRange.upperBound...]).htmlEscaped
-   let wordmark = "<span class=\"brand-name\">\(brandHead)<em class=\"brand-tail\">\(brandCool)</em>\(brandRest)</span>"
-   return "<\(tagName) class=\"\(classAttr)\">\(lead)\(separator)\(wordmark)</\(tagName)>"
+   let wordmark = "<span class=\"brand-name\">\(brandHead)<em class=\"brand-tail\">\(brandCool)</em></span>\(brandRest)"
+   return "<\(tagName)\(classPart)>\(lead)\(separator)\(wordmark)</\(tagName)>"
 }
 
 private func formatThousands(_ n: Int) -> String {

@@ -103,7 +103,7 @@ struct TagListingRenderer: Renderer {
 
       let heroText = """
       <p class="tag-page-back"><a href="\(context.router.tagsIndexPath())">\(Self.backLabel(locale: locale).htmlEscaped)</a></p>
-      <h1 class="blog-index-title">\(displayName.htmlEscaped)</h1>
+      \(renderTitleWithBrandTail(displayName, tagName: "h1", classAttr: "blog-index-title"))
       <p class="blog-index-subtitle">\(description.htmlEscaped)</p>
       """
       let heroHTML = renderPageHero(
@@ -169,7 +169,7 @@ struct TagListingRenderer: Renderer {
       )
 
       let heroText = """
-      <h1 class="blog-index-title">\(heading.htmlEscaped)</h1>
+      \(renderTitleWithBrandTail(heading, tagName: "h1", classAttr: "blog-index-title"))
       <p class="blog-index-subtitle">\(description.htmlEscaped)</p>
       """
       let heroHTML = renderPageHero(

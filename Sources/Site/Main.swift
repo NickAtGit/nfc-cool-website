@@ -48,6 +48,7 @@ import SiteKit
          .processor(RatingsCountProcessor())
          .processor(LlmsTxtFeaturesProcessor())
          .processor(EmailObfuscationProcessor())
+         .processor(BrandWordmarkProcessor())
          .processor(AssetMinifier())
          .run()
    }

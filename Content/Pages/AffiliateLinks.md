@@ -1,5 +1,5 @@
 ---
-title: "Recommended NFC tags"
+title: "Recommended NFC Tags"
 slug: "affiliate-links"
 description: "Where to buy NFC tags that actually work with iPhone, iPad, and Android - plus what to look for, what to avoid, and why NTAG216 is almost always the right pick."
 image: "/assets/images/Affiliate/create-nfc-tag.webp"
@@ -11,7 +11,7 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 <div class="page-hero-text">
 
-# Recommended NFC tags
+# Recommended <span class="nowrap">NFC Tags</span>
 
 After several years of shipping NFC apps and reading thousands of support emails, here's what I tell people to buy - what works with iPhone, what works with Android, and what to skip.
 

@@ -154,7 +154,7 @@ struct FeaturePageRenderer: Renderer {
       let storeButtons = renderStoreButtons(appStoreURL: appStoreURL, googlePlayURL: googlePlayURL)
       let text = """
       <p class="feature-breadcrumb"><a href="\(backHref)">\(backLinkText.htmlEscaped)</a></p>
-      <h1>\(hero.title.htmlEscaped)</h1>
+      \(renderTitleWithBrandTail(hero.title, tagName: "h1"))
       \(platformsHTML)
       <p>\(hero.subtitle.htmlEscaped)</p>
       <div class="landing-hero-actions">\(storeButtons)</div>
