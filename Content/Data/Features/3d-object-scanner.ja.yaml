@@ -57,21 +57,16 @@ specs:
 
 pricing:
   title: "FreeとPlatinumの比較"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "3Dオブジェクトをスキャンする"
-      free: "✓"
-      platinum: "✓"
-    - feature: "ARにオブジェクトを配置する"
-      free: "✓"
-      platinum: "✓"
-    - feature: "3Dモデルをエクスポートする"
-      free: "✗"
-      platinum: "✓"
-    - feature: "写真をエクスポートする"
-      free: "✗"
-      platinum: "✓"
+    - label: "3Dオブジェクトをスキャンする"
+      values: ["✓", "✓"]
+    - label: "ARにオブジェクトを配置する"
+      values: ["✓", "✓"]
+    - label: "3Dモデルをエクスポートする"
+      values: ["✗", "✓"]
+    - label: "写真をエクスポートする"
+      values: ["✗", "✓"]
 
 faqTitle: "よくある質問"
 faq:

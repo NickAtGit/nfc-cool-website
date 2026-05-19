@@ -78,24 +78,18 @@ specs:
 
 pricing:
   title: "Free vs Platinum"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "Dokumente scannen"
-      free: "✓"
-      platinum: "✓"
-    - feature: "Foto-Dokumente"
-      free: "✓"
-      platinum: "✓"
-    - feature: "OCR"
-      free: "✓"
-      platinum: "✓"
-    - feature: "Als PDF exportieren"
-      free: "✗"
-      platinum: "✓"
-    - feature: "Automatischer Export in die iCloud"
-      free: "✗"
-      platinum: "✓"
+    - label: "Dokumente scannen"
+      values: ["✓", "✓"]
+    - label: "Foto-Dokumente"
+      values: ["✓", "✓"]
+    - label: "OCR"
+      values: ["✓", "✓"]
+    - label: "Als PDF exportieren"
+      values: ["✗", "✓"]
+    - label: "Automatischer Export in die iCloud"
+      values: ["✗", "✓"]
 
 faqTitle: "Häufig gefragt"
 faq:

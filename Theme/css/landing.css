@@ -897,6 +897,20 @@ a[data-eml] {
    width: 100%;
    border-collapse: collapse;
    font-size: 0.95rem;
+   /* Fixed layout: every plan column shares the available width equally. */
+   table-layout: fixed;
+   /* Below this width the columns would crowd, so `.feature-pricing-wrap`
+      scrolls instead. `--pricing-columns` is set inline by PricingTableRenderer
+      so this one rule fits both the 2-column feature tables and the wider
+      business-card table. */
+   min-width: calc(8rem + var(--pricing-columns, 2) * 6rem);
+}
+
+/* Keep the feature-label column wider than the equal plan columns.
+   `:first-child` covers the empty `<thead>` corner cell and every
+   `<th scope="row">`. */
+.feature-pricing-table th:first-child {
+   width: 32%;
 }
 
 .feature-pricing-table thead th {
@@ -917,6 +931,9 @@ a[data-eml] {
    text-align: left;
    padding: 0.75rem 1rem;
    color: var(--color-text);
+   /* Tint the label column to match the header row - together they frame the
+      table as an intentional L-shaped header. */
+   background: var(--color-bg-alt);
    border-bottom: 1px solid var(--color-border);
 }
 

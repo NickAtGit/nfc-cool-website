@@ -123,48 +123,34 @@ specs:
 
 pricing:
   title: "Free vs Platinum"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "Read NFC Tags"
-      free: "✓"
-      platinum: "✓"
-    - feature: "Analyze NFC Tags"
-      free: "✓"
-      platinum: "✓"
-    - feature: "Write NFC Tags"
-      free: "limited"
-      platinum: "✓"
-    - feature: "NFC Message Types"
-      free: "limited"
-      platinum: "✓"
-    - feature: "Format NFC Tags"
-      free: "✗"
-      platinum: "✓"
-    - feature: "Password Protect NFC Tags"
-      free: "✗"
-      platinum: "✓"
-    - feature: "Lock NFC Tags"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC Safe"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC Batch Modes"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC CSV Write"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC Expert Commands"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC Tap Counter"
-      free: "✗"
-      platinum: "✓"
-    - feature: "OpenPrintTag (3D Printing)"
-      free: "✓"
-      platinum: "✓"
+    - label: "Read NFC Tags"
+      values: ["✓", "✓"]
+    - label: "Analyze NFC Tags"
+      values: ["✓", "✓"]
+    - label: "Write NFC Tags"
+      values: ["limited", "✓"]
+    - label: "NFC Message Types"
+      values: ["limited", "✓"]
+    - label: "Format NFC Tags"
+      values: ["✗", "✓"]
+    - label: "Password Protect NFC Tags"
+      values: ["✗", "✓"]
+    - label: "Lock NFC Tags"
+      values: ["✗", "✓"]
+    - label: "NFC Safe"
+      values: ["✗", "✓"]
+    - label: "NFC Batch Modes"
+      values: ["✗", "✓"]
+    - label: "NFC CSV Write"
+      values: ["✗", "✓"]
+    - label: "NFC Expert Commands"
+      values: ["✗", "✓"]
+    - label: "NFC Tap Counter"
+      values: ["✗", "✓"]
+    - label: "OpenPrintTag (3D Printing)"
+      values: ["✓", "✓"]
 
 featuredReviewsTitle: "What People Say About NFC"
 featuredReviews:

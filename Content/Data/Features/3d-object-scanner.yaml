@@ -57,21 +57,16 @@ specs:
 
 pricing:
   title: "Free vs Platinum"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "Scan 3D Objects"
-      free: "✓"
-      platinum: "✓"
-    - feature: "Place Object in AR"
-      free: "✓"
-      platinum: "✓"
-    - feature: "Export 3D Models"
-      free: "✗"
-      platinum: "✓"
-    - feature: "Export Photos"
-      free: "✗"
-      platinum: "✓"
+    - label: "Scan 3D Objects"
+      values: ["✓", "✓"]
+    - label: "Place Object in AR"
+      values: ["✓", "✓"]
+    - label: "Export 3D Models"
+      values: ["✗", "✓"]
+    - label: "Export Photos"
+      values: ["✗", "✓"]
 
 faqTitle: "Frequently Asked"
 faq:

@@ -169,28 +169,7 @@ iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、App Cl
 
 ネットワーキングの使い方に合わせて選べます。有料プランはすべて、vCard保存、リードジェネレーション、アナリティクス、無制限の共有を含みます。
 
-<div class="feature-pricing-wrap">
-<table class="feature-pricing-table">
-<thead>
-<tr><th></th><th scope="col">Free</th><th scope="col">Personal</th><th scope="col">Small&nbsp;Business</th><th scope="col">Business</th></tr>
-</thead>
-<tbody>
-<tr><th scope="row">価格</th><td><strong>$0</strong></td><td><strong>$19.99</strong></td><td><strong>$49.99</strong></td><td><strong>$99.99</strong></td></tr>
-<tr><th scope="row">カード数</th><td>1</td><td>1</td><td>10</td><td>100</td></tr>
-<tr><th scope="row">プロフィール表示</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">vCard保存</th><td><span class="feature-pricing-pill is-no" aria-label="not included">✗</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">リードジェネレーション</th><td><span class="feature-pricing-pill is-no" aria-label="not included">✗</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">アナリティクス</th><td><span class="feature-pricing-pill is-no" aria-label="not included">✗</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">カスタムロゴ</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">NFC & QR共有</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">Conference Mode</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">PIN保護</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">リアルタイム通知</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">データ書き出し(GDPR)</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">想定ユーザー</th><td>お試し</td><td>個人</td><td>小規模チーム</td><td>成長企業</td></tr>
-</tbody>
-</table>
-</div>
+<div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
 </section>
 

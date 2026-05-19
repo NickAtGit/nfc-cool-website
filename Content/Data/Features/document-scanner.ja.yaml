@@ -78,24 +78,18 @@ specs:
 
 pricing:
   title: "FreeとPlatinumの比較"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "ドキュメントをスキャンする"
-      free: "✓"
-      platinum: "✓"
-    - feature: "写真から取り込み"
-      free: "✓"
-      platinum: "✓"
-    - feature: "光学式文字認識"
-      free: "✓"
-      platinum: "✓"
-    - feature: "PDFで書き出す"
-      free: "✗"
-      platinum: "✓"
-    - feature: "iCloudへの自動エクスポート"
-      free: "✗"
-      platinum: "✓"
+    - label: "ドキュメントをスキャンする"
+      values: ["✓", "✓"]
+    - label: "写真から取り込み"
+      values: ["✓", "✓"]
+    - label: "光学式文字認識"
+      values: ["✓", "✓"]
+    - label: "PDFで書き出す"
+      values: ["✗", "✓"]
+    - label: "iCloudへの自動エクスポート"
+      values: ["✗", "✓"]
 
 faqTitle: "よくある質問"
 faq:

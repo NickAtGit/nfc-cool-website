@@ -64,18 +64,14 @@ specs:
 
 pricing:
   title: "FreeとPlatinumの比較"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "部屋をスキャンする"
-      free: "✓"
-      platinum: "✓"
-    - feature: "部屋の寸法"
-      free: "✓"
-      platinum: "✓"
-    - feature: "面積計算"
-      free: "✗"
-      platinum: "✓"
+    - label: "部屋をスキャンする"
+      values: ["✓", "✓"]
+    - label: "部屋の寸法"
+      values: ["✓", "✓"]
+    - label: "面積計算"
+      values: ["✗", "✓"]
 
 faqTitle: "よくある質問"
 faq:

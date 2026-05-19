@@ -224,57 +224,16 @@ struct FeaturePageRenderer: Renderer {
       """
    }
 
-   private func renderPricing(_ pricing: FeaturePricingTier) -> String {
+   private func renderPricing(_ pricing: PricingTable) -> String {
       let heading = (pricing.title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(pricing.title!.htmlEscaped)</h2>"
-      let freeHead = (pricing.freeHeader ?? "Free").htmlEscaped
-      let platHead = (pricing.platinumHeader ?? "Platinum").htmlEscaped
-      let rows = pricing.rows.map { row in
-         let feat = row.feature.htmlEscaped
-         let free = (row.free ?? "-").htmlEscaped
-         let plat = (row.platinum ?? "-").htmlEscaped
-         return """
-         <tr>
-            <th scope="row">\(feat)</th>
-            <td>\(self.markPricingCell(free))</td>
-            <td>\(self.markPricingCell(plat))</td>
-         </tr>
-         """
-      }.joined()
       return """
       <section class="feature-pricing">
          <div class="landing-container">
             \(heading)
-            <div class="feature-pricing-wrap">
-               <table class="feature-pricing-table">
-                  <thead>
-                     <tr><th></th><th scope="col">\(freeHead)</th><th scope="col">\(platHead)</th></tr>
-                  </thead>
-                  <tbody>\(rows)</tbody>
-               </table>
-            </div>
+            \(PricingTableRenderer.renderTable(pricing))
          </div>
       </section>
       """
-   }
-
-   private func markPricingCell(_ raw: String) -> String {
-      let trimmed = raw.trimmingCharacters(in: .whitespaces)
-      let lower = trimmed.lowercased()
-      if trimmed == "✓" || lower == "yes" {
-         return "<span class=\"feature-pricing-pill is-yes\" aria-label=\"included\">✓</span>"
-      }
-      if trimmed == "✗" || lower == "no" {
-         return "<span class=\"feature-pricing-pill is-no\" aria-label=\"not included\">✗</span>"
-      }
-      if lower == "limited" || lower == "partial" || trimmed == "~" {
-         // FontAwesome 6 Free Solid "minus" — clean horizontal bar, parallels ✓/✗ visual weight.
-         let svg = #"<svg class="feature-pricing-pill-icon" viewBox="0 0 448 512" aria-hidden="true"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>"#
-         return "<span class=\"feature-pricing-pill is-limited\" aria-label=\"limited\">\(svg)</span>"
-      }
-      if trimmed == "-" {
-         return "<span class=\"feature-pricing-pill is-na\" aria-label=\"not applicable\">-</span>"
-      }
-      return "<span class=\"feature-pricing-text\">\(trimmed)</span>"
    }
 
    private func renderDocsBody(_ body: String) -> String {

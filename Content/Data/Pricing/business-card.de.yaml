@@ -1,0 +1,30 @@
+# Plan-Vergleich für /de/business-card/. Gerendert von PricingTableRenderer über
+# das {{PRICING_TABLE:business-card}}-Token in Content/Pages/business-card.de.md.
+columns: ["Free", "Personal", "Small Business", "Business"]
+rows:
+  - label: "Preis"
+    values: ["**$0**", "**$19,99**", "**$49,99**", "**$99,99**"]
+  - label: "Karten"
+    values: ["1", "1", "10", "100"]
+  - label: "Profilaufrufe"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "vCard speichern"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Lead-Generierung"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Analytics"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Eigenes Logo"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "NFC & QR teilen"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Konferenzmodus"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "PIN-Schutz"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Echtzeit-Benachrichtigungen"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Daten-Export (DSGVO)"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Ideal für"
+    values: ["Ausprobieren", "Einzelpersonen", "Kleine Teams", "Wachsende Firmen"]

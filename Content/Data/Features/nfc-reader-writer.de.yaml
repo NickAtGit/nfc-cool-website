@@ -123,48 +123,34 @@ specs:
 
 pricing:
   title: "Free vs Platinum"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "NFC-Tags lesen"
-      free: "✓"
-      platinum: "✓"
-    - feature: "Analysiere NFC-Tags"
-      free: "✓"
-      platinum: "✓"
-    - feature: "NFC-Tags schreiben"
-      free: "limited"
-      platinum: "✓"
-    - feature: "NFC-Nachrichtentypen"
-      free: "limited"
-      platinum: "✓"
-    - feature: "NFC-Tags formatieren"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC-Tag Passwortschutz"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC-Tags sperren"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC-Tresor"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC-Stapel-Modi"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC-CSV-Schreiben"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC-Expertenbefehle"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC-Tap-Zähler"
-      free: "✗"
-      platinum: "✓"
-    - feature: "OpenPrintTag (3D-Druck)"
-      free: "✓"
-      platinum: "✓"
+    - label: "NFC-Tags lesen"
+      values: ["✓", "✓"]
+    - label: "Analysiere NFC-Tags"
+      values: ["✓", "✓"]
+    - label: "NFC-Tags schreiben"
+      values: ["limited", "✓"]
+    - label: "NFC-Nachrichtentypen"
+      values: ["limited", "✓"]
+    - label: "NFC-Tags formatieren"
+      values: ["✗", "✓"]
+    - label: "NFC-Tag Passwortschutz"
+      values: ["✗", "✓"]
+    - label: "NFC-Tags sperren"
+      values: ["✗", "✓"]
+    - label: "NFC-Tresor"
+      values: ["✗", "✓"]
+    - label: "NFC-Stapel-Modi"
+      values: ["✗", "✓"]
+    - label: "NFC-CSV-Schreiben"
+      values: ["✗", "✓"]
+    - label: "NFC-Expertenbefehle"
+      values: ["✗", "✓"]
+    - label: "NFC-Tap-Zähler"
+      values: ["✗", "✓"]
+    - label: "OpenPrintTag (3D-Druck)"
+      values: ["✓", "✓"]
 
 featuredReviewsTitle: "Was Leute über NFC sagen"
 featuredReviews:

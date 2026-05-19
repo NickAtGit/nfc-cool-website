@@ -169,28 +169,7 @@ Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit
 
 Wähle den Plan, der zu deinem Networking-Pensum passt. Alle bezahlten Pläne enthalten vCard-Speicherung, Lead-Generierung, Analytics und unbegrenztes Teilen.
 
-<div class="feature-pricing-wrap">
-<table class="feature-pricing-table">
-<thead>
-<tr><th></th><th scope="col">Free</th><th scope="col">Personal</th><th scope="col">Small&nbsp;Business</th><th scope="col">Business</th></tr>
-</thead>
-<tbody>
-<tr><th scope="row">Preis</th><td><strong>$0</strong></td><td><strong>$19,99</strong></td><td><strong>$49,99</strong></td><td><strong>$99,99</strong></td></tr>
-<tr><th scope="row">Karten</th><td>1</td><td>1</td><td>10</td><td>100</td></tr>
-<tr><th scope="row">Profilaufrufe</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">vCard speichern</th><td><span class="feature-pricing-pill is-no" aria-label="not included">✗</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">Lead-Generierung</th><td><span class="feature-pricing-pill is-no" aria-label="not included">✗</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">Analytics</th><td><span class="feature-pricing-pill is-no" aria-label="not included">✗</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">Eigenes Logo</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">NFC & QR teilen</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">Konferenzmodus</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">PIN-Schutz</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">Echtzeit-Benachrichtigungen</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">Daten-Export (DSGVO)</th><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td><td><span class="feature-pricing-pill is-yes" aria-label="included">✓</span></td></tr>
-<tr><th scope="row">Ideal für</th><td>Ausprobieren</td><td>Einzelpersonen</td><td>Kleine Teams</td><td>Wachsende Firmen</td></tr>
-</tbody>
-</table>
-</div>
+<div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
 </section>
 

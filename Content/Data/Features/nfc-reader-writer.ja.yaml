@@ -123,48 +123,34 @@ specs:
 
 pricing:
   title: "FreeとPlatinumの比較"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "NFCタグを読む"
-      free: "✓"
-      platinum: "✓"
-    - feature: "NFCタグを分析する"
-      free: "✓"
-      platinum: "✓"
-    - feature: "NFCタグを書き込む"
-      free: "limited"
-      platinum: "✓"
-    - feature: "NFCメッセージの種類"
-      free: "limited"
-      platinum: "✓"
-    - feature: "NFCタグのフォーマット"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFCタグをパスワードで保護する"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFCタグをロックする"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFCセーフ"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFCバッチモード"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFC CSV書き込み"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFCエキスパート・コマンド"
-      free: "✗"
-      platinum: "✓"
-    - feature: "NFCタップカウンター"
-      free: "✗"
-      platinum: "✓"
-    - feature: "OpenPrintTag (3Dプリント)"
-      free: "✓"
-      platinum: "✓"
+    - label: "NFCタグを読む"
+      values: ["✓", "✓"]
+    - label: "NFCタグを分析する"
+      values: ["✓", "✓"]
+    - label: "NFCタグを書き込む"
+      values: ["limited", "✓"]
+    - label: "NFCメッセージの種類"
+      values: ["limited", "✓"]
+    - label: "NFCタグのフォーマット"
+      values: ["✗", "✓"]
+    - label: "NFCタグをパスワードで保護する"
+      values: ["✗", "✓"]
+    - label: "NFCタグをロックする"
+      values: ["✗", "✓"]
+    - label: "NFCセーフ"
+      values: ["✗", "✓"]
+    - label: "NFCバッチモード"
+      values: ["✗", "✓"]
+    - label: "NFC CSV書き込み"
+      values: ["✗", "✓"]
+    - label: "NFCエキスパート・コマンド"
+      values: ["✗", "✓"]
+    - label: "NFCタップカウンター"
+      values: ["✗", "✓"]
+    - label: "OpenPrintTag (3Dプリント)"
+      values: ["✓", "✓"]
 
 featuredReviewsTitle: "NFCに関するユーザーの声"
 featuredReviews:

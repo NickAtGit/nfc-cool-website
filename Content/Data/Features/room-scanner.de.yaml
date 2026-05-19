@@ -64,18 +64,14 @@ specs:
 
 pricing:
   title: "Free vs Platinum"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "Räume scannen"
-      free: "✓"
-      platinum: "✓"
-    - feature: "Raummaße"
-      free: "✓"
-      platinum: "✓"
-    - feature: "Flächenberechnung"
-      free: "✗"
-      platinum: "✓"
+    - label: "Räume scannen"
+      values: ["✓", "✓"]
+    - label: "Raummaße"
+      values: ["✓", "✓"]
+    - label: "Flächenberechnung"
+      values: ["✗", "✓"]
 
 faqTitle: "Häufig gefragt"
 faq:

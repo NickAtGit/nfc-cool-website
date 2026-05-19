@@ -10,7 +10,7 @@ struct FeatureData: Decodable, Sendable {
    let subsectionsTitle: String?
    let specs: [FeatureSpecGroup]?
    let specsTitle: String?
-   let pricing: FeaturePricingTier?
+   let pricing: PricingTable?
    let featuredReviews: [AppStoreReview]?
    let featuredReviewsTitle: String?
    let faq: [FAQItem]?
@@ -69,17 +69,4 @@ struct FeatureSubsection: Decodable, Sendable {
 struct FeatureSpecGroup: Decodable, Sendable {
    let title: String
    let items: [String]
-}
-
-struct FeaturePricingTier: Decodable, Sendable {
-   let title: String?
-   let freeHeader: String?
-   let platinumHeader: String?
-   let rows: [FeaturePricingRow]
-}
-
-struct FeaturePricingRow: Decodable, Sendable {
-   let feature: String
-   let free: String?
-   let platinum: String?
 }

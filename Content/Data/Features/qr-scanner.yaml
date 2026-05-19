@@ -77,30 +77,22 @@ specs:
 
 pricing:
   title: "Free vs Platinum"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "Read QR & Barcodes"
-      free: "✓"
-      platinum: "✓"
-    - feature: "Create QR Codes"
-      free: "limited"
-      platinum: "✓"
-    - feature: "QR Code Studio"
-      free: "limited"
-      platinum: "✓"
-    - feature: "QR Message Types"
-      free: "limited"
-      platinum: "✓"
-    - feature: "QR Code Widgets"
-      free: "limited"
-      platinum: "✓"
-    - feature: "No Watermarks"
-      free: "✗"
-      platinum: "✓"
-    - feature: "Batch Read QR & Barcodes"
-      free: "✗"
-      platinum: "✓"
+    - label: "Read QR & Barcodes"
+      values: ["✓", "✓"]
+    - label: "Create QR Codes"
+      values: ["limited", "✓"]
+    - label: "QR Code Studio"
+      values: ["limited", "✓"]
+    - label: "QR Message Types"
+      values: ["limited", "✓"]
+    - label: "QR Code Widgets"
+      values: ["limited", "✓"]
+    - label: "No Watermarks"
+      values: ["✗", "✓"]
+    - label: "Batch Read QR & Barcodes"
+      values: ["✗", "✓"]
 
 faqTitle: "Frequently Asked"
 faq:

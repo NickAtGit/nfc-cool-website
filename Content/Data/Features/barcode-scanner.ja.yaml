@@ -72,15 +72,12 @@ specs:
 
 pricing:
   title: "FreeとPlatinumの比較"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "QRコードとバーコードを読み取る"
-      free: "✓"
-      platinum: "✓"
-    - feature: "QRとバーコードの一括読み取り"
-      free: "✗"
-      platinum: "✓"
+    - label: "QRコードとバーコードを読み取る"
+      values: ["✓", "✓"]
+    - label: "QRとバーコードの一括読み取り"
+      values: ["✗", "✓"]
 
 faqTitle: "よくある質問"
 faq:

@@ -23,7 +23,7 @@ struct MarketingPageRenderer: Renderer {
       let helper = OutputFileRenderer(context: context)
       let defaultLang = context.config.effectiveDefaultLanguage
       let newsletterHTML = NewsletterForm.section(for: context)
-      return context.staticPages.compactMap { page in
+      return try context.staticPages.compactMap { page in
          let available = self.availableLocales(for: page, context: context)
          let isFallback = page.locale != defaultLang && !available.contains(page.locale)
          if isFallback {
@@ -32,7 +32,7 @@ struct MarketingPageRenderer: Renderer {
             // sees the meta-refresh and stamps `noindex,follow` automatically.
             return self.renderFallbackRedirect(page, context: context)
          }
-         return self.renderMarketingPage(page, context: context, helper: helper, availableLocales: available, newsletterHTML: newsletterHTML)
+         return try self.renderMarketingPage(page, context: context, helper: helper, availableLocales: available, newsletterHTML: newsletterHTML)
       }
    }
 
@@ -42,7 +42,7 @@ struct MarketingPageRenderer: Renderer {
       helper: OutputFileRenderer,
       availableLocales: Set<String>,
       newsletterHTML: String
-   ) -> OutputFile {
+   ) throws -> OutputFile {
       let pageTitle = "\(page.title) - \(context.config.name)"
       let pagePath = context.router.staticPagePath(for: page)
       // JSON-LD per page type:
@@ -112,7 +112,10 @@ struct MarketingPageRenderer: Renderer {
       // except the legal ones, which stay focused with no signup CTA.
       let legalSlugs: Set<String> = ["terms", "privacy", "impressum"]
       let newsletter = legalSlugs.contains(page.slug) ? "" : newsletterHTML
-      let mainContent = "<main class=\"sk-main marketing-page\" data-slug=\"\(page.slug)\">\(page.htmlContent)\(newsletter)</main>"
+      // Resolve any `{{PRICING_TABLE:<name>}}` tokens the markdown authored
+      // (e.g. the business-card plan comparison) into generated table HTML.
+      let body = try PricingTableRenderer.resolvePricingTokens(in: page.htmlContent, locale: page.locale, context: context)
+      let mainContent = "<main class=\"sk-main marketing-page\" data-slug=\"\(page.slug)\">\(body)\(newsletter)</main>"
 
       let html = helper.renderPageShell(
          head: head,

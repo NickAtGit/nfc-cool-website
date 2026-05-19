@@ -64,21 +64,16 @@ specs:
 
 pricing:
   title: "Free vs Platinum"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "NFC & QR Webhook"
-      free: "✗"
-      platinum: "✓"
-    - feature: "Speech Synthesizer"
-      free: "✗"
-      platinum: "✓"
-    - feature: "Shortcuts"
-      free: "✗"
-      platinum: "✓"
-    - feature: "iCloud Sync"
-      free: "✓"
-      platinum: "✓"
+    - label: "NFC & QR Webhook"
+      values: ["✗", "✓"]
+    - label: "Speech Synthesizer"
+      values: ["✗", "✓"]
+    - label: "Shortcuts"
+      values: ["✗", "✓"]
+    - label: "iCloud Sync"
+      values: ["✓", "✓"]
 
 faqTitle: "Frequently Asked"
 faq:

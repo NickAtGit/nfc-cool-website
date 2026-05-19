@@ -64,27 +64,20 @@ specs:
 
 pricing:
   title: "FreeとPlatinumの比較"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "スキャン時にURLを自動オープン"
-      free: "✓"
-      platinum: "✓"
-    - feature: "ショートカットURLでショートカット実行"
-      free: "✓"
-      platinum: "✓"
-    - feature: "スキャン時にオーディオ再生"
-      free: "✓"
-      platinum: "✓"
-    - feature: "音声合成(読み上げ)"
-      free: "✗"
-      platinum: "✓"
-    - feature: "Webhook(あなたのURLへPOST)"
-      free: "✗"
-      platinum: "✓"
-    - feature: "ソースごとの有効/無効(NFC vs カメラ)"
-      free: "✗"
-      platinum: "✓"
+    - label: "スキャン時にURLを自動オープン"
+      values: ["✓", "✓"]
+    - label: "ショートカットURLでショートカット実行"
+      values: ["✓", "✓"]
+    - label: "スキャン時にオーディオ再生"
+      values: ["✓", "✓"]
+    - label: "音声合成(読み上げ)"
+      values: ["✗", "✓"]
+    - label: "Webhook(あなたのURLへPOST)"
+      values: ["✗", "✓"]
+    - label: "ソースごとの有効/無効(NFC vs カメラ)"
+      values: ["✗", "✓"]
 
 faqTitle: "よくある質問"
 faq:

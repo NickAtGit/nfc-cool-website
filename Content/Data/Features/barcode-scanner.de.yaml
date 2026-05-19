@@ -72,15 +72,12 @@ specs:
 
 pricing:
   title: "Free vs Platinum"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "QR & Barcodes lesen"
-      free: "✓"
-      platinum: "✓"
-    - feature: "QR- und Barcodes im Stapel lesen"
-      free: "✗"
-      platinum: "✓"
+    - label: "QR & Barcodes lesen"
+      values: ["✓", "✓"]
+    - label: "QR- und Barcodes im Stapel lesen"
+      values: ["✗", "✓"]
 
 faqTitle: "Häufig gefragt"
 faq:

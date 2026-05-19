@@ -77,30 +77,22 @@ specs:
 
 pricing:
   title: "FreeとPlatinumの比較"
-  freeHeader: "Free"
-  platinumHeader: "Platinum"
+  columns: ["Free", "Platinum"]
   rows:
-    - feature: "QRコードとバーコードを読み取る"
-      free: "✓"
-      platinum: "✓"
-    - feature: "QRコードを作成する"
-      free: "limited"
-      platinum: "✓"
-    - feature: "QRコードスタジオ"
-      free: "limited"
-      platinum: "✓"
-    - feature: "QRメッセージの種類"
-      free: "limited"
-      platinum: "✓"
-    - feature: "QRコード・ウィジェット"
-      free: "limited"
-      platinum: "✓"
-    - feature: "透かしなし"
-      free: "✗"
-      platinum: "✓"
-    - feature: "QRとバーコードの一括読み取り"
-      free: "✗"
-      platinum: "✓"
+    - label: "QRコードとバーコードを読み取る"
+      values: ["✓", "✓"]
+    - label: "QRコードを作成する"
+      values: ["limited", "✓"]
+    - label: "QRコードスタジオ"
+      values: ["limited", "✓"]
+    - label: "QRメッセージの種類"
+      values: ["limited", "✓"]
+    - label: "QRコード・ウィジェット"
+      values: ["limited", "✓"]
+    - label: "透かしなし"
+      values: ["✗", "✓"]
+    - label: "QRとバーコードの一括読み取り"
+      values: ["✗", "✓"]
 
 faqTitle: "よくある質問"
 faq:

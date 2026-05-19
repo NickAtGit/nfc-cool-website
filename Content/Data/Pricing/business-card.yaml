@@ -1,0 +1,30 @@
+# Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
+# {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
+columns: ["Free", "Personal", "Small Business", "Business"]
+rows:
+  - label: "Price"
+    values: ["**$0**", "**$19.99**", "**$49.99**", "**$99.99**"]
+  - label: "Cards"
+    values: ["1", "1", "10", "100"]
+  - label: "Profile viewing"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "vCard save"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Lead generation"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Analytics"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Custom logo"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "NFC & QR sharing"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Conference Mode"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "PIN protection"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Real-time notifications"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Data export (GDPR)"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Ideal for"
+    values: ["Testing", "Individuals", "Small teams", "Growing companies"]
