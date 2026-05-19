@@ -79,7 +79,7 @@ Das Arbeitstier. Für eine einzelne URL oder ein kurzes Stück Text ist NTAG213 
 - **Preis:** ~$0.20-$0.40 pro Tag
 - **URL-Kapazität:** ~480 Zeichen
 
-Wenn du mich bitten würdest, einen Tag für den allgemeinen Gebrauch auszuwählen, wäre es dieser. Er ist der Sweet Spot - genug Puffer, dass du an keine Grenze stößt, günstig genug, um ihn im Großeinkauf zu kaufen. Es ist auch der Chip in den Nintendo Amiibo-Figuren, weshalb beschreibbare NTAG215 so leicht zu finden sind.
+Eine solide Mittelklasse-Option - genug Puffer für längere URLs und vCards mit mehreren Feldern, günstig genug für den Großeinkauf. Es ist auch der Chip in den Nintendo Amiibo-Figuren, weshalb beschreibbare NTAG215 so leicht zu finden sind.
 
 #### NTAG216
 - **Speicher:** 888 Bytes (ca. 868 nutzbar)
@@ -87,7 +87,7 @@ Wenn du mich bitten würdest, einen Tag für den allgemeinen Gebrauch auszuwähl
 - **Preis:** ~$0.30-$0.60 pro Tag
 - **URL-Kapazität:** ~850 Zeichen
 
-Der meiste Speicher in der NTAG-Verbraucher-Linie. Ich greife nur dann dazu, wenn ich wirklich eine komplette vCard auf dem Tag selbst speichern muss - Foto-URL, mehrere Telefonnummern, Adressen - oder Platz für zukünftige Änderungen will.
+Der meiste Speicher in der NTAG-Verbraucher-Linie - und der Tag, zu dem ich greifen würde, wenn du nur einen kaufst. Der zusätzliche Puffer sorgt dafür, dass du an keine Grenze stößt - vollständige vCards, mehrere Datensätze, längere Texte, Platz für zukünftige Änderungen - und es ist der Standard, gegen den NFC.cool testet.
 
 ### Andere Tag-Typen, die du sehen könntest
 
@@ -107,9 +107,9 @@ Der meiste Speicher in der NTAG-Verbraucher-Linie. Ich greife nur dann dazu, wen
 | Smart-Home-Trigger | NTAG213 | Braucht nur eine eindeutige ID |
 | Fälschungsschutz | NTAG424 DNA | Kryptografische Verifikation |
 
-**Wo kaufen:** Amazon, AliExpress oder spezialisierte NFC-Händler wie GoToTags, NFC TagWriter oder Seritag. Sticker-Tags sind am vielseitigsten - sie kleben auf fast allem.
+**Wo kaufen:** Meine Seite mit [empfohlenen NFC-Tags](/de/affiliate-links/) listet die NTAG216-Sticker auf, die ich selbst nutze und teste. Sticker-Tags sind am vielseitigsten - sie kleben auf fast allem.
 
-Mein ehrlicher Rat: Kauf dir ein Pack NTAG215-Sticker und hör auf, es zu zerdenken. Ich habe Leute beobachtet, die sich über Chip-Typen den Kopf zerbrochen haben für ein Projekt, das ein 20-Cent-Tag locker erledigt. Wenn du irgendwann die tiefere Aufschlüsselung willst, bin ich in [NFC-Tag-Typen für iPhone](/de/blog/nfc-tag-types-for-iphones/) Chip für Chip durchgegangen.
+Mein ehrlicher Rat: Kauf dir ein Pack NTAG216-Sticker und hör auf, es zu zerdenken. Ich habe Leute beobachtet, die sich über Chip-Typen den Kopf zerbrochen haben für ein Projekt, das ein 20-Cent-Tag locker erledigt. Wenn du irgendwann die tiefere Aufschlüsselung willst, bin ich in [NFC-Tag-Typen für iPhone](/de/blog/nfc-tag-types-for-iphones/) Chip für Chip durchgegangen.
 
 ---
 
@@ -313,7 +313,7 @@ Willst du es ausprobieren? Hier ist ein Fünf-Minuten-Projekt, mit dem ich jeden
 
 **Projekt: ein WLAN-Sharing-Tag für dein Zuhause**
 
-1. **Tags kaufen:** Besorge dir ein Pack NTAG215-Sticker (auf Amazon etwa 10€ für 25 Stück)
+1. **Tags kaufen:** Besorge dir ein Pack [NTAG216-Sticker](/de/affiliate-links/) (etwa 10€ für 25 Stück)
 2. **NFC.cool Tools laden:** für [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-de)
 3. **WLAN-Zugangsdaten schreiben:** Öffne die App, wähle Schreiben, dann WLAN, gib Netzwerkname und Passwort ein und halte dein Handy an den Tag
 4. **Den Tag platzieren:** irgendwo sichtbar - an der Haustür, am Kühlschrank, im Gästezimmer

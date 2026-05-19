@@ -79,7 +79,7 @@ The workhorse. For a single URL or a short piece of text, NTAG213 is all you nee
 - **Price:** ~$0.20-$0.40 per tag
 - **URL capacity:** ~480 characters
 
-If you asked me to pick one tag for general use, this is it. It's the sweet spot - enough headroom that you won't hit a wall, cheap enough to buy in bulk. It's also the chip inside Nintendo Amiibo figures, which is why writable NTAG215s are so easy to find.
+A solid middle option - enough headroom for longer URLs and multi-field vCards, cheap enough to buy in bulk. It's also the chip inside Nintendo Amiibo figures, which is why writable NTAG215s are so easy to find.
 
 #### NTAG216
 - **Memory:** 888 bytes (about 868 usable)
@@ -87,7 +87,7 @@ If you asked me to pick one tag for general use, this is it. It's the sweet spot
 - **Price:** ~$0.30-$0.60 per tag
 - **URL capacity:** ~850 characters
 
-The most memory in the consumer NTAG line. I only reach for it when I genuinely need to store a complete vCard on the tag itself - photo URL, several phone numbers, addresses - or want room for future edits.
+The most memory in the consumer NTAG line, and the tag I'd pick if you only buy one. The extra headroom means you won't hit a wall - full vCards, multiple records, longer text, room for future edits - and it's the standard NFC.cool tests against.
 
 ### Other Tag Types You Might See
 
@@ -107,9 +107,9 @@ The most memory in the consumer NTAG line. I only reach for it when I genuinely 
 | Smart home trigger | NTAG213 | Just needs a unique ID |
 | Anti-counterfeiting | NTAG424 DNA | Cryptographic verification |
 
-**Where to buy:** Amazon, AliExpress, or specialist NFC retailers like GoToTags, NFC TagWriter, or Seritag. Sticker-format tags are the most versatile - they stick to almost anything.
+**Where to buy:** My [recommended NFC tags](/affiliate-links/) page lists the NTAG216 stickers I use and test against. Sticker-format tags are the most versatile - they stick to almost anything.
 
-My honest advice: buy a pack of NTAG215 stickers and stop overthinking it. I've watched people agonize over chip types for a project that a 20-cent tag handles fine. If you ever want the deeper breakdown, I went chip-by-chip in [NFC tag types for iPhone](/blog/nfc-tag-types-for-iphones/).
+My honest advice: buy a pack of NTAG216 stickers and stop overthinking it. I've watched people agonize over chip types for a project that a 20-cent tag handles fine. If you ever want the deeper breakdown, I went chip-by-chip in [NFC tag types for iPhone](/blog/nfc-tag-types-for-iphones/).
 
 ---
 
@@ -313,7 +313,7 @@ Want to try it? Here's a five-minute project I'd start anyone with:
 
 **Project: a Wi-Fi sharing tag for your home**
 
-1. **Buy tags:** grab a pack of NTAG215 stickers (around $10 for 25 on Amazon)
+1. **Buy tags:** grab a pack of [NTAG216 stickers](/affiliate-links/) (around $10 for 25)
 2. **Download NFC.cool Tools:** for [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-en)
 3. **Write your Wi-Fi credentials:** open the app, choose Write, then Wi-Fi, enter your network name and password, and hold your phone to the tag
 4. **Place the tag:** somewhere visible - by the front door, on the fridge, in a guest room
