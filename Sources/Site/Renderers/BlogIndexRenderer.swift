@@ -106,10 +106,10 @@ struct BlogIndexRenderer: Renderer {
          modifier: "blog-index-hero",
          text: heroText,
          visual: PageHeroVisual(
-            src: "/assets/images/Blog/blog-hero-transparent-v2.png",
+            src: "/assets/images/Blog/blog-hero-transparent-v2.webp",
             alt: heroVisualAlt,
-            width: 1254,
-            height: 1254
+            width: 1120,
+            height: 1120
          )
       )
       let body = """
