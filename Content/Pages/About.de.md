@@ -18,8 +18,8 @@ NFC.cool ist ein unabhängiges Produkt von **Nicolo Stanciu**, entwickelt zwisch
 
 </div>
 
-<div class="page-hero-visual is-brand">
-<img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt="NFC.cool Wortmarke" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual">
+<img src="/assets/images/About/hero-nicolo.webp" alt="Nicolo Stanciu hält einen Vortrag auf der mDevCamp" loading="eager" fetchpriority="high" width="1200" height="900"/>
 </div>
 
 </div>

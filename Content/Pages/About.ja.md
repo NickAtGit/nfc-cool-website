@@ -18,8 +18,8 @@ NFC.coolは**Nicolo Stanciu**が手がける独立系プロダクトで、ドイ
 
 </div>
 
-<div class="page-hero-visual is-brand">
-<img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt="NFC.coolワードマーク" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual">
+<img src="/assets/images/About/hero-nicolo.webp" alt="mDevCampで講演するNicolo Stanciu" loading="eager" fetchpriority="high" width="1200" height="900"/>
 </div>
 
 </div>

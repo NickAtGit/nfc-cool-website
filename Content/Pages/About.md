@@ -18,8 +18,8 @@ NFC.cool is an independent product from **Nicolo Stanciu**, built between German
 
 </div>
 
-<div class="page-hero-visual is-brand">
-<img src="/assets/theme/images/nfc-secondary-logo-white.webp" alt="NFC.cool wordmark" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual">
+<img src="/assets/images/About/hero-nicolo.webp" alt="Nicolo Stanciu giving a talk at mDevCamp" loading="eager" fetchpriority="high" width="1200" height="900"/>
 </div>
 
 </div>
