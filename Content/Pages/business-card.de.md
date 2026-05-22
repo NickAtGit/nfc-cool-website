@@ -1,7 +1,7 @@
 ---
-title: "Digitale Visitenkarte mit NFC für iPhone"
+title: "Business Card Maker App für iPhone & Android"
 slug: "business-card"
-description: "Eine eigenständige Visitenkarten-App fürs iPhone. Teile sie per NFC-Tipp, QR-Code, AppClip oder Apple Wallet. Sieh, wer deine Karte speichert, und nutze den Konferenzmodus auf Events."
+description: "Eine digitale Business Card Maker App für iPhone und Android. Teile deine Visitenkarte per NFC-Tipp, QR-Code, AppClip oder Apple Wallet. Sieh, wer deine Karte speichert, und nutze den Konferenzmodus auf Events."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Eine eigenständige Visitenkarten-App fürs iPhone. Teile deine Kontaktdaten mit einem Tipp - NFC, QR-Code, AppClip oder Apple Wallet - und sieh, wer deine Karte tatsächlich speichert. Auf Android sind die gleichen Funktionen direkt in NFC.cool Tools integriert.
+Eine digitale Business Card Maker App für iPhone und Android. Teile deine Kontaktdaten mit einem Tipp - NFC, QR-Code, AppClip oder Apple Wallet - und sieh, wer deine Karte tatsächlich speichert. Auf Android sind die gleichen Funktionen direkt in NFC.cool Tools integriert.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">

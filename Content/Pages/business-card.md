@@ -1,7 +1,7 @@
 ---
-title: "NFC Digital Business Card App"
+title: "Digital Business Card Maker App for iPhone & Android"
 slug: "business-card"
-description: "A dedicated Digital Business Card app for iPhone. Share via NFC tap, QR code, AppClip or Apple Wallet. Track who saves your card, run Conference Mode at live events."
+description: "A digital Business Card maker for iPhone and Android. Share via NFC tap, QR code, AppClip or Apple Wallet. Track who saves your card, run Conference Mode at live events."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-A dedicated Digital Business Card app for iPhone. Share your contact details with a tap - NFC, QR code, AppClip, or Apple Wallet - and see who actually saves your card. On Android, the same features are bundled inside NFC.cool Tools.
+A digital Business Card maker for iPhone and Android. Share your contact details with a tap - NFC, QR code, AppClip, or Apple Wallet - and see who actually saves your card. On Android, the same features are bundled inside NFC.cool Tools.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">

@@ -1,7 +1,7 @@
 ---
-title: "iPhone対応 NFCデジタル名刺アプリ"
+title: "iPhone・Android対応Business Card Makerアプリ"
 slug: "business-card"
-description: "iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、App Clip、Apple Walletで共有可能。誰がカードを保存したかをトラッキングし、ライブイベントでConference Modeを実行できます。"
+description: "iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ、QRコード、App Clip、Apple Walletで共有可能。誰がカードを保存したかをトラッキングし、ライブイベントでConference Modeを実行できます。"
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-iPhone専用のデジタル名刺アプリ。NFCタッチ、QRコード、App Clip、Apple Walletで連絡先を一瞬で共有 - 誰が実際にあなたのカードを保存したかも確認できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。
+iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ、QRコード、App Clip、Apple Walletで連絡先を一瞬で共有 - 誰が実際にあなたのカードを保存したかも確認できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ja&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
