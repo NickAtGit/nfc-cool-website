@@ -31,7 +31,7 @@ After several years of shipping NFC apps and reading thousands of support emails
 
 ## Just want the short version?
 
-For 95% of use cases - writing your contact card, automation triggers, URL shortcuts, Wi-Fi sharing - buy **NTAG216** stickers. Reliable on iPhone, plenty of capacity (888 bytes user-writable), cheap in bulk, and the standard NFC.cool tests against.
+For 95% of use cases - writing your contact card, automation triggers, URL shortcuts, Wi-Fi sharing - buy **NTAG216** stickers. Reliable on iPhone and Android, plenty of capacity (888 bytes user-writable), cheap in bulk, and the standard NFC.cool tests against.
 
 </section>
 

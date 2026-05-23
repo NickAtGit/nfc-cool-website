@@ -33,7 +33,7 @@ Nach sieben Jahren NFC-App-Entwicklung und tausenden Support-E-Mails: Hier ist, 
 
 ## Kurzfassung
 
-Für 95 % der Anwendungsfälle - Kontaktkarte schreiben, Automations-Trigger, URL-Shortcuts, WLAN-Sharing - kauf **NTAG216**-Sticker. Zuverlässig auf dem iPhone, viel Kapazität (888 Bytes nutzbar), günstig in der Bulk-Packung, und der Standard, gegen den NFC.cool testet.
+Für 95 % der Anwendungsfälle - Kontaktkarte schreiben, Automations-Trigger, URL-Shortcuts, WLAN-Sharing - kauf **NTAG216**-Sticker. Zuverlässig auf iPhone und Android, viel Kapazität (888 Bytes nutzbar), günstig in der Bulk-Packung, und der Standard, gegen den NFC.cool testet.
 
 </section>
 
