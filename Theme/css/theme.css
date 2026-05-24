@@ -192,6 +192,12 @@ em.brand-tail {
    /* Nudge the script ".cool" up and right so it sits cleanly against the
       preceding letters (translate, not margin, so layout/flow is untouched). */
    transform: translate(0.06em, -0.02em);
+   /* Soft dark shadow so the bright-yellow ".cool" gains depth on light section
+      headings (h2s on white cards) without reading as heavy. Lighter than the
+      hero titles on purpose - the on-gradient heroes restore the full 0.55 via
+      `.page-hero h1 .brand-tail` (in marketing.css) so they keep matching their
+      white h1 shadow. */
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 /* Utility: keep a short phrase from breaking across lines. */

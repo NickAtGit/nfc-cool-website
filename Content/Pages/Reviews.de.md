@@ -1,7 +1,7 @@
 ---
 title: "Was Nutzer sagen"
 slug: "reviews"
-description: "Lies, was Menschen über NFC.cool sagen - echte 5-Sterne-Bewertungen aus dem App Store von Nutzer:innen in den USA, Deutschland, Japan und darüber hinaus, für iPhone und Android."
+description: "Lies, was Menschen über NFC.cool sagen - echte 5-Sterne-Bewertungen von Nutzer:innen in den USA, Deutschland, Japan und darüber hinaus, für iPhone und Android."
 ---
 
 <section class="page-hero">
@@ -14,7 +14,7 @@ description: "Lies, was Menschen über NFC.cool sagen - echte 5-Sterne-Bewertung
 
 **{{RATINGS_TOOLS_IOS_VALUE}}★** NFC.cool Tools auf iPhone ({{RATINGS_TOOLS_IOS_COUNT}} Bewertungen) · **{{RATINGS_TOOLS_ANDROID_VALUE}}★** NFC.cool Tools auf Android ({{RATINGS_TOOLS_ANDROID_COUNT}} Bewertungen) · **{{RATINGS_BUSINESS_CARD_VALUE}}★** NFC.cool Business Card auf iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} Bewertungen).
 
-Jedes Zitat unten ist eine echte App-Store-Bewertung mit dem Original-Nicknamen - im Store findest du die Originalbewertung von Wort zu Wort wieder.
+Jedes Zitat unten ist eine echte Bewertung mit dem Original-Nicknamen. Einige wurden in einer anderen Sprache verfasst und ins Deutsche übersetzt (entsprechend gekennzeichnet) - mit der Handle findest du das Original im Store.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-reviews-de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -37,9 +37,45 @@ Jedes Zitat unten ist eine echte App-Store-Bewertung mit dem Original-Nicknamen 
 
 <section class="page-section">
 
-## NFC.cool Tools - App Store Deutschland
+## NFC.cool Tools - App Store
 
 <div class="landing-reviews-grid">
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Ich habe diese App installiert und die Vollversion gekauft, und ich bin extrem froh darüber. Ich hatte ein paar Fragen und habe den Entwickler gefragt - er hat sofort geantwortet. Seine App ist sehr gut programmiert und voller Funktionen. Ich lerne immer noch alle kennen. Installier die App und überzeug dich selbst.</blockquote>
+<div class="landing-review-author"><div><strong>PhotoBomber_69</strong><span>App Store · USA · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Ich hatte ein Problem mit einem Unicode-Zeichen in der App und habe mich beschwert. Innerhalb weniger Tage bekam ich tatsächlich eine Antwort-Mail vom Entwickler persönlich (heutzutage erstaunlich). Innerhalb einer Woche wurde die App mit meinem Fix aktualisiert! Das reicht für Bestnoten in der heutigen App-Welt.</blockquote>
+<div class="landing-review-author"><div><strong>LGLB</strong><span>App Store · USA · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Nach dem Lesen der Bewertungen muss ich fünf Sterne geben - wegen des Engagements des Entwicklers für seine App! Großartige Arbeit! Aktuelle Updates, engagiert und geduldig auch mit technisch Unerfahrenen.</blockquote>
+<div class="landing-review-author"><div><strong>HellRazorCustoms</strong><span>App Store · USA · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Wunderschöne UX und nahezu makellose Umsetzung - anders als die anderen NFC-Apps.</blockquote>
+<div class="landing-review-author"><div><strong>garretthoyos</strong><span>App Store · USA · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Der Raum-Scanner ist ziemlich genial. Diese App kann viel mehr, als nur Tags zu beschreiben.</blockquote>
+<div class="landing-review-author"><div><strong>rockphikapps</strong><span>App Store · USA · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">ICH LIEBE DIESE APP. Sie ist großartig für Leute wie mich, die so gut wie nichts über NFC-Tags wissen!</blockquote>
+<div class="landing-review-author"><div><strong>Dallasg479</strong><span>App Store · USA · übersetzt</span></div></div>
+</div>
 
 <div class="landing-review-card">
 <div class="landing-review-stars">★★★★★</div>
@@ -59,32 +95,16 @@ Jedes Zitat unten ist eine echte App-Store-Bewertung mit dem Original-Nicknamen 
 <div class="landing-review-author"><div><strong>A. Akasha</strong><span>App Store · Deutschland</span></div></div>
 </div>
 
-</div>
-
-</section>
-
-<section class="page-section">
-
-## NFC.cool Tools - App Store USA
-
-<div class="landing-reviews-grid">
-
 <div class="landing-review-card">
 <div class="landing-review-stars">★★★★★</div>
-<blockquote class="landing-review-quote">I installed this app and paid for the full version, and I am extremely happy that I did. I had some questions and asked the developer and he responded immediately. His app is very well written, and packed with features.</blockquote>
-<div class="landing-review-author"><div><strong>PhotoBomber_69</strong><span>App Store · USA</span></div></div>
+<blockquote class="landing-review-quote">Wenn du gerne deiner Zeit voraus bist und einen minimalistischen Lebensstil magst, würde ich diese App empfehlen.</blockquote>
+<div class="landing-review-author"><div><strong>HPS. h</strong><span>App Store · Japan · übersetzt</span></div></div>
 </div>
 
 <div class="landing-review-card">
 <div class="landing-review-stars">★★★★★</div>
-<blockquote class="landing-review-quote">I had a Unicode character issue with the app and sent in a gripe. Within a few days I actually got a feedback response email from the developer himself (shocking nowadays). Within a week, the app was updated with my fix!</blockquote>
-<div class="landing-review-author"><div><strong>LGLB</strong><span>App Store · USA</span></div></div>
-</div>
-
-<div class="landing-review-card">
-<div class="landing-review-stars">★★★★★</div>
-<blockquote class="landing-review-quote">Beautiful UX and nearly flawless execution unlike the other NFC apps.</blockquote>
-<div class="landing-review-author"><div><strong>garretthoyos</strong><span>App Store · USA</span></div></div>
+<blockquote class="landing-review-quote">Der Modus, der bei jeder Tag-Erkennung weiterliest, ohne anzuhalten, ist meiner Meinung nach sehr praktisch.</blockquote>
+<div class="landing-review-author"><div><strong>com1038</strong><span>App Store · Japan · übersetzt</span></div></div>
 </div>
 
 </div>
@@ -93,20 +113,84 @@ Jedes Zitat unten ist eine echte App-Store-Bewertung mit dem Original-Nicknamen 
 
 <section class="page-section">
 
-## NFC.cool Tools - App Store Japan
+## NFC.cool Tools - Google Play
 
 <div class="landing-reviews-grid">
 
 <div class="landing-review-card">
 <div class="landing-review-stars">★★★★★</div>
-<blockquote class="landing-review-quote">If you like staying ahead of the time and minimalist lifestyle, I would recommend this app 😍</blockquote>
-<div class="landing-review-author"><div><strong>HPS. h</strong><span>App Store · Japan</span></div></div>
+<blockquote class="landing-review-quote">Die App ist großartig. Sie macht genau das, was sie verspricht. Ich kann Visitenkarten erstellen und einfach teilen und habe außerdem Zugriff auf so viele weitere großartige NFC-Tools und Funktionen.</blockquote>
+<div class="landing-review-author"><div><strong>Awath Abdat</strong><span>Google Play · übersetzt</span></div></div>
 </div>
 
 <div class="landing-review-card">
 <div class="landing-review-stars">★★★★★</div>
-<blockquote class="landing-review-quote">タグ検出毎に、リードを止めずに、リード継続するモードが便利だと思います。</blockquote>
-<div class="landing-review-author"><div><strong>com1038</strong><span>App Store · Japan</span></div></div>
+<blockquote class="landing-review-quote">Hat super funktioniert, sehr zu empfehlen.</blockquote>
+<div class="landing-review-author"><div><strong>christian alejandro fuenzalida vasquez</strong><span>Google Play · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Hat mir wirklich, wirklich gut gefallen.....</blockquote>
+<div class="landing-review-author"><div><strong>RAM</strong><span>Google Play · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Funktioniert wie beschrieben.</blockquote>
+<div class="landing-review-author"><div><strong>Z SHOCK.E</strong><span>Google Play · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Großartig!</blockquote>
+<div class="landing-review-author"><div><strong>cristian andres camacho rueda</strong><span>Google Play · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Sehr gut.</blockquote>
+<div class="landing-review-author"><div><strong>subir fernandes</strong><span>Google Play · übersetzt</span></div></div>
+</div>
+
+</div>
+
+</section>
+
+<section class="page-section">
+
+## NFC.cool Business Card - App Store
+
+<div class="landing-reviews-grid">
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Das Erstellen von Visitenkarten ist intuitiv, und der Kontakt mit dem Support war schnell und angenehm.</blockquote>
+<div class="landing-review-author"><div><strong>ktyllet</strong><span>App Store · Estland · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Eine großartige App für den beruflichen Einsatz - sehr praktisch und einfach zu bedienen.</blockquote>
+<div class="landing-review-author"><div><strong>Sergio CABA</strong><span>App Store · Argentinien · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Mega Idee gute App</blockquote>
+<div class="landing-review-author"><div><strong>Gjllölbh</strong><span>App Store · Deutschland</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Super nützlich.</blockquote>
+<div class="landing-review-author"><div><strong>Gonza1o</strong><span>App Store · Argentinien · übersetzt</span></div></div>
+</div>
+
+<div class="landing-review-card">
+<div class="landing-review-stars">★★★★★</div>
+<blockquote class="landing-review-quote">Besonders im Jahr 2025.</blockquote>
+<div class="landing-review-author"><div><strong>Zeyad5.7</strong><span>App Store · USA · übersetzt</span></div></div>
 </div>
 
 </div>

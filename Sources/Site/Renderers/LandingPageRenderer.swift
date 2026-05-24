@@ -42,11 +42,19 @@ struct LandingPageRenderer: Renderer {
          path.hasPrefix("http") ? path : context.config.baseURL + path
       }
       let ratings = Self.loadAppRatings(projectDirectory: context.projectDirectory)
+      // Mark up the first few Tools reviews shown in this locale's review
+      // section (see `renderAppStoreReviews` below) so the iOS Tools node is
+      // eligible for review snippets. The bodies are verbatim the displayed
+      // quotes, satisfying Google's "review must be visible on the page" rule.
+      let toolsReviews = (data.appStoreReviews ?? []).prefix(3).map {
+         AppReview(author: $0.author, body: $0.quote)
+      }
       let jsonLD = StructuredData.landingGraph(
          baseURL: context.config.baseURL,
          siteName: context.config.name,
          description: context.config.description,
          ratings: ratings,
+         toolsReviews: Array(toolsReviews),
          faq: data.faq
       )
 

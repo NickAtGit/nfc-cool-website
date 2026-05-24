@@ -67,6 +67,30 @@ struct MarketingPageRenderer: Renderer {
             pagePath: pagePath,
             faq: isDefaultLocale ? Self.onlineNfcReaderFAQ : nil
          )
+      case "reviews":
+         // Reviews are translated into each page's language, so the English
+         // review text in the JSON-LD only matches the default-locale page.
+         // Emit the rich SoftwareApplication graph there; DE/JA get a plain
+         // breadcrumb (same default-locale-only approach as the FAQ above).
+         if page.locale == context.config.effectiveDefaultLanguage {
+            jsonLD = StructuredData.reviewsPageGraph(
+               baseURL: context.config.baseURL,
+               homePath: context.router.homePath(),
+               reviewsLabel: page.title,
+               reviewsPath: pagePath,
+               ratings: AppRatings.load(projectDirectory: context.projectDirectory),
+               toolsIOSReviews: Self.reviewsToolsIOS,
+               toolsAndroidReviews: Self.reviewsToolsAndroid,
+               businessCardReviews: Self.reviewsBusinessCard
+            )
+         } else {
+            jsonLD = StructuredData.staticPageGraph(
+               baseURL: context.config.baseURL,
+               homePath: context.router.homePath(),
+               pageTitle: page.title,
+               pagePath: pagePath
+            )
+         }
       default:
          jsonLD = StructuredData.staticPageGraph(
             baseURL: context.config.baseURL,
@@ -218,6 +242,32 @@ struct MarketingPageRenderer: Renderer {
       result.removeSubrange(open.lowerBound..<close.upperBound)
       return result
    }
+
+   // Representative reviews for the `/reviews/` page JSON-LD, one block per app.
+   // Each `body` is verbatim a review card authored in `Content/Pages/Reviews*.md`
+   // (Tools-iOS from the App Store sections, Tools-Android from the Google Play
+   // section, Business Card from its section). Kept as constants rather than
+   // parsed from the markdown - same reliability tradeoff as `onlineNfcReaderFAQ`:
+   // if a quote on the page changes, update it here so `reviewBody` keeps matching
+   // the visible text (Google requires review markup to reflect on-page reviews).
+   private static let reviewsToolsIOS: [AppReview] = [
+      AppReview(author: "PhotoBomber_69", body: "I installed this app and paid for the full version, and I am extremely happy that I did. I had some questions and asked the developer and he responded immediately. His app is very well written, and packed with features. I am still learning them all. I suggest you install the app and see for yourself."),
+      AppReview(author: "LGLB", body: "I had a Unicode character issue with the app and sent in a gripe. Within a few days I actually got a feedback response email from the developer himself (shocking nowadays). Within a week, the app was updated with my fix! That's enough for high marks in today's app worlds."),
+      AppReview(author: "HellRazorCustoms", body: "After reading the reviews I've got to give a five because of developers commitment to his app! Great work! Current updates, dedicated, and patience with the illiterate."),
+   ]
+   private static let reviewsToolsAndroid: [AppReview] = [
+      AppReview(author: "Awath Abdat", body: "The app is great. it does exactly what it says. I can create and easily share business cards and also get access to so many other wonderful nfc tools and features"),
+      AppReview(author: "christian alejandro fuenzalida vasquez", body: "It worked great, highly recommended"),
+      AppReview(author: "RAM", body: "really really loved it....."),
+   ]
+   // Sergio CABA (Spanish) and Gjllölbh (German) are shown translated into
+   // English on the default-locale /reviews/ page, so the JSON-LD uses those
+   // English translations to keep `reviewBody` matching the visible card.
+   private static let reviewsBusinessCard: [AppReview] = [
+      AppReview(author: "ktyllet", body: "Business card creation is intuitive and contact with support was swift and pleasant."),
+      AppReview(author: "Sergio CABA", body: "A great app for professional use - very practical and easy to use."),
+      AppReview(author: "Gjllölbh", body: "Mega idea, great app."),
+   ]
 
    /// FAQ for `/online-nfc-reader/`, mirroring the `<details class="faq-item">`
    /// Q&A authored in `Content/Pages/NfcReader.md`. Kept as a constant rather

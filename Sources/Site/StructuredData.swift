@@ -1,5 +1,6 @@
 import Foundation
 import SiteKit
+import Yams
 
 /// JSON-LD schema builders for structured data. Each helper returns a JSON
 /// string ready to pass as `jsonLD:` to `OutputFileRenderer.buildHead(...)`.
@@ -13,18 +14,26 @@ enum StructuredData {
    /// `aggregateRating` when ratings are configured), and FAQPage when the
    /// landing YAML includes one. Returned as a single `@graph` array so Google
    /// can resolve `@id` cross-references between Organization ↔ Person ↔ apps.
+   ///
+   /// `toolsReviews` are the real, attributed App Store reviews already shown in
+   /// the landing page's review section (locale-specific). They are attached to
+   /// the iOS Tools node only - Google requires `review` markup to reflect a
+   /// review genuinely visible on the page, and the landing page displays Tools
+   /// reviews exclusively. Android Tools and Business Card carry `aggregateRating`
+   /// + `image` here; their per-review markup lives on `/reviews/` instead.
    static func landingGraph(
       baseURL: String,
       siteName: String,
       description: String,
       ratings: AppRatings,
+      toolsReviews: [AppReview] = [],
       faq: [FAQItem]?
    ) -> String {
       var nodes: [String] = []
       nodes.append(self.organization(baseURL: baseURL, siteName: siteName))
       nodes.append(self.webSite(baseURL: baseURL, siteName: siteName, description: description))
       nodes.append(self.person(baseURL: baseURL))
-      nodes.append(self.softwareApplicationToolsiOS(baseURL: baseURL, rating: ratings.toolsIOS))
+      nodes.append(self.softwareApplicationToolsiOS(baseURL: baseURL, rating: ratings.toolsIOS, reviews: toolsReviews))
       nodes.append(self.softwareApplicationToolsAndroid(baseURL: baseURL, rating: ratings.toolsAndroid))
       nodes.append(self.softwareApplicationBusinessCard(baseURL: baseURL, rating: ratings.businessCardIOS))
       if let faq, !faq.isEmpty {
@@ -52,6 +61,37 @@ enum StructuredData {
       if let faq, !faq.isEmpty {
          nodes.append(self.faqPage(faq))
       }
+      return """
+      {"@context":"https://schema.org","@graph":[\(nodes.joined(separator: ","))]}
+      """
+   }
+
+   /// Graph for the `/reviews/` page: a BreadcrumbList plus the three
+   /// `SoftwareApplication` nodes, each carrying `aggregateRating`, `image`, and
+   /// the genuine reviews shown on the page. Unlike the landing graph (which only
+   /// the iOS Tools node can carry reviews on, since that page displays Tools
+   /// reviews exclusively), `/reviews/` displays reviews for all three apps, so
+   /// every node is review-eligible here. Reviews are passed in (sourced from the
+   /// page's own cards) so the markup matches the visible text per Google policy.
+   static func reviewsPageGraph(
+      baseURL: String,
+      homePath: String,
+      reviewsLabel: String,
+      reviewsPath: String,
+      ratings: AppRatings,
+      toolsIOSReviews: [AppReview],
+      toolsAndroidReviews: [AppReview],
+      businessCardReviews: [AppReview]
+   ) -> String {
+      let breadcrumb = """
+      {"@type":"BreadcrumbList","itemListElement":[\(self.listItem(position: 1, name: "Home", url: "\(baseURL)\(homePath)")),\(self.listItem(position: 2, name: reviewsLabel, url: "\(baseURL)\(reviewsPath)"))]}
+      """
+      let nodes = [
+         breadcrumb,
+         self.softwareApplicationToolsiOS(baseURL: baseURL, rating: ratings.toolsIOS, reviews: toolsIOSReviews),
+         self.softwareApplicationToolsAndroid(baseURL: baseURL, rating: ratings.toolsAndroid, reviews: toolsAndroidReviews),
+         self.softwareApplicationBusinessCard(baseURL: baseURL, rating: ratings.businessCardIOS, reviews: businessCardReviews),
+      ]
       return """
       {"@context":"https://schema.org","@graph":[\(nodes.joined(separator: ","))]}
       """
@@ -213,30 +253,45 @@ enum StructuredData {
       """
    }
 
-   private static func softwareApplicationToolsiOS(baseURL: String, rating: AppRating?) -> String {
+   static func softwareApplicationToolsiOS(baseURL: String, rating: AppRating?, reviews: [AppReview] = []) -> String {
       let ratingFragment = rating.map { ",\(self.aggregateRating($0))" } ?? ""
       return """
-      {"@type":"SoftwareApplication","name":"NFC.cool Tools","operatingSystem":"iOS","applicationCategory":"UtilitiesApplication","url":"https://apps.apple.com/app/id1249686798","downloadUrl":"https://apps.apple.com/app/id1249686798","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"\(baseURL)/#organization"}\(ratingFragment)}
+      {"@type":"SoftwareApplication","name":"NFC.cool Tools","operatingSystem":"iOS","applicationCategory":"UtilitiesApplication","image":"\(baseURL)/assets/images/Tools-iOS/AppIcon-1024.webp","url":"https://apps.apple.com/app/id1249686798","downloadUrl":"https://apps.apple.com/app/id1249686798","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"\(baseURL)/#organization"}\(ratingFragment)\(self.reviewsFragment(reviews))}
       """
    }
 
-   private static func softwareApplicationToolsAndroid(baseURL: String, rating: AppRating?) -> String {
+   static func softwareApplicationToolsAndroid(baseURL: String, rating: AppRating?, reviews: [AppReview] = []) -> String {
       let ratingFragment = rating.map { ",\(self.aggregateRating($0))" } ?? ""
       return """
-      {"@type":"SoftwareApplication","name":"NFC.cool Tools","operatingSystem":"ANDROID","applicationCategory":"UtilitiesApplication","url":"https://play.google.com/store/apps/details?id=cool.nfc","downloadUrl":"https://play.google.com/store/apps/details?id=cool.nfc","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"\(baseURL)/#organization"}\(ratingFragment)}
+      {"@type":"SoftwareApplication","name":"NFC.cool Tools","operatingSystem":"ANDROID","applicationCategory":"UtilitiesApplication","image":"\(baseURL)/assets/images/Tools-Android/AppIcon-512.webp","url":"https://play.google.com/store/apps/details?id=cool.nfc","downloadUrl":"https://play.google.com/store/apps/details?id=cool.nfc","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"\(baseURL)/#organization"}\(ratingFragment)\(self.reviewsFragment(reviews))}
       """
    }
 
-   private static func softwareApplicationBusinessCard(baseURL: String, rating: AppRating?) -> String {
+   static func softwareApplicationBusinessCard(baseURL: String, rating: AppRating?, reviews: [AppReview] = []) -> String {
       let ratingFragment = rating.map { ",\(self.aggregateRating($0))" } ?? ""
       return """
-      {"@type":"SoftwareApplication","name":"NFC.cool Business Card","operatingSystem":"iOS","applicationCategory":"BusinessApplication","url":"https://apps.apple.com/app/id6502926572","downloadUrl":"https://apps.apple.com/app/id6502926572","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"\(baseURL)/#organization"}\(ratingFragment)}
+      {"@type":"SoftwareApplication","name":"NFC.cool Business Card","operatingSystem":"iOS","applicationCategory":"BusinessApplication","image":"\(baseURL)/assets/images/BusinessCard/AppIcon-512.webp","url":"https://apps.apple.com/app/id6502926572","downloadUrl":"https://apps.apple.com/app/id6502926572","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"\(baseURL)/#organization"}\(ratingFragment)\(self.reviewsFragment(reviews))}
       """
    }
 
    private static func aggregateRating(_ rating: AppRating) -> String {
       return """
       "aggregateRating":{"@type":"AggregateRating","ratingValue":"\(rating.ratingValue)","ratingCount":"\(rating.ratingCount)","bestRating":"5","worstRating":"1"}
+      """
+   }
+
+   /// Emits a `"review":[...]` property (with leading comma) for the supplied
+   /// reviews, or an empty string when there are none. Each entry is a 5-star
+   /// `Review` whose `reviewBody` must match a quote shown on the emitting page.
+   private static func reviewsFragment(_ reviews: [AppReview]) -> String {
+      guard !reviews.isEmpty else { return "" }
+      let entries = reviews.map { self.review($0) }.joined(separator: ",")
+      return ",\"review\":[\(entries)]"
+   }
+
+   private static func review(_ review: AppReview) -> String {
+      return """
+      {"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"\(review.rating)","bestRating":"5","worstRating":"1"},"author":{"@type":"Person","name":"\(review.author.jsonEscaped)"},"reviewBody":"\(review.body.jsonEscaped)"}
       """
    }
 
@@ -282,6 +337,16 @@ struct AppRating: Sendable, Codable {
    let ratingCount: Int
 }
 
+/// A single genuine, on-page review for `review` structured data. Per Google
+/// policy the `body` must match a review actually displayed to users on the
+/// page where the markup is emitted, so callers source these from the review
+/// cards already rendered on that page rather than inventing text.
+struct AppReview: Sendable {
+   let author: String
+   let body: String
+   var rating: Int = 5
+}
+
 /// Container for the per-app ratings used in the landing `@graph`. Decoded
 /// from a top-level `apps:` block in `SiteConfig.yaml`.
 struct AppRatings: Sendable, Codable {
@@ -290,6 +355,19 @@ struct AppRatings: Sendable, Codable {
    let businessCardIOS: AppRating?
 
    static let empty = AppRatings(toolsIOS: nil, toolsAndroid: nil, businessCardIOS: nil)
+
+   private struct Wrapper: Decodable { let apps: AppRatings? }
+
+   /// Decodes the top-level `apps:` rating block from `SiteConfig.yaml`,
+   /// returning `.empty` when the file or block is absent. Single source for
+   /// renderers that need the live store ratings (landing + reviews pages).
+   static func load(projectDirectory: URL) -> AppRatings {
+      let configPath = projectDirectory.appendingPathComponent("SiteConfig.yaml")
+      guard let yaml = try? String(contentsOf: configPath, encoding: .utf8),
+            let wrapper = try? YAMLDecoder().decode(Wrapper.self, from: yaml)
+      else { return .empty }
+      return wrapper.apps ?? .empty
+   }
 }
 
 /// Per-post metadata gathered by `BlogPostRenderer` and handed to
