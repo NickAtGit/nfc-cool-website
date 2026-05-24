@@ -11,8 +11,12 @@ import SiteKit
          .replacing(SiteKit.TagListingRenderer.self, with: TagListingRenderer())
          .replacing(SiteKit.RobotsTxtRenderer.self, with: RobotsTxtRenderer())
          // Default sitemap adapter is blind to the custom feature renderers —
-         // swap in one that also emits /features/ and /features/{slug}/.
+         // swap in one that also emits /features/ and /features/{slug}/ (and drops
+         // locale-fallback pages that would otherwise be advertised as 404s).
          .replacing(SitemapRenderer.self, with: SitemapRenderer(adapter: FeatureSitemapDataAdapter()))
+         // Default feed adapter lists locale-fallback pages (EN-only changelog
+         // under /de/ and /ja/) whose URLs 404 — swap in one that drops them.
+         .replacing(RSSFeedRenderer.self, with: RSSFeedRenderer(adapter: FilteredFeedDataAdapter()))
          .renderer(FeaturePageRenderer())
          .renderer(FeaturesIndexRenderer())
          .renderer(StaticRootFilesRenderer())

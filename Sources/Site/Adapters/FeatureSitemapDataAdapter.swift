@@ -17,6 +17,20 @@ struct FeatureSitemapDataAdapter: SitemapDataAdapting {
    func adapt(_ context: BuildContext) throws -> [SitemapEntry] {
       var entries = try DefaultSitemapDataAdapter().adapt(context)
 
+      // DefaultSitemapDataAdapter walks every page in `section.pages`, including
+      // the locale fallbacks SiteKit injects for EN-only content (the changelog
+      // under /de/ and /ja/). Those pages are never rendered, so drop their URLs
+      // here - otherwise the per-locale sitemaps hand crawlers a list of 404s.
+      let defaultLang = context.config.effectiveDefaultLanguage
+      let fallbackPaths = Set(context.sections.flatMap { section in
+         section.pages
+            .filter { !LocalizedContent.isEmitted($0, defaultLanguage: defaultLang) }
+            .map { context.router.pagePath(for: $0, in: section.config) }
+      })
+      if !fallbackPaths.isEmpty {
+         entries = entries.filter { !fallbackPaths.contains($0.path) }
+      }
+
       // `loadFeatures` filters to the slugs whose YAML exists for the build's
       // current locale, keeping the sitemap in lockstep with the pages
       // `FeaturePageRenderer` actually emits.

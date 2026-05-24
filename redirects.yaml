@@ -145,3 +145,23 @@ redirects:
     to: "/ja/developers/"
   - from: "/ja/integrations/"
     to: "/ja/developers/"
+
+  # ----- Online NFC Reader page renamed: /nfc-reader/ → /online-nfc-reader/ -----
+  # The page lived at /nfc-reader/ (per locale) before being renamed; Google had
+  # the old paths indexed and now 404s them.
+  - from: "/nfc-reader"
+    to: "/online-nfc-reader/"
+  - from: "/nfc-reader/"
+    to: "/online-nfc-reader/"
+  - from: "/de/nfc-reader"
+    to: "/de/online-nfc-reader/"
+  - from: "/de/nfc-reader/"
+    to: "/de/online-nfc-reader/"
+  - from: "/ja/nfc-reader"
+    to: "/ja/online-nfc-reader/"
+  - from: "/ja/nfc-reader/"
+    to: "/ja/online-nfc-reader/"
+
+  # ----- Webflow /contact.html artifact → real /contact/ page -----
+  - from: "/contact.html"
+    to: "/contact/"

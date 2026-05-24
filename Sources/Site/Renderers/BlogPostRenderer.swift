@@ -23,7 +23,7 @@ struct BlogPostRenderer: Renderer {
          // Related-post and prev/next links are built from this same list
          // so they never point at those 404s.
          let renderable = section.pages
-            .filter { Self.isRenderable($0, defaultLang: defaultLang) }
+            .filter { LocalizedContent.isEmitted($0, defaultLanguage: defaultLang) }
             .sorted { (a, b) -> Bool in
                (a.date ?? Date.distantPast) > (b.date ?? Date.distantPast)
             }
@@ -39,15 +39,6 @@ struct BlogPostRenderer: Renderer {
          }
       }
       return files
-   }
-
-   /// A post is actually emitted (rather than serving a 404) when it is the
-   /// default language or has its own locale-specific source file. Pages that
-   /// fall back to the default-language source are skipped by `render(...)`,
-   /// so related-post and prev/next links must exclude them too.
-   private static func isRenderable(_ page: Page, defaultLang: String) -> Bool {
-      if page.locale == defaultLang { return true }
-      return page.sourcePath.lastPathComponent.contains(".\(page.locale).")
    }
 
    private func renderPost(
@@ -145,6 +136,14 @@ struct BlogPostRenderer: Renderer {
       // authors keep full control of the ~60-char budget and any brand suffix.
       let metaTitle: String? = page.extensionValue("metaTitle")
       let metaDescription: String? = page.extensionValue("metaDescription")
+      // hreflang: advertise only the locales this post actually has a source
+      // file for. SiteKit's HreflangEnricher precomputes this into
+      // page.extensions["hreflang"] from the build's translationMap, so a fully
+      // localized blog post still emits en/de/ja while an EN-only changelog post
+      // emits just en + x-default. Using buildHreflangForAllLanguages instead
+      // fabricated /de/ and /ja/ alternates for the EN-only changelog, and Google
+      // crawled those phantom URLs into 404s.
+      let hreflangMap: [String: String]? = page.extensionValue("hreflang")
       let head = helper.buildHead(
          title: metaTitle ?? "\(page.title) - \(context.config.name)",
          description: metaDescription ?? page.summary ?? context.config.description,
@@ -155,7 +154,7 @@ struct BlogPostRenderer: Renderer {
          articleDate: page.date,
          articleAuthor: page.author,
          jsonLD: jsonLD,
-         hreflang: helper.buildHreflangForAllLanguages { $0.pagePath(for: page, in: section.config) }
+         hreflang: hreflangMap
       )
 
       // Prev/next chain: lets crawlers walk every post and readers move
