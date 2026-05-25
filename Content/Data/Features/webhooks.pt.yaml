@@ -1,0 +1,100 @@
+slug: "webhooks"
+backLinkText: "← Todas as funcionalidades"
+
+card:
+  title: "Webhooks e Automação"
+  description: "Cinco gatilhos disparam no momento em que lê - POST para o seu servidor, executa um Atalho, abre um URL, lê o resultado ou reproduz um som. A NFC.cool lê; você controla o que acontece a seguir."
+  imagePath: "/assets/images/Webflow/webhook.webp"
+  platforms: "iOS · Android"
+
+hero:
+  title: "Webhooks e Automação"
+  subtitle: "Cinco gatilhos incorporados disparam no momento em que lê uma tag NFC, um código QR ou um código de barras - POST para o seu próprio servidor, abre o URL, executa um Atalho, lê o resultado em voz alta ou reproduz um som. A NFC.cool é o leitor; você controla a ação."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/webhook.webp"
+
+capabilitiesTitle: "Os Cinco Gatilhos"
+capabilities:
+  - title: "Webhook (POST para o seu URL)"
+    description: "HTTP POST com um corpo JSON estruturado no momento em que uma leitura é bem-sucedida. Configure um URL, autenticação HTTP Basic opcional, e está pronto. iOS e Android."
+  - title: "Atalho (iOS)"
+    description: "Quando um URL lido tem um esquema `shortcuts://`, executa automaticamente o Atalho do iOS correspondente - sem um toque adicional. Encaminhe os dados da leitura para tudo o que os Atalhos conseguem alcançar."
+  - title: "Abrir Ligações (iOS)"
+    description: "Quando o payload é um URL normal, abre-o automaticamente no Safari (ou no destino de ligação direta correspondente). Salte o passo de 'tocar para abrir'."
+  - title: "Síntese de Voz (iOS)"
+    description: "Leia o payload lido em voz alta, com as mãos livres. Velocidade da fala configurável. Útil para acessibilidade, fluxos de trabalho com as mãos ocupadas, ou apenas uma confirmação satisfatória."
+  - title: "Reproduzir Áudio (iOS)"
+    description: "Reproduza um som de confirmação na leitura - o seu próprio ficheiro de áudio à escolha ou um dos tons incorporados."
+
+subsectionsTitle: "Como Funciona o Webhook"
+subsections:
+  - title: "Gatilhos - NFC, QR e Código de Barras"
+    body: "<p>Os webhooks disparam a partir de três fontes de eventos: <strong>leituras NFC</strong>, <strong>leituras QR</strong> e <strong>leituras de códigos de barras</strong>. Cada fonte tem o seu próprio interruptor de ativar/desativar, para que possa encaminhar as leituras NFC para o seu sistema de inventário sem que o leitor de câmara inunde o mesmo endpoint. O webhook em si é o mesmo - um URL, um payload JSON, um POST.</p>"
+    platforms: "iOS · Android"
+
+  - title: "Estrutura do Payload"
+    body: "<p>Cada POST envia um corpo JSON com esta forma:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p>Os campos <code>tagType</code> e <code>structured</code> aparecem apenas para formatos especiais como o <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a>; todas as outras leituras enviam apenas os três primeiros campos. A <a href=\"/developers/\">referência para programadores</a> tem a descrição completa campo a campo, autenticação, curl e servidores de exemplo prontos a executar.</p>"
+    platforms: "iOS · Android"
+
+  - title: "Servidor de Referência no GitHub"
+    body: "<p>A forma mais rápida de ver o ciclo completo de ponta a ponta: <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">Servidor Web no GitHub</a>. Um servidor de exemplo mínimo que aceita os payloads de webhook da NFC.cool, regista-os e mostra a estrutura ao vivo. Clone, execute, aponte o seu iPhone para ele e veja as leituras a chegar.</p>"
+    platforms: "iOS · Android"
+
+specsTitle: "Detalhes Técnicos"
+specs:
+  - title: "Transporte"
+    items:
+      - "HTTPS recomendado; HTTP permitido em desenvolvimento"
+      - "POST com `Content-Type: application/json`"
+      - "Autenticação HTTP Basic opcional (nome de utilizador + palavra-passe)"
+      - "Credenciais guardadas encriptadas no Keychain do iOS"
+  - title: "Payload"
+    items:
+      - "`identifier` - UID da tag ou código lido"
+      - "`date` - data e hora em ISO 8601"
+      - "`content` - payload descodificado (string de URL, texto, etc.)"
+      - "`tagType` - presente em tags estruturadas (ex.: `openPrintTag`)"
+      - "`structured` - JSON aninhado para tipos de tags estruturadas"
+  - title: "Fontes"
+    items:
+      - "Leituras NFC (leituras NDEF)"
+      - "Leituras QR"
+      - "Leituras de códigos de barras"
+      - "Cada fonte ativável de forma independente"
+
+pricing:
+  title: "Gratuito vs Platinum"
+  columns: ["Gratuito", "Platinum"]
+  rows:
+    - label: "Webhook NFC e QR"
+      values: ["✗", "✓"]
+    - label: "Sintetizador de Voz"
+      values: ["✗", "✓"]
+    - label: "Atalhos"
+      values: ["✗", "✓"]
+    - label: "Sincronização iCloud"
+      values: ["✓", "✓"]
+
+faqTitle: "Perguntas Frequentes"
+faq:
+  - question: "Isto funciona no Android?"
+    answer: "Sim - os webhooks estão disponíveis nas versões iOS e Android da NFC.cool Tools. A estrutura do payload JSON é a mesma em todas as plataformas. (Os outros quatro gatilhos do iOS - Atalho automático, voz, áudio, abertura de ligações - são apenas para iOS.)"
+  - question: "Quantos URLs posso configurar?"
+    answer: "Um URL atualmente. O mesmo URL recebe todos os eventos de leitura, distinguidos pelos interruptores de fonte ativados e pelo tipo de payload."
+  - question: "Que autenticação é suportada?"
+    answer: "Autenticação HTTP Basic - nome de utilizador + palavra-passe, guardados encriptados no Keychain do iOS. Tokens Bearer, cabeçalhos personalizados e assinatura HMAC não são atualmente suportados."
+  - question: "O que acontece se o meu servidor estiver offline?"
+    answer: "O POST falha e o evento fica registado no dispositivo. Hoje não existe fila de repetição automática; se o seu servidor puder ser instável, conceba o seu handler para ser idempotente na repetição e volte a disparar a partir do histórico de leituras."
+  - question: "Existe um limite de tamanho do payload?"
+    answer: "Nenhum limite rígido imposto pela NFC.cool. Os próprios payloads das tags estão limitados pelo padrão NFC (alguns KB para tags NDEF típicas)."
+  - question: "Onde posso vê-lo a funcionar de verdade?"
+    answer: "Clone o <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">Servidor Web no GitHub</a>, execute-o localmente, aponte a app para ele e verá cada leitura a chegar em tempo real."
+
+relatedReadingTitle: "Continue a Ler"
+relatedReading:
+  - title: "OpenPrintTag: Ler e Gravar Bobinas Inteligentes de Impressão 3D"
+    url: "/blog/openprinttag-read-write-nfc-spools-phone/"
+  - title: "Como Contar Leituras de Tags NFC Sem um Servidor"
+    url: "/blog/count-nfc-tag-scans/"
+  - title: "Leitor e Gravador NFC"
+    url: "/features/nfc-reader-writer/"

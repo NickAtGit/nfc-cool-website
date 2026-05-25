@@ -1,0 +1,90 @@
+slug: "room-scanner"
+backLinkText: "← Todas as funcionalidades"
+
+card:
+  title: "Digitalizador de Divisões"
+  description: "Percorra uma divisão e o RoomPlan cria uma planta limpa - paredes, portas, janelas e mobiliário - com medidas da divisão e cálculo de área."
+  imagePath: "/assets/images/Webflow/scan-room.webp"
+  platforms: "iOS apenas"
+
+hero:
+  title: "Digitalizador de Divisões"
+  subtitle: "O RoomPlan, alimentado por LiDAR, transforma um percurso pelo seu espaço numa planta paramétrica limpa - paredes, portas, janelas e mobiliário reconhecido, exportados como uma única cena USDZ."
+  platforms: "iOS apenas"
+  heroImagePath: "/assets/images/Webflow/scan-room.webp"
+
+capabilitiesTitle: "O Que Pode Fazer"
+capabilities:
+  - title: "Captura com RoomPlan"
+    description: "Percorra uma divisão com o sensor LiDAR do seu iPhone. O NFC.cool cria um modelo paramétrico em tempo real - paredes, portas, janelas e aberturas."
+  - title: "Mobiliário Reconhecido"
+    description: "Camas, sofás, mesas, cadeiras, arrumação, fogões, lava-loiças, sanitas, banheiras e televisores são detetados e identificados dentro da cena."
+  - title: "Área de Chão e Dimensões"
+    description: "Cada divisão indica a área de chão, a altura do teto e as dimensões de cada parede. Leia-as a partir do modelo ou incorpore-as no USDZ exportado."
+  - title: "AR Quick Look"
+    description: "Abra a divisão concluída no AR Quick Look ou partilhe o USDZ - os destinatários podem andar à volta do modelo diretamente nas Mensagens."
+
+subsectionsTitle: "De um Percurso a uma Planta Funcional"
+subsections:
+  - title: "Coloque a sua Divisão em AR"
+    body: "<p>Assim que uma digitalização termina, coloque-a no AR Quick Look e ande fisicamente à volta do gémeo digital. Útil para confirmar a disposição do mobiliário antes de comprar, ou para ter uma noção de escala que os desenhos num tablet simplesmente não transmitem.</p>"
+    imagePath: "/assets/images/Blog/mac-3d-detail.webp"
+    imageAlt: "Vista detalhada de digitalização de divisão"
+    platforms: "iOS"
+
+  - title: "Fluxos de Trabalho de Várias Divisões"
+    body: "<p>Cada digitalização é uma divisão. Capture a cozinha, capture a sala de estar, capture os quartos - ficam lado a lado na sua biblioteca, e um editor 3D à sua escolha pode juntá-las num USDZ de várias divisões. Particularmente útil para anúncios imobiliários, planeamento de renovações ou documentação para seguros.</p>"
+    platforms: "iOS"
+
+  - title: "Atalhos e App Intents"
+    body: "<p>O NFC.cool integra-se diretamente na aplicação Atalhos do iOS com ações incorporadas: obter a última tag NFC lida, gravar uma mensagem numa tag, abrir o digitalizador ou obter o último código QR lido. Encadeie-as em Atalhos que leem uma tag, analisam o seu conteúdo e desencadeiam o que quiser a seguir - automação, registo, diário, o que imaginar. As mesmas ações alimentam o controlo <strong>Botão de Digitalização</strong> no ecrã bloqueado no iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone a ligar uma tag NFC a blocos de automação"
+    platforms: "iOS"
+
+  - title: "Sincronização iCloud entre iPhone, iPad e Mac"
+    body: "<p>As divisões digitalizadas ficam na sua pasta de Documentos no iCloud, por isso o iPhone com que digitalizou, o iPad em que reviu e o <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> em que vai editar veem todos a mesma biblioteca. Percorra o espaço uma vez, refine a planta mais tarde na sua secretária.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool a sincronizar entre iPhone, iPad e Mac"
+    platforms: "iOS"
+
+specsTitle: "Hardware e Resultado"
+specs:
+  - title: "Requisitos de Hardware"
+    items:
+      - "iPhone com LiDAR (12 Pro e modelos Pro mais recentes)"
+      - "iPad Pro (2020) e mais recentes também suportados"
+      - "RoomPlan disponível a partir do iOS 16; as últimas melhorias chegam no iOS 17+"
+  - title: "Resultado"
+    items:
+      - "Cena USDZ com entidades nomeadas"
+      - "Paredes, portas, janelas, aberturas"
+      - "Categorias de mobiliário reconhecidas"
+      - "Área de chão e dimensões"
+
+pricing:
+  title: "Gratuito vs Platinum"
+  columns: ["Gratuito", "Platinum"]
+  rows:
+    - label: "Digitalizar Divisões"
+      values: ["✓", "✓"]
+    - label: "Medidas da Divisão"
+      values: ["✓", "✓"]
+    - label: "Cálculo de Área"
+      values: ["✗", "✓"]
+
+faqTitle: "Perguntas Frequentes"
+faq:
+  - question: "Preciso de LiDAR?"
+    answer: "Sim. O RoomPlan é uma API exclusiva de LiDAR da Apple. (o Digitalizador de Objetos 3D também precisa de LiDAR - a sessão de Object Capture da Apple verifica-o.)"
+  - question: "Quanto tempo demora uma digitalização?"
+    answer: "Basta percorrer a divisão. O resultado é gerado em tempo real e fica pronto quando terminar."
+  - question: "Posso abrir o resultado em software CAD?"
+    answer: "Sim - o USDZ é suportado pela maioria das ferramentas CAD/3D modernas. Para fluxos de trabalho com SketchUp / Revit, converta através do Blender ou de uma ferramenta gratuita de USD para OBJ."
+
+relatedReadingTitle: "Continuar a Ler"
+relatedReading:
+  - title: "Digitalizador de Objetos 3D"
+    url: "/features/3d-object-scanner/"
+  - title: "Digitalização 3D no iPhone com Fotogrametria e LiDAR"
+    url: "/blog/3d-scan-feature/"

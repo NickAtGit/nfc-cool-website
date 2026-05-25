@@ -1,0 +1,110 @@
+slug: "document-scanner"
+backLinkText: "← Todas as funcionalidades"
+
+card:
+  title: "Digitalizador de Documentos com OCR"
+  description: "Digitalize documentos no iPhone ou iPad com deteção automática de margens e OCR - tudo no seu dispositivo, nada é enviado. Exporte PDFs pesquisáveis de várias páginas."
+  imagePath: "/assets/images/Webflow/document-scan.webp"
+  platforms: "iOS apenas"
+
+hero:
+  title: "Digitalizador de Documentos com OCR"
+  subtitle: "Capture documentos com deteção automática de margens e correção de perspetiva. O OCR no dispositivo transforma cada digitalização em texto pesquisável."
+  platforms: "iOS apenas"
+  heroImagePath: "/assets/images/Webflow/document-scan.webp"
+
+capabilitiesTitle: "O Que Pode Fazer"
+capabilities:
+  - title: "Deteção Automática de Margens"
+    description: "Aponte para uma página; o NFC.cool encontra os cantos e captura automaticamente. As digitalizações de várias páginas captam uma pilha inteira numa só sessão."
+  - title: "Correção de Perspetiva"
+    description: "Foto inclinada? O NFC.cool ajusta a página para um retângulo limpo, remove sombras e aumenta o contraste para que o resultado pareça uma digitalização plana."
+  - title: "OCR no Dispositivo"
+    description: "O reconhecimento de texto acontece localmente no seu iPhone - nenhum documento, nenhum texto sai do dispositivo. O texto reconhecido de cada página é guardado junto da imagem e pesquisável dentro da aplicação."
+  - title: "Exportação para PDF com Texto Incorporado"
+    description: "Crie um PDF de várias páginas com a camada de texto do OCR incorporada, para que cada palavra seja selecionável, copiável e pesquisável em qualquer leitor de PDF."
+  - title: "Partilha e Guardar Rápido"
+    description: "Envie por Mail, Mensagens ou AirDrop, ou guarde nos Ficheiros. Sem marca de água, sem registo, sem marca NFC.cool."
+
+subsectionsTitle: "Mais Inteligente do que uma Captura de Ecrã"
+subsections:
+  - title: "Digitalizações de Várias Páginas + Título Automático"
+    body: "<p>Os documentos nem sempre têm uma só página. O NFC.cool mantém a câmara aberta entre capturas, permite reordenar páginas, descartar as falhadas e juntar tudo num único documento. Um serviço integrado de sugestão de títulos lê a primeira página e propõe um nome de ficheiro sensato - poupa-lhe o ritual de renomear de todas as vezes.</p>"
+    imagePath: "/assets/images/Webflow/document-scan-detail.webp"
+    imageAlt: "Vista detalhada de documento de várias páginas"
+    platforms: "iOS"
+
+  - title: "Importar da sua Galeria de Fotos"
+    body: "<p>Já fotografou o recibo com a câmara normal? Escolha a imagem (ou várias) da sua galeria de fotos - o NFC.cool aplica a mesma deteção de margens, correção de perspetiva e OCR às fotos importadas e às capturas novas. Útil para arrumar retroativamente meses de fotos dispersas no telemóvel.</p>"
+    platforms: "iOS"
+
+  - title: "Compressão que Controla"
+    body: "<p>Os PDFs criados num telemóvel podem ficar enormes se não tiver cuidado. O NFC.cool disponibiliza a taxa de compressão como uma definição, para que possa escolher entre fidelidade de qualidade de arquivo e um tamanho de ficheiro adequado para email - sem voltar a digitalizar.</p>"
+    platforms: "iOS"
+
+  - title: "Atalhos e App Intents"
+    body: "<p>O NFC.cool integra-se diretamente na aplicação Atalhos do iOS com ações incorporadas: obter a última tag NFC lida, gravar uma mensagem numa tag, abrir o digitalizador ou obter o último código QR lido. Encadeie-as em Atalhos que leem uma tag, analisam o seu conteúdo e desencadeiam o que quiser a seguir - automação, registo, diário, o que imaginar. As mesmas ações alimentam o controlo <strong>Botão de Digitalização</strong> no ecrã bloqueado no iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone a ligar uma tag NFC a blocos de automação"
+    platforms: "iOS"
+
+  - title: "Sincronização iCloud entre iPhone, iPad e Mac"
+    body: "<p>Os documentos sincronizam-se sem esforço através do iCloud em todos os dispositivos da sua conta. Digitalize um contrato no iPhone, reveja-o no iPad, assine-o no <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - a mesma biblioteca, sem exportar de um lado para o outro. As imagens originais e o texto reconhecido viajam ambos juntos.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool a sincronizar entre iPhone, iPad e Mac"
+    platforms: "iOS"
+
+specsTitle: "Capacidades e Limites"
+specs:
+  - title: "Reconhecimento"
+    items:
+      - "OCR da framework Vision do iOS"
+      - "Alfabetos latino, cirílico e grego"
+      - "Reconhecimento de escrita manual"
+      - "Deteção de vários idiomas"
+      - "O texto reconhecido é editável após a digitalização"
+  - title: "Resultado"
+    items:
+      - "PDF com camada de texto incorporada"
+      - "Imagens JPEG / HEIC por página"
+      - "Documentos de várias páginas"
+      - "Modo preto e branco opcional"
+      - "Taxa de compressão configurável"
+  - title: "Privacidade"
+    items:
+      - "Todo o OCR corre no dispositivo"
+      - "Nenhum documento ou texto é enviado para o NFC.cool"
+      - "Documentos guardados no iCloud ou na sandbox da aplicação - a sua escolha"
+
+pricing:
+  title: "Gratuito vs Platinum"
+  columns: ["Gratuito", "Platinum"]
+  rows:
+    - label: "Digitalizar Documentos"
+      values: ["✓", "✓"]
+    - label: "Documentos a partir de Fotos"
+      values: ["✓", "✓"]
+    - label: "OCR"
+      values: ["✓", "✓"]
+    - label: "Exportar como PDF"
+      values: ["✗", "✓"]
+    - label: "Exportação Automática para o iCloud"
+      values: ["✗", "✓"]
+
+faqTitle: "Perguntas Frequentes"
+faq:
+  - question: "O OCR funciona offline?"
+    answer: "Sim. O Vision do iOS trata do OCR inteiramente no dispositivo. Pode digitalizar e fazer OCR de documentos num avião, no mato, em qualquer lugar."
+  - question: "Que idiomas suporta o OCR?"
+    answer: "O Vision do iOS reconhece atualmente inglês, francês, italiano, alemão, espanhol, português e chinês simplificado. O reconhecimento de escrita manual também é suportado."
+  - question: "Qual é a precisão do OCR?"
+    answer: "Muito elevada para texto impresso. A precisão da escrita manual depende da clareza e do contraste. Pode editar qualquer texto reconhecido após a digitalização."
+  - question: "Onde são guardados os documentos digitalizados?"
+    answer: "Nível gratuito: na sandbox da aplicação no dispositivo. Platinum: opcionalmente exportados automaticamente para os Documentos no iCloud, para que apareçam na aplicação Ficheiros e em todos os dispositivos com sessão iniciada no seu iCloud."
+
+relatedReadingTitle: "Continuar a Ler"
+relatedReading:
+  - title: "Digitalização de Documentos de Bolso"
+    url: "/blog/document-scanning-guide/"
+  - title: "Digitalizador de Objetos 3D"
+    url: "/features/3d-object-scanner/"

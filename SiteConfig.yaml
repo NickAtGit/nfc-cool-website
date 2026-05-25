@@ -5,7 +5,7 @@ language: "en"
 
 localization:
   defaultLanguage: "en"
-  languages: ["de", "ja"]
+  languages: ["de", "ja", "pt"]
   translationMode: "manual"
   legalLanguage: "de"
   # Localized nav + footer labels. URLs stay locale-agnostic; SiteKit prefixes
@@ -114,6 +114,58 @@ localization:
           - title: "利用規約"
             url: "/terms/"
           - title: "苦情記録簿"
+            url: "https://www.livroreclamacoes.pt/Inicio/"
+    pt:
+      navigation:
+        items:
+          - title: "Início"
+            url: "/"
+          - title: "Funcionalidades"
+            url: "/features/"
+          - title: "Cartão de Visita"
+            url: "/business-card/"
+          - title: "Comprar Tags NFC"
+            url: "/affiliate-links/"
+          - title: "Leitor NFC Online"
+            url: "/online-nfc-reader/"
+          - title: "Blog"
+            url: "/blog/"
+          - title: "Apoio e Contacto"
+            url: "/contact/"
+        showSearch: false
+        showThemeToggle: true
+      footer:
+        copyrightName: "NFC.cool"
+        startYear: 2017
+        showAttribution: false
+        links:
+          - title: "Funcionalidades"
+            url: "/features/"
+          - title: "Leitor NFC Online"
+            url: "/online-nfc-reader/"
+          - title: "Cartão de Visita"
+            url: "/business-card/"
+          - title: "Tags NFC"
+            url: "/affiliate-links/"
+          - title: "Programadores"
+            url: "/developers/"
+          - title: "Avaliações"
+            url: "/reviews/"
+          - title: "Sobre"
+            url: "/about/"
+          - title: "Changelog"
+            url: "/changelog/"
+          - title: "Blog"
+            url: "/blog/"
+          - title: "Apoio e Contacto"
+            url: "/contact/"
+          - title: "Imprensa"
+            url: "/press/"
+          - title: "Privacidade"
+            url: "/privacy/"
+          - title: "Termos"
+            url: "/terms/"
+          - title: "Livro de Reclamações"
             url: "https://www.livroreclamacoes.pt/Inicio/"
 
 contentDirectory: "Content"

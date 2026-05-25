@@ -1,0 +1,98 @@
+slug: "barcode-scanner"
+backLinkText: "← Todas as funcionalidades"
+
+card:
+  title: "Leitor de Códigos de Barras"
+  description: "Leia 13 formatos de códigos de barras mais 6 códigos bidimensionais - EAN, UPC, QR, PDF417, Data Matrix e muito mais. O modo de lote mantém a câmara aberta para inventários e registos de entrada."
+  imagePath: "/assets/images/Webflow/qr-barcode.webp"
+  platforms: "iOS apenas"
+
+hero:
+  title: "Leitor de Códigos de Barras"
+  subtitle: "Leia 19 formatos de código - 13 códigos de barras lineares (EAN, UPC, Code 128, GS1 DataBar e mais) mais 6 códigos bidimensionais (QR, PDF417, Aztec, Data Matrix e variantes Micro). O modo de lote mantém a câmara aberta para contagens de inventário e registos de entrada em eventos."
+  platforms: "iOS apenas"
+  heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
+
+capabilitiesTitle: "O Que Pode Fazer"
+capabilities:
+  - title: "Todos os Principais Formatos de Código de Barras"
+    description: "Leia EAN-13/8, UPC-E (o UPC-A é lido como EAN-13), Code 128, Code 39 (incl. Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix e mais - deteção automática de formato, sem mudar de modo."
+  - title: "Modo de Lote"
+    description: "Leia um conjunto de códigos de barras seguidos sem voltar a apontar. Útil para contagens de inventário, registos de entrada em eventos ou arquivos de bibliotecas."
+  - title: "Pesquisa de Produtos"
+    description: "Toque num código de barras de retalho lido para o pesquisar - o número do código de barras é processado por um motor de busca pré-configurado (Google, Ecosia, DuckDuckGo, Bing ou Startpage) e os resultados correspondentes regressam de imediato."
+  - title: "Histórico de Leituras e Partilha"
+    description: "Cada leitura é guardada com data e hora. Marque como favoritas as leituras que interessam, dê um título a uma delas e partilhe-a diretamente a partir da vista de histórico."
+  - title: "Ação Automática na Leitura"
+    description: "Os URLs e os códigos de atalho podem abrir automaticamente no momento em que são lidos, disparar um webhook, ou ser lidos em voz alta - a mesma automação de cinco gatilhos que alimenta o NFC e o QR."
+
+subsectionsTitle: "Feito para Leitura de Grande Volume"
+subsections:
+  - title: "Multi-Leitura, Leitura em Lote e Lanterna a Pedido"
+    body: "<p>Três definições transformam o leitor de algo pontual num fluxo de trabalho contínuo. A <strong>multi-leitura</strong> permite-lhe ler vários códigos numa só sessão de câmara. A <strong>leitura em lote</strong> mantém a câmara aberta para inventários ou registos de entrada em eventos. A <strong>lanterna automática</strong> liga o LED com pouca luz para que não tenha de procurar o botão da lanterna.</p>"
+    imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
+    imageAlt: "iPhone a ler vários códigos QR e códigos de barras com a luz da lanterna"
+    platforms: "iOS"
+
+  - title: "Webhooks para Inventários e Registos de Entrada em Eventos"
+    body: "<p>Aponte o leitor de códigos de barras para o seu sistema de back-office. Cada código de barras lido dispara um webhook para o seu URL, para que a sua base de dados de inventário, o CRM de participantes ou o catálogo da biblioteca se atualizem em tempo real à medida que a câmara se move. Consulte <a href=\"/features/webhooks/\">Webhooks e Automação</a> para a estrutura do payload JSON e um servidor de referência.</p>"
+    platforms: "iOS"
+
+  - title: "Atalhos e App Intents"
+    body: "<p>A NFC.cool integra-se diretamente na app Atalhos do iOS com ações incorporadas: obter a última tag NFC lida, gravar uma mensagem numa tag, abrir o leitor, ou obter o último código QR lido. Encadeie-as em Atalhos que leem uma tag, analisam o seu payload e iniciam o que quer que pretenda a seguir - automação, registo, diário, o que quiser. As mesmas ações alimentam o controlo <strong>Botão de Leitura</strong> no ecrã de bloqueio no iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone a ligar uma tag NFC a blocos de automação"
+    platforms: "iOS"
+
+  - title: "Sincronização iCloud no iPhone, iPad e Mac"
+    body: "<p>O histórico das suas leituras de códigos de barras sincroniza-se em todos os dispositivos da sua conta iCloud. Leia uma prateleira de produtos no iPhone, reveja a lista no iPad, dê título e partilhe leituras a partir do <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - um histórico sincronizado, nada para mover à mão.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool a sincronizar no iPhone, iPad e Mac"
+    platforms: "iOS"
+
+specsTitle: "Formatos Suportados (19 no Total)"
+specs:
+  - title: "Códigos de Barras 1D (13 Formatos)"
+    items:
+      - "EAN-13, EAN-8"
+      - "UPC-E (UPC-A lido como EAN-13)"
+      - "Code 39, Code 39 Mod 43"
+      - "Code 93, Code 128"
+      - "Codabar"
+      - "Interleaved 2 of 5, ITF-14"
+      - "GS1 DataBar (padrão, Expanded, Limited)"
+  - title: "Códigos 2D / Empilhados (6 Formatos)"
+    items:
+      - "Código QR"
+      - "Micro QR"
+      - "PDF417"
+      - "Micro PDF417"
+      - "Aztec"
+      - "Data Matrix"
+
+pricing:
+  title: "Gratuito vs Platinum"
+  columns: ["Gratuito", "Platinum"]
+  rows:
+    - label: "Ler Códigos QR e de Barras"
+      values: ["✓", "✓"]
+    - label: "Leitura em Lote de Códigos QR e de Barras"
+      values: ["✗", "✓"]
+
+faqTitle: "Perguntas Frequentes"
+faq:
+  - question: "Porque é que isto é apenas para iOS?"
+    answer: "A versão Android da NFC.cool foca-se atualmente no NFC e no Cartão de Visita Digital. A leitura de códigos de barras está no roteiro do Android."
+  - question: "Posso ler vários códigos de barras ao mesmo tempo?"
+    answer: "Sim - o modo de lote mantém a câmara aberta e coloca em fila cada código de barras que encontra. Toque em qualquer item da fila para agir sobre ele."
+  - question: "Posso guardar e partilhar as minhas leituras?"
+    answer: "Sim - cada leitura permanece na vista de histórico com a respetiva data e hora. Pode marcar uma leitura como favorita, dar-lhe um título e partilhá-la a partir daí."
+  - question: "O leitor funciona offline?"
+    answer: "Sim para a leitura em si. A pesquisa de produtos precisa de internet (processa o número do código de barras através de um motor de busca), mas a leitura do código de barras é feita apenas no dispositivo."
+
+relatedReadingTitle: "Continue a Ler"
+relatedReading:
+  - title: "O Que os Códigos QR Podem Transportar Para Além de um URL"
+    url: "/blog/tap-scan-thrive/"
+  - title: "Leitor e Estúdio de Códigos QR"
+    url: "/features/qr-scanner/"

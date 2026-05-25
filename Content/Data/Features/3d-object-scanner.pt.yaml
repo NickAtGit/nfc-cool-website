@@ -1,0 +1,87 @@
+slug: "3d-object-scanner"
+backLinkText: "← Todas as funcionalidades"
+
+card:
+  title: "Digitalizador de Objetos 3D"
+  description: "Ande à volta de um objeto e o Object Capture da Apple cria um modelo 3D com textura. Exporte para USDZ para AR, STL para impressão 3D ou OBJ para o Blender. Requer um iPhone Pro ou iPad Pro com LiDAR."
+  imagePath: "/assets/images/Webflow/3d-object.webp"
+  platforms: "iOS apenas"
+
+hero:
+  title: "Digitalizador de Objetos 3D"
+  subtitle: "Ande à volta de um objeto real com o seu iPhone - o NFC.cool corre o Object Capture da Apple no dispositivo para reconstruir um modelo 3D com textura. Exporte o modelo concluído para AR ou para qualquer ferramenta 3D."
+  platforms: "iOS apenas"
+  heroImagePath: "/assets/images/Webflow/3d-object.webp"
+
+capabilitiesTitle: "O Que Pode Fazer"
+capabilities:
+  - title: "Captura por Fotogrametria"
+    description: "Ande à volta de um objeto a captar dezenas de fotos. O pipeline de Object Capture da Apple no dispositivo reconstrói um modelo 3D com textura e geometria realista."
+  - title: "Pré-visualizar e Refinar"
+    description: "Reveja o modelo em 3D antes de exportar. Inspecione as imagens em bruto captadas durante a sessão se quiser ver o que a câmara viu."
+  - title: "AR Quick Look"
+    description: "Coloque qualquer objeto digitalizado na sua sala de estar através do AR Quick Look. Partilhe ficheiros USDZ com amigos - podem vê-los diretamente nas Mensagens."
+  - title: "Seis Formatos de Exportação"
+    description: "Exporte um USDZ com textura para o AR Quick Look, ou geometria simples como USD, OBJ, STL, PLY ou ABC para o Blender e o resto do pipeline de conteúdos 3D."
+
+subsectionsTitle: "Da sua Mão para a sua Vista de AR"
+subsections:
+  - title: "AR Quick Look nas Mensagens"
+    body: "<p>O USDZ é o formato de AR nativo da Apple. Partilhe um objeto digitalizado no iMessage ou por AirDrop e o destinatário pode girá-lo, colocá-lo no seu próprio espaço e fazer uma captura de ecrã - tudo a partir da pré-visualização da mensagem, sem instalar a aplicação. Ótimo para pré-visualizações de produtos, documentação de esculturas ou simplesmente para mostrar.</p>"
+    platforms: "iOS"
+
+  - title: "Atalhos e App Intents"
+    body: "<p>O NFC.cool integra-se diretamente na aplicação Atalhos do iOS com ações incorporadas: obter a última tag NFC lida, gravar uma mensagem numa tag, abrir o digitalizador ou obter o último código QR lido. Encadeie-as em Atalhos que leem uma tag, analisam o seu conteúdo e desencadeiam o que quiser a seguir - automação, registo, diário, o que imaginar. As mesmas ações alimentam o controlo <strong>Botão de Digitalização</strong> no ecrã bloqueado no iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone a ligar uma tag NFC a blocos de automação"
+    platforms: "iOS"
+
+  - title: "Sincronização iCloud entre iPhone, iPad e Mac"
+    body: "<p>Os modelos digitalizados ficam na sua pasta de Documentos no iCloud, por isso o iPhone com que digitalizou, o iPad em que reviu e o <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> em que vai editar veem todos a mesma biblioteca. Capture em movimento, termine na secretária.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool a sincronizar entre iPhone, iPad e Mac"
+    platforms: "iOS"
+
+specsTitle: "Hardware e Exportação"
+specs:
+  - title: "Requisitos de Hardware"
+    items:
+      - "iOS 17.0 ou mais recente"
+      - "LiDAR necessário - modelos iPhone Pro (iPhone 12 Pro e mais recentes)"
+      - "iPad Pro (2020) e mais recentes também suportados"
+  - title: "Formatos de Exportação"
+    items:
+      - "USDZ - com textura, formato AR Quick Look da Apple"
+      - "USD, OBJ, STL, PLY, ABC - apenas geometria (via ModelIO)"
+      - "Imagens de captura em bruto (Platinum)"
+
+pricing:
+  title: "Gratuito vs Platinum"
+  columns: ["Gratuito", "Platinum"]
+  rows:
+    - label: "Digitalizar Objetos 3D"
+      values: ["✓", "✓"]
+    - label: "Colocar Objeto em AR"
+      values: ["✓", "✓"]
+    - label: "Exportar Modelos 3D"
+      values: ["✗", "✓"]
+    - label: "Exportar Fotos"
+      values: ["✗", "✓"]
+
+faqTitle: "Perguntas Frequentes"
+faq:
+  - question: "O meu iPhone precisa de LiDAR?"
+    answer: "Sim. A sessão de Object Capture da Apple requer um dispositivo equipado com LiDAR - ou seja, um iPhone Pro (12 Pro e mais recentes) ou um iPad Pro a partir de 2020. Os iPhones não-Pro não vêm com LiDAR."
+  - question: "Quanto tempo demora uma digitalização?"
+    answer: "Alguns minutos a andar à volta do objeto, depois um par de minutos de reconstrução no dispositivo. Objetos maiores / com mais textura demoram mais."
+  - question: "Posso imprimir os resultados em 3D?"
+    answer: "Pode exportar para OBJ e converter para STL no Blender, no MeshLab ou em qualquer ferramenta 3D padrão. A fidelidade do modelo é melhor para objetos de tamanho médio e bem texturados."
+  - question: "Qual é a diferença entre isto e o Digitalizador de Divisões?"
+    answer: "O Object Capture (esta funcionalidade) cria um único modelo 3D de uma coisa. O Digitalizador de Divisões usa LiDAR e o RoomPlan da Apple para criar uma planta de um espaço - paredes, portas, mobiliário. Ambos precisam de LiDAR; respondem a perguntas diferentes."
+
+relatedReadingTitle: "Continuar a Ler"
+relatedReading:
+  - title: "Digitalização 3D no iPhone com Fotogrametria e LiDAR"
+    url: "/blog/3d-scan-feature/"
+  - title: "Digitalizador de Divisões"
+    url: "/features/room-scanner/"

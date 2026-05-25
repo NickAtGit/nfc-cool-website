@@ -1,0 +1,102 @@
+hero:
+  title: "Leitor, Gravador e Digitalizador de Tags NFC - NFC.cool Tools"
+  subtitle: "Leia e Grave Tags NFC gratuitamente no iPhone e Android - e, no iPhone, leia Códigos QR, Códigos de Barras, Documentos, Modelos 3D e Divisões."
+
+description: "Ferramentas NFC gratuitas para iPhone e Android. Leia qualquer tag NFC com um toque, grave as suas próprias com ligações, Wi-Fi e contactos, além de leitura de QR, códigos de barras e documentos."
+
+heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+heroImageWidth: 2540
+heroImageHeight: 2540
+
+ogImage: "/assets/images/og-landing.webp"
+ogImageAlt: "NFC.cool - Leia Tags NFC, Códigos QR, Códigos de Barras, Documentos, Objetos 3D e Divisões"
+
+featuresTitle: "Tudo o que precisa para digitalizar"
+
+featureBanner:
+  title: "NFC.cool Business Card"
+  subtitle: "Uma aplicação dedicada de Cartão de Visita Digital para iPhone - partilhe por toque NFC, código QR, AppClip ou Apple Wallet. Saiba quem guarda o seu cartão, organize contactos e ative o Modo Conferência para eventos ao vivo. No Android, as mesmas funcionalidades estão incluídas no NFC.cool Tools."
+  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  # iOS: dedicated NFC.cool Business Card app (App Store id 6502926572)
+  appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
+  # Android: business card features are bundled in NFC.cool Tools
+  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
+
+appStoreReviewsTitle: "O que dizem as pessoas"
+appStoreReviews:
+  - quote: "UX bonita e execução quase impecável, ao contrário das outras aplicações de NFC."
+    author: "garretthoyos"
+    location: "App Store · Estados Unidos"
+  - quote: "O mapeador de divisões é fantástico. Esta aplicação faz muito mais do que gravar tags."
+    author: "rockphikapps"
+    location: "App Store · Estados Unidos"
+  - quote: "Lindamente feita e repleta de funcionalidades. Tinha perguntas e o programador respondeu imediatamente. Ainda estou a aprender cada uma delas."
+    author: "PhotoBomber_69"
+    location: "App Store · Estados Unidos"
+  - quote: "Enviei uma queixa e recebi um email pessoal do programador. Em menos de uma semana a aplicação foi atualizada com a minha correção - algo chocante nos dias de hoje."
+    author: "LGLB"
+    location: "App Store · Estados Unidos"
+  - quote: "Cinco estrelas só pela dedicação do programador. Atualizações frequentes, dedicado, paciente com principiantes."
+    author: "HellRazorCustoms"
+    location: "App Store · Estados Unidos"
+  - quote: "ADORO ESTA APLICAÇÃO. Excelente para pessoas como eu que pouco ou nada sabem sobre tags NFC!"
+    author: "Dallasg479"
+    location: "App Store · Estados Unidos"
+  - quote: "Acabei de a transferir e vale mesmo a pena dedicar tempo a explorá-la e experimentá-la!"
+    author: "User 220220"
+    location: "App Store · Estados Unidos"
+  - quote: "Estou a adorar a minha nova forma de me promover. Obrigado a vocês."
+    author: "Super.Sanchez"
+    location: "App Store · Estados Unidos"
+  - quote: "Ao início não percebi o quanto esta aplicação consegue fazer - pensei que fosse um leitor de NFC genérico. Passado algum tempo: a automação e a organização são geniais. Só o Cofre já vale…"
+    author: "EBBEElbi"
+    location: "App Store · Alemanha"
+  - quote: "Não sou fã de aplicações por subscrição - poucas valem a pena. Esta vale. Anos como o meu leitor de NFC de eleição, agora uma verdadeira ferramenta completa."
+    author: "Warum_sind_alle_Namen_weg?"
+    location: "App Store · Alemanha"
+  - quote: "Se gosta de estar à frente do seu tempo e de um estilo de vida minimalista, recomendo esta aplicação."
+    author: "HPS. h"
+    location: "App Store · Japão"
+  - quote: "O modo de leitura contínua, que continua a ler sempre que deteta uma tag, é genuinamente útil."
+    author: "com1038"
+    location: "App Store · Japão"
+
+faqTitle: "Perguntas frequentes"
+faq:
+  - question: "O NFC.cool é gratuito?"
+    answer: "Sim - o NFC.cool Tools e o NFC.cool Business Card são gratuitos para transferir. Ler tags NFC, ler códigos QR e códigos de barras, digitalizar documentos com OCR e digitalizar objetos 3D / divisões são todos gratuitos. Uma subscrição Platinum opcional desbloqueia o NFC Safe (segredos encriptados com AES de 256 bits); controlos NFC avançados (formatar, proteger com palavra-passe, bloquear, modos por lote, escrita CSV, comandos de especialista, contador de toques); funcionalidades avançadas de QR (sem marcas de água, leitura por lote); exportação de documentos para PDF e exportação automática para o iCloud; cálculo de área 3D, exportação de modelos e exportação de fotos; Atalhos do iOS, widgets e Centro de Controlo; webhooks; sintetizador de voz; ícones e cores premium da aplicação; e ausência de anúncios e apoio prioritário."
+  - question: "Que plataformas são suportadas?"
+    answer: "O NFC.cool Tools funciona em iPhone, iPad e Android. O NFC.cool Business Card é exclusivo para iPhone - as suas funcionalidades estão incluídas no NFC.cool Tools no Android, por isso os utilizadores de Android têm as mesmas capacidades de cartão de visita digital sem instalar uma segunda aplicação. No iPad, todas as funcionalidades baseadas na câmara (QR, códigos de barras, documentos, 3D, divisões) funcionam, mas ler e gravar NFC exigem um iPhone, já que os iPads não vêm com hardware NFC."
+  - question: "Como começo a usar o NFC.cool?"
+    answer: "Transfira o NFC.cool Tools da App Store ou do Google Play e depois explore os separadores: NFC para ler e gravar tags, QR para códigos QR e códigos de barras, Documento para digitalizar papel para PDF, 3D para captura de objetos e divisões. Não é necessária qualquer conta - tudo corre no dispositivo."
+  - question: "Como leio a minha primeira tag NFC?"
+    answer: "Abra o NFC.cool Tools, toque em \"Ler NFC\" e encoste a extremidade superior do seu iPhone a uma tag NFC - o NFC.cool abre então com uma vista analisada do conteúdo da tag. Não é preciso configurar nada além de instalar a aplicação. Num telemóvel Android também pode experimentar de imediato com o <a href=\"/online-nfc-reader/\">leitor de NFC online</a> - sem necessidade de instalação."
+  - question: "Como gravo a minha primeira tag NFC?"
+    answer: "Abra o NFC.cool Tools, mude para o separador NFC e escolha \"Gravar NFC\", selecione um tipo de mensagem (URL, credencial Wi-Fi, cartão de contacto, Atalho do iOS e muito mais), introduza os dados e depois encoste a extremidade superior do seu iPhone a uma NTAG216 em branco (ou outra tag compatível com NDEF). Agora qualquer pessoa que toque nessa tag desencadeia a ação que escolheu. Compre tags NDEF em qualquer um dos retalhistas na <a href=\"/affiliate-links/\">página de Tags NFC</a>."
+  - question: "O NFC.cool funciona offline?"
+    answer: "Sim. Ler e gravar tags NFC, ler códigos QR, ler códigos de barras, OCR de documentos e captura de 3D / divisões correm todos inteiramente no dispositivo. Apenas as funcionalidades opcionais na nuvem (webhooks para o seu servidor, Sincronização iCloud) precisam de internet."
+  - question: "Que tags NFC funcionam com o NFC.cool?"
+    answer: "Qualquer tag NFC compatível com NDEF - NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX e a maioria das outras. A NTAG216 é a predefinição recomendada para uso geral, graças à sua capacidade de 888 bytes e à ampla compatibilidade com iPhone e Android. Consulte a <a href=\"/affiliate-links/\">página de Tags NFC</a> para retalhistas testados."
+  - question: "O NFC.cool consegue ler códigos QR e códigos de barras?"
+    answer: "Sim - são reconhecidos 19 formatos de código a partir da câmara do iPhone ou de qualquer foto na sua galeria: 6 códigos bidimensionais (Código QR, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) e 13 códigos de barras lineares (EAN-13, EAN-8, UPC-E, Code 39 incl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, mais as três variantes GS1 DataBar). O UPC-A é lido como EAN-13 com um zero à frente. O modo por lote mantém a câmara aberta para contagens de inventário e registos de entrada em eventos."
+  - question: "Posso gravar tags NFC com o meu iPhone?"
+    answer: "Sim - todos os iPhones a partir do iPhone 7 conseguem ler e gravar tags NFC com o NFC.cool Tools. Escolha entre mais de 25 tipos de mensagem: URLs, credenciais Wi-Fi, cartões de contacto (vCard), Atalhos do iOS, pagamentos, perfis sociais e muito mais. Encripte primeiro os segredos com o NFC Safe (AES de 256 bits) para fluxos de desbloqueio por toque."
+  - question: "O NFC.cool suporta os Atalhos do iOS e o Botão de Ação?"
+    answer: "Sim, no nível Platinum. O NFC.cool Tools inclui App Intents, ações nativas dos Atalhos do iOS, widgets no ecrã bloqueado e no ecrã principal, integrações com o Botão de Ação e arranque rápido a partir do Centro de Controlo - encadeie leituras nas suas próprias automações ou desencadeie-as com um só botão. O nível gratuito cobre o fluxo básico de ler e partilhar; a área de Atalhos / widgets / Botão de Ação vive por trás da subscrição Platinum opcional."
+  - question: "Como é que o NFC.cool Business Card partilha o meu cartão sem uma aplicação?"
+    answer: "Através do Apple AppClip (partilha instantânea sem transferência, os destinatários veem o seu cartão num popover do sistema), código QR, passe da Apple Wallet ou um URL de perfil web público. Os destinatários guardam o seu contacto no telemóvel com um só toque - não precisam de instalar o NFC.cool nem de criar uma conta."
+  - question: "Em que é que o NFC.cool é diferente das outras aplicações de NFC?"
+    answer: "A maioria das aplicações de NFC foca-se em ler ou em gravar - o NFC.cool Tools faz ambos, mais códigos QR, códigos de barras, OCR de documentos, captura 3D e digitalização de divisões numa única aplicação. Três outros diferenciais: privacidade (os dados das leituras ficam no dispositivo, nunca são enviados para servidores do NFC.cool); integração profunda no iOS (App Intents, Atalhos, widgets no ecrã bloqueado, Botão de Ação, webhooks) para que as leituras desencadeiem as suas próprias automações em vez de ficarem presas na aplicação; e o apoio ativo de um programador individual - o programador lê pessoalmente cada email e lança correções em poucos dias."
+
+newsletter:
+  title: "Fique a par"
+  subtitle: "Receba um email curto quando algo interessante for lançado - novas funcionalidades, integrações, convites para betas. Cerca de uma vez por mês, sem spam."
+  placeholder: "voce@exemplo.com"
+  buttonText: "Subscrever"
+  successText: "Obrigado! Verifique a sua caixa de entrada para confirmar."
+  errorText: "Algo correu mal. Tente novamente."
+  consent: "Ao subscrever concorda em receber atualizações ocasionais. Pode cancelar a subscrição a qualquer momento - cada email tem uma ligação de um clique."
+
+cta:
+  title: "Pronto para digitalizar?"
+  buttonText: "Transferir para iOS"
