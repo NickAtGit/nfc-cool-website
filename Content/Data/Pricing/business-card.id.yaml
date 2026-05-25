@@ -1,0 +1,30 @@
+# Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
+# {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
+columns: ["Gratis", "Personal", "Usaha Kecil", "Bisnis"]
+rows:
+  - label: "Harga"
+    values: ["**$0**", "**$19.99**", "**$49.99**", "**$99.99**"]
+  - label: "Kartu"
+    values: ["1", "1", "10", "100"]
+  - label: "Tampilan profil"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Simpan vCard"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Generasi prospek"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Analitik"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Logo kustom"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Berbagi via NFC & QR"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Mode Konferensi"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Proteksi PIN"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Notifikasi real-time"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Ekspor data (GDPR)"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Ideal untuk"
+    values: ["Percobaan", "Perorangan", "Tim kecil", "Perusahaan berkembang"]

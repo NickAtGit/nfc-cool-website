@@ -1,0 +1,100 @@
+slug: "webhooks"
+backLinkText: "← Semua fitur"
+
+card:
+  title: "Webhook & Otomasi"
+  description: "Lima kait aktif saat Anda memindai - POST ke server Anda, jalankan Shortcut, buka URL, ucapkan hasilnya, atau putar suara. NFC.cool yang memindai; Anda yang menentukan apa yang terjadi selanjutnya."
+  imagePath: "/assets/images/Webflow/webhook.webp"
+  platforms: "iOS · Android"
+
+hero:
+  title: "Webhook & Otomasi"
+  subtitle: "Lima kait bawaan aktif saat Anda memindai tag NFC, kode QR, atau barcode - POST ke server Anda sendiri, buka URL, jalankan Shortcut, ucapkan hasilnya dengan lantang, atau putar suara. NFC.cool adalah pemindainya; Anda yang memiliki tindakannya."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/webhook.webp"
+
+capabilitiesTitle: "Lima Kait"
+capabilities:
+  - title: "Webhook (POST ke URL Anda)"
+    description: "HTTP POST dengan isi JSON terstruktur saat pemindaian berhasil. Konfigurasikan satu URL, autentikasi HTTP Basic opsional, dan selesai. iOS dan Android."
+  - title: "Shortcut (iOS)"
+    description: "Ketika URL yang dipindai memiliki skema `shortcuts://`, jalankan iOS Shortcut yang sesuai secara otomatis - tanpa ketukan tambahan. Kirimkan data pemindaian ke apa pun yang dapat dijangkau Shortcuts."
+  - title: "Buka Tautan (iOS)"
+    description: "Ketika payload berupa URL biasa, buka otomatis di Safari (atau target deep-link yang sesuai). Lewati langkah 'ketuk untuk membuka'."
+  - title: "Sintesis Suara (iOS)"
+    description: "Baca payload yang dipindai dengan lantang, tanpa tangan. Kecepatan bicara dapat dikonfigurasi. Berguna untuk aksesibilitas, alur kerja saat tangan sibuk, atau sekadar konfirmasi yang memuaskan."
+  - title: "Putar Audio (iOS)"
+    description: "Putar suara konfirmasi saat memindai - pilih file audio sendiri atau salah satu nada bawaan."
+
+subsectionsTitle: "Cara Kerja Webhook"
+subsections:
+  - title: "Pemicu - NFC, QR, dan Barcode"
+    body: "<p>Webhook aktif pada tiga sumber acara: <strong>pemindaian NFC</strong>, <strong>pemindaian QR</strong>, dan <strong>pemindaian barcode</strong>. Setiap sumber memiliki sakelar aktif/nonaktif tersendiri, sehingga Anda dapat mengirimkan pembacaan NFC ke sistem inventaris tanpa pemindai kamera yang mengisi endpoint yang sama. Webhook itu sendiri sama - satu URL, satu payload JSON, satu POST.</p>"
+    platforms: "iOS · Android"
+
+  - title: "Bentuk Payload"
+    body: "<p>Setiap POST mengirimkan isi JSON berbentuk seperti ini:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p><code>tagType</code> dan <code>structured</code> hanya muncul untuk format khusus seperti <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a>; setiap pemindaian lain hanya mengirimkan tiga bidang pertama. <a href=\"/developers/\">Referensi pengembang</a> memiliki rincian lengkap per bidang, autentikasi, curl, dan contoh server yang siap dijalankan.</p>"
+    platforms: "iOS · Android"
+
+  - title: "Server Referensi di GitHub"
+    body: "<p>Cara tercepat untuk melihat seluruh alur dari awal hingga akhir: <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">Server Web di GitHub</a>. Contoh server minimal yang menerima payload webhook NFC.cool, mencatatnya, dan menampilkan strukturnya secara langsung. Clone, jalankan, arahkan iPhone Anda ke sana, dan saksikan pemindaian berdatangan.</p>"
+    platforms: "iOS · Android"
+
+specsTitle: "Detail Teknis"
+specs:
+  - title: "Pengiriman"
+    items:
+      - "HTTPS direkomendasikan; HTTP diizinkan dalam pengembangan"
+      - "POST dengan `Content-Type: application/json`"
+      - "HTTP Basic auth opsional (nama pengguna + kata sandi)"
+      - "Kredensial tersimpan terenkripsi di iOS Keychain"
+  - title: "Payload"
+    items:
+      - "`identifier` - UID tag atau kode yang dipindai"
+      - "`date` - stempel waktu ISO 8601"
+      - "`content` - payload yang telah didekode (string URL, teks, dll.)"
+      - "`tagType` - ada untuk tag terstruktur (misalnya `openPrintTag`)"
+      - "`structured` - JSON bertingkat untuk jenis tag terstruktur"
+  - title: "Sumber"
+    items:
+      - "Pemindaian NFC (pembacaan NDEF)"
+      - "Pemindaian QR"
+      - "Pemindaian barcode"
+      - "Setiap sumber dapat diaktifkan secara independen"
+
+pricing:
+  title: "Gratis vs Platinum"
+  columns: ["Gratis", "Platinum"]
+  rows:
+    - label: "Webhook NFC & QR"
+      values: ["✗", "✓"]
+    - label: "Synthesizer Suara"
+      values: ["✗", "✓"]
+    - label: "Shortcuts"
+      values: ["✗", "✓"]
+    - label: "iCloud Sync"
+      values: ["✓", "✓"]
+
+faqTitle: "Pertanyaan Umum"
+faq:
+  - question: "Apakah ini berfungsi di Android?"
+    answer: "Ya - webhook tersedia di versi iOS dan Android dari NFC.cool Tools. Bentuk payload JSON sama di semua platform. (Empat kait iOS lainnya - Shortcut otomatis, suara, audio, buka tautan - hanya untuk iOS.)"
+  - question: "Berapa banyak URL yang bisa saya konfigurasikan?"
+    answer: "Satu URL saat ini. URL yang sama menerima semua acara pemindaian, dibedakan oleh sakelar sumber yang diaktifkan dan jenis payload."
+  - question: "Autentikasi apa yang didukung?"
+    answer: "HTTP Basic auth - nama pengguna + kata sandi, tersimpan terenkripsi di iOS Keychain. Bearer token, header khusus, dan penandatanganan HMAC saat ini tidak didukung."
+  - question: "Apa yang terjadi jika server saya offline?"
+    answer: "POST gagal dan acara dicatat di perangkat. Saat ini tidak ada antrean percobaan ulang otomatis; jika server Anda mungkin tidak stabil, rancang handler Anda agar idempoten saat percobaan ulang dan picu ulang dari riwayat pemindaian."
+  - question: "Apakah ada batas ukuran payload?"
+    answer: "Tidak ada batas keras yang diterapkan oleh NFC.cool. Payload tag itu sendiri dibatasi oleh standar NFC (beberapa KB untuk tag NDEF tipikal)."
+  - question: "Di mana saya bisa melihatnya bekerja?"
+    answer: "Clone <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">Server Web di GitHub</a>, jalankan secara lokal, arahkan aplikasi ke sana, dan Anda akan melihat setiap pemindaian tiba secara real time."
+
+relatedReadingTitle: "Baca Lebih Lanjut"
+relatedReading:
+  - title: "OpenPrintTag: Baca dan Tulis Gulungan Filamen 3D Printing Cerdas"
+    url: "/blog/openprinttag-read-write-nfc-spools-phone/"
+  - title: "Cara Menghitung Pemindaian Tag NFC Tanpa Server"
+    url: "/blog/count-nfc-tag-scans/"
+  - title: "Pembaca & Penulis NFC"
+    url: "/features/nfc-reader-writer/"

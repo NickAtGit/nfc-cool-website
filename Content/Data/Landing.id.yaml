@@ -1,0 +1,102 @@
+hero:
+  title: "Pembaca, Penulis, dan Pemindai Tag NFC - NFC.cool Tools"
+  subtitle: "Baca dan tulis tag NFC secara gratis di iPhone dan Android - ditambah, di iPhone, pindai kode QR, barcode, dokumen, model 3D, dan ruangan."
+
+description: "Alat NFC gratis untuk iPhone dan Android. Baca tag NFC mana saja dengan sekali ketuk, tulis tag Anda sendiri dengan tautan, Wi-Fi, dan kontak, ditambah pemindaian kode QR, barcode, dan dokumen."
+
+heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+heroImageWidth: 2540
+heroImageHeight: 2540
+
+ogImage: "/assets/images/og-landing.webp"
+ogImageAlt: "NFC.cool - Pindai Tag NFC, Kode QR, Barcode, Dokumen, Objek 3D, dan Ruangan"
+
+featuresTitle: "Semua yang Anda butuhkan untuk memindai"
+
+featureBanner:
+  title: "NFC.cool Business Card"
+  subtitle: "Aplikasi kartu nama digital khusus untuk iPhone - bagikan melalui ketukan NFC, kode QR, App Clip, atau Apple Wallet. Lacak siapa yang menyimpan kartu Anda, atur prospek, dan aktifkan Mode Konferensi untuk acara langsung. Di Android, fitur yang sama sudah tersedia dalam NFC.cool Tools."
+  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  # iOS: dedicated NFC.cool Business Card app (App Store id 6502926572)
+  appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
+  # Android: business card features are bundled in NFC.cool Tools
+  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
+
+appStoreReviewsTitle: "Yang orang-orang katakan"
+appStoreReviews:
+  - quote: "Tampilan yang indah dan eksekusi yang hampir sempurna, tidak seperti aplikasi NFC lainnya."
+    author: "garretthoyos"
+    location: "App Store · Amerika Serikat"
+  - quote: "Pemetaan ruangan cukup mengesankan. Aplikasi ini jauh lebih dari sekadar menulis tag."
+    author: "rockphikapps"
+    location: "App Store · Amerika Serikat"
+  - quote: "Ditulis dengan indah dan penuh fitur. Saya punya pertanyaan dan pengembang langsung merespons. Saya masih mempelajari setiap fiturnya."
+    author: "PhotoBomber_69"
+    location: "App Store · Amerika Serikat"
+  - quote: "Saya mengajukan keluhan dan mendapat email pribadi dari pengembang. Dalam seminggu aplikasinya diperbarui dengan perbaikan yang saya minta - sungguh mengejutkan di zaman sekarang."
+    author: "LGLB"
+    location: "App Store · Amerika Serikat"
+  - quote: "Lima bintang untuk dedikasi pengembangnya saja. Pembaruan yang sering, berdedikasi, dan sabar dengan pemula."
+    author: "HellRazorCustoms"
+    location: "App Store · Amerika Serikat"
+  - quote: "SAYA SUKA APLIKASI INI. Luar biasa untuk orang seperti saya yang hampir tidak tahu apa-apa tentang tag NFC!"
+    author: "Dallasg479"
+    location: "App Store · Amerika Serikat"
+  - quote: "Baru saja mengunduhnya dan pasti layak untuk dijelajahi dan dicoba!"
+    author: "User 220220"
+    location: "App Store · Amerika Serikat"
+  - quote: "Saya menyukai cara baru saya mempromosikan diri. Terima kasih."
+    author: "Super.Sanchez"
+    location: "App Store · Amerika Serikat"
+  - quote: "Awalnya tidak menyadari betapa banyaknya yang bisa dilakukan aplikasi ini - saya kira ini hanya pembaca NFC biasa. Setelah beberapa saat: otomasi dan pengorganisasiannya brilian. Safe-nya saja sudah luar biasa..."
+    author: "EBBEElbi"
+    location: "App Store · Jerman"
+  - quote: "Saya bukan penggemar aplikasi berlangganan - sedikit yang sepadan. Yang ini sepadan. Bertahun-tahun sebagai pembaca NFC utama saya, kini benar-benar serba bisa."
+    author: "Warum_sind_alle_Namen_weg?"
+    location: "App Store · Jerman"
+  - quote: "Jika Anda suka selalu selangkah lebih maju dan gaya hidup minimalis, saya merekomendasikan aplikasi ini."
+    author: "HPS. h"
+    location: "App Store · Jepang"
+  - quote: "Mode baca berkelanjutan yang terus memindai setiap kali tag terdeteksi benar-benar berguna."
+    author: "com1038"
+    location: "App Store · Jepang"
+
+faqTitle: "Pertanyaan yang sering diajukan"
+faq:
+  - question: "Apakah NFC.cool gratis?"
+    answer: "Ya - NFC.cool Tools dan NFC.cool Business Card gratis untuk diunduh. Membaca tag NFC, memindai kode QR dan barcode, pemindaian dokumen dengan OCR, serta pemindaian 3D dan ruangan semuanya gratis. Langganan Platinum opsional membuka NFC Safe (rahasia terenkripsi AES 256-bit); kontrol NFC lanjutan (format, perlindungan kata sandi, kunci, mode batch, penulisan CSV, perintah ahli, penghitung ketukan); fitur canggih kode QR (tanpa watermark, baca batch); ekspor PDF dokumen dan ekspor otomatis ke iCloud; kalkulasi area 3D, ekspor model, dan ekspor foto; iOS Shortcuts, widget, dan Control Center; webhook; synthesizer suara; ikon dan warna aplikasi premium; serta dukungan prioritas bebas iklan."
+  - question: "Platform apa yang didukung?"
+    answer: "NFC.cool Tools berjalan di iPhone, iPad, dan Android. NFC.cool Business Card hanya untuk iPhone - fiturnya sudah tersedia dalam NFC.cool Tools di Android, sehingga pengguna Android mendapatkan kemampuan kartu nama digital yang sama tanpa harus menginstal aplikasi kedua. Di iPad, semua fitur berbasis kamera (kode QR, barcode, dokumen, pemindaian 3D dan ruangan) berfungsi, tetapi membaca dan menulis NFC memerlukan iPhone karena iPad tidak dilengkapi perangkat keras NFC."
+  - question: "Bagaimana cara memulai dengan NFC.cool?"
+    answer: "Unduh NFC.cool Tools dari App Store atau Google Play, lalu jelajahi tab-tabnya: NFC untuk membaca dan menulis tag, QR untuk kode QR dan barcode, Dokumen untuk pemindaian kertas ke PDF, 3D untuk penangkapan objek dan ruangan. Tidak diperlukan akun - semuanya berjalan di perangkat."
+  - question: "Bagaimana cara memindai tag NFC pertama saya?"
+    answer: "Buka NFC.cool Tools, ketuk \"Read NFC\" dan tempelkan tepi atas iPhone Anda ke tag NFC - NFC.cool kemudian terbuka dengan tampilan konten tag yang telah diurai. Tidak perlu pengaturan selain menginstal aplikasi. Di ponsel Android Anda juga bisa langsung mencobanya dengan <a href=\"/online-nfc-reader/\">pembaca NFC online</a> - tanpa perlu menginstal."
+  - question: "Bagaimana cara menulis tag NFC pertama saya?"
+    answer: "Buka NFC.cool Tools, beralih ke tab NFC dan pilih \"Write NFC\", pilih jenis pesan (URL, kredensial Wi-Fi, kartu kontak, iOS Shortcut, dan lainnya), masukkan data, lalu tempelkan tepi atas iPhone Anda ke tag NTAG216 kosong (atau tag yang sesuai NDEF). Sekarang siapa pun yang mengetuk tag tersebut akan memicu tindakan yang Anda pilih. Beli tag NDEF dari salah satu peritel di <a href=\"/affiliate-links/\">halaman Tag NFC</a>."
+  - question: "Apakah NFC.cool bekerja secara offline?"
+    answer: "Ya. Membaca dan menulis tag NFC, memindai kode QR, memindai barcode, OCR dokumen, serta penangkapan 3D dan ruangan semuanya berjalan sepenuhnya di perangkat. Hanya fitur cloud opsional (webhook ke server Anda, iCloud Sync) yang memerlukan internet."
+  - question: "Tag NFC apa yang kompatibel dengan NFC.cool?"
+    answer: "Tag NFC yang sesuai NDEF mana pun - NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX, dan sebagian besar lainnya. NTAG216 adalah pilihan default yang direkomendasikan untuk penggunaan umum berkat kapasitas 888 byte dan kompatibilitas luas dengan iPhone dan Android. Lihat <a href=\"/affiliate-links/\">halaman Tag NFC</a> untuk peritel yang telah diuji."
+  - question: "Bisakah NFC.cool memindai kode QR dan barcode?"
+    answer: "Ya - 19 format kode dikenali dari kamera iPhone atau foto apa pun di perpustakaan Anda: 6 kode dua dimensi (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) dan 13 barcode linear (EAN-13, EAN-8, UPC-E, Code 39 termasuk Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, ditambah tiga varian GS1 DataBar). UPC-A dibaca sebagai EAN-13 dengan angka nol di depan. Mode batch mempertahankan kamera terbuka untuk penghitungan inventaris dan check-in acara."
+  - question: "Bisakah saya menulis tag NFC dengan iPhone saya?"
+    answer: "Ya - setiap iPhone dari iPhone 7 ke atas dapat membaca dan menulis tag NFC menggunakan NFC.cool Tools. Pilih dari 25+ jenis pesan: URL, kredensial Wi-Fi, kartu kontak (vCard), iOS Shortcuts, pembayaran, profil media sosial, dan lainnya. Enkripsi rahasia terlebih dahulu dengan NFC Safe (AES 256-bit) untuk alur kerja ketuk-untuk-membuka-kunci."
+  - question: "Apakah NFC.cool mendukung iOS Shortcuts dan Action Button?"
+    answer: "Ya, di tingkat Platinum. NFC.cool Tools hadir dengan App Intents, tindakan iOS Shortcuts bawaan, widget layar kunci dan layar beranda, kait Action Button, dan peluncuran cepat Control Center - rangkai pemindaian ke dalam otomasi Anda sendiri atau picu dengan satu tombol. Tingkat gratis mencakup alur pemindaian dan berbagi dasar; permukaan Shortcuts, widget, dan Action Button ada di balik langganan Platinum opsional."
+  - question: "Bagaimana NFC.cool Business Card membagikan kartu saya tanpa aplikasi?"
+    answer: "Melalui Apple App Clip (berbagi instan tanpa unduhan, penerima melihat kartu Anda dalam popover sistem), kode QR, Apple Wallet pass, atau URL profil web publik. Penerima menyimpan kontak Anda ke telepon mereka dalam satu ketukan - mereka tidak perlu menginstal NFC.cool atau membuat akun."
+  - question: "Apa perbedaan NFC.cool dari aplikasi NFC lainnya?"
+    answer: "Sebagian besar aplikasi NFC fokus pada membaca atau menulis saja - NFC.cool Tools melakukan keduanya, ditambah kode QR, barcode, OCR dokumen, penangkapan 3D, dan pemindaian ruangan dalam satu aplikasi. Tiga diferensiasi lainnya: privasi (data pemindaian tetap di perangkat, tidak pernah dikirim ke server NFC.cool); integrasi iOS mendalam (App Intents, Shortcuts, widget layar kunci, Action Button, webhook) sehingga pemindaian memicu otomasi Anda sendiri daripada terkunci di dalam aplikasi; dan dukungan aktif dari pengembang tunggal - pengembang membaca setiap email secara pribadi dan mengirimkan perbaikan dalam hitungan hari."
+
+newsletter:
+  title: "Tetap terhubung"
+  subtitle: "Dapatkan email singkat saat ada yang menarik diluncurkan - fitur baru, integrasi, undangan beta. Kira-kira sebulan sekali, tanpa spam."
+  placeholder: "Anda@contoh.com"
+  buttonText: "Berlangganan"
+  successText: "Terima kasih! Periksa kotak masuk Anda untuk konfirmasi."
+  errorText: "Terjadi kesalahan. Silakan coba lagi."
+  consent: "Dengan berlangganan Anda setuju untuk menerima pembaruan sesekali. Anda dapat berhenti berlangganan kapan saja - setiap email memiliki tautan satu klik."
+
+cta:
+  title: "Siap untuk memindai?"
+  buttonText: "Unduh untuk iOS"

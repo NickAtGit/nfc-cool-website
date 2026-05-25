@@ -82,13 +82,13 @@ pricing:
     - label: "Ler Códigos QR e de Barras"
       values: ["✓", "✓"]
     - label: "Criar Códigos QR"
-      values: ["limitado", "✓"]
+      values: ["limited", "✓"]
     - label: "Estúdio de Códigos QR"
-      values: ["limitado", "✓"]
+      values: ["limited", "✓"]
     - label: "Tipos de Mensagem QR"
-      values: ["limitado", "✓"]
+      values: ["limited", "✓"]
     - label: "Widgets de Códigos QR"
-      values: ["limitado", "✓"]
+      values: ["limited", "✓"]
     - label: "Sem Marcas de Água"
       values: ["✗", "✓"]
     - label: "Leitura em Lote de Códigos QR e de Barras"

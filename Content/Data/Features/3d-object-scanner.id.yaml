@@ -1,0 +1,87 @@
+slug: "3d-object-scanner"
+backLinkText: "← Semua fitur"
+
+card:
+  title: "Pemindai objek 3D"
+  description: "Jalan mengelilingi sebuah objek dan Object Capture Apple membangun model 3D bertekstur. Ekspor ke USDZ untuk AR, STL untuk cetak 3D, atau OBJ untuk Blender. Membutuhkan iPhone Pro atau iPad Pro dengan LiDAR."
+  imagePath: "/assets/images/Webflow/3d-object.webp"
+  platforms: "iOS only"
+
+hero:
+  title: "Pemindai objek 3D"
+  subtitle: "Jalan mengelilingi objek dunia nyata dengan iPhone Anda - NFC.cool menjalankan Object Capture Apple di perangkat untuk merekonstruksi model 3D bertekstur. Ekspor model yang sudah jadi ke AR atau alat 3D mana pun."
+  platforms: "iOS only"
+  heroImagePath: "/assets/images/Webflow/3d-object.webp"
+
+capabilitiesTitle: "Yang bisa Anda lakukan"
+capabilities:
+  - title: "Pengambilan fotogrametri"
+    description: "Jalan mengelilingi objek sambil mengambil puluhan foto. Pipeline Object Capture Apple di perangkat merekonstruksi model 3D bertekstur dengan geometri yang realistis."
+  - title: "Pratinjau & penyempurnaan"
+    description: "Tinjau model dalam 3D sebelum mengekspor. Periksa gambar mentah yang diambil selama sesi jika Anda ingin melihat apa yang ditangkap kamera."
+  - title: "AR Quick Look"
+    description: "Tempatkan objek yang dipindai di ruang tamu Anda melalui AR Quick Look. Bagikan file USDZ ke teman - mereka dapat melihatnya langsung di dalam Messages."
+  - title: "Enam format ekspor"
+    description: "Ekspor USDZ bertekstur untuk AR Quick Look, atau geometri saja sebagai USD, OBJ, STL, PLY, atau ABC untuk Blender dan pipeline konten 3D lainnya."
+
+subsectionsTitle: "Dari tangan Anda ke tampilan AR"
+subsections:
+  - title: "AR Quick Look di Messages"
+    body: "<p>USDZ adalah format AR asli Apple. Bagikan objek yang dipindai di iMessage atau AirDrop dan penerima dapat memutarnya, menempatkannya di ruang mereka sendiri, dan mengambil tangkapan layar - semuanya dari pratinjau pesan, tanpa perlu menginstal aplikasi. Sangat bagus untuk pratinjau produk, dokumentasi patung, atau sekadar pamer.</p>"
+    platforms: "iOS"
+
+  - title: "Shortcuts & App Intents"
+    body: "<p>NFC.cool terhubung langsung ke aplikasi Shortcuts iOS dengan tindakan bawaan: ambil tag NFC terakhir yang dipindai, tulis pesan ke tag, buka pemindai, atau ambil kode QR terakhir yang dipindai. Rangkai menjadi Shortcuts yang memindai tag, mengurai payload-nya, dan memulai apa pun yang Anda inginkan selanjutnya - otomatisasi, pencatatan, journaling, apa saja. Tindakan yang sama menggerakkan kontrol <strong>Tombol Pindai</strong> di layar kunci pada iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone menghubungkan tag NFC ke blok otomatisasi"
+    platforms: "iOS"
+
+  - title: "Sinkronisasi iCloud di iPhone, iPad, dan Mac"
+    body: "<p>Model yang dipindai tersimpan di folder iCloud Documents Anda, sehingga iPhone yang Anda gunakan untuk memindai, iPad yang Anda gunakan untuk meninjau, dan <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> yang akan Anda gunakan untuk mengedit semuanya melihat perpustakaan yang sama. Pindai saat bepergian, selesaikan di meja kerja.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool tersinkronisasi di iPhone, iPad, dan Mac"
+    platforms: "iOS"
+
+specsTitle: "Perangkat keras & ekspor"
+specs:
+  - title: "Persyaratan perangkat keras"
+    items:
+      - "iOS 17.0 atau lebih baru"
+      - "LiDAR diperlukan - model iPhone Pro (iPhone 12 Pro dan lebih baru)"
+      - "iPad Pro (2020) dan yang lebih baru juga didukung"
+  - title: "Format ekspor"
+    items:
+      - "USDZ - bertekstur, format AR Quick Look Apple"
+      - "USD, OBJ, STL, PLY, ABC - geometri saja (melalui ModelIO)"
+      - "Gambar pengambilan mentah (Platinum)"
+
+pricing:
+  title: "Gratis vs Platinum"
+  columns: ["Gratis", "Platinum"]
+  rows:
+    - label: "Pindai objek 3D"
+      values: ["✓", "✓"]
+    - label: "Tempatkan objek dalam AR"
+      values: ["✓", "✓"]
+    - label: "Ekspor model 3D"
+      values: ["✗", "✓"]
+    - label: "Ekspor foto"
+      values: ["✗", "✓"]
+
+faqTitle: "Pertanyaan yang sering diajukan"
+faq:
+  - question: "Apakah iPhone saya memerlukan LiDAR?"
+    answer: "Ya. Sesi Object Capture Apple membutuhkan perangkat yang dilengkapi LiDAR - yaitu iPhone Pro (12 Pro dan lebih baru) atau iPad Pro mulai tahun 2020. iPhone non-Pro tidak dilengkapi LiDAR."
+  - question: "Berapa lama pemindaian berlangsung?"
+    answer: "Beberapa menit berjalan mengelilingi objek, lalu beberapa menit rekonstruksi di perangkat. Objek yang lebih besar atau lebih bertekstur membutuhkan waktu lebih lama."
+  - question: "Bisakah saya mencetak 3D hasilnya?"
+    answer: "Anda dapat mengekspor ke OBJ dan mengonversi ke STL di Blender, MeshLab, atau alat 3D standar mana pun. Ketelitian model terbaik untuk objek berukuran sedang dengan tekstur yang jelas."
+  - question: "Apa perbedaan antara ini dan Pemindai Ruangan?"
+    answer: "Object Capture (fitur ini) membangun satu model 3D dari sebuah benda. Pemindai Ruangan menggunakan LiDAR dan RoomPlan Apple untuk membangun denah lantai sebuah ruang - dinding, pintu, furnitur. Keduanya membutuhkan LiDAR; keduanya menjawab pertanyaan yang berbeda."
+
+relatedReadingTitle: "Baca selengkapnya"
+relatedReading:
+  - title: "Pemindaian 3D di iPhone dengan fotogrametri dan LiDAR"
+    url: "/blog/3d-scan-feature/"
+  - title: "Pemindai ruangan"
+    url: "/features/room-scanner/"

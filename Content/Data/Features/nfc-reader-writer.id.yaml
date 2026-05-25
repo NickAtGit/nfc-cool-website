@@ -1,0 +1,188 @@
+slug: "nfc-reader-writer"
+backLinkText: "← Semua fitur"
+
+card:
+  title: "Pembaca & Penulis NFC"
+  description: "Baca tag NFC apa pun dan tulis 25+ jenis pesan - tautan web, Wi-Fi, kartu nama, pintasan, dan lainnya. Kunci tag dan enkripsi rahasia dengan NFC Safe."
+  imagePath: "/assets/images/Webflow/nfc-card.webp"
+  platforms: "iOS · Android"
+
+hero:
+  title: "Pembaca & Penulis NFC"
+  subtitle: "Baca dan tulis tag NFC di iPhone dan Android. Tempelkan untuk membaca tag apa pun, tulis sendiri dengan tautan, kontak, dan Wi-Fi, lalu kunci agar tidak ada yang bisa mengubahnya."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+
+capabilitiesTitle: "Yang Bisa Anda Lakukan"
+capabilities:
+  - title: "Baca setiap tag NDEF"
+    description: "Tempelkan tag NFC apa pun dan periksa rekaman NDEF-nya - URL, kontak, teks biasa, data MIME, peluncuran aplikasi, muatan kustom - plus byte mentah dan jenis teknologi."
+  - title: "Tulis 25+ jenis pesan"
+    description: "Situs web, nomor telepon, vCard, kredensial Wi-Fi, PayPal, Cash App & Venmo, Spotify, YouTube, Shortcuts, Instagram, X, LinkedIn, TikTok, WhatsApp, dan lainnya."
+  - title: "Kunci & lindungi dengan kata sandi"
+    description: "Jadikan tag permanen hanya-baca, atau lindungi dengan kata sandi sehingga hanya perangkat yang diberi wewenang yang bisa membaca atau menulis. Pengerasan tag kelas industri."
+  - title: "Format, tulis massal, kloning"
+    description: "Format tag kosong, tulis massal muatan yang sama ke tumpukan tag untuk acara atau peluncuran produk, dan kloning isi satu tag ke tag lain."
+  - title: "Tindakan otomatis saat membaca"
+    description: "Jalankan iOS Shortcuts secara otomatis, ucapkan hasilnya dengan keras, aktifkan webhook, atau buka tautan secara otomatis saat tag diketuk. Lima pemicu, satu ketukan."
+
+subsectionsTitle: "Lebih dalam dari aplikasi NFC biasa"
+subsections:
+  - title: "NFC Safe - enkripsi rahasia di tag itu sendiri"
+    body: "<p>Sebagian besar aplikasi NFC memperlakukan tag seperti kartu pos - siapapun dengan ponsel bisa membacanya. NFC Safe memperlakukannya seperti amplop tersegel. Rahasia Anda (kata sandi, frasa pemulihan, kunci lisensi, atau teks apa pun) dienkripsi di perangkat Anda dengan AES-256 sebelum sampai ke tag. Kehilangan tag, dicuri, diserahkan ke orang asing - tanpa frasa sandi Anda, muatannya hanyalah kebisingan.</p><p>Enkripsi yang sama berfungsi di kedua platform, sehingga Anda bisa mengunci rahasia di iPhone dan membukanya di Android. Ingin penjelasan lengkap tentang cara enkripsinya? <a href=\"/blog/nfc-safe-encrypted-secrets/\">Baca panduan mendalam NFC Safe di blog</a>.</p>"
+    imagePath: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
+    imageAlt: "Rahasia terenkripsi NFC Safe di sebuah tag"
+    platforms: "iOS · Android"
+
+  - title: "NFC Tap Counter - lacak setiap tag berdasarkan ID dan hitungannya"
+    body: "<p>Beberapa chip NFC menghitung pemindaian mereka sendiri di perangkat keras. NFC Tap Counter memanfaatkan itu: ia mengatur tag sehingga menambahkan hitungan ketukan langsung - dan/atau ID tag uniknya - ke apapun yang dibawanya (URL, email, SMS, atau Shortcut) pada setiap pembacaan tunggal. Tidak ada server, tidak ada internet, tidak ada backend yang perlu dikelola - chip yang melakukan penghitungan dan penggantian sendiri.</p><p>Itu membuat satu tag memberi tahu Anda stiker fisik mana yang diketuk dan berapa kali, dan memungkinkan Anda bertindak: batasi 100 pemindaian pertama untuk demo, lacak keterlibatan di kartu nama, atau buktikan keaslian dengan penghitung yang hanya pernah naik. Ingin panduan lengkapnya? <a href=\"/blog/count-nfc-tag-scans/\">Baca panduan NFC Tap Counter di blog</a>, atau <a href=\"/tap-counter/\">coba demo langsung</a> - ketuk tag dan lihat halaman menghitung.</p>"
+    imagePath: "/assets/images/Blog/count-nfc-tag-scans.webp"
+    imageAlt: "Tag NFC diketuk oleh ponsel dengan hitungan pemindaiannya yang naik"
+    platforms: "iOS · Android"
+
+  - title: "OpenPrintTag - filamen printer 3D Anda, di gulungan"
+    body: "<p>OpenPrintTag adalah standar terbuka untuk menyematkan metadata gulungan filamen (material, warna, pabrikan, UUID, panjang tersisa) ke dalam rekaman NDEF kecil berenkode CBOR. NFC.cool membaca dan menulis format ini secara native di kedua platform - sehingga printer yang kompatibel dapat mengidentifikasi gulungan Anda begitu dimuat. Baru mengenal formatnya? <a href=\"/blog/openprinttag-read-write-nfc-spools-phone/\">Panduan blog kami memandu cara membaca dan menulis gulungan OpenPrintTag</a>.</p><p>Format yang sama mendukung muatan webhook terstruktur di halaman <a href=\"/features/webhooks/\">Webhooks & Otomasi</a> - aktifkan POST ke farm cetak Anda begitu gulungan baru terdeteksi.</p>"
+    imagePath: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
+    imageAlt: "Membaca dan menulis gulungan NFC OpenPrintTag dengan ponsel"
+    platforms: "iOS · Android"
+
+  - title: "Reset kepala sikat gigi"
+    body: "<p>Kepala sikat Philips Sonicare membawa tag NFC yang melacak penggunaan sehingga gagangnya mengingatkan Anda untuk menggantinya. NFC.cool dapat mereset penghitung itu - membaca status tag, memandu Anda melalui reset, menulis status baru kembali. Sama di kedua platform. Ingin tahu persis apa yang dilacak chip? <a href=\"/blog/reset-sonicare-brush-head-nfc/\">Baca panduan kepala sikat Sonicare di blog</a>. (Kami tidak membuat kepala sikat; kami hanya memberi milik Anda satu bulan lagi masa pakai.)</p>"
+    imagePath: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
+    imageAlt: "Mereset kepala sikat Philips Sonicare dengan NFC"
+    platforms: "iOS · Android"
+
+  - title: "Mode pengguna mahir"
+    body: "<p>Untuk orang yang ingin tahu apa yang sebenarnya ada di chip: NFC.cool dapat membuang memori penuh tag sebagai hex, mendeteksi model chip yang mendasarinya (NTAG213/215/216, NTAG424 DNA, MIFARE Classic/Ultralight, ISO 15693 varian, FeliCa, dll.), dan melaporkan total byte, byte pengguna, halaman kunci, dan kontainer kemampuan. Dibangun untuk pengembang, pembuat, dan siapapun yang men-debug sebuah tag.</p><p>Di iOS, <strong>mode Expert APDU</strong> masuk satu level lebih dalam - kirim perintah ISO 7816 mentah ke tag dan periksa responsnya, untuk saat Anda berintegrasi dengan pembaca yang tidak biasa, protokol kustom, atau hanya ingin melihat apa yang akan diakui chip.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-power-user-mode.webp"
+    imageAlt: "iPhone memeriksa memori tag NFC dengan panel diagnostik"
+    platforms: "iOS · Android"
+
+  - title: "Mata uang kripto dengan satu ketukan"
+    body: "<p>Enkode Bitcoin, Ethereum, Solana, Lightning, atau alamat dompet apa pun sebagai rekaman NDEF payment-URI. Ketuk untuk berbagi dompet statis di konferensi, sematkan dalam stiker di produk Anda, atau serahkan kartu logam dengan alamat permanen kepada seseorang. Membaca bersifat timbal balik - pindai tag kripto, buka langsung ke aplikasi dompet Anda.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-cryptocurrency-tap.webp"
+    imageAlt: "iPhone berbagi dompet kripto melalui tag NFC"
+    platforms: "iOS · Android"
+
+  - title: "Onboarding Wi-Fi tanpa mengetik kata sandi"
+    body: "<p>Tulis SSID Wi-Fi, jenis keamanan, dan kata sandi ke tag sekali saja. Mulai saat itu, siapapun yang mengetuknya bergabung ke jaringan - tidak perlu mengeja kata sandi, tidak perlu catatan tempel yang dicoret di AirBnB. Balik arahnya: baca tag Wi-Fi dari rumah orang lain dan biarkan OS meminta untuk bergabung.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-wifi-onboarding.webp"
+    imageAlt: "iPhone bergabung ke Wi-Fi dari tag NFC"
+    platforms: "iOS · Android"
+
+  - title: "Ucapkan dengan keras"
+    body: "<p>Untuk aksesibilitas, untuk alur kerja hands-free, atau hanya karena menyenangkan - aktifkan hook sintesis ucapan dan setiap muatan tag dibacakan dengan keras begitu Anda mengetuknya. Kecepatan bicara dapat dikonfigurasi; berfungsi dengan VoiceOver dan teknologi bantu lainnya secara paralel.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-speak-aloud.webp"
+    imageAlt: "iPhone membaca tag NFC dengan keras dengan gelombang audio"
+    platforms: "iOS"
+
+  - title: "Tulis massal CSV"
+    body: "<p>Untuk operator NFC serius di iOS: unggah spreadsheet muatan, serahkan ponsel ke asisten, dan tulis seluruh tumpukan tag dalam satu sesi.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
+    imageAlt: "iPhone menulis massal tag NFC dari spreadsheet"
+    platforms: "iOS"
+
+  - title: "Shortcuts & App Intents"
+    body: "<p>NFC.cool terhubung langsung ke aplikasi iOS Shortcuts dengan tindakan bawaan: ambil tag NFC terakhir yang dipindai, tulis pesan ke tag, buka pemindai, atau ambil kode QR terakhir yang dipindai. Rangkai ke dalam Shortcuts yang memindai tag, mengurai muatannya, dan memulai apa pun yang Anda inginkan berikutnya - otomasi, pencatatan, jurnal, apa saja. Tindakan yang sama mendukung kontrol <strong>Tombol Pindai</strong> di layar kunci pada iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone menghubungkan tag NFC ke blok otomasi"
+    platforms: "iOS"
+
+  - title: "Sinkronisasi iCloud di iPhone, iPad, dan Mac"
+    body: "<p>Riwayat pemindaian, entri NFC Safe, dan templat penulisan sinkron dengan mulus di setiap perangkat yang masuk ke akun iCloud Anda. Ketuk tag di iPhone di saku Anda dan pemindaian ada di perpustakaan iPad Anda sesaat kemudian. NFC.cool kini <a href=\"/blog/nfc-cool-comes-to-mac/\">berjalan di Mac Apple Silicon</a> juga, sehingga perpustakaan yang sama muncul di sana.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool sinkron di iPhone, iPad, dan Mac"
+    platforms: "iOS"
+
+specsTitle: "Tag & teknologi yang didukung"
+specs:
+  - title: "Keluarga tag"
+    items:
+      - "NFC Forum Type 1, 2, 3, 4, 5"
+      - "NTAG 213, 215, 216, 424 DNA, varian NTAG I²C"
+      - "MIFARE Classic 1K/4K, MIFARE Ultralight, MIFARE DESFire"
+      - "ISO 14443 A/B, ISO 15693, FeliCa (iOS)"
+  - title: "Jenis rekaman"
+    items:
+      - "URI (web, mailto, tel, sms, geo, skema kustom)"
+      - "Teks (berlabel bahasa)"
+      - "vCard / kontak"
+      - "Kredensial Wi-Fi, pemasangan Bluetooth"
+      - "Smart Poster (gabungan)"
+      - "Peluncuran aplikasi"
+      - "Alamat mata uang kripto (berbasis URI)"
+      - "OpenPrintTag (metadata filamen printer 3D)"
+      - "NFC Safe (tipe eksternal terenkripsi, urn:nfc:ext:crypto)"
+      - "MIME, Eksternal, byte mentah"
+  - title: "Catatan platform"
+    items:
+      - "iOS 16+ (pembacaan tag latar belakang dari layar kunci di iPhone XS dan lebih baru)"
+      - "Android 8.0+ (API 26), pembacaan NFC latar depan"
+      - "Penulisan tag dari iOS memerlukan entitlement Core NFC - sudah terpasang di aplikasi"
+      - "Pembacaan NFC latar belakang di Android mengharuskan aplikasi berada di latar depan"
+
+pricing:
+  title: "Gratis vs Platinum"
+  columns: ["Gratis", "Platinum"]
+  rows:
+    - label: "Membaca tag NFC"
+      values: ["✓", "✓"]
+    - label: "Menganalisis tag NFC"
+      values: ["✓", "✓"]
+    - label: "Menulis tag NFC"
+      values: ["limited", "✓"]
+    - label: "Jenis pesan NFC"
+      values: ["limited", "✓"]
+    - label: "Format tag NFC"
+      values: ["✗", "✓"]
+    - label: "Lindungi tag NFC dengan kata sandi"
+      values: ["✗", "✓"]
+    - label: "Kunci tag NFC"
+      values: ["✗", "✓"]
+    - label: "NFC Safe"
+      values: ["✗", "✓"]
+    - label: "Mode massal NFC"
+      values: ["✗", "✓"]
+    - label: "Tulis CSV NFC"
+      values: ["✗", "✓"]
+    - label: "Perintah ahli NFC"
+      values: ["✗", "✓"]
+    - label: "NFC Tap Counter"
+      values: ["✗", "✓"]
+    - label: "OpenPrintTag (printer 3D)"
+      values: ["✓", "✓"]
+
+featuredReviewsTitle: "Yang orang katakan tentang NFC"
+featuredReviews:
+  - quote: "UX yang indah dan eksekusi yang hampir sempurna tidak seperti aplikasi NFC lainnya."
+    author: "garretthoyos"
+    location: "App Store · Mar 2023"
+  - quote: "SAYA SUKA APLIKASI INI. Luar biasa untuk orang seperti saya yang tidak tahu banyak tentang tag NFC!"
+    author: "Dallasg479"
+    location: "App Store · Okt 2020"
+
+faqTitle: "Pertanyaan yang sering diajukan"
+faq:
+  - question: "Apakah iPhone saya perlu dibuka kuncinya untuk membaca tag?"
+    answer: "Untuk sebagian besar pemindaian tag, tidak - iPhone XS dan lebih baru dapat membaca tag NDEF dari layar kunci di latar belakang, tanpa perlu membuka aplikasi. Di Android, aplikasi perlu berada di latar depan untuk membaca tag."
+  - question: "Bisakah saya membaca tag tanpa koneksi internet?"
+    answer: "Ya. Pembacaan dan penulisan NFC terjadi sepenuhnya di perangkat. NFC.cool tidak pernah mengunggah konten tag ke server manapun."
+  - question: "Apakah menulis tag NFC aman?"
+    answer: "Penulisan aman dan dapat dibatalkan secara default - Anda bisa menulis ulang tag sebanyak yang Anda suka. Gunakan fitur kunci hanya saat Anda yakin: setelah tag dikunci secara permanen, tag tidak bisa ditulis ulang."
+  - question: "Seberapa aman NFC Safe?"
+    answer: "NFC Safe mengenkripsi muatan dengan AES-256-GCM, menurunkan kunci dari frasa sandi Anda melalui PBKDF2-HMAC-SHA256 selama 100.000 iterasi dengan garam acak 16-byte dan nonce 12-byte per rekaman. Tanpa frasa sandi, muatan di tag tidak bisa dibedakan dari byte acak."
+  - question: "Apakah tag NFC Safe yang sama berfungsi di iOS dan Android?"
+    answer: "Ya. Formatnya dapat dioperasikan bersama. Enkripsi di satu platform, dekripsi di platform lain - frasa sandi yang sama, muatan yang sama."
+  - question: "Apakah mereset kepala sikat Sonicare membatalkan sesuatu?"
+    answer: "Ini mereset penghitung penggunaan di tag sehingga gagang berhenti mengingatkan Anda. Kepala sikat itu sendiri tidak tahu sudah direset; ia terus menyikat. Gunakan penilaian Anda sendiri tentang kapan bulu sikat perlu diganti."
+
+relatedReadingTitle: "Lanjutkan membaca"
+relatedReading:
+  - title: "Baca tag NFC secara online di browser Anda"
+    url: "/online-nfc-reader/"
+  - title: "Tag NFC dijelaskan: panduan lengkap untuk pemula"
+    url: "/blog/nfc-tags-beginners-guide/"
+  - title: "Cara menulis tag NFC dengan iPhone Anda"
+    url: "/blog/write-nfc-tags-iphone/"
+  - title: "Jenis tag NFC mana yang berfungsi dengan iPhone"
+    url: "/blog/nfc-tag-types-for-iphones/"

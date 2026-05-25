@@ -1,0 +1,110 @@
+slug: "document-scanner"
+backLinkText: "← Semua fitur"
+
+card:
+  title: "Pemindai dokumen dengan OCR"
+  description: "Pindai dokumen di iPhone atau iPad dengan deteksi tepi otomatis dan OCR - semuanya di perangkat Anda, tidak ada yang diunggah. Ekspor PDF multi-halaman yang dapat dicari."
+  imagePath: "/assets/images/Webflow/document-scan.webp"
+  platforms: "iOS only"
+
+hero:
+  title: "Pemindai dokumen dengan OCR"
+  subtitle: "Tangkap dokumen dengan deteksi tepi otomatis dan koreksi perspektif. OCR di perangkat mengubah setiap pemindaian menjadi teks yang dapat dicari."
+  platforms: "iOS only"
+  heroImagePath: "/assets/images/Webflow/document-scan.webp"
+
+capabilitiesTitle: "Yang bisa Anda lakukan"
+capabilities:
+  - title: "Deteksi tepi otomatis"
+    description: "Arahkan ke halaman; NFC.cool menemukan sudut-sudutnya dan mengambil foto secara otomatis. Pemindaian multi-halaman menangkap seluruh tumpukan dalam satu sesi."
+  - title: "Koreksi perspektif"
+    description: "Foto miring? NFC.cool meluruskan halaman ke persegi panjang yang bersih, menghilangkan bayangan, dan meningkatkan kontras sehingga hasilnya terlihat seperti pemindaian datar."
+  - title: "OCR di perangkat"
+    description: "Pengenalan teks terjadi secara lokal di iPhone Anda - tidak ada dokumen, tidak ada teks yang keluar dari perangkat. Teks yang dikenali dari setiap halaman disimpan bersama gambar dan dapat dicari di dalam aplikasi."
+  - title: "Ekspor PDF dengan teks tertanam"
+    description: "Buat PDF multi-halaman dengan lapisan teks OCR yang tertanam, sehingga setiap kata dapat dipilih, disalin, dan dicari di pembaca PDF mana pun."
+  - title: "Berbagi & simpan cepat"
+    description: "Kirim melalui Mail, Messages, atau AirDrop, atau simpan ke Files. Tanpa watermark, tanpa pendaftaran, tanpa merek NFC.cool."
+
+subsectionsTitle: "Lebih pintar dari tangkapan layar"
+subsections:
+  - title: "Pemindaian multi-halaman + judul otomatis"
+    body: "<p>Dokumen tidak selalu satu halaman. NFC.cool membiarkan kamera terbuka di antara pengambilan gambar, memungkinkan Anda mengurutkan ulang halaman, membuang yang buruk, dan mengikat semuanya menjadi satu dokumen. Layanan saran judul bawaan membaca halaman pertama dan mengusulkan nama file yang masuk akal - menghemat Anda dari pergulatan penamaan ulang setiap kali.</p>"
+    imagePath: "/assets/images/Webflow/document-scan-detail.webp"
+    imageAlt: "Tampilan detail dokumen multi-halaman"
+    platforms: "iOS"
+
+  - title: "Impor dari perpustakaan foto Anda"
+    body: "<p>Sudah mengambil foto struk dengan kamera biasa? Pilih gambar (atau beberapa) dari perpustakaan foto Anda - NFC.cool menjalankan deteksi tepi, koreksi perspektif, dan OCR yang sama pada foto yang diimpor seperti pada tangkapan baru. Berguna untuk membersihkan berbulan-bulan foto ponsel yang tersebar secara retroaktif.</p>"
+    platforms: "iOS"
+
+  - title: "Kompresi yang Anda kendalikan"
+    body: "<p>PDF dari ponsel bisa membengkak jika Anda tidak berhati-hati. NFC.cool mengekspos tingkat kompresi sebagai pengaturan, sehingga Anda bisa memilih antara fidelitas kualitas arsip dan ukuran file yang ramah email - tanpa memindai ulang.</p>"
+    platforms: "iOS"
+
+  - title: "Shortcuts & App Intents"
+    body: "<p>NFC.cool terhubung langsung ke aplikasi iOS Shortcuts dengan aksi bawaan: ambil tag NFC yang terakhir dipindai, tulis pesan ke tag, buka pemindai, atau ambil kode QR yang terakhir dipindai. Rangkai ke dalam Shortcuts yang memindai tag, mem-parsing payload-nya, dan memulai apa pun yang Anda inginkan berikutnya - otomasi, pencatatan, jurnal, apa saja. Aksi yang sama menggerakkan kontrol <strong>Scan Button</strong> layar kunci di iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone menghubungkan tag NFC ke blok otomasi"
+    platforms: "iOS"
+
+  - title: "Sinkronisasi iCloud di iPhone, iPad, dan Mac"
+    body: "<p>Dokumen tersinkronisasi dengan mulus melalui iCloud di setiap perangkat pada akun Anda. Pindai kontrak di iPhone, tinjau di iPad, tandatangani di <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - perpustakaan yang sama, tanpa ekspor bolak-balik. Gambar asli dan teks yang dikenali keduanya ikut terbawa.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool tersinkronisasi di iPhone, iPad, dan Mac"
+    platforms: "iOS"
+
+specsTitle: "Kemampuan & batasan"
+specs:
+  - title: "Pengenalan"
+    items:
+      - "OCR framework iOS Vision"
+      - "Skrip Latin, Sirilik, Yunani"
+      - "Pengenalan tulisan tangan"
+      - "Deteksi multi-bahasa"
+      - "Teks yang dikenali dapat diedit setelah pemindaian"
+  - title: "Keluaran"
+    items:
+      - "PDF dengan lapisan teks tertanam"
+      - "Gambar JPEG / HEIC per halaman"
+      - "Dokumen multi-halaman"
+      - "Mode hitam & putih opsional"
+      - "Tingkat kompresi yang dapat dikonfigurasi"
+  - title: "Privasi"
+    items:
+      - "Semua OCR berjalan di perangkat"
+      - "Tidak ada dokumen atau teks yang diunggah ke NFC.cool"
+      - "Dokumen disimpan di iCloud atau di sandbox aplikasi - pilihan Anda"
+
+pricing:
+  title: "Gratis vs Platinum"
+  columns: ["Gratis", "Platinum"]
+  rows:
+    - label: "Pindai dokumen"
+      values: ["✓", "✓"]
+    - label: "Dokumen dari foto"
+      values: ["✓", "✓"]
+    - label: "OCR"
+      values: ["✓", "✓"]
+    - label: "Ekspor sebagai PDF"
+      values: ["✗", "✓"]
+    - label: "Ekspor otomatis ke iCloud"
+      values: ["✗", "✓"]
+
+faqTitle: "Pertanyaan yang sering diajukan"
+faq:
+  - question: "Apakah OCR bekerja offline?"
+    answer: "Ya. iOS Vision menangani OCR sepenuhnya di perangkat. Anda bisa memindai dan melakukan OCR dokumen di pesawat, di pedalaman, di mana saja."
+  - question: "Bahasa apa yang didukung OCR?"
+    answer: "iOS Vision saat ini mengenali bahasa Inggris, Prancis, Italia, Jerman, Spanyol, Portugis, dan Mandarin Sederhana. Pengenalan tulisan tangan juga didukung."
+  - question: "Seberapa akurat OCR-nya?"
+    answer: "Sangat tinggi untuk teks cetak. Akurasi tulisan tangan tergantung pada kerapian dan kontras. Anda dapat mengedit teks yang dikenali setelah pemindaian."
+  - question: "Di mana dokumen yang dipindai disimpan?"
+    answer: "Tingkat gratis: di sandbox aplikasi pada perangkat. Platinum: secara opsional diekspor otomatis ke iCloud Documents sehingga muncul di aplikasi Files dan di setiap perangkat yang masuk ke iCloud Anda."
+
+relatedReadingTitle: "Lanjutkan membaca"
+relatedReading:
+  - title: "Pemindaian dokumen siap saku"
+    url: "/blog/document-scanning-guide/"
+  - title: "Pemindai objek 3D"
+    url: "/features/3d-object-scanner/"

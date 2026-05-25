@@ -1,0 +1,90 @@
+slug: "room-scanner"
+backLinkText: "← Semua fitur"
+
+card:
+  title: "Pemindai ruangan"
+  description: "Jalan melalui sebuah ruangan dan RoomPlan membangun denah lantai yang bersih - dinding, pintu, jendela, dan furnitur - lengkap dengan pengukuran ruangan dan perhitungan luas."
+  imagePath: "/assets/images/Webflow/scan-room.webp"
+  platforms: "iOS only"
+
+hero:
+  title: "Pemindai ruangan"
+  subtitle: "RoomPlan bertenaga LiDAR mengubah jalan-jalan melalui ruangan Anda menjadi denah lantai parametrik yang bersih - dinding, pintu, jendela, dan furnitur yang dikenali, diekspor sebagai satu adegan USDZ."
+  platforms: "iOS only"
+  heroImagePath: "/assets/images/Webflow/scan-room.webp"
+
+capabilitiesTitle: "Yang bisa Anda lakukan"
+capabilities:
+  - title: "Pengambilan RoomPlan"
+    description: "Jalan melalui sebuah ruangan dengan sensor LiDAR iPhone Anda. NFC.cool membangun model parametrik secara real-time - dinding, pintu, jendela, dan bukaan."
+  - title: "Furnitur yang dikenali"
+    description: "Tempat tidur, sofa, meja, kursi, lemari, kompor, wastafel, toilet, bathtub, dan TV terdeteksi dan diberi label di dalam adegan."
+  - title: "Luas lantai & dimensi"
+    description: "Setiap ruangan melaporkan luas lantai, tinggi langit-langit, dan dimensi per dinding. Baca dari model atau sertakan dalam USDZ yang diekspor."
+  - title: "AR Quick Look"
+    description: "Buka ruangan yang sudah dipindai di AR Quick Look atau bagikan USDZ - penerima dapat berjalan mengelilingi model langsung di dalam Messages."
+
+subsectionsTitle: "Dari jalan-jalan hingga denah lantai yang siap pakai"
+subsections:
+  - title: "Tempatkan ruangan Anda dalam AR"
+    body: "<p>Setelah pemindaian selesai, tempatkan ke AR Quick Look dan berjalan secara fisik mengelilingi kembaran digitalnya. Berguna untuk memeriksa penempatan furnitur sebelum membeli, atau untuk merasakan skala yang tidak bisa disampaikan oleh gambar di tablet.</p>"
+    imagePath: "/assets/images/Blog/mac-3d-detail.webp"
+    imageAlt: "Tampilan detail pemindaian ruangan"
+    platforms: "iOS"
+
+  - title: "Alur kerja multi-ruangan"
+    body: "<p>Setiap pemindaian adalah satu ruangan. Rekam dapur, rekam ruang tamu, rekam kamar tidur - semuanya tersimpan berdampingan di perpustakaan Anda, dan editor 3D pilihan Anda dapat menyatukannya menjadi USDZ multi-ruangan. Sangat berguna untuk listing properti, perencanaan renovasi, atau dokumentasi asuransi.</p>"
+    platforms: "iOS"
+
+  - title: "Shortcuts & App Intents"
+    body: "<p>NFC.cool terhubung langsung ke aplikasi Shortcuts iOS dengan tindakan bawaan: ambil tag NFC terakhir yang dipindai, tulis pesan ke tag, buka pemindai, atau ambil kode QR terakhir yang dipindai. Rangkai menjadi Shortcuts yang memindai tag, mengurai payload-nya, dan memulai apa pun yang Anda inginkan selanjutnya - otomatisasi, pencatatan, journaling, apa saja. Tindakan yang sama menggerakkan kontrol <strong>Tombol Pindai</strong> di layar kunci pada iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone menghubungkan tag NFC ke blok otomatisasi"
+    platforms: "iOS"
+
+  - title: "Sinkronisasi iCloud di iPhone, iPad, dan Mac"
+    body: "<p>Ruangan yang dipindai tersimpan di folder iCloud Documents Anda, sehingga iPhone yang Anda gunakan untuk memindai, iPad yang Anda gunakan untuk meninjau, dan <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> yang akan Anda gunakan untuk mengedit semuanya melihat perpustakaan yang sama. Rekam ruangannya sekali, sempurnakan denah lantainya nanti di meja kerja Anda.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool tersinkronisasi di iPhone, iPad, dan Mac"
+    platforms: "iOS"
+
+specsTitle: "Perangkat keras & output"
+specs:
+  - title: "Persyaratan perangkat keras"
+    items:
+      - "iPhone dengan LiDAR (12 Pro dan model Pro yang lebih baru)"
+      - "iPad Pro (2020) dan yang lebih baru juga didukung"
+      - "RoomPlan tersedia dari iOS 16; peningkatan terbaru hadir di iOS 17+"
+  - title: "Keluaran"
+    items:
+      - "Adegan USDZ dengan entitas bernama"
+      - "Dinding, pintu, jendela, bukaan"
+      - "Kategori furnitur yang dikenali"
+      - "Luas lantai dan dimensi"
+
+pricing:
+  title: "Gratis vs Platinum"
+  columns: ["Gratis", "Platinum"]
+  rows:
+    - label: "Pindai ruangan"
+      values: ["✓", "✓"]
+    - label: "Pengukuran ruangan"
+      values: ["✓", "✓"]
+    - label: "Perhitungan luas"
+      values: ["✗", "✓"]
+
+faqTitle: "Pertanyaan yang sering diajukan"
+faq:
+  - question: "Apakah saya memerlukan LiDAR?"
+    answer: "Ya. RoomPlan adalah API khusus LiDAR dari Apple. (Pemindai Objek 3D juga membutuhkan LiDAR - sesi Object Capture Apple memeriksanya.)"
+  - question: "Berapa lama pemindaian berlangsung?"
+    answer: "Cukup jalan melalui ruangan. Hasilnya dihasilkan secara langsung dan siap saat Anda selesai."
+  - question: "Bisakah saya membuka hasilnya di perangkat lunak CAD?"
+    answer: "Ya - USDZ didukung oleh sebagian besar alat CAD/3D modern. Untuk alur kerja SketchUp / Revit, konversi melalui Blender atau alat USD-ke-OBJ gratis."
+
+relatedReadingTitle: "Baca selengkapnya"
+relatedReading:
+  - title: "Pemindai objek 3D"
+    url: "/features/3d-object-scanner/"
+  - title: "Pemindaian 3D di iPhone dengan fotogrametri dan LiDAR"
+    url: "/blog/3d-scan-feature/"

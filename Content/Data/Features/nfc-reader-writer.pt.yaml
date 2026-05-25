@@ -130,9 +130,9 @@ pricing:
     - label: "Analisar Tags NFC"
       values: ["✓", "✓"]
     - label: "Gravar Tags NFC"
-      values: ["limitado", "✓"]
+      values: ["limited", "✓"]
     - label: "Tipos de Mensagem NFC"
-      values: ["limitado", "✓"]
+      values: ["limited", "✓"]
     - label: "Formatar Tags NFC"
       values: ["✗", "✓"]
     - label: "Proteger Tags NFC com Palavra-Passe"

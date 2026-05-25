@@ -1,0 +1,110 @@
+slug: "document-scanner"
+backLinkText: "← Todas las funciones"
+
+card:
+  title: "Escáner de documentos con OCR"
+  description: "Escanea documentos en iPhone o iPad con detección automática de bordes y OCR - todo en tu dispositivo, sin subir nada. Exporta PDFs de varias páginas que se pueden buscar."
+  imagePath: "/assets/images/Webflow/document-scan.webp"
+  platforms: "Solo iOS"
+
+hero:
+  title: "Escáner de documentos con OCR"
+  subtitle: "Captura documentos con detección automática de bordes y corrección de perspectiva. El OCR en el dispositivo convierte cada escaneo en texto que se puede buscar."
+  platforms: "Solo iOS"
+  heroImagePath: "/assets/images/Webflow/document-scan.webp"
+
+capabilitiesTitle: "Lo que puedes hacer"
+capabilities:
+  - title: "Detección automática de bordes"
+    description: "Apunta a una página; NFC.cool encuentra las esquinas y captura automáticamente. Los escaneos de varias páginas capturan toda una pila en una sola sesión."
+  - title: "Corrección de perspectiva"
+    description: "¿Foto torcida? NFC.cool ajusta la página a un rectángulo limpio, elimina sombras y aumenta el contraste para que el resultado parezca un escaneo plano."
+  - title: "OCR en el dispositivo"
+    description: "El reconocimiento de texto ocurre localmente en tu iPhone - ningún documento, ningún texto sale del dispositivo. El texto reconocido de cada página se guarda junto a la imagen y se puede buscar dentro de la app."
+  - title: "Exportación a PDF con texto incrustado"
+    description: "Crea un PDF de varias páginas con la capa de texto del OCR incrustada, para que cada palabra se pueda seleccionar, copiar y buscar en cualquier lector de PDF."
+  - title: "Compartir y guardar al instante"
+    description: "Envíalo por Mail, Mensajes o AirDrop, o guárdalo en Archivos. Sin marca de agua, sin registro, sin identificación de NFC.cool."
+
+subsectionsTitle: "Más listo que una captura de pantalla"
+subsections:
+  - title: "Escaneos de varias páginas + título automático"
+    body: "<p>Los documentos no siempre tienen una sola página. NFC.cool mantiene la cámara abierta entre capturas, te permite reordenar páginas, descartar las fallidas y unirlo todo en un único documento. Un servicio integrado de sugerencia de títulos lee la primera página y propone un nombre de archivo con sentido - te ahorra el ritual de renombrar cada vez.</p>"
+    imagePath: "/assets/images/Webflow/document-scan-detail.webp"
+    imageAlt: "Vista detallada de documento de varias páginas"
+    platforms: "iOS"
+
+  - title: "Importa desde tu fototeca"
+    body: "<p>¿Ya hiciste la foto del recibo con la cámara normal? Elige la imagen (o varias) de tu fototeca - NFC.cool aplica la misma detección de bordes, corrección de perspectiva y OCR a las fotos importadas que a las capturas nuevas. Útil para poner orden de forma retroactiva en meses de fotos dispersas en el móvil.</p>"
+    platforms: "iOS"
+
+  - title: "Compresión que tú controlas"
+    body: "<p>Los PDFs creados en un móvil pueden dispararse de tamaño si no tienes cuidado. NFC.cool ofrece la tasa de compresión como un ajuste, así que puedes elegir entre una fidelidad de calidad de archivo y un tamaño de archivo apto para el correo - sin volver a escanear.</p>"
+    platforms: "iOS"
+
+  - title: "Atajos y App Intents"
+    body: "<p>NFC.cool se integra directamente en la app Atajos de iOS con acciones incorporadas: obtener la última etiqueta NFC leída, grabar un mensaje en una etiqueta, abrir el escáner u obtener el último código QR leído. Encadénalas en Atajos que lean una etiqueta, analicen su payload e inicien lo que quieras a continuación - automatización, registro, diario, lo que sea. Las mismas acciones alimentan el control <strong>Botón de escaneo</strong> en la pantalla de bloqueo en iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone conectando una etiqueta NFC a bloques de automatización"
+    platforms: "iOS"
+
+  - title: "Sincronización con iCloud en iPhone, iPad y Mac"
+    body: "<p>Los documentos se sincronizan sin esfuerzo a través de iCloud en todos los dispositivos de tu cuenta. Escanea un contrato en el iPhone, revísalo en el iPad, fírmalo en el <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - la misma biblioteca, sin exportar de un lado a otro. Las imágenes originales y el texto reconocido viajan juntos.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool sincronizándose en iPhone, iPad y Mac"
+    platforms: "iOS"
+
+specsTitle: "Capacidades y límites"
+specs:
+  - title: "Reconocimiento"
+    items:
+      - "OCR del framework Vision de iOS"
+      - "Alfabetos latino, cirílico y griego"
+      - "Reconocimiento de escritura a mano"
+      - "Detección de varios idiomas"
+      - "El texto reconocido es editable después del escaneo"
+  - title: "Resultado"
+    items:
+      - "PDF con capa de texto incrustada"
+      - "Imágenes JPEG / HEIC por página"
+      - "Documentos de varias páginas"
+      - "Modo blanco y negro opcional"
+      - "Tasa de compresión configurable"
+  - title: "Privacidad"
+    items:
+      - "Todo el OCR se ejecuta en el dispositivo"
+      - "Ningún documento ni texto se sube a NFC.cool"
+      - "Documentos guardados en iCloud o en la sandbox de la app - tú eliges"
+
+pricing:
+  title: "Gratis vs Platinum"
+  columns: ["Gratis", "Platinum"]
+  rows:
+    - label: "Escanear documentos"
+      values: ["✓", "✓"]
+    - label: "Documentos a partir de fotos"
+      values: ["✓", "✓"]
+    - label: "OCR"
+      values: ["✓", "✓"]
+    - label: "Exportar como PDF"
+      values: ["✗", "✓"]
+    - label: "Exportación automática a iCloud"
+      values: ["✗", "✓"]
+
+faqTitle: "Preguntas frecuentes"
+faq:
+  - question: "¿El OCR funciona sin conexión?"
+    answer: "Sí. Vision de iOS se encarga del OCR por completo en el dispositivo. Puedes escanear y aplicar OCR a documentos en un avión, en el campo, en cualquier sitio."
+  - question: "¿Qué idiomas admite el OCR?"
+    answer: "Vision de iOS reconoce actualmente inglés, francés, italiano, alemán, español, portugués y chino simplificado. Además admite el reconocimiento de escritura a mano."
+  - question: "¿Qué precisión tiene el OCR?"
+    answer: "Muy alta para texto impreso. La precisión con la escritura a mano depende de la claridad y el contraste. Puedes editar cualquier texto reconocido después del escaneo."
+  - question: "¿Dónde se guardan los documentos escaneados?"
+    answer: "Plan gratis: en la sandbox de la app en el dispositivo. Platinum: opcionalmente exportados de forma automática a los Documentos de iCloud, para que aparezcan en la app Archivos y en todos los dispositivos con sesión iniciada en tu iCloud."
+
+relatedReadingTitle: "Sigue leyendo"
+relatedReading:
+  - title: "Escaneo de documentos de bolsillo"
+    url: "/blog/document-scanning-guide/"
+  - title: "Escáner de objetos 3D"
+    url: "/features/3d-object-scanner/"

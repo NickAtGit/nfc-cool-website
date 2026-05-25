@@ -1,0 +1,87 @@
+slug: "3d-object-scanner"
+backLinkText: "← Todas las funciones"
+
+card:
+  title: "Escáner de objetos 3D"
+  description: "Da una vuelta alrededor de un objeto y el Object Capture de Apple crea un modelo 3D con textura. Exporta a USDZ para AR, STL para impresión 3D u OBJ para Blender. Requiere un iPhone Pro o iPad Pro con LiDAR."
+  imagePath: "/assets/images/Webflow/3d-object.webp"
+  platforms: "Solo iOS"
+
+hero:
+  title: "Escáner de objetos 3D"
+  subtitle: "Da una vuelta alrededor de un objeto real con tu iPhone - NFC.cool ejecuta el Object Capture de Apple en el dispositivo para reconstruir un modelo 3D con textura. Exporta el modelo terminado a AR o a cualquier herramienta 3D."
+  platforms: "Solo iOS"
+  heroImagePath: "/assets/images/Webflow/3d-object.webp"
+
+capabilitiesTitle: "Lo que puedes hacer"
+capabilities:
+  - title: "Captura por fotogrametría"
+    description: "Da una vuelta alrededor de un objeto capturando decenas de fotos. El pipeline de Object Capture de Apple en el dispositivo reconstruye un modelo 3D con textura y geometría realista."
+  - title: "Previsualiza y refina"
+    description: "Revisa el modelo en 3D antes de exportarlo. Inspecciona las imágenes en bruto capturadas durante la sesión si quieres ver lo que vio la cámara."
+  - title: "AR Quick Look"
+    description: "Coloca cualquier objeto escaneado en tu salón mediante AR Quick Look. Comparte archivos USDZ con tus amigos - pueden verlos directamente en Mensajes."
+  - title: "Seis formatos de exportación"
+    description: "Exporta un USDZ con textura para AR Quick Look, o geometría simple como USD, OBJ, STL, PLY o ABC para Blender y el resto del pipeline de contenidos 3D."
+
+subsectionsTitle: "De tu mano a tu vista de AR"
+subsections:
+  - title: "AR Quick Look en Mensajes"
+    body: "<p>USDZ es el formato de AR nativo de Apple. Comparte un objeto escaneado en iMessage o por AirDrop y el destinatario puede girarlo, colocarlo en su propio espacio y hacer una captura de pantalla - todo desde la previsualización del mensaje, sin instalar la app. Genial para previsualizaciones de productos, documentación de esculturas o simplemente para presumir.</p>"
+    platforms: "iOS"
+
+  - title: "Atajos y App Intents"
+    body: "<p>NFC.cool se integra directamente en la app Atajos de iOS con acciones incorporadas: obtener la última etiqueta NFC leída, grabar un mensaje en una etiqueta, abrir el escáner u obtener el último código QR leído. Encadénalas en Atajos que lean una etiqueta, analicen su payload e inicien lo que quieras a continuación - automatización, registro, diario, lo que sea. Las mismas acciones alimentan el control <strong>Botón de escaneo</strong> en la pantalla de bloqueo en iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone conectando una etiqueta NFC a bloques de automatización"
+    platforms: "iOS"
+
+  - title: "Sincronización con iCloud en iPhone, iPad y Mac"
+    body: "<p>Los modelos escaneados viven en tu carpeta de Documentos de iCloud, así que el iPhone con el que escaneaste, el iPad en el que revisaste y el <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> en el que vas a editar ven todos la misma biblioteca. Captura sobre la marcha, termina en el escritorio.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool sincronizándose en iPhone, iPad y Mac"
+    platforms: "iOS"
+
+specsTitle: "Hardware y exportación"
+specs:
+  - title: "Requisitos de hardware"
+    items:
+      - "iOS 17.0 o más reciente"
+      - "LiDAR necesario - modelos iPhone Pro (iPhone 12 Pro y más recientes)"
+      - "iPad Pro (2020) y más recientes también compatibles"
+  - title: "Formatos de exportación"
+    items:
+      - "USDZ - con textura, formato AR Quick Look de Apple"
+      - "USD, OBJ, STL, PLY, ABC - solo geometría (mediante ModelIO)"
+      - "Imágenes de captura en bruto (Platinum)"
+
+pricing:
+  title: "Gratis vs Platinum"
+  columns: ["Gratis", "Platinum"]
+  rows:
+    - label: "Escanear objetos 3D"
+      values: ["✓", "✓"]
+    - label: "Colocar el objeto en AR"
+      values: ["✓", "✓"]
+    - label: "Exportar modelos 3D"
+      values: ["✗", "✓"]
+    - label: "Exportar fotos"
+      values: ["✗", "✓"]
+
+faqTitle: "Preguntas frecuentes"
+faq:
+  - question: "¿Mi iPhone necesita LiDAR?"
+    answer: "Sí. La sesión de Object Capture de Apple requiere un dispositivo equipado con LiDAR - es decir, un iPhone Pro (12 Pro y más recientes) o un iPad Pro a partir de 2020. Los iPhone no Pro no vienen con LiDAR."
+  - question: "¿Cuánto tarda un escaneo?"
+    answer: "Unos minutos dando vueltas alrededor del objeto, y después un par de minutos de reconstrucción en el dispositivo. Los objetos más grandes o con más textura tardan más."
+  - question: "¿Puedo imprimir los resultados en 3D?"
+    answer: "Puedes exportar a OBJ y convertirlo a STL en Blender, MeshLab o cualquier herramienta 3D estándar. La fidelidad del modelo es mejor para objetos de tamaño medio y bien texturados."
+  - question: "¿Cuál es la diferencia entre esto y el escáner de habitaciones?"
+    answer: "El Object Capture (esta función) crea un único modelo 3D de una cosa. El escáner de habitaciones usa LiDAR y el RoomPlan de Apple para crear un plano de un espacio - paredes, puertas, mobiliario. Ambos necesitan LiDAR; responden a preguntas distintas."
+
+relatedReadingTitle: "Sigue leyendo"
+relatedReading:
+  - title: "Escaneo 3D en el iPhone con fotogrametría y LiDAR"
+    url: "/blog/3d-scan-feature/"
+  - title: "Escáner de habitaciones"
+    url: "/features/room-scanner/"

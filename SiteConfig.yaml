@@ -5,7 +5,7 @@ language: "en"
 
 localization:
   defaultLanguage: "en"
-  languages: ["de", "ja", "pt", "zh"]
+  languages: ["de", "ja", "pt", "zh", "id", "es"]
   translationMode: "manual"
   legalLanguage: "de"
   # Localized nav + footer labels. URLs stay locale-agnostic; SiteKit prefixes
@@ -218,6 +218,110 @@ localization:
           - title: "条款"
             url: "/terms/"
           - title: "投诉簿"
+            url: "https://www.livroreclamacoes.pt/Inicio/"
+    id:
+      navigation:
+        items:
+          - title: "Beranda"
+            url: "/"
+          - title: "Fitur"
+            url: "/features/"
+          - title: "Kartu Nama"
+            url: "/business-card/"
+          - title: "Beli Tag NFC"
+            url: "/affiliate-links/"
+          - title: "Pembaca NFC Online"
+            url: "/online-nfc-reader/"
+          - title: "Blog"
+            url: "/blog/"
+          - title: "Dukungan & Kontak"
+            url: "/contact/"
+        showSearch: false
+        showThemeToggle: true
+      footer:
+        copyrightName: "NFC.cool"
+        startYear: 2017
+        showAttribution: false
+        links:
+          - title: "Fitur"
+            url: "/features/"
+          - title: "Pembaca NFC Online"
+            url: "/online-nfc-reader/"
+          - title: "Kartu Nama"
+            url: "/business-card/"
+          - title: "Tag NFC"
+            url: "/affiliate-links/"
+          - title: "Pengembang"
+            url: "/developers/"
+          - title: "Ulasan"
+            url: "/reviews/"
+          - title: "Tentang"
+            url: "/about/"
+          - title: "Changelog"
+            url: "/changelog/"
+          - title: "Blog"
+            url: "/blog/"
+          - title: "Dukungan & Kontak"
+            url: "/contact/"
+          - title: "Pers"
+            url: "/press/"
+          - title: "Privasi"
+            url: "/privacy/"
+          - title: "Ketentuan"
+            url: "/terms/"
+          - title: "Buku Pengaduan"
+            url: "https://www.livroreclamacoes.pt/Inicio/"
+    es:
+      navigation:
+        items:
+          - title: "Inicio"
+            url: "/"
+          - title: "Funciones"
+            url: "/features/"
+          - title: "Tarjeta de Visita"
+            url: "/business-card/"
+          - title: "Comprar Etiquetas NFC"
+            url: "/affiliate-links/"
+          - title: "Lector NFC Online"
+            url: "/online-nfc-reader/"
+          - title: "Blog"
+            url: "/blog/"
+          - title: "Soporte y Contacto"
+            url: "/contact/"
+        showSearch: false
+        showThemeToggle: true
+      footer:
+        copyrightName: "NFC.cool"
+        startYear: 2017
+        showAttribution: false
+        links:
+          - title: "Funciones"
+            url: "/features/"
+          - title: "Lector NFC Online"
+            url: "/online-nfc-reader/"
+          - title: "Tarjeta de Visita"
+            url: "/business-card/"
+          - title: "Etiquetas NFC"
+            url: "/affiliate-links/"
+          - title: "Desarrolladores"
+            url: "/developers/"
+          - title: "Opiniones"
+            url: "/reviews/"
+          - title: "Acerca de"
+            url: "/about/"
+          - title: "Changelog"
+            url: "/changelog/"
+          - title: "Blog"
+            url: "/blog/"
+          - title: "Soporte y Contacto"
+            url: "/contact/"
+          - title: "Prensa"
+            url: "/press/"
+          - title: "Privacidad"
+            url: "/privacy/"
+          - title: "Términos"
+            url: "/terms/"
+          - title: "Libro de Reclamaciones"
             url: "https://www.livroreclamacoes.pt/Inicio/"
 
 contentDirectory: "Content"

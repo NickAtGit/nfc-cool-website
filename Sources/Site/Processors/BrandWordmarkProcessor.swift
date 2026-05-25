@@ -71,7 +71,10 @@ struct BrandWordmarkProcessor: OutputProcessor {
          lastEnd = range.upperBound
       }
       result += inner[lastEnd...].replacingOccurrences(of: "NFC.cool", with: Self.wordmark)
-      return result
+      // Weld "Tools" to the wordmark so "NFC.cool Tools" never breaks across a
+      // line in any language; longer descriptors stay free to wrap. Mirrors the
+      // same exception in `renderTitleWithBrandTail` for renderer-built titles.
+      return result.replacingOccurrences(of: Self.wordmark + " Tools", with: Self.wordmark + "&#160;Tools")
    }
 
    private func group(_ match: NSTextCheckingResult, _ index: Int, in string: String) -> String {

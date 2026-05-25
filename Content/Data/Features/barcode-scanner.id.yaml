@@ -1,0 +1,98 @@
+slug: "barcode-scanner"
+backLinkText: "← Semua fitur"
+
+card:
+  title: "Pemindai Barcode"
+  description: "Memindai 13 format barcode ditambah 6 kode dua dimensi - EAN, UPC, QR, PDF417, Data Matrix, dan lainnya. Mode batch membuat kamera tetap terbuka untuk inventaris dan check-in."
+  imagePath: "/assets/images/Webflow/qr-barcode.webp"
+  platforms: "iOS only"
+
+hero:
+  title: "Pemindai Barcode"
+  subtitle: "Memindai 19 format kode - 13 barcode linear (EAN, UPC, Code 128, GS1 DataBar dan lainnya) ditambah 6 kode dua dimensi (QR, PDF417, Aztec, Data Matrix dan varian Micro). Mode batch membuat kamera tetap terbuka untuk penghitungan inventaris dan check-in acara."
+  platforms: "iOS only"
+  heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
+
+capabilitiesTitle: "Yang bisa Anda lakukan"
+capabilities:
+  - title: "Semua format barcode utama"
+    description: "Memindai EAN-13/8, UPC-E (UPC-A dibaca sebagai EAN-13), Code 128, Code 39 (termasuk Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix dan lainnya - deteksi format otomatis, tanpa perlu beralih mode."
+  - title: "Mode batch"
+    description: "Memindai sekumpulan barcode secara berurutan tanpa perlu mengarahkan ulang. Berguna untuk penghitungan inventaris, check-in acara, atau pengarsipan perpustakaan."
+  - title: "Pencarian produk"
+    description: "Ketuk barcode ritel yang dipindai untuk mencarinya - nomor barcode dijalankan melalui mesin pencari yang sudah dikonfigurasi (Google, Ecosia, DuckDuckGo, Bing, atau Startpage) dan hasil yang sesuai langsung muncul."
+  - title: "Riwayat pemindaian & berbagi"
+    description: "Setiap pemindaian disimpan dengan cap waktu. Favorit kan pemindaian yang penting, beri judul, dan bagikan langsung dari tampilan riwayat."
+  - title: "Tindakan otomatis saat dibaca"
+    description: "URL dan kode pintasan dapat terbuka otomatis seketika dipindai, memicu webhook, atau dibacakan dengan suara - otomatisasi lima kait yang sama yang menggerakkan NFC dan QR."
+
+subsectionsTitle: "Dirancang untuk pemindaian volume tinggi"
+subsections:
+  - title: "Multi-pindai, batch read, dan senter sesuai kebutuhan"
+    body: "<p>Tiga pengaturan mengubah pemindai dari sekali pakai menjadi alur kerja berkelanjutan. <strong>Multi-scan</strong> memungkinkan Anda memindai beberapa kode dalam satu sesi kamera. <strong>Batch read</strong> membuat kamera tetap terbuka untuk inventaris atau check-in acara. <strong>Senter otomatis</strong> mengaktifkan LED dalam kondisi cahaya rendah sehingga Anda tidak perlu mencari tombol lampu kilat.</p>"
+    imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
+    imageAlt: "iPhone memindai beberapa kode QR dan barcode dengan cahaya senter"
+    platforms: "iOS"
+
+  - title: "Webhook untuk penghitungan stok & check-in acara"
+    body: "<p>Arahkan pemindai barcode ke sistem back-office Anda. Setiap barcode yang dibaca memicu webhook ke URL Anda, sehingga basis data inventaris, CRM peserta, atau katalog perpustakaan Anda diperbarui secara real-time seiring kamera bergerak. Lihat <a href=\"/features/webhooks/\">Webhook & Otomatisasi</a> untuk bentuk payload JSON dan server referensi.</p>"
+    platforms: "iOS"
+
+  - title: "Shortcuts & App Intents"
+    body: "<p>NFC.cool terhubung langsung ke aplikasi Shortcuts iOS dengan tindakan bawaan: ambil tag NFC terakhir yang dipindai, tulis pesan ke tag, buka pemindai, atau ambil kode QR terakhir yang dipindai. Rangkai menjadi Shortcuts yang memindai tag, mengurai payload-nya, dan memulai apa pun yang Anda inginkan selanjutnya - otomatisasi, pencatatan, journaling, apa saja. Tindakan yang sama menggerakkan kontrol <strong>Tombol Pindai</strong> di layar kunci pada iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone menghubungkan tag NFC ke blok otomatisasi"
+    platforms: "iOS"
+
+  - title: "Sinkronisasi iCloud di iPhone, iPad, dan Mac"
+    body: "<p>Riwayat pemindaian barcode Anda tersinkronisasi di semua perangkat pada akun iCloud Anda. Pindai rak produk di iPhone, tinjau daftar di iPad, beri judul dan bagikan pemindaian dari <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - satu riwayat tersinkronisasi, tidak perlu memindahkan apa pun secara manual.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool tersinkronisasi di iPhone, iPad, dan Mac"
+    platforms: "iOS"
+
+specsTitle: "Format yang didukung (19 total)"
+specs:
+  - title: "Barcode 1D (13 format)"
+    items:
+      - "EAN-13, EAN-8"
+      - "UPC-E (UPC-A dibaca sebagai EAN-13)"
+      - "Code 39, Code 39 Mod 43"
+      - "Code 93, Code 128"
+      - "Codabar"
+      - "Interleaved 2 of 5, ITF-14"
+      - "GS1 DataBar (standar, Expanded, Limited)"
+  - title: "Kode 2D / bertumpuk (6 format)"
+    items:
+      - "Kode QR"
+      - "Micro QR"
+      - "PDF417"
+      - "Micro PDF417"
+      - "Aztec"
+      - "Data Matrix"
+
+pricing:
+  title: "Gratis vs Platinum"
+  columns: ["Gratis", "Platinum"]
+  rows:
+    - label: "Baca QR & barcode"
+      values: ["✓", "✓"]
+    - label: "Batch read QR & barcode"
+      values: ["✗", "✓"]
+
+faqTitle: "Pertanyaan yang sering diajukan"
+faq:
+  - question: "Mengapa ini hanya untuk iOS?"
+    answer: "Versi Android NFC.cool saat ini berfokus pada NFC dan Kartu Nama Digital. Pemindaian barcode ada dalam peta jalan Android."
+  - question: "Bisakah saya memindai beberapa barcode sekaligus?"
+    answer: "Ya - mode batch membuat kamera tetap terbuka dan mengantrekan setiap barcode yang ditemukan. Ketuk item mana pun dalam antrian untuk bertindak atasnya."
+  - question: "Bisakah saya menyimpan dan berbagi pemindaian saya?"
+    answer: "Ya - setiap pemindaian tetap ada di tampilan riwayat beserta cap waktunya. Anda dapat memfavoritkan pemindaian, memberinya judul, dan membagikannya dari sana."
+  - question: "Apakah pemindai bekerja secara offline?"
+    answer: "Ya untuk pemindaian itu sendiri. Pencarian produk membutuhkan internet (karena menjalankan nomor barcode melalui mesin pencari), tetapi pembacaan barcode hanya di perangkat."
+
+relatedReadingTitle: "Baca selengkapnya"
+relatedReading:
+  - title: "Apa yang bisa dibawa kode QR selain URL"
+    url: "/blog/tap-scan-thrive/"
+  - title: "Pemindai & Studio kode QR"
+    url: "/features/qr-scanner/"

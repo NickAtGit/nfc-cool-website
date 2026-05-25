@@ -42,9 +42,22 @@ func renderTitleWithBrandTail(_ title: String, tagName: String, classAttr: Strin
    let separator: String
    let brandStart: String.Index
    if let sep = title.range(of: " - ", options: .backwards), sep.upperBound <= coolRange.lowerBound {
-      lead = String(title[..<sep.lowerBound]).htmlEscaped
-      separator = "<br/>"
       brandStart = sep.upperBound
+      separator = "<br/>"
+      // The wordmark's leading token (e.g. "NFC" in "NFC.cool") sits at the
+      // start of the brand line. When the lead phrase already ends with that
+      // same token, drop it so the word isn't repeated across the break -
+      // Spanish/Portuguese/Indonesian put the qualifier last ("...etiquetas
+      // NFC"), which would otherwise stack "...NFC" directly above "NFC.cool".
+      let head = String(title[sep.upperBound..<coolRange.lowerBound])
+      var leadText = String(title[..<sep.lowerBound]).trimmingCharacters(in: .whitespaces)
+      if !head.isEmpty, leadText.lowercased().hasSuffix(head.lowercased()) {
+         let cut = leadText.index(leadText.endIndex, offsetBy: -head.count)
+         if cut != leadText.startIndex, leadText[leadText.index(before: cut)] == " " {
+            leadText = String(leadText[..<cut]).trimmingCharacters(in: .whitespaces)
+         }
+      }
+      lead = leadText.htmlEscaped
    } else {
       // No separator: start the wordmark at the word ".cool" belongs to so the
       // whole "NFC.cool" renders as one unit, matching the landing hero.
@@ -58,7 +71,14 @@ func renderTitleWithBrandTail(_ title: String, tagName: String, classAttr: Strin
    // Anything after ".cool" (e.g. " Tools", " Business Card") is a plain
    // descriptor - kept outside .brand-name so only "NFC.cool" is held nowrap
    // and the descriptor can wrap on narrow screens.
-   let brandRest = String(title[coolRange.upperBound...]).htmlEscaped
+   var brandRest = String(title[coolRange.upperBound...]).htmlEscaped
+   // Exception: "Tools" stays welded to the wordmark in every language. A bare
+   // " Tools" orphaning onto its own line below "NFC.cool" reads badly, so bind
+   // it with a non-breaking space. Longer descriptors (" Business Card") keep
+   // wrapping freely.
+   if brandRest.hasPrefix(" Tools") {
+      brandRest = "&#160;" + String(brandRest.dropFirst())
+   }
    let wordmark = "<span class=\"brand-name\">\(brandHead)<em class=\"brand-tail\">\(brandCool)</em></span>\(brandRest)"
    return "<\(tagName)\(classPart)>\(lead)\(separator)\(wordmark)</\(tagName)>"
 }

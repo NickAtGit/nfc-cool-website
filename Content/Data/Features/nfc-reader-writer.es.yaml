@@ -1,0 +1,188 @@
+slug: "nfc-reader-writer"
+backLinkText: "← Todas las funciones"
+
+card:
+  title: "Lector y grabador NFC"
+  description: "Lee cualquier etiqueta NFC y graba más de 25 tipos de mensaje - enlaces web, Wi-Fi, tarjetas de visita, atajos y mucho más. Bloquea etiquetas y cifra secretos con NFC Safe."
+  imagePath: "/assets/images/Webflow/nfc-card.webp"
+  platforms: "iOS · Android"
+
+hero:
+  title: "Lector y grabador NFC"
+  subtitle: "Lee y graba etiquetas NFC en iPhone y Android. Toca para leer cualquier etiqueta, graba las tuyas con enlaces, contactos y Wi-Fi, y luego bloquéalas para que nadie más pueda cambiarlas."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+
+capabilitiesTitle: "Lo que puedes hacer"
+capabilities:
+  - title: "Lee cualquier etiqueta NDEF"
+    description: "Toca cualquier etiqueta NFC e inspecciona sus registros NDEF - URLs, contactos, texto plano, datos MIME, lanzamientos de apps, payloads personalizados - además de los bytes en bruto y el tipo de tecnología."
+  - title: "Graba más de 25 tipos de mensaje"
+    description: "Webs, números de teléfono, vCards, credenciales de Wi-Fi, PayPal, Cash App y Venmo, Spotify, YouTube, Atajos, Instagram, X, LinkedIn, TikTok, WhatsApp y mucho más."
+  - title: "Bloquea y protege con contraseña"
+    description: "Haz que una etiqueta sea permanentemente de solo lectura, o protégela con contraseña para que solo los dispositivos autorizados puedan leerla o grabarla. Protección de etiquetas de nivel industrial."
+  - title: "Formatea, graba en lote, clona"
+    description: "Formatea etiquetas vacías, graba el mismo payload en un conjunto de etiquetas para eventos o lanzamientos de productos, y clona el contenido de una etiqueta en otra."
+  - title: "Acciones automáticas al leer"
+    description: "Ejecuta automáticamente Atajos de iOS, lee el resultado en voz alta, dispara un webhook o abre enlaces de forma automática cuando se toca una etiqueta. Cinco disparadores, un toque."
+
+subsectionsTitle: "Va más a fondo que la app NFC corriente"
+subsections:
+  - title: "NFC Safe - cifra secretos en la propia etiqueta"
+    body: "<p>La mayoría de las apps NFC tratan la etiqueta como una postal - cualquiera con un móvil puede leerla. NFC Safe la trata como un sobre sellado. Tu secreto (una contraseña, una frase de recuperación, una clave de licencia o cualquier texto) se cifra en tu dispositivo con AES-256 antes de llegar siquiera a la etiqueta. Pierde la etiqueta, que te la roben, dásela a un desconocido - sin tu frase de contraseña, el payload no es más que ruido.</p><p>El mismo cifrado funciona en ambas plataformas, así que puedes bloquear un secreto en el iPhone y desbloquearlo en Android. ¿Quieres el desglose completo de cómo se cifra? <a href=\"/blog/nfc-safe-encrypted-secrets/\">Lee el análisis a fondo de NFC Safe en el blog</a>.</p>"
+    imagePath: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
+    imageAlt: "Secreto cifrado de NFC Safe en una etiqueta"
+    platforms: "iOS · Android"
+
+  - title: "Contador de toques NFC - sigue cada etiqueta por su ID y su recuento"
+    body: "<p>Algunos chips NFC cuentan sus propios escaneos por hardware. El contador de toques NFC le saca partido: configura una etiqueta para que añada su recuento de toques en directo - y/o su ID único - a lo que sea que lleve (una URL, correo, SMS o Atajo) en cada lectura. Sin servidor, sin internet, sin backend que mantener - el chip se encarga él mismo de contar y sustituir.</p><p>Así, una sola etiqueta te dice qué pegatina física se ha tocado y cuántas veces, y te permite actuar en consecuencia: limitar los primeros 100 escaneos a una demo, seguir la interacción en una tarjeta de visita o demostrar la autenticidad con un contador que solo sube. ¿Quieres la guía completa? <a href=\"/blog/count-nfc-tag-scans/\">Lee la guía del contador de toques NFC en el blog</a>, o <a href=\"/tap-counter/\">prueba la demo en directo</a> - toca una etiqueta y observa cómo sube el recuento de la página.</p>"
+    imagePath: "/assets/images/Blog/count-nfc-tag-scans.webp"
+    imageAlt: "Una etiqueta NFC tocada por un móvil con su recuento de escaneos subiendo"
+    platforms: "iOS · Android"
+
+  - title: "OpenPrintTag - el filamento de tu impresora 3D, en la bobina"
+    body: "<p>OpenPrintTag es un estándar abierto para incrustar los metadatos de la bobina de filamento (material, color, fabricante, UUID, longitud restante) en un pequeño registro NDEF codificado en CBOR. NFC.cool lee y graba el formato de forma nativa en ambas plataformas - para que las impresoras compatibles puedan identificar tu bobina en el momento en que se carga. ¿Nuevo en el formato? <a href=\"/blog/openprinttag-read-write-nfc-spools-phone/\">Nuestra guía del blog te explica cómo leer y grabar bobinas OpenPrintTag</a>.</p><p>El mismo formato alimenta los payloads de webhook estructurados de la página <a href=\"/features/webhooks/\">Webhooks y automatización</a> - dispara un POST a tu granja de impresión en el instante en que se detecta una bobina nueva.</p>"
+    imagePath: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
+    imageAlt: "Leer y grabar bobinas NFC OpenPrintTag con un móvil"
+    platforms: "iOS · Android"
+
+  - title: "Reinicio del cabezal del cepillo de dientes"
+    body: "<p>Los cabezales de los cepillos Philips Sonicare llevan una etiqueta NFC que registra el uso para que el mango te insista en cambiarlos. NFC.cool puede reiniciar ese contador - lee el estado de la etiqueta, te guía por el reinicio y graba de vuelta el nuevo estado. Igual en ambas plataformas. ¿Quieres saber exactamente qué registra el chip? <a href=\"/blog/reset-sonicare-brush-head-nfc/\">Lee la guía del cabezal Sonicare en el blog</a>. (Nosotros no fabricamos cabezales; solo le damos al tuyo otro mes de dignidad.)</p>"
+    imagePath: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
+    imageAlt: "Reiniciar un cabezal Philips Sonicare con NFC"
+    platforms: "iOS · Android"
+
+  - title: "Modo avanzado"
+    body: "<p>Para quienes quieren saber qué hay realmente en el chip: NFC.cool puede volcar toda la memoria de una etiqueta en hexadecimal, detectar el modelo del chip subyacente (NTAG213/215/216, NTAG424 DNA, MIFARE Classic/Ultralight, variantes ISO 15693, FeliCa, etc.) e indicar el total de bytes, los bytes de usuario, las páginas de bloqueo y los contenedores de capacidad. Hecho para desarrolladores, makers y cualquiera que esté depurando una etiqueta.</p><p>En iOS, el <strong>modo Expert APDU</strong> va un nivel más a fondo - envía comandos ISO 7816 en bruto a la etiqueta e inspecciona las respuestas, para cuando estés integrando un lector poco habitual, un protocolo personalizado, o simplemente quieras ver qué admite el chip.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-power-user-mode.webp"
+    imageAlt: "iPhone inspeccionando la memoria de una etiqueta NFC con paneles de diagnóstico"
+    platforms: "iOS · Android"
+
+  - title: "Criptomonedas con un toque"
+    body: "<p>Codifica direcciones de Bitcoin, Ethereum, Solana, Lightning o cualquier monedero como un registro NDEF de URI de pago. Toca para compartir un monedero estático en conferencias, incrústalo en una pegatina de tu producto, o entrégale a alguien una tarjeta metálica con una dirección permanente. La lectura es recíproca - escanea una etiqueta de cripto y entra directamente en tu app de monedero.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-cryptocurrency-tap.webp"
+    imageAlt: "iPhone compartiendo un monedero de cripto a través de una etiqueta NFC"
+    platforms: "iOS · Android"
+
+  - title: "Conéctate al Wi-Fi sin escribir la contraseña"
+    body: "<p>Graba en una etiqueta, una sola vez, el SSID, el tipo de seguridad y la contraseña de tu Wi-Fi. A partir de ahí, quien la toque entra en la red - sin deletrear la contraseña, sin el post-it garabateado en el AirBnB. Invierte el proceso: lee la etiqueta de Wi-Fi de la casa de otra persona y deja que el sistema operativo te pida conectarte.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-wifi-onboarding.webp"
+    imageAlt: "iPhone conectándose al Wi-Fi desde una etiqueta NFC"
+    platforms: "iOS · Android"
+
+  - title: "Léelo en voz alta"
+    body: "<p>Por accesibilidad, para flujos de trabajo con las manos libres, o simplemente porque es agradable - activa el disparador de síntesis de voz y el payload de cada etiqueta se lee en voz alta en el momento en que la tocas. La velocidad de la voz es configurable; funciona en paralelo con VoiceOver y otras tecnologías de apoyo.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-speak-aloud.webp"
+    imageAlt: "iPhone leyendo una etiqueta NFC en voz alta con ondas de audio"
+    platforms: "iOS"
+
+  - title: "Grabación en lote por CSV"
+    body: "<p>Para operadores NFC serios en iOS: sube una hoja de cálculo de payloads, dale el móvil a un ayudante y graba todo el conjunto de etiquetas en una sola sesión.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
+    imageAlt: "iPhone grabando etiquetas NFC en lote desde una hoja de cálculo"
+    platforms: "iOS"
+
+  - title: "Atajos y App Intents"
+    body: "<p>NFC.cool se integra directamente en la app Atajos de iOS con acciones incorporadas: obtener la última etiqueta NFC leída, grabar un mensaje en una etiqueta, abrir el lector u obtener el último código QR leído. Encadénalas en Atajos que lean una etiqueta, analicen su payload e inicien lo que quieras a continuación - automatización, registro, diario, lo que sea. Las mismas acciones alimentan el control <strong>Botón de escaneo</strong> en la pantalla de bloqueo en iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone conectando una etiqueta NFC a bloques de automatización"
+    platforms: "iOS"
+
+  - title: "Sincronización con iCloud en iPhone, iPad y Mac"
+    body: "<p>El historial de escaneos, las entradas de NFC Safe y las plantillas de grabación se sincronizan sin esfuerzo en todos los dispositivos con sesión iniciada en tu cuenta de iCloud. Toca una etiqueta con el iPhone que llevas en el bolsillo y el escaneo está en la biblioteca de tu iPad un instante después. NFC.cool ahora también <a href=\"/blog/nfc-cool-comes-to-mac/\">funciona en Macs con Apple Silicon</a>, así que la misma biblioteca aparece ahí.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool sincronizándose en iPhone, iPad y Mac"
+    platforms: "iOS"
+
+specsTitle: "Etiquetas y tecnologías compatibles"
+specs:
+  - title: "Familias de etiquetas"
+    items:
+      - "NFC Forum Tipo 1, 2, 3, 4, 5"
+      - "NTAG 213, 215, 216, 424 DNA, variantes NTAG I²C"
+      - "MIFARE Classic 1K/4K, MIFARE Ultralight, MIFARE DESFire"
+      - "ISO 14443 A/B, ISO 15693, FeliCa (iOS)"
+  - title: "Tipos de registro"
+    items:
+      - "URI (web, mailto, tel, sms, geo, esquemas personalizados)"
+      - "Texto (con etiqueta de idioma)"
+      - "vCard / contacto"
+      - "Credenciales de Wi-Fi, emparejamiento Bluetooth"
+      - "Smart Poster (compuesto)"
+      - "Lanzamiento de aplicación"
+      - "Dirección de criptomoneda (basada en URI)"
+      - "OpenPrintTag (metadatos de filamento de impresora 3D)"
+      - "NFC Safe (tipo externo cifrado, urn:nfc:ext:crypto)"
+      - "MIME, Externo, bytes en bruto"
+  - title: "Notas de plataforma"
+    items:
+      - "iOS 16+ (lectura de etiquetas en segundo plano desde la pantalla de bloqueo en iPhone XS y más recientes)"
+      - "Android 8.0+ (API 26), lectura NFC en primer plano"
+      - "La grabación de etiquetas en iOS requiere permisos de Core NFC - ya integrados en la app"
+      - "La lectura NFC en segundo plano en Android requiere que la app esté en primer plano"
+
+pricing:
+  title: "Gratis vs Platinum"
+  columns: ["Gratis", "Platinum"]
+  rows:
+    - label: "Leer etiquetas NFC"
+      values: ["✓", "✓"]
+    - label: "Analizar etiquetas NFC"
+      values: ["✓", "✓"]
+    - label: "Grabar etiquetas NFC"
+      values: ["limited", "✓"]
+    - label: "Tipos de mensaje NFC"
+      values: ["limited", "✓"]
+    - label: "Formatear etiquetas NFC"
+      values: ["✗", "✓"]
+    - label: "Proteger etiquetas NFC con contraseña"
+      values: ["✗", "✓"]
+    - label: "Bloquear etiquetas NFC"
+      values: ["✗", "✓"]
+    - label: "NFC Safe"
+      values: ["✗", "✓"]
+    - label: "Modos de lote NFC"
+      values: ["✗", "✓"]
+    - label: "Grabación NFC por CSV"
+      values: ["✗", "✓"]
+    - label: "Comandos NFC avanzados"
+      values: ["✗", "✓"]
+    - label: "Contador de toques NFC"
+      values: ["✗", "✓"]
+    - label: "OpenPrintTag (impresión 3D)"
+      values: ["✓", "✓"]
+
+featuredReviewsTitle: "Lo que dice la gente sobre NFC"
+featuredReviews:
+  - quote: "Una experiencia de uso preciosa y una ejecución casi impecable, a diferencia de las otras apps NFC."
+    author: "garretthoyos"
+    location: "App Store · Mar 2023"
+  - quote: "ADORO ESTA APP. Es genial para gente como yo, que sabe poco o nada sobre etiquetas NFC."
+    author: "Dallasg479"
+    location: "App Store · Oct 2020"
+
+faqTitle: "Preguntas frecuentes"
+faq:
+  - question: "¿Mi iPhone tiene que estar desbloqueado para leer una etiqueta?"
+    answer: "Para la mayoría de los escaneos de etiquetas, no - el iPhone XS y más recientes pueden leer etiquetas NDEF desde la pantalla de bloqueo en segundo plano, sin necesidad de abrir la app. En Android, la app tiene que estar en primer plano para leer una etiqueta."
+  - question: "¿Puedo leer una etiqueta sin conexión a internet?"
+    answer: "Sí. Las lecturas y grabaciones NFC ocurren por completo en el dispositivo. NFC.cool nunca sube el contenido de las etiquetas a ningún servidor."
+  - question: "¿Es seguro grabar etiquetas NFC?"
+    answer: "La grabación es segura y reversible por defecto - puedes regrabar una etiqueta tantas veces como quieras. Usa la función de bloqueo solo cuando estés seguro: una vez que una etiqueta queda bloqueada de forma permanente, no se puede regrabar."
+  - question: "¿Qué seguridad tiene NFC Safe?"
+    answer: "NFC Safe cifra los payloads con AES-256-GCM, derivando la clave de tu frase de contraseña mediante PBKDF2-HMAC-SHA256 a lo largo de 100.000 iteraciones, con un salt aleatorio de 16 bytes y un nonce de 12 bytes por registro. Sin la frase de contraseña, el payload de la etiqueta es indistinguible de bytes aleatorios."
+  - question: "¿La misma etiqueta NFC Safe funciona en iOS y en Android?"
+    answer: "Sí. El formato es interoperable. Cifra en una plataforma, descifra en la otra - misma frase de contraseña, mismo payload."
+  - question: "¿Reiniciar un cabezal Sonicare anula algo?"
+    answer: "Reinicia el contador de uso de la etiqueta para que el mango deje de insistirte. El propio cabezal no sabe que se ha reiniciado; simplemente sigue cepillando. Usa tu propio criterio para saber cuándo hay que cambiar las cerdas."
+
+relatedReadingTitle: "Sigue leyendo"
+relatedReading:
+  - title: "Leer etiquetas NFC online en tu navegador"
+    url: "/online-nfc-reader/"
+  - title: "Etiquetas NFC explicadas: una guía completa para principiantes"
+    url: "/blog/nfc-tags-beginners-guide/"
+  - title: "Cómo grabar etiquetas NFC con tu iPhone"
+    url: "/blog/write-nfc-tags-iphone/"
+  - title: "Qué tipos de etiqueta NFC funcionan con el iPhone"
+    url: "/blog/nfc-tag-types-for-iphones/"
