@@ -1,5 +1,5 @@
 ---
-id: nfc-blog-015
+id: "nfc-cool-comes-to-mac-2026-05"
 title: "NFC.cool Chega ao Mac - Toda a Sua Biblioteca de Leituras, em Todos os Ecrãs"
 date: 2026-05-02
 tags: ["announcements", "iphone", "qr-codes"]

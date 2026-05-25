@@ -1,5 +1,5 @@
 ---
-id: nfc-blog-015
+id: "nfc-cool-comes-to-mac-2026-05"
 title: "NFC.cool kommt auf den Mac - Deine gesamte Scan-Bibliothek auf jedem Bildschirm"
 date: 2026-05-02
 tags: ["announcements", "iphone", "qr-codes"]

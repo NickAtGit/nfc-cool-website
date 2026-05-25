@@ -1,5 +1,5 @@
 ---
-id: nfc-blog-015
+id: "nfc-cool-comes-to-mac-2026-05"
 title: "NFC.coolがMacに登場 - すべてのスキャンライブラリを、どの画面でも"
 date: 2026-05-02
 tags: ["announcements", "iphone", "qr-codes"]

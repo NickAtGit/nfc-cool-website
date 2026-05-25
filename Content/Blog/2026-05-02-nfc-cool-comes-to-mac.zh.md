@@ -1,5 +1,5 @@
 ---
-id: nfc-blog-015
+id: "nfc-cool-comes-to-mac-2026-05"
 title: "NFC.cool 登陆 Mac：你的整个扫描库，出现在每一块屏幕上"
 date: 2026-05-02
 tags: ["announcements", "iphone", "qr-codes"]
