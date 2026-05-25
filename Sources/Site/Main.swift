@@ -1,7 +1,21 @@
+import Foundation
 import SiteKit
 
 @main struct Site {
    static func main() throws {
+      // Custom `i18n-check` command - the translation completeness gate. Runs
+      // before SiteKit's dispatcher so it can own the exit code (hard gate).
+      let arguments = CommandLine.arguments
+      if arguments.count > 1, arguments[1] == "i18n-check" {
+         let project = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
+         let siteConfig = try SiteConfig.load(from: project)
+         let checkConfig = try I18nCheckConfig.load(from: project)
+         let result = I18nChecker.run(projectDirectory: project, siteConfig: siteConfig, checkConfig: checkConfig)
+         I18nChecker.report(result)
+         if result.hasErrors { exit(1) }
+         return
+      }
+
       try SiteBuilder.blog(configPath: "SiteConfig.yaml")
          .replacing(HomePageRenderer.self, with: LandingPageRenderer())
          .replacing(ErrorPageRenderer.self, with: CustomErrorPageRenderer())
@@ -53,6 +67,7 @@ import SiteKit
          .processor(LlmsTxtFeaturesProcessor())
          .processor(EmailObfuscationProcessor())
          .processor(BrandWordmarkProcessor())
+         .processor(LangPickerDataProcessor())
          .processor(AssetMinifier())
          .run()
    }

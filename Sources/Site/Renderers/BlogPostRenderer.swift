@@ -50,17 +50,18 @@ struct BlogPostRenderer: Renderer {
       newsletterHTML: String
    ) -> OutputFile {
       let helper = OutputFileRenderer(context: context)
-      let locale = context.uiStrings.locale
       let listingPath = context.router.sectionListingPath(for: section.config)
       let pagePath = context.router.pagePath(for: page, in: section.config)
 
       let dateText = page.date.map { dateFormatter.string(from: $0) } ?? ""
       let author = page.author?.name ?? ""
-      let backText = Self.localized(.back, locale: locale, sectionName: section.config.name)
-      let relatedTitle = Self.localized(.related, locale: locale)
+      let backText = section.config.name.isEmpty
+         ? context.s(.blogBack)
+         : context.s(.blogBackTo, section.config.name)
+      let relatedTitle = context.s(.blogRelated)
 
       let tagsHTML = page.tags.map { tag in
-         "<a class=\"blog-post-tag\" href=\"\(context.router.tagPath(for: tag))\">\(TagListingRenderer.displayName(for: tag, locale: locale).htmlEscaped)</a>"
+         "<a class=\"blog-post-tag\" href=\"\(context.router.tagPath(for: tag))\">\(TagListingRenderer.displayName(for: tag, strings: context.uiStrings).htmlEscaped)</a>"
       }.joined()
 
       let heroVisual: PageHeroVisual = {
@@ -175,10 +176,10 @@ struct BlogPostRenderer: Renderer {
             </a>
             """
          }
-         let olderLink = link(older, dir: "older", rel: "prev", label: Self.localized(.older, locale: locale))
-         let newerLink = link(newer, dir: "newer", rel: "next", label: Self.localized(.newer, locale: locale))
+         let olderLink = link(older, dir: "older", rel: "prev", label: context.s(.blogOlderPost))
+         let newerLink = link(newer, dir: "newer", rel: "next", label: context.s(.blogNewerPost))
          if olderLink.isEmpty && newerLink.isEmpty { return "" }
-         let navLabel = Self.localized(.postNav, locale: locale).htmlEscaped
+         let navLabel = context.s(.blogPostNavigation).htmlEscaped
          return """
          <nav class="blog-post-nav" aria-label="\(navLabel)">\(olderLink)\(newerLink)</nav>
          """
@@ -233,28 +234,7 @@ struct BlogPostRenderer: Renderer {
       return OutputFile(outputPath: outputPath, content: html)
    }
 
-   // MARK: - Localization
-
-   private enum LocKey { case back, related, newer, older, postNav }
-   private static func localized(_ key: LocKey, locale: String, sectionName: String = "") -> String {
-      switch (key, locale) {
-      case (.back, "de"): return sectionName.isEmpty ? "← Zurück" : "← Zurück zu \(sectionName)"
-      case (.back, "ja"): return sectionName.isEmpty ? "← 戻る" : "← \(sectionName)に戻る"
-      case (.back, _):    return sectionName.isEmpty ? "← Back" : "← Back to \(sectionName)"
-      case (.related, "de"): return "Weitere Beiträge"
-      case (.related, "ja"): return "関連記事"
-      case (.related, _):    return "Related"
-      case (.newer, "de"): return "Neuerer Beitrag"
-      case (.newer, "ja"): return "新しい記事"
-      case (.newer, _):    return "Newer Post"
-      case (.older, "de"): return "Älterer Beitrag"
-      case (.older, "ja"): return "古い記事"
-      case (.older, _):    return "Older Post"
-      case (.postNav, "de"): return "Beitragsnavigation"
-      case (.postNav, "ja"): return "記事ナビゲーション"
-      case (.postNav, _):    return "Post Navigation"
-      }
-   }
+   // MARK: - Date formatting
 
    private static func dateFormatter(for locale: String) -> DateFormatter {
       let df = DateFormatter()

@@ -13,26 +13,9 @@ struct FeaturesIndexRenderer: Renderer {
       let features = try loadFeatures(context: context)
       guard !features.isEmpty else { return [] }
 
-      // Localized hub headings - keep a tiny in-code dictionary.
-      let (title, subtitle): (String, String) = {
-         switch locale {
-         case "de":
-            return (
-               "NFC.cool Funktionen",
-               "NFC-Tags lesen, schreiben und dekodieren. QR-Codes und Barcodes scannen. Dokumente, 3D-Objekte und Räume erfassen. Jeden Scan an deinen eigenen Webhook senden - eine App, jeder Scanner, der dein Smartphone sein kann."
-            )
-         case "ja":
-            return (
-               "NFC.coolの機能",
-               "NFCタグの読み取り・書き込み・デコード。QRコードとバーコードのスキャン。書類、3Dオブジェクト、ルームの取り込み。すべてのスキャンをあなたのWebhookへ - スマホを、考えられるすべてのスキャナーに。"
-            )
-         default:
-            return (
-               "NFC.cool Features",
-               "Read, write, and decode NFC tags. Scan QR codes and barcodes. Capture documents, 3D objects, and rooms. Forward every scan to your own webhook - one app, every scanner your phone can be."
-            )
-         }
-      }()
+      // Localized hub headings come from the UI-string catalog.
+      let title = context.s(.featuresHubTitle)
+      let subtitle = context.s(.featuresHubSubtitle)
 
       let toolsAppStoreURL = StoreLink.appStore(app: .tools, page: "web-features", locale: locale)
       let toolsGooglePlayURL = StoreLink.googlePlay(app: .tools, page: "web-features", locale: locale)

@@ -43,12 +43,11 @@ struct TagListingRenderer: Renderer {
             sectionBySource: sectionBySource,
             context: context,
             helper: helper,
-            locale: locale,
             defaultLang: defaultLang,
             dateFormatter: dateFormatter
          ))
       }
-      files.append(self.renderTagsIndex(context: context, helper: helper, locale: locale))
+      files.append(self.renderTagsIndex(context: context, helper: helper))
       return files
    }
 
@@ -60,12 +59,11 @@ struct TagListingRenderer: Renderer {
       sectionBySource: [URL: ContentSection],
       context: BuildContext,
       helper: OutputFileRenderer,
-      locale: String,
       defaultLang: String,
       dateFormatter: DateFormatter
    ) -> OutputFile {
-      let displayName = Self.displayName(for: tag, locale: locale)
-      let description = Self.tagDescription(for: tag, locale: locale)
+      let displayName = Self.displayName(for: tag, strings: context.uiStrings)
+      let description = Self.tagDescription(for: tag, strings: context.uiStrings)
       let tagPath = context.router.tagPath(for: tag)
 
       let sortedPages = pages.sorted { (a, b) -> Bool in
@@ -78,7 +76,7 @@ struct TagListingRenderer: Renderer {
       }
 
       let cards = resolved.map { entry in
-         self.card(for: entry.page, href: entry.href, locale: locale, dateFormatter: dateFormatter)
+         self.card(for: entry.page, href: entry.href, strings: context.uiStrings, dateFormatter: dateFormatter)
       }.joined()
 
       let jsonLD = StructuredData.collectionPageGraph(
@@ -102,7 +100,7 @@ struct TagListingRenderer: Renderer {
       )
 
       let heroText = """
-      <p class="tag-page-back"><a href="\(context.router.tagsIndexPath())">\(Self.backLabel(locale: locale).htmlEscaped)</a></p>
+      <p class="tag-page-back"><a href="\(context.router.tagsIndexPath())">\(context.s(.tagsBackAll).htmlEscaped)</a></p>
       \(renderTitleWithBrandTail(displayName, tagName: "h1", classAttr: "blog-index-title"))
       <p class="blog-index-subtitle">\(description.htmlEscaped)</p>
       """
@@ -128,10 +126,10 @@ struct TagListingRenderer: Renderer {
 
    // MARK: - Tags index
 
-   private func renderTagsIndex(context: BuildContext, helper: OutputFileRenderer, locale: String) -> OutputFile {
+   private func renderTagsIndex(context: BuildContext, helper: OutputFileRenderer) -> OutputFile {
       let indexPath = context.router.tagsIndexPath()
-      let heading = Self.indexHeading(locale: locale)
-      let description = Self.indexDescription(locale: locale)
+      let heading = context.s(.tagsIndexHeading)
+      let description = context.s(.tagsIndexDescription)
 
       // Most-used tags first so the index leads with the deepest topics.
       let sortedTags = context.tags.sorted { lhs, rhs in
@@ -139,7 +137,7 @@ struct TagListingRenderer: Renderer {
       }
 
       let chips = sortedTags.map { tag, pages in
-         let name = Self.displayName(for: tag, locale: locale)
+         let name = Self.displayName(for: tag, strings: context.uiStrings)
          return """
          <li><a class="tag-index-chip" href="\(context.router.tagPath(for: tag))">\(name.htmlEscaped)<span class="tag-index-count">\(pages.count)</span></a></li>
          """
@@ -152,7 +150,7 @@ struct TagListingRenderer: Renderer {
          sectionPath: indexPath,
          description: description,
          items: sortedTags.map { tag, _ in
-            (title: Self.displayName(for: tag, locale: locale),
+            (title: Self.displayName(for: tag, strings: context.uiStrings),
              url: "\(context.config.baseURL)\(context.router.tagPath(for: tag))")
          }
       )
@@ -194,11 +192,11 @@ struct TagListingRenderer: Renderer {
 
    // MARK: - Card markup (mirrors BlogIndexRenderer)
 
-   private func card(for page: Page, href: String, locale: String, dateFormatter: DateFormatter) -> String {
+   private func card(for page: Page, href: String, strings: UIStrings, dateFormatter: DateFormatter) -> String {
       let dateText = page.date.map { dateFormatter.string(from: $0) } ?? ""
       let summary = (page.summary ?? "").htmlEscaped
       let tags = page.tags.prefix(3).map { tag in
-         "<span class=\"blog-card-tag\">\(Self.displayName(for: tag, locale: locale).htmlEscaped)</span>"
+         "<span class=\"blog-card-tag\">\(Self.displayName(for: tag, strings: strings).htmlEscaped)</span>"
       }.joined()
       let imageHTML: String = {
          if let img = page.image {
@@ -270,102 +268,19 @@ struct TagListingRenderer: Renderer {
       return df
    }
 
-   // MARK: - Localization tables
+   // MARK: - Localization
 
-   /// Human-readable tag name per locale. Unknown slugs fall back to the
-   /// slug itself so a stray tag never crashes the build.
-   static func displayName(for slug: String, locale: String) -> String {
-      switch (slug, locale) {
-      case ("nfc-tags", _):              return "NFC Tags"
-      case ("business-cards", "de"):     return "Visitenkarten"
-      case ("business-cards", "ja"):     return "デジタル名刺"
-      case ("business-cards", _):        return "Business Cards"
-      case ("qr-codes", _):              return "QR Codes"
-      case ("iphone", _):                return "iPhone"
-      case ("android", _):               return "Android"
-      case ("guides", "de"):             return "Anleitungen"
-      case ("guides", "ja"):             return "ガイド"
-      case ("guides", _):                return "Guides"
-      case ("privacy", "de"):            return "Datenschutz"
-      case ("privacy", "ja"):            return "プライバシー"
-      case ("privacy", _):               return "Privacy"
-      case ("networking", "ja"):         return "ネットワーキング"
-      case ("networking", _):            return "Networking"
-      case ("automation", "de"):         return "Automatisierung"
-      case ("automation", "ja"):         return "自動化"
-      case ("automation", _):            return "Automation"
-      case ("industry", "de"):           return "Branchen"
-      case ("industry", "ja"):           return "業界"
-      case ("industry", _):              return "Industry"
-      case ("announcements", "de"):      return "Neuigkeiten"
-      case ("announcements", "ja"):      return "お知らせ"
-      case ("announcements", _):         return "Announcements"
-      default:                           return slug
-      }
+   /// Human-readable tag name from the `tagName_<slug>` catalog key. Unknown
+   /// slugs fall back to the slug itself so a stray tag never crashes the build.
+   /// Shared with `BlogPostRenderer` / `BlogIndexRenderer`, hence `static` +
+   /// taking `UIStrings` rather than a `BuildContext`.
+   static func displayName(for slug: String, strings: UIStrings) -> String {
+      strings.string(forRawKey: "tagName_\(slug)") ?? slug
    }
 
-   /// One-sentence tag summary, used for the hero subtitle and the
-   /// `<meta name="description">` of each per-tag page.
-   private static func tagDescription(for slug: String, locale: String) -> String {
-      switch (slug, locale) {
-      case ("nfc-tags", "de"):           return "Anleitungen und How-tos zu NFC-Tags - NTAG-Chips auswählen, NDEF-Datensätze beschreiben und Tap-Interaktionen auf iPhone und Android bauen."
-      case ("nfc-tags", "ja"):           return "NFCタグに関するガイドとハウツー - NTAGチップの選び方、NDEFレコードの書き込み、iPhoneとAndroidでのタップ操作の構築方法を紹介します。"
-      case ("nfc-tags", _):              return "Guides and how-tos on NFC tags - choosing NTAG chips, writing NDEF records, and building tap-to-trigger interactions on iPhone and Android."
-      case ("business-cards", "de"):     return "Alles über digitale Visitenkarten - NFC-Taps, App Clips und der Verzicht auf Papierkarten bei Konferenzen, im Team und in jeder Branche."
-      case ("business-cards", "ja"):     return "デジタル名刺のすべて - NFCタップ、App Clip、そしてカンファレンスやチーム、各業界で紙の名刺を置き換える方法を紹介します。"
-      case ("business-cards", _):        return "Everything on digital business cards - NFC taps, App Clips, and replacing paper cards at conferences, for teams, and across industries."
-      case ("qr-codes", "de"):           return "Artikel über QR-Codes und Barcodes - erstellen, im Branding gestalten und die Formate hinter jedem Scan verstehen."
-      case ("qr-codes", "ja"):           return "QRコードとバーコードに関する記事 - 生成方法、ブランドに合わせたデザイン、そしてスキャンを支える各種フォーマットを紹介します。"
-      case ("qr-codes", _):              return "Articles on QR codes and barcodes - generating them, designing branded codes, and the formats behind every scan."
-      case ("iphone", "de"):             return "NFC, Scannen und digitale Visitenkarten auf iPhone, iPad und Mac mit der NFC.cool Tools App."
-      case ("iphone", "ja"):             return "NFC.cool ToolsアプリによるiPhone、iPad、MacでのNFC、スキャン、デジタル名刺機能。"
-      case ("iphone", _):                return "NFC, scanning, and digital business card features on iPhone, iPad, and Mac with the NFC.cool Tools app."
-      case ("android", "de"):            return "NFC-Scannen und digitale Visitenkarten auf Android mit der NFC.cool Tools App."
-      case ("android", "ja"):            return "NFC.cool ToolsアプリによるAndroidでのNFCスキャンとデジタル名刺。"
-      case ("android", _):               return "NFC scanning and digital business cards on Android with the NFC.cool Tools app."
-      case ("guides", "de"):             return "Schritt-für-Schritt-Anleitungen für NFC-, QR-, Dokumenten- und 3D-Scannen auf dem Smartphone."
-      case ("guides", "ja"):             return "スマートフォンでのNFC、QR、ドキュメント、3Dスキャンのステップバイステップのハウツー。"
-      case ("guides", _):                return "Step-by-step how-tos for NFC, QR, document, and 3D scanning on your phone."
-      case ("privacy", "de"):            return "Wie NFC.cool mit deinen Daten umgeht - Verarbeitung auf dem Gerät, Verschlüsselung und datenschutzfreundliche digitale Visitenkarten."
-      case ("privacy", "ja"):            return "NFC.coolがデータをどう扱うか - デバイス上での処理、暗号化、プライバシーを最優先したデジタル名刺。"
-      case ("privacy", _):               return "How NFC.cool handles your data - on-device processing, encryption, and privacy-first digital business cards."
-      case ("networking", "de"):         return "Cleveres Networking mit NFC - Kontakte teilen, App Clips nutzen und Papier-Visitenkarten bei Events ablösen."
-      case ("networking", "ja"):         return "NFCでもっとスマートなネットワーキング - 連絡先の共有、App Clip、イベントでの紙の名刺の置き換え。"
-      case ("networking", _):            return "Smarter networking with NFC - sharing contacts, App Clips, and ditching paper business cards at events."
-      case ("automation", "de"):         return "NFC-Tags zur Automatisierung von Zuhause, Workflows und Geräten - von Smart-Home-Triggern bis zu 3D-Drucker-Spulen."
-      case ("automation", "ja"):         return "NFCタグで家、ワークフロー、デバイスを自動化 - スマートホームのトリガーから3Dプリンターのスプールまで。"
-      case ("automation", _):            return "Using NFC tags to automate your home, workflows, and devices - from smart-home triggers to 3D-printer spools."
-      case ("industry", "de"):           return "Wie Makler, Berater, Fachkräfte im Gesundheitswesen und andere Branchen NFC.cool im Arbeitsalltag nutzen."
-      case ("industry", "ja"):           return "不動産業者、コンサルタント、医療従事者など、さまざまな分野でNFC.coolが現場でどう使われているか。"
-      case ("industry", _):              return "How real estate agents, consultants, healthcare professionals, and other fields use NFC.cool in the field."
-      case ("announcements", "de"):      return "Produktneuigkeiten von NFC.cool - neue App-Releases, Plattform-Starts und woran wir als Nächstes arbeiten."
-      case ("announcements", "ja"):      return "NFC.coolの製品ニュース - 新しいアプリのリリース、プラットフォームの提供開始、そして次に作っているもの。"
-      case ("announcements", _):         return "Product news from NFC.cool - new app releases, platform launches, and what we are building next."
-      default:                           return ""
-      }
-   }
-
-   private static func indexHeading(locale: String) -> String {
-      switch locale {
-      case "de": return "Themen"
-      case "ja": return "タグ"
-      default:   return "Tags"
-      }
-   }
-
-   private static func indexDescription(locale: String) -> String {
-      switch locale {
-      case "de": return "Themen im NFC.cool Blog durchstöbern - Artikel zu NFC-Tags, QR-Codes, Barcodes, Dokumentenscannen, 3D-Erfassung und digitalen Visitenkarten für iPhone und Android."
-      case "ja": return "NFC.coolブログの記事をトピック別に閲覧 - NFCタグ、QRコード、バーコード、ドキュメントスキャン、3Dキャプチャ、そしてiPhoneとAndroid向けのデジタル名刺に関する記事を紹介。"
-      default:   return "Browse posts by topic on the NFC.cool blog - NFC tags, QR codes, barcodes, document scanning, 3D capture, and digital business cards for iPhone and Android."
-      }
-   }
-
-   private static func backLabel(locale: String) -> String {
-      switch locale {
-      case "de": return "← Alle Themen"
-      case "ja": return "← すべてのタグ"
-      default:   return "← All Tags"
-      }
+   /// One-sentence tag summary from the `tagDesc_<slug>` catalog key, used for
+   /// the hero subtitle and the `<meta name="description">` of each per-tag page.
+   private static func tagDescription(for slug: String, strings: UIStrings) -> String {
+      strings.string(forRawKey: "tagDesc_\(slug)") ?? ""
    }
 }

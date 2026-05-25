@@ -7,8 +7,17 @@ Multi-page, bilingual marketing site for the NFC.cool brand, built with [SiteKit
 ```bash
 swift run Site build       # produce static site in _Site/
 swift run Site serve       # build + dev server on http://localhost:8080
-swift run Site validate    # check translation parity across en/de
+swift run Site i18n-check   # translation completeness gate (hard, run in CI)
+swift run Site validate    # SiteKit's built-in file-presence check (Blog/ + Pages/ only)
 ```
+
+`i18n-check` is this repo's own gate (see `Sources/Site/I18n/`, configured by repo-root
+`i18n.yaml`). It exits non-zero on any real gap: a missing locale file across ALL
+localizable roots (Blog, Pages, Data/Features, Data/Pricing, Landing), a UI-string in
+`Strings/Localizable.json` left untranslated for some locale, a leftover `⟦TODO⟧`
+scaffold marker, or an em/en dash in structured data. Structural drift (a translation
+missing an optional section the default language has) and "looks untranslated" content
+are advisory warnings. CI runs it before every build (`.github/workflows/deploy.yml`).
 
 Requires Swift 6.2+ and macOS 26 locally. CI uses `swift-actions/setup-swift@v2` on Ubuntu.
 
@@ -110,11 +119,18 @@ The newsletter form posts cross-origin to a shared Cloudflare Worker; this repo 
 - **Add a Webflow → new URL redirect:** add to `redirects.yaml`. SiteKit emits both `_redirects` (server-side on Cloudflare) and HTML fallbacks.
 - **Change the dual-CTA buttons** (text or layout): see `renderStoreButtons(...)` in `LandingPageRenderer.swift` and the `.landing-store-*` rules in `landing.css`.
 - **Pick a different color scheme or font pairing:** open `Plugin/themes/ThemePreview.html` from the SiteKit-Plugin repo, pick, then update `Theme/theme.yaml`.
-- **Add a language:** append to `localization.languages` in `SiteConfig.yaml` AND create `Landing.<lang>.yaml`, `Features/{slug}.<lang>.yaml`, `Pages/*.<lang>.md`. SiteKit's `LocalizedContentDiscovery` picks them up automatically.
+- **Add a language (deterministic):** the gate makes this repeatable - you cannot ship a half-translated locale.
+  1. `python3 Scripts/scaffold-locale.py <lang>` - copies every default-language file the locale needs (derived from `i18n.yaml` roots, skipping `enOnly`) to a `.<lang>` sibling with a `⟦TODO:<lang>⟧` banner.
+  2. `SiteConfig.yaml`: append `<lang>` to `localization.languages`; add a `localeOverrides.<lang>` block (nav + footer titles; keep URLs). Also add a region row to `LocaleRegionProcessor.swift`'s `regions` table (e.g. `("pt", "pt-PT", "pt_PT", "🇵🇹")`) so `<html lang>` / `og:locale` / the lang-picker flag flash are correct - this is the one remaining per-language code edit.
+  3. `Strings/Localizable.json`: add a `<lang>` value to every key (and the real `langFlag` / `langName`). The language picker + nav-toggle pick these up via `LangPickerDataProcessor` - no JS edit needed.
+  4. Translate every scaffolded file, then delete each `⟦TODO⟧` banner line. Conventions: no em/en dashes (use ` - `), no decorative emojis, Title Case for English titles only, Japanese typography for `.ja`, and feature/pricing tables mirror nfcreader's `PaywallFeatures.swift`.
+  5. `swift run Site i18n-check` until it reports `0 error(s)`, then `swift run Site build` and spot-check `/<lang>/`.
+
+  UI "chrome" strings (nav labels, tag names, pricing pill aria-labels, blog/feature headings) live in `Strings/Localizable.json`, not in renderer Swift - `SiteStringKey` in `Sources/Site/Helpers/SiteStrings.swift` is the typed contract `i18n-check` enforces, so a missing locale can never silently fall back to English.
 
 ## Tasks still on the punch-list
 
-- [ ] **Fill in the postal address in `Content/Pages/Impressum.md` and `Impressum.de.md`** (TMG § 5 compliance - required before launch).
+- [ ] **Create the Impressum page** (`Content/Pages/Impressum.md`, in the `legalLanguage` = de) with the postal address (TMG § 5 compliance - required before launch). It does not exist yet; it is listed under `enOnly.files` in `i18n.yaml` so `i18n-check` does not demand per-locale siblings for it.
 - [ ] **Migrate the remaining 9 Webflow blog posts.** Five are already in `Content/Blog/`; the rest currently fall back via `redirects.yaml` → `/blog/`. Sources are listed in that file.
 - [ ] **Author DE versions of the migrated blog posts.** Currently EN-only; the build emits "Missing translation" warnings until `.de.md` siblings exist.
 - [ ] **Drop real iCloud Drive URLs for press kit + brand kit** in `Content/Pages/Press.md` + `Press.de.md` (placeholders today).

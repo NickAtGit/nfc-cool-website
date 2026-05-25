@@ -1,0 +1,69 @@
+# Configuration for `swift run Site i18n-check` - the translation completeness gate.
+#
+# The checker derives the file list to verify from `localizableRoots` (globbing the
+# default-language files actually on disk), so adding a blog post or feature never
+# needs an edit here. `enOnly` records content that is intentionally NOT translated;
+# `identicalAllowlist` records values that are legitimately identical across locales
+# (brand names, URLs, glyphs) so the untranslated check doesn't flag them.
+
+# Roots whose default-language files must have a sibling for every configured locale.
+#   kind: markdown -> `Foo.md`   + `Foo.<locale>.md`
+#   kind: yaml     -> `slug.yaml` + `slug.<locale>.yaml`
+localizableRoots:
+  - { kind: markdown, path: "Content/Blog" }
+  - { kind: markdown, path: "Content/Pages" }
+  - { kind: yaml,     path: "Content/Data/Features" }
+  - { kind: yaml,     path: "Content/Data/Pricing" }
+  - { kind: yaml,     path: "Content/Data", glob: "Landing*.yaml" }
+
+# Intentional English-only content - excluded from the missing-sibling check.
+# Mirrors the `LocalizedContent.isEmitted` convention (changelog) and the
+# `legalLanguage` policy (legal pages are authored in en/de only).
+enOnly:
+  roots:
+    - "Content/Changelog"
+  files:
+    - "Content/Pages/Privacy.md"
+    - "Content/Pages/Terms.md"
+    - "Content/Pages/Impressum.md"
+
+# Values that are legitimately byte-identical across locales - suppresses the
+# "looks untranslated" check. (URLs, dimensions, brand names, and symbol/number
+# values are detected automatically and need not be listed here.)
+identicalAllowlist:
+  # Leaf key names (the last path segment) whose value is never translated.
+  keyNames:
+    - imagePath
+    - heroImagePath
+    - avatarPath
+    - ogImage
+    - url
+    - appStoreURL
+    - googlePlayURL
+    # Markdown frontmatter fields that are locale-invariant by design.
+    - slug
+    - id
+    - date
+    - author
+  # Whole literal values that are brand names / loanwords.
+  literals:
+    - "NFC.cool"
+    - "iOS · Android"
+    - "iOS only"
+    - "NFC.cool Tools"
+    - "NFC.cool Business Card"
+  # Catalog (Strings/Localizable.json) keys allowed to be identical across locales.
+  catalogKeys:
+    - tagName_nfc-tags
+    - tagName_qr-codes
+    - tagName_iphone
+    - tagName_android
+    - tagName_networking
+  # Pricing-cell sentinel glyphs / tokens, never translated.
+  pricingCellTokens: ["✓", "✗", "-", "~"]
+
+# Deterministic lint. `todoMarker` is what `scaffold-locale.py` injects into
+# unfilled values, so a scaffolded-but-untranslated file fails the gate.
+lint:
+  todoMarker: "⟦TODO"
+  forbidEmDash: true

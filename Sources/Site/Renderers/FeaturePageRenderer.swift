@@ -56,13 +56,7 @@ struct FeaturePageRenderer: Renderer {
          let ogImageAbsolute: String? = feature.hero.heroImagePath.map { path in
             path.hasPrefix("http") ? path : context.config.baseURL + path
          }
-         let featuresLabel: String = {
-            switch locale {
-            case "de": return "Funktionen"
-            case "ja": return "機能"
-            default:   return "Features"
-            }
-         }()
+         let featuresLabel = context.s(.featuresLabel)
          let jsonLD = StructuredData.featurePageGraph(
             baseURL: context.config.baseURL,
             homePath: basePath,
@@ -88,7 +82,7 @@ struct FeaturePageRenderer: Renderer {
          let page = "web-feature-\(slug)"
          let appStoreURL = StoreLink.appStore(app: .tools, page: page, locale: locale)
          let googlePlayURL = StoreLink.googlePlay(app: .tools, page: page, locale: locale)
-         let backLinkText = feature.backLinkText ?? "← All features"
+         let backLinkText = feature.backLinkText ?? context.s(.featuresBackAll)
          let featuresIndexPath = "\(basePath)features/"
 
          var sections: [String] = []
@@ -106,7 +100,7 @@ struct FeaturePageRenderer: Renderer {
             sections.append(self.renderSpecs(specs, title: feature.specsTitle))
          }
          if let pricing = feature.pricing {
-            sections.append(self.renderPricing(pricing))
+            sections.append(self.renderPricing(pricing, strings: context.uiStrings))
          }
          if let reviews = feature.featuredReviews, !reviews.isEmpty {
             sections.append(self.renderFeaturedReviews(reviews, title: feature.featuredReviewsTitle))
@@ -224,13 +218,13 @@ struct FeaturePageRenderer: Renderer {
       """
    }
 
-   private func renderPricing(_ pricing: PricingTable) -> String {
+   private func renderPricing(_ pricing: PricingTable, strings: UIStrings) -> String {
       let heading = (pricing.title ?? "").isEmpty ? "" : "<h2 class=\"landing-section-title\">\(pricing.title!.htmlEscaped)</h2>"
       return """
       <section class="feature-pricing">
          <div class="landing-container">
             \(heading)
-            \(PricingTableRenderer.renderTable(pricing))
+            \(PricingTableRenderer.renderTable(pricing, strings: strings))
          </div>
       </section>
       """

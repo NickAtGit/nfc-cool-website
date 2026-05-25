@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
+   /* __LANG_DATA_START__ */
+   // Per-locale UI strings consumed below (language picker + nav toggle).
+   // This whole block is regenerated at build time by LangPickerDataProcessor
+   // from Strings/Localizable.json, so adding a language never needs a JS edit.
+   // The values here are dev/fallback defaults only.
+   const labels = { en: '🇺🇸', de: '🇩🇪', ja: '🇯🇵' };
+   const names = { en: 'English', de: 'Deutsch', ja: '日本語' };
+   const navToggleLabels = { en: 'Toggle navigation menu', de: 'Toggle navigation menu', ja: 'Toggle navigation menu' };
+   const CURRENT_LANG = (document.documentElement.getAttribute('lang') || 'en').toLowerCase().split('-')[0];
+   /* __LANG_DATA_END__ */
+
    // Strip `?noredirect=1` from the URL once the page has loaded. The
    // fallback-redirect pages for EN-only static slugs (Terms, Privacy in
    // DE/JA) target `/{slug}/?noredirect=1` to bypass the inline language-
@@ -100,13 +111,9 @@ document.addEventListener('DOMContentLoaded', function() {
          return;
       }
 
-      // Display labels per locale code: flag emojis for visual recognition,
-      // full names spelled out in their own language in the menu.
-      // (Extend here when adding locales.) Windows 10+ and all modern
-      // mobile/desktop browsers render these via Segoe UI Emoji or system
-      // emoji fonts — no Twemoji dependency needed.
-      const labels = { en: '🇺🇸', de: '🇩🇪', ja: '🇯🇵' };
-      const names  = { en: 'English', de: 'Deutsch', ja: '日本語' };
+      // `labels` / `names` are defined once at the top of this handler (and
+      // regenerated from the string catalog at build time). Flag emojis render
+      // via Segoe UI Emoji / system emoji fonts - no Twemoji dependency needed.
 
       // Set the button label to the current locale.
       if (labelEl) labelEl.textContent = labels[currentLang] || currentLang.toUpperCase();
@@ -169,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const toggle = document.createElement('button');
       toggle.className = 'sk-nav-toggle';
       toggle.type = 'button';
-      toggle.setAttribute('aria-label', 'Toggle navigation menu');
+      toggle.setAttribute('aria-label', navToggleLabels[CURRENT_LANG] || navToggleLabels.en || 'Toggle navigation menu');
       toggle.setAttribute('aria-expanded', 'false');
       toggle.setAttribute('aria-controls', 'sk-nav-list');
       // Build a hamburger + close SVG pair so the burger reads as the same

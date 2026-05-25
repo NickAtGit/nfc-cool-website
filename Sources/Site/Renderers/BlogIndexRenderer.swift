@@ -29,7 +29,12 @@ struct BlogIndexRenderer: Renderer {
       }
 
       let title = section.config.name
-      let subtitle = Self.localizedSubtitle(forSlug: section.config.slug, locale: locale)
+      let subtitle: String
+      switch section.config.slug {
+      case "changelog": subtitle = context.s(.blogSubtitleChangelog)
+      case "blog":      subtitle = context.s(.blogSubtitleBlog)
+      default:          subtitle = ""
+      }
       let defaultLang = context.config.effectiveDefaultLanguage
 
       // CollectionPage JSON-LD: marks this page as a curated index of the
@@ -68,7 +73,7 @@ struct BlogIndexRenderer: Renderer {
          let dateText = page.date.map { dateFormatter.string(from: $0) } ?? ""
          let summary = (page.summary ?? "").htmlEscaped
          let tags = page.tags.prefix(3).map { tag in
-            "<span class=\"blog-card-tag\">\(TagListingRenderer.displayName(for: tag, locale: locale).htmlEscaped)</span>"
+            "<span class=\"blog-card-tag\">\(TagListingRenderer.displayName(for: tag, strings: context.uiStrings).htmlEscaped)</span>"
          }.joined()
          let imageHTML: String = {
             if let img = page.image {
@@ -97,10 +102,11 @@ struct BlogIndexRenderer: Renderer {
       }
 
       let heroVisualAlt = title.htmlEscaped
+      let rssLabel = context.s(.blogRssFeed)
       let heroText = """
       \(renderTitleWithBrandTail(title, tagName: "h1", classAttr: "blog-index-title"))
       <p class="blog-index-subtitle">\(subtitle.htmlEscaped)</p>
-      <a class="landing-cta-button" href="\(rssFeedPath)" aria-label="RSS Feed">RSS Feed</a>
+      <a class="landing-cta-button" href="\(rssFeedPath)" aria-label="\(rssLabel.htmlEscaped)">\(rssLabel.htmlEscaped)</a>
       """
       let heroHTML = renderPageHero(
          modifier: "blog-index-hero",
@@ -165,19 +171,7 @@ struct BlogIndexRenderer: Renderer {
       return "\(enSectionPath)\(page.slug)/"
    }
 
-   // MARK: - Localization
-
-   private static func localizedSubtitle(forSlug slug: String, locale: String) -> String {
-      switch (slug, locale) {
-      case ("blog", "de"): return "Anleitungen, Vergleiche und How-tos zu NFC-Tags, QR-Codes, Barcodes und digitalen Visitenkarten auf iPhone und Android. Geschrieben vom Entwickler hinter NFC.cool."
-      case ("blog", "ja"): return "NFCタグ、QRコード、バーコード、iPhoneとAndroidのデジタル名刺に関するガイド、比較、ハウツー。NFC.coolの開発者が直接執筆しています。"
-      case ("blog", _):    return "Guides, comparisons, and how-tos on NFC tags, QR codes, barcodes, and digital business cards on iPhone and Android. Written by the developer behind NFC.cool."
-      case ("changelog", "de"): return "Release-Notes für NFC.cool Tools (iOS + Android), die eigenständige Business Card App für iPhone und die Website - was neu ist, was sich verbessert hat und was als Nächstes kommt."
-      case ("changelog", "ja"): return "NFC.cool Tools(iOS + Android)、iPhone専用のBusiness Cardアプリ、そしてウェブサイトのリリースノート - 何がリリースされ、何が改善され、次に何が来るのか。"
-      case ("changelog", _):    return "Release notes for NFC.cool Tools (iOS + Android), the standalone Business Card iOS app, and the website - what shipped, what improved, what's next."
-      default: return ""
-      }
-   }
+   // MARK: - Date formatting
 
    private static func dateFormatter(for locale: String) -> DateFormatter {
       let df = DateFormatter()

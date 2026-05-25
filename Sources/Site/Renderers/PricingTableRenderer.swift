@@ -17,13 +17,13 @@ enum PricingTableRenderer {
    /// The inline `--pricing-columns` custom property carries the column count
    /// so the CSS can size the table's responsive `min-width` without knowing
    /// the page context.
-   static func renderTable(_ table: PricingTable) -> String {
+   static func renderTable(_ table: PricingTable, strings: UIStrings) -> String {
       let headerCells = table.columns
          .map { "<th scope=\"col\">\($0.htmlEscaped)</th>" }
          .joined()
       let bodyRows = table.rows.map { row in
          let cells = row.values
-            .map { "<td>\(self.markCell($0))</td>" }
+            .map { "<td>\(self.markCell($0, strings: strings))</td>" }
             .joined()
          return "<tr><th scope=\"row\">\(row.label.htmlEscaped)</th>\(cells)</tr>"
       }.joined()
@@ -66,7 +66,7 @@ enum PricingTableRenderer {
             .appendingPathComponent("\(name)\(suffix).yaml")
          let yamlData = try Data(contentsOf: yamlPath)
          let table = try YAMLDecoder().decode(PricingTable.self, from: yamlData)
-         result.replaceSubrange(tokenRange, with: self.renderTable(table))
+         result.replaceSubrange(tokenRange, with: self.renderTable(table, strings: context.uiStrings))
       }
       return result
    }
@@ -78,22 +78,26 @@ enum PricingTableRenderer {
    /// - `-` → neutral "not applicable" pill
    /// - `**text**` → bold text
    /// - anything else → plain text
-   static func markCell(_ raw: String) -> String {
+   static func markCell(_ raw: String, strings: UIStrings) -> String {
       let trimmed = raw.trimmingCharacters(in: .whitespaces)
       let lower = trimmed.lowercased()
       if trimmed == "✓" || lower == "yes" {
-         return "<span class=\"feature-pricing-pill is-yes\" aria-label=\"included\">✓</span>"
+         let label = (strings.string(forRawKey: "pricingIncluded") ?? "included").htmlEscaped
+         return "<span class=\"feature-pricing-pill is-yes\" aria-label=\"\(label)\">✓</span>"
       }
       if trimmed == "✗" || lower == "no" {
-         return "<span class=\"feature-pricing-pill is-no\" aria-label=\"not included\">✗</span>"
+         let label = (strings.string(forRawKey: "pricingNotIncluded") ?? "not included").htmlEscaped
+         return "<span class=\"feature-pricing-pill is-no\" aria-label=\"\(label)\">✗</span>"
       }
       if lower == "limited" || lower == "partial" || trimmed == "~" {
          // FontAwesome 6 Free Solid "minus" — clean horizontal bar, parallels ✓/✗ visual weight.
          let svg = #"<svg class="feature-pricing-pill-icon" viewBox="0 0 448 512" aria-hidden="true"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>"#
-         return "<span class=\"feature-pricing-pill is-limited\" aria-label=\"limited\">\(svg)</span>"
+         let label = (strings.string(forRawKey: "pricingLimited") ?? "limited").htmlEscaped
+         return "<span class=\"feature-pricing-pill is-limited\" aria-label=\"\(label)\">\(svg)</span>"
       }
       if trimmed == "-" {
-         return "<span class=\"feature-pricing-pill is-na\" aria-label=\"not applicable\">-</span>"
+         let label = (strings.string(forRawKey: "pricingNotApplicable") ?? "not applicable").htmlEscaped
+         return "<span class=\"feature-pricing-pill is-na\" aria-label=\"\(label)\">-</span>"
       }
       if trimmed.count > 4, trimmed.hasPrefix("**"), trimmed.hasSuffix("**") {
          let inner = String(trimmed.dropFirst(2).dropLast(2))

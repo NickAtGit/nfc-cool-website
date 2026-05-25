@@ -1,0 +1,197 @@
+{
+   "blogBack": {
+      "localizations": { "en": "← Back", "de": "← Zurück", "ja": "← 戻る" }
+   },
+   "blogBackTo": {
+      "localizations": { "en": "← Back to %@", "de": "← Zurück zu %@", "ja": "← %@に戻る" }
+   },
+   "blogRelated": {
+      "localizations": { "en": "Related", "de": "Weitere Beiträge", "ja": "関連記事" }
+   },
+   "blogNewerPost": {
+      "localizations": { "en": "Newer Post", "de": "Neuerer Beitrag", "ja": "新しい記事" }
+   },
+   "blogOlderPost": {
+      "localizations": { "en": "Older Post", "de": "Älterer Beitrag", "ja": "古い記事" }
+   },
+   "blogPostNavigation": {
+      "localizations": { "en": "Post Navigation", "de": "Beitragsnavigation", "ja": "記事ナビゲーション" }
+   },
+   "blogRssFeed": {
+      "localizations": { "en": "RSS Feed", "de": "RSS-Feed", "ja": "RSSフィード" }
+   },
+   "blogSubtitleBlog": {
+      "localizations": {
+         "en": "Guides, comparisons, and how-tos on NFC tags, QR codes, barcodes, and digital business cards on iPhone and Android. Written by the developer behind NFC.cool.",
+         "de": "Anleitungen, Vergleiche und How-tos zu NFC-Tags, QR-Codes, Barcodes und digitalen Visitenkarten auf iPhone und Android. Geschrieben vom Entwickler hinter NFC.cool.",
+         "ja": "NFCタグ、QRコード、バーコード、iPhoneとAndroidのデジタル名刺に関するガイド、比較、ハウツー。NFC.coolの開発者が直接執筆しています。"
+      }
+   },
+   "blogSubtitleChangelog": {
+      "localizations": {
+         "en": "Release notes for NFC.cool Tools (iOS + Android), the standalone Business Card iOS app, and the website - what shipped, what improved, what's next.",
+         "de": "Release-Notes für NFC.cool Tools (iOS + Android), die eigenständige Business Card App für iPhone und die Website - was neu ist, was sich verbessert hat und was als Nächstes kommt.",
+         "ja": "NFC.cool Tools(iOS + Android)、iPhone専用のBusiness Cardアプリ、そしてウェブサイトのリリースノート - 何がリリースされ、何が改善され、次に何が来るのか。"
+      }
+   },
+   "tagsIndexHeading": {
+      "localizations": { "en": "Tags", "de": "Themen", "ja": "タグ" }
+   },
+   "tagsIndexDescription": {
+      "localizations": {
+         "en": "Browse posts by topic on the NFC.cool blog - NFC tags, QR codes, barcodes, document scanning, 3D capture, and digital business cards for iPhone and Android.",
+         "de": "Themen im NFC.cool Blog durchstöbern - Artikel zu NFC-Tags, QR-Codes, Barcodes, Dokumentenscannen, 3D-Erfassung und digitalen Visitenkarten für iPhone und Android.",
+         "ja": "NFC.coolブログの記事をトピック別に閲覧 - NFCタグ、QRコード、バーコード、ドキュメントスキャン、3Dキャプチャ、そしてiPhoneとAndroid向けのデジタル名刺に関する記事を紹介。"
+      }
+   },
+   "tagsBackAll": {
+      "localizations": { "en": "← All Tags", "de": "← Alle Themen", "ja": "← すべてのタグ" }
+   },
+   "tagName_nfc-tags": {
+      "localizations": { "en": "NFC Tags", "de": "NFC Tags", "ja": "NFC Tags" }
+   },
+   "tagName_business-cards": {
+      "localizations": { "en": "Business Cards", "de": "Visitenkarten", "ja": "デジタル名刺" }
+   },
+   "tagName_qr-codes": {
+      "localizations": { "en": "QR Codes", "de": "QR Codes", "ja": "QR Codes" }
+   },
+   "tagName_iphone": {
+      "localizations": { "en": "iPhone", "de": "iPhone", "ja": "iPhone" }
+   },
+   "tagName_android": {
+      "localizations": { "en": "Android", "de": "Android", "ja": "Android" }
+   },
+   "tagName_guides": {
+      "localizations": { "en": "Guides", "de": "Anleitungen", "ja": "ガイド" }
+   },
+   "tagName_privacy": {
+      "localizations": { "en": "Privacy", "de": "Datenschutz", "ja": "プライバシー" }
+   },
+   "tagName_networking": {
+      "localizations": { "en": "Networking", "de": "Networking", "ja": "ネットワーキング" }
+   },
+   "tagName_automation": {
+      "localizations": { "en": "Automation", "de": "Automatisierung", "ja": "自動化" }
+   },
+   "tagName_industry": {
+      "localizations": { "en": "Industry", "de": "Branchen", "ja": "業界" }
+   },
+   "tagName_announcements": {
+      "localizations": { "en": "Announcements", "de": "Neuigkeiten", "ja": "お知らせ" }
+   },
+   "tagDesc_nfc-tags": {
+      "localizations": {
+         "en": "Guides and how-tos on NFC tags - choosing NTAG chips, writing NDEF records, and building tap-to-trigger interactions on iPhone and Android.",
+         "de": "Anleitungen und How-tos zu NFC-Tags - NTAG-Chips auswählen, NDEF-Datensätze beschreiben und Tap-Interaktionen auf iPhone und Android bauen.",
+         "ja": "NFCタグに関するガイドとハウツー - NTAGチップの選び方、NDEFレコードの書き込み、iPhoneとAndroidでのタップ操作の構築方法を紹介します。"
+      }
+   },
+   "tagDesc_business-cards": {
+      "localizations": {
+         "en": "Everything on digital business cards - NFC taps, App Clips, and replacing paper cards at conferences, for teams, and across industries.",
+         "de": "Alles über digitale Visitenkarten - NFC-Taps, App Clips und der Verzicht auf Papierkarten bei Konferenzen, im Team und in jeder Branche.",
+         "ja": "デジタル名刺のすべて - NFCタップ、App Clip、そしてカンファレンスやチーム、各業界で紙の名刺を置き換える方法を紹介します。"
+      }
+   },
+   "tagDesc_qr-codes": {
+      "localizations": {
+         "en": "Articles on QR codes and barcodes - generating them, designing branded codes, and the formats behind every scan.",
+         "de": "Artikel über QR-Codes und Barcodes - erstellen, im Branding gestalten und die Formate hinter jedem Scan verstehen.",
+         "ja": "QRコードとバーコードに関する記事 - 生成方法、ブランドに合わせたデザイン、そしてスキャンを支える各種フォーマットを紹介します。"
+      }
+   },
+   "tagDesc_iphone": {
+      "localizations": {
+         "en": "NFC, scanning, and digital business card features on iPhone, iPad, and Mac with the NFC.cool Tools app.",
+         "de": "NFC, Scannen und digitale Visitenkarten auf iPhone, iPad und Mac mit der NFC.cool Tools App.",
+         "ja": "NFC.cool ToolsアプリによるiPhone、iPad、MacでのNFC、スキャン、デジタル名刺機能。"
+      }
+   },
+   "tagDesc_android": {
+      "localizations": {
+         "en": "NFC scanning and digital business cards on Android with the NFC.cool Tools app.",
+         "de": "NFC-Scannen und digitale Visitenkarten auf Android mit der NFC.cool Tools App.",
+         "ja": "NFC.cool ToolsアプリによるAndroidでのNFCスキャンとデジタル名刺。"
+      }
+   },
+   "tagDesc_guides": {
+      "localizations": {
+         "en": "Step-by-step how-tos for NFC, QR, document, and 3D scanning on your phone.",
+         "de": "Schritt-für-Schritt-Anleitungen für NFC-, QR-, Dokumenten- und 3D-Scannen auf dem Smartphone.",
+         "ja": "スマートフォンでのNFC、QR、ドキュメント、3Dスキャンのステップバイステップのハウツー。"
+      }
+   },
+   "tagDesc_privacy": {
+      "localizations": {
+         "en": "How NFC.cool handles your data - on-device processing, encryption, and privacy-first digital business cards.",
+         "de": "Wie NFC.cool mit deinen Daten umgeht - Verarbeitung auf dem Gerät, Verschlüsselung und datenschutzfreundliche digitale Visitenkarten.",
+         "ja": "NFC.coolがデータをどう扱うか - デバイス上での処理、暗号化、プライバシーを最優先したデジタル名刺。"
+      }
+   },
+   "tagDesc_networking": {
+      "localizations": {
+         "en": "Smarter networking with NFC - sharing contacts, App Clips, and ditching paper business cards at events.",
+         "de": "Cleveres Networking mit NFC - Kontakte teilen, App Clips nutzen und Papier-Visitenkarten bei Events ablösen.",
+         "ja": "NFCでもっとスマートなネットワーキング - 連絡先の共有、App Clip、イベントでの紙の名刺の置き換え。"
+      }
+   },
+   "tagDesc_automation": {
+      "localizations": {
+         "en": "Using NFC tags to automate your home, workflows, and devices - from smart-home triggers to 3D-printer spools.",
+         "de": "NFC-Tags zur Automatisierung von Zuhause, Workflows und Geräten - von Smart-Home-Triggern bis zu 3D-Drucker-Spulen.",
+         "ja": "NFCタグで家、ワークフロー、デバイスを自動化 - スマートホームのトリガーから3Dプリンターのスプールまで。"
+      }
+   },
+   "tagDesc_industry": {
+      "localizations": {
+         "en": "How real estate agents, consultants, healthcare professionals, and other fields use NFC.cool in the field.",
+         "de": "Wie Makler, Berater, Fachkräfte im Gesundheitswesen und andere Branchen NFC.cool im Arbeitsalltag nutzen.",
+         "ja": "不動産業者、コンサルタント、医療従事者など、さまざまな分野でNFC.coolが現場でどう使われているか。"
+      }
+   },
+   "tagDesc_announcements": {
+      "localizations": {
+         "en": "Product news from NFC.cool - new app releases, platform launches, and what we are building next.",
+         "de": "Produktneuigkeiten von NFC.cool - neue App-Releases, Plattform-Starts und woran wir als Nächstes arbeiten.",
+         "ja": "NFC.coolの製品ニュース - 新しいアプリのリリース、プラットフォームの提供開始、そして次に作っているもの。"
+      }
+   },
+   "featuresHubTitle": {
+      "localizations": { "en": "NFC.cool Features", "de": "NFC.cool Funktionen", "ja": "NFC.coolの機能" }
+   },
+   "featuresHubSubtitle": {
+      "localizations": {
+         "en": "Read, write, and decode NFC tags. Scan QR codes and barcodes. Capture documents, 3D objects, and rooms. Forward every scan to your own webhook - one app, every scanner your phone can be.",
+         "de": "NFC-Tags lesen, schreiben und dekodieren. QR-Codes und Barcodes scannen. Dokumente, 3D-Objekte und Räume erfassen. Jeden Scan an deinen eigenen Webhook senden - eine App, jeder Scanner, der dein Smartphone sein kann.",
+         "ja": "NFCタグの読み取り・書き込み・デコード。QRコードとバーコードのスキャン。書類、3Dオブジェクト、ルームの取り込み。すべてのスキャンをあなたのWebhookへ - スマホを、考えられるすべてのスキャナーに。"
+      }
+   },
+   "featuresLabel": {
+      "localizations": { "en": "Features", "de": "Funktionen", "ja": "機能" }
+   },
+   "featuresBackAll": {
+      "localizations": { "en": "← All features", "de": "← Alle Funktionen", "ja": "← すべての機能" }
+   },
+   "pricingIncluded": {
+      "localizations": { "en": "included", "de": "enthalten", "ja": "対応" }
+   },
+   "pricingNotIncluded": {
+      "localizations": { "en": "not included", "de": "nicht enthalten", "ja": "非対応" }
+   },
+   "pricingLimited": {
+      "localizations": { "en": "limited", "de": "eingeschränkt", "ja": "一部対応" }
+   },
+   "pricingNotApplicable": {
+      "localizations": { "en": "not applicable", "de": "nicht zutreffend", "ja": "対象外" }
+   },
+   "navToggle": {
+      "localizations": { "en": "Toggle navigation menu", "de": "Navigationsmenü umschalten", "ja": "ナビゲーションメニューを開閉" }
+   },
+   "langFlag": {
+      "localizations": { "en": "🇺🇸", "de": "🇩🇪", "ja": "🇯🇵" }
+   },
+   "langName": {
+      "localizations": { "en": "English", "de": "Deutsch", "ja": "日本語" }
+   }
+}

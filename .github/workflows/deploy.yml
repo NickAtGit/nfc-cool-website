@@ -3,6 +3,8 @@ name: Build & Deploy
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -34,15 +36,27 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y imagemagick
 
+      # Translation completeness gate. Runs before the build (sharing the same
+      # debug compile) and fails the job on any gap - a missing locale file, an
+      # untranslated UI string, a leftover scaffold TODO marker, or an em/en
+      # dash in structured data. No `||`, so its exit code is authoritative.
+      - name: i18n completeness gate
+        run: swift run Site i18n-check
+
+      # Single authoritative build. The previous `|| swift run -c release`
+      # fallback silently masked debug-build failures behind a second build.
       - name: Build site
-        run: swift run Site build 2>&1 || swift run -c release Site build
+        run: swift run Site build
 
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: '_Site'
 
   deploy:
+    # PRs run the gate + build for verification only; deploy is push/dispatch.
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
