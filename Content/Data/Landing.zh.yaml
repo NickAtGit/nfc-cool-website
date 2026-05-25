@@ -1,0 +1,102 @@
+hero:
+  title: "NFC 标签读取、写入与扫描，NFC.cool Tools"
+  subtitle: "在 iPhone 和 Android 上免费读取与写入 NFC 标签，在 iPhone 上还可以扫描二维码、条形码、文档、3D 模型和房间。"
+
+description: "面向 iPhone 和 Android 的免费 NFC 工具。轻触即可读取任意 NFC 标签，写入你自己的链接、Wi-Fi 和联系人，还能扫描二维码、条形码和文档。"
+
+heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+heroImageWidth: 2540
+heroImageHeight: 2540
+
+ogImage: "/assets/images/og-landing.webp"
+ogImageAlt: "NFC.cool，扫描 NFC 标签、二维码、条形码、文档、3D 物体和房间"
+
+featuresTitle: "扫描所需的一切"
+
+featureBanner:
+  title: "NFC.cool Business Card"
+  subtitle: "面向 iPhone 的专用电子名片 App，可通过 NFC 轻触、二维码、App Clip 或 Apple Wallet 分享。追踪谁保存了你的名片、整理潜在客户，并在现场活动中开启会议模式。在 Android 上，这些相同的功能已内置于 NFC.cool Tools 中。"
+  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  # iOS: dedicated NFC.cool Business Card app (App Store id 6502926572)
+  appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
+  # Android: business card features are bundled in NFC.cool Tools
+  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
+
+appStoreReviewsTitle: "用户怎么说"
+appStoreReviews:
+  - quote: "界面精美，执行近乎完美，和其他 NFC App 完全不一样。"
+    author: "garretthoyos"
+    location: "App Store · 美国"
+  - quote: "房间映射功能相当出色。这款 App 远不止写入标签那么简单。"
+    author: "rockphikapps"
+    location: "App Store · 美国"
+  - quote: "做工精良，功能丰富。我有疑问时，开发者立刻就回复了。我到现在还在逐一学习它的每一项功能。"
+    author: "PhotoBomber_69"
+    location: "App Store · 美国"
+  - quote: "我提了个意见，竟然收到了开发者的私人邮件。不到一周，App 就按我的建议更新了，这年头实在难得。"
+    author: "LGLB"
+    location: "App Store · 美国"
+  - quote: "光凭开发者的投入就值五星。更新频繁、专注用心，对新手也很有耐心。"
+    author: "HellRazorCustoms"
+    location: "App Store · 美国"
+  - quote: "我爱死这款 App 了。对我这种对 NFC 标签几乎一窍不通的人来说太棒了！"
+    author: "Dallasg479"
+    location: "App Store · 美国"
+  - quote: "刚下载下来，绝对值得花时间去探索和尝试！"
+    author: "User 220220"
+    location: "App Store · 美国"
+  - quote: "我很享受这种全新的自我推广方式。谢谢你们。"
+    author: "Super.Sanchez"
+    location: "App Store · 美国"
+  - quote: "一开始没意识到这款 App 能做这么多，还以为只是普通的 NFC 读取器。用了一阵子才发现：它的自动化和整理能力简直是天才。光是 Safe 这一项就……"
+    author: "EBBEElbi"
+    location: "App Store · 德国"
+  - quote: "我不太喜欢订阅制 App，很少有真正值得的。但这款值。多年来一直是我首选的 NFC 读取器，如今更是名副其实的全能选手。"
+    author: "Warum_sind_alle_Namen_weg?"
+    location: "App Store · 德国"
+  - quote: "如果你喜欢走在时代前沿、崇尚极简生活，我会推荐这款 App。"
+    author: "HPS. h"
+    location: "App Store · 日本"
+  - quote: "每检测到一个标签就持续扫描的连续读取模式真的很实用。"
+    author: "com1038"
+    location: "App Store · 日本"
+
+faqTitle: "常见问题"
+faq:
+  - question: "NFC.cool 是免费的吗？"
+    answer: "是的，NFC.cool Tools 和 NFC.cool Business Card 都可免费下载。读取 NFC 标签、扫描二维码和条形码、支持 OCR 的文档扫描，以及 3D / 房间扫描全部免费。可选的 Platinum 订阅可解锁 NFC Safe（256 位 AES 加密的机密信息）；进阶 NFC 控制（格式化、密码保护、锁定、批量模式、CSV 写入、专家命令、轻触计数器）；二维码强力功能（无水印、批量读取）；文档 PDF 导出和自动导出到 iCloud；3D 面积计算、模型导出和照片导出；iOS 快捷指令、小组件和控制中心；webhook；语音合成器；高级 App 图标和配色；以及无广告和优先支持。"
+  - question: "支持哪些平台？"
+    answer: "NFC.cool Tools 可在 iPhone、iPad 和 Android 上运行。NFC.cool Business Card 仅支持 iPhone，其功能已内置于 Android 版的 NFC.cool Tools 中，因此 Android 用户无需安装第二款 App 即可获得同样的电子名片能力。在 iPad 上，所有基于相机的功能（二维码、条形码、文档、3D、房间扫描）都可使用，但读取和写入 NFC 需要 iPhone，因为 iPad 不配备 NFC 硬件。"
+  - question: "我该如何开始使用 NFC.cool？"
+    answer: "从 App Store 或 Google Play 下载 NFC.cool Tools，然后浏览各个标签页：NFC 用于读取和写入标签，QR 用于二维码和条形码，文档用于将纸质件扫描为 PDF，3D 用于物体和房间捕捉。无需账户，一切都在设备端运行。"
+  - question: "我该如何扫描第一个 NFC 标签？"
+    answer: "打开 NFC.cool Tools，轻触\"读取 NFC\"，把 iPhone 的顶部边缘贴近 NFC 标签，NFC.cool 随即会打开并显示解析后的标签内容视图。除了安装 App 之外无需任何设置。在 Android 手机上，你还可以直接通过<a href=\"/online-nfc-reader/\">在线 NFC 读取器</a>立即试用，无需安装。"
+  - question: "我该如何写入第一个 NFC 标签？"
+    answer: "打开 NFC.cool Tools，切换到 NFC 标签页并选择\"写入 NFC\"，挑选一种消息类型（URL、Wi-Fi 凭据、联系人名片、iOS 快捷指令等），输入数据，然后把 iPhone 的顶部边缘贴近一枚空白的 NTAG216（或其他符合 NDEF 的标签）。这样一来，任何人轻触该标签都会触发你设定的操作。可在 <a href=\"/affiliate-links/\">NFC 标签页面</a>列出的任意零售商处购买 NDEF 标签。"
+  - question: "NFC.cool 能离线使用吗？"
+    answer: "可以。读取和写入 NFC 标签、扫描二维码、扫描条形码、文档 OCR，以及 3D / 房间捕捉全部在设备端运行。只有可选的云端功能（向你服务器发送的 webhook、iCloud 同步）才需要联网。"
+  - question: "哪些 NFC 标签可与 NFC.cool 配合使用？"
+    answer: "任何符合 NDEF 的 NFC 标签，包括 NTAG213、NTAG215、NTAG216、MIFARE Ultralight、ICODE SLIX 等。凭借 888 字节的容量以及与 iPhone 和 Android 的广泛兼容性，NTAG216 是日常使用的推荐默认选择。在 <a href=\"/affiliate-links/\">NFC 标签页面</a>可查看经过测试的零售商。"
+  - question: "NFC.cool 能扫描二维码和条形码吗？"
+    answer: "可以，能从 iPhone 相机或相册中的任意照片识别 19 种码制：6 种二维码（QR Code、Micro QR、Aztec、Data Matrix、PDF417、Micro PDF417）和 13 种线性条形码（EAN-13、EAN-8、UPC-E、Code 39 含 Mod 43、Code 93、Code 128、Codabar、Interleaved 2 of 5、ITF-14，以及三种 GS1 DataBar 变体）。UPC-A 会作为带前导零的 EAN-13 读取。批量模式会保持相机开启，便于盘点库存和活动签到。"
+  - question: "我可以用 iPhone 写入 NFC 标签吗？"
+    answer: "可以，从 iPhone 7 起的每一部 iPhone 都能使用 NFC.cool Tools 读取和写入 NFC 标签。可从 25 种以上的消息类型中选择：URL、Wi-Fi 凭据、联系人名片（vCard）、iOS 快捷指令、支付、社交资料等。先用 NFC Safe（256 位 AES）加密机密信息，即可实现轻触解锁的工作流。"
+  - question: "NFC.cool 支持 iOS 快捷指令和操作按钮吗？"
+    answer: "支持，在 Platinum 版中提供。NFC.cool Tools 提供 App Intents、原生 iOS 快捷指令操作、锁屏和主屏幕小组件、操作按钮挂钩，以及控制中心快速启动，可把扫描串联进你自己的自动化中，或用一个按钮触发它们。免费版涵盖基本的扫描与分享流程；快捷指令 / 小组件 / 操作按钮这部分功能则在可选的 Platinum 订阅中提供。"
+  - question: "NFC.cool Business Card 如何在不安装 App 的情况下分享我的名片？"
+    answer: "通过 Apple App Clip（无需下载即可即时分享，接收方在系统弹窗中看到你的名片）、二维码、Apple Wallet 卡片，或一个公开的网页资料 URL。接收方只需轻触一下即可把你的联系人保存到手机，无需安装 NFC.cool 或创建账户。"
+  - question: "NFC.cool 与其他 NFC App 有何不同？"
+    answer: "大多数 NFC App 只专注于读取或写入，而 NFC.cool Tools 两者兼具，并且在同一款 App 中集成了二维码、条形码、文档 OCR、3D 捕捉和房间扫描。还有另外三点差异：隐私（扫描数据保留在设备端，绝不发送到 NFC.cool 服务器）；深度的 iOS 集成（App Intents、快捷指令、锁屏小组件、操作按钮、webhook），让扫描触发你自己的自动化，而不是被困在 App 内部；以及活跃的独立开发者支持，开发者亲自阅读每一封邮件，并在数天内推出修复。"
+
+newsletter:
+  title: "保持关注"
+  subtitle: "每当有有趣的东西发布时，你都会收到一封简短的邮件：新功能、集成、Beta 邀请。大约每月一次，绝无垃圾邮件。"
+  placeholder: "you@example.com"
+  buttonText: "订阅"
+  successText: "谢谢！请查收邮箱以确认订阅。"
+  errorText: "出错了，请重试。"
+  consent: "订阅即表示你同意接收不定期的更新。你可以随时取消订阅，每封邮件都附带一键退订链接。"
+
+cta:
+  title: "准备好扫描了吗？"
+  buttonText: "下载 iOS 版"

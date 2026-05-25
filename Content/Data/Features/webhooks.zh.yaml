@@ -1,0 +1,100 @@
+slug: "webhooks"
+backLinkText: "← 所有功能"
+
+card:
+  title: "Webhook 与自动化"
+  description: "扫描的那一刻，五种联动同时待命：向你的服务器发送 POST、运行快捷指令、打开 URL、朗读结果，或播放提示音。NFC.cool 负责扫描，后续发生什么由你做主。"
+  imagePath: "/assets/images/Webflow/webhook.webp"
+  platforms: "iOS · Android"
+
+hero:
+  title: "Webhook 与自动化"
+  subtitle: "当你扫描一枚 NFC 标签、一个二维码或一个条形码时，五种内置联动会同时待命：向你自己的服务器发送 POST、打开 URL、运行快捷指令、朗读结果，或播放提示音。NFC.cool 是扫描器，后续操作由你做主。"
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/webhook.webp"
+
+capabilitiesTitle: "五种联动"
+capabilities:
+  - title: "Webhook（向你的 URL 发送 POST）"
+    description: "扫描成功的那一刻，发送一个带有结构化 JSON 主体的 HTTP POST。配置一个 URL、可选的 HTTP Basic 认证，就大功告成。支持 iOS 和 Android。"
+  - title: "快捷指令（iOS）"
+    description: "当扫描到的 URL 带有 `shortcuts://` scheme 时，自动运行匹配的 iOS 快捷指令，无需额外轻触。把扫描数据导入快捷指令能触及的任何地方。"
+  - title: "打开链接（iOS）"
+    description: "当负载是普通 URL 时，自动在 Safari 中打开它（或打开匹配的深度链接目标），省去“轻触打开”这一步。"
+  - title: "语音合成（iOS）"
+    description: "免手操作地朗读扫描到的负载。语速可调。适用于无障碍场景、双手忙碌的工作流程，或仅仅作为一种令人安心的确认。"
+  - title: "播放音频（iOS）"
+    description: "扫描时播放一段确认提示音：可以是你自己选择的音频文件，也可以是内置音效之一。"
+
+subsectionsTitle: "Webhook 是如何工作的"
+subsections:
+  - title: "触发源：NFC、二维码和条形码"
+    body: "<p>Webhook 由三种事件源触发：<strong>NFC 扫描</strong>、<strong>二维码扫描</strong>和<strong>条形码扫描</strong>。每个来源都有各自的启用／停用开关，因此你可以把 NFC 读取的数据导入库存系统，而不会让摄像头扫描器向同一个端点疯狂发送请求。Webhook 本身是统一的：一个 URL、一份 JSON 负载、一次 POST。</p>"
+    platforms: "iOS · Android"
+
+  - title: "负载格式"
+    body: "<p>每一次 POST 都会发送形如下面这样的 JSON 主体：</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p><code>tagType</code> 和 <code>structured</code> 只在 <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a> 这类特殊格式下才会出现；其他所有扫描只发送前三个字段。<a href=\"/developers/\">开发者参考文档</a>提供了逐字段的完整说明、认证方式、curl 示例，以及可直接运行的示例服务器。</p>"
+    platforms: "iOS · Android"
+
+  - title: "GitHub 上的参考服务器"
+    body: "<p>端到端看清整个流程最快的方式：<a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">GitHub 上的 Web 服务器</a>。这是一个极简的示例服务器，可接收 NFC.cool 的 webhook 负载、记录日志，并实时展示其结构。克隆下来运行，把 iPhone 对准标签，看着扫描结果落到服务器上。</p>"
+    platforms: "iOS · Android"
+
+specsTitle: "技术细节"
+specs:
+  - title: "传输"
+    items:
+      - "推荐使用 HTTPS；开发环境下允许 HTTP"
+      - "带 `Content-Type: application/json` 的 POST"
+      - "可选的 HTTP Basic 认证（用户名 + 密码）"
+      - "凭据以加密形式存储在 iOS 钥匙串中"
+  - title: "负载"
+    items:
+      - "`identifier`：标签 UID 或扫描到的码"
+      - "`date`：ISO 8601 时间戳"
+      - "`content`：解码后的负载（URL 字符串、文本等）"
+      - "`tagType`：在结构化标签下出现（例如 `openPrintTag`）"
+      - "`structured`：结构化标签类型的嵌套 JSON"
+  - title: "来源"
+    items:
+      - "NFC 扫描（NDEF 读取）"
+      - "二维码扫描"
+      - "条形码扫描"
+      - "每个来源都可单独启用"
+
+pricing:
+  title: "免费版与白金版对比"
+  columns: ["免费版", "白金版"]
+  rows:
+    - label: "NFC 与二维码 Webhook"
+      values: ["✗", "✓"]
+    - label: "语音合成器"
+      values: ["✗", "✓"]
+    - label: "快捷指令"
+      values: ["✗", "✓"]
+    - label: "iCloud 同步"
+      values: ["✓", "✓"]
+
+faqTitle: "常见问题"
+faq:
+  - question: "这项功能在 Android 上能用吗？"
+    answer: "可以。Webhook 在 NFC.cool Tools 的 iOS 和 Android 版本上都可用，JSON 负载格式在各平台之间保持一致。（另外四种 iOS 联动：自动运行快捷指令、语音、音频、打开链接，仅限 iOS。）"
+  - question: "我可以配置多少个 URL？"
+    answer: "目前只能配置一个 URL。所有扫描事件都会发送到这同一个 URL，并通过已启用的来源开关和负载类型加以区分。"
+  - question: "支持哪些认证方式？"
+    answer: "HTTP Basic 认证：用户名 + 密码，以加密形式存储在 iOS 钥匙串中。目前暂不支持 Bearer 令牌、自定义请求头和 HMAC 签名。"
+  - question: "如果我的服务器离线了会怎样？"
+    answer: "POST 会失败，该事件会被记录在设备上。目前还没有自动重试队列；如果你的服务器可能不稳定，请把处理逻辑设计为可在重试时幂等执行，并从扫描历史中重新触发。"
+  - question: "负载大小有限制吗？"
+    answer: "NFC.cool 不施加硬性限制。标签负载本身则受 NFC 标准约束（典型的 NDEF 标签为几 KB）。"
+  - question: "在哪里能看到它的实际运行效果？"
+    answer: "克隆 <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">GitHub 上的 Web 服务器</a>，在本地运行，把应用对准它，你就能实时看到每一次扫描到达。"
+
+relatedReadingTitle: "继续阅读"
+relatedReading:
+  - title: "OpenPrintTag：读写智能 3D 打印料盘"
+    url: "/blog/openprinttag-read-write-nfc-spools-phone/"
+  - title: "如何在没有服务器的情况下统计 NFC 标签扫描次数"
+    url: "/blog/count-nfc-tag-scans/"
+  - title: "NFC 读取与写入"
+    url: "/features/nfc-reader-writer/"

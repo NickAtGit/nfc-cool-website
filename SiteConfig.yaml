@@ -5,7 +5,7 @@ language: "en"
 
 localization:
   defaultLanguage: "en"
-  languages: ["de", "ja", "pt"]
+  languages: ["de", "ja", "pt", "zh"]
   translationMode: "manual"
   legalLanguage: "de"
   # Localized nav + footer labels. URLs stay locale-agnostic; SiteKit prefixes
@@ -166,6 +166,58 @@ localization:
           - title: "Termos"
             url: "/terms/"
           - title: "Livro de Reclamações"
+            url: "https://www.livroreclamacoes.pt/Inicio/"
+    zh:
+      navigation:
+        items:
+          - title: "首页"
+            url: "/"
+          - title: "功能"
+            url: "/features/"
+          - title: "电子名片"
+            url: "/business-card/"
+          - title: "购买 NFC 标签"
+            url: "/affiliate-links/"
+          - title: "在线 NFC 读取器"
+            url: "/online-nfc-reader/"
+          - title: "博客"
+            url: "/blog/"
+          - title: "支持与联系"
+            url: "/contact/"
+        showSearch: false
+        showThemeToggle: true
+      footer:
+        copyrightName: "NFC.cool"
+        startYear: 2017
+        showAttribution: false
+        links:
+          - title: "功能"
+            url: "/features/"
+          - title: "在线 NFC 读取器"
+            url: "/online-nfc-reader/"
+          - title: "电子名片"
+            url: "/business-card/"
+          - title: "NFC 标签"
+            url: "/affiliate-links/"
+          - title: "开发者"
+            url: "/developers/"
+          - title: "用户评价"
+            url: "/reviews/"
+          - title: "关于"
+            url: "/about/"
+          - title: "更新日志"
+            url: "/changelog/"
+          - title: "博客"
+            url: "/blog/"
+          - title: "支持与联系"
+            url: "/contact/"
+          - title: "媒体报道"
+            url: "/press/"
+          - title: "隐私政策"
+            url: "/privacy/"
+          - title: "条款"
+            url: "/terms/"
+          - title: "投诉簿"
             url: "https://www.livroreclamacoes.pt/Inicio/"
 
 contentDirectory: "Content"

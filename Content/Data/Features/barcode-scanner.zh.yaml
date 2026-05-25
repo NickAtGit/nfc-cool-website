@@ -1,0 +1,98 @@
+slug: "barcode-scanner"
+backLinkText: "← 所有功能"
+
+card:
+  title: "条形码扫描器"
+  description: "扫描 13 种条形码格式外加 6 种二维码：EAN、UPC、QR、PDF417、Data Matrix 等。批量模式会让摄像头保持开启，适用于盘点和签到。"
+  imagePath: "/assets/images/Webflow/qr-barcode.webp"
+  platforms: "仅限 iOS"
+
+hero:
+  title: "条形码扫描器"
+  subtitle: "可扫描 19 种码制：13 种一维条形码（EAN、UPC、Code 128、GS1 DataBar 等），外加 6 种二维码（QR、PDF417、Aztec、Data Matrix 及 Micro 变体）。批量模式会让摄像头保持开启，适用于库存盘点和活动签到。"
+  platforms: "仅限 iOS"
+  heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
+
+capabilitiesTitle: "你可以做什么"
+capabilities:
+  - title: "所有主流条形码格式"
+    description: "可扫描 EAN-13/8、UPC-E（UPC-A 按 EAN-13 读取）、Code 128、Code 39（含 Mod 43）、Code 93、ITF、ITF-14、Codabar、GS1 DataBar、PDF417、Aztec、Data Matrix 等：自动识别格式，无需切换模式。"
+  - title: "批量模式"
+    description: "无需重新对准，连续扫描一叠条形码。适用于库存盘点、活动签到或图书馆归档。"
+  - title: "商品查询"
+    description: "轻触扫描到的零售条形码即可查询：条形码编号会被送入预先配置的搜索引擎（Google、Ecosia、DuckDuckGo、Bing 或 Startpage），匹配结果会直接返回。"
+  - title: "扫描历史与分享"
+    description: "每次扫描都会带时间戳保存下来。把重要的扫描记录收藏起来、为某条记录单独命名，并直接从历史视图中分享。"
+  - title: "读取时自动执行操作"
+    description: "URL 和快捷指令码在被扫描的那一刻即可自动打开、触发 webhook，或被朗读出来：与驱动 NFC 和二维码扫描的五种联动完全相同。"
+
+subsectionsTitle: "为高频次扫描而打造"
+subsections:
+  - title: "多重扫描、批量读取，以及按需补光"
+    body: "<p>三项设置把扫描器从一次性工具变成连续工作流。<strong>多重扫描</strong>让你在一次摄像头会话中扫描多个码。<strong>批量读取</strong>会让摄像头保持开启，适用于盘点或活动签到。<strong>自动补光</strong>会在弱光环境下点亮 LED，省得你手忙脚乱去找手电筒按钮。</p>"
+    imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
+    imageAlt: "iPhone 在补光下扫描多个二维码和条形码"
+    platforms: "iOS"
+
+  - title: "用于盘点与活动签到的 Webhook"
+    body: "<p>把条形码扫描器对接到你的后台系统。每读取一个条形码，就会向你的 URL 触发一个 webhook，于是随着摄像头移动，你的库存数据库、参会者 CRM 或图书馆目录会实时更新。JSON 负载格式和参考服务器请见 <a href=\"/features/webhooks/\">Webhook 与自动化</a>。</p>"
+    platforms: "iOS"
+
+  - title: "快捷指令与 App Intents"
+    body: "<p>NFC.cool 通过内置操作直接接入 iOS 快捷指令应用：获取最近扫描的 NFC 标签、向标签写入信息、打开扫描器，或调取最近扫描的二维码。把它们串联成快捷指令，先扫描标签、解析其负载，再启动你想要的后续操作：自动化、记录、写日记，随你发挥。同样的操作也驱动 iOS 17+ 上的锁屏<strong>扫描按钮</strong>控件。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone 将 NFC 标签连接到自动化模块"
+    platforms: "iOS"
+
+  - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
+    body: "<p>你的条形码扫描历史会在每一台登录了你 iCloud 账户的设备之间同步。用 iPhone 扫描一货架商品、在 iPad 上查看列表、在 <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> 上为扫描记录命名并分享：一份同步的历史记录，无需手动搬运任何东西。</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
+    platforms: "iOS"
+
+specsTitle: "支持的格式（共 19 种）"
+specs:
+  - title: "一维条形码（13 种格式）"
+    items:
+      - "EAN-13、EAN-8"
+      - "UPC-E（UPC-A 按 EAN-13 读取）"
+      - "Code 39、Code 39 Mod 43"
+      - "Code 93、Code 128"
+      - "Codabar"
+      - "Interleaved 2 of 5、ITF-14"
+      - "GS1 DataBar（标准版、扩展版、精简版）"
+  - title: "二维码／堆叠式码（6 种格式）"
+    items:
+      - "QR Code"
+      - "Micro QR"
+      - "PDF417"
+      - "Micro PDF417"
+      - "Aztec"
+      - "Data Matrix"
+
+pricing:
+  title: "免费版与白金版对比"
+  columns: ["免费版", "白金版"]
+  rows:
+    - label: "读取二维码和条形码"
+      values: ["✓", "✓"]
+    - label: "批量读取二维码和条形码"
+      values: ["✗", "✓"]
+
+faqTitle: "常见问题"
+faq:
+  - question: "为什么这项功能仅限 iOS？"
+    answer: "NFC.cool 的 Android 版本目前专注于 NFC 和电子名片。条形码扫描已列入 Android 的路线图。"
+  - question: "我可以一次扫描多个条形码吗？"
+    answer: "可以。批量模式会让摄像头保持开启，并把找到的每一个条形码排入队列。轻触队列中的任意一项即可对其执行操作。"
+  - question: "我可以保存并分享我的扫描记录吗？"
+    answer: "可以。每次扫描都会带时间戳留在历史视图中。你可以收藏某条扫描记录、为它命名，并从那里分享出去。"
+  - question: "扫描器离线也能用吗？"
+    answer: "扫描本身可以离线进行。商品查询需要联网（它会把条形码编号送入搜索引擎），但条形码的读取完全在设备本地完成。"
+
+relatedReadingTitle: "继续阅读"
+relatedReading:
+  - title: "二维码除了 URL 还能承载什么"
+    url: "/blog/tap-scan-thrive/"
+  - title: "二维码扫描器与工作室"
+    url: "/features/qr-scanner/"

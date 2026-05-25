@@ -1,0 +1,110 @@
+slug: "document-scanner"
+backLinkText: "← 全部功能"
+
+card:
+  title: "支持 OCR 的文档扫描"
+  description: "在 iPhone 或 iPad 上扫描文档，自动识别边缘并进行 OCR，全部在设备端完成，不上传任何内容。导出可搜索的多页 PDF。"
+  imagePath: "/assets/images/Webflow/document-scan.webp"
+  platforms: "仅限 iOS"
+
+hero:
+  title: "支持 OCR 的文档扫描"
+  subtitle: "扫描文档时自动识别边缘并校正透视。设备端 OCR 让每一次扫描都变成可搜索的文本。"
+  platforms: "仅限 iOS"
+  heroImagePath: "/assets/images/Webflow/document-scan.webp"
+
+capabilitiesTitle: "你能做什么"
+capabilities:
+  - title: "自动边缘识别"
+    description: "对准纸张，NFC.cool 会自动找到四角并完成捕捉。多页扫描可以在一次操作中拍下整叠文件。"
+  - title: "透视校正"
+    description: "拍歪了？NFC.cool 会把页面校正为规整的矩形，去除阴影并增强对比度，让结果看起来像平整的扫描件。"
+  - title: "设备端 OCR"
+    description: "文字识别在你的 iPhone 本地完成，文档和文本都不会离开设备。每一页识别出的文本都会与图像一同保存，并可在 App 内搜索。"
+  - title: "导出带内嵌文本的 PDF"
+    description: "生成内嵌 OCR 文本层的多页 PDF，让每个字在任意 PDF 阅读器中都可选中、可复制、可搜索。"
+  - title: "快速分享与保存"
+    description: "通过邮件、信息或隔空投送发送，也可保存到文件 App。没有水印、无需注册、不带 NFC.cool 标识。"
+
+subsectionsTitle: "比截图更聪明"
+subsections:
+  - title: "多页扫描 + 自动命名"
+    body: "<p>文档并不总是只有一页。NFC.cool 会在每次拍摄之间保持相机开启，让你重新排序页面、删除拍坏的页，再把所有内容合并为一份文档。内置的标题建议服务会读取首页内容，并给出合理的文件名，省去你每次手动重命名的麻烦。</p>"
+    imagePath: "/assets/images/Webflow/document-scan-detail.webp"
+    imageAlt: "多页文档详情视图"
+    platforms: "iOS"
+
+  - title: "从相册导入"
+    body: "<p>已经用普通相机拍下了收据？从相册中选取一张（或多张）图片，NFC.cool 会对导入的照片执行与现场拍摄相同的边缘识别、透视校正和 OCR。非常适合事后整理几个月以来零散的手机照片。</p>"
+    platforms: "iOS"
+
+  - title: "可控的压缩率"
+    body: "<p>稍不留神，手机生成的 PDF 体积就会膨胀。NFC.cool 把压缩率开放为一项设置，让你在归档级别的高保真和便于邮件发送的小体积之间自由选择，无需重新扫描。</p>"
+    platforms: "iOS"
+
+  - title: "快捷指令与 App Intents"
+    body: "<p>NFC.cool 直接接入 iOS 快捷指令 App，内置多种操作：获取最近扫描的 NFC 标签、向标签写入消息、打开扫描器，或读取最近扫描的二维码。把它们串联进快捷指令中：扫描标签、解析其内容，再触发你想要的后续动作，自动化、记录、日志，随你发挥。这些操作同样驱动 iOS 17+ 锁屏上的<strong>扫描按钮</strong>控件。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone 将 NFC 标签连接到自动化模块"
+    platforms: "iOS"
+
+  - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
+    body: "<p>文档通过 iCloud 在你账户下的每台设备之间无缝同步。在 iPhone 上扫描合同，在 iPad 上审阅，在 <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> 上签署，同一个资料库，无需来回导出。原始图像和识别出的文本都会一并同步。</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
+    platforms: "iOS"
+
+specsTitle: "能力与限制"
+specs:
+  - title: "识别"
+    items:
+      - "iOS Vision 框架 OCR"
+      - "拉丁、西里尔、希腊文字"
+      - "手写识别"
+      - "多语言检测"
+      - "识别出的文本在扫描后可编辑"
+  - title: "输出"
+    items:
+      - "带内嵌文本层的 PDF"
+      - "每页 JPEG / HEIC 图像"
+      - "多页文档"
+      - "可选的黑白模式"
+      - "可配置的压缩率"
+  - title: "隐私"
+    items:
+      - "所有 OCR 均在设备端运行"
+      - "文档和文本都不会上传到 NFC.cool"
+      - "文档存储在 iCloud 或 App 沙盒中，由你选择"
+
+pricing:
+  title: "免费版与 Platinum 版"
+  columns: ["免费版", "Platinum 版"]
+  rows:
+    - label: "扫描文档"
+      values: ["✓", "✓"]
+    - label: "照片转文档"
+      values: ["✓", "✓"]
+    - label: "OCR"
+      values: ["✓", "✓"]
+    - label: "导出为 PDF"
+      values: ["✗", "✓"]
+    - label: "自动导出到 iCloud"
+      values: ["✗", "✓"]
+
+faqTitle: "常见问题"
+faq:
+  - question: "OCR 能离线使用吗？"
+    answer: "可以。iOS Vision 完全在设备端处理 OCR。你可以在飞机上、野外，任何地方扫描并 OCR 文档。"
+  - question: "OCR 支持哪些语言？"
+    answer: "iOS Vision 目前可识别英语、法语、意大利语、德语、西班牙语、葡萄牙语和简体中文，此外还支持手写识别。"
+  - question: "OCR 的准确度如何？"
+    answer: "对印刷体文字准确度非常高。手写识别的准确度取决于字迹的工整程度和对比度。你可以在扫描后编辑任何识别出的文本。"
+  - question: "扫描的文档存储在哪里？"
+    answer: "免费版：存储在设备上的 App 沙盒中。Platinum 版：可选择自动导出到 iCloud 文档，从而显示在文件 App 中，并出现在所有登录了你 iCloud 的设备上。"
+
+relatedReadingTitle: "继续阅读"
+relatedReading:
+  - title: "随身可用的文档扫描"
+    url: "/blog/document-scanning-guide/"
+  - title: "3D 物体扫描"
+    url: "/features/3d-object-scanner/"

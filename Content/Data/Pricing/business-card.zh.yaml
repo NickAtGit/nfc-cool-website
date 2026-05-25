@@ -1,0 +1,30 @@
+# Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
+# {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
+columns: ["免费版", "个人版", "小型企业版", "企业版"]
+rows:
+  - label: "价格"
+    values: ["**$0**", "**$19.99**", "**$49.99**", "**$99.99**"]
+  - label: "名片数量"
+    values: ["1", "1", "10", "100"]
+  - label: "资料查看"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "保存 vCard"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "潜在客户开发"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "数据分析"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "自定义徽标"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "NFC 与二维码分享"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "会议模式"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "PIN 码保护"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "实时通知"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "数据导出（GDPR）"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "适合人群"
+    values: ["试用", "个人", "小型团队", "成长中的企业"]

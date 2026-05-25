@@ -1,0 +1,90 @@
+slug: "room-scanner"
+backLinkText: "← 全部功能"
+
+card:
+  title: "房间扫描"
+  description: "走过一个房间，RoomPlan 即可构建出整洁的平面图：墙壁、门、窗户和家具，并附带房间尺寸和面积计算。"
+  imagePath: "/assets/images/Webflow/scan-room.webp"
+  platforms: "仅限 iOS"
+
+hero:
+  title: "房间扫描"
+  subtitle: "由 LiDAR 驱动的 RoomPlan 会把你在空间中的一次走动转化为整洁的参数化平面图：墙壁、门、窗户和识别出的家具，导出为单个 USDZ 场景。"
+  platforms: "仅限 iOS"
+  heroImagePath: "/assets/images/Webflow/scan-room.webp"
+
+capabilitiesTitle: "你能做什么"
+capabilities:
+  - title: "RoomPlan 捕捉"
+    description: "用 iPhone 的 LiDAR 传感器走过一个房间。NFC.cool 会实时构建参数化模型：墙壁、门、窗户和开口。"
+  - title: "识别家具"
+    description: "床、沙发、桌子、椅子、储物柜、炉灶、水槽、马桶、浴缸和电视都会在场景中被检测并标注出来。"
+  - title: "地面面积与尺寸"
+    description: "每个房间都会报告地面面积、层高和每面墙的尺寸。你可以从模型中读取，也可以将它们嵌入导出的 USDZ 中。"
+  - title: "AR Quick Look"
+    description: "在 AR Quick Look 中打开完成的房间，或分享 USDZ，接收方可以直接在信息中绕着模型走动查看。"
+
+subsectionsTitle: "从一次走动到可用的平面图"
+subsections:
+  - title: "在 AR 中放置你的房间"
+    body: "<p>扫描完成后，把它放进 AR Quick Look，亲自绕着这个数字孪生体走动。在购买前核实家具摆放、或获得平板上的图纸难以传达的尺度感，都非常有用。</p>"
+    imagePath: "/assets/images/Blog/mac-3d-detail.webp"
+    imageAlt: "房间扫描详情视图"
+    platforms: "iOS"
+
+  - title: "多房间工作流"
+    body: "<p>每次扫描对应一个房间。扫描厨房、扫描客厅、扫描卧室，它们会并列存放在你的资料库中，你选用的任意 3D 编辑器都可以把它们拼接成一个多房间 USDZ。这对房产挂牌、装修规划或保险记录尤其有用。</p>"
+    platforms: "iOS"
+
+  - title: "快捷指令与 App Intents"
+    body: "<p>NFC.cool 直接接入 iOS 快捷指令 App，内置多种操作：获取最近扫描的 NFC 标签、向标签写入消息、打开扫描器，或读取最近扫描的二维码。把它们串联进快捷指令中：扫描标签、解析其内容，再触发你想要的后续动作，自动化、记录、日志，随你发挥。这些操作同样驱动 iOS 17+ 锁屏上的<strong>扫描按钮</strong>控件。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone 将 NFC 标签连接到自动化模块"
+    platforms: "iOS"
+
+  - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
+    body: "<p>扫描出的房间存放在你的 iCloud 文档文件夹中，因此用来扫描的 iPhone、用来审阅的 iPad，以及你将用来编辑的 <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> 看到的都是同一个资料库。在空间里走一遍，之后回到桌前再精修平面图。</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
+    platforms: "iOS"
+
+specsTitle: "硬件与输出"
+specs:
+  - title: "硬件要求"
+    items:
+      - "配备 LiDAR 的 iPhone（12 Pro 及更新的 Pro 机型）"
+      - "iPad Pro（2020 款）及更新机型同样支持"
+      - "RoomPlan 自 iOS 16 起可用，最新改进在 iOS 17+ 上提供"
+  - title: "输出"
+    items:
+      - "带命名实体的 USDZ 场景"
+      - "墙壁、门、窗户、开口"
+      - "识别出的家具类别"
+      - "地面面积和尺寸"
+
+pricing:
+  title: "免费版与 Platinum 版"
+  columns: ["免费版", "Platinum 版"]
+  rows:
+    - label: "扫描房间"
+      values: ["✓", "✓"]
+    - label: "房间测量"
+      values: ["✓", "✓"]
+    - label: "面积计算"
+      values: ["✗", "✓"]
+
+faqTitle: "常见问题"
+faq:
+  - question: "我需要 LiDAR 吗？"
+    answer: "需要。RoomPlan 是 Apple 仅支持 LiDAR 的 API。（3D 物体扫描同样需要 LiDAR，Apple 的 Object Capture 会话会进行检查。）"
+  - question: "一次扫描需要多久？"
+    answer: "只需走过房间即可。结果会实时生成，走完后即可使用。"
+  - question: "我可以在 CAD 软件中打开结果吗？"
+    answer: "可以，大多数现代 CAD/3D 工具都支持 USDZ。对于 SketchUp / Revit 工作流，可通过 Blender 或免费的 USD 转 OBJ 工具进行转换。"
+
+relatedReadingTitle: "继续阅读"
+relatedReading:
+  - title: "3D 物体扫描"
+    url: "/features/3d-object-scanner/"
+  - title: "在 iPhone 上用摄影测量和 LiDAR 进行 3D 扫描"
+    url: "/blog/3d-scan-feature/"

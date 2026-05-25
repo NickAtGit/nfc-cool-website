@@ -1,0 +1,87 @@
+slug: "3d-object-scanner"
+backLinkText: "← 全部功能"
+
+card:
+  title: "3D 物体扫描"
+  description: "围绕物体走一圈，Apple 的 Object Capture 即可构建带纹理的 3D 模型。导出为 USDZ 用于 AR、STL 用于 3D 打印，或 OBJ 用于 Blender。需要配备 LiDAR 的 iPhone Pro 或 iPad Pro。"
+  imagePath: "/assets/images/Webflow/3d-object.webp"
+  platforms: "仅限 iOS"
+
+hero:
+  title: "3D 物体扫描"
+  subtitle: "手持 iPhone 围绕真实物体走一圈，NFC.cool 会运行 Apple 的设备端 Object Capture 来重建带纹理的 3D 模型。把完成的模型导出到 AR 或任意 3D 工具中。"
+  platforms: "仅限 iOS"
+  heroImagePath: "/assets/images/Webflow/3d-object.webp"
+
+capabilitiesTitle: "你能做什么"
+capabilities:
+  - title: "摄影测量捕捉"
+    description: "围绕物体走动，拍下数十张照片。Apple 的设备端 Object Capture 流程会重建出几何形态逼真、带纹理的 3D 模型。"
+  - title: "预览与精修"
+    description: "在导出前以 3D 形式查看模型。如果想看看相机捕捉到的画面，还可以检视拍摄过程中采集的原始图像。"
+  - title: "AR Quick Look"
+    description: "通过 AR Quick Look 把任意扫描出的物体放进你的客厅。与朋友分享 USDZ 文件，他们可以直接在信息中查看。"
+  - title: "六种导出格式"
+    description: "导出带纹理的 USDZ 用于 AR Quick Look，或导出纯几何体为 USD、OBJ、STL、PLY、ABC，供 Blender 及其他 3D 内容流程使用。"
+
+subsectionsTitle: "从你的手中到 AR 视图"
+subsections:
+  - title: "在信息中使用 AR Quick Look"
+    body: "<p>USDZ 是 Apple 原生的 AR 格式。在 iMessage 或隔空投送中分享扫描出的物体，接收方就能旋转它、把它放进自己的空间、为它截图，全部在消息预览中完成，无需安装 App。非常适合产品预览、雕塑记录，或者单纯炫耀一下。</p>"
+    platforms: "iOS"
+
+  - title: "快捷指令与 App Intents"
+    body: "<p>NFC.cool 直接接入 iOS 快捷指令 App，内置多种操作：获取最近扫描的 NFC 标签、向标签写入消息、打开扫描器，或读取最近扫描的二维码。把它们串联进快捷指令中：扫描标签、解析其内容，再触发你想要的后续动作，自动化、记录、日志，随你发挥。这些操作同样驱动 iOS 17+ 锁屏上的<strong>扫描按钮</strong>控件。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone 将 NFC 标签连接到自动化模块"
+    platforms: "iOS"
+
+  - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
+    body: "<p>扫描出的模型存放在你的 iCloud 文档文件夹中，因此用来扫描的 iPhone、用来审阅的 iPad，以及你将用来编辑的 <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> 看到的都是同一个资料库。随手在外拍下，回到桌前完成。</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
+    platforms: "iOS"
+
+specsTitle: "硬件与导出"
+specs:
+  - title: "硬件要求"
+    items:
+      - "iOS 17.0 或更新版本"
+      - "需要 LiDAR，即 iPhone Pro 机型（iPhone 12 Pro 及更新机型）"
+      - "iPad Pro（2020 款）及更新机型同样支持"
+  - title: "导出格式"
+    items:
+      - "USDZ，带纹理，Apple 的 AR Quick Look 格式"
+      - "USD、OBJ、STL、PLY、ABC，仅几何体（通过 ModelIO）"
+      - "原始捕捉图像（Platinum 版）"
+
+pricing:
+  title: "免费版与 Platinum 版"
+  columns: ["免费版", "Platinum 版"]
+  rows:
+    - label: "扫描 3D 物体"
+      values: ["✓", "✓"]
+    - label: "在 AR 中放置物体"
+      values: ["✓", "✓"]
+    - label: "导出 3D 模型"
+      values: ["✗", "✓"]
+    - label: "导出照片"
+      values: ["✗", "✓"]
+
+faqTitle: "常见问题"
+faq:
+  - question: "我的 iPhone 需要 LiDAR 吗？"
+    answer: "需要。Apple 的 Object Capture 会话要求配备 LiDAR 的设备，也就是 iPhone Pro（12 Pro 及更新机型）或 2020 年起的 iPad Pro。非 Pro 机型的 iPhone 不配备 LiDAR。"
+  - question: "一次扫描需要多久？"
+    answer: "围绕物体走动几分钟，然后在设备端重建几分钟。物体越大、纹理越丰富，所需时间越长。"
+  - question: "我可以把结果用于 3D 打印吗？"
+    answer: "你可以导出为 OBJ，再在 Blender、MeshLab 或任意标准 3D 工具中转换为 STL。对于中等大小、纹理良好的物体，模型保真度最佳。"
+  - question: "它和房间扫描有什么区别？"
+    answer: "Object Capture（本功能）为单个物体构建一个 3D 模型。房间扫描则使用 LiDAR 和 Apple 的 RoomPlan 来构建空间的平面图，包括墙壁、门和家具。两者都需要 LiDAR，但解决的是不同的问题。"
+
+relatedReadingTitle: "继续阅读"
+relatedReading:
+  - title: "在 iPhone 上用摄影测量和 LiDAR 进行 3D 扫描"
+    url: "/blog/3d-scan-feature/"
+  - title: "房间扫描"
+    url: "/features/room-scanner/"

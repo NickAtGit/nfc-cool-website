@@ -1,0 +1,188 @@
+slug: "nfc-reader-writer"
+backLinkText: "← 所有功能"
+
+card:
+  title: "NFC 读取与写入"
+  description: "读取任意 NFC 标签，写入 25 多种信息类型：网页链接、Wi-Fi、名片、快捷指令等。可锁定标签，并用 NFC Safe 加密机密信息。"
+  imagePath: "/assets/images/Webflow/nfc-card.webp"
+  platforms: "iOS · Android"
+
+hero:
+  title: "NFC 读取与写入"
+  subtitle: "在 iPhone 和 Android 上读取与写入 NFC 标签。轻触即可读取任意标签，写入你自己的链接、联系人和 Wi-Fi，然后锁定标签，让其他人无法更改。"
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+
+capabilitiesTitle: "你可以做什么"
+capabilities:
+  - title: "读取每一种 NDEF 标签"
+    description: "轻触任意 NFC 标签即可查看其 NDEF 记录：URL、联系人、纯文本、MIME 数据、应用启动、自定义负载，还能查看原始字节和技术类型。"
+  - title: "写入 25 多种信息类型"
+    description: "网站、电话号码、vCard、Wi-Fi 凭据、PayPal、Cash App 与 Venmo、Spotify、YouTube、快捷指令、Instagram、X、LinkedIn、TikTok、WhatsApp 等。"
+  - title: "锁定与密码保护"
+    description: "可将标签永久设为只读，或为其设置密码保护，只有授权设备才能读取或写入。工业级的标签加固能力。"
+  - title: "格式化、批量写入、克隆"
+    description: "格式化空白标签，为活动或产品发布把同一负载批量写入一叠标签，还能把一个标签的内容克隆到另一个标签上。"
+  - title: "读取时自动执行操作"
+    description: "标签被轻触时，可自动运行 iOS 快捷指令、朗读读取结果、触发 webhook，或自动打开链接。五种联动，一次轻触。"
+
+subsectionsTitle: "比普通 NFC 应用更深入"
+subsections:
+  - title: "NFC Safe：在标签本身加密机密信息"
+    body: "<p>大多数 NFC 应用把标签当作明信片：任何人用手机都能读取。NFC Safe 则把它当作一个密封的信封。你的机密信息（密码、助记词、许可证密钥或任意文本）会在到达标签之前，先在你的设备上用 AES-256 加密。即便标签丢失、被盗，或者交给了陌生人，只要没有你的口令，标签里的负载就只是一堆乱码。</p><p>同一套加密在两个平台上都通用，因此你可以在 iPhone 上锁定一条机密信息，再在 Android 上解锁。想了解它的加密方式全貌？<a href=\"/blog/nfc-safe-encrypted-secrets/\">阅读博客上的 NFC Safe 深度解析</a>。</p>"
+    imagePath: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
+    imageAlt: "标签上的 NFC Safe 加密机密信息"
+    platforms: "iOS · Android"
+
+  - title: "NFC 轻触计数器：用标签 ID 和次数追踪每一枚标签"
+    body: "<p>有些 NFC 芯片会在硬件层面统计自己被扫描的次数。NFC 轻触计数器把这一能力用起来：它会设置标签，使其在每次被读取时，都把实时轻触次数（以及／或它的唯一标签 ID）追加到所承载的内容上（URL、电子邮件、短信或快捷指令）。无需服务器、无需联网、无需维护任何后端，由芯片自己完成计数和替换。</p><p>这样一来，一枚标签就能告诉你究竟是哪张实体贴纸被轻触了、被轻触了多少次，并让你据此行动：把前 100 次扫描限定为演示用途、追踪名片上的互动情况，或用一个只增不减的计数器来证明真伪。想看完整教程？<a href=\"/blog/count-nfc-tag-scans/\">阅读博客上的 NFC 轻触计数器指南</a>，或<a href=\"/tap-counter/\">试用在线演示</a>：轻触一枚标签，看着页面上的计数往上走。</p>"
+    imagePath: "/assets/images/Blog/count-nfc-tag-scans.webp"
+    imageAlt: "手机轻触一枚 NFC 标签，扫描计数不断上升"
+    platforms: "iOS · Android"
+
+  - title: "OpenPrintTag：把你的 3D 打印机耗材信息放到料盘上"
+    body: "<p>OpenPrintTag 是一项开放标准，用于把耗材料盘的元数据（材料、颜色、制造商、UUID、剩余长度）嵌入一条小巧的 CBOR 编码 NDEF 记录中。NFC.cool 在两个平台上都原生支持读写这一格式，因此兼容的打印机在料盘装入的那一刻就能识别它。第一次接触这个格式？<a href=\"/blog/openprinttag-read-write-nfc-spools-phone/\">我们的博客指南会带你完成 OpenPrintTag 料盘的读取和写入</a>。</p><p>同一格式也驱动着 <a href=\"/features/webhooks/\">Webhook 与自动化</a>页面上的结构化 webhook 负载：一旦检测到新的料盘，就立刻向你的打印机群发出一个 POST 请求。</p>"
+    imagePath: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
+    imageAlt: "用手机读取和写入 OpenPrintTag NFC 料盘"
+    platforms: "iOS · Android"
+
+  - title: "牙刷刷头重置"
+    body: "<p>飞利浦 Sonicare 刷头带有一枚 NFC 标签，用于记录使用情况，好让手柄提醒你更换刷头。NFC.cool 可以重置这个计数器：读取标签状态、引导你完成重置、再把新状态写回去。两个平台上的操作完全一致。想确切知道芯片记录了哪些信息？<a href=\"/blog/reset-sonicare-brush-head-nfc/\">阅读博客上的 Sonicare 刷头指南</a>。（我们不生产刷头，只是让你的刷头多体面地用上一个月。）</p>"
+    imagePath: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
+    imageAlt: "用 NFC 重置飞利浦 Sonicare 刷头"
+    platforms: "iOS · Android"
+
+  - title: "高级用户模式"
+    body: "<p>给那些想知道芯片上到底有什么的人：NFC.cool 可以把标签的完整内存以十六进制形式导出、识别底层芯片型号（NTAG213/215/216、NTAG424 DNA、MIFARE Classic/Ultralight、ISO 15693 各种变体、FeliCa 等），并报告总字节数、用户字节数、锁定页和能力容器。它专为开发者、创客以及任何在调试标签的人打造。</p><p>在 iOS 上，<strong>专家 APDU 模式</strong>更进一层：向标签发送原始 ISO 7816 命令并查看其响应，适用于你在对接某款不常见的读卡器、自定义协议，或者只是想看看芯片愿意透露什么的时候。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-power-user-mode.webp"
+    imageAlt: "iPhone 通过诊断面板查看 NFC 标签内存"
+    platforms: "iOS · Android"
+
+  - title: "轻触即可分享加密货币"
+    body: "<p>把 Bitcoin、Ethereum、Solana、Lightning 或任意钱包地址编码为支付 URI 的 NDEF 记录。在大会上轻触即可分享一个静态钱包、把它嵌入产品上的贴纸里，或递给别人一张带有永久地址的金属卡片。读取也是双向的：扫描一枚加密货币标签，便可深度链接直接跳转到你的钱包应用。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-cryptocurrency-tap.webp"
+    imageAlt: "iPhone 通过 NFC 标签分享加密货币钱包"
+    platforms: "iOS · Android"
+
+  - title: "无需输入密码即可接入 Wi-Fi"
+    body: "<p>只需把你的 Wi-Fi SSID、安全类型和密码写入标签一次。从此以后，任何人轻触它就能加入网络：不用逐字念出密码，也不用在民宿里贴一张潦草的便利贴。反过来也行：读取别人家的一枚 Wi-Fi 标签，让系统弹出提示询问是否加入。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-wifi-onboarding.webp"
+    imageAlt: "iPhone 通过 NFC 标签加入 Wi-Fi"
+    platforms: "iOS · Android"
+
+  - title: "朗读出来"
+    body: "<p>无论是出于无障碍考虑、为了免手操作的工作流程，还是单纯觉得好用：打开语音合成联动，每次轻触标签时，它的负载就会被立刻朗读出来。语速可调，并可与 VoiceOver 及其他辅助技术并行使用。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-speak-aloud.webp"
+    imageAlt: "iPhone 伴随声波朗读 NFC 标签内容"
+    platforms: "iOS"
+
+  - title: "CSV 批量写入"
+    body: "<p>面向 iOS 上认真的 NFC 操作者：上传一份包含各种负载的表格，把手机交给助手，一次性写入整叠标签。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
+    imageAlt: "iPhone 根据表格批量写入 NFC 标签"
+    platforms: "iOS"
+
+  - title: "快捷指令与 App Intents"
+    body: "<p>NFC.cool 通过内置操作直接接入 iOS 快捷指令应用：获取最近扫描的 NFC 标签、向标签写入信息、打开扫描器，或调取最近扫描的二维码。把它们串联成快捷指令，先扫描标签、解析其负载，再启动你想要的后续操作：自动化、记录、写日记，随你发挥。同样的操作也驱动 iOS 17+ 上的锁屏<strong>扫描按钮</strong>控件。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone 将 NFC 标签连接到自动化模块"
+    platforms: "iOS"
+
+  - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
+    body: "<p>扫描历史、NFC Safe 条目和写入模板会在每一台登录了你 iCloud 账户的设备之间无缝同步。用口袋里的 iPhone 轻触一枚标签，片刻之后这次扫描就出现在你的 iPad 资料库里。NFC.cool 现在也<a href=\"/blog/nfc-cool-comes-to-mac/\">能在 Apple Silicon Mac 上运行</a>，因此同一份资料库在那里也会出现。</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
+    platforms: "iOS"
+
+specsTitle: "支持的标签与技术"
+specs:
+  - title: "标签家族"
+    items:
+      - "NFC Forum Type 1、2、3、4、5"
+      - "NTAG 213、215、216、424 DNA、NTAG I²C 各种变体"
+      - "MIFARE Classic 1K/4K、MIFARE Ultralight、MIFARE DESFire"
+      - "ISO 14443 A/B、ISO 15693、FeliCa（iOS）"
+  - title: "记录类型"
+    items:
+      - "URI（web、mailto、tel、sms、geo、自定义 scheme）"
+      - "文本（带语言标记）"
+      - "vCard ／联系人"
+      - "Wi-Fi 凭据、蓝牙配对"
+      - "Smart Poster（复合记录）"
+      - "应用启动"
+      - "加密货币地址（基于 URI）"
+      - "OpenPrintTag（3D 打印机耗材元数据）"
+      - "NFC Safe（加密的 external 类型，urn:nfc:ext:crypto）"
+      - "MIME、External、原始字节"
+  - title: "平台说明"
+    items:
+      - "iOS 16+（iPhone XS 及更新机型支持在锁屏状态下后台读取标签）"
+      - "Android 8.0+（API 26），前台 NFC 读取"
+      - "从 iOS 写入标签需要 Core NFC 权限，已内置于应用中"
+      - "在 Android 上进行后台 NFC 读取需要应用处于前台"
+
+pricing:
+  title: "免费版与白金版对比"
+  columns: ["免费版", "白金版"]
+  rows:
+    - label: "读取 NFC 标签"
+      values: ["✓", "✓"]
+    - label: "分析 NFC 标签"
+      values: ["✓", "✓"]
+    - label: "写入 NFC 标签"
+      values: ["limited", "✓"]
+    - label: "NFC 信息类型"
+      values: ["limited", "✓"]
+    - label: "格式化 NFC 标签"
+      values: ["✗", "✓"]
+    - label: "为 NFC 标签设置密码保护"
+      values: ["✗", "✓"]
+    - label: "锁定 NFC 标签"
+      values: ["✗", "✓"]
+    - label: "NFC Safe"
+      values: ["✗", "✓"]
+    - label: "NFC 批量模式"
+      values: ["✗", "✓"]
+    - label: "NFC CSV 写入"
+      values: ["✗", "✓"]
+    - label: "NFC 专家命令"
+      values: ["✗", "✓"]
+    - label: "NFC 轻触计数器"
+      values: ["✗", "✓"]
+    - label: "OpenPrintTag（3D 打印）"
+      values: ["✓", "✓"]
+
+featuredReviewsTitle: "用户对 NFC 功能的评价"
+featuredReviews:
+  - quote: "界面精美，运行几乎毫无瑕疵，跟其他 NFC 应用完全不在一个层次。"
+    author: "garretthoyos"
+    location: "App Store · 2023 年 3 月"
+  - quote: "我超爱这款应用。对我这种对 NFC 标签几乎一无所知的人来说，它太棒了！"
+    author: "Dallasg479"
+    location: "App Store · 2020 年 10 月"
+
+faqTitle: "常见问题"
+faq:
+  - question: "读取标签时，我的 iPhone 需要解锁吗？"
+    answer: "对于大多数标签扫描，不需要。iPhone XS 及更新机型可以在锁屏状态下后台读取 NDEF 标签，无需启动应用。在 Android 上，应用需要处于前台才能读取标签。"
+  - question: "没有网络连接也能读取标签吗？"
+    answer: "可以。NFC 的读取和写入都完全在设备本地进行。NFC.cool 绝不会把标签内容上传到任何服务器。"
+  - question: "写入 NFC 标签安全吗？"
+    answer: "默认情况下写入是安全且可逆的，你可以随心所欲地重复写入同一枚标签。只有在确定之后再使用锁定功能：标签一旦被永久锁定，就无法再写入。"
+  - question: "NFC Safe 的安全性如何？"
+    answer: "NFC Safe 使用 AES-256-GCM 加密负载，并通过 PBKDF2-HMAC-SHA256 从你的口令派生密钥，迭代 100,000 次，每条记录配以 16 字节随机盐值和 12 字节 nonce。没有口令，标签上的负载与随机字节别无二致。"
+  - question: "同一枚 NFC Safe 标签在 iOS 和 Android 上都能用吗？"
+    answer: "可以。这一格式具有互操作性。在一个平台上加密，在另一个平台上解密：同样的口令，同样的负载。"
+  - question: "重置 Sonicare 刷头会让什么失效吗？"
+    answer: "它只是重置标签上的使用计数器，让手柄不再提醒你更换。刷头本身并不知道自己被重置过，它只会照常刷牙。刷毛何时该换，请自行判断。"
+
+relatedReadingTitle: "继续阅读"
+relatedReading:
+  - title: "在浏览器中在线读取 NFC 标签"
+    url: "/online-nfc-reader/"
+  - title: "NFC 标签详解：完整新手指南"
+    url: "/blog/nfc-tags-beginners-guide/"
+  - title: "如何用 iPhone 写入 NFC 标签"
+    url: "/blog/write-nfc-tags-iphone/"
+  - title: "哪些类型的 NFC 标签可以配合 iPhone 使用"
+    url: "/blog/nfc-tag-types-for-iphones/"

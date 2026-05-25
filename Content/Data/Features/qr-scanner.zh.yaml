@@ -1,0 +1,115 @@
+slug: "qr-scanner"
+backLinkText: "← 所有功能"
+
+card:
+  title: "二维码扫描器与工作室"
+  description: "用摄像头扫描二维码，或从任意照片中识别二维码，然后在内置的二维码工作室里用图标和 Genmoji 设计你自己的二维码。"
+  imagePath: "/assets/images/Webflow/qr-studio.webp"
+  platforms: "仅限 iOS"
+
+hero:
+  title: "二维码扫描器与工作室"
+  subtitle: "用摄像头扫描任意二维码，或从截图中识别出二维码。在内置的二维码工作室里，用徽标、Genmoji 和品牌色设计自定义二维码。"
+  platforms: "仅限 iOS"
+  heroImagePath: "/assets/images/Webflow/qr-studio.webp"
+
+capabilitiesTitle: "你可以做什么"
+capabilities:
+  - title: "全能二维码扫描"
+    description: "URL、vCard、Wi-Fi 凭据、日历事件、付款信息、应用商店深度链接：NFC.cool 会识别负载类型并提供恰当的操作。"
+  - title: "识别截图中的二维码"
+    description: "从相册中选取任意图片，NFC.cool 都能找到并解码其中的二维码，即便它被部分遮挡或对比度很低。"
+  - title: "二维码工作室"
+    description: "用自定义颜色、圆角定位图案、自定义像素形状，以及居中的徽标或 Genmoji 来设计二维码。可导出为最高 4096×4096 的 PNG。"
+  - title: "历史记录与再次分享"
+    description: "每次扫描都会保存在本地：可重新打开负载、复制、分享，或直接跳回对应操作。"
+  - title: "读取时自动执行操作"
+    description: "二维码被扫描的那一刻，即可打开 URL、运行快捷指令、触发 webhook，或朗读结果：与驱动 NFC 扫描的五种联动完全相同。"
+
+subsectionsTitle: "不只是一个扫描器"
+subsections:
+  - title: "小组件：把你的二维码放到主屏幕上"
+    body: "<p>用<strong>二维码图片小组件</strong>把你最常分享的二维码放到 iPhone 或 iPad 主屏幕上。办公室的 Wi-Fi、你的名片链接、酒吧的菜单：一眼可见，别人用手机就能扫，你什么都不用打开。<strong>最近扫描小组件</strong>会显示最近一次扫描的二维码，方便你即刻再次分享。<strong>扫描按钮小组件</strong>则可直接从主屏幕或锁屏启动扫描器，一次轻触即可，在 iOS 17+ 上还能通过交互式控件实现。</p>"
+    imagePath: "/assets/images/Features/qr-scanner-widgets-home-screen.webp"
+    imageAlt: "带有二维码小组件和扫描按钮的 iPhone 主屏幕"
+    platforms: "iOS"
+
+  - title: "二维码工作室：自定义像素形状、颜色、定位点、徽标"
+    body: "<p>二维码工作室让你在保留可扫描性的同时，摆脱千篇一律的方块外观。可选择像素形状（圆角、圆点、菱形）、为每个定位点设置样式、设定前景／背景颜色，并在中央放置徽标图片或 Genmoji。可按六种像素尺寸导出：512、1024、1536、2048、3072 或 4096。</p>"
+    imagePath: "/assets/images/Features/qr-scanner-studio-card.webp"
+    imageAlt: "带有自定义徽标的二维码工作室"
+    platforms: "iOS"
+
+  - title: "多重扫描、批量读取，以及按需补光"
+    body: "<p>三项设置把扫描器从一次性工具变成连续工作流。<strong>多重扫描</strong>让你在一次摄像头会话中扫描多个码。<strong>批量读取</strong>会让摄像头保持开启，适用于盘点或活动签到。<strong>自动补光</strong>会在弱光环境下点亮 LED，省得你手忙脚乱去找手电筒按钮。</p>"
+    imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
+    imageAlt: "iPhone 在补光下扫描多个二维码和条形码"
+    platforms: "iOS"
+
+  - title: "快捷指令与 App Intents"
+    body: "<p>NFC.cool 通过内置操作直接接入 iOS 快捷指令应用：获取最近扫描的 NFC 标签、向标签写入信息、打开扫描器，或调取最近扫描的二维码。把它们串联成快捷指令，先扫描标签、解析其负载，再启动你想要的后续操作：自动化、记录、写日记，随你发挥。同样的操作也驱动 iOS 17+ 上的锁屏<strong>扫描按钮</strong>控件。</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone 将 NFC 标签连接到自动化模块"
+    platforms: "iOS"
+
+  - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
+    body: "<p>扫描历史和你的二维码工作室设计会在每一台登录了你 iCloud 账户的设备之间同步。在 iPad 上设计一个二维码、从 iPhone 上分享它、在 <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> 上编辑它：同一份资料库、同样的修改，无需来回导出。</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
+    platforms: "iOS"
+
+specsTitle: "支持的码与工作室导出"
+specs:
+  - title: "二维码变体（摄像头 + 相册）"
+    items:
+      - "QR Code（版本 1-40）"
+      - "Micro QR（M1-M4）"
+      - "单张图片中的多个码"
+  - title: "工作室导出尺寸"
+    items:
+      - "PNG，512、1024、1536、2048、3072 或 4096 像素见方"
+  - title: "工作室自定义"
+    items:
+      - "前景与背景颜色"
+      - "自定义像素形状（圆角、圆点、菱形等）"
+      - "为每个定位点设置样式和形状"
+      - "中央徽标（任意图片、Apple 贴纸，或 iOS 18+ 上的 Genmoji）"
+
+pricing:
+  title: "免费版与白金版对比"
+  columns: ["免费版", "白金版"]
+  rows:
+    - label: "读取二维码和条形码"
+      values: ["✓", "✓"]
+    - label: "创建二维码"
+      values: ["limited", "✓"]
+    - label: "二维码工作室"
+      values: ["limited", "✓"]
+    - label: "二维码信息类型"
+      values: ["limited", "✓"]
+    - label: "二维码小组件"
+      values: ["limited", "✓"]
+    - label: "无水印"
+      values: ["✗", "✓"]
+    - label: "批量读取二维码和条形码"
+      values: ["✗", "✓"]
+
+faqTitle: "常见问题"
+faq:
+  - question: "为什么这项功能仅限 iOS？"
+    answer: "NFC.cool 的 Android 版本目前专注于 NFC 和电子名片。二维码扫描已列入 Android 的路线图。"
+  - question: "工作室生成的二维码与所有扫码器都兼容吗？"
+    answer: "兼容。它们是带有可选外观样式的标准二维码。任何标准扫码器（iOS 相机、Google Lens、Android 自带的扫描器）都能解码。"
+  - question: "我可以扫描截图里的二维码吗？"
+    answer: "可以。从相册中选取任意图片，NFC.cool 就能找到其中的每一个二维码，哪怕它被部分遮挡。"
+  - question: "工作室会嵌入水印或 NFC.cool 的品牌标识吗？"
+    answer: "免费版生成的码会带有一个小小的署名。白金版生成的码则没有水印：纯粹是你自己的设计。"
+
+relatedReadingTitle: "继续阅读"
+relatedReading:
+  - title: "设计别具特色的二维码"
+    url: "/blog/flair-qr-codes/"
+  - title: "二维码除了 URL 还能承载什么"
+    url: "/blog/tap-scan-thrive/"
+  - title: "NFC 名片与二维码：拓展人脉哪个更好？"
+    url: "/blog/nfc-business-card-vs-qr-code/"
