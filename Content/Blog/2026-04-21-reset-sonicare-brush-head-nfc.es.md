@@ -73,7 +73,7 @@ NFC.cool Tools gestiona todo el proceso: leer la etiqueta, calcular la contrase�
 4. La app muestra un **indicador de porcentaje** de cuánta vida ha gastado el cabezal, con el tiempo usado y el tiempo restante debajo
 5. Toca **Restablecer temporizador** para poner el contador de uso de nuevo a cero, o escanea otro cabezal
 
-Disponible ya en [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8), próximamente en [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) en una actualización futura.
+Disponible ya en [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) y [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en).
 
 ---
 
@@ -101,4 +101,4 @@ NFC.cool Tools lee y escribe todo esto. La función Sonicare es un ejemplo de en
 - [El generador de contraseñas de Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) - el algoritmo extraído del firmware de Sonicare
 - [El mapa de memoria del NTAG213 de mbirth](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html) - documentación detallada de cada byte en el chip
 
-*¿Tienes un cabezal de cepillo Sonicare que comprobar? [Descarga NFC.cool Tools para iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) o [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) (restablecimiento de Sonicare llegando pronto a Android) y comprueba qué ha estado registrando tu cepillo de dientes.*
+*¿Tienes un cabezal de cepillo Sonicare que comprobar? [Descarga NFC.cool Tools para iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) o [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) y comprueba qué ha estado registrando tu cepillo de dientes.*

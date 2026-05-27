@@ -85,4 +85,4 @@ NFC Safe 位于 NFC.cool Tools 里的 NFC Apps 下。我把整个功能压缩到
 
 NFC Safe 是我想把这份耐用性补上它唯一欠缺的那样东西的尝试，那就是加密。一份比纸更耐久、任何捡到它的人都读不出来、而且成本不到一杯咖啡的备份。这正是我想为自己拥有的东西，所以我把它做了出来。
 
-现已在 [iPhone 版 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-en&mt=8) 上线。Android 版即将推出。
+现已在 [iPhone 版 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-safe-encrypted-secrets-en) 上线。

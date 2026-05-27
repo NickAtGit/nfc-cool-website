@@ -85,4 +85,4 @@ Working on NFC every day, I've watched these tags quietly become the storage med
 
 NFC Safe is my attempt to take that durability and add the one thing it was missing - encryption. A backup that outlasts paper, can't be read by anyone who finds it, and costs less than a cup of coffee. That's the kind of thing I wanted for myself, so I built it.
 
-Available now on [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-en&mt=8). Coming soon to Android.
+Available now on [NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-safe-encrypted-secrets-en).

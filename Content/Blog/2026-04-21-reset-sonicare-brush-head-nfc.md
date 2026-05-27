@@ -73,7 +73,7 @@ NFC.cool Tools handles the whole process: reading the tag, computing the passwor
 4. The app shows a **percentage gauge** of how much life the head has used, with used and remaining time below
 5. Tap **Reset Timer** to set the usage counter back to zero, or scan another head
 
-Available now on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8), coming to [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) in a future update.
+Available now on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en).
 
 ---
 
@@ -101,4 +101,4 @@ NFC.cool Tools reads and writes all of these. The Sonicare feature is one exampl
 - [Aaron Christophel's password generator](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) - the algorithm extracted from the Sonicare firmware
 - [mbirth's NTAG213 memory map](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html) - detailed documentation of every byte on the chip
 
-*Have a Sonicare brush head to check? [Download NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) (Sonicare reset coming soon on Android) and see what your toothbrush has been tracking.*
+*Have a Sonicare brush head to check? [Download NFC.cool Tools for iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) and see what your toothbrush has been tracking.*

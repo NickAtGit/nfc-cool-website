@@ -73,7 +73,7 @@ NFC.cool Tools übernimmt den ganzen Prozess: Tag auslesen, Passwort berechnen, 
 4. Die App zeigt einen **Prozent-Indikator** dafür an, wie viel Lebenszeit der Kopf verbraucht hat, mit verbrauchter und verbleibender Zeit darunter
 5. Tippe auf **Reset Timer**, um den Nutzungszähler auf null zurückzusetzen, oder scanne einen weiteren Kopf
 
-Verfügbar jetzt für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-de&mt=8), kommt mit einem zukünftigen Update auf [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-de).
+Verfügbar jetzt für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-de).
 
 ---
 
@@ -101,4 +101,4 @@ NFC.cool Tools liest und schreibt sie alle. Die Sonicare-Funktion ist ein Beispi
 - [Aaron Christophels Passwort-Generator](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) - der aus der Sonicare-Firmware extrahierte Algorithmus
 - [mbirths NTAG213 Memory Map](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html) - detaillierte Dokumentation jedes Bytes auf dem Chip
 
-*Hast du einen Sonicare-Bürstenkopf zum Prüfen? [Lade NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-de) (Sonicare-Reset kommt bald auf Android) und sieh, was deine Zahnbürste über dich gespeichert hat.*
+*Hast du einen Sonicare-Bürstenkopf zum Prüfen? [Lade NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-de) und sieh, was deine Zahnbürste über dich gespeichert hat.*

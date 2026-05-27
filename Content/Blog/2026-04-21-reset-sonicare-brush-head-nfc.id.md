@@ -73,7 +73,7 @@ NFC.cool Tools menangani seluruh prosesnya: membaca tag, menghitung kata sandi, 
 4. Aplikasi menampilkan **pengukur persentase** seberapa banyak masa pakai kepala yang sudah terpakai, dengan waktu yang sudah terpakai dan tersisa di bawahnya
 5. Ketuk **Reset Timer** untuk mengatur ulang penghitung penggunaan ke nol, atau pindai kepala lain
 
-Tersedia sekarang di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8), akan hadir di [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) dalam pembaruan mendatang.
+Tersedia sekarang di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en).
 
 ---
 
@@ -101,4 +101,4 @@ NFC.cool Tools membaca dan menulis semua ini. Fitur Sonicare adalah satu contoh 
 - [Generator kata sandi Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) - algoritma yang diekstrak dari firmware Sonicare
 - [Peta memori NTAG213 mbirth](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html) - dokumentasi terperinci setiap byte di chip
 
-*Punya kepala sikat Sonicare untuk diperiksa? [Unduh NFC.cool Tools untuk iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) atau [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) (reset Sonicare segera hadir di Android) dan lihat apa yang sudah dilacak sikat gigi Anda.*
+*Punya kepala sikat Sonicare untuk diperiksa? [Unduh NFC.cool Tools untuk iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) atau [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) dan lihat apa yang sudah dilacak sikat gigi Anda.*

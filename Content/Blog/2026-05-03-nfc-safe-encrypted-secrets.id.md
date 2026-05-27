@@ -85,4 +85,4 @@ Bekerja dengan NFC setiap hari, saya menyaksikan tag-tag ini secara diam-diam me
 
 NFC Safe adalah upaya saya untuk mengambil ketahanan itu dan menambahkan satu hal yang kurang - enkripsi. Cadangan yang bertahan lebih lama dari kertas, tidak bisa dibaca oleh siapa pun yang menemukannya, dan harganya kurang dari secangkir kopi. Itulah hal yang saya inginkan untuk diri sendiri, jadi saya membangunnya.
 
-Tersedia sekarang di [NFC.cool Tools untuk iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-en&mt=8). Segera hadir di Android.
+Tersedia sekarang di [NFC.cool Tools untuk iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-safe-encrypted-secrets-en).

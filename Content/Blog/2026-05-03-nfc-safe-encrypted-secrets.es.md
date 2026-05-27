@@ -85,4 +85,4 @@ Trabajando con NFC cada día, he visto cómo estas etiquetas se han convertido s
 
 NFC Safe es mi intento de tomar esa durabilidad y añadirle lo único que le faltaba - cifrado. Una copia de seguridad que dura más que el papel, que no puede ser leída por quien la encuentre, y que cuesta menos que un café. Es el tipo de cosa que yo quería para mí mismo, así que la construí.
 
-Disponible ya en [NFC.cool Tools para iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-en&mt=8). Próximamente en Android.
+Disponible ya en [NFC.cool Tools para iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-en&mt=8) y [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-safe-encrypted-secrets-en).

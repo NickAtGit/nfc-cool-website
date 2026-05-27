@@ -73,7 +73,7 @@ O NFC.cool Tools trata de todo o processo: ler a tag, calcular a palavra-passe e
 4. A app mostra um **indicador de percentagem** de quanta vida a cabeça já gastou, com o tempo usado e o tempo restante por baixo
 5. Toque em **Repor Temporizador** para colocar o contador de utilização de novo a zero, ou leia outra cabeça
 
-Disponível já no [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8), a chegar ao [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) numa atualização futura.
+Disponível já no [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) e no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en).
 
 ---
 
@@ -101,4 +101,4 @@ O NFC.cool Tools lê e grava tudo isto. A funcionalidade Sonicare é um exemplo 
 - [Gerador de palavras-passe do Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) - o algoritmo extraído do firmware da Sonicare
 - [Mapa de memória do NTAG213 do mbirth](https://blog.mbirth.uk/2026/03/29/sonicare-brush-head-nfc-data.html) - documentação detalhada de cada byte no chip
 
-*Tem uma cabeça de escova Sonicare para verificar? [Descarregue o NFC.cool Tools para iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) ou [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) (reposição Sonicare a chegar em breve ao Android) e veja o que a sua escova de dentes anda a registar.*
+*Tem uma cabeça de escova Sonicare para verificar? [Descarregue o NFC.cool Tools para iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-reset-sonicare-brush-head-nfc-en&mt=8) ou [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-reset-sonicare-brush-head-nfc-en) e veja o que a sua escova de dentes anda a registar.*
