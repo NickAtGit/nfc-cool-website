@@ -23,7 +23,7 @@ Requires Swift 6.2+ and macOS 26 locally. CI uses `swift-actions/setup-swift@v2`
 
 ## Deploy
 
-The site deploys to **GitHub Pages** via `.github/workflows/deploy.yml` (Swift 6.2 on Ubuntu, `swift run Site build`, `actions/upload-pages-artifact` + `actions/deploy-pages`). The repo-root `CNAME` binds it to `new.nfc.cool`.
+The site deploys to **GitHub Pages** via `.github/workflows/deploy.yml` (Swift 6.2 on Ubuntu, `swift run Site build`, `actions/upload-pages-artifact` + `actions/deploy-pages`). The repo-root `CNAME` binds it to `nfc.cool`.
 
 GH Pages is a pure static host, which has two known consequences:
 
