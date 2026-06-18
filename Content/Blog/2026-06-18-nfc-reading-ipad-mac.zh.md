@@ -14,7 +14,7 @@ ogDescription: "你的 iPad 或 Mac 里没有 NFC 芯片？配上一个外接 US
 ---
 去年我在 Bologna 参加了 [PragmaConf 2025](https://pragmaconference.com)。那是我第一次去那个大会，结果也成了最后一次 - 主办方没法把它继续办下去，所以我去的那一届就是最后一届了。我到现在还有点为它难过。
 
-在那里我跟 Alexander 聊了起来，他也是一位做 iOS 和 NFC 的开发者。聊着聊着话题转到了一个我早就归档为「不可能」的问题：在 iPad 上读取 NFC 标签。iPad 没有 NFC 芯片，所以我一直告诉别人这事根本做不到。Alexander 告诉我这是可以做到的 - 配上合适的外接读卡器 - 还说愿意给我发一小段代码让我起步。几天后他真的发来了。正是那段代码，让 NFC.cool 现在能在 iPad 和 Mac 上读取 NFC 标签。
+在那里我跟 [Alexander Manzer](https://www.linkedin.com/in/alexander-manzer) 聊了起来，他也是一位做 iOS 和 NFC 的开发者。聊着聊着话题转到了一个我早就归档为「不可能」的问题：在 iPad 上读取 NFC 标签。iPad 没有 NFC 芯片，所以我一直告诉别人这事根本做不到。Alexander 告诉我这是可以做到的 - 配上合适的外接读卡器 - 还说愿意给我发一小段代码让我起步。几天后他真的发来了。正是那段代码，让 NFC.cool 现在能在 iPad 和 Mac 上读取 NFC 标签。
 
 ---
 

@@ -14,7 +14,7 @@ ogDescription: "Kein NFC-Chip in deinem iPad oder Mac? Mit einem externen USB-Re
 ---
 Letztes Jahr war ich in Bologna auf der [PragmaConf 2025](https://pragmaconference.com). Es war mein erstes Mal auf dieser Konferenz und, wie sich herausstellte, auch mein letztes - die Organisatoren können sie nicht weiterführen, also war die Ausgabe, auf der ich war, die letzte. Das macht mich immer noch ein bisschen traurig.
 
-Während ich dort war, kam ich mit Alexander ins Gespräch, einem anderen iOS- und NFC-Entwickler. Irgendwann driftete das Gespräch zu einem Problem, das ich längst unter "unmöglich" abgelegt hatte: NFC-Tags auf einem iPad zu lesen. iPads haben keinen NFC-Chip, deshalb hatte ich immer gesagt, es ginge schlicht nicht. Alexander sagte mir, es ginge doch - mit dem richtigen externen Reader - und bot an, mir ein kleines Stück Code zum Einstieg zu schicken. Ein paar Tage später tat er das. Dieser Schnipsel ist der Grund, warum NFC.cool jetzt NFC-Tags auf iPad und Mac lesen kann.
+Während ich dort war, kam ich mit [Alexander Manzer](https://www.linkedin.com/in/alexander-manzer) ins Gespräch, einem anderen iOS- und NFC-Entwickler. Irgendwann driftete das Gespräch zu einem Problem, das ich längst unter "unmöglich" abgelegt hatte: NFC-Tags auf einem iPad zu lesen. iPads haben keinen NFC-Chip, deshalb hatte ich immer gesagt, es ginge schlicht nicht. Alexander sagte mir, es ginge doch - mit dem richtigen externen Reader - und bot an, mir ein kleines Stück Code zum Einstieg zu schicken. Ein paar Tage später tat er das. Dieser Schnipsel ist der Grund, warum NFC.cool jetzt NFC-Tags auf iPad und Mac lesen kann.
 
 ---
 

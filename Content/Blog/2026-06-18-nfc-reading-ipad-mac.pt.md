@@ -14,7 +14,7 @@ ogDescription: "Sem chip NFC no seu iPad ou Mac? Com um leitor USB externo, o NF
 ---
 No ano passado estive em Bologna para a [PragmaConf 2025](https://pragmaconference.com). Foi a minha primeira vez naquela conferência e, como se veio a verificar, também a última - os organizadores não conseguem mantê-la a funcionar, por isso a edição a que fui foi a derradeira. Continuo um pouco triste com isso.
 
-Enquanto lá estive, comecei a conversar com o Alexander, um colega programador de iOS e NFC. A certa altura a conversa derivou para um problema que eu há muito arquivara como "impossível": ler tags NFC num iPad. Os iPads não têm chip NFC, por isso eu sempre disse às pessoas que simplesmente não dava. O Alexander disse-me que dava - com o leitor externo certo - e ofereceu-se para me enviar um pequeno trecho de código para começar. E enviou, uns dias depois. Esse trecho é a razão pela qual o NFC.cool consegue agora ler tags NFC no iPad e no Mac.
+Enquanto lá estive, comecei a conversar com o [Alexander Manzer](https://www.linkedin.com/in/alexander-manzer), um colega programador de iOS e NFC. A certa altura a conversa derivou para um problema que eu há muito arquivara como "impossível": ler tags NFC num iPad. Os iPads não têm chip NFC, por isso eu sempre disse às pessoas que simplesmente não dava. O Alexander disse-me que dava - com o leitor externo certo - e ofereceu-se para me enviar um pequeno trecho de código para começar. E enviou, uns dias depois. Esse trecho é a razão pela qual o NFC.cool consegue agora ler tags NFC no iPad e no Mac.
 
 ---
 

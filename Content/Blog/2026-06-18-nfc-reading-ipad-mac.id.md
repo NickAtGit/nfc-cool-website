@@ -14,7 +14,7 @@ ogDescription: "Tidak ada chip NFC di iPad atau Mac Anda? Dengan pembaca USB eks
 ---
 Tahun lalu saya berada di Bologna untuk [PragmaConf 2025](https://pragmaconference.com). Itu pertama kalinya saya menghadiri konferensi tersebut, dan ternyata juga yang terakhir - para penyelenggara tidak bisa terus mengadakannya, jadi edisi yang saya hadiri adalah yang terakhir. Saya masih sedikit sedih soal itu.
 
-Saat di sana saya sempat mengobrol dengan Alexander, sesama pengembang iOS dan NFC. Di suatu titik percakapan beralih ke sebuah masalah yang sudah lama saya masukkan ke kategori "mustahil": membaca tag NFC di iPad. iPad tidak memiliki chip NFC, jadi saya selalu memberi tahu orang bahwa itu memang tidak bisa dilakukan. Alexander bilang itu bisa - dengan pembaca eksternal yang tepat - dan menawarkan untuk mengirimi saya sepotong kecil kode untuk memulai. Beberapa hari kemudian, ia melakukannya. Cuplikan kode itulah alasan NFC.cool kini bisa membaca tag NFC di iPad dan Mac.
+Saat di sana saya sempat mengobrol dengan [Alexander Manzer](https://www.linkedin.com/in/alexander-manzer), sesama pengembang iOS dan NFC. Di suatu titik percakapan beralih ke sebuah masalah yang sudah lama saya masukkan ke kategori "mustahil": membaca tag NFC di iPad. iPad tidak memiliki chip NFC, jadi saya selalu memberi tahu orang bahwa itu memang tidak bisa dilakukan. Alexander bilang itu bisa - dengan pembaca eksternal yang tepat - dan menawarkan untuk mengirimi saya sepotong kecil kode untuk memulai. Beberapa hari kemudian, ia melakukannya. Cuplikan kode itulah alasan NFC.cool kini bisa membaca tag NFC di iPad dan Mac.
 
 ---
 
