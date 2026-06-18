@@ -19,7 +19,11 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # 30 min headroom for the COLD run (no cache yet): a cold Swift compile plus
+    # resizing every image can exceed 15 min, which previously cancelled the job
+    # before it could save the caches below. Warm runs (cache hit) finish in a
+    # few minutes; this ceiling is only there so the first run can populate them.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -31,10 +35,34 @@ jobs:
         with:
           swift-version: "6.2"
 
+      # Cache the Swift build products (compiled objects + resolved deps) keyed on
+      # Package.resolved + Sources. Exact key = no recompile; the restore-keys fall
+      # back to the latest same-deps build so changed sources only need an
+      # incremental compile. Occasionally Swift still does a full rebuild.
+      - name: Cache Swift build
+        uses: actions/cache@v4
+        with:
+          path: .build
+          key: swift-build-${{ runner.os }}-${{ hashFiles('Package.resolved') }}-${{ hashFiles('Sources/**') }}
+          restore-keys: |
+            swift-build-${{ runner.os }}-${{ hashFiles('Package.resolved') }}-
+            swift-build-${{ runner.os }}-
+
       - name: Install ImageMagick
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
+
+      # Persist SiteKit's content-addressed image/icon cache across runs. Variants
+      # live at .sitekit-cache/images/<sha8>-<w>w.webp (sha8 = source content hash),
+      # so an unchanged image reuses its variant and only new/changed images get
+      # re-run through ImageMagick. The loose restore-key restores on nearly every run.
+      - name: Cache resized images
+        uses: actions/cache@v4
+        with:
+          path: .sitekit-cache
+          key: sitekit-cache-${{ hashFiles('Content/Assets/**', 'Content/ImageManifest.yaml', 'Theme/**') }}
+          restore-keys: sitekit-cache-
 
       # Translation completeness gate. Runs before the build (sharing the same
       # debug compile) and fails the job on any gap - a missing locale file, an
