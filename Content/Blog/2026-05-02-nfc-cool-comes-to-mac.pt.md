@@ -1,6 +1,6 @@
 ---
 id: "nfc-cool-comes-to-mac-2026-05"
-title: "NFC.cool Chega ao Mac - Toda a Sua Biblioteca de Leituras, em Todos os Ecrãs"
+title: "NFC.cool Chega ao Mac: Toda a Sua Biblioteca de Leituras, em Todos os Ecrãs"
 date: 2026-05-02
 tags: ["announcements", "iphone", "qr-codes"]
 summary: "A app NFC.cool para iOS e iPadOS é agora compatível com o Mac. Navegue pelas suas tags NFC, códigos QR, códigos de barras, documentos, modelos 3D e leituras de divisões - tudo sincronizado via iCloud. Além disso: use a câmara do seu Mac como leitor de códigos QR e de barras."
@@ -86,13 +86,13 @@ Aproxime um código QR da câmara do seu Mac e o NFC.cool lê-o. O mesmo para c�
 
 Acredito em ser franco quanto às limitações, em vez de as esconder.
 
-**A leitura NFC** não funciona no Mac - os Macs não têm hardware de rádio NFC. Para isso precisa do seu iPhone.
+**A leitura NFC** não tem suporte *integrado* no Mac, porque nenhum Mac tem rádio NFC. Isto costumava ser o fim da história. Já não é: com um leitor USB externo pode agora ler e escrever tags NFC diretamente a partir de um Mac ou de um iPad. Escrevi sobre como isso funciona em [Leitura de tags NFC no iPad e no Mac](/blog/nfc-reading-ipad-mac/).
 
 **A digitalização de documentos** também não funciona - a câmara do Mac não tem o sistema de focagem automática e deteção de margens que faz a digitalização de documentos funcionar no iPhone e no iPad.
 
 **A leitura 3D e as leituras de divisões** precisam do sensor LiDAR (iPhone Pro / iPad Pro) - nenhum Mac tem um.
 
-Não são limitações de software que eu possa corrigir. São restrições de hardware. O Mac simplesmente não tem os sensores.
+Estas duas últimas não são limitações de software que eu possa corrigir. São restrições de hardware - o Mac simplesmente não tem o sistema de câmara nem o sensor LiDAR.
 
 Mas eis o ponto: provavelmente não precisa deles no seu Mac. Lê com o seu iPhone porque o tem na mão. Navega e consulta no seu Mac porque tem o ecrã grande e o teclado. A app de Mac é feita para esse fluxo de trabalho.
 

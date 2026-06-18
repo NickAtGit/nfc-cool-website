@@ -1,6 +1,6 @@
 ---
 id: "nfc-cool-comes-to-mac-2026-05"
-title: "NFC.cool kommt auf den Mac - Deine gesamte Scan-Bibliothek auf jedem Bildschirm"
+title: "NFC.cool kommt auf den Mac: Deine gesamte Scan-Bibliothek auf jedem Bildschirm"
 date: 2026-05-02
 tags: ["announcements", "iphone", "qr-codes"]
 summary: "Die NFC.cool iOS- und iPadOS-App ist jetzt auch auf dem Mac verfügbar. Durchsuche deine gescannten NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle und Raumscans - alles synchronisiert über iCloud. Plus: Nutze deine Mac-Kamera als QR- und Barcode-Scanner."
@@ -86,13 +86,13 @@ Nützlich, um schnell einen Produkt-Barcode nachzuschlagen, während du arbeites
 
 Ich glaube daran, ehrlich über Einschränkungen zu sein, sie nicht zu verstecken.
 
-**NFC-Scannen** funktioniert nicht auf dem Mac - Macs haben keine NFC-Funkhardware. Dafür brauchst du dein iPhone.
+**NFC-Scannen** wird auf dem Mac nicht *integriert* unterstützt, weil kein Mac eine NFC-Funkeinheit hat. Früher war damit alles gesagt. Das gilt nicht mehr: Mit einem externen USB-Lesegerät kannst du NFC-Tags jetzt direkt von einem Mac oder einem iPad lesen und beschreiben. Wie das funktioniert, habe ich in [NFC-Tags auf iPad und Mac lesen](/blog/nfc-reading-ipad-mac/) beschrieben.
 
 **Dokument-Scannen** funktioniert ebenfalls nicht - die Mac-Kamera hat nicht die Autofokus- und Kantenerkennungs-Pipeline, die Dokument-Scans auf iPhone und iPad möglich macht.
 
 **3D-Scannen und Raumscans** benötigen den LiDAR-Sensor (iPhone Pro / iPad Pro) - kein Mac hat einen.
 
-Das sind keine Software-Einschränkungen, die ich beheben kann. Es sind Hardware-Voraussetzungen. Der Mac hat die Sensoren einfach nicht.
+Diese letzten beiden sind keine Software-Einschränkungen, die ich beheben kann. Es sind Hardware-Voraussetzungen - der Mac hat schlicht weder die Kamera-Pipeline noch den LiDAR-Sensor.
 
 Aber mal ehrlich: Du brauchst sie auf dem Mac wahrscheinlich auch nicht. Du scannst mit dem iPhone, weil es in deiner Hand liegt. Du durchsuchst und schaust nach auf dem Mac, weil er den großen Bildschirm und die Tastatur hat. Die Mac-App ist genau für diesen Workflow gemacht.
 

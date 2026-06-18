@@ -1,6 +1,6 @@
 ---
 id: "nfc-cool-comes-to-mac-2026-05"
-title: "NFC.cool Comes to Mac - Your Entire Scan Library, On Every Screen"
+title: "NFC.cool Comes to Mac: Your Entire Scan Library, On Every Screen"
 date: 2026-05-02
 tags: ["announcements", "iphone", "qr-codes"]
 summary: "The NFC.cool iOS and iPadOS app is now compatible with Mac. Browse your scanned NFC tags, QR codes, barcodes, documents, 3D models, and room scans - all synced via iCloud. Plus: use your Mac camera as a QR and barcode scanner."
@@ -86,13 +86,13 @@ Useful for quickly looking up a product barcode while you're working, or scannin
 
 I believe in being upfront about limitations, not hiding them.
 
-**NFC scanning** doesn't work on Mac - Macs don't have NFC radio hardware. You need your iPhone for that.
+**NFC scanning** has no *built-in* support on Mac, because no Mac has an NFC radio. That used to be the end of the story. It isn't anymore: with an external USB reader you can now read and write NFC tags straight from a Mac or an iPad. I wrote up how that works in [NFC tag reading on iPad and Mac](/blog/nfc-reading-ipad-mac/).
 
 **Document scanning** doesn't work either - the Mac camera doesn't have the auto-focus and edge-detection pipeline that makes document scanning work on iPhone and iPad.
 
 **3D scanning and room scans** need the LiDAR sensor (iPhone Pro / iPad Pro) - no Mac has one.
 
-These aren't software limitations I can fix. They're hardware constraints. The Mac simply doesn't have the sensors.
+Those last two aren't software limitations I can fix. They're hardware constraints - the Mac simply doesn't have the camera pipeline or the LiDAR sensor.
 
 But here's the thing: you probably don't need them on your Mac. You scan with your iPhone because it's in your hand. You browse and reference on your Mac because it has the big screen and keyboard. The Mac app is built for that workflow.
 

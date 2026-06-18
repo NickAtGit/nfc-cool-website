@@ -1,6 +1,6 @@
 ---
 id: "nfc-cool-comes-to-mac-2026-05"
-title: "NFC.cool llega al Mac - toda tu biblioteca de escaneos, en cada pantalla"
+title: "NFC.cool llega al Mac: toda tu biblioteca de escaneos, en cada pantalla"
 date: 2026-05-02
 tags: ["announcements", "iphone", "qr-codes"]
 summary: "La app NFC.cool para iOS e iPadOS ya es compatible con Mac. Navega por tus etiquetas NFC escaneadas, códigos QR, códigos de barras, documentos, modelos 3D y escaneos de habitaciones - todo sincronizado por iCloud. Además: usa la cámara de tu Mac como escáner de códigos QR y de barras."
@@ -86,13 +86,13 @@ Práctico para consultar rápidamente el código de barras de un producto mientr
 
 Creo en ser transparente sobre las limitaciones, no en ocultarlas.
 
-**El escaneo NFC** no funciona en Mac - los Macs no tienen hardware de radio NFC. Para eso necesitas tu iPhone.
+**El escaneo NFC** no tiene compatibilidad *integrada* en Mac, porque ningún Mac tiene una radio NFC. Antes, ahí acababa la historia. Ya no: con un lector USB externo ahora puedes leer y escribir etiquetas NFC directamente desde un Mac o un iPad. Expliqué cómo funciona en [Lectura de etiquetas NFC en iPad y Mac](/blog/nfc-reading-ipad-mac/).
 
 **El escaneo de documentos** tampoco funciona - la cámara del Mac no tiene el sistema de enfoque automático y detección de bordes que hace que el escaneo de documentos funcione en iPhone y iPad.
 
 **Los escaneos 3D y de habitaciones** necesitan el sensor LiDAR (iPhone Pro / iPad Pro) - ningún Mac tiene uno.
 
-Estas no son limitaciones de software que yo pueda arreglar. Son restricciones de hardware. El Mac simplemente no tiene los sensores.
+Estas dos últimas no son limitaciones de software que yo pueda arreglar. Son restricciones de hardware - el Mac simplemente no tiene el sistema de cámara ni el sensor LiDAR.
 
 Pero aquí está la clave: probablemente no los necesites en tu Mac. Escaneas con el iPhone porque lo tienes en la mano. Navegas y consultas en el Mac porque tiene la pantalla grande y el teclado. La app de Mac está diseñada para ese flujo de trabajo.
 

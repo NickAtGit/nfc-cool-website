@@ -1,6 +1,6 @@
 ---
 id: "nfc-cool-comes-to-mac-2026-05"
-title: "NFC.cool hadir di Mac - Seluruh perpustakaan pemindaian Anda, di setiap layar"
+title: "NFC.cool hadir di Mac: Seluruh perpustakaan pemindaian Anda, di setiap layar"
 date: 2026-05-02
 tags: ["announcements", "iphone", "qr-codes"]
 summary: "Aplikasi NFC.cool untuk iOS dan iPadOS kini kompatibel dengan Mac. Telusuri tag NFC, kode QR, barcode, dokumen, model 3D, dan pemindaian ruangan yang sudah Anda pindai - semua tersinkronisasi melalui iCloud. Ditambah: gunakan kamera Mac Anda sebagai pemindai kode QR dan barcode."
@@ -86,13 +86,13 @@ Berguna untuk mencari barcode produk dengan cepat saat Anda sedang bekerja, atau
 
 Saya percaya pada kejujuran tentang keterbatasan, bukan menyembunyikannya.
 
-**Pemindaian NFC** tidak berfungsi di Mac - Mac tidak memiliki perangkat keras radio NFC. Anda memerlukan iPhone untuk itu.
+**Pemindaian NFC** tidak memiliki dukungan *bawaan* di Mac, karena tidak ada Mac yang memiliki radio NFC. Dulu ceritanya berakhir di situ. Sekarang tidak lagi: dengan pembaca USB eksternal, kini Anda bisa membaca dan menulis tag NFC langsung dari Mac atau iPad. Saya menuliskan cara kerjanya di [Membaca tag NFC di iPad dan Mac](/blog/nfc-reading-ipad-mac/).
 
 **Pemindaian dokumen** juga tidak berfungsi - kamera Mac tidak memiliki pipeline fokus otomatis dan deteksi tepi yang membuat pemindaian dokumen bekerja di iPhone dan iPad.
 
 **Pemindaian 3D dan ruangan** membutuhkan sensor LiDAR (iPhone Pro / iPad Pro) - tidak ada Mac yang memilikinya.
 
-Ini bukan keterbatasan perangkat lunak yang bisa saya perbaiki. Ini adalah keterbatasan perangkat keras. Mac memang tidak memiliki sensor tersebut.
+Dua hal terakhir itu bukan keterbatasan perangkat lunak yang bisa saya perbaiki. Itu adalah keterbatasan perangkat keras - Mac memang tidak memiliki pipeline kamera atau sensor LiDAR tersebut.
 
 Namun begini: Anda mungkin tidak membutuhkannya di Mac. Anda memindai dengan iPhone karena ada di tangan Anda. Anda menjelajah dan merujuk di Mac karena memiliki layar besar dan keyboard. Aplikasi Mac dibuat untuk alur kerja tersebut.
 
