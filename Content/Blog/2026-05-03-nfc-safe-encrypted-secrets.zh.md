@@ -4,6 +4,7 @@ title: "NFC Safe：把加密的机密信息存进耐用的 NFC 标签"
 date: "2026-05-03"
 tags: ["nfc-tags", "privacy"]
 summary: "在环氧树脂封装的 NFC 标签上用 256 位 AES 加密。纸质备份会被烧毁，云端备份会宕机，NFC 标签不会。"
+metaDescription: "NFC Safe 用 256 位 AES 把你的助记词、密码、恢复码等机密加密写入 NFC 标签。无需云端，无需账户，只需要这枚实体标签和你的密码短语。"
 image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
 imageAlt: "手机、NFC 卡片、盾牌和锁，代表加密的 NFC 机密信息"
 author: "Nicolo Stanciu"

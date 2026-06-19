@@ -3,7 +3,7 @@ id: "businesscard-appclip"
 title: "NFC.cool Business Card - App Clip experience polished"
 date: "2026-01-23"
 tags: ["business-cards", "networking", "iphone"]
-summary: "Reworked the App Clip flow so recipients can save your card to Contacts in one tap, with no NFC.cool account, no install, no friction."
+summary: "Reworked the App Clip flow so recipients save your card to Contacts in one tap - no NFC.cool account, no install, no friction, and nothing for them to download."
 author: "Nicolo Stanciu"
 ---
 

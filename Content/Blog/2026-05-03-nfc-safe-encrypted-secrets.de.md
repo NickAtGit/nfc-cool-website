@@ -4,6 +4,7 @@ title: "NFC Safe: Verschlüsselte Geheimnisse auf langlebigen NFC-Tags speichern
 date: "2026-05-03"
 tags: ["nfc-tags", "privacy"]
 summary: "256-Bit AES auf epoxidbeschichteten NFC-Tags. Papier verbrennt. Cloud-Backups fallen aus. NFC-Tags nicht."
+metaDescription: "NFC Safe verschlüsselt deine Geheimnisse - Seed Phrases, Passwörter, Recovery-Codes - mit 256-Bit-AES auf einen NFC-Tag. Ohne Cloud, ohne Konto: nur Tag und Passphrase."
 image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
 imageAlt: "Smartphone, NFC-Karte, Schild und Schloss stehen für verschlüsselte NFC-Geheimnisse"
 author: "Nicolo Stanciu"

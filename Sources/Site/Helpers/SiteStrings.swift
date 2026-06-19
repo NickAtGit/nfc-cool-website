@@ -17,7 +17,7 @@ enum SiteStringKey: String, CaseIterable {
    case blogSubtitleBlog, blogSubtitleChangelog
    case tagsIndexHeading, tagsIndexDescription, tagsBackAll
    case featuresHubTitle, featuresHubSubtitle, featuresLabel, featuresBackAll
-   case pricingIncluded, pricingNotIncluded, pricingLimited, pricingNotApplicable
+   case pricingIncluded, pricingNotIncluded, pricingLimited, pricingNotApplicable, pricingComingSoon
    case navToggle, langFlag, langName
 }
 

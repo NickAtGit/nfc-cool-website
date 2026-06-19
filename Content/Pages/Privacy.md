@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 slug: "privacy"
-description: "How NFC.cool collects, processes, and protects your personal data - across the website and the NFC.cool family of apps."
+description: "How NFC.cool collects, processes, and protects your personal data - across this website and the NFC.cool family of apps for iPhone, iPad, Mac, and Android."
 ---
 
 <section class="page-hero">

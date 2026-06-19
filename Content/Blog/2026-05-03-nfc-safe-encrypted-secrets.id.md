@@ -4,6 +4,7 @@ title: "NFC Safe: simpan rahasia terenkripsi di tag NFC yang tahan lama"
 date: "2026-05-03"
 tags: ["nfc-tags", "privacy"]
 summary: "AES 256-bit di tag NFC berlapis epoksi. Cadangan kertas terbakar. Cadangan cloud bisa mati. Tag NFC tidak."
+metaDescription: "NFC Safe mengenkripsi rahasiamu - seed phrase, kata sandi, kode pemulihan - ke tag NFC dengan AES 256-bit. Tanpa cloud, tanpa akun: cukup tag fisik dan frasa sandimu."
 image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
 imageAlt: "Ponsel, kartu NFC, perisai, dan kunci yang merepresentasikan rahasia NFC terenkripsi"
 author: "Nicolo Stanciu"

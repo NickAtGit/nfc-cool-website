@@ -3,7 +3,7 @@ id: "tools-openprinttag"
 title: "NFC.cool Tools 6.11.0 - OpenPrintTag support"
 date: "2026-05-01"
 tags: ["nfc-tags", "automation"]
-summary: "Tools 6.11 lands with native support for the OpenPrintTag standard - read and write smart-spool data on 3D-printer filament tags from any vendor."
+summary: "Tools 6.11 lands with native support for the OpenPrintTag standard - read and write smart-spool data on 3D-printer filament tags from any vendor, no extra app needed."
 author: "Nicolo Stanciu"
 ---
 

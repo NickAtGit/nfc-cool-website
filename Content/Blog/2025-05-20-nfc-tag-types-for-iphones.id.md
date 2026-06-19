@@ -4,6 +4,7 @@ title: "Memahami berbagai jenis tag NFC - dan mana yang kompatibel dengan iPhone
 date: "2025-05-20"
 tags: ["nfc-tags", "guides", "iphone"]
 summary: "Tipe 1 hingga Tipe 5, siapa yang membuatnya, dan mengapa seri NTAG (Tipe 2) adalah pilihan paling aman untuk proyek iPhone."
+metaDescription: "Jenis tag NFC dijelaskan - Type 1 hingga Type 5, siapa pembuat chipnya, dan kenapa seri NTAG (Type 2) jadi pilihan teraman dan paling didukung untuk proyek iPhone."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/nfc-tag-types.webp"
 imageAlt: "Berbagai jenis tag NFC berjejer di samping iPhone"

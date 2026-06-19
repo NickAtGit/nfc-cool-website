@@ -4,6 +4,7 @@ title: "读懂不同类型的 NFC 标签：哪些能配合 iPhone 使用"
 date: "2025-05-20"
 tags: ["nfc-tags", "guides", "iphone"]
 summary: "从 Type 1 到 Type 5，它们由谁生产，以及为什么 NTAG 系列（Type 2）是 iPhone 项目最稳妥的选择。"
+metaDescription: "讲清 NFC 标签的类型 - 从 Type 1 到 Type 5、谁在生产这些芯片，以及为什么 NTAG 系列（Type 2）是 iPhone 标签项目最安全、兼容性最好的选择。"
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/nfc-tag-types.webp"
 imageAlt: "各种类型的 NFC 标签摆在 iPhone 旁边"

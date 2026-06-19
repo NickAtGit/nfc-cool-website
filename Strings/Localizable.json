@@ -33,13 +33,13 @@
    },
    "blogSubtitleChangelog": {
       "localizations": {
-         "en": "Release notes for NFC.cool Tools (iOS + Android), the standalone Business Card iOS app, and the website - what shipped, what improved, what's next.",
-         "de": "Release-Notes für NFC.cool Tools (iOS + Android), die eigenständige Business Card App für iPhone und die Website - was neu ist, was sich verbessert hat und was als Nächstes kommt.",
-         "ja": "NFC.cool Tools(iOS + Android)、iPhone専用のBusiness Cardアプリ、そしてウェブサイトのリリースノート - 何がリリースされ、何が改善され、次に何が来るのか。",
-         "pt": "Notas de versão da NFC.cool Tools (iOS + Android), da app autónoma Business Card para iPhone e do site - o que saiu, o que melhorou e o que aí vem.",
-         "zh": "NFC.cool Tools（iOS + Android）、独立的 iPhone 版 Business Card 应用以及网站的更新说明，包含发布内容、改进之处和后续计划。",
-         "id": "Catatan rilis untuk NFC.cool Tools (iOS + Android), aplikasi Business Card iOS yang berdiri sendiri, dan situs web - apa yang dirilis, apa yang diperbaiki, dan apa yang akan datang.",
-         "es": "Notas de versión de NFC.cool Tools (iOS + Android), la app independiente Business Card para iPhone y la web - qué se lanzó, qué mejoró y qué viene a continuación."
+         "en": "Release notes for NFC.cool Tools (iOS + Android), the standalone Business Card iOS app, and this website - what shipped, what improved, and what's coming next.",
+         "de": "Release-Notes für NFC.cool Tools (iOS + Android), die eigenständige Business Card App für iPhone und diese Website - was neu ist, was sich verbessert hat und was als Nächstes kommt.",
+         "ja": "NFC.cool Tools(iOS + Android)、iPhone専用のBusiness Cardアプリ、そしてこのウェブサイトのリリースノート - 何がリリースされ、何が改善され、次に何が来るのか。",
+         "pt": "Notas de versão da NFC.cool Tools (iOS + Android), da app autónoma Business Card para iPhone e deste site - o que saiu, o que melhorou e o que aí vem a seguir.",
+         "zh": "NFC.cool Tools（iOS + Android）、独立的 iPhone 版 Business Card 应用以及本网站的更新说明，涵盖发布内容、改进之处以及接下来的计划。",
+         "id": "Catatan rilis NFC.cool Tools (iOS + Android), aplikasi Business Card iOS mandiri, dan situs ini - apa yang dirilis, apa yang diperbaiki, dan apa yang akan datang.",
+         "es": "Notas de versión de NFC.cool Tools (iOS + Android), la app independiente Business Card para iPhone y esta web - qué se lanzó, qué mejoró y qué viene a continuación."
       }
    },
    "tagsIndexHeading": {
@@ -94,123 +94,123 @@
    },
    "tagDesc_nfc-tags": {
       "localizations": {
-         "en": "Guides and how-tos on NFC tags - choosing NTAG chips, writing NDEF records, and building tap-to-trigger interactions on iPhone and Android.",
-         "de": "Anleitungen und How-tos zu NFC-Tags - NTAG-Chips auswählen, NDEF-Datensätze beschreiben und Tap-Interaktionen auf iPhone und Android bauen.",
-         "ja": "NFCタグに関するガイドとハウツー - NTAGチップの選び方、NDEFレコードの書き込み、iPhoneとAndroidでのタップ操作の構築方法を紹介します。",
-         "pt": "Guias e tutoriais sobre tags NFC - escolher chips NTAG, gravar registos NDEF e criar interações ao toque no iPhone e no Android.",
-         "zh": "关于 NFC 标签的指南和教程：如何选择 NTAG 芯片、写入 NDEF 记录，以及在 iPhone 和 Android 上打造轻触触发的互动。",
-         "id": "Panduan dan cara penggunaan tentang tag NFC - memilih chip NTAG, menulis rekaman NDEF, dan membangun interaksi ketuk-untuk-memicu di iPhone dan Android.",
-         "es": "Guías y tutoriales sobre etiquetas NFC - elegir chips NTAG, grabar registros NDEF y crear interacciones al toque en iPhone y Android."
+         "en": "Guides and how-tos on NFC tags - picking the right NTAG chip, writing NDEF records, and building reliable tap-to-trigger actions on iPhone and Android.",
+         "de": "Anleitungen und How-tos zu NFC-Tags - den richtigen NTAG-Chip wählen, NDEF-Datensätze schreiben und zuverlässige Tap-Aktionen auf iPhone und Android bauen.",
+         "ja": "NFCタグに関するガイドとハウツー - 最適なNTAGチップの選び方、NDEFレコードの書き込み、iPhoneとAndroidで確実に動くタップ操作の作り方を紹介します。",
+         "pt": "Guias e tutoriais sobre tags NFC - escolher o chip NTAG certo, gravar registos NDEF e criar ações ao toque fiáveis no iPhone e no Android.",
+         "zh": "关于 NFC 标签的指南和教程：如何挑选合适的 NTAG 芯片、写入 NDEF 记录，以及在 iPhone 和 Android 上打造稳定可靠的轻触触发操作。",
+         "id": "Panduan dan cara penggunaan tentang tag NFC - memilih chip NTAG yang tepat, menulis rekaman NDEF, dan membangun aksi ketuk yang andal di iPhone dan Android.",
+         "es": "Guías y tutoriales sobre etiquetas NFC - elegir el chip NTAG adecuado, grabar registros NDEF y crear interacciones al toque fiables en iPhone y Android."
       }
    },
    "tagDesc_business-cards": {
       "localizations": {
-         "en": "Everything on digital business cards - NFC taps, App Clips, and replacing paper cards at conferences, for teams, and across industries.",
-         "de": "Alles über digitale Visitenkarten - NFC-Taps, App Clips und der Verzicht auf Papierkarten bei Konferenzen, im Team und in jeder Branche.",
-         "ja": "デジタル名刺のすべて - NFCタップ、App Clip、そしてカンファレンスやチーム、各業界で紙の名刺を置き換える方法を紹介します。",
-         "pt": "Tudo sobre cartões de visita digitais - toques NFC, App Clips e a substituição dos cartões em papel em conferências, para equipas e em vários setores.",
-         "zh": "关于数字名片的一切：NFC 轻触、App Clip，以及在会议上、团队中和各行各业用它取代纸质名片。",
-         "id": "Semua tentang kartu nama digital - ketukan NFC, App Clip, dan mengganti kartu kertas di konferensi, untuk tim, dan di berbagai industri.",
-         "es": "Todo sobre las tarjetas de visita digitales - toques NFC, App Clips y la sustitución de las tarjetas de papel en conferencias, para equipos y en distintos sectores."
+         "en": "Everything on digital business cards - NFC taps, App Clips, editable profiles, and replacing paper cards at conferences, across teams, and in every industry.",
+         "de": "Alles über digitale Visitenkarten - NFC-Taps, App Clips, bearbeitbare Profile und der Verzicht auf Papierkarten bei Konferenzen, im Team und in jeder Branche.",
+         "ja": "デジタル名刺のすべて - NFCタップ、App Clip、編集できるプロフィール、そしてカンファレンスやチーム、あらゆる業界で紙の名刺を置き換える方法を紹介します。",
+         "pt": "Tudo sobre cartões de visita digitais - toques NFC, App Clips, perfis editáveis e a substituição dos cartões em papel em conferências, equipas e setores.",
+         "zh": "关于数字名片的一切：NFC 轻触、App Clip、可随时编辑的资料，以及在会议、团队和各行各业中用它取代纸质名片。",
+         "id": "Semua tentang kartu nama digital - ketukan NFC, App Clip, profil yang bisa diedit, dan mengganti kartu kertas di konferensi, untuk tim, dan di tiap industri.",
+         "es": "Todo sobre las tarjetas de visita digitales - toques NFC, App Clips, perfiles editables y la sustitución de las tarjetas de papel en conferencias, equipos y sectores."
       }
    },
    "tagDesc_qr-codes": {
       "localizations": {
-         "en": "Articles on QR codes and barcodes - generating them, designing branded codes, and the formats behind every scan.",
-         "de": "Artikel über QR-Codes und Barcodes - erstellen, im Branding gestalten und die Formate hinter jedem Scan verstehen.",
-         "ja": "QRコードとバーコードに関する記事 - 生成方法、ブランドに合わせたデザイン、そしてスキャンを支える各種フォーマットを紹介します。",
-         "pt": "Artigos sobre códigos QR e códigos de barras - como gerá-los, criar códigos com a sua marca e os formatos por trás de cada leitura.",
-         "zh": "关于二维码和条形码的文章：如何生成、设计带品牌元素的码，以及每次扫描背后的各种格式。",
-         "id": "Artikel tentang kode QR dan barcode - cara membuatnya, mendesain kode bermerek, dan format di balik setiap pemindaian.",
-         "es": "Artículos sobre códigos QR y códigos de barras - cómo generarlos, diseñar códigos con tu marca y los formatos que hay detrás de cada lectura."
+         "en": "Articles on QR codes and barcodes - generating them, designing branded codes that still scan cleanly, and the payload formats behind every single scan.",
+         "de": "Artikel über QR-Codes und Barcodes - selbst erstellen, im Branding gestalten, ohne den Scan zu zerstören, und die Datenformate hinter jedem Scan verstehen.",
+         "ja": "QRコードとバーコードに関する記事 - 生成方法、スキャンを崩さずにブランドへ合わせるデザイン、そしてすべてのスキャンを支えるデータ形式を紹介します。",
+         "pt": "Artigos sobre códigos QR e códigos de barras - como gerá-los, criar códigos com a sua marca que continuam a ler e os formatos por trás de cada leitura.",
+         "zh": "关于二维码和条形码的文章：如何生成、如何设计带品牌元素又不影响扫描的码，以及每一次扫描背后的数据格式。",
+         "id": "Artikel tentang kode QR dan barcode - cara membuatnya, mendesain kode bermerek yang tetap terbaca, dan format data di balik setiap pemindaian.",
+         "es": "Artículos sobre códigos QR y códigos de barras - cómo generarlos, diseñar códigos con tu marca que siguen leyéndose y los formatos detrás de cada lectura."
       }
    },
    "tagDesc_iphone": {
       "localizations": {
-         "en": "NFC, scanning, and digital business card features on iPhone, iPad, and Mac with the NFC.cool Tools app.",
-         "de": "NFC, Scannen und digitale Visitenkarten auf iPhone, iPad und Mac mit der NFC.cool Tools App.",
-         "ja": "NFC.cool ToolsアプリによるiPhone、iPad、MacでのNFC、スキャン、デジタル名刺機能。",
-         "pt": "Funcionalidades de NFC, digitalização e cartão de visita digital no iPhone, iPad e Mac com a app NFC.cool Tools.",
-         "zh": "借助 NFC.cool Tools 应用，在 iPhone、iPad 和 Mac 上使用 NFC、扫描和数字名片功能。",
-         "id": "Fitur NFC, pemindaian, dan kartu nama digital di iPhone, iPad, dan Mac dengan aplikasi NFC.cool Tools.",
-         "es": "Funciones de NFC, escaneo y tarjeta de visita digital en iPhone, iPad y Mac con la app NFC.cool Tools."
+         "en": "NFC tag reading and writing, QR and document scanning, and the digital business card - everything the NFC.cool Tools app does on iPhone, iPad, and Mac.",
+         "de": "NFC-Tags lesen und schreiben, QR- und Dokumentenscannen sowie die digitale Visitenkarte - alles, was die NFC.cool Tools App auf iPhone, iPad und Mac kann.",
+         "ja": "NFCタグの読み書き、QR・ドキュメントスキャン、デジタル名刺まで - NFC.cool ToolsアプリがiPhone、iPad、Macでできることのすべて。",
+         "pt": "Ler e gravar tags NFC, digitalizar QR e documentos e o cartão de visita digital - tudo o que a app NFC.cool Tools faz no iPhone, iPad e Mac.",
+         "zh": "读写 NFC 标签、扫描二维码和文档，以及数字名片 - NFC.cool Tools 应用在 iPhone、iPad 和 Mac 上能做的一切。",
+         "id": "Membaca dan menulis tag NFC, memindai QR dan dokumen, serta kartu nama digital - semua yang bisa dilakukan aplikasi NFC.cool Tools di iPhone, iPad, dan Mac.",
+         "es": "Leer y escribir tags NFC, escanear QR y documentos y la tarjeta de visita digital - todo lo que la app NFC.cool Tools hace en iPhone, iPad y Mac."
       }
    },
    "tagDesc_android": {
       "localizations": {
-         "en": "NFC scanning and digital business cards on Android with the NFC.cool Tools app.",
-         "de": "NFC-Scannen und digitale Visitenkarten auf Android mit der NFC.cool Tools App.",
-         "ja": "NFC.cool ToolsアプリによるAndroidでのNFCスキャンとデジタル名刺。",
-         "pt": "Leitura NFC e cartões de visita digitais no Android com a app NFC.cool Tools.",
-         "zh": "借助 NFC.cool Tools 应用，在 Android 上进行 NFC 读取和使用数字名片。",
-         "id": "Pemindaian NFC dan kartu nama digital di Android dengan aplikasi NFC.cool Tools.",
-         "es": "Lectura NFC y tarjetas de visita digitales en Android con la app NFC.cool Tools."
+         "en": "NFC tag reading and writing plus the bundled digital business card, all on Android with the NFC.cool Tools app - the same brand you already know from iPhone.",
+         "de": "NFC-Tags lesen und schreiben sowie die integrierte digitale Visitenkarte - alles auf Android mit der NFC.cool Tools App, der gleichen Marke wie auf dem iPhone.",
+         "ja": "NFCタグの読み書きと付属のデジタル名刺を、NFC.cool ToolsアプリでAndroidでも - iPhoneでおなじみのブランドがそのまま使えます。",
+         "pt": "Ler e gravar tags NFC e o cartão de visita digital incluído, tudo no Android com a app NFC.cool Tools - a mesma marca que já conhece do iPhone.",
+         "zh": "在 Android 上用 NFC.cool Tools 应用读写 NFC 标签，并使用内置的数字名片 - 与你在 iPhone 上熟悉的是同一个品牌。",
+         "id": "Membaca dan menulis tag NFC plus kartu nama digital bawaan, semuanya di Android dengan aplikasi NFC.cool Tools - merek yang sama seperti di iPhone.",
+         "es": "Leer y escribir tags NFC y la tarjeta de visita digital incluida, todo en Android con la app NFC.cool Tools - la misma marca que ya conoces del iPhone."
       }
    },
    "tagDesc_guides": {
       "localizations": {
-         "en": "Step-by-step how-tos for NFC, QR, document, and 3D scanning on your phone.",
-         "de": "Schritt-für-Schritt-Anleitungen für NFC-, QR-, Dokumenten- und 3D-Scannen auf dem Smartphone.",
-         "ja": "スマートフォンでのNFC、QR、ドキュメント、3Dスキャンのステップバイステップのハウツー。",
-         "pt": "Tutoriais passo a passo para digitalização de NFC, QR, documentos e 3D no seu telemóvel.",
-         "zh": "在手机上进行 NFC、二维码、文档和 3D 扫描的分步教程。",
-         "id": "Panduan langkah demi langkah untuk pemindaian NFC, QR, dokumen, dan 3D di ponsel Anda.",
-         "es": "Tutoriales paso a paso para escanear NFC, QR, documentos y objetos 3D desde el móvil."
+         "en": "Step-by-step how-tos for NFC, QR, barcode, document, and 3D scanning on your phone - written from building the NFC.cool Tools app, not from a spec sheet.",
+         "de": "Schritt-für-Schritt-Anleitungen für NFC-, QR-, Barcode-, Dokumenten- und 3D-Scannen am Smartphone - aus der Praxis der NFC.cool Tools App, nicht aus dem Handbuch.",
+         "ja": "スマートフォンでのNFC、QR、バーコード、ドキュメント、3Dスキャンのステップバイステップ解説 - 仕様書ではなく、NFC.cool Toolsアプリ開発の実体験から。",
+         "pt": "Tutoriais passo a passo de digitalização NFC, QR, código de barras, documentos e 3D no telemóvel - escritos a partir da app NFC.cool Tools, não de uma ficha técnica.",
+         "zh": "在手机上进行 NFC、二维码、条形码、文档和 3D 扫描的分步教程 - 源自打造 NFC.cool Tools 应用的实战经验，而非照搬规格书。",
+         "id": "Panduan langkah demi langkah untuk pemindaian NFC, QR, barcode, dokumen, dan 3D di ponsel - ditulis dari pengalaman membangun aplikasi NFC.cool Tools, bukan dari spesifikasi.",
+         "es": "Tutoriales paso a paso para escanear NFC, QR, códigos de barras, documentos y 3D desde el móvil - escritos creando la app NFC.cool Tools, no de una ficha técnica."
       }
    },
    "tagDesc_privacy": {
       "localizations": {
-         "en": "How NFC.cool handles your data - on-device processing, encryption, and privacy-first digital business cards.",
-         "de": "Wie NFC.cool mit deinen Daten umgeht - Verarbeitung auf dem Gerät, Verschlüsselung und datenschutzfreundliche digitale Visitenkarten.",
-         "ja": "NFC.coolがデータをどう扱うか - デバイス上での処理、暗号化、プライバシーを最優先したデジタル名刺。",
-         "pt": "Como a NFC.cool trata os seus dados - processamento no dispositivo, encriptação e cartões de visita digitais que respeitam a privacidade.",
-         "zh": "NFC.cool 如何处理你的数据：设备端处理、加密，以及隐私优先的数字名片。",
-         "id": "Bagaimana NFC.cool menangani data Anda - pemrosesan di perangkat, enkripsi, dan kartu nama digital yang mengutamakan privasi.",
-         "es": "Cómo trata NFC.cool tus datos - procesamiento en el dispositivo, cifrado y tarjetas de visita digitales que respetan la privacidad."
+         "en": "How NFC.cool handles your data - on-device processing, encryption, no tracking, and privacy-first digital business cards across the apps and the website.",
+         "de": "Wie NFC.cool mit deinen Daten umgeht - Verarbeitung auf dem Gerät, Verschlüsselung, kein Tracking und datenschutzfreundliche digitale Visitenkarten in App und Web.",
+         "ja": "NFC.coolがデータをどう扱うか - デバイス上での処理、暗号化、トラッキングなし、そしてアプリとウェブ全体でプライバシーを最優先したデジタル名刺。",
+         "pt": "Como a NFC.cool trata os seus dados - processamento no dispositivo, encriptação, sem rastreio e cartões de visita digitais focados na privacidade na app e na web.",
+         "zh": "NFC.cool 如何处理你的数据：设备端处理、加密、不做追踪，以及在应用和网站中始终隐私优先的数字名片。",
+         "id": "Bagaimana NFC.cool menangani data Anda - pemrosesan di perangkat, enkripsi, tanpa pelacakan, dan kartu nama digital yang mengutamakan privasi di aplikasi dan web.",
+         "es": "Cómo trata NFC.cool tus datos - procesamiento en el dispositivo, cifrado, sin rastreo y tarjetas de visita digitales que priorizan la privacidad en la app y la web."
       }
    },
    "tagDesc_networking": {
       "localizations": {
-         "en": "Smarter networking with NFC - sharing contacts, App Clips, and ditching paper business cards at events.",
-         "de": "Cleveres Networking mit NFC - Kontakte teilen, App Clips nutzen und Papier-Visitenkarten bei Events ablösen.",
-         "ja": "NFCでもっとスマートなネットワーキング - 連絡先の共有、App Clip、イベントでの紙の名刺の置き換え。",
-         "pt": "Networking mais inteligente com NFC - partilhar contactos, App Clips e dispensar os cartões em papel nos eventos.",
-         "zh": "用 NFC 让人脉拓展更聪明：分享联系方式、使用 App Clip，并在活动中告别纸质名片。",
-         "id": "Networking yang lebih cerdas dengan NFC - berbagi kontak, App Clip, dan meninggalkan kartu nama kertas di berbagai acara.",
-         "es": "Networking más inteligente con NFC - compartir contactos, App Clips y dejar atrás las tarjetas de papel en los eventos."
+         "en": "Smarter networking with NFC - sharing contacts in a single tap, App Clips that need no app install, and finally ditching paper business cards at events.",
+         "de": "Cleveres Networking mit NFC - Kontakte mit einem Tap teilen, App Clips ganz ohne Installation und Papier-Visitenkarten auf Events endgültig ablösen.",
+         "ja": "NFCでもっとスマートなネットワーキング - ワンタップでの連絡先共有、インストール不要のApp Clip、そしてイベントで紙の名刺をついに卒業。",
+         "pt": "Networking mais inteligente com NFC - partilhar contactos num só toque, App Clips sem instalar nada e dispensar de vez os cartões em papel nos eventos.",
+         "zh": "用 NFC 让人脉拓展更聪明：轻轻一触分享联系方式、无需安装应用的 App Clip，以及在活动中彻底告别纸质名片。",
+         "id": "Networking yang lebih cerdas dengan NFC - berbagi kontak dalam satu ketukan, App Clip tanpa perlu instal aplikasi, dan akhirnya meninggalkan kartu nama kertas di acara.",
+         "es": "Networking más inteligente con NFC - compartir contactos con un solo toque, App Clips sin instalar nada y dejar atrás de una vez las tarjetas de papel en los eventos."
       }
    },
    "tagDesc_automation": {
       "localizations": {
-         "en": "Using NFC tags to automate your home, workflows, and devices - from smart-home triggers to 3D-printer spools.",
-         "de": "NFC-Tags zur Automatisierung von Zuhause, Workflows und Geräten - von Smart-Home-Triggern bis zu 3D-Drucker-Spulen.",
-         "ja": "NFCタグで家、ワークフロー、デバイスを自動化 - スマートホームのトリガーから3Dプリンターのスプールまで。",
-         "pt": "Usar tags NFC para automatizar a casa, fluxos de trabalho e dispositivos - desde acionadores domésticos inteligentes a bobinas de impressoras 3D.",
-         "zh": "用 NFC 标签让你的家居、工作流程和设备实现自动化：从智能家居触发到 3D 打印机线轴。",
-         "id": "Menggunakan tag NFC untuk mengotomatiskan rumah, alur kerja, dan perangkat Anda - dari pemicu rumah pintar hingga gulungan filamen printer 3D.",
-         "es": "Usar etiquetas NFC para automatizar tu casa, tus flujos de trabajo y tus dispositivos - desde disparadores del hogar inteligente hasta bobinas de impresoras 3D."
+         "en": "Using NFC tags to automate your home, workflows, and devices - from smart-home triggers and iPhone Shortcuts through to tracking 3D-printer filament spools.",
+         "de": "NFC-Tags zur Automatisierung von Zuhause, Workflows und Geräten - von Smart-Home-Triggern und iPhone-Kurzbefehlen bis zum Verwalten von 3D-Drucker-Spulen.",
+         "ja": "NFCタグで家、ワークフロー、デバイスを自動化 - スマートホームのトリガーやiPhoneのショートカットから、3Dプリンターのフィラメントスプール管理まで。",
+         "pt": "Usar tags NFC para automatizar a casa, fluxos de trabalho e dispositivos - de acionadores domésticos inteligentes e Atalhos do iPhone à gestão de bobinas 3D.",
+         "zh": "用 NFC 标签让家居、工作流程和设备实现自动化：从智能家居触发、iPhone 快捷指令，到追踪 3D 打印机的耗材线轴。",
+         "id": "Menggunakan tag NFC untuk mengotomatiskan rumah, alur kerja, dan perangkat - dari pemicu rumah pintar dan Pintasan iPhone hingga melacak gulungan filamen printer 3D.",
+         "es": "Usar etiquetas NFC para automatizar tu casa, tus flujos de trabajo y tus dispositivos - desde disparadores del hogar inteligente y Atajos del iPhone hasta bobinas 3D."
       }
    },
    "tagDesc_industry": {
       "localizations": {
-         "en": "How real estate agents, consultants, healthcare professionals, and other fields use NFC.cool in the field.",
-         "de": "Wie Makler, Berater, Fachkräfte im Gesundheitswesen und andere Branchen NFC.cool im Arbeitsalltag nutzen.",
-         "ja": "不動産業者、コンサルタント、医療従事者など、さまざまな分野でNFC.coolが現場でどう使われているか。",
-         "pt": "Como agentes imobiliários, consultores, profissionais de saúde e outras áreas usam a NFC.cool no terreno.",
-         "zh": "房地产经纪人、顾问、医疗专业人士等各领域如何在实际工作中使用 NFC.cool。",
-         "id": "Bagaimana agen properti, konsultan, tenaga kesehatan, dan bidang lain menggunakan NFC.cool di lapangan.",
-         "es": "Cómo los agentes inmobiliarios, consultores, profesionales sanitarios y otros sectores usan NFC.cool sobre el terreno."
+         "en": "How real estate agents, consultants, healthcare professionals, and other fields put NFC.cool to work in the field every day - real use cases, not theory.",
+         "de": "Wie Makler, Berater, Fachkräfte im Gesundheitswesen und andere Branchen NFC.cool im Arbeitsalltag einsetzen - echte Anwendungsfälle statt grauer Theorie.",
+         "ja": "不動産業者、コンサルタント、医療従事者など、さまざまな分野でNFC.coolが日々の現場でどう活用されているか - 理論ではなく実際の事例で紹介します。",
+         "pt": "Como agentes imobiliários, consultores, profissionais de saúde e outras áreas usam a NFC.cool no dia a dia - casos de uso reais, não teoria.",
+         "zh": "房地产经纪人、顾问、医疗专业人士等各行各业，如何在日常工作中真正用上 NFC.cool - 都是真实案例，而非纸上谈兵。",
+         "id": "Bagaimana agen properti, konsultan, tenaga kesehatan, dan bidang lain memanfaatkan NFC.cool dalam keseharian - kasus penggunaan nyata, bukan sekadar teori.",
+         "es": "Cómo los agentes inmobiliarios, consultores, profesionales sanitarios y otros sectores usan NFC.cool en su día a día - casos de uso reales, no teoría."
       }
    },
    "tagDesc_announcements": {
       "localizations": {
-         "en": "Product news from NFC.cool - new app releases, platform launches, and what we are building next.",
-         "de": "Produktneuigkeiten von NFC.cool - neue App-Releases, Plattform-Starts und woran wir als Nächstes arbeiten.",
-         "ja": "NFC.coolの製品ニュース - 新しいアプリのリリース、プラットフォームの提供開始、そして次に作っているもの。",
-         "pt": "Novidades de produto da NFC.cool - novos lançamentos de apps, estreias em plataformas e o que estamos a construir a seguir.",
-         "zh": "来自 NFC.cool 的产品动态：新应用发布、平台上线，以及我们接下来正在打造的东西。",
-         "id": "Berita produk dari NFC.cool - rilis aplikasi baru, peluncuran platform, dan apa yang sedang kami bangun selanjutnya.",
-         "es": "Novedades de producto de NFC.cool - nuevos lanzamientos de apps, estrenos en plataformas y lo que vamos a construir a continuación."
+         "en": "Product news from NFC.cool - new app releases, platform launches, feature updates, and an honest, behind-the-scenes look at what we are building and shipping next.",
+         "de": "Produktneuigkeiten von NFC.cool - neue App-Releases, Plattform-Starts, Feature-Updates und ein ehrlicher Blick darauf, woran wir als Nächstes arbeiten.",
+         "ja": "NFC.coolの製品ニュース - 新しいアプリのリリース、プラットフォームの提供開始、機能アップデート、そして次に作っているものへの率直な視点。",
+         "pt": "Novidades de produto da NFC.cool - novos lançamentos de apps, estreias em plataformas, atualizações de funcionalidades e o que estamos a construir a seguir.",
+         "zh": "来自 NFC.cool 的产品动态：新应用发布、平台上线、功能更新，以及对我们接下来正在打造之物的坦诚预告。",
+         "id": "Berita produk dari NFC.cool - rilis aplikasi baru, peluncuran platform, pembaruan fitur, dan pandangan jujur tentang apa yang kami bangun selanjutnya.",
+         "es": "Novedades de producto de NFC.cool - nuevos lanzamientos de apps, estrenos en plataformas, novedades de funciones y lo que vamos a construir a continuación."
       }
    },
    "featuresHubTitle": {
@@ -244,6 +244,9 @@
    },
    "pricingNotApplicable": {
       "localizations": { "en": "not applicable", "de": "nicht zutreffend", "ja": "対象外", "pt": "não aplicável", "zh": "不适用", "id": "tidak berlaku", "es": "no aplicable" }
+   },
+   "pricingComingSoon": {
+      "localizations": { "en": "Coming soon", "de": "Demnächst verfügbar", "ja": "近日対応", "pt": "Em breve", "zh": "即将推出", "id": "Segera hadir", "es": "Próximamente" }
    },
    "navToggle": {
       "localizations": { "en": "Toggle navigation menu", "de": "Navigationsmenü umschalten", "ja": "ナビゲーションメニューを開閉", "pt": "Alternar menu de navegação", "zh": "切换导航菜单", "id": "Alihkan menu navigasi", "es": "Alternar el menú de navegación" }

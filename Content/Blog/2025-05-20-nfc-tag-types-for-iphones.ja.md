@@ -4,6 +4,7 @@ title: "NFCタグの種類を整理する - iPhoneで使えるのはどれか"
 date: "2025-05-20"
 tags: ["nfc-tags", "guides", "iphone"]
 summary: "Type 1からType 5まで、誰が作っているのか、そしてなぜiPhone向けのプロジェクトにはNTAGシリーズ（Type 2）が一番無難なのかを解説します。"
+metaDescription: "NFCタグの種類を解説 - Type 1からType 5まで、チップのメーカー、そしてNTAGシリーズ（Type 2）がiPhoneのタグ用途で最も安全で対応の広い選択肢である理由。"
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/nfc-tag-types.webp"
 imageAlt: "iPhoneの隣に並べられた各種NFCタグ"

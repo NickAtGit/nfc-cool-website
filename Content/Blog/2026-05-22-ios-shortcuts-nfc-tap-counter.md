@@ -8,7 +8,7 @@ image: "/assets/images/Blog/ios-shortcuts-nfc-tap-counter.webp"
 imageAlt: "An iPhone showing an alert with a tag ID and scan count after tapping an NFC sticker"
 author: "Nicolo Stanciu"
 metaTitle: "Parse NFC Tap Counter Data With iOS Shortcuts"
-metaDescription: "A reusable iOS Shortcut that parses NFC Tap Counter payloads (tag ID + scan count), plus a tag-alert demo. Drop-in iCloud links, no setup."
+metaDescription: "A reusable iOS Shortcut that parses NFC Tap Counter payloads - tag ID plus scan count - with a tag-alert demo. Drop-in iCloud links, no setup, ready to customise."
 ogTitle: "Parse NFC Tap Counter Data With iOS Shortcuts"
 ogDescription: "Drop-in iOS Shortcuts for the NFC Tap Counter: a reusable parser and a tag-alert demo."
 ---

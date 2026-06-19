@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "Pemindai dokumen dengan OCR"
-  subtitle: "Tangkap dokumen dengan deteksi tepi otomatis dan koreksi perspektif. OCR di perangkat mengubah setiap pemindaian menjadi teks yang dapat dicari."
+  subtitle: "Tangkap dokumen dengan deteksi tepi otomatis dan koreksi perspektif. OCR di perangkat mengubah setiap pemindaian menjadi teks yang dapat dicari dan tetap privat."
   platforms: "iOS only"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 

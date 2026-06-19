@@ -4,6 +4,7 @@ title: "打造出色的 App Clip 体验：来自 NFC.cool Business Card 的经�
 date: "2026-01-23"
 tags: ["business-cards", "networking", "iphone"]
 summary: "回顾在布拉格 mDevCamp 2025 上关于 NFC.cool Business Card App Clip 流程背后架构的演讲。"
+metaDescription: "打造 NFC.cool Business Card App Clip 的经验 - 架构、体积限制，以及一触保存联系人，整理自我在布拉格 mDevCamp 2025 的演讲。"
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/app-clip-mdevcamp.webp"
 imageAlt: "在布拉格 mDevCamp 2025 上演讲"

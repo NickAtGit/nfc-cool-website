@@ -4,6 +4,7 @@ title: "NFC Safe: Guardar Segredos Encriptados em Tags NFC Duradouras"
 date: "2026-05-03"
 tags: ["nfc-tags", "privacy"]
 summary: "AES de 256 bits em tags NFC revestidas a epóxi. As cópias de segurança em papel ardem. As cópias na nuvem ficam offline. As tags NFC não."
+metaDescription: "A NFC Safe encripta os teus segredos - seed phrases, palavras-passe, códigos de recuperação - num NFC tag com AES de 256 bits. Sem nuvem nem conta: só a tag e a frase-passe."
 image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
 imageAlt: "Telemóvel, cartão NFC, escudo e cadeado a representar segredos NFC encriptados"
 author: "Nicolo Stanciu"

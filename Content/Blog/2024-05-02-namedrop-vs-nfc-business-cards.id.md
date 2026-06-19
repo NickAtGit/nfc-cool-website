@@ -4,6 +4,7 @@ title: "NameDrop vs kartu nama NFC: mengapa lintas platform masih menang"
 date: "2024-05-02"
 tags: ["business-cards", "iphone", "networking"]
 summary: "NameDrop sangat indah - tetapi hanya untuk iOS. Mengapa kartu nama NFC tetap menjadi pemenang lintas platform untuk networking yang serius."
+metaDescription: "NameDrop memang indah, tapi hanya bekerja antar-iPhone. Inilah alasan kartu NFC tetap unggul untuk networking serius - juga menjangkau Android, web, dan semua orang."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/namedrop.webp"
 imageAlt: "Dua iPhone bertukar informasi kontak di sebelah kartu nama NFC"

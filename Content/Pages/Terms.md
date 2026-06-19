@@ -1,7 +1,7 @@
 ---
 title: "Terms & Conditions"
 slug: "terms"
-description: "The legal terms governing your use of the NFC.cool website, the NFC.cool family of apps, and the services that surround them."
+description: "The legal terms that govern your use of the NFC.cool website, the NFC.cool family of apps across iPhone and Android, and the services that surround them."
 ---
 
 <section class="page-hero">

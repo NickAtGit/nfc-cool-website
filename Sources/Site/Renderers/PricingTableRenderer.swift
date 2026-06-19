@@ -76,6 +76,7 @@ enum PricingTableRenderer {
    /// - `✗` / `no` → red "not included" pill
    /// - `limited` / `partial` / `~` → amber "limited" pill
    /// - `-` → neutral "not applicable" pill
+   /// - `soon` / `coming-soon` → orange hourglass "coming soon" pill with hover tooltip
    /// - `**text**` → bold text
    /// - anything else → plain text
    static func markCell(_ raw: String, strings: UIStrings) -> String {
@@ -98,6 +99,14 @@ enum PricingTableRenderer {
       if trimmed == "-" {
          let label = (strings.string(forRawKey: "pricingNotApplicable") ?? "not applicable").htmlEscaped
          return "<span class=\"feature-pricing-pill is-na\" aria-label=\"\(label)\">-</span>"
+      }
+      if lower == "soon" || lower == "coming-soon" {
+         // Orange hourglass for a planned (not-yet-shipped) capability, in the
+         // same pill as ✓/✗ so it lines up with them. Hover or keyboard focus
+         // reveals a localized "coming soon" tooltip.
+         let svg = #"<svg class="feature-pricing-pill-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 3H19V5L12 12L19 19V21H5V19L12 12L5 5Z"/></svg>"#
+         let label = (strings.string(forRawKey: "pricingComingSoon") ?? "Coming soon").htmlEscaped
+         return "<span class=\"feature-pricing-pill is-soon\" data-tooltip=\"\(label)\" aria-label=\"\(label)\" tabindex=\"0\">\(svg)</span>"
       }
       if trimmed.count > 4, trimmed.hasPrefix("**"), trimmed.hasSuffix("**") {
          let inner = String(trimmed.dropFirst(2).dropLast(2))

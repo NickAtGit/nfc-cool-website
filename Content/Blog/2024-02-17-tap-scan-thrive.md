@@ -5,7 +5,7 @@ date: 2024-02-17
 tags: ["qr-codes", "business-cards"]
 summary: "QR codes aren't just for URLs. They can carry Wi-Fi credentials, calendar events, locations, vCards, plain text - anything you can encode. Here's the full menu of what NFC.cool's QR generator and scanner can do."
 metaTitle: "What QR Codes Can Carry: Beyond Just URLs"
-metaDescription: "QR codes can encode Wi-Fi credentials, contacts, calendar events, locations and more - not just URLs. A practical guide to every QR payload type."
+metaDescription: "QR codes can encode Wi-Fi credentials, contacts, calendar events, locations and more - not just URLs. A practical guide to every QR payload type and when to use it."
 ogTitle: "Tap, scan, thrive: what QR codes can carry beyond a URL"
 ogDescription: "QR codes can encode Wi-Fi, contacts, calendars, locations - not just URLs."
 image: "/assets/images/Blog/tap-scan-thrive.webp"

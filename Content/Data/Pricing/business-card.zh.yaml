@@ -18,6 +18,10 @@ rows:
     values: ["✓", "✓", "✓", "✓"]
   - label: "NFC 与二维码分享"
     values: ["✓", "✓", "✓", "✓"]
+  - label: "Apple Wallet"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Google Wallet"
+    values: ["soon", "soon", "soon", "soon"]
   - label: "会议模式"
     values: ["✓", "✓", "✓", "✓"]
   - label: "PIN 码保护"

@@ -5,7 +5,7 @@ date: 2024-02-16
 tags: ["qr-codes", "industry"]
 summary: "Kode QR tidak harus berupa kotak hitam yang membosankan. Dengan QR Studio NFC.cool Anda bisa mewarnainya, menambahkan logo, meletakkan emoji di tengah - selama Anda memperhatikan satu aturan: kontras."
 metaTitle: "Mendesain kode QR dengan gaya - QR Studio NFC.cool"
-metaDescription: "Kustomisasi kode QR dengan warna, logo, emoji, dan bentuk - tanpa merusak pemindaian. Panduan praktis mendesain kode QR yang sesuai merek Anda."
+metaDescription: "Kustomisasi kode QR dengan warna, logo, emoji, dan bentuk tanpa merusak pemindaian - panduan praktis mendesain kode QR bermerek yang tetap terbaca setiap saat."
 ogTitle: "Mendesain kode QR dengan gaya: kustomisasi tanpa merusak pemindaian"
 ogDescription: "Kustomisasi kode QR dengan warna, logo, dan emoji - sekaligus menjaganya tetap bisa dipindai."
 image: "/assets/images/Blog/flair-qr-codes.webp"

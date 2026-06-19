@@ -4,6 +4,7 @@ title: "NameDrop vs. NFC-Visitenkarten: Warum plattformübergreifend immer noch 
 date: "2024-05-02"
 tags: ["business-cards", "iphone", "networking"]
 summary: "NameDrop ist wunderschön - aber nur für iOS. Warum NFC-Visitenkarten beim ernsthaften Networking die plattformübergreifende Wahl bleiben."
+metaDescription: "NameDrop ist wunderschön, funktioniert aber nur von iPhone zu iPhone. Warum NFC-Visitenkarten beim Networking trotzdem gewinnen - sie erreichen auch Android und das Web."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/namedrop.webp"
 imageAlt: "Zwei iPhones tauschen Kontaktdaten neben einer NFC-Visitenkarte aus"

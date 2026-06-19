@@ -4,6 +4,7 @@ title: "NameDrop 对比 NFC 电子名片：为什么跨平台依然胜出"
 date: "2024-05-02"
 tags: ["business-cards", "iphone", "networking"]
 summary: "NameDrop 很漂亮，但它仅限 iOS。为什么对于正经社交而言，NFC 电子名片依然是跨平台的赢家。"
+metaDescription: "NameDrop 很美，但只能在 iPhone 之间使用。这就是 NFC 名片在正式社交中依然更胜一筹的原因 - 它还能触达 Android、网页和其他所有人。"
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/namedrop.webp"
 imageAlt: "两部 iPhone 在一张 NFC 电子名片旁交换联系信息"

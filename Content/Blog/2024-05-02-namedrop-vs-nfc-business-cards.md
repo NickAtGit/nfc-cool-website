@@ -4,6 +4,7 @@ title: "NameDrop vs NFC Business Cards: Why Cross-Platform Still Wins"
 date: "2024-05-02"
 tags: ["business-cards", "iphone", "networking"]
 summary: "NameDrop is gorgeous - but it's iOS-only. Why NFC business cards remain the cross-platform winner for serious networking."
+metaDescription: "NameDrop is gorgeous, but it only works iPhone to iPhone. Why NFC business cards still win for serious networking - they also reach Android, the web, and everyone else."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/namedrop.webp"
 imageAlt: "Two iPhones exchanging contact info next to an NFC business card"

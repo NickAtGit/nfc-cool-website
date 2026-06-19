@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "Document Scanner with OCR"
-  subtitle: "Capture documents with automatic edge detection and perspective correction. On-device OCR turns every scan into searchable text."
+  subtitle: "Capture documents with automatic edge detection and perspective correction. On-device OCR turns every scan into searchable text that never leaves your device."
   platforms: "iOS only"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 

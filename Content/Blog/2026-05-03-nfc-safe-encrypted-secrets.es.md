@@ -4,6 +4,7 @@ title: "NFC Safe: guarda secretos cifrados en etiquetas NFC duraderas"
 date: "2026-05-03"
 tags: ["nfc-tags", "privacy"]
 summary: "AES de 256 bits en etiquetas NFC revestidas de epoxi. Las copias de seguridad en papel se queman. Las copias en la nube se caen. Las etiquetas NFC no."
+metaDescription: "NFC Safe cifra tus secretos - frases semilla, contraseñas, códigos de recuperación - en una etiqueta NFC con AES de 256 bits. Sin nube ni cuenta: solo la etiqueta y tu frase de paso."
 image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
 imageAlt: "Móvil, tarjeta NFC, escudo y candado representando secretos NFC cifrados"
 author: "Nicolo Stanciu"

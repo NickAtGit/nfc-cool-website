@@ -987,9 +987,67 @@ a[data-eml] {
    border: 1px solid var(--color-border);
 }
 
+/* Coming-soon: orange hourglass for a planned (not-yet-shipped) capability,
+   same pill shape as ✓/✗. Hover or keyboard focus reveals the localized
+   `data-tooltip` text. */
+.feature-pricing-pill.is-soon {
+   background: rgba(234, 88, 12, 0.13);
+   color: #c2410c;
+   border: 1px solid rgba(234, 88, 12, 0.5);
+   position: relative;
+   cursor: help;
+}
+
+.feature-pricing-pill.is-soon::after {
+   content: attr(data-tooltip);
+   position: absolute;
+   bottom: calc(100% + 8px);
+   left: 50%;
+   transform: translateX(-50%);
+   padding: 0.35rem 0.55rem;
+   border-radius: 6px;
+   background: var(--color-text);
+   color: var(--color-bg);
+   font-size: 0.72rem;
+   font-weight: 600;
+   line-height: 1;
+   white-space: nowrap;
+   opacity: 0;
+   visibility: hidden;
+   transition: opacity 0.15s ease;
+   pointer-events: none;
+   z-index: 5;
+}
+
+.feature-pricing-pill.is-soon::before {
+   content: "";
+   position: absolute;
+   bottom: calc(100% + 3px);
+   left: 50%;
+   transform: translateX(-50%);
+   border: 5px solid transparent;
+   border-top-color: var(--color-text);
+   opacity: 0;
+   visibility: hidden;
+   transition: opacity 0.15s ease;
+   pointer-events: none;
+   z-index: 5;
+}
+
+.feature-pricing-pill.is-soon:hover::after,
+.feature-pricing-pill.is-soon:focus::after,
+.feature-pricing-pill.is-soon:hover::before,
+.feature-pricing-pill.is-soon:focus::before {
+   opacity: 1;
+   visibility: visible;
+}
+
 .feature-pricing-pill-icon {
-   width: 0.85em;
-   height: 0.85em;
+   /* 1em so the dash matches the font-size of the ✓/✗ glyphs in the same pill.
+      (em compounds with the pill's 0.85rem font-size, so 0.85em rendered ~15%
+      smaller than the ✓/✗ marks.) */
+   width: 1em;
+   height: 1em;
    display: block;
 }
 
@@ -1009,6 +1067,12 @@ a[data-eml] {
    background: rgba(245, 158, 46, 0.22);
    color: #ffb454;
    border-color: rgba(245, 158, 46, 0.6);
+}
+
+[data-theme="dark"] .feature-pricing-pill.is-soon {
+   background: rgba(251, 146, 60, 0.22);
+   color: #fdba74;
+   border-color: rgba(251, 146, 60, 0.6);
 }
 
 .feature-pricing-text {

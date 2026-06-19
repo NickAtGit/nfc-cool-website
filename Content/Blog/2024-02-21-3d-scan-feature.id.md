@@ -5,7 +5,7 @@ date: 2024-02-21
 tags: ["guides", "iphone"]
 summary: "NFC.cool Tools mengubah iPhone Anda menjadi pemindai 3D menggunakan Object Capture API Apple. Fotogrametri ditambah LiDAR menghasilkan model yang bisa diekspor ke .stl, .obj, .usdz - siap untuk cetak 3D, AR, atau pipeline pemodelan mana pun."
 metaTitle: "Pemindaian 3D di iPhone dengan NFC.cool Tools"
-metaDescription: "Cara kerja pemindai 3D NFC.cool Tools - fotogrametri, LiDAR, dan Object Capture API Apple. Ekspor ke .stl, .obj, .ply, .usdz untuk cetak 3D dan AR."
+metaDescription: "Cara kerja pemindai 3D di NFC.cool Tools - fotogrametri, LiDAR, dan Object Capture API Apple. Ekspor hasil ke .stl, .obj, .ply, dan .usdz untuk pencetakan 3D dan AR."
 ogTitle: "Pemindaian 3D di iPhone: apa yang bisa dilakukan fotogrametri dan LiDAR di saku Anda"
 ogDescription: "Cara kerja pemindai 3D NFC.cool Tools - fotogrametri, LiDAR, dan ekspor ke .stl, .obj, .usdz."
 image: "/assets/images/Blog/3d-scan-feature.webp"

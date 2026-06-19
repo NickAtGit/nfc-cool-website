@@ -4,6 +4,7 @@ title: "NFC Safe: Store Encrypted Secrets on Durable NFC Tags"
 date: "2026-05-03"
 tags: ["nfc-tags", "privacy"]
 summary: "256-bit AES on epoxy-coated NFC tags. Paper backups burn. Cloud backups go down. NFC tags don't."
+metaDescription: "NFC Safe encrypts your secrets - seed phrases, passwords, recovery codes - onto an NFC tag with 256-bit AES. No cloud, no account, just the tag and your passphrase."
 image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
 imageAlt: "Phone, NFC card, shield, and lock representing encrypted NFC secrets"
 author: "Nicolo Stanciu"

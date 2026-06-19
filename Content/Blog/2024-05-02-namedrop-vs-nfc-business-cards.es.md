@@ -4,6 +4,7 @@ title: "NameDrop vs tarjetas de visita NFC: por qué el multiplataforma sigue ga
 date: "2024-05-02"
 tags: ["business-cards", "iphone", "networking"]
 summary: "NameDrop es precioso - pero es exclusivo de iOS. Por qué las tarjetas de visita NFC siguen siendo el ganador multiplataforma para hacer networking en serio."
+metaDescription: "NameDrop es precioso, pero solo funciona de iPhone a iPhone. Por qué las tarjetas NFC siguen ganando en el networking serio - también llegan a Android, a la web y a todos."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/namedrop.webp"
 imageAlt: "Dos iPhones intercambiando datos de contacto junto a una tarjeta de visita NFC"

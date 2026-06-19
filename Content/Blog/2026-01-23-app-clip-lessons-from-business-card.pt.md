@@ -4,6 +4,7 @@ title: "Criar uma Ótima Experiência de App Clip: Lições do NFC.cool Business
 date: "2026-01-23"
 tags: ["business-cards", "networking", "iphone"]
 summary: "Resumo da palestra na mDevCamp 2025 em Praga sobre a arquitetura por trás do fluxo de App Clip do NFC.cool Business Card."
+metaDescription: "Lições de construir o App Clip do NFC.cool Business Card - arquitetura, limites de tamanho e guardar contactos num toque, da minha palestra na mDevCamp 2025 em Praga."
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/app-clip-mdevcamp.webp"
 imageAlt: "A apresentar na mDevCamp 2025 em Praga"

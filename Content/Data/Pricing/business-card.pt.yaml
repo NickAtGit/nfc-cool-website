@@ -18,6 +18,10 @@ rows:
     values: ["✓", "✓", "✓", "✓"]
   - label: "Partilha por NFC e QR"
     values: ["✓", "✓", "✓", "✓"]
+  - label: "Apple Wallet"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Google Wallet"
+    values: ["soon", "soon", "soon", "soon"]
   - label: "Modo Conferência"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Proteção por PIN"

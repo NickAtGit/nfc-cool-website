@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "Dokumenten-Scanner mit OCR"
-  subtitle: "Erfasse Dokumente mit automatischer Kantenerkennung und Perspektiv-Korrektur. On-Device-OCR macht jeden Scan zu durchsuchbarem Text."
+  subtitle: "Erfasse Dokumente mit automatischer Kantenerkennung und Perspektiv-Korrektur. On-Device-OCR macht jeden Scan zu durchsuchbarem Text, der dein Gerät nie verlässt."
   platforms: "Nur iOS"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 
