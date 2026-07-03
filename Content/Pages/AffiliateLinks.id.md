@@ -27,35 +27,57 @@ Setelah beberapa tahun merilis aplikasi NFC dan membaca ribuan email dukungan, i
 
 </section>
 
-<section class="page-section">
-
-## Ingin versi singkatnya?
-
-Untuk 95% kasus penggunaan - menulis kartu kontak Anda, pemicu otomasi, pintasan URL, berbagi Wi-Fi - beli stiker **NTAG216**. Andal di iPhone dan Android, kapasitas yang cukup (888 byte yang dapat ditulis pengguna), murah dalam jumlah besar, dan standar yang diuji NFC.cool.
-
-</section>
-
 <section id="where-to-buy" class="page-section">
 
 ## Tempat membeli
 
-<div class="page-cards-grid">
+Untuk 95% hal yang dilakukan orang dengan NFC - kartu kontak, pemicu otomasi, pintasan URL, berbagi Wi-Fi - beli stiker **NTAG216**. Andal di iPhone dan Android, 888 byte ruang yang dapat ditulis, murah dalam jumlah besar, dan chip persis yang diuji NFC.cool. Baru mengenal tag NFC? [Panduan lengkap tag NFC untuk pemula](/blog/nfc-tags-beginners-guide/) saya menjelaskan cara kerjanya dan perbedaan tiap chip. Pilih toko Amazon Anda - atau klik saja salah satunya, dan Amazon otomatis mengarahkan pembeli internasional ke toko terdekat mereka.
 
-<article class="page-card">
-<h3>🇺🇸 Amerika Serikat</h3>
-<p>Stiker NTAG216 di Amazon US. Cari penjual dengan ribuan ulasan dan "NTAG216" yang eksplisit dalam daftar produk - bukan sekadar "tag NFC".</p>
-<p><a href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=1337420050185-20&keywords=ntag216&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=a65cf3348c895e55dc070ca310ff04bd" class="landing-cta-button" rel="sponsored noopener" target="_blank">Cari NTAG216 di Amazon US</a></p>
-</article>
+<div class="affiliate-store-box">
 
-<article class="page-card">
-<h3>🇪🇺 Eropa</h3>
-<p>Stiker NTAG216 di Amazon DE - dikirim ke seluruh Uni Eropa. Saran yang sama: filter berdasarkan jumlah ulasan dan nama chip, abaikan daftar produk yang tidak menyebutkan chipnya.</p>
-<p><a href="https://www.amazon.de/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=1337420050185-21&keywords=ntag%20216&index=aps&camp=1638&creative=6742&linkCode=ur2&linkId=e0129c686012578ed3d03d0b7fd73894" class="landing-cta-button" rel="sponsored noopener" target="_blank">Cari NTAG216 di Amazon DE</a></p>
-</article>
+<div class="affiliate-country-grid" data-badge-label="Toko Anda">
+<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">Amerika Serikat</span></a>
+<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Britania Raya</span></a>
+<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Jerman</span></a>
+<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">Prancis</span></a>
+<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Italia</span></a>
+<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">Spanyol</span></a>
+<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Belanda</span></a>
+<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Swedia</span></a>
+<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Polandia</span></a>
+<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Kanada</span></a>
+</div>
+
+<p class="affiliate-disclosure"><strong>Pengungkapan:</strong> Ini adalah tautan afiliasi Amazon - beli melalui salah satunya dan saya mendapat komisi kecil tanpa biaya tambahan bagi Anda.</p>
 
 </div>
 
-<p class="affiliate-disclosure"><strong>Pengungkapan:</strong> Tautan di atas adalah tautan afiliasi Amazon - jika Anda membeli melaluinya, saya mendapat komisi kecil tanpa biaya tambahan bagi Anda. Saya hanya merekomendasikan tag yang saya gunakan sendiri dengan aplikasi NFC.cool. Tidak ada sponsor, tidak ada penempatan berbayar.</p>
+</section>
+
+<section class="page-section">
+
+## Mengkloning Amiibo? Gunakan NTAG215
+
+Amiibo secara khusus menggunakan chip **NTAG215**. Jika Anda [mengkloning Amiibo dengan NFC.cool](/blog/amiibo-iphone-android-read-collect-clone/), beli tag **NTAG215** kosong - bukan NTAG216 yang saya rekomendasikan untuk keperluan lainnya. Ini satu-satunya kasus di mana Anda harus mencocokkan chip secara persis: NFC.cool menulis salinan yang kuncinya diturunkan ulang ke sebuah NTAG215, tipe chip yang sama seperti yang digunakan Amiibo asli.
+
+<div class="affiliate-store-box">
+
+<div class="affiliate-country-grid" data-badge-label="Toko Anda">
+<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">Amerika Serikat</span></a>
+<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Britania Raya</span></a>
+<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Jerman</span></a>
+<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">Prancis</span></a>
+<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Italia</span></a>
+<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">Spanyol</span></a>
+<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Belanda</span></a>
+<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Swedia</span></a>
+<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Polandia</span></a>
+<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Kanada</span></a>
+</div>
+
+<p class="affiliate-disclosure"><strong>Pengungkapan:</strong> Ini adalah tautan afiliasi Amazon - beli melalui salah satunya dan saya mendapat komisi kecil tanpa biaya tambahan bagi Anda.</p>
+
+</div>
 
 </section>
 
@@ -127,10 +149,10 @@ Untuk 95% kasus penggunaan - menulis kartu kontak Anda, pemicu otomasi, pintasan
 Buka NFC.cool Tools, ketuk **Write**, pilih jenis konten (URL, kartu kontak, Wi-Fi, otomasi), tempelkan tag kosong ke bagian atas ponsel Anda, selesai. Aplikasi menangani pengkodean, koreksi kesalahan, dan (opsional) penguncian permanen sehingga tag tidak dapat ditimpa.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-affiliate-links-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-affiliate-links-id&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-affiliate-links-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-affiliate-links-id" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>

@@ -27,35 +27,57 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 </section>
 
-<section class="page-section">
-
-## 只想看精简版？
-
-对于 95% 的使用场景：写入你的联系人名片、自动化触发器、网址快捷方式、Wi-Fi 分享，买 **NTAG216** 贴纸就对了。在 iPhone 和 Android 上都很可靠，容量充足（用户可写 888 字节），批量购买便宜，而且也是 NFC.cool 测试时所依据的标准。
-
-</section>
-
 <section id="where-to-buy" class="page-section">
 
 ## 到哪里买
 
-<div class="page-cards-grid">
+对于 95% 的 NFC 使用场景：联系人名片、自动化触发器、网址快捷方式、Wi-Fi 分享，买 **NTAG216** 贴纸就对了。在 iPhone 和 Android 上都很可靠，用户可写空间达 888 字节，批量购买便宜，而且也正是 NFC.cool 测试时所依据的那款芯片。刚接触 NFC 标签？我的[完整 NFC 标签新手指南](/blog/nfc-tags-beginners-guide/)会讲清楚它们的工作原理，以及各种芯片之间的区别。选择你所在的 Amazon 商店，或者随便点一个都行，Amazon 会自动把国际买家引导到离你最近的商店。
 
-<article class="page-card">
-<h3>🇺🇸 美国</h3>
-<p>在 Amazon US 购买 NTAG216 贴纸。挑选拥有数千条评价、且在商品标题中明确写出 "NTAG216" 的卖家，而不是只写 "NFC tag" 的那种。</p>
-<p><a href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=1337420050185-20&keywords=ntag216&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=a65cf3348c895e55dc070ca310ff04bd" class="landing-cta-button" rel="sponsored noopener" target="_blank">在 Amazon US 搜索 NTAG216</a></p>
-</article>
+<div class="affiliate-store-box">
 
-<article class="page-card">
-<h3>🇪🇺 欧洲</h3>
-<p>在 Amazon DE 购买 NTAG216 贴纸，可发往整个欧盟。建议同上：按评价数量和芯片名称筛选，忽略那些不肯写明芯片型号的商品。</p>
-<p><a href="https://www.amazon.de/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=1337420050185-21&keywords=ntag%20216&index=aps&camp=1638&creative=6742&linkCode=ur2&linkId=e0129c686012578ed3d03d0b7fd73894" class="landing-cta-button" rel="sponsored noopener" target="_blank">在 Amazon DE 搜索 NTAG216</a></p>
-</article>
+<div class="affiliate-country-grid" data-badge-label="你的商店">
+<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">美国</span></a>
+<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">英国</span></a>
+<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">德国</span></a>
+<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">法国</span></a>
+<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">意大利</span></a>
+<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">西班牙</span></a>
+<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">荷兰</span></a>
+<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">瑞典</span></a>
+<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">波兰</span></a>
+<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">加拿大</span></a>
+</div>
+
+<p class="affiliate-disclosure"><strong>声明：</strong>这些是 Amazon 联盟链接，如果你通过它们购买，我会获得一笔小额佣金，而你不会因此多付任何费用。</p>
 
 </div>
 
-<p class="affiliate-disclosure"><strong>声明：</strong>上面的链接是 Amazon 联盟链接，如果你通过它们购买，我会获得一笔小额佣金，而你不会因此多付任何费用。我只推荐自己会配合 NFC.cool App 使用的标签。没有赞助，也没有付费推广。</p>
+</section>
+
+<section class="page-section">
+
+## 要克隆 Amiibo？请选 NTAG215
+
+Amiibo 用的正是 **NTAG215** 芯片。如果你要[用 NFC.cool 克隆 Amiibo](/blog/amiibo-iphone-android-read-collect-clone/)，请购买空白的 **NTAG215** 标签，而不是我在其他所有场景都推荐的 NTAG216。这是唯一一种需要精确匹配芯片的情况：NFC.cool 会把重新生成密钥后的克隆写入 NTAG215，也就是真正的 Amiibo 所使用的同一种芯片类型。
+
+<div class="affiliate-store-box">
+
+<div class="affiliate-country-grid" data-badge-label="你的商店">
+<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">美国</span></a>
+<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">英国</span></a>
+<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">德国</span></a>
+<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">法国</span></a>
+<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">意大利</span></a>
+<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">西班牙</span></a>
+<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">荷兰</span></a>
+<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">瑞典</span></a>
+<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">波兰</span></a>
+<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">加拿大</span></a>
+</div>
+
+<p class="affiliate-disclosure"><strong>声明：</strong>这些是 Amazon 联盟链接，如果你通过它们购买，我会获得一笔小额佣金，而你不会因此多付任何费用。</p>
+
+</div>
 
 </section>
 
@@ -127,10 +149,10 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 打开 NFC.cool Tools，轻触 **Write**，选择一种内容类型（网址、联系人名片、Wi-Fi、自动化），把一个空白标签贴近手机顶部，完成。App 会负责处理编码、纠错，以及（可选的）永久锁定，让标签无法被覆盖重写。
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-affiliate-links-en&mt=8" class="landing-store-button is-apple" aria-label="在 App Store 下载" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-affiliate-links-zh&mt=8" class="landing-store-button is-apple" aria-label="在 App Store 下载" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="在 App Store 下载" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-affiliate-links-en" class="landing-store-button is-google" aria-label="在 Google Play 获取" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-affiliate-links-zh" class="landing-store-button is-google" aria-label="在 Google Play 获取" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="在 Google Play 获取" width="173" height="52"/>
 </a>
 </div>

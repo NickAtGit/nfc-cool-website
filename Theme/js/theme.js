@@ -330,3 +330,31 @@ document.addEventListener('DOMContentLoaded', function() {
       demo.classList.add('is-active');
    })();
 });
+
+// Affiliate country picker: mark the visitor's most likely local Amazon store
+// with a small badge so they don't have to hunt for their flag. Pure progressive
+// enhancement - the grid works without JS, and this only reads navigator.language
+// (no network, no tracking). The badge label comes from data-badge-label so each
+// locale can translate it without touching this script.
+document.addEventListener('DOMContentLoaded', function () {
+   var grids = document.querySelectorAll('.affiliate-country-grid');
+   if (!grids.length) return;
+   var lang = (navigator.language || '').trim();
+   if (!lang) return;
+   var parts = lang.split('-');
+   var region = (parts[1] || '').toUpperCase();
+   if (!region) {
+      var langToRegion = { en: 'US', de: 'DE', fr: 'FR', it: 'IT', es: 'ES', nl: 'NL', sv: 'SE', pl: 'PL' };
+      region = langToRegion[(parts[0] || '').toLowerCase()] || '';
+   }
+   if (!region) return;
+   grids.forEach(function (grid) {
+      var tile = grid.querySelector('[data-region="' + region + '"]');
+      if (!tile) return;
+      tile.classList.add('is-local');
+      var badge = document.createElement('span');
+      badge.className = 'affiliate-country-badge';
+      badge.textContent = grid.getAttribute('data-badge-label') || 'Your store';
+      tile.appendChild(badge);
+   });
+});

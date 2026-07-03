@@ -27,35 +27,57 @@ Depois de vários anos a lançar apps de NFC e a ler milhares de emails de apoio
 
 </section>
 
-<section class="page-section">
-
-## Só quer a versão resumida?
-
-Para 95% dos casos de uso - gravar o seu cartão de visita, acionadores de automação, atalhos de URL, partilha de Wi-Fi - compre autocolantes **NTAG216**. Fiáveis no iPhone e no Android, com bastante capacidade (888 bytes graváveis pelo utilizador), baratos em grandes quantidades e a referência com que a NFC.cool faz os seus testes.
-
-</section>
-
 <section id="where-to-buy" class="page-section">
 
 ## Onde comprar
 
-<div class="page-cards-grid">
+Para 95% do que as pessoas fazem com NFC - cartões de contacto, acionadores de automação, atalhos de URL, partilha de Wi-Fi - compre autocolantes **NTAG216**. Fiáveis no iPhone e no Android, com 888 bytes de espaço gravável, baratos em grandes quantidades e exatamente o chip com que a NFC.cool faz os seus testes. Novo nas tags NFC? O meu [guia completo de tags NFC para principiantes](/blog/nfc-tags-beginners-guide/) explica como funcionam e como diferem os chips. Escolha a sua loja Amazon - ou clique em qualquer uma, que a Amazon encaminha automaticamente os compradores internacionais para a loja mais próxima.
 
-<article class="page-card">
-<h3>🇺🇸 Estados Unidos</h3>
-<p>Autocolantes NTAG216 na Amazon US. Procure vendedores com milhares de avaliações e "NTAG216" explícito no anúncio - não apenas "tag NFC".</p>
-<p><a href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=1337420050185-20&keywords=ntag216&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=a65cf3348c895e55dc070ca310ff04bd" class="landing-cta-button" rel="sponsored noopener" target="_blank">Procurar NTAG216 na Amazon US</a></p>
-</article>
+<div class="affiliate-store-box">
 
-<article class="page-card">
-<h3>🇪🇺 Europa</h3>
-<p>Autocolantes NTAG216 na Amazon DE - envia para toda a UE. O mesmo conselho: filtre pelo número de avaliações e pelo nome do chip, ignore anúncios que não indiquem o chip.</p>
-<p><a href="https://www.amazon.de/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=1337420050185-21&keywords=ntag%20216&index=aps&camp=1638&creative=6742&linkCode=ur2&linkId=e0129c686012578ed3d03d0b7fd73894" class="landing-cta-button" rel="sponsored noopener" target="_blank">Procurar NTAG216 na Amazon DE</a></p>
-</article>
+<div class="affiliate-country-grid" data-badge-label="A sua loja">
+<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">Estados Unidos</span></a>
+<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Reino Unido</span></a>
+<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Alemanha</span></a>
+<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">França</span></a>
+<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Itália</span></a>
+<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">Espanha</span></a>
+<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Países Baixos</span></a>
+<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Suécia</span></a>
+<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Polónia</span></a>
+<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Canadá</span></a>
+</div>
+
+<p class="affiliate-disclosure"><strong>Divulgação:</strong> Estas são ligações de afiliado da Amazon - se comprar através de uma delas, recebo uma pequena comissão sem qualquer custo adicional para si.</p>
 
 </div>
 
-<p class="affiliate-disclosure"><strong>Divulgação:</strong> As ligações acima são ligações de afiliado da Amazon - se comprar através delas, recebo uma pequena comissão sem qualquer custo adicional para si. Só recomendo tags que eu próprio uso com as apps NFC.cool. Sem patrocínio, sem colocação paga.</p>
+</section>
+
+<section class="page-section">
+
+## Clonar Amiibo? Escolha o NTAG215
+
+Os Amiibo são especificamente chips **NTAG215**. Se está a [clonar Amiibo com a NFC.cool](/blog/amiibo-iphone-android-read-collect-clone/), compre tags **NTAG215** em branco - não o NTAG216 que recomendo para tudo o resto. É o único caso em que se faz corresponder o chip exatamente: a NFC.cool grava o clone com novas chaves num NTAG215, o mesmo tipo de chip que um Amiibo verdadeiro usa.
+
+<div class="affiliate-store-box">
+
+<div class="affiliate-country-grid" data-badge-label="A sua loja">
+<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">Estados Unidos</span></a>
+<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Reino Unido</span></a>
+<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Alemanha</span></a>
+<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">França</span></a>
+<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Itália</span></a>
+<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">Espanha</span></a>
+<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Países Baixos</span></a>
+<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Suécia</span></a>
+<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Polónia</span></a>
+<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Canadá</span></a>
+</div>
+
+<p class="affiliate-disclosure"><strong>Divulgação:</strong> Estas são ligações de afiliado da Amazon - se comprar através de uma delas, recebo uma pequena comissão sem qualquer custo adicional para si.</p>
+
+</div>
 
 </section>
 
@@ -127,10 +149,10 @@ Para 95% dos casos de uso - gravar o seu cartão de visita, acionadores de autom
 Abra a NFC.cool Tools, toque em **Gravar**, escolha um tipo de conteúdo (URL, cartão de visita, Wi-Fi, automação), encoste uma tag em branco ao topo do telemóvel, pronto. A app trata da codificação, da correção de erros e (opcionalmente) do bloqueio permanente para que a tag não possa ser sobrescrita.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-affiliate-links-en&mt=8" class="landing-store-button is-apple" aria-label="Descarregar na App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-affiliate-links-pt&mt=8" class="landing-store-button is-apple" aria-label="Descarregar na App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Descarregar na App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-affiliate-links-en" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-affiliate-links-pt" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Obter no Google Play" width="173" height="52"/>
 </a>
 </div>

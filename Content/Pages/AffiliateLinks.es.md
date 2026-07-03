@@ -27,35 +27,57 @@ Después de varios años lanzando apps de NFC y leyendo miles de emails de sopor
 
 </section>
 
-<section class="page-section">
-
-## ¿Solo quieres la versión corta?
-
-Para el 95 % de los casos de uso - grabar tu tarjeta de contacto, disparadores de automatización, accesos directos a URL, compartir Wi-Fi - compra pegatinas **NTAG216**. Fiables en iPhone y Android, con capacidad de sobra (888 bytes grabables por el usuario), baratas al por mayor y el estándar con el que NFC.cool hace sus pruebas.
-
-</section>
-
 <section id="where-to-buy" class="page-section">
 
 ## Dónde comprar
 
-<div class="page-cards-grid">
+Para el 95 % de los casos de uso - tarjetas de contacto, disparadores de automatización, accesos directos a URL, compartir Wi-Fi - compra pegatinas **NTAG216**. Fiables en iPhone y Android, con 888 bytes de espacio grabable, baratas al por mayor y justo el chip con el que NFC.cool hace sus pruebas. ¿Nuevo en las etiquetas NFC? Mi [guía completa para principiantes sobre etiquetas NFC](/blog/nfc-tags-beginners-guide/) explica cómo funcionan y en qué se diferencian los chips. Elige tu tienda de Amazon - o simplemente pulsa cualquiera, y Amazon dirige automáticamente a los compradores internacionales a la tienda más cercana.
 
-<article class="page-card">
-<h3>🇺🇸 Estados Unidos</h3>
-<p>Pegatinas NTAG216 en Amazon US. Busca vendedores con miles de opiniones y con "NTAG216" explícito en el anuncio - no solo "etiqueta NFC".</p>
-<p><a href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=1337420050185-20&keywords=ntag216&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=a65cf3348c895e55dc070ca310ff04bd" class="landing-cta-button" rel="sponsored noopener" target="_blank">Buscar NTAG216 en Amazon US</a></p>
-</article>
+<div class="affiliate-store-box">
 
-<article class="page-card">
-<h3>🇪🇺 Europa</h3>
-<p>Pegatinas NTAG216 en Amazon DE - envía a toda la UE. El mismo consejo: filtra por número de opiniones y nombre del chip, ignora los anuncios que no indiquen el chip.</p>
-<p><a href="https://www.amazon.de/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=1337420050185-21&keywords=ntag%20216&index=aps&camp=1638&creative=6742&linkCode=ur2&linkId=e0129c686012578ed3d03d0b7fd73894" class="landing-cta-button" rel="sponsored noopener" target="_blank">Buscar NTAG216 en Amazon DE</a></p>
-</article>
+<div class="affiliate-country-grid" data-badge-label="Tu tienda">
+<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">Estados Unidos</span></a>
+<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Reino Unido</span></a>
+<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Alemania</span></a>
+<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">Francia</span></a>
+<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Italia</span></a>
+<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">España</span></a>
+<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Países Bajos</span></a>
+<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Suecia</span></a>
+<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Polonia</span></a>
+<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Canadá</span></a>
+</div>
+
+<p class="affiliate-disclosure"><strong>Aviso:</strong> Son enlaces de afiliados de Amazon - si compras a través de uno gano una pequeña comisión sin ningún coste adicional para ti.</p>
 
 </div>
 
-<p class="affiliate-disclosure"><strong>Aviso:</strong> Los enlaces de arriba son enlaces de afiliados de Amazon - si compras a través de ellos gano una pequeña comisión sin ningún coste adicional para ti. Solo recomiendo etiquetas que yo mismo uso con las apps NFC.cool. Sin patrocinio, sin colocación pagada.</p>
+</section>
+
+<section class="page-section">
+
+## ¿Vas a clonar Amiibo? Consigue NTAG215
+
+Los Amiibo llevan concretamente chips **NTAG215**. Si vas a [clonar Amiibo con NFC.cool](/blog/amiibo-iphone-android-read-collect-clone/), compra etiquetas **NTAG215** en blanco - no el NTAG216 que recomiendo para todo lo demás. Es el único caso en el que igualas el chip exactamente: NFC.cool graba el clon con las claves regeneradas en un NTAG215, el mismo tipo de chip que usa un Amiibo real.
+
+<div class="affiliate-store-box">
+
+<div class="affiliate-country-grid" data-badge-label="Tu tienda">
+<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">Estados Unidos</span></a>
+<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Reino Unido</span></a>
+<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Alemania</span></a>
+<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">Francia</span></a>
+<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Italia</span></a>
+<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">España</span></a>
+<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Países Bajos</span></a>
+<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Suecia</span></a>
+<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Polonia</span></a>
+<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Canadá</span></a>
+</div>
+
+<p class="affiliate-disclosure"><strong>Aviso:</strong> Son enlaces de afiliados de Amazon - si compras a través de uno gano una pequeña comisión sin ningún coste adicional para ti.</p>
+
+</div>
 
 </section>
 
@@ -127,10 +149,10 @@ Para el 95 % de los casos de uso - grabar tu tarjeta de contacto, disparadores d
 Abre NFC.cool Tools, toca **Grabar**, elige un tipo de contenido (URL, tarjeta de contacto, Wi-Fi, automatización), acerca una etiqueta en blanco a la parte superior de tu móvil, listo. La app se encarga de la codificación, la corrección de errores y (opcionalmente) el bloqueo permanente para que la etiqueta no se pueda sobrescribir.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-affiliate-links-en&mt=8" class="landing-store-button is-apple" aria-label="Descargar en la App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-affiliate-links-es&mt=8" class="landing-store-button is-apple" aria-label="Descargar en la App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Descargar en la App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-affiliate-links-en" class="landing-store-button is-google" aria-label="Disponible en Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-affiliate-links-es" class="landing-store-button is-google" aria-label="Disponible en Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Disponible en Google Play" width="173" height="52"/>
 </a>
 </div>

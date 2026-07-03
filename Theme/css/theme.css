@@ -462,6 +462,12 @@ body.landing .sk-main {
    color: var(--color-link-hover);
    text-decoration-color: var(--color-link-hover);
 }
+.blog-post-body hr {
+   border: 0;
+   border-top: 2px solid var(--color-border);
+   margin: 3.5rem auto;
+   width: 100%;
+}
 .sk-static-page blockquote {
    border-left: 3px solid var(--color-accent);
    margin: 1.5rem 0;

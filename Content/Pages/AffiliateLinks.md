@@ -27,35 +27,57 @@ After several years of shipping NFC apps and reading thousands of support emails
 
 </section>
 
-<section class="page-section">
-
-## Just want the short version?
-
-For 95% of use cases - writing your contact card, automation triggers, URL shortcuts, Wi-Fi sharing - buy **NTAG216** stickers. Reliable on iPhone and Android, plenty of capacity (888 bytes user-writable), cheap in bulk, and the standard NFC.cool tests against.
-
-</section>
-
 <section id="where-to-buy" class="page-section">
 
 ## Where to buy
 
-<div class="page-cards-grid">
+For 95% of what people do with NFC - contact cards, automation triggers, URL shortcuts, Wi-Fi sharing - buy **NTAG216** stickers. Reliable on iPhone and Android, 888 bytes of writable space, cheap in bulk, and the exact chip NFC.cool tests against. New to NFC tags? My [complete beginner's guide to NFC tags](/blog/nfc-tags-beginners-guide/) explains how they work and how the chips differ. Pick your Amazon store - or just click any, and Amazon routes international shoppers to their nearest store automatically.
 
-<article class="page-card">
-<h3>🇺🇸 United States</h3>
-<p>NTAG216 stickers on Amazon US. Look for sellers with thousands of reviews and explicit "NTAG216" in the listing - not just "NFC tag".</p>
-<p><a href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=1337420050185-20&keywords=ntag216&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=a65cf3348c895e55dc070ca310ff04bd" class="landing-cta-button" rel="sponsored noopener" target="_blank">Search NTAG216 on Amazon US</a></p>
-</article>
+<div class="affiliate-store-box">
 
-<article class="page-card">
-<h3>🇪🇺 Europe</h3>
-<p>NTAG216 stickers on Amazon DE - ships across the EU. Same advice: filter by review count and chip name, ignore listings that won't name the chip.</p>
-<p><a href="https://www.amazon.de/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=1337420050185-21&keywords=ntag%20216&index=aps&camp=1638&creative=6742&linkCode=ur2&linkId=e0129c686012578ed3d03d0b7fd73894" class="landing-cta-button" rel="sponsored noopener" target="_blank">Search NTAG216 on Amazon DE</a></p>
-</article>
+<div class="affiliate-country-grid" data-badge-label="Your store">
+<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">United States</span></a>
+<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">United Kingdom</span></a>
+<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Germany</span></a>
+<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">France</span></a>
+<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Italy</span></a>
+<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">Spain</span></a>
+<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Netherlands</span></a>
+<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Sweden</span></a>
+<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Poland</span></a>
+<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Canada</span></a>
+</div>
+
+<p class="affiliate-disclosure"><strong>Disclosure:</strong> These are Amazon affiliate links - buy through one and I earn a small commission at no extra cost to you.</p>
 
 </div>
 
-<p class="affiliate-disclosure"><strong>Disclosure:</strong> The links above are Amazon affiliate links - if you buy through them I earn a small commission at no extra cost to you. I only recommend tags I use myself with the NFC.cool apps. No sponsorship, no paid placement.</p>
+</section>
+
+<section class="page-section">
+
+## Cloning Amiibo? Get NTAG215
+
+Amiibo are **NTAG215** chips specifically. If you're [cloning Amiibo with NFC.cool](/blog/amiibo-iphone-android-read-collect-clone/), buy blank **NTAG215** tags - not the NTAG216 I recommend for everything else. It's the one case where you match the chip exactly: NFC.cool writes the re-keyed clone to an NTAG215, the same chip type a real Amiibo uses.
+
+<div class="affiliate-store-box">
+
+<div class="affiliate-country-grid" data-badge-label="Your store">
+<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">United States</span></a>
+<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">United Kingdom</span></a>
+<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Germany</span></a>
+<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">France</span></a>
+<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Italy</span></a>
+<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">Spain</span></a>
+<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Netherlands</span></a>
+<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Sweden</span></a>
+<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Poland</span></a>
+<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Canada</span></a>
+</div>
+
+<p class="affiliate-disclosure"><strong>Disclosure:</strong> These are Amazon affiliate links - buy through one and I earn a small commission at no extra cost to you.</p>
+
+</div>
 
 </section>
 

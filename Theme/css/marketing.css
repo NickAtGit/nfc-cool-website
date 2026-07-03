@@ -346,6 +346,99 @@
    color: var(--color-text-muted);
 }
 
+/* ============================================================
+   Affiliate country picker - a single white box holding a grid
+   of Amazon-store tiles, one per marketplace the OneLink store is
+   mapped to. Replaces the older two-card US/EU layout so every
+   region is one tap away; OneLink still auto-routes anyone who
+   lands on a store that isn't their own.
+   ============================================================ */
+.affiliate-store-box {
+   /* Align the box's border with the section's text tier (headings +
+      paragraphs) instead of bleeding out to the full max-width edge - same
+      inset trick as .page-section > .faq-item. */
+   max-width: calc(var(--max-width) - 2 * var(--container-padding));
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-lg);
+   padding: clamp(1.25rem, 3vw, 1.75rem);
+   box-shadow: 0 1px 2px var(--color-shadow);
+}
+.affiliate-country-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(166px, 1fr));
+   gap: 0.6rem;
+}
+.affiliate-country {
+   position: relative;
+   display: flex;
+   align-items: center;
+   gap: 0.6rem;
+   padding: 0.7rem 0.85rem;
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-md);
+   background: var(--color-bg);
+   color: var(--color-text);
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 0.875rem;
+   line-height: 1.2;
+   transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+}
+.affiliate-country:hover {
+   transform: translateY(-2px);
+   border-color: var(--color-accent);
+   box-shadow: 0 6px 16px var(--color-shadow-lg);
+}
+.affiliate-country:focus-visible {
+   outline: 2px solid var(--color-accent);
+   outline-offset: 2px;
+}
+/* Tiles are buttons, not text links - override the theme's content-link
+   underline. That rule is `.page-section a:not(.landing-cta-button)` (0,2,1),
+   so this needs 3 classes (0,3,0) to win and keep any line off flag + name. */
+.affiliate-store-box .affiliate-country-grid .affiliate-country,
+.affiliate-store-box .affiliate-country-grid .affiliate-country:hover {
+   text-decoration: none;
+}
+.affiliate-country-flag {
+   font-size: 1.35rem;
+   line-height: 1;
+   flex-shrink: 0;
+}
+.affiliate-country-name {
+   min-width: 0;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+/* JS tags the visitor's likely-local store (from navigator.language). */
+.affiliate-country.is-local {
+   border-color: var(--color-accent);
+   background: var(--color-accent-light);
+}
+.affiliate-country-badge {
+   position: absolute;
+   top: -0.55rem;
+   right: -0.4rem;
+   background: var(--color-accent);
+   color: #212529;
+   font-size: 0.62rem;
+   font-weight: 700;
+   letter-spacing: 0.02em;
+   text-transform: uppercase;
+   padding: 0.12rem 0.42rem;
+   border-radius: var(--radius-pill);
+   pointer-events: none;
+}
+.affiliate-store-box .affiliate-disclosure {
+   margin-top: 1.25rem;
+   margin-bottom: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+   .affiliate-country:hover { transform: none; }
+}
+
 /* Tighten the gap between hero and first section */
 .page-hero + .page-section { padding-top: clamp(3rem, 5vw, 4rem); }
 
