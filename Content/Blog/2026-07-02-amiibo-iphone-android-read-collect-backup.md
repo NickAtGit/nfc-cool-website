@@ -1,16 +1,16 @@
 ---
-id: "amiibo-iphone-android-read-collect-clone-2026-07"
-title: "Read, Collect, and Clone Amiibo on iPhone and Android"
+id: "amiibo-iphone-android-read-collect-backup-2026-07"
+title: "Read, Collect, and Back Up Amiibo on iPhone and Android"
 date: "2026-07-02"
 tags: ["announcements", "iphone", "android"]
-summary: "I want NFC.cool to be the best NFC app on iPhone and Android, so I gave it full Amiibo support: scan a figure to see its details, build a personal collection, and clone one to a blank NTAG215. Here's how Amiibo actually work under the hood - and why the app ships no keys."
-image: "/assets/images/Blog/amiibo-iphone-android-read-collect-clone.webp"
+summary: "I want NFC.cool to be the best NFC app on iPhone and Android, so I gave it full Amiibo support: scan a figure to see its details, build a personal collection, and back one up to a blank NTAG215. Here's how Amiibo actually work under the hood - and why the app ships no keys."
+image: "/assets/images/Blog/amiibo-iphone-android-read-collect-backup.webp"
 imageAlt: "An imaginary NFC collectible figure beside a phone showing a private collection screen"
 author: "Nicolo Stanciu"
-metaTitle: "Amiibo on iPhone and Android: Read, Collect, Clone"
-metaDescription: "NFC.cool reads Amiibo on iPhone and Android, keeps a collection, and clones them to blank NTAG215 tags. How Amiibo work under the hood, and the honest limits."
-ogTitle: "Read, Collect, and Clone Amiibo on iPhone and Android"
-ogDescription: "I gave NFC.cool full Amiibo support - scan, collect, and clone to a blank tag. Here's how Amiibo actually work, and why the app ships no keys."
+metaTitle: "Amiibo on iPhone and Android: Read, Collect, Back Up"
+metaDescription: "NFC.cool reads Amiibo on iPhone and Android, keeps a collection, and backs them up to blank NTAG215 tags. How Amiibo work under the hood, and the honest limits."
+ogTitle: "Read, Collect, and Back Up Amiibo on iPhone and Android"
+ogDescription: "I gave NFC.cool full Amiibo support - scan, collect, and back one up to a blank tag. Here's how Amiibo actually work, and why the app ships no keys."
 ---
 People assume there is something exotic inside an Amiibo. Some bit of Nintendo silicon you cannot buy anywhere else. There isn't. Sealed into the base of the figure is an [NTAG215](/affiliate-links/) - the same blank sticker chip I read and write every day, the kind that comes ten to a pack for pocket change. Around 540 bytes of memory, a serial number burned in at the factory, and that is the whole figure. The plastic is the expensive part. The chip is almost an afterthought.
 
@@ -32,7 +32,7 @@ The encrypted save is not protected by one fixed key you could look up once and 
 
 Now here is the trap. Because the serial number is baked into both the key derivation and the signature, you cannot dump a real Amiibo and byte-copy it onto a blank tag. The blank has a different serial number, so every derived key comes out different, the signature no longer matches, and the console rejects it. The obvious "just copy all the pages" approach fails every time.
 
-To clone one properly you have to re-derive the keys against the destination tag and re-sign the data so it is valid for that exact piece of plastic and silicon, not the one you dumped it from. The reference implementation everyone builds on is a tool called amiitool. I rebuilt that whole dance natively inside the app - tag format to internal format and back, key derivation, encryption, signing - so NFC.cool can do it on the phone in your hand, with no computer in the loop.
+To make a valid copy you have to re-derive the keys against the destination tag and re-sign the data so it is valid for that exact piece of plastic and silicon, not the one you dumped it from. The reference implementation everyone builds on is a tool called amiitool. I rebuilt that whole dance natively inside the app - tag format to internal format and back, key derivation, encryption, signing - so NFC.cool can do it on the phone in your hand, with no computer in the loop.
 
 ## What NFC.cool does now
 
@@ -42,24 +42,32 @@ Three things, in the order you will probably use them.
 
 **Collect.** Every Amiibo you scan is saved to My Collection, a simple grid of everything you own. It lives on your device - on iPhone it syncs to your other Apple devices through iCloud - and the artwork is cached so the collection still looks right when you are offline. That alone turned my sad little shelf into something I can actually browse.
 
-**Clone.** With your own keys imported, you can write a re-keyed copy of a figure to a blank NTAG215. You can clone straight from a figure you just scanned, or from a saved `.bin` dump on your device. The app re-derives the keys for the blank you are holding and signs the data for that tag, so the copy is valid on its own terms rather than a doomed byte-for-byte forgery. The write is permanent - once the tag is locked, it is locked - and the app says so plainly before you commit.
+**Back up and restore.** With your own keys imported, you can write a re-keyed copy of a figure to a blank NTAG215. You can back one up straight from a figure you just scanned, or restore from a saved `.bin` dump on your device. The app re-derives the keys for the blank you are holding and signs the data for that tag, so the copy is valid on its own terms rather than a doomed byte-for-byte forgery. The write is permanent - once the tag is locked, it is locked - and the app says so plainly before you commit.
 
 ## What's deliberately left out
 
 NFC.cool does not ship the Amiibo keys, and it never will. There are no keys hidden in the app, and there is no library of Amiibo data baked in.
 
-Reading and collecting work out of the box because they only ever touch the open part of the tag. Cloning is different: it needs the master keys, and those are Nintendo's, not mine. If you have obtained them yourself - the combined `key.bin`, or the two separate files - you import them into the app once and the clone feature switches on. If you have not, it stays off. I built the machine; the fuel is yours to bring.
+Reading and collecting work out of the box because they only ever touch the open part of the tag. Backing up is different: it needs the master keys, and those are Nintendo's, not mine. If you have obtained them yourself - the combined `key.bin`, or the two separate files - you import them into the app once and the backup feature switches on. If you have not, it stays off. I built the machine; the fuel is yours to bring.
 
 I think that is the honest line to walk. The capability is genuinely useful. Backing up a figure your kid is one bad afternoon away from losing, or putting a spare on a cheap card instead of risking the original, are real reasons people want this. I would rather give you a clean, private way to do it on your own phone than pretend the demand does not exist. But I am not going to hand out something that was never mine to hand out.
+
+## For the record
+
+Two things I want to be straight about.
+
+First, this is my app, not Nintendo's. NFC.cool is not made by, affiliated with, endorsed by, or sponsored by Nintendo. Amiibo, Nintendo Switch, and the game titles I mention are trademarks of their respective owners, and I only name them so you know what the feature is compatible with.
+
+Second, the backup and restore tools are here for educational and personal use: protecting figures you already own. Make a spare of the one your kid keeps dropping, or keep an original boxed while a cheap NTAG215 takes the daily wear. That is the use I built it for. Bring your own keys, only back up figures you actually own, and respect Nintendo's rights and whatever the law says where you live. What you do with the tool is your responsibility.
 
 ## It actually works
 
 I did not want to ship this on faith, so I tested it the only way that counts.
 
-I scanned one of my own figures, cloned it to a blank NTAG215, and carried the copy over to my Switch. I loaded up The Legend of Zelda: Tears of the Kingdom, tapped the clone against the right Joy-Con, and it dropped a handful of in-game items into my inventory. Same as the original. No complaints, no "this Amiibo cannot be read." That was the moment the whole thing felt real to me. All that key-derivation math and those byte layouts, and the payoff is a cheap blank sticker that a Nintendo console happily treats as the real figure.
+I scanned one of my own figures, backed it up to a blank NTAG215, and carried the copy over to my Switch. I loaded up The Legend of Zelda: Tears of the Kingdom, tapped the copy against the right Joy-Con, and it dropped a handful of in-game items into my inventory. Same as the original. No complaints, no "this Amiibo cannot be read." That was the moment the whole thing felt real to me. All that key-derivation math and those byte layouts, and the payoff is a cheap blank sticker that a Nintendo console happily treats as the real figure.
 
 ---
 
 That shelf next to my desk is not just decoration anymore. It is a feature.
 
-If you want to try it, the Amiibo tools live in NFC.cool on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-amiibo-iphone-android-read-collect-clone-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-amiibo-iphone-android-read-collect-clone-en), right alongside everything else I have built for reading and writing tags. Bring your own keys, tap a figure, and see what your app has been quietly ignoring this whole time.
+If you want to try it, the Amiibo tools live in NFC.cool on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-amiibo-iphone-android-read-collect-backup-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-amiibo-iphone-android-read-collect-backup-en), right alongside everything else I have built for reading and writing tags. Bring your own keys, tap a figure, and see what your app has been quietly ignoring this whole time.

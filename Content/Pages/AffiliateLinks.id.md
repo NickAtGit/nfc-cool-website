@@ -56,9 +56,9 @@ Untuk 95% hal yang dilakukan orang dengan NFC - kartu kontak, pemicu otomasi, pi
 
 <section class="page-section">
 
-## Mengkloning Amiibo? Gunakan NTAG215
+## Mencadangkan Amiibo? Gunakan NTAG215
 
-Amiibo secara khusus menggunakan chip **NTAG215**. Jika Anda [mengkloning Amiibo dengan NFC.cool](/blog/amiibo-iphone-android-read-collect-clone/), beli tag **NTAG215** kosong - bukan NTAG216 yang saya rekomendasikan untuk keperluan lainnya. Ini satu-satunya kasus di mana Anda harus mencocokkan chip secara persis: NFC.cool menulis salinan yang kuncinya diturunkan ulang ke sebuah NTAG215, tipe chip yang sama seperti yang digunakan Amiibo asli.
+Amiibo secara khusus menggunakan chip **NTAG215**. Jika Anda [mencadangkan Amiibo dengan NFC.cool](/blog/amiibo-iphone-android-read-collect-backup/), beli tag **NTAG215** kosong - bukan NTAG216 yang saya rekomendasikan untuk keperluan lainnya. Ini satu-satunya kasus di mana Anda harus mencocokkan chip secara persis: NFC.cool menulis salinan yang kuncinya diturunkan ulang ke sebuah NTAG215, tipe chip yang sama seperti yang digunakan Amiibo asli.
 
 <div class="affiliate-store-box">
 

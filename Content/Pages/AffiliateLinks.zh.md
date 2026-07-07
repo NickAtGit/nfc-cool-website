@@ -56,9 +56,9 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 <section class="page-section">
 
-## 要克隆 Amiibo？请选 NTAG215
+## 要备份 Amiibo？请选 NTAG215
 
-Amiibo 用的正是 **NTAG215** 芯片。如果你要[用 NFC.cool 克隆 Amiibo](/blog/amiibo-iphone-android-read-collect-clone/)，请购买空白的 **NTAG215** 标签，而不是我在其他所有场景都推荐的 NTAG216。这是唯一一种需要精确匹配芯片的情况：NFC.cool 会把重新生成密钥后的克隆写入 NTAG215，也就是真正的 Amiibo 所使用的同一种芯片类型。
+Amiibo 用的正是 **NTAG215** 芯片。如果你要[用 NFC.cool 备份 Amiibo](/blog/amiibo-iphone-android-read-collect-backup/)，请购买空白的 **NTAG215** 标签，而不是我在其他所有场景都推荐的 NTAG216。这是唯一一种需要精确匹配芯片的情况：NFC.cool 会把重新生成密钥后的副本写入 NTAG215，也就是真正的 Amiibo 所使用的同一种芯片类型。
 
 <div class="affiliate-store-box">
 

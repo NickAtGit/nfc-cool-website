@@ -165,3 +165,21 @@ redirects:
   # ----- Webflow /contact.html artifact → real /contact/ page -----
   - from: "/contact.html"
     to: "/contact/"
+
+  # ----- Amiibo post slug change (clone → backup) — keep the live URL alive -----
+  - from: "/blog/amiibo-iphone-android-read-collect-clone"
+    to: "/blog/amiibo-iphone-android-read-collect-backup/"
+  - from: "/blog/amiibo-iphone-android-read-collect-clone/"
+    to: "/blog/amiibo-iphone-android-read-collect-backup/"
+  - from: "/de/blog/amiibo-iphone-android-read-collect-clone/"
+    to: "/de/blog/amiibo-iphone-android-read-collect-backup/"
+  - from: "/ja/blog/amiibo-iphone-android-read-collect-clone/"
+    to: "/ja/blog/amiibo-iphone-android-read-collect-backup/"
+  - from: "/pt/blog/amiibo-iphone-android-read-collect-clone/"
+    to: "/pt/blog/amiibo-iphone-android-read-collect-backup/"
+  - from: "/zh/blog/amiibo-iphone-android-read-collect-clone/"
+    to: "/zh/blog/amiibo-iphone-android-read-collect-backup/"
+  - from: "/id/blog/amiibo-iphone-android-read-collect-clone/"
+    to: "/id/blog/amiibo-iphone-android-read-collect-backup/"
+  - from: "/es/blog/amiibo-iphone-android-read-collect-clone/"
+    to: "/es/blog/amiibo-iphone-android-read-collect-backup/"

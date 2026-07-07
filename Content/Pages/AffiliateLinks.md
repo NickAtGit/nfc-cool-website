@@ -56,9 +56,9 @@ For 95% of what people do with NFC - contact cards, automation triggers, URL sho
 
 <section class="page-section">
 
-## Cloning Amiibo? Get NTAG215
+## Backing Up Amiibo? Get NTAG215
 
-Amiibo are **NTAG215** chips specifically. If you're [cloning Amiibo with NFC.cool](/blog/amiibo-iphone-android-read-collect-clone/), buy blank **NTAG215** tags - not the NTAG216 I recommend for everything else. It's the one case where you match the chip exactly: NFC.cool writes the re-keyed clone to an NTAG215, the same chip type a real Amiibo uses.
+Amiibo are **NTAG215** chips specifically. If you're [backing up Amiibo with NFC.cool](/blog/amiibo-iphone-android-read-collect-backup/), buy blank **NTAG215** tags - not the NTAG216 I recommend for everything else. It's the one case where you match the chip exactly: NFC.cool writes the re-keyed copy to an NTAG215, the same chip type a real Amiibo uses.
 
 <div class="affiliate-store-box">
 

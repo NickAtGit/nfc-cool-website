@@ -56,9 +56,9 @@ Para 95% do que as pessoas fazem com NFC - cartões de contacto, acionadores de 
 
 <section class="page-section">
 
-## Clonar Amiibo? Escolha o NTAG215
+## Fazer backup de Amiibo? Escolha o NTAG215
 
-Os Amiibo são especificamente chips **NTAG215**. Se está a [clonar Amiibo com a NFC.cool](/blog/amiibo-iphone-android-read-collect-clone/), compre tags **NTAG215** em branco - não o NTAG216 que recomendo para tudo o resto. É o único caso em que se faz corresponder o chip exatamente: a NFC.cool grava o clone com novas chaves num NTAG215, o mesmo tipo de chip que um Amiibo verdadeiro usa.
+Os Amiibo são especificamente chips **NTAG215**. Se está a [fazer backup de Amiibo com a NFC.cool](/blog/amiibo-iphone-android-read-collect-backup/), compre tags **NTAG215** em branco - não o NTAG216 que recomendo para tudo o resto. É o único caso em que se faz corresponder o chip exatamente: a NFC.cool grava a cópia com novas chaves num NTAG215, o mesmo tipo de chip que um Amiibo verdadeiro usa.
 
 <div class="affiliate-store-box">
 
