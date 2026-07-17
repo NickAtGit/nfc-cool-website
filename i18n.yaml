@@ -59,6 +59,8 @@ identicalAllowlist:
     - tagName_iphone
     - tagName_android
     - tagName_networking
+    # "Guides" is spelled identically in French and English (like iPhone/Android).
+    - tagName_guides
   # Pricing-cell sentinel glyphs / tokens, never translated.
   pricingCellTokens: ["✓", "✗", "-", "~"]
 

@@ -5,7 +5,7 @@ language: "en"
 
 localization:
   defaultLanguage: "en"
-  languages: ["de", "ja", "pt", "zh", "id", "es"]
+  languages: ["de", "ja", "pt", "zh", "id", "es", "fr"]
   translationMode: "manual"
   legalLanguage: "de"
   # Localized nav + footer labels. URLs stay locale-agnostic; SiteKit prefixes
@@ -322,6 +322,58 @@ localization:
           - title: "Términos"
             url: "/terms/"
           - title: "Libro de Reclamaciones"
+            url: "https://www.livroreclamacoes.pt/Inicio/"
+    fr:
+      navigation:
+        items:
+          - title: "Accueil"
+            url: "/"
+          - title: "Fonctionnalités"
+            url: "/features/"
+          - title: "Carte de visite"
+            url: "/business-card/"
+          - title: "Acheter des tags NFC"
+            url: "/affiliate-links/"
+          - title: "Lecteur NFC en ligne"
+            url: "/online-nfc-reader/"
+          - title: "Blog"
+            url: "/blog/"
+          - title: "Support et contact"
+            url: "/contact/"
+        showSearch: false
+        showThemeToggle: true
+      footer:
+        copyrightName: "NFC.cool"
+        startYear: 2017
+        showAttribution: false
+        links:
+          - title: "Fonctionnalités"
+            url: "/features/"
+          - title: "Lecteur NFC en ligne"
+            url: "/online-nfc-reader/"
+          - title: "Carte de visite"
+            url: "/business-card/"
+          - title: "Tags NFC"
+            url: "/affiliate-links/"
+          - title: "Développeurs"
+            url: "/developers/"
+          - title: "Avis"
+            url: "/reviews/"
+          - title: "À propos"
+            url: "/about/"
+          - title: "Changelog"
+            url: "/changelog/"
+          - title: "Blog"
+            url: "/blog/"
+          - title: "Support et contact"
+            url: "/contact/"
+          - title: "Presse"
+            url: "/press/"
+          - title: "Confidentialité"
+            url: "/privacy/"
+          - title: "Conditions d'utilisation"
+            url: "/terms/"
+          - title: "Livre de réclamations"
             url: "https://www.livroreclamacoes.pt/Inicio/"
 
 contentDirectory: "Content"

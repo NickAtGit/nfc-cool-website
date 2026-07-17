@@ -1,0 +1,115 @@
+slug: "qr-scanner"
+backLinkText: "← Toutes les fonctionnalités"
+
+card:
+  title: "Scanner et studio de QR codes"
+  description: "Scannez des QR codes depuis l'appareil photo ou repérez-les dans n'importe quelle photo, puis créez les vôtres avec des icônes et des Genmoji dans le studio de QR codes intégré."
+  imagePath: "/assets/images/Webflow/qr-studio.webp"
+  platforms: "iOS uniquement"
+
+hero:
+  title: "Scanner et studio de QR codes"
+  subtitle: "Scannez n'importe quel QR code depuis l'appareil photo ou repérez-le dans une capture d'écran. Créez des QR codes personnalisés avec des logos, des Genmoji et vos couleurs de marque dans le studio de QR codes intégré."
+  platforms: "iOS uniquement"
+  heroImagePath: "/assets/images/Webflow/qr-studio.webp"
+
+capabilitiesTitle: "Ce que vous pouvez faire"
+capabilities:
+  - title: "Scan universel de QR codes"
+    description: "URL, vCard, identifiants Wi-Fi, événements de calendrier, paiements, liens vers l'App Store - NFC.cool détecte le type de contenu et vous propose la bonne action."
+  - title: "Détecter les QR codes dans les captures d'écran"
+    description: "Choisissez une image dans votre photothèque et NFC.cool y trouve et décode tous les QR codes, même partiellement masqués ou peu contrastés."
+  - title: "Studio de QR codes"
+    description: "Créez des QR codes avec des couleurs personnalisées, des motifs d'yeux arrondis, des formes de pixels sur mesure et un logo ou un Genmoji au centre. Exportez en PNG jusqu'à 4096 x 4096."
+  - title: "Historique et repartage"
+    description: "Chaque scan est enregistré localement - rouvrez le contenu, copiez-le, partagez-le ou revenez directement à l'action."
+  - title: "Action automatique à la lecture"
+    description: "Ouvrez des URL, lancez des Raccourcis, déclenchez un webhook ou faites lire le résultat à voix haute dès qu'un code est scanné - la même automatisation à cinq déclencheurs que pour les scans NFC."
+
+subsectionsTitle: "Plus qu'un simple scanner"
+subsections:
+  - title: "Widgets - vos QR codes sur l'écran d'accueil"
+    body: "<p>Placez vos QR codes les plus partagés sur l'écran d'accueil de l'iPhone ou de l'iPad avec le <strong>widget d'image QR</strong>. Le Wi-Fi du bureau, le lien de votre carte de visite, le menu de votre bar - visibles d'un coup d'oeil et scannables depuis le téléphone d'à côté sans que vous ayez à ouvrir quoi que ce soit. Le <strong>widget du dernier scan</strong> affiche le code scanné le plus récemment pour le repartager instantanément. Et le <strong>widget du bouton de scan</strong> lance le scanner directement depuis l'écran d'accueil ou l'écran verrouillé - une seule pression, même sur iOS 17+ grâce aux commandes interactives.</p>"
+    imagePath: "/assets/images/Features/qr-scanner-widgets-home-screen.webp"
+    imageAlt: "Écran d'accueil d'un iPhone avec des widgets de QR codes et un bouton de scan"
+    platforms: "iOS"
+
+  - title: "Studio de QR codes : formes de pixels, couleurs, yeux et logos personnalisés"
+    body: "<p>Le studio de QR codes vous permet de conserver la lisibilité tout en abandonnant l'esthétique des carrés d'entreprise. Choisissez des formes de pixels (arrondies, points, losanges), le style de chaque oeil, les couleurs de premier plan et d'arrière-plan, un logo ou un Genmoji au centre. Exportez en six tailles de pixels - 512, 1024, 1536, 2048, 3072 ou 4096.</p>"
+    imagePath: "/assets/images/Features/qr-scanner-studio-card.webp"
+    imageAlt: "Le studio de QR codes avec un logo personnalisé"
+    platforms: "iOS"
+
+  - title: "Multi-scan, lecture par lots et lampe à la demande"
+    body: "<p>Trois réglages transforment le scanner d'un usage ponctuel en un vrai flux de travail continu. Le <strong>multi-scan</strong> vous permet de scanner plusieurs codes en une seule session d'appareil photo. La <strong>lecture par lots</strong> garde l'appareil photo ouvert pour l'inventaire ou l'enregistrement lors d'un événement. La <strong>lampe automatique</strong> allume le LED en basse lumière pour vous éviter de chercher le bouton de la lampe torche.</p>"
+    imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
+    imageAlt: "Un iPhone scannant plusieurs QR codes et codes-barres avec la lampe allumée"
+    platforms: "iOS"
+
+  - title: "Raccourcis et App Intents"
+    body: "<p>NFC.cool se connecte directement à l'app Raccourcis d'iOS grâce à des actions intégrées : récupérer le dernier tag NFC scanné, écrire un message sur un tag, ouvrir le scanner ou récupérer le dernier QR code scanné. Enchaînez-les dans des Raccourcis qui scannent un tag, analysent son contenu et lancent ensuite ce que vous voulez - automatisation, journalisation, notes, à vous de voir. Ces mêmes actions alimentent la commande <strong>bouton de scan</strong> de l'écran verrouillé sur iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "Un iPhone reliant un tag NFC à des blocs d'automatisation"
+    platforms: "iOS"
+
+  - title: "Synchronisation iCloud entre iPhone, iPad et Mac"
+    body: "<p>L'historique des scans et vos créations du studio de QR codes se synchronisent sur tous les appareils liés à votre compte iCloud. Créez un QR code sur l'iPad, partagez-le depuis l'iPhone, modifiez-le sur le <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - même bibliothèque, mêmes modifications, sans exporter d'un appareil à l'autre.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool synchronisé entre iPhone, iPad et Mac"
+    platforms: "iOS"
+
+specsTitle: "Codes pris en charge et exports du studio"
+specs:
+  - title: "Variantes de QR (appareil photo + photothèque)"
+    items:
+      - "QR code (versions 1 à 40)"
+      - "Micro QR (M1 à M4)"
+      - "Plusieurs codes par image"
+  - title: "Tailles d'export du studio"
+    items:
+      - "PNG en 512, 1024, 1536, 2048, 3072 ou 4096 pixels de côté"
+  - title: "Personnalisation du studio"
+    items:
+      - "Couleurs de premier plan et d'arrière-plan"
+      - "Formes de pixels personnalisées (arrondies, points, losanges, etc.)"
+      - "Styles et formes propres à chaque oeil"
+      - "Logo central (n'importe quelle image, autocollants Apple ou Genmoji sur iOS 18+)"
+
+pricing:
+  title: "Free vs Platinum"
+  columns: ["Free", "Platinum"]
+  rows:
+    - label: "Lire les QR codes et codes-barres"
+      values: ["✓", "✓"]
+    - label: "Créer des QR codes"
+      values: ["limited", "✓"]
+    - label: "Studio de QR codes"
+      values: ["limited", "✓"]
+    - label: "Types de messages QR"
+      values: ["limited", "✓"]
+    - label: "Widgets de QR codes"
+      values: ["limited", "✓"]
+    - label: "Sans filigrane"
+      values: ["✗", "✓"]
+    - label: "Lecture par lots des QR codes et codes-barres"
+      values: ["✗", "✓"]
+
+faqTitle: "Questions fréquentes"
+faq:
+  - question: "Pourquoi cette fonctionnalité est-elle réservée à iOS ?"
+    answer: "La version Android de NFC.cool se concentre pour l'instant sur le NFC et la carte de visite numérique. Le scan de QR codes est prévu dans la feuille de route Android."
+  - question: "Les QR codes créés dans le studio sont-ils compatibles avec tous les lecteurs ?"
+    answer: "Oui. Ce sont des QR codes standard avec un habillage esthétique facultatif. Tous les lecteurs standard (appareil photo iOS, Google Lens, scanners Android d'origine) peuvent les décoder."
+  - question: "Puis-je scanner un QR code depuis une capture d'écran ?"
+    answer: "Oui. Choisissez une image dans votre photothèque et NFC.cool y trouve tous les QR codes, même partiellement masqués."
+  - question: "Le studio ajoute-t-il un filigrane ou une mention NFC.cool ?"
+    answer: "Les codes gratuits portent une petite attribution. Les codes Platinum sont sans filigrane - uniquement votre création."
+
+relatedReadingTitle: "À lire aussi"
+relatedReading:
+  - title: "Créer des QR codes avec du style"
+    url: "/blog/flair-qr-codes/"
+  - title: "Ce qu'un QR code peut contenir au-delà d'une URL"
+    url: "/blog/tap-scan-thrive/"
+  - title: "Carte de visite NFC ou QR code : que choisir pour réseauter ?"
+    url: "/blog/nfc-business-card-vs-qr-code/"

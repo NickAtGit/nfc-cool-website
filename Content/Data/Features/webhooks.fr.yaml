@@ -1,0 +1,100 @@
+slug: "webhooks"
+backLinkText: "← Toutes les fonctionnalités"
+
+card:
+  title: "Webhooks et automatisation"
+  description: "Cinq actions se déclenchent dès que vous scannez - envoyez un POST à votre serveur, lancez un Raccourci, ouvrez une URL, faites lire le résultat à voix haute ou jouez un son. NFC.cool scanne ; vous décidez de la suite."
+  imagePath: "/assets/images/Webflow/webhook.webp"
+  platforms: "iOS · Android"
+
+hero:
+  title: "Webhooks et automatisation"
+  subtitle: "Cinq actions intégrées se déclenchent dès que vous scannez un tag NFC, un QR code ou un code-barres - envoyez un POST à votre propre serveur, ouvrez l'URL, lancez un Raccourci, faites lire le résultat à voix haute ou jouez un son. NFC.cool est le scanner ; à vous l'action."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/webhook.webp"
+
+capabilitiesTitle: "Les cinq actions"
+capabilities:
+  - title: "Webhook (POST vers votre URL)"
+    description: "Un POST HTTP avec un corps JSON structuré dès qu'un scan réussit. Configurez une URL, une authentification HTTP Basic facultative, et c'est prêt. iOS et Android."
+  - title: "Raccourci (iOS)"
+    description: "Lorsqu'une URL scannée utilise le schéma `shortcuts://`, le Raccourci iOS correspondant se lance automatiquement - sans appui supplémentaire. Transmettez les données de scan à tout ce que l'app Raccourcis peut atteindre."
+  - title: "Ouverture de liens (iOS)"
+    description: "Lorsque le contenu est une URL classique, elle s'ouvre automatiquement dans Safari (ou la cible du lien profond correspondant). Fini l'étape « appuyer pour ouvrir »."
+  - title: "Synthèse vocale (iOS)"
+    description: "Faites lire le contenu scanné à voix haute, sans les mains. Débit de parole réglable. Pratique pour l'accessibilité, les situations où vous avez les mains occupées, ou simplement pour une confirmation agréable."
+  - title: "Lecture audio (iOS)"
+    description: "Jouez un son de confirmation à chaque scan - votre propre fichier audio ou l'une des tonalités intégrées."
+
+subsectionsTitle: "Comment fonctionne le webhook"
+subsections:
+  - title: "Déclencheurs - NFC, QR et code-barres"
+    body: "<p>Les webhooks se déclenchent à partir de trois sources d'événements : les <strong>scans NFC</strong>, les <strong>scans QR</strong> et les <strong>scans de codes-barres</strong>. Chaque source dispose de son propre interrupteur d'activation, ce qui vous permet d'envoyer les lectures NFC vers votre système d'inventaire sans que le scanner de l'appareil photo n'inonde le même point de terminaison. Le webhook, lui, reste identique - une URL, un corps JSON, un POST.</p>"
+    platforms: "iOS · Android"
+
+  - title: "Structure de la charge utile"
+    body: "<p>Chaque POST envoie un corps JSON de cette forme :</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p><code>tagType</code> et <code>structured</code> n'apparaissent que pour les formats spéciaux comme <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a> ; tous les autres scans n'envoient que les trois premiers champs. La <a href=\"/developers/\">référence développeur</a> contient le détail champ par champ, l'authentification, curl et des serveurs d'exemple prêts à l'emploi.</p>"
+    platforms: "iOS · Android"
+
+  - title: "Serveur de référence sur GitHub"
+    body: "<p>Le moyen le plus rapide de voir toute la boucle de bout en bout : le <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">serveur web sur GitHub</a>. Un serveur d'exemple minimal qui accepte les charges utiles des webhooks NFC.cool, les journalise et affiche leur structure en direct. Clonez-le, lancez-le, pointez votre iPhone dessus et regardez les scans arriver.</p>"
+    platforms: "iOS · Android"
+
+specsTitle: "Détails techniques"
+specs:
+  - title: "Transport"
+    items:
+      - "HTTPS recommandé ; HTTP autorisé en développement"
+      - "POST avec `Content-Type: application/json`"
+      - "Authentification HTTP Basic facultative (nom d'utilisateur + mot de passe)"
+      - "Identifiants stockés chiffrés dans le trousseau iOS"
+  - title: "Charge utile"
+    items:
+      - "`identifier` - UID du tag ou code scanné"
+      - "`date` - horodatage ISO 8601"
+      - "`content` - contenu décodé (chaîne d'URL, texte, etc.)"
+      - "`tagType` - présent pour les tags structurés (par ex. `openPrintTag`)"
+      - "`structured` - JSON imbriqué pour les types de tags structurés"
+  - title: "Sources"
+    items:
+      - "Scans NFC (lectures NDEF)"
+      - "Scans QR"
+      - "Scans de codes-barres"
+      - "Chaque source activable indépendamment"
+
+pricing:
+  title: "Free vs Platinum"
+  columns: ["Free", "Platinum"]
+  rows:
+    - label: "Webhook NFC et QR"
+      values: ["✗", "✓"]
+    - label: "Synthétiseur vocal"
+      values: ["✗", "✓"]
+    - label: "Shortcuts"
+      values: ["✗", "✓"]
+    - label: "Synchronisation iCloud"
+      values: ["✓", "✓"]
+
+faqTitle: "Questions fréquentes"
+faq:
+  - question: "Est-ce que cela fonctionne sur Android ?"
+    answer: "Oui - les webhooks sont disponibles sur les versions iOS et Android de NFC.cool Tools. La structure de la charge utile JSON est identique sur les deux plateformes. (Les quatre autres actions iOS - Raccourci automatique, synthèse vocale, audio, ouverture de liens - sont réservées à iOS.)"
+  - question: "Combien d'URL puis-je configurer ?"
+    answer: "Une seule URL pour l'instant. Cette même URL reçoit tous les événements de scan, différenciés par les sources activées et le type de contenu."
+  - question: "Quelle authentification est prise en charge ?"
+    answer: "L'authentification HTTP Basic - nom d'utilisateur + mot de passe, stockés chiffrés dans le trousseau iOS. Les jetons Bearer, les en-têtes personnalisés et la signature HMAC ne sont pas pris en charge pour le moment."
+  - question: "Que se passe-t-il si mon serveur est hors ligne ?"
+    answer: "Le POST échoue et l'événement est journalisé sur l'appareil. Il n'y a pas encore de file de nouvelles tentatives automatiques ; si votre serveur risque d'être instable, concevez votre gestionnaire pour qu'il soit idempotent en cas de nouvelle tentative, puis relancez le webhook depuis l'historique des scans."
+  - question: "Y a-t-il une limite de taille pour la charge utile ?"
+    answer: "Aucune limite stricte imposée par NFC.cool. Le contenu des tags est lui-même limité par la norme NFC (quelques Ko pour les tags NDEF courants)."
+  - question: "Où puis-je le voir réellement fonctionner ?"
+    answer: "Clonez le <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">serveur web sur GitHub</a>, lancez-le en local, pointez l'app dessus et vous verrez chaque scan arriver en temps réel."
+
+relatedReadingTitle: "À lire aussi"
+relatedReading:
+  - title: "OpenPrintTag : lire et écrire des bobines d'impression 3D intelligentes"
+    url: "/blog/openprinttag-read-write-nfc-spools-phone/"
+  - title: "Comment compter les scans de tags NFC sans serveur"
+    url: "/blog/count-nfc-tag-scans/"
+  - title: "Lecteur et enregistreur NFC"
+    url: "/features/nfc-reader-writer/"

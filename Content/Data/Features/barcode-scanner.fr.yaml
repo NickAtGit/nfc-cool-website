@@ -1,0 +1,98 @@
+slug: "barcode-scanner"
+backLinkText: "← Toutes les fonctionnalités"
+
+card:
+  title: "Scanner de codes-barres"
+  description: "Scannez 13 formats de codes-barres plus 6 codes bidimensionnels - EAN, UPC, QR, PDF417, Data Matrix et bien d'autres. Le mode par lots garde la caméra ouverte pour l'inventaire et les enregistrements."
+  imagePath: "/assets/images/Webflow/qr-barcode.webp"
+  platforms: "iOS uniquement"
+
+hero:
+  title: "Scanner de codes-barres"
+  subtitle: "Scannez 19 formats de codes - 13 codes-barres linéaires (EAN, UPC, Code 128, GS1 DataBar et plus) plus 6 codes bidimensionnels (QR, PDF417, Aztec, Data Matrix et leurs variantes Micro). Le mode par lots garde la caméra ouverte pour les inventaires et les enregistrements aux événements."
+  platforms: "iOS uniquement"
+  heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
+
+capabilitiesTitle: "Ce que vous pouvez faire"
+capabilities:
+  - title: "Tous les grands formats de codes-barres"
+    description: "Scannez EAN-13/8, UPC-E (UPC-A est lu comme un EAN-13), Code 128, Code 39 (y compris Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix et plus encore - détection automatique du format, sans changement de mode."
+  - title: "Mode par lots"
+    description: "Scannez une pile de codes-barres à la suite sans avoir à viser de nouveau. Pratique pour les inventaires, les enregistrements aux événements ou les archives de bibliothèque."
+  - title: "Recherche de produits"
+    description: "Touchez un code-barres commercial scanné pour le rechercher - son numéro est envoyé à un moteur de recherche préconfiguré (Google, Ecosia, DuckDuckGo, Bing ou Startpage) et les résultats correspondants reviennent directement."
+  - title: "Historique et partage des scans"
+    description: "Chaque scan est enregistré avec un horodatage. Ajoutez aux favoris les scans qui comptent, donnez un titre à l'un d'eux et partagez-le directement depuis l'historique."
+  - title: "Action automatique à la lecture"
+    description: "Les URL et les codes de raccourci peuvent s'ouvrir automatiquement dès qu'ils sont scannés, déclencher un webhook ou être lus à voix haute - la même automatisation à cinq déclencheurs qui anime le NFC et les QR."
+
+subsectionsTitle: "Conçu pour le scan en grand volume"
+subsections:
+  - title: "Multi-scan, lecture par lots et lampe à la demande"
+    body: "<p>Trois réglages transforment le scanner d'un outil ponctuel en un flux de travail continu. Le <strong>multi-scan</strong> vous permet de scanner plusieurs codes en une seule session caméra. La <strong>lecture par lots</strong> garde la caméra ouverte pour les inventaires ou les enregistrements aux événements. La <strong>lampe automatique</strong> allume la LED en cas de faible luminosité pour vous éviter de chercher le bouton de la lampe torche.</p>"
+    imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
+    imageAlt: "iPhone scannant plusieurs QR codes et codes-barres avec la lampe torche allumée"
+    platforms: "iOS"
+
+  - title: "Webhooks pour l'inventaire et les enregistrements aux événements"
+    body: "<p>Reliez le scanner de codes-barres à votre système de gestion. Chaque code-barres lu déclenche un webhook vers votre URL, si bien que votre base d'inventaire, votre CRM de participants ou votre catalogue de bibliothèque se mettent à jour en temps réel au fil du scan. Consultez <a href=\"/features/webhooks/\">Webhooks et automatisation</a> pour connaître la structure du payload JSON et un serveur de référence.</p>"
+    platforms: "iOS"
+
+  - title: "Raccourcis et App Intents"
+    body: "<p>NFC.cool s'intègre directement à l'app Raccourcis d'iOS avec des actions intégrées : récupérer le dernier tag NFC scanné, écrire un message sur un tag, ouvrir le scanner ou récupérer le dernier QR code scanné. Enchaînez-les dans des raccourcis qui scannent un tag, analysent son contenu et lancent l'étape suivante de votre choix - automatisation, journalisation, prise de notes, tout ce que vous voulez. Ces mêmes actions alimentent la commande <strong>bouton de scan</strong> de l'écran verrouillé sur iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone reliant un tag NFC à des blocs d'automatisation"
+    platforms: "iOS"
+
+  - title: "Synchronisation iCloud entre iPhone, iPad et Mac"
+    body: "<p>Votre historique de scans de codes-barres se synchronise sur tous les appareils de votre compte iCloud. Scannez un rayon de produits sur l'iPhone, passez la liste en revue sur l'iPad, titrez et partagez vos scans depuis le <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - un seul historique synchronisé, rien à déplacer à la main.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool synchronisé entre iPhone, iPad et Mac"
+    platforms: "iOS"
+
+specsTitle: "Formats pris en charge (19 au total)"
+specs:
+  - title: "Codes-barres 1D (13 formats)"
+    items:
+      - "EAN-13, EAN-8"
+      - "UPC-E (UPC-A lu comme un EAN-13)"
+      - "Code 39, Code 39 Mod 43"
+      - "Code 93, Code 128"
+      - "Codabar"
+      - "Interleaved 2 of 5, ITF-14"
+      - "GS1 DataBar (standard, Expanded, Limited)"
+  - title: "Codes 2D / empilés (6 formats)"
+    items:
+      - "QR Code"
+      - "Micro QR"
+      - "PDF417"
+      - "Micro PDF417"
+      - "Aztec"
+      - "Data Matrix"
+
+pricing:
+  title: "Free vs Platinum"
+  columns: ["Free", "Platinum"]
+  rows:
+    - label: "Lire les QR codes et codes-barres"
+      values: ["✓", "✓"]
+    - label: "Lire les QR codes et codes-barres par lots"
+      values: ["✗", "✓"]
+
+faqTitle: "Questions fréquentes"
+faq:
+  - question: "Pourquoi est-ce réservé à iOS ?"
+    answer: "La version Android de NFC.cool se concentre pour l'instant sur le NFC et la carte de visite numérique. Le scan de codes-barres est prévu sur la feuille de route Android."
+  - question: "Puis-je scanner plusieurs codes-barres à la fois ?"
+    answer: "Oui - le mode par lots garde la caméra ouverte et met en file d'attente chaque code-barres détecté. Touchez n'importe quel élément de la file pour agir dessus."
+  - question: "Puis-je enregistrer et partager mes scans ?"
+    answer: "Oui - chaque scan reste dans l'historique avec son horodatage. Vous pouvez ajouter un scan aux favoris, lui donner un titre et le partager depuis là."
+  - question: "Le scanner fonctionne-t-il hors ligne ?"
+    answer: "Oui pour le scan lui-même. La recherche de produits nécessite une connexion internet (elle envoie le numéro du code-barres à un moteur de recherche), mais la lecture du code-barres se fait uniquement sur l'appareil."
+
+relatedReadingTitle: "À lire aussi"
+relatedReading:
+  - title: "Ce que les QR codes peuvent contenir au-delà d'une URL"
+    url: "/blog/tap-scan-thrive/"
+  - title: "Scanner de QR codes et studio"
+    url: "/features/qr-scanner/"
