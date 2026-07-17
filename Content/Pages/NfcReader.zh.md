@@ -157,6 +157,23 @@ image: "/assets/images/og-landing.webp"
 
 </section>
 
+<section class="page-hero nfc-reader-cta">
+
+## 免费下载 NFC.cool
+
+完整版 App 可在 iPhone 和 Android 上读取和写入任何 NFC 标签。
+
+<div class="landing-store-buttons">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-hero-ios-en&mt=8" class="landing-store-button is-apple" aria-label="在 App Store 下载" target="_blank" rel="noopener nofollow sponsored">
+<img src="/assets/theme/images/AppStore.svg" alt="在 App Store 下载 NFC.cool" width="156" height="52"/>
+</a>
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-hero-android-en" class="landing-store-button is-google" aria-label="在 Google Play 获取" target="_blank" rel="noopener nofollow sponsored">
+<img src="/assets/theme/images/GooglePlay.svg" alt="在 Google Play 获取 NFC.cool" width="173" height="52"/>
+</a>
+</div>
+
+</section>
+
 <section class="page-section">
 
 ## 工作原理

@@ -157,6 +157,23 @@ Lo hice para que puedas leer una etiqueta NFC directamente desde tu navegador - 
 
 </section>
 
+<section class="page-hero nfc-reader-cta">
+
+## Descarga NFC.cool gratis
+
+La app lee y escribe cualquier etiqueta NFC en iPhone y Android.
+
+<div class="landing-store-buttons">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-hero-ios-en&mt=8" class="landing-store-button is-apple" aria-label="Descargar en la App Store" target="_blank" rel="noopener nofollow sponsored">
+<img src="/assets/theme/images/AppStore.svg" alt="Descargar NFC.cool en la App Store" width="156" height="52"/>
+</a>
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-hero-android-en" class="landing-store-button is-google" aria-label="Consíguelo en Google Play" target="_blank" rel="noopener nofollow sponsored">
+<img src="/assets/theme/images/GooglePlay.svg" alt="Consigue NFC.cool en Google Play" width="173" height="52"/>
+</a>
+</div>
+
+</section>
+
 <section class="page-section">
 
 ## Cómo funciona

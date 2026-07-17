@@ -159,6 +159,23 @@ Diesen Reader habe ich gebaut, damit du NFC-Tags direkt im Browser auslesen kann
 
 </section>
 
+<section class="page-hero nfc-reader-cta">
+
+## NFC.cool kostenlos laden
+
+Die App liest und beschreibt jeden NFC-Tag - auf iPhone und Android.
+
+<div class="landing-store-buttons">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-hero-ios-en&mt=8" class="landing-store-button is-apple" aria-label="Im App Store laden" target="_blank" rel="noopener nofollow sponsored">
+<img src="/assets/theme/images/AppStore.svg" alt="NFC.cool im App Store laden" width="156" height="52"/>
+</a>
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-hero-android-en" class="landing-store-button is-google" aria-label="Bei Google Play laden" target="_blank" rel="noopener nofollow sponsored">
+<img src="/assets/theme/images/GooglePlay.svg" alt="NFC.cool bei Google Play laden" width="173" height="52"/>
+</a>
+</div>
+
+</section>
+
 <section class="page-section">
 
 ## So funktioniert es
