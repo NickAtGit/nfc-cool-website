@@ -1,0 +1,100 @@
+slug: "webhooks"
+backLinkText: "→ كل الميزات"
+
+card:
+  title: "الـwebhooks والأتمتة"
+  description: "خمسة خطّافات تنطلق لحظة المسح - أرسل POST إلى خادمك، أو شغّل اختصارًا، أو افتح URL، أو انطق النتيجة، أو شغّل صوتًا. NFC.cool يمسح؛ وأنت تملك ما يحدث بعد ذلك."
+  imagePath: "/assets/images/Webflow/webhook.webp"
+  platforms: "iOS · Android"
+
+hero:
+  title: "الـwebhooks والأتمتة"
+  subtitle: "خمسة خطّافات مدمجة تنطلق لحظة مسحك لوسم NFC أو رمز QR أو باركود - أرسل POST إلى خادمك الخاص، أو افتح URL، أو شغّل اختصارًا، أو انطق النتيجة بصوت مسموع، أو شغّل صوتًا. NFC.cool هو الماسح؛ وأنت تملك الإجراء."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/webhook.webp"
+
+capabilitiesTitle: "الخطّافات الخمسة"
+capabilities:
+  - title: "webhook (إرسال POST إلى URL الخاص بك)"
+    description: "طلب HTTP POST مع جسم JSON منظّم لحظة نجاح المسح. اضبط URL واحدًا، ومصادقة HTTP Basic اختيارية، وانتهيت. iOS وAndroid."
+  - title: "الاختصار (iOS)"
+    description: "عندما يحمل URL ممسوح مخطط `shortcuts://`، شغّل اختصار iOS المطابق تلقائيًا - دون لمسة إضافية. مرّر بيانات المسح إلى أي شيء يمكن للاختصارات الوصول إليه."
+  - title: "فتح الروابط (iOS)"
+    description: "عندما تكون الحمولة عبارة عن URL عادي، افتحه تلقائيًا في Safari (أو هدف الرابط العميق المطابق). تجاوز خطوة 'اللمس للفتح'."
+  - title: "تركيب الكلام (iOS)"
+    description: "اقرأ الحمولة الممسوحة بصوت مسموع، دون استخدام اليدين. معدّل نطق قابل للضبط. مفيد لإمكانية الوصول، أو سير العمل حين تكون يداك مشغولتين، أو لمجرد تأكيد مُرضٍ."
+  - title: "تشغيل الصوت (iOS)"
+    description: "شغّل صوت تأكيد عند المسح - ملف صوتي من اختيارك أو إحدى النغمات المدمجة."
+
+subsectionsTitle: "كيف يعمل الـwebhook"
+subsections:
+  - title: "المُشغّلات - NFC وQR والباركود"
+    body: "<p>تنطلق الـwebhooks عند ثلاثة مصادر أحداث: <strong>عمليات مسح NFC</strong>، و<strong>عمليات مسح QR</strong>، و<strong>عمليات مسح الباركود</strong>. لكل مصدر مفتاح تفعيل/تعطيل خاص به، بحيث يمكنك تمرير قراءات NFC إلى نظام المخزون لديك دون أن يُغرق ماسح الكاميرا نقطة النهاية نفسها. الـwebhook نفسه واحد - URL واحد، وحمولة JSON واحدة، وطلب POST واحد.</p>"
+    platforms: "iOS · Android"
+
+  - title: "شكل الحمولة"
+    body: "<p>كل طلب POST يرسل جسم JSON بهذا الشكل:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p>يظهر <code>tagType</code> و<code>structured</code> فقط للصيغ الخاصة مثل <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a>؛ أما كل مسح آخر فيرسل الحقول الثلاثة الأولى فحسب. يحتوي <a href=\"/developers/\">مرجع المطوّرين</a> على التفصيل الكامل حقلًا بحقل، والمصادقة، وcurl، وخوادم أمثلة جاهزة للتشغيل.</p>"
+    platforms: "iOS · Android"
+
+  - title: "خادم مرجعي على GitHub"
+    body: "<p>أسرع طريقة لرؤية الحلقة كاملة من طرف إلى طرف: <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">خادم ويب على GitHub</a>. خادم مثال بسيط يقبل حمولات webhook الخاصة بـNFC.cool، ويسجّلها، ويعرض البنية مباشرةً. استنسخه، وشغّله، ووجّه جهاز iPhone نحوه، وشاهد عمليات المسح تصل.</p>"
+    platforms: "iOS · Android"
+
+specsTitle: "التفاصيل التقنية"
+specs:
+  - title: "النقل"
+    items:
+      - "يُنصح باستخدام HTTPS؛ ويُسمح بـHTTP في بيئة التطوير"
+      - "طلب POST مع `Content-Type: application/json`"
+      - "مصادقة HTTP Basic اختيارية (اسم المستخدم + كلمة المرور)"
+      - "بيانات الاعتماد مخزّنة مشفّرة في iOS Keychain"
+  - title: "الحمولة"
+    items:
+      - "`identifier` - معرّف UID للوسم أو الرمز الممسوح"
+      - "`date` - طابع زمني بصيغة ISO 8601"
+      - "`content` - الحمولة المفكوكة (سلسلة URL أو نص، إلخ)"
+      - "`tagType` - موجود للوسوم المنظّمة (مثل `openPrintTag`)"
+      - "`structured` - كائن JSON متداخل لأنواع الوسوم المنظّمة"
+  - title: "المصادر"
+    items:
+      - "عمليات مسح NFC (قراءات NDEF)"
+      - "عمليات مسح QR"
+      - "عمليات مسح الباركود"
+      - "كل مصدر قابل للتفعيل بشكل مستقل"
+
+pricing:
+  title: "المجاني مقابل Platinum"
+  columns: ["Free", "Platinum"]
+  rows:
+    - label: "webhook لـNFC وQR"
+      values: ["✗", "✓"]
+    - label: "مُركّب الكلام"
+      values: ["✗", "✓"]
+    - label: "الاختصارات"
+      values: ["✗", "✓"]
+    - label: "مزامنة iCloud"
+      values: ["✓", "✓"]
+
+faqTitle: "الأسئلة الشائعة"
+faq:
+  - question: "هل يعمل هذا على Android؟"
+    answer: "نعم - الـwebhooks متوفّرة على نسختي iOS وAndroid من NFC.cool Tools. شكل حمولة JSON نفسه عبر المنصّات. (الخطّافات الأربعة الأخرى في iOS - الاختصار التلقائي، والنطق، والصوت، وفتح الروابط - حصرية لـiOS.)"
+  - question: "كم عدد عناوين URL التي يمكنني ضبطها؟"
+    answer: "URL واحد اليوم. يستقبل الـURL نفسه جميع أحداث المسح، ويُميَّز بينها عبر مفاتيح المصادر المُفعّلة ونوع الحمولة."
+  - question: "ما نوع المصادقة المدعوم؟"
+    answer: "مصادقة HTTP Basic - اسم المستخدم + كلمة المرور، مخزّنة مشفّرة في iOS Keychain. أما رموز Bearer، والترويسات المخصّصة، وتوقيع HMAC فغير مدعومة حاليًا."
+  - question: "ماذا يحدث إذا كان خادمي غير متصل؟"
+    answer: "يفشل طلب POST ويُسجَّل الحدث على الجهاز. لا يوجد اليوم طابور إعادة محاولة تلقائي؛ فإذا كان خادمك عرضة للتذبذب، فصمّم معالجك ليكون آمنًا عند التكرار (idempotent)، وأعد إطلاقه من سجل عمليات المسح."
+  - question: "هل هناك حد لحجم الحمولة؟"
+    answer: "لا حد صارم يفرضه NFC.cool. حمولات الوسوم نفسها محدودة بمعيار NFC (بضعة كيلوبايت للوسوم NDEF النموذجية)."
+  - question: "أين يمكنني رؤيته يعمل فعليًا؟"
+    answer: "استنسخ <a href=\"https://github.com/NickAtGit/nfc-cool-webhook-server\">خادم الويب على GitHub</a>، وشغّله محليًا، ووجّه التطبيق نحوه، وسترى كل عملية مسح تصل في الوقت الفعلي."
+
+relatedReadingTitle: "تابع القراءة"
+relatedReading:
+  - title: "OpenPrintTag: قراءة وكتابة بكرات الطباعة ثلاثية الأبعاد الذكية"
+    url: "/blog/openprinttag-read-write-nfc-spools-phone/"
+  - title: "كيفية عدّ عمليات مسح وسوم NFC دون خادم"
+    url: "/blog/count-nfc-tag-scans/"
+  - title: "قارئ وكاتب NFC"
+    url: "/features/nfc-reader-writer/"

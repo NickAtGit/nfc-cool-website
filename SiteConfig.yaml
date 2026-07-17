@@ -5,7 +5,7 @@ language: "en"
 
 localization:
   defaultLanguage: "en"
-  languages: ["de", "ja", "pt", "zh", "id", "es", "fr"]
+  languages: ["de", "ja", "pt", "zh", "id", "es", "fr", "ar"]
   translationMode: "manual"
   legalLanguage: "de"
   # Localized nav + footer labels. URLs stay locale-agnostic; SiteKit prefixes
@@ -374,6 +374,58 @@ localization:
           - title: "Conditions d'utilisation"
             url: "/terms/"
           - title: "Livre de réclamations"
+            url: "https://www.livroreclamacoes.pt/Inicio/"
+    ar:
+      navigation:
+        items:
+          - title: "الرئيسية"
+            url: "/"
+          - title: "الميزات"
+            url: "/features/"
+          - title: "بطاقة العمل"
+            url: "/business-card/"
+          - title: "شراء وسوم NFC"
+            url: "/affiliate-links/"
+          - title: "قارئ NFC عبر الإنترنت"
+            url: "/online-nfc-reader/"
+          - title: "المدونة"
+            url: "/blog/"
+          - title: "الدعم والتواصل"
+            url: "/contact/"
+        showSearch: false
+        showThemeToggle: true
+      footer:
+        copyrightName: "NFC.cool"
+        startYear: 2017
+        showAttribution: false
+        links:
+          - title: "الميزات"
+            url: "/features/"
+          - title: "قارئ NFC عبر الإنترنت"
+            url: "/online-nfc-reader/"
+          - title: "بطاقة العمل"
+            url: "/business-card/"
+          - title: "وسوم NFC"
+            url: "/affiliate-links/"
+          - title: "المطوّرون"
+            url: "/developers/"
+          - title: "التقييمات"
+            url: "/reviews/"
+          - title: "من نحن"
+            url: "/about/"
+          - title: "سجل التغييرات"
+            url: "/changelog/"
+          - title: "المدونة"
+            url: "/blog/"
+          - title: "الدعم والتواصل"
+            url: "/contact/"
+          - title: "الصحافة"
+            url: "/press/"
+          - title: "الخصوصية"
+            url: "/privacy/"
+          - title: "الشروط"
+            url: "/terms/"
+          - title: "كتاب الشكاوى"
             url: "https://www.livroreclamacoes.pt/Inicio/"
 
 contentDirectory: "Content"

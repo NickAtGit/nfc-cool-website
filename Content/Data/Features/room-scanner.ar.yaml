@@ -1,0 +1,90 @@
+slug: "room-scanner"
+backLinkText: "→ كل الميزات"
+
+card:
+  title: "ماسح الغرف"
+  description: "امشِ عبر الغرفة ليبني RoomPlan مخططًا أرضيًا نظيفًا - الجدران والأبواب والنوافذ والأثاث - مكتملًا بقياسات الغرفة وحساب المساحة."
+  imagePath: "/assets/images/Webflow/scan-room.webp"
+  platforms: "iOS فقط"
+
+hero:
+  title: "ماسح الغرف"
+  subtitle: "يحوّل RoomPlan المدعوم بتقنية LiDAR تجوّلك في مساحتك إلى مخطط أرضي بارامتري نظيف - جدران وأبواب ونوافذ وأثاث يتعرّف عليه، يُصدَّر كمشهد USDZ واحد."
+  platforms: "iOS فقط"
+  heroImagePath: "/assets/images/Webflow/scan-room.webp"
+
+capabilitiesTitle: "ما يمكنك فعله"
+capabilities:
+  - title: "التقاط RoomPlan"
+    description: "امشِ عبر الغرفة مستخدمًا مستشعر LiDAR في جهاز iPhone. يبني NFC.cool نموذجًا بارامتريًا في الوقت الفعلي - الجدران والأبواب والنوافذ والفتحات."
+  - title: "أثاث يُتعرّف عليه"
+    description: "يُكتشف الأسِرّة والأرائك والطاولات والكراسي ووحدات التخزين والمواقد والأحواض والمراحيض وأحواض الاستحمام وأجهزة التلفاز ويُوسم كل منها داخل المشهد."
+  - title: "مساحة الأرضية والأبعاد"
+    description: "تُبلّغ كل غرفة عن مساحة الأرضية وارتفاع السقف وأبعاد كل جدار. اقرأها من النموذج أو ضمّنها في ملف USDZ المُصدَّر."
+  - title: "AR Quick Look"
+    description: "افتح الغرفة المكتملة في AR Quick Look أو شارك ملف USDZ - يمكن للمستلمين التجوّل حول النموذج داخل تطبيق الرسائل مباشرةً."
+
+subsectionsTitle: "من جولة سير إلى مخطط أرضي عملي"
+subsections:
+  - title: "ضع غرفتك في الواقع المعزّز"
+    body: "<p>بمجرد انتهاء المسح، أدرجه في AR Quick Look وتجوّل فعليًا حول التوأم الرقمي. مفيد للتحقق من مواضع الأثاث قبل الشراء، أو لاستشعار المقياس الذي لا تنقله الرسومات على جهاز لوحي.</p>"
+    imagePath: "/assets/images/Blog/mac-3d-detail.webp"
+    imageAlt: "عرض تفصيلي لمسح غرفة"
+    platforms: "iOS"
+
+  - title: "سير عمل متعدد الغرف"
+    body: "<p>كل عملية مسح هي غرفة واحدة. امسح المطبخ، وامسح غرفة المعيشة، وامسح غرف النوم - تبقى جنبًا إلى جنب في مكتبتك، ويمكن لمحرّر ثلاثي الأبعاد من اختيارك أن يدمجها في ملف USDZ متعدد الغرف. مفيد بوجه خاص لإعلانات العقارات أو تخطيط التجديد أو توثيق التأمين.</p>"
+    platforms: "iOS"
+
+  - title: "الاختصارات وApp Intents"
+    body: "<p>يتكامل NFC.cool مباشرةً مع تطبيق اختصارات iOS عبر إجراءات مدمجة: احصل على آخر وسم NFC ممسوح، أو اكتب رسالة إلى وسم، أو افتح الماسح، أو استخرج آخر رمز QR ممسوح. اربطها معًا في اختصارات تمسح وسمًا، وتحلّل حمولته، وتُطلق ما تريده بعد ذلك - أتمتة أو تسجيل أو تدوين، سمِّ ما شئت. الإجراءات نفسها تُشغّل عنصر التحكم <strong>زر المسح</strong> على شاشة القفل في iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "جهاز iPhone يربط وسم NFC بكتل أتمتة"
+    platforms: "iOS"
+
+  - title: "مزامنة iCloud عبر iPhone وiPad وMac"
+    body: "<p>تبقى الغرف الممسوحة في مجلد مستندات iCloud لديك، لذا فإن جهاز iPhone الذي مسحت به، وجهاز iPad الذي راجعت عليه، وجهاز <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> الذي ستحرّر عليه، جميعها ترى المكتبة نفسها. تجوّل في المساحة مرة واحدة، وحسّن المخطط الأرضي لاحقًا على مكتبك.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool يزامن عبر iPhone وiPad وMac"
+    platforms: "iOS"
+
+specsTitle: "العتاد والمُخرَجات"
+specs:
+  - title: "متطلبات العتاد"
+    items:
+      - "iPhone مزوّد بـLiDAR (طُرز 12 Pro والأحدث من طُرز Pro)"
+      - "iPad Pro (2020) والأحدث مدعوم أيضًا"
+      - "RoomPlan متوفّر بدءًا من iOS 16؛ وأحدث التحسينات تأتي على iOS 17+"
+  - title: "المُخرَجات"
+    items:
+      - "مشهد USDZ يحوي كيانات مُسمّاة"
+      - "جدران وأبواب ونوافذ وفتحات"
+      - "فئات أثاث يُتعرّف عليها"
+      - "مساحة الأرضية والأبعاد"
+
+pricing:
+  title: "المجاني مقابل Platinum"
+  columns: ["Free", "Platinum"]
+  rows:
+    - label: "مسح الغرف"
+      values: ["✓", "✓"]
+    - label: "قياسات الغرف"
+      values: ["✓", "✓"]
+    - label: "حساب المساحة"
+      values: ["✗", "✓"]
+
+faqTitle: "الأسئلة الشائعة"
+faq:
+  - question: "هل أحتاج إلى LiDAR؟"
+    answer: "نعم. RoomPlan هو واجهة برمجة تطبيقات (API) من Apple تعمل بـLiDAR حصريًا. (ماسح الأجسام ثلاثية الأبعاد يحتاج إلى LiDAR أيضًا - جلسة Object Capture من Apple تتحقق من وجوده.)"
+  - question: "كم يستغرق المسح؟"
+    answer: "ما عليك سوى المرور عبر الغرفة. تُولَّد النتيجة مباشرةً وتكون جاهزة حين تنتهي."
+  - question: "هل يمكنني فتح النتيجة في برامج CAD؟"
+    answer: "نعم - صيغة USDZ مدعومة في معظم أدوات CAD وثلاثية الأبعاد الحديثة. لسير عمل SketchUp / Revit، حوّلها عبر Blender أو أداة مجانية لتحويل USD إلى OBJ."
+
+relatedReadingTitle: "تابع القراءة"
+relatedReading:
+  - title: "ماسح الأجسام ثلاثية الأبعاد"
+    url: "/features/3d-object-scanner/"
+  - title: "المسح ثلاثي الأبعاد على iPhone باستخدام القياس التصويري وLiDAR"
+    url: "/blog/3d-scan-feature/"

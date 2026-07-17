@@ -1,0 +1,98 @@
+slug: "barcode-scanner"
+backLinkText: "→ كل الميزات"
+
+card:
+  title: "ماسح الباركود"
+  description: "امسح ١٣ صيغة باركود إضافةً إلى ٦ رموز ثنائية الأبعاد - EAN وUPC وQR وPDF417 وData Matrix والمزيد. يُبقي الوضع المجمّع الكاميرا مفتوحة للجرد وتسجيل الحضور."
+  imagePath: "/assets/images/Webflow/qr-barcode.webp"
+  platforms: "iOS فقط"
+
+hero:
+  title: "ماسح الباركود"
+  subtitle: "امسح ١٩ صيغة رمز - ١٣ باركود خطيًا (EAN وUPC وCode 128 وGS1 DataBar والمزيد) إضافةً إلى ٦ رموز ثنائية الأبعاد (QR وPDF417 وAztec وData Matrix ونسخ Micro). يُبقي الوضع المجمّع الكاميرا مفتوحة لعمليات جرد المخزون وتسجيل الحضور في الفعاليات."
+  platforms: "iOS فقط"
+  heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
+
+capabilitiesTitle: "ما يمكنك فعله"
+capabilities:
+  - title: "جميع صيغ الباركود الرئيسية"
+    description: "امسح EAN-13/8 وUPC-E (يُقرأ UPC-A بصيغة EAN-13) وCode 128 وCode 39 (بما في ذلك Mod 43) وCode 93 وITF وITF-14 وCodabar وGS1 DataBar وPDF417 وAztec وData Matrix والمزيد - اكتشاف تلقائي للصيغة دون تبديل الأوضاع."
+  - title: "الوضع المجمّع"
+    description: "امسح مجموعة من الباركود تباعًا دون إعادة التصويب. مفيد لعمليات جرد المخزون أو تسجيل الحضور في الفعاليات أو أرشيفات المكتبات."
+  - title: "البحث عن المنتجات"
+    description: "المس باركود منتج تجزئة تم مسحه للبحث عنه - يُمرَّر رقم الباركود عبر محرك بحث مُعَدّ مسبقًا (Google أو Ecosia أو DuckDuckGo أو Bing أو Startpage) وتعود النتائج المطابقة مباشرة."
+  - title: "سجل المسح والمشاركة"
+    description: "تُحفظ كل عملية مسح مع طابع زمني. ميّز عمليات المسح المهمة بالمفضّلة، وامنح إحداها عنوانًا خاصًا بها، وشاركها مباشرة من عرض السجل."
+  - title: "إجراء تلقائي عند القراءة"
+    description: "يمكن لعناوين URL ورموز الاختصارات أن تُفتح تلقائيًا لحظة مسحها، أو تطلق webhook، أو تُنطق بصوت عالٍ - نفس الأتمتة ذات الخطافات الخمسة التي تشغّل NFC وQR."
+
+subsectionsTitle: "مصمّم للمسح عالي الحجم"
+subsections:
+  - title: "المسح المتعدّد والقراءة المجمّعة والإضاءة عند الطلب"
+    body: "<p>ثلاثة إعدادات تحوّل الماسح من أداة لمرة واحدة إلى سير عمل متواصل. يتيح لك <strong>المسح المتعدّد</strong> مسح عدة رموز في جلسة كاميرا واحدة. تُبقي <strong>القراءة المجمّعة</strong> الكاميرا مفتوحة لجرد المخزون أو تسجيل الحضور في الفعاليات. تشغّل <strong>الإضاءة التلقائية</strong> مصباح LED في الإضاءة المنخفضة كي لا تتلمّس زر الفلاش.</p>"
+    imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
+    imageAlt: "iPhone يمسح عدة رموز QR وباركود مع إضاءة المصباح"
+    platforms: "iOS"
+
+  - title: "Webhooks للجرد وتسجيل الحضور في الفعاليات"
+    body: "<p>وجّه ماسح الباركود نحو نظام مكتبك الخلفي. تطلق كل قراءة باركود webhook إلى عنوان URL الخاص بك، فتُحدَّث قاعدة بيانات مخزونك أو نظام CRM للحضور أو فهرس مكتبتك في الوقت الفعلي مع تحرّك الكاميرا. راجع <a href=\"/features/webhooks/\">Webhooks والأتمتة</a> لمعرفة شكل حمولة JSON وخادم مرجعي.</p>"
+    platforms: "iOS"
+
+  - title: "الاختصارات وApp Intents"
+    body: "<p>يتكامل NFC.cool مباشرة مع تطبيق اختصارات iOS بإجراءات مدمجة: احصل على آخر وسم NFC تم مسحه، أو اكتب رسالة إلى وسم، أو افتح الماسح، أو استخرج آخر رمز QR تم مسحه. اربطها في اختصارات تمسح وسمًا وتحلّل محتواه وتطلق ما تريد فعله بعد ذلك - أتمتة أو تسجيل أو تدوين، ما شئت. تشغّل الإجراءات نفسها عنصر التحكم <strong>زر المسح</strong> في شاشة القفل على iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone يربط وسم NFC بكتل الأتمتة"
+    platforms: "iOS"
+
+  - title: "مزامنة iCloud عبر iPhone وiPad وMac"
+    body: "<p>يتزامن سجل مسح الباركود لديك عبر كل جهاز على حساب iCloud الخاص بك. امسح رفًا من المنتجات على iPhone، وراجع القائمة على iPad، وسمِّ عمليات المسح وشاركها من <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - سجل واحد متزامن، دون نقل أي شيء يدويًا.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool يتزامن عبر iPhone وiPad وMac"
+    platforms: "iOS"
+
+specsTitle: "الصيغ المدعومة (١٩ إجمالًا)"
+specs:
+  - title: "الباركود الأحادي البُعد (١٣ صيغة)"
+    items:
+      - "EAN-13, EAN-8"
+      - "UPC-E (يُقرأ UPC-A بصيغة EAN-13)"
+      - "Code 39, Code 39 Mod 43"
+      - "Code 93, Code 128"
+      - "Codabar"
+      - "Interleaved 2 of 5, ITF-14"
+      - "GS1 DataBar (قياسي، Expanded، Limited)"
+  - title: "الرموز ثنائية الأبعاد / المكدّسة (٦ صيغ)"
+    items:
+      - "رمز QR"
+      - "Micro QR"
+      - "PDF417"
+      - "Micro PDF417"
+      - "Aztec"
+      - "Data Matrix"
+
+pricing:
+  title: "المجاني مقابل Platinum"
+  columns: ["Free", "Platinum"]
+  rows:
+    - label: "قراءة رموز QR والباركود"
+      values: ["✓", "✓"]
+    - label: "قراءة مجمّعة لرموز QR والباركود"
+      values: ["✗", "✓"]
+
+faqTitle: "الأسئلة الشائعة"
+faq:
+  - question: "لماذا يقتصر هذا على iOS؟"
+    answer: "يركّز إصدار NFC.cool على Android حاليًا على NFC وبطاقة العمل الرقمية. ومسح الباركود مُدرَج في خارطة طريق Android."
+  - question: "هل يمكنني مسح عدة رموز باركود دفعة واحدة؟"
+    answer: "نعم - يُبقي الوضع المجمّع الكاميرا مفتوحة ويصفّ كل باركود يعثر عليه في قائمة انتظار. المس أي عنصر في القائمة للتعامل معه."
+  - question: "هل يمكنني حفظ عمليات المسح ومشاركتها؟"
+    answer: "نعم - تبقى كل عملية مسح في عرض السجل مع طابعها الزمني. يمكنك تمييز عملية مسح بالمفضّلة ومنحها عنوانًا ومشاركتها من هناك."
+  - question: "هل يعمل الماسح دون اتصال بالإنترنت؟"
+    answer: "نعم بالنسبة إلى المسح نفسه. يحتاج البحث عن المنتجات إلى الإنترنت (إذ يمرّر رقم الباركود عبر محرك بحث)، لكن قراءة الباركود تتم على الجهاز فقط."
+
+relatedReadingTitle: "تابع القراءة"
+relatedReading:
+  - title: "ماذا يمكن أن تحمل رموز QR إلى جانب عنوان URL"
+    url: "/blog/tap-scan-thrive/"
+  - title: "ماسح رموز QR والاستوديو"
+    url: "/features/qr-scanner/"

@@ -1,0 +1,115 @@
+slug: "qr-scanner"
+backLinkText: "→ كل الميزات"
+
+card:
+  title: "ماسح رموز QR والاستوديو"
+  description: "امسح رموز QR بالكاميرا أو التقطها من أي صورة، ثم صمّم رموزك الخاصة بالأيقونات وGenmoji في استوديو رموز QR المدمج."
+  imagePath: "/assets/images/Webflow/qr-studio.webp"
+  platforms: "iOS فقط"
+
+hero:
+  title: "ماسح رموز QR والاستوديو"
+  subtitle: "امسح أي رمز QR بالكاميرا أو التقطه من لقطة شاشة. صمّم رموز QR مخصّصة بالشعارات وGenmoji وألوان علامتك التجارية في استوديو رموز QR المدمج."
+  platforms: "iOS فقط"
+  heroImagePath: "/assets/images/Webflow/qr-studio.webp"
+
+capabilitiesTitle: "ما يمكنك فعله"
+capabilities:
+  - title: "مسح شامل لرموز QR"
+    description: "عناوين URL وبطاقات vCard وبيانات اعتماد Wi-Fi وأحداث التقويم والمدفوعات وروابط App Store العميقة - يكتشف NFC.cool نوع المحتوى ويقترح الإجراء المناسب."
+  - title: "اكتشاف رموز QR في لقطات الشاشة"
+    description: "اختر أي صورة من مكتبة صورك، وسيجد NFC.cool أي رمز QR بداخلها ويفكّ ترميزه - حتى الرموز المحجوبة جزئيًا أو منخفضة التباين."
+  - title: "استوديو رموز QR"
+    description: "صمّم رموز QR بألوان مخصّصة وأنماط عيون مستديرة وأشكال بكسل مخصّصة وشعار أو Genmoji في الوسط. صدّرها بصيغة PNG بدقة تصل إلى 4096×4096."
+  - title: "السجل وإعادة المشاركة"
+    description: "تُحفظ كل عملية مسح محليًا - أعد فتح المحتوى أو انسخه أو شاركه أو عد مباشرة إلى الإجراء."
+  - title: "إجراء تلقائي عند القراءة"
+    description: "افتح عناوين URL أو شغّل الاختصارات أو أطلق webhook أو انطق النتيجة بصوت عالٍ لحظة مسح الرمز - نفس الأتمتة ذات الخطافات الخمسة التي تشغّل عمليات مسح NFC."
+
+subsectionsTitle: "أكثر من مجرد ماسح"
+subsections:
+  - title: "الأدوات - رمز QR على الشاشة الرئيسية"
+    body: "<p>ضع رموز QR الأكثر مشاركة على الشاشة الرئيسية لـiPhone أو iPad باستخدام <strong>أداة صورة QR</strong>. Wi-Fi للمكتب، ورابط بطاقة عملك، وقائمة طعام حانتك - ظاهرة بلمحة، وقابلة للمسح من هاتف الشخص المجاور دون أن تفتح أي شيء. تعرض <strong>أداة آخر مسح</strong> أحدث رمز تم مسحه لتعيد مشاركته فورًا. وتطلق <strong>أداة زر المسح</strong> الماسح مباشرة من الشاشة الرئيسية أو شاشة القفل - بلمسة واحدة، حتى على iOS 17+ عبر عناصر التحكم التفاعلية.</p>"
+    imagePath: "/assets/images/Features/qr-scanner-widgets-home-screen.webp"
+    imageAlt: "الشاشة الرئيسية لـiPhone مع أدوات رموز QR وزر المسح"
+    platforms: "iOS"
+
+  - title: "استوديو رموز QR: أشكال بكسل وألوان وعيون وشعارات مخصّصة"
+    body: "<p>يتيح لك استوديو رموز QR الحفاظ على قابلية المسح مع التخلّص من مظهر المربّعات المؤسّسي الجامد. اختر أشكال البكسل (مستديرة أو نقاط أو معيّنات) وأنماطًا لكل عين وألوان المقدّمة والخلفية وصورة شعار أو Genmoji في الوسط. صدّرها بستة أحجام بكسل - 512 أو 1024 أو 1536 أو 2048 أو 3072 أو 4096.</p>"
+    imagePath: "/assets/images/Features/qr-scanner-studio-card.webp"
+    imageAlt: "استوديو رموز QR مع شعار مخصّص"
+    platforms: "iOS"
+
+  - title: "المسح المتعدّد والقراءة المجمّعة والإضاءة عند الطلب"
+    body: "<p>ثلاثة إعدادات تحوّل الماسح من أداة لمرة واحدة إلى سير عمل متواصل. يتيح لك <strong>المسح المتعدّد</strong> مسح عدة رموز في جلسة كاميرا واحدة. تُبقي <strong>القراءة المجمّعة</strong> الكاميرا مفتوحة لجرد المخزون أو تسجيل الحضور في الفعاليات. تشغّل <strong>الإضاءة التلقائية</strong> مصباح LED في الإضاءة المنخفضة كي لا تتلمّس زر الفلاش.</p>"
+    imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
+    imageAlt: "iPhone يمسح عدة رموز QR وباركود مع إضاءة المصباح"
+    platforms: "iOS"
+
+  - title: "الاختصارات وApp Intents"
+    body: "<p>يتكامل NFC.cool مباشرة مع تطبيق اختصارات iOS بإجراءات مدمجة: احصل على آخر وسم NFC تم مسحه، أو اكتب رسالة إلى وسم، أو افتح الماسح، أو استخرج آخر رمز QR تم مسحه. اربطها في اختصارات تمسح وسمًا وتحلّل محتواه وتطلق ما تريد فعله بعد ذلك - أتمتة أو تسجيل أو تدوين، ما شئت. تشغّل الإجراءات نفسها عنصر التحكم <strong>زر المسح</strong> في شاشة القفل على iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone يربط وسم NFC بكتل الأتمتة"
+    platforms: "iOS"
+
+  - title: "مزامنة iCloud عبر iPhone وiPad وMac"
+    body: "<p>يتزامن سجل المسح وتصاميم استوديو QR عبر كل جهاز على حساب iCloud الخاص بك. صمّم رمز QR على iPad، وشاركه من iPhone، وحرّره على <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - المكتبة نفسها والتعديلات نفسها، دون تصدير ذهابًا وإيابًا.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool يتزامن عبر iPhone وiPad وMac"
+    platforms: "iOS"
+
+specsTitle: "الرموز المدعومة وصادرات الاستوديو"
+specs:
+  - title: "أنواع QR (الكاميرا + مكتبة الصور)"
+    items:
+      - "رمز QR (الإصدارات 1-40)"
+      - "Micro QR (M1-M4)"
+      - "عدة رموز في الصورة الواحدة"
+  - title: "أحجام تصدير الاستوديو"
+    items:
+      - "PNG بأبعاد 512 أو 1024 أو 1536 أو 2048 أو 3072 أو 4096 بكسل مربّعة"
+  - title: "تخصيص الاستوديو"
+    items:
+      - "ألوان المقدّمة والخلفية"
+      - "أشكال بكسل مخصّصة (مستديرة، نقطة، معيّن، …)"
+      - "أنماط وأشكال لكل عين"
+      - "شعار في الوسط (أي صورة أو Apple Stickers أو Genmoji على iOS 18+)"
+
+pricing:
+  title: "المجاني مقابل Platinum"
+  columns: ["Free", "Platinum"]
+  rows:
+    - label: "قراءة رموز QR والباركود"
+      values: ["✓", "✓"]
+    - label: "إنشاء رموز QR"
+      values: ["limited", "✓"]
+    - label: "استوديو رموز QR"
+      values: ["limited", "✓"]
+    - label: "أنواع رسائل QR"
+      values: ["limited", "✓"]
+    - label: "أدوات رموز QR"
+      values: ["limited", "✓"]
+    - label: "بدون علامات مائية"
+      values: ["✗", "✓"]
+    - label: "قراءة مجمّعة لرموز QR والباركود"
+      values: ["✗", "✓"]
+
+faqTitle: "الأسئلة الشائعة"
+faq:
+  - question: "لماذا يقتصر هذا على iOS؟"
+    answer: "يركّز إصدار NFC.cool على Android حاليًا على NFC وبطاقة العمل الرقمية. ومسح رموز QR مُدرَج في خارطة طريق Android."
+  - question: "هل رموز QR من الاستوديو متوافقة مع جميع القارئات؟"
+    answer: "نعم. إنها رموز QR قياسية مع تنسيق تجميلي اختياري. يمكن لأي قارئ قياسي (كاميرا iOS وGoogle Lens وماسحات Android الافتراضية) فكّ ترميزها."
+  - question: "هل يمكنني مسح رمز QR من لقطة شاشة؟"
+    answer: "نعم. اختر أي صورة من مكتبة صورك، وسيجد NFC.cool كل رمز QR بداخلها - حتى الرموز المغطّاة جزئيًا."
+  - question: "هل يضمّن الاستوديو علامة مائية أو هوية NFC.cool؟"
+    answer: "تحمل رموز Free إسنادًا صغيرًا. أما رموز Platinum فبلا علامة مائية - تصميمك وحده."
+
+relatedReadingTitle: "تابع القراءة"
+relatedReading:
+  - title: "تصميم رموز QR بلمسة مميّزة"
+    url: "/blog/flair-qr-codes/"
+  - title: "ماذا يمكن أن تحمل رموز QR إلى جانب عنوان URL"
+    url: "/blog/tap-scan-thrive/"
+  - title: "بطاقة عمل NFC مقابل رمز QR: أيهما أفضل للتواصل المهني؟"
+    url: "/blog/nfc-business-card-vs-qr-code/"

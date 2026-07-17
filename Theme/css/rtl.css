@@ -1,0 +1,191 @@
+/* NFC.cool - Right-to-left layer (Arabic)
+ *
+ * Everything here is gated: the `[dir="rtl"]` rules only bite once
+ * LocaleRegionProcessor has stamped `dir="rtl"` on the `<html>` tag of a
+ * /ar/ page, and the `html[lang="ar"]` rules key on the locale. The seven
+ * left-to-right locales never match either selector, so this file is a
+ * pure add-on - it cannot regress the existing site.
+ *
+ * This file MUST stay last in Theme/theme.yaml's css: list so its flips
+ * win the cascade against same-specificity base rules (e.g. the
+ * [data-theme="dark"] blocks).
+ *
+ * Physical -> logical mirroring below only covers the rules that actually
+ * read as asymmetric. Flexbox/Grid main-axis, `margin: 0 auto` centring,
+ * and start-aligned text already mirror themselves under `dir="rtl"`, so
+ * they are intentionally left alone.
+ */
+
+/* ============================================================
+   Arabic typography. Titillium Web has no Arabic coverage, so fall
+   back to the platform's native Arabic UI face (SF Arabic on Apple,
+   Segoe UI / Tahoma on Windows, Noto Sans Arabic on Android/Linux) -
+   the same approach the theme already takes for Japanese. Arabic sits
+   taller and reads better with a touch more leading.
+   ============================================================ */
+html[lang="ar"] {
+   --font-sans: "SF Arabic", "Geeza Pro", "Noto Sans Arabic", "Segoe UI", Tahoma, "Titillium Web", -apple-system, BlinkMacSystemFont, sans-serif;
+   --font-heading: "SF Arabic", "Geeza Pro", "Noto Sans Arabic", "Segoe UI", Tahoma, "Titillium Web", -apple-system, BlinkMacSystemFont, sans-serif;
+   --font-mono: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+html[lang="ar"] body { line-height: 1.8; }
+html[lang="ar"] p { line-height: 1.9; }
+
+/* Arabic is a connected (cursive) script: negative/positive letter-spacing
+   pulls the joined letterforms apart and reads as broken. The base theme
+   tracks nearly every heading and label, so reset tracking to normal across
+   the Arabic document. (Harmless on the Latin brand runs, which don't rely
+   on tracking.) */
+html[lang="ar"] body *,
+html[lang="ar"] body *::before,
+html[lang="ar"] body *::after {
+   letter-spacing: normal;
+}
+
+/* Ordered lists: browsers default <ol> markers to Western decimals. This
+   locale uses Eastern Arabic-Indic digits, so switch the marker glyphs to
+   match the prose. (Unordered lists use bullets - no numerals to fix.) */
+[dir="rtl"] ol { list-style-type: arabic-indic; }
+
+/* The "NFC.cool" wordmark is Latin and must always read left-to-right, even
+   mid-sentence in an RTL heading - isolate it so the script ".cool" tail
+   never jumps ahead of "NFC". Its own tuck margins then behave as designed. */
+[dir="rtl"] .brand-name {
+   direction: ltr;
+   unicode-bidi: isolate;
+}
+
+/* ============================================================
+   Header / nav / language picker (theme.css)
+   ============================================================ */
+[dir="rtl"] .sk-skip-link { left: auto; right: 1rem; }
+
+/* Dropdown hangs off the opposite edge of the globe button. */
+[dir="rtl"] .sk-lang-menu { right: auto; left: 0; }
+
+/* Negative sibling margin that tightens the theme toggle against the
+   language picker has to pull from the other side under RTL. */
+[dir="rtl"] .sk-lang-picker + .sk-theme-toggle {
+   margin-left: 0;
+   margin-right: calc(0.5rem - 2rem);
+}
+
+/* ============================================================
+   Static-page + blog prose (theme.css, blog.css)
+   ============================================================ */
+[dir="rtl"] .sk-static-page blockquote {
+   border-left: 0;
+   border-right: 3px solid var(--color-accent);
+   padding: 0.5rem 1.25rem 0.5rem 0;
+}
+[dir="rtl"] .blog-post-body blockquote {
+   border-left: 0;
+   border-right: 3px solid var(--color-accent);
+}
+[dir="rtl"] .blog-post-body ul,
+[dir="rtl"] .blog-post-body ol {
+   padding-left: 0;
+   padding-right: 1.5rem;
+}
+[dir="rtl"] .blog-post-body th,
+[dir="rtl"] .blog-post-body td { text-align: right; }
+
+/* Prev/next chain. Grid column placement already mirrors (newer is pinned
+   to column 2, which becomes the left cell under RTL), so only the text
+   alignment and the direction arrows need flipping. */
+[dir="rtl"] .blog-post-nav-newer { text-align: left; }
+[dir="rtl"] .blog-post-nav-older .blog-post-nav-label::before { content: "\2192 "; }
+[dir="rtl"] .blog-post-nav-newer .blog-post-nav-label::after { content: " \2190"; }
+
+/* ============================================================
+   Landing (landing.css)
+   ============================================================ */
+[dir="rtl"] .landing-hero-trust .stars { margin-right: 0; margin-left: 0.4em; }
+[dir="rtl"] .landing-feature-grid .landing-section-title,
+[dir="rtl"] .landing-feature-banner .landing-section-title,
+[dir="rtl"] .landing-faq .landing-section-title,
+[dir="rtl"] .landing-reviews .landing-section-title { text-align: right; }
+
+/* Big script watermark number sits in the opposite top corner of the card. */
+[dir="rtl"] .landing-feature-num { right: auto; left: 1.25rem; }
+
+/* "Read more ->" arrow nudges toward the reading direction on hover. */
+[dir="rtl"] .feature-related-card:hover .feature-related-arrow {
+   transform: translateX(-3px);
+}
+
+/* ============================================================
+   Feature pages (landing.css)
+   ============================================================ */
+[dir="rtl"] .feature-page .landing-section-title { text-align: right; }
+[dir="rtl"] .feature-subsection-body ul {
+   padding-left: 0;
+   padding-right: 1.25rem;
+}
+[dir="rtl"] .feature-pricing-table thead th { text-align: right; }
+[dir="rtl"] .feature-pricing-table thead th[scope="col"] { text-align: center; }
+[dir="rtl"] .feature-pricing-table tbody th { text-align: right; }
+
+/* ============================================================
+   Marketing pages (marketing.css)
+   ============================================================ */
+[dir="rtl"] .page-hero-grid,
+[dir="rtl"] .page-hero:has(.page-hero-grid),
+[dir="rtl"] .page-hero-text h1,
+[dir="rtl"] .page-hero-text > p { text-align: right; }
+
+[dir="rtl"] .page-section h2 { text-align: right; }
+[dir="rtl"] .page-section h3:has(+ .faq-item) {
+   padding-left: 0;
+   padding-right: calc(var(--container-padding) + 1.25rem);
+}
+[dir="rtl"] .page-section ul,
+[dir="rtl"] .page-section ol {
+   padding-left: var(--container-padding);
+   padding-right: calc(var(--container-padding) + 2rem);
+}
+[dir="rtl"] .tap-demo-card { text-align: right; }
+
+/* "Your store" badge pins to the opposite top corner of its tile. */
+[dir="rtl"] .affiliate-country-badge { right: auto; left: -0.4rem; }
+
+/* ============================================================
+   Online NFC Reader tool (nfc-reader.css)
+   ============================================================ */
+[dir="rtl"] .nfc-reader-records,
+[dir="rtl"] .nfc-reader-field,
+[dir="rtl"] .nfc-reader-input-error,
+[dir="rtl"] .nfc-reader-details { text-align: right; }
+
+/* Custom <select> chevron moves to the leading (left) edge; the padding
+   that reserved room for it moves with it. */
+[dir="rtl"] .nfc-reader-select {
+   padding: 0.7rem 0.85rem 0.7rem 2.5rem;
+   background-position: left 0.9rem center;
+}
+
+/* Right-aligned technical values (hex, serials) sit at the RTL line end. */
+[dir="rtl"] .nfc-reader-tech-value { text-align: left; }
+
+/* ============================================================
+   Contact / social (social.css)
+   ============================================================ */
+[dir="rtl"] .contact-social-handle { margin-left: 0; margin-right: auto; }
+
+/* ============================================================
+   Responsive flips (mirror the physical rules inside the same breakpoints)
+   ============================================================ */
+@media (max-width: 768px) {
+   /* Mobile header cluster (lang - theme - burger) pushes to the leading
+      edge, which is the left under RTL. */
+   [dir="rtl"] .sk-lang-picker { margin-left: 0; margin-right: auto; }
+}
+
+@media (max-width: 600px) {
+   [dir="rtl"] .landing-feature-num { right: auto; left: 1rem; }
+}
+
+@media (max-width: 540px) {
+   /* Single-column prev/next: newer collapses back to the right (start). */
+   [dir="rtl"] .blog-post-nav-newer { text-align: right; }
+}

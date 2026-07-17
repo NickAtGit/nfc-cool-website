@@ -17,6 +17,9 @@ css:
    - "css/faq.css"
    - "css/blog.css"
    - "css/features.css"
+   # RTL overrides last: same-specificity flips must win the cascade. Only
+   # bite on /ar/ pages (html[dir="rtl"] / html[lang="ar"]).
+   - "css/rtl.css"
 js:
    - "js/theme.js"
    - "js/nfc-reader.js"

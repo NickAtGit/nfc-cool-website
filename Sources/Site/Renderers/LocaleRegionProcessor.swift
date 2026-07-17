@@ -8,6 +8,10 @@ import SiteKit
 /// - `<span class="sk-lang-current">EN</span>` → `<span class="sk-lang-current">🇺🇸</span>`
 ///   (and 🇩🇪, 🇯🇵 for de / ja) — eliminates the brief text-then-flag flash
 ///   that would otherwise happen when `theme.js` hydrates the picker label.
+/// - For right-to-left locales (Arabic), the `<html>` tag also gains
+///   `dir="rtl"` so the whole document mirrors. The scoped `[dir="rtl"]`
+///   rules in `css/rtl.css` only take effect once this attribute is present,
+///   leaving every left-to-right locale untouched.
 ///
 /// Why post-process instead of changing the locale string at the config layer:
 /// SiteKit's locale (`uiStrings.locale`) doubles as the URL prefix for
@@ -20,17 +24,21 @@ import SiteKit
 /// bare language codes (`hreflang="en"`), and rewriting hreflang here would
 /// require coordinated changes elsewhere in the build.
 struct LocaleRegionProcessor: OutputProcessor {
-   /// Bare language → (html lang-region, og locale, lang-picker flag emoji).
-   /// Keys must match the locales SiteKit emits in `<html lang>` and `og:locale`.
-   private let regions: [(lang: String, htmlRegion: String, ogRegion: String, flag: String)] = [
-      ("en", "en-US", "en_US", "🇺🇸"),
-      ("de", "de-DE", "de_DE", "🇩🇪"),
-      ("ja", "ja-JP", "ja_JP", "🇯🇵"),
-      ("pt", "pt-PT", "pt_PT", "🇵🇹"),
-      ("zh", "zh-Hans", "zh_CN", "🇨🇳"),
-      ("id", "id-ID", "id_ID", "🇮🇩"),
-      ("es", "es-ES", "es_ES", "🇪🇸"),
-      ("fr", "fr-FR", "fr_FR", "🇫🇷"),
+   /// Bare language → (html lang-region, og locale, lang-picker flag emoji,
+   /// text direction). `dir` is `"rtl"` only for right-to-left scripts; an
+   /// empty string leaves the `<html>` tag with no `dir` attribute (the
+   /// browser default `ltr`). Keys must match the locales SiteKit emits in
+   /// `<html lang>` and `og:locale`.
+   private let regions: [(lang: String, htmlRegion: String, ogRegion: String, flag: String, dir: String)] = [
+      ("en", "en-US", "en_US", "🇺🇸", ""),
+      ("de", "de-DE", "de_DE", "🇩🇪", ""),
+      ("ja", "ja-JP", "ja_JP", "🇯🇵", ""),
+      ("pt", "pt-PT", "pt_PT", "🇵🇹", ""),
+      ("zh", "zh-Hans", "zh_CN", "🇨🇳", ""),
+      ("id", "id-ID", "id_ID", "🇮🇩", ""),
+      ("es", "es-ES", "es_ES", "🇪🇸", ""),
+      ("fr", "fr-FR", "fr_FR", "🇫🇷", ""),
+      ("ar", "ar", "ar_AR", "🇸🇦", "rtl"),
    ]
 
    func process(outputDirectory: URL, projectDirectory: URL, themeConfig: ThemeConfig?) throws {
@@ -43,7 +51,8 @@ struct LocaleRegionProcessor: OutputProcessor {
 
          for entry in self.regions {
             let langSource = "<html lang=\"\(entry.lang)\">"
-            let langTarget = "<html lang=\"\(entry.htmlRegion)\">"
+            let dirAttr = entry.dir.isEmpty ? "" : " dir=\"\(entry.dir)\""
+            let langTarget = "<html lang=\"\(entry.htmlRegion)\"\(dirAttr)>"
             if html.contains(langSource) {
                html = html.replacingOccurrences(of: langSource, with: langTarget)
                changed = true

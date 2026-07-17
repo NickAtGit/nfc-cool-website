@@ -1,0 +1,188 @@
+slug: "nfc-reader-writer"
+backLinkText: "→ كل الميزات"
+
+card:
+  title: "قارئ وكاتب NFC"
+  description: "اقرأ أي وسم NFC واكتب أكثر من ٢٥ نوعًا من الرسائل - روابط ويب وWi-Fi وبطاقات عمل واختصارات والمزيد. اقفل الوسوم وشفّر أسرارك مع NFC Safe."
+  imagePath: "/assets/images/Webflow/nfc-card.webp"
+  platforms: "iOS · Android"
+
+hero:
+  title: "قارئ وكاتب NFC"
+  subtitle: "اقرأ واكتب وسوم NFC على iPhone وAndroid. المس أي وسم لقراءته، واكتب وسومك الخاصة بالروابط وجهات الاتصال وWi-Fi، ثم اقفلها حتى لا يتمكن أحد غيرك من تغييرها."
+  platforms: "iOS · Android"
+  heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
+
+capabilitiesTitle: "ما الذي يمكنك فعله"
+capabilities:
+  - title: "اقرأ كل وسم NDEF"
+    description: "المس أي وسم NFC وافحص سجلات NDEF الخاصة به - عناوين URL وجهات الاتصال والنص الصِّرف وبيانات MIME وتشغيل التطبيقات والحمولات المخصّصة - بالإضافة إلى البايتات الخام ونوع التقنية."
+  - title: "اكتب أكثر من ٢٥ نوعًا من الرسائل"
+    description: "مواقع الويب وأرقام الهواتف وبطاقات vCard وبيانات اعتماد Wi-Fi وPayPal وCash App وVenmo وSpotify وYouTube والاختصارات وInstagram وX وLinkedIn وTikTok وWhatsApp والمزيد."
+  - title: "اقفل واحمِ بكلمة مرور"
+    description: "اجعل الوسم للقراءة فقط بشكل دائم، أو احمِه بكلمة مرور بحيث لا تستطيع سوى الأجهزة المصرّح لها قراءته أو الكتابة عليه. تحصين للوسوم بمستوى صناعي."
+  - title: "التهيئة والكتابة الجماعية والاستنساخ"
+    description: "هيّئ الوسوم الفارغة، واكتب الحمولة نفسها دفعةً واحدة على مجموعة من الوسوم للفعاليات أو إطلاق المنتجات، واستنسخ محتوى وسم إلى آخر."
+  - title: "إجراءات تلقائية عند القراءة"
+    description: "شغّل اختصارات iOS تلقائيًا، أو انطق النتيجة بصوت مسموع، أو أطلق webhook، أو افتح الروابط تلقائيًا عند لمس وسم. خمسة مشغّلات، لمسة واحدة."
+
+subsectionsTitle: "أعمق من تطبيق NFC العادي"
+subsections:
+  - title: "NFC Safe - تشفير الأسرار على الوسم نفسه"
+    body: "<p>معظم تطبيقات NFC تعامل الوسم كبطاقة بريدية - أي شخص لديه هاتف يمكنه قراءته. أما NFC Safe فيعامله كظرف مختوم. سرّك (كلمة مرور أو عبارة استرداد أو مفتاح ترخيص أو أي نص) يُشفَّر على جهازك بـAES-256 قبل أن يصل إلى الوسم أصلًا. افقد الوسم، أو دعه يُسرَق، أو سلّمه لغريب - من دون عبارة المرور الخاصة بك، تبقى الحمولة مجرد ضجيج.</p><p>يعمل التشفير نفسه على المنصّتين، فيمكنك قفل سرّ على iPhone وفتحه على Android. أتريد الشرح الكامل لكيفية تشفيره؟ <a href=\"/blog/nfc-safe-encrypted-secrets/\">اقرأ التحليل المعمّق لـNFC Safe على المدوّنة</a>.</p>"
+    imagePath: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
+    imageAlt: "سرّ مشفّر بـNFC Safe على وسم"
+    platforms: "iOS · Android"
+
+  - title: "NFC Tap Counter - تتبّع كل وسم بمعرّفه وعدد لمساته"
+    body: "<p>بعض شرائح NFC تعدّ عمليات مسحها بنفسها على مستوى العتاد. يستثمر NFC Tap Counter ذلك: يهيّئ الوسم بحيث يُلحق عدد لمساته الحيّ - و/أو معرّف الوسم الفريد - بأي شيء يحمله (رابط URL أو بريد إلكتروني أو رسالة SMS أو اختصار) في كل عملية قراءة. لا خادم ولا إنترنت ولا واجهة خلفية للصيانة - الشريحة تتولّى العدّ والاستبدال بنفسها.</p><p>هذا يجعل وسمًا واحدًا يخبرك أي ملصق مادي جرى لمسه وكم مرة، ويتيح لك التصرّف بناءً عليه: اقصر أول ١٠٠ عملية مسح على عرض تجريبي، أو تتبّع التفاعل على بطاقة عمل، أو أثبت الأصالة بعدّاد لا يتجه إلا للأعلى. أتريد الشرح الكامل؟ <a href=\"/blog/count-nfc-tag-scans/\">اقرأ دليل NFC Tap Counter على المدوّنة</a>، أو <a href=\"/tap-counter/\">جرّب العرض الحيّ</a> - المس وسمًا وشاهد عدّاد الصفحة.</p>"
+    imagePath: "/assets/images/Blog/count-nfc-tag-scans.webp"
+    imageAlt: "وسم NFC يُلمَس بهاتف وعدّاد مسحه يتصاعد"
+    platforms: "iOS · Android"
+
+  - title: "OpenPrintTag - خيط طابعتك ثلاثية الأبعاد، على البَكَرة"
+    body: "<p>OpenPrintTag معيار مفتوح لتضمين بيانات وصفية لبَكَرة الخيط (المادة واللون والمصنّع وUUID والطول المتبقي) داخل سجل NDEF صغير مُرمَّز بـCBOR. يقرأ NFC.cool هذه الصيغة ويكتبها بشكل أصيل على المنصّتين - فتستطيع الطابعات المتوافقة التعرّف على بَكَرتك لحظة تحميلها. جديد على هذه الصيغة؟ <a href=\"/blog/openprinttag-read-write-nfc-spools-phone/\">يشرح دليل مدوّنتنا قراءة بَكَرات OpenPrintTag وكتابتها</a>.</p><p>الصيغة نفسها تشغّل حمولات webhook المنظّمة في صفحة <a href=\"/features/webhooks/\">الـWebhooks والأتمتة</a> - أطلق طلب POST إلى مزرعة الطباعة لديك في اللحظة التي تُكتشف فيها بَكَرة جديدة.</p>"
+    imagePath: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
+    imageAlt: "قراءة وكتابة بَكَرات OpenPrintTag NFC بهاتف"
+    platforms: "iOS · Android"
+
+  - title: "إعادة ضبط رأس فرشاة الأسنان"
+    body: "<p>تحمل رؤوس فرشاة Philips Sonicare وسم NFC يتتبّع الاستخدام لتذكّرك المقبض بضرورة الاستبدال. يستطيع NFC.cool إعادة ضبط هذا العدّاد - يقرأ حالة الوسم، ويرشدك خلال إعادة الضبط، ثم يكتب الحالة الجديدة. الأمر نفسه على المنصّتين. أتريد أن تعرف بالضبط ما الذي تتتبّعه الشريحة؟ <a href=\"/blog/reset-sonicare-brush-head-nfc/\">اقرأ دليل رأس فرشاة Sonicare على المدوّنة</a>. (نحن لا نصنع رؤوس الفرش؛ نمنح رأسك فحسب شهرًا آخر من الكرامة.)</p>"
+    imagePath: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
+    imageAlt: "إعادة ضبط رأس فرشاة Philips Sonicare عبر NFC"
+    platforms: "iOS · Android"
+
+  - title: "وضع المستخدم المحترف"
+    body: "<p>لمن يريدون معرفة ما هو موجود فعلًا على الشريحة: يستطيع NFC.cool تفريغ ذاكرة الوسم كاملةً بصيغة hex، والكشف عن طراز الشريحة الأساسي (NTAG213/215/216، NTAG424 DNA، MIFARE Classic/Ultralight، متغيّرات ISO 15693، FeliCa، وغيرها)، والإبلاغ عن إجمالي البايتات وبايتات المستخدم وصفحات القفل وحاويات القدرات. مصمَّم للمطوّرين والصنّاع وكل من يصحّح أخطاء وسم.</p><p>على iOS، يذهب <strong>وضع APDU للخبراء</strong> مستوى أعمق - أرسل أوامر ISO 7816 خام إلى الوسم وافحص الردود، لحين دمجك مع قارئ غير مألوف أو بروتوكول مخصّص، أو لمجرد رغبتك في رؤية ما ستُقرّ به الشريحة.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-power-user-mode.webp"
+    imageAlt: "iPhone يفحص ذاكرة وسم NFC بلوحات تشخيصية"
+    platforms: "iOS · Android"
+
+  - title: "العملات المشفّرة بلمسة"
+    body: "<p>رمّز عناوين Bitcoin أو Ethereum أو Solana أو Lightning أو أي محفظة كسجل NDEF بصيغة payment-URI. المس لمشاركة محفظة ثابتة في المؤتمرات، أو ضمّنها في ملصق على منتجك، أو سلّم أحدهم بطاقة معدنية بعنوان دائم. والقراءة متبادلة - امسح وسم عملة مشفّرة، وانتقل عبر رابط عميق مباشرةً إلى تطبيق محفظتك.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-cryptocurrency-tap.webp"
+    imageAlt: "iPhone يشارك محفظة عملة مشفّرة عبر وسم NFC"
+    platforms: "iOS · Android"
+
+  - title: "الاتصال بـWi-Fi دون كتابة كلمة المرور"
+    body: "<p>اكتب SSID شبكة Wi-Fi ونوع الحماية وكلمة المرور على وسم مرة واحدة. من بعدها، ينضم كل من يلمسه إلى الشبكة - دون تهجئة كلمة المرور، ودون ورقة لاصقة مخربشة في شقة AirBnB. اعكس الأمر: اقرأ وسم Wi-Fi من منزل شخص آخر ودع نظام التشغيل يطلب الانضمام.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-wifi-onboarding.webp"
+    imageAlt: "iPhone ينضم إلى Wi-Fi من وسم NFC"
+    platforms: "iOS · Android"
+
+  - title: "انطقه بصوت مسموع"
+    body: "<p>لأغراض إمكانية الوصول، أو لسير العمل دون استخدام اليدين، أو لمجرد أنه أمر لطيف - فعّل خطاف تحويل النص إلى كلام، وتُقرأ حمولة كل وسم بصوت مسموع لحظة لمسه. معدّل الكلام قابل للضبط؛ ويعمل مع VoiceOver وغيره من التقنيات المساعدة بالتوازي.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-speak-aloud.webp"
+    imageAlt: "iPhone يقرأ وسم NFC بصوت مسموع مع موجات صوتية"
+    platforms: "iOS"
+
+  - title: "الكتابة الجماعية عبر CSV"
+    body: "<p>لمشغّلي NFC الجادّين على iOS: ارفع جدول بيانات بالحمولات، وسلّم الهاتف لمساعد، واكتب مجموعة الوسوم كاملةً في جلسة واحدة.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
+    imageAlt: "iPhone يكتب وسوم NFC جماعيًا من جدول بيانات"
+    platforms: "iOS"
+
+  - title: "الاختصارات وApp Intents"
+    body: "<p>يتكامل NFC.cool مباشرةً مع تطبيق الاختصارات على iOS بإجراءات مدمجة: احصل على آخر وسم NFC مُمسوح، أو اكتب رسالة على وسم، أو افتح الماسح، أو استخرج آخر رمز QR مُمسوح. اربطها ضمن اختصارات تمسح وسمًا وتحلّل حمولته وتُطلق ما تريده بعد ذلك - أتمتة أو تسجيل أو تدوين، سمّ ما شئت. والإجراءات نفسها تشغّل عنصر تحكّم <strong>زر المسح</strong> على شاشة القفل في iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone يربط وسم NFC بكتل أتمتة"
+    platforms: "iOS"
+
+  - title: "مزامنة iCloud عبر iPhone وiPad وMac"
+    body: "<p>يتزامن سجل المسح ومدخلات NFC Safe وقوالب الكتابة بسلاسة عبر كل جهاز مسجَّل الدخول إلى حساب iCloud الخاص بك. المس وسمًا على iPhone في جيبك، فيظهر المسح في مكتبة iPad لديك بعد لحظات. صار NFC.cool الآن <a href=\"/blog/nfc-cool-comes-to-mac/\">يعمل على أجهزة Mac بمعالج Apple Silicon</a> أيضًا، فتظهر المكتبة نفسها هناك.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool يتزامن عبر iPhone وiPad وMac"
+    platforms: "iOS"
+
+specsTitle: "الوسوم والتقنيات المدعومة"
+specs:
+  - title: "عائلات الوسوم"
+    items:
+      - "NFC Forum Type 1, 2, 3, 4, 5"
+      - "NTAG 213, 215, 216, 424 DNA، ومتغيّرات NTAG I²C"
+      - "MIFARE Classic 1K/4K وMIFARE Ultralight وMIFARE DESFire"
+      - "ISO 14443 A/B وISO 15693 وFeliCa (على iOS)"
+  - title: "أنواع السجلات"
+    items:
+      - "URI (web وmailto وtel وsms وgeo ومخطّطات مخصّصة)"
+      - "نص (موسوم باللغة)"
+      - "vCard / جهة اتصال"
+      - "بيانات اعتماد Wi-Fi، اقتران Bluetooth"
+      - "Smart Poster (مركّب)"
+      - "تشغيل التطبيقات"
+      - "عنوان عملة مشفّرة (قائم على URI)"
+      - "OpenPrintTag (بيانات وصفية لخيط الطابعة ثلاثية الأبعاد)"
+      - "NFC Safe (نوع خارجي مشفّر، urn:nfc:ext:crypto)"
+      - "MIME وExternal وبايتات خام"
+  - title: "ملاحظات المنصّات"
+    items:
+      - "iOS 16+ (قراءة الوسوم في الخلفية من شاشة القفل على iPhone XS والأحدث)"
+      - "Android 8.0+ (API 26)، قراءة NFC في المقدّمة"
+      - "تتطلّب الكتابة على الوسوم من iOS صلاحيات Core NFC - وهي مدمجة في التطبيق"
+      - "تتطلّب قراءة NFC في الخلفية على Android أن يكون التطبيق في المقدّمة"
+
+pricing:
+  title: "المجاني مقابل Platinum"
+  columns: ["Free", "Platinum"]
+  rows:
+    - label: "قراءة وسوم NFC"
+      values: ["✓", "✓"]
+    - label: "تحليل وسوم NFC"
+      values: ["✓", "✓"]
+    - label: "كتابة وسوم NFC"
+      values: ["limited", "✓"]
+    - label: "أنواع رسائل NFC"
+      values: ["limited", "✓"]
+    - label: "تهيئة وسوم NFC"
+      values: ["✗", "✓"]
+    - label: "حماية وسوم NFC بكلمة مرور"
+      values: ["✗", "✓"]
+    - label: "قفل وسوم NFC"
+      values: ["✗", "✓"]
+    - label: "NFC Safe"
+      values: ["✗", "✓"]
+    - label: "أوضاع NFC الجماعية"
+      values: ["✗", "✓"]
+    - label: "كتابة NFC عبر CSV"
+      values: ["✗", "✓"]
+    - label: "أوامر NFC للخبراء"
+      values: ["✗", "✓"]
+    - label: "NFC Tap Counter"
+      values: ["✗", "✓"]
+    - label: "OpenPrintTag (الطباعة ثلاثية الأبعاد)"
+      values: ["✓", "✓"]
+
+featuredReviewsTitle: "ما يقوله الناس عن NFC"
+featuredReviews:
+  - quote: "تجربة استخدام جميلة وتنفيذ يكاد يكون خاليًا من العيوب، بخلاف تطبيقات NFC الأخرى."
+    author: "garretthoyos"
+    location: "App Store · مارس 2023"
+  - quote: "أحبّ هذا التطبيق كثيرًا. إنه رائع لأشخاص مثلي لا يعرفون سوى القليل جدًا عن وسوم NFC أو لا يعرفون شيئًا!"
+    author: "Dallasg479"
+    location: "App Store · أكتوبر 2020"
+
+faqTitle: "الأسئلة الشائعة"
+faq:
+  - question: "هل يجب أن يكون iPhone غير مقفل لقراءة وسم؟"
+    answer: "بالنسبة لمعظم عمليات مسح الوسوم، لا - يستطيع iPhone XS والأحدث قراءة وسوم NDEF من شاشة القفل في الخلفية، دون الحاجة إلى تشغيل التطبيق. على Android، يحتاج التطبيق إلى أن يكون في المقدّمة لقراءة وسم."
+  - question: "هل يمكنني قراءة وسم دون اتصال بالإنترنت؟"
+    answer: "نعم. تجري عمليات قراءة وكتابة NFC بالكامل على الجهاز. لا يرفع NFC.cool محتوى الوسوم إلى أي خادم أبدًا."
+  - question: "هل الكتابة على وسوم NFC آمنة؟"
+    answer: "الكتابة آمنة وقابلة للتراجع افتراضيًا - يمكنك إعادة الكتابة على الوسم بقدر ما تشاء. لا تستخدم ميزة القفل إلا حين تكون متأكدًا: فبمجرد قفل الوسم نهائيًا، لا يمكن إعادة الكتابة عليه."
+  - question: "ما مدى أمان NFC Safe؟"
+    answer: "يشفّر NFC Safe الحمولات بـAES-256-GCM، مشتقًّا المفتاح من عبارة المرور عبر PBKDF2-HMAC-SHA256 على مدى 100,000 تكرار مع ملح عشوائي بحجم 16-byte وقيمة nonce بحجم 12-byte لكل سجل. دون عبارة المرور، تكون الحمولة على الوسم غير قابلة للتمييز عن بايتات عشوائية."
+  - question: "هل يعمل وسم NFC Safe نفسه على iOS وAndroid؟"
+    answer: "نعم. الصيغة قابلة للتشغيل البيني. شفّر على منصّة وفكّ التشفير على الأخرى - عبارة المرور نفسها، والحمولة نفسها."
+  - question: "هل تُبطل إعادة ضبط رأس فرشاة Sonicare أي شيء؟"
+    answer: "تعيد ضبط عدّاد الاستخدام الموجود على الوسم فيتوقّف المقبض عن تذكيرك. رأس الفرشاة نفسه لا يعلم أنه أُعيد ضبطه؛ فهو يواصل التنظيف فحسب. اعتمد على تقديرك الخاص لتحديد متى تحتاج الشعيرات إلى الاستبدال."
+
+relatedReadingTitle: "تابع القراءة"
+relatedReading:
+  - title: "اقرأ وسوم NFC عبر الإنترنت في متصفّحك"
+    url: "/online-nfc-reader/"
+  - title: "شرح وسوم NFC: دليل كامل للمبتدئين"
+    url: "/blog/nfc-tags-beginners-guide/"
+  - title: "كيفية كتابة وسوم NFC باستخدام iPhone"
+    url: "/blog/write-nfc-tags-iphone/"
+  - title: "أنواع وسوم NFC التي تعمل مع iPhone"
+    url: "/blog/nfc-tag-types-for-iphones/"

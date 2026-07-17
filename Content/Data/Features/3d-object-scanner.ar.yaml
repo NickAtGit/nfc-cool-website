@@ -1,0 +1,87 @@
+slug: "3d-object-scanner"
+backLinkText: "→ كل الميزات"
+
+card:
+  title: "ماسح الأجسام ثلاثية الأبعاد"
+  description: "تجوّل حول الجسم ليبني Object Capture من Apple نموذجًا ثلاثي الأبعاد بملمس واقعي. صدّر إلى USDZ للواقع المعزّز، أو STL للطباعة ثلاثية الأبعاد، أو OBJ لبرنامج Blender. يتطلّب iPhone Pro أو iPad Pro مزوّدًا بـLiDAR."
+  imagePath: "/assets/images/Webflow/3d-object.webp"
+  platforms: "iOS فقط"
+
+hero:
+  title: "ماسح الأجسام ثلاثية الأبعاد"
+  subtitle: "تجوّل حول جسم حقيقي بواسطة iPhone - يُشغّل NFC.cool تقنية Object Capture من Apple على الجهاز لإعادة بناء نموذج ثلاثي الأبعاد بملمس واقعي. صدّر النموذج المكتمل إلى الواقع المعزّز أو أي أداة ثلاثية الأبعاد."
+  platforms: "iOS فقط"
+  heroImagePath: "/assets/images/Webflow/3d-object.webp"
+
+capabilitiesTitle: "ما يمكنك فعله"
+capabilities:
+  - title: "الالتقاط بالقياس التصويري"
+    description: "تجوّل حول الجسم ملتقطًا عشرات الصور. تعيد سلسلة معالجة Object Capture من Apple على الجهاز بناء نموذج ثلاثي الأبعاد بملمس واقعي وهندسة واقعية."
+  - title: "المعاينة والتحسين"
+    description: "راجع النموذج ثلاثي الأبعاد قبل التصدير. افحص الصور الأولية الملتقطة أثناء الجلسة إن أردت أن ترى ما رأته الكاميرا."
+  - title: "AR Quick Look"
+    description: "ضع أي جسم ممسوح في غرفة معيشتك عبر AR Quick Look. شارك ملفات USDZ مع أصدقائك - يمكنهم عرضها مباشرة داخل Messages."
+  - title: "ست صيغ تصدير"
+    description: "صدّر ملف USDZ بملمس واقعي لـAR Quick Look، أو هندسة مجرّدة بصيغ USD أو OBJ أو STL أو PLY أو ABC لبرنامج Blender وبقية سلسلة إنتاج المحتوى ثلاثي الأبعاد."
+
+subsectionsTitle: "من يدك إلى مشهد الواقع المعزّز"
+subsections:
+  - title: "AR Quick Look في Messages"
+    body: "<p>USDZ هو صيغة الواقع المعزّز الأصلية من Apple. شارك جسمًا ممسوحًا عبر iMessage أو AirDrop، ويمكن للمستلم تدويره ووضعه في مساحته الخاصة والتقاط صورة له - كل ذلك من معاينة الرسالة، دون تثبيت أي تطبيق. رائع لمعاينات المنتجات أو توثيق المنحوتات أو مجرد التباهي.</p>"
+    platforms: "iOS"
+
+  - title: "الاختصارات وApp Intents"
+    body: "<p>يتكامل NFC.cool مباشرة مع تطبيق الاختصارات على iOS عبر إجراءات مدمجة: احصل على آخر وسم NFC ممسوح، أو اكتب رسالة إلى وسم، أو افتح الماسح، أو استرجع آخر رمز QR ممسوح. اربطها معًا في اختصارات تمسح وسمًا، وتحلّل حمولته، وتُطلق ما تشاء بعد ذلك - الأتمتة أو التسجيل أو التدوين، سمِّ ما شئت. تُشغّل الإجراءات نفسها عنصر التحكم <strong>زر المسح</strong> على شاشة القفل في iOS 17+.</p>"
+    imagePath: "/assets/images/Features/nfc-reader-writer-shortcuts-app-intents.webp"
+    imageAlt: "iPhone يربط وسم NFC بكتل الأتمتة"
+    platforms: "iOS"
+
+  - title: "مزامنة iCloud عبر iPhone وiPad وMac"
+    body: "<p>تعيش النماذج الممسوحة في مجلد iCloud Documents، فيرى iPhone الذي مسحت به، وiPad الذي راجعت عليه، و<a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> الذي ستحرّر عليه، المكتبةَ نفسها. التقط وأنت في الطريق، وأنجِز على المكتب.</p>"
+    imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
+    imageAlt: "NFC.cool يزامن عبر iPhone وiPad وMac"
+    platforms: "iOS"
+
+specsTitle: "العتاد والتصدير"
+specs:
+  - title: "متطلبات العتاد"
+    items:
+      - "iOS 17.0 أو أحدث"
+      - "يتطلّب LiDAR - طرازات iPhone Pro (iPhone 12 Pro وأحدث)"
+      - "iPad Pro (2020) وأحدث مدعوم أيضًا"
+  - title: "صيغ التصدير"
+    items:
+      - "USDZ - بملمس واقعي، صيغة AR Quick Look من Apple"
+      - "USD وOBJ وSTL وPLY وABC - هندسة فقط (عبر ModelIO)"
+      - "الصور الأولية الملتقطة (Platinum)"
+
+pricing:
+  title: "المجاني مقابل Platinum"
+  columns: ["Free", "Platinum"]
+  rows:
+    - label: "مسح الأجسام ثلاثية الأبعاد"
+      values: ["✓", "✓"]
+    - label: "وضع الجسم في الواقع المعزّز"
+      values: ["✓", "✓"]
+    - label: "تصدير النماذج ثلاثية الأبعاد"
+      values: ["✗", "✓"]
+    - label: "تصدير الصور"
+      values: ["✗", "✓"]
+
+faqTitle: "الأسئلة الشائعة"
+faq:
+  - question: "هل يحتاج iPhone الخاص بي إلى LiDAR؟"
+    answer: "نعم. تتطلّب جلسة Object Capture من Apple جهازًا مزوّدًا بـLiDAR - أي iPhone Pro (12 Pro وأحدث) أو iPad Pro من 2020 فصاعدًا. لا تأتي طرازات iPhone غير Pro مزوّدة بـLiDAR."
+  - question: "كم يستغرق المسح؟"
+    answer: "بضع دقائق من التجوّل حول الجسم، ثم دقيقتان من إعادة البناء على الجهاز. تستغرق الأجسام الأكبر أو الأكثر تفصيلًا وقتًا أطول."
+  - question: "هل يمكنني طباعة النتائج بتقنية ثلاثية الأبعاد؟"
+    answer: "يمكنك التصدير إلى OBJ والتحويل إلى STL في Blender أو MeshLab أو أي أداة ثلاثية الأبعاد قياسية. تكون دقة النموذج في أفضل حالاتها مع الأجسام متوسطة الحجم وذات الملمس الجيد."
+  - question: "ما الفرق بين هذا وماسح الغرف؟"
+    answer: "يبني Object Capture (هذه الميزة) نموذجًا ثلاثي الأبعاد واحدًا لشيء ما. يستخدم ماسح الغرف تقنية LiDAR وRoomPlan من Apple لبناء مخطط أرضي لمساحة - جدران وأبواب وأثاث. كلاهما يحتاج إلى LiDAR؛ لكنهما يجيبان عن أسئلة مختلفة."
+
+relatedReadingTitle: "تابع القراءة"
+relatedReading:
+  - title: "المسح ثلاثي الأبعاد على iPhone بالقياس التصويري وLiDAR"
+    url: "/blog/3d-scan-feature/"
+  - title: "ماسح الغرف"
+    url: "/features/room-scanner/"
