@@ -608,7 +608,14 @@ body.sk-mobile-menu-open { overflow: hidden; }
 /* ============================================================
    Responsive
    ============================================================ */
-@media (max-width: 768px) {
+/* The full horizontal nav only fits without wrapping once the viewport is
+   wide enough to lay every item on one line. With multi-word labels across
+   nine locales that threshold is ~1180px (fr/es are the widest); below it the
+   labels wrap and spill out of the fixed-height header (all iPad-portrait and
+   many small-laptop widths). So collapse to the burger menu up to 1199px and
+   only show the horizontal nav at >=1200px. The footer keeps its own 768px
+   breakpoint below - it has no reason to stack this early. */
+@media (max-width: 1199px) {
    .sk-site-nav { gap: 0.5rem; padding: 0 var(--container-padding); }
 
    /* Show the injected burger button */
@@ -661,7 +668,9 @@ body.sk-mobile-menu-open { overflow: hidden; }
    /* Lang + theme buttons sit beside the burger - neutralize the negative
       margin used on desktop to prevent overlap */
    .sk-lang-picker + .sk-theme-toggle { margin-left: 0; }
+}
 
+@media (max-width: 768px) {
    /* Footer stacks centered on mobile */
    .sk-footer-inner {
       grid-template-columns: 1fr;

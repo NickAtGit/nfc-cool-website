@@ -63,6 +63,17 @@ html[lang="ar"] body *::after {
 /* Dropdown hangs off the opposite edge of the globe button. */
 [dir="rtl"] .sk-lang-menu { right: auto; left: 0; }
 
+/* The language-picker button shows only a flag emoji (the globe SVG is
+   hidden). Under html[lang="ar"] the button inherits the SF Arabic UI face,
+   whose tall ascent sits the emoji's line box high, so the flag reads as
+   pushed toward the top of the 36px button. The emoji glyph itself always
+   comes from the platform emoji font - only the surrounding line metrics
+   change - so pin this one label to the Latin stack the LTR locales use and
+   the flag centres identically. */
+html[lang="ar"] .sk-lang-current {
+   font-family: "Titillium Web", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 /* Negative sibling margin that tightens the theme toggle against the
    language picker has to pull from the other side under RTL. */
 [dir="rtl"] .sk-lang-picker + .sk-theme-toggle {
@@ -175,10 +186,19 @@ html[lang="ar"] body *::after {
 /* ============================================================
    Responsive flips (mirror the physical rules inside the same breakpoints)
    ============================================================ */
-@media (max-width: 768px) {
+/* Mirror the base nav breakpoint (theme.css collapses to the burger menu at
+   <=1199px), not the 768px used for other components. */
+@media (max-width: 1199px) {
    /* Mobile header cluster (lang - theme - burger) pushes to the leading
       edge, which is the left under RTL. */
    [dir="rtl"] .sk-lang-picker { margin-left: 0; margin-right: auto; }
+
+   /* Base theme.css neutralizes the desktop negative margin on mobile
+      (margin-left: 0) so the tighter 0.5rem nav gap doesn't collapse. The
+      RTL layer moved that negative margin to margin-right, so mirror the
+      neutralization here too - otherwise the theme toggle overlaps the
+      language picker. */
+   [dir="rtl"] .sk-lang-picker + .sk-theme-toggle { margin-right: 0; }
 }
 
 @media (max-width: 600px) {
