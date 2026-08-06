@@ -61,8 +61,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .sitekit-cache
-          key: sitekit-cache-${{ hashFiles('Content/Assets/**', 'Content/ImageManifest.yaml', 'Theme/**') }}
-          restore-keys: sitekit-cache-
+          key: sitekit-cache-v2-${{ hashFiles('Content/Assets/**', 'Content/ImageManifest.yaml', 'Theme/**') }}
 
       # Translation completeness gate. Runs before the build (sharing the same
       # debug compile) and fails the job on any gap - a missing locale file, an
