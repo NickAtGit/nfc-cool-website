@@ -44,7 +44,7 @@ description: "联系 NFC.cool：邮件支持、常见问题、开发者直接受
 
 <details class="faq-item">
 <summary>iOS 版和 Android 版有什么区别？</summary>
-<p>iPhone 版是一套完整的扫描工具集：NFC、二维码和条形码、文档（带 OCR）、3D 和房间扫描。Android 版专注于 NFC 的读取与写入，并包含电子名片功能。其他工具已列入 Android 的开发计划。</p>
+<p>iPhone 版是一套完整的扫描工具集：NFC、二维码和条形码、文档（带 OCR）、3D 和房间扫描。Android 版专注于 NFC 的读取与写入。其他工具已列入 Android 的开发计划。电子名片在两个平台上都是独立的 App。</p>
 </details>
 
 <details class="faq-item">
@@ -54,7 +54,7 @@ description: "联系 NFC.cool：邮件支持、常见问题、开发者直接受
 
 <details class="faq-item">
 <summary>电子名片是单独的一款 App 吗？</summary>
-<p>在 iPhone 上是的，NFC.cool Business Card Maker 是一款独立 App，可在 business-card.nfc.cool 获取。在 Android 上，相同的电子名片功能已内置于 NFC.cool Tools 中，无需额外安装。</p>
+<p>是的，NFC.cool Business Card 在 iPhone 和 Android 上都是一款独立 App。NFC.cool Tools 专注于扫描，名片则在 App Store 和 Google Play 上各有自己的应用。</p>
 </details>
 
 ### 设备、标签与功能

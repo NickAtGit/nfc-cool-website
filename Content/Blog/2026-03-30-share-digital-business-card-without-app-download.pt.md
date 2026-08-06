@@ -105,7 +105,7 @@ Não é preciso desbloquear o telemóvel, abrir a app ou navegar até ao seu car
 ## Como Começar
 
 **Enquanto dono do cartão:**
-- Descarregue o NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en))
+- Descarregue o NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en))
 - Crie o seu cartão com os seus dados, foto e ligações sociais
 - Partilhe via tag NFC, código QR ou ligação direta
 

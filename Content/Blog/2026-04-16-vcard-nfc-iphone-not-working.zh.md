@@ -115,7 +115,7 @@ NFC.cool 让你把背景信息也记下来：你们在哪里认识、聊了些�
 vCard 做不到这些里的任何一项。它们从你写入的那一刻起就被定格在了时间里。
 
 ▸ **每一部手机都能用**
-和 vCard 不同，基于网址的档案在每一部智能手机上都能用：iPhone、Android，甚至只有浏览器的老旧设备。iOS 上的 [NFC.cool Business Card App](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 用的是 [App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8)，所以接收方甚至什么都不用装。在 Android 上，[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en)（内置于 NFC.cool Tools）会即时打开一个网页档案。
+和 vCard 不同，基于网址的档案在每一部智能手机上都能用：iPhone、Android，甚至只有浏览器的老旧设备。iOS 上的 [NFC.cool Business Card App](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 用的是 [App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8)，所以接收方甚至什么都不用装。在 Android 上，[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en)会即时打开一个网页档案。
 
 ---
 
@@ -159,4 +159,4 @@ vCard 做不到这些里的任何一项。它们从你写入的那一刻起就�
 
 **事情本就该这样。**
 
-*NFC.cool Business Card 在 [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 和 [Android（内置于 NFC.cool Tools）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) 上均可使用。NFC.cool Tools（标签读取与写入工具）在 [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 和 [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) 上均可使用。*
+*NFC.cool Business Card 在 [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 和 [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) 上均可使用。NFC.cool Tools（标签读取与写入工具）在 [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 和 [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) 上均可使用。*

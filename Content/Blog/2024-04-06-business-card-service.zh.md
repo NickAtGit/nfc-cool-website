@@ -18,7 +18,7 @@ NFC.cool 电子名片把这件事反了过来：一个由你掌控的 URL，写�
 
 ## 安装 App
 
-为 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-en&mt=8) 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en) 下载 NFC.cool。电子名片功能在两个平台上都内置于 NFC.cool Tools 之中，无需单独购买，也无需单独下载。
+为 [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en) 下载 NFC.cool Business Card。两个平台上都可免费下载。
 
 ---
 
@@ -84,4 +84,4 @@ NFC.cool 的流程，把你的联系信息保存在服务器上。标签（或�
 
 对于正经社交而言，这才是唯一重要的特性：数据比印好的名片更长寿。
 
-[NFC.cool Tools（iPhone）](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-en&mt=8) · [NFC.cool Tools（Android）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en) · 或者面向 iOS 的独立版 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8)。
+[NFC.cool Tools（iPhone）](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-en&mt=8) · [NFC.cool Tools（Android）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en) · 或者独立的 NFC.cool Business Card，支持 [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en)。

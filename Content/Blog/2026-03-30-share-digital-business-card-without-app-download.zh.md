@@ -107,7 +107,7 @@ Android 接收方会得到一个托管在 nfc.cool 上的干净网页档案。�
 
 **作为名片持有者：**
 
-- 下载 NFC.cool Business Card（[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en)）
+- 下载 NFC.cool Business Card（[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en)）
 - 填上你的资料、照片和社交链接，创建你的名片
 - 通过 NFC 标签、二维码或直接链接分享
 

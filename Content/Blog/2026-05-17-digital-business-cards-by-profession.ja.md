@@ -128,7 +128,7 @@ Redpoint Globalが2021年に米国の消費者1,000人超を対象に行った�
 
 正直にお伝えしておきます。これは私自身のアプリです。ここから数段落は、そのことを踏まえて読んでください。得意なところも、そうでないところも、率直に書くようにします。
 
-NFC.cool Business Cardは、iPhoneでは独立した1つのアプリです。Androidでは、同じ機能がNFC.cool Toolsに組み込まれています。ここまで挙げてきた職業に対して、このアプリがうまくこなせることを紹介します。
+NFC.cool Business Cardは、iPhoneでもAndroidでも独立した1つのアプリです。ここまで挙げてきた職業に対して、このアプリがうまくこなせることを紹介します。
 
 - **35言語**に、アプリの画面とApp Clipが対応しています。私が知るかぎり、どのデジタル名刺よりも多い数です。iOSでは、あなたの名刺が相手の言語で表示されます（Android用の共有ウェブサイトは、今のところ英語のみです）。
 - **名刺を受け取る人に、アプリは要りません。** iPhoneではネイティブのApp Clipが、Androidではnfc.coolドメイン上のページが開きます。どちらにも「連絡先を保存」ボタンがあります。
@@ -148,7 +148,7 @@ NFC.cool Business Cardは、iPhoneでは独立した1つのアプリです。And
 
 正直なところを言えば、エージェントにも、医師にも、一人で働く人にも、日々大事なのは、共有が速いこと、名刺が「自分らしく」見えること、そしてあとで恥ずかしい思いをしないことです。私は、そのためにこのアプリを作りました。営業用のCRMを名刺にがっちり溶接したいのなら、それを得意とするツールを買ってください。
 
-NFC.cool Business Cardは、[App Storeから入手](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-ja&mt=8)できます。Androidの場合は、[NFC.cool Toolsの中から](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-ja)どうぞ。
+NFC.cool Business Cardは、[App Storeから入手](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-ja&mt=8)できます。Androidの場合は、[Google Playから](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-ja)どうぞ。
 
 ---
 
@@ -186,4 +186,4 @@ NFCとQRは、世界中のスマートフォンで機能します。ただし、
 
 デジタル名刺なら、その動きについていけます。相手側にアプリが要らず、NFCとQRに対応し、相手の連絡先データをきちんと大切に扱うもの。そういう1つを選んでください。そうすれば、名刺のことを考えるのをやめられます。それこそが、本当の意味での勝ちです。
 
-私のアプリを試してみたい方へ。NFC.cool Business Cardは、[iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-ja&mt=8)でも、[AndroidのNFC.cool Tools内](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-ja)でも、無料で始められます。
+私のアプリを試してみたい方へ。NFC.cool Business Cardは、[iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-ja&mt=8)でも、[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-ja)でも、無料で始められます。

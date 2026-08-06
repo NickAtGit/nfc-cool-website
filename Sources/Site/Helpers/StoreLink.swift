@@ -15,16 +15,13 @@ enum StoreLink {
    enum App {
       /// NFC.cool Tools - full toolkit. iOS id 1249686798, Android `cool.nfc`.
       case tools
-      /// NFC.cool Business Card - standalone iOS app. iOS id 6502926572.
-      /// On Android, Business Card features live inside Tools (`cool.nfc`),
-      /// so googlePlay(.businessCard, ...) returns the Tools Play Store URL
-      /// with a business-card-flavoured campaign tag.
+      /// NFC.cool Business Card - standalone app on both platforms.
+      /// iOS id 6502926572, Android `cool.nfc.businesscard`.
       case businessCard
    }
 
    /// Provider Token for App Store campaign attribution (constant across the brand).
    private static let appleProviderToken = "106913804"
-   private static let androidPackageId = "cool.nfc"
 
    static func appStore(app: App, page: String, locale: String) -> String {
       let appID: String
@@ -37,12 +34,16 @@ enum StoreLink {
    }
 
    static func googlePlay(app: App, page: String, locale: String) -> String {
-      _ = app // both apps currently map to the same Android package
+      let packageID: String
+      switch app {
+      case .tools: packageID = "cool.nfc"
+      case .businessCard: packageID = "cool.nfc.businesscard"
+      }
       let campaign = "\(page)-\(locale)"
       let channel = page.hasPrefix("blog-") ? "blog" : "web"
       // Encode the inner referrer payload exactly the way the existing site does:
       //   referrer=utm_source%3Dnfc.cool%26utm_medium%3D{channel}%26utm_campaign%3D{campaign}
       let referrer = "utm_source%3Dnfc.cool%26utm_medium%3D\(channel)%26utm_campaign%3D\(campaign)"
-      return "https://play.google.com/store/apps/details?id=\(androidPackageId)&referrer=\(referrer)"
+      return "https://play.google.com/store/apps/details?id=\(packageID)&referrer=\(referrer)"
    }
 }

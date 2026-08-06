@@ -178,7 +178,7 @@ NFCにまだ慣れていない人や、古いスマホで十分にサポート�
 
 必要なことをすべて、順番にまとめました：
 
-- [ ] **デジタル名刺アプリをダウンロード**（[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-ja&mt=8)がおすすめ - [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-ja&mt=8)と[Android（NFC.cool Tools内）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-ja)で無料）
+- [ ] **デジタル名刺アプリをダウンロード**（[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-ja&mt=8)がおすすめ - [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-ja&mt=8)と[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-ja)で無料）
 - [ ] **カードを作成** - 名前、肩書き、会社名、連絡先、リンクを入力
 - [ ] **写真を追加** - イベント後に思い出してもらうため
 - [ ] **QRコードをApple Walletに保存（iOS）** - ロック画面からすぐにアクセス
@@ -225,4 +225,4 @@ iPhone 7（2016年）以降のすべてのiPhoneと、2018年以降の大多数�
 
 次のカンファレンスが近づいています。今度は、紙を家に置いていきましょう。
 
-*NFC.cool Business Cardは[iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-ja&mt=8)と[Android（NFC.cool Tools内）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-ja)で無料で利用可能。1分以内に最初のカードを作成できます。*
+*NFC.cool Business Cardは[iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-ja&mt=8)と[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-ja)で無料で利用可能。1分以内に最初のカードを作成できます。*

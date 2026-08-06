@@ -13,13 +13,13 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos coordonnées d'un simple geste - NFC, QR code, AppClip ou Apple Wallet - et voyez qui enregistre vraiment votre carte. Sur Android, les mêmes fonctions sont intégrées à NFC.cool Tools.
+Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos coordonnées d'un simple geste - NFC ou QR code, et sur iPhone également AppClip ou Apple Wallet - et voyez qui enregistre vraiment votre carte.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Télécharger dans l'App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Télécharger dans l'App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Disponible sur Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Disponible sur Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Disponible sur Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -104,7 +104,7 @@ Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos 
 <h3>Personnalisation et image de marque</h3>
 <ul>
 <li><strong>Logos personnalisables</strong> - des visuels distincts pour les modes clair et sombre</li>
-<li><strong>Couleurs personnalisées</strong> - arrière-plan, bordure et tuiles (iOS)</li>
+<li><strong>Couleurs personnalisées</strong> - arrière-plan, bordure et tuiles</li>
 <li><strong>Mode clair et sombre</strong> - la carte s'adapte au réglage système de la personne qui la consulte</li>
 </ul>
 </article>
@@ -152,10 +152,10 @@ Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos 
 <article class="page-card">
 <h3>Mode conférence</h3>
 <ul>
-<li><strong>QR sur l'écran de verrouillage</strong> - le QR code de votre carte épinglé à l'écran de verrouillage de l'iPhone, pour que chacun puisse le scanner sans déverrouiller</li>
+<li><strong>QR sur l'écran de verrouillage</strong> - le QR code de votre carte épinglé à l'écran de verrouillage du téléphone, pour que chacun puisse le scanner sans déverrouiller</li>
 <li><strong>Reste 8 heures</strong> - couvre une journée entière d'événement, puis disparaît tout seul</li>
 <li><strong>Sans ouvrir l'app</strong> - tendez simplement le téléphone, on scanne, c'est fait</li>
-<li><strong>iOS uniquement</strong> - utilise l'API Live Activities d'Apple</li>
+<li><strong>iPhone et Android</strong> - le même mode conférence sur les deux</li>
 </ul>
 </article>
 
@@ -177,6 +177,6 @@ Choisissez la formule adaptée à votre rythme de réseautage. Toutes les formul
 
 ## Sur Android
 
-Sur Android, la fonction de carte de visite est intégrée à [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) - pas de seconde app. Ouvrez l'app, créez votre carte, partagez d'un simple geste. Même modèle de données, même échange NFC, même repli sur QR code. La génération de leads, les statistiques avancées et le mode conférence sont pour l'instant réservés à iOS.
+[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) est une app à part entière sur Google Play, exactement comme sur l'App Store. Même modèle de données, même échange NFC, même repli sur QR code, même capture de leads, mêmes statistiques et même mode conférence. Les deux briques propres à Apple restent sur iPhone : l'AppClip et les cartes Apple Wallet. Sur Android, vos interlocuteurs ouvrent votre carte sous forme de profil web - ça marche sur n'importe quel téléphone doté d'un navigateur, sans rien installer.
 
 </section>

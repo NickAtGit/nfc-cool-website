@@ -13,13 +13,13 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-A digital Business Card maker for iPhone and Android. Share your contact details with a tap - NFC, QR code, AppClip, or Apple Wallet - and see who actually saves your card. On Android, the same features are bundled inside NFC.cool Tools.
+A digital Business Card maker for iPhone and Android. Share your contact details with a tap - NFC or QR code, plus AppClip and Apple Wallet on iPhone - and see who actually saves your card.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -104,7 +104,7 @@ A digital Business Card maker for iPhone and Android. Share your contact details
 <h3>Customization & branding</h3>
 <ul>
 <li><strong>Customizable logos</strong> - separate light and dark mode marks</li>
-<li><strong>Custom colors</strong> - background, border, and tile colors (iOS)</li>
+<li><strong>Custom colors</strong> - background, border, and tile colors</li>
 <li><strong>Dark & light mode</strong> - card adapts to viewer's system preference</li>
 </ul>
 </article>
@@ -152,10 +152,10 @@ A digital Business Card maker for iPhone and Android. Share your contact details
 <article class="page-card">
 <h3>Conference Mode</h3>
 <ul>
-<li><strong>QR on the Lock Screen</strong> - your card's QR code pinned to the iPhone Lock Screen so anyone can scan it without unlocking</li>
+<li><strong>QR on the Lock Screen</strong> - your card's QR code pinned to your phone's Lock Screen so anyone can scan it without unlocking</li>
 <li><strong>Stays for 8 hours</strong> - covers a full event day, then clears itself</li>
 <li><strong>No app open required</strong> - just hand the phone over, they scan, done</li>
-<li><strong>iOS only</strong> - uses Apple's Live Activities API</li>
+<li><strong>iPhone and Android</strong> - the same Conference Mode on both</li>
 </ul>
 </article>
 
@@ -177,6 +177,6 @@ Choose the plan that fits how much you network. All paid plans include vCard sav
 
 ## On Android
 
-The Business Card feature on Android is built into [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) - no second app. Open the app, set up your card, tap to share. Same data model, same NFC handshake, same QR fallback. Lead-generation, advanced analytics, and Conference Mode are currently iOS-only.
+[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) is its own app on Google Play, exactly like on the App Store. Same data model, same NFC handshake, same QR fallback, same lead capture, analytics and Conference Mode. The two Apple-specific pieces stay on iPhone: AppClip and Apple Wallet passes. On Android, recipients open your card as a web profile instead - which works on any phone with a browser, no install needed.
 
 </section>

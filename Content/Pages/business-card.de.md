@@ -13,13 +13,13 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Eine digitale Business Card Maker App für iPhone und Android. Teile deine Kontaktdaten mit einem Tipp - NFC, QR-Code, AppClip oder Apple Wallet - und sieh, wer deine Karte tatsächlich speichert. Auf Android sind die gleichen Funktionen direkt in NFC.cool Tools integriert.
+Eine digitale Business Card Maker App für iPhone und Android. Teile deine Kontaktdaten mit einem Tipp - NFC oder QR-Code, auf dem iPhone zusätzlich AppClip und Apple Wallet - und sieh, wer deine Karte tatsächlich speichert.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-de" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-de" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -104,7 +104,7 @@ Eine digitale Business Card Maker App für iPhone und Android. Teile deine Konta
 <h3>Customization & Branding</h3>
 <ul>
 <li><strong>Anpassbare Logos</strong> - separate Marken für Hell- und Dunkelmodus</li>
-<li><strong>Eigene Farben</strong> - Hintergrund, Rahmen und Kacheln (iOS)</li>
+<li><strong>Eigene Farben</strong> - Hintergrund, Rahmen und Kacheln</li>
 <li><strong>Dark & Light Mode</strong> - die Karte passt sich der Geräteeinstellung an</li>
 </ul>
 </article>
@@ -152,10 +152,10 @@ Eine digitale Business Card Maker App für iPhone und Android. Teile deine Konta
 <article class="page-card">
 <h3>Konferenzmodus</h3>
 <ul>
-<li><strong>QR auf dem Sperrbildschirm</strong> - der QR-Code deiner Karte heftet auf dem iPhone-Lock-Screen, scanbar ohne Entsperren</li>
+<li><strong>QR auf dem Sperrbildschirm</strong> - der QR-Code deiner Karte heftet auf dem Sperrbildschirm deines Handys, scanbar ohne Entsperren</li>
 <li><strong>Bleibt 8 Stunden</strong> - deckt einen kompletten Event-Tag ab, danach wird er automatisch entfernt</li>
 <li><strong>App muss nicht offen sein</strong> - Telefon hinhalten, scannen lassen, fertig</li>
-<li><strong>Nur iOS</strong> - nutzt Apples Live-Activities-API</li>
+<li><strong>iPhone und Android</strong> - der gleiche Konferenzmodus auf beiden</li>
 </ul>
 </article>
 
@@ -177,6 +177,6 @@ Wähle den Plan, der zu deinem Networking-Pensum passt. Alle bezahlten Pläne en
 
 ## Auf Android
 
-Die Visitenkarten-Funktion auf Android ist direkt in [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-de) eingebaut - keine zweite App. App öffnen, Karte einrichten, antippen zum Teilen. Gleiches Datenmodell, gleicher NFC-Handshake, gleicher QR-Fallback. Lead-Generierung, erweiterte Analytics und Konferenzmodus sind aktuell nur unter iOS verfügbar.
+[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-de) ist auf Google Play eine eigene App - genau wie im App Store. Gleiches Datenmodell, gleicher NFC-Handshake, gleicher QR-Fallback, gleiche Lead-Erfassung, Analytics und Konferenzmodus. Zwei Apple-spezifische Teile bleiben dem iPhone vorbehalten: AppClip und Apple-Wallet-Pässe. Auf Android öffnen Empfänger deine Karte stattdessen als Web-Profil - das funktioniert auf jedem Handy mit Browser, ganz ohne Installation.
 
 </section>

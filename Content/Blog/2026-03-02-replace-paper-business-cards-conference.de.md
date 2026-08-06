@@ -178,7 +178,7 @@ Und wenn jemand wirklich auf Papier besteht, kannst du immer sagen "Ich bin digi
 
 Hier ist alles, was du tun musst, der Reihe nach:
 
-- [ ] **Lade eine digitale Visitenkarten-App** (wir empfehlen [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) - gratis auf [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) und [Android (in NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-de))
+- [ ] **Lade eine digitale Visitenkarten-App** (wir empfehlen [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) - gratis auf [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-de))
 - [ ] **Erstelle deine Karte** mit Name, Titel, Firma, Kontaktdaten und Links
 - [ ] **Füge dein Foto hinzu** - es hilft Leuten, sich nach dem Event an dich zu erinnern
 - [ ] **Speichere deinen QR-Code in Apple Wallet (iOS)** für schnellen Sperrbildschirm-Zugang
@@ -225,4 +225,4 @@ Digitale Visitenkarten sind der Ort, an dem Konferenzen am besten sind: schnelle
 
 Deine nächste Konferenz kommt. Diesmal lass das Papier zu Hause.
 
-*NFC.cool Business Card ist gratis auf [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) und auf [Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-de) verfügbar. Erstelle deine erste Karte in unter einer Minute.*
+*NFC.cool Business Card ist gratis auf [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) und auf [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-de) verfügbar. Erstelle deine erste Karte in unter einer Minute.*

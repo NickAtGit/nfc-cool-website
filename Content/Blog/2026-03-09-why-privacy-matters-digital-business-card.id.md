@@ -185,4 +185,4 @@ Privasi bukan tentang menyembunyikan sesuatu. Ini tentang memiliki hak untuk mem
 
 Pilihlah dengan bijak.
 
-*Siap mencoba kartu nama digital yang mengutamakan privasi? [Unduh NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8) untuk iPhone atau [dapatkan di Android dalam NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-en). UI aplikasi dan App Clip tersedia dalam 35 bahasa.*
+*Siap mencoba kartu nama digital yang mengutamakan privasi? [Unduh NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8) untuk iPhone atau [dapatkan di Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-en). UI aplikasi dan App Clip tersedia dalam 35 bahasa.*

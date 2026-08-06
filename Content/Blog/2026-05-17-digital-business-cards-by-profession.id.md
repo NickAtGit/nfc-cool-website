@@ -128,7 +128,7 @@ Profesinya berbeda; daftar periksa sebagian besar tidak. Apapun yang Anda lakuka
 
 Pengungkapan penuh: ini adalah aplikasi saya, jadi baca beberapa paragraf berikut dengan mengetahui itu. Saya akan mencoba jujur tentang di mana ia kuat dan di mana tidak.
 
-NFC.cool Business Card adalah aplikasi mandiri di iPhone, dan fitur yang sama dibundel ke dalam NFC.cool Tools di Android. Inilah yang dilakukannya dengan baik untuk profesi-profesi di atas:
+NFC.cool Business Card adalah aplikasi mandiri di iPhone dan Android. Inilah yang dilakukannya dengan baik untuk profesi-profesi di atas:
 
 - **35 bahasa** di antarmuka aplikasi dan App Clip - lebih dari aplikasi kartu nama digital lain yang saya ketahui. Kartu Anda ditampilkan dalam bahasa klien di iOS. (Situs web berbagi Android saat ini hanya dalam bahasa Inggris.)
 - **Tidak ada aplikasi untuk orang yang menerima kartu Anda.** Di iPhone mereka mendapatkan App Clip native; di Android, halaman di domain nfc.cool. Keduanya memiliki tombol "Simpan Kontak."
@@ -148,7 +148,7 @@ Di mana pesaing benar-benar lebih unggul:
 
 Versi jujurnya: untuk agen, dokter, atau solopreneur, yang penting sehari-hari adalah berbagi yang cepat, kartu yang terlihat seperti *Anda*, dan tidak ada yang mempermalukan Anda kemudian. Itulah yang saya bangun. Jika Anda membutuhkan CRM penjualan yang terhubung ke kartu nama Anda, beli alat yang melakukan itu.
 
-Anda bisa [mendapatkan NFC.cool Business Card di App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) atau [di Android dalam NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+Anda bisa [mendapatkan NFC.cool Business Card di App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) atau [di Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
 
 ---
 
@@ -186,4 +186,4 @@ Kartu nama kertas tidak gagal karena terbuat dari kertas. Kartu itu gagal karena
 
 Kartu digital mengikuti perkembangan itu. Pilih yang tidak memerlukan aplikasi di pihak lain, mendukung NFC dan QR, dan memperlakukan data kontak Anda dengan hormat - lalu berhenti memikirkan kartu nama sama sekali. Itulah kemenangan sesungguhnya.
 
-Jika Anda ingin mencoba milik saya, NFC.cool Business Card gratis untuk dimulai di [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) dan di [Android dalam NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+Jika Anda ingin mencoba milik saya, NFC.cool Business Card gratis untuk dimulai di [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) dan di [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).

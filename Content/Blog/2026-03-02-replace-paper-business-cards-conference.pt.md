@@ -178,7 +178,7 @@ E se alguém insistir genuinamente em papel, pode sempre dizer "passei ao digita
 
 Aqui fica tudo o que precisa de fazer, por ordem:
 
-- [ ] **Transferir uma app de cartão de visita digital** (recomendamos o [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) - gratuito no [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) e no [Android (dentro do NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en))
+- [ ] **Transferir uma app de cartão de visita digital** (recomendamos o [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) - gratuito no [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) e no [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en))
 - [ ] **Criar o seu cartão** com nome, título, empresa, informação de contacto e ligações
 - [ ] **Adicionar a sua fotografia** - ajuda as pessoas a lembrarem-se de si depois do evento
 - [ ] **Guardar o seu código QR no Apple Wallet (iOS)** para acesso rápido a partir do ecrã de bloqueio
@@ -225,4 +225,4 @@ Os cartões de visita digitais são onde as conferências estão no seu melhor: 
 
 A sua próxima conferência está a chegar. Desta vez, deixe o papel em casa.
 
-*O NFC.cool Business Card está disponível gratuitamente no [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) e no [Android dentro do NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en). Crie o seu primeiro cartão em menos de um minuto.*
+*O NFC.cool Business Card está disponível gratuitamente no [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) e no [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en). Crie o seu primeiro cartão em menos de um minuto.*

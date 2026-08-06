@@ -3,13 +3,17 @@ id: nfc-blog-023
 title: "NFC.cool ya está en la Play Store"
 date: 2024-04-05
 tags: ["announcements", "android", "nfc-tags"]
-summary: "NFC.cool Tools ya está en Google Play. Lectura de NFC, escritura de etiquetas y el NFC.cool Business Card integrado - ahora en Android, con el mismo conjunto de funciones que la app de iOS para las partes que comparten hardware compatible con Android."
+summary: "NFC.cool Tools ya está en Google Play. Lectura de NFC y escritura de etiquetas - ahora en Android, con el mismo conjunto de funciones que la app de iOS para las partes que comparten hardware compatible con Android."
 metaTitle: "NFC.cool Tools - Ya disponible en Google Play"
-metaDescription: "NFC.cool Tools está disponible en Android. Lectura de NFC, escritura de etiquetas y el NFC.cool Business Card integrado - la misma marca, el mismo conjunto de funciones, en Android."
+metaDescription: "NFC.cool Tools está disponible en Android. Leer y escribir etiquetas NFC - la misma marca que ya conoces del iPhone, ahora en Google Play."
 ogTitle: "NFC.cool ya está en la Play Store"
-ogDescription: "NFC.cool Tools ya está en Google Play - lectura de NFC, escritura de etiquetas y el NFC.cool Business Card integrado."
+ogDescription: "NFC.cool Tools ya está en Google Play - lectura de NFC y escritura de etiquetas en Android."
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
+**Actualización, agosto de 2026:** NFC.cool Business Card ahora también es una app dedicada en Android - [consíguela en Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). Las tarjetas que ya existen dentro de NFC.cool Tools siguen funcionando; las nuevas se crean en la app dedicada.
+
+---
+
 **NFC.cool Tools** ya está disponible en la [Google Play Store](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). Tras años en iOS, la versión Android está en marcha - y viene con el NFC.cool Business Card integrado de serie.
 
 ---

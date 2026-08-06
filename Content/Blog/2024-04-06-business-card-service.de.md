@@ -18,7 +18,7 @@ Die NFC.cool Digitale Visitenkarte dreht das um: eine URL, die du kontrollierst,
 
 ## App installieren
 
-Lade NFC.cool für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-de) herunter. Das Business-Card-Feature ist in NFC.cool Tools auf beiden Plattformen eingebaut - kein separater Kauf, kein separater Download.
+Lade NFC.cool Business Card für [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-de) herunter. Auf beiden Plattformen ein kostenloser Download.
 
 ---
 
@@ -84,4 +84,4 @@ Der NFC.cool-Flow hält deine Kontaktdaten auf dem Server. Der Tag (oder QR) zei
 
 Das ist das einzige Feature, das für ernsthaftes Networking zählt - die Daten überleben die gedruckte Karte.
 
-[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-de&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-de) · oder die eigenständige [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-de&mt=8) für iOS.
+[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-de&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-de) · oder NFC.cool Business Card für [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-de).

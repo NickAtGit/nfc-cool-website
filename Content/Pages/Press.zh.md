@@ -66,7 +66,7 @@ description: "NFC.cool 的媒体资源：品牌素材、徽标、截图、应用
 
 <article class="page-card">
 <h3>Bundle ID</h3>
-<p><code>de.nicolo-stanciu.nfcing</code>（Tools iOS）、<code>cool.nfc</code>（Tools Android）、<code>io.stanc.DigitalBusinessCardApp</code>（Business Card iOS）。</p>
+<p><code>de.nicolo-stanciu.nfcing</code>（Tools iOS）、<code>cool.nfc</code>（Tools Android）、<code>io.stanc.DigitalBusinessCardApp</code>（Business Card iOS）、<code>cool.nfc.businesscard</code>（Business Card Android）。</p>
 </article>
 
 <article class="page-card">

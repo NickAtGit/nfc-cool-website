@@ -178,7 +178,7 @@ Apple Wallet 集成也可作为一个备用选项。
 
 下面是你需要做的所有事，按顺序排列：
 
-- [ ] **下载一款电子名片 App**（我们推荐 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8)：在 [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) 和 [Android（内置于 NFC.cool Tools 中）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en) 上均免费）
+- [ ] **下载一款电子名片 App**（我们推荐 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8)：在 [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en) 上均免费）
 - [ ] **创建你的名片**，填上姓名、头衔、公司、联系信息和链接
 - [ ] **加上你的照片**：它能帮人们在活动结束后记住你
 - [ ] **把你的二维码存入 Apple Wallet（iOS）**，方便从锁屏快速调用
@@ -225,4 +225,4 @@ NFC 轻触本身无需 WiFi 即可工作：它直接把链接从标签传输到�
 
 你的下一场会议就要到了。这一次，把纸质名片留在家里吧。
 
-*NFC.cool Business Card 在 [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) 上免费提供，在 [Android 上则内置于 NFC.cool Tools 中](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en)。一分钟之内就能创建你的第一张名片。*
+*NFC.cool Business Card 在 [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) 上免费提供，在 [Android 上](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en)。一分钟之内就能创建你的第一张名片。*

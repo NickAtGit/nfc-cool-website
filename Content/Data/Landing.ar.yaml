@@ -15,12 +15,12 @@ featuresTitle: "كل ما تحتاجه للمسح"
 
 featureBanner:
   title: "NFC.cool Business Card"
-  subtitle: "تطبيق مخصّص لبطاقة العمل الرقمية على iPhone - شارِكها عبر لمسة NFC أو رمز QR أو AppClip أو Apple Wallet. تتبّع من حفظ بطاقتك، ونظّم عملاءك المحتملين، وفعّل وضع المؤتمرات في الفعاليات المباشرة. وعلى Android، تأتي الميزات نفسها مدمجة داخل NFC.cool Tools."
+  subtitle: "تطبيق مخصّص لبطاقة العمل الرقمية على iPhone وAndroid - شارِكها عبر لمسة NFC أو رمز QR، وعلى iPhone أيضاً عبر AppClip أو Apple Wallet. تتبّع من حفظ بطاقتك، ونظّم عملاءك المحتملين، وفعّل وضع المؤتمرات في الفعاليات المباشرة."
   imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
   # iOS: dedicated NFC.cool Business Card app (App Store id 6502926572)
   appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
-  # Android: business card features are bundled in NFC.cool Tools
-  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
+  # Android: dedicated NFC.cool Business Card app (cool.nfc.businesscard)
+  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
 
 appStoreReviewsTitle: "ماذا يقول المستخدمون"
 appStoreReviews:
@@ -66,7 +66,7 @@ faq:
   - question: "هل NFC.cool مجاني؟"
     answer: "نعم - تنزيل NFC.cool Tools وNFC.cool Business Card مجاني. قراءة وسوم NFC، ومسح رموز QR والباركود، ومسح المستندات باستخدام OCR، والمسح ثلاثي الأبعاد ومسح الغرف، كلها مجانية. ويفتح اشتراك Platinum الاختياري ميزة NFC Safe (أسرار مشفّرة بمعيار 256-bit AES)؛ وأدوات تحكّم NFC المتقدمة (التهيئة، والحماية بكلمة مرور، والقفل، وأوضاع الدفعات، والكتابة عبر CSV، وأوامر الخبراء، وعدّاد اللمسات)؛ وميزات QR الاحترافية (بلا علامات مائية، وقراءة بالدفعات)؛ وتصدير المستندات إلى PDF والتصدير التلقائي إلى iCloud؛ وحساب المساحة ثلاثية الأبعاد وتصدير النماذج والصور؛ واختصارات iOS والأدوات ومركز التحكم؛ وwebhooks؛ ومحوّل النص إلى كلام؛ وأيقونات وألوان تطبيق مميّزة؛ ودعمًا ذا أولوية وبلا إعلانات."
   - question: "ما المنصّات المدعومة؟"
-    answer: "يعمل NFC.cool Tools على iPhone وiPad وAndroid. أما NFC.cool Business Card فيقتصر على iPhone - لكن ميزاته مدمجة في NFC.cool Tools على Android، فيحصل مستخدمو Android على قدرات بطاقة العمل الرقمية نفسها دون تثبيت تطبيق ثانٍ. وعلى iPad، تعمل جميع الميزات المعتمدة على الكاميرا (QR والباركود والمستندات والمسح ثلاثي الأبعاد ومسح الغرف)، لكن قراءة وكتابة NFC تتطلبان iPhone لأن أجهزة iPad لا تأتي بعتاد NFC."
+    answer: "يعمل NFC.cool Tools على iPhone وiPad وAndroid. أما NFC.cool Business Card فهو تطبيق منفصل يعمل على iPhone وAndroid. وعلى iPad، تعمل جميع الميزات المعتمدة على الكاميرا (QR والباركود والمستندات والمسح ثلاثي الأبعاد ومسح الغرف)، لكن قراءة وكتابة NFC تتطلبان iPhone لأن أجهزة iPad لا تأتي بعتاد NFC."
   - question: "كيف أبدأ مع NFC.cool؟"
     answer: "نزّل NFC.cool Tools من App Store أو Google Play، ثم استكشف التبويبات: NFC لقراءة الوسوم وكتابتها، وQR لرموز QR والباركود، وDocument لمسح الورق وتحويله إلى PDF، و3D لالتقاط الأجسام والغرف. لا حاجة إلى حساب - كل شيء يعمل على الجهاز."
   - question: "كيف أمسح أول وسم NFC لي؟"

@@ -128,7 +128,7 @@ Die Berufe unterscheiden sich; die Checkliste meistens nicht. Was du auch tust, 
 
 Volle Transparenz: Das ist meine App, lies die nächsten Absätze also mit diesem Wissen. Ich versuche, ehrlich zu sein, wo sie stark ist und wo nicht.
 
-NFC.cool Business Card ist eine eigenständige App auf dem iPhone, und dieselben Funktionen sind auf Android in NFC.cool Tools gebündelt. Das macht sie für die obigen Berufe gut:
+NFC.cool Business Card ist eine eigenständige App auf iPhone und Android. Das macht sie für die obigen Berufe gut:
 
 - **35 Sprachen** in der App-Oberfläche und im App Clip - mehr als jede andere digitale Visitenkarte, die ich kenne. Deine Karte erscheint auf iOS in der Sprache deiner Kundschaft. (Die Android-Sharing-Website ist vorerst nur auf Englisch.)
 - **Keine App für die Person, die deine Karte empfängt.** Auf dem iPhone bekommt sie einen nativen App Clip; auf Android eine Seite auf der Domain nfc.cool. Beide haben eine Schaltfläche „Kontakt speichern".
@@ -148,7 +148,7 @@ Wo Wettbewerber tatsächlich voraus sind:
 
 Die ehrliche Version: Für einen Makler, eine Ärztin oder eine Selbstständige zählt im Alltag, dass das Teilen schnell ist, die Karte aussieht wie *du* und nichts dich später blamiert. Dafür habe ich sie gebaut. Wenn du ein Vertriebs-CRM brauchst, das an deine Visitenkarte geschweißt ist, kauf das Tool, das das macht.
 
-Du kannst [NFC.cool Business Card im App Store holen](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-de&mt=8) oder [auf Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-de).
+Du kannst [NFC.cool Business Card im App Store holen](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-de&mt=8) oder [bei Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-de).
 
 ---
 
@@ -186,4 +186,4 @@ Papier-Visitenkarten sind nicht gescheitert, weil sie aus Papier waren. Sie sind
 
 Eine digitale Karte hält Schritt. Wähle eine, die auf der anderen Seite keine App braucht, NFC und QR unterstützt und mit den Daten deiner Kontakte respektvoll umgeht - und hör dann ganz auf, an Visitenkarten zu denken. Das ist der eigentliche Gewinn.
 
-Wenn du meine ausprobieren willst: NFC.cool Business Card ist kostenlos zum Start auf dem [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-de&mt=8) und auf [Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-de).
+Wenn du meine ausprobieren willst: NFC.cool Business Card ist kostenlos zum Start auf dem [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-de&mt=8) und auf [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-de).

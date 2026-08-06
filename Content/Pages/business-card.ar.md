@@ -13,13 +13,13 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-أداة لإنشاء بطاقات العمل الرقمية لأجهزة iPhone و Android. شارك تفاصيل التواصل الخاصة بك بلمسة واحدة - عبر NFC أو رمز QR أو AppClip أو Apple Wallet - وتعرّف على من يحفظ بطاقتك فعلًا. على Android، تأتي الميزات نفسها مدمجة داخل NFC.cool Tools.
+أداة لإنشاء بطاقات العمل الرقمية لأجهزة iPhone و Android. شارك تفاصيل التواصل الخاصة بك بلمسة واحدة - عبر NFC أو رمز QR، وعلى iPhone أيضًا عبر AppClip أو Apple Wallet - وتعرّف على من يحفظ بطاقتك فعلًا.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="التنزيل من App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="احصل عليه من Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="احصل عليه من Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="احصل عليه من Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -104,7 +104,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>التخصيص والهوية التجارية</h3>
 <ul>
 <li><strong>شعارات قابلة للتخصيص</strong> - علامات منفصلة للوضع الفاتح والداكن</li>
-<li><strong>ألوان مخصّصة</strong> - ألوان الخلفية والحدود والمربّعات (iOS)</li>
+<li><strong>ألوان مخصّصة</strong> - ألوان الخلفية والحدود والمربّعات</li>
 <li><strong>الوضع الداكن والفاتح</strong> - تتكيّف البطاقة مع تفضيل نظام المُشاهِد</li>
 </ul>
 </article>
@@ -152,10 +152,10 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <article class="page-card">
 <h3>وضع المؤتمرات</h3>
 <ul>
-<li><strong>رمز QR على شاشة القفل</strong> - يُثبَّت رمز QR الخاص ببطاقتك على شاشة قفل iPhone ليتمكّن أي شخص من مسحه دون إلغاء القفل</li>
+<li><strong>رمز QR على شاشة القفل</strong> - يُثبَّت رمز QR الخاص ببطاقتك على شاشة قفل الهاتف ليتمكّن أي شخص من مسحه دون إلغاء القفل</li>
 <li><strong>يبقى لمدة ٨ ساعات</strong> - يغطّي يوم فعالية كاملًا، ثم يزول تلقائيًا</li>
 <li><strong>لا حاجة لفتح التطبيق</strong> - ناوِل الهاتف فحسب، فيمسحون الرمز، وانتهى الأمر</li>
-<li><strong>iOS فقط</strong> - يستخدم واجهة Live Activities API من Apple</li>
+<li><strong>iPhone وAndroid</strong> - وضع المؤتمرات نفسه على المنصتين</li>
 </ul>
 </article>
 
@@ -177,6 +177,6 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 ## على Android
 
-ميزة بطاقة العمل على Android مدمجة داخل [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) - دون تطبيق ثانٍ. افتح التطبيق، وأعدّ بطاقتك، والمس للمشاركة. نموذج البيانات نفسه، ومصافحة NFC نفسها، ونظام QR الاحتياطي نفسه. توليد العملاء المحتملين والتحليلات المتقدّمة ووضع المؤتمرات متوفّرة حاليًا على iOS فقط.
+[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) تطبيق مستقل على Google Play تمامًا كما هو على App Store. نموذج البيانات نفسه، ومصافحة NFC نفسها، ونظام QR الاحتياطي نفسه، وكذلك التقاط العملاء المحتملين والتحليلات ووضع المؤتمرات. أما الميزتان الخاصتان بـApple فتبقيان على iPhone: AppClip وبطاقات Apple Wallet. وعلى Android، يفتح المستلمون بطاقتك كملف تعريف على الويب - وهو ما يعمل على أي هاتف فيه متصفّح، دون أي تثبيت.
 
 </section>

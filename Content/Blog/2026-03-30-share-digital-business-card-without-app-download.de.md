@@ -105,7 +105,7 @@ Es ist eine kleine Sache, aber auf einem hektischen Event, wo du in der einen Ha
 ## Los geht's
 
 **Als Kartenbesitzer:**
-- Lade NFC.cool Business Card herunter ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-de&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-de))
+- Lade NFC.cool Business Card herunter ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-de&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-de))
 - Erstelle deine Karte mit deinen Details, Foto und Social-Links
 - Teile über NFC-Tag, QR-Code oder direkten Link
 

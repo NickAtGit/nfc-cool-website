@@ -70,4 +70,4 @@ image: "/assets/images/Blog/smart-context-remember-everyone.webp"
 
 في عالمٍ نتبادل فيه جهات الاتصال أسرع من أيّ وقت مضى، البيانات التي تهمّ ليست مَن تعرف - بل لماذا تعرفهم.
 
-[نزّل NFC.cool Business Card لجهاز iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-en&mt=8). يحصل مستخدمو Android على ميزات بطاقة العمل وSmart Context نفسها مضمّنةً في [NFC.cool Tools لنظام Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-en).
+[نزّل NFC.cool Business Card لجهاز iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-en&mt=8). يحصل مستخدمو Android على ميزات بطاقة العمل وSmart Context نفسها في [NFC.cool Business Card لنظام Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-en).

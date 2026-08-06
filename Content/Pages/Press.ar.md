@@ -66,7 +66,7 @@ description: "موارد صحفية لـNFC.cool - أصول العلامة وا�
 
 <article class="page-card">
 <h3>معرّفات الحزم</h3>
-<p><code>de.nicolo-stanciu.nfcing</code> (Tools iOS)، <code>cool.nfc</code> (Tools Android)، <code>io.stanc.DigitalBusinessCardApp</code> (Business Card iOS).</p>
+<p><code>de.nicolo-stanciu.nfcing</code> (Tools iOS)، <code>cool.nfc</code> (Tools Android)، <code>io.stanc.DigitalBusinessCardApp</code> (Business Card iOS)، <code>cool.nfc.businesscard</code> (Business Card Android).</p>
 </article>
 
 <article class="page-card">

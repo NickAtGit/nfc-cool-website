@@ -70,4 +70,4 @@ Con NFC.cool Business Card, la captura es un toque integrado en el intercambio d
 
 En un mundo en el que intercambiamos contactos más rápido que nunca, los datos que importan no son a quién conoces - sino por qué los conoces.
 
-[Descarga NFC.cool Business Card para iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-en&mt=8). Los usuarios de Android tienen las mismas funciones de tarjeta de visita y contexto inteligente integradas en [NFC.cool Tools para Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-en).
+[Descarga NFC.cool Business Card para iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-en&mt=8). Los usuarios de Android tienen las mismas funciones de tarjeta de visita y contexto inteligente en [NFC.cool Business Card para Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-en).

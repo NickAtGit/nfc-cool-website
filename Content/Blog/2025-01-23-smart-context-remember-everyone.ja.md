@@ -70,4 +70,4 @@ NFC.cool Business Cardでは、記録は連絡先交換にインラインのワ�
 
 これまで以上に速く連絡先を交換する世界で、本当に重要なデータは「誰を知っているか」ではなく「なぜ知っているか」です。
 
-[iPhoneでNFC.cool Business Cardをダウンロード](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-ja&mt=8)。Androidユーザーは同じ名刺機能とSmart Context機能を[Android向けNFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-ja)に同梱で利用できます。
+[iPhoneでNFC.cool Business Cardをダウンロード](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-ja&mt=8)。Androidユーザーは同じ名刺機能とSmart Context機能を[Android向けNFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-ja)で利用できます。

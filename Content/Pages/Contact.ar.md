@@ -44,7 +44,7 @@ description: "تواصل مع NFC.cool - دعم عبر البريد الإلكت
 
 <details class="faq-item">
 <summary>ما الفرق بين تطبيقي iOS وAndroid؟</summary>
-<p>تطبيق iPhone عبارة عن مجموعة مسح كاملة - NFC، وQR والباركود، والمستندات (مع OCR)، والمسح ثلاثي الأبعاد ومسح الغرف. أما تطبيق Android فيركّز على قراءة NFC وكتابته ويتضمّن ميزات بطاقة العمل الرقمية. أما الأدوات الأخرى فهي ضمن خطة تطوير Android.</p>
+<p>تطبيق iPhone عبارة عن مجموعة مسح كاملة - NFC، وQR والباركود، والمستندات (مع OCR)، والمسح ثلاثي الأبعاد ومسح الغرف. أما تطبيق Android فيركّز على قراءة NFC وكتابته. أما الأدوات الأخرى فهي ضمن خطة تطوير Android. وبطاقة العمل الرقمية تطبيق مستقل على المنصتين.</p>
 </details>
 
 <details class="faq-item">
@@ -54,7 +54,7 @@ description: "تواصل مع NFC.cool - دعم عبر البريد الإلكت
 
 <details class="faq-item">
 <summary>هل بطاقة العمل الرقمية تطبيق منفصل؟</summary>
-<p>على iPhone، نعم - NFC.cool Business Card Maker تطبيق مخصّص متوفّر على business-card.nfc.cool. على Android، تُضمَّن ميزات بطاقة العمل نفسها داخل NFC.cool Tools - دون حاجة إلى تثبيت إضافي.</p>
+<p>نعم - NFC.cool Business Card تطبيق مخصّص على iPhone وAndroid معًا. ويبقى NFC.cool Tools مركّزًا على المسح، فيما لبطاقة العمل تطبيقها الخاص على App Store وGoogle Play.</p>
 </details>
 
 ### الأجهزة والوسوم والميزات

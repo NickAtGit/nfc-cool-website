@@ -18,7 +18,7 @@ NFC.coolデジタル名刺はこれを反転させます：あなたがコント
 
 ## アプリをインストール
 
-NFC.coolを[iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-ja&mt=8)または[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ja)にダウンロード。名刺機能は両プラットフォームのNFC.cool Toolsに同梱されています - 別途購入や別途ダウンロードは不要。
+NFC.cool Business Cardを[iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-ja&mt=8)または[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ja)にダウンロード。どちらのプラットフォームでも無料でダウンロードできます。
 
 ---
 
@@ -84,4 +84,4 @@ NFC.coolフローは連絡先詳細をサーバーに保持します。タグ（
 
 それが本格的なネットワーキングで唯一重要な機能です - データが印刷された名刺より長生きする。
 
-[NFC.cool Tools（iPhone）](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-ja&mt=8) · [NFC.cool Tools（Android）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ja) · またはiOS向け単独アプリ[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-ja&mt=8)。
+[NFC.cool Tools（iPhone）](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-ja&mt=8) · [NFC.cool Tools（Android）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ja) · または単独アプリのNFC.cool Business Cardを[iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-ja&mt=8)と[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ja)で。

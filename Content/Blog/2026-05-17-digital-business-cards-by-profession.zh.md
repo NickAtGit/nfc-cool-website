@@ -128,7 +128,7 @@ ogDescription: "房地产、医疗、咨询：纸质名片辜负每一种职业�
 
 充分披露：这是我自己的 App，所以请带着这一点来读接下来这几段。我会尽量坦白地说清它强在哪、不强在哪。
 
-NFC.cool Business Card 在 iPhone 上是一款独立 App，同样的功能在 Android 上被打包进了 NFC.cool Tools。对于上面这些职业，它做得好的地方有：
+NFC.cool Business Card 在 iPhone 和 Android 上都是一款独立 App。对于上面这些职业，它做得好的地方有：
 
 - App 界面和 App Clip 支持 **35 种语言**，比我所知的任何其他电子名片都多。在 iOS 上，你的名片会以客户的语言显示。（Android 的分享网站目前只有英文。）
 - **接收你名片的人无需 App。** 在 iPhone 上他们看到的是原生的 App Clip；在 Android 上是 nfc.cool 域名下的一个页面。两者都有一个“保存联系人”按钮。
@@ -148,7 +148,7 @@ NFC.cool Business Card 在 iPhone 上是一款独立 App，同样的功能在 An
 
 坦白的说法是：对一名经纪人、一位医生或一个单干者来说，日常真正要紧的是分享够快、名片看起来像*你本人*，并且日后不会让你尴尬。这正是我做它的初衷。如果你需要一个焊死在名片上的销售 CRM，那就去买能做这件事的工具。
 
-你可以[在 App Store 上获取 NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8)，或者[在 Android 上通过 NFC.cool Tools 获取](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en)。
+你可以[在 App Store 上获取 NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8)，或者[在 Google Play 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en)。
 
 ---
 
@@ -186,4 +186,4 @@ NFC 和二维码在全球的手机上都能用。至于*名片本身*是否会�
 
 电子名片跟得上这种变动。挑一款对方那一端无需 App、支持 NFC 和二维码、并且尊重你联系人数据的，然后就彻底别再去操心名片这件事了。这才是真正的胜利。
 
-如果你想试试我的，NFC.cool Business Card 可免费开始使用，支持 [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) 和 [Android（通过 NFC.cool Tools）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en)。
+如果你想试试我的，NFC.cool Business Card 可免费开始使用，支持 [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en)。

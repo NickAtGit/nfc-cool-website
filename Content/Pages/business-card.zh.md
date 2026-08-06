@@ -13,13 +13,13 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-一款适用于 iPhone 和 Android 的电子名片制作应用。轻轻一触即可分享你的联系方式（支持 NFC、二维码、AppClip 或 Apple Wallet），并看清究竟是谁真正保存了你的名片。在 Android 上，这些功能均已集成在 NFC.cool Tools 中。
+一款适用于 iPhone 和 Android 的电子名片制作应用。轻轻一触即可分享你的联系方式（支持 NFC 和二维码，在 iPhone 上还支持 AppClip 与 Apple Wallet），并看清究竟是谁真正保存了你的名片。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -104,7 +104,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>自定义与品牌化</h3>
 <ul>
 <li><strong>可定制徽标</strong>：浅色和深色模式分设标识</li>
-<li><strong>自定义配色</strong>：背景、边框和卡片色块颜色（iOS）</li>
+<li><strong>自定义配色</strong>：背景、边框和卡片色块颜色</li>
 <li><strong>深色与浅色模式</strong>：名片自动适配查看者的系统偏好</li>
 </ul>
 </article>
@@ -152,10 +152,10 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <article class="page-card">
 <h3>会议模式</h3>
 <ul>
-<li><strong>锁定屏幕上的二维码</strong>：将名片二维码固定在 iPhone 锁定屏幕上，无需解锁，任何人都能扫描</li>
+<li><strong>锁定屏幕上的二维码</strong>：将名片二维码固定在手机锁定屏幕上，无需解锁，任何人都能扫描</li>
 <li><strong>持续 8 小时</strong>：覆盖一整天的活动，之后自动清除</li>
 <li><strong>无需打开应用</strong>：直接把手机递过去，对方一扫即可，就这么简单</li>
-<li><strong>仅限 iOS</strong>：基于 Apple 的实时活动 API</li>
+<li><strong>iPhone 和 Android</strong>：两个平台的会议模式完全一致</li>
 </ul>
 </article>
 
@@ -177,6 +177,6 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 ## 在 Android 上
 
-Android 上的电子名片功能已内置于 [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) 中，无需再装第二个应用。打开应用，设置好你的名片，轻触即可分享。相同的数据模型、相同的 NFC 握手机制、相同的二维码后备方案。线索获取、高级数据分析和会议模式目前仅限 iOS。
+[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) 在 Google Play 上同样是一款独立应用，与 App Store 上完全一致。相同的数据模型、相同的 NFC 握手机制、相同的二维码后备方案，线索获取、数据分析和会议模式也都一样。只有两项 Apple 特有的能力仅限 iPhone：AppClip 和 Apple Wallet 卡券。在 Android 上，对方会以网页名片的形式打开你的名片 - 任何带浏览器的手机都能用，无需安装。
 
 </section>

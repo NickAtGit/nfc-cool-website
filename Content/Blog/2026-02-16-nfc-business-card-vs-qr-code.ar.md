@@ -198,7 +198,7 @@ NFC اختصار لـ**Near Field Communication** (الاتصال قريب ال�
 - **NFC مفتوح** - يعمل مع أي وسم NFC قياسي - لا يبيع NFC.cool عتادًا خاصًا
 - **بأسعار معقولة** - باقة Personal بسعر €٢٠ سنويًا، وSmall Business بسعر €٥٠ سنويًا (١٠ بطاقات)، وBusiness بسعر €١٠٠ سنويًا (١٠٠ بطاقة)
 
-**جرّب NFC.cool Business Card:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Android (داخل NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
+**جرّب NFC.cool Business Card:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
 
 ---
 

@@ -54,10 +54,10 @@ Feature slugs: `nfc-reader-writer`, `qr-scanner`, `barcode-scanner`, `document-s
 NFC.cool is two products with different platform reach:
 
 - **NFC.cool Tools (iOS)** - full toolkit: NFC, QR, barcode, document, 3D, room scanning. Bundle id `de.nicolo-stanciu.nfcing`, App Store id `1249686798`, short URL `https://ios.nfc.cool`.
-- **NFC.cool Tools (Android)** - NFC scanning only, plus the Business Card features bundled in. Package `cool.nfc`, short URL `https://android.nfc.cool`.
-- **NFC.cool Business Card (iOS)** - dedicated standalone iOS app. Bundle id `io.stanc.DigitalBusinessCardApp`, App Store id `6502926572`, short URL `https://business-card.nfc.cool`.
+- **NFC.cool Tools (Android)** - NFC scanning. Package `cool.nfc`, short URL `https://android.nfc.cool`. It still carries the legacy bundled Business Card for existing users, but the site never advertises that - every Business Card CTA points at the dedicated app.
+- **NFC.cool Business Card** - dedicated standalone app on both platforms. iOS bundle id `io.stanc.DigitalBusinessCardApp`, App Store id `6502926572`, short URL `https://business-card.nfc.cool`; Android package `cool.nfc.businesscard`. AppClip and Apple Wallet passes are iPhone-only; everything else (lead capture, analytics, Conference Mode, custom colors) ships on both.
 
-The site presents NFC.cool as one brand. The hero + main feature grid focuses on Tools (cross-platform). The `featureBanner` section calls out the standalone Business Card iOS app and notes the Android-bundled equivalent.
+The site presents NFC.cool as one brand. The hero + main feature grid focuses on Tools (cross-platform). The `featureBanner` section calls out the standalone Business Card app with dual store badges.
 
 ## Source layout
 

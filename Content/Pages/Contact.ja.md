@@ -44,7 +44,7 @@ description: "NFC.coolへのお問い合わせ - メールサポート、よく�
 
 <details class="faq-item">
 <summary>iOS版とAndroid版の違いは？</summary>
-<p>iPhone版はフル機能のスキャン・ツールキットです - NFC、QR・バーコード、書類(OCR付き)、3D・ルームスキャン。Android版はNFCの読み取りと書き込みに加え、デジタル名刺機能を備えています。その他のツールはAndroidのロードマップに含まれています。</p>
+<p>iPhone版はフル機能のスキャン・ツールキットです - NFC、QR・バーコード、書類(OCR付き)、3D・ルームスキャン。Android版はNFCの読み取りと書き込みに特化しています。その他のツールはAndroidのロードマップに含まれています。デジタル名刺は、どちらのプラットフォームでも独立したアプリです。</p>
 </details>
 
 <details class="faq-item">
@@ -54,7 +54,7 @@ description: "NFC.coolへのお問い合わせ - メールサポート、よく�
 
 <details class="faq-item">
 <summary>デジタル名刺は別のアプリですか？</summary>
-<p>iPhoneでは、はい - NFC.cool Business Card Makerはbusiness-card.nfc.coolで提供されている専用アプリです。Androidでは同じデジタル名刺機能がNFC.cool Toolsに組み込まれており、追加のインストールは必要ありません。</p>
+<p>はい - NFC.cool Business CardはiPhoneでもAndroidでも専用アプリです。NFC.cool Toolsはスキャンに専念しており、名刺はApp StoreとGoogle Playそれぞれで独立したアプリとして提供されています。</p>
 </details>
 
 ### デバイス・タグ・機能

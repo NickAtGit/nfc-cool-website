@@ -32,7 +32,7 @@ NFC.cool adalah produk independen dari **Nicolo Stanciu**, dibangun antara Jerma
 
 NFC.cool dimulai sebagai kebutuhan pribadi. Apple membuka NFC di iOS pada tahun 2017, dan saya adalah salah satu yang pertama membangun untuknya - saya merilis versi pertama NFC.cool Tools tahun itu, meletakkannya di App Store, dan menyaksikan komunitas kecil namun bersemangat terbentuk di sekitarnya.
 
-NFC.cool sejak itu berkembang menjadi keluarga aplikasi: toolkit pemindaian lengkap (NFC, QR, Barcode, Dokumen, 3D, Pemindaian Ruangan, Webhook), aplikasi Business Card khusus, dan versi Android yang berfokus pada apa yang paling baik dilakukan Android - bersama-sama membawa {{RATINGS_TOTAL}}+ penilaian dengan rata-rata {{RATINGS_AVG}} bintang di App Store dan Google Play. Semuanya masih dikirimkan dari satu keyboard - satu orang, bekerja antara Jerman dan Portugal.
+NFC.cool sejak itu berkembang menjadi keluarga aplikasi: toolkit pemindaian lengkap (NFC, QR, Barcode, Dokumen, 3D, Pemindaian Ruangan, Webhook), aplikasi Business Card khusus untuk iPhone dan Android, serta versi Android dari toolkit yang berfokus pada apa yang paling baik dilakukan Android - bersama-sama membawa {{RATINGS_TOTAL}}+ penilaian dengan rata-rata {{RATINGS_AVG}} bintang di App Store dan Google Play. Semuanya masih dikirimkan dari satu keyboard - satu orang, bekerja antara Jerman dan Portugal.
 
 Saya mempertahankannya demikian dengan sengaja. Tidak ada VC, tidak ada tim pertumbuhan - hanya satu orang yang benar-benar menggunakan apa yang mereka kirimkan setiap hari.
 

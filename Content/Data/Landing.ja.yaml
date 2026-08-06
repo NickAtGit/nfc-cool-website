@@ -55,10 +55,10 @@ features:
 
 featureBanner:
   title: "NFC.cool Business Card"
-  subtitle: "iPhone専用のデジタル名刺アプリ - NFCタッチ、QRコード、App Clip、Apple Walletで共有できます。誰がカードを保存したかをトラッキングし、リードを管理し、イベント向けにConference Modeを利用できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。"
+  subtitle: "iPhoneとAndroid向けの専用デジタル名刺アプリ - NFCタッチやQRコードで共有でき、iPhoneではApp ClipとApple Walletにも対応しています。誰がカードを保存したかをトラッキングし、リードを管理し、イベント向けにConference Modeを利用できます。"
   imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
   appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
-  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
+  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
 
 appStoreReviewsTitle: "ユーザーの声"
 appStoreReviews:
@@ -104,7 +104,7 @@ faq:
   - question: "NFC.coolは無料ですか？"
     answer: "はい - NFC.cool ToolsとNFC.cool Business CardはApp StoreとGoogle Playから無料でダウンロードできます。NFCタグの読み取り、QRコードとバーコードのスキャン、ドキュメントスキャン(OCR付き)、3D・ルームスキャンはすべて無料。オプションのPlatinumサブスクリプションでは、NFC Safe(256ビットAES暗号化シークレット)、高度なNFC操作(フォーマット、パスワード保護、ロック、バッチモード、CSV書き込み、エキスパートコマンド、タップカウンター)、QRパワー機能(透かしなし、バッチ読み取り)、ドキュメントのPDFエクスポートとiCloudへの自動エクスポート、3D面積計算・モデルエクスポート・写真エクスポート、iOSショートカット・ウィジェット・コントロールセンター、Webhook、音声合成、プレミアムアプリアイコンとカラー、広告非表示と優先サポートが利用できます。"
   - question: "対応プラットフォームは何ですか？"
-    answer: "NFC.cool ToolsはiPhone、iPad、Androidに対応しています。NFC.cool Business CardはiPhone専用ですが、その機能はAndroidではNFC.cool Toolsに統合されているため、Androidユーザーも2つ目のアプリを入れずに同じデジタル名刺機能を利用できます。iPadではカメラを使うすべての機能(QR、バーコード、ドキュメント、3D、ルームスキャン)が動作しますが、iPadにはNFCハードウェアがないため、NFCの読み書きにはiPhoneが必要です。"
+    answer: "NFC.cool ToolsはiPhone、iPad、Androidに対応しています。NFC.cool Business Cardは独立したアプリで、iPhoneとAndroidに対応しています。iPadではカメラを使うすべての機能(QR、バーコード、ドキュメント、3D、ルームスキャン)が動作しますが、iPadにはNFCハードウェアがないため、NFCの読み書きにはiPhoneが必要です。"
   - question: "NFC.coolをどう始めればいいですか？"
     answer: "App StoreまたはGoogle PlayからNFC.cool Toolsをダウンロードし、各タブを試してみましょう - NFCはタグの読み書き、QRはQRコードとバーコード、Documentは紙からPDFへの変換、3Dは物体や部屋のキャプチャ用です。アカウント登録は不要、すべて端末上で動作します。"
   - question: "最初のNFCタグをどうスキャンしますか？"

@@ -32,7 +32,7 @@ NFC.cool is an independent product from **Nicolo Stanciu**, built between German
 
 NFC.cool started as a personal itch. Apple opened up NFC on iOS in 2017, and I was one of the first to build for it - I shipped the first version of NFC.cool Tools that year, put it on the App Store, and watched a small but passionate community form around it.
 
-NFC.cool has since grown into a family of apps: the full scanning toolkit (NFC, QR, Barcodes, Documents, 3D, Room Scans, Webhooks), the dedicated Business Card app, and an Android version focused on what Android does best - together carrying {{RATINGS_TOTAL}}+ ratings at {{RATINGS_AVG}} stars across the App Store and Google Play. Everything still ships from one keyboard - one person, working between Germany and Portugal.
+NFC.cool has since grown into a family of apps: the full scanning toolkit (NFC, QR, Barcodes, Documents, 3D, Room Scans, Webhooks), the dedicated Business Card app on iPhone and Android, and an Android build of the toolkit focused on what Android does best - together carrying {{RATINGS_TOTAL}}+ ratings at {{RATINGS_AVG}} stars across the App Store and Google Play. Everything still ships from one keyboard - one person, working between Germany and Portugal.
 
 I keep it that way on purpose. No VC, no growth team - just one person who actually uses what they ship every day.
 

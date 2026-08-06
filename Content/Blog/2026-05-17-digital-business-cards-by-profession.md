@@ -128,7 +128,7 @@ The professions differ; the checklist mostly doesn't. Whatever you do, a digital
 
 Full disclosure: this is my app, so read the next few paragraphs knowing that. I'll try to be straight about where it's strong and where it isn't.
 
-NFC.cool Business Card is a standalone app on iPhone, and the same features are bundled into NFC.cool Tools on Android. Here's what it does well for the professions above:
+NFC.cool Business Card is a standalone app on iPhone and Android. Here's what it does well for the professions above:
 
 - **35 languages** in the app interface and the App Clip - more than any other digital business card I'm aware of. Your card displays in your client's language on iOS. (The Android sharing website is English-only for now.)
 - **No app for the person receiving your card.** On iPhone they get a native App Clip; on Android, a page on the nfc.cool domain. Both have a "Save Contact" button.
@@ -148,7 +148,7 @@ Where competitors are genuinely ahead:
 
 The honest version: for an agent, a physician, or a soloist, what matters day to day is that sharing is fast, the card looks like *you*, and nothing embarrasses you later. That's what I built it for. If you need a sales CRM welded to your business card, buy the tool that does that.
 
-You can [get NFC.cool Business Card on the App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) or [on Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+You can [get NFC.cool Business Card on the App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) or [on Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
 
 ---
 
@@ -186,4 +186,4 @@ Paper business cards didn't fail because they were paper. They failed because th
 
 A digital card keeps up. Pick one that needs no app on the other end, supports NFC and QR, and treats your contacts' data with respect - then stop thinking about business cards entirely. That's the real win.
 
-If you want to try mine, NFC.cool Business Card is free to start on [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) and on [Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+If you want to try mine, NFC.cool Business Card is free to start on [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) and on [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).

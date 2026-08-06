@@ -105,7 +105,7 @@ C'est un petit détail, mais lors d'un événement chargé où vous tenez un caf
 ## Pour commencer
 
 **En tant que titulaire de la carte :**
-- Téléchargez NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-fr&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-fr))
+- Téléchargez NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-fr&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-fr))
 - Créez votre carte avec vos coordonnées, votre photo et vos liens sociaux
 - Partagez-la via un tag NFC, un QR code ou un lien direct
 

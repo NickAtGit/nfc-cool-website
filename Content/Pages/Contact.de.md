@@ -44,7 +44,7 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 <details class="faq-item">
 <summary>Worin unterscheiden sich die iOS- und Android-App?</summary>
-<p>Die iPhone-App ist ein vollwertiges Scan-Toolkit - NFC, QR &amp; Barcodes, Dokumente (mit OCR), 3D- und Raumscan. Die Android-App konzentriert sich auf NFC-Lesen und -Schreiben und enthält die digitale Visitenkarte. Die übrigen Tools sind auf der Android-Roadmap.</p>
+<p>Die iPhone-App ist ein vollwertiges Scan-Toolkit - NFC, QR &amp; Barcodes, Dokumente (mit OCR), 3D- und Raumscan. Die Android-App konzentriert sich auf NFC-Lesen und -Schreiben. Die übrigen Tools sind auf der Android-Roadmap. Die digitale Visitenkarte ist auf beiden Plattformen eine eigene App.</p>
 </details>
 
 <details class="faq-item">
@@ -54,7 +54,7 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 <details class="faq-item">
 <summary>Ist die digitale Visitenkarte eine separate App?</summary>
-<p>Auf dem iPhone ja - NFC.cool Business Card Maker ist eine eigene App unter business-card.nfc.cool. Auf Android sind die gleichen Visitenkarten-Funktionen direkt in NFC.cool Tools enthalten - keine zusätzliche Installation nötig.</p>
+<p>Ja - NFC.cool Business Card ist auf iPhone und Android eine eigene App. NFC.cool Tools bleibt aufs Scannen fokussiert, die Visitenkarte hat ihre eigene App im App Store und bei Google Play.</p>
 </details>
 
 ### Geräte, Tags & Funktionen

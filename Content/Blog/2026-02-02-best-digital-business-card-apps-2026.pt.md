@@ -108,7 +108,7 @@ Aqui está uma visão geral de todas as oito apps:
 
 ### 1. NFC.cool Business Card - Melhor para Privacidade e Profissionais Multilingues
 
-**O que é:** Uma app de cartão de visita digital da NFC.cool, o estúdio indie por trás de 13 apps de NFC e utilitários com mais de 9 milhões de transferências. Disponível como app autónoma no iOS e como parte da [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en) no Android.
+**O que é:** Uma app de cartão de visita digital da NFC.cool, o estúdio indie por trás de 13 apps de NFC e utilitários com mais de 9 milhões de transferências. Disponível como app autónoma no iOS e no [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).
 
 **O que eu gosto:**
 - **35 idiomas** - a interface da app e o App Clip estão disponíveis em 35 idiomas, o que faz dele de longe o cartão de visita digital mais multilingue do mercado. Se trabalha internacionalmente, isto importa.
@@ -128,7 +128,7 @@ Aqui está uma visão geral de todas as oito apps:
 
 **Melhor para:** Profissionais preocupados com a privacidade, quem faz networking internacional, qualquer pessoa que queira flexibilidade NFC sem ficar preso a hardware, utilizadores indie/de pequenas empresas que valorizam um desenvolvimento transparente.
 
-[Transferir a NFC.cool Business Card na App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [Obter no Android (dentro da NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
+[Transferir a NFC.cool Business Card na App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [Obter no Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
 
 ---
 
@@ -340,4 +340,4 @@ E se precisa de **implementação à escala empresarial**, tanto a Blinq como a 
 
 Seja o que for que escolher, deixe os cartões de papel. Estamos em 2026 - o seu cartão de visita deve ser tão inteligente como o resto do seu fluxo de trabalho.
 
-*Pronto para experimentar a NFC.cool Business Card? Transfira-a gratuitamente na [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) ou [obtenha-a no Android dentro da NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).*
+*Pronto para experimentar a NFC.cool Business Card? Transfira-a gratuitamente na [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) ou [obtenha-a no Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).*

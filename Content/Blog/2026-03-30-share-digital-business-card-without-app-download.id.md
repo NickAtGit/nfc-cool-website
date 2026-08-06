@@ -105,7 +105,7 @@ Ini adalah hal kecil, tetapi di acara yang ramai di mana Anda memegang kopi di s
 ## Memulai
 
 **Sebagai pemilik kartu:**
-- Unduh NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en))
+- Unduh NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en))
 - Buat kartu Anda dengan detail, foto, dan tautan sosial Anda
 - Bagikan melalui tag NFC, kode QR, atau tautan langsung
 

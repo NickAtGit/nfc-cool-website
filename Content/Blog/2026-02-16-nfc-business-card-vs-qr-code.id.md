@@ -198,7 +198,7 @@ Beberapa hal yang membedakannya:
 - **NFC terbuka** - Bekerja dengan tag NFC standar apa pun - NFC.cool tidak menjual perangkat keras eksklusif
 - **Terjangkau** - Paket Personal €20/tahun, Usaha Kecil €50/tahun (10 kartu), Bisnis €100/tahun (100 kartu)
 
-Coba NFC.cool Business Card: [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Android (di dalam NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
+Coba NFC.cool Business Card: [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
 
 ---
 

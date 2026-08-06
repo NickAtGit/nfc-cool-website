@@ -198,7 +198,7 @@ Quelques éléments qui la distinguent :
 - **NFC ouvert** - Fonctionne avec n'importe quel tag NFC standard - NFC.cool ne vend pas de matériel propriétaire
 - **Abordable** - Forfait Personnel à 20 €/an, Petite Entreprise à 50 €/an (10 cartes), Entreprise à 100 €/an (100 cartes)
 
-**Essayez NFC.cool Business Card :** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-fr&mt=8) · [Android (dans NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-fr)
+**Essayez NFC.cool Business Card :** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-fr&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-fr)
 
 ---
 

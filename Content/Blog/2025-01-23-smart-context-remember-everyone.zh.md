@@ -70,4 +70,4 @@ image: "/assets/images/Blog/smart-context-remember-everyone.webp"
 
 在这个交换联系人比以往任何时候都更快的世界里，真正重要的数据不是你认识谁，而是你为什么认识他们。
 
-[下载 NFC.cool Business Card for iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-en&mt=8)。Android 用户可在 [NFC.cool Tools for Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-en) 里获得同样的电子名片和智能情境功能。
+[下载 NFC.cool Business Card for iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-en&mt=8)。Android 用户可在 [NFC.cool Business Card for Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-en) 中获得同样的电子名片和智能情境功能。

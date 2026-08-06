@@ -108,7 +108,7 @@ Berikut gambaran singkat dari semua delapan aplikasi:
 
 ### 1. NFC.cool Business Card - terbaik untuk privasi & profesional multibahasa
 
-**Apa ini:** Aplikasi kartu nama digital dari NFC.cool, studio indie di balik 13 aplikasi NFC dan utilitas dengan lebih dari 9 juta unduhan. Tersedia sebagai aplikasi mandiri di iOS dan sebagai bagian dari [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en) di Android.
+**Apa ini:** Aplikasi kartu nama digital dari NFC.cool, studio indie di balik 13 aplikasi NFC dan utilitas dengan lebih dari 9 juta unduhan. Tersedia sebagai aplikasi mandiri di iOS dan [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).
 
 **Yang saya sukai:**
 - **35 bahasa** - UI aplikasi dan App Clip tersedia dalam 35 bahasa, menjadikannya kartu nama digital paling multibahasa di pasar sejauh ini. Jika Anda bekerja secara internasional, ini sangat penting.
@@ -128,7 +128,7 @@ Berikut gambaran singkat dari semua delapan aplikasi:
 
 **Terbaik untuk:** Profesional yang mengutamakan privasi, networker internasional, siapa saja yang menginginkan fleksibilitas NFC tanpa ketergantungan perangkat keras, pengguna indie/usaha kecil yang menghargai pengembangan yang transparan.
 
-[Unduh NFC.cool Business Card di App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [Dapatkan di Android (dalam NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
+[Unduh NFC.cool Business Card di App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [Dapatkan di Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
 
 ---
 
@@ -340,4 +340,4 @@ Dan jika Anda membutuhkan **penerapan skala enterprise**, Blinq dan HiHello kedu
 
 Apa pun yang Anda pilih, tinggalkan kartu kertas. Ini 2026 - kartu nama Anda seharusnya secerdas alur kerja Anda yang lainnya.
 
-*Siap mencoba NFC.cool Business Card? Unduh gratis di [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) atau [dapatkan di Android dalam NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).*
+*Siap mencoba NFC.cool Business Card? Unduh gratis di [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) atau [dapatkan di Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).*

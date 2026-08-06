@@ -18,7 +18,7 @@ Kartu nama digital NFC.cool membalik itu: satu URL yang Anda kendalikan, ditulis
 
 ## Instal aplikasi
 
-Unduh NFC.cool untuk [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-en&mt=8) atau [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en). Fitur kartu nama sudah terbundel ke dalam NFC.cool Tools di kedua platform - tidak perlu pembelian terpisah, tidak perlu unduhan terpisah.
+Unduh NFC.cool Business Card untuk [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) atau [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en). Gratis diunduh di kedua platform.
 
 ---
 
@@ -84,4 +84,4 @@ Alur NFC.cool menyimpan detail kontak Anda di server. Tag (atau QR) hanya menunj
 
 Itulah satu-satunya fitur yang penting untuk networking serius - datanya bertahan lebih lama dari kartu cetak.
 
-[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-en&mt=8) - [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en) - atau [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) yang berdiri sendiri untuk iOS.
+[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-en&mt=8) - [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en) - atau NFC.cool Business Card yang berdiri sendiri untuk [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en).

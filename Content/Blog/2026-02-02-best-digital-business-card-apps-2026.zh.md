@@ -108,7 +108,7 @@ ogDescription: "一份诚实、详尽的 8 款电子名片应用对比：附价�
 
 ### 1. NFC.cool Business Card：最适合注重隐私和多语言的专业人士
 
-**它是什么：** 来自 NFC.cool 的电子名片应用。NFC.cool 是一家独立工作室，旗下有 13 款 NFC 与工具类应用，下载量超过 900 万。它在 iOS 上作为独立应用提供，在 Android 上则作为 [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en) 的一部分提供。
+**它是什么：** 来自 NFC.cool 的电子名片应用。NFC.cool 是一家独立工作室，旗下有 13 款 NFC 与工具类应用，下载量超过 900 万。它在 iOS 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en) 上都作为独立应用提供。
 
 **我喜欢的地方：**
 - **35 种语言** ：应用界面和 App Clip 提供 35 种语言，使它成为市面上多语言支持最强的电子名片，没有之一。如果你在国际范围内工作，这一点很重要。
@@ -128,7 +128,7 @@ ogDescription: "一份诚实、详尽的 8 款电子名片应用对比：附价�
 
 **最适合：** 注重隐私的专业人士、在国际范围拓展人脉的人、希望拥有 NFC 灵活性又不想被硬件锁定的人，以及看重透明开发的独立/小型企业用户。
 
-[在 App Store 下载 NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [在 Android 上获取（内置于 NFC.cool Tools）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
+[在 App Store 下载 NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [在 Google Play 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
 
 ---
 
@@ -340,4 +340,4 @@ ogDescription: "一份诚实、详尽的 8 款电子名片应用对比：附价�
 
 无论你选哪一个，请抛弃纸质名片吧。已经是 2026 年了，你的名片也该像你工作流的其余部分一样智能。
 
-*准备好试试 NFC.cool Business Card 了吗？在 [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) 上免费下载，或 [在 Android 上通过 NFC.cool Tools 获取](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)。*
+*准备好试试 NFC.cool Business Card 了吗？在 [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) 上免费下载，或 [在 Android 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)。*

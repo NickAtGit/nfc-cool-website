@@ -108,7 +108,7 @@ ogDescription: "مقارنة صادقة ومفصّلة بين ٨ تطبيقات 
 
 ### ١. NFC.cool Business Card - الأفضل للخصوصية والمحترفين متعددي اللغات
 
-**ما هو:** تطبيق بطاقة عمل رقمية من NFC.cool، الاستوديو المستقل الذي يقف خلف ١٣ تطبيقًا لـNFC والأدوات المساعدة بأكثر من ٩ ملايين تنزيل. متوفّر كتطبيق مستقل على iOS وكجزء من [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en) على Android.
+**ما هو:** تطبيق بطاقة عمل رقمية من NFC.cool، الاستوديو المستقل الذي يقف خلف ١٣ تطبيقًا لـNFC والأدوات المساعدة بأكثر من ٩ ملايين تنزيل. متوفّر كتطبيق مستقل على iOS و[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).
 
 **ما يعجبني:**
 - **٣٥ لغة** - واجهة التطبيق وApp Clip متوفّرتان بـ٣٥ لغة، ما يجعله إلى حد بعيد أكثر بطاقات العمل الرقمية دعمًا للغات في السوق. إذا كنت تعمل على المستوى الدولي، فهذا مهم.
@@ -128,7 +128,7 @@ ogDescription: "مقارنة صادقة ومفصّلة بين ٨ تطبيقات 
 
 **الأفضل لـ:** المحترفون المهتمون بالخصوصية، والمتواصلون على المستوى الدولي، وكل من يريد مرونة NFC دون الانحصار في أجهزة معيّنة، ومستخدمو الأعمال المستقلة/الصغيرة الذين يقدّرون التطوير الشفّاف.
 
-[نزّل NFC.cool Business Card من App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [احصل عليه على Android (داخل NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
+[نزّل NFC.cool Business Card من App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [احصل عليه من Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
 
 ---
 
@@ -344,4 +344,4 @@ ogDescription: "مقارنة صادقة ومفصّلة بين ٨ تطبيقات 
 
 أيًا كان اختيارك، تخلَّ عن البطاقات الورقية. نحن في ٢٠٢٦ - ينبغي أن تكون بطاقة عملك ذكية بقدر بقية سير عملك.
 
-*مستعد لتجربة NFC.cool Business Card؟ نزّله مجانًا من [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) أو [احصل عليه على Android داخل NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).*
+*مستعد لتجربة NFC.cool Business Card؟ نزّله مجانًا من [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) أو [احصل عليه على Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).*

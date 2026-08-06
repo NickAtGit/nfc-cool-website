@@ -13,13 +13,13 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Um criador de cartões de visita digitais para iPhone e Android. Partilhe os seus contactos com um toque - NFC, código QR, AppClip ou Apple Wallet - e veja quem realmente guarda o seu cartão. No Android, as mesmas funcionalidades estão incluídas na NFC.cool Tools.
+Um criador de cartões de visita digitais para iPhone e Android. Partilhe os seus contactos com um toque - NFC ou código QR e, no iPhone, também AppClip ou Apple Wallet - e veja quem realmente guarda o seu cartão.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Transferir na App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Transferir na App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Obter no Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -104,7 +104,7 @@ Um criador de cartões de visita digitais para iPhone e Android. Partilhe os seu
 <h3>Personalização e marca</h3>
 <ul>
 <li><strong>Logótipos personalizáveis</strong> - marcas distintas para modo claro e escuro</li>
-<li><strong>Cores personalizadas</strong> - cores de fundo, contorno e blocos (iOS)</li>
+<li><strong>Cores personalizadas</strong> - cores de fundo, contorno e blocos</li>
 <li><strong>Modo escuro e claro</strong> - o cartão adapta-se à preferência do sistema de quem o vê</li>
 </ul>
 </article>
@@ -152,10 +152,10 @@ Um criador de cartões de visita digitais para iPhone e Android. Partilhe os seu
 <article class="page-card">
 <h3>Modo Conferência</h3>
 <ul>
-<li><strong>QR no ecrã de bloqueio</strong> - o código QR do seu cartão fixado no ecrã de bloqueio do iPhone, para que qualquer pessoa o possa ler sem desbloquear</li>
+<li><strong>QR no ecrã de bloqueio</strong> - o código QR do seu cartão fixado no ecrã de bloqueio do telemóvel, para que qualquer pessoa o possa ler sem desbloquear</li>
 <li><strong>Permanece 8 horas</strong> - cobre um dia inteiro de evento e depois desaparece</li>
 <li><strong>Sem abrir a app</strong> - basta entregar o telemóvel, a pessoa lê o código e pronto</li>
-<li><strong>Apenas iOS</strong> - usa a API Live Activities da Apple</li>
+<li><strong>iPhone e Android</strong> - o mesmo Modo Conferência em ambos</li>
 </ul>
 </article>
 
@@ -177,6 +177,6 @@ Escolha o plano que se adequa à frequência com que faz networking. Todos os pl
 
 ## No Android
 
-A funcionalidade de cartão de visita no Android está integrada na [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) - sem segunda app. Abra a app, configure o seu cartão, toque para partilhar. O mesmo modelo de dados, o mesmo handshake NFC, a mesma alternativa por QR. A geração de contactos, a análise de dados avançada e o Modo Conferência são, de momento, exclusivos do iOS.
+O [NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) é uma app própria no Google Play, tal como na App Store. O mesmo modelo de dados, o mesmo handshake NFC, a mesma alternativa por QR, a mesma captação de contactos, análise de dados e Modo Conferência. As duas peças específicas da Apple ficam no iPhone: o AppClip e os passes da Apple Wallet. No Android, quem recebe abre o seu cartão como perfil web - funciona em qualquer telemóvel com browser, sem instalar nada.
 
 </section>

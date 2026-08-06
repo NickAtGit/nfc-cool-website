@@ -178,7 +178,7 @@ ogDescription: "توقّف عن طباعة ٥٠٠ بطاقة ينتهي بها �
 
 إليك كل ما تحتاج إلى فعله، بالترتيب:
 
-- [ ] **نزّل تطبيق بطاقة عمل رقمية** (نوصي بـ[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) - مجاني على [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) و[Android (داخل NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en))
+- [ ] **نزّل تطبيق بطاقة عمل رقمية** (نوصي بـ[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) - مجاني على [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) و[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en))
 - [ ] **أنشئ بطاقتك** بالاسم والمنصب والشركة ومعلومات الاتصال والروابط
 - [ ] **أضِف صورتك** - فهي تساعد الناس على تذكّرك بعد الفعالية
 - [ ] **احفظ رمز QR في Apple Wallet (iOS)** للوصول السريع من شاشة القفل
@@ -225,4 +225,4 @@ ogDescription: "توقّف عن طباعة ٥٠٠ بطاقة ينتهي بها �
 
 مؤتمرك القادم على الأبواب. هذه المرة، اترك الورق في البيت.
 
-*يتوفّر NFC.cool Business Card مجانًا على [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) وعلى [Android داخل NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en). أنشئ بطاقتك الأولى في أقل من دقيقة.*
+*يتوفّر NFC.cool Business Card مجانًا على [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) وعلى [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en). أنشئ بطاقتك الأولى في أقل من دقيقة.*

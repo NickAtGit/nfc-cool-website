@@ -3,13 +3,17 @@ id: nfc-blog-023
 title: "NFC.cool ist jetzt im Play Store"
 date: 2024-04-05
 tags: ["announcements", "android", "nfc-tags"]
-summary: "NFC.cool Tools ist live in Google Play. NFC-Scannen, Tag-Schreiben und die mitgelieferte NFC.cool Business Card - jetzt auf Android, mit dem gleichen Feature-Set wie die iOS-App für die Teile, die Android-kompatible Hardware nutzen."
+summary: "NFC.cool Tools ist live in Google Play. NFC-Scannen und Tag-Schreiben - jetzt auf Android, mit dem gleichen Feature-Set wie die iOS-App für die Teile, die Android-kompatible Hardware nutzen."
 metaTitle: "NFC.cool Tools - Jetzt live in Google Play"
-metaDescription: "NFC.cool Tools ist auf Android verfügbar. NFC-Scannen, Tag-Schreiben und die mitgelieferte NFC.cool Business Card - gleiche Marke, gleiches Feature-Set, auf Android."
+metaDescription: "NFC.cool Tools ist auf Android verfügbar. NFC-Tags scannen und schreiben - gleiche Marke, gleiches Feature-Set, jetzt bei Google Play."
 ogTitle: "NFC.cool ist jetzt im Play Store"
-ogDescription: "NFC.cool Tools ist live in Google Play - NFC-Scannen, Tag-Schreiben und die mitgelieferte NFC.cool Business Card."
+ogDescription: "NFC.cool Tools ist live in Google Play - NFC-Scannen und Tag-Schreiben auf Android."
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
+**Update, August 2026:** NFC.cool Business Card ist jetzt auch auf Android eine eigene App - [bei Google Play holen](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-de). Bestehende Karten in NFC.cool Tools funktionieren weiter; neue legst du in der eigenen App an.
+
+---
+
 **NFC.cool Tools** ist jetzt im [Google Play Store](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-de) verfügbar. Nach Jahren auf iOS ist die Android-Version live - und sie liefert die NFC.cool Business Card eingebaut mit.
 
 ---

@@ -15,12 +15,12 @@ featuresTitle: "Tudo o que precisa para digitalizar"
 
 featureBanner:
   title: "NFC.cool Business Card"
-  subtitle: "Uma aplicação dedicada de Cartão de Visita Digital para iPhone - partilhe por toque NFC, código QR, AppClip ou Apple Wallet. Saiba quem guarda o seu cartão, organize contactos e ative o Modo Conferência para eventos ao vivo. No Android, as mesmas funcionalidades estão incluídas no NFC.cool Tools."
+  subtitle: "Uma aplicação dedicada de Cartão de Visita Digital para iPhone e Android - partilhe por toque NFC ou código QR e, no iPhone, também por AppClip ou Apple Wallet. Saiba quem guarda o seu cartão, organize contactos e ative o Modo Conferência para eventos ao vivo."
   imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
   # iOS: dedicated NFC.cool Business Card app (App Store id 6502926572)
   appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
-  # Android: business card features are bundled in NFC.cool Tools
-  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
+  # Android: dedicated NFC.cool Business Card app (cool.nfc.businesscard)
+  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
 
 appStoreReviewsTitle: "O que dizem as pessoas"
 appStoreReviews:
@@ -66,7 +66,7 @@ faq:
   - question: "O NFC.cool é gratuito?"
     answer: "Sim - o NFC.cool Tools e o NFC.cool Business Card são gratuitos para transferir. Ler tags NFC, ler códigos QR e códigos de barras, digitalizar documentos com OCR e digitalizar objetos 3D / divisões são todos gratuitos. Uma subscrição Platinum opcional desbloqueia o NFC Safe (segredos encriptados com AES de 256 bits); controlos NFC avançados (formatar, proteger com palavra-passe, bloquear, modos por lote, escrita CSV, comandos de especialista, contador de toques); funcionalidades avançadas de QR (sem marcas de água, leitura por lote); exportação de documentos para PDF e exportação automática para o iCloud; cálculo de área 3D, exportação de modelos e exportação de fotos; Atalhos do iOS, widgets e Centro de Controlo; webhooks; sintetizador de voz; ícones e cores premium da aplicação; e ausência de anúncios e apoio prioritário."
   - question: "Que plataformas são suportadas?"
-    answer: "O NFC.cool Tools funciona em iPhone, iPad e Android. O NFC.cool Business Card é exclusivo para iPhone - as suas funcionalidades estão incluídas no NFC.cool Tools no Android, por isso os utilizadores de Android têm as mesmas capacidades de cartão de visita digital sem instalar uma segunda aplicação. No iPad, todas as funcionalidades baseadas na câmara (QR, códigos de barras, documentos, 3D, divisões) funcionam, mas ler e gravar NFC exigem um iPhone, já que os iPads não vêm com hardware NFC."
+    answer: "O NFC.cool Tools funciona em iPhone, iPad e Android. O NFC.cool Business Card é uma aplicação separada e funciona em iPhone e Android. No iPad, todas as funcionalidades baseadas na câmara (QR, códigos de barras, documentos, 3D, divisões) funcionam, mas ler e gravar NFC exigem um iPhone, já que os iPads não vêm com hardware NFC."
   - question: "Como começo a usar o NFC.cool?"
     answer: "Transfira o NFC.cool Tools da App Store ou do Google Play e depois explore os separadores: NFC para ler e gravar tags, QR para códigos QR e códigos de barras, Documento para digitalizar papel para PDF, 3D para captura de objetos e divisões. Não é necessária qualquer conta - tudo corre no dispositivo."
   - question: "Como leio a minha primeira tag NFC?"

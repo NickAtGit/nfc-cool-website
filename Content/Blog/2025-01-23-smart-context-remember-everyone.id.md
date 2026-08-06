@@ -70,4 +70,4 @@ Dengan NFC.cool Business Card, penangkapannya hanya satu ketukan dalam alur pert
 
 Dalam dunia di mana kita bertukar kontak lebih cepat dari sebelumnya, data yang penting bukan siapa yang Anda kenal - melainkan mengapa Anda mengenal mereka.
 
-[Unduh NFC.cool Business Card untuk iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-en&mt=8). Pengguna Android mendapatkan fitur kartu nama dan Smart Context yang sama yang sudah tersedia dalam [NFC.cool Tools untuk Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-en).
+[Unduh NFC.cool Business Card untuk iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-en&mt=8). Pengguna Android mendapatkan fitur kartu nama dan Smart Context yang sama di [NFC.cool Business Card untuk Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-en).

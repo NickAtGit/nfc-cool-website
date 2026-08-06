@@ -15,12 +15,12 @@ featuresTitle: "扫描所需的一切"
 
 featureBanner:
   title: "NFC.cool Business Card"
-  subtitle: "面向 iPhone 的专用电子名片 App，可通过 NFC 轻触、二维码、App Clip 或 Apple Wallet 分享。追踪谁保存了你的名片、整理潜在客户，并在现场活动中开启会议模式。在 Android 上，这些相同的功能已内置于 NFC.cool Tools 中。"
+  subtitle: "面向 iPhone 和 Android 的专用电子名片 App，可通过 NFC 轻触或二维码分享，在 iPhone 上还支持 App Clip 和 Apple Wallet。追踪谁保存了你的名片、整理潜在客户，并在现场活动中开启会议模式。"
   imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
   # iOS: dedicated NFC.cool Business Card app (App Store id 6502926572)
   appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
-  # Android: business card features are bundled in NFC.cool Tools
-  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
+  # Android: dedicated NFC.cool Business Card app (cool.nfc.businesscard)
+  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
 
 appStoreReviewsTitle: "用户怎么说"
 appStoreReviews:
@@ -66,7 +66,7 @@ faq:
   - question: "NFC.cool 是免费的吗？"
     answer: "是的，NFC.cool Tools 和 NFC.cool Business Card 都可免费下载。读取 NFC 标签、扫描二维码和条形码、支持 OCR 的文档扫描，以及 3D / 房间扫描全部免费。可选的 Platinum 订阅可解锁 NFC Safe（256 位 AES 加密的机密信息）；进阶 NFC 控制（格式化、密码保护、锁定、批量模式、CSV 写入、专家命令、轻触计数器）；二维码强力功能（无水印、批量读取）；文档 PDF 导出和自动导出到 iCloud；3D 面积计算、模型导出和照片导出；iOS 快捷指令、小组件和控制中心；webhook；语音合成器；高级 App 图标和配色；以及无广告和优先支持。"
   - question: "支持哪些平台？"
-    answer: "NFC.cool Tools 可在 iPhone、iPad 和 Android 上运行。NFC.cool Business Card 仅支持 iPhone，其功能已内置于 Android 版的 NFC.cool Tools 中，因此 Android 用户无需安装第二款 App 即可获得同样的电子名片能力。在 iPad 上，所有基于相机的功能（二维码、条形码、文档、3D、房间扫描）都可使用，但读取和写入 NFC 需要 iPhone，因为 iPad 不配备 NFC 硬件。"
+    answer: "NFC.cool Tools 可在 iPhone、iPad 和 Android 上运行。NFC.cool Business Card 是一款独立 App，支持 iPhone 和 Android。在 iPad 上，所有基于相机的功能（二维码、条形码、文档、3D、房间扫描）都可使用，但读取和写入 NFC 需要 iPhone，因为 iPad 不配备 NFC 硬件。"
   - question: "我该如何开始使用 NFC.cool？"
     answer: "从 App Store 或 Google Play 下载 NFC.cool Tools，然后浏览各个标签页：NFC 用于读取和写入标签，QR 用于二维码和条形码，文档用于将纸质件扫描为 PDF，3D 用于物体和房间捕捉。无需账户，一切都在设备端运行。"
   - question: "我该如何扫描第一个 NFC 标签？"

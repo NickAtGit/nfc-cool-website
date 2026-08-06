@@ -115,7 +115,7 @@ NFC.coolなら文脈をキャプチャできます：どこで会ったか、何
 vCardにはこれらのどれもできません。書き込まれた瞬間から時間が止まります。
 
 ▸ **すべてのスマホで動作**
-vCardと違い、URLベースのプロフィールはすべてのスマートフォン - iPhone、Android、ブラウザさえあれば古い端末でも - 動作します。iOSの[NFC.cool Business Cardアプリ](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)は[App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)を使うため、受け取る側は何もインストール不要。Androidでは、[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ja)（NFC.cool Tools内）がウェブプロフィールを即座に開きます。
+vCardと違い、URLベースのプロフィールはすべてのスマートフォン - iPhone、Android、ブラウザさえあれば古い端末でも - 動作します。iOSの[NFC.cool Business Cardアプリ](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)は[App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)を使うため、受け取る側は何もインストール不要。Androidでは、[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ja)がウェブプロフィールを即座に開きます。
 
 ---
 
@@ -159,4 +159,4 @@ NFC名刺がvCardデータを使っているなら、オーディエンスの半
 
 **それが本来のあり方です。**
 
-*NFC.cool Business Cardは[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)と[Android（NFC.cool Tools内）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ja)で利用可能です。NFC.cool Tools（タグリーダー/ライター）は[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)と[Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ja)で利用可能です。*
+*NFC.cool Business Cardは[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)と[Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ja)で利用可能です。NFC.cool Tools（タグリーダー/ライター）は[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ja&mt=8)と[Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ja)で利用可能です。*

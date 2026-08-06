@@ -270,7 +270,7 @@ enum StructuredData {
    static func softwareApplicationBusinessCard(baseURL: String, rating: AppRating?, reviews: [AppReview] = []) -> String {
       let ratingFragment = rating.map { ",\(self.aggregateRating($0))" } ?? ""
       return """
-      {"@type":"SoftwareApplication","name":"NFC.cool Business Card","operatingSystem":"iOS","applicationCategory":"BusinessApplication","image":"\(baseURL)/assets/images/BusinessCard/AppIcon-512.webp","url":"https://apps.apple.com/app/id6502926572","downloadUrl":"https://apps.apple.com/app/id6502926572","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"\(baseURL)/#organization"}\(ratingFragment)\(self.reviewsFragment(reviews))}
+      {"@type":"SoftwareApplication","name":"NFC.cool Business Card","operatingSystem":"iOS, ANDROID","applicationCategory":"BusinessApplication","image":"\(baseURL)/assets/images/BusinessCard/AppIcon-512.webp","url":"https://apps.apple.com/app/id6502926572","downloadUrl":["https://apps.apple.com/app/id6502926572","https://play.google.com/store/apps/details?id=cool.nfc.businesscard"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"\(baseURL)/#organization"}\(ratingFragment)\(self.reviewsFragment(reviews))}
       """
    }
 

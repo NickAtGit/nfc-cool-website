@@ -185,4 +185,4 @@ Bei Datenschutz geht es nicht darum, etwas zu verbergen zu haben. Es geht darum,
 
 Wähle weise.
 
-*Bereit, eine digitale Visitenkarte auszuprobieren, bei der Datenschutz an erster Stelle steht? [Lade NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) für iPhone oder [hole es auf Android in NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-de). App-UI und App Clip in 35 Sprachen verfügbar.*
+*Bereit, eine digitale Visitenkarte auszuprobieren, bei der Datenschutz an erster Stelle steht? [Lade NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) für iPhone oder [hol es dir für Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-de). App-UI und App Clip in 35 Sprachen verfügbar.*

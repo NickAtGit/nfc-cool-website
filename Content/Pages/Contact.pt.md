@@ -44,7 +44,7 @@ A forma mais rápida de nos contactar é por email. Lemos cada mensagem pessoalm
 
 <details class="faq-item">
 <summary>Qual é a diferença entre as apps de iOS e de Android?</summary>
-<p>A app de iPhone é um conjunto completo de ferramentas de digitalização - NFC, QR e códigos de barras, documentos (com OCR), digitalização 3D e de divisões. A app de Android foca-se na leitura e gravação de NFC e inclui as funcionalidades de cartão de visita digital. As restantes ferramentas estão no roteiro do Android.</p>
+<p>A app de iPhone é um conjunto completo de ferramentas de digitalização - NFC, QR e códigos de barras, documentos (com OCR), digitalização 3D e de divisões. A app de Android foca-se na leitura e gravação de NFC. As restantes ferramentas estão no roteiro do Android. O cartão de visita digital é uma app própria em ambas as plataformas.</p>
 </details>
 
 <details class="faq-item">
@@ -54,7 +54,7 @@ A forma mais rápida de nos contactar é por email. Lemos cada mensagem pessoalm
 
 <details class="faq-item">
 <summary>O cartão de visita digital é uma app separada?</summary>
-<p>No iPhone, sim - a NFC.cool Business Card Maker é uma app dedicada, disponível em business-card.nfc.cool. No Android, as mesmas funcionalidades de cartão de visita estão incluídas dentro da NFC.cool Tools - sem necessidade de instalação adicional.</p>
+<p>Sim - a NFC.cool Business Card é uma app dedicada tanto no iPhone como no Android. A NFC.cool Tools mantém-se focada na digitalização, por isso o cartão tem a sua própria app na App Store e no Google Play.</p>
 </details>
 
 ### Dispositivos, tags e funcionalidades

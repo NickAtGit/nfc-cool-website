@@ -185,4 +185,4 @@ GDPRはデータポータビリティの権利を与えています - プラッ�
 
 賢く選びましょう。
 
-*プライバシーファーストのデジタル名刺を試してみませんか？[NFC.cool Business Cardをダウンロード](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-ja&mt=8) - iPhoneまたは[AndroidはNFC.cool Tools内](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-ja)で。アプリUIとApp Clipは35言語対応です。*
+*プライバシーファーストのデジタル名刺を試してみませんか？[NFC.cool Business Cardをダウンロード](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-ja&mt=8) - iPhoneまたは[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-ja)で。アプリUIとApp Clipは35言語対応です。*

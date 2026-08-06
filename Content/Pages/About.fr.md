@@ -32,7 +32,7 @@ NFC.cool est un produit indépendant signé **Nicolo Stanciu**, développé entr
 
 NFC.cool est né d'une envie personnelle. Apple a ouvert le NFC sur iOS en 2017, et j'ai été l'un des premiers à développer dessus - j'ai publié la première version de NFC.cool Tools la même année, je l'ai mise sur l'App Store, et j'ai vu se former autour d'elle une communauté restreinte mais passionnée.
 
-NFC.cool est depuis devenu une famille d'applications : la boîte à outils de scan complète (NFC, QR, codes-barres, documents, 3D, scan de pièces, webhooks), l'application Business Card dédiée, et une version Android concentrée sur ce qu'Android fait de mieux - le tout cumulant plus de {{RATINGS_TOTAL}} évaluations à {{RATINGS_AVG}} étoiles sur l'App Store et Google Play. Tout part encore d'un seul clavier - une seule personne, qui travaille entre l'Allemagne et le Portugal.
+NFC.cool est depuis devenu une famille d'applications : la boîte à outils de scan complète (NFC, QR, codes-barres, documents, 3D, scan de pièces, webhooks), l'application Business Card dédiée sur iPhone et Android, et une version Android de la boîte à outils concentrée sur ce qu'Android fait de mieux - le tout cumulant plus de {{RATINGS_TOTAL}} évaluations à {{RATINGS_AVG}} étoiles sur l'App Store et Google Play. Tout part encore d'un seul clavier - une seule personne, qui travaille entre l'Allemagne et le Portugal.
 
 Je fais ça exprès. Pas de capital-risque, pas d'équipe de croissance - juste une personne qui utilise vraiment, chaque jour, ce qu'elle publie.
 

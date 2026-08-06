@@ -66,7 +66,7 @@ Pour la couverture médiatique, les partenariats et tout ce qui nécessite une d
 
 <article class="page-card">
 <h3>Identifiants de bundle</h3>
-<p><code>de.nicolo-stanciu.nfcing</code> (Tools iOS), <code>cool.nfc</code> (Tools Android), <code>io.stanc.DigitalBusinessCardApp</code> (Business Card iOS).</p>
+<p><code>de.nicolo-stanciu.nfcing</code> (Tools iOS), <code>cool.nfc</code> (Tools Android), <code>io.stanc.DigitalBusinessCardApp</code> (Business Card iOS), <code>cool.nfc.businesscard</code> (Business Card Android).</p>
 </article>
 
 <article class="page-card">

@@ -198,7 +198,7 @@ NFC vs QRの議論で見落とされがちなのは、**選ぶ必要がない**�
 - **オープンNFC** - 標準的なNFCタグなら何でも使えます - NFC.coolは独自ハードウェアを販売していません
 - **手頃な価格** - パーソナルプラン年間€20、スモールビジネス年間€50（10枚）、ビジネス年間€100（100枚）
 
-➡️ **NFC.cool Business Cardを試す：** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ja&mt=8) · [Android（NFC.cool Tools内）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-ja)
+➡️ **NFC.cool Business Cardを試す：** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ja&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-ja)
 
 ---
 

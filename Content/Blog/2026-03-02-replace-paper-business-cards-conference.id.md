@@ -178,7 +178,7 @@ Dan jika seseorang benar-benar bersikeras pada kertas, Anda selalu bisa berkata 
 
 Ini semua yang perlu Anda lakukan, secara berurutan:
 
-- [ ] **Unduh aplikasi kartu nama digital** (kami merekomendasikan [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) - gratis di [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) dan [Android (di dalam NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en))
+- [ ] **Unduh aplikasi kartu nama digital** (kami merekomendasikan [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) - gratis di [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en))
 - [ ] **Buat kartu Anda** dengan nama, jabatan, perusahaan, info kontak, dan tautan
 - [ ] **Tambahkan foto Anda** - membantu orang mengingat Anda setelah acara
 - [ ] **Simpan kode QR Anda ke Apple Wallet (iOS)** untuk akses cepat di layar kunci
@@ -225,4 +225,4 @@ Kartu nama digital adalah tempat konferensi berada di kondisi terbaiknya: berbag
 
 Konferensi berikutnya akan segera tiba. Kali ini, tinggalkan kertas di rumah.
 
-*NFC.cool Business Card tersedia gratis di [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) dan di [Android dalam NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en). Buat kartu pertama Anda dalam waktu kurang dari satu menit.*
+*NFC.cool Business Card tersedia gratis di [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) dan di [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en). Buat kartu pertama Anda dalam waktu kurang dari satu menit.*

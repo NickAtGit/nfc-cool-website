@@ -44,7 +44,7 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="faq-item">
 <summary>What's the difference between the iOS and Android apps?</summary>
-<p>The iPhone app is a full scanning toolkit - NFC, QR &amp; Barcodes, Documents (with OCR), 3D and Room Scanning. The Android app focuses on NFC reading and writing and includes the Digital Business Card features. The other tools are on the Android roadmap.</p>
+<p>The iPhone app is a full scanning toolkit - NFC, QR &amp; Barcodes, Documents (with OCR), 3D and Room Scanning. The Android app focuses on NFC reading and writing. The other tools are on the Android roadmap. The Digital Business Card is its own app on both platforms.</p>
 </details>
 
 <details class="faq-item">
@@ -54,7 +54,7 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="faq-item">
 <summary>Is the Digital Business Card a separate app?</summary>
-<p>On iPhone, yes - NFC.cool Business Card Maker is a dedicated app available at business-card.nfc.cool. On Android, the same Business Card features are included inside NFC.cool Tools - no extra install needed.</p>
+<p>Yes - NFC.cool Business Card is a dedicated app on both iPhone and Android. NFC.cool Tools stays focused on scanning, so the card has its own app on the App Store and on Google Play.</p>
 </details>
 
 ### Devices, tags & features

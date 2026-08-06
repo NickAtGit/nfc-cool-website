@@ -44,7 +44,7 @@ Cara tercepat untuk menghubungi kami adalah melalui email. Kami membaca setiap p
 
 <details class="faq-item">
 <summary>Apa perbedaan aplikasi iOS dan Android?</summary>
-<p>Aplikasi iPhone adalah toolkit pemindaian lengkap - NFC, QR &amp; Barcode, Dokumen (dengan OCR), Pemindaian 3D dan Ruangan. Aplikasi Android berfokus pada membaca dan menulis NFC serta menyertakan fitur Kartu Nama Digital. Alat lainnya ada dalam roadmap Android.</p>
+<p>Aplikasi iPhone adalah toolkit pemindaian lengkap - NFC, QR &amp; Barcode, Dokumen (dengan OCR), Pemindaian 3D dan Ruangan. Aplikasi Android berfokus pada membaca dan menulis NFC. Alat lainnya ada dalam roadmap Android. Kartu Nama Digital adalah aplikasi tersendiri di kedua platform.</p>
 </details>
 
 <details class="faq-item">
@@ -54,7 +54,7 @@ Cara tercepat untuk menghubungi kami adalah melalui email. Kami membaca setiap p
 
 <details class="faq-item">
 <summary>Apakah Kartu Nama Digital merupakan aplikasi terpisah?</summary>
-<p>Di iPhone, ya - NFC.cool Business Card Maker adalah aplikasi khusus yang tersedia di business-card.nfc.cool. Di Android, fitur Kartu Nama yang sama sudah termasuk di dalam NFC.cool Tools - tidak perlu instalasi tambahan.</p>
+<p>Ya - NFC.cool Business Card adalah aplikasi khusus di iPhone maupun Android. NFC.cool Tools tetap berfokus pada pemindaian, jadi kartu nama punya aplikasinya sendiri di App Store dan Google Play.</p>
 </details>
 
 ### Perangkat, tag & fitur

@@ -32,7 +32,7 @@ NFC.cool 是 **Nicolo Stanciu** 的一款独立产品，在德国与葡萄牙两
 
 NFC.cool 始于一个我自己的小痒处。Apple 在 2017 年开放了 iOS 上的 NFC，而我是最早为它开发的人之一：那一年我发布了 NFC.cool Tools 的第一个版本，把它放上了 App Store，看着一个虽小但充满热情的社区围绕它逐渐形成。
 
-此后 NFC.cool 成长为一个 App 家族：完整的扫描工具集（NFC、二维码、条形码、文档、3D、房间扫描、webhook），独立的电子名片 App，以及一个专注于发挥 Android 所长的 Android 版本。它们在 App Store 和 Google Play 上合计获得了超过 {{RATINGS_TOTAL}} 条评分，平均 {{RATINGS_AVG}} 星。这一切至今仍出自同一副键盘：一个人，在德国与葡萄牙之间工作。
+此后 NFC.cool 成长为一个 App 家族：完整的扫描工具集（NFC、二维码、条形码、文档、3D、房间扫描、webhook），面向 iPhone 和 Android 的独立电子名片 App，以及一个专注于发挥 Android 所长的工具集 Android 版本。它们在 App Store 和 Google Play 上合计获得了超过 {{RATINGS_TOTAL}} 条评分，平均 {{RATINGS_AVG}} 星。这一切至今仍出自同一副键盘：一个人，在德国与葡萄牙之间工作。
 
 我是有意保持这种状态的。没有风投，没有增长团队，只有一个每天真正在用自己所做产品的人。
 

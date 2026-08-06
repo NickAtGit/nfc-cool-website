@@ -35,15 +35,15 @@
    },
    "blogSubtitleChangelog": {
       "localizations": {
-         "en": "Release notes for NFC.cool Tools (iOS + Android), the standalone Business Card iOS app, and this website - what shipped, what improved, and what's coming next.",
-         "de": "Release-Notes für NFC.cool Tools (iOS + Android), die eigenständige Business Card App für iPhone und diese Website - was neu ist, was sich verbessert hat und was als Nächstes kommt.",
-         "ja": "NFC.cool Tools(iOS + Android)、iPhone専用のBusiness Cardアプリ、そしてこのウェブサイトのリリースノート - 何がリリースされ、何が改善され、次に何が来るのか。",
-         "pt": "Notas de versão da NFC.cool Tools (iOS + Android), da app autónoma Business Card para iPhone e deste site - o que saiu, o que melhorou e o que aí vem a seguir.",
-         "zh": "NFC.cool Tools（iOS + Android）、独立的 iPhone 版 Business Card 应用以及本网站的更新说明，涵盖发布内容、改进之处以及接下来的计划。",
-         "id": "Catatan rilis NFC.cool Tools (iOS + Android), aplikasi Business Card iOS mandiri, dan situs ini - apa yang dirilis, apa yang diperbaiki, dan apa yang akan datang.",
-         "es": "Notas de versión de NFC.cool Tools (iOS + Android), la app independiente Business Card para iPhone y esta web - qué se lanzó, qué mejoró y qué viene a continuación.",
-         "fr": "Notes de version de NFC.cool Tools (iOS + Android), de l'app Business Card autonome pour iPhone et de ce site - ce qui est sorti, ce qui s'est amélioré et ce qui arrive ensuite.",
-         "ar": "ملاحظات إصدارات NFC.cool Tools (iOS + Android) وتطبيق Business Card المستقل على iPhone وهذا الموقع - ما الذي صدر وما الذي تحسّن وما القادم."
+         "en": "Release notes for NFC.cool Tools (iOS + Android), the standalone Business Card app, and this website - what shipped, what improved, and what's coming next.",
+         "de": "Release-Notes für NFC.cool Tools (iOS + Android), die eigenständige Business Card App und diese Website - was neu ist, was sich verbessert hat und was als Nächstes kommt.",
+         "ja": "NFC.cool Tools(iOS + Android)、独立したBusiness Cardアプリ、そしてこのウェブサイトのリリースノート - 何がリリースされ、何が改善され、次に何が来るのか。",
+         "pt": "Notas de versão da NFC.cool Tools (iOS + Android), da app autónoma Business Card e deste site - o que saiu, o que melhorou e o que aí vem a seguir.",
+         "zh": "NFC.cool Tools（iOS + Android）、独立的 Business Card 应用以及本网站的更新说明，涵盖发布内容、改进之处以及接下来的计划。",
+         "id": "Catatan rilis NFC.cool Tools (iOS + Android), aplikasi Business Card mandiri, dan situs ini - apa yang dirilis, apa yang diperbaiki, dan apa yang akan datang.",
+         "es": "Notas de versión de NFC.cool Tools (iOS + Android), la app independiente Business Card y esta web - qué se lanzó, qué mejoró y qué viene a continuación.",
+         "fr": "Notes de version de NFC.cool Tools (iOS + Android), de l'app Business Card autonome et de ce site - ce qui est sorti, ce qui s'est amélioré et ce qui arrive ensuite.",
+         "ar": "ملاحظات إصدارات NFC.cool Tools (iOS + Android) وتطبيق Business Card المستقل وهذا الموقع - ما الذي صدر وما الذي تحسّن وما القادم."
       }
    },
    "tagsIndexHeading": {
@@ -152,15 +152,15 @@
    },
    "tagDesc_android": {
       "localizations": {
-         "en": "NFC tag reading and writing plus the bundled digital business card, all on Android with the NFC.cool Tools app - the same brand you already know from iPhone.",
-         "de": "NFC-Tags lesen und schreiben sowie die integrierte digitale Visitenkarte - alles auf Android mit der NFC.cool Tools App, der gleichen Marke wie auf dem iPhone.",
-         "ja": "NFCタグの読み書きと付属のデジタル名刺を、NFC.cool ToolsアプリでAndroidでも - iPhoneでおなじみのブランドがそのまま使えます。",
-         "pt": "Ler e gravar tags NFC e o cartão de visita digital incluído, tudo no Android com a app NFC.cool Tools - a mesma marca que já conhece do iPhone.",
-         "zh": "在 Android 上用 NFC.cool Tools 应用读写 NFC 标签，并使用内置的数字名片 - 与你在 iPhone 上熟悉的是同一个品牌。",
-         "id": "Membaca dan menulis tag NFC plus kartu nama digital bawaan, semuanya di Android dengan aplikasi NFC.cool Tools - merek yang sama seperti di iPhone.",
-         "es": "Leer y escribir tags NFC y la tarjeta de visita digital incluida, todo en Android con la app NFC.cool Tools - la misma marca que ya conoces del iPhone.",
-         "fr": "Lecture et écriture de tags NFC ainsi que la carte de visite numérique intégrée, le tout sur Android avec l'app NFC.cool Tools - la même marque que vous connaissez déjà sur iPhone.",
-         "ar": "قراءة وسوم NFC وكتابتها إلى جانب بطاقة العمل الرقمية المدمجة، كل ذلك على Android مع تطبيق NFC.cool Tools - العلامة نفسها التي تعرفها من iPhone."
+         "en": "NFC tag reading and writing on Android with NFC.cool Tools, plus the NFC.cool Business Card app - the same brand you already know from iPhone.",
+         "de": "NFC-Tags lesen und schreiben auf Android mit NFC.cool Tools, dazu die NFC.cool Business Card App - die gleiche Marke wie auf dem iPhone.",
+         "ja": "AndroidでのNFCタグの読み書きはNFC.cool Toolsで、デジタル名刺はNFC.cool Business Cardで - iPhoneでおなじみのブランドがそのまま使えます。",
+         "pt": "Ler e gravar tags NFC no Android com a app NFC.cool Tools, além da app NFC.cool Business Card - a mesma marca que já conhece do iPhone.",
+         "zh": "在 Android 上用 NFC.cool Tools 读写 NFC 标签，用 NFC.cool Business Card 做数字名片 - 与你在 iPhone 上熟悉的是同一个品牌。",
+         "id": "Membaca dan menulis tag NFC di Android dengan aplikasi NFC.cool Tools, plus aplikasi NFC.cool Business Card - merek yang sama seperti di iPhone.",
+         "es": "Leer y escribir tags NFC en Android con la app NFC.cool Tools, además de la app NFC.cool Business Card - la misma marca que ya conoces del iPhone.",
+         "fr": "Lecture et écriture de tags NFC sur Android avec l'app NFC.cool Tools, ainsi que l'app NFC.cool Business Card - la même marque que vous connaissez déjà sur iPhone.",
+         "ar": "قراءة وسوم NFC وكتابتها على Android مع تطبيق NFC.cool Tools، إلى جانب تطبيق NFC.cool Business Card - العلامة نفسها التي تعرفها من iPhone."
       }
    },
    "tagDesc_guides": {

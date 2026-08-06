@@ -108,7 +108,7 @@ ogDescription: "8つのデジタル名刺アプリを正直に徹底比較 - 料
 
 ### 1. NFC.cool Business Card - プライバシーと多言語対応のベスト
 
-**概要：** NFC.coolのデジタル名刺アプリ。NFC.coolは900万ダウンロード以上を誇る13のNFC・ユーティリティアプリを手がけるインディースタジオです。iOSではスタンドアロンアプリとして、Androidでは[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-ja)の一部として利用可能です。
+**概要：** NFC.coolのデジタル名刺アプリ。NFC.coolは900万ダウンロード以上を誇る13のNFC・ユーティリティアプリを手がけるインディースタジオです。iOSでも[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-ja)でも、スタンドアロンアプリとして利用できます。
 
 **良い点：**
 - **35言語** - アプリUIとApp Clipが35言語に対応しており、デジタル名刺の中で圧倒的に多言語対応です。国際的に活動している方には重要なポイントです。
@@ -128,7 +128,7 @@ ogDescription: "8つのデジタル名刺アプリを正直に徹底比較 - 料
 
 **おすすめ：** プライバシー重視のプロフェッショナル、国際的なネットワーキングをする方、ハードウェアに縛られずにNFCを柔軟に使いたい方、透明性のある開発を重視するインディー・中小企業ユーザー。
 
-[App StoreでNFC.cool Business Cardをダウンロード](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-ja&mt=8) · [AndroidではNFC.cool Tools内で利用可能](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-ja)
+[App StoreでNFC.cool Business Cardをダウンロード](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-ja&mt=8) · [Google Playで入手](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-ja)
 
 ---
 
@@ -340,4 +340,4 @@ ogDescription: "8つのデジタル名刺アプリを正直に徹底比較 - 料
 
 何を選ぶにしても、紙の名刺は卒業しましょう。2026年です - あなたの名刺も、ワークフローの他の部分と同じくらいスマートであるべきです。
 
-*NFC.cool Business Cardを試してみませんか？[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-ja&mt=8)で無料ダウンロード、または[AndroidではNFC.cool Tools内で利用可能](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-ja)。*
+*NFC.cool Business Cardを試してみませんか？[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-ja&mt=8)で無料ダウンロード、または[Google Playで入手](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-ja)。*

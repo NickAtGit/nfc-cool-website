@@ -22,4 +22,4 @@ NameDrop تعمل من iPhone إلى iPhone. تلك هي القصة كلها. ف
 
 هذا هو السبب غير البرّاق الذي يجعلني ما زلت أبني حول NFC بدلًا من NameDrop. NameDrop تحسّن أفضل الحالات: مستخدمان لِـiPhone، وكلاهما مفعّل لديه الميزة، وكلاهما يعرف الإيماءة. أما NFC فتحسّن الحالة التي تحدث فعلًا في أيّ فعالية - شخصان، وهاتفان، ولا افتراضات مشتركة عن أيّ منهما. NameDrop هي العرض التوضيحي الأفضل. وNFC هي بطاقة العمل الأفضل.
 
-تريد واحدة؟ [احصل على NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-en&mt=8) على iPhone، أو استخدم بطاقة العمل المدمجة في [NFC.cool Tools لِـAndroid](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-en).
+تريد واحدة؟ [احصل على NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-en&mt=8) على iPhone، أو [احصل عليها على Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-en).

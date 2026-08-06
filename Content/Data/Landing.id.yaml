@@ -15,12 +15,12 @@ featuresTitle: "Semua yang Anda butuhkan untuk memindai"
 
 featureBanner:
   title: "NFC.cool Business Card"
-  subtitle: "Aplikasi kartu nama digital khusus untuk iPhone - bagikan melalui ketukan NFC, kode QR, App Clip, atau Apple Wallet. Lacak siapa yang menyimpan kartu Anda, atur prospek, dan aktifkan Mode Konferensi untuk acara langsung. Di Android, fitur yang sama sudah tersedia dalam NFC.cool Tools."
+  subtitle: "Aplikasi kartu nama digital khusus untuk iPhone dan Android - bagikan melalui ketukan NFC atau kode QR, dan di iPhone juga lewat App Clip atau Apple Wallet. Lacak siapa yang menyimpan kartu Anda, atur prospek, dan aktifkan Mode Konferensi untuk acara langsung."
   imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
   # iOS: dedicated NFC.cool Business Card app (App Store id 6502926572)
   appStoreURL: "https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=BusinessCardBanner&mt=8"
-  # Android: business card features are bundled in NFC.cool Tools
-  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
+  # Android: dedicated NFC.cool Business Card app (cool.nfc.businesscard)
+  googlePlayURL: "https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dwebsite%26utm_campaign%3Dbusiness-card-banner"
 
 appStoreReviewsTitle: "Yang orang-orang katakan"
 appStoreReviews:
@@ -66,7 +66,7 @@ faq:
   - question: "Apakah NFC.cool gratis?"
     answer: "Ya - NFC.cool Tools dan NFC.cool Business Card gratis untuk diunduh. Membaca tag NFC, memindai kode QR dan barcode, pemindaian dokumen dengan OCR, serta pemindaian 3D dan ruangan semuanya gratis. Langganan Platinum opsional membuka NFC Safe (rahasia terenkripsi AES 256-bit); kontrol NFC lanjutan (format, perlindungan kata sandi, kunci, mode batch, penulisan CSV, perintah ahli, penghitung ketukan); fitur canggih kode QR (tanpa watermark, baca batch); ekspor PDF dokumen dan ekspor otomatis ke iCloud; kalkulasi area 3D, ekspor model, dan ekspor foto; iOS Shortcuts, widget, dan Control Center; webhook; synthesizer suara; ikon dan warna aplikasi premium; serta dukungan prioritas bebas iklan."
   - question: "Platform apa yang didukung?"
-    answer: "NFC.cool Tools berjalan di iPhone, iPad, dan Android. NFC.cool Business Card hanya untuk iPhone - fiturnya sudah tersedia dalam NFC.cool Tools di Android, sehingga pengguna Android mendapatkan kemampuan kartu nama digital yang sama tanpa harus menginstal aplikasi kedua. Di iPad, semua fitur berbasis kamera (kode QR, barcode, dokumen, pemindaian 3D dan ruangan) berfungsi, tetapi membaca dan menulis NFC memerlukan iPhone karena iPad tidak dilengkapi perangkat keras NFC."
+    answer: "NFC.cool Tools berjalan di iPhone, iPad, dan Android. NFC.cool Business Card adalah aplikasi terpisah dan berjalan di iPhone dan Android. Di iPad, semua fitur berbasis kamera (kode QR, barcode, dokumen, pemindaian 3D dan ruangan) berfungsi, tetapi membaca dan menulis NFC memerlukan iPhone karena iPad tidak dilengkapi perangkat keras NFC."
   - question: "Bagaimana cara memulai dengan NFC.cool?"
     answer: "Unduh NFC.cool Tools dari App Store atau Google Play, lalu jelajahi tab-tabnya: NFC untuk membaca dan menulis tag, QR untuk kode QR dan barcode, Dokumen untuk pemindaian kertas ke PDF, 3D untuk penangkapan objek dan ruangan. Tidak diperlukan akun - semuanya berjalan di perangkat."
   - question: "Bagaimana cara memindai tag NFC pertama saya?"

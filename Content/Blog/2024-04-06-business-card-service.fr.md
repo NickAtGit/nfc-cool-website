@@ -18,7 +18,7 @@ La carte de visite numérique NFC.cool renverse la logique: une seule URL que vo
 
 ## Installer l'app
 
-Téléchargez NFC.cool pour [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-fr&mt=8) ou [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-fr). La fonctionnalité de carte de visite est intégrée à NFC.cool Tools sur les deux plateformes - pas d'achat séparé, pas de téléchargement séparé.
+Téléchargez NFC.cool Business Card pour [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-fr&mt=8) ou [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-fr). Le téléchargement est gratuit sur les deux plateformes.
 
 ---
 
@@ -84,4 +84,4 @@ Le fonctionnement de NFC.cool garde vos coordonnées sur le serveur. Le tag (ou 
 
 C'est la seule chose qui compte vraiment pour du réseautage sérieux - les données survivent à la carte imprimée.
 
-[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-fr&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-fr) · ou l'app autonome [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-fr&mt=8) pour iOS.
+[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-fr&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-fr) · ou l'app autonome NFC.cool Business Card pour [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-fr&mt=8) et [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-fr).

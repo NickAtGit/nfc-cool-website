@@ -108,7 +108,7 @@ Here's an at-a-glance overview of all eight apps:
 
 ### 1. NFC.cool Business Card - Best for Privacy & Multilingual Professionals
 
-**What it is:** A digital business card app from NFC.cool, the indie studio behind 13 NFC and utility apps with over 9 million downloads. Available as a standalone app on iOS and as part of [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en) on Android.
+**What it is:** A digital business card app from NFC.cool, the indie studio behind 13 NFC and utility apps with over 9 million downloads. Available as a standalone app on iOS and [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).
 
 **What I like:**
 - **35 languages** - the app UI and App Clip are available in 35 languages, making it by far the most multilingual digital business card on the market. If you work internationally, this matters.
@@ -128,7 +128,7 @@ Here's an at-a-glance overview of all eight apps:
 
 **Best for:** Privacy-conscious professionals, international networkers, anyone who wants NFC flexibility without hardware lock-in, indie/small business users who appreciate transparent development.
 
-[Download NFC.cool Business Card on the App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [Get it on Android (inside NFC.cool Tools)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
+[Download NFC.cool Business Card on the App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [Get it on Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
 
 ---
 
@@ -340,4 +340,4 @@ And if you need **enterprise-scale deployment**, Blinq and HiHello both offer so
 
 Whatever you choose, ditch the paper cards. It's 2026 - your business card should be as smart as the rest of your workflow.
 
-*Ready to try NFC.cool Business Card? Download it free on the [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) or [get it on Android inside NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).*
+*Ready to try NFC.cool Business Card? Download it free on the [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) or [get it on Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).*

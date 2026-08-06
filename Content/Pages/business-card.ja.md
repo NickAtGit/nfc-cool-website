@@ -13,13 +13,13 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ、QRコード、App Clip、Apple Walletで連絡先を一瞬で共有 - 誰が実際にあなたのカードを保存したかも確認できます。AndroidではNFC.cool Tools内に同じ機能が組み込まれています。
+iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチやQRコード、iPhoneではApp ClipとApple Walletで連絡先を一瞬で共有 - 誰が実際にあなたのカードを保存したかも確認できます。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ja&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ja" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ja" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -104,7 +104,7 @@ iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ
 <h3>カスタマイズ & ブランディング</h3>
 <ul>
 <li><strong>カスタムロゴ</strong> - ライトモード/ダークモード別に設定</li>
-<li><strong>カラー設定</strong> - 背景、枠、タイル(iOS)</li>
+<li><strong>カラー設定</strong> - 背景、枠、タイル</li>
 <li><strong>ダーク & ライト</strong> - 閲覧者のシステム設定に自動追従</li>
 </ul>
 </article>
@@ -152,10 +152,10 @@ iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ
 <article class="page-card">
 <h3>Conference Mode</h3>
 <ul>
-<li><strong>ロック画面にQR</strong> - あなたの名刺のQRコードがiPhoneのロック画面に表示され、解除なしでスキャン可能</li>
+<li><strong>ロック画面にQR</strong> - あなたの名刺のQRコードが端末のロック画面に表示され、解除なしでスキャン可能</li>
 <li><strong>8時間表示</strong> - 1日のイベントをカバー、その後自動で消えます</li>
 <li><strong>アプリを開く必要なし</strong> - 端末を差し出すだけで完了</li>
-<li><strong>iOSのみ</strong> - AppleのLive Activities APIを利用</li>
+<li><strong>iPhoneとAndroid</strong> - どちらも同じConference Modeを利用できます</li>
 </ul>
 </article>
 
@@ -177,6 +177,6 @@ iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ
 
 ## Androidでは
 
-AndroidではBusiness Card機能が[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ja)に組み込まれています - 別アプリは不要。アプリを開いてカードを設定し、タップで共有。同じデータモデル、同じNFCハンドシェイク、同じQRフォールバックです。リードジェネレーション、詳細アナリティクス、Conference Modeは現在iOSのみで提供されます。
+[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ja)はGoogle Playでも独立したアプリです - App Storeとまったく同じ形です。データモデルもNFCハンドシェイクもQRフォールバックも、リード獲得、アナリティクス、Conference Modeもすべて共通。iPhone専用なのはAppleならではの2つ、App ClipとApple Walletパスだけです。Androidでは、受け取った相手が代わりにWebプロフィールとしてカードを開きます - ブラウザさえあればどの端末でも動き、インストールは不要です。
 
 </section>

@@ -13,13 +13,13 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda dengan satu ketukan - NFC, kode QR, AppClip, atau Apple Wallet - dan lihat siapa yang benar-benar menyimpan kartu Anda. Di Android, fitur yang sama dibundel di dalam NFC.cool Tools.
+Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda dengan satu ketukan - NFC atau kode QR, dan di iPhone juga lewat AppClip atau Apple Wallet - dan lihat siapa yang benar-benar menyimpan kartu Anda.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -104,7 +104,7 @@ Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda 
 <h3>Kustomisasi & branding</h3>
 <ul>
 <li><strong>Logo yang dapat dikustomisasi</strong> - tanda mode terang dan gelap yang terpisah</li>
-<li><strong>Warna kustom</strong> - latar belakang, batas, dan warna ubin (iOS)</li>
+<li><strong>Warna kustom</strong> - latar belakang, batas, dan warna ubin</li>
 <li><strong>Mode gelap & terang</strong> - kartu beradaptasi dengan preferensi sistem penampil</li>
 </ul>
 </article>
@@ -152,10 +152,10 @@ Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda 
 <article class="page-card">
 <h3>Conference Mode</h3>
 <ul>
-<li><strong>QR di Layar Kunci</strong> - kode QR kartu Anda disematkan di Layar Kunci iPhone sehingga siapapun bisa memindainya tanpa membuka kunci</li>
+<li><strong>QR di Layar Kunci</strong> - kode QR kartu Anda disematkan di Layar Kunci ponsel sehingga siapapun bisa memindainya tanpa membuka kunci</li>
 <li><strong>Bertahan selama 8 jam</strong> - mencakup hari acara penuh, lalu menghapus dirinya sendiri</li>
 <li><strong>Tidak perlu membuka aplikasi</strong> - cukup serahkan ponsel, mereka pindai, selesai</li>
-<li><strong>Hanya iOS</strong> - menggunakan API Live Activities Apple</li>
+<li><strong>iPhone dan Android</strong> - Conference Mode yang sama di keduanya</li>
 </ul>
 </article>
 
@@ -177,6 +177,6 @@ Pilih paket yang sesuai dengan intensitas networking Anda. Semua paket berbayar 
 
 ## Di Android
 
-Fitur Business Card di Android sudah terpasang di dalam [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) - tidak perlu aplikasi kedua. Buka aplikasi, atur kartu Anda, ketuk untuk berbagi. Model data yang sama, handshake NFC yang sama, fallback QR yang sama. Generasi prospek, analitik lanjutan, dan Conference Mode saat ini hanya tersedia di iOS.
+[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) adalah aplikasi tersendiri di Google Play, persis seperti di App Store. Model data yang sama, handshake NFC yang sama, fallback QR yang sama, penangkapan prospek, analitik, dan Conference Mode yang sama. Dua bagian khas Apple tetap di iPhone: AppClip dan pas Apple Wallet. Di Android, penerima membuka kartu Anda sebagai profil web - berfungsi di ponsel apa pun yang punya peramban, tanpa perlu menginstal.
 
 </section>

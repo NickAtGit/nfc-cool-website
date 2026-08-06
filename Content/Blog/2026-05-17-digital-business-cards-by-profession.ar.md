@@ -128,7 +128,7 @@ ogDescription: "العقارات، الرعاية الصحية، الاستشا�
 
 إفصاح كامل: هذا تطبيقي، فاقرأ الفقرات القليلة التالية وأنت تعلم ذلك. سأحاول أن أكون صريحًا حول مواطن قوّته ومواطن ضعفه.
 
-NFC.cool Business Card تطبيق مستقل على iPhone، والميزات نفسها مضمّنة في NFC.cool Tools على Android. إليك ما يجيده للمهن المذكورة أعلاه:
+NFC.cool Business Card تطبيق مستقل على iPhone وAndroid. إليك ما يجيده للمهن المذكورة أعلاه:
 
 - **٣٥ لغة** في واجهة التطبيق وفي App Clip - أكثر من أي بطاقة عمل رقمية أخرى أعرفها. تُعرض بطاقتك بلغة عميلك على iOS. (موقع المشاركة على Android باللغة الإنجليزية فقط في الوقت الحالي.)
 - **لا تطبيق للشخص الذي يتلقّى بطاقتك.** على iPhone يحصل على App Clip أصلي؛ وعلى Android، صفحة على نطاق nfc.cool. وكلاهما يحتوي على زر «حفظ جهة الاتصال».
@@ -148,7 +148,7 @@ NFC.cool Business Card تطبيق مستقل على iPhone، والميزات ن
 
 النسخة الصادقة: بالنسبة إلى وكيل عقارات، أو طبيب، أو عامل مستقل، ما يهمّ يوميًا هو أن تكون المشاركة سريعة، وأن تبدو البطاقة مثلك *أنت*، وألا يحرجك شيء لاحقًا. لهذا بنيتُه. إن كنت تحتاج إلى CRM مبيعات ملحوم ببطاقة عملك، فاشترِ الأداة التي تفعل ذلك.
 
-يمكنك [الحصول على NFC.cool Business Card من App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) أو [على Android داخل NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+يمكنك [الحصول على NFC.cool Business Card من App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) أو [من Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
 
 ---
 
@@ -186,4 +186,4 @@ NFC وQR يعملان على الهواتف في جميع أنحاء العال�
 
 البطاقة الرقمية تواكب ذلك. اختر واحدة لا تحتاج إلى تطبيق في الطرف الآخر، وتدعم NFC وQR، وتعامل بيانات جهات اتصالك باحترام - ثم توقّف عن التفكير في بطاقات العمل تمامًا. هذا هو الفوز الحقيقي.
 
-إن أردت تجربة تطبيقي، فإن NFC.cool Business Card مجاني للبدء على [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) وعلى [Android داخل NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+إن أردت تجربة تطبيقي، فإن NFC.cool Business Card مجاني للبدء على [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) وعلى [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
