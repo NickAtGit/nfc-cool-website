@@ -54,7 +54,7 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="faq-item">
 <summary>Is the Digital Business Card a separate app?</summary>
-<p>Yes - NFC.cool Business Card is a dedicated app on both iPhone and Android. NFC.cool Tools stays focused on scanning, so the card has its own app on the App Store and on Google Play.</p>
+<p>Yes - NFC.cool Business Card is a dedicated app on both iPhone and Android. NFC.cool Tools stays focused on scanning, so the card has its own app on the <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-contact-en&mt=8" target="_blank" rel="noopener nofollow sponsored">App Store</a> and on <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-contact-en" target="_blank" rel="noopener nofollow sponsored">Google Play</a>.</p>
 </details>
 
 ### Devices, tags & features

@@ -54,7 +54,7 @@ description: "تواصل مع NFC.cool - دعم عبر البريد الإلكت
 
 <details class="faq-item">
 <summary>هل بطاقة العمل الرقمية تطبيق منفصل؟</summary>
-<p>نعم - NFC.cool Business Card تطبيق مخصّص على iPhone وAndroid معًا. ويبقى NFC.cool Tools مركّزًا على المسح، فيما لبطاقة العمل تطبيقها الخاص على App Store وGoogle Play.</p>
+<p>نعم - NFC.cool Business Card تطبيق مخصّص على iPhone وAndroid معًا. ويبقى NFC.cool Tools مركّزًا على المسح، فيما لبطاقة العمل تطبيقها الخاص على <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-contact-ar&mt=8" target="_blank" rel="noopener nofollow sponsored">App Store</a> و<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-contact-ar" target="_blank" rel="noopener nofollow sponsored">Google Play</a>.</p>
 </details>
 
 ### الأجهزة والوسوم والميزات

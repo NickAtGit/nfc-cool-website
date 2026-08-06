@@ -54,7 +54,7 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 <details class="faq-item">
 <summary>Ist die digitale Visitenkarte eine separate App?</summary>
-<p>Ja - NFC.cool Business Card ist auf iPhone und Android eine eigene App. NFC.cool Tools bleibt aufs Scannen fokussiert, die Visitenkarte hat ihre eigene App im App Store und bei Google Play.</p>
+<p>Ja - NFC.cool Business Card ist auf iPhone und Android eine eigene App. NFC.cool Tools bleibt aufs Scannen fokussiert, die Visitenkarte hat ihre eigene App im <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-contact-de&mt=8" target="_blank" rel="noopener nofollow sponsored">App Store</a> und bei <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-contact-de" target="_blank" rel="noopener nofollow sponsored">Google Play</a>.</p>
 </details>
 
 ### Geräte, Tags & Funktionen

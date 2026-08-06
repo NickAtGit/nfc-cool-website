@@ -54,7 +54,7 @@ description: "NFC.coolへのお問い合わせ - メールサポート、よく�
 
 <details class="faq-item">
 <summary>デジタル名刺は別のアプリですか？</summary>
-<p>はい - NFC.cool Business CardはiPhoneでもAndroidでも専用アプリです。NFC.cool Toolsはスキャンに専念しており、名刺はApp StoreとGoogle Playそれぞれで独立したアプリとして提供されています。</p>
+<p>はい - NFC.cool Business CardはiPhoneでもAndroidでも専用アプリです。NFC.cool Toolsはスキャンに専念しており、名刺は<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-contact-ja&mt=8" target="_blank" rel="noopener nofollow sponsored">App Store</a>と<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-contact-ja" target="_blank" rel="noopener nofollow sponsored">Google Play</a>それぞれで独立したアプリとして提供されています。</p>
 </details>
 
 ### デバイス・タグ・機能

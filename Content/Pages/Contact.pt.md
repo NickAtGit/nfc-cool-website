@@ -54,7 +54,7 @@ A forma mais rápida de nos contactar é por email. Lemos cada mensagem pessoalm
 
 <details class="faq-item">
 <summary>O cartão de visita digital é uma app separada?</summary>
-<p>Sim - a NFC.cool Business Card é uma app dedicada tanto no iPhone como no Android. A NFC.cool Tools mantém-se focada na digitalização, por isso o cartão tem a sua própria app na App Store e no Google Play.</p>
+<p>Sim - a NFC.cool Business Card é uma app dedicada tanto no iPhone como no Android. A NFC.cool Tools mantém-se focada na digitalização, por isso o cartão tem a sua própria app na <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-contact-pt&mt=8" target="_blank" rel="noopener nofollow sponsored">App Store</a> e no <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-contact-pt" target="_blank" rel="noopener nofollow sponsored">Google Play</a>.</p>
 </details>
 
 ### Dispositivos, tags e funcionalidades

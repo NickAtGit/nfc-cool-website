@@ -172,11 +172,3 @@ Pilih paket yang sesuai dengan intensitas networking Anda. Semua paket berbayar 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
 </section>
-
-<section class="page-section">
-
-## Di Android
-
-[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) adalah aplikasi tersendiri di Google Play, persis seperti di App Store. Model data yang sama, handshake NFC yang sama, fallback QR yang sama, penangkapan prospek, analitik, dan Conference Mode yang sama. Dua bagian khas Apple tetap di iPhone: AppClip dan pas Apple Wallet. Di Android, penerima membuka kartu Anda sebagai profil web - berfungsi di ponsel apa pun yang punya peramban, tanpa perlu menginstal.
-
-</section>

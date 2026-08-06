@@ -172,11 +172,3 @@ Wähle den Plan, der zu deinem Networking-Pensum passt. Alle bezahlten Pläne en
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
 </section>
-
-<section class="page-section">
-
-## Auf Android
-
-[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-de) ist auf Google Play eine eigene App - genau wie im App Store. Gleiches Datenmodell, gleicher NFC-Handshake, gleicher QR-Fallback, gleiche Lead-Erfassung, Analytics und Konferenzmodus. Zwei Apple-spezifische Teile bleiben dem iPhone vorbehalten: AppClip und Apple-Wallet-Pässe. Auf Android öffnen Empfänger deine Karte stattdessen als Web-Profil - das funktioniert auf jedem Handy mit Browser, ganz ohne Installation.
-
-</section>

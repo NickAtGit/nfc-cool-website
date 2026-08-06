@@ -172,11 +172,3 @@ iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
 </section>
-
-<section class="page-section">
-
-## Androidでは
-
-[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ja)はGoogle Playでも独立したアプリです - App Storeとまったく同じ形です。データモデルもNFCハンドシェイクもQRフォールバックも、リード獲得、アナリティクス、Conference Modeもすべて共通。iPhone専用なのはAppleならではの2つ、App ClipとApple Walletパスだけです。Androidでは、受け取った相手が代わりにWebプロフィールとしてカードを開きます - ブラウザさえあればどの端末でも動き、インストールは不要です。
-
-</section>

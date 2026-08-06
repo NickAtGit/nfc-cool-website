@@ -54,7 +54,7 @@ Cara tercepat untuk menghubungi kami adalah melalui email. Kami membaca setiap p
 
 <details class="faq-item">
 <summary>Apakah Kartu Nama Digital merupakan aplikasi terpisah?</summary>
-<p>Ya - NFC.cool Business Card adalah aplikasi khusus di iPhone maupun Android. NFC.cool Tools tetap berfokus pada pemindaian, jadi kartu nama punya aplikasinya sendiri di App Store dan Google Play.</p>
+<p>Ya - NFC.cool Business Card adalah aplikasi khusus di iPhone maupun Android. NFC.cool Tools tetap berfokus pada pemindaian, jadi kartu nama punya aplikasinya sendiri di <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-contact-id&mt=8" target="_blank" rel="noopener nofollow sponsored">App Store</a> dan <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-contact-id" target="_blank" rel="noopener nofollow sponsored">Google Play</a>.</p>
 </details>
 
 ### Perangkat, tag & fitur

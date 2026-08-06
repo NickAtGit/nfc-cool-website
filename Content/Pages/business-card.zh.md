@@ -172,11 +172,3 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
 </section>
-
-<section class="page-section">
-
-## 在 Android 上
-
-[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) 在 Google Play 上同样是一款独立应用，与 App Store 上完全一致。相同的数据模型、相同的 NFC 握手机制、相同的二维码后备方案，线索获取、数据分析和会议模式也都一样。只有两项 Apple 特有的能力仅限 iPhone：AppClip 和 Apple Wallet 卡券。在 Android 上，对方会以网页名片的形式打开你的名片 - 任何带浏览器的手机都能用，无需安装。
-
-</section>

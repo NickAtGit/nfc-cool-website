@@ -172,11 +172,3 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
 </section>
-
-<section class="page-section">
-
-## على Android
-
-[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) تطبيق مستقل على Google Play تمامًا كما هو على App Store. نموذج البيانات نفسه، ومصافحة NFC نفسها، ونظام QR الاحتياطي نفسه، وكذلك التقاط العملاء المحتملين والتحليلات ووضع المؤتمرات. أما الميزتان الخاصتان بـApple فتبقيان على iPhone: AppClip وبطاقات Apple Wallet. وعلى Android، يفتح المستلمون بطاقتك كملف تعريف على الويب - وهو ما يعمل على أي هاتف فيه متصفّح، دون أي تثبيت.
-
-</section>

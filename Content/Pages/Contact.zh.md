@@ -54,7 +54,7 @@ description: "联系 NFC.cool：邮件支持、常见问题、开发者直接受
 
 <details class="faq-item">
 <summary>电子名片是单独的一款 App 吗？</summary>
-<p>是的，NFC.cool Business Card 在 iPhone 和 Android 上都是一款独立 App。NFC.cool Tools 专注于扫描，名片则在 App Store 和 Google Play 上各有自己的应用。</p>
+<p>是的，NFC.cool Business Card 在 iPhone 和 Android 上都是一款独立 App。NFC.cool Tools 专注于扫描，名片则在 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-contact-zh&mt=8" target="_blank" rel="noopener nofollow sponsored">App Store</a> 和 <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-contact-zh" target="_blank" rel="noopener nofollow sponsored">Google Play</a> 上各有自己的应用。</p>
 </details>
 
 ### 设备、标签与功能

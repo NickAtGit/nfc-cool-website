@@ -172,11 +172,3 @@ Choose the plan that fits how much you network. All paid plans include vCard sav
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
 </section>
-
-<section class="page-section">
-
-## On Android
-
-[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en) is its own app on Google Play, exactly like on the App Store. Same data model, same NFC handshake, same QR fallback, same lead capture, analytics and Conference Mode. The two Apple-specific pieces stay on iPhone: AppClip and Apple Wallet passes. On Android, recipients open your card as a web profile instead - which works on any phone with a browser, no install needed.
-
-</section>
