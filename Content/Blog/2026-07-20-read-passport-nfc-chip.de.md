@@ -5,7 +5,7 @@ date: "2026-07-20"
 tags: ["announcements", "nfc-tags", "privacy"]
 summary: "In deinem Reisepass steckt ein NFC-Chip, und dein Handy kann ihn jetzt auslesen. NFC.cool Tools liest den Chip in Reisepass, Personalausweis oder Aufenthaltstitel auf iPhone und Android - zeigt das gespeicherte Foto samt Daten und prüft, ob das Dokument echt ist."
 image: "/assets/images/Blog/read-passport-nfc-chip.webp"
-imageAlt: "Ein biometrischer Reisepass neben einem Handy, das das gespeicherte Foto des Dokuments und ein Häkchen für Echtheit zeigt"
+imageAlt: "Ein marineblaues Passheft mit goldenem NFC-Symbol neben einem iPhone, das ein verifiziertes Häkchen zeigt"
 author: "Nicolo Stanciu"
 metaTitle: "Den NFC-Chip deines Reisepasses mit dem Handy auslesen"
 metaDescription: "Dein Reisepass hat einen NFC-Chip, und NFC.cool liest ihn auf iPhone und Android. Sieh dir das auf dem Chip gespeicherte Foto samt Daten an und prüfe, ob das Dokument echt ist."

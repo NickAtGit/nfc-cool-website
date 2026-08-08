@@ -5,7 +5,7 @@ date: 2026-02-09
 tags: ["nfc-tags", "automation"]
 summary: "欧盟数字产品护照已经来了：电池已被纳入，纺织品和电子产品紧随其后。本文讲清楚 DPP 对企业和消费者意味着什么，以及为什么 NFC 技术正处在这一切的核心。"
 image: "/assets/images/Blog/eu-digital-product-passport-2026.webp"
-imageAlt: "一本带金色 NFC 符号的深蓝色护照，旁边是显示数字产品护照验证对勾的 iPhone"
+imageAlt: "手机扫描带 NFC 标签的产品包装，获取其数字产品护照"
 metaTitle: "2026 年欧盟数字产品护照：它是什么、谁受影响以及 NFC 的角色"
 metaDescription: "关于 2026 年欧盟数字产品护照（DPP）你需要了解的一切：强制时间表、数据要求、NFC 与二维码访问方式，以及如何为你的企业做好准备。"
 ogTitle: "欧盟数字产品护照：2026 年你需要了解的一切"

@@ -5,7 +5,7 @@ date: "2026-07-20"
 tags: ["announcements", "nfc-tags", "privacy"]
 summary: "There is an NFC chip inside your passport, and your phone can now read it. NFC.cool Tools reads the chip in a passport, ID card, or residence permit on iPhone and Android - showing the stored photo and details, and checking whether the document is genuine."
 image: "/assets/images/Blog/read-passport-nfc-chip.webp"
-imageAlt: "A biometric passport beside a phone showing the document's stored photo and a genuine checkmark"
+imageAlt: "A navy passport booklet with a gold NFC symbol beside an iPhone showing a verified checkmark"
 author: "Nicolo Stanciu"
 metaTitle: "Read Your Passport's NFC Chip With Your Phone"
 metaDescription: "Your passport has an NFC chip, and NFC.cool can read it on iPhone and Android. See the photo and details stored on the chip, and check whether the document is genuine."

@@ -5,7 +5,7 @@ date: 2026-02-09
 tags: ["nfc-tags", "automation"]
 summary: "EU Digital Product Passport sudah hadir - baterai sudah dicakup, tekstil dan elektronik berikutnya. Inilah arti DPP bagi bisnis, konsumen, dan mengapa teknologi NFC berada di pusatnya."
 image: "/assets/images/Blog/eu-digital-product-passport-2026.webp"
-imageAlt: "Buku paspor biru dongker dengan simbol NFC emas di samping iPhone yang menampilkan tanda centang paspor produk digital terverifikasi"
+imageAlt: "Kemasan produk yang dipindai ponsel untuk passport produk digital dengan tag NFC"
 metaTitle: "EU Digital Product Passport 2026 - apa itu, siapa yang terdampak & peran NFC"
 metaDescription: "Semua yang perlu Anda ketahui tentang EU Digital Product Passport (DPP) di tahun 2026: jadwal wajib, persyaratan data, akses NFC dan kode QR, dan cara mempersiapkan bisnis Anda."
 ogTitle: "EU Digital Product Passport: apa yang perlu Anda ketahui di tahun 2026"

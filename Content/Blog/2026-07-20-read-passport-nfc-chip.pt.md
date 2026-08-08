@@ -5,7 +5,7 @@ date: "2026-07-20"
 tags: ["announcements", "nfc-tags", "privacy"]
 summary: "Há um chip NFC dentro do seu passaporte, e o seu telemóvel já o consegue ler. A NFC.cool Tools lê o chip de um passaporte, cartão de identificação ou autorização de residência no iPhone e no Android - mostrando a fotografia e os dados guardados, e verificando se o documento é genuíno."
 image: "/assets/images/Blog/read-passport-nfc-chip.webp"
-imageAlt: "Um passaporte biométrico ao lado de um telemóvel que mostra a fotografia guardada no documento e uma marca de confirmação de autenticidade"
+imageAlt: "Um passaporte azul-marinho com um símbolo NFC dourado ao lado de um iPhone a mostrar uma marca de verificação"
 author: "Nicolo Stanciu"
 metaTitle: "Leia o chip NFC do seu passaporte com o telemóvel"
 metaDescription: "O seu passaporte tem um chip NFC, e a NFC.cool consegue lê-lo no iPhone e no Android. Veja a fotografia e os dados guardados no chip, e verifique se o documento é genuíno."

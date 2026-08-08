@@ -5,7 +5,7 @@ date: "2026-07-20"
 tags: ["announcements", "nfc-tags", "privacy"]
 summary: "Ada chip NFC di dalam paspor Anda, dan sekarang ponsel Anda bisa membacanya. NFC.cool Tools membaca chip di paspor, kartu identitas, atau izin tinggal di iPhone dan Android - menampilkan foto dan detail yang tersimpan, serta memeriksa apakah dokumen tersebut asli."
 image: "/assets/images/Blog/read-passport-nfc-chip.webp"
-imageAlt: "Paspor biometrik di samping ponsel yang menampilkan foto yang tersimpan di dokumen dan tanda centang keaslian"
+imageAlt: "Buku paspor biru dongker dengan simbol NFC emas di samping iPhone yang menampilkan tanda centang terverifikasi"
 author: "Nicolo Stanciu"
 metaTitle: "Baca chip NFC paspor Anda dengan ponsel"
 metaDescription: "Paspor Anda memiliki chip NFC, dan NFC.cool bisa membacanya di iPhone dan Android. Lihat foto dan detail yang tersimpan di chip, serta periksa apakah dokumen tersebut asli."

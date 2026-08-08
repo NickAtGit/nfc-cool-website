@@ -5,7 +5,7 @@ date: "2026-07-20"
 tags: ["announcements", "nfc-tags", "privacy"]
 summary: "パスポートの中にはNFCチップが入っていて、あなたのスマホでも読み取れるようになりました。NFC.cool ToolsはiPhoneとAndroidで、パスポート、IDカード、在留カードのチップを読み取り、保存された写真や情報を表示し、書類が本物かどうかを確認します。"
 image: "/assets/images/Blog/read-passport-nfc-chip.webp"
-imageAlt: "生体認証パスポートの横で、チップに保存された顔写真と本物であることを示すチェックマークを表示するスマホ"
+imageAlt: "金色のNFCシンボルが入った紺色のパスポート冊子と、確認済みのチェックマークを表示するiPhone"
 author: "Nicolo Stanciu"
 metaTitle: "スマホでパスポートのNFCチップを読み取る"
 metaDescription: "パスポートにはNFCチップが入っていて、NFC.coolならiPhoneとAndroidで読み取れます。チップに保存された顔写真や情報を表示し、本物かどうかも確認できます。"

@@ -5,7 +5,7 @@ date: 2026-02-09
 tags: ["nfc-tags", "automation"]
 summary: "O Passaporte Digital de Produto da UE chegou - as baterias já estão abrangidas, os têxteis e a eletrónica são os próximos. Aqui está o que o DPP significa para empresas, consumidores, e porque é que a tecnologia NFC está no centro de tudo isto."
 image: "/assets/images/Blog/eu-digital-product-passport-2026.webp"
-imageAlt: "Um passaporte azul-marinho com um símbolo NFC dourado ao lado de um iPhone a mostrar uma marca de verificação de passaporte digital"
+imageAlt: "Embalagem de produto digitalizada pelo telemóvel para um passaporte digital de produto com tag NFC"
 metaTitle: "Passaporte Digital de Produto da UE 2026 - O Que É, Quem É Afetado e o Papel do NFC"
 metaDescription: "Tudo o que precisa de saber sobre o Passaporte Digital de Produto (DPP) da UE em 2026: prazos obrigatórios, requisitos de dados, acesso por NFC e QR, e como preparar a sua empresa."
 ogTitle: "Passaporte Digital de Produto da UE: O Que Precisa de Saber em 2026"

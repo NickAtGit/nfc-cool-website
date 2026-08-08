@@ -5,7 +5,7 @@ date: "2026-07-20"
 tags: ["announcements", "nfc-tags", "privacy"]
 summary: "Dentro de tu pasaporte hay un chip NFC, y ahora tu móvil puede leerlo. NFC.cool Tools lee el chip de un pasaporte, un documento de identidad o un permiso de residencia en iPhone y Android - muestra la foto y los datos guardados, y comprueba si el documento es auténtico."
 image: "/assets/images/Blog/read-passport-nfc-chip.webp"
-imageAlt: "Un pasaporte biométrico junto a un móvil que muestra la foto guardada del documento y una marca de verificación de autenticidad"
+imageAlt: "Un pasaporte azul marino con un símbolo NFC dorado junto a un iPhone que muestra una marca de verificación"
 author: "Nicolo Stanciu"
 metaTitle: "Lee el chip NFC de tu pasaporte con tu móvil"
 metaDescription: "Tu pasaporte tiene un chip NFC, y NFC.cool puede leerlo en iPhone y Android. Ve la foto y los datos guardados en el chip, y comprueba si el documento es auténtico."

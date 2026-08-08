@@ -5,7 +5,7 @@ date: "2026-07-20"
 tags: ["announcements", "nfc-tags", "privacy"]
 summary: "你的护照里藏着一枚 NFC 芯片，现在你的手机也能读取它了。NFC.cool Tools 能在 iPhone 和 Android 上读取护照、身份证或居留许可里的芯片，显示芯片中存储的照片和信息，并检查证件是否真实。"
 image: "/assets/images/Blog/read-passport-nfc-chip.webp"
-imageAlt: "一本电子护照旁边放着一部手机，屏幕上显示着证件里存储的照片和一个表示真实的对勾"
+imageAlt: "一本带金色 NFC 符号的深蓝色护照，旁边是显示验证对勾的 iPhone"
 author: "Nicolo Stanciu"
 metaTitle: "用手机读取护照里的 NFC 芯片"
 metaDescription: "你的护照里有一枚 NFC 芯片，NFC.cool 能在 iPhone 和 Android 上读取它。查看芯片里存储的照片和信息，并检查证件是否真实。"

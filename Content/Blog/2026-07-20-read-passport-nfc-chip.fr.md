@@ -5,7 +5,7 @@ date: "2026-07-20"
 tags: ["announcements", "nfc-tags", "privacy"]
 summary: "Il y a une puce NFC à l'intérieur de votre passeport, et votre téléphone peut désormais la lire. NFC.cool Tools lit la puce d'un passeport, d'une carte d'identité ou d'un titre de séjour sur iPhone et Android - en affichant la photo et les informations enregistrées, et en vérifiant si le document est authentique."
 image: "/assets/images/Blog/read-passport-nfc-chip.webp"
-imageAlt: "Un passeport biométrique à côté d'un téléphone qui affiche la photo enregistrée du document et une coche d'authenticité"
+imageAlt: "Un passeport bleu marine avec un symbole NFC doré à côté d'un iPhone affichant une coche de vérification"
 author: "Nicolo Stanciu"
 metaTitle: "Lisez la puce NFC de votre passeport avec votre téléphone"
 metaDescription: "Votre passeport contient une puce NFC, et NFC.cool peut la lire sur iPhone et Android. Consultez la photo et les informations enregistrées sur la puce, et vérifiez si le document est authentique."
