@@ -5,7 +5,7 @@ date: "2026-07-24"
 tags: ["announcements", "nfc-tags", "industry"]
 summary: "我听说奢侈品牌用 NTAG 424 DNA 标签来证明产品是真品，于是我从 AliExpress 买了一批，想看看它们到底能做什么。结果发现它们就是加了一层加密的 NFC 轻触计数器，而 NFC.cool Tools 现在已经能在 iPhone 和 Android 上读取、验证并完整配置它们：每一把密钥、每个文件的权限，以及芯片自身的设置。"
 image: "/assets/images/Blog/ntag-424-dna-counterfeit-proof-nfc-tags.webp"
-imageAlt: "一枚 NTAG 424 DNA 标签贴在一部 iPhone 上，屏幕显示着验证为真品的结果，旁边是标签的配置界面"
+imageAlt: "一款带 NFC 认证吊牌的皮革手袋，旁边是显示安全盾牌和钥匙图标的 iPhone"
 author: "Nicolo Stanciu"
 metaTitle: "NTAG 424 DNA：读懂这种防伪 NFC 标签"
 metaDescription: "我买了一批 NTAG 424 DNA 标签，想看看品牌是怎么证明产品是真品的。这篇讲讲这种防伪 NFC 标签的原理，以及 NFC.cool 如何读取、验证和写入它们。"

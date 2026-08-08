@@ -5,7 +5,7 @@ date: "2026-07-24"
 tags: ["announcements", "nfc-tags", "industry"]
 summary: "Saya mendengar merek-merek mewah menggunakan tag NTAG 424 DNA untuk membuktikan sebuah produk asli, jadi saya membeli satu kumpulan dari AliExpress untuk melihat apa fungsinya sebenarnya. Ternyata tag itu tak lebih dari NFC Tap Counter dengan lapisan kriptografis yang dipasang di atasnya, dan NFC.cool Tools kini membaca, memverifikasi, dan mengonfigurasinya sepenuhnya di iPhone dan Android - setiap kunci, izin setiap file, dan pengaturan chip itu sendiri."
 image: "/assets/images/Blog/ntag-424-dna-counterfeit-proof-nfc-tags.webp"
-imageAlt: "Sebuah tag NTAG 424 DNA yang ditempelkan ke iPhone menampilkan hasil terverifikasi asli di samping layar konfigurasi tag"
+imageAlt: "Tas kulit dengan tag autentikasi NFC di samping iPhone yang menampilkan perisai keamanan dan ikon kunci"
 author: "Nicolo Stanciu"
 metaTitle: "NTAG 424 DNA: tag NFC anti-pemalsuan dijelaskan"
 metaDescription: "Saya membeli tag NTAG 424 DNA untuk melihat bagaimana merek membuktikan sebuah produk asli. Berikut cara kerja tag NFC anti-pemalsuan ini, dan bagaimana NFC.cool membaca, memverifikasi, dan memprogramnya."

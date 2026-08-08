@@ -5,7 +5,7 @@ date: "2026-07-24"
 tags: ["announcements", "nfc-tags", "industry"]
 summary: "高級ブランドが製品を本物だと証明するためにNTAG 424 DNAタグを使っていると聞いたので、実際に何をするものなのか確かめようとAliExpressでまとめ買いしてみました。その正体は、暗号化の層を後付けしたNFCタップカウンターでした。NFC.cool ToolsはiPhoneとAndroidで、それを読み取り、検証し、そして完全に設定できます。すべての鍵、すべてのファイルの権限、そしてチップ自体の設定まで。"
 image: "/assets/images/Blog/ntag-424-dna-counterfeit-proof-nfc-tags.webp"
-imageAlt: "iPhoneに当てられたNTAG 424 DNAタグ。本物と検証された結果が、タグの設定画面とともに表示されている"
+imageAlt: "NFC認証タグが付いたレザーハンドバッグと、セキュリティシールドと鍵のアイコンを表示するiPhone"
 author: "Nicolo Stanciu"
 metaTitle: "NTAG 424 DNA：偽造防止NFCタグの仕組みを解説"
 metaDescription: "ブランドがどうやって製品を本物だと証明しているのか確かめるため、NTAG 424 DNAタグを買ってみました。この偽造防止NFCタグの仕組みと、NFC.coolがそれをどう読み取り、検証し、書き込むのかを紹介します。"

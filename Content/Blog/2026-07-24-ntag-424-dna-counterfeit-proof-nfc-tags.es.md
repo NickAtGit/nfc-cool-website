@@ -5,7 +5,7 @@ date: "2026-07-24"
 tags: ["announcements", "nfc-tags", "industry"]
 summary: "Oí que las marcas de lujo usan etiquetas NTAG 424 DNA para demostrar que un producto es auténtico, así que compré un lote en AliExpress para ver qué hacen en realidad. Resultaron ser el Contador de Toques NFC con una capa criptográfica añadida, y NFC.cool Tools ahora las lee, las verifica y las configura por completo en iPhone y Android - cada clave, los permisos de cada archivo y los propios ajustes del chip."
 image: "/assets/images/Blog/ntag-424-dna-counterfeit-proof-nfc-tags.webp"
-imageAlt: "Una etiqueta NTAG 424 DNA acercada a un iPhone que muestra un resultado de autenticidad verificada junto a la pantalla de configuración de la etiqueta"
+imageAlt: "Un bolso de piel con una etiqueta de autenticación NFC junto a un iPhone que muestra un escudo de seguridad e iconos de llave"
 author: "Nicolo Stanciu"
 metaTitle: "NTAG 424 DNA: la etiqueta NFC anti-falsificación explicada"
 metaDescription: "Compré etiquetas NTAG 424 DNA para ver cómo las marcas demuestran que un producto es auténtico. Así funcionan estas etiquetas NFC anti-falsificación, y así las lee, verifica y programa NFC.cool."
