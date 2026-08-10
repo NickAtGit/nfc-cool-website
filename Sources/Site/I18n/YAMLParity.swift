@@ -100,6 +100,20 @@ enum YAMLParity {
       return nil
    }
 
+   /// The prose body of a markdown file - everything after the closing `---`
+   /// of the frontmatter. Returns the whole text when there is no frontmatter.
+   /// Used by the typography lint, which must never see the YAML header (whose
+   /// `"` quotes are structural, not prose).
+   static func markdownBody(of markdown: String) -> String {
+      guard markdown.hasPrefix("---") else { return markdown }
+      let lines = markdown.components(separatedBy: "\n")
+      guard lines.first?.trimmingCharacters(in: .whitespaces) == "---" else { return markdown }
+      for (offset, line) in lines.dropFirst().enumerated() where line.trimmingCharacters(in: .whitespaces) == "---" {
+         return lines.dropFirst(offset + 2).joined(separator: "\n")
+      }
+      return markdown
+   }
+
    /// The last path segment with any trailing `[index]` stripped - used to
    /// match a leaf against allowlisted key names.
    static func leafKeyName(of path: String) -> String {

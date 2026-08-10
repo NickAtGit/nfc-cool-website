@@ -52,13 +52,13 @@ Die Person, die du gerade getroffen hast, denkt, sie führt ein freundliches Ges
 
 ### Datenanreicherung
 
-Einige Plattformen bieten "KI-Kontaktanreicherung" an - du scannst eine Visitenkarte oder tauschst Kontakte, und die Plattform zieht automatisch zusätzliche Daten aus öffentlichen Quellen: LinkedIn-Profile, Firmeninformationen, Social-Media-Konten.
+Einige Plattformen bieten „KI-Kontaktanreicherung“ an - du scannst eine Visitenkarte oder tauschst Kontakte, und die Plattform zieht automatisch zusätzliche Daten aus öffentlichen Quellen: LinkedIn-Profile, Firmeninformationen, Social-Media-Konten.
 
 Praktisch? Klar. Aber es bedeutet, dass die Plattform ein Profil der Leute aufbaut, die du triffst, oft ohne deren Wissen. Deine Kontakte haben sich nicht dafür angemeldet. Sie haben ihre Visitenkarte geteilt, nicht ihren gesamten digitalen Fußabdruck.
 
 ---
 
-## Die versteckten Kosten von "Gratis"
+## Die versteckten Kosten von „Gratis“
 
 Viele digitale Visitenkarten-Plattformen bieten großzügige Gratis-Tarife. Das ist toll für die Zugänglichkeit, aber es wirft eine wichtige Frage auf: **wie verdient ein gratis Produkt Geld?**
 
@@ -69,7 +69,7 @@ Die ehrlichen Antworten variieren:
 - **Abgreifen von Empfängerdaten** - Deine Kontakte werden Leads für die Plattform selbst.
 - **Datenaggregation** - Anonymisierte (oder nicht) Networking-Muster, die an Dritte verkauft werden.
 
-Nicht jeder Gratis-Plan hat versteckte Haken. Einige Plattformen - wie Wave Connect - bieten wirklich nützliche Gratis-Tarife ohne Empfängerwerbung. Andere nutzen "gratis" als Pipeline, um im großen Maßstab Kontaktdaten zu sammeln.
+Nicht jeder Gratis-Plan hat versteckte Haken. Einige Plattformen - wie Wave Connect - bieten wirklich nützliche Gratis-Tarife ohne Empfängerwerbung. Andere nutzen „gratis“ als Pipeline, um im großen Maßstab Kontaktdaten zu sammeln.
 
 Faustregel: Wenn eine Plattform unbegrenzte Features gratis anbietet und kein klares Geschäftsmodell hat, *bist du* das Geschäftsmodell.
 
@@ -97,7 +97,7 @@ Die DSGVO gibt dir das Recht auf Datenportabilität - du solltest alles herunter
 
 ### 5. Kannst du deinen Account wirklich löschen?
 
-Nicht "deaktivieren". Löschen. Mit allen zugehörigen Daten von ihren Servern entfernt. Einige Plattformen machen das überraschend schwierig und verstecken es hinter Support-Tickets statt einer Self-Service-Option.
+Nicht „deaktivieren“. Löschen. Mit allen zugehörigen Daten von ihren Servern entfernt. Einige Plattformen machen das überraschend schwierig und verstecken es hinter Support-Tickets statt einer Self-Service-Option.
 
 ### 6. Hat sie Zugriffssteuerungen?
 

@@ -70,7 +70,7 @@ Si vous voulez verrouiller le tag pour que personne ne puisse réécrire l'URL p
 
 ## Prévisualiser avant de partager
 
-Touchez **Voir la carte de visite** pour voir exactement ce qu'un destinataire verra. La page est pensée d'abord pour le mobile, se charge instantanément et propose un bouton "Enregistrer dans les contacts" en un seul geste. Sur iOS, les destinataires voient un App Clip natif (aucune installation d'app requise); sur Android, ils voient une page web soignée sur le domaine nfc.cool. Dans les deux cas, ils obtiennent votre contact dans leur répertoire.
+Touchez **Voir la carte de visite** pour voir exactement ce qu'un destinataire verra. La page est pensée d'abord pour le mobile, se charge instantanément et propose un bouton « Enregistrer dans les contacts » en un seul geste. Sur iOS, les destinataires voient un App Clip natif (aucune installation d'app requise); sur Android, ils voient une page web soignée sur le domaine nfc.cool. Dans les deux cas, ils obtiennent votre contact dans leur répertoire.
 
 ---
 

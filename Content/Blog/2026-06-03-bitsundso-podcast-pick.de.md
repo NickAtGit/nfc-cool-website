@@ -15,7 +15,7 @@ ogDescription: "Timo Hetzel hat NFC.cool bei Bits und so #1007 gepickt. Ein kurz
 
 Vor ein paar Tagen lief Bits und so Folge #1007 bei mir nebenbei mit, während ich gearbeitet habe - und plötzlich höre ich aus den Lautsprechern den Namen meiner App.
 
-Im **Picks**-Segment hat Timo Hetzel NFC.cool empfohlen. In den Shownotes steht sie schlicht als "NFC.cool Scanner-App". [Hier geht's zur Folge](https://www.bitsundso.de/bus1007/).
+Im **Picks**-Segment hat Timo Hetzel NFC.cool empfohlen. In den Shownotes steht sie schlicht als „NFC.cool Scanner-App“. [Hier geht's zur Folge](https://www.bitsundso.de/bus1007/).
 
 Klingt erstmal nach einer Kleinigkeit. Eine Zeile in den Shownotes, ein paar Minuten Audio. Aber Bits und so ist für mich nicht irgendein Podcast.
 

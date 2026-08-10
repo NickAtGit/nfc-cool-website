@@ -36,7 +36,7 @@ Un webhook n'est rien d'autre qu'un `POST` JSON vers une URL que vous contrôlez
 
 <article class="feature-capability-card">
 <h3>Zapier</h3>
-<p>Utilisez le déclencheur "Catch Webhook" de Zapier pour acheminer vos scans vers plus de 5 000 applications - CRM, tableurs, Slack, et bien d'autres. La version gratuite suffit pour de petits volumes.</p>
+<p>Utilisez le déclencheur « Catch Webhook » de Zapier pour acheminer vos scans vers plus de 5 000 applications - CRM, tableurs, Slack, et bien d'autres. La version gratuite suffit pour de petits volumes.</p>
 </article>
 
 <article class="feature-capability-card">
@@ -51,7 +51,7 @@ Un webhook n'est rien d'autre qu'un `POST` JSON vers une URL que vous contrôlez
 
 <article class="feature-capability-card">
 <h3>IFTTT</h3>
-<p>Pour un routage simple de type "if this then that". Le service Webhooks d'IFTTT vous fournit une URL unique à coller dans la configuration webhook de NFC.cool.</p>
+<p>Pour un routage simple de type « if this then that ». Le service Webhooks d'IFTTT vous fournit une URL unique à coller dans la configuration webhook de NFC.cool.</p>
 </article>
 
 <article class="feature-capability-card">
@@ -74,7 +74,7 @@ Un webhook n'est rien d'autre qu'un `POST` JSON vers une URL que vous contrôlez
 
 - **Inventaire et piste d'audit.** Approchez un tag sur un article, NFC.cool envoie un POST vers un tableur ou un système d'entrepôt ; une ligne apparaît avec l'horodatage, l'identifiant du tag et le payload.
 - **Capture de leads en événement.** Approchez un tag sur la banderole de votre stand, votre CRM déclenche automatiquement un e-mail de relance.
-- **Déclencheurs domotiques.** Approchez un tag sur la porte d'entrée pour signaler "je suis rentré" - Home Assistant / Homey / Hubitat le récupère via webhook.
+- **Déclencheurs domotiques.** Approchez un tag sur la porte d'entrée pour signaler « je suis rentré » - Home Assistant / Homey / Hubitat le récupère via webhook.
 - **Suivi des équipements.** Le personnel de maintenance approche des tags sur les équipements pour consigner les inspections ; le backend constitue le registre de conformité.
 - **Enregistrement en conférence.** Approchez le badge NFC d'un participant ; le webhook met à jour votre plateforme d'événement en temps réel.
 
@@ -84,7 +84,7 @@ Un webhook n'est rien d'autre qu'un `POST` JSON vers une URL que vous contrôlez
 
 ## Webhooks
 
-Activez-les dans **onglet Plus → Webhook** à l'intérieur de l'app : saisissez une URL HTTPS, éventuellement un nom d'utilisateur/mot de passe pour l'authentification HTTP Basic, puis activez indépendamment "scans NFC" et "scans QR et codes-barres". Disponible sur iOS et Android.
+Activez-les dans **onglet Plus → Webhook** à l'intérieur de l'app : saisissez une URL HTTPS, éventuellement un nom d'utilisateur/mot de passe pour l'authentification HTTP Basic, puis activez indépendamment « scans NFC » et « scans QR et codes-barres ». Disponible sur iOS et Android.
 
 L'app envoie un seul `POST` par scan vers l'URL que vous avez configurée. Il n'y a pas de file de nouvelles tentatives séparée : si votre endpoint est injoignable ou renvoie une réponse non 2xx, le POST du scan échoue. Visez `204 No Content` en cas de succès ; tout code 2xx est considéré comme accepté.
 

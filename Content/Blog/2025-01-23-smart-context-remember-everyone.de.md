@@ -22,12 +22,12 @@ Die Kontaktdaten auf deinem Handy sind nutzlos, wenn du dich nicht erinnerst, wa
 
 ## Kontext ist das fehlende Stück
 
-Also habe ich, was ich seither das "Memory-Upgrade" nenne, zu NFC.cool Business Card hinzugefügt. Direkt nach dem Verbinden - via NFC-Tippen, App Clip oder dem Conference-Mode Lockscreen-QR - bekommst du einen Prompt, Kontext festzuhalten:
+Also habe ich, was ich seither das „Memory-Upgrade“ nenne, zu NFC.cool Business Card hinzugefügt. Direkt nach dem Verbinden - via NFC-Tippen, App Clip oder dem Conference-Mode Lockscreen-QR - bekommst du einen Prompt, Kontext festzuhalten:
 
 - **Wo und wann ihr euch getroffen habt.** Auto-befüllt mit Datum und Ort, editierbar.
 - **Woran sie arbeiten.** Eine kurze Notiz zu Projekt, Firma oder Fokus.
 - **Gesprächs-Highlights.** Die ein bis zwei Dinge, über die ihr wirklich gesprochen habt und die du dir merken willst.
-- **Follow-up-Pläne.** "Sie schicken eine Intro zu ihrem VC." "Pitch-Deck am Montag senden."
+- **Follow-up-Pläne.** „Sie schicken eine Intro zu ihrem VC.“ „Pitch-Deck am Montag senden.“
 
 Das Letzte synchronisiert in deinen Kalender und deine Erinnerungen, weil wir alle schlecht im Nachhalten sind und alle den Schubs brauchen.
 
@@ -43,7 +43,7 @@ Den Kontext im selben Flow wie den Kontaktaustausch zu erfassen heißt: Die Date
 
 ## Was es für mich verändert hat
 
-Während des Beta-Tests auf ein paar Events verschob sich die Erfahrung von "Ich habe diese Visitenkarten jetzt auf dem Handy" zu "Ich habe einen abfragbaren Graph von Menschen, was sie tun und was ich ihnen schulde".
+Während des Beta-Tests auf ein paar Events verschob sich die Erfahrung von „Ich habe diese Visitenkarten jetzt auf dem Handy“ zu „Ich habe einen abfragbaren Graph von Menschen, was sie tun und was ich ihnen schulde“.
 
 Ich öffne den Networking-Tab in NFC.cool Business Card und sehe: Wen ich wo getroffen habe, worüber wir geredet haben, was ich versprochen habe nachzuhalten, was noch offen ist. Nach einem erneuten Treffen aktualisiere ich den Eintrag - neues Gespräch, neuer Kontext. Die Karte wird ein lebendiges Protokoll der Beziehung, kein Snapshot von Kontaktdaten.
 
@@ -58,7 +58,7 @@ Der Smart-Context-Layer funktioniert unabhängig davon, wie der Kontakt ins Adre
 - **Conference Mode (Lockscreen-QR).** Zeige deinen Lockscreen-QR für schnellen Austausch in lauten Umgebungen; derselbe Kontext-Prompt feuert, sobald sie speichern.
 - **Android-Browser.** Android-Empfänger öffnen die Web-Version, speichern den Kontakt und können Kontext anschließend in der NFC.cool Business Card App ergänzen.
 
-Die App händelt bis zu 100 verschiedene Karten (verschiedene Rollen, verschiedene Events, verschiedene Versionen von dir) und die Smart-Context-Daten bleiben pro Karte separat - eine Person, die du als "Design-Consultant beim Berliner Meetup" getroffen hast, ist ein anderer Datensatz als dieselbe Person, die du als "Co-Founder beim YC Demo Day" getroffen hast.
+Die App händelt bis zu 100 verschiedene Karten (verschiedene Rollen, verschiedene Events, verschiedene Versionen von dir) und die Smart-Context-Daten bleiben pro Karte separat - eine Person, die du als „Design-Consultant beim Berliner Meetup“ getroffen hast, ist ein anderer Datensatz als dieselbe Person, die du als „Co-Founder beim YC Demo Day“ getroffen hast.
 
 ---
 
@@ -66,7 +66,7 @@ Die App händelt bis zu 100 verschiedene Karten (verschiedene Rollen, verschiede
 
 Der Grund, warum es das vor fünf Jahren nicht gab, ist nicht die Tech - es war die Friction. Kontext erfassen hieß: eine separate Notizen-App rausholen, tippen während der Gegenüber zuschaut, und die Notizen später irgendwie mit dem Kontakt verknüpfen. Die meisten haben aufgegeben.
 
-Mit NFC.cool Business Card ist die Erfassung ein Tippen, inline mit dem Kontaktaustausch. Es ist der Unterschied zwischen "ich sollte mir das merken" und "das ist jetzt gemerkt".
+Mit NFC.cool Business Card ist die Erfassung ein Tippen, inline mit dem Kontaktaustausch. Es ist der Unterschied zwischen „ich sollte mir das merken“ und „das ist jetzt gemerkt“.
 
 In einer Welt, in der wir Kontakte schneller tauschen als je zuvor, sind die Daten, die zählen, nicht wen du kennst - sondern warum du sie kennst.
 

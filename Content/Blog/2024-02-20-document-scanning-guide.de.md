@@ -10,7 +10,7 @@ ogTitle: "Dokumente scannen aus der Hosentasche mit NFC.cool Tools"
 ogDescription: "Dokumente scannen, OCR laufen lassen und durchsuchbare PDFs exportieren mit NFC.cool Tools."
 image: "/assets/images/Blog/document-scanning-guide.webp"
 ---
-Ein modernes iPhone hat genug Kamera und Rechenleistung, dass "ein Dokument scannen" kein Drucker-Feature mehr ist - es ist ein Tap. Der Dokumenten-Scanner in NFC.cool Tools basiert auf Apples Vision-Framework, was schnelle Aufnahme, automatische Kantenerkennung und OCR komplett on-device bedeutet.
+Ein modernes iPhone hat genug Kamera und Rechenleistung, dass „ein Dokument scannen“ kein Drucker-Feature mehr ist - es ist ein Tap. Der Dokumenten-Scanner in NFC.cool Tools basiert auf Apples Vision-Framework, was schnelle Aufnahme, automatische Kantenerkennung und OCR komplett on-device bedeutet.
 
 So nutzt du ihn gut.
 
@@ -52,7 +52,7 @@ OCR-Qualität hängt von drei Dingen ab: Bildschärfe, Beleuchtung und Schrift. 
 
 Der Trick, der Scans langfristig wirklich nützlich macht, ist der **durchsuchbare PDF**-Export. Es ist ein PDF, in dem jede Seite das gescannte Bild ist, mit dem OCR-Text unsichtbar darunter gelayert - das Dokument sieht aus wie ein Bild, aber Suchmaschinen (und macOS Spotlight, und Finder) finden Wörter darin.
 
-In NFC.cool Tools tippe **Als PDF teilen** und der Export enthält automatisch den OCR-Layer. Wirf das PDF in dein Ablagesystem, suche drei Monate später nach "Rechnung 2024-02 Acme Corp", und das richtige Dokument taucht auf.
+In NFC.cool Tools tippe **Als PDF teilen** und der Export enthält automatisch den OCR-Layer. Wirf das PDF in dein Ablagesystem, suche drei Monate später nach „Rechnung 2024-02 Acme Corp“, und das richtige Dokument taucht auf.
 
 ---
 
@@ -61,7 +61,7 @@ In NFC.cool Tools tippe **Als PDF teilen** und der Export enthält automatisch d
 Du könntest auch einfach ein Foto vom Dokument machen. Gründe für den Scanner stattdessen:
 
 - **Kanten-Crop.** Ein Scan ist auf die Seite zugeschnitten. Ein Foto enthält den Schreibtisch, die Kaffeetasse, die Katze.
-- **Perspektivkorrektur.** Selbst flach gehalten ist ein Handy leicht schief. Scanner korrigieren das, sodass die Seite "wie gescannt" aussieht statt "schräg fotografiert".
+- **Perspektivkorrektur.** Selbst flach gehalten ist ein Handy leicht schief. Scanner korrigieren das, sodass die Seite „wie gescannt“ aussieht statt „schräg fotografiert“.
 - **Mehrseiten-Bündelung.** Fünf Fotos = fünf Dateien in der Galerie. Fünf Scans = ein PDF.
 - **Durchsuchbarer Text.** OCR direkt im Export eingebacken.
 

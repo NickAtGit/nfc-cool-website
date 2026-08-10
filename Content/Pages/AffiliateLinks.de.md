@@ -124,16 +124,16 @@ Amiibo sind konkret **NTAG215**-Chips. Wenn du [Amiibo mit NFC.cool sicherst](/b
 
 <article class="page-card">
 <h3>Mifare Classic 1K</h3>
-<p>In alten Hotelkarten, Verkehrskarten und „1K NFC-Tag"-Resterampen. Anderes Protokoll (Mifare, nicht NDEF) - iPhone kann sie gar nicht beschreiben. Android liest, schreibt aber nicht immer zuverlässig.</p>
+<p>In alten Hotelkarten, Verkehrskarten und „1K NFC-Tag“-Resterampen. Anderes Protokoll (Mifare, nicht NDEF) - iPhone kann sie gar nicht beschreiben. Android liest, schreibt aber nicht immer zuverlässig.</p>
 </article>
 
 <article class="page-card">
-<h3>„NFC-Tag" ohne Chip-Namen</h3>
-<p>Zeigt das Listing-Foto einen schwarzen Sticker und die Beschreibung sagt nur „NFC-Tag" ohne Chip-Familie, erwarte die billigste Variante des Monats. Manchmal NTAG203 (weniger Kapazität, weniger zuverlässig auf iPhone).</p>
+<h3>„NFC-Tag“ ohne Chip-Namen</h3>
+<p>Zeigt das Listing-Foto einen schwarzen Sticker und die Beschreibung sagt nur „NFC-Tag“ ohne Chip-Familie, erwarte die billigste Variante des Monats. Manchmal NTAG203 (weniger Kapazität, weniger zuverlässig auf iPhone).</p>
 </article>
 
 <article class="page-card">
-<h3>„1000-mal wiederbeschreibbar" als Marketing</h3>
+<h3>„1000-mal wiederbeschreibbar“ als Marketing</h3>
 <p>Technisch stimmt das für fast jeden NTAG-Chip - sie sind für ~100.000 Schreibvorgänge ausgelegt - aber es ist ein Indiz, dass der Verkäufer auf Erstkäufer zielt und die technische Spec eventuell ausgelassen hat. Rezensionen sorgfältig lesen.</p>
 </article>
 

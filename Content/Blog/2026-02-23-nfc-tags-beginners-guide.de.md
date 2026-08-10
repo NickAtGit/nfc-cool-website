@@ -31,7 +31,7 @@ Jedes moderne Smartphone hat einen eingebauten NFC-Chip. iPhones lesen NFC seit 
 
 ## Was ist ein NFC-Tag?
 
-Ein NFC-Tag ist ein kleiner, passiver Chip, der in einen Sticker, eine Karte, einen Schlüsselanhänger oder so ziemlich jeden Formfaktor eingebettet ist. "Passiv" ist das Wort, auf das es ankommt: **ein NFC-Tag hat keine Batterie.** Er wird vollständig vom Feld des Geräts mit Strom versorgt, das ihn liest.
+Ein NFC-Tag ist ein kleiner, passiver Chip, der in einen Sticker, eine Karte, einen Schlüsselanhänger oder so ziemlich jeden Formfaktor eingebettet ist. „Passiv“ ist das Wort, auf das es ankommt: **ein NFC-Tag hat keine Batterie.** Er wird vollständig vom Feld des Geräts mit Strom versorgt, das ihn liest.
 
 Genau das macht sie so unkompliziert im Alltag:
 - **Praktisch unzerstörbar** - keine Batterie, die leer wird, nichts, das sich abnutzt
@@ -53,7 +53,7 @@ NFC ist eigentlich eine Untermenge von RFID (Radio-Frequency Identification). So
 | **Standardisiert** | ISO 14443 / ISO 18092 | Mehrere Standards |
 | **Verbrauchernutzung** | Hoch (Handys, Zahlungen) | Meist industriell |
 
-Alles NFC ist RFID, aber nicht alles RFID ist NFC. Der Ausweis, den du durchziehst, um ins Büro zu kommen, läuft oft bei 125 KHz, und dein Handy kann das schlicht nicht lesen. NFC-Tags nutzen die 13,56-MHz-Frequenz, die Handys unterstützen. "Warum liest mein Handy meinen Firmenausweis nicht?" ist eine der Fragen, die mir am häufigsten gestellt werden, und das ist fast immer die Antwort. (Wenn du in genau diesem Kaninchenbau steckst, habe ich einen ganzen Beitrag dazu geschrieben, [warum dein iPhone keine RFID-Tür öffnen kann](/de/blog/iphone-rfid-condo-doors/).)
+Alles NFC ist RFID, aber nicht alles RFID ist NFC. Der Ausweis, den du durchziehst, um ins Büro zu kommen, läuft oft bei 125 KHz, und dein Handy kann das schlicht nicht lesen. NFC-Tags nutzen die 13,56-MHz-Frequenz, die Handys unterstützen. „Warum liest mein Handy meinen Firmenausweis nicht?“ ist eine der Fragen, die mir am häufigsten gestellt werden, und das ist fast immer die Antwort. (Wenn du in genau diesem Kaninchenbau steckst, habe ich einen ganzen Beitrag dazu geschrieben, [warum dein iPhone keine RFID-Tür öffnen kann](/de/blog/iphone-rfid-condo-doors/).)
 
 ---
 
@@ -208,7 +208,7 @@ Ich könnte hundert aufzählen. Das sind die, zu denen ich immer wieder zurückk
 Klebe einen Tag in die Nähe deiner Haustür oder deines Gästezimmers. Programmiere ihn mit deinen WLAN-Zugangsdaten. Gäste tippen ihn an und verbinden sich sofort - kein Tippen langer Passwörter.
 
 **2. Smart-Home-Szenen**
-Platziere Tags in deinem Zuhause, um Automatisierungen auszulösen. Tippe den Tag auf deinem Nachttisch, um den "Gute-Nacht"-Modus zu aktivieren (Lichter aus, Alarm eingestellt, Handy auf Nicht stören). Tippe den an der Tür für "Verlasse Haus" (Lichter aus, Thermostat runter, Saugroboter startet).
+Platziere Tags in deinem Zuhause, um Automatisierungen auszulösen. Tippe den Tag auf deinem Nachttisch, um den „Gute-Nacht“-Modus zu aktivieren (Lichter aus, Alarm eingestellt, Handy auf Nicht stören). Tippe den an der Tür für „Verlasse Haus“ (Lichter aus, Thermostat runter, Saugroboter startet).
 
 **3. Wecker**
 Lege einen Tag in die Küche oder das Bad. Richte einen Kurzbefehl ein, der deinen Morgen-Wecker nur deaktiviert, wenn du den Tag physisch scannst - was dich aus dem Bett zwingt.
@@ -275,7 +275,7 @@ Der raffinierte Teil: Auf dem Tag müssen nicht mal Daten geschrieben sein. Kurz
 
 - Starte einen Fokusmodus + Timer, wenn du deinen Schreibtisch-Tag tippst
 - Protokolliere deine Ankunftszeit in einer Tabelle, wenn du den Büro-Tag tippst
-- Sende deinem Partner "auf dem Weg nach Hause", wenn du den Auto-Tag tippst
+- Sende deinem Partner „auf dem Weg nach Hause“, wenn du den Auto-Tag tippst
 - Schalte spezifische Smart-Home-Geräte um
 
 Auf Android bieten Apps wie **Tasker** und **MacroDroid** ähnliche NFC-getriggerte Automatisierung.

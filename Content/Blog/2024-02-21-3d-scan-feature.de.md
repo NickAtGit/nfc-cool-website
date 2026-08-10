@@ -61,7 +61,7 @@ Das Modell ist dasselbe. Das Format entscheidet nur, welches Tool in der Weiterv
 Die spannendsten Anwendungen, die ich von Nutzern gesehen habe:
 
 - **3D-Druck einer Einzelstück-Replik.** Scanne ein gefundenes Objekt, slice, druck.
-- **Dokumentation eines realen Assets.** Nachlassdokumentation, Museumskatalogisierung, "wie sieht Omas Vase eigentlich aus".
+- **Dokumentation eines realen Assets.** Nachlassdokumentation, Museumskatalogisierung, „wie sieht Omas Vase eigentlich aus“.
 - **In AR teilen.** Sende die .usdz an jemanden auf einem iPhone - er tippt drauf und sieht das Objekt via AR Quick Look in seinem Wohnzimmer schweben.
 - **In eine Game Engine einsetzen.** Ein realer Requisitengegenstand in einer Unity-Szene, in 90 Sekunden modelliert ohne 3D-Künstler.
 

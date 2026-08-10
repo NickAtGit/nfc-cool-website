@@ -48,7 +48,7 @@ Hier wird es richtig nützlich.
 
 Jeder Scan, den du auf deinem iPhone gemacht hast - NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle, Raumscans - wird automatisch über **iCloud** auf deinen Mac synchronisiert.
 
-Öffne die App auf deinem Mac und deine gesamte Bibliothek ist schon da. Kein Export, kein manuelles Übertragen, kein "An Mac senden"-Button. Es erscheint einfach.
+Öffne die App auf deinem Mac und deine gesamte Bibliothek ist schon da. Kein Export, kein manuelles Übertragen, kein „An Mac senden“-Button. Es erscheint einfach.
 
 Das heißt, du kannst:
 

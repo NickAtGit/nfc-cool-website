@@ -15,7 +15,7 @@ ogDescription: "اختار Timo Hetzel تطبيق NFC.cool في Bits und so #100
 
 قبل بضعة أيام، كانت الحلقة #1007 من Bits und so تُشغَّل في الخلفية بينما كنت أعمل - وفجأة، خرج اسم تطبيقي من السمّاعات.
 
-في فقرة **Picks**، رشّح Timo Hetzel تطبيق NFC.cool. وتذكره ملاحظات الحلقة ببساطة باسم "NFC.cool Scanner-App". [إليك الحلقة](https://www.bitsundso.de/bus1007/).
+في فقرة **Picks**، رشّح Timo Hetzel تطبيق NFC.cool. وتذكره ملاحظات الحلقة ببساطة باسم «NFC.cool Scanner-App». [إليك الحلقة](https://www.bitsundso.de/bus1007/).
 
 يبدو الأمر صغيرًا للوهلة الأولى. سطر واحد في ملاحظات الحلقة، وبضع دقائق من الصوت. لكن Bits und so ليس مجرد بودكاست عادي بالنسبة لي.
 

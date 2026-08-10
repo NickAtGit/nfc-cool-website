@@ -12,11 +12,11 @@ metaDescription: "Wie Immobilienmakler, Ärzte und Berater digitale Visitenkarte
 ogTitle: "Digitale Visitenkarten nach Beruf"
 ogDescription: "Immobilien, Gesundheitswesen, Beratung - Papierkarten versagen in jedem Beruf anders. Ein praktischer, ehrlicher Leitfaden zum Umstieg auf digital."
 ---
-Ich entwickle die Business-Card-App von NFC.cool, und in den letzten zwei Jahren habe ich viele E-Mails von den Menschen gelesen, die sie nutzen. Sie beginnen fast immer gleich: mit dem Beruf. „Ich bin Maklerin und ..." „Ich bin Kardiologe und ..." „Ich bin freie Designerin und ..." Jede Person geht davon aus, dass ihre Situation ungewöhnlich ist.
+Ich entwickle die Business-Card-App von NFC.cool, und in den letzten zwei Jahren habe ich viele E-Mails von den Menschen gelesen, die sie nutzen. Sie beginnen fast immer gleich: mit dem Beruf. „Ich bin Maklerin und ...“ „Ich bin Kardiologe und ...“ „Ich bin freie Designerin und ...“ Jede Person geht davon aus, dass ihre Situation ungewöhnlich ist.
 
 Das ist sie meistens nicht. Aber der *Grund*, warum eine Papier-Visitenkarte sie im Stich lässt, ist von Beruf zu Beruf tatsächlich verschieden. Ein Immobilienmakler und eine Krankenhausärztin wachsen beide aus dem Papier heraus - aus völlig unterschiedlichen Gründen.
 
-Statt also noch einen „Papierkarten sind tot"-Artikel zu schreiben, habe ich diesen Leitfaden so aufgebaut, wie Menschen tatsächlich über das Problem nachdenken: nach Beruf. Es gibt drei Abschnitte - Immobilien, Gesundheitswesen und selbstständige Beratung - gefolgt von den Teilen, die für alle gelten, samt eines ehrlichen Blicks darauf, wo meine eigene App passt und wo nicht.
+Statt also noch einen „Papierkarten sind tot“-Artikel zu schreiben, habe ich diesen Leitfaden so aufgebaut, wie Menschen tatsächlich über das Problem nachdenken: nach Beruf. Es gibt drei Abschnitte - Immobilien, Gesundheitswesen und selbstständige Beratung - gefolgt von den Teilen, die für alle gelten, samt eines ehrlichen Blicks darauf, wo meine eigene App passt und wo nicht.
 
 ---
 
@@ -42,7 +42,7 @@ Immobilien leben davon, erreichbar zu bleiben. Jeder Tag der offenen Tür, jede 
 
 ### Die Anwesenheitsliste beim Tag der offenen Tür ist kaputt
 
-Wir alle kennen das Klemmbrett an der Tür. Besucher kritzeln halb leserliche Namen und E-Mail-Adressen, manche überspringen es ganz, und am Montag entzifferst du „jsmith@gmai...", um einen Lead zu rekonstruieren. Ein QR-Code auf dem Objekt-Flyer ersetzt das Klemmbrett: Besucher scannen ihn, bekommen deine vollständige Karte, und du bekommst im Gegenzug einen sauberen Kontakt. Stell für denselben Effekt per Antippen einen NFC-Tag auf einem kleinen Ständer auf den Empfangstisch.
+Wir alle kennen das Klemmbrett an der Tür. Besucher kritzeln halb leserliche Namen und E-Mail-Adressen, manche überspringen es ganz, und am Montag entzifferst du „jsmith@gmai...“, um einen Lead zu rekonstruieren. Ein QR-Code auf dem Objekt-Flyer ersetzt das Klemmbrett: Besucher scannen ihn, bekommen deine vollständige Karte, und du bekommst im Gegenzug einen sauberen Kontakt. Stell für denselben Effekt per Antippen einen NFC-Tag auf einem kleinen Ständer auf den Empfangstisch.
 
 ### Du wechselst Maklerbüros, Nummern und Teams
 
@@ -56,7 +56,7 @@ Miami, Vancouver, London, Dubai - große Märkte ziehen internationale Käufer a
 
 Eine Papierkarte schafft genau einen Berührungspunkt: den Moment der Übergabe. Verpasst du die nächsten Tage, ist der Lead weg, weil die Karte vergraben oder schon im Müll ist. Eine digitale Karte bleibt im Telefon des Interessenten, durchsuchbar, und manche Apps zeigen dir sogar, wann sie angesehen wurde - ein natürlicher Anlass, dich zu melden.
 
-Ein Hinweis zur Glaubwürdigkeit: Die Technology-Umfrage 2025 der National Association of Realtors ergab, dass 47 % der Käufer die Technikkompetenz eines Maklers als „sehr wichtig" einstufen, wenn sie wählen, mit wem sie arbeiten. Eine Karte, die sauber auf einem Telefon öffnet, mit deinen Angeboten und virtuellen Touren nur ein Antippen entfernt, ist bei einer Angebotspräsentation ein kleines, aber echtes Signal. Eine praktische Gewohnheit: Erstelle eine eigene „Tag der offenen Tür"-Karte mit der Objektadresse und dem Tour-Link und wechsle danach wieder zur allgemeinen Karte.
+Ein Hinweis zur Glaubwürdigkeit: Die Technology-Umfrage 2025 der National Association of Realtors ergab, dass 47 % der Käufer die Technikkompetenz eines Maklers als „sehr wichtig“ einstufen, wenn sie wählen, mit wem sie arbeiten. Eine Karte, die sauber auf einem Telefon öffnet, mit deinen Angeboten und virtuellen Touren nur ein Antippen entfernt, ist bei einer Angebotspräsentation ein kleines, aber echtes Signal. Eine praktische Gewohnheit: Erstelle eine eigene „Tag der offenen Tür“-Karte mit der Objektadresse und dem Tour-Link und wechsle danach wieder zur allgemeinen Karte.
 
 ---
 
@@ -106,7 +106,7 @@ Du hattest ein großartiges Gespräch, du willst Daten austauschen, und das Konf
 
 Du hast jemanden vor drei Wochen getroffen; jetzt ist die Person endlich bereit zu reden. Mit Papier müsste sie deine Karte erst finden. Mit Digital sucht sie deinen Jobtitel in ihren Kontakten, und deine Website, dein Portfolio und dein Buchungslink sind direkt da. Weniger Reibung bedeutet mehr Nachfassen, und mehr Nachfassen bedeutet mehr Kunden.
 
-Noch eine Sache, speziell für Selbstständige: Deine Karte ist Markenmaterial. Verwende deine eigenen Farben und dein Logo, schreibe eine nutzenorientierte Tagline statt eines bloßen Titels („Ich helfe SaaS-Startups, Product-Market-Fit zu finden" schlägt „Strategieberater"), und gib den Leuten einen nächsten Schritt - einen Buchungslink, ein Portfolio, einen Lead-Magneten.
+Noch eine Sache, speziell für Selbstständige: Deine Karte ist Markenmaterial. Verwende deine eigenen Farben und dein Logo, schreibe eine nutzenorientierte Tagline statt eines bloßen Titels („Ich helfe SaaS-Startups, Product-Market-Fit zu finden“ schlägt „Strategieberater“), und gib den Leuten einen nächsten Schritt - einen Buchungslink, ein Portfolio, einen Lead-Magneten.
 
 ---
 
@@ -131,10 +131,10 @@ Volle Transparenz: Das ist meine App, lies die nächsten Absätze also mit diese
 NFC.cool Business Card ist eine eigenständige App auf iPhone und Android. Das macht sie für die obigen Berufe gut:
 
 - **35 Sprachen** in der App-Oberfläche und im App Clip - mehr als jede andere digitale Visitenkarte, die ich kenne. Deine Karte erscheint auf iOS in der Sprache deiner Kundschaft. (Die Android-Sharing-Website ist vorerst nur auf Englisch.)
-- **Keine App für die Person, die deine Karte empfängt.** Auf dem iPhone bekommt sie einen nativen App Clip; auf Android eine Seite auf der Domain nfc.cool. Beide haben eine Schaltfläche „Kontakt speichern".
+- **Keine App für die Person, die deine Karte empfängt.** Auf dem iPhone bekommt sie einen nativen App Clip; auf Android eine Seite auf der Domain nfc.cool. Beide haben eine Schaltfläche „Kontakt speichern“.
 - **NFC-Antippen und QR-Code**, dazu ein einfacher teilbarer Link für Chats und E-Mail-Signaturen.
 - **Conference Mode** - eine iOS Live Activity, die den QR-Code deiner Karte auf deinen Sperrbildschirm bringt. Du hebst dein Telefon, sie scannen, fertig. Kein Entsperren, kein Suchen in Apple Wallet. Wallet-Integration gibt es auch, als Alternative.
-- **Bis zu 100 Karten**, sodass der Rat „eine Karte pro Rolle" oben tatsächlich praktikabel ist.
+- **Bis zu 100 Karten**, sodass der Rat „eine Karte pro Rolle“ oben tatsächlich praktikabel ist.
 - **PIN-geschützte Karten** für alles Sensible.
 - **Datenschutz zuerst**: keine Datenmonetarisierung oder Werbung, kein Anschreiben von Empfängern, keine Gesprächsaufnahme, DSGVO-konformer Datenexport.
 - **Jeder NFC-Tag funktioniert.** Ich verkaufe keine Hardware - schreibe deine Karte auf einen Sticker, den du schon besitzt.

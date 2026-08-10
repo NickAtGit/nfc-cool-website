@@ -10,7 +10,7 @@ imageAlt: "Smartphone, NFC-Karte, Schild und Schloss stehen für verschlüsselte
 author: "Nicolo Stanciu"
 ---
 
-Deine Seed Phrase liegt wahrscheinlich auf einem Stück Papier. Vielleicht in einem Safe. Vielleicht unter einer Diele. Vielleicht auf drei Orte verteilt, weil jemand auf Reddit meinte, das machen "ernsthafte" Crypto-Leute so. Aber es ist immer noch Papier. Papier verbrennt. Papier wird durchnässt. Papier geht verloren.
+Deine Seed Phrase liegt wahrscheinlich auf einem Stück Papier. Vielleicht in einem Safe. Vielleicht unter einer Diele. Vielleicht auf drei Orte verteilt, weil jemand auf Reddit meinte, das machen „ernsthafte“ Crypto-Leute so. Aber es ist immer noch Papier. Papier verbrennt. Papier wird durchnässt. Papier geht verloren.
 
 Ich baue seit Jahren an NFC.cool, einer App zum Lesen und Schreiben von NFC-Tags, und irgendwann habe ich mir eine Frage gestellt, die nichts mit Zahlungen oder Schlüsselkarten zu tun hat: Was wäre, wenn dein Backup nicht verrotten und nicht verfallen könnte und für jeden, der es findet, einfach nach nichts aussehen würde?
 

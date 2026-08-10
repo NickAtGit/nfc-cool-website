@@ -13,7 +13,7 @@ ogDescription: "iPhones ignorieren vCard-Daten auf NFC-Tags stillschweigend. Hie
 ---
 Ich baue seit Jahren NFC-Apps. Und jede einzelne Woche - ohne Ausnahme - schreibt mir jemand eine Variante von Folgendem:
 
-> "Hey, ich hab eine NFC-Visitenkarte gekauft. Meine vCard drauf programmiert. Funktioniert super auf dem Android meines Kollegen. Aber wenn ich sie an mein iPhone tippe? Passiert nichts. Ist meine Karte kaputt?"
+> „Hey, ich hab eine NFC-Visitenkarte gekauft. Meine vCard drauf programmiert. Funktioniert super auf dem Android meines Kollegen. Aber wenn ich sie an mein iPhone tippe? Passiert nichts. Ist meine Karte kaputt?“
 
 Deine Karte ist nicht kaputt.
 
@@ -56,7 +56,7 @@ Technisch ja. Wenn du eine NFC-Reader-App wie [NFC.cool Tools](https://apps.appl
 
 Aber hier ist das Problem: **die Person, die deine Karte scannt, muss die App bereits installiert haben.**
 
-Bei einem Networking-Event heißt das: *"Hey, bevor du meine Karte scannst, kannst du in den App Store gehen, nach einer NFC-App suchen, sie herunterladen, auf Installation warten, öffnen, NFC-Berechtigungen erteilen und dann scannen?"*
+Bei einem Networking-Event heißt das: *„Hey, bevor du meine Karte scannst, kannst du in den App Store gehen, nach einer NFC-App suchen, sie herunterladen, auf Installation warten, öffnen, NFC-Berechtigungen erteilen und dann scannen?“*
 
 Die Person ist schon weg. Die Magie ist vorbei.
 
@@ -102,7 +102,7 @@ Dann habe ich erkannt: Dieser Ansatz ist *echt besser*, als vCards es je waren.
 LinkedIn, Twitter, Instagram, dein Portfolio, dein Calendly-Buchungslink - alles mit einem Tippen erreichbar.
 
 ▸ **Smarte Networking-Features**
-Du kennst das: Du triffst jemanden, speicherst den Kontakt, und zwei Wochen später starrst du auf "John - Konferenz" ohne die leiseste Erinnerung, wer John ist.
+Du kennst das: Du triffst jemanden, speicherst den Kontakt, und zwei Wochen später starrst du auf „John - Konferenz“ ohne die leiseste Erinnerung, wer John ist.
 
 NFC.cool lässt dich den Kontext erfassen: wo ihr euch getroffen habt, worüber ihr gesprochen habt, Follow-up-Notizen. Es ist wie ein CRM, das nicht 50€/Monat kostet.
 

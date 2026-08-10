@@ -36,7 +36,7 @@ Druck das auf eine kleine Karte in deinem Gästezimmer. Kleb es auf die Rücksei
 
 Kodiere einen Termin als `BEGIN:VEVENT`-Block (das iCalendar-Format). Scannen bietet an, ihn in die Kalender-App des Geräts zu übernehmen, komplett mit Startzeit, Endzeit, Ort und Beschreibung.
 
-Nützlich auf Event-Postern, Konferenzbeschilderung oder "Save the Date"-Karten. Der Empfänger muss den Termin nicht erst auf einer Website finden - ein Tippen, und er ist im Kalender.
+Nützlich auf Event-Postern, Konferenzbeschilderung oder „Save the Date“-Karten. Der Empfänger muss den Termin nicht erst auf einer Website finden - ein Tippen, und er ist im Kalender.
 
 ---
 
@@ -54,7 +54,7 @@ Die häufigste Alternative zu URLs. Kodiere eine vollständige vCard (Name, Tele
 
 QR-Visitenkarten funktionieren genau so von Haus aus. Es ist auch der Grund, warum eine vCard-QR auf jedem Handy ohne spezielle App funktioniert - vCard ist ein 30 Jahre alter Standard, den das OS bereits kennt.
 
-Der Trade-off gegenüber dem NFC.cool-Business-Card-Flow: Eine vCard-QR kann nicht aktualisiert werden. Einmal gedruckt, sind die Kontaktdaten eingefroren. Wenn du eine "Single Source of Truth" willst, die du später editieren kannst, kodiere stattdessen eine URL zu deiner Live-Visitenkarten-Seite - genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-de&mt=8), und deshalb empfehlen wir es für ernsthaftes Networking statt einer rohen vCard-QR.
+Der Trade-off gegenüber dem NFC.cool-Business-Card-Flow: Eine vCard-QR kann nicht aktualisiert werden. Einmal gedruckt, sind die Kontaktdaten eingefroren. Wenn du eine „Single Source of Truth“ willst, die du später editieren kannst, kodiere stattdessen eine URL zu deiner Live-Visitenkarten-Seite - genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-de&mt=8), und deshalb empfehlen wir es für ernsthaftes Networking statt einer rohen vCard-QR.
 
 ---
 

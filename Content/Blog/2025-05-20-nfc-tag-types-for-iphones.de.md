@@ -12,7 +12,7 @@ imageAlt: "Verschiedene NFC-Tag-Typen neben einem iPhone aufgereiht"
 
 NFC-Tags sind kleine integrierte Schaltkreise, die Informationen speichern, die jedes NFC-fähige Gerät - zum Beispiel dein Smartphone - lesen kann. Aber eines hätte ich gern früher gewusst: Nicht alle NFC-Tags sind gleich. Es gibt einen ganzen Zoo an Typen verschiedener Hersteller, jeder mit eigenen Macken, und genau das macht es überraschend knifflig, den richtigen Tag fürs iPhone zu finden.
 
-Ich entwickle seit Jahren NFC.cool, eine App zum Lesen und Schreiben von NFC-Tags, und "Welchen Tag soll ich für mein iPhone kaufen?" ist mit Abstand eine der Fragen, die ich am häufigsten gestellt bekomme. Das hier ist also meine Antwort. Ich gehe die fünf NFC-Tag-Typen durch, zeige dir, wer sie tatsächlich herstellt, und erkläre, warum einer davon für fast jedes iPhone-Projekt die sichere Wahl ist. Wenn das alles für dich neu ist, fängst du am besten mit meinem [kompletten Einsteiger-Guide zu NFC-Tags](/de/blog/nfc-tags-beginners-guide/) an - dieser Post geht eine Ebene tiefer.
+Ich entwickle seit Jahren NFC.cool, eine App zum Lesen und Schreiben von NFC-Tags, und „Welchen Tag soll ich für mein iPhone kaufen?“ ist mit Abstand eine der Fragen, die ich am häufigsten gestellt bekomme. Das hier ist also meine Antwort. Ich gehe die fünf NFC-Tag-Typen durch, zeige dir, wer sie tatsächlich herstellt, und erkläre, warum einer davon für fast jedes iPhone-Projekt die sichere Wahl ist. Wenn das alles für dich neu ist, fängst du am besten mit meinem [kompletten Einsteiger-Guide zu NFC-Tags](/de/blog/nfc-tags-beginners-guide/) an - dieser Post geht eine Ebene tiefer.
 
 ---
 

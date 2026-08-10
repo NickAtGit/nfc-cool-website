@@ -48,7 +48,7 @@ Und so geht's:
 1. **Tippen oder scannen** - der Empfänger hält sein iPhone in die Nähe deiner NFC-Karte oder scannt deinen QR-Code
 2. **Lädt sofort** - der App Clip erscheint in unter zwei Sekunden, kein App Store-Besuch
 3. **Vollständiges Profil** - dein Name, Foto, Firma, Telefon, E-Mail, Social-Media-Links und Website
-4. **Ein-Tipp-Speichern** - ein "Kontakt speichern"-Button sitzt am unteren Bildschirmrand, genau dort, wo der Daumen natürlich liegt. Ein Tippen speichert alles in der Kontakte-App
+4. **Ein-Tipp-Speichern** - ein „Kontakt speichern“-Button sitzt am unteren Bildschirmrand, genau dort, wo der Daumen natürlich liegt. Ein Tippen speichert alles in der Kontakte-App
 5. **Seine Sprache** - der App Clip unterstützt 35 Sprachen und passt sich automatisch der Gerätesprache des Empfängers an. Gib deine Karte jemandem in Tokio, São Paulo oder Berlin - er sieht sie in seiner eigenen Sprache
 
 Keine Kontoerstellung. Keine Anmeldeaufforderungen. Keine Werbung. Keine Tracking-URLs. Nur deine Kontaktdaten, in Sekunden gespeichert.
@@ -71,7 +71,7 @@ Die meisten digitalen Visitenkarten-Services nutzen irgendeine Form von Web-View
 
 **Vertrauen:** iOS-Nutzer sind an native Erlebnisse gewöhnt. Ein App Clip sieht aus und fühlt sich an, als hätte Apple es in das System eingebaut. Kein Browser-Chrome, keine URL-Leiste, keine Cookie-Zustimmungs-Popups - nur deine Karte.
 
-**Zuverlässigkeit:** Nativer Code handhabt das Speichern von Kontakten über die eigenen Frameworks von iOS, was bedeutet, dass die Speichern-Aktion konsistent funktioniert. Keine Browser-Quirks, keine "hat es wirklich gespeichert?"-Unsicherheit.
+**Zuverlässigkeit:** Nativer Code handhabt das Speichern von Kontakten über die eigenen Frameworks von iOS, was bedeutet, dass die Speichern-Aktion konsistent funktioniert. Keine Browser-Quirks, keine „hat es wirklich gespeichert?“-Unsicherheit.
 
 **Lokalisierung:** Eine Webseite kann übersetzt werden, aber ein nativer App Clip lokalisiert alles - UI-Labels, Button-Text, Datumsformate, Kontakt-Feld-Reihenfolge - so, wie iOS-Nutzer es erwarten. NFC.cool unterstützt 35 Sprachen nativ, sodass das Empfänger-Erlebnis lokalisiert ist, ob der Empfänger Englisch, Japanisch, Portugiesisch oder Arabisch spricht.
 

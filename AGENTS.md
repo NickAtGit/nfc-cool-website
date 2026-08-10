@@ -15,9 +15,13 @@ swift run Site validate    # SiteKit's built-in file-presence check (Blog/ + Pag
 `i18n.yaml`). It exits non-zero on any real gap: a missing locale file across ALL
 localizable roots (Blog, Pages, Data/Features, Data/Pricing, Landing), a UI-string in
 `Strings/Localizable.json` left untranslated for some locale, a leftover `⟦TODO⟧`
-scaffold marker, or an em/en dash in structured data. Structural drift (a translation
-missing an optional section the default language has) and "looks untranslated" content
-are advisory warnings. CI runs it before every build (`.github/workflows/deploy.yml`).
+scaffold marker, an em/en dash in structured data, or a straight ASCII `"` in the prose of
+a locale that has its own quotation marks (`lint.quoteStyle` in `i18n.yaml`: `de` `„…“`,
+`zh` `“…”`, `ja` `「…」`, `fr` `« … »`, `ar` `«…»`; `es`/`pt`/`id` are deliberately absent
+because ASCII quotes are idiomatic there). Frontmatter, code spans, `<script>`/`<style>`
+blocks, HTML attributes and link targets are exempt from that rule. Structural drift (a
+translation missing an optional section the default language has) and "looks untranslated"
+content are advisory warnings. CI runs it before every build (`.github/workflows/deploy.yml`).
 
 Requires Swift 6.2+ and macOS 26 locally. CI uses `swift-actions/setup-swift@v2` on Ubuntu.
 

@@ -69,3 +69,16 @@ identicalAllowlist:
 lint:
   todoMarker: "⟦TODO"
   forbidEmDash: true
+
+  # Per-locale quotation marks. A locale listed here must not use ASCII " in
+  # markdown prose (frontmatter, code spans and link targets are exempt).
+  # Straight quotes are the loudest "machine translated" tell a native reader
+  # gets, and unlike word choice a linter catches them every time. Locales are
+  # listed only where the convention is unambiguous; es/pt/id accept " and are
+  # deliberately absent.
+  quoteStyle:
+    de: "„“"
+    zh: "“”"
+    ja: "「」"
+    fr: "«»"
+    ar: "«»"

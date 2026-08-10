@@ -22,12 +22,12 @@ Les coordonnées dans votre téléphone ne servent à rien si vous ne vous souve
 
 ## Le contexte, c'est la pièce manquante
 
-Alors j'ai ajouté à NFC.cool Business Card ce que j'appelle depuis la "mise à niveau mémoire". Juste après la connexion - via le geste NFC, l'App Clip, ou le QR sur écran verrouillé du mode Conférence - on vous invite à noter le contexte:
+Alors j'ai ajouté à NFC.cool Business Card ce que j'appelle depuis la « mise à niveau mémoire ». Juste après la connexion - via le geste NFC, l'App Clip, ou le QR sur écran verrouillé du mode Conférence - on vous invite à noter le contexte:
 
 - **Où et quand vous vous êtes rencontrés.** Rempli automatiquement avec la date et le lieu, modifiable.
 - **Sur quoi la personne travaille.** Une courte note sur son projet, son entreprise ou son domaine.
 - **Les temps forts de la conversation.** Les une ou deux choses dont vous avez vraiment parlé et dont vous voudriez vous souvenir.
-- **Les relances à prévoir.** "Elle va me mettre en relation avec son VC." "Envoyer le deck lundi."
+- **Les relances à prévoir.** « Elle va me mettre en relation avec son VC. » « Envoyer le deck lundi. »
 
 Ce dernier point se synchronise avec votre calendrier et vos rappels, parce qu'on est tous mauvais pour donner suite et qu'on a tous besoin d'un petit coup de pouce.
 
@@ -43,7 +43,7 @@ Saisir le contexte dans le même parcours que l'échange de contact, ça veut di
 
 ## Ce que ça a changé pour moi
 
-Pendant les tests bêta lors de quelques événements, l'expérience est passée de "j'ai maintenant ces cartes de visite dans mon téléphone" à "j'ai un graphe interrogeable de personnes, de ce qu'elles font et de ce que je leur dois".
+Pendant les tests bêta lors de quelques événements, l'expérience est passée de « j'ai maintenant ces cartes de visite dans mon téléphone » à « j'ai un graphe interrogeable de personnes, de ce qu'elles font et de ce que je leur dois ».
 
 J'ouvre l'onglet Networking dans NFC.cool Business Card et je vois: qui j'ai rencontré et où, ce dont on a parlé, ce que j'ai dit que je relancerais, ce qui reste ouvert. Après avoir revu quelqu'un, je mets à jour la fiche - nouvelle conversation, nouveau contexte. La carte devient un journal vivant de la relation, et non un instantané de coordonnées.
 
@@ -58,7 +58,7 @@ La couche Smart Context fonctionne quelle que soit la façon dont le contact est
 - **Mode Conférence (QR sur écran verrouillé).** Affichez votre QR sur écran verrouillé pour un échange rapide dans les environnements bruyants; la même invite de contexte se déclenche dès qu'ils enregistrent.
 - **Navigateur Android.** Les destinataires Android ouvrent la version page web, enregistrent le contact, et peuvent ensuite saisir le contexte dans l'app NFC.cool Business Card.
 
-L'app gère jusqu'à 100 cartes différentes (différents rôles, différents événements, différentes versions de vous) et les données Smart Context restent séparées par carte - ainsi, un contact rencontré en tant que "consultant en design au meetup de Berlin" est une fiche différente de la même personne rencontrée en tant que "cofondateur au demo day de YC".
+L'app gère jusqu'à 100 cartes différentes (différents rôles, différents événements, différentes versions de vous) et les données Smart Context restent séparées par carte - ainsi, un contact rencontré en tant que « consultant en design au meetup de Berlin » est une fiche différente de la même personne rencontrée en tant que « cofondateur au demo day de YC ».
 
 ---
 
@@ -66,7 +66,7 @@ L'app gère jusqu'à 100 cartes différentes (différents rôles, différents é
 
 Si ça n'existait pas il y a cinq ans, c'est que le goulet d'étranglement n'était pas la technique - c'était la friction. Saisir le contexte imposait de sortir une app de notes séparée, de taper pendant que l'autre personne regardait, puis d'associer tant bien que mal ces notes au contact plus tard. La plupart des gens abandonnaient.
 
-Avec NFC.cool Business Card, la saisie se fait d'un seul geste, dans la continuité de l'échange de contact. C'est toute la différence entre "je devrais m'en souvenir" et "c'est désormais mémorisé".
+Avec NFC.cool Business Card, la saisie se fait d'un seul geste, dans la continuité de l'échange de contact. C'est toute la différence entre « je devrais m'en souvenir » et « c'est désormais mémorisé ».
 
 Dans un monde où l'on échange des contacts plus vite que jamais, la donnée qui compte n'est pas qui vous connaissez - c'est pourquoi vous les connaissez.
 

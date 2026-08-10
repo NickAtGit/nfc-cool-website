@@ -70,7 +70,7 @@ Wenn du den Tag sperren willst, damit niemand die URL später überschreiben kan
 
 ## Vorschau vor dem Teilen
 
-Tippe **Visitenkarte anzeigen**, um genau zu sehen, was ein Empfänger sieht. Die Seite ist Mobile-First, lädt sofort und bietet einen Ein-Tipp-"In Kontakte speichern"-Button. Auf iOS sehen Empfänger einen nativen App Clip (keine App-Installation nötig); auf Android sehen sie eine saubere Webseite auf der nfc.cool-Domain. Beide haben am Ende deinen Kontakt im Adressbuch.
+Tippe **Visitenkarte anzeigen**, um genau zu sehen, was ein Empfänger sieht. Die Seite ist Mobile-First, lädt sofort und bietet einen Ein-Tipp-„In Kontakte speichern“-Button. Auf iOS sehen Empfänger einen nativen App Clip (keine App-Installation nötig); auf Android sehen sie eine saubere Webseite auf der nfc.cool-Domain. Beide haben am Ende deinen Kontakt im Adressbuch.
 
 ---
 

@@ -42,8 +42,8 @@ Das ist der Teil, der mich überzeugt hat. OpenPrintTag ist nicht einfach ein La
 **Materialidentifikation:**
 - Materialklasse (Filament oder Harz)
 - Materialtyp (PLA, PETG, ABS, TPU, ASA, PC, PA6 und 30+ weitere)
-- Materialname (z.B. "PLA Galaxy Black")
-- Markenname (z.B. "Prusament")
+- Materialname (z.B. „PLA Galaxy Black“)
+- Markenname (z.B. „Prusament“)
 - Materialeigenschafts-Tags - über 68 definierte Eigenschaften wie abrasiv, leitfähig, nachtleuchtend, lebensmittelecht, ESD-sicher, flexibel und mehr
 
 **Gewichts- und Längenverfolgung:**
@@ -51,7 +51,7 @@ Das ist der Teil, der mich überzeugt hat. OpenPrintTag ist nicht einfach ein La
 - tatsächliches Gewicht (gemessen für diese spezifische Spule)
 - Filamentlänge (nominal und tatsächlich, in mm)
 - Leergewicht (damit du die Spule wiegen und das verbleibende Material berechnen kannst)
-- Verbrauchtes Gewicht (beim Drucken aktualisiert - dieses Feld macht Spulen wirklich "smart")
+- Verbrauchtes Gewicht (beim Drucken aktualisiert - dieses Feld macht Spulen wirklich „smart“)
 
 **Farbe:**
 - Primärfarbe im RGBA-Format
@@ -121,7 +121,7 @@ Prusa-Drucker bekommen eingebaute NFC-Reader, und Projekte wie [SpoolSense](http
 
 **Persönliches Inventar:** Tagge jede Spule in deiner Sammlung. Wenn du einen Druck planst, scanne Spulen, um Materialtyp, verbleibende Länge und Farbe zu prüfen, ohne etwas auszupacken.
 
-**Verbleibendes Filament tracken:** Wiege deine Spule vor und nach einem Druck, aktualisiere das verbrauchte Gewicht auf dem Tag. Keine Angst mehr vor der Frage "reicht diese Spule für einen 14-Stunden-Druck?"
+**Verbleibendes Filament tracken:** Wiege deine Spule vor und nach einem Druck, aktualisiere das verbrauchte Gewicht auf dem Tag. Keine Angst mehr vor der Frage „reicht diese Spule für einen 14-Stunden-Druck?“
 
 **Makerspace oder Team-Nutzung:** Tagge Spulen mit Materialdetails, sodass jeder im Shop sie scannen und identifizieren kann. Kein mysteriöses Filament mehr.
 

@@ -68,9 +68,9 @@ Ich fange mit dir da an, wo ich mit jedem anfange: mit dem Schreiben einer URL a
 ### Eine URL schreiben
 
 1. **Öffne NFC.cool Tools** und tippe auf den Tab **Schreiben**
-2. **Wähle "URL"** als Datensatz-Typ
+2. **Wähle „URL“** als Datensatz-Typ
 3. **Gib deine URL ein** - zum Beispiel `https://nfc.cool`
-4. **Tippe auf "Auf Tag schreiben"**
+4. **Tippe auf „Auf Tag schreiben“**
 5. **Halte dein iPhone nahe an den leeren NFC-Tag** - die obere Kante deines iPhones (wo die NFC-Antenne ist) sollte innerhalb von 2-3 cm über dem Tag sein
 6. **Warte auf die Erfolgsbestätigung** - du spürst ein haptisches Tippen und siehst einen Haken
 
@@ -102,13 +102,13 @@ Schreibe deinen WLAN-Netzwerknamen (SSID) und das Passwort auf einen Tag. Gäste
 
 **WLAN-Zugangsdaten schreiben:**
 
-1. In NFC.cool Tools wähle **"WLAN"** als Datensatz-Typ
+1. In NFC.cool Tools wähle **„WLAN“** als Datensatz-Typ
 2. Gib den **Netzwerknamen** (SSID) ein
 3. Gib das **Passwort** ein
 4. Wähle den **Sicherheitstyp** (WPA2 oder WPA3 für die meisten Heimnetzwerke)
 5. Schreibe auf den Tag
 
-**Pro-Tipp:** Platziere einen WLAN-Tag in der Nähe deines Routers, an einem Schlüsselanhänger bei der Tür oder im Gästezimmer. Beschrifte ihn mit "Tippen für WLAN" - meiner Erfahrung nach ist das der eine Tag, für den sich am Ende jeder Gast bedankt.
+**Pro-Tipp:** Platziere einen WLAN-Tag in der Nähe deines Routers, an einem Schlüsselanhänger bei der Tür oder im Gästezimmer. Beschrifte ihn mit „Tippen für WLAN“ - meiner Erfahrung nach ist das der eine Tag, für den sich am Ende jeder Gast bedankt.
 
 **Speicherbedarf:** ~60-120 Bytes je nach Passwortlänge
 
@@ -120,7 +120,7 @@ Das ist im Wesentlichen, was eine digitale Visitenkarte macht, aber direkt in ei
 
 **Einen Kontakt schreiben:**
 
-1. Wähle **"Kontakt"** als Datensatz-Typ
+1. Wähle **„Kontakt“** als Datensatz-Typ
 2. Fülle die Felder aus, die du teilen willst (Name, Telefon, E-Mail etc.)
 3. Schreibe auf den Tag
 
@@ -147,7 +147,7 @@ Schreibe eine `tel:`- oder `mailto:`-URI, um einen Anruf oder eine E-Mail beim A
 
 Nützlich für:
 - Notfall-Kontakt-Tags an medizinischer Ausrüstung
-- "Für Service anrufen"-Tags an Automaten
+- „Für Service anrufen“-Tags an Automaten
 - Support-Kontakt-Tags an Produkten
 
 ### App-spezifische Daten
@@ -164,7 +164,7 @@ Hier wird es für mich richtig spannend. Apples **Kurzbefehle-App** hat eingebau
 
 1. Öffne die **Kurzbefehle-App**
 2. Erstelle einen neuen Kurzbefehl
-3. Suche nach der Aktion **"NFC-Tag festlegen"** (unter Skripting → NFC)
+3. Suche nach der Aktion **„NFC-Tag festlegen“** (unter Skripting → NFC)
 4. Konfiguriere, was geschrieben werden soll (URL, Text etc.)
 5. Führe den Kurzbefehl aus und tippe einen Tag an
 
@@ -194,23 +194,23 @@ Das sind die Projekte, zu denen ich immer wieder zurückkomme - sofort umsetzbar
 
 ### Smart-Home-Tags
 
-**Nachttisch-Tag - "Schlafenszeit-Modus"**
+**Nachttisch-Tag - „Schlafenszeit-Modus“**
 Schreibe eine URL, die einen iOS-Kurzbefehl auslöst zu:
 - Nicht stören aktivieren
 - Morgigen Wecker einstellen
 - Bildschirmhelligkeit senken
 - Schlaf-Playlist starten
 
-**Schreibtisch-Tag - "Arbeitsmodus"**
+**Schreibtisch-Tag - „Arbeitsmodus“**
 - Task-Manager öffnen
 - Fokus-Timer starten
 - Arbeits-VPN verbinden
 - Konzentrations-Playlist spielen
 
-**Tür-Tag - "Haus verlassen"**
+**Tür-Tag - „Haus verlassen“**
 - Wettervorhersage prüfen
 - Pendelzeit anzeigen
-- Smart-Home "Abwesend"-Szene auslösen
+- Smart-Home „Abwesend“-Szene auslösen
 
 ### Business-Tags
 
@@ -258,9 +258,9 @@ Wenn du einen Tag beschrieben hast und mit seinem Inhalt zufrieden bist, kannst 
 
 ## Fehlerbehebung
 
-Die meisten "Warum schreibt es nicht?"-Fragen, die ich bekomme, lassen sich auf eine dieser vier Ursachen zurückführen. So würde ich sie durchgehen.
+Die meisten „Warum schreibt es nicht?“-Fragen, die ich bekomme, lassen sich auf eine dieser vier Ursachen zurückführen. So würde ich sie durchgehen.
 
-### "Schreiben nicht möglich"-Fehler
+### „Schreiben nicht möglich“-Fehler
 
 - **Tag könnte gesperrt sein.** Wenn jemand (oder du) den Tag zuvor gesperrt hat, ist er dauerhaft schreibgeschützt. Du brauchst einen neuen Tag.
 - **Nicht genug Speicher.** Deine Daten könnten zu groß für die Kapazität des Tags sein. Versuche einen Tag mit mehr Speicher (NTAG215 → NTAG216) oder reduziere deine Daten.
@@ -283,7 +283,7 @@ Die meisten "Warum schreibt es nicht?"-Fragen, die ich bekomme, lassen sich auf 
 
 Das sind die kleinen Lektionen, die ich auf die harte Tour gelernt habe, damit du es nicht musst.
 
-1. **Beschrifte deine Tags.** Ein leerer Sticker auf einem Schreibtisch hilft nicht. Nutze einen Etikettendrucker oder Edding, um zu kennzeichnen, was der Tag macht ("Tippen für WLAN", "Arbeitsmodus" etc.).
+1. **Beschrifte deine Tags.** Ein leerer Sticker auf einem Schreibtisch hilft nicht. Nutze einen Etikettendrucker oder Edding, um zu kennzeichnen, was der Tag macht („Tippen für WLAN“, „Arbeitsmodus“ etc.).
 
 2. **Vermeide Metallflächen.** Metall stört NFC-Signale. Wenn du auf Metall kleben musst, nutze **Anti-Metall-NFC-Tags** (sie haben eine Ferritschicht gegen Interferenz). Sie sind etwas dicker und teurer, funktionieren aber perfekt auf Metall.
 
@@ -301,7 +301,7 @@ Das sind die kleinen Lektionen, die ich auf die harte Tour gelernt habe, damit d
 
 ### Kann ich einen NFC-Tag neu beschreiben?
 
-Ja, solange der Tag nicht gesperrt wurde. Standard-NFC-Tags können **100.000+ Mal** neu beschrieben werden. Schreibe einfach neue Daten über die alten - kein "Löschen" vorher nötig.
+Ja, solange der Tag nicht gesperrt wurde. Standard-NFC-Tags können **100.000+ Mal** neu beschrieben werden. Schreibe einfach neue Daten über die alten - kein „Löschen“ vorher nötig.
 
 ### Wie nah muss mein iPhone sein?
 
@@ -309,7 +309,7 @@ Innerhalb von **2-4 cm** (ca. 1-2 Zoll). Die NFC-Antenne ist an der oberen Kante
 
 ### Kann ich NFC-Tags ohne App beschreiben?
 
-iOS-Kurzbefehle hat eine eingebaute "NFC-Tag festlegen"-Aktion für Basis-Schreibvorgänge (URLs, Text). Aber für WLAN-Zugangsdaten, Kontakte und komplexere Datensätze brauchst du eine App wie NFC.cool Tools.
+iOS-Kurzbefehle hat eine eingebaute „NFC-Tag festlegen“-Aktion für Basis-Schreibvorgänge (URLs, Text). Aber für WLAN-Zugangsdaten, Kontakte und komplexere Datensätze brauchst du eine App wie NFC.cool Tools.
 
 ### Brauchen NFC-Tags Batterien?
 

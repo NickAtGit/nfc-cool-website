@@ -67,7 +67,7 @@ Si vous n'en avez pas encore, cherchez ces fonctions propres aux conférences :
 
 N'utilisez pas simplement votre carte générique. Pour les conférences, pensez à :
 
-- **Ajouter le titre et l'horaire de votre intervention** si vous prenez la parole (« Venez à mon talk : "L'IA dans la fintech" - Hall B, jeudi 14 h »)
+- **Ajouter le titre et l'horaire de votre intervention** si vous prenez la parole (« Venez à mon talk : “L'IA dans la fintech” - Hall B, jeudi 14 h »)
 - **Inclure un appel à l'action propre à la conférence** (« Allons prendre un café à l'événement - écrivez-moi »)
 - **Renvoyer vers des exemples de travail pertinents** - un portfolio, une étude de cas, une vidéo de démo
 - **Supprimer le superflu** - En conférence, les gens n'ont pas besoin de votre numéro de fax. Ils ont besoin de votre nom, de ce que vous faites, et du moyen le plus rapide de vous joindre.

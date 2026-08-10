@@ -16,7 +16,7 @@ Als ich das letzte Mal geflogen bin, stand ich eine Minute an einem dieser autom
 
 Ich lese seit Jahren beruflich NFC-Chips aus. Ich wusste, dass dieser Chip da drin steckt. Ich hatte nur nie meine eigene App darauf angesetzt. Wie ich so in diesem Gate stand, hat es mich wirklich gewurmt, dass ein Grenzterminal meinen Reisepass lesen kann und NFC.cool nicht.
 
-Genau dafür gibt es NFC.cool. Mein Ziel war von Anfang an einfach und ein bisschen stur: der beste NFC-Reader sein, den du auf ein Handy bekommst, und alles unterstützen, was NFC tatsächlich kann - ohne daraus ein Werkzeug zu machen, für das man ein Ingenieurstudium braucht. Ein Reisepass-Chip ist ungefähr so sehr "alles, was NFC kann" wie es nur geht. Also habe ich es eingebaut.
+Genau dafür gibt es NFC.cool. Mein Ziel war von Anfang an einfach und ein bisschen stur: der beste NFC-Reader sein, den du auf ein Handy bekommst, und alles unterstützen, was NFC tatsächlich kann - ohne daraus ein Werkzeug zu machen, für das man ein Ingenieurstudium braucht. Ein Reisepass-Chip ist ungefähr so sehr „alles, was NFC kann“ wie es nur geht. Also habe ich es eingebaut.
 
 NFC.cool Tools liest jetzt den Chip in einem biometrischen Reisepass, einem Personalausweis oder einem Aufenthaltstitel - auf iPhone und Android. Es zeigt dir das Foto und die persönlichen Daten, die auf dem Chip gespeichert sind, und es sagt dir, ob das Dokument echt aussieht. So funktioniert es - und wo, ganz ehrlich, seine Grenzen liegen.
 
@@ -34,13 +34,13 @@ Also fragt die App zuerst genau nach diesen drei Dingen, auf eine von zwei Arten
 
 Ein paar Sekunden später schaust du auf das, was der Chip die ganze Zeit mit sich getragen hat: das Foto von dir, das die ausstellende Behörde gespeichert hat, deinen Namen, deine Staatsangehörigkeit, die Dokumentennummer, dein Geburts- und Ablaufdatum, und auf manchen Dokumenten noch ein bisschen mehr - Geburtsort, ausstellende Behörde, Ausstellungsdatum. Es sind dieselben Daten, die die Kabine des Beamten abruft, nur liegen sie jetzt in deiner Hand.
 
-Jedes Dokument, das du liest, wird in einer kleinen Ablage in der App gespeichert, "Meine Dokumente" genannt, damit du es dir später wieder ansehen kannst. Diese Ablage liegt auf deinem Gerät und synchronisiert sich auf dem iPhone über deine eigene iCloud. Sie kommt nicht zu mir und auch nicht auf irgendeinen Server von mir. Bei etwas so Persönlichem ist das kein Detail, das ich verstecken würde.
+Jedes Dokument, das du liest, wird in einer kleinen Ablage namens „Meine Dokumente“ in der App gespeichert, damit du es dir später wieder ansehen kannst. Diese Ablage liegt auf deinem Gerät und synchronisiert sich auf dem iPhone über deine eigene iCloud. Sie kommt nicht zu mir und auch nicht auf irgendeinen Server von mir. Bei etwas so Persönlichem ist das kein Detail, das ich verstecken würde.
 
 ## Ist das Dokument echt?
 
 Der Teil, auf den ich am meisten stolz bin, ist die Echtheitsprüfung. Ein moderner Reisepass-Chip ist nicht bloß eine Speicherkarte. Das ausstellende Land signiert seinen Inhalt, ein bisschen wie ein Wachssiegel, das in die Daten gedrückt wird. NFC.cool prüft dieses Siegel: dass sich seit der Ausstellung nichts auf dem Chip verändert hat, dass die Signatur mathematisch gültig ist und dass sie auf eine echte ausstellende Behörde zurückführt, die die App kennt. Bessere Chips können außerdem beweisen, dass sie das Original-Silizium sind und keine Kopie, und auch das prüft die App, wenn der Chip es unterstützt.
 
-Ein Versprechen habe ich mir bei der Wortwahl aber selbst gegeben. Die App wird deinen Reisepass niemals als "gefälscht" bezeichnen. Wenn jede Prüfung besteht, sagt sie, das Dokument wirkt echt. Wenn etwas nicht zusammenpasst - oder, viel häufiger, wenn sie den Aussteller schlicht nicht bestätigen kann, weil dieses Land nicht in der Liste steht, die die App mitbringt - sagt sie, sie konnte es nicht verifizieren, und dabei bleibt es. "Ich konnte das nicht prüfen" und "das ist eine Fälschung" sind sehr unterschiedliche Sätze, und bei etwas so Ernstem wie deinem Ausweis bin ich nicht bereit, sie zu verwischen.
+Ein Versprechen habe ich mir bei der Wortwahl aber selbst gegeben. Die App wird deinen Reisepass niemals als „gefälscht“ bezeichnen. Wenn jede Prüfung besteht, sagt sie, das Dokument wirkt echt. Wenn etwas nicht zusammenpasst - oder, viel häufiger, wenn sie den Aussteller schlicht nicht bestätigen kann, weil dieses Land nicht in der Liste steht, die die App mitbringt - sagt sie, sie konnte es nicht verifizieren, und dabei bleibt es. „Ich konnte das nicht prüfen“ und „das ist eine Fälschung“ sind sehr unterschiedliche Sätze, und bei etwas so Ernstem wie deinem Ausweis bin ich nicht bereit, sie zu verwischen.
 
 ## Was die App nicht kann
 

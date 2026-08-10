@@ -71,7 +71,7 @@ Auf der *Erstellerseite* brauchst du typischerweise eine App oder Plattform, um 
 
 ### Beleuchtung und Umgebung
 
-**NFC gewinnt.** QR-Codes brauchen die Handykamera, um den Code zu "sehen", was bedeutet, dass sie in dunklen Räumen, Konferenzen mit gedimmter Beleuchtung oder bei Blendung auf dem Bildschirm Probleme haben. NFC ist völlig unabhängig von Licht - es funktioniert über Funkwellen, nicht über Optik.
+**NFC gewinnt.** QR-Codes brauchen die Handykamera, um den Code zu „sehen“, was bedeutet, dass sie in dunklen Räumen, Konferenzen mit gedimmter Beleuchtung oder bei Blendung auf dem Bildschirm Probleme haben. NFC ist völlig unabhängig von Licht - es funktioniert über Funkwellen, nicht über Optik.
 
 Wenn du viel bei Abendevents, Dinners oder lauten Venues netzwerkst, wo das Herausziehen und Scannen des Handys unangenehm wirkt, hat NFC einen klaren Vorteil.
 
@@ -85,7 +85,7 @@ Für Eins-zu-viele-Sharing (Präsentation, Booth, Webinar) sind QR-Codes deutlic
 
 **NFC gewinnt.** Es ist etwas Einprägsames, seine Karte an ein Handy zu tippen und zu sehen, wie es aufpoppt. Es wirkt zukunftsweisend. Es ist ein Gesprächsöffner. Leute erinnern sich daran.
 
-QR-Codes sind funktional, aber niemand hat je "wow, das war cool" gesagt, nachdem er einen QR-Code gescannt hat.
+QR-Codes sind funktional, aber niemand hat je „wow, das war cool“ gesagt, nachdem er einen QR-Code gescannt hat.
 
 ### Kosten
 
@@ -154,7 +154,7 @@ Der Schlüssel ist, eine Plattform zu finden, die beides nativ handhabt, ohne da
 
 ## Worauf du bei einer Plattform achten solltest
 
-Wenn du den "nutze beides"-Ansatz wählst, kommt es auf Folgendes an:
+Wenn du den „nutze beides“-Ansatz wählst, kommt es auf Folgendes an:
 
 ### NFC-Flexibilität
 
@@ -206,7 +206,7 @@ Einige Dinge, die sie herausstechen lassen:
 
 ### Brauche ich einen NFC-Tag, um NFC-Sharing zu nutzen?
 
-Ja, wenn du das "physische Karte antippen"-Erlebnis willst. Aber viele Apps unterstützen auch Handy-zu-Handy-NFC-Sharing (zwei Handys Rücken an Rücken halten). Der Tag oder die Karte macht es nur bequemer - du musst gar nicht erst das Handy ziehen.
+Ja, wenn du das „physische Karte antippen“-Erlebnis willst. Aber viele Apps unterstützen auch Handy-zu-Handy-NFC-Sharing (zwei Handys Rücken an Rücken halten). Der Tag oder die Karte macht es nur bequemer - du musst gar nicht erst das Handy ziehen.
 
 ### Können alte Handys NFC scannen?
 
@@ -214,7 +214,7 @@ Die meisten Smartphones, die nach 2017-2018 hergestellt wurden, unterstützen NF
 
 ### Sind NFC-Visitenkarten sicher?
 
-Ja. NFC hat eine sehr kurze Reichweite (ca. 4 cm), also kann niemand "deine Daten stehlen" aus dem anderen Ende des Raums. Die Daten auf den meisten NFC-Visitenkarten sind nur eine URL, die auf dein Profil verweist - es sind keine sensiblen Informationen auf dem Tag selbst gespeichert.
+Ja. NFC hat eine sehr kurze Reichweite (ca. 4 cm), also kann niemand „deine Daten stehlen“ aus dem anderen Ende des Raums. Die Daten auf den meisten NFC-Visitenkarten sind nur eine URL, die auf dein Profil verweist - es sind keine sensiblen Informationen auf dem Tag selbst gespeichert.
 
 ### Wie oft kann ein NFC-Tag neu geschrieben werden?
 

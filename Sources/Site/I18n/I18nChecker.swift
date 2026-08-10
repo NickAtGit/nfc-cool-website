@@ -73,7 +73,7 @@ enum I18nChecker {
       for baseURL in bases {
          let relBase = self.rel(baseURL, projectDirectory)
          if self.isEnOnly(relBase, config: config) { continue }
-         findings += self.lintFile(baseURL, relPath: relBase, emDashSeverity: emDashSeverity, config: config)
+         findings += self.lintFile(baseURL, relPath: relBase, lang: defaultLang, kind: root.kind, emDashSeverity: emDashSeverity, config: config)
 
          let baseLeaves = self.leaves(of: baseURL, kind: root.kind)
          let baseByPath = Dictionary(baseLeaves.map { ($0.path, $0.value) }, uniquingKeysWith: { first, _ in first })
@@ -85,7 +85,7 @@ enum I18nChecker {
                findings.append(.error(relBase, "missing \(lang) translation (expected \(relSibling))"))
                continue
             }
-            findings += self.lintFile(sibling, relPath: relSibling, emDashSeverity: emDashSeverity, config: config)
+            findings += self.lintFile(sibling, relPath: relSibling, lang: lang, kind: root.kind, emDashSeverity: emDashSeverity, config: config)
             let siblingLeaves = self.leaves(of: sibling, kind: root.kind)
             findings += self.compareLeaves(base: baseByPath, sibling: siblingLeaves, relSibling: relSibling, config: config)
          }
@@ -183,7 +183,7 @@ enum I18nChecker {
 
    // MARK: - Lint
 
-   private static func lintFile(_ url: URL, relPath: String, emDashSeverity: Severity, config: I18nCheckConfig) -> [Finding] {
+   private static func lintFile(_ url: URL, relPath: String, lang: String, kind: I18nCheckConfig.Root.Kind, emDashSeverity: Severity, config: I18nCheckConfig) -> [Finding] {
       guard let text = try? String(contentsOf: url, encoding: .utf8) else { return [] }
       var findings: [Finding] = []
       if config.lint.forbidEmDash, text.contains("—") || text.contains("–") {
@@ -192,7 +192,44 @@ enum I18nChecker {
       if text.contains(config.lint.todoMarker) {
          findings.append(.error(relPath, "contains untranslated scaffold TODO marker \(config.lint.todoMarker)"))
       }
+      findings += self.lintQuoteStyle(text, relPath: relPath, lang: lang, kind: kind, config: config)
       return findings
+   }
+
+   /// Flags ASCII `"` in the prose of a locale that has its own quotation
+   /// marks. Markdown only - a YAML file's quotes are structural. Inline code
+   /// spans and link targets are excluded, since `"` inside them is code.
+   private static func lintQuoteStyle(_ text: String, relPath: String, lang: String, kind: I18nCheckConfig.Root.Kind, config: I18nCheckConfig) -> [Finding] {
+      guard kind == .markdown, let marks = config.lint.quoteStyle[lang], marks.count == 2 else { return [] }
+      let prose = self.strippingCodeAndLinkTargets(YAMLParity.markdownBody(of: text))
+      let count = prose.filter { $0 == "\"" }.count
+      guard count > 0 else { return [] }
+      let open = marks.first!
+      let close = marks.last!
+      return [.error(relPath, "\(count) straight ASCII quote(s) in \(lang) prose - use \(open)…\(close)")]
+   }
+
+   /// Reduces markdown to just its prose, so the typography lint never counts a
+   /// `"` that is code rather than writing. Removed, in order: `<script>` /
+   /// `<style>` blocks *including their contents* (the NFC reader page embeds a
+   /// JSON translation blob in one), fenced code blocks, inline code spans, raw
+   /// HTML tags (`<section class="...">` - these are all over the marketing
+   /// pages), and the `](target)` half of markdown links.
+   private static func strippingCodeAndLinkTargets(_ markdown: String) -> String {
+      var prose = markdown.replacingOccurrences(
+         of: "(?is)<(script|style)\\b[^>]*>.*?</\\1\\s*>", with: "", options: .regularExpression
+      )
+      var withoutFences = ""
+      var inFence = false
+      for line in prose.components(separatedBy: "\n") {
+         if line.trimmingCharacters(in: .whitespaces).hasPrefix("```") { inFence.toggle(); continue }
+         if !inFence { withoutFences += line + "\n" }
+      }
+      prose = withoutFences
+      for pattern in ["`[^`]*`", "<[^>]*>", "\\]\\([^)]*\\)"] {
+         prose = prose.replacingOccurrences(of: pattern, with: "", options: .regularExpression)
+      }
+      return prose
    }
 
    // MARK: - Helpers

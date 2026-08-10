@@ -18,7 +18,7 @@ QR-Codes müssen keine schlichten Schwarz-Weiß-Quadrate sein. Die Fehlerkorrekt
 
 QR Studio lässt dich jede Farbe für den Vordergrund (die Module) und den Hintergrund wählen. Du kannst ihn an deine Markenpalette anpassen, ein Kampagnenthema andeuten oder den Code auf einem Poster einfach optisch weniger störend machen.
 
-Es gibt aber eine harte Regel: **Kontrast**. Ein QR-Scanner funktioniert, indem er Pixel abtastet und entscheidet, welche "dunkel" und welche "hell" sind. Wenn dein Vordergrund und Hintergrund in der Helligkeit zu nah beieinander sind, gibt der Scanner auf - selbst wenn der Code für das menschliche Auge ok aussieht.
+Es gibt aber eine harte Regel: **Kontrast**. Ein QR-Scanner funktioniert, indem er Pixel abtastet und entscheidet, welche „dunkel“ und welche „hell“ sind. Wenn dein Vordergrund und Hintergrund in der Helligkeit zu nah beieinander sind, gibt der Scanner auf - selbst wenn der Code für das menschliche Auge ok aussieht.
 
 Praktische Faustregel: Dunkler Vordergrund auf hellem Hintergrund. Umgekehrter Kontrast (hell auf dunkel) funktioniert auf den meisten modernen Scannern, scheitert aber auf älteren. Im Zweifel scanne mit drei verschiedenen Handys, bevor du 10.000 von irgendwas druckst.
 
@@ -46,7 +46,7 @@ Ein paar Richtlinien:
 
 ## Größen: Print vs. Digital
 
-Im Druck brauchst du mehr physische Fläche. Für eine Visitenkarte sollte der QR-Code mindestens 2 cm × 2 cm groß sein. Für ein Poster, das aus 1 Meter Entfernung betrachtet wird, skaliere auf ca. 5 cm. Für ein Billboard skaliere entsprechend der Zuschauerdistanz - die Regel ist grob "Codegröße = Sichtdistanz ÷ 10".
+Im Druck brauchst du mehr physische Fläche. Für eine Visitenkarte sollte der QR-Code mindestens 2 cm × 2 cm groß sein. Für ein Poster, das aus 1 Meter Entfernung betrachtet wird, skaliere auf ca. 5 cm. Für ein Billboard skaliere entsprechend der Zuschauerdistanz - die Regel ist grob „Codegröße = Sichtdistanz ÷ 10“.
 
 QR Studio exportiert scharfes PNG mit bis zu 4096×4096 Pixeln, also musst du dir keine Sorgen um Pixelmatsch machen.
 
@@ -54,7 +54,7 @@ QR Studio exportiert scharfes PNG mit bis zu 4096×4096 Pixeln, also musst du di
 
 ## Wo Persönlichkeit sich wirklich auszahlt
 
-Angepasste QR-Codes sind nicht nur ästhetisch - sie sind wiedererkennbar. Ein gebrandeter QR-Code in einem Museum, einer Speisekarte, auf einem Produktlabel oder einer Visitenkarte sagt dem Betrachter "das ist kuratierter Content, kein Spam". Die 0,5 Sekunden Vertrauen, die das schafft, entscheiden darüber, ob jemand scannt oder einfach weitergeht.
+Angepasste QR-Codes sind nicht nur ästhetisch - sie sind wiedererkennbar. Ein gebrandeter QR-Code in einem Museum, einer Speisekarte, auf einem Produktlabel oder einer Visitenkarte sagt dem Betrachter „das ist kuratierter Content, kein Spam“. Die 0,5 Sekunden Vertrauen, die das schafft, entscheiden darüber, ob jemand scannt oder einfach weitergeht.
 
 Genau dafür ist QR Studio gebaut: hübsche Codes, die trotzdem scannen, bereit für jedes Design.
 

@@ -44,13 +44,19 @@ struct I18nCheckConfig: Decodable {
    struct Lint: Decodable {
       var todoMarker: String
       var forbidEmDash: Bool
+      /// Locale -> the two characters that locale quotes with, e.g. `de: "„“"`.
+      /// A locale listed here must not use ASCII `"` in markdown prose: straight
+      /// quotes are the single loudest "machine translated" tell to a native
+      /// reader, and unlike word choice a linter can catch them every time.
+      var quoteStyle: [String: String]
       init(from decoder: Decoder) throws {
          let c = try decoder.container(keyedBy: CodingKeys.self)
          self.todoMarker = try c.decodeIfPresent(String.self, forKey: .todoMarker) ?? "⟦TODO"
          self.forbidEmDash = try c.decodeIfPresent(Bool.self, forKey: .forbidEmDash) ?? true
+         self.quoteStyle = try c.decodeIfPresent([String: String].self, forKey: .quoteStyle) ?? [:]
       }
-      init() { self.todoMarker = "⟦TODO"; self.forbidEmDash = true }
-      enum CodingKeys: String, CodingKey { case todoMarker, forbidEmDash }
+      init() { self.todoMarker = "⟦TODO"; self.forbidEmDash = true; self.quoteStyle = [:] }
+      enum CodingKeys: String, CodingKey { case todoMarker, forbidEmDash, quoteStyle }
    }
 
    var localizableRoots: [Root]

@@ -67,8 +67,8 @@ Wenn du noch keine hast, suche nach diesen konferenzspezifischen Features:
 
 Nutze nicht einfach deine generische Karte. Für Konferenzen überlege:
 
-- **Deinen Vortragstitel und die Zeit hinzufügen**, wenn du sprichst ("Mein Talk: 'KI im Fintech' - Halle B, Donnerstag 14 Uhr")
-- **Eine konferenzspezifische CTA einfügen** ("Lass uns auf dem Event einen Kaffee trinken - schreib mir")
+- **Deinen Vortragstitel und die Zeit hinzufügen**, wenn du sprichst („Mein Talk: 'KI im Fintech' - Halle B, Donnerstag 14 Uhr“)
+- **Eine konferenzspezifische CTA einfügen** („Lass uns auf dem Event einen Kaffee trinken - schreib mir“)
 - **Relevante Arbeitsproben verlinken** - ein Portfolio, eine Fallstudie, ein Demo-Video
 - **Ballast entfernen** - Auf einer Konferenz brauchen Leute deine Faxnummer nicht. Sie brauchen deinen Namen, was du machst und den schnellsten Weg, dich zu erreichen.
 
@@ -80,7 +80,7 @@ Das ist optional, macht aber einen großen Eindruck:
 
 - **NFC-fähiges Handy** - Die meisten modernen Smartphones (iPhone 7+ und die meisten Android-Handys ab 2018+) unterstützen NFC. Stelle sicher, dass es bei deinem aktiviert ist.
 - **NFC-Karte oder Sticker** - Eine physische NFC-Karte, die auf dein digitales Profil verweist, gibt dir das Beste aus beiden Welten. Du gibst jemandem physisch etwas (das vertraute Ritual), aber es öffnet sofort deine digitale Karte auf seinem Handy. Kein App-Install. Kein Tippen. Nur ein Tap.
-- **Handyhülle mit NFC-Sticker** - Noch einfacher. Klebe einen NFC-Tag auf die Rückseite deiner Handyhülle, der auf deine Karte verweist. Wenn jemand deine Infos will, sagst du einfach "halt dein Handy an die Rückseite von meinem."
+- **Handyhülle mit NFC-Sticker** - Noch einfacher. Klebe einen NFC-Tag auf die Rückseite deiner Handyhülle, der auf deine Karte verweist. Wenn jemand deine Infos will, sagst du einfach „halt dein Handy an die Rückseite von meinem.“
 
 #### Lege deinen QR-Code auf den Sperrbildschirm (iOS)
 
@@ -100,9 +100,9 @@ Hier glänzen digitale Karten wirklich gegenüber Papier.
 
 #### Der NFC-Tap (schnellste Methode)
 
-Du bist in einem Gespräch. Es läuft gut. Er sagt "gib mir mal deine Karte." Anstatt den Augenkontakt zu unterbrechen, um in deiner Tasche zu wühlen, ziehst du deine NFC-Karte (oder dein Handy) und sagst "halt dein Handy einfach hier dran."
+Du bist in einem Gespräch. Es läuft gut. Er sagt „gib mir mal deine Karte.“ Anstatt den Augenkontakt zu unterbrechen, um in deiner Tasche zu wühlen, ziehst du deine NFC-Karte (oder dein Handy) und sagst „halt dein Handy einfach hier dran.“
 
-Drei Sekunden. Deine vollständigen Kontaktdaten, Links, Foto und was auch immer du sonst noch eingefügt hast, sind jetzt auf seinem Handy. Kein Tippen. Kein Gefummel. Kein "lass mich dir meinen Nachnamen buchstabieren."
+Drei Sekunden. Deine vollständigen Kontaktdaten, Links, Foto und was auch immer du sonst noch eingefügt hast, sind jetzt auf seinem Handy. Kein Tippen. Kein Gefummel. Kein „lass mich dir meinen Nachnamen buchstabieren.“
 
 Der Wow-Faktor ist echt. Auf Konferenzen erinnern sich Leute an die Person, deren Karte wie von Zauberhand auf ihrem Handy erschien. Es ist ein Gesprächsöffner an sich.
 
@@ -130,13 +130,13 @@ Konferenzen sind nicht mehr nur die Expo-Floor. Es gibt Slack-Channels, WhatsApp
 
 #### Halte laufend fest
 
-Einer der größten Vorteile gegenüber Papier: Du kannst sehen, wer deine Karte angesehen hat und wann. Nach einem besonders guten Gespräch machst du dir eine kurze Notiz auf dem Handy: "Sarah - VP Marketing bei Acme - Partnerschaft im Nachhaltigkeitsprojekt besprochen." Wenn du später nachfasst, hast du Kontext, den eine Papierkarte nie liefert.
+Einer der größten Vorteile gegenüber Papier: Du kannst sehen, wer deine Karte angesehen hat und wann. Nach einem besonders guten Gespräch machst du dir eine kurze Notiz auf dem Handy: „Sarah - VP Marketing bei Acme - Partnerschaft im Nachhaltigkeitsprojekt besprochen.“ Wenn du später nachfasst, hast du Kontext, den eine Papierkarte nie liefert.
 
 ---
 
 ### Phase 3: Nach der Konferenz
 
-Hier sterben die meisten Networking-Bemühungen. Du fliegst nach Hause, wirfst den Kartenstapel auf deinen Schreibtisch und sagst "ich sortiere das morgen." Morgen wird nächste Woche. Nächste Woche wird nie.
+Hier sterben die meisten Networking-Bemühungen. Du fliegst nach Hause, wirfst den Kartenstapel auf deinen Schreibtisch und sagst „ich sortiere das morgen.“ Morgen wird nächste Woche. Nächste Woche wird nie.
 
 Digitale Karten beheben das, weil die Arbeit schon erledigt ist.
 
@@ -144,7 +144,7 @@ Digitale Karten beheben das, weil die Arbeit schon erledigt ist.
 
 Deine Kontakte haben bereits deine digitale Karte mit all deinen Infos. Aber das Follow-up zählt trotzdem. Schicke eine kurze Nachricht, die sich auf euer Gespräch bezieht:
 
-*"Hey Sarah - tolles Gespräch beim Nachhaltigkeits-Panel gestern. Hier ist die Fallstudie, die ich erwähnt habe: [Link]. Lass uns Zeit finden, das Gespräch fortzusetzen."*
+*„Hey Sarah - tolles Gespräch beim Nachhaltigkeits-Panel gestern. Hier ist die Fallstudie, die ich erwähnt habe: [Link]. Lass uns Zeit finden, das Gespräch fortzusetzen.“*
 
 Weil deine digitale Karte dein Foto enthält, wissen sie tatsächlich, wer du bist, wenn deine Nachricht ankommt. (Wann hatte eine Papierkarte zuletzt ein Foto?)
 
@@ -164,13 +164,13 @@ Die Konferenz ist vorbei. Entferne die event-spezifischen Details, aktualisiere 
 
 ---
 
-## "Aber was ist, wenn sie eine Papierkarte erwarten?"
+## „Aber was ist, wenn sie eine Papierkarte erwarten?“
 
 Das ist die häufigste Zurückhaltung, und sie ist berechtigt. Je nach Branche und Region erwarten manche Leute immer noch einen physischen Austausch.
 
 Die Sache ist die: eine NFC-Karte *ist* ein physischer Austausch. Du gibst jemandem eine Karte. Er hält sie in die Nähe seines Handys. Deine Infos erscheinen. Das Ritual bleibt erhalten - es ist nur schneller und beeindruckender.
 
-Und wenn jemand wirklich auf Papier besteht, kannst du immer sagen "Ich bin digital, aber ich schicke dir meine Karte gerade jetzt" und sie per QR oder Link auf sein Handy teilen. In zwei Jahren Konferenzen haben wir noch nie gehört, dass jemand eine digitale Karte ablehnt. Die meisten Leute sind erleichtert, dass sie deine Infos später nicht abtippen müssen.
+Und wenn jemand wirklich auf Papier besteht, kannst du immer sagen „Ich bin digital, aber ich schicke dir meine Karte gerade jetzt“ und sie per QR oder Link auf sein Handy teilen. In zwei Jahren Konferenzen haben wir noch nie gehört, dass jemand eine digitale Karte ablehnt. Die meisten Leute sind erleichtert, dass sie deine Infos später nicht abtippen müssen.
 
 ---
 
@@ -221,7 +221,7 @@ Das solltest du bei jeder Plattform fragen, die du nutzt. Einige digitale Karten
 
 Konferenzen sind der Ort, an dem Papier-Visitenkarten am schlechtesten sind: du brauchst zu viele, sie werden zerstört, sie lassen sich nicht tracken und 88% landen innerhalb einer Woche im Müll.
 
-Digitale Visitenkarten sind der Ort, an dem Konferenzen am besten sind: schnelles Sharing, das Leute wirklich beeindruckt, Analytics, die dir sagen, wer interessiert ist, und Follow-up, das automatisch passiert statt "irgendwann."
+Digitale Visitenkarten sind der Ort, an dem Konferenzen am besten sind: schnelles Sharing, das Leute wirklich beeindruckt, Analytics, die dir sagen, wer interessiert ist, und Follow-up, das automatisch passiert statt „irgendwann.“
 
 Deine nächste Konferenz kommt. Diesmal lass das Papier zu Hause.
 

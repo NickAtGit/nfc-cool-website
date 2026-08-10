@@ -51,7 +51,7 @@ Ein selbstzählender Tag klingt nach einer netten Spielerei, bis du ihn mit eine
 
 **Erkennen, welcher physische Sticker gescannt wurde.** Das ist das Fünfzig-Sticker-Problem vom Anfang dieses Beitrags. Klebe dieselbe URL auf jeden Tag, aktiviere die Tag-ID, und jedes Antippen kommt mit der Seriennummer genau des Tags an, von dem es stammt. Eine URL zu verwalten, fünfzig Tags, die du trotzdem auseinanderhalten kannst.
 
-**Kostenlosen Zugang begrenzen.** Weil der Zählerstand bei jedem Antippen mitreist, kannst du darauf reagieren. Mach eine Aktion, bei der die ersten hundert Scans die Demo-Version bekommen und spätere Scans woandershin umgeleitet werden. Eine limitierte Auflage kann die volle Belohnung ausgeben, bis der Zähler eine von dir gewählte Schwelle überschreitet. Der Tag setzt das Prinzip "wer zuerst kommt, mahlt zuerst" durch, ganz ohne Anmeldesystem dahinter.
+**Kostenlosen Zugang begrenzen.** Weil der Zählerstand bei jedem Antippen mitreist, kannst du darauf reagieren. Mach eine Aktion, bei der die ersten hundert Scans die Demo-Version bekommen und spätere Scans woandershin umgeleitet werden. Eine limitierte Auflage kann die volle Belohnung ausgeben, bis der Zähler eine von dir gewählte Schwelle überschreitet. Der Tag setzt das Prinzip „wer zuerst kommt, mahlt zuerst“ durch, ganz ohne Anmeldesystem dahinter.
 
 **Engagement messen.** Klebe einen Tag auf eine Visitenkarte, ein Poster, eine Produktverpackung oder ein Schaufenster, und der Zähler wird zur stillen Engagement-Kennzahl. Du siehst, ob eine Karte zweimal oder zweihundertmal angetippt wurde, ohne dafür eine Analytics-Pipeline zu bauen.
 

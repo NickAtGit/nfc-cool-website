@@ -36,7 +36,7 @@ NFC.cool 是一款尊重你技术栈的扫描工具。每一次扫描都可以�
 
 <article class="feature-capability-card">
 <h3>Zapier</h3>
-<p>用 Zapier 的 "Catch Webhook" 触发器把扫描结果路由到 5000 多个 App：CRM、表格、Slack，应有尽有。免费版可应对较小的流量。</p>
+<p>用 Zapier 的 “Catch Webhook” 触发器把扫描结果路由到 5000 多个 App：CRM、表格、Slack，应有尽有。免费版可应对较小的流量。</p>
 </article>
 
 <article class="feature-capability-card">
@@ -51,7 +51,7 @@ NFC.cool 是一款尊重你技术栈的扫描工具。每一次扫描都可以�
 
 <article class="feature-capability-card">
 <h3>IFTTT</h3>
-<p>适合简单的 "if this then that" 路由。IFTTT 的 Webhooks 服务会给你一个独有的 URL，填进 NFC.cool 的 webhook 配置即可。</p>
+<p>适合简单的 “if this then that” 路由。IFTTT 的 Webhooks 服务会给你一个独有的 URL，填进 NFC.cool 的 webhook 配置即可。</p>
 </article>
 
 <article class="feature-capability-card">
@@ -74,7 +74,7 @@ NFC.cool 是一款尊重你技术栈的扫描工具。每一次扫描都可以�
 
 - **库存 + 审计追踪。**轻触物品上的标签，NFC.cool 就向某张表格或仓储系统发送 POST；表里随即出现一行，包含时间戳、标签标识符和载荷。
 - **活动现场线索收集。**轻触展位横幅上的标签，你的 CRM 就会自动发出一封跟进邮件。
-- **智能家居触发。**轻触前门上的标签来标记 "我到家了"，Home Assistant / Homey / Hubitat 会通过 webhook 接收到。
+- **智能家居触发。**轻触前门上的标签来标记 “我到家了”，Home Assistant / Homey / Hubitat 会通过 webhook 接收到。
 - **资产追踪。**维护人员轻触设备上的标签来记录巡检；后端据此构建合规日志。
 - **会议签到。**轻触参会者的 NFC 胸牌；webhook 会实时更新你的活动平台。
 
@@ -84,7 +84,7 @@ NFC.cool 是一款尊重你技术栈的扫描工具。每一次扫描都可以�
 
 ## Webhook
 
-在 App 内的 **More 标签页 → Webhook** 中启用：填入一个 HTTPS URL，可选地填写用于 HTTP Basic Auth 的用户名和密码，然后分别开启 "NFC scans" 和 "QR & barcode scans"。iOS 和 Android 均可使用。
+在 App 内的 **More 标签页 → Webhook** 中启用：填入一个 HTTPS URL，可选地填写用于 HTTP Basic Auth 的用户名和密码，然后分别开启 “NFC scans” 和 “QR & barcode scans”。iOS 和 Android 均可使用。
 
 每次扫描，App 都会向你配置的 URL 发出一个 `POST`。没有单独的重试队列：如果你的端点无法访问或返回非 2xx 响应，这次扫描的 POST 就会失败。成功时建议返回 `204 No Content`；任何 2xx 都会被视为已接受。
 

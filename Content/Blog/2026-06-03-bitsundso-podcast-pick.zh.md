@@ -15,7 +15,7 @@ ogDescription: "Timo Hetzel 在 Bits und so 第 1007 期推荐了 NFC.cool。一
 
 几天前我一边工作一边把 Bits und so 第 1007 期当背景音放着，结果从音箱里突然冒出来我自己 App 的名字。
 
-在 **Picks**（推荐）环节里，Timo Hetzel 推荐了 NFC.cool。节目笔记里只简单写了一行 "NFC.cool Scanner-App"。[这一期在这里](https://www.bitsundso.de/bus1007/)。
+在 **Picks**（推荐）环节里，Timo Hetzel 推荐了 NFC.cool。节目笔记里只简单写了一行 “NFC.cool Scanner-App”。[这一期在这里](https://www.bitsundso.de/bus1007/)。
 
 乍一听好像没什么大不了的。一行节目笔记，几分钟的音频。但 Bits und so 对我来说，不是一档随便的播客。
 

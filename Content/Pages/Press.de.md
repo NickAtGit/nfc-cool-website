@@ -96,7 +96,7 @@ Für Berichterstattung, Kooperationen und alles, was eine offizielle Aussage ben
 
 <article class="page-card">
 <h3>Wortmarken-Nutzung</h3>
-<p><em>cool</em> bleibt klein und direkt am Punkt. Logo nicht strecken, nicht umfärben, nicht umsetzen. Schutzraum: Höhe des „N" rundherum freihalten.</p>
+<p><em>cool</em> bleibt klein und direkt am Punkt. Logo nicht strecken, nicht umfärben, nicht umsetzen. Schutzraum: Höhe des „N“ rundherum freihalten.</p>
 </article>
 
 </div>

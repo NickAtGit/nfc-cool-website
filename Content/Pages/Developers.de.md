@@ -36,7 +36,7 @@ Ein Webhook ist einfach ein JSON-`POST` an eine URL deiner Wahl - alles, was HTT
 
 <article class="feature-capability-card">
 <h3>Zapier</h3>
-<p>Mit Zapiers "Catch Webhook"-Trigger leitest du Scans an über 5.000 Apps weiter - CRMs, Tabellen, Slack, alles. Der kostenlose Tarif reicht für kleine Volumina.</p>
+<p>Mit Zapiers „Catch Webhook“-Trigger leitest du Scans an über 5.000 Apps weiter - CRMs, Tabellen, Slack, alles. Der kostenlose Tarif reicht für kleine Volumina.</p>
 </article>
 
 <article class="feature-capability-card">
@@ -51,7 +51,7 @@ Ein Webhook ist einfach ein JSON-`POST` an eine URL deiner Wahl - alles, was HTT
 
 <article class="feature-capability-card">
 <h3>IFTTT</h3>
-<p>Für einfaches "if this then that"-Routing. IFTTTs Webhooks-Service liefert eine eigene URL, die du in die NFC.cool-Webhook-Konfiguration einträgst.</p>
+<p>Für einfaches „if this then that“-Routing. IFTTTs Webhooks-Service liefert eine eigene URL, die du in die NFC.cool-Webhook-Konfiguration einträgst.</p>
 </article>
 
 <article class="feature-capability-card">
@@ -74,7 +74,7 @@ Ein Webhook ist einfach ein JSON-`POST` an eine URL deiner Wahl - alles, was HTT
 
 - **Inventur + Audit-Trail.** Tippe einen Tag auf einem Artikel an, NFC.cool POSTet in eine Tabelle oder ein Warehouse-System; eine Zeile erscheint mit Zeitstempel + Tag-Identifier + Payload.
 - **Lead-Erfassung auf Events.** Tippe einen Tag auf deinem Messebanner an, dein CRM sendet automatisch eine Follow-up-E-Mail.
-- **Smart-Home-Trigger.** Tippe einen Tag an der Haustür an, um "Ich bin zu Hause" zu markieren - Home Assistant / Homey / Hubitat empfängt es per Webhook.
+- **Smart-Home-Trigger.** Tippe einen Tag an der Haustür an, um „Ich bin zu Hause“ zu markieren - Home Assistant / Homey / Hubitat empfängt es per Webhook.
 - **Asset-Tracking.** Wartungspersonal tippt Tags auf Geräten an, um Inspektionen zu protokollieren; das Backend baut das Compliance-Log.
 - **Konferenz-Check-ins.** Tippe das NFC-Badge eines Gastes an; der Webhook aktualisiert deine Event-Plattform in Echtzeit.
 
@@ -84,7 +84,7 @@ Ein Webhook ist einfach ein JSON-`POST` an eine URL deiner Wahl - alles, was HTT
 
 ## Webhooks
 
-Aktivierbar unter **Mehr-Tab → Webhook** in der App: eine HTTPS-URL eintragen, optional Benutzername/Passwort für HTTP Basic Auth hinterlegen, dann "NFC-Scans" und "QR- & Barcode-Scans" unabhängig voneinander einschalten. Verfügbar auf iOS und Android.
+Aktivierbar unter **Mehr-Tab → Webhook** in der App: eine HTTPS-URL eintragen, optional Benutzername/Passwort für HTTP Basic Auth hinterlegen, dann „NFC-Scans“ und „QR- & Barcode-Scans“ unabhängig voneinander einschalten. Verfügbar auf iOS und Android.
 
 Die App sendet einen einzelnen `POST` pro Scan an die hinterlegte URL. Es gibt keine separate Retry-Queue: ist dein Endpunkt nicht erreichbar oder liefert er einen Non-2xx-Status zurück, scheitert der POST. Antworte idealerweise mit `204 No Content`; jeder 2xx-Status gilt als angenommen.
 

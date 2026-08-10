@@ -15,7 +15,7 @@ ogDescription: "Zwei fertige iOS-Kurzbefehle für den NFC-Tap-Zähler: ein wiede
 
 Vor einer Woche habe ich [erklärt, wie der NFC-Tap-Zähler funktioniert](/de/blog/count-nfc-tag-scans/): Der Chip zählt seine eigenen Scans, die App bettet Platzhalter-Bytes ein, und der Tag setzt bei jedem Antippen den aktuellen Zählerstand und die Tag-ID in das ein, was er trägt. Dieser Beitrag endet dort, wo auch der Tag endet - in dem Moment, in dem die Werte auf deinem Telefon ankommen.
 
-Die naheliegende Folgefrage höre ich seitdem ständig: "Schön, der Tag hat mir `049F50824F1390x000007` übergeben - und jetzt?" Wenn du auf dem iPhone bist und auf diese Werte in einem Kurzbefehl reagieren willst, musst du sie auseinandernehmen. Das ist eine kleine, aber fummelige Stringverarbeitung, und du sollst sie nicht selbst schreiben müssen.
+Die naheliegende Folgefrage höre ich seitdem ständig: „Schön, der Tag hat mir `049F50824F1390x000007` übergeben - und jetzt?“ Wenn du auf dem iPhone bist und auf diese Werte in einem Kurzbefehl reagieren willst, musst du sie auseinandernehmen. Das ist eine kleine, aber fummelige Stringverarbeitung, und du sollst sie nicht selbst schreiben müssen.
 
 Also habe ich zwei Kurzbefehle gebaut und teile sie als iCloud-Links. Einer ist das Gehirn. Der andere ist eine Demo, die das Gehirn benutzt.
 
@@ -80,7 +80,7 @@ Scans: 7
 
 Der Grund, weshalb ich sie zuerst installieren würde: Sie ist die schnellstmögliche Plausibilitätsprüfung für einen Tag mit Zähler. Schreibe einen Tag mit NFC.cool Tools, Inhaltstyp **Kurzbefehl**, Name **NFC Tag Alert**, Schalter für Tap-Zähler und Tag-ID an, Tag schreiben, Tag antippen. Ein Hinweis erscheint mit den echten Werten von deinem physischen Tag.
 
-Wenn der Hinweis die Werte zeigt, die du erwartet hast, macht dein Tag seine Arbeit und du kannst etwas Komplexeres bauen. Wenn der Zählerstand falsch oder die Tag-ID leer ist, weißt du, dass es am Tag (oder an den Schaltern beim Schreiben) liegt und nicht an deinem eigenen Kurzbefehl. Eine ganze Klasse von "Liegt das überhaupt am Chip?"-Debugging auszuschließen, ist einen Kurzbefehl mit fünf Aktionen wert.
+Wenn der Hinweis die Werte zeigt, die du erwartet hast, macht dein Tag seine Arbeit und du kannst etwas Komplexeres bauen. Wenn der Zählerstand falsch oder die Tag-ID leer ist, weißt du, dass es am Tag (oder an den Schaltern beim Schreiben) liegt und nicht an deinem eigenen Kurzbefehl. Eine ganze Klasse von „Liegt das überhaupt am Chip?“-Debugging auszuschließen, ist einen Kurzbefehl mit fünf Aktionen wert.
 
 Falls du dich je fragst, wie man den Parser richtig aufruft: Dieser Kurzbefehl ist außerdem das kleinstmögliche Praxisbeispiel dafür. Mach ihn auf, schau dir die fünf Aktionen an, übernimm den Aufbau in deinen eigenen Kurzbefehl.
 
@@ -94,7 +94,7 @@ Es gibt zwei Wege, wie Tag-Inhalte in deinen Kurzbefehl gelangen. Der Parser ist
 
 **URL-getrieben (Inhaltstyp URL).** Das ist der häufigere Fall. Der Tag trägt eine URL, das Telefon öffnet diese URL beim Antippen, der Zählerstand reist als `?nfc=...` mit. Wenn statt (oder zusätzlich zu) einem Browser ein Kurzbefehl darauf reagieren soll, geht das: Lass einen Kurzbefehl eine Safari-Webseite als Eingabe annehmen und führe Parse NFC Tap Counter auf der URL aus. Der Parser schneidet den `?nfc=`-Teil sauber heraus und gibt dir als `content` die URL ohne Anhang zurück, sodass du sie an einen Browser, einen API-Aufruf oder irgendetwas anderes weiterreichen kannst, das eine saubere URL erwartet.
 
-Hier ein vieraktiges Beispiel für "jeden Scan in einer Notiz in Apple Notizen festhalten":
+Hier ein vieraktiges Beispiel für „jeden Scan in einer Notiz in Apple Notizen festhalten“:
 
 1. **Kurzbefehl-Eingabe** als Text empfangen.
 2. **Kurzbefehl ausführen** -> Parse NFC Tap Counter, mit der Eingabe als Text.
