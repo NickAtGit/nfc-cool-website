@@ -12,7 +12,7 @@ metaDescription: "Votre passeport contient une puce NFC, et NFC.cool peut la lir
 ogTitle: "Votre passeport contient une puce NFC. Votre téléphone peut désormais la lire."
 ogDescription: "NFC.cool lit désormais la puce de votre passeport, carte d'identité ou titre de séjour - la photo, les informations, et si le document est authentique. Sur iPhone et Android."
 ---
-La dernière fois que j'ai pris l'avion, j'ai passé une minute planté devant l'un de ces sas automatiques de contrôle des passeports - la cabine vitrée où vous posez votre passeport sur le lecteur, levez les yeux vers la caméra et attendez que les portes veuillent bien vous laisser passer. Ça prend un moment. Et dans ce moment-là, je me suis surpris à réfléchir à ce que la machine était réellement en train de faire. Elle ne lisait pas la page imprimée. Elle dialoguait avec la petite puce nichée dans la couverture de mon passeport.
+La dernière fois que j'ai pris l'avion, j'ai passé une minute planté devant l'un de ces sas automatiques de contrôle des passeports - la cabine vitrée où vous posez votre passeport sur le lecteur, levez les yeux vers la caméra et attendez que les portes veuillent bien vous laisser passer. Ça prend un moment. Et dans ce moment-là, je me suis surpris à réfléchir à ce que la machine était réellement en train de faire. Elle ne lisait pas seulement la page imprimée. Elle dialoguait aussi avec la petite puce nichée dans la couverture de mon passeport.
 
 Cela fait des années que je gagne ma vie à lire des puces NFC. Je savais que cette puce était là. Je n'avais simplement jamais pointé ma propre app dessus. Debout dans ce sas, ça me dérangeait sincèrement qu'une borne frontalière puisse lire mon passeport et pas NFC.cool.
 

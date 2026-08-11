@@ -12,7 +12,7 @@ metaDescription: "Tu pasaporte tiene un chip NFC, y NFC.cool puede leerlo en iPh
 ogTitle: "Tu pasaporte tiene un chip NFC. Ahora tu móvil puede leerlo."
 ogDescription: "NFC.cool ahora lee el chip de tu pasaporte, documento de identidad o permiso de residencia - la foto, los datos y si es auténtico. En iPhone y Android."
 ---
-La última vez que volé, pasé un minuto de pie en una de esas puertas automáticas de pasaportes - la cabina de cristal donde apoyas el pasaporte en el lector, levantas la vista hacia la cámara y esperas a que las puertas decidan que les caes bien. Tarda un momento. Y en ese momento me sorprendí pensando en lo que la máquina estaba haciendo en realidad. No estaba leyendo la página impresa. Estaba hablando con el pequeño chip escondido dentro de la tapa de mi pasaporte.
+La última vez que volé, pasé un minuto de pie en una de esas puertas automáticas de pasaportes - la cabina de cristal donde apoyas el pasaporte en el lector, levantas la vista hacia la cámara y esperas a que las puertas decidan que les caes bien. Tarda un momento. Y en ese momento me sorprendí pensando en lo que la máquina estaba haciendo en realidad. No solo estaba leyendo la página impresa. También estaba hablando con el pequeño chip escondido dentro de la tapa de mi pasaporte.
 
 Llevo años leyendo chips NFC para ganarme la vida. Sabía que ese chip estaba ahí. Simplemente nunca había apuntado mi propia app hacia él. De pie en aquella puerta, me molestó de verdad que un quiosco fronterizo pudiera leer mi pasaporte y NFC.cool no.
 

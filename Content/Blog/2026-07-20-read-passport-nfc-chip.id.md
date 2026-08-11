@@ -12,7 +12,7 @@ metaDescription: "Paspor Anda memiliki chip NFC, dan NFC.cool bisa membacanya di
 ogTitle: "Paspor Anda memiliki chip NFC. Kini ponsel Anda bisa membacanya."
 ogDescription: "NFC.cool kini membaca chip di paspor, kartu identitas, atau izin tinggal Anda - foto, detail, dan apakah asli. Di iPhone dan Android."
 ---
-Terakhir kali saya terbang, saya berdiri sekitar satu menit di salah satu gerbang paspor otomatis itu - bilik kaca tempat Anda meletakkan paspor di pembaca, menengadah ke kamera, dan menunggu apakah pintunya berkenan meloloskan Anda. Butuh sejenak. Dan pada saat itu saya mendapati diri saya memikirkan apa yang sebenarnya dilakukan mesin tersebut. Ia tidak membaca halaman yang tercetak. Ia sedang berbicara dengan chip kecil yang terselip di dalam sampul paspor saya.
+Terakhir kali saya terbang, saya berdiri sekitar satu menit di salah satu gerbang paspor otomatis itu - bilik kaca tempat Anda meletakkan paspor di pembaca, menengadah ke kamera, dan menunggu apakah pintunya berkenan meloloskan Anda. Butuh sejenak. Dan pada saat itu saya mendapati diri saya memikirkan apa yang sebenarnya dilakukan mesin tersebut. Ia tidak hanya membaca halaman yang tercetak. Ia juga sedang berbicara dengan chip kecil yang terselip di dalam sampul paspor saya.
 
 Saya sudah bertahun-tahun membaca chip NFC untuk mencari nafkah. Saya tahu chip itu ada di sana. Saya hanya belum pernah mengarahkan aplikasi saya sendiri ke chip tersebut. Berdiri di gerbang itu, benar-benar mengganggu saya bahwa sebuah kios perbatasan bisa membaca paspor saya sementara NFC.cool tidak bisa.
 

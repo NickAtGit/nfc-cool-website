@@ -12,7 +12,7 @@ metaDescription: "O seu passaporte tem um chip NFC, e a NFC.cool consegue lê-lo
 ogTitle: "O seu passaporte tem um chip NFC. Agora o telemóvel consegue lê-lo."
 ogDescription: "A NFC.cool lê agora o chip do seu passaporte, cartão de identificação ou autorização de residência - a fotografia, os dados e se é genuíno. No iPhone e no Android."
 ---
-Da última vez que apanhei um avião, passei um minuto parado num daqueles portões automáticos de passaporte - a cabina de vidro onde pousa o passaporte no leitor, olha para a câmara e espera que as portas se dignem a abrir. Demora um instante. E, nesse instante, dei por mim a pensar no que a máquina estava realmente a fazer. Não estava a ler a página impressa. Estava a comunicar com o pequeno chip escondido dentro da capa do meu passaporte.
+Da última vez que apanhei um avião, passei um minuto parado num daqueles portões automáticos de passaporte - a cabina de vidro onde pousa o passaporte no leitor, olha para a câmara e espera que as portas se dignem a abrir. Demora um instante. E, nesse instante, dei por mim a pensar no que a máquina estava realmente a fazer. Não estava apenas a ler a página impressa. Estava também a comunicar com o pequeno chip escondido dentro da capa do meu passaporte.
 
 Passei anos a ler chips NFC para ganhar a vida. Sabia que aquele chip estava ali dentro. Só nunca tinha apontado a minha própria aplicação para ele. Ali parado no portão, incomodou-me genuinamente que um quiosque de fronteira conseguisse ler o meu passaporte e a NFC.cool não.
 

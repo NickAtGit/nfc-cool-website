@@ -12,7 +12,7 @@ metaDescription: "Dein Reisepass hat einen NFC-Chip, und NFC.cool liest ihn auf 
 ogTitle: "Dein Reisepass hat einen NFC-Chip. Jetzt kann dein Handy ihn lesen."
 ogDescription: "NFC.cool liest jetzt den Chip in Reisepass, Personalausweis oder Aufenthaltstitel - das Foto, die Daten und ob er echt ist. Auf iPhone und Android."
 ---
-Als ich das letzte Mal geflogen bin, stand ich eine Minute an einem dieser automatischen Passkontroll-Gates - dieser Glaskabine, in die du deinen Reisepass auf den Leser legst, in die Kamera schaust und wartest, bis die Türen entscheiden, dass sie dich mögen. Es dauert einen Moment. Und in diesem Moment habe ich angefangen, darüber nachzudenken, was die Maschine da eigentlich tut. Sie hat nicht die bedruckte Seite gelesen. Sie hat mit dem kleinen Chip gesprochen, der im Einband meines Reisepasses steckt.
+Als ich das letzte Mal geflogen bin, stand ich eine Minute an einem dieser automatischen Passkontroll-Gates - dieser Glaskabine, in die du deinen Reisepass auf den Leser legst, in die Kamera schaust und wartest, bis die Türen entscheiden, dass sie dich mögen. Es dauert einen Moment. Und in diesem Moment habe ich angefangen, darüber nachzudenken, was die Maschine da eigentlich tut. Sie hat nicht nur die bedruckte Seite gelesen. Sie hat auch mit dem kleinen Chip gesprochen, der im Einband meines Reisepasses steckt.
 
 Ich lese seit Jahren beruflich NFC-Chips aus. Ich wusste, dass dieser Chip da drin steckt. Ich hatte nur nie meine eigene App darauf angesetzt. Wie ich so in diesem Gate stand, hat es mich wirklich gewurmt, dass ein Grenzterminal meinen Reisepass lesen kann und NFC.cool nicht.
 

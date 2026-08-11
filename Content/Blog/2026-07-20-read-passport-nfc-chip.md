@@ -12,7 +12,7 @@ metaDescription: "Your passport has an NFC chip, and NFC.cool can read it on iPh
 ogTitle: "Your Passport Has an NFC Chip. Now Your Phone Can Read It."
 ogDescription: "NFC.cool now reads the chip in your passport, ID card, or residence permit - the photo, the details, and whether it's genuine. On iPhone and Android."
 ---
-The last time I flew, I spent a minute standing at one of those automated passport gates - the glass booth where you lay your passport on the reader, look up at the camera, and wait for the doors to decide they like you. It takes a moment. And in that moment I found myself thinking about what the machine was actually doing. It wasn't reading the printed page. It was talking to the little chip tucked inside the cover of my passport.
+The last time I flew, I spent a minute standing at one of those automated passport gates - the glass booth where you lay your passport on the reader, look up at the camera, and wait for the doors to decide they like you. It takes a moment. And in that moment I found myself thinking about what the machine was actually doing. It wasn't just reading the printed page. It was also talking to the little chip tucked inside the cover of my passport.
 
 I have spent years reading NFC chips for a living. I knew that chip was in there. I had just never pointed my own app at it. Standing in that gate, it genuinely bothered me that a border kiosk could read my passport and NFC.cool couldn't.
 
