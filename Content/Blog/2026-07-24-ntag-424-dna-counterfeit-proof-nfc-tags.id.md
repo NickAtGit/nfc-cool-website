@@ -13,7 +13,7 @@ ogTitle: "Tag NFC yang membuktikan dirinya bukan palsu"
 ogDescription: "Bagaimana tag NTAG 424 DNA menangkap tiruan, dan bagaimana NFC.cool membaca, memverifikasi, dan mengonfigurasinya di iPhone dan Android."
 ---
 
-Beberapa waktu lalu saya berulang kali menjumpai klaim yang sama secara sepintas: merek-merek mewah memasang chip NFC pada produk mereka sehingga Anda bisa mengetuk sebuah tas atau botol dengan ponsel dan tahu bahwa itu barang asli, bukan tiruan. Setiap artikel melontarkan kalimat manis yang sama dan tidak satu pun menjelaskan *bagaimana*. Apa sebenarnya yang membuat pemalsu tidak bisa sekalian menyalin chip itu bersama tas tangannya?
+Beberapa waktu lalu saya berulang kali menjumpai klaim yang sama secara sepintas: merek-merek mewah memasang chip NFC pada produk mereka sehingga Anda bisa mengetuk sebuah tas atau sepasang sepatu sneaker dengan ponsel dan tahu bahwa itu barang asli, bukan tiruan. Setiap artikel melontarkan kalimat manis yang sama dan tidak satu pun menjelaskan *bagaimana*. Apa sebenarnya yang membuat pemalsu tidak bisa sekalian menyalin chip itu bersama tas tangannya?
 
 Jadi saya melakukan hal yang selalu saya lakukan ketika penasaran dengan sebuah tag. Saya masuk ke AliExpress, menemukan lapak yang menjual tag "NTAG 424 DNA", memesan satu kumpulan kecil, dan menunggu amplopnya datang. Beberapa euro, beberapa minggu, dan silikon yang sama dengan yang menjadi dasar sistem perlindungan merek itu kini tergeletak di meja saya. Lalu saya mengetuk salah satunya untuk melihat apa yang bisa dilakukannya.
 

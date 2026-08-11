@@ -35,14 +35,14 @@ NFC Safe steckt in NFC.cool Tools unter NFC Apps. Ich habe das Ganze auf einen e
 **Verschlüsseln:**
 1. Öffne Tools → NFC Apps → NFC Safe
 2. Wähle **Verschlüsseln**
-3. Tippe oder füge dein Geheimnis ein
+3. Tippe dein Geheimnis ein oder füge es ein
 4. Setze eine starke Passphrase
 5. Tippe auf Verschlüsseln; halte einen NFC-Tag an dein Telefon
 
 **Entschlüsseln:**
 1. Gleicher Screen, auf **Entschlüsseln** umschalten
 2. Passphrase eingeben
-3. Einen vorher verschlüsselten Tag antippen - dein Geheimnis erscheint
+3. Einen vorher verschlüsselten Tag scannen - dein Geheimnis erscheint
 
 Was ich unter der Haube tatsächlich mache: AES-256-GCM mit PBKDF2 (HMAC-SHA-256, 100.000 Iterationen, 16-Byte Random-Salt). Das Ergebnis wird auf dem Tag als eigener NDEF-Record (`urn:nfc:ext:crypto`) abgelegt. Wenn du das lieber selbst überprüfen willst, statt mir zu glauben, liegt die vollständige [Format-Spezifikation auf GitHub](https://github.com/NickAtGit/nfc.cool-nfc-safe-format). Und falls du erst sehen willst, wie ein normaler, unverschlüsselter Tag-Write aussieht, gehe ich das in [NFC-Tags auf dem iPhone schreiben](/de/blog/write-nfc-tags-iphone/) durch.
 

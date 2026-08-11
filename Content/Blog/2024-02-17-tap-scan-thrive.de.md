@@ -28,7 +28,7 @@ Eine nützliche Variante: Kurzlinks. Wenn du Analytics-lastige URLs hast, generi
 
 Kodiere SSID, Passwort und Security-Typ (WPA2, WPA3, offen) im Standardformat `WIFI:T:WPA;S:...;P:...;;`. iOS, Android und modernes Windows erkennen das Format und bieten den Beitritt an.
 
-Druck das auf eine kleine Karte in deinem Gästezimmer. Kleb es auf die Rückseite des Routers. Befestige es an der Wand in einem Café. Gäste scannen, treten bei, fertig - kein Tippen von 24-Zeichen-Passwörtern.
+Druck das auf eine kleine Karte in deinem Gästezimmer. Kleb es auf die Rückseite des Routers. Befestige es an der Wand in einem Café. Gäste scannen, treten bei, fertig - kein Eintippen von 24-Zeichen-Passwörtern.
 
 ---
 
@@ -36,7 +36,7 @@ Druck das auf eine kleine Karte in deinem Gästezimmer. Kleb es auf die Rücksei
 
 Kodiere einen Termin als `BEGIN:VEVENT`-Block (das iCalendar-Format). Scannen bietet an, ihn in die Kalender-App des Geräts zu übernehmen, komplett mit Startzeit, Endzeit, Ort und Beschreibung.
 
-Nützlich auf Event-Postern, Konferenzbeschilderung oder „Save the Date“-Karten. Der Empfänger muss den Termin nicht erst auf einer Website finden - ein Tippen, und er ist im Kalender.
+Nützlich auf Event-Postern, Konferenzbeschilderung oder „Save the Date“-Karten. Der Empfänger muss den Termin nicht erst auf einer Website finden - ein Fingertipp, und er ist im Kalender.
 
 ---
 
@@ -44,7 +44,7 @@ Nützlich auf Event-Postern, Konferenzbeschilderung oder „Save the Date“-Kar
 
 Kodiere eine `geo:`-URI mit Breite und Länge. Scannen öffnet die Standard-Karten-App an diesem Pin - Apple Maps auf iOS, Google Maps auf den meisten Android-Handys.
 
-Restaurants, Venues, Treffpunkte: Klebe einen kleinen QR auf den Flyer oder die Einladung, Empfänger bekommen Navigation mit einem Tippen.
+Restaurants, Venues, Treffpunkte: Klebe einen kleinen QR auf den Flyer oder die Einladung, Empfänger bekommen die Navigation mit einem Fingertipp.
 
 ---
 

@@ -13,7 +13,7 @@ ogTitle: "Les tags NFC qui prouvent qu'ils ne sont pas des faux"
 ogDescription: "Comment les tags NTAG 424 DNA démasquent les clones, et comment NFC.cool les lit, les vérifie et les configure sur iPhone et Android."
 ---
 
-Il y a quelque temps, je tombais sans cesse sur la même affirmation au détour d'un article : les marques de luxe intègrent des puces NFC dans leurs produits pour que vous puissiez approcher votre téléphone d'un sac ou d'une bouteille et savoir qu'il s'agit du vrai produit, pas d'une contrefaçon. Chaque article servait la même phrase reluisante et aucun ne disait *comment*. Qu'est-ce qui empêche réellement un contrefacteur de copier la puce en même temps que le sac à main ?
+Il y a quelque temps, je tombais sans cesse sur la même affirmation au détour d'un article : les marques de luxe intègrent des puces NFC dans leurs produits pour que vous puissiez approcher votre téléphone d'un sac ou d'une paire de sneakers et savoir qu'il s'agit du vrai produit, pas d'une contrefaçon. Chaque article servait la même phrase reluisante et aucun ne disait *comment*. Qu'est-ce qui empêche réellement un contrefacteur de copier la puce en même temps que le sac à main ?
 
 Alors j'ai fait ce que je fais toujours quand un tag m'intrigue. Je suis allé sur AliExpress, j'ai trouvé une annonce pour des tags « NTAG 424 DNA », j'en ai commandé un petit lot, et j'ai attendu que l'enveloppe arrive. Quelques euros, deux semaines, et j'avais sur mon bureau le même silicium sur lequel reposent ces systèmes de protection des marques. Puis j'en ai approché un du téléphone pour voir ce qu'il fait.
 

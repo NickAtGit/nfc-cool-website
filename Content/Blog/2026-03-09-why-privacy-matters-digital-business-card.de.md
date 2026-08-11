@@ -25,7 +25,7 @@ Du solltest.
 
 ## Was passiert wirklich, wenn du eine digitale Visitenkarte teilst?
 
-Hier ist der typische Ablauf, wenn jemand deine NFC-Karte antippt oder deinen QR-Code scannt:
+Hier ist der typische Ablauf, wenn jemand sein Handy an deine NFC-Karte hält oder deinen QR-Code scannt:
 
 1. Das Handy des Gegenübers öffnet eine URL, die von der Plattform gehostet wird
 2. Die Plattform liefert deine Kontaktdaten

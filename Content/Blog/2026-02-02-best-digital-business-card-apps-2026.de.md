@@ -139,7 +139,7 @@ Ein Überblick über alle acht Apps auf einen Blick:
 **Was mir gefällt:**
 - **Wirklich großzügiger Gratis-Plan** - QR-Sharing, Apple/Google Wallet-Pass, unbegrenzte Kontakte, Analytics und Kontaktexport. Alles gratis. Kein Plattform-Branding auf deiner Karte. Das ist schwer zu schlagen.
 - **SOC 2 Typ II zertifiziert** - Enterprise-grade Security-Compliance.
-- **Apple App Clip Sharing** - Tippen und teilen, ohne dass der Empfänger eine App braucht.
+- **Apple App Clip Sharing** - Dranhalten und teilen, ohne dass der Empfänger eine App braucht.
 - **Einfache Einrichtung** - Sauberes Onboarding, das dich innerhalb von Minuten teilen lässt.
 
 **Was besser sein könnte:**

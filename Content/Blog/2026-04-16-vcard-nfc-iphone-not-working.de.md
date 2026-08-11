@@ -13,7 +13,7 @@ ogDescription: "iPhones ignorieren vCard-Daten auf NFC-Tags stillschweigend. Hie
 ---
 Ich baue seit Jahren NFC-Apps. Und jede einzelne Woche - ohne Ausnahme - schreibt mir jemand eine Variante von Folgendem:
 
-> „Hey, ich hab eine NFC-Visitenkarte gekauft. Meine vCard drauf programmiert. Funktioniert super auf dem Android meines Kollegen. Aber wenn ich sie an mein iPhone tippe? Passiert nichts. Ist meine Karte kaputt?“
+> „Hey, ich hab eine NFC-Visitenkarte gekauft. Meine vCard drauf programmiert. Funktioniert super auf dem Android meines Kollegen. Aber wenn ich sie an mein iPhone halte? Passiert nichts. Ist meine Karte kaputt?“
 
 Deine Karte ist nicht kaputt.
 
@@ -25,13 +25,13 @@ Lass mich erklären, warum - und was stattdessen wirklich funktioniert.
 
 ## Warum vCard-NFC-Tags auf dem iPhone nicht funktionieren
 
-Folgendes passiert, wenn du einen NFC-Tag mit vCard-Daten antippst:
+Folgendes passiert, wenn du einen NFC-Tag mit vCard-Daten scannst:
 
 **Auf Android:** Die Kontakte-App öffnet sich. Du siehst die Kontaktdaten. Tippe auf Speichern. Fertig. Wunderschön.
 
 **Auf dem iPhone:** Nichts. Buchstäblich nichts passiert. Kein Popup. Keine Fehlermeldung. Nur dein iPhone, das dich stillschweigend ignoriert.
 
-Als ich das das erste Mal auf einer Konferenz gesehen habe, schaute die Person, die tippte, mich an, als wäre *ich* kaputt.
+Als ich das das erste Mal auf einer Konferenz gesehen habe, schaute die Person, die ihre Karte hinhielt, mich an, als wäre *ich* kaputt.
 
 **Warum passiert das?**
 
@@ -60,7 +60,7 @@ Bei einem Networking-Event heißt das: *„Hey, bevor du meine Karte scannst, ka
 
 Die Person ist schon weg. Die Magie ist vorbei.
 
-Der ganze Punkt von NFC ist *tippen und fertig*. Sobald du zusätzliche Schritte hinzufügst, hast du verloren.
+Der ganze Punkt von NFC ist *dranhalten und fertig*. Sobald du zusätzliche Schritte hinzufügst, hast du verloren.
 
 NFC.cool Tools ist toll zum Lesen und Schreiben von NFC-Tags - ich hab es genau dafür gebaut. Aber um deine Kontaktdaten mit Fremden zu teilen, brauchst du etwas, das ohne jede App auf deren Seite funktioniert.
 
@@ -76,7 +76,7 @@ Stattdessen speichere eine URL, die auf ein digitales Profil verweist.
 
 Genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-de&mt=8). Anstatt vCard-Daten auf den Tag zu quetschen (wo iPhones sie ignorieren), speichern wir einen smarten Link zu deinem digitalen Profil.
 
-**Wenn jemand deine Karte antippt:**
+**Wenn jemand deine Karte scannt:**
 
 - iPhone → Link öffnet sich → Schönes Profil lädt → Ein-Tipp-Kontakt speichern
 - Android → Gleiches Erlebnis → Funktioniert perfekt
@@ -84,7 +84,7 @@ Genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/
 
 Keine App erforderlich für den Empfänger. Keine Tutorials. Keine Reibung.
 
-Tippen. Profil. Speichern. Fertig.
+Dranhalten. Profil. Speichern. Fertig.
 
 ---
 
@@ -99,7 +99,7 @@ Dann habe ich erkannt: Dieser Ansatz ist *echt besser*, als vCards es je waren.
 **Was ein URL-basiertes digitales Profil dir gibt:**
 
 ▸ **Alle deine Links an einem Ort**
-LinkedIn, Twitter, Instagram, dein Portfolio, dein Calendly-Buchungslink - alles mit einem Tippen erreichbar.
+LinkedIn, Twitter, Instagram, dein Portfolio, dein Calendly-Buchungslink - alles mit einem Fingertipp erreichbar.
 
 ▸ **Smarte Networking-Features**
 Du kennst das: Du triffst jemanden, speicherst den Kontakt, und zwei Wochen später starrst du auf „John - Konferenz“ ohne die leiseste Erinnerung, wer John ist.
@@ -155,7 +155,7 @@ Die Lösung ist kein Workaround - es ist ein fundamental besserer Ansatz:
 
 Das ist, was NFC.cool Business Card macht. Es ist, was ich bei jeder Konferenz, jedem Meetup und jedem Networking-Event nutze.
 
-Ich tippe. Sie speichern. Wir gehen beide weiter unserer Wege.
+Ich halte die Karte hin. Sie speichern. Wir gehen beide weiter unserer Wege.
 
 **So sollte es funktionieren.**
 

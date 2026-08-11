@@ -9,7 +9,7 @@ image: "/assets/images/Blog/iphone-rfid-doors.webp"
 imageAlt: "Ein iPhone vor einem RFID-Türleser eines Apartmenthauses"
 ---
 
-Ich baue seit Jahren an NFC.cool, einer App zum Lesen und Schreiben von NFC-Tags, und es gibt eine Frage, die häufiger in meinem Posteingang landet als fast jede andere: „Warum öffnet mein iPhone meine Apartmenttür nicht?“ Jemand tippt selbstbewusst sein Handy an die Eingangsanlage des Gebäudes, erwartet den Zauber - und bekommt stattdessen das kalte, gleichgültige Schweigen einer verschlossenen Tür.
+Ich baue seit Jahren an NFC.cool, einer App zum Lesen und Schreiben von NFC-Tags, und es gibt eine Frage, die häufiger in meinem Posteingang landet als fast jede andere: „Warum öffnet mein iPhone meine Apartmenttür nicht?“ Jemand hält selbstbewusst sein Handy an die Eingangsanlage des Gebäudes, erwartet den Zauber - und bekommt stattdessen das kalte, gleichgültige Schweigen einer verschlossenen Tür.
 
 Falls dir das bekannt vorkommt: Du bist in guter Gesellschaft - und nein, Siri trägt dir nichts nach. Die ehrliche Antwort ist einfacher und technischer, als die meisten erwarten: Die Karte deines Apartments spielt nicht nach den Regeln deines iPhones. Lass mich erklären, warum, denn sobald du den Frequenzkonflikt darunter siehst, fühlt sich das Ganze nicht mehr wie ein Fehler an.
 

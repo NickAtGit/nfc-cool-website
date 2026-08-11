@@ -5,7 +5,7 @@ date: "2026-05-22"
 tags: ["nfc-tags", "automation", "iphone"]
 summary: "Zwei fertige iOS-Kurzbefehle, die Tag-ID und Zählerstand aus dem NFC-Tap-Zähler herausziehen - ein wiederverwendbarer Parser und ein Tag-Alert als Demo dazu."
 image: "/assets/images/Blog/ios-shortcuts-nfc-tap-counter.webp"
-imageAlt: "Ein iPhone zeigt einen Hinweis mit Tag-ID und Zählerstand, nachdem ein NFC-Sticker angetippt wurde"
+imageAlt: "Ein iPhone zeigt einen Hinweis mit Tag-ID und Zählerstand, nachdem ein NFC-Sticker gescannt wurde"
 author: "Nicolo Stanciu"
 metaTitle: "NFC-Tap-Zähler-Daten in iOS-Kurzbefehlen parsen"
 metaDescription: "Ein wiederverwendbarer iOS-Kurzbefehl, der die Werte des NFC-Tap-Zählers (Tag-ID und Zählerstand) parst, plus ein Tag-Alert als Demo. Direkt per iCloud-Link installieren."
@@ -13,7 +13,7 @@ ogTitle: "NFC-Tap-Zähler-Daten in iOS-Kurzbefehlen parsen"
 ogDescription: "Zwei fertige iOS-Kurzbefehle für den NFC-Tap-Zähler: ein wiederverwendbarer Parser und ein Tag-Alert als Demo."
 ---
 
-Vor einer Woche habe ich [erklärt, wie der NFC-Tap-Zähler funktioniert](/de/blog/count-nfc-tag-scans/): Der Chip zählt seine eigenen Scans, die App bettet Platzhalter-Bytes ein, und der Tag setzt bei jedem Antippen den aktuellen Zählerstand und die Tag-ID in das ein, was er trägt. Dieser Beitrag endet dort, wo auch der Tag endet - in dem Moment, in dem die Werte auf deinem Telefon ankommen.
+Vor einer Woche habe ich [erklärt, wie der NFC-Tap-Zähler funktioniert](/de/blog/count-nfc-tag-scans/): Der Chip zählt seine eigenen Scans, die App bettet Platzhalter-Bytes ein, und der Tag setzt bei jedem Scan den aktuellen Zählerstand und die Tag-ID in das ein, was er trägt. Dieser Beitrag endet dort, wo auch der Tag endet - in dem Moment, in dem die Werte auf deinem Telefon ankommen.
 
 Die naheliegende Folgefrage höre ich seitdem ständig: „Schön, der Tag hat mir `049F50824F1390x000007` übergeben - und jetzt?“ Wenn du auf dem iPhone bist und auf diese Werte in einem Kurzbefehl reagieren willst, musst du sie auseinandernehmen. Das ist eine kleine, aber fummelige Stringverarbeitung, und du sollst sie nicht selbst schreiben müssen.
 
@@ -32,7 +32,7 @@ Im Einrichtungsbildschirm des Tap-Zählers wählst du, was der Tag liefern soll:
 - **SMS-Text:** `Bestellung bestätigt!` wird zu `Bestellung bestätigt! 049F50824F1390x000007`
 - **Kurzbefehl-Eingabe:** `log-entry` wird zu `log-entry 049F50824F1390x000007`
 
-Die URL oben ist eine echte. Unsere [Live-Demo-Seite zum Tap-Zähler](/de/tap-counter/) liest den `?nfc=`-Wert direkt aus ihrer eigenen Adressleiste, das heißt: Wenn du die Ersetzung einmal in Aktion sehen willst, bevor du eine eigene Automatisierung baust, schreib einen Tag mit `https://nfc.cool/tap-counter/` und beiden Schaltern an, tippe ihn an, und die Seite zeigt dir die Tag-ID und den Zählerstand, die sie gerade bekommen hat.
+Die URL oben ist eine echte. Unsere [Live-Demo-Seite zum Tap-Zähler](/de/tap-counter/) liest den `?nfc=`-Wert direkt aus ihrer eigenen Adressleiste, das heißt: Wenn du die Ersetzung einmal in Aktion sehen willst, bevor du eine eigene Automatisierung baust, schreib einen Tag mit `https://nfc.cool/tap-counter/` und beiden Schaltern an, scanne ihn, und die Seite zeigt dir die Tag-ID und den Zählerstand, die sie gerade bekommen hat.
 
 Wenn der Inhaltstyp **Kurzbefehl** ist, ruft NFC.cool den gewählten Kurzbefehl über `shortcuts://run-shortcut?name=Mein%20Kurzbefehl&input=text&text=<payload>` auf, wobei die angehängten NFC-Werte schon im Text stehen. Die Eingabe deines Kurzbefehls ist also ein einfacher Text-String. Deine einzige Aufgabe ist es, die Tag-ID und den Zählerstand wieder daraus herauszuziehen.
 
@@ -78,7 +78,7 @@ Tag ID: 049F50824F1390
 Scans: 7
 ```
 
-Der Grund, weshalb ich sie zuerst installieren würde: Sie ist die schnellstmögliche Plausibilitätsprüfung für einen Tag mit Zähler. Schreibe einen Tag mit NFC.cool Tools, Inhaltstyp **Kurzbefehl**, Name **NFC Tag Alert**, Schalter für Tap-Zähler und Tag-ID an, Tag schreiben, Tag antippen. Ein Hinweis erscheint mit den echten Werten von deinem physischen Tag.
+Der Grund, weshalb ich sie zuerst installieren würde: Sie ist die schnellstmögliche Plausibilitätsprüfung für einen Tag mit Zähler. Schreibe einen Tag mit NFC.cool Tools, Inhaltstyp **Kurzbefehl**, Name **NFC Tag Alert**, Schalter für Tap-Zähler und Tag-ID an, Tag schreiben, Tag scannen. Ein Hinweis erscheint mit den echten Werten von deinem physischen Tag.
 
 Wenn der Hinweis die Werte zeigt, die du erwartet hast, macht dein Tag seine Arbeit und du kannst etwas Komplexeres bauen. Wenn der Zählerstand falsch oder die Tag-ID leer ist, weißt du, dass es am Tag (oder an den Schaltern beim Schreiben) liegt und nicht an deinem eigenen Kurzbefehl. Eine ganze Klasse von „Liegt das überhaupt am Chip?“-Debugging auszuschließen, ist einen Kurzbefehl mit fünf Aktionen wert.
 
@@ -92,7 +92,7 @@ Es gibt zwei Wege, wie Tag-Inhalte in deinen Kurzbefehl gelangen. Der Parser ist
 
 **Tag-getrieben (Inhaltstyp Kurzbefehl).** Schreib den Tag mit Inhaltstyp **Kurzbefehl**, wähl deinen Kurzbefehl per Name aus, aktiviere die gewünschten Schalter. Ab jetzt startet jeder Tap deinen Kurzbefehl, die NFC-Nutzlast steckt schon in der Eingabe. In deinem Kurzbefehl rufst du Parse NFC Tap Counter auf dieser Eingabe auf und hast `tagID` und `count` zur Hand.
 
-**URL-getrieben (Inhaltstyp URL).** Das ist der häufigere Fall. Der Tag trägt eine URL, das Telefon öffnet diese URL beim Antippen, der Zählerstand reist als `?nfc=...` mit. Wenn statt (oder zusätzlich zu) einem Browser ein Kurzbefehl darauf reagieren soll, geht das: Lass einen Kurzbefehl eine Safari-Webseite als Eingabe annehmen und führe Parse NFC Tap Counter auf der URL aus. Der Parser schneidet den `?nfc=`-Teil sauber heraus und gibt dir als `content` die URL ohne Anhang zurück, sodass du sie an einen Browser, einen API-Aufruf oder irgendetwas anderes weiterreichen kannst, das eine saubere URL erwartet.
+**URL-getrieben (Inhaltstyp URL).** Das ist der häufigere Fall. Der Tag trägt eine URL, das Telefon öffnet diese URL beim Scannen, der Zählerstand reist als `?nfc=...` mit. Wenn statt (oder zusätzlich zu) einem Browser ein Kurzbefehl darauf reagieren soll, geht das: Lass einen Kurzbefehl eine Safari-Webseite als Eingabe annehmen und führe Parse NFC Tap Counter auf der URL aus. Der Parser schneidet den `?nfc=`-Teil sauber heraus und gibt dir als `content` die URL ohne Anhang zurück, sodass du sie an einen Browser, einen API-Aufruf oder irgendetwas anderes weiterreichen kannst, das eine saubere URL erwartet.
 
 Hier ein vieraktiges Beispiel für „jeden Scan in einer Notiz in Apple Notizen festhalten“:
 
@@ -132,6 +132,6 @@ Kurzbefehle sind eine Apple-App, diese beiden hier laufen also nur auf dem iPhon
 
 ## Probier es aus
 
-Wenn du die ausführliche Erklärung willst, wie der Tap-Zähler unter der Haube wirklich funktioniert, steckt sie im [vorherigen Beitrag](/de/blog/count-nfc-tag-scans/). Und wenn du einen Tag mit Zähler in Aktion sehen willst, ohne vorher eine eigene Automatisierung einzurichten, liest unsere [Live-Demo-Seite zum Tap-Zähler](/de/tap-counter/) den `?nfc=`-Wert direkt aus ihrer eigenen URL aus: Schreib einen Tag, der darauf zeigt, tippe ihn an, und sieh zu, wie Zählerstand und Tag-ID erscheinen.
+Wenn du die ausführliche Erklärung willst, wie der Tap-Zähler unter der Haube wirklich funktioniert, steckt sie im [vorherigen Beitrag](/de/blog/count-nfc-tag-scans/). Und wenn du einen Tag mit Zähler in Aktion sehen willst, ohne vorher eine eigene Automatisierung einzurichten, liest unsere [Live-Demo-Seite zum Tap-Zähler](/de/tap-counter/) den `?nfc=`-Wert direkt aus ihrer eigenen URL aus: Schreib einen Tag, der darauf zeigt, scanne ihn, und sieh zu, wie Zählerstand und Tag-ID erscheinen.
 
 Die NFC-Tap-Zähler-Funktion selbst steckt in NFC.cool Tools, auf [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-de). Für das vollständige NFC-Toolkit, das ich gebaut habe, wirf einen Blick auf die [Seite zum NFC-Reader und -Writer](/de/features/nfc-reader-writer/).

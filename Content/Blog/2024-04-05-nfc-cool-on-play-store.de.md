@@ -24,7 +24,7 @@ Die Android-Version konzentriert sich auf die Kern-NFC-Oberfläche, die auf beid
 
 - **NFC-Tags lesen.** Jeden NDEF-formatierten Tag, jeden Record-Typ - URL, vCard, WLAN, Klartext, Custom MIME.
 - **NFC-Tags schreiben.** Komponiere jeden Record-Typ und schreibe auf leere Tags. Sperre, wenn du fertig bist und der Tag öffentlich landet.
-- **NFC.cool Business Card (eingebaut).** Die Android-Edition enthält den Business-Card-Flow als Feature innerhalb der App - erstelle eine Karte, schreibe sie auf einen Tag, teile sie mit einem Tippen. Empfänger auf iOS sehen einen App Clip; Empfänger auf Android öffnen eine Webseite auf der nfc.cool-Domain.
+- **NFC.cool Business Card (eingebaut).** Die Android-Edition enthält den Business-Card-Flow als Feature innerhalb der App - erstelle eine Karte, schreibe sie auf einen Tag, teile sie mit einem einzigen Scan. Empfänger auf iOS sehen einen App Clip; Empfänger auf Android öffnen eine Webseite auf der nfc.cool-Domain.
 
 ---
 

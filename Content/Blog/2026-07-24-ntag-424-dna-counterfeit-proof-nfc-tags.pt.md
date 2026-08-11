@@ -13,7 +13,7 @@ ogTitle: "As tags NFC que provam que não são falsas"
 ogDescription: "Como as tags NTAG 424 DNA apanham clones, e como a NFC.cool as lê, verifica e configura no iPhone e no Android."
 ---
 
-Há algum tempo, não parava de ler a mesma afirmação de passagem: as marcas de luxo estão a colocar chips NFC nos seus produtos para que possa tocar com o telemóvel numa mala ou numa garrafa e saber que é o artigo verdadeiro, não uma imitação. Todos os artigos repetiam a mesma frase reluzente e nenhum dizia *como*. O que impede realmente um falsificador de copiar o chip juntamente com a mala?
+Há algum tempo, não parava de ler a mesma afirmação de passagem: as marcas de luxo estão a colocar chips NFC nos seus produtos para que possa tocar com o telemóvel numa mala ou num par de ténis e saber que é o artigo verdadeiro, não uma imitação. Todos os artigos repetiam a mesma frase reluzente e nenhum dizia *como*. O que impede realmente um falsificador de copiar o chip juntamente com a mala?
 
 Por isso, fiz aquilo que faço sempre quando fico curioso sobre uma tag. Fui ao AliExpress, encontrei um anúncio de tags "NTAG 424 DNA", encomendei um pequeno lote e esperei que o envelope aparecesse. Uns euros, um par de semanas, e tinha em cima da secretária o mesmo silício em que assentam esses sistemas de proteção de marca. Depois toquei numa para ver o que faz.
 

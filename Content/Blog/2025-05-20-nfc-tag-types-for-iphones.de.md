@@ -54,7 +54,7 @@ Jetzt kommt der Teil, der am wichtigsten ist. iPhones ab dem iPhone 7 sind kompa
 
 Die Modelle NTAG213, NTAG215 und NTAG216 sind die beliebtesten dieser Serie und funktionieren hervorragend mit iPhones - gegen genau die teste ich Tag für Tag. Sie bieten genug Speicher (144 bis 888 Bytes) für die meisten praktischen Projekte, sind von jedem NFC-fähigen iPhone vollständig lesbar und beschreibbar und außerdem wiederbeschreibbar, sodass du ihren Inhalt so oft ändern kannst, wie du willst.
 
-Ein praktischer Hinweis, der mir viel Frust erspart hat: Je größer Tag und Antenne, desto zuverlässiger erfasst ein NFC-Reader den Tag. Ich würde die extrem billigen, dünnen Sticker meiden, wenn Zuverlässigkeit für dein Projekt zählt - die paar gesparten Cent sind einen Tag, der erst beim dritten Antippen liest, nicht wert.
+Ein praktischer Hinweis, der mir viel Frust erspart hat: Je größer Tag und Antenne, desto zuverlässiger erfasst ein NFC-Reader den Tag. Ich würde die extrem billigen, dünnen Sticker meiden, wenn Zuverlässigkeit für dein Projekt zählt - die paar gesparten Cent sind einen Tag, der erst beim dritten Versuch liest, nicht wert.
 
 Das Wichtigste, was iPhones mit NFC machen, ist das Lesen von NFC-Data-Exchange-Format-(NDEF)-Nachrichten - URLs, Klartext oder vCards (digitale Visitenkarten). Jeder Tag, der NDEF unterstützt - und das tun die meisten NTAG-Tags - ist eine solide Wahl für iPhone-Nutzer. Wenn du dann tatsächlich Daten auf einen Tag schreiben willst, habe ich eine Schritt-für-Schritt-Anleitung [zum Beschreiben von NFC-Tags auf dem iPhone](/de/blog/write-nfc-tags-iphone/) geschrieben.
 

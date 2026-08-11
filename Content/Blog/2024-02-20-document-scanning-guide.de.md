@@ -42,7 +42,7 @@ Für die meisten Papiere - Rechnungen, Quittungen, Verträge - liefert Graustufe
 
 ## OCR: Scan-Bild → durchsuchbarer Text
 
-Tippe **Erkannten Text anzeigen** unter dem gescannten Bild, um OCR laufen zu lassen. Der Text erscheint in einem Panel, aus dem du kopieren, suchen oder speichern kannst.
+Tippe auf **Erkannten Text anzeigen** unter dem gescannten Bild, um OCR laufen zu lassen. Der Text erscheint in einem Panel, aus dem du kopieren, suchen oder speichern kannst.
 
 OCR-Qualität hängt von drei Dingen ab: Bildschärfe, Beleuchtung und Schrift. Gedruckter Text auf sauberem weißen Hintergrund wird zu nahezu 100% erkannt. Handschrift ist schwerer - Visions Handschrift-Erkenner ist okay bei sauberen Druckbuchstaben und tut sich schwer mit Schreibschrift. Wenn ein Scan schief war, ist die häufigste Lösung ein Neu-Scan mit besserem Licht, statt mit dem OCR-Ergebnis zu kämpfen.
 
@@ -52,7 +52,7 @@ OCR-Qualität hängt von drei Dingen ab: Bildschärfe, Beleuchtung und Schrift. 
 
 Der Trick, der Scans langfristig wirklich nützlich macht, ist der **durchsuchbare PDF**-Export. Es ist ein PDF, in dem jede Seite das gescannte Bild ist, mit dem OCR-Text unsichtbar darunter gelayert - das Dokument sieht aus wie ein Bild, aber Suchmaschinen (und macOS Spotlight, und Finder) finden Wörter darin.
 
-In NFC.cool Tools tippe **Als PDF teilen** und der Export enthält automatisch den OCR-Layer. Wirf das PDF in dein Ablagesystem, suche drei Monate später nach „Rechnung 2024-02 Acme Corp“, und das richtige Dokument taucht auf.
+In NFC.cool Tools tippst du auf **Als PDF teilen**, und der Export enthält automatisch den OCR-Layer. Wirf das PDF in dein Ablagesystem, suche drei Monate später nach „Rechnung 2024-02 Acme Corp“, und das richtige Dokument taucht auf.
 
 ---
 

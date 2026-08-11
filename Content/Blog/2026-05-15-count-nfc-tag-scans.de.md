@@ -3,17 +3,17 @@ id: "count-nfc-tag-scans-2026-05"
 title: "NFC-Tag-Scans zählen - ganz ohne Server"
 date: "2026-05-15"
 tags: ["nfc-tags", "guides"]
-summary: "Klebe dieselbe URL auf 50 NFC-Sticker und du weißt nicht, welcher angetippt wurde - es sei denn, der Tag zählt selbst mit. So geht's."
+summary: "Klebe dieselbe URL auf 50 NFC-Sticker und du weißt nicht, welcher gescannt wurde - es sei denn, der Tag zählt selbst mit. So geht's."
 image: "/assets/images/Blog/count-nfc-tag-scans.webp"
-imageAlt: "Ein NFC-Tag wird von einem Smartphone angetippt, daneben eine steigende Scan-Zählung"
+imageAlt: "Ein Smartphone scannt einen NFC-Tag, daneben eine steigende Scan-Zählung"
 author: "Nicolo Stanciu"
 metaTitle: "NFC-Tag-Scans zählen - ganz ohne Server"
-metaDescription: "Zähle mit dem im Chip eingebauten Zähler, wie oft ein NFC-Tag angetippt wurde - und welcher Tag es war. Kein Backend, kein Internet. Eine praktische Anleitung."
+metaDescription: "Zähle mit dem im Chip eingebauten Zähler, wie oft ein NFC-Tag gescannt wurde - und welcher Tag es war. Kein Backend, kein Internet. Eine praktische Anleitung."
 ogTitle: "NFC-Tag-Scans zählen - ganz ohne Server"
 ogDescription: "Dein NFC-Tag kann seine eigenen Scans zählen. So nutzt du das für Engagement-Tracking, limitierte Editionen und Echtheitsprüfungen."
 ---
 
-Stell dir vor, du druckst dieselbe URL auf fünfzig NFC-Sticker und klebst sie auf fünfzig Produkte, fünfzig Poster oder fünfzig Visitenkarten. Eine Woche später stellt jemand die naheliegende Frage: Welcher wurde eigentlich angetippt? Und wie oft?
+Stell dir vor, du druckst dieselbe URL auf fünfzig NFC-Sticker und klebst sie auf fünfzig Produkte, fünfzig Poster oder fünfzig Visitenkarten. Eine Woche später stellt jemand die naheliegende Frage: Welcher wurde eigentlich gescannt? Und wie oft?
 
 Ich baue NFC.cool seit Jahren, und die übliche Antwort, die ich höre, ist ein Server. Du erzeugst fünfzig eindeutige Links, leitest sie alle auf ein Backend, und eine Analytics-Software zählt die Treffer. Das funktioniert, aber jetzt betreibst du Infrastruktur, bezahlst dafür und musst darauf vertrauen, dass sie so lange online bleibt, wie es diese Sticker gibt. Mir kam das immer wie eine Menge beweglicher Teile für eine so einfache Frage vor.
 
@@ -27,7 +27,7 @@ Die meisten [NFC-Sticker, die du kaufen kannst](/de/affiliate-links/), nutzen Ch
 
 Ich beschreibe das gern als Kilometerzähler für den Tag. Der Kilometerzähler eines Autos zählt Kilometer, egal ob jemand hinschaut; der NFC-Zähler zählt Lesevorgänge genauso. Die Zahl ist immer da. Die einzige Frage ist, ob etwas eingerichtet ist, das sie dir auch zeigt.
 
-Genau das macht die Funktion **NFC-Tap-Zähler** in NFC.cool Tools, und das ist der Teil, auf den ich am stolzesten bin. Sie richtet den Tag einmal so ein, dass er von da an seinen eigenen Zählerstand meldet. Du musst den Tag nicht selbst scannen, um die Zahl zu prüfen, und die App muss nicht dabei sein, wenn andere ihn antippen. Der Tag zählt und meldet von ganz allein.
+Genau das macht die Funktion **NFC-Tap-Zähler** in NFC.cool Tools, und das ist der Teil, auf den ich am stolzesten bin. Sie richtet den Tag einmal so ein, dass er von da an seinen eigenen Zählerstand meldet. Du musst den Tag nicht selbst scannen, um die Zahl zu prüfen, und die App muss nicht dabei sein, wenn andere ihn scannen. Der Tag zählt und meldet von ganz allein.
 
 Dieselben Chips tragen außerdem eine eindeutige Tag-ID - eine ab Werk eingebrannte Seriennummer, ein bisschen wie eine MAC-Adresse einer Netzwerkkarte. Der Tap-Zähler kann auch die einblenden, und genau damit kannst du fünfzig identisch aussehende Sticker auseinanderhalten.
 
@@ -39,9 +39,9 @@ Wenn du mit aktiviertem Tap-Zähler Inhalte auf einen Tag schreibst, macht die A
 
 Von da an übernimmt der Chip den Rest. Der Hilfe-Bildschirm in der App bringt es auf den Punkt: Die App bettet Platzhalter-Bytes in deinen Inhalt ein. Bei jedem Scan ersetzt der Chip sie durch die aktuelle Anzahl an Taps (und/oder die Tag-ID), bevor das iPhone sie liest. Kein Server oder Internet nötig.
 
-Der Ablauf bei jedem Antippen sieht also so aus: Jemand hält sein Telefon an den Tag. Der Chip wacht auf, zählt seinen Zähler hoch, ersetzt die Platzhalter durch die echten Zahlen und übergibt erst dann den fertigen Inhalt an das Telefon. Das Telefon, das den Tag gescannt hat, sieht nie einen Platzhalter - es sieht eine vollständige URL, in der der Live-Zählerstand schon enthalten ist.
+Der Ablauf bei jedem Scan sieht also so aus: Jemand hält sein Telefon an den Tag. Der Chip wacht auf, zählt seinen Zähler hoch, ersetzt die Platzhalter durch die echten Zahlen und übergibt erst dann den fertigen Inhalt an das Telefon. Das Telefon, das den Tag gescannt hat, sieht nie einen Platzhalter - es sieht eine vollständige URL, in der der Live-Zählerstand schon enthalten ist.
 
-Was ich dir mitgeben will, ist Folgendes: Die Einrichtung machst du nur einmal. Nach diesem ersten Schreibvorgang ist der Tag auf sich allein gestellt: Er zählt und ersetzt bei jedem Antippen, von jeder Person, auf jedem Telefon, das ganze Stickerleben lang. Nichts in dieser Kette berührt das Internet. Das Zählen passiert im Chip. Das Ersetzen passiert im Chip. Wenn du die fertige URL auf eine Website leitest, die dir gehört, sieht dein eigener Server den Zählerstand ankommen - aber das ist deine Entscheidung, keine Voraussetzung der Funktion.
+Was ich dir mitgeben will, ist Folgendes: Die Einrichtung machst du nur einmal. Nach diesem ersten Schreibvorgang ist der Tag auf sich allein gestellt: Er zählt und ersetzt bei jedem Scan, von jeder Person, auf jedem Telefon, das ganze Stickerleben lang. Nichts in dieser Kette berührt das Internet. Das Zählen passiert im Chip. Das Ersetzen passiert im Chip. Wenn du die fertige URL auf eine Website leitest, die dir gehört, sieht dein eigener Server den Zählerstand ankommen - aber das ist deine Entscheidung, keine Voraussetzung der Funktion.
 
 ---
 
@@ -49,11 +49,11 @@ Was ich dir mitgeben will, ist Folgendes: Die Einrichtung machst du nur einmal. 
 
 Ein selbstzählender Tag klingt nach einer netten Spielerei, bis du ihn mit einem echten Problem zusammenbringst. Das sind die vier Anwendungen, auf die ich immer wieder zurückkomme, wenn mich Leute fragen, wofür das gut ist.
 
-**Erkennen, welcher physische Sticker gescannt wurde.** Das ist das Fünfzig-Sticker-Problem vom Anfang dieses Beitrags. Klebe dieselbe URL auf jeden Tag, aktiviere die Tag-ID, und jedes Antippen kommt mit der Seriennummer genau des Tags an, von dem es stammt. Eine URL zu verwalten, fünfzig Tags, die du trotzdem auseinanderhalten kannst.
+**Erkennen, welcher physische Sticker gescannt wurde.** Das ist das Fünfzig-Sticker-Problem vom Anfang dieses Beitrags. Klebe dieselbe URL auf jeden Tag, aktiviere die Tag-ID, und jeder Scan kommt mit der Seriennummer genau des Tags an, von dem es stammt. Eine URL zu verwalten, fünfzig Tags, die du trotzdem auseinanderhalten kannst.
 
-**Kostenlosen Zugang begrenzen.** Weil der Zählerstand bei jedem Antippen mitreist, kannst du darauf reagieren. Mach eine Aktion, bei der die ersten hundert Scans die Demo-Version bekommen und spätere Scans woandershin umgeleitet werden. Eine limitierte Auflage kann die volle Belohnung ausgeben, bis der Zähler eine von dir gewählte Schwelle überschreitet. Der Tag setzt das Prinzip „wer zuerst kommt, mahlt zuerst“ durch, ganz ohne Anmeldesystem dahinter.
+**Kostenlosen Zugang begrenzen.** Weil der Zählerstand bei jedem Scan mitreist, kannst du darauf reagieren. Mach eine Aktion, bei der die ersten hundert Scans die Demo-Version bekommen und spätere Scans woandershin umgeleitet werden. Eine limitierte Auflage kann die volle Belohnung ausgeben, bis der Zähler eine von dir gewählte Schwelle überschreitet. Der Tag setzt das Prinzip „wer zuerst kommt, mahlt zuerst“ durch, ganz ohne Anmeldesystem dahinter.
 
-**Engagement messen.** Klebe einen Tag auf eine Visitenkarte, ein Poster, eine Produktverpackung oder ein Schaufenster, und der Zähler wird zur stillen Engagement-Kennzahl. Du siehst, ob eine Karte zweimal oder zweihundertmal angetippt wurde, ohne dafür eine Analytics-Pipeline zu bauen.
+**Engagement messen.** Klebe einen Tag auf eine Visitenkarte, ein Poster, eine Produktverpackung oder ein Schaufenster, und der Zähler wird zur stillen Engagement-Kennzahl. Du siehst, ob eine Karte zweimal oder zweihundertmal gescannt wurde, ohne dafür eine Analytics-Pipeline zu bauen.
 
 **Echtheit nachweisen.** Der Zähler geht immer nur nach oben - er lässt sich nicht zurückdrehen. Eine Zahl, die nur steigen kann, ist schwer überzeugend zu fälschen, und genau deshalb finde ich, dass sie ihren Platz in limitierten Editionen und Echtheitsprüfungen verdient. Ein echter Tag hat eine plausible, steigende Historie; ein geklonter nicht. Wenn dich diese Seite von NFC interessiert, bin ich in [wie NFC verschlüsselte Geheimnisse sicher hält](/de/blog/nfc-safe-encrypted-secrets/) tiefer darauf eingegangen.
 
@@ -73,7 +73,7 @@ Die Funktion steckt in NFC.cool Tools, auf iPhone und Android. Sie ist Teil des 
 6. Schau dir die **Vorschau** an. Sie zeigt eine Beispielausgabe mit Platzhalter-Werten, damit du genau siehst, wo Zählerstand und ID landen, bevor du dich festlegst.
 7. Tippe auf **Auf NFC-Tag schreiben** und halte einen Tag an die Oberseite deines Telefons.
 
-Das ist die ganze Einrichtung, und ich habe sie bewusst so kurz gehalten. Ab da ist der Tag eigenständig - er zählt und meldet von allein, für jede Person, die ihn antippt, mit oder ohne App.
+Das ist die ganze Einrichtung, und ich habe sie bewusst so kurz gehalten. Ab da ist der Tag eigenständig - er zählt und meldet von allein, für jede Person, die ihn scannt, mit oder ohne App.
 
 Wenn du es irgendwann stoppen willst, kann die App den Zähler auf einem vorhandenen Tag ausschalten. Der Chip ersetzt dann keine Live-Werte mehr, aber der Inhalt bleibt genau so auf dem Tag, wie er zuletzt geschrieben wurde. Gut zu wissen: Der Chip zählt intern weiter, auch nachdem du die Ersetzung ausgeschaltet hast - der Zählerstand geht nie verloren, er wird nur nicht mehr angezeigt.
 
@@ -108,11 +108,11 @@ Wenn du dich eindecken willst, listet unsere Seite mit [empfohlenen NFC-Tags](/d
 
 **Kann ich den Zähler zurücksetzen?** Nein. Es ist ein einseitiger Zähler, der im Chip eingebaut ist und nur hochzählen kann. Das ist Absicht, und ehrlich gesagt der ganze Punkt - ein zurücksetzbarer Zähler wäre für limitierte Editionen oder Echtheitsprüfungen nutzlos. Wenn du einen frischen Zählerstand brauchst, nimm einen neuen Tag.
 
-**Kann jeder den Zählerstand lesen oder nur ich?** Jeder. Jedes Telefon, das den Tag antippt, bekommt den fertigen Inhalt mit der Zahl schon darin, mit oder ohne installierte App. Genau das ist der Sinn - der Tag meldet für sich selbst.
+**Kann jeder den Zählerstand lesen oder nur ich?** Jeder. Jedes Telefon, das den Tag scannt, bekommt den fertigen Inhalt mit der Zahl schon darin, mit oder ohne installierte App. Genau das ist der Sinn - der Tag meldet für sich selbst.
 
 **Kann ich es später ausschalten?** Ja. Die App kann den Chip davon abhalten, Platzhalter zu ersetzen. Die URL oder Nachricht bleibt auf dem Tag; nur die Live-Updates stoppen. Der Chip zählt intern weiter.
 
-**Ist der Zähler privat?** Der Zählerstand liegt auf dem Tag, nicht auf einem Server. Wer den Tag antippt, sieht die Zahl im Inhalt, und wenn dieser Inhalt zu einem von dir kontrollierten Server führt, sieht nur dieser Server sie. Die Tag-ID ist eine Werksseriennummer, keine personenbezogene Information.
+**Ist der Zähler privat?** Der Zählerstand liegt auf dem Tag, nicht auf einem Server. Wer den Tag scannt, sieht die Zahl im Inhalt, und wenn dieser Inhalt zu einem von dir kontrollierten Server führt, sieht nur dieser Server sie. Die Tag-ID ist eine Werksseriennummer, keine personenbezogene Information.
 
 **Braucht es Internet?** Nein. Das Zählen und das Ersetzen passieren beide im Chip. Internet kommt nur ins Spiel, wenn die URL, die du geschrieben hast, auf eine Website zeigt.
 
@@ -122,6 +122,6 @@ Wenn du dich eindecken willst, listet unsere Seite mit [empfohlenen NFC-Tags](/d
 
 Die meisten Jahre, die ich mit NFC gearbeitet habe, bedeutete das Zählen von Taps eindeutige Links und ein Backend, das sie zusammenrechnet. Der NTAG21x-Zähler nimmt diese Voraussetzung leise weg: Der Tag führt seine eigene Zählung, und die Funktion NFC-Tap-Zähler in NFC.cool Tools ist das, was sie einschaltet. Es ist eine dieser Funktionen, von der ich mir immer wieder wünsche, dass mehr Leute wüssten, dass sie überhaupt möglich ist.
 
-Willst du es in Aktion sehen, bevor du einen Tag beschreibst? Unsere [Live-Demo des Tap-Zählers](/de/tap-counter/) ist eine Seite, die genau das tut, was dieser Beitrag beschreibt - beschreibe einen Tag, der auf sie zeigt, tippe ihn an, und die Seite zeigt dir den Zählerstand und die Tag-ID, die der Chip ihr gerade übergeben hat. Kein Server dazwischen, nur die URL.
+Willst du es in Aktion sehen, bevor du einen Tag beschreibst? Unsere [Live-Demo des Tap-Zählers](/de/tap-counter/) ist eine Seite, die genau das tut, was dieser Beitrag beschreibt - beschreibe einen Tag, der auf sie zeigt, scanne ihn, und die Seite zeigt dir den Zählerstand und die Tag-ID, die der Chip ihr gerade übergeben hat. Kein Server dazwischen, nur die URL.
 
 Sie ist jetzt verfügbar in NFC.cool Tools, auf [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-de). Um den vollen NFC-Werkzeugkasten zu sehen, den ich gebaut habe, wirf einen Blick auf die [NFC-Reader-und-Writer-Funktion](/de/features/nfc-reader-writer/).

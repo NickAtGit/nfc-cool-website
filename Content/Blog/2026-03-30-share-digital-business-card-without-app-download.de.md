@@ -11,7 +11,7 @@ metaDescription: "Niemand will eine App installieren, nur um deine Kontaktdaten 
 ogTitle: "Digitale Visitenkarten ohne App-Downloads"
 ogDescription: "Wie App Clips und Web-Profile jedem ermöglichen, deine digitale Visitenkarte sofort zu empfangen - keine Downloads, keine Reibung, keine Werbung."
 ---
-Du tippst deine NFC-Karte an das Handy einer anderen Person, oder sie scannt deinen QR-Code. Was als Nächstes passiert, bestimmt, ob sie deinen Kontakt tatsächlich speichert - oder einfach weggeht.
+Du hältst deine NFC-Karte an das Handy einer anderen Person, oder sie scannt deinen QR-Code. Was als Nächstes passiert, bestimmt, ob sie deinen Kontakt tatsächlich speichert - oder einfach weggeht.
 
 Die beste digitale Visitenkarte der Welt ist nutzlos, wenn die Person am anderen Ende ein schlechtes Erlebnis hat. Und dennoch dreht sich der Großteil der Diskussion um digitale Visitenkarten um den Sender: wie viele Felder kann ich hinzufügen? Wie passe ich meine Karte an? Welches CRM integriert sie?
 
@@ -29,7 +29,7 @@ In diesen drei Sekunden tötet jede Reibung die Interaktion:
 - Eine Aufforderung, eine App herunterzuladen, die er nie wieder nutzen wird
 - Eine Webseite, die mit Werbung oder Promotion für die Karten-Plattform selbst überladen ist
 
-Der Empfänger hat deine Visitenkarten-App nicht gewählt. Er hat sie nicht recherchiert. Er hat einfach getippt oder gescannt, weil du ihn darum gebeten hast. Das Erlebnis muss sofort, sauber und offensichtlich sein.
+Der Empfänger hat deine Visitenkarten-App nicht gewählt. Er hat sie nicht recherchiert. Er hat einfach sein Handy drangehalten oder gescannt, weil du ihn darum gebeten hast. Das Erlebnis muss sofort, sauber und offensichtlich sein.
 
 ---
 
@@ -39,16 +39,16 @@ NFC.cool Business Card verfolgt zwei verschiedene Ansätze je nach Plattform des
 
 ### Auf dem iPhone: Ein nativer App Clip
 
-Wenn ein iPhone-Nutzer deine NFC-Karte antippt oder deinen QR-Code scannt, startet iOS einen [App Clip](https://developer.apple.com/app-clips/) - ein leichtgewichtiges, natives Erlebnis, das speziell für Momente wie diesen gebaut wurde.
+Wenn ein iPhone-Nutzer sein Handy an deine NFC-Karte hält oder deinen QR-Code scannt, startet iOS einen [App Clip](https://developer.apple.com/app-clips/) - ein leichtgewichtiges, natives Erlebnis, das speziell für Momente wie diesen gebaut wurde.
 
 Ein App Clip ist keine Webseite, die vorgibt, eine App zu sein. Es ist echter nativer iOS-Code, in Swift kompiliert, auf dem Gerät ausgeführt. Für iOS-Nutzer fühlt sich das komplett natürlich an - es verhält sich genau wie eine App, die sie bereits installiert haben, mit flüssigen Animationen, nativen UI-Komponenten und der Reaktionsfähigkeit, die sie erwarten.
 
 Und so geht's:
 
-1. **Tippen oder scannen** - der Empfänger hält sein iPhone in die Nähe deiner NFC-Karte oder scannt deinen QR-Code
+1. **Dranhalten oder scannen** - der Empfänger hält sein iPhone in die Nähe deiner NFC-Karte oder scannt deinen QR-Code
 2. **Lädt sofort** - der App Clip erscheint in unter zwei Sekunden, kein App Store-Besuch
 3. **Vollständiges Profil** - dein Name, Foto, Firma, Telefon, E-Mail, Social-Media-Links und Website
-4. **Ein-Tipp-Speichern** - ein „Kontakt speichern“-Button sitzt am unteren Bildschirmrand, genau dort, wo der Daumen natürlich liegt. Ein Tippen speichert alles in der Kontakte-App
+4. **Speichern mit einem Fingertipp** - ein „Kontakt speichern“-Button sitzt am unteren Bildschirmrand, genau dort, wo der Daumen natürlich liegt. Ein Fingertipp speichert alles in der Kontakte-App
 5. **Seine Sprache** - der App Clip unterstützt 35 Sprachen und passt sich automatisch der Gerätesprache des Empfängers an. Gib deine Karte jemandem in Tokio, São Paulo oder Berlin - er sieht sie in seiner eigenen Sprache
 
 Keine Kontoerstellung. Keine Anmeldeaufforderungen. Keine Werbung. Keine Tracking-URLs. Nur deine Kontaktdaten, in Sekunden gespeichert.
@@ -57,7 +57,7 @@ Nach dem Speichern sieht der Empfänger eine dezente Einladung, seine eigene NFC
 
 ### Auf Android: Ein sofort nutzbares Web-Profil
 
-Android-Empfänger bekommen ein sauberes Web-Profil, gehostet auf nfc.cool. NFC-Karte antippen oder QR-Code scannen, und das Profil öffnet sich direkt im Browser.
+Android-Empfänger bekommen ein sauberes Web-Profil, gehostet auf nfc.cool. NFC-Karte dranhalten oder QR-Code scannen, und das Profil öffnet sich direkt im Browser.
 
 Dieselben Informationen - Name, Foto, Social-Links, Kontaktdaten - mit einer Ein-Tipp-Speicher-Option. Kein App-Download, kein Konto erforderlich. Funktioniert auf jedem Android-Handy mit einem Browser.
 
@@ -67,7 +67,7 @@ Dieselben Informationen - Name, Foto, Social-Links, Kontaktdaten - mit einer Ein
 
 Die meisten digitalen Visitenkarten-Services nutzen irgendeine Form von Web-View oder Webseite für Empfänger, und das funktioniert in vielen Fällen gut. Aber es gibt einen spürbaren Unterschied zwischen einer Webseite und einem nativen App Clip, besonders auf iOS.
 
-**Geschwindigkeit:** App Clips werden von iOS nach dem ersten Laden gecacht. Wenn jemand deine Karte ein zweites Mal antippt - bei einem Folge-Meeting beispielsweise - lädt das Erlebnis noch schneller.
+**Geschwindigkeit:** App Clips werden von iOS nach dem ersten Laden gecacht. Wenn jemand deine Karte ein zweites Mal scannt - bei einem Folge-Meeting beispielsweise - lädt das Erlebnis noch schneller.
 
 **Vertrauen:** iOS-Nutzer sind an native Erlebnisse gewöhnt. Ein App Clip sieht aus und fühlt sich an, als hätte Apple es in das System eingebaut. Kein Browser-Chrome, keine URL-Leiste, keine Cookie-Zustimmungs-Popups - nur deine Karte.
 
@@ -88,7 +88,7 @@ Wenn jemand deine NFC.cool-Visitenkarte erhält:
 - **Keine Anwerbung** - der Empfänger bekommt keine Follow-up-E-Mails von NFC.cool, die ihn zur Anmeldung auffordern
 - **Kein Datensammeln** - Empfängerinformationen werden nicht für Marketing verwendet
 
-Das ist wichtiger, als die meisten denken. Deine Visitenkarte ist oft der erste Eindruck, den jemand von dir hat. Wenn das Antippen deiner Karte zu einer überladenen Seite mit Bannerwerbung führt oder dem Empfänger am nächsten Tag Spam-E-Mails schickt, fällt das auf dich zurück - nicht nur auf die App.
+Das ist wichtiger, als die meisten denken. Deine Visitenkarte ist oft der erste Eindruck, den jemand von dir hat. Wenn ein Scan deiner Karte zu einer überladenen Seite mit Bannerwerbung führt oder dem Empfänger am nächsten Tag Spam-E-Mails schickt, fällt das auf dich zurück - nicht nur auf die App.
 
 ---
 

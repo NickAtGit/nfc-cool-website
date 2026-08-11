@@ -96,7 +96,7 @@ Nicht jeder sieht dieselben Daten. Der Zugriff ist nach Stakeholder strukturiert
 
 ## NFCs Rolle bei Digital Product Passports
 
-Auf diesen Teil habe ich gewartet. Für mich war NFC immer ein praktisches Verbraucher-Werkzeug - eine Möglichkeit, dein Zuhause zu automatisieren, einen Kontakt zu teilen, an einen Tag zu tippen und etwas auszulösen. Mit dem DPP wird es zur kritischen Infrastruktur.
+Auf diesen Teil habe ich gewartet. Für mich war NFC immer ein praktisches Verbraucher-Werkzeug - eine Möglichkeit, dein Zuhause zu automatisieren, einen Kontakt zu teilen, das Handy an einen Tag zu halten und etwas auszulösen. Mit dem DPP wird es zur kritischen Infrastruktur.
 
 Die ESPR schreibt standardisierte Datenträger für Produktpässe vor. Die drei zugelassenen Technologien sind:
 

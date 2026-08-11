@@ -30,7 +30,7 @@ Das Zweite ist Veralten. Eine Papierkarte ist in dem Moment eingefroren, in dem 
 
 Das Dritte ist Reibung auf der Empfängerseite. Eine Papierkarte muss *abgetippt* werden, um nützlich zu sein, und die meisten Menschen kommen nie dazu.
 
-Eine digitale Visitenkarte behebt alle drei Punkte. Sie aktualisiert sich, nachdem du sie weitergegeben hast. Die empfangende Person speichert deine Daten mit einem Antippen, ohne irgendetwas einzutippen. Und weil sie pro Karte nichts kostet, hörst du auf, sie zu rationieren.
+Eine digitale Visitenkarte behebt alle drei Punkte. Sie aktualisiert sich, nachdem du sie weitergegeben hast. Die empfangende Person speichert deine Daten mit einem Fingertipp, ohne irgendetwas einzutippen. Und weil sie pro Karte nichts kostet, hörst du auf, sie zu rationieren.
 
 Das ist die gemeinsame Geschichte. Jetzt der Teil, der für dich tatsächlich anders ist.
 
@@ -42,7 +42,7 @@ Immobilien leben davon, erreichbar zu bleiben. Jeder Tag der offenen Tür, jede 
 
 ### Die Anwesenheitsliste beim Tag der offenen Tür ist kaputt
 
-Wir alle kennen das Klemmbrett an der Tür. Besucher kritzeln halb leserliche Namen und E-Mail-Adressen, manche überspringen es ganz, und am Montag entzifferst du „jsmith@gmai...“, um einen Lead zu rekonstruieren. Ein QR-Code auf dem Objekt-Flyer ersetzt das Klemmbrett: Besucher scannen ihn, bekommen deine vollständige Karte, und du bekommst im Gegenzug einen sauberen Kontakt. Stell für denselben Effekt per Antippen einen NFC-Tag auf einem kleinen Ständer auf den Empfangstisch.
+Wir alle kennen das Klemmbrett an der Tür. Besucher kritzeln halb leserliche Namen und E-Mail-Adressen, manche überspringen es ganz, und am Montag entzifferst du „jsmith@gmai...“, um einen Lead zu rekonstruieren. Ein QR-Code auf dem Objekt-Flyer ersetzt das Klemmbrett: Besucher scannen ihn, bekommen deine vollständige Karte, und du bekommst im Gegenzug einen sauberen Kontakt. Denselben Effekt bekommst du per NFC: Stell einen Tag auf einem kleinen Ständer auf den Empfangstisch.
 
 ### Du wechselst Maklerbüros, Nummern und Teams
 
@@ -56,7 +56,7 @@ Miami, Vancouver, London, Dubai - große Märkte ziehen internationale Käufer a
 
 Eine Papierkarte schafft genau einen Berührungspunkt: den Moment der Übergabe. Verpasst du die nächsten Tage, ist der Lead weg, weil die Karte vergraben oder schon im Müll ist. Eine digitale Karte bleibt im Telefon des Interessenten, durchsuchbar, und manche Apps zeigen dir sogar, wann sie angesehen wurde - ein natürlicher Anlass, dich zu melden.
 
-Ein Hinweis zur Glaubwürdigkeit: Die Technology-Umfrage 2025 der National Association of Realtors ergab, dass 47 % der Käufer die Technikkompetenz eines Maklers als „sehr wichtig“ einstufen, wenn sie wählen, mit wem sie arbeiten. Eine Karte, die sauber auf einem Telefon öffnet, mit deinen Angeboten und virtuellen Touren nur ein Antippen entfernt, ist bei einer Angebotspräsentation ein kleines, aber echtes Signal. Eine praktische Gewohnheit: Erstelle eine eigene „Tag der offenen Tür“-Karte mit der Objektadresse und dem Tour-Link und wechsle danach wieder zur allgemeinen Karte.
+Ein Hinweis zur Glaubwürdigkeit: Die Technology-Umfrage 2025 der National Association of Realtors ergab, dass 47 % der Käufer die Technikkompetenz eines Maklers als „sehr wichtig“ einstufen, wenn sie wählen, mit wem sie arbeiten. Eine Karte, die sauber auf einem Telefon öffnet, mit deinen Angeboten und virtuellen Touren nur einen Fingertipp entfernt, ist bei einer Angebotspräsentation ein kleines, aber echtes Signal. Eine praktische Gewohnheit: Erstelle eine eigene „Tag der offenen Tür“-Karte mit der Objektadresse und dem Tour-Link und wechsle danach wieder zur allgemeinen Karte.
 
 ---
 
@@ -72,7 +72,7 @@ Ein Chirurg teilt nicht nur eine Handynummer. Er teilt die OP-Terminvergabe, das
 
 ### Hygiene ist nicht theoretisch
 
-Papier-Visitenkarten sind angefasste Objekte - sie wandern von Hand zu Hand in Wartezimmern, an Konferenzständen, zwischen Ärzten bei der Visite. Eine Studie der Medizinischen Hochschule Hannover aus dem Jahr 2021 hat getestet, wie lange Bakterien auf Krankenhausoberflächen überleben. *S. aureus* hielt mindestens sieben Tage durch; *A. baumannii* und *E. faecium*, beide auf den Prioritätslisten der WHO für Antibiotikaresistenzen, blieben über vier Wochen bestehen. (Katzenberger et al., BMC Research Notes, 2021, DOI: [10.1186/s13104-021-05492-0](https://doi.org/10.1186/s13104-021-05492-0).) Laminierter Karton ist genau eine solche Oberfläche. Eine Karte zum Antippen lässt die Übergabe vollständig entfallen.
+Papier-Visitenkarten sind angefasste Objekte - sie wandern von Hand zu Hand in Wartezimmern, an Konferenzständen, zwischen Ärzten bei der Visite. Eine Studie der Medizinischen Hochschule Hannover aus dem Jahr 2021 hat getestet, wie lange Bakterien auf Krankenhausoberflächen überleben. *S. aureus* hielt mindestens sieben Tage durch; *A. baumannii* und *E. faecium*, beide auf den Prioritätslisten der WHO für Antibiotikaresistenzen, blieben über vier Wochen bestehen. (Katzenberger et al., BMC Research Notes, 2021, DOI: [10.1186/s13104-021-05492-0](https://doi.org/10.1186/s13104-021-05492-0).) Laminierter Karton ist genau eine solche Oberfläche. Eine Karte, die man nur ans Handy hält, lässt die Übergabe vollständig entfallen.
 
 ### Patienten erwarten Digitales - und erwarten es aktuell
 
@@ -100,7 +100,7 @@ Wenn ein Angestellter Visitenkarten bekommt, zahlt das Unternehmen. Wenn du sie 
 
 ### Konferenzen und Coworking laufen auf schlechtem WLAN
 
-Du hattest ein großartiges Gespräch, du willst Daten austauschen, und das Konferenz-WLAN kriecht. Ein NFC-Antippen ist nahezu sofort - der Tag trägt einen Link, und ein leichtgewichtiges Kartenprofil lädt auch bei wackliger Verbindung schnell. In einem Coworking-Space, wo eine Papierübergabe schwerfällig wirkt, ist ein QR-Code auf deinem Laptop-Sticker beiläufig und unaufdringlich.
+Du hattest ein großartiges Gespräch, du willst Daten austauschen, und das Konferenz-WLAN kriecht. Ein NFC-Scan ist nahezu sofort - der Tag trägt einen Link, und ein leichtgewichtiges Kartenprofil lädt auch bei wackliger Verbindung schnell. In einem Coworking-Space, wo eine Papierübergabe schwerfällig wirkt, ist ein QR-Code auf deinem Laptop-Sticker beiläufig und unaufdringlich.
 
 ### Das Nachfassen ist, wo das Geld liegt
 
@@ -132,7 +132,7 @@ NFC.cool Business Card ist eine eigenständige App auf iPhone und Android. Das m
 
 - **35 Sprachen** in der App-Oberfläche und im App Clip - mehr als jede andere digitale Visitenkarte, die ich kenne. Deine Karte erscheint auf iOS in der Sprache deiner Kundschaft. (Die Android-Sharing-Website ist vorerst nur auf Englisch.)
 - **Keine App für die Person, die deine Karte empfängt.** Auf dem iPhone bekommt sie einen nativen App Clip; auf Android eine Seite auf der Domain nfc.cool. Beide haben eine Schaltfläche „Kontakt speichern“.
-- **NFC-Antippen und QR-Code**, dazu ein einfacher teilbarer Link für Chats und E-Mail-Signaturen.
+- **NFC und QR-Code**, dazu ein einfacher teilbarer Link für Chats und E-Mail-Signaturen.
 - **Conference Mode** - eine iOS Live Activity, die den QR-Code deiner Karte auf deinen Sperrbildschirm bringt. Du hebst dein Telefon, sie scannen, fertig. Kein Entsperren, kein Suchen in Apple Wallet. Wallet-Integration gibt es auch, als Alternative.
 - **Bis zu 100 Karten**, sodass der Rat „eine Karte pro Rolle“ oben tatsächlich praktikabel ist.
 - **PIN-geschützte Karten** für alles Sensible.
@@ -160,7 +160,7 @@ Nein. Auf dem iPhone sieht sie einen nativen App Clip; auf Android eine Webseite
 
 ### Was ist besser, NFC oder QR?
 
-Beides, für verschiedene Momente. NFC ist ein Antippen von einer Sekunde und wirkt persönlich beeindruckend. QR funktioniert auf jedem Kamerahandy und auf gedruckten Dingen - Schildern, Flyern, Folien, einem Sticker auf deinem Laptop. Eine gute App gibt dir beides.
+Beides, für verschiedene Momente. NFC ist eine Sekunde Dranhalten und wirkt persönlich beeindruckend. QR funktioniert auf jedem Kamerahandy und auf gedruckten Dingen - Schildern, Flyern, Folien, einem Sticker auf deinem Laptop. Eine gute App gibt dir beides.
 
 ### Kann ich verschiedene Karten für verschiedene Rollen haben?
 

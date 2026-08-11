@@ -13,7 +13,7 @@ ogDescription: "Der komplette Guide zum Lesen und Beschreiben von OpenPrintTag-N
 ---
 Wenn du 3D druckst, warst du wahrscheinlich schon da: ein Regal voller halb verbrauchter Spulen, keine Ahnung, wie viel Filament noch drauf ist, und diese eine unbeschriftete Spule, die PETG oder PLA sein könnte - keine Möglichkeit, es ohne einen Testdruck herauszufinden. Mir ging es genauso, und genau diese Art von kleinem, immer wiederkehrendem Ärgernis kann NFC wirklich gut lösen.
 
-Genau das macht OpenPrintTag. Es ist ein Open-Source-NFC-Standard, der von [Prusa Research](https://www.prusa3d.com) erstellt wurde und jeden kompatiblen NFC-Tag in ein smartes Label für deine Filament-Spule verwandelt. Materialtyp, Marke, Farbe, verbleibendes Gewicht - alles direkt auf der Spule gespeichert und mit einem kurzen Tippen des Handys lesbar.
+Genau das macht OpenPrintTag. Es ist ein Open-Source-NFC-Standard, der von [Prusa Research](https://www.prusa3d.com) erstellt wurde und jeden kompatiblen NFC-Tag in ein smartes Label für deine Filament-Spule verwandelt. Materialtyp, Marke, Farbe, verbleibendes Gewicht - alles direkt auf der Spule gespeichert und mit einem kurzen Scan lesbar.
 
 Keine Cloud. Kein proprietäres Ökosystem. Kein Internet erforderlich. Ich habe Jahre damit verbracht, NFC.cool zu bauen, eine App zum Lesen und Beschreiben von NFC-Tags, und das ist genau die Art von Standard, die ich gerne sehe - einer, der die Daten auf den Tag legt und sie überall funktionieren lässt. Hier zeige ich dir, wie es funktioniert und wie ich OpenPrintTag-Spulen mit nichts als einem Handy lese und beschreibe.
 
@@ -96,7 +96,7 @@ NFC.cool Tools unterstützt OpenPrintTag nativ auf [iOS](https://apps.apple.com/
 1. Klebe einen leeren ICODE SLIX2-Tag auf deine Spule
 2. Öffne NFC.cool → NFC-Apps-Bereich → OpenPrintTag
 3. Fülle die Materialdetails ein: Typ, Marke, Farbe, Gewicht, Länge
-4. Tippe zum Schreiben
+4. Tippe auf Schreiben
 
 **Verbleibendes Material aktualisieren:**
 Nach einem Druck aktualisiere das Feld für verbrauchtes Gewicht auf dem Tag. Beim nächsten Scan weißt du genau, wie viel Filament übrig ist - kein Raten, kein Wiegen. Das ist der Teil, der eine smarte Spule von einer Spielerei zu etwas macht, auf das ich mich tatsächlich verlassen würde.

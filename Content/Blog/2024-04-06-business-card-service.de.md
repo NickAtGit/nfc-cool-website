@@ -34,7 +34,7 @@ Du musst nicht alles reinpacken. Alles Sensible (private Handynummer, Wohnadress
 
 In NFC.cool zum **Business Card**-Bereich navigieren und auf **Account erstellen** tippen. Du legst einen Benutzernamen und eine PIN fest - die PIN schützt zukünftige Edits, also nicht verlieren.
 
-Tippe **Kontakte öffnen** und wähle den Kontakt, den du gerade angelegt hast. NFC.cool zieht die Daten rein und zeigt sie als deinen Visitenkarten-Entwurf.
+Tippe auf **Kontakte öffnen** und wähle den Kontakt, den du gerade angelegt hast. NFC.cool zieht die Daten rein und zeigt sie als deinen Visitenkarten-Entwurf.
 
 ---
 
@@ -48,13 +48,13 @@ Häufige Setups:
 - **Engineering:** Name, Titel, Arbeits-E-Mail, GitHub, Website.
 - **Kreativ:** Name, Titel, Instagram, Portfolio-URL, Arbeits-E-Mail.
 
-Tippe **Weiter**, wenn du fertig bist.
+Tippe auf **Weiter**, wenn du fertig bist.
 
 ---
 
 ## Logo anpassen
 
-Tippe **Dein Logo** → **Logo ändern**, um dein Firmen-Logo oder persönliches Zeichen hochzuladen. Transparentes PNG liefert das sauberste Ergebnis - es komponiert sich korrekt auf hellen und dunklen Themes.
+Tippe auf **Dein Logo** → **Logo ändern**, um dein Firmen-Logo oder persönliches Zeichen hochzuladen. Transparentes PNG liefert das sauberste Ergebnis - es komponiert sich korrekt auf hellen und dunklen Themes.
 
 ---
 
@@ -62,7 +62,7 @@ Tippe **Dein Logo** → **Logo ändern**, um dein Firmen-Logo oder persönliches
 
 Jetzt die physische Seite. Du kannst einen NFC-Tag im [NFC.cool Shop](https://shop.nfc.cool/collections/all) oder bei jedem Drittanbieter kaufen - Sticker, Karte, Schlüsselanhänger, welcher Formfaktor auch passt.
 
-In NFC.cool tippe **Visitenkarte auf NFC-Tag schreiben**. Halte dein Handy gegen den Tag. Die App schreibt eine kurze URL, die auf deine Karten-Seite auf nfc.cool zeigt. Sobald geschrieben, kann jeder mit einem Handy sie antippen.
+In NFC.cool tippst du auf **Visitenkarte auf NFC-Tag schreiben**. Halte dein Handy gegen den Tag. Die App schreibt eine kurze URL, die auf deine Karten-Seite auf nfc.cool zeigt. Sobald sie geschrieben ist, kann jeder sie mit dem Handy scannen.
 
 Wenn du den Tag sperren willst, damit niemand die URL später überschreiben kann, tippe nach erfolgreichem Schreiben auf **Sperren**. Das ist unwiderruflich - sperre nur Tags, bei denen du sicher bist.
 
@@ -70,7 +70,7 @@ Wenn du den Tag sperren willst, damit niemand die URL später überschreiben kan
 
 ## Vorschau vor dem Teilen
 
-Tippe **Visitenkarte anzeigen**, um genau zu sehen, was ein Empfänger sieht. Die Seite ist Mobile-First, lädt sofort und bietet einen Ein-Tipp-„In Kontakte speichern“-Button. Auf iOS sehen Empfänger einen nativen App Clip (keine App-Installation nötig); auf Android sehen sie eine saubere Webseite auf der nfc.cool-Domain. Beide haben am Ende deinen Kontakt im Adressbuch.
+Tippe auf **Visitenkarte anzeigen**, um genau zu sehen, was ein Empfänger sieht. Die Seite ist Mobile-First, lädt sofort und bietet einen „In Kontakte speichern“-Button, für den ein Fingertipp genügt. Auf iOS sehen Empfänger einen nativen App Clip (keine App-Installation nötig); auf Android sehen sie eine saubere Webseite auf der nfc.cool-Domain. Beide haben am Ende deinen Kontakt im Adressbuch.
 
 ---
 
@@ -80,7 +80,7 @@ Die klassische Alternative ist ein QR-Code mit direkt eingebettetem vCard. Funkt
 
 Der Trade-off: Lässt sich nicht aktualisieren. Druck 500 Karten, wechsel den Job, und du hast 500 Karten mit veralteten Daten.
 
-Der NFC.cool-Flow hält deine Kontaktdaten auf dem Server. Der Tag (oder QR) zeigt nur auf die URL. Du änderst deine Details einmal in der App; jeder Tag, den irgendjemand jemals angetippt hat, verweist jetzt auf die aktualisierte Info.
+Der NFC.cool-Flow hält deine Kontaktdaten auf dem Server. Der Tag (oder QR) zeigt nur auf die URL. Du änderst deine Details einmal in der App; jeder Tag, den irgendjemand jemals gescannt hat, verweist jetzt auf die aktualisierte Info.
 
 Das ist das einzige Feature, das für ernsthaftes Networking zählt - die Daten überleben die gedruckte Karte.
 

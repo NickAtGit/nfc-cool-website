@@ -11,7 +11,7 @@ metaDescription: "NFC-Visitenkarte vs QR-Code - ich vergleiche Geschwindigkeit, 
 ogTitle: "NFC-Visitenkarte vs QR-Code: Was ist besser?"
 ogDescription: "Geschwindigkeit vs Universalität. Ich vergleiche NFC- und QR-Code-Visitenkarten über alle Metriken - und erkläre, warum die beste Antwort vielleicht beide ist."
 ---
-Du bist auf einer Konferenz. Du hattest gerade ein tolles Gespräch und willst Kontaktdaten austauschen. Ziehst du dein Handy und zeigst einen QR-Code? Oder tippst du eine NFC-Karte an ihr Handy?
+Du bist auf einer Konferenz. Du hattest gerade ein tolles Gespräch und willst Kontaktdaten austauschen. Ziehst du dein Handy und zeigst einen QR-Code? Oder hältst du eine NFC-Karte an ihr Handy?
 
 Diese Frage kommt im Bereich der digitalen Visitenkarten oft auf - und die meisten Artikel, die sie beantworten, stammen von Unternehmen, die das eine oder das andere verkaufen. Ich versuche, ehrlicher zu sein.
 
@@ -23,7 +23,7 @@ Die kurze Antwort: **beide Technologien sind für verschiedene Dinge gut.** Die 
 
 NFC steht für **Near Field Communication**. Es ist dieselbe Technologie, die kontaktlose Zahlungen mit Apple Pay oder Google Pay antreibt. Wenn du eine NFC-fähige Visitenkarte (oder ein Handy mit geschriebenem NFC-Tag) in die Nähe eines anderen Handys hältst, überträgt sie deine Kontaktdaten kabellos - keine Kamera nötig, kein QR-Code zum Scannen.
 
-**Die Erfahrung:** Du tippst deine Karte oder dein Handy an jemandes Gerät. Sein Handy vibriert, ein Link öffnet sich, und die Person kann deine Kontaktdaten in Sekunden speichern.
+**Die Erfahrung:** Du hältst deine Karte oder dein Handy an jemandes Gerät. Sein Handy vibriert, ein Link öffnet sich, und die Person kann deine Kontaktdaten in Sekunden speichern.
 
 ### Was du brauchst
 
@@ -83,7 +83,7 @@ Für Eins-zu-viele-Sharing (Präsentation, Booth, Webinar) sind QR-Codes deutlic
 
 ### Der Wow-Faktor
 
-**NFC gewinnt.** Es ist etwas Einprägsames, seine Karte an ein Handy zu tippen und zu sehen, wie es aufpoppt. Es wirkt zukunftsweisend. Es ist ein Gesprächsöffner. Leute erinnern sich daran.
+**NFC gewinnt.** Es ist etwas Einprägsames, seine Karte an ein Handy zu halten und zu sehen, wie es aufpoppt. Es wirkt zukunftsweisend. Es ist ein Gesprächsöffner. Leute erinnern sich daran.
 
 QR-Codes sind funktional, aber niemand hat je „wow, das war cool“ gesagt, nachdem er einen QR-Code gescannt hat.
 
@@ -109,7 +109,7 @@ Das gesagt: **du brauchst keine teuren NFC-Karten.** Apps wie NFC.cool lassen di
 
 NFC glänzt in Szenarien, in denen du Leute **eins-zu-eins, persönlich** triffst:
 
-- **Konferenzen und Events** - Tippe dein Badge, deine Karte oder dein Handy an, um sofort zu teilen
+- **Konferenzen und Events** - Halte dein Badge, deine Karte oder dein Handy dran, um sofort zu teilen
 - **Kunden-Meetings** - Professionell, einprägsam und schnell
 - **Networking-Dinners** - Funktioniert bei schwachem Licht ohne das unangenehme Scannen
 - **Vertriebsteams** - Lead-Capture mit einem Tap (einige Plattformen integrieren direkt mit CRMs)
@@ -141,7 +141,7 @@ Alle, die Kontaktdaten sowohl digital als auch physisch teilen. Besonders nützl
 
 Das ist es, was die NFC-vs-QR-Debatte meist verpasst: **du musst dich nicht entscheiden.**
 
-Die meisten modernen digitalen Visitenkarten-Plattformen unterstützen sowohl NFC- als auch QR-Code-Sharing. Du kannst tippen, wenn du von Angesicht zu Angesicht bist, und einen QR-Code zeigen, wenn nicht. Dieselbe Karte, dieselben Kontaktdaten, zwei Sharing-Methoden.
+Die meisten modernen digitalen Visitenkarten-Plattformen unterstützen sowohl NFC- als auch QR-Code-Sharing. Du kannst die Karte dranhalten, wenn du von Angesicht zu Angesicht bist, und einen QR-Code zeigen, wenn nicht. Dieselbe Karte, dieselben Kontaktdaten, zwei Sharing-Methoden.
 
 Das ist tatsächlich der Ansatz, den ich den meisten Leuten empfehlen würde:
 
@@ -206,7 +206,7 @@ Einige Dinge, die sie herausstechen lassen:
 
 ### Brauche ich einen NFC-Tag, um NFC-Sharing zu nutzen?
 
-Ja, wenn du das „physische Karte antippen“-Erlebnis willst. Aber viele Apps unterstützen auch Handy-zu-Handy-NFC-Sharing (zwei Handys Rücken an Rücken halten). Der Tag oder die Karte macht es nur bequemer - du musst gar nicht erst das Handy ziehen.
+Ja, wenn du das Erlebnis mit der physischen Karte willst. Aber viele Apps unterstützen auch Handy-zu-Handy-NFC-Sharing (zwei Handys Rücken an Rücken halten). Der Tag oder die Karte macht es nur bequemer - du musst gar nicht erst das Handy ziehen.
 
 ### Können alte Handys NFC scannen?
 

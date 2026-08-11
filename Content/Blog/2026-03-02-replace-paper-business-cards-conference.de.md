@@ -79,7 +79,7 @@ Mit einer digitalen Karte kannst du diese Änderungen in Sekunden machen und nac
 Das ist optional, macht aber einen großen Eindruck:
 
 - **NFC-fähiges Handy** - Die meisten modernen Smartphones (iPhone 7+ und die meisten Android-Handys ab 2018+) unterstützen NFC. Stelle sicher, dass es bei deinem aktiviert ist.
-- **NFC-Karte oder Sticker** - Eine physische NFC-Karte, die auf dein digitales Profil verweist, gibt dir das Beste aus beiden Welten. Du gibst jemandem physisch etwas (das vertraute Ritual), aber es öffnet sofort deine digitale Karte auf seinem Handy. Kein App-Install. Kein Tippen. Nur ein Tap.
+- **NFC-Karte oder Sticker** - Eine physische NFC-Karte, die auf dein digitales Profil verweist, gibt dir das Beste aus beiden Welten. Du gibst jemandem physisch etwas (das vertraute Ritual), aber es öffnet sofort deine digitale Karte auf seinem Handy. Kein App-Install. Kein Abtippen. Nur kurz dranhalten.
 - **Handyhülle mit NFC-Sticker** - Noch einfacher. Klebe einen NFC-Tag auf die Rückseite deiner Handyhülle, der auf deine Karte verweist. Wenn jemand deine Infos will, sagst du einfach „halt dein Handy an die Rückseite von meinem.“
 
 #### Lege deinen QR-Code auf den Sperrbildschirm (iOS)
@@ -102,7 +102,7 @@ Hier glänzen digitale Karten wirklich gegenüber Papier.
 
 Du bist in einem Gespräch. Es läuft gut. Er sagt „gib mir mal deine Karte.“ Anstatt den Augenkontakt zu unterbrechen, um in deiner Tasche zu wühlen, ziehst du deine NFC-Karte (oder dein Handy) und sagst „halt dein Handy einfach hier dran.“
 
-Drei Sekunden. Deine vollständigen Kontaktdaten, Links, Foto und was auch immer du sonst noch eingefügt hast, sind jetzt auf seinem Handy. Kein Tippen. Kein Gefummel. Kein „lass mich dir meinen Nachnamen buchstabieren.“
+Drei Sekunden. Deine vollständigen Kontaktdaten, Links, Foto und was auch immer du sonst noch eingefügt hast, sind jetzt auf seinem Handy. Kein Abtippen. Kein Gefummel. Kein „lass mich dir meinen Nachnamen buchstabieren.“
 
 Der Wow-Faktor ist echt. Auf Konferenzen erinnern sich Leute an die Person, deren Karte wie von Zauberhand auf ihrem Handy erschien. Es ist ein Gesprächsöffner an sich.
 
