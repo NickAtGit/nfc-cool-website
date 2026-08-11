@@ -41,7 +41,7 @@ Penso numa tag NFC comum como um letreiro impresso na montra de uma loja. Qualqu
 
 ## Porque é que uma tag NTAG 424 DNA clonada é apanhada
 
-Esta é a parte que responde à minha pergunta original. Um falsificador consegue, sem dúvida, clonar o *conteúdo* de uma tag. Consegue ler o URL, copiá-lo byte a byte e gravá-lo num chip virgem. Isto sempre foi verdade, e é por isso que "basta pôr-lhe um código QR" nunca prova coisa nenhuma.
+Esta é a parte que responde à minha pergunta original. Um falsificador consegue, sem dúvida, clonar o *conteúdo* de uma tag. Consegue ler o URL, copiá-lo byte a byte e gravá-lo num chip virgem. Isto sempre foi verdade.
 
 O que não consegue é produzir a próxima assinatura válida. A chave de assinatura vive dentro do chip genuíno e nunca sai, nem sequer durante um toque. Isto significa que um toque só tem valor para algo que possua efetivamente a chave. Num sistema real de proteção de marca, o link da tag aponta para um servidor gerido pelo fabricante, e é esse servidor que desencripta cada toque, recalcula a assinatura para confirmar que a chave corresponde, e vai acompanhando o contador à medida que sobe.
 

@@ -41,7 +41,7 @@ Je vois un tag NFC ordinaire comme une pancarte imprimée dans une vitrine. N'im
 
 ## Pourquoi un tag NTAG 424 DNA cloné se fait démasquer
 
-C'est la partie qui répond à ma question de départ. Un contrefacteur peut tout à fait cloner le *contenu* d'un tag. Il peut lire l'URL, la copier octet par octet, et la programmer sur une puce vierge. Ça a toujours été vrai, et c'est pour ça que « il suffit d'y coller un QR code » n'a jamais rien prouvé du tout.
+C'est la partie qui répond à ma question de départ. Un contrefacteur peut tout à fait cloner le *contenu* d'un tag. Il peut lire l'URL, la copier octet par octet, et la programmer sur une puce vierge. Ça a toujours été vrai.
 
 Ce qu'il ne peut pas faire, c'est produire la signature valide suivante. La clé de signature réside à l'intérieur de la puce authentique et n'en sort jamais, pas même le temps d'un scan. Autrement dit, un scan n'a de valeur que pour quelque chose qui détient réellement la clé. Dans un vrai dispositif de protection de marque, le lien du tag pointe vers un serveur que le fabricant exploite, et c'est ce serveur qui déchiffre chaque scan, recalcule la signature pour confirmer que la clé correspond, et suit le compteur à mesure qu'il grimpe.
 

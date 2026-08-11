@@ -41,7 +41,7 @@ Yo pienso en una etiqueta NFC corriente como en un cartel impreso en el escapara
 
 ## Por qué una etiqueta NTAG 424 DNA clonada acaba pillada
 
-Esta es la parte que responde a mi pregunta original. Un falsificador puede clonar sin ningún problema el *contenido* de una etiqueta. Puede leer la URL, copiarla byte a byte y grabarla en un chip en blanco. Eso siempre ha sido así, y es la razón por la que "ponle simplemente un código QR" nunca demuestra nada en realidad.
+Esta es la parte que responde a mi pregunta original. Un falsificador puede clonar sin ningún problema el *contenido* de una etiqueta. Puede leer la URL, copiarla byte a byte y grabarla en un chip en blanco. Eso siempre ha sido así.
 
 Lo que no puede hacer es producir la siguiente firma válida. La clave de firma vive dentro del chip auténtico y nunca sale, ni siquiera durante un toque. Eso significa que un toque solo vale algo para quien de verdad tiene la clave. En un montaje real de protección de marca, el enlace de la etiqueta apunta a un servidor que gestiona el fabricante, y ese servidor es lo que descifra cada toque, recalcula la firma para confirmar que la clave coincide y lleva la cuenta del contador a medida que sube.
 

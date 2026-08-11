@@ -41,7 +41,7 @@ I think of a plain NFC tag as a printed sign in a shop window. Anyone can photog
 
 ## Why a cloned NTAG 424 DNA tag gets caught
 
-This is the part that answers my original question. A counterfeiter can absolutely clone the *contents* of a tag. They can read the URL, copy it byte for byte, and program it onto a blank chip. That has always been true, and it's why "just put a QR code on it" never actually proves anything.
+This is the part that answers my original question. A counterfeiter can absolutely clone the *contents* of a tag. They can read the URL, copy it byte for byte, and program it onto a blank chip. That has always been true.
 
 What they can't do is produce the next valid signature. The signing key lives inside the genuine chip and never comes out, not even during a tap. That means a tap is only worth anything to something that actually holds the key. In a real brand-protection setup the tag's link points at a server the maker runs, and that server is what decrypts each tap, recomputes the signature to confirm the key matches, and keeps track of the counter as it climbs.
 

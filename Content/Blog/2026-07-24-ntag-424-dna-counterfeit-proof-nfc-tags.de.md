@@ -41,7 +41,7 @@ Ich stelle mir einen schlichten NFC-Tag wie ein gedrucktes Schild im Schaufenste
 
 ## Warum ein geklonter NTAG 424 DNA Tag auffliegt
 
-Das ist der Teil, der meine ursprüngliche Frage beantwortet. Ein Fälscher kann durchaus den *Inhalt* eines Tags klonen. Er kann die URL auslesen, sie Byte für Byte kopieren und auf einen leeren Chip programmieren. Das war schon immer so, und genau deshalb beweist „pack einfach einen QR-Code drauf“ in Wahrheit nie etwas.
+Das ist der Teil, der meine ursprüngliche Frage beantwortet. Ein Fälscher kann durchaus den *Inhalt* eines Tags klonen. Er kann die URL auslesen, sie Byte für Byte kopieren und auf einen leeren Chip programmieren. Das war schon immer so.
 
 Was er nicht kann, ist die nächste gültige Signatur erzeugen. Der Signaturschlüssel steckt im echten Chip und kommt nie heraus, nicht einmal während eines Taps. Das heißt, ein Tap hat nur für etwas einen Wert, das den Schlüssel tatsächlich besitzt. In einem echten Markenschutz-Aufbau zeigt der Link des Tags auf einen Server, den der Hersteller betreibt, und dieser Server ist es, der jeden Tap entschlüsselt, die Signatur neu berechnet, um zu bestätigen, dass der Schlüssel passt, und den Zähler im Blick behält, während er nach oben klettert.
 

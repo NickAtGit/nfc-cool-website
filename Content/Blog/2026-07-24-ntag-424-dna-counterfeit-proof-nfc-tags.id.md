@@ -41,7 +41,7 @@ Saya membayangkan tag NFC biasa sebagai papan tanda tercetak di etalase toko. Si
 
 ## Mengapa tag NTAG 424 DNA tiruan tertangkap
 
-Inilah bagian yang menjawab pertanyaan awal saya. Seorang pemalsu benar-benar bisa mengklon *isi* sebuah tag. Mereka bisa membaca URL-nya, menyalinnya byte demi byte, dan memprogramnya ke chip kosong. Itu selalu benar, dan itulah mengapa "cukup tempelkan kode QR di atasnya" sebenarnya tidak pernah membuktikan apa pun.
+Inilah bagian yang menjawab pertanyaan awal saya. Seorang pemalsu benar-benar bisa mengklon *isi* sebuah tag. Mereka bisa membaca URL-nya, menyalinnya byte demi byte, dan memprogramnya ke chip kosong. Itu selalu benar.
 
 Yang tidak bisa mereka lakukan adalah menghasilkan tanda tangan valid berikutnya. Kunci penandatangan berada di dalam chip asli dan tidak pernah keluar, bahkan saat ketukan berlangsung. Artinya sebuah ketukan hanya bernilai bagi sesuatu yang benar-benar memegang kuncinya. Dalam pengaturan perlindungan merek yang sesungguhnya, tautan tag mengarah ke server yang dijalankan pembuatnya, dan server itulah yang mendekripsi setiap ketukan, menghitung ulang tanda tangan untuk memastikan kuncinya cocok, dan melacak penghitung saat angkanya terus naik.
 
