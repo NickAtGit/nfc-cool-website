@@ -289,11 +289,11 @@ image: "/assets/images/og-landing.webp"
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## الأسئلة الشائعة حول قارئ NFC عبر الإنترنت
+<div class="landing-container">
 
-<div class="nfc-reader-faq">
+<h2 class="landing-section-title">الأسئلة الشائعة حول قارئ NFC عبر الإنترنت</h2>
 
 <details class="faq-item">
 <summary>هل يمكنني قراءة وسوم NFC والكتابة عليها دون تطبيق؟</summary>

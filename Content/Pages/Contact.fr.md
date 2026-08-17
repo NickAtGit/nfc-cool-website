@@ -26,9 +26,11 @@ Le moyen le plus rapide de nous joindre, c'est par e-mail. Nous lisons chaque me
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## Questions fréquentes
+<div class="landing-container">
+
+<h2 class="landing-section-title">Questions fréquentes</h2>
 
 ### Pour commencer
 
@@ -112,6 +114,8 @@ Le moyen le plus rapide de nous joindre, c'est par e-mail. Nous lisons chaque me
 <summary>Comment suggérer une fonctionnalité ou signaler un problème ?</summary>
 <p><a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">Écrivez-nous</a> dans les deux cas. Nous consignons chaque suggestion de fonctionnalité et elles alimentent directement notre feuille de route. Pour les questions de confidentialité ou de sécurité, nous répondons sous 5 jours ouvrés.</p>
 </details>
+
+</div>
 
 </section>
 

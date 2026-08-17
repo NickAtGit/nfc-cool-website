@@ -146,10 +146,6 @@ html[lang="ar"] .sk-lang-current {
 [dir="rtl"] .page-hero-text > p { text-align: right; }
 
 [dir="rtl"] .page-section h2 { text-align: right; }
-[dir="rtl"] .page-section h3:has(+ .faq-item) {
-   padding-left: 0;
-   padding-right: calc(var(--container-padding) + 1.25rem);
-}
 [dir="rtl"] .page-section ul,
 [dir="rtl"] .page-section ol {
    padding-left: var(--container-padding);

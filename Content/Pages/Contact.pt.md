@@ -26,9 +26,11 @@ A forma mais rápida de nos contactar é por email. Lemos cada mensagem pessoalm
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## Perguntas frequentes
+<div class="landing-container">
+
+<h2 class="landing-section-title">Perguntas frequentes</h2>
 
 ### Primeiros passos
 
@@ -112,6 +114,8 @@ A forma mais rápida de nos contactar é por email. Lemos cada mensagem pessoalm
 <summary>Como sugiro uma funcionalidade ou comunico uma preocupação?</summary>
 <p><a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">Envie-nos um email</a> em qualquer dos casos. Registamos todas as sugestões de funcionalidades e elas alimentam diretamente o roteiro. Para questões de privacidade ou segurança, respondemos no espaço de 5 dias úteis.</p>
 </details>
+
+</div>
 
 </section>
 

@@ -289,11 +289,11 @@ Apple bloque le NFC dans tous les navigateurs iOS : aucun site web ne peut lire 
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## FAQ du lecteur NFC en ligne
+<div class="landing-container">
 
-<div class="nfc-reader-faq">
+<h2 class="landing-section-title">FAQ du lecteur NFC en ligne</h2>
 
 <details class="faq-item">
 <summary>Peut-on lire et écrire des tags NFC sans app ?</summary>

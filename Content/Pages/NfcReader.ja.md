@@ -291,11 +291,11 @@ AppleはすべてのiOSブラウザでNFCをブロックしているため、ど
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## オンラインNFCリーダーのよくある質問
+<div class="landing-container">
 
-<div class="nfc-reader-faq">
+<h2 class="landing-section-title">オンラインNFCリーダーのよくある質問</h2>
 
 <details class="faq-item">
 <summary>アプリなしでNFCタグを読み書きできますか？</summary>

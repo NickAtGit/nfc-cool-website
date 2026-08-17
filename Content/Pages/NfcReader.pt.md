@@ -289,11 +289,11 @@ A Apple bloqueia o NFC em todos os navegadores do iOS, por isso nenhum site cons
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## Perguntas frequentes sobre o leitor NFC online
+<div class="landing-container">
 
-<div class="nfc-reader-faq">
+<h2 class="landing-section-title">Perguntas frequentes sobre o leitor NFC online</h2>
 
 <details class="faq-item">
 <summary>Posso ler e gravar tags NFC sem uma app?</summary>

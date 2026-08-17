@@ -289,11 +289,11 @@ Apple 在所有 iOS 浏览器中都封锁了 NFC，因此没有任何网站能�
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## 在线 NFC 读取器常见问题
+<div class="landing-container">
 
-<div class="nfc-reader-faq">
+<h2 class="landing-section-title">在线 NFC 读取器常见问题</h2>
 
 <details class="faq-item">
 <summary>不用 App 也能读写 NFC 标签吗？</summary>

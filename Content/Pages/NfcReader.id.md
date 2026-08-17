@@ -289,11 +289,11 @@ Apple memblokir NFC di setiap browser iOS, sehingga tidak ada situs web yang bis
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## FAQ pembaca NFC online
+<div class="landing-container">
 
-<div class="nfc-reader-faq">
+<h2 class="landing-section-title">FAQ pembaca NFC online</h2>
 
 <details class="faq-item">
 <summary>Bisakah saya membaca dan menulis tag NFC tanpa aplikasi?</summary>

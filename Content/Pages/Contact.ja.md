@@ -26,9 +26,11 @@ description: "NFC.coolへのお問い合わせ - メールサポート、よく�
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## よくある質問
+<div class="landing-container">
+
+<h2 class="landing-section-title">よくある質問</h2>
 
 ### はじめに
 
@@ -112,6 +114,8 @@ description: "NFC.coolへのお問い合わせ - メールサポート、よく�
 <summary>機能の提案や懸念の報告はどうすればいいですか？</summary>
 <p>どちらも<a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">メールでご連絡ください</a>。機能のご提案はすべて記録し、ロードマップに反映します。プライバシーやセキュリティに関する懸念には5営業日以内に返信します。</p>
 </details>
+
+</div>
 
 </section>
 

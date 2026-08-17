@@ -480,6 +480,18 @@ a[data-eml] {
 .landing-faq .landing-container {
    max-width: var(--faq-width);
 }
+/* Optional group headings between runs of .faq-item cards (Contact page:
+   "Getting started", "Privacy & your data", ...). Inset by the summary's
+   1.25rem so the text lines up with the card text, not the card border;
+   logical property so RTL needs no override. */
+.landing-faq .landing-container > h3 {
+   font-family: var(--font-heading);
+   font-weight: 600;
+   font-size: 1.125rem;
+   color: var(--color-text);
+   margin: 2.75rem 0 0.5rem;
+   padding-inline-start: 1.25rem;
+}
 
 /* ============================================================
    FEATURE RELATED READING - card grid of cross-links. Kept

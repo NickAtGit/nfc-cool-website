@@ -26,9 +26,11 @@ Cara tercepat untuk menghubungi kami adalah melalui email. Kami membaca setiap p
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## Pertanyaan yang sering diajukan
+<div class="landing-container">
+
+<h2 class="landing-section-title">Pertanyaan yang sering diajukan</h2>
 
 ### Memulai
 
@@ -112,6 +114,8 @@ Cara tercepat untuk menghubungi kami adalah melalui email. Kami membaca setiap p
 <summary>Bagaimana cara menyarankan fitur atau melaporkan masalah?</summary>
 <p><a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">Kirim email kepada kami</a> untuk keduanya. Kami mencatat setiap saran fitur dan hal tersebut langsung memengaruhi roadmap. Untuk masalah privasi atau keamanan, kami membalas dalam 5 hari kerja.</p>
 </details>
+
+</div>
 
 </section>
 

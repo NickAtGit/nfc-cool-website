@@ -26,9 +26,11 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## Häufige Fragen
+<div class="landing-container">
+
+<h2 class="landing-section-title">Häufige Fragen</h2>
 
 ### Erste Schritte
 
@@ -112,6 +114,8 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 <summary>Wie schlage ich eine Funktion vor oder melde ein Anliegen?</summary>
 <p><a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">Schreib uns</a> - in beiden Fällen. Funktionsvorschläge notieren wir alle, und sie fließen direkt in die Roadmap ein. Auf Datenschutz- und Sicherheitsanliegen antworten wir innerhalb von 5 Werktagen.</p>
 </details>
+
+</div>
 
 </section>
 

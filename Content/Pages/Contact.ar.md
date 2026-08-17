@@ -26,9 +26,11 @@ description: "تواصل مع NFC.cool - دعم عبر البريد الإلكت
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## الأسئلة الشائعة
+<div class="landing-container">
+
+<h2 class="landing-section-title">الأسئلة الشائعة</h2>
 
 ### الخطوات الأولى
 
@@ -112,6 +114,8 @@ description: "تواصل مع NFC.cool - دعم عبر البريد الإلكت
 <summary>كيف أقترح ميزة أو أبلّغ عن مشكلة؟</summary>
 <p><a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">راسلنا عبر البريد الإلكتروني</a> في كلتا الحالتين. نسجّل كل اقتراح ميزة وتؤثّر الاقتراحات مباشرةً في خطة التطوير. أما بشأن مخاوف الخصوصية أو الأمان، فنردّ خلال ٥ أيام عمل.</p>
 </details>
+
+</div>
 
 </section>
 

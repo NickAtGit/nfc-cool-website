@@ -289,11 +289,11 @@ Apple blocks NFC in every iOS browser, so no website can read or write tags on a
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## Online NFC Reader FAQ
+<div class="landing-container">
 
-<div class="nfc-reader-faq">
+<h2 class="landing-section-title">Online NFC Reader FAQ</h2>
 
 <details class="faq-item">
 <summary>Can I read and write NFC tags without an app?</summary>

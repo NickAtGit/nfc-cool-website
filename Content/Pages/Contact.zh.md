@@ -26,9 +26,11 @@ description: "联系 NFC.cool：邮件支持、常见问题、开发者直接受
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## 常见问题
+<div class="landing-container">
+
+<h2 class="landing-section-title">常见问题</h2>
 
 ### 入门
 
@@ -112,6 +114,8 @@ description: "联系 NFC.cool：邮件支持、常见问题、开发者直接受
 <summary>如何提出功能建议或反映问题？</summary>
 <p>无论哪种情况，都请<a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">给我们发邮件</a>。我们会记录每一条功能建议，它们会直接影响产品路线图。对于隐私或安全方面的问题，我们会在 5 个工作日内回复。</p>
 </details>
+
+</div>
 
 </section>
 

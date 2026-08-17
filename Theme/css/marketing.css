@@ -302,19 +302,13 @@
    color: var(--color-text);
    margin: 1.5rem auto 0.5rem;
 }
-/* A heading that introduces a group of FAQ cards (e.g. "Getting started"):
-   indent it by the .faq-item summary's 1.25rem inset so it lines up with the
-   card text rather than the card border, and add top margin so each group
-   reads as its own block. */
-.page-section h3:has(+ .faq-item) {
-   margin-top: 2.75rem;
-   padding-left: calc(var(--container-padding) + 1.25rem);
-}
 
-/* Prose, lists, and FAQ items inherit max-width: var(--max-width) from
-   .page-section > * so every direct child sits at the same 1200px tier
-   as the card grids / tables / galleries / heros. No more mid-scroll
-   wobble between cards (1200) and prose (760). */
+/* Prose and lists inherit max-width: var(--max-width) from .page-section > *
+   so every direct child sits at the same 1200px tier as the card grids /
+   tables / galleries / heros. No more mid-scroll wobble between cards (1200)
+   and prose (760). FAQ accordions on static pages do NOT live at this tier:
+   they use the shared `.landing-faq` + `.landing-container` section (see
+   landing.css) so the cards read at the same 820px measure everywhere. */
 .page-section p {
    line-height: 1.65;
    color: var(--color-text-secondary);
@@ -329,16 +323,6 @@
    line-height: 1.65;
 }
 .page-section li { margin: 0.35rem 0; }
-/* .faq-item is a bordered card. The horizontal container padding it inherits
-   from `.page-section > *` sits inside that border, so the border bleeds out
-   to the full-width tier while the section headings inset their text by the
-   same padding. Drop the padding and narrow the card instead, so its border
-   lines up with the headings above it. */
-.page-section > .faq-item {
-   max-width: calc(var(--max-width) - 2 * var(--container-padding));
-   padding-left: 0;
-   padding-right: 0;
-}
 /* Fine-print disclosure footer, e.g. under the affiliate buy-link cards */
 .affiliate-disclosure {
    margin-top: 1.5rem;
@@ -356,7 +340,7 @@
 .affiliate-store-box {
    /* Align the box's border with the section's text tier (headings +
       paragraphs) instead of bleeding out to the full max-width edge - same
-      inset trick as .page-section > .faq-item. */
+      inset trick the FAQ cards use inside .landing-container. */
    max-width: calc(var(--max-width) - 2 * var(--container-padding));
    background: var(--color-bg-card);
    border: 1px solid var(--color-border);

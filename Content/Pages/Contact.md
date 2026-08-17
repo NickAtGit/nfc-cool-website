@@ -26,9 +26,11 @@ The fastest way to reach us is by email. We read every message personally and re
 
 </section>
 
-<section class="page-section">
+<section class="page-section landing-faq">
 
-## Frequently asked questions
+<div class="landing-container">
+
+<h2 class="landing-section-title">Frequently asked questions</h2>
 
 ### Getting started
 
@@ -112,6 +114,8 @@ The fastest way to reach us is by email. We read every message personally and re
 <summary>How do I suggest a feature or report a concern?</summary>
 <p><a href="mailto:info@nfc.cool?subject=NFC.cool%20Support">Email us</a> either way. We log every feature suggestion and they directly inform the roadmap. For privacy or security concerns, we reply within 5 business days.</p>
 </details>
+
+</div>
 
 </section>
 
