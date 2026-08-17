@@ -268,7 +268,7 @@
    padding: 0;
 }
 .blog-post-hero-image {
-   max-width: 880px;
+   max-width: var(--hero-media-width);
    margin: -3rem auto 0;
    border-radius: var(--radius-lg);
    overflow: hidden;

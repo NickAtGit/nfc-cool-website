@@ -10,8 +10,9 @@
    the inline :root in <head>. The vars below complement those for
    intents SiteKit doesn't know about: the gutter inside our 1200px
    container, the blog prose reading column, the landing FAQ
-   accordion measure. Defined here so every stylesheet that uses
-   them inherits a single source of truth.
+   accordion measure, the blog hero image that hangs a step wider
+   than the prose, and the 404 action grid. Defined here so every
+   stylesheet that uses them inherits a single source of truth.
    ============================================================ */
 :root {
    /* Horizontal gutter inside our 1200px container. Uses max() against the
@@ -20,6 +21,8 @@
    --container-padding: max(1.5rem, env(safe-area-inset-left), env(safe-area-inset-right));
    --prose-width: 760px;
    --faq-width: 820px;
+   --hero-media-width: 880px; /* blog post hero image, a step wider than --prose-width */
+   --actions-width: 720px; /* 404 page action-card grid */
    /* Radius scale. --radius (8px) and --radius-lg (14px) come from
       Theme/theme.yaml via SiteKit's TokenCSSGenerator; the sizes below
       fill the gaps (SiteKit only emits those two known keys). */
@@ -756,7 +759,7 @@ body.sk-mobile-menu-open { overflow: hidden; }
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
    gap: 0.875rem;
-   max-width: 720px;
+   max-width: var(--actions-width);
    margin: 0 auto;
 }
 .error-action-card {
