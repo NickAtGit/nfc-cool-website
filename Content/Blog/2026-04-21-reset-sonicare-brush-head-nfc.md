@@ -53,7 +53,7 @@ The NTAG213 is password-protected. Every brush head has a unique 4-byte password
 
 The password is computed from two inputs: the tag's 7-byte UID and the manufacturing code stored on the tag (and printed on the stem). [Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) reverse-engineered the algorithm from the Sonicare firmware after Cyrill Künzi originally sniffed the password transmission using a software-defined radio.
 
-⚠️**Important:** The NTAG213 permanently locks after **three failed password attempts**. The chip becomes read-only forever - not even the toothbrush can write to it anymore. Don't guess.
+**Important:** The NTAG213 permanently locks after **three failed password attempts**. The chip becomes read-only forever - not even the toothbrush can write to it anymore. Don't guess.
 
 ---
 

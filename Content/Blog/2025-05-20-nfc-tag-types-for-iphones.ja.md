@@ -50,7 +50,7 @@ Type 5タグはISO 15693規格に準拠しており、NFCエコシステムの�
 
 ## iPhone向けにはどのNFCタグを選ぶべき？
 
-ここが一番大事な部分です。iPhone 7以降のiPhoneはNFC Type 1、2、5に対応していますが、最も良くサポートされているのはType 2です。Type 2のNFCタグとは、NXP Semiconductorsの[NTAGシリーズ](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS)のことです。
+ここが一番大事な部分です。iPhone 7以降のiPhoneは、NFC Forumが定める5つのTypeすべてのタグからNDEFを読み取れますし、iOS 13以降は私のアプリのようなサードパーティ製アプリも、Type 3、4、5のタグとNDEFの枠を超えてネイティブに直接やり取りできるようになりました。それでも一番スムーズで挙動が予測しやすいのはやはりType 2で、ほぼすべてのプロジェクトで私が勧めるのもこれです。Type 2のNFCタグとは、NXP Semiconductorsの[NTAGシリーズ](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS)のことです。
 
 NTAGシリーズの中でも特に人気が高いのがNTAG213、NTAG215、NTAG216で、iPhoneとの相性は抜群です。私が日々テストに使っているのもまさにこれらです。メモリは144〜888バイトと大半の実用的なプロジェクトに十分で、NFC対応のiPhoneなら完全に読み書きができ、さらに書き換え可能なので内容を何度でも変更できます。
 

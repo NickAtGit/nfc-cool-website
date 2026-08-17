@@ -148,13 +148,13 @@ When I built [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6
 
 **No Data Monetization or Advertising** - Your vCard and account data are stored on my server to power the service, but nothing is used for advertising or third-party data processing.
 
-**GDPR Data Export** - On iOS, export your contacts as CSV anytime. No support tickets, no waiting period.
+**GDPR Data Export** - Download everything, contacts included, as a ZIP anytime, on iPhone and Android. No support tickets, no waiting period.
 
 **NFC Hardware Freedom** - It works with any standard NFC tag. NFC.cool doesn't sell NFC hardware - you're free to use any third-party tag you choose, without proprietary tracking you can't audit.
 
 **European Indie Developer** - I'm a solo developer based in Portugal. I don't have VC investors pushing me to monetize user data for growth metrics. My incentive is building a product people trust, not maximizing data collection.
 
-I'm not perfect. Analytics and lead capture are currently iOS-only (Android support coming soon). There are no CRM integrations or webhooks yet - iOS offers CSV export for getting contacts out. My marketing budget is a fraction of the bigger players. But my privacy model is something I genuinely believe in, and I think it matters.
+I'm not perfect. There are no CRM integrations or webhooks yet - you get a full data export for getting your contacts out. App Clip and Apple Wallet passes are iPhone-only, so Android recipients open your card in the browser instead. My marketing budget is a fraction of the bigger players. But my privacy model is something I genuinely believe in, and I think it matters.
 
 ---
 
@@ -162,14 +162,14 @@ I'm not perfect. Analytics and lead capture are currently iOS-only (Android supp
 
 Before you sign up for any digital business card service, run through this:
 
-- ✅ **No recipient solicitation** on your plan tier
-- ✅ **Clear privacy policy** that specifies what viewer data is collected
-- ✅ **Data export** available (GDPR right to portability)
-- ✅ **Account deletion** is self-service, not hidden behind support
-- ✅ **Profile visibility controls** (public/private toggle, PIN protection)
-- ✅ **No mandatory conversation recording** features that affect people you meet
-- ✅ **GDPR compliance** if you do business in Europe (or with Europeans)
-- ✅ **Transparent business model** - you understand how the platform makes money
+- ✓ **No recipient solicitation** on your plan tier
+- ✓ **Clear privacy policy** that specifies what viewer data is collected
+- ✓ **Data export** available (GDPR right to portability)
+- ✓ **Account deletion** is self-service, not hidden behind support
+- ✓ **Profile visibility controls** (public/private toggle, PIN protection)
+- ✓ **No mandatory conversation recording** features that affect people you meet
+- ✓ **GDPR compliance** if you do business in Europe (or with Europeans)
+- ✓ **Transparent business model** - you understand how the platform makes money
 
 If a platform fails more than one or two of these, consider whether the convenience is worth the trade-off.
 

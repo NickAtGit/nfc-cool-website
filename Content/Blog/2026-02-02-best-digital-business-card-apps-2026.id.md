@@ -115,22 +115,20 @@ Berikut gambaran singkat dari semua delapan aplikasi:
 - **Desain mengutamakan privasi** - Profil dilindungi PIN (PIN 4 digit dengan pembatasan percobaan), pengalih publik/privat, ekspor data sesuai GDPR. Tidak ada monetisasi data atau iklan, tidak ada perekaman percakapan, tidak ada permintaan pemasaran ke penerima.
 - **Berfungsi dengan tag NFC apa pun** - NFC.cool tidak menjual tag NFC, dan Anda tidak terkunci untuk membeli perangkat keras proprietary. Tulis URL kartu Anda ke tag NFC, stiker, atau kartu pihak ketiga mana pun yang sudah Anda miliki.
 - **Hingga 100 kartu** - Buat kartu berbeda untuk peran, acara, atau klien yang berbeda.
-- **Conference Mode (Live Activity)** - Ini adalah fitur unggulan. iOS Live Activity menempatkan kode QR Anda langsung di layar kunci - selalu terlihat, siap dipindai, tanpa perlu membuka kunci atau membuka aplikasi apa pun. Ini sebenarnya lebih berguna daripada integrasi Apple Wallet karena kode QR yang tertaut ke kartu nama Anda ada *tepat di sana* di layar kunci. Di konferensi, Anda cukup mengangkat ponsel dan orang-orang memindai. Tidak perlu repot dengan Wallet, tidak perlu mencari kartu yang tepat.
+- **Conference Mode** - Ini adalah fitur unggulan. Mode ini menyematkan kode QR Anda langsung di layar kunci sepanjang hari acara - selalu terlihat, siap dipindai, tanpa perlu membuka kunci atau membuka aplikasi apa pun. Di iPhone, mode ini berjalan sebagai Live Activity; Android mendapatkan mode yang sama. Ini sebenarnya lebih berguna daripada integrasi Apple Wallet karena kode QR yang tertaut ke kartu nama Anda ada *tepat di sana* di layar kunci. Di konferensi, Anda cukup mengangkat ponsel dan orang-orang memindai. Tidak perlu repot dengan Wallet, tidak perlu mencari kartu yang tepat.
 - **Dirancang dengan indah** - Aplikasi dan pengalaman berbagi kartu dirancang dengan cermat dengan tema warna kustom, logo perusahaan, dan App Clip yang dipoles di iOS yang terasa native.
 - **App Clip + berbagi web** - Di iOS, penerima melihat pengalaman App Clip native tanpa perlu aplikasi. Di Android, penerima membuka situs web di domain nfc.cool - tidak perlu aplikasi juga. Keduanya menampilkan tombol "Simpan Kontak" untuk kemudahan penyimpanan.
 - **Integrasi Apple Wallet** - Tersedia juga sebagai alternatif bagi mereka yang lebih suka akses berbasis Wallet.
-- **Lead capture** - Tersedia di iOS (dengan opsi pemicu sebelum menyimpan, setelah menyimpan, atau dimatikan). Dukungan Android segera hadir.
+- **Lead capture** - Tersedia di kedua platform, dengan opsi pemicu sebelum menyimpan, setelah menyimpan, atau dimatikan.
 
 **Yang bisa ditingkatkan:**
-- Beberapa fitur lanjutan (analitik, lead capture, Conference Mode, tema kustom) hanya tersedia di iOS untuk saat ini, dengan dukungan Android segera hadir.
-- Belum ada integrasi CRM atau webhook - iOS menawarkan ekspor CSV untuk kontak. Bagi sebagian besar individu dan tim kecil, ini sudah cukup.
+- App Clip dan pass Apple Wallet hanya tersedia di iPhone. Penerima yang memakai Android membuka kartu Anda di browser - tetap berfungsi, tetapi terasa satu tingkat kurang native.
+- Belum ada integrasi CRM atau webhook - tersedia ekspor data lengkap untuk kontak. Bagi sebagian besar individu dan tim kecil, ini sudah cukup.
 - Sebagai pendatang baru, tidak memiliki tim penjualan perusahaan seperti yang dimiliki Blinq atau Popl.
 
 **Terbaik untuk:** Profesional yang mengutamakan privasi, networker internasional, siapa saja yang menginginkan fleksibilitas NFC tanpa ketergantungan perangkat keras, pengguna indie/usaha kecil yang menghargai pengembangan yang transparan.
 
 [Unduh NFC.cool Business Card di App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [Dapatkan di Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
-
----
 
 ### 2. Wave Connect - paket gratis terbaik
 
@@ -151,8 +149,6 @@ Berikut gambaran singkat dari semua delapan aplikasi:
 
 **Terbaik untuk:** Individu yang menginginkan kartu nama digital yang solid tanpa membayar apa pun. Jika anggaran adalah prioritas utama Anda, paket gratis Wave adalah yang terbaik.
 
----
-
 ### 3. Blinq - terbaik untuk tim perusahaan
 
 **Apa ini:** Perusahaan Australia yang mengklaim posisi #1 di G2 untuk kartu nama digital, pengambilan prospek, dan tanda tangan email. Sangat berfokus pada enterprise.
@@ -170,8 +166,6 @@ Berikut gambaran singkat dari semua delapan aplikasi:
 - Harga individual lebih tinggi (~$9,99/bulan) dibandingkan pesaing.
 
 **Terbaik untuk:** Tim perusahaan (50+ orang) yang membutuhkan manajemen kartu terpusat, integrasi CRM, dan tidak keberatan dengan pertukaran pengumpulan data.
-
----
 
 ### 4. HiHello - kustomisasi yang kuat
 
@@ -191,8 +185,6 @@ Berikut gambaran singkat dari semua delapan aplikasi:
 
 **Terbaik untuk:** Profesional yang mementingkan desain yang memprioritaskan tampilan kartu mereka. Bagus untuk perusahaan yang menginginkan kartu yang dipoles dan sesuai merek.
 
----
-
 ### 5. Popl - terbaik untuk pengambilan prospek di acara
 
 **Apa ini:** Awalnya perusahaan stiker NFC, Popl telah berporos sangat ke arah pengambilan prospek acara enterprise. Mengklaim "dipercaya oleh 90% Fortune 500."
@@ -210,8 +202,6 @@ Berikut gambaran singkat dari semua delapan aplikasi:
 
 **Terbaik untuk:** Tim acara dan penjualan enterprise yang membutuhkan pengambilan prospek dalam skala besar. Tidak direkomendasikan lagi untuk profesional individu.
 
----
-
 ### 6. Mobilo - pengalaman perangkat keras NFC terbaik
 
 **Apa ini:** Perusahaan kartu nama digital yang mengutamakan NFC di mana kartu fisik adalah produk utama, dipasangkan dengan platform digital.
@@ -228,8 +218,6 @@ Berikut gambaran singkat dari semua delapan aplikasi:
 
 **Terbaik untuk:** Profesional yang menginginkan kartu NFC fisik premium dan bersedia membayar untuk kombinasi perangkat keras + perangkat lunak yang dipoles.
 
----
-
 ### 7. Linq - terbaik untuk integrasi CRM penjualan
 
 **Apa ini:** Platform kartu nama digital dengan CRM terintegrasi dan bahkan sistem telepon, ditujukan untuk profesional penjualan.
@@ -244,8 +232,6 @@ Berikut gambaran singkat dari semua delapan aplikasi:
 - Biaya bertambah cepat saat menggabungkan fitur.
 
 **Terbaik untuk:** Profesional penjualan yang menginginkan kartu nama, CRM, dan panggilan dalam satu platform.
-
----
 
 ### 8. V1CE - kartu fisik premium terbaik
 

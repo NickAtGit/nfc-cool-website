@@ -3,64 +3,64 @@ id: nfc-blog-020
 title: "NFC auf dem iPhone: Ein Blick hinter die Kulissen"
 date: 2024-02-08
 tags: ["nfc-tags", "iphone"]
-summary: "Wie NFC auf dem iPhone tatsächlich funktioniert - von Apple Pays Secure Element bis zu Core NFC. Ein praktischer Blick auf das Protokoll, die iOS-Geschichte und warum die kurze Reichweite ein Feature ist, kein Bug."
-metaTitle: "Wie NFC auf dem iPhone funktioniert: Ein Blick hinter die Kulissen"
-metaDescription: "Eine praktische Erklärung von NFC auf dem iPhone - wie das Protokoll funktioniert, Apple Pays Secure Element, Core NFC Tag-Lesung und warum kurze Reichweite ein Sicherheitsfeature ist."
+summary: "Wie NFC auf dem iPhone wirklich funktioniert - vom Secure Element hinter Apple Pay bis zum Tag-Lesen mit Core NFC. Ein praxisnaher Blick auf das Protokoll, die iOS-Geschichte und darauf, warum die kurze Reichweite ein Feature ist und kein Manko."
+metaTitle: "NFC auf dem iPhone erklärt: Ein Blick hinter die Kulissen"
+metaDescription: "So funktioniert NFC auf dem iPhone: das Protokoll, das Secure Element hinter Apple Pay, Tag-Lesen mit Core NFC und warum kurze Reichweite ein Sicherheitsfeature ist."
 ogTitle: "NFC auf dem iPhone: Ein Blick hinter die Kulissen"
-ogDescription: "Wie NFC auf dem iPhone tatsächlich funktioniert - Protokoll, Secure Element, Core NFC und die iOS-Geschichte."
+ogDescription: "Wie NFC auf dem iPhone wirklich funktioniert - Protokoll, Secure Element, Core NFC und die iOS-Geschichte."
 image: "/assets/images/Blog/nfc-on-iphones-insider-look.webp"
 ---
-Viel von der Technik, die wir täglich nutzen, verschwindet im Hintergrund. Wir halten das Handy dran zum Bezahlen, Entsperren, Scannen, Teilen - und denken nie über das Protokoll darunter nach. NFC ist eines dieser stillen Infrastrukturstücke, und nach Jahren, in denen ich NFC.cool gebaut habe, eine App zum Lesen und Schreiben von NFC-Tags, habe ich mehr Zeit in diesem Maschinenraum verbracht als die meisten Menschen es je tun werden. So funktioniert es auf deinem iPhone tatsächlich, so wie ich es einem neugierigen Freund erklären würde.
+Viel von der Technik, die wir jeden Tag benutzen, fällt gar nicht mehr auf. Wir halten das Handy irgendwo dran, um zu bezahlen, zu entsperren, zu scannen oder etwas zu teilen - und denken keine Sekunde an das Protokoll darunter. NFC gehört zu dieser stillen Infrastruktur, und nach Jahren Arbeit an NFC.cool, meiner App zum Lesen und Schreiben von NFC-Tags, habe ich mehr Zeit in diesem Maschinenraum verbracht als die meisten Menschen je verbringen werden. Hier zeige ich dir, wie das auf deinem iPhone wirklich abläuft - so, wie ich es einem neugierigen Freund erklären würde.
 
 ---
 
 ## Was NFC eigentlich ist
 
-**Near Field Communication** ist ein Funkprotokoll mit kurzer Reichweite - zwei Geräte können Daten austauschen, wenn sie innerhalb von etwa 4 cm zueinander sind. Ich stelle es mir als einen vereinfachten, viel kürzeren Verwandten von Bluetooth und Wi-Fi vor.
+**Near Field Communication** ist ein Funkprotokoll für kurze Distanzen: Zwei Geräte tauschen Daten aus, sobald sie sich auf etwa 4 cm nahekommen. Ich stelle es mir gern als den abgespeckten kleinen Verwandten von Bluetooth und WLAN vor, nur mit viel kürzerer Reichweite.
 
-Diese kurze Reichweite irritiert anfangs viele, aber sie ist keine Einschränkung. Sie ist das Sicherheitsmodell, und als das bei mir Klick gemacht hat, ergaben viele Designentscheidungen von NFC plötzlich Sinn. Du kannst nicht versehentlich quer durch den Raum ein Zahlungsterminal auslösen, und ein bösartiger Reader kann nicht aus der Ferne Daten aus deinem Wallet abgreifen. Falls das alles neu für dich ist - ich habe einen ruhigen [Einsteiger-Guide zu NFC-Tags](/de/blog/nfc-tags-beginners-guide/) geschrieben, der weiter vorne ansetzt als dieser Beitrag.
+Über diese kurze Reichweite stolpern anfangs viele, aber sie ist keine Einschränkung, sondern das Sicherheitskonzept. Als mir das klar wurde, ergaben auf einmal viele Designentscheidungen bei NFC Sinn: Du löst nicht aus Versehen quer durch den Raum ein Bezahlterminal aus, und niemand kann mit einem präparierten Lesegerät aus der Distanz unbemerkt Daten aus deinem Wallet abziehen. Wenn das alles neu für dich ist: Ich habe einen [Einsteiger-Guide zu NFC-Tags](/de/blog/nfc-tags-beginners-guide/) geschrieben, der deutlich weiter vorne ansetzt als dieser Beitrag.
 
 ---
 
 ## NFC auf dem iPhone: Eine kurze Geschichte
 
-Apple verbaute zum ersten Mal NFC-Hardware im iPhone 6 und 6 Plus (2014), aber das Funkmodul war auf Apple Pay beschränkt. Dritt-Apps konnten gar keine NFC-Tags lesen - für jemanden, der später eine NFC-App bauen sollte, waren das ein paar frustrierende Jahre, in denen ich nur zuschauen konnte.
+NFC-Hardware hat Apple zum ersten Mal 2014 ins iPhone 6 und 6 Plus eingebaut, das Funkmodul war aber ausschließlich für Apple Pay reserviert. Apps von Drittanbietern konnten überhaupt keine NFC-Tags lesen. Für jemanden, der später selbst eine NFC-App bauen würde, waren das ein paar frustrierende Jahre, in denen ich nur zusehen konnte.
 
-Das änderte sich mit **iOS 11** (2017), das das **Core NFC** Framework einführte und Entwicklern wie mir endlich erlaubte, NDEF-Tags zu lesen. Apple hat die Tür in späteren Releases weiter geöffnet - iOS 13 brachte Schreibunterstützung, und iPhone XS und neuer ergänzten dauerhafte Hintergrund-Tag-Lesung. Heute kannst du auf jedem modernen iPhone einen Tag scannen, ohne etwas zu öffnen: Das OS erkennt ihn und schlägt die passende Aktion vor.
+Mit **iOS 11** (2017) kam das **Core NFC**-Framework, und Entwickler wie ich durften endlich NDEF-Tags lesen. In den folgenden Releases hat Apple die Tür Stück für Stück weiter aufgemacht: iOS 13 brachte das Schreiben dazu, und ab dem iPhone XS liest das Handy Tags dauerhaft im Hintergrund. Heute hältst du ein modernes iPhone einfach an einen Tag, ohne vorher irgendetwas zu öffnen: iOS erkennt ihn und schlägt die passende Aktion vor.
 
 ---
 
 ## Wie NFC Daten überträgt
 
-NFC-Geräte arbeiten pro Interaktion in einer von zwei Rollen: **aktiv** (mit Strom, erzeugt ein Feld) oder **passiv** (keine Batterie, gewinnt Strom aus dem Feld). Das ist der eine Gedanke, zu dem ich immer zurückkehre, wenn mich jemand fragt, wie NFC funktioniert.
+Bei jeder Interaktion hat ein NFC-Gerät eine von zwei Rollen: **aktiv** (mit Stromversorgung, baut ein Feld auf) oder **passiv** (ohne Batterie, zieht sich den Strom aus dem Feld). Auf diesen einen Gedanken komme ich immer wieder zurück, wenn mich jemand fragt, wie NFC funktioniert.
 
-Wenn du mit Apple Pay zahlst, ist dein iPhone der aktive Reader. Es erzeugt ein Funkfeld bei 13,56 MHz. Das NFC-Element des Terminals wird in diesem Feld aktiv, identifiziert sich, und tauscht eine kleine kryptografische Nutzlast mit deinem iPhone aus. Deine Kartendaten verlassen das **Secure Element** nie - einen dedizierten, hardware-isolierten Chip im iPhone. Was rausgeht, ist ein Einmal-Token.
+Wenn du mit Apple Pay bezahlst, ist dein iPhone der aktive Reader. Es erzeugt ein Funkfeld bei 13,56 MHz. Das NFC-Element im Terminal wacht in diesem Feld auf, meldet sich und tauscht mit deinem Handy eine kleine kryptografische Nutzlast aus. Deine Kartendaten verlassen dabei nie das **Secure Element**, einen eigenen, hardwareseitig abgeschotteten Chip im iPhone. Nach draußen geht nur ein Einmal-Token.
 
-Beim Scannen eines NFC-Stickers auf einem Poster sind die Rollen vertauscht. Der Tag im Poster ist passiv - er hat keine Batterie. Der Reader deines iPhones versorgt ihn mit Strom, der Tag antwortet mit den gespeicherten NDEF-Records, und iOS entscheidet, was passiert (URL öffnen, App starten, Kontaktkarte zeigen, einen Kurzbefehl triggern). Diese zweite Hälfte - die Tag-Seite - ist der Bereich, in dem NFC.cool lebt, und wenn du es ohne Installation in Aktion sehen willst, kannst du auf Android [NFC-Tags direkt im Browser lesen](/de/online-nfc-reader/).
+Hältst du dein iPhone dagegen an einen NFC-Sticker auf einem Poster, sind die Rollen vertauscht. Der Tag im Poster ist passiv, er hat keine Batterie. Der Reader in deinem iPhone versorgt ihn mit Strom, der Tag antwortet mit den NDEF-Records, die auf ihm gespeichert sind, und iOS entscheidet, was damit passiert: eine URL öffnen, eine App starten, eine Kontaktkarte anzeigen, einen Kurzbefehl auslösen. Diese zweite Hälfte, die Tag-Seite, ist die Welt, in der NFC.cool zu Hause ist. Und wenn du das ausprobieren willst, ohne etwas zu installieren, kannst du auf Android [NFC-Tags direkt im Browser lesen](/de/online-nfc-reader/).
 
 ---
 
 ## NDEF: Die Lingua Franca
 
-Die Datenschicht über dem NFC-Funk ist **NDEF** - NFC Data Exchange Format. Ich beschreibe es als ein winziges selbstbeschreibendes Record-Format: Ein Tag trägt einen oder mehrere Records, und jeder hat einen Typ (URI, Text, vCard, WLAN-Zugangsdaten, Custom MIME) plus eine Payload.
+Über dem NFC-Funk liegt die Datenschicht, und die heißt **NDEF**, kurz für NFC Data Exchange Format. Ich beschreibe es gern als winziges Record-Format, das sich selbst beschreibt: Ein Tag trägt einen oder mehrere Records, und jeder Record hat einen Typ (URI, Text, vCard, WLAN-Zugangsdaten, eigener MIME-Typ) und eine Payload.
 
-Jedes NFC-fähige Telefon auf dem Planeten spricht NDEF. Deshalb lässt sich ein auf Android programmierter Tag problemlos auf iPhone lesen und umgekehrt. Es ist einer der wenigen Bereiche im Mobile-Stack, in dem iOS und Android wirklich denselben Standard sprechen, und ehrlich gesagt ist diese Interoperabilität das, wofür ich beim Bauen von Features am dankbarsten bin - ich schreibe für das Format, nicht für eine Plattform. Wenn du selbst Records schreiben willst, gehe ich das in [wie man NFC-Tags auf dem iPhone schreibt](/de/blog/write-nfc-tags-iphone/) durch.
+Jedes NFC-fähige Handy auf diesem Planeten spricht NDEF. Deshalb liest ein iPhone problemlos einen Tag, der auf einem Android-Gerät beschrieben wurde, und umgekehrt. Es ist eine der wenigen Stellen im Mobile-Bereich, an denen iOS und Android sich wirklich einen Standard teilen, und ehrlich gesagt bin ich beim Bauen neuer Features für nichts so dankbar wie für genau diese Interoperabilität: Ich schreibe für das Format, nicht für eine Plattform. Wenn du selbst Records schreiben willst, zeige ich das Schritt für Schritt in [NFC-Tags mit dem iPhone beschreiben](/de/blog/write-nfc-tags-iphone/).
 
 ---
 
 ## Privatsphäre und Sicherheit
 
-Zwei Verteidigungslinien sind erwähnenswert, und es sind die beiden, die ich am häufigsten erkläre:
+Zwei Schutzschichten sind hier erwähnenswert, und es sind genau die beiden, die ich am häufigsten erklären muss:
 
-- **Reichweite.** Wenige Zentimeter sind schwer abzufangen, ohne dass eine sichtbare Antenne im Spiel ist - das ist das ursprüngliche Threat-Model, für das NFC entworfen wurde.
-- **Tokenisierung.** Apple Pay überträgt nie deine echte Kartennummer. Jede Transaktion nutzt eine Device Account Number plus ein Einmal-Cryptogram, generiert im Secure Element. Selbst ein kompromittiertes Terminal kann das nicht erneut einspielen.
+- **Reichweite.** Ein paar Zentimeter lassen sich kaum abfangen, ohne dass irgendwo eine auffällige Antenne im Spiel ist. Das ist das ursprüngliche Bedrohungsmodell, für das NFC entworfen wurde.
+- **Tokenisierung.** Apple Pay überträgt nie deine echte Kartennummer. Jede Transaktion nutzt eine Device Account Number plus ein Einmal-Kryptogramm, das im Secure Element erzeugt wird. Selbst ein kompromittiertes Terminal kann es nicht noch einmal einspielen.
 
-Beim Tag-Lesen sieht die Angriffsfläche anders aus - hier wird dem Tag selbst vertraut. Wenn du kontrollierst, was draufsteht (deine eigenen Heim-Automatisierungen, deine Visitenkarte), bist du fein raus. Wenn du einen zufälligen Tag im öffentlichen Raum scannst, solltest du in iOS trotzdem einen Bestätigungs-Prompt sehen, bevor irgendetwas passiert. Wenn ich wirklich brauche, dass ein Tag ein Geheimnis hält, statt nur darauf zu verweisen, greife ich zu kryptografischen Tags - das habe ich in [sichere, verschlüsselte Geheimnisse auf NFC-Tags speichern](/de/blog/nfc-safe-encrypted-secrets/) behandelt.
+Beim Lesen von Tags sieht die Angriffsfläche anders aus, denn hier ist es der Tag selbst, dem man vertraut. Wenn du kontrollierst, was draufsteht (deine eigenen Automatisierungen zu Hause, deine Visitenkarte), ist alles gut. Scannst du irgendeinen fremden Tag im öffentlichen Raum, sollte iOS dir trotzdem erst eine Bestätigung anzeigen, bevor irgendetwas passiert. Und wenn ein Tag bei mir wirklich ein Geheimnis enthalten soll, statt nur darauf zu verweisen, greife ich zu kryptografischen Tags. Darüber habe ich in [verschlüsselte Geheimnisse sicher auf NFC-Tags speichern](/de/blog/nfc-safe-encrypted-secrets/) geschrieben.
 
 ---
 
 ## Warum das wichtig ist
 
-NFC ist eines dieser Protokolle, die verschwinden, wenn sie funktionieren, und genau deshalb macht es mir Spaß, darauf zu bauen. Du hältst dein Handy an eine Schranke, ein Zahlungsterminal, eine Visitenkarte, einen Smart Speaker - und etwas passiert. Kein Pairing, keine PIN, kein App-Start. Nur eine bewusste physische Geste, die genau einen Austausch autorisiert.
+NFC gehört zu den Protokollen, die verschwinden, sobald sie funktionieren, und genau deshalb macht es mir so viel Spaß, darauf aufzubauen. Du hältst dein Handy an ein Drehkreuz, ein Bezahlterminal, eine Visitenkarte, einen Smart Speaker - und etwas passiert. Kein Pairing, keine PIN, keine App, die erst starten muss. Nur eine bewusste Handbewegung, die genau einen Austausch freigibt.
 
-Genau deshalb habe ich [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-on-iphones-insider-look-de&mt=8) gebaut - um die volle NDEF-Oberfläche von NFC verfügbar zu machen, ohne dass jemand zuerst das Protokoll lernen muss. Jeden Tag lesen, jeden Record-Typ schreiben, den Tag sperren, wenn du fertig bist. Auf iPhone oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-on-iphones-insider-look-de).
+Genau dafür habe ich [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-on-iphones-insider-look-de&mt=8) gebaut: damit jeder alles nutzen kann, was NDEF hergibt, ohne vorher das Protokoll lernen zu müssen. Jeden Tag lesen, jeden Record-Typ schreiben, den Tag am Ende sperren. Auf dem iPhone oder auf [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-on-iphones-insider-look-de).

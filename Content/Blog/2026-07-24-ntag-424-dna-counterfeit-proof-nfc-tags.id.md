@@ -17,6 +17,8 @@ Beberapa waktu lalu saya berulang kali menjumpai klaim yang sama secara sepintas
 
 Jadi saya melakukan hal yang selalu saya lakukan ketika penasaran dengan sebuah tag. Saya masuk ke AliExpress, menemukan lapak yang menjual tag "NTAG 424 DNA", memesan satu kumpulan kecil, dan menunggu amplopnya datang. Beberapa euro, beberapa minggu, dan silikon yang sama dengan yang menjadi dasar sistem perlindungan merek itu kini tergeletak di meja saya. Lalu saya mengetuk salah satunya untuk melihat apa yang bisa dilakukannya.
 
+---
+
 ## Apa sebenarnya tag NTAG 424 DNA itu
 
 Dari luar ia adalah tag NFC biasa. Anda tidak akan bisa membedakannya dari setumpuk tag murah, dan ponsel mana pun membacanya tanpa keluhan. Jika Anda sudah membaca [panduan saya tentang jenis-jenis tag NFC](/blog/nfc-tag-types-for-iphones/), ia masuk sebagai satu lagi tag Type 4 yang dengan senang hati dibaca iPhone Anda.
@@ -24,6 +26,8 @@ Dari luar ia adalah tag NFC biasa. Anda tidak akan bisa membedakannya dari setum
 Bagian "DNA"-lah yang membuatnya berbeda. Di dalamnya, chip menyimpan beberapa kunci AES-128 dan sebuah mesin kriptografis kecil, dan ia bisa melakukan sesuatu yang tidak bisa dilakukan NTAG215 biasa atau stiker dari sebuah multipack: ia bisa *menandatangani* setiap ketukan. Tanda tangan itulah intinya. Itulah perbedaan antara tag yang berkata "ini sebuah tautan" dan tag yang berkata "ini sebuah tautan, dan ini bukti kriptografis bahwa saya, chip asli spesifik ini, adalah yang menyajikannya, saat ini juga".
 
 Itulah yang sebenarnya dibayar merek-merek mewah - bukan tautannya, melainkan bukti bahwa chip aslilah yang menyajikannya.
+
+---
 
 ## Cara kerja SUN dan SDM: tautan yang menulis ulang dirinya setiap ketukan
 
@@ -39,6 +43,8 @@ Kedua nilai itu bukan hiasan. `picc_data` adalah salinan terenkripsi dari ID asl
 
 Saya membayangkan tag NFC biasa sebagai papan tanda tercetak di etalase toko. Siapa pun bisa memotretnya dan mencetak salinan yang identik. Tag SUN lebih seperti seorang satpam yang menyerahkan kepada Anda sebuah struk baru, bernomor dan bercap secara individual setiap kali Anda masuk. Menyalin struk kemarin tidak ada gunanya bagi Anda, karena nomor hari ini berbeda dan hanya cap satpam itu yang asli.
 
+---
+
 ## Mengapa tag NTAG 424 DNA tiruan tertangkap
 
 Inilah bagian yang menjawab pertanyaan awal saya. Seorang pemalsu benar-benar bisa mengklon *isi* sebuah tag. Mereka bisa membaca URL-nya, menyalinnya byte demi byte, dan memprogramnya ke chip kosong. Itu selalu benar.
@@ -48,6 +54,8 @@ Yang tidak bisa mereka lakukan adalah menghasilkan tanda tangan valid berikutnya
 Bagian terakhir itulah yang menangkap tiruan. Satu-satunya URL yang bisa dipasang pemalsu pada barang palsu adalah URL yang mereka tangkap dari sebuah ketukan asli, dibekukan dengan penghitung yang kebetulan dibawa ketukan itu. Putar ulang, dan server akan mendapati angka yang sudah pernah dilihatnya, dan penghitung chip asli hanya bergerak maju, jadi sebuah pengulangan atau langkah mundur langsung membongkar pemutaran ulang itu. Untuk mengirim penghitung baru yang lebih tinggi dengan tanda tangan yang tetap lolos pemeriksaan, mereka butuh kuncinya, dan untuk mendapatkan kuncinya mereka harus membobol AES atau secara fisik membongkar chip. Tidak satu pun dari itu akan terjadi demi sebuah tas tangan palsu.
 
 Itulah versi jujur dari kalimat pemasaran tersebut. Chip tidak membuat *produk* mustahil disalin. Ia membuat *bukti keaslian* mustahil disalin, dan ia memindahkan bukti itu ke sesuatu yang tidak bisa direproduksi oleh pemalsu.
+
+---
 
 ## Bagaimana NFC.cool memverifikasi bahwa sebuah tag asli
 
@@ -61,6 +69,8 @@ Begitu saya memahami tag-tag ini, saya ingin aplikasi melakukan semuanya dengan 
 
 Semua ini gratis untuk semua orang. Membaca sebuah tag - tautannya, penghitung ketukannya, tata letak filenya, apakah segelnya masih utuh - dan menjalankan kedua pemeriksaan kriptografis tidak dikenai biaya sama sekali. Saya ingin pertanyaan "apakah benda ini asli?" bisa dijawab oleh siapa saja yang mengetuknya.
 
+---
+
 ## Memprogram tag aman Anda sendiri
 
 Membaca hanyalah separuhnya. Separuh lainnya adalah bahwa tag kosong dari AliExpress itu bebas Anda program, dan NFC.cool melakukannya melalui saluran yang terautentikasi dan terenkripsi dengan benar, secure messaging yang sama yang diharuskan chip, bukan sekadar menuliskan data mentah begitu saja sambil berharap berhasil.
@@ -68,6 +78,8 @@ Membaca hanyalah separuhnya. Separuh lainnya adalah bahwa tag kosong dari AliExp
 Versi mudahnya ada tiga langkah. Tulis tautan Anda sendiri, yang gratis. Nyalakan SUN sehingga tag mulai menandatangani setiap ketukan. Dan ganti kunci pabrik dengan kunci Anda sendiri, yang diatur sebagai passphrase sehingga tidak ada string hex 32 karakter yang harus diurus, tersimpan di keychain Anda. Mulai saat itu tag terkunci untuk Anda: ia terus membuktikan dirinya asli kepada siapa saja yang mengetuknya, tetapi hanya Anda yang bisa memprogramnya ulang.
 
 Di situlah saya bisa saja berhenti. Segelintir aplikasi yang bahkan mau menyentuh tag semacam ini pun berhenti di situ. Saya tidak.
+
+---
 
 ## Konfigurasikan seluruh chip NTAG 424 DNA dari iPhone atau Android Anda
 
@@ -81,11 +93,15 @@ Chip bahkan menyimpan sebuah brankas pribadi kecil. Ada sebuah file terenkripsi 
 
 Jika Anda pernah melakukan ini sebelumnya, Anda melakukannya di meja kerja. NXP menyediakan sebuah alat Windows bernama TagXplorer, Anda mencolokkan pembaca USB ke komputer, dan Anda mengeklik menyusuri konfigurasi chip dari sana. NFC.cool melakukan semua hal yang sama, tetapi ia dibangun untuk digunakan, bukan untuk diderita. Di mana TagXplorer adalah aplikasi desktop yang penuh dengan hex mentah dan bidang-bidang yang membingungkan, NFC.cool adalah layar berbahasa lugas di ponsel yang sudah ada di saku Anda, dengan passphrase menggantikan kunci mentah dan sebuah peringatan sebelum apa pun yang bersifat permanen. Anda mengendalikan semuanya dengan menempelkan ponsel Anda ke tag selama satu-dua detik.
 
+---
+
 ## Apa itu mode LRP NTAG 424 DNA, dan perubahan yang tidak bisa Anda batalkan
 
 Lalu ada LRP. Dalam catatan desain saya untuk versi pertama, tepat di samping "mode LRP", saya menuliskan "tidak direncanakan - eksotis, tidak dibutuhkan aplikasi konsumen". LRP adalah singkatan dari Leakage-Resilient Primitive, dan ia adalah mode paling paranoid dari tag ini. Normalnya chip menjaga kunci-kuncinya dengan AES biasa, dan mencuri sebuah kunci berarti membobol AES itu sendiri. Tetapi ada jalur serangan yang lebih licik: taruh sebuah chip di meja kerja, amati goyangan samar pada tarikan dayanya dan dengungan elektromagnetiknya saat ia menjalankan kripto, dan dengan cukup banyak jejak seperti itu Anda bisa merekonstruksi kunci rahasia dari kebocoran itu saja, tanpa pernah menyentuh matematikanya. LRP adalah saluran aman yang dibangun ulang, dirancang agar kebocoran itu tidak menyisakan apa pun yang bisa dimanfaatkan. Ini benar-benar berlebihan untuk sebuah stiker pada botol anggur, itulah mengapa kebanyakan tag tidak pernah menyalakannya dan kebanyakan alat tidak pernah belajar berbicara dengannya. Namun ia terus mengganggu saya, dan "cakup seluruh spesifikasi" tidak disertai catatan kaki yang berbunyi "kecuali bagian yang sulit", jadi saya membangunnya. NFC.cool kini berbicara LRP, yang artinya bahkan setelah sebuah tag dialihkan ke mode itu, sebuah sakelar satu arah yang tidak bisa Anda tarik kembali, aplikasi masih bisa terautentikasi kepadanya dan mengelolanya seperti tag lainnya. Saya tidak tahu ada aplikasi ponsel lain yang sampai ke sana.
 
 Saya akan berterus terang soal sisi-sisi berbahayanya, karena kini jumlahnya makin banyak. Banyak dari perintah ini bersifat permanen. Mengaktifkan LRP tidak bisa dibatalkan. Menyalakan ID acak tidak bisa dibatalkan. Atur izin "ubah" sebuah file ke "Tidak Pernah" dan Anda telah membekukan file itu selama masa pakai tag. Kunci yang salah bisa mengunci sebuah slot untuk selamanya. Aplikasi memperingatkan hal ini dengan tegas saat itu juga: tindakan yang benar-benar tidak bisa dibalik mengharuskan Anda mengonfirmasi melalui peringatan yang menjabarkan konsekuensinya secara persis. Namun hal ini layak disampaikan di sini juga: berlatihlah pada tag cadangan sebelum Anda menyentuh tag yang Anda pedulikan.
+
+---
 
 ## Di mana tag NFC anti-pemalsuan benar-benar digunakan
 
@@ -94,6 +110,8 @@ Jujur saja? Kebanyakan orang yang mengetuk sebuah tag NFC tidak pernah membutuhk
 Tetapi begitu Anda memegang salah satu tag ini, kegunaannya langsung terlihat jelas. Sebuah tas mewah bisa membuktikan dirinya asli. Sebotol anggur atau wiski bisa menunjukkan bahwa ia tidak pernah diam-diam dibuka lalu diisi ulang dengan sesuatu yang lebih murah, dengan segel anti-perusakan yang menjaga sisi itu. Sekotak obat menjamin baik obat asli di dalamnya maupun segel yang tidak pernah dirusak siapa pun. Sebuah produk edisi terbatas atau sebuah karya seni mendapatkan sertifikat yang tidak bisa dipalsukan siapa pun, dan tiket acara berhenti menjadi sesuatu yang bisa Anda tangkap layar dan bagikan ke sana-sini. Pasang tag di dekat pintu atau di rak, dan satu ketukan membuktikan bahwa seseorang benar-benar berdiri di sana, alih-alih memutar ulang tautan tersimpan dari sofa mereka. Sepatu sneaker dan kartu koleksi bisa membuktikan dirinya rilisan asli, bukan tiruan yang meyakinkan. Dan setiap pembuat indie bisa membuat barangnya membuktikan bahwa ia adalah barang *mereka* sendiri. Ini adalah masalah keaslian yang sama yang sedang didekati [Paspor Produk Digital UE](/blog/eu-digital-product-passport-2026/) dari sisi regulasi, dipecahkan pada tingkat objek individual.
 
 Saya tidak membangun ini karena seribu pengguna memintanya. Saya membangunnya karena saya membeli beberapa tag aneh dari internet karena rasa penasaran, memahami cara kerjanya, dan kemudian tidak sanggup membiarkan satu halaman pun dari datasheet itu tak terbuka. Biasanya begitulah fitur-fitur yang bagus bermula.
+
+---
 
 ## Kesimpulan akhir tentang tag NTAG 424 DNA
 

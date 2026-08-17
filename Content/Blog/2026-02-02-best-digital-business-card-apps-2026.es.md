@@ -115,22 +115,20 @@ Un vistazo general a las ocho apps:
 - **Diseño que prioriza la privacidad** - perfiles protegidos con PIN (PIN de 4 dígitos con limitación de intentos), interruptor público/privado, exportación de datos conforme al RGPD. Sin monetización de datos ni publicidad, sin grabación de conversaciones, sin solicitud a destinatarios.
 - **Funciona con cualquier etiqueta NFC** - NFC.cool no vende etiquetas NFC y no estás atado a comprar hardware propietario. Escribe la URL de tu tarjeta en cualquier etiqueta NFC, pegatina o tarjeta de terceros que ya tengas.
 - **Hasta 100 tarjetas** - crea tarjetas distintas para diferentes roles, eventos o clientes.
-- **Modo Conferencia (Live Activity)** - esta es la función estrella. Una Live Activity de iOS pone tu código QR directamente en la pantalla de bloqueo - siempre visible, listo para escanear, sin desbloquear ni abrir ninguna app. Esto es en realidad más útil que la integración con Apple Wallet, porque el código QR que enlaza a tu tarjeta de visita está *ahí mismo* en la pantalla de bloqueo. En una conferencia, solo levantas el móvil y la gente escanea. Sin buscar en Wallet, sin encontrar el pase correcto.
+- **Modo Conferencia** - esta es la función estrella. Fija tu código QR directamente en la pantalla de bloqueo durante toda una jornada de evento - siempre visible, listo para escanear, sin desbloquear ni abrir ninguna app. En iPhone funciona como Live Activity; en Android tienes el mismo modo. Esto es en realidad más útil que la integración con Apple Wallet, porque el código QR que enlaza a tu tarjeta de visita está *ahí mismo* en la pantalla de bloqueo. En una conferencia, solo levantas el móvil y la gente escanea. Sin buscar en Wallet, sin encontrar el pase correcto.
 - **Diseño cuidado** - la app y la experiencia de compartir tarjetas están elaboradas con detalle: temas de color personalizados, logos de empresa y un App Clip pulido en iOS que se ve y se siente nativo.
 - **App Clip + compartir en web** - en iOS, los destinatarios ven una experiencia nativa de App Clip sin necesitar la app. En Android, los destinatarios abren una página web en el dominio nfc.cool - tampoco necesitan app. Ambas muestran un botón "Guardar contacto" para facilitar el guardado.
 - **Integración con Apple Wallet** - también disponible como alternativa para quienes prefieren el acceso desde Wallet.
-- **Captura de contactos** - disponible en iOS (con opciones para activarla antes de guardar, después de guardar o desactivarla). Soporte para Android próximamente.
+- **Captura de contactos** - en ambas plataformas, con opciones para activarla antes de guardar, después de guardar o desactivarla.
 
 **Lo que podría mejorar:**
-- Algunas funciones avanzadas (análisis, captura de contactos, Modo Conferencia, temas personalizados) son por ahora exclusivas de iOS, con soporte para Android próximamente.
-- Sin integraciones con CRM ni Webhooks todavía - iOS ofrece exportación CSV de contactos. Para la mayoría de personas y equipos pequeños, esto es suficiente.
+- El App Clip y los pases de Apple Wallet son exclusivos de iPhone. En Android los destinatarios abren tu tarjeta en el navegador, algo que funciona pero resulta un poco menos nativo.
+- Sin integraciones con CRM ni Webhooks todavía - hay una exportación completa de datos de contactos. Para la mayoría de personas y equipos pequeños, esto es suficiente.
 - Al ser un participante más reciente, no tiene el equipo de ventas empresarial que tienen Blinq o Popl.
 
 **Ideal para:** Profesionales que valoran la privacidad, personas que hacen networking internacional, cualquiera que quiera flexibilidad NFC sin atarse a hardware, usuarios indie y de pequeñas empresas que valoran el desarrollo transparente.
 
 [Descargar NFC.cool Business Card en el App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [Consíguelo en Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
-
----
 
 ### 2. Wave Connect - El mejor plan gratuito
 
@@ -151,8 +149,6 @@ Un vistazo general a las ocho apps:
 
 **Ideal para:** Personas que quieren una tarjeta de visita digital sólida sin pagar nada. Si el presupuesto es tu prioridad número 1, el plan gratuito de Wave es el que hay que batir.
 
----
-
 ### 3. Blinq - La mejor para equipos empresariales
 
 **Qué es:** Una empresa australiana que reclama el puesto número 1 en G2 para tarjetas de visita digitales, captación de leads y firmas de correo electrónico. Fuertemente orientada a empresas.
@@ -170,8 +166,6 @@ Un vistazo general a las ocho apps:
 - Precios individuales más altos (~$9,99/mes) comparados con la competencia.
 
 **Ideal para:** Equipos empresariales (más de 50 personas) que necesitan gestión centralizada de tarjetas, integración con CRM y no les importan las contrapartidas en materia de recopilación de datos.
-
----
 
 ### 4. HiHello - Buena personalización
 
@@ -191,8 +185,6 @@ Un vistazo general a las ocho apps:
 
 **Ideal para:** Profesionales con sensibilidad por el diseño que priorizan el aspecto de su tarjeta. Bueno para empresas que quieren tarjetas pulidas y alineadas con su marca.
 
----
-
 ### 5. Popl - La mejor para captación de contactos en eventos
 
 **Qué es:** Originalmente una empresa de pegatinas NFC, Popl ha pivotado fuertemente hacia la captación empresarial de contactos en eventos. Afirma ser "de confianza del 90% del Fortune 500".
@@ -210,8 +202,6 @@ Un vistazo general a las ocho apps:
 
 **Ideal para:** Equipos empresariales de eventos y ventas que necesitan captación de contactos a escala. Ya no se recomienda para profesionales individuales.
 
----
-
 ### 6. Mobilo - La mejor experiencia de hardware NFC
 
 **Qué es:** Una empresa de tarjeta de visita digital con NFC como producto central, donde la tarjeta física es lo principal, acompañada de una plataforma digital.
@@ -228,8 +218,6 @@ Un vistazo general a las ocho apps:
 
 **Ideal para:** Profesionales que quieren una tarjeta NFC física premium y están dispuestos a pagar por una combinación pulida de hardware + software.
 
----
-
 ### 7. Linq - La mejor para integración con CRM de ventas
 
 **Qué es:** Una plataforma de tarjeta de visita digital con CRM integrado e incluso un sistema telefónico, dirigida a profesionales de ventas.
@@ -244,8 +232,6 @@ Un vistazo general a las ocho apps:
 - Los costes se acumulan rápidamente al combinar funciones.
 
 **Ideal para:** Profesionales de ventas que quieren su tarjeta de visita, CRM y llamadas en una sola plataforma.
-
----
 
 ### 8. V1CE - Las mejores tarjetas físicas premium
 

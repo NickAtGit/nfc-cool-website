@@ -26,6 +26,8 @@ Si el chip es así de corriente, está claro que la magia no está en el silicio
 
 En esos bytes viven dos cosas. La primera está a la vista: un pequeño bloque que indica de qué personaje se trata - Link, de la serie The Legend of Zelda, dentro de una gama concreta de Amiibo. Esa es la parte que lee tu Switch para saber que una figura acaba de tocarla. La segunda parte está bloqueada: los datos de guardado propiamente dichos, como un apodo, el Mii del dueño, cuántas veces se ha usado la figura y lo que sea que el juego de turno haya garabateado en el pequeño bloc de notas que se le permite usar. Esa parte está cifrada, y está firmada.
 
+---
+
 ## Por qué no puedes copiar un Amiibo sin más
 
 El guardado cifrado no está protegido por una única clave fija que pudieras averiguar una vez y reutilizar para siempre. Cada etiqueta obtiene sus propias claves, derivadas al momento a partir de un conjunto de claves maestras mezcladas con datos extraídos de esa etiqueta concreta - incluido su número de serie único. Además, todo el conjunto está firmado con un HMAC. Cambia un solo byte sin volver a firmarlo y la consola detecta la falsificación y rechaza la figura.
@@ -33,6 +35,8 @@ El guardado cifrado no está protegido por una única clave fija que pudieras av
 Y aquí está la trampa. Como el número de serie está incrustado tanto en la derivación de claves como en la firma, no puedes volcar un Amiibo real y copiarlo byte a byte en una etiqueta en blanco. La etiqueta en blanco tiene un número de serie distinto, así que cada clave derivada sale diferente, la firma ya no coincide y la consola lo rechaza. El enfoque evidente de "copiar todas las páginas sin más" falla siempre.
 
 Para hacer una copia válida tienes que volver a derivar las claves contra la etiqueta de destino y volver a firmar los datos para que sean válidos para ese trozo exacto de plástico y silicio, no para el que lo volcaste. La implementación de referencia sobre la que todo el mundo construye es una herramienta llamada amiitool. Reconstruí todo ese baile de forma nativa dentro de la app - del formato de la etiqueta al formato interno y vuelta, derivación de claves, cifrado, firma - para que NFC.cool pueda hacerlo en el móvil que tienes en la mano, sin ningún ordenador de por medio.
+
+---
 
 ## Qué hace NFC.cool ahora
 
@@ -44,6 +48,8 @@ Tres cosas, en el orden en que probablemente las uses.
 
 **Copia de seguridad y restauración.** Con tus propias claves importadas, puedes grabar una copia con claves regeneradas de una figura en un NTAG215 en blanco. Puedes hacer una copia de seguridad directamente desde una figura que acabas de escanear, o restaurar desde un volcado `.bin` guardado en tu dispositivo. La app vuelve a derivar las claves para la etiqueta en blanco que tienes en la mano y firma los datos para esa etiqueta, de modo que la copia es válida por sí misma en lugar de una falsificación byte a byte condenada al fracaso. La grabación es permanente - una vez que la etiqueta se bloquea, se queda bloqueada - y la app te lo dice con claridad antes de que confirmes.
 
+---
+
 ## Qué se ha dejado fuera a propósito
 
 NFC.cool no incluye las claves de Amiibo, y nunca lo hará. No hay claves escondidas en la app, ni una biblioteca de datos de Amiibo integrada.
@@ -51,6 +57,8 @@ NFC.cool no incluye las claves de Amiibo, y nunca lo hará. No hay claves escond
 Leer y coleccionar funcionan de fábrica porque solo tocan la parte abierta de la etiqueta. Hacer una copia de seguridad es distinto: necesita las claves maestras, y esas son de Nintendo, no mías. Si las has conseguido tú mismo - el `key.bin` combinado, o los dos archivos por separado - las importas en la app una vez y la función de copia de seguridad se activa. Si no las tienes, se queda desactivada. Yo he construido la máquina; el combustible lo pones tú.
 
 Creo que esa es la línea honesta por la que hay que ir. La capacidad es de verdad útil. Hacer una copia de seguridad de una figura que tu hijo está a una mala tarde de perder, o poner un repuesto en una tarjeta barata en lugar de arriesgar el original, son razones reales por las que la gente quiere esto. Prefiero darte una forma limpia y privada de hacerlo en tu propio móvil antes que fingir que la demanda no existe. Pero no voy a repartir algo que nunca fue mío para repartir.
+
+---
 
 ## Para que quede claro
 
@@ -60,13 +68,13 @@ Primero, esta es mi app, no la de Nintendo. NFC.cool no está hecha por Nintendo
 
 Segundo, las herramientas de copia de seguridad y restauración están aquí para un uso educativo y personal: proteger figuras que ya tienes. Haz un repuesto de la que tu hijo no para de tirar al suelo, o guarda un original en su caja mientras un NTAG215 barato se lleva el desgaste del día a día. Ese es el uso para el que la construí. Trae tus propias claves, haz copias de seguridad solo de figuras que de verdad tengas, y respeta los derechos de Nintendo y lo que diga la ley donde vives. Lo que hagas con la herramienta es tu responsabilidad.
 
+---
+
 ## Funciona de verdad
 
 No quería lanzar esto a ciegas, así que lo probé de la única manera que cuenta.
 
 Escaneé una de mis propias figuras, hice una copia de seguridad en un NTAG215 en blanco y me llevé la copia a mi Switch. Cargué The Legend of Zelda: Tears of the Kingdom, acerqué la copia al Joy-Con derecho y me soltó un puñado de objetos en el inventario. Igual que el original. Sin quejas, sin ningún "no se puede leer este Amiibo". Ese fue el momento en que todo esto se volvió real para mí. Toda esa matemática de derivación de claves y esos diseños de bytes, y el resultado es una barata pegatina en blanco que una consola de Nintendo trata tan contenta como la figura auténtica.
-
----
 
 Esa estantería junto a mi escritorio ya no es solo decoración. Es una función.
 

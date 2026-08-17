@@ -198,7 +198,7 @@ Algunas cosas que la distinguen:
 - **NFC abierto** - Funciona con cualquier etiqueta NFC estándar - NFC.cool no vende hardware propietario
 - **Asequible** - Plan Personal a 20 €/año, Pequeña empresa a 50 €/año (10 tarjetas), Empresa a 100 €/año (100 tarjetas)
 
-➡️ **Prueba NFC.cool Business Card:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
+**Prueba NFC.cool Business Card:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
 
 ---
 

@@ -50,7 +50,7 @@ Tag Tipe 5 sesuai dengan standar ISO 15693 dan relatif baru dalam ekosistem NFC.
 
 ## Tag NFC mana yang harus Anda pilih untuk iPhone?
 
-Inilah bagian yang paling penting. iPhone dari iPhone 7 ke atas kompatibel dengan NFC Tipe 1, 2, dan 5, tetapi menawarkan dukungan terbaik untuk Tipe 2. Tag NFC Tipe 2 adalah [seri NTAG](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS) dari NXP Semiconductors.
+Inilah bagian yang paling penting. iPhone dari iPhone 7 ke atas bisa membaca NDEF dari kelima jenis tag NFC Forum, dan sejak iOS 13 aplikasi seperti milik saya juga bisa berkomunikasi langsung dengan tag Tipe 3, 4, dan 5 secara native, tidak sebatas NDEF biasa. Namun pengalaman yang paling mulus dan paling bisa diprediksi tetap Tipe 2, dan itulah yang saya rekomendasikan untuk hampir setiap proyek. Tag NFC Tipe 2 adalah [seri NTAG](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS) dari NXP Semiconductors.
 
 Model NTAG213, NTAG215, dan NTAG216 adalah yang paling populer dalam seri tersebut, dan bekerja dengan sangat baik dengan iPhone - itulah yang saya uji setiap hari. Tag ini memberi Anda memori yang cukup (144 hingga 888 byte) untuk sebagian besar proyek praktis, sepenuhnya dapat ditulis dan dibaca oleh iPhone berkemampuan NFC mana pun, dan dapat ditulis ulang, sehingga Anda dapat mengubah isinya sesering yang Anda mau.
 

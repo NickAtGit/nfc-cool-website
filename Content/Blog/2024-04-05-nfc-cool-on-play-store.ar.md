@@ -10,9 +10,7 @@ ogTitle: "NFC.cool الآن على متجر Play"
 ogDescription: "أصبح NFC.cool Tools متاحًا على Google Play - مسح NFC وكتابة الوسوم على Android."
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
-**تحديث، أغسطس ٢٠٢٦:** أصبح NFC.cool Business Card تطبيقًا مخصّصًا على Android أيضًا - [احصل عليه من Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). تظل البطاقات الموجودة داخل NFC.cool Tools تعمل كما هي، أما البطاقات الجديدة فتُنشأ في التطبيق المخصّص.
-
----
+> **تحديث، أغسطس ٢٠٢٦:** أصبح NFC.cool Business Card تطبيقًا مخصّصًا على Android أيضًا - [احصل عليه من Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). تظل البطاقات الموجودة داخل NFC.cool Tools تعمل كما هي، أما البطاقات الجديدة فتُنشأ في التطبيق المخصّص.
 
 أصبح **NFC.cool Tools** الآن متاحًا على [متجر Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). فبعد سنوات على iOS، أصبحت نسخة Android متاحة - وهي تأتي ببطاقة NFC.cool Business Card المضمّنة مدمجةً بداخلها.
 

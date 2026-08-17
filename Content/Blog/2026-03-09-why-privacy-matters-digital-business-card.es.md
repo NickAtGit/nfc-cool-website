@@ -148,13 +148,13 @@ Cuando construí [NFC.cool Business Card](https://apps.apple.com/app/apple-store
 
 **Sin monetización de datos ni publicidad** - Tu vCard y los datos de tu cuenta se almacenan en mi servidor para dar el servicio, pero nada se usa para publicidad ni para tratamiento de datos por terceros.
 
-**Exportación de datos RGPD** - En iOS, exporta tus contactos como CSV en cualquier momento. Sin tickets de soporte, sin periodos de espera.
+**Exportación de datos RGPD** - Descarga todo, contactos incluidos, como ZIP en cualquier momento, tanto en iPhone como en Android. Sin tickets de soporte, sin periodos de espera.
 
 **Libertad de hardware NFC** - Funciona con cualquier etiqueta NFC estándar. NFC.cool no vende hardware NFC - eres libre de usar cualquier etiqueta de terceros que elijas, sin rastreo propietario que no puedas auditar.
 
 **Desarrollador indie europeo** - Soy un desarrollador en solitario con base en Portugal. No tengo inversores de capital riesgo presionándome para monetizar los datos de los usuarios en busca de métricas de crecimiento. Mi incentivo es construir un producto en el que la gente confíe, no maximizar la recopilación de datos.
 
-No soy perfecto. Las analíticas y la captación de leads son actualmente solo para iOS (el soporte para Android llegará pronto). Aún no hay integraciones con CRM ni webhooks - en iOS hay exportación en CSV para sacar los contactos. Mi presupuesto de marketing es una fracción del de los grandes. Pero mi modelo de privacidad es algo en lo que genuinamente creo, y pienso que importa.
+No soy perfecto. Aún no hay integraciones con CRM ni webhooks - tienes una exportación completa de tus datos para sacar los contactos. El App Clip y los pases de Apple Wallet son exclusivos de iPhone, así que en Android los destinatarios abren tu tarjeta en el navegador. Mi presupuesto de marketing es una fracción del de los grandes. Pero mi modelo de privacidad es algo en lo que genuinamente creo, y pienso que importa.
 
 ---
 
@@ -162,14 +162,14 @@ No soy perfecto. Las analíticas y la captación de leads son actualmente solo p
 
 Antes de registrarte en cualquier servicio de tarjeta de visita digital, repasa esta lista:
 
-- ✅ **Sin captación de destinatarios** en tu nivel de plan
-- ✅ **Política de privacidad clara** que especifica qué datos de quienes ven la tarjeta se recopilan
-- ✅ **Exportación de datos** disponible (derecho a la portabilidad del RGPD)
-- ✅ **Eliminación de cuenta** en autoservicio, no escondida detrás del soporte
-- ✅ **Controles de visibilidad del perfil** (alternancia público/privado, protección por PIN)
-- ✅ **Sin funciones obligatorias de grabación de conversaciones** que afecten a las personas que conoces
-- ✅ **Cumplimiento del RGPD** si haces negocios en Europa (o con europeos)
-- ✅ **Modelo de negocio transparente** - entiendes cómo gana dinero la plataforma
+- ✓ **Sin captación de destinatarios** en tu nivel de plan
+- ✓ **Política de privacidad clara** que especifica qué datos de quienes ven la tarjeta se recopilan
+- ✓ **Exportación de datos** disponible (derecho a la portabilidad del RGPD)
+- ✓ **Eliminación de cuenta** en autoservicio, no escondida detrás del soporte
+- ✓ **Controles de visibilidad del perfil** (alternancia público/privado, protección por PIN)
+- ✓ **Sin funciones obligatorias de grabación de conversaciones** que afecten a las personas que conoces
+- ✓ **Cumplimiento del RGPD** si haces negocios en Europa (o con europeos)
+- ✓ **Modelo de negocio transparente** - entiendes cómo gana dinero la plataforma
 
 Si una plataforma falla en más de uno o dos de estos puntos, considera si la comodidad merece el intercambio.
 

@@ -17,6 +17,8 @@ Il y a quelque temps, je tombais sans cesse sur la même affirmation au détour 
 
 Alors j'ai fait ce que je fais toujours quand un tag m'intrigue. Je suis allé sur AliExpress, j'ai trouvé une annonce pour des tags « NTAG 424 DNA », j'en ai commandé un petit lot, et j'ai attendu que l'enveloppe arrive. Quelques euros, deux semaines, et j'avais sur mon bureau le même silicium sur lequel reposent ces systèmes de protection des marques. Puis j'en ai approché un du téléphone pour voir ce qu'il fait.
 
+---
+
 ## Ce qu'est réellement un tag NTAG 424 DNA
 
 De l'extérieur, c'est un tag NFC ordinaire. Vous ne sauriez pas le distinguer dans un tas de tags bon marché, et n'importe quel téléphone le lit sans broncher. Si vous avez lu mon [guide des types de tags NFC](/blog/nfc-tag-types-for-iphones/), il s'y range comme un tag de Type 4 de plus que votre iPhone lit volontiers.
@@ -24,6 +26,8 @@ De l'extérieur, c'est un tag NFC ordinaire. Vous ne sauriez pas le distinguer d
 C'est la partie « DNA » qui change la donne. À l'intérieur, la puce renferme quelques clés AES-128 et un petit moteur cryptographique, et elle sait faire quelque chose qu'aucun NTAG215 tout simple ni aucun autocollant d'un lot ne sait faire : elle peut *signer* chaque scan. Cette signature, c'est tout l'enjeu. C'est la différence entre un tag qui dit « voici un lien » et un tag qui dit « voici un lien, et voici la preuve cryptographique que c'est bien moi, cette puce authentique bien précise, qui le délivre, à cet instant ».
 
 C'est cela que les marques de luxe paient en réalité - pas le lien, mais la preuve qu'une puce authentique est bien celle qui le délivre.
+
+---
 
 ## Comment fonctionnent SUN et SDM : un lien qui se réécrit à chaque scan
 
@@ -39,6 +43,8 @@ Ces deux valeurs ne sont pas décoratives. `picc_data` est une copie chiffrée d
 
 Je vois un tag NFC ordinaire comme une pancarte imprimée dans une vitrine. N'importe qui peut la photographier et en imprimer une copie identique. Un tag SUN ressemble davantage à un vigile qui vous remet un nouveau reçu, numéroté et tamponné individuellement, chaque fois que vous entrez. Copier le reçu d'hier ne vous avance à rien, parce que le numéro d'aujourd'hui est différent et que seul le tampon du vigile est authentique.
 
+---
+
 ## Pourquoi un tag NTAG 424 DNA cloné se fait démasquer
 
 C'est la partie qui répond à ma question de départ. Un contrefacteur peut tout à fait cloner le *contenu* d'un tag. Il peut lire l'URL, la copier octet par octet, et la programmer sur une puce vierge. Ça a toujours été vrai.
@@ -48,6 +54,8 @@ Ce qu'il ne peut pas faire, c'est produire la signature valide suivante. La clé
 C'est cette dernière partie qui démasque un clone. La seule URL qu'un contrefacteur peut placer sur un faux est celle qu'il a capturée lors d'un scan authentique, figée avec le compteur que ce scan portait ce jour-là. Rejouez-la et le serveur regarde un nombre qu'il a déjà vu, or le compteur d'une vraie puce ne peut qu'avancer, donc une répétition ou un retour en arrière trahit la supercherie. Pour envoyer un compteur neuf et plus élevé accompagné d'une signature qui tient toujours la route, il lui faudrait la clé, et pour obtenir la clé il lui faudrait casser l'AES ou décapsuler physiquement la puce. Ni l'un ni l'autre n'arrivera pour un faux sac à main.
 
 Voilà la version honnête de la phrase marketing. La puce ne rend pas le *produit* impossible à copier. Elle rend la *preuve d'authenticité* impossible à copier, et elle déplace cette preuve sur quelque chose que le contrefacteur ne peut pas reproduire.
+
+---
 
 ## Comment NFC.cool vérifie qu'un tag est authentique
 
@@ -61,6 +69,8 @@ Une fois les tags compris, je voulais que l'app fasse les choses correctement de
 
 Tout ceci est gratuit pour tout le monde. Lire un tag - son lien, son compteur de scans, l'agencement de ses fichiers, si son sceau est toujours intact - et exécuter les deux contrôles cryptographiques ne coûte rien. Je voulais que la question « ce truc est-il authentique ? » soit à la portée de quiconque en scanne un.
 
+---
+
 ## Programmer vos propres tags sécurisés
 
 La lecture n'en est que la moitié. L'autre moitié, c'est que ces tags vierges d'AliExpress sont à vous, à programmer, et NFC.cool le fait via un vrai canal authentifié et chiffré, le même échange sécurisé que la puce exige, pas une écriture brute faite au petit bonheur.
@@ -68,6 +78,8 @@ La lecture n'en est que la moitié. L'autre moitié, c'est que ces tags vierges 
 La version en douceur tient en trois étapes. Écrivez votre propre lien, ce qui est gratuit. Activez SUN pour que le tag se mette à signer chaque scan. Et remplacez la clé d'usine par la vôtre, définie sous forme de phrase secrète pour qu'il n'y ait pas de chaîne hexadécimale de 32 caractères à manier, enregistrée dans votre trousseau. À partir de là, le tag vous est verrouillé : il continue de prouver son authenticité à quiconque le scanne, mais vous seul pourrez jamais le reprogrammer.
 
 C'est là que j'aurais pu m'arrêter. Les rares apps qui s'approchent ne serait-ce que de ces tags s'y arrêtent. Pas moi.
+
+---
 
 ## Configurez l'intégralité de la puce NTAG 424 DNA depuis votre iPhone ou Android
 
@@ -81,11 +93,15 @@ La puce garde même un petit coffre privé. Elle contient un fichier chiffré, v
 
 Si vous avez déjà fait cela auparavant, c'était à un bureau. NXP distribue un outil Windows appelé TagXplorer, vous branchez un lecteur USB sur votre ordinateur, et vous parcourez la configuration de la puce à coups de clics depuis là. NFC.cool fait toutes ces mêmes choses, mais il est conçu pour être utilisé, pas enduré. Là où TagXplorer est un logiciel de bureau bourré d'hexadécimal brut et de champs abscons, NFC.cool, ce sont des écrans en langage clair sur le téléphone déjà dans votre poche, avec une phrase secrète à la place d'une clé brute et un avertissement avant tout ce qui est définitif. Vous pilotez le tout en tenant votre téléphone contre le tag une seconde ou deux.
 
+---
+
 ## Ce qu'est le mode LRP du NTAG 424 DNA, et les changements qu'on ne peut pas défaire
 
 Et puis il y a le LRP. Dans mes notes de conception pour la première version, juste à côté de « mode LRP », j'avais écrit « pas prévu - exotique, inutile pour une app grand public ». LRP signifie Leakage-Resilient Primitive, et c'est le mode véritablement paranoïaque du tag. Normalement, la puce protège ses clés avec de l'AES ordinaire, et voler une clé reviendrait à casser l'AES lui-même. Mais il existe une voie d'attaque plus sournoise : posez une puce sur un banc d'essai, observez la légère oscillation de sa consommation électrique et de son bourdonnement électromagnétique pendant qu'elle exécute la cryptographie, et avec assez de ces relevés vous pouvez reconstituer la clé secrète à partir de la seule fuite, sans jamais toucher aux mathématiques. Le LRP est un canal sécurisé reconstruit pour ne rien laisser à quoi cette fuite puisse se raccrocher. C'est réellement démesuré pour un autocollant sur une bouteille de vin, ce qui explique que la plupart des tags ne l'activent jamais et que la plupart des outils n'apprennent jamais à le parler. Ça n'a pourtant pas cessé de me tarauder, et « couvrir toute la spécification » ne s'accompagne pas d'une note de bas de page disant « sauf la partie difficile », alors je l'ai construit. NFC.cool parle le LRP désormais, ce qui veut dire que même après qu'un tag a basculé dans ce mode, un interrupteur à sens unique sur lequel on ne peut pas revenir, l'app peut encore s'y authentifier et le gérer comme n'importe quel autre. Je ne connais aucune autre app de téléphone qui va jusque-là.
 
 Je serai franc sur les écueils, parce qu'ils sont plus nombreux maintenant. Beaucoup de ces commandes sont définitives. Activer le LRP ne peut pas être défait. Activer un ID aléatoire ne peut pas être défait. Réglez la permission « modifier » d'un fichier sur « Jamais » et vous avez figé ce fichier pour toute la durée de vie du tag. Une mauvaise clé peut verrouiller un emplacement pour de bon. L'app le clame haut et fort sur le moment, les actions vraiment irréversibles vous obligent à confirmer via un avertissement qui détaille la conséquence exacte, mais ça vaut la peine de le dire ici aussi : entraînez-vous sur un tag de rechange avant de toucher à un tag qui vous tient à cœur.
+
+---
 
 ## Où les tags NFC anti-contrefaçon servent réellement
 
@@ -94,6 +110,8 @@ Honnêtement ? La plupart des gens qui scannent un tag NFC n'ont jamais besoin d
 Mais une fois que vous en avez tenu un en main, les cas d'usage sautent aux yeux. Un sac de luxe peut prouver son authenticité. Une bouteille de vin ou de whisky peut montrer qu'elle n'a jamais été discrètement débouchée puis recomplétée avec quelque chose de moins cher, le sceau d'inviolabilité assurant cette moitié-là. Une boîte de médicament se porte garante à la fois du vrai principe actif à l'intérieur et d'un sceau que personne n'a brisé. Un produit en série limitée ou une œuvre d'art reçoit un certificat que nul ne peut falsifier, et les billets d'événements cessent d'être quelque chose qu'on peut capturer en photo et faire circuler. Placez un tag près d'une porte ou sur une étagère et un scan prouve que quelqu'un s'est réellement tenu là, au lieu de rejouer un lien enregistré depuis son canapé. Des sneakers et des cartes à collectionner prouvent qu'elles sont authentiques et non une bonne contrefaçon. Et n'importe quel créateur indépendant peut faire en sorte que son objet prouve qu'il est bien *son* objet. C'est le même problème d'authenticité que le [passeport numérique de produit de l'UE](/blog/eu-digital-product-passport-2026/) aborde par le versant réglementaire, résolu à l'échelle de l'objet individuel.
 
 Je n'ai pas construit ça parce que mille utilisateurs le réclamaient. Je l'ai construit parce que j'ai acheté des tags bizarres sur internet par curiosité, j'ai compris comment ils fonctionnaient, et ensuite je n'ai pas pu laisser une seule page de la fiche technique de côté. C'est généralement ainsi que débutent les bonnes fonctions.
+
+---
 
 ## L'essentiel sur les tags NTAG 424 DNA
 

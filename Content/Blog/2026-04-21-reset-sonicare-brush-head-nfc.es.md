@@ -53,7 +53,7 @@ El NTAG213 está protegido por contraseña. Cada cabezal de cepillo tiene una co
 
 La contraseña se calcula a partir de dos entradas: el UID de 7 bytes de la etiqueta y el código de fabricación almacenado en la etiqueta (y impreso en el vástago). [Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) hizo ingeniería inversa del algoritmo a partir del firmware de Sonicare después de que Cyrill Künzi captase originalmente la transmisión de la contraseña usando una radio definida por software.
 
-⚠️**Importante:** el NTAG213 se bloquea permanentemente tras **tres intentos fallidos de contraseña**. El chip pasa a ser de solo lectura para siempre - ni siquiera el cepillo de dientes puede volver a escribir en él. No adivines.
+**Importante:** el NTAG213 se bloquea permanentemente tras **tres intentos fallidos de contraseña**. El chip pasa a ser de solo lectura para siempre - ni siquiera el cepillo de dientes puede volver a escribir en él. No adivines.
 
 ---
 

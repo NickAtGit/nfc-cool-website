@@ -133,7 +133,7 @@ NFC.cool Business Card adalah aplikasi mandiri di iPhone dan Android. Inilah yan
 - **35 bahasa** di antarmuka aplikasi dan App Clip - lebih dari aplikasi kartu nama digital lain yang saya ketahui. Kartu Anda ditampilkan dalam bahasa klien di iOS. (Situs web berbagi Android saat ini hanya dalam bahasa Inggris.)
 - **Tidak ada aplikasi untuk orang yang menerima kartu Anda.** Di iPhone mereka mendapatkan App Clip native; di Android, halaman di domain nfc.cool. Keduanya memiliki tombol "Simpan Kontak."
 - **Ketukan NFC dan kode QR**, plus tautan yang bisa dibagikan biasa untuk obrolan dan tanda tangan email.
-- **Conference Mode** - iOS Live Activity yang menempatkan kode QR kartu Anda di layar kunci. Anda angkat ponsel, mereka pindai, selesai. Tidak perlu membuka kunci, tidak perlu mencari di Apple Wallet. Integrasi Wallet juga ada, sebagai alternatif.
+- **Conference Mode** - menyematkan kode QR kartu Anda di layar kunci sepanjang hari acara, baik di iPhone (sebagai Live Activity) maupun di Android. Anda angkat ponsel, mereka pindai, selesai. Tidak perlu membuka kunci, tidak perlu mencari di Apple Wallet. Integrasi Wallet juga ada, sebagai alternatif.
 - **Hingga 100 kartu**, sehingga saran "satu kartu per peran" di atas benar-benar praktis.
 - **Kartu yang dilindungi PIN** untuk hal-hal yang sensitif.
 - **Mengutamakan privasi**: tidak ada monetisasi data atau iklan, tidak ada permintaan kepada penerima, tidak ada perekaman percakapan, ekspor data sesuai GDPR.
@@ -142,8 +142,7 @@ NFC.cool Business Card adalah aplikasi mandiri di iPhone dan Android. Inilah yan
 
 Di mana pesaing benar-benar lebih unggul:
 
-- **Integrasi CRM.** Jika hari-hari Anda bergantung pada HubSpot atau Salesforce, aplikasi seperti Wave Connect atau Blinq menyinkronkan kontak secara native. NFC.cool menawarkan ekspor CSV di iOS - belum ada webhook.
-- **Analitik lintas platform.** Melihat siapa yang melihat kartu Anda, dan kapan, saat ini hanya tersedia di iOS; Android akan menyusul. Beberapa pesaing sudah memilikinya di kedua platform.
+- **Integrasi CRM.** Jika hari-hari Anda bergantung pada HubSpot atau Salesforce, aplikasi seperti Wave Connect atau Blinq menyinkronkan kontak secara native. Sebagai gantinya, NFC.cool memberi Anda ekspor data lengkap - belum ada webhook.
 - **Manajemen tim enterprise.** Jika Anda adalah perusahaan dengan 50 orang yang membutuhkan dasbor admin dan sinkronisasi direktori, itu bukan yang dibangun oleh NFC.cool.
 
 Versi jujurnya: untuk agen, dokter, atau solopreneur, yang penting sehari-hari adalah berbagi yang cepat, kartu yang terlihat seperti *Anda*, dan tidak ada yang mempermalukan Anda kemudian. Itulah yang saya bangun. Jika Anda membutuhkan CRM penjualan yang terhubung ke kartu nama Anda, beli alat yang melakukan itu.
@@ -172,7 +171,7 @@ NFC dan QR berfungsi di ponsel di seluruh dunia. Apakah *kartu itu sendiri* bera
 
 ### Bisakah saya melihat siapa yang melihat kartu saya, dan apakah data itu aman?
 
-Beberapa aplikasi menunjukkan tampilan kepada Anda; beberapa bahkan memasarkan kepada orang yang melihat kartu Anda. Perilaku kedua itu adalah masalah - prospek Anda seharusnya mendengar dari Anda, bukan dari penyedia kartu Anda. NFC.cool menawarkan analitik di iOS (Android akan menyusul) dan tidak pernah meminta penerima.
+Beberapa aplikasi menunjukkan tampilan kepada Anda; beberapa bahkan memasarkan kepada orang yang melihat kartu Anda. Perilaku kedua itu adalah masalah - prospek Anda seharusnya mendengar dari Anda, bukan dari penyedia kartu Anda. NFC.cool menawarkan analitik di iPhone maupun Android dan tidak pernah meminta penerima.
 
 ### Berapa sebenarnya biayanya?
 

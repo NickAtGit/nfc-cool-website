@@ -148,13 +148,13 @@ Quand j'ai conçu [NFC.cool Business Card](https://apps.apple.com/app/apple-stor
 
 **Aucune monétisation des données ni publicité** - Votre vCard et les données de votre compte sont stockées sur mon serveur pour faire fonctionner le service, mais rien n'est utilisé à des fins publicitaires ou de traitement de données par des tiers.
 
-**Export des données conforme au RGPD** - Sur iOS, exportez vos contacts au format CSV quand vous voulez. Pas de ticket d'assistance, pas de délai d'attente.
+**Export des données conforme au RGPD** - Téléchargez tout, contacts compris, sous forme d'archive ZIP quand vous voulez, sur iPhone comme sur Android. Pas de ticket d'assistance, pas de délai d'attente.
 
 **Liberté sur le matériel NFC** - L'app fonctionne avec n'importe quel tag NFC standard. NFC.cool ne vend pas de matériel NFC - vous êtes libre d'utiliser le tag tiers de votre choix, sans pistage propriétaire que vous ne pourriez pas vérifier.
 
 **Développeur indépendant européen** - Je suis un développeur solo basé au Portugal. Je n'ai pas d'investisseurs en capital-risque qui me poussent à monétiser les données des utilisateurs pour gonfler des indicateurs de croissance. Ce qui me motive, c'est de bâtir un produit auquel les gens font confiance, pas de maximiser la collecte de données.
 
-Je ne suis pas parfait. Les statistiques et la captation de prospects sont pour l'instant réservées à iOS (la prise en charge d'Android arrive bientôt). Il n'y a pas encore d'intégrations CRM ni de webhooks - iOS propose l'export CSV pour récupérer vos contacts. Mon budget marketing représente une fraction de celui des gros acteurs. Mais mon modèle de confidentialité est une chose à laquelle je crois sincèrement, et je pense que cela compte.
+Je ne suis pas parfait. Il n'y a pas encore d'intégrations CRM ni de webhooks - vous disposez d'un export complet de vos données pour récupérer vos contacts. L'App Clip et les cartes Apple Wallet sont réservés à l'iPhone : sur Android, les destinataires ouvrent votre carte dans le navigateur. Mon budget marketing représente une fraction de celui des gros acteurs. Mais mon modèle de confidentialité est une chose à laquelle je crois sincèrement, et je pense que cela compte.
 
 ---
 

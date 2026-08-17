@@ -45,8 +45,6 @@ Numa conferência, tudo o que é ligeiramente inconveniente no papel torna-se um
 
 Passar ao digital não é apenas trocar papel por uma app. A verdadeira vantagem é ter um sistema que funciona ao longo de toda a linha temporal da conferência - da preparação ao seguimento. Aqui fica como configurá-lo.
 
----
-
 ### Fase 1: Antes da Conferência
 
 O pior momento para configurar o seu cartão de visita digital é enquanto está na fila de inscrição. Trate disto pelo menos uma semana antes do evento.
@@ -84,15 +82,13 @@ Isto é opcional, mas causa uma grande impressão:
 
 #### Coloque o seu código QR no ecrã de bloqueio (iOS)
 
-O Modo Conferência do NFC.cool Business Card usa uma Live Activity do iOS para colocar o código QR do seu cartão diretamente no ecrã de bloqueio. Este é o método de partilha mais rápido nas conferências:
+O Modo Conferência do NFC.cool Business Card fixa o código QR do seu cartão diretamente no ecrã de bloqueio durante um dia inteiro de evento - no iPhone, funciona como uma Live Activity, e o Android tem o mesmo modo. Este é o método de partilha mais rápido nas conferências:
 
 - O seu código QR está sempre visível - sem desbloquear, sem abrir qualquer app
 - As pessoas limitam-se a ler o seu ecrã enquanto está a falar com elas
 - É ainda mais rápido do que o Apple Wallet, porque não precisa de encontrar o passe certo
 
 A integração com o Apple Wallet também está disponível como opção de reserva.
-
----
 
 ### Fase 2: Durante a Conferência
 
@@ -132,8 +128,6 @@ As conferências já não são só sobre o chão da feira. Há canais de Slack, 
 
 Uma das maiores vantagens face ao papel: pode ver quem viu o seu cartão e quando. Depois de uma conversa particularmente boa, faça uma nota rápida no telemóvel: "Sara - VP de Marketing na Acme - falámos de parceria no projeto de sustentabilidade". Quando fizer o seguimento mais tarde, terá um contexto que um cartão em papel nunca proporciona.
 
----
-
 ### Fase 3: Depois da Conferência
 
 É aqui que a maioria dos esforços de networking morre. Volta a casa de avião, larga a pilha de cartões em cima da secretária e diz "amanhã trato disto". O amanhã torna-se na próxima semana. A próxima semana torna-se nunca.
@@ -150,7 +144,7 @@ Como o seu cartão digital inclui a sua fotografia, a pessoa vai mesmo lembrar-s
 
 #### Reveja as suas estatísticas de partilha
 
-Muitas plataformas de cartões digitais mostram-lhe quem abriu o seu cartão e quando (o NFC.cool oferece isto no iOS, com suporte para Android a chegar em breve). Isto diz-lhe:
+Muitas plataformas de cartões digitais mostram-lhe quem abriu o seu cartão e quando (o NFC.cool faz isto tanto no iPhone como no Android). Isto diz-lhe:
 
 - Quem teve interesse suficiente para realmente olhar para o seu perfil (e não apenas guardar o seu cartão por delicadeza)
 - Quando olharam - alguém que revê o seu cartão três dias depois da conferência é um contacto promissor

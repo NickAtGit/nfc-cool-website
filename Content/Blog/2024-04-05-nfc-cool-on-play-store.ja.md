@@ -10,9 +10,7 @@ ogTitle: "NFC.coolがPlayストアに登場"
 ogDescription: "NFC.cool ToolsがGoogle Playで公開 - AndroidでのNFCスキャンとタグの書き込み。"
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
-**2026年8月の追記：** NFC.cool Business CardはAndroidでも専用アプリになりました - [Google Playで入手](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-ja)。NFC.cool Tools内の既存のカードはそのまま使えますが、新しいカードは専用アプリで作成します。
-
----
+> **2026年8月の追記：** NFC.cool Business CardはAndroidでも専用アプリになりました - [Google Playで入手](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-ja)。NFC.cool Tools内の既存のカードはそのまま使えますが、新しいカードは専用アプリで作成します。
 
 **NFC.cool Tools**が[Google Playストア](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-ja)で利用可能になりました。iOSで数年を経て、Android版がライブです - そしてNFC.cool Business Cardが内蔵されています。
 

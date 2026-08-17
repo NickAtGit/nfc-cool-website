@@ -50,7 +50,7 @@ Las etiquetas de Tipo 5 cumplen el estándar ISO 15693 y son relativamente nueva
 
 ## ¿Qué etiquetas NFC deberías elegir para tu iPhone?
 
-Aquí está la parte que más importa. Los iPhones a partir del iPhone 7 son compatibles con NFC de Tipo 1, 2 y 5, pero ofrecen el mejor soporte para el Tipo 2. Las etiquetas NFC de Tipo 2 son la [serie NTAG](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS) de NXP Semiconductors.
+Aquí está la parte que más importa. Los iPhones a partir del iPhone 7 pueden leer NDEF de los cinco tipos del NFC Forum, y desde iOS 13 las apps como la mía también pueden comunicarse de forma nativa con etiquetas de Tipo 3, 4 y 5, más allá del simple NDEF. Pero la opción más fluida y predecible sigue siendo el Tipo 2, y es la que recomiendo para casi cualquier proyecto. Las etiquetas NFC de Tipo 2 son la [serie NTAG](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS) de NXP Semiconductors.
 
 Los modelos NTAG213, NTAG215 y NTAG216 son los más populares de esa serie, y funcionan de maravilla con iPhones - es contra lo que hago pruebas día tras día. Te dan suficiente memoria (de 144 a 888 bytes) para la mayoría de proyectos prácticos, son totalmente escribibles y legibles por cualquier iPhone con NFC, y son reescribibles, así que puedes cambiar su contenido las veces que quieras.
 

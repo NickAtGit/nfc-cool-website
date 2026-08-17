@@ -17,6 +17,8 @@ Há algum tempo, não parava de ler a mesma afirmação de passagem: as marcas d
 
 Por isso, fiz aquilo que faço sempre quando fico curioso sobre uma tag. Fui ao AliExpress, encontrei um anúncio de tags "NTAG 424 DNA", encomendei um pequeno lote e esperei que o envelope aparecesse. Uns euros, um par de semanas, e tinha em cima da secretária o mesmo silício em que assentam esses sistemas de proteção de marca. Depois toquei numa para ver o que faz.
 
+---
+
 ## O que é realmente uma tag NTAG 424 DNA
 
 Por fora, é uma tag NFC vulgar. Não a conseguiria distinguir de um monte de tags baratas, e qualquer telemóvel a lê sem se queixar. Se leu o meu [guia sobre os tipos de tags NFC](/blog/nfc-tag-types-for-iphones/), encaixa-se como mais uma tag de Tipo 4 que o seu iPhone lê de bom grado.
@@ -24,6 +26,8 @@ Por fora, é uma tag NFC vulgar. Não a conseguiria distinguir de um monte de ta
 A parte do "DNA" é o que faz a diferença. Lá dentro, o chip guarda algumas chaves AES-128 e um pequeno motor criptográfico, e consegue fazer algo que nenhum NTAG215 comum ou autocolante de uma embalagem múltipla consegue: consegue *assinar* cada um dos toques. Essa assinatura é tudo o que importa. É a diferença entre uma tag que diz "aqui está um link" e uma tag que diz "aqui está um link, e aqui está a prova criptográfica de que eu, este chip genuíno específico, sou quem o está a servir, neste preciso momento".
 
 É por isto que as marcas de luxo estão realmente a pagar - não pelo link, mas pela prova de que é um chip genuíno a servi-lo.
+
+---
 
 ## Como funcionam o SUN e o SDM: um link que se reescreve a cada toque
 
@@ -39,6 +43,8 @@ Estes dois valores não são decoração. `picc_data` é uma cópia encriptada d
 
 Penso numa tag NFC comum como um letreiro impresso na montra de uma loja. Qualquer pessoa o pode fotografar e imprimir uma cópia idêntica. Uma tag SUN é mais como um segurança que lhe entrega um recibo novo, numerado individualmente e carimbado, sempre que entra. Copiar o recibo de ontem não lhe serve de nada, porque o número de hoje é diferente e só o carimbo do segurança é verdadeiro.
 
+---
+
 ## Porque é que uma tag NTAG 424 DNA clonada é apanhada
 
 Esta é a parte que responde à minha pergunta original. Um falsificador consegue, sem dúvida, clonar o *conteúdo* de uma tag. Consegue ler o URL, copiá-lo byte a byte e gravá-lo num chip virgem. Isto sempre foi verdade.
@@ -48,6 +54,8 @@ O que não consegue é produzir a próxima assinatura válida. A chave de assina
 Essa última parte é o que apanha um clone. O único URL que um falsificador consegue colocar numa imitação é um que tenha capturado de um toque genuíno, congelado com o contador que esse toque por acaso trazia. Repita-o e o servidor está a olhar para um número que já viu antes, e o contador de um chip verdadeiro só avança, por isso uma repetição ou um passo atrás denuncia a fraude. Para enviar um contador novo e mais alto com uma assinatura que ainda bata certo, precisaria da chave, e para obter a chave teria de quebrar o AES ou de abrir fisicamente o chip. Nenhuma das duas coisas vai acontecer por causa de uma mala falsa.
 
 Esta é a versão honesta da frase de marketing. O chip não torna o *produto* impossível de copiar. Torna a *prova de autenticidade* impossível de copiar, e transfere essa prova para algo que o falsificador não consegue reproduzir.
+
+---
 
 ## Como a NFC.cool verifica se uma tag é genuína
 
@@ -61,6 +69,8 @@ Assim que percebi as tags, quis que a aplicação fizesse tudo como deve ser, n�
 
 Tudo isto é gratuito para toda a gente. Ler uma tag - o seu link, o seu contador de toques, a disposição dos seus ficheiros, se o seu selo continua intacto - e executar ambas as verificações criptográficas não custa nada. Quis que a pergunta "isto é verdadeiro?" pudesse ser respondida por qualquer pessoa que toque numa.
 
+---
+
 ## Programar as suas próprias tags seguras
 
 Ler é metade da história. A outra metade é que aquelas tags virgens do AliExpress são suas para programar, e a NFC.cool fá-lo através de um canal devidamente autenticado e encriptado, a mesma mensagem segura que o chip exige, não uma gravação em bruto feita à sorte.
@@ -68,6 +78,8 @@ Ler é metade da história. A outra metade é que aquelas tags virgens do AliExp
 A versão simples são três passos. Grave o seu próprio link, o que é gratuito. Ative o SUN para que a tag comece a assinar cada toque. E substitua a chave de fábrica pela sua, definida como uma frase-passe para que não haja nenhuma cadeia hexadecimal de 32 caracteres com que lidar, guardada no seu porta-chaves. A partir desse momento, a tag fica bloqueada a si: continua a provar que é genuína a quem quer que lhe toque, mas só você a pode voltar a programar.
 
 Era aqui que eu podia ter parado. As poucas aplicações que sequer se aproximam destas tags param. Eu não parei.
+
+---
 
 ## Configure todo o chip NTAG 424 DNA a partir do iPhone ou do Android
 
@@ -81,11 +93,15 @@ O chip até guarda um pequeno cofre privado. Há nele um ficheiro encriptado, bl
 
 Se alguma vez fez isto antes, fê-lo a uma secretária. A NXP disponibiliza uma ferramenta para Windows chamada TagXplorer. Liga um leitor USB ao computador e navega pela configuração do chip a partir daí. A NFC.cool faz exatamente as mesmas coisas, mas é feita para ser usada, não para ser aturada. Enquanto o TagXplorer é uma aplicação de secretária cheia de hexadecimal em bruto e campos crípticos, a NFC.cool são ecrãs em linguagem simples no telemóvel que já tem no bolso, com uma frase-passe em vez de uma chave em bruto e um aviso antes de qualquer coisa permanente. Controla tudo encostando o telemóvel à tag durante um segundo ou dois.
 
+---
+
 ## O que é o modo LRP do NTAG 424 DNA, e as alterações que não pode desfazer
 
 E depois há o LRP. Nas minhas notas de design para a primeira versão, mesmo ao lado de "modo LRP", tinha escrito "não planeado - exótico, desnecessário para uma aplicação de consumo". LRP significa Leakage-Resilient Primitive, e é o modo genuinamente paranoico da tag. Normalmente, o chip guarda as suas chaves com AES comum, e roubar uma chave implicaria quebrar o próprio AES. Mas há uma linha de ataque mais manhosa: coloque um chip numa bancada, observe a ligeira oscilação no consumo de energia e o zumbido eletromagnético enquanto executa a criptografia e, com um número suficiente desses rastos, consegue reconstruir a chave secreta apenas a partir da fuga, sem nunca tocar na matemática. O LRP é um canal seguro reconstruído, concebido para não dar a essa fuga nada a que se agarrar. É um verdadeiro exagero para um autocolante numa garrafa de vinho, e é por isso que a maioria das tags nunca o ativa e a maioria das ferramentas nunca aprende a falá-lo. Ainda assim, continuou a martelar-me a cabeça, e "cobrir toda a especificação" não vem com uma nota de rodapé que diga "exceto a parte difícil", por isso construí-o. A NFC.cool fala agora LRP, o que significa que, mesmo depois de uma tag ser mudada para esse modo, um interruptor de sentido único que não pode reverter, a aplicação continua a conseguir autenticar-se nela e a geri-la como qualquer outra. Não conheço outra aplicação de telemóvel que vá até aí.
 
 Vou ser direto quanto aos riscos, porque agora há mais deles. Muitos destes comandos são permanentes. Ativar o LRP não pode ser desfeito. Ativar um ID aleatório não pode ser desfeito. Defina a permissão de "alteração" de um ficheiro para Nunca e congelou esse ficheiro para o resto da vida da tag. Uma chave errada pode bloquear uma posição para sempre. A aplicação não se cala quanto a isto no momento, as ações verdadeiramente irreversíveis obrigam-no a confirmar através de um aviso que explica a consequência exata, mas vale a pena dizê-lo aqui também: pratique numa tag sobresselente antes de tocar numa tag de que gosta.
+
+---
 
 ## Onde as tags NFC antifalsificação são realmente usadas
 
@@ -94,6 +110,8 @@ Sinceramente? A maioria das pessoas que toca numa tag NFC nunca precisa de nada 
 Mas depois de segurar uma destas na mão, os casos de uso tornam-se óbvios. Uma mala de luxo pode provar que é genuína. Uma garrafa de vinho ou de whisky pode mostrar que nunca foi discretamente aberta e reabastecida com algo mais barato, com o selo antiadulteração a tratar dessa metade. Uma caixa de medicamentos responde tanto pelo verdadeiro fármaco lá dentro como por um selo que ninguém quebrou. Um produto de série limitada ou uma obra de arte ganha um certificado que ninguém consegue forjar, e os bilhetes de eventos deixam de ser algo de que se tira uma captura de ecrã e se passa por aí. Coloque uma tag junto a uma porta ou numa prateleira e um toque prova que alguém esteve mesmo ali, em vez de reproduzir um link guardado a partir do sofá. Ténis e cartas colecionáveis provam que são o lançamento verdadeiro e não uma boa imitação. E qualquer criador independente pode fazer com que a sua coisa prove que é *a sua* coisa. É o mesmo problema de autenticidade que o [Passaporte Digital de Produto da UE](/blog/eu-digital-product-passport-2026/) está a abordar pelo lado da regulação, resolvido ao nível do objeto individual.
 
 Não construí isto porque mil utilizadores o pediram. Construí-o porque comprei umas tags estranhas na internet por curiosidade, percebi como funcionavam, e depois não consegui deixar uma única página da ficha técnica por virar. Normalmente, é assim que começam as boas funcionalidades.
+
+---
 
 ## A conclusão sobre as tags NTAG 424 DNA
 

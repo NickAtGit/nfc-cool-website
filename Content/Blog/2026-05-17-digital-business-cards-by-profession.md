@@ -133,7 +133,7 @@ NFC.cool Business Card is a standalone app on iPhone and Android. Here's what it
 - **35 languages** in the app interface and the App Clip - more than any other digital business card I'm aware of. Your card displays in your client's language on iOS. (The Android sharing website is English-only for now.)
 - **No app for the person receiving your card.** On iPhone they get a native App Clip; on Android, a page on the nfc.cool domain. Both have a "Save Contact" button.
 - **NFC tap and QR code**, plus a plain shareable link for chats and email signatures.
-- **Conference Mode** - an iOS Live Activity that puts your card's QR code on your lock screen. You raise your phone, they scan, done. No unlocking, no hunting through Apple Wallet. Wallet integration is there too, as an alternative.
+- **Conference Mode** - pins your card's QR code on your lock screen for a full event day, on iPhone (as a Live Activity) and Android alike. You raise your phone, they scan, done. No unlocking, no hunting through Apple Wallet. Wallet integration is there too, as an alternative.
 - **Up to 100 cards**, so the "one card per role" advice above is actually practical.
 - **PIN-protected cards** for anything sensitive.
 - **Privacy-first**: no data monetization or advertising, no recipient solicitation, no conversation recording, GDPR-compliant data export.
@@ -142,8 +142,7 @@ NFC.cool Business Card is a standalone app on iPhone and Android. Here's what it
 
 Where competitors are genuinely ahead:
 
-- **CRM integrations.** If your day runs on HubSpot or Salesforce, apps like Wave Connect or Blinq sync contacts natively. NFC.cool offers CSV export on iOS - no webhooks yet.
-- **Cross-platform analytics.** Seeing who viewed your card, and when, is iOS-only for now; Android is coming. Some competitors have it on both today.
+- **CRM integrations.** If your day runs on HubSpot or Salesforce, apps like Wave Connect or Blinq sync contacts natively. NFC.cool gives you a full data export instead - no webhooks yet.
 - **Enterprise team management.** If you're a 50-person firm that needs an admin dashboard and directory sync, that isn't what NFC.cool is built for.
 
 The honest version: for an agent, a physician, or a soloist, what matters day to day is that sharing is fast, the card looks like *you*, and nothing embarrasses you later. That's what I built it for. If you need a sales CRM welded to your business card, buy the tool that does that.
@@ -172,7 +171,7 @@ NFC and QR work on phones worldwide. Whether the *card itself* adapts to another
 
 ### Can I see who viewed my card, and is that data safe?
 
-Some apps show you views; some go further and market to the people who saw your card. That second behavior is a problem - your prospects should hear from you, not from your card vendor. NFC.cool offers analytics on iOS (Android coming) and never solicits recipients.
+Some apps show you views; some go further and market to the people who saw your card. That second behavior is a problem - your prospects should hear from you, not from your card vendor. NFC.cool offers analytics on iPhone and Android alike and never solicits recipients.
 
 ### What does it actually cost?
 

@@ -82,7 +82,7 @@ Prefiro ser claro quanto às arestas afiadas do que deixar que as descubra mais 
 
 ## A visão mais ampla
 
-A trabalhar com NFC todos os dias, tenho visto estas tags tornarem-se discretamente o meio de armazenamento de coisas que importam. O Passaporte Digital de Produto da UE vai exigir NFC para autenticidade de produtos. A Philips coloca-as nas cabeças das escovas de dentes. Os hotéis usam-nas como chaves de quarto. Baratas, duradouras e universalmente legíveis pelo dispositivo que já tem no bolso - essa combinação é rara, e é exatamente por isso que continuo a encontrar-lhes novos usos. Se quiser uma perspetiva mais alargada, abordei os fundamentos em [tags NFC explicadas: um guia completo para principiantes](/blog/nfc-tags-beginners-guide/).
+A trabalhar com NFC todos os dias, tenho visto estas tags tornarem-se discretamente o meio de armazenamento de coisas que importam. O Passaporte Digital de Produto da UE inclui o NFC entre os portadores de dados aprovados, lado a lado com os códigos QR. A Philips coloca-as nas cabeças das escovas de dentes. Os hotéis usam-nas como chaves de quarto. Baratas, duradouras e universalmente legíveis pelo dispositivo que já tem no bolso - essa combinação é rara, e é exatamente por isso que continuo a encontrar-lhes novos usos. Se quiser uma perspetiva mais alargada, abordei os fundamentos em [tags NFC explicadas: um guia completo para principiantes](/blog/nfc-tags-beginners-guide/).
 
 O NFC Safe é a minha tentativa de pegar nessa durabilidade e acrescentar a única coisa que lhe faltava - encriptação. Uma cópia de segurança que dura mais do que o papel, que não pode ser lida por quem a encontre, e que custa menos do que uma chávena de café. É o tipo de coisa que eu queria para mim próprio, por isso construí-a.
 

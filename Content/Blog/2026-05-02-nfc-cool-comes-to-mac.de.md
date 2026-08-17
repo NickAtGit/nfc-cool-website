@@ -1,78 +1,78 @@
 ---
 id: "nfc-cool-comes-to-mac-2026-05"
-title: "NFC.cool kommt auf den Mac: Deine gesamte Scan-Bibliothek auf jedem Bildschirm"
+title: "NFC.cool kommt auf den Mac: Deine ganze Scan-Bibliothek auf jedem Bildschirm"
 date: 2026-05-02
 tags: ["announcements", "iphone", "qr-codes"]
-summary: "Die NFC.cool iOS- und iPadOS-App ist jetzt auch auf dem Mac verfügbar. Durchsuche deine gescannten NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle und Raumscans - alles synchronisiert über iCloud. Plus: Nutze deine Mac-Kamera als QR- und Barcode-Scanner."
+summary: "Die NFC.cool-App für iPhone und iPad läuft jetzt auch auf dem Mac. Alle gescannten NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle und Raumscans liegen per iCloud auf jedem Gerät bereit. Und die Mac-Kamera liest QR-Codes und Barcodes gleich mit."
 image: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
-imageAlt: "Mac und iPhone zeigen NFC.cool App-Ansichten für NFC- und QR-Workflows"
-metaTitle: "NFC.cool jetzt auf dem Mac - Deine NFC-Bibliothek auf jedem Gerät"
-metaDescription: "Die NFC.cool-App ist jetzt auf dem Mac verfügbar. Durchsuche deine gescannten NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle und Raumscans - alles über iCloud synchronisiert. Plus: Mac-Kamera als QR- und Barcode-Scanner."
+imageAlt: "Mac und iPhone mit Ansichten der NFC.cool-App für NFC- und QR-Workflows"
+metaTitle: "NFC.cool jetzt auf dem Mac - deine Scans auf jedem Gerät"
+metaDescription: "NFC.cool jetzt auf dem Mac: NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle und Raumscans per iCloud auf jedem Gerät. Die Mac-Kamera scannt QR- und Barcodes."
 ogTitle: "NFC.cool kommt auf den Mac"
-ogDescription: "Deine gesamte NFC-, QR-, Barcode-, Dokument- und 3D-Scan-Bibliothek - jetzt auf dem Mac. Über iCloud synchronisiert. Plus integrierter QR- und Barcode-Scanner mit der Mac-Kamera."
+ogDescription: "Deine komplette Bibliothek aus NFC-, QR-, Barcode-, Dokument- und 3D-Scans, jetzt auch auf dem Mac. Per iCloud synchronisiert, und die Mac-Kamera scannt QR-Codes und Barcodes."
 ---
-Dein iPhone ist der Scanner. Dein Mac ist der Browser.
+Mit dem iPhone scannst du. Am Mac schaust du dir alles an.
 
-Ab heute ist die NFC.cool iOS- und iPadOS-App auch mit dem Mac kompatibel - du kannst sie direkt aus dem App Store auf deinem Mac installieren, genau wie jede andere App für iPhone und iPad.
+Ab heute läuft die NFC.cool-App für iPhone und iPad auch auf dem Mac. Du installierst sie einfach aus dem App Store auf deinem Mac, so wie jede andere App, die für iPhone und iPad gemacht ist.
 
-Keine separate Mac-App. Kein Abo-Upgrade. Dieselbe App, ein Bildschirm mehr.
+Keine separate Mac-App. Kein Abo-Upgrade nötig. Dieselbe App, ein Bildschirm mehr.
 
 ---
 
-## Die Seitenleiste - gemacht für größere Bildschirme
+## Eine Seitenleiste für die großen Bildschirme
 
-NFC.cool war schon immer eine Mobile-First-App. Handy in die Hand, Tag scannen, Ergebnis sehen. Das funktioniert super auf dem iPhone.
+NFC.cool war immer zuerst eine Handy-App: Handy in die Hand, Tag scannen, Ergebnis ansehen. Auf dem iPhone funktioniert das wunderbar.
 
-Aber auf iPad und Mac verschwendet ein einspaltiges Handy-Layout viel Platz. Deshalb gibt es jetzt eine **Seitenleiste zur Navigation** - speziell für den größeren Bildschirm.
+Auf iPad und Mac verschenkt ein einspaltiges Handy-Layout aber jede Menge Platz. Deshalb habe ich eine **Seitenleiste zur Navigation** eingebaut, die für den großen Bildschirm gedacht ist.
 
-Die Seitenleiste gibt dir schnellen Zugriff auf alle deine Inhalte:
+Über die Seitenleiste kommst du direkt an alles, was du gesammelt hast:
 
 - **NFC-Tags**, die du gescannt hast
-- **QR-Codes & Barcodes**, die du erfasst hast
-- **Dokumente**, die du gescannt hast
-- **3D-Modelle & Räume**, die du gescannt hast
+- **QR-Codes und Barcodes**, die du erfasst hast
+- **Dokumente**, die du eingescannt hast
+- **3D-Modelle und Räume**, die du aufgenommen hast
 
-Alles mit einem Tap (oder Klick) erreichbar. Die Seitenleiste passt sich auch auf dem iPad an - dasselbe Erlebnis, dieselbe Effizienz, egal ob du es hältst oder es auf dem Schreibtisch steht.
+Alles ist einen Fingertipp (oder Klick) entfernt. Auf dem iPad gibt es die Seitenleiste ebenfalls, und sie funktioniert dort genauso, egal ob du es in der Hand hältst oder es auf dem Schreibtisch steht.
 
 <div style="text-align: center;">
 
-![NFC-Nachrichten in der Seitenleiste](/assets/images/Blog/mac-nfc-list.webp)
+![Meine NFC-Nachrichten in der Seitenleiste](/assets/images/Blog/mac-nfc-list.webp)
 
 </div>
 
 ---
 
-## iCloud-Sync - Was du auf dem iPhone scannst, siehst du auf dem Mac
+## iCloud-Sync: Was du auf dem iPhone scannst, siehst du auf dem Mac
 
-Hier wird es richtig nützlich.
+Und hier wird es richtig praktisch.
 
-Jeder Scan, den du auf deinem iPhone gemacht hast - NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle, Raumscans - wird automatisch über **iCloud** auf deinen Mac synchronisiert.
+Alles, was du auf dem iPhone gescannt hast, ob NFC-Tags, QR-Codes, Barcodes, Dokumente, 3D-Modelle oder Raumscans, landet über **iCloud** automatisch auch auf deinem Mac.
 
-Öffne die App auf deinem Mac und deine gesamte Bibliothek ist schon da. Kein Export, kein manuelles Übertragen, kein „An Mac senden“-Button. Es erscheint einfach.
+Du öffnest die App auf dem Mac, und deine komplette Bibliothek ist schon da. Kein Export, kein Hin- und Herkopieren, kein „An den Mac senden“-Knopf. Es ist einfach da.
 
-Das heißt, du kannst:
+Konkret heißt das:
 
-- **Unterwegs scannen** mit deinem iPhone
-- **Überprüfen und organisieren** auf dem Mac mit dem größeren Bildschirm
-- **Einen Tag oder ein Dokument nachschlagen** während du am Mac arbeitest - ohne zum Handy zu greifen
+- **Unterwegs scannst du** mit dem iPhone
+- **Am Mac sichtest und sortierst du** auf dem großen Bildschirm
+- **Einen Tag oder ein Dokument schlägst du nach**, während du am Mac arbeitest, ohne das Handy in die Hand zu nehmen
 
-Deine Daten folgen dir über alle Geräte, weil sie in deinem iCloud-Konto liegen. Dasselbe Datenschutz-Prinzip wie immer: Deine Scans bleiben auf deinen Geräten und in deiner iCloud. Ich sehe sie nie.
+Deine Daten sind auf jedem Gerät da, weil sie in deinem iCloud-Account liegen. Beim Datenschutz bleibt alles wie gehabt: Deine Scans bleiben auf deinen Geräten und in deiner iCloud. Ich bekomme sie nie zu sehen.
 
 <div style="text-align: center;">
 
-![Gespeicherte 3D-Modelle, synchronisiert über iCloud](/assets/images/Blog/mac-3d-model-list.webp)
+![Gespeicherte 3D-Modelle, per iCloud synchronisiert](/assets/images/Blog/mac-3d-model-list.webp)
 
 </div>
 
 ---
 
-## Bonus: Deine Mac-Kamera ist ein QR- und Barcode-Scanner
+## Bonus: Die Mac-Kamera scannt QR-Codes und Barcodes
 
-Hier ist etwas Praktisches - die eingebaute Kamera deines Macs funktioniert als **QR-Code- und Barcode-Scanner**.
+Ein nettes Extra: Die eingebaute Kamera deines Macs funktioniert als **QR-Code- und Barcode-Scanner**.
 
-Halte einen QR-Code vor die Kamera deines Macs und NFC.cool liest ihn ein. Dasselbe gilt für Barcodes. Dafür brauchst du kein iPhone.
+Halte einen QR-Code vor die Mac-Kamera, und NFC.cool liest ihn aus. Bei Barcodes genauso. Dafür brauchst du kein iPhone.
 
-Nützlich, um schnell einen Produkt-Barcode nachzuschlagen, während du arbeitest, oder einen QR-Code von einem Bildschirm zu scannen, ohne das Handy herauszuholen.
+Praktisch, wenn du beim Arbeiten schnell einen Produkt-Barcode nachschlagen willst oder einen QR-Code von einem anderen Bildschirm scannen möchtest, ohne das Handy rauszuholen.
 
 <div style="text-align: center;">
 
@@ -84,21 +84,21 @@ Nützlich, um schnell einen Produkt-Barcode nachzuschlagen, während du arbeites
 
 ## Was auf dem Mac nicht funktioniert (und warum)
 
-Ich glaube daran, ehrlich über Einschränkungen zu sein, sie nicht zu verstecken.
+Ich sage lieber offen, was nicht geht, statt es zu verschweigen.
 
-**NFC-Scannen** wird auf dem Mac nicht *integriert* unterstützt, weil kein Mac eine NFC-Funkeinheit hat. Früher war damit alles gesagt. Das gilt nicht mehr: Mit einem externen USB-Lesegerät kannst du NFC-Tags jetzt direkt von einem Mac oder einem iPad lesen und beschreiben. Wie das funktioniert, habe ich in [NFC-Tags auf iPad und Mac lesen](/blog/nfc-reading-ipad-mac/) beschrieben.
+**NFC-Tags scannen** geht auf dem Mac nicht *von Haus aus*, weil kein Mac NFC-Hardware eingebaut hat. Früher war das Thema damit erledigt. Inzwischen nicht mehr: Mit einem externen USB-Lesegerät kannst du NFC-Tags direkt am Mac oder iPad lesen und beschreiben. Wie das geht, habe ich in [NFC-Tags auf iPad und Mac lesen](/blog/nfc-reading-ipad-mac/) aufgeschrieben.
 
-**Dokument-Scannen** funktioniert ebenfalls nicht - die Mac-Kamera hat nicht die Autofokus- und Kantenerkennungs-Pipeline, die Dokument-Scans auf iPhone und iPad möglich macht.
+**Dokumente scannen** klappt ebenfalls nicht: Der Mac-Kamera fehlt die Autofokus- und Kantenerkennungs-Pipeline, die das Dokumentscannen auf iPhone und iPad überhaupt erst möglich macht.
 
-**3D-Scannen und Raumscans** benötigen den LiDAR-Sensor (iPhone Pro / iPad Pro) - kein Mac hat einen.
+**3D-Scans und Raumscans** brauchen den LiDAR-Sensor (iPhone Pro / iPad Pro), und den hat kein Mac.
 
-Diese letzten beiden sind keine Software-Einschränkungen, die ich beheben kann. Es sind Hardware-Voraussetzungen - der Mac hat schlicht weder die Kamera-Pipeline noch den LiDAR-Sensor.
+Die letzten beiden Punkte sind keine Software-Grenzen, die ich beheben könnte. Es fehlt schlicht die Hardware: Der Mac hat weder die passende Kamera-Pipeline noch einen LiDAR-Sensor.
 
-Aber mal ehrlich: Du brauchst sie auf dem Mac wahrscheinlich auch nicht. Du scannst mit dem iPhone, weil es in deiner Hand liegt. Du durchsuchst und schaust nach auf dem Mac, weil er den großen Bildschirm und die Tastatur hat. Die Mac-App ist genau für diesen Workflow gemacht.
+Aber ehrlich gesagt brauchst du das auf dem Mac wahrscheinlich gar nicht. Gescannt wird mit dem iPhone, weil du das ohnehin in der Hand hast. Durchsucht und nachgeschlagen wird am Mac, weil der den großen Bildschirm und die Tastatur hat. Genau für diese Arbeitsteilung ist die Mac-App gemacht.
 
 <div style="text-align: center;">
 
-![Gespeicherte 3D-Modelle - Detailansicht auf dem Mac](/assets/images/Blog/mac-3d-detail.webp)
+![Gespeicherte 3D-Modelle in der Detailansicht auf dem Mac](/assets/images/Blog/mac-3d-detail.webp)
 
 </div>
 
@@ -106,10 +106,10 @@ Aber mal ehrlich: Du brauchst sie auf dem Mac wahrscheinlich auch nicht. Du scan
 
 ## Dieselbe App, mehr Bildschirme
 
-Die Mac-App ist kein separates Produkt. Es ist dieselbe NFC.cool-App, die du schon kennst - jetzt kompatibel mit einem weiteren Gerät.
+Die Mac-App ist kein eigenes Produkt. Es ist dieselbe NFC.cool-App, die du schon kennst, nur läuft sie jetzt auf einem Gerät mehr.
 
-Wenn du NFC.cool bereits auf deinem iPhone oder iPad hast, wartet sie schon im Mac App Store auf dich - dasselbe Abo, dasselbe Konto, dieselbe Bibliothek.
+Hast du NFC.cool schon auf dem iPhone oder iPad, findest du sie ab sofort auch im Mac App Store: gleiches Abo, gleicher Account, gleiche Bibliothek.
 
-[NFC.cool Tools für iPhone, iPad und Mac herunterladen](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-comes-to-mac-de&mt=8)
+[NFC.cool Tools für iPhone, iPad und Mac laden](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-comes-to-mac-de&mt=8)
 
-Android-Nutzer? [NFC.cool für Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-comes-to-mac-de) ist auch für euch da.
+Du bist mit Android unterwegs? Dann ist [NFC.cool für Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-comes-to-mac-de) die App für dich.

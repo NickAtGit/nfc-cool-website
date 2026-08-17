@@ -45,8 +45,6 @@ En conférence, tout ce qui est un peu gênant avec le papier devient un vrai pr
 
 Passer au numérique, ce n'est pas seulement troquer le papier contre une app. Le vrai avantage, c'est d'avoir un système qui fonctionne sur toute la durée de la conférence - de la préparation à la relance. Voici comment le mettre en place.
 
----
-
 ### Phase 1 : avant la conférence
 
 Le pire moment pour configurer votre carte de visite numérique, c'est quand vous faites la queue à l'accueil. Faites-le au moins une semaine avant l'événement.
@@ -84,15 +82,13 @@ C'est optionnel, mais ça fait grande impression :
 
 #### Mettez votre QR code sur votre écran verrouillé (iOS)
 
-Le mode Conférence de NFC.cool Business Card utilise une activité en direct iOS pour placer le QR code de votre carte directement sur votre écran verrouillé. C'est la méthode de partage la plus rapide en conférence :
+Le mode Conférence de NFC.cool Business Card épingle le QR code de votre carte directement sur votre écran verrouillé pour toute une journée d'événement - sur iPhone, il prend la forme d'une activité en direct, et Android dispose du même mode. C'est la méthode de partage la plus rapide en conférence :
 
 - Votre QR code est toujours visible - pas de déverrouillage, pas d'app à ouvrir
 - Les gens scannent simplement votre écran pendant que vous leur parlez
 - C'est même plus rapide qu'Apple Wallet, car vous n'avez pas à retrouver la bonne carte
 
 L'intégration à Apple Wallet est aussi disponible comme option de secours.
-
----
 
 ### Phase 2 : pendant la conférence
 
@@ -132,8 +128,6 @@ Les conférences ne se résument plus au hall d'exposition. Il y a des canaux Sl
 
 L'un des plus grands avantages sur le papier : vous pouvez voir qui a consulté votre carte et quand. Après une conversation particulièrement bonne, prenez vite une note dans votre téléphone : « Sarah - VP Marketing chez Acme - a parlé d'un partenariat sur le projet de développement durable ». Quand vous relancerez plus tard, vous aurez un contexte qu'une carte papier ne fournit jamais.
 
----
-
 ### Phase 3 : après la conférence
 
 C'est là que la plupart des efforts de réseautage meurent. Vous rentrez en avion, vous posez la pile de cartes sur votre bureau et vous dites « je trierai tout ça demain ». Demain devient la semaine prochaine. La semaine prochaine devient jamais.
@@ -150,7 +144,7 @@ Comme votre carte numérique inclut votre photo, la personne se souviendra vraim
 
 #### Consultez vos statistiques de partage
 
-Beaucoup de plateformes de cartes numériques vous montrent qui a ouvert votre carte et quand (NFC.cool le propose sur iOS, la prise en charge Android arrive bientôt). Cela vous dit :
+Beaucoup de plateformes de cartes numériques vous montrent qui a ouvert votre carte et quand (NFC.cool le fait aussi bien sur iPhone que sur Android). Cela vous dit :
 
 - Qui était assez intéressé pour vraiment regarder votre profil (et pas seulement empocher poliment votre carte)
 - Quand la personne a regardé - quelqu'un qui consulte votre carte trois jours après la conférence est un prospect chaud

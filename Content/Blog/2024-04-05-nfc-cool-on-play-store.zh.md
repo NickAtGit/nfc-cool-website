@@ -10,9 +10,7 @@ ogTitle: "NFC.cool 现已登陆 Play Store"
 ogDescription: "NFC.cool Tools 已在 Google Play 上线：Android 上的 NFC 扫描与标签写入。"
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
-**2026 年 8 月更新：** NFC.cool Business Card 现在在 Android 上也是一款独立 App - [在 Google Play 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en)。NFC.cool Tools 里已有的名片照常可用，新名片则在这款独立 App 中创建。
-
----
+> **2026 年 8 月更新：** NFC.cool Business Card 现在在 Android 上也是一款独立 App - [在 Google Play 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en)。NFC.cool Tools 里已有的名片照常可用，新名片则在这款独立 App 中创建。
 
 **NFC.cool Tools** 现已在 [Google Play Store](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en) 上架。在 iOS 上耕耘多年之后，Android 版正式上线，而且内置了 NFC.cool Business Card。
 

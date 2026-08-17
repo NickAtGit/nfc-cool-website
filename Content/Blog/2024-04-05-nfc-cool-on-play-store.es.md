@@ -10,9 +10,7 @@ ogTitle: "NFC.cool ya está en la Play Store"
 ogDescription: "NFC.cool Tools ya está en Google Play - lectura de NFC y escritura de etiquetas en Android."
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
-**Actualización, agosto de 2026:** NFC.cool Business Card ahora también es una app dedicada en Android - [consíguela en Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). Las tarjetas que ya existen dentro de NFC.cool Tools siguen funcionando; las nuevas se crean en la app dedicada.
-
----
+> **Actualización, agosto de 2026:** NFC.cool Business Card ahora también es una app dedicada en Android - [consíguela en Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). Las tarjetas que ya existen dentro de NFC.cool Tools siguen funcionando; las nuevas se crean en la app dedicada.
 
 **NFC.cool Tools** ya está disponible en la [Google Play Store](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). Tras años en iOS, la versión Android está en marcha - y viene con el NFC.cool Business Card integrado de serie.
 

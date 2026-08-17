@@ -82,7 +82,7 @@ Saya lebih suka jujur tentang sisi tajamnya daripada Anda menemukannya belakanga
 
 ## Gambaran lebih besar
 
-Bekerja dengan NFC setiap hari, saya menyaksikan tag-tag ini secara diam-diam menjadi media penyimpanan untuk hal-hal yang penting. Paspor Produk Digital UE akan mewajibkan NFC untuk keaslian produk. Philips memasangnya di kepala sikat gigi. Hotel menggunakannya untuk kunci kamar. Murah, tahan lama, dan dapat dibaca secara universal oleh perangkat yang sudah ada di saku Anda - kombinasi itu langka, dan itulah tepatnya mengapa saya terus menemukan kegunaan baru untuknya. Jika Anda ingin gambaran yang lebih luas, saya membahas dasar-dasarnya di [tag NFC dijelaskan: panduan lengkap untuk pemula](/blog/nfc-tags-beginners-guide/).
+Bekerja dengan NFC setiap hari, saya menyaksikan tag-tag ini secara diam-diam menjadi media penyimpanan untuk hal-hal yang penting. Paspor Produk Digital UE mencantumkan NFC sebagai salah satu pembawa data yang disetujui, berdampingan dengan kode QR. Philips memasangnya di kepala sikat gigi. Hotel menggunakannya untuk kunci kamar. Murah, tahan lama, dan dapat dibaca secara universal oleh perangkat yang sudah ada di saku Anda - kombinasi itu langka, dan itulah tepatnya mengapa saya terus menemukan kegunaan baru untuknya. Jika Anda ingin gambaran yang lebih luas, saya membahas dasar-dasarnya di [tag NFC dijelaskan: panduan lengkap untuk pemula](/blog/nfc-tags-beginners-guide/).
 
 NFC Safe adalah upaya saya untuk mengambil ketahanan itu dan menambahkan satu hal yang kurang - enkripsi. Cadangan yang bertahan lebih lama dari kertas, tidak bisa dibaca oleh siapa pun yang menemukannya, dan harganya kurang dari secangkir kopi. Itulah hal yang saya inginkan untuk diri sendiri, jadi saya membangunnya.
 

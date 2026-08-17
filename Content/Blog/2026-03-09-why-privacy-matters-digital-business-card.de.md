@@ -1,188 +1,188 @@
 ---
 id: nfc-blog-004
-title: "Warum Datenschutz für deine digitale Visitenkarte wichtig ist"
+title: "Warum Datenschutz bei deiner digitalen Visitenkarte so wichtig ist"
 date: 2026-03-09
 tags: ["business-cards", "privacy"]
-summary: "Deine digitale Visitenkarte enthält deinen Namen, deine E-Mail, deine Telefonnummer und mehr - doch die meisten denken nie darüber nach, wo diese Daten eigentlich landen. Warum Datenschutz dein wichtigstes Kriterium sein sollte."
+summary: "Auf deiner digitalen Visitenkarte stehen dein Name, deine E-Mail-Adresse, deine Telefonnummer und mehr - und trotzdem machen sich die wenigsten Gedanken darüber, wo diese Daten eigentlich landen. Warum Datenschutz dein wichtigstes Kriterium sein sollte."
 image: "/assets/images/Blog/why-privacy-matters-digital-business-card.webp"
-imageAlt: "Digitale Visitenkarte wird durch Datenschutzkontrollen, Schild und NFC-Motive geschützt"
-metaTitle: "Warum Datenschutz für deine digitale Visitenkarte wichtig ist (Guide 2026)"
-metaDescription: "Digitale Visitenkarten verarbeiten deine persönlichsten professionellen Daten. Lerne, welche Datenschutzrisiken du beachten musst, welche Fragen du stellen solltest und wie du deine Kontakte schützt."
-ogTitle: "Warum Datenschutz für deine digitale Visitenkarte wichtig ist"
-ogDescription: "Dein Name, deine E-Mail, deine Telefonnummer - alles in einem Link. Warum die Plattform, die du zum Teilen nutzt, wichtiger ist, als du denkst."
+imageAlt: "Digitale Visitenkarte, umgeben von Datenschutz-Symbolen, einem Schild und NFC-Motiven"
+metaTitle: "Datenschutz bei digitalen Visitenkarten (Guide 2026)"
+metaDescription: "Digitale Visitenkarten verarbeiten deine persönlichsten beruflichen Daten. Welche Risiken es gibt, worauf du achten solltest und wie du deine Kontakte schützt."
+ogTitle: "Warum Datenschutz bei deiner digitalen Visitenkarte so wichtig ist"
+ogDescription: "Dein Name, deine E-Mail-Adresse, deine Telefonnummer - alles hinter einem Link. Warum die Plattform, über die du das teilst, wichtiger ist, als du denkst."
 ---
-Denk darüber nach, was auf deiner Visitenkarte steht. Dein vollständiger Name. Deine E-Mail-Adresse. Deine Telefonnummer. Vielleicht deine Büroadresse, dein LinkedIn-Profil, dein Firmenname und deine Position.
+Überleg mal, was alles auf deiner Visitenkarte steht. Dein vollständiger Name. Deine E-Mail-Adresse. Deine Telefonnummer. Vielleicht noch die Büroadresse, dein LinkedIn-Profil, Firma und Position.
 
-Und jetzt denk darüber nach: Wenn du eine digitale Visitenkarte teilst, gibst du nicht einfach jemandem ein Stück Karton. Du gibst einer Plattform Zugriff auf diese Daten - *und* auf Daten über die Person, mit der du sie teilst.
+Und jetzt der zweite Gedanke: Wenn du eine digitale Visitenkarte teilst, drückst du niemandem ein Stück Pappe in die Hand. Du gibst einer Plattform Zugriff auf genau diese Daten - *und* auf Daten über die Person, mit der du sie teilst.
 
-Die meisten digitalen Visitenkarten-Apps sammeln Informationen über beide Seiten des Austauschs. Wer geteilt hat, wer angesehen hat, wann, wo, auf welchem Gerät, wie lange. Einige gehen weiter, als du erwarten würdest.
+Die meisten Apps für digitale Visitenkarten sammeln Informationen über beide Seiten des Austauschs. Wer geteilt hat, wer angesehen hat, wann, wo, auf welchem Gerät, wie lange. Manche gehen deutlich weiter, als man erwarten würde.
 
-Das ist keine Panikmache. Digitale Visitenkarten sind wirklich besser als Papier - fürs Netzwerken, für die Umwelt, um deine Infos aktuell zu halten. Aber nicht alle Plattformen gehen gleich sorgfältig mit deinen Daten um, und die meisten denken nie daran, zu fragen.
+Das soll keine Panikmache sein. Digitale Visitenkarten sind Papier wirklich überlegen - beim Netzwerken, für die Umwelt und weil deine Angaben aktuell bleiben. Aber nicht jede Plattform geht gleich sorgfältig mit deinen Daten um, und die wenigsten kommen überhaupt auf die Idee, danach zu fragen.
 
-Du solltest.
+Genau das solltest du aber.
 
 ---
 
 ## Was passiert wirklich, wenn du eine digitale Visitenkarte teilst?
 
-Hier ist der typische Ablauf, wenn jemand sein Handy an deine NFC-Karte hält oder deinen QR-Code scannt:
+So läuft es normalerweise ab, wenn jemand sein Handy an deine NFC-Karte hält oder deinen QR-Code scannt:
 
-1. Das Handy des Gegenübers öffnet eine URL, die von der Plattform gehostet wird
-2. Die Plattform liefert deine Kontaktdaten
-3. Die Plattform protokolliert die Interaktion - mindestens einen Zeitstempel
-4. Je nach Plattform erfasst sie möglicherweise auch: die IP-Adresse des Betrachters, Gerätetyp, Browser, ungefährer Standort, Verweildauer auf deiner Karte, welche Links er angeklickt hat
+1. Das Handy deines Gegenübers öffnet eine URL, die auf den Servern der Plattform liegt
+2. Die Plattform liefert deine Kontaktdaten aus
+3. Die Plattform protokolliert den Vorgang - mindestens mit einem Zeitstempel
+4. Je nach Plattform kommt noch mehr dazu: die IP-Adresse des Betrachters, Gerätetyp, Browser, ungefährer Standort, wie lange er auf deiner Karte bleibt, welche Links er anklickt
 
-Das ist die Basis. Einige Plattformen tun mehr.
+So weit die Basis. Manche Plattformen gehen weiter.
 
-### Empfängerwerbung
+### Werbung an deine Kontakte
 
-Mehrere digitale Visitenkarten-Plattformen - besonders in ihren Gratis-Tarifen - bewerben die Leute, die deine Karte ansehen. Das heißt: Jemand scannt deinen QR-Code, um deine E-Mail zu bekommen, und dann schickt *die Plattform* ihnen Werbe-E-Mails mit der Aufforderung, sich anzumelden.
+Mehrere Plattformen für digitale Visitenkarten - vor allem in ihren Gratis-Tarifen - schicken Werbung an die Leute, die deine Karte ansehen. Konkret: Jemand scannt deinen QR-Code, um an deine E-Mail-Adresse zu kommen, und danach bekommt er von *der Plattform* Werbemails, er solle sich doch auch anmelden.
 
-Du hast das nicht verlangt. Die Person, die deine Karte angesehen hat, hat es definitiv nicht verlangt. Aber es passiert, weil die Plattform wachsen muss und deine Kontakte kostenlose Leads sind.
+Darum hast du nicht gebeten. Und die Person, die deine Karte angesehen hat, schon gar nicht. Aber es passiert, weil die Plattform wachsen will und deine Kontakte kostenlose Leads sind.
 
-Nicht jede Plattform macht das. Aber genug tun es, dass es sich lohnt, vor der Anmeldung zu prüfen.
+Nicht jede Plattform macht das. Aber genug, dass sich ein Blick vor der Anmeldung lohnt.
 
 ### Gesprächsaufzeichnung
 
-Das könnte dich überraschen. Einige Plattformen bieten jetzt KI-gestützte Notizfunktionen an, die persönliche Gespräche aufzeichnen. Der Pitch ist verlockend: Du triffst jemanden auf einer Konferenz, drückst auf Aufnahme und lässt KI die wichtigsten Punkte automatisch erfassen.
+Das dürfte einige überraschen. Manche Plattformen bieten inzwischen KI-Notizfunktionen an, die persönliche Gespräche mitschneiden. Der Pitch klingt verlockend: Du triffst jemanden auf einer Konferenz, drückst auf Aufnahme, und die KI hält die wichtigsten Punkte automatisch fest.
 
-Das Problem ist die Einwilligung. In vielen Gerichtsbarkeiten - einschließlich des Großteils der EU unter DSGVO und über einem Dutzend US-Bundesstaaten mit Two-Party-Consent-Gesetzen - ist die Aufzeichnung eines Gesprächs ohne das Wissen oder die ausdrückliche Einwilligung der anderen Person illegal. Selbst wo es technisch legal ist, wirft das heimliche Aufzeichnen eines Networking-Gesprächs ernsthafte ethische Fragen auf.
+Das Problem ist die Einwilligung. In vielen Rechtsräumen - dazu gehört der Großteil der EU mit der DSGVO, dazu gehören über ein Dutzend US-Bundesstaaten mit sogenannten Two-Party-Consent-Gesetzen - ist es illegal, ein Gespräch ohne Wissen oder ausdrückliche Zustimmung des Gegenübers aufzuzeichnen. Und selbst dort, wo es rechtlich durchgeht, wirft es ernsthafte ethische Fragen auf, ein Networking-Gespräch heimlich mitzuschneiden.
 
-Die Person, die du gerade getroffen hast, denkt, sie führt ein freundliches Gespräch. Sie weiß nicht, dass dein Handy alles transkribiert, was sie sagt, und auf einen Cloud-Server hochlädt.
+Die Person, die du gerade kennengelernt hast, glaubt, sie führt ein nettes Gespräch. Sie ahnt nicht, dass dein Handy jedes Wort transkribiert und auf einen Cloud-Server hochlädt.
 
 ### Datenanreicherung
 
-Einige Plattformen bieten „KI-Kontaktanreicherung“ an - du scannst eine Visitenkarte oder tauschst Kontakte, und die Plattform zieht automatisch zusätzliche Daten aus öffentlichen Quellen: LinkedIn-Profile, Firmeninformationen, Social-Media-Konten.
+Manche Plattformen bieten „KI-Kontaktanreicherung“ an: Du scannst eine Visitenkarte oder tauschst Kontaktdaten aus, und die Plattform holt sich automatisch zusätzliche Daten aus öffentlichen Quellen dazu - LinkedIn-Profile, Firmeninformationen, Social-Media-Konten.
 
-Praktisch? Klar. Aber es bedeutet, dass die Plattform ein Profil der Leute aufbaut, die du triffst, oft ohne deren Wissen. Deine Kontakte haben sich nicht dafür angemeldet. Sie haben ihre Visitenkarte geteilt, nicht ihren gesamten digitalen Fußabdruck.
-
----
-
-## Die versteckten Kosten von „Gratis“
-
-Viele digitale Visitenkarten-Plattformen bieten großzügige Gratis-Tarife. Das ist toll für die Zugänglichkeit, aber es wirft eine wichtige Frage auf: **wie verdient ein gratis Produkt Geld?**
-
-Die ehrlichen Antworten variieren:
-
-- **Upselling auf Bezahl-Pläne** - Das gesunde Modell. Basis-Features gratis, erweiterte kosten.
-- **Plattform-Branding als Werbung** - Deine Karte wird zum Werbeplakat der Plattform. Jedes Teilen ist Marketing.
-- **Abgreifen von Empfängerdaten** - Deine Kontakte werden Leads für die Plattform selbst.
-- **Datenaggregation** - Anonymisierte (oder nicht) Networking-Muster, die an Dritte verkauft werden.
-
-Nicht jeder Gratis-Plan hat versteckte Haken. Einige Plattformen - wie Wave Connect - bieten wirklich nützliche Gratis-Tarife ohne Empfängerwerbung. Andere nutzen „gratis“ als Pipeline, um im großen Maßstab Kontaktdaten zu sammeln.
-
-Faustregel: Wenn eine Plattform unbegrenzte Features gratis anbietet und kein klares Geschäftsmodell hat, *bist du* das Geschäftsmodell.
+Praktisch? Klar. Aber es heißt auch, dass die Plattform ein Profil von den Leuten anlegt, die du triffst - meist ohne deren Wissen. Deine Kontakte haben dem nie zugestimmt. Sie haben dir ihre Visitenkarte gegeben, nicht ihren kompletten digitalen Fußabdruck.
 
 ---
 
-## Worauf du bei einer datenschutzrespektierenden Plattform achten solltest
+## Was „gratis“ wirklich kostet
 
-Hier ist eine praktische Checkliste. Du musst nicht jede Zeile einer Datenschutzrichtlinie prüfen (auch wenn du kannst). Stelle einfach diese Fragen:
+Viele Plattformen für digitale Visitenkarten haben großzügige Gratis-Tarife. Schön für den Einstieg, aber es drängt sich eine Frage auf: **Womit verdient ein kostenloses Produkt Geld?**
 
-### 1. Wirbt sie deine Empfänger an?
+Darauf gibt es mehrere ehrliche Antworten:
 
-Wenn jemand deine Karte ansieht, kontaktiert die Plattform sie mit Marketing? Das sollte für die meisten Professionals ein Ausschlusskriterium sein. Deine Kontakte haben *dir* ihre Aufmerksamkeit anvertraut, nicht einer zufälligen Plattform.
+- **Upselling auf Bezahltarife** - Das gesunde Modell. Basisfunktionen gratis, für die erweiterten wird bezahlt.
+- **Plattform-Branding als Werbung** - Deine Karte wird zur Werbefläche der Plattform. Jedes Teilen ist Marketing für sie.
+- **Abgreifen von Empfängerdaten** - Deine Kontakte werden zu Leads für die Plattform selbst.
+- **Datenaggregation** - Anonymisierte (oder auch nicht anonymisierte) Networking-Muster, die an Dritte verkauft werden.
+
+Nicht jeder Gratis-Tarif hat einen Haken. Manche Plattformen - Wave Connect zum Beispiel - bieten wirklich brauchbare Gratis-Tarife an, ohne deinen Kontakten Werbung zu schicken. Andere nutzen „gratis“ als Trichter, um Kontaktdaten im großen Stil einzusammeln.
+
+Faustregel: Wenn eine Plattform unbegrenzt Funktionen verschenkt und kein erkennbares Geschäftsmodell hat, dann *sind deine Daten* das Geschäftsmodell.
+
+---
+
+## Woran du eine Plattform erkennst, die Datenschutz ernst nimmt
+
+Hier eine praktische Checkliste. Du musst nicht jede Zeile der Datenschutzerklärung durchgehen (kannst du natürlich). Stell einfach diese Fragen:
+
+### 1. Schickt sie deinen Kontakten Werbung?
+
+Bekommt jemand, der deine Karte ansieht, hinterher Marketing von der Plattform? Für die meisten Berufstätigen sollte das ein Ausschlusskriterium sein. Deine Kontakte haben *dir* ihre Aufmerksamkeit geschenkt, nicht irgendeiner Plattform.
 
 ### 2. Welche Daten erfasst sie über Betrachter?
 
-Basis-Analytics (wie viele Aufrufe) sind vertretbar. IP-Adressen, Device-Fingerprinting und Verhaltens-Tracking sind es nicht - besonders ohne Offenlegung. Prüfe, ob die Datenschutzrichtlinie der Plattform spezifisch auflistet, was sie über Karten-Betrachter sammelt (nicht nur über Kartenbesitzer).
+Einfache Statistiken (wie oft wurde die Karte aufgerufen) sind in Ordnung. IP-Adressen, Device-Fingerprinting und Verhaltens-Tracking sind es nicht - erst recht nicht, wenn es nirgends offengelegt wird. Schau in der Datenschutzerklärung nach, ob dort konkret aufgeführt ist, was über die Betrachter der Karte gesammelt wird (und nicht nur über die Karteninhaber).
 
 ### 3. Wo werden die Daten gespeichert?
 
-Das ist besonders in Europa wichtig. Unter DSGVO erfordert die Übertragung personenbezogener Daten außerhalb der EU spezifische rechtliche Schutzmaßnahmen (Standardvertragsklauseln, Angemessenheitsbeschlüsse). Wenn deine Plattform Daten in den USA ohne diese Schutzvorkehrungen speichert, bist du womöglich allein durch die Nutzung nicht konform.
+Gerade in Europa ist das wichtig. Nach der DSGVO braucht die Übermittlung personenbezogener Daten in Länder außerhalb der EU bestimmte rechtliche Absicherungen (Standardvertragsklauseln, Angemessenheitsbeschlüsse). Speichert deine Plattform Daten ohne diese Absicherung in den USA, bist du möglicherweise schon durch die bloße Nutzung nicht DSGVO-konform.
 
 ### 4. Kannst du deine Daten exportieren?
 
-Die DSGVO gibt dir das Recht auf Datenportabilität - du solltest alles herunterladen können, was die Plattform über dich hat. Wenn es keine Export-Option gibt, ist das ein Warnsignal. Du solltest deine Kontakte besitzen, nicht nur den Zugang dazu mieten.
+Die DSGVO gibt dir ein Recht auf Datenübertragbarkeit: Du solltest alles herunterladen können, was die Plattform über dich gespeichert hat. Gibt es keine Exportfunktion, ist das ein Warnsignal. Deine Kontakte sollten dir gehören - du solltest nicht bloß den Zugriff darauf mieten.
 
 ### 5. Kannst du deinen Account wirklich löschen?
 
-Nicht „deaktivieren“. Löschen. Mit allen zugehörigen Daten von ihren Servern entfernt. Einige Plattformen machen das überraschend schwierig und verstecken es hinter Support-Tickets statt einer Self-Service-Option.
+Nicht „deaktivieren“. Löschen. Samt aller zugehörigen Daten, runter von den Servern. Manche Plattformen machen das erstaunlich schwer und verstecken es hinter einem Support-Ticket, statt es direkt in der App anzubieten.
 
-### 6. Hat sie Zugriffssteuerungen?
+### 6. Kannst du den Zugriff steuern?
 
-Kannst du dein Profil auf privat setzen? Mit einer PIN schützen? Wählen, welche Informationen für wen sichtbar sind? Das sind keine Enterprise-Features - das sind grundlegende Datenschutz-Tools, die jede Plattform anbieten sollte.
+Kannst du dein Profil auf privat stellen? Mit einer PIN schützen? Festlegen, welche Angaben für wen sichtbar sind? Das sind keine Enterprise-Features, sondern grundlegende Datenschutzfunktionen, die jede Plattform anbieten sollte.
 
-### 7. Nimmt sie Audio auf?
+### 7. Zeichnet sie Audio auf?
 
-Das ist neuer, wird aber im Lead-Capture-Bereich häufiger. Wenn eine Plattform Gesprächsaufzeichnung oder KI-Notizen anbietet, verstehe die rechtlichen Implikationen, bevor du sie nutzt. In der EU verletzt das Aufzeichnen von Gesprächen ohne Einwilligung aller Beteiligten die DSGVO. In den USA variieren die Gesetze je nach Bundesstaat.
+Das ist relativ neu, wird im Lead-Capture-Umfeld aber immer üblicher. Bietet eine Plattform Gesprächsaufzeichnung oder KI-Notizen an, solltest du dir über die rechtlichen Folgen im Klaren sein, bevor du das benutzt. In der EU verstößt es gegen die DSGVO, Gespräche ohne Einwilligung aller Beteiligten aufzuzeichnen. In den USA hängt es vom Bundesstaat ab.
 
 ---
 
 ## DSGVO und digitale Visitenkarten: Was du wissen musst
 
-Wenn du deinen Sitz in Europa hast - oder mit jemandem in Europa Geschäfte machst - gilt die DSGVO für deine digitale Visitenkarte. Was das in der Praxis bedeutet:
+Wenn du in Europa sitzt - oder mit irgendjemandem in Europa Geschäfte machst - gilt die DSGVO auch für deine digitale Visitenkarte. In der Praxis heißt das:
 
-**Für dich als Kartenbesitzer:**
-- Du hast das Recht auf Zugang, Export und Löschung deiner Daten
-- Die Plattform braucht eine rechtliche Grundlage zur Verarbeitung deiner Informationen
-- Du solltest genau wissen, welche Daten erfasst und geteilt werden
+**Für dich als Karteninhaber:**
+- Du hast das Recht, deine Daten einzusehen, zu exportieren und löschen zu lassen
+- Die Plattform braucht eine Rechtsgrundlage, um deine Daten zu verarbeiten
+- Du solltest genau wissen, welche Daten erfasst und weitergegeben werden
 
 **Für die Leute, die deine Karte ansehen:**
-- Sie haben auch Rechte - selbst wenn sie sich nie für die Plattform angemeldet haben
-- Die Plattform kann ihre Daten nicht einfach ohne rechtliche Grundlage abgreifen
-- Das Erfassen von IP-Adressen, Geräte-Infos und Surfverhalten gilt unter DSGVO als Verarbeitung personenbezogener Daten
+- Auch sie haben Rechte - selbst wenn sie sich nie bei der Plattform angemeldet haben
+- Die Plattform darf ihre Daten nicht einfach ohne Rechtsgrundlage abgreifen
+- IP-Adressen, Geräteinformationen und Surfverhalten zu erfassen gilt nach der DSGVO als Verarbeitung personenbezogener Daten
 
-**Für deinen Arbeitgeber (bei Team-/Enterprise-Plänen):**
-- Dein Unternehmen kann mitverantwortlich für die Datenverarbeitung über die Plattform sein
-- CRM-Integrationen vervielfachen die Anzahl der Systeme, die personenbezogene Daten verarbeiten
-- Jede Integration erfordert ihre eigene Datenschutz-Folgenabschätzung
+**Für deinen Arbeitgeber (bei Team- oder Enterprise-Tarifen):**
+- Dein Unternehmen kann für die Datenverarbeitung über die Plattform mitverantwortlich sein
+- CRM-Integrationen vervielfachen die Zahl der Systeme, durch die personenbezogene Daten laufen
+- Jede Integration braucht ihre eigene Datenschutz-Folgenabschätzung
 
-Die praktische Erkenntnis: Wähle eine Plattform, die DSGVO standardmäßig ernst nimmt, nicht eine, die es als Enterprise-Add-on dranschraubt.
+Praktisch heißt das: Nimm eine Plattform, bei der die DSGVO von Haus aus dazugehört - nicht eine, die sie als Enterprise-Add-on nachträglich dranschraubt.
 
 ---
 
 ## Warum ich NFC.cool Business Card von Anfang an auf Datenschutz ausgelegt habe
 
-Zur vollen Transparenz: Das ist der NFC.cool Blog, also werde ich über meinen Ansatz sprechen. Aber ich habe oben versucht, ehrlich über die Landschaft zu sein und werde es hier auch sein.
+Der Ehrlichkeit halber: Das hier ist der NFC.cool-Blog, also rede ich jetzt über meinen eigenen Ansatz. Aber ich habe oben versucht, den Markt ehrlich zu beschreiben, und dabei bleibe ich auch hier.
 
-Als ich [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) baute, war Datenschutz kein nachträglicher Einfall oder eine Marketing-Checkbox. Er hat das Produkt geprägt:
+Als ich [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) gebaut habe, war Datenschutz kein nachträglicher Gedanke und keine Checkbox fürs Marketing. Er hat das Produkt geprägt:
 
-**PIN-geschützte Profile** - Du kannst deine Visitenkarte hinter einer 4-stelligen PIN mit ratenlimitierten Versuchen sperren. Teile deine Karten-URL frei, aber lass Leute deine Details nur sehen, wenn du willst. Das ist nützlich für NFC-Karten, die du verlieren könntest, oder für Momente, in denen du kontrollieren willst, wer deine vollständigen Kontaktdaten sieht.
+**PIN-geschützte Profile** - Du kannst deine Visitenkarte hinter einer vierstelligen PIN sperren (die Eingabeversuche sind gedrosselt). Die URL deiner Karte kannst du frei herausgeben, deine Details sehen die Leute trotzdem nur, wenn du das willst. Das hilft bei NFC-Karten, die verloren gehen können, oder immer dann, wenn du selbst bestimmen möchtest, wer deine vollständigen Kontaktdaten sieht.
 
-**Öffentlich/Privat-Schalter** - Wähle genau, welche Felder sichtbar sind. Vielleicht ist deine Telefonnummer nur für enge Kontakte. Vielleicht ist deine Adresse privat. Du kontrollierst die Granularität.
+**Öffentlich/Privat-Schalter** - Du legst genau fest, welche Felder sichtbar sind. Vielleicht soll deine Telefonnummer nur enge Kontakte erreichen. Vielleicht bleibt deine Adresse privat. Wie fein du das aufteilst, entscheidest du.
 
-**Keine Gesprächsaufzeichnung** - Ich zeichne kein Audio auf. Punkt. Ich glaube, dass Networking auf Vertrauen aufbauen sollte, nicht auf Überwachung.
+**Keine Gesprächsaufzeichnung** - Ich zeichne kein Audio auf. Punkt. Ich finde, Networking sollte auf Vertrauen aufbauen, nicht auf Überwachung.
 
-**Keine Empfängerwerbung** - Wenn jemand deine Karte ansieht, sieht er deine Karte. Er bekommt keine Marketing-E-Mails von mir. Deine Kontakte gehören dir, sie sind nicht meine Leads.
+**Keine Werbung an deine Kontakte** - Wer deine Karte ansieht, sieht deine Karte. Und bekommt von mir keine Marketing-Mails. Deine Kontakte gehören dir, sie sind nicht meine Leads.
 
-**Keine Datenmonetarisierung oder Werbung** - Deine vCard- und Account-Daten werden auf meinem Server gespeichert, um den Service zu betreiben, aber nichts wird für Werbung oder Drittdatenverarbeitung verwendet.
+**Keine Datenmonetarisierung, keine Werbung** - Deine vCard- und Account-Daten liegen auf meinem Server, damit der Dienst funktioniert. Nichts davon wird für Werbung oder für die Verarbeitung durch Dritte genutzt.
 
-**DSGVO-Datenexport** - Auf iOS kannst du deine Kontakte jederzeit als CSV exportieren. Keine Support-Tickets, keine Wartezeit.
+**DSGVO-Datenexport** - Lade dir jederzeit alles als ZIP herunter, Kontakte inklusive, auf dem iPhone genauso wie auf Android. Kein Support-Ticket, keine Wartezeit.
 
-**NFC-Hardware-Freiheit** - Es funktioniert mit jedem Standard-NFC-Tag. NFC.cool verkauft keine NFC-Hardware - du kannst jeden Drittanbieter-Tag deiner Wahl nutzen, ohne proprietäres Tracking, das du nicht prüfen kannst.
+**Freie Wahl der NFC-Hardware** - Die App funktioniert mit jedem handelsüblichen NFC-Tag. NFC.cool verkauft keine NFC-Hardware - du kannst jeden Tag von jedem Anbieter nehmen, ohne proprietäres Tracking, das du nicht überprüfen kannst.
 
-**Europäischer Indie-Entwickler** - Ich bin ein Solo-Entwickler mit Sitz in Portugal. Ich habe keine VC-Investoren, die mich drängen, Nutzerdaten für Wachstums-Kennzahlen zu monetarisieren. Mein Anreiz ist, ein Produkt zu bauen, dem Leute vertrauen, nicht die Datensammlung zu maximieren.
+**Europäischer Indie-Entwickler** - Ich bin Solo-Entwickler und sitze in Portugal. Hinter mir stehen keine VC-Investoren, die auf Wachstumszahlen drängen und dafür Nutzerdaten zu Geld machen wollen. Mein Anreiz ist ein Produkt, dem die Leute vertrauen - nicht möglichst viele Daten einzusammeln.
 
-Ich bin nicht perfekt. Analytics und Lead-Capture sind derzeit nur auf iOS (Android-Unterstützung kommt bald). Ich habe noch keine CRM-Integrationen oder Webhooks - iOS bietet CSV-Export für Kontakte. Mein Marketing-Budget ist ein Bruchteil dessen der größeren Anbieter. Aber mein Datenschutz-Modell ist etwas, an das ich echt glaube, und ich denke, dass es wichtig ist.
+Perfekt bin ich nicht. CRM-Integrationen oder Webhooks habe ich noch nicht - dafür gibt es einen vollständigen Datenexport, um deine Kontakte rauszuholen. App Clip und Apple-Wallet-Pässe gibt es nur auf dem iPhone, Android-Empfänger öffnen deine Karte stattdessen im Browser. Mein Marketing-Budget ist ein Bruchteil von dem der großen Anbieter. Aber hinter meinem Datenschutz-Modell stehe ich voll und ganz, und ich bin überzeugt, dass es darauf ankommt.
 
 ---
 
-## Eine Datenschutz-Checkliste für die Wahl deiner Plattform
+## Datenschutz-Checkliste für die Wahl deiner Plattform
 
-Bevor du dich für einen digitalen Visitenkarten-Service anmeldest, geh das hier durch:
+Bevor du dich bei irgendeinem Anbieter für digitale Visitenkarten anmeldest, geh das hier einmal durch:
 
-- ✓ **Keine Empfängerwerbung** in deinem Plan-Tarif
-- ✓ **Klare Datenschutzrichtlinie**, die spezifiziert, welche Betrachterdaten erfasst werden
-- ✓ **Datenexport** verfügbar (DSGVO-Recht auf Portabilität)
-- ✓ **Account-Löschung** ist Self-Service, nicht hinter Support versteckt
-- ✓ **Profilsichtbarkeits-Steuerungen** (Öffentlich/Privat-Schalter, PIN-Schutz)
-- ✓ **Keine obligatorische Gesprächsaufzeichnung**, die Leute betrifft, die du triffst
-- ✓ **DSGVO-Konformität**, wenn du in Europa Geschäfte machst (oder mit Europäern)
-- ✓ **Transparentes Geschäftsmodell** - du verstehst, wie die Plattform Geld verdient
+- ✓ **Keine Werbung an deine Kontakte** in deinem Tarif
+- ✓ **Klare Datenschutzerklärung**, die konkret nennt, welche Daten über Betrachter erfasst werden
+- ✓ **Datenexport** vorhanden (DSGVO-Recht auf Datenübertragbarkeit)
+- ✓ **Account-Löschung** direkt in der App, nicht hinter dem Support versteckt
+- ✓ **Sichtbarkeit steuerbar** (Öffentlich/Privat-Schalter, PIN-Schutz)
+- ✓ **Keine verpflichtende Gesprächsaufzeichnung**, die die Leute betrifft, die du triffst
+- ✓ **DSGVO-Konformität**, wenn du in Europa (oder mit Europäern) Geschäfte machst
+- ✓ **Transparentes Geschäftsmodell** - du verstehst, womit die Plattform ihr Geld verdient
 
-Wenn eine Plattform bei mehr als ein oder zwei davon durchfällt, überlege, ob die Bequemlichkeit den Kompromiss wert ist.
+Fällt eine Plattform bei mehr als ein oder zwei Punkten durch, überleg dir gut, ob dir die Bequemlichkeit das wert ist.
 
 ---
 
 ## Fazit
 
-Digitale Visitenkarten sind die Zukunft des Netzwerkens. Papier ist verschwenderisch, veraltet und kann nicht aktualisiert werden, nachdem du es weggegeben hast. Die Vorteile sind echt.
+Digitale Visitenkarten sind die Zukunft des Netzwerkens. Papier ist Verschwendung, aus der Zeit gefallen und lässt sich nicht mehr aktualisieren, wenn es einmal aus der Hand ist. Die Vorteile sind echt.
 
-Aber deine Visitenkarte ist deine professionelle Identität. Sie ist das Erste, was Leute sehen, wenn sie dich treffen. Die Plattform, der du diese Informationen anvertraust, sollte dieses Vertrauen verdienen - durch Transparenz, durch Nutzerkontrolle und durch ein Geschäftsmodell, das nicht davon abhängt, deine Daten oder die deiner Kontakte auszunutzen.
+Aber deine Visitenkarte ist deine berufliche Identität. Sie ist das Erste, was Leute von dir sehen, wenn sie dich kennenlernen. Die Plattform, der du diese Daten anvertraust, sollte sich dieses Vertrauen verdienen - durch Transparenz, durch Kontrolle für dich als Nutzer und durch ein Geschäftsmodell, das nicht davon lebt, deine Daten oder die deiner Kontakte auszuschlachten.
 
-Bei Datenschutz geht es nicht darum, etwas zu verbergen zu haben. Es geht darum, das Recht zu haben, zu wählen, was du teilst, mit wem und zu welchen Bedingungen.
+Beim Datenschutz geht es nicht darum, etwas zu verbergen. Es geht um das Recht, selbst zu entscheiden, was du teilst, mit wem und zu welchen Bedingungen.
 
-Wähle weise.
+Wähl mit Bedacht.
 
-*Bereit, eine digitale Visitenkarte auszuprobieren, bei der Datenschutz an erster Stelle steht? [Lade NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) für iPhone oder [hol es dir für Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-de). App-UI und App Clip in 35 Sprachen verfügbar.*
+*Lust auf eine digitale Visitenkarte, bei der Datenschutz an erster Stelle steht? [Lade dir NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) fürs iPhone oder [hol sie dir für Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-de). App-Oberfläche und App Clip gibt es in 35 Sprachen.*

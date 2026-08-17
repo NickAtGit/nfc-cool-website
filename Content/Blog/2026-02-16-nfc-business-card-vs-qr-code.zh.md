@@ -198,7 +198,7 @@ NFC 在你 **一对一、面对面** 见人的场景中大放异彩：
 - **开放的 NFC** ：可配合任意标准 NFC 标签使用，NFC.cool 不卖专有硬件
 - **价格实惠** ：个人版 20 欧元/年，小型企业版 50 欧元/年（10 张名片），企业版 100 欧元/年（100 张名片）
 
-➡️ **试试 NFC.cool Business Card：** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
+**试试 NFC.cool Business Card：** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
 
 ---
 

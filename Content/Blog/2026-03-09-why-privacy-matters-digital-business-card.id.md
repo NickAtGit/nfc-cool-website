@@ -148,13 +148,13 @@ Ketika saya membangun [NFC.cool Business Card](https://apps.apple.com/app/apple-
 
 **Tidak ada monetisasi data atau iklan** - vCard dan data akun Anda disimpan di server saya untuk menjalankan layanan, tapi tidak ada yang digunakan untuk iklan atau pemrosesan data pihak ketiga.
 
-**Ekspor data GDPR** - Di iOS, ekspor kontak Anda sebagai CSV kapan saja. Tidak ada tiket dukungan, tidak ada periode tunggu.
+**Ekspor data GDPR** - Unduh semuanya, termasuk kontak, sebagai file ZIP kapan saja, baik di iPhone maupun Android. Tidak ada tiket dukungan, tidak ada periode tunggu.
 
 **Kebebasan perangkat keras NFC** - Berfungsi dengan tag NFC standar apa pun. NFC.cool tidak menjual perangkat keras NFC - Anda bebas menggunakan tag pihak ketiga mana pun yang Anda pilih, tanpa pelacakan proprietary yang tidak bisa Anda audit.
 
 **Pengembang indie Eropa** - Saya adalah pengembang solo yang berbasis di Portugal. Saya tidak memiliki investor VC yang mendorong saya untuk memonetisasi data pengguna demi metrik pertumbuhan. Insentif saya adalah membangun produk yang dipercaya orang, bukan memaksimalkan pengumpulan data.
 
-Saya tidak sempurna. Analitik dan penangkapan prospek saat ini hanya tersedia di iOS (dukungan Android akan segera hadir). Belum ada integrasi CRM atau webhook - iOS menawarkan ekspor CSV untuk mengeluarkan kontak. Anggaran pemasaran saya adalah sebagian kecil dari pemain besar. Tapi model privasi saya adalah sesuatu yang benar-benar saya percayai, dan saya rasa itu penting.
+Saya tidak sempurna. Belum ada integrasi CRM atau webhook - Anda mendapatkan ekspor data lengkap untuk mengeluarkan kontak Anda. App Clip dan pass Apple Wallet hanya tersedia di iPhone, jadi penerima yang memakai Android akan membuka kartu Anda di browser. Anggaran pemasaran saya adalah sebagian kecil dari pemain besar. Tapi model privasi saya adalah sesuatu yang benar-benar saya percayai, dan saya rasa itu penting.
 
 ---
 
@@ -162,14 +162,14 @@ Saya tidak sempurna. Analitik dan penangkapan prospek saat ini hanya tersedia di
 
 Sebelum Anda mendaftar ke layanan kartu nama digital apa pun, jalankan ini:
 
-- ✅ **Tidak ada permintaan kepada penerima** di tingkat paket Anda
-- ✅ **Kebijakan privasi yang jelas** yang menentukan data penampil apa yang dikumpulkan
-- ✅ **Ekspor data** tersedia (hak portabilitas GDPR)
-- ✅ **Penghapusan akun** adalah layanan mandiri, tidak tersembunyi di balik dukungan
-- ✅ **Kontrol visibilitas profil** (sakelar publik/privat, perlindungan PIN)
-- ✅ **Tidak ada fitur perekaman percakapan wajib** yang mempengaruhi orang yang Anda temui
-- ✅ **Kepatuhan GDPR** jika Anda berbisnis di Eropa (atau dengan orang Eropa)
-- ✅ **Model bisnis yang transparan** - Anda memahami bagaimana platform menghasilkan uang
+- ✓ **Tidak ada permintaan kepada penerima** di tingkat paket Anda
+- ✓ **Kebijakan privasi yang jelas** yang menentukan data penampil apa yang dikumpulkan
+- ✓ **Ekspor data** tersedia (hak portabilitas GDPR)
+- ✓ **Penghapusan akun** adalah layanan mandiri, tidak tersembunyi di balik dukungan
+- ✓ **Kontrol visibilitas profil** (sakelar publik/privat, perlindungan PIN)
+- ✓ **Tidak ada fitur perekaman percakapan wajib** yang mempengaruhi orang yang Anda temui
+- ✓ **Kepatuhan GDPR** jika Anda berbisnis di Eropa (atau dengan orang Eropa)
+- ✓ **Model bisnis yang transparan** - Anda memahami bagaimana platform menghasilkan uang
 
 Jika sebuah platform gagal lebih dari satu atau dua hal ini, pertimbangkan apakah kenyamanannya sebanding dengan trade-off-nya.
 

@@ -148,13 +148,13 @@ Quando construí o [NFC.cool Business Card](https://apps.apple.com/app/apple-sto
 
 **Sem Monetização de Dados nem Publicidade** - O seu vCard e os dados da sua conta são armazenados no meu servidor para suportar o serviço, mas nada é usado para publicidade nem para tratamento de dados por terceiros.
 
-**Exportação de Dados RGPD** - No iOS, exporte os seus contactos em CSV a qualquer momento. Sem pedidos de suporte, sem período de espera.
+**Exportação de Dados RGPD** - Transfira tudo, contactos incluídos, num ZIP a qualquer momento, tanto no iPhone como no Android. Sem pedidos de suporte, sem período de espera.
 
 **Liberdade de Hardware NFC** - Funciona com qualquer tag NFC normal. A NFC.cool não vende hardware NFC - é livre de usar qualquer tag de terceiros que escolha, sem rastreamento proprietário que não consegue auditar.
 
 **Programador Indie Europeu** - Sou um programador independente sediado em Portugal. Não tenho investidores de capital de risco a pressionar-me para monetizar os dados dos utilizadores em prol de métricas de crescimento. O meu incentivo é construir um produto em que as pessoas confiem, não maximizar a recolha de dados.
 
-Não sou perfeito. As estatísticas e a captação de contactos são atualmente exclusivas do iOS (suporte para Android a chegar em breve). Ainda não há integrações com CRM nem webhooks - no iOS, há exportação em CSV para retirar os contactos. O meu orçamento de marketing é uma fração do dos concorrentes maiores. Mas o meu modelo de privacidade é algo em que acredito genuinamente, e acho que importa.
+Não sou perfeito. Ainda não há integrações com CRM nem webhooks - existe uma exportação completa dos dados para retirar os seus contactos. O App Clip e os passes da Apple Wallet são exclusivos do iPhone, por isso, no Android, os destinatários abrem o seu cartão no navegador. O meu orçamento de marketing é uma fração do dos concorrentes maiores. Mas o meu modelo de privacidade é algo em que acredito genuinamente, e acho que importa.
 
 ---
 
@@ -162,14 +162,14 @@ Não sou perfeito. As estatísticas e a captação de contactos são atualmente 
 
 Antes de se inscrever em qualquer serviço de cartão de visita digital, percorra esta lista:
 
-- ✅ **Sem solicitação de destinatários** no seu nível de plano
-- ✅ **Política de privacidade clara** que especifica que dados de quem vê o cartão são recolhidos
-- ✅ **Exportação de dados** disponível (direito à portabilidade do RGPD)
-- ✅ **Eliminação de conta** em autoatendimento, não escondida atrás do suporte
-- ✅ **Controlos de visibilidade do perfil** (alternância público/privado, proteção por PIN)
-- ✅ **Sem funcionalidades obrigatórias de gravação de conversas** que afetem as pessoas que conhece
-- ✅ **Conformidade com o RGPD** se fizer negócios na Europa (ou com europeus)
-- ✅ **Modelo de negócio transparente** - percebe como a plataforma ganha dinheiro
+- ✓ **Sem solicitação de destinatários** no seu nível de plano
+- ✓ **Política de privacidade clara** que especifica que dados de quem vê o cartão são recolhidos
+- ✓ **Exportação de dados** disponível (direito à portabilidade do RGPD)
+- ✓ **Eliminação de conta** em autoatendimento, não escondida atrás do suporte
+- ✓ **Controlos de visibilidade do perfil** (alternância público/privado, proteção por PIN)
+- ✓ **Sem funcionalidades obrigatórias de gravação de conversas** que afetem as pessoas que conhece
+- ✓ **Conformidade com o RGPD** se fizer negócios na Europa (ou com europeus)
+- ✓ **Modelo de negócio transparente** - percebe como a plataforma ganha dinheiro
 
 Se uma plataforma falhar em mais do que um ou dois destes pontos, pondere se a conveniência compensa o compromisso.
 

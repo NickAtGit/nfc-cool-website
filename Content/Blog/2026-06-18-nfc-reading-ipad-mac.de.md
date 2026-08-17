@@ -1,68 +1,68 @@
 ---
 id: "nfc-reading-ipad-mac-2026-06"
-title: "Wie NFC.cool NFC-Tags auf iPad und Mac liest"
+title: "So liest NFC.cool NFC-Tags auf iPad und Mac"
 date: "2026-06-18"
 tags: ["announcements", "nfc-tags"]
-summary: "iPads und Macs haben keinen NFC-Chip, deshalb habe ich immer gesagt, sie könnten keine NFC-Tags lesen. Mit einem externen USB-Reader ändert Version 6.15.0 das - hier erfährst du, wie es funktioniert und woher es kam."
+summary: "iPad und Mac haben keinen NFC-Chip, deshalb habe ich immer gesagt, dort lassen sich keine NFC-Tags lesen. Seit Version 6.15.0 geht es doch, mit einem externen USB-Reader - hier erkläre ich, wie das funktioniert und wie es dazu kam."
 image: "/assets/images/Blog/nfc-ipad-mac-external-reader.webp"
-imageAlt: "Ein iPad neben einem HID OMNIKEY USB-NFC-Reader mit einem darauf liegenden Tag"
+imageAlt: "Ein iPad neben einem HID OMNIKEY USB-NFC-Reader, auf dem ein Tag liegt"
 author: "Nicolo Stanciu"
-metaTitle: "Wie NFC.cool NFC-Tags auf iPad und Mac liest"
-metaDescription: "iPads und Macs haben keine NFC-Funkhardware, deshalb konnten sie keine NFC-Tags lesen. In NFC.cool 6.15.0 ändert ein externer USB-Reader das auf iPad und Mac. So funktioniert es."
-ogTitle: "NFC-Tags lesen kommt auf iPad und Mac"
-ogDescription: "Kein NFC-Chip in deinem iPad oder Mac? Mit einem externen USB-Reader liest und schreibt NFC.cool 6.15.0 auch dort Tags - plus die ehrlichen Grenzen."
+metaTitle: "So liest NFC.cool NFC-Tags auf iPad und Mac"
+metaDescription: "iPad und Mac haben keinen NFC-Chip, NFC-Tags lesen ging dort bisher nicht. Mit NFC.cool 6.15.0 klappt es über einen externen USB-Reader trotzdem. So geht das."
+ogTitle: "NFC-Tags lesen jetzt auch auf iPad und Mac"
+ogDescription: "Kein NFC-Chip im iPad oder Mac? Mit einem externen USB-Reader liest und beschreibt NFC.cool 6.15.0 Tags trotzdem - und ich sage dir auch, was noch nicht geht."
 ---
-Letztes Jahr war ich in Bologna auf der [PragmaConf 2025](https://pragmaconference.com). Es war mein erstes Mal auf dieser Konferenz und, wie sich herausstellte, auch mein letztes - die Organisatoren können sie nicht weiterführen, also war die Ausgabe, auf der ich war, die letzte. Das macht mich immer noch ein bisschen traurig.
+Letztes Jahr war ich in Bologna auf der [PragmaConf 2025](https://pragmaconference.com). Es war mein erstes Mal auf dieser Konferenz, und wie sich herausgestellt hat, auch mein letztes: Die Organisatoren können sie nicht weiterführen, ich war also gleich bei der letzten Ausgabe dabei. Ein bisschen traurig macht mich das immer noch.
 
-Während ich dort war, kam ich mit [Alexander Manzer](https://www.linkedin.com/in/alexander-manzer) ins Gespräch, einem anderen iOS- und NFC-Entwickler. Irgendwann driftete das Gespräch zu einem Problem, das ich längst unter „unmöglich“ abgelegt hatte: NFC-Tags auf einem iPad zu lesen. iPads haben keinen NFC-Chip, deshalb hatte ich immer gesagt, es ginge schlicht nicht. Alexander sagte mir, es ginge doch - mit dem richtigen externen Reader - und bot an, mir ein kleines Stück Code zum Einstieg zu schicken. Ein paar Tage später tat er das. Dieser Schnipsel ist der Grund, warum NFC.cool jetzt NFC-Tags auf iPad und Mac lesen kann.
-
----
-
-## Ich habe euch gesagt, dass das nicht geht
-
-Im Mai, [als NFC.cool auf den Mac kam](/blog/nfc-cool-comes-to-mac/), habe ich einen ganzen Abschnitt darüber geschrieben, was der Mac nicht kann, und das NFC-Scannen ganz oben draufgesetzt. Meine Begründung war einfach: Macs haben keine NFC-Funkhardware, iPads haben keine NFC-Funkhardware, und das ist eine Hardware-Grenze, die kein Software-Update von mir beheben kann.
-
-Dieser Teil stimmt immer noch - für den im Gerät eingebauten Chip. Was ich übersehen hatte, ist, dass du den eingebauten Chip gar nicht benutzen musst. Du kannst einen anstecken.
+Dort kam ich mit [Alexander Manzer](https://www.linkedin.com/in/alexander-manzer) ins Gespräch, der wie ich iOS- und NFC-Entwickler ist. Irgendwann landeten wir bei einem Problem, das ich schon lange unter „unmöglich“ abgehakt hatte: NFC-Tags auf einem iPad lesen. Ein iPad hat keinen NFC-Chip, also habe ich allen immer gesagt, das geht schlicht nicht. Alexander meinte: Doch, geht - mit dem richtigen externen Reader. Und er bot an, mir ein Stück Code zum Einstieg zu schicken. Ein paar Tage später kam es tatsächlich. Dieser Schnipsel ist der Grund, warum NFC.cool heute NFC-Tags auf iPad und Mac lesen kann.
 
 ---
 
-## Wie es ohne NFC-Chip funktioniert
+## Ich hatte gesagt, das geht nicht
 
-Der Trick ist ein externer USB-NFC-Reader. Du verbindest ihn mit deinem iPad oder Mac, und NFC.cool spricht direkt mit ihm. Es gibt keine Treiber zu installieren: Es funktioniert über die Smartcard-Unterstützung, die Apple ohnehin schon in iPadOS und macOS mitliefert. In dem Moment, in dem du den Reader in den USB-C-Anschluss steckst, bemerkt die App ihn und schaltet von selbst um.
+Im Mai, [als NFC.cool auf den Mac kam](/blog/nfc-cool-comes-to-mac/), habe ich einen ganzen Abschnitt darüber geschrieben, was der Mac nicht kann, und NFC-Scannen stand ganz oben auf der Liste. Meine Begründung war simpel: Im Mac steckt kein NFC-Funkmodul, im iPad auch nicht, und an so einer Hardware-Grenze ändert kein Software-Update von mir etwas.
 
-Die App bevorzugt einen externen Reader, sobald einer angesteckt ist. Auf einem iPad oder Mac ist dieser Reader die einzige NFC-Hardware im Spiel, also gibt es nichts zu entscheiden. Auf einem iPhone wird daraus eine Wahl, die die App für dich trifft: Steck einen Reader an, und NFC.cool benutzt ihn; lass ihn weg, und das Telefon fällt auf sein eigenes eingebautes NFC zurück. Du legst keine Einstellung um, und du wählst keinen Modus - die App findet heraus, welche Hardware sie hat, und handelt entsprechend.
+Das stimmt auch weiterhin, zumindest für den Chip, der im Gerät verbaut ist. Was ich übersehen hatte: Auf den eingebauten Chip bist du gar nicht angewiesen. Du kannst einfach einen anstecken.
 
-Der Reader, um den herum ich das gebaut habe und der einzige, den ich tatsächlich getestet habe, ist der HID OMNIKEY 5022 CL. Andere USB-Reader funktionieren vielleicht, aber ich kann es nicht versprechen, weil ich das Erlebnis nur mit diesem einen von Anfang bis Ende verifiziert habe. Wenn du einen anderen Reader ausprobierst, will ich wirklich wissen, wie es läuft: [Sag mir](/contact/), ob es funktioniert hat oder wo es hakte, und ich lasse das, was ich lerne, zurück in die App und diesen Beitrag fließen.
+---
+
+## So funktioniert das Lesen ohne NFC-Chip
+
+Der Trick ist ein externer USB-NFC-Reader. Du steckst ihn an dein iPad oder deinen Mac, und NFC.cool redet direkt mit ihm. Treiber musst du keine installieren: Das Ganze läuft über die Smartcard-Unterstützung, die Apple ohnehin in iPadOS und macOS eingebaut hat. Sobald der Reader im USB-C-Anschluss steckt, merkt die App das und schaltet von selbst um.
+
+Ist ein externer Reader angesteckt, hat er Vorrang. Auf iPad und Mac ist er ohnehin die einzige NFC-Hardware, da gibt es nichts zu entscheiden. Auf dem iPhone nimmt dir die App die Entscheidung ab: Steckst du einen Reader an, benutzt NFC.cool ihn. Ziehst du ihn ab, greift das iPhone wieder auf sein eingebautes NFC zurück. Du musst keine Einstellung umlegen und keinen Modus wählen. Die App schaut, welche Hardware da ist, und richtet sich danach.
+
+Entwickelt habe ich das Ganze mit dem HID OMNIKEY 5022 CL, und er ist auch der einzige Reader, den ich wirklich getestet habe. Andere USB-Reader funktionieren vielleicht, versprechen kann ich es aber nicht, weil ich nur mit diesem einen alles von vorne bis hinten durchprobiert habe. Falls du einen anderen Reader ausprobierst, würde mich ehrlich interessieren, wie es läuft: [Schreib mir](/contact/), ob es geklappt hat oder wo es gehakt hat. Was ich daraus lerne, fließt in die App und in diesen Beitrag zurück.
 
 ---
 
 ## Was du damit machen kannst
 
-Fast alles, was du auf einem iPhone tun würdest. Du kannst Tags lesen und ihren gesamten Speicher auslesen, NDEF-Nachrichten schreiben und Batch-Jobs ausführen, die einen ganzen Stapel Tags nacheinander lesen oder beschreiben. Tags mit Passwort zu schützen funktioniert. Genauso [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), das Format für 3D-Drucker-Filamentspulen, in beide Richtungen. Und ja, der [Reset von Philips-Sonicare-Bürstenköpfen](/blog/reset-sonicare-brush-head-nfc/) läuft auch.
+Fast alles, was du auch auf dem iPhone machen würdest. Tags lesen und den kompletten Speicher auslesen, NDEF-Nachrichten schreiben, Batch-Jobs, die einen ganzen Stapel Tags nacheinander lesen oder beschreiben. Tags mit Passwort schützen geht. [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), das Format für Filamentspulen im 3D-Druck, geht in beide Richtungen. Und ja, auch der [Reset von Philips-Sonicare-Bürstenköpfen](/blog/reset-sonicare-brush-head-nfc/) läuft.
 
-Das Letzte war der schwierige Teil. Einen Sonicare-Kopf zurückzusetzen bedeutet, einen Zähler vom Tag zu lesen und dann auf eine passwortgeschützte Seite zurückzuschreiben, und das Tag akzeptiert diesen Schreibvorgang nur, wenn es dich noch von einem Moment zuvor als authentifiziert betrachtet. Über einen externen Reader hieß das, eine einzige Sitzung mit dem Reader über beide Schritte hinweg offen zu halten, statt sie dazwischen schließen zu lassen. Sobald das hielt, fingen die Operationen, die davon abhängen - geschützte Schreibvorgänge, der Bürstenkopf-Reset -, an, sich so zu verhalten, wie sie es auf einem Telefon tun.
+Der Sonicare-Reset war der schwierigste Brocken. Beim Zurücksetzen eines Bürstenkopfs liest man einen Zähler vom Tag und schreibt anschließend auf eine passwortgeschützte Seite zurück. Diesen Schreibvorgang lässt das Tag aber nur zu, wenn du für das Tag vom Moment davor noch als authentifiziert giltst. Mit einem externen Reader heißt das: Die Verbindung zum Reader muss über beide Schritte hinweg als eine einzige Sitzung offen bleiben, statt zwischendurch geschlossen zu werden. Als das stand, verhielten sich auf einmal alle Operationen, die darauf aufbauen, genau wie auf dem iPhone: geschützte Schreibvorgänge und eben der Bürstenkopf-Reset.
 
 ---
 
-## Die ehrlichen Grenzen
+## Was noch nicht geht
 
-Ein paar Dinge sind noch nicht da, und ich sage es dir lieber, als dich es selbst herausfinden zu lassen.
+Ein paar Sachen fehlen noch, und ich sage dir das lieber vorher, als dass du es selbst herausfindest.
 
-- Der OMNIKEY 5022 CL ist der einzige Reader, den ich getestet habe. Ein anderer setzt dich in unverifiziertes Terrain.
-- MIFARE-Classic-Tags sind über den Reader nur lesbar. Du kannst sie lesen, aber nicht beschreiben.
+- Der OMNIKEY 5022 CL ist der einzige Reader, den ich getestet habe. Mit jedem anderen bist du auf ungetestetem Terrain unterwegs.
+- MIFARE-Classic-Tags sind über den Reader nur lesbar. Auslesen klappt, Beschreiben nicht.
 
-Nichts davon bricht die Art, wie die meisten Leute das nutzen werden, aber sie sind real, und sie sind die Art von Dingen, die ich vor dem Kauf eines Readers wissen wollen würde.
+Für die meisten Anwendungsfälle spielt beides keine Rolle, aber es sind echte Einschränkungen, und ich selbst wüsste so etwas gern, bevor ich einen Reader kaufe.
 
 ---
 
 ## Danke, Alexander
 
-Ich will klarstellen, woher das kam. Ich habe mich nicht hingesetzt und es erfunden - Alexander hat mir den Faden gereicht, und ich habe daran gezogen. Er hätte den Code nicht teilen müssen, und ich bin dankbar, dass er es getan hat. Ein Teil des Grundes, warum ich es danach so hartnäckig verfolgt habe, ist schlicht: Ich wollte, dass NFC.cool die erste iPad-App ist, die tatsächlich ein NFC-Tag lesen kann. Ob es sich nun als die allererste herausstellt oder nicht - dorthin zu kommen war die Arbeit wert.
+Eins will ich klarstellen: Ich habe mir das nicht selbst ausgedacht. Alexander hat mir den Faden in die Hand gedrückt, ich habe daran gezogen. Er hätte den Code nicht teilen müssen, und ich bin dankbar, dass er es getan hat. Ein Grund, warum ich danach so hartnäckig drangeblieben bin, ist ganz einfach: Ich wollte, dass NFC.cool die erste iPad-App ist, die tatsächlich ein NFC-Tag lesen kann. Ob sie am Ende wirklich die allererste ist oder nicht, der Weg dorthin war die Arbeit wert.
 
-Das Lesen von NFC-Tags auf iPad und Mac kommt mit NFC.cool 6.15.0. Wenn du ein iPad oder einen Mac hast, einen unterstützten Reader und ein Tag, das du von deinem Schreibtisch aus nie scannen konntest, dann funktioniert es einfach.
+Ab NFC.cool 6.15.0 kannst du NFC-Tags auch auf iPad und Mac lesen. Wenn du ein iPad oder einen Mac hast, einen unterstützten Reader und ein Tag, das du bisher nie vom Schreibtisch aus scannen konntest: Es funktioniert einfach.
 
-Brauchst du den Reader? Hier ist der HID OMNIKEY 5022 CL bei [Amazon US](https://amzn.to/4rq6gCj) und [Amazon Europa](https://amzn.to/483UyEp). Das sind Affiliate-Links: Wenn du über einen davon kaufst, erhalte ich womöglich eine kleine Provision ohne Mehrkosten für dich, und es hilft, die Arbeit an NFC.cool zu finanzieren.
+Du brauchst noch den Reader? Den HID OMNIKEY 5022 CL gibt es bei [Amazon US](https://amzn.to/4rq6gCj) und [Amazon Europa](https://amzn.to/483UyEp). Das sind Affiliate-Links: Kaufst du darüber, bekomme ich unter Umständen eine kleine Provision, für dich ändert sich am Preis nichts, und es hilft mir, die Arbeit an NFC.cool zu finanzieren.
 
-[NFC.cool Tools für iPhone, iPad und Mac herunterladen](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-reading-ipad-mac-de&mt=8)
+[NFC.cool Tools für iPhone, iPad und Mac laden](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-reading-ipad-mac-de&mt=8)
 
-Und wenn du bei dieser letzten PragmaConf in Bologna warst: Danke für eine gute Zeit. Ich wünschte, es gäbe eine weitere.
+Und falls du auch auf dieser letzten PragmaConf in Bologna warst: Danke für die schöne Zeit. Ich wünschte, es gäbe eine nächste.

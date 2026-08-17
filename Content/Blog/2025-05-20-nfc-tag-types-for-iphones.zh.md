@@ -50,7 +50,7 @@ Type 5 标签符合 ISO 15693 标准，在 NFC 生态里算是比较新的。它
 
 ## iPhone 应该选哪种 NFC 标签？
 
-下面是最重要的部分。iPhone 7 及之后的机型兼容 NFC 的 Type 1、Type 2 和 Type 5，但对 Type 2 的支持最好。Type 2 NFC 标签就是 NXP Semiconductors 的 [NTAG 系列](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS)。
+下面是最重要的部分。iPhone 7 及之后的机型能读取 NFC Forum 全部五种类型标签上的 NDEF 数据，而且从 iOS 13 起，像 NFC.cool 这样的应用还能原生地与 Type 3、Type 4 和 Type 5 标签直接通信，不再局限于普通的 NDEF。不过，最顺畅、最稳妥的选择依然是 Type 2，几乎每个项目我都会推荐它。Type 2 NFC 标签就是 NXP Semiconductors 的 [NTAG 系列](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS)。
 
 NTAG213、NTAG215 和 NTAG216 这几款是该系列里最受欢迎的，它们和 iPhone 配合得非常好，这也是我日复一日拿来测试的对象。它们提供的存储空间（144 到 888 字节）足以应付大多数实际项目，能被任何支持 NFC 的 iPhone 完整写入和读取，而且可以反复擦写，所以你想改多少次内容都行。
 

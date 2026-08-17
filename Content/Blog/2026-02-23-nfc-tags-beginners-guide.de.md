@@ -1,143 +1,143 @@
 ---
 id: nfc-blog-009
-title: "NFC-Tags erklärt: Ein kompletter Einsteiger-Guide"
+title: "NFC-Tags erklärt: der komplette Einsteiger-Guide"
 date: 2026-02-23
 tags: ["nfc-tags", "guides", "automation"]
-summary: "NFC-Tags sind winzige, stromlose Chips, die mit einem einzigen Scan Aktionen auf deinem Handy auslösen können. Hier ist alles, was du wissen musst - was sie sind, wie sie funktionieren, welche Typen du kaufen solltest und 15+ praktische Anwendungen."
+summary: "NFC-Tags sind winzige Chips ohne Batterie, die mit einem einzigen Scan etwas auf deinem Handy auslösen. Hier steht alles, was du dazu wissen musst: was sie sind, wie sie funktionieren, welche du kaufen solltest und über 15 Anwendungen aus der Praxis."
 image: "/assets/images/Blog/nfc-tags-beginners-guide.webp"
-imageAlt: "Smartphone und mehrere NFC-Tags mit einfachen Workflow-Symbolen"
-metaTitle: "NFC-Tags erklärt: Ein kompletter Einsteiger-Guide (2026)"
-metaDescription: "Lerne, was NFC-Tags sind, wie sie funktionieren, die verschiedenen Typen (NTAG213, 215, 216) und 15+ praktische Einsätze - von Smart-Home-Automation bis digitale Visitenkarten."
-ogTitle: "NFC-Tags erklärt: Ein kompletter Einsteiger-Guide"
-ogDescription: "Alles, was Einsteiger 2026 über NFC-Tags wissen müssen - Typen, Funktionsweise, was man kaufen sollte und praktische Einsätze für Zuhause, Arbeit und mehr."
+imageAlt: "Ein Smartphone neben mehreren NFC-Tags, dazu einfache Workflow-Symbole"
+metaTitle: "NFC-Tags erklärt: der komplette Einsteiger-Guide (2026)"
+metaDescription: "Was NFC-Tags sind, wie sie funktionieren, welche Typen es gibt (NTAG213, 215, 216) und über 15 Anwendungen - vom Smart Home bis zur digitalen Visitenkarte."
+ogTitle: "NFC-Tags erklärt: der komplette Einsteiger-Guide"
+ogDescription: "Alles, was Einsteiger 2026 über NFC-Tags wissen müssen: Typen, Funktionsweise, Kaufempfehlung und praktische Anwendungen für zu Hause, im Büro und unterwegs."
 ---
-Du hast dein Handy wahrscheinlich schon mal an ein Terminal gehalten, um einen Kaffee zu bezahlen, eine Transitkarte gescannt oder damit eine Hotelzimmertür geöffnet. Jedes Mal ist das NFC bei der Arbeit.
+Du hast dein Handy bestimmt schon mal ans Terminal gehalten, um einen Kaffee zu bezahlen, eine Fahrkarte gescannt oder damit eine Hotelzimmertür aufgemacht. Jedes Mal war das NFC.
 
-Ich habe Jahre damit verbracht, NFC.cool zu bauen, eine App zum Lesen und Beschreiben von NFC-Tags, und das Eine, von dem ich mir wünschte, dass mehr Leute es wüssten, ist Folgendes: NFC ist nicht nur für Zahlungen und Schlüsselkarten. Ein winziger **NFC-Tag** - ein Chip, der ein paar Cent kostet und nie eine Batterie braucht - kann dein Zuhause automatisieren, deine Kontaktdaten mit einem einzigen Scan übergeben und die physische Welt mit digitalen Aktionen verbinden.
+Ich baue seit Jahren an NFC.cool, einer App zum Lesen und Beschreiben von NFC-Tags, und wenn ich mir eine Sache wünschen dürfte, die mehr Leute wissen, dann diese: NFC kann viel mehr als Bezahlen und Schlüsselkarten. Ein winziger **NFC-Tag**, ein Chip für ein paar Cent, der nie eine Batterie braucht, kann dein Zuhause automatisieren, deine Kontaktdaten mit einem einzigen Scan weitergeben und Dinge in der echten Welt mit digitalen Aktionen verknüpfen.
 
-Das ist der Guide, den ich jedem geben würde, der gerade einsteigt. Ich gehe durch, was NFC-Tags sind, wie sie wirklich funktionieren, welche ich kaufen würde und die Anwendungen, die sich meiner Erfahrung nach echt gelohnt haben.
+Das hier ist der Guide, den ich jedem in die Hand drücken würde, der gerade anfängt. Ich erkläre, was NFC-Tags sind, wie sie wirklich funktionieren, welche ich kaufen würde und welche Anwendungen sich meiner Erfahrung nach tatsächlich lohnen.
 
 ---
 
 ## Was ist NFC?
 
-**NFC** steht für **Near Field Communication**. Es ist eine Kurzstrecken-Funktechnologie, die zwei Geräten den Datenaustausch ermöglicht, wenn sie innerhalb weniger Zentimeter zueinander gebracht werden.
+**NFC** steht für **Near Field Communication**. Dahinter steckt ein Funkstandard für ganz kurze Distanzen: Zwei Geräte tauschen Daten aus, sobald sie sich auf wenige Zentimeter nahekommen.
 
-NFC operiert bei **13,56 MHz** und funktioniert auf Distanzen bis etwa **4 cm** (ungefähr 1,5 Zoll). Diese winzige Reichweite verwirrt am Anfang viele, aber sie ist beabsichtigt - es ist ein Sicherheitsfeature. Anders als bei Bluetooth oder Wi-Fi kannst du dich nicht versehentlich mit etwas auf der anderen Seite des Raums verbinden.
+NFC arbeitet bei **13,56 MHz** und reicht bis etwa **4 cm** (rund 1,5 Zoll). Über diese winzige Reichweite stolpern am Anfang viele, aber sie ist Absicht - ein Sicherheitsmerkmal. Anders als bei Bluetooth oder WLAN verbindest du dich nicht aus Versehen mit irgendwas am anderen Ende des Raums.
 
-Jedes moderne Smartphone hat einen eingebauten NFC-Chip. iPhones lesen NFC seit dem iPhone 7 (2016), Android-Handys noch länger. Halte dein Handy in die Nähe eines Tags, und das Handy versorgt den Tag mit Strom und liest ihn - der ganze Austausch passiert in einem Bruchteil einer Sekunde.
+Jedes moderne Smartphone hat einen NFC-Chip eingebaut. iPhones lesen NFC seit dem iPhone 7 von 2016, Android-Handys schon länger. Du hältst das Handy in die Nähe eines Tags, das Handy versorgt den Tag mit Strom und liest ihn aus - das Ganze dauert einen Bruchteil einer Sekunde.
 
 ---
 
 ## Was ist ein NFC-Tag?
 
-Ein NFC-Tag ist ein kleiner, passiver Chip, der in einen Sticker, eine Karte, einen Schlüsselanhänger oder so ziemlich jeden Formfaktor eingebettet ist. „Passiv“ ist das Wort, auf das es ankommt: **ein NFC-Tag hat keine Batterie.** Er wird vollständig vom Feld des Geräts mit Strom versorgt, das ihn liest.
+Ein NFC-Tag ist ein kleiner, passiver Chip, der in einem Sticker, einer Karte, einem Schlüsselanhänger oder so ziemlich jeder anderen Form steckt. „Passiv“ ist dabei das entscheidende Wort: **Ein NFC-Tag hat keine Batterie.** Seinen Strom bekommt er komplett aus dem Feld des Geräts, das ihn gerade liest.
 
-Genau das macht sie so unkompliziert im Alltag:
-- **Praktisch unzerstörbar** - keine Batterie, die leer wird, nichts, das sich abnutzt
-- **Günstig** - ein paar Cent pro Stück im Großeinkauf
+Genau deshalb sind sie im Alltag so unkompliziert:
+- **Praktisch unkaputtbar** - keine Batterie, die leer geht, nichts, das verschleißt
+- **Günstig** - im Großpack ein paar Cent pro Stück
 - **Winzig** - kleiner als eine Münze, dünner als eine Kreditkarte
-- **Langlebig** - ein anständiger Tag hält 10+ Jahre
+- **Langlebig** - ein anständiger Tag hält 10 Jahre und länger
 
-Jeder Tag enthält eine kleine Menge Speicher. Du kannst eine URL, Kontaktdaten, WLAN-Zugangsdaten, Klartext oder Anweisungen ablegen, die dem lesenden Handy sagen, was es tun soll.
+Jeder Tag hat ein bisschen Speicher. Da passt eine URL rein, Kontaktdaten, WLAN-Zugangsdaten, einfacher Text oder Anweisungen, die dem lesenden Handy sagen, was es tun soll.
 
-### Worin unterscheidet sich NFC von RFID?
+### Was unterscheidet NFC von RFID?
 
-NFC ist eigentlich eine Untermenge von RFID (Radio-Frequency Identification). So erkläre ich den Unterschied:
+NFC ist genau genommen eine Untermenge von RFID (Radio-Frequency Identification). So erkläre ich den Unterschied meistens:
 
 | | NFC | RFID |
 |---|---|---|
 | **Frequenz** | Nur 13,56 MHz | 125 KHz - 960 MHz |
-| **Reichweite** | Bis ~4 cm | Bis mehrere Meter |
-| **Kommunikation** | Bidirektional | Meist unidirektional |
+| **Reichweite** | Bis ~4 cm | Bis zu mehrere Meter |
+| **Kommunikation** | In beide Richtungen | Meist nur in eine Richtung |
 | **Standardisiert** | ISO 14443 / ISO 18092 | Mehrere Standards |
-| **Verbrauchernutzung** | Hoch (Handys, Zahlungen) | Meist industriell |
+| **Einsatz bei Endverbrauchern** | Hoch (Handys, Bezahlen) | Überwiegend industriell |
 
-Alles NFC ist RFID, aber nicht alles RFID ist NFC. Der Ausweis, den du durchziehst, um ins Büro zu kommen, läuft oft bei 125 KHz, und dein Handy kann das schlicht nicht lesen. NFC-Tags nutzen die 13,56-MHz-Frequenz, die Handys unterstützen. „Warum liest mein Handy meinen Firmenausweis nicht?“ ist eine der Fragen, die mir am häufigsten gestellt werden, und das ist fast immer die Antwort. (Wenn du in genau diesem Kaninchenbau steckst, habe ich einen ganzen Beitrag dazu geschrieben, [warum dein iPhone keine RFID-Tür öffnen kann](/de/blog/iphone-rfid-condo-doors/).)
+Alles, was NFC ist, ist auch RFID - aber nicht umgekehrt. Der Ausweis, den du morgens ans Lesegerät hältst, um ins Büro zu kommen, funkt oft bei 125 KHz, und das kann dein Handy schlicht nicht lesen. NFC-Tags nutzen 13,56 MHz, und genau diese Frequenz beherrschen Handys. „Warum liest mein Handy meinen Firmenausweis nicht?“ gehört zu den Fragen, die ich am häufigsten bekomme, und das ist fast immer die Antwort. (Falls du gerade genau an diesem Punkt hängst: Dazu habe ich einen eigenen Beitrag geschrieben, [warum dein iPhone keine RFID-Tür öffnen kann](/de/blog/iphone-rfid-condo-doors/).)
 
 ---
 
 ## NFC-Tag-Typen: Welchen solltest du kaufen?
 
-NFC-Tags gibt es in Typen, die vom **NFC Forum** definiert werden, dem Industriestandard-Gremium. Diejenigen, denen du tatsächlich begegnest, basieren auf Chips von **NXP Semiconductors** - der NTAG-Serie.
+NFC-Tags gibt es in verschiedenen Typen, festgelegt vom **NFC Forum**, dem Standardisierungsgremium der Branche. Die, denen du in der Praxis begegnest, basieren auf Chips von **NXP Semiconductors**: der NTAG-Serie.
 
 ### Die NTAG-Familie
 
-Das sind bei Weitem die häufigsten NFC-Tags für Verbrauchernutzung:
+Das sind mit Abstand die häufigsten NFC-Tags für den Privatgebrauch:
 
 #### NTAG213
-- **Speicher:** 144 Bytes (ca. 132 nutzbar)
-- **Am besten für:** URLs, Kontaktkarten, einfache Automatisierungen
-- **Preis:** Günstigste Option (~$0.15-$0.30 pro Tag)
-- **URL-Kapazität:** ~130 Zeichen
+- **Speicher:** 144 Byte (davon etwa 132 nutzbar)
+- **Ideal für:** URLs, Kontaktkarten, einfache Automatisierungen
+- **Preis:** die günstigste Option (ca. 0,15-0,30 $ pro Tag)
+- **URL-Länge:** bis etwa 130 Zeichen
 
-Das Arbeitstier. Für eine einzelne URL oder ein kurzes Stück Text ist NTAG213 alles, was du brauchst - das nutzen die meisten NFC-Visitenkarten und Marketing-Tags.
+Das Arbeitstier unter den Tags. Für eine einzelne URL oder ein kurzes Stück Text reicht der NTAG213 völlig - genau den nutzen die meisten NFC-Visitenkarten und Marketing-Tags.
 
 #### NTAG215
-- **Speicher:** 504 Bytes (ca. 488 nutzbar)
-- **Am besten für:** Längere URLs, vCards mit mehreren Feldern, WLAN-Zugangsdaten
-- **Preis:** ~$0.20-$0.40 pro Tag
-- **URL-Kapazität:** ~480 Zeichen
+- **Speicher:** 504 Byte (davon etwa 488 nutzbar)
+- **Ideal für:** längere URLs, vCards mit mehreren Feldern, WLAN-Zugangsdaten
+- **Preis:** ca. 0,20-0,40 $ pro Tag
+- **URL-Länge:** bis etwa 480 Zeichen
 
-Eine solide Mittelklasse-Option - genug Puffer für längere URLs und vCards mit mehreren Feldern, günstig genug für den Großeinkauf. Es ist auch der Chip in den Nintendo Amiibo-Figuren, weshalb beschreibbare NTAG215 so leicht zu finden sind.
+Eine solide Mittelklasse: genug Luft für längere URLs und vCards mit mehreren Feldern und trotzdem günstig genug fürs Großpack. Derselbe Chip steckt übrigens in den Amiibo-Figuren von Nintendo, deshalb sind beschreibbare NTAG215 so leicht zu bekommen.
 
 #### NTAG216
-- **Speicher:** 888 Bytes (ca. 868 nutzbar)
-- **Am besten für:** Vollständige vCards, mehrere Datensätze, längere Textinhalte
-- **Preis:** ~$0.30-$0.60 pro Tag
-- **URL-Kapazität:** ~850 Zeichen
+- **Speicher:** 888 Byte (davon etwa 868 nutzbar)
+- **Ideal für:** komplette vCards, mehrere Datensätze, längere Texte
+- **Preis:** ca. 0,30-0,60 $ pro Tag
+- **URL-Länge:** bis etwa 850 Zeichen
 
-Der meiste Speicher in der NTAG-Verbraucher-Linie - und der Tag, zu dem ich greifen würde, wenn du nur einen kaufst. Der zusätzliche Puffer sorgt dafür, dass du an keine Grenze stößt - vollständige vCards, mehrere Datensätze, längere Texte, Platz für zukünftige Änderungen - und es ist der Standard, gegen den NFC.cool testet.
+Der meiste Speicher in der NTAG-Reihe für Endkunden, und der Tag, zu dem ich greifen würde, wenn du nur einen kaufst. Mit der Reserve läufst du gegen keine Wand: komplette vCards, mehrere Datensätze, längere Texte, Platz für spätere Änderungen. Außerdem ist es der Chip, mit dem ich NFC.cool standardmäßig teste.
 
-### Andere Tag-Typen, die du sehen könntest
+### Andere Tag-Typen, die dir begegnen können
 
-- **NTAG424 DNA** - Ein fortgeschrittener Chip mit kryptografischer Authentifizierung. Er taucht bei Fälschungsschutz, Luxusgüter-Verifikation und den neuen EU-Regeln zum Digital Product Passport auf. Für den Privatgebrauch überdimensioniert, für kommerzielle Arbeit aber echt wichtig.
-- **MIFARE Classic** - Ein älterer NXP-Chip, der in Zugangskarten und Transitsystemen genutzt wird. Es ist kein Standard-NFC-Forum-Tag, daher ist die Telefonkompatibilität Glückssache. Für private Projekte würde ich ihn auslassen.
-- **ST25T** - Die NFC-Tag-Linie von STMicroelectronics. In der Funktion ähnlich wie NTAG, in Verbraucherprodukten weniger verbreitet.
-- **ICODE** - Gebaut für Bibliotheks- und Logistik-Tracking. Damit wirst du wahrscheinlich nicht in Berührung kommen.
+- **NTAG424 DNA** - Ein Chip der Oberklasse mit kryptografischer Authentifizierung. Man findet ihn im Fälschungsschutz, bei der Echtheitsprüfung von Luxusgütern und in den neuen EU-Regeln zum Digital Product Passport. Für private Projekte überdimensioniert, für den kommerziellen Einsatz aber wirklich wichtig.
+- **MIFARE Classic** - Ein älterer NXP-Chip aus Zugangskarten und Nahverkehrssystemen. Kein standardisierter NFC-Forum-Tag, entsprechend ist es Glückssache, ob ein Handy ihn lesen kann. Für eigene Projekte würde ich einen Bogen drum machen.
+- **ST25T** - Die NFC-Tag-Reihe von STMicroelectronics. Funktioniert ähnlich wie NTAG, ist in Endkundenprodukten aber seltener anzutreffen.
+- **ICODE** - Gemacht für Bibliotheken und Logistik. Damit wirst du vermutlich nie zu tun haben.
 
-### Schnelle Kaufberatung
+### Kurze Kaufberatung
 
 | Anwendungsfall | Empfohlener Tag | Warum |
 |---|---|---|
-| Website-URL | NTAG213 | Minimale Daten, am günstigsten |
-| Digitale Visitenkarte | NTAG213 oder NTAG215 | URL-Link braucht ~100 Zeichen |
-| WLAN-Sharing | NTAG215 | Zugangsdaten können lang werden |
-| Vollständige vCard auf dem Tag | NTAG216 | Braucht mehr Speicher |
-| Smart-Home-Trigger | NTAG213 | Braucht nur eine eindeutige ID |
-| Fälschungsschutz | NTAG424 DNA | Kryptografische Verifikation |
+| Website-URL | NTAG213 | Wenig Daten, am günstigsten |
+| Digitale Visitenkarte | NTAG213 oder NTAG215 | Der Link braucht etwa 100 Zeichen |
+| WLAN teilen | NTAG215 | Zugangsdaten können lang werden |
+| Komplette vCard auf dem Tag | NTAG216 | Braucht mehr Speicher |
+| Smart-Home-Auslöser | NTAG213 | Braucht nur eine eindeutige ID |
+| Fälschungsschutz | NTAG424 DNA | Kryptografische Prüfung |
 
-**Wo kaufen:** Meine Seite mit [empfohlenen NFC-Tags](/de/affiliate-links/) listet die NTAG216-Sticker auf, die ich selbst nutze und teste. Sticker-Tags sind am vielseitigsten - sie kleben auf fast allem.
+**Wo kaufen:** Auf meiner Seite mit [empfohlenen NFC-Tags](/de/affiliate-links/) findest du die NTAG216-Sticker, die ich selbst benutze und mit denen ich teste. Sticker sind die vielseitigste Form - sie halten auf fast allem.
 
-Mein ehrlicher Rat: Kauf dir ein Pack NTAG216-Sticker und hör auf, es zu zerdenken. Ich habe Leute beobachtet, die sich über Chip-Typen den Kopf zerbrochen haben für ein Projekt, das ein 20-Cent-Tag locker erledigt. Wenn du irgendwann die tiefere Aufschlüsselung willst, bin ich in [NFC-Tag-Typen für iPhone](/de/blog/nfc-tag-types-for-iphones/) Chip für Chip durchgegangen.
+Mein ehrlicher Rat: Kauf dir ein Pack NTAG216-Sticker und denk nicht länger drüber nach. Ich habe schon Leute erlebt, die sich über den richtigen Chip den Kopf zerbrochen haben - für ein Projekt, das ein 20-Cent-Tag problemlos erledigt. Wenn du irgendwann doch die Details willst: In [NFC-Tag-Typen fürs iPhone](/de/blog/nfc-tag-types-for-iphones/) gehe ich Chip für Chip durch.
 
 ---
 
 ## Wie NFC-Tags funktionieren (die einfache Version)
 
-Die Leute erwarten, dass das kompliziert ist. Ist es nicht. So läuft das Ganze ab, von Anfang bis Ende:
+Viele erwarten, dass das kompliziert ist. Ist es nicht. So läuft das Ganze ab, von Anfang bis Ende:
 
-1. **Stromübertragung** - Die NFC-Antenne deines Handys erzeugt ein elektromagnetisches Feld. Wenn der Tag in dieses Feld eintritt (~4 cm), induziert das Feld einen winzigen elektrischen Strom in der Antennenspule des Tags. Dieser Strom versorgt den Chip.
+1. **Stromversorgung** - Die NFC-Antenne in deinem Handy erzeugt ein elektromagnetisches Feld. Kommt ein Tag in dieses Feld (etwa 4 cm), induziert das Feld in der Antennenspule des Tags einen winzigen Strom, und der versorgt den Chip.
 
-2. **Datenaustausch** - Der versorgte Chip überträgt seine gespeicherten Daten zurück an dein Handy mit modulierten Funkwellen bei 13,56 MHz. Dieser gesamte Austausch dauert etwa 100 Millisekunden.
+2. **Datenaustausch** - Der Chip schickt seine gespeicherten Daten als modulierte Funkwellen bei 13,56 MHz zurück ans Handy. Der ganze Austausch dauert etwa 100 Millisekunden.
 
-3. **Aktion** - Dein Handy liest die Daten und entscheidet, was damit zu tun ist. Eine URL öffnet sich im Browser. Eine Telefonnummer bietet einen Anruf an. Ein WLAN-Datensatz bietet Verbindung an. Ein App-spezifischer Datensatz öffnet die entsprechende App.
+3. **Aktion** - Dein Handy liest die Daten und entscheidet, was damit passiert. Eine URL geht im Browser auf. Eine Telefonnummer bietet einen Anruf an, ein WLAN-Datensatz die Verbindung mit dem Netz. Ein App-spezifischer Datensatz öffnet die passende App.
 
-Kein Pairing. Keine PIN. Keine App für Basisfunktionen nötig. Einfach dranhalten und los.
+Kein Koppeln. Keine PIN. Fürs einfache Lesen keine App nötig. Dranhalten, fertig.
 
-### NDEF: Die Sprache, die Tags sprechen
+### NDEF: die Sprache, die Tags sprechen
 
-Die Daten auf NFC-Tags sind mit **NDEF** (NFC Data Exchange Format) strukturiert. Denk an NDEF als die gemeinsame Sprache, die jedem NFC-fähigen Handy ermöglicht, jeden NFC-Tag zu verstehen.
+Die Daten auf einem NFC-Tag sind nach **NDEF** (NFC Data Exchange Format) strukturiert. Ich stelle mir NDEF als die gemeinsame Sprache vor, dank der jedes NFC-Handy jeden NFC-Tag versteht.
 
-Häufige NDEF-Datensatz-Typen:
-- **URI** - Ein Weblink (http, https, tel:, mailto:)
-- **Text** - Klartext in jeder Sprache
-- **Smart Poster** - URL + Titel + Icon kombiniert
-- **WLAN** - Netzwerkname, Passwort und Sicherheitstyp
-- **vCard** - Kontaktinformationen
-- **MIME** - Jeder benutzerdefinierte Datentyp (von Apps für benutzerdefinierte Aktionen verwendet)
+Häufige NDEF-Datensatztypen:
+- **URI** - ein Link (http, https, tel:, mailto:)
+- **Text** - einfacher Text in beliebiger Sprache
+- **Smart Poster** - URL, Titel und Icon in einem
+- **WLAN** - Netzwerkname, Passwort und Verschlüsselungstyp
+- **vCard** - Kontaktdaten
+- **MIME** - beliebige eigene Datentypen, die Apps für eigene Aktionen nutzen
 
-Wenn du mit einer App wie NFC.cool Tools einen Tag beschreibst, erstellst du NDEF-Datensätze. Wenn ein Handy den Tag liest, parst es diese Datensätze und handelt entsprechend. Das ist das ganze Modell - sobald es bei mir klick gemacht hat, ergab alles andere an NFC Sinn.
+Wenn du mit einer App wie NFC.cool Tools einen Tag beschreibst, legst du NDEF-Datensätze an. Liest ein Handy den Tag, parst es diese Datensätze und reagiert darauf. Mehr ist es nicht - als das bei mir einmal Klick gemacht hatte, ergab der ganze Rest von NFC plötzlich Sinn.
 
 ---
 
@@ -145,190 +145,190 @@ Wenn du mit einer App wie NFC.cool Tools einen Tag beschreibst, erstellst du NDE
 
 ### Auf dem iPhone
 
-iPhones handhaben Tags automatisch. Auf **iPhone XS und neuer** (und dem iPhone SE der 3. Generation) läuft die NFC-Lesung im Hintergrund - halte die Oberseite des Handys in die Nähe eines Tags, und er wird sofort gelesen, ohne App. Ältere iPhones (7, 8, X) erfordern, dass du zuerst eine NFC-Reader-App öffnest.
+iPhones kümmern sich von selbst um Tags. Ab dem **iPhone XS** (und auf dem iPhone SE der 3. Generation) läuft das NFC-Lesen im Hintergrund: Halte die Oberkante des Handys in die Nähe eines Tags, und er wird sofort gelesen, ganz ohne App. Bei älteren iPhones (7, 8, X) musst du vorher eine NFC-Reader-App öffnen.
 
 Was beim Scannen passiert, hängt von den Daten ab:
-- **URL** - eine Benachrichtigung erscheint, tippe darauf, um sie in Safari zu öffnen
-- **Telefonnummer** - eine Option zum Anrufen
-- **App Clip** - startet einen App Clip, falls vorhanden
-- **Benutzerdefinierte Daten** - öffnet die zugehörige App
+- **URL** - eine Mitteilung erscheint, ein Fingertipp darauf öffnet sie in Safari
+- **Telefonnummer** - du bekommst die Option anzurufen
+- **App Clip** - startet einen App Clip, falls es einen gibt
+- **Eigene Daten** - öffnet die zugehörige App
 
-Wenn du nur sehen willst, was gerade auf einem Tag steht, kannst du auf Android auch [NFC-Tags direkt aus dem Browser lesen](/de/online-nfc-reader/) - ohne Installation.
+Wenn du nur mal sehen willst, was gerade auf einem Tag steht, kannst du auf Android auch [NFC-Tags direkt im Browser auslesen](/de/online-nfc-reader/), ohne etwas zu installieren.
 
 ### Auf Android
 
-Die meisten Android-Handys haben NFC seit etwa 2012. Die Lesung ist standardmäßig an; den Schalter findest du unter Einstellungen, Verbundene Geräte, NFC. Halte dein Handy an einen Tag, und Android übergibt die Daten an die am besten passende App - URLs an den Browser, Kontakte an das Adressbuch, benutzerdefinierte Datensätze an ihre App.
+Die meisten Android-Handys haben NFC seit etwa 2012. Das Lesen ist standardmäßig aktiv; den Schalter findest du unter Einstellungen, Verbundene Geräte, NFC. Halte das Handy an einen Tag, und Android reicht die Daten an die passende App weiter - URLs an den Browser, Kontakte ans Adressbuch, eigene Datensätze an ihre jeweilige App.
 
 ---
 
-## NFC-Tags schreiben
+## NFC-Tags beschreiben
 
-Das ist der Teil, den ich echt spannend finde. Einen Tag zu beschreiben heißt, ihn mit den Daten zu programmieren, die du willst.
+Hier fängt für mich der Spaß an. Einen Tag beschreiben heißt: Du programmierst ihn mit genau den Daten, die du drauf haben willst.
 
 ### Was du brauchst
 
-1. Ein NFC-fähiges Handy
-2. Eine NFC-Schreib-App (wie **NFC.cool Tools** - verfügbar für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-de))
-3. Einen leeren oder beschreibbaren NFC-Tag
+1. Ein Handy mit NFC
+2. Eine App zum Beschreiben von NFC-Tags (zum Beispiel **NFC.cool Tools**, gibt es für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-de))
+3. Einen leeren oder wiederbeschreibbaren NFC-Tag
 
-### Wie man einen Tag beschreibt
+### So beschreibst du einen Tag
 
-Der Vorgang ist kurz:
-1. Öffne deine NFC-Schreib-App
-2. Wähle, was du schreiben willst (URL, Text, WLAN-Zugangsdaten, Kontakt und so weiter)
+Der Ablauf ist kurz:
+1. Öffne die App
+2. Wähle aus, was auf den Tag soll (URL, Text, WLAN-Zugangsdaten, Kontakt und so weiter)
 3. Gib die Daten ein
-4. Halte dein Handy an den Tag
-5. Warte auf die Bestätigung, meist etwa eine Sekunde
+4. Halte das Handy an den Tag
+5. Warte auf die Bestätigung, das dauert meist etwa eine Sekunde
 
-Das war's. Der Tag enthält jetzt deine Daten und funktioniert mit jedem NFC-Handy, das ihn liest. Wenn du die iPhone-spezifische Anleitung willst, habe ich hier eine geschrieben: [wie man NFC-Tags auf dem iPhone beschreibt](/de/blog/write-nfc-tags-iphone/).
+Das war's schon. Der Tag trägt jetzt deine Daten und funktioniert mit jedem NFC-Handy, das ihn liest. Die Anleitung speziell fürs iPhone habe ich hier aufgeschrieben: [NFC-Tags mit dem iPhone beschreiben](/de/blog/write-nfc-tags-iphone/).
 
 ### Wichtig: Tags sperren
 
-Nachdem ein Tag beschrieben ist, kannst du ihn optional **sperren**. Sperren macht ihn dauerhaft schreibgeschützt - niemand kann ihn überschreiben oder löschen. Es gibt kein Zurück.
+Nachdem ein Tag beschrieben ist, kannst du ihn optional **sperren**. Danach ist er dauerhaft schreibgeschützt: Niemand kann ihn mehr überschreiben oder löschen. Rückgängig machen lässt sich das nicht.
 
-Ich behandle das Sperren als bewussten, finalen Schritt, nie als etwas, das man schnell durchklickt. Sperre einen Tag, wenn:
-- er öffentlich zugänglich ist (auf einem Poster, Produkt oder einer Visitenkarte)
-- du Manipulation verhindern willst
-- die Daten sich nicht ändern werden
+Für mich ist das Sperren ein bewusster, letzter Schritt und nichts, was man schnell mal wegklickt. Sperr einen Tag, wenn:
+- er öffentlich zugänglich ist (auf einem Poster, einem Produkt oder einer Visitenkarte)
+- niemand daran herumpfuschen soll
+- sich die Daten nicht mehr ändern
 
-Lass ihn ungesperrt, wenn:
-- du die Daten vielleicht später aktualisieren willst
-- du noch experimentierst
-- er in einer kontrollierten Umgebung lebt, wie deinem Zuhause
+Lass ihn offen, wenn:
+- du die Daten später vielleicht noch anpassen willst
+- du noch am Ausprobieren bist
+- er in einer geschützten Umgebung hängt, zum Beispiel bei dir zu Hause
 
 ---
 
 ## 16 praktische Anwendungen für NFC-Tags
 
-Ich könnte hundert aufzählen. Das sind die, zu denen ich immer wieder zurückkomme - die Anwendungen, von denen ich gesehen habe, dass sie sich wirklich durchsetzen.
+Ich könnte hundert aufzählen. Das hier sind die, zu denen ich immer wieder zurückkomme - Anwendungen, die sich in der Praxis wirklich bewährt haben.
 
 ### Rund ums Zuhause
 
-**1. WLAN-Gastnetzwerk-Sharing**
-Klebe einen Tag in die Nähe deiner Haustür oder deines Gästezimmers. Programmiere ihn mit deinen WLAN-Zugangsdaten. Gäste halten ihr Handy dran und sind sofort verbunden - kein Eintippen langer Passwörter.
+**1. WLAN für Gäste teilen**
+Kleb einen Tag neben die Haustür oder ins Gästezimmer und schreib deine WLAN-Zugangsdaten drauf. Gäste halten ihr Handy dran und sind sofort drin, ohne ein langes Passwort abzutippen.
 
 **2. Smart-Home-Szenen**
-Platziere Tags in deinem Zuhause, um Automatisierungen auszulösen. Halte dein Handy an den Tag auf deinem Nachttisch, um den „Gute-Nacht“-Modus zu aktivieren (Lichter aus, Alarm eingestellt, Handy auf Nicht stören). Halte es an den Tag an der Tür für „Verlasse Haus“ (Lichter aus, Thermostat runter, Saugroboter startet).
+Verteile Tags in der Wohnung, um Automatisierungen auszulösen. Der Tag auf dem Nachttisch schaltet auf „Gute Nacht“ (Licht aus, Wecker gestellt, Handy auf Nicht stören). Der Tag an der Tür auf „Haus verlassen“ (Licht aus, Heizung runter, Saugroboter los).
 
 **3. Wecker**
-Lege einen Tag in die Küche oder das Bad. Richte einen Kurzbefehl ein, der deinen Morgen-Wecker nur deaktiviert, wenn du den Tag physisch scannst - was dich aus dem Bett zwingt.
+Leg einen Tag in die Küche oder ins Bad und bau einen Kurzbefehl, der den Wecker morgens nur dann ausschaltet, wenn du diesen Tag scannst. Das funktioniert - du kommst gar nicht drum herum aufzustehen.
 
-**4. Geräte-Handbücher**
-Klebe einen NFC-Tag auf deine Waschmaschine, Spülmaschine oder ein anderes Gerät. Programmiere ihn mit einer URL zum Handbuch-PDF. Nie wieder ein Handbuch suchen.
+**4. Bedienungsanleitungen**
+Kleb einen Tag auf die Waschmaschine oder die Spülmaschine und hinterleg die URL zur Anleitung als PDF. Nie wieder eine Anleitung suchen.
 
-**5. Medikamenten-Erinnerungen**
-Platziere einen Tag auf einer Pillenflasche. Das Scannen protokolliert einen Zeitstempel in einer Notiz oder Tabelle und erstellt eine Historie, wann du dein Medikament genommen hast.
+**5. Medikamenten-Erinnerung**
+Ein Tag auf der Tablettendose. Beim Scannen wird ein Zeitstempel in einer Notiz oder Tabelle abgelegt, und du hast schwarz auf weiß, wann du sie genommen hast.
 
 ### Bei der Arbeit
 
 **6. Digitale Visitenkarten**
-Der beliebteste NFC-Anwendungsfall im Business. Anstatt Papierkarten zu tragen, teilt eine NFC-Visitenkarte deine Kontaktdaten, sobald jemand sein Handy dranhält. [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-tags-beginners-guide-de&mt=8) lässt dich eine professionelle digitale Karte erstellen und ihre URL auf jeden Drittanbieter-NFC-Tag schreiben - iOS-Empfänger sehen einen nativen App Clip, Android-Empfänger öffnen eine Website auf der nfc.cool-Domain, und beide können deinen Kontakt mit einem Fingertipp speichern.
+Der beliebteste NFC-Anwendungsfall im Geschäftsleben. Statt Papierkarten dabeizuhaben, gibt eine NFC-Visitenkarte deine Kontaktdaten weiter, sobald jemand sein Handy dranhält. Mit [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-tags-beginners-guide-de&mt=8) baust du dir eine professionelle digitale Karte und schreibst ihre URL auf einen beliebigen NFC-Tag von Drittanbietern. Wer ein iPhone hat, sieht einen nativen App Clip, auf Android öffnet sich eine Website auf der Domain nfc.cool, und beide speichern deinen Kontakt mit einem Fingertipp.
 
-**7. Konferenzraum-Check-in**
-Platziere einen Tag außerhalb von Meetingräumen. Ein Scan startet deinen Kalender oder protokolliert die Anwesenheit - einfacher als jedes Buchungssystem.
+**7. Check-in im Konferenzraum**
+Häng einen Tag neben die Tür von Besprechungsräumen. Ein Scan öffnet den Kalender oder trägt die Anwesenheit ein - einfacher als jedes Buchungssystem.
 
-**8. Geteilte Geräte-Anmeldung**
-Befestige Tags an geteilten Geräten, Tools oder Ausrüstung. Das Scannen protokolliert, wer es wann ausgeliehen hat.
+**8. Ausleihe von gemeinsam genutzter Ausrüstung**
+Kleb Tags auf geteilte Geräte oder Werkzeuge. Beim Scannen wird festgehalten, wer was wann mitgenommen hat.
 
-**9. Schneller Link zu geteilten Dokumenten**
-Klebe einen Tag an ein Whiteboard oder Projektbereich. Programmiere ihn mit einem Link zum gemeinsamen Laufwerk, der Notion-Seite oder dem Task-Board des Projekts.
+**9. Schneller Link zu gemeinsamen Dokumenten**
+Ein Tag am Whiteboard oder im Projektbereich, der zum gemeinsamen Laufwerk, zur Notion-Seite oder zum Task-Board des Projekts führt.
 
 ### Unterwegs
 
-**10. Auto-Bluetooth + Navigation**
-Platziere einen Tag auf deiner Auto-Halterung. Ein Scan verbindet Bluetooth, startet deine Navigations-App und spielt deine Fahr-Playlist.
+**10. Bluetooth und Navi im Auto**
+Ein Tag an der Handyhalterung im Auto. Ein Scan verbindet Bluetooth, öffnet die Navi-App und startet deine Playlist fürs Fahren.
 
-**11. Gepäck-Identifikation**
-Lege einen gesperrten NFC-Tag in dein Gepäck mit deinen Kontaktdaten. Wenn es gefunden wird, kann jeder mit einem Handy den Besitzer identifizieren.
+**11. Gepäck kennzeichnen**
+Leg einen gesperrten NFC-Tag mit deinen Kontaktdaten in den Koffer. Taucht er irgendwo auf, kann jeder mit einem Handy herausfinden, wem er gehört.
 
-**12. Haustier-ID-Tag**
-Befestige einen NFC-Tag am Halsband deines Haustiers mit deinen Kontaktdaten und seinen medizinischen Infos. Langlebiger und datenreicher als gravierte Tags.
+**12. Marke fürs Haustier**
+Ein NFC-Tag am Halsband mit deinen Kontaktdaten und den medizinischen Infos deines Tiers - haltbarer als eine gravierte Marke, und es passt viel mehr drauf.
 
-**13. Gym/Workout-Start**
-Tag an deiner Sporttasche oder deinem Schließfach. Ein Scan öffnet deine Workout-App mit dem heutigen Trainingsplan vorgeladen.
+**13. Training starten**
+Ein Tag an der Sporttasche oder am Spind, der deine Workout-App direkt mit dem heutigen Trainingsplan öffnet.
 
 ### Kreative Anwendungen
 
-**14. Restaurant-Tisch-Bestellung**
-Wenn du ein Restaurant betreibst, bette NFC-Tags in Tische ein. Kunden halten ihr Handy dran, um die Speisekarte zu sehen, Bestellungen aufzugeben oder zu bezahlen. Viele Restaurants haben das während COVID eingeführt und sind nie zurückgekehrt.
+**14. Bestellen am Restauranttisch**
+Wer ein Restaurant betreibt, kann Tags in die Tische einlassen. Gäste halten ihr Handy dran, sehen die Karte, bestellen oder bezahlen. Viele Lokale haben das während Corona eingeführt und sind nie mehr davon abgerückt.
 
 **15. Interaktive Kunst und Ausstellungen**
-Museen und Galerien nutzen NFC-Tags neben Werken. Besucher halten ihr Handy dran und bekommen Audio-Guides, Künstlerinformationen oder AR-Erlebnisse.
+Museen und Galerien platzieren Tags neben den Werken. Besucher halten ihr Handy dran und bekommen Audioguides, Hintergründe zum Künstler oder AR-Inhalte.
 
 **16. Schnitzeljagden und Spiele**
-Verstecke NFC-Tags an einem Ort. Jeder enthüllt einen Hinweis oder ein Rätsel. Toll für Teambuilding-Events, Kindergeburtstage oder Escape-Room-Spiele.
+Verstecke Tags an verschiedenen Stellen, jeder mit einem Hinweis oder Rätsel drauf. Super für Teambuilding, Kindergeburtstage oder Spiele im Escape-Room-Stil.
 
 ---
 
-## NFC-Tags und iPhone-Kurzbefehle
+## NFC-Tags und Kurzbefehle auf dem iPhone
 
-Das zeige ich Leuten am liebsten. Apples **Kurzbefehle-App** (in iOS integriert) hat native NFC-Trigger-Unterstützung, und genau hier werden Tags auf dem iPhone von nützlich zu echt mächtig.
+Das zeige ich Leuten am liebsten. Apples **Kurzbefehle-App** (in iOS schon dabei) kann NFC-Tags nativ als Auslöser nutzen, und genau damit werden Tags auf dem iPhone von praktisch zu richtig mächtig.
 
-So richtest du einen ein:
+So richtest du das ein:
 1. Öffne die Kurzbefehle-App
-2. Gehe zum Tab **Automatisierung**
-3. Tippe auf **Neue Automatisierung**, dann auf **NFC**
-4. Scanne den Tag, den du als Trigger nutzen willst
-5. Baue jede Automatisierung, die du willst
+2. Wechsle zum Tab **Automation**
+3. Tippe auf **Neue Automation**, dann auf **NFC**
+4. Scanne den Tag, der als Auslöser dienen soll
+5. Baue die Automatisierung, die du willst
 
-Der raffinierte Teil: Auf dem Tag müssen nicht mal Daten geschrieben sein. Kurzbefehle erkennt den Tag an seiner eindeutigen Hardware-ID, sodass ein komplett leerer Tag etwas Komplexes auslösen kann:
+Das Schöne daran: Auf dem Tag müssen dafür nicht mal Daten stehen. Kurzbefehle erkennt den Tag an seiner eindeutigen Hardware-ID, ein komplett leerer Tag kann also etwas ziemlich Komplexes auslösen:
 
-- Starte einen Fokusmodus + Timer, wenn du deinen Schreibtisch-Tag scannst
-- Protokolliere deine Ankunftszeit in einer Tabelle, wenn du den Büro-Tag scannst
-- Sende deinem Partner „auf dem Weg nach Hause“, wenn du den Auto-Tag scannst
-- Schalte spezifische Smart-Home-Geräte um
+- Fokus und Timer starten, wenn du den Tag am Schreibtisch scannst
+- Deine Ankunftszeit in eine Tabelle schreiben, wenn du den Tag im Büro scannst
+- Deinem Partner „bin auf dem Heimweg“ schicken, wenn du den Tag im Auto scannst
+- Bestimmte Smart-Home-Geräte an- oder ausschalten
 
-Auf Android bieten Apps wie **Tasker** und **MacroDroid** ähnliche NFC-getriggerte Automatisierung.
+Auf Android machen Apps wie **Tasker** und **MacroDroid** dieselbe Art von NFC-gesteuerter Automatisierung.
 
 ---
 
 ## Häufige Fragen
 
 ### Brauchen NFC-Tags Batterien?
-Nein. NFC-Tags sind komplett passiv - sie ziehen Strom aus dem elektromagnetischen Feld des Lesegeräts. Das heißt, sie gehen nie aus und können ein Jahrzehnt oder länger halten.
+Nein. NFC-Tags sind komplett passiv, sie holen sich ihren Strom aus dem Feld des lesenden Geräts. Sie gehen also nie leer und halten zehn Jahre und länger.
 
 ### Können NFC-Tags gehackt werden?
-Standard-NFC-Tags haben standardmäßig keine Verschlüsselung. Jeder mit einem NFC-Handy kann einen ungesperrten, ungeschützten Tag lesen. Für die meisten Anwendungsfälle (URL-Sharing, Kurzbefehl-Trigger) ist das kein Problem. Für sensible Anwendungen nutze Tags mit kryptografischen Features (wie NTAG424 DNA) oder stelle sicher, dass der Tag nur eine Aktion auslöst, die weitere Authentifizierung erfordert.
+Normale Tags haben von Haus aus keine Verschlüsselung. Jeder mit einem NFC-Handy kann einen ungesperrten, ungeschützten Tag lesen. Für die meisten Anwendungen - eine URL teilen, einen Kurzbefehl auslösen - halte ich das nicht für ein Problem. Für sensible Anwendungen nimm einen Tag mit kryptografischen Funktionen (wie den NTAG424 DNA) oder sorg dafür, dass der Tag nur etwas auslöst, das eine weitere Authentifizierung verlangt.
 
 ### Wie nah muss ich mein Handy halten?
-Innerhalb von etwa 1-4 cm (0,5-1,5 Zoll). Bei iPhones ist die NFC-Antenne oben am Handy. Bei den meisten Android-Handys ist sie im oberen mittleren Rücken. Du wirst den Sweet Spot schnell finden.
+Etwa 1 bis 4 cm (0,5-1,5 Zoll). Bei iPhones sitzt die NFC-Antenne oben am Gerät, bei den meisten Android-Handys oben in der Mitte der Rückseite. Nach ein paar Scans hast du die richtige Stelle raus.
 
 ### Kann ich NFC-Tags neu beschreiben?
-Ja - solange der Tag nicht gesperrt wurde. Die meisten NFC-Tags unterstützen ca. 100.000 Schreibzyklen, du kannst sie also extensiv umprogrammieren. Einmal gesperrt, wird ein Tag dauerhaft schreibgeschützt.
+Ja, solange der Tag nicht gesperrt wurde. Die meisten Tags vertragen rund 100.000 Schreibzyklen, du kannst sie also beliebig oft umprogrammieren. Einmal gesperrt, bleibt ein Tag dauerhaft schreibgeschützt.
 
-### Wie viele Daten kann ein NFC-Tag speichern?
-Das hängt vom Chip ab. NTAG213 fasst ~144 Bytes, NTAG215 ~504 Bytes und NTAG216 ~888 Bytes. Zum Vergleich: Eine typische URL ist 30-80 Bytes. Es ist nicht viel Speicher - NFC-Tags sind am besten für kurze Daten oder Zeiger auf Online-Inhalte.
+### Wie viele Daten passen auf einen NFC-Tag?
+Kommt auf den Chip an: NTAG213 fasst ca. 144 Byte, NTAG215 ca. 504 Byte, NTAG216 ca. 888 Byte. Zum Vergleich: Eine typische URL hat 30 bis 80 Byte. Viel ist das nicht - NFC-Tags eignen sich am besten für kurze Daten oder als Verweis auf Inhalte im Netz.
 
 ### Funktionieren NFC-Tags durch Handyhüllen?
-Ja. NFC funktioniert durch die meisten Handyhüllen, Sticker und dünnen Materialien. Sehr dicke oder metallische Hüllen könnten die Reichweite reduzieren. Wenn du einen Tag auf Metall klebst (z.B. Laptop), nutze Tags, die für Metallflächen konzipiert sind (sie haben eine Ferrit-Abschirmschicht).
+Ja. NFC geht durch die meisten Hüllen, Sticker und dünne Materialien durch. Sehr dicke oder metallische Hüllen können die Reichweite verkürzen. Wenn du einen Tag auf Metall kleben willst (zum Beispiel auf den Laptop), nimm einen, der für Metallflächen gemacht ist - der hat eine Ferrit-Abschirmung.
 
 ### Was ist der Unterschied zwischen NFC-Tags und NFC-Karten?
-Nichts Grundlegendes - eine NFC-Karte ist einfach ein NFC-Tag in Kartenform. Der Chip und die Antenne darin sind dieselbe Technologie. Karten nutzen oft NTAG213 oder NTAG215 und sind beliebt für Visitenkarten, Zugangsausweise und Bonusprogramme.
+Im Kern keiner. Eine NFC-Karte ist einfach ein NFC-Tag im Kartenformat, Chip und Antenne darin sind dieselbe Technik. Karten haben meist einen NTAG213 oder NTAG215 und sind beliebt für Visitenkarten, Zugangsausweise und Bonusprogramme.
 
 ---
 
-## Los geht's: Dein erstes NFC-Projekt
+## Los geht's: dein erstes NFC-Projekt
 
-Willst du es ausprobieren? Hier ist ein Fünf-Minuten-Projekt, mit dem ich jeden starten lassen würde:
+Lust, es auszuprobieren? Hier ist ein Fünf-Minuten-Projekt, das ich jedem als Einstieg empfehlen würde:
 
-**Projekt: ein WLAN-Sharing-Tag für dein Zuhause**
+**Projekt: ein WLAN-Tag für Gäste bei dir zu Hause**
 
-1. **Tags kaufen:** Besorge dir ein Pack [NTAG216-Sticker](/de/affiliate-links/) (etwa 10€ für 25 Stück)
+1. **Tags kaufen:** Besorg dir ein Pack [NTAG216-Sticker](/de/affiliate-links/) (etwa 10 € für 25 Stück)
 2. **NFC.cool Tools laden:** für [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-de)
-3. **WLAN-Zugangsdaten schreiben:** Öffne die App, wähle Schreiben, dann WLAN, gib Netzwerkname und Passwort ein und halte dein Handy an den Tag
-4. **Den Tag platzieren:** irgendwo sichtbar - an der Haustür, am Kühlschrank, im Gästezimmer
-5. **Testen:** Halte ein anderes Handy an den Tag, und es sollte dich fragen, ob du dem Netzwerk beitreten willst
+3. **WLAN-Zugangsdaten schreiben:** Öffne die App, wähle Schreiben, dann WLAN, gib Netzwerkname und Passwort ein und halte das Handy an den Tag
+4. **Tag anbringen:** irgendwo, wo man ihn sieht - an der Haustür, am Kühlschrank, im Gästezimmer
+5. **Testen:** Halte ein anderes Handy dran, und es sollte dich fragen, ob du dem Netzwerk beitreten willst
 
-Gesamtkosten: etwa 0,30€ und zwei Minuten. Jeder Gast, der zu Besuch kommt, wird dir dafür danken.
+Kostenpunkt: etwa 0,30 € und zwei Minuten. Jeder Gast, der bei dir vorbeikommt, wird es dir danken.
 
 ---
 
-## Zusammenfassung
+## Zum Schluss
 
-NFC-Tags sind eine dieser Technologien, die komplex klingen und sich als bemerkenswert einfach herausstellen. Keine Batterien, kein Pairing, keine App für die Basis-Lesung nötig. Ein paar Cent kaufen dir einen programmierbaren Chip, der Jahre hält und mit Milliarden von Handys funktioniert.
+NFC-Tags gehören zu den Technologien, die kompliziert klingen und sich dann als erstaunlich simpel herausstellen. Keine Batterien, kein Koppeln, fürs einfache Lesen keine App. Für ein paar Cent bekommst du einen programmierbaren Chip, der Jahre hält und mit Milliarden von Handys funktioniert.
 
-Ich habe meine Arbeit rund um diese kleinen Chips aufgebaut, und ich finde immer noch neue Anwendungen für sie. Ob du deinen Morgen automatisieren, deine Kontaktdaten teilen oder etwas Verspieltes bauen willst - ein Tag ist die Brücke zwischen einem kurzen Dranhalten und dem, was in der echten Welt passiert.
+Ich habe meine Arbeit um diese kleinen Chips herum aufgebaut und entdecke immer noch neue Einsatzmöglichkeiten. Ob du deinen Morgen automatisieren, deine Kontaktdaten weitergeben oder einfach etwas Verspieltes bauen willst: Ein Tag ist die Brücke zwischen einem kurzen Dranhalten und dem, was danach in der echten Welt passiert.
 
-**Bereit, NFC-Tags zu programmieren?** Lade [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-de&mt=8) für iPhone oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-de) - es ist der einfachste Weg, den ich kenne, NFC-Tags zu lesen, zu schreiben und zu verwalten.
+**Bereit, deine ersten NFC-Tags zu programmieren?** Lade dir [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-de&mt=8) fürs iPhone oder für [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-de) - der einfachste Weg, den ich kenne, um NFC-Tags zu lesen, zu beschreiben und zu verwalten.
 
-**Willst du eine digitale Visitenkarte mit NFC?** Schau dir [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-tags-beginners-guide-de&mt=8) an - teile deinen Kontakt mit einem einzigen Scan. App-UI und App Clip in 35 Sprachen verfügbar.
+**Du willst eine digitale Visitenkarte per NFC?** Dann schau dir [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-tags-beginners-guide-de&mt=8) an: Damit gibst du deinen Kontakt mit einem einzigen Scan weiter. App und App Clip gibt es in 35 Sprachen.

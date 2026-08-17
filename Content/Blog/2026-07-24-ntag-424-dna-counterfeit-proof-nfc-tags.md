@@ -17,6 +17,8 @@ A while back I kept reading the same claim in passing: luxury brands are putting
 
 So I did the thing I always do when I'm curious about a tag. I went on AliExpress, found a listing for "NTAG 424 DNA" tags, ordered a small batch, and waited for the envelope to show up. A few euros, a couple of weeks, and I had the same silicon those brand-protection systems are built on sitting on my desk. Then I tapped one to see what it does.
 
+---
+
 ## What an NTAG 424 DNA tag actually is
 
 On the outside it's an ordinary NFC tag. You couldn't pick it out of a pile of cheap ones, and any phone reads it without complaint. If you've read my [guide to NFC tag types](/blog/nfc-tag-types-for-iphones/), it slots in as one more Type 4 tag your iPhone is happy to read.
@@ -24,6 +26,8 @@ On the outside it's an ordinary NFC tag. You couldn't pick it out of a pile of c
 The "DNA" part is what's different. Inside, the chip holds a few AES-128 keys and a little cryptographic engine, and it can do something no plain NTAG215 or sticker from a multipack can do: it can *sign* every single tap. That signature is the whole ballgame. It's the difference between a tag that says "here's a link" and a tag that says "here's a link, and here's cryptographic proof that I, this specific genuine chip, am the one serving it, right now."
 
 That's what luxury brands are actually paying for - not the link, the proof that a genuine chip is the one serving it.
+
+---
 
 ## How SUN and SDM work: a link that rewrites itself on every tap
 
@@ -39,6 +43,8 @@ Those two values are not decoration. `picc_data` is an encrypted copy of the tag
 
 I think of a plain NFC tag as a printed sign in a shop window. Anyone can photograph it and print an identical copy. A SUN tag is more like a security guard who hands you a new, individually numbered and stamped receipt every time you walk in. Copying yesterday's receipt does you no good, because today's number is different and only the guard's stamp is real.
 
+---
+
 ## Why a cloned NTAG 424 DNA tag gets caught
 
 This is the part that answers my original question. A counterfeiter can absolutely clone the *contents* of a tag. They can read the URL, copy it byte for byte, and program it onto a blank chip. That has always been true.
@@ -48,6 +54,8 @@ What they can't do is produce the next valid signature. The signing key lives in
 That last part is what catches a clone. The only URL a counterfeiter can put on a fake is one they captured from a genuine tap, frozen with the counter that tap happened to carry. Replay it and the server is looking at a number it has already seen, and a real chip's counter only ever moves forward, so a repeat or a step backward gives the replay away. To send a fresh, higher counter with a signature that still checks out, they'd need the key, and to get the key they'd need to break AES or physically decap the chip. Neither is happening for a fake handbag.
 
 That's the honest version of the marketing sentence. The chip doesn't make the *product* impossible to copy. It makes the *proof of authenticity* impossible to copy, and it moves that proof onto something the counterfeiter can't reproduce.
+
+---
 
 ## How NFC.cool verifies a tag is genuine
 
@@ -61,6 +69,8 @@ Once I understood the tags, I wanted the app to do the whole thing properly, not
 
 All of this is free for everyone. Reading a tag - its link, its tap counter, its file layout, whether its seal is still intact - and running both cryptographic checks costs nothing. I wanted the "is this thing real?" question answerable by anyone who taps one.
 
+---
+
 ## Programming your own secure tags
 
 Reading is half of it. The other half is that those blank tags from AliExpress are yours to program, and NFC.cool does it over a proper authenticated, encrypted channel, the same secure messaging the chip insists on, not a hopeful raw write.
@@ -68,6 +78,8 @@ Reading is half of it. The other half is that those blank tags from AliExpress a
 The gentle version is three steps. Write your own link, which is free. Switch on SUN so the tag starts signing every tap. And replace the factory key with your own, set as a passphrase so there's no 32-character hex string to wrangle, saved in your keychain. From that point on the tag is locked to you: it keeps proving it's genuine to anyone who taps it, but only you can ever reprogram it.
 
 That's where I could have stopped. The few apps that even go near these tags do. I didn't.
+
+---
 
 ## Configure the whole NTAG 424 DNA chip from your iPhone or Android
 
@@ -81,11 +93,15 @@ The chip even keeps a little private vault. There's an encrypted file on it, loc
 
 If you have ever done this before, you did it at a desk. NXP hands out a Windows tool called TagXplorer, you plug a USB reader into your computer, and you click through the chip's configuration from there. NFC.cool does all of the same things, but it is built to be used, not endured. Where TagXplorer is a desktop full of raw hex and cryptic fields, NFC.cool is plain-language screens on the phone already in your pocket, with a passphrase in place of a raw key and a warning before anything permanent. You drive the whole thing by holding your phone to the tag for a second or two.
 
+---
+
 ## What NTAG 424 DNA LRP mode is, and the changes you can't undo
 
 And then there's LRP. In my design notes for the first version, right next to "LRP mode," I had written "not planned - exotic, not needed by a consumer app." LRP stands for Leakage-Resilient Primitive, and it is the tag's genuinely paranoid mode. Normally the chip guards its keys with ordinary AES, and stealing a key would mean breaking AES itself. But there is a sneakier line of attack: put a chip on a bench, watch the faint wobble in its power draw and electromagnetic hum while it runs the crypto, and with enough of those traces you can reconstruct the secret key from the leak alone, without ever touching the math. LRP is a rebuilt secure channel designed to give that leak nothing to hold onto. It is real overkill for a sticker on a wine bottle, which is why most tags never turn it on and most tools never learn to speak it. It kept nagging at me anyway, and "cover the whole spec" doesn't come with a footnote that says "except the hard part," so I built it. NFC.cool speaks LRP now, which means even after a tag is flipped into that mode, a one-way switch you can't take back, the app can still authenticate to it and manage it like any other. I don't know of another phone app that goes there.
 
 I'll be straight about the sharp edges, because there are more of them now. A lot of these commands are permanent. Enabling LRP can't be undone. Turning on a random ID can't be undone. Set a file's "change" permission to Never and you have frozen that file for the life of the tag. A wrong key can lock a slot for good. The app is loud about this in the moment, the truly irreversible actions make you confirm through a warning that spells out the exact consequence, but it is worth saying here too: practice on a spare before you touch a tag you care about.
+
+---
 
 ## Where anti-counterfeit NFC tags actually get used
 
@@ -94,6 +110,8 @@ Honestly? Most people tapping an NFC tag never need any of this, and that's fine
 But once you've held one of these, the use cases are obvious. A luxury bag can prove it's genuine. A bottle of wine or whisky can show it was never quietly uncorked and topped back up with something cheaper, the tamper seal carrying that half. A box of medicine vouches for both the real drug inside and a seal nobody has broken. A limited-run product or a piece of art gets a certificate no one can forge, and event tickets stop being something you can screenshot and pass around. Put a tag by a door or on a shelf and a tap proves someone actually stood there, rather than replaying a saved link from their sofa. Sneakers and trading cards prove they're the real drop and not a good fake. And any indie maker can make their thing prove it's *their* thing. It's the same authenticity problem the [EU Digital Product Passport](/blog/eu-digital-product-passport-2026/) is circling from the regulation side, solved at the level of the individual object.
 
 I didn't build this because a thousand users asked for it. I built it because I bought some strange tags off the internet out of curiosity, figured out how they worked, and then couldn't leave a single page of the datasheet unturned. That's usually how the good features start.
+
+---
 
 ## The bottom line on NTAG 424 DNA tags
 

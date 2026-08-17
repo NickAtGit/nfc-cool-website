@@ -45,8 +45,6 @@ At a conference, everything that's slightly inconvenient about paper becomes a r
 
 Going digital isn't just about swapping paper for an app. The real advantage is having a system that works across the entire conference timeline - from preparation to follow-up. Here's how to set it up.
 
----
-
 ### Phase 1: Before the Conference
 
 The worst time to set up your digital business card is while you're standing in a registration line. Get this done at least a week before the event.
@@ -84,15 +82,13 @@ This is optional but makes a big impression:
 
 #### Put your QR code on your lock screen (iOS)
 
-NFC.cool Business Card's Conference Mode uses an iOS Live Activity to put your card's QR code directly on your lock screen. This is the fastest sharing method at conferences:
+NFC.cool Business Card's Conference Mode pins your card's QR code directly on your lock screen for a full event day - on iPhone it runs as a Live Activity, and Android has the same mode. This is the fastest sharing method at conferences:
 
 - Your QR code is always visible - no unlocking, no opening any app
 - People just scan your screen while you're talking to them
 - It's even faster than Apple Wallet because you don't need to find the right pass
 
 Apple Wallet integration is also available as a backup option.
-
----
 
 ### Phase 2: During the Conference
 
@@ -132,8 +128,6 @@ Conferences aren't just about the expo floor anymore. There are Slack channels, 
 
 One of the biggest advantages over paper: you can see who viewed your card and when. After a particularly good conversation, make a quick note in your phone: "Sarah - VP Marketing at Acme - discussed partnership on sustainability project." When you follow up later, you'll have context that a paper card never provides.
 
----
-
 ### Phase 3: After the Conference
 
 This is where most networking efforts die. You fly home, drop the card stack on your desk, and say "I'll sort through those tomorrow." Tomorrow becomes next week. Next week becomes never.
@@ -150,7 +144,7 @@ Because your digital card includes your photo, they'll actually remember who you
 
 #### Review your sharing analytics
 
-Many digital card platforms show you who opened your card and when (NFC.cool offers this on iOS, with Android support coming soon). This tells you:
+Many digital card platforms show you who opened your card and when (NFC.cool does this on both iPhone and Android). This tells you:
 
 - Who was interested enough to actually look at your profile (not just pocket your card politely)
 - When they looked - someone reviewing your card three days after the conference is a warm lead

@@ -82,7 +82,7 @@ I'd rather be upfront about the sharp edges than have you discover them later:
 
 ## The bigger picture
 
-Working on NFC every day, I've watched these tags quietly become the storage medium for things that matter. The EU Digital Product Passport will require NFC for product authenticity. Philips puts them in toothbrush heads. Hotels use them for room keys. Cheap, durable, and universally readable by the device already in your pocket - that combination is rare, and it's exactly why I keep finding new uses for them. If you want the broader view, I covered the basics in [NFC tags explained: a complete beginner's guide](/blog/nfc-tags-beginners-guide/).
+Working on NFC every day, I've watched these tags quietly become the storage medium for things that matter. The EU Digital Product Passport lists NFC among its approved data carriers, right next to QR codes. Philips puts them in toothbrush heads. Hotels use them for room keys. Cheap, durable, and universally readable by the device already in your pocket - that combination is rare, and it's exactly why I keep finding new uses for them. If you want the broader view, I covered the basics in [NFC tags explained: a complete beginner's guide](/blog/nfc-tags-beginners-guide/).
 
 NFC Safe is my attempt to take that durability and add the one thing it was missing - encryption. A backup that outlasts paper, can't be read by anyone who finds it, and costs less than a cup of coffee. That's the kind of thing I wanted for myself, so I built it.
 

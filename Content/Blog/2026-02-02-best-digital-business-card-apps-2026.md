@@ -115,22 +115,20 @@ Here's an at-a-glance overview of all eight apps:
 - **Privacy-first design** - PIN-protected profiles (4-digit PIN with rate limiting), public/private toggle, GDPR-compliant data export. No data monetization or advertising, no conversation recording, no recipient solicitation.
 - **Works with any NFC tag** - NFC.cool doesn't sell NFC tags, and you're not locked into buying proprietary hardware. Write your card URL to any third-party NFC tag, sticker, or card you already own.
 - **Up to 100 cards** - Create different cards for different roles, events, or clients.
-- **Conference Mode (Live Activity)** - This is a standout feature. An iOS Live Activity puts your QR code directly on your lock screen - always visible, ready to scan, no unlocking or opening any app needed. This is actually more useful than Apple Wallet integration because the QR code linking to your business card is *right there* on the lock screen. At a conference, you just raise your phone and people scan. No fumbling with Wallet, no searching for the right pass.
+- **Conference Mode** - This is a standout feature. It pins your QR code directly to your lock screen for a full event day - always visible, ready to scan, no unlocking or opening any app needed. On iPhone it runs as a Live Activity; Android gets the same mode. This is actually more useful than Apple Wallet integration because the QR code linking to your business card is *right there* on the lock screen. At a conference, you just raise your phone and people scan. No fumbling with Wallet, no searching for the right pass.
 - **Beautifully designed** - The app and card-sharing experience are thoughtfully crafted with custom color theming, company logos, and a polished App Clip on iOS that looks and feels native.
 - **App Clip + web sharing** - On iOS, recipients see a native App Clip experience without needing the app. On Android, recipients open a website on the nfc.cool domain - no app needed either. Both show a "Save Contact" button for easy saving.
 - **Apple Wallet integration** - Also available as an alternative for those who prefer Wallet-based access.
-- **Lead capture** - Available on iOS (with options to trigger before saving, after saving, or turned off). Android support coming soon.
+- **Lead capture** - On both platforms, with options to trigger before saving, after saving, or turned off.
 
 **What could be better:**
-- Some advanced features (analytics, lead capture, Conference Mode, custom themes) are iOS-only for now, with Android support coming soon.
-- No CRM integrations or webhooks yet - iOS offers CSV export for contacts. For most individuals and small teams, this is sufficient.
+- App Clip and Apple Wallet passes are iPhone-only. Android recipients open your card in the browser instead, which works but is a step less native.
+- No CRM integrations or webhooks yet - there is a full data export for contacts. For most individuals and small teams, this is sufficient.
 - As a newer entrant, it doesn't have the enterprise sales team that Blinq or Popl have.
 
 **Best for:** Privacy-conscious professionals, international networkers, anyone who wants NFC flexibility without hardware lock-in, indie/small business users who appreciate transparent development.
 
 [Download NFC.cool Business Card on the App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-en&mt=8) · [Get it on Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en)
-
----
 
 ### 2. Wave Connect - Best Free Plan
 
@@ -151,8 +149,6 @@ Here's an at-a-glance overview of all eight apps:
 
 **Best for:** Individuals who want a solid digital business card without paying anything. If budget is your #1 concern, Wave's free plan is the one to beat.
 
----
-
 ### 3. Blinq - Best for Enterprise Teams
 
 **What it is:** An Australian company that claims the #1 spot on G2 for digital business cards, lead retrieval, and email signatures. Strongly enterprise-focused.
@@ -170,8 +166,6 @@ Here's an at-a-glance overview of all eight apps:
 - Higher individual pricing (~$9.99/month) compared to competitors.
 
 **Best for:** Enterprise teams (50+ people) that need centralized card management, CRM integration, and don't mind the data collection trade-offs.
-
----
 
 ### 4. HiHello - Strong Customization
 
@@ -191,8 +185,6 @@ Here's an at-a-glance overview of all eight apps:
 
 **Best for:** Design-conscious professionals who prioritize how their card looks. Good for companies that want polished, on-brand cards.
 
----
-
 ### 5. Popl - Best for Event Lead Capture
 
 **What it is:** Originally an NFC sticker company, Popl has pivoted heavily toward enterprise event lead capture. Claims to be "trusted by 90% of Fortune 500."
@@ -210,8 +202,6 @@ Here's an at-a-glance overview of all eight apps:
 
 **Best for:** Enterprise event and sales teams who need lead capture at scale. Not recommended for individual professionals anymore.
 
----
-
 ### 6. Mobilo - Best NFC Hardware Experience
 
 **What it is:** An NFC-first digital business card company where the physical card is the core product, paired with a digital platform.
@@ -228,8 +218,6 @@ Here's an at-a-glance overview of all eight apps:
 
 **Best for:** Professionals who want a premium physical NFC card and are willing to pay for a polished hardware + software combo.
 
----
-
 ### 7. Linq - Best for Sales CRM Integration
 
 **What it is:** A digital business card platform with integrated CRM and even a phone system, aimed at sales professionals.
@@ -244,8 +232,6 @@ Here's an at-a-glance overview of all eight apps:
 - Costs add up quickly when bundling features.
 
 **Best for:** Sales professionals who want their business card, CRM, and calling in one platform.
-
----
 
 ### 8. V1CE - Best Premium Physical Cards
 

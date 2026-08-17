@@ -30,17 +30,23 @@ Menurut saya itu desain yang indah. Artinya tidak ada yang bisa diam-diam membac
 
 Jadi aplikasi meminta ketiga hal itu terlebih dahulu, dengan salah satu dari dua cara. Anda bisa mengarahkan kamera ke zona yang bisa dibaca mesin - deretan karakter `<<<` tebal di sepanjang bagian bawah halaman foto paspor Anda, atau di balik kartu identitas - dan NFC.cool membacanya secara optik, sama seperti yang dilakukan gerbang bandara. Atau, jika dokumen sudah usang atau pencahayaan buruk, Anda mengetikkan ketiga nilai itu secara manual. Bagaimanapun caranya, begitu aplikasi memiliki kuncinya, ia meminta Anda menempelkan bagian atas ponsel ke dokumen, dan pembacaan chip yang sebenarnya pun dimulai. Jika Anda pernah bertanya-tanya [bagaimana sebenarnya NFC bekerja di iPhone](/blog/nfc-on-iphones-insider-look/), ini adalah jabat tangan jarak dekat yang sama, hanya saja dengan chip yang jauh lebih rewel di sisi lainnya.
 
+---
+
 ## Apa yang keluar dari chip
 
 Beberapa detik kemudian Anda melihat apa yang selama ini dibawa chip tersebut: foto Anda yang disimpan oleh otoritas penerbit, nama Anda, kewarganegaraan Anda, nomor dokumen, tanggal lahir dan kedaluwarsa Anda, dan pada beberapa dokumen sedikit lebih banyak - tempat lahir, otoritas penerbit, tanggal penerbitan. Ini adalah data yang sama yang dibaca bilik petugas, hanya saja kini ada di tangan Anda.
 
 Setiap dokumen yang Anda baca disimpan ke dompet kecil di dalam aplikasi, bernama Dokumen Saya, sehingga Anda bisa melihatnya kembali nanti. Dompet itu berada di perangkat Anda, dan di iPhone ia tersinkron melalui iCloud Anda sendiri. Data tersebut tidak sampai ke saya, atau ke server mana pun milik saya. Untuk sesuatu yang sepribadi ini, itu bukan detail yang akan saya sembunyikan.
 
+---
+
 ## Apakah dokumennya asli?
 
 Bagian yang paling saya banggakan adalah pemeriksaan keaslian. Chip paspor modern bukan sekadar kartu memori. Negara penerbit menandatangani isinya, sedikit seperti segel lilin yang dibubuhkan pada data. NFC.cool memeriksa segel itu: bahwa tidak ada apa pun di chip yang diubah sejak diterbitkan, bahwa tanda tangannya valid secara matematis, dan bahwa ia bisa dilacak kembali ke otoritas penerbit sungguhan yang dikenali aplikasi. Chip yang lebih canggih juga bisa membuktikan bahwa dirinya silikon asli, bukan salinan, dan aplikasi memeriksa itu juga ketika chip mendukungnya.
 
 Namun soal pemilihan kata, ada satu janji yang saya buat untuk diri sendiri. Aplikasi tidak akan pernah menyebut paspor Anda "palsu". Jika semua pemeriksaan lolos, ia menyatakan dokumen tampak asli. Jika ada yang tidak cocok - atau, yang jauh lebih sering, jika ia sekadar tidak bisa mengonfirmasi penerbitnya karena negara itu tidak ada dalam daftar yang dibawa aplikasi - ia menyatakan tidak bisa memverifikasi, dan berhenti di situ. "Saya tidak bisa memeriksa ini" dan "ini pemalsuan" adalah dua kalimat yang sangat berbeda, dan saya tidak mau mengaburkannya pada sesuatu seserius identitas Anda.
+
+---
 
 ## Apa yang tidak bisa dilakukan aplikasi ini
 
@@ -51,8 +57,6 @@ Fitur ini bekerja pada banyak dokumen, tetapi saya tidak bisa menjanjikan ia bek
 Ia membaca apa yang diizinkan untuk dibaca, tidak lebih. Beberapa chip juga menyimpan data sidik jari atau iris, dan itu berada di balik kunci yang hanya dipegang sistem inspeksi pemerintah - bukan sesuatu yang diberikan kepada aplikasi konsumen, dan bukan pula sesuatu yang saya ingin dimiliki aplikasi ini. NFC.cool tidak pernah menyentuhnya. Ia membaca foto wajah dan detail-detail yang juga tercetak di dokumen, yang persis merupakan bagian yang memang dimaksudkan untuk bisa dibaca oleh orang yang memegang dokumen tersebut.
 
 Dan ia butuh ponsel dengan NFC, yang ditahan diam menempel pada dokumen selama membaca. Chip tersebut kecil dan koneksinya rapuh, jadi ponsel yang tergeser berarti memulai pembacaan dari awal. Jaga dokumen tetap rata menempel pada bagian atas ponsel sampai selesai.
-
----
 
 Saya masih memikirkan gerbang bandara itu. Semua sandiwara keamanan perjalanan modern, dan di pusatnya ada chip NFC mungil yang melakukan jabat tangan kecil yang cermat - jenis jabat tangan yang sama yang sudah bertahun-tahun saya gunakan untuk [membaca dan menulis tag](/features/nfc-reader-writer/). Kini pembaca di saku Anda pun bisa melakukannya.
 

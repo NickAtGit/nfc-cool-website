@@ -53,7 +53,7 @@ O NTAG213 está protegido por palavra-passe. Cada cabeça de escova tem uma pala
 
 A palavra-passe é calculada a partir de duas entradas: o UID de 7 bytes da tag e o código de fabrico armazenado na tag (e impresso na haste). O [Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) reconstruiu o algoritmo por engenharia inversa a partir do firmware da Sonicare, depois de o Cyrill Künzi ter originalmente intercetado a transmissão da palavra-passe usando um rádio definido por software.
 
-⚠️**Importante:** o NTAG213 bloqueia-se permanentemente após **três tentativas de palavra-passe falhadas**. O chip fica apenas de leitura para sempre - nem sequer a escova lhe consegue voltar a escrever. Não adivinhe.
+**Importante:** o NTAG213 bloqueia-se permanentemente após **três tentativas de palavra-passe falhadas**. O chip fica apenas de leitura para sempre - nem sequer a escova lhe consegue voltar a escrever. Não adivinhe.
 
 ---
 

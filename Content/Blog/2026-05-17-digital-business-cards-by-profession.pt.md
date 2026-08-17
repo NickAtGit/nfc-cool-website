@@ -133,7 +133,7 @@ A NFC.cool Business Card é uma aplicação autónoma no iPhone e no Android. Ei
 - **35 idiomas** na interface da aplicação e no App Clip - mais do que qualquer outro cartão de visita digital que conheça. O seu cartão é apresentado no idioma do seu cliente no iOS. (O site de partilha do Android é só em inglês, por agora.)
 - **Sem aplicação para quem recebe o seu cartão.** No iPhone recebem um App Clip nativo; no Android, uma página no domínio nfc.cool. Ambos têm um botão "Guardar Contacto".
 - **Toque NFC e código QR**, mais uma ligação simples e partilhável para conversas e assinaturas de email.
-- **Modo Conferência** - uma Live Activity do iOS que coloca o código QR do seu cartão no ecrã bloqueado. Levanta o telemóvel, eles digitalizam, pronto. Sem desbloquear, sem andar à procura na Apple Wallet. A integração com a Wallet também existe, como alternativa.
+- **Modo Conferência** - fixa o código QR do seu cartão no ecrã bloqueado durante um dia inteiro de evento, tanto no iPhone (como Live Activity) como no Android. Levanta o telemóvel, eles digitalizam, pronto. Sem desbloquear, sem andar à procura na Apple Wallet. A integração com a Wallet também existe, como alternativa.
 - **Até 100 cartões**, por isso o conselho de "um cartão por função" acima é de facto prático.
 - **Cartões protegidos por PIN** para qualquer coisa sensível.
 - **Privacidade em primeiro lugar**: sem monetização de dados nem publicidade, sem solicitação a quem recebe, sem gravação de conversas, exportação de dados em conformidade com o RGPD.
@@ -142,8 +142,7 @@ A NFC.cool Business Card é uma aplicação autónoma no iPhone e no Android. Ei
 
 Onde a concorrência está genuinamente à frente:
 
-- **Integrações com CRM.** Se o seu dia gira em torno do HubSpot ou do Salesforce, aplicações como o Wave Connect ou o Blinq sincronizam contactos nativamente. A NFC.cool oferece exportação CSV no iOS - ainda sem webhooks.
-- **Análise multiplataforma.** Ver quem viu o seu cartão, e quando, é só no iOS por agora; o Android está a caminho. Alguns concorrentes já têm isso em ambos hoje.
+- **Integrações com CRM.** Se o seu dia gira em torno do HubSpot ou do Salesforce, aplicações como o Wave Connect ou o Blinq sincronizam contactos nativamente. A NFC.cool dá-lhe, em vez disso, uma exportação completa dos dados - ainda sem webhooks.
 - **Gestão de equipas empresariais.** Se é uma empresa de 50 pessoas que precisa de um painel de administração e sincronização de diretório, não é para isso que a NFC.cool foi construída.
 
 A versão honesta: para um agente, um médico ou um trabalhador independente, o que importa no dia a dia é que a partilha seja rápida, que o cartão se pareça *consigo*, e que nada o envergonhe mais tarde. Foi para isso que a construí. Se precisa de um CRM de vendas soldado ao seu cartão de visita, compre a ferramenta que faz isso.
@@ -172,7 +171,7 @@ O NFC e o QR funcionam em telemóveis no mundo inteiro. Se o *próprio cartão* 
 
 ### Posso ver quem viu o meu cartão, e esses dados estão seguros?
 
-Algumas aplicações mostram-lhe as visualizações; outras vão mais longe e fazem marketing junto das pessoas que viram o seu cartão. Esse segundo comportamento é um problema - os seus potenciais clientes devem ouvir falar de si, não do fornecedor do seu cartão. A NFC.cool oferece análise no iOS (Android a caminho) e nunca aborda quem recebe.
+Algumas aplicações mostram-lhe as visualizações; outras vão mais longe e fazem marketing junto das pessoas que viram o seu cartão. Esse segundo comportamento é um problema - os seus potenciais clientes devem ouvir falar de si, não do fornecedor do seu cartão. A NFC.cool oferece análise tanto no iPhone como no Android e nunca aborda quem recebe.
 
 ### Quanto custa, afinal?
 

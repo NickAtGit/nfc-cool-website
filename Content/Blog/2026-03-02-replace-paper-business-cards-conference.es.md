@@ -45,8 +45,6 @@ En una conferencia, todo lo que es ligeramente incómodo del papel se convierte 
 
 Pasarse al digital no consiste solo en cambiar papel por una app. La verdadera ventaja está en tener un sistema que funcione a lo largo de todo el cronograma de la conferencia - desde la preparación hasta el seguimiento. Así es como se configura.
 
----
-
 ### Fase 1: antes de la conferencia
 
 El peor momento para configurar tu tarjeta de visita digital es mientras estás en la cola de registro. Hazlo al menos una semana antes del evento.
@@ -84,15 +82,13 @@ Esto es opcional, pero causa una gran impresión:
 
 #### Pon tu código QR en la pantalla de bloqueo (iOS)
 
-El Modo Conferencia de NFC.cool Business Card usa una Live Activity de iOS para poner el código QR de tu tarjeta directamente en tu pantalla de bloqueo. Es el método de compartición más rápido en las conferencias:
+El Modo Conferencia de NFC.cool Business Card fija el código QR de tu tarjeta directamente en tu pantalla de bloqueo durante toda una jornada de evento - en iPhone funciona como Live Activity, y Android tiene el mismo modo. Es el método de compartición más rápido en las conferencias:
 
 - Tu código QR está siempre visible - sin desbloquear, sin abrir ninguna app
 - La gente simplemente escanea tu pantalla mientras hablas con ellos
 - Es incluso más rápido que Apple Wallet porque no necesitas encontrar el pase correcto
 
 La integración con Apple Wallet también está disponible como opción de respaldo.
-
----
 
 ### Fase 2: durante la conferencia
 
@@ -132,8 +128,6 @@ Las conferencias ya no son solo el espacio de la exposición. Hay canales de Sla
 
 Una de las mayores ventajas frente al papel: puedes ver quién ha visto tu tarjeta y cuándo. Después de una conversación especialmente buena, haz una nota rápida en tu móvil: "Sara - VP de Marketing en Acme - hablamos de colaboración en el proyecto de sostenibilidad". Cuando hagas el seguimiento más tarde, tendrás un contexto que una tarjeta de papel nunca puede aportar.
 
----
-
 ### Fase 3: después de la conferencia
 
 Aquí es donde mueren la mayoría de los esfuerzos de networking. Llegas a casa, dejas la pila de tarjetas en el escritorio y dices "mañana lo ordeno". Mañana se convierte en la semana que viene. La semana que viene se convierte en nunca.
@@ -150,7 +144,7 @@ Como tu tarjeta digital incluye tu foto, de verdad van a recordar quién eres cu
 
 #### Revisa tus estadísticas de compartición
 
-Muchas plataformas de tarjetas digitales te muestran quién abrió tu tarjeta y cuándo (NFC.cool ofrece esto en iOS, con soporte para Android próximamente). Esto te dice:
+Muchas plataformas de tarjetas digitales te muestran quién abrió tu tarjeta y cuándo (NFC.cool lo hace tanto en iPhone como en Android). Esto te dice:
 
 - Quién tuvo suficiente interés como para mirar realmente tu perfil (no solo guardar tu tarjeta por cortesía)
 - Cuándo miraron - alguien que revisa tu tarjeta tres días después de la conferencia es un contacto con posibilidades

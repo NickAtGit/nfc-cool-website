@@ -53,7 +53,7 @@ NTAG213 dilindungi kata sandi. Setiap kepala sikat memiliki kata sandi unik 4-by
 
 Kata sandi dihitung dari dua input: UID 7-byte tag dan kode manufaktur yang tersimpan di tag (dan tercetak di tangkai). [Aaron Christophel](https://gist.github.com/atc1441/41af75048e4c22af1f5f0d4c1d94bb56) melakukan reverse engineering algoritma dari firmware Sonicare setelah Cyrill Künzi awalnya mengendus transmisi kata sandi menggunakan radio yang didefinisikan perangkat lunak.
 
-⚠️**Penting:** NTAG213 terkunci secara permanen setelah **tiga percobaan kata sandi yang gagal**. Chip menjadi hanya bisa dibaca selamanya - bahkan sikat gigi pun tidak bisa menulis ke dalamnya lagi. Jangan menebak.
+**Penting:** NTAG213 terkunci secara permanen setelah **tiga percobaan kata sandi yang gagal**. Chip menjadi hanya bisa dibaca selamanya - bahkan sikat gigi pun tidak bisa menulis ke dalamnya lagi. Jangan menebak.
 
 ---
 

@@ -30,17 +30,23 @@ Me parece un detalle de diseño precioso. Significa que nadie puede leer tu pasa
 
 Así que la app te pide primero exactamente esas tres cosas, de una de dos maneras. Puedes apuntar la cámara a la zona de lectura mecánica - esa banda de gruesos caracteres `<<<` a lo largo de la parte inferior de la página con tu foto en el pasaporte, o del reverso de un documento de identidad - y NFC.cool la lee ópticamente, igual que hace la puerta del aeropuerto. O, si el documento está desgastado o hay poca luz, escribes los tres valores a mano. En cualquier caso, una vez que la app tiene la clave, te pide que sostengas la parte superior de tu móvil contra el documento, y empieza la lectura real del chip. Si alguna vez te has preguntado [cómo funciona realmente el NFC en un iPhone](/blog/nfc-on-iphones-insider-look/), este es el mismo apretón de manos a corta distancia, solo que con un chip mucho más quisquilloso al otro lado.
 
+---
+
 ## Qué sale del chip
 
 Unos segundos después estás mirando lo que el chip ha llevado consigo todo este tiempo: la foto tuya que guardó la autoridad emisora, tu nombre, tu nacionalidad, el número de documento, tu fecha de nacimiento y de caducidad, y en algunos documentos un poco más - lugar de nacimiento, la autoridad emisora, la fecha en que se expidió. Son los mismos datos que saca la cabina del agente, solo que en tu mano.
 
 Cada documento que lees se guarda en una pequeña cartera dentro de la app, llamada Mis Documentos, para que puedas consultarlo más tarde. Esa cartera vive en tu dispositivo, y en iPhone se sincroniza a través de tu propio iCloud. No llega a mí, ni a ningún servidor mío. Con algo tan personal, no es un detalle que vaya a esconder.
 
+---
+
 ## ¿Es auténtico el documento?
 
 La parte de la que más contento estoy es la comprobación de autenticidad. El chip de un pasaporte moderno no es solo una tarjeta de memoria. El país emisor firma su contenido, un poco como un sello de cera estampado en los datos. NFC.cool comprueba ese sello: que nada en el chip ha sido alterado desde que se expidió, que la firma es matemáticamente válida y que se remonta a una autoridad emisora real que la app reconoce. Los mejores chips también pueden demostrar que son el silicio original y no una copia, y la app también lo comprueba cuando el chip lo admite.
 
 Eso sí, hay una promesa que me hice sobre las palabras que usa la app. Nunca llamará "falso" a tu pasaporte. Si todas las comprobaciones pasan, dice que el documento parece auténtico. Si algo no cuadra - o, mucho más a menudo, si simplemente no puede confirmar al emisor porque ese país no está en la lista que la app lleva consigo - dice que no se pudo verificar, y ahí se detiene. "No pude comprobar esto" y "esto es una falsificación" son frases muy distintas, y no estoy dispuesto a confundirlas cuando se trata de algo tan serio como tu documento de identidad.
+
+---
 
 ## Lo que la app no puede hacer
 
@@ -51,8 +57,6 @@ Funciona con muchos documentos, pero no puedo prometer que funcione con absoluta
 Lee lo que se le permite leer, y nada más. Algunos chips también guardan huellas dactilares o datos del iris, y esos están detrás de claves que solo tienen los sistemas de inspección gubernamentales - no algo que se le dé a una app de consumo, y no algo que yo querría que tuviera. NFC.cool nunca los toca. Lee la foto del rostro y los mismos datos que van impresos en el documento, que es justo la parte pensada para que la lea la persona que lo tiene en la mano.
 
 Y necesita un móvil con NFC, sostenido quieto contra el documento mientras lee. El chip es pequeño y la conexión es delicada, así que si el móvil se resbala, hay que empezar la lectura otra vez. Mantén el documento plano contra la parte superior del móvil hasta que termine.
-
----
 
 Sigo pensando en aquella puerta del aeropuerto. Todo ese teatro de la seguridad en los viajes modernos, y en el centro de todo hay un diminuto chip NFC haciendo un cuidadoso apretón de manos - el mismo tipo de apretón de manos con el que llevo años [leyendo y escribiendo etiquetas](/features/nfc-reader-writer/). Ahora el lector que llevas en el bolsillo también puede hacerlo.
 

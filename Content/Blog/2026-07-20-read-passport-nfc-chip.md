@@ -30,17 +30,23 @@ I think that is a lovely piece of design. It means nobody can quietly read your 
 
 So the app asks for exactly those three things first, in one of two ways. You can point your camera at the machine-readable zone - that band of chunky `<<<` characters along the bottom of your passport photo page, or the back of an ID card - and NFC.cool reads it optically, the same way the airport gate does. Or, if the document is worn or the light is bad, you type the three values in by hand. Either way, once the app has the key, it asks you to hold the top of your phone against the document, and the real chip read begins. If you have ever wondered [how NFC actually works on an iPhone](/blog/nfc-on-iphones-insider-look/), this is the same close-range handshake, just with a much fussier chip on the other end.
 
+---
+
 ## What comes off the chip
 
 A few seconds later you are looking at what the chip has been carrying this whole time: the photo of you that the issuing authority stored, your name, your nationality, the document number, your date of birth and expiry, and on some documents a little more - place of birth, the issuing authority, the date it was issued. It is the same data the officer's booth pulls, sitting in your hand instead.
 
 Every document you read is saved to a small wallet in the app, called My Documents, so you can look back at it later. That wallet lives on your device, and on iPhone it syncs through your own iCloud. It does not come to me, or to any server of mine. With something this personal, that's not a detail I'd bury.
 
+---
+
 ## Is it genuine?
 
 The part I am most pleased with is the authenticity check. A modern passport chip is not just a memory card. The issuing country signs its contents, a bit like a wax seal pressed into the data. NFC.cool checks that seal: that nothing on the chip has been altered since it was issued, that the signature is mathematically valid, and that it traces back to a real issuing authority the app recognizes. Better chips can also prove they are the original silicon rather than a copy, and the app checks that too when the chip supports it.
 
 Here is the promise I made myself about the wording, though. The app will never call your passport "fake." If every check passes, it says the document appears genuine. If something does not line up - or, far more often, if it simply cannot confirm the issuer because that country is not in the list the app carries - it says it could not verify, and it stops there. "I couldn't check this" and "this is a forgery" are very different sentences, and I am not willing to blur them on something as serious as your ID.
+
+---
 
 ## The honest limits
 
@@ -51,8 +57,6 @@ It works on a lot of documents, but I can't promise it works on every single one
 It reads what it is allowed to read, and no more. Some chips also store fingerprints or iris data, and those sit behind keys that only government inspection systems hold - not something a consumer app is given, and not something I would want it to have. NFC.cool never touches them. It reads the face photo and the printed-style details, which is exactly the part meant to be readable by the person holding the document.
 
 And it needs a phone with NFC, held still against the document while it reads. The chip is small and the connection is delicate, so a slipped phone means starting the read again. Keep the document flat against the top of the phone until it finishes.
-
----
 
 I still think about that airport gate. All the security theater of modern travel, and at the center of it is a tiny NFC chip doing a careful little handshake - the same kind of handshake I have spent years [reading and writing tags](/features/nfc-reader-writer/) with. Now the reader in your pocket can do it too.
 

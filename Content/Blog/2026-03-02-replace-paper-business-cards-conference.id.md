@@ -45,8 +45,6 @@ Di konferensi, semua yang sedikit merepotkan dari kertas menjadi masalah nyata:
 
 Beralih ke digital bukan hanya soal mengganti kertas dengan aplikasi. Keunggulan sesungguhnya adalah memiliki sistem yang bekerja di seluruh linimasa konferensi - dari persiapan hingga tindak lanjut. Begini cara menyiapkannya.
 
----
-
 ### Fase 1: Sebelum konferensi
 
 Saat terburuk untuk menyiapkan kartu nama digital Anda adalah saat sedang antre registrasi. Selesaikan ini setidaknya seminggu sebelum acara.
@@ -84,15 +82,13 @@ Ini opsional tetapi memberikan kesan yang kuat:
 
 #### Tampilkan kode QR Anda di layar kunci (iOS)
 
-Conference Mode di NFC.cool Business Card menggunakan iOS Live Activity untuk menampilkan kode QR kartu Anda langsung di layar kunci. Ini adalah metode berbagi tercepat di konferensi:
+Conference Mode di NFC.cool Business Card menyematkan kode QR kartu Anda langsung di layar kunci sepanjang hari acara - di iPhone berjalan sebagai Live Activity, dan Android memiliki mode yang sama. Ini adalah metode berbagi tercepat di konferensi:
 
 - Kode QR Anda selalu terlihat - tidak perlu membuka kunci, tidak perlu membuka aplikasi apa pun
 - Orang cukup memindai layar Anda saat berbicara dengan Anda
 - Bahkan lebih cepat dari Apple Wallet karena Anda tidak perlu mencari pass yang tepat
 
 Integrasi Apple Wallet juga tersedia sebagai opsi cadangan.
-
----
 
 ### Fase 2: Selama konferensi
 
@@ -132,8 +128,6 @@ Konferensi kini bukan hanya soal lantai pameran. Ada saluran Slack, grup WhatsAp
 
 Salah satu keunggulan terbesar atas kertas: Anda dapat melihat siapa yang melihat kartu Anda dan kapan. Setelah percakapan yang sangat baik, buat catatan cepat di ponsel Anda: "Sarah - VP Marketing di Acme - diskusi kemitraan proyek keberlanjutan." Saat Anda menindaklanjuti nanti, Anda akan memiliki konteks yang tidak pernah diberikan kartu nama kertas.
 
----
-
 ### Fase 3: Setelah konferensi
 
 Di sinilah sebagian besar upaya networking berakhir. Anda terbang pulang, menumpuk kartu di meja, dan berkata "akan saya atur besok." Besok menjadi minggu depan. Minggu depan menjadi tidak pernah.
@@ -150,7 +144,7 @@ Karena kartu digital Anda menyertakan foto Anda, mereka benar-benar akan menging
 
 #### Tinjau analitik berbagi Anda
 
-Banyak platform kartu digital menunjukkan siapa yang membuka kartu Anda dan kapan (NFC.cool menawarkan ini di iOS, dengan dukungan Android segera hadir). Ini memberi tahu Anda:
+Banyak platform kartu digital menunjukkan siapa yang membuka kartu Anda dan kapan (NFC.cool menyediakannya di iPhone maupun Android). Ini memberi tahu Anda:
 
 - Siapa yang cukup tertarik untuk benar-benar melihat profil Anda (bukan hanya memasukkan kartu Anda ke saku dengan sopan)
 - Kapan mereka melihat - seseorang yang meninjau kartu Anda tiga hari setelah konferensi adalah prospek hangat

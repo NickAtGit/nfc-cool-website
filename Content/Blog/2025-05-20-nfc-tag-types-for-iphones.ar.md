@@ -50,7 +50,7 @@ imageAlt: "أنواع وسوم NFC مصطفّة بجانب جهاز iPhone"
 
 ## أيّ وسوم NFC ينبغي أن تختار لجهاز iPhone؟
 
-إليك الجزء الأهم. أجهزة iPhone من iPhone 7 فصاعدًا متوافقة مع NFC من النوع Type 1 وType 2 وType 5، لكنها تقدّم أفضل دعم لـType 2. ووسوم NFC من نوع Type 2 هي [سلسلة NTAG](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS) من NXP Semiconductors.
+إليك الجزء الأهم. أجهزة iPhone من iPhone 7 فصاعدًا تستطيع قراءة NDEF من أنواع NFC Forum الخمسة كلّها، ومنذ iOS 13 يمكن لتطبيقات مثل تطبيقي أن تتعامل أيضًا مع وسوم Type 3 وType 4 وType 5 تعاملًا أصليًا يتجاوز NDEF العادي. لكن الخيار الأسلس والأبعد عن المفاجآت يظلّ Type 2، وهو ما أوصي به لكلّ مشروع تقريبًا. ووسوم NFC من نوع Type 2 هي [سلسلة NTAG](https://www.nxp.com/products/wireless-connectivity/nfc-hf/ntag-for-tags-and-labels:NTAG-TAGS-AND-LABELS) من NXP Semiconductors.
 
 طُرُز NTAG213 وNTAG215 وNTAG216 هي الأكثر شيوعًا في تلك السلسلة، وهي تعمل بشكل رائع مع أجهزة iPhone - وهي ما أختبر عليه يومًا بعد يوم. تمنحك ذاكرة كافية (من 144 إلى 888 بايت) لمعظم المشاريع العملية، وهي قابلة للكتابة والقراءة بالكامل من أيّ جهاز iPhone يدعم NFC، وقابلة لإعادة الكتابة، فيمكنك تغيير محتوياتها كما تشاء.
 

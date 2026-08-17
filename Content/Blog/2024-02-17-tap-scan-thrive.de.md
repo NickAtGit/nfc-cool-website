@@ -1,77 +1,77 @@
 ---
 id: nfc-blog-022
-title: "Tap, Scan, Thrive: Was QR-Codes jenseits einer URL transportieren können"
+title: "Mehr als nur ein Link: Was alles in einen QR-Code passt"
 date: 2024-02-17
 tags: ["qr-codes", "business-cards"]
-summary: "QR-Codes sind nicht nur für URLs. Sie können WLAN-Zugangsdaten, Kalendereinträge, Standorte, vCards, Klartext transportieren - alles, was du kodieren kannst. Hier ist das volle Menü dessen, was NFC.cools QR-Generator und -Scanner können."
-metaTitle: "Was QR-Codes transportieren können: Mehr als nur URLs"
-metaDescription: "QR-Codes können WLAN-Zugangsdaten, Kontakte, Kalendereinträge, Standorte und mehr kodieren - nicht nur URLs. Ein praktischer Guide zu jedem QR-Payload-Typ."
-ogTitle: "Tap, Scan, Thrive: Was QR-Codes jenseits einer URL transportieren können"
-ogDescription: "QR-Codes können WLAN, Kontakte, Kalender, Standorte kodieren - nicht nur URLs."
+summary: "QR-Codes sind nicht nur für URLs da. WLAN-Zugangsdaten, Termine, Standorte, vCards, einfacher Text - alles, was sich kodieren lässt, passt hinein. Hier ist die komplette Liste dessen, was der QR-Generator und der Scanner in NFC.cool können."
+metaTitle: "Was in einen QR-Code passt: Mehr als nur URLs"
+metaDescription: "QR-Codes können WLAN-Zugangsdaten, Kontakte, Termine, Standorte und mehr enthalten - nicht nur URLs. Ein praktischer Guide zu jedem QR-Inhaltstyp."
+ogTitle: "Mehr als nur ein Link: Was alles in einen QR-Code passt"
+ogDescription: "QR-Codes können WLAN, Kontakte, Termine und Standorte enthalten - nicht nur URLs."
 image: "/assets/images/Blog/tap-scan-thrive.webp"
 ---
-Ein QR-Code ist einfach ein Eimer voller Bytes. URLs sind bei Weitem die häufigste Payload, aber der Spec ist das egal - du kannst WLAN-Zugangsdaten, einen Kalendereintrag, eine Karten-Pin, eine Kontaktkarte, Klartext oder eine beliebige Custom-Payload kodieren, die eine App entschlüsseln kann.
+Ein QR-Code ist im Grunde nur ein Behälter für Bytes. Meistens steckt eine URL drin, aber dem Standard ist das völlig egal: Genauso gut lassen sich WLAN-Zugangsdaten, ein Termin, ein Punkt auf der Karte, eine Kontaktkarte, einfacher Text oder eine beliebige eigene Payload kodieren, mit der irgendeine App etwas anfangen kann.
 
-NFC.cools QR-Generator deckt all das ab. Und so verhält sich jede Variante beim Scannen tatsächlich.
+Der QR-Generator in NFC.cool beherrscht all diese Varianten. Was beim Scannen jeweils wirklich passiert, gehe ich hier der Reihe nach durch.
 
 ---
 
 ## URLs
 
-Der Basisfall. Kodiere `https://example.com`, scanne mit jeder Kamera, und das Gerät bietet an, sie zu öffnen. Funktioniert auf jedem Handy der letzten Dekade.
+Der Klassiker. Du kodierst `https://example.com`, scannst mit einer beliebigen Kamera-App, und das Handy bietet an, die Seite zu öffnen. Das klappt auf praktisch jedem Handy aus den letzten zehn Jahren.
 
-Eine nützliche Variante: Kurzlinks. Wenn du Analytics-lastige URLs hast, generiere den QR über die Kurzversion - das macht den QR-Code physisch kleiner (weniger Module = weniger dicht) und aus der Entfernung leichter scanbar.
+Ein Tipp aus der Praxis: Kurzlinks. Wenn deine URLs vor lauter Analytics-Parametern ewig lang sind, erzeug den QR-Code lieber aus der Kurzversion. Der Code wird dadurch physisch kleiner (weniger Module, also weniger dicht) und lässt sich auch aus größerer Entfernung besser scannen.
 
 ---
 
 ## WLAN-Zugangsdaten
 
-Kodiere SSID, Passwort und Security-Typ (WPA2, WPA3, offen) im Standardformat `WIFI:T:WPA;S:...;P:...;;`. iOS, Android und modernes Windows erkennen das Format und bieten den Beitritt an.
+SSID, Passwort und Verschlüsselungstyp (WPA2, WPA3, offen) kommen im Standardformat `WIFI:T:WPA;S:...;P:...;;` in den Code. iOS, Android und ein aktuelles Windows erkennen das Format und fragen direkt, ob sie dem Netzwerk beitreten sollen.
 
-Druck das auf eine kleine Karte in deinem Gästezimmer. Kleb es auf die Rückseite des Routers. Befestige es an der Wand in einem Café. Gäste scannen, treten bei, fertig - kein Eintippen von 24-Zeichen-Passwörtern.
+Druck das auf ein Kärtchen fürs Gästezimmer. Kleb es hinten auf den Router. Häng es im Café an die Wand. Gäste scannen, sind drin, fertig - niemand muss mehr ein 24-stelliges Passwort abtippen.
 
 ---
 
 ## Kalendereinträge
 
-Kodiere einen Termin als `BEGIN:VEVENT`-Block (das iCalendar-Format). Scannen bietet an, ihn in die Kalender-App des Geräts zu übernehmen, komplett mit Startzeit, Endzeit, Ort und Beschreibung.
+Ein Termin wird als `BEGIN:VEVENT`-Block kodiert, also im iCalendar-Format. Beim Scannen bietet das Handy an, ihn in die Kalender-App zu übernehmen, samt Startzeit, Endzeit, Ort und Beschreibung.
 
-Nützlich auf Event-Postern, Konferenzbeschilderung oder „Save the Date“-Karten. Der Empfänger muss den Termin nicht erst auf einer Website finden - ein Fingertipp, und er ist im Kalender.
+Praktisch auf Veranstaltungsplakaten, Konferenzschildern oder „Save the Date“-Karten. Niemand muss den Termin erst irgendwo auf einer Website zusammensuchen: ein Fingertipp, und er steht im Kalender.
 
 ---
 
 ## Standorte
 
-Kodiere eine `geo:`-URI mit Breite und Länge. Scannen öffnet die Standard-Karten-App an diesem Pin - Apple Maps auf iOS, Google Maps auf den meisten Android-Handys.
+Hier steckt eine `geo:`-URI mit Breiten- und Längengrad im Code. Beim Scannen öffnet sich die Standard-Karten-App genau an diesem Punkt - Apple Maps auf iOS, Google Maps auf den meisten Android-Handys.
 
-Restaurants, Venues, Treffpunkte: Klebe einen kleinen QR auf den Flyer oder die Einladung, Empfänger bekommen die Navigation mit einem Fingertipp.
+Restaurants, Veranstaltungsorte, Treffpunkte: Ein kleiner QR-Code auf dem Flyer oder der Einladung, und wer ihn scannt, hat die Route mit einem Fingertipp.
 
 ---
 
 ## vCard (Kontakte)
 
-Die häufigste Alternative zu URLs. Kodiere eine vollständige vCard (Name, Telefon, E-Mail, Firma, Adresse, URL, Foto) und das Gerät bietet an, sie als Kontakt zu speichern.
+Die häufigste Alternative zur URL. Du kodierst eine vollständige vCard (Name, Telefon, E-Mail, Firma, Adresse, URL, Foto), und das Handy bietet an, das Ganze als Kontakt zu speichern.
 
-QR-Visitenkarten funktionieren genau so von Haus aus. Es ist auch der Grund, warum eine vCard-QR auf jedem Handy ohne spezielle App funktioniert - vCard ist ein 30 Jahre alter Standard, den das OS bereits kennt.
+Genau so funktionieren QR-Visitenkarten von Haus aus. Und deshalb läuft eine vCard-QR auch auf jedem Handy ohne zusätzliche App: vCard ist ein 30 Jahre alter Standard, den das Betriebssystem ohnehin kennt.
 
-Der Trade-off gegenüber dem NFC.cool-Business-Card-Flow: Eine vCard-QR kann nicht aktualisiert werden. Einmal gedruckt, sind die Kontaktdaten eingefroren. Wenn du eine „Single Source of Truth“ willst, die du später editieren kannst, kodiere stattdessen eine URL zu deiner Live-Visitenkarten-Seite - genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-de&mt=8), und deshalb empfehlen wir es für ernsthaftes Networking statt einer rohen vCard-QR.
-
----
-
-## Klartext
-
-Wenn du beim Scannen einfach einen String anzeigen willst - eine Nachricht, einen Gutscheincode, ein Rätsel - kannst du Klartext kodieren. Die meisten Scanner-Apps zeigen ihn und bieten an, ihn zu kopieren oder zu teilen.
+Der Haken im Vergleich zur Visitenkarte von NFC.cool: Eine vCard im QR-Code lässt sich nachträglich nicht mehr ändern. Einmal gedruckt, sind die Kontaktdaten eingefroren. Wenn du deine Daten lieber an einer Stelle pflegen und später noch bearbeiten willst, kodiere stattdessen eine URL zu deiner Online-Visitenkarte. Genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-de&mt=8), und deshalb empfehle ich fürs ernsthafte Networking eher die App als eine nackte vCard-QR.
 
 ---
 
-## Custom Payloads
+## Einfacher Text
 
-Manche Apps registrieren Custom-URL-Schemes (`myapp://...`) und erkennen damit kodierte QR-Codes. NFC.cools Scanner respektiert die - er liest die Payload und übergibt an die registrierte App, genau so, wie iOS oder Android es via Universal Links machen.
+Manchmal soll beim Scannen einfach nur ein Text erscheinen - eine Nachricht, ein Gutscheincode, ein Rätsel. Dann kodierst du schlicht den Text selbst. Die meisten Scanner-Apps zeigen ihn an und bieten an, ihn zu kopieren oder zu teilen.
 
 ---
 
-## Auf der Scan-Seite
+## Eigene Payloads
 
-NFC.cools Scanner liest jedes der obigen Formate und routet zur passenden Aktion: URLs öffnen im Browser, vCards bieten Speicherung an, WLAN bietet Verbindung, Standorte öffnen in Maps. Er führt auch eine lokale Historie jedes Scans - nützlich, wenn du 30 Speisekarten auf einer Konferenz gescannt hast und eine wiederfinden willst.
+Manche Apps registrieren ein eigenes URL-Schema (`myapp://...`) und erkennen QR-Codes, die damit kodiert sind. Der Scanner in NFC.cool respektiert das: Er liest die Payload und reicht sie an die zuständige App weiter, so wie es iOS oder Android bei Universal Links auch machen.
 
-Der gesamte QR-Stack - Generator und Scanner - ist verfügbar in [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-de).
+---
+
+## Was der Scanner daraus macht
+
+Der Scanner in NFC.cool liest jedes dieser Formate und löst die passende Aktion aus: URLs gehen in den Browser, vCards landen auf Wunsch in den Kontakten, bei WLAN-Daten fragt er nach dem Verbinden, Standorte öffnen sich in der Karten-App. Außerdem führt er lokal eine Historie aller Scans. Das ist praktisch, wenn du auf einer Konferenz 30 Speisekarten gescannt hast und eine davon wiederfinden willst.
+
+Das komplette QR-Paket - Generator und Scanner - steckt in [NFC.cool Tools für iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-de).
