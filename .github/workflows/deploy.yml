@@ -75,6 +75,13 @@ jobs:
       - name: Build site
         run: swift run Site build
 
+      # SiteKit's resizer box-fits variants (-resize WxW>), so portrait images
+      # come out narrower than their srcset descriptors claim and render soft.
+      # Regenerate those width-only, in _Site and in the cached variants above,
+      # so warm runs stay fixed. Drop once SiteKit resizes by width only.
+      - name: Fix portrait image variants
+        run: python3 Scripts/fix-portrait-variants.py
+
       - name: Upload artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
