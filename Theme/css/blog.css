@@ -202,7 +202,7 @@
 .blog-post-hero {
    padding: clamp(3.5rem, 7vw, 5.5rem) 0 clamp(3rem, 5vw, 4rem);
 }
-.blog-post-hero .blog-post-meta { margin: 0; }
+.blog-post-hero .blog-post-meta { margin: 0.75rem 0; }
 .blog-post-hero .blog-post-tags { justify-content: flex-start; }
 .blog-post-back,
 .tag-page-back {
@@ -240,6 +240,30 @@
    display: inline-flex;
    gap: 0.5rem;
    align-items: center;
+}
+.blog-post-byline {
+   display: inline-flex;
+   align-items: center;
+   gap: 0.5rem;
+   color: #FFFFFF;
+   font-weight: 600;
+   text-decoration: none;
+}
+.blog-post-byline span {
+   border-bottom: 1px solid transparent;
+   transition: border-color var(--transition);
+}
+.blog-post-byline:hover span {
+   border-bottom-color: var(--color-accent);
+}
+.blog-post-byline-avatar {
+   /* Fixed CSS size: ImageResizer rewrites the width/height attributes to the
+      generated variant's intrinsic 96 px. */
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   object-fit: cover;
+   border: 1px solid rgba(255, 255, 255, 0.35);
 }
 .blog-post-tags {
    display: flex;

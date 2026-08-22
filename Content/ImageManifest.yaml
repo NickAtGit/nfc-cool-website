@@ -37,10 +37,10 @@ roles:
     desktopWidth: 114
     mobileWidth: 114
 
-  # Small inline avatars (testimonials, App Store reviews, trusted-by icons) —
-  # rendered at 40–48 CSS px. 96 px covers 2× DPR.
+  # Small inline avatars (testimonials, App Store reviews, trusted-by icons,
+  # blog byline) — rendered at 40–48 CSS px. 96 px covers 2× DPR.
   - name: small-avatar
-    selector: "img.landing-testimonial-avatar, img.landing-review-avatar, img.landing-trusted-icon"
+    selector: "img.landing-testimonial-avatar, img.landing-review-avatar, img.landing-trusted-icon, img.blog-post-byline-avatar"
     desktopWidth: 96
     mobileWidth: 96
 

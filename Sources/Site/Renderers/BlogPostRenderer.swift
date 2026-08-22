@@ -54,7 +54,10 @@ struct BlogPostRenderer: Renderer {
       let pagePath = context.router.pagePath(for: page, in: section.config)
 
       let dateText = page.date.map { dateFormatter.string(from: $0) } ?? ""
-      let author = page.author?.name ?? ""
+      // Visible byline: every post is written by Nico, but only some carry
+      // `author:` frontmatter, so fall back to the same person the JSON-LD
+      // hard-codes (StructuredData's /about/#person).
+      let author = page.author?.name ?? "Nicolo Stanciu"
       let backText = section.config.name.isEmpty
          ? context.s(.blogBack)
          : context.s(.blogBackTo, section.config.name)
@@ -189,8 +192,11 @@ struct BlogPostRenderer: Renderer {
       <p class="blog-post-back"><a href="\(listingPath)">\(backText.htmlEscaped)</a></p>
       \(renderTitleWithBrandTail(page.title, tagName: "h1", classAttr: "blog-post-title"))
       <p class="blog-post-meta">
-         \(dateText.isEmpty ? "" : "<span>\(dateText.htmlEscaped)</span>")
-         \(author.isEmpty ? "" : "<span>·</span><span>\(author.htmlEscaped)</span>")
+         <a class="blog-post-byline" href="\(context.router.homePath())about/">
+            <img class="blog-post-byline-avatar" src="/assets/images/About/avatar-nicolo.webp" alt="" width="44" height="44" loading="eager">
+            <span>\(author.htmlEscaped)</span>
+         </a>
+         \(dateText.isEmpty ? "" : "<span>·</span><span>\(dateText.htmlEscaped)</span>")
       </p>
       \(tagsHTML.isEmpty ? "" : "<div class=\"blog-post-tags\">\(tagsHTML)</div>")
       """
