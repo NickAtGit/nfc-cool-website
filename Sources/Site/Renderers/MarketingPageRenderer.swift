@@ -91,6 +91,27 @@ struct MarketingPageRenderer: Renderer {
                pagePath: pagePath
             )
          }
+      case let slug where slug.hasPrefix("apps/"):
+         // Per-app promo subpages (EN-only, so fallback redirects never reach
+         // here): Home → More Apps → {app} breadcrumb plus a SoftwareApplication
+         // node from the catalog. An uncataloged apps/ slug falls back to the
+         // plain breadcrumb rather than shipping a half-empty application node.
+         if let app = AppCatalog.entry(forPageSlug: slug) {
+            jsonLD = StructuredData.appPageGraph(
+               baseURL: context.config.baseURL,
+               homePath: context.router.homePath(),
+               appsLabel: "More Apps",
+               pagePath: pagePath,
+               app: app
+            )
+         } else {
+            jsonLD = StructuredData.staticPageGraph(
+               baseURL: context.config.baseURL,
+               homePath: context.router.homePath(),
+               pageTitle: page.title,
+               pagePath: pagePath
+            )
+         }
       default:
          jsonLD = StructuredData.staticPageGraph(
             baseURL: context.config.baseURL,
@@ -139,12 +160,15 @@ struct MarketingPageRenderer: Renderer {
       // Resolve any `{{PRICING_TABLE:<name>}}` tokens the markdown authored
       // (e.g. the business-card plan comparison) into generated table HTML.
       let body = try PricingTableRenderer.resolvePricingTokens(in: page.htmlContent, locale: page.locale, context: context)
-      let mainContent = "<main class=\"sk-main marketing-page\" data-slug=\"\(page.slug)\">\(body)\(newsletter)</main>"
+      // Nested slugs (`apps/qr-code-scanner`) carry a `/`, which is not valid
+      // inside a CSS class name - flatten it for the styling hooks.
+      let cssSlug = page.slug.replacingOccurrences(of: "/", with: "-")
+      let mainContent = "<main class=\"sk-main marketing-page\" data-slug=\"\(cssSlug)\">\(body)\(newsletter)</main>"
 
       let html = helper.renderPageShell(
          head: head,
-         bodyClass: "sk-page-\(page.slug) marketing",
-         dataAttributes: ["data-slug": page.slug],
+         bodyClass: "sk-page-\(cssSlug) marketing",
+         dataAttributes: ["data-slug": cssSlug],
          content: mainContent
       )
 

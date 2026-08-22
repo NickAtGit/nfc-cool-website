@@ -656,3 +656,51 @@
    justify-content: center;
    margin-top: 2rem;
 }
+
+/* ============================================================
+   /apps/ index + /apps/{slug}/ subpages - the "other apps" section.
+   Cards on the index are whole-card links; subpage heroes carry the
+   app icon above the H1 and a muted footnote under the feature grid.
+   ============================================================ */
+.app-card-icon {
+   width: 64px;
+   height: 64px;
+   border-radius: 14px; /* iOS-icon corner treatment at 64 px */
+   margin-bottom: 0.85rem;
+   box-shadow: 0 1px 3px var(--color-shadow);
+}
+.app-page-icon {
+   width: 72px;
+   height: 72px;
+   border-radius: 16px;
+   margin-bottom: 1.1rem;
+   box-shadow: 0 1px 3px var(--color-shadow);
+}
+.app-card {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+/* The whole card is the link - keep the theme's content-link underline
+   off it. That rule is `.page-section a:not(.landing-cta-button)` (0,2,1),
+   so this needs 3 classes (0,3,0) to win, same trick as .affiliate-country. */
+.page-section .apps-index-grid .app-card,
+.page-section .apps-index-grid .app-card:hover {
+   text-decoration: none;
+   color: inherit;
+}
+.app-card-platforms {
+   margin-top: auto; /* pin the pill row to the card's bottom edge */
+   padding-top: 0.85rem;
+   display: inline-flex;
+   gap: 0.4rem;
+}
+/* Muted footnote under a subpage's feature grid - pricing hints and the
+   non-affiliation disclaimers live here. */
+.app-note {
+   font-size: 0.875rem;
+   color: var(--color-text-secondary);
+   max-width: 70ch;
+   margin: 1.75rem auto 0;
+   text-align: center;
+}

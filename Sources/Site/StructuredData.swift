@@ -207,6 +207,23 @@ enum StructuredData {
       """
    }
 
+   /// Graph for an `/apps/{slug}/` subpage: a 3-level BreadcrumbList
+   /// (Home → {appsLabel} → {app}) plus a `SoftwareApplication` node for the
+   /// promoted app. `aggregateRating` is included only when the catalog entry
+   /// carries rating data (entries below the count threshold keep it nil).
+   static func appPageGraph(baseURL: String, homePath: String, appsLabel: String, pagePath: String, app: AppCatalogEntry) -> String {
+      let breadcrumb = """
+      {"@type":"BreadcrumbList","itemListElement":[\(self.listItem(position: 1, name: "Home", url: "\(baseURL)\(homePath)")),\(self.listItem(position: 2, name: appsLabel, url: "\(baseURL)\(homePath)apps/")),\(self.listItem(position: 3, name: app.name, url: "\(baseURL)\(pagePath)"))]}
+      """
+      let ratingFragment = app.rating.map { ",\(self.aggregateRating($0))" } ?? ""
+      let application = """
+      {"@type":"SoftwareApplication","name":"\(app.name.jsonEscaped)","operatingSystem":"\(app.operatingSystem)","applicationCategory":"\(app.applicationCategory)","image":"\(baseURL)\(app.iconPath)","url":"\(app.storeURL)","downloadUrl":"\(app.storeURL)","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"\(baseURL)/#organization"},"author":{"@id":"\(baseURL)/about/#person"}\(ratingFragment)}
+      """
+      return """
+      {"@context":"https://schema.org","@graph":[\(breadcrumb),\(application)]}
+      """
+   }
+
    // MARK: - Schema fragments
 
    private static func organization(baseURL: String, siteName: String) -> String {

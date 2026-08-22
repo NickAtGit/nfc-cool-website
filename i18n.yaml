@@ -26,6 +26,14 @@ enOnly:
     - "Content/Pages/Privacy.md"
     - "Content/Pages/Terms.md"
     - "Content/Pages/Impressum.md"
+    # /apps/{slug}/ promo subpages ship EN-only (the /apps/ index is fully
+    # localized); localized URLs fall back to redirects like the legal pages.
+    - "Content/Pages/AppsQrCodeScanner.md"
+    - "Content/Pages/Apps3DScanner.md"
+    - "Content/Pages/AppsFlightTracker.md"
+    - "Content/Pages/AppsPokemonQuiz.md"
+    - "Content/Pages/AppsEbikeMonitor.md"
+    - "Content/Pages/AppsMondegoMove.md"
 
 # Values that are legitimately byte-identical across locales - suppresses the
 # "looks untranslated" check. (URLs, dimensions, brand names, and symbol/number
@@ -52,6 +60,13 @@ identicalAllowlist:
     - "iOS only"
     - "NFC.cool Tools"
     - "NFC.cool Business Card"
+    # App names on the /apps/ index stay in English across all locales.
+    - "QR Code Scanner by NFC.cool"
+    - "3D Object & Room Scanner"
+    - "1st Class - Flight Tracker"
+    - "PvP Trainer Pokémon Quiz Game"
+    - "eBike Monitor for Shimano"
+    - "Mondego Move"
   # Catalog (Strings/Localizable.json) keys allowed to be identical across locales.
   catalogKeys:
     - tagName_nfc-tags

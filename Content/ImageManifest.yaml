@@ -72,6 +72,14 @@ roles:
     desktopWidth: 240
     mobileWidth: 240
 
+  # App icons on the /apps/ index cards (64 CSS px) and subpage heroes
+  # (72 CSS px). 72 gives a density srcset of 72w (1x) + 144w (2x) from the
+  # 512 px source.
+  - name: app-icon
+    selector: "img.app-card-icon, img.app-page-icon"
+    desktopWidth: 72
+    mobileWidth: 72
+
   # Catch-all - covers blog post body images, the remaining marketing-page
   # figures, etc.
   - name: default
