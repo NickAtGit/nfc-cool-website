@@ -18,6 +18,9 @@ image: "/assets/images/Apps/mondego-move/screenshot-1.webp"
 An independent companion app for travelers using the Metro Mondego system in the Coimbra region: plan trips, browse the network map, and check fares - in English and Portuguese. Currently in beta on both platforms: open testing on Google Play and TestFlight on iOS.
 
 <div class="landing-store-buttons">
+<a href="https://testflight.apple.com/join/zN7grnDK" class="landing-store-button is-apple" aria-label="Join the iOS beta on TestFlight" target="_blank" rel="noopener nofollow sponsored">
+<img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
+</a>
 <a href="https://play.google.com/store/apps/details?id=pt.coimbra.metromondego&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-apps-mondego-move-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
