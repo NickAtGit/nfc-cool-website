@@ -68,7 +68,7 @@ ogDescription: "用 iPhone 写入 NFC 标签的分步指南：URL、Wi-Fi、联�
 ### 写入一个 URL
 
 1. **打开 NFC.cool Tools**，轻触 **写入（Write）** 标签页
-2. **选择“URL”**作为记录类型
+2. **选择“URL”作为记录类型**
 3. **输入你的 URL**，例如 `https://nfc.cool`
 4. **轻触“写入到标签（Write to Tag）”**
 5. **把你的 iPhone 靠近空白 NFC 标签**：iPhone 的顶部边缘（NFC 天线所在处）应距离标签 2 到 3 厘米以内

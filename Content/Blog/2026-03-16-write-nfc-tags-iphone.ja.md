@@ -55,7 +55,7 @@ NFCタグの書き込みには、**iOS 13以降**を搭載した**iPhone 7以降
 
 タグにデータを書き込むには、iPhoneにアプリが必要です。Appleの標準NFC機能は読み取りに対応していますが、書き込みには専用アプリが必要です。
 
-私はこの部分に何年も取り組んできたので、正直に言っておきます。私には偏りがあります。**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-ja&mt=8)**はまさにこの目的のために作られたアプリで、iPhoneと[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-ja)の両方で使えます。URL、テキスト、Wi-Fi設定、連絡先など、すべての標準NDEFレコードタイプの書き込みに対応しており、タグメモリの使用量を正確に表示するクリーンなインターフェースを備えています。タグのロック、技術詳細の読み取り、iOSショートカットによる書き込みの自動化も可能です。すべての機能は[NFCリーダー＆ライターのページ](/ja/features/nfc-reader-writer/)で確認できます。
+私はこの部分に何年も取り組んできたので、正直に言っておきます。私には偏りがあります。[**NFC.cool Tools**](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-ja&mt=8)はまさにこの目的のために作られたアプリで、iPhoneと[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-ja)の両方で使えます。URL、テキスト、Wi-Fi設定、連絡先など、すべての標準NDEFレコードタイプの書き込みに対応しており、タグメモリの使用量を正確に表示するクリーンなインターフェースを備えています。タグのロック、技術詳細の読み取り、iOSショートカットによる書き込みの自動化も可能です。すべての機能は[NFCリーダー＆ライターのページ](/ja/features/nfc-reader-writer/)で確認できます。
 
 他にも選択肢はありますが（Appleのショートカットアプリで基本的なURL書き込みなど）、専用のNFCアプリを使えば、何を書き込むか、どのように書き込むかをより細かくコントロールできます。
 
@@ -68,9 +68,9 @@ NFCタグの書き込みには、**iOS 13以降**を搭載した**iPhone 7以降
 ### URLを書き込む
 
 1. **NFC.cool Tools**を開き、**書き込み**タブをタップ
-2. レコードタイプとして**「URL」**を選択
+2. レコードタイプとして「**URL**」を選択
 3. **URLを入力** - 例えば `https://nfc.cool`
-4. **「タグに書き込み」**をタップ
+4. 「**タグに書き込み**」をタップ
 5. **iPhoneを空白のNFCタグに近づける** - iPhoneの上端（NFCアンテナがある場所）をタグから2〜3cm以内に
 6. **成功の確認を待つ** - 触覚フィードバックとチェックマークが表示されます
 
@@ -102,7 +102,7 @@ Wi-Fiネットワーク名（SSID）とパスワードをタグに書き込み�
 
 **Wi-Fi認証情報の書き込み方：**
 
-1. NFC.cool Toolsで、レコードタイプとして**「Wi-Fi」**を選択
+1. NFC.cool Toolsで、レコードタイプとして「**Wi-Fi**」を選択
 2. **ネットワーク名**（SSID）を入力
 3. **パスワード**を入力
 4. **セキュリティタイプ**を選択（ほとんどの家庭用ネットワークではWPA2またはWPA3）
@@ -120,7 +120,7 @@ vCard連絡先をタグに書き込みます。誰かがタップすると、保
 
 **連絡先の書き込み方：**
 
-1. レコードタイプとして**「連絡先」**を選択
+1. レコードタイプとして「**連絡先**」を選択
 2. 共有したいフィールドを入力（名前、電話番号、メールなど）
 3. タグに書き込む
 
@@ -128,7 +128,7 @@ vCard連絡先をタグに書き込みます。誰かがタップすると、保
 
 私が読んでいるサポートメールからの正直な注意点を1つ。タグ上の生のvCardは、iPhoneで動作が不安定になることがあります。うまく開かない場合は、その原因を[vCardのNFCタグがiPhoneで動作しない理由](/ja/blog/vcard-nfc-iphone-not-working/)で掘り下げました。
 
-**注意：** 写真、ソーシャルリンク、アナリティクスを含むよりリッチな体験には、**[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-ja&mt=8)**をチェックしてください。ホスティングされたデジタル名刺プロフィールを作成し、そのリンクを任意のNFCタグに書き込むことができます。タップすると、iOSユーザーにはネイティブのApp Clipが表示され、AndroidユーザーにはNFC.coolドメインのWebサイトが開きます - どちらもアプリ不要です。私自身のネットワーキングでも、これは生のvCardよりはるかに信頼できると感じています。
+**注意：** 写真、ソーシャルリンク、アナリティクスを含むよりリッチな体験には、[**NFC.cool Business Card**](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-ja&mt=8)をチェックしてください。ホスティングされたデジタル名刺プロフィールを作成し、そのリンクを任意のNFCタグに書き込むことができます。タップすると、iOSユーザーにはネイティブのApp Clipが表示され、AndroidユーザーにはNFC.coolドメインのWebサイトが開きます - どちらもアプリ不要です。私自身のネットワーキングでも、これは生のvCardよりはるかに信頼できると感じています。
 
 ### プレーンテキスト
 
@@ -164,7 +164,7 @@ vCard連絡先をタグに書き込みます。誰かがタップすると、保
 
 1. **ショートカット**アプリを開く
 2. 新しいショートカットを作成
-3. **「NFCタグを設定」**アクションを検索（スクリプティング → NFC内）
+3. 「**NFCタグを設定**」アクションを検索（スクリプティング → NFC内）
 4. 書き込む内容を設定（URL、テキストなど）
 5. ショートカットを実行してタグをタップ
 
@@ -333,9 +333,9 @@ iOSショートカットには基本的な書き込み（URL、テキスト）�
 
 NFCタグへの書き込み方がわかったので、可能性は無限大です。私のアドバイスはいつも同じです。まずはシンプルなプロジェクトから始めましょう - ゲスト用のWi-Fiタグや名刺タグなど - 小さな成功を手にして、そこから広げていきましょう。
 
-パワフルで使いやすいNFC書き込みアプリをお探しなら、**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-ja&mt=8)**はまさにこれを処理するために私が作ったアプリです。基本的なURL書き込みから高度なタグ管理まで、iOSショートカット連携によるオートメーション機能を含めて対応しています。
+パワフルで使いやすいNFC書き込みアプリをお探しなら、[**NFC.cool Tools**](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-ja&mt=8)はまさにこれを処理するために私が作ったアプリです。基本的なURL書き込みから高度なタグ管理まで、iOSショートカット連携によるオートメーション機能を含めて対応しています。
 
-NFCタグをプロフェッショナルなデジタル名刺に変えたいなら、**[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-ja&mt=8)**で美しいカードプロフィールを作成し、そのURLを任意のNFCタグに書き込むことができます。アプリのUIとApp Clipは35言語に対応しており、AndroidユーザーにはNFC.coolドメインのWebサイトが表示されます（現在は英語のみ）。
+NFCタグをプロフェッショナルなデジタル名刺に変えたいなら、[**NFC.cool Business Card**](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-ja&mt=8)で美しいカードプロフィールを作成し、そのURLを任意のNFCタグに書き込むことができます。アプリのUIとApp Clipは35言語に対応しており、AndroidユーザーにはNFC.coolドメインのWebサイトが表示されます（現在は英語のみ）。
 
 **NFC.cool Toolsをダウンロード：** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-ja&mt=8) | [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-ja)
 
