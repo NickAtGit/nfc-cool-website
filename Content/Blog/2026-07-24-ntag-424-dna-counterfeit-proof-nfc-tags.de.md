@@ -53,53 +53,127 @@ Was er nicht kann: die nächste gültige Signatur erzeugen. Der Signaturschlüss
 
 Und genau am Zähler fliegt der Klon auf. Die einzige URL, die ein Fälscher auf seine Kopie schreiben kann, hat er bei einem echten Scan abgegriffen, mitsamt dem Zählerstand, den dieser Scan gerade hatte. Schickt er sie erneut los, sieht der Server eine Zahl, die er schon kennt. Der Zähler eines echten Chips läuft aber nur vorwärts, ein Wiederholen oder ein Schritt zurück verrät die Kopie also sofort. Für einen neuen, höheren Zählerstand mit passender Signatur bräuchte er den Schlüssel, und um an den zu kommen, müsste er AES knacken oder den Chip physisch aufbrechen. Beides macht für eine gefälschte Handtasche niemand.
 
-Das ist die ehrliche Fassung des Marketingsatzes. Der Chip macht nicht das *Produkt* kopiersicher, sondern den *Echtheitsbeweis*, und er verlagert diesen Beweis auf etwas, das ein Fälscher nicht nachbauen kann.
+Das ist die ungeschönte Fassung des Marketingsatzes. Der Chip macht nicht das *Produkt* kopiersicher, sondern den *Echtheitsbeweis*, und er verlagert diesen Beweis auf etwas, das ein Fälscher nicht nachbauen kann.
 
 ---
 
-## Wie NFC.cool prüft, ob ein Tag echt ist
+## Was im Chip steckt
 
-Als ich die Tags verstanden hatte, wollte ich, dass die App die Sache richtig macht und nicht bloß einen Hex-Dump anzeigt. NFC.cool Tools beherrscht den NTAG 424 DNA jetzt also komplett, auf [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-de), und prüft die Echtheit auf zwei voneinander unabhängige Arten; bei den dafür gebauten Tags kommt eine dritte, physische dazu.
+Alles, was NFC.cool mit diesen Tags anstellt, versteht man leichter, wenn man den Aufbau des Chips vor Augen hat. Hier ist also die Landkarte, die ich mir zeichnen musste, bevor ich die erste Zeile Code schreiben konnte.
 
-**Die Herkunft des Chips.** Jeder echte NXP-Chip trägt ab Werk eine Signatur über seine eigene ID, erstellt mit dem privaten Schlüssel von NXP. NFC.cool liest diese Signatur aus und prüft sie direkt auf dem Handy gegen den öffentlichen Schlüssel von NXP. Passt alles, steht da schlicht „Echter NXP“. Für diesen Schritt musst du nichts einrichten und keinen Schlüssel eingeben. Er beantwortet die Frage: Ist das echtes NXP-Silizium oder ein No-Name-Klon?
+Ein NTAG 424 DNA ist ein NFC-Forum-Typ-4-Tag mit 416 Bytes Speicher, aufgeteilt in eine einzige Anwendung mit drei fest vorgegebenen Dateien. Dateien anlegen oder löschen wie bei einem MIFARE DESFire geht nicht. Diese drei sind alles, was du bekommst:
 
-**Der Scan selbst.** Das ist die SUN-Prüfung. NFC.cool entschlüsselt `picc_data`, holt Tag-ID und Zählerstand heraus, rechnet die Signatur nach und vergleicht sie mit dem `cmac`, den der Tag mitgeschickt hat. Stimmen beide überein, ist der Scan echt und frisch, und du siehst „Authentisch“. Dieser Schritt beweist mehr und verlangt deshalb auch mehr: den Schlüssel des Tags. Ein fabrikneuer Tag mit Werksschlüssel lässt sich ganz ohne Eingabe prüfen. Hat jemand den Tag mit einem eigenen Schlüssel gesperrt, gilt er nur dann als authentisch, wenn du genau diesen Schlüssel gespeichert hast.
+| Datei | Größe | Inhalt |
+| --- | --- | --- |
+| File 01 | 32 Bytes | Der Capability Container, der dem Handy sagt, wo die NDEF-Daten liegen |
+| File 02 | 256 Bytes | Die NDEF-Nachricht, in der Regel dein Link. Bei jedem Lesen spiegelt SUN seine aktuellen Werte in diese Datei |
+| File 03 | 128 Bytes | Eine proprietäre Datei, die der Chip verschlüsselt halten kann. NFC.cool nutzt sie als Tresor, dazu unten mehr |
 
-**Das physische Siegel, bei den Tags, die dafür gebaut sind.** Eine Variante, der NTAG 424 DNA TagTamper, ist als Siegel gedacht, dem man jedes Öffnen ansieht. Ein Sticker mit einem dünnen zusätzlichen Draht darin; du klebst ihn über das, was du schützen willst: über die Lasche eines Kartons, um den Verschluss einer Flasche. Dieselbe Aufgabe erledigen heute die „Garantie erlischt bei Beschädigung“-Aufkleber. Öffnest du die Verpackung, reißt der Sticker und mit ihm der Draht. NFC.cool prüft diesen Draht beim Scan und sagt dir klipp und klar, ob das Siegel noch intakt ist oder schon einmal aufgebrochen wurde. Das Schöne daran: Es funktioniert nur in eine Richtung. Ist der Draht einmal durch, merkt sich der Chip das für immer. Wer die Schachtel öffnet und danach fein säuberlich wieder verschließt, hat trotzdem verloren: Der Chip meldet sie weiterhin als geöffnet. Die Kryptografie beweist, dass der Chip echt ist; der Draht beweist, dass niemand in der Schachtel war.
+Neben den Dateien liegen fünf AES-128-Schlüssel, nummeriert von Key 0 bis Key 4. **Key 0** ist der Hauptschlüssel der Anwendung: Mit ihm authentifizierst du dich, wenn du den Link ändern, SUN einschalten, einen der anderen Schlüssel ersetzen oder an die Konfiguration des Chips willst. Key 1 bis Key 4 tun für sich genommen nichts. Sie spielen erst eine Rolle, wenn die Zugriffsrechte einer Datei oder die SUN-Einstellungen auf sie zeigen. Auf einem fabrikneuen Tag bestehen alle fünf Schlüssel aus sechzehn Null-Bytes, und die NDEF-Datei darf jeder beschreiben. Deshalb nimmt ein frischer Tag einen einfachen Link ganz ohne Umstände an.
 
-Das alles ist für jeden kostenlos. Einen Tag auslesen, also Link, Zählerstand, Dateiaufbau und den Zustand des Siegels, und dazu beide kryptografischen Prüfungen: Das kostet nichts. Ich wollte, dass jeder, der so einen Tag scannt, die Frage „Ist das Ding echt?“ selbst beantworten kann.
-
----
-
-## Eigene sichere Tags programmieren
-
-Lesen ist die eine Hälfte. Die andere: Die leeren Tags von AliExpress gehören dir, und du kannst sie selbst programmieren. NFC.cool macht das über einen ordentlich authentifizierten, verschlüsselten Kanal, also über genau die gesicherte Kommunikation, auf der der Chip besteht, und nicht per Schreibbefehl auf gut Glück.
-
-Die einfache Variante besteht aus drei Schritten. Schreib deinen eigenen Link drauf, das ist kostenlos. Schalte SUN ein, damit der Tag jeden Scan signiert. Und ersetze den Werksschlüssel durch einen eigenen: als Passphrase festgelegt, damit du dich nicht mit einer 32-stelligen Hex-Zeichenkette herumschlagen musst, und in deinem Schlüsselbund gespeichert. Ab da gehört der Tag dir: Er beweist weiterhin jedem, der ihn scannt, dass er echt ist, aber neu programmieren kannst nur noch du ihn.
-
-Hier hätte ich aufhören können. Die wenigen Apps, die sich überhaupt an diese Tags herantrauen, hören hier auf. Ich nicht.
+Jeder Befehl, der etwas verändert, läuft in einer authentifizierten Sitzung: Handy und Chip führen mit einem dieser Schlüssel ein gegenseitiges Challenge-Response-Verfahren durch, leiten daraus Sitzungsschlüssel ab, und ab dann trägt jeder Befehl einen MAC oder ist komplett verschlüsselt. Das ist die gesicherte Kommunikation, von der im Rest dieses Beitrags immer wieder die Rede ist. NFC.cool hat sie vollständig implementiert, auf iPhone und auf Android, und jeder Schreibvorgang, den ich unten beschreibe, läuft darüber.
 
 ---
 
-## Den kompletten NTAG 424 DNA Chip vom iPhone oder Android aus konfigurieren
+## Was ein Scan dir zeigt
 
-Irgendwann in einer Woche voller langer Nächte mit diesen Tags habe ich eine Entscheidung getroffen: NFC.cool Tools deckt die NTAG 424 DNA Spezifikation zu 100 % ab, nicht nur den vorzeigbaren Ausschnitt, an dem jedes „Scannen und verifizieren“-Tutorial aufhört. Wenn das die beste NFC-App werden soll, die es gibt, dann darf „wir unterstützen NTAG 424 DNA“ nicht heimlich heißen: „wir unterstützen den einen Schlüssel und den einen Modus, die einfach waren“. Also habe ich mich durchs Datenblatt gearbeitet und den Rest gebaut.
+Halt einen Tag ans Handy, und NFC.cool Tools auf dem [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-de&mt=8) oder auf [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-de) liest ihn bis ins Detail aus, ohne dass du irgendetwas eingeben musst: die Identität des Chips und ob es die TagTamper-Variante ist, den Link, die Einstellungen und Zugriffsrechte jeder Datei, welche Schlüssel-Slots nicht mehr auf Werkseinstellung stehen, und die Ergebnisse von drei getrennten Prüfungen.
 
-Ein NTAG 424 DNA Chip hat nicht einen Schlüssel, er hat fünf. NFC.cool verwaltet jetzt alle fünf: Du kannst jeden Slot ändern, auf Werkseinstellung zurücksetzen oder einen Schlüssel eingeben, den du auf einem anderen Gerät festgelegt hast, damit auch dieses Handy den Tag bedienen kann. Und SUN muss nicht mit dem Hauptschlüssel signieren: Die Verschlüsselung des Scans kann auf dem einen Schlüssel liegen und die Signatur auf einem anderen, und du entscheidest, ob der Tag seine ID im Klartext mitschickt oder verschlüsselt lässt.
+### Ist das echtes NXP-Silizium?
 
-Jede Datei auf dem Chip hat ihre eigenen Zugriffsregeln, und die kannst du jetzt bearbeiten: wer eine Datei lesen darf, wer sie schreiben darf, wer ihre Einstellungen ändern darf, jeweils an einen bestimmten Schlüssel gebunden, für alle offen oder für immer gesperrt. Unter den Dateien liegt die Konfiguration des Chips selbst, und auch an die kommst du ran: eine zufällige ID einschalten, damit der Tag nicht mehr jedem Lesegerät in seiner Nähe dieselbe Seriennummer entgegenruft (ein echter Gewinn für die Privatsphäre), festlegen, wie viele fehlgeschlagene Entsperrversuche er zulässt, bevor er dichtmacht, und eine Handvoll tieferliegender Schalter, die die meisten nie anfassen werden.
+Jeder NTAG 424 DNA verlässt das Werk mit einer **Originalitätssignatur**: einer ECDSA-Signatur über die eigene, sieben Byte lange UID des Chips, erstellt mit dem privaten Schlüssel von NXP auf der Kurve P-224. NFC.cool liest sie aus und prüft sie gegen den veröffentlichten öffentlichen Schlüssel von NXP, direkt auf dem Handy und ohne dass du einen Schlüssel eingeben musst. Geht die Prüfung durch, zeigt die App „Echtes NXP“. Damit ist die erste Frage beantwortet: Ist das wirklich NXP-Silizium oder ein Nachbau, der nur auf denselben Namen hört?
 
-Der Chip hat sogar einen kleinen privaten Tresor: eine verschlüsselte Datei, an deinen Key 0 gebunden, die auf dem Tag selbst mitreist, statt auf einem Server zu liegen. Leg dort ein kleines Geheimnis ab, etwas, das beim Tag bleiben soll statt in irgendeiner Datenbank, und nur dein Schlüssel bekommt es wieder heraus. NFC.cool schreibt und liest diese Datei für dich.
+### Ist dieser Scan authentisch?
 
-Wer das schon einmal gemacht hat, saß dabei am Schreibtisch. NXP stellt dafür ein Windows-Programm namens TagXplorer bereit: USB-Lesegerät an den Rechner, und von dort klickst du dich durch die Konfiguration des Chips. NFC.cool kann all das auch, nur ohne dass man sich dabei durchbeißen muss. Wo TagXplorer eine Desktop-Oberfläche voller nacktem Hex-Code und kryptischer Felder ist, zeigt dir NFC.cool verständliche Bildschirme auf dem Handy, das ohnehin in deiner Tasche steckt, mit einer Passphrase statt eines rohen Schlüssels und einer Warnung vor allem, was endgültig ist. Das Ganze steuerst du, indem du dein Handy ein, zwei Sekunden an den Tag hältst.
+Das ist die SUN-Prüfung. Die App nimmt `picc_data` und `cmac` aus dem Link, den der Tag gerade ausgegeben hat, entschlüsselt die PICC-Daten, um an UID und Lesezähler zu kommen, rechnet den CMAC nach und vergleicht ihn mit dem, was der Tag geschickt hat. Stimmen beide überein, siehst du „Authentisch“, und der Zählerstand erscheint als Lesezähler.
+
+Diese Prüfung braucht den Schlüssel des Tags, denn genau darum geht es ja. Ein Tag, der noch auf seinen Werksschlüsseln steht, wird mit dem Null-Schlüssel geprüft. Einen Tag, den du mit einem eigenen Schlüssel gesperrt hast, prüft die App mit dem Schlüssel, den NFC.cool beim Festlegen gespeichert hat. Und ein Tag, den jemand anderes mit einem Schlüssel gesperrt hat, den du nicht besitzt, zeigt „Nicht verifiziert“, und das ist genau die richtige Antwort.
+
+### Ist das Siegel noch intakt?
+
+Eine Variante dieser Chips, der **NTAG 424 DNA TagTamper**, ist als Siegel gebaut, dem man jedes Öffnen ansieht. Es ist ein Sticker mit einer dünnen Leiterschleife darin. Du klebst ihn über das, was du schützen willst, über die Lasche eines Kartons oder um den Verschluss einer Flasche. Er übernimmt damit genau die Aufgabe, die heute die „Garantie erlischt bei Beschädigung“-Aufkleber erledigen. Öffnest du die Verpackung, reißt der Sticker und mit ihm die Schleife.
+
+Der Chip merkt sich zwei Dinge über diese Schleife: ein dauerhaftes Flag, das festhält, ob sie *jemals* unterbrochen wurde, und den aktuellen Zustand in diesem Moment. NFC.cool liest bei jedem Scan beides aus und meldet „Versiegelt“, „Geöffnet“ oder den Fall, auf den es am meisten ankommt, „Geöffnet, wieder verschlossen“: Jemand hat die Schleife unterbrochen und danach fein säuberlich wieder geschlossen. Das Flag kennt nur eine Richtung, eine wieder verschlossene Schachtel gilt also für den Rest des Chiplebens als geöffnet. Die Kryptografie beweist, dass der Chip echt ist. Das hier beweist, dass niemand in der Schachtel war.
 
 ---
 
-## Was der LRP-Modus des NTAG 424 DNA ist, und welche Änderungen sich nicht rückgängig machen lassen
+## Eigene Tags programmieren: die Kurzfassung
 
-Und dann ist da noch LRP. In meinen Notizen für die erste Version stand direkt neben „LRP-Modus“: „nicht geplant - exotisch, braucht keine Consumer-App“. LRP steht für Leakage-Resilient Primitive und ist der wirklich paranoide Modus des Tags. Normalerweise schützt der Chip seine Schlüssel mit gewöhnlichem AES, und wer einen Schlüssel stehlen will, müsste AES selbst knacken. Es gibt aber einen hinterhältigeren Weg: Chip auf den Labortisch, das feine Zittern in seiner Stromaufnahme und das elektromagnetische Rauschen mitschneiden, während er rechnet, und aus genug solcher Aufzeichnungen lässt sich der geheime Schlüssel allein aus diesem Leck rekonstruieren, ohne die Mathematik überhaupt anzurühren. LRP ist ein neu aufgebauter sicherer Kanal, der diesem Leck nichts liefern soll, an dem es sich festbeißen kann. Für einen Sticker auf einer Weinflasche ist das komplett übertrieben, weshalb die meisten Tags ihn nie einschalten und kaum ein Programm ihn beherrscht. Mich hat er trotzdem nicht losgelassen, und „die ganze Spezifikation abdecken“ hat keine Fußnote „außer dem schweren Teil“. Also habe ich ihn gebaut. NFC.cool spricht jetzt LRP. Das heißt: Selbst wenn ein Tag in diesen Modus umgeschaltet wurde, und das ist ein Schalter in eine Richtung, den du nicht mehr zurücklegen kannst, kann sich die App weiterhin bei ihm authentifizieren und ihn verwalten wie jeden anderen. Ich kenne keine andere Handy-App, die so weit geht.
+Lesen ist die eine Hälfte. Die andere: Die leeren Tags von AliExpress gehören dir, und du kannst sie selbst programmieren. Die Minimalvariante besteht aus drei Schritten.
 
-Die heiklen Stellen will ich nicht verschweigen, denn davon gibt es jetzt mehr. Viele dieser Befehle sind endgültig. LRP einschalten lässt sich nicht rückgängig machen. Eine zufällige ID einschalten auch nicht. Setzt du die „Ändern“-Berechtigung einer Datei auf Nie, ist diese Datei eingefroren, solange der Tag existiert. Ein falscher Schlüssel kann einen Slot für immer sperren. Die App macht darauf im entscheidenden Moment deutlich aufmerksam, die wirklich unumkehrbaren Aktionen musst du über eine Warnung bestätigen, die die Folge genau benennt. Trotzdem sage ich es auch hier: Üb an einem Ersatz-Tag, bevor du einen anfasst, an dem dir etwas liegt.
+1. **Link schreiben.** Ein ganz normaler NDEF-Schreibvorgang, wie bei jedem anderen Tag.
+2. **SUN einschalten.** Die App schreibt deinen Link mit Platzhaltern und sagt dem Chip, er soll bei jedem Lesen seine verschlüsselte UID, den Lesezähler und die Signatur in diese Platzhalter spiegeln. Ab jetzt erzeugt jeder Scan eine eigene, signierte URL.
+3. **Einen eigenen Key 0 setzen.** Damit ersetzt du die Nullen ab Werk durch einen Schlüssel, den nur du kennst, sodass niemand sonst den Tag umkonfigurieren kann.
+
+Für den letzten Schritt gibst du eine Passphrase ein, keinen Schlüssel. NFC.cool leitet den AES-Schlüssel daraus ab, indem es die ersten 16 Bytes des SHA-256-Hashs der Passphrase nimmt, auf iPhone und Android auf dieselbe Weise. Ein Tag, den du auf dem einen Gerät einrichtest, lässt sich auf dem anderen also mit derselben Passphrase öffnen. Wenn du lieber einen Schlüssel verwenden willst, der woanders erzeugt wurde, etwa von deinem eigenen Server, kannst du stattdessen die 32 Hex-Zeichen einfügen.
+
+Geht der Schlüssel verloren, lässt sich der Tag nie wieder umkonfigurieren, deshalb achtet die App genau darauf, wo er gespeichert wird. Auf dem iPhone liegt er im Schlüsselbund und wird über iCloud Keychain synchronisiert. Auf Android wird er mit einem hardwaregestützten Schlüssel verschlüsselt und zusätzlich im Block Store abgelegt, damit er eine Neuinstallation oder ein neues Handy übersteht. Der neue Schlüssel wird gespeichert, bevor die Änderung an den Tag geht, und bricht der Scan mittendrin ab, bleiben alter und neuer Wert beide erhalten, bis der Tag bestätigt, welchen von beiden er hat. Eine Passphrase, die du auf einem anderen Gerät festgelegt hast, kannst du ebenfalls eingeben; die App prüft sie erst am Tag und speichert sie dann.
+
+Eine Sache verweigert die App mit Absicht: einen einfachen Link über den normalen Schreibbildschirm auf einen Tag mit aktivem SUN zu schreiben. Die Spiegel-Offsets sind fest auf die URL eingestellt, mit der sie konfiguriert wurden, und bei einer URL anderer Länge würde der Chip bei jedem Scan mitten in deinen neuen Inhalt hineinspiegeln. Der NTAG-424-Bildschirm schaltet deshalb erst SUN aus und schreibt dann.
+
+---
+
+## Alles, was der Chip sonst noch kann
+
+Bei dieser Kurzfassung hören die meisten Tutorials auf, und wer bisher weiter wollte, brauchte NXPs TagXplorer auf dem Rechner mit einem USB-Lesegerät. Ich wollte das ganze Datenblatt vom Handy aus erreichbar haben, also habe ich es Abschnitt für Abschnitt durchgearbeitet.
+
+### Alle fünf Schlüssel
+
+Key 0 hat einen eigenen Bildschirm, Key 1 bis Key 4 findest du unter „Erweitert“. Jeden davon kannst du aus einer Passphrase oder als Hex setzen, auf die Werkseinstellung zurücksetzen oder eingeben, nachdem er auf einem anderen Gerät festgelegt wurde. Jede Änderung authentifiziert sich mit Key 0, der über alle fünf Slots bestimmt.
+
+### SUN mit den Schlüsseln deiner Wahl
+
+SUN einschalten heißt nicht einfach einen Schalter umlegen. Du wählst den **Modus**: verschlüsselt, dann reist die UID in `picc_data` mit, und nur wer den Schlüssel hat, kann sie lesen; oder Klartext, dann stehen UID und Zähler offen in der URL, und nur die Signatur bleibt geheim. Und du wählst, welche Schlüssel die Arbeit machen: einen **Meta-Read-Schlüssel**, der die PICC-Daten verschlüsselt, und einen **File-Read-Schlüssel**, der die Signatur berechnet. Das kann derselbe Slot sein oder zwei verschiedene. So könnte eine Marke einem Partner den Schlüssel geben, mit dem er Scans prüft, ohne ihm den Schlüssel zu geben, der die UIDs entschlüsselt.
+
+Wählst du einen Slot, der noch auf den Nullen ab Werk steht, warnt dich die App, denn eine Signatur mit einem bekannten Schlüssel schützt gar nichts. Und die Prüfung kommt mit jeder dieser Kombinationen zurecht: Ein Scan, der mit Key 3 signiert und mit Key 1 verschlüsselt wurde, wird korrekt verifiziert, solange diese Schlüssel auf dem Handy gespeichert sind.
+
+### Zugriffsrechte der Dateien
+
+Jede Datei hat vier Berechtigungen: Lesen, Schreiben, Lesen & Schreiben und Ändern, wobei die letzte regelt, wer die anderen drei bearbeiten darf. Jede Berechtigung zeigt auf einen der fünf Schlüssel, auf „Frei“ (jeder) oder auf „Nie“ (niemand, niemals). Du kannst also festlegen: „File 02 darf jeder lesen, schreiben darf nur Key 2, und nur Key 0 darf diese Regeln ändern“, und der Chip setzt das durch, ganz ohne App dazwischen.
+
+NFC.cool zeigt dir die aktuellen Rechte jeder Datei, und du kannst sie bearbeiten, mit zwei eingebauten Warnungen. Die App sagt dir, wenn eine Berechtigung auf einen Schlüssel zeigt, den dieses Handy nicht hat, denn womöglich sperrst du dich gerade selbst aus. Und sie verlangt eine eigene Bestätigung, bevor du „Ändern“ auf „Nie“ setzt, denn sobald das geschrieben ist, sind die Regeln dieser Datei für den Rest des Chiplebens eingefroren.
+
+### Chip-Konfiguration
+
+Unter den Dateien liegt die Konfiguration des Chips selbst, die NXP über einen einzigen Befehl namens SetConfiguration zugänglich macht. NFC.cool deckt diese Optionen ab:
+
+- **Zufällige UID.** Normalerweise meldet der Chip jedem Lesegerät dieselbe feste UID, womit jeder einen Tag über mehrere Scans hinweg verfolgen kann. Mit zufälliger UID antwortet er jedes Mal mit einer frischen Zufalls-ID und rückt die echte erst nach der Authentifizierung heraus. Ein echter Gewinn für die Privatsphäre, und endgültig. Die App erkennt Tags an ihrer UID, deshalb ermittelt sie die echte hinterher, indem sie jeden bekannten Key 0 über ein authentifiziertes GetCardUID durchprobiert. So bleibt der Tag auf dem Handy, das ihn eingerichtet hat, weiterhin verwaltbar.
+- **Limit für fehlgeschlagene Authentifizierungen.** Wie viele Versuche mit falschem Schlüssel der Chip duldet, bevor er Key 0 sperrt. Das schützt davor, dass jemand Schlüssel durchprobiert, aber stellst du es zu niedrig ein, kann eine Handvoll fehlgeschlagener Scans den Hauptschlüssel für immer sperren.
+- **Stärke der Rückmodulation.** Stark oder Standard. Standard kann an kleinen Antennen unlesbar sein, also lässt man es am besten auf der Voreinstellung.
+- **Verkettetes Schreiben.** Lässt sich abschalten, dann ist ein einzelner Schreibvorgang auf einen Frame begrenzt. Endgültig.
+- **Capability-Bytes.** Zwei freie Bytes, die NXP für eigene Zwecke freihält.
+- **LRP.** Der Schalter für die gesicherte Kommunikation, der weiter unten einen eigenen Abschnitt bekommt.
+
+### Der Tresor
+
+File 03 ist eine proprietäre Datei mit 128 Bytes, die der Chip verschlüsselt halten kann, und NFC.cool macht daraus einen kleinen privaten Speicher auf dem Tag selbst. Sobald du zum ersten Mal etwas speicherst, schaltet die App die Datei in den vollständig verschlüsselten Modus und bindet jedes Zugriffsrecht an Key 0. Ab dann fasst der Tresor bis zu 126 Bytes Text, die nur dein Schlüssel wieder herausbekommt; wer den Tag mit einem anderen Handy ausliest, sieht einen Berechtigungsfehler und sonst nichts.
+
+Gedacht ist das für ein Geheimnis, das beim Gegenstand bleiben soll statt in irgendeiner Datenbank: eine Seriennummer, eine Notiz an dein zukünftiges Ich, ein Token, das dein eigener Server erwartet. Setzt du Key 0 auf Werkseinstellung zurück, ist der Inhalt weg; anders verschwindet der Tresor nie.
+
+---
+
+## Der LRP-Modus
+
+Normalerweise schützt der Chip seine Schlüssel mit gewöhnlichem AES, und wer einen Schlüssel stehlen will, müsste AES selbst knacken. Es gibt aber einen hinterhältigeren Weg: Chip auf den Labortisch, das feine Zittern in seiner Stromaufnahme und seiner elektromagnetischen Abstrahlung mitschneiden, während er rechnet, und aus genug solcher Aufzeichnungen lässt sich der Schlüssel allein aus diesem Leck rekonstruieren, ohne die Mathematik überhaupt anzurühren. **LRP**, das Leakage-Resilient Primitive, ist ein neu aufgebauter sicherer Kanal, der diesem Leck nichts liefern soll, woran es sich festhalten kann. NXP beschreibt ihn in AN12304. Für einen Sticker auf einer Weinflasche ist das komplett übertrieben, weshalb die meisten Tags ihn nie einschalten und kaum ein Programm ihn beherrscht.
+
+In meinen Notizen für die erste Version stand direkt neben „LRP-Modus“: „nicht geplant“. Die Sache hat mich trotzdem nicht losgelassen, also habe ich den Modus doch gebaut. NFC.cool kann einen Tag in den LRP-Modus schalten und, was wichtiger ist, sich danach weiterhin bei ihm authentifizieren und ihn verwalten: Schlüssel, Dateirechte, Tresor, Chip-Konfiguration, alles über den LRP-Kanal statt über AES.
+
+Zwei Dinge solltest du wissen, bevor du diesen Schalter umlegst. Er ist endgültig: Steht ein Tag einmal im LRP-Modus, ist seine gesicherte AES-Kommunikation für immer abgeschaltet, und jedes Programm, das nur AES spricht, kommt nie wieder an ihn heran. Und SUN gibt es auf einem LRP-Tag nicht. Ein Tag, dessen Aufgabe es ist, Scans zu signieren, sollte also im AES-Modus bleiben.
+
+---
+
+## Was sich nicht rückgängig machen lässt
+
+Viele dieser Befehle sind endgültig, und die App macht im entscheidenden Moment deutlich darauf aufmerksam: Jede unumkehrbare Aktion musst du über eine Warnung bestätigen, die die Folge genau benennt. Trotzdem lohnt es sich, sie auch hier aufzulisten.
+
+- LRP einschalten.
+- Die zufällige UID einschalten.
+- Verkettetes Schreiben abschalten.
+- Die „Ändern“-Berechtigung einer Datei auf „Nie“ setzen.
+- Einen Schlüssel verlieren. Der Chip hat keinen Werksreset. Ist Key 0 weg, kannst du den Tag nie wieder umkonfigurieren.
+- Ein zu niedrig eingestelltes Limit für fehlgeschlagene Authentifizierungen, das Key 0 schon nach ein paar falschen Scans sperren kann.
+
+Üb an einem Ersatz-Tag, bevor du einen anfasst, an dem dir etwas liegt.
 
 ---
 
@@ -107,7 +181,7 @@ Die heiklen Stellen will ich nicht verschweigen, denn davon gibt es jetzt mehr. 
 
 Ganz ehrlich? Die meisten, die einen NFC-Tag scannen, werden nichts davon je brauchen, und das ist völlig in Ordnung. Ein Sticker, der einen Link öffnet, ist eine wunderbar langweilige, nützliche Sache.
 
-Aber wer so einen Tag einmal in der Hand hatte, sieht die Anwendungen sofort. Eine Luxustasche kann beweisen, dass sie echt ist. Eine Flasche Wein oder Whisky kann zeigen, dass sie nie heimlich geöffnet und mit etwas Billigerem aufgefüllt wurde; diesen Teil übernimmt das Manipulationssiegel. Eine Medikamentenpackung bürgt für das echte Präparat darin und zugleich für ein Siegel, das niemand gebrochen hat. Ein Produkt in limitierter Auflage oder ein Kunstwerk bekommt ein Zertifikat, das niemand fälschen kann, und Eventtickets sind nichts mehr, das man per Screenshot weiterreicht. Häng einen Tag an eine Tür oder ins Regal, und ein Scan beweist, dass jemand wirklich dort stand, statt vom Sofa aus einen gespeicherten Link noch einmal abzuschicken. Sneaker und Sammelkarten belegen, dass sie aus dem echten Drop stammen und keine gute Fälschung sind. Und jeder kleine Hersteller kann seinem Produkt den Nachweis mitgeben, dass es wirklich *seins* ist. Es ist dasselbe Echtheitsproblem, das der [digitale EU-Produktpass](/blog/eu-digital-product-passport-2026/) von der Regulierungsseite her angeht, nur gelöst auf der Ebene des einzelnen Gegenstands.
+Aber wer so einen Tag einmal in der Hand hatte, sieht die Anwendungen sofort. Eine Luxustasche kann beweisen, dass sie echt ist. Eine Flasche Wein oder Whisky kann zeigen, dass sie nie heimlich geöffnet und wieder aufgefüllt wurde; diesen Teil übernimmt das Manipulationssiegel. Eine Medikamentenpackung bürgt für das echte Präparat darin und zugleich für ein Siegel, das niemand gebrochen hat. Eventtickets sind nichts mehr, das man per Screenshot weiterreicht, und ein Tag an einer Tür beweist, dass jemand wirklich dort stand, statt vom Sofa aus einen gespeicherten Link noch einmal abzuschicken. Es ist dasselbe Echtheitsproblem, das der [digitale EU-Produktpass](/blog/eu-digital-product-passport-2026/) von der Regulierungsseite her angeht, nur gelöst auf der Ebene des einzelnen Gegenstands.
 
 Ich habe das nicht gebaut, weil tausend Nutzer danach gefragt hätten. Ich habe es gebaut, weil ich aus Neugier ein paar merkwürdige Tags im Internet bestellt und herausgefunden habe, wie sie funktionieren, und danach keine Seite des Datenblatts mehr liegen lassen konnte. So fangen die guten Funktionen meistens an.
 
@@ -117,4 +191,4 @@ Ich habe das nicht gebaut, weil tausend Nutzer danach gefragt hätten. Ich habe 
 
 NTAG 424 DNA Tags sind das, was bei NFC einem manipulationssicheren Siegel am nächsten kommt. Sie halten niemanden davon ab, ein Produkt zu kopieren, aber sie machen den *Echtheitsbeweis* fälschungssicher, denn dieser Beweis ist eine frische kryptografische Signatur, die nur der echte Chip erzeugen kann.
 
-NFC.cool Tools liest sie jetzt, prüft Chip, Scan und Manipulationssiegel kostenlos und legt dir den ganzen Chip zum Konfigurieren in die Hand: jeden Schlüssel, die Rechte jeder Datei, die tiefsten Einstellungen, sogar LRP. Deine eigenen Tags richtest du damit direkt vom Handy aus ein. Wenn du dich je gefragt hast, wie ein Scan echt von gefälscht unterscheiden kann, hol dir die App für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-de), bestell dir ein paar [dieser Tags](/affiliate-links/) für ein paar Euro und scanne selbst einen. In dem Thema kann man sich herrlich verlieren.
+NFC.cool Tools liest sie, prüft Chip, Scan und Manipulationssiegel und legt dir den ganzen Chip zum Konfigurieren in die Hand: jeden Schlüssel, die Rechte jeder Datei, die Einstellungen des Chips selbst, sogar LRP, alles direkt vom Handy aus. Wenn du dich je gefragt hast, wie ein Scan echt von gefälscht unterscheiden kann, hol dir die App für [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-de&mt=8) oder [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-de), bestell dir ein paar [dieser Tags](/affiliate-links/) für ein paar Euro und scanne selbst einen. In dem Thema kann man sich herrlich verlieren.

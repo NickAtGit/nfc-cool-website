@@ -47,7 +47,7 @@ Saya membayangkan tag NFC biasa sebagai papan tanda tercetak di etalase toko. Si
 
 ## Mengapa tag NTAG 424 DNA tiruan tertangkap
 
-Inilah bagian yang menjawab pertanyaan awal saya. Seorang pemalsu benar-benar bisa mengklon *isi* sebuah tag. Mereka bisa membaca URL-nya, menyalinnya byte demi byte, dan memprogramnya ke chip kosong. Itu selalu benar.
+Inilah bagian yang menjawab pertanyaan awal saya. Seorang pemalsu benar-benar bisa mengklon *isi* sebuah tag. Mereka bisa membaca URL-nya, menyalinnya byte demi byte, dan memprogramnya ke chip kosong. Itu memang sejak dulu bisa dilakukan.
 
 Yang tidak bisa mereka lakukan adalah menghasilkan tanda tangan valid berikutnya. Kunci penandatangan berada di dalam chip asli dan tidak pernah keluar, bahkan saat ketukan berlangsung. Artinya sebuah ketukan hanya bernilai bagi sesuatu yang benar-benar memegang kuncinya. Dalam pengaturan perlindungan merek yang sesungguhnya, tautan tag mengarah ke server yang dijalankan pembuatnya, dan server itulah yang mendekripsi setiap ketukan, menghitung ulang tanda tangan untuk memastikan kuncinya cocok, dan melacak penghitung saat angkanya terus naik.
 
@@ -57,57 +57,131 @@ Itulah versi jujur dari kalimat pemasaran tersebut. Chip tidak membuat *produk* 
 
 ---
 
-## Bagaimana NFC.cool memverifikasi bahwa sebuah tag asli
+## Apa saja yang ada di dalam chip
 
-Begitu saya memahami tag-tag ini, saya ingin aplikasi melakukan semuanya dengan benar, bukan sekadar menampilkan hex dump. Jadi NFC.cool Tools kini menangani NTAG 424 DNA secara penuh di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-id&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-id), dan ia memeriksa keaslian dengan dua cara independen, ditambah cara ketiga yang bersifat fisik pada tag yang dibuat untuk itu.
+Semua yang dilakukan NFC.cool dengan tag-tag ini akan jauh lebih masuk akal begitu Anda punya gambaran tata letak chipnya di kepala, jadi inilah peta yang harus saya susun lebih dulu sebelum bisa menulis satu baris kode pun.
 
-**Asal-usul chip.** Setiap chip NXP asli membawa tanda tangan pabrik atas ID-nya sendiri, ditandatangani dengan kunci privat NXP. NFC.cool membaca tanda tangan itu dan memverifikasinya terhadap kunci publik NXP, langsung di ponsel. Jika lolos, Anda mendapatkan hasil sederhana "NXP Asli". Yang ini tidak butuh pengaturan apa pun dan tidak butuh kunci dari Anda. Ia menjawab "apakah ini silikon NXP asli, atau tiruan tanpa nama?".
+NTAG 424 DNA adalah tag NFC Forum Type 4 dengan memori 416 byte, yang tersusun sebagai satu aplikasi berisi tiga file tetap. Anda tidak bisa membuat atau menghapus file seperti pada MIFARE DESFire. Hanya tiga file inilah yang Anda dapatkan:
 
-**Ketukan itu sendiri.** Ini adalah pemeriksaan SUN. NFC.cool mendekripsi `picc_data`, menarik keluar ID tag dan penghitung ketukan, menghitung ulang tanda tangannya, dan membandingkannya dengan `cmac` yang dikirim tag. Jika cocok, ketukan tersebut asli dan baru, dan Anda melihat "Autentik". Yang ini membuktikan lebih banyak, jadi ia meminta lebih banyak: ia butuh kunci tag. Tag yang masih baru dengan setelan pabrik terverifikasi tanpa masukan sama sekali. Tag yang dikunci seseorang dengan kuncinya sendiri hanya terverifikasi sebagai autentik jika Anda memiliki kunci itu tersimpan.
+| File | Ukuran | Isinya |
+| --- | --- | --- |
+| File 01 | 32 byte | Capability container yang memberi tahu ponsel di mana data NDEF berada |
+| File 02 | 256 byte | Pesan NDEF, biasanya tautan Anda. SUN mencerminkan nilai-nilai terbarunya ke file ini pada setiap pembacaan |
+| File 03 | 128 byte | File proprietary yang bisa dijaga chip tetap terenkripsi. NFC.cool memakainya sebagai brankas, lebih lanjut di bawah |
 
-**Segel fisik, pada tag yang dibuat untuk itu.** Salah satu versi dari tag ini, NTAG 424 DNA TagTamper, dibuat untuk menjadi segel yang menunjukkan bukti perusakan. Ia adalah stiker dengan kawat tipis tambahan yang membentang di dalamnya, dan Anda menempelkannya melintasi apa pun yang ingin Anda lindungi, di atas penutup kotak atau di sekeliling tutup botol, tugas yang sama seperti yang dilakukan stiker "garansi hangus jika rusak" saat ini. Buka barangnya dan Anda merobek stikernya, yang memutuskan kawat itu. NFC.cool memeriksa kawat itu saat ketukan dan memberi tahu Anda dengan jelas apakah segelnya masih utuh atau sudah rusak. Yang menariknya, ini bersifat satu arah: putuskan sekali dan chip mengingatnya selamanya, sehingga sesuatu yang telah dibuka lalu disegel ulang dengan hati-hati tetap terbaca sebagai telah dibuka. Kripto membuktikan chip tersebut asli; ini membuktikan tidak ada yang pernah masuk ke dalam kotaknya.
+Di samping file-file itu ada lima kunci AES-128, bernomor Key 0 sampai Key 4. **Key 0** adalah kunci utama aplikasi: dengan kunci inilah Anda mengautentikasi diri untuk mengubah tautan, menyalakan SUN, mengganti kunci lain mana pun, atau menyentuh konfigurasi chip. Key 1 sampai Key 4 tidak berbuat apa-apa dengan sendirinya. Kunci-kunci itu baru berarti begitu hak akses sebuah file atau pengaturan SUN mengarah kepadanya. Pada tag yang masih baru, kelima kunci berisi enam belas byte nol dan file NDEF-nya bisa ditulis siapa saja, itulah sebabnya tag baru menerima tautan biasa tanpa basa-basi apa pun.
 
-Semua ini gratis untuk semua orang. Membaca sebuah tag - tautannya, penghitung ketukannya, tata letak filenya, apakah segelnya masih utuh - dan menjalankan kedua pemeriksaan kriptografis tidak dikenai biaya sama sekali. Saya ingin pertanyaan "apakah benda ini asli?" bisa dijawab oleh siapa saja yang mengetuknya.
-
----
-
-## Memprogram tag aman Anda sendiri
-
-Membaca hanyalah separuhnya. Separuh lainnya adalah bahwa tag kosong dari AliExpress itu bebas Anda program, dan NFC.cool melakukannya melalui saluran yang terautentikasi dan terenkripsi dengan benar, secure messaging yang sama yang diharuskan chip, bukan sekadar menuliskan data mentah begitu saja sambil berharap berhasil.
-
-Versi mudahnya ada tiga langkah. Tulis tautan Anda sendiri, yang gratis. Nyalakan SUN sehingga tag mulai menandatangani setiap ketukan. Dan ganti kunci pabrik dengan kunci Anda sendiri, yang diatur sebagai passphrase sehingga tidak ada string hex 32 karakter yang harus diurus, tersimpan di keychain Anda. Mulai saat itu tag terkunci untuk Anda: ia terus membuktikan dirinya asli kepada siapa saja yang mengetuknya, tetapi hanya Anda yang bisa memprogramnya ulang.
-
-Di situlah saya bisa saja berhenti. Segelintir aplikasi yang bahkan mau menyentuh tag semacam ini pun berhenti di situ. Saya tidak.
+Setiap perintah yang mengubah sesuatu berjalan di dalam sesi terautentikasi: ponsel dan chip saling membuktikan diri lewat challenge-response dengan salah satu kunci itu, menurunkan kunci sesi darinya, dan sejak saat itu setiap perintah membawa MAC atau dienkripsi seluruhnya. Itulah yang disebut secure messaging, istilah yang akan terus muncul di sisa tulisan ini. NFC.cool mengimplementasikannya secara penuh, di iPhone maupun Android, dan setiap penulisan yang dijelaskan di bawah melewatinya.
 
 ---
 
-## Konfigurasikan seluruh chip NTAG 424 DNA dari iPhone atau Android Anda
+## Apa yang terungkap dari satu ketukan
 
-Di suatu titik dalam seminggu penuh begadang dengan tag-tag ini, saya membuat sebuah keputusan: NFC.cool Tools akan mencakup 100% spesifikasi NTAG 424 DNA, bukan potongan kecil yang enak untuk demo, yang menjadi tempat berhenti setiap tutorial "ketuk untuk verifikasi". Jika saya ingin ini menjadi aplikasi NFC terbaik yang ada, maka "kami mendukung NTAG 424 DNA" tidak boleh diam-diam berarti "kami mendukung satu kunci dan satu mode yang mudah saja". Jadi saya menyusuri datasheet dan membangun sisanya.
+Tempelkan sebuah tag ke ponsel Anda, dan NFC.cool Tools di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-id&mt=8) atau [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-id) langsung melakukan pembacaan mendalam tanpa meminta apa pun dari Anda: identitas chip dan apakah ia varian TagTamper, tautannya, pengaturan serta hak akses setiap file, slot kunci mana saja yang sudah diubah dari setelan pabrik, dan hasil dari tiga pemeriksaan terpisah.
 
-Chip NTAG 424 DNA tidak memiliki satu kunci. Ia memiliki lima. NFC.cool kini mengelola semuanya - mengubah slot mana pun, meresetnya kembali ke setelan pabrik, atau memasukkan kunci yang Anda atur di perangkat lain sehingga ponsel ini juga bisa menjalankan tag. SUN pun tidak harus menandatangani dengan kunci utama itu: Anda bisa mengarahkan enkripsi ketukan ke satu kunci dan tanda tangannya ke kunci lain, serta memutuskan apakah tag mencerminkan ID-nya secara terbuka atau menjaganya tetap terenkripsi.
+### Apakah ini silikon NXP asli?
 
-Setiap file pada chip membawa aturan aksesnya sendiri, dan kini Anda bisa mengeditnya - siapa yang boleh membaca sebuah file, siapa yang boleh menulisnya, siapa yang boleh mengubah pengaturannya - masing-masing diatur ke kunci tertentu, atau dibuka lebar, atau ditutup selamanya. Di bawah file-file itu terletak konfigurasi chip itu sendiri, dan itu juga ada di sini: nyalakan ID acak sehingga tag berhenti menyiarkan nomor seri yang sama ke setiap pembaca yang dilewatinya (keuntungan nyata untuk privasi), batasi berapa kali upaya buka kunci boleh gagal sebelum ia mengunci dirinya sendiri, dan segelintir sakelar tingkat lebih rendah yang tidak akan pernah perlu disentuh kebanyakan orang.
+Setiap NTAG 424 DNA meninggalkan pabrik dengan sebuah **tanda tangan orisinalitas**: tanda tangan ECDSA atas UID tujuh byte milik chip itu sendiri, dibuat dengan kunci privat NXP pada kurva P-224. NFC.cool membacanya dan memverifikasinya terhadap kunci publik yang dipublikasikan NXP, langsung di ponsel, tanpa kunci apa pun dari Anda. Jika lolos, aplikasi menampilkan "NXP Asli". Itu menjawab pertanyaan pertama: apakah ini silikon NXP sungguhan, atau chip tiruan yang sekadar mengaku bernama sama?
 
-Chip bahkan menyimpan sebuah brankas pribadi kecil. Ada sebuah file terenkripsi di dalamnya, terkunci pada Key 0 Anda, yang ikut menumpang pada tag itu sendiri alih-alih berada di sebuah server. Simpan sebuah rahasia kecil di dalamnya, sesuatu yang ingin Anda bawa bersama tag alih-alih tersimpan di database seseorang, dan hanya kunci Anda yang bisa membacanya kembali. NFC.cool menuliskannya dan membacakannya untuk Anda.
+### Apakah ketukan ini asli?
 
-Jika Anda pernah melakukan ini sebelumnya, Anda melakukannya di meja kerja. NXP menyediakan sebuah alat Windows bernama TagXplorer, Anda mencolokkan pembaca USB ke komputer, dan Anda mengeklik menyusuri konfigurasi chip dari sana. NFC.cool melakukan semua hal yang sama, tetapi ia dibangun untuk digunakan, bukan untuk diderita. Di mana TagXplorer adalah aplikasi desktop yang penuh dengan hex mentah dan bidang-bidang yang membingungkan, NFC.cool adalah layar berbahasa lugas di ponsel yang sudah ada di saku Anda, dengan passphrase menggantikan kunci mentah dan sebuah peringatan sebelum apa pun yang bersifat permanen. Anda mengendalikan semuanya dengan menempelkan ponsel Anda ke tag selama satu-dua detik.
+Inilah pemeriksaan SUN. Aplikasi mengambil `picc_data` dan `cmac` dari tautan yang baru saja disajikan tag, mendekripsi data PICC untuk mendapatkan UID dan penghitung pembacaannya, menghitung ulang CMAC-nya, lalu membandingkannya dengan yang dikirim tag. Jika keduanya cocok, Anda melihat "Asli" dan angka penghitungnya muncul sebagai Penghitung Pembacaan.
+
+Pemeriksaan ini membutuhkan kunci tag, karena memang itulah intinya. Tag yang masih memakai kunci pabrik terverifikasi dengan kunci serba nol. Tag yang sudah Anda kunci dengan kunci sendiri terverifikasi dengan kunci yang disimpan NFC.cool saat Anda mengaturnya. Tag yang dikunci orang lain dengan kunci yang tidak Anda miliki menampilkan "Tidak terverifikasi", dan itu memang jawaban yang benar.
+
+### Apakah segelnya pernah dibuka?
+
+Salah satu versi chip ini, **NTAG 424 DNA TagTamper**, dibuat untuk menjadi segel yang memperlihatkan jejak pembukaan. Wujudnya stiker dengan jalur konduktif tipis yang membentang di dalamnya. Anda menempelkannya melintasi apa pun yang ingin dilindungi, di atas penutup kotak atau mengelilingi tutup botol, tugas yang sama seperti stiker "garansi hangus jika rusak" yang ada sekarang. Buka barangnya, stikernya robek, dan jalur tadi pun terputus.
+
+Chip melacak dua hal tentang jalur itu: sebuah penanda permanen yang mencatat apakah segel itu *pernah* dibuka, dan kondisi sesungguhnya saat ini. NFC.cool membaca keduanya pada setiap ketukan dan melaporkan "Tersegel", "Telah Dibuka", atau yang paling penting, "Sudah dibuka, lalu ditutup kembali": seseorang memutus jalur itu lalu menutupnya kembali dengan hati-hati. Penandanya hanya berjalan satu arah, jadi kotak yang disegel ulang akan tetap terbaca sebagai telah dibuka sepanjang umur chip. Kriptonya membuktikan chipnya asli. Yang ini membuktikan tidak ada yang pernah membuka kotaknya.
 
 ---
 
-## Apa itu mode LRP NTAG 424 DNA, dan perubahan yang tidak bisa Anda batalkan
+## Memprogram tag sendiri: versi singkatnya
 
-Lalu ada LRP. Dalam catatan desain saya untuk versi pertama, tepat di samping "mode LRP", saya menuliskan "tidak direncanakan - eksotis, tidak dibutuhkan aplikasi konsumen". LRP adalah singkatan dari Leakage-Resilient Primitive, dan ia adalah mode paling paranoid dari tag ini. Normalnya chip menjaga kunci-kuncinya dengan AES biasa, dan mencuri sebuah kunci berarti membobol AES itu sendiri. Tetapi ada jalur serangan yang lebih licik: taruh sebuah chip di meja kerja, amati goyangan samar pada tarikan dayanya dan dengungan elektromagnetiknya saat ia menjalankan kripto, dan dengan cukup banyak jejak seperti itu Anda bisa merekonstruksi kunci rahasia dari kebocoran itu saja, tanpa pernah menyentuh matematikanya. LRP adalah saluran aman yang dibangun ulang, dirancang agar kebocoran itu tidak menyisakan apa pun yang bisa dimanfaatkan. Ini benar-benar berlebihan untuk sebuah stiker pada botol anggur, itulah mengapa kebanyakan tag tidak pernah menyalakannya dan kebanyakan alat tidak pernah belajar berbicara dengannya. Namun ia terus mengganggu saya, dan "cakup seluruh spesifikasi" tidak disertai catatan kaki yang berbunyi "kecuali bagian yang sulit", jadi saya membangunnya. NFC.cool kini berbicara LRP, yang artinya bahkan setelah sebuah tag dialihkan ke mode itu, sebuah sakelar satu arah yang tidak bisa Anda tarik kembali, aplikasi masih bisa terautentikasi kepadanya dan mengelolanya seperti tag lainnya. Saya tidak tahu ada aplikasi ponsel lain yang sampai ke sana.
+Membaca baru separuhnya. Separuh lainnya: tag kosong dari AliExpress itu bebas Anda program, dan penyiapan minimalnya hanya tiga langkah.
 
-Saya akan berterus terang soal sisi-sisi berbahayanya, karena kini jumlahnya makin banyak. Banyak dari perintah ini bersifat permanen. Mengaktifkan LRP tidak bisa dibatalkan. Menyalakan ID acak tidak bisa dibatalkan. Atur izin "ubah" sebuah file ke "Tidak Pernah" dan Anda telah membekukan file itu selama masa pakai tag. Kunci yang salah bisa mengunci sebuah slot untuk selamanya. Aplikasi memperingatkan hal ini dengan tegas saat itu juga: tindakan yang benar-benar tidak bisa dibalik mengharuskan Anda mengonfirmasi melalui peringatan yang menjabarkan konsekuensinya secara persis. Namun hal ini layak disampaikan di sini juga: berlatihlah pada tag cadangan sebelum Anda menyentuh tag yang Anda pedulikan.
+1. **Tulis tautan Anda.** Penulisan NDEF biasa, sama seperti pada tag lain mana pun.
+2. **Nyalakan SUN.** Aplikasi menulis tautan Anda dengan placeholder dan menyuruh chip mencerminkan UID terenkripsi, penghitung ketukan, dan tanda tangannya ke placeholder itu pada setiap pembacaan. Sejak saat itu setiap ketukan menghasilkan URL unik yang bertanda tangan.
+3. **Atur Key 0 milik Anda sendiri.** Ini menggantikan nol-nol bawaan pabrik dengan kunci yang hanya Anda ketahui, sehingga tidak ada orang lain yang bisa mengonfigurasi ulang tag itu.
+
+Untuk langkah terakhir itu Anda mengetik passphrase, bukan kunci. NFC.cool menurunkan kunci AES darinya dengan mengambil 16 byte pertama dari hash SHA-256 passphrase tersebut, dengan cara yang sama di iPhone dan Android, sehingga tag yang Anda siapkan di satu platform bisa dibuka dengan passphrase yang sama di platform satunya. Jika Anda lebih suka memakai kunci yang dibuat di tempat lain, misalnya oleh server Anda sendiri, Anda bisa langsung menempelkan 32 karakter hex-nya.
+
+Kunci yang hilang berarti tag yang tidak akan pernah bisa dikonfigurasi ulang lagi, jadi aplikasi sangat berhati-hati dalam menyimpannya. Di iPhone kunci masuk ke Keychain dan tersinkron lewat iCloud Keychain. Di Android kunci dienkripsi dengan kunci yang dilindungi perangkat keras dan dicerminkan ke Block Store, sehingga tetap bertahan setelah pemasangan ulang atau pindah ke ponsel baru. Kunci baru disimpan lebih dulu sebelum perubahannya dikirim, dan jika ketukan terputus di tengah proses, nilai lama dan nilai baru sama-sama tetap tersedia sampai tag mengonfirmasi mana yang dipegangnya. Passphrase yang Anda atur di perangkat lain juga bisa dimasukkan, dan aplikasi memeriksanya terhadap tag sebelum menyimpannya.
+
+Satu hal yang sengaja ditolak aplikasi: menulis tautan biasa ke tag yang SUN-nya aktif melalui layar tulis biasa. Posisi pencerminannya (offset) sudah terpatok pada URL yang dipakai saat dikonfigurasi, dan URL dengan panjang berbeda akan membuat chip mencerminkan nilai-nilainya ke tengah-tengah konten baru Anda pada setiap ketukan. Layar NTAG 424 mematikan SUN lebih dulu, baru menulis.
+
+---
+
+## Bagian chip yang lain
+
+Kebanyakan tutorial berhenti di versi singkat itu, dan sampai sekarang satu-satunya jalan untuk melangkah lebih jauh adalah TagXplorer dari NXP di desktop dengan pembaca USB. Saya ingin seluruh datasheet bisa dijangkau dari ponsel, jadi saya menyusurinya bagian demi bagian.
+
+### Kelima kunci
+
+Key 0 punya layarnya sendiri, dan Key 1 sampai Key 4 berada di bawah Lanjutan. Masing-masing bisa diatur dari passphrase atau hex, direset ke bawaan pabrik, atau dimasukkan setelah diatur di perangkat lain. Setiap perubahan diautentikasi dengan Key 0, satu-satunya yang berwenang mengubah kelima slot.
+
+### SUN dengan kunci pilihan Anda
+
+Menyalakan SUN bukan sekadar membalik satu sakelar. Anda memilih **mode**-nya: terenkripsi, yang menyembunyikan UID di dalam `picc_data` sehingga hanya pemegang kunci yang bisa membacanya, atau teks biasa, yang menampilkan UID dan penghitung secara terbuka di URL dan hanya merahasiakan tanda tangannya. Dan Anda memilih kunci mana yang dipakai: sebuah **kunci meta-read** yang mengenkripsi data PICC dan sebuah **kunci file-read** yang menghitung tanda tangannya. Keduanya bisa memakai slot yang sama atau dua slot yang berbeda, dan begitulah sebuah merek bisa menyerahkan kunci untuk memverifikasi ketukan kepada mitranya tanpa ikut menyerahkan kunci yang mendekripsi UID.
+
+Aplikasi memperingatkan Anda jika memilih slot yang masih berisi nol bawaan pabrik, karena tanda tangan yang dibuat dengan kunci yang sudah diketahui semua orang tidak melindungi apa pun. Dan sisi verifikasinya mengerti semua kombinasi itu: ketukan yang ditandatangani dengan Key 3 dan dienkripsi dengan Key 1 tetap terverifikasi dengan benar selama kedua kunci itu tersimpan di ponsel.
+
+### Hak akses file
+
+Setiap file membawa empat izin: Baca, Tulis, Baca & Tulis, dan Ubah, dan yang terakhir menentukan siapa yang boleh mengedit tiga izin lainnya. Setiap izin mengarah ke salah satu dari lima kunci, ke Bebas (siapa saja), atau ke Tidak pernah (tidak seorang pun, selamanya). Jadi Anda bisa menetapkan "siapa saja boleh membaca File 02, hanya Key 2 yang boleh menulisnya, dan hanya Key 0 yang boleh mengubah aturan ini", dan chip menegakkannya sendiri tanpa perlu aplikasi apa pun di tengahnya.
+
+NFC.cool menampilkan hak akses setiap file saat ini dan membiarkan Anda mengeditnya, dengan dua peringatan bawaan. Ia memberi tahu ketika sebuah izin mengarah ke kunci yang tidak dipegang ponsel ini, karena bisa jadi Anda justru sedang menutup akses Anda sendiri. Dan ia mewajibkan konfirmasi lewat langkah terpisah sebelum mengatur Ubah ke Tidak pernah, karena begitu tertulis, aturan file tersebut membeku sepanjang umur chip.
+
+### Konfigurasi chip
+
+Di bawah file-file itu ada konfigurasi chip itu sendiri, yang dibuka NXP lewat satu perintah SetConfiguration. NFC.cool mencakup opsi-opsi berikut:
+
+- **UID Acak.** Normalnya chip melaporkan UID tetap yang sama ke setiap pembaca, sehingga siapa pun bisa melacak sebuah tag dari ketukan ke ketukan. Dengan UID Acak aktif, chip menjawab dengan ID acak yang baru setiap kali dan baru mengungkap UID aslinya setelah Anda terautentikasi. Keuntungan privasi yang nyata, dan permanen. Aplikasi mengenali tag lewat UID-nya, jadi setelah itu ia memulihkan UID asli dengan mencoba setiap Key 0 yang diketahuinya melalui GetCardUID terautentikasi, dan tag tetap bisa dikelola di ponsel yang menyiapkannya.
+- **Batas kegagalan autentikasi.** Berapa kali percobaan dengan kunci salah yang ditoleransi chip sebelum ia mengunci Key 0. Ini perlindungan dari upaya menebak kunci, tetapi atur terlalu rendah dan beberapa ketukan yang gagal saja sudah bisa mengunci kunci utama untuk selamanya.
+- **Kekuatan modulasi balik.** Kuat atau standar. Standar bisa tidak terbaca pada antena kecil, jadi paling aman biarkan saja pada setelan bawaannya.
+- **Penulisan berantai.** Bisa dinonaktifkan sehingga satu kali penulisan dibatasi hanya satu frame. Permanen.
+- **Byte kapabilitas.** Dua byte bebas yang disisakan NXP untuk keperluan Anda sendiri.
+- **LRP.** Sakelar secure messaging, yang mendapat bagiannya sendiri di bawah.
+
+### Brankas
+
+File 03 adalah file proprietary 128 byte yang bisa dijaga chip tetap terenkripsi, dan NFC.cool mengubahnya menjadi tempat penyimpanan pribadi kecil di tag itu sendiri. Saat pertama kali Anda menyimpan sesuatu, aplikasi mengalihkan file itu ke mode terenkripsi penuh dan mengunci semua hak aksesnya ke Key 0. Setelah itu, brankas menampung hingga 126 byte teks yang hanya bisa dibaca kembali dengan kunci Anda, dan pembacaan mendalam dari ponsel lain mana pun hanya akan mendapat pesan kesalahan izin, tidak lebih.
+
+Ini untuk rahasia yang seharusnya ikut bersama bendanya, bukan mengendap di database seseorang: nomor seri, catatan untuk diri Anda di masa depan, token yang diharapkan server Anda sendiri. Mereset Key 0 ke bawaan pabrik menghapusnya, dan hanya dengan cara itulah brankas ini lenyap.
+
+---
+
+## Mode LRP
+
+Normalnya chip melindungi kunci-kuncinya dengan AES biasa, dan mencuri sebuah kunci berarti membobol AES itu sendiri. Tetapi ada jalur serangan yang lebih licik. Taruh chip di meja kerja, ukur variasi samar pada tarikan daya dan pancaran elektromagnetiknya saat ia menjalankan cipher, dan dengan cukup banyak jejak seperti itu Anda bisa merekonstruksi kuncinya dari kebocoran itu saja, tanpa pernah menyentuh matematikanya. **LRP**, Leakage-Resilient Primitive, adalah saluran aman yang dibangun ulang, dirancang supaya kebocoran itu tidak menyisakan apa pun yang bisa dijadikan pegangan. NXP mendokumentasikannya di AN12304, dan ini benar-benar berlebihan untuk stiker di botol anggur, itulah sebabnya kebanyakan tag tidak pernah menyalakannya dan kebanyakan alat tidak pernah belajar berbicara dengannya.
+
+Dalam catatan desain saya untuk versi pertama, tepat di samping "mode LRP", saya menulis "tidak direncanakan". Tapi hal itu terus mengusik saya, jadi saya membangunnya. NFC.cool bisa mengalihkan sebuah tag ke mode LRP dan, yang lebih penting, tetap bisa mengautentikasi diri kepadanya dan mengelolanya setelah itu: kunci, hak akses file, brankas, konfigurasi chip, semuanya lewat saluran LRP alih-alih AES.
+
+Dua hal yang perlu Anda ketahui sebelum membalik sakelar itu. Ini permanen: begitu sebuah tag masuk mode LRP, secure messaging AES-nya dinonaktifkan selamanya, dan alat mana pun yang hanya bisa berbicara AES tidak akan pernah bisa berbicara dengannya lagi. Dan SUN tidak tersedia pada tag LRP, jadi tag yang tugasnya menandatangani ketukan sebaiknya tetap di mode AES.
+
+---
+
+## Perubahan yang tidak bisa dibatalkan
+
+Banyak dari perintah ini bersifat permanen, dan aplikasi menyuarakannya dengan lantang tepat saat Anda hendak melakukannya: setiap tindakan yang tidak bisa dibalik mengharuskan Anda mengonfirmasi lewat peringatan yang menjabarkan konsekuensi persisnya. Meski begitu, daftarnya layak ditulis di sini juga.
+
+- Mengaktifkan LRP.
+- Mengaktifkan UID Acak.
+- Menonaktifkan penulisan berantai.
+- Mengatur izin Ubah sebuah file ke Tidak pernah.
+- Kehilangan kunci. Chip ini tidak punya reset pabrik. Jika Key 0 hilang, hilang pula kemampuan Anda untuk mengonfigurasi ulang tag.
+- Batas kegagalan autentikasi yang diatur terlalu rendah, yang bisa mengunci Key 0 setelah beberapa ketukan yang salah.
+
+Berlatihlah pada tag cadangan sebelum Anda menyentuh tag yang Anda pedulikan.
 
 ---
 
 ## Di mana tag NFC anti-pemalsuan benar-benar digunakan
 
-Jujur saja? Kebanyakan orang yang mengetuk sebuah tag NFC tidak pernah membutuhkan semua ini, dan itu tidak masalah. Sebuah stiker yang membuka sebuah tautan adalah benda yang luar biasa, membosankan, dan berguna.
+Jujur saja? Kebanyakan orang yang mengetuk tag NFC tidak pernah membutuhkan semua ini, dan itu tidak masalah. Stiker yang membuka sebuah tautan adalah benda yang luar biasa, membosankan, dan berguna.
 
-Tetapi begitu Anda memegang salah satu tag ini, kegunaannya langsung terlihat jelas. Sebuah tas mewah bisa membuktikan dirinya asli. Sebotol anggur atau wiski bisa menunjukkan bahwa ia tidak pernah diam-diam dibuka lalu diisi ulang dengan sesuatu yang lebih murah, dengan segel anti-perusakan yang menjaga sisi itu. Sekotak obat menjamin baik obat asli di dalamnya maupun segel yang tidak pernah dirusak siapa pun. Sebuah produk edisi terbatas atau sebuah karya seni mendapatkan sertifikat yang tidak bisa dipalsukan siapa pun, dan tiket acara berhenti menjadi sesuatu yang bisa Anda tangkap layar dan bagikan ke sana-sini. Pasang tag di dekat pintu atau di rak, dan satu ketukan membuktikan bahwa seseorang benar-benar berdiri di sana, alih-alih memutar ulang tautan tersimpan dari sofa mereka. Sepatu sneaker dan kartu koleksi bisa membuktikan dirinya rilisan asli, bukan tiruan yang meyakinkan. Dan setiap pembuat indie bisa membuat barangnya membuktikan bahwa ia adalah barang *mereka* sendiri. Ini adalah masalah keaslian yang sama yang sedang didekati [Paspor Produk Digital UE](/blog/eu-digital-product-passport-2026/) dari sisi regulasi, dipecahkan pada tingkat objek individual.
+Tetapi begitu Anda pernah memegang salah satu tag ini, kegunaannya langsung terlihat jelas. Tas mewah bisa membuktikan dirinya asli. Sebotol anggur atau wiski bisa menunjukkan bahwa ia tidak pernah diam-diam dibuka lalu diisi ulang, dengan segel anti-perusakan yang menjaga sisi itu. Sekotak obat menjamin baik obat asli di dalamnya maupun segel yang tidak pernah dirusak siapa pun. Tiket acara berhenti menjadi sesuatu yang bisa Anda tangkap layar lalu bagikan ke sana-sini, dan tag di dekat pintu membuktikan bahwa seseorang benar-benar berdiri di sana, alih-alih memutar ulang tautan tersimpan dari sofanya. Ini masalah keaslian yang sama yang sedang didekati [Paspor Produk Digital UE](/blog/eu-digital-product-passport-2026/) dari sisi regulasi, dipecahkan pada tingkat objek individual.
 
 Saya tidak membangun ini karena seribu pengguna memintanya. Saya membangunnya karena saya membeli beberapa tag aneh dari internet karena rasa penasaran, memahami cara kerjanya, dan kemudian tidak sanggup membiarkan satu halaman pun dari datasheet itu tak terbuka. Biasanya begitulah fitur-fitur yang bagus bermula.
 
@@ -117,4 +191,4 @@ Saya tidak membangun ini karena seribu pengguna memintanya. Saya membangunnya ka
 
 Tag NTAG 424 DNA adalah hal yang paling mendekati segel anti-perusakan yang dimiliki NFC. Tag ini tidak bisa menghentikan seseorang menyalin sebuah produk, tetapi membuat *bukti keaslian* produk tersebut mustahil dipalsukan, karena bukti itu adalah tanda tangan kriptografis baru yang hanya bisa dihasilkan chip asli.
 
-NFC.cool Tools kini membacanya, memverifikasi chip, ketukan, dan segel anti-perusakan secara gratis, dan menyerahkan seluruh chip kepada Anda untuk dikonfigurasi - setiap kunci, izin setiap file, pengaturan tingkat terendahnya, bahkan LRP - untuk menyiapkan tag Anda sendiri langsung dari ponsel Anda. Jika Anda pernah bertanya-tanya bagaimana sebuah ketukan bisa membedakan asli dari palsu, dapatkan di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-id&mt=8) atau [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-id), pesan beberapa [tag ini](/affiliate-links/) seharga beberapa euro, dan ketuk sendiri salah satunya. Ini benar-benar topik yang asyik untuk didalami.
+NFC.cool Tools membacanya, memverifikasi chip, ketukan, dan segel anti-perusakannya, lalu menyerahkan seluruh chip kepada Anda untuk dikonfigurasi: setiap kunci, izin setiap file, pengaturan chip itu sendiri, bahkan LRP, semuanya dari ponsel Anda. Jika Anda pernah bertanya-tanya bagaimana sebuah ketukan bisa membedakan asli dari palsu, dapatkan di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-id&mt=8) atau [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-id), pesan beberapa [tag ini](/affiliate-links/) seharga beberapa euro, dan ketuk sendiri salah satunya. Ini benar-benar topik yang asyik untuk didalami.

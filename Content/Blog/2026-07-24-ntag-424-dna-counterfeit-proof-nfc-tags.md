@@ -57,49 +57,123 @@ That's the honest version of the marketing sentence. The chip doesn't make the *
 
 ---
 
-## How NFC.cool verifies a tag is genuine
+## What is inside the chip
 
-Once I understood the tags, I wanted the app to do the whole thing properly, not just show a hex dump. So NFC.cool Tools now has full NTAG 424 DNA handling on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-en&mt=8) and [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-en), and it checks authenticity two independent ways, plus a third, physical one on the tags built for it.
+Everything NFC.cool does with these tags makes more sense once you have the chip's layout in your head, so here is the map I had to build before I could write a line of code.
 
-**The chip's origin.** Every genuine NXP chip carries a factory signature over its own ID, signed with NXP's private key. NFC.cool reads that signature and verifies it against NXP's public key, right on the phone. If it checks out, you get a plain "Genuine NXP" result. This one needs no setup and no keys from you. It answers "is this real NXP silicon, or a no-name clone?"
+An NTAG 424 DNA is an NFC Forum Type 4 tag with 416 bytes of memory, organised as one application holding three fixed files. You can't create or delete files the way you can on a MIFARE DESFire. These three are all you get:
 
-**The tap itself.** This is the SUN check. NFC.cool decrypts the `picc_data`, pulls out the tag ID and the tap counter, recomputes the signature, and compares it against the `cmac` the tag sent. If they match, the tap is genuine and fresh, and you see "Authentic." This one proves more, so it asks for more: it needs the tag's key. A brand-new tag still on its factory default verifies with no input at all. A tag someone locked with their own key only verifies as authentic if you've got that key stored.
+| File | Size | What it holds |
+| --- | --- | --- |
+| File 01 | 32 bytes | The capability container that tells a phone where the NDEF data lives |
+| File 02 | 256 bytes | The NDEF message, usually your link. SUN mirrors its live values into this file on every read |
+| File 03 | 128 bytes | A proprietary file the chip can keep encrypted. NFC.cool uses it as the vault, more on that below |
 
-**The physical seal, on the tags built for it.** One version of these, the NTAG 424 DNA TagTamper, is made to be a tamper-evident seal. It's a sticker with a thin extra wire running through it, and you stick it across whatever you want to protect, over a box's flap or around a bottle's cap, the same job those "warranty void if broken" stickers do today. Open the item and you tear the sticker, which snaps the wire. NFC.cool checks that wire on a tap and tells you plainly whether the seal is still intact or has been broken. The neat part is that it's a one-way latch: snap it once and the chip remembers forever, so something that was opened and then carefully re-sealed still reads as opened. The crypto proves the chip is genuine; this proves nobody has been into the box.
+Next to the files sit five AES-128 keys, numbered Key 0 to Key 4. **Key 0** is the application master key: it's what you authenticate with to change the link, switch SUN on, change any other key, or touch the chip's configuration. Keys 1 to 4 do nothing on their own. They only matter once a file's access rights or the SUN setup points at them. On a fresh tag all five keys are sixteen zero bytes and the NDEF file is writable by anyone, which is why a brand-new tag takes a plain link without any ceremony.
 
-All of this is free for everyone. Reading a tag - its link, its tap counter, its file layout, whether its seal is still intact - and running both cryptographic checks costs nothing. I wanted the "is this thing real?" question answerable by anyone who taps one.
-
----
-
-## Programming your own secure tags
-
-Reading is half of it. The other half is that those blank tags from AliExpress are yours to program, and NFC.cool does it over a proper authenticated, encrypted channel, the same secure messaging the chip insists on, not a hopeful raw write.
-
-The gentle version is three steps. Write your own link, which is free. Switch on SUN so the tag starts signing every tap. And replace the factory key with your own, set as a passphrase so there's no 32-character hex string to wrangle, saved in your keychain. From that point on the tag is locked to you: it keeps proving it's genuine to anyone who taps it, but only you can ever reprogram it.
-
-That's where I could have stopped. The few apps that even go near these tags do. I didn't.
+Every command that changes something runs inside an authenticated session: phone and chip do a mutual challenge-response with one of those keys, derive session keys from it, and from then on every command carries a MAC or is fully encrypted. That's the secure messaging the rest of this post keeps referring to. NFC.cool implements it in full, on iPhone and on Android, and every write described below goes through it.
 
 ---
 
-## Configure the whole NTAG 424 DNA chip from your iPhone or Android
+## What a tap shows you
 
-Somewhere in a week of late nights with these tags, I made a decision: NFC.cool Tools was going to cover 100% of the NTAG 424 DNA spec, not the demo-friendly slice every "tap to verify" tutorial stops at. If I want this to be the best NFC app there is, then "we support NTAG 424 DNA" can't quietly mean "we support the one key and the one mode that were easy." So I went down the datasheet and built the rest.
+Hold a tag to your phone and NFC.cool Tools on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-en&mt=8) or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-en) does a deep read without asking you for anything: the chip's identity and whether it's the TagTamper variant, the link, the settings and access rights of every file, which key slots have been changed from factory, and the results of three separate checks.
 
-An NTAG 424 DNA chip doesn't have one key. It has five. NFC.cool now manages all of them - change any slot, reset it back to factory, or enter a key you set on another device so this phone can drive the tag too. SUN doesn't have to sign with that primary key either: you can point the tap's encryption at one key and its signature at another, and decide whether the tag mirrors its ID in the clear or keeps it encrypted.
+### Is it genuine NXP silicon?
 
-Every file on the chip carries its own access rules, and you can edit them now - who may read a file, who may write it, who may change its settings - each set to a specific key, or to wide open, or to shut forever. Under the files sits the chip's own configuration, and that's here too: switch on a random ID so the tag stops broadcasting the same serial number to every reader it passes (a real privacy win), cap how many failed unlock attempts it tolerates before it locks itself down, and a handful of lower-level switches most people will never need to touch.
+Every NTAG 424 DNA leaves the factory with an **originality signature**: an ECDSA signature over the chip's own seven-byte UID, made with NXP's private key on the P-224 curve. NFC.cool reads it and verifies it against NXP's published public key, right on the phone, with no key from you. If it checks out, the app shows "Genuine NXP". That answers the first question: is this real NXP silicon, or a look-alike chip that merely answers to the same name?
 
-The chip even keeps a little private vault. There's an encrypted file on it, locked to your Key 0, that rides along on the tag itself instead of living on a server. Stash a small secret in it, something you want to travel with the tag rather than sit on someone's database, and only your key can read it back. NFC.cool writes it and reads it for you.
+### Is this tap authentic?
 
-If you have ever done this before, you did it at a desk. NXP hands out a Windows tool called TagXplorer, you plug a USB reader into your computer, and you click through the chip's configuration from there. NFC.cool does all of the same things, but it is built to be used, not endured. Where TagXplorer is a desktop full of raw hex and cryptic fields, NFC.cool is plain-language screens on the phone already in your pocket, with a passphrase in place of a raw key and a warning before anything permanent. You drive the whole thing by holding your phone to the tag for a second or two.
+This is the SUN check. The app takes the `picc_data` and `cmac` from the link the tag just served, decrypts the PICC data to get the UID and the read counter, recomputes the CMAC, and compares it with what the tag sent. If the two match, you see "Authentic" and the counter shows up as the Read Counter.
+
+This check needs the tag's key, because that's the whole point of it. A tag still on its factory keys verifies with the all-zero key. A tag you've locked with your own key verifies with the key NFC.cool stored when you set it. A tag someone else locked with a key you don't have shows "Not verified", which is the correct answer.
+
+### Has the seal been broken?
+
+One version of these chips, the **NTAG 424 DNA TagTamper**, is built to be a tamper-evident seal. It's a sticker with a thin conductive loop running through it. You stick it across whatever you want to protect, over a box's flap or around a bottle's cap, the same job those "warranty void if broken" stickers do today. Open the item and you tear the sticker, which breaks the loop.
+
+The chip tracks two things about that loop: a permanent latch that records whether it has *ever* been opened, and the live state right now. NFC.cool reads both on every tap and reports "Sealed", "Opened", or the one that matters most, "Opened, resealed": someone broke the loop and then carefully closed it again. The latch is one-way, so a re-sealed box reads as opened for the rest of the chip's life. The crypto proves the chip is genuine. This proves nobody has been into the box.
 
 ---
 
-## What NTAG 424 DNA LRP mode is, and the changes you can't undo
+## Programming your own: the short version
 
-And then there's LRP. In my design notes for the first version, right next to "LRP mode," I had written "not planned - exotic, not needed by a consumer app." LRP stands for Leakage-Resilient Primitive, and it is the tag's genuinely paranoid mode. Normally the chip guards its keys with ordinary AES, and stealing a key would mean breaking AES itself. But there is a sneakier line of attack: put a chip on a bench, watch the faint wobble in its power draw and electromagnetic hum while it runs the crypto, and with enough of those traces you can reconstruct the secret key from the leak alone, without ever touching the math. LRP is a rebuilt secure channel designed to give that leak nothing to hold onto. It is real overkill for a sticker on a wine bottle, which is why most tags never turn it on and most tools never learn to speak it. It kept nagging at me anyway, and "cover the whole spec" doesn't come with a footnote that says "except the hard part," so I built it. NFC.cool speaks LRP now, which means even after a tag is flipped into that mode, a one-way switch you can't take back, the app can still authenticate to it and manage it like any other. I don't know of another phone app that goes there.
+Reading is half of it. The other half is that those blank tags from AliExpress are yours to program, and the minimal setup is three steps.
 
-I'll be straight about the sharp edges, because there are more of them now. A lot of these commands are permanent. Enabling LRP can't be undone. Turning on a random ID can't be undone. Set a file's "change" permission to Never and you have frozen that file for the life of the tag. A wrong key can lock a slot for good. The app is loud about this in the moment, the truly irreversible actions make you confirm through a warning that spells out the exact consequence, but it is worth saying here too: practice on a spare before you touch a tag you care about.
+1. **Write your link.** A normal NDEF write, the same as on any tag.
+2. **Enable SUN.** The app writes your link with placeholders and tells the chip to mirror its encrypted UID, tap counter, and signature into those placeholders on every read. From now on each tap produces a unique, signed URL.
+3. **Set your own Key 0.** This replaces the factory zeros with a key only you know, so nobody else can reconfigure the tag.
+
+For that last step you type a passphrase, not a key. NFC.cool derives the AES key from it by taking the first 16 bytes of the passphrase's SHA-256 hash, the same way on iPhone and Android, so a tag you provision on one opens with the same passphrase on the other. If you'd rather use a key generated somewhere else, say by your own server, you can paste the 32 hex characters instead.
+
+A lost key means a tag you can never reconfigure again, so the app is careful about where it goes. On iPhone it lands in the Keychain and syncs through iCloud Keychain. On Android it's encrypted with a hardware-backed key and mirrored into Block Store, so it survives a reinstall or a new phone. The new key is saved before the change is sent, and if the tap is interrupted mid-change, both the old and the new value stay available until the tag confirms which one it holds. A passphrase you set on another device can be entered too, and the app checks it against the tag before saving it.
+
+One thing the app deliberately refuses: writing a plain link to a SUN-enabled tag through the ordinary write screen. The mirror offsets are fixed for the URL they were configured with, and a URL of another length would leave the chip mirroring into the middle of your new content on every tap. The NTAG 424 screen turns SUN off first, then writes.
+
+---
+
+## The rest of the chip
+
+That short version is where most tutorials stop, and until now the way to go further was NXP's TagXplorer on a desktop with a USB reader. I wanted the whole datasheet reachable from the phone, so I went down it section by section.
+
+### All five keys
+
+Key 0 has its own screen, and Keys 1 to 4 live under Advanced. Each can be set from a passphrase or hex, reset to the factory default, or entered after it was set on another device. Every change authenticates with Key 0, the change authority for all five slots.
+
+### SUN, with the keys of your choice
+
+Enabling SUN isn't a single switch. You choose the **mode**: encrypted, where the UID travels inside `picc_data` and only a key holder can read it, or plaintext, where the UID and counter appear in the URL in the clear and only the signature is secret. And you choose which keys do the work: a **meta-read key** that encrypts the PICC data and a **file-read key** that computes the signature. They can be the same slot or two different ones, which is how a brand could hand a partner the key that verifies taps without handing over the key that decrypts UIDs.
+
+The app warns you if you pick a slot still on the factory zeros, because a signature made with a known key protects nothing. And the verification side understands the same variety: a tap signed with Key 3 and encrypted with Key 1 verifies correctly as long as those keys are stored on the phone.
+
+### File access rights
+
+Every file carries four permissions: Read, Write, Read & Write, and Change, the last one governing who may edit the other three. Each permission points at one of the five keys, at Free (anyone), or at Never (nobody, ever). So you can say "anyone may read File 02, only Key 2 may write it, and only Key 0 may change these rules", and the chip enforces that with no app in the loop.
+
+NFC.cool shows the current rights of each file and lets you edit them, with two warnings built in. It tells you when a permission points at a key this phone doesn't hold, because you may be locking yourself out. And it makes you confirm through a separate step before setting Change to Never, because once that's written the file's rules are frozen for the life of the chip.
+
+### Chip configuration
+
+Below the files sits the chip's own configuration, which NXP exposes through a single SetConfiguration command. NFC.cool covers these options:
+
+- **Random UID.** Normally the chip reports the same fixed UID to every reader, which lets anyone track a tag across taps. With Random UID on, it answers with a fresh random ID each time and only reveals the real one after you authenticate. A real privacy win, and permanent. The app identifies tags by UID, so it recovers the real one afterward by trying each Key 0 it knows over an authenticated GetCardUID, and the tag stays manageable on the phone that provisioned it.
+- **Failed-authentication limit.** How many wrong-key attempts the chip tolerates before it locks Key 0. It's protection against key guessing, but set it too low and a handful of failed taps can lock the master key for good.
+- **Back modulation strength.** Strong or standard. Standard can be unreadable on small antennas, so the default is a sensible place to leave it.
+- **Chained write.** Can be disabled so a single write is capped to one frame. Permanent.
+- **Capability bytes.** Two free bytes NXP leaves for your own use.
+- **LRP.** The secure-messaging switch, which gets its own section below.
+
+### The vault
+
+File 03 is a 128-byte proprietary file the chip can keep encrypted, and NFC.cool turns it into a small private store on the tag itself. The first time you save something, the app switches the file to fully encrypted mode and locks every access right to Key 0. After that, the vault holds up to 126 bytes of text that only your key can read back, and a deep read from any other phone gets a permission error and nothing else.
+
+It's for a secret that should travel with the object rather than sit in someone's database: a serial number, a note to your future self, a token your own server expects. Resetting Key 0 to factory erases it, which is the one way the vault ever goes away.
+
+---
+
+## LRP mode
+
+Normally the chip protects its keys with ordinary AES, and stealing a key would mean breaking AES itself. But there is a sneakier line of attack. Put the chip on a bench, measure the faint variations in its power draw and electromagnetic emissions while it runs the cipher, and with enough of those traces you can reconstruct the key from the leak alone, without ever touching the math. **LRP**, the Leakage-Resilient Primitive, is a rebuilt secure channel designed to give that leak nothing to hold onto. NXP documents it in AN12304, and it's real overkill for a sticker on a wine bottle, which is why most tags never turn it on and most tools never learn to speak it.
+
+In my design notes for the first version, right next to "LRP mode", I had written "not planned". It kept nagging at me, so I built it. NFC.cool can flip a tag into LRP mode and, more importantly, still authenticate to it and manage it afterward: keys, file rights, vault, chip configuration, all over the LRP channel instead of AES.
+
+Two things to know before you flip that switch. It's permanent: once a tag is in LRP mode its AES secure messaging is disabled forever, and any tool that only speaks AES can never talk to it again. And SUN is not available on an LRP tag, so a tag whose job is to sign taps should stay in AES mode.
+
+---
+
+## What can't be undone
+
+A lot of these commands are permanent, and the app is loud about it in the moment: every irreversible action makes you confirm through a warning that spells out the exact consequence. It's worth listing them here too.
+
+- Enabling LRP.
+- Enabling Random UID.
+- Disabling chained write.
+- Setting a file's Change permission to Never.
+- Losing a key. The chip has no factory reset. If Key 0 is gone, so is your ability to reconfigure the tag.
+- A failed-authentication limit set too low, which can lock Key 0 after a few wrong taps.
+
+Practice on a spare before you touch a tag you care about.
 
 ---
 
@@ -107,7 +181,7 @@ I'll be straight about the sharp edges, because there are more of them now. A lo
 
 Honestly? Most people tapping an NFC tag never need any of this, and that's fine. A sticker that opens a link is a wonderful, boring, useful thing.
 
-But once you've held one of these, the use cases are obvious. A luxury bag can prove it's genuine. A bottle of wine or whisky can show it was never quietly uncorked and topped back up with something cheaper, the tamper seal carrying that half. A box of medicine vouches for both the real drug inside and a seal nobody has broken. A limited-run product or a piece of art gets a certificate no one can forge, and event tickets stop being something you can screenshot and pass around. Put a tag by a door or on a shelf and a tap proves someone actually stood there, rather than replaying a saved link from their sofa. Sneakers and trading cards prove they're the real drop and not a good fake. And any indie maker can make their thing prove it's *their* thing. It's the same authenticity problem the [EU Digital Product Passport](/blog/eu-digital-product-passport-2026/) is circling from the regulation side, solved at the level of the individual object.
+But once you've held one of these, the use cases are obvious. A luxury bag can prove it's genuine. A bottle of wine or whisky can show it was never quietly uncorked and refilled, the tamper seal carrying that half. A box of medicine vouches for both the real drug inside and a seal nobody has broken. Event tickets stop being something you can screenshot and pass around, and a tag by a door proves someone actually stood there rather than replaying a saved link from their sofa. It's the same authenticity problem the [EU Digital Product Passport](/blog/eu-digital-product-passport-2026/) is circling from the regulation side, solved at the level of the individual object.
 
 I didn't build this because a thousand users asked for it. I built it because I bought some strange tags off the internet out of curiosity, figured out how they worked, and then couldn't leave a single page of the datasheet unturned. That's usually how the good features start.
 
@@ -117,4 +191,4 @@ I didn't build this because a thousand users asked for it. I built it because I 
 
 NTAG 424 DNA tags are the closest thing NFC has to a tamper-proof seal. They can't stop someone copying a product, but they make the product's *proof of being genuine* impossible to fake, because that proof is a fresh cryptographic signature only the real chip can produce.
 
-NFC.cool Tools now reads them, verifies the chip, the tap, and the tamper seal for free, and hands you the whole chip to configure - every key, every file's permissions, its lowest-level settings, even LRP - to provision your own right from your phone. If you've ever wondered how a tap can tell real from fake, grab it on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-en&mt=8) or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-en), order a couple of [these tags](/affiliate-links/) for a few euros, and tap one yourself. It's a good rabbit hole.
+NFC.cool Tools reads them, verifies the chip, the tap, and the tamper seal, and hands you the whole chip to configure: every key, every file's permissions, the chip's own settings, even LRP, all from your phone. If you've ever wondered how a tap can tell real from fake, grab it on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-en&mt=8) or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-en), order a couple of [these tags](/affiliate-links/) for a few euros, and tap one yourself. It's a good rabbit hole.
