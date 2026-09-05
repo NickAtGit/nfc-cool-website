@@ -77,10 +77,10 @@ subsections:
     platforms: "iOS"
 
   - title: "CSVバッチ書き込み"
-    body: "<p>iOS上の本格的なNFCオペレーター向け: ペイロードのスプレッドシートをアップロードし、スマホをアシスタントに渡せば、1セッションでタグの山すべてに書き込めます。</p>"
+    body: "<p>Numbers、Excel、Google Sheetsでリストを作り、CSVファイルとして書き出して、そのファイルをスマホに取り込みます。1行が1枚のタグになり、複数の列を使えば各セルがそのタグ上の別々のレコードになります。NFC.coolが区切り文字を自動で判別し、タグごとのバイト数付きのプレビューを表示したあと、タグをスマホにかざすたびに1枚ずつ書き込んでいきます。書き込み済みの行はファイルから消えるので、途中でやめても好きなときに再開できます。<a href=\"/blog/batch-write-nfc-tags-csv/\">スプレッドシートから最後のタグまでの詳しい手順を読む</a>。</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
     imageAlt: "iPhoneが表から複数のNFCタグに一括書き込み"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "ショートカット & App Intent"
     body: "<p>NFC.coolは組み込みアクションでiOSのショートカットアプリと直接つながります: 最後にスキャンしたNFCタグを取得、タグにメッセージを書き込み、スキャナーを開く、最後にスキャンしたQRコードを取得。これらをつなげて、タグをスキャンしてペイロードをパースし、その後何でも - 自動化、ロギング、ジャーナリング、思いつくものすべて - を実行するショートカットを作れます。同じアクションがiOS 17以降のロック画面<strong>スキャンボタン</strong>コントロールも支えています。</p>"

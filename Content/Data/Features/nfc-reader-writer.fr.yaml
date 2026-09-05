@@ -77,10 +77,10 @@ subsections:
     platforms: "iOS"
 
   - title: "Écriture par lots depuis un CSV"
-    body: "<p>Pour les opérateurs NFC exigeants sur iOS : importez un tableur de contenus, confiez le téléphone à un assistant et écrivez toute une pile de tags en une seule session.</p>"
+    body: "<p>Créez la liste dans Numbers, Excel ou Google Sheets, exportez-la en CSV et importez le fichier sur votre téléphone. Chaque ligne devient un tag et, avec plusieurs colonnes, chaque cellule devient un enregistrement distinct sur ce tag. NFC.cool détecte le séparateur, affiche un aperçu avec le nombre d'octets par tag, puis écrit les tags l'un après l'autre pendant que vous les présentez au téléphone. Les lignes déjà écrites disparaissent du fichier, vous pouvez donc vous arrêter et reprendre à tout moment. <a href=\"/blog/batch-write-nfc-tags-csv/\">Lire le guide complet, du tableur jusqu'au dernier tag</a>.</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
     imageAlt: "Un iPhone écrivant des tags NFC par lots à partir d'un tableur"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Raccourcis et App Intents"
     body: "<p>NFC.cool se connecte directement à l'app Raccourcis d'iOS grâce à des actions intégrées : récupérer le dernier tag NFC scanné, écrire un message sur un tag, ouvrir le scanner ou récupérer le dernier QR code scanné. Enchaînez-les dans des Raccourcis qui scannent un tag, analysent son contenu et lancent ensuite ce que vous voulez - automatisation, journalisation, notes, à vous de voir. Ces mêmes actions alimentent la commande <strong>bouton de scan</strong> de l'écran verrouillé sur iOS 17+.</p>"

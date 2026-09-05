@@ -77,10 +77,10 @@ subsections:
     platforms: "iOS"
 
   - title: "CSV-Batch-Write"
-    body: "<p>Für ernsthafte NFC-Profis auf iOS: lade eine Tabelle mit Payloads hoch, gib das Handy einer Assistenz und schreibe den ganzen Stapel in einer Session.</p>"
+    body: "<p>Erstelle die Liste in Numbers, Excel oder Google Sheets, exportiere sie als CSV-Datei und importiere die Datei auf dem Handy. Jede Zeile wird zu einem Tag, und bei mehreren Spalten wird jede Zelle zu einem eigenen Datensatz auf diesem Tag. NFC.cool erkennt das Trennzeichen, zeigt eine Vorschau mit den Bytes pro Tag und schreibt dann einen Tag nach dem anderen, während du sie ans Handy hältst. Geschriebene Zeilen verschwinden aus der Datei, du kannst also jederzeit unterbrechen und später weitermachen. <a href=\"/blog/batch-write-nfc-tags-csv/\">Zur ausführlichen Anleitung von der Tabelle bis zum letzten Tag</a>.</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
     imageAlt: "iPhone beschreibt viele NFC-Tags aus einer Tabelle"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Shortcuts & App Intents"
     body: "<p>NFC.cool klinkt sich mit eingebauten Aktionen direkt in die iOS-Kurzbefehle-App ein: den zuletzt gescannten NFC-Tag abrufen, eine Nachricht auf einen Tag schreiben, den Scanner öffnen oder den zuletzt gescannten QR-Code holen. Verkette sie zu Shortcuts, die einen Tag scannen, die Payload parsen und dann tun, was immer du willst - Automatisierung, Logging, Journaling, alles. Dieselben Aktionen treiben den <strong>Scan-Button</strong> auf dem Lockscreen unter iOS 17+ an.</p>"

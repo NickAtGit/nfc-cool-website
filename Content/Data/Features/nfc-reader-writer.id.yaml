@@ -77,10 +77,10 @@ subsections:
     platforms: "iOS"
 
   - title: "Tulis massal CSV"
-    body: "<p>Untuk operator NFC serius di iOS: unggah spreadsheet muatan, serahkan ponsel ke asisten, dan tulis seluruh tumpukan tag dalam satu sesi.</p>"
+    body: "<p>Buat daftarnya di Numbers, Excel, atau Google Sheets, ekspor sebagai file CSV, lalu impor file itu di ponsel. Setiap baris menjadi satu tag, dan jika memakai beberapa kolom, setiap sel menjadi record tersendiri di tag itu. NFC.cool mendeteksi pemisahnya, menampilkan pratinjau beserta jumlah byte per tag, lalu menulis tag satu per satu sementara tag ditempelkan ke ponsel. Baris yang sudah ditulis dihapus dari file, jadi proses bisa dihentikan dan dilanjutkan kapan saja. <a href=\"/blog/batch-write-nfc-tags-csv/\">Baca panduan lengkapnya, dari spreadsheet sampai tag terakhir</a>.</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
     imageAlt: "iPhone menulis massal tag NFC dari spreadsheet"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Shortcuts & App Intents"
     body: "<p>NFC.cool terhubung langsung ke aplikasi iOS Shortcuts dengan tindakan bawaan: ambil tag NFC terakhir yang dipindai, tulis pesan ke tag, buka pemindai, atau ambil kode QR terakhir yang dipindai. Rangkai ke dalam Shortcuts yang memindai tag, mengurai muatannya, dan memulai apa pun yang Anda inginkan berikutnya - otomasi, pencatatan, jurnal, apa saja. Tindakan yang sama mendukung kontrol <strong>Tombol Pindai</strong> di layar kunci pada iOS 17+.</p>"

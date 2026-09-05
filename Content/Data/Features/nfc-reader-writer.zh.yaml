@@ -77,10 +77,10 @@ subsections:
     platforms: "iOS"
 
   - title: "CSV 批量写入"
-    body: "<p>面向 iOS 上认真的 NFC 操作者：上传一份包含各种负载的表格，把手机交给助手，一次性写入整叠标签。</p>"
+    body: "<p>在 Numbers、Excel 或 Google Sheets 里建好列表，导出为 CSV 文件，再把文件导入手机。每一行就是一枚标签；如果用了多列，每个单元格就是这枚标签上的一条独立记录。NFC.cool 会自动识别分隔符，显示带有每枚标签字节数的预览，然后在你把标签逐一贴近手机时依次写入。写好的行会从文件中移除，所以随时可以停下来，之后再继续。<a href=\"/blog/batch-write-nfc-tags-csv/\">阅读从表格到最后一枚标签的完整教程</a>。</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
     imageAlt: "iPhone 根据表格批量写入 NFC 标签"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "快捷指令与 App Intents"
     body: "<p>NFC.cool 通过内置操作直接接入 iOS 快捷指令应用：获取最近扫描的 NFC 标签、向标签写入信息、打开扫描器，或调取最近扫描的二维码。把它们串联成快捷指令，先扫描标签、解析其负载，再启动你想要的后续操作：自动化、记录、写日记，随你发挥。同样的操作也驱动 iOS 17+ 上的锁屏<strong>扫描按钮</strong>控件。</p>"

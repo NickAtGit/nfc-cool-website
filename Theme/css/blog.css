@@ -344,27 +344,45 @@
    color: var(--color-text);
    font-style: italic;
 }
+/* Inline code: a bordered card-coloured chip, so `tel:` or `.csv` reads as a
+   token inside a sentence rather than as body text. */
 .blog-post-body code {
    font-family: var(--font-mono);
-   background: var(--color-code-bg);
-   color: var(--color-code-text);
-   padding: 0.15em 0.4em;
-   border-radius: var(--radius-sm);
    font-size: 0.9em;
+   background: var(--color-bg-card);
+   color: var(--color-text);
+   border: 1px solid var(--color-border);
+   padding: 0.1em 0.4em;
+   border-radius: var(--radius-sm);
 }
+/* Fenced blocks: the same dark terminal block the developer pages use
+   (.marketing-page pre / .feature-subsection-body pre in landing.css), in
+   both colour modes, so code looks identical everywhere on the site. */
 .blog-post-body pre {
    margin: 1.5rem 0;
    padding: 1rem 1.25rem;
-   background: var(--color-code-bg);
-   border-radius: var(--radius);
+   background: #0d1117;
+   color: #e6edf3;
+   border-radius: var(--radius-lg);
    overflow-x: auto;
-   font-size: 0.875rem;
+   -webkit-overflow-scrolling: touch;
+   font-family: var(--font-mono);
+   font-size: 0.85rem;
    line-height: 1.55;
 }
+/* In dark mode the block is close to the page colour; a hairline keeps its
+   edge visible. */
+[data-theme="dark"] .blog-post-body pre {
+   border: 1px solid var(--color-border);
+}
 .blog-post-body pre code {
-   background: transparent;
-   padding: 0;
+   font-family: inherit;
    font-size: inherit;
+   color: inherit;
+   background: none;
+   border: 0;
+   padding: 0;
+   white-space: pre;
 }
 .blog-post-body img {
    max-width: 100%;

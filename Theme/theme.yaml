@@ -54,7 +54,10 @@ tokens:
    # Brand-defined typography (Titillium Web for body/headings, Caveat for script accents)
    fontHeading:        { family: "Titillium Web", weights: [400, 600, 700] }
    fontBody:           { family: "Titillium Web", weights: [400, 600, 700] }
-   fontMono:           { family: "Titillium Web", weights: [400, 600] }
+   # A system monospace stack. The family string contains "monospace", which
+   # SiteKit treats as a system font: no @font-face, no Google Fonts link, the
+   # stack is emitted verbatim as --font-mono.
+   fontMono:           { family: 'ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace' }
 
    # Layout
    maxWidth:           "1200px"

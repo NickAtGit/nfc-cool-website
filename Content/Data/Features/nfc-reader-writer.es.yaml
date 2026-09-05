@@ -77,10 +77,10 @@ subsections:
     platforms: "iOS"
 
   - title: "Grabación en lote por CSV"
-    body: "<p>Para operadores NFC serios en iOS: sube una hoja de cálculo de payloads, dale el móvil a un ayudante y graba todo el conjunto de etiquetas en una sola sesión.</p>"
+    body: "<p>Crea la lista en Numbers, Excel o Google Sheets, expórtala como archivo CSV e importa ese archivo en el móvil. Cada fila se convierte en una etiqueta y, si usas varias columnas, cada celda pasa a ser un registro propio dentro de esa etiqueta. NFC.cool detecta el delimitador, muestra una vista previa con los bytes por etiqueta y después graba una etiqueta tras otra mientras las acercas al móvil. Las filas ya grabadas desaparecen del archivo, así que puedes parar y continuar cuando quieras. <a href=\"/blog/batch-write-nfc-tags-csv/\">Lee la guía completa, de la hoja de cálculo a la última etiqueta</a>.</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
     imageAlt: "iPhone grabando etiquetas NFC en lote desde una hoja de cálculo"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Atajos y App Intents"
     body: "<p>NFC.cool se integra directamente en la app Atajos de iOS con acciones incorporadas: obtener la última etiqueta NFC leída, grabar un mensaje en una etiqueta, abrir el lector u obtener el último código QR leído. Encadénalas en Atajos que lean una etiqueta, analicen su payload e inicien lo que quieras a continuación - automatización, registro, diario, lo que sea. Las mismas acciones alimentan el control <strong>Botón de escaneo</strong> en la pantalla de bloqueo en iOS 17+.</p>"
