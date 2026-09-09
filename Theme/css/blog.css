@@ -430,6 +430,32 @@
 .blog-post-body tbody tr:last-child td {
    border-bottom: 0;
 }
+/* Wide tables (the chip catalog, the reader matrix) scroll inside their own
+   box instead of pushing the page body past the phone's edge. Authored as
+   <div class="table-scroll"> around a markdown table; cmark passes the div
+   through and still parses the table inside. `sticky-first` pins the first
+   column so a row keeps its label while the reader scrolls sideways. */
+.blog-post-body .table-scroll {
+   overflow-x: auto;
+   -webkit-overflow-scrolling: touch;
+   margin: 1.5rem 0;
+}
+.blog-post-body .table-scroll table {
+   margin: 0;
+   min-width: 100%;
+}
+.blog-post-body .table-scroll th {
+   white-space: nowrap;
+}
+.blog-post-body .table-scroll.sticky-first th:first-child,
+.blog-post-body .table-scroll.sticky-first td:first-child {
+   position: sticky;
+   left: 0;
+   background: var(--color-bg);
+}
+.blog-post-body .table-scroll.sticky-first thead th:first-child {
+   background: var(--color-bg-alt);
+}
 .blog-post-related {
    padding: clamp(3.5rem, 7vw, 5rem) 0;
    background: var(--color-bg-alt);

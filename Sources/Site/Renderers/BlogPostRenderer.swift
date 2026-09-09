@@ -140,7 +140,8 @@ struct BlogPostRenderer: Renderer {
          siteName: context.config.name,
          sectionName: section.config.name,
          sectionPath: listingPath,
-         post: postMeta
+         post: postMeta,
+         faq: BlogFAQExtractor.faq(fromHTML: page.htmlContent)
       )
 
       // Posts may override the SEO <title> / <meta description> via

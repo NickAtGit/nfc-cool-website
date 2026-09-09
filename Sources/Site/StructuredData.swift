@@ -155,18 +155,24 @@ enum StructuredData {
       siteName: String,
       sectionName: String,
       sectionPath: String,
-      post: BlogPostMeta
+      post: BlogPostMeta,
+      faq: [FAQItem]? = nil
    ) -> String {
       let breadcrumb = """
       {"@type":"BreadcrumbList","itemListElement":[\(self.listItem(position: 1, name: "Home", url: "\(baseURL)\(homePath)")),\(self.listItem(position: 2, name: sectionName, url: "\(baseURL)\(sectionPath)")),\(self.listItem(position: 3, name: post.title, url: "\(baseURL)\(post.path)"))]}
       """
       let posting = self.blogPosting(baseURL: baseURL, sectionName: sectionName, post: post)
-      let nodes = [
+      var nodes = [
          breadcrumb,
          posting,
          self.person(baseURL: baseURL),
          self.organization(baseURL: baseURL, siteName: siteName),
       ]
+      // Posts with a question-and-answer section (see BlogFAQExtractor) get
+      // the same FAQPage node the feature and marketing pages emit.
+      if let faq, !faq.isEmpty {
+         nodes.append(self.faqPage(faq))
+      }
       return """
       {"@context":"https://schema.org","@graph":[\(nodes.joined(separator: ","))]}
       """
