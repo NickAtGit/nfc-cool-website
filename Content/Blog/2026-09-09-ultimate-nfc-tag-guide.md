@@ -889,33 +889,51 @@ Yes, since version 6.15.0, through a USB smart-card reader; neither device has a
 
 Every table in this guide was checked against one of these. Prices are from the shops named in the buying section on 9 September 2026.
 
-- NXP NTAG213/215/216 datasheet, Rev 3.2: https://www.nxp.com/docs/en/data-sheet/NTAG213_215_216.pdf
-- NXP NTAG210/212, NTAG 210µ, NTAG213F/216F and NTAG 213 TT datasheets: https://www.nxp.com/docs/en/data-sheet/NTAG210_212.pdf, https://www.nxp.com/docs/en/data-sheet/NT2L1001_NT2H1001.pdf, https://www.nxp.com/docs/en/data-sheet/NTAG213F_216F.pdf, https://www.nxp.com/docs/en/data-sheet/NT2H1311TT.pdf
-- NXP NTAG 223 and 224 DNA and StatusDetect datasheets: https://www.nxp.com/docs/en/data-sheet/NT2H2331G0.pdf, https://www.nxp.com/docs/en/data-sheet/NT2H2421S0.pdf
-- NXP NTAG 424 DNA and TagTamper datasheets and AN12196: https://www.nxp.com/docs/en/data-sheet/NT4H2421Gx.pdf, https://www.nxp.com/docs/en/data-sheet/NT4H2421Tx.pdf, https://www.nxp.com/docs/en/application-note/AN12196.pdf
-- NXP NTAG I2C plus and NTAG 5 datasheets: https://www.nxp.com/docs/en/data-sheet/NT3H2111_2211.pdf, https://www.nxp.com/docs/en/data-sheet/NTA5332.pdf
-- NXP MIFARE Ultralight, Ultralight C, EV1, AES datasheets: https://www.nxp.com/docs/en/data-sheet/MF0ICU1.pdf, https://www.nxp.com/docs/en/data-sheet/MF0ICU2.pdf, https://www.nxp.com/docs/en/data-sheet/MF0ULX1.pdf, https://www.nxp.com/docs/en/data-sheet/MF0AES(H)20.pdf
-- NXP MIFARE Classic EV1 1K and 4K datasheets: https://www.nxp.com/docs/en/data-sheet/MF1S50YYX_V1.pdf, https://www.nxp.com/docs/en/data-sheet/MF1S70YYX_V1.pdf
-- NXP MIFARE Plus S, SE and EV2 short datasheets: https://www.nxp.com/docs/en/data-sheet/MF1SPLUSX0Y1_SDS.pdf, https://www.nxp.com/docs/en/data-sheet/MF1SEP_H_10X1_SDS.pdf, https://www.nxp.com/docs/en/data-sheet/MF1P(H)x2.pdf
-- NXP DESFire EV1, EV2, EV3 and Light datasheets, and AN12752 on usable memory: https://www.nxp.com/docs/en/data-sheet/MF3ICDX21_41_81_SDS.pdf, https://www.nxp.com/docs/en/data-sheet/MF3DX2_MF3DHX2_SDS.pdf, https://www.nxp.com/docs/en/data-sheet/MF3D_H_X3_SDS.pdf, https://www.nxp.com/docs/en/data-sheet/MF2DLHX0.pdf, https://www.nxp.com/docs/en/application-note/AN12752.pdf
-- NXP ICODE SLIX, SLIX-S, SLIX-L, SLIX2, DNA and ICODE 3 datasheets, and AN11809: https://www.nxp.com/docs/en/data-sheet/SL2S2002_SL2S2102.pdf, https://www.nxp.com/docs/en/data-sheet/SL2S5302_SL2S5402.pdf, https://www.nxp.com/docs/en/data-sheet/SL2S5002_SL2S5102.pdf, https://www.nxp.com/docs/en/data-sheet/SL2S2602.pdf, https://www.nxp.com/docs/en/data-sheet/SL2S6002_SDS.pdf, https://www.nxp.com/docs/en/data-sheet/SL2S3003_SL2S3003TT.pdf, https://www.nxp.com/docs/en/application-note/AN11809.pdf
-- NXP AN10833 (type identification), AN10927 (UIDs), AN1305 and AN10787 (NDEF and the MAD on Classic), AN11004 (DESFire as Type 4), AN13089 (NTAG hints, on static signatures): https://www.nxp.com/docs/en/application-note/AN10833.pdf, https://www.nxp.com/docs/en/application-note/AN10927.pdf, https://www.nxp.com/docs/en/application-note/AN1305.pdf, https://www.nxp.com/docs/en/application-note/AN10787.pdf, https://www.nxp.com/docs/en/application-note/AN11004.pdf
-- ST ST25TV02KC, ST25TN01K, ST25DV64KC, ST25TA02KB and M24LR64E-R datasheets, AN5658 on Augmented NDEF, TA0358 on TruST25: https://www.st.com/resource/en/datasheet/st25tv02kc.pdf, https://www.st.com/resource/en/datasheet/st25tn01k.pdf, https://www.st.com/resource/en/datasheet/st25dv64kc.pdf, https://www.st.com/resource/en/datasheet/st25ta02kb.pdf, https://www.st.com/resource/en/datasheet/m24lr64e-r.pdf
-- TI Tag-it HF-I Standard, Pro and Plus datasheets: https://www.ti.com/lit/ds/scbs828c/scbs828c.pdf, https://www.ti.com/lit/ds/scbs822c/scbs822c.pdf, https://www.ti.com/lit/ds/scbs827b/scbs827b.pdf
-- EM Microelectronic EM4233, EM4423 and EM4425: https://www.emmicroelectronic.com/product/nfc-high-frequency-ics/em4233, https://www.emmicroelectronic.com/product/nfc-high-frequency-ics/em-echo-em4423, https://www.emmicroelectronic.com/product/nfc-high-frequency-ics/em-echo-v
-- Sony FeliCa Lite-S and FeliCa Standard RC-SA01: https://www.sony.co.jp/en/Products/felica/business/data/RC-S966_E.pdf, https://www.sony.co.jp/en/Products/felica/business/products/RC-SA01.html
-- Fudan FM11NT021 datasheet: https://github.com/user-attachments/files/16667599/FM11NT021_sds_eng.pdf
-- Quarkslab, "MIFARE Classic: exposing the static encrypted nonce variant... and a few hardware backdoors" (2024): https://blog.quarkslab.com/mifare-classic-static-encrypted-nonce-and-backdoors.html
-- Nohl, Evans, Starbug, Plötz, "Reverse-Engineering a Cryptographic RFID Tag" (USENIX Security 2008): https://www.usenix.org/legacy/event/sec08/tech/full_papers/nohl/nohl.pdf
-- Garcia et al., "Dismantling MIFARE Classic" (ESORICS 2008): https://link.springer.com/chapter/10.1007/978-3-540-88313-5_7
-- ISO/IEC JTC1/SC17 Standing Document 5, register of IC manufacturers: https://www.aimglobal.org/wp-content/uploads/2022/04/ISO_IEC_JTC1_SC17_Standing_Document_5_Register_of_IC_Manufacturers.pdf
-- Proxmark3 magic card notes: https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/magic_cards_notes.md
-- 3dbrew on the Amiibo tag layout: https://www.3dbrew.org/wiki/Amiibo
-- Apple Core NFC: https://developer.apple.com/documentation/corenfc, background tag reading: https://developer.apple.com/documentation/corenfc/adding-support-for-background-tag-reading, WWDC 2019 session 715: https://developer.apple.com/videos/play/wwdc2019/715/
-- Android NFC tech classes: https://developer.android.com/reference/android/nfc/tech/MifareClassic, https://developer.android.com/develop/connectivity/nfc/advanced-nfc, Web NFC: https://developer.chrome.com/docs/capabilities/nfc
-- NFC Forum on the technology and the Type 2 and Type 5 specifications: https://nfc-forum.org/learn/nfc-technology/, https://nfc-forum.org/build/specifications/type-2-tag-specification/
-- Reader documentation: ACS ACR122U and ACR1552U, HID OMNIKEY 5022 CL, NXP PN532, Proxmark3, Flipper Zero, Chameleon Ultra: https://www.acs.com.hk/download-manual/418/TSP-ACR122U-3.06.pdf, https://www.hidglobal.com/doclib/files/resource_files/eat-omnikey-5022-usb-reader-ds-en.pdf, https://www.nxp.com/docs/en/nxp/data-sheets/PN532_C1.pdf, https://github.com/RfidResearchGroup/proxmark3, https://docs.flipper.net/nfc, https://github.com/RfidResearchGroup/ChameleonUltraDocs
-- Antenna and ferrite: TI SLOA241 and Würth ANP022: https://www.ti.com/lit/an/sloa241b/sloa241b.pdf, https://www.mouser.com/pdfdocs/Selection_and_Characteristics_of_WEFSFS_APPNOTE.PDF
+**NXP NTAG**
+
+- [NTAG213/215/216 datasheet, Rev 3.2](https://www.nxp.com/docs/en/data-sheet/NTAG213_215_216.pdf)
+- [NTAG210/212](https://www.nxp.com/docs/en/data-sheet/NTAG210_212.pdf), [NTAG 210µ](https://www.nxp.com/docs/en/data-sheet/NT2L1001_NT2H1001.pdf), [NTAG213F/216F](https://www.nxp.com/docs/en/data-sheet/NTAG213F_216F.pdf) and [NTAG 213 TT](https://www.nxp.com/docs/en/data-sheet/NT2H1311TT.pdf) datasheets
+- [NTAG 223 DNA](https://www.nxp.com/docs/en/data-sheet/NT2H2331G0.pdf) and [NTAG 224 DNA StatusDetect](https://www.nxp.com/docs/en/data-sheet/NT2H2421S0.pdf) datasheets
+- [NTAG 424 DNA](https://www.nxp.com/docs/en/data-sheet/NT4H2421Gx.pdf) and [NTAG 424 DNA TagTamper](https://www.nxp.com/docs/en/data-sheet/NT4H2421Tx.pdf) datasheets, and [AN12196, the 424 features and hints note with the originality public key](https://www.nxp.com/docs/en/application-note/AN12196.pdf)
+- [NTAG I2C plus](https://www.nxp.com/docs/en/data-sheet/NT3H2111_2211.pdf) and [NTAG 5 boost](https://www.nxp.com/docs/en/data-sheet/NTA5332.pdf) datasheets
+- [AN13089, NTAG 21x features and hints](https://www.puntoflotante.net/AN13089.pdf), on why a static originality signature is not a clone guarantee (mirror; the nxp.com copy is not public)
+
+**NXP MIFARE**
+
+- [MIFARE Ultralight](https://www.nxp.com/docs/en/data-sheet/MF0ICU1.pdf), [Ultralight C](https://www.nxp.com/docs/en/data-sheet/MF0ICU2.pdf), [Ultralight EV1](https://www.nxp.com/docs/en/data-sheet/MF0ULX1.pdf) and [Ultralight AES](https://www.nxp.com/docs/en/data-sheet/MF0AES(H)20.pdf) datasheets
+- [MIFARE Classic EV1 1K](https://www.nxp.com/docs/en/data-sheet/MF1S50YYX_V1.pdf) and [Classic EV1 4K](https://www.nxp.com/docs/en/data-sheet/MF1S70YYX_V1.pdf) datasheets
+- [MIFARE Plus S](https://www.nxp.com/docs/en/data-sheet/MF1SPLUSX0Y1_SDS.pdf), [Plus SE](https://www.nxp.com/docs/en/data-sheet/MF1SEP_H_10X1_SDS.pdf) and [Plus EV2](https://www.nxp.com/docs/en/data-sheet/MF1P(H)x2.pdf) short datasheets
+- [DESFire EV1](https://www.nxp.com/docs/en/data-sheet/MF3ICDX21_41_81_SDS.pdf), [DESFire EV2](https://www.nxp.com/docs/en/data-sheet/MF3DX2_MF3DHX2_SDS.pdf), [DESFire EV3](https://www.nxp.com/docs/en/data-sheet/MF3D_H_X3_SDS.pdf) and [DESFire Light](https://www.nxp.com/docs/en/data-sheet/MF2DLHX0.pdf) datasheets, and [AN12752 on usable DESFire memory](https://www.nxp.com/docs/en/application-note/AN12752.pdf)
+- [AN10833, MIFARE type identification](https://www.nxp.com/docs/en/application-note/AN10833.pdf), [AN10927, MIFARE UIDs](https://www.nxp.com/docs/en/application-note/AN10927.pdf), [AN1305, NDEF on MIFARE Classic](https://www.nxp.com/docs/en/application-note/AN1305.pdf), [AN10787, the MIFARE Application Directory](https://www.nxp.com/docs/en/application-note/AN10787.pdf), [AN11004, DESFire as a Type 4 tag](https://www.nxp.com/docs/en/application-note/AN11004.pdf)
+
+**NXP ICODE**
+
+- [ICODE SLIX](https://www.nxp.com/docs/en/data-sheet/SL2S2002_SL2S2102.pdf), [SLIX-S](https://www.nxp.com/docs/en/data-sheet/SL2S5302_SL2S5402.pdf), [SLIX-L](https://www.nxp.com/docs/en/data-sheet/SL2S5002_SL2S5102.pdf), [SLIX2](https://www.nxp.com/docs/en/data-sheet/SL2S2602.pdf), [ICODE DNA](https://www.nxp.com/docs/en/data-sheet/SL2S6002_SDS.pdf) and [ICODE 3](https://www.nxp.com/docs/en/data-sheet/SL2S3003_SL2S3003TT.pdf) datasheets
+- [AN11809, the ICODE family comparison](https://www.nxp.com/docs/en/application-note/AN11809.pdf)
+
+**STMicroelectronics, TI, EM, Sony, Fudan**
+
+- ST [ST25TV02KC](https://www.st.com/resource/en/datasheet/st25tv02kc.pdf), [ST25TN01K](https://www.st.com/resource/en/datasheet/st25tn01k.pdf), [ST25DV64KC](https://www.st.com/resource/en/datasheet/st25dv64kc.pdf), [ST25TA02KB](https://www.st.com/resource/en/datasheet/st25ta02kb.pdf) and [M24LR64E-R](https://www.st.com/resource/en/datasheet/m24lr64e-r.pdf) datasheets, [AN5658 on Augmented NDEF](https://www.st.com/resource/en/application_note/an5658-augmented-ndef-messages-with-st25tv512c-and-st25tv02kc-devices-stmicroelectronics.pdf) and [TA0358 on TruST25](https://www.st.com/resource/en/technical_article/ta0358-developing-supply-chain-confidence-with-trust25-digital-signature-in-rfidnfc-tags-stmicroelectronics.pdf)
+- TI Tag-it HF-I [Standard](https://www.ti.com/lit/ds/scbs828c/scbs828c.pdf), [Pro](https://www.ti.com/lit/ds/scbs822c/scbs822c.pdf) and [Plus](https://www.ti.com/lit/ds/scbs827b/scbs827b.pdf) datasheets
+- EM Microelectronic [EM4233](https://www.emmicroelectronic.com/product/nfc-high-frequency-ics/em4233), [EM4423](https://www.emmicroelectronic.com/product/nfc-high-frequency-ics/em-echo-em4423) and [EM4425](https://www.emmicroelectronic.com/product/nfc-high-frequency-ics/em-echo-v)
+- Sony [FeliCa Lite-S datasheet](https://www.sony.co.jp/en/Products/felica/business/data/RC-S966_E.pdf) and [FeliCa Standard RC-SA01](https://www.sony.co.jp/en/Products/felica/business/products/RC-SA01.html)
+- [Fudan FM11NT021 datasheet](https://github.com/user-attachments/files/16667599/FM11NT021_sds_eng.pdf)
+
+**Security research and standards**
+
+- Quarkslab, [MIFARE Classic: exposing the static encrypted nonce variant and a few hardware backdoors](https://blog.quarkslab.com/mifare-classic-static-encrypted-nonce-and-backdoors.html) (2024)
+- Nohl, Evans, Starbug and Plötz, [Reverse-Engineering a Cryptographic RFID Tag](https://www.usenix.org/legacy/event/sec08/tech/full_papers/nohl/nohl.pdf) (USENIX Security 2008)
+- Garcia et al., [Dismantling MIFARE Classic](https://link.springer.com/chapter/10.1007/978-3-540-88313-5_7) (ESORICS 2008)
+- [ISO/IEC JTC1/SC17 Standing Document 5, the register of IC manufacturers](https://www.aimglobal.org/wp-content/uploads/2022/04/ISO_IEC_JTC1_SC17_Standing_Document_5_Register_of_IC_Manufacturers.pdf)
+- [Proxmark3 magic card notes](https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/magic_cards_notes.md) and [3dbrew on the Amiibo tag layout](https://www.3dbrew.org/wiki/Amiibo)
+- NFC Forum on [the technology](https://nfc-forum.org/learn/nfc-technology/) and [the Type 2 tag specification](https://nfc-forum.org/build/specifications/type-2-tag-specification/)
+
+**Phones and readers**
+
+- Apple [Core NFC](https://developer.apple.com/documentation/corenfc), [background tag reading](https://developer.apple.com/documentation/corenfc/adding-support-for-background-tag-reading), [the MIFARE command that excludes CRYPTO1](https://developer.apple.com/documentation/corenfc/nfcmifaretag/sendmifarecommand(commandpacket:completionhandler:)) and [WWDC 2019 session 715](https://developer.apple.com/videos/play/wwdc2019/715/)
+- Android [MifareClassic](https://developer.android.com/reference/android/nfc/tech/MifareClassic), [the advanced NFC guide](https://developer.android.com/develop/connectivity/nfc/advanced-nfc) and [Web NFC in Chrome](https://developer.chrome.com/docs/capabilities/nfc)
+- Readers: [ACS ACR122U](https://www.acs.com.hk/download-manual/418/TSP-ACR122U-3.06.pdf), [HID OMNIKEY 5022 CL](https://www.hidglobal.com/doclib/files/resource_files/eat-omnikey-5022-usb-reader-ds-en.pdf), [NXP PN532](https://www.nxp.com/docs/en/nxp/data-sheets/PN532_C1.pdf), [Proxmark3](https://github.com/RfidResearchGroup/proxmark3), [Flipper Zero](https://docs.flipper.net/nfc) and [Chameleon Ultra](https://github.com/RfidResearchGroup/ChameleonUltraDocs)
+- Antennas and ferrite: [TI SLOA241](https://www.ti.com/lit/an/sloa241b/sloa241b.pdf) and [Würth ANP022](https://www.mouser.com/pdfdocs/Selection_and_Characteristics_of_WEFSFS_APPNOTE.PDF)
 
 ---
 
