@@ -289,6 +289,7 @@ em.brand-tail {
 .sk-nav-item a {
    display: inline-flex;
    align-items: center;
+   white-space: nowrap; /* a label that wraps spills out of the fixed-height header */
    padding: 0.5rem 0.875rem;
    color: var(--color-text-secondary);
    font-weight: 600;
@@ -623,6 +624,11 @@ body.sk-mobile-menu-open { overflow: hidden; }
    many small-laptop widths). So collapse to the burger menu up to 1199px and
    only show the horizontal nav at >=1200px. The footer keeps its own 768px
    breakpoint below - it has no reason to stack this early. */
+/* Just above the burger breakpoint the ru/uk labels (the widest since "Apps"
+   joined the nav) only fit on one line with tighter link padding. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+   .sk-nav-item a { padding-left: 0.5rem; padding-right: 0.5rem; }
+}
 @media (max-width: 1199px) {
    .sk-site-nav { gap: 0.5rem; padding: 0 var(--container-padding); }
 

@@ -26,7 +26,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "Blog"
             url: "/blog/"
-          - title: "Support & Kontakt"
+          - title: "Apps"
+            url: "/apps/"
+          - title: "Support"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -80,7 +82,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "ブログ"
             url: "/blog/"
-          - title: "サポート & お問い合わせ"
+          - title: "アプリ"
+            url: "/apps/"
+          - title: "サポート"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -134,7 +138,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "Blog"
             url: "/blog/"
-          - title: "Apoio e Contacto"
+          - title: "Apps"
+            url: "/apps/"
+          - title: "Apoio"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -188,7 +194,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "博客"
             url: "/blog/"
-          - title: "支持与联系"
+          - title: "应用"
+            url: "/apps/"
+          - title: "支持"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -242,7 +250,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "Blog"
             url: "/blog/"
-          - title: "Dukungan & Kontak"
+          - title: "Aplikasi"
+            url: "/apps/"
+          - title: "Dukungan"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -296,7 +306,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "Blog"
             url: "/blog/"
-          - title: "Soporte y Contacto"
+          - title: "Apps"
+            url: "/apps/"
+          - title: "Soporte"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -350,7 +362,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "Blog"
             url: "/blog/"
-          - title: "Support et contact"
+          - title: "Apps"
+            url: "/apps/"
+          - title: "Support"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -404,7 +418,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "المدونة"
             url: "/blog/"
-          - title: "الدعم والتواصل"
+          - title: "التطبيقات"
+            url: "/apps/"
+          - title: "الدعم"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -459,7 +475,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "Blog"
             url: "/blog/"
-          - title: "Supporto e contatti"
+          - title: "App"
+            url: "/apps/"
+          - title: "Supporto"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -514,7 +532,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "Blog"
             url: "/blog/"
-          - title: "Destek ve İletişim"
+          - title: "Uygulamalar"
+            url: "/apps/"
+          - title: "Destek"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -569,7 +589,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "Блог"
             url: "/blog/"
-          - title: "Поддержка и контакты"
+          - title: "Приложения"
+            url: "/apps/"
+          - title: "Поддержка"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -624,7 +646,9 @@ localization:
             url: "/online-nfc-reader/"
           - title: "Блог"
             url: "/blog/"
-          - title: "Підтримка і контакти"
+          - title: "Застосунки"
+            url: "/apps/"
+          - title: "Підтримка"
             url: "/contact/"
         showSearch: false
         showThemeToggle: true
@@ -727,7 +751,9 @@ navigation:
       url: "/online-nfc-reader/"
     - title: "Blog"
       url: "/blog/"
-    - title: "Support & Contact"
+    - title: "Apps"
+      url: "/apps/"
+    - title: "Support"
       url: "/contact/"
   showSearch: false
   showThemeToggle: true
