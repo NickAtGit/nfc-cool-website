@@ -61,6 +61,7 @@ identicalAllowlist:
     - "NFC.cool Tools"
     - "NFC.cool Business Card"
     # App names on the /apps/ index stay in English across all locales.
+    - "Moments by NFC.cool"
     - "QR Code Scanner by NFC.cool"
     - "3D Object & Room Scanner"
     - "1st Class - Flight Tracker"

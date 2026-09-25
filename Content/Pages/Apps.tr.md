@@ -26,6 +26,14 @@ NFC.cool Tools ile Business Card uygulaması baş rolde ama yayınladığım tek
 
 <div class="page-cards-grid apps-index-grid">
 
+<a class="page-card app-card" href="/tr/apps/moments/">
+<img class="app-card-icon app-icon-light" src="/assets/images/Apps/moments/icon.webp" alt="Moments by NFC.cool uygulama simgesi" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon app-icon-dark" src="/assets/images/Apps/moments/icon-dark.webp" alt="Moments by NFC.cool uygulama simgesi" width="64" height="64" loading="lazy"/>
+<h3>Moments by NFC.cool</h3>
+<p>Anı defterine, bir çerçeveye ya da bir hediyeye NFC tag'i yapıştır. Telefonunu tag'e yaklaştıran herkes, uygulama ve hesap olmadan ortak albüme fotoğraf ekler.</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="QR Code Scanner by NFC.cool uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>

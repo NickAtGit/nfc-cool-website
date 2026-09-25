@@ -676,6 +676,10 @@
    margin-bottom: 1.1rem;
    box-shadow: 0 1px 3px var(--color-shadow);
 }
+/* Icons with a light and a dark appearance ship both; theme.js always sets data-theme. */
+.app-icon-dark { display: none; }
+[data-theme="dark"] .app-icon-light { display: none; }
+[data-theme="dark"] .app-icon-dark { display: block; }
 .app-card {
    display: flex;
    flex-direction: column;

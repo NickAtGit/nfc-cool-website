@@ -26,6 +26,14 @@ NFC.cool Tools y la app Business Card son el plato fuerte, pero no lo único que
 
 <div class="page-cards-grid apps-index-grid">
 
+<a class="page-card app-card" href="/es/apps/moments/">
+<img class="app-card-icon app-icon-light" src="/assets/images/Apps/moments/icon.webp" alt="Icono de la app Moments by NFC.cool" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon app-icon-dark" src="/assets/images/Apps/moments/icon-dark.webp" alt="Icono de la app Moments by NFC.cool" width="64" height="64" loading="lazy"/>
+<h3>Moments by NFC.cool</h3>
+<p>Pon un tag NFC en el libro de firmas, un marco o un regalo. Quien lo acerque con el móvil añade fotos a un álbum compartido, sin app y sin cuenta.</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/es/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="Icono de la app QR Code Scanner by NFC.cool" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>

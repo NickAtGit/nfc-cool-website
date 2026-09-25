@@ -26,6 +26,14 @@ description: "إلى جانب NFC.cool Tools وتطبيق Business Card، أطو
 
 <div class="page-cards-grid apps-index-grid">
 
+<a class="page-card app-card" href="/ar/apps/moments/">
+<img class="app-card-icon app-icon-light" src="/assets/images/Apps/moments/icon.webp" alt="أيقونة تطبيق Moments by NFC.cool" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon app-icon-dark" src="/assets/images/Apps/moments/icon-dark.webp" alt="أيقونة تطبيق Moments by NFC.cool" width="64" height="64" loading="lazy"/>
+<h3>Moments by NFC.cool</h3>
+<p>ضع وسم NFC على دفتر الضيوف أو إطار صورة أو هدية. كل من يلمسه بهاتفه يضيف صوره إلى ألبوم مشترك واحد، من دون تطبيق ومن دون حساب.</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/ar/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="أيقونة تطبيق QR Code Scanner by NFC.cool" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>

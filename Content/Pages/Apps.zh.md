@@ -26,6 +26,14 @@ NFC.cool Tools和Business Card应用是主角，但它们并不是我开发的�
 
 <div class="page-cards-grid apps-index-grid">
 
+<a class="page-card app-card" href="/zh/apps/moments/">
+<img class="app-card-icon app-icon-light" src="/assets/images/Apps/moments/icon.webp" alt="Moments by NFC.cool应用图标" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon app-icon-dark" src="/assets/images/Apps/moments/icon-dark.webp" alt="Moments by NFC.cool应用图标" width="64" height="64" loading="lazy"/>
+<h3>Moments by NFC.cool</h3>
+<p>把 NFC 标签贴在签到簿、相框或礼物上。任何人用手机轻触，无需安装应用、无需注册账号，就能往同一本共享相册里添加照片。</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/zh/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="QR Code Scanner by NFC.cool应用图标" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>

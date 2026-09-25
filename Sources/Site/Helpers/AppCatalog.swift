@@ -34,6 +34,15 @@ enum AppCatalog {
 
    static let entries: [AppCatalogEntry] = [
       AppCatalogEntry(
+         slug: "moments",
+         name: "Moments by NFC.cool",
+         operatingSystem: "iOS",
+         applicationCategory: "PhotographyApplication",
+         iconPath: "/assets/images/Apps/moments/icon.webp",
+         storeURL: "https://apps.apple.com/app/id6796720669",
+         rating: nil // launched 2026-09, no ratings yet
+      ),
+      AppCatalogEntry(
          slug: "qr-code-scanner",
          name: "QR Code Scanner by NFC.cool",
          operatingSystem: "iOS",

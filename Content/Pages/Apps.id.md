@@ -26,6 +26,14 @@ NFC.cool Tools dan aplikasi Business Card adalah bintang utamanya, tapi bukan sa
 
 <div class="page-cards-grid apps-index-grid">
 
+<a class="page-card app-card" href="/id/apps/moments/">
+<img class="app-card-icon app-icon-light" src="/assets/images/Apps/moments/icon.webp" alt="Ikon aplikasi Moments by NFC.cool" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon app-icon-dark" src="/assets/images/Apps/moments/icon-dark.webp" alt="Ikon aplikasi Moments by NFC.cool" width="64" height="64" loading="lazy"/>
+<h3>Moments by NFC.cool</h3>
+<p>Tempelkan tag NFC di buku tamu, bingkai foto, atau kado. Siapa pun yang menyentuhnya dengan ponsel bisa menambahkan foto ke satu album bersama, tanpa aplikasi dan tanpa akun.</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/id/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="Ikon aplikasi QR Code Scanner by NFC.cool" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>

@@ -26,6 +26,14 @@ NFC.cool ToolsとBusiness Cardアプリが主役ですが、私が作ってい�
 
 <div class="page-cards-grid apps-index-grid">
 
+<a class="page-card app-card" href="/ja/apps/moments/">
+<img class="app-card-icon app-icon-light" src="/assets/images/Apps/moments/icon.webp" alt="Moments by NFC.coolのアプリアイコン" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon app-icon-dark" src="/assets/images/Apps/moments/icon-dark.webp" alt="Moments by NFC.coolのアプリアイコン" width="64" height="64" loading="lazy"/>
+<h3>Moments by NFC.cool</h3>
+<p>芳名帳や額縁、贈り物にNFCタグを貼るだけ。スマホをかざした人は誰でも、アプリもアカウントもなしで共有アルバムに写真を追加できます。</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/ja/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="QR Code Scanner by NFC.coolのアプリアイコン" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>

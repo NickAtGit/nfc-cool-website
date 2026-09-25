@@ -26,6 +26,14 @@ description: "Крім NFC.cool Tools і Business Card я випускаю кі�
 
 <div class="page-cards-grid apps-index-grid">
 
+<a class="page-card app-card" href="/uk/apps/moments/">
+<img class="app-card-icon app-icon-light" src="/assets/images/Apps/moments/icon.webp" alt="Іконка застосунку Moments by NFC.cool" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon app-icon-dark" src="/assets/images/Apps/moments/icon-dark.webp" alt="Іконка застосунку Moments by NFC.cool" width="64" height="64" loading="lazy"/>
+<h3>Moments by NFC.cool</h3>
+<p>Наклей NFC-мітку на книгу побажань, фоторамку чи подарунок. Кожен, хто піднесе до неї телефон, додасть світлини до спільного альбому без застосунку й без облікового запису.</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="Іконка застосунку QR Code Scanner by NFC.cool" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
