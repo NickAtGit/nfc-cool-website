@@ -1,7 +1,7 @@
 import {
   CanvasTexture, Color, DoubleSide, DynamicDrawUsage, ExtrudeGeometry, Group, InstancedMesh, Mesh,
   MeshBasicMaterial, MeshPhysicalMaterial, MeshStandardMaterial, Object3D, PlaneGeometry, RingGeometry,
-  RoundedBoxGeometry, Shape, Sprite, SpriteMaterial, SRGBColorSpace, Vector3,
+  Shape, Sprite, SpriteMaterial, SRGBColorSpace, Vector3,
 } from 'three';
 import { clamp, damp, easeInOutCubic, easeOutBack, lerp, smoothstep, TAU } from './math.mjs';
 
@@ -14,6 +14,19 @@ const PHONE_HIDDEN = { pos: new Vector3(1.9, 1.0, 1.3), rot: new Vector3(-0.3, -
 const PHONE_BESIDE = { pos: new Vector3(0.62, 0.3, 0.42), rot: new Vector3(-1.05, -0.6, 0.2), scale: 0.8 };
 const PHONE_CORNER = { pos: new Vector3(0.3, 0.3, 0.42), rot: new Vector3(-1.0, -0.5, 0.2), scale: 0.55 };
 const BOOT_S = 0.6;
+const PHONE = { w: 0.34, h: 0.68, depth: 0.034, corner: 0.06, bezel: 0.02 };
+
+/** A rounded rectangle outline centred on the origin, with true circular corners. */
+function roundedRect(w, h, r) {
+  const s = new Shape();
+  const x = w / 2 - r;
+  const y = h / 2 - r;
+  s.absarc(x, y, r, 0, Math.PI / 2);
+  s.absarc(-x, y, r, Math.PI / 2, Math.PI);
+  s.absarc(-x, -y, r, Math.PI, Math.PI * 1.5);
+  s.absarc(x, -y, r, Math.PI * 1.5, Math.PI * 2);
+  return s;
+}
 const INK = { light: '#5C6275', dark: '#DDE2EC' };
 
 function glyphTexture(char) {
@@ -33,14 +46,14 @@ function glyphTexture(char) {
 /** The phone's lock screen: a dark gradient with the white NFC.cool wordmark. The logo
  *  loads asynchronously and is drawn in when ready; the phone only appears during a scan. */
 function phoneScreenTexture() {
-  const w = 300;
-  const h = 620;
+  const w = Math.round((PHONE.w - PHONE.bezel * 2) * 1000);
+  const h = Math.round((PHONE.h - PHONE.bezel * 2) * 1000);
   const c = document.createElement('canvas');
   c.width = w;
   c.height = h;
   const g = c.getContext('2d');
   g.beginPath();
-  g.roundRect(0, 0, w, h, 34);
+  g.roundRect(0, 0, w, h, (PHONE.corner - PHONE.bezel) * 1000); // canvas is 1000 px per metre
   g.clip();
   const bg = g.createLinearGradient(0, 0, 0, h);
   bg.addColorStop(0, '#0F1726');
@@ -142,11 +155,19 @@ export function createFx(scene, { anchors, glow = {}, reducedMotion = false, dar
 
   // The phone that scans the base: a generic slab, no marks.
   const phone = new Group();
-  const body = new Mesh(new RoundedBoxGeometry(0.34, 0.68, 0.034, 4, 0.05),
+  // An extruded outline, not a rounded box: a rounded box caps its corner radius at half
+  // the thinnest side (the 3.4 mm depth), which leaves the outline corners nearly square.
+  const edge = 0.006;
+  const bodyGeometry = new ExtrudeGeometry(roundedRect(PHONE.w - edge * 2, PHONE.h - edge * 2, PHONE.corner - edge), {
+    depth: PHONE.depth - edge * 2, bevelEnabled: true, bevelThickness: edge, bevelSize: edge, bevelSegments: 3, curveSegments: 16,
+  });
+  bodyGeometry.center();
+  const body = new Mesh(bodyGeometry,
     new MeshPhysicalMaterial({ color: '#1C1E24', metalness: 0.4, roughness: 0.35, clearcoat: 1, clearcoatRoughness: 0.06 }));
   body.castShadow = true;
-  const screen = new Mesh(new PlaneGeometry(0.3, 0.62), new MeshBasicMaterial({ map: phoneScreenTexture(), transparent: true, color: new Color(1.5, 1.5, 1.5) }));
-  screen.position.z = 0.0175;
+  const screen = new Mesh(new PlaneGeometry(PHONE.w - PHONE.bezel * 2, PHONE.h - PHONE.bezel * 2),
+    new MeshBasicMaterial({ map: phoneScreenTexture(), transparent: true, color: new Color(1.5, 1.5, 1.5) }));
+  screen.position.z = PHONE.depth / 2 + 0.0005;
   phone.add(body, screen);
   phone.visible = false;
   scene.add(phone);
