@@ -16,6 +16,7 @@ python3 Scripts/lint-russian.py   # Russian-only prose lint (see below)
 python3 Scripts/lint-russian.py --selftest   # check the Russian lint's own rules
 python3 Scripts/lint-ukrainian.py   # Ukrainian-only prose lint (see below)
 python3 Scripts/lint-ukrainian.py --selftest   # check the Ukrainian lint's own rules
+node --test "Scripts/fidget/tests/*.test.mjs"   # /fidget/ toy: GLB contract, three bundle, pure modules
 ```
 
 `i18n-check` is this repo's own gate (see `Sources/Site/I18n/`, configured by repo-root
@@ -139,6 +140,7 @@ Every localized page lives under `/<lang>/…` for each locale in `localization.
 | `/feed.xml`, `/<lang>/feed.xml` | SiteKit `RSSFeedRenderer` with `FilteredFeedDataAdapter` |
 | `/sitemap.xml`, `/sitemap_index.xml`, `/llms.txt`, `/robots.txt`, `/404.html` | SiteKit (sitemap uses `FeatureSitemapDataAdapter`), `RobotsTxtRenderer`, `CustomErrorPageRenderer` |
 | `/app-ads.txt`, `/.well-known/apple-app-site-association` | `Content/StaticFiles/` copied verbatim by `StaticRootFilesRenderer` |
+| `/fidget/` | `Content/StaticFiles/fidget/` - a standalone, unlinked, `noindex` 3D toy page (three.js r186 from one vendored bundle + `figure.glb`), copied verbatim. Its `<head data-standalone>` keeps every head-injecting processor out (no Smart App Banner, font preloads or robots meta); runtime files are `.mjs` so `AssetMinifier` leaves them alone. The figure is built by `Scripts/fidget/blender/build_figure.py` (Blender 5.2, headless), the bundle by `Scripts/fidget/vendor-three.sh`; spec in `docs/superpowers/specs/2026-09-26-fidget-figure-design.md` |
 | `/_redirects` + HTML bridge pages | `redirects.yaml` via SiteKit `RedirectRenderer` (`_redirects` is unused on GH Pages; the HTML fallbacks do the work) |
 
 Feature slugs: `nfc-reader-writer`, `qr-scanner`, `barcode-scanner`, `document-scanner`, `3d-object-scanner`, `room-scanner`, `webhooks`. To add a new feature: append a slug to `FeaturePageRenderer.slugs` in `Sources/Site/Renderers/FeaturePageRenderer.swift` and drop `{slug}.yaml` plus a `{slug}.<lang>.yaml` for every configured locale into `Content/Data/Features/` (`i18n-check` fails on a missing sibling).
@@ -172,7 +174,7 @@ Content/
 ├── Pages/                       ← About, AffiliateLinks, business-card, Contact, Developers, NfcReader, Press, Reviews, TapCounter (+ .<lang>.md each); Privacy, Terms (EN-only)
 ├── Blog/YYYY-MM-DD-{slug}.md    + .<lang>.md for every locale (i18n-check enforces the full set)
 ├── Changelog/YYYY-MM-DD-{slug}.md   ← EN-only by design
-├── StaticFiles/                 ← copied verbatim to the site root (app-ads.txt, .well-known/apple-app-site-association)
+├── StaticFiles/                 ← copied verbatim to the site root (app-ads.txt, .well-known/apple-app-site-association, fidget/)
 └── Assets/
     ├── images/Tools-iOS/, Tools-Android/, BusinessCard/   ← app icons + screenshots
     ├── images/Blog/, Features/, About/, Reviews/, Affiliate/, Webflow/   ← page + post art

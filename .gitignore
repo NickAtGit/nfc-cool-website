@@ -10,3 +10,6 @@ DerivedData/
 # Python bytecode from the locale lint scripts
 __pycache__/
 *.pyc
+
+# /fidget: Blender renders, playblasts, scratch output
+Scripts/fidget/out/

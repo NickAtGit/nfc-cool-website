@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<!-- The site's post-build processors (Smart App Banner, font preloads, robots, theme-color,
+     Search Console, twitter:site) each insert right after a bare head tag. This page is
+     deliberately unbranded, so its head tag carries an attribute and none of them match.
+     Scripts/fidget/tests/page.test.mjs fails if a bare head tag ever appears here. -->
+<head data-standalone>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ECE9E4">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#15171C">
+<title>Fidget</title>
+<link rel="icon" href="data:,">
+<script type="importmap">{ "imports": { "three": "./vendor/three.bundle.min.mjs" } }</script>
+<link rel="modulepreload" href="./vendor/three.bundle.min.mjs">
+<link rel="modulepreload" href="./fidget.mjs">
+<style>
+  :root {
+    --bg: #E4E0DA; --bg-center: #F7F5F1; --ink: #23262D;
+    --glass: rgba(255, 255, 255, 0.55); --glass-edge: rgba(255, 255, 255, 0.75);
+    --shadow: 0 10px 30px rgba(35, 38, 45, 0.14); --focus: #FF6B5B;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111317; --bg-center: #2B2F38; --ink: #EDEFF3;
+      --glass: rgba(34, 37, 44, 0.55); --glass-edge: rgba(255, 255, 255, 0.12);
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+    }
+  }
+  html, body {
+    margin: 0; height: 100%; overflow: hidden; overscroll-behavior: none;
+    background: radial-gradient(120% 90% at 50% 62%, var(--bg-center), var(--bg));
+    color: var(--ink); font: 500 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+  #stage {
+    position: fixed; inset: 0; width: 100vw; height: 100dvh; display: block;
+    touch-action: none; user-select: none; -webkit-user-select: none; outline: none;
+    opacity: 0; transition: opacity 0.6s ease;
+  }
+  #stage.ready { opacity: 1; }
+  button {
+    appearance: none; border: 0; background: transparent; color: var(--ink); font: inherit;
+    display: grid; place-items: center; cursor: pointer; touch-action: manipulation;
+    border-radius: 999px; transition: transform 0.15s ease, background-color 0.15s ease;
+  }
+  button:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  button svg { width: 24px; height: 24px; }
+  .glass {
+    background: var(--glass); border: 1px solid var(--glass-edge); box-shadow: var(--shadow);
+    -webkit-backdrop-filter: blur(18px) saturate(1.5); backdrop-filter: blur(18px) saturate(1.5);
+  }
+  .dock {
+    position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom));
+    transform: translateX(-50%); display: flex; gap: 6px; padding: 6px; border-radius: 999px;
+  }
+  .dock button { width: 52px; height: 52px; }
+  .dock button:hover { background: rgba(127, 127, 127, 0.14); }
+  .dock button:active { transform: scale(0.92); }
+  .dock button[aria-pressed="true"] { background: var(--ink); color: var(--bg-center); }
+  .corner {
+    position: fixed; display: flex; gap: 8px;
+    top: calc(14px + env(safe-area-inset-top)); right: calc(14px + env(safe-area-inset-right));
+  }
+  .corner button { width: 44px; height: 44px; font-weight: 700; font-size: 17px; }
+  .corner button:active { transform: scale(0.92); }
+  #sound[aria-pressed="false"] .on, #sound[aria-pressed="true"] .off { display: none; }
+  .help {
+    margin: auto; max-width: min(420px, calc(100vw - 32px)); padding: 20px 22px; border-radius: 20px;
+    color: var(--ink); background: var(--glass); border: 1px solid var(--glass-edge); box-shadow: var(--shadow);
+    -webkit-backdrop-filter: blur(24px) saturate(1.5); backdrop-filter: blur(24px) saturate(1.5);
+  }
+  .help::backdrop { background: rgba(0, 0, 0, 0.12); }
+  .help h2 { margin: 0 0 10px; font-size: 18px; }
+  .help dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; }
+  .help dt { font-weight: 700; }
+  .help dd { margin: 0; opacity: 0.85; }
+  .loader { position: fixed; inset: 0; display: grid; place-items: center; pointer-events: none; transition: opacity 0.4s ease; }
+  .loader.done { opacity: 0; }
+  .loader .ring {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: conic-gradient(var(--ink) calc(var(--p, 0) * 1turn), rgba(127, 127, 127, 0.22) 0);
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 4px), #000 calc(100% - 3px));
+    mask: radial-gradient(farthest-side, transparent calc(100% - 4px), #000 calc(100% - 3px));
+  }
+  .fallback {
+    position: fixed; inset: 0; display: grid; place-items: end center; text-align: center;
+    padding: 0 24px calc(40px + env(safe-area-inset-bottom)); background: center / contain no-repeat;
+  }
+  .fallback[hidden] { display: none; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .debug {
+    position: fixed; left: 10px; top: 10px; padding: 8px 10px; border-radius: 12px; font: 12px/1.4 ui-monospace, monospace;
+    display: flex; flex-direction: column; gap: 6px; max-width: 46vw;
+  }
+  .debug .board { display: flex; flex-wrap: wrap; gap: 4px; }
+  .debug .board button { font: inherit; padding: 3px 8px; border-radius: 8px; background: rgba(127, 127, 127, 0.18); }
+  @media (max-width: 480px) { .dock button { width: 48px; height: 48px; } }
+  @media (prefers-reduced-motion: reduce) { #stage, .loader, button { transition: none; } }
+</style>
+</head>
+<body>
+<canvas id="stage" role="img" tabindex="-1" aria-label="A small toy robot on a round base. Drag sideways to spin it, tap it to poke it."></canvas>
+<div id="loader" class="loader" aria-hidden="true"><div class="ring"></div></div>
+<div id="fallback" class="fallback" hidden><p>This toy needs WebGL 2, which this browser does not offer.</p></div>
+
+<div class="corner">
+  <button class="glass" type="button" popovertarget="help" aria-label="How to play" title="How to play (?)">?</button>
+  <button id="sound" class="glass" type="button" aria-pressed="true" aria-label="Sound" title="Sound (M)">
+    <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>
+    <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="m16 9 5 6"/><path d="m21 9-5 6"/></svg>
+  </button>
+</div>
+
+<nav class="dock glass" aria-label="Actions">
+  <button type="button" data-action="wave" aria-label="Wave" title="Wave (W)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11"/><path d="M11 10.5V4a1.5 1.5 0 0 1 3 0v6.5"/><path d="M14 10.5V5.5a1.5 1.5 0 0 1 3 0v7"/><path d="M17 11.5a1.5 1.5 0 0 1 3 0V15a7 7 0 0 1-7 7h-1a6.5 6.5 0 0 1-5.2-2.6L3.9 15.6a1.6 1.6 0 0 1 2.5-2L8 15"/></svg>
+  </button>
+  <button type="button" data-action="jump" aria-label="Jump" title="Jump (J)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4"/><path d="m6.5 9.5 5.5-5.5 5.5 5.5"/><path d="M5 20h14"/></svg>
+  </button>
+  <button type="button" data-action="dance" aria-label="Dance" aria-pressed="false" title="Dance (D)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+  </button>
+  <button type="button" data-action="scan" aria-label="Scan" title="Scan (S)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="12" r="1.3"/><path d="M9 8.5a5 5 0 0 1 0 7"/><path d="M12.5 5.5a9.5 9.5 0 0 1 0 13"/><path d="M16 2.5a14 14 0 0 1 0 19"/></svg>
+  </button>
+</nav>
+
+<div id="help" class="help" popover>
+  <h2>How to Play</h2>
+  <dl>
+    <dt>Drag sideways</dt><dd>Spin the base. Flick it hard and see what happens.</dd>
+    <dt>Drag up or down</dt><dd>Tilt the view</dd>
+    <dt>Pinch or scroll</dt><dd>Zoom</dd>
+    <dt>Double-tap</dt><dd>Reset the view</dd>
+    <dt>Tap</dt><dd>Poke the head, the belly or the base</dd>
+    <dt>Keys</dt><dd>Arrows spin and tilt, + and - zoom, W wave, J jump, D dance, S scan, M sound, 0 reset</dd>
+  </dl>
+</div>
+
+<p id="status" class="sr-only" aria-live="polite"></p>
+
+<script>
+  // If the module graph never starts (a missing export, an old browser), show the
+  // fallback instead of a blank page. fidget.mjs sets data-booted as its first act.
+  setTimeout(function () {
+    if (document.documentElement.dataset.booted) return;
+    document.getElementById('fallback').hidden = false;
+    document.getElementById('loader').classList.add('done');
+  }, 12000);
+</script>
+<script type="module" src="./fidget.mjs"></script>
+</body>
+</html>
