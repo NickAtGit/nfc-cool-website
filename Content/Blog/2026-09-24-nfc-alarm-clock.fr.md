@@ -1,16 +1,16 @@
 ---
 id: "nfc-alarm-2026-09"
-title: "Réveil NFC pour iPhone : scannez vos tags pour couper l'alarme"
+title: "Réveil NFC pour iPhone et Android : scannez vos tags pour couper l'alarme"
 date: "2026-09-24"
-tags: ["announcements", "iphone", "nfc-tags"]
-summary: "À force de coder tard le soir, je perdais chaque matin mon duel contre le bouton Répéter. Alors j'ai intégré Alarme NFC à NFC.cool Tools : une alarme iPhone qui ne se tait qu'une fois que vous avez fait le tour de vos tags NFC dans la maison. Voici comment elle fonctionne, et comment j'ai contourné le bouton Arrêter qu'Apple impose sur chaque alarme."
+tags: ["iphone", "android", "nfc-tags"]
+summary: "À force de coder tard le soir, je perdais chaque matin mon duel contre le bouton Répéter. Alors j'ai intégré Alarme NFC à NFC.cool Tools : une alarme pour iPhone et Android qui ne se tait qu'une fois que vous avez fait le tour de vos tags NFC dans la maison. Voici comment elle fonctionne, et comment j'ai contourné le bouton Arrêter qu'Apple impose sur chaque alarme."
 image: "/assets/images/Blog/nfc-alarm-clock.webp"
 imageAlt: "Un iPhone affichant un anneau de scan d'alarme à 2 sur 3 à côté d'une machine à café munie d'un autocollant NFC, avec un chemin pointillé de tags NFC qui repasse par une étagère du couloir jusqu'au lit"
 author: "Nicolo Stanciu"
-metaTitle: "Réveil NFC pour iPhone : scannez vos tags pour l'arrêter"
-metaDescription: "Une alarme iPhone qui ne s'arrête qu'une fois vos tags NFC scannés dans l'ordre. Comment j'ai créé Alarme NFC avec AlarmKit et déjoué le bouton Arrêter."
+metaTitle: "Réveil NFC iPhone et Android : scannez vos tags pour l'arrêter"
+metaDescription: "Une alarme pour iPhone et Android qui ne s'arrête qu'une fois vos tags NFC scannés dans l'ordre. Comment j'ai créé Alarme NFC avec AlarmKit et déjoué le bouton Arrêter."
 ogTitle: "Un réveil qu'on ne peut pas repousser"
-ogDescription: "Alarme NFC ne se tait qu'une fois que vous avez fait le tour de vos tags NFC dans la maison. Voici comment ça marche sur iPhone."
+ogDescription: "Alarme NFC ne se tait qu'une fois que vous avez fait le tour de vos tags NFC dans la maison. Voici comment ça marche sur iPhone et Android."
 ---
 Quand on est développeur indépendant, on vit à un rythme qui se moque des horaires de bureau. Le meilleur code s'écrit tard, quand les messages se calment et que la maison est silencieuse, et sans que je m'en rende compte il est deux heures du matin. Le réveil, lui, sonne évidemment à la même heure que d'habitude. Et j'appuie sur Répéter. Puis je recommence. Puis une troisième fois, jusqu'à ce que la matinée que j'avais prévue soit à moitié envolée.
 
@@ -18,7 +18,7 @@ J'ai longtemps réfléchi à ce que je pouvais vraiment y faire. Un réveil plus
 
 Et puis l'idée m'est venue : je passe mes journées à développer une app pour les tags NFC. Pourquoi ne pas marier les deux, et semer dans la maison un parcours de tags que je dois suivre chaque matin avant que le réveil me laisse tranquille ?
 
-C'est ça, **Alarme NFC**, et elle fait désormais partie de NFC.cool Tools sur iPhone. La version Android arrive bientôt.
+C'est ça, **Alarme NFC**, et elle fait désormais partie de NFC.cool Tools sur iPhone et Android.
 
 ---
 
@@ -77,6 +77,6 @@ Si vous n'avez pas encore de tags, mon [guide du débutant sur les tags NFC](/bl
 
 ## La mise en place
 
-Alarme NFC nécessite un iPhone sous iOS 26 ou plus récent, puisque c'est là qu'AlarmKit a fait son apparition. Vous la trouverez dans l'onglet NFC, sous **Applications NFC**. Créez une alarme, choisissez l'heure et les jours, puis scannez vos tags dans l'ordre où vous comptez les parcourir. Vous pouvez donner un nom à chaque tag pour savoir lequel vient ensuite. Placez-les sur un trajet qui vous fait vraiment sortir du lit : commencer à côté du lit, c'est bien, finir dans la cuisine, c'est encore mieux.
+Alarme NFC nécessite un iPhone sous iOS 26 ou plus récent, puisque c'est là qu'AlarmKit a fait son apparition. Côté Android, un téléphone sous Android 8.0 ou plus récent suffit. Vous la trouverez dans l'onglet NFC, sous **Applications NFC**. Créez une alarme, choisissez l'heure et les jours, puis scannez vos tags dans l'ordre où vous comptez les parcourir. Vous pouvez donner un nom à chaque tag pour savoir lequel vient ensuite. Placez-les sur un trajet qui vous fait vraiment sortir du lit : commencer à côté du lit, c'est bien, finir dans la cuisine, c'est encore mieux.
 
-Alarme NFC est gratuite, et vous la trouverez dans [NFC.cool Tools sur l'App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-fr&mt=8). Votre machine à café vous attend.
+Alarme NFC est gratuite, et vous la trouverez dans NFC.cool Tools, sur l'[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-fr&mt=8) et sur [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-alarm-clock-fr). Votre machine à café vous attend.

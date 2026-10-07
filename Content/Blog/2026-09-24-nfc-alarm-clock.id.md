@@ -1,16 +1,16 @@
 ---
 id: "nfc-alarm-2026-09"
-title: "Jam alarm NFC untuk iPhone: pindai tag Anda untuk mematikan alarm"
+title: "Jam alarm NFC untuk iPhone dan Android: pindai tag Anda untuk mematikan alarm"
 date: "2026-09-24"
-tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Kebiasaan begadang untuk coding membuat saya terus kalah melawan tombol tunda, jadi saya membangun Alarm NFC di NFC.cool Tools: alarm iPhone yang baru diam setelah Anda menyusuri rute tag NFC di sekeliling rumah. Begini cara kerjanya, dan cara saya mengakali tombol Hentikan yang dipasang Apple di setiap alarm."
+tags: ["iphone", "android", "nfc-tags"]
+summary: "Kebiasaan begadang untuk coding membuat saya terus kalah melawan tombol tunda, jadi saya membangun Alarm NFC di NFC.cool Tools: alarm untuk iPhone dan Android yang baru diam setelah Anda menyusuri rute tag NFC di sekeliling rumah. Begini cara kerjanya, dan cara saya mengakali tombol Hentikan yang dipasang Apple di setiap alarm."
 image: "/assets/images/Blog/nfc-alarm-clock.webp"
 imageAlt: "iPhone menampilkan lingkaran pemindaian alarm di angka 2 dari 3 di samping mesin kopi yang ditempeli stiker NFC, dengan jejak titik-titik tag NFC yang mengarah kembali melewati rak di lorong sampai ke kasur"
 author: "Nicolo Stanciu"
-metaTitle: "Alarm NFC untuk iPhone: pindai tag untuk mematikan alarm"
-metaDescription: "Alarm iPhone yang baru berhenti setelah Anda memindai tag NFC secara berurutan. Cara saya membangun Alarm NFC dengan AlarmKit dan mengakali tombol Hentikan."
+metaTitle: "Alarm NFC iPhone dan Android: pindai tag untuk mematikannya"
+metaDescription: "Alarm untuk iPhone dan Android yang baru berhenti setelah Anda memindai tag NFC secara berurutan. Cara saya membangun Alarm NFC dengan AlarmKit dan mengakali tombol Hentikan."
 ogTitle: "Alarm yang tidak bisa Anda tunda"
-ogDescription: "Alarm NFC baru diam setelah Anda menyusuri rute tag NFC di sekeliling rumah. Begini cara kerjanya di iPhone."
+ogDescription: "Alarm NFC baru diam setelah Anda menyusuri rute tag NFC di sekeliling rumah. Begini cara kerjanya di iPhone dan Android."
 ---
 Jadi developer indie punya ritme sendiri yang tidak peduli jam kantor. Kode terbaik saya justru lahir larut malam, saat notifikasi sudah berhenti dan rumah sudah sepi, dan tahu-tahu sudah jam dua pagi. Alarmnya, tentu saja, tetap berbunyi di jam yang sama. Lalu saya tekan Tunda. Sekali lagi. Lalu yang ketiga kalinya, sampai pagi yang sudah saya rencanakan tinggal separuh.
 
@@ -18,7 +18,7 @@ Cukup lama saya memikirkan apa yang sebenarnya bisa saya lakukan. Alarm yang leb
 
 Lalu muncul ide ini: setiap hari saya membangun aplikasi untuk tag NFC. Kenapa tidak digabungkan saja? Saya pasang serangkaian tag di sepanjang rumah, dan setiap pagi alarm baru mau diam setelah saya menyusuri semuanya.
 
-Itulah **Alarm NFC**, dan sekarang fitur ini sudah ada di NFC.cool Tools untuk iPhone. Versi Android-nya segera menyusul.
+Itulah **Alarm NFC**, dan sekarang fitur ini sudah ada di NFC.cool Tools untuk iPhone dan Android.
 
 ---
 
@@ -77,6 +77,6 @@ Kalau Anda belum punya tag, [panduan pemula saya tentang tag NFC](/blog/nfc-tags
 
 ## Cara menyiapkannya
 
-Alarm NFC membutuhkan iPhone dengan iOS 26 atau yang lebih baru, karena di situlah AlarmKit tersedia. Anda bisa menemukannya di tab NFC, di bagian **Aplikasi NFC**. Buat alarm, pilih jam dan harinya, lalu pindai tag-tag Anda sesuai urutan rute yang ingin Anda jalani. Setiap tag bisa diberi nama supaya Anda tahu mana yang berikutnya. Susun rutenya supaya Anda benar-benar terpaksa turun dari kasur. Samping kasur adalah awal yang bagus, dapur adalah akhir yang lebih bagus lagi.
+Alarm NFC membutuhkan iPhone dengan iOS 26 atau yang lebih baru, karena di situlah AlarmKit tersedia. Di Android, cukup ponsel dengan Android 8.0 atau yang lebih baru. Anda bisa menemukannya di tab NFC, di bagian **Aplikasi NFC**. Buat alarm, pilih jam dan harinya, lalu pindai tag-tag Anda sesuai urutan rute yang ingin Anda jalani. Setiap tag bisa diberi nama supaya Anda tahu mana yang berikutnya. Susun rutenya supaya Anda benar-benar terpaksa turun dari kasur. Samping kasur adalah awal yang bagus, dapur adalah akhir yang lebih bagus lagi.
 
-Alarm NFC gratis, dan tersedia di [NFC.cool Tools di App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-id&mt=8). Mesin kopi Anda sudah menunggu.
+Alarm NFC gratis, dan tersedia di NFC.cool Tools di [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-id&mt=8) dan di [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-alarm-clock-id). Mesin kopi Anda sudah menunggu.

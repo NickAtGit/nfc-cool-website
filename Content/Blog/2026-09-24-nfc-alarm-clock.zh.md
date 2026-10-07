@@ -1,16 +1,16 @@
 ---
 id: "nfc-alarm-2026-09"
-title: "iPhone NFC 闹钟：把标签挨个扫一遍，闹钟才会停"
+title: "iPhone 和 Android 上的 NFC 闹钟：把标签挨个扫一遍，闹钟才会停"
 date: "2026-09-24"
-tags: ["announcements", "iphone", "nfc-tags"]
-summary: "深夜写代码的我，总是败给贪睡按钮，于是我在 NFC.cool Tools 里做了 NFC 闹钟：一个 iPhone 闹钟，只有你在家里沿着路线把几张 NFC 标签挨个扫一遍，它才肯安静下来。这篇讲讲它是怎么运作的，以及我是怎么绕过 Apple 给每个闹钟都配上的那个“停止”按钮的。"
+tags: ["iphone", "android", "nfc-tags"]
+summary: "深夜写代码的我，总是败给贪睡按钮，于是我在 NFC.cool Tools 里做了 NFC 闹钟：一个 iPhone 和 Android 都能用的闹钟，只有你在家里沿着路线把几张 NFC 标签挨个扫一遍，它才肯安静下来。这篇讲讲它是怎么运作的，以及我是怎么绕过 Apple 给每个闹钟都配上的那个“停止”按钮的。"
 image: "/assets/images/Blog/nfc-alarm-clock.webp"
 imageAlt: "一台 iPhone 上的闹钟扫描进度环停在 3 张中的第 2 张，旁边是一台贴着 NFC 贴纸的咖啡机，一串虚线连起的 NFC 标签经过走廊的置物架，一路延伸回床边"
 author: "Nicolo Stanciu"
-metaTitle: "iPhone NFC 闹钟：按顺序扫描标签才能关掉闹钟"
-metaDescription: "一个必须按顺序扫描 NFC 标签才能关掉的 iPhone 闹钟。我是怎么用 AlarmKit 做出 NFC 闹钟的，又是怎么绕开锁定屏幕上那个“停止”按钮的，这篇都讲清楚了。"
+metaTitle: "iPhone 和 Android 上的 NFC 闹钟：按顺序扫描标签才能关掉"
+metaDescription: "一个必须按顺序扫描 NFC 标签才能关掉的闹钟，iPhone 和 Android 都能用。我是怎么用 AlarmKit 做出 NFC 闹钟的，又是怎么绕开锁定屏幕上那个“停止”按钮的，这篇都讲清楚了。"
 ogTitle: "这个闹钟，你赖不了床"
-ogDescription: "只有在家里沿着路线把 NFC 标签挨个扫一遍，NFC 闹钟才会安静。来看看它在 iPhone 上是怎么运作的。"
+ogDescription: "只有在家里沿着路线把 NFC 标签挨个扫一遍，NFC 闹钟才会安静。来看看它在 iPhone 和 Android 上是怎么运作的。"
 ---
 做独立开发者，作息从来不看上班时间。写代码最顺手的时候总在深夜：消息停了，家里也静了，一抬头已经凌晨两点。闹钟当然不管这些，第二天照样准点响。然后我按下贪睡。再按一次。再按第三次，直到我计划好的那个早晨过去了一半。
 
@@ -18,7 +18,7 @@ ogDescription: "只有在家里沿着路线把 NFC 标签挨个扫一遍，NFC �
 
 后来我突然想到：我整天都在做一款跟 NFC 标签打交道的 App，为什么不把两件事凑到一起？在家里摆一条标签路线，每天早上非得挨个走完，闹钟才肯放过我。
 
-这就是 **NFC 闹钟**，它现在已经加入了 iPhone 版 NFC.cool Tools。Android 版也即将推出。
+这就是 **NFC 闹钟**，它现在已经加入了 iPhone 版和 Android 版 NFC.cool Tools。
 
 ---
 
@@ -77,6 +77,6 @@ AlarmKit 允许 App 在“停止”旁边放一个自己的按钮，但也只有
 
 ## 怎么设置
 
-NFC 闹钟需要一台运行 iOS 26 或更高版本的 iPhone，因为 AlarmKit 是从这个版本才有的。你可以在 NFC 页面的 **NFC 应用程序** 里找到它。新建一个闹钟，选好时间和要响的日子，然后按你打算走的顺序，把想用的标签逐一扫描一遍。你还可以给每张标签起个名字，这样就知道下一张该扫哪张。记得把它们摆在一条真能让你下床的路线上：起点放在床边就不错，终点放在厨房就更好了。
+NFC 闹钟需要一台运行 iOS 26 或更高版本的 iPhone，因为 AlarmKit 是从这个版本才有的；也可以用一台运行 Android 8.0 或更高版本的 Android 手机。你可以在 NFC 页面的 **NFC 应用程序** 里找到它。新建一个闹钟，选好时间和要响的日子，然后按你打算走的顺序，把想用的标签逐一扫描一遍。你还可以给每张标签起个名字，这样就知道下一张该扫哪张。记得把它们摆在一条真能让你下床的路线上：起点放在床边就不错，终点放在厨房就更好了。
 
-NFC 闹钟完全免费，就在 [App Store 上的 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-zh&mt=8) 里。你的咖啡机已经在等你了。
+NFC 闹钟完全免费，就在 NFC.cool Tools 里，[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-zh&mt=8) 和 [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-alarm-clock-zh) 上都能下载。你的咖啡机已经在等你了。

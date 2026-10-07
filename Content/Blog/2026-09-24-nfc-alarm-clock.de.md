@@ -1,16 +1,16 @@
 ---
 id: "nfc-alarm-2026-09"
-title: "NFC-Wecker fürs iPhone: Erst die Tags scannen, dann ist Ruhe"
+title: "NFC-Wecker für iPhone und Android: Erst die Tags scannen, dann ist Ruhe"
 date: "2026-09-24"
-tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Nach langen Programmiernächten hat morgens regelmäßig die Schlummertaste gewonnen. Also habe ich den NFC-Wecker in NFC.cool Tools eingebaut: einen iPhone-Wecker, der erst Ruhe gibt, wenn du eine Route aus NFC-Tags durch deine Wohnung abgelaufen bist. Hier erkläre ich, wie er funktioniert und wie ich die Stoppen-Taste austrickse, die Apple auf jeden Wecker setzt."
+tags: ["iphone", "android", "nfc-tags"]
+summary: "Nach langen Programmiernächten hat morgens regelmäßig die Schlummertaste gewonnen. Also habe ich den NFC-Wecker in NFC.cool Tools eingebaut: einen Wecker für iPhone und Android, der erst Ruhe gibt, wenn du eine Route aus NFC-Tags durch deine Wohnung abgelaufen bist. Hier erkläre ich, wie er funktioniert und wie ich die Stoppen-Taste austrickse, die Apple auf jeden Wecker setzt."
 image: "/assets/images/Blog/nfc-alarm-clock.webp"
 imageAlt: "Ein iPhone zeigt einen Scan-Ring bei 2 von 3 neben einer Kaffeemaschine mit NFC-Sticker, dahinter führt eine gepunktete Spur aus NFC-Tags an einem Regal im Flur vorbei zurück zum Bett"
 author: "Nicolo Stanciu"
-metaTitle: "NFC-Wecker fürs iPhone: Wecker per NFC-Tag ausschalten"
-metaDescription: "Ein iPhone-Wecker, der erst verstummt, wenn du deine NFC-Tags der Reihe nach scannst. So habe ich ihn mit AlarmKit gebaut und die Stoppen-Taste ausgetrickst."
+metaTitle: "NFC-Wecker für iPhone und Android: per NFC-Tag ausschalten"
+metaDescription: "Ein Wecker für iPhone und Android, der erst verstummt, wenn du deine NFC-Tags der Reihe nach scannst. So habe ich ihn mit AlarmKit gebaut und die Stoppen-Taste ausgetrickst."
 ogTitle: "Ein Wecker, den du nicht einfach wegdrücken kannst"
-ogDescription: "Der NFC-Wecker gibt erst Ruhe, wenn du eine Route aus NFC-Tags durch deine Wohnung abgelaufen bist. So funktioniert das auf dem iPhone."
+ogDescription: "Der NFC-Wecker gibt erst Ruhe, wenn du eine Route aus NFC-Tags durch deine Wohnung abgelaufen bist. So funktioniert das auf iPhone und Android."
 ---
 Als Indie-Entwickler lebt man in einem Rhythmus, der sich nicht um Bürozeiten schert. Am besten programmiere ich spätabends, wenn keine Nachrichten mehr reinkommen und es im Haus still ist, und ehe ich mich versehe, ist es zwei Uhr nachts. Der Wecker klingelt natürlich trotzdem zur gewohnten Zeit. Und ich drücke auf Schlummern. Dann noch mal. Und ein drittes Mal, bis der halbe Vormittag, den ich mir vorgenommen hatte, schon wieder weg ist.
 
@@ -18,7 +18,7 @@ Ich habe eine Weile überlegt, was ich eigentlich dagegen tun kann. Ein lauterer
 
 Dann kam mir die Idee: Ich baue den ganzen Tag an einer App für NFC-Tags. Warum nicht beides verbinden und mir jeden Morgen eine kleine Schnitzeljagd aus Tags auslegen, die ich ablaufen muss, bevor mich der Wecker in Ruhe lässt?
 
-Das ist der **NFC-Wecker**, und er steckt ab sofort in NFC.cool Tools, vorerst fürs iPhone. Die Android-Version folgt bald.
+Das ist der **NFC-Wecker**, und er steckt ab sofort in NFC.cool Tools für iPhone und Android.
 
 ---
 
@@ -77,6 +77,6 @@ Falls du noch keine Tags hast: In meinem [Einsteiger-Ratgeber zu NFC-Tags](/blog
 
 ## So richtest du ihn ein
 
-Der NFC-Wecker braucht ein iPhone mit iOS 26 oder neuer, weil es AlarmKit erst dort gibt. Du findest ihn im NFC-Tab unter **NFC-Apps**. Leg einen Wecker an, wähl Uhrzeit und Wochentage aus und scanne dann die Tags, die du verwenden willst, in der Reihenfolge, in der du sie ablaufen möchtest. Jeder Tag kann einen Namen bekommen, damit du weißt, welcher als Nächstes dran ist. Verteil sie so, dass die Route dich wirklich aus dem Bett holt. Neben dem Bett ist ein guter Anfang, die Küche ein noch besseres Ziel.
+Der NFC-Wecker braucht ein iPhone mit iOS 26 oder neuer, weil es AlarmKit erst dort gibt. Alternativ läuft er auf Android-Handys ab Android 8.0. Du findest ihn im NFC-Tab unter **NFC-Apps**. Leg einen Wecker an, wähl Uhrzeit und Wochentage aus und scanne dann die Tags, die du verwenden willst, in der Reihenfolge, in der du sie ablaufen möchtest. Jeder Tag kann einen Namen bekommen, damit du weißt, welcher als Nächstes dran ist. Verteil sie so, dass die Route dich wirklich aus dem Bett holt. Neben dem Bett ist ein guter Anfang, die Küche ein noch besseres Ziel.
 
-Der NFC-Wecker ist kostenlos und steckt in [NFC.cool Tools im App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-de&mt=8). Deine Kaffeemaschine wartet schon.
+Der NFC-Wecker ist kostenlos und steckt in NFC.cool Tools, zu haben im [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-de&mt=8) und bei [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-alarm-clock-de). Deine Kaffeemaschine wartet schon.

@@ -1,16 +1,16 @@
 ---
 id: "nfc-alarm-2026-09"
-title: "Sveglia NFC per iPhone: per spegnerla devi scansionare i tag"
+title: "Sveglia NFC per iPhone e Android: per spegnerla devi scansionare i tag"
 date: "2026-09-24"
-tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Le notti passate a programmare perdevano sempre contro il tasto Posticipa, così ho creato la Sveglia NFC dentro NFC.cool Tools: una sveglia per iPhone che tace solo dopo che hai seguito un percorso di tag NFC sparsi per casa. Ecco come funziona e come ho aggirato il pulsante Interrompi che Apple mette su ogni sveglia."
+tags: ["iphone", "android", "nfc-tags"]
+summary: "Le notti passate a programmare perdevano sempre contro il tasto Posticipa, così ho creato la Sveglia NFC dentro NFC.cool Tools: una sveglia per iPhone e Android che tace solo dopo che hai seguito un percorso di tag NFC sparsi per casa. Ecco come funziona e come ho aggirato il pulsante Interrompi che Apple mette su ogni sveglia."
 image: "/assets/images/Blog/nfc-alarm-clock.webp"
 imageAlt: "Un iPhone con l'anello di scansione della sveglia fermo a 2 su 3, accanto a una macchinetta del caffè con un adesivo NFC, e una scia tratteggiata di tag NFC che riporta al letto passando da una mensola in corridoio"
 author: "Nicolo Stanciu"
-metaTitle: "Sveglia NFC per iPhone: si spegne solo scansionando i tag"
-metaDescription: "Una sveglia per iPhone che si spegne solo scansionando i tag NFC nell'ordine giusto. Come ho creato la Sveglia NFC con AlarmKit e aggirato il tasto Interrompi."
+metaTitle: "Sveglia NFC per iPhone e Android: si spegne solo con i tag"
+metaDescription: "Una sveglia per iPhone e Android che si spegne solo scansionando i tag NFC nell'ordine giusto. Come ho creato la Sveglia NFC con AlarmKit e aggirato il tasto Interrompi."
 ogTitle: "La sveglia che non ti concede altri cinque minuti"
-ogDescription: "La Sveglia NFC tace solo quando hai seguito un percorso di tag NFC sparsi per casa. Ecco come funziona su iPhone."
+ogDescription: "La Sveglia NFC tace solo quando hai seguito un percorso di tag NFC sparsi per casa. Ecco come funziona su iPhone e Android."
 ---
 Fare lo sviluppatore indipendente ha un ritmo tutto suo, che degli orari d'ufficio se ne infischia. Il codice migliore lo scrivo tardi, quando i messaggi smettono di arrivare e la casa è silenziosa, e senza accorgermene si fanno le due di notte. La sveglia, ovviamente, suona sempre alla stessa ora. E io premo Posticipa. Poi di nuovo. Poi una terza volta, finché metà della mattinata che avevo in programma è andata in fumo.
 
@@ -18,7 +18,7 @@ Ci ho rimuginato un bel po', chiedendomi cosa potessi fare davvero. Una sveglia 
 
 Poi mi è venuta l'idea: passo le giornate a sviluppare un'app per i tag NFC. Perché non mettere insieme le due cose e disseminare per casa un percorso di tag da seguire ogni mattina, prima che la sveglia mi lasci in pace?
 
-È nata così la **Sveglia NFC**, che ora fa parte di NFC.cool Tools su iPhone. La versione per Android arriverà presto.
+È nata così la **Sveglia NFC**, che ora fa parte di NFC.cool Tools su iPhone e Android.
 
 ---
 
@@ -77,6 +77,6 @@ Se non hai ancora dei tag, nella mia [guida ai tag NFC per principianti](/blog/n
 
 ## Come configurarla
 
-La Sveglia NFC richiede un iPhone con iOS 26 o versioni successive, perché AlarmKit è arrivato lì. La trovi nella scheda NFC, sotto **Applicazioni NFC**. Crea una sveglia, scegli l'orario e i giorni, poi scansiona i tag nell'ordine in cui vuoi percorrerli. A ogni tag puoi dare un nome, così sai sempre qual è il prossimo. Sistemali lungo un percorso che ti faccia uscire dal letto sul serio. Il comodino è un buon punto di partenza, la cucina un traguardo ancora migliore.
+La Sveglia NFC richiede un iPhone con iOS 26 o versioni successive, perché AlarmKit è arrivato lì. In alternativa va bene un telefono Android con Android 8.0 o versioni successive. La trovi nella scheda NFC, sotto **Applicazioni NFC**. Crea una sveglia, scegli l'orario e i giorni, poi scansiona i tag nell'ordine in cui vuoi percorrerli. A ogni tag puoi dare un nome, così sai sempre qual è il prossimo. Sistemali lungo un percorso che ti faccia uscire dal letto sul serio. Il comodino è un buon punto di partenza, la cucina un traguardo ancora migliore.
 
-La Sveglia NFC è gratuita e la trovi in [NFC.cool Tools sull'App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-it&mt=8). La macchinetta del caffè ti aspetta.
+La Sveglia NFC è gratuita e la trovi in NFC.cool Tools sull'[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-it&mt=8) e su [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-alarm-clock-it). La macchinetta del caffè ti aspetta.

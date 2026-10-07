@@ -1,16 +1,16 @@
 ---
 id: "nfc-alarm-2026-09"
-title: "iPhoneのNFC目覚まし：タグを順番にスキャンしないと止まらないアラーム"
+title: "iPhoneとAndroidのNFC目覚まし：タグを順番にスキャンしないと止まらないアラーム"
 date: "2026-09-24"
-tags: ["announcements", "iphone", "nfc-tags"]
-summary: "夜ふかしでコードを書いては、毎朝スヌーズボタンに負け続けていました。そこでNFC.cool Toolsに「NFCアラーム」を作りました。家の中に貼ったNFCタグを順番にたどらないと鳴りやまない、iPhoneの目覚ましです。その仕組みと、Appleがすべてのアラームに付けている「停止」ボタンをどう攻略したかを紹介します。"
+tags: ["iphone", "android", "nfc-tags"]
+summary: "夜ふかしでコードを書いては、毎朝スヌーズボタンに負け続けていました。そこでNFC.cool Toolsに「NFCアラーム」を作りました。家の中に貼ったNFCタグを順番にたどらないと鳴りやまない、iPhoneとAndroidの目覚ましです。その仕組みと、Appleがすべてのアラームに付けている「停止」ボタンをどう攻略したかを紹介します。"
 image: "/assets/images/Blog/nfc-alarm-clock.webp"
 imageAlt: "3つ中2つ目のスキャンが完了したアラーム画面のiPhoneと、NFCステッカーを貼ったコーヒーメーカー。点線でつながったNFCタグが、廊下の棚を通ってベッドまで続いている"
 author: "Nicolo Stanciu"
-metaTitle: "iPhoneのNFC目覚まし：タグをスキャンしないと止まらないアラーム"
-metaDescription: "NFCタグを決めた順番でスキャンしないと止まらない、iPhoneの目覚ましアラームを作りました。AlarmKitでの作り方と、ロック画面の「停止」ボタン対策を開発者本人が解説します。"
+metaTitle: "iPhoneとAndroidのNFC目覚まし：タグをスキャンしないと止まらないアラーム"
+metaDescription: "NFCタグを決めた順番でスキャンしないと止まらない、iPhoneとAndroidの目覚ましアラームを作りました。AlarmKitでの作り方と、ロック画面の「停止」ボタン対策を開発者本人が解説します。"
 ogTitle: "もう二度寝させない目覚まし"
-ogDescription: "家じゅうのNFCタグをたどらないと鳴りやまない。iPhoneで動く「NFCアラーム」の仕組みを紹介します。"
+ogDescription: "家じゅうのNFCタグをたどらないと鳴りやまない。iPhoneとAndroidで動く「NFCアラーム」の仕組みを紹介します。"
 ---
 個人開発者の生活リズムは、会社の就業時間なんておかまいなしです。いちばんはかどるのは夜遅く、通知が止んで家が静まり返ってから。気づけば夜中の2時、なんてことはしょっちゅうです。それでも目覚ましは、当然いつもの時間に鳴ります。そして私はスヌーズを押す。もう一度押す。3回目も押して、予定していた朝の半分が消えていく。
 
@@ -18,7 +18,7 @@ ogDescription: "家じゅうのNFCタグをたどらないと鳴りやまない�
 
 そこでふと思いつきました。私は毎日、NFCタグのためのアプリを作っています。だったらこの2つを組み合わせて、毎朝タグを順番にたどらないと止まらないアラームを作ればいいのでは？
 
-それが**NFCアラーム**です。NFC.cool Toolsの新しい機能として、まずはiPhoneで使えるようになりました。Android版も近日公開予定です。
+それが**NFCアラーム**です。NFC.cool Toolsの新しい機能として、iPhoneとAndroidで使えるようになりました。
 
 ---
 
@@ -77,6 +77,6 @@ NFCタグは、それ単体ではただの金属の切れ端です。IDを持っ
 
 ## 設定のしかた
 
-NFCアラームにはiOS 26以降のiPhoneが必要です。AlarmKitがiOS 26から使えるようになったためです。NFCタブの**NFCアプリ**の中にあります。アラームを作成して時刻と曜日を選んだら、使いたいタグを、歩きたい順番どおりにスキャンしていきます。タグにはそれぞれ名前を付けられるので、次にどれをスキャンすればいいかひと目でわかります。タグは、本当にベッドから出ざるをえない道順に置きましょう。スタートはベッドの横がおすすめで、ゴールはキッチンにするとさらに効果的です。
+NFCアラームにはiOS 26以降のiPhoneが必要です。AlarmKitがiOS 26から使えるようになったためです。Androidなら、Android 8.0以降のスマートフォンで使えます。NFCタブの**NFCアプリ**の中にあります。アラームを作成して時刻と曜日を選んだら、使いたいタグを、歩きたい順番どおりにスキャンしていきます。タグにはそれぞれ名前を付けられるので、次にどれをスキャンすればいいかひと目でわかります。タグは、本当にベッドから出ざるをえない道順に置きましょう。スタートはベッドの横がおすすめで、ゴールはキッチンにするとさらに効果的です。
 
-NFCアラームは無料で、[App StoreのNFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-ja&mt=8)に入っています。コーヒーメーカーが待っていますよ。
+NFCアラームは無料で、[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-ja&mt=8)と[Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-alarm-clock-ja)のNFC.cool Toolsに入っています。コーヒーメーカーが待っていますよ。

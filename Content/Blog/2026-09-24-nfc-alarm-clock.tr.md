@@ -1,16 +1,16 @@
 ---
 id: "nfc-alarm-2026-09"
-title: "iPhone için NFC alarm saati: alarmı susturmak için tag'lerini okut"
+title: "iPhone ve Android için NFC alarm saati: alarmı susturmak için tag'lerini okut"
 date: "2026-09-24"
-tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Gece geç saatlere kadar kod yazınca sabahları hep erteleme düğmesi kazanıyordu, ben de NFC.cool Tools'a NFC Alarmı'nı ekledim: ancak evin içine dağıttığın NFC tag'leri sırayla okuttuğunda susan bir iPhone alarmı. Nasıl çalıştığını ve Apple'ın her alarma koyduğu Durdur düğmesini nasıl aştığımı anlatıyorum."
+tags: ["iphone", "android", "nfc-tags"]
+summary: "Gece geç saatlere kadar kod yazınca sabahları hep erteleme düğmesi kazanıyordu, ben de NFC.cool Tools'a NFC Alarmı'nı ekledim: ancak evin içine dağıttığın NFC tag'leri sırayla okuttuğunda susan, iPhone ve Android için bir alarm. Nasıl çalıştığını ve Apple'ın her alarma koyduğu Durdur düğmesini nasıl aştığımı anlatıyorum."
 image: "/assets/images/Blog/nfc-alarm-clock.webp"
 imageAlt: "NFC etiketi yapıştırılmış bir kahve makinesinin yanında, alarm okutma halkasında 3 tag'den 2'sini gösteren bir iPhone; noktalı bir NFC tag izi koridordaki raftan geçip yatağa kadar uzanıyor"
 author: "Nicolo Stanciu"
-metaTitle: "iPhone için NFC alarm saati: tag okutmadan alarm susmaz"
-metaDescription: "NFC tag'lerini sırayla okutmadan susmayan bir iPhone alarmı. NFC Alarmı'nı AlarmKit ile nasıl yaptım ve kilit ekranındaki Durdur düğmesini nasıl aştım?"
+metaTitle: "iPhone ve Android için NFC alarm saati: tag okutmadan susmaz"
+metaDescription: "NFC tag'lerini sırayla okutmadan susmayan, iPhone ve Android için bir alarm. NFC Alarmı'nı AlarmKit ile nasıl yaptım ve kilit ekranındaki Durdur düğmesini nasıl aştım?"
 ogTitle: "Erteleyerek kurtulamayacağın bir alarm"
-ogDescription: "NFC Alarmı, evinin içindeki NFC tag'leri tek tek okutana kadar susmuyor. iPhone'da nasıl çalıştığını anlatıyorum."
+ogDescription: "NFC Alarmı, evinin içindeki NFC tag'leri tek tek okutana kadar susmuyor. iPhone ve Android'de nasıl çalıştığını anlatıyorum."
 ---
 Bağımsız geliştirici olmanın mesai saati tanımayan kendine has bir ritmi var. En verimli kod gece yazılıyor: mesajlar kesilmiş, ev sessizleşmiş, bir bakıyorum saat gece ikiyi bulmuş. Alarm ise tabii ki her sabah aynı saatte çalıyor. Ben de erteliyorum. Bir daha. Bir daha, ta ki planladığım sabahın yarısı gidene kadar.
 
@@ -18,7 +18,7 @@ Buna gerçekten ne yapabileceğimi epey düşündüm. Daha yüksek sesli bir ala
 
 Sonra aklıma geldi: günlerimi zaten NFC tag'ler için uygulama geliştirerek geçiriyorum. Neden ikisini birleştirmeyeyim? Her sabah alarmın beni bırakması için takip etmem gereken bir tag izi kursam?
 
-İşte **NFC Alarmı** bu ve artık iPhone'daki NFC.cool Tools'un bir parçası. Android sürümü de yakında geliyor.
+İşte **NFC Alarmı** bu ve artık iPhone ve Android'deki NFC.cool Tools'un bir parçası.
 
 ---
 
@@ -77,6 +77,6 @@ Henüz tag'in yoksa [NFC tag'ler için başlangıç rehberimde](/blog/nfc-tags-b
 
 ## Nasıl kurulur
 
-NFC Alarmı, iOS 26 ya da sonrası yüklü bir iPhone istiyor, çünkü AlarmKit bu sürümle geldi. Onu NFC sekmesinde, **NFC Uygulamaları** altında bulabilirsin. Bir alarm oluştur, saati ve günleri seç, sonra kullanmak istediğin tag'leri, yürümek istediğin sırayla okut. Sıradakinin hangisi olduğunu bilmek için her tag'e bir ad verebilirsin. Onları seni gerçekten yataktan çıkaracak bir rotaya yerleştir. Yatağın yanı iyi bir başlangıç, mutfak daha da iyi bir bitiş.
+NFC Alarmı, iOS 26 ya da sonrası yüklü bir iPhone istiyor, çünkü AlarmKit bu sürümle geldi. Android'de ise Android 8.0 ya da sonrası yüklü bir telefon yeterli. Onu NFC sekmesinde, **NFC Uygulamaları** altında bulabilirsin. Bir alarm oluştur, saati ve günleri seç, sonra kullanmak istediğin tag'leri, yürümek istediğin sırayla okut. Sıradakinin hangisi olduğunu bilmek için her tag'e bir ad verebilirsin. Onları seni gerçekten yataktan çıkaracak bir rotaya yerleştir. Yatağın yanı iyi bir başlangıç, mutfak daha da iyi bir bitiş.
 
-NFC Alarmı ücretsiz ve [App Store'daki NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-tr&mt=8) içinde seni bekliyor. Kahve makinen de öyle.
+NFC Alarmı ücretsiz ve [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-tr&mt=8) ile [Google Play'deki](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-alarm-clock-tr) NFC.cool Tools içinde seni bekliyor. Kahve makinen de öyle.

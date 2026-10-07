@@ -1,16 +1,16 @@
 ---
 id: "nfc-alarm-2026-09"
-title: "NFC Alarm Clock for iPhone: Scan Your Tags to Stop the Alarm"
+title: "NFC Alarm Clock for iPhone and Android: Scan Your Tags to Stop the Alarm"
 date: "2026-09-24"
-tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Late nights of coding kept losing to my snooze button, so I built NFC Alarm into NFC.cool Tools: an iPhone alarm that only goes quiet once you've walked a trail of NFC tags around your home. Here's how it works, and how I got around the Stop button Apple puts on every alarm."
+tags: ["iphone", "android", "nfc-tags"]
+summary: "Late nights of coding kept losing to my snooze button, so I built NFC Alarm into NFC.cool Tools: an alarm for iPhone and Android that only goes quiet once you've walked a trail of NFC tags around your home. Here's how it works, and how I got around the Stop button Apple puts on every alarm."
 image: "/assets/images/Blog/nfc-alarm-clock.webp"
 imageAlt: "An iPhone showing an alarm scan ring at 2 of 3 next to a coffee machine with an NFC sticker, with a dotted trail of NFC tags leading back past a hallway shelf to the bed"
 author: "Nicolo Stanciu"
-metaTitle: "NFC Alarm Clock for iPhone: Scan Tags to Stop the Alarm"
-metaDescription: "An iPhone alarm that only stops once you scan your NFC tags in order. How I built NFC Alarm with AlarmKit, and how it gets around the Lock Screen Stop button."
+metaTitle: "NFC Alarm Clock for iPhone and Android: Scan Tags to Stop It"
+metaDescription: "An alarm for iPhone and Android that only stops once you scan your NFC tags in order. How I built NFC Alarm with AlarmKit, and how it gets around the Lock Screen Stop button."
 ogTitle: "An Alarm Clock You Can't Snooze Through"
-ogDescription: "NFC Alarm only goes quiet once you walk a trail of NFC tags around your home. Here's how it works on iPhone."
+ogDescription: "NFC Alarm only goes quiet once you walk a trail of NFC tags around your home. Here's how it works on iPhone and Android."
 ---
 Being an indie developer has a rhythm that doesn't care about office hours. The best coding happens late, when the messages stop and the house is quiet, and before I know it it's two in the morning. The alarm, of course, still goes off at the same time. And I hit snooze. Then again. Then a third time, until the morning I had planned is half gone.
 
@@ -18,7 +18,7 @@ I spent a while thinking about what I could actually do about it. A louder alarm
 
 Then I had the idea: I spend my days building an app for NFC tags. Why not combine the two, and lay out a trail of tags I have to follow every morning before the alarm lets me go?
 
-That's **NFC Alarm**, and it's now part of NFC.cool Tools on iPhone. The Android version is coming soon.
+That's **NFC Alarm**, and it's now part of NFC.cool Tools on iPhone and Android.
 
 ---
 
@@ -77,6 +77,6 @@ If you don't have tags yet, my [beginner's guide to NFC tags](/blog/nfc-tags-beg
 
 ## Setting it up
 
-NFC Alarm needs an iPhone with iOS 26 or later, because that's where AlarmKit lives. You'll find it in the NFC tab under **NFC Apps**. Create an alarm, pick the time and the days, then scan the tags you want in the order you want to walk them. You can give each tag a name so you know which one is next. Put them on a route that actually gets you out of bed. Next to the bed is a good start, the kitchen is a better finish.
+NFC Alarm needs an iPhone with iOS 26 or later, because that's where AlarmKit lives, or an Android phone with Android 8.0 or later. You'll find it in the NFC tab under **NFC Apps**. Create an alarm, pick the time and the days, then scan the tags you want in the order you want to walk them. You can give each tag a name so you know which one is next. Put them on a route that actually gets you out of bed. Next to the bed is a good start, the kitchen is a better finish.
 
-NFC Alarm is free, and it's in [NFC.cool Tools on the App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-en&mt=8). Your coffee machine is waiting.
+NFC Alarm is free, and it's in NFC.cool Tools on the [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-en&mt=8) and on [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-alarm-clock-en). Your coffee machine is waiting.

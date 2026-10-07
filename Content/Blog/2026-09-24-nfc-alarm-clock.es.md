@@ -1,16 +1,16 @@
 ---
 id: "nfc-alarm-2026-09"
-title: "Despertador NFC para iPhone: escanea tus etiquetas para apagar la alarma"
+title: "Despertador NFC para iPhone y Android: escanea tus etiquetas para apagar la alarma"
 date: "2026-09-24"
-tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Las noches programando hasta tarde siempre acababan perdiendo contra el botón de posponer, así que metí Alarma NFC en NFC.cool Tools: una alarma para iPhone que no se calla hasta que recorres un camino de etiquetas NFC por tu casa. Te cuento cómo funciona y cómo me las apañé con el botón Detener que Apple pone en todas las alarmas."
+tags: ["iphone", "android", "nfc-tags"]
+summary: "Las noches programando hasta tarde siempre acababan perdiendo contra el botón de posponer, así que metí Alarma NFC en NFC.cool Tools: una alarma para iPhone y Android que no se calla hasta que recorres un camino de etiquetas NFC por tu casa. Te cuento cómo funciona y cómo me las apañé con el botón Detener que Apple pone en todas las alarmas."
 image: "/assets/images/Blog/nfc-alarm-clock.webp"
 imageAlt: "Un iPhone con el anillo de escaneo de una alarma en 2 de 3 junto a una cafetera con una pegatina NFC, y un rastro punteado de etiquetas NFC que vuelve por una estantería del pasillo hasta la cama"
 author: "Nicolo Stanciu"
-metaTitle: "Despertador NFC para iPhone: escanea etiquetas para apagarlo"
-metaDescription: "Una alarma para iPhone que solo se apaga cuando escaneas tus etiquetas NFC en orden. Cómo hice Alarma NFC con AlarmKit y cómo esquiva el botón Detener."
+metaTitle: "Despertador NFC para iPhone y Android: escanea para apagarlo"
+metaDescription: "Una alarma para iPhone y Android que solo se apaga cuando escaneas tus etiquetas NFC en orden. Cómo hice Alarma NFC con AlarmKit y cómo esquiva el botón Detener."
 ogTitle: "El despertador con el que no hay posponer que valga"
-ogDescription: "Alarma NFC no se calla hasta que recorres un camino de etiquetas NFC por tu casa. Así funciona en el iPhone."
+ogDescription: "Alarma NFC no se calla hasta que recorres un camino de etiquetas NFC por tu casa. Así funciona en iPhone y Android."
 ---
 Ser desarrollador independiente tiene un ritmo al que el horario de oficina le da igual. Donde mejor programo es de noche, cuando dejan de llegar mensajes y la casa está en silencio, y cuando me doy cuenta ya son las dos de la mañana. La alarma, claro, sigue sonando a la misma hora de siempre. Y yo le doy a posponer. Y otra vez. Y una tercera, hasta que media mañana de la que tenía planeada se me ha esfumado.
 
@@ -18,7 +18,7 @@ Estuve un tiempo dándole vueltas a qué podía hacer de verdad. ¿Una alarma m�
 
 Y entonces se me ocurrió: me paso el día haciendo una app para etiquetas NFC. ¿Por qué no juntar las dos cosas y montar un recorrido de etiquetas que tenga que seguir cada mañana antes de que la alarma me deje en paz?
 
-Así nació **Alarma NFC**, que ya forma parte de NFC.cool Tools en iPhone. La versión para Android llegará pronto.
+Así nació **Alarma NFC**, que ya forma parte de NFC.cool Tools en iPhone y Android.
 
 ---
 
@@ -77,6 +77,6 @@ Si todavía no tienes etiquetas, en mi [guía de etiquetas NFC para principiante
 
 ## Cómo configurarla
 
-Alarma NFC necesita un iPhone con iOS 26 o posterior, porque AlarmKit solo existe a partir de ahí. La encontrarás en la pestaña NFC, dentro de **Aplicaciones NFC**. Crea una alarma, elige la hora y los días, y luego escanea las etiquetas que quieras en el orden en que las vas a recorrer. Puedes ponerle un nombre a cada una para saber cuál toca después. Colócalas en un recorrido que de verdad te obligue a salir de la cama. Junto a la cama es un buen comienzo, y la cocina, un final todavía mejor.
+Alarma NFC necesita un iPhone con iOS 26 o posterior, porque AlarmKit solo existe a partir de ahí. En Android, te vale un móvil con Android 8.0 o posterior. La encontrarás en la pestaña NFC, dentro de **Aplicaciones NFC**. Crea una alarma, elige la hora y los días, y luego escanea las etiquetas que quieras en el orden en que las vas a recorrer. Puedes ponerle un nombre a cada una para saber cuál toca después. Colócalas en un recorrido que de verdad te obligue a salir de la cama. Junto a la cama es un buen comienzo, y la cocina, un final todavía mejor.
 
-Alarma NFC es gratis y está en [NFC.cool Tools en la App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-es&mt=8). Tu cafetera te está esperando.
+Alarma NFC es gratis y está en NFC.cool Tools, tanto en la [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-alarm-clock-es&mt=8) como en [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-alarm-clock-es). Tu cafetera te está esperando.
