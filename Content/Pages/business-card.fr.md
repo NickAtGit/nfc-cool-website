@@ -44,7 +44,7 @@ Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste
 
 <article class="page-card">
 <h3>Génération de prospects bidirectionnelle</h3>
-<p>Quand quelqu'un reçoit votre carte, il peut vous recontacter. Chaque partage devient un prospect que vous suivez de Nouveau à Contacté, Qualifié puis Converti.</p>
+<p>Quand quelqu'un reçoit votre carte, il peut vous envoyer ses coordonnées en retour. Chaque partage devient un prospect que vous suivez de Nouveau à Contacté, Qualifié puis Converti.</p>
 </article>
 
 <article class="page-card">

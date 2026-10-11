@@ -44,7 +44,7 @@ Kartu nama digital untuk Anda dan tim Anda. Bagikan dengan satu ketukan, lewat N
 
 <article class="page-card">
 <h3>Generasi prospek dua arah</h3>
-<p>Saat seseorang menerima kartu Anda, mereka bisa terhubung kembali. Setiap kartu yang dibagikan menjadi prospek yang dapat Anda lacak dari Baru ke Dihubungi, Dikualifikasi, dan Dikonversi.</p>
+<p>Saat seseorang menerima kartu Anda, mereka bisa mengirimkan datanya kepada Anda. Setiap kartu yang dibagikan menjadi prospek yang dapat Anda lacak dari Baru ke Dihubungi, Dikualifikasi, dan Dikonversi.</p>
 </article>
 
 <article class="page-card">

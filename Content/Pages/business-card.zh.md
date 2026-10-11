@@ -44,7 +44,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 <article class="page-card">
 <h3>双向获取客户线索</h3>
-<p>当对方收到您的名片时，也可以反向与您建立联系，让每一次分享都变成一条可追踪的客户线索，状态依次为：新建 → 已联系 → 已确认意向 → 已转化。</p>
+<p>当对方收到您的名片时，也可以与您交换名片，让每一次分享都变成一条可追踪的客户线索，状态依次为：新建 → 已联系 → 已确认意向 → 已转化。</p>
 </article>
 
 <article class="page-card">

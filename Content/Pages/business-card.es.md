@@ -44,7 +44,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 
 <article class="page-card">
 <h3>Generación de leads en ambos sentidos</h3>
-<p>Cuando alguien recibe tu tarjeta, puede conectar de vuelta. Cada vez que la compartes se convierte en un lead que puedes seguir de Nuevo a Contactado, Cualificado y Convertido.</p>
+<p>Cuando alguien recibe tu tarjeta, puede enviarte sus datos. Cada vez que la compartes se convierte en un lead que puedes seguir de Nuevo a Contactado, Cualificado y Convertido.</p>
 </article>
 
 <article class="page-card">

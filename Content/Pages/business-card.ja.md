@@ -44,7 +44,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 <article class="page-card">
 <h3>双方向のリードジェネレーション</h3>
-<p>カードを受け取った相手は、あなたへ折り返し連絡できます。すべての共有が、新規 → 連絡済み → 見込みあり → 成約までステータスを追跡できるリードに変わります。</p>
+<p>カードを受け取った相手は、あなたに連絡先を送ることができます。すべての共有が、新規 → 連絡済み → 見込みあり → 成約までステータスを追跡できるリードに変わります。</p>
 </article>
 
 <article class="page-card">
