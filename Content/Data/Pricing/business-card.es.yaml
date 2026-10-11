@@ -13,7 +13,7 @@ rows:
   - label: "Generación de contactos"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Analíticas"
-    values: ["✗", "✓", "✓", "✗"]
+    values: ["✗", "✓", "✓", "✓"]
   - label: "Marca de la empresa"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Consola de administración"

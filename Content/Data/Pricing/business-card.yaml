@@ -13,7 +13,7 @@ rows:
   - label: "Lead generation"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Analytics"
-    values: ["✗", "✓", "✓", "✗"]
+    values: ["✗", "✓", "✓", "✓"]
   - label: "Company brand"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Admin console"

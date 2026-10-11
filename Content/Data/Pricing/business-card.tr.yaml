@@ -13,7 +13,7 @@ rows:
   - label: "Müşteri adayı toplama"
     values: ["✗", "✓", "✓", "✓"]
   - label: "İstatistikler"
-    values: ["✗", "✓", "✓", "✗"]
+    values: ["✗", "✓", "✓", "✓"]
   - label: "Şirket markası"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Yönetim konsolu"

@@ -13,7 +13,7 @@ rows:
   - label: "Generasi prospek"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Analitik"
-    values: ["✗", "✓", "✓", "✗"]
+    values: ["✗", "✓", "✓", "✓"]
   - label: "Merek perusahaan"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Konsol admin"

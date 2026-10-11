@@ -13,7 +13,7 @@ rows:
   - label: "Raccolta contatti"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Statistiche"
-    values: ["✗", "✓", "✓", "✗"]
+    values: ["✗", "✓", "✓", "✓"]
   - label: "Marchio aziendale"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Console di amministrazione"

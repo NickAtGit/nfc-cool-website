@@ -13,7 +13,7 @@ rows:
   - label: "Génération de prospects"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Statistiques"
-    values: ["✗", "✓", "✓", "✗"]
+    values: ["✗", "✓", "✓", "✓"]
   - label: "Marque de l'entreprise"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Console d'administration"
