@@ -1,7 +1,7 @@
 ---
 title: "iPhone ve Android için Dijital Kartvizit Uygulaması"
 slug: "business-card"
-description: "iPhone ve Android için dijital kartvizit uygulaması. NFC okutarak, QR kodla, App Clip ya da Apple Wallet ile paylaş. Kartını kimin kaydettiğini gör, etkinliklerde Konferans Modu'nu çalıştır."
+description: "iPhone ve Android için dijital kartvizit uygulaması. NFC okutarak, QR kodla, App Clip ya da Apple Wallet ile paylaş. Kartını kaç kişinin kaydettiğini gör, etkinliklerde Konferans Modu'nu çalıştır."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR kod, iPhone'da ayrıca App Clip ve Apple Wallet) ve kartını kimin kaydettiğini gör.
+Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR kod, iPhone'da ayrıca App Clip ve Apple Wallet) ve kartını kaç kişinin kaydettiğini gör.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-tr&mt=8" class="landing-store-button is-apple" aria-label="App Store'dan indir" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 <h3>İstatistikler</h3>
 <ul>
 <li><strong>Profil görüntülemeleri</strong> - kartını tam olarak kaç kişinin açtığını gör</li>
-<li><strong>Kişi kaydetmeler</strong> - seni telefonuna kimin kaydettiğini izle</li>
+<li><strong>Kişi kaydetmeler</strong> - seni telefonuna kaç kişinin kaydettiğini izle</li>
 <li><strong>Günlük, haftalık, aylık</strong> dökümler tek panoda</li>
 <li><strong>Eğilim çözümlemesi</strong> - zaman içindeki ağını anla</li>
 </ul>

@@ -1,7 +1,7 @@
 ---
 title: "Digital Business Card Maker App for iPhone & Android"
 slug: "business-card"
-description: "A digital Business Card maker for iPhone and Android. Share via NFC tap, QR code, AppClip or Apple Wallet. Track who saves your card, run Conference Mode at live events."
+description: "A digital Business Card maker for iPhone and Android. Share via NFC tap, QR code, AppClip or Apple Wallet. See how many people save your card, run Conference Mode at live events."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Digital business cards for you and your team. Share with a tap, by NFC or QR code, plus App Clip and Apple Wallet on iPhone, and see who saves your card.
+Digital business cards for you and your team. Share with a tap, by NFC or QR code, plus App Clip and Apple Wallet on iPhone, and see how many people save your card.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ Digital business cards for you and your team. Share with a tap, by NFC or QR cod
 <h3>Analytics</h3>
 <ul>
 <li><strong>Profile views</strong> - see exactly how many people opened your card</li>
-<li><strong>Contact saves</strong> - track who saved you to their phone</li>
+<li><strong>Contact saves</strong> - see how many people saved you to their phone</li>
 <li><strong>Daily / weekly / monthly</strong> breakdowns in the dashboard</li>
 <li><strong>Trend analysis</strong> - understand your networking over time</li>
 </ul>

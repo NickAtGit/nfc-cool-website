@@ -1,7 +1,7 @@
 ---
 title: "Aplikasi pembuat kartu nama digital untuk iPhone & Android"
 slug: "business-card"
-description: "Pembuat kartu nama digital untuk iPhone dan Android. Bagikan melalui ketukan NFC, kode QR, AppClip, atau Apple Wallet. Lacak siapa yang menyimpan kartu Anda, jalankan Conference Mode di acara langsung."
+description: "Pembuat kartu nama digital untuk iPhone dan Android. Bagikan melalui ketukan NFC, kode QR, AppClip, atau Apple Wallet. Lihat berapa banyak orang yang menyimpan kartu Anda, jalankan Conference Mode di acara langsung."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Kartu nama digital untuk Anda dan tim Anda. Bagikan dengan satu ketukan, lewat NFC atau kode QR dan, di iPhone, juga lewat App Clip dan Apple Wallet, lalu lihat siapa yang menyimpan kartu Anda.
+Kartu nama digital untuk Anda dan tim Anda. Bagikan dengan satu ketukan, lewat NFC atau kode QR dan, di iPhone, juga lewat App Clip dan Apple Wallet, lalu lihat berapa banyak orang yang menyimpan kartu Anda.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ Kartu nama digital untuk Anda dan tim Anda. Bagikan dengan satu ketukan, lewat N
 <h3>Analitik</h3>
 <ul>
 <li><strong>Tampilan profil</strong> - lihat persis berapa banyak orang yang membuka kartu Anda</li>
-<li><strong>Penyimpanan kontak</strong> - lacak siapa yang menyimpan Anda ke ponsel mereka</li>
+<li><strong>Penyimpanan kontak</strong> - lacak berapa banyak orang yang menyimpan Anda ke ponsel mereka</li>
 <li><strong>Harian / mingguan / bulanan</strong> rincian di dasbor</li>
 <li><strong>Analisis tren</strong> - pahami networking Anda dari waktu ke waktu</li>
 </ul>

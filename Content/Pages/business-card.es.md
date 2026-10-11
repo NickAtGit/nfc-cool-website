@@ -1,7 +1,7 @@
 ---
 title: "App para crear tarjetas de visita digitales en iPhone y Android"
 slug: "business-card"
-description: "Un creador de tarjetas de visita digitales para iPhone y Android. Comparte con un toque NFC, código QR, AppClip o Apple Wallet. Ve quién guarda tu tarjeta y usa el Modo Conferencia en eventos en directo."
+description: "Un creador de tarjetas de visita digitales para iPhone y Android. Comparte con un toque NFC, código QR, AppClip o Apple Wallet. Ve cuántas personas guardan tu tarjeta y usa el Modo Conferencia en eventos en directo."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC o código QR y, en iPhone, también con App Clip y Apple Wallet, y ve quién guarda tu tarjeta.
+Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC o código QR y, en iPhone, también con App Clip y Apple Wallet, y ve cuántas personas guardan tu tarjeta.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Descargar en la App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 <h3>Analíticas</h3>
 <ul>
 <li><strong>Visualizaciones del perfil</strong> - ve exactamente cuánta gente abrió tu tarjeta</li>
-<li><strong>Contactos guardados</strong> - sigue quién te guardó en su móvil</li>
+<li><strong>Contactos guardados</strong> - sigue cuántas personas te guardaron en su móvil</li>
 <li>Desgloses <strong>diarios / semanales / mensuales</strong> en el panel</li>
 <li><strong>Análisis de tendencias</strong> - entiende cómo evoluciona tu networking con el tiempo</li>
 </ul>

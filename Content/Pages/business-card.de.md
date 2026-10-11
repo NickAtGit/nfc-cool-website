@@ -1,7 +1,7 @@
 ---
 title: "Business Card Maker App für iPhone & Android"
 slug: "business-card"
-description: "Eine digitale Business Card Maker App für iPhone und Android. Teile deine Visitenkarte per NFC-Tipp, QR-Code, AppClip oder Apple Wallet. Sieh, wer deine Karte speichert, und nutze den Konferenzmodus auf Events."
+description: "Eine digitale Business Card Maker App für iPhone und Android. Teile deine Visitenkarte per NFC-Tipp, QR-Code, AppClip oder Apple Wallet. Sieh, wie viele Leute deine Karte speichern, und nutze den Konferenzmodus auf Events."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-Code, auf dem iPhone zusätzlich per App Clip und Apple Wallet, und sieh, wer deine Karte speichert.
+Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-Code, auf dem iPhone zusätzlich per App Clip und Apple Wallet, und sieh, wie viele Leute deine Karte speichern.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 <h3>Analytics</h3>
 <ul>
 <li><strong>Profilaufrufe</strong> - wie viele Personen deine Karte geöffnet haben</li>
-<li><strong>Kontakt-Speicherungen</strong> - wer dich in seine Kontakte aufgenommen hat</li>
+<li><strong>Kontakt-Speicherungen</strong> - wie viele dich in ihre Kontakte aufgenommen haben</li>
 <li><strong>Tag / Woche / Monat</strong> im Dashboard aufgeschlüsselt</li>
 <li><strong>Trend-Analyse</strong> - verstehe dein Networking über die Zeit</li>
 </ul>

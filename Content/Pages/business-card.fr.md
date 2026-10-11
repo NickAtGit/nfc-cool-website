@@ -1,7 +1,7 @@
 ---
 title: "Application de carte de visite numérique pour iPhone et Android"
 slug: "business-card"
-description: "Un créateur de carte de visite numérique pour iPhone et Android. Partagez d'un simple geste : NFC, QR code, AppClip ou Apple Wallet. Voyez qui enregistre votre carte et activez le mode conférence lors de vos événements."
+description: "Un créateur de carte de visite numérique pour iPhone et Android. Partagez d'un simple geste : NFC, QR code, AppClip ou Apple Wallet. Voyez combien de personnes enregistrent votre carte et activez le mode conférence lors de vos événements."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste, par NFC ou QR code, et sur iPhone aussi avec App Clip et Apple Wallet, et voyez qui enregistre votre carte.
+Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste, par NFC ou QR code, et sur iPhone aussi avec App Clip et Apple Wallet, et voyez combien de personnes enregistrent votre carte.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Télécharger dans l'App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste
 <h3>Statistiques</h3>
 <ul>
 <li><strong>Vues de profil</strong> - sachez exactement combien de personnes ont ouvert votre carte</li>
-<li><strong>Enregistrements de contact</strong> - suivez qui vous a ajouté à son téléphone</li>
+<li><strong>Enregistrements de contact</strong> - suivez combien de personnes vous ont ajouté à leur téléphone</li>
 <li><strong>Détail par jour / semaine / mois</strong> dans le tableau de bord</li>
 <li><strong>Analyse des tendances</strong> - comprenez l'évolution de votre réseau dans le temps</li>
 </ul>

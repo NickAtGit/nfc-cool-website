@@ -1,7 +1,7 @@
 ---
 title: "تطبيق إنشاء بطاقات العمل الرقمية لأجهزة iPhone و Android"
 slug: "business-card"
-description: "أداة لإنشاء بطاقات العمل الرقمية لأجهزة iPhone و Android. شاركها عبر لمسة NFC أو رمز QR أو AppClip أو Apple Wallet. تتبّع من يحفظ بطاقتك، وشغّل وضع المؤتمرات في الفعاليات المباشرة."
+description: "أداة لإنشاء بطاقات العمل الرقمية لأجهزة iPhone و Android. شاركها عبر لمسة NFC أو رمز QR أو AppClip أو Apple Wallet. تتبّع عدد من يحفظون بطاقتك، وشغّل وضع المؤتمرات في الفعاليات المباشرة."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-بطاقات عمل رقمية لك ولفريقك. شارك بلمسة واحدة عبر NFC أو رمز QR، وعلى iPhone أيضًا عبر App Clip وApple Wallet، وتعرّف على من يحفظ بطاقتك.
+بطاقات عمل رقمية لك ولفريقك. شارك بلمسة واحدة عبر NFC أو رمز QR، وعلى iPhone أيضًا عبر App Clip وApple Wallet، وتعرّف على عدد من يحفظون بطاقتك.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>التحليلات</h3>
 <ul>
 <li><strong>مشاهدات الملف</strong> - اطّلع بدقة على عدد من فتحوا بطاقتك</li>
-<li><strong>عمليات حفظ جهة الاتصال</strong> - تتبّع من حفظك في هاتفه</li>
+<li><strong>عمليات حفظ جهة الاتصال</strong> - تتبّع عدد من حفظوك في هواتفهم</li>
 <li><strong>تفصيلات يومية / أسبوعية / شهرية</strong> في لوحة المعلومات</li>
 <li><strong>تحليل الاتجاهات</strong> - افهم تواصلك المهني عبر الزمن</li>
 </ul>

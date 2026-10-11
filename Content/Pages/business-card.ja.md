@@ -1,7 +1,7 @@
 ---
 title: "iPhone・Android対応Business Card Makerアプリ"
 slug: "business-card"
-description: "iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ、QRコード、App Clip、Apple Walletで共有可能。誰がカードを保存したかをトラッキングし、ライブイベントでConference Modeを実行できます。"
+description: "iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ、QRコード、App Clip、Apple Walletで共有可能。何人がカードを保存したかをトラッキングし、ライブイベントでConference Modeを実行できます。"
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-あなたとチームのためのデジタル名刺。NFCタッチやQRコード、iPhoneではApp ClipとApple Walletで共有し、誰があなたのカードを保存したかも確認できます。
+あなたとチームのためのデジタル名刺。NFCタッチやQRコード、iPhoneではApp ClipとApple Walletで共有し、何人があなたのカードを保存したかも確認できます。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ja&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>アナリティクス</h3>
 <ul>
 <li><strong>プロフィール表示</strong> - 何人がカードを開いたか</li>
-<li><strong>連絡先保存</strong> - 誰がデバイスに保存したか</li>
+<li><strong>連絡先保存</strong> - 何人がデバイスに保存したか</li>
 <li><strong>日 / 週 / 月</strong> 別の分析ダッシュボード</li>
 <li><strong>トレンド分析</strong> - 時間軸でネットワーキング傾向を把握</li>
 </ul>

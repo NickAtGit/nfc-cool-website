@@ -1,7 +1,7 @@
 ---
 title: "App per creare biglietti da visita digitali su iPhone e Android"
 slug: "business-card"
-description: "Un'app per creare biglietti da visita digitali su iPhone e Android. Condividili avvicinando un tag NFC, con un codice QR, con AppClip o Apple Wallet. Scopri chi salva il tuo biglietto e attiva la Modalità Conferenza durante gli eventi."
+description: "Un'app per creare biglietti da visita digitali su iPhone e Android. Condividili avvicinando un tag NFC, con un codice QR, con AppClip o Apple Wallet. Scopri quante persone salvano il tuo biglietto e attiva la Modalità Conferenza durante gli eventi."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con NFC o codice QR e, su iPhone, anche con App Clip e Apple Wallet, e scopri chi salva il tuo biglietto.
+Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con NFC o codice QR e, su iPhone, anche con App Clip e Apple Wallet, e scopri quante persone salvano il tuo biglietto.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-it&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 <h3>Statistiche</h3>
 <ul>
 <li><strong>Visualizzazioni del profilo</strong> - sai esattamente quante persone hanno aperto il biglietto</li>
-<li><strong>Contatti salvati</strong> - scopri chi ti ha messo in rubrica</li>
+<li><strong>Contatti salvati</strong> - scopri quante persone ti hanno messo in rubrica</li>
 <li>Riepiloghi <strong>giornalieri, settimanali e mensili</strong> nella dashboard</li>
 <li><strong>Analisi dell'andamento</strong> - capisci come si evolve la tua rete nel tempo</li>
 </ul>

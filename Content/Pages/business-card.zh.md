@@ -1,7 +1,7 @@
 ---
 title: "iPhone 与 Android 电子名片制作应用"
 slug: "business-card"
-description: "一款适用于 iPhone 和 Android 的电子名片制作应用。可通过 NFC 轻触、二维码、App Clip 或 Apple Wallet 分享。追踪谁保存了你的名片，并在现场活动中启用会议模式。"
+description: "一款适用于 iPhone 和 Android 的电子名片制作应用。可通过 NFC 轻触、二维码、App Clip 或 Apple Wallet 分享。追踪有多少人保存了你的名片，并在现场活动中启用会议模式。"
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-为你和你的团队打造的电子名片。轻轻一触即可分享，支持 NFC 和二维码，在 iPhone 上还支持 App Clip 与 Apple Wallet，并能看到谁保存了你的名片。
+为你和你的团队打造的电子名片。轻轻一触即可分享，支持 NFC 和二维码，在 iPhone 上还支持 App Clip 与 Apple Wallet，并能看到有多少人保存了你的名片。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>数据分析</h3>
 <ul>
 <li><strong>资料浏览量</strong>：清楚看到有多少人打开过你的名片</li>
-<li><strong>联系人保存数</strong>：追踪谁把你存进了手机</li>
+<li><strong>联系人保存数</strong>：追踪有多少人把你存进了手机</li>
 <li>仪表盘中按<strong>日 / 周 / 月</strong>分项统计</li>
 <li><strong>趋势分析</strong>：把握自己人脉拓展的长期走势</li>
 </ul>

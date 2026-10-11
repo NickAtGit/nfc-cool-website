@@ -1,7 +1,7 @@
 ---
 title: "Приложение для цифровой визитки на iPhone и Android"
 slug: "business-card"
-description: "Конструктор цифровой визитки для iPhone и Android. Делись касанием NFC, QR-кодом, через App Clip или Apple Wallet. Смотри, кто сохранил карточку, и включай режим конференции на мероприятиях."
+description: "Конструктор цифровой визитки для iPhone и Android. Делись касанием NFC, QR-кодом, через App Clip или Apple Wallet. Смотри, сколько человек сохранили карточку, и включай режим конференции на мероприятиях."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Цифровые визитки для тебя и твоей команды. Передавай одним касанием через NFC или QR-код, а на iPhone ещё через App Clip и Apple Wallet, и смотри, кто сохранил твою карточку.
+Цифровые визитки для тебя и твоей команды. Передавай одним касанием через NFC или QR-код, а на iPhone ещё через App Clip и Apple Wallet, и смотри, сколько человек сохранили твою карточку.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ru&mt=8" class="landing-store-button is-apple" aria-label="Скачать в App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>Аналитика</h3>
 <ul>
 <li><strong>Просмотры профиля</strong>: видно, сколько человек открыли карточку</li>
-<li><strong>Сохранения контакта</strong>: видно, кто записал тебя в телефон</li>
+<li><strong>Сохранения контакта</strong>: видно, сколько человек записали тебя в телефон</li>
 <li><strong>По дням, неделям и месяцам</strong>: разбивка прямо на панели</li>
 <li><strong>Динамика</strong>: понятно, как нетворкинг идёт со временем</li>
 </ul>

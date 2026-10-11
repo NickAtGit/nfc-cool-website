@@ -1,7 +1,7 @@
 ---
 title: "Застосунок цифрової візитівки для iPhone та Android"
 slug: "business-card"
-description: "Цифрова візитівка для iPhone та Android. Ділися нею дотиком NFC, через QR-код, AppClip або Apple Wallet. Дивись, хто зберіг твою картку, і вмикай режим конференції на живих заходах."
+description: "Цифрова візитівка для iPhone та Android. Ділися нею дотиком NFC, через QR-код, AppClip або Apple Wallet. Дивись, скільки людей зберегли твою картку, і вмикай режим конференції на живих заходах."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Цифрові візитівки для тебе й твоєї команди. Передавай одним дотиком через NFC чи QR-код, а на iPhone ще й через App Clip та Apple Wallet, і дивись, хто зберіг твою картку.
+Цифрові візитівки для тебе й твоєї команди. Передавай одним дотиком через NFC чи QR-код, а на iPhone ще й через App Clip та Apple Wallet, і дивись, скільки людей зберегли твою картку.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-uk&mt=8" class="landing-store-button is-apple" aria-label="Завантажити в App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -125,7 +125,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>Аналітика</h3>
 <ul>
 <li><strong>Перегляди профілю</strong>: скільки саме людей відкрили картку</li>
-<li><strong>Збереження контакту</strong>: хто додав тебе до себе в телефон</li>
+<li><strong>Збереження контакту</strong>: скільки людей додали тебе до себе в телефон</li>
 <li><strong>За днями, тижнями й місяцями</strong>: зведення на панелі</li>
 <li><strong>Динаміка</strong>: як твої знайомства змінюються з часом</li>
 </ul>
