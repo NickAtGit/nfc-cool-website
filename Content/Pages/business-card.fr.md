@@ -16,10 +16,10 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste, par NFC ou code QR, et sur iPhone aussi avec App Clip et Apple Wallet, et voyez combien de personnes enregistrent votre carte.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Télécharger dans l'App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-fr&mt=8" class="landing-store-button is-apple" aria-label="Télécharger dans l'App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Télécharger dans l'App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Disponible sur Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-fr" class="landing-store-button is-google" aria-label="Disponible sur Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Disponible sur Google Play" width="173" height="52"/>
 </a>
 </div>

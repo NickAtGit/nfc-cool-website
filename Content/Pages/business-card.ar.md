@@ -16,10 +16,10 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 بطاقات عمل رقمية لك ولفريقك. شارك بلمسة واحدة عبر NFC أو رمز QR، وعلى iPhone أيضًا عبر App Clip وApple Wallet، وتعرّف على عدد من يحفظون بطاقتك.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ar&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="التنزيل من App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="احصل عليه من Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ar" class="landing-store-button is-google" aria-label="احصل عليه من Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="احصل عليه من Google Play" width="173" height="52"/>
 </a>
 </div>

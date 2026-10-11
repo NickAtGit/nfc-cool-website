@@ -16,10 +16,10 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 Cartões de visita digitais para si e para a sua equipa. Partilhe com um toque, por NFC ou código QR e, no iPhone, também com App Clip e Apple Wallet, e veja quantas pessoas guardam o seu cartão.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Transferir na App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-pt&mt=8" class="landing-store-button is-apple" aria-label="Transferir na App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Transferir na App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-pt" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Obter no Google Play" width="173" height="52"/>
 </a>
 </div>
