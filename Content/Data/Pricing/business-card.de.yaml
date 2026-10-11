@@ -3,16 +3,16 @@
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Preis"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 pro Person und Monat, oder $50 im Jahr"]
+    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 pro Person und Monat oder $50 im Jahr"]
   - label: "Karten"
     values: ["1", "1", "10", "Eine pro Person"]
-  - label: "Teilen, Apple Wallet, Konferenzmodus, PIN, Daten-Export"
+  - label: "Teilen, Apple Wallet, Konferenzmodus, PIN, Datenexport"
     values: ["✓", "✓", "✓", "✓"]
   - label: "vCard speichern"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Lead-Generierung"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Analytics"
+  - label: "Analysen"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Firmenmarke"
     values: ["✗", "✗", "✗", "✓"]
@@ -20,5 +20,5 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "Gemeinsames Lead-Postfach"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Wo kaufen"
-    values: ["In der App", "In der App", "In der App", "Im Web, 14 Tage testen"]
+  - label: "Erhältlich"
+    values: ["In der App", "In der App", "In der App", "Im Web, 14 Tage kostenlos testen"]
