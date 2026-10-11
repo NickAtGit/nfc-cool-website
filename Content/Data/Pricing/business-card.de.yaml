@@ -1,34 +1,24 @@
 # Plan-Vergleich für /de/business-card/. Gerendert von PricingTableRenderer über
 # das {{PRICING_TABLE:business-card}}-Token in Content/Pages/business-card.de.md.
-columns: ["Free", "Personal", "Small Business", "Business"]
+columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Preis"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "**$99,99**"]
+    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 pro Person und Monat, oder $50 im Jahr"]
   - label: "Karten"
-    values: ["1", "1", "10", "100"]
-  - label: "Profilaufrufe"
+    values: ["1", "1", "10", "Eine pro Person"]
+  - label: "Teilen, Apple Wallet, Konferenzmodus, PIN, Daten-Export"
     values: ["✓", "✓", "✓", "✓"]
   - label: "vCard speichern"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Lead-Generierung"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Analytics"
-    values: ["✗", "✓", "✓", "✓"]
-  - label: "Eigenes Logo"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "NFC & QR teilen"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Apple Wallet"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Google Wallet"
-    values: ["soon", "soon", "soon", "soon"]
-  - label: "Konferenzmodus"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "PIN-Schutz"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Echtzeit-Benachrichtigungen"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Daten-Export (DSGVO)"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Ideal für"
-    values: ["Ausprobieren", "Einzelpersonen", "Kleine Teams", "Wachsende Firmen"]
+    values: ["✗", "✓", "✓", "✗"]
+  - label: "Firmenmarke"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Admin-Konsole"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Gemeinsames Lead-Postfach"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Wo kaufen"
+    values: ["In der App", "In der App", "In der App", "Im Web, 14 Tage testen"]

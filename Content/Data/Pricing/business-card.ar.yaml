@@ -1,34 +1,24 @@
 # Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
-columns: ["Free", "Personal", "Small Business", "Business"]
+columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "السعر"
-    values: ["**$٠**", "**$١٩.٩٩**", "**$٤٩.٩٩**", "**$٩٩.٩٩**"]
+    values: ["**$٠**", "**$١٩.٩٩**", "**$٤٩.٩٩**", "$٥ للشخص في الشهر، أو $٥٠ في السنة"]
   - label: "البطاقات"
-    values: ["١", "١", "١٠", "١٠٠"]
-  - label: "عرض الملف الشخصي"
+    values: ["١", "١", "١٠", "واحدة لكل شخص"]
+  - label: "المشاركة وApple Wallet ووضع المؤتمرات ورمز PIN وتصدير البيانات"
     values: ["✓", "✓", "✓", "✓"]
   - label: "حفظ vCard"
     values: ["✗", "✓", "✓", "✓"]
   - label: "جذب العملاء المحتملين"
     values: ["✗", "✓", "✓", "✓"]
   - label: "التحليلات"
-    values: ["✗", "✓", "✓", "✓"]
-  - label: "شعار مخصّص"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "المشاركة عبر NFC وQR"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Apple Wallet"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Google Wallet"
-    values: ["soon", "soon", "soon", "soon"]
-  - label: "وضع المؤتمرات"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "الحماية برمز PIN"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "إشعارات فورية"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "تصدير البيانات (GDPR)"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "مثالي لـ"
-    values: ["التجربة", "الأفراد", "الفرق الصغيرة", "الشركات المتنامية"]
+    values: ["✗", "✓", "✓", "✗"]
+  - label: "علامة الشركة التجارية"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "لوحة الإدارة"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "صندوق مشترك للعملاء المحتملين"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "أين تشتري"
+    values: ["داخل التطبيق", "داخل التطبيق", "داخل التطبيق", "على الويب، تجربة ١٤ يومًا"]

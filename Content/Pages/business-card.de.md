@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Eine digitale Business Card Maker App für iPhone und Android. Teile deine Kontaktdaten mit einem Tipp - NFC oder QR-Code, auf dem iPhone zusätzlich AppClip und Apple Wallet - und sieh, wer deine Karte tatsächlich speichert.
+Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-Code, auf dem iPhone zusätzlich per App Clip und Apple Wallet, und sieh, wer deine Karte speichert.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -23,6 +23,8 @@ Eine digitale Business Card Maker App für iPhone und Android. Teile deine Konta
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
+
+<p class="page-hero-team-link">Karten für ein Team? <a href="https://mycard.nfc.cool/org/start/">Team starten</a></p>
 
 </div>
 
@@ -46,8 +48,8 @@ Eine digitale Business Card Maker App für iPhone und Android. Teile deine Konta
 </article>
 
 <article class="page-card">
-<h3>Bis zu 100 Karten</h3>
-<p>Verwalte mehrere Karten für verschiedene Rollen, Marken oder Events. Mit einem Tipp wechseln. Ideal für kleine Teams und wachsende Unternehmen.</p>
+<h3>Eine Karte oder zehn</h3>
+<p>Verschiedene Rollen, Marken oder Events? Mit Pro hat eine Person bis zu 10 Karten und wechselt mit einem Tipp zwischen ihnen.</p>
 </article>
 
 <article class="page-card">
@@ -66,8 +68,8 @@ Eine digitale Business Card Maker App für iPhone und Android. Teile deine Konta
 </article>
 
 <article class="page-card">
-<h3>Umweltfreundlich</h3>
-<p>Eine digitale Karte ersetzt einen Stapel Papier. Änderungen sind sofort sichtbar - kein Nachdruck, kein Abfall.</p>
+<h3>Bereit für dein Team</h3>
+<p>Gib jedem eine Karte im Look deiner Firma, mit einem Postfach für alle Leads. <a href="#teams">Das bringen Teams</a>.</p>
 </article>
 
 </div>
@@ -94,7 +96,7 @@ Eine digitale Business Card Maker App für iPhone und Android. Teile deine Konta
 <h3>Smarte Visitenkarten</h3>
 <ul>
 <li><strong>Digitale Karten erstellen</strong> - Karten, die deine Marke wiedergeben</li>
-<li><strong>Bis zu 100 Karten</strong> - für verschiedene Rollen, Anlässe oder Teammitglieder</li>
+<li><strong>Bis zu 10 Karten mit Pro</strong> - für verschiedene Rollen, Marken oder Events</li>
 <li><strong>Aus Kontakten importieren</strong> - jeden bestehenden Kontakt als Karte nutzen</li>
 <li><strong>Immer aktuell</strong> - Änderungen werden sofort wirksam, ohne Nachdruck</li>
 </ul>
@@ -144,7 +146,7 @@ Eine digitale Business Card Maker App für iPhone und Android. Teile deine Konta
 <ul>
 <li><strong>Social-Plattformen</strong> - Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord und mehr</li>
 <li><strong>NFC, QR, eigene URL</strong> - drei Sharing-Modi, jeweils ein Tipp</li>
-<li><strong>AppClip</strong> - Empfänger sehen deine Karte ohne Installation (iOS)</li>
+<li><strong>App Clip</strong> - Empfänger sehen deine Karte ohne Installation (iOS)</li>
 <li><strong>Plattformübergreifend</strong> - auf iOS und Android</li>
 </ul>
 </article>
@@ -167,8 +169,26 @@ Eine digitale Business Card Maker App für iPhone und Android. Teile deine Konta
 
 ## Preise
 
-Wähle den Plan, der zu deinem Networking-Pensum passt. Alle bezahlten Pläne enthalten vCard-Speicherung, Lead-Generierung, Analytics und unbegrenztes Teilen.
+Eine Person oder ein ganzes Team. Personal und Pro kaufst du in der App, Teams starten im Web mit 14 Tagen Testphase.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
+
+</section>
+
+<section class="page-section" id="teams">
+
+## Das bringen Teams
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>Eine Marke, fest verankert</h3><p>Jede Karte trägt euer Logo, eure Farben und Jobtitel, und niemand kann vom Markenauftritt abweichen.</p></article>
+<article class="page-card"><h3>Karten bleiben im Unternehmen</h3><p>Wenn jemand geht, bleiben seine Karte und die gesammelten Leads beim Team.</p></article>
+<article class="page-card"><h3>Ein Postfach für alle Leads</h3><p>Alles, was das Team sammelt, an einem Ort, der richtigen Person zugewiesen, mit Status und Notizen.</p></article>
+<article class="page-card"><h3>Nachfassen und verbinden</h3><p>Vorlagen für Follow-up-E-Mails und Webhooks zu Zapier, Make oder deinem eigenen System.</p></article>
+<article class="page-card"><h3>Alles im Web steuern</h3><p>Eine Admin-Konsole mit Rollen (Owner, Admin, Manager, Billing), Einladungen per E-Mail und Abrechnung pro Platz.</p></article>
+<article class="page-card"><h3>Deine Domain, dein Wallet-Pass</h3><p>Kartenlinks auf eurer eigenen Domain und Apple-Wallet-Pässe in den Farben eures Teams.</p></article>
+<article class="page-card"><h3>KI-Assistent anbinden</h3><p>Gib einem KI-Assistenten die Leads deines Teams zum Lesen, Taggen und Nachfassen, über die MCP-Verbindung von NFC.cool.</p></article>
+</div>
+
+<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">14 Tage kostenlos testen</a></p>
 
 </section>

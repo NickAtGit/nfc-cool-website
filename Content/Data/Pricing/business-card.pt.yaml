@@ -1,34 +1,24 @@
 # Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
-columns: ["Gratuito", "Pessoal", "Pequena Empresa", "Empresarial"]
+columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Preço"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "**$99.99**"]
+    values: ["**$0**", "**$19.99**", "**$49.99**", "$5 por pessoa e por mês, ou $50 por ano"]
   - label: "Cartões"
-    values: ["1", "1", "10", "100"]
-  - label: "Visualização de perfil"
+    values: ["1", "1", "10", "Um por pessoa"]
+  - label: "Partilha, Apple Wallet, Modo Conferência, PIN, exportação de dados"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Guardar vCard"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Geração de contactos"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Análises"
-    values: ["✗", "✓", "✓", "✓"]
-  - label: "Logótipo personalizado"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Partilha por NFC e QR"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Apple Wallet"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Google Wallet"
-    values: ["soon", "soon", "soon", "soon"]
-  - label: "Modo Conferência"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Proteção por PIN"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Notificações em tempo real"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Exportação de dados (RGPD)"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Ideal para"
-    values: ["Testar", "Indivíduos", "Equipas pequenas", "Empresas em crescimento"]
+    values: ["✗", "✓", "✓", "✗"]
+  - label: "Marca da empresa"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Consola de administração"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Caixa de contactos partilhada"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Onde comprar"
+    values: ["Na app", "Na app", "Na app", "Na web, 14 dias de teste"]

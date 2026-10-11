@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチやQRコード、iPhoneではApp ClipとApple Walletで連絡先を一瞬で共有 - 誰が実際にあなたのカードを保存したかも確認できます。
+あなたとチームのためのデジタル名刺。NFCタッチやQRコード、iPhoneではApp ClipとApple Walletで共有し、誰があなたのカードを保存したかも確認できます。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ja&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -23,6 +23,8 @@ iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
+
+<p class="page-hero-team-link">チームでカードを使いますか? <a href="https://mycard.nfc.cool/org/start/">チームを始める</a></p>
 
 </div>
 
@@ -46,8 +48,8 @@ iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ
 </article>
 
 <article class="page-card">
-<h3>最大100枚のカード</h3>
-<p>役割、ブランド、イベントごとに別のカードを管理。ワンタップで切り替え。小規模チームや成長中の企業に最適です。</p>
+<h3>1枚でも10枚でも</h3>
+<p>役割、ブランド、イベントごとに分けたい場合は、Proなら1人で最大10枚のカードを持ち、ワンタップで切り替えられます。</p>
 </article>
 
 <article class="page-card">
@@ -66,8 +68,8 @@ iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ
 </article>
 
 <article class="page-card">
-<h3>環境にやさしい</h3>
-<p>1枚のデジタルカードで紙の名刺の山を置き換え。変更はすぐに反映 - 再印刷も廃棄もありません。</p>
+<h3>チームにも対応</h3>
+<p>全員に会社のブランドのカードを配り、リードは1つの受信箱に集約。<a href="#teams">チームでできること</a>。</p>
 </article>
 
 </div>
@@ -94,7 +96,7 @@ iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ
 <h3>スマートな名刺</h3>
 <ul>
 <li><strong>デジタルカード作成</strong> - ブランドにマッチしたデザイン</li>
-<li><strong>最大100枚</strong> - 役割、シーン、チームメンバーごとに使い分け</li>
+<li><strong>Proなら最大10枚</strong> - 役割、ブランド、イベントごとに使い分け</li>
 <li><strong>連絡先からインポート</strong> - 既存の連絡先をそのままカードへ</li>
 <li><strong>常に最新</strong> - 編集は即時反映、再印刷不要</li>
 </ul>
@@ -167,8 +169,26 @@ iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ
 
 ## 料金プラン
 
-ネットワーキングの使い方に合わせて選べます。有料プランはすべて、vCard保存、リードジェネレーション、アナリティクス、無制限の共有を含みます。
+個人でもチームでも。PersonalとProはアプリで購入、チームはWebから14日間のトライアルで始められます。
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
+
+</section>
+
+<section class="page-section" id="teams">
+
+## チームでできること
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>ブランドを固定</h3><p>すべてのカードに会社のロゴ、色、役職が入り、ブランドから外れることはありません。</p></article>
+<article class="page-card"><h3>カードは会社に残る</h3><p>退職してもカードと集めたリードはチームに残ります。</p></article>
+<article class="page-card"><h3>すべてのリードを1つの受信箱に</h3><p>チームが集めたものを1か所に。適切な担当者に割り当て、ステータスとメモも管理できます。</p></article>
+<article class="page-card"><h3>フォローして、つなぐ</h3><p>テンプレートでフォローアップのメールを送り、Zapier、Make、自社システムへWebhookで連携します。</p></article>
+<article class="page-card"><h3>Webから運用</h3><p>役割(owner、admin、manager、billing)、メール招待、席ごとの課金を備えた管理コンソール。</p></article>
+<article class="page-card"><h3>自社ドメインとWalletパス</h3><p>自社ドメインのカードリンクと、チームの色のApple Walletパス。</p></article>
+<article class="page-card"><h3>AIアシスタントとつなぐ</h3><p>NFC.coolのMCP接続で、チームのリードをAIアシスタントが読み取り、タグ付けし、フォローアップできます。</p></article>
+</div>
+
+<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">14日間のトライアルを始める</a></p>
 
 </section>

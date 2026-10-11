@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-أداة لإنشاء بطاقات العمل الرقمية لأجهزة iPhone و Android. شارك تفاصيل التواصل الخاصة بك بلمسة واحدة - عبر NFC أو رمز QR، وعلى iPhone أيضًا عبر AppClip أو Apple Wallet - وتعرّف على من يحفظ بطاقتك فعلًا.
+بطاقات عمل رقمية لك ولفريقك. شارك بلمسة واحدة عبر NFC أو رمز QR، وعلى iPhone أيضًا عبر App Clip وApple Wallet، وتعرّف على من يحفظ بطاقتك.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -23,6 +23,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <img src="/assets/theme/images/GooglePlay.svg" alt="احصل عليه من Google Play" width="173" height="52"/>
 </a>
 </div>
+
+<p class="page-hero-team-link">هل تريد بطاقات لفريق؟ <a href="https://mycard.nfc.cool/org/start/">ابدأ فريقًا</a></p>
 
 </div>
 
@@ -46,8 +48,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </article>
 
 <article class="page-card">
-<h3>حتى ١٠٠ بطاقة</h3>
-<p>أدِر بطاقات منفصلة لأدوار أو علامات تجارية أو فعاليات مختلفة. بدّل بينها بلمسة واحدة. مثالية للفرق الصغيرة والشركات النامية.</p>
+<h3>بطاقة واحدة أو عشر</h3>
+<p>أدوار أو علامات تجارية أو فعاليات مختلفة؟ مع Pro يمتلك الشخص الواحد حتى ١٠ بطاقات ويبدّل بينها بلمسة واحدة.</p>
 </article>
 
 <article class="page-card">
@@ -66,8 +68,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </article>
 
 <article class="page-card">
-<h3>صديقة للبيئة</h3>
-<p>بطاقة رقمية واحدة تُغني عن كومة من الورق. حدّثها في أي وقت - يظهر كل تغيير على الفور، دون إعادة طباعة ودون هدر.</p>
+<h3>جاهز لفريقك</h3>
+<p>امنح كل شخص بطاقة بعلامة شركتك التجارية، مع صندوق واحد لكل العملاء المحتملين. <a href="#teams">ما الذي تضيفه الفرق</a>.</p>
 </article>
 
 </div>
@@ -94,7 +96,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>بطاقات عمل ذكية</h3>
 <ul>
 <li><strong>إنشاء بطاقات رقمية</strong> - أنشئ بطاقات تطابق علامتك التجارية</li>
-<li><strong>حتى ١٠٠ بطاقة</strong> - لأدوار أو مناسبات أو زملاء مختلفين</li>
+<li><strong>حتى ١٠ بطاقات مع Pro</strong> - لأدوار أو علامات تجارية أو فعاليات مختلفة</li>
 <li><strong>الاستيراد من جهات الاتصال</strong> - حوّل أي جهة اتصال قائمة إلى بطاقة</li>
 <li><strong>محدّثة دائمًا</strong> - تظهر التعديلات على الفور، دون إعادة طباعة</li>
 </ul>
@@ -144,7 +146,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <ul>
 <li><strong>منصات التواصل الاجتماعي</strong> - Instagram و LinkedIn و TikTok و X و Facebook و GitHub و YouTube و WhatsApp و Telegram و Discord والمزيد</li>
 <li><strong>NFC ورمز QR وURL مخصّص</strong> - ثلاثة أوضاع للمشاركة، كلٌّ بلمسة واحدة</li>
-<li><strong>AppClip</strong> - يرى المستلمون بطاقتك دون تثبيت أي تطبيق (iOS)</li>
+<li><strong>App Clip</strong> - يرى المستلمون بطاقتك دون تثبيت أي تطبيق (iOS)</li>
 <li><strong>متعدّد المنصات</strong> - يعمل على iOS و Android</li>
 </ul>
 </article>
@@ -167,8 +169,26 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 ## التسعير
 
-اختر الخطة التي تناسب مقدار تواصلك المهني. تشمل جميع الخطط المدفوعة حفظ vCard وتوليد العملاء المحتملين والتحليلات والمشاركة غير المحدودة.
+شخص واحد أو فريق كامل. تُشترى Personal وPro داخل التطبيق، وتبدأ الفرق من الويب بتجربة مدتها ١٤ يومًا.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
+
+</section>
+
+<section class="page-section" id="teams">
+
+## ما الذي تضيفه الفرق
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>علامة تجارية واحدة، مقفلة</h3><p>تحمل كل بطاقة شعارك وألوانك ومسمياتك الوظيفية، ولا أحد يستطيع الخروج عن هوية العلامة.</p></article>
+<article class="page-card"><h3>البطاقات تبقى مع الشركة</h3><p>عندما يغادر شخص ما، تبقى بطاقته والعملاء المحتملون الذين جمعهم مع الفريق.</p></article>
+<article class="page-card"><h3>صندوق واحد لكل العملاء المحتملين</h3><p>كل ما يجمعه الفريق في مكان واحد، مسندًا إلى الشخص المناسب، مع الحالة والملاحظات.</p></article>
+<article class="page-card"><h3>تابع ثم اربط</h3><p>رسائل بريد إلكتروني للمتابعة من قوالب، وwebhooks إلى Zapier أو Make أو نظامك الخاص.</p></article>
+<article class="page-card"><h3>أدِرها من الويب</h3><p>لوحة إدارة بأدوار (owner وadmin وmanager وbilling)، ودعوات عبر البريد الإلكتروني، وفوترة لكل مقعد.</p></article>
+<article class="page-card"><h3>نطاقك وبطاقة Wallet الخاصة بك</h3><p>روابط بطاقات على نطاقك الخاص، وبطاقات Apple Wallet بألوان فريقك.</p></article>
+<article class="page-card"><h3>اربط مساعد الذكاء الاصطناعي</h3><p>امنح مساعد ذكاء اصطناعي العملاء المحتملين لفريقك ليقرأهم ويضع عليهم وسومًا ويتابعهم، عبر اتصال MCP من NFC.cool.</p></article>
+</div>
+
+<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">ابدأ تجربتك لمدة ١٤ يومًا</a></p>
 
 </section>

@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda dengan satu ketukan - NFC atau kode QR, dan di iPhone juga lewat AppClip atau Apple Wallet - dan lihat siapa yang benar-benar menyimpan kartu Anda.
+Kartu nama digital untuk Anda dan tim Anda. Bagikan dengan satu ketukan, lewat NFC atau kode QR dan, di iPhone, juga lewat App Clip dan Apple Wallet, lalu lihat siapa yang menyimpan kartu Anda.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -23,6 +23,8 @@ Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda 
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
+
+<p class="page-hero-team-link">Mulai kartu untuk tim? <a href="https://mycard.nfc.cool/org/start/">Mulai tim</a></p>
 
 </div>
 
@@ -46,8 +48,8 @@ Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda 
 </article>
 
 <article class="page-card">
-<h3>Hingga 100 kartu</h3>
-<p>Kelola kartu terpisah untuk peran, merek, atau acara yang berbeda. Beralih di antara mereka dengan satu ketukan. Ideal untuk tim kecil dan perusahaan yang berkembang.</p>
+<h3>Satu kartu atau sepuluh</h3>
+<p>Peran, merek, atau acara yang berbeda? Dengan Pro, satu orang punya hingga 10 kartu dan berpindah di antaranya dengan satu ketukan.</p>
 </article>
 
 <article class="page-card">
@@ -66,8 +68,8 @@ Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda 
 </article>
 
 <article class="page-card">
-<h3>Ramah lingkungan</h3>
-<p>Satu kartu digital menggantikan tumpukan kertas. Perbarui kapan saja - setiap perubahan langsung tercermin, tidak perlu cetak ulang, tidak ada pemborosan.</p>
+<h3>Siap untuk tim Anda</h3>
+<p>Beri setiap orang kartu dengan merek perusahaan Anda, dengan satu kotak masuk untuk semua prospek. <a href="#teams">Apa yang ditambahkan tim</a>.</p>
 </article>
 
 </div>
@@ -94,7 +96,7 @@ Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda 
 <h3>Kartu nama cerdas</h3>
 <ul>
 <li><strong>Pembuatan kartu digital</strong> - buat kartu yang mencerminkan merek Anda</li>
-<li><strong>Hingga 100 kartu</strong> - untuk peran, kesempatan, atau rekan tim yang berbeda</li>
+<li><strong>Hingga 10 kartu dengan Pro</strong> - untuk peran, merek, atau acara yang berbeda</li>
 <li><strong>Impor dari Kontak</strong> - ubah kontak yang ada menjadi kartu</li>
 <li><strong>Selalu terkini</strong> - pengeditan langsung tercermin, tidak perlu cetak ulang</li>
 </ul>
@@ -144,7 +146,7 @@ Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda 
 <ul>
 <li><strong>Platform sosial</strong> - Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord, dan lainnya</li>
 <li><strong>NFC, QR, URL kustom</strong> - tiga mode berbagi, masing-masing satu ketukan</li>
-<li><strong>AppClip</strong> - penerima melihat kartu Anda tanpa menginstal (iOS)</li>
+<li><strong>App Clip</strong> - penerima melihat kartu Anda tanpa menginstal (iOS)</li>
 <li><strong>Lintas platform</strong> - berfungsi di iOS dan Android</li>
 </ul>
 </article>
@@ -167,8 +169,26 @@ Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda 
 
 ## Harga
 
-Pilih paket yang sesuai dengan intensitas networking Anda. Semua paket berbayar mencakup penyimpanan vCard, generasi prospek, analitik, dan berbagi tak terbatas.
+Satu orang atau seluruh tim. Personal dan Pro dibeli di aplikasi; tim mulai di web dengan percobaan 14 hari.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
+
+</section>
+
+<section class="page-section" id="teams">
+
+## Apa yang ditambahkan tim
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>Satu merek, terkunci</h3><p>Setiap kartu membawa logo, warna, dan jabatan Anda, dan tidak ada yang bisa menyimpang dari merek.</p></article>
+<article class="page-card"><h3>Kartu tetap di perusahaan</h3><p>Saat seseorang pergi, kartunya dan prospek yang ia kumpulkan tetap bersama tim.</p></article>
+<article class="page-card"><h3>Satu kotak masuk untuk semua prospek</h3><p>Semua yang dikumpulkan tim di satu tempat, ditugaskan ke orang yang tepat, lengkap dengan status dan catatan.</p></article>
+<article class="page-card"><h3>Tindak lanjuti, lalu hubungkan</h3><p>E-mail tindak lanjut dari templat, dan webhook ke Zapier, Make, atau sistem Anda sendiri.</p></article>
+<article class="page-card"><h3>Kelola dari web</h3><p>Konsol admin dengan peran (owner, admin, manager, billing), undangan lewat e-mail, dan penagihan per kursi.</p></article>
+<article class="page-card"><h3>Domain Anda, pass Wallet Anda</h3><p>Tautan kartu di domain Anda sendiri, dan pass Apple Wallet dalam warna tim Anda.</p></article>
+<article class="page-card"><h3>Hubungkan asisten AI Anda</h3><p>Beri asisten AI prospek tim Anda untuk dibaca, diberi tag, dan ditindaklanjuti, lewat koneksi MCP NFC.cool.</p></article>
+</div>
+
+<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Mulai percobaan 14 hari</a></p>
 
 </section>

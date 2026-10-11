@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-iPhone ve Android için dijital kartvizit uygulaması. İletişim bilgilerini tek okutmayla paylaş (NFC ya da QR kod, iPhone'da ayrıca App Clip ve Apple Wallet) ve kartını gerçekte kimin kaydettiğini gör.
+Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR kod, iPhone'da ayrıca App Clip ve Apple Wallet) ve kartını kimin kaydettiğini gör.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-tr&mt=8" class="landing-store-button is-apple" aria-label="App Store'dan indir" target="_blank" rel="noopener nofollow sponsored">
@@ -23,6 +23,8 @@ iPhone ve Android için dijital kartvizit uygulaması. İletişim bilgilerini te
 <img src="/assets/theme/images/GooglePlay.svg" alt="Google Play'den edin" width="173" height="52"/>
 </a>
 </div>
+
+<p class="page-hero-team-link">Ekip için kart mı lazım? <a href="https://mycard.nfc.cool/org/start/">Ekip başlat</a></p>
 
 </div>
 
@@ -46,8 +48,8 @@ iPhone ve Android için dijital kartvizit uygulaması. İletişim bilgilerini te
 </article>
 
 <article class="page-card">
-<h3>100 karta kadar</h3>
-<p>Farklı roller, markalar ya da etkinlikler için ayrı kartlar yönet. Aralarında tek dokunuşla geç. Küçük ekipler ve büyüyen şirketler için birebir.</p>
+<h3>Bir kart ya da on</h3>
+<p>Farklı roller, markalar ya da etkinlikler mi var? Pro ile tek kişi 10 karta kadar tutar ve aralarında tek dokunuşla geçer.</p>
 </article>
 
 <article class="page-card">
@@ -66,8 +68,8 @@ iPhone ve Android için dijital kartvizit uygulaması. İletişim bilgilerini te
 </article>
 
 <article class="page-card">
-<h3>Çevreye saygılı</h3>
-<p>Tek dijital kart, bir tomar kağıdın yerini alır. İstediğin an güncelle: her değişiklik anında yansır, yeniden baskı yok, israf yok.</p>
+<h3>Ekibin için hazır</h3>
+<p>Herkese şirketinin markasıyla bir kart ver, tüm müşteri adayları tek bir gelen kutusunda toplansın. <a href="#teams">Ekipler neler ekliyor</a>.</p>
 </article>
 
 </div>
@@ -94,7 +96,7 @@ iPhone ve Android için dijital kartvizit uygulaması. İletişim bilgilerini te
 <h3>Akıllı kartvizitler</h3>
 <ul>
 <li><strong>Dijital kart oluşturma</strong> - markana uyan kartlar kur</li>
-<li><strong>100 karta kadar</strong> - farklı roller, durumlar ya da ekip arkadaşları için</li>
+<li><strong>Pro ile 10 karta kadar</strong> - farklı roller, markalar ya da etkinlikler için</li>
 <li><strong>Kişiler'den içe aktarma</strong> - mevcut herhangi bir kişiyi karta çevir</li>
 <li><strong>Her zaman güncel</strong> - düzenlemeler anında yansır, yeniden baskı yok</li>
 </ul>
@@ -167,8 +169,26 @@ iPhone ve Android için dijital kartvizit uygulaması. İletişim bilgilerini te
 
 ## Fiyatlandırma
 
-Ne kadar tanışıyorsan ona uyan planı seç. Ücretli planların hepsinde vCard olarak kaydetme, müşteri adayı toplama, istatistikler ve sınırsız paylaşım var.
+Tek kişi ya da koca bir ekip. Personal ve Pro uygulamadan alınır, ekipler web'de 14 günlük denemeyle başlar.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
+
+</section>
+
+<section class="page-section" id="teams">
+
+## Ekipler neler ekliyor
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>Tek marka, kilitli</h3><p>Her kart şirketinin logosunu, renklerini ve unvanlarını taşır, kimse marka dışına çıkamaz.</p></article>
+<article class="page-card"><h3>Kartlar şirkette kalır</h3><p>Biri ayrıldığında kartı ve topladığı müşteri adayları ekipte kalır.</p></article>
+<article class="page-card"><h3>Tüm adaylar için tek gelen kutusu</h3><p>Ekibin topladığı her şey tek yerde, doğru kişiye atanmış, durum ve notlarla.</p></article>
+<article class="page-card"><h3>Takip et, sonra bağla</h3><p>Şablonlu takip e-postaları ve Zapier, Make ya da kendi sistemine webhook'lar.</p></article>
+<article class="page-card"><h3>Web'den yönet</h3><p>Roller (owner, admin, manager, billing), e-posta davetleri ve koltuk başına faturalamayla bir yönetim konsolu.</p></article>
+<article class="page-card"><h3>Senin alan adın, senin Wallet kartın</h3><p>Kendi alan adında kart bağlantıları ve ekibinin renklerinde Apple Wallet kartları.</p></article>
+<article class="page-card"><h3>Yapay zekâ asistanını bağla</h3><p>NFC.cool'un MCP bağlantısıyla bir yapay zekâ asistanına ekibinin müşteri adaylarını okuması, etiketlemesi ve takip etmesi için ver.</p></article>
+</div>
+
+<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">14 günlük denemeni başlat</a></p>
 
 </section>

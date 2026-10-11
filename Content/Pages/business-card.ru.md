@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Конструктор цифровой визитки для iPhone и Android. Передавай свои контакты одним касанием через NFC или QR-код, а на iPhone ещё через App Clip и Apple Wallet, и смотри, кто действительно сохранил карточку.
+Цифровые визитки для тебя и твоей команды. Передавай одним касанием через NFC или QR-код, а на iPhone ещё через App Clip и Apple Wallet, и смотри, кто сохранил твою карточку.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ru&mt=8" class="landing-store-button is-apple" aria-label="Скачать в App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -23,6 +23,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <img src="/assets/theme/images/GooglePlay.svg" alt="Скачать в Google Play" width="173" height="52"/>
 </a>
 </div>
+
+<p class="page-hero-team-link">Нужны карточки для команды? <a href="https://mycard.nfc.cool/org/start/">Создать команду</a></p>
 
 </div>
 
@@ -46,8 +48,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </article>
 
 <article class="page-card">
-<h3>До 100 визиток</h3>
-<p>Веди отдельные карточки для разных ролей, брендов или мероприятий и переключайся между ними одним касанием. Подходит небольшим командам и растущим компаниям.</p>
+<h3>Одна карточка или десять</h3>
+<p>Разные роли, бренды или мероприятия? С Pro у одного человека до 10 карточек, и между ними можно переключаться одним касанием.</p>
 </article>
 
 <article class="page-card">
@@ -66,8 +68,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </article>
 
 <article class="page-card">
-<h3>Бережно к природе</h3>
-<p>Одна цифровая карточка заменяет пачку бумажных. Правки вносятся в любой момент и видны сразу: ничего не надо перепечатывать и выбрасывать.</p>
+<h3>Готово для команды</h3>
+<p>Дай каждому карточку в стиле компании и собирай все контакты в одном входящем списке. <a href="#teams">Что добавляют команды</a>.</p>
 </article>
 
 </div>
@@ -94,7 +96,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>Умные визитки</h3>
 <ul>
 <li><strong>Создание карточек</strong>: оформление под твой бренд</li>
-<li><strong>До 100 карточек</strong>: под разные роли, поводы и коллег</li>
+<li><strong>До 10 карточек с Pro</strong>: под разные роли, бренды и мероприятия</li>
 <li><strong>Импорт из «Контактов»</strong>: любой контакт превращается в карточку</li>
 <li><strong>Всегда актуальна</strong>: правки видны сразу, перепечатывать нечего</li>
 </ul>
@@ -167,8 +169,26 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 ## Тарифы
 
-Выбери тариф под то, сколько ты знакомишься. Во всех платных есть сохранение vCard, сбор контактов, аналитика и передача без ограничений.
+Один человек или целая команда. Personal и Pro покупаются в приложении, а команды начинают в вебе с пробными 14 днями.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
+
+</section>
+
+<section class="page-section" id="teams">
+
+## Что добавляют команды
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>Один бренд, без отклонений</h3><p>На каждой карточке логотип, цвета и должности компании, и никто не уйдёт от фирменного стиля.</p></article>
+<article class="page-card"><h3>Карточки остаются в компании</h3><p>Когда сотрудник уходит, его карточка и собранные контакты остаются у команды.</p></article>
+<article class="page-card"><h3>Один список для всех контактов</h3><p>Всё, что собирает команда, в одном месте: у каждого контакта есть ответственный, статус и заметки.</p></article>
+<article class="page-card"><h3>Связаться, а затем подключить</h3><p>Письма для повторного контакта по шаблонам и вебхуки в Zapier, Make или свою систему.</p></article>
+<article class="page-card"><h3>Управление из веба</h3><p>Консоль администратора с ролями (owner, admin, manager, billing), приглашениями по e-mail и оплатой за каждое место.</p></article>
+<article class="page-card"><h3>Свой домен и свой пропуск в Wallet</h3><p>Ссылки на карточки на собственном домене и пропуска Apple Wallet в цветах команды.</p></article>
+<article class="page-card"><h3>Подключи ИИ-ассистента</h3><p>Дай ИИ-ассистенту контакты команды, чтобы он читал их, ставил теги и напоминал о связи, через подключение MCP от NFC.cool.</p></article>
+</div>
+
+<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Начать 14 дней бесплатно</a></p>
 
 </section>

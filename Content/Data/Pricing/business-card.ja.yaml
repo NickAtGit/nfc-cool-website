@@ -1,34 +1,24 @@
 # /ja/business-card/ のプラン比較。Content/Pages/business-card.ja.md 内の
 # {{PRICING_TABLE:business-card}} トークンを通じて PricingTableRenderer が描画します。
-columns: ["Free", "Personal", "Small Business", "Business"]
+columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "価格"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "**$99.99**"]
+    values: ["**$0**", "**$19.99**", "**$49.99**", "1人あたり月$5、または年$50"]
   - label: "カード数"
-    values: ["1", "1", "10", "100"]
-  - label: "プロフィール表示"
+    values: ["1", "1", "10", "1人に1枚"]
+  - label: "共有、Apple Wallet、Conference Mode、PIN、データ書き出し"
     values: ["✓", "✓", "✓", "✓"]
   - label: "vCard保存"
     values: ["✗", "✓", "✓", "✓"]
   - label: "リードジェネレーション"
     values: ["✗", "✓", "✓", "✓"]
   - label: "アナリティクス"
-    values: ["✗", "✓", "✓", "✓"]
-  - label: "カスタムロゴ"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "NFC & QR共有"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Apple Wallet"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Google Wallet"
-    values: ["soon", "soon", "soon", "soon"]
-  - label: "Conference Mode"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "PIN保護"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "リアルタイム通知"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "データ書き出し(GDPR)"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "想定ユーザー"
-    values: ["お試し", "個人", "小規模チーム", "成長企業"]
+    values: ["✗", "✓", "✓", "✗"]
+  - label: "会社のブランド"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "管理コンソール"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "共有のリード受信箱"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "購入方法"
+    values: ["アプリ内", "アプリ内", "アプリ内", "Webで、14日間のトライアル"]

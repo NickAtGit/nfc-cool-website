@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-一款适用于 iPhone 和 Android 的电子名片制作应用。轻轻一触即可分享你的联系方式（支持 NFC 和二维码，在 iPhone 上还支持 AppClip 与 Apple Wallet），并看清究竟是谁真正保存了你的名片。
+为你和你的团队打造的电子名片。轻轻一触即可分享，支持 NFC 和二维码，在 iPhone 上还支持 App Clip 与 Apple Wallet，并能看到谁保存了你的名片。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -23,6 +23,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
+
+<p class="page-hero-team-link">要为团队创建名片？ <a href="https://mycard.nfc.cool/org/start/">开始创建团队</a></p>
 
 </div>
 
@@ -46,8 +48,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </article>
 
 <article class="page-card">
-<h3>最多 100 张名片</h3>
-<p>为不同的身份、品牌或活动分别管理名片，轻触一下即可切换。非常适合小型团队和成长中的企业。</p>
+<h3>一张或十张</h3>
+<p>不同身份、品牌或活动？使用 Pro，一个人最多可拥有 10 张名片，轻触一下即可切换。</p>
 </article>
 
 <article class="page-card">
@@ -66,8 +68,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </article>
 
 <article class="page-card">
-<h3>环保</h3>
-<p>一张电子名片即可替代厚厚一叠纸质名片。随时更新，每处改动都即时生效，无需重印，毫不浪费。</p>
+<h3>为团队准备</h3>
+<p>让每个人都拥有符合公司品牌的名片，所有线索汇入同一个收件箱。<a href="#teams">团队版新增了什么</a>。</p>
 </article>
 
 </div>
@@ -94,7 +96,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>智能电子名片</h3>
 <ul>
 <li><strong>创建电子名片</strong>：打造契合你品牌形象的名片</li>
-<li><strong>最多 100 张名片</strong>：适配不同身份、场合或团队成员</li>
+<li><strong>Pro 最多 10 张名片</strong>：适配不同身份、品牌或活动</li>
 <li><strong>从通讯录导入</strong>：把任意现有联系人一键转为名片</li>
 <li><strong>始终保持最新</strong>：编辑即时生效，无需重印</li>
 </ul>
@@ -144,7 +146,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <ul>
 <li><strong>社交平台</strong>：Instagram、LinkedIn、TikTok、X、Facebook、GitHub、YouTube、WhatsApp、Telegram、Discord 等</li>
 <li><strong>NFC、二维码、自定义网址</strong>：三种分享方式，各只需轻触一下</li>
-<li><strong>AppClip</strong>：对方无需安装即可查看你的名片（iOS）</li>
+<li><strong>App Clip</strong>：对方无需安装即可查看你的名片（iOS）</li>
 <li><strong>跨平台</strong>：iOS 和 Android 均可使用</li>
 </ul>
 </article>
@@ -167,8 +169,26 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 ## 价格
 
-根据你的人脉拓展需求选择合适的方案。所有付费方案均包含 vCard 保存、线索获取、数据分析和无限次分享。
+无论个人还是整个团队。Personal 和 Pro 在应用内购买，团队从网页开始，可享 14 天试用。
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
+
+</section>
+
+<section class="page-section" id="teams">
+
+## 团队版新增了什么
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>统一品牌，锁定样式</h3><p>每张名片都带有公司的徽标、品牌色和职位，没有人能偏离品牌形象。</p></article>
+<article class="page-card"><h3>名片归公司所有</h3><p>有人离职后，他的名片和收集到的线索仍留在团队中。</p></article>
+<article class="page-card"><h3>所有线索一个收件箱</h3><p>团队收集的一切集中在一处，分配给合适的人，并附有状态和备注。</p></article>
+<article class="page-card"><h3>跟进，再对接</h3><p>基于模板的跟进邮件，以及对接 Zapier、Make 或你自己系统的 Webhook。</p></article>
+<article class="page-card"><h3>在网页上管理</h3><p>管理后台支持角色（owner、admin、manager、billing）、邮件邀请和按席位计费。</p></article>
+<article class="page-card"><h3>你的域名，你的 Wallet 卡券</h3><p>使用自己域名的名片链接，以及采用团队配色的 Apple Wallet 卡券。</p></article>
+<article class="page-card"><h3>连接你的 AI 助手</h3><p>通过 NFC.cool 的 MCP 连接，让 AI 助手读取团队的线索，并为其打标签、做跟进。</p></article>
+</div>
+
+<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">开始 14 天试用</a></p>
 
 </section>
