@@ -6,7 +6,7 @@ rows:
     values: ["**$0**", "**$19.99**", "**$49.99**", "$5 per orang per bulan, atau $50 per tahun"]
   - label: "Kartu"
     values: ["1", "1", "10", "Satu per orang"]
-  - label: "Berbagi, Apple Wallet, Mode Konferensi, PIN, ekspor data"
+  - label: "Berbagi, Apple Wallet, Conference Mode, PIN, ekspor data"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Simpan vCard"
     values: ["✗", "✓", "✓", "✓"]

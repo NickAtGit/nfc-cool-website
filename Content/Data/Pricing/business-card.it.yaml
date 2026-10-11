@@ -10,15 +10,15 @@ rows:
     values: ["✓", "✓", "✓", "✓"]
   - label: "Salvataggio della vCard"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Raccolta contatti"
+  - label: "Acquisizione lead"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Statistiche"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Marchio aziendale"
+  - label: "Brand aziendale"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Console di amministrazione"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Casella condivisa dei contatti"
+  - label: "Casella condivisa dei lead"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Dove acquistare"
     values: ["Nell'app", "Nell'app", "Nell'app", "Sul web, 14 giorni di prova"]

@@ -43,8 +43,8 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 <div class="page-cards-grid">
 
 <article class="page-card">
-<h3>Generación de contactos en ambos sentidos</h3>
-<p>Cuando alguien recibe tu tarjeta, puede conectar de vuelta - convirtiendo cada vez que la compartes en un contacto con seguimiento y estado de Nuevo → Contactado → Cualificado → Convertido.</p>
+<h3>Generación de leads en ambos sentidos</h3>
+<p>Cuando alguien recibe tu tarjeta, puede conectar de vuelta. Cada vez que la compartes se convierte en un lead que puedes seguir de Nuevo a Contactado, Cualificado y Convertido.</p>
 </article>
 
 <article class="page-card">
@@ -54,22 +54,22 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 
 <article class="page-card">
 <h3>Información en tiempo real</h3>
-<p>Visualizaciones del perfil, contactos guardados y conversiones de contactos, desglosados por día, semana y mes - para que sepas de verdad qué eventos están funcionando.</p>
+<p>Visualizaciones del perfil, contactos guardados y leads por día, semana y mes, para que sepas qué eventos funcionan.</p>
 </article>
 
 <article class="page-card">
 <h3>Privacidad bajo tu control</h3>
-<p>Perfiles públicos que se pueden buscar o tarjetas privadas protegidas con PIN. Exportación de datos conforme al RGPD (ZIP) en cualquier momento. El seguimiento son solo recuentos, nunca identidades.</p>
+<p>Perfiles públicos o tarjetas privadas protegidas con PIN. Exporta todos tus datos en un ZIP en cualquier momento. El seguimiento cuenta visualizaciones, nunca identidades.</p>
 </article>
 
 <article class="page-card">
 <h3>Aspecto profesional</h3>
-<p>Logos para modo claro y oscuro, fondo, borde y colores de los bloques personalizables. La tarjeta se adapta automáticamente a la preferencia de aspecto de quien la recibe.</p>
+<p>Logos para modo claro y oscuro, y fondo, borde y colores de bloque propios. La tarjeta sigue el modo claro u oscuro de quien la ve.</p>
 </article>
 
 <article class="page-card">
 <h3>Listo para tu equipo</h3>
-<p>Da a cada persona una tarjeta con la marca de tu empresa, con una sola bandeja para todos los contactos. <a href="#teams">Qué aportan los equipos</a>.</p>
+<p>Da a cada persona una tarjeta con la marca de tu empresa, con una sola bandeja para todos los leads. <a href="#teams">Qué aportan los equipos</a>.</p>
 </article>
 
 </div>
@@ -112,17 +112,17 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 </article>
 
 <article class="page-card">
-<h3>Generación de contactos y networking</h3>
+<h3>Generación de leads y networking</h3>
 <ul>
-<li><strong>Formularios de captación de contactos</strong> - recoge los datos de contacto de quien ve la tarjeta</li>
+<li><strong>Formularios de captación de leads</strong> - recoge los datos de contacto de quien ve la tarjeta</li>
 <li><strong>Seguimiento de estado</strong> - Nuevo → Contactado → Cualificado → Convertido → Archivado</li>
 <li><strong>Notificaciones en tiempo real</strong> - notificación push instantánea cuando alguien conecta</li>
-<li><strong>Calendario y Recordatorios</strong> - programa seguimientos directamente desde un contacto</li>
+<li><strong>Calendario y Recordatorios</strong> - programa seguimientos directamente desde un lead</li>
 </ul>
 </article>
 
 <article class="page-card">
-<h3>Analíticas</h3>
+<h3>Estadísticas</h3>
 <ul>
 <li><strong>Visualizaciones del perfil</strong> - ve exactamente cuánta gente abrió tu tarjeta</li>
 <li><strong>Contactos guardados</strong> - sigue cuántas personas te guardaron en su móvil</li>
@@ -145,7 +145,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 <h3>Compartir y conectividad</h3>
 <ul>
 <li><strong>Redes sociales</strong> - Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord y muchas más</li>
-<li><strong>NFC, QR, URL personalizada</strong> - tres modos de compartir, cada uno con un toque</li>
+<li><strong>NFC, código QR, URL personalizada</strong> - tres modos de compartir, cada uno con un toque</li>
 <li><strong>App Clip</strong> - quien la recibe ve tu tarjeta sin instalar nada (iOS)</li>
 <li><strong>Multiplataforma</strong> - funciona en iOS y Android</li>
 </ul>
@@ -154,7 +154,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 <article class="page-card">
 <h3>Modo Conferencia</h3>
 <ul>
-<li><strong>QR en la pantalla de bloqueo</strong> - el código QR de tu tarjeta fijado en la pantalla de bloqueo del móvil para que cualquiera pueda escanearlo sin desbloquearlo</li>
+<li><strong>Código QR en la pantalla de bloqueo</strong> - el código QR de tu tarjeta fijado en la pantalla de bloqueo del móvil para que cualquiera pueda escanearlo sin desbloquearlo</li>
 <li><strong>Permanece 8 horas</strong> - cubre un día completo de evento y luego se borra solo</li>
 <li><strong>Sin abrir la app</strong> - solo entrega el móvil, lo escanean y listo</li>
 <li><strong>iPhone y Android</strong> - el mismo Modo Conferencia en ambos</li>
@@ -181,12 +181,12 @@ Una persona o un equipo entero. Personal y Pro se compran en la app; los equipos
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Una marca, bloqueada</h3><p>Cada tarjeta lleva tu logo, tus colores y los cargos, y nadie puede salirse de la marca.</p></article>
-<article class="page-card"><h3>Las tarjetas se quedan en la empresa</h3><p>Cuando alguien se va, su tarjeta y los contactos que recogió se quedan en el equipo.</p></article>
-<article class="page-card"><h3>Una bandeja para todos los contactos</h3><p>Todo lo que recoge el equipo en un solo lugar, asignado a la persona adecuada, con estado y notas.</p></article>
+<article class="page-card"><h3>Las tarjetas se quedan en la empresa</h3><p>Cuando alguien se va, su tarjeta y los leads que recopiló se quedan en el equipo.</p></article>
+<article class="page-card"><h3>Una bandeja para todos los leads</h3><p>Todo lo que recoge el equipo en un solo lugar, asignado a la persona adecuada, con estado y notas.</p></article>
 <article class="page-card"><h3>Haz seguimiento y conecta</h3><p>Correos de seguimiento con plantillas y webhooks a Zapier, Make o tu propio sistema.</p></article>
-<article class="page-card"><h3>Gestiónalo desde la web</h3><p>Una consola de administración con roles (owner, admin, manager, billing), invitaciones por correo y facturación por puesto.</p></article>
+<article class="page-card"><h3>Gestiónalo desde la web</h3><p>Una consola de administración con roles (propietario, administrador, responsable, facturación), invitaciones por correo y facturación por plaza.</p></article>
 <article class="page-card"><h3>Tu dominio, tu pase de Wallet</h3><p>Enlaces de tarjeta en tu propio dominio y pases de Apple Wallet con los colores de tu equipo.</p></article>
-<article class="page-card"><h3>Conecta tu asistente de IA</h3><p>Da a un asistente de IA los contactos de tu equipo para leerlos, etiquetarlos y hacer seguimiento, mediante la conexión MCP de NFC.cool.</p></article>
+<article class="page-card"><h3>Conecta tu asistente de IA</h3><p>Da a un asistente de IA los leads de tu equipo para leerlos, etiquetarlos y hacer seguimiento, mediante la conexión MCP de NFC.cool.</p></article>
 </div>
 
 <p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Empieza tus 14 días de prueba</a></p>

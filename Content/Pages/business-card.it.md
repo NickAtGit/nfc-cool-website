@@ -16,11 +16,11 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con NFC o codice QR e, su iPhone, anche con App Clip e Apple Wallet, e scopri quante persone salvano il tuo biglietto.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-it&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
-<img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
+<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-it&mt=8" class="landing-store-button is-apple" aria-label="Scarica dall'App Store" target="_blank" rel="noopener nofollow sponsored">
+<img src="/assets/theme/images/AppStore.svg" alt="Scarica dall'App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-it" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
-<img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-it" class="landing-store-button is-google" aria-label="Disponibile su Google Play" target="_blank" rel="noopener nofollow sponsored">
+<img src="/assets/theme/images/GooglePlay.svg" alt="Disponibile su Google Play" width="173" height="52"/>
 </a>
 </div>
 
@@ -43,33 +43,33 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 <div class="page-cards-grid">
 
 <article class="page-card">
-<h3>Contatti in entrambe le direzioni</h3>
-<p>Chi riceve il tuo biglietto può ricambiare e lasciarti i suoi dati: ogni condivisione diventa un contatto da seguire, con uno stato che va da Nuovo → Contattato → Qualificato → Convertito.</p>
+<h3>Lead in entrambe le direzioni</h3>
+<p>Chi riceve il tuo biglietto può ricambiare e lasciarti i suoi dati: ogni condivisione diventa un lead che puoi seguire da Nuovo a Contattato, Qualificato e Convertito.</p>
 </article>
 
 <article class="page-card">
 <h3>Un biglietto o dieci</h3>
-<p>Ruoli, marchi o eventi diversi? Con Pro una persona ha fino a 10 biglietti e passa dall'uno all'altro con un tocco.</p>
+<p>Ruoli, brand o eventi diversi? Con Pro una persona ha fino a 10 biglietti e passa dall'uno all'altro con un tocco.</p>
 </article>
 
 <article class="page-card">
 <h3>Dati in tempo reale</h3>
-<p>Visualizzazioni del profilo, contatti salvati e conversioni, suddivisi per giorno, settimana e mese: così sai davvero quali eventi funzionano.</p>
+<p>Visualizzazioni del profilo, contatti salvati e lead per giorno, settimana e mese, così sai quali eventi funzionano.</p>
 </article>
 
 <article class="page-card">
 <h3>La privacy la decidi tu</h3>
-<p>Profili pubblici e ricercabili oppure biglietti privati protetti da PIN. Esportazione dei dati conforme al GDPR (in ZIP) quando vuoi. Il monitoraggio registra solo i numeri, mai le identità.</p>
+<p>Profili pubblici o biglietti privati protetti da PIN. Esporta tutti i tuoi dati in un file ZIP quando vuoi. Il monitoraggio conta le visualizzazioni, mai le identità.</p>
 </article>
 
 <article class="page-card">
 <h3>Un aspetto professionale</h3>
-<p>Logo dedicato per il tema chiaro e per quello scuro, colori personalizzati per sfondo, bordo e riquadri. Il biglietto si adatta da solo al tema impostato da chi lo apre.</p>
+<p>Loghi per il tema chiaro e per quello scuro, colori personalizzati per sfondo, bordo e riquadri. Il biglietto segue il tema chiaro o scuro di chi lo guarda.</p>
 </article>
 
 <article class="page-card">
 <h3>Pronto per il tuo team</h3>
-<p>Dai a ciascuno un biglietto con il marchio della tua azienda, con un'unica casella per tutti i contatti. <a href="#teams">Cosa aggiungono i team</a>.</p>
+<p>Dai a ciascuno un biglietto con il brand della tua azienda, con un'unica casella per tutti i lead. <a href="#teams">Cosa aggiungono i team</a>.</p>
 </article>
 
 </div>
@@ -95,8 +95,8 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 <article class="page-card">
 <h3>Biglietti da visita intelligenti</h3>
 <ul>
-<li><strong>Biglietti digitali</strong> - creali in linea con il tuo marchio</li>
-<li><strong>Fino a 10 biglietti con Pro</strong> - per ruoli, marchi o eventi diversi</li>
+<li><strong>Biglietti digitali</strong> - creali in linea con il tuo brand</li>
+<li><strong>Fino a 10 biglietti con Pro</strong> - per ruoli, brand o eventi diversi</li>
 <li><strong>Importazione da Contatti</strong> - trasforma una scheda già in rubrica in un biglietto</li>
 <li><strong>Sempre aggiornati</strong> - le modifiche si vedono subito, senza ristampare nulla</li>
 </ul>
@@ -112,12 +112,12 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 </article>
 
 <article class="page-card">
-<h3>Raccolta dei contatti e networking</h3>
+<h3>Raccolta di lead e networking</h3>
 <ul>
-<li><strong>Moduli di contatto</strong> - raccogli i dati di chi apre il biglietto</li>
-<li><strong>Stato del contatto</strong> - Nuovo → Contattato → Qualificato → Convertito → Archiviato</li>
+<li><strong>Moduli di acquisizione lead</strong> - raccogli i dati di chi apre il biglietto</li>
+<li><strong>Monitoraggio dello stato</strong> - Nuovo → Contattato → Qualificato → Convertito → Archiviato</li>
 <li><strong>Notifiche in tempo reale</strong> - una push nell'istante in cui qualcuno si fa avanti</li>
-<li><strong>Calendario e Promemoria</strong> - fissa il prossimo passo direttamente dalla scheda del contatto</li>
+<li><strong>Calendario e Promemoria</strong> - fissa il prossimo passo direttamente dalla scheda del lead</li>
 </ul>
 </article>
 
@@ -145,7 +145,7 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 <h3>Condivisione e collegamenti</h3>
 <ul>
 <li><strong>Piattaforme social</strong> - Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord e altre ancora</li>
-<li><strong>NFC, QR, indirizzo personalizzato</strong> - tre modi per condividere, ognuno in un solo gesto</li>
+<li><strong>NFC, codice QR, indirizzo personalizzato</strong> - tre modi per condividere, ognuno in un solo gesto</li>
 <li><strong>App Clip</strong> - chi riceve il biglietto lo vede senza installare nulla (iOS)</li>
 <li><strong>Multipiattaforma</strong> - funziona su iOS e Android</li>
 </ul>
@@ -154,7 +154,7 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 <article class="page-card">
 <h3>Modalità Conferenza</h3>
 <ul>
-<li><strong>QR nella schermata di blocco</strong> - il codice QR del biglietto resta fissato nella schermata di blocco, così chiunque lo scansiona senza sbloccare il telefono</li>
+<li><strong>Codice QR nella schermata di blocco</strong> - il codice QR del biglietto resta fissato nella schermata di blocco, così chiunque lo scansiona senza sbloccare il telefono</li>
 <li><strong>Dura 8 ore</strong> - copre un'intera giornata di evento, poi sparisce da sola</li>
 <li><strong>Senza aprire l'app</strong> - passi il telefono, l'altra persona scansiona, fatto</li>
 <li><strong>iPhone e Android</strong> - la stessa Modalità Conferenza su entrambi</li>
@@ -180,13 +180,13 @@ Una persona o un team intero. Personal e Pro si acquistano nell'app; i team part
 ## Cosa aggiungono i team
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>Un marchio, bloccato</h3><p>Ogni biglietto porta il vostro logo, i vostri colori e i ruoli, e nessuno può uscire dall'immagine aziendale.</p></article>
-<article class="page-card"><h3>I biglietti restano all'azienda</h3><p>Quando qualcuno se ne va, il suo biglietto e i contatti raccolti restano al team.</p></article>
-<article class="page-card"><h3>Una casella per tutti i contatti</h3><p>Tutto ciò che raccoglie il team in un posto solo, assegnato alla persona giusta, con stato e note.</p></article>
-<article class="page-card"><h3>Ricontatta, poi collega</h3><p>E-mail di follow-up da modelli e webhook verso Zapier, Make o il vostro sistema.</p></article>
-<article class="page-card"><h3>Gestisci tutto dal web</h3><p>Una console di amministrazione con ruoli (owner, admin, manager, billing), inviti via e-mail e fatturazione per postazione.</p></article>
-<article class="page-card"><h3>Il tuo dominio, il tuo pass Wallet</h3><p>Link dei biglietti sul vostro dominio e pass Apple Wallet con i colori del team.</p></article>
-<article class="page-card"><h3>Collega il tuo assistente IA</h3><p>Dai a un assistente IA i contatti del team da leggere, etichettare e seguire, con la connessione MCP di NFC.cool.</p></article>
+<article class="page-card"><h3>Un brand, bloccato</h3><p>Ogni biglietto porta il tuo logo, i tuoi colori e i ruoli, e nessuno può uscire dal brand.</p></article>
+<article class="page-card"><h3>I biglietti restano all'azienda</h3><p>Quando qualcuno se ne va, il suo biglietto e i lead raccolti restano al team.</p></article>
+<article class="page-card"><h3>Una casella per tutti i lead</h3><p>Tutto ciò che raccoglie il team in un posto solo, assegnato alla persona giusta, con stato e note.</p></article>
+<article class="page-card"><h3>Fai follow-up, poi collega</h3><p>E-mail di follow-up da modelli e webhook verso Zapier, Make o il tuo sistema.</p></article>
+<article class="page-card"><h3>Gestisci tutto dal web</h3><p>Una console di amministrazione con ruoli (proprietario, amministratore, manager, fatturazione), inviti via e-mail e fatturazione per posto.</p></article>
+<article class="page-card"><h3>Il tuo dominio, il tuo pass Wallet</h3><p>Link dei biglietti sul tuo dominio e pass Apple Wallet con i colori del tuo team.</p></article>
+<article class="page-card"><h3>Collega il tuo assistente IA</h3><p>Dai a un assistente IA i lead del tuo team da leggere, taggare e seguire, con la connessione MCP di NFC.cool.</p></article>
 </div>
 
 <p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Inizia i 14 giorni di prova</a></p>

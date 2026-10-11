@@ -1,7 +1,7 @@
 ---
 title: "iPhone・Android対応Business Card Makerアプリ"
 slug: "business-card"
-description: "iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ、QRコード、App Clip、Apple Walletで共有可能。何人がカードを保存したかをトラッキングし、ライブイベントでConference Modeを実行できます。"
+description: "iPhoneとAndroid対応のデジタルBusiness Card Makerアプリ。NFCタッチ、QRコード、App Clip、Apple Walletで共有可能。何人がカードを保存したかをトラッキングし、ライブイベントでカンファレンスモードを実行できます。"
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -24,7 +24,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </a>
 </div>
 
-<p class="page-hero-team-link">チームでカードを使いますか? <a href="https://mycard.nfc.cool/org/start/">チームを始める</a></p>
+<p class="page-hero-team-link">チームでカードを使いますか？ <a href="https://mycard.nfc.cool/org/start/">チームを始める</a></p>
 
 </div>
 
@@ -44,7 +44,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 <article class="page-card">
 <h3>双方向のリードジェネレーション</h3>
-<p>カードを受け取った相手は、あなたへ折り返し連絡できます。すべての共有が、新規 → 連絡済 → 適格 → 成約までステータス追跡できるリードに変わります。</p>
+<p>カードを受け取った相手は、あなたへ折り返し連絡できます。すべての共有が、新規 → 連絡済み → 見込みあり → 成約までステータスを追跡できるリードに変わります。</p>
 </article>
 
 <article class="page-card">
@@ -54,12 +54,12 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 <article class="page-card">
 <h3>リアルタイムの分析</h3>
-<p>プロフィール表示、連絡先保存、リード成約 - 日次・週次・月次で分解。どのイベントが効いているかが実際にわかります。</p>
+<p>プロフィールの表示数、連絡先の保存数、リードを日次・週次・月次で確認でき、どのイベントが効果的かがわかります。</p>
 </article>
 
 <article class="page-card">
 <h3>プライバシーは自分で制御</h3>
-<p>検索可能な公開プロフィール、またはPIN保護のプライベートカード。GDPR準拠のデータ書き出し(ZIP)はいつでも可能。トラッキングは数値のみで、相手の身元は記録しません。</p>
+<p>公開プロフィール、またはPINで保護された非公開カード。すべてのデータをZIPでいつでもエクスポートできます。トラッキングが数えるのは閲覧数のみで、相手の身元は記録しません。</p>
 </article>
 
 <article class="page-card">
@@ -115,7 +115,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>リードジェネレーション & ネットワーキング</h3>
 <ul>
 <li><strong>リード取得フォーム</strong> - 閲覧者から自動的に連絡先を収集</li>
-<li><strong>ステータス管理</strong> - 新規 → 連絡済 → 適格 → 成約 → アーカイブ</li>
+<li><strong>ステータス管理</strong> - 新規 → 連絡済み → 見込みあり → 成約 → アーカイブ済み</li>
 <li><strong>リアルタイム通知</strong> - 接続があるとプッシュで即通知</li>
 <li><strong>カレンダー & リマインダー</strong> - リードから直接フォローアップを設定</li>
 </ul>
@@ -136,7 +136,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <ul>
 <li><strong>PIN保護プロフィール</strong> - 4桁PIN、レート制限つき照合</li>
 <li><strong>公開 / 非公開切替</strong> - 検索可能か、URLでのみアクセス可能か</li>
-<li><strong>GDPRデータ書き出し</strong> - いつでもZIPでダウンロード</li>
+<li><strong>GDPRデータのエクスポート</strong> - いつでもZIPでダウンロード</li>
 <li><strong>セッション保護</strong> - PINセッションは自動でタイムアウト</li>
 </ul>
 </article>
@@ -152,12 +152,12 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </article>
 
 <article class="page-card">
-<h3>Conference Mode</h3>
+<h3>カンファレンスモード</h3>
 <ul>
 <li><strong>ロック画面にQR</strong> - あなたの名刺のQRコードが端末のロック画面に表示され、解除なしでスキャン可能</li>
 <li><strong>8時間表示</strong> - 1日のイベントをカバー、その後自動で消えます</li>
 <li><strong>アプリを開く必要なし</strong> - 端末を差し出すだけで完了</li>
-<li><strong>iPhoneとAndroid</strong> - どちらも同じConference Modeを利用できます</li>
+<li><strong>iPhoneとAndroid</strong> - どちらも同じカンファレンスモードを利用できます</li>
 </ul>
 </article>
 
@@ -184,9 +184,9 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <article class="page-card"><h3>カードは会社に残る</h3><p>退職してもカードと集めたリードはチームに残ります。</p></article>
 <article class="page-card"><h3>すべてのリードを1つの受信箱に</h3><p>チームが集めたものを1か所に。適切な担当者に割り当て、ステータスとメモも管理できます。</p></article>
 <article class="page-card"><h3>フォローして、つなぐ</h3><p>テンプレートでフォローアップのメールを送り、Zapier、Make、自社システムへWebhookで連携します。</p></article>
-<article class="page-card"><h3>Webから運用</h3><p>役割(owner、admin、manager、billing)、メール招待、席ごとの課金を備えた管理コンソール。</p></article>
+<article class="page-card"><h3>Webから運用</h3><p>役割（オーナー、管理者、マネージャー、請求）、メール招待、シート単位の請求を備えた管理コンソール。</p></article>
 <article class="page-card"><h3>自社ドメインとWalletパス</h3><p>自社ドメインのカードリンクと、チームの色のApple Walletパス。</p></article>
-<article class="page-card"><h3>AIアシスタントとつなぐ</h3><p>NFC.coolのMCP接続で、チームのリードをAIアシスタントが読み取り、タグ付けし、フォローアップできます。</p></article>
+<article class="page-card"><h3>AIアシスタントとつなぐ</h3><p>NFC.coolのMCP接続で、AIアシスタントにチームのリードを渡し、読み取り、タグ付け、フォローアップを任せられます。</p></article>
 </div>
 
 <p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">14日間のトライアルを始める</a></p>

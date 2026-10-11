@@ -44,7 +44,7 @@ Kartu nama digital untuk Anda dan tim Anda. Bagikan dengan satu ketukan, lewat N
 
 <article class="page-card">
 <h3>Generasi prospek dua arah</h3>
-<p>Ketika seseorang menerima kartu Anda, mereka bisa terhubung kembali - mengubah setiap berbagi menjadi prospek yang dilacak dengan status dari Baru → Dihubungi → Dikualifikasi → Dikonversi.</p>
+<p>Saat seseorang menerima kartu Anda, mereka bisa terhubung kembali. Setiap kartu yang dibagikan menjadi prospek yang dapat Anda lacak dari Baru ke Dihubungi, Dikualifikasi, dan Dikonversi.</p>
 </article>
 
 <article class="page-card">
@@ -54,12 +54,12 @@ Kartu nama digital untuk Anda dan tim Anda. Bagikan dengan satu ketukan, lewat N
 
 <article class="page-card">
 <h3>Wawasan real-time</h3>
-<p>Tampilan profil, penyimpanan kontak, dan konversi prospek diperinci harian, mingguan, dan bulanan - sehingga Anda benar-benar tahu acara mana yang berhasil.</p>
+<p>Tampilan profil, penyimpanan kontak, dan prospek per hari, minggu, dan bulan, sehingga Anda tahu acara mana yang berhasil.</p>
 </article>
 
 <article class="page-card">
 <h3>Privasi yang Anda kendalikan</h3>
-<p>Profil yang dapat dicari secara publik atau kartu privat yang dilindungi PIN. Ekspor data sesuai GDPR (ZIP) kapan saja. Pelacakan hanya berupa hitungan, bukan identitas.</p>
+<p>Profil publik atau kartu privat yang dilindungi PIN. Ekspor semua data Anda sebagai ZIP kapan saja. Pelacakan menghitung tampilan, bukan identitas.</p>
 </article>
 
 <article class="page-card">
@@ -136,7 +136,7 @@ Kartu nama digital untuk Anda dan tim Anda. Bagikan dengan satu ketukan, lewat N
 <ul>
 <li><strong>Profil yang dilindungi PIN</strong> - PIN 4 digit, verifikasi dengan batas percobaan</li>
 <li><strong>Sakelar publik / privat</strong> - dapat dicari atau tidak terlihat hanya dengan URL</li>
-<li><strong>Ekspor data GDPR</strong> - unduh semuanya sebagai ZIP kapan saja</li>
+<li><strong>Ekspor data</strong> - unduh semuanya sebagai ZIP kapan saja</li>
 <li><strong>Keamanan sesi</strong> - waktu habis sesi PIN otomatis</li>
 </ul>
 </article>
@@ -154,7 +154,7 @@ Kartu nama digital untuk Anda dan tim Anda. Bagikan dengan satu ketukan, lewat N
 <article class="page-card">
 <h3>Conference Mode</h3>
 <ul>
-<li><strong>QR di Layar Kunci</strong> - kode QR kartu Anda disematkan di Layar Kunci ponsel sehingga siapapun bisa memindainya tanpa membuka kunci</li>
+<li><strong>QR di Layar Kunci</strong> - kode QR kartu Anda disematkan di Layar Kunci ponsel sehingga siapa pun bisa memindainya tanpa membuka kunci</li>
 <li><strong>Bertahan selama 8 jam</strong> - mencakup hari acara penuh, lalu menghapus dirinya sendiri</li>
 <li><strong>Tidak perlu membuka aplikasi</strong> - cukup serahkan ponsel, mereka pindai, selesai</li>
 <li><strong>iPhone dan Android</strong> - Conference Mode yang sama di keduanya</li>

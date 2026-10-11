@@ -10,7 +10,7 @@ rows:
     values: ["✓", "✓", "✓", "✓"]
   - label: "Guardar vCard"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Geração de contactos"
+  - label: "Geração de leads"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Análises"
     values: ["✗", "✓", "✓", "✓"]
@@ -18,7 +18,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "Consola de administração"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Caixa de contactos partilhada"
+  - label: "Caixa de leads partilhada"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Onde comprar"
     values: ["Na app", "Na app", "Na app", "Na web, 14 dias de teste"]

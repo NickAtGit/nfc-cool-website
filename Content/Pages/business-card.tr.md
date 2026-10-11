@@ -44,7 +44,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 
 <article class="page-card">
 <h3>Çift yönlü müşteri adayı toplama</h3>
-<p>Kartını alan kişi sana geri dönebilir; böylece her paylaşım, durumu Yeni → İletişim kuruldu → Nitelikli → Kazanıldı diye izlenen bir müşteri adayına dönüşür.</p>
+<p>Kartını alan kişi sana geri dönebilir; böylece her paylaşım, durumu Yeni → İletişime geçildi → Nitelikli → Dönüştürüldü diye izlenen bir müşteri adayına dönüşür.</p>
 </article>
 
 <article class="page-card">
@@ -54,12 +54,12 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 
 <article class="page-card">
 <h3>Anlık içgörüler</h3>
-<p>Profil görüntülemeleri, kişi kaydetmeler ve dönüşen adaylar günlük, haftalık ve aylık dökümlerle. Hangi etkinliğin işe yaradığını gerçekten bilirsin.</p>
+<p>Profil görüntülemeleri, kişi kaydetmeler ve müşteri adayları günlük, haftalık ve aylık dökümlerle. Hangi etkinliğin işe yaradığını bilirsin.</p>
 </article>
 
 <article class="page-card">
 <h3>Denetimi sende olan gizlilik</h3>
-<p>Herkese açık, aranabilir profiller ya da PIN korumalı özel kartlar. İstediğin an GDPR uyumlu veri dışa aktarımı (ZIP). İzleme yalnızca sayı tutar, kimlik tutmaz.</p>
+<p>Herkese açık profiller ya da PIN korumalı özel kartlar. Tüm verilerini istediğin an ZIP olarak dışa aktar. İzleme yalnızca görüntülemeleri sayar, kimlik tutmaz.</p>
 </article>
 
 <article class="page-card">
@@ -115,7 +115,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 <h3>Müşteri adayı toplama ve tanışma</h3>
 <ul>
 <li><strong>Bilgi toplama formları</strong> - kartını görenden iletişim bilgisi al</li>
-<li><strong>Durum takibi</strong> - Yeni → İletişim kuruldu → Nitelikli → Kazanıldı → Arşivlendi</li>
+<li><strong>Durum takibi</strong> - Yeni → İletişime geçildi → Nitelikli → Dönüştürüldü → Arşivlendi</li>
 <li><strong>Anlık bildirimler</strong> - biri bağlandığında hemen haber</li>
 <li><strong>Takvim ve Anımsatıcılar</strong> - takip görüşmesini doğrudan adayın üstünden planla</li>
 </ul>
@@ -136,7 +136,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 <ul>
 <li><strong>PIN korumalı profiller</strong> - 4 haneli PIN, hız sınırlı doğrulama</li>
 <li><strong>Herkese açık ya da özel</strong> - aranabilir ya da yalnızca adresi bilene görünür</li>
-<li><strong>GDPR veri dışa aktarımı</strong> - istediğin an her şeyi ZIP olarak indir</li>
+<li><strong>Veri dışa aktarımı</strong> - istediğin an her şeyi ZIP olarak indir</li>
 <li><strong>Oturum güvenliği</strong> - PIN oturumu kendiliğinden zaman aşımına uğrar</li>
 </ul>
 </article>
@@ -182,7 +182,7 @@ Tek kişi ya da koca bir ekip. Personal ve Pro uygulamadan alınır, ekipler web
 <div class="page-cards-grid">
 <article class="page-card"><h3>Tek marka, kilitli</h3><p>Her kart şirketinin logosunu, renklerini ve unvanlarını taşır, kimse marka dışına çıkamaz.</p></article>
 <article class="page-card"><h3>Kartlar şirkette kalır</h3><p>Biri ayrıldığında kartı ve topladığı müşteri adayları ekipte kalır.</p></article>
-<article class="page-card"><h3>Tüm adaylar için tek gelen kutusu</h3><p>Ekibin topladığı her şey tek yerde, doğru kişiye atanmış, durum ve notlarla.</p></article>
+<article class="page-card"><h3>Tüm müşteri adayları için tek gelen kutusu</h3><p>Ekibin topladığı her şey tek yerde, doğru kişiye atanmış, durum ve notlarla.</p></article>
 <article class="page-card"><h3>Takip et, sonra bağla</h3><p>Şablonlu takip e-postaları ve Zapier, Make ya da kendi sistemine webhook'lar.</p></article>
 <article class="page-card"><h3>Web'den yönet</h3><p>Roller (owner, admin, manager, billing), e-posta davetleri ve koltuk başına faturalamayla bir yönetim konsolu.</p></article>
 <article class="page-card"><h3>Senin alan adın, senin Wallet kartın</h3><p>Kendi alan adında kart bağlantıları ve ekibinin renklerinde Apple Wallet kartları.</p></article>

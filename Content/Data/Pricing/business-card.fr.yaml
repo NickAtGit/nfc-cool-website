@@ -18,7 +18,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "Console d'administration"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Boîte de leads partagée"
+  - label: "Boîte de réception de prospects partagée"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Où l'acheter"
     values: ["Dans l'app", "Dans l'app", "Dans l'app", "Sur le web, 14 jours d'essai"]
