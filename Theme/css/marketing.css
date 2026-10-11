@@ -708,3 +708,14 @@
    margin: 1.75rem auto 0;
    text-align: center;
 }
+
+/* Small "Starting cards for a team?" line under the hero store buttons. */
+.page-hero-text > p.page-hero-team-link {
+   font-size: 0.9375rem;
+   margin: 1.25rem 0 0;
+}
+.page-hero-team-link a {
+   color: inherit;
+   font-weight: 600;
+   text-decoration: underline;
+}

@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-A digital Business Card maker for iPhone and Android. Share your contact details with a tap - NFC or QR code, plus AppClip and Apple Wallet on iPhone - and see who actually saves your card.
+Digital business cards for you and your team. Share with a tap, by NFC or QR code, plus App Clip and Apple Wallet on iPhone, and see who saves your card.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -23,6 +23,8 @@ A digital Business Card maker for iPhone and Android. Share your contact details
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
+
+<p class="page-hero-team-link">Starting cards for a team? <a href="https://mycard.nfc.cool/org/start/">Start a team</a></p>
 
 </div>
 
@@ -42,32 +44,32 @@ A digital Business Card maker for iPhone and Android. Share your contact details
 
 <article class="page-card">
 <h3>Two-way lead generation</h3>
-<p>When someone receives your card, they can connect back - turning every share into a tracked lead with status from New → Contacted → Qualified → Converted.</p>
+<p>When someone receives your card, they can connect back. Every share becomes a lead you can track from New to Contacted, Qualified and Converted.</p>
 </article>
 
 <article class="page-card">
-<h3>Up to 100 cards</h3>
-<p>Manage separate cards for different roles, brands, or events. Switch between them with one tap. Ideal for small teams and growing companies.</p>
+<h3>One card or ten</h3>
+<p>Different roles, brands or events? Pro gives one person up to 10 cards and switches between them with one tap.</p>
 </article>
 
 <article class="page-card">
 <h3>Real-time insights</h3>
-<p>Profile views, contact saves, and lead conversions broken down daily, weekly, and monthly - so you actually know which events are working.</p>
+<p>Profile views, contact saves and leads by day, week and month, so you know which events work.</p>
 </article>
 
 <article class="page-card">
 <h3>Privacy you control</h3>
-<p>Public searchable profiles or PIN-protected private cards. GDPR-compliant data export (ZIP) at any time. Tracking is counts-only, never identities.</p>
+<p>Public profiles or PIN-protected private cards. Export all your data as a ZIP at any time. Tracking counts views, never identities.</p>
 </article>
 
 <article class="page-card">
 <h3>Professional appearance</h3>
-<p>Light and dark mode logos, custom background, border, and tile colors. The card automatically adapts to your recipient's appearance preference.</p>
+<p>Light and dark logos, your own background, border and tile colours. The card follows the viewer's light or dark mode.</p>
 </article>
 
 <article class="page-card">
-<h3>Eco-friendly</h3>
-<p>One digital card replaces a stack of paper. Update anytime - every change reflects immediately, no reprint, no waste.</p>
+<h3>Ready for your team</h3>
+<p>Give everyone a card in your company's brand, with one inbox for every lead. <a href="#teams">See what teams add</a>.</p>
 </article>
 
 </div>
@@ -94,7 +96,7 @@ A digital Business Card maker for iPhone and Android. Share your contact details
 <h3>Smart business cards</h3>
 <ul>
 <li><strong>Digital card creation</strong> - build cards that match your brand</li>
-<li><strong>Up to 100 cards</strong> - for different roles, occasions, or teammates</li>
+<li><strong>Up to 10 cards on Pro</strong> - for different roles, brands or events</li>
 <li><strong>Import from Contacts</strong> - turn any existing contact into a card</li>
 <li><strong>Always up to date</strong> - edits reflect immediately, no reprint</li>
 </ul>
@@ -144,7 +146,7 @@ A digital Business Card maker for iPhone and Android. Share your contact details
 <ul>
 <li><strong>Social platforms</strong> - Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord and more</li>
 <li><strong>NFC, QR, custom URL</strong> - three sharing modes, one tap each</li>
-<li><strong>AppClip</strong> - receivers see your card without installing (iOS)</li>
+<li><strong>App Clip</strong> - receivers see your card without installing (iOS)</li>
 <li><strong>Cross-platform</strong> - works on iOS and Android</li>
 </ul>
 </article>
@@ -167,8 +169,26 @@ A digital Business Card maker for iPhone and Android. Share your contact details
 
 ## Pricing
 
-Choose the plan that fits how much you network. All paid plans include vCard save, lead generation, analytics, and unlimited sharing.
+One person or a whole team. Personal and Pro are bought in the app; teams start on the web with a 14-day trial.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
+
+</section>
+
+<section class="page-section" id="teams">
+
+## What teams add
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>One brand, locked</h3><p>Every card carries your logo, colours and job titles, and nobody can drift off brand.</p></article>
+<article class="page-card"><h3>Cards stay with the company</h3><p>When someone leaves, their card and the leads they collected stay with the team.</p></article>
+<article class="page-card"><h3>One inbox for every lead</h3><p>Everything the team collects in one place, assigned to the right person, with status and notes.</p></article>
+<article class="page-card"><h3>Follow up, then connect</h3><p>Templated follow-up e-mails, and webhooks to Zapier, Make or your own system.</p></article>
+<article class="page-card"><h3>Run it from the web</h3><p>An admin console with roles (owner, admin, manager, billing), e-mail invites, and billing per seat.</p></article>
+<article class="page-card"><h3>Your domain, your Wallet pass</h3><p>Card links on your own domain, and Apple Wallet passes in your team's colours.</p></article>
+<article class="page-card"><h3>Connect your AI assistant</h3><p>Give an AI assistant your team's leads to read, tag and follow up, through NFC.cool's MCP connection.</p></article>
+</div>
+
+<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Start your 14-day trial</a></p>
 
 </section>

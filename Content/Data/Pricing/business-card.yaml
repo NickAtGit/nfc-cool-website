@@ -1,34 +1,24 @@
 # Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
-columns: ["Free", "Personal", "Small Business", "Business"]
+columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Price"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "**$99.99**"]
+    values: ["**$0**", "**$19.99**", "**$49.99**", "$5 per person a month, or $50 a year"]
   - label: "Cards"
-    values: ["1", "1", "10", "100"]
-  - label: "Profile viewing"
+    values: ["1", "1", "10", "One per person"]
+  - label: "Sharing, Apple Wallet, Conference Mode, PIN, data export"
     values: ["✓", "✓", "✓", "✓"]
   - label: "vCard save"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Lead generation"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Analytics"
-    values: ["✗", "✓", "✓", "✓"]
-  - label: "Custom logo"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "NFC & QR sharing"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Apple Wallet"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Google Wallet"
-    values: ["soon", "soon", "soon", "soon"]
-  - label: "Conference Mode"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "PIN protection"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Real-time notifications"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Data export (GDPR)"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Ideal for"
-    values: ["Testing", "Individuals", "Small teams", "Growing companies"]
+    values: ["✗", "✓", "✓", "✗"]
+  - label: "Company brand"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Admin console"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Shared leads inbox"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Where to buy"
+    values: ["In the app", "In the app", "In the app", "On the web, 14-day trial"]
