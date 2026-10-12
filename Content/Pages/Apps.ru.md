@@ -34,6 +34,13 @@ description: "Кроме NFC.cool Tools и Business Card я выпускаю н�
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
+<a class="page-card app-card" href="/apps/flight-tracker/">
+<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="Иконка приложения 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
+<h3>1st Class - Flight Tracker</h3>
+<p>Следи за рейсами, ставь штампы в голографический паспорт и переживай каждую поездку заново. Дневник путешествий, который работает без интернета.</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="Иконка приложения QR Code Scanner by NFC.cool" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
@@ -45,13 +52,6 @@ description: "Кроме NFC.cool Tools и Business Card я выпускаю н�
 <img class="app-card-icon" src="/assets/images/Apps/3d-scanner/icon.webp" alt="Иконка приложения 3D Object &amp; Room Scanner" width="64" height="64" loading="lazy"/>
 <h3>3D Object &amp; Room Scanner</h3>
 <p>Превращай реальные предметы и целые комнаты в 3D-модели с помощью датчика LiDAR в iPhone и iPad серии Pro.</p>
-<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
-</a>
-
-<a class="page-card app-card" href="/apps/flight-tracker/">
-<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="Иконка приложения 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
-<h3>1st Class - Flight Tracker</h3>
-<p>Следи за рейсами, ставь штампы в голографический паспорт и переживай каждую поездку заново. Дневник путешествий, который работает без интернета.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
@@ -73,7 +73,7 @@ description: "Кроме NFC.cool Tools и Business Card я выпускаю н�
 <img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Иконка приложения Mondego Move" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>Независимый помощник для системы Metro Mondego в районе Коимбры: планирование поездки, схема сети и тарифы.</p>
-<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android Beta</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS Beta</span></span></span>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
 </div>

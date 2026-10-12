@@ -34,6 +34,13 @@ NFC.cool Tools和Business Card应用是主角，但它们并不是我开发的�
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
+<a class="page-card app-card" href="/zh/apps/flight-tracker/">
+<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="1st Class Flight Tracker应用图标" width="64" height="64" loading="lazy"/>
+<h3>1st Class - Flight Tracker</h3>
+<p>记录航班，在全息护照上盖章，重温每一次旅程。可离线使用的旅行日志。</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/zh/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="QR Code Scanner by NFC.cool应用图标" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
@@ -45,13 +52,6 @@ NFC.cool Tools和Business Card应用是主角，但它们并不是我开发的�
 <img class="app-card-icon" src="/assets/images/Apps/3d-scanner/icon.webp" alt="3D Object & Room Scanner应用图标" width="64" height="64" loading="lazy"/>
 <h3>3D Object &amp; Room Scanner</h3>
 <p>利用Pro系列iPhone和iPad的LiDAR传感器，把真实物体和整个房间变成3D模型。</p>
-<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
-</a>
-
-<a class="page-card app-card" href="/zh/apps/flight-tracker/">
-<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="1st Class Flight Tracker应用图标" width="64" height="64" loading="lazy"/>
-<h3>1st Class - Flight Tracker</h3>
-<p>记录航班，在全息护照上盖章，重温每一次旅程。可离线使用的旅行日志。</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
@@ -73,7 +73,7 @@ NFC.cool Tools和Business Card应用是主角，但它们并不是我开发的�
 <img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Mondego Move应用图标" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>科英布拉地区Metro Mondego系统的独立伴侣应用：行程规划、线路图和票价信息。</p>
-<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android（测试版）</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS（测试版）</span></span></span>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
 </div>

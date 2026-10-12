@@ -34,6 +34,13 @@ NFC.cool Tools ile Business Card uygulaması baş rolde ama yayınladığım tek
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
+<a class="page-card app-card" href="/apps/flight-tracker/">
+<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="1st Class Flight Tracker uygulama simgesi" width="64" height="64" loading="lazy"/>
+<h3>1st Class - Flight Tracker</h3>
+<p>Uçuşları takip et, holografik pasaportuna damga bas, her yolculuğu yeniden yaşa. Çevrimdışı çalışan bir seyahat günlüğü.</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="QR Code Scanner by NFC.cool uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
@@ -45,13 +52,6 @@ NFC.cool Tools ile Business Card uygulaması baş rolde ama yayınladığım tek
 <img class="app-card-icon" src="/assets/images/Apps/3d-scanner/icon.webp" alt="3D Object & Room Scanner uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>3D Object &amp; Room Scanner</h3>
 <p>Pro iPhone ve iPad'lerdeki LiDAR algılayıcısıyla gerçek nesneleri ve tüm odaları 3B modele çevir.</p>
-<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
-</a>
-
-<a class="page-card app-card" href="/apps/flight-tracker/">
-<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="1st Class Flight Tracker uygulama simgesi" width="64" height="64" loading="lazy"/>
-<h3>1st Class - Flight Tracker</h3>
-<p>Uçuşları takip et, holografik pasaportuna damga bas, her yolculuğu yeniden yaşa. Çevrimdışı çalışan bir seyahat günlüğü.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
@@ -73,7 +73,7 @@ NFC.cool Tools ile Business Card uygulaması baş rolde ama yayınladığım tek
 <img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Mondego Move uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>Coimbra bölgesindeki Metro Mondego ağı için bağımsız bir yardımcı: sefer planlayıcı, ağ haritası ve ücretler.</p>
-<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android Beta</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS Beta</span></span></span>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
 </div>

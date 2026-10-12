@@ -34,6 +34,13 @@ NFC.cool Tools dan aplikasi Business Card adalah bintang utamanya, tapi bukan sa
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
+<a class="page-card app-card" href="/id/apps/flight-tracker/">
+<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="Ikon aplikasi 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
+<h3>1st Class - Flight Tracker</h3>
+<p>Lacak penerbangan, kumpulkan stempel di paspor holografik, dan kenang setiap perjalanan. Catatan perjalanan yang bekerja offline.</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/id/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="Ikon aplikasi QR Code Scanner by NFC.cool" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
@@ -45,13 +52,6 @@ NFC.cool Tools dan aplikasi Business Card adalah bintang utamanya, tapi bukan sa
 <img class="app-card-icon" src="/assets/images/Apps/3d-scanner/icon.webp" alt="Ikon aplikasi 3D Object & Room Scanner" width="64" height="64" loading="lazy"/>
 <h3>3D Object &amp; Room Scanner</h3>
 <p>Ubah objek nyata dan seluruh ruangan menjadi model 3D dengan sensor LiDAR di iPhone dan iPad Pro.</p>
-<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
-</a>
-
-<a class="page-card app-card" href="/id/apps/flight-tracker/">
-<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="Ikon aplikasi 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
-<h3>1st Class - Flight Tracker</h3>
-<p>Lacak penerbangan, kumpulkan stempel di paspor holografik, dan kenang setiap perjalanan. Catatan perjalanan yang bekerja offline.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
@@ -73,7 +73,7 @@ NFC.cool Tools dan aplikasi Business Card adalah bintang utamanya, tapi bukan sa
 <img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Ikon aplikasi Mondego Move" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>Pendamping independen untuk sistem Metro Mondego di kawasan Coimbra: perencana perjalanan, peta jaringan, dan tarif.</p>
-<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android (beta)</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS (beta)</span></span></span>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
 </div>

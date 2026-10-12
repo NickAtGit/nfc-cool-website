@@ -34,6 +34,13 @@ description: "إلى جانب NFC.cool Tools وتطبيق Business Card، أطو
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
+<a class="page-card app-card" href="/ar/apps/flight-tracker/">
+<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="أيقونة تطبيق 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
+<h3>1st Class - Flight Tracker</h3>
+<p>تتبّع رحلاتك الجوية، واجمع الأختام في جواز سفر هولوغرافي، واستعد كل رحلة. سجلّ سفر يعمل من دون اتصال.</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/ar/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="أيقونة تطبيق QR Code Scanner by NFC.cool" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
@@ -45,13 +52,6 @@ description: "إلى جانب NFC.cool Tools وتطبيق Business Card، أطو
 <img class="app-card-icon" src="/assets/images/Apps/3d-scanner/icon.webp" alt="أيقونة تطبيق 3D Object & Room Scanner" width="64" height="64" loading="lazy"/>
 <h3>3D Object &amp; Room Scanner</h3>
 <p>حوّل الأجسام الحقيقية والغرف بأكملها إلى نماذج ثلاثية الأبعاد بمستشعر LiDAR في أجهزة iPhone وiPad من فئة Pro.</p>
-<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
-</a>
-
-<a class="page-card app-card" href="/ar/apps/flight-tracker/">
-<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="أيقونة تطبيق 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
-<h3>1st Class - Flight Tracker</h3>
-<p>تتبّع رحلاتك الجوية، واجمع الأختام في جواز سفر هولوغرافي، واستعد كل رحلة. سجلّ سفر يعمل من دون اتصال.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
@@ -73,7 +73,7 @@ description: "إلى جانب NFC.cool Tools وتطبيق Business Card، أطو
 <img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="أيقونة تطبيق Mondego Move" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>رفيق مستقل لنظام Metro Mondego في منطقة كويمبرا: مخطّط رحلات وخريطة الشبكة والتعرفات.</p>
-<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android بيتا</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS بيتا</span></span></span>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
 </div>

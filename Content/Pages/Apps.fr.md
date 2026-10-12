@@ -34,6 +34,13 @@ NFC.cool Tools et l'app Business Card sont le cœur du sujet, mais pas la seule 
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
+<a class="page-card app-card" href="/fr/apps/flight-tracker/">
+<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="Icône de l'app 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
+<h3>1st Class - Flight Tracker</h3>
+<p>Suivez vos vols, tamponnez un passeport holographique et revivez chaque voyage. Un carnet de voyage qui fonctionne hors ligne.</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/fr/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="Icône de l'app QR Code Scanner by NFC.cool" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
@@ -45,13 +52,6 @@ NFC.cool Tools et l'app Business Card sont le cœur du sujet, mais pas la seule 
 <img class="app-card-icon" src="/assets/images/Apps/3d-scanner/icon.webp" alt="Icône de l'app 3D Object & Room Scanner" width="64" height="64" loading="lazy"/>
 <h3>3D Object &amp; Room Scanner</h3>
 <p>Transformez objets réels et pièces entières en modèles 3D grâce au capteur LiDAR des iPhone et iPad Pro.</p>
-<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
-</a>
-
-<a class="page-card app-card" href="/fr/apps/flight-tracker/">
-<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="Icône de l'app 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
-<h3>1st Class - Flight Tracker</h3>
-<p>Suivez vos vols, tamponnez un passeport holographique et revivez chaque voyage. Un carnet de voyage qui fonctionne hors ligne.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
@@ -73,7 +73,7 @@ NFC.cool Tools et l'app Business Card sont le cœur du sujet, mais pas la seule 
 <img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Icône de l'app Mondego Move" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>Un compagnon indépendant pour le réseau Metro Mondego dans la région de Coimbra : planificateur de trajets, plan du réseau et tarifs.</p>
-<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android (bêta)</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS (bêta)</span></span></span>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
 </div>

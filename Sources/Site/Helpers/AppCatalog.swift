@@ -90,9 +90,9 @@ enum AppCatalog {
       AppCatalogEntry(
          slug: "mondego-move",
          name: "Mondego Move",
-         // Beta on both platforms: open testing on Google Play (public listing, hence the
-         // storeURL), TestFlight on iOS - flip to "ANDROID, IOS" once the App Store version ships.
-         operatingSystem: "ANDROID",
+         // Live on both stores; storeURL holds the Play listing, the App Store one
+         // (id6753263298) is on the subpage.
+         operatingSystem: "ANDROID, IOS",
          applicationCategory: "TravelApplication",
          iconPath: "/assets/images/Apps/mondego-move/icon.webp",
          storeURL: "https://play.google.com/store/apps/details?id=pt.coimbra.metromondego",
