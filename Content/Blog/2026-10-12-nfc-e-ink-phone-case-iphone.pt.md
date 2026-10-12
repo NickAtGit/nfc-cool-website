@@ -3,12 +3,12 @@ id: "e-ink-phone-case-2026-10"
 title: "Hackeei a minha capa com ecrã e-ink para o iPhone conseguir escrever nela"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Tenho uma daquelas capas de telemóvel com ecrã e-ink NFC, sem bateria, e não gostava da aplicação que vinha com ela. Por isso, descobri como é que ela comunica, e a NFC.cool Tools 7.2.0 já consegue pôr fotografias, códigos QR, o próximo evento, a agenda do dia e os seus lembretes nas capas que usam a aplicação DeerPhoneCase ou KAZAVA."
+summary: "Tenho uma daquelas capas de telemóvel com ecrã e-ink NFC, sem bateria, e não gostava da aplicação que vinha com ela. Por isso, descobri como é que ela comunica, e a NFC.cool Tools 7.2.0 já consegue pôr fotografias, códigos QR, o próximo evento, a agenda do dia e os seus lembretes nas capas que usam a aplicação DeerPhoneCase, KAZAVA, Novixand ou TYOHINN."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "Um iPhone numa capa preta com um ecrã e-ink nas costas a mostrar um sol vermelho e amarelo sobre colinas pretas, ao lado de um segundo iPhone a enviar a mesma imagem por NFC"
 author: "Nicolo Stanciu"
 metaTitle: "Capa de telemóvel e-ink NFC no iPhone: fotos, agenda, QR"
-metaDescription: "Ponha fotografias, códigos QR, a agenda e lembretes numa capa e-ink NFC sem bateria a partir do iPhone. Funciona com capas DeerPhoneCase e KAZAVA."
+metaDescription: "Ponha fotografias, códigos QR, a agenda e lembretes numa capa e-ink NFC sem bateria a partir do iPhone. Funciona com capas DeerPhoneCase, KAZAVA, Novixand e TYOHINN."
 ogTitle: "Hackeei a minha capa e-ink para o iPhone escrever nela"
 ogDescription: "Como descobri o protocolo de uma capa de telemóvel e-ink NFC sem bateria, e o que a NFC.cool já consegue pôr no ecrã dela."
 ---
@@ -29,13 +29,13 @@ Lá dentro não há bateria nem porta de carregamento. A capa vai buscar a energ
 
 Para mim, é como um Etch A Sketch, aquele quadro de desenhar que se apaga a abanar, só que aqui quem o abana é o telemóvel. Nada muda até voltar a encostá-lo.
 
-Estas capas vendem-se com muitos nomes diferentes. A minha veio com uma aplicação chamada **DeerPhoneCase**, e o mesmo hardware também é vendido com uma aplicação chamada **KAZAVA** e, possivelmente, com outra chamada **SpaceInk+**.
+Estas capas vendem-se com muitos nomes diferentes, e quase todas as marcas têm a sua própria aplicação. A minha veio com uma chamada **DeerPhoneCase**. Já falo das outras mais abaixo.
 
 ---
 
 ## Porque não fiquei pela aplicação oficial
 
-Experimentei duas das aplicações dos fabricantes com a minha capa, a DeerPhoneCase e a KAZAVA, e ambas funcionam. Mas as duas são mesmo más de usar. Não são aplicações nativas para iPhone, é preciso iniciar sessão para fazer quase tudo e, no fim, pôr uma imagem é a única coisa que querem fazer.
+Experimentei uma série de aplicações dos fabricantes com a minha capa, e muitas funcionam. Mas todas são mesmo más de usar. Não são aplicações nativas para iPhone, é preciso iniciar sessão para fazer quase tudo e, no fim, pôr uma imagem é a única coisa que querem fazer.
 
 Quando olhei para aquele ecrã nas costas do telemóvel, não vi uma moldura digital. Vi um pequeno ecrã sempre ligado que não gasta bateria. É o sítio ideal para a próxima reunião, para a agenda do dia ou para um código QR que alguém pode ler diretamente das costas do meu telemóvel. A aplicação oficial não fazia nada disso, e eu faço uma aplicação que gira toda à volta do NFC. Por isso decidi ensinar eu próprio a NFC.cool a falar com a capa.
 
@@ -93,9 +93,15 @@ Os designs do calendário e dos lembretes são retratos de um momento. A capa mo
 
 **Só no iPhone, por enquanto.** Isto está na aplicação para iPhone. A aplicação para Android ainda não tem.
 
-**Nem todas as capas são iguais por dentro.** A NFC.cool funciona com capas que usam a aplicação DeerPhoneCase ou KAZAVA, e testei as duas com a minha capa. As capas da SpaceInk+ também devem funcionar, mas não tenho a certeza absoluta: a aplicação SpaceInk+ não funciona com a minha capa e só diz "device channel information mismatch". Se tiver uma capa da SpaceInk+, [diga-me](/contact/) se a NFC.cool funciona com ela ou não. Se a sua usa outra, a aplicação diz que ainda não é suportada e mostra um botão **Enviar detalhes da capa**. Esse botão envia os dados técnicos do chip, nada que o identifique a si ou à sua capa, para eu perceber que capas as pessoas têm de facto e acrescentá-las.
+**Que capas funcionam.** A maioria destas capas vem de um único programador, que publica uma aplicação diferente para quase todas as marcas. Experimentei com a minha capa todas as que consegui encontrar:
 
-**Onde comprar uma.** Na Amazon, estas capas aparecem com muitas marcas diferentes, algumas bem enigmáticas, mas por trás estão as mesmas capas. [Aqui fica uma pesquisa na Amazon](https://link.amazon/B0hUxLZTR) (ligação de afiliado). A minha tem DIY impresso por dentro, e alguns anúncios têm DIY no título, por isso é uma boa palavra para procurar. Se o anúncio indicar a aplicação que a capa usa, procure DeerPhoneCase ou KAZAVA.
+- A **DeerPhoneCase**, a **KAZAVA**, a **Novixand** e a **TYOHINN** funcionam com a minha capa, e a NFC.cool também. Se a sua capa veio com uma destas aplicações, a NFC.cool deve funcionar com ela.
+- A **Bestie e-INK** e a **KINGZER** não funcionam com a minha. A imagem passa por NFC sem problemas, mas quando a capa devia redesenhar o ecrã, não acontece nada.
+- A **SpaceInk+**, de outro programador, não funciona de todo com a minha capa. A aplicação só diz "device channel information mismatch".
+
+Isso não quer dizer que a NFC.cool não funcione com capas da Bestie e-INK, da KINGZER ou da SpaceInk+. Podem ser apenas capas um pouco diferentes da minha, e não as consigo testar. Se tiver uma, [diga-me](/contact/) se a NFC.cool funciona com ela ou não. Se a sua usa outra, a aplicação diz que ainda não é suportada e mostra um botão **Enviar detalhes da capa**. Esse botão envia os dados técnicos do chip, nada que o identifique a si ou à sua capa, para eu perceber que capas as pessoas têm de facto e acrescentá-las.
+
+**Onde comprar uma.** Na Amazon, estas capas aparecem com muitas marcas diferentes, algumas bem enigmáticas, mas por trás estão as mesmas capas. [Aqui fica uma pesquisa na Amazon](https://link.amazon/B0hUxLZTR) (ligação de afiliado). A minha tem DIY impresso por dentro, e alguns anúncios têm DIY no título, por isso é uma boa palavra para procurar. Se o anúncio indicar a aplicação que a capa usa, procure DeerPhoneCase, KAZAVA, Novixand ou TYOHINN.
 
 ---
 

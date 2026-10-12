@@ -3,12 +3,12 @@ id: "e-ink-phone-case-2026-10"
 title: "我破解了自己的墨水屏手机壳，现在用 iPhone 就能给它换画面"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "我有一个不用电池的 NFC 墨水屏手机壳，可随附的 App 实在不合我意。于是我把它的通信方式逆向了出来。现在，NFC.cool Tools 7.2.0 能把照片、QR 码、下一个日程、今日日程和提醒事项显示到使用 DeerPhoneCase 或 KAZAVA App 的手机壳上。"
+summary: "我有一个不用电池的 NFC 墨水屏手机壳，可随附的 App 实在不合我意。于是我把它的通信方式逆向了出来。现在，NFC.cool Tools 7.2.0 能把照片、QR 码、下一个日程、今日日程和提醒事项显示到使用 DeerPhoneCase、KAZAVA、Novixand 或 TYOHINN App 的手机壳上。"
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "一台装着黑色手机壳的 iPhone，背面的墨水屏上是黑色山丘上方一轮红黄相间的太阳；旁边另一台 iPhone 正通过 NFC 发送同一张图片"
 author: "Nicolo Stanciu"
 metaTitle: "iPhone 上的 NFC 墨水屏手机壳 App：照片、日历、QR 码"
-metaDescription: "用 iPhone 把照片、QR 码、日程和提醒事项显示到不用电池的 NFC 墨水屏手机壳上，支持 DeerPhoneCase 和 KAZAVA 手机壳。"
+metaDescription: "用 iPhone 把照片、QR 码、日程和提醒事项显示到不用电池的 NFC 墨水屏手机壳上，支持 DeerPhoneCase、KAZAVA、Novixand 和 TYOHINN 手机壳。"
 ogTitle: "我破解了墨水屏手机壳，让 iPhone 直接给它换画面"
 ogDescription: "我是怎么逆向一个不用电池的 NFC 墨水屏手机壳的，以及 NFC.cool 现在能在它的屏幕上显示什么。"
 ---
@@ -29,13 +29,13 @@ ogDescription: "我是怎么逆向一个不用电池的 NFC 墨水屏手机壳�
 
 我把它想成一块只有手机才能擦写的磁性画板。你不拿手机再贴上去，上面的画面就一直不变。
 
-这类手机壳换着各种牌子在卖。我这个配套的 App 叫 **DeerPhoneCase**，同样的硬件也会搭配名叫 **KAZAVA** 的 App 出售，可能还有名叫 **SpaceInk+** 的 App。
+这类手机壳换着各种牌子在卖，几乎每个牌子都有自己的 App。我这个配套的 App 叫 **DeerPhoneCase**，其他的后面再说。
 
 ---
 
 ## 为什么我没直接用官方 App
 
-厂商的 App 我用自己的手机壳试了两个，DeerPhoneCase 和 KAZAVA，都能用。但两个用起来都很糟糕。它们不是原生的 iPhone App，大部分功能都得先登录才能用，而且说到底，它们能做的也就是放张图。
+厂商的 App 我用自己的手机壳试了一大堆，很多都能用。但它们用起来都很糟糕。它们不是原生的 iPhone App，大部分功能都得先登录才能用，而且说到底，它们能做的也就是放张图。
 
 看着手机背面那块屏幕，我想到的不是相框，而是一块常亮又不耗电的小显示屏。拿它来显示我的下一个会议、今天的日程，或者一个别人能直接从我手机背面扫的 QR 码，再合适不过了。这些官方 App 一样都做不到，而我做的偏偏就是一款围着 NFC 转的 App。所以我决定自己动手，教 NFC.cool 和这个手机壳对话。
 
@@ -93,9 +93,15 @@ NFC.cool 照这个办法改过之后，图片就显示得干干净净了。我�
 
 **目前仅限 iPhone**。这个功能在 iPhone 版 App 里，Android 版暂时还没有。
 
-**不是每个手机壳里面都一样**。NFC.cool 支持使用 DeerPhoneCase 或 KAZAVA App 的手机壳，这两个我都用自己的手机壳试过。SpaceInk+ 的手机壳应该也能用，但我不敢完全保证：SpaceInk+ App 在我的手机壳上用不了，只会提示“device channel information mismatch”。如果你有 SpaceInk+ 的手机壳，请[告诉我](/contact/) NFC.cool 能不能用。如果你的手机壳用的是别的 App，NFC.cool 会告诉你暂时还不支持，并提供一个**发送手机壳信息**按钮。它只发送芯片的技术信息，不包含任何能识别你或你手机壳的内容。这样我就能知道大家手里实际用的是哪些手机壳，再把它们一一加进来。
+**哪些手机壳能用**。这类手机壳大多出自同一个开发者，他几乎给每个牌子都单独发布了一个 App。我能找到的都用自己的手机壳试了一遍：
 
-**哪里能买到**。在 Amazon 上，这类手机壳挂着各种各样的品牌名，有些相当让人摸不着头脑，但背后都是同样的手机壳。[这是在 Amazon 上的搜索结果](https://link.amazon/B0hUxLZTR)（推广链接）。我的手机壳内侧印着 DIY，有些商品标题里也写着 DIY，所以可以把它当作挑选时的线索。如果商品页写明了手机壳使用的 App，认准 DeerPhoneCase 或 KAZAVA。
+- **DeerPhoneCase**、**KAZAVA**、**Novixand** 和 **TYOHINN** 都能用在我的手机壳上，NFC.cool 也一样能用。如果你的手机壳配套的是其中一个 App，NFC.cool 应该也能用。
+- **Bestie e-INK** 和 **KINGZER** 在我的手机壳上用不了。图片能通过 NFC 顺利传过去，但到了手机壳该刷新的时候，什么都没发生。
+- 另一个开发者的 **SpaceInk+** 在我的手机壳上完全用不了，App 只会提示“device channel information mismatch”。
+
+但这并不代表 NFC.cool 就用不了 Bestie e-INK、KINGZER 或 SpaceInk+ 的手机壳。它们可能只是和我的手机壳稍有不同，而我没办法测试。如果你有这样的手机壳，请[告诉我](/contact/) NFC.cool 能不能用。如果你的手机壳用的是别的 App，NFC.cool 会告诉你暂时还不支持，并提供一个**发送手机壳信息**按钮。它只发送芯片的技术信息，不包含任何能识别你或你手机壳的内容。这样我就能知道大家手里实际用的是哪些手机壳，再把它们一一加进来。
+
+**哪里能买到**。在 Amazon 上，这类手机壳挂着各种各样的品牌名，有些相当让人摸不着头脑，但背后都是同样的手机壳。[这是在 Amazon 上的搜索结果](https://link.amazon/B0hUxLZTR)（推广链接）。我的手机壳内侧印着 DIY，有些商品标题里也写着 DIY，所以可以把它当作挑选时的线索。如果商品页写明了手机壳使用的 App，认准 DeerPhoneCase、KAZAVA、Novixand 或 TYOHINN。
 
 ---
 

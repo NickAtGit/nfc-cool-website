@@ -3,12 +3,12 @@ id: "e-ink-phone-case-2026-10"
 title: "J'ai hacké ma coque e-ink pour que mon iPhone puisse écrire dessus"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "J'ai une de ces coques de téléphone NFC à écran e-ink, sans batterie, et l'app fournie avec ne me plaisait pas. Alors j'ai décortiqué la façon dont elle communique, et NFC.cool Tools 7.2.0 sait désormais afficher des photos, des codes QR, votre prochain événement, l'agenda du jour et vos rappels sur les coques qui utilisent l'app DeerPhoneCase ou KAZAVA."
+summary: "J'ai une de ces coques de téléphone NFC à écran e-ink, sans batterie, et l'app fournie avec ne me plaisait pas. Alors j'ai décortiqué la façon dont elle communique, et NFC.cool Tools 7.2.0 sait désormais afficher des photos, des codes QR, votre prochain événement, l'agenda du jour et vos rappels sur les coques qui utilisent l'app DeerPhoneCase, KAZAVA, Novixand ou TYOHINN."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "Un iPhone dans une coque noire dont le dos est un écran e-ink affichant un soleil rouge et jaune au-dessus de collines noires, à côté d'un second iPhone qui envoie la même image en NFC"
 author: "Nicolo Stanciu"
 metaTitle: "Coque NFC e-ink sur iPhone : photos, agenda et codes QR"
-metaDescription: "Affichez photos, codes QR, agenda et rappels sur une coque NFC e-ink sans batterie, depuis votre iPhone. Compatible avec les coques DeerPhoneCase et KAZAVA."
+metaDescription: "Affichez photos, codes QR, agenda et rappels sur une coque NFC e-ink sans batterie, depuis votre iPhone. Compatible avec les coques DeerPhoneCase, KAZAVA, Novixand et TYOHINN."
 ogTitle: "J'ai hacké ma coque e-ink pour que mon iPhone puisse écrire dessus"
 ogDescription: "Comment j'ai percé les secrets d'une coque NFC e-ink sans batterie, et ce que NFC.cool sait désormais afficher sur son écran."
 ---
@@ -29,13 +29,13 @@ Pas de batterie à l'intérieur, pas de port de charge. La coque tire son énerg
 
 Je la vois comme une sorte d'Écran magique que seul votre téléphone saurait secouer. Rien ne bouge tant que vous n'y reposez pas votre téléphone.
 
-Ces coques sont vendues sous une foule de noms. La mienne était livrée avec une app appelée **DeerPhoneCase**, et le même matériel est aussi distribué avec une app nommée **KAZAVA**, et peut-être avec une autre nommée **SpaceInk+**.
+Ces coques sont vendues sous une foule de noms, et presque chaque marque a sa propre app. La mienne était livrée avec une app appelée **DeerPhoneCase**. Je reviens sur les autres plus bas.
 
 ---
 
 ## Pourquoi l'app officielle ne me suffisait pas
 
-J'ai essayé deux des apps des fabricants avec ma coque, DeerPhoneCase et KAZAVA, et les deux fonctionnent. Mais les deux sont vraiment pénibles à utiliser. Ce ne sont pas des apps iPhone natives, il faut se connecter à un compte pour faire presque tout, et au fond, afficher une image est leur seule ambition.
+J'ai essayé tout un tas d'apps des fabricants avec ma coque, et beaucoup fonctionnent. Mais toutes sont vraiment pénibles à utiliser. Ce ne sont pas des apps iPhone natives, il faut se connecter à un compte pour faire presque tout, et au fond, afficher une image est leur seule ambition.
 
 Quand je regardais cet écran au dos de mon téléphone, je n'y voyais pas un cadre photo. J'y voyais un petit écran toujours visible, qui ne consomme rien. L'endroit idéal pour ma prochaine réunion, l'agenda du jour, ou un code QR qu'on peut scanner directement au dos de mon téléphone. L'app officielle ne savait rien faire de tout ça, et moi, je développe une app entièrement consacrée au NFC. J'ai donc décidé d'apprendre moi-même à NFC.cool à dialoguer avec la coque.
 
@@ -93,9 +93,15 @@ Les modèles de calendrier et de rappels sont des instantanés. La coque montre 
 
 **iPhone uniquement, pour l'instant.** La fonction se trouve dans l'app iPhone. L'app Android ne l'a pas encore.
 
-**Toutes les coques ne sont pas identiques à l'intérieur.** NFC.cool fonctionne avec les coques qui utilisent l'app DeerPhoneCase ou KAZAVA, et j'ai testé les deux avec ma coque. Les coques SpaceInk+ devraient fonctionner aussi, mais je n'en suis pas totalement sûr : l'app SpaceInk+ ne fonctionne pas avec ma coque et affiche seulement « device channel information mismatch ». Si vous avez une coque SpaceInk+, [dites-moi](/contact/) si NFC.cool fonctionne avec elle ou non. Si la vôtre utilise autre chose, l'app vous indique qu'elle n'est pas encore prise en charge et vous propose un bouton **Envoyer les infos de la coque**. Il transmet les caractéristiques techniques de la puce, et rien qui permette de vous identifier, ni vous ni votre coque. Je peux ainsi voir quelles coques les gens possèdent vraiment, et les ajouter.
+**Quelles coques fonctionnent.** La plupart de ces coques viennent d'un même développeur, qui publie une app différente pour presque chaque marque. J'ai essayé avec ma coque toutes celles que j'ai pu trouver :
 
-**Où en trouver une.** Sur Amazon, ces coques se vendent sous une foule de marques, certaines assez énigmatiques, mais ce sont les mêmes coques derrière. [Voici une recherche sur Amazon](https://link.amazon/B0hUxLZTR) (lien affilié). La mienne porte la mention DIY imprimée à l'intérieur, et certaines annonces ont DIY dans leur titre, c'est donc un bon mot-clé à repérer. Si l'annonce indique l'app utilisée par la coque, cherchez DeerPhoneCase ou KAZAVA.
+- **DeerPhoneCase**, **KAZAVA**, **Novixand** et **TYOHINN** fonctionnent avec ma coque, et NFC.cool aussi. Si votre coque était livrée avec l'une de ces apps, NFC.cool devrait fonctionner avec elle.
+- **Bestie e-INK** et **KINGZER** ne fonctionnent pas avec la mienne. L'image passe sans souci par NFC, mais au moment où la coque devrait se rafraîchir, il ne se passe rien.
+- **SpaceInk+**, d'un autre développeur, ne fonctionne pas du tout avec ma coque. L'app affiche seulement « device channel information mismatch ».
+
+Cela ne veut pas dire que NFC.cool ne fonctionne pas avec les coques Bestie e-INK, KINGZER ou SpaceInk+. Ce sont peut-être simplement des coques un peu différentes de la mienne, et je ne peux pas les tester. Si vous en avez une, [dites-moi](/contact/) si NFC.cool fonctionne avec elle ou non. Si la vôtre utilise autre chose, l'app vous indique qu'elle n'est pas encore prise en charge et vous propose un bouton **Envoyer les infos de la coque**. Il transmet les caractéristiques techniques de la puce, et rien qui permette de vous identifier, ni vous ni votre coque. Je peux ainsi voir quelles coques les gens possèdent vraiment, et les ajouter.
+
+**Où en trouver une.** Sur Amazon, ces coques se vendent sous une foule de marques, certaines assez énigmatiques, mais ce sont les mêmes coques derrière. [Voici une recherche sur Amazon](https://link.amazon/B0hUxLZTR) (lien affilié). La mienne porte la mention DIY imprimée à l'intérieur, et certaines annonces ont DIY dans leur titre, c'est donc un bon mot-clé à repérer. Si l'annonce indique l'app utilisée par la coque, cherchez DeerPhoneCase, KAZAVA, Novixand ou TYOHINN.
 
 ---
 

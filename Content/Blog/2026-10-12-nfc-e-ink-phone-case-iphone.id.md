@@ -3,12 +3,12 @@ id: "e-ink-phone-case-2026-10"
 title: "Saya mengoprek casing ponsel e-ink saya supaya iPhone bisa menulis ke layarnya"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Saya punya salah satu casing ponsel e-ink NFC tanpa baterai itu, dan saya kurang suka aplikasi bawaannya. Jadi saya membongkar cara casing itu berkomunikasi, dan kini NFC.cool Tools 7.2.0 bisa menampilkan foto, kode QR, acara berikutnya, agenda hari ini, dan pengingat Anda di casing yang memakai aplikasi DeerPhoneCase atau KAZAVA."
+summary: "Saya punya salah satu casing ponsel e-ink NFC tanpa baterai itu, dan saya kurang suka aplikasi bawaannya. Jadi saya membongkar cara casing itu berkomunikasi, dan kini NFC.cool Tools 7.2.0 bisa menampilkan foto, kode QR, acara berikutnya, agenda hari ini, dan pengingat Anda di casing yang memakai aplikasi DeerPhoneCase, KAZAVA, Novixand, atau TYOHINN."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "iPhone dalam casing hitam dengan layar e-ink di bagian belakangnya yang menampilkan matahari merah-kuning di atas perbukitan hitam, di samping iPhone kedua yang mengirim gambar yang sama lewat NFC"
 author: "Nicolo Stanciu"
 metaTitle: "Casing ponsel e-ink NFC di iPhone: foto, kalender, kode QR"
-metaDescription: "Tampilkan foto, kode QR, agenda, dan pengingat di casing ponsel e-ink NFC tanpa baterai langsung dari iPhone. Mendukung casing DeerPhoneCase dan KAZAVA."
+metaDescription: "Tampilkan foto, kode QR, agenda, dan pengingat di casing ponsel e-ink NFC tanpa baterai langsung dari iPhone. Mendukung casing DeerPhoneCase, KAZAVA, Novixand, dan TYOHINN."
 ogTitle: "Saya mengoprek casing e-ink saya supaya bisa diisi dari iPhone"
 ogDescription: "Cara saya membongkar protokol casing ponsel e-ink NFC tanpa baterai, dan apa saja yang kini bisa ditampilkan NFC.cool di layarnya."
 ---
@@ -29,13 +29,13 @@ Di dalamnya tidak ada baterai, juga tidak ada port pengisian daya. Casing ini me
 
 Saya membayangkannya seperti papan gambar ajaib mainan anak-anak, bedanya yang bisa menghapus dan menggambar ulang hanyalah ponsel Anda. Tidak ada yang berubah sampai Anda menempelkan ponsel ke casing itu lagi.
 
-Casing seperti ini dijual dengan banyak sekali nama. Casing saya datang dengan aplikasi bernama **DeerPhoneCase**, dan perangkat keras yang sama juga dijual bersama aplikasi bernama **KAZAVA**, dan mungkin juga bersama aplikasi bernama **SpaceInk+**.
+Casing seperti ini dijual dengan banyak sekali nama, dan hampir setiap merek punya aplikasinya sendiri. Casing saya datang dengan aplikasi bernama **DeerPhoneCase**. Aplikasi lainnya akan saya bahas di bagian bawah.
 
 ---
 
 ## Kenapa saya tidak pakai aplikasi resminya saja
 
-Saya sudah mencoba dua aplikasi dari produsennya dengan casing saya, DeerPhoneCase dan KAZAVA, dan keduanya berfungsi. Tapi keduanya sangat tidak enak dipakai. Keduanya bukan aplikasi iPhone native, sebagian besar fiturnya baru bisa dipakai setelah login, dan pada akhirnya cuma menaruh gambar yang benar-benar ingin dilakukannya.
+Saya sudah mencoba banyak aplikasi dari produsennya dengan casing saya, dan banyak yang berfungsi. Tapi semuanya sangat tidak enak dipakai. Semuanya bukan aplikasi iPhone native, sebagian besar fiturnya baru bisa dipakai setelah login, dan pada akhirnya cuma menaruh gambar yang benar-benar ingin dilakukannya.
 
 Saat memandangi layar di bagian belakang ponsel saya, yang saya lihat bukan bingkai foto. Yang saya lihat adalah layar mungil yang selalu tampil tanpa memakan baterai sedikit pun. Tempat yang pas untuk rapat saya berikutnya, agenda hari ini, atau kode QR yang bisa dipindai orang langsung dari belakang ponsel saya. Aplikasi resminya tidak bisa melakukan satu pun dari itu, padahal saya sendiri membuat aplikasi yang seluruhnya tentang NFC. Jadi saya putuskan untuk mengajari NFC.cool berbicara dengan casing itu sendiri.
 
@@ -93,9 +93,15 @@ Desain kalender dan pengingat hanyalah cuplikan sesaat. Casing menampilkan keada
 
 **Untuk sementara, hanya di iPhone.** Fitur ini ada di aplikasi iPhone. Aplikasi Android belum memilikinya.
 
-**Tidak semua casing sama isinya.** NFC.cool bisa dipakai dengan casing yang memakai aplikasi DeerPhoneCase atau KAZAVA, dan keduanya sudah saya uji dengan casing saya. Casing untuk SpaceInk+ seharusnya juga bisa, tetapi saya tidak sepenuhnya yakin: aplikasi SpaceInk+ tidak bisa dipakai dengan casing saya dan hanya menampilkan "device channel information mismatch". Kalau Anda punya casing untuk SpaceInk+, [beri tahu saya](/contact/) apakah NFC.cool bisa dipakai dengannya atau tidak. Kalau casing Anda memakai aplikasi lain, NFC.cool akan memberi tahu bahwa casing itu belum didukung dan menawarkan tombol **Kirim detail casing**. Tombol itu mengirim detail teknis chip-nya saja, tanpa apa pun yang bisa mengidentifikasi Anda atau casing Anda, supaya saya bisa melihat casing mana yang benar-benar dimiliki orang dan menambahkan dukungannya.
+**Casing mana yang bisa dipakai.** Sebagian besar casing ini berasal dari satu pengembang yang menerbitkan aplikasi terpisah untuk hampir setiap merek. Semua aplikasi yang bisa saya temukan sudah saya coba dengan casing saya:
 
-**Di mana membelinya.** Di Amazon, casing ini dijual dengan banyak nama merek, beberapa di antaranya cukup membingungkan, tetapi ujung-ujungnya casing yang sama. [Ini hasil pencariannya di Amazon](https://link.amazon/B0hUxLZTR) (tautan afiliasi). Casing saya bertuliskan DIY di bagian dalam, dan beberapa produk mencantumkan DIY di judulnya, jadi itu kata yang bagus untuk dicari. Kalau halaman produk menyebutkan aplikasi yang dipakai casing itu, carilah DeerPhoneCase atau KAZAVA.
+- **DeerPhoneCase**, **KAZAVA**, **Novixand**, dan **TYOHINN** berfungsi dengan casing saya, dan NFC.cool juga. Kalau casing Anda datang dengan salah satu aplikasi ini, NFC.cool seharusnya bisa dipakai dengannya.
+- **Bestie e-INK** dan **KINGZER** tidak berfungsi dengan casing saya. Gambarnya terkirim lewat NFC tanpa masalah, tetapi saat casing seharusnya menggambar ulang, tidak terjadi apa-apa.
+- **SpaceInk+**, dari pengembang lain, sama sekali tidak berfungsi dengan casing saya. Aplikasinya hanya menampilkan "device channel information mismatch".
+
+Itu tidak berarti NFC.cool tidak bisa dipakai dengan casing untuk Bestie e-INK, KINGZER, atau SpaceInk+. Bisa jadi casing itu hanya sedikit berbeda dari punya saya, dan saya tidak bisa mengujinya. Kalau Anda punya salah satunya, [beri tahu saya](/contact/) apakah NFC.cool bisa dipakai dengannya atau tidak. Kalau casing Anda memakai aplikasi lain, NFC.cool akan memberi tahu bahwa casing itu belum didukung dan menawarkan tombol **Kirim detail casing**. Tombol itu mengirim detail teknis chip-nya saja, tanpa apa pun yang bisa mengidentifikasi Anda atau casing Anda, supaya saya bisa melihat casing mana yang benar-benar dimiliki orang dan menambahkan dukungannya.
+
+**Di mana membelinya.** Di Amazon, casing ini dijual dengan banyak nama merek, beberapa di antaranya cukup membingungkan, tetapi ujung-ujungnya casing yang sama. [Ini hasil pencariannya di Amazon](https://link.amazon/B0hUxLZTR) (tautan afiliasi). Casing saya bertuliskan DIY di bagian dalam, dan beberapa produk mencantumkan DIY di judulnya, jadi itu kata yang bagus untuk dicari. Kalau halaman produk menyebutkan aplikasi yang dipakai casing itu, carilah DeerPhoneCase, KAZAVA, Novixand, atau TYOHINN.
 
 ---
 

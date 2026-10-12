@@ -3,12 +3,12 @@ id: "e-ink-phone-case-2026-10"
 title: "Ich habe meine E-Ink-Handyhülle gehackt, damit mein iPhone darauf schreiben kann"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Ich besitze eine dieser NFC-Handyhüllen mit E-Ink-Display ohne Akku, und die mitgelieferte App hat mir nicht gefallen. Also habe ich herausgefunden, wie die Hülle kommuniziert. NFC.cool Tools 7.2.0 bringt jetzt Fotos, QR-Codes, deinen nächsten Termin, die Termine des Tages und deine Erinnerungen auf Hüllen, zu denen die App DeerPhoneCase oder KAZAVA gehört."
+summary: "Ich besitze eine dieser NFC-Handyhüllen mit E-Ink-Display ohne Akku, und die mitgelieferte App hat mir nicht gefallen. Also habe ich herausgefunden, wie die Hülle kommuniziert. NFC.cool Tools 7.2.0 bringt jetzt Fotos, QR-Codes, deinen nächsten Termin, die Termine des Tages und deine Erinnerungen auf Hüllen, zu denen die App DeerPhoneCase, KAZAVA, Novixand oder TYOHINN gehört."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "Ein iPhone in einer schwarzen Hülle mit E-Ink-Display auf der Rückseite, das eine rot-gelbe Sonne über schwarzen Hügeln zeigt, daneben ein zweites iPhone, das dasselbe Bild per NFC überträgt"
 author: "Nicolo Stanciu"
 metaTitle: "E-Ink-Handyhülle mit NFC am iPhone: Fotos, Kalender, QR-Codes"
-metaDescription: "Bring Fotos, QR-Codes, Termine und Erinnerungen vom iPhone auf eine NFC-Handyhülle mit E-Ink-Display ohne Akku. Für Hüllen mit DeerPhoneCase und KAZAVA."
+metaDescription: "Bring Fotos, QR-Codes, Termine und Erinnerungen vom iPhone auf eine NFC-Handyhülle mit E-Ink-Display ohne Akku. Für Hüllen mit DeerPhoneCase, KAZAVA, Novixand und TYOHINN."
 ogTitle: "Wie ich meine E-Ink-Handyhülle fürs iPhone gehackt habe"
 ogDescription: "Wie ich das Protokoll einer NFC-Handyhülle mit E-Ink-Display ohne Akku entschlüsselt habe und was NFC.cool jetzt auf ihr Display bringt."
 ---
@@ -29,13 +29,13 @@ Einen Akku gibt es nicht, einen Ladeanschluss auch nicht. Die Hülle bezieht ihr
 
 Ich stelle mir das wie eine Zaubertafel aus Kindertagen vor, die nur dein Handy löschen und neu bemalen kann. Bis du das Handy wieder dranhältst, ändert sich nichts.
 
-Diese Hüllen werden unter vielen Namen verkauft. Zu meiner gehörte eine App namens **DeerPhoneCase**, und dieselbe Hardware gibt es auch mit einer App namens **KAZAVA** und womöglich mit einer namens **SpaceInk+**.
+Diese Hüllen werden unter vielen Namen verkauft, und fast jede Marke hat ihre eigene App. Zu meiner gehörte eine namens **DeerPhoneCase**. Zu den anderen komme ich weiter unten.
 
 ---
 
 ## Warum mir die offizielle App nicht gereicht hat
 
-Ich habe zwei der Hersteller-Apps mit meiner Hülle ausprobiert, DeerPhoneCase und KAZAVA, und beide funktionieren. Aber beide fühlen sich richtig schlecht an. Es sind keine nativen iPhone-Apps, für das meiste musst du dich erst anmelden, und am Ende wollen sie eigentlich nur ein Bild anzeigen.
+Ich habe einen ganzen Haufen der Hersteller-Apps mit meiner Hülle ausprobiert, und viele davon funktionieren. Aber alle fühlen sich richtig schlecht an. Es sind keine nativen iPhone-Apps, für das meiste musst du dich erst anmelden, und am Ende wollen sie eigentlich nur ein Bild anzeigen.
 
 Als ich mir das Display auf der Rückseite meines Handys angesehen habe, sah ich keinen Bilderrahmen. Ich sah ein kleines Display, das immer an ist und keinen Akku kostet. Der perfekte Platz für meinen nächsten Termin, die Termine des Tages oder einen QR-Code, den jemand direkt von der Rückseite meines Handys scannen kann. Nichts davon konnte die offizielle App, und ich entwickle eine App, bei der sich alles um NFC dreht. Also habe ich beschlossen, NFC.cool selbst beizubringen, mit der Hülle zu sprechen.
 
@@ -93,9 +93,15 @@ Die Kalender- und Erinnerungsmotive sind Momentaufnahmen. Die Hülle zeigt, was 
 
 **Vorerst nur auf dem iPhone.** Die Funktion gibt es in der iPhone-App. Die Android-App hat sie noch nicht.
 
-**Nicht in jeder Hülle steckt dasselbe.** NFC.cool funktioniert mit Hüllen, zu denen die App DeerPhoneCase oder KAZAVA gehört, beide habe ich mit meiner Hülle getestet. Hüllen für SpaceInk+ sollten auch funktionieren, ganz sicher bin ich mir aber nicht: Die App SpaceInk+ funktioniert mit meiner Hülle nicht und meldet nur „device channel information mismatch“. Wenn du eine Hülle für SpaceInk+ hast, [sag mir bitte Bescheid](/contact/), ob NFC.cool damit funktioniert oder nicht. Braucht deine eine andere App, sagt dir NFC.cool, dass sie noch nicht unterstützt wird, und bietet dir die Taste **Hüllendaten senden** an. Damit gehen die technischen Daten des Chips an mich, nichts, was dich oder deine Hülle identifiziert. So sehe ich, welche Hüllen die Leute tatsächlich haben, und kann sie nach und nach unterstützen.
+**Welche Hüllen funktionieren.** Die meisten dieser Hüllen stammen von einem einzigen Entwickler, der für fast jede Marke eine eigene App veröffentlicht. Ich habe alle, die ich finden konnte, mit meiner Hülle ausprobiert:
 
-**Wo du eine bekommst.** Bei Amazon laufen diese Hüllen unter vielen Markennamen, manche davon ziemlich kryptisch, aber dahinter stecken dieselben Hüllen. [Hier ist eine Suche danach bei Amazon](https://link.amazon/B0hUxLZTR) (Affiliate-Link). Auf der Innenseite meiner Hülle steht DIY, und manche Angebote haben DIY im Titel, danach kannst du also gut Ausschau halten. Nennt ein Angebot die App, mit der die Hülle arbeitet, achte auf DeerPhoneCase oder KAZAVA.
+- **DeerPhoneCase**, **KAZAVA**, **Novixand** und **TYOHINN** funktionieren mit meiner Hülle, und NFC.cool funktioniert mit ihr auch. Gehört zu deiner Hülle eine dieser Apps, sollte NFC.cool damit funktionieren.
+- **Bestie e-INK** und **KINGZER** funktionieren mit meiner nicht. Das Bild kommt per NFC problemlos an, aber wenn sich das Display neu aufbauen sollte, passiert nichts.
+- **SpaceInk+** von einem anderen Entwickler funktioniert mit meiner Hülle gar nicht. Die App meldet nur „device channel information mismatch“.
+
+Das heißt nicht, dass NFC.cool mit Hüllen für Bestie e-INK, KINGZER oder SpaceInk+ nicht klarkommt. Das sind vielleicht einfach etwas andere Hüllen als meine, und testen kann ich sie nicht. Wenn du eine hast, [sag mir bitte Bescheid](/contact/), ob NFC.cool damit funktioniert oder nicht. Braucht deine eine andere App, sagt dir NFC.cool, dass sie noch nicht unterstützt wird, und bietet dir die Taste **Hüllendaten senden** an. Damit gehen die technischen Daten des Chips an mich, nichts, was dich oder deine Hülle identifiziert. So sehe ich, welche Hüllen die Leute tatsächlich haben, und kann sie nach und nach unterstützen.
+
+**Wo du eine bekommst.** Bei Amazon laufen diese Hüllen unter vielen Markennamen, manche davon ziemlich kryptisch, aber dahinter stecken dieselben Hüllen. [Hier ist eine Suche danach bei Amazon](https://link.amazon/B0hUxLZTR) (Affiliate-Link). Auf der Innenseite meiner Hülle steht DIY, und manche Angebote haben DIY im Titel, danach kannst du also gut Ausschau halten. Nennt ein Angebot die App, mit der die Hülle arbeitet, achte auf DeerPhoneCase, KAZAVA, Novixand oder TYOHINN.
 
 ---
 

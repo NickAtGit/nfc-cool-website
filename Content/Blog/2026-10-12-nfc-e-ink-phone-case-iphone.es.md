@@ -3,12 +3,12 @@ id: "e-ink-phone-case-2026-10"
 title: "Hackeé mi funda de tinta electrónica para que mi iPhone pueda escribir en ella"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Tengo una de esas fundas NFC con pantalla de tinta electrónica que funcionan sin batería, y la app que venía con ella no me convencía. Así que averigüé cómo se comunica, y NFC.cool Tools 7.2.0 ya puede poner fotos, códigos QR, tu próximo evento, la agenda del día y tus recordatorios en las fundas que usan la app DeerPhoneCase o KAZAVA."
+summary: "Tengo una de esas fundas NFC con pantalla de tinta electrónica que funcionan sin batería, y la app que venía con ella no me convencía. Así que averigüé cómo se comunica, y NFC.cool Tools 7.2.0 ya puede poner fotos, códigos QR, tu próximo evento, la agenda del día y tus recordatorios en las fundas que usan la app DeerPhoneCase, KAZAVA, Novixand o TYOHINN."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "Un iPhone con una funda negra que lleva en la parte trasera una pantalla de tinta electrónica con un sol rojo y amarillo sobre colinas negras, junto a un segundo iPhone que le envía la misma imagen por NFC"
 author: "Nicolo Stanciu"
 metaTitle: "Funda NFC de tinta electrónica en iPhone: fotos, agenda y QR"
-metaDescription: "Pon fotos, códigos QR, tu agenda y tus recordatorios en una funda NFC de tinta electrónica sin batería desde el iPhone. Para fundas DeerPhoneCase y KAZAVA."
+metaDescription: "Pon fotos, códigos QR, tu agenda y tus recordatorios en una funda NFC de tinta electrónica sin batería desde el iPhone. Para fundas DeerPhoneCase, KAZAVA, Novixand y TYOHINN."
 ogTitle: "Hackeé mi funda de tinta electrónica para escribir en ella desde el iPhone"
 ogDescription: "Cómo descifré el funcionamiento de una funda NFC de tinta electrónica sin batería, y lo que NFC.cool ya puede mostrar en su pantalla."
 ---
@@ -29,13 +29,13 @@ No lleva batería ni puerto de carga. La funda se alimenta del campo NFC del mó
 
 Yo me la imagino como una Telesketch que solo tu móvil puede sacudir. Nada cambia hasta que vuelves a apoyar el móvil en ella.
 
-Estas fundas se venden con muchos nombres distintos. La mía venía con una app llamada **DeerPhoneCase**, y el mismo hardware se vende también con una app llamada **KAZAVA**, y quizá con otra llamada **SpaceInk+**.
+Estas fundas se venden con muchos nombres distintos, y casi cada marca tiene su propia app. La mía venía con una llamada **DeerPhoneCase**. De las demás hablo más abajo.
 
 ---
 
 ## Por qué no me conformé con la app oficial
 
-Probé dos de las apps de los fabricantes con mi funda, DeerPhoneCase y KAZAVA, y las dos funcionan. Pero las dos son malísimas de usar. No son apps nativas de iPhone, para casi todo tienes que iniciar sesión primero y, al final, poner una imagen es lo único que pretenden hacer.
+Probé un montón de apps de los fabricantes con mi funda, y muchas funcionan. Pero todas son malísimas de usar. No son apps nativas de iPhone, para casi todo tienes que iniciar sesión primero y, al final, poner una imagen es lo único que pretenden hacer.
 
 Cuando miraba esa pantalla en la parte de atrás del móvil, no veía un marco de fotos. Veía una pequeña pantalla que siempre está a la vista y no gasta nada de batería. Es el sitio perfecto para mi próxima reunión, la agenda del día o un código QR que alguien pueda escanear directamente de la trasera de mi móvil. La app oficial no podía hacer nada de eso, y resulta que yo hago una app que gira por completo en torno al NFC. Así que decidí enseñarle yo mismo a NFC.cool a hablar con la funda.
 
@@ -93,9 +93,15 @@ Los diseños de calendario y de recordatorios son una foto fija: la funda muestr
 
 **Solo en iPhone, de momento.** Está en la app de iPhone. La app de Android todavía no lo tiene.
 
-**No todas las fundas son iguales por dentro.** NFC.cool funciona con las fundas que usan la app DeerPhoneCase o KAZAVA, y probé las dos con mi funda. Las fundas de SpaceInk+ también deberían funcionar, pero no estoy del todo seguro: la app SpaceInk+ no funciona con mi funda y solo dice "device channel information mismatch". Si tienes una funda de SpaceInk+, [cuéntame](/contact/) si NFC.cool funciona con ella o no. Si la tuya usa otra, la app te dice que todavía no es compatible y te ofrece un botón **Enviar datos de la funda**. Así se envían los datos técnicos del chip, nada que te identifique a ti ni a tu funda, para que yo pueda ver qué fundas tiene la gente de verdad y añadirlas.
+**Qué fundas funcionan.** La mayoría de estas fundas vienen de un mismo desarrollador, que publica una app distinta para casi cada marca. Probé con mi funda todas las que encontré:
 
-**Dónde conseguir una.** En Amazon estas fundas se venden con muchísimas marcas, algunas bastante crípticas, pero detrás están las mismas fundas. [Aquí tienes una búsqueda en Amazon](https://link.amazon/B0hUxLZTR) (enlace de afiliado). La mía lleva DIY impreso por dentro, y algunos anuncios ponen DIY en el título, así que es una buena palabra para buscar. Si el anuncio menciona la app que usa la funda, busca DeerPhoneCase o KAZAVA.
+- **DeerPhoneCase**, **KAZAVA**, **Novixand** y **TYOHINN** funcionan con mi funda, y NFC.cool también. Si tu funda venía con una de estas apps, NFC.cool debería funcionar con ella.
+- **Bestie e-INK** y **KINGZER** no funcionan con la mía. La imagen pasa por NFC sin problemas, pero cuando la funda debería redibujar la pantalla, no pasa nada.
+- **SpaceInk+**, de otro desarrollador, no funciona en absoluto con mi funda. La app solo dice "device channel information mismatch".
+
+Eso no significa que NFC.cool no funcione con las fundas de Bestie e-INK, KINGZER o SpaceInk+. Puede que simplemente sean algo distintas de la mía, y no puedo probarlas. Si tienes una, [cuéntame](/contact/) si NFC.cool funciona con ella o no. Si la tuya usa otra, la app te dice que todavía no es compatible y te ofrece un botón **Enviar datos de la funda**. Así se envían los datos técnicos del chip, nada que te identifique a ti ni a tu funda, para que yo pueda ver qué fundas tiene la gente de verdad y añadirlas.
+
+**Dónde conseguir una.** En Amazon estas fundas se venden con muchísimas marcas, algunas bastante crípticas, pero detrás están las mismas fundas. [Aquí tienes una búsqueda en Amazon](https://link.amazon/B0hUxLZTR) (enlace de afiliado). La mía lleva DIY impreso por dentro, y algunos anuncios ponen DIY en el título, así que es una buena palabra para buscar. Si el anuncio menciona la app que usa la funda, busca DeerPhoneCase, KAZAVA, Novixand o TYOHINN.
 
 ---
 

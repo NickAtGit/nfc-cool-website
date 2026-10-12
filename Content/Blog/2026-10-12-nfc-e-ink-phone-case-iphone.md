@@ -3,12 +3,12 @@ id: "e-ink-phone-case-2026-10"
 title: "I Hacked My E-Ink Phone Case So My iPhone Can Write to It"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "I own one of those battery-free NFC e-ink phone cases, and I didn't like the app it came with. So I reverse-engineered how it talks, and NFC.cool Tools 7.2.0 can now put photos, QR codes, your next event, today's agenda and your reminders on cases that use the DeerPhoneCase or KAZAVA app."
+summary: "I own one of those battery-free NFC e-ink phone cases, and I didn't like the app it came with. So I reverse-engineered how it talks, and NFC.cool Tools 7.2.0 can now put photos, QR codes, your next event, today's agenda and your reminders on cases that use the DeerPhoneCase, KAZAVA, Novixand or TYOHINN app."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "An iPhone in a black case with an e-ink screen on its back showing a red and yellow sun over black hills, next to a second iPhone sending the same picture over NFC"
 author: "Nicolo Stanciu"
 metaTitle: "NFC E-Ink Phone Case App for iPhone: Photos, Calendar, QR"
-metaDescription: "Put photos, QR codes, your agenda and reminders on a battery-free NFC e-ink phone case from iPhone. Works with DeerPhoneCase and KAZAVA cases."
+metaDescription: "Put photos, QR codes, your agenda and reminders on a battery-free NFC e-ink phone case from iPhone. Works with DeerPhoneCase, KAZAVA, Novixand and TYOHINN cases."
 ogTitle: "I hacked my e-ink phone case so my iPhone can write to it"
 ogDescription: "How I reverse-engineered a battery-free NFC e-ink phone case, and what NFC.cool can now put on its screen."
 ---
@@ -29,13 +29,13 @@ There's no battery inside and no charging port. The case gets its power from you
 
 I think of it like an Etch A Sketch that only your phone can shake. Nothing changes until your phone tells it to.
 
-These cases are sold under a lot of names. Mine came with an app called **DeerPhoneCase**, and the same hardware also ships with an app called **KAZAVA**, and possibly with one called **SpaceInk+**.
+These cases are sold under a lot of names, and almost every brand has its own app. Mine came with one called **DeerPhoneCase**. I'll get to the others further down.
 
 ---
 
 ## Why I didn't just use the official app
 
-I tried two of the manufacturer apps with my case, DeerPhoneCase and KAZAVA, and both of them work. But both feel really bad to use. They aren't native iPhone apps, you have to log in before you can do most things, and in the end a picture is all they really want to do.
+I tried a whole bunch of the manufacturer apps with my case, and a lot of them work. But they all feel really bad to use. They aren't native iPhone apps, you have to log in before you can do most things, and in the end a picture is all they really want to do.
 
 When I looked at that screen on the back of my phone, I didn't see a photo frame. I saw a little display that's always on and costs no battery. That's the perfect place for my next meeting, today's agenda, or a QR code someone can scan off the back of my phone. The official app couldn't do any of that, and I make an app that's all about NFC. So I decided to teach NFC.cool to talk to the case myself.
 
@@ -103,9 +103,15 @@ None of this is a reason to skip these cases. They're a bit of a hack, but a coo
 
 **iPhone only, for now.** This is in the iPhone app. The Android app doesn't have it yet.
 
-**Not every case is the same inside.** NFC.cool works with cases that use the DeerPhoneCase or KAZAVA app, and I tested both with my case. SpaceInk+ cases should work too, but I'm not fully sure: the SpaceInk+ app doesn't work with my case and only says "device channel information mismatch". If you have a SpaceInk+ case, please [tell me](/contact/) whether NFC.cool works with it or not. If yours uses something else, the app tells you it isn't supported yet and offers a **Send case details** button. That sends the chip's technical details, nothing that identifies you or your case, so I can see which cases people actually own and add them.
+**Which cases work.** Most of these cases come from one developer that publishes a separate app for almost every brand. I tried every one of those apps I could find with my case:
 
-**Where to get one.** On Amazon these cases are sold under a lot of brand names, some of them pretty cryptic, but they lead to the same cases. [Here's a search for them on Amazon](https://link.amazon/B0hUxLZTR) (affiliate link). Mine has DIY printed on the inside, and some listings put DIY in the title, so that's a good word to look for. If a listing names the app the case uses, look for DeerPhoneCase or KAZAVA.
+- **DeerPhoneCase**, **KAZAVA**, **Novixand** and **TYOHINN** work with my case, and NFC.cool works with it too. If your case came with one of these apps, NFC.cool should work with it.
+- **Bestie e-INK** and **KINGZER** don't work with mine. The picture goes over NFC just fine, but when the case should redraw, nothing happens.
+- **SpaceInk+**, from a different developer, doesn't work with my case at all. Its app only says "device channel information mismatch".
+
+That doesn't mean NFC.cool can't drive cases sold for Bestie e-INK, KINGZER or SpaceInk+. They may just be slightly different cases than mine, and I can't test them. If you have one, please [tell me](/contact/) whether NFC.cool works with it or not. If yours uses something else, the app tells you it isn't supported yet and offers a **Send case details** button. That sends the chip's technical details, nothing that identifies you or your case, so I can see which cases people actually own and add them.
+
+**Where to get one.** On Amazon these cases are sold under a lot of brand names, some of them pretty cryptic, but they lead to the same cases. [Here's a search for them on Amazon](https://link.amazon/B0hUxLZTR) (affiliate link). Mine has DIY printed on the inside, and some listings put DIY in the title, so that's a good word to look for. If a listing names the app the case uses, look for DeerPhoneCase, KAZAVA, Novixand or TYOHINN.
 
 ---
 

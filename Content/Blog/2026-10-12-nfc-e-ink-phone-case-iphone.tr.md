@@ -3,12 +3,12 @@ id: "e-ink-phone-case-2026-10"
 title: "E-ink telefon kılıfımı kurcaladım, artık iPhone'um ona yazabiliyor"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Pilsiz çalışan o NFC e-ink telefon kılıflarından birine sahibim ve yanında gelen uygulamayı sevmedim. Ben de kılıfın telefonla nasıl konuştuğunu tersine mühendislikle çözdüm: NFC.cool Tools 7.2.0 artık DeerPhoneCase ya da KAZAVA uygulamasıyla çalışan kılıfların ekranına fotoğraf, QR kod, sıradaki etkinlik, günün ajandası ve anımsatıcılar koyabiliyor."
+summary: "Pilsiz çalışan o NFC e-ink telefon kılıflarından birine sahibim ve yanında gelen uygulamayı sevmedim. Ben de kılıfın telefonla nasıl konuştuğunu tersine mühendislikle çözdüm: NFC.cool Tools 7.2.0 artık DeerPhoneCase, KAZAVA, Novixand ya da TYOHINN uygulamasıyla çalışan kılıfların ekranına fotoğraf, QR kod, sıradaki etkinlik, günün ajandası ve anımsatıcılar koyabiliyor."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "Arkasındaki e-ink ekranda siyah tepelerin üzerinde kırmızı ve sarı bir güneş görünen siyah kılıflı bir iPhone ve yanında aynı resmi NFC ile gönderen ikinci bir iPhone"
 author: "Nicolo Stanciu"
 metaTitle: "iPhone için NFC e-ink kılıf uygulaması: fotoğraf, takvim, QR"
-metaDescription: "Pilsiz NFC e-ink telefon kılıfına iPhone'dan fotoğraf, QR kod, ajanda ve anımsatıcı yaz. DeerPhoneCase ve KAZAVA kılıflarıyla çalışır."
+metaDescription: "Pilsiz NFC e-ink telefon kılıfına iPhone'dan fotoğraf, QR kod, ajanda ve anımsatıcı yaz. DeerPhoneCase, KAZAVA, Novixand ve TYOHINN kılıflarıyla çalışır."
 ogTitle: "E-ink kılıfımı kurcaladım, artık iPhone'um ona yazıyor"
 ogDescription: "Pilsiz bir NFC e-ink telefon kılıfının dilini nasıl çözdüğümü ve NFC.cool'un artık ekranına neler koyabildiğini anlatıyorum."
 ---
@@ -29,13 +29,13 @@ Bu kılıflardan hiç görmediysen anlatayım: sıradan bir telefon kılıfına 
 
 Ben bunu, silgisi yalnızca telefonunda olan bir sihirli yazı tahtası gibi düşünüyorum. Telefonunu yeniden yaklaştırana kadar hiçbir şey değişmiyor.
 
-Bu kılıflar bir sürü farklı adla satılıyor. Benimki **DeerPhoneCase** adlı bir uygulamayla geldi; aynı donanım **KAZAVA** adlı uygulamayla, belki de **SpaceInk+** adlı uygulamayla da satılıyor.
+Bu kılıflar bir sürü farklı adla satılıyor ve neredeyse her markanın kendi uygulaması var. Benimki **DeerPhoneCase** adlı bir uygulamayla geldi. Diğerlerine aşağıda değineceğim.
 
 ---
 
 ## Neden resmi uygulamayla yetinmedim
 
-Üreticilerin uygulamalarından ikisini, DeerPhoneCase ve KAZAVA'yı kendi kılıfımla denedim; ikisi de çalışıyor. Ama ikisini kullanmak da gerçekten kötü bir deneyim. Yerel iPhone uygulaması değiller, çoğu şeyi yapabilmek için önce giriş yapman gerekiyor ve sonuçta resim koymaktan başka pek bir şey yapmaya niyetleri yok.
+Üreticilerin uygulamalarından epey bir kısmını kendi kılıfımla denedim ve birçoğu çalışıyor. Ama hepsini kullanmak gerçekten kötü bir deneyim. Yerel iPhone uygulaması değiller, çoğu şeyi yapabilmek için önce giriş yapman gerekiyor ve sonuçta resim koymaktan başka pek bir şey yapmaya niyetleri yok.
 
 Telefonumun arkasındaki o ekrana baktığımda bir fotoğraf çerçevesi görmedim. Hep açık duran ve pil yemeyen küçük bir ekran gördüm. Sıradaki toplantım, günün ajandası ya da birinin telefonumun arkasından tarayabileceği bir QR kod için bundan iyi yer olamazdı. Resmi uygulama bunların hiçbirini yapamıyordu, bense baştan sona NFC üzerine kurulu bir uygulama geliştiriyorum. Ben de kılıfla konuşmayı NFC.cool'a kendim öğretmeye karar verdim.
 
@@ -93,9 +93,15 @@ Takvim ve anımsatıcı tasarımları o anın fotoğrafı gibi. Kılıf, yükled
 
 **Şimdilik yalnızca iPhone'da.** Bu özellik iPhone uygulamasında var. Android uygulamasında henüz yok.
 
-**Her kılıfın içi aynı değil.** NFC.cool, DeerPhoneCase ya da KAZAVA uygulamasını kullanan kılıflarla çalışıyor; ikisini de kendi kılıfımla denedim. SpaceInk+ kılıflarının da çalışması gerekiyor, ama bundan tam emin değilim: SpaceInk+ uygulaması benim kılıfımla çalışmıyor ve yalnızca "device channel information mismatch" diyor. Elinde bir SpaceInk+ kılıfı varsa NFC.cool'un onunla çalışıp çalışmadığını [bana yaz](/contact/). Seninki başka bir uygulama kullanıyorsa NFC.cool kılıfın henüz desteklenmediğini söylüyor ve sana **Kılıf bilgilerini gönder** düğmesini sunuyor. Bu düğme yalnızca çipin teknik ayrıntılarını gönderiyor; seni ya da kılıfını tanımlayan hiçbir şeyi değil. Böylece insanların elinde gerçekten hangi kılıfların olduğunu görüp onlara da destek ekleyebiliyorum.
+**Hangi kılıflar çalışıyor.** Bu kılıfların çoğu, neredeyse her marka için ayrı bir uygulama yayımlayan tek bir geliştiriciden geliyor. Bulabildiğim her birini kendi kılıfımla denedim:
 
-**Nereden alabilirsin.** Amazon'da bu kılıflar bir sürü marka adıyla satılıyor, bazıları epey anlaşılmaz, ama arkalarında aynı kılıflar var. [Amazon'da bunlar için bir arama burada](https://link.amazon/B0hUxLZTR) (ortaklık bağlantısı). Benimkinin içinde DIY yazıyor, bazı ilanların başlığında da DIY geçiyor; yani aramak için iyi bir kelime. İlan, kılıfın kullandığı uygulamayı belirtiyorsa DeerPhoneCase ya da KAZAVA'yı ara.
+- **DeerPhoneCase**, **KAZAVA**, **Novixand** ve **TYOHINN** benim kılıfımla çalışıyor, NFC.cool da öyle. Kılıfın bu uygulamalardan biriyle geldiyse NFC.cool'un da onunla çalışması gerekir.
+- **Bestie e-INK** ve **KINGZER** benimkiyle çalışmıyor. Resim NFC üzerinden sorunsuz gidiyor, ama kılıfın ekranı yeniden çizmesi gereken anda hiçbir şey olmuyor.
+- Başka bir geliştiricinin uygulaması olan **SpaceInk+** benim kılıfımla hiç çalışmıyor. Uygulama yalnızca "device channel information mismatch" diyor.
+
+Bu, NFC.cool'un Bestie e-INK, KINGZER ya da SpaceInk+ kılıflarıyla çalışmadığı anlamına gelmiyor. Bunlar benimkinden biraz farklı kılıflar olabilir ve ben onları deneyemiyorum. Sende bunlardan biri varsa NFC.cool'un onunla çalışıp çalışmadığını [bana yaz](/contact/). Seninki başka bir uygulama kullanıyorsa NFC.cool kılıfın henüz desteklenmediğini söylüyor ve sana **Kılıf bilgilerini gönder** düğmesini sunuyor. Bu düğme yalnızca çipin teknik ayrıntılarını gönderiyor; seni ya da kılıfını tanımlayan hiçbir şeyi değil. Böylece insanların elinde gerçekten hangi kılıfların olduğunu görüp onlara da destek ekleyebiliyorum.
+
+**Nereden alabilirsin.** Amazon'da bu kılıflar bir sürü marka adıyla satılıyor, bazıları epey anlaşılmaz, ama arkalarında aynı kılıflar var. [Amazon'da bunlar için bir arama burada](https://link.amazon/B0hUxLZTR) (ortaklık bağlantısı). Benimkinin içinde DIY yazıyor, bazı ilanların başlığında da DIY geçiyor; yani aramak için iyi bir kelime. İlan, kılıfın kullandığı uygulamayı belirtiyorsa DeerPhoneCase, KAZAVA, Novixand ya da TYOHINN'i ara.
 
 ---
 

@@ -3,12 +3,12 @@ id: "e-ink-phone-case-2026-10"
 title: "Ho hackerato la mia custodia e-ink per scriverci dall'iPhone"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Ho una di quelle custodie per telefono con schermo e-ink NFC e senza batteria, e l'app che la accompagnava non mi piaceva. Così ho scoperto come comunica, e ora NFC.cool Tools 7.2.0 può mostrare foto, codici QR, il prossimo evento, l'agenda di oggi e i promemoria sulle custodie che usano l'app DeerPhoneCase o KAZAVA."
+summary: "Ho una di quelle custodie per telefono con schermo e-ink NFC e senza batteria, e l'app che la accompagnava non mi piaceva. Così ho scoperto come comunica, e ora NFC.cool Tools 7.2.0 può mostrare foto, codici QR, il prossimo evento, l'agenda di oggi e i promemoria sulle custodie che usano l'app DeerPhoneCase, KAZAVA, Novixand o TYOHINN."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "Un iPhone in una custodia nera con uno schermo e-ink sul retro che mostra un sole rosso e giallo sopra colline nere, accanto a un secondo iPhone che invia la stessa immagine via NFC"
 author: "Nicolo Stanciu"
 metaTitle: "App per custodie e-ink NFC su iPhone: foto, calendario, QR"
-metaDescription: "Foto, codici QR, agenda e promemoria su una custodia e-ink NFC senza batteria, direttamente da iPhone. Funziona con le custodie DeerPhoneCase e KAZAVA."
+metaDescription: "Foto, codici QR, agenda e promemoria su una custodia e-ink NFC senza batteria, direttamente da iPhone. Funziona con le custodie DeerPhoneCase, KAZAVA, Novixand e TYOHINN."
 ogTitle: "Ho hackerato la mia custodia e-ink per scriverci dall'iPhone"
 ogDescription: "Come ho decifrato il protocollo di una custodia e-ink NFC senza batteria, e cosa può mostrare ora NFC.cool sul suo schermo."
 ---
@@ -29,13 +29,13 @@ Dentro non c'è nessuna batteria e nessuna porta di ricarica. La custodia prende
 
 Mi piace pensarla come una lavagna magica che solo il telefono sa cancellare. Finché non ci riavvicini il telefono, non cambia niente.
 
-Queste custodie si vendono con un'infinità di nomi diversi. La mia era accompagnata da un'app chiamata **DeerPhoneCase**, e lo stesso hardware si trova anche con l'app **KAZAVA**, e forse anche con **SpaceInk+**.
+Queste custodie si vendono con un'infinità di nomi diversi, e quasi ogni marchio ha la sua app. La mia era accompagnata da un'app chiamata **DeerPhoneCase**. Delle altre parlo più avanti.
 
 ---
 
 ## Perché l'app ufficiale non mi bastava
 
-Con la mia custodia ho provato due app dei produttori, DeerPhoneCase e KAZAVA, ed entrambe funzionano. Ma sono tutte e due davvero brutte da usare. Non sono app native per iPhone, per fare quasi tutto devi prima accedere con un account, e alla fine non vogliono fare molto più che mettere un'immagine.
+Con la mia custodia ho provato un bel po' di app dei produttori, e molte funzionano. Ma sono tutte davvero brutte da usare. Non sono app native per iPhone, per fare quasi tutto devi prima accedere con un account, e alla fine non vogliono fare molto più che mettere un'immagine.
 
 Guardando quello schermo sul retro del telefono, non ci vedevo una cornice per foto. Ci vedevo un piccolo display sempre acceso che non consuma batteria. Il posto ideale per la mia prossima riunione, per l'agenda della giornata o per un codice QR che chiunque può scansionare direttamente dal retro del mio telefono. L'app ufficiale non sapeva fare niente di tutto questo, e io sviluppo un'app che ruota tutta intorno all'NFC. Così ho deciso di insegnare io a NFC.cool a parlare con la custodia.
 
@@ -93,9 +93,15 @@ I design con calendario e promemoria sono istantanee. La custodia mostra la situ
 
 **Per ora solo su iPhone.** La funzione è nell'app per iPhone. L'app Android non ce l'ha ancora.
 
-**Non tutte le custodie sono uguali dentro.** NFC.cool funziona con le custodie che usano l'app DeerPhoneCase o KAZAVA, e le ho provate entrambe con la mia custodia. Anche le custodie per SpaceInk+ dovrebbero funzionare, ma non ne sono del tutto sicuro: l'app SpaceInk+ con la mia custodia non funziona e dice solo "device channel information mismatch". Se hai una custodia per SpaceInk+, [fammi sapere](/contact/) se NFC.cool funziona oppure no. Se la tua usa un'altra app, NFC.cool ti dice che non è ancora supportata e ti propone il pulsante **Invia dettagli custodia**. Manda solo i dati tecnici del chip, niente che permetta di identificare te o la tua custodia, così vedo quali modelli girano davvero e posso aggiungerli.
+**Quali custodie funzionano.** Gran parte di queste custodie viene da un unico sviluppatore, che pubblica un'app diversa per quasi ogni marchio. Le ho provate tutte con la mia custodia, almeno quelle che ho trovato:
 
-**Dove trovarne una.** Su Amazon queste custodie si trovano sotto un sacco di marchi, alcuni piuttosto criptici, ma dietro ci sono sempre le stesse custodie. [Ecco una ricerca su Amazon](https://link.amazon/B0hUxLZTR) (link affiliato). La mia ha la scritta DIY stampata all'interno, e alcuni annunci hanno DIY nel titolo, quindi è una buona parola da cercare. Se l'annuncio indica l'app che usa la custodia, cerca DeerPhoneCase o KAZAVA.
+- **DeerPhoneCase**, **KAZAVA**, **Novixand** e **TYOHINN** funzionano con la mia custodia, e anche NFC.cool. Se la tua custodia è arrivata con una di queste app, NFC.cool dovrebbe funzionare.
+- **Bestie e-INK** e **KINGZER** con la mia non funzionano. L'immagine passa via NFC senza problemi, ma quando la custodia dovrebbe ridisegnare lo schermo non succede niente.
+- **SpaceInk+**, di un altro sviluppatore, con la mia custodia non funziona proprio. L'app dice solo "device channel information mismatch".
+
+Questo non vuol dire che NFC.cool non funzioni con le custodie per Bestie e-INK, KINGZER o SpaceInk+. Magari sono solo un po' diverse dalla mia, e io non posso provarle. Se ne hai una, [fammi sapere](/contact/) se NFC.cool funziona oppure no. Se la tua usa un'altra app, NFC.cool ti dice che non è ancora supportata e ti propone il pulsante **Invia dettagli custodia**. Manda solo i dati tecnici del chip, niente che permetta di identificare te o la tua custodia, così vedo quali modelli girano davvero e posso aggiungerli.
+
+**Dove trovarne una.** Su Amazon queste custodie si trovano sotto un sacco di marchi, alcuni piuttosto criptici, ma dietro ci sono sempre le stesse custodie. [Ecco una ricerca su Amazon](https://link.amazon/B0hUxLZTR) (link affiliato). La mia ha la scritta DIY stampata all'interno, e alcuni annunci hanno DIY nel titolo, quindi è una buona parola da cercare. Se l'annuncio indica l'app che usa la custodia, cerca DeerPhoneCase, KAZAVA, Novixand o TYOHINN.
 
 ---
 
