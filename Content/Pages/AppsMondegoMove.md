@@ -2,7 +2,7 @@
 title: "Mondego Move - Coimbra Transit Companion App"
 slug: "apps/mondego-move"
 description: "Mondego Move is an independent companion app for the Metro Mondego system in the Coimbra region: trip planner, network map, fares, and community events you can submit yourself. Available on iPhone and Android."
-image: "/assets/images/Apps/mondego-move/screenshot-1.webp"
+image: "/assets/images/Apps/mondego-move/01-lines-departures.webp"
 ---
 
 <section class="page-hero">
@@ -29,7 +29,7 @@ An independent companion app for travelers using the Metro Mondego system in the
 </div>
 
 <div class="page-hero-visual is-framed">
-<img src="/assets/images/Apps/mondego-move/screenshot-1.webp" alt="Mondego Move trip planner with origin and destination selection" loading="eager" fetchpriority="high"/>
+<img src="/assets/images/Apps/mondego-move/01-lines-departures.webp" alt="Mondego Move network map with the next departure from Portagem" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>
@@ -93,9 +93,12 @@ Local businesses work the same way, in their own tab, with the same review step.
 <section class="page-section page-section--gallery">
 
 <div class="page-gallery">
-<img src="/assets/images/Apps/mondego-move/screenshot-1.webp" alt="Trip planner with origin and destination" loading="lazy"/>
-<img src="/assets/images/Apps/mondego-move/screenshot-2.webp" alt="Interactive map of the Metro Mondego network" loading="lazy"/>
-<img src="/assets/images/Apps/mondego-move/screenshot-3.webp" alt="Station and fare information" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/02-plan-pin.webp" alt="Trip planner with pinned commutes" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/03-discover.webp" alt="Local events and businesses along the line" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/04-station.webp" alt="Station timetable with a countdown to the next departure" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/05-trip.webp" alt="Trip result with route, travel time and fare" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/07-alerts.webp" alt="Notification history with service alerts" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/08-event.webp" alt="Community event in Coimbra with its schedule" loading="lazy"/>
 </div>
 
 </section>
