@@ -238,13 +238,27 @@ async function start() {
   async function seekTo(scene, frame) {
     const time = (frame - 1) / scene.fps;
     const { video } = scene;
-    if (video.readyState < 1) await new Promise(resolve => video.addEventListener('loadedmetadata', resolve, { once: true }));
+    // iOS Safari loads no frames for a video that has never played, so a seek there never
+    // completes: start it (muted inline playback needs no gesture) and pause it right away. When
+    // playing is refused (Low Power Mode), the waits below time out and the scene runs without
+    // its screen video rather than not at all.
+    if (video.readyState < 2) await within(3000, video.play().then(() => video.pause(), () => {}));
+    if (video.readyState < 1) await within(3000, once(video, 'loadedmetadata'));
     video.currentTime = time;
-    await new Promise(resolve => video.addEventListener('seeked', resolve, { once: true }));
+    await within(3000, once(video, 'seeked'));
     scene.scene.traverse(o => { if (o.material?.map?.isVideoTexture) o.material.map.needsUpdate = true; });
     scene.time = time;
     step(scene, 0);
     return scene;
+  }
+
+  function once(target, name) {
+    return new Promise(resolve => target.addEventListener(name, resolve, { once: true }));
+  }
+
+  // Settles with the promise, or after ms if it has not by then.
+  function within(ms, promise) {
+    return Promise.race([promise, new Promise(resolve => setTimeout(resolve, ms))]);
   }
 
   function makeVideo(src) {
