@@ -7,6 +7,9 @@
 // the canvas fades in and plays on from there. Reduced motion, Save-Data, no WebGL2 or any error:
 // the image simply stays. LiveSceneScriptProcessor loads this module on pages that need it.
 //
+// This is the source: Scripts/scenes/build.sh --js minifies it to Content/StaticFiles/scenes/,
+// which is what the site serves (AssetMinifier skips .mjs).
+//
 // The scene packages are NFCcoolScenes' app exports (Scripts/scenes/build.sh): a GLB with the
 // baked animation, the manifest with the opacity tracks, lights and camera, and the phone-screen
 // video, played the way OnboardingKit's FeatureScenePlayer plays them in the app. Each scene

@@ -4228,3 +4228,4 @@ three/build/three.module.js:
    * SPDX-License-Identifier: MIT
    *)
 */
+//# sourceMappingURL=three.scenes.min.mjs.map
