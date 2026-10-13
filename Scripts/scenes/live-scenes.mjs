@@ -12,7 +12,8 @@
 //
 // The scene packages are NFCcoolScenes' app exports (Scripts/scenes/build.sh): a GLB with the
 // baked animation, the manifest with the opacity tracks, lights and camera, and the phone-screen
-// video, played the way OnboardingKit's FeatureScenePlayer plays them in the app. Each scene
+// video, played the way OnboardingKit's FeatureScenePlayer plays them in the app. A scene whose
+// manifest names no phone or screen video (cardfan) is just the GLB and the manifest. Each scene
 // loops like the app's page does and renders only while it is on screen.
 //
 // One WebGL context on an OffscreenCanvas draws every scene (browsers cap contexts at about 16,
@@ -63,8 +64,9 @@ async function start() {
   const THREE = await import('./vendor/three.scenes.min.mjs');
   log(`three loaded in ${Math.round(performance.now() - t0)} ms`);
   const {
-    AnimationMixer, DoubleSide, GLTFLoader, MeshBasicMaterial, MeshoptDecoder, NeutralToneMapping,
-    PMREMGenerator, PointLight, RoomEnvironment, SRGBColorSpace, Scene, VideoTexture, WebGLRenderer,
+    AnimationMixer, DoubleSide, GLTFLoader, MeshBasicMaterial, MeshoptDecoder,
+    NeutralToneMapping, PCFShadowMap, PMREMGenerator, PointLight, RoomEnvironment, SRGBColorSpace, Scene,
+    SpotLight, VideoTexture, WebGLRenderer,
   } = THREE;
 
   const glCanvas = new OffscreenCanvas(1, 1);
@@ -74,6 +76,9 @@ async function start() {
   renderer.toneMapping = NeutralToneMapping;
   renderer.setClearColor(0x000000, 0);
   renderer.setPixelRatio(1); // sizes below are already in device pixels
+  // Only a scene whose manifest asks for shadows has a light and meshes that cast them.
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = PCFShadowMap;
 
   const pmrem = new PMREMGenerator(renderer);
   const environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
@@ -103,7 +108,7 @@ async function start() {
       if (!view) continue;
       view.visible = entry.isIntersecting;
       if (view.visible && view.state === 'idle') load(view);
-      if (view.scene) view.visible ? play(view) : view.scene.video.pause();
+      if (view.scene) view.visible ? play(view) : view.scene.video?.pause();
     }
     wake();
   }, { rootMargin: NEAR_VIEWPORT });
@@ -143,20 +148,21 @@ async function start() {
   }
 
   async function buildScene(key) {
+    const manifestPromise = fetch(new URL(`${key}.json`, BASE)).then(r => {
+      if (!r.ok) throw new Error(`manifest ${r.status}`);
+      return r.json();
+    });
     const [gltf, manifest, phone, videoSrc] = await Promise.all([
       loader.loadAsync(new URL(`${key}.glb`, BASE).href),
-      fetch(new URL(`${key}.json`, BASE)).then(r => {
-        if (!r.ok) throw new Error(`manifest ${r.status}`);
-        return r.json();
-      }),
-      loadPhone(),
+      manifestPromise,
+      manifestPromise.then(m => m.phone ? loadPhone() : null),
       // A server without range requests (python's http.server) leaves a video unseekable even
       // once it is fully buffered, and the scene starts on its poster's frame; a blob URL always
       // seeks. The clips are ~100 KB.
-      fetch(new URL(`${key}_screen.mp4`, BASE)).then(r => {
+      manifestPromise.then(m => m.screenVideo && fetch(new URL(`${m.screenVideo}.mp4`, BASE)).then(r => {
         if (!r.ok) throw new Error(`screen video ${r.status}`);
         return r.blob();
-      }).then(blob => URL.createObjectURL(blob)),
+      }).then(blob => URL.createObjectURL(blob))),
     ]);
     const scene = new Scene();
     scene.environment = environment;
@@ -166,19 +172,40 @@ async function start() {
     for (const light of manifest.lights ?? []) {
       // Blender's light watts are display-referred: a point light of P watts lights a surface
       // like a three.js point light of P / 4π (three's lux carries no 683 lm/W exposure).
-      const point = new PointLight(light.color, light.energyW / (4 * Math.PI), 3, 2);
-      point.position.fromArray(light.position);
-      scene.add(point);
+      const intensity = light.energyW / (4 * Math.PI);
+      if (light.type === 'spot') {
+        // A spot aimed at the scene stands in for an area light that casts shadows: it falls off
+        // the same way, and a one-sided area light of P watts shines P / π straight ahead.
+        const distance = Math.hypot(...light.position.map((v, i) => v - light.target[i]));
+        // The normal bias keeps the cards' own faces from shadowing themselves (a fine grain);
+        // it stays well under the 2.5 mm between two cards, so their shadows hold.
+        const { extent, mapSize = 1024, radius = 4, bias = -0.001, normalBias = 0.0012 } = light.shadow;
+        const spot = new SpotLight(light.color, light.energyW / Math.PI, 0, Math.atan(1.5 * extent / distance), 0.4, 2);
+        spot.position.fromArray(light.position);
+        spot.target.position.fromArray(light.target);
+        // The shadow camera covers just the scene (shadow.extent: its radius around the target),
+        // so the map resolves the few millimetres between the cards.
+        spot.castShadow = true;
+        Object.assign(spot.shadow.camera, { near: distance - extent, far: distance + extent });
+        spot.shadow.mapSize.set(mapSize, mapSize);
+        Object.assign(spot.shadow, { radius, bias, normalBias });
+        scene.add(spot, spot.target);
+      } else {
+        const point = new PointLight(light.color, intensity, 3, 2);
+        point.position.fromArray(light.position);
+        scene.add(point);
+      }
     }
+    if (manifest.shadows) gltf.scene.traverse(o => { if (o.isMesh) o.castShadow = o.receiveShadow = true; });
 
     // The phone ships once and is attached under each scene's animated Phone, like the app does.
-    const video = makeVideo(videoSrc);
+    const video = videoSrc ? makeVideo(videoSrc) : null;
     const phoneNode = gltf.scene.getObjectByName(manifest.phone?.entity ?? 'Phone');
     if (phoneNode && phone) {
       const parts = phone.scene.getObjectByName('Phone') ?? phone.scene;
       for (const child of parts.clone(true).children) phoneNode.add(child);
       const screen = phoneNode.getObjectByName(manifest.phone.screenEntity);
-      if (screen) {
+      if (screen && video) {
         const texture = new VideoTexture(video);
         texture.colorSpace = SRGBColorSpace;
         texture.flipY = false; // glTF UVs
@@ -221,6 +248,8 @@ async function start() {
     const frameCount = manifest.frameCount;
     return {
       scene,
+      // Blender's view exposure, in stops.
+      exposure: 2 ** (manifest.exposure ?? 0),
       camera,
       manifest,
       video,
@@ -234,13 +263,16 @@ async function start() {
   }
 
   function play(view) {
-    if (!view.holding) view.scene.video.play().catch(() => {});
+    if (!view.holding) view.scene.video?.play().catch(() => {});
   }
 
   // Puts the scene, screen video included, on the given frame.
   async function seekTo(scene, frame) {
     const time = (frame - 1) / scene.fps;
     const { video } = scene;
+    scene.time = time;
+    step(scene, 0);
+    if (!video) return scene;
     // iOS Safari loads no frames for a video that has never played, so a seek there never
     // completes: start it (muted inline playback needs no gesture) and pause it right away. When
     // playing is refused (Low Power Mode), the waits below time out and the scene runs without
@@ -283,7 +315,7 @@ async function start() {
     entry.time = (entry.time + dt) % entry.duration;
     // The screen video is exactly one loop long; keep the animation on its clock.
     const video = entry.video;
-    if (video.readyState >= 2 && !video.paused && Math.abs(video.currentTime - entry.time) > 0.12) {
+    if (video && video.readyState >= 2 && !video.paused && Math.abs(video.currentTime - entry.time) > 0.12) {
       // Across the loop seam the two clocks are a whole loop apart, not out of sync.
       if (Math.abs(video.currentTime - entry.time) < entry.duration / 2) entry.time = video.currentTime;
     }
@@ -338,7 +370,7 @@ async function start() {
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) {
       running = false;
-      views.forEach(v => v.scene?.video.pause());
+      views.forEach(v => v.scene?.video?.pause());
     } else {
       views.forEach(v => v.visible && v.scene && play(v));
       wake();
@@ -383,8 +415,7 @@ async function start() {
     const height = Math.round(cssHeight * dpr);
 
     if (glCanvas.width !== width || glCanvas.height !== height) renderer.setSize(width, height, false);
-    fitCamera(view.scene, width, height, view.frameFill);
-    renderer.render(view.scene.scene, view.scene.camera);
+    render(view.scene, width, height, view.frameFill);
 
     if (!view.canvas) swapIn(view, cssWidth, cssHeight);
     // Chrome scales the bitmap to the canvas's own width and height (300 x 150 by default)
@@ -394,6 +425,12 @@ async function start() {
       view.canvas.height = height;
     }
     view.ctx.transferFromImageBitmap(glCanvas.transferToImageBitmap());
+  }
+
+  function render(entry, width, height, frameFill) {
+    fitCamera(entry, width, height, frameFill);
+    renderer.toneMappingExposure = entry.exposure;
+    renderer.render(entry.scene, entry.camera);
   }
 
   // The canvas holds the poster's frame: fade the poster out, then fade the canvas in in its
@@ -429,10 +466,10 @@ async function start() {
     for (const view of views) {
       view.img.getAnimations().forEach(animation => animation.cancel());
       if (view.canvas?.isConnected) view.canvas.replaceWith(view.img);
-      view.scene?.video.pause();
+      view.scene?.video?.pause();
       view.state = 'failed';
     }
   });
 
-  if (debug) window.liveScenes = { views, renderer, step, fitCamera, seekTo };
+  if (debug) window.liveScenes = { views, renderer, step, fitCamera, render, seekTo };
 }

@@ -2,8 +2,8 @@
 // so esbuild can tree-shake the rest. No post-processing: the scenes are lit and tone mapped
 // like the app's RealityKit player, nothing more.
 export {
-  AnimationMixer, DoubleSide, MeshBasicMaterial, NeutralToneMapping, PMREMGenerator, PointLight,
-  SRGBColorSpace, Scene, VideoTexture, WebGLRenderer,
+  AnimationMixer, DoubleSide, MeshBasicMaterial, NeutralToneMapping, PCFShadowMap,
+  PMREMGenerator, PointLight, SRGBColorSpace, Scene, SpotLight, VideoTexture, WebGLRenderer,
 } from 'three';
 export { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 export { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';

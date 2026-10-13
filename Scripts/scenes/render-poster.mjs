@@ -52,7 +52,8 @@ try {
     const messageId = ++id;
     pending.set(messageId, message => {
       const details = message.result?.exceptionDetails;
-      if (details) reject(new Error(details.exception?.description ?? details.text));
+      if (message.error) reject(new Error(message.error.message));
+      else if (details) reject(new Error(details.exception?.description ?? details.text));
       else resolve(message.result.result.value);
     });
     ws.send(JSON.stringify({ id: messageId, method: 'Runtime.evaluate', params: { expression, awaitPromise: true, returnByValue: true } }));
@@ -64,13 +65,12 @@ try {
       if (Date.now() - started > 30000) throw new Error('scene not ready: ' + (window.liveScenes?.views?.[0]?.state ?? 'no live scene on the page'));
       await new Promise(resolve => setTimeout(resolve, 200));
     }
-    const { views, renderer, fitCamera, seekTo } = window.liveScenes;
+    const { views, renderer, render, seekTo } = window.liveScenes;
     const view = views[0];
-    view.scene.video.pause();
+    view.scene.video?.pause();
     await seekTo(view.scene, view.posterFrame);
     renderer.setSize(${Number(size)}, ${Number(size)}, false);
-    fitCamera(view.scene, ${Number(size)}, ${Number(size)}, view.frameFill);
-    renderer.render(view.scene.scene, view.scene.camera);
+    render(view.scene, ${Number(size)}, ${Number(size)}, view.frameFill);
     const blob = await renderer.domElement.convertToBlob({ type: 'image/webp', quality: 0.9 });
     return await new Promise(resolve => { const reader = new FileReader(); reader.onload = () => resolve(reader.result); reader.readAsDataURL(blob); });
   })()`);

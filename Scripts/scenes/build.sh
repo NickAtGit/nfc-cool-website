@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # Rebuilds the live 3D scene assets in Content/StaticFiles/scenes/: the player (minified from
 # Scripts/scenes/live-scenes.mjs) and the three bundle, both with source maps, then from
-# NFCcoolScenes one GLB + manifest + H.264 screen video per scene and the shared phone GLB.
+# NFCcoolScenes one GLB + manifest + H.264 screen video per scene and the shared phone GLB, and
+# the cardfan scene (Scripts/scenes/cardfan.py, from the batch scene's cards: GLB + manifest).
 #   Scripts/scenes/build.sh        all of it
 #   Scripts/scenes/build.sh --js   only the player and the three bundle (after editing the player)
-# Needs Blender 5.2 (via NFCcoolScenes/scripts/blender.sh), ffmpeg and npm. A scene's poster still
+# Needs Blender 5.2 (via NFCcoolScenes/scripts/blender.sh), ffmpeg, npm and Python 3 with Pillow. A scene's poster still
 # is rendered afterwards from the built site: see Scripts/scenes/render-poster.mjs.
 set -euo pipefail
 THREE_VERSION=0.186.1
@@ -42,4 +43,6 @@ for scene in "${SCENES[@]}"; do
     -c:v libx264 -crf 26 -preset slow -pix_fmt yuv420p -an -movflags +faststart \
     "$OUT/${scene}_screen.mp4"
 done
+python3 "$ROOT/Scripts/scenes/cardfan_faces.py" "$SCENES_REPO" "$WORK/cardfan_faces" | grep -v FACE || true
+scripts/blender.sh scenes/csvbatch.blend -P "$ROOT/Scripts/scenes/cardfan.py" -- "$WORK/cardfan_faces" "$OUT" | grep -E "EXPORT|Error|Traceback"
 ls -la "$OUT" "$OUT/vendor"

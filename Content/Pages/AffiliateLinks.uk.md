@@ -19,8 +19,8 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/Affiliate/create-nfc-tag.webp" alt="NFC.cool Tools: екран створення NFC-мітки на iPhone, готовий до запису нової мітки" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene">
+<img src="/assets/images/Affiliate/CardFan.webp" data-scene="cardfan" data-poster-frame="50" alt="Шість різнокольорових карток NFC.cool розгортаються віялом" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

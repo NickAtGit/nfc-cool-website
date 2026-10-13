@@ -19,8 +19,8 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/Affiliate/create-nfc-tag.webp" alt="NFC.cool Tools：iPhone 上的创建 NFC 标签界面，准备写入一个新标签" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene">
+<img src="/assets/images/Affiliate/CardFan.webp" data-scene="cardfan" data-poster-frame="50" alt="六张彩色 NFC.cool 卡片展开成扇形" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>
