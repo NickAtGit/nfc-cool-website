@@ -26,8 +26,8 @@ Un'app per creare biglietti da visita digitali su iPhone e Android. Condividi i 
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="Vista del profilo di NFC.cool Business Card con nome, foto e link ai social" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene">
+<img src="/assets/images/BusinessCard/LanyardScene.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="Uno smartphone scansiona un badge NFC.cool appeso a un cordino e mostra il contatto" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

@@ -26,8 +26,8 @@ Un creador de tarjetas de visita digitales para iPhone y Android. Comparte tus d
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="Vista del perfil de NFC.cool Business Card con nombre, foto y enlaces a redes sociales" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene">
+<img src="/assets/images/BusinessCard/LanyardScene.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="Un móvil escanea una credencial NFC.cool colgada de un cordón y muestra el contacto" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

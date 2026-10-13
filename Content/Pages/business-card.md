@@ -26,8 +26,8 @@ A digital Business Card maker for iPhone and Android. Share your contact details
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="NFC.cool Business Card profile view with name, photo and social media links" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene">
+<img src="/assets/images/BusinessCard/LanyardScene.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="A phone scans an NFC.cool Business Card badge on a lanyard and shows the contact" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

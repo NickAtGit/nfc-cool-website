@@ -211,10 +211,23 @@
    object-fit: contain;
 }
 
+/* Live 3D scene hero (Business Card): a transparent square still of the
+   scene that /scenes/live-scenes.mjs swaps for the animated canvas once the
+   page is idle. It stays square at any viewport height (no height cap), and
+   carries no frame, shadow or tilt. */
+.page-hero-visual.is-scene img {
+   width: min(100%, 480px);
+   height: auto;
+   max-height: none;
+   border-radius: 0;
+   box-shadow: none;
+   transform: none;
+}
+
 /* Dark mode: swap the hero image's cool drop shadow for a soft brand-yellow
-   glow so the framed screenshot lifts warmly off the dark background. Cutout
-   and brand-logo visuals carry no shadow, so they stay excluded. */
-[data-theme="dark"] .page-hero-visual:not(.is-cutout):not(.is-brand) img {
+   glow so the framed screenshot lifts warmly off the dark background. Cutout,
+   brand-logo and scene visuals carry no shadow, so they stay excluded. */
+[data-theme="dark"] .page-hero-visual:not(.is-cutout):not(.is-brand):not(.is-scene) img {
    box-shadow: 0 30px 60px -20px rgba(255, 199, 0, 0.28), 0 8px 24px -8px rgba(255, 199, 0, 0.16);
 }
 

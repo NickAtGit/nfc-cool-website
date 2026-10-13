@@ -26,8 +26,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="عرض ملف بطاقة العمل NFC.cool مع الاسم والصورة وروابط وسائل التواصل الاجتماعي" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene">
+<img src="/assets/images/BusinessCard/LanyardScene.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="هاتف يمسح شارة NFC.cool معلّقة بحبل حول العنق ويعرض جهة الاتصال" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

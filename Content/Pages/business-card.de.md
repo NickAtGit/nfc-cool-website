@@ -26,8 +26,8 @@ Eine digitale Business Card Maker App für iPhone und Android. Teile deine Konta
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="NFC.cool Business Card Profilansicht mit Name, Foto und Social-Media-Links" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene">
+<img src="/assets/images/BusinessCard/LanyardScene.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="Ein Smartphone scannt ein NFC.cool Namensschild am Umhängeband und zeigt den Kontakt an" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

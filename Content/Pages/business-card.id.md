@@ -26,8 +26,8 @@ Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda 
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="Tampilan profil NFC.cool Business Card dengan nama, foto, dan tautan media sosial" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene">
+<img src="/assets/images/BusinessCard/LanyardScene.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="Ponsel memindai lencana NFC.cool pada tali leher dan menampilkan kontaknya" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

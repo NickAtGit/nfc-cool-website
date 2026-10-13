@@ -26,8 +26,8 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/BusinessCard/02BusinessCardTop.webp" alt="NFC.cool Business Card 资料页视图，含姓名、照片和社交媒体链接" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene">
+<img src="/assets/images/BusinessCard/LanyardScene.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="手机扫描挂绳上的 NFC.cool 胸牌，并显示联系人信息" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>
