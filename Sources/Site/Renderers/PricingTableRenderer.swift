@@ -79,26 +79,29 @@ enum PricingTableRenderer {
    /// - `soon` / `coming-soon` → orange hourglass "coming soon" pill with hover tooltip
    /// - `**text**` → bold text
    /// - anything else → plain text
+   ///
+   /// Every pill is `role="img"`: its glyph or icon stands in for the label, and `aria-label`
+   /// is prohibited on a role-less `<span>` (Lighthouse "prohibited ARIA attributes").
    static func markCell(_ raw: String, strings: UIStrings) -> String {
       let trimmed = raw.trimmingCharacters(in: .whitespaces)
       let lower = trimmed.lowercased()
       if trimmed == "✓" || lower == "yes" {
          let label = (strings.string(forRawKey: "pricingIncluded") ?? "included").htmlEscaped
-         return "<span class=\"feature-pricing-pill is-yes\" aria-label=\"\(label)\">✓</span>"
+         return "<span class=\"feature-pricing-pill is-yes\" role=\"img\" aria-label=\"\(label)\">✓</span>"
       }
       if trimmed == "✗" || lower == "no" {
          let label = (strings.string(forRawKey: "pricingNotIncluded") ?? "not included").htmlEscaped
-         return "<span class=\"feature-pricing-pill is-no\" aria-label=\"\(label)\">✗</span>"
+         return "<span class=\"feature-pricing-pill is-no\" role=\"img\" aria-label=\"\(label)\">✗</span>"
       }
       if lower == "limited" || lower == "partial" || trimmed == "~" {
          // FontAwesome 6 Free Solid "minus" — clean horizontal bar, parallels ✓/✗ visual weight.
          let svg = #"<svg class="feature-pricing-pill-icon" viewBox="0 0 448 512" aria-hidden="true"><path fill="currentColor" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>"#
          let label = (strings.string(forRawKey: "pricingLimited") ?? "limited").htmlEscaped
-         return "<span class=\"feature-pricing-pill is-limited\" aria-label=\"\(label)\">\(svg)</span>"
+         return "<span class=\"feature-pricing-pill is-limited\" role=\"img\" aria-label=\"\(label)\">\(svg)</span>"
       }
       if trimmed == "-" {
          let label = (strings.string(forRawKey: "pricingNotApplicable") ?? "not applicable").htmlEscaped
-         return "<span class=\"feature-pricing-pill is-na\" aria-label=\"\(label)\">-</span>"
+         return "<span class=\"feature-pricing-pill is-na\" role=\"img\" aria-label=\"\(label)\">-</span>"
       }
       if lower == "soon" || lower == "coming-soon" {
          // Orange hourglass for a planned (not-yet-shipped) capability, in the
@@ -106,7 +109,7 @@ enum PricingTableRenderer {
          // reveals a localized "coming soon" tooltip.
          let svg = #"<svg class="feature-pricing-pill-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 3H19V5L12 12L19 19V21H5V19L12 12L5 5Z"/></svg>"#
          let label = (strings.string(forRawKey: "pricingComingSoon") ?? "Coming soon").htmlEscaped
-         return "<span class=\"feature-pricing-pill is-soon\" data-tooltip=\"\(label)\" aria-label=\"\(label)\" tabindex=\"0\">\(svg)</span>"
+         return "<span class=\"feature-pricing-pill is-soon\" data-tooltip=\"\(label)\" role=\"img\" aria-label=\"\(label)\" tabindex=\"0\">\(svg)</span>"
       }
       if trimmed.count > 4, trimmed.hasPrefix("**"), trimmed.hasSuffix("**") {
          let inner = String(trimmed.dropFirst(2).dropLast(2))
