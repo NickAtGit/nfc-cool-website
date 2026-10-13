@@ -20,7 +20,7 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 </div>
 
 <div class="page-hero-visual is-scene">
-<img src="/assets/images/Affiliate/CardFan.webp" data-scene="cardfan" data-poster-frame="50" alt="Шість різнокольорових карток NFC.cool розгортаються віялом" width="480" height="480" loading="eager" fetchpriority="high"/>
+<img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="Шість різнокольорових карток NFC.cool розгортаються віялом" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

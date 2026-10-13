@@ -5,7 +5,7 @@
 //   node Scripts/scenes/render-poster.mjs <page URL> <out.webp> [size]
 //   e.g. (with `swift run Site serve` running)
 //   node Scripts/scenes/render-poster.mjs http://localhost:8080/business-card/ \
-//     Content/Assets/images/BusinessCard/LanyardScene.webp
+//     Content/Assets/images/BusinessCard/LanyardScene-v2.webp
 //
 // size is the square's side in pixels (default 960, the 480 px hero at 2x). Needs Google Chrome
 // and Node 22+ (global WebSocket). Uses the page's ?debug hook (window.liveScenes).

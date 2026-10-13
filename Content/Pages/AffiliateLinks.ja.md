@@ -20,7 +20,7 @@ NFCアプリを7年間開発し、何千ものサポートメールに答えて�
 </div>
 
 <div class="page-hero-visual is-scene">
-<img src="/assets/images/Affiliate/CardFan.webp" data-scene="cardfan" data-poster-frame="50" alt="カラフルな6枚のNFC.coolカードが扇形に広がる" width="480" height="480" loading="eager" fetchpriority="high"/>
+<img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="カラフルな6枚のNFC.coolカードが扇形に広がる" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

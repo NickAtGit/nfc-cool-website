@@ -20,7 +20,7 @@ Después de varios años lanzando apps de NFC y leyendo miles de emails de sopor
 </div>
 
 <div class="page-hero-visual is-scene">
-<img src="/assets/images/Affiliate/CardFan.webp" data-scene="cardfan" data-poster-frame="50" alt="Seis tarjetas NFC.cool de colores se abren en abanico" width="480" height="480" loading="eager" fetchpriority="high"/>
+<img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="Seis tarjetas NFC.cool de colores se abren en abanico" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

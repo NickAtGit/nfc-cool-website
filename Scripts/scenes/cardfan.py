@@ -21,7 +21,24 @@ import sys
 from pathlib import Path
 
 import bpy
+from io_scene_gltf2.io.exp import meshopt
 from mathutils import Matrix, Vector
+
+# Blender's meshopt export keeps 8 bits per rotation component and 12 for positions and key
+# times. On a scene this small that rounding moves a card's far end by a millimetre and more, a
+# different amount every frame, and the cards tremble. 16 bits (24 for key times) keeps every
+# key within a few hundredths of a degree and millimetre, for a few KB more.
+meshopt.QUAT_FILTER_BITS = 16
+_encode = meshopt.MeshoptEncoder.encode_attribute
+
+
+def _encode_precisely(name, data, stride, settings):
+    # Key times get all 24 bits: one rounded a hair past its neighbour's frame jolts the pose.
+    meshopt.EXP_FILTER_BITS = 24 if name == "TIME" else 16
+    return _encode(name, data, stride, settings)
+
+
+meshopt.MeshoptEncoder.encode_attribute = staticmethod(_encode_precisely)
 
 argv = sys.argv[sys.argv.index("--") + 1:]
 FACES, OUT = Path(argv[0]), Path(argv[1])

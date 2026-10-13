@@ -27,7 +27,7 @@ iPhone ve Android için dijital kartvizit uygulaması. İletişim bilgilerini te
 </div>
 
 <div class="page-hero-visual is-scene">
-<img src="/assets/images/BusinessCard/LanyardScene.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="Bir telefon, boyun askısındaki NFC.cool yaka kartını okuyor ve kişiyi gösteriyor" width="480" height="480" loading="eager" fetchpriority="high"/>
+<img src="/assets/images/BusinessCard/LanyardScene-v2.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="Bir telefon, boyun askısındaki NFC.cool yaka kartını okuyor ve kişiyi gösteriyor" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>
