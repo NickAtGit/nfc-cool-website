@@ -3,28 +3,28 @@ backLinkText: "← Semua fitur"
 
 card:
   title: "Pemindai Barcode"
-  description: "Memindai 13 format barcode ditambah 6 kode dua dimensi - EAN, UPC, QR, PDF417, Data Matrix, dan lainnya. Mode batch membuat kamera tetap terbuka untuk inventaris dan check-in."
+  description: "Memindai EAN, UPC, Code 128, QR, PDF417, Data Matrix, dan lainnya di iPhone dan Android. Mode batch membuat kamera tetap terbuka untuk inventaris dan check-in."
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "iOS only"
+  platforms: "iOS · Android"
 
 hero:
   title: "Pemindai Barcode"
-  subtitle: "Memindai 19 format kode - 13 barcode linear (EAN, UPC, Code 128, GS1 DataBar dan lainnya) ditambah 6 kode dua dimensi (QR, PDF417, Aztec, Data Matrix dan varian Micro). Mode batch membuat kamera tetap terbuka untuk penghitungan inventaris dan check-in acara."
-  platforms: "iOS only"
+  subtitle: "Memindai EAN, UPC, Code 128, Code 39, ITF, QR, PDF417, Aztec, dan Data Matrix di iPhone dan Android, ditambah GS1 DataBar dan varian Micro di iPhone - total 19 format. Mode batch membuat kamera tetap terbuka untuk penghitungan inventaris dan check-in acara."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "Yang bisa Anda lakukan"
 capabilities:
   - title: "Semua format barcode utama"
-    description: "Memindai EAN-13/8, UPC-E (UPC-A dibaca sebagai EAN-13), Code 128, Code 39 (termasuk Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix dan lainnya - deteksi format otomatis, tanpa perlu beralih mode."
+    description: "EAN-13/8, UPC-A/E, Code 128, Code 39, Code 93, ITF, ITF-14, Codabar, PDF417, Aztec, Data Matrix, dan QR di kedua platform, ditambah GS1 DataBar, Code 39 Mod 43, Micro QR, dan Micro PDF417 di iPhone - deteksi format otomatis, tanpa perlu beralih mode."
   - title: "Mode batch"
     description: "Memindai sekumpulan barcode secara berurutan tanpa perlu mengarahkan ulang. Berguna untuk penghitungan inventaris, check-in acara, atau pengarsipan perpustakaan."
   - title: "Pencarian produk"
-    description: "Ketuk barcode ritel yang dipindai untuk mencarinya - nomor barcode dijalankan melalui mesin pencari yang sudah dikonfigurasi (Google, Ecosia, DuckDuckGo, Bing, atau Startpage) dan hasil yang sesuai langsung muncul."
+    description: "Ketuk barcode ritel yang dipindai untuk mencarinya - nomor barcode dijalankan melalui mesin pencari dan hasil yang sesuai langsung muncul. Di iPhone, Anda memilih mesin pencarinya: Google, Ecosia, DuckDuckGo, Bing, atau Startpage."
   - title: "Riwayat pemindaian & berbagi"
     description: "Setiap pemindaian disimpan dengan cap waktu. Favorit kan pemindaian yang penting, beri judul, dan bagikan langsung dari tampilan riwayat."
   - title: "Tindakan otomatis saat dibaca"
-    description: "URL dan kode pintasan dapat terbuka otomatis seketika dipindai, memicu webhook, atau dibacakan dengan suara - otomatisasi lima kait yang sama yang menggerakkan NFC dan QR."
+    description: "Tautan dapat terbuka seketika dipindai, di iPhone dan Android. Di iPhone, pemindaian juga dapat menjalankan Shortcut, memicu webhook, atau dibacakan dengan suara - otomatisasi lima kait yang sama yang menggerakkan NFC dan QR."
 
 subsectionsTitle: "Dirancang untuk pemindaian volume tinggi"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>Tiga pengaturan mengubah pemindai dari sekali pakai menjadi alur kerja berkelanjutan. <strong>Multi-scan</strong> memungkinkan Anda memindai beberapa kode dalam satu sesi kamera. <strong>Batch read</strong> membuat kamera tetap terbuka untuk inventaris atau check-in acara. <strong>Senter otomatis</strong> mengaktifkan LED dalam kondisi cahaya rendah sehingga Anda tidak perlu mencari tombol lampu kilat.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone memindai beberapa kode QR dan barcode dengan cahaya senter"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Webhook untuk penghitungan stok & check-in acara"
     body: "<p>Arahkan pemindai barcode ke sistem back-office Anda. Setiap barcode yang dibaca memicu webhook ke URL Anda, sehingga basis data inventaris, CRM peserta, atau katalog perpustakaan Anda diperbarui secara real-time seiring kamera bergerak. Lihat <a href=\"/features/webhooks/\">Webhook & Otomatisasi</a> untuk bentuk payload JSON dan server referensi.</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "NFC.cool tersinkronisasi di iPhone, iPad, dan Mac"
     platforms: "iOS"
 
-specsTitle: "Format yang didukung (19 total)"
+specsTitle: "Format yang didukung (19 di iOS, 13 di Android)"
 specs:
-  - title: "Barcode 1D (13 format)"
+  - title: "Barcode 1D"
     items:
       - "EAN-13, EAN-8"
-      - "UPC-E (UPC-A dibaca sebagai EAN-13)"
-      - "Code 39, Code 39 Mod 43"
+      - "UPC-A, UPC-E (iOS membaca UPC-A sebagai EAN-13)"
+      - "Code 39 (Mod 43 di iOS)"
       - "Code 93, Code 128"
       - "Codabar"
       - "Interleaved 2 of 5, ITF-14"
-      - "GS1 DataBar (standar, Expanded, Limited)"
-  - title: "Kode 2D / bertumpuk (6 format)"
+      - "GS1 DataBar - standar, Expanded, Limited (iOS)"
+  - title: "Kode 2D / bertumpuk"
     items:
       - "Kode QR"
-      - "Micro QR"
+      - "Micro QR (iOS)"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417 (iOS)"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "Pertanyaan yang sering diajukan"
 faq:
-  - question: "Mengapa ini hanya untuk iOS?"
-    answer: "Versi Android NFC.cool saat ini berfokus pada NFC dan Kartu Nama Digital. Pemindaian barcode ada dalam peta jalan Android."
+  - question: "Apakah pemindai barcode berfungsi di Android?"
+    answer: "Ya. NFC.cool Tools di Android membaca 13 format - EAN, UPC, Code 128, Code 39, Code 93, ITF, Codabar, QR, PDF417, Aztec, dan Data Matrix - dengan mode batch dan multi-scan. GS1 DataBar, Micro QR, Micro PDF417, webhook saat memindai, dan pilihan mesin pencari masih khusus iPhone untuk saat ini."
   - question: "Bisakah saya memindai beberapa barcode sekaligus?"
     answer: "Ya - mode batch membuat kamera tetap terbuka dan mengantrekan setiap barcode yang ditemukan. Ketuk item mana pun dalam antrian untuk bertindak atasnya."
   - question: "Bisakah saya menyimpan dan berbagi pemindaian saya?"

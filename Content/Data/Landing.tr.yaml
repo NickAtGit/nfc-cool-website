@@ -1,6 +1,6 @@
 hero:
   title: "NFC Tag Okuma, Yazma ve Tarama - NFC.cool Tools"
-  subtitle: "iPhone ve Android'de NFC tag'leri ücretsiz oku ve yaz, iPhone'da ayrıca QR kod, barkod, belge, 3B model ve oda tara."
+  subtitle: "iPhone ve Android'de NFC tag'leri ücretsiz oku ve yaz, QR kod ve barkod tara; iPhone'da ayrıca belge, 3B model ve oda tara."
 
 trust:
   price: "Ücretsiz"
@@ -84,7 +84,7 @@ faq:
   - question: "NFC.cool hangi NFC tag'lerle çalışır?"
     answer: "NDEF uyumlu her NFC tag ile: NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX ve diğerlerinin çoğu. Genel kullanımda önerilen NTAG216, hem 888 baytlık kapasitesi hem de iPhone ile Android'de geniş uyumluluğu sayesinde. Denenmiş satıcıları <a href=\"/affiliate-links/\">NFC tag sayfasında</a> bulabilirsin."
   - question: "NFC.cool QR kod ve barkod tarar mı?"
-    answer: "Evet, iPhone kamerasından ya da galerindeki herhangi bir fotoğraftan 19 kod biçimini tanır: 6 iki boyutlu kod (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) ve 13 doğrusal barkod (EAN-13, EAN-8, UPC-E, Code 39 ve Mod 43'lü hali, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, üstüne üç GS1 DataBar türevi). UPC-A, başına sıfır eklenerek EAN-13 olarak okunur. Toplu mod kamerayı açık tutar, sayım ve etkinlik girişlerinde işe yarar."
+    answer: "Evet, hem iPhone'da hem Android'de. iPhone'da kameradan ya da galerindeki herhangi bir fotoğraftan 19 kod biçimini tanır: 6 iki boyutlu kod (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) ve 13 doğrusal barkod (EAN-13, EAN-8, UPC-E, Code 39 ve Mod 43'lü hali, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, üstüne üç GS1 DataBar türevi). UPC-A, başına sıfır eklenerek EAN-13 olarak okunur. Android'de kamera 13 biçimi okur: QR Code, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF ve Codabar. İkisinde de toplu mod kamerayı açık tutar, sayım ve etkinlik girişlerinde işe yarar."
   - question: "iPhone'umla NFC tag yazabilir miyim?"
     answer: "Evet, iPhone 7 ve sonrası her iPhone NFC.cool Tools ile tag okuyup yazabilir. 25'ten fazla mesaj türü var: URL, Wi-Fi bilgisi, kişi kartı (vCard), iOS kısayolu, ödeme, sosyal medya profili ve dahası. Okutunca açılan akışlar için gizli veriyi önce NFC Safe ile şifrele (256 bit AES)."
   - question: "NFC.cool, iOS Kısayolları'nı ve Aksiyon Düğmesi'ni destekliyor mu?"

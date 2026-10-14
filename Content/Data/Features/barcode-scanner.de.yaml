@@ -3,28 +3,28 @@ backLinkText: "← Alle Funktionen"
 
 card:
   title: "Barcode-Scanner"
-  description: "Scanne 13 Barcode-Formate plus 6 zweidimensionale Codes - EAN, UPC, QR, PDF417, Data Matrix und mehr. Im Batch-Modus bleibt die Kamera offen - für Inventur und Check-ins."
+  description: "Scanne EAN, UPC, Code 128, QR, PDF417, Data Matrix und mehr auf iPhone und Android. Im Batch-Modus bleibt die Kamera offen - für Inventur und Check-ins."
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "Nur iOS"
+  platforms: "iOS · Android"
 
 hero:
   title: "Barcode-Scanner"
-  subtitle: "Scanne 19 Code-Formate - 13 lineare Barcodes (EAN, UPC, Code 128, GS1 DataBar und mehr) plus 6 zweidimensionale Codes (QR, PDF417, Aztec, Data Matrix und Micro-Varianten). Im Batch-Modus bleibt die Kamera offen - ideal für Inventur und Event-Check-ins."
-  platforms: "Nur iOS"
+  subtitle: "Scanne EAN, UPC, Code 128, Code 39, ITF, QR, PDF417, Aztec und Data Matrix auf iPhone und Android, dazu GS1 DataBar und die Micro-Varianten auf dem iPhone - insgesamt 19 Formate. Im Batch-Modus bleibt die Kamera offen - ideal für Inventur und Event-Check-ins."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "Was du tun kannst"
 capabilities:
   - title: "Alle gängigen Barcode-Formate"
-    description: "EAN-13/8, UPC-E (UPC-A wird als EAN-13 gelesen), Code 128, Code 39 (inkl. Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix und mehr - automatische Formaterkennung, kein Modus-Wechsel."
+    description: "EAN-13/8, UPC-A/E, Code 128, Code 39, Code 93, ITF, ITF-14, Codabar, PDF417, Aztec, Data Matrix und QR auf beiden Plattformen, dazu GS1 DataBar, Code 39 Mod 43, Micro QR und Micro PDF417 auf dem iPhone - automatische Formaterkennung, kein Modus-Wechsel."
   - title: "Batch-Modus"
     description: "Scanne eine Reihe von Barcodes hintereinander, ohne neu zu zielen. Praktisch für Inventur, Event-Check-ins oder Bibliotheks-Archivierung."
   - title: "Produktsuche"
-    description: "Tippe einen gescannten Einzelhandels-Barcode an, um ihn nachzuschlagen - die Barcode-Nummer wird durch eine vorkonfigurierte Suchmaschine (Google, Ecosia, DuckDuckGo, Bing oder Startpage) geschickt, die passende Ergebnisse liefert."
+    description: "Tippe einen gescannten Einzelhandels-Barcode an, um ihn nachzuschlagen - die Barcode-Nummer wird durch eine Suchmaschine geschickt, die passende Ergebnisse liefert. Auf dem iPhone wählst du die Suchmaschine: Google, Ecosia, DuckDuckGo, Bing oder Startpage."
   - title: "Scan-Verlauf & Teilen"
     description: "Jeder Scan wird mit Zeitstempel gespeichert. Markiere wichtige Scans als Favorit, gib einem Scan einen eigenen Titel und teile ihn direkt aus der Verlaufsansicht."
   - title: "Automatische Aktion beim Lesen"
-    description: "URLs und Shortcut-Codes öffnen sich beim Scannen automatisch, lösen einen Webhook aus oder werden vorgelesen - dieselben fünf Hooks wie bei NFC und QR."
+    description: "Links öffnen sich beim Scannen automatisch, auf iPhone und Android. Auf dem iPhone kann ein Scan außerdem einen Shortcut ausführen, einen Webhook auslösen oder vorgelesen werden - dieselben fünf Hooks wie bei NFC und QR."
 
 subsectionsTitle: "Für das Scannen großer Mengen"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>Drei Einstellungen verwandeln den Scanner von Einmal-Scan in einen kontinuierlichen Workflow. <strong>Multi-Scan</strong> nimmt mehrere Codes in einer Kamera-Session auf. <strong>Batch-Read</strong> hält die Kamera offen für Inventur oder Event-Check-ins. <strong>Auto-Taschenlampe</strong> schaltet die LED bei schlechtem Licht ein.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone scannt mehrere QR-Codes und Barcodes mit Taschenlampenlicht"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Webhooks für Bestandsführung & Event-Check-in"
     body: "<p>Richte den Barcode-Scanner auf dein Backend-System aus. Jeder gelesene Barcode löst einen Webhook an deine URL aus, sodass deine Inventur-Datenbank, dein Teilnehmer-CRM oder dein Bibliothekskatalog in Echtzeit aktualisiert wird, während die Kamera weiterläuft. Siehe <a href=\"/de/features/webhooks/\">Webhooks & Automatisierung</a> für JSON-Payload und Referenz-Server.</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "NFC.cool synchronisiert über iPhone, iPad und Mac"
     platforms: "iOS"
 
-specsTitle: "Unterstützte Formate (19 insgesamt)"
+specsTitle: "Unterstützte Formate (19 auf iOS, 13 auf Android)"
 specs:
-  - title: "1D-Barcodes (13 Formate)"
+  - title: "1D-Barcodes"
     items:
       - "EAN-13, EAN-8"
-      - "UPC-E (UPC-A wird als EAN-13 gelesen)"
-      - "Code 39, Code 39 Mod 43"
+      - "UPC-A, UPC-E (iOS liest UPC-A als EAN-13)"
+      - "Code 39 (Mod 43 auf iOS)"
       - "Code 93, Code 128"
       - "Codabar"
       - "Interleaved 2 of 5, ITF-14"
-      - "GS1 DataBar (Standard, Expanded, Limited)"
-  - title: "2D- / gestapelte Codes (6 Formate)"
+      - "GS1 DataBar - Standard, Expanded, Limited (iOS)"
+  - title: "2D- / gestapelte Codes"
     items:
       - "QR Code"
-      - "Micro QR"
+      - "Micro QR (iOS)"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417 (iOS)"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "Häufig gefragt"
 faq:
-  - question: "Warum nur auf iOS?"
-    answer: "Die Android-Version von NFC.cool fokussiert sich derzeit auf NFC und die digitale Visitenkarte. Barcode-Scannen steht auf der Android-Roadmap."
+  - question: "Funktioniert der Barcode-Scanner auf Android?"
+    answer: "Ja. NFC.cool Tools auf Android liest 13 Formate - EAN, UPC, Code 128, Code 39, Code 93, ITF, Codabar, QR, PDF417, Aztec und Data Matrix - mit Batch- und Multi-Scan-Modus. GS1 DataBar, Micro QR, Micro PDF417, Webhooks beim Scannen und die Wahl der Suchmaschine gibt es vorerst nur auf dem iPhone."
   - question: "Kann ich mehrere Barcodes auf einmal scannen?"
     answer: "Ja - im Batch-Modus bleibt die Kamera offen und reiht jeden gefundenen Barcode in eine Warteschlange. Tippe auf einen Eintrag, um damit zu arbeiten."
   - question: "Kann ich meine Scans speichern und teilen?"

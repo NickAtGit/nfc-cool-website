@@ -3,28 +3,28 @@ backLinkText: "← All features"
 
 card:
   title: "Barcode Scanner"
-  description: "Scan 13 barcode formats plus 6 two-dimensional codes - EAN, UPC, QR, PDF417, Data Matrix, and more. Batch mode keeps the camera open for inventory and check-ins."
+  description: "Scan EAN, UPC, Code 128, QR, PDF417, Data Matrix, and more on iPhone and Android. Batch mode keeps the camera open for inventory and check-ins."
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "iOS only"
+  platforms: "iOS · Android"
 
 hero:
   title: "Barcode Scanner"
-  subtitle: "Scan 19 code formats - 13 linear barcodes (EAN, UPC, Code 128, GS1 DataBar and more) plus 6 two-dimensional codes (QR, PDF417, Aztec, Data Matrix and Micro variants). Batch mode keeps the camera open for inventory counts and event check-ins."
-  platforms: "iOS only"
+  subtitle: "Scan EAN, UPC, Code 128, Code 39, ITF, QR, PDF417, Aztec and Data Matrix on iPhone and Android, plus GS1 DataBar and the Micro variants on iPhone - 19 formats in all. Batch mode keeps the camera open for inventory counts and event check-ins."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "What You Can Do"
 capabilities:
   - title: "All Major Barcode Formats"
-    description: "Scan EAN-13/8, UPC-E (UPC-A is read as EAN-13), Code 128, Code 39 (incl. Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix and more - automatic format detection, no mode switching."
+    description: "EAN-13/8, UPC-A/E, Code 128, Code 39, Code 93, ITF, ITF-14, Codabar, PDF417, Aztec, Data Matrix and QR on both platforms, plus GS1 DataBar, Code 39 Mod 43, Micro QR and Micro PDF417 on iPhone - automatic format detection, no mode switching."
   - title: "Batch Mode"
     description: "Scan a stack of barcodes back-to-back without re-aiming. Useful for inventory counts, event check-ins, or library archives."
   - title: "Product Lookup"
-    description: "Tap a scanned retail barcode to look it up - the barcode number is run through a pre-configured search engine (Google, Ecosia, DuckDuckGo, Bing, or Startpage) and matching results come straight back."
+    description: "Tap a scanned retail barcode to look it up - the barcode number is run through a search engine and matching results come straight back. On iPhone you pick the engine: Google, Ecosia, DuckDuckGo, Bing, or Startpage."
   - title: "Scan History & Sharing"
     description: "Every scan is saved with a timestamp. Favorite the scans that matter, give one its own title, and share it straight from the history view."
   - title: "Auto-Action on Read"
-    description: "URLs and shortcut codes can auto-open the moment they're scanned, fire a webhook, or get spoken aloud - the same five-hook automation that powers NFC and QR."
+    description: "Links can open the moment they're scanned, on iPhone and Android. On iPhone, a scan can also run a Shortcut, fire a webhook, or get spoken aloud - the same five-hook automation that powers NFC and QR."
 
 subsectionsTitle: "Built for High-Volume Scanning"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>Three settings turn the scanner from one-and-done into a continuous workflow. <strong>Multi-scan</strong> lets you scan several codes in one camera session. <strong>Batch read</strong> keeps the camera open for inventory or event check-ins. <strong>Auto-torch</strong> kicks the LED on in low light so you don't fumble for the flashlight button.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone scanning multiple QR codes and barcodes with torch light"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Webhooks for Stocktake & Event Check-Ins"
     body: "<p>Point the barcode scanner at your back-office system. Every barcode read fires a webhook to your URL, so your inventory database, attendee CRM, or library catalogue updates in real time as the camera moves. See <a href=\"/features/webhooks/\">Webhooks & Automation</a> for the JSON payload shape and a reference server.</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "NFC.cool syncing across iPhone, iPad, and Mac"
     platforms: "iOS"
 
-specsTitle: "Supported Formats (19 Total)"
+specsTitle: "Supported Formats (19 on iOS, 13 on Android)"
 specs:
-  - title: "1D Barcodes (13 Formats)"
+  - title: "1D Barcodes"
     items:
       - "EAN-13, EAN-8"
-      - "UPC-E (UPC-A read as EAN-13)"
-      - "Code 39, Code 39 Mod 43"
+      - "UPC-A, UPC-E (iOS reads UPC-A as EAN-13)"
+      - "Code 39 (Mod 43 on iOS)"
       - "Code 93, Code 128"
       - "Codabar"
       - "Interleaved 2 of 5, ITF-14"
-      - "GS1 DataBar (standard, Expanded, Limited)"
-  - title: "2D / Stacked Codes (6 Formats)"
+      - "GS1 DataBar - standard, Expanded, Limited (iOS)"
+  - title: "2D / Stacked Codes"
     items:
       - "QR Code"
-      - "Micro QR"
+      - "Micro QR (iOS)"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417 (iOS)"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "Frequently Asked"
 faq:
-  - question: "Why is this iOS-only?"
-    answer: "The Android version of NFC.cool currently focuses on NFC and the Digital Business Card. Barcode scanning is on the Android roadmap."
+  - question: "Does the barcode scanner work on Android?"
+    answer: "Yes. NFC.cool Tools on Android reads 13 formats - EAN, UPC, Code 128, Code 39, Code 93, ITF, Codabar, QR, PDF417, Aztec and Data Matrix - with batch and multi-scan modes. GS1 DataBar, Micro QR, Micro PDF417, webhooks on scan and the choice of search engine are iPhone-only for now."
   - question: "Can I scan multiple barcodes at once?"
     answer: "Yes - batch mode keeps the camera open and queues every barcode it finds. Tap any item in the queue to act on it."
   - question: "Can I save and share my scans?"

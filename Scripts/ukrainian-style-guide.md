@@ -245,8 +245,8 @@ The five places English or Ukrainian would reach for a dash, and what to write i
 2. **The dramatic pause (`One tap — and it's saved`).** Use `і` or a comma.
    - `Один дотик, і контакт збережено.`
 
-3. **Contrast (`iOS gets the cameras — Android doesn't`).** Use `а`, `натомість`, `але`.
-   - `Android читає і записує мітки, а сканери камери працюють лише на iOS.`
+3. **Contrast (`iOS gets the 3D scanner — Android doesn't`).** Use `а`, `натомість`, `але`.
+   - `Android читає мітки й QR-коди, а сканери документів і 3D працюють лише на iOS.`
 
 4. **Parenthetical aside.** Use paired commas or parentheses - both are native Ukrainian.
    - `Застосунок, і це головне, нічого не надсилає на сервер.`
@@ -301,9 +301,11 @@ Run `python3 Scripts/lint-ukrainian.py <file>` after every file; it must report 
 
 - Amiibo: always **резервне копіювання і відновлення**, never *клонування* / *копіювання*.
   Keep the "not affiliated with Nintendo" disclaimer wherever the English has it.
-- The camera scanners (QR, штрихкоди, документи, 3D, приміщення) are **iOS only**. Android gets
-  NFC read/write and вебхуки with full parity, Amiibo included. Never promise a camera scanner
-  on Android.
+- The QR and barcode scanners (QR, штрихкоди) and QR Code Studio are on **both** platforms.
+  Android reads 13 formats to iOS's 19; reading codes from photos and screenshots, Micro QR, Micro PDF417, GS1 DataBar,
+  Shortcuts, webhooks and speech on code scans, and iCloud Sync stay iOS-only. The document, 3D
+  and room scanners are **iOS only**. Android gets NFC read/write and вебхуки with full parity,
+  Amiibo included. Never promise a document, 3D or room scanner on Android.
 - Business Card is a **separate app** on both platforms. Every Business Card CTA points at the
   standalone app, never at the legacy bundle inside Android Tools.
 

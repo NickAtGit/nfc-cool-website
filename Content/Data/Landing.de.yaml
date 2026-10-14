@@ -1,6 +1,6 @@
 hero:
   title: "NFC-Leser, -Schreiber & -Scanner - NFC.cool Tools"
-  subtitle: "NFC-Tags kostenlos lesen und schreiben auf iPhone und Android - plus auf dem iPhone QR-Codes, Barcodes, Dokumente, 3D-Modelle und Räume scannen."
+  subtitle: "NFC-Tags lesen und schreiben sowie QR-Codes und Barcodes scannen, kostenlos auf iPhone und Android - plus auf dem iPhone Dokumente, 3D-Modelle und Räume scannen."
 
 trust:
   price: "Kostenlos"
@@ -84,7 +84,7 @@ faq:
   - question: "Welche NFC-Tags funktionieren mit NFC.cool?"
     answer: "Jeder NDEF-konforme NFC-Tag - NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX und die meisten anderen. NTAG216 ist die empfohlene Standardwahl dank 888 Byte Kapazität und breiter Kompatibilität mit iPhone und Android. Auf der <a href=\"/de/affiliate-links/\">NFC-Tags-Seite</a> findest du getestete Händler."
   - question: "Kann NFC.cool QR-Codes und Barcodes scannen?"
-    answer: "Ja - 19 Code-Formate werden per iPhone-Kamera oder aus beliebigen Fotos erkannt: 6 zweidimensionale Codes (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) und 13 lineare Barcodes (EAN-13, EAN-8, UPC-E, Code 39 inkl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14 plus die drei GS1-DataBar-Varianten). UPC-A wird als EAN-13 mit führender Null gelesen. Der Batch-Modus hält die Kamera für Inventuren und Event-Check-ins offen."
+    answer: "Ja - auf iPhone und Android. Auf dem iPhone werden 19 Code-Formate per Kamera oder aus beliebigen Fotos erkannt: 6 zweidimensionale Codes (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) und 13 lineare Barcodes (EAN-13, EAN-8, UPC-E, Code 39 inkl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14 plus die drei GS1-DataBar-Varianten). UPC-A wird als EAN-13 mit führender Null gelesen. Auf Android liest die Kamera 13 Formate: QR Code, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF und Codabar. Auf beiden Plattformen hält der Batch-Modus die Kamera für Inventuren und Event-Check-ins offen."
   - question: "Kann ich NFC-Tags mit meinem iPhone beschreiben?"
     answer: "Ja - jedes iPhone ab dem iPhone 7 kann NFC-Tags mit NFC.cool Tools sowohl lesen als auch beschreiben. Wähle aus über 25 Nachrichtenarten: URLs, WLAN-Zugangsdaten, Kontaktkarten (vCard), iOS-Kurzbefehle, Zahlungen, Social-Profile und mehr. Geheimes vorab mit NFC Safe (256-Bit-AES) verschlüsseln für Tap-to-Unlock-Abläufe."
   - question: "Unterstützt NFC.cool iOS-Kurzbefehle und den Action Button?"

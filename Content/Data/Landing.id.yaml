@@ -1,6 +1,6 @@
 hero:
   title: "Pembaca, Penulis, dan Pemindai Tag NFC - NFC.cool Tools"
-  subtitle: "Baca dan tulis tag NFC secara gratis di iPhone dan Android - ditambah, di iPhone, pindai kode QR, barcode, dokumen, model 3D, dan ruangan."
+  subtitle: "Baca dan tulis tag NFC serta pindai kode QR dan barcode secara gratis di iPhone dan Android - ditambah, di iPhone, pindai dokumen, model 3D, dan ruangan."
 
 trust:
   price: "Gratis"
@@ -84,7 +84,7 @@ faq:
   - question: "Tag NFC apa yang kompatibel dengan NFC.cool?"
     answer: "Tag NFC yang sesuai NDEF mana pun - NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX, dan sebagian besar lainnya. NTAG216 adalah pilihan default yang direkomendasikan untuk penggunaan umum berkat kapasitas 888 byte dan kompatibilitas luas dengan iPhone dan Android. Lihat <a href=\"/affiliate-links/\">halaman Tag NFC</a> untuk peritel yang telah diuji."
   - question: "Bisakah NFC.cool memindai kode QR dan barcode?"
-    answer: "Ya - 19 format kode dikenali dari kamera iPhone atau foto apa pun di perpustakaan Anda: 6 kode dua dimensi (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) dan 13 barcode linear (EAN-13, EAN-8, UPC-E, Code 39 termasuk Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, ditambah tiga varian GS1 DataBar). UPC-A dibaca sebagai EAN-13 dengan angka nol di depan. Mode batch mempertahankan kamera terbuka untuk penghitungan inventaris dan check-in acara."
+    answer: "Ya - di iPhone dan Android. Di iPhone, 19 format kode dikenali dari kamera atau foto apa pun di perpustakaan Anda: 6 kode dua dimensi (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) dan 13 barcode linear (EAN-13, EAN-8, UPC-E, Code 39 termasuk Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, ditambah tiga varian GS1 DataBar). UPC-A dibaca sebagai EAN-13 dengan angka nol di depan. Di Android, kamera membaca 13 format: QR Code, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF, dan Codabar. Di kedua platform, mode batch mempertahankan kamera terbuka untuk penghitungan inventaris dan check-in acara."
   - question: "Bisakah saya menulis tag NFC dengan iPhone saya?"
     answer: "Ya - setiap iPhone dari iPhone 7 ke atas dapat membaca dan menulis tag NFC menggunakan NFC.cool Tools. Pilih dari 25+ jenis pesan: URL, kredensial Wi-Fi, kartu kontak (vCard), iOS Shortcuts, pembayaran, profil media sosial, dan lainnya. Enkripsi rahasia terlebih dahulu dengan NFC Safe (AES 256-bit) untuk alur kerja ketuk-untuk-membuka-kunci."
   - question: "Apakah NFC.cool mendukung iOS Shortcuts dan Action Button?"

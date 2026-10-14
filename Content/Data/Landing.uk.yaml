@@ -1,6 +1,6 @@
 hero:
   title: "Зчитування, запис і сканування NFC-міток - NFC.cool Tools"
-  subtitle: "Читай і записуй NFC-мітки безкоштовно на iPhone та Android, а на iPhone ще й скануй QR-коди, штрихкоди, документи, 3D-моделі та приміщення."
+  subtitle: "Читай і записуй NFC-мітки, скануй QR-коди та штрихкоди безкоштовно на iPhone та Android, а на iPhone ще й скануй документи, 3D-моделі та приміщення."
 
 trust:
   price: "Безкоштовно"
@@ -84,7 +84,7 @@ faq:
   - question: "Які NFC-мітки підходять для NFC.cool?"
     answer: "Будь-яка мітка з підтримкою NDEF: NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX і більшість інших. Для загальних задач раджу NTAG216 завдяки її 888 байтам пам'яті та широкій сумісності з iPhone і Android. Перевірені магазини зібрані на <a href=\"/affiliate-links/\">сторінці NFC-міток</a>."
   - question: "Чи вміє NFC.cool сканувати QR-коди та штрихкоди?"
-    answer: "Так, розпізнається 19 форматів з камери iPhone або з будь-якого фото в галереї: 6 двовимірних кодів (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) і 13 лінійних штрихкодів (EAN-13, EAN-8, UPC-E, Code 39 разом з Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, а також три варіанти GS1 DataBar). UPC-A зчитується як EAN-13 з нулем на початку. Пакетний режим тримає камеру відкритою, і це рятує на інвентаризації та реєстрації гостей."
+    answer: "Так, на iPhone і на Android. На iPhone розпізнається 19 форматів з камери або з будь-якого фото в галереї: 6 двовимірних кодів (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) і 13 лінійних штрихкодів (EAN-13, EAN-8, UPC-E, Code 39 разом з Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, а також три варіанти GS1 DataBar). UPC-A зчитується як EAN-13 з нулем на початку. На Android камера зчитує 13 форматів: QR Code, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF і Codabar. На обох платформах пакетний режим тримає камеру відкритою, і це рятує на інвентаризації та реєстрації гостей."
   - question: "Чи можна записувати NFC-мітки з iPhone?"
     answer: "Так, кожен iPhone починаючи з iPhone 7 і читає, і записує NFC-мітки через NFC.cool Tools. На вибір понад 25 типів записів: посилання, дані Wi-Fi, контакти (vCard), Швидкі команди iOS, платежі, профілі в соцмережах та інші. Секрети спершу зашифруй у NFC Safe (AES-256), щоб дотик відмикав те, що треба."
   - question: "Чи підтримує NFC.cool Швидкі команди iOS і кнопку дії?"

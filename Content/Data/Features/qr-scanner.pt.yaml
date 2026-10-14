@@ -3,28 +3,28 @@ backLinkText: "← Todas as funcionalidades"
 
 card:
   title: "Leitor e Estúdio de Códigos QR"
-  description: "Leia códigos QR a partir da câmara ou escolha-os de qualquer fotografia - e depois desenhe os seus próprios com ícones e Genmoji no Estúdio de Códigos QR integrado."
+  description: "Leia códigos QR com a câmara no iPhone e no Android - e depois desenhe os seus próprios com formas e cores personalizadas e um logótipo ou emoji no Estúdio de Códigos QR integrado."
   imagePath: "/assets/images/Webflow/qr-studio.webp"
-  platforms: "iOS apenas"
+  platforms: "iOS · Android"
 
 hero:
   title: "Leitor e Estúdio de Códigos QR"
-  subtitle: "Leia qualquer código QR a partir da câmara ou escolha um de uma captura de ecrã. Desenhe códigos QR personalizados com logótipos, Genmoji e cores da sua marca no Estúdio de Códigos QR integrado."
-  platforms: "iOS apenas"
+  subtitle: "Leia qualquer código QR com a câmara no iPhone e no Android, ou escolha um de uma captura de ecrã no iPhone. Desenhe códigos QR personalizados com logótipos, emoji e cores da sua marca no Estúdio de Códigos QR integrado."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-studio.webp"
 
 capabilitiesTitle: "O Que Pode Fazer"
 capabilities:
   - title: "Leitura Universal de Códigos QR"
-    description: "URLs, vCards, credenciais de Wi-Fi, eventos de calendário, pagamentos, ligações diretas à App Store - a NFC.cool deteta o tipo de payload e oferece a ação correta."
+    description: "Ligações, cartões de contacto, credenciais de Wi-Fi, eventos de calendário, números de telefone, email, SMS e localizações - a NFC.cool deteta o tipo de payload e oferece a ação correta. No iPhone, também ligações de pagamento e da App Store."
   - title: "Detetar Códigos QR em Capturas de Ecrã"
-    description: "Escolha qualquer imagem da sua biblioteca de fotografias e a NFC.cool encontra e descodifica qualquer código QR no seu interior - mesmo os parcialmente tapados ou de baixo contraste."
+    description: "No iPhone e no iPad, escolha qualquer imagem da sua biblioteca de fotografias e a NFC.cool encontra e descodifica qualquer código QR no seu interior - mesmo os parcialmente tapados ou de baixo contraste."
   - title: "Estúdio de Códigos QR"
-    description: "Desenhe códigos QR com cores personalizadas, padrões de olhos arredondados, formas de pixéis personalizadas e um logótipo ou Genmoji no centro. Exporte como PNG até 4096×4096."
+    description: "Desenhe códigos QR com cores personalizadas, padrões de olhos arredondados, formas de pixéis personalizadas e um logótipo ou emoji no centro (Genmoji no iPhone). Exporte como PNG até 4096×4096."
   - title: "Histórico e Repartilha"
     description: "Cada leitura é guardada localmente - reabra o payload, copie-o, partilhe-o, ou volte diretamente para a ação."
   - title: "Ação Automática na Leitura"
-    description: "Abra URLs, execute Atalhos, dispare um webhook ou leia o resultado em voz alta no momento em que um código é lido - a mesma automação de cinco gatilhos que alimenta as leituras NFC."
+    description: "Abra uma ligação ou reproduza uma ligação de áudio no momento em que um código é lido. No iPhone, uma leitura também pode executar um Atalho, disparar um webhook ou ler o resultado em voz alta - a mesma automação de cinco gatilhos que alimenta as leituras NFC."
 
 subsectionsTitle: "Mais Do Que um Leitor"
 subsections:
@@ -34,17 +34,21 @@ subsections:
     imageAlt: "Ecrã principal do iPhone com widgets de códigos QR e botão de leitura"
     platforms: "iOS"
 
+  - title: "No Android: Widget QR, Mosaico das Definições Rápidas e Atalho"
+    body: "<p>No Android, o <strong>widget de código QR</strong> coloca um código guardado no seu ecrã principal, emoldurado e redimensionável, com ou sem o respetivo título. Coloque quantos quiser - com o Platinum, cada um pode mostrar um código diferente. Para começar a ler sem andar à procura da app, adicione o mosaico <strong>Ler código</strong> às Definições rápidas, ou mantenha premido o ícone da app e escolha o mesmo atalho.</p>"
+    platforms: "Android"
+
   - title: "Estúdio de Códigos QR: Formas de Pixéis, Cores, Olhos e Logótipos Personalizados"
-    body: "<p>O Estúdio de Códigos QR permite-lhe manter a legibilidade sem a estética de quadrado corporativo. Escolha formas de pixéis (arredondadas, pontos, losangos), estilos por olho, cores de primeiro plano / de fundo, uma imagem de logótipo ou um Genmoji no centro. Exporte em seis tamanhos de pixéis - 512, 1024, 1536, 2048, 3072 ou 4096.</p>"
+    body: "<p>O Estúdio de Códigos QR permite-lhe manter a legibilidade sem a estética de quadrado corporativo. Escolha formas de pixéis (arredondadas, pontos, losangos e mais), estilos de olhos, cores de primeiro plano / de fundo, uma imagem de logótipo ou um emoji no centro - no iPhone também estilos por olho e Genmoji. Exporte em seis tamanhos de pixéis - 512, 1024, 1536, 2048, 3072 ou 4096.</p><p>No Android, o Estúdio também coloca arte por trás do código (uma fotografia, emoji, símbolo ou texto) e verifica o seu desenho à medida que avança: no momento em que uma alteração tornaria o código ilegível, avisa-o.</p>"
     imagePath: "/assets/images/Features/qr-scanner-studio-card.webp"
     imageAlt: "Estúdio de Códigos QR com um logótipo personalizado"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Multi-Leitura, Leitura em Lote e Lanterna a Pedido"
     body: "<p>Três definições transformam o leitor de algo pontual num fluxo de trabalho contínuo. A <strong>multi-leitura</strong> permite-lhe ler vários códigos numa só sessão de câmara. A <strong>leitura em lote</strong> mantém a câmara aberta para inventários ou registos de entrada em eventos. A <strong>lanterna automática</strong> liga o LED com pouca luz para que não tenha de procurar o botão da lanterna.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone a ler vários códigos QR e códigos de barras com a luz da lanterna"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Atalhos e App Intents"
     body: "<p>A NFC.cool integra-se diretamente na app Atalhos do iOS com ações incorporadas: obter a última tag NFC lida, gravar uma mensagem numa tag, abrir o leitor, ou obter o último código QR lido. Encadeie-as em Atalhos que leem uma tag, analisam o seu payload e iniciam o que quer que pretenda a seguir - automação, registo, diário, o que quiser. As mesmas ações alimentam o controlo <strong>Botão de Leitura</strong> no ecrã de bloqueio no iOS 17+.</p>"
@@ -60,11 +64,12 @@ subsections:
 
 specsTitle: "Códigos Suportados e Exportações do Estúdio"
 specs:
-  - title: "Variantes de QR (Câmara + Biblioteca de Fotografias)"
+  - title: "Variantes de QR"
     items:
       - "Código QR (versões 1-40)"
-      - "Micro QR (M1-M4)"
-      - "Vários códigos por imagem"
+      - "Micro QR (M1-M4, iOS)"
+      - "Vários códigos num só enquadramento da câmara"
+      - "Códigos em fotografias e capturas de ecrã (iOS)"
   - title: "Tamanhos de Exportação do Estúdio"
     items:
       - "PNG a 512, 1024, 1536, 2048, 3072 ou 4096 pixéis quadrados"
@@ -72,8 +77,9 @@ specs:
     items:
       - "Cores de primeiro plano e de fundo"
       - "Formas de pixéis personalizadas (arredondada, ponto, losango, …)"
-      - "Estilos e formas por olho"
-      - "Logótipo central (qualquer imagem, Apple Stickers ou Genmoji no iOS 18+)"
+      - "Estilos e formas de olhos (definidos por olho no iOS)"
+      - "Logótipo central (qualquer imagem ou emoji; Apple Stickers e Genmoji no iOS 18+)"
+      - "Arte por trás do código (Android)"
 
 pricing:
   title: "Gratuito vs Platinum"
@@ -96,12 +102,12 @@ pricing:
 
 faqTitle: "Perguntas Frequentes"
 faq:
-  - question: "Porque é que isto é apenas para iOS?"
-    answer: "A versão Android da NFC.cool foca-se atualmente no NFC e no Cartão de Visita Digital. A leitura de códigos QR está no roteiro do Android."
+  - question: "O leitor de códigos QR funciona no Android?"
+    answer: "Sim. O NFC.cool Tools no Android lê códigos QR e códigos de barras, guarda-os no seu histórico e inclui o Estúdio de Códigos QR e um widget QR para o ecrã principal. Algumas partes são, por agora, exclusivas do iPhone: ler códigos a partir de fotografias e capturas de ecrã, Micro QR, Atalhos, webhooks e resultados lidos em voz alta na leitura, e a Sincronização iCloud."
   - question: "Os códigos QR do Estúdio são compatíveis com todos os leitores?"
     answer: "Sim. São códigos QR padrão com estilo cosmético opcional. Todos os leitores padrão (Câmara do iOS, Google Lens, leitores nativos do Android) os conseguem descodificar."
   - question: "Posso ler um código QR a partir de uma captura de ecrã?"
-    answer: "Sim. Escolha qualquer imagem da sua biblioteca de fotografias e a NFC.cool encontra todos os códigos QR no seu interior - mesmo os parcialmente tapados."
+    answer: "Sim, no iPhone e no iPad. Escolha qualquer imagem da sua biblioteca de fotografias e a NFC.cool encontra todos os códigos QR no seu interior - mesmo os parcialmente tapados. No Android, os códigos são lidos com a câmara."
   - question: "O Estúdio incorpora alguma marca de água ou identificação da NFC.cool?"
     answer: "Os códigos gratuitos trazem uma pequena atribuição. Os códigos Platinum não têm marca de água - são puramente o seu desenho."
 

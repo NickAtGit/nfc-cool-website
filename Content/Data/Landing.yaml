@@ -1,6 +1,6 @@
 hero:
   title: "NFC Tag Reader, Writer, Scanner - NFC.cool Tools"
-  subtitle: "Read and Write NFC Tags for free on iPhone and Android - plus, on iPhone, scan QR Codes, Barcodes, Documents, 3D Models and Rooms."
+  subtitle: "Read and Write NFC Tags and scan QR Codes and Barcodes for free on iPhone and Android - plus, on iPhone, scan Documents, 3D Models and Rooms."
 
 trust:
   price: "Free"
@@ -84,7 +84,7 @@ faq:
   - question: "Which NFC tags work with NFC.cool?"
     answer: "Any NDEF-compliant NFC tag - NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX, and most others. NTAG216 is the recommended default for general use thanks to its 888-byte capacity and broad compatibility with iPhone and Android. See the <a href=\"/affiliate-links/\">NFC Tags page</a> for tested retailers."
   - question: "Can NFC.cool scan QR codes and barcodes?"
-    answer: "Yes - 19 code formats are recognized from the iPhone camera or any photo in your library: 6 two-dimensional codes (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) and 13 linear barcodes (EAN-13, EAN-8, UPC-E, Code 39 incl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, plus the three GS1 DataBar variants). UPC-A is read as EAN-13 with a leading zero. Batch mode keeps the camera open for inventory counts and event check-ins."
+    answer: "Yes - on iPhone and Android. On iPhone, 19 code formats are recognized from the camera or any photo in your library: 6 two-dimensional codes (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) and 13 linear barcodes (EAN-13, EAN-8, UPC-E, Code 39 incl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, plus the three GS1 DataBar variants). UPC-A is read as EAN-13 with a leading zero. On Android, the camera reads 13 formats: QR Code, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF and Codabar. On both, batch mode keeps the camera open for inventory counts and event check-ins."
   - question: "Can I write NFC tags with my iPhone?"
     answer: "Yes - every iPhone from iPhone 7 onwards can both read and write NFC tags using NFC.cool Tools. Choose from 25+ message types: URLs, Wi-Fi credentials, contact cards (vCard), iOS Shortcuts, payments, social profiles, and more. Encrypt secrets first with NFC Safe (256-bit AES) for tap-to-unlock workflows."
   - question: "Does NFC.cool support iOS Shortcuts and the Action Button?"

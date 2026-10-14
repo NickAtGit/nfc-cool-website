@@ -3,28 +3,28 @@ backLinkText: "← Tutte le funzioni"
 
 card:
   title: "Scanner di codici a barre"
-  description: "Leggi 13 formati di codici a barre e 6 codici bidimensionali: EAN, UPC, QR, PDF417, Data Matrix e altri ancora. La modalità in serie tiene la fotocamera aperta per gli inventari e per gli ingressi agli eventi."
+  description: "Leggi EAN, UPC, Code 128, QR, PDF417, Data Matrix e altri ancora su iPhone e Android. La modalità in serie tiene la fotocamera aperta per gli inventari e per gli ingressi agli eventi."
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "Solo iOS"
+  platforms: "iOS · Android"
 
 hero:
   title: "Scanner di codici a barre"
-  subtitle: "Leggi 19 formati: 13 codici a barre lineari (EAN, UPC, Code 128, GS1 DataBar e altri) e 6 codici bidimensionali (QR, PDF417, Aztec, Data Matrix e le varianti Micro). La modalità in serie tiene la fotocamera aperta per gli inventari e per gli ingressi agli eventi."
-  platforms: "Solo iOS"
+  subtitle: "Leggi EAN, UPC, Code 128, Code 39, ITF, QR, PDF417, Aztec e Data Matrix su iPhone e Android, più GS1 DataBar e le varianti Micro su iPhone, per 19 formati in tutto. La modalità in serie tiene la fotocamera aperta per gli inventari e per gli ingressi agli eventi."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "Cosa puoi fare"
 capabilities:
   - title: "Tutti i formati principali"
-    description: "Leggi EAN-13/8, UPC-E (l'UPC-A viene letto come EAN-13), Code 128, Code 39 (anche con Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix e altri ancora. Il formato viene riconosciuto da solo, senza cambiare modalità."
+    description: "EAN-13/8, UPC-A/E, Code 128, Code 39, Code 93, ITF, ITF-14, Codabar, PDF417, Aztec, Data Matrix e QR su entrambe le piattaforme, più GS1 DataBar, Code 39 Mod 43, Micro QR e Micro PDF417 su iPhone. Il formato viene riconosciuto da solo, senza cambiare modalità."
   - title: "Modalità in serie"
     description: "Leggi una pila di codici uno dopo l'altro senza reinquadrare ogni volta. Comoda per gli inventari, per gli ingressi agli eventi o per gli archivi di una biblioteca."
   - title: "Ricerca del prodotto"
-    description: "Tocca il codice a barre di un prodotto appena letto per cercarlo: il numero passa al motore di ricerca che hai impostato (Google, Ecosia, DuckDuckGo, Bing o Startpage) e i risultati arrivano subito."
+    description: "Tocca il codice a barre di un prodotto appena letto per cercarlo: il numero passa a un motore di ricerca e i risultati arrivano subito. Su iPhone scegli tu il motore: Google, Ecosia, DuckDuckGo, Bing o Startpage."
   - title: "Cronologia e condivisione"
     description: "Ogni scansione viene salvata con data e ora. Metti tra i preferiti quelle che contano, dai a una scansione il titolo che vuoi e condividila direttamente dalla cronologia."
   - title: "Azione automatica alla lettura"
-    description: "Gli indirizzi web e i codici dei comandi rapidi possono aprirsi da soli appena letti, far partire un webhook o essere letti ad alta voce: sono gli stessi cinque automatismi che valgono per NFC e QR."
+    description: "I link possono aprirsi da soli appena letti, su iPhone e su Android. Su iPhone una scansione può anche avviare un comando rapido, far partire un webhook o essere letta ad alta voce: sono gli stessi cinque automatismi che valgono per NFC e QR."
 
 subsectionsTitle: "Pensato per i grandi volumi"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>Tre impostazioni trasformano lo scanner da una lettura alla volta a un flusso continuo. Con la <strong>scansione multipla</strong> leggi più codici nella stessa sessione della fotocamera. La <strong>lettura in serie</strong> tiene la fotocamera aperta per gli inventari o per gli ingressi agli eventi. La <strong>torcia automatica</strong> accende il LED quando c'è poca luce, così non devi cercare il pulsante della torcia.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone che legge più codici QR e codici a barre con la torcia accesa"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Webhook per inventari e ingressi agli eventi"
     body: "<p>Collega lo scanner di codici a barre al tuo gestionale. Ogni codice letto fa partire un webhook verso il tuo URL, così il magazzino, il CRM dei partecipanti o il catalogo della biblioteca si aggiornano in tempo reale mentre muovi la fotocamera. Nella pagina <a href=\"/features/webhooks/\">Webhook e automazione</a> trovi la struttura del payload JSON e un server di esempio.</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "NFC.cool che si sincronizza tra iPhone, iPad e Mac"
     platforms: "iOS"
 
-specsTitle: "Formati supportati (19 in tutto)"
+specsTitle: "Formati supportati (19 su iOS, 13 su Android)"
 specs:
-  - title: "Codici a barre lineari (13 formati)"
+  - title: "Codici a barre lineari"
     items:
       - "EAN-13, EAN-8"
-      - "UPC-E (l'UPC-A viene letto come EAN-13)"
-      - "Code 39, Code 39 Mod 43"
+      - "UPC-A, UPC-E (su iOS l'UPC-A viene letto come EAN-13)"
+      - "Code 39 (Mod 43 su iOS)"
       - "Code 93, Code 128"
       - "Codabar"
       - "Interleaved 2 of 5, ITF-14"
-      - "GS1 DataBar (standard, Expanded, Limited)"
-  - title: "Codici 2D e impilati (6 formati)"
+      - "GS1 DataBar - standard, Expanded, Limited (iOS)"
+  - title: "Codici 2D e impilati"
     items:
       - "QR Code"
-      - "Micro QR"
+      - "Micro QR (iOS)"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417 (iOS)"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "Domande frequenti"
 faq:
-  - question: "Perché questa funzione è solo per iOS?"
-    answer: "Per ora la versione Android di NFC.cool si concentra sull'NFC e sul biglietto da visita digitale. La lettura dei codici a barre è in programma anche per Android."
+  - question: "Lo scanner di codici a barre funziona su Android?"
+    answer: "Sì. Su Android NFC.cool Tools legge 13 formati (EAN, UPC, Code 128, Code 39, Code 93, ITF, Codabar, QR, PDF417, Aztec e Data Matrix) con la modalità in serie e la scansione multipla. GS1 DataBar, Micro QR, Micro PDF417, i webhook alla scansione e la scelta del motore di ricerca per ora sono solo su iPhone."
   - question: "Posso leggere più codici a barre di seguito?"
     answer: "Sì. La modalità in serie tiene la fotocamera aperta e mette in coda ogni codice che trova. Tocca una voce della coda per agire su quel codice."
   - question: "Posso salvare e condividere le scansioni?"

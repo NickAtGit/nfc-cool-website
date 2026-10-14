@@ -3,28 +3,28 @@ backLinkText: "← 所有功能"
 
 card:
   title: "二维码扫描器与工作室"
-  description: "用摄像头扫描二维码，或从任意照片中识别二维码，然后在内置的二维码工作室里用图标和 Genmoji 设计你自己的二维码。"
+  description: "在 iPhone 和 Android 上用摄像头扫描二维码，然后在内置的二维码工作室里用自定义形状、颜色，以及徽标或表情符号设计你自己的二维码。"
   imagePath: "/assets/images/Webflow/qr-studio.webp"
-  platforms: "仅限 iOS"
+  platforms: "iOS · Android"
 
 hero:
   title: "二维码扫描器与工作室"
-  subtitle: "用摄像头扫描任意二维码，或从截图中识别出二维码。在内置的二维码工作室里，用徽标、Genmoji 和品牌色设计自定义二维码。"
-  platforms: "仅限 iOS"
+  subtitle: "在 iPhone 和 Android 上用摄像头扫描任意二维码，在 iPhone 上还可从截图中识别出二维码。在内置的二维码工作室里，用徽标、表情符号和品牌色设计自定义二维码。"
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-studio.webp"
 
 capabilitiesTitle: "你可以做什么"
 capabilities:
   - title: "全能二维码扫描"
-    description: "URL、vCard、Wi-Fi 凭据、日历事件、付款信息、应用商店深度链接：NFC.cool 会识别负载类型并提供恰当的操作。"
+    description: "链接、联系人名片、Wi-Fi 凭据、日历事件、电话号码、电子邮件、短信和位置：NFC.cool 会识别负载类型并提供恰当的操作。在 iPhone 上还支持付款信息和应用商店链接。"
   - title: "识别截图中的二维码"
-    description: "从相册中选取任意图片，NFC.cool 都能找到并解码其中的二维码，即便它被部分遮挡或对比度很低。"
+    description: "在 iPhone 和 iPad 上，从相册中选取任意图片，NFC.cool 都能找到并解码其中的二维码，即便它被部分遮挡或对比度很低。"
   - title: "二维码工作室"
-    description: "用自定义颜色、圆角定位图案、自定义像素形状，以及居中的徽标或 Genmoji 来设计二维码。可导出为最高 4096×4096 的 PNG。"
+    description: "用自定义颜色、圆角定位图案、自定义像素形状，以及居中的徽标或表情符号（在 iPhone 上还可用 Genmoji）来设计二维码。可导出为最高 4096×4096 的 PNG。"
   - title: "历史记录与再次分享"
     description: "每次扫描都会保存在本地：可重新打开负载、复制、分享，或直接跳回对应操作。"
   - title: "读取时自动执行操作"
-    description: "二维码被扫描的那一刻，即可打开 URL、运行快捷指令、触发 webhook，或朗读结果：与驱动 NFC 扫描的五种联动完全相同。"
+    description: "二维码被扫描的那一刻，即可打开链接或播放音频链接。在 iPhone 上，扫描还能运行快捷指令、触发 webhook，或朗读结果：与驱动 NFC 扫描的五种联动完全相同。"
 
 subsectionsTitle: "不只是一个扫描器"
 subsections:
@@ -34,17 +34,21 @@ subsections:
     imageAlt: "带有二维码小组件和扫描按钮的 iPhone 主屏幕"
     platforms: "iOS"
 
+  - title: "Android 上：二维码小组件、快捷设置图块与快捷方式"
+    body: "<p>在 Android 上，<strong>二维码小组件</strong>会把一个已保存的码放到主屏幕上，带边框、可调整大小，标题可显示也可隐藏。想放多少个都可以：开通白金版后，每个小组件都能显示不同的码。想直接开始扫描、不必四处找应用，可以把<strong>扫描代码</strong>图块添加到快捷设置，或长按应用图标并选择同一个快捷方式。</p>"
+    platforms: "Android"
+
   - title: "二维码工作室：自定义像素形状、颜色、定位点、徽标"
-    body: "<p>二维码工作室让你在保留可扫描性的同时，摆脱千篇一律的方块外观。可选择像素形状（圆角、圆点、菱形）、为每个定位点设置样式、设定前景／背景颜色，并在中央放置徽标图片或 Genmoji。可按六种像素尺寸导出：512、1024、1536、2048、3072 或 4096。</p>"
+    body: "<p>二维码工作室让你在保留可扫描性的同时，摆脱千篇一律的方块外观。可选择像素形状（圆角、圆点、菱形等）、定位点样式、设定前景／背景颜色，并在中央放置徽标图片或表情符号；在 iPhone 上还可为每个定位点单独设置样式，并使用 Genmoji。可按六种像素尺寸导出：512、1024、1536、2048、3072 或 4096。</p><p>在 Android 上，工作室还能在码的背后放置图案（照片、表情符号、符号或文字），并在你设计时随时检查：一旦某项修改会让码无法识别，它会立刻提醒你。</p>"
     imagePath: "/assets/images/Features/qr-scanner-studio-card.webp"
     imageAlt: "带有自定义徽标的二维码工作室"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "多重扫描、批量读取，以及按需补光"
     body: "<p>三项设置把扫描器从一次性工具变成连续工作流。<strong>多重扫描</strong>让你在一次摄像头会话中扫描多个码。<strong>批量读取</strong>会让摄像头保持开启，适用于盘点或活动签到。<strong>自动补光</strong>会在弱光环境下点亮 LED，省得你手忙脚乱去找手电筒按钮。</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone 在补光下扫描多个二维码和条形码"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "快捷指令与 App Intents"
     body: "<p>NFC.cool 通过内置操作直接接入 iOS 快捷指令应用：获取最近扫描的 NFC 标签、向标签写入信息、打开扫描器，或调取最近扫描的二维码。把它们串联成快捷指令，先扫描标签、解析其负载，再启动你想要的后续操作：自动化、记录、写日记，随你发挥。同样的操作也驱动 iOS 17+ 上的锁屏<strong>扫描按钮</strong>控件。</p>"
@@ -60,11 +64,12 @@ subsections:
 
 specsTitle: "支持的码与工作室导出"
 specs:
-  - title: "二维码变体（摄像头 + 相册）"
+  - title: "二维码变体"
     items:
       - "QR Code（版本 1-40）"
-      - "Micro QR（M1-M4）"
-      - "单张图片中的多个码"
+      - "Micro QR（M1-M4，iOS）"
+      - "一个摄像头画面中的多个码"
+      - "照片和截图中的码（iOS）"
   - title: "工作室导出尺寸"
     items:
       - "PNG，512、1024、1536、2048、3072 或 4096 像素见方"
@@ -72,8 +77,9 @@ specs:
     items:
       - "前景与背景颜色"
       - "自定义像素形状（圆角、圆点、菱形等）"
-      - "为每个定位点设置样式和形状"
-      - "中央徽标（任意图片、Apple 贴纸，或 iOS 18+ 上的 Genmoji）"
+      - "定位点样式和形状（iOS 上可为每个定位点单独设置）"
+      - "中央徽标（任意图片或表情符号；iOS 18+ 上还可用 Apple 贴纸和 Genmoji）"
+      - "码背后的图案（Android）"
 
 pricing:
   title: "免费版与白金版对比"
@@ -96,12 +102,12 @@ pricing:
 
 faqTitle: "常见问题"
 faq:
-  - question: "为什么这项功能仅限 iOS？"
-    answer: "NFC.cool 的 Android 版本目前专注于 NFC 和电子名片。二维码扫描已列入 Android 的路线图。"
+  - question: "二维码扫描器能在 Android 上使用吗？"
+    answer: "能。Android 版 NFC.cool Tools 可扫描二维码和条形码，将它们保存在历史记录中，还包含二维码工作室和主屏幕二维码小组件。目前有几项功能仅限 iPhone：从照片和截图中读取码、Micro QR、快捷指令、扫描时触发 webhook 和朗读结果，以及 iCloud 同步。"
   - question: "工作室生成的二维码与所有扫码器都兼容吗？"
     answer: "兼容。它们是带有可选外观样式的标准二维码。任何标准扫码器（iOS 相机、Google Lens、Android 自带的扫描器）都能解码。"
   - question: "我可以扫描截图里的二维码吗？"
-    answer: "可以。从相册中选取任意图片，NFC.cool 就能找到其中的每一个二维码，哪怕它被部分遮挡。"
+    answer: "可以，限 iPhone 和 iPad。从相册中选取任意图片，NFC.cool 就能找到其中的每一个二维码，哪怕它被部分遮挡。在 Android 上，码需要通过摄像头扫描。"
   - question: "工作室会嵌入水印或 NFC.cool 的品牌标识吗？"
     answer: "免费版生成的码会带有一个小小的署名。白金版生成的码则没有水印：纯粹是你自己的设计。"
 

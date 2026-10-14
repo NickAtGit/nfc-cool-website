@@ -3,28 +3,28 @@ backLinkText: "← すべての機能"
 
 card:
   title: "バーコードスキャナー"
-  description: "13種類のバーコード形式と6種類の2次元コード - EAN、UPC、QR、PDF417、Data Matrixなど - をスキャン。バッチモードでカメラを開いたまま、棚卸しや受付に対応。"
+  description: "EAN、UPC、Code 128、QR、PDF417、Data MatrixなどをiPhoneとAndroidでスキャン。バッチモードでカメラを開いたまま、棚卸しや受付に対応。"
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "iOSのみ"
+  platforms: "iOS · Android"
 
 hero:
   title: "バーコードスキャナー"
-  subtitle: "19種類のコード形式に対応 - 13種類のリニアバーコード(EAN、UPC、Code 128、GS1 DataBarなど)と6種類の2次元コード(QR、PDF417、Aztec、Data Matrix、Microバリアント)。バッチモードでカメラを開いたままに - 棚卸しやイベント受付に最適です。"
-  platforms: "iOSのみ"
+  subtitle: "EAN、UPC、Code 128、Code 39、ITF、QR、PDF417、Aztec、Data MatrixをiPhoneとAndroidでスキャン。iPhoneではGS1 DataBarとMicroバリアントにも対応し、全19形式。バッチモードでカメラを開いたままに - 棚卸しやイベント受付に最適です。"
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "できること"
 capabilities:
   - title: "主要なバーコード形式すべてに対応"
-    description: "EAN-13/8、UPC-E(UPC-AはEAN-13として読み取り)、Code 128、Code 39(Mod 43を含む)、Code 93、ITF、ITF-14、Codabar、GS1 DataBar、PDF417、Aztec、Data Matrixなど - 自動形式判定で、モード切替不要。"
+    description: "EAN-13/8、UPC-A/E、Code 128、Code 39、Code 93、ITF、ITF-14、Codabar、PDF417、Aztec、Data Matrix、QRに両プラットフォームで対応。iPhoneではさらにGS1 DataBar、Code 39 Mod 43、Micro QR、Micro PDF417も - 自動形式判定で、モード切替不要。"
   - title: "バッチモード"
     description: "再照準なしで連続してバーコードをスキャン。棚卸し、イベントの受付、図書館アーカイブなどに最適です。"
   - title: "商品検索"
-    description: "スキャンした小売バーコードをワンタップで照会 - バーコード番号が事前設定された検索エンジン(Google、Ecosia、DuckDuckGo、Bing、Startpage)に渡され、該当する結果が表示されます。"
+    description: "スキャンした小売バーコードをワンタップで照会 - バーコード番号が検索エンジンに渡され、該当する結果が表示されます。iPhoneでは検索エンジンを選べます: Google、Ecosia、DuckDuckGo、Bing、Startpage。"
   - title: "スキャン履歴 & 共有"
     description: "すべてのスキャンが日時とともに保存されます。重要なスキャンをお気に入り登録し、スキャンに独自のタイトルを付けて、履歴ビューから直接共有できます。"
   - title: "読み取り時の自動アクション"
-    description: "URLやショートカットコードはスキャン直後に自動で開き、Webhookを発火、読み上げも可能 - NFCやQRと同じ5つのフックです。"
+    description: "リンクはiPhoneでもAndroidでもスキャン直後に自動で開きます。iPhoneではさらに、ショートカットの実行、Webhookの発火、読み上げも可能 - NFCやQRと同じ5つのフックです。"
 
 subsectionsTitle: "大量スキャンのために"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>3つの設定がスキャナーを「1回限り」から「継続的なワークフロー」に変えます。<strong>マルチスキャン</strong>は1つのカメラセッションで複数のコードを取り込みます。<strong>バッチ読み取り</strong>は棚卸しやイベント受付向けにカメラを開いたままに。<strong>オートフラッシュ</strong>は暗所でLEDを自動オン - 懐中電灯ボタンを探す必要はありません。</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhoneがフラッシュライトで複数のQRコードとバーコードをスキャン"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "在庫管理とイベント受付のWebhook"
     body: "<p>バーコードスキャナーをバックオフィスシステムに向けましょう。読み取られた各バーコードがあなたのURLにWebhookを発火 - カメラが動いている間に在庫データベース、参加者CRM、図書館の蔵書目録がリアルタイムで更新されます。JSONペイロード形式と参照サーバーは<a href=\"/ja/features/webhooks/\">Webhookと自動化</a>を参照。</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "iPhone・iPad・MacでNFC.coolが同期"
     platforms: "iOS"
 
-specsTitle: "対応フォーマット(全19種)"
+specsTitle: "対応フォーマット(iOSは19種、Androidは13種)"
 specs:
-  - title: "1Dバーコード(13形式)"
+  - title: "1Dバーコード"
     items:
       - "EAN-13、EAN-8"
-      - "UPC-E(UPC-AはEAN-13として読み取り)"
-      - "Code 39、Code 39 Mod 43"
+      - "UPC-A、UPC-E(iOSはUPC-AをEAN-13として読み取り)"
+      - "Code 39(iOSはMod 43にも対応)"
       - "Code 93、Code 128"
       - "Codabar"
       - "Interleaved 2 of 5、ITF-14"
-      - "GS1 DataBar(標準、Expanded、Limited)"
-  - title: "2D・スタック型コード(6形式)"
+      - "GS1 DataBar - 標準、Expanded、Limited(iOS)"
+  - title: "2D・スタック型コード"
     items:
       - "QRコード"
-      - "Micro QR"
+      - "Micro QR(iOS)"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417(iOS)"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "よくある質問"
 faq:
-  - question: "なぜiOS限定ですか？"
-    answer: "現在のAndroid版NFC.coolはNFCとデジタル名刺に注力しています。バーコードスキャンはAndroidロードマップに含まれています。"
+  - question: "バーコードスキャナーはAndroidでも使えますか？"
+    answer: "はい。Android版NFC.cool Toolsは13形式 - EAN、UPC、Code 128、Code 39、Code 93、ITF、Codabar、QR、PDF417、Aztec、Data Matrix - を読み取り、バッチモードとマルチスキャンモードにも対応しています。GS1 DataBar、Micro QR、Micro PDF417、スキャン時のWebhook、検索エンジンの選択は現在iPhone限定です。"
   - question: "複数のバーコードを一度にスキャンできますか？"
     answer: "はい - バッチモードはカメラを開いたままにし、見つけたすべてのバーコードをキューに溜めます。キューの項目をタップすると操作できます。"
   - question: "スキャンを保存して共有できますか？"

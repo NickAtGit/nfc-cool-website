@@ -1,6 +1,6 @@
 hero:
   title: "NFCリーダー・ライター・タグスキャナー - NFC.cool Tools"
-  subtitle: "iPhoneとAndroidでNFCタグの読み取りと書き込みが無料。さらにiPhoneでは、QRコード、バーコード、書類、3Dモデル、お部屋もスキャンできます。"
+  subtitle: "iPhoneとAndroidでNFCタグの読み取りと書き込み、QRコードとバーコードのスキャンが無料。さらにiPhoneでは、書類、3Dモデル、お部屋もスキャンできます。"
 
 trust:
   price: "無料"
@@ -124,7 +124,7 @@ faq:
   - question: "どのNFCタグがNFC.coolで使えますか？"
     answer: "NDEF準拠のNFCタグなら何でも対応します - NTAG213、NTAG215、NTAG216、MIFARE Ultralight、ICODE SLIXなど。一般的な用途には888バイト容量とiPhone・Androidとの互換性の高さからNTAG216をおすすめします。テスト済みの販売店は<a href=\"/ja/affiliate-links/\">NFCタグページ</a>でご確認いただけます。"
   - question: "NFC.coolはQRコードとバーコードをスキャンできますか？"
-    answer: "はい - iPhoneカメラまたは写真ライブラリの画像から19種類のコード形式を認識できます。2次元コードは6種類(QRコード、Micro QR、Aztec、Data Matrix、PDF417、Micro PDF417)、リニアバーコードは13種類(EAN-13、EAN-8、UPC-E、Code 39 およびMod 43、Code 93、Code 128、Codabar、Interleaved 2 of 5、ITF-14、GS1 DataBarの3バリアント)。UPC-Aは先頭にゼロを補ってEAN-13として読み取られます。バッチモードは在庫管理やイベント受付向けにカメラを開いたままにします。"
+    answer: "はい - iPhoneとAndroidの両方で利用できます。iPhoneでは、カメラまたは写真ライブラリの画像から19種類のコード形式を認識できます。2次元コードは6種類(QRコード、Micro QR、Aztec、Data Matrix、PDF417、Micro PDF417)、リニアバーコードは13種類(EAN-13、EAN-8、UPC-E、Code 39およびMod 43、Code 93、Code 128、Codabar、Interleaved 2 of 5、ITF-14、GS1 DataBarの3バリアント)。UPC-Aは先頭にゼロを補ってEAN-13として読み取られます。Androidでは、カメラで13種類の形式を読み取れます(QRコード、Aztec、Data Matrix、PDF417、EAN-13、EAN-8、UPC-A、UPC-E、Code 128、Code 39、Code 93、ITF、Codabar)。どちらでも、バッチモードは在庫管理やイベント受付向けにカメラを開いたままにします。"
   - question: "iPhoneでNFCタグに書き込めますか？"
     answer: "はい - iPhone 7以降ならNFC.cool ToolsでNFCタグの読み書きが両方できます。URL、Wi-Fi認証情報、連絡先カード(vCard)、iOSショートカット、決済、SNSプロフィールなど25種類以上のメッセージタイプから選択できます。Tap-to-Unlockワークフロー向けに、NFC Safe(256ビットAES)で機密情報を事前に暗号化することも可能です。"
   - question: "NFC.coolはiOSショートカットとアクションボタンに対応していますか？"

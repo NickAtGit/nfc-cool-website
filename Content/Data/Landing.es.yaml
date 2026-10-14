@@ -1,6 +1,6 @@
 hero:
   title: "Lector, grabador y escáner de etiquetas NFC - NFC.cool Tools"
-  subtitle: "Lee y escribe etiquetas NFC gratis en iPhone y Android - y, en iPhone, escanea códigos QR, códigos de barras, documentos, modelos 3D y habitaciones."
+  subtitle: "Lee y escribe etiquetas NFC y escanea códigos QR y códigos de barras gratis en iPhone y Android - y, en iPhone, escanea documentos, modelos 3D y habitaciones."
 
 trust:
   price: "Gratis"
@@ -84,7 +84,7 @@ faq:
   - question: "¿Qué etiquetas NFC funcionan con NFC.cool?"
     answer: "Cualquier etiqueta NFC compatible con NDEF - NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX y la mayoría de las demás. La NTAG216 es la opción recomendada por defecto para uso general, gracias a su capacidad de 888 bytes y su amplia compatibilidad con iPhone y Android. Consulta la <a href=\"/affiliate-links/\">página de etiquetas NFC</a> para ver tiendas probadas."
   - question: "¿NFC.cool puede escanear códigos QR y de barras?"
-    answer: "Sí - se reconocen 19 formatos de código desde la cámara del iPhone o desde cualquier foto de tu galería: 6 códigos bidimensionales (Código QR, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) y 13 códigos de barras lineales (EAN-13, EAN-8, UPC-E, Code 39 incl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, más las tres variantes GS1 DataBar). El UPC-A se lee como EAN-13 con un cero delante. El modo por lotes mantiene la cámara abierta para recuentos de inventario y registros de entrada en eventos."
+    answer: "Sí - en iPhone y en Android. En iPhone, se reconocen 19 formatos de código desde la cámara o desde cualquier foto de tu galería: 6 códigos bidimensionales (Código QR, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) y 13 códigos de barras lineales (EAN-13, EAN-8, UPC-E, Code 39 incl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, más las tres variantes GS1 DataBar). El UPC-A se lee como EAN-13 con un cero delante. En Android, la cámara lee 13 formatos: Código QR, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF y Codabar. En ambos, el modo por lotes mantiene la cámara abierta para recuentos de inventario y registros de entrada en eventos."
   - question: "¿Puedo escribir etiquetas NFC con mi iPhone?"
     answer: "Sí - todos los iPhone a partir del iPhone 7 pueden leer y escribir etiquetas NFC con NFC.cool Tools. Elige entre más de 25 tipos de mensaje: URL, credenciales Wi-Fi, tarjetas de contacto (vCard), Atajos de iOS, pagos, perfiles sociales y mucho más. Cifra primero los secretos con NFC Safe (AES de 256 bits) para flujos de desbloqueo con un toque."
   - question: "¿NFC.cool admite los Atajos de iOS y el botón de acción?"

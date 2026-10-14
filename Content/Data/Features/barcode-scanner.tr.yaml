@@ -3,28 +3,28 @@ backLinkText: "← Tüm özellikler"
 
 card:
   title: "Barkod Tarayıcı"
-  description: "13 barkod biçimi ve 6 iki boyutlu kod tara: EAN, UPC, QR, PDF417, Data Matrix ve dahası. Toplu mod, sayım ve giriş kaydı için kamerayı açık tutar."
+  description: "iPhone'da ve Android'de EAN, UPC, Code 128, QR, PDF417, Data Matrix ve dahasını tara. Toplu mod, sayım ve giriş kaydı için kamerayı açık tutar."
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "Yalnızca iOS"
+  platforms: "iOS · Android"
 
 hero:
   title: "Barkod Tarayıcı"
-  subtitle: "19 kod biçimi tara: 13 doğrusal barkod (EAN, UPC, Code 128, GS1 DataBar ve diğerleri) ve 6 iki boyutlu kod (QR, PDF417, Aztec, Data Matrix ile Micro türevleri). Toplu mod, sayım ve etkinlik girişleri için kamerayı açık tutar."
-  platforms: "Yalnızca iOS"
+  subtitle: "iPhone'da ve Android'de EAN, UPC, Code 128, Code 39, ITF, QR, PDF417, Aztec ve Data Matrix tara; iPhone'da bunlara GS1 DataBar ve Micro türevleri de eklenir, toplam 19 biçim. Toplu mod, sayım ve etkinlik girişleri için kamerayı açık tutar."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "Neler yapabilirsin"
 capabilities:
   - title: "Başlıca tüm barkod biçimleri"
-    description: "EAN-13/8, UPC-E (UPC-A, EAN-13 olarak okunur), Code 128, Code 39 (Mod 43 dahil), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix ve dahası. Biçim kendiliğinden algılanır, mod değiştirmek yok."
+    description: "EAN-13/8, UPC-A/E, Code 128, Code 39, Code 93, ITF, ITF-14, Codabar, PDF417, Aztec, Data Matrix ve QR iki platformda da; GS1 DataBar, Code 39 Mod 43, Micro QR ve Micro PDF417 ise iPhone'da. Biçim kendiliğinden algılanır, mod değiştirmek yok."
   - title: "Toplu mod"
     description: "Bir yığın barkodu yeniden nişan almadan arka arkaya tara. Sayımlarda, etkinlik girişlerinde ya da kütüphane arşivlerinde işe yarar."
   - title: "Ürün araması"
-    description: "Okuttuğun perakende barkoduna dokun ve arat: barkod numarası önceden seçtiğin arama motorunda (Google, Ecosia, DuckDuckGo, Bing ya da Startpage) çalışır, sonuçlar doğrudan karşına gelir."
+    description: "Okuttuğun perakende barkoduna dokun ve arat: barkod numarası arama motorunda çalışır, sonuçlar doğrudan karşına gelir. iPhone'da motoru sen seçersin: Google, Ecosia, DuckDuckGo, Bing ya da Startpage."
   - title: "Tarama geçmişi ve paylaşım"
     description: "Her tarama zaman damgasıyla saklanır. Önemli olanları favorile, birine kendi başlığını ver, geçmiş görünümünden doğrudan paylaş."
   - title: "Okuyunca otomatik çalışsın"
-    description: "Adresler ve kısayol kodları tarandığı anda kendiliğinden açılabilir, webhook tetikleyebilir ya da sesli okunabilir. NFC ve QR'ı da besleyen aynı beş kancalı otomasyon."
+    description: "Bağlantılar tarandığı anda kendiliğinden açılabilir, hem iPhone'da hem Android'de. iPhone'da tarama ayrıca kısayol çalıştırabilir, webhook tetikleyebilir ya da sonucu sesli okuyabilir. NFC ve QR'ı da besleyen aynı beş kancalı otomasyon."
 
 subsectionsTitle: "Yüksek hacimli tarama için"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>Üç ayar tarayıcıyı tek seferlik olmaktan çıkarıp sürekli bir akışa çevirir. <strong>Çoklu tarama</strong> tek kamera oturumunda birden çok kod okutmanı sağlar. <strong>Toplu okuma</strong> sayım ya da etkinlik girişleri için kamerayı açık tutar. <strong>Otomatik fener</strong> ise loş ışıkta LED'i yakar, el feneri düğmesini aramakla uğraşmazsın.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "Fener ışığıyla birden çok QR kod ve barkod tarayan iPhone"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Sayım ve etkinlik girişleri için webhook'lar"
     body: "<p>Barkod tarayıcıyı kendi arka ofis sistemine doğrult. Okunan her barkod senin adresine webhook gönderir, böylece kamera ilerledikçe stok veritabanın, katılımcı sistemin ya da kütüphane kataloğun anlık güncellenir. JSON yükünün biçimi ve örnek sunucu için <a href=\"/features/webhooks/\">Webhook ve Otomasyon</a> sayfasına bak.</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "iPhone, iPad ve Mac arasında eşitlenen NFC.cool"
     platforms: "iOS"
 
-specsTitle: "Desteklenen biçimler (toplam 19)"
+specsTitle: "Desteklenen biçimler (iOS'ta 19, Android'de 13)"
 specs:
-  - title: "1B barkodlar (13 biçim)"
+  - title: "1B barkodlar"
     items:
       - "EAN-13, EAN-8"
-      - "UPC-E (UPC-A, EAN-13 olarak okunur)"
-      - "Code 39, Code 39 Mod 43"
+      - "UPC-A, UPC-E (iOS, UPC-A'yı EAN-13 olarak okur)"
+      - "Code 39 (iOS'ta Mod 43)"
       - "Code 93, Code 128"
       - "Codabar"
       - "Interleaved 2 of 5, ITF-14"
-      - "GS1 DataBar (standart, Expanded, Limited)"
-  - title: "2B ve katmanlı kodlar (6 biçim)"
+      - "GS1 DataBar - standart, Expanded, Limited (iOS)"
+  - title: "2B ve katmanlı kodlar"
     items:
       - "QR Code"
-      - "Micro QR"
+      - "Micro QR (iOS)"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417 (iOS)"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "Sık sorulanlar"
 faq:
-  - question: "Bu neden yalnızca iOS'ta var?"
-    answer: "NFC.cool'un Android sürümü şimdilik NFC'ye ve dijital kartvizite odaklanıyor. Barkod tarama Android yol haritasında."
+  - question: "Barkod tarayıcı Android'de çalışır mı?"
+    answer: "Evet. Android'deki NFC.cool Tools 13 biçimi okur (EAN, UPC, Code 128, Code 39, Code 93, ITF, Codabar, QR, PDF417, Aztec ve Data Matrix); toplu mod ve çoklu tarama da var. GS1 DataBar, Micro QR, Micro PDF417, taramada webhook ve arama motoru seçimi şimdilik yalnızca iPhone'da."
   - question: "Aynı anda birden çok barkod tarayabilir miyim?"
     answer: "Evet, toplu mod kamerayı açık tutar ve bulduğu her barkodu sıraya alır. Sıradaki herhangi bir kayda dokunup üzerinde işlem yapabilirsin."
   - question: "Taramalarımı kaydedip paylaşabilir miyim?"

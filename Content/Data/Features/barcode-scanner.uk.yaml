@@ -3,28 +3,28 @@ backLinkText: "← Усі можливості"
 
 card:
   title: "Сканер штрихкодів"
-  description: "Скануй 13 форматів штрихкодів і ще 6 двовимірних кодів: EAN, UPC, QR, PDF417, Data Matrix та інші. Пакетний режим тримає камеру відкритою для перерахунку залишків і реєстрації гостей."
+  description: "Скануй EAN, UPC, Code 128, QR, PDF417, Data Matrix та інші коди на iPhone і Android. Пакетний режим тримає камеру відкритою для перерахунку залишків і реєстрації гостей."
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "iOS only"
+  platforms: "iOS · Android"
 
 hero:
   title: "Сканер штрихкодів"
-  subtitle: "Скануй 19 форматів кодів: 13 лінійних штрихкодів (EAN, UPC, Code 128, GS1 DataBar та інші) і 6 двовимірних (QR, PDF417, Aztec, Data Matrix та варіанти Micro). Пакетний режим тримає камеру відкритою для перерахунку залишків і реєстрації гостей."
-  platforms: "iOS only"
+  subtitle: "Скануй EAN, UPC, Code 128, Code 39, ITF, QR, PDF417, Aztec і Data Matrix на iPhone і Android, а на iPhone ще й GS1 DataBar та варіанти Micro (усього 19 форматів). Пакетний режим тримає камеру відкритою для перерахунку залишків і реєстрації гостей."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "Що вміє застосунок"
 capabilities:
   - title: "Усі поширені формати штрихкодів"
-    description: "Скануй EAN-13/8, UPC-E (UPC-A читається як EAN-13), Code 128, Code 39 (разом з Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix та інші. Формат визначається сам, режими перемикати не треба."
+    description: "Скануй EAN-13/8, UPC-A/E, Code 128, Code 39, Code 93, ITF, ITF-14, Codabar, PDF417, Aztec, Data Matrix і QR на обох платформах, а на iPhone ще й GS1 DataBar, Code 39 Mod 43, Micro QR і Micro PDF417. Формат визначається сам, режими перемикати не треба."
   - title: "Пакетний режим"
     description: "Скануй стос штрихкодів підряд, не наводячи камеру щоразу заново. Стане в пригоді на перерахунку залишків, на реєстрації гостей чи в бібліотечному архіві."
   - title: "Пошук товару"
-    description: "Натисни на відсканований торговий штрихкод, щоб знайти сам товар: номер коду йде в заздалегідь вибрану пошукову систему (Google, Ecosia, DuckDuckGo, Bing або Startpage), а результати повертаються одразу."
+    description: "Натисни на відсканований торговий штрихкод, щоб знайти сам товар: номер коду йде в пошукову систему, а результати повертаються одразу. На iPhone пошукову систему вибираєш сам: Google, Ecosia, DuckDuckGo, Bing або Startpage."
   - title: "Історія сканувань і обмін"
     description: "Кожне сканування зберігається разом із часом. Познач важливі зірочкою, дай окремому скануванню власну назву й поділися ним прямо з історії."
   - title: "Автодія після сканування"
-    description: "Посилання й коди Швидких команд відкриваються одразу після сканування, надсилають вебхук або звучать уголос. Та сама автоматика з п'яти автодій, що й на NFC та QR."
+    description: "На iPhone і Android посилання відкриваються одразу після сканування. На iPhone сканування може ще й запустити Швидку команду, надіслати вебхук чи озвучити результат уголос. Та сама автоматика з п'яти автодій, що й на NFC та QR."
 
 subsectionsTitle: "Створено для великих обсягів"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>Три налаштування перетворюють сканер з одноразового на безперервний. <strong>Мультисканування</strong> дає відсканувати кілька кодів за один сеанс камери. <strong>Пакетне читання</strong> тримає камеру відкритою для перерахунку залишків чи реєстрації гостей. <strong>Автоліхтарик</strong> вмикає світлодіод у темряві, щоб не шукати кнопку ліхтарика наосліп.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone сканує кілька QR-кодів і штрихкодів при світлі ліхтарика"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Вебхуки для інвентаризації та реєстрації гостей"
     body: "<p>Приєднай сканер штрихкодів до своєї внутрішньої системи. Кожен відсканований штрихкод шле вебхук на твою адресу, тож база залишків, CRM з учасниками чи каталог бібліотеки оновлюються в реальному часі, поки камера рухається далі. Форму тіла JSON і приклад сервера шукай на сторінці <a href=\"/features/webhooks/\">Вебхуки й автоматизація</a>.</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "NFC.cool синхронізується між iPhone, iPad і Mac"
     platforms: "iOS"
 
-specsTitle: "Підтримані формати (усього 19)"
+specsTitle: "Підтримані формати (19 на iOS, 13 на Android)"
 specs:
-  - title: "Лінійні штрихкоди (13 форматів)"
+  - title: "Лінійні штрихкоди"
     items:
       - "EAN-13, EAN-8"
-      - "UPC-E (UPC-A читається як EAN-13)"
-      - "Code 39, Code 39 Mod 43"
+      - "UPC-A, UPC-E (iOS читає UPC-A як EAN-13)"
+      - "Code 39 (Mod 43 на iOS)"
       - "Code 93, Code 128"
       - "Codabar"
       - "Interleaved 2 of 5, ITF-14"
-      - "GS1 DataBar (звичайний, Expanded, Limited)"
-  - title: "Двовимірні й складені коди (6 форматів)"
+      - "GS1 DataBar: звичайний, Expanded, Limited (iOS)"
+  - title: "Двовимірні й складені коди"
     items:
       - "QR Code"
-      - "Micro QR"
+      - "Micro QR (iOS)"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417 (iOS)"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "Часті питання"
 faq:
-  - question: "Чому це тільки для iOS?"
-    answer: "Версія NFC.cool для Android поки зосереджена на NFC і цифровій візитівці. Сканування штрихкодів стоїть у планах для Android."
+  - question: "Чи працює сканер штрихкодів на Android?"
+    answer: "Так. NFC.cool Tools на Android читає 13 форматів (EAN, UPC, Code 128, Code 39, Code 93, ITF, Codabar, QR, PDF417, Aztec і Data Matrix) і підтримує пакетний режим та мультисканування. Поки тільки на iPhone є GS1 DataBar, Micro QR, Micro PDF417, вебхуки після сканування й вибір пошукової системи."
   - question: "Чи можна відсканувати кілька штрихкодів підряд?"
     answer: "Так, пакетний режим тримає камеру відкритою й складає в чергу кожен знайдений штрихкод. Натисни на будь-який рядок черги, щоб щось із ним зробити."
   - question: "Чи можна зберігати сканування і ділитися ними?"

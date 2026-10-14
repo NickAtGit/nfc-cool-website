@@ -3,28 +3,28 @@ backLinkText: "← Alle Funktionen"
 
 card:
   title: "QR-Code-Scanner & Studio"
-  description: "Scanne QR-Codes mit der Kamera oder finde sie in einem beliebigen Foto - und gestalte dann eigene mit Icons und Genmoji im integrierten QR Code Studio."
+  description: "Scanne QR-Codes mit der Kamera auf iPhone und Android - und gestalte dann eigene mit individuellen Formen, Farben und einem Logo oder Emoji im integrierten QR Code Studio."
   imagePath: "/assets/images/Webflow/qr-studio.webp"
-  platforms: "Nur iOS"
+  platforms: "iOS · Android"
 
 hero:
   title: "QR-Code-Scanner & Studio"
-  subtitle: "Scanne jeden QR-Code mit der Kamera oder finde ihn in einem Screenshot. Gestalte eigene QR-Codes mit Logos, Genmoji und Markenfarben im integrierten QR Code Studio."
-  platforms: "Nur iOS"
+  subtitle: "Scanne jeden QR-Code mit der Kamera auf iPhone und Android oder finde ihn auf dem iPhone in einem Screenshot. Gestalte eigene QR-Codes mit Logos, Emoji und Markenfarben im integrierten QR Code Studio."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-studio.webp"
 
 capabilitiesTitle: "Was du tun kannst"
 capabilities:
   - title: "Universelles QR-Scannen"
-    description: "URLs, vCards, WLAN-Daten, Kalender-Events, Zahlungen, App-Store-Deeplinks - NFC.cool erkennt den Payload-Typ und schlägt die richtige Aktion vor."
+    description: "Links, Kontaktkarten, WLAN-Daten, Kalender-Events, Telefonnummern, E-Mail, SMS und Orte - NFC.cool erkennt den Payload-Typ und schlägt die richtige Aktion vor. Auf dem iPhone auch Zahlungs- und App-Store-Links."
   - title: "QR-Codes in Screenshots erkennen"
-    description: "Wähle ein beliebiges Bild aus deiner Mediathek - NFC.cool findet und dekodiert jeden QR-Code darin, sogar teilweise verdeckte oder kontrastarme."
+    description: "Wähle auf iPhone und iPad ein beliebiges Bild aus deiner Mediathek - NFC.cool findet und dekodiert jeden QR-Code darin, sogar teilweise verdeckte oder kontrastarme."
   - title: "QR Code Studio"
-    description: "Gestalte QR-Codes mit eigenen Farben, abgerundeten Augenformen, eigenen Pixel-Formen sowie Logo oder Genmoji in der Mitte. Export als PNG bis 4096×4096."
+    description: "Gestalte QR-Codes mit eigenen Farben, abgerundeten Augenformen, eigenen Pixel-Formen sowie Logo oder Emoji in der Mitte (Genmoji auf dem iPhone). Export als PNG bis 4096×4096."
   - title: "Verlauf & Wiederfreigabe"
     description: "Jeder Scan wird lokal gespeichert - Payload erneut öffnen, kopieren, teilen oder direkt zur Aktion zurückspringen."
   - title: "Automatische Aktionen beim Lesen"
-    description: "URLs öffnen, Shortcuts ausführen, Webhook abfeuern oder das Ergebnis vorlesen - sobald ein Code gescannt wird. Dieselben fünf Hooks wie bei NFC."
+    description: "Einen Link öffnen oder einen Audio-Link abspielen - sobald ein Code gescannt wird. Auf dem iPhone kann ein Scan außerdem einen Shortcut ausführen, einen Webhook abfeuern oder das Ergebnis vorlesen. Dieselben fünf Hooks wie bei NFC."
 
 subsectionsTitle: "Mehr als ein Scanner"
 subsections:
@@ -34,17 +34,21 @@ subsections:
     imageAlt: "iPhone-Homescreen mit QR-Code-Widgets und Scan-Button"
     platforms: "iOS"
 
+  - title: "Auf Android: QR-Widget, Schnelleinstellungen-Kachel und Verknüpfung"
+    body: "<p>Auf Android legt das <strong>QR-Code-Widget</strong> einen gespeicherten Code auf deinen Homescreen, gerahmt und in der Größe anpassbar, mit oder ohne Titel. Platziere so viele, wie du willst - mit Platinum kann jedes einen anderen Code zeigen. Um mit dem Scannen zu starten, ohne die App zu suchen, füge die Kachel <strong>Code scannen</strong> zu den Schnelleinstellungen hinzu, oder drücke lange auf das App-Icon und wähle dieselbe Verknüpfung.</p>"
+    platforms: "Android"
+
   - title: "QR Code Studio: Pixel-Formen, Farben, Augen, Logos"
-    body: "<p>Im QR Code Studio bleibt die Scanbarkeit erhalten, aber die corporate-eckige Ästhetik geht. Wähle Pixel-Formen (rund, Punkt, Raute), Augen-Stile, Vorder- und Hintergrundfarben, ein Logo oder Genmoji in der Mitte. Export in sechs Pixelgrößen - 512, 1024, 1536, 2048, 3072 oder 4096.</p>"
+    body: "<p>Im QR Code Studio bleibt die Scanbarkeit erhalten, aber die corporate-eckige Ästhetik geht. Wähle Pixel-Formen (rund, Punkt, Raute und mehr), Augen-Stile, Vorder- und Hintergrundfarben, ein Logo oder Emoji in der Mitte - auf dem iPhone auch Stile pro Auge und Genmoji. Export in sechs Pixelgrößen - 512, 1024, 1536, 2048, 3072 oder 4096.</p><p>Auf Android legt das Studio außerdem ein Motiv hinter den Code (ein Foto, Emoji, Symbol oder Text) und prüft dein Design laufend: Sobald eine Änderung den Code unlesbar machen würde, sagt es dir Bescheid.</p>"
     imagePath: "/assets/images/Features/qr-scanner-studio-card.webp"
     imageAlt: "QR Code Studio mit eigenem Logo"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Multi-Scan, Batch-Read und Taschenlampe bei Bedarf"
     body: "<p>Drei Einstellungen verwandeln den Scanner von Einmal-Scan in einen kontinuierlichen Workflow. <strong>Multi-Scan</strong> nimmt mehrere Codes in einer Kamera-Session auf. <strong>Batch-Read</strong> hält die Kamera offen für Inventur oder Event-Check-ins. <strong>Auto-Taschenlampe</strong> schaltet die LED bei schlechtem Licht ein.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone scannt mehrere QR-Codes und Barcodes mit Taschenlampenlicht"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Shortcuts & App Intents"
     body: "<p>NFC.cool klinkt sich mit eingebauten Aktionen direkt in die iOS-Kurzbefehle-App ein: den zuletzt gescannten NFC-Tag abrufen, eine Nachricht auf einen Tag schreiben, den Scanner öffnen oder den zuletzt gescannten QR-Code holen. Verkette sie zu Shortcuts, die einen Tag scannen, die Payload parsen und dann tun, was immer du willst - Automatisierung, Logging, Journaling, alles. Dieselben Aktionen treiben den <strong>Scan-Button</strong> auf dem Lockscreen unter iOS 17+ an.</p>"
@@ -60,11 +64,12 @@ subsections:
 
 specsTitle: "Unterstützte Codes & Studio-Exporte"
 specs:
-  - title: "QR-Varianten (Kamera + Foto-Mediathek)"
+  - title: "QR-Varianten"
     items:
       - "QR Code (Versionen 1-40)"
-      - "Micro QR (M1-M4)"
-      - "Mehrere Codes pro Bild"
+      - "Micro QR (M1-M4, iOS)"
+      - "Mehrere Codes in einem Kamerabild"
+      - "Codes in Fotos und Screenshots (iOS)"
   - title: "Studio-Export-Größen"
     items:
       - "PNG mit 512, 1024, 1536, 2048, 3072 oder 4096 Pixeln Kantenlänge"
@@ -72,8 +77,9 @@ specs:
     items:
       - "Vorder- und Hintergrundfarben"
       - "Eigene Pixel-Formen (rund, Punkt, Raute, …)"
-      - "Augen-Stile und -Formen pro Auge"
-      - "Logo in der Mitte (beliebiges Bild, Apple Sticker oder Genmoji auf iOS 18+)"
+      - "Augen-Stile und -Formen (auf iOS pro Auge einstellbar)"
+      - "Logo in der Mitte (beliebiges Bild oder Emoji; Apple Sticker und Genmoji auf iOS 18+)"
+      - "Motiv hinter dem Code (Android)"
 
 pricing:
   title: "Free vs Platinum"
@@ -96,11 +102,11 @@ pricing:
 
 faqTitle: "Häufig gefragt"
 faq:
-  - question: "Warum nur auf iOS?"
-    answer: "Die Android-Version von NFC.cool fokussiert sich derzeit auf NFC und die digitale Visitenkarte. QR-Scannen steht auf der Android-Roadmap."
+  - question: "Funktioniert der QR-Scanner auf Android?"
+    answer: "Ja. NFC.cool Tools auf Android scannt QR-Codes und Barcodes, speichert sie in deinem Verlauf und enthält das QR Code Studio sowie ein QR-Widget für den Homescreen. Einige Teile gibt es vorerst nur auf dem iPhone: Codes aus Fotos und Screenshots lesen, Micro QR, Shortcuts, Webhooks und vorgelesene Ergebnisse beim Scannen sowie iCloud-Sync."
   - question: "Sind die Studio-QR-Codes mit allen Readern kompatibel?"
     answer: "Ja. Es sind Standard-QR-Codes mit optionalem kosmetischem Styling. Jeder Standard-Reader (iOS-Kamera, Google Lens, Android-Standardscanner) kann sie dekodieren."
   - question: "Kann ich einen QR-Code aus einem Screenshot scannen?"
-    answer: "Ja. Wähle ein beliebiges Bild aus der Mediathek und NFC.cool findet jeden QR-Code darin - auch teilweise verdeckte."
+    answer: "Ja, auf iPhone und iPad. Wähle ein beliebiges Bild aus der Mediathek und NFC.cool findet jeden QR-Code darin - auch teilweise verdeckte. Auf Android werden Codes mit der Kamera gescannt."
   - question: "Hat das Studio ein Wasserzeichen oder NFC.cool-Branding?"
     answer: "Free-Codes tragen einen kleinen Hinweis. Platinum-Codes sind wasserzeichenfrei - rein dein Design."
