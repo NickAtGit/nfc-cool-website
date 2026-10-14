@@ -26,7 +26,7 @@ Un'app per creare biglietti da visita digitali su iPhone e Android. Condividi i 
 
 </div>
 
-<div class="page-hero-visual is-scene">
+<div class="page-hero-visual is-scene is-boxed">
 <img src="/assets/images/BusinessCard/LanyardScene-v2.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="Uno smartphone scansiona un badge NFC.cool appeso a un cordino e mostra il contatto" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 

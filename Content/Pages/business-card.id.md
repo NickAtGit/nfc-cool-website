@@ -26,7 +26,7 @@ Pembuat kartu nama digital untuk iPhone dan Android. Bagikan detail kontak Anda 
 
 </div>
 
-<div class="page-hero-visual is-scene">
+<div class="page-hero-visual is-scene is-boxed">
 <img src="/assets/images/BusinessCard/LanyardScene-v2.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="Ponsel memindai lencana NFC.cool pada tali leher dan menampilkan kontaknya" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 

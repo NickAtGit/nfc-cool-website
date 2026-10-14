@@ -7,9 +7,12 @@ trust:
 
 description: "Free NFC tools for iPhone and Android. Read any NFC tag with a tap, write your own with links, Wi-Fi and contacts, plus QR, barcode and document scanning."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "A phone reads one NFC tag after another and names each chip"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - Scan NFC Tags, QR Codes, Barcodes, Documents, 3D Objects and Rooms"
@@ -19,7 +22,11 @@ featuresTitle: "Everything you need to scan"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "A dedicated Digital Business Card app for iPhone and Android - share with an NFC tap or a QR code, plus AppClip and Apple Wallet on iPhone. Track who saves your card, organize leads, and switch on Conference Mode for live events."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "A phone scans an NFC.cool Business Card badge on a lanyard and shows the contact"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "What people are saying"
 appStoreReviews:

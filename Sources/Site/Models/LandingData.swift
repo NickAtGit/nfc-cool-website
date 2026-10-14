@@ -14,6 +14,12 @@ struct LandingData: Decodable, Sendable {
    /// attributes are omitted and the browser falls back to post-load reflow.
    let heroImageWidth: Int?
    let heroImageHeight: Int?
+   /// Alt text for the hero image. When nil, the hero title plus "screenshot".
+   let heroImageAlt: String?
+   /// A live 3D scene for the hero (`/scenes/<key>.glb`): `heroImagePath` is then its still,
+   /// frame `heroScenePosterFrame`, which live-scenes.mjs swaps for the animation.
+   let heroScene: String?
+   let heroScenePosterFrame: Int?
    /// Optional 1200×630 brand image used for og:image / twitter:image on the
    /// landing page. Same path is expected across all three locale YAMLs (one
    /// shared image). When nil, the homepage emits no preview card.
@@ -61,6 +67,12 @@ struct FeatureBannerSection: Decodable, Sendable {
    /// CTA - typically pointing at platform-specific products with campaign URLs.
    let appStoreURL: String?
    let googlePlayURL: String?
+   let imageAlt: String?
+   /// A live 3D scene in place of the image: `imagePath` is then its still at frame
+   /// `scenePosterFrame`, shown at `sceneFrameFill` of the box (see live-scenes.mjs).
+   let scene: String?
+   let scenePosterFrame: Int?
+   let sceneFrameFill: Double?
 }
 
 struct Testimonial: Decodable, Sendable {

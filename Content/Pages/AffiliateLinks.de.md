@@ -19,7 +19,7 @@ Nach sieben Jahren NFC-App-Entwicklung und tausenden Support-E-Mails: Hier ist, 
 
 </div>
 
-<div class="page-hero-visual is-scene">
+<div class="page-hero-visual is-scene is-boxed">
 <img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="Sechs bunte NFC.cool Karten fächern sich auf" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 

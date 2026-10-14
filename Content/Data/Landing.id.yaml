@@ -7,9 +7,12 @@ trust:
 
 description: "Alat NFC gratis untuk iPhone dan Android. Baca tag NFC mana saja dengan sekali ketuk, tulis tag Anda sendiri dengan tautan, Wi-Fi, dan kontak, ditambah pemindaian kode QR, barcode, dan dokumen."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "Ponsel membaca tag NFC satu per satu dan menampilkan chip setiap tag"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - Pindai Tag NFC, Kode QR, Barcode, Dokumen, Objek 3D, dan Ruangan"
@@ -19,7 +22,11 @@ featuresTitle: "Semua yang Anda butuhkan untuk memindai"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "Aplikasi kartu nama digital khusus untuk iPhone dan Android - bagikan melalui ketukan NFC atau kode QR, dan di iPhone juga lewat App Clip atau Apple Wallet. Lacak siapa yang menyimpan kartu Anda, atur prospek, dan aktifkan Mode Konferensi untuk acara langsung."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "Ponsel memindai lencana NFC.cool pada tali leher dan menampilkan kontaknya"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "Yang orang-orang katakan"
 appStoreReviews:

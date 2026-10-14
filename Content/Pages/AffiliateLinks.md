@@ -19,7 +19,7 @@ After several years of shipping NFC apps and reading thousands of support emails
 
 </div>
 
-<div class="page-hero-visual is-scene">
+<div class="page-hero-visual is-scene is-boxed">
 <img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="Six colorful NFC.cool cards fan out" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 

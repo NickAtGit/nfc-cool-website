@@ -7,9 +7,12 @@ trust:
 
 description: "面向 iPhone 和 Android 的免费 NFC 工具。轻触即可读取任意 NFC 标签，写入你自己的链接、Wi-Fi 和联系人，还能扫描二维码、条形码和文档。"
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "手机依次读取一个个 NFC 标签，并显示每个标签的芯片型号"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool，扫描 NFC 标签、二维码、条形码、文档、3D 物体和房间"
@@ -19,7 +22,11 @@ featuresTitle: "扫描所需的一切"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "面向 iPhone 和 Android 的专用电子名片 App，可通过 NFC 轻触或二维码分享，在 iPhone 上还支持 App Clip 和 Apple Wallet。追踪谁保存了你的名片、整理潜在客户，并在现场活动中开启会议模式。"
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "手机扫描挂绳上的 NFC.cool 胸牌，并显示联系人信息"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "用户怎么说"
 appStoreReviews:

@@ -2,7 +2,8 @@ import Foundation
 import SiteKit
 
 /// Loads `/scenes/live-scenes.mjs` on every page that has a live 3D scene, i.e. an
-/// `<img data-scene=…>` (today only the Business Card hero, in every locale). The module is
+/// `<img data-scene=…>` (the home, Business Card and Affiliate Links heroes and the home page's
+/// Business Card banner, in every locale). The module is
 /// tiny and fetches three.js and the scene itself only once the page is loaded and idle, so a
 /// plain `type="module"` script at the end of the body costs nothing on first paint. Pages
 /// without a scene never load it.

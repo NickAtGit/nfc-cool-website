@@ -7,9 +7,12 @@ trust:
 
 description: "أدوات NFC مجانية لـiPhone وAndroid. اقرأ أي وسم NFC بلمسة، واكتب وسومك الخاصة بالروابط وشبكات Wi-Fi وجهات الاتصال، إضافة إلى مسح رموز QR والباركود والمستندات."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "هاتف يقرأ وسوم NFC واحدًا تلو الآخر ويعرض شريحة كل وسم"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - امسح وسوم NFC ورموز QR والباركود والمستندات والأجسام ثلاثية الأبعاد والغرف"
@@ -19,7 +22,11 @@ featuresTitle: "كل ما تحتاجه للمسح"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "تطبيق مخصّص لبطاقة العمل الرقمية على iPhone وAndroid - شارِكها عبر لمسة NFC أو رمز QR، وعلى iPhone أيضاً عبر AppClip أو Apple Wallet. تتبّع من حفظ بطاقتك، ونظّم عملاءك المحتملين، وفعّل وضع المؤتمرات في الفعاليات المباشرة."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "هاتف يمسح شارة NFC.cool معلّقة بحبل حول العنق ويعرض جهة الاتصال"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "ماذا يقول المستخدمون"
 appStoreReviews:

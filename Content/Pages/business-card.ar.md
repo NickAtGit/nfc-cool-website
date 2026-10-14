@@ -26,7 +26,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 </div>
 
-<div class="page-hero-visual is-scene">
+<div class="page-hero-visual is-scene is-boxed">
 <img src="/assets/images/BusinessCard/LanyardScene-v2.webp" data-scene="bizcardroom" data-poster-frame="40" data-frame-fill="0.5" alt="هاتف يمسح شارة NFC.cool معلّقة بحبل حول العنق ويعرض جهة الاتصال" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 

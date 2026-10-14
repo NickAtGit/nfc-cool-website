@@ -7,9 +7,12 @@ trust:
 
 description: "iPhone ve Android için ücretsiz NFC araçları. Her NFC tag'i tek okutmayla oku, kendi tag'lerine bağlantı, Wi-Fi ve kişi yaz, üstüne QR, barkod ve belge tara."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "Bir telefon NFC tag'lerini tek tek okuyor ve her birinin çipini gösteriyor"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - NFC tag, QR kod, barkod, belge, 3B nesne ve oda tara"
@@ -19,7 +22,11 @@ featuresTitle: "Taramak için gereken her şey"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "iPhone ve Android için ayrı bir dijital kartvizit uygulaması: NFC okutarak ya da QR kodla paylaş, iPhone'da ayrıca App Clip ve Apple Wallet ile. Kartını kimin kaydettiğini gör, topladığın kişileri düzenle, canlı etkinliklerde Konferans Modu'nu aç."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "Bir telefon, boyun askısındaki NFC.cool yaka kartını okuyor ve kişiyi gösteriyor"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "Kullanıcılar ne diyor"
 appStoreReviews:

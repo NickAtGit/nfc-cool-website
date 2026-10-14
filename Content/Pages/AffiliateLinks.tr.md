@@ -19,7 +19,7 @@ Yıllarca NFC uygulaması yayınlayıp binlerce destek e-postası okuduktan sonr
 
 </div>
 
-<div class="page-hero-visual is-scene">
+<div class="page-hero-visual is-scene is-boxed">
 <img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="Altı renkli NFC.cool kartı yelpaze gibi açılıyor" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 

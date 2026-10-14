@@ -65,6 +65,10 @@ try {
       if (Date.now() - started > 30000) throw new Error('scene not ready: ' + (window.liveScenes?.views?.[0]?.state ?? 'no live scene on the page'));
       await new Promise(resolve => setTimeout(resolve, 200));
     }
+    // The still is the light page's: scenes with themed parts (nfctags' waves) draw them in
+    // their light colours, whatever the headless browser prefers.
+    document.documentElement.dataset.theme = 'light';
+    await new Promise(resolve => setTimeout(resolve, 50));
     const { views, renderer, render, seekTo } = window.liveScenes;
     const view = views[0];
     view.scene.video?.pause();

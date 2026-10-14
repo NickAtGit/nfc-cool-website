@@ -19,7 +19,7 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 </div>
 
-<div class="page-hero-visual is-scene">
+<div class="page-hero-visual is-scene is-boxed">
 <img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="六张彩色 NFC.cool 卡片展开成扇形" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 

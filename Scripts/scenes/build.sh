@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Rebuilds the live 3D scene assets in Content/StaticFiles/scenes/: the player (minified from
 # Scripts/scenes/live-scenes.mjs) and the three bundle, both with source maps, then from
-# NFCcoolScenes one GLB + manifest + H.264 screen video per scene and the shared phone GLB, and
-# the cardfan scene (Scripts/scenes/cardfan.py, from the batch scene's cards: GLB + manifest).
+# NFCcoolScenes one GLB + manifest + H.264 screen video per scene and the shared phone GLB, the
+# cardfan scene (Scripts/scenes/cardfan.py, from the batch scene's cards: GLB + manifest), and the
+# home page's nfctags scene (Scripts/scenes/nfctags*.py: GLB + manifest + screen video).
 #   Scripts/scenes/build.sh        all of it
 #   Scripts/scenes/build.sh --js   only the player and the three bundle (after editing the player)
 # Needs Blender 5.2 (via NFCcoolScenes/scripts/blender.sh), ffmpeg, npm and Python 3 with Pillow. A scene's poster still
@@ -45,4 +46,9 @@ for scene in "${SCENES[@]}"; do
 done
 python3 "$ROOT/Scripts/scenes/cardfan_faces.py" "$SCENES_REPO" "$WORK/cardfan_faces" | grep -v FACE || true
 scripts/blender.sh scenes/csvbatch.blend -P "$ROOT/Scripts/scenes/cardfan.py" -- "$WORK/cardfan_faces" "$OUT" | grep -E "EXPORT|Error|Traceback"
+python3 "$ROOT/Scripts/scenes/nfctags_textures.py" "$SCENES_REPO" "$WORK/cardfan_faces" "$WORK/nfctags_textures"
+python3 "$ROOT/Scripts/scenes/nfctags_screen.py" "$SCENES_REPO" "$WORK/nfctags_screen"
+ffmpeg -loglevel error -y -framerate 30 -i "$WORK/nfctags_screen/%04d.png" -vf "scale=330:-2" \
+  -c:v libx264 -crf 26 -preset slow -pix_fmt yuv420p -an -movflags +faststart "$OUT/nfctags_screen.mp4"
+scripts/blender.sh -P "$ROOT/Scripts/scenes/nfctags.py" -- "$SCENES_REPO" "$WORK/nfctags_textures" "$WORK/nfctags_screen" "$OUT" | grep -E "EXPORT|Error|Traceback"
 ls -la "$OUT" "$OUT/vendor"

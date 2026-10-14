@@ -7,9 +7,12 @@ trust:
 
 description: "iPhone・Android対応の無料NFCツール。タップでNFCタグを読み取り、リンクやWi-Fi、連絡先を自分で書き込み。QRコード・バーコード・書類のスキャンにも対応しています。"
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "スマートフォンがNFCタグを次々に読み取り、それぞれのチップ名を表示する"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - NFCタグ、QRコード、バーコード、書類、3Dオブジェクト、ルームをスキャン"
@@ -59,7 +62,11 @@ features:
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "iPhoneとAndroid向けの専用デジタル名刺アプリ - NFCタッチやQRコードで共有でき、iPhoneではApp ClipとApple Walletにも対応しています。誰がカードを保存したかをトラッキングし、リードを管理し、イベント向けにConference Modeを利用できます。"
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "ネックストラップのNFC.cool名札をスマートフォンで読み取り、連絡先を表示する様子"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "ユーザーの声"
 appStoreReviews:

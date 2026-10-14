@@ -48,6 +48,9 @@ identicalAllowlist:
     - url
     - appStoreURL
     - googlePlayURL
+    # Live 3D scene keys (/scenes/<key>.glb).
+    - heroScene
+    - scene
     # Markdown frontmatter fields that are locale-invariant by design.
     - slug
     - id

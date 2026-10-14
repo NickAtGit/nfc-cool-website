@@ -7,9 +7,12 @@ trust:
 
 description: "Безкоштовні NFC-інструменти для iPhone та Android. Зчитуй будь-яку NFC-мітку одним дотиком, записуй свої з посиланнями, Wi-Fi і контактами, а поруч сканування QR-кодів, штрихкодів і документів."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "Телефон зчитує NFC-мітки одну за одною та показує чип кожної"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - сканування NFC-міток, QR-кодів, штрихкодів, документів, 3D-об'єктів і приміщень"
@@ -19,7 +22,11 @@ featuresTitle: "Усе, що потрібно для сканування"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "Окремий застосунок цифрової візитівки для iPhone та Android. Ділися нею дотиком NFC або через QR-код, а на iPhone ще й через AppClip і Apple Wallet. Дивись, хто зберіг твою картку, впорядковуй контакти й вмикай режим конференції на живих заходах."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "Телефон сканує бейдж NFC.cool на шнурку й показує контакт"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "Що кажуть люди"
 appStoreReviews:

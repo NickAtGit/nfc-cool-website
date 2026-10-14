@@ -197,6 +197,10 @@ async function start() {
       }
     }
     if (manifest.shadows) gltf.scene.traverse(o => { if (o.isMesh) o.castShadow = o.receiveShadow = true; });
+    // Glows (nfctags' waves and burst) light nothing and throw no shadow.
+    for (const name of manifest.shadowless ?? []) {
+      byName(gltf.scene, name)?.traverse(o => { o.castShadow = o.receiveShadow = false; });
+    }
 
     // The phone ships once and is attached under each scene's animated Phone, like the app does.
     const video = videoSrc ? makeVideo(videoSrc) : null;
@@ -236,6 +240,21 @@ async function start() {
         materials.push(o.material);
       });
       tracks.push({ node, values, materials, stepped: stepped.has(name), base: materials.map(m => m.opacity) });
+    }
+
+    // Parts drawn in a colour per theme (nfctags' waves: brand blue on light, brand yellow on
+    // dark), following the site's data-theme as the toggle flips it.
+    const themed = Object.entries(manifest.themeColors ?? {}).map(([name, colors]) => ({ node: byName(gltf.scene, name), colors }))
+      .filter(part => part.node);
+    const applyTheme = () => {
+      const theme = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+      for (const { node, colors } of themed) {
+        node.traverse(o => { if (o.isMesh) { o.material.color.set(colors[theme]); o.material.emissive?.set(colors[theme]); } });
+      }
+    };
+    if (themed.length) {
+      applyTheme();
+      new MutationObserver(applyTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
     }
 
     const mixer = new AnimationMixer(gltf.scene);
