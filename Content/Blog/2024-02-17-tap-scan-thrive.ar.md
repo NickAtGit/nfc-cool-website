@@ -18,6 +18,12 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 
 ## الروابط
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="شاشة Create QR Code في NFC.cool Tools: Web Link وGoogle Review Link وText وBusiness Card وTelephone Number وEmail وSMS وLocation وFaceTime وEvent"><p><strong>قائمة واحدة، كل أنواع المحتوى.</strong> الروابط والـWi-Fi وجهات الاتصال والأماكن والأحداث، كلها تبدأ من هنا.</p></li>
+</ol>
+</figure>
+
 الحالة الأساسية. رمّز `https://example.com`، وامسحه بأي كاميرا، فيعرض الجهاز فتحه. يعمل على كل هاتف صُنع في العقد الأخير.
 
 صيغة مفيدة: الروابط القصيرة. إذا كانت لديك روابط مثقلة بمعاملات التحليلات، فولّد رمز QR من النسخة القصيرة - فهذا يجعل رمز QR أصغر ماديًا (وحدات أقل = كثافة أقل) وأسهل في المسح من مسافة.

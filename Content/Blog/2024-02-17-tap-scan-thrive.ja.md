@@ -18,6 +18,12 @@ NFC.coolのQRジェネレーターはそれらすべてをカバーします。�
 
 ## URL
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="NFC.cool ToolsのCreate QR Code。Web Link、Google Review Link、Text、Business Card、Telephone Number、Email、SMS、Location、FaceTime、Event"><p><strong>ひとつのリストに、すべての中身。</strong>リンク、Wi-Fi、連絡先、場所、予定は、どれもここから始まります。</p></li>
+</ol>
+</figure>
+
 基本ケース。`https://example.com`をエンコードし、どのカメラでもスキャンすると、デバイスが開くことを提案します。過去10年のあらゆるスマホで動きます。
 
 便利なバリエーション：短縮リンク。分析タグ満載のURLがあるなら、短縮版でQRを生成しましょう。QRコードが物理的に小さくなり（モジュール数が減る = 密度が下がる）、遠くからもスキャンしやすくなります。

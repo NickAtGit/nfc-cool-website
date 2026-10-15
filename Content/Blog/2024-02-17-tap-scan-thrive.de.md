@@ -18,6 +18,12 @@ Der QR-Generator in NFC.cool beherrscht all diese Varianten. Was beim Scannen je
 
 ## URLs
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="Create QR Code in NFC.cool Tools: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime und Event"><p><strong>Eine Liste, jeder Inhalt.</strong> Links, WLAN, Kontakte, Orte und Termine beginnen alle hier.</p></li>
+</ol>
+</figure>
+
 Der Klassiker. Du kodierst `https://example.com`, scannst mit einer beliebigen Kamera-App, und das Handy bietet an, die Seite zu öffnen. Das klappt auf praktisch jedem Handy aus den letzten zehn Jahren.
 
 Ein Tipp aus der Praxis: Kurzlinks. Wenn deine URLs vor lauter Analytics-Parametern ewig lang sind, erzeug den QR-Code lieber aus der Kurzversion. Der Code wird dadurch physisch kleiner (weniger Module, also weniger dicht) und lässt sich auch aus größerer Entfernung besser scannen.

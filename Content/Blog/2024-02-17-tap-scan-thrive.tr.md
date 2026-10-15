@@ -18,6 +18,12 @@ NFC.cool'un QR üreticisi bunların hepsini kapsıyor. İşte her birinin tarand
 
 ## Adresler
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="NFC.cool Tools'ta Create QR Code: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime ve Event"><p><strong>Tek liste, her içerik.</strong> Bağlantılar, Wi-Fi, kişiler, konumlar ve etkinlikler hep buradan başlar.</p></li>
+</ol>
+</figure>
+
 Temel durum. `https://ornek.com` kodla, herhangi bir kamerayla tara, cihaz açmayı önersin. Son on yılda üretilmiş her telefonda çalışıyor.
 
 İşe yarar bir varyant: kısa bağlantılar. Analitik parametreleriyle şişmiş adreslerin varsa QR'ı kısa sürüm üzerinden üret; kod fiziksel olarak küçülür (daha az modül, daha seyrek desen) ve uzaktan taranması kolaylaşır.

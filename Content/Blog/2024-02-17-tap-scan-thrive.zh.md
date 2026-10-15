@@ -18,6 +18,12 @@ NFC.cool 的二维码生成器把上述这些全都覆盖了。下面就来看�
 
 ## URL
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="NFC.cool Tools 的 Create QR Code：Web Link、Google Review Link、Text、Business Card、Telephone Number、Email、SMS、Location、FaceTime 和 Event"><p><strong>一个列表，所有内容。</strong>链接、Wi-Fi、联系人、地点和活动，都从这里开始。</p></li>
+</ol>
+</figure>
+
 最基础的情况。编码 `https://example.com`，用任意相机一扫，设备就会询问你是否打开它。过去十年里出厂的每一部手机都支持这一点。
 
 一个实用的变体：短链接。如果你的 URL 带了一大堆统计参数，那就用它的短链接版本来生成二维码：这样码在物理上更小（码点更少，密度更低），从远处也更容易扫。

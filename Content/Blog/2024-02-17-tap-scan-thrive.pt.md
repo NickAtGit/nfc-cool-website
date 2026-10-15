@@ -18,6 +18,12 @@ O gerador de QR da NFC.cool cobre tudo isso. Eis o que cada um faz de facto quan
 
 ## URLs
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="Create QR Code no NFC.cool Tools: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime e Event"><p><strong>Uma lista, todos os conteúdos.</strong> Links, Wi-Fi, contactos, locais e eventos começam todos aqui.</p></li>
+</ol>
+</figure>
+
 O caso básico. Codifique `https://example.com`, leia com qualquer câmara, e o dispositivo oferece-se para o abrir. Funciona em todos os telemóveis feitos na última década.
 
 Uma variante útil: links curtos. Se tem URLs carregados de parâmetros de análise, gere o QR sobre a versão curta - torna o código QR fisicamente mais pequeno (menos módulos = menos denso) e mais fácil de ler à distância.

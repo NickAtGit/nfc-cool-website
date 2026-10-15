@@ -18,6 +18,12 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 
 ## Посилання
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="Create QR Code у NFC.cool Tools: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime і Event"><p><strong>Один список, будь-який вміст.</strong> Посилання, Wi-Fi, контакти, місця й події починаються тут.</p></li>
+</ol>
+</figure>
+
 Базовий випадок. Закодуй `https://example.com`, наведи будь-яку камеру, і пристрій запропонує відкрити сторінку. Працює на кожному телефоні, випущеному за останнє десятиліття.
 
 Корисний варіант: короткі посилання. Якщо адреса обвішана аналітикою, кодуй скорочену версію. Код виходить фізично дрібніший (менше модулів, менша щільність) і легше читається здалеку.

@@ -18,6 +18,12 @@ Generator QR NFC.cool mencakup semua itu. Berikut apa yang sebenarnya terjadi pa
 
 ## URL
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="Create QR Code di NFC.cool Tools: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime, dan Event"><p><strong>Satu daftar, semua jenis isi.</strong> Tautan, Wi-Fi, kontak, lokasi, dan acara semuanya dimulai dari sini.</p></li>
+</ol>
+</figure>
+
 Kasus dasarnya. Kodekan `https://example.com`, pindai dengan kamera mana pun, dan perangkat menawarkan untuk membukanya. Bekerja di setiap ponsel yang dibuat dalam dekade terakhir.
 
 Varian yang berguna: tautan pendek. Jika Anda memiliki URL yang berat analitik, buat QR dari versi pendeknya - ini membuat kode QR secara fisik lebih kecil (lebih sedikit modul = lebih tidak padat) dan lebih mudah dipindai dari jarak jauh.

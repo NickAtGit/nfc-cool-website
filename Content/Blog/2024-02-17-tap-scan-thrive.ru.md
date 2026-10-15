@@ -18,6 +18,12 @@ QR-код по сути просто ведро байтов. Ссылки вс�
 
 ## Ссылки
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="Create QR Code в NFC.cool Tools: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime и Event"><p><strong>Один список, любое содержимое.</strong> Ссылки, Wi-Fi, контакты, места и события начинаются здесь.</p></li>
+</ol>
+</figure>
+
 Базовый случай. Записываешь `https://example.com`, сканируешь любой камерой, и устройство предлагает открыть адрес. Работает на любом телефоне последнего десятилетия.
 
 Полезный приём: короткие ссылки. Если у тебя длинные адреса с метками аналитики, делай QR по короткой версии. Код получится физически мельче, ведь модулей меньше и плотность ниже, и его будет проще считать издалека.
