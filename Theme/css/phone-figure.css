@@ -174,20 +174,28 @@ button.phone-figure-step { cursor: pointer; }
    border: 0;
    background: none;
    cursor: pointer;
+   -webkit-tap-highlight-color: transparent;
 }
 .phone-figure-dots button::before {
    content: "";
    display: block;
-   width: 0.5rem;
-   height: 0.5rem;
+   width: 0.625rem;
+   height: 0.625rem;
    margin: auto;
    border-radius: var(--radius-pill);
-   background: var(--color-border);
+   /* Visible on the light page and the paper stage alike: the text colour, thinned. */
+   background: color-mix(in srgb, var(--color-text) 28%, transparent);
    transition: width 0.25s ease, background 0.25s ease;
 }
+.phone-figure-dots button:hover::before { background: color-mix(in srgb, var(--color-text) 45%, transparent); }
 .phone-figure-dots button[aria-pressed="true"]::before {
-   width: 1.25rem;
+   width: 1.5rem;
    background: var(--phone-ink);
+}
+/* Touch screens (phones and tablets): each dot is a full 44 px target, side by side. */
+@media (pointer: coarse) {
+   .phone-figure-dots { gap: 0; margin-top: 0.25rem; }
+   .phone-figure-dots button { width: 2.75rem; height: 2.75rem; }
 }
 
 /* ---- phones and narrow columns: one phone, dots, the current step under it ---- */
@@ -207,15 +215,11 @@ button.phone-figure-step { cursor: pointer; }
 .phone-figure-steps .phone-figure-step-num { display: none; }
 .phone-figure[data-layout="stage"] {
    padding: 1.75rem 1.25rem 1.25rem;
+   /* A plain card, like the site's other cards: white on the light page, the card grey on dark. */
+   border: 1px solid var(--color-border);
    border-radius: var(--radius-xl);
-   background:
-      radial-gradient(ellipse 70% 45% at 50% 0%, rgba(255, 255, 255, 0.9), transparent 70%),
-      linear-gradient(#FAF9F6, #EEECE6);
-}
-[data-theme="dark"] .phone-figure[data-layout="stage"] {
-   background:
-      radial-gradient(ellipse 60% 40% at 50% 25%, rgba(255, 199, 0, 0.06), transparent 70%),
-      linear-gradient(#22262F, #16181D);
+   background: var(--color-bg-card);
+   box-shadow: 0 1px 2px var(--color-shadow), 0 18px 40px -24px var(--color-shadow-lg);
 }
 
 /* ---- desktop ---- */
@@ -283,8 +287,8 @@ button.phone-figure-step { cursor: pointer; }
    .phone-figure[data-layout="stage"] .phone-figure-steps li:not(.is-active) { display: block; }
    .phone-figure[data-layout="stage"] .phone-figure-step { justify-content: flex-start; text-align: start; padding-top: 0.75rem; opacity: 0.6; transition: opacity 0.2s ease, background 0.2s ease; }
    .phone-figure[data-layout="stage"] .phone-figure-step-num { display: inline-grid; }
-   .phone-figure[data-layout="stage"] li.is-active .phone-figure-step { opacity: 1; background: rgba(255, 255, 255, 0.85); box-shadow: 0 1px 2px rgba(0, 20, 50, 0.06), 0 6px 20px -8px rgba(0, 20, 50, 0.18); }
-   [data-theme="dark"] .phone-figure[data-layout="stage"] li.is-active .phone-figure-step { background: rgba(255, 255, 255, 0.06); box-shadow: none; }
+   /* On the white card the active step is a quiet tint of the page grey. */
+   .phone-figure[data-layout="stage"] li.is-active .phone-figure-step { opacity: 1; background: var(--color-bg); }
    .phone-figure[data-layout="stage"] .phone-figure-step:hover { opacity: 1; }
    .phone-figure[data-layout="stage"] .phone-figure-dots { display: none; }
 }
