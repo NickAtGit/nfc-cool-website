@@ -38,6 +38,12 @@ ogDescription: "العقارات، الرعاية الصحية، الاستشا�
 
 ## لوكلاء العقارات
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="بطاقة وكيلة عقارات كما يراها مستلمها: Elena Marchetti من Marchetti Property، مع روابط Website وInstagram وFacebook وزر Save Contact"><p><strong>ما يراه عميلك.</strong> تُفتح بطاقتك على iPhone لديه دون تثبيت أي تطبيق، ونقرة واحدة تحفظك في جهات اتصاله.</p></li>
+</ol>
+</figure>
+
 العقارات تقوم على البقاء قابلًا للتواصل. كل معاينة مفتوحة، وكل معاينة مخصصة للوسطاء، وكل لقاء عابر في المقهى هو عميل محتمل - وما إذا كان سيصبح عميلًا يعتمد غالبًا على أمر واحد: هل احتفظوا ببطاقتك؟ مع الورق، الجواب الصادق عادةً هو لا.
 
 ### ورقة تسجيل الحضور في المعاينة المفتوحة معطوبة
@@ -87,6 +93,12 @@ ogDescription: "العقارات، الرعاية الصحية، الاستشا�
 ---
 
 ## للاستشاريين والعاملين المستقلين
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="بطاقة مستشار: Adrian Kovac من Kovac Advisory، مع روابط Website وLinkedIn وBlog"><p><strong>بطاقة تشبهك.</strong> شعارك وألوانك والروابط المهمة لهذا الدور.</p></li>
+</ol>
+</figure>
 
 حين تعمل مستقلًا، لا أحد يطلب بطاقات عملك نيابةً عنك. لا يوجد قسم تسويق، ولا موظف استقبال يعيد طباعتها حين يتغير مسمّاك الوظيفي. أنت العلامة التجارية - وميزانية البطاقات هي ميزانيتك أنت.
 
@@ -148,6 +160,16 @@ NFC.cool Business Card تطبيق مستقل على iPhone وAndroid. إليك �
 النسخة الصادقة: بالنسبة إلى وكيل عقارات، أو طبيب، أو عامل مستقل، ما يهمّ يوميًا هو أن تكون المشاركة سريعة، وأن تبدو البطاقة مثلك *أنت*، وألا يحرجك شيء لاحقًا. لهذا بنيتُه. إن كنت تحتاج إلى CRM مبيعات ملحوم ببطاقة عملك، فاشترِ الأداة التي تفعل ذلك.
 
 يمكنك [الحصول على NFC.cool Business Card من App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) أو [من Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Card أثناء العمل</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="بطاقاتي التجارية، وفيها ثلاث بطاقات: AlexBerger وConference وSpeaking"><p><strong>بطاقة لكل دور.</strong> حتى ١٠٠ بطاقة، لكلٍّ منها شكلها وروابطها.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="تبويب Business Card مع رمز QR للبطاقة وقائمة البطاقات والعملاء المحتملين وجهات الاتصال والإعدادات"><p><strong>شاركها.</strong> بلمسة NFC أو رمز QR أو رابط عادي.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="إعدادات الملف الشخصي: بطاقة عامة أو خاصة محمية برمز PIN، وجمع بيانات العملاء المحتملين قبل الحفظ أو بعده"><p><strong>قواعدك أنت.</strong> عامة أو محمية برمز PIN، وجمع بيانات العملاء المحتملين متى شئت.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="قائمة العملاء المحتملين، وكل واحد منهم موسوم بـQualified أو New أو Contacted أو Converted"><p><strong>تابِع.</strong> كل العملاء المحتملين في قائمة واحدة، مع حالة كل واحد منهم.</p></li>
+</ol>
+</figure>
 
 ---
 

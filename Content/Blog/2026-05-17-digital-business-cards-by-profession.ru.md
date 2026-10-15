@@ -38,6 +38,12 @@ ogDescription: "Недвижимость, медицина, консалтинг
 
 ## Риелторам
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="Карточка риелтора глазами получателя: Elena Marchetti из Marchetti Property со ссылками Website, Instagram и Facebook и кнопкой Save Contact"><p><strong>Что видит клиент.</strong> Карточка открывается на его iPhone без установки приложения, и одно нажатие сохраняет контакт.</p></li>
+</ol>
+</figure>
+
 Недвижимость держится на доступности. Каждый показ, каждый брокерский день, каждая случайная встреча в кофейне приводит потенциального клиента, и станет ли он реальным, часто зависит от одного: сохранил ли человек твою карточку. С бумагой честный ответ обычно отрицательный.
 
 ### Лист регистрации на показе работает плохо
@@ -87,6 +93,12 @@ ogDescription: "Недвижимость, медицина, консалтинг
 ---
 
 ## Консультантам и фрилансерам
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="Карточка консультанта: Adrian Kovac из Kovac Advisory со ссылками Website, LinkedIn и Blog"><p><strong>Карточка в своём стиле.</strong> Свой логотип, свои цвета и ссылки, важные именно для этой роли.</p></li>
+</ol>
+</figure>
 
 Когда уходишь в самостоятельное плавание, визитки никто не заказывает. Нет ни отдела маркетинга, ни секретаря, который перепечатает их при смене должности. Бренд тут ты сам, и бюджет на карточки тоже свой.
 
@@ -148,6 +160,16 @@ NFC.cool Business Card выходит отдельным приложением 
 Честная версия: агенту, врачу или одиночке в повседневности важно, чтобы передача была быстрой, карточка выглядела как *ты*, и чтобы потом ничего не поставило в неловкое положение. Ради этого я его и делал. Если нужна карточка, приваренная к CRM отдела продаж, покупай инструмент, который умеет именно это.
 
 Взять NFC.cool Business Card можно [в App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-ru&mt=8) или [в Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-ru).
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Card в деле</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="«Мои визитки» с тремя карточками: AlexBerger, Conference и Speaking"><p><strong>Карточка на каждую роль.</strong> До 100 карточек, у каждой свой вид и свои ссылки.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="Вкладка Business Card с QR-кодом карточки и меню карточек, лидов, контактов и настроек"><p><strong>Делись.</strong> Касанием NFC, QR-кодом или обычной ссылкой.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Настройки профиля: публичная или закрытая карточка с PIN-кодом и сбор лидов до или после сохранения"><p><strong>Свои правила.</strong> Публичная или под PIN-кодом, а лиды собираются, когда тебе нужно.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="Список лидов с метками Qualified, New, Contacted и Converted"><p><strong>Не теряй контакт.</strong> Все лиды в одном списке, у каждого виден статус.</p></li>
+</ol>
+</figure>
 
 ---
 

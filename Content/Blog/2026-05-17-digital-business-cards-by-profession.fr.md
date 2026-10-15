@@ -38,6 +38,12 @@ Voilà pour le point commun. Passons maintenant à ce qui change vraiment pour v
 
 ## Pour les agents immobiliers
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="La carte d'une agente immobilière telle que la voit son destinataire : Elena Marchetti, de Marchetti Property, avec des liens Website, Instagram et Facebook et le bouton Save Contact"><p><strong>Ce que voit votre client.</strong> Votre carte s'ouvre sur son iPhone sans aucune app à installer, et un appui suffit à vous enregistrer.</p></li>
+</ol>
+</figure>
+
 L'immobilier repose sur le fait de rester joignable. Chaque visite libre, chaque journée portes ouvertes pour les agents, chaque rencontre fortuite au café est un prospect - et savoir si elle deviendra un client se résume souvent à une seule chose : la personne a-t-elle gardé votre carte ? Avec le papier, honnêtement, la réponse est le plus souvent non.
 
 ### La feuille d'émargement des visites libres ne fonctionne pas
@@ -87,6 +93,12 @@ Un mot sur la confidentialité, parce qu'elle compte encore plus ici : une carte
 ---
 
 ## Pour les consultants et les indépendants
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="La carte d'un consultant, Adrian Kovac, de Kovac Advisory, avec des liens Website, LinkedIn et Blog"><p><strong>Une carte qui vous ressemble.</strong> Votre logo, vos couleurs et les liens qui comptent pour ce rôle.</p></li>
+</ol>
+</figure>
 
 Quand vous vous mettez à votre compte, personne ne commande vos cartes de visite à votre place. Pas de service marketing, pas de secrétaire pour les réimprimer quand votre intitulé change. La marque, c'est vous - et le budget cartes, c'est le vôtre.
 
@@ -148,6 +160,16 @@ Là où les concurrents ont une vraie longueur d'avance :
 La version honnête : pour un agent, un médecin ou un indépendant, ce qui compte au quotidien, c'est que le partage soit rapide, que la carte vous ressemble *à vous*, et que rien ne vous mette dans l'embarras plus tard. C'est pour ça que je l'ai conçue. Si vous avez besoin d'un CRM commercial soudé à votre carte de visite, achetez l'outil qui fait ça.
 
 Vous pouvez [obtenir NFC.cool Business Card sur l'App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-fr&mt=8) ou [sur Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-fr).
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Card en action</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Mes cartes de visite, avec trois cartes : AlexBerger, Conference et Speaking"><p><strong>Une carte par rôle.</strong> Jusqu'à 100 cartes, chacune avec son style et ses liens.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="L'onglet Business Card avec le QR code de la carte et le menu des cartes, leads, contacts et réglages"><p><strong>Partagez-la.</strong> Par NFC, par QR code ou par simple lien.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Les réglages du profil : carte publique ou privée protégée par PIN, et collecte de leads avant ou après l'enregistrement"><p><strong>Vos règles.</strong> Publique ou protégée par PIN, et la collecte de leads quand vous le voulez.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="La liste des leads, chacun marqué Qualified, New, Contacted ou Converted"><p><strong>Faites le suivi.</strong> Tous vos leads dans une liste, avec l'état de chacun.</p></li>
+</ol>
+</figure>
 
 ---
 

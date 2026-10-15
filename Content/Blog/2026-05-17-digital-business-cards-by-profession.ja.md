@@ -38,6 +38,12 @@ ogDescription: "不動産、医療、コンサルティング。紙の名刺は�
 
 ## 不動産エージェントの場合
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="受け取った人から見た不動産エージェントのカード。Marchetti PropertyのElena Marchetti。Website、Instagram、FacebookのリンクとSave Contactボタン"><p><strong>お客さんに見える画面。</strong>アプリのインストールなしでカードがiPhoneに開き、ワンタップであなたを保存できます。</p></li>
+</ol>
+</figure>
+
 不動産の仕事は、いつでも連絡が取れる状態でいられるかどうかで決まります。オープンハウスも、業者向けの内覧会も、カフェでのちょっとした出会いも、すべて見込み客です。そして、それが顧客になるかどうかは、たいてい一点に絞られます。あなたの名刺を取っておいてもらえたか、です。紙の名刺の場合、正直に言えば答えはたいてい「いいえ」です。
 
 ### オープンハウスの記帳シートは、もう機能していない
@@ -87,6 +93,12 @@ Redpoint Globalが2021年に米国の消費者1,000人超を対象に行った�
 ---
 
 ## コンサルタント・フリーランサーの場合
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="コンサルタントのカード。Kovac AdvisoryのAdrian Kovac。Website、LinkedIn、Blogのリンク付き"><p><strong>あなたらしいカード。</strong>自分のロゴ、自分の色、そしてこの役割で大事なリンク。</p></li>
+</ol>
+</figure>
 
 独立すると、あなたの名刺を発注してくれる人は誰もいません。マーケティング部門もなければ、肩書きが変わったときに刷り直してくれる受付もいません。あなた自身がブランドであり、名刺の予算は、あなたの財布から出ていきます。
 
@@ -148,6 +160,16 @@ NFC.cool Business Cardは、iPhoneでもAndroidでも独立した1つのアプ�
 正直なところを言えば、エージェントにも、医師にも、一人で働く人にも、日々大事なのは、共有が速いこと、名刺が「自分らしく」見えること、そしてあとで恥ずかしい思いをしないことです。私は、そのためにこのアプリを作りました。営業用のCRMを名刺にがっちり溶接したいのなら、それを得意とするツールを買ってください。
 
 NFC.cool Business Cardは、[App Storeから入手](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-ja&mt=8)できます。Androidの場合は、[Google Playから](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-ja)どうぞ。
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Cardの実際</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="マイビジネスカード。AlexBerger、Conference、Speakingの3枚"><p><strong>役割ごとに1枚。</strong>最大100枚。それぞれ見た目もリンクも別々に。</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="Business Cardタブ。カードのQRコードと、カード、リード、連絡先、設定のメニュー"><p><strong>共有する。</strong>NFCのタッチ、QRコード、ふつうのリンクで。</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="プロフィール設定。公開カードかPIN付きの非公開カード、保存の前後のリード取得"><p><strong>ルールは自分で。</strong>公開かPIN保護か、リード取得もいつ行うか選べます。</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="リード一覧。各リードにQualified、New、Contacted、Convertedの印"><p><strong>フォローアップ。</strong>すべてのリードを1つのリストに、それぞれの状況つきで。</p></li>
+</ol>
+</figure>
 
 ---
 

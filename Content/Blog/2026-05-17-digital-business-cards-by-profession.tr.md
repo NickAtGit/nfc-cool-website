@@ -38,6 +38,12 @@ Ortak hikaye bu. Şimdi senin için gerçekten farklı olan kısım.
 
 ## Emlakçılar için
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="Alıcının gördüğü haliyle bir emlak danışmanının kartı: Marchetti Property'den Elena Marchetti; Website, Instagram ve Facebook bağlantıları ve Save Contact düğmesiyle"><p><strong>Müşterinin gördüğü.</strong> Kartın, uygulama kurmadan onun iPhone'unda açılır ve tek dokunuş seni kaydeder.</p></li>
+</ol>
+</figure>
+
 Emlak, ulaşılabilir kalmak üzerine dönüyor. Her açık ev, her meslektaş turu, kafede her rastlaşma bir aday ve bunun müşteriye dönüşüp dönüşmemesi çoğu zaman tek bir şeye bakıyor: kartını sakladılar mı? Kağıtta dürüst yanıt genelde hayır.
 
 ### Açık ev kayıt formu bozuk
@@ -87,6 +93,12 @@ Gizlilikle ilgili bir söz, çünkü burada daha da önemli: kartvizit tıbbi ka
 ---
 
 ## Danışmanlar ve serbest çalışanlar için
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="Bir danışmanın kartı: Kovac Advisory'den Adrian Kovac; Website, LinkedIn ve Blog bağlantılarıyla"><p><strong>Sana benzeyen bir kart.</strong> Kendi logon, kendi renklerin ve bu rol için önemli bağlantılar.</p></li>
+</ol>
+</figure>
 
 Bağımsız çalışmaya başladığında kartvizitlerini kimse senin için sipariş etmiyor. Pazarlama departmanı yok, unvanın değişince kartları yeniden bastıran bir sekreter yok. Marka sensin ve kart bütçesi senin bütçen.
 
@@ -148,6 +160,16 @@ Rakiplerin gerçekten önde olduğu yerler:
 Dürüst hali: bir emlakçı, bir hekim ya da tek başına çalışan biri için günlük olarak önemli olan, paylaşmanın hızlı olması, kartın *sana* benzemesi ve sonradan seni utandıracak bir şey olmaması. Onu bunun için yazdım. Kartvizitine kaynaklanmış bir satış CRM'i istiyorsan onu yapan aracı satın al.
 
 NFC.cool Business Card'ı [App Store'dan](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-tr&mt=8) ya da [Google Play'den](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-tr) edinebilirsin.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Card iş başında</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Kartvizitlerim; üç kart: AlexBerger, Conference ve Speaking"><p><strong>Her rol için bir kart.</strong> En fazla 100 kart, her birinin kendi görünümü ve bağlantıları.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="Kartın QR kodu ve kartlar, potansiyel müşteriler, kişiler ve ayarlar menüsüyle Business Card sekmesi"><p><strong>Paylaş.</strong> NFC dokunuşuyla, QR kodla ya da düz bir bağlantıyla.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Profil Ayarları: herkese açık ya da PIN korumalı özel kart, kaydetmeden önce veya sonra potansiyel müşteri bilgisi toplama"><p><strong>Kuralları sen koy.</strong> Herkese açık ya da PIN korumalı; potansiyel müşteri bilgisini ne zaman istersen topla.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="Potansiyel müşteri listesi; her biri Qualified, New, Contacted ya da Converted olarak işaretli"><p><strong>Takip et.</strong> Tüm potansiyel müşteriler tek listede, her birinin durumuyla.</p></li>
+</ol>
+</figure>
 
 ---
 

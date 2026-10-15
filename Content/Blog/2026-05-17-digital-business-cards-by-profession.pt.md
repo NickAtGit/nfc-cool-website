@@ -38,6 +38,12 @@ Esta é a parte comum. Agora a parte que é de facto diferente para si.
 
 ## Para Agentes Imobiliários
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="O cartão de uma agente imobiliária tal como quem o recebe o vê: Elena Marchetti, da Marchetti Property, com links para Website, Instagram e Facebook e o botão Save Contact"><p><strong>O que o seu cliente vê.</strong> O seu cartão abre no iPhone dele sem instalar nada, e um toque guarda o seu contacto.</p></li>
+</ol>
+</figure>
+
 O imobiliário funciona à base de estar sempre contactável. Cada visita a uma casa aberta, cada visita exclusiva para corretores, cada encontro casual no café é um potencial cliente - e se se torna ou não num cliente depende muitas vezes de uma coisa: guardaram o seu cartão? Com papel, a resposta honesta é normalmente não.
 
 ### A Folha de Inscrição da Casa Aberta Está Avariada
@@ -87,6 +93,12 @@ Uma palavra sobre privacidade, porque aqui importa ainda mais: um cartão de vis
 ---
 
 ## Para Consultores e Freelancers
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="O cartão de um consultor, Adrian Kovac, da Kovac Advisory, com links para Website, LinkedIn e Blog"><p><strong>Um cartão com a sua cara.</strong> O seu logótipo, as suas cores e os links que contam para esta função.</p></li>
+</ol>
+</figure>
 
 Quando se torna independente, ninguém encomenda os seus cartões de visita por si. Não há departamento de marketing, não há rececionista a reimprimi-los quando o seu cargo muda. Você é a marca - e o orçamento dos cartões é o seu orçamento.
 
@@ -148,6 +160,16 @@ Onde a concorrência está genuinamente à frente:
 A versão honesta: para um agente, um médico ou um trabalhador independente, o que importa no dia a dia é que a partilha seja rápida, que o cartão se pareça *consigo*, e que nada o envergonhe mais tarde. Foi para isso que a construí. Se precisa de um CRM de vendas soldado ao seu cartão de visita, compre a ferramenta que faz isso.
 
 Pode [obter a NFC.cool Business Card na App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) ou [no Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>O NFC.cool Business Card em ação</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Os Meus Cartões de Visita com três cartões: AlexBerger, Conference e Speaking"><p><strong>Um cartão por função.</strong> Até 100 cartões, cada um com o seu visual e os seus links.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="O separador Business Card com o código QR do cartão e o menu de cartões, leads, contactos e definições"><p><strong>Partilhe-o.</strong> Por toque NFC, código QR ou um simples link.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="As definições de perfil: cartão público ou privado com PIN, e captação de leads antes ou depois de guardar"><p><strong>As suas regras.</strong> Público ou protegido por PIN, e captação de leads quando quiser.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="A lista de leads, cada uma marcada como Qualified, New, Contacted ou Converted"><p><strong>Faça o seguimento.</strong> Todas as leads numa lista, com o ponto em que cada uma está.</p></li>
+</ol>
+</figure>
 
 ---
 

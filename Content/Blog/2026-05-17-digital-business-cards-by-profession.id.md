@@ -38,6 +38,12 @@ Itulah cerita bersamanya. Sekarang bagian yang benar-benar berbeda untuk Anda.
 
 ## Untuk agen properti
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="Kartu agen properti seperti yang dilihat penerimanya: Elena Marchetti dari Marchetti Property, dengan tautan Website, Instagram, dan Facebook serta tombol Save Contact"><p><strong>Yang dilihat klien Anda.</strong> Kartu Anda terbuka di iPhone mereka tanpa perlu memasang aplikasi, dan satu ketukan menyimpan kontak Anda.</p></li>
+</ol>
+</figure>
+
 Bisnis properti bergantung pada kemampuan untuk selalu bisa dihubungi. Setiap open house, setiap pertemuan broker, setiap pertemuan tak terduga di kedai kopi adalah prospek - dan apakah itu menjadi klien sering kali bergantung pada satu hal: apakah mereka menyimpan kartu Anda? Dengan kartu kertas, jawaban jujurnya biasanya tidak.
 
 ### Lembar absensi open house sudah tidak berfungsi
@@ -87,6 +93,12 @@ Sepatah kata tentang privasi, karena ini lebih penting di sini: kartu nama bukan
 ---
 
 ## Untuk konsultan dan pekerja lepas
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="Kartu seorang konsultan, Adrian Kovac dari Kovac Advisory, dengan tautan Website, LinkedIn, dan Blog"><p><strong>Kartu yang mencerminkan Anda.</strong> Logo Anda, warna Anda, dan tautan yang penting untuk peran ini.</p></li>
+</ol>
+</figure>
 
 Ketika Anda bekerja secara independen, tidak ada yang memesan kartu nama untuk Anda. Tidak ada departemen pemasaran, tidak ada resepsionis yang mencetak ulang ketika jabatan Anda berubah. Anda adalah mereknya - dan anggaran kartu adalah anggaran Anda.
 
@@ -148,6 +160,16 @@ Di mana pesaing benar-benar lebih unggul:
 Versi jujurnya: untuk agen, dokter, atau solopreneur, yang penting sehari-hari adalah berbagi yang cepat, kartu yang terlihat seperti *Anda*, dan tidak ada yang mempermalukan Anda kemudian. Itulah yang saya bangun. Jika Anda membutuhkan CRM penjualan yang terhubung ke kartu nama Anda, beli alat yang melakukan itu.
 
 Anda bisa [mendapatkan NFC.cool Business Card di App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) atau [di Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Card saat dipakai</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Kartu Nama Saya dengan tiga kartu: AlexBerger, Conference, dan Speaking"><p><strong>Satu kartu per peran.</strong> Hingga 100 kartu, masing-masing dengan tampilan dan tautannya sendiri.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="Tab Business Card dengan kode QR kartu dan menu untuk kartu, prospek, kontak, dan pengaturan"><p><strong>Bagikan.</strong> Lewat ketukan NFC, kode QR, atau tautan biasa.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Pengaturan Profil: kartu publik atau kartu privat dengan PIN, dan pengumpulan prospek sebelum atau sesudah menyimpan"><p><strong>Aturan Anda.</strong> Publik atau dilindungi PIN, dan pengumpulan prospek kapan pun Anda mau.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="Daftar prospek, masing-masing ditandai Qualified, New, Contacted, atau Converted"><p><strong>Tindak lanjuti.</strong> Semua prospek dalam satu daftar, lengkap dengan statusnya.</p></li>
+</ol>
+</figure>
 
 ---
 

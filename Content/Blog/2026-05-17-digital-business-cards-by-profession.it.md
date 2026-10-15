@@ -38,6 +38,12 @@ Questa è la parte in comune. Adesso quella che cambia davvero da mestiere a mes
 
 ## Per gli agenti immobiliari
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="Il biglietto di un'agente immobiliare come lo vede chi lo riceve: Elena Marchetti di Marchetti Property, con i link Website, Instagram e Facebook e il pulsante Save Contact"><p><strong>Quello che vede il cliente.</strong> Il biglietto si apre sul suo iPhone senza installare nulla, e un tocco salva il contatto.</p></li>
+</ol>
+</figure>
+
 Nell'immobiliare tutto si regge sull'essere raggiungibili. Ogni open house, ogni visita riservata ai colleghi, ogni incontro casuale al bar è un potenziale cliente, e che lo diventi davvero dipende spesso da una cosa sola: hanno tenuto il tuo biglietto? Con la carta, la risposta onesta è quasi sempre no.
 
 ### Il foglio firme all'ingresso non funziona
@@ -87,6 +93,12 @@ Due parole sulla privacy, perché qui conta più che altrove: un biglietto da vi
 ---
 
 ## Per consulenti e liberi professionisti
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="Il biglietto di un consulente, Adrian Kovac di Kovac Advisory, con i link Website, LinkedIn e Blog"><p><strong>Un biglietto che ti somiglia.</strong> Il tuo logo, i tuoi colori e i link che contano per questo ruolo.</p></li>
+</ol>
+</figure>
 
 Quando ti metti in proprio, i biglietti da visita nessuno te li ordina. Non c'è un ufficio marketing, non c'è una segretaria che li ristampa quando cambi qualifica. Il marchio sei tu, e il budget per i biglietti esce dalle tue tasche.
 
@@ -148,6 +160,16 @@ Dove la concorrenza è davvero più avanti:
 La versione onesta: per un agente, un medico o chi lavora da solo, quello che conta ogni giorno è che condividere sia rapido, che il biglietto assomigli davvero *a te* e che niente ti faccia fare brutta figura più avanti. L'ho costruita per questo. Se ti serve un CRM commerciale saldato al biglietto da visita, compra lo strumento nato per farlo.
 
 Trovi [NFC.cool Business Card sull'App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-it&mt=8) oppure [su Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-it).
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Card al lavoro</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="I miei biglietti da visita, con tre biglietti: AlexBerger, Conference e Speaking"><p><strong>Un biglietto per ruolo.</strong> Fino a 100 biglietti, ognuno con il suo aspetto e i suoi link.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="La scheda Business Card con il codice QR del biglietto e il menu di biglietti, lead, contatti e impostazioni"><p><strong>Condividilo.</strong> Con un tocco NFC, un codice QR o un semplice link.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Le impostazioni del profilo: biglietto pubblico o privato con PIN, e raccolta dei lead prima o dopo il salvataggio"><p><strong>Le tue regole.</strong> Pubblico o protetto da PIN, e la raccolta dei lead quando vuoi.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="L'elenco dei lead, ognuno segnato come Qualified, New, Contacted o Converted"><p><strong>Segui i contatti.</strong> Tutti i lead in un elenco, con lo stato di ciascuno.</p></li>
+</ol>
+</figure>
 
 ---
 
