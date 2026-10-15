@@ -269,6 +269,12 @@ Nascondi dei tag in giro per un luogo, ognuno con un indizio o un enigma. Ottimi
 
 ## I tag NFC e i Comandi Rapidi di iOS
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="Le impostazioni NFC di NFC.cool Tools con Read with tag details, Open Web Link when read, Run Shortcut when read e Play audio file when read attivi"><p><strong>Avviare un comando alla lettura.</strong> NFC.cool può aprire un link, avviare un comando rapido o riprodurre un suono appena legge un tag.</p></li>
+</ol>
+</figure>
+
 È la cosa che mi diverte di più mostrare alle persone. L'app **Comandi Rapidi** di Apple, già presente in iOS, supporta l'NFC come innesco nativo, ed è lì che su iPhone i tag passano da utili a davvero potenti.
 
 Ecco come se ne crea uno:

@@ -269,6 +269,12 @@ Cachez des tags autour d'un lieu, chacun révélant un indice ou une énigme. Pa
 
 ## Les tags NFC et les Raccourcis iPhone
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="Les réglages NFC de NFC.cool Tools avec Read with tag details, Open Web Link when read, Run Shortcut when read et Play audio file when read activés"><p><strong>Lancer un raccourci à la lecture.</strong> NFC.cool peut ouvrir un lien, lancer un raccourci ou jouer un son dès qu'un tag est lu.</p></li>
+</ol>
+</figure>
+
 C'est ce que je préfère montrer aux gens. L'app **Raccourcis** d'Apple (intégrée à iOS) prend en charge nativement les déclencheurs NFC, et c'est là que les tags passent d'utiles à vraiment puissants sur iPhone.
 
 Voici comment en configurer un :

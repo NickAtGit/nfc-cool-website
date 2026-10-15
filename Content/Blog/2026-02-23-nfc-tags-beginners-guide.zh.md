@@ -270,6 +270,12 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 
 ## NFC 标签与 iPhone 快捷指令
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="NFC.cool Tools 的 NFC 设置，已打开 Read with tag details、Open Web Link when read、Run Shortcut when read 和 Play audio file when read"><p><strong>读取时运行快捷指令。</strong>标签一被读取，NFC.cool 就能打开链接、运行快捷指令或播放声音。</p></li>
+</ol>
+</figure>
+
 这是我最爱展示给人看的东西。Apple 的 **快捷指令** 应用（iOS 内置）原生支持 NFC 触发，正是在这里，标签从「好用」升级为在 iPhone 上「真正强大」。
 
 下面是设置方法：

@@ -269,6 +269,12 @@ iPhoneはタグを自動的に処理します。**iPhone XS以降**（およびi
 
 ## NFCタグとiPhoneショートカット
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="NFC.cool ToolsのNFC設定。Read with tag details、Open Web Link when read、Run Shortcut when read、Play audio file when readがオン"><p><strong>読み取り時にショートカットを実行。</strong>タグを読んだ瞬間に、リンクを開く、ショートカットを実行する、音を鳴らすことができます。</p></li>
+</ol>
+</figure>
+
 これは私が人に見せるのが一番好きなことです。Appleの**ショートカット**アプリ（iOSに内蔵）にはネイティブのNFCトリガー対応があり、iPhoneでタグが便利なものから本当にパワフルなものへと変わるのは、まさにここです。
 
 設定の仕方は次のとおりです。

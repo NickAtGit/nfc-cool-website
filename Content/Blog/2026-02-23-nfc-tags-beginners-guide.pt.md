@@ -269,6 +269,12 @@ Esconda tags por um local, cada uma a revelar uma pista ou um enigma. Ótimo par
 
 ## Tags NFC e Atalhos do iPhone
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="As definições de NFC no NFC.cool Tools com Read with tag details, Open Web Link when read, Run Shortcut when read e Play audio file when read ligados"><p><strong>Correr um atalho ao ler.</strong> O NFC.cool pode abrir um link, correr um atalho ou tocar um som no momento em que lê uma tag.</p></li>
+</ol>
+</figure>
+
 Esta é a minha coisa preferida para mostrar às pessoas. A app **Atalhos** da Apple (integrada no iOS) tem suporte nativo de acionadores NFC, e é onde as tags passam de úteis a genuinamente poderosas no iPhone.
 
 Eis como configurar um:

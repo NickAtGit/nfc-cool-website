@@ -269,6 +269,12 @@ iPhone работает с метками сам. На **iPhone XS и новее
 
 ## NFC-метки и быстрые команды iPhone
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="Настройки NFC в NFC.cool Tools с включёнными Read with tag details, Open Web Link when read, Run Shortcut when read и Play audio file when read"><p><strong>Быстрая команда при чтении.</strong> В момент чтения метки NFC.cool может открыть ссылку, запустить быструю команду или проиграть звук.</p></li>
+</ol>
+</figure>
+
 Это то, что я показываю людям с наибольшим удовольствием. У приложения **«Быстрые команды»**, встроенного в iOS, есть родная поддержка запуска по NFC, и именно там метки превращаются из полезных в по-настоящему мощные.
 
 Как настроить:

@@ -269,6 +269,12 @@ Esconde etiquetas por un lugar, cada una revelando una pista o un acertijo. Geni
 
 ## Etiquetas NFC y Atajos de iOS
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="Los ajustes de NFC de NFC.cool Tools con Read with tag details, Open Web Link when read, Run Shortcut when read y Play audio file when read activados"><p><strong>Ejecutar un atajo al leer.</strong> NFC.cool puede abrir un enlace, ejecutar un atajo o reproducir un sonido en cuanto lee una etiqueta.</p></li>
+</ol>
+</figure>
+
 Esto es lo que más me gusta mostrarle a la gente. La app **Atajos** de Apple (integrada en iOS) tiene soporte nativo de activadores NFC, y es donde las etiquetas pasan de útiles a genuinamente potentes en iPhone.
 
 Así se configura uno:

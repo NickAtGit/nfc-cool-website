@@ -269,6 +269,12 @@ Sembunyikan tag di sekitar suatu lokasi, masing-masing mengungkapkan petunjuk at
 
 ## Tag NFC dan Shortcuts iPhone
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="Pengaturan NFC di NFC.cool Tools dengan Read with tag details, Open Web Link when read, Run Shortcut when read, dan Play audio file when read yang menyala"><p><strong>Jalankan pintasan saat membaca.</strong> NFC.cool bisa membuka tautan, menjalankan pintasan, atau memutar suara saat tag dibaca.</p></li>
+</ol>
+</figure>
+
 Ini adalah hal favorit yang saya tunjukkan kepada orang-orang. Aplikasi **Shortcuts** milik Apple (bawaan iOS) memiliki dukungan pemicu NFC asli, dan di sinilah tag beralih dari berguna menjadi benar-benar powerful di iPhone.
 
 Berikut cara mengaturnya:

@@ -269,6 +269,12 @@ iPhone працює з мітками сам. На **iPhone XS і новіших
 
 ## NFC-мітки і Швидкі команди на iPhone
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="Налаштування NFC у NFC.cool Tools з увімкненими Read with tag details, Open Web Link when read, Run Shortcut when read і Play audio file when read"><p><strong>Швидка команда під час зчитування.</strong> Щойно мітку зчитано, NFC.cool може відкрити посилання, запустити швидку команду чи програти звук.</p></li>
+</ol>
+</figure>
+
 Це моя улюблена демонстрація. Вбудований в iOS застосунок **Швидкі команди** має рідний тригер на NFC, і саме там мітки з просто корисних стають по-справжньому потужними.
 
 Ось як налаштувати таку команду:

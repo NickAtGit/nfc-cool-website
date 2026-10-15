@@ -269,6 +269,12 @@ Bir mekana tag'ler sakla, her biri bir ipucu ya da bulmaca versin. Ekip etkinlik
 
 ## NFC tag'ler ve iPhone Kısayolları
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="NFC.cool Tools'taki NFC ayarları; Read with tag details, Open Web Link when read, Run Shortcut when read ve Play audio file when read açık"><p><strong>Okuyunca kestirme çalıştır.</strong> NFC.cool, bir tag okunduğu anda bağlantı açabilir, kestirme çalıştırabilir ya da ses çalabilir.</p></li>
+</ol>
+</figure>
+
 İnsanlara göstermeyi en sevdiğim şey bu. Apple'ın iOS'a gömülü **Kısayollar** uygulamasında NFC tetikleyicisi desteği var ve tag'lerin iPhone'da kullanışlıdan gerçekten güçlüye dönüştüğü yer burası.
 
 Nasıl kurulacağı:

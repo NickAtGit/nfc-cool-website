@@ -269,6 +269,12 @@ Hide tags around a location, each revealing a clue or puzzle. Great for team-bui
 
 ## NFC Tags and iPhone Shortcuts
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="NFC settings in NFC.cool Tools with Read with tag details, Open Web Link when read, Run Shortcut when read and Play audio file when read switched on"><p><strong>Run a Shortcut on read.</strong> NFC.cool can open a link, run a shortcut or play a sound the moment a tag is read.</p></li>
+</ol>
+</figure>
+
 This is my favorite thing to show people. Apple's **Shortcuts** app (built into iOS) has native NFC trigger support, and it's where tags go from useful to genuinely powerful on iPhone.
 
 Here's how to set one up:
