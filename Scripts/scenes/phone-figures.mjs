@@ -28,7 +28,8 @@ import { createSwipe } from './phone-figures/gesture.mjs';
 const BASE = new URL('./', import.meta.url);
 const MAX_DPR = 2;
 const NEAR_VIEWPORT = '300px';
-// The camera: the phone straight on, its height filling PHONE_FILL of the box (CSS aspect-ratio 5 / 8).
+// The camera: the device straight on, filling PHONE_FILL of its box (CSS aspect-ratio, 5 / 8 for a
+// phone) in whichever direction is tighter.
 const FOV = 20;
 const PHONE_FILL = 0.84;
 // The pose it rests in once live, turned towards the text (degrees), and how far a drag turns it.
@@ -42,9 +43,11 @@ const PUSH_MS = 460;
 // What a figure shows (data-device): the phone from the front, its screen showing the shots, or
 // the phone in the orange NFC e-ink case from the back, its e-ink panel showing them. pin is how
 // much of the top of the screen stays put through a push (the phone's status bar).
+// aspect is the box's (width / height, matching the CSS); stillPitch the tilt (degrees) the still
+// and the first frame show it at, so a laptop's display faces the camera with its deck in view.
 const DEVICES = {
-  phone: { model: 'blog_phone.glb', screen: 'Object_13', back: false, pin: 0.052 },
-  einkcase: { model: 'blog_einkcase.glb', screen: 'EInkPanel', back: true, pin: -1 },
+  phone: { model: 'blog_phone.glb', screen: 'Object_13', back: false, pin: 0.052, aspect: 5 / 8, stillPitch: 0 },
+  einkcase: { model: 'blog_einkcase.glb', screen: 'EInkPanel', back: true, pin: -1, aspect: 5 / 8, stillPitch: 0 },
 };
 
 const figures = [...document.querySelectorAll('figure.phone-figure')];
@@ -219,8 +222,12 @@ async function goLive() {
     scene.add(pose);
     const size = new Box3().setFromObject(pose).getSize(new Vector3());
 
-    const camera = new PerspectiveCamera(FOV, 5 / 8, 0.05, 5);
-    camera.position.set(0, 0, size.y / PHONE_FILL / 2 / Math.tan(FOV * Math.PI / 360));
+    const camera = new PerspectiveCamera(FOV, kind.aspect, 0.05, 5);
+    const halfTan = Math.tan(FOV * Math.PI / 360);
+    camera.position.set(0, 0, Math.max(
+      size.y / PHONE_FILL / 2 / halfTan,
+      size.x / PHONE_FILL / 2 / (halfTan * kind.aspect),
+    ));
     camera.lookAt(0, 0, 0);
 
     // The screen: shot a, and shot b on its way in, either fading over a or pushing it aside the
@@ -283,8 +290,8 @@ async function goLive() {
     const atStart = view.figure.dataset.layout === 'stage' ? view.figure.dataset.side !== 'end' : view.figure.dataset.side === 'start';
     const towardsText = (atStart !== rtl) ? 1 : -1;
     const yaw = createSpring({ value: 0 });
-    const pitch = createSpring({ value: 0 });
-    const rest = { yaw: towardsText * REST_YAW, pitch: REST_PITCH };
+    const pitch = createSpring({ value: kind.stillPitch });
+    const rest = { yaw: towardsText * REST_YAW, pitch: kind.stillPitch + REST_PITCH };
     let fade = null; // { to, start }
 
     let width = 0;
@@ -362,7 +369,7 @@ async function goLive() {
           const dy = event.clientY - drag.y;
           if (Math.hypot(dx, dy) > 4) view.dragged = true;
           yaw.target = clamp(drag.yaw + dx * 0.45, -DRAG_YAW, DRAG_YAW);
-          pitch.target = clamp(drag.pitch + dy * 0.3, -DRAG_PITCH, DRAG_PITCH);
+          pitch.target = clamp(drag.pitch + dy * 0.3, kind.stillPitch - DRAG_PITCH, kind.stillPitch + DRAG_PITCH);
         } else {
           const p = relative(event);
           yaw.target = rest.yaw + p.x * 2 * HOVER_YAW;
@@ -423,7 +430,7 @@ async function goLive() {
       view.renderShell = (w, h) => {
         const hole = new MeshBasicMaterial({ color: 0x000000, opacity: 0, blending: NoBlending });
         screen.traverse(o => { if (o.isMesh) o.material = hole; });
-        pose.rotation.set(0, 0, 0);
+        pose.rotation.set(kind.stillPitch * Math.PI / 180, 0, 0);
         renderer.setSize(w, h, false);
         renderer.render(scene, camera);
         const url = canvas.toDataURL('image/webp', 0.92);
@@ -433,7 +440,7 @@ async function goLive() {
       };
       // Where the screen lands in the box, straight on, as CSS percentages of it.
       view.screenRect = () => {
-        pose.rotation.set(0, 0, 0);
+        pose.rotation.set(kind.stillPitch * Math.PI / 180, 0, 0);
         pose.updateMatrixWorld(true);
         const box = new Box3().setFromObject(screen);
         const corners = [new Vector3(box.min.x, box.min.y, box.max.z), new Vector3(box.max.x, box.max.y, box.max.z)]
