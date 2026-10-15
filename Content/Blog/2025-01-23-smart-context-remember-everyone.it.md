@@ -22,6 +22,13 @@ I recapiti salvati sul telefono non servono a niente se non ricordi perché quel
 
 ## Il contesto è il pezzo che manca
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="La scheda Networking di NFC.cool Business Card: Priya Raman conosciuta al Bay Area Product Summit, Tom Alvarez al Design Systems Meetup, Hanna Vogel al NFC Developer Day"><p><strong>Dove vi siete conosciuti.</strong> Ogni contatto porta con sé l'evento e la data.</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="Un contatto di networking, Priya Raman di Lantern Metrics, con Add Reminder, Add Meeting e i dettagli dell'incontro"><p><strong>Cosa viene dopo.</strong> Promemoria e incontri finiscono nel calendario finché la conversazione è fresca.</p></li>
+</ol>
+</figure>
+
 Così a NFC.cool Business Card ho aggiunto quello che chiamo da un po' il "potenziamento della memoria". Subito dopo lo scambio, che avvenga avvicinando il telefono a un tag NFC, con l'App Clip o con il codice QR sulla schermata di blocco della Modalità Conferenza, l'app ti chiede di annotare il contesto:
 
 - **Dove e quando vi siete conosciuti.** Data e luogo vengono compilati in automatico e restano modificabili.

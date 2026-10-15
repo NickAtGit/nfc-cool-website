@@ -22,6 +22,13 @@ image: "/assets/images/Blog/smart-context-remember-everyone.webp"
 
 ## السياق هو الجزء المفقود
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="تبويب Networking في NFC.cool Business Card: Priya Raman التي التقيتها في Bay Area Product Summit، وTom Alvarez في Design Systems Meetup، وHanna Vogel في NFC Developer Day"><p><strong>أين التقيتما.</strong> كل جهة اتصال تحمل الحدث والتاريخ.</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="جهة اتصال من التعارف: Priya Raman من Lantern Metrics، مع Add Reminder وAdd Meeting وتفاصيل اللقاء"><p><strong>ما الخطوة التالية.</strong> التذكيرات والاجتماعات تذهب إلى التقويم والحديث ما زال حاضرًا في ذهنك.</p></li>
+</ol>
+</figure>
+
 لذا أضفتُ ما أسمّيه «ترقية الذاكرة» إلى NFC.cool Business Card. فبمجرد التواصل - عبر لمسة NFC أو App Clip أو رمز QR على شاشة القفل في وضع المؤتمرات - تظهر لك مطالبة لالتقاط السياق:
 
 - **أين ومتى التقيتما.** يُملأ تلقائيًا بالتاريخ والمكان، وقابل للتعديل.

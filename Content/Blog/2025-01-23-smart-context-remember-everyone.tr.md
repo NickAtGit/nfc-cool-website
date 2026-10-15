@@ -22,6 +22,13 @@ O kişinin neden rehberinde olduğunu hatırlamıyorsan telefonundaki iletişim 
 
 ## Eksik parça bağlam
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="NFC.cool Business Card'ta Networking sekmesi: Bay Area Product Summit'te tanışılan Priya Raman, Design Systems Meetup'ta Tom Alvarez, NFC Developer Day'de Hanna Vogel"><p><strong>Nerede tanıştınız.</strong> Her kişi etkinliği ve tarihi taşır.</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="Bir networking kişisi: Lantern Metrics'ten Priya Raman; Add Reminder, Add Meeting ve görüşme ayrıntılarıyla"><p><strong>Sırada ne var.</strong> Hatırlatıcılar ve toplantılar, konuşma tazeyken takvime düşer.</p></li>
+</ol>
+</figure>
+
 Ben de NFC.cool Business Card'a "hafıza yükseltmesi" dediğim şeyi ekledim. Bağlantı kurulduktan hemen sonra, ister NFC okutmasıyla ister App Clip ya da Konferans Modu'nun kilit ekranı QR'ıyla olsun, bağlamı yakalaman isteniyor:
 
 - **Nerede ve ne zaman tanıştınız.** Tarih ve yerle kendiliğinden dolar, düzenlenebilir.

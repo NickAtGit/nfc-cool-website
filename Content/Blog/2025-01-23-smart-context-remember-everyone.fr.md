@@ -22,6 +22,13 @@ Les coordonnées dans votre téléphone ne servent à rien si vous ne vous souve
 
 ## Le contexte, c'est la pièce manquante
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="L'onglet Networking de NFC.cool Business Card : Priya Raman, rencontrée au Bay Area Product Summit, Tom Alvarez au Design Systems Meetup, Hanna Vogel au NFC Developer Day"><p><strong>Où vous vous êtes rencontrés.</strong> Chaque contact garde l'événement et la date.</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="Un contact de networking, Priya Raman, de Lantern Metrics, avec Add Reminder, Add Meeting et les détails de la rencontre"><p><strong>La suite.</strong> Rappels et rendez-vous vont dans le calendrier tant que la conversation est fraîche.</p></li>
+</ol>
+</figure>
+
 Alors j'ai ajouté à NFC.cool Business Card ce que j'appelle depuis la « mise à niveau mémoire ». Juste après la connexion - via le geste NFC, l'App Clip, ou le QR sur écran verrouillé du mode Conférence - on vous invite à noter le contexte:
 
 - **Où et quand vous vous êtes rencontrés.** Rempli automatiquement avec la date et le lieu, modifiable.

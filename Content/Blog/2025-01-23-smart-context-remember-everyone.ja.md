@@ -22,6 +22,13 @@ image: "/assets/images/Blog/smart-context-remember-everyone.webp"
 
 ## 欠けている部分はコンテクスト
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="NFC.cool Business CardのNetworkingタブ。Bay Area Product SummitのPriya Raman、Design Systems MeetupのTom Alvarez、NFC Developer DayのHanna Vogel"><p><strong>どこで会ったか。</strong>連絡先ごとにイベントと日付が残ります。</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="ネットワーキングの連絡先、Lantern MetricsのPriya Raman。Add Reminder、Add Meeting、ミーティングの詳細"><p><strong>次にやること。</strong>会話の記憶が新しいうちに、リマインダーや予定をカレンダーへ。</p></li>
+</ol>
+</figure>
+
 そこで、私が「メモリーアップグレード」と呼ぶものをNFC.cool Business Cardに追加しました。接続直後 - NFCタップ、App Clip、Conference Modeのロック画面QRのいずれかで - コンテクストを記録するプロンプトが表示されます：
 
 - **いつ、どこで会ったか。** 日付と場所が自動入力、編集可能。
