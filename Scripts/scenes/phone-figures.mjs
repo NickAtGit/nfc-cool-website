@@ -39,6 +39,13 @@ const HOVER_PITCH = 10;
 const DRAG_YAW = 35;
 const DRAG_PITCH = 15;
 const PUSH_MS = 460;
+// What a figure shows (data-device): the phone from the front, its screen showing the shots, or
+// the phone in the orange NFC e-ink case from the back, its e-ink panel showing them. pin is how
+// much of the top of the screen stays put through a push (the phone's status bar).
+const DEVICES = {
+  phone: { model: 'blog_phone.glb', screen: 'Object_13', back: false, pin: 0.052 },
+  einkcase: { model: 'blog_einkcase.glb', screen: 'EInkPanel', back: true, pin: -1 },
+};
 
 const figures = [...document.querySelectorAll('figure.phone-figure')];
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -159,8 +166,11 @@ async function goLive() {
   } = THREE;
 
   const loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
-  let phonePromise = null;
-  const loadPhone = () => (phonePromise ??= loader.loadAsync(new URL('blog_phone.glb', BASE).href));
+  const models = new Map();
+  const loadModel = name => {
+    if (!models.has(name)) models.set(name, loader.loadAsync(new URL(name, BASE).href));
+    return models.get(name);
+  };
 
   const observer = new IntersectionObserver(entries => {
     for (const entry of entries) {
@@ -194,11 +204,13 @@ async function goLive() {
     key.position.set(-0.4, 0.6, 1);
     scene.add(key);
 
-    const gltf = await loadPhone();
+    const kind = DEVICES[view.figure.dataset.device] ?? DEVICES.phone;
+    const gltf = await loadModel(kind.model);
     const parts = (gltf.scene.getObjectByName('Phone') ?? gltf.scene).clone(true);
-    // The model faces -Z; turn it to the camera and centre it, so it turns about its own middle.
+    // The model's screen faces -Z: turn it to the camera (or, for the case, show its back) and
+    // centre it, so it turns about its own middle.
     const facing = new Group();
-    facing.rotation.y = Math.PI;
+    facing.rotation.y = kind.back ? 0 : Math.PI;
     facing.add(parts);
     const center = new Box3().setFromObject(facing).getCenter(new Vector3());
     facing.position.sub(center);
@@ -213,17 +225,17 @@ async function goLive() {
 
     // The screen: shot a, and shot b on its way in, either fading over a or pushing it aside the
     // way an iOS navigation push does (b slides in from the side, a drifts a third of the way out).
-    const screen = parts.getObjectByName('Object_13');
+    const screen = parts.getObjectByName(kind.screen);
     if (!screen) throw new Error('no screen mesh');
     const base = new ShaderMaterial({
       toneMapped: false,
-      uniforms: { a: { value: null }, b: { value: null }, t: { value: 0 }, dir: { value: 1 } },
+      uniforms: { a: { value: null }, b: { value: null }, t: { value: 0 }, dir: { value: 1 }, pin: { value: kind.pin } },
       vertexShader: `varying vec2 vUv;
         void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`,
       // No texture reads inside branches: the GPU works out which mip level to sample from the
       // neighbouring pixels, and where they take different branches (the edge of the status bar
       // band) the guess goes wrong and draws a dashed line. Every pixel samples all four, then picks.
-      fragmentShader: `uniform sampler2D a; uniform sampler2D b; uniform float t; uniform float dir;
+      fragmentShader: `uniform sampler2D a; uniform sampler2D b; uniform float t; uniform float dir; uniform float pin;
         varying vec2 vUv;
         void main() {
           // dir 1: b comes in from the right; -1: from the left. x runs in the direction of travel.
@@ -241,7 +253,7 @@ async function goLive() {
           // The status bar stays put through a push, as on iOS (every shot has the same 9:41 bar;
           // glTF UVs run top down).
           vec4 still = mix(stillA, stillB, step(0.5, t));
-          gl_FragColor = mix(pushed, still, step(vUv.y, 0.052));
+          gl_FragColor = mix(pushed, still, step(vUv.y, pin));
           #include <colorspace_fragment>
         }`,
     });

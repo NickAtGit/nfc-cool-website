@@ -19,6 +19,9 @@ import SiteKit
 /// Shots are 440 px wide WebP named `-440w`, which ImageResizer leaves alone: its variants fit a
 /// square, so a portrait screenshot's 200w variant would come out 92 px wide.
 ///
+/// `data-device="einkcase"` shows the phone in the orange NFC e-ink case from the back instead,
+/// with the shots (the case's looks) on its e-ink panel.
+///
 /// `data-layout` is `stage` (a wide box: the phone beside a list of steps, for a procedure) or
 /// `float` (a small phone the text wraps around, for a screen or two); `data-side="start"` /
 /// `"end"` puts the phone at the other side. Below 768 px both are the same: the phone in the
@@ -30,7 +33,8 @@ import SiteKit
 /// out before any script runs and nothing shifts when it does. `/scenes/phone-figures.mjs` then
 /// wires the buttons, dots, keys and swipes, and swaps in the live 3D phone where it can.
 struct PhoneFigureProcessor: OutputProcessor {
-   static let shell = "/scenes/blog_phone_shell.webp"
+   /// The still under each device (`data-device`), drawn by Scripts/scenes/render-phone-shell.mjs.
+   static let shells = ["phone": "/scenes/blog_phone_shell.webp", "einkcase": "/scenes/blog_einkcase_shell.webp"]
    private let script = "<script type=\"module\" src=\"/scenes/phone-figures.mjs\"></script>"
 
    func process(outputDirectory: URL, projectDirectory: URL, themeConfig: ThemeConfig?) throws {
@@ -109,6 +113,7 @@ struct PhoneFigureProcessor: OutputProcessor {
          markup += "<figcaption class=\"phone-figure-title\">\(caption)</figcaption>"
       }
       markup += "<div class=\"phone-figure-device\"><div class=\"phone-figure-screens\">\(shots)</div>"
+      let shell = shells[attribute("data-device", in: "<x\(attributes)>") ?? "phone"] ?? shells["phone"]!
       markup += "<img class=\"phone-figure-shell\" src=\"\(shell)\" alt=\"\" width=\"600\" height=\"960\" decoding=\"async\"></div>"
       markup += "<ol class=\"phone-figure-steps\">\(steps)</ol>"
       if stepping { markup += "<div class=\"phone-figure-dots\">\(dots)</div>" }

@@ -64,6 +64,17 @@
    border-radius: 5% / 2.5%;
    background: #000;
 }
+/* The orange e-ink case from the back (data-device="einkcase"): its e-ink panel, as
+   render-phone-shell.mjs prints it. The bezel covers the corners. */
+.phone-figure[data-device="einkcase"] .phone-figure-screens {
+   left: 28.844%;
+   top: 41.634%;
+   width: 42.311%;
+   height: 45.822%;
+   border-radius: 0;
+   background: #E2E0D8;
+}
+.phone-figure[data-device="einkcase"] .phone-figure-shot { image-rendering: pixelated; }
 /* The shots and the still never take the pointer: the device box handles taps, swipes and drags,
    and Safari's Live Text would otherwise find the text and email addresses in the screenshots
    (hidden under the live canvas, too) and draw its dashed boxes and Look Up menu over them. */

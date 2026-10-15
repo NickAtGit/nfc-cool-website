@@ -3,19 +3,20 @@
 // frame match exactly. Also prints where the screen sits in the box, for .phone-figure-screens in
 // Theme/css/phone-figure.css.
 //
-//   node Scripts/scenes/render-phone-shell.mjs <URL of a post with a phone figure> [out.webp]
+//   node Scripts/scenes/render-phone-shell.mjs <URL of a post with a phone figure> [device] [out.webp]
 //   e.g. (with `swift run Site serve` running)
 //   node Scripts/scenes/render-phone-shell.mjs http://localhost:8080/blog/read-passport-nfc-chip/
 //
-// out.webp defaults to Content/StaticFiles/scenes/blog_phone_shell.webp: 600 x 960, the 5:8 box at
-// 2x of a 300 px phone. Needs Google Chrome and Node 22+. Uses the page's ?debug hook
+// device is phone (default) or einkcase, the figure's data-device; the page needs a figure of it.
+// out.webp defaults to Content/StaticFiles/scenes/blog_<device>_shell.webp: 600 x 960, the 5:8 box
+// at 2x of a 300 px phone. Needs Google Chrome and Node 22+. Uses the page's ?debug hook
 // (window.phoneFigures).
 import { spawn } from 'node:child_process';
 import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-const [pageURL, outFile = new URL('../../Content/StaticFiles/scenes/blog_phone_shell.webp', import.meta.url).pathname] = process.argv.slice(2);
+const [pageURL, device = 'phone', outFile = new URL(`../../Content/StaticFiles/scenes/blog_${device}_shell.webp`, import.meta.url).pathname] = process.argv.slice(2);
 if (!pageURL) {
   console.error('usage: node Scripts/scenes/render-phone-shell.mjs <page URL> [out.webp]');
   process.exit(1);
@@ -66,12 +67,14 @@ try {
   const result = await evaluate(`(async () => {
     const started = Date.now();
     // The figure goes live once it is near the viewport.
-    document.querySelector('figure.phone-figure')?.scrollIntoView();
-    while (!window.phoneFigures?.views?.[0]?.renderShell) {
+    const isDevice = v => (v.figure.dataset.device ?? 'phone') === ${JSON.stringify(device)};
+    const figure = [...document.querySelectorAll('figure.phone-figure')].find(f => (f.dataset.device ?? 'phone') === ${JSON.stringify(device)});
+    figure?.scrollIntoView();
+    while (!window.phoneFigures?.views?.find(isDevice)?.renderShell) {
       if (Date.now() - started > 30000) throw new Error('figure not live: ' + (window.phoneFigures ? 'still loading' : 'no phone figure on the page'));
       await new Promise(resolve => setTimeout(resolve, 200));
     }
-    const view = window.phoneFigures.views[0];
+    const view = window.phoneFigures.views.find(isDevice);
     return { shell: view.renderShell(${WIDTH}, ${HEIGHT}), screen: view.screenRect() };
   })()`);
   writeFileSync(outFile, Buffer.from(result.shell.split(',')[1], 'base64'));

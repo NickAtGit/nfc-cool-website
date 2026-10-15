@@ -2,6 +2,7 @@
 // which show it alone, straight on, at about 300 CSS px.
 //
 //   node blog-phone.mjs <feature_phone.glb> <blog_phone.glb>   (Scripts/scenes/build.sh runs it)
+//   node blog-phone.mjs <einkcase_raw.glb> <blog_einkcase.glb>  (after Scripts/scenes/blog-einkcase.py)
 //
 // 455 KB of the phone are three 512 px WebP textures (base colour, normal, metal/roughness) on a
 // single 8-vertex mesh, Object_9: the earpiece grille's mesh pattern, a few pixels wide at that
@@ -39,6 +40,22 @@ for (const name of ['_7ProMax_Black2', '_7ProMax_1111', '_7ProMax_2112', '_7ProM
   if (!material) throw new Error(`no ${name} material: has the phone model changed?`);
   material.setBaseColorFactor([0, 0, 0, 1]).setExtension('KHR_materials_unlit', unlit);
 }
+
+// The camera lenses are mirror-smooth metal, so in the white studio they read as white discs.
+// Only the e-ink case figure shows the back; there they should be dark glass.
+doc.getRoot().listMaterials().find(m => m.getName() === '_7ProMax_Lens')
+  ?.setBaseColorFactor([0.01, 0.01, 0.015, 1]).setMetallicFactor(0.2).setRoughnessFactor(0.25);
+
+// The e-ink case's phone (the scenes' USD stand-in) carries a cover glass, which Blender's glTF
+// exporter turns into an opaque white mirror over the lenses and the screen. Drop it.
+for (const node of doc.getRoot().listNodes()) {
+  if (node.getMesh()?.listPrimitives().some(p => p.getMaterial()?.getName() === 'CoverGlass')) node.dispose();
+}
+
+// The e-ink case (Scripts/scenes/blog-einkcase.py): its soft-touch sheen washes the orange out
+// to salmon under the studio light. Without it the shell keeps its own colour.
+const caseShell = doc.getRoot().listMaterials().find(m => m.getName() === 'CaseShell');
+if (caseShell) caseShell.setExtension('KHR_materials_sheen', null).setRoughnessFactor(0.6);
 
 // keepAttributes: the screen's material has no texture of its own, but the player maps the
 // screenshots onto its TEXCOORD_0.
