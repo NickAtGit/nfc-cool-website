@@ -28,6 +28,12 @@ imageAlt: "一部 iPhone 面对只支持 RFID 的小区门禁读卡器"
 
 ## 为什么你的 iPhone 对小区门禁卡说「不」
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/iphone-rfid-condo-doors/cant-read-440w.webp" alt="显示一张难过表情的 iPhone 屏幕"><p><strong>什么也读不到。</strong>低频或私有协议的 RFID，超出了 iPhone 的 NFC 能听到的范围。</p></li>
+</ol>
+</figure>
+
 下面这部分我已经解释过几百遍了。你小区的门禁卡很可能用的是某种 RFID，它落在你 iPhone 所认得的 NFC 标准之外：通常是低频 RFID，或者某种 iPhone 无法解读、经过专有加密的高频方案。Apple 出于安全性、电池效率和一致的用户体验考虑，刻意让 iPhone 只与 13.56 MHz 的 NFC 协同工作。
 
 说白了：你的 iPhone 不会说你小区 RFID 的那套方言。这就好比指望用 Netflix 的会员资格混进电影院：大致是同一个意思，却是完全不同的两个世界。而且这也不是我能在自己的应用里绕过去打补丁的 bug：手机内部的那块无线电芯片，根本就没法调到那张卡所使用的频率上。如果你好奇 Apple 在 NFC 体系里究竟开放了什么、没开放什么，我在[揭秘 iPhone 上 NFC 的内幕](/blog/nfc-on-iphones-insider-look/)里写过。

@@ -28,6 +28,12 @@ Quindi tutto l'NFC è RFID, ma non tutto l'RFID è NFC. In questa sola frase sta
 
 ## Perché l'iPhone dice di no al badge del condominio
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/iphone-rfid-condo-doors/cant-read-440w.webp" alt="Lo schermo di un iPhone con una faccina triste"><p><strong>Niente da leggere.</strong> L'RFID a bassa frequenza o proprietario è fuori dalla portata della radio NFC dell'iPhone.</p></li>
+</ol>
+</figure>
+
 Ecco la parte che ho dovuto spiegare centinaia di volte. Con ogni probabilità il badge di accesso del condominio usa una forma di RFID che sta fuori dallo standard NFC riconosciuto dall'iPhone: spesso RFID a bassa frequenza, oppure uno schema proprietario in alta frequenza, cifrato in un modo che l'iPhone non sa interpretare. Apple ha costruito l'iPhone di proposito perché lavori solo con l'NFC a 13,56 MHz, per ragioni di sicurezza, di consumi e di coerenza dell'esperienza d'uso.
 
 Detto in parole povere: l'iPhone non parla il dialetto RFID del condominio. È come pretendere di entrare al cinema con l'abbonamento a Netflix. L'idea di fondo è la stessa, i mondi sono completamente diversi. E non è nemmeno un bug che potrei aggirare nella mia app: la radio dentro il telefono non riesce proprio a sintonizzarsi sulla frequenza su cui parla quel badge. Se ti incuriosisce sapere che cosa Apple ha aperto e che cosa no dentro lo stack NFC, ne ho scritto in [uno sguardo dall'interno all'NFC sugli iPhone](/blog/nfc-on-iphones-insider-look/).

@@ -28,6 +28,12 @@ imageAlt: "マンションのRFID専用ドアリーダーに向き合うiPhone"
 
 ## iPhoneがマンションのカードに「ノー」と言う理由
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/iphone-rfid-condo-doors/cant-read-440w.webp" alt="悲しい顔が表示されたiPhoneの画面"><p><strong>読めるものがない。</strong>低周波や独自方式のRFIDは、iPhoneのNFCには聞こえない世界です。</p></li>
+</ol>
+</figure>
+
 ここが、私が何百回も説明してきた部分です。あなたのマンションの入退室カードは、iPhoneが認識するNFC標準の外にあるRFIDを使っている可能性が非常に高いです - 低周波RFIDだったり、iPhoneが解釈できない方法で暗号化された独自の高周波方式だったりします。Appleは、セキュリティ、バッテリー効率、一貫したユーザー体験のために、iPhoneを意図的に13.56 MHzのNFC専用に設計しています。
 
 はっきり言えば、あなたのiPhoneはマンションのRFID方言を話せないのです。Netflixのサブスクで映画館に入れると期待するようなもの。同じ大まかな考え方でも、まったく別世界です。そしてこれは、私が自分のアプリで回避できるようなバグでもありません - 端末の内部にある無線機が、そのカードが話している周波数に合わせられないだけなのです。AppleがNFCスタックで何を開放し何を開放しなかったのか、その正確なところに興味があれば、[iPhoneのNFCをインサイダー目線で見る](/ja/blog/nfc-on-iphones-insider-look/)で書いています。

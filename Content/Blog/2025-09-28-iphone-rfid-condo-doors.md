@@ -28,6 +28,12 @@ So all NFC is RFID, but not all RFID is NFC. That single sentence is the root of
 
 ## Why your iPhone says "no" to your condo card
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/iphone-rfid-condo-doors/cant-read-440w.webp" alt="An iPhone screen showing a sad face"><p><strong>Nothing to read.</strong> Low-frequency or proprietary RFID is outside what the iPhone's NFC radio can hear.</p></li>
+</ol>
+</figure>
+
 Here's the part I've had to explain hundreds of times. Your condo access card most likely uses a form of RFID that sits outside the NFC standard your iPhone recognises - often low-frequency RFID, or a proprietary high-frequency scheme encrypted in ways iPhones can't interpret. Apple deliberately built the iPhone to work exclusively with NFC at 13.56 MHz for security, battery efficiency, and a consistent user experience.
 
 Put plainly: your iPhone doesn't speak your condo's RFID dialect. It's like expecting your Netflix subscription to get you into a cinema. Same general idea, completely different worlds. And this isn't a bug I could patch around in my own app either - the radio on the inside of the phone simply can't tune to the frequency that card is talking on. If you're curious about exactly what Apple did and didn't open up in the NFC stack, I wrote about it in [an insider's look at NFC on iPhones](/blog/nfc-on-iphones-insider-look/).
