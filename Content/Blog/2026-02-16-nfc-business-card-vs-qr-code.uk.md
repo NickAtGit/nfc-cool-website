@@ -182,6 +182,13 @@ QR-код гнучкіший там, де ділитися треба **широ
 
 ## Як з обома працює NFC.cool
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/1-qr-440w.webp" alt="QR-код картки на весь екран у NFC.cool Business Card з кнопками Share і Save to Photos"><p><strong>QR-код.</strong> На весь екран на телефоні або збережений для друку.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/2-wallet-440w.webp" alt="Екран Wallet Pass з готовими кольорами, власними кольорами, логотипом і кнопкою Add to Apple Wallet"><p><strong>Apple Wallet.</strong> Візитка у вигляді картки Wallet у потрібних кольорах, на iPhone.</p></li>
+</ol>
+</figure>
+
 Одразу зізнаюся: це мій блог, тож про власне рішення я, звісно, згадаю. Але тут воно справді доречне.
 
 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-uk&mt=8) від початку робився так, щоб уміти **і NFC, і QR-код**, причому не як два окремі продукти, а як два боки однієї картки:

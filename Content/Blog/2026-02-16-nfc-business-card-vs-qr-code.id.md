@@ -182,6 +182,13 @@ Beberapa platform mengenakan langganan bulanan ($5-$15/bulan) untuk fitur yang s
 
 ## Cara NFC.cool menangani keduanya
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/1-qr-440w.webp" alt="Kode QR kartu dalam layar penuh di NFC.cool Business Card, dengan Share dan Save to Photos"><p><strong>Kode QR.</strong> Layar penuh di ponsel Anda, atau disimpan untuk dicetak.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/2-wallet-440w.webp" alt="Layar Wallet Pass dengan preset warna, warna kustom, logo, dan Add to Apple Wallet"><p><strong>Apple Wallet.</strong> Kartu Anda sebagai pass Wallet, dengan warna Anda, di iPhone.</p></li>
+</ol>
+</figure>
+
 Pengungkapan penuh: ini adalah blog saya, jadi tentu saya akan menyebut solusi saya sendiri. Tapi saya pikir ini benar-benar relevan di sini.
 
 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) dibangun dari awal untuk mendukung **berbagi NFC maupun kode QR** - bukan sebagai produk terpisah, tetapi sebagai dua sisi dari kartu yang sama:

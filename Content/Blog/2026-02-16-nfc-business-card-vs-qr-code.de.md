@@ -182,6 +182,13 @@ Manche Plattformen verlangen ein Monatsabo (5-15 $ im Monat) für Funktionen, di
 
 ## Wie NFC.cool beides löst
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/1-qr-440w.webp" alt="Der QR-Code der Karte im Vollbild in NFC.cool Business Card, mit Share und Save to Photos"><p><strong>QR-Code.</strong> Im Vollbild auf dem Handy oder gespeichert zum Drucken.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/2-wallet-440w.webp" alt="Der Bildschirm Wallet Pass mit Farbvorlagen, eigenen Farben, einem Logo und Add to Apple Wallet"><p><strong>Apple Wallet.</strong> Deine Karte als Wallet-Pass, in deinen Farben, auf dem iPhone.</p></li>
+</ol>
+</figure>
+
 Der Ehrlichkeit halber: Das hier ist mein Blog, also erwähne ich natürlich auch meine eigene Lösung. Aber ich finde, sie gehört hier wirklich hin.
 
 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-de&mt=8) habe ich von Anfang an so gebaut, dass sie **NFC und QR-Code** beide beherrscht - nicht als getrennte Produkte, sondern als zwei Seiten derselben Karte:

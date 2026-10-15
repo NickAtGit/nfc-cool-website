@@ -182,6 +182,13 @@ NFC 在你 **一对一、面对面** 见人的场景中大放异彩：
 
 ## NFC.cool 如何兼顾两者
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/1-qr-440w.webp" alt="NFC.cool Business Card 中全屏显示的名片二维码，带 Share 和 Save to Photos"><p><strong>二维码。</strong>在手机上全屏展示，或保存下来打印。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/2-wallet-440w.webp" alt="Wallet Pass 页面：预设配色、自定义颜色、Logo 和 Add to Apple Wallet"><p><strong>Apple Wallet。</strong>把你的名片做成你自己配色的 Wallet 卡券，放在 iPhone 上。</p></li>
+</ol>
+</figure>
+
 我得坦白：这是我的博客，所以我当然会提到自己的解决方案。但我认为它在这里确实切题。
 
 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) 从一开始就被设计为同时支持 **NFC 和二维码分享** ，不是作为两个独立的产品，而是作为同一张名片的两面：

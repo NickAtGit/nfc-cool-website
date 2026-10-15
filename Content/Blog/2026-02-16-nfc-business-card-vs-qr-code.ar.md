@@ -182,6 +182,13 @@ NFC اختصار لـ**Near Field Communication** (الاتصال قريب ال�
 
 ## كيف يتعامل NFC.cool مع الاثنين
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/1-qr-440w.webp" alt="رمز QR للبطاقة بملء الشاشة في NFC.cool Business Card، مع Share وSave to Photos"><p><strong>رمز QR.</strong> بملء الشاشة على هاتفك، أو محفوظ للطباعة.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/2-wallet-440w.webp" alt="شاشة Wallet Pass مع ألوان جاهزة وألوان مخصّصة وشعار وزر Add to Apple Wallet"><p><strong>Apple Wallet.</strong> بطاقتك كبطاقة في Wallet بألوانك، على iPhone.</p></li>
+</ol>
+</figure>
+
 إفصاح كامل: هذه مدونتي، لذا من الطبيعي أن أذكر حلّي الخاص. لكنني أعتقد أنه وثيق الصلة بالموضوع هنا فعلًا.
 
 صُمّمت [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) منذ البداية لدعم **المشاركة عبر NFC ورمز QR معًا** - ليس كمنتجين منفصلين، بل كوجهين لبطاقة واحدة:
