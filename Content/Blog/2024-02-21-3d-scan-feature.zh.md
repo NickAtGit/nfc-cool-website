@@ -39,6 +39,16 @@ NFC.cool Tools 的 **3D Scan** 功能，把这整套流程封装成了可随身�
 
 完整一次扫描，需要 20 到 40 秒的环绕走动，再加上 30 到 60 秒的处理时间。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>把物体扫描成 3D</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/1-scan-object-440w.webp" alt="NFC.cool Tools 的 3D 标签页，有 Scan Object 和 Scan Room"><p><strong>Scan Object。</strong>在 3D 标签页，Scan Room 旁边。</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/2-walk-around-440w.webp" alt="物体扫描界面：框中的一台便携收音机，提示绕着走时让整个物体留在框内"><p><strong>绕着它走。</strong>让物体保持在框内，慢慢绕一圈。</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/3-building-440w.webp" alt="进度环显示 62%：Building your 3D model"><p><strong>等它生成。</strong>模型在你的 iPhone 上生成，期间请保持 App 打开。</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/4-model-440w.webp" alt="完成的模型：Vintage Radio，作为物体保存"><p><strong>你的模型。</strong>和其他模型存在一起，随时查看或导出。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 导出格式

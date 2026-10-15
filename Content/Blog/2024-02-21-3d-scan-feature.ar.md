@@ -39,6 +39,16 @@ image: "/assets/images/Blog/3d-scan-feature.webp"
 
 يستغرق المسح الكامل من ٢٠ إلى ٤٠ ثانية من المشي، ثم من ٣٠ إلى ٦٠ ثانية أخرى من المعالجة.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>مسح جسم بالأبعاد الثلاثية</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/1-scan-object-440w.webp" alt="تبويب 3D في NFC.cool Tools مع Scan Object وScan Room"><p><strong>Scan Object.</strong> في تبويب 3D بجوار Scan Room.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/2-walk-around-440w.webp" alt="شاشة التقاط الجسم: راديو محمول داخل إطار، مع تنبيه بإبقاء الجسم كله داخل الإطار أثناء الدوران حوله"><p><strong>دُر حوله.</strong> أبقِ الجسم داخل الإطار ودُر حوله ببطء.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/3-building-440w.webp" alt="حلقة تقدّم عند ٦٢٪: Building your 3D model"><p><strong>دعه يُبنى.</strong> يُبنى النموذج على جهاز iPhone نفسه. أبقِ التطبيق مفتوحًا خلال ذلك.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/4-model-440w.webp" alt="النموذج الجاهز: Vintage Radio محفوظًا ككائن"><p><strong>نموذجك.</strong> محفوظ مع البقية، جاهز للعرض أو التصدير.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## صيغ التصدير

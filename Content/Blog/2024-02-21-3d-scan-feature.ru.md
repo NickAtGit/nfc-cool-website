@@ -39,6 +39,16 @@ image: "/assets/images/Blog/3d-scan-feature.webp"
 
 Съёмка занимает от двадцати до сорока секунд ходьбы, а потом ещё от тридцати до шестидесяти секунд на обработку.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Сканирование объекта в 3D</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/1-scan-object-440w.webp" alt="Вкладка 3D в NFC.cool Tools с кнопками Scan Object и Scan Room"><p><strong>Scan Object.</strong> На вкладке 3D, рядом с Scan Room.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/2-walk-around-440w.webp" alt="Экран съёмки объекта: портативный радиоприёмник в рамке и подсказка держать весь объект в рамке, пока обходишь его"><p><strong>Обойди объект.</strong> Держи объект в рамке и медленно обойди его по кругу.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/3-building-440w.webp" alt="Кольцо прогресса на 62 %: Building your 3D model"><p><strong>Дождись модели.</strong> Модель собирается прямо на iPhone. Пока идёт процесс, не закрывай приложение.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/4-model-440w.webp" alt="Готовая модель Vintage Radio, сохранённая как объект"><p><strong>Модель готова.</strong> Она сохранена вместе с остальными, её можно смотреть или экспортировать.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Форматы экспорта

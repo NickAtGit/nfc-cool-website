@@ -39,6 +39,16 @@ Ein paar Regeln aus der Praxis:
 
 Der ganze Scan dauert 20-40 Sekunden, in denen du um das Objekt herumgehst, danach noch einmal 30-60 Sekunden für die Verarbeitung.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Ein Objekt in 3D scannen</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/1-scan-object-440w.webp" alt="Der 3D-Tab in NFC.cool Tools mit Scan Object und Scan Room"><p><strong>Scan Object.</strong> Im 3D-Tab, neben Scan Room.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/2-walk-around-440w.webp" alt="Die Objekterfassung: ein tragbares Radio in einem Rahmen, mit dem Hinweis, das ganze Objekt im Rahmen zu halten, während du herumgehst"><p><strong>Geh drumherum.</strong> Halte das Objekt im Rahmen und umrunde es langsam.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/3-building-440w.webp" alt="Ein Fortschrittsring bei 62 Prozent: Building your 3D model"><p><strong>Bauen lassen.</strong> Das Modell entsteht auf deinem iPhone. Lass die App dabei offen.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/4-model-440w.webp" alt="Das fertige Modell: Vintage Radio, gespeichert als Objekt"><p><strong>Dein Modell.</strong> Gespeichert bei den anderen, bereit zum Ansehen oder Exportieren.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Exportformate

@@ -39,6 +39,16 @@ Algumas regras práticas:
 
 A digitalização completa leva 20-40 segundos a andar e depois mais 30-60 segundos de processamento.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Digitalizar um objeto em 3D</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/1-scan-object-440w.webp" alt="O separador 3D no NFC.cool Tools, com Scan Object e Scan Room"><p><strong>Scan Object.</strong> No separador 3D, ao lado de Scan Room.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/2-walk-around-440w.webp" alt="A captura do objeto: um rádio portátil dentro de uma moldura, com a indicação de manter o objeto inteiro dentro dela enquanto anda à volta"><p><strong>Ande à volta.</strong> Mantenha o objeto dentro da moldura enquanto o contorna devagar.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/3-building-440w.webp" alt="Um anel de progresso nos 62 por cento: Building your 3D model"><p><strong>Deixe construir.</strong> O modelo é construído no seu iPhone. Mantenha a app aberta entretanto.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/4-model-440w.webp" alt="O modelo pronto: Vintage Radio, guardado como objeto"><p><strong>O seu modelo.</strong> Guardado com os outros, pronto para ver ou exportar.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Formatos de exportação
