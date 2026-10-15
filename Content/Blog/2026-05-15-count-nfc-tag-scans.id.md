@@ -63,13 +63,6 @@ Gabungkan beberapa dari itu dan Anda mendapatkan sesuatu seperti ini: seorang pe
 
 ## Menyiapkannya, langkah demi langkah
 
-<figure class="phone-figure" data-layout="float">
-<ol>
-<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Layar NFC Tap Counter di NFC.cool Tools: tautan yang memperbarui jumlah ketukan dan ID tag setiap kali dipindai, untuk NTAG213, NTAG215, dan NTAG216"><p><strong>NFC Tap Counter.</strong> Di NFC Tools, untuk tag NTAG213, 215, dan 216.</p></li>
-<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Pengaturan Tap Counter: URL sebagai isi, Try it out, serta sakelar NFC Tap Counter dan NFC Tag ID yang menyala"><p><strong>Atur.</strong> Pilih isinya, lalu nyalakan hitungan, ID tag, atau keduanya.</p></li>
-</ol>
-</figure>
-
 Fitur ini ada di NFC.cool Tools, di iPhone dan Android. Ini merupakan bagian dari langganan Pro (Platinum), jadi Anda memerlukan itu untuk menulis tag yang diaktifkan counter. Jika Anda belum pernah menulis tag sebelumnya, panduan saya tentang [cara menulis tag NFC di iPhone](/blog/write-nfc-tags-iphone/) mencakup dasar-dasarnya terlebih dahulu.
 
 1. Buka NFC.cool Tools, buka bagian **NFC Tools**, dan ketuk **NFC Tap Counter**.
@@ -83,6 +76,15 @@ Fitur ini ada di NFC.cool Tools, di iPhone dan Android. Ini merupakan bagian dar
 Itulah seluruh pengaturannya, dan saya sengaja membuatnya singkat. Dari titik itu tag sudah mandiri - ia menghitung dan melaporkan sendiri, untuk setiap orang yang mengetuknya, dengan atau tanpa aplikasi.
 
 Jika Anda pernah ingin menghentikannya, aplikasi dapat mematikan counter pada tag yang sudah ada. Chip berhenti menukar nilai terkini, tetapi konten tetap pada tag persis seperti terakhir kali ditulis. Satu detail yang perlu diketahui: chip terus menghitung secara internal bahkan setelah Anda mematikan substitusi - jumlahnya tidak pernah hilang, hanya berhenti ditampilkan.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Menyiapkan tag yang menghitung</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Layar NFC Tap Counter di NFC.cool Tools: tautan yang memperbarui jumlah ketukan dan ID tag setiap kali dipindai, untuk NTAG213, NTAG215, dan NTAG216"><p><strong>NFC Tap Counter.</strong> Di NFC Tools, untuk tag NTAG213, 215, dan 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="Pilihan isi URL, Email, SMS, dan Shortcut, dengan Try it out di bawahnya"><p><strong>Pilih isinya.</strong> URL, email, SMS, atau di iPhone, sebuah pintasan.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter dan NFC Tag ID menyala, Batch write mati, dan pratinjau https://studionord.example/table-7?nfc=049F50824F1390x000007, dengan Write to NFC Tag"><p><strong>Sakelar dan pratinjau.</strong> Pratinjau menunjukkan letak ID tag dan hitungannya, sebelum Anda menulis.</p></li>
+</ol>
+</figure>
 
 ---
 

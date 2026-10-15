@@ -63,13 +63,6 @@ Nimm ein paar davon zusammen, und es kommt so etwas heraus: Eine kleine Manufakt
 
 ## Die Einrichtung, Schritt für Schritt
 
-<figure class="phone-figure" data-layout="float">
-<ol>
-<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Der Bildschirm NFC Tap Counter in NFC.cool Tools: ein Link, der bei jedem Scan Zählerstand und Tag-ID aktualisiert, für NTAG213, NTAG215 und NTAG216"><p><strong>NFC Tap Counter.</strong> Unter NFC Tools, für Tags vom Typ NTAG213, 215 und 216.</p></li>
-<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Die Einrichtung des Tap Counters: eine URL als Inhalt, Try it out, und die eingeschalteten Schalter NFC Tap Counter und NFC Tag ID"><p><strong>Einrichten.</strong> Inhalt wählen, dann den Zähler, die Tag-ID oder beides einschalten.</p></li>
-</ol>
-</figure>
-
 Die Funktion steckt in NFC.cool Tools, auf dem iPhone genauso wie auf Android. Sie gehört zum Pro-Abo (Platinum), das brauchst du also, um Tags mit Zähler zu beschreiben. Falls du noch nie einen Tag beschrieben hast, fang am besten mit meiner Anleitung [NFC-Tags mit dem iPhone beschreiben](/de/blog/write-nfc-tags-iphone/) an, da stehen die Grundlagen drin.
 
 1. Öffne NFC.cool Tools, geh in den Bereich **NFC Tools** und tippe auf **NFC-Tap-Zähler**.
@@ -83,6 +76,15 @@ Die Funktion steckt in NFC.cool Tools, auf dem iPhone genauso wie auf Android. S
 Mehr ist es nicht, und das ist Absicht. Ab hier kommt der Tag allein zurecht: Er zählt und meldet selbstständig, bei jedem, der ihn scannt, mit oder ohne App.
 
 Falls du das irgendwann wieder loswerden willst: Die App kann den Zähler auf einem bereits beschriebenen Tag abschalten. Der Chip setzt dann keine aktuellen Werte mehr ein, der Inhalt bleibt aber genau so auf dem Tag, wie er zuletzt geschrieben wurde. Ein Detail, das man kennen sollte: Intern zählt der Chip auch danach weiter. Der Zählerstand geht nie verloren, er wird nur nicht mehr angezeigt.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Einen zählenden Tag einrichten</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Der Bildschirm NFC Tap Counter in NFC.cool Tools: ein Link, der bei jedem Scan Zählerstand und Tag-ID aktualisiert, für NTAG213, NTAG215 und NTAG216"><p><strong>NFC Tap Counter.</strong> Unter NFC Tools, für Tags vom Typ NTAG213, 215 und 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="Die Inhalte URL, Email, SMS und Shortcut, darunter Try it out"><p><strong>Inhalt wählen.</strong> Eine URL, eine E-Mail, eine SMS oder, auf dem iPhone, ein Kurzbefehl.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter und NFC Tag ID eingeschaltet, Batch write aus, und die Vorschau https://studionord.example/table-7?nfc=049F50824F1390x000007 mit Write to NFC Tag"><p><strong>Schalter und Vorschau.</strong> Die Vorschau zeigt, wo Tag-ID und Zählerstand landen, bevor du schreibst.</p></li>
+</ol>
+</figure>
 
 ---
 

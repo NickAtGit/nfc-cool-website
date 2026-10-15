@@ -63,13 +63,6 @@ Bunlardan birkaçını birleştirince şöyle bir şey çıkıyor: bir zanaatkar
 
 ## Adım adım kurulum
 
-<figure class="phone-figure" data-layout="float">
-<ol>
-<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="NFC.cool Tools'taki NFC Tap Counter ekranı: her okutmada dokunma sayısını ve tag kimliğini güncelleyen bir bağlantı; NTAG213, NTAG215 ve NTAG216 için"><p><strong>NFC Tap Counter.</strong> NFC Tools altında, NTAG213, 215 ve 216 tag'leri için.</p></li>
-<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Tap Counter kurulumu: içerik olarak bir URL, Try it out ve açık NFC Tap Counter ile NFC Tag ID anahtarları"><p><strong>Kur.</strong> İçeriği seç, sonra sayacı, tag kimliğini ya da ikisini birden aç.</p></li>
-</ol>
-</figure>
-
 Özellik NFC.cool Tools'ta, hem iPhone hem Android'de. Pro (Platinum) aboneliğinin parçası, yani sayaç açık tag yazmak için ona ihtiyacın var. Daha önce hiç tag yazmadıysan [iPhone'da NFC tag nasıl yazılır](/blog/write-nfc-tags-iphone/) yazım önce temelleri anlatıyor.
 
 1. NFC.cool Tools'u aç, **NFC Araçları** bölümüne git ve **NFC Okutma Sayacı**'na dokun.
@@ -83,6 +76,15 @@ Bunlardan birkaçını birleştirince şöyle bir şey çıkıyor: bir zanaatkar
 Kurulumun tamamı bu ve bilerek bu kadar kısa tuttum. O andan sonra tag kendine yetiyor: uygulamayla ya da uygulamasız, onu okutan herkes için kendi sayıp bildiriyor.
 
 Bir gün durdurmak istersen uygulama, var olan bir tag'de sayacı kapatabiliyor. Çip anlık değerleri yerleştirmeyi bırakıyor ama içerik tag'de en son yazıldığı gibi kalıyor. Bilmeye değer bir ayrıntı: değiştirmeyi kapattıktan sonra da çip içeride saymayı sürdürüyor; sayı hiç kaybolmuyor, yalnızca gösterilmiyor.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Sayan bir tag kurmak</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="NFC.cool Tools'taki NFC Tap Counter ekranı: her okutmada dokunma sayısını ve tag kimliğini güncelleyen bir bağlantı; NTAG213, NTAG215 ve NTAG216 için"><p><strong>NFC Tap Counter.</strong> NFC Tools altında, NTAG213, 215 ve 216 tag'leri için.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="İçerik seçenekleri URL, Email, SMS ve Shortcut; altında Try it out"><p><strong>İçeriği seç.</strong> Bir URL, e-posta, SMS ya da iPhone'da bir kestirme.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter ve NFC Tag ID açık, Batch write kapalı; önizleme https://studionord.example/table-7?nfc=049F50824F1390x000007 ve Write to NFC Tag"><p><strong>Anahtarlar ve önizleme.</strong> Önizleme, yazmadan önce tag kimliğinin ve sayının nereye geleceğini gösterir.</p></li>
+</ol>
+</figure>
 
 ---
 

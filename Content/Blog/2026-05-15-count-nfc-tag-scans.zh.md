@@ -63,13 +63,6 @@ ogDescription: "你的 NFC 标签可以自己统计扫描次数。下面讲讲�
 
 ## 一步一步设置
 
-<figure class="phone-figure" data-layout="float">
-<ol>
-<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="NFC.cool Tools 的 NFC Tap Counter 页面：一个每次扫描都会更新轻触次数和标签 ID 的链接，适用于 NTAG213、NTAG215 和 NTAG216"><p><strong>NFC Tap Counter。</strong>在 NFC Tools 里，适用于 NTAG213、215 和 216 标签。</p></li>
-<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Tap Counter 设置：内容为 URL、Try it out，以及已打开的 NFC Tap Counter 和 NFC Tag ID 开关"><p><strong>设置。</strong>选好内容，再打开计数、标签 ID，或者两个都开。</p></li>
-</ol>
-</figure>
-
 这个功能在 NFC.cool Tools 里，iPhone 和 Android 上都有。它属于 Pro（Platinum）订阅，所以写入启用了计数器的标签需要这个订阅。如果你从没写入过标签，我那篇[如何在 iPhone 上写入 NFC 标签](/blog/write-nfc-tags-iphone/)的教程会先带你过一遍基础。
 
 1. 打开 NFC.cool Tools，进入 **NFC Tools** 部分，轻触 **NFC Tap Counter**。
@@ -83,6 +76,15 @@ ogDescription: "你的 NFC 标签可以自己统计扫描次数。下面讲讲�
 整个设置就这些，我有意把它做得这么短。从那一刻起，标签就能自给自足了：它会为每一个轻触它的人自己计数并上报，不管有没有这个 App。
 
 如果你哪天想停掉它，App 可以对一枚已有的标签关闭计数器。芯片会停止替换进实时值，但内容会原封不动地保留在标签上，跟上次写入时一模一样。有一个细节值得知道：即使你关掉了替换，芯片在内部仍然继续计数，计数从不会丢失，只是不再显示出来而已。
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>设置一枚会计数的标签</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="NFC.cool Tools 的 NFC Tap Counter 页面：一个每次扫描都会更新轻触次数和标签 ID 的链接，适用于 NTAG213、NTAG215 和 NTAG216"><p><strong>NFC Tap Counter。</strong>在 NFC Tools 里，适用于 NTAG213、215 和 216 标签。</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="内容选项 URL、Email、SMS 和 Shortcut，下方是 Try it out"><p><strong>选择内容。</strong>URL、邮件、短信，或者在 iPhone 上用快捷指令。</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter 和 NFC Tag ID 已打开，Batch write 关闭，预览为 https://studionord.example/table-7?nfc=049F50824F1390x000007，带 Write to NFC Tag"><p><strong>开关与预览。</strong>写入之前，预览就会显示标签 ID 和计数出现在哪里。</p></li>
+</ol>
+</figure>
 
 ---
 

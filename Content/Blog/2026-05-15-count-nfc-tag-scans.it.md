@@ -63,13 +63,6 @@ Mettine insieme un paio e ottieni una cosa così: un artigiano infila un tag in 
 
 ## La configurazione, passo dopo passo
 
-<figure class="phone-figure" data-layout="float">
-<ol>
-<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="La schermata NFC Tap Counter di NFC.cool Tools: un link che aggiorna il conteggio dei tocchi e l'ID del tag a ogni lettura, per NTAG213, NTAG215 e NTAG216"><p><strong>NFC Tap Counter.</strong> In NFC Tools, per tag NTAG213, 215 e 216.</p></li>
-<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="La configurazione del Tap Counter: un URL come contenuto, Try it out, e gli interruttori NFC Tap Counter e NFC Tag ID attivi"><p><strong>Configuralo.</strong> Scegli il contenuto, poi attiva il conteggio, l'ID del tag o entrambi.</p></li>
-</ol>
-</figure>
-
 La funzione si trova in NFC.cool Tools, sia su iPhone sia su Android. Fa parte dell'abbonamento Pro (Platinum), che serve quindi per scrivere i tag con il contatore attivo. Se non hai mai scritto un tag, la mia guida su [come scrivere i tag NFC con l'iPhone](/blog/write-nfc-tags-iphone/) parte dalle basi.
 
 1. Apri NFC.cool Tools, vai alla sezione **NFC Tools** e tocca **Contatore degli avvicinamenti**.
@@ -83,6 +76,15 @@ La funzione si trova in NFC.cool Tools, sia su iPhone sia su Android. Fa parte d
 La configurazione finisce qui, e l'ho tenuta apposta così breve. Da quel momento il tag si arrangia da solo: conta e riferisce per conto proprio, con chiunque lo avvicini, app o non app.
 
 Se a un certo punto vuoi fermarlo, l'app disattiva il contatore su un tag già scritto. Il chip smette di inserire i valori aggiornati, ma il contenuto resta sul tag esattamente com'era all'ultima scrittura. Un dettaglio che vale la pena conoscere: internamente il chip continua a contare anche dopo che hai spento la sostituzione. Il conteggio non si perde mai, semplicemente smette di essere mostrato.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Configurare un tag che conta</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="La schermata NFC Tap Counter di NFC.cool Tools: un link che aggiorna il conteggio dei tocchi e l'ID del tag a ogni lettura, per NTAG213, NTAG215 e NTAG216"><p><strong>NFC Tap Counter.</strong> In NFC Tools, per tag NTAG213, 215 e 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="Le opzioni di contenuto URL, Email, SMS e Shortcut, con Try it out sotto"><p><strong>Scegli il contenuto.</strong> Un URL, un'email, un SMS o, su iPhone, un comando rapido.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter e NFC Tag ID attivi, Batch write spento, e l'anteprima https://studionord.example/table-7?nfc=049F50824F1390x000007, con Write to NFC Tag"><p><strong>Interruttori e anteprima.</strong> L'anteprima mostra dove finiranno l'ID del tag e il conteggio, prima di scrivere.</p></li>
+</ol>
+</figure>
 
 ---
 
