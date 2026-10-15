@@ -23,6 +23,15 @@ Sudah bertahun-tahun saya membangun banyak sekali fitur NFC, dan persegi panjang
 
 ## Layar yang tidak butuh baterai
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="Bagian belakang iPhone dalam casing e-ink NFC berwarna oranye, panelnya menampilkan foto golden retriever dalam empat tinta"><p><strong>Sebuah foto.</strong> Dalam hitam, putih, merah, dan kuning, tanpa baterai di casing.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="Panel e-ink casing menampilkan kode QR untuk nfc.cool"><p><strong>Kode QR.</strong> Siapa pun bisa memindainya dari belakang ponsel Anda.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="Panel e-ink casing berwarna kuning: Next, Dinner with Mia, Rabu, 14 Oktober, 19.30 hingga 21.30, Trattoria Roma"><p><strong>Acara berikutnya.</strong> Cuplikan dari kalender Anda.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="Panel e-ink casing menampilkan Rabu, 14 Oktober: Gym, Team stand-up, Lunch with Alex, Dentist, Dinner with Mia"><p><strong>Agenda hari ini.</strong> Seluruh hari, sampai Anda memasang tampilan berikutnya.</p></li>
+</ol>
+</figure>
+
 Kalau Anda belum pernah melihat casing seperti ini: bentuknya mirip casing ponsel biasa, hanya saja sebagian besar bagian belakangnya berupa layar e-ink, jenis layar yang sama dengan yang dipakai e-reader. Layar di casing saya punya empat warna tinta: hitam, putih, merah, dan kuning.
 
 Di dalamnya tidak ada baterai, juga tidak ada port pengisian daya. Casing ini mendapat daya dari medan NFC ponsel Anda, medan yang sama yang membangunkan stiker NFC saat Anda memindainya. Selama ponsel ditempelkan ke casing, medan itu menghidupkan sebuah chip kecil dan sebuah mikrokontroler, yang lalu menggambar ulang layarnya. Begitu gambar sudah tampil, e-ink sama sekali tidak butuh daya untuk mempertahankannya. Gambarnya tetap di sana, meski ponselnya kehabisan baterai atau casingnya tersimpan di laci.

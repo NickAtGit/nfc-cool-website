@@ -23,6 +23,15 @@ Ao longo dos anos construí muitas funcionalidades NFC, e aquele simples retâng
 
 ## Um ecrã sem bateria
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="A traseira de um iPhone numa capa NFC de tinta eletrónica laranja, com o ecrã a mostrar a fotografia de um golden retriever em quatro tintas"><p><strong>Uma fotografia.</strong> A preto, branco, vermelho e amarelo, sem bateria na capa.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="O ecrã de tinta eletrónica da capa com um código QR para nfc.cool"><p><strong>Um código QR.</strong> Qualquer pessoa o lê nas costas do seu telemóvel.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="O ecrã de tinta eletrónica da capa em amarelo: Next, Dinner with Mia, quarta, 14 de outubro, 19:30 às 21:30, Trattoria Roma"><p><strong>O próximo evento.</strong> Um instantâneo do seu calendário.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="O ecrã de tinta eletrónica da capa com quarta-feira, 14 de outubro: Gym, Team stand-up, Lunch with Alex, Dentist, Dinner with Mia"><p><strong>A agenda de hoje.</strong> O dia inteiro, até pôr o próximo design.</p></li>
+</ol>
+</figure>
+
 Se nunca viu uma destas capas: parece uma capa de telemóvel normal, só que boa parte das costas é um ecrã e-ink, o mesmo tipo de ecrã de um leitor de livros digitais. O meu desenha com quatro tintas: preto, branco, vermelho e amarelo.
 
 Lá dentro não há bateria nem porta de carregamento. A capa vai buscar a energia ao campo NFC do telemóvel, o mesmo campo que acorda um autocolante NFC quando o lê. Enquanto o telemóvel está encostado à capa, alimenta um pequeno chip e um microcontrolador, que redesenham o ecrã. Depois de a imagem lá estar, o e-ink não precisa de energia nenhuma para a manter. Fica simplesmente ali, com o telemóvel desligado, numa gaveta, onde for.

@@ -23,6 +23,15 @@ He creado un montón de funciones NFC con los años, y ese simple rectángulo ro
 
 ## Una pantalla sin batería
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="La parte trasera de un iPhone en una funda NFC de tinta electrónica naranja, con el panel mostrando la foto de un golden retriever en cuatro tintas"><p><strong>Una foto.</strong> En negro, blanco, rojo y amarillo, sin batería en la funda.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="El panel de tinta electrónica de la funda con un código QR de nfc.cool"><p><strong>Un código QR.</strong> Cualquiera puede escanearlo en la parte trasera de tu móvil.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="El panel de tinta electrónica de la funda en amarillo: Next, Dinner with Mia, miércoles 14 de octubre, de 19:30 a 21:30, Trattoria Roma"><p><strong>Tu próximo evento.</strong> Una instantánea de tu calendario.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="El panel de tinta electrónica de la funda con el miércoles 14 de octubre: Gym, Team stand-up, Lunch with Alex, Dentist, Dinner with Mia"><p><strong>La agenda de hoy.</strong> Todo el día, hasta que pongas el siguiente diseño.</p></li>
+</ol>
+</figure>
+
 Si nunca has visto una de estas fundas: parece una funda normal y corriente, salvo que gran parte de la cara trasera es una pantalla de tinta electrónica, como la de un lector de libros electrónicos. La mía pinta con cuatro tintas: negra, blanca, roja y amarilla.
 
 No lleva batería ni puerto de carga. La funda se alimenta del campo NFC del móvil, el mismo que despierta una pegatina NFC cuando la escaneas. Mientras tienes el móvil apoyado en la funda, ese campo da energía a un pequeño chip y a un microcontrolador, que son los que redibujan la pantalla. Una vez que la imagen está puesta, la tinta electrónica no necesita nada de energía para mantenerla. Se queda ahí sin más: con el móvil sin batería, en un cajón, donde sea.

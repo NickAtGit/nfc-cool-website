@@ -23,6 +23,15 @@ Ich habe über die Jahre viele NFC-Funktionen gebaut, und dieses schlichte rote 
 
 ## Ein Display ohne Akku
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="Die Rückseite eines iPhones in einer orangen NFC-E-Ink-Hülle, das Display zeigt einen Golden Retriever in vier Farben"><p><strong>Ein Foto.</strong> In Schwarz, Weiß, Rot und Gelb, ganz ohne Akku in der Hülle.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="Das E-Ink-Display der Hülle mit einem QR-Code für nfc.cool"><p><strong>Ein QR-Code.</strong> Jeder kann ihn von der Rückseite deines Handys scannen.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="Das E-Ink-Display der Hülle auf Gelb: Next, Dinner with Mia, Mi., 14. Oktober, 19:30 bis 21:30 Uhr, Trattoria Roma"><p><strong>Dein nächster Termin.</strong> Eine Momentaufnahme aus deinem Kalender.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="Das E-Ink-Display der Hülle mit Mittwoch, 14. Oktober: Gym, Team stand-up, Lunch with Alex, Dentist, Dinner with Mia"><p><strong>Die Termine von heute.</strong> Der ganze Tag, bis du das nächste Motiv aufspielst.</p></li>
+</ol>
+</figure>
+
 Falls du so eine Hülle noch nie gesehen hast: Sie sieht aus wie eine ganz normale Handyhülle, nur dass ein großer Teil der Rückseite ein E-Ink-Display ist, also dieselbe Art Bildschirm, die auch in E-Readern steckt. Meine zeichnet mit vier Farben: Schwarz, Weiß, Rot und Gelb.
 
 Einen Akku gibt es nicht, einen Ladeanschluss auch nicht. Die Hülle bezieht ihren Strom aus dem NFC-Feld deines Handys, demselben Feld, das auch einen NFC-Sticker aufweckt, wenn du ihn scannst. Solange das Handy an der Hülle anliegt, versorgt es einen kleinen Chip und einen Mikrocontroller mit Energie, und die bauen das Display neu auf. Steht das Bild erst einmal, braucht E-Ink überhaupt keinen Strom mehr, um es zu halten. Es bleibt einfach da, auch wenn der Handyakku leer ist oder die Hülle in der Schublade liegt.

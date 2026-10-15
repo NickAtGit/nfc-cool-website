@@ -23,6 +23,15 @@ ogDescription: "كيف فككت بالهندسة العكسية جراب هات�
 
 ## شاشة بلا بطارية
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="ظهر جهاز iPhone داخل غطاء NFC بحبر إلكتروني برتقالي، وعلى لوحته صورة كلب غولدن ريتريفر بأربعة أحبار"><p><strong>صورة.</strong> بالأسود والأبيض والأحمر والأصفر، دون بطارية في الغطاء.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="لوحة الحبر الإلكتروني في الغطاء تعرض رمز QR لـnfc.cool"><p><strong>رمز QR.</strong> يستطيع أي أحد مسحه من ظهر هاتفك.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="لوحة الحبر الإلكتروني على خلفية صفراء: Next وDinner with Mia والأربعاء ١٤ أكتوبر من ٧:٣٠ إلى ٩:٣٠ مساءً وTrattoria Roma"><p><strong>موعدك التالي.</strong> لقطة من تقويمك.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="لوحة الحبر الإلكتروني تعرض الأربعاء ١٤ أكتوبر: Gym وTeam stand-up وLunch with Alex وDentist وDinner with Mia"><p><strong>مواعيد اليوم.</strong> اليوم كله، إلى أن تضع التصميم التالي.</p></li>
+</ol>
+</figure>
+
 إن لم ترَ أحد هذه الجرابات من قبل، فهو يبدو كأي جراب هاتف عادي، إلا أن جزءًا كبيرًا من ظهره شاشة حبر إلكتروني، من النوع نفسه الذي تستخدمه أجهزة قراءة الكتب الإلكترونية. وشاشة جرابي ترسم بأربعة ألوان من الحبر: الأسود والأبيض والأحمر والأصفر.
 
 لا بطارية في داخله ولا منفذ شحن. فالجراب يستمد طاقته من مجال NFC في هاتفك، المجال نفسه الذي يوقظ ملصق NFC حين تمسحه. وما دام الهاتف ملاصقًا للجراب، فإنه يغذّي رقاقة صغيرة ومتحكمًا دقيقًا يعيدان رسم الشاشة. وبعد أن تظهر الصورة، لا يحتاج الحبر الإلكتروني إلى أي طاقة كي يحتفظ بها. تبقى الصورة في مكانها ببساطة، سواء فرغت بطارية الهاتف أو استقر الجراب في درج.

@@ -23,6 +23,15 @@ ogDescription: "Як я розібрав протокол NFC-чохла з e-in
 
 ## Екран без батареї
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="Задня сторона iPhone в помаранчевому NFC-чохлі з електронним чорнилом, на панелі фото золотистого ретривера в чотирьох фарбах"><p><strong>Фото.</strong> Чорним, білим, червоним і жовтим, без батареї в чохлі.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="Панель чохла з електронним чорнилом показує QR-код nfc.cool"><p><strong>QR-код.</strong> Його може відсканувати будь-хто просто із задньої сторони телефона.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="Панель чохла на жовтому тлі: Next, Dinner with Mia, ср, 14 жовтня, з 19:30 до 21:30, Trattoria Roma"><p><strong>Найближча подія.</strong> Знімок із календаря.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="Панель чохла показує середу, 14 жовтня: Gym, Team stand-up, Lunch with Alex, Dentist, Dinner with Mia"><p><strong>Плани на сьогодні.</strong> Увесь день, доки не виведеш наступний дизайн.</p></li>
+</ol>
+</figure>
+
 Якщо ти ще не бачив таких чохлів: на вигляд звичайний чохол для телефона, тільки більшу частину задньої панелі займає e-ink-екран, такий самий, як у рідерах для електронних книжок. Мій малює чотирма фарбами: чорною, білою, червоною й жовтою.
 
 Батареї всередині немає, роз'єму для заряджання теж. Живлення чохол бере з NFC-поля телефона, того самого, яке пробуджує NFC-наліпку, коли ти її зчитуєш. Поки телефон прикладений до чохла, поле живить маленький чип і мікроконтролер, а вони вже перемальовують екран. Коли картинка на місці, e-ink не потребує жодної енергії, щоб її втримувати. Вона просто лишається: на розрядженому телефоні, в шухляді, де завгодно.

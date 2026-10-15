@@ -23,6 +23,15 @@ In tutti questi anni ho sviluppato un sacco di funzioni NFC, e quel semplice ret
 
 ## Uno schermo che vive senza batteria
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="Il retro di un iPhone in una cover NFC a inchiostro elettronico arancione, con il pannello che mostra la foto di un golden retriever in quattro inchiostri"><p><strong>Una foto.</strong> In nero, bianco, rosso e giallo, senza batteria nella cover.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="Il pannello a inchiostro elettronico della cover con un codice QR per nfc.cool"><p><strong>Un codice QR.</strong> Chiunque può scansionarlo dal retro del telefono.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="Il pannello a inchiostro elettronico della cover su giallo: Next, Dinner with Mia, mer 14 ottobre, dalle 19:30 alle 21:30, Trattoria Roma"><p><strong>Il prossimo evento.</strong> Un'istantanea dal calendario.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="Il pannello a inchiostro elettronico della cover con mercoledì 14 ottobre: Gym, Team stand-up, Lunch with Alex, Dentist, Dinner with Mia"><p><strong>L'agenda di oggi.</strong> Tutta la giornata, fino al prossimo design.</p></li>
+</ol>
+</figure>
+
 Se non ne hai mai vista una: sembra una normale custodia per telefono, solo che buona parte del retro è uno schermo e-ink, lo stesso tipo di display degli e-reader. Il mio disegna con quattro inchiostri: nero, bianco, rosso e giallo.
 
 Dentro non c'è nessuna batteria e nessuna porta di ricarica. La custodia prende l'energia dal campo NFC del telefono, lo stesso che risveglia un adesivo NFC quando lo scansioni. Finché il telefono resta appoggiato alla custodia, alimenta un piccolo chip e un microcontrollore, che ridisegnano lo schermo. Una volta comparsa l'immagine, l'e-ink non ha più bisogno di energia per mantenerla. Resta lì e basta: con il telefono scarico, in fondo a un cassetto, ovunque.

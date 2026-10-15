@@ -23,6 +23,15 @@ Yıllar içinde pek çok NFC özelliği geliştirdim ve o düz kırmızı dikdö
 
 ## Pili olmayan ekran
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="Turuncu bir NFC e-mürekkep kılıfındaki iPhone'un arkası; panelde dört mürekkeple bir golden retriever fotoğrafı"><p><strong>Bir fotoğraf.</strong> Siyah, beyaz, kırmızı ve sarıyla; kılıfta pil yok.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="Kılıfın e-mürekkep panelinde nfc.cool için bir QR kod"><p><strong>Bir QR kod.</strong> Herkes telefonunun arkasından tarayabilir.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="Sarı zeminli e-mürekkep paneli: Next, Dinner with Mia, 14 Ekim Çarşamba, 19.30 ile 21.30 arası, Trattoria Roma"><p><strong>Sıradaki etkinliğin.</strong> Takviminden bir anlık görüntü.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="Kılıfın e-mürekkep panelinde 14 Ekim Çarşamba: Gym, Team stand-up, Lunch with Alex, Dentist, Dinner with Mia"><p><strong>Bugünün ajandası.</strong> Bir sonraki görünümü koyana kadar bütün gün.</p></li>
+</ol>
+</figure>
+
 Bu kılıflardan hiç görmediysen anlatayım: sıradan bir telefon kılıfına benziyor, tek farkı arka yüzünün büyük kısmının e-ink ekran olması. E-kitap okuyucularda kullanılan türden bir ekran bu. Benimki dört renk mürekkeple çiziyor: siyah, beyaz, kırmızı ve sarı.
 
 İçinde ne pil var ne de şarj girişi. Kılıf enerjisini telefonunun NFC alanından alıyor; bir NFC çıkartmasını okuttuğunda onu uyandıran alanın ta kendisinden. Telefon kılıfa dayalı durduğu sürece küçük bir çipe ve ekranı yeniden çizen mikrodenetleyiciye güç veriyor. Resim ekrana bir kez geldikten sonra e-ink onu orada tutmak için hiç enerji harcamıyor. Telefonun şarjı bitse de, kılıf çekmecede dursa da resim olduğu yerde kalıyor.

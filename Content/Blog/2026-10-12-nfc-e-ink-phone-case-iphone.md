@@ -23,6 +23,15 @@ I have built a lot of NFC features over the years, and that plain red rectangle 
 
 ## A screen with no battery
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="The back of an iPhone in an orange NFC e-ink case, its panel showing a photo of a golden retriever in four inks"><p><strong>A photo.</strong> In black, white, red and yellow, with no battery in the case.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="The case's e-ink panel showing a QR code for nfc.cool"><p><strong>A QR code.</strong> Anyone can scan it off the back of your phone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="The case's e-ink panel on yellow: Next, Dinner with Mia, Wed, October 14, 7:30 PM to 9:30 PM, Trattoria Roma"><p><strong>Your next event.</strong> A snapshot from your calendar.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="The case's e-ink panel showing Wednesday, October 14: Gym, Team stand-up, Lunch with Alex, Dentist, Dinner with Mia"><p><strong>Today's agenda.</strong> The whole day, until you put on the next look.</p></li>
+</ol>
+</figure>
+
 If you haven't seen one of these cases: it looks like an ordinary phone case, except a big part of the back is an e-ink screen, the same kind of display an e-reader uses. Mine draws in four inks: black, white, red and yellow.
 
 There's no battery inside and no charging port. The case gets its power from your phone's NFC field, the same field that wakes up an NFC sticker when you scan it. Because your phone sits right inside it, the case is always in reach of that field. When an app asks it to, the field powers a small chip and a microcontroller, which redraw the screen. Once the picture is on, e-ink needs no power at all to keep it there. It just stays, on a dead phone, in a drawer, wherever.

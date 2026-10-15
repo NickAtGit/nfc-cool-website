@@ -23,6 +23,15 @@ ogDescription: "バッテリーのないNFC電子ペーパースマホケース�
 
 ## 電池のいらない画面
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="オレンジのNFC電子ペーパーケースに入ったiPhoneの背面。パネルに4色のゴールデンレトリバーの写真"><p><strong>写真。</strong>黒、白、赤、黄の4色で。ケースにバッテリーはありません。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="ケースの電子ペーパーパネルにnfc.coolのQRコード"><p><strong>QRコード。</strong>スマホの背面から誰でもスキャンできます。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="黄色地の電子ペーパーパネル。Next、Dinner with Mia、10月14日（水）、7:30 PMから9:30 PM、Trattoria Roma"><p><strong>次の予定。</strong>カレンダーのスナップショットです。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="ケースの電子ペーパーパネルに10月14日（水）の予定。Gym、Team stand-up、Lunch with Alex、Dentist、Dinner with Mia"><p><strong>今日の予定。</strong>次のデザインを表示するまで、一日分がそのまま。</p></li>
+</ol>
+</figure>
+
 この手のケースを見たことがない方のために説明すると、見た目は普通のスマホケースです。ただ、背面の大部分が電子ペーパーの画面になっています。電子書籍リーダーに使われているのと同じ種類のディスプレイです。私のケースは、黒・白・赤・黄の4色のインクで描画します。
 
 中にバッテリーはなく、充電端子もありません。ケースは、スマホが出すNFCの電磁界から電力を得ています。NFCステッカーをスキャンしたときに、ステッカーを目覚めさせるのと同じ電磁界です。スマホをケースにかざしているあいだだけ、小さなチップとマイコンに電気が流れ、画面が描き直されます。一度絵が表示されてしまえば、電子ペーパーはそれを保つのに電力をまったく使いません。スマホの電池が切れていても、引き出しにしまっておいても、そのまま残り続けます。

@@ -23,6 +23,15 @@ ogDescription: "我是怎么逆向一个不用电池的 NFC 墨水屏手机壳�
 
 ## 一块不用电池的屏幕
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="装在橙色 NFC 墨水屏手机壳里的 iPhone 背面，屏上是一张四色的金毛犬照片"><p><strong>一张照片。</strong>黑、白、红、黄四色，手机壳里没有电池。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="手机壳的墨水屏上显示一个 nfc.cool 的二维码"><p><strong>一个二维码。</strong>任何人都能从你手机背面扫码。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="黄色底的墨水屏：Next、Dinner with Mia、10 月 14 日周三、晚上 7:30 到 9:30、Trattoria Roma"><p><strong>下一个日程。</strong>日历的一张快照。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="墨水屏上显示 10 月 14 日周三的日程：Gym、Team stand-up、Lunch with Alex、Dentist、Dinner with Mia"><p><strong>今日日程。</strong>一整天的安排，直到你换上下一个设计。</p></li>
+</ol>
+</figure>
+
 如果你还没见过这种手机壳：它看上去和普通手机壳没什么两样，只是背面很大一块是墨水屏，也就是电子书阅读器用的那种屏幕。我这块能显示四种墨色：黑、白、红、黄。
 
 壳里没有电池，也没有充电口。它的电来自手机的 NFC 场，也就是你扫描 NFC 贴纸时把贴纸唤醒的那个场。手机贴着手机壳的时候，会给里面的一枚小芯片和一颗微控制器供电，由它们来刷新屏幕。画面一旦显示出来，墨水屏就不再需要任何电力来维持。它会一直留在那里，不管手机没电了，还是壳被扔进了抽屉，都一样。

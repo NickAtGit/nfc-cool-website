@@ -23,6 +23,15 @@ J'ai développé beaucoup de fonctions NFC au fil des années, et ce simple rect
 
 ## Un écran sans batterie
 
+<figure class="phone-figure" data-layout="float" data-device="einkcase">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-1-photo-480w.webp" alt="Le dos d'un iPhone dans une coque NFC à encre électronique orange, dont l'écran affiche la photo d'un golden retriever en quatre encres"><p><strong>Une photo.</strong> En noir, blanc, rouge et jaune, sans batterie dans la coque.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-2-qr-480w.webp" alt="L'écran à encre électronique de la coque avec un QR code pour nfc.cool"><p><strong>Un QR code.</strong> N'importe qui peut le scanner au dos de votre téléphone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-3-event-480w.webp" alt="L'écran à encre électronique de la coque sur fond jaune : Next, Dinner with Mia, mer. 14 octobre, de 19 h 30 à 21 h 30, Trattoria Roma"><p><strong>Votre prochain événement.</strong> Un instantané de votre calendrier.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/case-4-today-480w.webp" alt="L'écran à encre électronique de la coque avec le mercredi 14 octobre : Gym, Team stand-up, Lunch with Alex, Dentist, Dinner with Mia"><p><strong>L'agenda du jour.</strong> Toute la journée, jusqu'au prochain design.</p></li>
+</ol>
+</figure>
+
 Si vous n'avez jamais vu une de ces coques : on dirait une coque de téléphone ordinaire, sauf qu'une bonne partie du dos est un écran e-ink, le même type d'affichage que sur une liseuse. La mienne dessine avec quatre encres : noir, blanc, rouge et jaune.
 
 Pas de batterie à l'intérieur, pas de port de charge. La coque tire son énergie du champ NFC de votre téléphone, celui-là même qui réveille un autocollant NFC quand vous le scannez. Tant que le téléphone est maintenu contre la coque, il alimente une petite puce et un microcontrôleur, qui redessinent l'écran. Une fois l'image en place, l'e-ink n'a plus besoin du moindre courant pour la garder. Elle reste là, même quand le téléphone est à plat ou que la coque dort au fond d'un tiroir.
