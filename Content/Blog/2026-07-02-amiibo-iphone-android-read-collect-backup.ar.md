@@ -48,6 +48,15 @@ ogDescription: "منحتُ NFC.cool دعمًا كاملًا لـAmiibo - امس�
 
 **النسخ الاحتياطي والاستعادة.** بعد استيراد مفاتيحك الخاصة، يمكنك كتابة نسخة من مجسّم - أُعيد اشتقاق مفاتيحها - على وسم NTAG215 فارغ. يمكنك عمل نسخة احتياطية مباشرةً من مجسّم مسحته للتو، أو الاستعادة من ملف `.bin` محفوظ على جهازك. يعيد التطبيق اشتقاق المفاتيح للوسم الفارغ الذي تحمله، ويوقّع البيانات لذلك الوسم، فتكون النسخة صالحة بشروطها الخاصة لا تزويرًا محكومًا عليه بالفشل بايتًا ببايت. والكتابة دائمة - فما إن يُقفل الوسم حتى يُقفل - والتطبيق يقول ذلك بوضوح قبل أن تُقدِم على الأمر.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>اقرأ، اجمع، احفظ نسخة</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="مجسّم ممسوح في NFC.cool Tools باسم Bramble the Badger، مع الشخصية وسلسلة اللعبة والسلسلة والنوع وعدّاد الكتابة في الوسم"><p><strong>القراءة.</strong> الشخصية والسلسلة والنوع، مع معلومات من الوسم نفسه، بلا حاجة إلى مفاتيح.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="«مجموعتي»، شبكة من ستة مجسّمات ممسوحة"><p><strong>الجمع.</strong> كل مجسّم تمسحه ينتهي في «مجموعتي» على جهازك.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="شاشة NFC Figures وفيها Scan Figure وMy Collection وRestore from Backup وNFC Keys"><p><strong>النسخ الاحتياطي والاستعادة.</strong> بعد استيراد مفاتيحك الخاصة، اكتب نسخة احتياطية على وسم NTAG215 فارغ.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## ما استُبعد عمدًا

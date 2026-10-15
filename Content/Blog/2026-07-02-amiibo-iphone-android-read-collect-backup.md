@@ -48,6 +48,15 @@ Three things, in the order you will probably use them.
 
 **Back up and restore.** With your own keys imported, you can write a re-keyed copy of a figure to a blank NTAG215. You can back one up straight from a figure you just scanned, or restore from a saved `.bin` dump on your device. The app re-derives the keys for the blank you are holding and signs the data for that tag, so the copy is valid on its own terms rather than a doomed byte-for-byte forgery. The write is permanent - once the tag is locked, it is locked - and the app says so plainly before you commit.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Read, Collect, Back Up</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="A scanned figure in NFC.cool Tools, Bramble the Badger, with its character, game series, series, type and the tag's write counter"><p><strong>Read.</strong> The character, series and type, plus facts from the tag itself, with no keys needed.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="My Collection, a grid of six scanned figures"><p><strong>Collect.</strong> Every figure you scan lands in My Collection, on your device.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="The NFC Figures screen with Scan Figure, My Collection, Restore from Backup and NFC Keys"><p><strong>Back up and restore.</strong> With your own keys imported, write a backup to a blank NTAG215.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## What's deliberately left out

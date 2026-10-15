@@ -48,6 +48,15 @@ Amiiboの中には何か特別なものが入っている、と多くの人は�
 
 **バックアップと復元**。自分の鍵をインポートしておけば、鍵を作り直したフィギュアのコピーを、空のNTAG215に書き込めます。スキャンしたばかりのフィギュアから直接バックアップすることも、端末に保存した`.bin`ダンプから復元することもできます。アプリは、手にしている空のタグに合わせて鍵を生成し直し、そのタグ用にデータを署名します。だからコピーは、失敗が約束されたバイト単位の偽造ではなく、それ自体として有効になります。書き込みは元に戻せません - タグは一度ロックすれば、ロックされたままです - アプリは実行前にそれをはっきり伝えます。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>読み取り、集めて、バックアップ</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="NFC.cool Toolsでスキャンしたフィギュア、Bramble the Badger。キャラクター、ゲームシリーズ、シリーズ、種類、タグの書き込みカウンター"><p><strong>読み取り。</strong>キャラクター、シリーズ、種類に加えてタグ自体の情報も。鍵は不要です。</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="マイコレクション。スキャンしたフィギュア6体のグリッド"><p><strong>コレクション。</strong>スキャンしたフィギュアはすべて、端末内のマイコレクションに入ります。</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="NFC Figuresの画面。Scan Figure、My Collection、Restore from Backup、NFC Keysが並ぶ"><p><strong>バックアップと復元。</strong>自分の鍵をインポートすれば、空のNTAG215にバックアップを書き込めます。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## あえて入れていないもの

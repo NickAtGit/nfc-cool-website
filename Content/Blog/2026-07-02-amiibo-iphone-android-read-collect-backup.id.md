@@ -48,6 +48,15 @@ Tiga hal, dalam urutan yang mungkin akan Anda gunakan.
 
 **Cadangkan dan pulihkan.** Dengan kunci Anda sendiri yang telah diimpor, Anda bisa menulis salinan figur yang kuncinya telah diturunkan ulang ke sebuah NTAG215 kosong. Anda bisa mencadangkan langsung dari figur yang baru saja Anda pindai, atau memulihkan dari berkas dump `.bin` yang tersimpan di perangkat Anda. Aplikasi menurunkan ulang kunci untuk tag kosong yang Anda pegang dan menandatangani datanya untuk tag itu, sehingga salinannya sah menurut ketentuannya sendiri, bukan sekadar pemalsuan byte demi byte yang pasti gagal. Penulisannya bersifat permanen - begitu tag terkunci, ia terkunci selamanya - dan aplikasi menyatakannya dengan jelas sebelum Anda melanjutkan.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Baca, koleksi, cadangkan</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="Figur yang dipindai di NFC.cool Tools, Bramble the Badger, dengan karakter, seri game, seri, jenis, dan penghitung tulis tag"><p><strong>Baca.</strong> Karakter, seri, dan jenisnya, plus data dari tag itu sendiri, tanpa perlu kunci.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="My Collection, kisi berisi enam figur yang sudah dipindai"><p><strong>Koleksi.</strong> Setiap figur yang Anda pindai masuk ke My Collection, di perangkat Anda.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="Layar NFC Figures dengan Scan Figure, My Collection, Restore from Backup, dan NFC Keys"><p><strong>Cadangkan dan pulihkan.</strong> Dengan kunci Anda sendiri yang sudah diimpor, tulis cadangan ke NTAG215 kosong.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Apa yang sengaja tidak disertakan

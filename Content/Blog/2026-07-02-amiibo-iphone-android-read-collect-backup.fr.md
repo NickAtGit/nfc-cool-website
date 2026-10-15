@@ -48,6 +48,15 @@ Trois choses, dans l'ordre où vous les utiliserez probablement.
 
 **Sauvegarder et restaurer.** Avec vos propres clés importées, vous pouvez écrire une copie d'une figurine, avec des clés recalculées, sur un NTAG215 vierge. Vous pouvez en sauvegarder une directement depuis une figurine que vous venez de scanner, ou restaurer depuis un fichier `.bin` enregistré sur votre appareil. L'app redérive les clés pour le tag vierge que vous tenez et signe les données pour ce tag, de sorte que la copie est valide selon ses propres termes, plutôt qu'une contrefaçon octet par octet vouée à l'échec. L'écriture est définitive - une fois le tag verrouillé, il est verrouillé - et l'app le dit clairement avant que vous ne validiez.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Lire, collectionner, sauvegarder</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="Une figurine scannée dans NFC.cool Tools, Bramble the Badger, avec le personnage, la série de jeux, la série, le type et le compteur d'écritures du tag"><p><strong>Lire.</strong> Le personnage, la série et le type, plus des infos tirées du tag lui-même, sans aucune clé.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="Ma collection, une grille de six figurines scannées"><p><strong>Collectionner.</strong> Chaque figurine scannée rejoint Ma collection, sur votre appareil.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="L'écran NFC Figures avec Scan Figure, My Collection, Restore from Backup et NFC Keys"><p><strong>Sauvegarder et restaurer.</strong> Avec vos propres clés importées, écrivez une sauvegarde sur un NTAG215 vierge.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Ce qui est délibérément laissé de côté

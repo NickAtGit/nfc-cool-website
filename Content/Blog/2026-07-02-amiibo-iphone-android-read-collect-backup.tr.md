@@ -48,6 +48,15 @@ Geçerli bir kopya çıkarmak için anahtarları hedef tag'e göre yeniden türe
 
 **Yedekle ve geri yükle.** Kendi anahtarlarını içeri aldıysan, bir figürün anahtarı yeniden türetilmiş kopyasını boş bir NTAG215'e yazabilirsin. Az önce okuttuğun figürden doğrudan yedek alabilir ya da cihazındaki kayıtlı bir `.bin` dökümünden geri yükleyebilirsin. Uygulama, elindeki boş tag için anahtarları yeniden türetiyor ve veriyi o tag'e göre imzalıyor; böylece kopya, baştan başarısızlığa mahkum bir bayt kopyası değil, kendi başına geçerli oluyor. Yazma kalıcı; tag bir kez kilitlendi mi kilitlidir ve uygulama sen onaylamadan önce bunu açıkça söylüyor.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Oku, topla, yedekle</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="NFC.cool Tools'ta okutulmuş bir figür, Bramble the Badger; karakter, oyun serisi, seri, tür ve tag'in yazma sayacı"><p><strong>Oku.</strong> Karakter, seri ve tür, üstüne tag'in kendisinden bilgiler; anahtar gerekmez.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="Koleksiyonum, okutulmuş altı figürden oluşan bir ızgara"><p><strong>Topla.</strong> Okuttuğun her figür cihazındaki Koleksiyonum'a gider.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="Scan Figure, My Collection, Restore from Backup ve NFC Keys seçenekleriyle NFC Figures ekranı"><p><strong>Yedekle ve geri yükle.</strong> Kendi anahtarlarını içe aktardıktan sonra boş bir NTAG215'e yedek yaz.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Bilerek dışarıda bırakılanlar

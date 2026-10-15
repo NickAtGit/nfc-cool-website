@@ -48,6 +48,15 @@ Tre cose, nell'ordine in cui probabilmente le userai.
 
 **Backup e ripristino.** Una volta importate le tue chiavi, si può scrivere su un NTAG215 vuoto una copia della statuina con le chiavi ricalcolate. Il backup si fa direttamente da una statuina appena scansionata, oppure si ripristina da un file `.bin` salvato sul dispositivo. L'app ricalcola le chiavi per il tag vuoto che hai in mano e firma i dati per quel tag, così la copia è valida a pieno titolo invece di essere un falso byte per byte destinato a fallire. La scrittura è definitiva - una volta bloccato, il tag resta bloccato - e l'app lo dice chiaramente prima che tu confermi.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Leggi, colleziona, fai il backup</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="Una figura scansionata in NFC.cool Tools, Bramble the Badger, con personaggio, serie di giochi, serie, tipo e contatore di scritture del tag"><p><strong>Lettura.</strong> Personaggio, serie e tipo, più i dati del tag stesso, senza bisogno di chiavi.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="La mia collezione, una griglia di sei figure scansionate"><p><strong>Collezione.</strong> Ogni figura scansionata finisce in La mia collezione, sul dispositivo.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="La schermata NFC Figures con Scan Figure, My Collection, Restore from Backup e NFC Keys"><p><strong>Backup e ripristino.</strong> Con le tue chiavi importate, scrivi un backup su un NTAG215 vuoto.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Cosa ho lasciato fuori di proposito
