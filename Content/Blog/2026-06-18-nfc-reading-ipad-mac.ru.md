@@ -34,6 +34,16 @@ ogDescription: "В iPad или Mac нет чипа NFC? С внешним USB-с
 
 Считыватель, вокруг которого я всё это строил и единственный, который я реально проверял, это HID OMNIKEY 5022 CL. Другие USB-считыватели тоже работают, и часть из них попала в список ниже со слов пользователей, которые их попробовали.
 
+<figure class="phone-figure" data-layout="stage" data-device="ipad">
+<figcaption>iPad с USB-считывателем</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-1-place-tag-600w.webp" alt="NFC.cool на iPad с подключённым внешним USB-считывателем NFC: Place tag on reader"><p><strong>Подключи считыватель.</strong> NFC.cool сам его находит и ждёт метку.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-2-tag-read-600w.webp" alt="NFC.cool на iPad после чтения: зелёная галочка и Tag read"><p><strong>Положи на него метку.</strong> Радиочасть берёт на себя считыватель, остальное делает iPad.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-3-record-600w.webp" alt="Полная запись метки на iPad: визитка Anna Miller, а под ней исходная vCard"><p><strong>Всё как на iPhone.</strong> Те же записи, те же инструменты.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-4-sonicare-600w.webp" alt="Sonicare Reset на iPad: насадка израсходована на 80 %, кнопка Reset Timer"><p><strong>Даже трудный случай.</strong> Считать насадку Sonicare и записать обратно её защищённый паролем счётчик тоже получается.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Считыватели, которые работают
@@ -52,6 +62,12 @@ ogDescription: "В iPad или Mac нет чипа NFC? С внешним USB-с
 ---
 
 ## Что с этим можно делать
+
+<figure class="phone-figure" data-layout="float" data-device="mac">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="MacBook с внешним USB-считывателем NFC рядом, на экране My NFC Messages из NFC.cool"><p><strong>И на Mac.</strong> Подключи считыватель к Mac, и каждая считанная метка попадёт в My NFC Messages.</p></li>
+</ol>
+</figure>
 
 Почти всё то же, что и на iPhone. Можно читать метки и выгружать всю их память, писать сообщения NDEF и запускать пакетные задачи, которые читают или пишут целую стопку меток одну за другой. Работает установка пароля на метку. Работает [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), формат для катушек с филаментом, причём в обе стороны. И да, [сброс насадки Philips Sonicare](/blog/reset-sonicare-brush-head-nfc/) тоже запускается.
 

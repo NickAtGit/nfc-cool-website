@@ -34,6 +34,16 @@ ogDescription: "В iPad чи Mac немає модуля NFC? Із зовніш�
 
 Я будував усе навколо HID OMNIKEY 5022 CL, і це єдина модель, яку я перевіряв власноруч. Інші USB-зчитувачі теж працюють, і кілька з них є в списку нижче, бо їх надіслали користувачі, які спробували.
 
+<figure class="phone-figure" data-layout="stage" data-device="ipad">
+<figcaption>iPad з USB-зчитувачем</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-1-place-tag-600w.webp" alt="NFC.cool на iPad із підключеним зовнішнім USB-зчитувачем NFC: Place tag on reader"><p><strong>Підключи зчитувач.</strong> NFC.cool сам його знаходить і чекає на мітку.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-2-tag-read-600w.webp" alt="NFC.cool на iPad після зчитування: зелена галочка й Tag read"><p><strong>Поклади на нього мітку.</strong> Радіочастину бере на себе зчитувач, решту робить iPad.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-3-record-600w.webp" alt="Повний запис мітки на iPad: візитка Anna Miller, а під нею вихідна vCard"><p><strong>Усе як на iPhone.</strong> Ті самі записи, ті самі інструменти.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-4-sonicare-600w.webp" alt="Sonicare Reset на iPad: насадку витрачено на 80 %, кнопка Reset Timer"><p><strong>Навіть складний випадок.</strong> Зчитати насадку Sonicare й записати назад її захищений паролем лічильник теж вдається.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Зчитувачі, які працюють
@@ -52,6 +62,12 @@ ogDescription: "В iPad чи Mac немає модуля NFC? Із зовніш�
 ---
 
 ## Що з цим можна робити
+
+<figure class="phone-figure" data-layout="float" data-device="mac">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="MacBook із зовнішнім USB-зчитувачем NFC поруч, на екрані My NFC Messages із NFC.cool"><p><strong>І на Mac.</strong> Підключи зчитувач до Mac, і кожна зчитана мітка потрапить у My NFC Messages.</p></li>
+</ol>
+</figure>
 
 Майже все те саме, що й на iPhone. Зчитуєш мітки й дістаєш повний дамп пам'яті, записуєш повідомлення NDEF, ганяєш пакетні завдання, які читають або пишуть цілу стопку міток одну за одною. Захист паролем працює. [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), формат для котушок філаменту в 3D-друку, теж працює в обидва боки. І так, [скидання лічильника на насадці Philips Sonicare](/blog/reset-sonicare-brush-head-nfc/) теж запускається.
 

@@ -34,6 +34,16 @@ Aplikasi lebih memprioritaskan pembaca eksternal kapan pun satu tersambung. Di i
 
 Pembaca yang saya jadikan dasar pengembangan ini, dan satu-satunya yang benar-benar saya uji, adalah HID OMNIKEY 5022 CL. Pembaca USB lain juga berfungsi, dan beberapa di antaranya ada di daftar di bawah, dilaporkan oleh pengguna yang mencobanya.
 
+<figure class="phone-figure" data-layout="stage" data-device="ipad">
+<figcaption>iPad dengan pembaca USB</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-1-place-tag-600w.webp" alt="NFC.cool di iPad dengan pembaca NFC USB eksternal yang tersambung: Place tag on reader"><p><strong>Sambungkan pembaca.</strong> NFC.cool mengenalinya sendiri dan menunggu tag.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-2-tag-read-600w.webp" alt="NFC.cool di iPad setelah membaca: tanda centang hijau dan Tag read"><p><strong>Letakkan tag di atasnya.</strong> Pembaca mengurus bagian radio, iPad mengurus sisanya.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-3-record-600w.webp" alt="Entri lengkap tag di iPad: kartu nama untuk Anna Miller, dengan vCard mentah di bawahnya"><p><strong>Semua yang Anda lihat di iPhone.</strong> Entri yang sama, alat yang sama.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-4-sonicare-600w.webp" alt="Sonicare Reset di iPad: kepala sikat yang terpakai 80%, dengan Reset Timer"><p><strong>Bahkan yang sulit.</strong> Membaca kepala Sonicare dan menulis balik ke penghitungnya yang dilindungi kata sandi juga bisa.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Pembaca yang berfungsi
@@ -52,6 +62,12 @@ Itu adalah tautan afiliasi Amazon: jika Anda membeli melalui salah satunya, saya
 ---
 
 ## Apa yang bisa Anda lakukan dengannya
+
+<figure class="phone-figure" data-layout="float" data-device="mac">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="MacBook dengan pembaca NFC USB eksternal di sampingnya, menampilkan My NFC Messages di NFC.cool"><p><strong>Di Mac juga.</strong> Sambungkan pembaca ke Mac Anda, dan setiap tag yang Anda baca masuk ke My NFC Messages.</p></li>
+</ol>
+</figure>
 
 Hampir semua yang akan Anda lakukan di iPhone. Anda bisa membaca tag dan menampilkan seluruh isi memorinya, menulis pesan NDEF, dan menjalankan tugas batch yang membaca atau menulis setumpuk tag satu per satu. Memproteksi tag dengan kata sandi berfungsi. Begitu pula [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), format gulungan filamen printer 3D, dalam dua arah. Dan ya, [reset kepala sikat Philips Sonicare](/blog/reset-sonicare-brush-head-nfc/) juga berjalan.
 
