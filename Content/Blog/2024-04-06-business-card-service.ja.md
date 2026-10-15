@@ -60,6 +60,12 @@ NFC.cool内で**Business Card**セクションに移動し、**アカウント�
 
 ## URLをNFCタグに書き込む
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="NFC.cool Business Cardのカードメニュー。Write to NFC Tagが、Preview、Show QR Code、Add to Apple Walletと並ぶ"><p><strong>Write to NFC Tag。</strong>カードのメニューにあります。スマホをタグに当てれば、短いリンクが書き込まれます。</p></li>
+</ol>
+</figure>
+
 ここで物理面の話。NFCタグは[NFC.coolショップ](https://shop.nfc.cool/collections/all)または任意のサードパーティリテーラーから購入可能 - ステッカー、カード、キーリング、どんな形でも。
 
 NFC.coolで**名刺をNFCタグに書き込む**をタップ。スマホをタグに当てます。アプリがnfc.cool上のあなたの名刺ページを指す短いURLを書き込みます。書き込まれたら、スマホを持つ誰でもタップできます。
@@ -69,6 +75,12 @@ URLが後で上書きされないようタグをロックしたい場合、書�
 ---
 
 ## 共有前にプレビュー
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="受け取った人から見たカード。Haddad &amp; LoweのSamir Haddad。Website、LinkedIn、FacebookのリンクとSave Contactボタン"><p><strong>相手に見える画面。</strong>iPhoneではネイティブのApp Clipで、Save Contactはワンタップ。</p></li>
+</ol>
+</figure>
 
 **名刺を表示**をタップして、受信者が見るものとまったく同じものを確認します。ページはモバイルファースト、即座に読み込まれ、ワンタップの「連絡先に保存」ボタンを提供します。iOSの受信者はネイティブのApp Clipを見ます（アプリインストール不要）。Androidの受信者はnfc.coolドメインのクリーンなウェブページを見ます。両方とも結果として、あなたの連絡先がアドレス帳に入ります。
 

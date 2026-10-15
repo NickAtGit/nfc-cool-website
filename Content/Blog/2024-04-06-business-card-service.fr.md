@@ -60,6 +60,12 @@ Touchez **Votre logo** → **Changer de logo** pour téléverser le logo de votr
 
 ## Écrire l'URL sur un tag NFC
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="Le menu de la carte dans NFC.cool Business Card avec Write to NFC Tag, à côté de Preview, Show QR Code et Add to Apple Wallet"><p><strong>Write to NFC Tag.</strong> Dans le menu de la carte. Tenez le téléphone contre le tag, et le lien court est écrit.</p></li>
+</ol>
+</figure>
+
 Passons au côté physique. Vous pouvez acheter un tag NFC dans [la boutique NFC.cool](https://shop.nfc.cool/collections/all) ou chez n'importe quel revendeur tiers - autocollant, carte, porte-clés, quel que soit le format qui vous convient.
 
 Dans NFC.cool, touchez **Écrire la carte de visite sur un tag NFC**. Approchez votre téléphone du tag. L'app écrit une URL courte qui pointe vers la page de votre carte sur nfc.cool. Une fois écrite, il suffit d'approcher un téléphone pour la lire.
@@ -69,6 +75,12 @@ Si vous voulez verrouiller le tag pour que personne ne puisse réécrire l'URL p
 ---
 
 ## Prévisualiser avant de partager
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="Une carte telle que la voit son destinataire : Samir Haddad, de Haddad &amp; Lowe, avec des liens Website, LinkedIn et Facebook et le bouton Save Contact"><p><strong>Ce qu'ils voient.</strong> Sur iPhone, un App Clip natif, avec Save Contact à un appui.</p></li>
+</ol>
+</figure>
 
 Touchez **Voir la carte de visite** pour voir exactement ce qu'un destinataire verra. La page est pensée d'abord pour le mobile, se charge instantanément et propose un bouton « Enregistrer dans les contacts » en un seul geste. Sur iOS, les destinataires voient un App Clip natif (aucune installation d'app requise); sur Android, ils voient une page web soignée sur le domaine nfc.cool. Dans les deux cas, ils obtiennent votre contact dans leur répertoire.
 

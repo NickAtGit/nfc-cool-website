@@ -60,6 +60,12 @@ Ketuk **Your logo** - **Change logo** untuk mengunggah logo perusahaan atau tand
 
 ## Tulis URL ke tag NFC
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="Menu kartu di NFC.cool Business Card dengan Write to NFC Tag, di samping Preview, Show QR Code, dan Add to Apple Wallet"><p><strong>Write to NFC Tag.</strong> Ada di menu kartu. Tempelkan ponsel ke tag, dan tautan pendeknya tertulis.</p></li>
+</ol>
+</figure>
+
 Sekarang bagian fisiknya. Anda dapat membeli tag NFC dari [toko NFC.cool](https://shop.nfc.cool/collections/all) atau pengecer pihak ketiga mana pun - stiker, kartu, gantungan kunci, form faktor apa pun yang sesuai.
 
 Di NFC.cool, ketuk **Write business card to NFC tag**. Tempelkan ponsel ke tag. Aplikasi menulis URL pendek yang mengarah ke halaman kartu Anda di nfc.cool. Setelah ditulis, siapa pun dengan ponsel bisa mengetuknya.
@@ -69,6 +75,12 @@ Jika ingin mengunci tag agar tidak ada yang bisa menimpa URL-nya nanti, ketuk **
 ---
 
 ## Pratinjau sebelum berbagi
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="Kartu seperti yang dilihat penerima: Samir Haddad dari Haddad &amp; Lowe, dengan tautan Website, LinkedIn, dan Facebook serta tombol Save Contact"><p><strong>Yang mereka lihat.</strong> Di iPhone berupa App Clip native, dengan Save Contact dalam satu ketukan.</p></li>
+</ol>
+</figure>
 
 Ketuk **View Business Card** untuk melihat persis apa yang dilihat penerima. Halamannya mengutamakan mobile, dimuat secara instan, dan menawarkan tombol "Save to Contacts" dengan satu ketukan. Di iOS, penerima melihat App Clip asli (tidak perlu menginstal aplikasi); di Android mereka melihat halaman web bersih di domain nfc.cool. Keduanya berakhir dengan kontak Anda di buku alamat mereka.
 

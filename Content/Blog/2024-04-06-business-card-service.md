@@ -60,6 +60,12 @@ Tap **Your logo** → **Change logo** to upload your company logo or personal ma
 
 ## Write the URL to an NFC tag
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="The card menu in NFC.cool Business Card with Write to NFC Tag, next to Preview, Show QR Code and Add to Apple Wallet"><p><strong>Write to NFC Tag.</strong> It's in the card's menu. Hold your phone to the tag and the short link is written.</p></li>
+</ol>
+</figure>
+
 Now the physical side. You can buy an NFC tag from [the NFC.cool shop](https://shop.nfc.cool/collections/all) or any third-party retailer - sticker, card, keyring, whatever form factor fits.
 
 In NFC.cool, tap **Write business card to NFC tag**. Hold your phone against the tag. The app writes a short URL pointing at your card page on nfc.cool. Once it's written, anyone with a phone can tap it.
@@ -69,6 +75,12 @@ If you want to lock the tag so no one can overwrite the URL later, tap **Lock** 
 ---
 
 ## Preview before sharing
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="A card as the recipient sees it: Samir Haddad of Haddad &amp; Lowe, with Website, LinkedIn and Facebook links and a Save Contact button"><p><strong>What they see.</strong> On iPhone a native App Clip, with Save Contact one tap away.</p></li>
+</ol>
+</figure>
 
 Tap **View Business Card** to see exactly what a recipient sees. The page is mobile-first, loads instantly, and offers a one-tap "Save to Contacts" button. On iOS, recipients see a native App Clip (no app install required); on Android they see a clean web page on the nfc.cool domain. Both end up with your contact in their address book.
 

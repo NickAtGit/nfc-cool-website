@@ -60,6 +60,12 @@ image: "/assets/images/Blog/business-card-service.webp"
 
 ## اكتب الرابط على وسم NFC
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="قائمة البطاقة في NFC.cool Business Card وفيها Write to NFC Tag بجوار Preview وShow QR Code وAdd to Apple Wallet"><p><strong>Write to NFC Tag.</strong> تجده في قائمة البطاقة. قرّب هاتفك من الوسم فيُكتب الرابط القصير.</p></li>
+</ol>
+</figure>
+
 الآن الجانب المادي. يمكنك شراء وسم NFC من [متجر NFC.cool](https://shop.nfc.cool/collections/all) أو من أي بائع تجزئة خارجي - ملصق، أو بطاقة، أو ميدالية مفاتيح، أو أي شكل يناسبك.
 
 في NFC.cool، المس **كتابة بطاقة العمل على وسم NFC**. قرّب هاتفك من الوسم. يكتب التطبيق رابطًا قصيرًا يشير إلى صفحة بطاقتك على nfc.cool. وبمجرد كتابته، يمكن لأي شخص يملك هاتفًا أن يلمسه.
@@ -69,6 +75,12 @@ image: "/assets/images/Blog/business-card-service.webp"
 ---
 
 ## عاين قبل المشاركة
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="بطاقة كما يراها مستلمها: Samir Haddad من Haddad &amp; Lowe، مع روابط Website وLinkedIn وFacebook وزر Save Contact"><p><strong>ما يرونه.</strong> على iPhone يظهر App Clip أصلي، وزر Save Contact على بعد نقرة.</p></li>
+</ol>
+</figure>
 
 المس **عرض بطاقة العمل** لترى بالضبط ما يراه المستقبِل. الصفحة مصمّمة للهاتف أولًا، وتُحمّل فورًا، وتوفّر زر «الحفظ في جهات الاتصال» بلمسة واحدة. على iOS، يرى المستقبِلون App Clip أصليًا (لا حاجة إلى تثبيت تطبيق)؛ وعلى Android يرون صفحة ويب أنيقة على نطاق nfc.cool. وينتهي الأمر بكليهما بحفظ جهة اتصالك في دفتر عناوينهم.
 

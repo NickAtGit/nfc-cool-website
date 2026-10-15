@@ -60,6 +60,12 @@ Bitirince **İleri**'ye dokun.
 
 ## Adresi NFC tag'e yaz
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="NFC.cool Business Card'taki kart menüsü; Preview, Show QR Code ve Add to Apple Wallet'ın yanında Write to NFC Tag"><p><strong>Write to NFC Tag.</strong> Kartın menüsünde. Telefonunu tag'e tut, kısa bağlantı yazılır.</p></li>
+</ol>
+</figure>
+
 Sıra fiziksel tarafta. NFC tag'i [NFC.cool mağazasından](https://shop.nfc.cool/collections/all) ya da herhangi bir satıcıdan alabilirsin: etiket, kart, anahtarlık, hangi biçim işine geliyorsa.
 
 NFC.cool'da **Kartviziti NFC tag'e yaz**'a dokun. Telefonu tag'e tut. Uygulama, nfc.cool üzerindeki kart sayfana işaret eden kısa bir adres yazar. Yazıldıktan sonra telefonu olan herkes okutabilir.
@@ -69,6 +75,12 @@ Adresin sonradan üzerine yazılamaması için tag'i kilitlemek istersen yazma b
 ---
 
 ## Paylaşmadan önce önizle
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="Alıcının gördüğü haliyle bir kart: Haddad &amp; Lowe'dan Samir Haddad; Website, LinkedIn ve Facebook bağlantıları ve Save Contact düğmesiyle"><p><strong>Karşı tarafın gördüğü.</strong> iPhone'da yerel bir App Clip, Save Contact tek dokunuş uzakta.</p></li>
+</ol>
+</figure>
 
 Karşındakinin tam olarak ne gördüğünü görmek için **Kartviziti Görüntüle**'ye dokun. Sayfa önce mobil için tasarlanmış, anında yükleniyor ve tek dokunuşluk bir "Kişilere Kaydet" düğmesi sunuyor. iOS'ta alıcılar yerel bir App Clip görüyor (uygulama kurmaya gerek yok); Android'de nfc.cool alan adında temiz bir web sayfası görüyorlar. İkisinin de sonunda kişin rehberlerine düşüyor.
 
