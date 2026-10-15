@@ -20,6 +20,16 @@ Modern bir iPhone'un kamerası ve işlem gücü öyle bir noktaya geldi ki "belg
 
 NFC.cool Tools'u aç, belge simgesine dokun ve sayfayı çerçevele. Tarayıcı, sayfa kenarı olduğunu düşündüğü yerin çevresine sarı bir dörtgen çizer. Çoğu zaman haklıdır. Değilse köşeleri oturana kadar sürükle.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Kâğıttan aranabilir PDF'e</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="NFC.cool Tools'taki belge kamerası; algılanmış bir kira sözleşmesi ve işaretlenmiş köşeleri"><p><strong>Yakala.</strong> Sayfa bulunur, köşeleri senin yerine hizalanır.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="Bir faturadan tanınan metin; Share text ve Copy text to clipboard ile"><p><strong>Metni oku.</strong> OCR, taramayı kopyalayıp paylaşabileceğin metne çevirir.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="Portland diye aranan kayıtlı belgeler: bir fatura, bir fiş ve bir kira sözleşmesi"><p><strong>Sonra bul.</strong> Arama, bir belgeyi içindeki herhangi bir kelimeyle bulur.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Share ve Save to Files ile Export as PDF"><p><strong>Dışa aktar.</strong> Aranabilir bir PDF; paylaş ya da Dosyalar'a kaydet.</p></li>
+</ol>
+</figure>
+
 Çıktıyı gerçekten iyileştiren birkaç ipucu:
 
 - **Doğal ışık, tepe ışığını yener.** Ofisin tavan lambaları telefonun kendi gölgesini sayfaya düşürür. Pencereden gelen gün ışığı ya da sayfaya yandan vuran masa lambası daha iyi.

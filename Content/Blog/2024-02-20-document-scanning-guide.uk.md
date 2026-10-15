@@ -20,6 +20,16 @@ image: "/assets/images/Blog/document-scanning-guide.webp"
 
 Відкрий NFC.cool Tools, натисни іконку документа й візьми сторінку в кадр. Сканер обводить жовтим чотирикутником те, що вважає краями аркуша. Здебільшого він має рацію. Коли ні, потягни кути на місце.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Від паперу до PDF із пошуком</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="Камера для документів у NFC.cool Tools: знайдено договір оренди, кути позначено"><p><strong>Зйомка.</strong> Сторінка знаходиться сама, кути вирівнюються автоматично.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="Розпізнаний текст рахунку з кнопками Share text і Copy text to clipboard"><p><strong>Розпізнай текст.</strong> OCR перетворює скан на текст, який можна скопіювати чи надіслати.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="Збережені документи, пошук за словом Portland: рахунок, чек і договір оренди"><p><strong>Знайди згодом.</strong> Пошук знаходить документ за будь-яким словом у ньому.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF з кнопками Share і Save to Files"><p><strong>Експорт.</strong> PDF із пошуком по тексту, надісланий або збережений у «Файли».</p></li>
+</ol>
+</figure>
+
 Кілька порад, які справді покращують результат:
 
 - **Денне світло краще за верхнє.** Офісні стельові лампи кидають на аркуш тінь від самого телефона. Світло з вікна або настільна лампа, спрямована вздовж сторінки, дають чистіший кадр.
