@@ -315,6 +315,26 @@ button.phone-figure-step { cursor: pointer; }
    .phone-figure[data-layout="stage"] .phone-figure-dots { display: none; }
 }
 
+/* ---- wider devices ----
+   The iPad and the Mac (data-device="ipad" / "mac"), each with an external USB reader, have boxes
+   of their own shape (matching DEVICES in phone-figures.mjs). Last in the file, so their widths
+   win over the layouts' phone widths above. */
+/* Their displays in the box, as render-phone-shell.mjs prints them. */
+.phone-figure[data-device="ipad"] .phone-figure-screens { left: 12.435%; top: 10.052%; width: 59.46%; height: 55.483%; border-radius: 3% / 2.2%; }
+.phone-figure[data-device="mac"] .phone-figure-screens { left: 12.685%; top: 13.351%; width: 52.092%; height: 48.764%; border-radius: 0; }
+.phone-figure[data-device="ipad"] .phone-figure-device { aspect-ratio: 7 / 10; --phone-width: min(78vw, 300px); }
+.phone-figure[data-device="mac"] .phone-figure-device { aspect-ratio: 3 / 2; --phone-width: min(92vw, 380px); }
+@media (min-width: 768px) {
+   .phone-figure[data-layout="stage"][data-device="ipad"],
+   .phone-figure[data-layout="stage"][data-device="ipad"] .phone-figure-device { --phone-width: 22rem; }
+   .phone-figure[data-layout="stage"][data-device="mac"],
+   .phone-figure[data-layout="stage"][data-device="mac"] .phone-figure-device { --phone-width: 30rem; }
+   .phone-figure[data-layout="float"][data-device="ipad"] { width: 18rem; }
+   .phone-figure[data-layout="float"][data-device="ipad"] .phone-figure-device { --phone-width: 18rem; }
+   .phone-figure[data-layout="float"][data-device="mac"] { width: 22rem; }
+   .phone-figure[data-layout="float"][data-device="mac"] .phone-figure-device { --phone-width: 22rem; }
+}
+
 @media (prefers-reduced-motion: reduce) {
    .phone-figure .phone-figure-shot,
    .phone-figure-step,

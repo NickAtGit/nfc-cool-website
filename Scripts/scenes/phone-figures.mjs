@@ -48,6 +48,10 @@ const PUSH_MS = 460;
 const DEVICES = {
   phone: { model: 'blog_phone.glb', screen: 'Object_13', back: false, pin: 0.052, aspect: 5 / 8, stillPitch: 0 },
   einkcase: { model: 'blog_einkcase.glb', screen: 'EInkPanel', back: true, pin: -1, aspect: 5 / 8, stillPitch: 0 },
+  // The iPad lies on the desk with the reader below it, seen from above; the Mac's desk is
+  // already tilted in the model so its display faces the camera.
+  ipad: { model: 'blog_ipad.glb', screen: 'IPadDisplay', back: false, pin: 0.022, aspect: 7 / 10, stillPitch: 0 },
+  mac: { model: 'blog_mac.glb', screen: 'MacDisplay', back: false, pin: 0.03, aspect: 3 / 2, stillPitch: 0 },
 };
 
 const figures = [...document.querySelectorAll('figure.phone-figure')];

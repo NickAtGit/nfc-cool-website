@@ -3,6 +3,7 @@
 //
 //   node blog-phone.mjs <feature_phone.glb> <blog_phone.glb>   (Scripts/scenes/build.sh runs it)
 //   node blog-phone.mjs <einkcase_raw.glb> <blog_einkcase.glb>  (after Scripts/scenes/blog-einkcase.py)
+//   node blog-phone.mjs <ipad_raw.glb> <blog_ipad.glb>, <mac_raw.glb> <blog_mac.glb>  (blog-ipad.py, blog-mac.py)
 //
 // 455 KB of the phone are three 512 px WebP textures (base colour, normal, metal/roughness) on a
 // single 8-vertex mesh, Object_9: the earpiece grille's mesh pattern, a few pixels wide at that
@@ -25,9 +26,11 @@ const io = new NodeIO().registerExtensions(ALL_EXTENSIONS)
   .registerDependencies({ 'meshopt.decoder': MeshoptDecoder, 'meshopt.encoder': MeshoptEncoder });
 const doc = await io.read(input);
 
-const grille = doc.getRoot().listMaterials().find(m => m.getName() === '_7ProMax_2222');
-if (!grille) throw new Error('no grille material (_7ProMax_2222): has the phone model changed?');
-grille.setBaseColorTexture(null).setNormalTexture(null).setMetallicRoughnessTexture(null)
+// The phone's fixes below apply when the model has the phone in it; the iPad and the Mac
+// (Scripts/scenes/blog-ipad.py, blog-mac.py) only get the meshopt pass.
+const material = name => doc.getRoot().listMaterials().find(m => m.getName() === name);
+const grille = material('_7ProMax_2222');
+grille?.setBaseColorTexture(null).setNormalTexture(null).setMetallicRoughnessTexture(null)
   .setBaseColorFactor([0.02, 0.02, 0.02, 1]).setAlphaMode('OPAQUE').setMetallicFactor(0).setRoughnessFactor(0.6);
 
 // The front's black glass (_7ProMax_Black2: the bezel around the screen and the Dynamic Island)
@@ -36,14 +39,12 @@ grille.setBaseColorTexture(null).setNormalTexture(null).setMetallicRoughnessText
 // it has to be the plain black of the real thing: unlit, like the screen.
 const unlit = doc.createExtension(KHRMaterialsUnlit).createUnlit();
 for (const name of ['_7ProMax_Black2', '_7ProMax_1111', '_7ProMax_2112', '_7ProMax_Lens2']) {
-  const material = doc.getRoot().listMaterials().find(m => m.getName() === name);
-  if (!material) throw new Error(`no ${name} material: has the phone model changed?`);
-  material.setBaseColorFactor([0, 0, 0, 1]).setExtension('KHR_materials_unlit', unlit);
+  material(name)?.setBaseColorFactor([0, 0, 0, 1]).setExtension('KHR_materials_unlit', unlit);
 }
 
 // The camera lenses are mirror-smooth metal, so in the white studio they read as white discs.
 // Only the e-ink case figure shows the back; there they should be dark glass.
-doc.getRoot().listMaterials().find(m => m.getName() === '_7ProMax_Lens')
+material('_7ProMax_Lens')
   ?.setBaseColorFactor([0.01, 0.01, 0.015, 1]).setMetallicFactor(0.2).setRoughnessFactor(0.25);
 
 // The e-ink case's phone (the scenes' USD stand-in) carries a cover glass, which Blender's glTF
@@ -54,7 +55,7 @@ for (const node of doc.getRoot().listNodes()) {
 
 // The e-ink case (Scripts/scenes/blog-einkcase.py): its soft-touch sheen washes the orange out
 // to salmon under the studio light. Without it the shell keeps its own colour.
-const caseShell = doc.getRoot().listMaterials().find(m => m.getName() === 'CaseShell');
+const caseShell = material('CaseShell');
 if (caseShell) caseShell.setExtension('KHR_materials_sheen', null).setRoughnessFactor(0.6);
 
 // keepAttributes: the screen's material has no texture of its own, but the player maps the

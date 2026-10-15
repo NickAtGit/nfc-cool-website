@@ -7,9 +7,9 @@
 //   e.g. (with `swift run Site serve` running)
 //   node Scripts/scenes/render-phone-shell.mjs http://localhost:8080/blog/read-passport-nfc-chip/
 //
-// device is phone (default) or einkcase, the figure's data-device; the page needs a figure of it.
-// out.webp defaults to Content/StaticFiles/scenes/blog_<device>_shell.webp: 600 x 960, the 5:8 box
-// at 2x of a 300 px phone. Needs Google Chrome and Node 22+. Uses the page's ?debug hook
+// device is phone (default), einkcase, ipad or mac, the figure's data-device; the page needs a
+// figure of it.
+// out.webp defaults to Content/StaticFiles/scenes/blog_<device>_shell.webp, at 2x of the device's box. Needs Google Chrome and Node 22+. Uses the page's ?debug hook
 // (window.phoneFigures).
 import { spawn } from 'node:child_process';
 import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
@@ -21,8 +21,8 @@ if (!pageURL) {
   console.error('usage: node Scripts/scenes/render-phone-shell.mjs <page URL> [out.webp]');
   process.exit(1);
 }
-const WIDTH = 600;
-const HEIGHT = 960;
+// 2x of each device's box (phone-figure.css): a 300 px phone or case, a 350 px iPad, a 480 px Mac.
+const [WIDTH, HEIGHT] = { phone: [600, 960], einkcase: [600, 960], ipad: [700, 1000], mac: [960, 640] }[device];
 const CHROME = process.env.CHROME ?? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const PORT = 9334;
 const profile = mkdtempSync(join(tmpdir(), 'render-phone-shell-'));
