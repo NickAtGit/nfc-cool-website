@@ -124,6 +124,15 @@ Inilah tepatnya yang dibangun oleh aplikasi seperti [NFC.cool Tools](https://app
 
 Untuk penerapan skala enterprise, penulis NFC desktop (kompatibel dengan chip NTAG, ICODE, dan MIFARE) menangani pemrograman massal, tetapi aplikasi mobile tetap sangat berharga untuk **verifikasi lapangan** - memindai produk di rak atau lantai gudang untuk memastikan tautan passport berfungsi dengan benar. Anda bahkan bisa [memeriksa isi tag langsung dari browser](/online-nfc-reader/) di Android, tanpa perlu menginstal apa pun, yang berguna untuk pemeriksaan cepat.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Paspor produk digital di NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="Layar Digital Product Passport di NFC.cool Tools, dengan Read a Passport dan Create a Passport"><p><strong>Digital Product Passport.</strong> Baca paspor dari tag, atau buat sendiri, mengikuti standar NFC Forum.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="Paspor yang dibaca untuk Merino Wool Jacket: ID produk, tanggal produksi, tautan paspor, produsen, dan material"><p><strong>Baca satu.</strong> Produk, produsen, material, dan dampak lingkungan, langsung dari tag.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="Formulir paspor baru: produk, produsen, tanggal, dan material"><p><strong>Buat satu.</strong> Isi data produk dan tulis ke tag untuk pengujian atau produksi kecil.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Di luar Uni Eropa: momentum global

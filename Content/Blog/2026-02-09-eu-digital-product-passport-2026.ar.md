@@ -124,6 +124,15 @@ ogDescription: "أكبر لائحة لشفافية المنتجات في الا�
 
 بالنسبة لعمليات النشر على نطاق المؤسسات، تتولى أجهزة كتابة NFC المكتبية (المتوافقة مع رقائق NTAG وICODE وMIFARE) البرمجة بالجملة، لكن يبقى تطبيق الهاتف لا غنى عنه **للتحقق الميداني** - مسح المنتجات على الرف أو في أرضية المستودع للتأكد من أن رابط الجواز يعمل بشكل صحيح. بل يمكنك [التحقق مما يحمله الوسم مباشرة من المتصفح](/online-nfc-reader/) على Android، دون تثبيت أي شيء، وهو أمر مفيد لفحص سريع.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>جواز المنتج الرقمي في NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="شاشة Digital Product Passport في NFC.cool Tools، مع Read a Passport وCreate a Passport"><p><strong>Digital Product Passport.</strong> اقرأ جوازًا من وسم أو أنشئ جوازك، وفق معيار NFC Forum.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="جواز مقروء لمنتج Merino Wool Jacket: معرّف المنتج وتاريخ الإنتاج ورابط الجواز والجهة المصنّعة والمواد"><p><strong>اقرأ واحدًا.</strong> المنتج والجهة المصنّعة والمواد والأثر البيئي، من الوسم مباشرة.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="نموذج جواز جديد: المنتج والجهة المصنّعة والتواريخ والمواد"><p><strong>أنشئ واحدًا.</strong> املأ بيانات المنتج واكتبها على وسم، للاختبار أو لدفعة صغيرة.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## أبعد من الاتحاد الأوروبي: زخم عالمي

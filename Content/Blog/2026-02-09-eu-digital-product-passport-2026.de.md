@@ -124,6 +124,15 @@ Genau dafür sind Apps wie [NFC.cool Tools](https://apps.apple.com/app/apple-sto
 
 Wer im industriellen Maßstab ausrollt, erledigt die Massenprogrammierung mit Desktop-NFC-Writern (kompatibel mit NTAG-, ICODE- und MIFARE-Chips). Die App auf dem Handy bleibt trotzdem wertvoll für die **Prüfung vor Ort**: Produkte im Regal oder im Lager scannen und kontrollieren, ob der Link zum Pass wirklich funktioniert. Auf Android kannst du sogar [direkt im Browser nachsehen, was auf einem Tag steht](/de/online-nfc-reader/), ganz ohne Installation - praktisch für eine schnelle Stichprobe.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Ein digitaler Produktpass in NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="Der Bildschirm Digital Product Passport in NFC.cool Tools, mit Read a Passport und Create a Passport"><p><strong>Digital Product Passport.</strong> Einen Pass von einem Tag lesen oder einen eigenen erstellen, nach dem Standard des NFC Forum.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="Ein gelesener Pass für eine Merino Wool Jacket: Produkt-ID, Herstellungsdatum, Link zum Pass, Hersteller und Materialien"><p><strong>Einen lesen.</strong> Produkt, Hersteller, Materialien und Umweltwirkung, direkt vom Tag.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="Das Formular für einen neuen Pass: Produkt, Hersteller, Daten und Materialien"><p><strong>Einen erstellen.</strong> Produktdaten eintragen und auf einen Tag schreiben, zum Testen oder für eine kleine Serie.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Über die EU hinaus: Weltweit kommt Bewegung in die Sache

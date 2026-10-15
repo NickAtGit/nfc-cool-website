@@ -124,6 +124,15 @@ ESPR 强制要求为产品护照采用标准化的数据载体。三项获批的
 
 对于企业级规模的部署，桌面 NFC 写卡器（兼容 NTAG、ICODE 和 MIFARE 芯片）可处理批量编程，但移动应用在 **现场验证** 方面仍然不可或缺：在货架上或仓库地面扫描产品，确认护照链接能正确工作。在 Android 上，你甚至可以 [直接从浏览器查看标签里存了什么](/online-nfc-reader/)，无需安装任何东西，做快速抽查很方便。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Tools 里的数字产品护照</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="NFC.cool Tools 的 Digital Product Passport 页面，有 Read a Passport 和 Create a Passport"><p><strong>Digital Product Passport。</strong>按照 NFC Forum 标准，从标签读取护照，或者自己创建一份。</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="读取到的 Merino Wool Jacket 护照：产品 ID、生产日期、护照链接、制造商和材料"><p><strong>读取一份。</strong>产品、制造商、材料和环境影响，直接从标签上读出。</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="新护照的表单：产品、制造商、日期和材料"><p><strong>创建一份。</strong>填好产品数据写入标签，用于测试或小批量生产。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 超越欧盟：全球势头

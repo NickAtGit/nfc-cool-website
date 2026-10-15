@@ -124,6 +124,15 @@ DPP'yi NFC ile uygulayan bir üretici ya da markaysan, pasaport veri altyapına 
 
 Kurumsal ölçekli uygulamalarda toplu programlamayı masaüstü NFC yazıcıları (NTAG, ICODE ve MIFARE çipleriyle uyumlu) hallediyor ama mobil uygulama **sahada doğrulama** için paha biçilmez kalıyor: raftaki ya da depodaki ürünleri okutup pasaport bağlantısının doğru çalıştığını onaylamak için. Hızlı bir nokta denetimi için Android'de, hiçbir şey kurmadan [bir tag'in ne taşıdığını doğrudan tarayıcıdan da görebiliyorsun](/online-nfc-reader/).
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Tools'ta dijital ürün pasaportu</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="NFC.cool Tools'taki Digital Product Passport ekranı; Read a Passport ve Create a Passport ile"><p><strong>Digital Product Passport.</strong> NFC Forum standardına göre bir tag'den pasaport oku ya da kendininkini oluştur.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="Bir Merino Wool Jacket için okunmuş pasaport: ürün kimliği, üretim tarihi, pasaport bağlantısı, üretici ve malzemeler"><p><strong>Birini oku.</strong> Ürün, üretici, malzemeler ve çevresel etki, doğrudan tag'den.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="Yeni bir pasaport formu: ürün, üretici, tarihler ve malzemeler"><p><strong>Bir tane oluştur.</strong> Ürün verilerini doldur ve test ya da küçük bir parti için bir tag'e yaz.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## AB'nin ötesinde: küresel ivme
