@@ -59,10 +59,12 @@ The password is computed from two inputs: the tag's 7-byte UID and the manufactu
 
 ## How to Check and Reset with NFC.cool Tools
 
-Here's how it looks in the app:
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools showing a Sonicare brush head at 80% usage with Reset Timer button" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="The Sonicare Reset screen in NFC.cool Tools, asking you to hold the brush head to your iPhone"><p><strong>Read the head.</strong> Tap Read NFC and hold the brush head to your iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="A Sonicare brush head at 80% used, with 4 h 50 min used and 1 h 10 min remaining"><p><strong>See its stats.</strong> How much of its life the head has used.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="The same brush head after the reset, back at 0% used"><p><strong>Reset it.</strong> Back to zero, if your bristles say so.</p></li>
+</ol>
 </figure>
 
 NFC.cool Tools handles the whole process: reading the tag, computing the password, and showing you the stats. No hex commands, no web calculators, no SDR.

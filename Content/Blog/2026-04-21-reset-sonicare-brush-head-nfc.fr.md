@@ -59,10 +59,12 @@ Le mot de passe est calculé à partir de deux éléments : l'UID de 7 octets du
 
 ## Comment vérifier et réinitialiser avec NFC.cool Tools
 
-Voici à quoi ça ressemble dans l'app :
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools affichant une tête de brosse Sonicare à 80 % d'utilisation avec le bouton Reset Timer" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="L'écran Sonicare Reset de NFC.cool Tools, qui vous demande de tenir la tête de brosse contre l'iPhone"><p><strong>Lisez la tête.</strong> Appuyez sur Read NFC et maintenez la tête de brosse contre votre iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="Une tête de brosse Sonicare utilisée à 80 %, avec 4 h 50 min d'utilisation et 1 h 10 min restantes"><p><strong>Consultez ses statistiques.</strong> La part de sa vie que la tête a déjà consommée.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="La même tête de brosse après la réinitialisation, revenue à 0 % d'utilisation"><p><strong>Réinitialisez-la.</strong> Retour à zéro, si vos poils le permettent.</p></li>
+</ol>
 </figure>
 
 NFC.cool Tools gère tout le processus : lire le tag, calculer le mot de passe et afficher les statistiques. Pas de commandes hexadécimales, pas de calculateurs en ligne, pas de radio logicielle.

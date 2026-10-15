@@ -59,10 +59,12 @@ ogDescription: "كل رأس فرشاة Sonicare يحتوي على شريحة NFC
 
 ## كيفية التحقق وإعادة الضبط باستخدام NFC.cool Tools
 
-إليك كيف يبدو الأمر داخل التطبيق:
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools يعرض رأس فرشاة Sonicare عند استخدام ٨٠٪ مع زر إعادة ضبط المؤقّت" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="شاشة Sonicare Reset في NFC.cool Tools تطلب منك تقريب رأس الفرشاة من iPhone"><p><strong>اقرأ الرأس.</strong> انقر على قراءة NFC وضع رأس الفرشاة قرب جهاز iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="رأس فرشاة Sonicare مستهلَك بنسبة ٨٠٪، مع ٤ ساعات و٥٠ دقيقة مستخدَمة وساعة و١٠ دقائق متبقية"><p><strong>اطّلع على إحصائياته.</strong> مقدار ما استهلكه الرأس من عمره.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="رأس الفرشاة نفسه بعد إعادة الضبط، وقد عاد إلى ٠٪"><p><strong>أعِد ضبطه.</strong> عودة إلى الصفر، إن كانت شعيرات فرشاتك تسمح بذلك.</p></li>
+</ol>
 </figure>
 
 يتولّى NFC.cool Tools العملية كاملة: قراءة الوسم، وحساب كلمة المرور، وعرض الإحصائيات لك. بلا أوامر سِت عشرية، بلا حاسبات على الويب، بلا SDR.

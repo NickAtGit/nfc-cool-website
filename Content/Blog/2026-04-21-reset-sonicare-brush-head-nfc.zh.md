@@ -59,10 +59,12 @@ NTAG213 有密码保护。每个刷头都有一个唯一的 4 字节密码。牙
 
 ## 如何用 NFC.cool Tools 查看并重置
 
-它在 App 里是这样的：
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools 显示一个用量 80% 的 Sonicare 刷头，并带有「重置计时器」按钮" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="NFC.cool Tools 里的 Sonicare Reset 页面，提示你把刷头贴到 iPhone 上"><p><strong>读取刷头。</strong>轻触 Read NFC，把刷头贴到你的 iPhone 上。</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="已使用 80% 的 Sonicare 刷头，已用 4 小时 50 分钟，剩余 1 小时 10 分钟"><p><strong>查看统计。</strong>刷头已经用掉了多少寿命。</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="重置后的同一个刷头，回到已使用 0%"><p><strong>重置它。</strong>如果刷毛还行，就把它归零。</p></li>
+</ol>
 </figure>
 
 NFC.cool Tools 会处理整个流程：读取标签、计算密码、并把统计数据展示给你。无需十六进制命令，无需网页计算器，无需 SDR。

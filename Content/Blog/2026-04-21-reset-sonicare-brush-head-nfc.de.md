@@ -59,10 +59,12 @@ Berechnet wird das Passwort aus zwei Werten: der 7-Byte-UID des Tags und dem Her
 
 ## Auslesen und zurücksetzen mit NFC.cool Tools
 
-So sieht das in der App aus:
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools zeigt einen Sonicare-Bürstenkopf bei 80 % Nutzung mit dem Button Reset Timer" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="Der Bildschirm Sonicare Reset in NFC.cool Tools, der dich bittet, den Bürstenkopf an dein iPhone zu halten"><p><strong>Lies den Kopf aus.</strong> Tippe auf Read NFC und halte den Bürstenkopf an dein iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="Ein Sonicare-Bürstenkopf zu 80 % verbraucht, 4 h 50 min verbraucht und 1 h 10 min übrig"><p><strong>Sieh dir die Werte an.</strong> Wie viel seiner Laufzeit der Kopf schon verbraucht hat.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="Derselbe Bürstenkopf nach dem Zurücksetzen, wieder bei 0 % verbraucht"><p><strong>Setz ihn zurück.</strong> Zurück auf null, wenn deine Borsten das hergeben.</p></li>
+</ol>
 </figure>
 
 NFC.cool Tools nimmt dir das alles ab: Tag auslesen, Passwort berechnen, Werte anzeigen. Keine Hex-Befehle, kein Rechner im Browser, kein SDR.

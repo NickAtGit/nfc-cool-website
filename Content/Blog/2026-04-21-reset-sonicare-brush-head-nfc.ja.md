@@ -59,10 +59,12 @@ NTAG213はパスワード保護されています。すべてのブラシヘッ�
 
 ## NFC.cool Toolsで確認・リセットする方法
 
-アプリでの見え方はこうです：
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool ToolsでSonicareブラシヘッドが80%使用済みと表示され、Reset Timerボタンが見える画面" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="NFC.cool ToolsのSonicare Reset画面。ブラシヘッドをiPhoneに当てるよう案内している"><p><strong>ヘッドを読み取る。</strong>Read NFCをタップし、ブラシヘッドをiPhoneに当てます。</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="使用率80%のSonicareブラシヘッド。使用済み4時間50分、残り1時間10分"><p><strong>統計を見る。</strong>ヘッドが寿命のどれだけを使ったかがわかります。</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="リセット後の同じブラシヘッド。使用率は0%に戻っている"><p><strong>リセットする。</strong>毛先がまだ大丈夫なら、ゼロに戻します。</p></li>
+</ol>
 </figure>
 
 NFC.cool Toolsはプロセス全体を担います：タグの読み取り、パスワードの計算、統計の表示。16進コマンドも、Web計算機も、SDRも不要です。

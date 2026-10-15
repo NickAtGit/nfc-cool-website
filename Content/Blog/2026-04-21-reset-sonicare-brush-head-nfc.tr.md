@@ -59,10 +59,12 @@ Parola iki girdiden hesaplanıyor: tag'in 7 baytlık UID'si ve tag'de saklı ola
 
 ## NFC.cool Tools ile nasıl görülür ve sıfırlanır
 
-Uygulamada şöyle görünüyor:
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools, yüzde 80 kullanılmış bir Sonicare fırça başlığını ve Zamanlayıcıyı Sıfırla düğmesini gösteriyor" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="NFC.cool Tools'taki Sonicare Reset ekranı, fırça başlığını iPhone'a tutmanı istiyor"><p><strong>Başlığı oku.</strong> NFC Oku'ya dokun ve fırça başlığını iPhone'una tut.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="Yüzde 80'i kullanılmış bir Sonicare fırça başlığı; 4 sa 50 dk kullanılmış, 1 sa 10 dk kalmış"><p><strong>Verilere bak.</strong> Başlığın ömrünün ne kadarını kullandığını gör.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="Sıfırlamadan sonra aynı fırça başlığı, yeniden yüzde 0 kullanımda"><p><strong>Sıfırla.</strong> Kılların izin veriyorsa yeniden sıfıra.</p></li>
+</ol>
 </figure>
 
 NFC.cool Tools sürecin tamamını hallediyor: tag'i okuyor, parolayı hesaplıyor ve verileri gösteriyor. Onaltılık komut yok, web hesaplayıcı yok, yazılım tanımlı radyo yok.
