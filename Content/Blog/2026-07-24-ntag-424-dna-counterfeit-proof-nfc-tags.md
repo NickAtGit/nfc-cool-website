@@ -77,6 +77,12 @@ Every command that changes something runs inside an authenticated session: phone
 
 ## What a tap shows you
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="NFC.cool Tools after a tap on an NTAG 424 DNA tag: the signed link, a read counter of 137 and SUN authenticity Authentic"><p><strong>A genuine tap.</strong> The signed link, the read counter, and a passed SUN check.</p></li>
+</ol>
+</figure>
+
 Hold a tag to your phone and NFC.cool Tools on [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-en&mt=8) or [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-en) does a deep read without asking you for anything: the chip's identity and whether it's the TagTamper variant, the link, the settings and access rights of every file, which key slots have been changed from factory, and the results of three separate checks.
 
 ### Is it genuine NXP silicon?
@@ -116,6 +122,15 @@ One thing the app deliberately refuses: writing a plain link to a SUN-enabled ta
 ## The rest of the chip
 
 That short version is where most tutorials stop, and until now the way to go further was NXP's TagXplorer on a desktop with a USB reader. I wanted the whole datasheet reachable from the phone, so I went down it section by section.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>The Rest of the Chip, on Your Phone</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="The Key 0 screen: set the key from a passphrase or a hex key, enter one set on another device, or reset it to factory"><p><strong>Key 0.</strong> Set it from a passphrase or a hex key, enter one you set on another device, or go back to factory.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="The Advanced screen: the chip's identity, its memory, SUN enabled, and Keys 1 to 4"><p><strong>Advanced.</strong> The chip's identity and the other four keys, each with the same options as Key 0.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="The Vault screen holding the note Spare key in the blue tin, top shelf, 36 of 126 bytes"><p><strong>The vault.</strong> Up to 126 bytes of text that only your Key 0 can read back.</p></li>
+</ol>
+</figure>
 
 ### All five keys
 

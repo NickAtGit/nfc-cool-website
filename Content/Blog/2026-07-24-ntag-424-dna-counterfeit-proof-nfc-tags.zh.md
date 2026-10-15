@@ -77,6 +77,12 @@ NTAG 424 DNA 是一枚 NFC Forum Type 4 标签，416 字节的内存全都归一
 
 ## 轻触一下能看到什么
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="轻触一枚 NTAG 424 DNA 标签后的 NFC.cool Tools：带签名的链接、读取计数 137，SUN 校验显示 Authentic"><p><strong>一次真实的轻触。</strong>带签名的链接、读取计数，还有通过的 SUN 校验。</p></li>
+</ol>
+</figure>
+
 把标签贴到手机上，[iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-zh&mt=8) 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-zh) 上的 NFC.cool Tools 会做一次深度读取，什么都不用你输入：芯片的身份、它是不是 TagTamper 版本、链接、每个文件的设置和访问权限、哪些密钥槽位已经不再是出厂值，以及三项彼此独立的检查结果。
 
 ### 这是原装 NXP 硅片吗？
@@ -116,6 +122,15 @@ NTAG 424 DNA 是一枚 NFC Forum Type 4 标签，416 字节的内存全都归一
 ## 芯片的其余部分
 
 大多数教程到精简版就停下了，而在此之前，想再往前走一步，就得在电脑上插一个 USB 读卡器，打开 NXP 的 TagXplorer。我想让整份数据手册在手机上都触手可及，于是就一节一节地啃了下去。
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>芯片的其余部分，都在手机上</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="Key 0 界面：用口令或十六进制密钥设置、录入在另一台设备上设好的密钥，或重置回出厂默认值"><p><strong>Key 0。</strong>用口令或十六进制密钥设置，录入你在另一台设备上设好的密钥，或者恢复出厂。</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="高级界面：芯片身份、存储容量、SUN 已启用，以及 Key 1 到 Key 4"><p><strong>高级。</strong>芯片的身份信息和另外四把密钥，每一把都和 Key 0 有一样的选项。</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="Vault 界面，存着一条备注，已用 126 字节中的 36 字节"><p><strong>Vault。</strong>最多 126 字节的文字，只有你的 Key 0 能读回来。</p></li>
+</ol>
+</figure>
 
 ### 五把密钥，一把不落
 

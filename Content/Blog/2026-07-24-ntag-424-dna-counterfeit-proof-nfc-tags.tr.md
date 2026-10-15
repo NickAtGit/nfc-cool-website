@@ -77,6 +77,12 @@ Bir şeyi değiştiren her komut, kimliği doğrulanmış bir oturumun içinde �
 
 ## Bir okutma sana ne gösteriyor
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="Bir NTAG 424 DNA tag'i okutulduktan sonra NFC.cool Tools: imzalı bağlantı, 137 okuma sayacı ve Authentic durumundaki SUN doğrulaması"><p><strong>Gerçek bir okutma.</strong> İmzalı bağlantı, okuma sayacı ve geçilen SUN kontrolü.</p></li>
+</ol>
+</figure>
+
 Tag'i telefonuna tut, [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-tr&mt=8) ya da [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-tr) üzerindeki NFC.cool Tools senden hiçbir şey istemeden derin bir okuma yapsın: çipin kimliği ve TagTamper türevi olup olmadığı, bağlantı, her dosyanın ayarları ve erişim hakları, hangi anahtar yuvalarının fabrika değerinden değiştirildiği ve üç ayrı denetimin sonuçları.
 
 ### Gerçek NXP silikonu mu?
@@ -116,6 +122,15 @@ Uygulamanın bilerek reddettiği bir şey var: SUN açık bir tag'e, sıradan ya
 ## Çipin geri kalanı
 
 Çoğu anlatım o kısa yolda duruyor ve şimdiye dek daha ileri gitmenin yolu, USB okuyuculu bir masaüstünde NXP'nin TagXplorer'ıydı. Ben veri sayfasının tamamına telefondan ulaşılabilmesini istedim, o yüzden bölüm bölüm indim.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Çipin geri kalanı, telefonunda</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="Anahtar 0 ekranı: anahtarı paroladan ya da onaltılık olarak ayarlama, başka bir cihazda ayarlananı girme veya fabrika değerine dönme"><p><strong>Anahtar 0.</strong> Paroladan ya da onaltılık bir anahtardan ayarla, başka bir cihazda ayarladığını gir ya da fabrika değerine dön.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="Gelişmiş ekranı: çipin kimliği, belleği, açık SUN ve Anahtar 1'den 4'e kadar"><p><strong>Gelişmiş.</strong> Çipin kimliği ve diğer dört anahtar; her birinde Anahtar 0'la aynı seçenekler var.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="Bir not saklayan Kasa ekranı, 126 baytın 36'sı dolu"><p><strong>Kasa.</strong> Yalnızca senin Anahtar 0'ının geri okuyabildiği en fazla 126 bayt metin.</p></li>
+</ol>
+</figure>
 
 ### Beş anahtarın hepsi
 

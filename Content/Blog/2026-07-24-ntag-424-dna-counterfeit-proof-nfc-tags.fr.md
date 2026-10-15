@@ -77,6 +77,12 @@ Chaque commande qui modifie quelque chose s'exécute dans une session authentifi
 
 ## Ce qu'un scan vous révèle
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="NFC.cool Tools après le scan d'un tag NTAG 424 DNA : le lien signé, un compteur de lectures à 137 et l'authenticité SUN sur Authentic"><p><strong>Un scan authentique.</strong> Le lien signé, le compteur de lectures et une vérification SUN réussie.</p></li>
+</ol>
+</figure>
+
 Approchez un tag de votre téléphone et NFC.cool Tools sur [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-fr&mt=8) ou [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-fr) effectue une lecture approfondie sans rien vous demander : l'identité de la puce et s'il s'agit de la variante TagTamper, le lien, les réglages et les droits d'accès de chaque fichier, quels emplacements de clé ne sont plus sur leur valeur d'usine, et le résultat de trois contrôles distincts.
 
 ### Est-ce du vrai silicium NXP ?
@@ -116,6 +122,15 @@ Une chose que l'app refuse délibérément : écrire un simple lien sur un tag o
 ## Le reste de la puce
 
 Cette version courte, c'est là que s'arrêtent la plupart des tutoriels, et jusqu'ici, pour aller plus loin, il fallait passer par TagXplorer de NXP sur un ordinateur avec un lecteur USB. Je voulais que toute la fiche technique soit accessible depuis le téléphone, alors je l'ai épluchée, section après section.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Le reste de la puce, sur votre téléphone</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="L'écran Key 0 : définir la clé à partir d'une phrase secrète ou en hexadécimal, saisir une clé définie sur un autre appareil, ou revenir à la clé d'usine"><p><strong>Key 0.</strong> Définissez-la à partir d'une phrase secrète ou d'une clé hexadécimale, saisissez une clé définie sur un autre appareil, ou revenez à la clé d'usine.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="L'écran Avancé : l'identité de la puce, sa mémoire, SUN activé et les clés Key 1 à Key 4"><p><strong>Avancé.</strong> L'identité de la puce et les quatre autres clés, chacune avec les mêmes options que Key 0.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="Le coffre contenant une note, 36 octets sur 126"><p><strong>Le coffre.</strong> Jusqu'à 126 octets de texte que seule votre Key 0 peut relire.</p></li>
+</ol>
+</figure>
 
 ### Les cinq clés
 

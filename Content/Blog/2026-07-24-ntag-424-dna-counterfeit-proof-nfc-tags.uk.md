@@ -77,6 +77,12 @@ NTAG 424 DNA належить до типу NFC Forum Type 4 і має 416 ба�
 
 ## Що показує один дотик
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="NFC.cool Tools після дотику до мітки NTAG 424 DNA: підписане посилання, лічильник зчитувань 137 і перевірка SUN зі статусом Authentic"><p><strong>Справжній дотик.</strong> Підписане посилання, лічильник зчитувань і пройдена перевірка SUN.</p></li>
+</ol>
+</figure>
+
 Піднеси мітку до телефона, і NFC.cool Tools на [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-uk&mt=8) чи [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-uk) зробить глибоке зчитування, нічого в тебе не питаючи: покаже, що за чип перед тобою і чи це версія TagTamper, саме посилання, налаштування та права доступу кожного файлу, які слоти ключів уже відійшли від заводських, і результати трьох окремих перевірок.
 
 ### Чи справжній це чип NXP?
@@ -116,6 +122,15 @@ NTAG 424 DNA належить до типу NFC Forum Type 4 і має 416 ба�
 ## Решта чипа
 
 На цій короткій версії більшість посібників і закінчується, а щоб піти далі, досі треба було сідати за комп'ютер із TagXplorer від NXP і USB-зчитувачем. Мені хотілося, щоб увесь технічний опис відкривався з телефона, тож я пройшов його розділ за розділом.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Решта чипа, просто в телефоні</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="Екран ключа 0: задати ключ парольною фразою або в шістнадцятковому вигляді, ввести ключ, заданий на іншому пристрої, або скинути до заводського"><p><strong>Ключ 0.</strong> Задай його парольною фразою або шістнадцятковим ключем, введи ключ, заданий на іншому пристрої, або поверни заводський.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="Екран розширених налаштувань: дані чипа, пам'ять, увімкнений SUN і ключі з 1 до 4"><p><strong>Розширені налаштування.</strong> Дані чипа й решта чотири ключі, кожен із тими самими варіантами, що й ключ 0.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="Екран сховища зі збереженою нотаткою, зайнято 36 зі 126 байтів"><p><strong>Сховище.</strong> До 126 байтів тексту, які прочитає назад лише твій ключ 0.</p></li>
+</ol>
+</figure>
 
 ### Усі п'ять ключів
 

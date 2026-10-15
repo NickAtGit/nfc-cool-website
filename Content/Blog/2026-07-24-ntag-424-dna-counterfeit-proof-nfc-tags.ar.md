@@ -77,6 +77,12 @@ ogDescription: "كيف تكشف وسوم NTAG 424 DNA النسخ المقلّد�
 
 ## ما تكشفه لك لمسة واحدة
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="NFC.cool Tools بعد لمس وسم NTAG 424 DNA: الرابط الموقَّع، وعدّاد قراءات عند ١٣٧، وأصالة SUN بحالة Authentic"><p><strong>لمسة أصلية.</strong> الرابط الموقَّع، وعدّاد القراءات، وفحص SUN ناجح.</p></li>
+</ol>
+</figure>
+
 ألصق وسمًا بهاتفك فيُجري NFC.cool Tools على [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-ar&mt=8) أو [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-ar) قراءة عميقة دون أن يطلب منك شيئًا: هوية الرقاقة وما إذا كانت من طراز TagTamper، والرابط، وإعدادات كل ملف وصلاحيات الوصول إليه، وأيّ خانات المفاتيح غُيّرت عن ضبط المصنع، ونتائج ثلاثة فحوص مستقلة.
 
 ### هل هذا سيليكون NXP أصلي؟
@@ -116,6 +122,15 @@ ogDescription: "كيف تكشف وسوم NTAG 424 DNA النسخ المقلّد�
 ## ما تبقّى من الرقاقة
 
 عند تلك النسخة المختصرة تتوقف معظم الشروحات، وحتى الآن كان السبيل إلى ما بعدها هو أداة TagXplorer من NXP على حاسوب مكتبي بقارئ USB. أردت أن تكون ورقة البيانات كلها في متناول الهاتف، فتتبّعتها قسمًا قسمًا.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>بقية الرقاقة، على هاتفك</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="شاشة Key 0: تعيين المفتاح من عبارة مرور أو قيمة ست عشرية، أو إدخال مفتاح عُيّن على جهاز آخر، أو إعادته إلى ضبط المصنع"><p><strong>Key 0.</strong> عيّنه من عبارة مرور أو مفتاح ست عشري، أو أدخل مفتاحًا عيّنته على جهاز آخر، أو أعِده إلى ضبط المصنع.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="شاشة متقدم: هوية الرقاقة وذاكرتها وتفعيل SUN والمفاتيح من Key 1 إلى Key 4"><p><strong>متقدم.</strong> هوية الرقاقة والمفاتيح الأربعة الأخرى، ولكلٍّ منها خيارات Key 0 نفسها.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="شاشة الخزنة وفيها ملاحظة محفوظة، ٣٦ من ١٢٦ بايت"><p><strong>الخزنة.</strong> حتى ١٢٦ بايت من النص لا يقرؤها إلا Key 0 الخاص بك.</p></li>
+</ol>
+</figure>
 
 ### المفاتيح الخمسة كلها
 

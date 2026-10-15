@@ -77,6 +77,12 @@ Setiap perintah yang mengubah sesuatu berjalan di dalam sesi terautentikasi: pon
 
 ## Apa yang terungkap dari satu ketukan
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="NFC.cool Tools setelah mengetuk tag NTAG 424 DNA: tautan bertanda tangan, penghitung baca 137, dan keaslian SUN Authentic"><p><strong>Ketukan yang asli.</strong> Tautan bertanda tangan, penghitung baca, dan pemeriksaan SUN yang lolos.</p></li>
+</ol>
+</figure>
+
 Tempelkan sebuah tag ke ponsel Anda, dan NFC.cool Tools di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-id&mt=8) atau [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-id) langsung melakukan pembacaan mendalam tanpa meminta apa pun dari Anda: identitas chip dan apakah ia varian TagTamper, tautannya, pengaturan serta hak akses setiap file, slot kunci mana saja yang sudah diubah dari setelan pabrik, dan hasil dari tiga pemeriksaan terpisah.
 
 ### Apakah ini silikon NXP asli?
@@ -116,6 +122,15 @@ Satu hal yang sengaja ditolak aplikasi: menulis tautan biasa ke tag yang SUN-nya
 ## Bagian chip yang lain
 
 Kebanyakan tutorial berhenti di versi singkat itu, dan sampai sekarang satu-satunya jalan untuk melangkah lebih jauh adalah TagXplorer dari NXP di desktop dengan pembaca USB. Saya ingin seluruh datasheet bisa dijangkau dari ponsel, jadi saya menyusurinya bagian demi bagian.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Bagian chip yang lain, di ponsel Anda</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="Layar Key 0: atur kunci dari passphrase atau hex, masukkan kunci yang diatur di perangkat lain, atau reset ke bawaan pabrik"><p><strong>Key 0.</strong> Atur dari passphrase atau kunci hex, masukkan kunci yang Anda atur di perangkat lain, atau kembalikan ke bawaan pabrik.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="Layar Lanjutan: identitas chip, memorinya, SUN aktif, dan Key 1 sampai Key 4"><p><strong>Lanjutan.</strong> Identitas chip dan empat kunci lainnya, masing-masing dengan pilihan yang sama seperti Key 0.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="Layar Brankas berisi sebuah catatan, 36 dari 126 byte"><p><strong>Brankas.</strong> Hingga 126 byte teks yang hanya bisa dibaca kembali oleh Key 0 Anda.</p></li>
+</ol>
+</figure>
 
 ### Kelima kunci
 
