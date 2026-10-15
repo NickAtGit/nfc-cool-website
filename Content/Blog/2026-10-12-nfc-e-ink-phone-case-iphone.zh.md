@@ -83,6 +83,16 @@ NFC.cool 照这个办法改过之后，图片就显示得干干净净了。我�
 
 日历和提醒事项这几种样式都只是快照。手机壳显示的是你写入那一刻的内容，一直到你换上下一张为止。没有手机，它没法自己更新，这就是永远不用充电要付出的代价。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>手机壳上的设计</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="NFC.cool Tools 的 E-ink case 页面，有 Photo、QR code 和 Calendar and Reminders 三种设计"><p><strong>E-ink case。</strong>在 NFC Apps 里。选一种设计，再轻触 Put on case。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="Photo 设计：一幅山丘上的日落，用手机壳的四种墨色显示，带 Crop 和亮度调节"><p><strong>照片。</strong>任何图片，都会转换成手机壳的四种墨色。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="QR code 设计，用手机壳的墨色显示一个已保存的二维码"><p><strong>二维码。</strong>你在 NFC.cool 里保存的二维码，或者现场输入的内容。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="10 月 15 日周四的 Today's agenda 设计，列出上午 9 点到晚上 7 点的五个日程，以及 Put on case"><p><strong>今日日程。</strong>当天的日历，作为快照显示在手机背面。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 用之前要知道的几件事

@@ -83,6 +83,16 @@ NFC.coolでも同じようにしたところ、写真がきれいに表示され
 
 カレンダーとリマインダーのデザインは、その時点のスナップショットです。ケースには書き込んだときの内容が表示され、次のデザインを書き込むまでそのまま残ります。スマホなしで自動的に更新されることはありませんが、それが充電器をいっさい必要としないことの代償です。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>ケースに表示するデザイン</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="NFC.cool ToolsのE-ink case画面。Photo、QR code、Calendar and Remindersのデザイン"><p><strong>E-ink case。</strong>NFC Appsの中にあります。デザインを選んでPut on caseをタップ。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="Photoデザイン。丘に沈む夕日をケースの4色で表示し、Cropと明るさの調整付き"><p><strong>写真。</strong>どんな写真も、ケースの4色に変換します。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="QR codeデザイン。保存したQRコードをケースの色で表示"><p><strong>QRコード。</strong>NFC.coolに保存したコードか、その場で入力したもの。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="10月15日（木）のToday's agendaデザイン。9:00 AMから7:00 PMまでの予定5件とPut on case"><p><strong>今日の予定。</strong>その日のカレンダーを、スマホの背面にスナップショットとして。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 知っておきたいこと

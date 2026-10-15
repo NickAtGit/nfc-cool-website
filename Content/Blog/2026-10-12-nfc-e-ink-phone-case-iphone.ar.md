@@ -83,6 +83,16 @@ ogDescription: "كيف فككت بالهندسة العكسية جراب هات�
 
 تصاميم التقويم والتذكيرات لقطات ثابتة. فالجراب يعرض ما كان صحيحًا لحظة وضعتها عليه، إلى أن تضع التصميم التالي. ولا يستطيع أن يحدّث نفسه دون هاتفك، وهذا هو ثمن ألا يحتاج إلى شاحن أبدًا.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>تصاميم للغطاء</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="شاشة E-ink case في NFC.cool Tools، مع تصاميم Photo وQR code وCalendar and Reminders"><p><strong>E-ink case.</strong> ضمن NFC Apps. اختر تصميمًا ثم انقر على Put on case.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="تصميم Photo: غروب شمس فوق تلال بأحبار الغطاء الأربعة، مع Crop وضبط السطوع"><p><strong>صورة.</strong> أي صورة، محوّلة إلى أحبار الغطاء الأربعة.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="تصميم QR code، يعرض رمز QR محفوظًا بأحبار الغطاء"><p><strong>رمز QR.</strong> رمز حفظته في NFC.cool، أو رمز تكتبه.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="تصميم Today's agenda ليوم الخميس ١٥ أكتوبر، فيه خمسة مواعيد من ٩:٠٠ صباحًا حتى ٧:٠٠ مساءً، مع Put on case"><p><strong>مواعيد اليوم.</strong> تقويمك لهذا اليوم، كلقطة على ظهر الهاتف.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## قبل أن تبدأ

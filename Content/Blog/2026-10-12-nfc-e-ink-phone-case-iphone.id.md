@@ -83,6 +83,16 @@ Fiturnya ada di **NFC.cool Tools 7.2.0**, di bagian Aplikasi NFC, dengan nama **
 
 Desain kalender dan pengingat hanyalah cuplikan sesaat. Casing menampilkan keadaan saat Anda mengirimnya, sampai Anda mengirim desain berikutnya. Casing tidak bisa memperbarui dirinya sendiri tanpa ponsel Anda, dan itulah harga yang harus dibayar untuk perangkat yang tidak pernah butuh pengisi daya.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Desain untuk casing</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="Layar E-ink case di NFC.cool Tools, dengan desain Photo, QR code, dan Calendar and Reminders"><p><strong>E-ink case.</strong> Di NFC Apps. Pilih desain, lalu ketuk Put on case.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="Desain Photo: matahari terbenam di atas bukit dalam empat tinta casing, dengan Crop dan pengatur kecerahan"><p><strong>Foto.</strong> Gambar apa pun, diubah ke empat tinta casing.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="Desain QR code, menampilkan kode QR tersimpan dalam tinta casing"><p><strong>Kode QR.</strong> Kode yang Anda simpan di NFC.cool, atau yang Anda ketik.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="Desain Today's agenda untuk Kamis, 15 Oktober, berisi lima acara dari pukul 9.00 hingga 19.00, dengan Put on case"><p><strong>Agenda hari ini.</strong> Kalender Anda hari itu, sebagai cuplikan di bagian belakang ponsel.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Yang perlu diketahui

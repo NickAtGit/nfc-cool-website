@@ -83,6 +83,16 @@ La fonction se trouve dans **NFC.cool Tools 7.2.0**, dans la section Application
 
 Les modèles de calendrier et de rappels sont des instantanés. La coque montre ce qui était à jour au moment de l'envoi, et le garde jusqu'au suivant. Elle ne peut pas se mettre à jour sans votre téléphone : c'est le prix à payer pour ne jamais avoir besoin d'un chargeur.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Les designs pour la coque</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="L'écran E-ink case de NFC.cool Tools, avec les designs Photo, QR code et Calendar and Reminders"><p><strong>E-ink case.</strong> Dans NFC Apps. Choisissez un design, puis appuyez sur Put on case.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="Le design Photo : un coucher de soleil sur des collines dans les quatre encres de la coque, avec Crop et un réglage de luminosité"><p><strong>Photo.</strong> N'importe quelle image, convertie dans les quatre encres de la coque.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="Le design QR code, avec un QR code enregistré dans les encres de la coque"><p><strong>QR code.</strong> Un code enregistré dans NFC.cool, ou un que vous saisissez.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="Le design Today's agenda pour le jeudi 15 octobre, avec cinq événements de 9 h à 19 h et Put on case"><p><strong>L'agenda du jour.</strong> Votre calendrier du jour, en instantané au dos du téléphone.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Bon à savoir

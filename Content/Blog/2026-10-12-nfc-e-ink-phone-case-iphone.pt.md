@@ -83,6 +83,16 @@ A funcionalidade está na **NFC.cool Tools 7.2.0**, em Aplicações NFC, com o n
 
 Os designs do calendário e dos lembretes são retratos de um momento. A capa mostra o que era verdade quando os pôs lá, até pôr o seguinte. Sem o telemóvel, não se consegue atualizar sozinha, e é esse o preço de nunca precisar de carregador.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Designs para a capa</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="O ecrã E-ink case no NFC.cool Tools, com os designs Photo, QR code e Calendar and Reminders"><p><strong>E-ink case.</strong> Em NFC Apps. Escolha um design e toque em Put on case.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="O design Photo: um pôr do sol sobre colinas nas quatro tintas da capa, com Crop e controlo de brilho"><p><strong>Fotografia.</strong> Qualquer imagem, convertida nas quatro tintas da capa.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="O design QR code, com um código QR guardado nas tintas da capa"><p><strong>Código QR.</strong> Um código que guardou no NFC.cool, ou um que escreve na hora.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="O design Today's agenda para quinta-feira, 15 de outubro, com cinco eventos das 9:00 às 19:00 e Put on case"><p><strong>Agenda de hoje.</strong> O seu calendário do dia, como instantâneo nas costas do telemóvel.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Antes de experimentar

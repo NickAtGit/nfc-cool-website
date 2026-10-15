@@ -83,6 +83,16 @@ Die Funktion steckt in **NFC.cool Tools 7.2.0** unter NFC-Apps und heißt **E-In
 
 Die Kalender- und Erinnerungsmotive sind Momentaufnahmen. Die Hülle zeigt, was beim Übertragen aktuell war, bis du das nächste Motiv aufspielst. Ohne dein Handy kann sie sich nicht selbst aktualisieren, und das ist der Preis dafür, dass sie nie ein Ladegerät braucht.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Motive für die Hülle</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="Der Bildschirm E-ink case in NFC.cool Tools mit den Motiven Photo, QR code und Calendar and Reminders"><p><strong>E-ink case.</strong> Unter NFC Apps. Motiv wählen, dann auf Put on case tippen.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="Das Motiv Photo: ein Sonnenuntergang über Hügeln in den vier Farben der Hülle, mit Crop und Helligkeitsregler"><p><strong>Foto.</strong> Jedes Bild, umgesetzt in die vier Farben der Hülle.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="Das Motiv QR code mit einem gespeicherten QR-Code in den Farben der Hülle"><p><strong>QR-Code.</strong> Ein Code, den du in NFC.cool gespeichert hast, oder einer, den du eintippst.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="Das Motiv Today's agenda für Donnerstag, den 15. Oktober, mit fünf Terminen von 9:00 bis 19:00 Uhr und Put on case"><p><strong>Heutige Termine.</strong> Dein Kalender für den Tag, als Momentaufnahme auf der Rückseite des Handys.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Gut zu wissen

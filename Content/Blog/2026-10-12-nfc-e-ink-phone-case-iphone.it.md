@@ -83,6 +83,16 @@ La funzione si trova in **NFC.cool Tools 7.2.0**, tra le Applicazioni NFC, con i
 
 I design con calendario e promemoria sono istantanee. La custodia mostra la situazione del momento in cui li hai inviati, finché non ne invii un altro. Senza il telefono non può aggiornarsi da sola, ed è il prezzo da pagare per non aver mai bisogno di un caricabatterie.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>I design per la cover</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="La schermata E-ink case di NFC.cool Tools, con i design Photo, QR code e Calendar and Reminders"><p><strong>E-ink case.</strong> In NFC Apps. Scegli un design, poi tocca Put on case.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="Il design Photo: un tramonto sulle colline nei quattro inchiostri della cover, con Crop e la regolazione della luminosità"><p><strong>Foto.</strong> Qualsiasi immagine, convertita nei quattro inchiostri della cover.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="Il design QR code, con un codice QR salvato negli inchiostri della cover"><p><strong>Codice QR.</strong> Un codice salvato in NFC.cool, oppure uno che digiti.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="Il design Today's agenda per giovedì 15 ottobre, con cinque eventi dalle 9:00 alle 19:00 e Put on case"><p><strong>L'agenda di oggi.</strong> Il calendario della giornata, come istantanea sul retro del telefono.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Qualche consiglio pratico

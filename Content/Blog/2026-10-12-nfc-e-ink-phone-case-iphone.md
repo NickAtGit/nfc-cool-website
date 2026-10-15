@@ -83,6 +83,16 @@ The feature lives in **NFC.cool Tools 7.2.0** under NFC Apps, as **E-ink case**.
 
 The calendar and reminder designs are snapshots. The case shows what was true when you put it on, until you put on the next one. It can't update itself without your phone, and that's the price of never needing a charger.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Designs for the Case</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="The E-ink case screen in NFC.cool Tools, with the designs Photo, QR code and Calendar and Reminders"><p><strong>E-ink case.</strong> Under NFC Apps. Pick a design, then tap Put on case.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="The Photo design: a sunset over hills in the case's four inks, with Crop and a brightness control"><p><strong>Photo.</strong> Any picture, turned into the case's four inks.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="The QR code design, showing a saved QR code in the case's inks"><p><strong>QR code.</strong> A code you saved in NFC.cool, or one you type in.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="The Today's agenda design for Thursday, October 15, listing five events from 9:00 AM to 7:00 PM, with Put on case"><p><strong>Today's agenda.</strong> Your calendar for the day, as a snapshot on the back of the phone.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## A cool hack, with one catch

@@ -83,6 +83,16 @@ ogDescription: "Как я разобрал протокол NFC-чехла с э
 
 Макеты с календарём и напоминаниями работают как моментальный снимок. Чехол показывает то, что было верно в момент записи, и так до следующей записи. Обновиться сам, без телефона, он не может, и такова цена того, что заряжать его не нужно никогда.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Дизайны для чехла</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="Экран E-ink case в NFC.cool Tools с дизайнами Photo, QR code и Calendar and Reminders"><p><strong>E-ink case.</strong> В разделе NFC Apps. Выбери дизайн и нажми Put on case.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="Дизайн Photo: закат над холмами в четырёх красках чехла, с кнопкой Crop и регулировкой яркости"><p><strong>Фото.</strong> Любая картинка, переведённая в четыре краски чехла.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="Дизайн QR code: сохранённый QR-код в красках чехла"><p><strong>QR-код.</strong> Код, сохранённый в NFC.cool, или введённый на месте.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="Дизайн Today's agenda на четверг, 15 октября: пять событий с 9:00 до 19:00 и кнопка Put on case"><p><strong>Планы на сегодня.</strong> Календарь на день, снимком на задней стороне телефона.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Что стоит знать

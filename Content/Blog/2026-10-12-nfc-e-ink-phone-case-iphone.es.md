@@ -83,6 +83,16 @@ La función está en **NFC.cool Tools 7.2.0**, dentro de Aplicaciones NFC, con e
 
 Los diseños de calendario y de recordatorios son una foto fija: la funda muestra lo que había en el momento en que los enviaste, hasta que envíes el siguiente. No puede actualizarse sola sin tu móvil, y ese es el precio de no necesitar nunca un cargador.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Diseños para la funda</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="La pantalla E-ink case de NFC.cool Tools, con los diseños Photo, QR code y Calendar and Reminders"><p><strong>E-ink case.</strong> En NFC Apps. Elige un diseño y toca Put on case.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="El diseño Photo: una puesta de sol sobre colinas en las cuatro tintas de la funda, con Crop y control de brillo"><p><strong>Foto.</strong> Cualquier imagen, convertida a las cuatro tintas de la funda.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="El diseño QR code, con un código QR guardado en las tintas de la funda"><p><strong>Código QR.</strong> Un código que guardaste en NFC.cool, o uno que escribes.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="El diseño Today's agenda del jueves 15 de octubre, con cinco eventos de 9:00 a 19:00 y Put on case"><p><strong>Agenda de hoy.</strong> Tu calendario del día, como instantánea en la parte trasera del móvil.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Lo que conviene saber

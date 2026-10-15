@@ -83,6 +83,16 @@ NFC.cool da aynısını yapınca resimler tertemiz çıktı. İtiraf edeyim, bu 
 
 Takvim ve anımsatıcı tasarımları o anın fotoğrafı gibi. Kılıf, yüklediğin andaki durumu sen bir sonrakini yükleyene kadar gösteriyor. Telefonun olmadan kendini güncelleyemiyor; hiç şarj aleti istememesinin bedeli de bu.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Kılıf için tasarımlar</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="NFC.cool Tools'taki E-ink case ekranı; Photo, QR code ve Calendar and Reminders tasarımlarıyla"><p><strong>E-ink case.</strong> NFC Apps altında. Bir tasarım seç, sonra Put on case'e dokun.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="Photo tasarımı: kılıfın dört mürekkebiyle tepelerin üzerinde bir gün batımı; Crop ve parlaklık ayarıyla"><p><strong>Fotoğraf.</strong> Herhangi bir resim, kılıfın dört mürekkebine dönüştürülür.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="QR code tasarımı; kayıtlı bir QR kodu kılıfın mürekkepleriyle gösteriyor"><p><strong>QR kod.</strong> NFC.cool'da kaydettiğin bir kod ya da yazdığın bir kod.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="15 Ekim Perşembe için Today's agenda tasarımı; 9.00 ile 19.00 arasında beş etkinlik ve Put on case"><p><strong>Bugünün ajandası.</strong> Günün takvimi, telefonun arkasında bir anlık görüntü olarak.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Bilmekte fayda var

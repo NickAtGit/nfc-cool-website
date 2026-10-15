@@ -83,6 +83,16 @@ ogDescription: "Як я розібрав протокол NFC-чохла з e-in
 
 Дизайни з календарем і нагадуваннями фіксують мить. На чохлі лишається те, що було актуальним у момент запису, аж доки не запишеш наступний дизайн. Сам, без телефона, він не оновиться: така ціна того, що заряджати його не треба ніколи.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Дизайни для чохла</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/1-designs-440w.webp" alt="Екран E-ink case у NFC.cool Tools з дизайнами Photo, QR code і Calendar and Reminders"><p><strong>E-ink case.</strong> У розділі NFC Apps. Обери дизайн і натисни Put on case.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/2-photo-440w.webp" alt="Дизайн Photo: захід сонця над пагорбами в чотирьох фарбах чохла, з кнопкою Crop і регулюванням яскравості"><p><strong>Фото.</strong> Будь-яке зображення, переведене в чотири фарби чохла.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/3-qr-code-440w.webp" alt="Дизайн QR code: збережений QR-код у фарбах чохла"><p><strong>QR-код.</strong> Код, збережений у NFC.cool, або введений на місці.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-e-ink-phone-case-iphone/4-agenda-440w.webp" alt="Дизайн Today's agenda на четвер, 15 жовтня: п'ять подій з 9:00 до 19:00 і кнопка Put on case"><p><strong>Плани на сьогодні.</strong> Календар на день, знімком на задній стороні телефона.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Що варто знати
