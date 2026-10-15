@@ -38,6 +38,12 @@ Kartvizit uygulamanı alıcı seçmedi. Araştırmadı da. Sen istedin diye okut
 
 NFC.cool Business Card, alıcının platformuna göre iki farklı yol izliyor ve ikisi de indirme gerektirmeden çalışacak biçimde tasarlandı.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/app-clip-440w.webp" alt="Alıcının gördüğü App Clip: Lindqvist Studio'dan Kasper Lindqvist; Website, Instagram ve YouTube bağlantıları ve Save Contact düğmesiyle"><p><strong>App Clip.</strong> Yerel, alıcının dilinde ve Save Contact tam başparmağın altında.</p></li>
+</ol>
+</figure>
+
 ### iPhone'da: yerel bir App Clip
 
 Bir iPhone kullanıcısı NFC kartını okuttuğunda ya da QR kodunu taradığında iOS bir [App Clip](https://developer.apple.com/app-clips/) açıyor: tam da böyle anlar için tasarlanmış, hafif ve yerel bir deneyim.
@@ -94,6 +100,12 @@ Bu, çoğu kişinin fark ettiğinden daha önemli. Kartvizitin çoğu zaman seni
 ---
 
 ## Konferans Modu: kilit ekranından paylaşmak
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="NFC.cool Business Card'taki kart menüsü: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card ve Add to Apple Wallet"><p><strong>Başlatmak için tek dokunuş.</strong> Conference Mode, kartın menüsünde Write to NFC Tag ve Add to Apple Wallet'ın yanında duruyor.</p></li>
+</ol>
+</figure>
 
 Konferanslarda ve etkinliklerde kartını onlarca kez paylaşıyorsun. NFC.cool'da Konferans Modu diye bir özellik var; iOS Canlı Etkinlikler'i kullanarak QR kodunu doğrudan kilit ekranına koyuyor.
 

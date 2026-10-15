@@ -37,6 +37,12 @@ Penerima tidak memilih aplikasi kartu nama Anda. Mereka tidak meneliti. Mereka h
 
 NFC.cool Business Card mengambil dua pendekatan berbeda tergantung pada platform penerima, keduanya dirancang untuk bekerja tanpa unduhan apa pun.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/app-clip-440w.webp" alt="App Clip yang dilihat penerima: Kasper Lindqvist dari Lindqvist Studio, dengan tautan Website, Instagram, dan YouTube serta tombol Save Contact"><p><strong>App Clip.</strong> Native, dalam bahasa penerima, dengan Save Contact tepat di bawah ibu jari.</p></li>
+</ol>
+</figure>
+
 ### Di iPhone: App Clip native
 
 Ketika pengguna iPhone mengetuk kartu NFC Anda atau memindai kode QR Anda, iOS meluncurkan [App Clip](https://developer.apple.com/app-clips/): pengalaman native yang ringan, dibangun khusus untuk momen seperti ini.
@@ -93,6 +99,12 @@ Ini lebih penting dari yang disadari kebanyakan orang. Kartu nama Anda sering ka
 ---
 
 ## Mode konferensi: berbagi dari layar kunci Anda
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="Menu kartu di NFC.cool Business Card: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card, dan Add to Apple Wallet"><p><strong>Satu ketukan untuk mulai.</strong> Conference Mode ada di menu kartu, di samping Write to NFC Tag dan Add to Apple Wallet.</p></li>
+</ol>
+</figure>
 
 Di konferensi dan acara, Anda berbagi kartu puluhan kali. NFC.cool memiliki fitur yang disebut Conference Mode yang menggunakan iOS Live Activities untuk menempatkan kode QR langsung di layar kunci Anda.
 

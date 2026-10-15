@@ -37,6 +37,12 @@ ogDescription: "كيف يتيح App Clips والملفات الشخصية على
 
 يتّبع NFC.cool Business Card نهجين مختلفين بحسب منصة المُستقبِل، وكلاهما مصمّم للعمل دون أي تنزيل.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/app-clip-440w.webp" alt="الـApp Clip الذي يراه المستلم: Kasper Lindqvist من Lindqvist Studio، مع روابط Website وInstagram وYouTube وزر Save Contact"><p><strong>الـApp Clip.</strong> تجربة أصلية بلغة المستلم، وزر Save Contact تحت إبهامه مباشرة.</p></li>
+</ol>
+</figure>
+
 ### على iPhone: App Clip أصلي
 
 حين يلمس مستخدم iPhone بطاقة NFC الخاصة بك أو يمسح رمز QR، يُطلق iOS تقنية [App Clip](https://developer.apple.com/app-clips/): تجربة أصلية وخفيفة مصمّمة خصيصًا للحظات كهذه.
@@ -93,6 +99,12 @@ ogDescription: "كيف يتيح App Clips والملفات الشخصية على
 ---
 
 ## وضع المؤتمرات: المشاركة من شاشة القفل
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="قائمة البطاقة في NFC.cool Business Card: Preview وEdit Business Card وStart Conference Mode وView Analytics وWrite to NFC Tag وShow QR Code وShare Business Card وAdd to Apple Wallet"><p><strong>نقرة واحدة للبدء.</strong> يقع Conference Mode في قائمة البطاقة، بجوار Write to NFC Tag وAdd to Apple Wallet.</p></li>
+</ol>
+</figure>
 
 في المؤتمرات والفعاليات، تشارك بطاقتك عشرات المرات. يحتوي NFC.cool على ميزة تُسمى وضع المؤتمرات تستخدم Live Activities في iOS لوضع رمز QR مباشرةً على شاشة القفل لديك.
 

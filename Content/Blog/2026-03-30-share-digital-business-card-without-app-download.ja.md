@@ -37,6 +37,12 @@ NFCカードを相手のスマートフォンにタップする、またはQRコ
 
 NFC.cool Business Cardは、受け手のプラットフォームに応じて2つの異なるアプローチをとります。どちらもダウンロード不要で動作します。
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/app-clip-440w.webp" alt="受け取った人に表示されるApp Clip。Lindqvist StudioのKasper Lindqvist。Website、Instagram、YouTubeのリンクとSave Contactボタン"><p><strong>App Clip。</strong>ネイティブで、相手の言語で表示され、Save Contactは親指のすぐ下に。</p></li>
+</ol>
+</figure>
+
 ### iPhoneの場合：ネイティブApp Clip
 
 iPhoneユーザーがあなたのNFCカードをタップまたはQRコードをスキャンすると、iOSが[App Clip](https://developer.apple.com/app-clips/)を起動します。まさにこのような瞬間のために作られた軽量なネイティブ体験です。
@@ -93,6 +99,12 @@ NFC.coolの名刺を受け取った時：
 ---
 
 ## カンファレンスモード：ロック画面から共有
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="NFC.cool Business Cardのカードメニュー。Preview、Edit Business Card、Start Conference Mode、View Analytics、Write to NFC Tag、Show QR Code、Share Business Card、Add to Apple Wallet"><p><strong>ワンタップで開始。</strong>Conference Modeはカードのメニューにあり、Write to NFC TagやAdd to Apple Walletと並んでいます。</p></li>
+</ol>
+</figure>
 
 カンファレンスやイベントでは、名刺を何十回も共有します。NFC.coolにはカンファレンスモードという機能があり、iOSのLive Activityを使ってQRコードをロック画面に直接表示します。
 
