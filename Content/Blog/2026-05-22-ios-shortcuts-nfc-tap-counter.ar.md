@@ -25,7 +25,8 @@ ogDescription: "اختصارات iOS جاهزة للاستخدام لـNFC Tap C
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="إعداد Tap Counter في NFC.cool Tools: رابط كمحتوى، وTry it out، ومفتاحا NFC Tap Counter وNFC Tag ID مفعّلان"><p><strong>إعداد Tap Counter.</strong> نوع المحتوى، والمفتاحان اللذان يحدّدان ما يُضاف.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="NFC Tap Counter مضبوط على Shortcut، يشغّل NFC Tag Alert بالمدخل log-entry، والمفتاحان مفعّلان"><p><strong>اختصار كمحتوى.</strong> يشغّل الوسم NFC Tag Alert بالمدخل log-entry.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="المعاينة: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>ما يتلقاه الاختصار.</strong> المدخل، ومضافًا إليه معرّف الوسم والعدد.</p></li>
 </ol>
 </figure>
 

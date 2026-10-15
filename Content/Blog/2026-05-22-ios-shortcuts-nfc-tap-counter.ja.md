@@ -25,7 +25,8 @@ ogDescription: "NFCタップカウンター向けの、すぐ使えるiOSショ�
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="NFC.cool ToolsのTap Counter設定。内容はURL、Try it out、NFC Tap CounterとNFC Tag IDのスイッチがオン"><p><strong>Tap Counterの設定。</strong>内容の種類と、何を付け足すかを決める2つのスイッチ。</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="ShortcutにしたNFC Tap Counter。NFC Tag Alertを入力log-entryで実行し、両方のスイッチがオン"><p><strong>内容にショートカット。</strong>タグはlog-entryを入力にしてNFC Tag Alertを実行します。</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="プレビュー：shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>ショートカットが受け取るもの。</strong>入力の後ろに、タグIDとカウントが付きます。</p></li>
 </ol>
 </figure>
 

@@ -25,7 +25,8 @@ Alors j'ai créé deux raccourcis et je les partage sous forme de liens iCloud. 
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="La configuration du Tap Counter dans NFC.cool Tools : une URL comme contenu, Try it out, et les interrupteurs NFC Tap Counter et NFC Tag ID activés"><p><strong>La configuration du Tap Counter.</strong> Le type de contenu, et les deux interrupteurs qui décident de ce qui est ajouté.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="Le NFC Tap Counter réglé sur Shortcut, qui lance NFC Tag Alert avec l'entrée log-entry, les deux interrupteurs activés"><p><strong>Un raccourci comme contenu.</strong> Le tag lance NFC Tag Alert avec log-entry en entrée.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="L'aperçu : shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>Ce que reçoit le raccourci.</strong> L'entrée, suivie de l'identifiant du tag et du compteur.</p></li>
 </ol>
 </figure>
 

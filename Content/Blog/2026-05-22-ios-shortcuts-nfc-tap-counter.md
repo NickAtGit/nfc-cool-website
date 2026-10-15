@@ -25,7 +25,8 @@ So I built two Shortcuts and I am sharing them as iCloud links. One is the brain
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="The Tap Counter setup in NFC.cool Tools: a URL as content, Try it out, and the NFC Tap Counter and NFC Tag ID toggles switched on"><p><strong>The Tap Counter setup.</strong> The content type, plus the two toggles that decide what gets appended.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="The NFC Tap Counter set to Shortcut, running NFC Tag Alert with the input log-entry, with both toggles on"><p><strong>A Shortcut as the content.</strong> The tag runs NFC Tag Alert with log-entry as its input.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="The preview: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>What the Shortcut receives.</strong> The input with the tag ID and the count appended.</p></li>
 </ol>
 </figure>
 

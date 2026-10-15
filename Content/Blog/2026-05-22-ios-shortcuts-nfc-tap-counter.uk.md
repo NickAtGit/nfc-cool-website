@@ -25,7 +25,8 @@ ogDescription: "Дві готові команди для лічильника �
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="Налаштування Tap Counter у NFC.cool Tools: URL як вміст, Try it out і ввімкнені перемикачі NFC Tap Counter і NFC Tag ID"><p><strong>Налаштування Tap Counter.</strong> Тип вмісту й два перемикачі, від яких залежить, що буде додано.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="NFC Tap Counter у режимі Shortcut: запускає NFC Tag Alert із вхідними даними log-entry, обидва перемикачі ввімкнено"><p><strong>Швидка команда як вміст.</strong> Мітка запускає NFC Tag Alert із входом log-entry.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="Прев'ю: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>Що отримує команда.</strong> Вхідні дані, а за ними ID мітки й лічильник.</p></li>
 </ol>
 </figure>
 

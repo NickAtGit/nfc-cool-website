@@ -25,7 +25,8 @@ Jadi saya membuat dua Shortcut dan membagikannya sebagai tautan iCloud. Satu ada
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="Pengaturan Tap Counter di NFC.cool Tools: URL sebagai isi, Try it out, serta sakelar NFC Tap Counter dan NFC Tag ID yang menyala"><p><strong>Pengaturan Tap Counter.</strong> Jenis isi, plus dua sakelar yang menentukan apa yang ditambahkan.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="NFC Tap Counter diatur ke Shortcut, menjalankan NFC Tag Alert dengan input log-entry, kedua sakelar menyala"><p><strong>Pintasan sebagai isi.</strong> Tag menjalankan NFC Tag Alert dengan log-entry sebagai inputnya.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="Pratinjau: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>Yang diterima pintasan.</strong> Input dengan ID tag dan hitungan di belakangnya.</p></li>
 </ol>
 </figure>
 

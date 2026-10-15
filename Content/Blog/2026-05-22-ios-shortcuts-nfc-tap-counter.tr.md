@@ -25,7 +25,8 @@ Ben de iki kısayol hazırladım ve iCloud bağlantısı olarak paylaşıyorum. 
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="NFC.cool Tools'ta Tap Counter kurulumu: içerik olarak bir URL, Try it out ve açık NFC Tap Counter ile NFC Tag ID anahtarları"><p><strong>Tap Counter kurulumu.</strong> İçerik türü ve neyin ekleneceğini belirleyen iki anahtar.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="Shortcut olarak ayarlanmış NFC Tap Counter; NFC Tag Alert'i log-entry girdisiyle çalıştırıyor, iki anahtar da açık"><p><strong>İçerik olarak bir kestirme.</strong> Tag, NFC Tag Alert'i log-entry girdisiyle çalıştırır.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="Önizleme: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>Kestirmenin aldığı.</strong> Girdi, sonuna eklenmiş tag kimliği ve sayıyla.</p></li>
 </ol>
 </figure>
 

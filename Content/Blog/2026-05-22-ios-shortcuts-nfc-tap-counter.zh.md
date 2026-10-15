@@ -25,7 +25,8 @@ ogDescription: "面向 NFC 轻触计数器的拿来即用 iOS 快捷指令：一
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="NFC.cool Tools 的 Tap Counter 设置：内容为 URL、Try it out，以及已打开的 NFC Tap Counter 和 NFC Tag ID 开关"><p><strong>Tap Counter 设置。</strong>内容类型，加上决定追加什么的两个开关。</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="设为 Shortcut 的 NFC Tap Counter，以 log-entry 为输入运行 NFC Tag Alert，两个开关都已打开"><p><strong>以快捷指令为内容。</strong>标签会以 log-entry 为输入运行 NFC Tag Alert。</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="预览：shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>快捷指令收到什么。</strong>输入内容后面附上标签 ID 和计数。</p></li>
 </ol>
 </figure>
 

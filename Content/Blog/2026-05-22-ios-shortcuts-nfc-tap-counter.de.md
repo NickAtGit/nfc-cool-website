@@ -25,7 +25,8 @@ Also habe ich zwei Kurzbefehle gebaut und stelle sie als iCloud-Links bereit. Ei
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="Die Einrichtung des Tap Counters in NFC.cool Tools: eine URL als Inhalt, Try it out, und die eingeschalteten Schalter NFC Tap Counter und NFC Tag ID"><p><strong>Die Einrichtung des Tap Counters.</strong> Der Inhaltstyp und die zwei Schalter, die bestimmen, was angehängt wird.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="Der NFC Tap Counter auf Shortcut gestellt, mit dem Kurzbefehl NFC Tag Alert und der Eingabe log-entry, beide Schalter an"><p><strong>Ein Kurzbefehl als Inhalt.</strong> Der Tag startet NFC Tag Alert mit log-entry als Eingabe.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="Die Vorschau: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>Was der Kurzbefehl bekommt.</strong> Die Eingabe, daran angehängt Tag-ID und Zählerstand.</p></li>
 </ol>
 </figure>
 

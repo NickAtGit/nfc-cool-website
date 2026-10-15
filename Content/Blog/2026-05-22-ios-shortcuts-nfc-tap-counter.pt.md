@@ -25,7 +25,8 @@ Por isso construí dois Atalhos e estou a partilhá-los como ligações iCloud. 
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="A configuração do Tap Counter no NFC.cool Tools: um URL como conteúdo, Try it out, e os interruptores NFC Tap Counter e NFC Tag ID ligados"><p><strong>A configuração do Tap Counter.</strong> O tipo de conteúdo e os dois interruptores que decidem o que é acrescentado.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="O NFC Tap Counter definido como Shortcut, a correr NFC Tag Alert com a entrada log-entry, com os dois interruptores ligados"><p><strong>Um atalho como conteúdo.</strong> A tag corre NFC Tag Alert com log-entry como entrada.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="A pré-visualização: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>O que o atalho recebe.</strong> A entrada, com o ID da tag e a contagem acrescentados.</p></li>
 </ol>
 </figure>
 
