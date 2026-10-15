@@ -136,6 +136,12 @@ A conclusão prática: escolha uma plataforma que leve o RGPD a sério por defei
 
 Divulgação total: este é o blogue da NFC.cool, por isso vou falar da minha abordagem. Mas tentei ser honesto quanto ao panorama acima, e vou ser honesto aqui também.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/why-privacy-matters-digital-business-card/profile-settings-440w.webp" alt="As definições de perfil no NFC.cool Business Card: um cartão público, ou um privado que exige PIN para ver e não é indexado por motores de busca, mais as opções de captação de leads"><p><strong>Público ou privado.</strong> Um cartão privado exige PIN para ser visto, e a captação de leads só funciona se a ativar.</p></li>
+</ol>
+</figure>
+
 Quando construí o [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8), a privacidade não foi uma reflexão tardia nem uma caixa de marketing para assinalar. Moldou o produto:
 
 **Perfis Protegidos por PIN** - Pode bloquear o seu cartão de visita atrás de um PIN de 4 dígitos com tentativas limitadas. Partilhe o URL do seu cartão livremente, mas só deixe as pessoas verem os seus detalhes quando quiser. Isto é útil para cartões NFC que possa perder, ou para alturas em que queira controlar quem vê toda a sua informação de contacto.

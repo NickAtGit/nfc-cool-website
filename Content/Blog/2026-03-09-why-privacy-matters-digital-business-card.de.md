@@ -136,6 +136,12 @@ Praktisch heißt das: Nimm eine Plattform, bei der die DSGVO von Haus aus dazuge
 
 Der Ehrlichkeit halber: Das hier ist der NFC.cool-Blog, also rede ich jetzt über meinen eigenen Ansatz. Aber ich habe oben versucht, den Markt ehrlich zu beschreiben, und dabei bleibe ich auch hier.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/why-privacy-matters-digital-business-card/profile-settings-440w.webp" alt="Profileinstellungen in NFC.cool Business Card: eine öffentliche Karte oder eine private, die nur mit PIN sichtbar ist und von Suchmaschinen nicht indexiert wird, dazu die Optionen zur Lead-Erfassung"><p><strong>Öffentlich oder privat.</strong> Eine private Karte braucht eine PIN, und die Lead-Erfassung läuft nur, wenn du sie einschaltest.</p></li>
+</ol>
+</figure>
+
 Als ich [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) gebaut habe, war Datenschutz kein nachträglicher Gedanke und keine Checkbox fürs Marketing. Er hat das Produkt geprägt:
 
 **PIN-geschützte Profile** - Du kannst deine Visitenkarte hinter einer vierstelligen PIN sperren (die Eingabeversuche sind gedrosselt). Die URL deiner Karte kannst du frei herausgeben, deine Details sehen die Leute trotzdem nur, wenn du das willst. Das hilft bei NFC-Karten, die verloren gehen können, oder immer dann, wenn du selbst bestimmen möchtest, wer deine vollständigen Kontaktdaten sieht.

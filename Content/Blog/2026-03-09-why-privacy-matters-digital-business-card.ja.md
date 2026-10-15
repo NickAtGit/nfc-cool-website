@@ -136,6 +136,12 @@ GDPRはデータポータビリティの権利を与えています - プラッ�
 
 情報開示：ここはNFC.coolのブログなので、私のアプローチについてお話しします。しかし、上記では業界全体について正直に述べてきましたし、ここでも正直にお伝えします。
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/why-privacy-matters-digital-business-card/profile-settings-440w.webp" alt="NFC.cool Business Cardのプロフィール設定。公開カードか、表示にPINが必要で検索エンジンに載らない非公開カード、そしてリード取得の設定"><p><strong>公開か非公開か。</strong>非公開カードの表示にはPINが必要で、リード取得はオンにしたときだけ動きます。</p></li>
+</ol>
+</figure>
+
 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-ja&mt=8)を作った時、プライバシーは後付けやマーケティングのチェックボックスではありませんでした。製品を形作るものでした：
 
 **PIN保護されたプロフィール** - 名刺を4桁のPINでロックでき、試行回数も制限されています。カードURLは自由に共有しつつ、相手に情報を見せたい時だけ詳細を表示させることができます。紛失する可能性のあるNFCカードや、完全な連絡先情報を見せる相手をコントロールしたい場面で便利です。
