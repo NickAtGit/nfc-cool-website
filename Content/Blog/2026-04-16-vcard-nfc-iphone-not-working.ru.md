@@ -68,6 +68,12 @@ NFC.cool Tools отлично читает и пишет NFC-метки, я ег
 
 ## Решение: NFC-визитки на ссылках
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="Цифровой профиль, который открывается после касания: Rin Nakashima из Meridian Systems со ссылками Website, Blog, Reddit и Bluesky и кнопкой Save Contact"><p><strong>Касание. Профиль. Сохранение.</strong> Ссылка на метке открывает этот профиль, и одно нажатие сохраняет контакт.</p></li>
+</ol>
+</figure>
+
 Вот чего тебе не расскажут при покупке NFC-визитки:
 
 **контактные данные вообще не надо хранить на метке.**

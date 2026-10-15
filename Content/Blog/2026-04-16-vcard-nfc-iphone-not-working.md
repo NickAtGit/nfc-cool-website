@@ -68,6 +68,12 @@ NFC.cool Tools is great for reading and writing NFC tags - I built it for exactl
 
 ## The Solution: URL-Based NFC Business Cards
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="A digital profile as it opens after a tap: Rin Nakashima of Meridian Systems, with Website, Blog, Reddit and Bluesky links and a Save Contact button"><p><strong>Tap. Profile. Save.</strong> The link on the tag opens this profile, and one tap saves the contact.</p></li>
+</ol>
+</figure>
+
 Here's the thing nobody tells you when you buy an NFC business card:
 
 **You shouldn't store contact data on the tag at all.**

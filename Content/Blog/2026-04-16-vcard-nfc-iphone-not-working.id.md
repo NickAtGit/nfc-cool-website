@@ -68,6 +68,12 @@ NFC.cool Tools sangat bagus untuk membaca dan menulis tag NFC - saya membangunny
 
 ## Solusinya: kartu nama NFC berbasis URL
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="Profil digital yang terbuka setelah diketuk: Rin Nakashima dari Meridian Systems, dengan tautan Website, Blog, Reddit, dan Bluesky serta tombol Save Contact"><p><strong>Ketuk. Profil. Simpan.</strong> Tautan di tag membuka profil ini, dan satu ketukan menyimpan kontaknya.</p></li>
+</ol>
+</figure>
+
 Inilah hal yang tidak diberitahukan kepada Anda saat membeli kartu nama NFC:
 
 **Anda sama sekali tidak boleh menyimpan data kontak pada tag.**

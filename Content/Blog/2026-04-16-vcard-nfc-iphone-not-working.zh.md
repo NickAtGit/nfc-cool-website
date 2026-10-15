@@ -68,6 +68,12 @@ NFC.cool Tools 用来读取和写入 NFC 标签非常棒，我做它正是为了
 
 ## 解决办法：基于网址的 NFC 名片
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="轻触后打开的数字名片：Meridian Systems 的 Rin Nakashima，带 Website、Blog、Reddit、Bluesky 链接和 Save Contact 按钮"><p><strong>轻触，名片，保存。</strong>标签上的链接打开这张名片，轻触一下就能保存联系人。</p></li>
+</ol>
+</figure>
+
 有件事，你买 NFC 名片时没人会告诉你：
 
 **你根本就不该把联系人数据存在标签上。**

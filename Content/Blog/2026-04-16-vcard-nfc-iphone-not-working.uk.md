@@ -68,6 +68,12 @@ NFC.cool Tools чудово читає й записує NFC-мітки, я са
 
 ## Рішення: NFC-візитівка на посиланні
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="Цифровий профіль, що відкривається після дотику: Rin Nakashima з Meridian Systems з посиланнями Website, Blog, Reddit і Bluesky та кнопкою Save Contact"><p><strong>Дотик. Профіль. Збереження.</strong> Посилання на мітці відкриває цей профіль, і одне натискання зберігає контакт.</p></li>
+</ol>
+</figure>
+
 Ось чого не кажуть, коли продають NFC-візитівку:
 
 **Контактні дані взагалі не варто класти на мітку.**
