@@ -20,6 +20,12 @@ NameDropはiPhone対iPhoneです。それがすべてです。目の前の相手
 
 NFC名刺は、相手の端末が何であろうと気にしません。iOSもAndroidも何年も前から読み取ってきた、オープンなNFC標準規格の上で動きます。相手がタップするか、QRコードをスキャンするだけで、あなたの情報が相手の端末に届きます。それがiPhoneであろうとなかろうと、アプリがインストールされていようといまいと関係ありません。覚えるべきジェスチャーも、オンにすべき機能も、そろえるべきOSもありません。
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/namedrop-vs-nfc-business-cards/any-phone-440w.webp" alt="タッチ後に開くNFC.cool Business Cardのカード。Northgate TalentのMarco Delgado。Website、LinkedIn、XのリンクとSave Contactボタン"><p><strong>どのスマホでも。</strong>タッチかスキャンでカードが開き、Save Contactで保存できます。</p></li>
+</ol>
+</figure>
+
 これが、私がいまだにNameDropではなくNFCを軸に開発を続けている、地味な理由です。NameDropは最良のケースを最適化します。2人のiPhoneユーザー、どちらも機能が有効で、どちらもジェスチャーを知っている。NFCはイベントで実際に起こるケースを最適化します。2人の人間、2台の端末、そしてそのどちらについても共通の前提がない状況です。NameDropはデモとしては優れています。NFCは名刺としては優れています。
 
 欲しくなりましたか？　iPhoneなら[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-ja&mt=8)を、Androidなら[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-ja)をどうぞ。

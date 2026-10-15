@@ -20,6 +20,12 @@ NameDrop iPhone'dan iPhone'a çalışıyor. Hikayenin tamamı bu. Masanın karş
 
 NFC kartvizit ise karşıdaki telefonun ne olduğuna aldırmıyor. iOS'un da Android'in de yıllardır okuduğu açık NFC standardı üzerinde çalışıyor. Karşındaki okutuyor ya da QR kodunu tarıyor, bilgilerin telefonuna düşüyor. O telefon iPhone olsun olmasın, herhangi bir uygulama kurulu olsun olmasın. Öğrenilecek hareket yok, açılacak özellik yok, tutturulacak işletim sistemi yok.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/namedrop-vs-nfc-business-cards/any-phone-440w.webp" alt="Dokunduktan sonra açılan NFC.cool Business Card kartı: Northgate Talent'tan Marco Delgado; Website, LinkedIn ve X bağlantıları ve Save Contact düğmesiyle"><p><strong>Her telefon.</strong> Bir dokunuş ya da tarama kartını açar, Save Contact da kaydeder.</p></li>
+</ol>
+</figure>
+
 NameDrop yerine hâlâ NFC üzerine kurmamın gösterişsiz sebebi bu. NameDrop en iyi durumu iyileştiriyor: iki iPhone kullanıcısı, ikisinde de özellik açık, ikisi de hareketi biliyor. NFC ise etkinlikte fiilen yaşanan durumu iyileştiriyor: iki kişi, iki telefon ve ikisi hakkında hiçbir ortak varsayım yok. NameDrop daha iyi bir gösteri. NFC daha iyi bir kartvizit.
 
 İster misin? iPhone'da [NFC.cool Business Card'ı edin](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-tr&mt=8) ya da [Android'de indir](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-tr).

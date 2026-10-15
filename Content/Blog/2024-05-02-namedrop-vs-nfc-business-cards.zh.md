@@ -20,6 +20,12 @@ NameDrop 是 iPhone 对 iPhone，仅此而已。一旦桌子对面的人拿的�
 
 NFC 电子名片不在乎对方的手机是什么。它运行在开放的 NFC 标准之上，iOS 和 Android 多年来都能读取这个标准。对方轻触一下，或者扫描它的二维码，你的信息就会出现在他们的手机上：无论那部手机是不是 iPhone，也无论他们有没有安装任何 App。没有要学的手势，没有要开启的功能，没有要匹配的操作系统。
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/namedrop-vs-nfc-business-cards/any-phone-440w.webp" alt="轻触后打开的 NFC.cool Business Card 名片：Northgate Talent 的 Marco Delgado，带 Website、LinkedIn、X 链接和 Save Contact 按钮"><p><strong>任何手机都行。</strong>轻触或扫码打开你的名片，Save Contact 就能存下。</p></li>
+</ol>
+</figure>
+
 这就是我至今仍围绕 NFC 而非 NameDrop 来构建产品的那个并不光鲜的理由。NameDrop 为最理想的情况做了优化：两位 iPhone 用户，都开启了该功能，也都知道那个手势。NFC 则为活动现场真正会发生的情况做了优化：两个人、两部手机，对彼此都没有任何共同假设。NameDrop 是更好的演示。NFC 是更好的名片。
 
 想要一张？在 iPhone 上 [获取 NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-en&mt=8)，或者[在 Android 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-en)。

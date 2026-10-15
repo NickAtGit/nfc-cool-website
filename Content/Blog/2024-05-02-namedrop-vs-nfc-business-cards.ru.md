@@ -20,6 +20,12 @@ NameDrop работает с iPhone на iPhone. И на этом всё. Как
 
 NFC-визитке всё равно, какой телефон напротив. Она работает по открытому стандарту NFC, который и iOS, и Android читают уже много лет. Человек подносит телефон или сканирует QR-код, и твои данные оказываются у него, независимо от того, iPhone у него или нет и стоит ли у него хоть какое-то приложение. Не надо учить жест, включать функцию и совпадать операционными системами.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/namedrop-vs-nfc-business-cards/any-phone-440w.webp" alt="Карточка NFC.cool Business Card, открытая после касания: Marco Delgado из Northgate Talent со ссылками Website, LinkedIn и X и кнопкой Save Contact"><p><strong>Любой телефон.</strong> Касание или скан открывает карточку, а Save Contact сохраняет её.</p></li>
+</ol>
+</figure>
+
 Вот по этой неромантичной причине я до сих пор строю всё вокруг NFC, а не вокруг NameDrop. NameDrop оптимизирует лучший случай: два пользователя iPhone, у обоих функция включена, оба знают жест. NFC оптимизирует то, что реально происходит на мероприятии: два человека, два телефона и никаких общих допущений ни о том, ни о другом. NameDrop лучше как демонстрация. NFC лучше как визитка.
 
 Хочешь такую? [Поставь NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-ru&mt=8) на iPhone или [возьми версию для Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-ru).

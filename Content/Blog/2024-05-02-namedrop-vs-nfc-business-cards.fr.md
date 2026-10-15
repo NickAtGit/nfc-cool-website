@@ -20,6 +20,12 @@ NameDrop, c'est d'iPhone à iPhone. Tout est là. À la seconde où la personne 
 
 Une carte de visite NFC se moque de savoir quel est l'autre téléphone. Elle repose sur le standard NFC ouvert que iOS et Android lisent tous les deux depuis des années. L'autre personne l'approche de son téléphone, ou en scanne le QR code, et vos coordonnées arrivent sur son appareil - que ce soit un iPhone ou non, et qu'elle ait ou non une app installée. Aucun geste à apprendre, aucune fonction à activer, aucun système d'exploitation à faire correspondre.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/namedrop-vs-nfc-business-cards/any-phone-440w.webp" alt="Une carte NFC.cool Business Card telle qu'elle s'ouvre après le scan : Marco Delgado, de Northgate Talent, avec des liens Website, LinkedIn et X et le bouton Save Contact"><p><strong>N'importe quel téléphone.</strong> Un scan NFC ou QR ouvre votre carte, et Save Contact l'enregistre.</p></li>
+</ol>
+</figure>
+
 C'est la raison peu glamour pour laquelle je continue de bâtir autour du NFC plutôt que de NameDrop. NameDrop optimise le meilleur des cas: deux utilisateurs d'iPhone, ayant tous les deux la fonction activée, connaissant tous les deux le geste. Le NFC optimise le cas qui se produit vraiment lors d'un événement - deux personnes, deux téléphones, et aucune supposition commune sur l'un ou l'autre. NameDrop fait la meilleure démo. Le NFC fait la meilleure carte de visite.
 
 Envie de la vôtre? [Obtenez NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-fr&mt=8) sur iPhone, ou [obtenez-la sur Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-fr).
