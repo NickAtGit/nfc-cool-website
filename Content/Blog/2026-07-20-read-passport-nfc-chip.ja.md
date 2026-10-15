@@ -38,6 +38,16 @@ NFC.cool Toolsは、生体認証パスポート、IDカード、在留カード�
 
 読み取ったすべての書類は、アプリ内の「マイドキュメント」という小さなウォレットに保存されるので、あとから見返せます。このウォレットはあなたの端末の中にあり、iPhoneではあなた自身のiCloudを通じて同期されます。私のところにも、私のどのサーバーにも届きません。これほど個人的なものだからこそ、その点はうやむやにせず、はっきり言っておきたいのです。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Toolsでパスポートを読み取る</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="NFC.cool Toolsのパスポート・IDカード画面。カメラでのスキャンと手動入力の項目がある"><p><strong>鍵を渡す。</strong>機械読み取り領域をカメラでスキャンするか、3つの値を手で入力します。</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="読み取ったパスポート。保存された写真、所持者の名前、書類番号が表示されている"><p><strong>チップを読み取る。</strong>スマホの上端を書類に当てると、写真と情報がチップから読み出されます。</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="真正性チェックがすべて合格。書類は本物と判定、発行後の改ざんなし、署名は有効、発行者の証明書は信頼済み、チップのクローン対策あり"><p><strong>封印を確かめる。</strong>発行国の署名からクローン対策まで、チップが対応するすべてのチェック。</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="マイドキュメント。保存されたパスポートとIDカード5件の一覧"><p><strong>マイドキュメントに保存する。</strong>端末に保存され、同期はあなた自身のiCloud経由だけです。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 書類は本物か

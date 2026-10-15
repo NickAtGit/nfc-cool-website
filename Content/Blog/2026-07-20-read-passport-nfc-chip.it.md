@@ -38,6 +38,16 @@ Qualche secondo dopo hai davanti quello che il chip si porta dietro da sempre: l
 
 Ogni documento letto viene salvato in un piccolo portafoglio dentro l'app, chiamato I miei documenti, per poterlo riconsultare più avanti. Quel portafoglio resta sul dispositivo e su iPhone si sincronizza attraverso il tuo iCloud. A me non arriva niente e non finisce su nessun server mio. Con dati così personali, non è un dettaglio che mi va di nascondere in fondo alla pagina.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Leggere un passaporto con NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="La schermata Passaporto e documento d'identità di NFC.cool Tools, con le opzioni per la scansione con la fotocamera e l'inserimento manuale"><p><strong>Dagli la chiave.</strong> Inquadra la zona a lettura ottica con la fotocamera, oppure scrivi a mano i tre valori.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="Un passaporto letto, con la foto memorizzata, il nome della titolare e il numero del documento"><p><strong>Leggi il chip.</strong> Appoggia la parte alta del telefono al documento e foto e dati escono dal chip.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="Le verifiche di autenticità, tutte superate: documento apparentemente autentico, dati invariati dall'emissione, firma valida, emittente attendibile, protezione del chip dalla clonazione"><p><strong>Controlla il sigillo.</strong> Ogni verifica supportata dal chip, dalla firma dell'emittente alla protezione dalla clonazione.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="I miei documenti, un elenco di cinque passaporti e carte d'identità salvati"><p><strong>Tienilo in I miei documenti.</strong> Salvato sul dispositivo, sincronizzato solo tramite iCloud.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Il documento è autentico?

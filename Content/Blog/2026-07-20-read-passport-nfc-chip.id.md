@@ -38,6 +38,16 @@ Beberapa detik kemudian Anda melihat apa yang selama ini dibawa chip tersebut: f
 
 Setiap dokumen yang Anda baca disimpan ke dompet kecil di dalam aplikasi, bernama Dokumen Saya, sehingga Anda bisa melihatnya kembali nanti. Dompet itu berada di perangkat Anda, dan di iPhone ia tersinkron melalui iCloud Anda sendiri. Data tersebut tidak sampai ke saya, atau ke server mana pun milik saya. Untuk sesuatu yang sepribadi ini, itu bukan detail yang akan saya sembunyikan.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Membaca paspor di NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="Layar Paspor dan ID di NFC.cool Tools, dengan pilihan pindai dengan kamera dan masukkan data secara manual"><p><strong>Berikan kuncinya.</strong> Pindai zona yang dapat dibaca mesin dengan kamera, atau ketik ketiga nilainya secara manual.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="Paspor yang sudah dibaca, menampilkan foto yang tersimpan, nama pemegang, dan nomor dokumen"><p><strong>Baca chipnya.</strong> Tempelkan bagian atas ponsel Anda ke dokumen, lalu foto dan datanya keluar dari chip.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="Pemeriksaan keaslian, semuanya lolos: dokumen tampak asli, data tidak berubah sejak diterbitkan, tanda tangan valid, sertifikat penerbit tepercaya, perlindungan klon pada chip"><p><strong>Periksa segelnya.</strong> Setiap pemeriksaan yang didukung chip, dari tanda tangan penerbit hingga perlindungan dari kloning.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="Dokumen Saya, daftar lima paspor dan kartu identitas yang tersimpan"><p><strong>Simpan di Dokumen Saya.</strong> Tersimpan di perangkat Anda, tersinkron hanya melalui iCloud Anda sendiri.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Apakah dokumennya asli?

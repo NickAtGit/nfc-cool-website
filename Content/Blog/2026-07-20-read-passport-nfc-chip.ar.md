@@ -38,6 +38,16 @@ ogDescription: "يقرأ NFC.cool الآن الشريحة في جواز سفرك
 
 كل مستند تقرأه يُحفظ في محفظة صغيرة داخل التطبيق تُسمّى «مستنداتي»، كي تعود إليه لاحقًا. تعيش تلك المحفظة على جهازك، وعلى iPhone تتزامن عبر iCloud الخاص بك. لا تصلني أنا، ولا أيّ خادم أملكه. ومع شيء بهذه الخصوصية، هذه ليست تفصيلة أطمرها في الهامش.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>قراءة جواز سفر في NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="شاشة جواز السفر والهوية في NFC.cool Tools، مع خيارَي المسح بالكاميرا وإدخال البيانات يدويًا"><p><strong>أعطِ الشريحة مفتاحها.</strong> امسح منطقة القراءة الآلية بالكاميرا، أو اكتب القيم الثلاث بيدك.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="جواز سفر مقروء يعرض الصورة المخزّنة واسم حاملته ورقم المستند"><p><strong>اقرأ الشريحة.</strong> ضع أعلى هاتفك على المستند، فتخرج الصورة والبيانات من الشريحة.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="فحوص الأصالة وقد نجحت كلها: المستند يبدو أصليًا، والبيانات لم تتغيّر منذ الإصدار، والتوقيع صالح، وشهادة الجهة المُصدِرة موثوقة، والشريحة محمية من الاستنساخ"><p><strong>تحقّق من الختم.</strong> كل فحص تدعمه الشريحة، من توقيع الجهة المُصدِرة إلى الحماية من الاستنساخ.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="مستنداتي، قائمة بخمسة جوازات سفر وبطاقات هوية محفوظة"><p><strong>احفظه في مستنداتي.</strong> يُحفظ على جهازك، ولا يتزامن إلا عبر iCloud الخاص بك.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## هل المستند أصلي؟
