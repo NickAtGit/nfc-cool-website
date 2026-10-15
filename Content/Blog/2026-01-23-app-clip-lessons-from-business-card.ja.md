@@ -14,6 +14,12 @@ imageAlt: "プラハのmDevCamp 2025での登壇"
 
 App Clipにまだ出会ったことがない方のために説明すると、App Clipとは、NFCのタップやQRスキャンから瞬時に開くiOSアプリの小さな一部分です。App Storeも不要、インストールも不要。これがあるおかげで、相手にスマートフォンをかざしてから1秒ほどで、何もダウンロードすることなく、あなたのNFC.coolの名刺を見てもらえます。それを本当に瞬時だと感じさせつつ、共有された名刺のデータを安全に保ち、誰にも登録を強いない。これを実現するには、外から見える以上に多くのアーキテクチャ上の判断が必要になります。講演では、それらを順を追って説明しました。App Clipがどう構築されているか、SwiftUIがどこでその価値を発揮するか、そしてバックエンドが名刺データをどう扱うか、という内容です。
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/app-clip-lessons-from-business-card/app-clip-440w.webp" alt="タッチ後に開くNFC.cool Business CardのApp Clip。Baptiste ElectricalのDevon Baptiste。Website、Facebook、YouTubeのリンクとSave Contactボタン"><p><strong>App Clip。</strong>タッチから約1秒で、インストールなしで開く画面です。</p></li>
+</ol>
+</figure>
+
 ステージの上から説明することは、私にとって良い経験になりました。ほとんど直感で下していた選択を、自分で正当化する必要に迫られたからです。そして登壇後の質問は - 明らかに同じ苦労を経験してきたiOS開発者たちからのものでした - どんなコードレビューよりも鋭いものでした。私が落ち着いたかたち、つまりSwiftUIと安全なバックエンドAPIを組み合わせたApp Clipは、その厳しい目にも耐えました。さらに、廊下での会話で出たいくつかの提案は、すでにアプリに反映されています。
 
 講演の全編は[Slideslive](https://slideslive.com/39043369/building-a-great-app-clip-experience-lessons-from-nfccool-business-card)からご覧いただけます。
