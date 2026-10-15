@@ -78,6 +78,15 @@ C'est tout. Désormais, quiconque approche son téléphone de ce tag sera rediri
 
 **Astuce de pro :** Sur les iPhone, l'antenne NFC se situe sur le **bord supérieur** du téléphone, près de l'appareil photo. Pour la connexion la plus forte, tenez le haut de votre iPhone directement au-dessus du tag. Si vous voulez vérifier ce que vous avez écrit sans app, vous pouvez [lire des tags NFC directement depuis votre navigateur](/online-nfc-reader/) sur Android.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Écrire votre premier tag</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="L'onglet NFC de NFC.cool Tools avec les boutons Read NFC et Write NFC"><p><strong>Appuyez sur Write NFC.</strong> Il se trouve dans l'onglet NFC, à côté de Read NFC.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Create NFC Message : Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location et FaceTime"><p><strong>Choisissez Web Link.</strong> Ou du texte, un contact, un numéro de téléphone et plus. Saisissez votre lien, écrivez, et tenez le tag contre le haut de votre iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages, avec un lien web, une carte de visite et un enregistrement Wi-Fi"><p><strong>Retrouvez-le.</strong> Tout ce que vous écrivez est enregistré dans My NFC Messages, prêt pour le tag suivant.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Que pouvez-vous écrire sur des tags NFC ?
@@ -237,6 +246,12 @@ Voici les projets sur lesquels je reviens sans cesse - prêts à réaliser, et c
 ---
 
 ## Verrouiller les tags NFC
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="L'écran Lock Tag : rend le tag définitivement en lecture seule, sans retour possible"><p><strong>Lock Tag.</strong> Son contenu reste lisible sur n'importe quel téléphone, mais ne pourra plus jamais changer.</p></li>
+</ol>
+</figure>
 
 Une fois que vous avez écrit un tag et que son contenu vous convient, vous pouvez le **verrouiller**. Le verrouillage rend le tag définitivement en lecture seule - personne ne peut écraser vos données. Je considère cela comme une étape délibérée et finale, jamais quelque chose qu'on valide à la va-vite, car il n'y a pas de retour en arrière.
 

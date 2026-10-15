@@ -78,6 +78,15 @@ Hanya itu. Siapa pun yang mengetuk tag itu dengan ponsel mereka sekarang akan di
 
 **Tips:** Antena NFC di iPhone terletak di **tepi atas** ponsel, dekat kamera. Untuk koneksi terkuat, dekatkan bagian atas iPhone Anda langsung di atas tag. Jika Anda ingin memeriksa kembali apa yang Anda tulis tanpa aplikasi, Anda bisa [membaca tag NFC langsung dari browser Anda](/online-nfc-reader/) di Android.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Menulis tag pertama Anda</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="Tab NFC di NFC.cool Tools dengan tombol Read NFC dan Write NFC"><p><strong>Ketuk Write NFC.</strong> Ada di tab NFC, di sebelah Read NFC.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Create NFC Message: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, dan FaceTime"><p><strong>Pilih Web Link.</strong> Atau teks, kontak, nomor telepon, dan lainnya. Masukkan tautan, tulis, lalu tempelkan tag ke bagian atas iPhone Anda.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages, berisi tautan web, kartu nama, dan entri Wi-Fi"><p><strong>Temukan lagi.</strong> Semua yang Anda tulis tersimpan di My NFC Messages, siap ditulis ke tag berikutnya.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Apa yang bisa Anda tulis ke tag NFC?
@@ -237,6 +246,12 @@ Tulis tautan ke resep favorit dan tempel tag pada toples rempah atau halaman buk
 ---
 
 ## Mengunci tag NFC
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="Layar Lock Tag: membuat tag hanya-baca secara permanen, dan tidak bisa dibatalkan"><p><strong>Lock Tag.</strong> Isinya tetap bisa dibaca di ponsel mana pun, tetapi tidak akan pernah bisa diubah lagi.</p></li>
+</ol>
+</figure>
 
 Setelah Anda menulis tag dan puas dengan isinya, Anda bisa **menguncinya**. Penguncian membuat tag menjadi hanya-baca secara permanen - tidak ada yang bisa menimpa data Anda. Saya memperlakukan ini sebagai langkah yang disengaja dan final, bukan sesuatu yang dilewati dengan cepat, karena tidak ada cara untuk membatalkannya.
 

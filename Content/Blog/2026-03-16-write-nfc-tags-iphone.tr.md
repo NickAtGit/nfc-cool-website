@@ -78,6 +78,15 @@ Hepsi bu. O tag'i telefonuyla okutan herkes artık senin adresine gidecek; uygul
 
 **İpucu:** iPhone'larda NFC anteni telefonun **üst kenarında**, kameranın yakınında duruyor. En güçlü bağlantı için iPhone'unun üstünü doğrudan tag'in üzerine tut. Yazdığın şeyi uygulama olmadan denetlemek istersen Android'de [NFC tag'leri doğrudan tarayıcından okuyabilirsin](/online-nfc-reader/).
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>İlk tag'ine yazmak</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="NFC.cool Tools'taki NFC sekmesi, Read NFC ve Write NFC düğmeleriyle"><p><strong>Write NFC'ye dokun.</strong> NFC sekmesinde, Read NFC'nin yanında.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Create NFC Message: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location ve FaceTime"><p><strong>Web Link'i seç.</strong> Ya da metin, kişi, telefon numarası ve daha fazlası. Bağlantını gir, yaz ve tag'i iPhone'unun üst kenarına tut.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="Bir web bağlantısı, bir kartvizit ve bir Wi-Fi kaydıyla My NFC Messages"><p><strong>Yeniden bul.</strong> Yazdığın her şey My NFC Messages'a kaydedilir, sonraki tag'e hazır.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## NFC tag'lere neler yazabilirsin
@@ -237,6 +246,12 @@ Sevdiğin tariflere bağlantı yaz ve tag'leri baharat kavanozlarına ya da yeme
 ---
 
 ## NFC tag'leri kilitlemek
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="Lock Tag ekranı: tag'i kalıcı olarak salt okunur yapar, geri alınamaz"><p><strong>Lock Tag.</strong> İçeriği her telefonda okunur ama bir daha asla değişmez.</p></li>
+</ol>
+</figure>
 
 Bir tag'i yazdın ve içeriğinden memnunsun; artık onu **kilitleyebilirsin**. Kilitleme, tag'i kalıcı olarak salt okunur yapıyor; kimse verinin üstüne yazamıyor. Bunu bilinçli ve son bir adım olarak görüyorum, hızlıca geçilecek bir şey olarak değil, çünkü geri alma yok.
 

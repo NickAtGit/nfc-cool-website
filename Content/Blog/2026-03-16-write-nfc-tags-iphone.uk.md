@@ -78,6 +78,15 @@ ogDescription: "Покроковий посібник із запису NFC-мі
 
 **Порада.** Антена NFC в iPhone стоїть біля **верхнього краю**, поруч із камерою. Зв'язок найнадійніший, коли саме ця частина телефона лежить просто над міткою. А перевірити записане без застосунку допоможе Android: там мітка [зчитується прямо з браузера](/online-nfc-reader/).
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Перший запис на мітку</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="Вкладка NFC у NFC.cool Tools з кнопками Read NFC і Write NFC"><p><strong>Натисни Write NFC.</strong> Вона на вкладці NFC, поруч із Read NFC.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Екран Create NFC Message: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location і FaceTime"><p><strong>Обери Web Link.</strong> Або текст, контакт, номер телефона тощо. Введи посилання, запиши й піднеси мітку до верхнього краю iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages із посиланням, візиткою та записом Wi-Fi"><p><strong>Знайди її знову.</strong> Усе записане зберігається в My NFC Messages і готове для наступної мітки.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Що взагалі поміщається на мітку?
@@ -237,6 +246,12 @@ NFC.cool Tools приносить власні дії, і варіантів с�
 ---
 
 ## Блокування міток
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="Екран Lock Tag: робить мітку доступною лише для читання назавжди, без можливості скасування"><p><strong>Lock Tag.</strong> Вміст читається на будь-якому телефоні, але змінити його вже не можна.</p></li>
+</ol>
+</figure>
 
 Коли мітка записана і вміст тебе влаштовує, її можна **заблокувати**. Після цього мітка назавжди лишається доступною тільки для читання, і перезаписати дані вже не вийде. Я ставлюся до блокування як до останнього, свідомого кроку, а не як до чергової кнопки, бо скасувати його неможливо.
 

@@ -78,6 +78,15 @@ Eso es todo. Cualquiera que acerque su móvil a esa etiqueta será llevado a tu 
 
 **Consejo pro:** La antena NFC en los iPhones está en el **borde superior** del móvil, cerca de la cámara. Para la conexión más fuerte, apoya la parte superior de tu iPhone directamente sobre la etiqueta. Si quieres comprobar lo que grabaste sin una app, puedes [leer etiquetas NFC directamente desde el navegador](/online-nfc-reader/) en Android.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Escribir tu primera etiqueta</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="La pestaña NFC de NFC.cool Tools con los botones Read NFC y Write NFC"><p><strong>Toca Write NFC.</strong> Está en la pestaña NFC, junto a Read NFC.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Create NFC Message: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location y FaceTime"><p><strong>Elige Web Link.</strong> O texto, un contacto, un número de teléfono y más. Escribe tu enlace, grábalo y acerca la etiqueta a la parte superior del iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages, con un enlace web, una tarjeta de visita y un registro Wi-Fi"><p><strong>Encuéntrala de nuevo.</strong> Todo lo que escribes se guarda en My NFC Messages, listo para la siguiente etiqueta.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## ¿Qué puedes grabar en etiquetas NFC?
@@ -237,6 +246,12 @@ Graba enlaces a tus recetas favoritas y pega etiquetas en los botes de especias 
 ---
 
 ## Bloquear etiquetas NFC
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="La pantalla Lock Tag: deja la etiqueta en solo lectura para siempre, sin vuelta atrás"><p><strong>Lock Tag.</strong> Su contenido sigue legible en cualquier móvil, pero ya nunca podrá cambiar.</p></li>
+</ol>
+</figure>
 
 Una vez que hayas grabado una etiqueta y estés satisfecho con su contenido, puedes **bloquearla**. Bloquear la convierte en permanentemente de solo lectura - nadie puede sobreescribir tus datos. Trato esto como un paso deliberado y final, nunca algo que hacer a la ligera, porque no hay marcha atrás.
 

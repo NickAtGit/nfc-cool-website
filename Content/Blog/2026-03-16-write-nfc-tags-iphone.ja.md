@@ -78,6 +78,15 @@ NFCタグの書き込みには、**iOS 13以降**を搭載した**iPhone 7以降
 
 **プロのコツ：** iPhoneのNFCアンテナは、カメラ付近の**上端**にあります。最も強い接続のためには、iPhoneの上部をタグの真上に持っていきましょう。アプリを使わずに書き込んだ内容をすぐ確認したいなら、Androidでは[ブラウザから直接NFCタグを読み取る](/ja/online-nfc-reader/)こともできます。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>最初のタグに書き込む</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="NFC.cool ToolsのNFCタブ。Read NFCとWrite NFCのボタン"><p><strong>Write NFCをタップ。</strong>NFCタブの、Read NFCの隣にあります。</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Create NFC Message。Web Link、Google Review Link、Text、Business Card、Telephone Number、Email、SMS、Location、FaceTime"><p><strong>Web Linkを選ぶ。</strong>テキスト、連絡先、電話番号なども選べます。リンクを入力して書き込み、iPhoneの上端をタグに当てます。</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages。Webリンク、名刺、Wi-Fiのレコードが並ぶ"><p><strong>あとから見つける。</strong>書き込んだものはすべてMy NFC Messagesに保存され、次のタグにもすぐ書き込めます。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## NFCタグに何を書き込める？
@@ -237,6 +246,12 @@ SpotifyやApple Musicのアルバムリンクをステッカーに書き込み�
 ---
 
 ## NFCタグのロック
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="Lock Tagの画面。タグを恒久的に読み取り専用にし、元に戻せない"><p><strong>Lock Tag。</strong>内容はどのスマホでも読めますが、二度と変更できません。</p></li>
+</ol>
+</figure>
 
 タグに書き込んで内容に満足したら、**ロック**できます。ロックするとタグは永久に読み取り専用になります - 誰もデータを上書きできません。元に戻すことはできないので、私はこれを意図的な最終ステップとして扱い、決して急いでタップして済ませることはしません。
 

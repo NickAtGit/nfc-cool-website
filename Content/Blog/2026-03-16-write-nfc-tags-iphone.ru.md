@@ -78,6 +78,15 @@ ogDescription: "Пошаговое руководство по записи NFC-
 
 **Совет:** антенна NFC у iPhone находится у **верхнего края**, рядом с камерой. Для самой уверенной связи держи верхнюю часть телефона прямо над меткой. А если хочется перепроверить записанное без приложения, метку можно [считать прямо в браузере](/online-nfc-reader/) на Android.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Первая запись на метку</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="Вкладка NFC в NFC.cool Tools с кнопками Read NFC и Write NFC"><p><strong>Нажми Write NFC.</strong> Она на вкладке NFC, рядом с Read NFC.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Экран Create NFC Message: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location и FaceTime"><p><strong>Выбери Web Link.</strong> Или текст, контакт, номер телефона и другое. Введи ссылку, запиши и поднеси метку к верхнему краю iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages со ссылкой, визиткой и записью Wi-Fi"><p><strong>Найди её снова.</strong> Всё записанное сохраняется в My NFC Messages и готово для следующей метки.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Что можно записывать на NFC-метки
@@ -237,6 +246,12 @@ NFC.cool Tools добавляет свои действия и даёт боль
 ---
 
 ## Блокировка меток
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="Экран Lock Tag: делает метку доступной только для чтения навсегда, без возможности отмены"><p><strong>Lock Tag.</strong> Содержимое читается на любом телефоне, но изменить его уже нельзя.</p></li>
+</ol>
+</figure>
 
 Когда метка записана и содержимое тебя устраивает, её можно **заблокировать**. Блокировка делает метку доступной только для чтения навсегда, и перезаписать данные больше никто не сможет. Я отношусь к этому как к осознанному финальному шагу, а не к чему-то, что проскакивают не глядя, потому что отменить это нельзя.
 
