@@ -69,6 +69,7 @@ import SiteKit
          .processor(BrandWordmarkProcessor())
          .processor(LangPickerDataProcessor())
          .processor(LiveSceneScriptProcessor())
+         .processor(PhoneFigureProcessor())
          .processor(AssetMinifier())
          .run()
    }
