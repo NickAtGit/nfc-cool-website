@@ -63,6 +63,13 @@ Bunlardan birkaçını birleştirince şöyle bir şey çıkıyor: bir zanaatkar
 
 ## Adım adım kurulum
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="NFC.cool Tools'taki NFC Tap Counter ekranı: her okutmada dokunma sayısını ve tag kimliğini güncelleyen bir bağlantı; NTAG213, NTAG215 ve NTAG216 için"><p><strong>NFC Tap Counter.</strong> NFC Tools altında, NTAG213, 215 ve 216 tag'leri için.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Tap Counter kurulumu: içerik olarak bir URL, Try it out ve açık NFC Tap Counter ile NFC Tag ID anahtarları"><p><strong>Kur.</strong> İçeriği seç, sonra sayacı, tag kimliğini ya da ikisini birden aç.</p></li>
+</ol>
+</figure>
+
 Özellik NFC.cool Tools'ta, hem iPhone hem Android'de. Pro (Platinum) aboneliğinin parçası, yani sayaç açık tag yazmak için ona ihtiyacın var. Daha önce hiç tag yazmadıysan [iPhone'da NFC tag nasıl yazılır](/blog/write-nfc-tags-iphone/) yazım önce temelleri anlatıyor.
 
 1. NFC.cool Tools'u aç, **NFC Araçları** bölümüne git ve **NFC Okutma Sayacı**'na dokun.

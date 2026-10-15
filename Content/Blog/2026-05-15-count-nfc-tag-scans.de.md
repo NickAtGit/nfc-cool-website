@@ -63,6 +63,13 @@ Nimm ein paar davon zusammen, und es kommt so etwas heraus: Eine kleine Manufakt
 
 ## Die Einrichtung, Schritt für Schritt
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Der Bildschirm NFC Tap Counter in NFC.cool Tools: ein Link, der bei jedem Scan Zählerstand und Tag-ID aktualisiert, für NTAG213, NTAG215 und NTAG216"><p><strong>NFC Tap Counter.</strong> Unter NFC Tools, für Tags vom Typ NTAG213, 215 und 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Die Einrichtung des Tap Counters: eine URL als Inhalt, Try it out, und die eingeschalteten Schalter NFC Tap Counter und NFC Tag ID"><p><strong>Einrichten.</strong> Inhalt wählen, dann den Zähler, die Tag-ID oder beides einschalten.</p></li>
+</ol>
+</figure>
+
 Die Funktion steckt in NFC.cool Tools, auf dem iPhone genauso wie auf Android. Sie gehört zum Pro-Abo (Platinum), das brauchst du also, um Tags mit Zähler zu beschreiben. Falls du noch nie einen Tag beschrieben hast, fang am besten mit meiner Anleitung [NFC-Tags mit dem iPhone beschreiben](/de/blog/write-nfc-tags-iphone/) an, da stehen die Grundlagen drin.
 
 1. Öffne NFC.cool Tools, geh in den Bereich **NFC Tools** und tippe auf **NFC-Tap-Zähler**.

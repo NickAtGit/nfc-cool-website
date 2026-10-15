@@ -63,6 +63,13 @@ Gabungkan beberapa dari itu dan Anda mendapatkan sesuatu seperti ini: seorang pe
 
 ## Menyiapkannya, langkah demi langkah
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Layar NFC Tap Counter di NFC.cool Tools: tautan yang memperbarui jumlah ketukan dan ID tag setiap kali dipindai, untuk NTAG213, NTAG215, dan NTAG216"><p><strong>NFC Tap Counter.</strong> Di NFC Tools, untuk tag NTAG213, 215, dan 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Pengaturan Tap Counter: URL sebagai isi, Try it out, serta sakelar NFC Tap Counter dan NFC Tag ID yang menyala"><p><strong>Atur.</strong> Pilih isinya, lalu nyalakan hitungan, ID tag, atau keduanya.</p></li>
+</ol>
+</figure>
+
 Fitur ini ada di NFC.cool Tools, di iPhone dan Android. Ini merupakan bagian dari langganan Pro (Platinum), jadi Anda memerlukan itu untuk menulis tag yang diaktifkan counter. Jika Anda belum pernah menulis tag sebelumnya, panduan saya tentang [cara menulis tag NFC di iPhone](/blog/write-nfc-tags-iphone/) mencakup dasar-dasarnya terlebih dahulu.
 
 1. Buka NFC.cool Tools, buka bagian **NFC Tools**, dan ketuk **NFC Tap Counter**.

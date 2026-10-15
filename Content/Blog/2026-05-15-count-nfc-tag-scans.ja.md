@@ -63,6 +63,13 @@ ogDescription: "NFCタグは自分のスキャン回数を数えられます。�
 
 ## 設定の手順
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="NFC.cool ToolsのNFC Tap Counter画面。スキャンのたびにタップ数とタグIDが更新されるリンク。NTAG213、NTAG215、NTAG216に対応"><p><strong>NFC Tap Counter。</strong>NFC Toolsの中にあり、NTAG213、215、216のタグで使えます。</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Tap Counterの設定。内容はURL、Try it out、NFC Tap CounterとNFC Tag IDのスイッチがオン"><p><strong>設定する。</strong>内容を選び、カウント、タグID、またはその両方をオンにします。</p></li>
+</ol>
+</figure>
+
 この機能はNFC.cool Toolsの中にあり、iPhoneとAndroidの両方で使えます。Pro(Platinum)サブスクリプションの一部なので、カウンター付きのタグを書き込むにはそれが必要です。タグを書き込んだことが一度もなければ、[iPhoneでNFCタグを書き込む方法](/ja/blog/write-nfc-tags-iphone/)の手引きが、まず基本を押さえてくれます。
 
 1. NFC.cool Toolsを開き、**NFC Tools**セクションに移動して、**NFCタップカウンター**をタップします。

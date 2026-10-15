@@ -63,6 +63,13 @@ Junte alguns destes e obtém algo assim: um artesão coloca uma tag em cada tira
 
 ## Como Configurar, Passo a Passo
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="O ecrã NFC Tap Counter no NFC.cool Tools: um link que atualiza a contagem de toques e o ID da tag a cada leitura, para NTAG213, NTAG215 e NTAG216"><p><strong>NFC Tap Counter.</strong> Em NFC Tools, para tags NTAG213, 215 e 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="A configuração do Tap Counter: um URL como conteúdo, Try it out, e os interruptores NFC Tap Counter e NFC Tag ID ligados"><p><strong>Configure-o.</strong> Escolha o conteúdo e ligue a contagem, o ID da tag ou os dois.</p></li>
+</ol>
+</figure>
+
 A funcionalidade vive na NFC.cool Tools, tanto no iPhone como no Android. Faz parte da subscrição Pro (Platinum), por isso vai precisar dela para gravar tags com contador ativado. Se nunca gravou uma tag, a minha explicação passo a passo sobre [como gravar tags NFC no iPhone](/blog/write-nfc-tags-iphone/) cobre primeiro os fundamentos.
 
 1. Abra a NFC.cool Tools, vá à secção **NFC Tools** e toque em **NFC Tap Counter**.

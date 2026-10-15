@@ -63,6 +63,13 @@ ogDescription: "你的 NFC 标签可以自己统计扫描次数。下面讲讲�
 
 ## 一步一步设置
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="NFC.cool Tools 的 NFC Tap Counter 页面：一个每次扫描都会更新轻触次数和标签 ID 的链接，适用于 NTAG213、NTAG215 和 NTAG216"><p><strong>NFC Tap Counter。</strong>在 NFC Tools 里，适用于 NTAG213、215 和 216 标签。</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Tap Counter 设置：内容为 URL、Try it out，以及已打开的 NFC Tap Counter 和 NFC Tag ID 开关"><p><strong>设置。</strong>选好内容，再打开计数、标签 ID，或者两个都开。</p></li>
+</ol>
+</figure>
+
 这个功能在 NFC.cool Tools 里，iPhone 和 Android 上都有。它属于 Pro（Platinum）订阅，所以写入启用了计数器的标签需要这个订阅。如果你从没写入过标签，我那篇[如何在 iPhone 上写入 NFC 标签](/blog/write-nfc-tags-iphone/)的教程会先带你过一遍基础。
 
 1. 打开 NFC.cool Tools，进入 **NFC Tools** 部分，轻触 **NFC Tap Counter**。

@@ -63,6 +63,13 @@ Combinez quelques-uns de ces usages et vous obtenez quelque chose comme ça : un
 
 ## La configuration, étape par étape
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="L'écran NFC Tap Counter de NFC.cool Tools : un lien qui met à jour le nombre de scans et l'identifiant du tag à chaque lecture, pour NTAG213, NTAG215 et NTAG216"><p><strong>NFC Tap Counter.</strong> Dans NFC Tools, pour les tags NTAG213, 215 et 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="La configuration du Tap Counter : une URL comme contenu, Try it out, et les interrupteurs NFC Tap Counter et NFC Tag ID activés"><p><strong>Configurez-le.</strong> Choisissez le contenu, puis activez le compteur, l'identifiant du tag, ou les deux.</p></li>
+</ol>
+</figure>
+
 La fonction se trouve dans NFC.cool Tools, à la fois sur iPhone et sur Android. Elle fait partie de l'abonnement Pro (Platinum), il vous le faudra donc pour écrire des tags avec compteur activé. Si vous n'avez jamais écrit de tag auparavant, mon tutoriel sur [comment écrire des tags NFC sur iPhone](/blog/write-nfc-tags-iphone/) couvre d'abord les bases.
 
 1. Ouvrez NFC.cool Tools, allez dans la section **NFC Tools** et appuyez sur **NFC Tap Counter**.

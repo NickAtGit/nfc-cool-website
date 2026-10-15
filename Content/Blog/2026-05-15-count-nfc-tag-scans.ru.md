@@ -63,6 +63,13 @@ ogDescription: "NFC-метка умеет считать свои сканиро
 
 ## Настройка по шагам
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Экран NFC Tap Counter в NFC.cool Tools: ссылка, которая при каждом сканировании обновляет число касаний и ID метки, для NTAG213, NTAG215 и NTAG216"><p><strong>NFC Tap Counter.</strong> В разделе NFC Tools, для меток NTAG213, 215 и 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Настройка Tap Counter: URL в качестве содержимого, Try it out и включённые переключатели NFC Tap Counter и NFC Tag ID"><p><strong>Настрой.</strong> Выбери содержимое и включи счётчик, ID метки или оба сразу.</p></li>
+</ol>
+</figure>
+
 Функция живёт в NFC.cool Tools и на iPhone, и на Android. Она входит в подписку Platinum, так что для записи меток со счётчиком она понадобится. Если ты никогда не записывал метки, основы разобраны в моём тексте [«Как записывать NFC-метки на iPhone»](/blog/write-nfc-tags-iphone/).
 
 1. Открой NFC.cool Tools, перейди в раздел **NFC Tools** и нажми **«Счётчик касаний NFC»**.

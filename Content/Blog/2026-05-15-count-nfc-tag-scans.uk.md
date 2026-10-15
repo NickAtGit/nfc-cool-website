@@ -63,6 +63,13 @@ ogDescription: "NFC-мітка вміє рахувати власні зчиту
 
 ## Налаштування крок за кроком
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Екран NFC Tap Counter у NFC.cool Tools: посилання, яке з кожним скануванням оновлює кількість дотиків і ID мітки, для NTAG213, NTAG215 і NTAG216"><p><strong>NFC Tap Counter.</strong> У розділі NFC Tools, для міток NTAG213, 215 і 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="Налаштування Tap Counter: URL як вміст, Try it out і ввімкнені перемикачі NFC Tap Counter і NFC Tag ID"><p><strong>Налаштуй.</strong> Обери вміст і ввімкни лічильник, ID мітки або обидва.</p></li>
+</ol>
+</figure>
+
 Функція живе в NFC.cool Tools і на iPhone, і на Android. Вона входить до підписки Pro (Platinum), тож без неї записати мітку з лічильником не вийде. Якщо мітку ти ще жодного разу не записував, спершу подивись мій розбір [як записувати NFC-мітки на iPhone](/blog/write-nfc-tags-iphone/), там викладено основи.
 
 1. Відкрий NFC.cool Tools, перейди в розділ **NFC Tools** і натисни **«Лічильник дотиків NFC»**.

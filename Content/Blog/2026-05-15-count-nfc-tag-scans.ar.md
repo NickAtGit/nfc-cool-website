@@ -63,6 +63,13 @@ ogDescription: "يستطيع وسم NFC أن يعدّ عمليات مسحه بن
 
 ## الإعداد، خطوة بخطوة
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="شاشة NFC Tap Counter في NFC.cool Tools: رابط يحدّث عدد اللمسات ومعرّف الوسم مع كل مسح، لوسوم NTAG213 وNTAG215 وNTAG216"><p><strong>NFC Tap Counter.</strong> ضمن NFC Tools، لوسوم NTAG213 و215 و216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-setup-440w.webp" alt="إعداد Tap Counter: رابط كمحتوى، وTry it out، ومفتاحا NFC Tap Counter وNFC Tag ID مفعّلان"><p><strong>اضبطه.</strong> اختر المحتوى، ثم فعّل العدّاد أو معرّف الوسم أو كليهما.</p></li>
+</ol>
+</figure>
+
 تعيش الميزة في NFC.cool Tools، على iPhone وAndroid معًا. وهي جزء من اشتراك Pro (Platinum)، لذا ستحتاج إليه لكتابة وسوم مزوّدة بالعدّاد. وإن لم يسبق لك كتابة وسم من قبل، فإن شرحي حول [كيفية كتابة وسوم NFC على iPhone](/blog/write-nfc-tags-iphone/) يغطي الأساسيات أولًا.
 
 1. افتح NFC.cool Tools، وانتقل إلى قسم **NFC Tools**، والمس **NFC Tap Counter**.
