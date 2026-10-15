@@ -30,6 +30,13 @@ Así que trabajé hacia atrás. La copia de seguridad ideal sería físicamente 
 
 ## Cómo usar NFC Safe
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="NFC Safe en modo Encrypt, con un mensaje secreto y la frase de contraseña correct-horse-battery escritos"><p><strong>Cifrar.</strong> Tu secreto y una frase de contraseña fuerte, luego acerca una etiqueta al móvil.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="NFC Safe en modo Decrypt, mostrando el secreto leído de vuelta desde la etiqueta"><p><strong>Descifrar.</strong> La misma frase de contraseña y un toque, y tu secreto vuelve.</p></li>
+</ol>
+</figure>
+
 NFC Safe vive dentro de NFC.cool Tools en NFC Apps. Mantuve todo en una sola pantalla con un control segmentado en la parte superior - Cifrar o Descifrar. Si alguna vez has escrito una etiqueta antes, nada de esto te resultará desconocido.
 
 **Para cifrar:**

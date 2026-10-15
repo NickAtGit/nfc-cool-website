@@ -30,6 +30,13 @@ author: "Nicolo Stanciu"
 
 ## كيفية استخدام NFC Safe
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="NFC Safe في وضع Encrypt، مع رسالة سرية وعبارة المرور correct-horse-battery"><p><strong>التشفير.</strong> سرّك وعبارة مرور قوية، ثم قرّب وسمًا من هاتفك.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="NFC Safe في وضع Decrypt، يعرض السرّ المقروء من الوسم"><p><strong>فكّ التشفير.</strong> عبارة المرور نفسها ولمسة واحدة، فيعود سرّك.</p></li>
+</ol>
+</figure>
+
 يوجد NFC Safe داخل NFC.cool Tools ضمن قسم NFC Apps. أبقيتُ الأمر كله في شاشة واحدة مع عنصر تحكّم مقسّم في الأعلى - تشفير أو فكّ تشفير. إذا سبق لك كتابة وسم من قبل، فلن يبدو أيٌّ من هذا غريبًا عليك.
 
 **للتشفير:**

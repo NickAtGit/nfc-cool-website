@@ -30,6 +30,13 @@ author: "Nicolo Stanciu"
 
 ## Як користуватися NFC Safe
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="NFC Safe у режимі Encrypt із секретним повідомленням і парольною фразою correct-horse-battery"><p><strong>Зашифрувати.</strong> Твій секрет і надійна парольна фраза, потім піднеси мітку до телефона.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="NFC Safe у режимі Decrypt із секретом, зчитаним назад із мітки"><p><strong>Розшифрувати.</strong> Та сама парольна фраза й один дотик, і секрет знову з тобою.</p></li>
+</ol>
+</figure>
+
 NFC Safe живе всередині NFC.cool Tools у розділі NFC Apps. Я вмістив усе в один екран із перемикачем угорі: шифрування або розшифрування. Якщо доводилося записувати мітку, тут не буде нічого незнайомого.
 
 **Щоб зашифрувати:**
