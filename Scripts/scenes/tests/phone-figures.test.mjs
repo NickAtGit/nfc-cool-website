@@ -88,19 +88,6 @@ test('the spring settles on its target without overshooting far, and reports whe
   assert.ok(peak < 20 * 1.1, `overshot to ${peak}`);
 });
 
-test('a kick sets the spring moving away from rest and it comes back', () => {
-  const spring = createSpring({ value: 5 });
-  spring.target = 5;
-  assert.ok(spring.settled);
-  spring.kick(120);
-  assert.equal(spring.settled, false);
-  spring.step(1 / 60);
-  assert.ok(spring.value > 5);
-  for (let i = 0; i < 300; i++) spring.step(1 / 60);
-  assert.ok(spring.settled);
-  assert.ok(Math.abs(spring.value - 5) < 0.05);
-});
-
 test('a long frame does not blow the spring up', () => {
   const spring = createSpring({ value: 0 });
   spring.target = 30;

@@ -8,8 +8,6 @@ export function createSpring({ value = 0, stiffness = 170, damping = 22 } = {}) 
     get settled() {
       return Math.abs(spring.target - spring.value) < 0.02 && Math.abs(velocity) < 0.05;
     },
-    // A push in degrees per second, for the swing on a step change.
-    kick(v) { velocity += v; },
     step(dt) {
       // Fixed substeps keep it stable through a long frame (a tab coming back).
       let left = Math.min(dt, 0.25);

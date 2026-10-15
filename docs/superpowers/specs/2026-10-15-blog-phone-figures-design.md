@@ -44,7 +44,7 @@ What exists to build on (from exploration):
 ```
 - Breaks out of the 760px column to about 1000px. Phone about 300px wide on the left, steps on the right. Under `dir=rtl` it mirrors on its own through grid/logical properties.
 - Steps are real `<button>`s. Click or arrow keys pick one. While the stage is in view it auto-advances every 4.5 s, and stops for good at the first interaction.
-- **On a step change**, the phone swings about 12° around its vertical axis and the screen cross-fades mid-swing.
+- **On a step change**, the next screen pushes in from the side the way an iOS navigation push does: the old screen drifts a third of the way out and dims, the status bar stays put, and going back slides the other way. The phone holds still. (A swing of the whole phone was tried first and read as odd; a cross-fade and a tilt towards the step were compared live, and Nico picked the push.)
 - **Drag** (fine pointer) turns the phone up to ±35° yaw / ±15° pitch, and it springs back on release. When the figure scrolls in, the phone settles from straight-on into a slight 3/4 rest pose.
 
 ### Desktop: float (`data-layout="float"`, optional `data-side="start"`), for 1-2 screens next to the paragraph they belong to
@@ -71,7 +71,7 @@ What exists to build on (from exploration):
  |  2  Write it to the tag  |
  |  caption text …          |
 ```
-- Swipe horizontally on the phone to step, using `touch-action: pan-y`, so vertical scrolling is never captured. Tap the phone to go to the next step. Swiping replaces drag-to-rotate on touch devices, and the step swing gives the 3D feel. No auto-advance on mobile.
+- Swipe horizontally on the phone to step, using `touch-action: pan-y`, so vertical scrolling is never captured. Tap the phone to go to the next step. Swiping replaces drag-to-rotate on touch devices, and the push gives the step change its motion. No auto-advance on mobile.
 
 ### Every tier works without the next one
 1. **No JS:** an ordered list. Each step's screenshot sits in a CSS phone frame with its caption, so it reads as a plain illustrated list.
@@ -81,7 +81,7 @@ What exists to build on (from exploration):
    - Dots, swipe, keys and cross-fade all work. Reduced motion means instant swaps and no auto-advance.
 3. **WebGL2:** after idle and near the viewport, the 3D phone renders straight-on, matching the still exactly. It fades in over the still and then takes over the motion.
    - The canvas is `role=img`, and its `aria-label` follows the active step's alt text.
-   - It renders only while something moves: settle, swing, drag or spring-back.
+   - It renders only while something moves: settle, push, hover, drag or spring-back.
 
 **Mockups:** the first build step produces the real thing on a pilot post, and I show it to you as screenshots: desktop stage, desktop float, mobile, each in light and dark, plus `ar`. This is a hard review gate before any rollout.
 

@@ -4,7 +4,7 @@
 export {
   AnimationMixer, Box3, DirectionalLight, DoubleSide, Group, MeshBasicMaterial, NeutralToneMapping,
   NoBlending, PCFShadowMap, PMREMGenerator, PerspectiveCamera, PointLight, SRGBColorSpace, Scene,
-  SpotLight, Texture, Vector3, VideoTexture, WebGLRenderer,
+  ShaderMaterial, SpotLight, Texture, Vector3, VideoTexture, WebGLRenderer,
 } from 'three';
 export { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 export { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';

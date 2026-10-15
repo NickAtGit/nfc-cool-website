@@ -11,8 +11,9 @@
 //   3. WebGL2, no reduced motion, no Save-Data: once the page is idle and the figure is near the
 //      viewport, three.js and the phone (blog_phone.glb, ~150 KB) load and a canvas draws the same
 //      phone, straight on, exactly over the still. It fades in, turns gently towards the text, and
-//      then follows the pointer: a drag turns it, a step change swings it while the screen
-//      cross-fades. It draws only while something moves.
+//      then follows the pointer: hovering leans it, a drag turns it. A step change pushes the next
+//      screen in from the side, the way the app itself navigates; the phone holds still for it.
+//      It draws only while something moves.
 //
 // The still (blog_phone_shell.webp) is drawn by this module itself (?debug, see
 // Scripts/scenes/render-phone-shell.mjs), so the two match; window.phoneFigures.screenRect()
@@ -33,12 +34,11 @@ const PHONE_FILL = 0.84;
 // The pose it rests in once live, turned towards the text (degrees), and how far a drag turns it.
 const REST_YAW = 14;
 const REST_PITCH = 3;
-const HOVER_YAW = 7;
-const HOVER_PITCH = 5;
+const HOVER_YAW = 15;
+const HOVER_PITCH = 10;
 const DRAG_YAW = 35;
 const DRAG_PITCH = 15;
-const SWING = 260; // degrees per second: the push a step change gives
-const FADE_MS = 380;
+const PUSH_MS = 460;
 
 const figures = [...document.querySelectorAll('figure.phone-figure')];
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -154,8 +154,8 @@ async function goLive() {
   log(`three loaded in ${Math.round(performance.now() - t0)} ms`);
   const {
     Box3, DirectionalLight, GLTFLoader, Group, MeshBasicMaterial, MeshoptDecoder, NeutralToneMapping,
-    NoBlending, PMREMGenerator, PerspectiveCamera, RoomEnvironment, SRGBColorSpace, Scene, Texture,
-    Vector3, WebGLRenderer,
+    NoBlending, PMREMGenerator, PerspectiveCamera, RoomEnvironment, SRGBColorSpace, Scene, ShaderMaterial,
+    Texture, Vector3, WebGLRenderer,
   } = THREE;
 
   const loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
@@ -211,19 +211,43 @@ async function goLive() {
     camera.position.set(0, 0, size.y / PHONE_FILL / 2 / Math.tan(FOV * Math.PI / 360));
     camera.lookAt(0, 0, 0);
 
-    // The screen: the current shot, and over it the next one fading in.
+    // The screen: shot a, and shot b on its way in, either fading over a or pushing it aside the
+    // way an iOS navigation push does (b slides in from the side, a drifts a third of the way out).
     const screen = parts.getObjectByName('Object_13');
     if (!screen) throw new Error('no screen mesh');
-    const base = new MeshBasicMaterial({ toneMapped: false });
-    const over = new MeshBasicMaterial({
-      toneMapped: false, transparent: true, opacity: 0, depthWrite: false,
-      polygonOffset: true, polygonOffsetFactor: -1, polygonOffsetUnits: -1,
+    const base = new ShaderMaterial({
+      toneMapped: false,
+      uniforms: { a: { value: null }, b: { value: null }, t: { value: 0 }, dir: { value: 1 } },
+      vertexShader: `varying vec2 vUv;
+        void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`,
+      fragmentShader: `uniform sampler2D a; uniform sampler2D b; uniform float t; uniform float dir;
+        varying vec2 vUv;
+        void main() {
+          vec4 c;
+          // The status bar stays put through a push, as on iOS (every shot has the same 9:41 bar;
+          // glTF UVs run top down).
+          if (vUv.y < 0.052) {
+            c = mix(texture2D(a, vUv), texture2D(b, vUv), step(0.5, t));
+          } else {
+            // dir 1: b comes in from the right; -1: from the left.
+            float x = dir > 0.0 ? vUv.x : 1.0 - vUv.x;
+            float edge = 1.0 - t;
+            if (x >= edge) {
+              float bx = x - edge;
+              c = texture2D(b, vec2(dir > 0.0 ? bx : 1.0 - bx, vUv.y));
+              c.rgb *= 1.0 - 0.12 * smoothstep(0.0, 0.03, 0.03 - bx); // a soft shadow on b's leading edge
+            } else {
+              float ax = x + t * 0.33;
+              c = texture2D(a, vec2(dir > 0.0 ? ax : 1.0 - ax, vUv.y));
+              c.rgb *= 1.0 - 0.18 * t; // a dims as it goes, like the screen underneath a push
+            }
+          }
+          gl_FragColor = c;
+          #include <colorspace_fragment>
+        }`,
     });
     // GLTFLoader may keep the node as a group around the mesh: dress the meshes under it.
     screen.traverse(o => { if (o.isMesh) o.material = base; });
-    const overlay = screen.clone();
-    overlay.traverse(o => { if (o.isMesh) o.material = over; });
-    screen.parent.add(overlay);
 
     const textures = new Map();
     const textureFor = async i => {
@@ -242,8 +266,7 @@ async function goLive() {
       }
       return textures.get(i);
     };
-    base.map = await textureFor(view.steps.index);
-    base.needsUpdate = true;
+    base.uniforms.a.value = base.uniforms.b.value = await textureFor(view.steps.index);
 
     // Which way is "towards the text": a stage's phone sits at the start of the line, a float's at its end.
     const atStart = view.figure.dataset.layout === 'stage' ? view.figure.dataset.side !== 'end' : view.figure.dataset.side === 'start';
@@ -280,11 +303,11 @@ async function goLive() {
       yaw.step(dt);
       pitch.step(dt);
       if (fade) {
-        const t = Math.min(1, (now - fade.start) / FADE_MS);
-        over.opacity = t * t * (3 - 2 * t);
+        const t = Math.min(1, (now - fade.start) / PUSH_MS);
+        base.uniforms.t.value = 1 - Math.pow(1 - t, 3); // ease out, like a navigation push
         if (t === 1) {
-          base.map = over.map;
-          over.opacity = 0;
+          base.uniforms.a.value = base.uniforms.b.value;
+          base.uniforms.t.value = 0;
           fade = null;
         }
       }
@@ -301,12 +324,12 @@ async function goLive() {
       async change(to, from) {
         const texture = await textureFor(to);
         if (view.steps.index !== to) return; // the reader has already moved on
-        if (fade) base.map = over.map;
-        over.map = texture;
-        over.needsUpdate = true;
+        if (fade) base.uniforms.a.value = base.uniforms.b.value;
+        const forward = to > from ? to - from <= view.shots.length / 2 : from - to > view.shots.length / 2;
+        base.uniforms.b.value = texture;
+        base.uniforms.t.value = 0;
+        base.uniforms.dir.value = (forward !== rtl) ? 1 : -1; // back slides the other way, like iOS
         fade = { to, start: performance.now() };
-        const forward = to === (from + 1) % view.shots.length;
-        yaw.kick((forward ? 1 : -1) * towardsText * -SWING);
         invalidate();
       },
     };
@@ -383,18 +406,16 @@ async function goLive() {
     }, 450);
 
     if (debug) {
-      Object.assign(view, { renderer, scene, camera, pose, screen, overlay, draw, yaw, pitch });
+      Object.assign(view, { renderer, scene, camera, pose, screen, draw, yaw, pitch });
       // The still: the phone straight on, its screen cut out (alpha 0) for the shots behind it.
       view.renderShell = (w, h) => {
         const hole = new MeshBasicMaterial({ color: 0x000000, opacity: 0, blending: NoBlending });
         screen.traverse(o => { if (o.isMesh) o.material = hole; });
-        overlay.visible = false;
         pose.rotation.set(0, 0, 0);
         renderer.setSize(w, h, false);
         renderer.render(scene, camera);
         const url = canvas.toDataURL('image/webp', 0.92);
         screen.traverse(o => { if (o.isMesh) o.material = base; });
-        overlay.visible = true;
         resize();
         return url;
       };
