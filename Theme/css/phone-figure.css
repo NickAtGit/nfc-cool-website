@@ -64,6 +64,17 @@
    border-radius: 5% / 2.5%;
    background: #000;
 }
+/* The shots and the still never take the pointer: the device box handles taps, swipes and drags,
+   and Safari's Live Text would otherwise find the text and email addresses in the screenshots
+   (hidden under the live canvas, too) and draw its dashed boxes and Look Up menu over them. */
+.phone-figure-screens,
+.phone-figure .phone-figure-shot,
+.phone-figure .phone-figure-shell {
+   pointer-events: none;
+   -webkit-user-select: none;
+   user-select: none;
+   -webkit-touch-callout: none;
+}
 .phone-figure .phone-figure-shot {
    position: absolute;
    inset: 0;

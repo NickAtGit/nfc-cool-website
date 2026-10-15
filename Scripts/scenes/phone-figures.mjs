@@ -220,29 +220,28 @@ async function goLive() {
       uniforms: { a: { value: null }, b: { value: null }, t: { value: 0 }, dir: { value: 1 } },
       vertexShader: `varying vec2 vUv;
         void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`,
+      // No texture reads inside branches: the GPU works out which mip level to sample from the
+      // neighbouring pixels, and where they take different branches (the edge of the status bar
+      // band) the guess goes wrong and draws a dashed line. Every pixel samples all four, then picks.
       fragmentShader: `uniform sampler2D a; uniform sampler2D b; uniform float t; uniform float dir;
         varying vec2 vUv;
         void main() {
-          vec4 c;
+          // dir 1: b comes in from the right; -1: from the left. x runs in the direction of travel.
+          float x = dir > 0.0 ? vUv.x : 1.0 - vUv.x;
+          float edge = 1.0 - t;
+          float bx = x - edge;
+          float ax = x + t * 0.33;
+          vec4 pushedB = texture2D(b, vec2(dir > 0.0 ? bx : 1.0 - bx, vUv.y));
+          vec4 pushedA = texture2D(a, vec2(dir > 0.0 ? ax : 1.0 - ax, vUv.y));
+          vec4 stillA = texture2D(a, vUv);
+          vec4 stillB = texture2D(b, vUv);
+          pushedB.rgb *= 1.0 - 0.12 * smoothstep(0.0, 0.03, 0.03 - bx); // a soft shadow on b's leading edge
+          pushedA.rgb *= 1.0 - 0.18 * t; // a dims as it goes, like the screen underneath a push
+          vec4 pushed = mix(pushedA, pushedB, step(edge, x));
           // The status bar stays put through a push, as on iOS (every shot has the same 9:41 bar;
           // glTF UVs run top down).
-          if (vUv.y < 0.052) {
-            c = mix(texture2D(a, vUv), texture2D(b, vUv), step(0.5, t));
-          } else {
-            // dir 1: b comes in from the right; -1: from the left.
-            float x = dir > 0.0 ? vUv.x : 1.0 - vUv.x;
-            float edge = 1.0 - t;
-            if (x >= edge) {
-              float bx = x - edge;
-              c = texture2D(b, vec2(dir > 0.0 ? bx : 1.0 - bx, vUv.y));
-              c.rgb *= 1.0 - 0.12 * smoothstep(0.0, 0.03, 0.03 - bx); // a soft shadow on b's leading edge
-            } else {
-              float ax = x + t * 0.33;
-              c = texture2D(a, vec2(dir > 0.0 ? ax : 1.0 - ax, vUv.y));
-              c.rgb *= 1.0 - 0.18 * t; // a dims as it goes, like the screen underneath a push
-            }
-          }
-          gl_FragColor = c;
+          vec4 still = mix(stillA, stillB, step(0.5, t));
+          gl_FragColor = mix(pushed, still, step(vUv.y, 0.052));
           #include <colorspace_fragment>
         }`,
     });
