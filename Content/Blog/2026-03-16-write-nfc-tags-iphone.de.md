@@ -167,6 +167,12 @@ Manche Apps schreiben eigene NDEF-Datensätze, die eine bestimmte Aktion in der 
 
 ## Für Fortgeschrittene: Schreiben mit iOS-Kurzbefehlen
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="Der Bildschirm Shortcuts in NFC.cool Tools mit Siri-Befehlen wie Scan NFC in NFC.cool und Scan QR and Barcode in NFC.cool"><p><strong>Die eigenen Aktionen von NFC.cool.</strong> Jede Aktion, die die App zu Kurzbefehlen und Siri hinzufügt, einen Tipp von der Kurzbefehle-App entfernt.</p></li>
+</ol>
+</figure>
+
 Hier fängt für mich der Spaß erst richtig an. Apples **Kurzbefehle**-App kann von Haus aus NFC-Tags schreiben, und NFC.cool Tools legt mit eigenen Kurzbefehl-Aktionen noch einiges obendrauf.
 
 ### Einfache URLs mit Kurzbefehlen schreiben

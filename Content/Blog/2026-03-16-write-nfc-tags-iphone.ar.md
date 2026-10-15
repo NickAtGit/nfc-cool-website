@@ -167,6 +167,12 @@ ogDescription: "دليل خطوة بخطوة لكتابة وسوم NFC باست�
 
 ## متقدّم: الكتابة باستخدام اختصارات iOS
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="شاشة Shortcuts في NFC.cool Tools، وفيها عبارات Siri مثل Scan NFC in NFC.cool وScan QR and Barcode in NFC.cool"><p><strong>إجراءات NFC.cool الخاصة.</strong> كل إجراء يضيفه التطبيق إلى الاختصارات وSiri، على بعد نقرة من تطبيق الاختصارات.</p></li>
+</ol>
+</figure>
+
 هنا تصبح الأمور ممتعة بالنسبة لي. يتضمّن تطبيق **الاختصارات** من Apple دعمًا مدمجًا لكتابة NFC، ويوسّعه NFC.cool Tools أكثر بإجراءات الاختصارات الخاصة به.
 
 ### كتابة عنوان URL أساسية باستخدام الاختصارات

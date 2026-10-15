@@ -167,6 +167,12 @@ Algunas apps pueden grabar registros NDEF personalizados que activan acciones co
 
 ## Avanzado: grabar con Atajos de iOS
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="La pantalla Shortcuts de NFC.cool Tools, con frases de Siri como Scan NFC in NFC.cool y Scan QR and Barcode in NFC.cool"><p><strong>Las acciones propias de NFC.cool.</strong> Cada acción que la app añade a Atajos y a Siri, a un toque de la app Atajos.</p></li>
+</ol>
+</figure>
+
 Aquí es donde la cosa se pone interesante para mí. La app **Atajos** de Apple tiene soporte integrado de escritura NFC, y NFC.cool Tools lo amplía aún más con sus propias acciones de Atajos.
 
 ### Escritura básica de URL con Atajos

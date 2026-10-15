@@ -167,6 +167,12 @@ vCard連絡先をタグに書き込みます。誰かがタップすると、保
 
 ## 上級編：iOSショートカットでの書き込み
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="NFC.cool ToolsのShortcuts画面。Scan NFC in NFC.cool、Scan QR and Barcode in NFC.coolなどのSiriフレーズ"><p><strong>NFC.cool独自のアクション。</strong>アプリがショートカットとSiriに追加するアクションの一覧。ショートカットAppへはワンタップ。</p></li>
+</ol>
+</figure>
+
 ここからが私にとって面白くなる部分です。Appleの**ショートカット**アプリにはNFC書き込み機能が内蔵されており、NFC.cool Toolsは独自のショートカットアクションでさらに機能を拡張します。
 
 ### ショートカットでの基本的なURL書き込み

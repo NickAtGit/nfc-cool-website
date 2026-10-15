@@ -167,6 +167,12 @@ Bazı uygulamalar, kendi uygulama eylemlerini tetikleyen özel NDEF kayıtları 
 
 ## İleri düzey: iOS Kısayolları ile yazmak
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="NFC.cool Tools'taki Shortcuts ekranı; Scan NFC in NFC.cool ve Scan QR and Barcode in NFC.cool gibi Siri ifadeleriyle"><p><strong>NFC.cool'un kendi eylemleri.</strong> Uygulamanın Kestirmeler'e ve Siri'ye eklediği her eylem, Kestirmeler uygulamasına tek dokunuşla.</p></li>
+</ol>
+</figure>
+
 Burası benim için işin eğlenceli olduğu yer. Apple'ın **Kısayollar** uygulamasında yerleşik NFC yazma desteği var ve NFC.cool Tools bunu kendi kısayol eylemleriyle daha da genişletiyor.
 
 ### Kısayollarla temel adres yazımı

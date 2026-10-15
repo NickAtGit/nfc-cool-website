@@ -167,6 +167,12 @@ Algumas apps conseguem gravar registos NDEF personalizados que acionam ações e
 
 ## Avançado: Gravar com os Atalhos do iOS
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="O ecrã Shortcuts no NFC.cool Tools, com frases da Siri como Scan NFC in NFC.cool e Scan QR and Barcode in NFC.cool"><p><strong>As ações do próprio NFC.cool.</strong> Todas as ações que a app acrescenta aos Atalhos e à Siri, a um toque da app Atalhos.</p></li>
+</ol>
+</figure>
+
 É aqui que as coisas ficam divertidas para mim. A app **Atalhos** da Apple tem suporte de gravação NFC integrado, e o NFC.cool Tools estende-o ainda mais com as suas próprias ações de Atalhos.
 
 ### Gravação Básica de URL com Atalhos

@@ -167,6 +167,12 @@ NFC-метки используют формат **NDEF** (формат обме
 
 ## Продвинутое: запись через быстрые команды iOS
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="Экран Shortcuts в NFC.cool Tools с фразами для Siri вроде Scan NFC in NFC.cool и Scan QR and Barcode in NFC.cool"><p><strong>Собственные действия NFC.cool.</strong> Все действия, которые приложение добавляет в «Быстрые команды» и Siri, в одном нажатии от приложения.</p></li>
+</ol>
+</figure>
+
 Вот здесь мне становится по-настоящему интересно. В приложении **«Быстрые команды»** от Apple есть встроенная запись NFC, а NFC.cool Tools расширяет её своими действиями.
 
 ### Простая запись ссылки через быстрые команды

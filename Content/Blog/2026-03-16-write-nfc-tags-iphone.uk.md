@@ -167,6 +167,12 @@ NFC-мітки зберігають дані у форматі **NDEF** (NFC Dat
 
 ## Складніше: запис через Швидкі команди iOS
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="Екран Shortcuts у NFC.cool Tools із фразами для Siri на кшталт Scan NFC in NFC.cool і Scan QR and Barcode in NFC.cool"><p><strong>Власні дії NFC.cool.</strong> Усі дії, які застосунок додає до «Швидких команд» і Siri, за одне натискання від застосунку.</p></li>
+</ol>
+</figure>
+
 Ось тут для мене починається найцікавіше. У застосунку **Швидкі команди** від Apple є вбудований запис NFC, а NFC.cool Tools додає до нього власні дії.
 
 ### Простий запис посилання командою

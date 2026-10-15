@@ -167,6 +167,12 @@ Certaines apps peuvent écrire des enregistrements NDEF personnalisés qui décl
 
 ## Pour aller plus loin : écrire avec les Raccourcis iOS
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="L'écran Shortcuts de NFC.cool Tools, avec des phrases Siri comme Scan NFC in NFC.cool et Scan QR and Barcode in NFC.cool"><p><strong>Les actions propres à NFC.cool.</strong> Chaque action que l'app ajoute à Raccourcis et à Siri, à un appui de l'app Raccourcis.</p></li>
+</ol>
+</figure>
+
 C'est là que ça devient amusant pour moi. L'app **Raccourcis** d'Apple prend en charge l'écriture NFC de manière native, et NFC.cool Tools va plus loin avec ses propres actions Raccourcis.
 
 ### Écriture basique d'URL avec Raccourcis

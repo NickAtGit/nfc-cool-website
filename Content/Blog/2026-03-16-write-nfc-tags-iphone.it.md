@@ -167,6 +167,12 @@ Certe app scrivono record NDEF personalizzati capaci di avviare al loro interno 
 
 ## Livello avanzato: scrivere con i Comandi Rapidi
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="La schermata Shortcuts di NFC.cool Tools, con frasi di Siri come Scan NFC in NFC.cool e Scan QR and Barcode in NFC.cool"><p><strong>Le azioni di NFC.cool.</strong> Ogni azione che l'app aggiunge a Comandi Rapidi e a Siri, a un tocco dall'app Comandi.</p></li>
+</ol>
+</figure>
+
 È qui che la cosa si fa divertente, almeno per me. L'app **Comandi Rapidi** di Apple sa già scrivere i tag NFC per conto suo, e NFC.cool Tools la estende con azioni proprie.
 
 ### Scrivere un indirizzo con i Comandi Rapidi

@@ -167,6 +167,12 @@ NFC 标签使用一种叫 **NDEF**（NFC 数据交换格式，NFC Data Exchange 
 
 ## 进阶：用 iOS 快捷指令写入
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="NFC.cool Tools 的 Shortcuts 页面，列出 Scan NFC in NFC.cool、Scan QR and Barcode in NFC.cool 等 Siri 短语"><p><strong>NFC.cool 自己的操作。</strong>App 加进快捷指令和 Siri 的所有操作，轻触一下就到快捷指令 App。</p></li>
+</ol>
+</figure>
+
 这是我觉得最好玩的地方。Apple 的**快捷指令**App 内置了 NFC 写入支持，而 NFC.cool Tools 通过它自己的快捷指令动作进一步扩展了它。
 
 ### 用快捷指令做基础的 URL 写入

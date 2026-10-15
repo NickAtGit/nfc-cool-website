@@ -167,6 +167,12 @@ Beberapa aplikasi dapat menulis rekaman NDEF kustom yang memicu tindakan aplikas
 
 ## Lanjutan: menulis dengan iOS Shortcuts
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="Layar Shortcuts di NFC.cool Tools, berisi frasa Siri seperti Scan NFC in NFC.cool dan Scan QR and Barcode in NFC.cool"><p><strong>Aksi milik NFC.cool sendiri.</strong> Setiap aksi yang ditambahkan aplikasi ke Pintasan dan Siri, satu ketukan dari aplikasi Pintasan.</p></li>
+</ol>
+</figure>
+
 Di sinilah hal-hal menjadi menyenangkan bagi saya. Aplikasi **Shortcuts** Apple memiliki dukungan penulisan NFC bawaan, dan NFC.cool Tools memperluasnya lebih jauh dengan tindakan Shortcuts-nya sendiri.
 
 ### Penulisan URL dasar dengan Shortcuts

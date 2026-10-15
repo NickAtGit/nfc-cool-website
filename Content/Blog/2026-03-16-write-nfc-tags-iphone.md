@@ -167,6 +167,12 @@ Some apps can write custom NDEF records that trigger specific app actions. For e
 
 ## Advanced: Writing with iOS Shortcuts
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="The Shortcuts screen in NFC.cool Tools, listing Siri phrases such as Scan NFC in NFC.cool and Scan QR and Barcode in NFC.cool"><p><strong>NFC.cool's own actions.</strong> Every action the app adds to Shortcuts and Siri, one tap from the Shortcuts app.</p></li>
+</ol>
+</figure>
+
 This is where things get fun for me. Apple's **Shortcuts** app has built-in NFC writing support, and NFC.cool Tools extends it further with its own Shortcuts actions.
 
 ### Basic URL Writing with Shortcuts
