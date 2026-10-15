@@ -45,6 +45,16 @@ ogDescription: "توقّف عن طباعة ٥٠٠ بطاقة ينتهي بها �
 
 التحوّل إلى الرقمي لا يعني مجرد استبدال الورق بتطبيق. الميزة الحقيقية هي امتلاك نظام يعمل على امتداد الجدول الزمني للمؤتمر بالكامل - من التحضير إلى المتابعة. إليك كيفية إعداده.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>قبل الحدث وأثناءه وبعده</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="بطاقاتي التجارية، وفيها بطاقة Conference بجوار البطاقة اليومية"><p><strong>قبل: بطاقة للحدث.</strong> بطاقة لهذا المؤتمر وحده، بالروابط المهمة هناك.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="رمز QR للبطاقة بملء الشاشة، وأسفله Share وSave to Photos"><p><strong>أثناء: لمسة أو مسح.</strong> NFC للتبادل السريع، ورمز QR بملء الشاشة للجميع.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="جهة اتصال من التعارف: Priya Raman من Lantern Metrics، مع Add Reminder وAdd Meeting وتفاصيل الحدث"><p><strong>بعد: المتابعة.</strong> كل جهة اتصال تتذكّر أين التقيتما، والتذكير أو الاجتماع على بعد نقرة.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics: ١٬٢٨٤ مشاهدة و٢١٣ حفظًا، مع رسم بياني لكل يوم"><p><strong>ثم راجِع ما نجح.</strong> المشاهدات وعمليات الحفظ يومًا بيوم، لترى أيّ الفعاليات أثمرت.</p></li>
+</ol>
+</figure>
+
 ### المرحلة الأولى: قبل المؤتمر
 
 أسوأ وقت لإعداد بطاقة عملك الرقمية هو حين تكون واقفًا في طابور التسجيل. أنجِز هذا قبل أسبوع على الأقل من الفعالية.

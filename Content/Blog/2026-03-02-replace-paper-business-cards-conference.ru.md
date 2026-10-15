@@ -45,6 +45,16 @@ ogDescription: "Хватит печатать 500 карточек, которы
 
 Переход на цифру это не просто замена бумаги приложением. Настоящее преимущество в том, что появляется система, работающая на всём протяжении конференции, от подготовки до отработки контактов. Вот как её собрать.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>До, во время и после</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="«Мои визитки» с карточкой Conference рядом с повседневной"><p><strong>До: карточка для события.</strong> Карточка только для этой конференции, со ссылками, важными именно там.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="QR-код карточки во весь экран, под ним Share и Save to Photos"><p><strong>Во время: касание или скан.</strong> NFC для быстрого обмена, QR-код во весь экран для всех остальных.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="Контакт из нетворкинга: Priya Raman из Lantern Metrics с Add Reminder, Add Meeting и данными о событии"><p><strong>После: напомни о себе.</strong> Каждый контакт помнит место знакомства, а напоминание или встреча добавляются одним нажатием.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics: 1 284 просмотра и 213 сохранений, с графиком по дням"><p><strong>Потом посмотри, что сработало.</strong> Просмотры и сохранения по дням покажут, какие события окупились.</p></li>
+</ol>
+</figure>
+
 ### Этап 1: до конференции
 
 Настраивать цифровую визитку в очереди на регистрацию это худший момент. Разберись с этим хотя бы за неделю до мероприятия.

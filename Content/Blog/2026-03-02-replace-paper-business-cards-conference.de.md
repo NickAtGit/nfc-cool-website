@@ -45,6 +45,16 @@ Auf einer Konferenz wird aus jeder kleinen Unannehmlichkeit von Papier ein echte
 
 Auf digital umzustellen heißt nicht einfach, Papier gegen eine App zu tauschen. Der eigentliche Gewinn ist ein System, das dich durch die ganze Konferenz trägt, von der Vorbereitung bis zum Nachfassen. So baust du es auf.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Vorher, währenddessen, danach</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="Meine Visitenkarten mit einer Konferenzkarte neben der für jeden Tag"><p><strong>Vorher: eine Karte fürs Event.</strong> Eine Karte nur für diese Konferenz, mit den Links, die dort zählen.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="Der QR-Code der Karte im Vollbild, darunter Share und Save to Photos"><p><strong>Währenddessen: scannen lassen.</strong> NFC für den schnellen Austausch, der QR-Code im Vollbild für alle anderen.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="Ein Networking-Kontakt, Priya Raman von Lantern Metrics, mit Add Reminder, Add Meeting und den Eventdetails"><p><strong>Danach: nachfassen.</strong> Jeder Kontakt weiß, wo ihr euch getroffen habt, Erinnerung oder Termin sind einen Tipp entfernt.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics: 1.284 Aufrufe und 213 Speicherungen, mit einem Diagramm pro Tag"><p><strong>Und dann auswerten.</strong> Aufrufe und Speicherungen pro Tag, so siehst du, welche Events sich gelohnt haben.</p></li>
+</ol>
+</figure>
+
 ### Phase 1: Vor der Konferenz
 
 Der schlechteste Moment, deine digitale Visitenkarte einzurichten, ist die Warteschlange an der Registrierung. Erledige das mindestens eine Woche vor dem Event.

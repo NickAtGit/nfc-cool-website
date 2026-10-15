@@ -45,6 +45,16 @@ A una conferenza, ogni piccola scomodità della carta diventa un problema serio.
 
 Passare al digitale non significa solo sostituire la carta con un'app. Il vantaggio vero è avere un metodo che regge per tutta la durata della conferenza, dalla preparazione ai contatti successivi. Ecco come metterlo in piedi.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Prima, durante e dopo</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="I miei biglietti da visita, con un biglietto Conference accanto a quello di tutti i giorni"><p><strong>Prima: un biglietto per l'evento.</strong> Un biglietto solo per questa conferenza, con i link che lì contano.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="Il codice QR del biglietto a schermo intero, con Share e Save to Photos sotto"><p><strong>Durante: tocco o scansione.</strong> L'NFC per lo scambio veloce, il QR a schermo intero per tutti gli altri.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="Un contatto di networking, Priya Raman di Lantern Metrics, con Add Reminder, Add Meeting e i dettagli dell'evento"><p><strong>Dopo: il follow-up.</strong> Ogni contatto ricorda dove vi siete conosciuti, con un promemoria o un incontro a un tocco.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics: 1.284 visualizzazioni e 213 salvataggi, con un grafico per giorno"><p><strong>Poi guarda cosa ha funzionato.</strong> Visualizzazioni e salvataggi giorno per giorno, per capire quali eventi hanno reso.</p></li>
+</ol>
+</figure>
+
 ### Fase 1: prima della conferenza
 
 Il momento peggiore per preparare il biglietto da visita digitale è mentre sei in fila all'accredito. Sistema tutto almeno una settimana prima dell'evento.

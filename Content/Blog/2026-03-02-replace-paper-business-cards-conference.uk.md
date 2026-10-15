@@ -45,6 +45,16 @@ ogDescription: "Навіщо друкувати 500 карток, які пої�
 
 Перехід на цифрову візитівку не зводиться до заміни паперу застосунком. Справжня перевага в іншому: система працює на всіх етапах конференції, від підготовки до листів навздогін. Ось як її зібрати.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>До, під час і після</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="«Мої візитки» з карткою Conference поруч із повсякденною"><p><strong>До: картка для події.</strong> Картка лише для цієї конференції, з посиланнями, важливими саме там.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="QR-код картки на весь екран, під ним Share і Save to Photos"><p><strong>Під час: дотик або скан.</strong> NFC для швидкого обміну, QR-код на весь екран для всіх інших.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="Контакт із нетворкінгу: Priya Raman з Lantern Metrics з Add Reminder, Add Meeting і даними про подію"><p><strong>Після: нагадай про себе.</strong> Кожен контакт пам'ятає місце знайомства, а нагадування чи зустріч додаються одним натисканням.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics: 1 284 перегляди і 213 збережень, з графіком за днями"><p><strong>Потім подивись, що спрацювало.</strong> Перегляди та збереження за днями покажуть, які події окупилися.</p></li>
+</ol>
+</figure>
+
 ### Етап 1: до конференції
 
 Налаштовувати цифрову візитівку в черзі на реєстрацію вже пізно. Зроби це щонайменше за тиждень до заходу.

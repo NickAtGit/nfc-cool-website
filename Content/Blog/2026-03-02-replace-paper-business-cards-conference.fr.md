@@ -45,6 +45,16 @@ En conférence, tout ce qui est un peu gênant avec le papier devient un vrai pr
 
 Passer au numérique, ce n'est pas seulement troquer le papier contre une app. Le vrai avantage, c'est d'avoir un système qui fonctionne sur toute la durée de la conférence - de la préparation à la relance. Voici comment le mettre en place.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Avant, pendant et après</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="Mes cartes de visite, avec une carte Conference à côté de celle de tous les jours"><p><strong>Avant : une carte pour l'événement.</strong> Une carte rien que pour cette conférence, avec les liens qui comptent là-bas.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="Le QR code de la carte en plein écran, avec Share et Save to Photos en dessous"><p><strong>Pendant : NFC ou scan.</strong> Le NFC pour l'échange rapide, le QR code en plein écran pour tous les autres.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="Un contact de networking, Priya Raman, de Lantern Metrics, avec Add Reminder, Add Meeting et les détails de l'événement"><p><strong>Après : le suivi.</strong> Chaque contact se souvient de l'endroit où vous vous êtes rencontrés, avec un rappel ou un rendez-vous à un appui.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics : 1 284 vues et 213 enregistrements, avec un graphique par jour"><p><strong>Puis, faites le bilan.</strong> Vues et enregistrements par jour, pour voir quels événements ont payé.</p></li>
+</ol>
+</figure>
+
 ### Phase 1 : avant la conférence
 
 Le pire moment pour configurer votre carte de visite numérique, c'est quand vous faites la queue à l'accueil. Faites-le au moins une semaine avant l'événement.
