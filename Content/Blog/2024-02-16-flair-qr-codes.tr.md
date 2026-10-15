@@ -16,6 +16,12 @@ QR kodların düz siyah beyaz kareler olması gerekmiyor. QR belirtimindeki hata
 
 ## Renk: istediğini seç ama kontrasta saygı duy
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/flair-qr-codes/studio-440w.webp" alt="NFC.cool Tools'ta QR Code Studio: sarı köşeli ve lacivert noktalı bir QR kod, altında hazır ayarlar ve rastgele seçenekler"><p><strong>QR Code Studio.</strong> Renkler, şekiller ve hazır ayarlar; ya da beğendiğin bir şey çıkana kadar rastgele denesin.</p></li>
+</ol>
+</figure>
+
 QR Stüdyosu ön plan (modüller) ve arka plan için istediğin rengi seçmene izin veriyor. Marka paletini tutturabilir, kampanya temasına gönderme yapabilir ya da kodu afişte gözü daha az tırmalayan bir şeye çevirebilirsin.
 
 Yine de katı tek bir kural var: **kontrast**. QR tarayıcı pikselleri örnekleyip hangisinin "koyu" hangisinin "açık" olduğuna karar vererek çalışır. Ön planla arka planın parlaklığı birbirine fazla yakınsa tarayıcı pes eder; kod insan gözünün sınavını geçse bile.

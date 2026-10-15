@@ -16,6 +16,12 @@ QRコードは単純な白黒の四角である必要はありません。QR規�
 
 ## 色：何でも選んでOK、ただしコントラストは尊重
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/flair-qr-codes/studio-440w.webp" alt="NFC.cool ToolsのQR Code Studio。黄色のファインダーと紺色のドットのQRコード、その下にプリセットとランダム化の項目"><p><strong>QR Code Studio。</strong>色、形、プリセット。気に入るまでランダムに任せることもできます。</p></li>
+</ol>
+</figure>
+
 QR Studioでは、前景（モジュール）と背景の両方に任意の色を選べます。ブランドのカラーパレットに合わせたり、キャンペーンのテーマを暗示したり、単にポスターでの視覚的な圧迫感を減らしたりできます。
 
 ただし守るべき硬いルールがあります。**コントラスト**です。QRスキャナーはピクセルをサンプリングして「暗い」か「明るい」かを判断します。前景と背景の輝度が近すぎるとスキャナーは諦めます - 人間の目には問題なく見えても。

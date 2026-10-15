@@ -16,6 +16,12 @@ I codici QR non sono per forza dei quadrati in bianco e nero. La correzione d'er
 
 ## Colori: scegli quello che vuoi, ma rispetta il contrasto
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/flair-qr-codes/studio-440w.webp" alt="QR Code Studio in NFC.cool Tools: un codice QR con angoli gialli e punti blu notte, con preset e opzioni casuali sotto"><p><strong>QR Code Studio.</strong> Colori, forme e preset, oppure lascia fare al caso finché qualcosa ti piace.</p></li>
+</ol>
+</figure>
+
 Lo Studio QR ti lascia scegliere qualsiasi colore per il primo piano, cioè i moduli, e per lo sfondo. Riprendi i colori del marchio, richiama il tema di una campagna oppure rendi semplicemente il codice meno sgradevole su un manifesto.
 
 Una regola però non si tocca: il **contrasto**. Un lettore di codici QR campiona i pixel e decide quali sono "scuri" e quali "chiari". Se primo piano e sfondo hanno una luminanza troppo simile, il lettore si arrende, anche quando all'occhio umano il codice sembra a posto.
