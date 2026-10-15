@@ -26,6 +26,13 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 
 ## Дані Wi-Fi
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="Форма QR-коду для Wi-Fi у NFC.cool Tools: назва мережі, пароль, автентифікація WPA/WPA2 і прихована мережа"><p><strong>Заповни дані мережі.</strong> Назва, пароль і тип захисту.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="Готовий QR-код Wi-Fi з назвою Guest WiFi і QR Code Studio для оформлення"><p><strong>Поділись кодом.</strong> Гості сканують його й підключаються без введення пароля.</p></li>
+</ol>
+</figure>
+
 Ім'я мережі, пароль і тип захисту (WPA2, WPA3 або без пароля) кодуються у стандартному форматі `WIFI:T:WPA;S:...;P:...;;`. iOS, Android і сучасна Windows розпізнають його й пропонують підключитися.
 
 Надрукуй такий код на картці для гостьової кімнати, наклей на зворот роутера, причепи на стіну в кав'ярні. Гість сканує, підключається, і на цьому все: набирати пароль на 24 символи не доводиться.
@@ -71,6 +78,12 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 ---
 
 ## Що відбувається під час сканування
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="QR-сканер у NFC.cool Tools: код знайдено на надрукованій картці, є кнопка Finish"><p><strong>Сканування.</strong> Наведи камеру, і застосунок прочитає вміст та запропонує потрібну дію.</p></li>
+</ol>
+</figure>
 
 Сканер NFC.cool читає будь-який із перелічених форматів і одразу запускає потрібну дію: посилання відкриваються у браузері, vCard пропонує зберегти контакт, Wi-Fi пропонує підключення, координати відкриваються в мапах. А ще він веде локальну історію всіх сканувань, і вона рятує, коли на конференції ти відсканував тридцять меню й хочеш повернутися до одного.
 

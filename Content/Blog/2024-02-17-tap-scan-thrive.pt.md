@@ -26,6 +26,13 @@ Uma variante útil: links curtos. Se tem URLs carregados de parâmetros de anál
 
 ## Credenciais Wi-Fi
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="O formulário de QR Wi-Fi no NFC.cool Tools: nome da rede, palavra-passe, autenticação WPA/WPA2 e rede oculta"><p><strong>Preencha a rede.</strong> Nome, palavra-passe e tipo de segurança.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="O código QR Wi-Fi pronto, com o título Guest WiFi, e o QR Code Studio para o estilizar"><p><strong>Partilhe o código.</strong> Os convidados leem-no e ligam-se, sem escrever nada.</p></li>
+</ol>
+</figure>
+
 Codifique um SSID, palavra-passe e tipo de segurança (WPA2, WPA3, aberto) no formato padrão `WIFI:T:WPA;S:...;P:...;;`. O iOS, o Android e o Windows moderno reconhecem todos o formato e propõem ligar-se.
 
 Imprima isto num pequeno cartão no seu quarto de hóspedes. Cole-o nas costas do router. Pendure-o na parede de um café. Os hóspedes leem, ligam-se, pronto - sem ter de escrever palavras-passe de 24 caracteres.
@@ -71,6 +78,12 @@ Algumas apps registam esquemas de URL personalizados (`myapp://...`) e reconhece
 ---
 
 ## Do lado da leitura
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="O leitor de QR no NFC.cool Tools, com um código encontrado num cartão impresso e o botão Finish"><p><strong>Ler.</strong> Aponte a câmara, e a app lê o conteúdo e propõe a ação certa.</p></li>
+</ol>
+</figure>
 
 O leitor da NFC.cool lê qualquer um dos formatos acima e encaminha-os para a ação certa: os URLs abrem no navegador, os vCards oferecem-se para guardar, o Wi-Fi propõe ligar, as localizações abrem nos mapas. Mantém também um histórico local de cada leitura, o que é útil quando leu 30 ementas numa conferência e quer voltar a uma delas.
 

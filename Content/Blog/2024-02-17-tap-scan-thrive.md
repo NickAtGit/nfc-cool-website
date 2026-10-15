@@ -26,6 +26,13 @@ A useful variant: short links. If you have analytics-heavy URLs, generate the QR
 
 ## Wi-Fi credentials
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="The Wi-Fi QR form in NFC.cool Tools: network name, password, authentication WPA/WPA2 and hidden network"><p><strong>Fill in the network.</strong> Name, password and security type.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="The finished Wi-Fi QR code, titled Guest WiFi, with QR Code Studio to style it"><p><strong>Share the code.</strong> Guests scan it and join, no typing.</p></li>
+</ol>
+</figure>
+
 Encode an SSID, password, and security type (WPA2, WPA3, open) in the standard `WIFI:T:WPA;S:...;P:...;;` format. iOS, Android, and modern Windows all recognise the format and prompt to join.
 
 Print this on a small card in your guest room. Stick it on the back of the router. Tape it to the wall in a café. Guests scan, join, done - no typing 24-character passwords.
@@ -71,6 +78,12 @@ Some apps register custom URL schemes (`myapp://...`) and recognise QR codes enc
 ---
 
 ## On the scanning side
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="The QR scanner in NFC.cool Tools with a code found on a printed card and a Finish button"><p><strong>Scanning.</strong> Point the camera, and the app reads the payload and offers the right action.</p></li>
+</ol>
+</figure>
 
 NFC.cool's scanner reads any of the above formats and routes them to the right action: URLs open in the browser, vCards offer to save, Wi-Fi prompts to connect, locations open in maps. It also keeps a local history of every scan, which is useful when you've scanned 30 menus at a conference and want to revisit one.
 

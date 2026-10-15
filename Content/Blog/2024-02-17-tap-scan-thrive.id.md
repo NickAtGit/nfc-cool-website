@@ -26,6 +26,13 @@ Varian yang berguna: tautan pendek. Jika Anda memiliki URL yang berat analitik, 
 
 ## Kredensial Wi-Fi
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="Formulir QR Wi-Fi di NFC.cool Tools: nama jaringan, kata sandi, autentikasi WPA/WPA2, dan jaringan tersembunyi"><p><strong>Isi jaringannya.</strong> Nama, kata sandi, dan jenis keamanan.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="Kode QR Wi-Fi yang sudah jadi, berjudul Guest WiFi, dengan QR Code Studio untuk mempercantiknya"><p><strong>Bagikan kodenya.</strong> Tamu memindainya dan langsung tersambung, tanpa mengetik.</p></li>
+</ol>
+</figure>
+
 Kodekan SSID, kata sandi, dan jenis keamanan (WPA2, WPA3, terbuka) dalam format standar `WIFI:T:WPA;S:...;P:...;;`. iOS, Android, dan Windows modern semuanya mengenali format ini dan meminta untuk bergabung.
 
 Cetak ini pada kartu kecil di kamar tamu Anda. Tempelkan di bagian belakang router. Rekatkan ke dinding di kafe. Tamu memindai, bergabung, selesai - tidak perlu mengetik kata sandi 24 karakter.
@@ -71,6 +78,12 @@ Beberapa aplikasi mendaftarkan skema URL kustom (`myapp://...`) dan mengenali ko
 ---
 
 ## Di sisi pemindaian
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="Pemindai QR di NFC.cool Tools dengan kode yang ditemukan pada kartu cetak dan tombol Finish"><p><strong>Memindai.</strong> Arahkan kamera, aplikasi membaca isinya dan menawarkan tindakan yang tepat.</p></li>
+</ol>
+</figure>
 
 Pemindai NFC.cool membaca semua format di atas dan mengarahkannya ke tindakan yang tepat: URL dibuka di browser, vCard menawarkan untuk disimpan, Wi-Fi meminta untuk terhubung, lokasi dibuka di peta. Pemindai juga menyimpan riwayat lokal setiap pemindaian, yang berguna saat Anda sudah memindai 30 menu di konferensi dan ingin mengunjungi kembali salah satunya.
 

@@ -26,6 +26,13 @@ NFC.cool 的二维码生成器把上述这些全都覆盖了。下面就来看�
 
 ## Wi-Fi 凭据
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="NFC.cool Tools 的 Wi-Fi 二维码表单：网络名称、密码、认证方式 WPA/WPA2 和隐藏网络"><p><strong>填好网络信息。</strong>名称、密码和加密类型。</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="生成好的 Wi-Fi 二维码，标题为 Guest WiFi，可用 QR Code Studio 美化"><p><strong>分享二维码。</strong>客人扫一下就能连上，不用输入。</p></li>
+</ol>
+</figure>
+
 用标准的 `WIFI:T:WPA;S:...;P:...;;` 格式编码一个 SSID、密码和安全类型（WPA2、WPA3、开放）。iOS、Android 和现代的 Windows 都能识别这个格式，并提示你加入网络。
 
 把它印在客房里的一张小卡片上，贴在路由器背面，或者用胶带粘在咖啡馆的墙上。客人一扫、加入、搞定，再也不用敲那串 24 位的密码了。
@@ -71,6 +78,12 @@ URL 之外最常见的选择。编码一张完整的 vCard（姓名、电话、�
 ---
 
 ## 在扫描这一侧
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="NFC.cool Tools 的二维码扫描器，在一张印刷卡片上找到了二维码，并显示 Finish 按钮"><p><strong>扫描。</strong>对准相机，App 读出内容并给出合适的操作。</p></li>
+</ol>
+</figure>
 
 NFC.cool 的扫描器能读取以上任意一种格式，并把它们引导到正确的操作上：URL 在浏览器里打开，vCard 提示保存，Wi-Fi 提示连接，位置在地图里打开。它还会在本地保留每一次扫描的历史记录，当你在一场会议上扫了 30 份菜单、之后想回头再看某一份时，这就很有用了。
 

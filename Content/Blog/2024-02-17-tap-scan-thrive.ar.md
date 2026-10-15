@@ -26,6 +26,13 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 
 ## بيانات اعتماد Wi-Fi
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="نموذج رمز QR للـWi-Fi في NFC.cool Tools: اسم الشبكة وكلمة المرور والمصادقة WPA/WPA2 والشبكة المخفية"><p><strong>املأ بيانات الشبكة.</strong> الاسم وكلمة المرور ونوع الحماية.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="رمز QR الجاهز للـWi-Fi بعنوان Guest WiFi، مع QR Code Studio لتنسيقه"><p><strong>شارك الرمز.</strong> يمسحه الضيوف ويتصلون، دون كتابة أي شيء.</p></li>
+</ol>
+</figure>
+
 رمّز SSID وكلمة المرور ونوع الحماية (WPA2 أو WPA3 أو مفتوح) بالصيغة القياسية `WIFI:T:WPA;S:...;P:...;;`. يتعرّف كل من iOS وAndroid وأنظمة Windows الحديثة على هذه الصيغة ويطلب الانضمام.
 
 اطبع هذا على بطاقة صغيرة في غرفة ضيوفك. الصقه على ظهر الراوتر. ثبّته على الجدار في مقهى. يمسح الضيوف، وينضمّون، وانتهى الأمر - دون كتابة كلمات مرور من ٢٤ حرفًا.
@@ -71,6 +78,12 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 ---
 
 ## في جانب المسح
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="ماسح QR في NFC.cool Tools وقد وجد رمزًا على بطاقة مطبوعة، مع زر Finish"><p><strong>المسح.</strong> وجّه الكاميرا، فيقرأ التطبيق المحتوى ويقترح الإجراء المناسب.</p></li>
+</ol>
+</figure>
 
 يقرأ ماسح NFC.cool أيًا من الصيغ أعلاه ويوجّهها إلى الإجراء الصحيح: الروابط تُفتح في المتصفح، وبطاقات vCard تعرض الحفظ، وWi-Fi يطلب الاتصال، والمواقع تُفتح في الخرائط. كما يحتفظ بسجل محلي لكل عملية مسح، وهو أمر مفيد حين تكون قد مسحت ٣٠ قائمة طعام في مؤتمر وتريد الرجوع إلى إحداها.
 

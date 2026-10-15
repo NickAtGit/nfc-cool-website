@@ -26,6 +26,13 @@ Temel durum. `https://ornek.com` kodla, herhangi bir kamerayla tara, cihaz açma
 
 ## Wi-Fi bilgileri
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="NFC.cool Tools'taki Wi-Fi QR formu: ağ adı, parola, WPA/WPA2 kimlik doğrulama ve gizli ağ"><p><strong>Ağı gir.</strong> Ad, parola ve güvenlik türü.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="Guest WiFi başlıklı hazır Wi-Fi QR kodu; biçimlendirmek için QR Code Studio ile"><p><strong>Kodu paylaş.</strong> Misafirler tarar ve bağlanır, yazmak yok.</p></li>
+</ol>
+</figure>
+
 Ağ adını, parolayı ve güvenlik türünü (WPA2, WPA3, açık) standart `WIFI:T:WPA;S:...;P:...;;` biçiminde kodla. iOS, Android ve modern Windows bu biçimi tanıyıp ağa katılmayı öneriyor.
 
 Bunu misafir odandaki küçük bir karta bastır. Modemin arkasına yapıştır. Kafede duvara bantla. Misafirler tarar, katılır, biter; 24 karakterlik parolayı yazmaya gerek kalmaz.
@@ -71,6 +78,12 @@ Bazı uygulamalar özel adres şemaları (`myapp://...`) kaydeder ve bunlarla ko
 ---
 
 ## Tarama tarafında
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="NFC.cool Tools'taki QR tarayıcı; basılı bir kartta bulunan kod ve Finish düğmesi"><p><strong>Tarama.</strong> Kamerayı tut, uygulama içeriği okur ve doğru eylemi önerir.</p></li>
+</ol>
+</figure>
 
 NFC.cool'un tarayıcısı yukarıdaki biçimlerin hepsini okur ve doğru eyleme yönlendirir: adresler tarayıcıda açılır, vCard'lar kaydetmeyi önerir, Wi-Fi bağlanmayı sorar, konumlar haritada açılır. Ayrıca her taramanın yerel geçmişini tutar; bir konferansta 30 menü okuttuysan ve birine geri dönmek istiyorsan bu çok işe yarar.
 

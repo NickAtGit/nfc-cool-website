@@ -26,6 +26,13 @@ NFC.coolのQRジェネレーターはそれらすべてをカバーします。�
 
 ## Wi-Fi認証情報
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="NFC.cool ToolsのWi-Fi QRフォーム。ネットワーク名、パスワード、認証方式WPA/WPA2、非公開ネットワーク"><p><strong>ネットワークを入力。</strong>名前、パスワード、セキュリティの種類。</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="完成したWi-Fi QRコード。タイトルはGuest WiFiで、デザイン用のQR Code Studio付き"><p><strong>コードを共有。</strong>ゲストはスキャンするだけで接続。入力は不要です。</p></li>
+</ol>
+</figure>
+
 SSID、パスワード、セキュリティタイプ（WPA2、WPA3、オープン）を標準形式`WIFI:T:WPA;S:...;P:...;;`でエンコード。iOS、Android、最新のWindowsが形式を認識し、接続を提案します。
 
 これをゲストルームの小さなカードに印刷。ルーターの裏に貼る。カフェの壁にテープで貼る。ゲストはスキャンして接続、完了 - 24文字のパスワードを入力する必要なし。
@@ -71,6 +78,12 @@ NFC.cool Business Cardのフローとのトレードオフ：vCard QRは更新�
 ---
 
 ## スキャン側
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="NFC.cool ToolsのQRスキャナー。印刷されたカードのコードを検出し、Finishボタンを表示"><p><strong>スキャン。</strong>カメラを向ければ、アプリが中身を読み取り、合ったアクションを提案します。</p></li>
+</ol>
+</figure>
 
 NFC.coolのスキャナーは上記の任意の形式を読み、適切なアクションにルーティングします：URLはブラウザで開き、vCardは保存を提案し、Wi-Fiは接続を促し、位置情報はマップで開きます。各スキャンのローカル履歴も保持します - カンファレンスで30枚のメニューをスキャンして1つを見直したい時に便利です。
 
