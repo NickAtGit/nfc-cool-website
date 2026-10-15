@@ -32,6 +32,15 @@ ogDescription: "只有在家里沿着路线把 NFC 标签挨个扫一遍，NFC �
 
 没错，它真的管用。这条路线确实能把我从床上拽起来，以前用过的闹钟可没有一个做到过。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>三枚标签连成的路线</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC.cool Tools 的 NFC Alarm，有两个闹钟：工作日 7:00 的 Wake up，3 枚标签，已开启；9:30 的 Weekend，2 枚标签，已关闭"><p><strong>设定闹钟。</strong>像普通闹钟一样，选好时间和日期。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Edit alarm，周一到周五，按顺序关闭闹钟的标签：Bedside、Hallway 和 Coffee machine"><p><strong>布好路线。</strong>按你要走的顺序扫描标签。它们靠芯片 ID 识别，不会写入任何内容。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="响铃中的闹钟：Wake up，7:00，已扫 3 枚中的 1 枚，下一枚是 Hallway，下方有 Scan tags 和 Emergency stop"><p><strong>走着关掉。</strong>床头已完成，接下来是走廊，咖啡机在终点等着。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 那个去不掉的停止按钮

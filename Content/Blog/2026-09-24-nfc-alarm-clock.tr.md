@@ -32,6 +32,15 @@ Sıralama önemli. Tag'leri istediğin sırayla okutabilseydin üçünü de komo
 
 Ve evet, işe yarıyor. Bu parkur beni yataktan kaldırıyor; daha önce kullandığım hiçbir alarm için bunu söyleyemem.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Üç tag'lik bir rota</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC.cool Tools'ta NFC Alarm ve iki alarm: hafta içi 3 tag'li 7.00 Wake up, açık; 2 tag'li 9.30 Weekend, kapalı"><p><strong>Alarmı kur.</strong> Diğer alarmlar gibi saati ve günleri seç.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Pazartesiden cumaya Edit alarm; onu sırayla kapatan tag'ler: Bedside, Hallway ve Coffee machine"><p><strong>Rotayı çiz.</strong> Tag'lerini yürüyeceğin sırayla okut. Çip kimlikleriyle tanınırlar, hiçbir şey yazılmaz.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="Çalan alarm: Wake up, 7.00, 3'te 1 okutuldu, sıradaki Hallway; Scan tags ve Emergency stop ile"><p><strong>Yürüyerek kapat.</strong> Yatak başı tamam, sırada koridor var, kahve makinesi en sonda bekliyor.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Kaldıramadığım Durdur düğmesi

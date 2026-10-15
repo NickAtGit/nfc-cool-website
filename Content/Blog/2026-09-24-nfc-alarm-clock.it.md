@@ -32,6 +32,15 @@ L'ordine conta. Se i tag si potessero scansionare in un ordine qualsiasi, baster
 
 E sì, funziona. Il percorso mi tira giù dal letto, e non posso dire lo stesso di nessuna delle sveglie che ho avuto prima.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Un percorso di tre tag</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC Alarm in NFC.cool Tools con due sveglie: 7:00 Wake up nei giorni feriali con 3 tag, attiva, e 9:30 Weekend con 2 tag, disattivata"><p><strong>Imposta la sveglia.</strong> Scegli l'ora e i giorni, come per qualsiasi altra sveglia.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Edit alarm, dal lunedì al venerdì, con i tag che la spengono in ordine: Bedside, Hallway e Coffee machine"><p><strong>Traccia il percorso.</strong> Scansiona i tag nell'ordine in cui li incontrerai. Vengono riconosciuti dall'ID del chip, non si scrive nulla.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="La sveglia che suona: Wake up, 7:00, 1 di 3 scansionati, il prossimo è Hallway, con Scan tags ed Emergency stop"><p><strong>Spegnila camminando.</strong> Il comodino è fatto, il corridoio è il prossimo e la macchina del caffè aspetta alla fine.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Il pulsante Interrompi che non potevo togliere

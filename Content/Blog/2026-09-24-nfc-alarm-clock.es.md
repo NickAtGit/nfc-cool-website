@@ -32,6 +32,15 @@ El orden importa. Si las etiquetas se pudieran escanear en cualquier orden, podr
 
 Y sí, funciona. El recorrido me saca de la cama, y eso no lo había conseguido ninguna alarma hasta ahora.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Un recorrido de tres etiquetas</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC Alarm en NFC.cool Tools con dos alarmas: 7:00 Wake up entre semana con 3 etiquetas, activada, y 9:30 Weekend con 2 etiquetas, desactivada"><p><strong>Pon la alarma.</strong> Elige la hora y los días, como con cualquier otra alarma.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Edit alarm, de lunes a viernes, con las etiquetas que la apagan por orden: Bedside, Hallway y Coffee machine"><p><strong>Traza el recorrido.</strong> Escanea las etiquetas en el orden en que vas a recorrerlas. Se reconocen por el ID del chip, no se escribe nada.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="La alarma sonando: Wake up, 7:00, 1 de 3 escaneadas, la siguiente Hallway, con Scan tags y Emergency stop"><p><strong>Apágala andando.</strong> La mesilla ya está, el pasillo es la siguiente y la cafetera espera al final.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## El botón Detener que no pude quitar

@@ -32,6 +32,15 @@ L'ordre compte. Si l'on pouvait scanner les tags dans n'importe quel ordre, il s
 
 Et oui, ça marche. Ce parcours me sort du lit, ce qu'aucun de mes réveils précédents n'avait jamais vraiment réussi.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Un parcours de trois tags</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC Alarm dans NFC.cool Tools avec deux alarmes : 7:00 Wake up en semaine avec 3 tags, activée, et 9:30 Weekend avec 2 tags, désactivée"><p><strong>Réglez l'alarme.</strong> Choisissez l'heure et les jours, comme pour n'importe quelle alarme.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Edit alarm, du lundi au vendredi, avec les tags qui l'arrêtent dans l'ordre : Bedside, Hallway et Coffee machine"><p><strong>Tracez le parcours.</strong> Scannez vos tags dans l'ordre où vous les croiserez. Ils sont reconnus par leur identifiant de puce, rien n'y est écrit.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="L'alarme qui sonne : Wake up, 7:00, 1 sur 3 scanné, ensuite Hallway, avec Scan tags et Emergency stop"><p><strong>Arrêtez-la en marchant.</strong> La table de chevet est faite, le couloir est le suivant, la machine à café attend au bout.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Le bouton Arrêter que je ne pouvais pas supprimer

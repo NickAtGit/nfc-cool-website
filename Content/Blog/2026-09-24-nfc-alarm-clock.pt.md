@@ -32,6 +32,15 @@ A ordem conta. Se desse para ler as tags por qualquer ordem, bastava deixá-las 
 
 E sim, funciona. O percurso tira-me mesmo da cama, coisa que nenhum despertador que tive até hoje conseguiu.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Um caminho de três tags</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="O NFC Alarm no NFC.cool Tools com dois alarmes: 7:00 Wake up nos dias úteis com 3 tags, ligado, e 9:30 Weekend com 2 tags, desligado"><p><strong>Defina o alarme.</strong> Escolha a hora e os dias, como em qualquer outro alarme.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Edit alarm, de segunda a sexta, com as tags que o desligam por ordem: Bedside, Hallway e Coffee machine"><p><strong>Trace o caminho.</strong> Leia as tags pela ordem em que vai passar por elas. São reconhecidas pelo ID do chip, nada é escrito.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="O alarme a tocar: Wake up, 7:00, 1 de 3 lidas, a seguir Hallway, com Scan tags e Emergency stop"><p><strong>Desligue-o a andar.</strong> A cabeceira já está, o corredor é a seguir e a máquina do café espera no fim.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## O botão Parar que não consegui tirar

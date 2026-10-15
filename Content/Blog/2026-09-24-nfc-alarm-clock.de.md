@@ -32,6 +32,15 @@ Die Reihenfolge ist wichtig. Könnte man die Tags beliebig scannen, würden alle
 
 Und ja, es funktioniert. Die Route bringt mich aus dem Bett, und das hat bisher noch kein Wecker geschafft.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Eine Spur aus drei Tags</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC Alarm in NFC.cool Tools mit zwei Weckern: 7:00 Wake up an Werktagen mit 3 Tags, eingeschaltet, und 9:30 Weekend mit 2 Tags, ausgeschaltet"><p><strong>Wecker stellen.</strong> Uhrzeit und Tage wählen, wie bei jedem anderen Wecker.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Edit alarm, Montag bis Freitag, mit den Tags, die ihn der Reihe nach ausschalten: Bedside, Hallway und Coffee machine"><p><strong>Die Spur legen.</strong> Scanne deine Tags in der Reihenfolge, in der du sie ablaufen wirst. Erkannt werden sie an ihrer Chip-ID, geschrieben wird nichts.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="Der klingelnde Wecker: Wake up, 7:00, 1 von 3 gescannt, als Nächstes Hallway, mit Scan tags und Emergency stop"><p><strong>Aus dem Bett laufen.</strong> Das Bett ist erledigt, der Flur kommt als Nächstes, die Kaffeemaschine wartet am Ende.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Die Stoppen-Taste, die ich nicht loswurde

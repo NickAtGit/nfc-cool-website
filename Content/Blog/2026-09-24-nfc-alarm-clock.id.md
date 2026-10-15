@@ -32,6 +32,15 @@ Urutannya penting. Kalau tag bisa dipindai dalam urutan bebas, Anda cukup menaru
 
 Dan ya, cara ini berhasil. Rute tag itu benar-benar membuat saya bangun, sesuatu yang tidak pernah berhasil dilakukan alarm mana pun yang pernah saya pakai.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Jejak tiga tag</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC Alarm di NFC.cool Tools dengan dua alarm: 7.00 Wake up di hari kerja dengan 3 tag, menyala, dan 9.30 Weekend dengan 2 tag, mati"><p><strong>Atur alarmnya.</strong> Pilih jam dan harinya, seperti alarm lain.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Edit alarm, Senin sampai Jumat, dengan tag yang mematikannya secara berurutan: Bedside, Hallway, dan Coffee machine"><p><strong>Buat jejaknya.</strong> Pindai tag sesuai urutan Anda akan melewatinya. Tag dikenali dari ID chip-nya, tidak ada yang ditulis.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="Alarm yang berbunyi: Wake up, 7.00, 1 dari 3 terpindai, berikutnya Hallway, dengan Scan tags dan Emergency stop"><p><strong>Matikan sambil berjalan.</strong> Samping tempat tidur selesai, lorong berikutnya, dan mesin kopi menunggu di akhir.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Tombol Hentikan yang tidak bisa saya singkirkan

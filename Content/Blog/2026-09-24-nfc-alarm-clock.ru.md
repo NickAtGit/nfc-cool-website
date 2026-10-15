@@ -32,6 +32,15 @@ ogDescription: "NFC-будильник замолкает, только когд
 
 И да, это работает. Маршрут меня поднимает, а ни один из моих прежних будильников этим похвастаться не мог.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Маршрут из трёх меток</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC Alarm в NFC.cool Tools с двумя будильниками: 7:00 Wake up по будням с 3 метками, включён, и 9:30 Weekend с 2 метками, выключен"><p><strong>Заведи будильник.</strong> Выбери время и дни, как у любого будильника.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Edit alarm, с понедельника по пятницу, с метками, которые выключают его по порядку: Bedside, Hallway и Coffee machine"><p><strong>Проложи маршрут.</strong> Сканируй метки в том порядке, в каком будешь их обходить. Их узнают по ID чипа, на них ничего не пишется.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="Звонящий будильник: Wake up, 7:00, отсканирована 1 из 3, следующая Hallway, внизу Scan tags и Emergency stop"><p><strong>Выключи на ходу.</strong> Тумбочка пройдена, дальше коридор, а в конце ждёт кофемашина.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Кнопка «Стоп», которую нельзя убрать

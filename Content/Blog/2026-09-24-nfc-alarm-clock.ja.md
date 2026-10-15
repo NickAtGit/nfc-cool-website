@@ -32,6 +32,15 @@ ogDescription: "家じゅうのNFCタグをたどらないと鳴りやまない�
 
 そして、ちゃんと効きます。この道順のおかげで、私は毎朝起きられています。これまでのどの目覚ましにも、そんなことは言えませんでした。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>3つのタグでつくる道すじ</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC.cool ToolsのNFC Alarm。7:00 AMのWake up（平日、タグ3つ、オン）と9:30 AMのWeekend（タグ2つ、オフ）"><p><strong>アラームを設定。</strong>ほかのアラームと同じく、時刻と曜日を選びます。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Edit alarm。月曜から金曜。止めるためのタグを順番にBedside、Hallway、Coffee machine"><p><strong>道すじをつくる。</strong>歩く順番にタグをスキャンします。チップIDで識別するので、何も書き込みません。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="鳴っているアラーム。Wake up、7:00 AM、3つ中1つ完了、次はHallway。Scan tagsとEmergency stop"><p><strong>歩いて止める。</strong>ベッドは完了、次は廊下、最後にコーヒーマシンが待っています。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 消せなかった「停止」ボタン

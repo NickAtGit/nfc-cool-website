@@ -32,6 +32,15 @@ The order matters. If you could scan the tags in any order, you could keep all t
 
 And yes, it works. The trail gets me up, which is more than I can say for any alarm I had before.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>A Trail of Three Tags</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC Alarm in NFC.cool Tools with two alarms: 7:00 AM Wake up on weekdays with 3 tags, switched on, and 9:30 AM Weekend with 2 tags, switched off"><p><strong>Set the alarm.</strong> Pick a time and the days, like any other alarm.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="Edit alarm, Monday to Friday, with the tags that switch it off in order: Bedside, Hallway and Coffee machine"><p><strong>Lay the trail.</strong> Scan your tags in the order you'll walk them. They're known by their chip ID, nothing is written.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="The alarm ringing: Wake up, 7:00 AM, 1 of 3 scanned, next Hallway, with Scan tags and Emergency stop"><p><strong>Walk it off.</strong> Bedside is done, the hallway is next, and the coffee machine waits at the end.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## The Stop button I couldn't remove

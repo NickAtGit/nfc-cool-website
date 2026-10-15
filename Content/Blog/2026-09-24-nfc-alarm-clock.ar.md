@@ -32,6 +32,15 @@ ogDescription: "منبه NFC لا يسكت إلا بعد أن تمشي على م
 
 ونعم، الفكرة تنجح. المسار يُخرجني من السرير، وهذا ما لم يفلح فيه أي منبه جرّبته من قبل.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>مسار من ثلاثة وسوم</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/1-alarms-440w.webp" alt="NFC Alarm في NFC.cool Tools مع منبّهين: ٧:٠٠ صباحًا Wake up أيام العمل بثلاثة وسوم ومفعّل، و٩:٣٠ صباحًا Weekend بوسمين ومتوقف"><p><strong>اضبط المنبّه.</strong> اختر الوقت والأيام، كأي منبّه آخر.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/2-trail-440w.webp" alt="شاشة Edit alarm من الاثنين إلى الجمعة، مع الوسوم التي توقفه بالترتيب: Bedside وHallway وCoffee machine"><p><strong>ارسم المسار.</strong> امسح وسومك بالترتيب الذي ستمشي فيه. تُعرف من معرّف الرقاقة، ولا يُكتب عليها شيء.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-alarm-clock/3-ringing-440w.webp" alt="المنبّه وهو يرن: Wake up، ٧:٠٠ صباحًا، تم مسح ١ من ٣، والتالي Hallway، مع Scan tags وEmergency stop"><p><strong>أوقفه وأنت تمشي.</strong> انتهى وسم السرير، والممر هو التالي، وآلة القهوة تنتظر في النهاية.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## زر «إيقاف» الذي لم أستطع التخلّص منه
