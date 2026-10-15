@@ -143,6 +143,13 @@ NFC-мітка складається з невеликого пасивного
 
 ## Як зчитувати NFC-мітки
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="Вкладка NFC у NFC.cool Tools з кнопками Read NFC і Write NFC"><p><strong>Зчитування через застосунок.</strong> Натисни Read NFC і піднеси мітку до верхнього краю iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="Зчитана мітка в NFC.cool Tools: запис візитки Anna Miller, а під ним вихідна vCard"><p><strong>Увесь вміст мітки.</strong> Кожен запис на мітці, а не лише посилання, яке показала б iOS.</p></li>
+</ol>
+</figure>
+
 ### На iPhone
 
 iPhone працює з мітками сам. На **iPhone XS і новіших** (а також на iPhone SE третього покоління) зчитування NFC іде у фоні: піднеси верхній край телефона до мітки, і вона зчитається миттєво, без жодного застосунку. Старішим iPhone (7, 8, X) спершу потрібен відкритий застосунок-зчитувач.

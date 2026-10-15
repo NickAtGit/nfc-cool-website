@@ -143,6 +143,13 @@ When you write a tag in an app like NFC.cool Tools, you're creating NDEF records
 
 ## Reading NFC Tags
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="The NFC tab in NFC.cool Tools with the Read NFC and Write NFC buttons"><p><strong>Read with an app.</strong> Tap Read NFC and hold the tag to the top of your iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="A read tag in NFC.cool Tools: a business card record for Anna Miller, with the raw vCard below"><p><strong>See everything on it.</strong> Every record on the tag, not just the link iOS would show.</p></li>
+</ol>
+</figure>
+
 ### On iPhone
 
 iPhones handle tags automatically. On **iPhone XS and later** (and the 3rd-gen iPhone SE), NFC reading runs in the background - hold the top of the phone near a tag and it reads instantly, no app needed. Older iPhones (7, 8, X) need you to open an NFC reader app first.

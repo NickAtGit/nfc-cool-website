@@ -143,6 +143,13 @@ Cuando grabas una etiqueta en una app como NFC.cool Tools, estás creando regist
 
 ## Leer etiquetas NFC
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="La pestaña NFC de NFC.cool Tools con los botones Read NFC y Write NFC"><p><strong>Leer con una app.</strong> Toca Read NFC y acerca la etiqueta a la parte superior del iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="Una etiqueta leída en NFC.cool Tools: un registro de tarjeta de visita de Anna Miller, con el vCard en bruto debajo"><p><strong>Mira todo lo que lleva.</strong> Cada registro de la etiqueta, no solo el enlace que mostraría iOS.</p></li>
+</ol>
+</figure>
+
 ### En iPhone
 
 Los iPhones gestionan las etiquetas de forma automática. En el **iPhone XS en adelante** (y en el iPhone SE de 3.ª generación), la lectura NFC funciona en segundo plano - acerca la parte superior del móvil a una etiqueta y la lee al instante, sin necesidad de abrir ninguna app. Los iPhones más antiguos (7, 8, X) necesitan que abras primero una app de lectura NFC.

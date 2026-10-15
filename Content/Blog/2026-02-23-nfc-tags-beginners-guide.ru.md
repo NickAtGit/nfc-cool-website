@@ -143,6 +143,13 @@ NFC на самом деле входит в RFID, то есть в радиоч
 
 ## Чтение NFC-меток
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="Вкладка NFC в NFC.cool Tools с кнопками Read NFC и Write NFC"><p><strong>Чтение через приложение.</strong> Нажми Read NFC и поднеси метку к верхнему краю iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="Считанная метка в NFC.cool Tools: запись визитки Anna Miller, а под ней исходная vCard"><p><strong>Всё содержимое метки.</strong> Каждая запись на метке, а не только ссылка, которую показала бы iOS.</p></li>
+</ol>
+</figure>
+
 ### На iPhone
 
 iPhone работает с метками сам. На **iPhone XS и новее** (а также на iPhone SE третьего поколения) чтение NFC идёт в фоне: подносишь верх телефона к метке, и она считывается мгновенно, без приложения. Старым iPhone (7, 8, X) нужно сначала открыть приложение для чтения NFC.
