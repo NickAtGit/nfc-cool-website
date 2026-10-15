@@ -23,6 +23,12 @@ ogDescription: "NFCタップカウンター向けの、すぐ使えるiOSショ�
 
 ## タグがあなたに渡してくるもの
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="NFC.cool ToolsのTap Counter設定。内容はURL、Try it out、NFC Tap CounterとNFC Tag IDのスイッチがオン"><p><strong>Tap Counterの設定。</strong>内容の種類と、何を付け足すかを決める2つのスイッチ。</p></li>
+</ol>
+</figure>
+
 ショートカットの話に入る前に、それらが実際に何を受け取るかを軽くおさらいしておきます。使い方の理解に関わるからです。
 
 タップカウンターの設定画面で、タグが配信する種類を選びます。URL、メール、SMS、またはショートカットです。タップカウンターやタグIDのスイッチをオンにすると、アプリはその内容の中にプレースホルダのバイト列を埋め込み、チップは読み取りごとにそれをライブの値で置き換えます。タグIDを`049F50824F1390`、カウントを`000007`とすると、4つの種類は最終的にこんな見た目になります。

@@ -23,6 +23,12 @@ Ben de iki kısayol hazırladım ve iCloud bağlantısı olarak paylaşıyorum. 
 
 ## Tag sana ne veriyor
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="NFC.cool Tools'ta Tap Counter kurulumu: içerik olarak bir URL, Try it out ve açık NFC Tap Counter ile NFC Tag ID anahtarları"><p><strong>Tap Counter kurulumu.</strong> İçerik türü ve neyin ekleneceğini belirleyen iki anahtar.</p></li>
+</ol>
+</figure>
+
 Kısayollardan önce, tam olarak neyi aldıklarına dair kısa bir hatırlatma; nasıl kullanacağın buna bağlı.
 
 Okutma Sayacı kurulum ekranında tag için bir içerik türü seçiyorsun: URL, E-posta, SMS ya da Kısayol. Okutma Sayacı ve Tag Kimliği anahtarlarını açtığında uygulama o içeriğin içine yer tutucu baytlar gömüyor ve çip bunları her okumada anlık değerlerle değiştiriyor. Tag kimliği olarak `049F50824F1390`, sayı olarak `000007` alırsak dört içerik türü şöyle görünüyor:

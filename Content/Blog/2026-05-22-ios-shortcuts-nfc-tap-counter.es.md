@@ -23,6 +23,12 @@ Así que construí dos atajos y los comparto como enlaces de iCloud. Uno es el c
 
 ## Lo que la etiqueta te entrega
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="La configuración del Tap Counter en NFC.cool Tools: una URL como contenido, Try it out, y los interruptores NFC Tap Counter y NFC Tag ID activados"><p><strong>La configuración del Tap Counter.</strong> El tipo de contenido y los dos interruptores que deciden qué se añade.</p></li>
+</ol>
+</figure>
+
 Antes de los atajos: un repaso rápido de lo que reciben en realidad, porque importa para cómo los usas.
 
 En la pantalla de configuración del contador de toques eliges un tipo de contenido para la etiqueta: URL, correo, SMS o atajo. Cuando activas las opciones de contador de toques y/o ID de etiqueta, la app inserta bytes de marcador de posición dentro de ese contenido, y el chip los intercambia por los valores en vivo en cada lectura. Usando `049F50824F1390` como ID de etiqueta y `000007` como recuento, los cuatro tipos de contenido quedan así:

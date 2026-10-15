@@ -23,6 +23,12 @@ Alors j'ai créé deux raccourcis et je les partage sous forme de liens iCloud. 
 
 ## Ce que le tag vous donne
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="La configuration du Tap Counter dans NFC.cool Tools : une URL comme contenu, Try it out, et les interrupteurs NFC Tap Counter et NFC Tag ID activés"><p><strong>La configuration du Tap Counter.</strong> Le type de contenu, et les deux interrupteurs qui décident de ce qui est ajouté.</p></li>
+</ol>
+</figure>
+
 Avant les raccourcis : un rapide rappel de ce qu'ils reçoivent réellement, parce que ça compte pour la façon dont vous les utilisez.
 
 Dans l'écran de configuration du Tap Counter, vous choisissez un type de contenu pour le tag : URL, Email, SMS ou Shortcut. Quand vous activez les options Tap Counter et / ou Tag ID, l'app insère des octets réservés dans ce contenu, et la puce les remplace par les valeurs en direct à chaque lecture. Avec `049F50824F1390` comme identifiant de tag et `000007` comme compteur, les quatre types de contenu ressemblent à ceci :

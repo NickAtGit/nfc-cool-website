@@ -23,6 +23,12 @@ ogDescription: "面向 NFC 轻触计数器的拿来即用 iOS 快捷指令：一
 
 ## 标签递给你的是什么
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="NFC.cool Tools 的 Tap Counter 设置：内容为 URL、Try it out，以及已打开的 NFC Tap Counter 和 NFC Tag ID 开关"><p><strong>Tap Counter 设置。</strong>内容类型，加上决定追加什么的两个开关。</p></li>
+</ol>
+</figure>
+
 在讲快捷指令之前，先快速回顾一下它们实际收到的是什么，因为这关系到你怎么用它们。
 
 在轻触计数器的设置界面里，你为标签选择一种内容类型：URL、Email、SMS 或 Shortcut。当你打开轻触计数器和/或标签 ID 开关时，App 会在那段内容里嵌入占位字节，芯片则在每次读取时把它们替换成实时值。以 `049F50824F1390` 作为标签 ID、`000007` 作为计数，这四种内容类型最终长这样：

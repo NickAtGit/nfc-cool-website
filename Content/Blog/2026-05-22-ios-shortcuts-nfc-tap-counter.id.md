@@ -23,6 +23,12 @@ Jadi saya membuat dua Shortcut dan membagikannya sebagai tautan iCloud. Satu ada
 
 ## Apa yang diberikan tag kepada Anda
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="Pengaturan Tap Counter di NFC.cool Tools: URL sebagai isi, Try it out, serta sakelar NFC Tap Counter dan NFC Tag ID yang menyala"><p><strong>Pengaturan Tap Counter.</strong> Jenis isi, plus dua sakelar yang menentukan apa yang ditambahkan.</p></li>
+</ol>
+</figure>
+
 Sebelum shortcut: penyegaran singkat tentang apa yang sebenarnya diterima, karena ini penting untuk cara Anda menggunakannya.
 
 Di layar pengaturan Tap Counter, Anda memilih jenis konten untuk tag: URL, Email, SMS, atau Shortcut. Ketika Anda mengaktifkan tombol Tap Counter dan/atau Tag ID, aplikasi menyematkan byte placeholder ke dalam konten yang Anda tulis, dan chip menggantinya dengan nilai terkini pada setiap pembacaan. Menggunakan `049F50824F1390` sebagai ID tag dan `000007` sebagai jumlah, keempat jenis konten akan terlihat seperti ini:

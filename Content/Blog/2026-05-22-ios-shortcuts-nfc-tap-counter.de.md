@@ -23,6 +23,12 @@ Also habe ich zwei Kurzbefehle gebaut und stelle sie als iCloud-Links bereit. Ei
 
 ## Was der Tag dir überhaupt übergibt
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="Die Einrichtung des Tap Counters in NFC.cool Tools: eine URL als Inhalt, Try it out, und die eingeschalteten Schalter NFC Tap Counter und NFC Tag ID"><p><strong>Die Einrichtung des Tap Counters.</strong> Der Inhaltstyp und die zwei Schalter, die bestimmen, was angehängt wird.</p></li>
+</ol>
+</figure>
+
 Bevor es an die Kurzbefehle geht, kurz zur Erinnerung, was bei ihnen eigentlich ankommt. Davon hängt nämlich ab, wie du sie einsetzt.
 
 Im Einrichtungsbildschirm des Tap-Zählers legst du fest, welchen Inhalt der Tag bekommt: URL, E-Mail, SMS oder Kurzbefehl. Schaltest du Tap-Zähler und/oder Tag-ID ein, bettet die App Platzhalter-Bytes in diesen Inhalt ein, und der Chip tauscht sie bei jedem Lesevorgang gegen die aktuellen Werte aus. Mit `049F50824F1390` als Tag-ID und `000007` als Zählerstand sehen die vier Inhaltstypen hinterher so aus:

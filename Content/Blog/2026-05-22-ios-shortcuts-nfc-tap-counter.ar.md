@@ -23,6 +23,12 @@ ogDescription: "اختصارات iOS جاهزة للاستخدام لـNFC Tap C
 
 ## ما الذي يسلّمه إليك الوسم
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="إعداد Tap Counter في NFC.cool Tools: رابط كمحتوى، وTry it out، ومفتاحا NFC Tap Counter وNFC Tag ID مفعّلان"><p><strong>إعداد Tap Counter.</strong> نوع المحتوى، والمفتاحان اللذان يحدّدان ما يُضاف.</p></li>
+</ol>
+</figure>
+
 قبل الاختصارات: تذكير سريع بما تتلقّاه فعليًا، لأن ذلك مهم لكيفية استخدامها.
 
 في شاشة إعداد Tap Counter تختار نوع محتوى للوسم: URL أو Email أو SMS أو Shortcut. وعند تفعيل مفتاحَي Tap Counter و/أو Tag ID، يُضمّن التطبيق بايتات نائبة داخل ذلك المحتوى، وتستبدل بها الشريحة القيمَ الحيّة في كل قراءة. وباستخدام `049F50824F1390` كمعرّف للوسم و`000007` كعدّاد، تبدو أنواع المحتوى الأربعة على النحو التالي:

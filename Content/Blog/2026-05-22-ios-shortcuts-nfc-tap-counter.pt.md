@@ -23,6 +23,12 @@ Por isso construí dois Atalhos e estou a partilhá-los como ligações iCloud. 
 
 ## O Que a Tag Lhe Entrega
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/setup-440w.webp" alt="A configuração do Tap Counter no NFC.cool Tools: um URL como conteúdo, Try it out, e os interruptores NFC Tap Counter e NFC Tag ID ligados"><p><strong>A configuração do Tap Counter.</strong> O tipo de conteúdo e os dois interruptores que decidem o que é acrescentado.</p></li>
+</ol>
+</figure>
+
 Antes dos atalhos: uma revisão rápida do que eles recebem de facto, porque isso importa para a forma como os usa.
 
 No ecrã de configuração do Contador de Toques, escolhe um tipo de conteúdo para a tag: URL, Email, SMS ou Atalho. Quando ativa as opções Contador de Toques e/ou ID da Tag, a aplicação insere bytes marcadores de posição dentro desse conteúdo, e o chip troca-os pelos valores ao vivo a cada leitura. Usando `049F50824F1390` como ID da tag e `000007` como contagem, os quatro tipos de conteúdo acabam por ficar assim:
