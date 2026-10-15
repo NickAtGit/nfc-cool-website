@@ -106,6 +106,12 @@ Sekiz uygulamanın tek bakışta özeti:
 
 ## Ayrıntılı incelemeler
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/best-digital-business-card-apps-2026/nfc-cool-card-440w.webp" alt="Alıcının gördüğü haliyle NFC.cool Business Card'tan bir kart: Clearwater Coaching'den Ayo Adeyemi; Website, TikTok, Threads ve Instagram bağlantıları ve Save Contact düğmesiyle"><p><strong>NFC.cool Business Card.</strong> iPhone'da App Clip, alıcının dilinde, senin renklerin ve logonla.</p></li>
+</ol>
+</figure>
+
 ### 1. NFC.cool Business Card: gizlilik ve çok dilli profesyoneller için en iyisi
 
 **Nedir:** 9 milyondan fazla indirmeye ulaşan 13 NFC ve yardımcı uygulamanın arkasındaki bağımsız stüdyo NFC.cool'un dijital kartvizit uygulaması. iOS ve [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-tr) sürümlerinde ayrı bir uygulama olarak sunuluyor.

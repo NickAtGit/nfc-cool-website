@@ -106,6 +106,12 @@ ogDescription: "8つのデジタル名刺アプリを正直に徹底比較 - 料
 
 ## 詳細レビュー
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/best-digital-business-card-apps-2026/nfc-cool-card-440w.webp" alt="受け取った人から見たNFC.cool Business Cardのカード。Clearwater CoachingのAyo Adeyemi。Website、TikTok、Threads、InstagramのリンクとSave Contactボタン"><p><strong>NFC.cool Business Card。</strong>iPhoneではApp Clipで、相手の言語で、あなたの色とロゴのまま表示されます。</p></li>
+</ol>
+</figure>
+
 ### 1. NFC.cool Business Card - プライバシーと多言語対応のベスト
 
 **概要：** NFC.coolのデジタル名刺アプリ。NFC.coolは900万ダウンロード以上を誇る13のNFC・ユーティリティアプリを手がけるインディースタジオです。iOSでも[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-ja)でも、スタンドアロンアプリとして利用できます。

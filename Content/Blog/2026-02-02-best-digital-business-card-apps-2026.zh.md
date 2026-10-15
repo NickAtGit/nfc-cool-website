@@ -106,6 +106,12 @@ ogDescription: "一份诚实、详尽的 8 款电子名片应用对比：附价�
 
 ## 详细评测
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/best-digital-business-card-apps-2026/nfc-cool-card-440w.webp" alt="对方看到的 NFC.cool Business Card 名片：Clearwater Coaching 的 Ayo Adeyemi，带 Website、TikTok、Threads、Instagram 链接和 Save Contact 按钮"><p><strong>NFC.cool Business Card。</strong>iPhone 上是 App Clip，用对方的语言显示，保留你的配色和 Logo。</p></li>
+</ol>
+</figure>
+
 ### 1. NFC.cool Business Card：最适合注重隐私和多语言的专业人士
 
 **它是什么：** 来自 NFC.cool 的电子名片应用。NFC.cool 是一家独立工作室，旗下有 13 款 NFC 与工具类应用，下载量超过 900 万。它在 iOS 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en) 上都作为独立应用提供。
