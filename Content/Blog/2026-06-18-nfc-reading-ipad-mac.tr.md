@@ -65,7 +65,7 @@ Bunlar Amazon ortaklık bağlantıları: birinden alışveriş yaparsan sana ek 
 
 <figure class="phone-figure" data-layout="float" data-device="mac">
 <ol>
-<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="Yanında harici bir USB NFC okuyucu olan bir MacBook; ekranda NFC.cool'un My NFC Messages'ı"><p><strong>Mac'te de.</strong> Okuyucuyu Mac'ine tak, okuduğun her tag My NFC Messages'a düşer.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="Yanında harici bir USB NFC okuyucu olan bir MacBook; ekranda NFC.cool'un My NFC Messages'ı"><p><strong>Mac'te de.</strong> Okuyucuyu Mac'ine tak, okuduğun her tag My NFC Messages'a düşer.</p></li>
 </ol>
 </figure>
 

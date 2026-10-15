@@ -65,7 +65,7 @@ ogDescription: "В iPad или Mac нет чипа NFC? С внешним USB-с
 
 <figure class="phone-figure" data-layout="float" data-device="mac">
 <ol>
-<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="MacBook с внешним USB-считывателем NFC рядом, на экране My NFC Messages из NFC.cool"><p><strong>И на Mac.</strong> Подключи считыватель к Mac, и каждая считанная метка попадёт в My NFC Messages.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="MacBook с внешним USB-считывателем NFC рядом, на экране My NFC Messages из NFC.cool"><p><strong>И на Mac.</strong> Подключи считыватель к Mac, и каждая считанная метка попадёт в My NFC Messages.</p></li>
 </ol>
 </figure>
 

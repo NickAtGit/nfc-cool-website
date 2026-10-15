@@ -65,7 +65,7 @@ Those are Amazon affiliate links: if you buy through one I may earn a small comm
 
 <figure class="phone-figure" data-layout="float" data-device="mac">
 <ol>
-<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="A MacBook with an external USB NFC reader on the desk beside it, showing NFC.cool's My NFC Messages"><p><strong>On a Mac, too.</strong> Plug the reader into your Mac, and every tag you read lands in My NFC Messages.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="A MacBook with an external USB NFC reader on the desk beside it, showing NFC.cool's My NFC Messages"><p><strong>On a Mac, too.</strong> Plug the reader into your Mac, and every tag you read lands in My NFC Messages.</p></li>
 </ol>
 </figure>
 

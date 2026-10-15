@@ -65,7 +65,7 @@ Itu adalah tautan afiliasi Amazon: jika Anda membeli melalui salah satunya, saya
 
 <figure class="phone-figure" data-layout="float" data-device="mac">
 <ol>
-<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="MacBook dengan pembaca NFC USB eksternal di sampingnya, menampilkan My NFC Messages di NFC.cool"><p><strong>Di Mac juga.</strong> Sambungkan pembaca ke Mac Anda, dan setiap tag yang Anda baca masuk ke My NFC Messages.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="MacBook dengan pembaca NFC USB eksternal di sampingnya, menampilkan My NFC Messages di NFC.cool"><p><strong>Di Mac juga.</strong> Sambungkan pembaca ke Mac Anda, dan setiap tag yang Anda baca masuk ke My NFC Messages.</p></li>
 </ol>
 </figure>
 

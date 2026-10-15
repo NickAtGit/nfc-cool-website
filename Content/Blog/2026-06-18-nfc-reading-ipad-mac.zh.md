@@ -65,7 +65,7 @@ ogDescription: "你的 iPad 或 Mac 里没有 NFC 芯片？配上一个外接 US
 
 <figure class="phone-figure" data-layout="float" data-device="mac">
 <ol>
-<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="一台旁边放着外置 USB NFC 读卡器的 MacBook，屏幕上是 NFC.cool 的 My NFC Messages"><p><strong>Mac 上也一样。</strong>把读卡器接到 Mac 上，读到的每枚标签都会进入 My NFC Messages。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="一台旁边放着外置 USB NFC 读卡器的 MacBook，屏幕上是 NFC.cool 的 My NFC Messages"><p><strong>Mac 上也一样。</strong>把读卡器接到 Mac 上，读到的每枚标签都会进入 My NFC Messages。</p></li>
 </ol>
 </figure>
 

@@ -65,7 +65,7 @@ ogDescription: "В iPad чи Mac немає модуля NFC? Із зовніш�
 
 <figure class="phone-figure" data-layout="float" data-device="mac">
 <ol>
-<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="MacBook із зовнішнім USB-зчитувачем NFC поруч, на екрані My NFC Messages із NFC.cool"><p><strong>І на Mac.</strong> Підключи зчитувач до Mac, і кожна зчитана мітка потрапить у My NFC Messages.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="MacBook із зовнішнім USB-зчитувачем NFC поруч, на екрані My NFC Messages із NFC.cool"><p><strong>І на Mac.</strong> Підключи зчитувач до Mac, і кожна зчитана мітка потрапить у My NFC Messages.</p></li>
 </ol>
 </figure>
 

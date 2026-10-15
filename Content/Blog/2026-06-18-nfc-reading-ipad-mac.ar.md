@@ -65,7 +65,7 @@ ogDescription: "لا توجد شريحة NFC في جهاز iPad أو Mac لدي�
 
 <figure class="phone-figure" data-layout="float" data-device="mac">
 <ol>
-<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="جهاز MacBook وبجواره قارئ NFC خارجي عبر USB، يعرض My NFC Messages في NFC.cool"><p><strong>على Mac أيضًا.</strong> صِل القارئ بجهاز Mac، وكل وسم تقرؤه ينتهي في My NFC Messages.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="جهاز MacBook وبجواره قارئ NFC خارجي عبر USB، يعرض My NFC Messages في NFC.cool"><p><strong>على Mac أيضًا.</strong> صِل القارئ بجهاز Mac، وكل وسم تقرؤه ينتهي في My NFC Messages.</p></li>
 </ol>
 </figure>
 

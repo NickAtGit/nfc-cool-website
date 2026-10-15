@@ -65,7 +65,7 @@ ogDescription: "iPadやMacにNFCチップがない？外付けUSBリーダーが
 
 <figure class="phone-figure" data-layout="float" data-device="mac">
 <ol>
-<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="横に外付けUSB NFCリーダーを置いたMacBook。画面にNFC.coolのMy NFC Messages"><p><strong>Macでも。</strong>リーダーをMacにつなげば、読み取ったタグはすべてMy NFC Messagesに入ります。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="横に外付けUSB NFCリーダーを置いたMacBook。画面にNFC.coolのMy NFC Messages"><p><strong>Macでも。</strong>リーダーをMacにつなげば、読み取ったタグはすべてMy NFC Messagesに入ります。</p></li>
 </ol>
 </figure>
 

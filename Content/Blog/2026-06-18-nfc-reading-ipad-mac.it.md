@@ -65,7 +65,7 @@ Quelli sono link di affiliazione Amazon: se acquisti passando da lì posso ricev
 
 <figure class="phone-figure" data-layout="float" data-device="mac">
 <ol>
-<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-800w.webp" alt="Un MacBook con un lettore NFC USB esterno accanto, che mostra My NFC Messages di NFC.cool"><p><strong>Anche su Mac.</strong> Collega il lettore al Mac, e ogni tag letto finisce in My NFC Messages.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="Un MacBook con un lettore NFC USB esterno accanto, che mostra My NFC Messages di NFC.cool"><p><strong>Anche su Mac.</strong> Collega il lettore al Mac, e ogni tag letto finisce in My NFC Messages.</p></li>
 </ol>
 </figure>
 
