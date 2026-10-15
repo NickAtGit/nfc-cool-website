@@ -1,34 +1,24 @@
 # Confronto tra i piani per /it/business-card/. Generato da PricingTableRenderer tramite
 # il token {{PRICING_TABLE:business-card}} in Content/Pages/business-card.it.md.
-columns: ["Free", "Personal", "Small Business", "Business"]
+columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Prezzo"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "**$99,99**"]
+    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 a persona al mese, o $50 all'anno"]
   - label: "Biglietti"
-    values: ["1", "1", "10", "100"]
-  - label: "Visualizzazione del profilo"
+    values: ["1", "1", "10", "Uno per persona"]
+  - label: "Condivisione, Apple Wallet, Modalità Conferenza, PIN, esportazione dei dati"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Salvataggio della vCard"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Raccolta contatti"
+  - label: "Acquisizione lead"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Statistiche"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Logo personalizzato"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Condivisione NFC e QR"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Apple Wallet"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Google Wallet"
-    values: ["soon", "soon", "soon", "soon"]
-  - label: "Modalità Conferenza"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Protezione con PIN"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Notifiche in tempo reale"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Esportazione dei dati (GDPR)"
-    values: ["✓", "✓", "✓", "✓"]
-  - label: "Ideale per"
-    values: ["Provare", "Professionisti singoli", "Piccoli team", "Aziende in crescita"]
+  - label: "Brand aziendale"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Console di amministrazione"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Casella condivisa dei lead"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Dove acquistare"
+    values: ["Nell'app", "Nell'app", "Nell'app", "Sul web, 14 giorni di prova"]

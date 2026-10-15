@@ -1,7 +1,7 @@
 ---
 title: "Application de carte de visite numérique pour iPhone et Android"
 slug: "business-card"
-description: "Un créateur de carte de visite numérique pour iPhone et Android. Partagez d'un simple geste : NFC, QR code, AppClip ou Apple Wallet. Voyez qui enregistre votre carte et activez le mode conférence lors de vos événements."
+description: "Un créateur de carte de visite numérique pour iPhone et Android. Partagez d'un simple geste : NFC, code QR, AppClip ou Apple Wallet. Voyez combien de personnes enregistrent votre carte et activez le mode Conférence lors de vos événements."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,16 +13,18 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos coordonnées d'un simple geste - NFC ou QR code, et sur iPhone également AppClip ou Apple Wallet - et voyez qui enregistre vraiment votre carte.
+Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste, par NFC ou code QR, et sur iPhone aussi avec App Clip et Apple Wallet, et voyez combien de personnes enregistrent votre carte.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Télécharger dans l'App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-fr&mt=8" class="landing-store-button is-apple" aria-label="Télécharger dans l'App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Télécharger dans l'App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" class="landing-store-button is-google" aria-label="Disponible sur Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-fr" class="landing-store-button is-google" aria-label="Disponible sur Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Disponible sur Google Play" width="173" height="52"/>
 </a>
 </div>
+
+<p class="page-hero-team-link">Des cartes pour une équipe ? <a href="https://mycard.nfc.cool/org/start/">Créer une équipe</a></p>
 
 </div>
 
@@ -41,33 +43,33 @@ Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos 
 <div class="page-cards-grid">
 
 <article class="page-card">
-<h3>Génération de leads bidirectionnelle</h3>
-<p>Quand quelqu'un reçoit votre carte, il peut se reconnecter à vous - chaque partage devient un lead suivi, avec un statut : Nouveau → Contacté → Qualifié → Converti.</p>
+<h3>Génération de prospects bidirectionnelle</h3>
+<p>Quand quelqu'un reçoit votre carte, il peut vous envoyer ses coordonnées en retour. Chaque partage devient un prospect que vous suivez de Nouveau à Contacté, Qualifié puis Converti.</p>
 </article>
 
 <article class="page-card">
-<h3>Jusqu'à 100 cartes</h3>
-<p>Gérez des cartes distinctes pour différents rôles, marques ou événements. Passez de l'une à l'autre d'un seul geste. Idéal pour les petites équipes et les entreprises en croissance.</p>
+<h3>Une carte ou dix</h3>
+<p>Plusieurs rôles, marques ou événements ? Avec Pro, une personne a jusqu'à 10 cartes et passe de l'une à l'autre d'un geste.</p>
 </article>
 
 <article class="page-card">
 <h3>Statistiques en temps réel</h3>
-<p>Vues de profil, enregistrements de contact et conversions de leads, détaillés par jour, semaine et mois - pour savoir vraiment quels événements fonctionnent.</p>
+<p>Vues de profil, enregistrements de contact et prospects par jour, semaine et mois, pour savoir quels événements fonctionnent.</p>
 </article>
 
 <article class="page-card">
 <h3>Une confidentialité que vous maîtrisez</h3>
-<p>Profils publics et consultables, ou cartes privées protégées par code PIN. Export de vos données conforme au RGPD (ZIP) à tout moment. Le suivi se limite à des chiffres, jamais à des identités.</p>
+<p>Profils publics ou cartes privées protégées par code PIN. Exportez toutes vos données au format ZIP à tout moment. Le suivi compte les vues, jamais les identités.</p>
 </article>
 
 <article class="page-card">
 <h3>Une apparence professionnelle</h3>
-<p>Logos pour les modes clair et sombre, couleurs personnalisées pour l'arrière-plan, la bordure et les tuiles. La carte s'adapte automatiquement au réglage d'apparence de votre destinataire.</p>
+<p>Logos pour les modes clair et sombre, couleurs d'arrière-plan, de bordure et de tuile personnalisées. La carte suit le mode clair ou sombre de la personne qui la consulte.</p>
 </article>
 
 <article class="page-card">
-<h3>Écologique</h3>
-<p>Une carte numérique remplace une pile de cartes papier. Modifiez-la quand vous voulez - chaque changement s'applique immédiatement, sans réimpression ni gaspillage.</p>
+<h3>Prêt pour votre équipe</h3>
+<p>Donnez à chacun une carte aux couleurs de votre entreprise, avec une seule boîte de réception pour tous les prospects. <a href="#teams">Ce que les équipes ajoutent</a>.</p>
 </article>
 
 </div>
@@ -94,7 +96,7 @@ Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos 
 <h3>Cartes de visite intelligentes</h3>
 <ul>
 <li><strong>Création de cartes numériques</strong> - créez des cartes à l'image de votre marque</li>
-<li><strong>Jusqu'à 100 cartes</strong> - pour différents rôles, occasions ou collègues</li>
+<li><strong>Jusqu'à 10 cartes avec Pro</strong> - pour différents rôles, marques ou événements</li>
 <li><strong>Import depuis Contacts</strong> - transformez n'importe quel contact existant en carte</li>
 <li><strong>Toujours à jour</strong> - les modifications s'appliquent aussitôt, sans réimpression</li>
 </ul>
@@ -110,12 +112,12 @@ Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos 
 </article>
 
 <article class="page-card">
-<h3>Génération de leads et réseautage</h3>
+<h3>Génération de prospects et réseautage</h3>
 <ul>
-<li><strong>Formulaires de capture de leads</strong> - recueillez les coordonnées de vos interlocuteurs</li>
+<li><strong>Formulaires de capture de prospects</strong> - recueillez les coordonnées de vos interlocuteurs</li>
 <li><strong>Suivi de statut</strong> - Nouveau → Contacté → Qualifié → Converti → Archivé</li>
 <li><strong>Notifications en temps réel</strong> - une notification push instantanée dès que quelqu'un se connecte</li>
-<li><strong>Calendrier et Rappels</strong> - planifiez vos relances directement depuis un lead</li>
+<li><strong>Calendrier et Rappels</strong> - planifiez vos relances directement depuis un prospect</li>
 </ul>
 </article>
 
@@ -123,7 +125,7 @@ Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos 
 <h3>Statistiques</h3>
 <ul>
 <li><strong>Vues de profil</strong> - sachez exactement combien de personnes ont ouvert votre carte</li>
-<li><strong>Enregistrements de contact</strong> - suivez qui vous a ajouté à son téléphone</li>
+<li><strong>Enregistrements de contact</strong> - suivez combien de personnes vous ont ajouté à leur téléphone</li>
 <li><strong>Détail par jour / semaine / mois</strong> dans le tableau de bord</li>
 <li><strong>Analyse des tendances</strong> - comprenez l'évolution de votre réseau dans le temps</li>
 </ul>
@@ -143,19 +145,19 @@ Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos 
 <h3>Partage et connectivité</h3>
 <ul>
 <li><strong>Réseaux sociaux</strong> - Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord et plus encore</li>
-<li><strong>NFC, QR, URL personnalisée</strong> - trois modes de partage, un geste chacun</li>
-<li><strong>AppClip</strong> - vos interlocuteurs voient votre carte sans rien installer (iOS)</li>
+<li><strong>NFC, code QR, URL personnalisée</strong> - trois modes de partage, un geste chacun</li>
+<li><strong>App Clip</strong> - vos interlocuteurs voient votre carte sans rien installer (iOS)</li>
 <li><strong>Multiplateforme</strong> - fonctionne sur iOS et Android</li>
 </ul>
 </article>
 
 <article class="page-card">
-<h3>Mode conférence</h3>
+<h3>Mode Conférence</h3>
 <ul>
-<li><strong>QR sur l'écran de verrouillage</strong> - le QR code de votre carte épinglé à l'écran de verrouillage du téléphone, pour que chacun puisse le scanner sans déverrouiller</li>
+<li><strong>Code QR sur l'écran de verrouillage</strong> - le code QR de votre carte épinglé à l'écran de verrouillage du téléphone, pour que chacun puisse le scanner sans déverrouiller</li>
 <li><strong>Reste 8 heures</strong> - couvre une journée entière d'événement, puis disparaît tout seul</li>
 <li><strong>Sans ouvrir l'app</strong> - tendez simplement le téléphone, on scanne, c'est fait</li>
-<li><strong>iPhone et Android</strong> - le même mode conférence sur les deux</li>
+<li><strong>iPhone et Android</strong> - le même mode Conférence sur les deux</li>
 </ul>
 </article>
 
@@ -167,8 +169,26 @@ Un créateur de carte de visite numérique pour iPhone et Android. Partagez vos 
 
 ## Tarifs
 
-Choisissez la formule adaptée à votre rythme de réseautage. Toutes les formules payantes incluent l'enregistrement vCard, la génération de leads, les statistiques et le partage illimité.
+Une personne ou toute une équipe. Personal et Pro s'achètent dans l'app ; les équipes démarrent sur le web avec 14 jours d'essai.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
+
+</section>
+
+<section class="page-section" id="teams">
+
+## Ce que les équipes ajoutent
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>Une marque, verrouillée</h3><p>Chaque carte porte votre logo, vos couleurs et vos intitulés de poste, et personne ne peut s'écarter de la marque.</p></article>
+<article class="page-card"><h3>Les cartes restent dans l'entreprise</h3><p>Quand quelqu'un part, sa carte et les prospects qu'il a collectés restent dans l'équipe.</p></article>
+<article class="page-card"><h3>Une seule boîte de réception pour tous les prospects</h3><p>Tout ce que l'équipe collecte au même endroit, attribué à la bonne personne, avec statut et notes.</p></article>
+<article class="page-card"><h3>Relancer, puis connecter</h3><p>Des e-mails de relance basés sur des modèles, et des webhooks vers Zapier, Make ou votre propre système.</p></article>
+<article class="page-card"><h3>Gérez tout depuis le web</h3><p>Une console d'administration avec des rôles (propriétaire, administrateur, responsable, facturation), des invitations par e-mail et une facturation par place.</p></article>
+<article class="page-card"><h3>Votre domaine, votre pass Wallet</h3><p>Des liens de carte sur votre propre domaine et des pass Apple Wallet aux couleurs de votre équipe.</p></article>
+<article class="page-card"><h3>Connectez votre assistant IA</h3><p>Donnez à un assistant IA les prospects de votre équipe pour les lire, les étiqueter et les relancer, via la connexion MCP de NFC.cool.</p></article>
+</div>
+
+<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Démarrer l'essai de 14 jours</a></p>
 
 </section>
