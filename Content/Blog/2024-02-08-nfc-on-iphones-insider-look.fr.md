@@ -42,6 +42,12 @@ Quand vous approchez votre téléphone d'un autocollant NFC sur une affiche, les
 
 ## NDEF : la lingua franca
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-on-iphones-insider-look/ndef-record-440w.webp" alt="Un enregistrement de carte de visite lu dans NFC.cool Tools, avec le contenu vCard brut en dessous : BEGIN:VCARD, VERSION:3.0, N et FN pour Anna Miller"><p><strong>Un enregistrement NDEF, ouvert.</strong> Un enregistrement de contact tel que NFC.cool l'affiche, avec la vCard brute en dessous.</p></li>
+</ol>
+</figure>
+
 La couche de données au-dessus de la radio NFC, c'est le **NDEF** - NFC Data Exchange Format. Je le décris comme un petit format d'enregistrement auto-descriptif : un tag contient un ou plusieurs enregistrements, et chaque enregistrement a un type (URI, texte, vCard, identifiants Wi-Fi, MIME personnalisé) et une charge utile.
 
 Tous les téléphones compatibles NFC de la planète parlent NDEF, et c'est pour ça qu'un tag programmé sur un appareil Android se lira sans problème sur un iPhone, et inversement. C'est l'un des rares endroits du mobile où iOS et Android partagent vraiment une norme, et honnêtement, cette interopérabilité est ce dont je suis le plus reconnaissant quand je développe des fonctionnalités - j'écris pour le format, pas pour une plateforme. Si vous voulez essayer d'écrire vos propres enregistrements, je détaille tout ça dans [comment écrire des tags NFC sur iPhone](/blog/write-nfc-tags-iphone/).

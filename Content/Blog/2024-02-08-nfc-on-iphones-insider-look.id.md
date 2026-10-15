@@ -42,6 +42,12 @@ Ketika Anda mengetuk stiker NFC di poster, peran dibalik. Tag poster bersifat pa
 
 ## NDEF: bahasa universal
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-on-iphones-insider-look/ndef-record-440w.webp" alt="Entri kartu nama yang dibaca di NFC.cool Tools, dengan isi vCard mentah di bawahnya: BEGIN:VCARD, VERSION:3.0, N dan FN untuk Anna Miller"><p><strong>Entri NDEF, dibuka.</strong> Entri kontak seperti yang ditampilkan NFC.cool, dengan vCard mentah di bawahnya.</p></li>
+</ol>
+</figure>
+
 Lapisan data di atas radio NFC adalah **NDEF** - NFC Data Exchange Format. Saya menggambarkannya sebagai format rekaman kecil yang mendeskripsikan dirinya sendiri: sebuah tag membawa satu atau lebih rekaman, dan setiap rekaman memiliki tipe (URI, teks, vCard, kredensial Wi-Fi, MIME khusus) dan muatan.
 
 Setiap ponsel berkemampuan NFC di seluruh dunia berbicara NDEF, itulah mengapa tag yang diprogram di perangkat Android akan terbaca dengan baik di iPhone dan sebaliknya. Ini adalah salah satu dari sedikit tempat di mobile di mana iOS dan Android benar-benar berbagi standar, dan jujur saja interoperabilitas itu adalah hal yang paling saya syukuri saat membangun fitur - saya menulis ke format, bukan ke platform. Jika Anda ingin mencoba menulis rekaman Anda sendiri, saya membahasnya di [cara menulis tag NFC di iPhone](/blog/write-nfc-tags-iphone/).

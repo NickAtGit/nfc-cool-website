@@ -42,6 +42,12 @@ Quando faz um toque num autocolante NFC num cartaz, os papéis invertem-se. A ta
 
 ## NDEF: a língua franca
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-on-iphones-insider-look/ndef-record-440w.webp" alt="Um registo de cartão de visita lido no NFC.cool Tools, com o conteúdo vCard em bruto por baixo: BEGIN:VCARD, VERSION:3.0, N e FN de Anna Miller"><p><strong>Um registo NDEF, aberto.</strong> Um registo de contacto tal como o NFC.cool o mostra, com o vCard em bruto por baixo.</p></li>
+</ol>
+</figure>
+
 A camada de dados por cima do rádio NFC é o **NDEF** - NFC Data Exchange Format. Eu descrevo-o como um pequeno formato de registo autodescritivo: uma tag transporta um ou mais registos, e cada registo tem um tipo (URI, texto, vCard, credenciais Wi-Fi, MIME personalizado) e um conteúdo.
 
 Todos os telemóveis com NFC do planeta falam NDEF, e é por isso que uma tag programada num dispositivo Android é lida sem problemas num iPhone e vice-versa. É um dos poucos sítios no mundo móvel onde o iOS e o Android partilham genuinamente uma norma, e, sinceramente, essa interoperabilidade é a coisa pela qual fico mais grato quando estou a construir funcionalidades - escrevo para o formato, não para uma plataforma. Se quiser experimentar gravar os seus próprios registos, eu explico tudo em [como gravar tags NFC no iPhone](/blog/write-nfc-tags-iphone/).
