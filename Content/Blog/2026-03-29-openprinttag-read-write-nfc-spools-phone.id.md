@@ -82,6 +82,12 @@ Jika Anda membeli tag kosong, cari khusus **ICODE SLIX2** atau **ISO 15693**. An
 
 ## Cara membaca dan menulis OpenPrintTag dengan ponsel Anda
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/openprinttag-read-write-nfc-spools-phone/write-440w.webp" alt="Layar OpenPrintTag di NFC.cool Tools, terisi untuk Northline Filaments PLA Matte, 1,75 mm, Filament (FFF)"><p><strong>Menulis tag gulungan.</strong> Isi detail materialnya, ketuk tombol NFC, lalu tempelkan tag ke ponsel Anda.</p></li>
+</ol>
+</figure>
+
 Anda tidak memerlukan printer Prusa atau perangkat keras khusus apa pun untuk bekerja dengan OpenPrintTag - cukup ponsel Anda. Inilah bagian yang paling ingin saya bangun, karena ponsel di saku Anda adalah pembaca NFC yang paling mudah diakses.
 
 NFC.cool Tools mendukung OpenPrintTag secara native di [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-en), dan saya memastikan fitur ini sepenuhnya gratis.

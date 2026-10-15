@@ -82,6 +82,12 @@ Wenn du leere Tags kaufst, achte gezielt auf **ICODE SLIX2** oder **ISO 15693**.
 
 ## OpenPrintTag-Tags mit dem Handy lesen und beschreiben
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/openprinttag-read-write-nfc-spools-phone/write-440w.webp" alt="Der Bildschirm OpenPrintTag in NFC.cool Tools, ausgefüllt für Northline Filaments PLA Matte, 1,75 mm, Filament (FFF)"><p><strong>Einen Spulen-Tag beschreiben.</strong> Material eintragen, dann auf den NFC-Button tippen und den Tag ans Handy halten.</p></li>
+</ol>
+</figure>
+
 Für OpenPrintTag brauchst du weder einen Prusa-Drucker noch irgendwelche Spezial-Hardware, dein Handy reicht. Genau das wollte ich unbedingt bauen, denn das Handy in der Hosentasche ist der NFC-Reader, den sowieso jeder dabeihat.
 
 NFC.cool Tools unterstützt OpenPrintTag nativ, auf [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-de&mt=8) genauso wie auf [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-de), und ich habe bewusst dafür gesorgt, dass das Feature komplett kostenlos ist.

@@ -82,6 +82,12 @@ Boş tag alacaksan özellikle **ICODE SLIX2** ya da **ISO 15693** ara. Uyumlu ta
 
 ## OpenPrintTag'i telefonunla nasıl okur ve yazarsın
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/openprinttag-read-write-nfc-spools-phone/write-440w.webp" alt="NFC.cool Tools'taki OpenPrintTag ekranı; Northline Filaments PLA Matte, 1,75 mm, Filament (FFF) için doldurulmuş"><p><strong>Bir makara tag'ine yazmak.</strong> Malzeme bilgilerini doldur, NFC düğmesine dokun ve tag'i telefonuna tut.</p></li>
+</ol>
+</figure>
+
 OpenPrintTag ile çalışmak için Prusa yazıcıya ya da özel donanıma ihtiyacın yok, yalnızca telefonuna. Kurmayı en çok istediğim kısım buydu, çünkü cebindeki telefon var olan en erişilebilir NFC okuyucu.
 
 NFC.cool Tools, OpenPrintTag'i hem [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-tr&mt=8) hem [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-tr) tarafında doğrudan destekliyor ve özelliğin tamamen ücretsiz olmasına dikkat ettim.

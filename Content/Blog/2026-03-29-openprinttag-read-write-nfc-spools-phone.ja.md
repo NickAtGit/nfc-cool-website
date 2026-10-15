@@ -82,6 +82,12 @@ Prusament、Voron、Fillamentum、3DXTech、SimplyPrint、PrintedSolidなど、2
 
 ## スマートフォンでOpenPrintTagを読み書きする方法
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/openprinttag-read-write-nfc-spools-phone/write-440w.webp" alt="NFC.cool ToolsのOpenPrintTag画面。Northline FilamentsのPLA Matte、1.75mm、Filament (FFF)と入力済み"><p><strong>スプールのタグに書き込む。</strong>素材の情報を入力し、NFCボタンをタップしてタグをスマホに当てます。</p></li>
+</ol>
+</figure>
+
 OpenPrintTagを使うのにPrusaプリンターや特別なハードウェアは必要ありません。スマートフォンだけでOKです。これは私が最も作りたかった部分です。ポケットの中のスマホは、最も身近に使えるNFCリーダーだからです。
 
 NFC.cool Toolsは[iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-ja&mt=8)と[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-ja)の両方でOpenPrintTagにネイティブ対応しており、私はこの機能を完全無料にしました。

@@ -82,6 +82,12 @@ OpenPrintTag 是一种面向 3D 打印材料的通用、开放数据格式。与
 
 ## 如何用你的手机读取和写入 OpenPrintTag
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/openprinttag-read-write-nfc-spools-phone/write-440w.webp" alt="NFC.cool Tools 的 OpenPrintTag 页面，已填好 Northline Filaments PLA Matte、1.75 mm、Filament (FFF)"><p><strong>写入耗材盘标签。</strong>填好材料信息，轻触 NFC 按钮，再把标签贴到手机上。</p></li>
+</ol>
+</figure>
+
 你不需要一台 Prusa 打印机或任何特殊硬件就能使用 OpenPrintTag，只要你的手机就行。这是我最想打造的部分，因为口袋里的一部手机就是最触手可及的 NFC 读取器。
 
 NFC.cool Tools 在 [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-en) 上都原生支持 OpenPrintTag，而且我确保这项功能完全免费。
