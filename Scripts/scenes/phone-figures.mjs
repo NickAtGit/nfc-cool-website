@@ -334,7 +334,8 @@ async function goLive() {
       },
     };
 
-    // Pointer: hovering leans the phone a little towards the pointer, dragging turns it further,
+    // Pointer: hovering turns the phone to face the pointer (both axes the same way: the point under
+    // the pointer recedes), dragging turns it further as if the screen were grabbed and pulled,
     // and letting go springs it back to rest. Touch never turns it: there, a swipe steps (setUp).
     let drag = null;
     const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
@@ -350,11 +351,11 @@ async function goLive() {
           const dy = event.clientY - drag.y;
           if (Math.hypot(dx, dy) > 4) view.dragged = true;
           yaw.target = clamp(drag.yaw + dx * 0.45, -DRAG_YAW, DRAG_YAW);
-          pitch.target = clamp(drag.pitch - dy * 0.3, -DRAG_PITCH, DRAG_PITCH);
+          pitch.target = clamp(drag.pitch + dy * 0.3, -DRAG_PITCH, DRAG_PITCH);
         } else {
           const p = relative(event);
           yaw.target = rest.yaw + p.x * 2 * HOVER_YAW;
-          pitch.target = rest.pitch - p.y * 2 * HOVER_PITCH;
+          pitch.target = rest.pitch + p.y * 2 * HOVER_PITCH;
         }
         invalidate();
       });
