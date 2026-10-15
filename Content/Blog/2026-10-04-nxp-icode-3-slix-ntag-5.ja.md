@@ -37,6 +37,13 @@ ICODEタグに保存されたリンクやテキストを読み取ること自体
 
 ## NFC.coolでICODE 3にできること
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/1-icode-440w.webp" alt="NFC.cool ToolsのNXP ICODE and NTAG 5画面。Read NFC、Configure from CSV、Help"><p><strong>タグを読み取る。</strong>NXP ICODEとNTAG 5には、NFC.coolに専用の画面があります。</p></li>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/2-details-440w.webp" alt="NFC.cool Toolsで読み取ったNXP ICODE 3。UID、カウンター1284、パスワード保護オフ、NFCミラー有効、OriginalityはGenuine NXP、その下にManageの一覧"><p><strong>すべてがわかる。</strong>チップ、カウンター、ミラー、Genuine NXPの確認、そして変更できる項目の一覧。</p></li>
+</ol>
+</figure>
+
 **ICODE 3**は、このファミリーの中でNXPのいちばん新しいチップで、ICODE SLIX2の後継にあたります。ネットでは「SLIX 3」という名前で売られていることもよくあります。NXPにその名前のチップはないので、商品ページに「SLIX 3」とあれば、それはICODE 3です。
 
 NFC.coolでかざすと、チップの全体像がわかります。どのチップなのか、メモリ、カウンター、そして**正規のNXP**チップかどうか。NXPは工場で一つひとつのチップのIDに署名していて、アプリはその署名を検証します。だから、IDを使い回しただけのコピーでは、署名までは偽れません。

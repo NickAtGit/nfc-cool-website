@@ -37,6 +37,13 @@ ogDescription: "ما الذي تستطيع فعله رقائق NXP المنتش�
 
 ## ما يفعله NFC.cool مع ICODE 3
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/1-icode-440w.webp" alt="شاشة NXP ICODE and NTAG 5 في NFC.cool Tools، مع Read NFC وConfigure from CSV وHelp"><p><strong>اقرأ الوسم.</strong> لـNXP ICODE وNTAG 5 شاشة خاصة في NFC.cool.</p></li>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/2-details-440w.webp" alt="رقاقة NXP ICODE 3 مقروءة في NFC.cool Tools: المعرّف UID، وعدّاد عند ١٢٨٤، وحماية كلمة المرور متوقفة، ومرآة NFC مفعّلة، وOriginality بحالة Genuine NXP، وتحتها قائمة Manage"><p><strong>الصورة الكاملة.</strong> الرقاقة والعدّاد والمرآة وفحص Genuine NXP، ثم كل ما يمكنك تغييره.</p></li>
+</ol>
+</figure>
+
 **ICODE 3** أحدث رقاقة من NXP في هذه العائلة، وخليفة ICODE SLIX2. وكثيرًا ما ستجدها معروضة للبيع على الإنترنت باسم «SLIX 3». لكن NXP لا تصنع رقاقة بهذا الاسم، فإن رأيت إعلانًا يذكر SLIX 3، فهو يقصد ICODE 3.
 
 افتح NFC.cool وقرّب الهاتف من وسم كهذا، فترى الصورة كاملة: أيّ رقاقة هي، وذاكرتها، وعدّادها، وهل هي أصلية، فإن كانت كذلك ظهرت لك **NXP الأصلية**. فـNXP توقّع معرّف كل رقاقة في المصنع، والتطبيق يتحقق من هذا التوقيع، ولذلك لا تستطيع النسخة التي تعيد استخدام المعرّف نفسه أن تزيّفه.

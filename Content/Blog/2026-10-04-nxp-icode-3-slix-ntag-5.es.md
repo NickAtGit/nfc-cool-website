@@ -37,6 +37,13 @@ Leer el enlace o el texto guardado en una etiqueta ICODE nunca fue lo difícil. 
 
 ## Qué hace NFC.cool con una ICODE 3
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/1-icode-440w.webp" alt="La pantalla NXP ICODE and NTAG 5 de NFC.cool Tools, con Read NFC, Configure from CSV y Help"><p><strong>Lee la etiqueta.</strong> NXP ICODE y NTAG 5 tienen su propia pantalla en NFC.cool.</p></li>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/2-details-440w.webp" alt="Un NXP ICODE 3 leído en NFC.cool Tools: su UID, un contador de 1284, la protección por contraseña desactivada, el espejo NFC activado y Originality Genuine NXP, con la lista Manage debajo"><p><strong>La imagen completa.</strong> Chip, contador, espejo y la comprobación Genuine NXP, y después todo lo que puedes cambiar.</p></li>
+</ol>
+</figure>
+
 **ICODE 3** es el chip más reciente de la familia y el sucesor de ICODE SLIX2. En internet lo verás anunciado muchas veces como "SLIX 3". NXP no tiene ningún chip con ese nombre, así que si un anuncio dice SLIX 3, es una ICODE 3.
 
 Escanea una con NFC.cool y lo verás todo: qué chip es, su memoria, su contador y si aparece como **NXP auténtica**. NXP firma en fábrica el ID de cada chip y la app comprueba esa firma, así que una copia que reutilice el ID no puede falsificarla.

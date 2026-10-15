@@ -37,6 +37,13 @@ Lire le lien ou le texte enregistré sur un tag ICODE n'a jamais été le plus d
 
 ## Ce que NFC.cool sait faire avec un ICODE 3
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/1-icode-440w.webp" alt="L'écran NXP ICODE and NTAG 5 de NFC.cool Tools, avec Read NFC, Configure from CSV et Help"><p><strong>Lisez le tag.</strong> NXP ICODE et NTAG 5 ont leur propre écran dans NFC.cool.</p></li>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/2-details-440w.webp" alt="Un NXP ICODE 3 lu dans NFC.cool Tools : son UID, un compteur à 1284, la protection par mot de passe désactivée, le miroir NFC activé et Originality Genuine NXP, avec la liste Manage en dessous"><p><strong>Le tableau complet.</strong> Puce, compteur, miroir et vérification Genuine NXP, puis tout ce que vous pouvez modifier.</p></li>
+</ol>
+</figure>
+
 L'**ICODE 3** est la puce la plus récente de la famille chez NXP, et elle succède à l'ICODE SLIX2. En ligne, on la trouve souvent vendue sous le nom « SLIX 3 ». NXP n'a aucune puce qui porte ce nom : si une annonce parle de SLIX 3, il s'agit d'un ICODE 3.
 
 Scannez-en un avec NFC.cool et vous avez une vue d'ensemble : le modèle exact de la puce, sa mémoire, son compteur, et si c'est une puce **NXP d'origine**. NXP signe l'ID de chaque puce en usine, et l'app vérifie cette signature : une copie qui reprend l'ID ne peut donc pas la falsifier.

@@ -37,6 +37,13 @@ ogDescription: "Что умеют чипы NXP для библиотек и ма
 
 ## Что NFC.cool умеет с меткой ICODE 3
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/1-icode-440w.webp" alt="Экран NXP ICODE and NTAG 5 в NFC.cool Tools с пунктами Read NFC, Configure from CSV и Help"><p><strong>Считай метку.</strong> У NXP ICODE и NTAG 5 в NFC.cool свой экран.</p></li>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/2-details-440w.webp" alt="Считанный NXP ICODE 3 в NFC.cool Tools: UID, счётчик 1284, защита паролем выключена, зеркало NFC включено, Originality показывает Genuine NXP, ниже список Manage"><p><strong>Полная картина.</strong> Чип, счётчик, зеркало и проверка Genuine NXP, а ниже всё, что можно изменить.</p></li>
+</ol>
+</figure>
+
 **ICODE 3** появился в семействе NXP последним и пришёл на смену ICODE SLIX2. В интернет-магазинах его часто продают под названием «SLIX 3». Чипа с таким именем у NXP нет, так что если в объявлении написано SLIX 3, перед тобой ICODE 3.
 
 Открой NFC.cool, поднеси iPhone к такой метке, и увидишь полную картину: что за чип перед тобой, сколько у него памяти, что на счётчике и получил ли он отметку **Оригинальный NXP**. NXP ещё на заводе подписывает идентификатор каждого чипа, а приложение проверяет эту подпись, так что копия с тем же идентификатором её не подделает.

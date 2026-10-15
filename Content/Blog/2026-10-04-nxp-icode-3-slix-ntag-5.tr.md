@@ -37,6 +37,13 @@ ICODE tag'deki bağlantıyı ya da metni okumak hiçbir zaman işin zor kısmı 
 
 ## NFC.cool'un ICODE 3 ile yapabildikleri
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/1-icode-440w.webp" alt="NFC.cool Tools'taki NXP ICODE and NTAG 5 ekranı; Read NFC, Configure from CSV ve Help ile"><p><strong>Tag'i oku.</strong> NXP ICODE ve NTAG 5'in NFC.cool'da kendi ekranı var.</p></li>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/2-details-440w.webp" alt="NFC.cool Tools'ta okunmuş bir NXP ICODE 3: UID, 1284'teki sayaç, kapalı parola koruması, açık NFC aynası ve Genuine NXP diyen Originality; altında Manage listesi"><p><strong>Tam tablo.</strong> Çip, sayaç, ayna ve Genuine NXP kontrolü, ardından değiştirebileceğin her şey.</p></li>
+</ol>
+</figure>
+
 **ICODE 3**, NXP'nin bu ailedeki en yeni çipi ve ICODE SLIX2'nin yerini alıyor. İnternette sık sık "SLIX 3" adıyla satıldığını görürsün. NXP'nin bu adda bir çipi yok; yani bir ilanda SLIX 3 yazıyorsa o çip aslında ICODE 3.
 
 Birini NFC.cool ile okut, uygulama her şeyi önüne sersin: hangi çip olduğu, belleği, sayacı ve çipin **Orijinal NXP** olup olmadığı. NXP her çipin kimlik numarasını fabrikada imzalıyor, uygulama da bu imzayı kontrol ediyor. Böylece aynı kimlik numarasını kullanan bir kopya bu imzayı taklit edemiyor.

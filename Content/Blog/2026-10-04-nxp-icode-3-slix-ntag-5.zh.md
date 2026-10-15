@@ -37,6 +37,13 @@ ogDescription: "NXP 这些常见于图书馆和商店的芯片能做什么，以
 
 ## NFC.cool 能拿 ICODE 3 做什么
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/1-icode-440w.webp" alt="NFC.cool Tools 的 NXP ICODE and NTAG 5 页面，有 Read NFC、Configure from CSV 和 Help"><p><strong>读取标签。</strong>NXP ICODE 和 NTAG 5 在 NFC.cool 里有专门的页面。</p></li>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/2-details-440w.webp" alt="NFC.cool Tools 读取的 NXP ICODE 3：UID、计数 1284、密码保护关闭、NFC 镜像开启，Originality 显示 Genuine NXP，下方是 Manage 列表"><p><strong>一目了然。</strong>芯片、计数、镜像和 Genuine NXP 校验，下面是所有可以修改的设置。</p></li>
+</ol>
+</figure>
+
 **ICODE 3** 是 NXP 这个家族里最新的芯片，也是 ICODE SLIX2 的继任者。网上常有人把它当成“SLIX 3”来卖。NXP 并没有叫这个名字的芯片，所以如果商品页上写着 SLIX 3，那其实就是 ICODE 3。
 
 用 NFC.cool 轻触一枚，你就能看到全貌：它是哪款芯片、内存多大、计数器读数多少，以及它是不是**原装 NXP** 芯片。NXP 在出厂时会给每枚芯片的 ID 签名，App 会核验这个签名，所以就算仿品照抄了 ID，这个签名它也伪造不了。

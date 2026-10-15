@@ -37,6 +37,13 @@ Membaca tautan atau teks yang tersimpan di tag ICODE tidak pernah jadi masalah. 
 
 ## Apa yang bisa dilakukan NFC.cool dengan ICODE 3
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/1-icode-440w.webp" alt="Layar NXP ICODE and NTAG 5 di NFC.cool Tools, dengan Read NFC, Configure from CSV, dan Help"><p><strong>Baca tag-nya.</strong> NXP ICODE dan NTAG 5 punya layar sendiri di NFC.cool.</p></li>
+<li><img src="/assets/images/Blog/screens/nxp-icode-3-slix-ntag-5/2-details-440w.webp" alt="NXP ICODE 3 yang dibaca di NFC.cool Tools: UID, penghitung 1284, proteksi kata sandi mati, NFC mirror aktif, dan Originality Genuine NXP, dengan daftar Manage di bawahnya"><p><strong>Gambaran lengkap.</strong> Chip, penghitung, mirror, dan pemeriksaan Genuine NXP, lalu semua yang bisa Anda ubah.</p></li>
+</ol>
+</figure>
+
 **ICODE 3** adalah chip terbaru NXP di keluarga ini sekaligus penerus ICODE SLIX2. Di toko online, chip ini sering dijual dengan nama "SLIX 3". NXP tidak punya chip dengan nama itu, jadi kalau sebuah iklan menyebut SLIX 3, yang dimaksud adalah ICODE 3.
 
 Pindai salah satunya dengan NFC.cool, dan Anda langsung mendapat gambaran lengkapnya: chip apa itu, memorinya, penghitungnya, dan apakah chip itu **NXP Asli**. NXP menandatangani ID setiap chip di pabrik, dan aplikasi memeriksa tanda tangan itu, sehingga salinan yang memakai ulang ID yang sama tidak bisa memalsukannya.
