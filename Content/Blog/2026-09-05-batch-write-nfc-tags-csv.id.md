@@ -124,6 +124,15 @@ Begitu file dipilih, aplikasi menampilkan apa yang terdeteksi: pemisahnya, jumla
 
 Buka **Pratinjau Batch** untuk melihat setiap tag beserta record yang akan diterimanya. Yang Anda lihat di sana persis sama dengan yang akan ditulis.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Impor dan pratinjau</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="CSV Batch Write di NFC.cool Tools, dengan Help, Import CSV, dan file team-links.csv yang sudah diimpor"><p><strong>Impor CSV.</strong> Pilih file Anda. Aplikasi bekerja dengan salinannya sendiri.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="Konfigurasi batch: pemisah koma, dikelompokkan per baris, 2 kolom, 24 tag NFC dibutuhkan, dan 49 byte per tag NFC"><p><strong>Periksa angkanya.</strong> Bytes per NFC tag adalah angka yang dibandingkan dengan tag Anda.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview: tag 1 sampai 4, masing-masing berisi 2 entri, tautan tim dan alamat email, serta Start Writing"><p><strong>Pratinjau, lalu tulis.</strong> Persis apa yang akan didapat setiap tag, sebelum tag pertama ditulis.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Langkah 5: Tulis setumpuk tagnya

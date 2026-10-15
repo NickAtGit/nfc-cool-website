@@ -124,6 +124,15 @@ Assim que o ficheiro está selecionado, a aplicação mostra o que detetou: o de
 
 Abra a **Pré-visualização do lote** para ver cada tag com os registos que vai receber. O que vê ali é exatamente o que vai ser gravado.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Importar e pré-visualizar</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="O CSV Batch Write no NFC.cool Tools, com Help, Import CSV e o ficheiro importado team-links.csv"><p><strong>Importe o CSV.</strong> Escolha o ficheiro. A app trabalha numa cópia própria.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="A configuração do lote: delimitador vírgula, agrupado por linhas, 2 colunas, 24 tags NFC necessárias e 49 bytes por tag NFC"><p><strong>Confira os números.</strong> Bytes per NFC tag é o valor a comparar com as suas tags.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview: tags 1 a 4, cada uma com 2 registos, um link da equipa e um endereço de email, e Start Writing"><p><strong>Pré-visualize e escreva.</strong> Exatamente o que cada tag vai receber, antes de escrever a primeira.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Passo 5: grave a pilha toda

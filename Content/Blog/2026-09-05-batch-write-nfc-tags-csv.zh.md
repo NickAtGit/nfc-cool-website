@@ -124,6 +124,15 @@ App 会自己复制一份文件。写标签的过程中，被移除的是这份�
 
 打开**批次预览**，能看到每一枚标签和它将要写入的记录。那里显示的是什么，写进去的就是什么。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>导入并预览</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="NFC.cool Tools 的 CSV Batch Write，有 Help、Import CSV 和已导入的 team-links.csv"><p><strong>导入 CSV。</strong>选择你的文件，App 会在自己的副本上操作。</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="批量配置：分隔符为逗号，按行分组，2 列，需要 24 枚 NFC 标签，每枚标签 49 字节"><p><strong>核对数字。</strong>要和你的标签对比的，就是 Bytes per NFC tag 这一项。</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview：标签 1 到 4，每枚 2 条记录，一个团队链接和一个邮箱地址，下方是 Start Writing"><p><strong>先预览，再写入。</strong>写第一枚之前，就能看到每枚标签会写入的确切内容。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 第五步：把这一叠标签写完

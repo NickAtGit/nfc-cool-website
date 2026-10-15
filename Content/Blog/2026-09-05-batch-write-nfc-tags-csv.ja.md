@@ -124,6 +124,15 @@ NFC.cool ToolsでNFCツールの画面を開き、**バッチモード**の中�
 
 **バッチプレビュー**を開くと、各タグに入るレコードを一枚ずつ確認できます。そこに見えているものが、そのまま書き込まれます。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>インポートとプレビュー</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="NFC.cool ToolsのCSV Batch Write。Help、Import CSV、インポート済みのteam-links.csv"><p><strong>CSVをインポート。</strong>ファイルを選びます。アプリは自分用のコピーで作業します。</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="バッチ設定。区切り文字はカンマ、行ごとにグループ化、2列、必要なNFCタグ24枚、NFCタグあたり49バイト"><p><strong>数字を確認。</strong>手持ちのタグと比べるのは、Bytes per NFC tagの値です。</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview。タグ1から4、それぞれチームのリンクとメールアドレスの2レコード、そしてStart Writing"><p><strong>プレビューしてから書き込み。</strong>最初のタグに書き込む前に、各タグに入る内容がそのまま見えます。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## ステップ5：タグの山を書き込む

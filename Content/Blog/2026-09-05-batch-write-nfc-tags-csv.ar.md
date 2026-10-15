@@ -124,6 +124,15 @@ https://example.com/ben,tel:+4915198765432
 
 افتح **معاينة الدُفعات** لترى كل وسم مع السجلات التي سيحصل عليها. ما تراه هناك هو بالضبط ما سيُكتب.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>الاستيراد والمعاينة</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="CSV Batch Write في NFC.cool Tools، مع Help وImport CSV والملف المستورد team-links.csv"><p><strong>استورد ملف CSV.</strong> اختر ملفك. يعمل التطبيق على نسخته الخاصة.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="إعدادات الدفعة: الفاصل فاصلة، والتجميع حسب الصفوف، وعمودان، و٢٤ وسم NFC مطلوبًا، و٤٩ بايت لكل وسم"><p><strong>راجع الأرقام.</strong> قيمة Bytes per NFC tag هي التي تقارنها بوسومك.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview: الوسوم من ١ إلى ٤، لكلٍّ منها سجلان، رابط للفريق وعنوان بريد، مع Start Writing"><p><strong>عاين ثم اكتب.</strong> ما سيحصل عليه كل وسم بالضبط، قبل كتابة الأول.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## الخطوة الخامسة: اكتب الكومة كلها

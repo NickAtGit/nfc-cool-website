@@ -124,6 +124,15 @@ Once the file is selected, the app shows what it detected: the delimiter, the nu
 
 Open **Batch Preview** to see every tag with the records it will get. What you see there is exactly what gets written.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Import and Preview</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="CSV Batch Write in NFC.cool Tools, with Help, Import CSV and the imported file team-links.csv"><p><strong>Import CSV.</strong> Pick your file. The app works on its own copy.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="The batch configuration: delimiter Comma, grouped by rows, 2 columns, 24 NFC tags needed and 49 bytes per NFC tag"><p><strong>Check the numbers.</strong> Bytes per NFC tag is the one to compare with your tags.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview: tags 1 to 4, each with 2 records, a team link and an email address, and Start Writing"><p><strong>Preview, then write.</strong> Exactly what each tag will get, before the first one goes on.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Step 5: Write the stack
