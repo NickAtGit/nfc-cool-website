@@ -3,15 +3,17 @@ id: "e-ink-phone-case-2026-10"
 title: "E-ink telefon kılıfımı kurcaladım, artık iPhone'um ona yazabiliyor"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Pilsiz çalışan o NFC e-ink telefon kılıflarından birine sahibim ve yanında gelen uygulamayı sevmedim. Ben de kılıfın telefonla nasıl konuştuğunu tersine mühendislikle çözdüm: NFC.cool Tools 7.2.0 artık DeerPhoneCase, KAZAVA, Novixand ya da TYOHINN uygulamasıyla çalışan kılıfların ekranına fotoğraf, QR kod, sıradaki etkinlik, günün ajandası ve anımsatıcılar koyabiliyor."
+summary: "Pilsiz çalışan o NFC e-ink telefon kılıflarından birine sahibim ve yanında gelen uygulamayı sevmedim. Ben de kılıfın telefonla nasıl konuştuğunu tersine mühendislikle çözdüm: NFC.cool Tools 7.2.0 artık DeerPhoneCase, KAZAVA, Novixand ya da TYOHINN uygulamasıyla çalışan kılıfların ekranına fotoğraf, QR kod, sıradaki etkinlik, günün ajandası ve anımsatıcılar koyabiliyor. 7.3.0'dan beri AI Cast Assistant uygulamasını kullanan daha büyük kılıflara da çizebiliyor."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "Arkasındaki e-ink ekranda siyah tepelerin üzerinde kırmızı ve sarı bir güneş görünen siyah kılıflı bir iPhone ve yanında aynı resmi NFC ile gönderen ikinci bir iPhone"
 author: "Nicolo Stanciu"
 metaTitle: "iPhone için NFC e-ink kılıf uygulaması: fotoğraf, takvim, QR"
-metaDescription: "Pilsiz NFC e-ink telefon kılıfına iPhone'dan fotoğraf, QR kod, ajanda ve anımsatıcı yaz. DeerPhoneCase, KAZAVA, Novixand ve TYOHINN kılıflarıyla çalışır."
+metaDescription: "Pilsiz NFC e-ink telefon kılıfına iPhone'dan fotoğraf, QR kod, ajanda ve anımsatıcı yaz. DeerPhoneCase, KAZAVA ve AI Cast Assistant kılıflarıyla çalışır."
 ogTitle: "E-ink kılıfımı kurcaladım, artık iPhone'um ona yazıyor"
 ogDescription: "Pilsiz bir NFC e-ink telefon kılıfının dilini nasıl çözdüğümü ve NFC.cool'un artık ekranına neler koyabildiğini anlatıyorum."
 ---
+
+> **Güncelleme, Ekim 2026:** NFC.cool Tools 7.3.0 artık **AI Cast Assistant** uygulamasını kullanan daha büyük kılıflara da çizebiliyor ve iki yeni tasarım getiriyor: **Düzenleyici** ve **AI Playground**. Bu ikinci kılıfı nasıl çalıştırdığımızı aşağıda anlatıyorum.
 
 Ekran titredi.
 
@@ -34,9 +36,9 @@ Yıllar içinde pek çok NFC özelliği geliştirdim ve o düz kırmızı dikdö
 
 Bu kılıflardan hiç görmediysen anlatayım: sıradan bir telefon kılıfına benziyor, tek farkı arka yüzünün büyük kısmının e-ink ekran olması. E-kitap okuyucularda kullanılan türden bir ekran bu. Benimki dört renk mürekkeple çiziyor: siyah, beyaz, kırmızı ve sarı.
 
-İçinde ne pil var ne de şarj girişi. Kılıf enerjisini telefonunun NFC alanından alıyor; bir NFC çıkartmasını okuttuğunda onu uyandıran alanın ta kendisinden. Telefon kılıfa dayalı durduğu sürece küçük bir çipe ve ekranı yeniden çizen mikrodenetleyiciye güç veriyor. Resim ekrana bir kez geldikten sonra e-ink onu orada tutmak için hiç enerji harcamıyor. Telefonun şarjı bitse de, kılıf çekmecede dursa da resim olduğu yerde kalıyor.
+İçinde ne pil var ne de şarj girişi. Kılıf enerjisini telefonunun NFC alanından alıyor; bir NFC çıkartmasını okuttuğunda onu uyandıran alanın ta kendisinden. Telefonun tam da kılıfın içinde durduğu için kılıf her an bu alanın menzilinde. Bir uygulama istediğinde alan küçük bir çipe ve ekranı yeniden çizen mikrodenetleyiciye güç veriyor. Resim ekrana bir kez geldikten sonra e-ink onu orada tutmak için hiç enerji harcamıyor. Telefonun şarjı bitse de, kılıf çekmecede dursa da resim olduğu yerde kalıyor.
 
-Ben bunu, silgisi yalnızca telefonunda olan bir sihirli yazı tahtası gibi düşünüyorum. Telefonunu yeniden yaklaştırana kadar hiçbir şey değişmiyor.
+Ben bunu, silgisi yalnızca telefonunda olan bir sihirli yazı tahtası gibi düşünüyorum. Telefonun söylemedikçe hiçbir şey değişmiyor.
 
 Bu kılıflar bir sürü farklı adla satılıyor ve neredeyse her markanın kendi uygulaması var. Benimki **DeerPhoneCase** adlı bir uygulamayla geldi. Diğerlerine aşağıda değineceğim.
 
@@ -79,12 +81,35 @@ NFC.cool da aynısını yapınca resimler tertemiz çıktı. İtiraf edeyim, bu 
 
 ---
 
+## Daha büyük bir kılıf, yine en baştan
+
+Arkadaşım Alex'te bu kılıflardan farklı bir tane var. Kılıf iPhone 17 Pro Max için yapılmış, **AI Cast Assistant** adlı bir uygulamayla geliyor ve ekranında benimkinin dört katından fazla piksel var.
+
+Alex NFC.cool'u bu kılıfla denediğinde uygulama bir hata gösterdi. Çizmeyi denemedi bile.
+
+Kılıfı ödünç alıp evde üzerinde çalışmak da olmadı. 15 Pro Max'imi 17 Pro Max için yapılmış bir kılıfa takınca işler tuhaflaştı. Görünüşe göre kılıfın anteni, yapıldığı telefona göre ayarlanmış. O yüzden buradan sonrası hep Alex'in kılıfıyla, Alex'in telefonunda yaşandı.
+
+Bu sefer Android uygulaması pek işe yaramadı. Ondan çıkardığımız kod bu kılıfla iPhone'un kullanmasına izin verilmeyen bir yoldan konuşuyordu; onu kopyalamak bizi hiçbir yere götürmedi.
+
+Biz de bir sniffer yaptık: kendini kılıf gibi gösteren küçük bir Android uygulaması. iPhone'u Android telefona yaklaştırıyorsun, AI Cast Assistant'ı açıyorsun ve iPhone, karşısında bir telefon kılıfı olduğunu sanarak resmini gönül rahatlığıyla gönderiyor. Android uygulaması da her baytı tek tek not ediyor.
+
+O günlükte iki sürpriz çıktı:
+
+1. Resmi uygulama görüntüyü göndermeden önce sıkıştırıyor. Biz sıkıştırmadan denemiştik; kılıf her pakete tek tek tamam dedi, sonra hiçbir şey çizmedi.
+2. Telefon kılıfa işin bitip bitmediğini sorduğunda kılıf, yeniden çizim bitene kadar, yani yaklaşık 21 saniye boyunca hiç cevap vermiyor. Cevabın bekletilmesi bağlantıyı canlı tutuyor, bu yüzden bu kılıf 20 saniye engeline hiç takılmıyor.
+
+NFC.cool ikisini de yapınca gönderdiğimiz ilk resim Alex'in köpeğinin fotoğrafı oldu.
+
+---
+
 ## NFC.cool kılıfına neler koyabiliyor
 
-Özellik **NFC.cool Tools 7.2.0** içinde, NFC Uygulamaları altında **E-ink kılıf** adıyla duruyor. Bir tasarım seçiyorsun ve kılıfın onu nasıl göstereceğini önizlemede birebir görüyorsun. Sonra kılıfı telefondan çıkarıp iPhone'unu kılıfın arkasına yaklaştırıyorsun ve NFC penceresi kapanana kadar öyle tutuyorsun.
+Özellik **NFC.cool Tools** içinde, NFC Uygulamaları altında **E-ink kılıf** adıyla duruyor. Bir tasarım seçiyorsun, kılıfın onu nasıl göstereceğini önizlemede birebir görüyorsun ve **Kılıfa aktar** düğmesine dokunuyorsun. iPhone'un zaten kılıfın içinde durduğu için hizalaman gereken bir şey yok: NFC penceresi açılıyor, kılıf ekranı yeniden çiziyor ve iş bitince pencere kendiliğinden kapanıyor.
 
 - **Fotoğraf**: arşivindeki herhangi bir resim, ekrana göre kırpılmış halde. Bu tasarım ücretsiz. Fotoğrafını dört mürekkebe dönüştürüyor; renk güçlendirme (Standart, Canlı ya da Maks.) ve siyah beyaz seçeneği de var.
 - **Dekupe**: fotoğraftaki kişiyi, evcil hayvanı ya da nesneyi kesip çıkarıyor ve dört mürekkepten birinin renginde bir arka planın üzerine yerleştiriyor.
+- **Düzenleyici**: boş bir tuvalle ya da bir fotoğrafla başlıyorsun, sonra metin, emoji ve başka fotoğraflar ekliyor ya da kalem, keçeli kalem ve boya kovasıyla çiziyorsun. Taslağın saklanıyor, yani daha sonra geri dönüp değiştirebilirsin.
+- **AI Playground**: bir fotoğraf seçiyorsun, Apple Intelligence onu yeni bir tarzda yeniden yorumluyor, sonra da sonucu kılıfa koyuyorsun. Bu tasarım yalnızca Apple Intelligence destekleyen iPhone'larda görünüyor.
 - **QR kodu**: NFC.cool'a kaydettiğin herhangi bir QR kod, kendi tasarımıyla, ya da içeriğini kendin yazdığın yeni bir kod. Renklerini tersine çevirebilirsin. Metin, kodun küçük ekranda okunabilir kalamayacağı kadar uzunsa uygulama seni uyarıyor.
 - **Sıradaki etkinlik** ya da **Seçilen etkinlik**: takvimindeki bir sonraki etkinlik ya da kendin seçtiğin herhangi bir etkinlik.
 - **Bugünün ajandası**: takviminde bugün ne varsa hepsi.
@@ -104,11 +129,21 @@ Takvim ve anımsatıcı tasarımları o anın fotoğrafı gibi. Kılıf, yükled
 
 ---
 
+## Havalı bir hack, ama bir pürüzü var
+
+Bir tane almadan önce bilmen gereken bir şey var. iPhone'un gözünde kılıf sadece bir ekran değil. Aynı zamanda bir NFC tag'i gibi görünüyor ve ona bir tag'e yazar gibi yazabiliyorsun.
+
+Kulağa kullanışlı geliyor, ta ki denemene kadar. Diyelim ki kılıfa bir bağlantı yazdın. Kılıf telefonunun NFC anteninin tam üstünde durduğu için iPhone'un arka planda tag okuma özelliği o bağlantıyı tekrar tekrar buluyor ve bildirimini sana üst üste gösteriyor. Bir şarkının dile dolanması gibi, yalnız dolanan senin değil telefonunun dili ve aynı nakaratı tekrarlayıp duruyor.
+
+Ters yönde de aynısı oluyor. Kılıfın çipi telefonun NFC anteninin üstünde durduğu için telefonunun arkasına başka bir tag tuttuğunda iPhone onu tanımıyor. Yalnızca kılıfı görüyor.
+
+Kendi kılıfıma yanlışlıkla bir şey yazdığım oldu, hem de itiraf etmek istediğimden daha sık. Neyse ki çözümü kolay: NFC.cool kılıfı yeniden biçimlendirebiliyor, sonrasında da kılıf sesini çıkarmıyor.
+
+Bunların hiçbiri bu kılıflardan uzak durman için bir sebep değil. Biraz hack sayılırlar ama havalı bir hack. Sadece şunu bil: telefonunun arkasındaki NFC ekranı ile NFC'yle yaptığın diğer her şey birbirinin ayağına biraz basıyor.
+
+---
+
 ## Bilmekte fayda var
-
-**Yüklemeler arasında kılıfı dinlendir.** İki tasarımı art arda yüklersen ikincisi soluk ve gri çıkıyor. Kılıfın iki yeniden çizim arasında toparlanması için biraz zaman gerekiyor. Resmi uygulama bir dakika beklemeni istiyor ve bu, NFC.cool için de yerinde bir tavsiye.
-
-**Kıpırdama.** Bütün iş biraz zaman alıyor, sürenin çoğunu da yeniden çizimin kendisi yiyor. Telefonu erkenden çekersen uygulama bunu sana söylüyor; tekrar denemen yeterli.
 
 **Şimdilik yalnızca iPhone'da.** Bu özellik iPhone uygulamasında var. Android uygulamasında henüz yok.
 
@@ -117,10 +152,11 @@ Takvim ve anımsatıcı tasarımları o anın fotoğrafı gibi. Kılıf, yükled
 - **DeerPhoneCase**, **KAZAVA**, **Novixand** ve **TYOHINN** benim kılıfımla çalışıyor, NFC.cool da öyle. Kılıfın bu uygulamalardan biriyle geldiyse NFC.cool'un da onunla çalışması gerekir.
 - **Bestie e-INK** ve **KINGZER** benimkiyle çalışmıyor. Resim NFC üzerinden sorunsuz gidiyor, ama kılıfın ekranı yeniden çizmesi gereken anda hiçbir şey olmuyor.
 - Başka bir geliştiricinin uygulaması olan **SpaceInk+** benim kılıfımla hiç çalışmıyor. Uygulama yalnızca "device channel information mismatch" diyor.
+- **AI Cast Assistant** farklı ve daha büyük bir kılıfla geliyor; NFC.cool 7.3.0'dan beri onunla da çalışıyor. Ben yalnızca Alex'inkini, yani iPhone 17 Pro Max için olanı deneyebildim.
 
 Bu, NFC.cool'un Bestie e-INK, KINGZER ya da SpaceInk+ kılıflarıyla çalışmadığı anlamına gelmiyor. Bunlar benimkinden biraz farklı kılıflar olabilir ve ben onları deneyemiyorum. Sende bunlardan biri varsa NFC.cool'un onunla çalışıp çalışmadığını [bana yaz](/contact/). Seninki başka bir uygulama kullanıyorsa NFC.cool kılıfın henüz desteklenmediğini söylüyor ve sana **Kılıf bilgilerini gönder** düğmesini sunuyor. Bu düğme yalnızca çipin teknik ayrıntılarını gönderiyor; seni ya da kılıfını tanımlayan hiçbir şeyi değil. Böylece insanların elinde gerçekten hangi kılıfların olduğunu görüp onlara da destek ekleyebiliyorum.
 
-**Nereden alabilirsin.** Amazon'da bu kılıflar bir sürü marka adıyla satılıyor, bazıları epey anlaşılmaz, ama arkalarında aynı kılıflar var. [Amazon'da bunlar için bir arama burada](https://link.amazon/B0hUxLZTR) (ortaklık bağlantısı). Benimkinin içinde DIY yazıyor, bazı ilanların başlığında da DIY geçiyor; yani aramak için iyi bir kelime. İlan, kılıfın kullandığı uygulamayı belirtiyorsa DeerPhoneCase, KAZAVA, Novixand ya da TYOHINN'i ara.
+**Nereden alabilirsin.** Amazon'da bu kılıflar bir sürü marka adıyla satılıyor, bazıları epey anlaşılmaz, ama arkalarında aynı kılıflar var. [Amazon'da bunlar için bir arama burada](https://link.amazon/B0hUxLZTR) (ortaklık bağlantısı). Benimkinin içinde DIY yazıyor, bazı ilanların başlığında da DIY geçiyor; yani aramak için iyi bir kelime. İlan, kılıfın kullandığı uygulamayı belirtiyorsa DeerPhoneCase, KAZAVA, Novixand, TYOHINN ya da AI Cast Assistant'ı ara. Bir de kılıfı tam olarak kendi iPhone modelin için yapılmış olandan al: anteni o telefona göre ayarlı ve benim 15 Pro Max'im, Alex'in 17 Pro Max kılıfıyla hiç anlaşamadı.
 
 ---
 
@@ -128,4 +164,4 @@ Bu, NFC.cool'un Bestie e-INK, KINGZER ya da SpaceInk+ kılıflarıyla çalışma
 
 Sende de ilk günden beri aynı resmi gösteren böyle bir kılıf bir köşede duruyorsa, ekranına daha işe yarar bir şey koy. NFC.cool Tools [App Store'da](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-e-ink-phone-case-iphone-tr&mt=8) seni bekliyor.
 
-Kendi gönderdiğin bir resmin e-ink ekranda titreyerek belirişini hiç izlemediysen bir dene derim. İnsana ayrı bir keyif veren birkaç saniye.
+Kendi gönderdiğin bir resmin e-ink ekranda titreyerek belirişini hiç izlemediysen bir dene derim. İnsana ayrı bir keyif veren birkaç saniye. Şimdiye kadar kılıfı gösterdiğim herkes hoş bir şaşkınlık yaşadı.

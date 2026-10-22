@@ -3,15 +3,17 @@ id: "e-ink-phone-case-2026-10"
 title: "Ho hackerato la mia custodia e-ink per scriverci dall'iPhone"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Ho una di quelle custodie per telefono con schermo e-ink NFC e senza batteria, e l'app che la accompagnava non mi piaceva. Così ho scoperto come comunica, e ora NFC.cool Tools 7.2.0 può mostrare foto, codici QR, il prossimo evento, l'agenda di oggi e i promemoria sulle custodie che usano l'app DeerPhoneCase, KAZAVA, Novixand o TYOHINN."
+summary: "Ho una di quelle custodie per telefono con schermo e-ink NFC e senza batteria, e l'app che la accompagnava non mi piaceva. Così ho scoperto come comunica, e ora NFC.cool Tools 7.2.0 può mostrare foto, codici QR, il prossimo evento, l'agenda di oggi e i promemoria sulle custodie che usano l'app DeerPhoneCase, KAZAVA, Novixand o TYOHINN. Dalla versione 7.3.0 disegna anche sulle custodie più grandi che usano l'app AI Cast Assistant."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "Un iPhone in una custodia nera con uno schermo e-ink sul retro che mostra un sole rosso e giallo sopra colline nere, accanto a un secondo iPhone che invia la stessa immagine via NFC"
 author: "Nicolo Stanciu"
 metaTitle: "App per custodie e-ink NFC su iPhone: foto, calendario, QR"
-metaDescription: "Foto, codici QR, agenda e promemoria su una custodia e-ink NFC senza batteria, direttamente da iPhone. Funziona con le custodie DeerPhoneCase, KAZAVA, Novixand e TYOHINN."
+metaDescription: "Foto, codici QR, agenda e promemoria su una custodia e-ink NFC senza batteria, direttamente da iPhone. Funziona con le custodie DeerPhoneCase, KAZAVA e AI Cast Assistant."
 ogTitle: "Ho hackerato la mia custodia e-ink per scriverci dall'iPhone"
 ogDescription: "Come ho decifrato il protocollo di una custodia e-ink NFC senza batteria, e cosa può mostrare ora NFC.cool sul suo schermo."
 ---
+
+> **Aggiornamento di ottobre 2026:** NFC.cool Tools 7.3.0 disegna anche sulle custodie più grandi che usano l'app **AI Cast Assistant** e aggiunge due nuovi design, **Editor** e **AI Playground**. Come siamo riusciti a far funzionare questa seconda custodia lo racconto più avanti.
 
 Lo schermo ha sfarfallato.
 
@@ -34,9 +36,9 @@ In tutti questi anni ho sviluppato un sacco di funzioni NFC, e quel semplice ret
 
 Se non ne hai mai vista una: sembra una normale custodia per telefono, solo che buona parte del retro è uno schermo e-ink, lo stesso tipo di display degli e-reader. Il mio disegna con quattro inchiostri: nero, bianco, rosso e giallo.
 
-Dentro non c'è nessuna batteria e nessuna porta di ricarica. La custodia prende l'energia dal campo NFC del telefono, lo stesso che risveglia un adesivo NFC quando lo scansioni. Finché il telefono resta appoggiato alla custodia, alimenta un piccolo chip e un microcontrollore, che ridisegnano lo schermo. Una volta comparsa l'immagine, l'e-ink non ha più bisogno di energia per mantenerla. Resta lì e basta: con il telefono scarico, in fondo a un cassetto, ovunque.
+Dentro non c'è nessuna batteria e nessuna porta di ricarica. La custodia prende l'energia dal campo NFC del telefono, lo stesso che risveglia un adesivo NFC quando lo scansioni. E visto che il telefono ci sta proprio dentro, la custodia è sempre alla portata di quel campo. Quando un'app glielo chiede, il campo alimenta un piccolo chip e un microcontrollore, che ridisegnano lo schermo. Una volta comparsa l'immagine, l'e-ink non ha più bisogno di energia per mantenerla. Resta lì e basta: con il telefono scarico, in fondo a un cassetto, ovunque.
 
-Mi piace pensarla come una lavagna magica che solo il telefono sa cancellare. Finché non ci riavvicini il telefono, non cambia niente.
+Mi piace pensarla come una lavagna magica che solo il telefono sa cancellare. Finché non è il telefono a dirglielo, non cambia niente.
 
 Queste custodie si vendono con un'infinità di nomi diversi, e quasi ogni marchio ha la sua app. La mia era accompagnata da un'app chiamata **DeerPhoneCase**. Delle altre parlo più avanti.
 
@@ -79,12 +81,35 @@ Quando NFC.cool ha cominciato a fare lo stesso, le immagini sono uscite pulite. 
 
 ---
 
+## Una custodia più grande e tutto da rifare
+
+Il mio amico Alex ha un'altra di queste custodie, diversa dalla mia. È fatta per l'iPhone 17 Pro Max, viene con un'app chiamata **AI Cast Assistant** e lo schermo ha più di quattro volte i pixel del mio.
+
+Quando l'ha provata con NFC.cool, l'app ha dato errore. Non ha nemmeno tentato di disegnare.
+
+E non potevo neanche farmela prestare e lavorarci con calma a casa. Con il mio 15 Pro Max dentro una custodia pensata per il 17 Pro Max succedevano cose strane. Pare che l'antenna sia tarata sul telefono per cui la custodia è progettata. Così tutto quello che segue è avvenuto con la custodia di Alex, sul telefono di Alex.
+
+Stavolta l'app Android non ci è servita a molto. Il codice che ne abbiamo estratto parlava con questa custodia in un modo che a un iPhone non è permesso, quindi copiarlo non ci ha portato da nessuna parte.
+
+Allora abbiamo costruito uno sniffer: una piccola app Android che si spaccia per la custodia. Avvicini l'iPhone al telefono Android, apri AI Cast Assistant, e l'iPhone invia tranquillo l'immagine a quella che crede una custodia, mentre l'app Android annota ogni singolo byte.
+
+In quel log c'erano due sorprese:
+
+1. L'app ufficiale comprime l'immagine prima di inviarla. Noi l'avevamo mandata senza compressione, e la custodia rispondeva OK a ogni singolo pacchetto per poi non disegnare niente.
+2. Quando il telefono chiede alla custodia se ha finito, quella non risponde finché non ha completato il ridisegno, circa 21 secondi dopo. Tenendo in sospeso la risposta, la connessione resta viva, quindi con questa custodia il muro dei 20 secondi non si presenta mai.
+
+Appena NFC.cool ha imparato a fare entrambe le cose, la prima immagine che abbiamo inviato è stata una foto del cane di Alex.
+
+---
+
 ## Cosa può mostrare NFC.cool sulla custodia
 
-La funzione si trova in **NFC.cool Tools 7.2.0**, tra le Applicazioni NFC, con il nome **Custodia e-ink**. Scegli un design, controlli l'anteprima che mostra esattamente come apparirà sulla custodia, togli la custodia dal telefono e tieni l'iPhone appoggiato sul retro finché la finestra NFC non si chiude.
+La funzione si trova in **NFC.cool Tools**, tra le Applicazioni NFC, con il nome **Custodia e-ink**. Scegli un design, controlli l'anteprima che mostra esattamente come apparirà sulla custodia e tocchi **Metti sulla custodia**. L'iPhone è già dentro la custodia, quindi non c'è niente da allineare: si apre la finestra NFC, la custodia ridisegna lo schermo e, quando ha finito, la finestra si chiude da sola.
 
 - **Foto**: qualsiasi immagine della libreria, ritagliata sulle misure dello schermo. Questa è gratuita. L'app converte la foto nei quattro inchiostri, con il potenziamento dei colori (Standard, Vivace o Max) e un'opzione in bianco e nero.
 - **Soggetto scontornato**: isola la persona, l'animale o l'oggetto di una foto e lo mette su uno sfondo in uno dei quattro inchiostri.
+- **Editor**: parti da una tela bianca o da una foto, poi aggiungi testo, emoji e altre foto, oppure disegna con penna, pennarello e secchiello. La bozza resta salvata, così puoi tornarci e modificarla quando vuoi.
+- **AI Playground**: scegli una foto, lascia che Apple Intelligence la reinterpreti in un altro stile e manda il risultato sulla custodia. Questo design compare solo sugli iPhone compatibili con Apple Intelligence.
 - **Codice QR**: qualsiasi codice QR salvato in NFC.cool, con il suo design, oppure uno che digiti al momento. Puoi invertirne i colori, e l'app ti avvisa quando il testo è troppo lungo perché il codice resti leggibile su uno schermo così piccolo.
 - **Prossimo evento** oppure un **evento scelto** dal calendario.
 - **Agenda di oggi**: tutto quello che hai in calendario per la giornata.
@@ -104,11 +129,21 @@ I design con calendario e promemoria sono istantanee. La custodia mostra la situ
 
 ---
 
+## Un hack geniale, con un solo inconveniente
+
+C'è una cosa che conviene sapere prima di comprarne una. Per l'iPhone la custodia non è solo uno schermo: sembra anche un tag NFC, e ci si può scrivere sopra come su un tag qualsiasi.
+
+Sembra comodo, finché non ci provi. Mettiamo che tu scriva un link sulla custodia. La custodia sta proprio sopra l'antenna NFC del telefono, quindi la lettura dei tag in background dell'iPhone ritrova quel link di continuo e ti ripropone la notifica ogni volta. È come girare con un post-it attaccato in fronte che il telefono si ostina a leggerti ad alta voce.
+
+Vale anche al contrario. Il chip della custodia sta sopra l'antenna NFC del telefono, quindi quando avvicini un altro tag al retro, l'iPhone non lo riconosce. Vede solo la custodia.
+
+Mi è capitato di scrivere per sbaglio qualcosa sulla mia custodia più spesso di quanto mi piaccia ammettere. Per fortuna rimediare è facile: NFC.cool può formattare di nuovo la custodia, e da lì in poi se ne sta tranquilla.
+
+Niente di tutto questo è un buon motivo per lasciar perdere queste custodie. Sono un po' un hack, ma di quelli geniali. Sappi solo che uno schermo NFC sul retro del telefono e tutto il resto che fai con l'NFC si pestano un po' i piedi a vicenda.
+
+---
+
 ## Qualche consiglio pratico
-
-**Lascia riposare la custodia tra una scrittura e l'altra.** Se invii due design uno dopo l'altro, il secondo esce sbiadito e grigiastro. Tra un ridisegno e il successivo la custodia ha bisogno di un attimo per riprendersi. L'app ufficiale chiede di aspettare un minuto, e il consiglio vale anche per NFC.cool.
-
-**Tieni fermo il telefono.** L'operazione richiede un po' di tempo, quasi tutto per il ridisegno. Se allontani l'iPhone troppo presto, l'app te lo segnala e basta riprovare.
 
 **Per ora solo su iPhone.** La funzione è nell'app per iPhone. L'app Android non ce l'ha ancora.
 
@@ -117,10 +152,11 @@ I design con calendario e promemoria sono istantanee. La custodia mostra la situ
 - **DeerPhoneCase**, **KAZAVA**, **Novixand** e **TYOHINN** funzionano con la mia custodia, e anche NFC.cool. Se la tua custodia è arrivata con una di queste app, NFC.cool dovrebbe funzionare.
 - **Bestie e-INK** e **KINGZER** con la mia non funzionano. L'immagine passa via NFC senza problemi, ma quando la custodia dovrebbe ridisegnare lo schermo non succede niente.
 - **SpaceInk+**, di un altro sviluppatore, con la mia custodia non funziona proprio. L'app dice solo "device channel information mismatch".
+- **AI Cast Assistant** accompagna una custodia diversa e più grande, e dalla versione 7.3.0 NFC.cool la supporta. Finora ho potuto provare solo quella di Alex, il modello per iPhone 17 Pro Max.
 
 Questo non vuol dire che NFC.cool non funzioni con le custodie per Bestie e-INK, KINGZER o SpaceInk+. Magari sono solo un po' diverse dalla mia, e io non posso provarle. Se ne hai una, [fammi sapere](/contact/) se NFC.cool funziona oppure no. Se la tua usa un'altra app, NFC.cool ti dice che non è ancora supportata e ti propone il pulsante **Invia dettagli custodia**. Manda solo i dati tecnici del chip, niente che permetta di identificare te o la tua custodia, così vedo quali modelli girano davvero e posso aggiungerli.
 
-**Dove trovarne una.** Su Amazon queste custodie si trovano sotto un sacco di marchi, alcuni piuttosto criptici, ma dietro ci sono sempre le stesse custodie. [Ecco una ricerca su Amazon](https://link.amazon/B0hUxLZTR) (link affiliato). La mia ha la scritta DIY stampata all'interno, e alcuni annunci hanno DIY nel titolo, quindi è una buona parola da cercare. Se l'annuncio indica l'app che usa la custodia, cerca DeerPhoneCase, KAZAVA, Novixand o TYOHINN.
+**Dove trovarne una.** Su Amazon queste custodie si trovano sotto un sacco di marchi, alcuni piuttosto criptici, ma dietro ci sono sempre le stesse custodie. [Ecco una ricerca su Amazon](https://link.amazon/B0hUxLZTR) (link affiliato). La mia ha la scritta DIY stampata all'interno, e alcuni annunci hanno DIY nel titolo, quindi è una buona parola da cercare. Se l'annuncio indica l'app che usa la custodia, cerca DeerPhoneCase, KAZAVA, Novixand, TYOHINN o AI Cast Assistant. E scegli la custodia pensata esattamente per il tuo modello di iPhone: l'antenna è tarata su quel telefono, e il mio 15 Pro Max e la custodia di Alex per il 17 Pro Max proprio non andavano d'accordo.
 
 ---
 
@@ -128,4 +164,4 @@ Questo non vuol dire che NFC.cool non funzioni con le custodie per Bestie e-INK,
 
 Se hai una di queste custodie che prende polvere con ancora l'immagine del primo giorno, dalle qualcosa di più utile da mostrare. NFC.cool Tools è sull'[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-e-ink-phone-case-iphone-it&mt=8).
 
-E se non hai mai visto un pannello e-ink sfarfallare e poi comporre un'immagine che gli hai mandato tu, te lo consiglio. Sono pochi secondi, ma che soddisfazione.
+E se non hai mai visto un pannello e-ink sfarfallare e poi comporre un'immagine che gli hai mandato tu, te lo consiglio. Sono pochi secondi, ma che soddisfazione. Finora tutti quelli a cui ho mostrato la custodia ne sono rimasti piacevolmente sorpresi.

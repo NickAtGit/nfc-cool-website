@@ -3,15 +3,17 @@ id: "e-ink-phone-case-2026-10"
 title: "Hackeé mi funda de tinta electrónica para que mi iPhone pueda escribir en ella"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Tengo una de esas fundas NFC con pantalla de tinta electrónica que funcionan sin batería, y la app que venía con ella no me convencía. Así que averigüé cómo se comunica, y NFC.cool Tools 7.2.0 ya puede poner fotos, códigos QR, tu próximo evento, la agenda del día y tus recordatorios en las fundas que usan la app DeerPhoneCase, KAZAVA, Novixand o TYOHINN."
+summary: "Tengo una de esas fundas NFC con pantalla de tinta electrónica que funcionan sin batería, y la app que venía con ella no me convencía. Así que averigüé cómo se comunica, y NFC.cool Tools 7.2.0 ya puede poner fotos, códigos QR, tu próximo evento, la agenda del día y tus recordatorios en las fundas que usan la app DeerPhoneCase, KAZAVA, Novixand o TYOHINN. Desde la versión 7.3.0 también puede dibujar en las fundas más grandes que usan AI Cast Assistant."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "Un iPhone con una funda negra que lleva en la parte trasera una pantalla de tinta electrónica con un sol rojo y amarillo sobre colinas negras, junto a un segundo iPhone que le envía la misma imagen por NFC"
 author: "Nicolo Stanciu"
 metaTitle: "Funda NFC de tinta electrónica en iPhone: fotos, agenda y QR"
-metaDescription: "Pon fotos, códigos QR, tu agenda y tus recordatorios en una funda NFC de tinta electrónica sin batería desde el iPhone. Para fundas DeerPhoneCase, KAZAVA, Novixand y TYOHINN."
+metaDescription: "Pon fotos, códigos QR, tu agenda y tus recordatorios en una funda NFC de tinta electrónica sin batería desde el iPhone. Para fundas DeerPhoneCase, KAZAVA y AI Cast Assistant."
 ogTitle: "Hackeé mi funda de tinta electrónica para escribir en ella desde el iPhone"
 ogDescription: "Cómo descifré el funcionamiento de una funda NFC de tinta electrónica sin batería, y lo que NFC.cool ya puede mostrar en su pantalla."
 ---
+
+> **Actualización, octubre de 2026:** NFC.cool Tools 7.3.0 también dibuja en las fundas más grandes que usan la app **AI Cast Assistant** y trae dos diseños nuevos, **Editor** y **AI Playground**. Más abajo cuento cómo conseguimos que funcionara esa segunda funda.
 
 La pantalla parpadeó.
 
@@ -34,9 +36,9 @@ He creado un montón de funciones NFC con los años, y ese simple rectángulo ro
 
 Si nunca has visto una de estas fundas: parece una funda normal y corriente, salvo que gran parte de la cara trasera es una pantalla de tinta electrónica, como la de un lector de libros electrónicos. La mía pinta con cuatro tintas: negra, blanca, roja y amarilla.
 
-No lleva batería ni puerto de carga. La funda se alimenta del campo NFC del móvil, el mismo que despierta una pegatina NFC cuando la escaneas. Mientras tienes el móvil apoyado en la funda, ese campo da energía a un pequeño chip y a un microcontrolador, que son los que redibujan la pantalla. Una vez que la imagen está puesta, la tinta electrónica no necesita nada de energía para mantenerla. Se queda ahí sin más: con el móvil sin batería, en un cajón, donde sea.
+No lleva batería ni puerto de carga. La funda se alimenta del campo NFC del móvil, el mismo que despierta una pegatina NFC cuando la escaneas. Como el móvil va metido dentro de ella, la funda siempre está al alcance de ese campo. Cuando una app se lo pide, el campo da energía a un pequeño chip y a un microcontrolador, que son los que redibujan la pantalla. Una vez que la imagen está puesta, la tinta electrónica no necesita nada de energía para mantenerla. Se queda ahí sin más: con el móvil sin batería, en un cajón, donde sea.
 
-Yo me la imagino como una Telesketch que solo tu móvil puede sacudir. Nada cambia hasta que vuelves a apoyar el móvil en ella.
+Yo me la imagino como una Telesketch que solo tu móvil puede sacudir. Nada cambia hasta que tu móvil se lo dice.
 
 Estas fundas se venden con muchos nombres distintos, y casi cada marca tiene su propia app. La mía venía con una llamada **DeerPhoneCase**. De las demás hablo más abajo.
 
@@ -79,12 +81,35 @@ En cuanto NFC.cool hizo lo mismo, las imágenes salieron limpias. Reconozco que 
 
 ---
 
+## Una funda más grande y vuelta a empezar
+
+Mi amigo Alex tiene otra de estas fundas. Está hecha para el iPhone 17 Pro Max, viene con una app llamada **AI Cast Assistant** y su pantalla tiene más de cuatro veces más píxeles que la mía.
+
+Cuando probó NFC.cool con ella, la app mostró un error. Ni siquiera intentó dibujar.
+
+Tampoco podía pedirle la funda prestada y ponerme con ella en casa. Con mi 15 Pro Max dentro de una funda pensada para el 17 Pro Max, todo empezaba a fallar de formas muy raras. Parece que la antena de la funda está ajustada al móvil para el que está hecha. Así que todo lo que viene a continuación lo hicimos con la funda de Alex en el móvil de Alex.
+
+Esta vez la app de Android no nos sirvió de mucho. El código que sacamos de ella se comunicaba con esta funda de una forma que un iPhone no tiene permitida, y copiarlo no nos llevó a ninguna parte.
+
+Entonces construimos un sniffer: una pequeña app de Android que se hace pasar por la funda. Acercas el iPhone al móvil Android, abres AI Cast Assistant, y el iPhone envía tan tranquilo su imagen a lo que cree que es una funda, mientras la app de Android apunta cada byte.
+
+Ese registro nos dio dos sorpresas:
+
+1. La app oficial comprime la imagen antes de enviarla. Nosotros la habíamos probado sin comprimir, y la funda respondía OK a cada paquete y luego no dibujaba nada.
+2. Cuando el móvil le pregunta a la funda si ya ha terminado, la funda sencillamente no contesta hasta que acaba el redibujado, unos 21 segundos después. Al guardarse esa respuesta, mantiene viva la conexión, así que esta funda nunca llega a chocar con el muro de los 20 segundos.
+
+En cuanto NFC.cool hizo las dos cosas, la primera imagen que enviamos fue una foto del perro de Alex.
+
+---
+
 ## Lo que NFC.cool puede poner en tu funda
 
-La función está en **NFC.cool Tools 7.2.0**, dentro de Aplicaciones NFC, con el nombre **Funda de tinta electrónica**. Eliges un diseño, ves una vista previa exacta de cómo lo mostrará la funda, quitas la funda del móvil y apoyas el iPhone en su parte trasera hasta que se cierre la ventana de escaneo NFC.
+La función está en **NFC.cool Tools**, dentro de Aplicaciones NFC, con el nombre **Funda de tinta electrónica**. Eliges un diseño, ves una vista previa exacta de cómo lo mostrará la funda y tocas **Pasar a la funda**. Como el iPhone ya está metido en la funda, no hay nada que alinear: se abre la ventana de escaneo NFC, la funda se redibuja y la ventana se cierra sola cuando termina.
 
 - **Foto**: cualquier imagen de tu fototeca, recortada al tamaño de la pantalla. Esta es gratis. Convierte tu foto a las cuatro tintas, con realce de color (Estándar, Intenso o Máx.) y una opción en blanco y negro.
 - **Recorte**: separa a la persona, la mascota o el objeto de una foto y lo coloca sobre un fondo de una de las cuatro tintas.
+- **Editor**: empieza con un lienzo en blanco o una foto y añade texto, emojis y más fotos, o dibuja con un bolígrafo, un rotulador y un bote de pintura. Tu borrador se guarda, así que puedes volver a él y cambiarlo más tarde.
+- **AI Playground**: elige una foto, deja que Apple Intelligence le dé otro estilo y pasa el resultado a la funda. Este diseño solo aparece en los iPhone con Apple Intelligence.
 - **Código QR**: cualquier código QR que hayas guardado en NFC.cool, con su propio diseño, o uno que escribas tú. Puedes invertirlo, y la app te avisa cuando el texto es demasiado largo para que el código se siga leyendo bien en una pantalla tan pequeña.
 - **Próximo evento** o un **evento elegido** de tu calendario.
 - **Agenda de hoy**: todo lo que tienes hoy en el calendario.
@@ -104,11 +129,21 @@ Los diseños de calendario y de recordatorios son una foto fija: la funda muestr
 
 ---
 
+## Un hack muy chulo, con una pega
+
+Hay algo que conviene saber antes de comprar una. Para tu iPhone, la funda no es solo una pantalla. También parece una etiqueta NFC, y puedes escribir en ella como en cualquier etiqueta.
+
+Suena práctico hasta que lo pruebas. Imagina que escribes un enlace en la funda. La funda está justo encima de la antena NFC del móvil, así que la lectura de etiquetas en segundo plano del iPhone encuentra ese enlace una y otra vez, y no para de mostrarte la notificación. Es como llevar un pósit pegado en la frente y que el móvil te lo lea en voz alta sin parar.
+
+Y al revés pasa lo mismo. El chip de la funda está encima de la antena NFC del móvil, así que cuando acercas otra etiqueta a la parte de atrás, el iPhone no la reconoce. Solo ve la funda.
+
+Me ha pasado más veces de las que me gustaría admitir escribir algo en mi propia funda sin querer. Por suerte, tiene fácil arreglo: NFC.cool puede volver a formatear la funda, y entonces se queda tranquila.
+
+Nada de esto es motivo para no comprar estas fundas. Son un pequeño hack, pero un hack muy chulo. Solo ten en cuenta que una pantalla NFC en la parte de atrás del móvil y todo lo demás que haces con NFC se estorban un poco.
+
+---
+
 ## Lo que conviene saber
-
-**Deja descansar la funda entre una escritura y otra.** Si envías dos diseños seguidos, el segundo sale desvaído y grisáceo. La funda necesita un momento para recuperarse entre un redibujado y el siguiente. La app oficial te pide que esperes un minuto, y es un buen consejo también con NFC.cool.
-
-**No te muevas.** Todo el proceso tarda un poco, y casi todo ese tiempo se lo lleva el redibujado. Si apartas el móvil antes de tiempo, la app te avisa y puedes volver a intentarlo sin más.
 
 **Solo en iPhone, de momento.** Está en la app de iPhone. La app de Android todavía no lo tiene.
 
@@ -117,10 +152,11 @@ Los diseños de calendario y de recordatorios son una foto fija: la funda muestr
 - **DeerPhoneCase**, **KAZAVA**, **Novixand** y **TYOHINN** funcionan con mi funda, y NFC.cool también. Si tu funda venía con una de estas apps, NFC.cool debería funcionar con ella.
 - **Bestie e-INK** y **KINGZER** no funcionan con la mía. La imagen pasa por NFC sin problemas, pero cuando la funda debería redibujar la pantalla, no pasa nada.
 - **SpaceInk+**, de otro desarrollador, no funciona en absoluto con mi funda. La app solo dice "device channel information mismatch".
+- **AI Cast Assistant** viene con otra funda distinta y más grande, y NFC.cool funciona con ella desde la 7.3.0. Solo he podido probar la de Alex, la del iPhone 17 Pro Max.
 
 Eso no significa que NFC.cool no funcione con las fundas de Bestie e-INK, KINGZER o SpaceInk+. Puede que simplemente sean algo distintas de la mía, y no puedo probarlas. Si tienes una, [cuéntame](/contact/) si NFC.cool funciona con ella o no. Si la tuya usa otra, la app te dice que todavía no es compatible y te ofrece un botón **Enviar datos de la funda**. Así se envían los datos técnicos del chip, nada que te identifique a ti ni a tu funda, para que yo pueda ver qué fundas tiene la gente de verdad y añadirlas.
 
-**Dónde conseguir una.** En Amazon estas fundas se venden con muchísimas marcas, algunas bastante crípticas, pero detrás están las mismas fundas. [Aquí tienes una búsqueda en Amazon](https://link.amazon/B0hUxLZTR) (enlace de afiliado). La mía lleva DIY impreso por dentro, y algunos anuncios ponen DIY en el título, así que es una buena palabra para buscar. Si el anuncio menciona la app que usa la funda, busca DeerPhoneCase, KAZAVA, Novixand o TYOHINN.
+**Dónde conseguir una.** En Amazon estas fundas se venden con muchísimas marcas, algunas bastante crípticas, pero detrás están las mismas fundas. [Aquí tienes una búsqueda en Amazon](https://link.amazon/B0hUxLZTR) (enlace de afiliado). La mía lleva DIY impreso por dentro, y algunos anuncios ponen DIY en el título, así que es una buena palabra para buscar. Si el anuncio menciona la app que usa la funda, busca DeerPhoneCase, KAZAVA, Novixand, TYOHINN o AI Cast Assistant. Y compra la funda hecha para tu modelo exacto de iPhone: su antena está ajustada a ese móvil, y mi 15 Pro Max no se llevó nada bien con la funda de Alex para el 17 Pro Max.
 
 ---
 
@@ -128,4 +164,4 @@ Eso no significa que NFC.cool no funcione con las fundas de Bestie e-INK, KINGZE
 
 Si tienes una de estas fundas por casa con la misma imagen que traía el primer día, dale algo más útil que mostrar. NFC.cool Tools está en la [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-e-ink-phone-case-iphone-es&mt=8).
 
-Y si nunca has visto una pantalla de tinta electrónica parpadear y dibujar una imagen que le has mandado tú mismo, te lo recomiendo. Son unos segundos de lo más satisfactorios.
+Y si nunca has visto una pantalla de tinta electrónica parpadear y dibujar una imagen que le has mandado tú mismo, te lo recomiendo. Son unos segundos de lo más satisfactorios. Hasta ahora, todo aquel a quien le he enseñado la funda se ha llevado una grata sorpresa.

@@ -3,15 +3,17 @@ id: "e-ink-phone-case-2026-10"
 title: "Saya mengoprek casing ponsel e-ink saya supaya iPhone bisa menulis ke layarnya"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "Saya punya salah satu casing ponsel e-ink NFC tanpa baterai itu, dan saya kurang suka aplikasi bawaannya. Jadi saya membongkar cara casing itu berkomunikasi, dan kini NFC.cool Tools 7.2.0 bisa menampilkan foto, kode QR, acara berikutnya, agenda hari ini, dan pengingat Anda di casing yang memakai aplikasi DeerPhoneCase, KAZAVA, Novixand, atau TYOHINN."
+summary: "Saya punya salah satu casing ponsel e-ink NFC tanpa baterai itu, dan saya kurang suka aplikasi bawaannya. Jadi saya membongkar cara casing itu berkomunikasi, dan kini NFC.cool Tools 7.2.0 bisa menampilkan foto, kode QR, acara berikutnya, agenda hari ini, dan pengingat Anda di casing yang memakai aplikasi DeerPhoneCase, KAZAVA, Novixand, atau TYOHINN. Sejak versi 7.3.0, aplikasi ini juga bisa menggambar di casing berukuran lebih besar yang memakai aplikasi AI Cast Assistant."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "iPhone dalam casing hitam dengan layar e-ink di bagian belakangnya yang menampilkan matahari merah-kuning di atas perbukitan hitam, di samping iPhone kedua yang mengirim gambar yang sama lewat NFC"
 author: "Nicolo Stanciu"
 metaTitle: "Casing ponsel e-ink NFC di iPhone: foto, kalender, kode QR"
-metaDescription: "Tampilkan foto, kode QR, agenda, dan pengingat di casing ponsel e-ink NFC tanpa baterai langsung dari iPhone. Mendukung casing DeerPhoneCase, KAZAVA, Novixand, dan TYOHINN."
+metaDescription: "Tampilkan foto, kode QR, agenda, dan pengingat di casing ponsel e-ink NFC tanpa baterai langsung dari iPhone. Mendukung casing DeerPhoneCase, KAZAVA, dan AI Cast Assistant."
 ogTitle: "Saya mengoprek casing e-ink saya supaya bisa diisi dari iPhone"
 ogDescription: "Cara saya membongkar protokol casing ponsel e-ink NFC tanpa baterai, dan apa saja yang kini bisa ditampilkan NFC.cool di layarnya."
 ---
+
+> **Pembaruan, Oktober 2026:** NFC.cool Tools 7.3.0 kini juga bisa menggambar di casing berukuran lebih besar yang memakai aplikasi **AI Cast Assistant**, dan menambahkan dua desain baru, **Editor** dan **AI Playground**. Cerita bagaimana kami berhasil membuat casing kedua itu bekerja ada di bagian bawah.
 
 Layarnya berkedip.
 
@@ -34,9 +36,9 @@ Sudah bertahun-tahun saya membangun banyak sekali fitur NFC, dan persegi panjang
 
 Kalau Anda belum pernah melihat casing seperti ini: bentuknya mirip casing ponsel biasa, hanya saja sebagian besar bagian belakangnya berupa layar e-ink, jenis layar yang sama dengan yang dipakai e-reader. Layar di casing saya punya empat warna tinta: hitam, putih, merah, dan kuning.
 
-Di dalamnya tidak ada baterai, juga tidak ada port pengisian daya. Casing ini mendapat daya dari medan NFC ponsel Anda, medan yang sama yang membangunkan stiker NFC saat Anda memindainya. Selama ponsel ditempelkan ke casing, medan itu menghidupkan sebuah chip kecil dan sebuah mikrokontroler, yang lalu menggambar ulang layarnya. Begitu gambar sudah tampil, e-ink sama sekali tidak butuh daya untuk mempertahankannya. Gambarnya tetap di sana, meski ponselnya kehabisan baterai atau casingnya tersimpan di laci.
+Di dalamnya tidak ada baterai, juga tidak ada port pengisian daya. Casing ini mendapat daya dari medan NFC ponsel Anda, medan yang sama yang membangunkan stiker NFC saat Anda memindainya. Karena ponsel Anda terpasang tepat di dalamnya, casing ini selalu berada dalam jangkauan medan itu. Saat sebuah aplikasi memintanya, medan itu menghidupkan sebuah chip kecil dan sebuah mikrokontroler, yang lalu menggambar ulang layarnya. Begitu gambar sudah tampil, e-ink sama sekali tidak butuh daya untuk mempertahankannya. Gambarnya tetap di sana, meski ponselnya kehabisan baterai atau casingnya tersimpan di laci.
 
-Saya membayangkannya seperti papan gambar ajaib mainan anak-anak, bedanya yang bisa menghapus dan menggambar ulang hanyalah ponsel Anda. Tidak ada yang berubah sampai Anda menempelkan ponsel ke casing itu lagi.
+Saya membayangkannya seperti papan gambar ajaib mainan anak-anak, bedanya yang bisa menghapus dan menggambar ulang hanyalah ponsel Anda. Tidak ada yang berubah sampai ponsel Anda menyuruhnya.
 
 Casing seperti ini dijual dengan banyak sekali nama, dan hampir setiap merek punya aplikasinya sendiri. Casing saya datang dengan aplikasi bernama **DeerPhoneCase**. Aplikasi lainnya akan saya bahas di bagian bawah.
 
@@ -79,12 +81,35 @@ Begitu NFC.cool melakukan hal yang sama, gambarnya tampil bersih. Saya akui, say
 
 ---
 
+## Casing yang lebih besar, kembali ke titik nol
+
+Teman saya, Alex, punya casing sejenis yang berbeda. Casing itu dibuat untuk iPhone 17 Pro Max, datang dengan aplikasi bernama **AI Cast Assistant**, dan layarnya punya piksel lebih dari empat kali lipat layar saya.
+
+Saat dia mencoba NFC.cool dengan casing itu, aplikasinya langsung menampilkan error. Jangankan menggambar, mencoba pun tidak.
+
+Saya juga tidak bisa begitu saja meminjam casing itu lalu mengerjakannya di rumah. Dengan 15 Pro Max saya di dalam casing yang dibuat untuk 17 Pro Max, hal-hal aneh mulai terjadi. Sepertinya antena casing itu disetel khusus untuk ponsel pasangannya. Jadi semua yang terjadi setelah ini dikerjakan dengan casing Alex di ponsel Alex.
+
+Kali ini aplikasi Android-nya tidak banyak membantu. Kode yang kami ambil dari sana berkomunikasi dengan casing ini dengan cara yang tidak diizinkan untuk iPhone, jadi menyalinnya tidak membawa kami ke mana-mana.
+
+Jadi kami membuat sniffer: aplikasi Android kecil yang berpura-pura menjadi casing. Tempelkan iPhone ke ponsel Android, buka AI Cast Assistant, dan iPhone dengan santainya mengirim gambar ke sesuatu yang dikiranya casing ponsel, sementara aplikasi Android mencatat setiap byte-nya.
+
+Log itu menyimpan dua kejutan:
+
+1. Aplikasi resminya mengompresi gambar sebelum mengirimnya. Kami sebelumnya mencoba tanpa kompresi, dan casing menjawab OK untuk setiap paket, lalu tidak menggambar apa-apa.
+2. Saat ponsel bertanya kepada casing apakah prosesnya sudah selesai, casing itu sama sekali tidak menjawab sampai gambarnya rampung, sekitar 21 detik kemudian. Karena jawabannya ditahan, koneksinya tetap hidup, sehingga casing ini tidak pernah mentok di batas 20 detik itu.
+
+Begitu NFC.cool melakukan keduanya, gambar pertama yang kami kirim adalah foto anjing Alex.
+
+---
+
 ## Apa saja yang bisa ditampilkan NFC.cool di casing Anda
 
-Fiturnya ada di **NFC.cool Tools 7.2.0**, di bagian Aplikasi NFC, dengan nama **Casing e-ink**. Pilih desain, lihat pratinjau yang menunjukkan persis bagaimana casing akan menampilkannya, lepaskan casing dari ponsel, lalu tempelkan iPhone Anda ke bagian belakang casing sampai jendela pemindaian NFC menutup.
+Fiturnya ada di **NFC.cool Tools**, di bagian Aplikasi NFC, dengan nama **Casing e-ink**. Pilih desain, lihat pratinjau yang menunjukkan persis bagaimana casing akan menampilkannya, lalu ketuk **Pasang ke casing**. iPhone Anda memang sudah terpasang di dalam casing, jadi Anda tidak perlu mencari posisi yang pas: jendela pemindaian NFC terbuka, casing menggambar ulang layarnya, dan jendela itu menutup sendiri begitu selesai.
 
 - **Foto**: gambar apa saja dari galeri Anda, dipotong pas dengan ukuran layar. Yang ini gratis. Foto Anda diubah ke empat warna tinta, dengan penguatan warna (Standar, Cerah, atau Maks) dan opsi hitam putih.
 - **Potongan**: memisahkan orang, hewan peliharaan, atau benda dari sebuah foto, lalu menaruhnya di atas latar dengan salah satu dari empat warna tinta.
+- **Editor**: mulai dari kanvas kosong atau sebuah foto, lalu tambahkan teks, emoji, dan foto lain, atau gambar langsung dengan pena, spidol, dan ember cat. Draf Anda tetap tersimpan, jadi Anda bisa kembali dan mengubahnya nanti.
+- **AI Playground**: pilih foto dan biarkan Apple Intelligence mengubah gayanya, lalu tampilkan hasilnya di casing. Desain ini hanya muncul di iPhone yang mendukung Apple Intelligence.
 - **Kode QR**: kode QR apa pun yang Anda simpan di NFC.cool, lengkap dengan desainnya sendiri, atau kode yang Anda ketik langsung. Warnanya bisa dibalik, dan aplikasi akan memperingatkan Anda kalau teksnya terlalu panjang sehingga kodenya sulit terbaca di layar sekecil itu.
 - **Acara berikutnya** atau **acara pilihan** dari kalender Anda.
 - **Agenda hari ini**: semua yang ada di kalender Anda hari ini.
@@ -104,11 +129,21 @@ Desain kalender dan pengingat hanyalah cuplikan sesaat. Casing menampilkan keada
 
 ---
 
+## Trik keren, dengan satu catatan
+
+Ada satu hal yang perlu Anda ketahui sebelum membeli casing seperti ini. Bagi iPhone Anda, casing ini tidak hanya terlihat seperti layar. Casing ini juga terlihat seperti tag NFC, dan Anda bisa menulis ke sana seperti ke tag biasa.
+
+Kedengarannya praktis, sampai Anda mencobanya. Misalnya Anda menulis sebuah tautan ke casing. Casing itu menempel tepat di atas antena NFC ponsel, jadi pembacaan tag di latar belakang pada iPhone menemukan tautan itu lagi dan lagi, dan terus memunculkan notifikasinya. Rasanya seperti ada kertas catatan yang ditempel di jidat Anda, lalu ponsel Anda terus membacakannya keras-keras.
+
+Hal sebaliknya juga terjadi. Chip casing berada di atas antena NFC ponsel, jadi saat Anda menempelkan tag lain ke bagian belakang ponsel, iPhone tidak mengenalinya. Yang terbaca hanya casing itu.
+
+Saya sendiri sudah lebih sering tidak sengaja menulis sesuatu ke casing saya daripada yang ingin saya akui. Untungnya, cara memperbaikinya mudah: NFC.cool bisa memformat ulang casing itu, dan setelah itu casing tidak akan mengganggu lagi.
+
+Semua ini bukan alasan untuk melewatkan casing seperti ini. Memang agak nyeleneh, tapi justru di situ kerennya. Hanya saja, perlu Anda ketahui bahwa layar NFC di belakang ponsel dan semua hal lain yang Anda lakukan dengan NFC sedikit saling mengganggu.
+
+---
+
 ## Yang perlu diketahui
-
-**Beri casing jeda di antara dua pengiriman.** Kalau Anda mengirim dua desain berturut-turut, desain kedua akan tampil pudar dan keabu-abuan. Casing butuh waktu sebentar untuk pulih setelah menggambar ulang. Aplikasi resminya meminta Anda menunggu satu menit, dan saran itu juga berlaku untuk NFC.cool.
-
-**Tahan posisinya.** Seluruh prosesnya butuh sedikit waktu, kebanyakan untuk menggambar ulang itu sendiri. Kalau ponsel Anda menjauh terlalu cepat, aplikasi akan memberi tahu, dan Anda tinggal mencoba lagi.
 
 **Untuk sementara, hanya di iPhone.** Fitur ini ada di aplikasi iPhone. Aplikasi Android belum memilikinya.
 
@@ -117,10 +152,11 @@ Desain kalender dan pengingat hanyalah cuplikan sesaat. Casing menampilkan keada
 - **DeerPhoneCase**, **KAZAVA**, **Novixand**, dan **TYOHINN** berfungsi dengan casing saya, dan NFC.cool juga. Kalau casing Anda datang dengan salah satu aplikasi ini, NFC.cool seharusnya bisa dipakai dengannya.
 - **Bestie e-INK** dan **KINGZER** tidak berfungsi dengan casing saya. Gambarnya terkirim lewat NFC tanpa masalah, tetapi saat casing seharusnya menggambar ulang, tidak terjadi apa-apa.
 - **SpaceInk+**, dari pengembang lain, sama sekali tidak berfungsi dengan casing saya. Aplikasinya hanya menampilkan "device channel information mismatch".
+- **AI Cast Assistant** adalah aplikasi bawaan casing lain yang lebih besar, dan NFC.cool sudah berfungsi dengannya sejak versi 7.3.0. Sejauh ini saya baru bisa mencoba casing milik Alex, yang untuk iPhone 17 Pro Max.
 
 Itu tidak berarti NFC.cool tidak bisa dipakai dengan casing untuk Bestie e-INK, KINGZER, atau SpaceInk+. Bisa jadi casing itu hanya sedikit berbeda dari punya saya, dan saya tidak bisa mengujinya. Kalau Anda punya salah satunya, [beri tahu saya](/contact/) apakah NFC.cool bisa dipakai dengannya atau tidak. Kalau casing Anda memakai aplikasi lain, NFC.cool akan memberi tahu bahwa casing itu belum didukung dan menawarkan tombol **Kirim detail casing**. Tombol itu mengirim detail teknis chip-nya saja, tanpa apa pun yang bisa mengidentifikasi Anda atau casing Anda, supaya saya bisa melihat casing mana yang benar-benar dimiliki orang dan menambahkan dukungannya.
 
-**Di mana membelinya.** Di Amazon, casing ini dijual dengan banyak nama merek, beberapa di antaranya cukup membingungkan, tetapi ujung-ujungnya casing yang sama. [Ini hasil pencariannya di Amazon](https://link.amazon/B0hUxLZTR) (tautan afiliasi). Casing saya bertuliskan DIY di bagian dalam, dan beberapa produk mencantumkan DIY di judulnya, jadi itu kata yang bagus untuk dicari. Kalau halaman produk menyebutkan aplikasi yang dipakai casing itu, carilah DeerPhoneCase, KAZAVA, Novixand, atau TYOHINN.
+**Di mana membelinya.** Di Amazon, casing ini dijual dengan banyak nama merek, beberapa di antaranya cukup membingungkan, tetapi ujung-ujungnya casing yang sama. [Ini hasil pencariannya di Amazon](https://link.amazon/B0hUxLZTR) (tautan afiliasi). Casing saya bertuliskan DIY di bagian dalam, dan beberapa produk mencantumkan DIY di judulnya, jadi itu kata yang bagus untuk dicari. Kalau halaman produk menyebutkan aplikasi yang dipakai casing itu, carilah DeerPhoneCase, KAZAVA, Novixand, TYOHINN, atau AI Cast Assistant. Dan belilah casing yang dibuat khusus untuk model iPhone Anda: antenanya disetel untuk ponsel itu, dan 15 Pro Max saya sama sekali tidak cocok dengan casing 17 Pro Max milik Alex.
 
 ---
 
@@ -128,4 +164,4 @@ Itu tidak berarti NFC.cool tidak bisa dipakai dengan casing untuk Bestie e-INK, 
 
 Kalau Anda punya casing seperti ini yang tergeletak begitu saja dan masih menampilkan gambar yang sama sejak hari pertama, saatnya memberinya tampilan yang lebih berguna. NFC.cool Tools tersedia di [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-e-ink-phone-case-iphone-id&mt=8).
 
-Dan kalau Anda belum pernah melihat layar e-ink berkedip lalu memunculkan gambar yang Anda kirim sendiri, saya sangat menyarankannya. Beberapa detik itu terasa sangat memuaskan.
+Dan kalau Anda belum pernah melihat layar e-ink berkedip lalu memunculkan gambar yang Anda kirim sendiri, saya sangat menyarankannya. Beberapa detik itu terasa sangat memuaskan. Sejauh ini, setiap kali saya memperlihatkan casing ini ke orang lain, reaksinya selalu kaget sekaligus senang.

@@ -3,15 +3,17 @@ id: "e-ink-phone-case-2026-10"
 title: "J'ai hacké ma coque e-ink pour que mon iPhone puisse écrire dessus"
 date: "2026-10-12"
 tags: ["announcements", "iphone", "nfc-tags"]
-summary: "J'ai une de ces coques de téléphone NFC à écran e-ink, sans batterie, et l'app fournie avec ne me plaisait pas. Alors j'ai décortiqué la façon dont elle communique, et NFC.cool Tools 7.2.0 sait désormais afficher des photos, des codes QR, votre prochain événement, l'agenda du jour et vos rappels sur les coques qui utilisent l'app DeerPhoneCase, KAZAVA, Novixand ou TYOHINN."
+summary: "J'ai une de ces coques de téléphone NFC à écran e-ink, sans batterie, et l'app fournie avec ne me plaisait pas. Alors j'ai décortiqué la façon dont elle communique, et NFC.cool Tools 7.2.0 sait désormais afficher des photos, des codes QR, votre prochain événement, l'agenda du jour et vos rappels sur les coques qui utilisent l'app DeerPhoneCase, KAZAVA, Novixand ou TYOHINN. Depuis la version 7.3.0, l'app affiche aussi des images sur les coques plus grandes qui utilisent AI Cast Assistant."
 image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "Un iPhone dans une coque noire dont le dos est un écran e-ink affichant un soleil rouge et jaune au-dessus de collines noires, à côté d'un second iPhone qui envoie la même image en NFC"
 author: "Nicolo Stanciu"
 metaTitle: "Coque NFC e-ink sur iPhone : photos, agenda et codes QR"
-metaDescription: "Affichez photos, codes QR, agenda et rappels sur une coque NFC e-ink sans batterie, depuis votre iPhone. Compatible avec les coques DeerPhoneCase, KAZAVA, Novixand et TYOHINN."
+metaDescription: "Affichez photos, codes QR, agenda et rappels sur une coque NFC e-ink sans batterie, depuis votre iPhone. Compatible avec les coques DeerPhoneCase, KAZAVA et AI Cast Assistant."
 ogTitle: "J'ai hacké ma coque e-ink pour que mon iPhone puisse écrire dessus"
 ogDescription: "Comment j'ai percé les secrets d'une coque NFC e-ink sans batterie, et ce que NFC.cool sait désormais afficher sur son écran."
 ---
+
+> **Mise à jour, octobre 2026 :** NFC.cool Tools 7.3.0 sait aussi dessiner sur les coques plus grandes qui utilisent l'app **AI Cast Assistant**, et ajoute deux nouveaux modèles, **Éditeur** et **AI Playground**. Je raconte plus bas comment nous avons fait fonctionner cette deuxième coque.
 
 L'écran a clignoté.
 
@@ -34,9 +36,9 @@ J'ai développé beaucoup de fonctions NFC au fil des années, et ce simple rect
 
 Si vous n'avez jamais vu une de ces coques : on dirait une coque de téléphone ordinaire, sauf qu'une bonne partie du dos est un écran e-ink, le même type d'affichage que sur une liseuse. La mienne dessine avec quatre encres : noir, blanc, rouge et jaune.
 
-Pas de batterie à l'intérieur, pas de port de charge. La coque tire son énergie du champ NFC de votre téléphone, celui-là même qui réveille un autocollant NFC quand vous le scannez. Tant que le téléphone est maintenu contre la coque, il alimente une petite puce et un microcontrôleur, qui redessinent l'écran. Une fois l'image en place, l'e-ink n'a plus besoin du moindre courant pour la garder. Elle reste là, même quand le téléphone est à plat ou que la coque dort au fond d'un tiroir.
+Pas de batterie à l'intérieur, pas de port de charge. La coque tire son énergie du champ NFC de votre téléphone, celui-là même qui réveille un autocollant NFC quand vous le scannez. Comme votre téléphone est logé juste à l'intérieur, la coque est toujours à portée de ce champ. Dès qu'une app le lui demande, le champ alimente une petite puce et un microcontrôleur, qui redessinent l'écran. Une fois l'image en place, l'e-ink n'a plus besoin du moindre courant pour la garder. Elle reste là, même quand le téléphone est à plat ou que la coque dort au fond d'un tiroir.
 
-Je la vois comme une sorte d'Écran magique que seul votre téléphone saurait secouer. Rien ne bouge tant que vous n'y reposez pas votre téléphone.
+Je la vois comme une sorte d'Écran magique que seul votre téléphone saurait secouer. Rien ne bouge tant que votre téléphone ne le lui demande pas.
 
 Ces coques sont vendues sous une foule de noms, et presque chaque marque a sa propre app. La mienne était livrée avec une app appelée **DeerPhoneCase**. Je reviens sur les autres plus bas.
 
@@ -79,12 +81,35 @@ Dès que NFC.cool a fait pareil, les images sont sorties impeccables. J'avoue qu
 
 ---
 
+## Une coque plus grande, retour à la case départ
+
+Mon ami Alex a une autre de ces coques. Elle est conçue pour l'iPhone 17 Pro Max, elle est livrée avec une app appelée **AI Cast Assistant**, et son écran compte plus de quatre fois plus de pixels que le mien.
+
+Quand il a essayé NFC.cool dessus, l'app a affiché une erreur. Elle n'a même pas tenté de dessiner quoi que ce soit.
+
+Impossible aussi de simplement lui emprunter la coque pour travailler dessus chez moi. Avec mon 15 Pro Max glissé dans une coque prévue pour le 17 Pro Max, plus rien ne se passait normalement. L'antenne de la coque semble accordée au téléphone pour lequel elle a été conçue. Toute la suite s'est donc déroulée avec la coque d'Alex, sur le téléphone d'Alex.
+
+Cette fois, l'app Android ne nous a pas été d'un grand secours. Le code que nous en avons extrait parlait à cette coque d'une façon qu'un iPhone n'a pas le droit d'utiliser, et le recopier ne menait nulle part.
+
+Nous avons donc construit un sniffer : une petite app Android qui se fait passer pour la coque. Vous approchez l'iPhone du téléphone Android, vous ouvrez AI Cast Assistant, et l'iPhone envoie sans se méfier son image à ce qu'il prend pour une coque, pendant que l'app Android note chaque octet au passage.
+
+Ce journal réservait deux surprises :
+
+1. L'app officielle compresse l'image avant de l'envoyer. Nous l'avions essayée sans compression, et la coque répondait OK à chaque paquet, puis ne dessinait rien.
+2. Quand le téléphone demande à la coque si elle a terminé, la coque ne répond tout simplement pas avant la fin du rafraîchissement, environ 21 secondes plus tard. En retenant sa réponse, elle garde la connexion ouverte, si bien que cette coque ne se heurte jamais au mur des 20 secondes.
+
+Une fois que NFC.cool a fait les deux, la toute première image que nous avons envoyée était une photo du chien d'Alex.
+
+---
+
 ## Ce que NFC.cool peut afficher sur votre coque
 
-La fonction se trouve dans **NFC.cool Tools 7.2.0**, dans la section Applications NFC, sous le nom **Coque e-ink**. Vous choisissez un modèle, vous voyez un aperçu fidèle de ce que la coque affichera, vous retirez la coque de votre téléphone et vous maintenez votre iPhone contre son dos jusqu'à ce que la fenêtre NFC se referme.
+La fonction se trouve dans **NFC.cool Tools**, dans la section Applications NFC, sous le nom **Coque e-ink**. Vous choisissez un modèle, vous voyez un aperçu fidèle de ce que la coque affichera, puis vous appuyez sur **Mettre sur la coque**. Votre iPhone est déjà dans la coque, il n'y a donc rien à positionner : la fenêtre NFC s'ouvre, la coque se redessine, et la fenêtre se referme d'elle-même une fois l'opération terminée.
 
-- **Photo** : n'importe quelle image de votre photothèque, recadrée au format de l'écran. Ce modèle convertit votre photo dans les quatre encres, avec une accentuation des couleurs (Standard, Vif ou Max) et une option noir et blanc.
+- **Photo** : n'importe quelle image de votre photothèque, recadrée au format de l'écran. Celui-ci est gratuit. Il convertit votre photo dans les quatre encres, avec une accentuation des couleurs (Standard, Vif ou Max) et une option noir et blanc.
 - **Détourage** : isole la personne, l'animal ou l'objet d'une photo et le place sur un fond de l'une des quatre encres.
+- **Éditeur** : partez d'une page blanche ou d'une photo, puis ajoutez du texte, des emoji et d'autres photos, ou dessinez au stylo, au marqueur et au pot de peinture. Votre brouillon est conservé, vous pouvez donc y revenir et le modifier plus tard.
+- **AI Playground** : choisissez une photo, laissez Apple Intelligence lui donner un nouveau style, puis envoyez le résultat sur la coque. Ce modèle n'apparaît que sur les iPhone dotés d'Apple Intelligence.
 - **Code QR** : n'importe quel code QR enregistré dans NFC.cool, avec son propre style, ou un texte que vous saisissez. Vous pouvez inverser les couleurs, et l'app vous prévient quand le texte est trop long pour que le code reste lisible sur un si petit écran.
 - **Prochain événement**, ou **Événement choisi** pour un rendez-vous précis de votre calendrier.
 - **Agenda du jour** : tout ce que contient votre calendrier aujourd'hui.
@@ -104,11 +129,21 @@ Les modèles de calendrier et de rappels sont des instantanés. La coque montre 
 
 ---
 
+## Un hack sympa, mais avec un hic
+
+Une chose à savoir avant d'en acheter une. Pour votre iPhone, la coque n'est pas qu'un écran. Elle se présente aussi comme un tag NFC, et vous pouvez y écrire comme sur n'importe quel tag.
+
+Ça a l'air pratique, jusqu'à ce que vous essayiez. Imaginons que vous écriviez un lien sur la coque. La coque est posée juste sur l'antenne NFC de votre téléphone, donc la lecture de tags en arrière-plan de votre iPhone retrouve ce lien encore et encore, et vous en affiche la notification sans arrêt. C'est un peu comme avoir un post-it collé sur le front, que votre téléphone vous lirait à voix haute en boucle.
+
+L'inverse est vrai aussi. La puce de la coque est posée sur l'antenne NFC du téléphone, alors quand vous approchez un autre tag du dos de votre téléphone, votre iPhone ne le reconnaît pas. Il ne voit que la coque.
+
+Il m'est arrivé d'écrire quelque chose par accident sur ma propre coque plus souvent que je ne voudrais l'avouer. Heureusement, la solution est simple : NFC.cool peut formater de nouveau la coque, et elle se tient tranquille ensuite.
+
+Rien de tout cela n'est une raison de bouder ces coques. C'est un peu un hack, mais un hack sympa. Sachez simplement qu'un écran NFC au dos de votre téléphone et tout ce que vous faites d'autre avec le NFC se marchent un peu sur les pieds.
+
+---
+
 ## Bon à savoir
-
-**Laissez la coque souffler entre deux envois.** Si vous envoyez deux modèles coup sur coup, le second sort délavé et grisâtre. La coque a besoin d'un moment pour récupérer entre deux rafraîchissements. L'app officielle demande d'attendre une minute, et le conseil vaut aussi pour NFC.cool.
-
-**Ne bougez pas.** L'opération prend un petit moment, surtout à cause du rafraîchissement lui-même. Si vous éloignez le téléphone trop tôt, l'app vous le signale et il suffit de recommencer.
 
 **iPhone uniquement, pour l'instant.** La fonction se trouve dans l'app iPhone. L'app Android ne l'a pas encore.
 
@@ -117,10 +152,11 @@ Les modèles de calendrier et de rappels sont des instantanés. La coque montre 
 - **DeerPhoneCase**, **KAZAVA**, **Novixand** et **TYOHINN** fonctionnent avec ma coque, et NFC.cool aussi. Si votre coque était livrée avec l'une de ces apps, NFC.cool devrait fonctionner avec elle.
 - **Bestie e-INK** et **KINGZER** ne fonctionnent pas avec la mienne. L'image passe sans souci par NFC, mais au moment où la coque devrait se rafraîchir, il ne se passe rien.
 - **SpaceInk+**, d'un autre développeur, ne fonctionne pas du tout avec ma coque. L'app affiche seulement « device channel information mismatch ».
+- **AI Cast Assistant** accompagne une autre coque, plus grande, et NFC.cool fonctionne avec elle depuis la version 7.3.0. Je n'ai pu essayer que celle d'Alex, prévue pour l'iPhone 17 Pro Max.
 
 Cela ne veut pas dire que NFC.cool ne fonctionne pas avec les coques Bestie e-INK, KINGZER ou SpaceInk+. Ce sont peut-être simplement des coques un peu différentes de la mienne, et je ne peux pas les tester. Si vous en avez une, [dites-moi](/contact/) si NFC.cool fonctionne avec elle ou non. Si la vôtre utilise autre chose, l'app vous indique qu'elle n'est pas encore prise en charge et vous propose un bouton **Envoyer les infos de la coque**. Il transmet les caractéristiques techniques de la puce, et rien qui permette de vous identifier, ni vous ni votre coque. Je peux ainsi voir quelles coques les gens possèdent vraiment, et les ajouter.
 
-**Où en trouver une.** Sur Amazon, ces coques se vendent sous une foule de marques, certaines assez énigmatiques, mais ce sont les mêmes coques derrière. [Voici une recherche sur Amazon](https://link.amazon/B0hUxLZTR) (lien affilié). La mienne porte la mention DIY imprimée à l'intérieur, et certaines annonces ont DIY dans leur titre, c'est donc un bon mot-clé à repérer. Si l'annonce indique l'app utilisée par la coque, cherchez DeerPhoneCase, KAZAVA, Novixand ou TYOHINN.
+**Où en trouver une.** Sur Amazon, ces coques se vendent sous une foule de marques, certaines assez énigmatiques, mais ce sont les mêmes coques derrière. [Voici une recherche sur Amazon](https://link.amazon/B0hUxLZTR) (lien affilié). La mienne porte la mention DIY imprimée à l'intérieur, et certaines annonces ont DIY dans leur titre, c'est donc un bon mot-clé à repérer. Si l'annonce indique l'app utilisée par la coque, cherchez DeerPhoneCase, KAZAVA, Novixand, TYOHINN ou AI Cast Assistant. Et prenez bien la coque conçue pour votre modèle d'iPhone exact : son antenne est accordée à ce téléphone, et mon 15 Pro Max ne s'entendait pas du tout avec la coque 17 Pro Max d'Alex.
 
 ---
 
@@ -128,4 +164,4 @@ Cela ne veut pas dire que NFC.cool ne fonctionne pas avec les coques Bestie e-IN
 
 Si l'une de ces coques traîne chez vous avec la même image que le premier jour, donnez-lui enfin quelque chose d'utile à afficher. NFC.cool Tools est disponible sur l'[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-e-ink-phone-case-iphone-fr&mt=8).
 
-Et si vous n'avez jamais vu un écran e-ink clignoter puis faire apparaître une image que vous lui avez envoyée vous-même, je ne peux que vous le conseiller. Ce sont quelques secondes délicieusement satisfaisantes.
+Et si vous n'avez jamais vu un écran e-ink clignoter puis faire apparaître une image que vous lui avez envoyée vous-même, je ne peux que vous le conseiller. Ce sont quelques secondes délicieusement satisfaisantes. Jusqu'ici, tous ceux à qui j'ai montré la coque ont été agréablement surpris.
