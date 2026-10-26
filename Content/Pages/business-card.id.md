@@ -175,6 +175,14 @@ Satu orang atau seluruh tim. Personal dan Pro dibeli di aplikasi; tim mulai di w
 
 </section>
 
+<section class="page-section">
+
+## Paket Halaman
+
+Jadikan kartu Anda halaman tempat orang bisa memesan, meminta penawaran harga, dan menulis kepada Anda. €5 per bulan atau €50 per tahun di sebagian besar Eropa Barat, Inggris, dan AS, mulai €2 per bulan di tempat lain. Gratis 14 hari. Dalam tim, setiap halaman €4 per bulan pada tagihan tim.
+
+</section>
+
 <section class="page-section" id="teams">
 
 ## Apa yang ditambahkan tim

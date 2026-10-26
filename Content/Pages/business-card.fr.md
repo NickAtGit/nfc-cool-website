@@ -175,6 +175,14 @@ Une personne ou toute une équipe. Personal et Pro s'achètent dans l'app ; les 
 
 </section>
 
+<section class="page-section">
+
+## Forfait Page
+
+Faites de votre carte une page où l'on peut réserver, demander un devis et vous écrire. €5 par mois ou €50 par an dans la plupart de l'Europe de l'Ouest, au Royaume-Uni et aux États-Unis, à partir de €2 par mois ailleurs. 14 jours gratuits. Dans une équipe, chaque page coûte €4 par mois sur la facture de l'équipe.
+
+</section>
+
 <section class="page-section" id="teams">
 
 ## Ce que les équipes ajoutent

@@ -2,15 +2,19 @@
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
+  - label: "一句话"
+    values: ["1 张名片。任何扫描它的人都能保存联系人和 .vcf。显示“Made with NFC.cool”。", "不显示“Made with NFC.cool”。潜在客户。分析。在应用内购买。", "不显示“Made with NFC.cool”。潜在客户。分析。在应用内购买。", "为你的团队准备的名片。在西欧大部分地区、英国和美国，每个席位每月 $5 或每年 $50，其他地区更低。免费试用 14 天。"]
   - label: "价格"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "每人每月 $5，或每年 $50"]
+    values: ["**$0**", "**$19.99**", "**$49.99**", "每个席位每月 $5 或每年 $50，其他地区更低"]
   - label: "名片数量"
     values: ["1", "1", "10", "每人一张"]
   - label: "分享、Apple Wallet、会议模式、PIN 码、数据导出"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "保存 vCard"
+  - label: "保存联系人和 .vcf"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "不显示“Made with NFC.cool”"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "线索获取"
+  - label: "潜在客户"
     values: ["✗", "✓", "✓", "✓"]
   - label: "数据分析"
     values: ["✗", "✓", "✓", "✓"]

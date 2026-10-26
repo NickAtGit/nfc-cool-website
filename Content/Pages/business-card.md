@@ -175,6 +175,14 @@ One person or a whole team. Personal and Pro are bought in the app; teams start 
 
 </section>
 
+<section class="page-section">
+
+## Page plan
+
+Turn your card into a page people can book, ask for a quote and write to. €5 a month or €50 a year in most of Western Europe, the UK and the US, from €2 a month elsewhere. 14 days free. On a team, each page is €4 a month on the team's bill.
+
+</section>
+
 <section class="page-section" id="teams">
 
 ## What teams add

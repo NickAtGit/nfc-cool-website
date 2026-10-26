@@ -175,6 +175,14 @@ Tek kişi ya da koca bir ekip. Personal ve Pro uygulamadan alınır, ekipler web
 
 </section>
 
+<section class="page-section">
+
+## Sayfa planı
+
+Kartınızı, insanların rezervasyon yapabildiği, teklif isteyebildiği ve size yazabildiği bir sayfaya dönüştürün. Batı Avrupa'nın çoğunda, Birleşik Krallık'ta ve ABD'de ayda €5 veya yılda €50, başka yerlerde ayda €2'den başlayan fiyatlarla. 14 gün ücretsiz. Bir ekipte her sayfa, ekibin faturasında ayda €4'tür.
+
+</section>
+
 <section class="page-section" id="teams">
 
 ## Ekipler neler ekliyor

@@ -175,6 +175,14 @@ Una persona o un team intero. Personal e Pro si acquistano nell'app; i team part
 
 </section>
 
+<section class="page-section">
+
+## Piano Pagina
+
+Trasforma il tuo biglietto in una pagina dove si può prenotare, chiedere un preventivo e scriverti. €5 al mese o €50 l'anno nella maggior parte dell'Europa occidentale, nel Regno Unito e negli Stati Uniti, da €2 al mese altrove. 14 giorni gratis. In un team, ogni pagina costa €4 al mese nella fattura del team.
+
+</section>
+
 <section class="page-section" id="teams">
 
 ## Cosa aggiungono i team

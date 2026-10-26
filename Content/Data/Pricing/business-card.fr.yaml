@@ -2,15 +2,19 @@
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
+  - label: "En bref"
+    values: ["1 carte. Enregistrer le contact et .vcf pour tous ceux qui la scannent. Affiche « Made with NFC.cool ».", "Sans « Made with NFC.cool ». Contacts. Statistiques. Dans l'app.", "Sans « Made with NFC.cool ». Contacts. Statistiques. Dans l'app.", "Des cartes de visite pour votre équipe. $5 par place et par mois ou $50 par an dans la plupart de l'Europe de l'Ouest, au Royaume-Uni et aux États-Unis, moins ailleurs. 14 jours gratuits."]
   - label: "Prix"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 par personne et par mois, ou $50 par an"]
+    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 par place et par mois ou $50 par an, moins ailleurs"]
   - label: "Cartes"
     values: ["1", "1", "10", "Une par personne"]
   - label: "Partage, Apple Wallet, Mode Conférence, code PIN, export des données"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Enregistrement de la vCard"
+  - label: "Enregistrer le contact et .vcf"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Sans « Made with NFC.cool »"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Génération de prospects"
+  - label: "Contacts"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Statistiques"
     values: ["✗", "✓", "✓", "✓"]

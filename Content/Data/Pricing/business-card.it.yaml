@@ -2,15 +2,19 @@
 # il token {{PRICING_TABLE:business-card}} in Content/Pages/business-card.it.md.
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
+  - label: "In breve"
+    values: ["1 biglietto. Salva contatto e .vcf per chiunque lo scansioni. Mostra “Made with NFC.cool”.", "Niente “Made with NFC.cool”. Contatti. Statistiche. Nell'app.", "Niente “Made with NFC.cool”. Contatti. Statistiche. Nell'app.", "Biglietti da visita per il tuo team. $5 a postazione al mese o $50 l'anno nella maggior parte dell'Europa occidentale, nel Regno Unito e negli Stati Uniti, meno nelle altre regioni. 14 giorni gratis."]
   - label: "Prezzo"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 a persona al mese, o $50 all'anno"]
+    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 a postazione al mese o $50 l'anno, meno nelle altre regioni"]
   - label: "Biglietti"
     values: ["1", "1", "10", "Uno per persona"]
   - label: "Condivisione, Apple Wallet, Modalità Conferenza, PIN, esportazione dei dati"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Salvataggio della vCard"
+  - label: "Salva contatto e .vcf"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Niente “Made with NFC.cool”"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Acquisizione lead"
+  - label: "Contatti"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Statistiche"
     values: ["✗", "✓", "✓", "✓"]

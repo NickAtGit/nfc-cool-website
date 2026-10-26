@@ -175,6 +175,14 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 </section>
 
+<section class="page-section">
+
+## 页面方案
+
+把你的名片变成一个可以预约、询价和给你留言的页面。在西欧大部分地区、英国和美国每月 €5 或每年 €50，其他地区每月 €2 起。免费试用 14 天。在团队中，每个页面在团队账单上每月 €4。
+
+</section>
+
 <section class="page-section" id="teams">
 
 ## 团队版新增了什么

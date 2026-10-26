@@ -2,15 +2,19 @@
 # içindeki {{PRICING_TABLE:business-card}} belirteciyle PricingTableRenderer üretir.
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
+  - label: "Kısaca"
+    values: ["1 kart. Tarayan herkes kişiyi ve .vcf'yi kaydedebilir. “Made with NFC.cool” gösterir.", "“Made with NFC.cool” yok. Potansiyel müşteriler. Analizler. Uygulamada.", "“Made with NFC.cool” yok. Potansiyel müşteriler. Analizler. Uygulamada.", "Ekibiniz için kartvizitler. Batı Avrupa'nın çoğunda, Birleşik Krallık'ta ve ABD'de koltuk başına ayda $5 veya yılda $50, diğer bölgelerde daha az. 14 gün ücretsiz."]
   - label: "Fiyat"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "Kişi başı ayda $5 ya da yılda $50"]
+    values: ["**$0**", "**$19,99**", "**$49,99**", "Koltuk başına ayda $5 veya yılda $50, diğer bölgelerde daha az"]
   - label: "Kart"
     values: ["1", "1", "10", "Kişi başı bir"]
   - label: "Paylaşım, Apple Wallet, Konferans Modu, PIN, veri dışa aktarma"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "vCard olarak kaydetme"
+  - label: "Kişiyi ve .vcf'yi kaydetme"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "“Made with NFC.cool” yok"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Müşteri adayı toplama"
+  - label: "Potansiyel müşteriler"
     values: ["✗", "✓", "✓", "✓"]
   - label: "İstatistikler"
     values: ["✗", "✓", "✓", "✓"]

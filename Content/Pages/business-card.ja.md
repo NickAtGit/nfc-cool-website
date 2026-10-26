@@ -175,6 +175,14 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 </section>
 
+<section class="page-section">
+
+## ページプラン
+
+カードを、予約・見積もり依頼・メッセージを受け付けるページに。西ヨーロッパの大半、英国、米国では月€5または年€50、その他の地域では月€2から。14日間無料。チームでは各ページがチームの請求に月€4で加わります。
+
+</section>
+
 <section class="page-section" id="teams">
 
 ## チームでできること

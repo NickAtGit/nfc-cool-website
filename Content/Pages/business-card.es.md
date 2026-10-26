@@ -175,6 +175,14 @@ Una persona o un equipo entero. Personal y Pro se compran en la app; los equipos
 
 </section>
 
+<section class="page-section">
+
+## Plan de página
+
+Convierte tu tarjeta en una página donde la gente puede reservar, pedir un presupuesto y escribirte. €5 al mes o €50 al año en la mayor parte de Europa occidental, el Reino Unido y EE. UU., desde €2 al mes en otros lugares. 14 días gratis. En un equipo, cada página cuesta €4 al mes en la factura del equipo.
+
+</section>
+
 <section class="page-section" id="teams">
 
 ## Qué aportan los equipos

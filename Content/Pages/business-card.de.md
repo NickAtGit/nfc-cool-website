@@ -175,6 +175,14 @@ Eine Person oder ein ganzes Team. Personal und Pro kaufst du in der App, Teams s
 
 </section>
 
+<section class="page-section">
+
+## Seiten-Tarif
+
+Mach aus deiner Karte eine Seite, auf der man buchen, ein Angebot anfragen und dir schreiben kann. €5 im Monat oder €50 im Jahr in den meisten Ländern Westeuropas, in Großbritannien und den USA, anderswo ab €2 im Monat. 14 Tage kostenlos. Im Team kostet jede Seite €4 im Monat auf der Rechnung des Teams.
+
+</section>
+
 <section class="page-section" id="teams">
 
 ## Das bringen Teams

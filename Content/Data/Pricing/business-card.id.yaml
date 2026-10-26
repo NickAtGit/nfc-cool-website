@@ -2,15 +2,19 @@
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
+  - label: "Singkatnya"
+    values: ["1 kartu. Simpan kontak dan .vcf untuk siapa pun yang memindainya. Menampilkan “Made with NFC.cool”.", "Tanpa “Made with NFC.cool”. Prospek. Analitik. Di aplikasi.", "Tanpa “Made with NFC.cool”. Prospek. Analitik. Di aplikasi.", "Kartu nama untuk tim Anda. $5 per kursi per bulan atau $50 per tahun di sebagian besar Eropa Barat, Inggris, dan AS, lebih murah di wilayah lain. Gratis 14 hari."]
   - label: "Harga"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "$5 per orang per bulan, atau $50 per tahun"]
+    values: ["**$0**", "**$19.99**", "**$49.99**", "$5 per kursi per bulan atau $50 per tahun, lebih murah di wilayah lain"]
   - label: "Kartu"
     values: ["1", "1", "10", "Satu per orang"]
   - label: "Berbagi, Apple Wallet, Conference Mode, PIN, ekspor data"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Simpan vCard"
+  - label: "Simpan kontak dan .vcf"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Tanpa “Made with NFC.cool”"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Generasi prospek"
+  - label: "Prospek"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Analitik"
     values: ["✗", "✓", "✓", "✓"]

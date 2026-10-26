@@ -2,15 +2,19 @@
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
+  - label: "In short"
+    values: ["1 card. Save contact and .vcf for everyone who scans it. Shows “Made with NFC.cool”.", "No “Made with NFC.cool”. Leads. Analytics. In the app.", "No “Made with NFC.cool”. Leads. Analytics. In the app.", "Business cards for your people. $5 a seat a month or $50 a year in most of Western Europe, the UK and the US, less in other regions. 14 days free."]
   - label: "Price"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "$5 per person a month, or $50 a year"]
+    values: ["**$0**", "**$19.99**", "**$49.99**", "$5 a seat a month or $50 a year, less in other regions"]
   - label: "Cards"
     values: ["1", "1", "10", "One per person"]
   - label: "Sharing, Apple Wallet, Conference Mode, PIN, data export"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "vCard save"
+  - label: "Save contact and .vcf"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "No “Made with NFC.cool”"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Lead generation"
+  - label: "Leads"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Analytics"
     values: ["✗", "✓", "✓", "✓"]
