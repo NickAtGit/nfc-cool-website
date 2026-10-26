@@ -1,11 +1,11 @@
 ---
 id: "ultimate-nfc-tag-guide-2026-09"
 title: "The Ultimate NFC Tag Guide: Every Chip, What It Is For, and What Reads It"
-date: "2026-09-09"
+date: "2026-10-26"
 tags: ["nfc-tags", "guides"]
 summary: "Every NFC chip you can buy, from a 48-byte NTAG210 to a DESFire EV3, with the real numbers: memory, protection, endurance, what an iPhone and an Android phone can do with it, and which job it is actually built for."
 image: "/assets/images/Blog/ultimate-nfc-tag-guide.webp"
-imageAlt: "An iPhone with a glowing NFC icon behind a fan of NFC tag form factors: a sticker, a coin, a PVC card, a keyfob, a wristband and a clear inlay"
+imageAlt: "An iPhone with a glowing NFC icon behind a row of NFC tag form factors: a sticker, a coin, a PVC card, a keyfob, a wristband and a clear inlay"
 author: "Nicolo Stanciu"
 metaTitle: "The Ultimate NFC Tag Guide: Every Chip Explained"
 metaDescription: "Every NFC chip in one place: NTAG, MIFARE, DESFire, ICODE, ST25, FeliCa, Topaz and the clones. Memory, security, endurance, what reads it, and which tag fits which job."
