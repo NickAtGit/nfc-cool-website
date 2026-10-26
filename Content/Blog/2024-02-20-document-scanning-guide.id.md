@@ -20,6 +20,16 @@ Inilah cara menggunakannya dengan baik.
 
 Buka NFC.cool Tools, ketuk ikon dokumen, dan bingkai halaman. Pemindai menggambar kotak kuning di sekitar apa yang dianggapnya sebagai tepi halaman. Sebagian besar waktu itu benar. Ketika tidak, seret sudutnya hingga pas.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Dari kertas ke PDF yang bisa dicari</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="Kamera dokumen di NFC.cool Tools, dengan perjanjian sewa yang terdeteksi dan sudut-sudutnya ditandai"><p><strong>Ambil gambar.</strong> Halaman ditemukan dan sudut-sudutnya disesuaikan untuk Anda.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="Teks yang dikenali dari sebuah faktur, dengan Share text dan Copy text to clipboard"><p><strong>Baca teksnya.</strong> OCR mengubah pindaian menjadi teks yang bisa disalin atau dibagikan.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="Dokumen Tersimpan dicari dengan Portland, menemukan faktur, struk, dan perjanjian sewa"><p><strong>Temukan nanti.</strong> Pencarian menemukan dokumen lewat kata apa pun di dalamnya.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF, dengan Share dan Save to Files"><p><strong>Ekspor.</strong> PDF yang bisa dicari, dibagikan atau disimpan ke Files.</p></li>
+</ol>
+</figure>
+
 Beberapa tips yang benar-benar meningkatkan hasilnya:
 
 - **Cahaya alami lebih baik dari lampu di atas kepala.** Lampu plafon kantor membuat bayangan dari ponsel itu sendiri ke halaman. Cahaya siang dari jendela, atau lampu meja yang diarahkan melintasi halaman, lebih baik.

@@ -136,6 +136,12 @@ Si vous êtes basé en Europe - ou si vous faites affaire avec qui que ce soit e
 
 En toute transparence : ici, c'est le blog de NFC.cool, alors je vais parler de mon approche. Mais j'ai essayé d'être honnête sur le paysage ci-dessus, et je le serai ici aussi.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/why-privacy-matters-digital-business-card/profile-settings-440w.webp" alt="Les réglages du profil dans NFC.cool Business Card : une carte publique, ou une carte privée visible seulement avec un PIN et non indexée par les moteurs de recherche, plus les options de collecte de leads"><p><strong>Publique ou privée.</strong> Une carte privée demande un PIN pour être vue, et la collecte de leads ne tourne que si vous l'activez.</p></li>
+</ol>
+</figure>
+
 Quand j'ai conçu [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-fr&mt=8), la confidentialité n'était ni une réflexion après coup ni une case à cocher marketing. Elle a façonné le produit :
 
 **Profils protégés par code PIN** - Vous pouvez verrouiller votre carte de visite derrière un code PIN à 4 chiffres, avec un nombre de tentatives limité. Partagez librement l'URL de votre carte, mais ne laissez les gens voir vos coordonnées que lorsque vous le décidez. C'est utile pour les cartes NFC que vous pourriez perdre, ou lorsque vous voulez contrôler qui voit l'ensemble de vos coordonnées.

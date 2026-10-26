@@ -182,6 +182,13 @@ Bazı platformlar temel olması gereken özellikler için aylık abonelik (ayda 
 
 ## NFC.cool ikisini nasıl karşılıyor
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/1-qr-440w.webp" alt="NFC.cool Business Card'ta tam ekran kart QR kodu; Share ve Save to Photos ile"><p><strong>QR kod.</strong> Telefonunda tam ekran ya da yazdırmak için kaydedilmiş.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/2-wallet-440w.webp" alt="Renk ön ayarları, özel renkler, logo ve Add to Apple Wallet içeren Wallet Pass ekranı"><p><strong>Apple Wallet.</strong> Kartın, kendi renklerinde bir Wallet kartı olarak iPhone'unda.</p></li>
+</ol>
+</figure>
+
 Açık olayım: burası benim blogum, elbette kendi çözümümden söz edeceğim. Ama burada gerçekten yerinde olduğunu düşünüyorum.
 
 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-tr&mt=8) baştan itibaren **hem NFC hem QR kod paylaşımını** destekleyecek biçimde kuruldu; ayrı ürünler olarak değil, aynı kartın iki yüzü olarak:

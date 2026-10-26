@@ -3,28 +3,28 @@ backLinkText: "← Все возможности"
 
 card:
   title: "Сканер штрихкодов"
-  description: "Сканируй 13 форматов штрихкодов и ещё 6 двумерных кодов: EAN, UPC, QR, PDF417, Data Matrix и другие. Пакетный режим держит камеру открытой для инвентаризации и регистрации гостей."
+  description: "Сканируй EAN, UPC, Code 128, QR, PDF417, Data Matrix и другие коды на iPhone и Android. Пакетный режим держит камеру открытой для инвентаризации и регистрации гостей."
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "Только iOS"
+  platforms: "iOS · Android"
 
 hero:
   title: "Сканер штрихкодов"
-  subtitle: "19 форматов кодов: 13 линейных штрихкодов (EAN, UPC, Code 128, GS1 DataBar и другие) и 6 двумерных (QR, PDF417, Aztec, Data Matrix и версии Micro). Пакетный режим держит камеру открытой для инвентаризации и регистрации гостей."
-  platforms: "Только iOS"
+  subtitle: "Сканируй EAN, UPC, Code 128, Code 39, ITF, QR, PDF417, Aztec и Data Matrix на iPhone и Android, а на iPhone ещё GS1 DataBar и версии Micro (всего 19 форматов). Пакетный режим держит камеру открытой для инвентаризации и регистрации гостей."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "Что можно делать"
 capabilities:
   - title: "Читать все основные форматы"
-    description: "EAN-13 и EAN-8, UPC-E (UPC-A читается как EAN-13), Code 128, Code 39 вместе с Mod 43, Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix и другие. Формат определяется сам, режимы переключать не надо."
+    description: "EAN-13 и EAN-8, UPC-A и UPC-E, Code 128, Code 39, Code 93, ITF, ITF-14, Codabar, PDF417, Aztec, Data Matrix и QR на обеих платформах, а на iPhone ещё GS1 DataBar, Code 39 Mod 43, Micro QR и Micro PDF417. Формат определяется сам, режимы переключать не надо."
   - title: "Работать пакетом"
     description: "Считывай стопку штрихкодов подряд, не наводя камеру заново. Пригодится на инвентаризации, регистрации гостей и в библиотечном архиве."
   - title: "Искать товар по коду"
-    description: "Нажми на считанный товарный штрихкод, и его номер уйдёт в заранее выбранный поисковик (Google, Ecosia, DuckDuckGo, Bing или Startpage), а подходящие результаты вернутся сразу."
+    description: "Нажми на считанный товарный штрихкод, и его номер уйдёт в поисковик, а подходящие результаты вернутся сразу. На iPhone поисковик выбираешь сам: Google, Ecosia, DuckDuckGo, Bing или Startpage."
   - title: "Хранить историю и делиться"
     description: "Каждое сканирование сохраняется с отметкой времени. Отмечай нужное избранным, давай сканам свои названия и отправляй их прямо из истории."
   - title: "Запускать действие при считывании"
-    description: "Ссылки и служебные коды могут открываться сразу после сканирования, отправлять вебхук или зачитываться вслух: те же пять сценариев, что у NFC и QR."
+    description: "На iPhone и Android ссылки могут открываться сразу после сканирования. На iPhone скан может ещё запустить быструю команду, отправить вебхук или зачитать результат вслух: те же пять сценариев, что у NFC и QR."
 
 subsectionsTitle: "Сделано для больших объёмов"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>Три настройки превращают сканер из разового в непрерывный. <strong>Мультискан</strong> позволяет считать несколько кодов за один сеанс камеры. <strong>Пакетное чтение</strong> держит камеру открытой для инвентаризации и регистрации гостей. <strong>Автофонарик</strong> включает вспышку в темноте, чтобы не искать кнопку фонарика на ощупь.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone сканирует несколько QR-кодов и штрихкодов при свете фонарика"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Вебхуки для инвентаризации и регистрации гостей"
     body: "<p>Направь сканер штрихкодов в свою учётную систему. Каждое считывание отправляет вебхук на твой адрес, и база склада, CRM с участниками или библиотечный каталог обновляются в реальном времени, пока камера идёт по полке. Форма JSON и пример сервера описаны на странице <a href=\"/features/webhooks/\">«Вебхуки и автоматизация»</a>.</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "NFC.cool синхронизируется между iPhone, iPad и Mac"
     platforms: "iOS"
 
-specsTitle: "Поддерживаемые форматы (всего 19)"
+specsTitle: "Поддерживаемые форматы (19 на iOS, 13 на Android)"
 specs:
-  - title: "Линейные штрихкоды (13 форматов)"
+  - title: "Линейные штрихкоды"
     items:
       - "EAN-13, EAN-8"
-      - "UPC-E (UPC-A читается как EAN-13)"
-      - "Code 39, Code 39 Mod 43"
+      - "UPC-A, UPC-E (iOS читает UPC-A как EAN-13)"
+      - "Code 39 (Mod 43 на iOS)"
       - "Code 93, Code 128"
       - "Codabar"
       - "Interleaved 2 of 5, ITF-14"
-      - "GS1 DataBar (обычный, Expanded, Limited)"
-  - title: "Двумерные и составные коды (6 форматов)"
+      - "GS1 DataBar: обычный, Expanded, Limited (iOS)"
+  - title: "Двумерные и составные коды"
     items:
       - "QR Code"
-      - "Micro QR"
+      - "Micro QR (iOS)"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417 (iOS)"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "Частые вопросы"
 faq:
-  - question: "Почему это только для iOS?"
-    answer: "Версия NFC.cool для Android сейчас сосредоточена на NFC и цифровой визитке. Сканирование штрихкодов есть в планах для Android."
+  - question: "Сканер штрихкодов работает на Android?"
+    answer: "Да. NFC.cool Tools на Android читает 13 форматов (EAN, UPC, Code 128, Code 39, Code 93, ITF, Codabar, QR, PDF417, Aztec и Data Matrix) и поддерживает пакетный режим и мультискан. Пока только на iPhone есть GS1 DataBar, Micro QR, Micro PDF417, вебхуки при сканировании и выбор поисковика."
   - question: "Можно ли считать несколько штрихкодов сразу?"
     answer: "Да, пакетный режим держит камеру открытой и складывает в очередь всё, что находит. Нажми на любой элемент очереди, чтобы с ним поработать."
   - question: "Можно ли сохранять сканы и делиться ими?"

@@ -77,6 +77,15 @@ That is the whole setup, and I deliberately kept it that short. From that point 
 
 If you ever want to stop it, the app can turn the counter off on an existing tag. The chip stops swapping in live values, but the content stays on the tag exactly as it was last written. One detail worth knowing: the chip keeps counting internally even after you switch the substitution off - the count is never lost, it just stops being shown.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Setting Up a Counting Tag</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="The NFC Tap Counter screen in NFC.cool Tools: a link that updates its tap count and tag ID on every scan, for NTAG213, NTAG215 and NTAG216"><p><strong>NFC Tap Counter.</strong> In NFC Tools, for NTAG213, 215 and 216 tags.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="The content choices URL, Email, SMS and Shortcut, with Try it out below"><p><strong>Pick the content.</strong> A URL, an email, an SMS or, on iPhone, a Shortcut.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter and NFC Tag ID switched on, batch write off, and the preview https://studionord.example/table-7?nfc=049F50824F1390x000007, with Write to NFC Tag"><p><strong>Toggles and preview.</strong> The preview shows where the tag ID and the count will land, before you write.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Where the Count and Tag ID Show Up

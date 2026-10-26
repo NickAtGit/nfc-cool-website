@@ -182,6 +182,13 @@ Algunas plataformas cobran suscripciones mensuales (entre 5 y 15 USD/mes) por fu
 
 ## Cómo lo gestiona NFC.cool
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/1-qr-440w.webp" alt="El código QR de la tarjeta a pantalla completa en NFC.cool Business Card, con Share y Save to Photos"><p><strong>Código QR.</strong> A pantalla completa en tu móvil, o guardado para imprimir.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/2-wallet-440w.webp" alt="La pantalla Wallet Pass con colores predefinidos, colores propios, un logo y Add to Apple Wallet"><p><strong>Apple Wallet.</strong> Tu tarjeta como pase de Wallet, con tus colores, en el iPhone.</p></li>
+</ol>
+</figure>
+
 Transparencia total: este es mi blog, así que por supuesto voy a mencionar mi propia solución. Pero creo que es genuinamente relevante aquí.
 
 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) se diseñó desde el principio para admitir **compartir por NFC y por código QR** - no como productos separados, sino como dos caras de la misma tarjeta:

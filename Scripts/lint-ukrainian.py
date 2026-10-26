@@ -212,6 +212,10 @@ ALLOWED_PHRASES = [
     # every locale uses including `en`, not a dash standing in for `—`.
     " - NFC.cool",
     "NFC.cool - ",
+    # NFC.cool Tools' own Ukrainian label for the "Save for later" toggle on
+    # the Password Protection screen. Posts quote it verbatim so it matches
+    # the screen, even though it is a ви-imperative.
+    "Збережіть на потім",
 ]
 
 # --- The copula `X це Y` ---------------------------------------------------

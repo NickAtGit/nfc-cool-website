@@ -39,6 +39,16 @@ Birkaç pratik kural:
 
 Tam tarama 20-40 saniyelik yürüyüş, sonra 30-60 saniyelik işlem sürüyor.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Bir nesneyi 3B taramak</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/1-scan-object-440w.webp" alt="NFC.cool Tools'taki 3D sekmesi, Scan Object ve Scan Room ile"><p><strong>Scan Object.</strong> 3D sekmesinde, Scan Room'un yanında.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/2-walk-around-440w.webp" alt="Nesne yakalama ekranı: çerçevenin içinde taşınabilir bir radyo ve etrafında dolaşırken nesnenin tamamını çerçevede tutma uyarısı"><p><strong>Etrafında dolaş.</strong> Nesneyi çerçevede tutarak yavaşça etrafını dön.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/3-building-440w.webp" alt="Yüzde 62'deki ilerleme halkası: Building your 3D model"><p><strong>Oluşmasını bekle.</strong> Model iPhone'unda oluşturulur. Bu sırada uygulamayı açık tut.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/4-model-440w.webp" alt="Bitmiş model: nesne olarak kaydedilmiş Vintage Radio"><p><strong>Modelin.</strong> Diğerleriyle birlikte kaydedilir, görüntülemeye ya da dışa aktarmaya hazır.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Dışa aktarma biçimleri

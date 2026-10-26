@@ -42,6 +42,12 @@ Apple 在 2014 年的 iPhone 6 和 6 Plus 上首次搭载了 NFC 硬件，但当
 
 ## NDEF：通用的语言
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-on-iphones-insider-look/ndef-record-440w.webp" alt="NFC.cool Tools 读到的一条名片记录，下方是原始 vCard 内容：BEGIN:VCARD、VERSION:3.0，以及 Anna Miller 的 N 和 FN"><p><strong>打开一条 NDEF 记录。</strong>NFC.cool 显示的联系人记录，下面是原始 vCard。</p></li>
+</ol>
+</figure>
+
 架在 NFC 射频之上的数据层就是 **NDEF**，即 NFC 数据交换格式（NFC Data Exchange Format）。我把它形容为一种小巧的自描述记录格式：一枚标签里携带一条或多条记录，每条记录都带有一个类型（URI、文本、vCard、Wi-Fi 凭据、自定义 MIME）和一段数据。
 
 这个星球上每一部支持 NFC 的手机都讲 NDEF 这门语言，所以在 Android 设备上写好的标签，拿到 iPhone 上也能正常读取，反之亦然。在移动领域，这是 iOS 和 Android 为数不多真正共用同一套标准的地方之一。说实话，在做功能的时候，这种互通正是我最庆幸的一点：我面向的是格式，而不是某个平台。如果你想试着自己写入记录，我在 [如何在 iPhone 上写入 NFC 标签](/blog/write-nfc-tags-iphone/) 里完整走了一遍流程。

@@ -136,6 +136,12 @@ La conclusione pratica: scegli una piattaforma che prenda sul serio il GDPR fin 
 
 Metto le mani avanti: questo è il blog di NFC.cool, quindi adesso ti parlo del mio approccio. Ho cercato di essere onesto sul quadro generale qui sopra e lo sarò anche adesso.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/why-privacy-matters-digital-business-card/profile-settings-440w.webp" alt="Le impostazioni del profilo in NFC.cool Business Card: un biglietto pubblico, o uno privato che si vede solo con un PIN e non viene indicizzato dai motori di ricerca, più le opzioni di raccolta dei lead"><p><strong>Pubblico o privato.</strong> Un biglietto privato si vede solo con il PIN, e la raccolta dei lead parte solo se la attivi.</p></li>
+</ol>
+</figure>
+
 Quando ho creato [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-it&mt=8), la privacy non è arrivata alla fine e non è una casella da spuntare nel marketing: ha dato forma al prodotto.
 
 **Profili protetti da PIN** - Il biglietto si chiude dietro un PIN di quattro cifre, con un limite ai tentativi. Il link lo condividi senza pensieri e i recapiti li vede solo chi vuoi tu, quando vuoi tu. Utile per le tessere NFC che potresti perdere, o quando vuoi decidere tu chi vede tutti i recapiti.

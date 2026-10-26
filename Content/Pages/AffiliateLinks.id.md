@@ -19,8 +19,8 @@ Setelah beberapa tahun merilis aplikasi NFC dan membaca ribuan email dukungan, i
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/Affiliate/create-nfc-tag.webp" alt="NFC.cool Tools - layar Buat Tag NFC di iPhone, siap menulis tag baru" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene is-boxed">
+<img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="Enam kartu NFC.cool berwarna terbuka seperti kipas" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

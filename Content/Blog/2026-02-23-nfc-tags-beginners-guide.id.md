@@ -143,6 +143,13 @@ Ketika Anda menulis tag di aplikasi seperti NFC.cool Tools, Anda membuat rekaman
 
 ## Membaca tag NFC
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="Tab NFC di NFC.cool Tools dengan tombol Read NFC dan Write NFC"><p><strong>Baca dengan aplikasi.</strong> Ketuk Read NFC dan tempelkan tag ke bagian atas iPhone Anda.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="Tag yang dibaca di NFC.cool Tools: entri kartu nama untuk Anna Miller, dengan vCard mentah di bawahnya"><p><strong>Lihat semua isinya.</strong> Setiap entri di tag, bukan hanya tautan yang ditampilkan iOS.</p></li>
+</ol>
+</figure>
+
 ### Di iPhone
 
 iPhone menangani tag secara otomatis. Pada **iPhone XS dan yang lebih baru** (serta iPhone SE generasi ke-3), pembacaan NFC berjalan di latar belakang - dekatkan bagian atas ponsel ke tag dan ia langsung membacanya, tidak perlu aplikasi. iPhone yang lebih lama (7, 8, X) mengharuskan Anda membuka aplikasi pembaca NFC terlebih dahulu.
@@ -261,6 +268,12 @@ Sembunyikan tag di sekitar suatu lokasi, masing-masing mengungkapkan petunjuk at
 ---
 
 ## Tag NFC dan Shortcuts iPhone
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="Pengaturan NFC di NFC.cool Tools dengan Read with tag details, Open Web Link when read, Run Shortcut when read, dan Play audio file when read yang menyala"><p><strong>Jalankan pintasan saat membaca.</strong> NFC.cool bisa membuka tautan, menjalankan pintasan, atau memutar suara saat tag dibaca.</p></li>
+</ol>
+</figure>
 
 Ini adalah hal favorit yang saya tunjukkan kepada orang-orang. Aplikasi **Shortcuts** milik Apple (bawaan iOS) memiliki dukungan pemicu NFC asli, dan di sinilah tag beralih dari berguna menjadi benar-benar powerful di iPhone.
 

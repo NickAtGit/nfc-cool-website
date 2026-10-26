@@ -39,6 +39,16 @@ NFC.cool Toolsの**3Dスキャン**機能は、そのパイプラインをポケ
 
 スキャン全体は20〜40秒の歩行、その後30〜60秒の処理。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>物体を3Dでスキャンする</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/1-scan-object-440w.webp" alt="NFC.cool Toolsの3Dタブ。Scan ObjectとScan Room"><p><strong>Scan Object。</strong>3Dタブの、Scan Roomの隣にあります。</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/2-walk-around-440w.webp" alt="物体のキャプチャ画面。枠の中のポータブルラジオと、周りを歩く間は物体全体を枠に収めるようにという案内"><p><strong>周りを歩く。</strong>物体を枠に収めたまま、ゆっくり一周します。</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/3-building-440w.webp" alt="62%の進捗リング。Building your 3D model"><p><strong>生成を待つ。</strong>モデルはiPhone上で作られます。その間はアプリを開いたままに。</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/4-model-440w.webp" alt="完成したモデル。Vintage Radioとして保存されている"><p><strong>あなたのモデル。</strong>ほかのモデルと一緒に保存され、表示や書き出しができます。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## エクスポート形式

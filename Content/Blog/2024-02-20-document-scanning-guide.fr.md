@@ -20,6 +20,16 @@ Voici comment bien l'utiliser.
 
 Ouvrez NFC.cool Tools, touchez l'icône document et cadrez la page. Le scanner trace un quadrilatère jaune autour de ce qu'il pense être les bords de la page. La plupart du temps, il a raison. Quand ce n'est pas le cas, déplacez les coins jusqu'à ce qu'ils s'ajustent.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Du papier au PDF consultable</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="L'appareil photo à documents de NFC.cool Tools, avec un bail détecté et ses coins marqués"><p><strong>Capturer.</strong> La page est détectée et ses coins ajustés pour vous.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="Le texte reconnu sur une facture, avec Share text et Copy text to clipboard"><p><strong>Lire le texte.</strong> L'OCR transforme le scan en texte à copier ou à partager.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="Documents enregistrés recherchés avec Portland : une facture, un ticket de caisse et un bail"><p><strong>Le retrouver.</strong> La recherche trouve un document grâce à n'importe quel mot qu'il contient.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF, avec Share et Save to Files"><p><strong>Exporter.</strong> Un PDF consultable, partagé ou enregistré dans Fichiers.</p></li>
+</ol>
+</figure>
+
 Quelques conseils qui améliorent vraiment le résultat :
 
 - **La lumière naturelle vaut mieux que l'éclairage du plafond.** Les plafonniers de bureau projettent l'ombre du téléphone lui-même sur la page. La lumière du jour venant d'une fenêtre, ou une lampe de bureau inclinée en travers de la page, donne un meilleur résultat.

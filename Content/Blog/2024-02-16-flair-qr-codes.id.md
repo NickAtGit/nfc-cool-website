@@ -16,6 +16,12 @@ Kode QR tidak harus berupa kotak hitam putih yang polos. Koreksi kesalahan dalam
 
 ## Warna: pilih apa saja, tapi perhatikan kontras
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/flair-qr-codes/studio-440w.webp" alt="QR Code Studio di NFC.cool Tools: kode QR dengan sudut kuning dan titik biru tua, dengan preset dan opsi acak di bawahnya"><p><strong>QR Code Studio.</strong> Warna, bentuk, dan preset, atau biarkan diacak sampai ada yang cocok.</p></li>
+</ol>
+</figure>
+
 QR Studio memungkinkan Anda memilih warna apa pun untuk latar depan (modul) dan latar belakang. Anda bisa mencocokkan palet merek, mengisyaratkan tema kampanye, atau sekadar membuat kode terlihat lebih menarik di poster.
 
 Namun ada satu aturan penting: **kontras**. Pemindai kode QR bekerja dengan mengambil sampel piksel dan memutuskan mana yang "gelap" dan mana yang "terang". Jika latar depan dan latar belakang Anda terlalu mirip luminansinya, pemindai akan menyerah - bahkan ketika kode lulus uji mata manusia.

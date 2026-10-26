@@ -34,6 +34,16 @@ ogDescription: "iPadやMacにNFCチップがない？外付けUSBリーダーが
 
 私がこれを作るうえで基準にし、実際にテストした唯一のリーダーは、HID OMNIKEY 5022 CLです。他のUSBリーダーも動きます。そのうちのいくつかは、実際に試したユーザーの方から報告があったもので、下のリストにまとめてあります。
 
+<figure class="phone-figure" data-layout="stage" data-device="ipad">
+<figcaption>USBリーダーをつないだiPad</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-1-place-tag-600w.webp" alt="外付けUSB NFCリーダーをつないだiPadのNFC.cool。Place tag on reader"><p><strong>リーダーをつなぐ。</strong>NFC.coolが自動で認識し、タグを待ちます。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-2-tag-read-600w.webp" alt="読み取り後のiPadのNFC.cool。緑のチェックとTag read"><p><strong>タグを置く。</strong>無線はリーダーが担当し、残りはiPadがこなします。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-3-record-600w.webp" alt="iPadに表示されたタグの全レコード。Anna Millerの名刺と、その下に生のvCard"><p><strong>iPhoneと同じものがすべて見える。</strong>同じレコード、同じツール。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-4-sonicare-600w.webp" alt="iPadのSonicare Reset。使用率80%のブラシヘッドとReset Timer"><p><strong>難しいものも。</strong>Sonicareのヘッドを読み、パスワード保護されたカウンターに書き戻すこともできます。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 動作するリーダー
@@ -52,6 +62,12 @@ ogDescription: "iPadやMacにNFCチップがない？外付けUSBリーダーが
 ---
 
 ## これで何ができるか
+
+<figure class="phone-figure" data-layout="float" data-device="mac">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="横に外付けUSB NFCリーダーを置いたMacBook。画面にNFC.coolのMy NFC Messages"><p><strong>Macでも。</strong>リーダーをMacにつなげば、読み取ったタグはすべてMy NFC Messagesに入ります。</p></li>
+</ol>
+</figure>
 
 iPhoneでできることのほぼすべてです。タグを読み取ってメモリ全体をダンプしたり、NDEFメッセージを書き込んだり、たくさんのタグを次々に読み書きするバッチ処理を実行したりできます。タグのパスワード保護も機能します。3Dプリンターのフィラメントスプール形式である[OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/)も、読み書き両方向で動きます。そして、[Philips Sonicareのブラシヘッドのリセット](/blog/reset-sonicare-brush-head-nfc/)もちゃんと動きます。
 

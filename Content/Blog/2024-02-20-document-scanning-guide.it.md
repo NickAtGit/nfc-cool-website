@@ -20,6 +20,16 @@ Ecco come sfruttarlo bene.
 
 Apri NFC.cool Tools, tocca l'icona del documento e inquadra la pagina. Lo scanner disegna un quadrilatero giallo intorno a quelli che secondo lui sono i bordi del foglio. Quasi sempre ci prende. Quando sbaglia, trascina gli angoli finché non combaciano.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Dalla carta a un PDF ricercabile</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="La fotocamera per documenti di NFC.cool Tools, con un contratto d'affitto riconosciuto e gli angoli segnati"><p><strong>Acquisisci.</strong> La pagina viene trovata e gli angoli allineati da soli.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="Il testo riconosciuto su una fattura, con Share text e Copy text to clipboard"><p><strong>Leggi il testo.</strong> L'OCR trasforma la scansione in testo da copiare o condividere.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="Documenti salvati cercati per Portland: una fattura, uno scontrino e un contratto d'affitto"><p><strong>Ritrovalo.</strong> La ricerca trova un documento da qualsiasi parola contenga.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF, con Share e Save to Files"><p><strong>Esporta.</strong> Un PDF ricercabile, condiviso o salvato in File.</p></li>
+</ol>
+</figure>
+
 Qualche accorgimento che migliora davvero il risultato:
 
 - **La luce naturale batte quella dall'alto.** I neon del soffitto proiettano sulla pagina l'ombra del telefono stesso. Meglio la luce di una finestra, oppure una lampada da tavolo inclinata di lato sul foglio.

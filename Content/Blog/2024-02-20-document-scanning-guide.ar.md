@@ -20,6 +20,16 @@ image: "/assets/images/Blog/document-scanning-guide.webp"
 
 افتح NFC.cool Tools، والمس أيقونة المستند، وأطّر الصفحة. يرسم الماسح رباعيًا أصفر حول ما يظنه حواف الصفحة. وفي معظم الأحيان يكون مصيبًا. وحين لا يكون كذلك، اسحب الزوايا حتى تنطبق.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>من الورق إلى ملف PDF قابل للبحث</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="كاميرا المستندات في NFC.cool Tools وقد اكتشفت عقد إيجار وحدّدت زواياه"><p><strong>الالتقاط.</strong> تُكتشف الصفحة وتُضبط زواياها تلقائيًا.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="النص المتعرَّف عليه من فاتورة، مع Share text وCopy text to clipboard"><p><strong>قراءة النص.</strong> يحوّل التعرّف الضوئي المسح إلى نص يمكنك نسخه أو مشاركته.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="المستندات المحفوظة بعد البحث عن Portland: فاتورة وإيصال وعقد إيجار"><p><strong>اعثر عليه لاحقًا.</strong> يجد البحث المستند بأي كلمة فيه.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF، مع Share وSave to Files"><p><strong>التصدير.</strong> ملف PDF قابل للبحث، تشاركه أو تحفظه في الملفات.</p></li>
+</ol>
+</figure>
+
 بضع نصائح تحسّن المخرجات فعلًا:
 
 - **الضوء الطبيعي أفضل من الضوء العلوي.** فمصابيح سقف المكتب تلقي ظلال الهاتف نفسه على الصفحة. أما ضوء النهار من نافذة، أو مصباح مكتب مائل عبر الصفحة، فأفضل.

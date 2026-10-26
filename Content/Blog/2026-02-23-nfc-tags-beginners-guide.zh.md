@@ -144,6 +144,13 @@ NFC 标签上的数据是用 **NDEF**（NFC 数据交换格式）来组织的。
 
 ## 读取 NFC 标签
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="NFC.cool Tools 的 NFC 标签页，有 Read NFC 和 Write NFC 两个按钮"><p><strong>用 App 读取。</strong>轻触 Read NFC，把 iPhone 顶部贴到标签上。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="NFC.cool Tools 读到的标签：Anna Miller 的一条名片记录，下面是原始 vCard"><p><strong>看到上面的全部内容。</strong>标签上的每一条记录，而不只是 iOS 显示的那个链接。</p></li>
+</ol>
+</figure>
+
 ### 在 iPhone 上
 
 iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三代 iPhone SE）上，NFC 读取在后台运行，把手机顶部靠近一枚标签，它就会立即读取，无需任何应用。较旧的 iPhone（7、8、X）则需要你先打开一个 NFC 读取应用。
@@ -262,6 +269,12 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 ---
 
 ## NFC 标签与 iPhone 快捷指令
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="NFC.cool Tools 的 NFC 设置，已打开 Read with tag details、Open Web Link when read、Run Shortcut when read 和 Play audio file when read"><p><strong>读取时运行快捷指令。</strong>标签一被读取，NFC.cool 就能打开链接、运行快捷指令或播放声音。</p></li>
+</ol>
+</figure>
 
 这是我最爱展示给人看的东西。Apple 的 **快捷指令** 应用（iOS 内置）原生支持 NFC 触发，正是在这里，标签从「好用」升级为在 iPhone 上「真正强大」。
 

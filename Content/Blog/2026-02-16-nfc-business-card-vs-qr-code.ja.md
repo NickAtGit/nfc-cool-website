@@ -182,6 +182,13 @@ NFC vs QRの議論で見落とされがちなのは、**選ぶ必要がない**�
 
 ## NFC.coolでの両方対応
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/1-qr-440w.webp" alt="NFC.cool Business CardでカードのQRコードを全画面表示。ShareとSave to Photos付き"><p><strong>QRコード。</strong>スマホに全画面で表示するか、保存して印刷。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/2-wallet-440w.webp" alt="Wallet Passの画面。カラープリセット、カスタムカラー、ロゴ、Add to Apple Wallet"><p><strong>Apple Wallet。</strong>あなたのカードを、あなたの色のWalletパスとしてiPhoneに。</p></li>
+</ol>
+</figure>
+
 情報開示：ここは私のブログなので、もちろん自分のソリューションについても触れます。ただ、ここで紹介することは本当に参考になると思います。
 
 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ja&mt=8)は最初から**NFCとQRコードの両方の共有**に対応するよう設計されています - 別々の製品としてではなく、同じカードの2つの側面として：

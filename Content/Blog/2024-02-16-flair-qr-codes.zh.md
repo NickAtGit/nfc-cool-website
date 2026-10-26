@@ -16,6 +16,12 @@ image: "/assets/images/Blog/flair-qr-codes.webp"
 
 ## 颜色：随你挑，但要顾及对比度
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/flair-qr-codes/studio-440w.webp" alt="NFC.cool Tools 的 QR Code Studio：一个黄色定位角、深蓝色码点的二维码，下方是预设和随机选项"><p><strong>QR Code Studio。</strong>颜色、形状和预设，或者让它随机生成，直到你满意。</p></li>
+</ol>
+</figure>
+
 QR Studio 允许你为前景（也就是那些码点）和背景选择任意颜色。你可以贴合品牌的配色，暗示某次活动的主题，或者干脆让海报上的二维码看起来不那么扎眼。
 
 不过有一条硬规则：**对比度**。二维码扫描器的工作原理，是采样像素并判断哪些是“深色”、哪些是“浅色”。如果你的前景和背景在亮度上太过接近，扫描器就会放弃，哪怕这个码在人眼看来毫无问题。

@@ -77,6 +77,12 @@ Ogni comando che modifica qualcosa avviene dentro una sessione autenticata: tele
 
 ## Che cosa vedi quando avvicini un tag
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="NFC.cool Tools dopo aver avvicinato un tag NTAG 424 DNA: il link firmato, un contatore di letture a 137 e l'autenticità SUN su Authentic"><p><strong>Una lettura autentica.</strong> Il link firmato, il contatore di letture e una verifica SUN superata.</p></li>
+</ol>
+</figure>
+
 Avvicina un tag al telefono e NFC.cool Tools su [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-it&mt=8) o [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-it) esegue una lettura approfondita senza chiederti niente: l'identità del chip e se si tratta della variante TagTamper, il link, le impostazioni e i diritti di accesso di ogni file, quali slot delle chiavi sono stati cambiati rispetto alla fabbrica e l'esito di tre controlli distinti.
 
 ### Il chip è silicio NXP originale?
@@ -116,6 +122,15 @@ C'è una cosa che l'app si rifiuta di fare di proposito: scrivere un link normal
 ## Tutto il resto del chip
 
 Quasi tutti i tutorial si fermano alla versione breve, e finora per andare oltre serviva TagXplorer di NXP su un computer con un lettore USB. Io volevo tutto il datasheet raggiungibile dal telefono, così me lo sono percorso sezione per sezione.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Il resto del chip, sul telefono</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="La schermata di Key 0: impostare la chiave da una passphrase o in esadecimale, inserirne una impostata su un altro dispositivo o tornare a quella di fabbrica"><p><strong>Key 0.</strong> Impostala da una passphrase o da una chiave esadecimale, inseriscine una impostata su un altro dispositivo oppure torna a quella di fabbrica.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="La schermata delle impostazioni avanzate: identità del chip, memoria, SUN attivo e chiavi da 1 a 4"><p><strong>Impostazioni avanzate.</strong> L'identità del chip e le altre quattro chiavi, ognuna con le stesse opzioni di Key 0.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="La cassaforte con una nota salvata, 36 byte su 126"><p><strong>La cassaforte.</strong> Fino a 126 byte di testo che solo Key 0 può rileggere.</p></li>
+</ol>
+</figure>
 
 ### Tutte e cinque le chiavi
 

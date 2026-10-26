@@ -23,6 +23,13 @@ So I built two Shortcuts and I am sharing them as iCloud links. One is the brain
 
 ## What the Tag Hands You
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="The NFC Tap Counter set to Shortcut, running NFC Tag Alert with the input log-entry, with both toggles on"><p><strong>A Shortcut as the content.</strong> The tag runs NFC Tag Alert with log-entry as its input.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="The preview: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>What the Shortcut receives.</strong> The input with the tag ID and the count appended.</p></li>
+</ol>
+</figure>
+
 Before the shortcuts: a quick refresher on what they actually receive, because it matters for how you use them.
 
 In the Tap Counter setup screen you pick a content type for the tag: URL, Email, SMS, or Shortcut. When you turn on the Tap Counter and / or Tag ID toggles, the app embeds placeholder bytes inside that content, and the chip swaps them for the live values on every read. Using `049F50824F1390` as the tag ID and `000007` as the count, the four content types end up looking like this:

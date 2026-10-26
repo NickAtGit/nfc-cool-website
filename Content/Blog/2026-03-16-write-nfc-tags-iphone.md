@@ -78,6 +78,15 @@ That's it. Anyone who taps that tag with their phone will now be taken to your U
 
 **Pro tip:** The NFC antenna on iPhones sits at the **top edge** of the phone, near the camera. For the strongest connection, hold the top of your iPhone directly over the tag. If you want to double-check what you wrote without an app, you can [read NFC tags right from your browser](/online-nfc-reader/) on Android.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Writing Your First Tag</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="The NFC tab in NFC.cool Tools with the Read NFC and Write NFC buttons"><p><strong>Tap Write NFC.</strong> It's on the NFC tab, next to Read NFC.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Create NFC Message: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location and FaceTime"><p><strong>Pick Web Link.</strong> Or text, a contact, a phone number and more. Enter your link, write, and hold the tag to the top of your iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages, listing a web link, a business card and a Wi-Fi record"><p><strong>Find it again.</strong> Everything you write is saved in My NFC Messages, ready to write to the next tag.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## What Can You Write to NFC Tags?
@@ -158,6 +167,12 @@ Some apps can write custom NDEF records that trigger specific app actions. For e
 
 ## Advanced: Writing with iOS Shortcuts
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="The Shortcuts screen in NFC.cool Tools, listing Siri phrases such as Scan NFC in NFC.cool and Scan QR and Barcode in NFC.cool"><p><strong>NFC.cool's own actions.</strong> Every action the app adds to Shortcuts and Siri, one tap from the Shortcuts app.</p></li>
+</ol>
+</figure>
+
 This is where things get fun for me. Apple's **Shortcuts** app has built-in NFC writing support, and NFC.cool Tools extends it further with its own Shortcuts actions.
 
 ### Basic URL Writing with Shortcuts
@@ -237,6 +252,12 @@ Write links to favorite recipes and stick tags on spice jars or cookbook pages.
 ---
 
 ## Locking NFC Tags
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="The Lock Tag screen: makes the tag permanently read-only, which cannot be undone"><p><strong>Lock Tag.</strong> Its content stays readable on any phone but can never change again.</p></li>
+</ol>
+</figure>
 
 Once you've written a tag and you're happy with its content, you can **lock** it. Locking makes the tag permanently read-only - nobody can overwrite your data. I treat this as a deliberate, final step, never something to tap through quickly, because there is no undo.
 

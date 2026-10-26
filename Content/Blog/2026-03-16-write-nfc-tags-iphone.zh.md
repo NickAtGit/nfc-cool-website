@@ -78,6 +78,15 @@ ogDescription: "用 iPhone 写入 NFC 标签的分步指南：URL、Wi-Fi、联�
 
 **专业提示：** iPhone 上的 NFC 天线位于手机的**顶部边缘**，靠近摄像头。为了获得最强的连接，把 iPhone 的顶部直接对准标签。如果你想在不用 App 的情况下复核自己写了什么，在 Android 上你可以 [直接从浏览器读取 NFC 标签](/online-nfc-reader/)。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>写入你的第一枚标签</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="NFC.cool Tools 的 NFC 标签页，有 Read NFC 和 Write NFC 两个按钮"><p><strong>轻触 Write NFC。</strong>就在 NFC 标签页，Read NFC 旁边。</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Create NFC Message：Web Link、Google Review Link、Text、Business Card、Telephone Number、Email、SMS、Location 和 FaceTime"><p><strong>选择 Web Link。</strong>也可以选文本、联系人、电话号码等。输入链接、写入，再把 iPhone 顶部贴到标签上。</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages，列着一条网页链接、一张名片和一条 Wi-Fi 记录"><p><strong>随时找回。</strong>写过的内容都存在 My NFC Messages 里，下一枚标签直接再写。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 你能往 NFC 标签里写入什么？
@@ -158,6 +167,12 @@ NFC 标签使用一种叫 **NDEF**（NFC 数据交换格式，NFC Data Exchange 
 
 ## 进阶：用 iOS 快捷指令写入
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="NFC.cool Tools 的 Shortcuts 页面，列出 Scan NFC in NFC.cool、Scan QR and Barcode in NFC.cool 等 Siri 短语"><p><strong>NFC.cool 自己的操作。</strong>App 加进快捷指令和 Siri 的所有操作，轻触一下就到快捷指令 App。</p></li>
+</ol>
+</figure>
+
 这是我觉得最好玩的地方。Apple 的**快捷指令**App 内置了 NFC 写入支持，而 NFC.cool Tools 通过它自己的快捷指令动作进一步扩展了它。
 
 ### 用快捷指令做基础的 URL 写入
@@ -237,6 +252,12 @@ NFC.cool Tools 添加了它自己的快捷指令动作，给你更多选择：
 ---
 
 ## 锁定 NFC 标签
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="Lock Tag 页面：把标签永久设为只读，无法撤销"><p><strong>Lock Tag。</strong>内容在任何手机上都能读取，但再也不能修改。</p></li>
+</ol>
+</figure>
 
 一旦你写好了一张标签并对内容满意，你就可以**锁定**它。锁定会让标签永久变为只读：没人能覆盖你的数据。我把这当作一个有意为之的最终步骤，绝不会草率地一路点过去，因为没有撤销可言。
 

@@ -68,6 +68,12 @@ Zum Lesen und Beschreiben von NFC-Tags ist NFC.cool Tools super, genau dafür ha
 
 ## Die Lösung: NFC-Visitenkarten mit einer URL
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="Ein digitales Profil, wie es sich nach dem Scan öffnet: Rin Nakashima von Meridian Systems, mit Website, Blog, Reddit, Bluesky und dem Button Save Contact"><p><strong>Scannen. Profil. Speichern.</strong> Der Link auf dem Tag öffnet dieses Profil, und ein Tipp speichert den Kontakt.</p></li>
+</ol>
+</figure>
+
 Was dir beim Kauf einer NFC-Visitenkarte niemand sagt:
 
 **Auf den Tag gehören überhaupt keine Kontaktdaten.**

@@ -38,6 +38,16 @@ Birkaç saniye sonra çipin bunca zamandır taşıdığı şeye bakıyorsun: bel
 
 Okuduğun her belge, uygulamadaki Belgelerim adlı küçük bir cüzdana kaydediliyor, böylece sonradan bakabiliyorsun. O cüzdan cihazında yaşıyor ve iPhone'da senin kendi iCloud'unla eşitleniyor. Bana ya da bana ait herhangi bir sunucuya gelmiyor. Bu kadar kişisel bir şeyde bu ayrıntıyı dipnota gömmem.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Tools ile pasaport okumak</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="NFC.cool Tools'taki Pasaport ve Kimlik ekranı, kamerayla tarama ve bilgileri elle girme seçenekleriyle"><p><strong>Anahtarı ver.</strong> Makinece okunabilir bölgeyi kamerayla tara ya da üç değeri elle yaz.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="Okunmuş bir pasaport; kayıtlı fotoğraf, sahibinin adı ve belge numarası görünüyor"><p><strong>Çipi oku.</strong> Telefonunun üst kenarını belgeye tut, fotoğraf ve bilgiler çipten gelsin.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="Özgünlük kontrollerinin hepsi geçti: belge gerçek görünüyor, veriler verildiğinden beri değişmemiş, imza geçerli, veren kurumun sertifikası güvenilir, çipin kopyalama koruması var"><p><strong>Mührü kontrol et.</strong> Çipin desteklediği her kontrol, veren kurumun imzasından kopyalama korumasına kadar.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="Belgelerim, kayıtlı beş pasaport ve kimlik kartının listesi"><p><strong>Belgelerim'de sakla.</strong> Cihazında kalır, yalnızca kendi iCloud'un üzerinden eşitlenir.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Gerçek mi?

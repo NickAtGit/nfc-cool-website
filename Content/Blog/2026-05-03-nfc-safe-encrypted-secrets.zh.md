@@ -30,6 +30,13 @@ author: "Nicolo Stanciu"
 
 ## 如何使用 NFC Safe
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="加密模式下的 NFC Safe，已填入一条秘密消息和口令 correct-horse-battery"><p><strong>加密。</strong>填入你的秘密和一个够强的口令，然后把标签贴到手机上。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="解密模式下的 NFC Safe，显示从标签读回来的秘密"><p><strong>解密。</strong>同样的口令，轻触一下，秘密就回来了。</p></li>
+</ol>
+</figure>
+
 NFC Safe 位于 NFC.cool Tools 里的 NFC Apps 下。我把整个功能压缩到了一个界面，顶部有一个分段控件：加密或解密。如果你以前写入过标签，这一切都不会让你觉得陌生。
 
 **加密：**

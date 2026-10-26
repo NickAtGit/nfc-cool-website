@@ -3,28 +3,28 @@ backLinkText: "→ كل الميزات"
 
 card:
   title: "ماسح الباركود"
-  description: "امسح ١٣ صيغة باركود إضافةً إلى ٦ رموز ثنائية الأبعاد - EAN وUPC وQR وPDF417 وData Matrix والمزيد. يُبقي الوضع المجمّع الكاميرا مفتوحة للجرد وتسجيل الحضور."
+  description: "امسح EAN وUPC وCode 128 وQR وPDF417 وData Matrix والمزيد على iPhone وAndroid. يُبقي الوضع المجمّع الكاميرا مفتوحة للجرد وتسجيل الحضور."
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "iOS فقط"
+  platforms: "iOS · Android"
 
 hero:
   title: "ماسح الباركود"
-  subtitle: "امسح ١٩ صيغة رمز - ١٣ باركود خطيًا (EAN وUPC وCode 128 وGS1 DataBar والمزيد) إضافةً إلى ٦ رموز ثنائية الأبعاد (QR وPDF417 وAztec وData Matrix ونسخ Micro). يُبقي الوضع المجمّع الكاميرا مفتوحة لعمليات جرد المخزون وتسجيل الحضور في الفعاليات."
-  platforms: "iOS فقط"
+  subtitle: "امسح EAN وUPC وCode 128 وCode 39 وITF وQR وPDF417 وAztec وData Matrix على iPhone وAndroid، إضافةً إلى GS1 DataBar ونسخ Micro على iPhone - ١٩ صيغة إجمالًا. يُبقي الوضع المجمّع الكاميرا مفتوحة لعمليات جرد المخزون وتسجيل الحضور في الفعاليات."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "ما يمكنك فعله"
 capabilities:
   - title: "جميع صيغ الباركود الرئيسية"
-    description: "امسح EAN-13/8 وUPC-E (يُقرأ UPC-A بصيغة EAN-13) وCode 128 وCode 39 (بما في ذلك Mod 43) وCode 93 وITF وITF-14 وCodabar وGS1 DataBar وPDF417 وAztec وData Matrix والمزيد - اكتشاف تلقائي للصيغة دون تبديل الأوضاع."
+    description: "EAN-13/8 وUPC-A/E وCode 128 وCode 39 وCode 93 وITF وITF-14 وCodabar وPDF417 وAztec وData Matrix وQR على المنصّتين، إضافةً إلى GS1 DataBar وCode 39 Mod 43 وMicro QR وMicro PDF417 على iPhone - اكتشاف تلقائي للصيغة دون تبديل الأوضاع."
   - title: "الوضع المجمّع"
     description: "امسح مجموعة من الباركود تباعًا دون إعادة التصويب. مفيد لعمليات جرد المخزون أو تسجيل الحضور في الفعاليات أو أرشيفات المكتبات."
   - title: "البحث عن المنتجات"
-    description: "المس باركود منتج تجزئة تم مسحه للبحث عنه - يُمرَّر رقم الباركود عبر محرك بحث مُعَدّ مسبقًا (Google أو Ecosia أو DuckDuckGo أو Bing أو Startpage) وتعود النتائج المطابقة مباشرة."
+    description: "المس باركود منتج تجزئة تم مسحه للبحث عنه - يُمرَّر رقم الباركود عبر محرك بحث وتعود النتائج المطابقة مباشرة. وعلى iPhone تختار المحرك بنفسك: Google أو Ecosia أو DuckDuckGo أو Bing أو Startpage."
   - title: "سجل المسح والمشاركة"
     description: "تُحفظ كل عملية مسح مع طابع زمني. ميّز عمليات المسح المهمة بالمفضّلة، وامنح إحداها عنوانًا خاصًا بها، وشاركها مباشرة من عرض السجل."
   - title: "إجراء تلقائي عند القراءة"
-    description: "يمكن لعناوين URL ورموز الاختصارات أن تُفتح تلقائيًا لحظة مسحها، أو تطلق webhook، أو تُنطق بصوت عالٍ - نفس الأتمتة ذات الخطافات الخمسة التي تشغّل NFC وQR."
+    description: "يمكن للروابط أن تُفتح لحظة مسحها، على iPhone وAndroid. وعلى iPhone، يمكن للمسح أيضًا تشغيل اختصار أو إطلاق webhook أو نطق النتيجة بصوت عالٍ - نفس الأتمتة ذات الخطافات الخمسة التي تشغّل NFC وQR."
 
 subsectionsTitle: "مصمّم للمسح عالي الحجم"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>ثلاثة إعدادات تحوّل الماسح من أداة لمرة واحدة إلى سير عمل متواصل. يتيح لك <strong>المسح المتعدّد</strong> مسح عدة رموز في جلسة كاميرا واحدة. تُبقي <strong>القراءة المجمّعة</strong> الكاميرا مفتوحة لجرد المخزون أو تسجيل الحضور في الفعاليات. تشغّل <strong>الإضاءة التلقائية</strong> مصباح LED في الإضاءة المنخفضة كي لا تتلمّس زر الفلاش.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone يمسح عدة رموز QR وباركود مع إضاءة المصباح"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Webhooks للجرد وتسجيل الحضور في الفعاليات"
     body: "<p>وجّه ماسح الباركود نحو نظام مكتبك الخلفي. تطلق كل قراءة باركود webhook إلى عنوان URL الخاص بك، فتُحدَّث قاعدة بيانات مخزونك أو نظام CRM للحضور أو فهرس مكتبتك في الوقت الفعلي مع تحرّك الكاميرا. راجع <a href=\"/features/webhooks/\">Webhooks والأتمتة</a> لمعرفة شكل حمولة JSON وخادم مرجعي.</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "NFC.cool يتزامن عبر iPhone وiPad وMac"
     platforms: "iOS"
 
-specsTitle: "الصيغ المدعومة (١٩ إجمالًا)"
+specsTitle: "الصيغ المدعومة (١٩ على iOS و١٣ على Android)"
 specs:
-  - title: "الباركود الأحادي البُعد (١٣ صيغة)"
+  - title: "الباركود الأحادي البُعد"
     items:
       - "EAN-13, EAN-8"
-      - "UPC-E (يُقرأ UPC-A بصيغة EAN-13)"
-      - "Code 39, Code 39 Mod 43"
+      - "UPC-A, UPC-E (يقرأ iOS رمز UPC-A بصيغة EAN-13)"
+      - "Code 39 (Mod 43 على iOS)"
       - "Code 93, Code 128"
       - "Codabar"
       - "Interleaved 2 of 5, ITF-14"
-      - "GS1 DataBar (قياسي، Expanded، Limited)"
-  - title: "الرموز ثنائية الأبعاد / المكدّسة (٦ صيغ)"
+      - "GS1 DataBar - قياسي، Expanded، Limited (iOS)"
+  - title: "الرموز ثنائية الأبعاد / المكدّسة"
     items:
       - "رمز QR"
-      - "Micro QR"
+      - "Micro QR (iOS)"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417 (iOS)"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "الأسئلة الشائعة"
 faq:
-  - question: "لماذا يقتصر هذا على iOS؟"
-    answer: "يركّز إصدار NFC.cool على Android حاليًا على NFC وبطاقة العمل الرقمية. ومسح الباركود مُدرَج في خارطة طريق Android."
+  - question: "هل يعمل ماسح الباركود على Android؟"
+    answer: "نعم. يقرأ NFC.cool Tools على Android ١٣ صيغة - EAN وUPC وCode 128 وCode 39 وCode 93 وITF وCodabar وQR وPDF417 وAztec وData Matrix - مع وضعَي القراءة المجمّعة والمسح المتعدّد. أما GS1 DataBar وMicro QR وMicro PDF417 وwebhooks عند المسح واختيار محرك البحث فتقتصر على iPhone حاليًا."
   - question: "هل يمكنني مسح عدة رموز باركود دفعة واحدة؟"
     answer: "نعم - يُبقي الوضع المجمّع الكاميرا مفتوحة ويصفّ كل باركود يعثر عليه في قائمة انتظار. المس أي عنصر في القائمة للتعامل معه."
   - question: "هل يمكنني حفظ عمليات المسح ومشاركتها؟"

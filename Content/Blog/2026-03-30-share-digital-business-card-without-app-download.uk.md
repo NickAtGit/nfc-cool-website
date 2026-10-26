@@ -37,6 +37,12 @@ ogDescription: "Як App Clip і вебпрофілі дають будь-ком
 
 NFC.cool Business Card діє двома різними шляхами залежно від платформи отримувача, і обидва обходяться без завантажень.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/app-clip-440w.webp" alt="App Clip, який бачить отримувач: Kasper Lindqvist з Lindqvist Studio з посиланнями Website, Instagram і YouTube та кнопкою Save Contact"><p><strong>App Clip.</strong> Нативний, мовою отримувача, а Save Contact просто під великим пальцем.</p></li>
+</ol>
+</figure>
+
 ### На iPhone: рідний App Clip
 
 Коли власник iPhone підносить телефон до твоєї NFC-картки або сканує QR-код, iOS запускає [App Clip](https://developer.apple.com/app-clips/), легкий рідний екран, зроблений саме для таких моментів.
@@ -93,6 +99,12 @@ App Clip не має нічого спільного з вебсторінкою
 ---
 
 ## Режим конференції: ділишся прямо з екрана блокування
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="Меню картки в NFC.cool Business Card: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card і Add to Apple Wallet"><p><strong>Запуск одним натисканням.</strong> Conference Mode розташований у меню картки, поруч із Write to NFC Tag і Add to Apple Wallet.</p></li>
+</ol>
+</figure>
 
 На конференціях і заходах карткою доводиться ділитися десятки разів. У NFC.cool для цього є режим конференції: через Live Activities в iOS він виводить QR-код просто на екран блокування.
 

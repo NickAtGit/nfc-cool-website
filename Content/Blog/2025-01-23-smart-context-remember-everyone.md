@@ -22,6 +22,13 @@ The contact details on your phone are useless if you can't remember why that per
 
 ## Context is the missing piece
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="The Networking tab in NFC.cool Business Card: Priya Raman met at Bay Area Product Summit, Tom Alvarez at Design Systems Meetup, Hanna Vogel at NFC Developer Day"><p><strong>Where you met.</strong> Every contact carries the event and the date.</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="A networking contact, Priya Raman of Lantern Metrics, with Add Reminder, Add Meeting and the meeting details"><p><strong>What comes next.</strong> Reminders and meetings land in your calendar, while the conversation is fresh.</p></li>
+</ol>
+</figure>
+
 So I added what I've been calling the "memory upgrade" to NFC.cool Business Card. Right after connecting - via the NFC tap, the App Clip, or the Conference Mode lock-screen QR - you get prompted to capture context:
 
 - **Where and when you met.** Auto-populated with date and place, editable.

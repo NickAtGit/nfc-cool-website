@@ -16,6 +16,12 @@ QR codes don't have to be plain black-and-white squares. The error-correction in
 
 ## Colour: pick anything, but respect contrast
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/flair-qr-codes/studio-440w.webp" alt="QR Code Studio in NFC.cool Tools: a QR code with yellow finder eyes and navy dots, with presets and randomisation options below"><p><strong>QR Code Studio.</strong> Colours, shapes and presets, or let it randomise until something sticks.</p></li>
+</ol>
+</figure>
+
 QR Studio lets you choose any colour for the foreground (the modules) and the background. You can match your brand palette, hint at a campaign theme, or just make the code less visually offensive on a poster.
 
 There's one hard rule though: **contrast**. A QR scanner works by sampling pixels and deciding which are "dark" and which are "light". If your foreground and background are too close in luminance, the scanner gives up - even when the code passes a human eyeball test.

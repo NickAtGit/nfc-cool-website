@@ -14,6 +14,12 @@ imageAlt: "أتحدث في mDevCamp 2025 في براغ"
 
 إن لم تصادف واحدًا من قبل، فإن App Clip هو الجزء الصغير من تطبيق iOS الذي يُفتح فورًا من لمسة NFC أو مسح رمز QR - دون App Store ودون تثبيت. وهو ما يتيح لشخص أن يرى بطاقة عمل NFC.cool الخاصة بك بعد نحو ثانية من ملامسة الهاتفين، دون تنزيل أي شيء. وجعل ذلك يبدو فوريًّا، مع الحفاظ في الوقت نفسه على أمان بيانات البطاقة المشتركة ودون إجبار أحد على التسجيل، يتطلب قرارات معمارية أكثر مما يبدو من الخارج. وقد استعرضت المحاضرة تلك القرارات: كيف يُبنى App Clip، وأين يستحق SwiftUI مكانه، وكيف يتعامل الخادم الخلفي مع بيانات البطاقة.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/app-clip-lessons-from-business-card/app-clip-440w.webp" alt="الـApp Clip الخاص بـNFC.cool Business Card بعد اللمس: Devon Baptiste من Baptiste Electrical، مع روابط Website وFacebook وYouTube وزر Save Contact"><p><strong>الـApp Clip.</strong> ما يُفتح بعد اللمس بنحو ثانية، دون أي تثبيت.</p></li>
+</ol>
+</figure>
+
 كان شرحه من على المنصة مفيدًا لي. فقد دفعني إلى تبرير خيارات اتخذتها في معظمها بالحدس، وكانت الأسئلة بعد ذلك - من مطوري iOS الذين خاضوا الصراعات نفسها بوضوح - أحدَّ من أي مراجعة للكود. والصيغة التي استقررت عليها، أي App Clips مع SwiftUI وواجهة API خلفية آمنة، صمدت أمام ذلك التمحيص، بل إن اقتراحين من أحاديث الممرات وجدا طريقهما إلى التطبيق بالفعل.
 
 يمكنك مشاهدة المحاضرة كاملة على [Slideslive](https://slideslive.com/39043369/building-a-great-app-clip-experience-lessons-from-nfccool-business-card).

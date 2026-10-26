@@ -34,6 +34,16 @@ Uygulama, takılı bir harici okuyucu varsa onu tercih ediyor. iPad ya da Mac'te
 
 Bunu üzerine kurduğum ve fiilen sınadığım tek okuyucu HID OMNIKEY 5022 CL. Başka USB okuyucular da çalışıyor, birkaçı aşağıdaki listede; onları deneyen kullanıcılar bildirdi.
 
+<figure class="phone-figure" data-layout="stage" data-device="ipad">
+<figcaption>USB okuyuculu bir iPad</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-1-place-tag-600w.webp" alt="Harici USB NFC okuyucu takılı bir iPad'de NFC.cool: Place tag on reader"><p><strong>Bir okuyucu tak.</strong> NFC.cool onu kendiliğinden tanır ve bir tag bekler.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-2-tag-read-600w.webp" alt="Okumadan sonra iPad'de NFC.cool: yeşil bir onay işareti ve Tag read"><p><strong>Tag'i üstüne koy.</strong> Radyo kısmını okuyucu, gerisini iPad halleder.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-3-record-600w.webp" alt="iPad'de tag'in tam kaydı: Anna Miller için bir kartvizit, altında ham vCard"><p><strong>iPhone'da göreceğin her şey.</strong> Aynı kayıtlar, aynı araçlar.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-4-sonicare-600w.webp" alt="iPad'de Sonicare Reset: yüzde 80'i kullanılmış bir fırça başlığı ve Reset Timer"><p><strong>Zor olanı bile.</strong> Bir Sonicare başlığını okuyup parola korumalı sayacına geri yazmak da çalışıyor.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Çalışan okuyucular
@@ -52,6 +62,12 @@ Bunlar Amazon ortaklık bağlantıları: birinden alışveriş yaparsan sana ek 
 ---
 
 ## Bununla neler yapabilirsin
+
+<figure class="phone-figure" data-layout="float" data-device="mac">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="Yanında harici bir USB NFC okuyucu olan bir MacBook; ekranda NFC.cool'un My NFC Messages'ı"><p><strong>Mac'te de.</strong> Okuyucuyu Mac'ine tak, okuduğun her tag My NFC Messages'a düşer.</p></li>
+</ol>
+</figure>
 
 iPhone'da yapacağın hemen her şeyi. Tag okuyup tüm belleğini dökebilir, NDEF mesajı yazabilir ve bir yığın tag'i arka arkaya okuyup yazan toplu işler çalıştırabilirsin. Tag'i parolayla korumak da işliyor. 3B yazıcı filament makarası biçimi [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/) da, iki yönde de. Ve evet, [Philips Sonicare fırça başlığı sıfırlaması](/blog/reset-sonicare-brush-head-nfc/) da çalışıyor.
 

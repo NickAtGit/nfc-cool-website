@@ -38,6 +38,12 @@ So weit das, was für alle gilt. Jetzt zu dem, was in deinem Beruf anders ist.
 
 ## Für Immobilienmakler
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="Die Karte einer Maklerin, wie Empfänger sie sehen: Elena Marchetti von Marchetti Property, mit Website, Instagram, Facebook und dem Button Save Contact"><p><strong>Was deine Kundschaft sieht.</strong> Deine Karte öffnet sich auf dem iPhone, ohne App, und ein Tipp speichert dich.</p></li>
+</ol>
+</figure>
+
 Im Immobiliengeschäft hängt alles daran, erreichbar zu bleiben. Jede offene Besichtigung, jeder Maklertermin, jede zufällige Begegnung im Café ist ein potenzieller Kunde, und ob daraus einer wird, entscheidet sich oft an einer einzigen Frage: Hat die Person deine Karte noch? Bei Papier lautet die ehrliche Antwort meistens nein.
 
 ### Die Besucherliste bei der Besichtigung funktioniert nicht
@@ -87,6 +93,12 @@ Noch ein Wort zum Datenschutz, weil er hier mehr wiegt als anderswo: Eine Visite
 ---
 
 ## Für Berater und Freelancer
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="Die Karte eines Beraters, Adrian Kovac von Kovac Advisory, mit Website, LinkedIn und Blog"><p><strong>Eine Karte, die nach dir aussieht.</strong> Dein Logo, deine Farben und die Links, die für diese Rolle zählen.</p></li>
+</ol>
+</figure>
 
 Wer sich selbstständig macht, dem bestellt niemand mehr die Visitenkarten. Keine Marketingabteilung, kein Sekretariat, das nachdrucken lässt, wenn sich der Titel ändert. Du bist die Marke, und das Budget für die Karten ist dein eigenes.
 
@@ -148,6 +160,16 @@ Wo die Konkurrenz wirklich weiter ist:
 Ehrlich gesagt: Für einen Makler, eine Ärztin oder eine Selbstständige zählt im Alltag, dass das Teilen schnell geht, dass die Karte nach *dir* aussieht und dass dich später nichts in Verlegenheit bringt. Dafür habe ich die App gebaut. Wenn du ein Vertriebs-CRM brauchst, das fest mit deiner Visitenkarte verdrahtet ist, kauf dir das Tool, das genau das macht.
 
 [NFC.cool Business Card gibt es im App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-de&mt=8) und [bei Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-de).
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Card im Einsatz</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Meine Visitenkarten mit drei Karten: AlexBerger, Conference und Speaking"><p><strong>Eine Karte pro Rolle.</strong> Bis zu 100 Karten, jede mit eigenem Look und eigenen Links.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="Der Tab Business Card mit dem QR-Code der Karte und dem Menü für Karten, Leads, Kontakte und Einstellungen"><p><strong>Teil sie.</strong> Per NFC, QR-Code oder einfachem Link.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Profileinstellungen: eine öffentliche oder eine private Karte mit PIN, und Lead-Erfassung vor oder nach dem Speichern"><p><strong>Deine Regeln.</strong> Öffentlich oder mit PIN geschützt, und Lead-Erfassung, wann du willst.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="Die Lead-Liste, jeder Lead markiert als Qualified, New, Contacted oder Converted"><p><strong>Bleib dran.</strong> Alle Leads in einer Liste, mit dem Stand von jedem.</p></li>
+</ol>
+</figure>
 
 ---
 

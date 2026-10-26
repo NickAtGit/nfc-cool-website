@@ -38,6 +38,16 @@ Ein paar Sekunden später siehst du, was der Chip die ganze Zeit mit sich herumg
 
 Jedes ausgelesene Dokument landet in der App unter „Meine Dokumente“, damit du es dir später noch einmal ansehen kannst. Diese Ablage bleibt auf deinem Gerät, und auf dem iPhone wird sie über deine eigene iCloud synchronisiert. Zu mir kommt davon nichts, und auf einem Server von mir landet es auch nicht. Bei etwas so Persönlichem gehört das nicht ins Kleingedruckte.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Einen Reisepass mit NFC.cool Tools auslesen</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="Der Bildschirm für Reisepass und Ausweis in NFC.cool Tools, mit den Optionen zum Scannen per Kamera und zur Eingabe von Hand"><p><strong>Gib ihm den Schlüssel.</strong> Scanne die maschinenlesbare Zone mit der Kamera oder gib die drei Werte von Hand ein.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="Ein ausgelesener Reisepass mit dem gespeicherten Foto, dem Namen der Inhaberin und der Dokumentnummer"><p><strong>Lies den Chip aus.</strong> Halte die Oberkante deines Handys an das Dokument, und Foto und Daten kommen vom Chip.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="Die Echtheitsprüfungen, alle bestanden: Dokument scheint echt, Daten seit Ausstellung unverändert, Signatur gültig, Aussteller vertrauenswürdig, Klonschutz des Chips"><p><strong>Prüf das Siegel.</strong> Jede Prüfung, die der Chip unterstützt, von der Signatur des Ausstellers bis zum Klonschutz.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="Meine Dokumente, eine Liste mit fünf gespeicherten Reisepässen und Ausweisen"><p><strong>Leg ihn unter Meine Dokumente ab.</strong> Gespeichert auf deinem Gerät, synchronisiert nur über deine eigene iCloud.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Ist das Dokument echt?

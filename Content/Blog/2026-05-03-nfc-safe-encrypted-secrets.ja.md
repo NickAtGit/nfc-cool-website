@@ -30,6 +30,13 @@ author: "Nicolo Stanciu"
 
 ## NFC Safeの使い方
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="EncryptモードのNFC Safe。秘密のメッセージとパスフレーズcorrect-horse-batteryが入力されている"><p><strong>暗号化。</strong>秘密と強いパスフレーズを入れて、タグをスマホに当てます。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="DecryptモードのNFC Safe。タグから読み戻した秘密が表示されている"><p><strong>復号。</strong>同じパスフレーズでかざせば、秘密が戻ってきます。</p></li>
+</ol>
+</figure>
+
 NFC SafeはNFC.cool Tools内のNFC Appsにあります。私は全体を1つの画面にまとめ、上部にセグメントコントロールを置きました - 暗号化か復号かを切り替えるだけです。タグを書き込んだことがある人なら、何も戸惑うところはないはずです。
 
 **暗号化する：**

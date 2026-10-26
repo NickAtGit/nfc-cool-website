@@ -45,6 +45,16 @@ ogDescription: "别再印 500 张最终进垃圾填埋场的名片了。这里�
 
 数字化不只是用 App 换掉纸张。真正的优势在于拥有一套贯穿整个会议时间线的系统：从准备到跟进。下面就讲讲怎么搭建它。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>会前、会中、会后</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="我的名片，日常名片旁边还有一张 Conference 名片"><p><strong>会前：准备一张活动名片。</strong>专为这场会议准备的名片，放上在那里最有用的链接。</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="全屏显示的名片二维码，下方是 Share 和 Save to Photos"><p><strong>会中：轻触或扫码。</strong>快速交换用 NFC，其他人就扫全屏二维码。</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="一位社交联系人：Lantern Metrics 的 Priya Raman，带 Add Reminder、Add Meeting 和活动详情"><p><strong>会后：跟进。</strong>每个联系人都记着你们在哪里认识，提醒和会面轻触即可添加。</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics：1,284 次查看、213 次保存，附按天统计的图表"><p><strong>然后看看效果。</strong>按天显示查看和保存次数，哪场活动有回报一目了然。</p></li>
+</ol>
+</figure>
+
 ### 第一阶段：会议之前
 
 设置电子名片最糟糕的时机，就是你正排在登记队伍里的时候。请至少在活动前一周把这件事做完。

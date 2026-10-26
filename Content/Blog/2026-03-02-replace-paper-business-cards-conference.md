@@ -45,6 +45,16 @@ At a conference, everything that's slightly inconvenient about paper becomes a r
 
 Going digital isn't just about swapping paper for an app. The real advantage is having a system that works across the entire conference timeline - from preparation to follow-up. Here's how to set it up.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Before, During and After</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="My Business Cards with a Conference card next to the everyday one"><p><strong>Before: an event card.</strong> A card just for this conference, with the links that matter there.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="The card's QR code, full screen, with Share and Save to Photos below"><p><strong>During: tap or scan.</strong> NFC for the fast share, the full-screen QR code for everyone else.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="A networking contact, Priya Raman of Lantern Metrics, with Add Reminder, Add Meeting and the event details"><p><strong>After: follow up.</strong> Each contact remembers where you met, with a reminder or a meeting one tap away.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics: 1,284 views and 213 saves, with a chart by day"><p><strong>Then check what worked.</strong> Views and saves per day, so you see which events paid off.</p></li>
+</ol>
+</figure>
+
 ### Phase 1: Before the Conference
 
 The worst time to set up your digital business card is while you're standing in a registration line. Get this done at least a week before the event.

@@ -77,6 +77,15 @@ Mehr ist es nicht, und das ist Absicht. Ab hier kommt der Tag allein zurecht: Er
 
 Falls du das irgendwann wieder loswerden willst: Die App kann den Zähler auf einem bereits beschriebenen Tag abschalten. Der Chip setzt dann keine aktuellen Werte mehr ein, der Inhalt bleibt aber genau so auf dem Tag, wie er zuletzt geschrieben wurde. Ein Detail, das man kennen sollte: Intern zählt der Chip auch danach weiter. Der Zählerstand geht nie verloren, er wird nur nicht mehr angezeigt.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Einen zählenden Tag einrichten</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Der Bildschirm NFC Tap Counter in NFC.cool Tools: ein Link, der bei jedem Scan Zählerstand und Tag-ID aktualisiert, für NTAG213, NTAG215 und NTAG216"><p><strong>NFC Tap Counter.</strong> Unter NFC Tools, für Tags vom Typ NTAG213, 215 und 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="Die Inhalte URL, Email, SMS und Shortcut, darunter Try it out"><p><strong>Inhalt wählen.</strong> Eine URL, eine E-Mail, eine SMS oder, auf dem iPhone, ein Kurzbefehl.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter und NFC Tag ID eingeschaltet, Batch write aus, und die Vorschau https://studionord.example/table-7?nfc=049F50824F1390x000007 mit Write to NFC Tag"><p><strong>Schalter und Vorschau.</strong> Die Vorschau zeigt, wo Tag-ID und Zählerstand landen, bevor du schreibst.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Wo Zählerstand und Tag-ID auftauchen

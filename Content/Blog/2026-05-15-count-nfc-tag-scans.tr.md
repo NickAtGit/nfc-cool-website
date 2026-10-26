@@ -77,6 +77,15 @@ Kurulumun tamamı bu ve bilerek bu kadar kısa tuttum. O andan sonra tag kendine
 
 Bir gün durdurmak istersen uygulama, var olan bir tag'de sayacı kapatabiliyor. Çip anlık değerleri yerleştirmeyi bırakıyor ama içerik tag'de en son yazıldığı gibi kalıyor. Bilmeye değer bir ayrıntı: değiştirmeyi kapattıktan sonra da çip içeride saymayı sürdürüyor; sayı hiç kaybolmuyor, yalnızca gösterilmiyor.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Sayan bir tag kurmak</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="NFC.cool Tools'taki NFC Tap Counter ekranı: her okutmada dokunma sayısını ve tag kimliğini güncelleyen bir bağlantı; NTAG213, NTAG215 ve NTAG216 için"><p><strong>NFC Tap Counter.</strong> NFC Tools altında, NTAG213, 215 ve 216 tag'leri için.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="İçerik seçenekleri URL, Email, SMS ve Shortcut; altında Try it out"><p><strong>İçeriği seç.</strong> Bir URL, e-posta, SMS ya da iPhone'da bir kestirme.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter ve NFC Tag ID açık, Batch write kapalı; önizleme https://studionord.example/table-7?nfc=049F50824F1390x000007 ve Write to NFC Tag"><p><strong>Anahtarlar ve önizleme.</strong> Önizleme, yazmadan önce tag kimliğinin ve sayının nereye geleceğini gösterir.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Sayı ve tag kimliği nerede görünüyor

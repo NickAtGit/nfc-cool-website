@@ -42,6 +42,12 @@ Apple вперше поставила модуль NFC в iPhone 6 та 6 Plus �
 
 ## NDEF: спільна мова
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-on-iphones-insider-look/ndef-record-440w.webp" alt="Запис візитки, зчитаний у NFC.cool Tools, під ним вихідний vCard: BEGIN:VCARD, VERSION:3.0, N і FN для Anna Miller"><p><strong>Запис NDEF зсередини.</strong> Контакт у тому вигляді, у якому його показує NFC.cool, а під ним вихідний vCard.</p></li>
+</ol>
+</figure>
+
 Над радіочастиною NFC стоїть рівень даних **NDEF**, тобто NFC Data Exchange Format. Я описую його як крихітний формат самоописових записів: на мітці лежить один або кілька записів, і кожен має свій тип (URI, текст, vCard, дані Wi-Fi, власний MIME) та корисне навантаження.
 
 NDEF розуміє кожен телефон з NFC на планеті, тому мітка, записана на Android, спокійно читається на iPhone і навпаки. Мобільний світ рідко має спільні стандарти, а тут iOS та Android справді користуються одним. За цю сумісність я вдячний найбільше: пишу під формат, а не під платформу. Якщо кортить створити власні записи, я розібрав усе покроково в статті [як записати NFC-мітку на iPhone](/blog/write-nfc-tags-iphone/).

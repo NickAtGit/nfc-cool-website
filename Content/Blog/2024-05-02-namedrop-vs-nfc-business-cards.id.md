@@ -20,6 +20,12 @@ NameDrop adalah iPhone ke iPhone. Hanya itu ceritanya. Begitu orang di seberang 
 
 Kartu nama NFC tidak peduli ponsel apa yang ada di pihak lain. Kartu ini berjalan pada standar NFC terbuka yang telah dibaca oleh iOS dan Android selama bertahun-tahun. Orang lain mengetuknya, atau memindai kode QR-nya, dan detail Anda mendarat di ponsel mereka - apakah ponsel itu iPhone atau bukan, dan apakah mereka memiliki aplikasi yang terinstal atau tidak. Tidak ada gerakan yang perlu dipelajari, tidak ada fitur yang perlu diaktifkan, tidak ada sistem operasi yang perlu dicocokkan.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/namedrop-vs-nfc-business-cards/any-phone-440w.webp" alt="Kartu NFC.cool Business Card yang terbuka setelah diketuk: Marco Delgado dari Northgate Talent, dengan tautan Website, LinkedIn, dan X serta tombol Save Contact"><p><strong>Ponsel apa pun.</strong> Satu ketukan atau pindaian membuka kartu Anda, dan Save Contact menyimpannya.</p></li>
+</ol>
+</figure>
+
 Itulah alasan yang tidak glamor mengapa saya masih membangun di sekitar NFC daripada NameDrop. NameDrop mengoptimalkan kasus terbaik: dua pengguna iPhone, keduanya dengan fitur yang diaktifkan, keduanya mengetahui gerakan tersebut. NFC mengoptimalkan kasus yang sebenarnya terjadi di sebuah acara - dua orang, dua ponsel, dan tidak ada asumsi bersama tentang keduanya. NameDrop adalah demo yang lebih baik. NFC adalah kartu nama yang lebih baik.
 
 Ingin mencobanya? [Dapatkan NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-en&mt=8) di iPhone, atau [dapatkan di Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-en).

@@ -77,6 +77,15 @@ ogDescription: "NFCタグは自分のスキャン回数を数えられます。�
 
 いつかそれを止めたくなったら、アプリは既存のタグのカウンターをオフにできます。チップはライブの値を入れ込むのをやめますが、コンテンツは最後に書き込まれたとおりにタグ上に残ります。知っておくとよいこと。置き換えをオフにしたあとも、チップは内部でカウントを続けます - カウントが失われることはなく、ただ表示されなくなるだけです。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>カウントするタグを設定する</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="NFC.cool ToolsのNFC Tap Counter画面。スキャンのたびにタップ数とタグIDが更新されるリンク。NTAG213、NTAG215、NTAG216に対応"><p><strong>NFC Tap Counter。</strong>NFC Toolsの中にあり、NTAG213、215、216のタグで使えます。</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="内容の選択肢URL、Email、SMS、Shortcut。その下にTry it out"><p><strong>内容を選ぶ。</strong>URL、メール、SMS、またはiPhoneならショートカット。</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap CounterとNFC Tag IDがオン、Batch writeはオフ。プレビューはhttps://studionord.example/table-7?nfc=049F50824F1390x000007で、Write to NFC Tag付き"><p><strong>スイッチとプレビュー。</strong>書き込む前に、タグIDとカウントがどこに入るかをプレビューで確認できます。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## カウントとタグIDはどこに表示されるか

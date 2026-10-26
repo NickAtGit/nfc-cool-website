@@ -20,6 +20,12 @@ NameDrop es de iPhone a iPhone. Esa es toda la historia. En el momento en que la
 
 Una tarjeta de visita NFC no le importa qué móvil tiene el otro. Funciona con el estándar abierto NFC que tanto iOS como Android leen desde hace años. La otra persona la toca, o escanea su código QR, y tus datos llegan a su móvil - sea ese móvil un iPhone o no, y tenga o no tenga ninguna app instalada. Sin gestos que aprender, sin funciones que activar, sin sistema operativo que hacer coincidir.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/namedrop-vs-nfc-business-cards/any-phone-440w.webp" alt="Una tarjeta de NFC.cool Business Card tal como se abre tras el toque: Marco Delgado, de Northgate Talent, con enlaces a Website, LinkedIn y X y el botón Save Contact"><p><strong>Cualquier móvil.</strong> Un toque o un escaneo abre tu tarjeta, y Save Contact la guarda.</p></li>
+</ol>
+</figure>
+
 Esa es la razón poco glamurosa por la que sigo construyendo en torno a NFC en lugar de NameDrop. NameDrop optimiza el mejor escenario: dos usuarios de iPhone, los dos con la función activada, los dos conociendo el gesto. NFC optimiza el escenario que ocurre de verdad en un evento - dos personas, dos móviles, y ningún supuesto compartido sobre ninguno de los dos. NameDrop es la mejor demo. NFC es la mejor tarjeta de visita.
 
 ¿Quieres una? [Descarga NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-en&mt=8) en iPhone, o [consíguela en Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-en).

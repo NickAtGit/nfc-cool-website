@@ -59,10 +59,12 @@ A palavra-passe é calculada a partir de duas entradas: o UID de 7 bytes da tag 
 
 ## Como Verificar e Repor com o NFC.cool Tools
 
-Eis como fica na app:
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools a mostrar uma cabeça de escova Sonicare com 80% de utilização e o botão Repor Temporizador" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="O ecrã Sonicare Reset no NFC.cool Tools, a pedir que encoste a cabeça de escova ao iPhone"><p><strong>Leia a cabeça.</strong> Toque em Ler NFC e encoste a cabeça de escova ao seu iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="Uma cabeça de escova Sonicare a 80% de uso, com 4 h 50 min usados e 1 h 10 min restantes"><p><strong>Veja as estatísticas.</strong> Quanto da sua vida a cabeça já gastou.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="A mesma cabeça de escova depois da reposição, de volta a 0% de uso"><p><strong>Reponha-a.</strong> De volta a zero, se as cerdas o permitirem.</p></li>
+</ol>
 </figure>
 
 O NFC.cool Tools trata de todo o processo: ler a tag, calcular a palavra-passe e mostrar-lhe as estatísticas. Sem comandos hex, sem calculadoras web, sem SDR.

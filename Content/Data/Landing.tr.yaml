@@ -1,15 +1,18 @@
 hero:
   title: "NFC Tag Okuma, Yazma ve Tarama - NFC.cool Tools"
-  subtitle: "iPhone ve Android'de NFC tag'leri ücretsiz oku ve yaz, iPhone'da ayrıca QR kod, barkod, belge, 3B model ve oda tara."
+  subtitle: "iPhone ve Android'de NFC tag'leri ücretsiz oku ve yaz, QR kod ve barkod tara; iPhone'da ayrıca belge, 3B model ve oda tara."
 
 trust:
   price: "Ücretsiz"
 
 description: "iPhone ve Android için ücretsiz NFC araçları. Her NFC tag'i tek okutmayla oku, kendi tag'lerine bağlantı, Wi-Fi ve kişi yaz, üstüne QR, barkod ve belge tara."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "Bir telefon NFC tag'lerini tek tek okuyor ve her birinin çipini gösteriyor"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - NFC tag, QR kod, barkod, belge, 3B nesne ve oda tara"
@@ -19,7 +22,11 @@ featuresTitle: "Taramak için gereken her şey"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "iPhone ve Android için ayrı bir dijital kartvizit uygulaması: NFC okutarak ya da QR kodla paylaş, iPhone'da ayrıca App Clip ve Apple Wallet ile. Kartını kimin kaydettiğini gör, topladığın kişileri düzenle, canlı etkinliklerde Konferans Modu'nu aç."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "Bir telefon, boyun askısındaki NFC.cool yaka kartını okuyor ve kişiyi gösteriyor"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "Kullanıcılar ne diyor"
 appStoreReviews:
@@ -77,7 +84,7 @@ faq:
   - question: "NFC.cool hangi NFC tag'lerle çalışır?"
     answer: "NDEF uyumlu her NFC tag ile: NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX ve diğerlerinin çoğu. Genel kullanımda önerilen NTAG216, hem 888 baytlık kapasitesi hem de iPhone ile Android'de geniş uyumluluğu sayesinde. Denenmiş satıcıları <a href=\"/affiliate-links/\">NFC tag sayfasında</a> bulabilirsin."
   - question: "NFC.cool QR kod ve barkod tarar mı?"
-    answer: "Evet, iPhone kamerasından ya da galerindeki herhangi bir fotoğraftan 19 kod biçimini tanır: 6 iki boyutlu kod (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) ve 13 doğrusal barkod (EAN-13, EAN-8, UPC-E, Code 39 ve Mod 43'lü hali, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, üstüne üç GS1 DataBar türevi). UPC-A, başına sıfır eklenerek EAN-13 olarak okunur. Toplu mod kamerayı açık tutar, sayım ve etkinlik girişlerinde işe yarar."
+    answer: "Evet, hem iPhone'da hem Android'de. iPhone'da kameradan ya da galerindeki herhangi bir fotoğraftan 19 kod biçimini tanır: 6 iki boyutlu kod (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) ve 13 doğrusal barkod (EAN-13, EAN-8, UPC-E, Code 39 ve Mod 43'lü hali, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, üstüne üç GS1 DataBar türevi). UPC-A, başına sıfır eklenerek EAN-13 olarak okunur. Android'de kamera 13 biçimi okur: QR Code, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF ve Codabar. İkisinde de toplu mod kamerayı açık tutar, sayım ve etkinlik girişlerinde işe yarar."
   - question: "iPhone'umla NFC tag yazabilir miyim?"
     answer: "Evet, iPhone 7 ve sonrası her iPhone NFC.cool Tools ile tag okuyup yazabilir. 25'ten fazla mesaj türü var: URL, Wi-Fi bilgisi, kişi kartı (vCard), iOS kısayolu, ödeme, sosyal medya profili ve dahası. Okutunca açılan akışlar için gizli veriyi önce NFC Safe ile şifrele (256 bit AES)."
   - question: "NFC.cool, iOS Kısayolları'nı ve Aksiyon Düğmesi'ni destekliyor mu?"

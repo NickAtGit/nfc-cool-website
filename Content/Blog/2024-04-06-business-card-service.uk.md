@@ -60,6 +60,12 @@ image: "/assets/images/Blog/business-card-service.webp"
 
 ## Запиши посилання на NFC-мітку
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="Меню картки в NFC.cool Business Card з пунктом Write to NFC Tag поруч із Preview, Show QR Code і Add to Apple Wallet"><p><strong>Write to NFC Tag.</strong> Пункт у меню картки. Піднеси телефон до мітки, і коротке посилання записано.</p></li>
+</ol>
+</figure>
+
 Тепер фізичний бік. NFC-мітку купиш у [крамниці NFC.cool](https://shop.nfc.cool/collections/all) або в будь-якого стороннього продавця: наліпка, картка, брелок, будь-який зручний формат.
 
 У NFC.cool натисни **«Записати візитівку на NFC-мітку»** і піднеси телефон до мітки. Застосунок запише коротке посилання на сторінку твоєї картки на nfc.cool. Після цього мітку зчитає будь-хто зі смартфоном.
@@ -69,6 +75,12 @@ image: "/assets/images/Blog/business-card-service.webp"
 ---
 
 ## Переглянь картку перед тим, як ділитися
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="Картка очима отримувача: Samir Haddad з Haddad &amp; Lowe з посиланнями Website, LinkedIn і Facebook та кнопкою Save Contact"><p><strong>Що бачать інші.</strong> На iPhone нативний App Clip, а Save Contact за одне натискання.</p></li>
+</ol>
+</figure>
 
 Натисни **«Переглянути візитівку»**, і перед тобою буде рівно те саме, що й перед отримувачем. Сторінка зроблена передусім під телефон, відкривається миттєво й має кнопку «Зберегти в контакти», яка спрацьовує з одного натискання. На iOS людина побачить системний App Clip, встановлювати нічого не треба; на Android відкриється чиста вебсторінка на домені nfc.cool. У підсумку контакт лягає в адресну книгу і там, і там.
 

@@ -124,6 +124,15 @@ Sobald die Datei ausgewählt ist, zeigt die App, was sie erkannt hat: das Trennz
 
 Öffne die **Stapelvorschau**, um jeden Tag mit den Records zu sehen, die er bekommt. Was dort steht, wird genau so geschrieben.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Importieren und prüfen</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="CSV Batch Write in NFC.cool Tools, mit Help, Import CSV und der importierten Datei team-links.csv"><p><strong>CSV importieren.</strong> Wähle deine Datei. Die App arbeitet mit einer eigenen Kopie.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="Die Batch-Konfiguration: Trennzeichen Komma, gruppiert nach Zeilen, 2 Spalten, 24 NFC-Tags nötig und 49 Byte pro NFC-Tag"><p><strong>Die Zahlen prüfen.</strong> Bytes per NFC tag ist der Wert, den du mit deinen Tags vergleichst.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview: Tags 1 bis 4 mit je 2 Einträgen, einem Team-Link und einer E-Mail-Adresse, dazu Start Writing"><p><strong>Vorschau, dann schreiben.</strong> Genau das, was jeder Tag bekommt, bevor der erste beschrieben wird.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Schritt 5: Den Stapel beschreiben

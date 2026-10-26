@@ -82,6 +82,12 @@ OpenPrintTag задаёт универсальный открытый форма
 
 ## Как читать и записывать OpenPrintTag с телефона
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/openprinttag-read-write-nfc-spools-phone/write-440w.webp" alt="Экран OpenPrintTag в NFC.cool Tools, заполненный для Northline Filaments PLA Matte, 1,75 мм, Filament (FFF)"><p><strong>Запись метки на катушку.</strong> Заполни данные материала, нажми кнопку NFC и поднеси метку к телефону.</p></li>
+</ol>
+</figure>
+
 Чтобы работать с OpenPrintTag, принтер Prusa и особое железо не нужны, хватит телефона. Именно эту часть мне больше всего хотелось сделать, потому что телефон в кармане это самый доступный NFC-считыватель на свете.
 
 NFC.cool Tools поддерживает OpenPrintTag нативно и на [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-ru&mt=8), и на [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-ru), и я позаботился о том, чтобы функция была полностью бесплатной.

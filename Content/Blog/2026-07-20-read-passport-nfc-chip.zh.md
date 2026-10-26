@@ -38,6 +38,16 @@ ogDescription: "NFC.cool 现在能读取你护照、身份证或居留许可里�
 
 你读取的每一份证件，都会被存进 App 里一个叫“我的证件”的小卡包，方便你日后回看。这个卡包就存在你的设备上，在 iPhone 上它通过你自己的 iCloud 同步。它不会传到我这里，也不会传到我的任何服务器上。面对这么私密的东西，这不是我会轻描淡写带过的细节。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>在 NFC.cool Tools 里读取护照</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="NFC.cool Tools 的护照与证件页面，提供相机扫描和手动输入两个选项"><p><strong>先交出钥匙。</strong>用相机扫描机读区，或者手动输入那三项信息。</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="读取完成的护照，显示芯片里存的照片、持有人姓名和证件号码"><p><strong>读取芯片。</strong>把手机顶部贴在证件上，照片和信息就会从芯片里读出来。</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="真伪检查全部通过：证件看起来是真的、签发后数据未被改动、签名有效、签发方证书可信、芯片有防克隆保护"><p><strong>检查封印。</strong>芯片支持的每一项检查，从签发方签名到防克隆保护。</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="我的证件，列出五份已保存的护照和身份证"><p><strong>存进我的证件。</strong>保存在你的设备上，只通过你自己的 iCloud 同步。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 这份证件是真的吗？

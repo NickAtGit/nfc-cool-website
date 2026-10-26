@@ -38,6 +38,12 @@ ogDescription: "房地产、医疗、咨询：纸质名片辜负每一种职业�
 
 ## 给房地产经纪人
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="对方看到的房产经纪人名片：Marchetti Property 的 Elena Marchetti，带 Website、Instagram、Facebook 链接和 Save Contact 按钮"><p><strong>客户看到的样子。</strong>不用装 App，名片就在对方的 iPhone 上打开，轻触一下就能存下你。</p></li>
+</ol>
+</figure>
+
 房地产靠的是让别人随时能联系到你。每一次开放参观、每一次同业开放日、每一次在咖啡馆的偶遇都是一条线索，而它能否变成客户，往往取决于一件事：他们有没有留着你的名片？用纸质名片，老实说答案通常是没有。
 
 ### 开放参观的签到表坏掉了
@@ -87,6 +93,12 @@ ogDescription: "房地产、医疗、咨询：纸质名片辜负每一种职业�
 ---
 
 ## 给顾问和自由职业者
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="一位顾问的名片：Kovac Advisory 的 Adrian Kovac，带 Website、LinkedIn 和 Blog 链接"><p><strong>像你自己的名片。</strong>你的 Logo、你的配色，还有对这个角色真正重要的链接。</p></li>
+</ol>
+</figure>
 
 当你独立出来后，没人替你订名片。没有市场部，也没有前台在你头衔变更时帮你重印。你就是品牌，而名片预算就是你自己的预算。
 
@@ -148,6 +160,16 @@ NFC.cool Business Card 在 iPhone 和 Android 上都是一款独立 App。对于
 坦白的说法是：对一名经纪人、一位医生或一个单干者来说，日常真正要紧的是分享够快、名片看起来像*你本人*，并且日后不会让你尴尬。这正是我做它的初衷。如果你需要一个焊死在名片上的销售 CRM，那就去买能做这件事的工具。
 
 你可以[在 App Store 上获取 NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8)，或者[在 Google Play 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en)。
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Card 实际用起来</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="我的名片，共三张：AlexBerger、Conference 和 Speaking"><p><strong>一个角色一张名片。</strong>最多 100 张，每张都有自己的样式和链接。</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="Business Card 标签页，显示名片的二维码，以及名片、潜在客户、联系人和设置的菜单"><p><strong>分享出去。</strong>用 NFC 轻触、二维码或一个普通链接。</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="个人资料设置：公开名片或带 PIN 的私密名片，以及保存前或保存后收集潜在客户信息"><p><strong>规则你来定。</strong>公开还是 PIN 保护，什么时候收集潜在客户，都由你决定。</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="潜在客户列表，每条标着 Qualified、New、Contacted 或 Converted"><p><strong>持续跟进。</strong>所有潜在客户都在一个列表里，进展一目了然。</p></li>
+</ol>
+</figure>
 
 ---
 

@@ -1,0 +1,342 @@
+/* Phone figures: a phone in a blog post showing the app's screens, step by step.
+   PhoneFigureProcessor writes the markup, Scripts/scenes/phone-figures.mjs brings it to life:
+
+   figure.phone-figure[data-layout=stage|float][data-side=start|end]
+     figcaption.phone-figure-title        (optional)
+     .phone-figure-device                 the phone: 5:8 box
+       .phone-figure-screens > img.phone-figure-shot(.is-active)   behind the still's cut-out screen
+       img.phone-figure-shell             the phone, straight on, screen transparent
+       canvas.phone-figure-canvas         the live 3D phone, added by the script (.is-live)
+     ol.phone-figure-steps > li(.is-active) > button.phone-figure-step
+     .phone-figure-dots > button
+
+   Desktop: a stage is a wide paper box, the phone at the start of the line and the steps beside
+   it; a float is a small phone the text wraps around. Below 768 px both are the phone in the
+   column with dots and the current step's text under it. */
+
+.phone-figure {
+   --phone-width: 240px;
+   --phone-ink: var(--brand-blue-1);
+   margin: 2.5rem 0;
+   color: var(--color-text-secondary);
+}
+[data-theme="dark"] .phone-figure { --phone-ink: var(--color-accent); }
+
+/* ---- the phone ---- */
+
+.phone-figure-device {
+   position: relative;
+   width: var(--phone-width);
+   max-width: 100%;
+   aspect-ratio: 5 / 8;
+   margin: 0 auto;
+   /* Sideways swipes step, vertical ones scroll the page. */
+   touch-action: pan-y;
+   -webkit-user-select: none;
+   user-select: none;
+   -webkit-tap-highlight-color: transparent;
+   cursor: pointer;
+}
+.phone-figure-device.is-live { cursor: grab; }
+.phone-figure-device.is-dragging { cursor: grabbing; }
+/* A soft contact shadow on the floor under the phone. */
+.phone-figure-device::before {
+   content: "";
+   position: absolute;
+   inset: auto 18% 3% 18%;
+   height: 5%;
+   background: radial-gradient(closest-side, rgba(0, 20, 50, 0.28), transparent);
+   filter: blur(4px);
+}
+[data-theme="dark"] .phone-figure-device::before {
+   background: radial-gradient(closest-side, rgba(0, 0, 0, 0.6), transparent);
+}
+
+/* Where the phone's screen sits in the box, straight on, as Scripts/scenes/render-phone-shell.mjs
+   prints it. The still's black bezel covers the shots' corners, so a small radius is enough. */
+.phone-figure-screens {
+   position: absolute;
+   left: 19.43%;
+   top: 8.82%;
+   width: 60.885%;
+   height: 82.352%;
+   overflow: hidden;
+   border-radius: 5% / 2.5%;
+   background: #000;
+}
+/* The orange e-ink case from the back (data-device="einkcase"): its e-ink panel, as
+   render-phone-shell.mjs prints it. The bezel covers the corners. */
+.phone-figure[data-device="einkcase"] .phone-figure-screens {
+   left: 28.844%;
+   top: 41.634%;
+   width: 42.311%;
+   height: 45.822%;
+   border-radius: 0;
+   background: #E2E0D8;
+}
+.phone-figure[data-device="einkcase"] .phone-figure-shot { image-rendering: pixelated; }
+/* The shots and the still never take the pointer: the device box handles taps, swipes and drags,
+   and Safari's Live Text would otherwise find the text and email addresses in the screenshots
+   (hidden under the live canvas, too) and draw its dashed boxes and Look Up menu over them. */
+.phone-figure-screens,
+.phone-figure .phone-figure-shot,
+.phone-figure .phone-figure-shell {
+   pointer-events: none;
+   -webkit-user-select: none;
+   user-select: none;
+   -webkit-touch-callout: none;
+}
+.phone-figure .phone-figure-shot {
+   position: absolute;
+   inset: 0;
+   width: 100%;
+   height: 100%;
+   max-width: none;
+   margin: 0;
+   border-radius: 0;
+   object-fit: cover;
+   opacity: 0;
+   transition: opacity 0.38s ease;
+}
+.phone-figure .phone-figure-shot.is-active { opacity: 1; }
+.phone-figure .phone-figure-shell,
+.phone-figure-canvas {
+   position: absolute;
+   inset: 0;
+   width: 100%;
+   height: 100%;
+   max-width: none;
+   margin: 0;
+   border-radius: 0;
+   pointer-events: none;
+}
+/* The live phone fades in over the still (they match), then the still steps aside. The shots
+   stay in the page for screen readers, only unseen. */
+.phone-figure-canvas {
+   opacity: 0;
+   transition: opacity 0.45s ease-out;
+}
+.phone-figure-device.is-live .phone-figure-canvas { opacity: 1; }
+.phone-figure-device.is-live .phone-figure-shell,
+.phone-figure-device.is-live .phone-figure-screens {
+   opacity: 0;
+   transition: opacity 0.2s 0.45s;
+}
+
+/* ---- the steps ---- */
+
+.phone-figure-title {
+   /* Normal case: an uppercase label would turn the brand into NFC.COOL. */
+   font-family: var(--font-heading);
+   font-size: 1rem;
+   font-weight: 700;
+   line-height: 1.35;
+   color: var(--color-text);
+   text-wrap: balance;
+}
+.blog-post-body .phone-figure-steps {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+.blog-post-body .phone-figure-steps li { margin: 0; }
+.phone-figure-step {
+   display: flex;
+   gap: 0.875rem;
+   align-items: baseline;
+   width: 100%;
+   padding: 0.75rem 1rem;
+   border: 0;
+   border-radius: var(--radius-md);
+   background: none;
+   font: inherit;
+   font-size: 0.9875rem;
+   line-height: 1.5;
+   color: inherit;
+   text-align: start;
+}
+button.phone-figure-step { cursor: pointer; }
+.phone-figure-step strong { color: var(--color-text); }
+.phone-figure-step-num {
+   flex: none;
+   display: inline-grid;
+   place-items: center;
+   width: 1.625rem;
+   height: 1.625rem;
+   border-radius: var(--radius-pill);
+   border: 1.5px solid var(--color-border);
+   font-size: 0.8125rem;
+   font-weight: 700;
+   line-height: 1;
+   color: var(--color-text-muted);
+   transform: translateY(-0.1em);
+}
+.phone-figure-steps li.is-active .phone-figure-step-num {
+   border-color: var(--phone-ink);
+   background: var(--phone-ink);
+   color: #fff;
+}
+[data-theme="dark"] .phone-figure-steps li.is-active .phone-figure-step-num { color: #111; }
+.phone-figure-step:focus-visible,
+.phone-figure-dots button:focus-visible {
+   outline: 2px solid var(--phone-ink);
+   outline-offset: 2px;
+}
+
+.phone-figure-dots {
+   display: flex;
+   justify-content: center;
+   gap: 0.25rem;
+   margin-top: 0.5rem;
+}
+.phone-figure-dots button {
+   width: 1.75rem;
+   height: 1.75rem;
+   padding: 0;
+   border: 0;
+   background: none;
+   cursor: pointer;
+   -webkit-tap-highlight-color: transparent;
+}
+.phone-figure-dots button::before {
+   content: "";
+   display: block;
+   width: 0.625rem;
+   height: 0.625rem;
+   margin: auto;
+   border-radius: var(--radius-pill);
+   /* Visible on the light page and the paper stage alike: the text colour, thinned. */
+   background: color-mix(in srgb, var(--color-text) 28%, transparent);
+   transition: width 0.25s ease, background 0.25s ease;
+}
+.phone-figure-dots button:hover::before { background: color-mix(in srgb, var(--color-text) 45%, transparent); }
+.phone-figure-dots button[aria-pressed="true"]::before {
+   width: 1.5rem;
+   background: var(--phone-ink);
+}
+/* Touch screens (phones and tablets): each dot is a full 44 px target, side by side. */
+@media (pointer: coarse) {
+   .phone-figure-dots { gap: 0; margin-top: 0.25rem; }
+   .phone-figure-dots button { width: 2.75rem; height: 2.75rem; }
+}
+
+/* ---- phones and narrow columns: one phone, dots, the current step under it ---- */
+
+.phone-figure {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+.phone-figure-title { order: 0; margin-bottom: 1rem; }
+.phone-figure-device { order: 1; --phone-width: min(62vw, 250px); }
+.phone-figure-dots { order: 2; }
+.phone-figure-steps { order: 3; max-width: 26rem; }
+.phone-figure-steps li:not(.is-active) { display: none; }
+.phone-figure-steps .phone-figure-step { justify-content: center; text-align: center; padding-top: 0.25rem; }
+.phone-figure-steps .phone-figure-step-num { display: none; }
+.phone-figure[data-layout="stage"] {
+   padding: 1.75rem 1.25rem 1.25rem;
+   /* A plain card, like the site's other cards: white on the light page, the card grey on dark. */
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-xl);
+   background: var(--color-bg-card);
+   box-shadow: 0 1px 2px var(--color-shadow), 0 18px 40px -24px var(--color-shadow-lg);
+}
+
+/* ---- desktop ---- */
+
+@media (min-width: 768px) {
+   /* A float sits beside the paragraphs that follow it; a section's rule and heading start
+      below it. */
+   .blog-post-body hr,
+   .blog-post-body h2 { clear: both; }
+
+   .phone-figure[data-layout="float"] {
+      float: inline-end;
+      width: 15rem;
+      margin: 0.25rem 0 1.5rem;
+      margin-inline-start: 2.25rem;
+   }
+   .phone-figure[data-layout="float"][data-side="start"] {
+      float: inline-start;
+      margin-inline: 0 2.25rem;
+   }
+   .phone-figure[data-layout="float"] .phone-figure-device { --phone-width: 15rem; }
+   .phone-figure[data-layout="float"] .phone-figure-step { font-size: 0.875rem; }
+
+   .phone-figure[data-layout="stage"] {
+      --phone-width: 20rem;
+      display: grid;
+      grid-template-columns: var(--phone-width) minmax(0, 1fr);
+      /* The title and steps sit centred against the phone. */
+      grid-template-areas:
+         "device ."
+         "device title"
+         "device steps"
+         "device .";
+      grid-template-rows: 1fr auto auto 1fr;
+      column-gap: clamp(2rem, 5vw, 4rem);
+      align-items: start;
+      padding: 2.5rem clamp(2rem, 5vw, 4rem);
+      text-align: start;
+   }
+   /* Out of the 760 px prose column, wider and centred on it. */
+   @media (min-width: 1000px) {
+      .phone-figure[data-layout="stage"] {
+         --stage-width: min(60rem, calc(100vw - 4rem));
+         width: var(--stage-width);
+         margin-inline: calc((100% - var(--stage-width)) / 2);
+      }
+   }
+   .phone-figure[data-layout="stage"][data-side="end"] {
+      grid-template-columns: minmax(0, 1fr) var(--phone-width);
+      grid-template-areas:
+         ". device"
+         "title device"
+         "steps device"
+         ". device";
+   }
+   .phone-figure[data-layout="stage"] .phone-figure-device { grid-area: device; --phone-width: 20rem; }
+   .phone-figure[data-layout="stage"] .phone-figure-title { grid-area: title; align-self: end; margin: 0 0 0.75rem; padding-inline-start: 1rem; }
+   .phone-figure[data-layout="stage"] .phone-figure-steps {
+      grid-area: steps;
+      align-self: start;
+      max-width: none;
+      display: grid;
+      gap: 0.25rem;
+   }
+   .phone-figure[data-layout="stage"] .phone-figure-steps li:not(.is-active) { display: block; }
+   .phone-figure[data-layout="stage"] .phone-figure-step { justify-content: flex-start; text-align: start; padding-top: 0.75rem; opacity: 0.6; transition: opacity 0.2s ease, background 0.2s ease; }
+   .phone-figure[data-layout="stage"] .phone-figure-step-num { display: inline-grid; }
+   /* On the white card the active step is a quiet tint of the page grey. */
+   .phone-figure[data-layout="stage"] li.is-active .phone-figure-step { opacity: 1; background: var(--color-bg); }
+   .phone-figure[data-layout="stage"] .phone-figure-step:hover { opacity: 1; }
+   .phone-figure[data-layout="stage"] .phone-figure-dots { display: none; }
+}
+
+/* ---- wider devices ----
+   The iPad and the Mac (data-device="ipad" / "mac"), each with an external USB reader, have boxes
+   of their own shape (matching DEVICES in phone-figures.mjs). Last in the file, so their widths
+   win over the layouts' phone widths above. */
+/* Their displays in the box, as render-phone-shell.mjs prints them. */
+.phone-figure[data-device="ipad"] .phone-figure-screens { left: 12.435%; top: 10.052%; width: 59.46%; height: 55.483%; border-radius: 3% / 2.2%; }
+.phone-figure[data-device="mac"] .phone-figure-screens { left: 12.685%; top: 13.351%; width: 52.092%; height: 48.764%; border-radius: 0; }
+.phone-figure[data-device="ipad"] .phone-figure-device { aspect-ratio: 7 / 10; --phone-width: min(78vw, 300px); }
+.phone-figure[data-device="mac"] .phone-figure-device { aspect-ratio: 3 / 2; --phone-width: min(92vw, 380px); }
+@media (min-width: 768px) {
+   .phone-figure[data-layout="stage"][data-device="ipad"],
+   .phone-figure[data-layout="stage"][data-device="ipad"] .phone-figure-device { --phone-width: 22rem; }
+   .phone-figure[data-layout="stage"][data-device="mac"],
+   .phone-figure[data-layout="stage"][data-device="mac"] .phone-figure-device { --phone-width: 30rem; }
+   .phone-figure[data-layout="float"][data-device="ipad"] { width: 18rem; }
+   .phone-figure[data-layout="float"][data-device="ipad"] .phone-figure-device { --phone-width: 18rem; }
+   .phone-figure[data-layout="float"][data-device="mac"] { width: 22rem; }
+   .phone-figure[data-layout="float"][data-device="mac"] .phone-figure-device { --phone-width: 22rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+   .phone-figure .phone-figure-shot,
+   .phone-figure-step,
+   .phone-figure-dots button::before { transition: none; }
+}

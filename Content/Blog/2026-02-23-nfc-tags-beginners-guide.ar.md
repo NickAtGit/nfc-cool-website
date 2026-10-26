@@ -143,6 +143,13 @@ NFC في الواقع مجموعة فرعية من RFID (التعريف بترد
 
 ## قراءة وسوم NFC
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="تبويب NFC في NFC.cool Tools مع زرّي Read NFC وWrite NFC"><p><strong>اقرأ بتطبيق.</strong> انقر على Read NFC وقرّب الوسم من أعلى جهاز iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="وسم مقروء في NFC.cool Tools: سجل بطاقة عمل لـAnna Miller، وتحته ملف vCard الخام"><p><strong>شاهد كل ما عليه.</strong> كل سجل على الوسم، لا الرابط الذي يعرضه iOS فقط.</p></li>
+</ol>
+</figure>
+
 ### على iPhone
 
 تتعامل أجهزة iPhone مع الوسوم تلقائياً. فعلى **iPhone XS وما بعده** (وiPhone SE من الجيل الثالث)، تعمل قراءة NFC في الخلفية - قرّب أعلى الهاتف من وسمٍ فيقرؤه فوراً، دون حاجة إلى تطبيق. أما أجهزة iPhone الأقدم (7 و8 وX) فتتطلّب منك فتح تطبيق قارئ NFC أولاً.
@@ -261,6 +268,12 @@ NFC في الواقع مجموعة فرعية من RFID (التعريف بترد
 ---
 
 ## وسوم NFC واختصارات iPhone
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="إعدادات NFC في NFC.cool Tools وقد فُعّلت Read with tag details وOpen Web Link when read وRun Shortcut when read وPlay audio file when read"><p><strong>شغّل اختصارًا عند القراءة.</strong> يستطيع NFC.cool فتح رابط أو تشغيل اختصار أو تشغيل صوت لحظة قراءة الوسم.</p></li>
+</ol>
+</figure>
 
 هذا هو الشيء المفضّل لديّ لأريه للناس. فتطبيق **الاختصارات** من Apple (المدمج في iOS) يدعم مشغّلات NFC بشكل أصلي، وهو حيث تنتقل الوسوم من كونها مفيدة إلى كونها قوية فعلاً على iPhone.
 

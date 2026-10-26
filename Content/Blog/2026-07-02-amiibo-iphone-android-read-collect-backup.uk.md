@@ -48,6 +48,15 @@ ogDescription: "Я зробив у NFC.cool повну підтримку Amiibo
 
 **Резервне копіювання і відновлення.** Коли власні ключі імпортовано, копію фігурки з перевиведеними ключами можна записати на чисту NTAG215. Резервну копію бери прямо з фігурки, яку щойно зчитав, або відновлюй зі збереженого на пристрої дампа `.bin`. Застосунок заново виводить ключі під ту чисту мітку, яку ти тримаєш, і підписує дані саме для неї, тож копія дійсна сама по собі, а не приречена побайтова підробка. Запис назавжди: щойно мітку заблоковано, вона заблокована, і застосунок прямо каже про це до того, як ти натиснеш.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Зчитати, зібрати, зберегти копію</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="Зчитана фігурка в NFC.cool Tools, Bramble the Badger: персонаж, ігрова серія, серія, тип і лічильник записів мітки"><p><strong>Зчитування.</strong> Персонаж, серія і тип, а ще дані самої мітки, без жодних ключів.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="«Моя колекція», сітка з шести зчитаних фігурок"><p><strong>Колекція.</strong> Кожна зчитана фігурка потрапляє до «Моєї колекції» на пристрої.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="Екран NFC Figures із пунктами Scan Figure, My Collection, Restore from Backup і NFC Keys"><p><strong>Резервне копіювання і відновлення.</strong> З імпортованими власними ключами запиши резервну копію на порожню NTAG215.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Чого тут навмисно немає

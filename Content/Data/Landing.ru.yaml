@@ -1,15 +1,18 @@
 hero:
   title: "Чтение и запись NFC-меток, сканер QR: NFC.cool Tools"
-  subtitle: "Считывай и записывай NFC-метки на iPhone и Android бесплатно. На iPhone к этому добавляется сканирование QR-кодов, штрихкодов, документов, 3D-моделей и помещений."
+  subtitle: "Считывай и записывай NFC-метки, сканируй QR-коды и штрихкоды на iPhone и Android бесплатно. На iPhone к этому добавляется сканирование документов, 3D-моделей и помещений."
 
 trust:
   price: "Бесплатно"
 
 description: "Бесплатные NFC-инструменты для iPhone и Android. Считывай любую NFC-метку одним касанием, записывай свои: ссылки, Wi-Fi, контакты. Плюс сканирование QR-кодов, штрихкодов и документов."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "Телефон считывает NFC-метки одну за другой и показывает чип каждой"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool: сканирование NFC-меток, QR-кодов, штрихкодов, документов, 3D-объектов и помещений"
@@ -19,7 +22,11 @@ featuresTitle: "Всё, что нужно для сканирования"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "Отдельное приложение для цифровой визитки на iPhone и Android. Делись касанием NFC или QR-кодом, а на iPhone ещё через App Clip и Apple Wallet. Смотри, кто сохранил карточку, веди базу контактов и включай режим конференции на мероприятиях."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "Телефон сканирует бейдж NFC.cool на шнурке и показывает контакт"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "Что о нас говорят"
 appStoreReviews:
@@ -77,7 +84,7 @@ faq:
   - question: "Какие NFC-метки подходят к NFC.cool?"
     answer: "Любые метки с поддержкой NDEF: NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX и большинство остальных. Для повседневных задач лучше всего брать NTAG216: 888 байт памяти и широкая совместимость с iPhone и Android. Проверенные магазины собраны на <a href=\"/affiliate-links/\">странице NFC-меток</a>."
   - question: "NFC.cool сканирует QR-коды и штрихкоды?"
-    answer: "Да, приложение распознаёт 19 форматов с камеры iPhone или из любого снимка в галерее: 6 двумерных кодов (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) и 13 линейных штрихкодов (EAN-13, EAN-8, UPC-E, Code 39 вместе с Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14 и три варианта GS1 DataBar). UPC-A читается как EAN-13 с ведущим нулём. Пакетный режим держит камеру открытой, что удобно для инвентаризации и регистрации на мероприятиях."
+    answer: "Да, на iPhone и на Android. На iPhone приложение распознаёт 19 форматов с камеры или из любого снимка в галерее: 6 двумерных кодов (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) и 13 линейных штрихкодов (EAN-13, EAN-8, UPC-E, Code 39 вместе с Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14 и три варианта GS1 DataBar). UPC-A читается как EAN-13 с ведущим нулём. На Android камера читает 13 форматов: QR Code, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF и Codabar. На обеих платформах пакетный режим держит камеру открытой, что удобно для инвентаризации и регистрации на мероприятиях."
   - question: "Можно ли записывать NFC-метки с iPhone?"
     answer: "Да, любой iPhone начиная с iPhone 7 и считывает, и записывает метки через NFC.cool Tools. Доступно больше 25 типов записей: ссылки, данные Wi-Fi, контакты (vCard), быстрые команды iOS, платежи, профили в соцсетях и другое. Секреты можно сначала зашифровать в NFC Safe (256-битный AES) и открывать их касанием."
   - question: "Поддерживаются ли быстрые команды iOS и кнопка действия?"

@@ -136,6 +136,12 @@ Pratik çıkarım: GDPR'ı varsayılan olarak ciddiye alan bir platform seç, on
 
 Açık olayım: burası NFC.cool blogu, yani kendi yaklaşımımdan söz edeceğim. Ama yukarıda manzarayı dürüstçe anlatmaya çalıştım, burada da dürüst olacağım.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/why-privacy-matters-digital-business-card/profile-settings-440w.webp" alt="NFC.cool Business Card'ta Profil Ayarları: herkese açık bir kart ya da görüntülemek için PIN isteyen, arama motorlarınca dizinlenmeyen özel bir kart; ayrıca potansiyel müşteri toplama seçenekleri"><p><strong>Açık ya da özel.</strong> Özel kart PIN olmadan görünmez, potansiyel müşteri toplama da yalnızca açarsan çalışır.</p></li>
+</ol>
+</figure>
+
 [NFC.cool Business Card'ı](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-tr&mt=8) kurarken gizlilik sonradan akla gelen bir şey ya da pazarlama kutucuğu değildi. Ürünü o şekillendirdi:
 
 **PIN korumalı profiller.** Kartvizitini, deneme sayısı sınırlı 4 haneli bir PIN'in arkasına kilitleyebiliyorsun. Kart adresini rahatça paylaş ama bilgilerini yalnızca istediğinde göster. Kaybedebileceğin NFC kartlarında ya da tüm iletişim bilgini kimin göreceğini denetlemek istediğin zamanlarda işe yarıyor.

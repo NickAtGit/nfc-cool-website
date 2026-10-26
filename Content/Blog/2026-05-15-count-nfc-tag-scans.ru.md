@@ -77,6 +77,15 @@ ogDescription: "NFC-метка умеет считать свои сканиро
 
 Если однажды захочется это выключить, приложение умеет отключать счётчик на уже записанной метке. Чип перестаёт подставлять живые значения, а содержимое остаётся ровно таким, каким его записали в последний раз. Одна деталь, которую стоит знать: внутри себя чип продолжает считать и после отключения подстановки, так что счёт не теряется, его просто перестают показывать.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Настройка считающей метки</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Экран NFC Tap Counter в NFC.cool Tools: ссылка, которая при каждом сканировании обновляет число касаний и ID метки, для NTAG213, NTAG215 и NTAG216"><p><strong>NFC Tap Counter.</strong> В разделе NFC Tools, для меток NTAG213, 215 и 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="Варианты содержимого URL, Email, SMS и Shortcut, ниже Try it out"><p><strong>Выбери содержимое.</strong> URL, письмо, SMS или, на iPhone, быстрая команда.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="Включены NFC Tap Counter и NFC Tag ID, Batch write выключен, превью https://studionord.example/table-7?nfc=049F50824F1390x000007 и кнопка Write to NFC Tag"><p><strong>Переключатели и превью.</strong> Ещё до записи превью показывает, куда попадут ID метки и счётчик.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Где появляются счёт и идентификатор

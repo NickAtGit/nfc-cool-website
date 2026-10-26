@@ -28,6 +28,12 @@ Yani her NFC bir RFID'dir ama her RFID bir NFC değildir. Aldığım "neden çal
 
 ## iPhone'un site kartına neden "hayır" diyor
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/iphone-rfid-condo-doors/cant-read-440w.webp" alt="Üzgün bir yüz gösteren iPhone ekranı"><p><strong>Okunacak bir şey yok.</strong> Düşük frekanslı ya da tescilli RFID, iPhone'un NFC radyosunun duyabileceklerinin dışında.</p></li>
+</ol>
+</figure>
+
 Yüzlerce kez anlatmak zorunda kaldığım kısım burası. Site geçiş kartın büyük olasılıkla iPhone'unun tanıdığı NFC standardının dışında kalan bir RFID türü kullanıyor: çoğu zaman alçak frekanslı RFID ya da iPhone'ların yorumlayamayacağı biçimde şifrelenmiş, üreticiye özel yüksek frekanslı bir düzen. Apple, iPhone'u güvenlik, pil verimi ve tutarlı bir kullanım deneyimi için yalnızca 13,56 MHz'deki NFC ile çalışacak biçimde tasarladı.
 
 Açıkça söylersek: iPhone'un, sitenin RFID lehçesini konuşmuyor. Netflix aboneliğinin seni sinema salonuna sokmasını beklemek gibi. Genel fikir aynı, dünyalar tamamen ayrı. Bu, kendi uygulamamda etrafından dolaşabileceğim bir hata da değil: telefonun içindeki verici, o kartın konuştuğu frekansa hiçbir şekilde ayarlanamıyor. Apple'ın NFC yığınında tam olarak neyi açıp neyi açmadığını merak ediyorsan [iPhone'larda NFC'ye içeriden bakış](/blog/nfc-on-iphones-insider-look/) yazısında yazdım.

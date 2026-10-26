@@ -28,6 +28,12 @@ Jadi semua NFC adalah RFID, tetapi tidak semua RFID adalah NFC. Satu kalimat itu
 
 ## Mengapa iPhone Anda berkata "tidak" pada kartu apartemen Anda
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/iphone-rfid-condo-doors/cant-read-440w.webp" alt="Layar iPhone yang menampilkan wajah sedih"><p><strong>Tidak ada yang bisa dibaca.</strong> RFID frekuensi rendah atau proprietary berada di luar jangkauan radio NFC iPhone.</p></li>
+</ol>
+</figure>
+
 Inilah bagian yang sudah saya jelaskan ratusan kali. Kartu akses apartemen Anda kemungkinan besar menggunakan bentuk RFID yang berada di luar standar NFC yang dikenali iPhone Anda - seringkali RFID frekuensi rendah, atau skema frekuensi tinggi eksklusif yang dienkripsi dengan cara yang tidak bisa diinterpretasikan oleh iPhone. Apple dengan sengaja membangun iPhone untuk bekerja secara eksklusif dengan NFC pada 13,56 MHz demi keamanan, efisiensi baterai, dan pengalaman pengguna yang konsisten.
 
 Sederhananya: iPhone Anda tidak berbicara dialek RFID apartemen Anda. Ini seperti mengharapkan langganan Netflix Anda bisa membawa Anda masuk ke bioskop. Ide umum yang sama, dunia yang sama sekali berbeda. Dan ini bukan bug yang bisa saya tambal di aplikasi saya sendiri - radio di dalam ponsel sekadar tidak bisa menala ke frekuensi yang digunakan kartu tersebut. Jika Anda penasaran tentang apa yang Apple buka dan tidak buka dalam tumpukan NFC, saya menulis tentangnya di [pandangan orang dalam tentang NFC di iPhone](/blog/nfc-on-iphones-insider-look/).

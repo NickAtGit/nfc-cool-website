@@ -28,6 +28,12 @@ Donc, tout NFC est de la RFID, mais toute RFID n'est pas du NFC. Cette seule phr
 
 ## Pourquoi votre iPhone dit « non » à la carte de votre immeuble
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/iphone-rfid-condo-doors/cant-read-440w.webp" alt="Un écran d'iPhone affichant un visage triste"><p><strong>Rien à lire.</strong> Le RFID basse fréquence ou propriétaire échappe à ce que la puce NFC de l'iPhone peut entendre.</p></li>
+</ol>
+</figure>
+
 Voici la partie que j'ai dû expliquer des centaines de fois. Votre carte d'accès d'immeuble utilise très probablement une forme de RFID qui se situe en dehors de la norme NFC que votre iPhone reconnaît - souvent de la RFID basse fréquence, ou un schéma haute fréquence propriétaire chiffré d'une manière que les iPhone ne savent pas interpréter. Apple a délibérément conçu l'iPhone pour fonctionner exclusivement avec le NFC à 13.56 MHz, pour des raisons de sécurité, d'autonomie et de cohérence de l'expérience utilisateur.
 
 Pour dire les choses simplement : votre iPhone ne parle pas le dialecte RFID de votre immeuble. C'est comme espérer entrer au cinéma avec votre abonnement Netflix. Même idée générale, mondes complètement différents. Et ce n'est pas non plus un bug que je pourrais contourner dans ma propre app - la puce radio à l'intérieur du téléphone ne peut tout simplement pas se caler sur la fréquence utilisée par cette carte. Si vous êtes curieux de savoir ce qu'Apple a ouvert et n'a pas ouvert dans sa pile NFC, j'en ai parlé dans [un regard d'initié sur le NFC des iPhone](/blog/nfc-on-iphones-insider-look/).

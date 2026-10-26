@@ -136,6 +136,12 @@ GDPR 赋予你数据可携带的权利：你应该能够下载平台持有的关
 
 先把话说在前面：这是 NFC.cool 的博客，所以我会讲讲我自己的做法。但我在上文已经尽力对整个行业保持诚实，在这里我也会保持诚实。
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/why-privacy-matters-digital-business-card/profile-settings-440w.webp" alt="NFC.cool Business Card 的个人资料设置：公开名片，或需要 PIN 才能查看、不被搜索引擎收录的私密名片，以及收集潜在客户的选项"><p><strong>公开还是私密。</strong>私密名片要输入 PIN 才能看，收集潜在客户的功能只有你打开才会运行。</p></li>
+</ol>
+</figure>
+
 当我打造 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8) 时，隐私不是事后才想到的，也不是一个营销勾选项。它塑造了整个产品：
 
 **PIN 码保护的资料**：你可以用一个 4 位 PIN 码把你的名片锁起来，并限制尝试次数。你可以自由地分享名片 URL，但只在你愿意的时候才让别人看到你的详细信息。这对于你可能弄丢的 NFC 卡片，或者你想控制谁能看到你完整联系信息的场合，都很有用。

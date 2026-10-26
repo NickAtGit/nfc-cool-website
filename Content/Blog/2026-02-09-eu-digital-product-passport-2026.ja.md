@@ -124,6 +124,15 @@ NFCでDPPを実装するメーカーやブランドは、パスポートデー�
 
 エンタープライズ規模の展開には、デスクトップNFCライター（NTAG、ICODE、MIFAREチップ対応）が大量プログラミングに対応しますが、モバイルアプリは**現場検証**に不可欠です - 棚や倉庫の製品をスキャンして、パスポートリンクが正しく機能するか確認できます。Androidなら、何もインストールせずに[ブラウザから直接タグの中身を確認する](/ja/online-nfc-reader/)こともでき、手早い抜き取りチェックに便利です。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Toolsのデジタル製品パスポート</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="NFC.cool ToolsのDigital Product Passport画面。Read a PassportとCreate a Passport"><p><strong>Digital Product Passport。</strong>NFC Forumの規格に沿って、タグからパスポートを読み取るか、自分で作成します。</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="読み取ったMerino Wool Jacketのパスポート。製品ID、製造日、パスポートのリンク、製造者、素材"><p><strong>読み取る。</strong>製品、製造者、素材、環境への影響を、タグから直接。</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="新しいパスポートのフォーム。製品、製造者、日付、素材"><p><strong>作成する。</strong>製品データを入力してタグに書き込み、テストや少量生産に。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## EU以外：世界的な動き

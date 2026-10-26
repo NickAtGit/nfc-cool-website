@@ -68,6 +68,12 @@ NFC.cool ToolsはNFCタグの読み書きに最適です - まさにそのため
 
 ## 解決策：URLベースのNFC名刺
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="タッチ後に開くデジタルプロフィール。Meridian SystemsのRin Nakashima。Website、Blog、Reddit、BlueskyのリンクとSave Contactボタン"><p><strong>タッチ、プロフィール、保存。</strong>タグのリンクがこのプロフィールを開き、ワンタップで連絡先を保存できます。</p></li>
+</ol>
+</figure>
+
 NFC名刺を買うときに誰も教えてくれないこと：
 
 **タグに連絡先データを保存するべきではありません。**

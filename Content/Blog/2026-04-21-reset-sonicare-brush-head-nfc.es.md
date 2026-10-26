@@ -59,10 +59,12 @@ La contraseña se calcula a partir de dos entradas: el UID de 7 bytes de la etiq
 
 ## Cómo comprobar y restablecer con NFC.cool Tools
 
-Así es como se ve en la app:
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools mostrando un cabezal de cepillo Sonicare al 80% de uso con el botón Restablecer temporizador" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="La pantalla Sonicare Reset en NFC.cool Tools, que te pide acercar el cabezal al iPhone"><p><strong>Lee el cabezal.</strong> Toca Leer NFC y acerca el cabezal de cepillo a tu iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="Un cabezal Sonicare al 80% de uso, con 4 h 50 min usados y 1 h 10 min restantes"><p><strong>Mira sus datos.</strong> Cuánta vida ha gastado ya el cabezal.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="El mismo cabezal tras restablecerlo, de nuevo al 0% de uso"><p><strong>Restablécelo.</strong> De vuelta a cero, si tus cerdas aguantan.</p></li>
+</ol>
 </figure>
 
 NFC.cool Tools gestiona todo el proceso: leer la etiqueta, calcular la contraseña y mostrarte las estadísticas. Sin comandos hex, sin calculadoras web, sin SDR.

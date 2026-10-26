@@ -45,6 +45,16 @@ ogDescription: "ゴミになる500枚の名刺を印刷するのをやめまし�
 
 デジタル化は単に紙をアプリに置き換えることではありません。本当の利点は、カンファレンス全体 - 準備からフォローアップまで - を通じて機能するシステムを持つことです。その設定方法はこちらです。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>前・最中・後</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="マイビジネスカード。普段のカードの横にConferenceカード"><p><strong>前：イベント用のカード。</strong>このカンファレンス専用のカードに、そこで大事なリンクを。</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="カードのQRコードを全画面表示。下にShareとSave to Photos"><p><strong>最中：タッチかスキャン。</strong>すばやく渡すならNFC、それ以外の人には全画面のQRコード。</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="ネットワーキングの連絡先、Lantern MetricsのPriya Raman。Add Reminder、Add Meeting、イベントの詳細"><p><strong>後：フォローアップ。</strong>どこで会ったかを連絡先ごとに記録。リマインダーやミーティングもワンタップ。</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics。閲覧1,284回、保存213回、日別のグラフ"><p><strong>それから振り返る。</strong>日ごとの閲覧数と保存数で、どのイベントが実を結んだかがわかります。</p></li>
+</ol>
+</figure>
+
 ### フェーズ1：カンファレンス前
 
 デジタル名刺のセットアップに最悪のタイミングは、受付の列に並んでいる時です。イベントの少なくとも1週間前には準備を済ませましょう。

@@ -48,6 +48,15 @@ ogDescription: "我为 NFC.cool 加入了完整的 Amiibo 支持：扫描、收�
 
 **备份与还原**。导入你自己的密钥后，你就可以把一个手办重新生成密钥后的副本写入一枚空白的 NTAG215。你既可以直接从刚扫描的手办进行备份，也可以从设备上保存的 `.bin` 导出文件还原。App 会为你手上这枚空白标签重新推导密钥，并针对这枚标签给数据签名，因此这份副本是以它自身的方式合法有效的，而不是一份注定失败的逐字节伪造品。写入是永久性的，标签一旦被锁定，就锁死了，App 会在你确认之前把这一点讲得清清楚楚。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>读取、收藏、备份</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="NFC.cool Tools 中扫描到的手办 Bramble the Badger，显示角色、游戏系列、系列、类型和标签的写入计数"><p><strong>读取。</strong>角色、系列和类型，还有标签本身的信息，不需要任何密钥。</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="我的收藏，六个已扫描手办组成的网格"><p><strong>收藏。</strong>你扫描过的每个手办都会进到设备上的我的收藏里。</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="NFC Figures 页面，列有 Scan Figure、My Collection、Restore from Backup 和 NFC Keys"><p><strong>备份与还原。</strong>导入你自己的密钥后，就能把备份写入一枚空白 NTAG215。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 哪些是我刻意没有做的

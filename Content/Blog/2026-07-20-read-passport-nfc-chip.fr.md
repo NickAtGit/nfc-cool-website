@@ -38,6 +38,16 @@ Quelques secondes plus tard, vous avez sous les yeux ce que la puce transportait
 
 Chaque document que vous lisez est enregistré dans un petit portefeuille au sein de l'app, appelé Mes documents, pour que vous puissiez le retrouver plus tard. Ce portefeuille vit sur votre appareil, et sur iPhone il se synchronise via votre propre iCloud. Il ne me parvient pas, ni à aucun de mes serveurs. Sur quelque chose d'aussi personnel, ce n'est pas un détail que je passerais sous silence.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Lire un passeport dans NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="L'écran Passeport et pièce d'identité de NFC.cool Tools, avec les options de scan par l'appareil photo et de saisie manuelle"><p><strong>Donnez-lui la clé.</strong> Scannez la zone de lecture automatique avec l'appareil photo, ou saisissez les trois valeurs à la main.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="Un passeport lu, avec la photo enregistrée, le nom de la titulaire et le numéro du document"><p><strong>Lisez la puce.</strong> Posez le haut de votre téléphone sur le document, et la photo et les données sortent de la puce.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="Les contrôles d'authenticité, tous réussis : document apparemment authentique, données inchangées depuis l'émission, signature valide, émetteur de confiance, protection anti-clonage de la puce"><p><strong>Vérifiez le sceau.</strong> Tous les contrôles que la puce prend en charge, de la signature de l'émetteur à la protection contre le clonage.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="Mes documents, une liste de cinq passeports et cartes d'identité enregistrés"><p><strong>Rangez-le dans Mes documents.</strong> Enregistré sur votre appareil, synchronisé uniquement via votre propre iCloud.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Le document est-il authentique ?

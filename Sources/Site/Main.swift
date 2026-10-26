@@ -68,6 +68,8 @@ import SiteKit
          .processor(EmailObfuscationProcessor())
          .processor(BrandWordmarkProcessor())
          .processor(LangPickerDataProcessor())
+         .processor(LiveSceneScriptProcessor())
+         .processor(PhoneFigureProcessor())
          .processor(AssetMinifier())
          .run()
    }

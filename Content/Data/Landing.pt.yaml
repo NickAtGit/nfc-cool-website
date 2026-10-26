@@ -1,15 +1,18 @@
 hero:
   title: "Leitor, Gravador e Digitalizador de Tags NFC - NFC.cool Tools"
-  subtitle: "Leia e Grave Tags NFC gratuitamente no iPhone e Android - e, no iPhone, leia Códigos QR, Códigos de Barras, Documentos, Modelos 3D e Divisões."
+  subtitle: "Leia e Grave Tags NFC e leia Códigos QR e Códigos de Barras gratuitamente no iPhone e Android - e, no iPhone, digitalize Documentos, Modelos 3D e Divisões."
 
 trust:
   price: "Grátis"
 
 description: "Ferramentas NFC gratuitas para iPhone e Android. Leia qualquer tag NFC com um toque, grave as suas próprias com ligações, Wi-Fi e contactos, além de leitura de QR, códigos de barras e documentos."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "Um telemóvel lê uma tag NFC atrás da outra e mostra o chip de cada uma"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - Leia Tags NFC, Códigos QR, Códigos de Barras, Documentos, Objetos 3D e Divisões"
@@ -19,7 +22,11 @@ featuresTitle: "Tudo o que precisa para digitalizar"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "Uma aplicação dedicada de Cartão de Visita Digital para iPhone e Android - partilhe por toque NFC ou código QR e, no iPhone, também por AppClip ou Apple Wallet. Saiba quem guarda o seu cartão, organize contactos e ative o Modo Conferência para eventos ao vivo."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "Um telemóvel lê um crachá NFC.cool preso a um cordão e mostra o contacto"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "O que dizem as pessoas"
 appStoreReviews:
@@ -77,7 +84,7 @@ faq:
   - question: "Que tags NFC funcionam com o NFC.cool?"
     answer: "Qualquer tag NFC compatível com NDEF - NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX e a maioria das outras. A NTAG216 é a predefinição recomendada para uso geral, graças à sua capacidade de 888 bytes e à ampla compatibilidade com iPhone e Android. Consulte a <a href=\"/affiliate-links/\">página de Tags NFC</a> para retalhistas testados."
   - question: "O NFC.cool consegue ler códigos QR e códigos de barras?"
-    answer: "Sim - são reconhecidos 19 formatos de código a partir da câmara do iPhone ou de qualquer foto na sua galeria: 6 códigos bidimensionais (Código QR, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) e 13 códigos de barras lineares (EAN-13, EAN-8, UPC-E, Code 39 incl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, mais as três variantes GS1 DataBar). O UPC-A é lido como EAN-13 com um zero à frente. O modo por lote mantém a câmara aberta para contagens de inventário e registos de entrada em eventos."
+    answer: "Sim - no iPhone e no Android. No iPhone, são reconhecidos 19 formatos de código a partir da câmara ou de qualquer foto na sua galeria: 6 códigos bidimensionais (Código QR, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) e 13 códigos de barras lineares (EAN-13, EAN-8, UPC-E, Code 39 incl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, mais as três variantes GS1 DataBar). O UPC-A é lido como EAN-13 com um zero à frente. No Android, a câmara lê 13 formatos: Código QR, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF e Codabar. Em ambos, o modo por lote mantém a câmara aberta para contagens de inventário e registos de entrada em eventos."
   - question: "Posso gravar tags NFC com o meu iPhone?"
     answer: "Sim - todos os iPhones a partir do iPhone 7 conseguem ler e gravar tags NFC com o NFC.cool Tools. Escolha entre mais de 25 tipos de mensagem: URLs, credenciais Wi-Fi, cartões de contacto (vCard), Atalhos do iOS, pagamentos, perfis sociais e muito mais. Encripte primeiro os segredos com o NFC Safe (AES de 256 bits) para fluxos de desbloqueio por toque."
   - question: "O NFC.cool suporta os Atalhos do iOS e o Botão de Ação?"

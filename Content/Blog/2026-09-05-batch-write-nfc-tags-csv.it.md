@@ -124,6 +124,15 @@ Appena scegli il file, l'app mostra quello che ha riconosciuto: il separatore, i
 
 Apri l'**Anteprima della serie** per vedere ogni tag con i record che riceverà. Quello che compare lì è esattamente quello che verrà scritto.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Importa e controlla</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="CSV Batch Write in NFC.cool Tools, con Help, Import CSV e il file importato team-links.csv"><p><strong>Importa il CSV.</strong> Scegli il file. L'app lavora su una copia tutta sua.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="La configurazione del batch: separatore virgola, raggruppato per righe, 2 colonne, 24 tag NFC necessari e 49 byte per tag NFC"><p><strong>Controlla i numeri.</strong> Bytes per NFC tag è il valore da confrontare con i tuoi tag.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview: tag da 1 a 4, ognuno con 2 record, un link del team e un indirizzo email, e Start Writing"><p><strong>Anteprima, poi scrittura.</strong> Esattamente quello che riceverà ogni tag, prima di scrivere il primo.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Passo 5: scrivi tutta la pila

@@ -136,6 +136,12 @@ The practical takeaway: choose a platform that takes GDPR seriously by default, 
 
 Full disclosure: this is the NFC.cool blog, so I'm going to talk about my approach. But I've tried to be honest about the landscape above, and I'll be honest here too.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/why-privacy-matters-digital-business-card/profile-settings-440w.webp" alt="Profile Settings in NFC.cool Business Card: a public card, or a private card that needs a PIN to view and is not indexed by search engines, plus the lead capture options"><p><strong>Public or private.</strong> A private card needs a PIN to view, and lead capture runs only if you switch it on.</p></li>
+</ol>
+</figure>
+
 When I built [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8), privacy wasn't an afterthought or a marketing checkbox. It shaped the product:
 
 **PIN-Protected Profiles** - You can lock your business card behind a 4-digit PIN with rate-limited attempts. Share your card URL freely, but only let people see your details when you want them to. This is useful for NFC cards you might lose, or for times when you want to control who sees your full contact info.

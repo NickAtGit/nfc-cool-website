@@ -42,6 +42,12 @@ Hältst du dein iPhone dagegen an einen NFC-Sticker auf einem Poster, sind die R
 
 ## NDEF: Die Lingua Franca
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-on-iphones-insider-look/ndef-record-440w.webp" alt="Ein gelesener Visitenkarten-Eintrag in NFC.cool Tools, darunter der rohe vCard-Inhalt: BEGIN:VCARD, VERSION:3.0, N und FN für Anna Miller"><p><strong>Ein NDEF-Eintrag, aufgeklappt.</strong> Ein Kontakteintrag, wie NFC.cool ihn zeigt, darunter die rohe vCard.</p></li>
+</ol>
+</figure>
+
 Über dem NFC-Funk liegt die Datenschicht, und die heißt **NDEF**, kurz für NFC Data Exchange Format. Ich beschreibe es gern als winziges Record-Format, das sich selbst beschreibt: Ein Tag trägt einen oder mehrere Records, und jeder Record hat einen Typ (URI, Text, vCard, WLAN-Zugangsdaten, eigener MIME-Typ) und eine Payload.
 
 Jedes NFC-fähige Handy auf diesem Planeten spricht NDEF. Deshalb liest ein iPhone problemlos einen Tag, der auf einem Android-Gerät beschrieben wurde, und umgekehrt. Es ist eine der wenigen Stellen im Mobile-Bereich, an denen iOS und Android sich wirklich einen Standard teilen, und ehrlich gesagt bin ich beim Bauen neuer Features für nichts so dankbar wie für genau diese Interoperabilität: Ich schreibe für das Format, nicht für eine Plattform. Wenn du selbst Records schreiben willst, zeige ich das Schritt für Schritt in [NFC-Tags mit dem iPhone beschreiben](/de/blog/write-nfc-tags-iphone/).

@@ -20,6 +20,16 @@ So holst du das Beste raus.
 
 Öffne NFC.cool Tools, tippe auf das Dokument-Symbol und nimm die Seite ins Bild. Der Scanner legt einen gelben Rahmen um das, was er für die Seitenränder hält. Meistens liegt er richtig. Wenn nicht, ziehst du die Ecken einfach passend.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Vom Papier zum durchsuchbaren PDF</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="Die Dokumentkamera in NFC.cool Tools, mit einem erkannten Mietvertrag und markierten Ecken"><p><strong>Erfassen.</strong> Die Seite wird erkannt und ihre Ecken werden für dich gesetzt.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="Der erkannte Text einer Rechnung, mit Share text und Copy text to clipboard"><p><strong>Text lesen.</strong> Die Texterkennung macht aus dem Scan Text zum Kopieren oder Teilen.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="Gespeicherte Dokumente, durchsucht nach Portland: eine Rechnung, ein Kassenbon und ein Mietvertrag"><p><strong>Später wiederfinden.</strong> Die Suche findet ein Dokument über jedes Wort darin.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF, mit Share und Save to Files"><p><strong>Exportieren.</strong> Ein durchsuchbares PDF, geteilt oder in Dateien gesichert.</p></li>
+</ol>
+</figure>
+
 Ein paar Tipps, mit denen das Ergebnis spürbar besser wird:
 
 - **Tageslicht statt Deckenlampe.** Unter Bürobeleuchtung wirft das Handy selbst einen Schatten auf die Seite. Licht vom Fenster oder eine Schreibtischlampe, die schräg über das Blatt leuchtet, funktioniert besser.

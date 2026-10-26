@@ -18,6 +18,12 @@ QR-код по сути просто ведро байтов. Ссылки вс�
 
 ## Ссылки
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="Create QR Code в NFC.cool Tools: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime и Event"><p><strong>Один список, любое содержимое.</strong> Ссылки, Wi-Fi, контакты, места и события начинаются здесь.</p></li>
+</ol>
+</figure>
+
 Базовый случай. Записываешь `https://example.com`, сканируешь любой камерой, и устройство предлагает открыть адрес. Работает на любом телефоне последнего десятилетия.
 
 Полезный приём: короткие ссылки. Если у тебя длинные адреса с метками аналитики, делай QR по короткой версии. Код получится физически мельче, ведь модулей меньше и плотность ниже, и его будет проще считать издалека.
@@ -25,6 +31,13 @@ QR-код по сути просто ведро байтов. Ссылки вс�
 ---
 
 ## Данные Wi-Fi
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="Форма QR-кода для Wi-Fi в NFC.cool Tools: имя сети, пароль, проверка подлинности WPA/WPA2 и скрытая сеть"><p><strong>Заполни данные сети.</strong> Имя, пароль и тип защиты.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="Готовый QR-код Wi-Fi с названием Guest WiFi и QR Code Studio для оформления"><p><strong>Поделись кодом.</strong> Гости сканируют его и подключаются без ввода пароля.</p></li>
+</ol>
+</figure>
 
 Имя сети, пароль и тип защиты (WPA2, WPA3, открытая сеть) записываются в стандартном формате `WIFI:T:WPA;S:...;P:...;;`. И iOS, и Android, и современная Windows понимают этот формат и сами предлагают подключиться.
 
@@ -71,6 +84,12 @@ QR-код по сути просто ведро байтов. Ссылки вс�
 ---
 
 ## Что происходит на стороне сканирования
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="QR-сканер в NFC.cool Tools: код найден на напечатанной карточке, есть кнопка Finish"><p><strong>Сканирование.</strong> Наведи камеру, и приложение прочитает содержимое и предложит нужное действие.</p></li>
+</ol>
+</figure>
 
 Сканер NFC.cool читает любой из перечисленных форматов и отправляет его в нужное действие: ссылки открываются в браузере, vCard предлагает сохраниться, Wi-Fi предлагает подключиться, координаты открываются в картах. Ещё он ведёт локальную историю всех сканирований, а это выручает, когда на конференции ты отсканировал тридцать меню и хочешь вернуться к одному.
 

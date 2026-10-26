@@ -106,6 +106,12 @@ ogDescription: "Чесне докладне порівняння 8 застос�
 
 ## Докладні огляди
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/best-digital-business-card-apps-2026/nfc-cool-card-440w.webp" alt="Картка NFC.cool Business Card очима отримувача: Ayo Adeyemi з Clearwater Coaching з посиланнями Website, TikTok, Threads і Instagram та кнопкою Save Contact"><p><strong>NFC.cool Business Card.</strong> App Clip на iPhone, мовою отримувача, у фірмових кольорах і з логотипом.</p></li>
+</ol>
+</figure>
+
 ### 1. NFC.cool Business Card: приватність і багатомовність
 
 **Коротко.** Застосунок цифрової візитівки від NFC.cool, незалежної студії, у якої 13 застосунків для NFC і дрібних задач та понад 9 мільйонів завантажень. Ставиться як окремий застосунок на iOS і на [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-uk).

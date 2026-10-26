@@ -60,6 +60,12 @@ Tocca **Il tuo logo** → **Cambia logo** per caricare il logo dell'azienda o il
 
 ## Scrivi l'indirizzo su un tag NFC
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="Il menu del biglietto in NFC.cool Business Card con Write to NFC Tag, accanto a Preview, Show QR Code e Add to Apple Wallet"><p><strong>Write to NFC Tag.</strong> Sta nel menu del biglietto. Avvicina il telefono al tag e il link breve è scritto.</p></li>
+</ol>
+</figure>
+
 Passiamo alla parte fisica. Un tag NFC lo trovi nello [shop NFC.cool](https://shop.nfc.cool/collections/all) o da qualsiasi altro rivenditore: adesivo, tessera, portachiavi, il formato che ti serve.
 
 In NFC.cool tocca **Scrivi il biglietto sul tag NFC** e avvicina il telefono al tag. L'app scrive un indirizzo breve che punta alla pagina del tuo biglietto su nfc.cool. Da quel momento chiunque abbia un telefono può avvicinarlo al tag.
@@ -69,6 +75,12 @@ Se vuoi bloccare il tag perché nessuno possa sovrascrivere l'indirizzo in futur
 ---
 
 ## Controlla l'anteprima prima di condividere
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="Un biglietto come lo vede chi lo riceve: Samir Haddad di Haddad &amp; Lowe, con i link Website, LinkedIn e Facebook e il pulsante Save Contact"><p><strong>Quello che vedono.</strong> Su iPhone un App Clip nativo, con Save Contact a un tocco.</p></li>
+</ol>
+</figure>
 
 Tocca **Mostra biglietto** per vedere esattamente quello che vede chi lo riceve. La pagina è pensata prima di tutto per il telefono, si carica all'istante e offre un pulsante "Salva nei contatti" che funziona con un tocco. Su iOS chi riceve il biglietto vede un'App Clip nativa, senza installare niente; su Android vede una pagina web pulita sul dominio nfc.cool. In entrambi i casi i tuoi dati finiscono nella rubrica dell'altra persona.
 

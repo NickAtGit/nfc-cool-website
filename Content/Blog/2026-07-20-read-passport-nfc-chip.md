@@ -38,6 +38,16 @@ A few seconds later you are looking at what the chip has been carrying this whol
 
 Every document you read is saved to a small wallet in the app, called My Documents, so you can look back at it later. That wallet lives on your device, and on iPhone it syncs through your own iCloud. It does not come to me, or to any server of mine. With something this personal, that's not a detail I'd bury.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Reading a Passport in NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="The Passport and ID screen in NFC.cool Tools, with Scan with Camera and Enter Details Manually"><p><strong>Give it the key.</strong> Scan the machine-readable zone with the camera, or type the three values in by hand.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="A read passport showing the stored photo, the holder's name and the document number"><p><strong>Read the chip.</strong> Hold the top of your phone to the document, and the photo and details come off the chip.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="The authenticity checks, all passed: document appears genuine, data unchanged, signature valid, issuer trusted, chip clone protection"><p><strong>Check the seal.</strong> Every check the chip supports, from the issuer's signature to clone protection.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="My Documents, a list of five saved passports and ID cards"><p><strong>Keep it in My Documents.</strong> Saved on your device, synced only through your own iCloud.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Is it genuine?

@@ -20,6 +20,12 @@ NameDrop تعمل من iPhone إلى iPhone. تلك هي القصة كلها. ف
 
 بطاقة NFC لا تعبأ بنوع الهاتف الآخر. فهي تعمل وفق معيار NFC المفتوح الذي يقرؤه كلّ من iOS وAndroid منذ سنوات. يلمسها الطرف الآخر، أو يمسح رمز QR الخاص بها، فتصل تفاصيلك إلى هاتفه - سواء أكان ذلك الهاتف iPhone أم لا، وسواء أكان لديه أيّ تطبيق مثبّت أم لا. لا إيماءة لتتعلّمها، ولا ميزة لتشغّلها، ولا نظام تشغيل ينبغي أن يتطابق.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/namedrop-vs-nfc-business-cards/any-phone-440w.webp" alt="بطاقة من NFC.cool Business Card كما تُفتح بعد اللمس: Marco Delgado من Northgate Talent، مع روابط Website وLinkedIn وX وزر Save Contact"><p><strong>أي هاتف.</strong> لمسة أو مسح يفتح بطاقتك، وزر Save Contact يحفظها.</p></li>
+</ol>
+</figure>
+
 هذا هو السبب غير البرّاق الذي يجعلني ما زلت أبني حول NFC بدلًا من NameDrop. NameDrop تحسّن أفضل الحالات: مستخدمان لِـiPhone، وكلاهما مفعّل لديه الميزة، وكلاهما يعرف الإيماءة. أما NFC فتحسّن الحالة التي تحدث فعلًا في أيّ فعالية - شخصان، وهاتفان، ولا افتراضات مشتركة عن أيّ منهما. NameDrop هي العرض التوضيحي الأفضل. وNFC هي بطاقة العمل الأفضل.
 
 تريد واحدة؟ [احصل على NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-en&mt=8) على iPhone، أو [احصل عليها على Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-en).

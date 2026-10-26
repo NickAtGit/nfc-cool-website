@@ -30,6 +30,13 @@ Allora ho ragionato al contrario. Il backup ideale dovrebbe essere fisicamente r
 
 ## Come si usa NFC Safe
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="NFC Safe in modalità Encrypt, con un messaggio segreto e la passphrase correct-horse-battery inseriti"><p><strong>Cifra.</strong> Il segreto e una passphrase robusta, poi avvicina un tag al telefono.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="NFC Safe in modalità Decrypt, con il segreto riletto dal tag"><p><strong>Decifra.</strong> La stessa passphrase e un tocco, e il segreto torna.</p></li>
+</ol>
+</figure>
+
 NFC Safe si trova dentro NFC.cool Tools, nella sezione NFC Apps. Ho tenuto tutto su una sola schermata, con un selettore in alto: Cifra o Decifra. Se hai già scritto un tag almeno una volta, non troverai niente di spiazzante.
 
 **Per cifrare:**

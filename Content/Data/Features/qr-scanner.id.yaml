@@ -3,28 +3,28 @@ backLinkText: "← Semua fitur"
 
 card:
   title: "Pemindai kode QR & Studio"
-  description: "Pindai kode QR dari kamera atau temukan dari foto mana pun - lalu rancang kode QR Anda sendiri dengan ikon dan Genmoji di QR Code Studio bawaan."
+  description: "Pindai kode QR dengan kamera di iPhone dan Android - lalu rancang kode QR Anda sendiri dengan bentuk dan warna kustom serta logo atau emoji di QR Code Studio bawaan."
   imagePath: "/assets/images/Webflow/qr-studio.webp"
-  platforms: "iOS only"
+  platforms: "iOS · Android"
 
 hero:
   title: "Pemindai kode QR & Studio"
-  subtitle: "Pindai kode QR apa pun dari kamera atau temukan dari tangkapan layar. Rancang kode QR kustom dengan logo, Genmoji, dan warna merek di QR Code Studio bawaan."
-  platforms: "iOS only"
+  subtitle: "Pindai kode QR apa pun dengan kamera di iPhone dan Android, atau temukan dari tangkapan layar di iPhone. Rancang kode QR kustom dengan logo, emoji, dan warna merek di QR Code Studio bawaan."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-studio.webp"
 
 capabilitiesTitle: "Yang bisa Anda lakukan"
 capabilities:
   - title: "Pemindaian kode QR universal"
-    description: "URL, vCard, kredensial Wi-Fi, acara kalender, pembayaran, deep-link app store - NFC.cool mendeteksi jenis payload dan menawarkan aksi yang tepat."
+    description: "Tautan, kartu kontak, kredensial Wi-Fi, acara kalender, nomor telepon, email, SMS, dan lokasi - NFC.cool mendeteksi jenis payload dan menawarkan aksi yang tepat. Di iPhone, juga tautan pembayaran dan app store."
   - title: "Deteksi kode QR dalam tangkapan layar"
-    description: "Pilih gambar apa pun dari perpustakaan foto Anda dan NFC.cool menemukan serta mendekode setiap kode QR di dalamnya - bahkan yang sebagian terhalang atau kontras rendah."
+    description: "Di iPhone dan iPad, pilih gambar apa pun dari perpustakaan foto Anda dan NFC.cool menemukan serta mendekode setiap kode QR di dalamnya - bahkan yang sebagian terhalang atau kontras rendah."
   - title: "QR Code Studio"
-    description: "Rancang kode QR dengan warna kustom, pola eye yang membulat, bentuk piksel kustom, dan logo atau Genmoji di tengah. Ekspor sebagai PNG hingga 4096x4096."
+    description: "Rancang kode QR dengan warna kustom, pola eye yang membulat, bentuk piksel kustom, dan logo atau emoji di tengah (Genmoji di iPhone). Ekspor sebagai PNG hingga 4096x4096."
   - title: "Riwayat & berbagi ulang"
     description: "Setiap pemindaian disimpan secara lokal - buka kembali payload, salin, bagikan, atau langsung kembali ke aksinya."
   - title: "Aksi otomatis saat dibaca"
-    description: "Buka URL, jalankan Shortcuts, kirim webhook, atau ucapkan hasilnya keras-keras saat kode dipindai - otomasi lima-hook yang sama yang menggerakkan pemindaian NFC."
+    description: "Buka tautan atau putar tautan audio saat kode dipindai. Di iPhone, pemindaian juga bisa menjalankan Shortcuts, mengirim webhook, atau mengucapkan hasilnya keras-keras - otomasi lima-hook yang sama yang menggerakkan pemindaian NFC."
 
 subsectionsTitle: "Lebih dari sekadar pemindai"
 subsections:
@@ -34,17 +34,21 @@ subsections:
     imageAlt: "Layar utama iPhone dengan widget kode QR dan tombol pindai"
     platforms: "iOS"
 
+  - title: "Di Android: widget QR, ubin Setelan Cepat, dan pintasan"
+    body: "<p>Di Android, <strong>widget kode QR</strong> menaruh kode yang tersimpan di layar utama Anda, berbingkai dan bisa diubah ukurannya, dengan atau tanpa judulnya. Pasang sebanyak yang Anda mau - dengan Platinum, masing-masing bisa menampilkan kode yang berbeda. Untuk mulai memindai tanpa mencari-cari aplikasinya, tambahkan ubin <strong>Pindai kode</strong> ke Setelan Cepat, atau tekan lama ikon aplikasi dan pilih pintasan yang sama.</p>"
+    platforms: "Android"
+
   - title: "QR Code Studio: bentuk piksel, warna, eye, dan logo kustom"
-    body: "<p>QR Code Studio memungkinkan Anda mempertahankan kemampuan pindai sambil meninggalkan estetika kotak perusahaan. Pilih bentuk piksel (membulat, titik, berlian), gaya per-eye, warna latar depan/belakang, gambar logo atau Genmoji di tengah. Ekspor dalam enam ukuran piksel - 512, 1024, 1536, 2048, 3072, atau 4096.</p>"
+    body: "<p>QR Code Studio memungkinkan Anda mempertahankan kemampuan pindai sambil meninggalkan estetika kotak perusahaan. Pilih bentuk piksel (membulat, titik, berlian, dan lainnya), gaya eye, warna latar depan/belakang, gambar logo atau emoji di tengah - di iPhone juga gaya per-eye dan Genmoji. Ekspor dalam enam ukuran piksel - 512, 1024, 1536, 2048, 3072, atau 4096.</p><p>Di Android, Studio juga bisa menaruh gambar di belakang kode (foto, emoji, simbol, atau teks) dan memeriksa desain Anda sambil Anda mengerjakannya: begitu sebuah perubahan akan membuat kode tidak terbaca, Studio langsung memberi tahu Anda.</p>"
     imagePath: "/assets/images/Features/qr-scanner-studio-card.webp"
     imageAlt: "QR Code Studio dengan logo kustom"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Multi-scan, batch read, dan senter sesuai kebutuhan"
     body: "<p>Tiga pengaturan mengubah pemindai dari sekali-selesai menjadi alur kerja berkelanjutan. <strong>Multi-scan</strong> memungkinkan Anda memindai beberapa kode dalam satu sesi kamera. <strong>Batch read</strong> membiarkan kamera terbuka untuk inventaris atau check-in acara. <strong>Auto-torch</strong> menyalakan LED dalam cahaya rendah sehingga Anda tidak perlu mencari tombol senter.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone memindai beberapa kode QR dan barcode dengan cahaya senter"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Shortcuts & App Intents"
     body: "<p>NFC.cool terhubung langsung ke aplikasi iOS Shortcuts dengan aksi bawaan: ambil tag NFC yang terakhir dipindai, tulis pesan ke tag, buka pemindai, atau ambil kode QR yang terakhir dipindai. Rangkai ke dalam Shortcuts yang memindai tag, mem-parsing payload-nya, dan memulai apa pun yang Anda inginkan berikutnya - otomasi, pencatatan, jurnal, apa saja. Aksi yang sama menggerakkan kontrol <strong>Scan Button</strong> layar kunci di iOS 17+.</p>"
@@ -60,11 +64,12 @@ subsections:
 
 specsTitle: "Kode yang didukung & ekspor Studio"
 specs:
-  - title: "Varian kode QR (kamera + perpustakaan foto)"
+  - title: "Varian kode QR"
     items:
       - "Kode QR (versi 1-40)"
-      - "Micro QR (M1-M4)"
-      - "Beberapa kode per gambar"
+      - "Micro QR (M1-M4, iOS)"
+      - "Beberapa kode dalam satu bingkai kamera"
+      - "Kode di foto dan tangkapan layar (iOS)"
   - title: "Ukuran ekspor Studio"
     items:
       - "PNG 512, 1024, 1536, 2048, 3072, atau 4096 piksel persegi"
@@ -72,8 +77,9 @@ specs:
     items:
       - "Warna latar depan & latar belakang"
       - "Bentuk piksel kustom (membulat, titik, berlian, ...)"
-      - "Gaya dan bentuk per-eye"
-      - "Logo tengah (gambar apa pun, Apple Stickers, atau Genmoji di iOS 18+)"
+      - "Gaya dan bentuk eye (diatur per-eye di iOS)"
+      - "Logo tengah (gambar apa pun atau emoji; Apple Stickers dan Genmoji di iOS 18+)"
+      - "Gambar di belakang kode (Android)"
 
 pricing:
   title: "Gratis vs Platinum"
@@ -96,12 +102,12 @@ pricing:
 
 faqTitle: "Pertanyaan yang sering diajukan"
 faq:
-  - question: "Mengapa ini hanya iOS?"
-    answer: "Versi Android NFC.cool saat ini berfokus pada NFC dan Kartu Nama Digital. Pemindaian kode QR ada dalam peta jalan Android."
+  - question: "Apakah pemindai kode QR berfungsi di Android?"
+    answer: "Ya. NFC.cool Tools di Android memindai kode QR dan barcode, menyimpannya di riwayat Anda, serta menyertakan QR Code Studio dan widget kode QR untuk layar utama. Beberapa bagian masih khusus iPhone untuk saat ini: membaca kode dari foto dan tangkapan layar, Micro QR, Shortcuts, webhook dan hasil yang diucapkan saat memindai, serta Sinkronisasi iCloud."
   - question: "Apakah kode QR dari Studio kompatibel dengan semua pembaca?"
     answer: "Ya. Mereka adalah kode QR standar dengan gaya kosmetik opsional. Setiap pembaca standar (kamera iOS, Google Lens, pemindai stok Android) dapat mendekodenya."
   - question: "Bisakah saya memindai kode QR dari tangkapan layar?"
-    answer: "Ya. Pilih gambar apa pun dari perpustakaan foto Anda dan NFC.cool menemukan setiap kode QR di dalamnya - bahkan yang sebagian tertutup."
+    answer: "Ya, di iPhone dan iPad. Pilih gambar apa pun dari perpustakaan foto Anda dan NFC.cool menemukan setiap kode QR di dalamnya - bahkan yang sebagian tertutup. Di Android, kode dipindai dengan kamera."
   - question: "Apakah Studio menyematkan watermark atau merek NFC.cool?"
     answer: "Kode gratis membawa atribusi kecil. Kode Platinum bebas watermark - murni desain Anda."
 

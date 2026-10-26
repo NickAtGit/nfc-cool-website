@@ -37,6 +37,12 @@ The recipient didn't choose your business card app. They didn't research it. The
 
 NFC.cool Business Card takes two different approaches depending on the recipient's platform, both designed to work without any download.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/app-clip-440w.webp" alt="The App Clip a recipient sees: Kasper Lindqvist of Lindqvist Studio, with Website, Instagram and YouTube links and a Save Contact button"><p><strong>The App Clip.</strong> Native, in the recipient's language, with Save Contact right under the thumb.</p></li>
+</ol>
+</figure>
+
 ### On iPhone: A Native App Clip
 
 When an iPhone user taps your NFC card or scans your QR code, iOS launches an [App Clip](https://developer.apple.com/app-clips/): a lightweight, native experience built specifically for moments like this.
@@ -93,6 +99,12 @@ This matters more than most people realize. Your business card is often someone'
 ---
 
 ## Conference Mode: Sharing from Your Lock Screen
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="The card menu in NFC.cool Business Card: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card and Add to Apple Wallet"><p><strong>One tap to start.</strong> Conference Mode sits in the card's menu, next to Write to NFC Tag and Add to Apple Wallet.</p></li>
+</ol>
+</figure>
 
 At conferences and events, you're sharing your card dozens of times. NFC.cool has a feature called Conference Mode that uses iOS Live Activities to put a QR code directly on your lock screen.
 

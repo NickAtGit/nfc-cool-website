@@ -3,28 +3,28 @@ backLinkText: "← Tüm özellikler"
 
 card:
   title: "QR Kod Tarayıcı ve Stüdyo"
-  description: "QR kodları kameradan tara ya da herhangi bir fotoğrafın içinden seç, sonra yerleşik QR Kod Stüdyosu'nda simgeler ve Genmoji ile kendi kodunu tasarla."
+  description: "QR kodları iPhone'da ve Android'de kamerayla tara, sonra yerleşik QR Kod Stüdyosu'nda özel biçimler, renkler ve logo ya da emoji ile kendi kodunu tasarla."
   imagePath: "/assets/images/Webflow/qr-studio.webp"
-  platforms: "Yalnızca iOS"
+  platforms: "iOS · Android"
 
 hero:
   title: "QR Kod Tarayıcı ve Stüdyo"
-  subtitle: "Her QR kodu kameradan tara ya da ekran görüntüsünün içinden seç. Yerleşik QR Kod Stüdyosu'nda logolu, Genmoji'li ve marka renklerine uygun kodlar tasarla."
-  platforms: "Yalnızca iOS"
+  subtitle: "Her QR kodu iPhone'da ve Android'de kamerayla tara, iPhone'da ekran görüntüsünün içinden de seç. Yerleşik QR Kod Stüdyosu'nda logolu, emojili ve marka renklerine uygun kodlar tasarla."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-studio.webp"
 
 capabilitiesTitle: "Neler yapabilirsin"
 capabilities:
   - title: "Her QR kodu tara"
-    description: "Adresler, vCard'lar, Wi-Fi bilgileri, takvim etkinlikleri, ödemeler, uygulama mağazası bağlantıları: NFC.cool içerik türünü algılar ve doğru eylemi önerir."
+    description: "Bağlantılar, kişi kartları, Wi-Fi bilgileri, takvim etkinlikleri, telefon numaraları, e-posta, SMS ve konumlar: NFC.cool içerik türünü algılar ve doğru eylemi önerir. iPhone'da ödemeler ve uygulama mağazası bağlantıları da."
   - title: "Ekran görüntüsündeki QR kodu bul"
-    description: "Galerinden herhangi bir görseli seç, NFC.cool içindeki QR kodları bulup çözsün. Kısmen kapalı ya da düşük kontrastlı olanları bile."
+    description: "iPhone'da ve iPad'de galerinden herhangi bir görseli seç, NFC.cool içindeki QR kodları bulup çözsün. Kısmen kapalı ya da düşük kontrastlı olanları bile."
   - title: "QR Kod Stüdyosu"
-    description: "Özel renkler, yuvarlatılmış köşe gözleri, kendi piksel biçimlerin ve ortada logo ya da Genmoji ile QR kod tasarla. 4096×4096'ya kadar PNG olarak dışa aktar."
+    description: "Özel renkler, yuvarlatılmış köşe gözleri, kendi piksel biçimlerin ve ortada logo ya da emoji (iPhone'da Genmoji) ile QR kod tasarla. 4096×4096'ya kadar PNG olarak dışa aktar."
   - title: "Geçmiş ve yeniden paylaşım"
     description: "Her tarama cihazda saklanır: içeriği yeniden aç, kopyala, paylaş ya da doğrudan eyleme geri dön."
   - title: "Okuyunca otomatik çalışsın"
-    description: "Kod tarandığı anda adresi aç, kısayol çalıştır, webhook tetikle ya da sonucu sesli okut. NFC taramalarını da besleyen aynı beş kancalı otomasyon."
+    description: "Kod tarandığı anda bağlantıyı aç ya da ses bağlantısını çal. iPhone'da tarama ayrıca kısayol çalıştırabilir, webhook tetikleyebilir ya da sonucu sesli okuyabilir. NFC taramalarını da besleyen aynı beş kancalı otomasyon."
 
 subsectionsTitle: "Tarayıcıdan fazlası"
 subsections:
@@ -34,17 +34,21 @@ subsections:
     imageAlt: "QR kod widget'ları ve tarama düğmesi bulunan iPhone ana ekranı"
     platforms: "iOS"
 
+  - title: "Android'de: QR widget'ı, Hızlı Ayarlar kutucuğu ve kısayol"
+    body: "<p>Android'de <strong>QR kod widget'ı</strong> kayıtlı bir kodu ana ekrana koyar: çerçeveli, yeniden boyutlandırılabilir, başlıklı ya da başlıksız. İstediğin kadar ekle, Platinum ile her biri farklı bir kod gösterebilir. Uygulamayı aramadan taramaya başlamak için <strong>Kod tara</strong> kutucuğunu Hızlı Ayarlar'a ekle ya da uygulama simgesine uzun bas ve aynı kısayolu seç.</p>"
+    platforms: "Android"
+
   - title: "QR Kod Stüdyosu: piksel biçimleri, renkler, gözler, logolar"
-    body: "<p>QR Kod Stüdyosu okunabilirliği korurken o kurumsal kare görüntüden kurtarır. Piksel biçimini seç (yuvarlak, nokta, baklava), her göze ayrı biçim ver, ön plan ve arka plan rengini belirle, ortaya logo ya da Genmoji koy. Altı piksel boyutunda dışa aktar: 512, 1024, 1536, 2048, 3072 ve 4096.</p>"
+    body: "<p>QR Kod Stüdyosu okunabilirliği korurken o kurumsal kare görüntüden kurtarır. Piksel biçimini seç (yuvarlak, nokta, baklava ve dahası), göz biçimlerini belirle, ön plan ve arka plan rengini seç, ortaya logo ya da emoji koy; iPhone'da her göze ayrı biçim ve Genmoji de var. Altı piksel boyutunda dışa aktar: 512, 1024, 1536, 2048, 3072 ve 4096.</p><p>Android'de Stüdyo kodun arkasına görsel de koyar (fotoğraf, emoji, sembol ya da metin) ve tasarımı sen çalışırken denetler: bir değişiklik kodu okunamaz hale getirecekse hemen söyler.</p>"
     imagePath: "/assets/images/Features/qr-scanner-studio-card.webp"
     imageAlt: "Özel logolu QR Kod Stüdyosu"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Çoklu tarama, toplu okuma ve istediğinde fener"
     body: "<p>Üç ayar tarayıcıyı tek seferlik olmaktan çıkarıp sürekli bir akışa çevirir. <strong>Çoklu tarama</strong> tek kamera oturumunda birden çok kod okutmanı sağlar. <strong>Toplu okuma</strong> sayım ya da etkinlik girişleri için kamerayı açık tutar. <strong>Otomatik fener</strong> ise loş ışıkta LED'i yakar, el feneri düğmesini aramakla uğraşmazsın.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "Fener ışığıyla birden çok QR kod ve barkod tarayan iPhone"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Kısayollar ve App Intents"
     body: "<p>NFC.cool, hazır eylemleriyle doğrudan iOS Kısayollar uygulamasına bağlanır: son okunan NFC tag'ini al, tag'e mesaj yaz, tarayıcıyı aç ya da son okunan QR kodu getir. Bunları zincirleyip tag okuyan, içeriğini çözen ve sonrasında ne istersen onu başlatan kısayollar kur: otomasyon, kayıt tutma, günlük, aklına ne gelirse. Aynı eylemler iOS 17 ve sonrasındaki kilit ekranı <strong>Tarama Düğmesi</strong> denetimini de besler.</p>"
@@ -60,11 +64,12 @@ subsections:
 
 specsTitle: "Desteklenen kodlar ve stüdyo çıktıları"
 specs:
-  - title: "QR türevleri (kamera + fotoğraf galerisi)"
+  - title: "QR türevleri"
     items:
       - "QR Code (sürüm 1-40)"
-      - "Micro QR (M1-M4)"
-      - "Görsel başına birden çok kod"
+      - "Micro QR (M1-M4, iOS)"
+      - "Tek kamera karesinde birden çok kod"
+      - "Fotoğraflardaki ve ekran görüntülerindeki kodlar (iOS)"
   - title: "Stüdyo çıktı boyutları"
     items:
       - "512, 1024, 1536, 2048, 3072 ya da 4096 piksel kare PNG"
@@ -72,8 +77,9 @@ specs:
     items:
       - "Ön plan ve arka plan renkleri"
       - "Özel piksel biçimleri (yuvarlak, nokta, baklava ve diğerleri)"
-      - "Her köşe gözü için ayrı biçim"
-      - "Ortada logo (herhangi bir görsel, Apple Çıkartmaları ya da iOS 18 ve sonrasında Genmoji)"
+      - "Köşe gözü stilleri ve biçimleri (iOS'ta her göz için ayrı)"
+      - "Ortada logo (herhangi bir görsel ya da emoji; iOS 18 ve sonrasında Apple Çıkartmaları ve Genmoji)"
+      - "Kodun arkasında görsel (Android)"
 
 pricing:
   title: "Ücretsiz ve Platinum"
@@ -96,12 +102,12 @@ pricing:
 
 faqTitle: "Sık sorulanlar"
 faq:
-  - question: "Bu neden yalnızca iOS'ta var?"
-    answer: "NFC.cool'un Android sürümü şimdilik NFC'ye ve dijital kartvizite odaklanıyor. QR tarama Android yol haritasında."
+  - question: "QR tarayıcı Android'de çalışır mı?"
+    answer: "Evet. Android'deki NFC.cool Tools QR kodları ve barkodları tarar, geçmişte saklar; QR Kod Stüdyosu ve ana ekran için QR widget'ı da içinde. Bazı parçalar şimdilik yalnızca iPhone'da: fotoğraflardan ve ekran görüntülerinden kod okuma, Micro QR, Kısayollar, taramada webhook ve sesli sonuç, iCloud eşitleme."
   - question: "Stüdyo'da üretilen QR kodlar her okuyucuyla uyumlu mu?"
     answer: "Evet. Bunlar isteğe bağlı görsel dokunuşlar taşıyan standart QR kodlar. Her standart okuyucu (iOS Kamera, Google Lens, Android'in hazır tarayıcıları) bunları çözer."
   - question: "Ekran görüntüsünden QR kod tarayabilir miyim?"
-    answer: "Evet. Galerinden herhangi bir görseli seç, NFC.cool içindeki her QR kodu bulsun. Kısmen kapalı olanları bile."
+    answer: "Evet, iPhone'da ve iPad'de. Galerinden herhangi bir görseli seç, NFC.cool içindeki her QR kodu bulsun. Kısmen kapalı olanları bile. Android'de kodlar kamerayla taranır."
   - question: "Stüdyo çıktılara filigran ya da NFC.cool logosu ekliyor mu?"
     answer: "Ücretsiz kodlarda küçük bir künye var. Platinum kodlarda filigran yok, tamamen senin tasarımın."
 

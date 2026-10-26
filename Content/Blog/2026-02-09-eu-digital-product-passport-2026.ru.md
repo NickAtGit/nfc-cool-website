@@ -124,6 +124,15 @@ ESPR предписывает стандартизированные носит�
 
 Для внедрений корпоративного масштаба массовым программированием занимаются настольные записывающие устройства, совместимые с чипами NTAG, ICODE и MIFARE, но мобильное приложение остаётся незаменимым для **проверки на месте**: считал товар на полке или на складе и убедился, что ссылка на паспорт работает. На Android можно даже [посмотреть содержимое метки прямо из браузера](/online-nfc-reader/), ничего не устанавливая, и для быстрой выборочной проверки это удобно.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Цифровой паспорт продукта в NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="Экран Digital Product Passport в NFC.cool Tools с пунктами Read a Passport и Create a Passport"><p><strong>Digital Product Passport.</strong> Считай паспорт с метки или создай свой по стандарту NFC Forum.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="Считанный паспорт Merino Wool Jacket: идентификатор продукта, дата производства, ссылка на паспорт, производитель и материалы"><p><strong>Считать паспорт.</strong> Продукт, производитель, материалы и влияние на окружающую среду прямо с метки.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="Форма нового паспорта: продукт, производитель, даты и материалы"><p><strong>Создать паспорт.</strong> Заполни данные продукта и запиши их на метку для теста или небольшой партии.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## За пределами ЕС: движение по миру

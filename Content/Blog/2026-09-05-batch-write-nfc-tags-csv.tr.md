@@ -124,6 +124,15 @@ Dosya seçilince uygulama ne algıladığını gösteriyor: ayraç, sütun sayı
 
 **Toplu Önizleme**'yi açıp her tag'i ve alacağı kayıtları gör. Orada gördüğün, yazılacak şeyin ta kendisi.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>İçe aktar ve önizle</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="NFC.cool Tools'ta CSV Batch Write; Help, Import CSV ve içe aktarılmış team-links.csv dosyasıyla"><p><strong>CSV'yi içe aktar.</strong> Dosyanı seç. Uygulama kendi kopyası üzerinde çalışır.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="Toplu yazma ayarları: virgül ayırıcı, satırlara göre gruplama, 2 sütun, 24 NFC tag'i gerekli ve tag başına 49 bayt"><p><strong>Sayılara bak.</strong> Tag'lerinle karşılaştıracağın değer Bytes per NFC tag.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview: 1'den 4'e kadar tag'ler, her birinde 2 kayıt, bir ekip bağlantısı ve bir e-posta adresi; Start Writing ile"><p><strong>Önizle, sonra yaz.</strong> İlk tag yazılmadan önce her tag'in tam olarak ne alacağı.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 5. adım: yığını yaz

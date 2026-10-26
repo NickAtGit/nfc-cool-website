@@ -1,8 +1,8 @@
 ---
 title: "Mondego Move - Coimbra Transit Companion App"
 slug: "apps/mondego-move"
-description: "Mondego Move is an independent companion app for the Metro Mondego system in the Coimbra region: trip planner, network map, fares, and community events you can submit yourself. In beta: open testing on Google Play, TestFlight on iOS."
-image: "/assets/images/Apps/mondego-move/screenshot-1.webp"
+description: "Mondego Move is an independent companion app for the Metro Mondego system in the Coimbra region: trip planner, network map, fares, and community events you can submit yourself. Available on iPhone and Android."
+image: "/assets/images/Apps/mondego-move/01-lines-departures.webp"
 ---
 
 <section class="page-hero">
@@ -15,10 +15,10 @@ image: "/assets/images/Apps/mondego-move/screenshot-1.webp"
 
 # Mondego Move
 
-An independent companion app for travelers using the Metro Mondego system in the Coimbra region: plan trips, browse the network map, check fares, and see what is happening around town - in English and Portuguese. Currently in beta on both platforms: open testing on Google Play and TestFlight on iOS.
+An independent companion app for travelers using the Metro Mondego system in the Coimbra region: plan trips, browse the network map, check fares, and see what is happening around town - in English and Portuguese. Available on the App Store and Google Play.
 
 <div class="landing-store-buttons">
-<a href="https://testflight.apple.com/join/zN7grnDK" class="landing-store-button is-apple" aria-label="Join the iOS beta on TestFlight" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id6753263298?pt=106913804&ct=web-apps-mondego-move-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
 <a href="https://play.google.com/store/apps/details?id=pt.coimbra.metromondego&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-apps-mondego-move-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
@@ -29,7 +29,7 @@ An independent companion app for travelers using the Metro Mondego system in the
 </div>
 
 <div class="page-hero-visual is-framed">
-<img src="/assets/images/Apps/mondego-move/screenshot-1.webp" alt="Mondego Move trip planner with origin and destination selection" loading="eager" fetchpriority="high"/>
+<img src="/assets/images/Apps/mondego-move/01-lines-departures.webp" alt="Mondego Move network map with the next departure from Portagem" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>
@@ -93,9 +93,12 @@ Local businesses work the same way, in their own tab, with the same review step.
 <section class="page-section page-section--gallery">
 
 <div class="page-gallery">
-<img src="/assets/images/Apps/mondego-move/screenshot-1.webp" alt="Trip planner with origin and destination" loading="lazy"/>
-<img src="/assets/images/Apps/mondego-move/screenshot-2.webp" alt="Interactive map of the Metro Mondego network" loading="lazy"/>
-<img src="/assets/images/Apps/mondego-move/screenshot-3.webp" alt="Station and fare information" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/02-plan-pin.webp" alt="Trip planner with pinned commutes" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/03-discover.webp" alt="Local events and businesses along the line" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/04-station.webp" alt="Station timetable with a countdown to the next departure" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/05-trip.webp" alt="Trip result with route, travel time and fare" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/07-alerts.webp" alt="Notification history with service alerts" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/08-event.webp" alt="Community event in Coimbra with its schedule" loading="lazy"/>
 </div>
 
 </section>
@@ -133,7 +136,7 @@ It is a small, honest utility: official data, an independent app, and a communit
 
 <details class="faq-item">
 <summary>Is there an iPhone version?</summary>
-<p>Yes, in beta. Mondego Move is currently in beta on both platforms: the iOS version runs through TestFlight ahead of its App Store release, and the Android version is in open testing on Google Play, with phone and tablet support.</p>
+<p>Yes. Mondego Move is on the App Store for iPhone and on Google Play for Android, with phone and tablet support on both.</p>
 </details>
 
 </div>

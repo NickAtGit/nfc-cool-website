@@ -30,6 +30,13 @@ Also habe ich andersherum angefangen und mich gefragt: Wie müsste das ideale Ba
 
 ## So benutzt du NFC Safe
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="NFC Safe im Modus Encrypt, mit einer geheimen Nachricht und der Passphrase correct-horse-battery"><p><strong>Verschlüsseln.</strong> Dein Geheimnis und eine starke Passphrase, dann einen Tag ans Handy halten.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="NFC Safe im Modus Decrypt, mit dem Geheimnis, das vom Tag zurückgelesen wurde"><p><strong>Entschlüsseln.</strong> Dieselbe Passphrase, einmal scannen, und dein Geheimnis ist wieder da.</p></li>
+</ol>
+</figure>
+
 NFC Safe findest du in NFC.cool Tools unter NFC Apps. Ich habe alles auf einen einzigen Screen gepackt, oben ein Umschalter zwischen Verschlüsseln und Entschlüsseln. Wer schon mal einen Tag beschrieben hat, findet sich sofort zurecht.
 
 **Verschlüsseln:**

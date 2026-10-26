@@ -18,6 +18,12 @@ Il generatore QR di NFC.cool li copre tutti. Ecco cosa succede davvero quando li
 
 ## Indirizzi web
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="Create QR Code in NFC.cool Tools: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime ed Event"><p><strong>Un elenco, ogni contenuto.</strong> Link, Wi-Fi, contatti, luoghi ed eventi partono tutti da qui.</p></li>
+</ol>
+</figure>
+
 Il caso base. Codifichi `https://example.com`, lo inquadri con una fotocamera qualsiasi e il telefono propone di aprirlo. Funziona su qualunque telefono degli ultimi dieci anni.
 
 Una variante utile è quella dei link brevi. Se gli indirizzi che usi sono pieni di parametri di tracciamento, genera il codice sulla versione breve: il codice QR diventa fisicamente più piccolo (meno moduli, quindi meno fitto) e si legge più facilmente da lontano.
@@ -25,6 +31,13 @@ Una variante utile è quella dei link brevi. Se gli indirizzi che usi sono pieni
 ---
 
 ## Credenziali Wi-Fi
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="Il modulo QR per il Wi-Fi in NFC.cool Tools: nome della rete, password, autenticazione WPA/WPA2 e rete nascosta"><p><strong>Inserisci la rete.</strong> Nome, password e tipo di sicurezza.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="Il codice QR Wi-Fi pronto, intitolato Guest WiFi, con QR Code Studio per personalizzarlo"><p><strong>Condividi il codice.</strong> Gli ospiti lo scansionano e si collegano, senza digitare nulla.</p></li>
+</ol>
+</figure>
 
 Codifica SSID, password e tipo di sicurezza (WPA2, WPA3, rete aperta) nel formato standard `WIFI:T:WPA;S:...;P:...;;`. iOS, Android e le versioni recenti di Windows lo riconoscono e propongono di collegarsi.
 
@@ -71,6 +84,12 @@ Alcune app registrano schemi di indirizzo propri (`myapp://...`) e riconoscono i
 ---
 
 ## Cosa fa lo scanner quando legge un codice
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="Lo scanner QR di NFC.cool Tools con un codice trovato su un biglietto stampato e il pulsante Finish"><p><strong>Scansione.</strong> Inquadra con la fotocamera, e l'app legge il contenuto e propone l'azione giusta.</p></li>
+</ol>
+</figure>
 
 Lo scanner di NFC.cool legge tutti i formati appena elencati e li indirizza all'azione giusta: gli indirizzi web si aprono nel browser, le vCard propongono il salvataggio, il Wi-Fi propone il collegamento, le posizioni si aprono nelle mappe. Tiene anche una cronologia locale di ogni scansione, comodissima quando hai letto trenta menù a una fiera e ne cerchi uno in particolare.
 

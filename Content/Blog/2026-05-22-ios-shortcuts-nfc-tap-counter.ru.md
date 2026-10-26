@@ -23,6 +23,13 @@ ogDescription: "Готовые быстрые команды iOS для счёт
 
 ## Что тебе отдаёт метка
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="NFC Tap Counter в режиме Shortcut: запускает NFC Tag Alert с входными данными log-entry, оба переключателя включены"><p><strong>Быстрая команда как содержимое.</strong> Метка запускает NFC Tag Alert с входом log-entry.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="Превью: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>Что получает команда.</strong> Входные данные, а за ними ID метки и счётчик.</p></li>
+</ol>
+</figure>
+
 Перед командами короткое напоминание о том, что именно они получают, потому что от этого зависит способ применения.
 
 На экране настройки счётчика касаний выбирается тип содержимого метки: ссылка, письмо, SMS или быстрая команда. Когда включаешь переключатели счётчика касаний и ID метки, приложение вставляет внутрь этого содержимого байты-заглушки, а чип при каждом чтении подменяет их живыми значениями. Если взять `049F50824F1390` как ID метки и `000007` как счёт, четыре типа содержимого выглядят так:

@@ -23,6 +23,13 @@ Così ho creato due comandi rapidi e li condivido come link iCloud. Uno è il mo
 
 ## Che cosa ti passa il tag
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="L'NFC Tap Counter impostato su Shortcut, che avvia NFC Tag Alert con l'input log-entry, con entrambi gli interruttori attivi"><p><strong>Un comando rapido come contenuto.</strong> Il tag avvia NFC Tag Alert con log-entry come input.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="L'anteprima: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>Cosa riceve il comando.</strong> L'input, con in coda l'ID del tag e il conteggio.</p></li>
+</ol>
+</figure>
+
 Prima dei comandi rapidi, un ripasso veloce su quello che ricevono davvero, perché cambia il modo in cui li userai.
 
 Nella schermata di configurazione del contatore scegli un tipo di contenuto per il tag: URL, email, SMS o comando rapido. Quando attivi l'interruttore del contatore, quello dell'ID del tag o entrambi, l'app inserisce dei byte segnaposto dentro quel contenuto e a ogni lettura il chip li sostituisce con i valori reali. Prendendo `049F50824F1390` come ID del tag e `000007` come conteggio, i quattro tipi di contenuto diventano così:

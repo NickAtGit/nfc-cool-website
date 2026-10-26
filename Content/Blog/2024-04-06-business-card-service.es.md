@@ -60,6 +60,12 @@ Toca **Your logo** → **Change logo** para subir el logotipo de tu empresa o tu
 
 ## Escribe la URL en una etiqueta NFC
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="El menú de la tarjeta en NFC.cool Business Card con Write to NFC Tag, junto a Preview, Show QR Code y Add to Apple Wallet"><p><strong>Write to NFC Tag.</strong> Está en el menú de la tarjeta. Acerca el móvil a la etiqueta y el enlace corto queda escrito.</p></li>
+</ol>
+</figure>
+
 Ahora viene la parte física. Puedes comprar una etiqueta NFC en [la tienda de NFC.cool](https://shop.nfc.cool/collections/all) o en cualquier distribuidor externo - pegatina, tarjeta, llavero, el formato que mejor encaje.
 
 En NFC.cool, toca **Write business card to NFC tag**. Acerca el móvil a la etiqueta. La app escribe una URL corta que apunta a la página de tu tarjeta en nfc.cool. Una vez escrita, cualquier persona con un móvil puede tocarla.
@@ -69,6 +75,12 @@ Si quieres bloquear la etiqueta para que nadie pueda sobrescribir la URL más ad
 ---
 
 ## Previsualiza antes de compartir
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="Una tarjeta tal como la ve quien la recibe: Samir Haddad, de Haddad &amp; Lowe, con enlaces a Website, LinkedIn y Facebook y el botón Save Contact"><p><strong>Lo que ven.</strong> En iPhone, un App Clip nativo, con Save Contact a un toque.</p></li>
+</ol>
+</figure>
 
 Toca **View Business Card** para ver exactamente lo que ve un destinatario. La página está pensada primero para móvil, carga al instante y ofrece un botón de "Guardar en Contactos" con un solo toque. En iOS, los destinatarios ven un App Clip nativo (sin necesidad de instalar ninguna app); en Android ven una página web limpia en el dominio nfc.cool. Ambos acaban con tu contacto en su agenda.
 

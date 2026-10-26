@@ -45,6 +45,16 @@ Numa conferência, tudo o que é ligeiramente inconveniente no papel torna-se um
 
 Passar ao digital não é apenas trocar papel por uma app. A verdadeira vantagem é ter um sistema que funciona ao longo de toda a linha temporal da conferência - da preparação ao seguimento. Aqui fica como configurá-lo.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Antes, durante e depois</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="Os Meus Cartões de Visita com um cartão Conference ao lado do de todos os dias"><p><strong>Antes: um cartão para o evento.</strong> Um cartão só para esta conferência, com os links que lá contam.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="O código QR do cartão em ecrã inteiro, com Share e Save to Photos por baixo"><p><strong>Durante: toque ou leitura.</strong> NFC para partilhar depressa, o código QR em ecrã inteiro para os restantes.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="Um contacto de networking, Priya Raman, da Lantern Metrics, com Add Reminder, Add Meeting e os detalhes do evento"><p><strong>Depois: o seguimento.</strong> Cada contacto lembra-se de onde se conheceram, com um lembrete ou uma reunião a um toque.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics: 1284 visualizações e 213 contactos guardados, com um gráfico por dia"><p><strong>E depois, veja o que resultou.</strong> Visualizações e contactos guardados por dia, para ver que eventos compensaram.</p></li>
+</ol>
+</figure>
+
 ### Fase 1: Antes da Conferência
 
 O pior momento para configurar o seu cartão de visita digital é enquanto está na fila de inscrição. Trate disto pelo menos uma semana antes do evento.

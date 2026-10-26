@@ -143,6 +143,13 @@ Quando grava uma tag numa app como a NFC.cool Tools, está a criar registos NDEF
 
 ## Ler Tags NFC
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="O separador NFC no NFC.cool Tools, com os botões Read NFC e Write NFC"><p><strong>Ler com uma app.</strong> Toque em Read NFC e encoste a tag à parte de cima do iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="Uma tag lida no NFC.cool Tools: um registo de cartão de visita de Anna Miller, com o vCard em bruto por baixo"><p><strong>Veja tudo o que tem.</strong> Todos os registos da tag, não só o link que o iOS mostraria.</p></li>
+</ol>
+</figure>
+
 ### No iPhone
 
 Os iPhones tratam das tags automaticamente. No **iPhone XS e posteriores** (e no iPhone SE de 3.ª geração), a leitura NFC funciona em segundo plano - aproxime o topo do telemóvel de uma tag e ele lê-a instantaneamente, sem app necessária. Os iPhones mais antigos (7, 8, X) precisam que abra primeiro uma app de leitura NFC.
@@ -261,6 +268,12 @@ Esconda tags por um local, cada uma a revelar uma pista ou um enigma. Ótimo par
 ---
 
 ## Tags NFC e Atalhos do iPhone
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="As definições de NFC no NFC.cool Tools com Read with tag details, Open Web Link when read, Run Shortcut when read e Play audio file when read ligados"><p><strong>Correr um atalho ao ler.</strong> O NFC.cool pode abrir um link, correr um atalho ou tocar um som no momento em que lê uma tag.</p></li>
+</ol>
+</figure>
 
 Esta é a minha coisa preferida para mostrar às pessoas. A app **Atalhos** da Apple (integrada no iOS) tem suporte nativo de acionadores NFC, e é onde as tags passam de úteis a genuinamente poderosas no iPhone.
 

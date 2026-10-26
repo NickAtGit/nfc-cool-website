@@ -59,10 +59,12 @@ Kata sandi dihitung dari dua input: UID 7-byte tag dan kode manufaktur yang ters
 
 ## Cara memeriksa dan mereset dengan NFC.cool Tools
 
-Inilah tampilan di aplikasi:
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools menampilkan kepala sikat Sonicare pada 80% penggunaan dengan tombol Reset Timer" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="Layar Sonicare Reset di NFC.cool Tools, meminta Anda menempelkan kepala sikat ke iPhone"><p><strong>Baca kepala sikatnya.</strong> Ketuk Read NFC dan tempelkan kepala sikat ke iPhone Anda.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="Kepala sikat Sonicare yang sudah terpakai 80%, dengan 4 jam 50 menit terpakai dan 1 jam 10 menit tersisa"><p><strong>Lihat statistiknya.</strong> Seberapa banyak masa pakai kepala sikat yang sudah terpakai.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="Kepala sikat yang sama setelah direset, kembali ke 0% terpakai"><p><strong>Reset.</strong> Kembali ke nol, jika bulu sikat Anda masih layak.</p></li>
+</ol>
 </figure>
 
 NFC.cool Tools menangani seluruh prosesnya: membaca tag, menghitung kata sandi, dan menampilkan statistik kepada Anda. Tidak perlu perintah hex, tidak perlu kalkulator web, tidak perlu SDR.

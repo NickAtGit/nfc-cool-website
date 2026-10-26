@@ -136,6 +136,12 @@ Kesimpulan praktisnya: pilih platform yang mengambil GDPR secara serius secara d
 
 Pengungkapan penuh: ini adalah blog NFC.cool, jadi saya akan membicarakan pendekatan saya. Tapi saya telah mencoba jujur tentang lanskap di atas, dan saya akan jujur di sini juga.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/why-privacy-matters-digital-business-card/profile-settings-440w.webp" alt="Pengaturan Profil di NFC.cool Business Card: kartu publik, atau kartu privat yang butuh PIN untuk dilihat dan tidak diindeks mesin pencari, plus opsi pengumpulan prospek"><p><strong>Publik atau privat.</strong> Kartu privat butuh PIN untuk dilihat, dan pengumpulan prospek hanya berjalan jika Anda menyalakannya.</p></li>
+</ol>
+</figure>
+
 Ketika saya membangun [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8), privasi bukan sebuah renungan atau kotak centang pemasaran. Itu membentuk produk:
 
 **Profil yang dilindungi PIN** - Anda bisa mengunci kartu nama Anda di balik PIN 4 digit dengan upaya yang dibatasi. Bagikan URL kartu Anda dengan bebas, tapi hanya biarkan orang melihat detail Anda saat Anda inginkan. Ini berguna untuk kartu NFC yang mungkin Anda kehilangan, atau untuk saat-saat ketika Anda ingin mengontrol siapa yang melihat info kontak lengkap Anda.

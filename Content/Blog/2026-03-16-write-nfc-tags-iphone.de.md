@@ -78,6 +78,15 @@ Das war's schon. Wer diesen Tag jetzt mit seinem Handy scannt, landet auf deiner
 
 **Profi-Tipp:** Die NFC-Antenne sitzt beim iPhone an der **oberen Kante**, in der Nähe der Kamera. Am stabilsten ist die Verbindung, wenn du die Oberseite des iPhones direkt über den Tag hältst. Und wenn du ohne App kurz nachsehen willst, was du geschrieben hast: Auf Android kannst du [NFC-Tags direkt im Browser lesen](/de/online-nfc-reader/).
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Deinen ersten Tag beschreiben</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="Der NFC-Tab in NFC.cool Tools mit den Buttons Read NFC und Write NFC"><p><strong>Tippe auf Write NFC.</strong> Du findest es im NFC-Tab, neben Read NFC.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Create NFC Message: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location und FaceTime"><p><strong>Wähle Web Link.</strong> Oder Text, einen Kontakt, eine Telefonnummer und mehr. Link eingeben, schreiben und den Tag an die Oberkante deines iPhones halten.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages mit einem Weblink, einer Visitenkarte und einem WLAN-Eintrag"><p><strong>Wiederfinden.</strong> Alles, was du schreibst, landet in My NFC Messages, bereit für den nächsten Tag.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Was du auf NFC-Tags schreiben kannst
@@ -158,6 +167,12 @@ Manche Apps schreiben eigene NDEF-Datensätze, die eine bestimmte Aktion in der 
 
 ## Für Fortgeschrittene: Schreiben mit iOS-Kurzbefehlen
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="Der Bildschirm Shortcuts in NFC.cool Tools mit Siri-Befehlen wie Scan NFC in NFC.cool und Scan QR and Barcode in NFC.cool"><p><strong>Die eigenen Aktionen von NFC.cool.</strong> Jede Aktion, die die App zu Kurzbefehlen und Siri hinzufügt, einen Tipp von der Kurzbefehle-App entfernt.</p></li>
+</ol>
+</figure>
+
 Hier fängt für mich der Spaß erst richtig an. Apples **Kurzbefehle**-App kann von Haus aus NFC-Tags schreiben, und NFC.cool Tools legt mit eigenen Kurzbefehl-Aktionen noch einiges obendrauf.
 
 ### Einfache URLs mit Kurzbefehlen schreiben
@@ -237,6 +252,12 @@ Schreib Links zu deinen Lieblingsrezepten drauf und kleb die Tags auf Gewürzgl�
 ---
 
 ## NFC-Tags sperren
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="Der Bildschirm Lock Tag: macht den Tag dauerhaft schreibgeschützt, das lässt sich nicht rückgängig machen"><p><strong>Lock Tag.</strong> Der Inhalt bleibt auf jedem Handy lesbar, lässt sich aber nie wieder ändern.</p></li>
+</ol>
+</figure>
 
 Wenn ein Tag beschrieben ist und der Inhalt passt, kannst du ihn **sperren**. Ein gesperrter Tag ist dauerhaft schreibgeschützt, niemand kann deine Daten mehr überschreiben. Für mich ist das ein bewusster, letzter Schritt und nichts, was man schnell wegklickt, denn es gibt kein Zurück.
 

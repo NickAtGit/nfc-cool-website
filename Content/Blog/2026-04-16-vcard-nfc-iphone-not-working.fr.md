@@ -68,6 +68,12 @@ NFC.cool Tools est excellent pour lire et écrire des tags NFC, je l'ai conçu e
 
 ## La solution : les cartes de visite NFC basées sur une URL
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="Un profil numérique tel qu'il s'ouvre après le scan : Rin Nakashima, de Meridian Systems, avec des liens Website, Blog, Reddit et Bluesky et le bouton Save Contact"><p><strong>Scan. Profil. Enregistrer.</strong> Le lien du tag ouvre ce profil, et un appui enregistre le contact.</p></li>
+</ol>
+</figure>
+
 Voici ce que personne ne vous dit quand vous achetez une carte de visite NFC :
 
 **Vous ne devriez pas du tout stocker de données de contact sur le tag.**

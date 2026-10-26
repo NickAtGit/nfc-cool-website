@@ -37,6 +37,12 @@ Chi riceve il biglietto non ha scelto la tua app e non è andato a informarsi: h
 
 NFC.cool Business Card segue due strade diverse a seconda della piattaforma di chi riceve, e nessuna delle due richiede di scaricare qualcosa.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/app-clip-440w.webp" alt="L'App Clip che vede chi lo riceve: Kasper Lindqvist di Lindqvist Studio, con i link Website, Instagram e YouTube e il pulsante Save Contact"><p><strong>L'App Clip.</strong> Nativo, nella lingua di chi lo riceve, con Save Contact proprio sotto il pollice.</p></li>
+</ol>
+</figure>
+
 ### Su iPhone: un'App Clip nativa
 
 Quando una persona con iPhone avvicina il telefono alla tua tessera NFC o inquadra il codice QR, iOS avvia un'[App Clip](https://developer.apple.com/app-clips/): un'esperienza nativa e leggera, pensata proprio per momenti come questo.
@@ -93,6 +99,12 @@ Conta più di quanto si pensi. Il biglietto da visita è spesso la prima impress
 ---
 
 ## Modalità Conferenza: condividere dalla schermata di blocco
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="Il menu del biglietto in NFC.cool Business Card: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card e Add to Apple Wallet"><p><strong>Un tocco per iniziare.</strong> Il Conference Mode sta nel menu del biglietto, accanto a Write to NFC Tag e Add to Apple Wallet.</p></li>
+</ol>
+</figure>
 
 Alle conferenze e agli eventi il biglietto lo condividi decine di volte. Per questo NFC.cool ha una funzione chiamata Modalità Conferenza, che sfrutta le Attività in tempo reale di iOS per mettere un codice QR direttamente sulla schermata di blocco.
 

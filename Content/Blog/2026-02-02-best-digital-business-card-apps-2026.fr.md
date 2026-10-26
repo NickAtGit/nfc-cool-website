@@ -106,6 +106,12 @@ Voici un aperçu en un coup d'œil des huit apps :
 
 ## Avis détaillés
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/best-digital-business-card-apps-2026/nfc-cool-card-440w.webp" alt="Une carte NFC.cool Business Card telle que la voit son destinataire : Ayo Adeyemi, de Clearwater Coaching, avec des liens Website, TikTok, Threads et Instagram et le bouton Save Contact"><p><strong>NFC.cool Business Card.</strong> L'App Clip sur iPhone, dans la langue du destinataire, avec vos couleurs et votre logo.</p></li>
+</ol>
+</figure>
+
 ### 1. NFC.cool Business Card - le meilleur choix pour la confidentialité et les professionnels multilingues
 
 **Ce que c'est :** une app de carte de visite numérique signée NFC.cool, le studio indépendant à l'origine de 13 apps NFC et utilitaires totalisant plus de 9 millions de téléchargements. Disponible comme app autonome sur iOS et sur [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-fr).

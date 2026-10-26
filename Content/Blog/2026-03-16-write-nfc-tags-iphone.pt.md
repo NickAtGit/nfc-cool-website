@@ -78,6 +78,15 @@ Vou começar consigo onde começo com toda a gente: gravar um URL numa tag. É o
 
 **Dica profissional:** A antena NFC nos iPhone fica na **aresta superior** do telemóvel, junto à câmara. Para a ligação mais forte, mantenha o topo do seu iPhone diretamente sobre a tag. Se quiser confirmar o que gravou sem uma app, pode [ler tags NFC diretamente a partir do seu browser](/online-nfc-reader/) no Android.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Escrever a sua primeira tag</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="O separador NFC no NFC.cool Tools, com os botões Read NFC e Write NFC"><p><strong>Toque em Write NFC.</strong> Está no separador NFC, ao lado de Read NFC.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Create NFC Message: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location e FaceTime"><p><strong>Escolha Web Link.</strong> Ou texto, um contacto, um número de telefone e mais. Introduza o link, escreva e encoste a tag à parte de cima do iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages, com um link web, um cartão de visita e um registo Wi-Fi"><p><strong>Encontre-a outra vez.</strong> Tudo o que escreve fica em My NFC Messages, pronto para a próxima tag.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## O Que Pode Gravar em Tags NFC?
@@ -158,6 +167,12 @@ Algumas apps conseguem gravar registos NDEF personalizados que acionam ações e
 
 ## Avançado: Gravar com os Atalhos do iOS
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="O ecrã Shortcuts no NFC.cool Tools, com frases da Siri como Scan NFC in NFC.cool e Scan QR and Barcode in NFC.cool"><p><strong>As ações do próprio NFC.cool.</strong> Todas as ações que a app acrescenta aos Atalhos e à Siri, a um toque da app Atalhos.</p></li>
+</ol>
+</figure>
+
 É aqui que as coisas ficam divertidas para mim. A app **Atalhos** da Apple tem suporte de gravação NFC integrado, e o NFC.cool Tools estende-o ainda mais com as suas próprias ações de Atalhos.
 
 ### Gravação Básica de URL com Atalhos
@@ -237,6 +252,12 @@ Grave ligações para as receitas favoritas e cole tags em frascos de especiaria
 ---
 
 ## Bloquear Tags NFC
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="O ecrã Lock Tag: torna a tag só de leitura para sempre, sem volta atrás"><p><strong>Lock Tag.</strong> O conteúdo continua legível em qualquer telemóvel, mas nunca mais pode mudar.</p></li>
+</ol>
+</figure>
 
 Depois de gravar uma tag e de estar satisfeito com o seu conteúdo, pode **bloqueá-la**. Bloquear torna a tag permanentemente só de leitura - ninguém pode sobrescrever os seus dados. Trato isto como um passo deliberado e final, nunca como algo a aceitar à pressa, porque não há como desfazer.
 

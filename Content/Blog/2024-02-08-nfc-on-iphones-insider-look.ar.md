@@ -42,6 +42,12 @@ image: "/assets/images/Blog/nfc-on-iphones-insider-look.webp"
 
 ## NDEF: اللغة المشتركة
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-on-iphones-insider-look/ndef-record-440w.webp" alt="سجل بطاقة عمل مقروء في NFC.cool Tools، وتحته محتوى vCard الخام: BEGIN:VCARD وVERSION:3.0 وN وFN لـAnna Miller"><p><strong>سجل NDEF مفتوحًا.</strong> سجل جهة اتصال كما يعرضه NFC.cool، وتحته ملف vCard الخام.</p></li>
+</ol>
+</figure>
+
 طبقة البيانات فوق راديو NFC هي **NDEF** - أي NFC Data Exchange Format (صيغة تبادل بيانات NFC). أصفها بأنها صيغة سجلات صغيرة ذاتية الوصف: يحمل الوسم سجلًا واحدًا أو أكثر، ولكل سجل نوع (URI، نص، vCard، بيانات اعتماد Wi-Fi، MIME مخصّص) وحمولة.
 
 كل هاتف يدعم NFC على وجه الأرض يتحدّث NDEF، ولهذا فإن وسمًا مُبرمجًا على جهاز Android سيُقرأ بلا مشاكل على iPhone والعكس صحيح. إنه أحد الأماكن القليلة في عالم الهواتف حيث يتشارك iOS وAndroid معيارًا واحدًا فعلًا، وبصراحة فإن هذه القابلية للتشغيل البيني هي أكثر ما أشعر بالامتنان له حين أبني الميزات - فأنا أكتب للصيغة، لا للمنصّة. إن أردتَ تجربة كتابة سجلاتك الخاصة، فقد شرحتُ ذلك خطوة بخطوة في [كيفية كتابة وسوم NFC على iPhone](/blog/write-nfc-tags-iphone/).

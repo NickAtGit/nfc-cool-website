@@ -39,6 +39,16 @@ A few practical rules:
 
 The full scan takes 20-40 seconds of walking, then another 30-60 seconds of processing.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Scanning an Object in 3D</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/1-scan-object-440w.webp" alt="The 3D tab in NFC.cool Tools with Scan Object and Scan Room"><p><strong>Scan Object.</strong> On the 3D tab, next to Scan Room.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/2-walk-around-440w.webp" alt="The object capture view: a portable radio inside a box, with the hint Keep the whole object inside the box while you walk around it"><p><strong>Walk around it.</strong> Keep the object inside the box while you circle it slowly.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/3-building-440w.webp" alt="A progress ring at 62 percent: Building your 3D model"><p><strong>Let it build.</strong> The model is built on your iPhone. Keep the app open while it runs.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/4-model-440w.webp" alt="The finished model: Vintage Radio, saved as an object"><p><strong>Your model.</strong> Saved with the rest, ready to view or export.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Export formats

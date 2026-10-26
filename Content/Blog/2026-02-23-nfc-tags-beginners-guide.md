@@ -143,6 +143,13 @@ When you write a tag in an app like NFC.cool Tools, you're creating NDEF records
 
 ## Reading NFC Tags
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="The NFC tab in NFC.cool Tools with the Read NFC and Write NFC buttons"><p><strong>Read with an app.</strong> Tap Read NFC and hold the tag to the top of your iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="A read tag in NFC.cool Tools: a business card record for Anna Miller, with the raw vCard below"><p><strong>See everything on it.</strong> Every record on the tag, not just the link iOS would show.</p></li>
+</ol>
+</figure>
+
 ### On iPhone
 
 iPhones handle tags automatically. On **iPhone XS and later** (and the 3rd-gen iPhone SE), NFC reading runs in the background - hold the top of the phone near a tag and it reads instantly, no app needed. Older iPhones (7, 8, X) need you to open an NFC reader app first.
@@ -261,6 +268,12 @@ Hide tags around a location, each revealing a clue or puzzle. Great for team-bui
 ---
 
 ## NFC Tags and iPhone Shortcuts
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="NFC settings in NFC.cool Tools with Read with tag details, Open Web Link when read, Run Shortcut when read and Play audio file when read switched on"><p><strong>Run a Shortcut on read.</strong> NFC.cool can open a link, run a shortcut or play a sound the moment a tag is read.</p></li>
+</ol>
+</figure>
 
 This is my favorite thing to show people. Apple's **Shortcuts** app (built into iOS) has native NFC trigger support, and it's where tags go from useful to genuinely powerful on iPhone.
 

@@ -124,6 +124,15 @@ Se é um fabricante ou marca a implementar o DPP via NFC, vai precisar de ferram
 
 Para implementações à escala empresarial, os gravadores NFC de secretária (compatíveis com chips NTAG, ICODE e MIFARE) tratam da programação em massa, mas a app móvel continua a ser inestimável para a **verificação no terreno** - digitalizar produtos na prateleira ou no chão do armazém para confirmar que a ligação do passaporte funciona corretamente. Pode até [verificar o que uma tag contém diretamente a partir de um navegador](/online-nfc-reader/) no Android, sem nada para instalar, o que é prático para uma verificação rápida.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Um passaporte digital do produto no NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="O ecrã Digital Product Passport no NFC.cool Tools, com Read a Passport e Create a Passport"><p><strong>Digital Product Passport.</strong> Leia um passaporte de uma tag ou crie o seu, segundo a norma do NFC Forum.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="Um passaporte lido de um Merino Wool Jacket: ID do produto, data de produção, link do passaporte, fabricante e materiais"><p><strong>Ler um.</strong> Produto, fabricante, materiais e impacto ambiental, diretamente da tag.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="O formulário de um novo passaporte: produto, fabricante, datas e materiais"><p><strong>Criar um.</strong> Preencha os dados do produto e escreva-os numa tag, para testar ou para um pequeno lote.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Para Além da UE: Dinâmica Global

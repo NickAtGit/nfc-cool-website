@@ -68,6 +68,12 @@ NFC.cool Tools è ottima per leggere e scrivere i tag NFC, e l'ho creata esattam
 
 ## La soluzione: biglietti da visita NFC basati su un URL
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="Un profilo digitale come si apre dopo il tocco: Rin Nakashima di Meridian Systems, con i link Website, Blog, Reddit e Bluesky e il pulsante Save Contact"><p><strong>Tocco. Profilo. Salva.</strong> Il link sul tag apre questo profilo, e un tocco salva il contatto.</p></li>
+</ol>
+</figure>
+
 C'è una cosa che nessuno ti dice quando compri un biglietto da visita NFC:
 
 **Sul tag i dati del contatto non ci vanno proprio.**

@@ -38,6 +38,12 @@ Esa es la historia común. Ahora la parte que es de verdad diferente para ti.
 
 ## Para agentes inmobiliarios
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="La tarjeta de una agente inmobiliaria tal como la ve quien la recibe: Elena Marchetti, de Marchetti Property, con enlaces a Website, Instagram y Facebook y el botón Save Contact"><p><strong>Lo que ve tu cliente.</strong> Tu tarjeta se abre en su iPhone sin instalar ninguna app, y un toque te guarda como contacto.</p></li>
+</ol>
+</figure>
+
 La inmobiliaria funciona a base de estar siempre localizable. Cada visita a una casa abierta, cada jornada de puertas abiertas para agentes, cada encuentro casual en el café es un contacto potencial - y si se convierte en cliente depende a menudo de una sola cosa: ¿guardó tu tarjeta? Con papel, la respuesta honesta suele ser no.
 
 ### La hoja de registro de la visita está rota
@@ -87,6 +93,12 @@ Una palabra sobre privacidad, porque aquí importa más: una tarjeta de visita n
 ---
 
 ## Para consultores y freelancers
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="La tarjeta de un consultor, Adrian Kovac, de Kovac Advisory, con enlaces a Website, LinkedIn y Blog"><p><strong>Una tarjeta que se parece a ti.</strong> Tu logo, tus colores y los enlaces que importan en este papel.</p></li>
+</ol>
+</figure>
 
 Cuando te independizas, nadie te pide las tarjetas de visita por ti. No hay departamento de marketing, no hay recepcionista que las reimprima cuando cambia tu cargo. Tú eres la marca - y el presupuesto de las tarjetas es tu presupuesto.
 
@@ -148,6 +160,16 @@ Dónde la competencia está genuinamente por delante:
 La versión honesta: para un agente, un médico o un profesional independiente, lo que importa día a día es que compartir sea rápido, que la tarjeta se parezca a *ti*, y que nada te avergüence después. Para eso la construí. Si necesitas un CRM de ventas soldado a tu tarjeta de visita, compra la herramienta que hace eso.
 
 Puedes [conseguir NFC.cool Business Card en el App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) o [en Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Card en acción</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Mis Tarjetas de Visita con tres tarjetas: AlexBerger, Conference y Speaking"><p><strong>Una tarjeta por papel.</strong> Hasta 100 tarjetas, cada una con su aspecto y sus enlaces.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="La pestaña Business Card con el código QR de la tarjeta y el menú de tarjetas, leads, contactos y ajustes"><p><strong>Compártela.</strong> Con un toque NFC, un código QR o un simple enlace.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Los ajustes de perfil: tarjeta pública o privada con PIN, y captación de leads antes o después de guardar"><p><strong>Tus reglas.</strong> Pública o protegida con PIN, y captación de leads cuando tú quieras.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="La lista de leads, cada uno marcado como Qualified, New, Contacted o Converted"><p><strong>Haz seguimiento.</strong> Todos los leads en una lista, con el punto en que está cada uno.</p></li>
+</ol>
+</figure>
 
 ---
 

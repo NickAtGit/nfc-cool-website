@@ -20,6 +20,16 @@ Eis como usá-lo bem.
 
 Abra a NFC.cool Tools, toque no ícone de documento e enquadre a página. O digitalizador desenha um quadrilátero amarelo à volta do que pensa serem as margens da página. Na maior parte das vezes está certo. Quando não está, arraste os cantos até encaixarem.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Do papel a um PDF pesquisável</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="A câmara de documentos no NFC.cool Tools, com um contrato de arrendamento detetado e os cantos marcados"><p><strong>Capturar.</strong> A página é detetada e os cantos ajustados por si.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="O texto reconhecido numa fatura, com Share text e Copy text to clipboard"><p><strong>Ler o texto.</strong> O OCR transforma a digitalização em texto que pode copiar ou partilhar.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="Documentos guardados pesquisados por Portland: uma fatura, um recibo e um contrato de arrendamento"><p><strong>Encontrar depois.</strong> A pesquisa encontra um documento por qualquer palavra que contenha.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF, com Share e Save to Files"><p><strong>Exportar.</strong> Um PDF pesquisável, partilhado ou guardado em Ficheiros.</p></li>
+</ol>
+</figure>
+
 Algumas dicas que melhoram genuinamente o resultado:
 
 - **A luz natural ganha à luz do teto.** As luzes do teto do escritório projetam sombras do próprio telemóvel sobre a página. A luz do dia vinda de uma janela, ou um candeeiro de secretária inclinado sobre a página, é melhor.

@@ -82,6 +82,12 @@ OpenPrintTag هو صيغة بيانات مفتوحة وشاملة لمواد ا�
 
 ## كيفية قراءة وكتابة OpenPrintTag بهاتفك
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/openprinttag-read-write-nfc-spools-phone/write-440w.webp" alt="شاشة OpenPrintTag في NFC.cool Tools، معبّأة لخيط Northline Filaments PLA Matte بقطر ١٫٧٥ مم، Filament (FFF)"><p><strong>كتابة وسم البكرة.</strong> املأ تفاصيل المادة، ثم انقر زر NFC وقرّب الوسم من هاتفك.</p></li>
+</ol>
+</figure>
+
 لست بحاجة إلى طابعة Prusa أو أي عتاد خاص للتعامل مع OpenPrintTag، بل هاتفك فقط. هذا هو الجزء الذي كنت أكثر حماسًا لبنائه، لأن الهاتف الذي في جيبك هو أيسر قارئ NFC متاح على الإطلاق.
 
 يدعم NFC.cool Tools معيار OpenPrintTag أصليًا على كلٍّ من [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-en&mt=8) و[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-en)، وقد حرصتُ على أن تكون الميزة مجانية بالكامل.

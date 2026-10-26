@@ -124,6 +124,15 @@ C'est exactement ce pour quoi des apps comme [NFC.cool Tools](https://apps.apple
 
 Pour les déploiements à l'échelle de l'entreprise, les encodeurs NFC de bureau (compatibles avec les puces NTAG, ICODE et MIFARE) gèrent la programmation en masse, mais l'app mobile reste précieuse pour la **vérification sur le terrain** - scanner des produits en rayon ou dans l'entrepôt pour confirmer que le lien du passeport fonctionne correctement. Vous pouvez même [vérifier le contenu d'un tag directement depuis un navigateur](/online-nfc-reader/) sur Android, sans rien à installer, ce qui est pratique pour un contrôle rapide.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Un passeport numérique de produit dans NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="L'écran Digital Product Passport de NFC.cool Tools, avec Read a Passport et Create a Passport"><p><strong>Digital Product Passport.</strong> Lisez un passeport depuis un tag ou créez le vôtre, selon la norme du NFC Forum.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="Un passeport lu pour une Merino Wool Jacket : identifiant produit, date de production, lien du passeport, fabricant et matériaux"><p><strong>En lire un.</strong> Produit, fabricant, matériaux et impact environnemental, directement depuis le tag.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="Le formulaire d'un nouveau passeport : produit, fabricant, dates et matériaux"><p><strong>En créer un.</strong> Saisissez les données du produit et écrivez-les sur un tag, pour tester ou pour une petite série.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Au-delà de l'UE : un élan mondial

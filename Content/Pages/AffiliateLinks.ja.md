@@ -19,8 +19,8 @@ NFCアプリを7年間開発し、何千ものサポートメールに答えて�
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/Affiliate/create-nfc-tag.webp" alt="NFC.cool Tools - iPhoneの「NFCタグを作成」画面、新しいタグへの書き込み準備中" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene is-boxed">
+<img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="カラフルな6枚のNFC.coolカードが扇形に広がる" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

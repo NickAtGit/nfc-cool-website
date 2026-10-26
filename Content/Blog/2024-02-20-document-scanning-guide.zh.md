@@ -20,6 +20,16 @@ image: "/assets/images/Blog/document-scanning-guide.webp"
 
 打开 NFC.cool Tools，轻触文档图标，把页面取景对准。扫描器会在它认为是页面边缘的地方画出一个黄色四边形。大多数时候它都是对的；不准时，拖动四个角直到贴合为止。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>从纸张到可搜索的 PDF</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="NFC.cool Tools 的文档相机，识别出一份租赁合同并标出四个角"><p><strong>拍摄。</strong>自动找到页面，四个角也替你对齐。</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="从一张发票识别出的文字，带 Share text 和 Copy text to clipboard"><p><strong>识别文字。</strong>OCR 把扫描件变成可以复制或分享的文字。</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="在已保存文档中搜索 Portland，找到一张发票、一张收据和一份租赁合同"><p><strong>以后再找。</strong>文档里的任何一个词都能搜到它。</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF，带 Share 和 Save to Files"><p><strong>导出。</strong>可搜索的 PDF，分享出去或存到文件 App。</p></li>
+</ol>
+</figure>
+
 几条能切实改善成片的小技巧：
 
 - **自然光优于头顶光。** 办公室天花板的灯会把手机自身的影子投到页面上。从窗户照进来的日光，或者一盏斜射在页面上的台灯，效果都更好。

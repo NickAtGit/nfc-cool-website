@@ -45,6 +45,16 @@ Di konferensi, semua yang sedikit merepotkan dari kertas menjadi masalah nyata:
 
 Beralih ke digital bukan hanya soal mengganti kertas dengan aplikasi. Keunggulan sesungguhnya adalah memiliki sistem yang bekerja di seluruh linimasa konferensi - dari persiapan hingga tindak lanjut. Begini cara menyiapkannya.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Sebelum, selama, dan sesudah</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="Kartu Nama Saya dengan kartu Conference di samping kartu sehari-hari"><p><strong>Sebelum: kartu untuk acara.</strong> Kartu khusus untuk konferensi ini, dengan tautan yang penting di sana.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="Kode QR kartu dalam layar penuh, dengan Share dan Save to Photos di bawahnya"><p><strong>Selama: ketuk atau pindai.</strong> NFC untuk berbagi cepat, kode QR layar penuh untuk yang lain.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="Kontak networking, Priya Raman dari Lantern Metrics, dengan Add Reminder, Add Meeting, dan detail acara"><p><strong>Sesudah: tindak lanjut.</strong> Setiap kontak mengingat di mana Anda bertemu, dengan pengingat atau rapat dalam satu ketukan.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics: 1.284 tayangan dan 213 penyimpanan, dengan grafik per hari"><p><strong>Lalu lihat hasilnya.</strong> Tayangan dan penyimpanan per hari, agar Anda tahu acara mana yang membuahkan hasil.</p></li>
+</ol>
+</figure>
+
 ### Fase 1: Sebelum konferensi
 
 Saat terburuk untuk menyiapkan kartu nama digital Anda adalah saat sedang antre registrasi. Selesaikan ini setidaknya seminggu sebelum acara.

@@ -143,6 +143,13 @@ Quand vous écrivez un tag dans une app comme NFC.cool Tools, vous créez des en
 
 ## Lire des tags NFC
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="L'onglet NFC de NFC.cool Tools avec les boutons Read NFC et Write NFC"><p><strong>Lire avec une app.</strong> Appuyez sur Read NFC et tenez le tag contre le haut de votre iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="Un tag lu dans NFC.cool Tools : un enregistrement de carte de visite pour Anna Miller, avec la vCard brute en dessous"><p><strong>Voyez tout ce qu'il contient.</strong> Chaque enregistrement du tag, pas seulement le lien qu'iOS afficherait.</p></li>
+</ol>
+</figure>
+
 ### Sur iPhone
 
 Les iPhone gèrent les tags automatiquement. Sur **iPhone XS et modèles ultérieurs** (et l'iPhone SE de 3e génération), la lecture NFC tourne en arrière-plan - tenez le haut du téléphone près d'un tag et il le lit instantanément, sans aucune app. Les iPhone plus anciens (7, 8, X) vous obligent à ouvrir d'abord une app de lecture NFC.
@@ -261,6 +268,12 @@ Cachez des tags autour d'un lieu, chacun révélant un indice ou une énigme. Pa
 ---
 
 ## Les tags NFC et les Raccourcis iPhone
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="Les réglages NFC de NFC.cool Tools avec Read with tag details, Open Web Link when read, Run Shortcut when read et Play audio file when read activés"><p><strong>Lancer un raccourci à la lecture.</strong> NFC.cool peut ouvrir un lien, lancer un raccourci ou jouer un son dès qu'un tag est lu.</p></li>
+</ol>
+</figure>
 
 C'est ce que je préfère montrer aux gens. L'app **Raccourcis** d'Apple (intégrée à iOS) prend en charge nativement les déclencheurs NFC, et c'est là que les tags passent d'utiles à vraiment puissants sur iPhone.
 

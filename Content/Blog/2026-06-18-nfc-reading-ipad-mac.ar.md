@@ -34,6 +34,16 @@ ogDescription: "لا توجد شريحة NFC في جهاز iPad أو Mac لدي�
 
 القارئ الذي بنيتُ هذا الأمر حوله، والوحيد الذي اختبرته فعليًا، هو HID OMNIKEY 5022 CL. وتعمل قارئات USB أخرى أيضًا، وبعضها مذكور في القائمة أدناه بناءً على تقارير مستخدمين جرّبوها.
 
+<figure class="phone-figure" data-layout="stage" data-device="ipad">
+<figcaption>جهاز iPad مع قارئ USB</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-1-place-tag-600w.webp" alt="NFC.cool على جهاز iPad موصول بقارئ NFC خارجي عبر USB: Place tag on reader"><p><strong>صِل قارئًا.</strong> يتعرّف عليه NFC.cool تلقائيًا وينتظر وسمًا.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-2-tag-read-600w.webp" alt="NFC.cool على iPad بعد القراءة: علامة صح خضراء وTag read"><p><strong>ضع الوسم عليه.</strong> يتولّى القارئ الجزء اللاسلكي، ويتولّى iPad الباقي.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-3-record-600w.webp" alt="السجل الكامل للوسم على iPad: بطاقة عمل لـAnna Miller، وتحتها ملف vCard الخام"><p><strong>كل ما تراه على iPhone.</strong> السجلات نفسها، والأدوات نفسها.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-4-sonicare-600w.webp" alt="Sonicare Reset على iPad: رأس فرشاة مستهلَك بنسبة ٨٠٪، مع Reset Timer"><p><strong>حتى الحالة الصعبة.</strong> قراءة رأس Sonicare والكتابة إلى عدّاده المحمي بكلمة مرور تعمل أيضًا.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## القارئات التي تعمل
@@ -52,6 +62,12 @@ ogDescription: "لا توجد شريحة NFC في جهاز iPad أو Mac لدي�
 ---
 
 ## ما الذي يمكنك فعله به
+
+<figure class="phone-figure" data-layout="float" data-device="mac">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="جهاز MacBook وبجواره قارئ NFC خارجي عبر USB، يعرض My NFC Messages في NFC.cool"><p><strong>على Mac أيضًا.</strong> صِل القارئ بجهاز Mac، وكل وسم تقرؤه ينتهي في My NFC Messages.</p></li>
+</ol>
+</figure>
 
 كل شيء تقريبًا مما قد تفعله على iPhone. يمكنك قراءة الوسوم واستخراج ذاكرتها كاملةً، وكتابة رسائل NDEF، وتشغيل مهام دفعية تقرأ أو تكتب مجموعة كاملة من الوسوم واحدًا تلو الآخر. حماية الوسوم بكلمة مرور تعمل. وكذلك [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/)، صيغة بكرات خيوط الطابعات ثلاثية الأبعاد، في كلا الاتجاهين. ونعم، [إعادة تعيين رأس فرشاة Philips Sonicare](/blog/reset-sonicare-brush-head-nfc/) تعمل أيضًا.
 

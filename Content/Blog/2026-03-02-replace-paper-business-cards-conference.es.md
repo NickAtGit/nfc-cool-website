@@ -45,6 +45,16 @@ En una conferencia, todo lo que es ligeramente incómodo del papel se convierte 
 
 Pasarse al digital no consiste solo en cambiar papel por una app. La verdadera ventaja está en tener un sistema que funcione a lo largo de todo el cronograma de la conferencia - desde la preparación hasta el seguimiento. Así es como se configura.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Antes, durante y después</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="Mis Tarjetas de Visita con una tarjeta Conference junto a la de diario"><p><strong>Antes: una tarjeta para el evento.</strong> Una tarjeta solo para esta conferencia, con los enlaces que importan allí.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="El código QR de la tarjeta a pantalla completa, con Share y Save to Photos debajo"><p><strong>Durante: toque o escaneo.</strong> NFC para compartir rápido, el código QR a pantalla completa para los demás.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="Un contacto de networking, Priya Raman, de Lantern Metrics, con Add Reminder, Add Meeting y los detalles del evento"><p><strong>Después: el seguimiento.</strong> Cada contacto recuerda dónde os conocisteis, con un recordatorio o una reunión a un toque.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics: 1284 visitas y 213 guardados, con un gráfico por día"><p><strong>Y luego, mira qué funcionó.</strong> Visitas y guardados por día, para ver qué eventos merecieron la pena.</p></li>
+</ol>
+</figure>
+
 ### Fase 1: antes de la conferencia
 
 El peor momento para configurar tu tarjeta de visita digital es mientras estás en la cola de registro. Hazlo al menos una semana antes del evento.

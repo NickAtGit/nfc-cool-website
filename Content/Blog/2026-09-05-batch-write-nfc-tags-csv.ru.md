@@ -124,6 +124,15 @@ https://example.com/ben,tel:+4915198765432
 
 Открой **предпросмотр пачки** и посмотри каждую метку с записями, которые на неё лягут. То, что ты там видишь, и будет записано.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Импорт и просмотр</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="CSV Batch Write в NFC.cool Tools с пунктами Help и Import CSV и импортированным файлом team-links.csv"><p><strong>Импортируй CSV.</strong> Выбери файл. Приложение работает со своей копией.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="Настройки пакета: разделитель запятая, группировка по строкам, 2 столбца, нужно 24 NFC-метки, 49 байт на метку"><p><strong>Проверь цифры.</strong> С твоими метками сравнивают значение Bytes per NFC tag.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview: метки с 1 по 4, на каждой 2 записи, ссылка команды и адрес почты, внизу Start Writing"><p><strong>Проверь и запиши.</strong> Ровно то, что получит каждая метка, ещё до записи первой.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Шаг 5: запиши стопку

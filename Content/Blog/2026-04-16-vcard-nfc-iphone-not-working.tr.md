@@ -68,6 +68,12 @@ NFC.cool Tools, NFC tag okuyup yazmak için harika; onu tam bunun için yazdım.
 
 ## Çözüm: adres tabanlı NFC kartvizitler
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="Dokunduktan sonra açılan dijital profil: Meridian Systems'tan Rin Nakashima; Website, Blog, Reddit ve Bluesky bağlantıları ve Save Contact düğmesiyle"><p><strong>Dokun. Profil. Kaydet.</strong> Tag'deki bağlantı bu profili açar, tek dokunuş da kişiyi kaydeder.</p></li>
+</ol>
+</figure>
+
 NFC kartvizit satın alırken kimsenin sana söylemediği şey şu:
 
 **Kişi verisini tag'in üstünde hiç saklamamalısın.**

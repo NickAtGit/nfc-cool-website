@@ -34,6 +34,16 @@ ogDescription: "你的 iPad 或 Mac 里没有 NFC 芯片？配上一个外接 US
 
 我围绕它来构建、也是唯一真正测试过的那个读卡器，是 HID OMNIKEY 5022 CL。别的 USB 读卡器也能用，其中几款就在下面的列表里，是试过它们的用户报给我的。
 
+<figure class="phone-figure" data-layout="stage" data-device="ipad">
+<figcaption>接上 USB 读卡器的 iPad</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-1-place-tag-600w.webp" alt="接上外置 USB NFC 读卡器的 iPad 上的 NFC.cool：Place tag on reader"><p><strong>接上读卡器。</strong>NFC.cool 会自动识别，然后等待标签。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-2-tag-read-600w.webp" alt="读取后的 iPad 上的 NFC.cool：一个绿色对勾和 Tag read"><p><strong>把标签放上去。</strong>读卡器负责无线部分，其余交给 iPad。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-3-record-600w.webp" alt="iPad 上标签的完整记录：Anna Miller 的名片，下方是原始 vCard"><p><strong>和 iPhone 上看到的一样。</strong>同样的记录，同样的工具。</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-4-sonicare-600w.webp" alt="iPad 上的 Sonicare Reset：已使用 80% 的刷头，以及 Reset Timer"><p><strong>连难的也行。</strong>读取 Sonicare 刷头、再写回受密码保护的计数器，同样可以。</p></li>
+</ol>
+</figure>
+
 ---
 
 ## 能用的读卡器
@@ -52,6 +62,12 @@ ogDescription: "你的 iPad 或 Mac 里没有 NFC 芯片？配上一个外接 US
 ---
 
 ## 你能用它做什么
+
+<figure class="phone-figure" data-layout="float" data-device="mac">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="一台旁边放着外置 USB NFC 读卡器的 MacBook，屏幕上是 NFC.cool 的 My NFC Messages"><p><strong>Mac 上也一样。</strong>把读卡器接到 Mac 上，读到的每枚标签都会进入 My NFC Messages。</p></li>
+</ol>
+</figure>
 
 几乎是你在 iPhone 上会做的一切。你可以读取标签并导出它们的完整内存、写入 NDEF 消息，也可以跑批量任务，一个接一个地读取或写入一整摞标签。给标签设密码保护可以用。[OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/)（3D 打印机耗材线盘的格式）也可以，读写双向都行。还有，对，[Philips Sonicare 刷头重置](/blog/reset-sonicare-brush-head-nfc/)也能跑起来。
 

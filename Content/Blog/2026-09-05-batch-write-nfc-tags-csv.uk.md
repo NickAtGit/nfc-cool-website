@@ -124,6 +124,15 @@ https://example.com/ben,tel:+4915198765432
 
 Відкрий **«Перегляд пачки»**, щоб побачити кожну мітку разом із записами, які на неї ляжуть. Що видно там, те й запишеться.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Імпорт і перегляд</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/1-import-440w.webp" alt="CSV Batch Write у NFC.cool Tools з пунктами Help і Import CSV та імпортованим файлом team-links.csv"><p><strong>Імпортуй CSV.</strong> Обери файл. Застосунок працює зі своєю копією.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/2-summary-440w.webp" alt="Налаштування пакета: роздільник кома, групування за рядками, 2 стовпці, потрібно 24 NFC-мітки, 49 байтів на мітку"><p><strong>Перевір цифри.</strong> З твоїми мітками порівнюють значення Bytes per NFC tag.</p></li>
+<li><img src="/assets/images/Blog/screens/batch-write-nfc-tags-csv/3-preview-440w.webp" alt="Batch Preview: мітки з 1 до 4, на кожній 2 записи, посилання команди й адреса пошти, унизу Start Writing"><p><strong>Переглянь і запиши.</strong> Саме те, що отримає кожна мітка, ще до запису першої.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Крок 5: запиши стос

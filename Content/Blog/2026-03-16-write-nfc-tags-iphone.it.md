@@ -78,6 +78,15 @@ Fatto. Da adesso chiunque avvicini il telefono a quel tag finisce sul tuo indiri
 
 **Consiglio:** l'antenna NFC dell'iPhone sta sul **bordo superiore**, vicino alla fotocamera. Per il collegamento più solido tieni la parte alta del telefono proprio sopra il tag. Se poi vuoi ricontrollare quello che hai scritto senza installare niente, da un telefono Android puoi [leggere i tag NFC direttamente dal browser](/online-nfc-reader/).
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Scrivere il primo tag</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="La scheda NFC di NFC.cool Tools con i pulsanti Read NFC e Write NFC"><p><strong>Tocca Write NFC.</strong> Si trova nella scheda NFC, accanto a Read NFC.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="Create NFC Message: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location e FaceTime"><p><strong>Scegli Web Link.</strong> Oppure testo, un contatto, un numero di telefono e altro. Inserisci il link, scrivi e avvicina il tag alla parte alta dell'iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages, con un link web, un biglietto da visita e un record Wi-Fi"><p><strong>Ritrovalo.</strong> Tutto quello che scrivi resta in My NFC Messages, pronto per il prossimo tag.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Che cosa si può scrivere su un tag NFC?
@@ -158,6 +167,12 @@ Certe app scrivono record NDEF personalizzati capaci di avviare al loro interno 
 
 ## Livello avanzato: scrivere con i Comandi Rapidi
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="La schermata Shortcuts di NFC.cool Tools, con frasi di Siri come Scan NFC in NFC.cool e Scan QR and Barcode in NFC.cool"><p><strong>Le azioni di NFC.cool.</strong> Ogni azione che l'app aggiunge a Comandi Rapidi e a Siri, a un tocco dall'app Comandi.</p></li>
+</ol>
+</figure>
+
 È qui che la cosa si fa divertente, almeno per me. L'app **Comandi Rapidi** di Apple sa già scrivere i tag NFC per conto suo, e NFC.cool Tools la estende con azioni proprie.
 
 ### Scrivere un indirizzo con i Comandi Rapidi
@@ -237,6 +252,12 @@ Scrivi i link alle ricette preferite e attacca i tag sui barattoli delle spezie 
 ---
 
 ## Bloccare i tag NFC
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="La schermata Lock Tag: rende il tag di sola lettura per sempre, senza ritorno"><p><strong>Lock Tag.</strong> Il contenuto resta leggibile su qualsiasi telefono, ma non potrà mai più cambiare.</p></li>
+</ol>
+</figure>
 
 Quando hai scritto un tag e il contenuto ti convince, puoi **bloccarlo**. Il blocco rende il tag definitivamente di sola lettura: nessuno potrà più sovrascrivere i tuoi dati. Lo tratto come un passaggio finale e voluto, mai come qualcosa da sbrigare in fretta, perché non si torna indietro.
 

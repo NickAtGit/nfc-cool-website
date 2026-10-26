@@ -22,6 +22,13 @@ Los datos de contacto en tu móvil son inútiles si no recuerdas por qué esa pe
 
 ## El contexto es la pieza que falta
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="La pestaña Networking de NFC.cool Business Card: Priya Raman, conocida en el Bay Area Product Summit, Tom Alvarez en el Design Systems Meetup, Hanna Vogel en el NFC Developer Day"><p><strong>Dónde os conocisteis.</strong> Cada contacto guarda el evento y la fecha.</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="Un contacto de networking, Priya Raman, de Lantern Metrics, con Add Reminder, Add Meeting y los detalles del encuentro"><p><strong>Lo que viene después.</strong> Recordatorios y reuniones van al calendario mientras la conversación sigue fresca.</p></li>
+</ol>
+</figure>
+
 Así que añadí lo que he estado llamando la "mejora de memoria" a NFC.cool Business Card. Justo después de conectar - mediante el toque NFC, el App Clip, o el código QR de pantalla de bloqueo del Modo Conferencia - te pide que captures el contexto:
 
 - **Dónde y cuándo os conocisteis.** Relleno automáticamente con fecha y lugar, editable.

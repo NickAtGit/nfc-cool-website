@@ -16,6 +16,12 @@ Los códigos QR no tienen por qué ser simples cuadrados en blanco y negro. La c
 
 ## Color: elige lo que quieras, pero respeta el contraste
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/flair-qr-codes/studio-440w.webp" alt="QR Code Studio en NFC.cool Tools: un código QR con esquinas amarillas y puntos azul marino, con ajustes predefinidos y opciones aleatorias debajo"><p><strong>QR Code Studio.</strong> Colores, formas y ajustes predefinidos, o deja que lo haga al azar hasta que te guste.</p></li>
+</ol>
+</figure>
+
 QR Studio te permite elegir cualquier color para el primer plano (los módulos) y para el fondo. Puedes ajustarlo a la paleta de tu marca, dar una pista sobre el tema de una campaña o simplemente hacer que el código quede menos agresivo a la vista en un cartel.
 
 Hay una regla inamovible, sin embargo: el **contraste**. Un escáner de QR funciona muestreando píxeles y decidiendo cuáles son "oscuros" y cuáles son "claros". Si tu primer plano y tu fondo están demasiado cerca en luminancia, el escáner se rinde - incluso cuando el código supera el test del ojo humano.

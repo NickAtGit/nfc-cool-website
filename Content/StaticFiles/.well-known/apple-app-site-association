@@ -2,7 +2,7 @@
   "applinks": {
     "apps": [],
     "details": [
-      { "appID": "FMXL9R3NPC.de.nicolo-stanciu.nfcing", "paths": ["/*"] }
+      { "appID": "FMXL9R3NPC.de.nicolo-stanciu.nfcing", "paths": ["NOT /fidget", "NOT /fidget/*", "/*"] }
     ]
   },
   "appclips": {

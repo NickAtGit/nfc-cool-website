@@ -42,6 +42,12 @@ Afişteki bir NFC etiketini okuttuğunda roller yer değiştiriyor. Afişin tag'
 
 ## NDEF: ortak dil
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-on-iphones-insider-look/ndef-record-440w.webp" alt="NFC.cool Tools'ta okunmuş bir kartvizit kaydı, altında ham vCard içeriği: BEGIN:VCARD, VERSION:3.0, Anna Miller için N ve FN"><p><strong>Açılmış bir NDEF kaydı.</strong> NFC.cool'un gösterdiği haliyle bir kişi kaydı, altında ham vCard.</p></li>
+</ol>
+</figure>
+
 NFC vericisinin üstündeki veri katmanı **NDEF**, yani NFC Veri Alışverişi Biçimi. Ben onu kendini tanıtan küçük bir kayıt biçimi diye anlatıyorum: tag bir ya da daha çok kayıt taşıyor ve her kaydın bir türü (URI, metin, vCard, Wi-Fi bilgisi, özel MIME) ve bir içeriği var.
 
 Gezegendeki NFC destekli her telefon NDEF konuşuyor; Android'de programlanan bir tag'in iPhone'da sorunsuz okunmasının, tersinin de geçerli olmasının sebebi bu. Mobil dünyada iOS ile Android'in gerçekten aynı standardı paylaştığı az sayıdaki yerden biri. Doğrusu, özellik yazarken en çok minnettar olduğum şey bu birlikte çalışabilirlik: bir platforma değil, bir biçime yazıyorum. Kendi kayıtlarını yazmayı denemek istersen [iPhone'da NFC tag nasıl yazılır](/blog/write-nfc-tags-iphone/) yazısında adım adım anlatıyorum.

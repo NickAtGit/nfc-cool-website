@@ -38,6 +38,12 @@ ogDescription: "App Clip 和网页档案如何让任何人都能即刻收到你�
 
 NFC.cool Business Card 会根据接收方所用的平台采取两种不同的方式，两种都不需要任何下载。
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/app-clip-440w.webp" alt="对方看到的 App Clip：Lindqvist Studio 的 Kasper Lindqvist，带 Website、Instagram、YouTube 链接和 Save Contact 按钮"><p><strong>App Clip。</strong>原生体验，用对方的语言显示，Save Contact 就在拇指下方。</p></li>
+</ol>
+</figure>
+
 ### 在 iPhone 上：原生的 App Clip
 
 当 iPhone 用户轻触你的 NFC 名片或扫描你的二维码时，iOS 会启动一个 [App Clip](https://developer.apple.com/app-clips/)：一种轻量的原生体验，专为这种场合打造。
@@ -94,6 +100,12 @@ Android 接收方会得到一个托管在 nfc.cool 上的干净网页档案。�
 ---
 
 ## 会议模式：从锁屏直接分享
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="NFC.cool Business Card 的名片菜单：Preview、Edit Business Card、Start Conference Mode、View Analytics、Write to NFC Tag、Show QR Code、Share Business Card 和 Add to Apple Wallet"><p><strong>轻触一下就开始。</strong>Conference Mode 就在名片菜单里，和 Write to NFC Tag、Add to Apple Wallet 放在一起。</p></li>
+</ol>
+</figure>
 
 在会议和活动上，你会把名片分享几十次。NFC.cool 有一个叫「会议模式」的功能，它利用 iOS 的实时活动（Live Activities）把一个二维码直接放到你的锁屏上。
 

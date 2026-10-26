@@ -20,6 +20,16 @@ Here's how to use it well.
 
 Open NFC.cool Tools, tap the document icon, and frame the page. The scanner draws a yellow quad around what it thinks the page edges are. Most of the time it's right. When it isn't, drag the corners until they fit.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>From Paper to Searchable PDF</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="The document camera in NFC.cool Tools, with a rental agreement detected and its corners marked"><p><strong>Capture.</strong> The page is found and its corners snapped for you.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="The text recognised on an invoice, with Share text and Copy text to clipboard"><p><strong>Read the text.</strong> OCR turns the scan into text you can copy or share.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="Saved Documents searched for Portland, finding an invoice, a receipt and a rental agreement"><p><strong>Find it later.</strong> Search finds a document by any word in it.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF, with Share and Save to Files"><p><strong>Export.</strong> A searchable PDF, shared or saved to Files.</p></li>
+</ol>
+</figure>
+
 A few tips that genuinely improve the output:
 
 - **Natural light beats overhead light.** Office ceiling lights cast shadows from the phone itself onto the page. Daylight from a window, or a desk lamp angled across the page, is better.

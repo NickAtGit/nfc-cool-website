@@ -19,8 +19,8 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/Affiliate/create-nfc-tag.webp" alt="NFC.cool Tools - شاشة إنشاء وسم NFC على iPhone، جاهزة لكتابة وسم جديد" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene is-boxed">
+<img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="ست بطاقات NFC.cool ملونة تنفتح على شكل مروحة" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

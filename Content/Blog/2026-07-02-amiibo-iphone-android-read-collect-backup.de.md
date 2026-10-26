@@ -48,6 +48,15 @@ Drei Dinge, in der Reihenfolge, in der du sie vermutlich brauchst.
 
 **Sichern und wiederherstellen.** Hast du deine eigenen Keys importiert, kannst du eine Figur als frisch verschlüsselte Kopie auf ein leeres NTAG215 schreiben. Das geht direkt nach dem Scan einer Figur oder aus einem `.bin`-Dump, den du auf dem Gerät gespeichert hast. Die App leitet die Schlüssel für den leeren Tag in deiner Hand neu ab und signiert die Daten passend für genau diesen Tag. So ist die Kopie aus sich heraus gültig, statt eine Byte-für-Byte-Fälschung zu sein, die ohnehin scheitern würde. Der Schreibvorgang ist endgültig: Ist der Tag einmal gesperrt, bleibt er gesperrt. Die App sagt dir das deutlich, bevor du bestätigst.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Lesen, sammeln, sichern</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="Eine gescannte Figur in NFC.cool Tools, Bramble the Badger, mit Figur, Spielreihe, Serie, Typ und dem Schreibzähler des Tags"><p><strong>Lesen.</strong> Figur, Serie und Typ, dazu Daten aus dem Tag selbst, ganz ohne Schlüssel.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="Meine Sammlung, ein Raster aus sechs gescannten Figuren"><p><strong>Sammeln.</strong> Jede gescannte Figur landet in Meine Sammlung, auf deinem Gerät.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="Der Bildschirm NFC Figures mit Scan Figure, My Collection, Restore from Backup und NFC Keys"><p><strong>Sichern und wiederherstellen.</strong> Mit deinen eigenen importierten Schlüsseln schreibst du ein Backup auf einen leeren NTAG215.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Was bewusst fehlt

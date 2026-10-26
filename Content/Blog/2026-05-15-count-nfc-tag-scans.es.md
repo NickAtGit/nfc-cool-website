@@ -77,6 +77,15 @@ Esa es toda la configuración, y deliberadamente la he mantenido así de breve. 
 
 Si alguna vez quieres detenerlo, la app puede desactivar el contador en una etiqueta existente. El chip deja de intercambiar valores en tiempo real, pero el contenido permanece en la etiqueta exactamente como se escribió por última vez. Un detalle que conviene saber: el chip sigue contando internamente incluso después de desactivar la sustitución - el recuento nunca se pierde, simplemente deja de mostrarse.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Configurar una etiqueta que cuenta</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="La pantalla NFC Tap Counter de NFC.cool Tools: un enlace que actualiza el recuento de toques y el ID de la etiqueta en cada lectura, para NTAG213, NTAG215 y NTAG216"><p><strong>NFC Tap Counter.</strong> En NFC Tools, para etiquetas NTAG213, 215 y 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="Las opciones de contenido URL, Email, SMS y Shortcut, con Try it out debajo"><p><strong>Elige el contenido.</strong> Una URL, un correo, un SMS o, en iPhone, un atajo.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter y NFC Tag ID activados, Batch write desactivado, y la vista previa https://studionord.example/table-7?nfc=049F50824F1390x000007, con Write to NFC Tag"><p><strong>Interruptores y vista previa.</strong> La vista previa muestra dónde irán el ID de la etiqueta y el recuento, antes de escribir.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Dónde aparecen el recuento y el ID de etiqueta

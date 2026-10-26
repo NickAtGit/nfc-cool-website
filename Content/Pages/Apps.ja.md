@@ -26,6 +26,21 @@ NFC.cool ToolsとBusiness Cardアプリが主役ですが、私が作ってい�
 
 <div class="page-cards-grid apps-index-grid">
 
+<a class="page-card app-card" href="/ja/apps/moments/">
+<img class="app-card-icon app-icon-light" src="/assets/images/Apps/moments/icon.webp" alt="Moments by NFC.coolのアプリアイコン" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon app-icon-dark" src="/assets/images/Apps/moments/icon-dark.webp" alt="Moments by NFC.coolのアプリアイコン" width="64" height="64" loading="lazy"/>
+<h3>Moments by NFC.cool</h3>
+<p>芳名帳や額縁、贈り物にNFCタグを貼るだけ。スマホをかざした人は誰でも、アプリもアカウントもなしで共有アルバムに写真を追加できます。</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
+<a class="page-card app-card" href="/ja/apps/flight-tracker/">
+<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="1st Class Flight Trackerのアプリアイコン" width="64" height="64" loading="lazy"/>
+<h3>1st Class - Flight Tracker</h3>
+<p>フライトを記録し、ホログラフィックなパスポートにスタンプを集めて、旅を何度でも振り返る。オフラインで動く旅行ログ。</p>
+<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/ja/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="QR Code Scanner by NFC.coolのアプリアイコン" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
@@ -37,13 +52,6 @@ NFC.cool ToolsとBusiness Cardアプリが主役ですが、私が作ってい�
 <img class="app-card-icon" src="/assets/images/Apps/3d-scanner/icon.webp" alt="3D Object & Room Scannerのアプリアイコン" width="64" height="64" loading="lazy"/>
 <h3>3D Object &amp; Room Scanner</h3>
 <p>ProシリーズのiPhoneとiPadのLiDARセンサーで、実物のオブジェクトや部屋まるごとを3Dモデルに。</p>
-<span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
-</a>
-
-<a class="page-card app-card" href="/ja/apps/flight-tracker/">
-<img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="1st Class Flight Trackerのアプリアイコン" width="64" height="64" loading="lazy"/>
-<h3>1st Class - Flight Tracker</h3>
-<p>フライトを記録し、ホログラフィックなパスポートにスタンプを集めて、旅を何度でも振り返る。オフラインで動く旅行ログ。</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
@@ -65,7 +73,7 @@ NFC.cool ToolsとBusiness Cardアプリが主役ですが、私が作ってい�
 <img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Mondego Moveのアプリアイコン" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>コインブラ地方のMetro Mondego向け非公式コンパニオンアプリ。経路検索、路線図、運賃情報。</p>
-<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android（ベータ）</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS（ベータ）</span></span></span>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
 </div>

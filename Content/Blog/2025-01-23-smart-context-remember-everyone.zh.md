@@ -22,6 +22,13 @@ image: "/assets/images/Blog/smart-context-remember-everyone.webp"
 
 ## 情境才是缺失的那一块
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="NFC.cool Business Card 的 Networking 标签页：在 Bay Area Product Summit 认识的 Priya Raman、Design Systems Meetup 的 Tom Alvarez、NFC Developer Day 的 Hanna Vogel"><p><strong>在哪里认识的。</strong>每个联系人都带着活动和日期。</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="一位社交联系人：Lantern Metrics 的 Priya Raman，带 Add Reminder、Add Meeting 和会面详情"><p><strong>接下来要做什么。</strong>趁对话还新鲜，提醒和会面直接进日历。</p></li>
+</ol>
+</figure>
+
 于是我给 NFC.cool Business Card 加上了我一直称之为「记忆升级」的功能。在建立联系之后（通过 NFC 轻触、App Clip，或者会议模式的锁屏二维码），你会立刻收到提示来记录情境：
 
 - **你们在哪里、什么时候相遇**。自动填入日期和地点，可以编辑。

@@ -124,6 +124,15 @@ This is exactly what apps like [NFC.cool Tools](https://apps.apple.com/app/apple
 
 For enterprise-scale deployments, desktop NFC writers (compatible with NTAG, ICODE, and MIFARE chips) handle bulk programming, but the mobile app remains invaluable for **field verification** - scanning products on the shelf or warehouse floor to confirm the passport link works correctly. You can even [check what a tag holds straight from a browser](/online-nfc-reader/) on Android, with nothing to install, which is handy for a quick spot-check.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>A Digital Product Passport in NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="The Digital Product Passport screen in NFC.cool Tools, with Read a Passport and Create a Passport"><p><strong>Digital Product Passport.</strong> Read a passport from a tag, or create your own, following the NFC Forum standard.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="A read passport for a Merino Wool Jacket: product ID, production date, the passport link, the manufacturer and the materials"><p><strong>Read one.</strong> Product, manufacturer, materials and environmental impact, straight off the tag.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="The form for a new passport: product, manufacturer, dates and materials"><p><strong>Create one.</strong> Fill in the product data and write it to a tag for testing or a small batch.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Beyond the EU: Global Momentum

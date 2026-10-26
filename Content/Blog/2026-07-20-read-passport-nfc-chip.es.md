@@ -38,6 +38,16 @@ Unos segundos después estás mirando lo que el chip ha llevado consigo todo est
 
 Cada documento que lees se guarda en una pequeña cartera dentro de la app, llamada Mis Documentos, para que puedas consultarlo más tarde. Esa cartera vive en tu dispositivo, y en iPhone se sincroniza a través de tu propio iCloud. No llega a mí, ni a ningún servidor mío. Con algo tan personal, no es un detalle que vaya a esconder.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Leer un pasaporte en NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="La pantalla Pasaporte e ID en NFC.cool Tools, con las opciones de escanear con la cámara e introducir los datos a mano"><p><strong>Dale la llave.</strong> Escanea la zona de lectura mecánica con la cámara o escribe los tres datos a mano.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="Un pasaporte leído, con la foto guardada, el nombre de la titular y el número de documento"><p><strong>Lee el chip.</strong> Acerca la parte superior del móvil al documento y la foto y los datos salen del chip.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="Las comprobaciones de autenticidad, todas superadas: el documento parece auténtico, datos sin cambios desde la emisión, firma válida, emisor de confianza, protección del chip contra clonación"><p><strong>Comprueba el sello.</strong> Todas las comprobaciones que admite el chip, desde la firma del emisor hasta la protección contra clonación.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="Mis Documentos, una lista de cinco pasaportes y documentos de identidad guardados"><p><strong>Guárdalo en Mis Documentos.</strong> Se queda en tu dispositivo y solo se sincroniza a través de tu propio iCloud.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## ¿Es auténtico el documento?

@@ -124,6 +124,15 @@ Exactamente para esto están diseñadas apps como [NFC.cool Tools](https://apps.
 
 Para despliegues a escala empresarial, los escritores NFC de escritorio (compatibles con chips NTAG, ICODE y MIFARE) se encargan de la programación masiva, pero la app móvil sigue siendo inestimable para la **verificación en campo** - escanear productos en el estante o en el suelo del almacén para confirmar que el enlace del pasaporte funciona correctamente. Incluso puedes [comprobar qué contiene una etiqueta directamente desde un navegador](/online-nfc-reader/) en Android, sin instalar nada, lo que viene muy bien para una verificación rápida.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Un pasaporte digital de producto en NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/1-dpp-440w.webp" alt="La pantalla Digital Product Passport en NFC.cool Tools, con Read a Passport y Create a Passport"><p><strong>Digital Product Passport.</strong> Lee un pasaporte desde una etiqueta o crea el tuyo, según el estándar del NFC Forum.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/2-read-440w.webp" alt="Un pasaporte leído de un Merino Wool Jacket: ID del producto, fecha de producción, enlace al pasaporte, fabricante y materiales"><p><strong>Leer uno.</strong> Producto, fabricante, materiales e impacto ambiental, directamente de la etiqueta.</p></li>
+<li><img src="/assets/images/Blog/screens/eu-digital-product-passport-2026/3-create-440w.webp" alt="El formulario de un pasaporte nuevo: producto, fabricante, fechas y materiales"><p><strong>Crear uno.</strong> Rellena los datos del producto y escríbelos en una etiqueta, para probar o para un lote pequeño.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Más allá de la UE: impulso global

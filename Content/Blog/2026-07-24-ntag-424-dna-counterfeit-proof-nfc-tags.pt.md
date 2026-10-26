@@ -77,6 +77,12 @@ Todos os comandos que alteram alguma coisa correm dentro de uma sessão autentic
 
 ## O que um toque revela
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="O NFC.cool Tools depois de ler uma tag NTAG 424 DNA: o link assinado, um contador de leituras de 137 e a autenticidade SUN em Authentic"><p><strong>Uma leitura genuína.</strong> O link assinado, o contador de leituras e uma verificação SUN aprovada.</p></li>
+</ol>
+</figure>
+
 Encoste uma tag ao telemóvel e a NFC.cool Tools no [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-pt&mt=8) ou no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-pt) faz uma leitura aprofundada sem lhe pedir nada: a identidade do chip e se é a variante TagTamper, o link, as definições e as permissões de acesso de cada ficheiro, que posições de chave já não estão nos valores de fábrica, e o resultado de três verificações distintas.
 
 ### É silício NXP genuíno?
@@ -116,6 +122,15 @@ Há uma coisa que a aplicação recusa deliberadamente: gravar um link simples n
 ## O resto do chip
 
 A maioria dos tutoriais fica-se por esta versão curta, e até agora a forma de ir mais longe era o TagXplorer da NXP num computador com um leitor USB. Eu queria a ficha técnica inteira ao alcance do telemóvel, por isso percorri-a secção a secção.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>O resto do chip, no telemóvel</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="O ecrã da Key 0: definir a chave a partir de uma frase-passe ou em hexadecimal, introduzir uma definida noutro dispositivo ou repor a de fábrica"><p><strong>Key 0.</strong> Defina-a a partir de uma frase-passe ou de uma chave hexadecimal, introduza uma que definiu noutro dispositivo, ou volte à de fábrica.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="O ecrã Avançado: a identidade do chip, a memória, SUN ativado e as Key 1 a Key 4"><p><strong>Avançado.</strong> A identidade do chip e as outras quatro chaves, cada uma com as mesmas opções que a Key 0.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="O cofre com uma nota guardada, 36 de 126 bytes"><p><strong>O cofre.</strong> Até 126 bytes de texto que só a sua Key 0 consegue voltar a ler.</p></li>
+</ol>
+</figure>
 
 ### As cinco chaves
 

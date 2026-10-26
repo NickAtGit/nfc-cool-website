@@ -39,6 +39,16 @@ Beberapa aturan praktis:
 
 Pemindaian penuh membutuhkan 20-40 detik berjalan, lalu 30-60 detik lagi untuk pemrosesan.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Memindai objek dalam 3D</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/1-scan-object-440w.webp" alt="Tab 3D di NFC.cool Tools dengan Scan Object dan Scan Room"><p><strong>Scan Object.</strong> Ada di tab 3D, di sebelah Scan Room.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/2-walk-around-440w.webp" alt="Tampilan pemindaian objek: radio portabel di dalam bingkai, dengan petunjuk agar seluruh objek tetap di dalam bingkai saat Anda mengelilinginya"><p><strong>Kelilingi objeknya.</strong> Jaga objek tetap di dalam bingkai sambil mengitarinya perlahan.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/3-building-440w.webp" alt="Cincin progres di 62 persen: Building your 3D model"><p><strong>Biarkan diproses.</strong> Model dibuat di iPhone Anda. Biarkan aplikasi tetap terbuka selama proses.</p></li>
+<li><img src="/assets/images/Blog/screens/3d-scan-feature/4-model-440w.webp" alt="Model yang sudah jadi: Vintage Radio, tersimpan sebagai objek"><p><strong>Model Anda.</strong> Tersimpan bersama yang lain, siap dilihat atau diekspor.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Format ekspor

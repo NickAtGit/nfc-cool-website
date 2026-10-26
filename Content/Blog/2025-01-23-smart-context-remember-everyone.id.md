@@ -22,6 +22,13 @@ Detail kontak di ponsel Anda tidak berguna jika Anda tidak bisa mengingat mengap
 
 ## Konteks adalah bagian yang hilang
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="Tab Networking di NFC.cool Business Card: Priya Raman ditemui di Bay Area Product Summit, Tom Alvarez di Design Systems Meetup, Hanna Vogel di NFC Developer Day"><p><strong>Di mana Anda bertemu.</strong> Setiap kontak menyimpan acara dan tanggalnya.</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="Kontak networking, Priya Raman dari Lantern Metrics, dengan Add Reminder, Add Meeting, dan detail pertemuan"><p><strong>Apa selanjutnya.</strong> Pengingat dan rapat masuk ke kalender selagi percakapannya masih segar.</p></li>
+</ol>
+</figure>
+
 Jadi saya menambahkan apa yang saya sebut "peningkatan memori" ke NFC.cool Business Card. Tepat setelah terhubung - melalui ketukan NFC, App Clip, atau kode QR layar kunci Conference Mode - Anda diminta untuk menangkap konteks:
 
 - **Di mana dan kapan Anda bertemu.** Diisi otomatis dengan tanggal dan tempat, bisa diedit.

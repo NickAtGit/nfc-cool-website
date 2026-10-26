@@ -18,6 +18,12 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 
 ## الروابط
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="شاشة Create QR Code في NFC.cool Tools: Web Link وGoogle Review Link وText وBusiness Card وTelephone Number وEmail وSMS وLocation وFaceTime وEvent"><p><strong>قائمة واحدة، كل أنواع المحتوى.</strong> الروابط والـWi-Fi وجهات الاتصال والأماكن والأحداث، كلها تبدأ من هنا.</p></li>
+</ol>
+</figure>
+
 الحالة الأساسية. رمّز `https://example.com`، وامسحه بأي كاميرا، فيعرض الجهاز فتحه. يعمل على كل هاتف صُنع في العقد الأخير.
 
 صيغة مفيدة: الروابط القصيرة. إذا كانت لديك روابط مثقلة بمعاملات التحليلات، فولّد رمز QR من النسخة القصيرة - فهذا يجعل رمز QR أصغر ماديًا (وحدات أقل = كثافة أقل) وأسهل في المسح من مسافة.
@@ -25,6 +31,13 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 ---
 
 ## بيانات اعتماد Wi-Fi
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="نموذج رمز QR للـWi-Fi في NFC.cool Tools: اسم الشبكة وكلمة المرور والمصادقة WPA/WPA2 والشبكة المخفية"><p><strong>املأ بيانات الشبكة.</strong> الاسم وكلمة المرور ونوع الحماية.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="رمز QR الجاهز للـWi-Fi بعنوان Guest WiFi، مع QR Code Studio لتنسيقه"><p><strong>شارك الرمز.</strong> يمسحه الضيوف ويتصلون، دون كتابة أي شيء.</p></li>
+</ol>
+</figure>
 
 رمّز SSID وكلمة المرور ونوع الحماية (WPA2 أو WPA3 أو مفتوح) بالصيغة القياسية `WIFI:T:WPA;S:...;P:...;;`. يتعرّف كل من iOS وAndroid وأنظمة Windows الحديثة على هذه الصيغة ويطلب الانضمام.
 
@@ -71,6 +84,12 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 ---
 
 ## في جانب المسح
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="ماسح QR في NFC.cool Tools وقد وجد رمزًا على بطاقة مطبوعة، مع زر Finish"><p><strong>المسح.</strong> وجّه الكاميرا، فيقرأ التطبيق المحتوى ويقترح الإجراء المناسب.</p></li>
+</ol>
+</figure>
 
 يقرأ ماسح NFC.cool أيًا من الصيغ أعلاه ويوجّهها إلى الإجراء الصحيح: الروابط تُفتح في المتصفح، وبطاقات vCard تعرض الحفظ، وWi-Fi يطلب الاتصال، والمواقع تُفتح في الخرائط. كما يحتفظ بسجل محلي لكل عملية مسح، وهو أمر مفيد حين تكون قد مسحت ٣٠ قائمة طعام في مؤتمر وتريد الرجوع إلى إحداها.
 

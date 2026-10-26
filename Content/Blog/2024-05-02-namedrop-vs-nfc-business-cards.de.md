@@ -20,6 +20,12 @@ NameDrop funktioniert von iPhone zu iPhone. Das war's auch schon. Sobald dein Ge
 
 Einer NFC-Visitenkarte ist es egal, welches Handy man ihr hinhält. Sie setzt auf den offenen NFC-Standard, den iOS und Android seit Jahren lesen können. Die andere Person hält ihr Handy an die Karte oder scannt den QR-Code darauf, und deine Daten landen bei ihr - iPhone oder nicht, mit oder ohne installierte App. Niemand muss eine Geste lernen, nichts muss eingeschaltet werden, und das Betriebssystem spielt keine Rolle.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/namedrop-vs-nfc-business-cards/any-phone-440w.webp" alt="Eine Karte aus NFC.cool Business Card, wie sie sich nach dem Scan öffnet: Marco Delgado von Northgate Talent, mit Website, LinkedIn, X und dem Button Save Contact"><p><strong>Jedes Handy.</strong> Ein Scan per NFC oder QR öffnet deine Karte, Save Contact speichert sie.</p></li>
+</ol>
+</figure>
+
 Das ist der wenig glamouröse Grund, warum ich meine App weiterhin auf NFC aufbaue und nicht auf NameDrop. NameDrop ist für den Idealfall gemacht: zwei iPhone-Nutzer, beide haben das Feature an, beide kennen die Geste. NFC ist für den Fall gemacht, der auf einem Event tatsächlich eintritt: zwei Menschen, zwei Handys, und man kann bei keinem von beiden etwas voraussetzen. NameDrop ist die bessere Demo. NFC ist die bessere Visitenkarte.
 
 Lust auf eine? [Hol dir NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-de&mt=8) fürs iPhone oder [für Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-de).

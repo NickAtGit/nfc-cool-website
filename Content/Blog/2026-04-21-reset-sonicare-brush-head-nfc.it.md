@@ -59,10 +59,12 @@ La password si calcola a partire da due dati: l'UID di 7 byte del tag e il codic
 
 ## Come controllare e azzerare con NFC.cool Tools
 
-Ecco come si presenta nell'app:
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools mostra una testina Sonicare consumata all'80% con il pulsante Azzera timer" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="La schermata Sonicare Reset di NFC.cool Tools, che chiede di avvicinare la testina all'iPhone"><p><strong>Leggi la testina.</strong> Tocca Leggi NFC e avvicina la testina all'iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="Una testina Sonicare all'80% di utilizzo, con 4 h 50 min usati e 1 h 10 min rimanenti"><p><strong>Guarda i dati.</strong> Quanta vita ha già consumato la testina.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="La stessa testina dopo l'azzeramento, di nuovo allo 0% di utilizzo"><p><strong>Azzerala.</strong> Di nuovo a zero, se le setole reggono.</p></li>
+</ol>
 </figure>
 
 NFC.cool Tools si occupa dell'intero procedimento: legge il tag, calcola la password e ti mostra i dati. Niente comandi esadecimali, niente calcolatori online, niente SDR.

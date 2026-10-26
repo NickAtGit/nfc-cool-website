@@ -19,6 +19,11 @@ struct PageHeroVisual {
    var width: Int? = nil
    /// Intrinsic pixel height, emitted as the `height` attribute when set.
    var height: Int? = nil
+   /// A live 3D scene key (`/scenes/<key>.glb`): the image is its still, frame `posterFrame`,
+   /// and sits on the boxed scene card until live-scenes.mjs swaps in the animation.
+   var scene: String? = nil
+   /// The scene frame the still shows, emitted as `data-poster-frame`.
+   var posterFrame: Int? = nil
 }
 
 /// Emits the canonical brand-gradient split hero shared by the landing page,
@@ -44,15 +49,17 @@ func renderPageHero(modifier: String? = nil, text: String, visual: PageHeroVisua
    let visualHTML: String = {
       guard let visual else { return "" }
       let visualClass: String = {
+         if visual.scene != nil { return "page-hero-visual is-scene is-boxed" }
          if visual.isBrand { return "page-hero-visual is-brand" }
          if visual.isCutout { return "page-hero-visual is-cutout" }
          return "page-hero-visual"
       }()
       let widthAttr = visual.width.map { " width=\"\($0)\"" } ?? ""
       let heightAttr = visual.height.map { " height=\"\($0)\"" } ?? ""
+      let sceneAttrs = visual.scene.map { " data-scene=\"\($0)\" data-poster-frame=\"\(visual.posterFrame ?? 0)\"" } ?? ""
       return """
       <div class="\(visualClass)">
-         <img src="\(visual.src)" alt="\(visual.alt)"\(widthAttr)\(heightAttr) loading="eager" fetchpriority="high"/>
+         <img src="\(visual.src)"\(sceneAttrs) alt="\(visual.alt)"\(widthAttr)\(heightAttr) loading="eager" fetchpriority="high"/>
       </div>
       """
    }()

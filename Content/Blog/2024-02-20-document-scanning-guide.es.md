@@ -20,6 +20,16 @@ Así es como sacarle el máximo partido.
 
 Abre NFC.cool Tools, toca el icono de documento y encuadra la página. El escáner dibuja un cuadrilátero amarillo alrededor de lo que cree que son los bordes de la página. La mayoría de las veces acierta. Cuando no, arrastra las esquinas hasta que encajen.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Del papel a un PDF con búsqueda</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="La cámara de documentos de NFC.cool Tools, con un contrato de alquiler detectado y sus esquinas marcadas"><p><strong>Capturar.</strong> La página se detecta y sus esquinas se ajustan solas.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="El texto reconocido en una factura, con Share text y Copy text to clipboard"><p><strong>Leer el texto.</strong> El OCR convierte el escaneo en texto que puedes copiar o compartir.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="Documentos guardados buscados por Portland: una factura, un recibo y un contrato de alquiler"><p><strong>Encontrarlo después.</strong> La búsqueda encuentra un documento por cualquier palabra que contenga.</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF, con Share y Save to Files"><p><strong>Exportar.</strong> Un PDF con búsqueda, compartido o guardado en Archivos.</p></li>
+</ol>
+</figure>
+
 Unos consejos que realmente mejoran el resultado:
 
 - **La luz natural gana a la luz del techo.** Las luces del techo de la oficina proyectan sombras del propio móvil sobre la página. La luz del día de una ventana, o un flexo inclinado sobre la página, es mejor.

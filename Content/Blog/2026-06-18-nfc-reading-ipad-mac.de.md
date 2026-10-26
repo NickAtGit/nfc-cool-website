@@ -34,6 +34,16 @@ Ist ein externer Reader angesteckt, hat er Vorrang. Auf iPad und Mac ist er ohne
 
 Entwickelt habe ich das Ganze mit dem HID OMNIKEY 5022 CL, und er ist auch der einzige Reader, den ich wirklich getestet habe. Andere USB-Reader laufen aber ebenfalls. Ein paar davon stehen in der Liste weiter unten, gemeldet von Nutzern, die sie ausprobiert haben.
 
+<figure class="phone-figure" data-layout="stage" data-device="ipad">
+<figcaption>Ein iPad mit USB-Lesegerät</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-1-place-tag-600w.webp" alt="NFC.cool auf einem iPad mit angeschlossenem externem USB-NFC-Lesegerät: Place tag on reader"><p><strong>Lesegerät anschließen.</strong> NFC.cool erkennt es von selbst und wartet auf einen Tag.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-2-tag-read-600w.webp" alt="NFC.cool auf dem iPad nach dem Lesen: ein grünes Häkchen und Tag read"><p><strong>Tag auflegen.</strong> Das Lesegerät übernimmt den Funk, das iPad den Rest.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-3-record-600w.webp" alt="Der vollständige Eintrag auf dem iPad: eine Visitenkarte für Anna Miller, darunter die rohe vCard"><p><strong>Alles wie auf dem iPhone.</strong> Dieselben Einträge, dieselben Werkzeuge.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/ipad-4-sonicare-600w.webp" alt="Sonicare Reset auf dem iPad: ein Bürstenkopf zu 80 % verbraucht, mit Reset Timer"><p><strong>Sogar der schwierige Fall.</strong> Einen Sonicare-Kopf lesen und seinen passwortgeschützten Zähler zurückschreiben klappt auch.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Die Reader, die funktionieren
@@ -52,6 +62,12 @@ Das sind Amazon-Affiliate-Links: Kaufst du darüber, bekomme ich unter Umstände
 ---
 
 ## Was du damit machen kannst
+
+<figure class="phone-figure" data-layout="float" data-device="mac">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-reading-ipad-mac/mac-1-my-messages-1280w.webp" alt="Ein MacBook mit einem externen USB-NFC-Lesegerät daneben, auf dem Bildschirm My NFC Messages von NFC.cool"><p><strong>Auch auf dem Mac.</strong> Schließ das Lesegerät an deinen Mac an, und jeder gelesene Tag landet in My NFC Messages.</p></li>
+</ol>
+</figure>
 
 Fast alles, was du auch auf dem iPhone machen würdest. Tags lesen und den kompletten Speicher auslesen, NDEF-Nachrichten schreiben, Batch-Jobs, die einen ganzen Stapel Tags nacheinander lesen oder beschreiben. Tags mit Passwort schützen geht. [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), das Format für Filamentspulen im 3D-Druck, geht in beide Richtungen. Und ja, auch der [Reset von Philips-Sonicare-Bürstenköpfen](/blog/reset-sonicare-brush-head-nfc/) läuft.
 

@@ -48,6 +48,15 @@ Tres cosas, en el orden en que probablemente las uses.
 
 **Copia de seguridad y restauración.** Con tus propias claves importadas, puedes grabar una copia con claves regeneradas de una figura en un NTAG215 en blanco. Puedes hacer una copia de seguridad directamente desde una figura que acabas de escanear, o restaurar desde un volcado `.bin` guardado en tu dispositivo. La app vuelve a derivar las claves para la etiqueta en blanco que tienes en la mano y firma los datos para esa etiqueta, de modo que la copia es válida por sí misma en lugar de una falsificación byte a byte condenada al fracaso. La grabación es permanente - una vez que la etiqueta se bloquea, se queda bloqueada - y la app te lo dice con claridad antes de que confirmes.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Leer, coleccionar, hacer copia</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="Una figura escaneada en NFC.cool Tools, Bramble the Badger, con el personaje, la serie de juegos, la serie, el tipo y el contador de escrituras de la etiqueta"><p><strong>Leer.</strong> El personaje, la serie y el tipo, más datos de la propia etiqueta, sin necesidad de claves.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="Mi colección, una cuadrícula con seis figuras escaneadas"><p><strong>Coleccionar.</strong> Cada figura que escaneas va a Mi colección, en tu dispositivo.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="La pantalla NFC Figures con Scan Figure, My Collection, Restore from Backup y NFC Keys"><p><strong>Copia de seguridad y restauración.</strong> Con tus propias claves importadas, escribe una copia de seguridad en una NTAG215 vacía.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Qué se ha dejado fuera a propósito

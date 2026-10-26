@@ -77,6 +77,15 @@ ogDescription: "يستطيع وسم NFC أن يعدّ عمليات مسحه بن
 
 وإن أردت يومًا إيقافه، يستطيع التطبيق تعطيل العدّاد على وسم قائم. تتوقف الشريحة عن إدراج القيم الحيّة، لكن المحتوى يبقى على الوسم تمامًا كما كُتب آخر مرة. وثمة تفصيل يستحق المعرفة: تواصل الشريحة العدّ داخليًّا حتى بعد أن تعطّل الاستبدال - فالعدّ لا يضيع أبدًا، بل يتوقف عرضه فحسب.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>إعداد وسم يعدّ</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="شاشة NFC Tap Counter في NFC.cool Tools: رابط يحدّث عدد اللمسات ومعرّف الوسم مع كل مسح، لوسوم NTAG213 وNTAG215 وNTAG216"><p><strong>NFC Tap Counter.</strong> ضمن NFC Tools، لوسوم NTAG213 و215 و216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="خيارات المحتوى URL وEmail وSMS وShortcut، وتحتها Try it out"><p><strong>اختر المحتوى.</strong> رابط أو بريد أو رسالة نصية أو، على iPhone، اختصار.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter وNFC Tag ID مفعّلان، وBatch write متوقف، والمعاينة https://studionord.example/table-7?nfc=049F50824F1390x000007، مع Write to NFC Tag"><p><strong>المفاتيح والمعاينة.</strong> تُظهر المعاينة أين سيقع معرّف الوسم والعدد، قبل أن تكتب.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## أين يظهر العدّ ومعرّف الوسم

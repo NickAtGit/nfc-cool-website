@@ -3,28 +3,28 @@ backLinkText: "← 所有功能"
 
 card:
   title: "条形码扫描器"
-  description: "扫描 13 种条形码格式外加 6 种二维码：EAN、UPC、QR、PDF417、Data Matrix 等。批量模式会让摄像头保持开启，适用于盘点和签到。"
+  description: "在 iPhone 和 Android 上扫描 EAN、UPC、Code 128、QR、PDF417、Data Matrix 等。批量模式会让摄像头保持开启，适用于盘点和签到。"
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "仅限 iOS"
+  platforms: "iOS · Android"
 
 hero:
   title: "条形码扫描器"
-  subtitle: "可扫描 19 种码制：13 种一维条形码（EAN、UPC、Code 128、GS1 DataBar 等），外加 6 种二维码（QR、PDF417、Aztec、Data Matrix 及 Micro 变体）。批量模式会让摄像头保持开启，适用于库存盘点和活动签到。"
-  platforms: "仅限 iOS"
+  subtitle: "在 iPhone 和 Android 上可扫描 EAN、UPC、Code 128、Code 39、ITF、QR、PDF417、Aztec 和 Data Matrix，在 iPhone 上还可扫描 GS1 DataBar 及 Micro 变体：共 19 种码制。批量模式会让摄像头保持开启，适用于库存盘点和活动签到。"
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "你可以做什么"
 capabilities:
   - title: "所有主流条形码格式"
-    description: "可扫描 EAN-13/8、UPC-E（UPC-A 按 EAN-13 读取）、Code 128、Code 39（含 Mod 43）、Code 93、ITF、ITF-14、Codabar、GS1 DataBar、PDF417、Aztec、Data Matrix 等：自动识别格式，无需切换模式。"
+    description: "两个平台均可扫描 EAN-13/8、UPC-A/E、Code 128、Code 39、Code 93、ITF、ITF-14、Codabar、PDF417、Aztec、Data Matrix 和 QR，在 iPhone 上还支持 GS1 DataBar、Code 39 Mod 43、Micro QR 和 Micro PDF417：自动识别格式，无需切换模式。"
   - title: "批量模式"
     description: "无需重新对准，连续扫描一叠条形码。适用于库存盘点、活动签到或图书馆归档。"
   - title: "商品查询"
-    description: "轻触扫描到的零售条形码即可查询：条形码编号会被送入预先配置的搜索引擎（Google、Ecosia、DuckDuckGo、Bing 或 Startpage），匹配结果会直接返回。"
+    description: "轻触扫描到的零售条形码即可查询：条形码编号会被送入搜索引擎，匹配结果会直接返回。在 iPhone 上，你可以自选搜索引擎：Google、Ecosia、DuckDuckGo、Bing 或 Startpage。"
   - title: "扫描历史与分享"
     description: "每次扫描都会带时间戳保存下来。把重要的扫描记录收藏起来、为某条记录单独命名，并直接从历史视图中分享。"
   - title: "读取时自动执行操作"
-    description: "URL 和快捷指令码在被扫描的那一刻即可自动打开、触发 webhook，或被朗读出来：与驱动 NFC 和二维码扫描的五种联动完全相同。"
+    description: "在 iPhone 和 Android 上，链接在被扫描的那一刻即可打开。在 iPhone 上，扫描还能运行快捷指令、触发 webhook，或被朗读出来：与驱动 NFC 和二维码扫描的五种联动完全相同。"
 
 subsectionsTitle: "为高频次扫描而打造"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>三项设置把扫描器从一次性工具变成连续工作流。<strong>多重扫描</strong>让你在一次摄像头会话中扫描多个码。<strong>批量读取</strong>会让摄像头保持开启，适用于盘点或活动签到。<strong>自动补光</strong>会在弱光环境下点亮 LED，省得你手忙脚乱去找手电筒按钮。</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone 在补光下扫描多个二维码和条形码"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "用于盘点与活动签到的 Webhook"
     body: "<p>把条形码扫描器对接到你的后台系统。每读取一个条形码，就会向你的 URL 触发一个 webhook，于是随着摄像头移动，你的库存数据库、参会者 CRM 或图书馆目录会实时更新。JSON 负载格式和参考服务器请见 <a href=\"/features/webhooks/\">Webhook 与自动化</a>。</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
     platforms: "iOS"
 
-specsTitle: "支持的格式（共 19 种）"
+specsTitle: "支持的格式（iOS 上 19 种，Android 上 13 种）"
 specs:
-  - title: "一维条形码（13 种格式）"
+  - title: "一维条形码"
     items:
       - "EAN-13、EAN-8"
-      - "UPC-E（UPC-A 按 EAN-13 读取）"
-      - "Code 39、Code 39 Mod 43"
+      - "UPC-A、UPC-E（iOS 按 EAN-13 读取 UPC-A）"
+      - "Code 39（iOS 上含 Mod 43）"
       - "Code 93、Code 128"
       - "Codabar"
       - "Interleaved 2 of 5、ITF-14"
-      - "GS1 DataBar（标准版、扩展版、精简版）"
-  - title: "二维码／堆叠式码（6 种格式）"
+      - "GS1 DataBar：标准版、扩展版、精简版（iOS）"
+  - title: "二维码／堆叠式码"
     items:
       - "QR Code"
-      - "Micro QR"
+      - "Micro QR（iOS）"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417（iOS）"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "常见问题"
 faq:
-  - question: "为什么这项功能仅限 iOS？"
-    answer: "NFC.cool 的 Android 版本目前专注于 NFC 和电子名片。条形码扫描已列入 Android 的路线图。"
+  - question: "条形码扫描器能在 Android 上使用吗？"
+    answer: "能。Android 版 NFC.cool Tools 可读取 13 种格式：EAN、UPC、Code 128、Code 39、Code 93、ITF、Codabar、QR、PDF417、Aztec 和 Data Matrix，并支持批量模式和多重扫描模式。GS1 DataBar、Micro QR、Micro PDF417、扫描时触发 webhook 以及自选搜索引擎目前仅限 iPhone。"
   - question: "我可以一次扫描多个条形码吗？"
     answer: "可以。批量模式会让摄像头保持开启，并把找到的每一个条形码排入队列。轻触队列中的任意一项即可对其执行操作。"
   - question: "我可以保存并分享我的扫描记录吗？"

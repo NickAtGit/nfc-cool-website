@@ -28,6 +28,12 @@ Alles NFC ist also RFID, aber nicht alles RFID ist NFC. In diesem einen Satz ste
 
 ## Warum dein iPhone zu deiner Schlüsselkarte Nein sagt
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/iphone-rfid-condo-doors/cant-read-440w.webp" alt="Ein iPhone-Bildschirm mit einem traurigen Gesicht"><p><strong>Nichts zu lesen.</strong> Niederfrequentes oder proprietäres RFID liegt außerhalb dessen, was der NFC-Chip des iPhones hören kann.</p></li>
+</ol>
+</figure>
+
 Diesen Teil habe ich inzwischen bestimmt hundertmal erklärt. Die Zutrittskarte für deine Haustür nutzt sehr wahrscheinlich eine RFID-Variante, die außerhalb des NFC-Standards liegt, den dein iPhone beherrscht: oft Niederfrequenz-RFID oder ein proprietäres Hochfrequenz-Verfahren mit einer Verschlüsselung, mit der ein iPhone nichts anfangen kann. Apple hat das iPhone ganz bewusst so gebaut, dass es ausschließlich NFC auf 13,56 MHz spricht: wegen der Sicherheit, wegen der Akkulaufzeit und weil sich so alles einheitlich bedienen lässt.
 
 Im Klartext: Dein iPhone spricht den RFID-Dialekt deiner Haustür nicht. Das ist, als wolltest du mit deinem Netflix-Abo ins Kino: im Prinzip ähnlich, in der Praxis zwei völlig getrennte Welten. Und das ist auch kein Bug, den ich in meiner eigenen App irgendwie umschiffen könnte: Der Funkchip im Handy kann sich schlicht nicht auf die Frequenz einstellen, auf der die Karte funkt. Falls dich interessiert, was Apple im NFC-Stack freigegeben hat und was nicht, habe ich das in [einem Blick hinter die Kulissen von NFC auf dem iPhone](/de/blog/nfc-on-iphones-insider-look/) aufgeschrieben.

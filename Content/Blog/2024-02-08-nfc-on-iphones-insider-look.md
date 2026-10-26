@@ -42,6 +42,12 @@ When you tap an NFC sticker on a poster, the roles flip. The poster's tag is pas
 
 ## NDEF: the lingua franca
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-on-iphones-insider-look/ndef-record-440w.webp" alt="A business card record read in NFC.cool Tools, with the raw vCard content below: BEGIN:VCARD, VERSION:3.0, N and FN for Anna Miller"><p><strong>An NDEF record, opened.</strong> A contact record as NFC.cool shows it, with the raw vCard underneath.</p></li>
+</ol>
+</figure>
+
 The data layer on top of the NFC radio is **NDEF** - NFC Data Exchange Format. I describe it as a tiny self-describing record format: a tag carries one or more records, and each record has a type (URI, text, vCard, Wi-Fi credentials, custom MIME) and a payload.
 
 Every NFC-capable phone on the planet speaks NDEF, which is why a tag programmed on an Android device will read fine on an iPhone and vice versa. It's one of the few places in mobile where iOS and Android genuinely share a standard, and honestly that interoperability is the thing I'm most grateful for when I'm building features - I write to the format, not to a platform. If you want to try writing your own records, I walk through it in [how to write NFC tags on iPhone](/blog/write-nfc-tags-iphone/).

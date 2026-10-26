@@ -68,6 +68,12 @@ iPhone الخاص بك ببساطة لا يدعم vCard على وسوم NFC. و�
 
 ## الحل: بطاقات عمل NFC قائمة على الروابط
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="ملف رقمي كما يُفتح بعد اللمس: Rin Nakashima من Meridian Systems، مع روابط Website وBlog وReddit وBluesky وزر Save Contact"><p><strong>لمسة، ملف، حفظ.</strong> يفتح الرابط الموجود على الوسم هذا الملف، ونقرة واحدة تحفظ جهة الاتصال.</p></li>
+</ol>
+</figure>
+
 إليك ما لا يخبرك به أحد عندما تشتري بطاقة عمل NFC:
 
 **لا ينبغي أن تخزّن بيانات جهة الاتصال على الوسم على الإطلاق.**

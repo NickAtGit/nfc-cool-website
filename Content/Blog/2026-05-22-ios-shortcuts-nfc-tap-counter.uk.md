@@ -23,6 +23,13 @@ ogDescription: "Дві готові команди для лічильника �
 
 ## Що саме віддає мітка
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="NFC Tap Counter у режимі Shortcut: запускає NFC Tag Alert із вхідними даними log-entry, обидва перемикачі ввімкнено"><p><strong>Швидка команда як вміст.</strong> Мітка запускає NFC Tag Alert із входом log-entry.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="Прев'ю: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>Що отримує команда.</strong> Вхідні дані, а за ними ID мітки й лічильник.</p></li>
+</ol>
+</figure>
+
 Перед самими командами варто швидко пригадати, що до них узагалі приходить, бо від цього залежить, як їх застосовувати.
 
 На екрані налаштування лічильника вибираєш тип вмісту мітки: посилання, лист, SMS або команда. Щойно вмикаєш перемикачі лічильника дотиків та ID мітки, застосунок вставляє в цей вміст байти-заповнювачі, а чип при кожному зчитуванні міняє їх на живі значення. Якщо взяти `049F50824F1390` як ID мітки і `000007` як лічильник, чотири типи вмісту виглядають так:

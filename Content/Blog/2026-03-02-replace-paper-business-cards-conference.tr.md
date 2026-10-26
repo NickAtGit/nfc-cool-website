@@ -45,6 +45,16 @@ Konferansta ise kağıdın hafif zahmetli olan her yanı gerçek bir soruna dön
 
 Dijitale geçmek yalnızca kağıdı uygulamayla değiştirmek değil. Asıl üstünlük, konferansın tüm zaman çizgisinde, hazırlıktan takibe kadar işleyen bir düzenin olması. Nasıl kurulacağı şöyle.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Önce, sırasında ve sonra</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/1-before-440w.webp" alt="Kartvizitlerim; günlük kartın yanında bir Conference kartı"><p><strong>Önce: etkinlik kartı.</strong> Yalnızca bu konferans için, orada önemli olan bağlantılarla bir kart.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/2-during-440w.webp" alt="Kartın QR kodu tam ekran, altında Share ve Save to Photos"><p><strong>Sırasında: dokun ya da tara.</strong> Hızlı paylaşım için NFC, herkes için tam ekran QR kod.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/3-after-440w.webp" alt="Bir networking kişisi: Lantern Metrics'ten Priya Raman; Add Reminder, Add Meeting ve etkinlik ayrıntılarıyla"><p><strong>Sonra: takip.</strong> Her kişi nerede tanıştığınızı hatırlar; hatırlatıcı ya da toplantı tek dokunuş uzakta.</p></li>
+<li><img src="/assets/images/Blog/screens/replace-paper-business-cards-conference/4-analytics-440w.webp" alt="Analytics: günlük grafikle 1.284 görüntüleme ve 213 kaydetme"><p><strong>Ardından neyin işe yaradığına bak.</strong> Günlük görüntüleme ve kaydetme sayıları, hangi etkinliğin karşılık verdiğini gösterir.</p></li>
+</ol>
+</figure>
+
 ### 1. aşama: konferanstan önce
 
 Dijital kartvizitini kurmak için en kötü zaman, kayıt kuyruğunda beklediğin an. Bunu etkinlikten en az bir hafta önce bitir.

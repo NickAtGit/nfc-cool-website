@@ -182,6 +182,13 @@ QR-коды универсальнее для **широкой и гибкой �
 
 ## Как с этим работает NFC.cool
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/1-qr-440w.webp" alt="QR-код карточки во весь экран в NFC.cool Business Card с кнопками Share и Save to Photos"><p><strong>QR-код.</strong> Во весь экран на телефоне или сохранённый для печати.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-business-card-vs-qr-code/2-wallet-440w.webp" alt="Экран Wallet Pass с готовыми цветами, своими цветами, логотипом и кнопкой Add to Apple Wallet"><p><strong>Apple Wallet.</strong> Визитка в виде карты Wallet в нужных цветах, на iPhone.</p></li>
+</ol>
+</figure>
+
 Раскрою карты: это мой блог, так что своё решение я, конечно, упомяну. Но здесь оно, по-моему, действительно уместно.
 
 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ru&mt=8) с самого начала делался с поддержкой **и NFC, и QR-кода**, причём не как два продукта, а как две стороны одной карточки:

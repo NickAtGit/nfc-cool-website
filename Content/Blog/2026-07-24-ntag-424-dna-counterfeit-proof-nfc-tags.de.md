@@ -77,6 +77,12 @@ Jeder Befehl, der etwas verändert, läuft in einer authentifizierten Sitzung: H
 
 ## Was ein Scan dir zeigt
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="NFC.cool Tools nach dem Scan eines NTAG 424 DNA: der signierte Link, ein Lesezähler von 137 und die SUN-Prüfung mit Authentic"><p><strong>Ein echter Scan.</strong> Der signierte Link, der Lesezähler und eine bestandene SUN-Prüfung.</p></li>
+</ol>
+</figure>
+
 Halt einen Tag ans Handy, und NFC.cool Tools auf dem [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-de&mt=8) oder auf [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-de) liest ihn bis ins Detail aus, ohne dass du irgendetwas eingeben musst: die Identität des Chips und ob es die TagTamper-Variante ist, den Link, die Einstellungen und Zugriffsrechte jeder Datei, welche Schlüssel-Slots nicht mehr auf Werkseinstellung stehen, und die Ergebnisse von drei getrennten Prüfungen.
 
 ### Ist das echtes NXP-Silizium?
@@ -116,6 +122,15 @@ Eine Sache verweigert die App mit Absicht: einen einfachen Link über den normal
 ## Alles, was der Chip sonst noch kann
 
 Bei dieser Kurzfassung hören die meisten Tutorials auf, und wer bisher weiter wollte, brauchte NXPs TagXplorer auf dem Rechner mit einem USB-Lesegerät. Ich wollte das ganze Datenblatt vom Handy aus erreichbar haben, also habe ich es Abschnitt für Abschnitt durchgearbeitet.
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Der Rest des Chips, auf dem Handy</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="Der Bildschirm für Key 0: den Schlüssel aus einer Passphrase oder als Hex setzen, einen auf einem anderen Gerät gesetzten eingeben oder auf Werkseinstellung zurücksetzen"><p><strong>Key 0.</strong> Setz ihn aus einer Passphrase oder als Hex-Schlüssel, gib einen ein, den du auf einem anderen Gerät gesetzt hast, oder geh zurück auf Werkseinstellung.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="Der Bildschirm Erweitert: die Identität des Chips, sein Speicher, SUN aktiv und Key 1 bis Key 4"><p><strong>Erweitert.</strong> Die Identität des Chips und die anderen vier Schlüssel, jeder mit denselben Optionen wie Key 0.</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="Der Tresor mit der Notiz Ersatzschlüssel in der blauen Dose, oberstes Regal, 36 von 126 Byte"><p><strong>Der Tresor.</strong> Bis zu 126 Byte Text, die nur dein Key 0 wieder lesen kann.</p></li>
+</ol>
+</figure>
 
 ### Alle fünf Schlüssel
 

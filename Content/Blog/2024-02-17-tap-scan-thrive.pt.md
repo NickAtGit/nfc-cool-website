@@ -18,6 +18,12 @@ O gerador de QR da NFC.cool cobre tudo isso. Eis o que cada um faz de facto quan
 
 ## URLs
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="Create QR Code no NFC.cool Tools: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime e Event"><p><strong>Uma lista, todos os conteúdos.</strong> Links, Wi-Fi, contactos, locais e eventos começam todos aqui.</p></li>
+</ol>
+</figure>
+
 O caso básico. Codifique `https://example.com`, leia com qualquer câmara, e o dispositivo oferece-se para o abrir. Funciona em todos os telemóveis feitos na última década.
 
 Uma variante útil: links curtos. Se tem URLs carregados de parâmetros de análise, gere o QR sobre a versão curta - torna o código QR fisicamente mais pequeno (menos módulos = menos denso) e mais fácil de ler à distância.
@@ -25,6 +31,13 @@ Uma variante útil: links curtos. Se tem URLs carregados de parâmetros de anál
 ---
 
 ## Credenciais Wi-Fi
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="O formulário de QR Wi-Fi no NFC.cool Tools: nome da rede, palavra-passe, autenticação WPA/WPA2 e rede oculta"><p><strong>Preencha a rede.</strong> Nome, palavra-passe e tipo de segurança.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="O código QR Wi-Fi pronto, com o título Guest WiFi, e o QR Code Studio para o estilizar"><p><strong>Partilhe o código.</strong> Os convidados leem-no e ligam-se, sem escrever nada.</p></li>
+</ol>
+</figure>
 
 Codifique um SSID, palavra-passe e tipo de segurança (WPA2, WPA3, aberto) no formato padrão `WIFI:T:WPA;S:...;P:...;;`. O iOS, o Android e o Windows moderno reconhecem todos o formato e propõem ligar-se.
 
@@ -71,6 +84,12 @@ Algumas apps registam esquemas de URL personalizados (`myapp://...`) e reconhece
 ---
 
 ## Do lado da leitura
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="O leitor de QR no NFC.cool Tools, com um código encontrado num cartão impresso e o botão Finish"><p><strong>Ler.</strong> Aponte a câmara, e a app lê o conteúdo e propõe a ação certa.</p></li>
+</ol>
+</figure>
 
 O leitor da NFC.cool lê qualquer um dos formatos acima e encaminha-os para a ação certa: os URLs abrem no navegador, os vCards oferecem-se para guardar, o Wi-Fi propõe ligar, as localizações abrem nos mapas. Mantém também um histórico local de cada leitura, o que é útil quando leu 30 ementas numa conferência e quer voltar a uma delas.
 

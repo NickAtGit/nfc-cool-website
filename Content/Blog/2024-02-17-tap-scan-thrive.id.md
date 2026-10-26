@@ -18,6 +18,12 @@ Generator QR NFC.cool mencakup semua itu. Berikut apa yang sebenarnya terjadi pa
 
 ## URL
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="Create QR Code di NFC.cool Tools: Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime, dan Event"><p><strong>Satu daftar, semua jenis isi.</strong> Tautan, Wi-Fi, kontak, lokasi, dan acara semuanya dimulai dari sini.</p></li>
+</ol>
+</figure>
+
 Kasus dasarnya. Kodekan `https://example.com`, pindai dengan kamera mana pun, dan perangkat menawarkan untuk membukanya. Bekerja di setiap ponsel yang dibuat dalam dekade terakhir.
 
 Varian yang berguna: tautan pendek. Jika Anda memiliki URL yang berat analitik, buat QR dari versi pendeknya - ini membuat kode QR secara fisik lebih kecil (lebih sedikit modul = lebih tidak padat) dan lebih mudah dipindai dari jarak jauh.
@@ -25,6 +31,13 @@ Varian yang berguna: tautan pendek. Jika Anda memiliki URL yang berat analitik, 
 ---
 
 ## Kredensial Wi-Fi
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="Formulir QR Wi-Fi di NFC.cool Tools: nama jaringan, kata sandi, autentikasi WPA/WPA2, dan jaringan tersembunyi"><p><strong>Isi jaringannya.</strong> Nama, kata sandi, dan jenis keamanan.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="Kode QR Wi-Fi yang sudah jadi, berjudul Guest WiFi, dengan QR Code Studio untuk mempercantiknya"><p><strong>Bagikan kodenya.</strong> Tamu memindainya dan langsung tersambung, tanpa mengetik.</p></li>
+</ol>
+</figure>
 
 Kodekan SSID, kata sandi, dan jenis keamanan (WPA2, WPA3, terbuka) dalam format standar `WIFI:T:WPA;S:...;P:...;;`. iOS, Android, dan Windows modern semuanya mengenali format ini dan meminta untuk bergabung.
 
@@ -71,6 +84,12 @@ Beberapa aplikasi mendaftarkan skema URL kustom (`myapp://...`) dan mengenali ko
 ---
 
 ## Di sisi pemindaian
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="Pemindai QR di NFC.cool Tools dengan kode yang ditemukan pada kartu cetak dan tombol Finish"><p><strong>Memindai.</strong> Arahkan kamera, aplikasi membaca isinya dan menawarkan tindakan yang tepat.</p></li>
+</ol>
+</figure>
 
 Pemindai NFC.cool membaca semua format di atas dan mengarahkannya ke tindakan yang tepat: URL dibuka di browser, vCard menawarkan untuk disimpan, Wi-Fi meminta untuk terhubung, lokasi dibuka di peta. Pemindai juga menyimpan riwayat lokal setiap pemindaian, yang berguna saat Anda sudah memindai 30 menu di konferensi dan ingin mengunjungi kembali salah satunya.
 

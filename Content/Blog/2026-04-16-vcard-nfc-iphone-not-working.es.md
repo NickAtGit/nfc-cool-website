@@ -68,6 +68,12 @@ NFC.cool Tools es genial para leer y escribir etiquetas NFC - lo construí exact
 
 ## La solución: tarjetas de visita NFC basadas en URL
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/vcard-nfc-iphone-not-working/profile-440w.webp" alt="Un perfil digital tal como se abre tras el toque: Rin Nakashima, de Meridian Systems, con enlaces a Website, Blog, Reddit y Bluesky y el botón Save Contact"><p><strong>Toque. Perfil. Guardar.</strong> El enlace de la etiqueta abre este perfil, y un toque guarda el contacto.</p></li>
+</ol>
+</figure>
+
 Lo que nadie te dice cuando compras una tarjeta de visita NFC:
 
 **No deberías almacenar datos de contacto en la etiqueta en absoluto.**

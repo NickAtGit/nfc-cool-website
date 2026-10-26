@@ -30,6 +30,13 @@ Ben de tersten çalıştım. İdeal yedek fiziksel olarak dayanıklı, şifreli,
 
 ## NFC Safe nasıl kullanılır
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="Encrypt modunda NFC Safe; gizli bir mesaj ve correct-horse-battery parolası girilmiş"><p><strong>Şifrele.</strong> Sırrını ve güçlü bir parolayı yaz, sonra bir tag'i telefonuna tut.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="Decrypt modunda NFC Safe; tag'den geri okunan sırrı gösteriyor"><p><strong>Çöz.</strong> Aynı parola ve bir okutma, sırrın geri gelir.</p></li>
+</ol>
+</figure>
+
 NFC Safe, NFC.cool Tools içinde NFC Apps altında duruyor. Her şeyi, üstünde Şifrele ya da Çöz seçeneği olan tek bir ekrana sığdırdım. Daha önce hiç tag yazdıysan burada sana yabancı gelen bir şey olmayacak.
 
 **Şifrelemek için:**

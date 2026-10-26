@@ -82,6 +82,12 @@ Se estiver a comprar tags em branco, procure especificamente **ICODE SLIX2** ou 
 
 ## Como Ler e Gravar OpenPrintTag com o Seu Telemóvel
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/openprinttag-read-write-nfc-spools-phone/write-440w.webp" alt="O ecrã OpenPrintTag no NFC.cool Tools, preenchido para Northline Filaments PLA Matte, 1,75 mm, Filament (FFF)"><p><strong>Escrever a tag de uma bobina.</strong> Preencha os dados do material, toque no botão NFC e encoste a tag ao telemóvel.</p></li>
+</ol>
+</figure>
+
 Não precisa de uma impressora Prusa nem de qualquer hardware especial para trabalhar com o OpenPrintTag, apenas do seu telemóvel. Esta é a parte que mais quis construir, porque um telemóvel no bolso é o leitor NFC mais acessível que existe.
 
 O NFC.cool Tools suporta o OpenPrintTag nativamente tanto no [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-en&mt=8) como no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-en), e fiz questão de que a funcionalidade fosse completamente gratuita.

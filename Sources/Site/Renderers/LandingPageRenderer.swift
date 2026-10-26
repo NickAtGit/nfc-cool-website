@@ -79,7 +79,7 @@ struct LandingPageRenderer: Renderer {
       let trustLine = loadTrustLine(context: context, trust: data.trust)
 
       var sections: [String] = []
-      sections.append(self.renderHero(data.hero, trust: trustLine, heroImagePath: data.heroImagePath, heroImageWidth: data.heroImageWidth, heroImageHeight: data.heroImageHeight, appStoreURL: homeAppStore, googlePlayURL: homeGooglePlay))
+      sections.append(self.renderHero(data, trust: trustLine, appStoreURL: homeAppStore, googlePlayURL: homeGooglePlay))
       let features = try loadFeatures(context: context)
       if !features.isEmpty {
          sections.append(self.renderFeatureGrid(features, title: data.featuresTitle, basePath: context.router.homePath()))
@@ -148,7 +148,8 @@ struct LandingPageRenderer: Renderer {
 
    // MARK: - Section Renderers
 
-   private func renderHero(_ hero: HeroSection, trust: TrustLine?, heroImagePath: String?, heroImageWidth: Int?, heroImageHeight: Int?, appStoreURL: String, googlePlayURL: String?) -> String {
+   private func renderHero(_ data: LandingData, trust: TrustLine?, appStoreURL: String, googlePlayURL: String?) -> String {
+      let hero = data.hero
       let titleHTML = renderTitleWithBrandTail(hero.title, tagName: "h1", classAttr: "landing-hero-title")
       let text = """
       \(titleHTML)
@@ -158,12 +159,14 @@ struct LandingPageRenderer: Renderer {
       </div>
       \(renderTrust(trust))
       """
-      let visual = heroImagePath.map { path in
+      let visual = data.heroImagePath.map { path in
          PageHeroVisual(
             src: path,
-            alt: "\(hero.title.htmlEscaped) screenshot",
-            width: heroImageWidth,
-            height: heroImageHeight
+            alt: data.heroImageAlt?.htmlEscaped ?? "\(hero.title.htmlEscaped) screenshot",
+            width: data.heroImageWidth,
+            height: data.heroImageHeight,
+            scene: data.heroScene,
+            posterFrame: data.heroScenePosterFrame
          )
       }
       return renderPageHero(modifier: "landing-hero", text: text, visual: visual)
@@ -177,6 +180,13 @@ struct LandingPageRenderer: Renderer {
                <video autoplay muted loop playsinline>
                   <source src="\(videoPath)" type="video/mp4"/>
                </video>
+            </div>
+         """
+      } else if let imagePath = banner.imagePath, let scene = banner.scene {
+         let fill = banner.sceneFrameFill.map { " data-frame-fill=\"\($0)\"" } ?? ""
+         media = """
+            <div class="landing-feature-banner-scene">
+               <img src="\(imagePath)" data-scene="\(scene)" data-poster-frame="\(banner.scenePosterFrame ?? 0)"\(fill) alt="\((banner.imageAlt ?? banner.title).htmlEscaped)" width="480" height="480" loading="lazy"/>
             </div>
          """
       } else if let imagePath = banner.imagePath {

@@ -1,15 +1,18 @@
 hero:
   title: "قارئ وسوم NFC وكاتبها وماسحها - NFC.cool Tools"
-  subtitle: "اقرأ واكتب وسوم NFC مجانًا على iPhone وAndroid - وعلى iPhone أيضًا، امسح رموز QR والباركود والمستندات والنماذج ثلاثية الأبعاد والغرف."
+  subtitle: "اقرأ واكتب وسوم NFC وامسح رموز QR والباركود مجانًا على iPhone وAndroid - وعلى iPhone أيضًا، امسح المستندات والنماذج ثلاثية الأبعاد والغرف."
 
 trust:
   price: "مجانًا"
 
 description: "أدوات NFC مجانية لـiPhone وAndroid. اقرأ أي وسم NFC بلمسة، واكتب وسومك الخاصة بالروابط وشبكات Wi-Fi وجهات الاتصال، إضافة إلى مسح رموز QR والباركود والمستندات."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "هاتف يقرأ وسوم NFC واحدًا تلو الآخر ويعرض شريحة كل وسم"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - امسح وسوم NFC ورموز QR والباركود والمستندات والأجسام ثلاثية الأبعاد والغرف"
@@ -19,7 +22,11 @@ featuresTitle: "كل ما تحتاجه للمسح"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "تطبيق مخصّص لبطاقة العمل الرقمية على iPhone وAndroid - شارِكها عبر لمسة NFC أو رمز QR، وعلى iPhone أيضاً عبر AppClip أو Apple Wallet. تتبّع من حفظ بطاقتك، ونظّم عملاءك المحتملين، وفعّل وضع المؤتمرات في الفعاليات المباشرة."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "هاتف يمسح شارة NFC.cool معلّقة بحبل حول العنق ويعرض جهة الاتصال"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "ماذا يقول المستخدمون"
 appStoreReviews:
@@ -77,7 +84,7 @@ faq:
   - question: "ما وسوم NFC المتوافقة مع NFC.cool؟"
     answer: "أي وسم NFC متوافق مع NDEF - NTAG213 وNTAG215 وNTAG216 وMIFARE Ultralight وICODE SLIX ومعظم الأنواع الأخرى. وNTAG216 هو الخيار الافتراضي الموصى به للاستخدام العام بفضل سعته البالغة 888 بايت وتوافقه الواسع مع iPhone وAndroid. راجع <a href=\"/affiliate-links/\">صفحة وسوم NFC</a> للاطّلاع على متاجر مُختبَرة."
   - question: "هل يستطيع NFC.cool مسح رموز QR والباركود؟"
-    answer: "نعم - يتعرّف على ١٩ صيغة من كاميرا iPhone أو من أي صورة في مكتبتك: ٦ رموز ثنائية الأبعاد (QR Code وMicro QR وAztec وData Matrix وPDF417 وMicro PDF417) و١٣ باركودًا خطيًا (EAN-13 وEAN-8 وUPC-E وCode 39 بما في ذلك Mod 43 وCode 93 وCode 128 وCodabar وInterleaved 2 of 5 وITF-14، إضافة إلى أنواع GS1 DataBar الثلاثة). ويُقرأ UPC-A على أنه EAN-13 مع صفر بادئ. ويبقي وضع الدفعات الكاميرا مفتوحة لجرد المخزون وتسجيل الحضور في الفعاليات."
+    answer: "نعم - على iPhone وAndroid. فعلى iPhone، يتعرّف على ١٩ صيغة من الكاميرا أو من أي صورة في مكتبتك: ٦ رموز ثنائية الأبعاد (QR Code وMicro QR وAztec وData Matrix وPDF417 وMicro PDF417) و١٣ باركودًا خطيًا (EAN-13 وEAN-8 وUPC-E وCode 39 بما في ذلك Mod 43 وCode 93 وCode 128 وCodabar وInterleaved 2 of 5 وITF-14، إضافة إلى أنواع GS1 DataBar الثلاثة). ويُقرأ UPC-A على أنه EAN-13 مع صفر بادئ. وعلى Android، تقرأ الكاميرا ١٣ صيغة: QR Code وAztec وData Matrix وPDF417 وEAN-13 وEAN-8 وUPC-A وUPC-E وCode 128 وCode 39 وCode 93 وITF وCodabar. وعلى كليهما، يبقي وضع الدفعات الكاميرا مفتوحة لجرد المخزون وتسجيل الحضور في الفعاليات."
   - question: "هل يمكنني كتابة وسوم NFC باستخدام iPhone؟"
     answer: "نعم - كل iPhone بدءًا من iPhone 7 فصاعدًا يستطيع قراءة وسوم NFC وكتابتها باستخدام NFC.cool Tools. اختر من أكثر من ٢٥ نوع رسالة: روابط URL، وبيانات Wi-Fi، وبطاقات جهات الاتصال (vCard)، واختصارات iOS، والمدفوعات، والملفات الاجتماعية، وغيرها. شفّر أسرارك أولًا بميزة NFC Safe (256-bit AES) لأنشطة الفتح باللمس."
   - question: "هل يدعم NFC.cool اختصارات iOS وزر الإجراء (Action Button)؟"

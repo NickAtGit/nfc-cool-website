@@ -14,6 +14,12 @@ imageAlt: "在布拉格 mDevCamp 2025 上演讲"
 
 如果你还没遇到过，App Clip 是一段轻量的 iOS 应用，它能从一次 NFC 轻触或一次扫描二维码即时打开，不用经过 App Store，也不用安装。正是它让别人在你们手机轻触之后大约一秒，就能看到你的 NFC.cool 电子名片，而无需下载任何东西。要让这个过程显得即时，同时还要保证共享名片数据的安全、又不强迫任何人注册，背后所需的架构决策比从外面看上去要多。这场演讲就逐一讲解了它们：App Clip 是如何组织的、SwiftUI 在哪里发挥了它的价值，以及后端是如何处理名片数据的。
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/app-clip-lessons-from-business-card/app-clip-440w.webp" alt="轻触后打开的 NFC.cool Business Card App Clip：Baptiste Electrical 的 Devon Baptiste，带 Website、Facebook、YouTube 链接和 Save Contact 按钮"><p><strong>App Clip。</strong>轻触后大约一秒就打开，无需安装。</p></li>
+</ol>
+</figure>
+
 站在台上把它讲清楚，对我很有好处。它逼着我为那些大多凭直觉做出的选择给出理由，而结束后的提问（来自显然打过同样硬仗的 iOS 开发者）比任何一次代码评审都更尖锐。我最终定下的方案，也就是用 SwiftUI 搭配安全后端 API 的 App Clip，经受住了这番审视，而且走廊闲聊里提到的几条建议，已经落进了应用里。
 
 你可以在 [Slideslive](https://slideslive.com/39043369/building-a-great-app-clip-experience-lessons-from-nfccool-business-card) 上观看完整演讲。

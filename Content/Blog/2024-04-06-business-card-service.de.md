@@ -60,6 +60,12 @@ Wenn alles passt, tippe auf **Weiter**.
 
 ## URL auf einen NFC-Tag schreiben
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="Das Kartenmenü in NFC.cool Business Card mit Write to NFC Tag, neben Preview, Show QR Code und Add to Apple Wallet"><p><strong>Write to NFC Tag.</strong> Steckt im Menü der Karte. Halte das Handy an den Tag, und der kurze Link ist geschrieben.</p></li>
+</ol>
+</figure>
+
 Jetzt kommt der greifbare Teil. Einen NFC-Tag bekommst du im [NFC.cool Shop](https://shop.nfc.cool/collections/all) oder bei jedem anderen Händler, als Sticker, Karte oder Schlüsselanhänger, je nachdem, was zu dir passt.
 
 Tippe in NFC.cool auf **Visitenkarte auf NFC-Tag schreiben** und halte dein Handy an den Tag. Die App schreibt eine kurze URL darauf, die zu deiner Kartenseite auf nfc.cool führt. Ab dann kann jeder den Tag mit dem Handy scannen.
@@ -69,6 +75,12 @@ Willst du verhindern, dass jemand die URL später überschreibt, tippe nach dem 
 ---
 
 ## Vorschau vor dem Teilen
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="Eine Karte, wie Empfänger sie sehen: Samir Haddad von Haddad &amp; Lowe, mit Website, LinkedIn, Facebook und dem Button Save Contact"><p><strong>Was andere sehen.</strong> Auf dem iPhone ein nativer App Clip, Save Contact ist einen Tipp entfernt.</p></li>
+</ol>
+</figure>
 
 Mit **Visitenkarte anzeigen** siehst du genau das, was auch deine Empfänger sehen. Die Seite ist fürs Handy gemacht, lädt sofort und hat einen Button „In Kontakte speichern“, ein Fingertipp genügt. Auf dem iPhone öffnet sich ein nativer App Clip, ganz ohne App-Installation; auf Android eine schlanke Webseite auf der nfc.cool-Domain. In beiden Fällen landet dein Kontakt am Ende im Adressbuch.
 

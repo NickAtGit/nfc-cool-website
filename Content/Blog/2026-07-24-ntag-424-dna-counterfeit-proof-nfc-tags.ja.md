@@ -77,6 +77,12 @@ NTAG 424 DNAは、416バイトのメモリを持つNFC Forum Type 4タグで、�
 
 ## かざすと何が見えるのか
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/1-tap-440w.webp" alt="NTAG 424 DNAをかざした後のNFC.cool Tools。署名付きリンク、読み取りカウンター137、SUN認証はAuthentic"><p><strong>本物のタップ。</strong>署名付きリンク、読み取りカウンター、そして合格したSUNチェック。</p></li>
+</ol>
+</figure>
+
 タグをスマホにかざすと、[iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-ja&mt=8)または[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-ja)のNFC.cool Toolsは、あなたに何も尋ねることなく、チップの奥まで読み取ります。具体的には、チップの識別情報と、それがTagTamper版かどうか、リンク、すべてのファイルの設定とアクセス権、どの鍵スロットが工場出荷時から変更されているか、そして3つの独立したチェックの結果です。
 
 ### 本物のNXPのシリコンか
@@ -116,6 +122,15 @@ NTAG 424 DNAは、416バイトのメモリを持つNFC Forum Type 4タグで、�
 ## チップの残りすべて
 
 たいていのチュートリアルは、あの最短の手順で止まります。そしてこれまで、その先へ進む方法といえば、デスクトップにUSBリーダーをつないでNXPのTagXplorerを使うことでした。私はデータシートの全部にスマホから手が届くようにしたかったので、上から順に一節ずつたどっていきました。
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>チップの残りすべてを、スマホで</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/2-key-0-440w.webp" alt="Key 0の画面。パスフレーズか16進数で鍵を設定、別の端末で設定した鍵の入力、工場出荷時へのリセットができる"><p><strong>Key 0。</strong>パスフレーズか16進数の鍵で設定するか、別の端末で設定した鍵を入力するか、工場出荷時に戻します。</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/3-advanced-440w.webp" alt="詳細設定の画面。チップの識別情報、メモリ、SUN有効、Key 1からKey 4"><p><strong>詳細設定。</strong>チップの識別情報と残り4つの鍵。どれもKey 0と同じ操作ができます。</p></li>
+<li><img src="/assets/images/Blog/screens/ntag-424-dna-counterfeit-proof-nfc-tags/4-vault-440w.webp" alt="Vaultの画面。メモが入っていて、126バイト中36バイトを使用"><p><strong>Vault。</strong>Key 0でしか読み戻せない、最大126バイトのテキスト。</p></li>
+</ol>
+</figure>
 
 ### 5つの鍵すべて
 

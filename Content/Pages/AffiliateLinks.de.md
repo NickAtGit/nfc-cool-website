@@ -19,8 +19,8 @@ Nach sieben Jahren NFC-App-Entwicklung und tausenden Support-E-Mails: Hier ist, 
 
 </div>
 
-<div class="page-hero-visual is-framed">
-<img src="/assets/images/Affiliate/create-nfc-tag.webp" alt="NFC.cool Tools - „NFC-Tag erstellen"-Bildschirm auf dem iPhone, bereit zum Schreiben eines neuen Tags" loading="eager" fetchpriority="high"/>
+<div class="page-hero-visual is-scene is-boxed">
+<img src="/assets/images/Affiliate/CardFan-v2.webp" data-scene="cardfan" data-poster-frame="50" alt="Sechs bunte NFC.cool Karten fächern sich auf" width="480" height="480" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>

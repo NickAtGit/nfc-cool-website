@@ -42,6 +42,12 @@ Apple Payで支払うとき、iPhoneがアクティブリーダーです。13.56
 
 ## NDEF：共通言語
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-on-iphones-insider-look/ndef-record-440w.webp" alt="NFC.cool Toolsで読み取った名刺レコード。その下に生のvCard。BEGIN:VCARD、VERSION:3.0、Anna MillerのNとFN"><p><strong>NDEFレコードの中身。</strong>NFC.coolが表示する連絡先レコードと、その下の生のvCard。</p></li>
+</ol>
+</figure>
+
 NFC無線の上のデータ層が**NDEF**（NFC Data Exchange Format）です。私はこれを、小さな自己記述型のレコードフォーマットだと説明しています。タグは1つ以上のレコードを保持し、それぞれにタイプ（URI、テキスト、vCard、Wi-Fi認証情報、カスタムMIME）とペイロードがあります。
 
 地球上のすべてのNFC対応スマホがNDEFを話します。だからAndroidでプログラムされたタグはiPhoneで問題なく読めますし、その逆も同じです。iOSとAndroidが本当に同じ標準を共有している、数少ない領域のひとつであり、正直なところ、機能を作るうえで私が最もありがたく思っているのがこの相互運用性です - 私はプラットフォームではなくフォーマットに向けて書いています。自分でレコードを書いてみたいなら、[iPhoneでNFCタグを書く方法](/ja/blog/write-nfc-tags-iphone/)で手順を解説しています。

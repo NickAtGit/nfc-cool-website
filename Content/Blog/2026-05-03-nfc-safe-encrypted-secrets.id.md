@@ -30,6 +30,13 @@ Jadi saya bekerja mundur. Cadangan ideal akan tahan secara fisik, terenkripsi, b
 
 ## Cara menggunakan NFC Safe
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="NFC Safe dalam mode Encrypt, dengan pesan rahasia dan passphrase correct-horse-battery yang sudah diisi"><p><strong>Enkripsi.</strong> Rahasia Anda dan passphrase yang kuat, lalu tempelkan tag ke ponsel Anda.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="NFC Safe dalam mode Decrypt, menampilkan rahasia yang dibaca kembali dari tag"><p><strong>Dekripsi.</strong> Passphrase yang sama dan satu ketukan, rahasia Anda kembali.</p></li>
+</ol>
+</figure>
+
 NFC Safe ada di dalam NFC.cool Tools di bawah NFC Apps. Saya mempertahankan semuanya dalam satu layar dengan kontrol tersegmen di bagian atas - Enkripsi atau Dekripsi. Jika Anda pernah menulis tag sebelumnya, tidak ada yang terasa asing.
 
 **Untuk mengenkripsi:**

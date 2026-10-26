@@ -37,6 +37,12 @@ Le destinataire n'a pas choisi votre app de carte de visite. Il ne s'est pas ren
 
 NFC.cool Business Card adopte deux approches différentes selon la plateforme du destinataire, toutes deux conçues pour fonctionner sans aucun téléchargement.
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/app-clip-440w.webp" alt="L'App Clip que voit le destinataire : Kasper Lindqvist, de Lindqvist Studio, avec des liens Website, Instagram et YouTube et le bouton Save Contact"><p><strong>L'App Clip.</strong> Natif, dans la langue du destinataire, avec Save Contact juste sous le pouce.</p></li>
+</ol>
+</figure>
+
 ### Sur iPhone : un App Clip natif
 
 Lorsqu'un utilisateur d'iPhone approche son téléphone de votre carte NFC ou scanne votre QR code, iOS lance un [App Clip](https://developer.apple.com/app-clips/) : une expérience native et légère conçue spécialement pour ce genre de moments.
@@ -93,6 +99,12 @@ Cela compte plus que la plupart des gens ne le pensent. Votre carte de visite es
 ---
 
 ## Mode Conférence : partager depuis votre écran verrouillé
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="Le menu de la carte dans NFC.cool Business Card : Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card et Add to Apple Wallet"><p><strong>Un appui pour démarrer.</strong> Le Conference Mode se trouve dans le menu de la carte, à côté de Write to NFC Tag et Add to Apple Wallet.</p></li>
+</ol>
+</figure>
 
 Lors des conférences et des événements, vous partagez votre carte des dizaines de fois. NFC.cool propose une fonction appelée Mode Conférence qui utilise les Activités en direct d'iOS pour placer un QR code directement sur votre écran verrouillé.
 

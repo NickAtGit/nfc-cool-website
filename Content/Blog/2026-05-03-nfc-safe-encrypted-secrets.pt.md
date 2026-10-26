@@ -30,6 +30,13 @@ Por isso trabalhei de trás para a frente. A cópia de segurança ideal seria fi
 
 ## Como usar o NFC Safe
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="O NFC Safe no modo Encrypt, com uma mensagem secreta e a frase-passe correct-horse-battery preenchidas"><p><strong>Encriptar.</strong> O seu segredo e uma frase-passe forte, depois encoste uma tag ao telemóvel.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="O NFC Safe no modo Decrypt, a mostrar o segredo lido de volta da tag"><p><strong>Desencriptar.</strong> A mesma frase-passe e um toque, e o segredo está de volta.</p></li>
+</ol>
+</figure>
+
 O NFC Safe vive dentro da NFC.cool Tools, em NFC Apps. Mantive tudo num único ecrã, com um controlo segmentado no topo - Encriptar ou Desencriptar. Se já alguma vez gravou uma tag, nada disto lhe parecerá estranho.
 
 **Para encriptar:**

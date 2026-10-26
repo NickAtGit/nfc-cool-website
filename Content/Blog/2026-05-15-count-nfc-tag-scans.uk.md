@@ -77,6 +77,15 @@ ogDescription: "NFC-мітка вміє рахувати власні зчиту
 
 Якщо колись захочеш це припинити, застосунок вимикає лічильник на вже записаній мітці. Чип перестає підставляти живі значення, а вміст лишається на мітці рівно таким, яким його записали востаннє. Одна деталь варта уваги: усередині чип рахує далі навіть після того, як підстановку вимкнено, тож рахунок нікуди не зникає, його просто перестають показувати.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Налаштування мітки, що рахує</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="Екран NFC Tap Counter у NFC.cool Tools: посилання, яке з кожним скануванням оновлює кількість дотиків і ID мітки, для NTAG213, NTAG215 і NTAG216"><p><strong>NFC Tap Counter.</strong> У розділі NFC Tools, для міток NTAG213, 215 і 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="Варіанти вмісту URL, Email, SMS і Shortcut, нижче Try it out"><p><strong>Обери вміст.</strong> URL, лист, SMS або, на iPhone, швидка команда.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="Увімкнено NFC Tap Counter і NFC Tag ID, Batch write вимкнено, прев'ю https://studionord.example/table-7?nfc=049F50824F1390x000007 і кнопка Write to NFC Tag"><p><strong>Перемикачі та прев'ю.</strong> Ще до запису прев'ю показує, куди потраплять ID мітки й лічильник.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Куди потрапляють рахунок та ідентифікатор

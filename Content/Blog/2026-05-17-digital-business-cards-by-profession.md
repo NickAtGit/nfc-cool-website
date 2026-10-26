@@ -38,6 +38,12 @@ That's the shared story. Now the part that is actually different for you.
 
 ## For Real Estate Agents
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/realtor-card-440w.webp" alt="A real estate agent's card as the recipient sees it: Elena Marchetti of Marchetti Property, with Website, Instagram and Facebook links and a Save Contact button"><p><strong>What your client sees.</strong> Your card opens on their iPhone with no app to install, and one tap saves you.</p></li>
+</ol>
+</figure>
+
 Real estate runs on staying reachable. Every open house, every broker's open, every chance encounter at the coffee shop is a lead - and whether it becomes a client often comes down to one thing: did they keep your card? With paper, the honest answer is usually no.
 
 ### The Open House Sign-In Sheet Is Broken
@@ -87,6 +93,12 @@ A word on privacy, because it matters more here: a business card is not a medica
 ---
 
 ## For Consultants and Freelancers
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/consultant-card-440w.webp" alt="A consultant's card, Adrian Kovac of Kovac Advisory, with Website, LinkedIn and Blog links"><p><strong>A card that looks like you.</strong> Your logo, your colours, and the links that matter for this role.</p></li>
+</ol>
+</figure>
 
 When you go independent, nobody orders your business cards for you. There's no marketing department, no receptionist reprinting them when your title changes. You are the brand - and the card budget is your budget.
 
@@ -148,6 +160,16 @@ Where competitors are genuinely ahead:
 The honest version: for an agent, a physician, or a soloist, what matters day to day is that sharing is fast, the card looks like *you*, and nothing embarrasses you later. That's what I built it for. If you need a sales CRM welded to your business card, buy the tool that does that.
 
 You can [get NFC.cool Business Card on the App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) or [on Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+
+<figure class="phone-figure" data-layout="stage">
+<figcaption>NFC.cool Business Card at Work</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="My Business Cards with three cards: AlexBerger, Conference and Speaking"><p><strong>A card per role.</strong> Up to 100 cards, each with its own look and links.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="The Business Card tab with the card's QR code and the menu for cards, leads, contacts and settings"><p><strong>Share it.</strong> By NFC tap, QR code or a plain link.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Profile Settings: a public or a PIN-protected private card, and lead capture before or after saving"><p><strong>Your rules.</strong> Public or PIN-protected, and lead capture when you want it.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="The lead list, each lead marked Qualified, New, Contacted or Converted"><p><strong>Follow up.</strong> Every lead in one list, with where each one stands.</p></li>
+</ol>
+</figure>
 
 ---
 

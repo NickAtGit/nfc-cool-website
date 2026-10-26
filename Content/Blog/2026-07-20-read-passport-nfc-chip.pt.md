@@ -38,6 +38,16 @@ Uns segundos depois, está a olhar para aquilo que o chip andava a transportar e
 
 Cada documento que lê é guardado numa pequena carteira dentro da aplicação, chamada Os Meus Documentos, para que possa voltar a consultá-lo mais tarde. Essa carteira vive no seu dispositivo e, no iPhone, sincroniza através do seu próprio iCloud. Não chega a mim, nem a nenhum servidor meu. Numa coisa tão pessoal como esta, não é um detalhe que eu fosse esconder.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Ler um passaporte no NFC.cool Tools</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/1-key-440w.webp" alt="O ecrã Passaporte e ID no NFC.cool Tools, com as opções de ler com a câmara e de introduzir os dados à mão"><p><strong>Dê-lhe a chave.</strong> Leia a zona de leitura ótica com a câmara ou escreva os três valores à mão.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/2-chip-440w.webp" alt="Um passaporte lido, com a fotografia guardada, o nome da titular e o número do documento"><p><strong>Leia o chip.</strong> Encoste a parte de cima do telemóvel ao documento e a fotografia e os dados saem do chip.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/3-genuine-440w.webp" alt="As verificações de autenticidade, todas aprovadas: documento parece genuíno, dados inalterados desde a emissão, assinatura válida, emissor de confiança, proteção contra clonagem do chip"><p><strong>Confirme o selo.</strong> Todas as verificações que o chip suporta, da assinatura do emissor à proteção contra clonagem.</p></li>
+<li><img src="/assets/images/Blog/screens/read-passport-nfc-chip/4-my-documents-440w.webp" alt="Os Meus Documentos, uma lista de cinco passaportes e cartões de identificação guardados"><p><strong>Guarde-o em Os Meus Documentos.</strong> Fica no seu dispositivo e só sincroniza através do seu próprio iCloud.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## O documento é genuíno?

@@ -59,10 +59,12 @@ NTAG213 захищений паролем. У кожної насадки сві
 
 ## Як перевірити і скинути в NFC.cool Tools
 
-Ось як це виглядає в застосунку:
-
-<figure class="sk-phone-screenshot">
-  <img src="/assets/images/Blog/sonicare-reset-screen.webp" alt="NFC.cool Tools показує насадку Sonicare з витраченими 80% ресурсу і кнопкою Reset Timer" />
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/1-read-440w.webp" alt="Екран Sonicare Reset у NFC.cool Tools із проханням піднести насадку до iPhone"><p><strong>Зчитай насадку.</strong> Натисни Read NFC і піднеси насадку до iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/2-stats-440w.webp" alt="Насадка Sonicare, витрачена на 80 %: використано 4 год 50 хв, залишилося 1 год 10 хв"><p><strong>Подивись статистику.</strong> Скільки ресурсу насадка вже витратила.</p></li>
+<li><img src="/assets/images/Blog/screens/reset-sonicare-brush-head-nfc/3-reset-440w.webp" alt="Та сама насадка після скидання, знову витрачено 0 %"><p><strong>Скинь лічильник.</strong> Знову нуль, якщо щетинки ще тримаються.</p></li>
+</ol>
 </figure>
 
 NFC.cool Tools бере на себе весь процес: зчитує мітку, обчислює пароль і показує статистику. Ні шістнадцяткових команд, ні вебкалькуляторів, ні SDR.

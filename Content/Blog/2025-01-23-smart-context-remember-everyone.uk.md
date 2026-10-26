@@ -22,6 +22,13 @@ image: "/assets/images/Blog/smart-context-remember-everyone.webp"
 
 ## Бракує саме контексту
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="Вкладка Networking у NFC.cool Business Card: Priya Raman з Bay Area Product Summit, Tom Alvarez з Design Systems Meetup, Hanna Vogel з NFC Developer Day"><p><strong>Місце знайомства.</strong> У кожного контакту збережено подію та дату.</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="Контакт із нетворкінгу: Priya Raman з Lantern Metrics з Add Reminder, Add Meeting і подробицями зустрічі"><p><strong>Що далі.</strong> Нагадування й зустрічі потрапляють у календар, поки розмова ще свіжа в пам'яті.</p></li>
+</ol>
+</figure>
+
 Тому в NFC.cool Business Card я додав те, що подумки називаю «оновленням пам'яті». Одразу після обміну контактами (через дотик NFC, App Clip або QR-код на екрані блокування в режимі конференції) застосунок пропонує записати контекст:
 
 - **Де і коли відбулося знайомство.** Дата й місце підставляються самі, і їх можна виправити.

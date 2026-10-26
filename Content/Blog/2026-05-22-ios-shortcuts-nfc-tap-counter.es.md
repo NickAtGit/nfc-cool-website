@@ -23,6 +23,13 @@ Así que construí dos atajos y los comparto como enlaces de iCloud. Uno es el c
 
 ## Lo que la etiqueta te entrega
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/1-shortcut-440w.webp" alt="El NFC Tap Counter en modo Shortcut, ejecutando NFC Tag Alert con la entrada log-entry, con los dos interruptores activados"><p><strong>Un atajo como contenido.</strong> La etiqueta ejecuta NFC Tag Alert con log-entry como entrada.</p></li>
+<li><img src="/assets/images/Blog/screens/ios-shortcuts-nfc-tap-counter/2-preview-440w.webp" alt="La vista previa: shortcuts://run-shortcut?name=NFC%20Tag%20Alert&input=text&text=log-entry%20049F50824F1390x000007"><p><strong>Lo que recibe el atajo.</strong> La entrada, con el ID de la etiqueta y el recuento añadidos.</p></li>
+</ol>
+</figure>
+
 Antes de los atajos: un repaso rápido de lo que reciben en realidad, porque importa para cómo los usas.
 
 En la pantalla de configuración del contador de toques eliges un tipo de contenido para la etiqueta: URL, correo, SMS o atajo. Cuando activas las opciones de contador de toques y/o ID de etiqueta, la app inserta bytes de marcador de posición dentro de ese contenido, y el chip los intercambia por los valores en vivo en cada lectura. Usando `049F50824F1390` como ID de etiqueta y `000007` como recuento, los cuatro tipos de contenido quedan así:

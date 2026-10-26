@@ -18,6 +18,12 @@ Le générateur de QR codes de NFC.cool couvre tout ça. Voici ce que chacun fai
 
 ## Les URL
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/types-440w.webp" alt="Create QR Code dans NFC.cool Tools : Web Link, Google Review Link, Text, Business Card, Telephone Number, Email, SMS, Location, FaceTime et Event"><p><strong>Une liste, tous les contenus.</strong> Liens, Wi-Fi, contacts, lieux et événements commencent tous ici.</p></li>
+</ol>
+</figure>
+
 Le cas de base. Encodez `https://example.com`, scannez avec n'importe quel appareil photo, et le téléphone propose de l'ouvrir. Fonctionne sur tous les téléphones sortis ces dix dernières années.
 
 Une variante utile : les liens courts. Si vos URL sont chargées de paramètres d'analytics, générez le QR à partir de la version courte - le QR code est physiquement plus petit (moins de modules = moins dense) et plus facile à scanner de loin.
@@ -25,6 +31,13 @@ Une variante utile : les liens courts. Si vos URL sont chargées de paramètres 
 ---
 
 ## Les identifiants Wi-Fi
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/1-wifi-form-440w.webp" alt="Le formulaire de QR Wi-Fi de NFC.cool Tools : nom du réseau, mot de passe, authentification WPA/WPA2 et réseau masqué"><p><strong>Saisissez le réseau.</strong> Nom, mot de passe et type de sécurité.</p></li>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/2-wifi-code-440w.webp" alt="Le QR code Wi-Fi terminé, intitulé Guest WiFi, avec QR Code Studio pour le styliser"><p><strong>Partagez le code.</strong> Vos invités le scannent et se connectent, sans rien taper.</p></li>
+</ol>
+</figure>
 
 Encodez un SSID, un mot de passe et un type de sécurité (WPA2, WPA3, ouvert) au format standard `WIFI:T:WPA;S:...;P:...;;`. iOS, Android et les versions récentes de Windows reconnaissent tous ce format et proposent de se connecter.
 
@@ -71,6 +84,12 @@ Certaines apps enregistrent des schémas d'URL personnalisés (`myapp://...`) et
 ---
 
 ## Côté scan
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/tap-scan-thrive/scanner-440w.webp" alt="Le scanner de QR de NFC.cool Tools avec un code trouvé sur une carte imprimée et le bouton Finish"><p><strong>Scanner.</strong> Visez avec l'appareil photo, et l'app lit le contenu et propose la bonne action.</p></li>
+</ol>
+</figure>
 
 Le scanner de NFC.cool lit tous les formats ci-dessus et les dirige vers la bonne action : les URL s'ouvrent dans le navigateur, les vCards proposent d'être enregistrées, le Wi-Fi propose de se connecter, les lieux s'ouvrent dans l'app de cartographie. Il conserve aussi un historique local de chaque scan, bien pratique quand vous avez scanné 30 menus à une conférence et voulez en retrouver un.
 

@@ -20,6 +20,16 @@ image: "/assets/images/Blog/document-scanning-guide.webp"
 
 NFC.cool Toolsを開き、ドキュメントアイコンをタップしてページをフレームに収めます。スキャナーが認識したページの輪郭に黄色い四角を描きます。たいていは合っています。合っていなければコーナーをドラッグして調整。
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>紙から検索できるPDFへ</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/1-capture-440w.webp" alt="NFC.cool Toolsの書類カメラ。賃貸契約書が検出され、四隅にマークが付いている"><p><strong>撮影する。</strong>ページを検出し、四隅を自動で合わせます。</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/2-text-440w.webp" alt="請求書から認識されたテキスト。Share textとCopy text to clipboard"><p><strong>テキストを読む。</strong>OCRでスキャンがコピーや共有のできるテキストになります。</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/3-search-440w.webp" alt="Portlandで検索した保存済み書類。請求書、レシート、賃貸契約書が見つかる"><p><strong>あとで探す。</strong>書類の中のどの単語でも検索できます。</p></li>
+<li><img src="/assets/images/Blog/screens/document-scanning-guide/4-pdf-440w.webp" alt="Export as PDF。ShareとSave to Files"><p><strong>書き出す。</strong>検索できるPDFを共有するか、ファイルに保存します。</p></li>
+</ol>
+</figure>
+
 出力を実際に改善する数個のコツ：
 
 - **天井照明より自然光。** オフィスの天井照明はスマホ自身の影をページに落とします。窓からの日光や、机のページ上に角度をつけて当てたデスクランプの方が良い結果。

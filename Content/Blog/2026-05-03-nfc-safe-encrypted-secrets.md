@@ -30,6 +30,13 @@ So I worked backwards. The ideal backup would be physically durable, encrypted, 
 
 ## How to use NFC Safe
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/1-encrypt-440w.webp" alt="NFC Safe in Encrypt mode, with a secret message and the passphrase correct-horse-battery filled in"><p><strong>Encrypt.</strong> Your secret and a strong passphrase, then hold a tag to your phone.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-safe-encrypted-secrets/2-decrypt-440w.webp" alt="NFC Safe in Decrypt mode, showing the secret read back from the tag"><p><strong>Decrypt.</strong> The same passphrase and a tap, and your secret is back.</p></li>
+</ol>
+</figure>
+
 NFC Safe lives inside NFC.cool Tools under NFC Apps. I kept the whole thing down to one screen with a segmented control at the top - Encrypt or Decrypt. If you've ever written a tag before, none of this will feel unfamiliar.
 
 **To encrypt:**

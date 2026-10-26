@@ -106,6 +106,12 @@ Berikut gambaran singkat dari semua delapan aplikasi:
 
 ## Ulasan lengkap
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/best-digital-business-card-apps-2026/nfc-cool-card-440w.webp" alt="Kartu NFC.cool Business Card seperti yang dilihat penerima: Ayo Adeyemi dari Clearwater Coaching, dengan tautan Website, TikTok, Threads, dan Instagram serta tombol Save Contact"><p><strong>NFC.cool Business Card.</strong> App Clip di iPhone, dalam bahasa penerima, dengan warna dan logo Anda.</p></li>
+</ol>
+</figure>
+
 ### 1. NFC.cool Business Card - terbaik untuk privasi & profesional multibahasa
 
 **Apa ini:** Aplikasi kartu nama digital dari NFC.cool, studio indie di balik 13 aplikasi NFC dan utilitas dengan lebih dari 9 juta unduhan. Tersedia sebagai aplikasi mandiri di iOS dan [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-en).

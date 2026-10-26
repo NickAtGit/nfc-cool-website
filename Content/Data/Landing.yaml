@@ -1,15 +1,18 @@
 hero:
   title: "NFC Tag Reader, Writer, Scanner - NFC.cool Tools"
-  subtitle: "Read and Write NFC Tags for free on iPhone and Android - plus, on iPhone, scan QR Codes, Barcodes, Documents, 3D Models and Rooms."
+  subtitle: "Read and Write NFC Tags and scan QR Codes and Barcodes for free on iPhone and Android - plus, on iPhone, scan Documents, 3D Models and Rooms."
 
 trust:
   price: "Free"
 
 description: "Free NFC tools for iPhone and Android. Read any NFC tag with a tap, write your own with links, Wi-Fi and contacts, plus QR, barcode and document scanning."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "A phone reads one NFC tag after another and names each chip"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - Scan NFC Tags, QR Codes, Barcodes, Documents, 3D Objects and Rooms"
@@ -19,7 +22,11 @@ featuresTitle: "Everything you need to scan"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "A dedicated Digital Business Card app for iPhone and Android - share with an NFC tap or a QR code, plus AppClip and Apple Wallet on iPhone. Track who saves your card, organize leads, and switch on Conference Mode for live events."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "A phone scans an NFC.cool Business Card badge on a lanyard and shows the contact"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "What people are saying"
 appStoreReviews:
@@ -77,7 +84,7 @@ faq:
   - question: "Which NFC tags work with NFC.cool?"
     answer: "Any NDEF-compliant NFC tag - NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX, and most others. NTAG216 is the recommended default for general use thanks to its 888-byte capacity and broad compatibility with iPhone and Android. See the <a href=\"/affiliate-links/\">NFC Tags page</a> for tested retailers."
   - question: "Can NFC.cool scan QR codes and barcodes?"
-    answer: "Yes - 19 code formats are recognized from the iPhone camera or any photo in your library: 6 two-dimensional codes (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) and 13 linear barcodes (EAN-13, EAN-8, UPC-E, Code 39 incl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, plus the three GS1 DataBar variants). UPC-A is read as EAN-13 with a leading zero. Batch mode keeps the camera open for inventory counts and event check-ins."
+    answer: "Yes - on iPhone and Android. On iPhone, 19 code formats are recognized from the camera or any photo in your library: 6 two-dimensional codes (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) and 13 linear barcodes (EAN-13, EAN-8, UPC-E, Code 39 incl. Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, plus the three GS1 DataBar variants). UPC-A is read as EAN-13 with a leading zero. On Android, the camera reads 13 formats: QR Code, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF and Codabar. On both, batch mode keeps the camera open for inventory counts and event check-ins."
   - question: "Can I write NFC tags with my iPhone?"
     answer: "Yes - every iPhone from iPhone 7 onwards can both read and write NFC tags using NFC.cool Tools. Choose from 25+ message types: URLs, Wi-Fi credentials, contact cards (vCard), iOS Shortcuts, payments, social profiles, and more. Encrypt secrets first with NFC Safe (256-bit AES) for tap-to-unlock workflows."
   - question: "Does NFC.cool support iOS Shortcuts and the Action Button?"

@@ -60,6 +60,12 @@ NFC.cool 电子名片把这件事反了过来：一个由你掌控的 URL，写�
 
 ## 把 URL 写入 NFC 标签
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/write-to-tag-440w.webp" alt="NFC.cool Business Card 的名片菜单，Write to NFC Tag 与 Preview、Show QR Code、Add to Apple Wallet 并列"><p><strong>Write to NFC Tag。</strong>就在名片菜单里。把手机贴到标签上，短链接就写好了。</p></li>
+</ol>
+</figure>
+
 接下来是实体的一面。你可以从 [NFC.cool 商店](https://shop.nfc.cool/collections/all) 或任何第三方零售商那里购买 NFC 标签：贴纸、卡片、钥匙扣，哪种形态合适都行。
 
 在 NFC.cool 中，轻触 **Write business card to NFC tag**。把你的手机贴近标签。App 会写入一个短 URL，指向你在 nfc.cool 上的名片页面。一旦写好，任何拿着手机的人都能轻触它。
@@ -69,6 +75,12 @@ NFC.cool 电子名片把这件事反了过来：一个由你掌控的 URL，写�
 ---
 
 ## 分享前先预览
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="对方看到的名片：Haddad &amp; Lowe 的 Samir Haddad，带 Website、LinkedIn、Facebook 链接和 Save Contact 按钮"><p><strong>对方看到的样子。</strong>在 iPhone 上是原生 App Clip，Save Contact 轻触即可。</p></li>
+</ol>
+</figure>
 
 轻触 **View Business Card**，看看接收者究竟会看到什么。这个页面以移动端为先，加载迅速，并提供一个一触即用的“保存到通讯录”按钮。在 iOS 上，接收者看到的是原生的 App Clip（无需安装 App）；在 Android 上，他们看到的是 nfc.cool 域名下一个清爽的网页。两种情况最终都会把你的联系人存进他们的通讯录。
 

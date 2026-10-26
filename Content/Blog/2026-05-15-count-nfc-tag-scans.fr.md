@@ -77,6 +77,15 @@ Voilà toute la configuration, et je l'ai volontairement gardée aussi courte. �
 
 Si un jour vous voulez l'arrêter, l'app peut désactiver le compteur sur un tag existant. La puce cesse d'insérer des valeurs en direct, mais le contenu reste sur le tag exactement tel qu'il a été écrit la dernière fois. Un détail bon à savoir : la puce continue de compter en interne même après que vous avez désactivé la substitution - le compteur n'est jamais perdu, il cesse simplement d'être affiché.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Configurer un tag qui compte</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/1-tap-counter-440w.webp" alt="L'écran NFC Tap Counter de NFC.cool Tools : un lien qui met à jour le nombre de scans et l'identifiant du tag à chaque lecture, pour NTAG213, NTAG215 et NTAG216"><p><strong>NFC Tap Counter.</strong> Dans NFC Tools, pour les tags NTAG213, 215 et 216.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/2-content-440w.webp" alt="Les contenus possibles URL, Email, SMS et Shortcut, avec Try it out en dessous"><p><strong>Choisissez le contenu.</strong> Une URL, un e-mail, un SMS ou, sur iPhone, un raccourci.</p></li>
+<li><img src="/assets/images/Blog/screens/count-nfc-tag-scans/3-preview-440w.webp" alt="NFC Tap Counter et NFC Tag ID activés, Batch write désactivé, et l'aperçu https://studionord.example/table-7?nfc=049F50824F1390x000007, avec Write to NFC Tag"><p><strong>Interrupteurs et aperçu.</strong> L'aperçu montre où arriveront l'identifiant du tag et le compteur, avant d'écrire.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## Où apparaissent le compteur et l'ID du tag

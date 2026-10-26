@@ -3,28 +3,28 @@ backLinkText: "← Toutes les fonctionnalités"
 
 card:
   title: "Scanner de codes-barres"
-  description: "Scannez 13 formats de codes-barres plus 6 codes bidimensionnels - EAN, UPC, QR, PDF417, Data Matrix et bien d'autres. Le mode par lots garde la caméra ouverte pour l'inventaire et les enregistrements."
+  description: "Scannez EAN, UPC, Code 128, QR, PDF417, Data Matrix et bien d'autres sur iPhone et Android. Le mode par lots garde la caméra ouverte pour l'inventaire et les enregistrements."
   imagePath: "/assets/images/Webflow/qr-barcode.webp"
-  platforms: "iOS uniquement"
+  platforms: "iOS · Android"
 
 hero:
   title: "Scanner de codes-barres"
-  subtitle: "Scannez 19 formats de codes - 13 codes-barres linéaires (EAN, UPC, Code 128, GS1 DataBar et plus) plus 6 codes bidimensionnels (QR, PDF417, Aztec, Data Matrix et leurs variantes Micro). Le mode par lots garde la caméra ouverte pour les inventaires et les enregistrements aux événements."
-  platforms: "iOS uniquement"
+  subtitle: "Scannez EAN, UPC, Code 128, Code 39, ITF, QR, PDF417, Aztec et Data Matrix sur iPhone et Android, plus GS1 DataBar et les variantes Micro sur iPhone - 19 formats au total. Le mode par lots garde la caméra ouverte pour les inventaires et les enregistrements aux événements."
+  platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-barcode.webp"
 
 capabilitiesTitle: "Ce que vous pouvez faire"
 capabilities:
   - title: "Tous les grands formats de codes-barres"
-    description: "Scannez EAN-13/8, UPC-E (UPC-A est lu comme un EAN-13), Code 128, Code 39 (y compris Mod 43), Code 93, ITF, ITF-14, Codabar, GS1 DataBar, PDF417, Aztec, Data Matrix et plus encore - détection automatique du format, sans changement de mode."
+    description: "EAN-13/8, UPC-A/E, Code 128, Code 39, Code 93, ITF, ITF-14, Codabar, PDF417, Aztec, Data Matrix et QR sur les deux plateformes, plus GS1 DataBar, Code 39 Mod 43, Micro QR et Micro PDF417 sur iPhone - détection automatique du format, sans changement de mode."
   - title: "Mode par lots"
     description: "Scannez une pile de codes-barres à la suite sans avoir à viser de nouveau. Pratique pour les inventaires, les enregistrements aux événements ou les archives de bibliothèque."
   - title: "Recherche de produits"
-    description: "Touchez un code-barres commercial scanné pour le rechercher - son numéro est envoyé à un moteur de recherche préconfiguré (Google, Ecosia, DuckDuckGo, Bing ou Startpage) et les résultats correspondants reviennent directement."
+    description: "Touchez un code-barres commercial scanné pour le rechercher - son numéro est envoyé à un moteur de recherche et les résultats correspondants reviennent directement. Sur iPhone, vous choisissez le moteur : Google, Ecosia, DuckDuckGo, Bing ou Startpage."
   - title: "Historique et partage des scans"
     description: "Chaque scan est enregistré avec un horodatage. Ajoutez aux favoris les scans qui comptent, donnez un titre à l'un d'eux et partagez-le directement depuis l'historique."
   - title: "Action automatique à la lecture"
-    description: "Les URL et les codes de raccourci peuvent s'ouvrir automatiquement dès qu'ils sont scannés, déclencher un webhook ou être lus à voix haute - la même automatisation à cinq déclencheurs qui anime le NFC et les QR."
+    description: "Les liens peuvent s'ouvrir dès qu'ils sont scannés, sur iPhone et Android. Sur iPhone, un scan peut aussi lancer un raccourci, déclencher un webhook ou être lu à voix haute - la même automatisation à cinq déclencheurs qui anime le NFC et les QR."
 
 subsectionsTitle: "Conçu pour le scan en grand volume"
 subsections:
@@ -32,7 +32,7 @@ subsections:
     body: "<p>Trois réglages transforment le scanner d'un outil ponctuel en un flux de travail continu. Le <strong>multi-scan</strong> vous permet de scanner plusieurs codes en une seule session caméra. La <strong>lecture par lots</strong> garde la caméra ouverte pour les inventaires ou les enregistrements aux événements. La <strong>lampe automatique</strong> allume la LED en cas de faible luminosité pour vous éviter de chercher le bouton de la lampe torche.</p>"
     imagePath: "/assets/images/Features/qr-scanner-multi-scan-batch-torch.webp"
     imageAlt: "iPhone scannant plusieurs QR codes et codes-barres avec la lampe torche allumée"
-    platforms: "iOS"
+    platforms: "iOS · Android"
 
   - title: "Webhooks pour l'inventaire et les enregistrements aux événements"
     body: "<p>Reliez le scanner de codes-barres à votre système de gestion. Chaque code-barres lu déclenche un webhook vers votre URL, si bien que votre base d'inventaire, votre CRM de participants ou votre catalogue de bibliothèque se mettent à jour en temps réel au fil du scan. Consultez <a href=\"/features/webhooks/\">Webhooks et automatisation</a> pour connaître la structure du payload JSON et un serveur de référence.</p>"
@@ -50,23 +50,23 @@ subsections:
     imageAlt: "NFC.cool synchronisé entre iPhone, iPad et Mac"
     platforms: "iOS"
 
-specsTitle: "Formats pris en charge (19 au total)"
+specsTitle: "Formats pris en charge (19 sur iOS, 13 sur Android)"
 specs:
-  - title: "Codes-barres 1D (13 formats)"
+  - title: "Codes-barres 1D"
     items:
       - "EAN-13, EAN-8"
-      - "UPC-E (UPC-A lu comme un EAN-13)"
-      - "Code 39, Code 39 Mod 43"
+      - "UPC-A, UPC-E (iOS lit UPC-A comme un EAN-13)"
+      - "Code 39 (Mod 43 sur iOS)"
       - "Code 93, Code 128"
       - "Codabar"
       - "Interleaved 2 of 5, ITF-14"
-      - "GS1 DataBar (standard, Expanded, Limited)"
-  - title: "Codes 2D / empilés (6 formats)"
+      - "GS1 DataBar - standard, Expanded, Limited (iOS)"
+  - title: "Codes 2D / empilés"
     items:
       - "QR Code"
-      - "Micro QR"
+      - "Micro QR (iOS)"
       - "PDF417"
-      - "Micro PDF417"
+      - "Micro PDF417 (iOS)"
       - "Aztec"
       - "Data Matrix"
 
@@ -81,8 +81,8 @@ pricing:
 
 faqTitle: "Questions fréquentes"
 faq:
-  - question: "Pourquoi est-ce réservé à iOS ?"
-    answer: "La version Android de NFC.cool se concentre pour l'instant sur le NFC et la carte de visite numérique. Le scan de codes-barres est prévu sur la feuille de route Android."
+  - question: "Le scanner de codes-barres fonctionne-t-il sur Android ?"
+    answer: "Oui. NFC.cool Tools sur Android lit 13 formats - EAN, UPC, Code 128, Code 39, Code 93, ITF, Codabar, QR, PDF417, Aztec et Data Matrix - avec les modes par lots et multi-scan. GS1 DataBar, Micro QR, Micro PDF417, les webhooks au moment du scan et le choix du moteur de recherche restent réservés à l'iPhone pour l'instant."
   - question: "Puis-je scanner plusieurs codes-barres à la fois ?"
     answer: "Oui - le mode par lots garde la caméra ouverte et met en file d'attente chaque code-barres détecté. Touchez n'importe quel élément de la file pour agir dessus."
   - question: "Puis-je enregistrer et partager mes scans ?"

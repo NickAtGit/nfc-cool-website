@@ -143,6 +143,13 @@ NFC.cool Tools gibi bir uygulamada tag yazarken aslında NDEF kayıtları oluşt
 
 ## NFC tag okumak
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="NFC.cool Tools'taki NFC sekmesi, Read NFC ve Write NFC düğmeleriyle"><p><strong>Bir uygulamayla oku.</strong> Read NFC'ye dokun ve tag'i iPhone'unun üst kenarına tut.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="NFC.cool Tools'ta okunmuş bir tag: Anna Miller için bir kartvizit kaydı, altında ham vCard"><p><strong>Üstündeki her şeyi gör.</strong> Yalnızca iOS'un göstereceği bağlantıyı değil, tag'deki her kaydı.</p></li>
+</ol>
+</figure>
+
 ### iPhone'da
 
 iPhone'lar tag'leri kendiliğinden karşılıyor. **iPhone XS ve sonrasında** (ve 3. nesil iPhone SE'de) NFC okuma arka planda çalışıyor: telefonun üstünü tag'e yaklaştır, anında okusun, uygulama gerekmesin. Daha eski iPhone'larda (7, 8, X) önce bir NFC okuyucu uygulaması açman gerekiyor.
@@ -261,6 +268,12 @@ Bir mekana tag'ler sakla, her biri bir ipucu ya da bulmaca versin. Ekip etkinlik
 ---
 
 ## NFC tag'ler ve iPhone Kısayolları
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="NFC.cool Tools'taki NFC ayarları; Read with tag details, Open Web Link when read, Run Shortcut when read ve Play audio file when read açık"><p><strong>Okuyunca kestirme çalıştır.</strong> NFC.cool, bir tag okunduğu anda bağlantı açabilir, kestirme çalıştırabilir ya da ses çalabilir.</p></li>
+</ol>
+</figure>
 
 İnsanlara göstermeyi en sevdiğim şey bu. Apple'ın iOS'a gömülü **Kısayollar** uygulamasında NFC tetikleyicisi desteği var ve tag'lerin iPhone'da kullanışlıdan gerçekten güçlüye dönüştüğü yer burası.
 

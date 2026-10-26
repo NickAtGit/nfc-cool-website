@@ -1,15 +1,18 @@
 hero:
   title: "Lecteur, enregistreur et scanner de tags NFC - NFC.cool Tools"
-  subtitle: "Lisez et écrivez des tags NFC gratuitement sur iPhone et Android - et, sur iPhone, scannez QR codes et codes-barres, numérisez des documents et capturez modèles 3D et pièces."
+  subtitle: "Lisez et écrivez des tags NFC et scannez QR codes et codes-barres gratuitement sur iPhone et Android - et, sur iPhone, numérisez des documents et capturez modèles 3D et pièces."
 
 trust:
   price: "Gratuit"
 
 description: "Des outils NFC gratuits pour iPhone et Android. Lisez n'importe quel tag NFC d'un simple geste, écrivez les vôtres avec des liens, du Wi-Fi et des contacts, sans oublier le scan de QR codes, de codes-barres et la numérisation de documents."
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "Un téléphone lit les tags NFC les uns après les autres et affiche la puce de chacun"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool - Scannez tags NFC, QR codes, codes-barres, documents, objets 3D et pièces"
@@ -19,7 +22,11 @@ featuresTitle: "Tout ce qu'il vous faut pour scanner"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "Une app de carte de visite numérique dédiée pour iPhone et Android - partagez-la d'un simple contact NFC ou via un QR code, et sur iPhone également via un AppClip ou Apple Wallet. Voyez qui enregistre votre carte, organisez vos prospects et activez le mode Conférence pour vos événements en direct."
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "Un téléphone scanne un badge NFC.cool porté autour du cou et affiche le contact"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "Ce qu'en disent les utilisateurs"
 appStoreReviews:
@@ -77,7 +84,7 @@ faq:
   - question: "Quels tags NFC fonctionnent avec NFC.cool ?"
     answer: "Tout tag NFC compatible NDEF - NTAG213, NTAG215, NTAG216, MIFARE Ultralight, ICODE SLIX et la plupart des autres. Le NTAG216 est le choix recommandé par défaut pour un usage général, grâce à sa capacité de 888 octets et à sa large compatibilité avec l'iPhone et Android. Consultez la <a href=\"/affiliate-links/\">page Tags NFC</a> pour les revendeurs testés."
   - question: "NFC.cool peut-il scanner les QR codes et les codes-barres ?"
-    answer: "Oui - 19 formats de codes sont reconnus depuis l'appareil photo de l'iPhone ou depuis n'importe quelle photo de votre bibliothèque : 6 codes bidimensionnels (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) et 13 codes-barres linéaires (EAN-13, EAN-8, UPC-E, Code 39 avec Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, ainsi que les trois variantes GS1 DataBar). L'UPC-A est lu comme un EAN-13 avec un zéro initial. Le mode par lots garde l'appareil photo ouvert pour les inventaires et les enregistrements lors d'événements."
+    answer: "Oui - sur iPhone et sur Android. Sur iPhone, 19 formats de codes sont reconnus depuis l'appareil photo ou depuis n'importe quelle photo de votre bibliothèque : 6 codes bidimensionnels (QR Code, Micro QR, Aztec, Data Matrix, PDF417, Micro PDF417) et 13 codes-barres linéaires (EAN-13, EAN-8, UPC-E, Code 39 avec Mod 43, Code 93, Code 128, Codabar, Interleaved 2 of 5, ITF-14, ainsi que les trois variantes GS1 DataBar). L'UPC-A est lu comme un EAN-13 avec un zéro initial. Sur Android, l'appareil photo lit 13 formats : QR Code, Aztec, Data Matrix, PDF417, EAN-13, EAN-8, UPC-A, UPC-E, Code 128, Code 39, Code 93, ITF et Codabar. Sur les deux, le mode par lots garde l'appareil photo ouvert pour les inventaires et les enregistrements lors d'événements."
   - question: "Puis-je écrire des tags NFC avec mon iPhone ?"
     answer: "Oui - tous les iPhone à partir de l'iPhone 7 peuvent à la fois lire et écrire des tags NFC avec NFC.cool Tools. Choisissez parmi plus de 25 types de messages : URL, identifiants Wi-Fi, cartes de contact (vCard), Raccourcis iOS, paiements, profils sociaux, et plus encore. Chiffrez d'abord vos secrets avec le NFC Safe (AES 256 bits) pour des déverrouillages d'un simple geste."
   - question: "NFC.cool prend-il en charge les Raccourcis iOS et le bouton Action ?"

@@ -143,6 +143,13 @@ Wenn du mit einer App wie NFC.cool Tools einen Tag beschreibst, legst du NDEF-Da
 
 ## NFC-Tags lesen
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/1-read-nfc-440w.webp" alt="Der NFC-Tab in NFC.cool Tools mit den Buttons Read NFC und Write NFC"><p><strong>Mit einer App lesen.</strong> Tippe auf Read NFC und halte den Tag an die Oberkante deines iPhones.</p></li>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/2-record-440w.webp" alt="Ein gelesener Tag in NFC.cool Tools: ein Visitenkarten-Eintrag für Anna Miller, darunter die rohe vCard"><p><strong>Alles sehen, was drauf ist.</strong> Jeder Eintrag auf dem Tag, nicht nur der Link, den iOS zeigt.</p></li>
+</ol>
+</figure>
+
 ### Auf dem iPhone
 
 iPhones kümmern sich von selbst um Tags. Ab dem **iPhone XS** (und auf dem iPhone SE der 3. Generation) läuft das NFC-Lesen im Hintergrund: Halte die Oberkante des Handys in die Nähe eines Tags, und er wird sofort gelesen, ganz ohne App. Bei älteren iPhones (7, 8, X) musst du vorher eine NFC-Reader-App öffnen.
@@ -261,6 +268,12 @@ Verstecke Tags an verschiedenen Stellen, jeder mit einem Hinweis oder Rätsel dr
 ---
 
 ## NFC-Tags und Kurzbefehle auf dem iPhone
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/nfc-tags-beginners-guide/run-shortcut-440w.webp" alt="NFC-Einstellungen in NFC.cool Tools, eingeschaltet sind Read with tag details, Open Web Link when read, Run Shortcut when read und Play audio file when read"><p><strong>Beim Lesen einen Kurzbefehl starten.</strong> NFC.cool kann einen Link öffnen, einen Kurzbefehl starten oder einen Ton abspielen, sobald ein Tag gelesen wird.</p></li>
+</ol>
+</figure>
 
 Das zeige ich Leuten am liebsten. Apples **Kurzbefehle-App** (in iOS schon dabei) kann NFC-Tags nativ als Auslöser nutzen, und genau damit werden Tags auf dem iPhone von praktisch zu richtig mächtig.
 

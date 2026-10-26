@@ -22,6 +22,13 @@ Kontaktdaten auf dem Handy bringen dir nichts, wenn du nicht mehr weißt, warum 
 
 ## Was gefehlt hat, war der Kontext
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/1-networking-440w.webp" alt="Der Tab Networking in NFC.cool Business Card: Priya Raman, getroffen beim Bay Area Product Summit, Tom Alvarez beim Design Systems Meetup, Hanna Vogel beim NFC Developer Day"><p><strong>Wo ihr euch getroffen habt.</strong> Jeder Kontakt trägt das Event und das Datum mit sich.</p></li>
+<li><img src="/assets/images/Blog/screens/smart-context-remember-everyone/2-context-440w.webp" alt="Ein Networking-Kontakt, Priya Raman von Lantern Metrics, mit Add Reminder, Add Meeting und den Details zum Treffen"><p><strong>Wie es weitergeht.</strong> Erinnerungen und Termine landen im Kalender, solange das Gespräch noch frisch ist.</p></li>
+</ol>
+</figure>
+
 Also habe ich NFC.cool Business Card um das erweitert, was ich seitdem das „Gedächtnis-Upgrade“ nenne. Direkt nachdem ihr euch verbunden habt, egal ob per NFC-Scan, App Clip oder über den QR-Code auf dem Sperrbildschirm im Conference Mode, fragt dich die App nach dem Kontext:
 
 - **Wo und wann ihr euch getroffen habt.** Datum und Ort werden automatisch eingetragen, du kannst beides ändern.

@@ -1,15 +1,18 @@
 hero:
   title: "NFC 标签读取、写入与扫描 - NFC.cool Tools"
-  subtitle: "在 iPhone 和 Android 上免费读取与写入 NFC 标签，在 iPhone 上还可以扫描二维码、条形码、文档、3D 模型和房间。"
+  subtitle: "在 iPhone 和 Android 上免费读取与写入 NFC 标签、扫描二维码和条形码，在 iPhone 上还可以扫描文档、3D 模型和房间。"
 
 trust:
   price: "免费"
 
 description: "面向 iPhone 和 Android 的免费 NFC 工具。轻触即可读取任意 NFC 标签，写入你自己的链接、Wi-Fi 和联系人，还能扫描二维码、条形码和文档。"
 
-heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
-heroImageWidth: 2540
-heroImageHeight: 2540
+heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
+heroImageWidth: 480
+heroImageHeight: 480
+heroImageAlt: "手机依次读取一个个 NFC 标签，并显示每个标签的芯片型号"
+heroScene: "nfctags"
+heroScenePosterFrame: 104
 
 ogImage: "/assets/images/og-landing.webp"
 ogImageAlt: "NFC.cool，扫描 NFC 标签、二维码、条形码、文档、3D 物体和房间"
@@ -19,7 +22,11 @@ featuresTitle: "扫描所需的一切"
 featureBanner:
   title: "NFC.cool Business Card"
   subtitle: "面向 iPhone 和 Android 的专用电子名片 App，可通过 NFC 轻触或二维码分享，在 iPhone 上还支持 App Clip 和 Apple Wallet。追踪谁保存了你的名片、整理潜在客户，并在现场活动中开启会议模式。"
-  imagePath: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+  imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
+  imageAlt: "手机扫描挂绳上的 NFC.cool 胸牌，并显示联系人信息"
+  scene: "bizcardroom"
+  scenePosterFrame: 40
+  sceneFrameFill: 0.5
 
 appStoreReviewsTitle: "用户怎么说"
 appStoreReviews:
@@ -77,7 +84,7 @@ faq:
   - question: "哪些 NFC 标签可与 NFC.cool 配合使用？"
     answer: "任何符合 NDEF 的 NFC 标签，包括 NTAG213、NTAG215、NTAG216、MIFARE Ultralight、ICODE SLIX 等。凭借 888 字节的容量以及与 iPhone 和 Android 的广泛兼容性，NTAG216 是日常使用的推荐默认选择。在 <a href=\"/affiliate-links/\">NFC 标签页面</a>可查看经过测试的零售商。"
   - question: "NFC.cool 能扫描二维码和条形码吗？"
-    answer: "可以，能从 iPhone 相机或相册中的任意照片识别 19 种码制：6 种二维码（QR Code、Micro QR、Aztec、Data Matrix、PDF417、Micro PDF417）和 13 种线性条形码（EAN-13、EAN-8、UPC-E、Code 39 含 Mod 43、Code 93、Code 128、Codabar、Interleaved 2 of 5、ITF-14，以及三种 GS1 DataBar 变体）。UPC-A 会作为带前导零的 EAN-13 读取。批量模式会保持相机开启，便于盘点库存和活动签到。"
+    answer: "可以，iPhone 和 Android 都支持。在 iPhone 上，能从相机或相册中的任意照片识别 19 种码制：6 种二维码（QR Code、Micro QR、Aztec、Data Matrix、PDF417、Micro PDF417）和 13 种线性条形码（EAN-13、EAN-8、UPC-E、Code 39 含 Mod 43、Code 93、Code 128、Codabar、Interleaved 2 of 5、ITF-14，以及三种 GS1 DataBar 变体）。UPC-A 会作为带前导零的 EAN-13 读取。在 Android 上，相机可读取 13 种码制：QR Code、Aztec、Data Matrix、PDF417、EAN-13、EAN-8、UPC-A、UPC-E、Code 128、Code 39、Code 93、ITF 和 Codabar。在两个平台上，批量模式都会保持相机开启，便于盘点库存和活动签到。"
   - question: "我可以用 iPhone 写入 NFC 标签吗？"
     answer: "可以，从 iPhone 7 起的每一部 iPhone 都能使用 NFC.cool Tools 读取和写入 NFC 标签。可从 25 种以上的消息类型中选择：URL、Wi-Fi 凭据、联系人名片（vCard）、iOS 快捷指令、支付、社交资料等。先用 NFC Safe（256 位 AES）加密机密信息，即可实现轻触解锁的工作流。"
   - question: "NFC.cool 支持 iOS 快捷指令和操作按钮吗？"

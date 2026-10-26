@@ -78,6 +78,15 @@ ogDescription: "دليل خطوة بخطوة لكتابة وسوم NFC باست�
 
 **نصيحة احترافية:** يقع هوائي NFC في أجهزة iPhone عند **الحافة العلوية** من الهاتف، بالقرب من الكاميرا. للحصول على أقوى اتصال، أمسك الجزء العلوي من iPhone مباشرة فوق الوسم. وإن أردت التحقّق مرة أخرى مما كتبته دون تطبيق، فيمكنك [قراءة وسوم NFC مباشرة من متصفحك](/online-nfc-reader/) على Android.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>كتابة وسمك الأول</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/1-write-nfc-440w.webp" alt="تبويب NFC في NFC.cool Tools مع زرّي Read NFC وWrite NFC"><p><strong>انقر على Write NFC.</strong> تجده في تبويب NFC بجوار Read NFC.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/2-web-link-440w.webp" alt="شاشة Create NFC Message: Web Link وGoogle Review Link وText وBusiness Card وTelephone Number وEmail وSMS وLocation وFaceTime"><p><strong>اختر Web Link.</strong> أو نصًا أو جهة اتصال أو رقم هاتف وغير ذلك. أدخل رابطك واكتبه، ثم قرّب الوسم من أعلى جهاز iPhone.</p></li>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/3-my-messages-440w.webp" alt="My NFC Messages وفيها رابط ويب وبطاقة عمل وسجل Wi-Fi"><p><strong>اعثر عليه مجددًا.</strong> كل ما تكتبه يُحفظ في My NFC Messages، جاهزًا للوسم التالي.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## ماذا يمكنك أن تكتب على وسوم NFC؟
@@ -158,6 +167,12 @@ ogDescription: "دليل خطوة بخطوة لكتابة وسوم NFC باست�
 
 ## متقدّم: الكتابة باستخدام اختصارات iOS
 
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/shortcuts-440w.webp" alt="شاشة Shortcuts في NFC.cool Tools، وفيها عبارات Siri مثل Scan NFC in NFC.cool وScan QR and Barcode in NFC.cool"><p><strong>إجراءات NFC.cool الخاصة.</strong> كل إجراء يضيفه التطبيق إلى الاختصارات وSiri، على بعد نقرة من تطبيق الاختصارات.</p></li>
+</ol>
+</figure>
+
 هنا تصبح الأمور ممتعة بالنسبة لي. يتضمّن تطبيق **الاختصارات** من Apple دعمًا مدمجًا لكتابة NFC، ويوسّعه NFC.cool Tools أكثر بإجراءات الاختصارات الخاصة به.
 
 ### كتابة عنوان URL أساسية باستخدام الاختصارات
@@ -237,6 +252,12 @@ ogDescription: "دليل خطوة بخطوة لكتابة وسوم NFC باست�
 ---
 
 ## قفل وسوم NFC
+
+<figure class="phone-figure" data-layout="float">
+<ol>
+<li><img src="/assets/images/Blog/screens/write-nfc-tags-iphone/lock-440w.webp" alt="شاشة Lock Tag: تجعل الوسم للقراءة فقط إلى الأبد، ولا يمكن التراجع عن ذلك"><p><strong>Lock Tag.</strong> يبقى محتواه مقروءًا على أي هاتف، لكنه لن يتغيّر أبدًا.</p></li>
+</ol>
+</figure>
 
 بمجرد أن تكتب وسمًا وترضى عن محتواه، يمكنك **قفله**. القفل يجعل الوسم للقراءة فقط بشكل دائم - لا يستطيع أحد الكتابة فوق بياناتك. أتعامل مع هذا كخطوة متعمّدة ونهائية، وليس شيئًا أمرّ عليه بسرعة، لأنه لا يوجد تراجع.
 

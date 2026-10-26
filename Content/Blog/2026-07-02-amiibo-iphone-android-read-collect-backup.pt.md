@@ -48,6 +48,15 @@ Três coisas, pela ordem em que provavelmente as vai usar.
 
 **Fazer backup e restaurar.** Com as suas próprias chaves importadas, pode gravar uma cópia com novas chaves de uma figura num NTAG215 em branco. Pode fazer o backup de uma diretamente a partir de uma figura que acabou de ler, ou restaurar a partir de um ficheiro `.bin` guardado no seu dispositivo. A app volta a derivar as chaves para a tag em branco que tem na mão e assina os dados para essa tag, por isso a cópia é válida por si mesma, em vez de uma falsificação byte a byte condenada ao fracasso. A gravação é permanente - depois de a tag ser bloqueada, fica bloqueada - e a app di-lo claramente antes de avançar.
 
+<figure class="phone-figure" data-layout="stage">
+<figcaption>Ler, colecionar, fazer backup</figcaption>
+<ol>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/1-read-440w.webp" alt="Uma figura lida no NFC.cool Tools, Bramble the Badger, com a personagem, a série de jogos, a série, o tipo e o contador de escritas da tag"><p><strong>Ler.</strong> A personagem, a série e o tipo, mais dados da própria tag, sem precisar de chaves.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/2-collect-440w.webp" alt="A Minha Coleção, uma grelha de seis figuras lidas"><p><strong>Colecionar.</strong> Cada figura que lê vai para A Minha Coleção, no seu dispositivo.</p></li>
+<li><img src="/assets/images/Blog/screens/amiibo-iphone-android-read-collect-backup/3-back-up-440w.webp" alt="O ecrã NFC Figures com Scan Figure, My Collection, Restore from Backup e NFC Keys"><p><strong>Fazer backup e restaurar.</strong> Com as suas próprias chaves importadas, escreva um backup numa NTAG215 em branco.</p></li>
+</ol>
+</figure>
+
 ---
 
 ## O que fica deliberadamente de fora
