@@ -70,7 +70,7 @@ description: "إلى جانب NFC.cool Tools وتطبيق Business Card، أطو
 </a>
 
 <a class="page-card app-card" href="/ar/apps/mondego-move/">
-<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="أيقونة تطبيق Mondego Move" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon-v2.webp" alt="أيقونة تطبيق Mondego Move" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>رفيق مستقل لنظام Metro Mondego في منطقة كويمبرا: مخطّط رحلات وخريطة الشبكة والتعرفات.</p>
 <span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>

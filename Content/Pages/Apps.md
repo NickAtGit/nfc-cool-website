@@ -70,7 +70,7 @@ NFC.cool Tools and the Business Card app are the main act, but they are not the 
 </a>
 
 <a class="page-card app-card" href="/apps/mondego-move/">
-<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Mondego Move app icon" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon-v2.webp" alt="Mondego Move app icon" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>An independent companion for the Metro Mondego system in the Coimbra region: trip planner, network map, and fares.</p>
 <span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>

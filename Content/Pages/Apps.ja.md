@@ -70,7 +70,7 @@ NFC.cool ToolsとBusiness Cardアプリが主役ですが、私が作ってい�
 </a>
 
 <a class="page-card app-card" href="/ja/apps/mondego-move/">
-<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Mondego Moveのアプリアイコン" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon-v2.webp" alt="Mondego Moveのアプリアイコン" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>コインブラ地方のMetro Mondego向け非公式コンパニオンアプリ。経路検索、路線図、運賃情報。</p>
 <span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>

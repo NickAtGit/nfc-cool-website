@@ -1,7 +1,7 @@
 ---
 title: "Mondego Move - Coimbra Transit Companion App"
 slug: "apps/mondego-move"
-description: "Mondego Move is an independent companion app for the Metro Mondego system in the Coimbra region: trip planner, network map, fares, and community events you can submit yourself. Available on iPhone and Android."
+description: "Mondego Move is an independent companion app for the Metro Mondego system in the Coimbra region: trip planner, network map, fares, a Coimbra sights guide with a stamp-collecting passport, and community events you can submit yourself. Available on iPhone and Android."
 image: "/assets/images/Apps/mondego-move/01-lines-departures.webp"
 ---
 
@@ -11,11 +11,11 @@ image: "/assets/images/Apps/mondego-move/01-lines-departures.webp"
 
 <div class="page-hero-text">
 
-<img class="app-page-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Mondego Move app icon" width="72" height="72"/>
+<img class="app-page-icon" src="/assets/images/Apps/mondego-move/icon-v2.webp" alt="Mondego Move app icon" width="72" height="72"/>
 
 # Mondego Move
 
-An independent companion app for travelers using the Metro Mondego system in the Coimbra region: plan trips, browse the network map, check fares, and see what is happening around town - in English and Portuguese. Available on the App Store and Google Play.
+An independent companion app for travelers using the Metro Mondego system in the Coimbra region: plan trips, browse the network map, check fares, explore Coimbra's sights, and see what is happening around town - in English and Portuguese. Available on the App Store and Google Play.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6753263298?pt=106913804&ct=web-apps-mondego-move-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -58,8 +58,8 @@ An independent companion app for travelers using the Metro Mondego system in the
 </article>
 
 <article class="page-card">
-<h3>Local businesses</h3>
-<p>Shops, cafes, and services around the network, submitted by the people who run them and reviewed before they appear.</p>
+<h3>Sights and Passport</h3>
+<p>Coimbra's monuments, museums, gardens, and viewpoints, each with the nearest station. Collect a stamp at every one you visit.</p>
 </article>
 
 <article class="page-card">
@@ -67,9 +67,49 @@ An independent companion app for travelers using the Metro Mondego system in the
 <p>Concerts, markets, festivals, and meetups happening nearby - posted by locals, filtered by category, and checked by hand before they go live.</p>
 </article>
 
+<article class="page-card">
+<h3>Local businesses</h3>
+<p>Shops, cafes, and services around the network, submitted by the people who run them and reviewed before they appear.</p>
+</article>
+
 </div>
 
-<p class="app-note">All transit information is sourced exclusively from the official Metro Mondego travel page. Mondego Move is an independently developed app and is not affiliated with, endorsed by, or representative of Metro Mondego, the Municipality of Coimbra, or any government entity.</p>
+<p class="app-note">All transit information is sourced exclusively from the official <a href="https://www.metromondego.pt/en/travel" target="_blank" rel="noopener">Metro Mondego</a> travel page. Mondego Move is an independently developed app and is not affiliated with, endorsed by, or representative of Metro Mondego, the Municipality of Coimbra, or any government entity.</p>
+
+</section>
+
+<section class="page-section page-section--gallery">
+
+<div class="page-gallery">
+<img src="/assets/images/Apps/mondego-move/02-plan-pin.webp" alt="Trip planner with pinned commutes" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/04-station.webp" alt="Station timetable with a countdown to the next departure" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/05-trip.webp" alt="Trip result with route, travel time and fare" loading="lazy"/>
+</div>
+
+</section>
+
+<section class="page-section">
+
+## Explore Coimbra
+
+The Explore tab gathers sights, events, and businesses in one place, and the map can show or hide each of those layers along with transport and car parks.
+
+- **Sights.** Monuments, museums, gardens, and viewpoints in Coimbra and along the metro line, with photos, opening hours, and the nearest station.
+- **Map layers and styles.** Show only what you want on the map, and switch between standard, satellite, hybrid, and 3D styles.
+- **Car parks.** Parking near stations appears on the map and on each station page.
+
+</section>
+
+<section class="page-section">
+
+## Passport and Trails
+
+Visit Coimbra's sights and collect a stamp at each one. Stamps have to be earned on location: the app checks on your device that you are really there, and your position is not sent anywhere for that.
+
+- **Riddles on site.** Many sights carry a small riddle you can only solve once you are standing there. Answers forgive a typo and accept number words and Roman numerals. A sight without a riddle stamps on location alone.
+- **A stamp for every sight.** Each stamp shows a line drawing of its sight. Tap one to see it fullscreen.
+- **Trails.** A trail links several sights into a route. Follow it on its own map or on the main map, which flies to your next stop as you go.
+- **A reward at the end.** Finish a trail and a ticket appears that you swipe to tear. The first trail is Subida à Alta. What waits at the end is a surprise.
 
 </section>
 
@@ -93,12 +133,9 @@ Local businesses work the same way, in their own tab, with the same review step.
 <section class="page-section page-section--gallery">
 
 <div class="page-gallery">
-<img src="/assets/images/Apps/mondego-move/02-plan-pin.webp" alt="Trip planner with pinned commutes" loading="lazy"/>
 <img src="/assets/images/Apps/mondego-move/03-discover.webp" alt="Local events and businesses along the line" loading="lazy"/>
-<img src="/assets/images/Apps/mondego-move/04-station.webp" alt="Station timetable with a countdown to the next departure" loading="lazy"/>
-<img src="/assets/images/Apps/mondego-move/05-trip.webp" alt="Trip result with route, travel time and fare" loading="lazy"/>
-<img src="/assets/images/Apps/mondego-move/07-alerts.webp" alt="Notification history with service alerts" loading="lazy"/>
 <img src="/assets/images/Apps/mondego-move/08-event.webp" alt="Community event in Coimbra with its schedule" loading="lazy"/>
+<img src="/assets/images/Apps/mondego-move/07-alerts.webp" alt="Notification history with service alerts" loading="lazy"/>
 </div>
 
 </section>
@@ -121,12 +158,47 @@ It is a small, honest utility: official data, an independent app, and a communit
 
 <details class="faq-item">
 <summary>Is this the official Metro Mondego app?</summary>
-<p>No. Mondego Move is an independent project and is not affiliated with, endorsed by, or representative of Metro Mondego, the Municipality of Coimbra, or any government entity. For official information, consult Metro Mondego directly.</p>
+<p>No. Mondego Move is an independent project and is not affiliated with, endorsed by, or representative of Metro Mondego, the Municipality of Coimbra, or any government entity. For official information, consult <a href="https://www.metromondego.pt" target="_blank" rel="noopener">Metro Mondego</a> directly.</p>
 </details>
 
 <details class="faq-item">
 <summary>Where does the transit data come from?</summary>
-<p>Exclusively from the official Metro Mondego travel page. Local business and event listings are submitted by users of the app and are not government data.</p>
+<p>Exclusively from the official <a href="https://www.metromondego.pt/en/travel" target="_blank" rel="noopener">Metro Mondego</a> travel page. Local business and event listings are submitted by users of the app and are not government data.</p>
+</details>
+
+<details class="faq-item">
+<summary>Is Mondego Move free?</summary>
+<p>Yes. The app is free on the App Store and Google Play.</p>
+</details>
+
+<details class="faq-item">
+<summary>Which languages does it support?</summary>
+<p>English and Portuguese.</p>
+</details>
+
+<details class="faq-item">
+<summary>Does it work offline?</summary>
+<p>The timetable is built into the app, so next departures and trip plans do not need to download anything. Events, businesses, and live details such as opening hours need a connection.</p>
+</details>
+
+<details class="faq-item">
+<summary>Which lines and fares does it cover?</summary>
+<p>The whole network: the Blue Line (S1, U1), the Red Line (S2, U2), and the Green Line (U3), including the Y that splits at Portagem. Fares cover single tickets, 24-hour, 72-hour, and 7-day passes, and monthly passes for the municipal, intermunicipal, and regional zones, including the Circula PT discounts.</p>
+</details>
+
+<details class="faq-item">
+<summary>How does the Passport know I visited a sight?</summary>
+<p>When you tap to collect a stamp, the app compares your phone's location with the sight's, on the device. If you are close enough, the stamp is yours, plus the riddle if the sight has one. Indoors the signal can be weak, so the app tells you when it cannot tell and lets you try again.</p>
+</details>
+
+<details class="faq-item">
+<summary>Which sights are in the Passport?</summary>
+<p>Monuments, museums, gardens, and viewpoints in Coimbra, such as the Sé Velha, Parque Verde, and Choupal. Every sight can be stamped, and many have a riddle to solve on site.</p>
+</details>
+
+<details class="faq-item">
+<summary>What do I get at the end of a Passport trail?</summary>
+<p>A reward ticket that you swipe to tear. What it is, you will find out when you get there.</p>
 </details>
 
 <details class="faq-item">
@@ -135,8 +207,8 @@ It is a small, honest utility: official data, an independent app, and a communit
 </details>
 
 <details class="faq-item">
-<summary>Is there an iPhone version?</summary>
-<p>Yes. Mondego Move is on the App Store for iPhone and on Google Play for Android, with phone and tablet support on both.</p>
+<summary>Which notifications can I get?</summary>
+<p>Only the ones you switch on: service alerts, timetable changes, updates for a specific line, newly approved events, or offers from local businesses. Earlier notifications stay in a history inside the app.</p>
 </details>
 
 </div>

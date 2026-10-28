@@ -70,7 +70,7 @@ NFC.cool Tools ile Business Card uygulaması baş rolde ama yayınladığım tek
 </a>
 
 <a class="page-card app-card" href="/apps/mondego-move/">
-<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Mondego Move uygulama simgesi" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon-v2.webp" alt="Mondego Move uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>Coimbra bölgesindeki Metro Mondego ağı için bağımsız bir yardımcı: sefer planlayıcı, ağ haritası ve ücretler.</p>
 <span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>

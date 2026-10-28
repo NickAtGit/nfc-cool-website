@@ -94,7 +94,7 @@ enum AppCatalog {
          // (id6753263298) is on the subpage.
          operatingSystem: "ANDROID, IOS",
          applicationCategory: "TravelApplication",
-         iconPath: "/assets/images/Apps/mondego-move/icon.webp",
+         iconPath: "/assets/images/Apps/mondego-move/icon-v2.webp",
          storeURL: "https://play.google.com/store/apps/details?id=pt.coimbra.metromondego",
          rating: nil // Play Console shows no public rating yet
       ),

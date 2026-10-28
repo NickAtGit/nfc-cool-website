@@ -70,7 +70,7 @@ NFC.cool Tools和Business Card应用是主角，但它们并不是我开发的�
 </a>
 
 <a class="page-card app-card" href="/zh/apps/mondego-move/">
-<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Mondego Move应用图标" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon-v2.webp" alt="Mondego Move应用图标" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>科英布拉地区Metro Mondego系统的独立伴侣应用：行程规划、线路图和票价信息。</p>
 <span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>

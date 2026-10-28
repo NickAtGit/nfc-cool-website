@@ -70,7 +70,7 @@ NFC.cool Tools dan aplikasi Business Card adalah bintang utamanya, tapi bukan sa
 </a>
 
 <a class="page-card app-card" href="/id/apps/mondego-move/">
-<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon.webp" alt="Ikon aplikasi Mondego Move" width="64" height="64" loading="lazy"/>
+<img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon-v2.webp" alt="Ikon aplikasi Mondego Move" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>Pendamping independen untuk sistem Metro Mondego di kawasan Coimbra: perencana perjalanan, peta jaringan, dan tarif.</p>
 <span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
