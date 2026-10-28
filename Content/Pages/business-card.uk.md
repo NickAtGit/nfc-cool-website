@@ -24,7 +24,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </a>
 </div>
 
-<p class="page-hero-team-link">Потрібні візитівки для команди? <a href="https://mycard.nfc.cool/org/start/">Створити команду</a></p>
+<p class="page-hero-team-link">Потрібні візитівки для команди? <a href="https://business.nfc.cool/org/start/">Створити команду</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <article class="page-card"><h3>Під'єднай ШІ-асистента</h3><p>Дай ШІ-асистентові контакти команди, щоб він читав їх, ставив теги й нагадував про зв'язок, через підключення MCP від NFC.cool.</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Почати 14 днів безкоштовно</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Почати 14 днів безкоштовно</a></p>
 
 </section>

@@ -24,7 +24,7 @@ Kartu nama digital untuk Anda dan tim Anda. Bagikan dengan satu ketukan, lewat N
 </a>
 </div>
 
-<p class="page-hero-team-link">Mulai kartu untuk tim? <a href="https://mycard.nfc.cool/org/start/">Mulai tim</a></p>
+<p class="page-hero-team-link">Mulai kartu untuk tim? <a href="https://business.nfc.cool/org/start/">Mulai tim</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ Satu orang atau seluruh tim. Personal dan Pro dibeli di aplikasi; tim mulai di w
 <article class="page-card"><h3>Hubungkan asisten AI Anda</h3><p>Beri asisten AI prospek tim Anda untuk dibaca, diberi tag, dan ditindaklanjuti, lewat koneksi MCP NFC.cool.</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Mulai percobaan 14 hari</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Mulai percobaan 14 hari</a></p>
 
 </section>

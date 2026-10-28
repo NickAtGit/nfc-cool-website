@@ -24,7 +24,7 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 </a>
 </div>
 
-<p class="page-hero-team-link">Karten für ein Team? <a href="https://mycard.nfc.cool/org/start/">Team starten</a></p>
+<p class="page-hero-team-link">Karten für ein Team? <a href="https://business.nfc.cool/org/start/">Team starten</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ Eine Person oder ein ganzes Team. Personal und Pro kaufst du in der App, Teams s
 <article class="page-card"><h3>KI-Assistent anbinden</h3><p>Gib einem KI-Assistenten über die MCP-Verbindung von NFC.cool die Leads deines Teams zum Lesen, Taggen und Nachfassen.</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">14 Tage kostenlos testen</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">14 Tage kostenlos testen</a></p>
 
 </section>

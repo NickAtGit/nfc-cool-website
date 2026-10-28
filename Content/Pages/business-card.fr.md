@@ -24,7 +24,7 @@ Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste
 </a>
 </div>
 
-<p class="page-hero-team-link">Des cartes pour une équipe ? <a href="https://mycard.nfc.cool/org/start/">Créer une équipe</a></p>
+<p class="page-hero-team-link">Des cartes pour une équipe ? <a href="https://business.nfc.cool/org/start/">Créer une équipe</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ Une personne ou toute une équipe. Personal et Pro s'achètent dans l'app ; les 
 <article class="page-card"><h3>Connectez votre assistant IA</h3><p>Donnez à un assistant IA les prospects de votre équipe pour les lire, les étiqueter et les relancer, via la connexion MCP de NFC.cool.</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Démarrer l'essai de 14 jours</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Démarrer l'essai de 14 jours</a></p>
 
 </section>

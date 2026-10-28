@@ -24,7 +24,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </a>
 </div>
 
-<p class="page-hero-team-link">هل تريد بطاقات لفريق؟ <a href="https://mycard.nfc.cool/org/start/">ابدأ فريقًا</a></p>
+<p class="page-hero-team-link">هل تريد بطاقات لفريق؟ <a href="https://business.nfc.cool/org/start/">ابدأ فريقًا</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <article class="page-card"><h3>اربط مساعد الذكاء الاصطناعي</h3><p>امنح مساعد ذكاء اصطناعي العملاء المحتملين لفريقك ليقرأهم ويضع عليهم وسومًا ويتابعهم، عبر اتصال MCP من NFC.cool.</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">ابدأ تجربتك لمدة ١٤ يومًا</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">ابدأ تجربتك لمدة ١٤ يومًا</a></p>
 
 </section>

@@ -24,7 +24,7 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 </a>
 </div>
 
-<p class="page-hero-team-link">Biglietti per un team? <a href="https://mycard.nfc.cool/org/start/">Crea un team</a></p>
+<p class="page-hero-team-link">Biglietti per un team? <a href="https://business.nfc.cool/org/start/">Crea un team</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ Una persona o un team intero. Personal e Pro si acquistano nell'app; i team part
 <article class="page-card"><h3>Collega il tuo assistente IA</h3><p>Dai a un assistente IA i lead del tuo team da leggere, taggare e seguire, con la connessione MCP di NFC.cool.</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Inizia i 14 giorni di prova</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Inizia i 14 giorni di prova</a></p>
 
 </section>

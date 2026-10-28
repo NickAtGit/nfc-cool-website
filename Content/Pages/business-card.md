@@ -24,7 +24,7 @@ Digital business cards for you and your team. Share with a tap, by NFC or QR cod
 </a>
 </div>
 
-<p class="page-hero-team-link">Starting cards for a team? <a href="https://mycard.nfc.cool/org/start/">Start a team</a></p>
+<p class="page-hero-team-link">Starting cards for a team? <a href="https://business.nfc.cool/org/start/">Start a team</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ One person or a whole team. Personal and Pro are bought in the app; teams start 
 <article class="page-card"><h3>Connect your AI assistant</h3><p>Give an AI assistant your team's leads to read, tag and follow up, through NFC.cool's MCP connection.</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Start your 14-day trial</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Start your 14-day trial</a></p>
 
 </section>

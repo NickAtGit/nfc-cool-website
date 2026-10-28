@@ -24,7 +24,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </a>
 </div>
 
-<p class="page-hero-team-link">要为团队创建名片？ <a href="https://mycard.nfc.cool/org/start/">开始创建团队</a></p>
+<p class="page-hero-team-link">要为团队创建名片？ <a href="https://business.nfc.cool/org/start/">开始创建团队</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <article class="page-card"><h3>连接您的 AI 助手</h3><p>通过 NFC.cool 的 MCP 连接，让 AI 助手读取团队的线索，并为其打标签、做跟进。</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">开始 14 天试用</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">开始 14 天试用</a></p>
 
 </section>

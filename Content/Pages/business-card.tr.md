@@ -24,7 +24,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 </a>
 </div>
 
-<p class="page-hero-team-link">Ekip için kart mı lazım? <a href="https://mycard.nfc.cool/org/start/">Ekip başlat</a></p>
+<p class="page-hero-team-link">Ekip için kart mı lazım? <a href="https://business.nfc.cool/org/start/">Ekip başlat</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ Tek kişi ya da koca bir ekip. Personal ve Pro uygulamadan alınır, ekipler web
 <article class="page-card"><h3>Yapay zekâ asistanını bağla</h3><p>NFC.cool'un MCP bağlantısıyla bir yapay zekâ asistanına ekibinin müşteri adaylarını okuması, etiketlemesi ve takip etmesi için ver.</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">14 günlük denemeni başlat</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">14 günlük denemeni başlat</a></p>
 
 </section>

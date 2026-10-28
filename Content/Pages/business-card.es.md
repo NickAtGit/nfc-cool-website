@@ -24,7 +24,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 </a>
 </div>
 
-<p class="page-hero-team-link">¿Tarjetas para un equipo? <a href="https://mycard.nfc.cool/org/start/">Crear un equipo</a></p>
+<p class="page-hero-team-link">¿Tarjetas para un equipo? <a href="https://business.nfc.cool/org/start/">Crear un equipo</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ Una persona o un equipo entero. Personal y Pro se compran en la app; los equipos
 <article class="page-card"><h3>Conecta tu asistente de IA</h3><p>Da a un asistente de IA los leads de tu equipo para leerlos, etiquetarlos y hacer seguimiento, mediante la conexión MCP de NFC.cool.</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Empieza tus 14 días de prueba</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Empieza tus 14 días de prueba</a></p>
 
 </section>

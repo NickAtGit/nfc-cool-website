@@ -24,7 +24,7 @@ Cartões de visita digitais para si e para a sua equipa. Partilhe com um toque, 
 </a>
 </div>
 
-<p class="page-hero-team-link">Cartões para uma equipa? <a href="https://mycard.nfc.cool/org/start/">Criar uma equipa</a></p>
+<p class="page-hero-team-link">Cartões para uma equipa? <a href="https://business.nfc.cool/org/start/">Criar uma equipa</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ Uma pessoa ou uma equipa inteira. O Personal e o Pro compram-se na app; as equip
 <article class="page-card"><h3>Ligue o seu assistente de IA</h3><p>Dê a um assistente de IA os leads da sua equipa para ler, etiquetar e acompanhar, através da ligação MCP da NFC.cool.</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">Começar os 14 dias de teste</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Começar os 14 dias de teste</a></p>
 
 </section>

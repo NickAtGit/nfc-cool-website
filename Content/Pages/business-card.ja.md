@@ -24,7 +24,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </a>
 </div>
 
-<p class="page-hero-team-link">チームでカードを使いますか？ <a href="https://mycard.nfc.cool/org/start/">チームを始める</a></p>
+<p class="page-hero-team-link">チームでカードを使いますか？ <a href="https://business.nfc.cool/org/start/">チームを始める</a></p>
 
 </div>
 
@@ -189,6 +189,6 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <article class="page-card"><h3>AIアシスタントとつなぐ</h3><p>NFC.coolのMCP接続で、AIアシスタントにチームのリードを渡し、読み取り、タグ付け、フォローアップを任せられます。</p></article>
 </div>
 
-<p><a class="landing-cta-button" href="https://mycard.nfc.cool/org/start/">14日間のトライアルを始める</a></p>
+<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">14日間のトライアルを始める</a></p>
 
 </section>
