@@ -2,7 +2,8 @@
   "applinks": {
     "apps": [],
     "details": [
-      { "appID": "FMXL9R3NPC.de.nicolo-stanciu.nfcing", "paths": ["NOT /fidget", "NOT /fidget/*", "/*"] }
+      { "appID": "FMXL9R3NPC.cool.nfc.holdem", "paths": ["NOT /holdem/privacy-policy", "NOT /holdem/privacy-policy/*", "NOT /holdem/terms-of-service", "NOT /holdem/terms-of-service/*", "/holdem", "/holdem/*"] },
+      { "appID": "FMXL9R3NPC.de.nicolo-stanciu.nfcing", "paths": ["NOT /fidget", "NOT /fidget/*", "NOT /holdem", "NOT /holdem/*", "/*"] }
     ]
   },
   "appclips": {

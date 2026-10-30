@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "cool.nfc.holdem",
+      "sha256_cert_fingerprints": [
+        "95:EE:5D:D4:5B:13:5D:2F:03:E7:8C:17:FB:EC:83:F5:7B:EE:7C:3F:5D:0B:6E:25:77:A5:A9:D3:B0:08:DA:95"
+      ]
+    }
+  }
+]
