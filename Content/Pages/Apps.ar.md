@@ -34,6 +34,13 @@ description: "إلى جانب NFC.cool Tools وتطبيق Business Card، أطو
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
+<a class="page-card app-card" href="/holdem/">
+<img class="app-card-icon" src="/assets/images/Apps/holdem/icon.webp" alt="أيقونة تطبيق HoldEm" width="64" height="64" loading="lazy"/>
+<h3>HoldEm - Poker with Friends</h3>
+<p>تكساس هولدم على طاولة حقيقية: الجهاز اللوحي يوزّع الأوراق، وكل هاتف يحمل أوراق لاعبه. رقائق للعب فقط، والآن في نسخة تجريبية عامة.</p>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/ar/apps/flight-tracker/">
 <img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="أيقونة تطبيق 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
 <h3>1st Class - Flight Tracker</h3>

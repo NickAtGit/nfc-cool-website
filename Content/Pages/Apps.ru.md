@@ -34,6 +34,13 @@ description: "Кроме NFC.cool Tools и Business Card я выпускаю н�
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
+<a class="page-card app-card" href="/holdem/">
+<img class="app-card-icon" src="/assets/images/Apps/holdem/icon.webp" alt="Иконка приложения HoldEm" width="64" height="64" loading="lazy"/>
+<h3>HoldEm - Poker with Friends</h3>
+<p>Техасский холдем за настоящим столом: планшет раздаёт, а карты каждого игрока у него в телефоне. Только игровые фишки, сейчас в открытой бете.</p>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/apps/flight-tracker/">
 <img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="Иконка приложения 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
 <h3>1st Class - Flight Tracker</h3>

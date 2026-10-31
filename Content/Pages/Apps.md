@@ -34,6 +34,13 @@ NFC.cool Tools and the Business Card app are the main act, but they are not the 
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
+<a class="page-card app-card" href="/holdem/">
+<img class="app-card-icon" src="/assets/images/Apps/holdem/icon.webp" alt="HoldEm app icon" width="64" height="64" loading="lazy"/>
+<h3>HoldEm - Poker with Friends</h3>
+<p>Texas Hold'em at a real table: a tablet deals, every phone holds its player's cards. Play chips only, now in public beta.</p>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/apps/flight-tracker/">
 <img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="1st Class Flight Tracker app icon" width="64" height="64" loading="lazy"/>
 <h3>1st Class - Flight Tracker</h3>

@@ -34,6 +34,13 @@ NFC.cool ToolsとBusiness Cardアプリが主役ですが、私が作ってい�
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
+<a class="page-card app-card" href="/holdem/">
+<img class="app-card-icon" src="/assets/images/Apps/holdem/icon.webp" alt="HoldEmのアプリアイコン" width="64" height="64" loading="lazy"/>
+<h3>HoldEm - Poker with Friends</h3>
+<p>本物のテーブルでテキサスホールデム。タブレットがディーラーになり、各プレイヤーのカードは自分のスマホに。遊び用チップのみ、パブリックベータ公開中。</p>
+<span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
+</a>
+
 <a class="page-card app-card" href="/ja/apps/flight-tracker/">
 <img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="1st Class Flight Trackerのアプリアイコン" width="64" height="64" loading="lazy"/>
 <h3>1st Class - Flight Tracker</h3>
