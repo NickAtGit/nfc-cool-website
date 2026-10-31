@@ -48,7 +48,7 @@ h3 { font-size: 20px; margin: 28px 0 6px; }
 .lead { font-size: 20px; color: var(--muted); margin: 0 0 24px; }
 .meta { color: var(--muted); font-size: 15px; }
 
-ul { padding-left: 22px; }
+ul, ol { padding-left: 22px; }
 li { margin: 6px 0; }
 
 .card {
@@ -58,13 +58,11 @@ li { margin: 6px 0; }
 
 .hero { text-align: center; padding: 18px 0 8px; }
 .hero .icon { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); margin-top: 16px; }
-.badges { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 22px 0 8px; }
-.badge {
-  display: inline-block; padding: 12px 20px; border-radius: 999px; border: 1px solid var(--line);
-  background: rgba(0, 0, 0, 0.3); color: var(--ivory); font-weight: 600; font-size: 15px;
-}
-.badge-link { text-decoration: none; border-color: var(--ivory); }
-.badge-link:hover { background: rgba(255, 255, 255, 0.08); }
+.beta-label { margin: 22px 0 10px; color: var(--muted); font-size: 14px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+.store-buttons { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 0 0 8px; }
+.store-buttons a { display: block; transition: transform 0.15s; }
+.store-buttons a:hover { transform: translateY(-2px); }
+.store-buttons img { display: block; height: 52px; width: auto; }
 
 .shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 34px 0; }
 .shots img { width: 100%; height: auto; border-radius: 16px; box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5); }
