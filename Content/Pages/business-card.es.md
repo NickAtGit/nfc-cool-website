@@ -24,7 +24,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 </a>
 </div>
 
-<p class="page-hero-team-link">¿Tarjetas para un equipo? <a href="https://business.nfc.cool/org/start/">Crear un equipo</a></p>
+<p class="page-hero-team-link">¿Tarjetas para un equipo? <a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Crear un equipo</a></p>
 
 </div>
 
@@ -54,7 +54,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 
 <article class="page-card">
 <h3>Información en tiempo real</h3>
-<p>Visualizaciones del perfil, contactos guardados y leads por día, semana y mes, para que sepas qué eventos funcionan.</p>
+<p>Visualizaciones del perfil, contactos guardados, toques en enlaces y leads por día, semana y mes, para que sepas qué eventos y qué enlaces funcionan.</p>
 </article>
 
 <article class="page-card">
@@ -69,7 +69,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 
 <article class="page-card">
 <h3>Listo para tu equipo</h3>
-<p>Da a cada persona una tarjeta con la marca de tu empresa, con una sola bandeja para todos los leads. <a href="#teams">Qué aportan los equipos</a>.</p>
+<p>Da a cada persona una tarjeta con la marca de tu empresa, con una sola bandeja para todos los leads y una conexión directa con HubSpot. <a href="#teams">Qué aportan los equipos</a>.</p>
 </article>
 
 </div>
@@ -116,6 +116,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 <ul>
 <li><strong>Formularios de captación de leads</strong> - recoge los datos de contacto de quien ve la tarjeta</li>
 <li><strong>Seguimiento de estado</strong> - Nuevo → Contactado → Cualificado → Convertido → Archivado</li>
+<li><strong>Etiquetas y etiquetado automático</strong> - etiqueta de una vez todos los leads de un evento</li>
 <li><strong>Notificaciones en tiempo real</strong> - notificación push instantánea cuando alguien conecta</li>
 <li><strong>Calendario y Recordatorios</strong> - programa seguimientos directamente desde un lead</li>
 </ul>
@@ -126,6 +127,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 <ul>
 <li><strong>Visualizaciones del perfil</strong> - ve exactamente cuánta gente abrió tu tarjeta</li>
 <li><strong>Contactos guardados</strong> - sigue cuántas personas te guardaron en su móvil</li>
+<li><strong>Toques en enlaces</strong> - ve en qué enlaces toca realmente la gente</li>
 <li>Desgloses <strong>diarios / semanales / mensuales</strong> en el panel</li>
 <li><strong>Análisis de tendencias</strong> - entiende cómo evoluciona tu networking con el tiempo</li>
 </ul>
@@ -155,8 +157,9 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 <h3>Modo Conferencia</h3>
 <ul>
 <li><strong>Código QR en la pantalla de bloqueo</strong> - el código QR de tu tarjeta fijado en la pantalla de bloqueo del móvil para que cualquiera pueda escanearlo sin desbloquearlo</li>
-<li><strong>Permanece 8 horas</strong> - cubre un día completo de evento y luego se borra solo</li>
 <li><strong>Sin abrir la app</strong> - solo entrega el móvil, lo escanean y listo</li>
+<li><strong>En directo en los planes de pago</strong> - las visualizaciones, los contactos guardados y los leads nuevos se van sumando en la pantalla de bloqueo, y puedes etiquetar el último lead desde ahí</li>
+<li><strong>Sesiones de evento</strong> - ponle nombre a un evento, etiqueta todos sus leads y recibe un resumen al final</li>
 <li><strong>iPhone y Android</strong> - el mismo Modo Conferencia en ambos</li>
 </ul>
 </article>
@@ -169,7 +172,7 @@ Tarjetas de visita digitales para ti y tu equipo. Comparte con un toque, por NFC
 
 ## Precios
 
-Una persona o un equipo entero. Personal y Pro se compran en la app; los equipos empiezan en la web con 14 días de prueba.
+Una persona o un equipo entero. Cualquier tarjeta se puede guardar como contacto, también en Free. Personal y Pro añaden leads, estadísticas y una tarjeta sin nuestro nombre, y se compran en la app. Los equipos empiezan en la web, gratis durante 14 días, y pagan por persona, al año o al mes. En euros, el precio para equipos es la misma cifra.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -179,16 +182,28 @@ Una persona o un equipo entero. Personal y Pro se compran en la app; los equipos
 
 ## Qué aportan los equipos
 
+Una tarjeta personal pertenece a una persona. En un equipo, las tarjetas pertenecen a la empresa, y eso cambia lo que pueden hacer.
+
 <div class="page-cards-grid">
-<article class="page-card"><h3>Una marca, bloqueada</h3><p>Cada tarjeta lleva tu logo, tus colores y los cargos, y nadie puede salirse de la marca.</p></article>
-<article class="page-card"><h3>Las tarjetas se quedan en la empresa</h3><p>Cuando alguien se va, su tarjeta y los leads que recopiló se quedan en el equipo.</p></article>
-<article class="page-card"><h3>Una bandeja para todos los leads</h3><p>Todo lo que recoge el equipo en un solo lugar, asignado a la persona adecuada, con estado y notas.</p></article>
-<article class="page-card"><h3>Haz seguimiento y conecta</h3><p>Correos de seguimiento con plantillas y webhooks a Zapier, Make o tu propio sistema.</p></article>
-<article class="page-card"><h3>Gestiónalo desde la web</h3><p>Una consola de administración con roles (propietario, administrador, responsable, facturación), invitaciones por correo y facturación por plaza.</p></article>
-<article class="page-card"><h3>Tu dominio, tu pase de Wallet</h3><p>Enlaces de tarjeta en tu propio dominio y pases de Apple Wallet con los colores de tu equipo.</p></article>
-<article class="page-card"><h3>Conecta tu asistente de IA</h3><p>Da a un asistente de IA los leads de tu equipo para leerlos, etiquetarlos y hacer seguimiento, mediante la conexión MCP de NFC.cool.</p></article>
+<article class="page-card"><h3>Una bandeja para todos los leads</h3><p>Todos los leads que recoge el equipo en un solo lugar: asigna cada uno a la persona adecuada, ponle un estado, añade notas y etiquetas, etiqueta toda una feria de una vez y expórtalo todo como hoja de cálculo.</p></article>
+<article class="page-card"><h3>Mira lo que hace cada tarjeta</h3><p>Visualizaciones, contactos guardados y toques en cada enlace. Insights, en la web, muestra todo el equipo, persona por persona y tarjeta por tarjeta, y cada persona ve su propia tarjeta en la app.</p></article>
+<article class="page-card"><h3>Leads a HubSpot o por webhook</h3><p>Conecta HubSpot una vez y cada lead nuevo se convierte en un contacto, con sus notas y su estado. Para cualquier otro sistema, un webhook envía cada lead a donde le indiques.</p></article>
+<article class="page-card"><h3>Seguimiento con tu marca</h3><p>Escribe el correo de seguimiento una vez, con tu logo y tus colores. Cualquiera del equipo lo envía desde el lead, o inicia un seguimiento automático que responde a cada lead de un evento durante un máximo de 7 días.</p></article>
+<article class="page-card"><h3>Una marca en todas las tarjetas</h3><p>Tu logo, el nombre de la empresa y los cargos, definidos una vez y bloqueados. Añade los enlaces de tu empresa a todas las tarjetas y usa tu propio dominio para los enlaces de tarjeta.</p></article>
+<article class="page-card"><h3>Las tarjetas se quedan en la empresa</h3><p>Cuando alguien se va, su tarjeta se queda: el mismo enlace, el mismo código QR, y la etiqueta NFC sigue funcionando para quien llegue después. Todos los leads que recopiló también se quedan.</p></article>
+<article class="page-card"><h3>Se guarda sin app</h3><p>Nada que instalar para la gente que conoces: un App Clip en iPhone, el navegador en Android y en la web. Cada tarjeta es además un pase de Apple Wallet con los colores de tu equipo.</p></article>
+<article class="page-card"><h3>Gestiónalo desde la web</h3><p>Una tarjeta y un acceso para cada persona, en iPhone y Android. Invita por correo, da a cada persona un rol, prepara una tarjeta antes de que alguien empiece y cambia las plazas en cualquier momento.</p></article>
+<article class="page-card"><h3>Conecta tu asistente de IA</h3><p>Claude Code, Codex, Cursor o cualquier asistente que hable MCP puede configurar tu marca, redactar tus invitaciones, crear tarjetas, traer los leads de hoy y enviar los seguimientos.</p></article>
 </div>
+
+</section>
+
+<section class="landing-final-cta">
+<div class="landing-container">
+
+<h2 class="landing-cta-title">¿Todo listo para crear tu equipo?</h2>
 
 <p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Empieza tus 14 días de prueba</a></p>
 
+</div>
 </section>

@@ -24,7 +24,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 </a>
 </div>
 
-<p class="page-hero-team-link">Ekip için kart mı lazım? <a href="https://business.nfc.cool/org/start/">Ekip başlat</a></p>
+<p class="page-hero-team-link">Ekip için kart mı lazım? <a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Ekip başlat</a></p>
 
 </div>
 
@@ -54,7 +54,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 
 <article class="page-card">
 <h3>Anlık içgörüler</h3>
-<p>Profil görüntülemeleri, kişi kaydetmeler ve müşteri adayları günlük, haftalık ve aylık dökümlerle. Hangi etkinliğin işe yaradığını bilirsin.</p>
+<p>Profil görüntülemeleri, kişi kaydetmeler, bağlantı dokunuşları ve müşteri adayları günlük, haftalık ve aylık dökümlerle. Hangi etkinliğin ve hangi bağlantının işe yaradığını bilirsin.</p>
 </article>
 
 <article class="page-card">
@@ -69,7 +69,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 
 <article class="page-card">
 <h3>Ekibin için hazır</h3>
-<p>Herkese şirketinin markasıyla bir kart ver, tüm müşteri adayları tek bir gelen kutusunda toplansın. <a href="#teams">Ekipler neler ekliyor</a>.</p>
+<p>Herkese şirketinin markasıyla bir kart ver, tüm müşteri adayları tek bir gelen kutusunda toplansın ve doğrudan HubSpot'a aksın. <a href="#teams">Ekipler neler ekliyor</a>.</p>
 </article>
 
 </div>
@@ -116,6 +116,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 <ul>
 <li><strong>Bilgi toplama formları</strong> - kartını görenden iletişim bilgisi al</li>
 <li><strong>Durum takibi</strong> - Yeni → İletişime geçildi → Nitelikli → Dönüştürüldü → Arşivlendi</li>
+<li><strong>Etiketler ve otomatik etiketler</strong> - bir etkinlikten gelen tüm müşteri adaylarını tek seferde etiketle</li>
 <li><strong>Anlık bildirimler</strong> - biri bağlandığında hemen haber</li>
 <li><strong>Takvim ve Anımsatıcılar</strong> - takip görüşmesini doğrudan adayın üstünden planla</li>
 </ul>
@@ -126,6 +127,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 <ul>
 <li><strong>Profil görüntülemeleri</strong> - kartını tam olarak kaç kişinin açtığını gör</li>
 <li><strong>Kişi kaydetmeler</strong> - seni telefonuna kaç kişinin kaydettiğini izle</li>
+<li><strong>Bağlantı dokunuşları</strong> - hangi bağlantılarına gerçekten dokunulduğunu gör</li>
 <li><strong>Günlük, haftalık, aylık</strong> dökümler tek panoda</li>
 <li><strong>Eğilim çözümlemesi</strong> - zaman içindeki ağını anla</li>
 </ul>
@@ -155,8 +157,9 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 <h3>Konferans Modu</h3>
 <ul>
 <li><strong>Kilit ekranında QR</strong> - kartının QR kodu telefonunun kilit ekranına sabitlenir, kimse kilidi açmadan tarayabilir</li>
-<li><strong>8 saat kalır</strong> - bir etkinlik gününü karşılar, sonra kendini temizler</li>
 <li><strong>Uygulama açmaya gerek yok</strong> - telefonu uzat, taransın, bitti</li>
+<li><strong>Ücretli planlarda canlı</strong> - görüntülemeler, kaydetmeler ve yeni müşteri adayları kilit ekranında anlık sayılır, en yeni adayı da oradan etiketlersin</li>
+<li><strong>Etkinlik oturumları</strong> - etkinliğe ad ver, oradan gelen her adayı etiketle, sonunda özetini al</li>
 <li><strong>iPhone ve Android</strong> - aynı Konferans Modu ikisinde de var</li>
 </ul>
 </article>
@@ -169,7 +172,7 @@ Sen ve ekibin için dijital kartvizitler. Tek dokunuşla paylaş (NFC ya da QR k
 
 ## Fiyatlandırma
 
-Tek kişi ya da koca bir ekip. Personal ve Pro uygulamadan alınır, ekipler web'de 14 günlük denemeyle başlar.
+Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. Personal ve Pro, müşteri adayı toplama, istatistikler ve üzerinde adımızın geçmediği kart ekler ve uygulamadan alınır. Ekipler web'de 14 gün ücretsiz başlar, kişi başına yıllık ya da aylık öder. Euro cinsinden de ekip fiyatının rakamı aynı kalır.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -179,16 +182,28 @@ Tek kişi ya da koca bir ekip. Personal ve Pro uygulamadan alınır, ekipler web
 
 ## Ekipler neler ekliyor
 
+Kişisel kart tek kişinindir. Ekipte ise kartlar şirketindir ve bu, neler yapabileceklerini değiştirir.
+
 <div class="page-cards-grid">
-<article class="page-card"><h3>Tek marka, kilitli</h3><p>Her kart şirketinin logosunu, renklerini ve unvanlarını taşır, kimse marka dışına çıkamaz.</p></article>
-<article class="page-card"><h3>Kartlar şirkette kalır</h3><p>Biri ayrıldığında kartı ve topladığı müşteri adayları ekipte kalır.</p></article>
-<article class="page-card"><h3>Tüm müşteri adayları için tek gelen kutusu</h3><p>Ekibin topladığı her şey tek yerde, doğru kişiye atanmış, durum ve notlarla.</p></article>
-<article class="page-card"><h3>Takip et, sonra bağla</h3><p>Şablonlu takip e-postaları ve Zapier, Make ya da kendi sistemine webhook'lar.</p></article>
-<article class="page-card"><h3>Web'den yönet</h3><p>Roller (owner, admin, manager, billing), e-posta davetleri ve koltuk başına faturalamayla bir yönetim konsolu.</p></article>
-<article class="page-card"><h3>Senin alan adın, senin Wallet kartın</h3><p>Kendi alan adında kart bağlantıları ve ekibinin renklerinde Apple Wallet kartları.</p></article>
-<article class="page-card"><h3>Yapay zekâ asistanını bağla</h3><p>NFC.cool'un MCP bağlantısıyla bir yapay zekâ asistanına ekibinin müşteri adaylarını okuması, etiketlemesi ve takip etmesi için ver.</p></article>
+<article class="page-card"><h3>Tüm müşteri adayları için tek gelen kutusu</h3><p>Ekibin topladığı her müşteri adayı tek yerde: doğru kişiye ata, durumunu belirle, not ve etiket ekle, koca bir fuarı tek seferde etiketle, hepsini hesap tablosu olarak dışa aktar.</p></article>
+<article class="page-card"><h3>Her kartın ne yaptığını gör</h3><p>Görüntülemeler, kaydetmeler ve her bağlantıya dokunuşlar. Web'deki İçgörüler ekibin tamamını kişi kişi ve kart kart gösterir, herkes kendi kartını uygulamada görür.</p></article>
+<article class="page-card"><h3>Müşteri adayları HubSpot'a ya da webhook'la</h3><p>HubSpot'u bir kez bağla, her yeni aday notları ve durumuyla birlikte kişiye dönüşsün. Başka sistemler için webhook, her adayı gösterdiğin adrese gönderir.</p></article>
+<article class="page-card"><h3>Markanla takip et</h3><p>Takip e-postasını logonla ve renklerinle bir kez yaz. Ekipten herkes onu adayın üstünden gönderir. İstersen bir etkinlikten gelen her adayı 7 güne kadar yanıtlayan otomatik takip başlat.</p></article>
+<article class="page-card"><h3>Her kartta tek marka</h3><p>Logo, şirket adı ve unvanlar bir kez ayarlanır ve kilitlenir. Şirket bağlantılarını her karta ekle, kart bağlantılarını kendi alan adında çalıştır.</p></article>
+<article class="page-card"><h3>Kartlar şirkette kalır</h3><p>Biri ayrıldığında kartı kalır: aynı bağlantı, aynı QR kod, NFC tag de sonra gelen kişi için çalışmaya devam eder. Topladığı her müşteri adayı da kalır.</p></article>
+<article class="page-card"><h3>Uygulama olmadan kaydedilir</h3><p>Tanıştığın kişilerin hiçbir şey kurması gerekmez: iPhone'da App Clip, Android'de ve web'de tarayıcı yeter. Her kart aynı zamanda ekibinin renklerinde Apple Wallet kartıdır.</p></article>
+<article class="page-card"><h3>Web'den yönet</h3><p>Kişi başı bir kart ve bir giriş, iPhone'da da Android'de de. E-postayla davet et, herkese rol ver, kişi işe başlamadan kartını hazırla, koltuk sayısını istediğin an değiştir.</p></article>
+<article class="page-card"><h3>Yapay zekâ asistanını bağla</h3><p>Claude Code, Codex, Cursor ya da MCP destekleyen herhangi bir asistan markanı ayarlar, davetlerinin taslağını yazar, kart oluşturur, günün müşteri adaylarını çeker ve takip e-postalarını gönderir.</p></article>
 </div>
+
+</section>
+
+<section class="landing-final-cta">
+<div class="landing-container">
+
+<h2 class="landing-cta-title">Ekibini kurmaya hazır mısın?</h2>
 
 <p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">14 günlük denemeni başlat</a></p>
 
+</div>
 </section>

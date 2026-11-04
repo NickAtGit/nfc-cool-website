@@ -24,7 +24,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </a>
 </div>
 
-<p class="page-hero-team-link">要为团队创建名片？ <a href="https://business.nfc.cool/org/start/">开始创建团队</a></p>
+<p class="page-hero-team-link">要为团队创建名片？ <a class="landing-cta-button" href="https://business.nfc.cool/org/start/">开始创建团队</a></p>
 
 </div>
 
@@ -54,7 +54,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 <article class="page-card">
 <h3>实时数据洞察</h3>
-<p>资料浏览量、联系人保存数和线索，按日、周、月分别统计，让您知道哪些活动有效。</p>
+<p>资料浏览量、联系人保存数、链接点击数和线索，按日、周、月分别统计，让您知道哪些活动和哪些链接有效。</p>
 </article>
 
 <article class="page-card">
@@ -69,7 +69,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 <article class="page-card">
 <h3>为团队准备</h3>
-<p>让每个人都拥有符合公司品牌的名片，所有线索汇入同一个收件箱。<a href="#teams">团队版新增了什么</a>。</p>
+<p>让每个人都拥有符合公司品牌的名片，所有线索汇入同一个收件箱，并可直通 HubSpot。<a href="#teams">团队版新增了什么</a>。</p>
 </article>
 
 </div>
@@ -116,6 +116,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <ul>
 <li><strong>线索收集表单</strong>：从查看者那里收集联系方式</li>
 <li><strong>状态追踪</strong>：新建 → 已联系 → 已确认意向 → 已转化 → 已归档</li>
+<li><strong>标签与自动标签</strong>：一次为同一场活动的所有线索打上标签</li>
 <li><strong>实时通知</strong>：有人与您建立联系时即时推送</li>
 <li><strong>日历与提醒事项</strong>：直接从一条线索安排后续跟进</li>
 </ul>
@@ -126,6 +127,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <ul>
 <li><strong>资料浏览量</strong>：清楚看到有多少人打开过您的名片</li>
 <li><strong>联系人保存数</strong>：追踪有多少人把您存进了手机</li>
+<li><strong>链接点击数</strong>：看看人们实际点击了您的哪些链接</li>
 <li>仪表盘中按<strong>日 / 周 / 月</strong>分项统计</li>
 <li><strong>趋势分析</strong>：把握自己人脉拓展的长期走势</li>
 </ul>
@@ -155,8 +157,9 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>会议模式</h3>
 <ul>
 <li><strong>锁定屏幕上的二维码</strong>：将名片二维码固定在手机锁定屏幕上，无需解锁，任何人都能扫描</li>
-<li><strong>持续 8 小时</strong>：覆盖一整天的活动，之后自动清除</li>
 <li><strong>无需打开应用</strong>：直接把手机递过去，对方一扫即可，就这么简单</li>
+<li><strong>付费版实时更新</strong>：浏览量、保存数和新线索在锁定屏幕上实时累计，您还可以直接在那里为最新的线索打标签</li>
+<li><strong>活动场次</strong>：为活动命名，为其中的每条线索打上标签，并在结束时收到一份总结</li>
 <li><strong>iPhone 和 Android</strong>：两个平台的会议模式完全一致</li>
 </ul>
 </article>
@@ -169,7 +172,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 ## 价格
 
-无论个人还是整个团队。Personal 和 Pro 在应用内购买，团队从网页开始，可享 14 天试用。
+无论个人还是整个团队。每张名片都可以保存为联系人，Free 版也不例外。Personal 和 Pro 增加了线索、数据分析和不带我们名称的名片，在应用内购买。团队从网页开始，可免费使用 14 天，之后按人数付费，可选按年或按月。以欧元计价时，团队价格的数字相同。
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -179,16 +182,28 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 ## 团队版新增了什么
 
+个人名片属于一个人。而在团队中，名片属于公司，它们能做的事也因此不同。
+
 <div class="page-cards-grid">
-<article class="page-card"><h3>统一品牌，锁定样式</h3><p>每张名片都带有公司的徽标、品牌色和职位，没有人能偏离品牌形象。</p></article>
-<article class="page-card"><h3>名片归公司所有</h3><p>有人离职后，他的名片和收集到的线索仍留在团队中。</p></article>
-<article class="page-card"><h3>所有线索一个收件箱</h3><p>团队收集的一切集中在一处，分配给合适的人，并附有状态和备注。</p></article>
-<article class="page-card"><h3>跟进，再对接</h3><p>基于模板的跟进邮件，以及对接 Zapier、Make 或您自己系统的 Webhook。</p></article>
-<article class="page-card"><h3>在网页上管理</h3><p>管理后台支持角色（所有者、管理员、经理、账单）、邮件邀请和按席位计费。</p></article>
-<article class="page-card"><h3>您的域名，您的 Wallet 卡券</h3><p>使用自己域名的名片链接，以及采用团队配色的 Apple Wallet 卡券。</p></article>
-<article class="page-card"><h3>连接您的 AI 助手</h3><p>通过 NFC.cool 的 MCP 连接，让 AI 助手读取团队的线索，并为其打标签、做跟进。</p></article>
+<article class="page-card"><h3>所有线索一个收件箱</h3><p>团队收集的每条线索都集中在一处：分配给合适的人、设置状态、添加备注和标签、一次为整场展会的线索打标签，还能全部导出为电子表格。</p></article>
+<article class="page-card"><h3>看清每张名片的效果</h3><p>浏览量、保存数和每个链接的点击数。网页端的数据洞察按人、按名片展示整个团队的情况，每个人也能在应用内查看自己的名片。</p></article>
+<article class="page-card"><h3>线索进入 HubSpot，或通过 Webhook 发送</h3><p>只需连接一次 HubSpot，每条新线索都会成为联系人，并带上备注和状态。对于其他系统，Webhook 会把每条线索发送到您指定的地方。</p></article>
+<article class="page-card"><h3>用您的品牌跟进</h3><p>跟进邮件只需写一次，带上您的徽标和配色。团队中任何人都可以直接从线索发送；也可以启动自动跟进，在最多 7 天内回复某场活动的每条线索。</p></article>
+<article class="page-card"><h3>每张名片统一品牌</h3><p>您的徽标、公司名称和职位，一次设定后即锁定。为每张名片添加公司链接，并让名片链接使用您自己的域名。</p></article>
+<article class="page-card"><h3>名片归公司所有</h3><p>有人离开时，名片依然保留：链接不变，二维码不变，NFC 标签也能继续供接任者使用。他收集的每条线索同样留在公司。</p></article>
+<article class="page-card"><h3>无需应用即可保存</h3><p>您遇到的人无需安装任何东西：iPhone 上用 App Clip，Android 和网页端用浏览器即可。每张名片同时也是一张采用团队配色的 Apple Wallet 卡券。</p></article>
+<article class="page-card"><h3>在网页上管理</h3><p>每人一张名片和一个登录账号，支持 iPhone 和 Android。通过邮件邀请，为每个人分配角色，在新成员入职前准备好名片，并可随时调整席位。</p></article>
+<article class="page-card"><h3>连接您的 AI 助手</h3><p>Claude Code、Codex、Cursor 或任何支持 MCP 的助手，都可以帮您设置品牌、起草邀请、创建名片、提取当天的线索并发送跟进邮件。</p></article>
 </div>
+
+</section>
+
+<section class="landing-final-cta">
+<div class="landing-container">
+
+<h2 class="landing-cta-title">准备好为团队开通名片了吗？</h2>
 
 <p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">开始 14 天试用</a></p>
 
+</div>
 </section>

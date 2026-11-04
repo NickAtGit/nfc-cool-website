@@ -3,22 +3,34 @@
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Prix"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 par personne et par mois, ou $50 par an"]
+    values: ["**$0**", "**$19,99**", "**$49,99**", "$50 par personne et par an, ou $5 par mois"]
   - label: "Cartes"
-    values: ["1", "1", "10", "Une par personne"]
-  - label: "Partage, Apple Wallet, Mode Conférence, code PIN, export des données"
+    values: ["1", "1", "10", "Jusqu'à 10 par personne"]
+  - label: "Partage, Apple Wallet, code QR du Mode Conférence, code PIN, export des données"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Enregistrement de la vCard"
+  - label: "Enregistrement du contact depuis votre carte"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Pas de « Made with NFC.cool » sur votre carte"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Génération de prospects"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Statistiques"
+  - label: "Statistiques : vues, enregistrements et clics sur les liens"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Marque de l'entreprise"
+  - label: "Compteurs en direct et nouveaux prospects sur l'écran de verrouillage"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Marque de l'entreprise, verrouillée sur chaque carte"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Console d'administration"
+  - label: "Tableau de bord web avec rôles et invitations"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Boîte de réception de prospects partagée"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Statistiques d'équipe, carte par carte"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "HubSpot et webhooks"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "E-mails de relance à votre image et automatiques"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Connectez votre assistant IA"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Où l'acheter"
     values: ["Dans l'app", "Dans l'app", "Dans l'app", "Sur le web, 14 jours d'essai"]

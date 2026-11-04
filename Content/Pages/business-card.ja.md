@@ -24,7 +24,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 </a>
 </div>
 
-<p class="page-hero-team-link">チームでカードを使いますか？ <a href="https://business.nfc.cool/org/start/">チームを始める</a></p>
+<p class="page-hero-team-link">チームでカードを使いますか？ <a class="landing-cta-button" href="https://business.nfc.cool/org/start/">チームを始める</a></p>
 
 </div>
 
@@ -54,7 +54,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 <article class="page-card">
 <h3>リアルタイムの分析</h3>
-<p>プロフィールの表示数、連絡先の保存数、リードを日次・週次・月次で確認でき、どのイベントが効果的かがわかります。</p>
+<p>プロフィールの表示数、連絡先の保存数、リンクのタップ数、リードを日次・週次・月次で確認でき、どのイベントとどのリンクが効果的かがわかります。</p>
 </article>
 
 <article class="page-card">
@@ -69,7 +69,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 <article class="page-card">
 <h3>チームにも対応</h3>
-<p>全員に会社のブランドのカードを配り、リードは1つの受信箱に集約。<a href="#teams">チームでできること</a>。</p>
+<p>全員に会社のブランドのカードを配り、リードは1つの受信箱に集約してHubSpotにも連携。<a href="#teams">チームでできること</a>。</p>
 </article>
 
 </div>
@@ -116,6 +116,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <ul>
 <li><strong>リード取得フォーム</strong> - 閲覧者から自動的に連絡先を収集</li>
 <li><strong>ステータス管理</strong> - 新規 → 連絡済み → 見込みあり → 成約 → アーカイブ済み</li>
+<li><strong>タグと自動タグ</strong> - イベントで得たリードをまとめてタグ付け</li>
 <li><strong>リアルタイム通知</strong> - 接続があるとプッシュで即通知</li>
 <li><strong>カレンダー & リマインダー</strong> - リードから直接フォローアップを設定</li>
 </ul>
@@ -126,6 +127,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <ul>
 <li><strong>プロフィール表示</strong> - 何人がカードを開いたか</li>
 <li><strong>連絡先保存</strong> - 何人がデバイスに保存したか</li>
+<li><strong>リンクのタップ</strong> - どのリンクが実際にタップされているか</li>
 <li><strong>日 / 週 / 月</strong> 別の分析ダッシュボード</li>
 <li><strong>トレンド分析</strong> - 時間軸でネットワーキング傾向を把握</li>
 </ul>
@@ -155,8 +157,9 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 <h3>カンファレンスモード</h3>
 <ul>
 <li><strong>ロック画面にQR</strong> - あなたの名刺のQRコードが端末のロック画面に表示され、解除なしでスキャン可能</li>
-<li><strong>8時間表示</strong> - 1日のイベントをカバー、その後自動で消えます</li>
 <li><strong>アプリを開く必要なし</strong> - 端末を差し出すだけで完了</li>
+<li><strong>有料プランならライブ表示</strong> - 表示数、保存数、新しいリードの数がロック画面で増えていき、最新のリードにもその場でタグ付け可能</li>
+<li><strong>イベントセッション</strong> - イベントに名前を付け、そこで得たすべてのリードにタグを付け、終了時にサマリーを受け取れます</li>
 <li><strong>iPhoneとAndroid</strong> - どちらも同じカンファレンスモードを利用できます</li>
 </ul>
 </article>
@@ -169,7 +172,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 ## 料金プラン
 
-個人でもチームでも。PersonalとProはアプリで購入、チームはWebから14日間のトライアルで始められます。
+個人でもチームでも。Freeも含め、どのカードも連絡先として保存できます。PersonalとProではリード、アナリティクス、当社の名前が入らないカードが加わり、アプリで購入できます。チームはWebから14日間無料で始められ、料金は1人あたりの年払いまたは月払いです。チーム料金はユーロでも同じ数字です。
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -179,16 +182,28 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 ## チームでできること
 
+個人のカードは1人のものです。チームでは、カードは会社のものになり、それによってできることが変わります。
+
 <div class="page-cards-grid">
-<article class="page-card"><h3>ブランドを固定</h3><p>すべてのカードに会社のロゴ、色、役職が入り、ブランドから外れることはありません。</p></article>
-<article class="page-card"><h3>カードは会社に残る</h3><p>退職してもカードと集めたリードはチームに残ります。</p></article>
-<article class="page-card"><h3>すべてのリードを1つの受信箱に</h3><p>チームが集めたものを1か所に。適切な担当者に割り当て、ステータスとメモも管理できます。</p></article>
-<article class="page-card"><h3>フォローして、つなぐ</h3><p>テンプレートでフォローアップのメールを送り、Zapier、Make、自社システムへWebhookで連携します。</p></article>
-<article class="page-card"><h3>Webから運用</h3><p>役割（オーナー、管理者、マネージャー、請求）、メール招待、シート単位の請求を備えた管理コンソール。</p></article>
-<article class="page-card"><h3>自社ドメインとWalletパス</h3><p>自社ドメインのカードリンクと、チームの色のApple Walletパス。</p></article>
-<article class="page-card"><h3>AIアシスタントとつなぐ</h3><p>NFC.coolのMCP接続で、AIアシスタントにチームのリードを渡し、読み取り、タグ付け、フォローアップを任せられます。</p></article>
+<article class="page-card"><h3>すべてのリードを1つの受信箱に</h3><p>チームが集めたリードを1か所に。適切な担当者への割り当て、ステータスの設定、メモとタグの追加、展示会1つ分のリードへの一括タグ付け、スプレッドシートへのエクスポートまでできます。</p></article>
+<article class="page-card"><h3>カードごとの成果を確認</h3><p>表示数、保存数、リンクごとのタップ数。Web版のインサイトではチーム全体を人ごと、カードごとに確認でき、各メンバーはアプリで自分のカードを確認できます。</p></article>
+<article class="page-card"><h3>リードをHubSpotへ、またはWebhookで</h3><p>HubSpotを一度接続すれば、新しいリードはメモとステータス付きで連絡先になります。その他のシステムには、Webhookが各リードを指定の送信先へ届けます。</p></article>
+<article class="page-card"><h3>自社ブランドでフォローアップ</h3><p>ロゴと色を入れたフォローアップメールを一度作成するだけ。チームの誰でもリードから送信できます。自動フォローアップを開始すれば、イベントで得たすべてのリードに最長7日間返信します。</p></article>
+<article class="page-card"><h3>すべてのカードに1つのブランド</h3><p>ロゴ、会社名、役職は一度設定すればロックされます。すべてのカードに会社のリンクを追加し、カードのリンクを自社ドメインで運用できます。</p></article>
+<article class="page-card"><h3>カードは会社に残る</h3><p>メンバーが異動や退職をしても、カードは残ります。リンクもQRコードも同じままで、NFCタグは後任の人にもそのまま使えます。集めたリードもすべて残ります。</p></article>
+<article class="page-card"><h3>アプリなしで保存</h3><p>出会った相手は何もインストールする必要がありません。iPhoneではApp Clip、AndroidとWebではブラウザで開けます。すべてのカードは、チームの色のApple Walletパスにもなります。</p></article>
+<article class="page-card"><h3>Webから運用</h3><p>1人につきカード1枚とログインを1つ、iPhoneとAndroidで利用できます。メールで招待し、メンバーごとに役割を設定し、入社前にカードを準備でき、シート数はいつでも変更できます。</p></article>
+<article class="page-card"><h3>AIアシスタントとつなぐ</h3><p>Claude Code、Codex、Cursor、またはMCPに対応したアシスタントなら、ブランドの設定、招待の下書き、カードの作成、今日のリードの取得、フォローアップの送信まで行えます。</p></article>
 </div>
+
+</section>
+
+<section class="landing-final-cta">
+<div class="landing-container">
+
+<h2 class="landing-cta-title">チームで使い始めませんか？</h2>
 
 <p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">14日間のトライアルを始める</a></p>
 
+</div>
 </section>

@@ -3,22 +3,34 @@
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Preis"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 pro Person und Monat oder $50 im Jahr"]
+    values: ["**$0**", "**$19,99**", "**$49,99**", "$50 pro Person im Jahr oder $5 im Monat"]
   - label: "Karten"
-    values: ["1", "1", "10", "Eine pro Person"]
-  - label: "Teilen, Apple Wallet, Konferenzmodus, PIN, Datenexport"
+    values: ["1", "1", "10", "Bis zu 10 pro Person"]
+  - label: "Teilen, Apple Wallet, Konferenzmodus-QR, PIN, Datenexport"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "vCard speichern"
+  - label: "„Kontakt speichern“ auf deiner Karte"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Kein „Made with NFC.cool“ auf deiner Karte"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Lead-Generierung"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Analysen"
+  - label: "Analysen: Aufrufe, Speicherungen und Link-Klicks"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Firmenmarke"
+  - label: "Live-Zahlen und neue Leads auf dem Sperrbildschirm"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Firmenmarke, auf jeder Karte gesperrt"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Admin-Konsole"
+  - label: "Web-Dashboard mit Rollen und Einladungen"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Gemeinsames Lead-Postfach"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Team-Auswertung, Karte für Karte"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "HubSpot und Webhooks"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Gebrandete und automatische Nachfass-E-Mails"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "KI-Assistent anbinden"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Erhältlich"
     values: ["In der App", "In der App", "In der App", "Im Web, 14 Tage kostenlos testen"]

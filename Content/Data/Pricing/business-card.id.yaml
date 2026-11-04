@@ -3,22 +3,34 @@
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Harga"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "$5 per orang per bulan, atau $50 per tahun"]
+    values: ["**$0**", "**$19.99**", "**$49.99**", "$50 per orang per tahun, atau $5 per bulan"]
   - label: "Kartu"
-    values: ["1", "1", "10", "Satu per orang"]
-  - label: "Berbagi, Apple Wallet, Conference Mode, PIN, ekspor data"
+    values: ["1", "1", "10", "Hingga 10 per orang"]
+  - label: "Berbagi, Apple Wallet, QR Conference Mode, PIN, ekspor data"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Simpan vCard"
+  - label: "Simpan Kontak di kartu Anda"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Tanpa \"Made with NFC.cool\" di kartu Anda"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Generasi prospek"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Analitik"
+  - label: "Analitik: tampilan, penyimpanan, dan ketukan tautan"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Merek perusahaan"
+  - label: "Hitungan real-time dan prospek baru di Layar Kunci"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Merek perusahaan, terkunci di setiap kartu"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Konsol admin"
+  - label: "Dasbor web dengan peran dan undangan"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Kotak masuk prospek bersama"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Wawasan tim, kartu per kartu"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "HubSpot dan webhook"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "E-mail tindak lanjut bermerek dan otomatis"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Hubungkan asisten AI Anda"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Tempat membeli"
     values: ["Di aplikasi", "Di aplikasi", "Di aplikasi", "Di web, percobaan 14 hari"]

@@ -24,7 +24,7 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 </a>
 </div>
 
-<p class="page-hero-team-link">Karten für ein Team? <a href="https://business.nfc.cool/org/start/">Team starten</a></p>
+<p class="page-hero-team-link">Karten für ein Team? <a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Team starten</a></p>
 
 </div>
 
@@ -54,7 +54,7 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 
 <article class="page-card">
 <h3>Echtzeit-Einblicke</h3>
-<p>Profilaufrufe, gespeicherte Kontakte und Leads nach Tag, Woche und Monat. So weißt du, welche Events funktionieren.</p>
+<p>Profilaufrufe, gespeicherte Kontakte, Link-Klicks und Leads nach Tag, Woche und Monat. So weißt du, welche Events und welche Links funktionieren.</p>
 </article>
 
 <article class="page-card">
@@ -69,7 +69,7 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 
 <article class="page-card">
 <h3>Bereit für dein Team</h3>
-<p>Gib allen eine Karte im Erscheinungsbild deiner Firma, mit einem Postfach für alle Leads. <a href="#teams">Das bringen Teams</a>.</p>
+<p>Gib allen eine Karte im Erscheinungsbild deiner Firma, mit einem Postfach für alle Leads und einem direkten Draht zu HubSpot. <a href="#teams">Das bringen Teams</a>.</p>
 </article>
 
 </div>
@@ -116,6 +116,7 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 <ul>
 <li><strong>Lead-Formulare</strong> - Kontaktdaten von Betrachtern erfassen</li>
 <li><strong>Status-Tracking</strong> - Neu → Kontaktiert → Qualifiziert → Konvertiert → Archiviert</li>
+<li><strong>Tags und Auto-Tags</strong> - alle Leads eines Events auf einmal taggen</li>
 <li><strong>Echtzeit-Benachrichtigungen</strong> - sofortige Push-Mitteilung, wenn sich jemand bei dir meldet</li>
 <li><strong>Kalender & Erinnerungen</strong> - das Nachfassen direkt aus einem Lead planen</li>
 </ul>
@@ -126,6 +127,7 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 <ul>
 <li><strong>Profilaufrufe</strong> - wie viele Personen deine Karte geöffnet haben</li>
 <li><strong>Gespeicherte Kontakte</strong> - wie viele dich in ihre Kontakte aufgenommen haben</li>
+<li><strong>Link-Klicks</strong> - welche deiner Links wirklich angeklickt werden</li>
 <li><strong>Tag / Woche / Monat</strong> im Dashboard aufgeschlüsselt</li>
 <li><strong>Trendanalyse</strong> - verstehe dein Networking über die Zeit</li>
 </ul>
@@ -155,8 +157,9 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 <h3>Konferenzmodus</h3>
 <ul>
 <li><strong>QR auf dem Sperrbildschirm</strong> - der QR-Code deiner Karte ist auf dem Sperrbildschirm deines Handys angeheftet und lässt sich ohne Entsperren scannen</li>
-<li><strong>Bleibt 8 Stunden</strong> - deckt einen kompletten Event-Tag ab, danach wird er automatisch entfernt</li>
 <li><strong>App muss nicht offen sein</strong> - Telefon hinhalten, scannen lassen, fertig</li>
+<li><strong>Live in den Bezahlplänen</strong> - Aufrufe, Speicherungen und neue Leads zählen auf dem Sperrbildschirm mit, und den neuesten Lead kannst du direkt dort taggen</li>
+<li><strong>Event-Sessions</strong> - Event benennen, alle Leads daraus taggen und am Ende eine Zusammenfassung bekommen</li>
 <li><strong>iPhone und Android</strong> - derselbe Konferenzmodus auf beiden</li>
 </ul>
 </article>
@@ -169,7 +172,7 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 
 ## Preise
 
-Eine Person oder ein ganzes Team. Personal und Pro kaufst du in der App, Teams starten im Web mit 14 Tagen Testphase.
+Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, auch mit Free. Personal und Pro bringen Leads, Analysen und eine Karte ohne unseren Namen darauf, und du kaufst sie in der App. Teams starten im Web, 14 Tage kostenlos, und zahlen pro Person, jährlich oder monatlich. In Euro gilt beim Team-Preis dieselbe Zahl.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -179,16 +182,28 @@ Eine Person oder ein ganzes Team. Personal und Pro kaufst du in der App, Teams s
 
 ## Das bringen Teams
 
+Eine persönliche Karte gehört einer Person. Im Team gehören die Karten der Firma, und das ändert, was sie können.
+
 <div class="page-cards-grid">
-<article class="page-card"><h3>Eine Marke, fest verankert</h3><p>Jede Karte trägt euer Logo, eure Farben und Jobtitel, und niemand kann vom Markenauftritt abweichen.</p></article>
-<article class="page-card"><h3>Karten bleiben im Unternehmen</h3><p>Wenn jemand geht, bleiben seine Karte und die gesammelten Leads beim Team.</p></article>
-<article class="page-card"><h3>Ein Postfach für alle Leads</h3><p>Alles, was das Team sammelt, an einem Ort, der richtigen Person zugewiesen, mit Status und Notizen.</p></article>
-<article class="page-card"><h3>Nachfassen und verbinden</h3><p>Vorlagen für Nachfass-E-Mails und Webhooks zu Zapier, Make oder deinem eigenen System.</p></article>
-<article class="page-card"><h3>Alles im Web steuern</h3><p>Eine Admin-Konsole mit Rollen (Inhaber, Admin, Manager, Abrechnung), Einladungen per E-Mail und Abrechnung pro Platz.</p></article>
-<article class="page-card"><h3>Deine Domain, dein Wallet-Pass</h3><p>Kartenlinks auf eurer eigenen Domain und Apple-Wallet-Pässe in den Farben eures Teams.</p></article>
-<article class="page-card"><h3>KI-Assistent anbinden</h3><p>Gib einem KI-Assistenten über die MCP-Verbindung von NFC.cool die Leads deines Teams zum Lesen, Taggen und Nachfassen.</p></article>
+<article class="page-card"><h3>Ein Postfach für alle Leads</h3><p>Alle Leads des Teams an einem Ort: der richtigen Person zuweisen, Status setzen, Notizen und Tags ergänzen, eine ganze Messe auf einmal taggen und alles als Tabelle exportieren.</p></article>
+<article class="page-card"><h3>Sieh, was jede Karte bringt</h3><p>Aufrufe, Speicherungen und Klicks auf jeden Link. Die Auswertung im Web zeigt das ganze Team, Person für Person und Karte für Karte, und jede Person sieht ihre eigene Karte in der App.</p></article>
+<article class="page-card"><h3>Leads in HubSpot oder per Webhook</h3><p>Verbinde HubSpot einmal, und jeder neue Lead wird zum Kontakt, mit seinen Notizen und seinem Status. Für jedes andere System schickt ein Webhook jeden Lead dorthin, wo du ihn haben willst.</p></article>
+<article class="page-card"><h3>Nachfassen mit deiner Marke</h3><p>Schreib die Nachfass-E-Mail einmal, mit deinem Logo und deinen Farben. Alle im Team können sie direkt aus dem Lead verschicken, oder du startest ein automatisches Nachfassen, das bis zu 7 Tage lang jedem Lead eines Events antwortet.</p></article>
+<article class="page-card"><h3>Eine Marke auf jeder Karte</h3><p>Logo, Firmenname und Jobtitel, einmal festgelegt und gesperrt. Füge jeder Karte deine Firmenlinks hinzu und lass die Kartenlinks über deine eigene Domain laufen.</p></article>
+<article class="page-card"><h3>Karten bleiben im Unternehmen</h3><p>Wenn jemand geht, bleibt die Karte: derselbe Link, derselbe QR-Code, und der NFC-Tag funktioniert weiter für die Person, die nachkommt. Auch alle gesammelten Leads bleiben.</p></article>
+<article class="page-card"><h3>Speichern ohne App</h3><p>Wer dich trifft, muss nichts installieren: ein App Clip auf dem iPhone, der Browser auf Android und im Web. Jede Karte ist außerdem ein Apple-Wallet-Pass in den Farben deines Teams.</p></article>
+<article class="page-card"><h3>Alles im Web steuern</h3><p>Eine Karte und ein Login für jede Person, auf iPhone und Android. Lade per E-Mail ein, gib jeder Person eine Rolle, bereite eine Karte vor, bevor jemand anfängt, und passe die Anzahl der Plätze jederzeit an.</p></article>
+<article class="page-card"><h3>KI-Assistent anbinden</h3><p>Claude Code, Codex, Cursor oder jeder Assistent, der MCP spricht, kann deine Marke einrichten, Einladungen entwerfen, Karten erstellen, die Leads von heute abrufen und die Nachfass-E-Mails verschicken.</p></article>
 </div>
+
+</section>
+
+<section class="landing-final-cta">
+<div class="landing-container">
+
+<h2 class="landing-cta-title">Bereit, dein Team einzurichten?</h2>
 
 <p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">14 Tage kostenlos testen</a></p>
 
+</div>
 </section>

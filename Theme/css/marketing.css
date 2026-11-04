@@ -763,13 +763,15 @@
    text-align: center;
 }
 
-/* Small "Starting cards for a team?" line under the hero store buttons. */
+/* "Starting cards for a team?" under the hero store buttons: the question,
+   then the site's standard .landing-cta-button, which brings its own colours
+   for the blue hero and for dark mode. */
 .page-hero-text > p.page-hero-team-link {
-   font-size: 0.9375rem;
-   margin: 1.25rem 0 0;
-}
-.page-hero-team-link a {
-   color: inherit;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 0.625rem 1rem;
+   font-size: 1.125rem;
    font-weight: 600;
-   text-decoration: underline;
+   margin: 1.5rem 0 0;
 }

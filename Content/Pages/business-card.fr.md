@@ -24,7 +24,7 @@ Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste
 </a>
 </div>
 
-<p class="page-hero-team-link">Des cartes pour une équipe ? <a href="https://business.nfc.cool/org/start/">Créer une équipe</a></p>
+<p class="page-hero-team-link">Des cartes pour une équipe ? <a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Créer une équipe</a></p>
 
 </div>
 
@@ -54,7 +54,7 @@ Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste
 
 <article class="page-card">
 <h3>Statistiques en temps réel</h3>
-<p>Vues de profil, enregistrements de contact et prospects par jour, semaine et mois, pour savoir quels événements fonctionnent.</p>
+<p>Vues de profil, enregistrements de contact, clics sur les liens et prospects par jour, semaine et mois, pour savoir quels événements et quels liens fonctionnent.</p>
 </article>
 
 <article class="page-card">
@@ -69,7 +69,7 @@ Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste
 
 <article class="page-card">
 <h3>Prêt pour votre équipe</h3>
-<p>Donnez à chacun une carte aux couleurs de votre entreprise, avec une seule boîte de réception pour tous les prospects. <a href="#teams">Ce que les équipes ajoutent</a>.</p>
+<p>Donnez à chacun une carte aux couleurs de votre entreprise, avec une seule boîte de réception pour tous les prospects et une connexion directe à HubSpot. <a href="#teams">Ce que les équipes ajoutent</a>.</p>
 </article>
 
 </div>
@@ -116,6 +116,7 @@ Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste
 <ul>
 <li><strong>Formulaires de capture de prospects</strong> - recueillez les coordonnées de vos interlocuteurs</li>
 <li><strong>Suivi de statut</strong> - Nouveau → Contacté → Qualifié → Converti → Archivé</li>
+<li><strong>Étiquettes et étiquetage automatique</strong> - étiquetez d'un coup tous les prospects d'un événement</li>
 <li><strong>Notifications en temps réel</strong> - une notification push instantanée dès que quelqu'un se connecte</li>
 <li><strong>Calendrier et Rappels</strong> - planifiez vos relances directement depuis un prospect</li>
 </ul>
@@ -126,6 +127,7 @@ Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste
 <ul>
 <li><strong>Vues de profil</strong> - sachez exactement combien de personnes ont ouvert votre carte</li>
 <li><strong>Enregistrements de contact</strong> - suivez combien de personnes vous ont ajouté à leur téléphone</li>
+<li><strong>Clics sur les liens</strong> - voyez sur quels liens les gens cliquent vraiment</li>
 <li><strong>Détail par jour / semaine / mois</strong> dans le tableau de bord</li>
 <li><strong>Analyse des tendances</strong> - comprenez l'évolution de votre réseau dans le temps</li>
 </ul>
@@ -155,8 +157,9 @@ Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste
 <h3>Mode Conférence</h3>
 <ul>
 <li><strong>Code QR sur l'écran de verrouillage</strong> - le code QR de votre carte épinglé à l'écran de verrouillage du téléphone, pour que chacun puisse le scanner sans déverrouiller</li>
-<li><strong>Reste 8 heures</strong> - couvre une journée entière d'événement, puis disparaît tout seul</li>
 <li><strong>Sans ouvrir l'app</strong> - tendez simplement le téléphone, on scanne, c'est fait</li>
+<li><strong>En direct avec les forfaits payants</strong> - les vues, les enregistrements et les nouveaux prospects s'affichent en temps réel sur l'écran de verrouillage, et vous pouvez y étiqueter le dernier prospect</li>
+<li><strong>Sessions d'événement</strong> - nommez un événement, étiquetez tous ses prospects et recevez un récapitulatif à la fin</li>
 <li><strong>iPhone et Android</strong> - le même mode Conférence sur les deux</li>
 </ul>
 </article>
@@ -169,7 +172,7 @@ Des cartes de visite numériques pour vous et votre équipe. Partagez d'un geste
 
 ## Tarifs
 
-Une personne ou toute une équipe. Personal et Pro s'achètent dans l'app ; les équipes démarrent sur le web avec 14 jours d'essai.
+Une personne ou toute une équipe. Chaque carte peut être enregistrée comme contact, Free compris. Personal et Pro ajoutent les prospects, les statistiques et une carte sans notre nom, et s'achètent dans l'app. Les équipes démarrent sur le web, gratuitement pendant 14 jours, puis paient par personne, à l'année ou au mois. En euros, le tarif équipe affiche le même chiffre.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -179,16 +182,28 @@ Une personne ou toute une équipe. Personal et Pro s'achètent dans l'app ; les 
 
 ## Ce que les équipes ajoutent
 
+Une carte personnelle appartient à une seule personne. Dans une équipe, les cartes appartiennent à l'entreprise, et cela change ce qu'elles permettent de faire.
+
 <div class="page-cards-grid">
-<article class="page-card"><h3>Une marque, verrouillée</h3><p>Chaque carte porte votre logo, vos couleurs et vos intitulés de poste, et personne ne peut s'écarter de la marque.</p></article>
-<article class="page-card"><h3>Les cartes restent dans l'entreprise</h3><p>Quand quelqu'un part, sa carte et les prospects qu'il a collectés restent dans l'équipe.</p></article>
-<article class="page-card"><h3>Une seule boîte de réception pour tous les prospects</h3><p>Tout ce que l'équipe collecte au même endroit, attribué à la bonne personne, avec statut et notes.</p></article>
-<article class="page-card"><h3>Relancer, puis connecter</h3><p>Des e-mails de relance basés sur des modèles, et des webhooks vers Zapier, Make ou votre propre système.</p></article>
-<article class="page-card"><h3>Gérez tout depuis le web</h3><p>Une console d'administration avec des rôles (propriétaire, administrateur, responsable, facturation), des invitations par e-mail et une facturation par place.</p></article>
-<article class="page-card"><h3>Votre domaine, votre pass Wallet</h3><p>Des liens de carte sur votre propre domaine et des pass Apple Wallet aux couleurs de votre équipe.</p></article>
-<article class="page-card"><h3>Connectez votre assistant IA</h3><p>Donnez à un assistant IA les prospects de votre équipe pour les lire, les étiqueter et les relancer, via la connexion MCP de NFC.cool.</p></article>
+<article class="page-card"><h3>Une seule boîte de réception pour tous les prospects</h3><p>Tous les prospects collectés par l'équipe au même endroit : attribuez-les à la bonne personne, définissez un statut, ajoutez des notes et des étiquettes, étiquetez tout un salon d'un coup et exportez le tout dans une feuille de calcul.</p></article>
+<article class="page-card"><h3>Suivez les résultats de chaque carte</h3><p>Vues, enregistrements et clics sur chaque lien. Sur le web, les statistiques montrent toute l'équipe, personne par personne et carte par carte, et chacun voit sa propre carte dans l'app.</p></article>
+<article class="page-card"><h3>Les prospects dans HubSpot, ou par webhook</h3><p>Connectez HubSpot une seule fois et chaque nouveau prospect devient un contact, avec ses notes et son statut. Pour tout autre système, un webhook envoie chaque prospect là où vous l'indiquez.</p></article>
+<article class="page-card"><h3>Des relances à votre image</h3><p>Rédigez l'e-mail de relance une seule fois, avec votre logo et vos couleurs. Chaque membre de l'équipe peut l'envoyer depuis le prospect, ou lancez une relance automatique qui répond à tous les prospects d'un événement pendant 7 jours maximum.</p></article>
+<article class="page-card"><h3>Une seule marque sur chaque carte</h3><p>Votre logo, le nom de l'entreprise et les intitulés de poste, définis une fois pour toutes et verrouillés. Ajoutez les liens de votre entreprise à chaque carte et utilisez votre propre domaine pour les liens de carte.</p></article>
+<article class="page-card"><h3>Les cartes restent dans l'entreprise</h3><p>Quand quelqu'un s'en va, sa carte reste : même lien, même code QR, et le tag NFC continue de fonctionner pour la personne suivante. Tous les prospects qu'il a collectés restent aussi.</p></article>
+<article class="page-card"><h3>Enregistrée sans app</h3><p>Rien à installer pour les personnes que vous rencontrez : un App Clip sur iPhone, le navigateur sur Android et sur le web. Chaque carte est aussi un pass Apple Wallet aux couleurs de votre équipe.</p></article>
+<article class="page-card"><h3>Gérez tout depuis le web</h3><p>Une carte et un identifiant pour chaque personne, sur iPhone et Android. Invitez par e-mail, attribuez un rôle à chacun, préparez une carte avant l'arrivée de quelqu'un et modifiez le nombre de places à tout moment.</p></article>
+<article class="page-card"><h3>Connectez votre assistant IA</h3><p>Claude Code, Codex, Cursor ou tout assistant compatible MCP peut configurer votre marque, rédiger vos invitations, créer des cartes, récupérer les prospects du jour et envoyer les relances.</p></article>
 </div>
+
+</section>
+
+<section class="landing-final-cta">
+<div class="landing-container">
+
+<h2 class="landing-cta-title">Prêt à créer votre équipe ?</h2>
 
 <p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Démarrer l'essai de 14 jours</a></p>
 
+</div>
 </section>

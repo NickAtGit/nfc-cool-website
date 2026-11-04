@@ -3,22 +3,34 @@
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Preço"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "$5 por pessoa e por mês, ou $50 por ano"]
+    values: ["**$0**", "**$19.99**", "**$49.99**", "$50 por pessoa e por ano, ou $5 por mês"]
   - label: "Cartões"
-    values: ["1", "1", "10", "Um por pessoa"]
-  - label: "Partilha, Apple Wallet, Modo Conferência, PIN, exportação de dados"
+    values: ["1", "1", "10", "Até 10 por pessoa"]
+  - label: "Partilha, Apple Wallet, QR do Modo Conferência, PIN, exportação de dados"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Guardar vCard"
+  - label: "Guardar contacto no seu cartão"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Sem \"Made with NFC.cool\" no seu cartão"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Geração de leads"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Análises"
+  - label: "Análises: visualizações, contactos guardados e toques em ligações"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Marca da empresa"
+  - label: "Contagens em direto e novos leads no ecrã de bloqueio"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Marca da empresa, bloqueada em todos os cartões"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Consola de administração"
+  - label: "Painel web com funções e convites"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Caixa de leads partilhada"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Análises da equipa, cartão a cartão"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "HubSpot e webhooks"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "E-mails de seguimento com a sua marca e automáticos"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Ligue o seu assistente de IA"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Onde comprar"
     values: ["Na app", "Na app", "Na app", "Na web, 14 dias de teste"]

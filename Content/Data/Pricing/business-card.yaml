@@ -3,22 +3,34 @@
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Price"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "$5 per person a month, or $50 a year"]
+    values: ["**$0**", "**$19.99**", "**$49.99**", "$50 per person a year, or $5 a month"]
   - label: "Cards"
-    values: ["1", "1", "10", "One per person"]
-  - label: "Sharing, Apple Wallet, Conference Mode, PIN, data export"
+    values: ["1", "1", "10", "Up to 10 per person"]
+  - label: "Sharing, Apple Wallet, Conference Mode QR, PIN, data export"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "vCard save"
+  - label: "Save Contact on your card"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "No \"Made with NFC.cool\" on your card"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Lead generation"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Analytics"
+  - label: "Analytics: views, saves and link taps"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Company brand"
+  - label: "Live counts and new leads on the Lock Screen"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Company brand, locked on every card"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Admin console"
+  - label: "Web dashboard with roles and invites"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Shared leads inbox"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Team insights, card by card"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "HubSpot and webhooks"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Branded and automatic follow-up emails"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Connect your AI assistant"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Where to buy"
     values: ["In the app", "In the app", "In the app", "On the web, 14-day trial"]

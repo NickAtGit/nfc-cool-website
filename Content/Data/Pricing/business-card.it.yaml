@@ -3,22 +3,34 @@
 columns: ["Free", "Personal", "Pro", "Team"]
 rows:
   - label: "Prezzo"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "$5 a persona al mese, o $50 all'anno"]
+    values: ["**$0**", "**$19,99**", "**$49,99**", "$50 a persona all'anno, o $5 al mese"]
   - label: "Biglietti"
-    values: ["1", "1", "10", "Uno per persona"]
-  - label: "Condivisione, Apple Wallet, Modalità Conferenza, PIN, esportazione dei dati"
+    values: ["1", "1", "10", "Fino a 10 per persona"]
+  - label: "Condivisione, Apple Wallet, codice QR della Modalità Conferenza, PIN, esportazione dei dati"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Salvataggio della vCard"
+  - label: "Salvataggio del contatto dal biglietto"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Nessun \"Made with NFC.cool\" sul biglietto"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Acquisizione lead"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Statistiche"
+  - label: "Statistiche: visualizzazioni, salvataggi e tocchi sui link"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Brand aziendale"
+  - label: "Conteggi in tempo reale e nuovi lead nella schermata di blocco"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Brand aziendale, bloccato su ogni biglietto"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Console di amministrazione"
+  - label: "Dashboard web con ruoli e inviti"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Casella condivisa dei lead"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Statistiche del team, biglietto per biglietto"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "HubSpot e webhook"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "E-mail di follow-up con il tuo brand e automatiche"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Collega il tuo assistente IA"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Dove acquistare"
     values: ["Nell'app", "Nell'app", "Nell'app", "Sul web, 14 giorni di prova"]

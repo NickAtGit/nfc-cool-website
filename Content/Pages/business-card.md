@@ -24,7 +24,7 @@ Digital business cards for you and your team. Share with a tap, by NFC or QR cod
 </a>
 </div>
 
-<p class="page-hero-team-link">Starting cards for a team? <a href="https://business.nfc.cool/org/start/">Start a team</a></p>
+<p class="page-hero-team-link">Starting cards for a team? <a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Start a team</a></p>
 
 </div>
 
@@ -54,7 +54,7 @@ Digital business cards for you and your team. Share with a tap, by NFC or QR cod
 
 <article class="page-card">
 <h3>Real-time insights</h3>
-<p>Profile views, contact saves and leads by day, week and month, so you know which events work.</p>
+<p>Profile views, contact saves, link taps and leads by day, week and month, so you know which events and which links work.</p>
 </article>
 
 <article class="page-card">
@@ -69,7 +69,7 @@ Digital business cards for you and your team. Share with a tap, by NFC or QR cod
 
 <article class="page-card">
 <h3>Ready for your team</h3>
-<p>Give everyone a card in your company's brand, with one inbox for every lead. <a href="#teams">See what teams add</a>.</p>
+<p>Give everyone a card in your company's brand, with one inbox for every lead and a line into HubSpot. <a href="#teams">See what teams add</a>.</p>
 </article>
 
 </div>
@@ -116,6 +116,7 @@ Digital business cards for you and your team. Share with a tap, by NFC or QR cod
 <ul>
 <li><strong>Lead-capture forms</strong> - collect contact info from viewers</li>
 <li><strong>Status tracking</strong> - New → Contacted → Qualified → Converted → Archived</li>
+<li><strong>Tags and auto-tags</strong> - tag every lead from an event at once</li>
 <li><strong>Real-time notifications</strong> - instant push when someone connects</li>
 <li><strong>Calendar & Reminders</strong> - schedule follow-ups directly from a lead</li>
 </ul>
@@ -126,6 +127,7 @@ Digital business cards for you and your team. Share with a tap, by NFC or QR cod
 <ul>
 <li><strong>Profile views</strong> - see exactly how many people opened your card</li>
 <li><strong>Contact saves</strong> - see how many people saved you to their phone</li>
+<li><strong>Link taps</strong> - see which of your links people actually tap</li>
 <li><strong>Daily / weekly / monthly</strong> breakdowns in the dashboard</li>
 <li><strong>Trend analysis</strong> - understand your networking over time</li>
 </ul>
@@ -155,8 +157,9 @@ Digital business cards for you and your team. Share with a tap, by NFC or QR cod
 <h3>Conference Mode</h3>
 <ul>
 <li><strong>QR on the Lock Screen</strong> - your card's QR code pinned to your phone's Lock Screen so anyone can scan it without unlocking</li>
-<li><strong>Stays for 8 hours</strong> - covers a full event day, then clears itself</li>
 <li><strong>No app open required</strong> - just hand the phone over, they scan, done</li>
+<li><strong>Live on paid plans</strong> - views, saves and new leads count up on the Lock Screen, and you can tag the newest lead from there</li>
+<li><strong>Event sessions</strong> - name an event, tag every lead from it, and get a summary at the end</li>
 <li><strong>iPhone and Android</strong> - the same Conference Mode on both</li>
 </ul>
 </article>
@@ -169,7 +172,7 @@ Digital business cards for you and your team. Share with a tap, by NFC or QR cod
 
 ## Pricing
 
-One person or a whole team. Personal and Pro are bought in the app; teams start on the web with a 14-day trial.
+One person or a whole team. Every card can be saved as a contact, Free included. Personal and Pro add leads, analytics and a card without our name on it, and are bought in the app. Teams start on the web, free for 14 days, and pay per person, yearly or monthly. In euros, the team price is the same number.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -179,16 +182,28 @@ One person or a whole team. Personal and Pro are bought in the app; teams start 
 
 ## What teams add
 
+A personal card belongs to one person. On a team, the cards belong to the company, and that changes what they can do.
+
 <div class="page-cards-grid">
-<article class="page-card"><h3>One brand, locked</h3><p>Every card carries your logo, colours and job titles, and nobody can drift off brand.</p></article>
-<article class="page-card"><h3>Cards stay with the company</h3><p>When someone leaves, their card and the leads they collected stay with the team.</p></article>
-<article class="page-card"><h3>One inbox for every lead</h3><p>Everything the team collects in one place, assigned to the right person, with status and notes.</p></article>
-<article class="page-card"><h3>Follow up, then connect</h3><p>Templated follow-up e-mails, and webhooks to Zapier, Make or your own system.</p></article>
-<article class="page-card"><h3>Run it from the web</h3><p>An admin console with roles (owner, admin, manager, billing), e-mail invites, and billing per seat.</p></article>
-<article class="page-card"><h3>Your domain, your Wallet pass</h3><p>Card links on your own domain, and Apple Wallet passes in your team's colours.</p></article>
-<article class="page-card"><h3>Connect your AI assistant</h3><p>Give an AI assistant your team's leads to read, tag and follow up, through NFC.cool's MCP connection.</p></article>
+<article class="page-card"><h3>One inbox for every lead</h3><p>Every lead the team collects in one place: assign it to the right person, set a status, add notes and tags, tag a whole trade show at once, and export it all as a spreadsheet.</p></article>
+<article class="page-card"><h3>See what every card does</h3><p>Views, saves and taps on each link. Insights on the web shows the whole team, person by person and card by card, and each person sees their own card in the app.</p></article>
+<article class="page-card"><h3>Leads into HubSpot, or by webhook</h3><p>Connect HubSpot once and every new lead becomes a contact, with its notes and status. For any other system, a webhook sends each lead wherever you point it.</p></article>
+<article class="page-card"><h3>Follow up in your brand</h3><p>Write the follow-up email once, with your logo and colours. Anyone on the team sends it from the lead, or start an auto follow-up that answers every lead from an event for up to 7 days.</p></article>
+<article class="page-card"><h3>One brand on every card</h3><p>Your logo, company name and job titles, set once and locked. Add your company links to every card, and run the card links on your own domain.</p></article>
+<article class="page-card"><h3>Cards stay with the company</h3><p>When someone moves on, their card stays: same link, same QR code, and the NFC tag keeps working for whoever comes next. Every lead they collected stays too.</p></article>
+<article class="page-card"><h3>Saved without an app</h3><p>Nothing to install for the people you meet: an App Clip on iPhone, the browser on Android and the web. Every card is also an Apple Wallet pass in your team's colours.</p></article>
+<article class="page-card"><h3>Run it from the web</h3><p>A card and a login for each person, on iPhone and Android. Invite by email, give each person a role, prepare a card before someone starts, and change seats at any time.</p></article>
+<article class="page-card"><h3>Connect your AI assistant</h3><p>Claude Code, Codex, Cursor or any assistant that speaks MCP can set up your brand, draft your invites, create cards, pull today's leads and send the follow-ups.</p></article>
 </div>
+
+</section>
+
+<section class="landing-final-cta">
+<div class="landing-container">
+
+<h2 class="landing-cta-title">Ready to set up your team?</h2>
 
 <p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Start your 14-day trial</a></p>
 
+</div>
 </section>

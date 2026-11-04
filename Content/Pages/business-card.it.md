@@ -24,7 +24,7 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 </a>
 </div>
 
-<p class="page-hero-team-link">Biglietti per un team? <a href="https://business.nfc.cool/org/start/">Crea un team</a></p>
+<p class="page-hero-team-link">Biglietti per un team? <a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Crea un team</a></p>
 
 </div>
 
@@ -54,7 +54,7 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 
 <article class="page-card">
 <h3>Dati in tempo reale</h3>
-<p>Visualizzazioni del profilo, contatti salvati e lead per giorno, settimana e mese, così sai quali eventi funzionano.</p>
+<p>Visualizzazioni del profilo, contatti salvati, tocchi sui link e lead per giorno, settimana e mese, così sai quali eventi e quali link funzionano.</p>
 </article>
 
 <article class="page-card">
@@ -69,7 +69,7 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 
 <article class="page-card">
 <h3>Pronto per il tuo team</h3>
-<p>Dai a ciascuno un biglietto con il brand della tua azienda, con un'unica casella per tutti i lead. <a href="#teams">Cosa aggiungono i team</a>.</p>
+<p>Dai a ciascuno un biglietto con il brand della tua azienda, con un'unica casella per tutti i lead e un collegamento diretto a HubSpot. <a href="#teams">Cosa aggiungono i team</a>.</p>
 </article>
 
 </div>
@@ -116,6 +116,7 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 <ul>
 <li><strong>Moduli di acquisizione lead</strong> - raccogli i dati di chi apre il biglietto</li>
 <li><strong>Monitoraggio dello stato</strong> - Nuovo → Contattato → Qualificato → Convertito → Archiviato</li>
+<li><strong>Tag e tag automatici</strong> - tagga in un colpo solo tutti i lead di un evento</li>
 <li><strong>Notifiche in tempo reale</strong> - una push nell'istante in cui qualcuno si fa avanti</li>
 <li><strong>Calendario e Promemoria</strong> - fissa il prossimo passo direttamente dalla scheda del lead</li>
 </ul>
@@ -126,6 +127,7 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 <ul>
 <li><strong>Visualizzazioni del profilo</strong> - sai esattamente quante persone hanno aperto il biglietto</li>
 <li><strong>Contatti salvati</strong> - scopri quante persone ti hanno messo in rubrica</li>
+<li><strong>Tocchi sui link</strong> - scopri quali link tocca davvero chi apre il biglietto</li>
 <li>Riepiloghi <strong>giornalieri, settimanali e mensili</strong> nella dashboard</li>
 <li><strong>Analisi dell'andamento</strong> - capisci come si evolve la tua rete nel tempo</li>
 </ul>
@@ -155,8 +157,9 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 <h3>Modalità Conferenza</h3>
 <ul>
 <li><strong>Codice QR nella schermata di blocco</strong> - il codice QR del biglietto resta fissato nella schermata di blocco, così chiunque lo scansiona senza sbloccare il telefono</li>
-<li><strong>Dura 8 ore</strong> - copre un'intera giornata di evento, poi sparisce da sola</li>
 <li><strong>Senza aprire l'app</strong> - passi il telefono, l'altra persona scansiona, fatto</li>
+<li><strong>In tempo reale con i piani a pagamento</strong> - visualizzazioni, salvataggi e nuovi lead si aggiornano nella schermata di blocco, e da lì tagghi l'ultimo lead arrivato</li>
+<li><strong>Sessioni per evento</strong> - dai un nome all'evento, tagga tutti i suoi lead e ricevi un riepilogo alla fine</li>
 <li><strong>iPhone e Android</strong> - la stessa Modalità Conferenza su entrambi</li>
 </ul>
 </article>
@@ -169,7 +172,7 @@ Biglietti da visita digitali per te e il tuo team. Condividi con un tocco, con N
 
 ## Prezzi
 
-Una persona o un team intero. Personal e Pro si acquistano nell'app; i team partono dal web con 14 giorni di prova.
+Una persona o un team intero. Ogni biglietto si può salvare come contatto, anche con Free. Personal e Pro aggiungono i lead, le statistiche e un biglietto senza il nostro nome, e si acquistano nell'app. I team partono dal web, gratis per 14 giorni, e pagano a persona, all'anno o al mese. In euro la cifra del piano Team è la stessa.
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -179,16 +182,28 @@ Una persona o un team intero. Personal e Pro si acquistano nell'app; i team part
 
 ## Cosa aggiungono i team
 
+Un biglietto personale appartiene a una persona sola. In un team i biglietti appartengono all'azienda, e questo cambia quello che possono fare.
+
 <div class="page-cards-grid">
-<article class="page-card"><h3>Un brand, bloccato</h3><p>Ogni biglietto porta il tuo logo, i tuoi colori e i ruoli, e nessuno può uscire dal brand.</p></article>
-<article class="page-card"><h3>I biglietti restano all'azienda</h3><p>Quando qualcuno se ne va, il suo biglietto e i lead raccolti restano al team.</p></article>
-<article class="page-card"><h3>Una casella per tutti i lead</h3><p>Tutto ciò che raccoglie il team in un posto solo, assegnato alla persona giusta, con stato e note.</p></article>
-<article class="page-card"><h3>Fai follow-up, poi collega</h3><p>E-mail di follow-up da modelli e webhook verso Zapier, Make o il tuo sistema.</p></article>
-<article class="page-card"><h3>Gestisci tutto dal web</h3><p>Una console di amministrazione con ruoli (proprietario, amministratore, manager, fatturazione), inviti via e-mail e fatturazione per posto.</p></article>
-<article class="page-card"><h3>Il tuo dominio, il tuo pass Wallet</h3><p>Link dei biglietti sul tuo dominio e pass Apple Wallet con i colori del tuo team.</p></article>
-<article class="page-card"><h3>Collega il tuo assistente IA</h3><p>Dai a un assistente IA i lead del tuo team da leggere, taggare e seguire, con la connessione MCP di NFC.cool.</p></article>
+<article class="page-card"><h3>Una casella per tutti i lead</h3><p>Tutti i lead raccolti dal team in un posto solo: assegnali alla persona giusta, imposta uno stato, aggiungi note e tag, tagga in un colpo solo un'intera fiera ed esporta tutto in un foglio di calcolo.</p></article>
+<article class="page-card"><h3>Scopri quanto rende ogni biglietto</h3><p>Visualizzazioni, salvataggi e tocchi su ogni link. Sul web le statistiche mostrano tutto il team, persona per persona e biglietto per biglietto, e ciascuno vede il proprio biglietto nell'app.</p></article>
+<article class="page-card"><h3>I lead in HubSpot o via webhook</h3><p>Collega HubSpot una volta e ogni nuovo lead diventa un contatto, con note e stato. Per qualsiasi altro sistema, un webhook invia ogni lead dove vuoi tu.</p></article>
+<article class="page-card"><h3>Follow-up con il tuo brand</h3><p>Scrivi una volta sola l'e-mail di follow-up, con logo e colori dell'azienda. Chiunque nel team la invia dalla scheda del lead, oppure avvia un follow-up automatico che risponde a tutti i lead di un evento per un massimo di 7 giorni.</p></article>
+<article class="page-card"><h3>Un solo brand su ogni biglietto</h3><p>Logo, nome dell'azienda e ruoli, impostati una volta e bloccati. Aggiungi i link aziendali a ogni biglietto e usa il tuo dominio per i link dei biglietti.</p></article>
+<article class="page-card"><h3>I biglietti restano all'azienda</h3><p>Quando qualcuno se ne va, il biglietto resta: stesso link, stesso codice QR, e il tag NFC continua a funzionare per chi arriva dopo. Restano anche tutti i lead che ha raccolto.</p></article>
+<article class="page-card"><h3>Si salva senza app</h3><p>Chi incontri non deve installare nulla: un'App Clip su iPhone, il browser su Android e sul web. Ogni biglietto è anche un pass Apple Wallet con i colori del team.</p></article>
+<article class="page-card"><h3>Gestisci tutto dal web</h3><p>Un biglietto e un accesso per ogni persona, su iPhone e Android. Invita via e-mail, assegna un ruolo a ciascuno, prepara il biglietto prima che qualcuno inizi e cambia il numero di posti quando vuoi.</p></article>
+<article class="page-card"><h3>Collega il tuo assistente IA</h3><p>Claude Code, Codex, Cursor o qualsiasi assistente compatibile con MCP può configurare il brand, preparare gli inviti, creare biglietti, recuperare i lead di oggi e inviare i follow-up.</p></article>
 </div>
+
+</section>
+
+<section class="landing-final-cta">
+<div class="landing-container">
+
+<h2 class="landing-cta-title">Pronto a creare il tuo team?</h2>
 
 <p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Inizia i 14 giorni di prova</a></p>
 
+</div>
 </section>
