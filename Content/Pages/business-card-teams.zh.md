@@ -1,7 +1,7 @@
 ---
-title: "团队电子名片：每人每年 $50"
+title: "团队电子名片：统一品牌，线索集中管理"
 slug: "business-card/teams"
-description: "团队电子名片：每人每年 $50，两个席位起，可试用 14 天。所有名片统一锁定公司品牌，线索汇入同一个共享收件箱，可以同步到 HubSpot，也可以通过 Webhook 发送到你指定的地方，整个团队都在网页端管理。"
+description: "团队电子名片：两个席位起，可试用 14 天。所有名片统一锁定公司品牌，线索汇入同一个共享收件箱，可以同步到 HubSpot，也可以通过 Webhook 发送到你指定的地方，整个团队都在网页端管理。试用结束前取消则无需付费。"
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # 团队电子名片
 
-NFC.cool Business Card for Teams 让公司里的每个人都拥有一张符合你们品牌的电子名片，并把他们收集的每条线索都集中在一处。可以从两个席位开始。14 天试用需要绑定支付卡，在试用结束前取消就不用付费。
+NFC.cool Business Card for Teams 让公司里的每个人都拥有一张符合你们品牌的电子名片，并把他们收集的每条线索都集中在一处。展会或客户会面中的每一次交流，都会变成团队可以立即跟进的联系人；有人离职时，线索也会留在公司。
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>免费试用 14 天</small>创建团队</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ NFC.cool Business Card for Teams 让公司里的每个人都拥有一张符合�
 
 <h2 class="landing-cta-title">准备好组建你的团队了吗？</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">开始 14 天试用</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

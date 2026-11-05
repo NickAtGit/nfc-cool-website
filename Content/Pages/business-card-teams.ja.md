@@ -1,7 +1,7 @@
 ---
-title: "チーム向けデジタル名刺：1人あたり年$50"
+title: "チーム向けデジタル名刺：ブランドを統一し、リードを一元管理"
 slug: "business-card/teams"
-description: "チーム向けのデジタル名刺。料金は1人あたり年$50で、2シートから始められ、14日間のトライアルも付いています。すべてのカードでブランドをロックし、リードは共有受信箱に集約。HubSpotとWebhookにも対応しています。"
+description: "チーム向けのデジタル名刺。2シートから始められ、14日間のトライアルも付いています。すべてのカードでブランドをロックし、リードは共有受信箱に集約。HubSpotとWebhookにも対応しています。トライアル終了前に解約すれば料金はかかりません。"
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # チーム向けデジタル名刺
 
-NFC.cool Business Card for Teamsは、社員全員に自社ブランドのデジタル名刺を用意し、全員が集めたリードを1か所にまとめます。2シートから始められます。14日間のトライアルには支払い用カードの登録が必要ですが、終了前に解約すれば料金はかかりません。
+NFC.cool Business Card for Teamsは、社員全員に自社ブランドのデジタル名刺を用意し、全員が集めたリードを1か所にまとめます。展示会や商談での出会いはすべて、チームがすぐにフォローできる連絡先になります。メンバーが退職しても、リードは会社に残ります。
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>14日間無料</small>チームで始める</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ NFC.cool Business Card for Teamsは、社員全員に自社ブランドのデジ
 
 <h2 class="landing-cta-title">チームで使い始めませんか？</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">14日間のトライアルを始める</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

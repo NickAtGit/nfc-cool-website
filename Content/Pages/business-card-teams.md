@@ -1,7 +1,7 @@
 ---
-title: "Digital Business Cards for Teams: $50 per Person a Year"
+title: "Digital Business Cards for Teams: One Brand, One Leads Inbox"
 slug: "business-card/teams"
-description: "Digital business cards for teams: $50 per person a year, from two seats, with a 14-day trial. One locked brand, a shared leads inbox, HubSpot and webhooks."
+description: "Digital business cards for teams, from two seats, with a 14-day trial. One locked brand, a shared leads inbox, HubSpot and webhooks."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Digital Business Cards for Teams
 
-NFC.cool Business Card for Teams gives everyone in your company a digital business card in your brand, and keeps every lead they collect in one place. You can start with two seats. The 14-day trial needs a payment card. Cancel before it ends and you pay nothing.
+NFC.cool Business Card for Teams gives everyone in your company a digital business card in your brand, and keeps every lead they collect in one place. Every handshake at a trade fair or client meeting becomes a contact your team can follow up right away, and when someone moves on, their leads stay with you.
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>Free for 14 days</small>Start a team</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ The other companies we compared price their plans differently:
 
 <h2 class="landing-cta-title">Ready to set up your team?</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Start your 14-day trial</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

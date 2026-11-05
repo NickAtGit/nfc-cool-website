@@ -1,7 +1,7 @@
 ---
-title: "Kartu nama digital untuk tim: $50 per orang per tahun"
+title: "Kartu nama digital untuk tim: satu merek, satu kotak masuk prospek"
 slug: "business-card/teams"
-description: "Kartu nama digital untuk tim: $50 per orang per tahun, mulai dua kursi, dengan uji coba 14 hari. Satu merek yang terkunci, kotak masuk prospek bersama, HubSpot, dan webhook."
+description: "Kartu nama digital untuk tim: mulai dua kursi, dengan uji coba 14 hari. Satu merek yang terkunci, kotak masuk prospek bersama, HubSpot, dan webhook."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Kartu nama digital untuk tim
 
-NFC.cool Business Card for Teams memberi semua orang di perusahaan Anda kartu nama digital dengan merek Anda, dan menyimpan semua prospek yang mereka kumpulkan di satu tempat. Anda bisa mulai dengan dua kursi. Uji coba 14 hari memerlukan kartu pembayaran. Batalkan sebelum berakhir, dan Anda tidak membayar apa pun.
+NFC.cool Business Card for Teams memberi semua orang di perusahaan Anda kartu nama digital dengan merek Anda, dan menyimpan semua prospek yang mereka kumpulkan di satu tempat. Setiap obrolan di pameran atau pertemuan dengan klien menjadi kontak yang bisa langsung ditindaklanjuti tim Anda, dan saat seseorang pergi, prospeknya tetap ada di perusahaan Anda.
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>Gratis selama 14 hari</small>Buat tim</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ Perusahaan lain yang kami bandingkan menetapkan harga paketnya secara berbeda:
 
 <h2 class="landing-cta-title">Siap membuat tim Anda?</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Mulai uji coba 14 hari</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

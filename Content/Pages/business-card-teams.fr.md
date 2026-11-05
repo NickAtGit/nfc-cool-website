@@ -1,7 +1,7 @@
 ---
-title: "Cartes de visite numériques pour les équipes : 50 $ par personne et par an"
+title: "Cartes de visite numériques pour les équipes : une marque, tous les prospects réunis"
 slug: "business-card/teams"
-description: "Cartes de visite numériques pour les équipes : 50 $ par personne et par an, à partir de deux places, avec 14 jours d'essai. Une marque verrouillée, une boîte de réception partagée pour les prospects, HubSpot et les webhooks."
+description: "Cartes de visite numériques pour les équipes : à partir de deux places, avec 14 jours d'essai. Une marque verrouillée, une boîte de réception partagée pour les prospects, HubSpot et les webhooks."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Cartes de visite numériques pour les équipes
 
-NFC.cool Business Card for Teams donne à chaque membre de votre entreprise une carte de visite numérique à votre image, et réunit au même endroit tous les prospects collectés. Vous pouvez commencer avec deux places. L'essai de 14 jours nécessite une carte bancaire. Résiliez avant la fin et vous ne payez rien.
+NFC.cool Business Card for Teams donne à chaque membre de votre entreprise une carte de visite numérique à votre image, et réunit au même endroit tous les prospects collectés. Chaque échange sur un salon ou chez un client devient un contact que votre équipe peut relancer tout de suite, et quand quelqu'un s'en va, ses prospects restent chez vous.
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>Gratuit pendant 14 jours</small>Créer une équipe</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ Les autres entreprises comparées ont une tarification différente :
 
 <h2 class="landing-cta-title">Prêt à créer votre équipe ?</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Démarrer l'essai de 14 jours</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

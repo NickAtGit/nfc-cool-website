@@ -20,6 +20,7 @@ enum SiteStringKey: String, CaseIterable {
    case pricingIncluded, pricingNotIncluded, pricingLimited, pricingNotApplicable, pricingComingSoon
    case navToggle, themeToggle, langFlag, langName
    case trustRatings
+   case teamButtonKicker, teamButtonLabel
 }
 
 extension BuildContext {

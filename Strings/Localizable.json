@@ -338,6 +338,12 @@
    "pricingComingSoon": {
       "localizations": { "en": "Coming soon", "de": "Demnächst verfügbar", "ja": "近日対応", "pt": "Em breve", "zh": "即将推出", "id": "Segera hadir", "es": "Próximamente", "fr": "Bientôt disponible", "ar": "قريبًا", "it": "Prossimamente", "tr": "Yakında", "ru": "Скоро", "uk": "Незабаром" }
    },
+   "teamButtonKicker": {
+      "localizations": { "en": "For companies", "de": "Für Unternehmen", "ja": "企業向け", "pt": "Para empresas", "zh": "面向企业", "id": "Untuk perusahaan", "es": "Para empresas", "fr": "Pour les entreprises", "ar": "للشركات", "it": "Per le aziende", "tr": "Şirketler için", "ru": "Для компаний", "uk": "Для компаній" }
+   },
+   "teamButtonLabel": {
+      "localizations": { "en": "Start a team", "de": "Team starten", "ja": "チームで始める", "pt": "Criar uma equipa", "zh": "创建团队", "id": "Buat tim", "es": "Crear un equipo", "fr": "Créer une équipe", "ar": "أنشئ فريقًا", "it": "Crea un team", "tr": "Ekip kur", "ru": "Создать команду", "uk": "Створити команду" }
+   },
    "navToggle": {
       "localizations": { "en": "Toggle navigation menu", "de": "Navigationsmenü umschalten", "ja": "ナビゲーションメニューを開閉", "pt": "Alternar menu de navegação", "zh": "切换导航菜单", "id": "Alihkan menu navigasi", "es": "Alternar el menú de navegación", "fr": "Afficher ou masquer le menu de navigation", "ar": "تبديل قائمة التنقل", "it": "Apri o chiudi il menu di navigazione", "tr": "Gezinme menüsünü aç veya kapat", "ru": "Открыть или закрыть меню", "uk": "Відкрити або закрити меню" }
    },

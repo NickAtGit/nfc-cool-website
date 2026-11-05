@@ -1,7 +1,7 @@
 ---
-title: "Biglietti da visita digitali per i team: $50 a persona all'anno"
+title: "Biglietti da visita digitali per i team: un solo brand, tutti i lead in un posto"
 slug: "business-card/teams"
-description: "Biglietti da visita digitali per i team: $50 a persona all'anno, da due posti, con 14 giorni di prova. Un solo brand bloccato, una casella condivisa dei lead, HubSpot e webhook."
+description: "Biglietti da visita digitali per i team: da due posti, con 14 giorni di prova. Un solo brand bloccato, una casella condivisa dei lead, HubSpot e webhook."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Biglietti da visita digitali per i team
 
-NFC.cool Business Card for Teams dà a ogni persona della tua azienda un biglietto da visita digitale con il tuo brand e riunisce in un posto solo tutti i lead raccolti. Puoi iniziare con due posti. La prova di 14 giorni richiede una carta di pagamento. Se disdici prima della scadenza non paghi nulla.
+NFC.cool Business Card for Teams dà a ogni persona della tua azienda un biglietto da visita digitale con il tuo brand e riunisce in un posto solo tutti i lead raccolti. Ogni stretta di mano in fiera o da un cliente diventa un contatto che il tuo team può ricontattare subito, e quando qualcuno se ne va, i lead restano in azienda.
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>Gratis per 14 giorni</small>Crea un team</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ Le altre aziende che abbiamo confrontato strutturano i prezzi in modo diverso:
 
 <h2 class="landing-cta-title">Pronto a creare il tuo team?</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Inizia i 14 giorni di prova</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

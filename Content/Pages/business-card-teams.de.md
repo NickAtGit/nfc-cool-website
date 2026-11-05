@@ -1,7 +1,7 @@
 ---
-title: "Digitale Visitenkarten für Teams: 50 $ pro Person im Jahr"
+title: "Digitale Visitenkarten für Teams: eine Marke, ein Lead-Postfach"
 slug: "business-card/teams"
-description: "Digitale Visitenkarten für Teams: 50 $ pro Person im Jahr, ab zwei Plätzen, mit 14-tägigem Test. Eine einheitliche Marke, ein gemeinsames Lead-Postfach, HubSpot und Webhooks."
+description: "Digitale Visitenkarten für Teams: ab zwei Plätzen, mit 14-tägigem Test. Eine einheitliche Marke, ein gemeinsames Lead-Postfach, HubSpot und Webhooks."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Digitale Visitenkarten für Teams
 
-NFC.cool Business Card for Teams gibt allen in deiner Firma eine digitale Visitenkarte im Design deiner Marke und hält alle gesammelten Leads an einem Ort. Du kannst mit zwei Plätzen starten. Für den 14-tägigen Test brauchst du eine Zahlungskarte. Kündigst du, bevor er endet, zahlst du nichts.
+NFC.cool Business Card for Teams gibt allen in deiner Firma eine digitale Visitenkarte im Design deiner Marke und hält alle gesammelten Leads an einem Ort. Aus jedem Gespräch auf der Messe oder beim Kunden wird ein Kontakt, den dein Team sofort nachfassen kann, und wenn jemand das Team verlässt, bleiben die Leads bei euch.
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>14 Tage kostenlos</small>Team starten</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ Die anderen verglichenen Unternehmen haben andere Preismodelle:
 
 <h2 class="landing-cta-title">Bereit, dein Team einzurichten?</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">14 Tage kostenlos testen</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

@@ -1,7 +1,7 @@
 ---
-title: "Tarjetas de visita digitales para equipos: $50 por persona al año"
+title: "Tarjetas de visita digitales para equipos: una marca, una bandeja de leads"
 slug: "business-card/teams"
-description: "Tarjetas de visita digitales para equipos: $50 por persona al año, desde dos plazas, con 14 días de prueba. Una marca bloqueada, una bandeja de leads compartida, HubSpot y webhooks."
+description: "Tarjetas de visita digitales para equipos: desde dos plazas, con 14 días de prueba. Una marca bloqueada, una bandeja de leads compartida, HubSpot y webhooks."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Tarjetas de visita digitales para equipos
 
-NFC.cool Business Card for Teams da a todas las personas de tu empresa una tarjeta de visita digital con tu marca y reúne en un solo lugar todos los leads que recogen. Puedes empezar con dos plazas. La prueba de 14 días requiere una tarjeta bancaria. Si cancelas antes de que termine, no pagas nada.
+NFC.cool Business Card for Teams da a todas las personas de tu empresa una tarjeta de visita digital con tu marca y reúne en un solo lugar todos los leads que recogen. Cada conversación en una feria o con un cliente se convierte en un contacto al que tu equipo puede dar seguimiento enseguida, y cuando alguien se va, sus leads se quedan en tu empresa.
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>Gratis durante 14 días</small>Crear un equipo</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ Las demás empresas que comparamos fijan sus precios de otra manera:
 
 <h2 class="landing-cta-title">¿Todo listo para crear tu equipo?</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Empieza tus 14 días de prueba</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

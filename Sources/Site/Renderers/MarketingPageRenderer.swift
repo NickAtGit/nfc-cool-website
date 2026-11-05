@@ -185,8 +185,10 @@ struct MarketingPageRenderer: Renderer {
       let legalSlugs: Set<String> = ["terms", "privacy", "impressum"]
       let newsletter = legalSlugs.contains(page.slug) ? "" : newsletterHTML
       // Resolve any `{{PRICING_TABLE:<name>}}` tokens the markdown authored
-      // (e.g. the business-card plan comparison) into generated table HTML.
-      let body = try PricingTableRenderer.resolvePricingTokens(in: page.htmlContent, locale: page.locale, context: context)
+      // (e.g. the business-card plan comparison) into generated table HTML,
+      // and any `{{TEAM_BUTTON}}` into the shared "Start a team" badge.
+      let withTables = try PricingTableRenderer.resolvePricingTokens(in: page.htmlContent, locale: page.locale, context: context)
+      let body = TeamButton.resolveTokens(in: withTables, context: context)
       // Nested slugs (`apps/qr-code-scanner`) carry a `/`, which is not valid
       // inside a CSS class name - flatten it for the styling hooks.
       let cssSlug = page.slug.replacingOccurrences(of: "/", with: "-")

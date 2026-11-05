@@ -1,7 +1,7 @@
 ---
-title: "Цифровые визитки для команд: $50 за человека в год"
+title: "Цифровые визитки для команд: единый бренд и все лиды в одном месте"
 slug: "business-card/teams"
-description: "Цифровые визитки для команд: $50 за человека в год, от двух мест, с 14-дневным пробным периодом. Один закреплённый бренд, общий список лидов, HubSpot и вебхуки."
+description: "Цифровые визитки для команд: от двух мест, с 14-дневным пробным периодом. Один закреплённый бренд, общий список лидов, HubSpot и вебхуки."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Цифровые визитки для команд
 
-NFC.cool Business Card for Teams даёт каждому в компании цифровую визитку в фирменном стиле и собирает все лиды в одном месте. Начать можно с двух мест. Для 14-дневного пробного периода нужна банковская карта. Отмени до его окончания, и платить ничего не придётся.
+NFC.cool Business Card for Teams даёт каждому в компании цифровую визитку в фирменном стиле и собирает все лиды в одном месте. Каждый разговор на выставке или встрече с клиентом превращается в контакт, с которым команда может сразу поработать, а когда кто-то уходит, лиды остаются в компании.
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>14 дней бесплатно</small>Создать команду</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ NFC.cool Business Card for Teams даёт каждому в компании ц�
 
 <h2 class="landing-cta-title">Пора настроить команду?</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Попробовать 14 дней</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

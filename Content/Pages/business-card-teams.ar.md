@@ -1,7 +1,7 @@
 ---
-title: "بطاقات العمل الرقمية للفرق: $٥٠ للشخص في السنة"
+title: "بطاقات العمل الرقمية للفرق: علامة تجارية واحدة وصندوق واحد للعملاء المحتملين"
 slug: "business-card/teams"
-description: "بطاقات العمل الرقمية للفرق: $٥٠ للشخص في السنة، بدءًا من مقعدين، مع تجربة لمدة ١٤ يومًا. علامة تجارية واحدة مقفلة، وصندوق وارد مشترك للعملاء المحتملين، وHubSpot وwebhooks."
+description: "بطاقات العمل الرقمية للفرق: بدءًا من مقعدين، مع تجربة لمدة ١٤ يومًا. علامة تجارية واحدة مقفلة، وصندوق وارد مشترك للعملاء المحتملين، وHubSpot وwebhooks."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # بطاقات العمل الرقمية للفرق
 
-يمنح NFC.cool Business Card for Teams كل شخص في شركتك بطاقة عمل رقمية بعلامتك التجارية، ويحفظ كل العملاء المحتملين الذين يجمعونهم في مكان واحد. يمكنك البدء بمقعدين. وتتطلب التجربة البالغة ١٤ يومًا بطاقة دفع. ألغِ قبل انتهائها ولن تدفع شيئًا.
+يمنح NFC.cool Business Card for Teams كل شخص في شركتك بطاقة عمل رقمية بعلامتك التجارية، ويحفظ كل العملاء المحتملين الذين يجمعونهم في مكان واحد. كل محادثة في معرض أو اجتماع مع عميل تتحول إلى جهة اتصال يمكن لفريقك متابعتها فورًا، وعندما يغادر أحدهم يبقى عملاؤه المحتملون في شركتك.
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>مجانًا لمدة ١٤ يومًا</small>أنشئ فريقًا</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <h2 class="landing-cta-title">هل أنت مستعد لإعداد فريقك؟</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">ابدأ تجربتك لمدة ١٤ يومًا</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

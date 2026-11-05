@@ -1,7 +1,7 @@
 ---
-title: "Ekipler için dijital kartvizit: kişi başı yılda $50"
+title: "Ekipler için dijital kartvizit: tek marka, tüm müşteri adayları tek yerde"
 slug: "business-card/teams"
-description: "Ekipler için dijital kartvizit: kişi başı yılda $50, iki kullanıcıdan başlar, 14 gün deneme. Kilitli tek marka, ortak müşteri adayı kutusu, HubSpot ve webhook'lar."
+description: "Ekipler için dijital kartvizit: iki kullanıcıdan başlar, 14 gün deneme. Kilitli tek marka, ortak müşteri adayı kutusu, HubSpot ve webhook'lar."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Ekipler için dijital kartvizit
 
-NFC.cool Business Card for Teams, şirketindeki herkese kendi markanla dijital kartvizit verir ve topladıkları her müşteri adayını tek yerde tutar. İki kullanıcıyla başlayabilirsin. 14 günlük deneme için ödeme kartı gerekir. Deneme bitmeden iptal edersen hiçbir şey ödemezsin.
+NFC.cool Business Card for Teams, şirketindeki herkese kendi markanla dijital kartvizit verir ve topladıkları her müşteri adayını tek yerde tutar. Fuardaki ya da müşteri görüşmesindeki her sohbet, ekibinin hemen takip edebileceği bir kişiye dönüşür; biri ayrıldığında da müşteri adayları şirkette kalır.
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>14 gün ücretsiz</small>Ekip kur</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ Karşılaştırdığımız diğer şirketler planlarını farklı fiyatlandırı
 
 <h2 class="landing-cta-title">Ekibini kurmaya hazır mısın?</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">14 günlük denemeni başlat</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>

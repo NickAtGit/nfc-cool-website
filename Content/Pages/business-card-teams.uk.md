@@ -1,7 +1,7 @@
 ---
-title: "Цифрові візитівки для команд: $50 за людину на рік"
+title: "Цифрові візитівки для команд: єдиний бренд і всі ліди в одному місці"
 slug: "business-card/teams"
-description: "Цифрові візитівки для команд: $50 за людину на рік, від двох місць, із 14-денним пробним періодом. Один закріплений бренд, спільна скринька лідів, HubSpot і вебхуки."
+description: "Цифрові візитівки для команд: від двох місць, із 14-денним пробним періодом. Один закріплений бренд, спільна скринька лідів, HubSpot і вебхуки."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,14 +13,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Цифрові візитівки для команд
 
-NFC.cool Business Card for Teams дає кожному в компанії цифрову візитівку у фірмовому стилі й тримає всі зібрані ліди в одному місці. Почати можна з двох місць. Для 14-денного пробного періоду потрібна платіжна картка. Скасуй до його завершення, і нічого не заплатиш.
+NFC.cool Business Card for Teams дає кожному в компанії цифрову візитівку у фірмовому стилі й тримає всі зібрані ліди в одному місці. Кожна розмова на виставці чи зустрічі з клієнтом стає контактом, з яким команда може одразу попрацювати, а коли хтось іде, ліди залишаються в компанії.
 
-<div class="landing-store-buttons">
-<a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
-<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="18" cy="8" r="3.9"/><path d="M11 21.500c0-4.700 3-7.800 7-7.800s7 3.100 7 7.800c0 .6-.4 1-1 1H12c-.6 0-1-.4-1-1z"/></g><g fill="currentColor" stroke="#fff" stroke-width="1.700" paint-order="stroke"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g></svg>
-<span><small>14 днів безкоштовно</small>Створити команду</span>
-</a>
-</div>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 
@@ -177,7 +172,7 @@ NFC.cool Business Card for Teams дає кожному в компанії ци�
 
 <h2 class="landing-cta-title">Час налаштувати команду?</h2>
 
-<p><a class="landing-cta-button" href="https://business.nfc.cool/org/start/">Почати 14-денний пробний період</a></p>
+<div class="landing-store-buttons">{{TEAM_BUTTON}}</div>
 
 </div>
 </section>
