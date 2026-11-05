@@ -24,7 +24,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "Gemeinsames Lead-Postfach"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Team-Auswertung, Karte für Karte"
+  - label: "Team-Insights, Karte für Karte"
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpot und Webhooks"
     values: ["✗", "✗", "✗", "✓"]

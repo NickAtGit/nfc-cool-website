@@ -8,7 +8,7 @@ rows:
     values: ["1", "1", "10", "Kişi başı 10'a kadar"]
   - label: "Paylaşım, Apple Wallet, Konferans Modu QR kodu, PIN, veri dışa aktarma"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Kartında kişi kaydetme düğmesi"
+  - label: "Kartında \"Kişiyi kaydet\" düğmesi"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Kartında \"Made with NFC.cool\" yazısı yok"
     values: ["✗", "✓", "✓", "✓"]
@@ -24,7 +24,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "Ortak aday gelen kutusu"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Ekip içgörüleri, kart kart"
+  - label: "Ekip Insights'ı, kart kart"
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpot ve webhook'lar"
     values: ["✗", "✗", "✗", "✓"]

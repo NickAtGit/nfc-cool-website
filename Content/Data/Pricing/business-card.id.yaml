@@ -8,7 +8,7 @@ rows:
     values: ["1", "1", "10", "Hingga 10 per orang"]
   - label: "Berbagi, Apple Wallet, QR Conference Mode, PIN, ekspor data"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Simpan Kontak di kartu Anda"
+  - label: "\"Simpan kontak\" di kartu Anda"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Tanpa \"Made with NFC.cool\" di kartu Anda"
     values: ["✗", "✓", "✓", "✓"]
@@ -24,7 +24,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "Kotak masuk prospek bersama"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Wawasan tim, kartu per kartu"
+  - label: "Insights tim, kartu per kartu"
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpot dan webhook"
     values: ["✗", "✗", "✗", "✓"]

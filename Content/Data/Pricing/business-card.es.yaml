@@ -8,7 +8,7 @@ rows:
     values: ["1", "1", "10", "Hasta 10 por persona"]
   - label: "Compartir, Apple Wallet, QR del Modo Conferencia, PIN, exportación de datos"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Guardar contacto en tu tarjeta"
+  - label: "\"Guardar contacto\" en tu tarjeta"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Sin \"Made with NFC.cool\" en tu tarjeta"
     values: ["✗", "✓", "✓", "✓"]
@@ -24,7 +24,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "Bandeja de leads compartida"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Estadísticas del equipo, tarjeta por tarjeta"
+  - label: "Insights del equipo, tarjeta por tarjeta"
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpot y webhooks"
     values: ["✗", "✗", "✗", "✓"]

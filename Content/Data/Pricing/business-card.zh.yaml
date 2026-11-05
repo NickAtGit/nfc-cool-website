@@ -24,7 +24,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "共享线索收件箱"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "团队数据洞察，细化到每张名片"
+  - label: "团队 Insights，细化到每张名片"
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpot 和 Webhook"
     values: ["✗", "✗", "✗", "✓"]

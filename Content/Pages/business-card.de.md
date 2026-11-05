@@ -1,7 +1,7 @@
 ---
 title: "Business Card Maker App für iPhone & Android"
 slug: "business-card"
-description: "Eine digitale Business Card Maker App für iPhone und Android. Teile deine Visitenkarte per NFC-Tipp, QR-Code, App Clip oder Apple Wallet. Sieh, wie viele Leute deine Karte speichern, und nutze den Konferenzmodus auf Events."
+description: "Eine digitale Business Card Maker App für iPhone und Android. Teile deine Visitenkarte per NFC Tap, QR-Code, App Clip oder Apple Wallet. Sieh, wie viele Leute deine Karte speichern, und nutze den Konferenzmodus auf Events."
 image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 # NFC.cool Business Card
 
-Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-Code, auf dem iPhone zusätzlich per App Clip und Apple Wallet, und sieh, wie viele Leute deine Karte speichern.
+Digitale Visitenkarten für dich und dein Team. Teile per Tap, per NFC oder QR-Code, auf dem iPhone zusätzlich per App Clip und Apple Wallet, und sieh, wie viele Leute deine Karte speichern.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -49,7 +49,7 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 
 <article class="page-card">
 <h3>Eine Karte oder zehn</h3>
-<p>Verschiedene Rollen, Marken oder Events? Mit Pro hat eine Person bis zu 10 Karten und wechselt mit einem Tipp zwischen ihnen.</p>
+<p>Verschiedene Rollen, Marken oder Events? Mit Pro hat eine Person bis zu 10 Karten und wechselt mit einem Tap zwischen ihnen.</p>
 </article>
 
 <article class="page-card">
@@ -147,7 +147,7 @@ Digitale Visitenkarten für dich und dein Team. Teile per Tipp, per NFC oder QR-
 <h3>Teilen & Konnektivität</h3>
 <ul>
 <li><strong>Soziale Netzwerke</strong> - Instagram, LinkedIn, TikTok, X, Facebook, GitHub, YouTube, WhatsApp, Telegram, Discord und mehr</li>
-<li><strong>NFC, QR, eigene URL</strong> - drei Arten zu teilen, jeweils mit einem Tipp</li>
+<li><strong>NFC, QR, eigene URL</strong> - drei Arten zu teilen, jeweils mit einem Tap</li>
 <li><strong>App Clip</strong> - Empfänger sehen deine Karte ohne Installation (iOS)</li>
 <li><strong>Plattformübergreifend</strong> - auf iOS und Android</li>
 </ul>
@@ -186,7 +186,7 @@ Eine persönliche Karte gehört einer Person. Im Team gehören die Karten der Fi
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Ein Postfach für alle Leads</h3><p>Alle Leads des Teams an einem Ort: der richtigen Person zuweisen, Status setzen, Notizen und Tags ergänzen, eine ganze Messe auf einmal taggen und alles als Tabelle exportieren.</p></article>
-<article class="page-card"><h3>Sieh, was jede Karte bringt</h3><p>Aufrufe, Speicherungen und Klicks auf jeden Link. Die Auswertung im Web zeigt das ganze Team, Person für Person und Karte für Karte, und jede Person sieht ihre eigene Karte in der App.</p></article>
+<article class="page-card"><h3>Sieh, was jede Karte bringt</h3><p>Aufrufe, Speicherungen und Klicks auf jeden Link. Insights im Web zeigt das ganze Team, Person für Person und Karte für Karte, und jede Person sieht ihre eigene Karte in der App.</p></article>
 <article class="page-card"><h3>Leads in HubSpot oder per Webhook</h3><p>Verbinde HubSpot einmal, und jeder neue Lead wird zum Kontakt, mit seinen Notizen und seinem Status. Für jedes andere System schickt ein Webhook jeden Lead dorthin, wo du ihn haben willst.</p></article>
 <article class="page-card"><h3>Nachfassen mit deiner Marke</h3><p>Schreib die Nachfass-E-Mail einmal, mit deinem Logo und deinen Farben. Alle im Team können sie direkt aus dem Lead verschicken, oder du startest ein automatisches Nachfassen, das bis zu 7 Tage lang jedem Lead eines Events antwortet.</p></article>
 <article class="page-card"><h3>Eine Marke auf jeder Karte</h3><p>Logo, Firmenname und Jobtitel, einmal festgelegt und gesperrt. Füge jeder Karte deine Firmenlinks hinzu und lass die Kartenlinks über deine eigene Domain laufen.</p></article>

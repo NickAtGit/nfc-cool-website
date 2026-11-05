@@ -8,7 +8,7 @@ rows:
     values: ["1", "1", "10", "Fino a 10 per persona"]
   - label: "Condivisione, Apple Wallet, codice QR della Modalità Conferenza, PIN, esportazione dei dati"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "Salvataggio del contatto dal biglietto"
+  - label: "\"Salva il contatto\" sul biglietto"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Nessun \"Made with NFC.cool\" sul biglietto"
     values: ["✗", "✓", "✓", "✓"]
@@ -24,7 +24,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "Casella condivisa dei lead"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Statistiche del team, biglietto per biglietto"
+  - label: "Insights del team, biglietto per biglietto"
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpot e webhook"
     values: ["✗", "✗", "✗", "✓"]

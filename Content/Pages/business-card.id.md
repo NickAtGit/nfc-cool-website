@@ -186,7 +186,7 @@ Kartu pribadi milik satu orang. Dalam tim, kartu menjadi milik perusahaan, dan i
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Satu kotak masuk untuk semua prospek</h3><p>Setiap prospek yang dikumpulkan tim ada di satu tempat: tugaskan ke orang yang tepat, atur status, tambahkan catatan dan tag, beri tag pada seluruh pameran dagang sekaligus, dan ekspor semuanya sebagai spreadsheet.</p></article>
-<article class="page-card"><h3>Lihat hasil setiap kartu</h3><p>Tampilan, penyimpanan, dan ketukan pada setiap tautan. Wawasan di web menampilkan seluruh tim, per orang dan per kartu, dan setiap orang melihat kartunya sendiri di aplikasi.</p></article>
+<article class="page-card"><h3>Lihat hasil setiap kartu</h3><p>Tampilan, penyimpanan, dan ketukan pada setiap tautan. Insights di web menampilkan seluruh tim, per orang dan per kartu, dan setiap orang melihat kartunya sendiri di aplikasi.</p></article>
 <article class="page-card"><h3>Prospek ke HubSpot, atau lewat webhook</h3><p>Hubungkan HubSpot sekali, dan setiap prospek baru menjadi kontak, lengkap dengan catatan dan statusnya. Untuk sistem lain, webhook mengirim setiap prospek ke mana pun Anda arahkan.</p></article>
 <article class="page-card"><h3>Tindak lanjut dengan merek Anda</h3><p>Tulis e-mail tindak lanjut sekali, dengan logo dan warna Anda. Siapa pun di tim bisa mengirimnya dari prospek, atau mulai tindak lanjut otomatis yang membalas setiap prospek dari sebuah acara hingga 7 hari.</p></article>
 <article class="page-card"><h3>Satu merek di setiap kartu</h3><p>Logo, nama perusahaan, dan jabatan Anda, diatur sekali lalu dikunci. Tambahkan tautan perusahaan ke setiap kartu, dan jalankan tautan kartu di domain Anda sendiri.</p></article>

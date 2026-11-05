@@ -24,7 +24,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "共有のリード受信箱"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "チームのインサイト、カードごと"
+  - label: "チームのInsights、カードごと"
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpotとWebhook"
     values: ["✗", "✗", "✗", "✓"]

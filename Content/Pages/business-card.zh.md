@@ -186,7 +186,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>所有线索一个收件箱</h3><p>团队收集的每条线索都集中在一处：分配给合适的人、设置状态、添加备注和标签、一次为整场展会的线索打标签，还能全部导出为电子表格。</p></article>
-<article class="page-card"><h3>看清每张名片的效果</h3><p>浏览量、保存数和每个链接的点击数。网页端的数据洞察按人、按名片展示整个团队的情况，每个人也能在应用内查看自己的名片。</p></article>
+<article class="page-card"><h3>看清每张名片的效果</h3><p>浏览量、保存数和每个链接的点击数。网页端的 Insights 按人、按名片展示整个团队的情况，每个人也能在应用内查看自己的名片。</p></article>
 <article class="page-card"><h3>线索进入 HubSpot，或通过 Webhook 发送</h3><p>只需连接一次 HubSpot，每条新线索都会成为联系人，并带上备注和状态。对于其他系统，Webhook 会把每条线索发送到您指定的地方。</p></article>
 <article class="page-card"><h3>用您的品牌跟进</h3><p>跟进邮件只需写一次，带上您的徽标和配色。团队中任何人都可以直接从线索发送；也可以启动自动跟进，在最多 7 天内回复某场活动的每条线索。</p></article>
 <article class="page-card"><h3>每张名片统一品牌</h3><p>您的徽标、公司名称和职位，一次设定后即锁定。为每张名片添加公司链接，并让名片链接使用您自己的域名。</p></article>

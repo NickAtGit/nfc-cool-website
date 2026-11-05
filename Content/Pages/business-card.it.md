@@ -186,7 +186,7 @@ Un biglietto personale appartiene a una persona sola. In un team i biglietti app
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Una casella per tutti i lead</h3><p>Tutti i lead raccolti dal team in un posto solo: assegnali alla persona giusta, imposta uno stato, aggiungi note e tag, tagga in un colpo solo un'intera fiera ed esporta tutto in un foglio di calcolo.</p></article>
-<article class="page-card"><h3>Scopri quanto rende ogni biglietto</h3><p>Visualizzazioni, salvataggi e tocchi su ogni link. Sul web le statistiche mostrano tutto il team, persona per persona e biglietto per biglietto, e ciascuno vede il proprio biglietto nell'app.</p></article>
+<article class="page-card"><h3>Scopri quanto rende ogni biglietto</h3><p>Visualizzazioni, salvataggi e tocchi su ogni link. Sul web Insights mostra tutto il team, persona per persona e biglietto per biglietto, e ciascuno vede il proprio biglietto nell'app.</p></article>
 <article class="page-card"><h3>I lead in HubSpot o via webhook</h3><p>Collega HubSpot una volta e ogni nuovo lead diventa un contatto, con note e stato. Per qualsiasi altro sistema, un webhook invia ogni lead dove vuoi tu.</p></article>
 <article class="page-card"><h3>Follow-up con il tuo brand</h3><p>Scrivi una volta sola l'e-mail di follow-up, con logo e colori dell'azienda. Chiunque nel team la invia dalla scheda del lead, oppure avvia un follow-up automatico che risponde a tutti i lead di un evento per un massimo di 7 giorni.</p></article>
 <article class="page-card"><h3>Un solo brand su ogni biglietto</h3><p>Logo, nome dell'azienda e ruoli, impostati una volta e bloccati. Aggiungi i link aziendali a ogni biglietto e usa il tuo dominio per i link dei biglietti.</p></article>

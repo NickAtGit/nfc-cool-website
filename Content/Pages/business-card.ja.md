@@ -186,7 +186,7 @@ image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>すべてのリードを1つの受信箱に</h3><p>チームが集めたリードを1か所に。適切な担当者への割り当て、ステータスの設定、メモとタグの追加、展示会1つ分のリードへの一括タグ付け、スプレッドシートへのエクスポートまでできます。</p></article>
-<article class="page-card"><h3>カードごとの成果を確認</h3><p>表示数、保存数、リンクごとのタップ数。Web版のインサイトではチーム全体を人ごと、カードごとに確認でき、各メンバーはアプリで自分のカードを確認できます。</p></article>
+<article class="page-card"><h3>カードごとの成果を確認</h3><p>表示数、保存数、リンクごとのタップ数。Web版のInsightsではチーム全体を人ごと、カードごとに確認でき、各メンバーはアプリで自分のカードを確認できます。</p></article>
 <article class="page-card"><h3>リードをHubSpotへ、またはWebhookで</h3><p>HubSpotを一度接続すれば、新しいリードはメモとステータス付きで連絡先になります。その他のシステムには、Webhookが各リードを指定の送信先へ届けます。</p></article>
 <article class="page-card"><h3>自社ブランドでフォローアップ</h3><p>ロゴと色を入れたフォローアップメールを一度作成するだけ。チームの誰でもリードから送信できます。自動フォローアップを開始すれば、イベントで得たすべてのリードに最長7日間返信します。</p></article>
 <article class="page-card"><h3>すべてのカードに1つのブランド</h3><p>ロゴ、会社名、役職は一度設定すればロックされます。すべてのカードに会社のリンクを追加し、カードのリンクを自社ドメインで運用できます。</p></article>

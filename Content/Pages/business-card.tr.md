@@ -186,7 +186,7 @@ Kişisel kart tek kişinindir. Ekipte ise kartlar şirketindir ve bu, neler yapa
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Tüm müşteri adayları için tek gelen kutusu</h3><p>Ekibin topladığı her müşteri adayı tek yerde: doğru kişiye ata, durumunu belirle, not ve etiket ekle, koca bir fuarı tek seferde etiketle, hepsini hesap tablosu olarak dışa aktar.</p></article>
-<article class="page-card"><h3>Her kartın ne yaptığını gör</h3><p>Görüntülemeler, kaydetmeler ve her bağlantıya dokunuşlar. Web'deki İçgörüler ekibin tamamını kişi kişi ve kart kart gösterir, herkes kendi kartını uygulamada görür.</p></article>
+<article class="page-card"><h3>Her kartın ne yaptığını gör</h3><p>Görüntülemeler, kaydetmeler ve her bağlantıya dokunuşlar. Web'deki Insights ekibin tamamını kişi kişi ve kart kart gösterir, herkes kendi kartını uygulamada görür.</p></article>
 <article class="page-card"><h3>Müşteri adayları HubSpot'a ya da webhook'la</h3><p>HubSpot'u bir kez bağla, her yeni aday notları ve durumuyla birlikte kişiye dönüşsün. Başka sistemler için webhook, her adayı gösterdiğin adrese gönderir.</p></article>
 <article class="page-card"><h3>Markanla takip et</h3><p>Takip e-postasını logonla ve renklerinle bir kez yaz. Ekipten herkes onu adayın üstünden gönderir. İstersen bir etkinlikten gelen her adayı 7 güne kadar yanıtlayan otomatik takip başlat.</p></article>
 <article class="page-card"><h3>Her kartta tek marka</h3><p>Logo, şirket adı ve unvanlar bir kez ayarlanır ve kilitlenir. Şirket bağlantılarını her karta ekle, kart bağlantılarını kendi alan adında çalıştır.</p></article>
