@@ -126,7 +126,7 @@ are the specific tells in Italian:
 - **Blog CTA tracking:** `ct=blog-<slug>-it` and `utm_campaign%3Dblog-<slug>-it`. Everything
   else in the URL is unchanged.
 - **Internal links** stay locale-agnostic: `/blog/<slug>/`, `/features/nfc-reader-writer/`.
-  Never add an `/it/` prefix - SiteKit routes locales itself.
+  Internal links need the `/it/` prefix: SiteKit does not rewrite them, and a bare link lands the reader on the English page.
 - **Blog `---` rule:** exactly one `---` before every `## H2` and nowhere else. Preserve the
   English file's structure exactly.
 - **Pricing sentinels stay literal English** in `values:` arrays: `"limited"`, `"soon"`,

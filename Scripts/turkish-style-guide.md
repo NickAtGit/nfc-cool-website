@@ -172,7 +172,7 @@ are the specific tells in Turkish:
 - **Blog CTA tracking:** `ct=blog-<slug>-tr` and `utm_campaign%3Dblog-<slug>-tr`. Everything
   else in the URL is unchanged.
 - **Internal links** stay locale-agnostic: `/blog/<slug>/`, `/features/nfc-reader-writer/`.
-  Never add a `/tr/` prefix - SiteKit routes locales itself.
+  Internal links need the `/tr/` prefix: SiteKit does not rewrite them, and a bare link lands the reader on the English page.
 - **Blog `---` rule:** exactly one `---` before every `## H2` and nowhere else. Preserve the
   English file's structure exactly.
 - **Pricing sentinels stay literal English** in `values:` arrays: `"limited"`, `"soon"`,

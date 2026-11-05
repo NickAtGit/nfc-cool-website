@@ -70,6 +70,7 @@ import SiteKit
          .processor(LangPickerDataProcessor())
          .processor(LiveSceneScriptProcessor())
          .processor(PhoneFigureProcessor())
+         .processor(LocalizedLinksProcessor())
          .processor(AssetMinifier())
          .run()
    }

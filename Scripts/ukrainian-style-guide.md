@@ -281,7 +281,7 @@ Hyphens inside words are NOT dashes and stay: `NFC-мітка`, `QR-код`, `3D
 - **Blog CTA tracking:** `ct=blog-<slug>-uk` and `utm_campaign%3Dblog-<slug>-uk`. Everything
   else in the URL is unchanged.
 - **Internal links** stay locale-agnostic: `/blog/<slug>/`, `/features/nfc-reader-writer/`.
-  Never add a `/uk/` prefix - SiteKit routes locales itself.
+  Internal links need the `/uk/` prefix: SiteKit does not rewrite them, and a bare link lands the reader on the English page.
 - **Blog `---` rule:** exactly one `---` before every `## H2` and nowhere else. Preserve the
   English file's structure exactly.
 - **Pricing sentinels stay literal English** in `values:` arrays: `"limited"`, `"soon"`,
