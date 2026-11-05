@@ -67,6 +67,15 @@ struct MarketingPageRenderer: Renderer {
             pagePath: pagePath,
             faq: isDefaultLocale ? Self.onlineNfcReaderFAQ : nil
          )
+      case "business-card":
+         // Read from the page's own FAQ, so every language gets its visible text.
+         jsonLD = StructuredData.staticPageGraph(
+            baseURL: context.config.baseURL,
+            homePath: context.router.homePath(),
+            pageTitle: page.title,
+            pagePath: pagePath,
+            faq: Self.faqItems(inHTML: page.htmlContent)
+         )
       case "reviews":
          // Reviews are translated into each page's language, so the English
          // review text in the JSON-LD only matches the default-locale page.
@@ -297,6 +306,23 @@ struct MarketingPageRenderer: Renderer {
    /// Q&A authored in `Content/Pages/NfcReader.md`. Kept as a constant rather
    /// than parsed from the markdown so the FAQPage JSON-LD is reliable - if the
    /// page's visible FAQ changes, update this list to match.
+   /// The `<details class="faq-item">` questions and answers of a page, as written on it.
+   private static func faqItems(inHTML html: String) -> [FAQItem] {
+      let pattern = #"<details class="faq-item">\s*<summary>(.*?)</summary>\s*<p>(.*?)</p>\s*</details>"#
+      guard let regex = try? NSRegularExpression(pattern: pattern, options: [.dotMatchesLineSeparators]) else { return [] }
+      let text = { (raw: String) in
+         raw.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression)
+            .replacingOccurrences(of: "&quot;", with: "\"")
+            .replacingOccurrences(of: "&#39;", with: "'")
+            .replacingOccurrences(of: "&amp;", with: "&")
+      }
+      let all = NSRange(html.startIndex..., in: html)
+      return regex.matches(in: html, range: all).compactMap { match in
+         guard let question = Range(match.range(at: 1), in: html), let answer = Range(match.range(at: 2), in: html) else { return nil }
+         return FAQItem(question: text(String(html[question])), answer: text(String(html[answer])))
+      }
+   }
+
    private static let onlineNfcReaderFAQ: [FAQItem] = [
       FAQItem(
          question: "Can I read and write NFC tags without an app?",
