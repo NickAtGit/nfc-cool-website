@@ -21,7 +21,8 @@ featuresTitle: "Alles, was du zum Scannen brauchst"
 
 featureBanner:
   title: "NFC.cool Business Card"
-  subtitle: "Eine eigenständige Visitenkarten-App für iPhone und Android - teile sie per NFC-Scan oder QR-Code, auf dem iPhone zusätzlich per AppClip und Apple Wallet. Sieh, wer deine Karte speichert, organisiere Leads und nutze den Konferenzmodus auf Events."
+  subtitle: "Eine eigenständige Visitenkarten-App für iPhone und Android - teile sie per NFC-Scan oder QR-Code, auf dem iPhone zusätzlich per AppClip und Apple Wallet. Sieh, wie viele Leute deine Karte speichern, organisiere Leads und nutze den Konferenzmodus auf Events."
+  teamLine: "Brauchst du Karten für dein ganzes Team? <a href=\"/de/business-card/teams/\">NFC.cool Business Card for Teams</a> setzt deine Marke fest auf jede Karte und sammelt jeden Lead in einem gemeinsamen Postfach."
   imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
   imageAlt: "Ein Smartphone scannt ein NFC.cool Namensschild am Umhängeband und zeigt den Kontakt an"
   scene: "bizcardroom"
@@ -92,7 +93,7 @@ faq:
   - question: "Wie teilt NFC.cool Business Card meine Karte ohne App?"
     answer: "Per Apple AppClip (sofortige Übertragung ohne Download, Empfänger sehen deine Karte in einem System-Popover), QR-Code, Apple Wallet Pass oder öffentlicher Web-Profil-URL. Empfänger speichern deinen Kontakt mit einem Tipp - sie müssen NFC.cool nicht installieren oder ein Konto anlegen."
   - question: "Wie unterscheidet sich NFC.cool von anderen NFC-Apps?"
-    answer: "Die meisten NFC-Apps konzentrieren sich entweder aufs Lesen oder aufs Schreiben - NFC.cool Tools kann beides, plus QR-Codes, Barcodes, Dokumenten-OCR, 3D-Erfassung und Raum-Scans in einer einzigen App. Drei weitere Unterschiede: Datenschutz (Scan-Daten bleiben auf dem Gerät und werden nie an NFC.cool-Server gesendet); tiefe iOS-Integration (App Intents, Kurzbefehle, Sperrbildschirm-Widgets, Action Button, Webhooks), sodass Scans deine eigenen Automatisierungen auslösen statt in der App eingeschlossen zu bleiben; und aktiver Solo-Entwickler-Support - der Entwickler liest jede E-Mail persönlich und liefert Fixes innerhalb weniger Tage."
+    answer: "Die meisten NFC-Apps konzentrieren sich entweder aufs Lesen oder aufs Schreiben - NFC.cool Tools kann beides, plus QR-Codes, Barcodes, Dokumenten-OCR, 3D-Erfassung und Raum-Scans in einer einzigen App. Drei weitere Unterschiede: Datenschutz (Scan-Daten bleiben auf dem Gerät und werden nie an NFC.cool-Server gesendet); tiefe iOS-Integration (App Intents, Kurzbefehle, Sperrbildschirm-Widgets, Action Button, Webhooks), sodass Scans deine eigenen Automatisierungen auslösen statt in der App eingeschlossen zu bleiben; und schnelle Antworten vom Gründer, der jede E-Mail persönlich liest und Fixes innerhalb weniger Tage ausliefert."
 
 newsletter:
   title: "Bleib auf dem Laufenden"

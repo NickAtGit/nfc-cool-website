@@ -23,7 +23,7 @@ Nada de eso. Es una etiqueta NFC normal y corriente y un código QR impreso, y l
 
 ## Qué lleva dentro un expositor de reseñas de Google
 
-La etiqueta NFC de estos expositores es el mismo tipo de pegatina barata que puedes [comprar en paquetes de cincuenta](/affiliate-links/). Alguien ha grabado en ella un único enlace web. El código QR de al lado es ese mismo enlace, impreso como un patrón de cuadraditos, para quien tenga un móvil sin NFC o lo tenga desactivado.
+La etiqueta NFC de estos expositores es el mismo tipo de pegatina barata que puedes [comprar en paquetes de cincuenta](/es/affiliate-links/). Alguien ha grabado en ella un único enlace web. El código QR de al lado es ese mismo enlace, impreso como un patrón de cuadraditos, para quien tenga un móvil sin NFC o lo tenga desactivado.
 
 Lo interesante es el propio enlace. Google tiene una URL que lleva al cliente directamente al formulario de reseñas de un negocio concreto, identificado por su **Place ID**. Todos los negocios de Google Maps tienen uno, y si el tuyo todavía no aparece, Google explica cómo [crear un Perfil de Empresa](https://support.google.com/business/answer/2911778?hl=es). Graba ese enlace en una etiqueta y acercar el móvil al expositor se convierte en el camino más corto entre "qué noche tan buena" y una reseña escrita.
 
@@ -51,7 +51,7 @@ Antes de que te pongas a montar uno, hay unas cuantas cosas que aprendí a base 
 
 [Piano Negro](https://mycard.nfc.cool/PianoNegro/Piano-Negro) es un bar de Coimbra que lleva abierto desde 1993. Cuando ayudé al dueño a preparar sus expositores, no pusimos solo un enlace de reseñas en las mesas. Quien acaba de sentarse todavía no está pensando en reseñas. Quiere ver qué hay en la carta.
 
-Por eso, cada mesa de Piano Negro tiene un expositor con la **[NFC.cool Business Card](/business-card/)** del bar. Acercas el móvil o escaneas el código QR, y se abre la tarjeta con todo lo que un cliente puede querer, cada cosa a un toque:
+Por eso, cada mesa de Piano Negro tiene un expositor con la **[NFC.cool Business Card](/es/business-card/)** del bar. Acercas el móvil o escaneas el código QR, y se abre la tarjeta con todo lo que un cliente puede querer, cada cosa a un toque:
 
 - la carta, en portugués y en inglés
 - WhatsApp
@@ -70,10 +70,10 @@ Otra cosa que me gusta de este montaje es que el expositor nunca se queda desfas
 
 La lista de la compra es sorprendentemente corta:
 
-- **Etiquetas NFC.** Una simple pegatina NTAG213 es más que suficiente, y los enlaces de este artículo caben de sobra. Si no tienes claro qué tipo de etiqueta usar, mi [guía de etiquetas NFC para iPhone](/blog/nfc-tag-types-for-iphones/) explica las diferencias.
+- **Etiquetas NFC.** Una simple pegatina NTAG213 es más que suficiente, y los enlaces de este artículo caben de sobra. Si no tienes claro qué tipo de etiqueta usar, mi [guía de etiquetas NFC para iPhone](/es/blog/nfc-tag-types-for-iphones/) explica las diferencias.
 - **Expositores de metacrilato transparente** en los que se mete una tarjeta impresa. Se venden como portamenús o portacarteles y cuestan unos pocos euros cada uno.
 - **Una impresora a color.**
-- **[NFC.cool Business Card](/business-card/)** para los expositores de las mesas.
+- **[NFC.cool Business Card](/es/business-card/)** para los expositores de las mesas.
 - **NFC.cool Tools** para el enlace de reseñas y para proteger tus etiquetas con contraseña, en [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-google-review-nfc-stand-es&mt=8) y [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-google-review-nfc-stand-es).
 
 ---
@@ -135,7 +135,7 @@ Si tu negocio no aparece, lo más probable es que todavía no tenga Perfil de Em
 
 ### Paso 2: Graba la etiqueta
 
-Guarda el enlace y grábalo en tu pegatina NFC acercando el móvil. Si nunca has grabado una etiqueta, lo explico paso a paso en [esta guía para grabar etiquetas NFC con el iPhone](/blog/write-nfc-tags-iphone/).
+Guarda el enlace y grábalo en tu pegatina NFC acercando el móvil. Si nunca has grabado una etiqueta, lo explico paso a paso en [esta guía para grabar etiquetas NFC con el iPhone](/es/blog/write-nfc-tags-iphone/).
 
 ### Paso 3: Crea el código QR
 

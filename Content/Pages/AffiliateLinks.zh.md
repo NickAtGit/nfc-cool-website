@@ -1,7 +1,7 @@
 ---
 title: "推荐的 NFC 标签"
 slug: "affiliate-links"
-description: "到哪里买真正能配合 iPhone、iPad 和 Android 使用的 NFC 标签，以及选购时该看什么、该避开什么，还有为什么 NTAG216 几乎总是正确之选。"
+description: "到哪里买真正能配合 iPhone、iPad 和 Android 使用的 NFC 标签，以及选购时该看什么、该避开什么，还有为什么 NTAG216 几乎总是正确之选。这份推荐来自做 NFC App 多年、读过数千封支持邮件的经验。"
 image: "/assets/images/Affiliate/create-nfc-tag.webp"
 ---
 
@@ -31,7 +31,7 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 ## 到哪里买
 
-对于 95% 的 NFC 使用场景：联系人名片、自动化触发器、网址快捷方式、Wi-Fi 分享，买 **NTAG216** 贴纸就对了。在 iPhone 和 Android 上都很可靠，用户可写空间达 888 字节，批量购买便宜，而且也正是 NFC.cool 测试时所依据的那款芯片。刚接触 NFC 标签？我的[完整 NFC 标签新手指南](/blog/nfc-tags-beginners-guide/)会讲清楚它们的工作原理，以及各种芯片之间的区别。选择你所在的 Amazon 商店，或者随便点一个都行，Amazon 会自动把国际买家引导到离你最近的商店。
+对于 95% 的 NFC 使用场景：联系人名片、自动化触发器、网址快捷方式、Wi-Fi 分享，买 **NTAG216** 贴纸就对了。在 iPhone 和 Android 上都很可靠，用户可写空间达 888 字节，批量购买便宜，而且也正是 NFC.cool 测试时所依据的那款芯片。刚接触 NFC 标签？我的[完整 NFC 标签新手指南](/zh/blog/nfc-tags-beginners-guide/)会讲清楚它们的工作原理，以及各种芯片之间的区别。选择你所在的 Amazon 商店，或者随便点一个都行，Amazon 会自动把国际买家引导到离你最近的商店。
 
 <div class="affiliate-store-box">
 
@@ -58,7 +58,7 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 ## 要备份 Amiibo？请选 NTAG215
 
-Amiibo 用的正是 **NTAG215** 芯片。如果你要[用 NFC.cool 备份 Amiibo](/blog/amiibo-iphone-android-read-collect-backup/)，请购买空白的 **NTAG215** 标签，而不是我在其他所有场景都推荐的 NTAG216。这是唯一一种需要精确匹配芯片的情况：NFC.cool 会把重新生成密钥后的副本写入 NTAG215，也就是真正的 Amiibo 所使用的同一种芯片类型。
+Amiibo 用的正是 **NTAG215** 芯片。如果你要[用 NFC.cool 备份 Amiibo](/zh/blog/amiibo-iphone-android-read-collect-backup/)，请购买空白的 **NTAG215** 标签，而不是我在其他所有场景都推荐的 NTAG216。这是唯一一种需要精确匹配芯片的情况：NFC.cool 会把重新生成密钥后的副本写入 NTAG215，也就是真正的 Amiibo 所使用的同一种芯片类型。
 
 <div class="affiliate-store-box">
 

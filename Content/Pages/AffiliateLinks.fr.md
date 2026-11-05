@@ -31,7 +31,7 @@ Après plusieurs années à développer des apps NFC et à lire des milliers d'e
 
 ## Où acheter
 
-Pour 95 % de ce que les gens font avec le NFC - cartes de visite, déclencheurs d'automatisation, raccourcis d'URL, partage de Wi-Fi - achetez des autocollants **NTAG216**. Fiables sur iPhone et Android, 888 octets d'espace inscriptible, peu chers en gros, et c'est exactement la puce sur laquelle NFC.cool est testé. Vous débutez avec les tags NFC ? Mon [guide complet des tags NFC pour débutants](/blog/nfc-tags-beginners-guide/) explique comment ils fonctionnent et en quoi les puces diffèrent. Choisissez votre boutique Amazon - ou cliquez sur n'importe laquelle, Amazon redirige automatiquement les acheteurs internationaux vers la boutique la plus proche.
+Pour 95 % de ce que les gens font avec le NFC - cartes de visite, déclencheurs d'automatisation, raccourcis d'URL, partage de Wi-Fi - achetez des autocollants **NTAG216**. Fiables sur iPhone et Android, 888 octets d'espace inscriptible, peu chers en gros, et c'est exactement la puce sur laquelle NFC.cool est testé. Vous débutez avec les tags NFC ? Mon [guide complet des tags NFC pour débutants](/fr/blog/nfc-tags-beginners-guide/) explique comment ils fonctionnent et en quoi les puces diffèrent. Choisissez votre boutique Amazon - ou cliquez sur n'importe laquelle, Amazon redirige automatiquement les acheteurs internationaux vers la boutique la plus proche.
 
 <div class="affiliate-store-box">
 
@@ -58,7 +58,7 @@ Pour 95 % de ce que les gens font avec le NFC - cartes de visite, déclencheurs 
 
 ## Sauvegarder vos Amiibo ? Prenez du NTAG215
 
-Les Amiibo utilisent précisément des puces **NTAG215**. Si vous [sauvegardez vos Amiibo avec NFC.cool](/blog/amiibo-iphone-android-read-collect-backup/), achetez des tags **NTAG215** vierges - pas le NTAG216 que je recommande pour tout le reste. C'est le seul cas où vous devez choisir exactement la même puce : NFC.cool écrit la copie ré-encodée sur un NTAG215, le même type de puce qu'utilise un vrai Amiibo.
+Les Amiibo utilisent précisément des puces **NTAG215**. Si vous [sauvegardez vos Amiibo avec NFC.cool](/fr/blog/amiibo-iphone-android-read-collect-backup/), achetez des tags **NTAG215** vierges - pas le NTAG216 que je recommande pour tout le reste. C'est le seul cas où vous devez choisir exactement la même puce : NFC.cool écrit la copie ré-encodée sur un NTAG215, le même type de puce qu'utilise un vrai Amiibo.
 
 <div class="affiliate-store-box">
 

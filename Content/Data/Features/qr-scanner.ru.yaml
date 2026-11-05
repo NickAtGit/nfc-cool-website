@@ -57,7 +57,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Синхронизация с iCloud между iPhone, iPad и Mac"
-    body: "<p>История сканирований и твои макеты из студии QR синхронизируются между всеми устройствами с одной учётной записью iCloud. Собери код на iPad, отправь его с iPhone, поправь на <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a>: одна библиотека, одни и те же правки, без экспорта туда-обратно.</p>"
+    body: "<p>История сканирований и твои макеты из студии QR синхронизируются между всеми устройствами с одной учётной записью iCloud. Собери код на iPad, отправь его с iPhone, поправь на <a href=\"/ru/blog/nfc-cool-comes-to-mac/\">Mac</a>: одна библиотека, одни и те же правки, без экспорта туда-обратно.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool синхронизируется между iPhone, iPad и Mac"
     platforms: "iOS"

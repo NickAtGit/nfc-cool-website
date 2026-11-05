@@ -19,7 +19,7 @@ Tag yerinden kıpırdamamıştı. Tekrar denedim. Aynı mesaj. Bu sefer parola b
 
 Neler olduğuna birazdan döneceğim, çünkü bu yıl peşine düştüğüm en ilginç hata buydu. Ama önce şunu anlatayım: bir ICODE tag'iyle ne diye uğraşıyordum?
 
-NFC.cool'un telefona yükleyebileceğin en yetenekli NFC uygulaması olmasını istiyorum. Bu yaz sıra [NTAG 424 DNA](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/) tag'lerdeydi; markalar bir ürünün orijinal olduğunu kanıtlamak için onları kullanıyor. Ardından uygulamanın hâlâ doğru dürüst anlaşamadığı en büyük çip ailesi kalmıştı: NXP'nin ICODE serisi. **NFC.cool Tools 7.1.0** ile artık onunla da anlaşıyor.
+NFC.cool'un telefona yükleyebileceğin en yetenekli NFC uygulaması olmasını istiyorum. Bu yaz sıra [NTAG 424 DNA](/tr/blog/ntag-424-dna-counterfeit-proof-nfc-tags/) tag'lerdeydi; markalar bir ürünün orijinal olduğunu kanıtlamak için onları kullanıyor. Ardından uygulamanın hâlâ doğru dürüst anlaşamadığı en büyük çip ailesi kalmıştı: NXP'nin ICODE serisi. **NFC.cool Tools 7.1.0** ile artık onunla da anlaşıyor.
 
 ---
 
@@ -50,7 +50,7 @@ Birini NFC.cool ile okut, uygulama her şeyi önüne sersin: hangi çip olduğu,
 
 Ardından çipin sunduğu neredeyse her şeyi değiştirebilirsin:
 
-- **Okutma sayacı.** ICODE 3 her okumayı kendi kendine sayabiliyor. NFC yansıtmayı açarsan çip, kimlik numarasını ve güncel sayıyı kayıtlı bağlantının içine yazıyor; böylece her okutma, bir web sitesinin sayabileceği, biraz farklı bir adres açıyor. [NFC okutma sayacını](/blog/count-nfc-tag-scans/) anlattığım yazıyı okuduysan, bu aynı fikrin başka bir çipteki hali.
+- **Okutma sayacı.** ICODE 3 her okumayı kendi kendine sayabiliyor. NFC yansıtmayı açarsan çip, kimlik numarasını ve güncel sayıyı kayıtlı bağlantının içine yazıyor; böylece her okutma, bir web sitesinin sayabileceği, biraz farklı bir adres açıyor. [NFC okutma sayacını](/tr/blog/count-nfc-tag-scans/) anlattığım yazıyı okuduysan, bu aynı fikrin başka bir çipteki hali.
 - **Parolalar.** ICODE 3'te altı parola var: okuma, yazma, gizlilik, imha, hırsızlık önleme ayarları ve yapılandırma için birer tane. Her tag aynı fabrika değerleriyle geliyor, yani bir koruma ancak kendi parolanı belirlediğinde anlam kazanıyor. NFC.cool parolalarını her tag için ayrı ayrı iCloud Anahtar Zinciri'nde saklıyor.
 - **Bellek koruması.** Belleği iki parçaya bölüp her birini ayrı ayrı koruyabilirsin; örneğin herkese açık bağlantı okunabilir kalırken arkasında saklanan verileri gizlersin.
 - **Hırsızlık önleme ve kütüphane ayarları.** Mağazada ya da kütüphanede kapıdaki alarmı öttüren şey EAS bayrağı. AFI baytını ise kütüphaneler bir kitabın ödünç verildiğini işaretlemek için kullanıyor. İkisini de değiştirip kilitleyebilirsin.
@@ -95,7 +95,7 @@ Sorunu anlayınca çözüm gülünç derecede basit çıktı. Test artık NXP'ni
 
 ## Hangi cihazlarda çalışıyor
 
-iPhone'da bunların hepsi telefonun yerleşik NFC okuyucusuyla çalışıyor. NFC çipi olmayan iPad ve Mac'te ise [harici bir USB NFC okuyucu](/blog/nfc-reading-ipad-mac/) üzerinden çalışıyor. Okuyucunun ICODE komutlarını olduğu gibi tag'e iletmesi gerekiyor. Seninki bunu yapıyorsa uygulama ICODE tag'lerini iPhone'daki gibi okuyup yönetiyor; üstelik önceki bölümde anlattığım hata orada hiç yaşanmıyor. Komutları iletemeyen bir okuyucuyla da tag'in belleğini yine okuyabiliyorsun.
+iPhone'da bunların hepsi telefonun yerleşik NFC okuyucusuyla çalışıyor. NFC çipi olmayan iPad ve Mac'te ise [harici bir USB NFC okuyucu](/tr/blog/nfc-reading-ipad-mac/) üzerinden çalışıyor. Okuyucunun ICODE komutlarını olduğu gibi tag'e iletmesi gerekiyor. Seninki bunu yapıyorsa uygulama ICODE tag'lerini iPhone'daki gibi okuyup yönetiyor; üstelik önceki bölümde anlattığım hata orada hiç yaşanmıyor. Komutları iletemeyen bir okuyucuyla da tag'in belleğini yine okuyabiliyorsun.
 
 Android uygulaması ise henüz ICODE'un dilinden anlamıyor.
 

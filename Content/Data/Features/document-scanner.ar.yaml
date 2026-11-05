@@ -49,7 +49,7 @@ subsections:
     platforms: "iOS"
 
   - title: "مزامنة iCloud عبر iPhone وiPad وMac"
-    body: "<p>تتزامن المستندات بسلاسة عبر iCloud على كل جهاز في حسابك. امسح عقدًا على iPhone، وراجعه على iPad، ووقّعه على <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - المكتبة نفسها، دون تصدير ذهابًا وإيابًا. تنتقل معها الصور الأصلية والنص المُتعرَّف عليه معًا.</p>"
+    body: "<p>تتزامن المستندات بسلاسة عبر iCloud على كل جهاز في حسابك. امسح عقدًا على iPhone، وراجعه على iPad، ووقّعه على <a href=\"/ar/blog/nfc-cool-comes-to-mac/\">Mac</a> - المكتبة نفسها، دون تصدير ذهابًا وإيابًا. تنتقل معها الصور الأصلية والنص المُتعرَّف عليه معًا.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool يزامن عبر iPhone وiPad وMac"
     platforms: "iOS"

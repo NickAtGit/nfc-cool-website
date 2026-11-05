@@ -20,7 +20,7 @@ Enquanto lá estive, comecei a conversar com o [Alexander Manzer](https://www.li
 
 ## Eu disse-vos que isto não ia funcionar
 
-Em maio, [quando o NFC.cool chegou ao Mac](/blog/nfc-cool-comes-to-mac/), escrevi uma secção inteira sobre o que o Mac não consegue fazer e coloquei a leitura NFC logo no topo dela. O meu raciocínio era simples: os Macs não têm rádio NFC, os iPads não têm rádio NFC, e isso é um limite de hardware que nenhuma atualização de software minha consegue corrigir.
+Em maio, [quando o NFC.cool chegou ao Mac](/pt/blog/nfc-cool-comes-to-mac/), escrevi uma secção inteira sobre o que o Mac não consegue fazer e coloquei a leitura NFC logo no topo dela. O meu raciocínio era simples: os Macs não têm rádio NFC, os iPads não têm rádio NFC, e isso é um limite de hardware que nenhuma atualização de software minha consegue corrigir.
 
 Essa parte continua a ser verdade - para o chip integrado no dispositivo. O que me escapou é que não tem de usar o chip integrado. Pode ligar um.
 
@@ -55,7 +55,7 @@ Estes são todos os leitores que sei até agora que funcionam com o NFC.cool:
 - **ACS ACR1552U-M1** - um utilizador comunicou que funciona ([Amazon](https://amzn.to/4xZVEwe))
 - **ACS ACR1255U-J1** - um utilizador comunicou que funciona ([Amazon](https://amzn.to/4xZVEwe))
 
-Obrigado a todos os que me escreveram. Não posso comprar todos os leitores do mercado, por isso cada modelo a seguir ao primeiro está nesta lista porque alguém o comprou, o experimentou e teve o cuidado de me dizer. Se usa um leitor que não está aqui, [diga-me](/contact/) se funcionou ou onde falhou, e eu acrescento-o a este artigo.
+Obrigado a todos os que me escreveram. Não posso comprar todos os leitores do mercado, por isso cada modelo a seguir ao primeiro está nesta lista porque alguém o comprou, o experimentou e teve o cuidado de me dizer. Se usa um leitor que não está aqui, [diga-me](/pt/contact/) se funcionou ou onde falhou, e eu acrescento-o a este artigo.
 
 São links de afiliado da Amazon: se comprar através de um deles, posso receber uma pequena comissão sem custo adicional para si.
 
@@ -69,7 +69,7 @@ São links de afiliado da Amazon: se comprar através de um deles, posso receber
 </ol>
 </figure>
 
-Quase tudo o que faria num iPhone. Pode ler tags e extrair toda a sua memória, escrever mensagens NDEF e executar tarefas em lote que leem ou escrevem uma pilha inteira de tags umas a seguir às outras. Proteger tags com palavra-passe funciona. O mesmo acontece com o [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), o formato dos rolos de filamento de impressoras 3D, em ambos os sentidos. E sim, a [reposição da cabeça da escova Philips Sonicare](/blog/reset-sonicare-brush-head-nfc/) também corre.
+Quase tudo o que faria num iPhone. Pode ler tags e extrair toda a sua memória, escrever mensagens NDEF e executar tarefas em lote que leem ou escrevem uma pilha inteira de tags umas a seguir às outras. Proteger tags com palavra-passe funciona. O mesmo acontece com o [OpenPrintTag](/pt/blog/openprinttag-read-write-nfc-spools-phone/), o formato dos rolos de filamento de impressoras 3D, em ambos os sentidos. E sim, a [reposição da cabeça da escova Philips Sonicare](/pt/blog/reset-sonicare-brush-head-nfc/) também corre.
 
 Esta última foi a parte difícil. Repor uma cabeça Sonicare significa ler um contador da tag e depois escrever de volta numa página protegida por palavra-passe, e a tag só aceita essa escrita se ainda o considerar autenticado de um instante antes. Através de um leitor externo, isso implicou manter uma única sessão aberta com o leitor ao longo de ambos os passos, em vez de a deixar fechar pelo meio. Assim que isso se manteve, as operações que dependem disso - escritas protegidas, a reposição da escova - começaram a comportar-se como o fazem num telemóvel.
 

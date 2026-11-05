@@ -12,7 +12,7 @@ metaDescription: "Ein Wecker für iPhone und Android, der erst verstummt, wenn d
 ogTitle: "Ein Wecker, den du nicht einfach wegdrücken kannst"
 ogDescription: "Der NFC-Wecker gibt erst Ruhe, wenn du eine Route aus NFC-Tags durch deine Wohnung abgelaufen bist. So funktioniert das auf iPhone und Android."
 ---
-Als Indie-Entwickler lebt man in einem Rhythmus, der sich nicht um Bürozeiten schert. Am besten programmiere ich spätabends, wenn keine Nachrichten mehr reinkommen und es im Haus still ist, und ehe ich mich versehe, ist es zwei Uhr nachts. Der Wecker klingelt natürlich trotzdem zur gewohnten Zeit. Und ich drücke auf Schlummern. Dann noch mal. Und ein drittes Mal, bis der halbe Vormittag, den ich mir vorgenommen hatte, schon wieder weg ist.
+Als Gründer lebt man in einem Rhythmus, der sich nicht um Bürozeiten schert. Am besten programmiere ich spätabends, wenn keine Nachrichten mehr reinkommen und es im Haus still ist, und ehe ich mich versehe, ist es zwei Uhr nachts. Der Wecker klingelt natürlich trotzdem zur gewohnten Zeit. Und ich drücke auf Schlummern. Dann noch mal. Und ein drittes Mal, bis der halbe Vormittag, den ich mir vorgenommen hatte, schon wieder weg ist.
 
 Ich habe eine Weile überlegt, was ich eigentlich dagegen tun kann. Ein lauterer Wecker? Den würde ich mit der Zeit einfach überhören. Das Handy auf die andere Seite des Zimmers legen? Dann würde ich hinlaufen, auf Stoppen drücken und zurück ins Bett kriechen. Das Problem war nie, dass ich den Wecker nicht höre. Das Problem war, dass ihn auszuschalten nur einen Fingertipp kostete und null Nachdenken.
 
@@ -80,7 +80,7 @@ Es gibt Wecker-Apps, bei denen du dein Waschbecken fotografieren oder den Barcod
 
 Ein NFC-Tag ist für sich genommen stumm: ein winziger Chip mit einer ID, sonst nichts, der auf einem Regal liegt. Was mir an NFC.cool am meisten Spaß macht, ist, so einem Chip eine Bedeutung zu geben und aus einem Sticker für ein paar Cent etwas zu machen, das in deinem Alltag tatsächlich etwas bewirkt. Beim NFC-Wecker muss auf dem Tag nicht einmal etwas gespeichert sein. Die App erkennt jeden Tag an seiner Chip-ID und schreibt nichts darauf. Jeder Tag funktioniert, auch die Packung Ersatz-Sticker, die bei dir in der Schublade liegt. Und Licht braucht es keins: Ein Tag lässt sich im dunklen Flur scannen, wo eine Kamera schnell an ihre Grenzen kommt, und zielen musst du auch nicht.
 
-Falls du noch keine Tags hast: In meinem [Einsteiger-Ratgeber zu NFC-Tags](/blog/nfc-tags-beginners-guide/) steht, welche du kaufen solltest.
+Falls du noch keine Tags hast: In meinem [Einsteiger-Ratgeber zu NFC-Tags](/de/blog/nfc-tags-beginners-guide/) steht, welche du kaufen solltest.
 
 ---
 

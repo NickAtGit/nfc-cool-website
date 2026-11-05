@@ -5,14 +5,14 @@ date: 2024-04-05
 tags: ["announcements", "android", "nfc-tags"]
 summary: "NFC.cool Tools 已在 Google Play 上线。NFC 扫描与标签写入如今都来到了 Android 上；对于共享 Android 兼容硬件的那些部分，功能与 iOS 版完全一致。"
 metaTitle: "NFC.cool Tools：现已在 Google Play 上线"
-metaDescription: "NFC.cool Tools 已可在 Android 上使用：读写 NFC 标签，与你在 iPhone 上熟悉的是同一个品牌，现已登陆 Google Play。"
+metaDescription: "NFC.cool Tools 已登陆 Google Play。现在你可以在 Android 上读取和写入 NFC 标签，URL、vCard、Wi-Fi、纯文本和自定义 MIME 记录都支持，用法和在 iPhone 上一样。这篇也讲讲哪些功能仍仅限 iOS。"
 ogTitle: "NFC.cool 现已登陆 Play Store"
 ogDescription: "NFC.cool Tools 已在 Google Play 上线：Android 上的 NFC 扫描与标签写入。"
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
-> **2026 年 8 月更新：** NFC.cool Business Card 现在在 Android 上也是一款独立 App - [在 Google Play 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en)。NFC.cool Tools 里已有的名片照常可用，新名片则在这款独立 App 中创建。
+> **2026 年 8 月更新：** NFC.cool Business Card 现在在 Android 上也是一款独立 App - [在 Google Play 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-zh)。NFC.cool Tools 里已有的名片照常可用，新名片则在这款独立 App 中创建。
 
-**NFC.cool Tools** 现已在 [Google Play Store](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en) 上架。在 iOS 上耕耘多年之后，Android 版正式上线，而且内置了 NFC.cool Business Card。
+**NFC.cool Tools** 现已在 [Google Play Store](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-zh) 上架。在 iOS 上耕耘多年之后，Android 版正式上线，而且内置了 NFC.cool Business Card。
 
 ---
 
@@ -44,7 +44,7 @@ Android 早在 2012 年就支持 NFC 了，比 iPhone 还早。那为什么 Andr
 
 ## 在哪里获取
 
-- **Android：** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en)
-- **iOS：** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-en&mt=8)
+- **Android：** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-zh)
+- **iOS：** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-zh&mt=8)
 
 同一个品牌。在共享硬件的部分提供同一套功能。接下来的计划，是让两个平台在任何与 NFC 相关的事情上同步推进。

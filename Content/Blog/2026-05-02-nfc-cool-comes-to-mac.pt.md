@@ -86,7 +86,7 @@ Aproxime um código QR da câmara do seu Mac e o NFC.cool lê-o. O mesmo para c�
 
 Acredito em ser franco quanto às limitações, em vez de as esconder.
 
-**A leitura NFC** não tem suporte *integrado* no Mac, porque nenhum Mac tem rádio NFC. Isto costumava ser o fim da história. Já não é: com um leitor USB externo pode agora ler e escrever tags NFC diretamente a partir de um Mac ou de um iPad. Escrevi sobre como isso funciona em [Leitura de tags NFC no iPad e no Mac](/blog/nfc-reading-ipad-mac/).
+**A leitura NFC** não tem suporte *integrado* no Mac, porque nenhum Mac tem rádio NFC. Isto costumava ser o fim da história. Já não é: com um leitor USB externo pode agora ler e escrever tags NFC diretamente a partir de um Mac ou de um iPad. Escrevi sobre como isso funciona em [Leitura de tags NFC no iPad e no Mac](/pt/blog/nfc-reading-ipad-mac/).
 
 **A digitalização de documentos** também não funciona - a câmara do Mac não tem o sistema de focagem automática e deteção de margens que faz a digitalização de documentos funcionar no iPhone e no iPad.
 

@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "房间扫描"
-  subtitle: "由 LiDAR 驱动的 RoomPlan 会把你在空间中的一次走动转化为整洁的参数化平面图：墙壁、门、窗户和识别出的家具，导出为单个 USDZ 场景。"
+  subtitle: "由 LiDAR 驱动的 RoomPlan 会把你在空间中的一次走动转化为整洁的参数化平面图：墙壁、门、窗户和识别出的家具，导出为单个 USDZ 场景。每个房间都会报告地面面积、层高和每面墙的尺寸，也能在 AR Quick Look 中打开查看。"
   platforms: "仅限 iOS"
   heroImagePath: "/assets/images/Webflow/scan-room.webp"
 
@@ -43,7 +43,7 @@ subsections:
     platforms: "iOS"
 
   - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
-    body: "<p>扫描出的房间存放在你的 iCloud 文档文件夹中，因此用来扫描的 iPhone、用来审阅的 iPad，以及你将用来编辑的 <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> 看到的都是同一个资料库。在空间里走一遍，之后回到桌前再精修平面图。</p>"
+    body: "<p>扫描出的房间存放在你的 iCloud 文档文件夹中，因此用来扫描的 iPhone、用来审阅的 iPad，以及你将用来编辑的 <a href=\"/zh/blog/nfc-cool-comes-to-mac/\">Mac</a> 看到的都是同一个资料库。在空间里走一遍，之后回到桌前再精修平面图。</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
     platforms: "iOS"

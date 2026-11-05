@@ -2,6 +2,7 @@
 id: nfc-blog-026
 title: "NFC.cool dijital kartvizitini kurmak"
 date: 2024-04-06
+lastModified: "2026-11-05"
 tags: ["business-cards", "guides"]
 summary: "NFC.cool dijital kartvizitini kurmanın adım adım anlatımı: kişiyi hazırla, neyin herkese açık olacağını seç, NFC tag'e yaz ve paylaş. Üstüne, ciddi tanışmalarda düzenlenebilir tek bir adresin tek atımlık vCard QR'ı neden yendiği."
 metaTitle: "NFC.cool dijital kartvizitini nasıl kurarsın"
@@ -24,17 +25,17 @@ NFC.cool Business Card'ı [iPhone](https://apps.apple.com/app/apple-store/id6502
 
 ## Kaynak kişiyi Kişiler'de hazırla
 
-iOS Kişiler (ya da Android rehber) uygulamasını aç ve dünyaya açmak istediğin bilgilerle kendine bir kişi oluştur: ad, kurum, unvan, iş e-postası, iş telefonu, web sitesi, LinkedIn adresi. Yazımı ve biçimi iki kez denetle, çünkü asıl kayıt bu.
+Uygulamada boş bir kartla ya da telefonundaki bir kişiyle başlayabilirsin. İkincisi için iOS Kişiler (ya da Android rehber) uygulamasını aç ve dünyaya açmak istediğin bilgilerle kendine bir kişi oluştur: ad, kurum, unvan, iş e-postası, iş telefonu, web sitesi, LinkedIn adresi. Yazımı ve biçimi iki kez denetle, çünkü asıl kayıt bu.
 
 Her şeyi koymak zorunda değilsin. Hassas olan her şey (kişisel cep telefonu, ev adresi) bu kişinin tamamen dışında kalabilir.
 
 ---
 
-## NFC.cool'u aç ve kartviziti oluştur
+## NFC.cool Business Card'ı aç ve kartı oluştur
 
-NFC.cool içinde **Kartvizit** bölümüne git ve **Hesap Oluştur**'a dokun. Bir kullanıcı adı ve PIN belirleyeceksin; sonraki düzenlemeleri koruyan şey PIN, o yüzden kaybetme.
+Uygulamayı aç ve **Kartvizit oluştur**'a dokun.
 
-**Kişiler'i Aç**'a dokun ve az önce hazırladığın kişiyi seç. NFC.cool veriyi içeri alıp taslak kartvizitin olarak gösterir.
+**Kişilerden oluştur**'a dokunup az önce hazırladığın kişiyi seç ya da boş kartla başlamak için **Yeni oluştur**'a dokun. NFC.cool veriyi içeri alıp taslak kartvizitin olarak gösterir.
 
 ---
 
@@ -48,13 +49,13 @@ Sık kullanılan dizilimler:
 - **Mühendislik:** ad, unvan, iş e-postası, GitHub, web sitesi.
 - **Yaratıcı işler:** ad, unvan, Instagram, portföy adresi, iş e-postası.
 
-Bitirince **İleri**'ye dokun.
+Bitirince devam et. Sonra kartının bağlantısının sonuna gelen bir kullanıcı adı seçecek (mycard.nfc.cool/John) ve hesabını oluşturacaksın. Uygulama hesabına dört haneli bir PIN veriyor; bunu Ayarlar'dan değiştirebilir, bir kartı özel tutmak için de kullanabilirsin.
 
 ---
 
 ## Logoyu özelleştir
 
-**Logon** → **Logoyu değiştir** yolundan şirket logonu ya da kişisel işaretini yükle. En temiz sonucu saydam PNG veriyor, çünkü hem açık hem koyu temada doğru oturuyor.
+Kartın menüsünü aç ve logoyu değiştirerek şirket logonu ya da kişisel işaretini yükle. En temiz sonucu saydam arka plan veriyor; açık ve koyu mod için tek logo kullanabilir ya da her biri için ayrı logo ekleyebilirsin.
 
 ---
 
@@ -66,11 +67,11 @@ Bitirince **İleri**'ye dokun.
 </ol>
 </figure>
 
-Sıra fiziksel tarafta. NFC tag'i [NFC.cool mağazasından](https://shop.nfc.cool/collections/all) ya da herhangi bir satıcıdan alabilirsin: etiket, kart, anahtarlık, hangi biçim işine geliyorsa.
+Sıra fiziksel tarafta. Standart her NFC tag işe yarıyor: çıkartma, kart, anahtarlık, hangi biçim işine geliyorsa. Ne alacağını [önerilen NFC tag'ler](/tr/affiliate-links/) sayfamda gösteriyorum.
 
-NFC.cool'da **Kartviziti NFC tag'e yaz**'a dokun. Telefonu tag'e tut. Uygulama, nfc.cool üzerindeki kart sayfana işaret eden kısa bir adres yazar. Yazıldıktan sonra telefonu olan herkes okutabilir.
+Kartın menüsünde **NFC etiketine yaz**'a dokun (Android'de **Kartviziti NFC Etiketine Yaz**). Telefonu tag'e tut. Uygulama, nfc.cool üzerindeki kart sayfana işaret eden kısa bir adres yazar. Yazıldıktan sonra telefonu olan herkes okutabilir.
 
-Adresin sonradan üzerine yazılamaması için tag'i kilitlemek istersen yazma başarılı olduktan sonra **Kilitle**'ye dokun. Bu geri alınamaz, o yüzden yalnızca emin olduğun tag'leri kilitle.
+Adresin sonradan üzerine yazılamaması için tag'i kilitlemek istersen bunu [NFC.cool Tools](/tr/features/nfc-reader-writer/) Platinum aboneliğiyle yapabiliyor. Kilitleme geri alınamaz, o yüzden yalnızca emin olduğun tag'leri kilitle.
 
 ---
 
@@ -82,7 +83,7 @@ Adresin sonradan üzerine yazılamaması için tag'i kilitlemek istersen yazma b
 </ol>
 </figure>
 
-Karşındakinin tam olarak ne gördüğünü görmek için **Kartviziti Görüntüle**'ye dokun. Sayfa önce mobil için tasarlanmış, anında yükleniyor ve tek dokunuşluk bir "Kişilere Kaydet" düğmesi sunuyor. iOS'ta alıcılar yerel bir App Clip görüyor (uygulama kurmaya gerek yok); Android'de nfc.cool alan adında temiz bir web sayfası görüyorlar. İkisinin de sonunda kişin rehberlerine düşüyor.
+Karşındakinin tam olarak ne gördüğünü görmek için kartın menüsünde **Önizleme**'ye dokun (Android'de **Kartviziti Önizle**). Sayfa önce mobil için tasarlanmış, anında yükleniyor ve tek dokunuşluk bir "Kişiyi kaydet" düğmesi sunuyor. iOS'ta alıcılar yerel bir App Clip görüyor (uygulama kurmaya gerek yok); Android'de nfc.cool alan adında temiz bir web sayfası görüyorlar. İkisinin de sonunda kişin rehberlerine düşüyor.
 
 ---
 
@@ -96,4 +97,4 @@ NFC.cool akışı iletişim bilgilerini sunucuda tutuyor. Tag (ya da QR) yalnız
 
 Ciddi tanışmalarda önemli olan tek özellik bu: veri, basılı karttan uzun yaşıyor.
 
-[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-tr&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-tr) · ya da NFC.cool Business Card'ın [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-tr&mt=8) ve [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-tr) sürümü.
+[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-tr&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-tr) · ya da [NFC.cool Business Card'ın](/tr/business-card/) [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-tr&mt=8) ve [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-tr) sürümü.

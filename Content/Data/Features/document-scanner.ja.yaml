@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "OCR付き書類スキャナー"
-  subtitle: "自動エッジ検出とパース補正で書類をキャプチャ。オンデバイスOCRがすべてのスキャンを検索可能なテキストに変換し、書類もテキストも端末から出ません。"
+  subtitle: "自動エッジ検出とパース補正で、書類をきれいにキャプチャ。オンデバイスOCRがすべてのスキャンを検索可能なテキストに変換し、複数ページのPDFとして書き出せます。処理はすべて端末上で完結し、書類もテキストも端末から出ません。"
   platforms: "iOSのみ"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 

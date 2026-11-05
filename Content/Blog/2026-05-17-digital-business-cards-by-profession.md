@@ -2,6 +2,7 @@
 id: nfc-blog-029
 title: "Digital Business Cards by Profession"
 date: 2026-05-17
+lastModified: "2026-11-05"
 tags: ["business-cards", "industry", "guides"]
 summary: "Paper business cards fail every profession, but they fail each one differently. A practical guide to digital business cards for real estate agents, healthcare professionals, and consultants - what to share, what to look for, and how to choose an app."
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
@@ -16,7 +17,7 @@ I build the Business Card app at NFC.cool, and over the last two years I've read
 
 It mostly isn't. But the *reason* a paper business card lets them down genuinely is different from one profession to the next. A real estate agent and a hospital physician both outgrow paper - for completely different reasons.
 
-So instead of writing one more "paper cards are dead" article, I organized this the way people actually think about the problem: by profession. There are three sections - real estate, healthcare, and independent consulting - followed by the parts that apply to everyone, including an honest look at where my own app fits and where it doesn't.
+So instead of writing one more "paper cards are dead" article, I organized this the way people actually think about the problem: by profession. There are three sections - real estate, healthcare, and independent consulting - followed by the parts that apply to everyone, including where my own app fits.
 
 ---
 
@@ -130,7 +131,7 @@ The professions differ; the checklist mostly doesn't. Whatever you do, a digital
 - **NFC and QR, both.** NFC is faster and more impressive in person; QR is universal and works on a printed sign, a flyer, a slide. You want both, not one as a paid add-on.
 - **Multiple cards.** Different roles, different events, different audiences. Non-negotiable if you wear more than one hat.
 - **Multiple languages**, if you work across borders - the card content, not just the app's interface.
-- **Privacy you can explain.** Some platforms email the people who view your card, or record conversations. If your card provider spams your contacts, that reflects on you. Read the privacy policy before you commit.
+- **Privacy you can explain.** Ask whether a platform emails the people who view your card, and whether it records conversations. If your card provider spams your contacts, that reflects on you. Read the privacy policy before you commit.
 - **No hardware lock-in.** Plenty of companies sell proprietary $30-$60 NFC cards. A $2 NFC sticker you program yourself does the same job.
 - **Honest pricing.** Enterprise SSO and team dashboards are irrelevant when it's just you. Look for a genuine free tier or an affordable individual plan.
 
@@ -138,33 +139,30 @@ The professions differ; the checklist mostly doesn't. Whatever you do, a digital
 
 ## How NFC.cool Business Card Fits
 
-Full disclosure: this is my app, so read the next few paragraphs knowing that. I'll try to be straight about where it's strong and where it isn't.
+Full disclosure: this is my app, so read the next few paragraphs knowing that.
 
-NFC.cool Business Card is a standalone app on iPhone and Android. Here's what it does well for the professions above:
+[NFC.cool Business Card](/business-card/) is a standalone app on iPhone and Android. Here's what it does well for the professions above:
 
-- **35 languages** in the app interface and the App Clip - more than any other digital business card I'm aware of. Your card displays in your client's language on iOS. (The Android sharing website is English-only for now.)
+- **35 languages** in the app interface and the App Clip - more than any other digital business card I'm aware of. The buttons and labels around your card follow your client's language on iOS.
 - **No app for the person receiving your card.** On iPhone they get a native App Clip; on Android, a page on the nfc.cool domain. Both have a "Save Contact" button.
 - **NFC tap and QR code**, plus a plain shareable link for chats and email signatures.
 - **Conference Mode** - pins your card's QR code on your lock screen for a full event day, on iPhone (as a Live Activity) and Android alike. You raise your phone, they scan, done. No unlocking, no hunting through Apple Wallet. Wallet integration is there too, as an alternative.
-- **Up to 100 cards**, so the "one card per role" advice above is actually practical.
+- **Up to 10 cards on Pro**, so the "one card per role" advice above is actually practical.
 - **PIN-protected cards** for anything sensitive.
-- **Privacy-first**: no data monetization or advertising, no recipient solicitation, no conversation recording, GDPR-compliant data export.
+- **Privacy**: NFC.cool doesn't sell your data, the app has no ads, it doesn't record conversations, and you can export everything as a ZIP. NFC.cool doesn't send marketing to people who view your card. On the Team plan, your team can send follow-up emails to people who leave their details through your lead form.
 - **Any NFC tag works.** I don't sell hardware - write your card to a sticker you already own.
-- **Pricing**: a free tier, then Personal at €20/year (1 card), Small Business at €50/year (10 cards), and Business at €100/year (100 cards).
+- **Pricing**: a Free plan with one card, then Personal at $19.99 a year (1 card), Pro at $49.99 a year (10 cards), and [Team](/business-card/teams/) at $50 per person a year or $5 a month (up to 10 cards per person). In euros, the team price is the same number.
+- **For teams**: the Team plan connects to HubSpot, sends leads anywhere by webhook, and has a web dashboard with roles and invites. Single sign-on and directory sync are set up [on request](/contact/).
+- **Native apps and founder support**: it's built natively for iPhone and Android, it isn't VC-backed, and when you have a question, you hear from me.
 
-Where competitors are genuinely ahead:
-
-- **CRM integrations.** If your day runs on HubSpot or Salesforce, apps like Wave Connect or Blinq sync contacts natively. NFC.cool gives you a full data export instead - no webhooks yet.
-- **Enterprise team management.** If you're a 50-person firm that needs an admin dashboard and directory sync, that isn't what NFC.cool is built for.
-
-The honest version: for an agent, a physician, or a soloist, what matters day to day is that sharing is fast, the card looks like *you*, and nothing embarrasses you later. That's what I built it for. If you need a sales CRM welded to your business card, buy the tool that does that.
+For an agent, a physician, or a soloist, what matters day to day is that sharing is fast, the card looks like *you*, and nothing embarrasses you later. That's what I built it for.
 
 You can [get NFC.cool Business Card on the App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) or [on Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>NFC.cool Business Card at Work</figcaption>
 <ol>
-<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="My Business Cards with three cards: AlexBerger, Conference and Speaking"><p><strong>A card per role.</strong> Up to 100 cards, each with its own look and links.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="My Business Cards with three cards: AlexBerger, Conference and Speaking"><p><strong>A card per role.</strong> Up to 10 cards on Pro, each with its own look and links.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="The Business Card tab with the card's QR code and the menu for cards, leads, contacts and settings"><p><strong>Share it.</strong> By NFC tap, QR code or a plain link.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Profile Settings: a public or a PIN-protected private card, and lead capture before or after saving"><p><strong>Your rules.</strong> Public or PIN-protected, and lead capture when you want it.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="The lead list, each lead marked Qualified, New, Contacted or Converted"><p><strong>Follow up.</strong> Every lead in one list, with where each one stands.</p></li>
@@ -185,7 +183,7 @@ Both, for different moments. NFC is a one-second tap and looks impressive face t
 
 ### Can I have different cards for different roles?
 
-Yes, and you should. An open-house card with a property address, a referral card with a scheduling desk, a conference card with your talk details - all from one account, each updatable on its own.
+Yes, and you should. An open-house card with a property address, a referral card with a scheduling desk, a conference card with your talk details - all from one account, each updatable on its own. On NFC.cool Business Card, that takes the Pro plan.
 
 ### Will it work with international clients?
 
@@ -193,7 +191,7 @@ NFC and QR work on phones worldwide. Whether the *card itself* adapts to another
 
 ### Can I see who viewed my card, and is that data safe?
 
-Some apps show you views; some go further and market to the people who saw your card. That second behavior is a problem - your prospects should hear from you, not from your card vendor. NFC.cool offers analytics on iPhone and Android alike and never solicits recipients.
+Some apps show you views. Before you choose one, check whether it also markets to the people who saw your card - your prospects should hear from you, not from your card vendor. NFC.cool's paid plans show you views, saves and link taps as numbers, never names, on iPhone and Android alike, and NFC.cool doesn't send marketing to people who view your card. On the Team plan, your own team can email people who leave their details through your lead form.
 
 ### What does it actually cost?
 

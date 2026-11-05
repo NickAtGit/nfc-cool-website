@@ -36,7 +36,7 @@ A forma mais rápida de nos contactar é por email. Lemos cada mensagem pessoalm
 
 <details class="faq-item">
 <summary>As apps são gratuitas?</summary>
-<p>Sim - ambas as apps são gratuitas na App Store e na Google Play, sem anúncios. Alguns fluxos de trabalho avançados podem ser desbloqueados dentro das apps, mas todas as funcionalidades essenciais - NFC, QR, documentos, 3D e cartão de visita - são gratuitas.</p>
+<p>Sim - ambas as apps são gratuitas na App Store e na Google Play. Alguns fluxos de trabalho avançados podem ser desbloqueados dentro das apps, mas todas as funcionalidades essenciais - NFC, QR, documentos, 3D e cartão de visita - são gratuitas.</p>
 </details>
 
 <details class="faq-item">
@@ -51,7 +51,7 @@ A forma mais rápida de nos contactar é por email. Lemos cada mensagem pessoalm
 
 <details class="faq-item">
 <summary>Existe versão para Mac, iPad ou Apple Watch?</summary>
-<p>A NFC.cool Tools corre no iPhone e no iPad, e também no Mac - nos Mac com Apple Silicon está disponível como uma app de iPad compatível com Mac (<a href="/blog/nfc-cool-comes-to-mac/">saiba mais sobre a NFC.cool no Mac</a>). A digitalização 3D e de divisões precisa de um iPad com LiDAR. Não há app para Apple Watch. A NFC.cool Business Card está disponível apenas para iOS e Android.</p>
+<p>A NFC.cool Tools corre no iPhone e no iPad, e também no Mac - nos Mac com Apple Silicon está disponível como uma app de iPad compatível com Mac (<a href="/pt/blog/nfc-cool-comes-to-mac/">saiba mais sobre a NFC.cool no Mac</a>). A digitalização 3D e de divisões precisa de um iPad com LiDAR. Não há app para Apple Watch. A NFC.cool Business Card está disponível apenas para iOS e Android.</p>
 </details>
 
 <details class="faq-item">

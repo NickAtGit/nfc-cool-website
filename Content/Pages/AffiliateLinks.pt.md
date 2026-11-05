@@ -31,7 +31,7 @@ Depois de vários anos a lançar apps de NFC e a ler milhares de emails de apoio
 
 ## Onde comprar
 
-Para 95% do que as pessoas fazem com NFC - cartões de contacto, acionadores de automação, atalhos de URL, partilha de Wi-Fi - compre autocolantes **NTAG216**. Fiáveis no iPhone e no Android, com 888 bytes de espaço gravável, baratos em grandes quantidades e exatamente o chip com que a NFC.cool faz os seus testes. Novo nas tags NFC? O meu [guia completo de tags NFC para principiantes](/blog/nfc-tags-beginners-guide/) explica como funcionam e como diferem os chips. Escolha a sua loja Amazon - ou clique em qualquer uma, que a Amazon encaminha automaticamente os compradores internacionais para a loja mais próxima.
+Para 95% do que as pessoas fazem com NFC - cartões de contacto, acionadores de automação, atalhos de URL, partilha de Wi-Fi - compre autocolantes **NTAG216**. Fiáveis no iPhone e no Android, com 888 bytes de espaço gravável, baratos em grandes quantidades e exatamente o chip com que a NFC.cool faz os seus testes. Novo nas tags NFC? O meu [guia completo de tags NFC para principiantes](/pt/blog/nfc-tags-beginners-guide/) explica como funcionam e como diferem os chips. Escolha a sua loja Amazon - ou clique em qualquer uma, que a Amazon encaminha automaticamente os compradores internacionais para a loja mais próxima.
 
 <div class="affiliate-store-box">
 
@@ -58,7 +58,7 @@ Para 95% do que as pessoas fazem com NFC - cartões de contacto, acionadores de 
 
 ## Fazer backup de Amiibo? Escolha o NTAG215
 
-Os Amiibo são especificamente chips **NTAG215**. Se está a [fazer backup de Amiibo com a NFC.cool](/blog/amiibo-iphone-android-read-collect-backup/), compre tags **NTAG215** em branco - não o NTAG216 que recomendo para tudo o resto. É o único caso em que se faz corresponder o chip exatamente: a NFC.cool grava a cópia com novas chaves num NTAG215, o mesmo tipo de chip que um Amiibo verdadeiro usa.
+Os Amiibo são especificamente chips **NTAG215**. Se está a [fazer backup de Amiibo com a NFC.cool](/pt/blog/amiibo-iphone-android-read-collect-backup/), compre tags **NTAG215** em branco - não o NTAG216 que recomendo para tudo o resto. É o único caso em que se faz corresponder o chip exatamente: a NFC.cool grava a cópia com novas chaves num NTAG215, o mesmo tipo de chip que um Amiibo verdadeiro usa.
 
 <div class="affiliate-store-box">
 

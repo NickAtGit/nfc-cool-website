@@ -4,15 +4,15 @@ title: "O NFC.cool já está na Play Store"
 date: 2024-04-05
 tags: ["announcements", "android", "nfc-tags"]
 summary: "O NFC.cool Tools já está disponível na Google Play. Leitura de NFC e gravação de tags - agora no Android, com o mesmo conjunto de funcionalidades da app iOS para as partes que partilham hardware compatível com Android."
-metaTitle: "NFC.cool Tools - Já Disponível na Google Play"
-metaDescription: "O NFC.cool Tools está disponível no Android. Ler e gravar tags NFC - a mesma marca que já conhece do iPhone, agora na Google Play."
+metaTitle: "NFC.cool Tools - já disponível na Google Play"
+metaDescription: "O NFC.cool Tools está na Google Play. Leia e grave tags NFC no Android: URLs, vCards, Wi-Fi, texto simples e registos MIME personalizados, tal como no iPhone."
 ogTitle: "O NFC.cool já está na Play Store"
 ogDescription: "O NFC.cool Tools já está disponível na Google Play - leitura de NFC e gravação de tags no Android."
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
-> **Atualização, agosto de 2026:** a NFC.cool Business Card é agora também uma app dedicada no Android - [obtenha-a no Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). Os cartões que já existem dentro da NFC.cool Tools continuam a funcionar; os novos começam na app dedicada.
+> **Atualização, agosto de 2026:** a NFC.cool Business Card é agora também uma app dedicada no Android - [obtenha-a no Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-pt). Os cartões que já existem dentro da NFC.cool Tools continuam a funcionar; os novos começam na app dedicada.
 
-O **NFC.cool Tools** já está disponível na [Google Play Store](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). Após anos em iOS, a versão Android está no ar - e vem com o NFC.cool Business Card integrado de raiz.
+O **NFC.cool Tools** já está disponível na [Google Play Store](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-pt). Após anos em iOS, a versão Android está no ar - e vem com o NFC.cool Business Card integrado de raiz.
 
 ---
 
@@ -44,7 +44,7 @@ A resposta honesta: eu queria que o fluxo do NFC.cool Business Card funcionasse 
 
 ## Onde a obter
 
-- **Android:** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en)
-- **iOS:** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-en&mt=8)
+- **Android:** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-pt)
+- **iOS:** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-pt&mt=8)
 
 A mesma marca. O mesmo conjunto de funcionalidades para as partes que partilham hardware. O plano daqui para a frente é manter as duas plataformas a avançar em sintonia em tudo o que diga respeito a NFC.

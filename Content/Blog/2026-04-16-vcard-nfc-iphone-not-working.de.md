@@ -159,7 +159,7 @@ Die Lösung ist kein Notbehelf, sondern der grundlegend bessere Ansatz:
 2. Lass die URL auf ein vollwertiges digitales Profil zeigen
 3. Das Profil übernimmt den Rest: Kontakt speichern, Links teilen und alles andere
 
-Genau das macht NFC.cool Business Card. Und genau das benutze ich selbst auf jeder Konferenz, jedem Meetup und jedem Networking-Event.
+Genau das macht [NFC.cool Business Card](/de/business-card/). Und genau das benutze ich selbst auf jeder Konferenz, jedem Meetup und jedem Networking-Event.
 
 Ich halte die Karte hin, mein Gegenüber speichert, und wir gehen beide unserer Wege.
 

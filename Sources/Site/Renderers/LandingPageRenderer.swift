@@ -212,6 +212,7 @@ struct LandingPageRenderer: Renderer {
             ?? StoreLink.googlePlay(app: .businessCard, page: "web-business-card-banner", locale: locale)
          return renderStoreButtons(appStoreURL: appStore, googlePlayURL: googlePlay)
       }()
+      let teamLineHTML = banner.teamLine.map { "<p>\($0)</p>" } ?? ""
       return """
       <section id="business-card" class="landing-feature-banner">
          <div class="landing-container">
@@ -220,6 +221,7 @@ struct LandingPageRenderer: Renderer {
                <div class="landing-feature-banner-text">
                   \(renderTitleWithBrandTail(banner.title, tagName: "h2", classAttr: "landing-section-title"))
                   <p>\(banner.subtitle.htmlEscaped)</p>
+                  \(teamLineHTML)
                   \(actionHTML)
                </div>
             </div>

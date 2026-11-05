@@ -118,8 +118,8 @@ Bir NFC tag kendi okunma sayısını tutabilir: sayı sunucuda değil, çipin i�
 NFC okutma sayacında anlatılacak daha çok şey var: hangi çipler çalışıyor, gerçek kullanım örnekleri ve adım adım tüm kurulum.
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">Rehberi oku</a>
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Özelliği gör</a>
+<a href="/tr/blog/count-nfc-tag-scans/" class="landing-cta-button">Rehberi oku</a>
+<a href="/tr/features/nfc-reader-writer/" class="landing-cta-button">Özelliği gör</a>
 </div>
 
 </section>

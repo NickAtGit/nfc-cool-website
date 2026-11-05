@@ -23,7 +23,7 @@ Daha basit bir yol var ve bunca zamandır NFC çipinin içinde duruyordu. Pek ç
 
 ## NFC okutma sayacı aslında ne
 
-[Satın alabileceğin NFC etiketlerinin](/affiliate-links/) çoğu NTAG21x ailesinden çip kullanıyor: `NTAG213`, `NTAG215` ve `NTAG216`. Bu çiplerde, çoğu kişinin varlığından hiç haberdar olmadığını gördüğüm küçük bir özellik var: yerleşik bir sayaç. Tag her okunduğunda sayaç bir artıyor. Uygulamada ya da sunucuda değil, çipin donanımında yaşıyor. (Bu çiplerin ayrıntılı dökümünü [iPhone için NFC tag türleri](/blog/nfc-tag-types-for-iphones/) yazısında anlattım.)
+[Satın alabileceğin NFC etiketlerinin](/tr/affiliate-links/) çoğu NTAG21x ailesinden çip kullanıyor: `NTAG213`, `NTAG215` ve `NTAG216`. Bu çiplerde, çoğu kişinin varlığından hiç haberdar olmadığını gördüğüm küçük bir özellik var: yerleşik bir sayaç. Tag her okunduğunda sayaç bir artıyor. Uygulamada ya da sunucuda değil, çipin donanımında yaşıyor. (Bu çiplerin ayrıntılı dökümünü [iPhone için NFC tag türleri](/tr/blog/nfc-tag-types-for-iphones/) yazısında anlattım.)
 
 Ben bunu tag'in kilometre sayacı diye anlatıyorum. Arabanın kilometre sayacı kimse bakmasa da kilometreyi sayar; NFC sayacı da okumaları aynı şekilde sayar. Sayı her zaman orada. Tek soru, onu sana gösterecek bir şeyin kurulu olup olmadığı.
 
@@ -55,7 +55,7 @@ Kendini sayan bir tag, gerçek bir sorunla eşleşene kadar hoş bir numara gibi
 
 **İlgiyi ölç.** Tag'i kartvizite, afişe, ürün kutusuna ya da vitrine yapıştır, sayaç sessiz bir ilgi ölçütüne dönüşsün. Bir kartın iki kez mi iki yüz kez mi okutulduğunu, bunun için analitik altyapısı kurmadan görebiliyorsun.
 
-**Gerçekliği kanıtla.** Sayaç yalnızca artıyor, geri sarılamıyor. Yalnızca artabilen bir sayıyı inandırıcı biçimde taklit etmek zor; sınırlı üretim ürünlerinde ve sahtecilik denetiminde yerini bu yüzden hak ettiğini düşünüyorum. Gerçek tag'in makul, tırmanan bir geçmişi olur; kopyasının olmaz. NFC'nin bu yanı ilgini çekiyorsa [NFC şifreli sırları nasıl güvende tutuyor](/blog/nfc-safe-encrypted-secrets/) yazısında daha ileri gittim.
+**Gerçekliği kanıtla.** Sayaç yalnızca artıyor, geri sarılamıyor. Yalnızca artabilen bir sayıyı inandırıcı biçimde taklit etmek zor; sınırlı üretim ürünlerinde ve sahtecilik denetiminde yerini bu yüzden hak ettiğini düşünüyorum. Gerçek tag'in makul, tırmanan bir geçmişi olur; kopyasının olmaz. NFC'nin bu yanı ilgini çekiyorsa [NFC şifreli sırları nasıl güvende tutuyor](/tr/blog/nfc-safe-encrypted-secrets/) yazısında daha ileri gittim.
 
 Bunlardan birkaçını birleştirince şöyle bir şey çıkıyor: bir zanaatkar, ürünün numaralı her üretimine bir tag koyuyor ve hepsi aynı sayfaya işaret ediyor. Tag kimliği alıcının hangi ürünü tuttuğunu, sayı o alıcının kaç kez geri döndüğünü söylüyor ve sayı yalnızca yükseldiği için bir satıcı kopyayı sessizce özgün diye yutturamıyor. Hesap yok, veritabanı yok, aylık fatura yok; yalnızca çip işini yapıyor. Bu özelliği tam böyle bir sonuç için kurdum.
 
@@ -63,7 +63,7 @@ Bunlardan birkaçını birleştirince şöyle bir şey çıkıyor: bir zanaatkar
 
 ## Adım adım kurulum
 
-Özellik NFC.cool Tools'ta, hem iPhone hem Android'de. Pro (Platinum) aboneliğinin parçası, yani sayaç açık tag yazmak için ona ihtiyacın var. Daha önce hiç tag yazmadıysan [iPhone'da NFC tag nasıl yazılır](/blog/write-nfc-tags-iphone/) yazım önce temelleri anlatıyor.
+Özellik NFC.cool Tools'ta, hem iPhone hem Android'de. Pro (Platinum) aboneliğinin parçası, yani sayaç açık tag yazmak için ona ihtiyacın var. Daha önce hiç tag yazmadıysan [iPhone'da NFC tag nasıl yazılır](/tr/blog/write-nfc-tags-iphone/) yazım önce temelleri anlatıyor.
 
 1. NFC.cool Tools'u aç, **NFC Araçları** bölümüne git ve **NFC Okutma Sayacı**'na dokun.
 2. Tag'in ne teslim edeceğini seç: **URL**, **E-posta**, **SMS** ya da **Kısayol**. (Kısayol yalnızca iOS'ta, çünkü Kısayollar bir Apple uygulaması; URL, E-posta ve SMS iki platformda da çalışıyor.)
@@ -109,7 +109,7 @@ Biten adresi kendi sitene yönlendiriyorsan sunucun bu değerleri doğrudan adre
 
 Bu özellik çipe bağlı, yani tag önemli. NFC.cool okutma sayacı için `NTAG213`, `NTAG215` ve `NTAG216` çiplerini destekliyor. Bunlar telefonlar için satılan en yaygın NFC etiketleri, yani bulması kolay; yine de toptan almadan önce çip türünü denetlerdim. Özelliğin desteklemediği bir tag kullanmayı denersen uygulama, çalışmayacak bir şey yazmak yerine seni uyarıyor. Sessiz başarısızlığın ne kadar sinir bozucu olduğunu gördüğüm için buna özellikle dikkat ettim.
 
-Stok yapman gerekiyorsa [önerilen NFC tag'ler](/affiliate-links/) sayfamız, kullandığımız ve üzerinde sınadığımız `NTAG216` etiketlerini listeliyor. Tag seçmeye yeniysen [iPhone'lar için farklı NFC tag türleri](/blog/nfc-tag-types-for-iphones/) rehberim ödünleri yalın biçimde anlatıyor.
+Stok yapman gerekiyorsa [önerilen NFC tag'ler](/tr/affiliate-links/) sayfamız, kullandığımız ve üzerinde sınadığımız `NTAG216` etiketlerini listeliyor. Tag seçmeye yeniysen [iPhone'lar için farklı NFC tag türleri](/tr/blog/nfc-tag-types-for-iphones/) rehberim ödünleri yalın biçimde anlatıyor.
 
 ---
 
@@ -131,6 +131,6 @@ Stok yapman gerekiyorsa [önerilen NFC tag'ler](/affiliate-links/) sayfamız, ku
 
 NFC ile çalıştığım yılların çoğunda okutma saymak, benzersiz bağlantılar ve onları toplayan bir arka uç demekti. NTAG21x sayacı bu zorunluluğu sessizce ortadan kaldırıyor: tag kendi hesabını tutuyor ve NFC.cool Tools'taki NFC okutma sayacı özelliği bunu açan şey. Daha çok insanın mümkün olduğunu bilmesini istediğim özelliklerden biri.
 
-Tek bir tag yazmadan önce çalışırken görmek ister misin? [Canlı okutma sayacı demomuz](/tap-counter/) tam da bu yazının anlattığını yapan bir sayfa: oraya işaret eden bir tag yaz, okut ve sayfa çipin az önce verdiği okuma sayısıyla tag kimliğini sana göstersin. Araya sunucu girmiyor, yalnızca adres var.
+Tek bir tag yazmadan önce çalışırken görmek ister misin? [Canlı okutma sayacı demomuz](/tr/tap-counter/) tam da bu yazının anlattığını yapan bir sayfa: oraya işaret eden bir tag yaz, okut ve sayfa çipin az önce verdiği okuma sayısıyla tag kimliğini sana göstersin. Araya sunucu girmiyor, yalnızca adres var.
 
-Şu anda NFC.cool Tools içinde, [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-tr&mt=8) ve [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-tr) sürümlerinde. Kurduğum NFC araç setinin tamamını görmek için [NFC okuma ve yazma özelliğine](/features/nfc-reader-writer/) göz at.
+Şu anda NFC.cool Tools içinde, [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-tr&mt=8) ve [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-tr) sürümlerinde. Kurduğum NFC araç setinin tamamını görmek için [NFC okuma ve yazma özelliğine](/tr/features/nfc-reader-writer/) göz at.

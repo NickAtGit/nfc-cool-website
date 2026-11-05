@@ -12,7 +12,7 @@ metaDescription: "A NFC.cool lê Amiibo no iPhone e no Android, guarda uma cole�
 ogTitle: "Ler, colecionar e fazer backup de Amiibo no iPhone e no Android"
 ogDescription: "Dei à NFC.cool suporte completo para Amiibo - ler, colecionar e fazer o backup de uma para uma tag em branco. Eis como os Amiibo realmente funcionam e porque a app não inclui chaves."
 ---
-As pessoas assumem que há algo de exótico dentro de um Amiibo. Um pedaço de silício da Nintendo que não se compra em mais lado nenhum. Não há. Selado na base da figura está um [NTAG215](/affiliate-links/) - o mesmo chip autocolante em branco que leio e gravo todos os dias, do tipo que vem dez por embalagem por trocos. Cerca de 540 bytes de memória, um número de série gravado de fábrica, e é isto a figura toda. O plástico é a parte cara. O chip é quase um pormenor secundário.
+As pessoas assumem que há algo de exótico dentro de um Amiibo. Um pedaço de silício da Nintendo que não se compra em mais lado nenhum. Não há. Selado na base da figura está um [NTAG215](/pt/affiliate-links/) - o mesmo chip autocolante em branco que leio e gravo todos os dias, do tipo que vem dez por embalagem por trocos. Cerca de 540 bytes de memória, um número de série gravado de fábrica, e é isto a figura toda. O plástico é a parte cara. O chip é quase um pormenor secundário.
 
 E foi exatamente por isso que me incomodou durante tanto tempo. Leio e gravo tags NFC para viver, e havia toda uma categoria delas - um punhado de figuras na prateleira ao lado da minha secretária - que a minha própria app simplesmente ignorava. Quero que a NFC.cool seja a app de NFC mais capaz que se pode ter no telemóvel, aquela que não deixa nenhum tipo de tag de fora.
 
@@ -22,7 +22,7 @@ Por isso sentei-me, as figuras de um lado e a minha Switch do outro, e dei à NF
 
 ## Então onde está a magia?
 
-Se o chip é assim tão banal, a magia claramente não está no silício. Está nos bytes. Um Amiibo é, na verdade, um caderno barato que a Nintendo escreveu num código privado e depois assinou no fundo, para que se distinga uma falsificação do original. (O chip em si é um simples [NTAG215](/blog/nfc-tag-types-for-iphones/), se quiser a visita guiada mais aprofundada aos tipos de tag.)
+Se o chip é assim tão banal, a magia claramente não está no silício. Está nos bytes. Um Amiibo é, na verdade, um caderno barato que a Nintendo escreveu num código privado e depois assinou no fundo, para que se distinga uma falsificação do original. (O chip em si é um simples [NTAG215](/pt/blog/nfc-tag-types-for-iphones/), se quiser a visita guiada mais aprofundada aos tipos de tag.)
 
 Duas coisas vivem nesses bytes. A primeira está à vista de todos: um pequeno bloco que diz qual é a personagem - o Link, da série Legend of Zelda, numa linha específica de Amiibo. É a parte que a sua Switch lê para saber que uma figura acabou de lhe tocar. A segunda parte está bloqueada: os dados de gravação propriamente ditos, como uma alcunha, o Mii do dono, quantas vezes a figura foi usada e o que quer que o jogo atual tenha rabiscado no pequeno bloco de notas que lhe é permitido usar. Essa parte está cifrada e está assinada.
 
@@ -42,7 +42,7 @@ Para fazer uma cópia válida, é preciso voltar a derivar as chaves em relaçã
 
 Três coisas, pela ordem em que provavelmente as vai usar.
 
-**Ler.** Encoste um Amiibo às costas do telemóvel, tal como faria para [ler qualquer tag NFC](/features/nfc-reader-writer/), e a NFC.cool identifica-o na hora: a personagem, a série do jogo, a série do Amiibo, o tipo de figura e a arte, além de alguns dados da própria tag, como quantas vezes foi gravada. Para isto não são precisas chaves. Identificar uma figura só toca na parte que já está à vista.
+**Ler.** Encoste um Amiibo às costas do telemóvel, tal como faria para [ler qualquer tag NFC](/pt/features/nfc-reader-writer/), e a NFC.cool identifica-o na hora: a personagem, a série do jogo, a série do Amiibo, o tipo de figura e a arte, além de alguns dados da própria tag, como quantas vezes foi gravada. Para isto não são precisas chaves. Identificar uma figura só toca na parte que já está à vista.
 
 **Colecionar.** Cada Amiibo que lê é guardado em A Minha Coleção, uma grelha simples de tudo o que possui. Fica no seu dispositivo - no iPhone sincroniza com os seus outros dispositivos Apple através do iCloud - e a arte fica em cache, para que a coleção continue com bom aspeto mesmo offline. Só isso transformou a minha pobre prateleira em algo que posso mesmo percorrer.
 

@@ -2,6 +2,7 @@
 id: nfc-blog-007
 title: "Wie du Papier-Visitenkarten auf deiner nächsten Konferenz ersetzt"
 date: 2026-03-02
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking"]
 summary: "Nirgendwo versagen Papier-Visitenkarten so gründlich wie auf Konferenzen. Hier ist mein Plan, wie du komplett auf digital umstellst - vor, während und nach dem Event - und nie wieder nach einer Karte kramst."
 image: "/assets/images/Blog/replace-paper-business-cards-conference.webp"
@@ -69,7 +70,7 @@ Falls du noch keine hast, achte auf die Punkte, die auf Konferenzen wirklich zä
 - **Keine App auf der Empfängerseite** - Wer dich kennenlernt, soll nichts installieren müssen. Wenn dein Gegenüber erst eine App laden muss, um deine Daten zu sehen, hast du die Person schon verloren.
 - **Mehrsprachigkeit** - Auf internationalen Konferenzen macht es einen echten Unterschied, wenn deine Karte in der Sprache des Empfängers erscheint.
 
-[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) kann all das: Teilen per NFC, QR-Code und Link, mehrere Kartenprofile, keine App für Empfänger (App Clip auf iOS, Website auf Android), und die Oberfläche von App und App Clip gibt es in 35 Sprachen. Die würde ich natürlich empfehlen. Aber egal, wofür du dich entscheidest: Diese Kriterien sollte die App erfüllen.
+[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) kann all das: Teilen per NFC, QR-Code und Link, bis zu 10 Karten mit Pro oder bis zu 10 pro Person im Team, keine App für Empfänger (App Clip auf iOS, Website auf Android), und die Oberfläche von App und App Clip gibt es in 35 Sprachen. Die würde ich natürlich empfehlen. Aber egal, wofür du dich entscheidest: Diese Kriterien sollte die App erfüllen.
 
 #### Leg eine Karte fürs Event an (oder passe deine bestehende an)
 
@@ -136,7 +137,7 @@ Konferenzen finden längst nicht mehr nur in der Messehalle statt. Es gibt Slack
 
 #### Halte zwischendurch fest, wen du getroffen hast
 
-Einer der größten Vorteile gegenüber Papier: Du siehst, wer sich deine Karte angesehen hat und wann. Und nach einem besonders guten Gespräch machst du dir kurz eine Notiz im Handy: „Sarah - VP Marketing bei Acme - Partnerschaft beim Nachhaltigkeitsprojekt besprochen.“ Wenn du später nachfasst, hast du den Kontext, den dir eine Papierkarte nie liefert.
+Einer der größten Vorteile gegenüber Papier: In einem Bezahlplan siehst du, wie viele Leute deine Karte angesehen und gespeichert haben, Tag für Tag. Und nach einem besonders guten Gespräch machst du dir kurz eine Notiz im Handy: „Sarah - VP Marketing bei Acme - Partnerschaft beim Nachhaltigkeitsprojekt besprochen.“ Wenn du später nachfasst, hast du den Kontext, den dir eine Papierkarte nie liefert.
 
 ### Phase 3: Nach der Konferenz
 
@@ -154,13 +155,13 @@ Weil auf deiner digitalen Karte dein Foto ist, wissen die Leute auch wirklich no
 
 #### Schau in deine Statistiken
 
-Viele Apps für digitale Visitenkarten zeigen dir, wer deine Karte geöffnet hat und wann (NFC.cool kann das auf iPhone und Android). Daraus liest du ab:
+Die Bezahlpläne von NFC.cool zeigen dir, wie viele Leute deine Karte angesehen und gespeichert und wie viele auf die einzelnen Links getippt haben, auf iPhone und Android. Daraus liest du ab:
 
-- Wer interessiert genug war, sich dein Profil wirklich anzusehen (und deine Karte nicht nur höflich eingesteckt hat)
-- Wann jemand nachgeschaut hat - wer deine Karte drei Tage nach der Konferenz noch einmal öffnet, ist ein warmer Lead
-- Was angeklickt wurde - dein Portfolio? Dein LinkedIn? Dein Buchungslink?
+- Wie viele Leute sich deine Karte wirklich angesehen haben (und sie nicht nur höflich eingesteckt haben)
+- Wann sie das getan haben - Aufrufe drei Tage nach der Konferenz heißen: Die Leute denken noch an dich
+- Welche Links angetippt werden - dein Portfolio? Dein LinkedIn? Dein Buchungslink?
 
-Diese Daten sind Gold wert. Sie sagen dir, bei wem du zuerst nachfassen solltest.
+Das sind Zahlen, keine Namen, also wird niemand beobachtet. Sie zeigen dir, welche Events sich gelohnt haben. Für Namen schaltest du die Lead-Erfassung ein: Wer von dir hören will, kann seine Daten hinterlassen.
 
 #### Mach deine Karte fit fürs nächste Mal
 
@@ -189,7 +190,7 @@ Das ist alles, was du tun musst, in dieser Reihenfolge:
 - [ ] **Optional: Bestell eine NFC-Karte oder einen Sticker**, wenn du deinem Gegenüber etwas in die Hand geben willst
 - [ ] **Passe die Karte an das jeweilige Event an** (Vortragsdetails, eine passende Einladung)
 - [ ] **Geh den Ablauf mit NFC und QR-Code einmal durch**, bevor es losgeht, damit es locker aussieht
-- [ ] **Melde dich innerhalb von 48 Stunden nach dem Event** und nutz dabei deine Statistiken
+- [ ] **Melde dich innerhalb von 48 Stunden nach dem Event** und nutz dabei deine Notizen
 
 ---
 
@@ -205,7 +206,7 @@ Die NFC-Übertragung selbst braucht kein WLAN - der Link wandert direkt vom Tag 
 
 ### Kann ich für verschiedene Konferenzen verschiedene Karten nutzen?
 
-Ja - die meisten Apps für digitale Visitenkarten unterstützen mehrere Kartenprofile. Leg für jedes Event, jede Rolle oder jede Zielgruppe eine eigene an und wechsle in Sekunden zwischen ihnen. Mit NFC.cool Business Card kannst du so viele Karten anlegen und verwalten, wie du brauchst.
+Ja - die meisten Apps für digitale Visitenkarten unterstützen mehrere Kartenprofile. Leg für jedes Event, jede Rolle oder jede Zielgruppe eine eigene an und wechsle in Sekunden zwischen ihnen. Bei NFC.cool Business Card enthalten Free und Personal eine Karte, Pro bis zu 10 und ein Team bis zu 10 pro Person.
 
 ### Funktionieren NFC-Visitenkarten mit allen Handys?
 
@@ -217,7 +218,7 @@ Eine einfache digitale Visitenkarte ist bei den meisten Anbietern kostenlos (auc
 
 ### Und der Datenschutz auf Konferenzen?
 
-Die Frage solltest du jedem Anbieter stellen, den du nutzt. Manche Anbieter digitaler Visitenkarten tracken die Empfänger, zeichnen Gespräche auf oder verkaufen Kontaktdaten. Bei NFC.cool Business Card steht der Datenschutz an erster Stelle: keine Datenmonetarisierung, keine Werbung, kein Anschreiben deiner Empfänger, keine Gesprächsaufzeichnung, PIN-Schutz für sensible Karten und volle DSGVO-Konformität inklusive Datenexport.
+Die Frage solltest du jedem Anbieter stellen, den du nutzt. Bei NFC.cool Business Card steht der Datenschutz an erster Stelle: NFC.cool verkauft deine Daten nicht, die App zeigt keine Werbung und zeichnet keine Gespräche auf, und wer deine Karte ansieht, bekommt von NFC.cool kein Marketing. Eine sensible Karte kannst du mit einer PIN schützen, und deine Daten kannst du jederzeit als ZIP exportieren.
 
 ---
 
@@ -225,8 +226,8 @@ Die Frage solltest du jedem Anbieter stellen, den du nutzt. Manche Anbieter digi
 
 Auf Konferenzen zeigen Papier-Visitenkarten ihre schlechteste Seite: Du brauchst zu viele, sie gehen kaputt, du behältst keinen Überblick, und 88 % landen innerhalb einer Woche im Müll.
 
-Digitale Visitenkarten zeigen auf Konferenzen ihre beste Seite: Teilen in Sekunden, das die Leute wirklich beeindruckt, Statistiken, die dir sagen, wer interessiert ist, und ein Nachfassen, das von selbst passiert statt „irgendwann mal“.
+Digitale Visitenkarten zeigen auf Konferenzen ihre beste Seite: Teilen in Sekunden, das die Leute wirklich beeindruckt, Statistiken, die dir zeigen, was funktioniert hat, und ein Nachfassen, das wirklich stattfindet statt „irgendwann mal“.
 
 Die nächste Konferenz kommt bestimmt. Lass diesmal das Papier zu Hause.
 
-*NFC.cool Business Card gibt es kostenlos für [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-de). Deine erste Karte steht in unter einer Minute.*
+*[NFC.cool Business Card](/de/business-card/) gibt es kostenlos für [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-de&mt=8) und [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-de). Deine erste Karte steht in unter einer Minute. Schickst du ein ganzes Team zum Event? Sieh dir [NFC.cool Business Card for Teams](/de/business-card/teams/) an.*

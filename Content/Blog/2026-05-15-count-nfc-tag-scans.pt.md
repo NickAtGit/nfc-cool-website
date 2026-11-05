@@ -23,7 +23,7 @@ Há uma forma mais simples, e esteve dentro do chip NFC este tempo todo. Muitas 
 
 ## O Que é Realmente um Contador de Toques NFC
 
-A maioria dos [autocolantes NFC que pode comprar](/affiliate-links/) usa chips da família NTAG21x - `NTAG213`, `NTAG215` e `NTAG216`. Esses chips têm uma pequena funcionalidade que, pelo que vejo, a maioria das pessoas nunca soube que existia: um contador integrado. De cada vez que a tag é lida, o contador avança uma unidade. Vive no hardware do chip, não numa aplicação, e não num servidor. (Se quiser a análise mais aprofundada destes chips, falei deles em [tipos de tags NFC para iPhone](/blog/nfc-tag-types-for-iphones/).)
+A maioria dos [autocolantes NFC que pode comprar](/pt/affiliate-links/) usa chips da família NTAG21x - `NTAG213`, `NTAG215` e `NTAG216`. Esses chips têm uma pequena funcionalidade que, pelo que vejo, a maioria das pessoas nunca soube que existia: um contador integrado. De cada vez que a tag é lida, o contador avança uma unidade. Vive no hardware do chip, não numa aplicação, e não num servidor. (Se quiser a análise mais aprofundada destes chips, falei deles em [tipos de tags NFC para iPhone](/pt/blog/nfc-tag-types-for-iphones/).)
 
 A forma como o descrevo é como um conta-quilómetros para a tag. O conta-quilómetros de um carro conta os quilómetros quer alguém esteja a olhar ou não; o contador NFC conta as leituras da mesma forma. O número está sempre lá. A única questão é se há algo configurado para o mostrar.
 
@@ -55,7 +55,7 @@ Uma tag que se conta a si própria parece um truque engenhoso até que a associa
 
 **Acompanhar a interação.** Cole uma tag num cartão de visita, num cartaz, numa caixa de produto ou numa montra, e o contador torna-se uma métrica de interação discreta. Consegue ver se um cartão foi tocado duas vezes ou duzentas, sem ter de construir uma infraestrutura de análise para isso.
 
-**Provar a autenticidade.** O contador só sobe - não pode ser revertido. Um número que só pode aumentar é difícil de falsificar de forma convincente, e é por isso que acho que merece o seu lugar em artigos de edição limitada e verificações antifalsificação. Uma tag genuína tem um histórico plausível e crescente; uma clonada não. Se esse lado do NFC lhe interessa, aprofundei-o em [como o NFC mantém segredos encriptados em segurança](/blog/nfc-safe-encrypted-secrets/).
+**Provar a autenticidade.** O contador só sobe - não pode ser revertido. Um número que só pode aumentar é difícil de falsificar de forma convincente, e é por isso que acho que merece o seu lugar em artigos de edição limitada e verificações antifalsificação. Uma tag genuína tem um histórico plausível e crescente; uma clonada não. Se esse lado do NFC lhe interessa, aprofundei-o em [como o NFC mantém segredos encriptados em segurança](/pt/blog/nfc-safe-encrypted-secrets/).
 
 Junte alguns destes e obtém algo assim: um artesão coloca uma tag em cada tiragem numerada de um produto, todas a apontar para a mesma página de destino. O ID da tag diz-lhe que artigo um comprador tem nas mãos, a contagem diz-lhe com que frequência esse comprador voltou, e como a contagem só sobe, um revendedor não consegue, sem que se note, fazer passar uma cópia pelo original. Sem contas, sem base de dados, sem fatura mensal - apenas o chip a fazer o seu trabalho. É o tipo de resultado para o qual construí esta funcionalidade.
 
@@ -63,7 +63,7 @@ Junte alguns destes e obtém algo assim: um artesão coloca uma tag em cada tira
 
 ## Como Configurar, Passo a Passo
 
-A funcionalidade vive na NFC.cool Tools, tanto no iPhone como no Android. Faz parte da subscrição Pro (Platinum), por isso vai precisar dela para gravar tags com contador ativado. Se nunca gravou uma tag, a minha explicação passo a passo sobre [como gravar tags NFC no iPhone](/blog/write-nfc-tags-iphone/) cobre primeiro os fundamentos.
+A funcionalidade vive na NFC.cool Tools, tanto no iPhone como no Android. Faz parte da subscrição Pro (Platinum), por isso vai precisar dela para gravar tags com contador ativado. Se nunca gravou uma tag, a minha explicação passo a passo sobre [como gravar tags NFC no iPhone](/pt/blog/write-nfc-tags-iphone/) cobre primeiro os fundamentos.
 
 1. Abra a NFC.cool Tools, vá à secção **NFC Tools** e toque em **NFC Tap Counter**.
 2. Escolha o que a tag deve entregar: um **URL**, um **Email**, um **SMS** ou um **Atalho**. (O Atalho é só no iOS, uma vez que os Atalhos são uma aplicação da Apple; o URL, o Email e o SMS funcionam em ambas as plataformas.)
@@ -109,7 +109,7 @@ Se estiver a encaminhar o URL final para o seu próprio site, o seu servidor lê
 
 Esta funcionalidade depende do chip, por isso a tag importa. A NFC.cool suporta os chips `NTAG213`, `NTAG215` e `NTAG216` para o Contador de Toques. Estes são os autocolantes NFC mais comuns à venda para telemóveis, por isso são fáceis de encontrar, mas ainda assim verificaria o tipo de chip antes de comprar em quantidade. Se tentar usar uma tag que a funcionalidade não suporta, a aplicação avisa-o em vez de gravar algo que não vai funcionar - garanti isso porque já vi como uma falha silenciosa é frustrante.
 
-Se precisar de se abastecer, a nossa página de [tags NFC recomendadas](/affiliate-links/) lista os autocolantes `NTAG216` que usamos e com os quais testamos. E se está a começar a escolher tags, o meu guia sobre [os diferentes tipos de tags NFC para iPhone](/blog/nfc-tag-types-for-iphones/) explica os prós e contras em termos simples.
+Se precisar de se abastecer, a nossa página de [tags NFC recomendadas](/pt/affiliate-links/) lista os autocolantes `NTAG216` que usamos e com os quais testamos. E se está a começar a escolher tags, o meu guia sobre [os diferentes tipos de tags NFC para iPhone](/pt/blog/nfc-tag-types-for-iphones/) explica os prós e contras em termos simples.
 
 ---
 
@@ -131,6 +131,6 @@ Se precisar de se abastecer, a nossa página de [tags NFC recomendadas](/affilia
 
 Durante a maior parte dos anos em que trabalhei com NFC, contar toques significava ligações únicas e um backend para as totalizar. O contador do NTAG21x elimina discretamente esse requisito: a tag mantém a sua própria contagem, e a funcionalidade Contador de Toques NFC na NFC.cool Tools é o que a ativa. É uma daquelas funcionalidades que continuo a desejar que mais pessoas soubessem sequer ser possível.
 
-Quer vê-la a funcionar antes de gravar uma única tag? A nossa [demonstração ao vivo do contador de toques](/tap-counter/) é uma página que faz exatamente o que este artigo descreve - grave uma tag que aponte para ela, dê-lhe um toque, e a página mostra-lhe a contagem de leituras e o ID da tag que o chip acabou de lhe entregar. Sem servidor no meio, apenas o URL.
+Quer vê-la a funcionar antes de gravar uma única tag? A nossa [demonstração ao vivo do contador de toques](/pt/tap-counter/) é uma página que faz exatamente o que este artigo descreve - grave uma tag que aponte para ela, dê-lhe um toque, e a página mostra-lhe a contagem de leituras e o ID da tag que o chip acabou de lhe entregar. Sem servidor no meio, apenas o URL.
 
-Está disponível agora na NFC.cool Tools, no [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-en&mt=8) e no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-en). Para ver o conjunto completo de ferramentas NFC que construí, dê uma vista de olhos na [funcionalidade de leitor e gravador NFC](/features/nfc-reader-writer/).
+Está disponível agora na NFC.cool Tools, no [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-en&mt=8) e no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-en). Para ver o conjunto completo de ferramentas NFC que construí, dê uma vista de olhos na [funcionalidade de leitor e gravador NFC](/pt/features/nfc-reader-writer/).

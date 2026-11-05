@@ -86,7 +86,7 @@ Pratique pour vérifier rapidement le code-barres d'un produit pendant que vous 
 
 Je crois qu'il faut assumer les limites plutôt que de les cacher.
 
-Le **scan NFC** n'est pas pris en charge *nativement* sur Mac, car aucun Mac n'a d'antenne NFC. Avant, l'histoire s'arrêtait là. Ce n'est plus le cas : avec un lecteur USB externe, vous pouvez désormais lire et écrire des tags NFC directement depuis un Mac ou un iPad. J'ai expliqué comment ça marche dans [la lecture de tags NFC sur iPad et Mac](/blog/nfc-reading-ipad-mac/).
+Le **scan NFC** n'est pas pris en charge *nativement* sur Mac, car aucun Mac n'a d'antenne NFC. Avant, l'histoire s'arrêtait là. Ce n'est plus le cas : avec un lecteur USB externe, vous pouvez désormais lire et écrire des tags NFC directement depuis un Mac ou un iPad. J'ai expliqué comment ça marche dans [la lecture de tags NFC sur iPad et Mac](/fr/blog/nfc-reading-ipad-mac/).
 
 Le **scan de documents** ne fonctionne pas non plus - la caméra du Mac n'a pas la chaîne d'autofocus et de détection des bords qui rend le scan de documents possible sur iPhone et iPad.
 

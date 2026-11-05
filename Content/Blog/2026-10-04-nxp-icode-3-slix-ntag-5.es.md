@@ -19,7 +19,7 @@ No se había movido ni un milímetro. Volví a intentarlo. El mismo mensaje. Pro
 
 Enseguida te cuento qué estaba pasando, porque es el bug más curioso que he tenido que cazar este año. Pero primero, por qué andaba yo trasteando con una etiqueta ICODE.
 
-Quiero que NFC.cool sea la app NFC más completa que puedas llevar en el móvil. Este verano eso significó [NTAG 424 DNA](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/), las etiquetas que usan las marcas para demostrar que un producto es auténtico. Después de eso, la familia de chips más grande con la que la app todavía no se entendía de verdad era ICODE, de NXP. Con **NFC.cool Tools 7.1.0**, por fin se entienden.
+Quiero que NFC.cool sea la app NFC más completa que puedas llevar en el móvil. Este verano eso significó [NTAG 424 DNA](/es/blog/ntag-424-dna-counterfeit-proof-nfc-tags/), las etiquetas que usan las marcas para demostrar que un producto es auténtico. Después de eso, la familia de chips más grande con la que la app todavía no se entendía de verdad era ICODE, de NXP. Con **NFC.cool Tools 7.1.0**, por fin se entienden.
 
 ---
 
@@ -50,7 +50,7 @@ Escanea una con NFC.cool y lo verás todo: qué chip es, su memoria, su contador
 
 A partir de ahí puedes cambiar casi todo lo que ofrece el chip:
 
-- **Contador de toques.** La ICODE 3 puede contar por sí sola cada lectura. Activa el espejo NFC y el chip escribe su ID y el número actual dentro del enlace guardado, de modo que cada toque abre una URL un poco distinta que una web puede contar. Si has leído sobre el [Contador de Toques NFC](/blog/count-nfc-tag-scans/), es la misma idea en otro chip.
+- **Contador de toques.** La ICODE 3 puede contar por sí sola cada lectura. Activa el espejo NFC y el chip escribe su ID y el número actual dentro del enlace guardado, de modo que cada toque abre una URL un poco distinta que una web puede contar. Si has leído sobre el [Contador de Toques NFC](/es/blog/count-nfc-tag-scans/), es la misma idea en otro chip.
 - **Contraseñas.** La ICODE 3 tiene seis, una para cada cosa: lectura, escritura, privacidad, destrucción, ajustes antirrobo y configuración. Todas las etiquetas salen de fábrica con los mismos valores, así que una protección solo sirve de algo cuando pones las tuyas. NFC.cool guarda tus contraseñas en el Llavero de iCloud, etiqueta por etiqueta.
 - **Protección de memoria.** Puedes dividir la memoria en dos partes y proteger cada una por separado, por ejemplo para que un enlace público se pueda seguir leyendo mientras los datos guardados detrás quedan ocultos.
 - **Ajustes antirrobo y de biblioteca.** El indicador EAS es lo que hace pitar el arco de una tienda o de una biblioteca. El byte AFI es lo que usan las bibliotecas para marcar un libro como prestado. Puedes cambiar los dos, y también bloquearlos.
@@ -95,7 +95,7 @@ Una vez entendido el problema, el arreglo fue tan pequeño que casi da vergüenz
 
 ## Dónde funciona
 
-En iPhone, todo esto funciona con el lector NFC que lleva el propio teléfono. En iPad y Mac, que no tienen chip NFC, funciona a través de un [lector NFC USB externo](/blog/nfc-reading-ipad-mac/). Eso sí, el lector tiene que pasarle los comandos ICODE a la etiqueta tal cual. Si el tuyo lo hace, la app lee y gestiona las etiquetas ICODE exactamente igual que en un iPhone, y el bug del que te acabo de hablar ni siquiera existe ahí. Con un lector que no lo haga, sigues pudiendo leer la memoria de la etiqueta.
+En iPhone, todo esto funciona con el lector NFC que lleva el propio teléfono. En iPad y Mac, que no tienen chip NFC, funciona a través de un [lector NFC USB externo](/es/blog/nfc-reading-ipad-mac/). Eso sí, el lector tiene que pasarle los comandos ICODE a la etiqueta tal cual. Si el tuyo lo hace, la app lee y gestiona las etiquetas ICODE exactamente igual que en un iPhone, y el bug del que te acabo de hablar ni siquiera existe ahí. Con un lector que no lo haga, sigues pudiendo leer la memoria de la etiqueta.
 
 La app de Android todavía no es compatible con ICODE.
 

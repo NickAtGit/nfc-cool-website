@@ -118,8 +118,8 @@ image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 هناك المزيد عن عدّاد لمسات NFC - أيّ الشرائح تعمل، وحالات الاستخدام الواقعية، والإعداد الكامل خطوة بخطوة.
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">اقرأ الدليل</a>
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">اطّلع على الميزة</a>
+<a href="/ar/blog/count-nfc-tag-scans/" class="landing-cta-button">اقرأ الدليل</a>
+<a href="/ar/features/nfc-reader-writer/" class="landing-cta-button">اطّلع على الميزة</a>
 </div>
 
 </section>

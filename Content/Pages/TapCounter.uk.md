@@ -118,8 +118,8 @@ NFC-мітка вміє рахувати власні зчитування, і �
 Про лічильник дотиків NFC є що розповісти: які чипи підходять, де він рятує в реальному житті і як налаштувати все крок за кроком.
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">Читати посібник</a>
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Перейти до функції</a>
+<a href="/uk/blog/count-nfc-tag-scans/" class="landing-cta-button">Читати посібник</a>
+<a href="/uk/features/nfc-reader-writer/" class="landing-cta-button">Перейти до функції</a>
 </div>
 
 </section>

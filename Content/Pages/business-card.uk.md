@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# Цифрова візитівка NFC.cool
 
-Твоя візитівка в телефоні, для однієї людини чи цілої команди. Ділися нею дотиком NFC або через QR-код і дивись, скільки людей її зберегли.
+Твоя цифрова візитівка в телефоні, для однієї людини чи цілої команди. Ділися нею дотиком NFC або через QR-код і дивись, скільки людей її зберегли.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-uk&mt=8" class="landing-store-button is-apple" aria-label="Завантажити в App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## Ціни
 
-Одна людина або ціла команда. Будь-яку візитівку можна зберегти як контакт, навіть на Free. Personal і Pro додають збір лідів, аналітику й візитівку без згадки про нас та купуються в застосунку. Команди починають у вебі, 14 днів безкоштовно, і платять за кожну людину, щороку або щомісяця. В євро для команди цифри ті самі.
+Одна людина або ціла команда. Будь-яку візитівку можна зберегти як контакт, навіть на Free. Personal і Pro додають збір лідів, аналітику й візитівку без згадки про нас та купуються в застосунку. Команди починають у вебі, 14 днів безкоштовно, і платять за кожну людину, щороку або щомісяця. В євро для команди цифри ті самі. [Подивись ціну для команд і порівняння з іншими](/uk/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <article class="page-card">
 <h3>Розумні візитівки</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Створення цифрової візитівки</strong>: візитівка під твій бренд</li>
+<li><strong>Цифрові візитівки</strong>: візитівки під твій бренд</li>
 <li><strong>До 10 візитівок на Pro</strong>: під різні ролі, бренди та заходи</li>
 <li><strong>Імпорт з «Контактів»</strong>: будь-який контакт стає візитівкою</li>
 <li><strong>Завжди актуальна</strong>: правки діють одразу, без передруку</li>
@@ -145,7 +145,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <article class="page-card">
 <h3>Приватність і безпека</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Профілі під PIN-кодом</strong>: чотири цифри й обмеження на кількість спроб</li>
+<li><strong>Профілі під PIN-кодом</strong>: чотиризначний PIN-код на приватних візитівках</li>
 <li><strong>Публічно або приватно</strong>: приватна візитівка відкривається лише з PIN-кодом</li>
 <li><strong>Експорт даних за GDPR</strong>: усе вивантажується в ZIP будь-коли</li>
 <li><strong>Захист сеансу</strong>: сеанс із PIN-кодом завершується сам</li>
@@ -181,7 +181,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## Що отримують команди
 
-Особиста візитівка належить одній людині. У команді візитівки належать компанії, і можливості в них інші.
+Особиста візитівка належить одній людині. У команді візитівки належать компанії, і можливості в них інші. Докладніше про [цифрові візитівки для команд](/uk/business-card/teams/).
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Одна скринька для всіх лідів</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>Усі ліди, які збирає команда, потрапляють в одну спільну скриньку. Видно, хто відповідає за кожного ліда і на якому він етапі. Передавай його потрібній людині й вивантажуй усе в таблицю.</p></article>
@@ -249,7 +249,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <details class="faq-item">
 <summary>Що буде, якщо скасувати платний тариф?</summary>
-<p>Нічого не видаляється, і візитівки лишаються онлайн. Нові ліди більше не надходять, а кнопка «Зберегти контакт» працює лише на стількох візитівках, скільки дозволяє тариф. Інші показуються як заблоковані.</p>
+<p>Нічого не видаляється. На Personal чи Pro візитівки лишаються онлайн: нові ліди більше не надходять, а кнопка «Зберегти контакт» працює лише на стількох візитівках, скільки дозволяє тариф. Інші показуються як заблоковані. У команді після завершення підписки візитівки показують сторінку «тимчасово недоступно», доки не поновиш підписку, а тоді все повертається.</p>
 </details>
 
 </div>

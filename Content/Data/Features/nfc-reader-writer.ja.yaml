@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "NFCリーダー & ライター"
-  subtitle: "どんなNFCタグもタップで読み取り、自分でも書き込めます - リンク、連絡先、Wi-Fiなど。パスワードや秘密の情報をタグに安全に保存し、ロックすれば他の誰にも書き換えられません。"
+  subtitle: "どんなNFCタグもタップで読み取り、リンク、連絡先、Wi-Fi、ショートカットなど25種類以上のメッセージを自分で書き込めます。パスワードや秘密の情報もタグに安全に保存でき、ロックすれば他の誰にも書き換えられません。"
   platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
 
@@ -77,7 +77,7 @@ subsections:
     platforms: "iOS"
 
   - title: "CSVバッチ書き込み"
-    body: "<p>Numbers、Excel、Google Sheetsでリストを作り、CSVファイルとして書き出して、そのファイルをスマホに取り込みます。1行が1枚のタグになり、複数の列を使えば各セルがそのタグ上の別々のレコードになります。NFC.coolが区切り文字を自動で判別し、タグごとのバイト数付きのプレビューを表示したあと、タグをスマホにかざすたびに1枚ずつ書き込んでいきます。書き込み済みの行はファイルから消えるので、途中でやめても好きなときに再開できます。<a href=\"/blog/batch-write-nfc-tags-csv/\">スプレッドシートから最後のタグまでの詳しい手順を読む</a>。</p>"
+    body: "<p>Numbers、Excel、Google Sheetsでリストを作り、CSVファイルとして書き出して、そのファイルをスマホに取り込みます。1行が1枚のタグになり、複数の列を使えば各セルがそのタグ上の別々のレコードになります。NFC.coolが区切り文字を自動で判別し、タグごとのバイト数付きのプレビューを表示したあと、タグをスマホにかざすたびに1枚ずつ書き込んでいきます。書き込み済みの行はファイルから消えるので、途中でやめても好きなときに再開できます。<a href=\"/ja/blog/batch-write-nfc-tags-csv/\">スプレッドシートから最後のタグまでの詳しい手順を読む</a>。</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
     imageAlt: "iPhoneが表から複数のNFCタグに一括書き込み"
     platforms: "iOS · Android"

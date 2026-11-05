@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# Carte de visite numérique NFC.cool
 
-Votre carte de visite sur votre téléphone, en solo ou en équipe. Partagez-la d'un simple contact NFC ou par QR code, et voyez combien de personnes l'enregistrent.
+Votre carte de visite numérique sur votre téléphone, pour les particuliers comme pour les équipes. Partagez-la d'un simple contact NFC ou par QR code, et voyez combien de personnes l'enregistrent.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-fr&mt=8" class="landing-store-button is-apple" aria-label="Télécharger dans l'App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ Votre carte de visite sur votre téléphone, en solo ou en équipe. Partagez-la 
 
 ## Tarifs
 
-Une personne ou toute une équipe. Chaque carte peut être enregistrée comme contact, Free compris. Personal et Pro ajoutent les prospects, les statistiques et une carte sans notre nom, et s'achètent dans l'app. Les équipes démarrent sur le web, gratuitement pendant 14 jours, puis paient par personne, à l'année ou au mois. En euros, le tarif équipe affiche le même chiffre.
+Une personne ou toute une équipe. Chaque carte peut être enregistrée comme contact, Free compris. Personal et Pro ajoutent les prospects, les statistiques et une carte sans notre nom, et s'achètent dans l'app. Les équipes démarrent sur le web, gratuitement pendant 14 jours, puis paient par personne, à l'année ou au mois. En euros, le tarif équipe affiche le même chiffre. [Voir le tarif équipe et la comparaison avec les autres offres](/fr/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ Une personne ou toute une équipe. Chaque carte peut être enregistrée comme co
 <article class="page-card">
 <h3>Cartes de visite intelligentes</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Création de cartes numériques</strong> - créez des cartes à l'image de votre marque</li>
+<li><strong>Cartes de visite numériques</strong> - créez des cartes à l'image de votre marque</li>
 <li><strong>Jusqu'à 10 cartes avec Pro</strong> - pour différents rôles, marques ou événements</li>
 <li><strong>Import depuis Contacts</strong> - transformez n'importe quel contact existant en carte</li>
 <li><strong>Toujours à jour</strong> - les modifications s'appliquent aussitôt, sans réimpression</li>
@@ -145,7 +145,7 @@ Une personne ou toute une équipe. Chaque carte peut être enregistrée comme co
 <article class="page-card">
 <h3>Confidentialité et sécurité</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Profils protégés par PIN</strong> - code à 4 chiffres, nombre de tentatives limité</li>
+<li><strong>Profils protégés par PIN</strong> - un code à 4 chiffres sur les cartes privées</li>
 <li><strong>Carte publique ou privée</strong> - une carte privée ne s'ouvre qu'avec son code PIN</li>
 <li><strong>Export de données RGPD</strong> - téléchargez tout au format ZIP à tout moment</li>
 <li><strong>Sécurité de session</strong> - expiration automatique de la session PIN</li>
@@ -181,7 +181,7 @@ Une personne ou toute une équipe. Chaque carte peut être enregistrée comme co
 
 ## Ce que Team apporte en plus
 
-Une carte personnelle appartient à une seule personne. Dans une équipe, les cartes appartiennent à l'entreprise, et cela change ce qu'elles permettent de faire.
+Une carte personnelle appartient à une seule personne. Dans une équipe, les cartes appartiennent à l'entreprise, et cela change ce qu'elles permettent de faire. En savoir plus sur les [cartes de visite numériques pour les équipes](/fr/business-card/teams/).
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Une seule boîte de réception pour tous les prospects</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>Tous les prospects collectés par l'équipe arrivent dans une seule boîte de réception partagée. Voyez qui s'en occupe et où ils en sont, attribuez-les à la bonne personne et exportez le tout dans une feuille de calcul.</p></article>
@@ -249,7 +249,7 @@ Une carte personnelle appartient à une seule personne. Dans une équipe, les ca
 
 <details class="faq-item">
 <summary>Que se passe-t-il si je résilie un forfait payant ?</summary>
-<p>Rien n'est supprimé et vos cartes restent en ligne. Vous ne recevez plus de nouveaux prospects, et « Enregistrer le contact » ne reste disponible que sur le nombre de cartes autorisé par votre forfait. Les autres apparaissent verrouillées.</p>
+<p>Rien n'est supprimé. Avec Personal ou Pro, vos cartes restent en ligne : vous ne recevez plus de nouveaux prospects, et « Enregistrer le contact » ne reste disponible que sur le nombre de cartes autorisé par votre forfait. Les autres apparaissent verrouillées. Dans une équipe, une fois l'abonnement terminé, les cartes de votre équipe affichent une page « temporairement indisponible » jusqu'à ce que vous vous réabonniez, et tout revient alors.</p>
 </details>
 
 </div>

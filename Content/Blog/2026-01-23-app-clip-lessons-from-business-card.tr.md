@@ -10,7 +10,7 @@ image: "/assets/images/Blog/app-clip-mdevcamp.webp"
 imageAlt: "Prag'daki mDevCamp 2025'te konuşma yaparken"
 ---
 
-2025'te ilk konferans konuşmamı yaptım ve konu olarak yıllardır içinde yaşadığım ama hiçbir salona anlatmak zorunda kalmadığım şeyi seçtim: NFC.cool Business Card'ın arkasındaki App Clip gerçekte nasıl çalışıyor. Konuşma Prag'daki mDevCamp 2025'teydi ve başlığı bu yazınınkiyle aynı.
+2025'te ilk konferans konuşmamı yaptım ve konu olarak yıllardır içinde yaşadığım ama hiçbir salona anlatmak zorunda kalmadığım şeyi seçtim: [NFC.cool Business Card'ın](/tr/business-card/) arkasındaki App Clip gerçekte nasıl çalışıyor. Konuşma Prag'daki mDevCamp 2025'teydi ve başlığı bu yazınınkiyle aynı.
 
 Hiç denk gelmediysen: App Clip, bir iOS uygulamasının NFC okutmasıyla ya da QR taramasıyla anında açılan küçük parçası. App Store yok, kurulum yok. Telefonları yaklaştırdıktan yaklaşık bir saniye sonra karşındakinin NFC.cool kartvizitini hiçbir şey indirmeden görmesini sağlayan şey bu. Bunu anlık hissettirmek, üstelik paylaşılan kart verisini güvende tutup kimseyi kayıt olmaya zorlamadan yapmak, dışarıdan göründüğünden çok daha fazla mimari karar gerektiriyor. Konuşma bunları tek tek gezdi: App Clip nasıl kurgulanmış, SwiftUI hangi noktada hak ediyor ve arka uç kart verisini nasıl ele alıyor.
 

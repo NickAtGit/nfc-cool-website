@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "NFC 读取与写入"
-  subtitle: "在 iPhone 和 Android 上读取与写入 NFC 标签。轻触即可读取任意标签，写入你自己的链接、联系人和 Wi-Fi，然后锁定标签，让其他人无法更改。"
+  subtitle: "在 iPhone 和 Android 上读取与写入 NFC 标签。轻触即可读取任意标签，写入你自己的链接、联系人和 Wi-Fi，然后锁定标签，让其他人无法更改。可以写入 25 多种信息类型，还能用 NFC Safe 加密机密信息。"
   platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/nfc-scan-tag.webp"
 
@@ -29,25 +29,25 @@ capabilities:
 subsectionsTitle: "比普通 NFC 应用更深入"
 subsections:
   - title: "NFC Safe：在标签本身加密机密信息"
-    body: "<p>大多数 NFC 应用把标签当作明信片：任何人用手机都能读取。NFC Safe 则把它当作一个密封的信封。你的机密信息（密码、助记词、许可证密钥或任意文本）会在到达标签之前，先在你的设备上用 AES-256 加密。即便标签丢失、被盗，或者交给了陌生人，只要没有你的口令，标签里的负载就只是一堆乱码。</p><p>同一套加密在两个平台上都通用，因此你可以在 iPhone 上锁定一条机密信息，再在 Android 上解锁。想了解它的加密方式全貌？<a href=\"/blog/nfc-safe-encrypted-secrets/\">阅读博客上的 NFC Safe 深度解析</a>。</p>"
+    body: "<p>大多数 NFC 应用把标签当作明信片：任何人用手机都能读取。NFC Safe 则把它当作一个密封的信封。你的机密信息（密码、助记词、许可证密钥或任意文本）会在到达标签之前，先在你的设备上用 AES-256 加密。即便标签丢失、被盗，或者交给了陌生人，只要没有你的口令，标签里的负载就只是一堆乱码。</p><p>同一套加密在两个平台上都通用，因此你可以在 iPhone 上锁定一条机密信息，再在 Android 上解锁。想了解它的加密方式全貌？<a href=\"/zh/blog/nfc-safe-encrypted-secrets/\">阅读博客上的 NFC Safe 深度解析</a>。</p>"
     imagePath: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
     imageAlt: "标签上的 NFC Safe 加密机密信息"
     platforms: "iOS · Android"
 
   - title: "NFC 轻触计数器：用标签 ID 和次数追踪每一枚标签"
-    body: "<p>有些 NFC 芯片会在硬件层面统计自己被扫描的次数。NFC 轻触计数器把这一能力用起来：它会设置标签，使其在每次被读取时，都把实时轻触次数（以及／或它的唯一标签 ID）追加到所承载的内容上（URL、电子邮件、短信或快捷指令）。无需服务器、无需联网、无需维护任何后端，由芯片自己完成计数和替换。</p><p>这样一来，一枚标签就能告诉你究竟是哪张实体贴纸被轻触了、被轻触了多少次，并让你据此行动：把前 100 次扫描限定为演示用途、追踪名片上的互动情况，或用一个只增不减的计数器来证明真伪。想看完整教程？<a href=\"/blog/count-nfc-tag-scans/\">阅读博客上的 NFC 轻触计数器指南</a>，或<a href=\"/tap-counter/\">试用在线演示</a>：轻触一枚标签，看着页面上的计数往上走。</p>"
+    body: "<p>有些 NFC 芯片会在硬件层面统计自己被扫描的次数。NFC 轻触计数器把这一能力用起来：它会设置标签，使其在每次被读取时，都把实时轻触次数（以及／或它的唯一标签 ID）追加到所承载的内容上（URL、电子邮件、短信或快捷指令）。无需服务器、无需联网、无需维护任何后端，由芯片自己完成计数和替换。</p><p>这样一来，一枚标签就能告诉你究竟是哪张实体贴纸被轻触了、被轻触了多少次，并让你据此行动：把前 100 次扫描限定为演示用途、追踪名片上的互动情况，或用一个只增不减的计数器来证明真伪。想看完整教程？<a href=\"/zh/blog/count-nfc-tag-scans/\">阅读博客上的 NFC 轻触计数器指南</a>，或<a href=\"/zh/tap-counter/\">试用在线演示</a>：轻触一枚标签，看着页面上的计数往上走。</p>"
     imagePath: "/assets/images/Blog/count-nfc-tag-scans.webp"
     imageAlt: "手机轻触一枚 NFC 标签，扫描计数不断上升"
     platforms: "iOS · Android"
 
   - title: "OpenPrintTag：把你的 3D 打印机耗材信息放到料盘上"
-    body: "<p>OpenPrintTag 是一项开放标准，用于把耗材料盘的元数据（材料、颜色、制造商、UUID、剩余长度）嵌入一条小巧的 CBOR 编码 NDEF 记录中。NFC.cool 在两个平台上都原生支持读写这一格式，因此兼容的打印机在料盘装入的那一刻就能识别它。第一次接触这个格式？<a href=\"/blog/openprinttag-read-write-nfc-spools-phone/\">我们的博客指南会带你完成 OpenPrintTag 料盘的读取和写入</a>。</p><p>同一格式也驱动着 <a href=\"/features/webhooks/\">Webhook 与自动化</a>页面上的结构化 webhook 负载：一旦检测到新的料盘，就立刻向你的打印机群发出一个 POST 请求。</p>"
+    body: "<p>OpenPrintTag 是一项开放标准，用于把耗材料盘的元数据（材料、颜色、制造商、UUID、剩余长度）嵌入一条小巧的 CBOR 编码 NDEF 记录中。NFC.cool 在两个平台上都原生支持读写这一格式，因此兼容的打印机在料盘装入的那一刻就能识别它。第一次接触这个格式？<a href=\"/zh/blog/openprinttag-read-write-nfc-spools-phone/\">我们的博客指南会带你完成 OpenPrintTag 料盘的读取和写入</a>。</p><p>同一格式也驱动着 <a href=\"/zh/features/webhooks/\">Webhook 与自动化</a>页面上的结构化 webhook 负载：一旦检测到新的料盘，就立刻向你的打印机群发出一个 POST 请求。</p>"
     imagePath: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
     imageAlt: "用手机读取和写入 OpenPrintTag NFC 料盘"
     platforms: "iOS · Android"
 
   - title: "牙刷刷头重置"
-    body: "<p>飞利浦 Sonicare 刷头带有一枚 NFC 标签，用于记录使用情况，好让手柄提醒你更换刷头。NFC.cool 可以重置这个计数器：读取标签状态、引导你完成重置、再把新状态写回去。两个平台上的操作完全一致。想确切知道芯片记录了哪些信息？<a href=\"/blog/reset-sonicare-brush-head-nfc/\">阅读博客上的 Sonicare 刷头指南</a>。（我们不生产刷头，只是让你的刷头多体面地用上一个月。）</p>"
+    body: "<p>飞利浦 Sonicare 刷头带有一枚 NFC 标签，用于记录使用情况，好让手柄提醒你更换刷头。NFC.cool 可以重置这个计数器：读取标签状态、引导你完成重置、再把新状态写回去。两个平台上的操作完全一致。想确切知道芯片记录了哪些信息？<a href=\"/zh/blog/reset-sonicare-brush-head-nfc/\">阅读博客上的 Sonicare 刷头指南</a>。（我们不生产刷头，只是让你的刷头多体面地用上一个月。）</p>"
     imagePath: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
     imageAlt: "用 NFC 重置飞利浦 Sonicare 刷头"
     platforms: "iOS · Android"
@@ -77,7 +77,7 @@ subsections:
     platforms: "iOS"
 
   - title: "CSV 批量写入"
-    body: "<p>在 Numbers、Excel 或 Google Sheets 里建好列表，导出为 CSV 文件，再把文件导入手机。每一行就是一枚标签；如果用了多列，每个单元格就是这枚标签上的一条独立记录。NFC.cool 会自动识别分隔符，显示带有每枚标签字节数的预览，然后在你把标签逐一贴近手机时依次写入。写好的行会从文件中移除，所以随时可以停下来，之后再继续。<a href=\"/blog/batch-write-nfc-tags-csv/\">阅读从表格到最后一枚标签的完整教程</a>。</p>"
+    body: "<p>在 Numbers、Excel 或 Google Sheets 里建好列表，导出为 CSV 文件，再把文件导入手机。每一行就是一枚标签；如果用了多列，每个单元格就是这枚标签上的一条独立记录。NFC.cool 会自动识别分隔符，显示带有每枚标签字节数的预览，然后在你把标签逐一贴近手机时依次写入。写好的行会从文件中移除，所以随时可以停下来，之后再继续。<a href=\"/zh/blog/batch-write-nfc-tags-csv/\">阅读从表格到最后一枚标签的完整教程</a>。</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
     imageAlt: "iPhone 根据表格批量写入 NFC 标签"
     platforms: "iOS · Android"
@@ -89,7 +89,7 @@ subsections:
     platforms: "iOS"
 
   - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
-    body: "<p>扫描历史、NFC Safe 条目和写入模板会在每一台登录了你 iCloud 账户的设备之间无缝同步。用口袋里的 iPhone 轻触一枚标签，片刻之后这次扫描就出现在你的 iPad 资料库里。NFC.cool 现在也<a href=\"/blog/nfc-cool-comes-to-mac/\">能在 Apple Silicon Mac 上运行</a>，因此同一份资料库在那里也会出现。</p>"
+    body: "<p>扫描历史、NFC Safe 条目和写入模板会在每一台登录了你 iCloud 账户的设备之间无缝同步。用口袋里的 iPhone 轻触一枚标签，片刻之后这次扫描就出现在你的 iPad 资料库里。NFC.cool 现在也<a href=\"/zh/blog/nfc-cool-comes-to-mac/\">能在 Apple Silicon Mac 上运行</a>，因此同一份资料库在那里也会出现。</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
     platforms: "iOS"

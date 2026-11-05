@@ -33,7 +33,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "负载格式"
-    body: "<p>每一次 POST 都会发送形如下面这样的 JSON 主体：</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p><code>tagType</code> 和 <code>structured</code> 只在 <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a> 这类特殊格式下才会出现；其他所有扫描只发送前三个字段。<a href=\"/developers/\">开发者参考文档</a>提供了逐字段的完整说明、认证方式、curl 示例，以及可直接运行的示例服务器。</p>"
+    body: "<p>每一次 POST 都会发送形如下面这样的 JSON 主体：</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p><code>tagType</code> 和 <code>structured</code> 只在 <a href=\"/zh/features/nfc-reader-writer/\">OpenPrintTag</a> 这类特殊格式下才会出现；其他所有扫描只发送前三个字段。<a href=\"/zh/developers/\">开发者参考文档</a>提供了逐字段的完整说明、认证方式、curl 示例，以及可直接运行的示例服务器。</p>"
     platforms: "iOS · Android"
 
   - title: "GitHub 上的参考服务器"

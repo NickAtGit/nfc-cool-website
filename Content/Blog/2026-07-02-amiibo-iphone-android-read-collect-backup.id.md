@@ -12,7 +12,7 @@ metaDescription: "NFC.cool membaca Amiibo di iPhone dan Android, menyimpan kolek
 ogTitle: "Membaca, mengoleksi, dan mencadangkan Amiibo di iPhone dan Android"
 ogDescription: "Saya memberi NFC.cool dukungan Amiibo penuh - pindai, koleksi, dan cadangkan ke tag kosong. Inilah cara kerja Amiibo yang sebenarnya, dan mengapa aplikasi ini tidak menyertakan kunci apa pun."
 ---
-Orang mengira ada sesuatu yang eksotis di dalam Amiibo. Semacam kepingan silikon buatan Nintendo yang tidak bisa Anda beli di tempat lain. Tidak ada. Yang tersegel di dalam alas figur itu adalah sebuah [NTAG215](/affiliate-links/) - chip stiker kosong yang sama yang saya baca dan tulis setiap hari, jenis yang dijual sepuluh dalam satu paket dengan harga receh. Memori sekitar 540 byte, sebuah nomor seri yang ditanamkan di pabrik, dan itulah keseluruhan figurnya. Plastiknya adalah bagian yang mahal. Chipnya nyaris hanya pelengkap.
+Orang mengira ada sesuatu yang eksotis di dalam Amiibo. Semacam kepingan silikon buatan Nintendo yang tidak bisa Anda beli di tempat lain. Tidak ada. Yang tersegel di dalam alas figur itu adalah sebuah [NTAG215](/id/affiliate-links/) - chip stiker kosong yang sama yang saya baca dan tulis setiap hari, jenis yang dijual sepuluh dalam satu paket dengan harga receh. Memori sekitar 540 byte, sebuah nomor seri yang ditanamkan di pabrik, dan itulah keseluruhan figurnya. Plastiknya adalah bagian yang mahal. Chipnya nyaris hanya pelengkap.
 
 Justru itulah yang mengganjal saya begitu lama. Saya membaca dan menulis tag NFC untuk mencari nafkah, dan ada satu kategori penuh dari tag itu - segelintir figur di rak dekat meja saya - yang justru diabaikan begitu saja oleh aplikasi saya sendiri. Saya ingin NFC.cool menjadi aplikasi NFC paling mumpuni yang bisa Anda pasang di ponsel, yang tidak menyisakan satu jenis tag pun.
 
@@ -22,7 +22,7 @@ Jadi saya duduk, dengan figur di satu sisi dan Switch saya di sisi lain, lalu me
 
 ## Di mana letak keajaibannya?
 
-Jika chipnya sebiasa ini, keajaibannya jelas bukan pada silikonnya. Melainkan pada byte-nya. Amiibo sebenarnya adalah buku catatan murah yang ditulisi Nintendo dengan kode rahasia, lalu ditandatangani di bagian bawah agar Anda bisa membedakan yang palsu dari yang asli. (Chipnya sendiri hanyalah [NTAG215](/blog/nfc-tag-types-for-iphones/) biasa, jika Anda ingin penjelasan lebih mendalam tentang jenis-jenis tag.)
+Jika chipnya sebiasa ini, keajaibannya jelas bukan pada silikonnya. Melainkan pada byte-nya. Amiibo sebenarnya adalah buku catatan murah yang ditulisi Nintendo dengan kode rahasia, lalu ditandatangani di bagian bawah agar Anda bisa membedakan yang palsu dari yang asli. (Chipnya sendiri hanyalah [NTAG215](/id/blog/nfc-tag-types-for-iphones/) biasa, jika Anda ingin penjelasan lebih mendalam tentang jenis-jenis tag.)
 
 Ada dua hal yang tersimpan dalam byte-byte itu. Yang pertama terbuka: sebuah blok kecil yang menyatakan karakter apa ini - Link, dari seri Legend of Zelda, dalam jajaran Amiibo tertentu. Itulah bagian yang dibaca Switch Anda untuk tahu bahwa sebuah figur baru saja disentuhkan. Bagian kedua terkunci: data simpanan yang sebenarnya, seperti nama panggilan, Mii milik pemilik, berapa kali figur itu telah digunakan, dan apa pun yang dicoret-coretkan game yang sedang berjalan ke dalam ruang catatan kecil yang boleh digunakannya. Bagian itu terenkripsi, dan ditandatangani.
 
@@ -42,7 +42,7 @@ Untuk membuat salinan yang sah, Anda harus menurunkan ulang kunci terhadap tag t
 
 Tiga hal, dalam urutan yang mungkin akan Anda gunakan.
 
-**Baca.** Tempelkan Amiibo ke bagian belakang ponsel Anda, sama seperti saat Anda [membaca tag NFC apa pun](/features/nfc-reader-writer/), dan NFC.cool langsung mengidentifikasinya: karakternya, seri game-nya, seri Amiibo-nya, jenis figurnya, dan gambar karyanya, beserta beberapa fakta dari tag itu sendiri, seperti berapa kali ia telah ditulis. Untuk ini tidak dibutuhkan kunci. Mengidentifikasi figur hanya menyentuh bagian yang memang sudah terbuka.
+**Baca.** Tempelkan Amiibo ke bagian belakang ponsel Anda, sama seperti saat Anda [membaca tag NFC apa pun](/id/features/nfc-reader-writer/), dan NFC.cool langsung mengidentifikasinya: karakternya, seri game-nya, seri Amiibo-nya, jenis figurnya, dan gambar karyanya, beserta beberapa fakta dari tag itu sendiri, seperti berapa kali ia telah ditulis. Untuk ini tidak dibutuhkan kunci. Mengidentifikasi figur hanya menyentuh bagian yang memang sudah terbuka.
 
 **Koleksi.** Setiap Amiibo yang Anda pindai disimpan ke My Collection, sebuah kisi sederhana berisi semua yang Anda miliki. Semuanya tersimpan di perangkat Anda - di iPhone, koleksi itu tersinkronisasi ke perangkat Apple Anda yang lain melalui iCloud - dan gambar karyanya di-cache sehingga koleksi tetap tampil benar saat Anda offline. Itu saja sudah mengubah rak kecil saya yang menyedihkan menjadi sesuatu yang benar-benar bisa saya telusuri.
 

@@ -2,13 +2,14 @@
 id: nfc-blog-029
 title: "按职业分类的电子名片"
 date: 2026-05-17
+lastModified: "2026-11-05"
 tags: ["business-cards", "industry", "guides"]
 summary: "纸质名片辜负了每一种职业，但它辜负每一种的方式各不相同。一份面向房地产经纪人、医疗从业者和顾问的电子名片实用指南：该分享什么、该看重什么，以及如何挑选一款 App。"
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
 imageAlt: "一位专业人士正从手机上分享一张电子名片"
 author: "Nicolo Stanciu"
 metaTitle: "按职业分类的电子名片：2026 指南"
-metaDescription: "房地产经纪人、医生和顾问如何使用电子名片：纸质名片给每种职业带来的痛点、你的名片上该放些什么，以及如何挑选一款 NFC 电子名片 App。"
+metaDescription: "纸质名片辜负每种职业的方式各不相同。这份指南写给房地产经纪人、医疗从业者和顾问：纸质名片带来的痛点、你的名片上该放些什么，以及如何挑选一款 NFC 电子名片 App，还回答了关于二维码、多张名片和费用的常见问题。"
 ogTitle: "按职业分类的电子名片"
 ogDescription: "房地产、医疗、咨询：纸质名片辜负每一种职业的方式各不相同。一份实用而坦诚的数字化指南。"
 ---
@@ -16,7 +17,7 @@ ogDescription: "房地产、医疗、咨询：纸质名片辜负每一种职业�
 
 大多数情况下并非如此。但纸质名片辜负他们的*原因*，确实因职业而异。房地产经纪人和医院医生都不再满足于纸质名片，但理由截然不同。
 
-所以，与其再写一篇“纸质名片已死”的文章，我换了一种贴合大家实际思考方式的组织方法：按职业来。本文分为三个部分（房地产、医疗、独立咨询），之后是适用于所有人的内容，包括对我自己的 App 适合用在哪、不适合用在哪的坦诚审视。
+所以，与其再写一篇“纸质名片已死”的文章，我换了一种贴合大家实际思考方式的组织方法：按职业来。本文分为三个部分（房地产、医疗、独立咨询），之后是适用于所有人的内容，包括我自己的 App 适合用在哪里。
 
 ---
 
@@ -130,7 +131,7 @@ ogDescription: "房地产、医疗、咨询：纸质名片辜负每一种职业�
 - **NFC 和二维码，两个都要。** NFC 当面用更快、更让人印象深刻；二维码则通用，能用在印刷的标牌、宣传单、幻灯片上。你两个都想要，而不是把其中一个做成付费附加项。
 - **多张名片。** 不同的角色、不同的活动、不同的受众。如果你身兼多职，这一点没得商量。
 - **多语言**，如果你跨国工作的话，指的是名片内容，而不只是 App 的界面。
-- **你能讲清楚的隐私政策。** 有些平台会给查看你名片的人发邮件，或者记录对话。如果你的名片服务商骚扰你的联系人，这就反映到了你身上。在你下定决心之前先读一遍隐私政策。
+- **你能讲清楚的隐私政策。** 问问平台是否会给查看你名片的人发邮件、是否会录制对话。如果你的名片服务商骚扰你的联系人，这就反映到了你身上。在你下定决心之前先读一遍隐私政策。
 - **不被硬件绑定。** 很多公司在卖专有的、30 到 60 美元的 NFC 名片。一枚你自己编程的 2 美元 NFC 贴纸能完成同样的活儿。
 - **诚实的定价。** 当只有你一个人时，企业级 SSO 和团队仪表盘毫无意义。寻找一个真正的免费档或者一份负担得起的个人套餐。
 
@@ -138,33 +139,30 @@ ogDescription: "房地产、医疗、咨询：纸质名片辜负每一种职业�
 
 ## NFC.cool Business Card 适合用在哪
 
-充分披露：这是我自己的 App，所以请带着这一点来读接下来这几段。我会尽量坦白地说清它强在哪、不强在哪。
+充分披露：这是我自己的 App，所以请带着这一点来读接下来这几段。
 
-NFC.cool Business Card 在 iPhone 和 Android 上都是一款独立 App。对于上面这些职业，它做得好的地方有：
+[NFC.cool Business Card](/zh/business-card/) 在 iPhone 和 Android 上都是一款独立 App。对于上面这些职业，它做得好的地方有：
 
-- App 界面和 App Clip 支持 **35 种语言**，比我所知的任何其他电子名片都多。在 iOS 上，你的名片会以客户的语言显示。（Android 的分享网站目前只有英文。）
+- App 界面和 App Clip 支持 **35 种语言**，比我所知的任何其他电子名片都多。在 iOS 上，名片周围的按钮和标签会跟随客户的语言。
 - **接收你名片的人无需 App。** 在 iPhone 上他们看到的是原生的 App Clip；在 Android 上是 nfc.cool 域名下的一个页面。两者都有一个“保存联系人”按钮。
 - **NFC 轻触和二维码**，外加一个可直接分享的纯链接，用于聊天和邮件签名。
 - **会议模式（Conference Mode）**：把你名片的二维码固定在锁屏上，整个活动日全程有效，iPhone 和 Android 都支持，在 iPhone 上以实时活动（Live Activity）的形式运行。你抬起手机，对方扫描，搞定。无需解锁，也无需在 Apple Wallet 里翻找。也有 Wallet 集成作为另一种选择。
-- **最多 100 张名片**，所以上面那条“每个角色一张名片”的建议是真正可行的。
+- **Pro 最多 10 张名片**，所以上面那条“每个角色一张名片”的建议是真正可行的。
 - **PIN 码保护的名片**，用于任何敏感内容。
-- **隐私优先**：不做数据变现或广告，不向接收方推销，不录制对话，提供符合 GDPR 的数据导出。
+- **隐私**：NFC.cool 不出售你的数据，App 没有广告，不录制对话，你还可以把全部内容导出为 ZIP。NFC.cool 不会向查看你名片的人发送营销信息。在 Team 方案上，你的团队可以给通过线索表单留下信息的人发送跟进邮件。
 - **任何 NFC 标签都能用。** 我不卖硬件，把你的名片写到一枚你已经拥有的贴纸上即可。
-- **定价**：有一个免费档，然后是个人版（Personal）每年 20 欧元（1 张名片）、小型企业版（Small Business）每年 50 欧元（10 张名片）、企业版（Business）每年 100 欧元（100 张名片）。
+- **定价**：Free 方案含一张名片，然后是 Personal 每年 $19.99（1 张名片）、Pro 每年 $49.99（10 张名片），以及 [Team](/zh/business-card/teams/) 每人每年 $50 或每月 $5（每人最多 10 张名片）。以欧元计价时，团队价格的数字相同。
+- **面向团队**：Team 方案可连接 HubSpot，通过 Webhook 把线索发到任何地方，还有带角色和邀请的网页仪表盘。单点登录和目录同步可[按需开通](/zh/contact/)。
+- **原生 App 和创始人支持**：它为 iPhone 和 Android 原生打造，没有风投背景，你有问题时，回复你的是我。
 
-竞争对手确实领先的地方：
+对一名经纪人、一位医生或一个单干者来说，日常真正要紧的是分享够快、名片看起来像*你本人*，并且日后不会让你尴尬。这正是我做它的初衷。
 
-- **CRM 集成。** 如果你的日常工作离不开 HubSpot 或 Salesforce，那么 Wave Connect 或 Blinq 这类 App 能原生同步联系人。NFC.cool 则提供完整的数据导出，暂时还没有 webhook。
-- **企业团队管理。** 如果你是一家 50 人的公司，需要管理员仪表盘和目录同步，那不是 NFC.cool 为之打造的东西。
-
-坦白的说法是：对一名经纪人、一位医生或一个单干者来说，日常真正要紧的是分享够快、名片看起来像*你本人*，并且日后不会让你尴尬。这正是我做它的初衷。如果你需要一个焊死在名片上的销售 CRM，那就去买能做这件事的工具。
-
-你可以[在 App Store 上获取 NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8)，或者[在 Google Play 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en)。
+你可以[在 App Store 上获取 NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-zh&mt=8)，或者[在 Google Play 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-zh)。
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>NFC.cool Business Card 实际用起来</figcaption>
 <ol>
-<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="我的名片，共三张：AlexBerger、Conference 和 Speaking"><p><strong>一个角色一张名片。</strong>最多 100 张，每张都有自己的样式和链接。</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="我的名片，共三张：AlexBerger、Conference 和 Speaking"><p><strong>一个角色一张名片。</strong>Pro 最多 10 张，每张都有自己的样式和链接。</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="Business Card 标签页，显示名片的二维码，以及名片、潜在客户、联系人和设置的菜单"><p><strong>分享出去。</strong>用 NFC 轻触、二维码或一个普通链接。</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="个人资料设置：公开名片或带 PIN 的私密名片，以及保存前或保存后收集潜在客户信息"><p><strong>规则你来定。</strong>公开还是 PIN 保护，什么时候收集潜在客户，都由你决定。</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="潜在客户列表，每条标着 Qualified、New、Contacted 或 Converted"><p><strong>持续跟进。</strong>所有潜在客户都在一个列表里，进展一目了然。</p></li>
@@ -185,7 +183,7 @@ NFC.cool Business Card 在 iPhone 和 Android 上都是一款独立 App。对于
 
 ### 我能为不同的角色准备不同的名片吗？
 
-能，而且你应该这么做。一张带房源地址的开放参观名片、一张带预约台的转诊名片、一张带你演讲详情的会议名片，全都来自同一个账户，每张都能单独更新。
+能，而且你应该这么做。一张带房源地址的开放参观名片、一张带预约台的转诊名片、一张带你演讲详情的会议名片，全都来自同一个账户，每张都能单独更新。在 NFC.cool Business Card 上，这需要 Pro 方案。
 
 ### 它对国际客户管用吗？
 
@@ -193,7 +191,7 @@ NFC 和二维码在全球的手机上都能用。至于*名片本身*是否会�
 
 ### 我能看到谁查看了我的名片吗？这些数据安全吗？
 
-有些 App 会向你显示查看记录；有些更进一步，会向看过你名片的人做营销。后一种行为是个问题，你的潜在客户应该收到来自你的消息，而不是来自你的名片供应商。NFC.cool 在 iPhone 和 Android 上都提供分析，并且从不向接收方推销。
+有些 App 会向你显示查看记录。选择之前，先查一下它是否还会向看过你名片的人做营销：你的潜在客户应该收到来自你的消息，而不是来自你的名片供应商。NFC.cool 的付费方案以数字而不是姓名显示浏览量、保存数和链接点击数，iPhone 和 Android 都一样，而且 NFC.cool 不会向查看你名片的人发送营销信息。在 Team 方案上，你自己的团队可以给通过线索表单留下信息的人发邮件。
 
 ### 它实际要花多少钱？
 
@@ -207,4 +205,4 @@ NFC 和二维码在全球的手机上都能用。至于*名片本身*是否会�
 
 电子名片跟得上这种变动。挑一款对方那一端无需 App、支持 NFC 和二维码、并且尊重你联系人数据的，然后就彻底别再去操心名片这件事了。这才是真正的胜利。
 
-如果你想试试我的，NFC.cool Business Card 可免费开始使用，支持 [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en)。
+如果你想试试我的，NFC.cool Business Card 可免费开始使用，支持 [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-zh)。

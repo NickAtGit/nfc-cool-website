@@ -684,6 +684,55 @@ body.sk-mobile-menu-open { overflow: hidden; }
    .sk-lang-picker + .sk-theme-toggle { margin-left: 0; }
 }
 
+/* Russian and Ukrainian: with Teams in the nav, their longer labels only fit on
+   one line from about 1590px up, so they keep the burger up to there. Same rules
+   as the block above, for those two languages. */
+@media (min-width: 1200px) and (max-width: 1599px) {
+   html[lang^="ru"] .sk-site-nav,
+   html[lang^="uk"] .sk-site-nav { gap: 0.5rem; padding: 0 var(--container-padding); }
+   html[lang^="ru"] .sk-nav-toggle,
+   html[lang^="uk"] .sk-nav-toggle { display: inline-flex; }
+   html[lang^="ru"] .sk-lang-picker,
+   html[lang^="uk"] .sk-lang-picker { margin-left: auto; }
+   html[lang^="ru"] .sk-nav-list,
+   html[lang^="uk"] .sk-nav-list {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      gap: 0;
+      padding: 0.5rem 1rem 1.25rem;
+      background: var(--color-bg);
+      border-top: 1px solid var(--color-border-light);
+      box-shadow: 0 14px 30px var(--color-shadow-lg);
+      max-height: calc(100vh - var(--header-height));
+      overflow-y: auto;
+      animation: skNavSlideDown 0.18s ease both;
+      z-index: 60;
+   }
+   html[lang^="ru"] .sk-nav-list.sk-nav-open,
+   html[lang^="uk"] .sk-nav-list.sk-nav-open { display: flex; }
+   html[lang^="ru"] .sk-nav-item,
+   html[lang^="uk"] .sk-nav-item { width: 100%; }
+   html[lang^="ru"] .sk-nav-item a,
+   html[lang^="uk"] .sk-nav-item a {
+      display: block;
+      width: 100%;
+      padding: 0.875rem 0.75rem;
+      font-size: 1rem;
+      border-bottom: 1px solid var(--color-border-light);
+      border-radius: 0;
+   }
+   html[lang^="ru"] .sk-nav-item:last-child a,
+   html[lang^="uk"] .sk-nav-item:last-child a { border-bottom: 0; }
+   html[lang^="ru"] .sk-lang-picker + .sk-theme-toggle,
+   html[lang^="uk"] .sk-lang-picker + .sk-theme-toggle { margin-left: 0; }
+}
+
 @media (max-width: 768px) {
    /* Footer stacks centered on mobile */
    .sk-footer-inner {

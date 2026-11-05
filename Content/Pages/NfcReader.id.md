@@ -36,7 +36,7 @@ Saya membuat ini agar Anda bisa membaca tag NFC langsung dari browser - tanpa ap
 <p class="nfc-reader-title">Baca tag NFC</p>
 <p class="nfc-reader-lead">Ketuk tombol, lalu dekatkan tag ke bagian atas ponsel Anda. Saya akan menampilkan isinya.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Baca NFC</span></button>
-<p class="nfc-reader-fineprint">Ingin pengalaman NFC native dengan lebih banyak fungsi? <a href="/features/nfc-reader-writer/">Dapatkan aplikasi NFC.cool!</a></p>
+<p class="nfc-reader-fineprint">Ingin pengalaman NFC native dengan lebih banyak fungsi? <a href="/id/features/nfc-reader-writer/">Dapatkan aplikasi NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -110,7 +110,7 @@ Saya membuat ini agar Anda bisa membaca tag NFC langsung dari browser - tanpa ap
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Tulis ke Tag</span></button>
-<p class="nfc-reader-fineprint">Ingin pengalaman NFC native dengan lebih banyak fungsi? <a href="/features/nfc-reader-writer/">Dapatkan aplikasi NFC.cool!</a></p>
+<p class="nfc-reader-fineprint">Ingin pengalaman NFC native dengan lebih banyak fungsi? <a href="/id/features/nfc-reader-writer/">Dapatkan aplikasi NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -253,19 +253,19 @@ Pembaca di halaman ini menangani pekerjaan sehari-hari - membaca tag dan menulis
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
 <h3>Enkripsi rahasia dengan NFC Safe</h3>
-<p>NFC Safe mengenkripsi rahasia langsung ke chip dengan AES-256, sehingga tag terbaca sebagai data acak oleh aplikasi lain. <a href="/blog/nfc-safe-encrypted-secrets/">Cara kerja NFC Safe</a>.</p>
+<p>NFC Safe mengenkripsi rahasia langsung ke chip dengan AES-256, sehingga tag terbaca sebagai data acak oleh aplikasi lain. <a href="/id/blog/nfc-safe-encrypted-secrets/">Cara kerja NFC Safe</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
 <h3>Otomatiskan apa yang dilakukan satu ketukan</h3>
-<p>Sebuah tag bisa memicu webhook, menjalankan iOS Shortcut, membacakan isinya dengan suara, atau menghitung seberapa sering dipindai. <a href="/blog/count-nfc-tag-scans/">Cara menghitung pemindaian tag NFC</a>.</p>
+<p>Sebuah tag bisa memicu webhook, menjalankan iOS Shortcut, membacakan isinya dengan suara, atau menghitung seberapa sering dipindai. <a href="/id/blog/count-nfc-tag-scans/">Cara menghitung pemindaian tag NFC</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
 <h3>Klon, reset, dan periksa tag</h3>
-<p>Klon tag, buang dan identifikasi memori chip mentahnya, atau program ulang perangkat keras berkunci NFC seperti <a href="/blog/openprinttag-read-write-nfc-spools-phone/">gulungan filamen printer 3D</a> dan <a href="/blog/reset-sonicare-brush-head-nfc/">kepala sikat gigi elektrik</a>.</p>
+<p>Klon tag, buang dan identifikasi memori chip mentahnya, atau program ulang perangkat keras berkunci NFC seperti <a href="/id/blog/openprinttag-read-write-nfc-spools-phone/">gulungan filamen printer 3D</a> dan <a href="/id/blog/reset-sonicare-brush-head-nfc/">kepala sikat gigi elektrik</a>.</p>
 </article>
 
 </div>
@@ -302,7 +302,7 @@ Apple memblokir NFC di setiap browser iOS, sehingga tidak ada situs web yang bis
 
 <details class="faq-item">
 <summary>Bisakah saya menulis jaringan Wi-Fi atau kartu kontak ke tag?</summary>
-<p>Ya. Pilih Jaringan Wi-Fi atau Kartu kontak di dropdown Tulis dan isi kolom yang tersedia. Tag Wi-Fi akan meminta ponsel Android untuk bergabung ke jaringan; tag kontak menyimpan vCard standar yang ditawarkan ponsel untuk disimpan.</p>
+<p>Ya. Pilih Jaringan Wi-Fi atau Kartu kontak di dropdown Tulis dan isi kolom yang tersedia. Tag Wi-Fi akan meminta ponsel Android untuk bergabung ke jaringan; tag kontak menyimpan vCard standar yang ditawarkan ponsel Android untuk disimpan. Ingin kartu yang bisa diperbarui setelah ditulis? <a href="/id/business-card/">NFC.cool Business Card</a> menaruh tautan di tag, jadi detail Anda tetap bisa diedit nanti.</p>
 </details>
 
 <details class="faq-item">
@@ -331,8 +331,8 @@ Apple memblokir NFC di setiap browser iOS, sehingga tidak ada situs web yang bis
 Halaman ini mencakup dasar-dasar di browser. Aplikasi NFC.cool gratis melangkah lebih jauh - membaca tag apa pun dan menulis 25+ jenis data: tautan, Wi-Fi, kontak, shortcut, dan lainnya, di iPhone maupun Android. Saya membangun dan memeliharanya sendiri.
 
 <div class="tap-cta-buttons">
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Lihat Pembaca & Penulis NFC</a>
-<a href="/blog/nfc-tags-beginners-guide/" class="landing-cta-button">Baru mengenal tag NFC? Mulai di sini</a>
+<a href="/id/features/nfc-reader-writer/" class="landing-cta-button">Lihat Pembaca & Penulis NFC</a>
+<a href="/id/blog/nfc-tags-beginners-guide/" class="landing-cta-button">Baru mengenal tag NFC? Mulai di sini</a>
 </div>
 
 </section>

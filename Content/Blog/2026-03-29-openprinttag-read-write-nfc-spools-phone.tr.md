@@ -70,7 +70,7 @@ Belirtim, reçineye özel `last_stir_time` gibi alanları bile kapsıyor; bu ala
 
 ## Tag: alışıldık NFC etiketi değil
 
-Bir şey satın almadan önce belirteceğim teknik bir ayrıntı var: **OpenPrintTag, ISO 15693 (NFC-V) tag'leri için tasarlandı**, özellikle de **NXP ICODE SLIX ve ICODE SLIX2** çipleri için. Bunlar NFC Forum Tip 5 tag'ler ve standart NFC-A tag'lerine göre belirgin biçimde daha uzun okuma menzilleri var; özel bir okuyucuyla 1,5 metreye kadar. Şimdiye dek yalnızca çoğu projenin kullandığı ucuz NTAG etiketlerinden aldıysan bu farklı bir tag ailesi; tüm manzarayı [iPhone için NFC tag türleri](/blog/nfc-tag-types-for-iphones/) yazısında anlatıyorum.
+Bir şey satın almadan önce belirteceğim teknik bir ayrıntı var: **OpenPrintTag, ISO 15693 (NFC-V) tag'leri için tasarlandı**, özellikle de **NXP ICODE SLIX ve ICODE SLIX2** çipleri için. Bunlar NFC Forum Tip 5 tag'ler ve standart NFC-A tag'lerine göre belirgin biçimde daha uzun okuma menzilleri var; özel bir okuyucuyla 1,5 metreye kadar. Şimdiye dek yalnızca çoğu projenin kullandığı ucuz NTAG etiketlerinden aldıysan bu farklı bir tag ailesi; tüm manzarayı [iPhone için NFC tag türleri](/tr/blog/nfc-tag-types-for-iphones/) yazısında anlatıyorum.
 
 Neden NFC-V? Yazıcının yerleşik NFC okuyucusunun makarayı hangi konumda dönmüş olursa olsun algılaması gerekiyor. NFC-V'nin uzun menzili bunu, tag'i hassas biçimde hizalamaya gerek kalmadan mümkün kılıyor; akıllıca bir tasarım.
 
@@ -107,7 +107,7 @@ NFC.cool Tools, OpenPrintTag'i hem [iOS](https://apps.apple.com/app/apple-store/
 **Kalan malzemeyi güncellemek:**
 Baskıdan sonra tag'deki tüketilen ağırlık alanını güncelle. Bir dahaki okutmanda ne kadar filament kaldığını tam olarak bilirsin; tahmin yok, tartı yok. Akıllı makarayı ilginç bir oyuncaktan gerçekten güvendiğim bir şeye çeviren kısım bu.
 
-Kapağın altına bakmak istersen Uzman Modu ile ham NDEF kayıtlarını inceleyebilirsin; bir tag'de sorun ararken ya da veri yapısını doğrularken işe yarıyor. Genel olarak tag yazmaya yeniysen temelleri [iPhone'da NFC tag nasıl yazılır](/blog/write-nfc-tags-iphone/) yazısında anlatıyorum.
+Kapağın altına bakmak istersen Uzman Modu ile ham NDEF kayıtlarını inceleyebilirsin; bir tag'de sorun ararken ya da veri yapısını doğrularken işe yarıyor. Genel olarak tag yazmaya yeniysen temelleri [iPhone'da NFC tag nasıl yazılır](/tr/blog/write-nfc-tags-iphone/) yazısında anlatıyorum.
 
 ---
 
@@ -159,6 +159,6 @@ OpenPrintTag hâlâ genç ama ivme gerçek:
 - Boş ICODE SLIX2 ya da ISO 15693 NFC tag'ler ([Amazon ABD](https://amzn.to/3LTh1fT) / [Amazon Avrupa](https://amzn.to/4oJpQr4), ortaklık bağlantıları)
 - Etiketlenecek birkaç filament makarası
 
-Hepsi bu. Bundan beş dakika sonra ilk makaran akıllı olabilir. NFC'nin kendisi sana yeniyse önce [sıfırdan başlayanlar için NFC tag rehberime](/blog/nfc-tags-beginners-guide/) yönlendiririm; [NFC okuma ve yazma özellik sayfası](/features/nfc-reader-writer/) ise NFC.cool Tools'un OpenPrintTag dışında neler yapabildiğini anlatıyor.
+Hepsi bu. Bundan beş dakika sonra ilk makaran akıllı olabilir. NFC'nin kendisi sana yeniyse önce [sıfırdan başlayanlar için NFC tag rehberime](/tr/blog/nfc-tags-beginners-guide/) yönlendiririm; [NFC okuma ve yazma özellik sayfası](/tr/features/nfc-reader-writer/) ise NFC.cool Tools'un OpenPrintTag dışında neler yapabildiğini anlatıyor.
 
 *OpenPrintTag, Prusa Research'ün açık kaynaklı bir girişimi. NFC.cool standardın bağımsız bir destekçisi. Daha fazlası için [openprinttag.org](https://openprinttag.org).*

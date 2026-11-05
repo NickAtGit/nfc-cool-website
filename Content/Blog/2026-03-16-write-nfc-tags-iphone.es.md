@@ -15,7 +15,7 @@ La mayoría de la gente sabe que su iPhone puede *leer* etiquetas NFC - tocar pa
 
 Llevo años desarrollando NFC.cool, una app para leer y grabar etiquetas NFC, y grabar es genuinamente la parte de la que nunca me canso. ¿Quieres una etiqueta en tu mesita de noche que silencie el móvil y configure una alarma? ¿Una etiqueta en tu escritorio que abra tu lista de reproducción del trabajo? ¿Una etiqueta en la puerta que comparta tu contraseña de Wi-Fi con los invitados? Tu iPhone puede programar todo eso, y una vez que lo hayas hecho una vez te preguntarás por qué esperaste tanto.
 
-Esta es la guía que le daría a un amigo que acaba de comprar su primer pack de etiquetas: qué necesitas, cómo grabar los distintos tipos de datos y los proyectos prácticos que yo mismo montaría en minutos. Si eres completamente nuevo en la tecnología, mi [guía completa para principiantes sobre etiquetas NFC](/blog/nfc-tags-beginners-guide/) cubre primero las bases.
+Esta es la guía que le daría a un amigo que acaba de comprar su primer pack de etiquetas: qué necesitas, cómo grabar los distintos tipos de datos y los proyectos prácticos que yo mismo montaría en minutos. Si eres completamente nuevo en la tecnología, mi [guía completa para principiantes sobre etiquetas NFC](/es/blog/nfc-tags-beginners-guide/) cubre primero las bases.
 
 ---
 
@@ -27,11 +27,11 @@ Solo necesitas tres cosas para empezar a grabar, y ninguna es cara.
 
 Para grabar etiquetas NFC necesitas un **iPhone 7 o posterior** con **iOS 13 o superior**. Si compraste tu iPhone en los últimos ocho años, lo tienes cubierto.
 
-Para la mejor experiencia, yo optaría por un iPhone con **lectura NFC en segundo plano** (iPhone XS en adelante). Estos modelos pueden leer etiquetas NFC sin abrir primero una app, lo que hace que las etiquetas que grabas sean mucho más agradables de usar. Si quieres saber exactamente cómo gestiona el hardware del iPhone todo esto, profundicé en el tema en [una mirada por dentro al NFC en los iPhones](/blog/nfc-on-iphones-insider-look/).
+Para la mejor experiencia, yo optaría por un iPhone con **lectura NFC en segundo plano** (iPhone XS en adelante). Estos modelos pueden leer etiquetas NFC sin abrir primero una app, lo que hace que las etiquetas que grabas sean mucho más agradables de usar. Si quieres saber exactamente cómo gestiona el hardware del iPhone todo esto, profundicé en el tema en [una mirada por dentro al NFC en los iPhones](/es/blog/nfc-on-iphones-insider-look/).
 
 ### 2. Etiquetas NFC en blanco
 
-Puedes [comprar etiquetas NFC en blanco](/affiliate-links/) en línea por tan solo **0,30-1,00 € cada una**. Vienen en varios formatos:
+Puedes [comprar etiquetas NFC en blanco](/es/affiliate-links/) en línea por tan solo **0,30-1,00 € cada una**. Vienen en varios formatos:
 
 | Formato | Ideal para |
 |-------------|----------|
@@ -49,13 +49,13 @@ Si me pides que elija uno, para la mayoría de los proyectos la **NTAG216** es l
 - **NTAG215** (504 bytes) - Suficiente para tarjetas de contacto, credenciales de Wi-Fi y múltiples registros.
 - **NTAG216** (888 bytes) - La mejor para todo. El mayor margen para tarjetas de contacto, credenciales de Wi-Fi y contenido más largo, como vCards detalladas - lo que recomiendo para la mayoría de los proyectos.
 
-Si no estás seguro, empieza con un pack mixto de pegatinas NTAG216 y deja de complicarte - cubren el 90 % de los casos de uso. Para el repaso completo chip a chip, incluidos los tipos que los iPhones prefieren, escribí [una guía sobre los tipos de etiquetas NFC para iPhones](/blog/nfc-tag-types-for-iphones/).
+Si no estás seguro, empieza con un pack mixto de pegatinas NTAG216 y deja de complicarte - cubren el 90 % de los casos de uso. Para el repaso completo chip a chip, incluidos los tipos que los iPhones prefieren, escribí [una guía sobre los tipos de etiquetas NFC para iPhones](/es/blog/nfc-tag-types-for-iphones/).
 
 ### 3. Una app de grabación NFC
 
 Tu iPhone necesita una app para grabar datos en etiquetas. El soporte NFC integrado de Apple gestiona la lectura, pero para grabar necesitas una app dedicada.
 
-Esta es la parte en la que he invertido años, así que voy a ser transparente sobre mi sesgo: **[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** está diseñada específicamente para esto, tanto en iPhone como en [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en). Soporta la escritura de todos los tipos de registro NDEF estándar - URLs, texto, configuraciones de Wi-Fi, contactos y más - con una interfaz limpia que muestra exactamente cuánta memoria de la etiqueta estás usando. También permite bloquear etiquetas, leer detalles técnicos y automatizar la grabación mediante Atajos de iOS. Puedes ver la lista completa de funciones en la [página del lector y grabador NFC](/features/nfc-reader-writer/).
+Esta es la parte en la que he invertido años, así que voy a ser transparente sobre mi sesgo: **[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** está diseñada específicamente para esto, tanto en iPhone como en [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en). Soporta la escritura de todos los tipos de registro NDEF estándar - URLs, texto, configuraciones de Wi-Fi, contactos y más - con una interfaz limpia que muestra exactamente cuánta memoria de la etiqueta estás usando. También permite bloquear etiquetas, leer detalles técnicos y automatizar la grabación mediante Atajos de iOS. Puedes ver la lista completa de funciones en la [página del lector y grabador NFC](/es/features/nfc-reader-writer/).
 
 Existen otras opciones (como la app Atajos de Apple para escritura básica de URLs), pero una app NFC dedicada te da más control sobre qué grabas y cómo.
 
@@ -76,7 +76,7 @@ Voy a empezar por donde empiezo con todo el mundo: grabar una URL en una etiquet
 
 Eso es todo. Cualquiera que acerque su móvil a esa etiqueta será llevado a tu URL - sin app, sin código QR que escanear. La primera vez que vi la cara de un compañero cuando una pegatina en blanco abrió un sitio web, supe que esa era la demostración con la que había que empezar.
 
-**Consejo pro:** La antena NFC en los iPhones está en el **borde superior** del móvil, cerca de la cámara. Para la conexión más fuerte, apoya la parte superior de tu iPhone directamente sobre la etiqueta. Si quieres comprobar lo que grabaste sin una app, puedes [leer etiquetas NFC directamente desde el navegador](/online-nfc-reader/) en Android.
+**Consejo pro:** La antena NFC en los iPhones está en el **borde superior** del móvil, cerca de la cámara. Para la conexión más fuerte, apoya la parte superior de tu iPhone directamente sobre la etiqueta. Si quieres comprobar lo que grabaste sin una app, puedes [leer etiquetas NFC directamente desde el navegador](/es/online-nfc-reader/) en Android.
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>Escribir tu primera etiqueta</figcaption>
@@ -135,7 +135,7 @@ Esto es esencialmente lo que hace una tarjeta de visita digital, pero integrado 
 
 **Memoria necesaria:** ~100-400 bytes según el número de campos que incluyas. Usa NTAG215 o NTAG216 para contactos con direcciones y notas.
 
-Un aviso honesto, sacado de los correos de soporte que recibo: las vCards en bruto en una etiqueta pueden comportarse de forma inconsistente en iPhone. Si la tuya no se abre bien, analicé las causas en [por qué tu etiqueta NFC con vCard no funciona en iPhone](/blog/vcard-nfc-iphone-not-working/).
+Un aviso honesto, sacado de los correos de soporte que recibo: las vCards en bruto en una etiqueta pueden comportarse de forma inconsistente en iPhone. Si la tuya no se abre bien, analicé las causas en [por qué tu etiqueta NFC con vCard no funciona en iPhone](/es/blog/vcard-nfc-iphone-not-working/).
 
 **Nota:** Para una experiencia más completa con fotos, enlaces sociales y estadísticas, echa un vistazo a **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** - crea un perfil de tarjeta de visita digital alojado y puede grabar el enlace en cualquier etiqueta NFC. Cuando alguien la toca, los usuarios de iOS ven un App Clip nativo y los de Android abren un sitio web en el dominio nfc.cool - sin app necesaria. En mi propio networking lo he encontrado mucho más fiable que las vCards en bruto.
 
@@ -338,7 +338,7 @@ No. Las etiquetas NFC son **pasivas** - no tienen batería y se alimentan del le
 
 ### ¿Puedo proteger con contraseña una etiqueta NFC?
 
-Sí. NFC.cool Tools puede establecer protección por contraseña en etiquetas NTAG, tanto en iPhone como en Android. Ten en cuenta que esto solo impide que la etiqueta sea **sobreescrita** - no impide que nadie **lea** lo que ya hay en la etiqueta. Si necesitas que el propio contenido sea ilegible sin una clave, lo que buscas son datos cifrados - consulta nuestra guía sobre [NFC Safe](/blog/nfc-safe-encrypted-secrets/). Bloquear una etiqueta es la otra opción: bloquea permanentemente cualquier escritura futura.
+Sí. NFC.cool Tools puede establecer protección por contraseña en etiquetas NTAG, tanto en iPhone como en Android. Ten en cuenta que esto solo impide que la etiqueta sea **sobreescrita** - no impide que nadie **lea** lo que ya hay en la etiqueta. Si necesitas que el propio contenido sea ilegible sin una clave, lo que buscas son datos cifrados - consulta nuestra guía sobre [NFC Safe](/es/blog/nfc-safe-encrypted-secrets/). Bloquear una etiqueta es la otra opción: bloquea permanentemente cualquier escritura futura.
 
 ### ¿Las etiquetas NFC funcionan a través de una funda?
 

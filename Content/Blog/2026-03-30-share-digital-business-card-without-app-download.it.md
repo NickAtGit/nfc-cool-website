@@ -2,6 +2,7 @@
 id: nfc-blog-012
 title: "Condividi il tuo biglietto da visita digitale senza far scaricare un'app a nessuno"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "Il tuo biglietto da visita digitale deve funzionare subito per chi lo riceve, senza download e senza attriti. Ecco come ci riescono le App Clip e i profili web immediati."
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
@@ -57,7 +58,7 @@ Ecco cosa succede:
 4. **Salvataggio con un tocco:** il pulsante "Salva contatto" sta in fondo allo schermo, proprio dove arriva il pollice. Un tocco e finisce tutto nell'app Contatti
 5. **Nella sua lingua:** l'App Clip parla 35 lingue e si adatta da sola a quella del dispositivo di chi riceve. Passa il biglietto a qualcuno a Tokyo, San Paolo o Berlino e lo vedrà nella propria lingua
 
-Nessun account da creare. Nessuna richiesta di registrazione. Nessuna pubblicità. Nessun link di tracciamento. Solo i tuoi recapiti, salvati in pochi secondi.
+Nessun account da creare. Niente a cui iscriversi. Nessuna pubblicità. Nessun link di tracciamento. Solo i tuoi recapiti, salvati in pochi secondi.
 
 Dopo il salvataggio compare un invito discreto a crearsi un biglietto NFC.cool. Tutto qui: nessuna insistenza, nessuna registrazione obbligata.
 
@@ -89,10 +90,10 @@ A rendere davvero buona questa esperienza non è solo ciò che c'è, ma soprattu
 
 Quando qualcuno riceve il tuo biglietto NFC.cool:
 
-- **niente pubblicità:** la pagina del profilo non promuove NFC.cool e non mostra annunci di terze parti
+- **niente pubblicità:** la pagina del profilo non mostra annunci di terze parti. Un biglietto Free riporta in fondo una piccola riga "Made with NFC.cool", che i piani a pagamento tolgono
 - **niente reindirizzamenti di tracciamento:** i tuoi link restano i tuoi link, non vengono incapsulati in indirizzi di analisi
-- **niente sollecitazioni:** chi riceve il biglietto non si vede arrivare email di NFC.cool che lo invitano a registrarsi
-- **niente raccolta di dati:** i dati di chi riceve non finiscono nel marketing
+- **niente marketing da NFC.cool:** NFC.cool non invia marketing a chi guarda il tuo biglietto. Con il piano Team, il tuo team può inviare email di follow-up a chi lascia i propri dati nel tuo modulo per i lead
+- **niente vendita di dati:** NFC.cool non vende i tuoi dati né quelli di chi guarda il tuo biglietto
 
 Conta più di quanto si pensi. Il biglietto da visita è spesso la prima impressione che qualcuno si fa di te. Se avvicinare il telefono porta a una pagina invasa dai banner, o se il giorno dopo arriva dello spam, la figura la fai tu, non solo l'app.
 
@@ -102,7 +103,7 @@ Conta più di quanto si pensi. Il biglietto da visita è spesso la prima impress
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="Il menu del biglietto in NFC.cool Business Card: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card e Add to Apple Wallet"><p><strong>Un tocco per iniziare.</strong> Il Conference Mode sta nel menu del biglietto, accanto a Write to NFC Tag e Add to Apple Wallet.</p></li>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="Il menu del biglietto in NFC.cool Business Card: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card e Add to Apple Wallet"><p><strong>Un tocco per iniziare.</strong> La Modalità Conferenza sta nel menu del biglietto, accanto a Write to NFC Tag e Add to Apple Wallet.</p></li>
 </ol>
 </figure>
 
@@ -124,4 +125,4 @@ Non serve sbloccare il telefono, aprire l'app o cercare il biglietto. Mostri la 
 **Se il biglietto lo ricevi:**
 - niente. È esattamente questo il punto.
 
-*NFC.cool Business Card è disponibile su iOS e Android. Le App Clip sono una funzione di iOS; su Android chi riceve il biglietto vede invece un profilo web immediato.*
+*[NFC.cool Business Card](/it/business-card/) è disponibile su iOS e Android, e la sua pagina elenca cosa comprende ogni piano. Chi riceve il biglietto su iPhone vede un'App Clip nativa, chi lo riceve su Android un profilo web immediato.*

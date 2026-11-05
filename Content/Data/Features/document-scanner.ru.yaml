@@ -49,7 +49,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Синхронизация с iCloud между iPhone, iPad и Mac"
-    body: "<p>Документы синхронизируются через iCloud между всеми устройствами твоей учётной записи. Отсканируй договор на iPhone, перечитай на iPad, подпиши на <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a>: одна библиотека, без экспорта туда-обратно. Вместе с документом едут и исходные снимки, и распознанный текст.</p>"
+    body: "<p>Документы синхронизируются через iCloud между всеми устройствами твоей учётной записи. Отсканируй договор на iPhone, перечитай на iPad, подпиши на <a href=\"/ru/blog/nfc-cool-comes-to-mac/\">Mac</a>: одна библиотека, без экспорта туда-обратно. Вместе с документом едут и исходные снимки, и распознанный текст.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool синхронизируется между iPhone, iPad и Mac"
     platforms: "iOS"

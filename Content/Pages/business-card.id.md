@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# Kartu nama digital NFC.cool
 
-Kartu nama Anda di ponsel, untuk perorangan dan tim. Bagikan dengan ketukan NFC atau kode QR, lalu lihat berapa banyak orang yang menyimpannya.
+Kartu nama digital Anda di ponsel, untuk perorangan dan tim. Bagikan dengan ketukan NFC atau kode QR, lalu lihat berapa banyak orang yang menyimpannya.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-id&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ Kartu nama Anda di ponsel, untuk perorangan dan tim. Bagikan dengan ketukan NFC 
 
 ## Harga
 
-Satu orang atau seluruh tim. Setiap kartu bisa disimpan sebagai kontak, termasuk di Free. Personal dan Pro, yang dibeli di aplikasi, menambahkan prospek, analitik, dan kartu tanpa nama kami. Tim mulai di web, gratis selama 14 hari, lalu membayar per orang, tahunan atau bulanan. Dalam euro, harga tim memakai angka yang sama.
+Satu orang atau seluruh tim. Setiap kartu bisa disimpan sebagai kontak, termasuk di Free. Personal dan Pro, yang dibeli di aplikasi, menambahkan prospek, analitik, dan kartu tanpa nama kami. Tim mulai di web, gratis selama 14 hari, lalu membayar per orang, tahunan atau bulanan. Dalam euro, harga tim memakai angka yang sama. [Lihat harga tim dan perbandingannya](/id/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ Satu orang atau seluruh tim. Setiap kartu bisa disimpan sebagai kontak, termasuk
 <article class="page-card">
 <h3>Kartu nama cerdas</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Pembuatan kartu digital</strong> - buat kartu yang mencerminkan merek Anda</li>
+<li><strong>Kartu nama digital</strong> - buat kartu yang mencerminkan merek Anda</li>
 <li><strong>Hingga 10 kartu dengan Pro</strong> - untuk peran, merek, atau acara yang berbeda</li>
 <li><strong>Impor dari Kontak</strong> - ubah kontak yang ada menjadi kartu</li>
 <li><strong>Selalu terkini</strong> - perubahan langsung terlihat, tidak perlu cetak ulang</li>
@@ -145,7 +145,7 @@ Satu orang atau seluruh tim. Setiap kartu bisa disimpan sebagai kontak, termasuk
 <article class="page-card">
 <h3>Privasi & keamanan</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Profil yang dilindungi PIN</strong> - PIN 4 digit, verifikasi dengan batas percobaan</li>
+<li><strong>Profil yang dilindungi PIN</strong> - PIN 4 digit pada kartu privat</li>
 <li><strong>Sakelar publik / privat</strong> - kartu privat hanya terbuka dengan PIN-nya</li>
 <li><strong>Ekspor data GDPR</strong> - unduh semuanya sebagai ZIP kapan saja</li>
 <li><strong>Keamanan sesi</strong> - sesi PIN berakhir otomatis</li>
@@ -181,7 +181,7 @@ Satu orang atau seluruh tim. Setiap kartu bisa disimpan sebagai kontak, termasuk
 
 ## Fitur tambahan untuk tim
 
-Kartu pribadi milik satu orang. Dalam tim, kartu menjadi milik perusahaan, dan itu mengubah apa yang bisa dilakukan kartu tersebut.
+Kartu pribadi milik satu orang. Dalam tim, kartu menjadi milik perusahaan, dan itu mengubah apa yang bisa dilakukan kartu tersebut. Baca selengkapnya tentang [kartu nama digital untuk tim](/id/business-card/teams/).
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Satu kotak masuk untuk semua prospek</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>Semua prospek yang dikumpulkan tim tiba di satu kotak masuk bersama. Lihat siapa penanggung jawabnya dan bagaimana statusnya, tugaskan ke orang yang tepat, dan ekspor semuanya sebagai spreadsheet.</p></article>
@@ -249,7 +249,7 @@ Kartu pribadi milik satu orang. Dalam tim, kartu menjadi milik perusahaan, dan i
 
 <details class="faq-item">
 <summary>Apa yang terjadi jika saya membatalkan paket berbayar?</summary>
-<p>Tidak ada yang dihapus dan kartu Anda tetap online. Prospek baru berhenti masuk, dan hanya sejumlah kartu sesuai batas paket Anda yang bisa disimpan orang lain sebagai kontak. Sisanya ditampilkan terkunci.</p>
+<p>Tidak ada yang dihapus. Di Personal atau Pro, kartu Anda tetap online: prospek baru berhenti masuk, dan hanya sejumlah kartu sesuai batas paket Anda yang bisa disimpan orang lain sebagai kontak. Sisanya ditampilkan terkunci. Di tim, setelah langganan berakhir, kartu tim Anda menampilkan halaman "sementara tidak tersedia" sampai Anda berlangganan lagi, lalu semuanya kembali seperti semula.</p>
 </details>
 
 </div>

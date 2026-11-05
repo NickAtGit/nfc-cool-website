@@ -4,7 +4,7 @@ title: "NameDrop対NFC名刺：それでもクロスプラットフォームが�
 date: "2024-05-02"
 tags: ["business-cards", "iphone", "networking"]
 summary: "NameDropは美しい。けれどiOS専用です。本気のネットワーキングでNFC名刺がクロスプラットフォームの王者であり続ける理由を解説します。"
-metaDescription: "NameDropは美しいけれど、使えるのはiPhone同士だけ。それでも本気のネットワーキングでNFC名刺が勝つ理由 - Androidでもウェブでも、誰にでも渡せるからです。"
+metaDescription: "NameDropは美しいけれど、使えるのはiPhone同士だけ。それでも本気のネットワーキングでNFC名刺が勝つ理由を解説します。相手の端末を選ばず、Androidでもウェブでも、アプリがなくても誰にでも渡せるのがNFC名刺の強みです。"
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/namedrop.webp"
 imageAlt: "NFC名刺の横で連絡先を交換する2台のiPhone"
@@ -28,4 +28,4 @@ NFC名刺は、相手の端末が何であろうと気にしません。iOSもAn
 
 これが、私がいまだにNameDropではなくNFCを軸に開発を続けている、地味な理由です。NameDropは最良のケースを最適化します。2人のiPhoneユーザー、どちらも機能が有効で、どちらもジェスチャーを知っている。NFCはイベントで実際に起こるケースを最適化します。2人の人間、2台の端末、そしてそのどちらについても共通の前提がない状況です。NameDropはデモとしては優れています。NFCは名刺としては優れています。
 
-欲しくなりましたか？　iPhoneなら[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-ja&mt=8)を、Androidなら[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-ja)をどうぞ。
+欲しくなりましたか？　[NFC.cool Business Card](/ja/business-card/)は、まさにそんな場面のために私が作っているデジタル名刺です。[iPhone版はこちら](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-ja&mt=8)、[Android版はこちら](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-ja)からどうぞ。

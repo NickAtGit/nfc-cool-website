@@ -67,7 +67,7 @@ L'alternative la plus courante aux URL. Encodez une vCard complète (nom, télé
 
 Les cartes de visite QR fonctionnent ainsi d'emblée. C'est aussi pourquoi un QR vCard fonctionne sur tous les téléphones sans app particulière - la vCard est une norme vieille de 30 ans que le système connaît déjà.
 
-Le compromis face à l'approche carte de visite de NFC.cool : un QR vCard ne peut pas être mis à jour. Une fois imprimées, les données du contact sont figées. Si vous voulez une « source unique de vérité » que vous pourrez modifier plus tard, encodez plutôt une URL vers la page en ligne de votre carte de visite - c'est exactement ce que fait [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-fr&mt=8), et c'est pourquoi nous le recommandons plutôt qu'un simple QR vCard pour du réseautage sérieux.
+Le compromis face à l'approche carte de visite de NFC.cool : un QR vCard ne peut pas être mis à jour. Une fois imprimées, les données du contact sont figées. Si vous voulez une « source unique de vérité » que vous pourrez modifier plus tard, encodez plutôt une URL vers la page en ligne de votre carte de visite - c'est exactement ce que fait [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-fr&mt=8), et c'est pourquoi nous le recommandons plutôt qu'un simple QR vCard pour du réseautage sérieux. Vous pouvez [découvrir ici ce que fait NFC.cool Business Card](/fr/business-card/).
 
 ---
 

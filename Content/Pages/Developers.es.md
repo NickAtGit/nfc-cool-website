@@ -88,7 +88,7 @@ Actívalo en **pestaña Más → Webhook** dentro de la app: introduce una URL H
 
 La app dispara un único `POST` por escaneo a la URL que configuraste. No hay una cola de reintentos aparte: si tu endpoint no está accesible o devuelve una respuesta que no sea 2xx, el POST del escaneo falla. Procura devolver `204 No Content` en caso de éxito; cualquier 2xx se trata como aceptado.
 
-Esta página es la referencia técnica. Para la visión general de la función - los otros cuatro ganchos de automatización de iOS, los precios y las preguntas frecuentes - consulta la [página de la función Webhooks y Automatización](/features/webhooks/).
+Esta página es la referencia técnica. Para la visión general de la función - los otros cuatro ganchos de automatización de iOS, los precios y las preguntas frecuentes - consulta la [página de la función Webhooks y Automatización](/es/features/webhooks/).
 
 </section>
 

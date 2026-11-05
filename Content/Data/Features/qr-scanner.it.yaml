@@ -57,7 +57,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sincronizzazione iCloud tra iPhone, iPad e Mac"
-    body: "<p>La cronologia delle scansioni e i progetti dello Studio QR si sincronizzano su tutti i dispositivi collegati al tuo account iCloud. Crei un codice sull'iPad, lo condividi dall'iPhone, lo ritocchi sul <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a>: stessa libreria, stesse modifiche, senza esportare avanti e indietro.</p>"
+    body: "<p>La cronologia delle scansioni e i progetti dello Studio QR si sincronizzano su tutti i dispositivi collegati al tuo account iCloud. Crei un codice sull'iPad, lo condividi dall'iPhone, lo ritocchi sul <a href=\"/it/blog/nfc-cool-comes-to-mac/\">Mac</a>: stessa libreria, stesse modifiche, senza esportare avanti e indietro.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool che si sincronizza tra iPhone, iPad e Mac"
     platforms: "iOS"

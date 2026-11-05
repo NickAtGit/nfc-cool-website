@@ -67,7 +67,7 @@ Die häufigste Alternative zur URL. Du kodierst eine vollständige vCard (Name, 
 
 Genau so funktionieren QR-Visitenkarten von Haus aus. Und deshalb läuft eine vCard-QR auch auf jedem Handy ohne zusätzliche App: vCard ist ein 30 Jahre alter Standard, den das Betriebssystem ohnehin kennt.
 
-Der Haken im Vergleich zur Visitenkarte von NFC.cool: Eine vCard im QR-Code lässt sich nachträglich nicht mehr ändern. Einmal gedruckt, sind die Kontaktdaten eingefroren. Wenn du deine Daten lieber an einer Stelle pflegen und später noch bearbeiten willst, kodiere stattdessen eine URL zu deiner Online-Visitenkarte. Genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-de&mt=8), und deshalb empfehle ich fürs ernsthafte Networking eher die App als eine nackte vCard-QR.
+Der Haken im Vergleich zur Visitenkarte von NFC.cool: Eine vCard im QR-Code lässt sich nachträglich nicht mehr ändern. Einmal gedruckt, sind die Kontaktdaten eingefroren. Wenn du deine Daten lieber an einer Stelle pflegen und später noch bearbeiten willst, kodiere stattdessen eine URL zu deiner Online-Visitenkarte. Genau das macht [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-de&mt=8), und deshalb empfehle ich fürs ernsthafte Networking eher die App als eine nackte vCard-QR. Hier siehst du, [was NFC.cool Business Card kann](/de/business-card/).
 
 ---
 

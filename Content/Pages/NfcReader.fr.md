@@ -36,7 +36,7 @@ J'ai créé ce lecteur pour que vous puissiez lire un tag NFC directement depuis
 <p class="nfc-reader-title">Lire un tag NFC</p>
 <p class="nfc-reader-lead">Appuyez sur le bouton, puis approchez un tag du haut de votre téléphone. Je vous montre aussitôt ce qu'il contient.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Lire NFC</span></button>
-<p class="nfc-reader-fineprint">Envie d'une expérience NFC native avec encore plus de fonctions ? <a href="/features/nfc-reader-writer/">Téléchargez l'app NFC.cool !</a></p>
+<p class="nfc-reader-fineprint">Envie d'une expérience NFC native avec encore plus de fonctions ? <a href="/fr/features/nfc-reader-writer/">Téléchargez l'app NFC.cool !</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -110,7 +110,7 @@ J'ai créé ce lecteur pour que vous puissiez lire un tag NFC directement depuis
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Écrire sur le tag</span></button>
-<p class="nfc-reader-fineprint">Envie d'une expérience NFC native avec encore plus de fonctions ? <a href="/features/nfc-reader-writer/">Téléchargez l'app NFC.cool !</a></p>
+<p class="nfc-reader-fineprint">Envie d'une expérience NFC native avec encore plus de fonctions ? <a href="/fr/features/nfc-reader-writer/">Téléchargez l'app NFC.cool !</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -253,19 +253,19 @@ Le lecteur de cette page gère les tâches du quotidien - lire un tag et y écri
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
 <h3>Chiffrer des secrets avec NFC Safe</h3>
-<p>NFC Safe chiffre un secret directement sur la puce en AES-256 : pour tout ce qui n'est pas l'app, le tag se lit comme des données brouillées. <a href="/blog/nfc-safe-encrypted-secrets/">Comment fonctionne NFC Safe</a>.</p>
+<p>NFC Safe chiffre un secret directement sur la puce en AES-256 : pour tout ce qui n'est pas l'app, le tag se lit comme des données brouillées. <a href="/fr/blog/nfc-safe-encrypted-secrets/">Comment fonctionne NFC Safe</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
 <h3>Automatiser ce qu'un tag déclenche</h3>
-<p>Un tag peut déclencher un webhook, lancer un raccourci iOS, lire son contenu à voix haute ou compter le nombre de fois qu'il est scanné. <a href="/blog/count-nfc-tag-scans/">Comment compter les scans d'un tag NFC</a>.</p>
+<p>Un tag peut déclencher un webhook, lancer un raccourci iOS, lire son contenu à voix haute ou compter le nombre de fois qu'il est scanné. <a href="/fr/blog/count-nfc-tag-scans/">Comment compter les scans d'un tag NFC</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
 <h3>Cloner, réinitialiser et inspecter les tags</h3>
-<p>Clonez un tag, extrayez et identifiez la mémoire brute de sa puce, ou reprogrammez du matériel verrouillé par NFC comme des <a href="/blog/openprinttag-read-write-nfc-spools-phone/">bobines de filament pour imprimante 3D</a> ou des <a href="/blog/reset-sonicare-brush-head-nfc/">têtes de brosse à dents électrique</a>.</p>
+<p>Clonez un tag, extrayez et identifiez la mémoire brute de sa puce, ou reprogrammez du matériel verrouillé par NFC comme des <a href="/fr/blog/openprinttag-read-write-nfc-spools-phone/">bobines de filament pour imprimante 3D</a> ou des <a href="/fr/blog/reset-sonicare-brush-head-nfc/">têtes de brosse à dents électrique</a>.</p>
 </article>
 
 </div>
@@ -302,7 +302,7 @@ Apple bloque le NFC dans tous les navigateurs iOS : aucun site web ne peut lire 
 
 <details class="faq-item">
 <summary>Peut-on écrire un réseau Wi-Fi ou une carte de contact sur un tag ?</summary>
-<p>Oui. Choisissez Réseau Wi-Fi ou Carte de contact dans le menu déroulant Écrire et remplissez les champs. Un tag Wi-Fi propose aux téléphones Android de rejoindre le réseau ; un tag de contact stocke une vCard standard que les téléphones proposent d'enregistrer.</p>
+<p>Oui. Choisissez Réseau Wi-Fi ou Carte de contact dans le menu déroulant Écrire et remplissez les champs. Un tag Wi-Fi propose aux téléphones Android de rejoindre le réseau ; un tag de contact stocke une vCard standard que les téléphones Android proposent d'enregistrer. Vous voulez une carte modifiable après l'écriture ? <a href="/fr/business-card/">NFC.cool Business Card</a> place un lien sur le tag : vous pouvez ensuite modifier vos coordonnées.</p>
 </details>
 
 <details class="faq-item">
@@ -331,8 +331,8 @@ Apple bloque le NFC dans tous les navigateurs iOS : aucun site web ne peut lire 
 Cette page couvre l'essentiel dans le navigateur. L'app NFC.cool gratuite va plus loin - elle lit n'importe quel tag et écrit plus de 25 types de données : liens, Wi-Fi, contacts, raccourcis et plus encore, sur iPhone comme sur Android. Je la développe et je la maintiens moi-même.
 
 <div class="tap-cta-buttons">
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Découvrir le lecteur et enregistreur NFC</a>
-<a href="/blog/nfc-tags-beginners-guide/" class="landing-cta-button">Nouveau sur les tags NFC ? Commencez ici</a>
+<a href="/fr/features/nfc-reader-writer/" class="landing-cta-button">Découvrir le lecteur et enregistreur NFC</a>
+<a href="/fr/blog/nfc-tags-beginners-guide/" class="landing-cta-button">Nouveau sur les tags NFC ? Commencez ici</a>
 </div>
 
 </section>

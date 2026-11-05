@@ -13,7 +13,7 @@ ogTitle: "Processar Dados do Contador de Toques NFC Com os Atalhos do iOS"
 ogDescription: "Atalhos do iOS prontos a usar para o Contador de Toques NFC: um processador reutilizável e uma demonstração de alerta de tag."
 ---
 
-Há uma semana, [expliquei passo a passo como funciona o Contador de Toques NFC](/blog/count-nfc-tag-scans/): o chip conta as suas próprias leituras, a aplicação insere bytes marcadores de posição, e a tag substitui a contagem ao vivo e o ID da tag naquilo que transporta a cada toque. Esse artigo para onde a tag para, ou seja, no momento em que os valores chegam ao seu telemóvel.
+Há uma semana, [expliquei passo a passo como funciona o Contador de Toques NFC](/pt/blog/count-nfc-tag-scans/): o chip conta as suas próprias leituras, a aplicação insere bytes marcadores de posição, e a tag substitui a contagem ao vivo e o ID da tag naquilo que transporta a cada toque. Esse artigo para onde a tag para, ou seja, no momento em que os valores chegam ao seu telemóvel.
 
 A pergunta que me têm feito desde então é a próxima óbvia: "ótimo, a tag está a entregar-me `049F50824F1390x000007` - e agora?" Se está no iPhone e quer agir sobre esses valores dentro de um Atalho, tem de os processar. É um trabalho de manipulação de cadeias pequeno mas chato, e prefiro que não tenha de o escrever você mesmo.
 
@@ -34,12 +34,12 @@ Antes dos atalhos: uma revisão rápida do que eles recebem de facto, porque iss
 
 No ecrã de configuração do Contador de Toques, escolhe um tipo de conteúdo para a tag: URL, Email, SMS ou Atalho. Quando ativa as opções Contador de Toques e/ou ID da Tag, a aplicação insere bytes marcadores de posição dentro desse conteúdo, e o chip troca-os pelos valores ao vivo a cada leitura. Usando `049F50824F1390` como ID da tag e `000007` como contagem, os quatro tipos de conteúdo acabam por ficar assim:
 
-- **URL:** `https://nfc.cool/tap-counter/` torna-se [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007)
+- **URL:** `https://nfc.cool/tap-counter/` torna-se [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/pt/tap-counter/?nfc=049F50824F1390x000007)
 - **Corpo do email:** `Hi, here's my card.` torna-se `Hi, here's my card. 049F50824F1390x000007`
 - **Corpo do SMS:** `Order confirmed!` torna-se `Order confirmed! 049F50824F1390x000007`
 - **Entrada do atalho:** `log-entry` torna-se `log-entry 049F50824F1390x000007`
 
-O URL acima é real. A nossa [página de teste ao vivo do contador de toques](/tap-counter/) está configurada para ler o valor `?nfc=` diretamente da sua própria barra de endereço, por isso, se quiser ver a substituição acontecer antes de escrever a sua própria automatização, grave uma tag a apontar para `https://nfc.cool/tap-counter/` com ambas as opções ativadas, toque nela, e a página mostra-lhe o ID da tag e a contagem que acabou de receber.
+O URL acima é real. A nossa [página de teste ao vivo do contador de toques](/pt/tap-counter/) está configurada para ler o valor `?nfc=` diretamente da sua própria barra de endereço, por isso, se quiser ver a substituição acontecer antes de escrever a sua própria automatização, grave uma tag a apontar para `https://nfc.cool/tap-counter/` com ambas as opções ativadas, toque nela, e a página mostra-lhe o ID da tag e a contagem que acabou de receber.
 
 Quando o tipo de conteúdo é **Atalho**, a NFC.cool executa o atalho escolhido através de `shortcuts://run-shortcut?name=Your%20Shortcut&input=text&text=<payload>`, com os valores NFC acrescentados já no texto. A entrada do seu atalho é uma cadeia de texto simples. A sua única tarefa é voltar a extrair daí o ID da tag e a contagem.
 
@@ -118,7 +118,7 @@ Um punhado de pequenas coisas que o processador desbloqueia, escritas para que n
 
 - **Ramificar com base no ID da tag.** Um atalho, muitas tags. Acrescente uma ação **If** por cada ID de tag conhecido: se a tag da porta do escritório foi lida, silencie as notificações; se a tag do estúdio foi lida, defina um modo de foco; se a tag da cozinha foi lida, inicie um temporizador. O ID da tag identifica a tag física, não o conteúdo, por isso pode dar o mesmo URL a todas as tags e ainda assim reagir a cada uma individualmente.
 - **Escolher um vencedor na leitura N.** Combine `hasCount` com uma comparação. Se `count` for igual a 100, dispare uma mensagem de confirmação; para todas as outras leituras, faça o tratamento normal. O chip impõe a ordem; o seu atalho limita-se a lê-la.
-- **Enviar para um webhook.** Combine isto com a [funcionalidade de Webhooks](/features/webhooks/) da NFC.cool se quiser tratamento no servidor sem escrever uma aplicação iOS: envie os valores processados como JSON, e deixe o servidor continuar a partir daí. Duas ações no iOS e a sua tag fica ligada a qualquer coisa que fale HTTP.
+- **Enviar para um webhook.** Combine isto com a [funcionalidade de Webhooks](/pt/features/webhooks/) da NFC.cool se quiser tratamento no servidor sem escrever uma aplicação iOS: envie os valores processados como JSON, e deixe o servidor continuar a partir daí. Duas ações no iOS e a sua tag fica ligada a qualquer coisa que fale HTTP.
 - **Registar num ficheiro ou numa Nota.** A mais simples e surpreendentemente útil. Acrescente `timestamp, tagID, count` a um ficheiro contínuo no iCloud Drive ou a uma única Nota, e fica com um registo de toques pelo qual pode navegar ou que pode representar graficamente mais tarde. Bom para acompanhar a interação numa única tag sem montar infraestrutura.
 
 Se construir algo interessante com estes, gostaria genuinamente de ver.
@@ -139,6 +139,6 @@ Os Atalhos são uma aplicação da Apple, por isso estes dois só funcionam no i
 
 ## Experimente
 
-Se quiser a explicação mais aprofundada de como a funcionalidade Contador de Toques realmente funciona nos bastidores, está no [artigo anterior](/blog/count-nfc-tag-scans/). E se quiser ver uma tag com contador ativado em ação sem configurar primeiro a sua própria automatização, a nossa página de [demonstração ao vivo do contador de toques](/tap-counter/) lê o valor `?nfc=` diretamente do seu próprio URL: grave uma tag que aponte para lá, toque nela, veja a contagem e o ID da tag aparecerem.
+Se quiser a explicação mais aprofundada de como a funcionalidade Contador de Toques realmente funciona nos bastidores, está no [artigo anterior](/pt/blog/count-nfc-tag-scans/). E se quiser ver uma tag com contador ativado em ação sem configurar primeiro a sua própria automatização, a nossa página de [demonstração ao vivo do contador de toques](/pt/tap-counter/) lê o valor `?nfc=` diretamente do seu próprio URL: grave uma tag que aponte para lá, toque nela, veja a contagem e o ID da tag aparecerem.
 
-A funcionalidade Contador de Toques NFC em si vive na NFC.cool Tools, no [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-en&mt=8) e no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-en). Para o conjunto completo de ferramentas que construí em torno do NFC, dê uma vista de olhos na [funcionalidade de leitor e gravador NFC](/features/nfc-reader-writer/).
+A funcionalidade Contador de Toques NFC em si vive na NFC.cool Tools, no [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-en&mt=8) e no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-en). Para o conjunto completo de ferramentas que construí em torno do NFC, dê uma vista de olhos na [funcionalidade de leitor e gravador NFC](/pt/features/nfc-reader-writer/).

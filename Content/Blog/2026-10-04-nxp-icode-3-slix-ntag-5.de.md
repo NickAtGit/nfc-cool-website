@@ -19,7 +19,7 @@ Er hatte sich keinen Millimeter bewegt. Ich habe es noch mal versucht. Dieselbe 
 
 Was dahintersteckte, erzähle ich weiter unten, denn es ist der spannendste Bug, dem ich dieses Jahr hinterhergejagt bin. Aber erst einmal dazu, warum ich überhaupt an einem ICODE-Tag herumgebastelt habe.
 
-Ich möchte, dass NFC.cool die leistungsfähigste NFC-App ist, die es fürs Handy gibt. Diesen Sommer hieß das [NTAG 424 DNA](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/), die Tags, mit denen Marken beweisen, dass ein Produkt echt ist. Danach war ICODE von NXP die größte Chipfamilie, mit der die App noch nicht richtig umgehen konnte. Mit **NFC.cool Tools 7.1.0** kann sie es.
+Ich möchte, dass NFC.cool die leistungsfähigste NFC-App ist, die es fürs Handy gibt. Diesen Sommer hieß das [NTAG 424 DNA](/de/blog/ntag-424-dna-counterfeit-proof-nfc-tags/), die Tags, mit denen Marken beweisen, dass ein Produkt echt ist. Danach war ICODE von NXP die größte Chipfamilie, mit der die App noch nicht richtig umgehen konnte. Mit **NFC.cool Tools 7.1.0** kann sie es.
 
 ---
 
@@ -50,7 +50,7 @@ Scannst du einen mit NFC.cool, bekommst du das komplette Bild: um welchen Chip e
 
 Von dort aus kannst du fast alles ändern, was der Chip zu bieten hat:
 
-- **Lesezähler.** ICODE 3 kann selbst jeden einzelnen Lesevorgang mitzählen. Schaltest du die NFC-Spiegelung ein, schreibt der Chip seine ID und den aktuellen Zählerstand in den gespeicherten Link. So öffnet jeder Scan eine leicht andere URL, die eine Website mitzählen kann. Wer schon über den [NFC-Tap-Zähler](/blog/count-nfc-tag-scans/) gelesen hat: Das ist dieselbe Idee auf einem anderen Chip.
+- **Lesezähler.** ICODE 3 kann selbst jeden einzelnen Lesevorgang mitzählen. Schaltest du die NFC-Spiegelung ein, schreibt der Chip seine ID und den aktuellen Zählerstand in den gespeicherten Link. So öffnet jeder Scan eine leicht andere URL, die eine Website mitzählen kann. Wer schon über den [NFC-Tap-Zähler](/de/blog/count-nfc-tag-scans/) gelesen hat: Das ist dieselbe Idee auf einem anderen Chip.
 - **Passwörter.** ICODE 3 hat gleich sechs davon, je eines fürs Lesen, fürs Schreiben, für die Privatsphäre, fürs Zerstören, für die Diebstahlschutz-Einstellungen und für die Konfiguration. Ab Werk haben alle Tags dieselben Passwörter, ein Schutz bringt also erst etwas, wenn du eigene setzt. NFC.cool speichert deine Passwörter für jeden Tag einzeln in deinem iCloud-Schlüsselbund.
 - **Speicherschutz.** Du kannst den Speicher in zwei Bereiche aufteilen und jeden für sich schützen, zum Beispiel damit ein öffentlicher Link lesbar bleibt, während die Daten dahinter verborgen sind.
 - **Diebstahlschutz und Bibliothekseinstellungen.** Das EAS-Flag sorgt dafür, dass die Schleuse im Laden oder in der Bibliothek piept. Mit dem AFI-Byte markieren Bibliotheken ein Buch als ausgeliehen. Beides lässt sich ändern und auch sperren.
@@ -95,7 +95,7 @@ Als ich das einmal verstanden hatte, war die Lösung so klein, dass es mir fast 
 
 ## Wo es funktioniert
 
-Auf dem iPhone funktioniert das alles mit dem eingebauten NFC-Reader. Auf iPad und Mac, die keinen NFC-Chip haben, läuft es über einen [externen USB-NFC-Reader](/blog/nfc-reading-ipad-mac/). Der Reader muss ICODE-Befehle unverändert an den Tag durchreichen. Kann deiner das, liest und verwaltet die App ICODE-Tags genau wie auf dem iPhone, und den Bug aus dem letzten Abschnitt gibt es dort überhaupt nicht. Mit einem Reader, der die Befehle nicht durchreicht, kannst du immerhin noch den Speicher des Tags auslesen.
+Auf dem iPhone funktioniert das alles mit dem eingebauten NFC-Reader. Auf iPad und Mac, die keinen NFC-Chip haben, läuft es über einen [externen USB-NFC-Reader](/de/blog/nfc-reading-ipad-mac/). Der Reader muss ICODE-Befehle unverändert an den Tag durchreichen. Kann deiner das, liest und verwaltet die App ICODE-Tags genau wie auf dem iPhone, und den Bug aus dem letzten Abschnitt gibt es dort überhaupt nicht. Mit einem Reader, der die Befehle nicht durchreicht, kannst du immerhin noch den Speicher des Tags auslesen.
 
 Die Android-App kann noch nicht mit ICODE umgehen.
 

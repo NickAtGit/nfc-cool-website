@@ -2,6 +2,7 @@
 id: nfc-blog-012
 title: "Partagez votre carte de visite numérique sans obliger qui que ce soit à télécharger une app"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "Votre carte de visite numérique devrait fonctionner instantanément pour la personne qui la reçoit, sans téléchargement, sans friction. Voici comment les App Clips et les profils web instantanés rendent cela possible."
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
@@ -57,7 +58,7 @@ Voici ce qui se passe :
 4. **Enregistrement en un geste :** un bouton « Enregistrer le contact » se trouve en bas de l'écran, juste là où le pouce repose naturellement. Une seule pression enregistre tout dans son app Contacts
 5. **Leur langue :** l'App Clip prend en charge 35 langues et s'adapte automatiquement à la langue de l'appareil du destinataire. Tendez votre carte à quelqu'un à Tokyo, São Paulo ou Berlin, et il la voit dans sa propre langue
 
-Aucune création de compte. Aucune invitation à s'inscrire. Aucune publicité. Aucune URL de pistage. Juste vos coordonnées, enregistrées en quelques secondes.
+Aucun compte à créer. Rien à quoi s'inscrire. Aucune publicité. Aucune URL de pistage. Juste vos coordonnées, enregistrées en quelques secondes.
 
 Après l'enregistrement, le destinataire voit une invitation discrète à créer sa propre carte de visite NFC.cool. C'est tout, sans incitation agressive, sans inscription forcée.
 
@@ -89,10 +90,10 @@ Ce qui rend l'expérience d'un destinataire vraiment bonne, ce n'est pas seuleme
 
 Lorsque quelqu'un reçoit votre carte de visite NFC.cool :
 
-- **Aucune publicité :** la page de profil ne fait pas la promotion de NFC.cool et n'affiche pas de publicités de tiers
+- **Aucune publicité :** la page de profil n'affiche aucune publicité de tiers. Une carte Free porte une petite mention « Made with NFC.cool » en bas, que les forfaits payants retirent
 - **Aucune redirection de pistage :** vos liens sont vos vrais liens, pas emballés dans des URL de suivi analytique
-- **Aucune sollicitation :** le destinataire ne reçoit pas d'e-mails de relance de la part de NFC.cool l'invitant à s'inscrire
-- **Aucune collecte de données :** les informations du destinataire ne sont pas utilisées à des fins marketing
+- **Aucun marketing de la part de NFC.cool :** NFC.cool n'envoie pas de marketing aux personnes qui consultent votre carte. Avec le forfait Team, votre équipe peut envoyer des e-mails de relance aux personnes qui laissent leurs coordonnées via votre formulaire de prospects
+- **Aucune vente de données :** NFC.cool ne vend ni vos données ni celles des personnes qui consultent votre carte
 
 Cela compte plus que la plupart des gens ne le pensent. Votre carte de visite est souvent la première impression que quelqu'un se fait de vous. Si le fait d'approcher le téléphone de votre carte mène à une page encombrée de bannières publicitaires ou envoie au destinataire des e-mails indésirables le lendemain, cela rejaillit sur vous, pas seulement sur l'app.
 
@@ -124,4 +125,4 @@ C'est un petit détail, mais lors d'un événement chargé où vous tenez un caf
 **En tant que destinataire :**
 - Rien. C'est tout l'intérêt.
 
-*NFC.cool Business Card est disponible sur iOS et Android. La fonctionnalité App Clip est propre à iOS ; les destinataires Android reçoivent à la place un profil web instantané.*
+*[NFC.cool Business Card](/fr/business-card/) est disponible sur iOS et Android, et sa page détaille ce que comprend chaque forfait. Sur iPhone, les destinataires obtiennent un App Clip natif, et sur Android, un profil web instantané.*

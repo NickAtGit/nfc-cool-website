@@ -12,7 +12,7 @@ metaDescription: "Um despertador para iPhone e Android que só para quando lê a
 ogTitle: "Um despertador que não dá para adiar"
 ogDescription: "O Alarme NFC só se cala quando lê, uma a uma, as tags NFC espalhadas pela casa. Veja como funciona no iPhone e no Android."
 ---
-Ser programador independente tem um ritmo que não quer saber de horários de escritório. O melhor código sai-me tarde, quando as mensagens param e a casa fica em silêncio, e quando dou por mim já são duas da manhã. O despertador, claro, toca à mesma hora de sempre. E eu carrego em adiar. E outra vez. E uma terceira, até já ter perdido metade da manhã que tinha planeado.
+Ser fundador tem um ritmo que não quer saber de horários de escritório. O melhor código sai-me tarde, quando as mensagens param e a casa fica em silêncio, e quando dou por mim já são duas da manhã. O despertador, claro, toca à mesma hora de sempre. E eu carrego em adiar. E outra vez. E uma terceira, até já ter perdido metade da manhã que tinha planeado.
 
 Passei algum tempo a pensar no que podia fazer quanto a isto. Um despertador mais alto? Acabaria por me habituar e continuar a dormir. Deixar o telemóvel do outro lado do quarto? Levantava-me, carregava em Parar e voltava a enfiar-me na cama. O problema nunca foi ouvir o despertador. O problema é que desligá-lo custava um toque e zero esforço mental.
 
@@ -80,7 +80,7 @@ Há aplicações de despertador que obrigam a fotografar o lavatório da casa de
 
 Uma tag NFC, por si só, não passa de um bocadinho de metal. Um chip minúsculo com um identificador e mais nada, pousado numa prateleira. O que mais gosto em construir a NFC.cool é dar sentido a esse bocadinho de metal: transformar um autocolante que custa uns cêntimos em algo que faz realmente diferença no seu dia a dia. Com o Alarme NFC, a tag nem sequer precisa de ter conteúdo. A aplicação reconhece cada tag pelo ID do chip e não grava nada nela. Serve qualquer tag, incluindo aquele pacote de autocolantes esquecido na gaveta. E a luz também não interessa: uma tag lê-se perfeitamente num corredor às escuras, onde uma câmara teria dificuldades, e não é preciso apontar para nada.
 
-Se ainda não tem tags, o meu [guia de tags NFC para principiantes](/blog/nfc-tags-beginners-guide/) explica quais deve comprar.
+Se ainda não tem tags, o meu [guia de tags NFC para principiantes](/pt/blog/nfc-tags-beginners-guide/) explica quais deve comprar.
 
 ---
 

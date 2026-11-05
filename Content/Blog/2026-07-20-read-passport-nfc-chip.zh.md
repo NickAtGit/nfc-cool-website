@@ -8,7 +8,7 @@ image: "/assets/images/Blog/read-passport-nfc-chip.webp"
 imageAlt: "一本带金色 NFC 符号的深蓝色护照，旁边是显示验证对勾的 iPhone"
 author: "Nicolo Stanciu"
 metaTitle: "用手机读取护照里的 NFC 芯片"
-metaDescription: "你的护照里有一枚 NFC 芯片，NFC.cool 能在 iPhone 和 Android 上读取它。查看芯片里存储的照片和信息，并检查证件是否真实。"
+metaDescription: "你的护照里有一枚 NFC 芯片，NFC.cool 能在 iPhone 和 Android 上读取它，也能读取身份证和居留许可。查看芯片里存储的照片和信息，并检查证件是否真实。这篇还讲讲为什么要先证明证件在你手上，芯片才肯开口。"
 ogTitle: "你的护照里有一枚 NFC 芯片，现在手机就能读取它。"
 ogDescription: "NFC.cool 现在能读取你护照、身份证或居留许可里的芯片：照片、信息，以及它是否真实。支持 iPhone 和 Android。"
 ---
@@ -28,7 +28,7 @@ ogDescription: "NFC.cool 现在能读取你护照、身份证或居留许可里�
 
 我觉得这是个很妙的设计。它意味着，当你的护照安静地待在口袋或包里时，没有人能偷偷把它读出来。唯一的进入方式，是你手里已经翻开了这份证件，因为那把钥匙正是用印在它上面的信息拼出来的：证件号码、你的出生日期，以及有效期。
 
-所以 App 会先问你要的，正是这三样东西，方式有两种。你可以把摄像头对准机读区，也就是护照照片页底部、或者身份证背面那一条密密麻麻的 `<<<` 字符，NFC.cool 会像机场闸机那样用光学方式把它读出来。或者，如果证件磨损了、光线又不好，你也可以手动把这三个值输进去。不管用哪种方式，一旦 App 拿到了钥匙，它就会请你把手机顶端贴到证件上，真正的芯片读取这才开始。如果你曾好奇过 [NFC 在 iPhone 上到底是怎么运作的](/blog/nfc-on-iphones-insider-look/)，这其实就是同一套近距离握手，只不过另一头换成了一枚挑剔得多的芯片。
+所以 App 会先问你要的，正是这三样东西，方式有两种。你可以把摄像头对准机读区，也就是护照照片页底部、或者身份证背面那一条密密麻麻的 `<<<` 字符，NFC.cool 会像机场闸机那样用光学方式把它读出来。或者，如果证件磨损了、光线又不好，你也可以手动把这三个值输进去。不管用哪种方式，一旦 App 拿到了钥匙，它就会请你把手机顶端贴到证件上，真正的芯片读取这才开始。如果你曾好奇过 [NFC 在 iPhone 上到底是怎么运作的](/zh/blog/nfc-on-iphones-insider-look/)，这其实就是同一套近距离握手，只不过另一头换成了一枚挑剔得多的芯片。
 
 ---
 
@@ -68,6 +68,6 @@ ogDescription: "NFC.cool 现在能读取你护照、身份证或居留许可里�
 
 另外，它需要一部带 NFC 的手机，读取时手机要稳稳地贴在证件上。芯片很小，连接也很娇气，手机一滑就得重新开始读。读完之前，请让证件平整地贴着手机的顶端别动。
 
-我还是会时不时想起机场那道闸机。现代旅行里那一整套安检的排场，而它的正中心，是一枚小小的 NFC 芯片在小心翼翼地完成一次握手，跟我这些年一直用来[读取和写入标签](/features/nfc-reader-writer/)的，是同一种握手。而现在，你口袋里的这台读取器也能做到了。
+我还是会时不时想起机场那道闸机。现代旅行里那一整套安检的排场，而它的正中心，是一枚小小的 NFC 芯片在小心翼翼地完成一次握手，跟我这些年一直用来[读取和写入标签](/zh/features/nfc-reader-writer/)的，是同一种握手。而现在，你口袋里的这台读取器也能做到了。
 
 如果你想看看自己的护照一直悄悄承载着什么，护照与证件读取器就在 NFC.cool Tools 里，支持 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-read-passport-nfc-chip-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-read-passport-nfc-chip-zh)，就挨着我为 NFC 做的其他一切。翻开你的护照，把它贴到手机上，去见一见那个一直住在芯片里的你。

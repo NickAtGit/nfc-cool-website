@@ -49,7 +49,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sincronização iCloud entre iPhone, iPad e Mac"
-    body: "<p>Os documentos sincronizam-se sem esforço através do iCloud em todos os dispositivos da sua conta. Digitalize um contrato no iPhone, reveja-o no iPad, assine-o no <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - a mesma biblioteca, sem exportar de um lado para o outro. As imagens originais e o texto reconhecido viajam ambos juntos.</p>"
+    body: "<p>Os documentos sincronizam-se sem esforço através do iCloud em todos os dispositivos da sua conta. Digitalize um contrato no iPhone, reveja-o no iPad, assine-o no <a href=\"/pt/blog/nfc-cool-comes-to-mac/\">Mac</a> - a mesma biblioteca, sem exportar de um lado para o outro. As imagens originais e o texto reconhecido viajam ambos juntos.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool a sincronizar entre iPhone, iPad e Mac"
     platforms: "iOS"

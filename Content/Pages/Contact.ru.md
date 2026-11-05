@@ -36,7 +36,7 @@ description: "Как связаться с NFC.cool: поддержка по п�
 
 <details class="faq-item">
 <summary>Приложения бесплатные?</summary>
-<p>Да, оба приложения бесплатны в App Store и Google Play, и рекламы в них нет. Часть продвинутых сценариев открывается внутри приложений, но всё основное, то есть NFC, QR-коды, документы, 3D и визитка, доступно бесплатно.</p>
+<p>Да, оба приложения бесплатны в App Store и Google Play. Часть продвинутых сценариев открывается внутри приложений, но всё основное, то есть NFC, QR-коды, документы, 3D и визитка, доступно бесплатно.</p>
 </details>
 
 <details class="faq-item">
@@ -51,7 +51,7 @@ description: "Как связаться с NFC.cool: поддержка по п�
 
 <details class="faq-item">
 <summary>Есть ли версия для Mac, iPad или Apple Watch?</summary>
-<p>NFC.cool Tools работает на iPhone и iPad, а также на Mac: на компьютерах с Apple Silicon оно доступно как совместимое приложение для iPad (<a href="/blog/nfc-cool-comes-to-mac/">подробнее про NFC.cool на Mac</a>). Для 3D и сканирования помещений нужен iPad с датчиком LiDAR. Приложения для Apple Watch нет. NFC.cool Business Card выходит только на iOS и Android.</p>
+<p>NFC.cool Tools работает на iPhone и iPad, а также на Mac: на компьютерах с Apple Silicon оно доступно как совместимое приложение для iPad (<a href="/ru/blog/nfc-cool-comes-to-mac/">подробнее про NFC.cool на Mac</a>). Для 3D и сканирования помещений нужен iPad с датчиком LiDAR. Приложения для Apple Watch нет. NFC.cool Business Card выходит только на iOS и Android.</p>
 </details>
 
 <details class="faq-item">

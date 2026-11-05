@@ -2,6 +2,7 @@
 id: nfc-blog-003
 title: "NFC-візитівка чи QR-код: що краще для ділових знайомств?"
 date: 2026-02-16
+lastModified: "2026-11-05"
 tags: ["business-cards", "qr-codes", "networking"]
 summary: "Дотик NFC чи сканування QR-коду: який спосіб поділитися контактами кращий? Розбираю швидкість, сумісність, ціну і живі сценарії, щоб вибір став очевидним."
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"
@@ -200,12 +201,12 @@ QR-код гнучкіший там, де ділитися треба **широ
 
 Кілька речей вирізняють його з-поміж інших:
 
-- **35 мов.** Інтерфейс застосунку і App Clip перекладені 35 мовами, тож на iOS картка відкривається мовою співрозмовника. Сторінка обміну для Android поки що лише англійською.
-- **Приватність передусім.** Жодних листів твоїм контактам, необов'язковий захист PIN-кодом, ніякої торгівлі даними й реклами.
+- **35 мов.** Інтерфейс застосунку і App Clip перекладені 35 мовами, тож на iOS кнопки й підписи навколо картки показуються мовою співрозмовника.
+- **Приватність.** NFC.cool не розсилає рекламу тим, хто переглядає картку, на картку можна поставити PIN-код, і NFC.cool не продає твої дані. На тарифі Team твоя команда може надсилати листи для повторного контакту людям, які лишили свої дані через форму збору лідів.
 - **Відкритий NFC.** Працює з будь-якою стандартною міткою, бо власного обладнання NFC.cool не продає.
-- **Доступна ціна.** Тариф Personal за 20 євро на рік, Small Business за 50 євро на рік (10 карток), Business за 100 євро на рік (100 карток).
+- **Доступна ціна.** Тариф Free з однією карткою, Personal за $19,99 на рік, Pro за $49,99 на рік (10 карток) і [Team](/uk/business-card/teams/) з ціною $50 за людину на рік або $5 на місяць (до 10 карток на людину). В євро для команди цифри ті самі.
 
-**Спробуй NFC.cool Business Card:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-uk&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-uk)
+**Спробуй [NFC.cool Business Card](/uk/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-uk&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-uk)
 
 ---
 

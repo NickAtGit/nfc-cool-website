@@ -8,7 +8,7 @@ image: "/assets/images/Blog/nxp-icode-3-slix-ntag-5.webp"
 imageAlt: "一本图书馆藏书，封面内侧贴着 RFID 标签，旁边的 iPhone 正显示一枚 NFC 标签的详细信息"
 author: "Nicolo Stanciu"
 metaTitle: "在 iPhone 上读取和管理 NXP ICODE 3 与 SLIX 标签"
-metaDescription: "NFC.cool 现在能在 iPhone 上读取和管理 NXP ICODE 3、SLIX、SLIX2、ICODE DNA 和 NTAG 5 标签：密码、轻触计数器、防盗标志、隐私模式等等。"
+metaDescription: "NFC.cool 现在能在 iPhone 上读取和管理 NXP ICODE 3、SLIX、SLIX2、ICODE DNA 和 NTAG 5 标签：密码、轻触计数器、防盗标志、隐私模式等等。这篇还讲讲这些芯片常见于哪里，以及一个 iOS 怪癖。"
 ogTitle: "ICODE 3、SLIX 和 NTAG 5，现在 iPhone 也能用了"
 ogDescription: "NXP 这些常见于图书馆和商店的芯片能做什么，以及 NFC.cool 如何在 iPhone、iPad 和 Mac 上读取和管理它们。"
 ---
@@ -19,7 +19,7 @@ ogDescription: "NXP 这些常见于图书馆和商店的芯片能做什么，以
 
 到底怎么回事，我稍后再讲，因为这是我今年追过的最有意思的一个 bug。不过先说说，我为什么会去折腾一枚 ICODE 标签。
 
-我希望 NFC.cool 成为你手机上能装的最强大的 NFC App。今年夏天，我为此补上了 [NTAG 424 DNA](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/)，也就是品牌用来证明产品是正品的那种标签。做完之后，App 还没法真正对上话的最大一个芯片家族，就剩 NXP 的 ICODE 了。从 **NFC.cool Tools 7.1.0** 开始，App 也能和它对话了。
+我希望 NFC.cool 成为你手机上能装的最强大的 NFC App。今年夏天，我为此补上了 [NTAG 424 DNA](/zh/blog/ntag-424-dna-counterfeit-proof-nfc-tags/)，也就是品牌用来证明产品是正品的那种标签。做完之后，App 还没法真正对上话的最大一个芯片家族，就剩 NXP 的 ICODE 了。从 **NFC.cool Tools 7.1.0** 开始，App 也能和它对话了。
 
 ---
 
@@ -50,7 +50,7 @@ ogDescription: "NXP 这些常见于图书馆和商店的芯片能做什么，以
 
 在此基础上，芯片提供的几乎所有设置你都能改：
 
-- **轻触计数器**。ICODE 3 能自己统计每一次读取。打开 NFC 镜像后，芯片会把自己的 ID 和当前计数写进存储的链接里，于是每次轻触打开的都是一个略有不同的 URL，网站可以据此计数。如果你读过 [NFC 轻触计数器](/blog/count-nfc-tag-scans/)那篇，这就是同一个思路，只是换了一种芯片。
+- **轻触计数器**。ICODE 3 能自己统计每一次读取。打开 NFC 镜像后，芯片会把自己的 ID 和当前计数写进存储的链接里，于是每次轻触打开的都是一个略有不同的 URL，网站可以据此计数。如果你读过 [NFC 轻触计数器](/zh/blog/count-nfc-tag-scans/)那篇，这就是同一个思路，只是换了一种芯片。
 - **密码**。ICODE 3 有六个密码，分别管读取、写入、隐私、销毁、防盗设置和配置。每枚标签出厂时的密码都一样，所以只有换上你自己的密码，保护才真正有意义。NFC.cool 会按标签把密码分别存进你的 iCloud 钥匙串。
 - **内存保护**。你可以把内存分成两部分，各自单独保护，比如让公开的链接谁都能读，同时把存在它后面的数据藏起来。
 - **防盗和图书馆设置**。EAS 标志决定了商店或图书馆门口的检测门会不会响。AFI 字节则是图书馆用来标记一本书已借出的。这两项都能修改，也都能锁定。
@@ -95,7 +95,7 @@ ISO 15693 给了手机两种和标签对话的方式。一种是在每条消息�
 
 ## 在哪些设备上能用
 
-在 iPhone 上，这一切都靠手机内置的 NFC 读取模块完成。iPad 和 Mac 没有 NFC 芯片，要通过[外置 USB NFC 读卡器](/blog/nfc-reading-ipad-mac/)来用。读卡器必须能把 ICODE 命令原封不动地转发给标签。如果你的读卡器可以，App 读取和管理 ICODE 标签的方式就和在 iPhone 上完全一样，而且上一节那个 bug 在那里根本不存在。不支持转发的读卡器，也依然能让你读取标签的内存。
+在 iPhone 上，这一切都靠手机内置的 NFC 读取模块完成。iPad 和 Mac 没有 NFC 芯片，要通过[外置 USB NFC 读卡器](/zh/blog/nfc-reading-ipad-mac/)来用。读卡器必须能把 ICODE 命令原封不动地转发给标签。如果你的读卡器可以，App 读取和管理 ICODE 标签的方式就和在 iPhone 上完全一样，而且上一节那个 bug 在那里根本不存在。不支持转发的读卡器，也依然能让你读取标签的内存。
 
 Android 版 App 目前还不支持 ICODE。
 

@@ -2,6 +2,7 @@
 id: nfc-blog-004
 title: "Warum Datenschutz bei deiner digitalen Visitenkarte so wichtig ist"
 date: 2026-03-09
+lastModified: "2026-11-05"
 tags: ["business-cards", "privacy"]
 summary: "Auf deiner digitalen Visitenkarte stehen dein Name, deine E-Mail-Adresse, deine Telefonnummer und mehr - und trotzdem machen sich die wenigsten Gedanken darüber, wo diese Daten eigentlich landen. Warum Datenschutz dein wichtigstes Kriterium sein sollte."
 image: "/assets/images/Blog/why-privacy-matters-digital-business-card.webp"
@@ -15,7 +16,7 @@ ogDescription: "Dein Name, deine E-Mail-Adresse, deine Telefonnummer - alles hin
 
 Und jetzt der zweite Gedanke: Wenn du eine digitale Visitenkarte teilst, drückst du niemandem ein Stück Pappe in die Hand. Du gibst einer Plattform Zugriff auf genau diese Daten - *und* auf Daten über die Person, mit der du sie teilst.
 
-Die meisten Apps für digitale Visitenkarten sammeln Informationen über beide Seiten des Austauschs. Wer geteilt hat, wer angesehen hat, wann, wo, auf welchem Gerät, wie lange. Manche gehen deutlich weiter, als man erwarten würde.
+Eine App für digitale Visitenkarten kann Informationen über beide Seiten des Austauschs sammeln. Wer geteilt hat, wer angesehen hat, wann, wo, auf welchem Gerät, wie lange.
 
 Das soll keine Panikmache sein. Digitale Visitenkarten sind Papier wirklich überlegen - beim Netzwerken, für die Umwelt und weil deine Angaben aktuell bleiben. Aber nicht jede Plattform geht gleich sorgfältig mit deinen Daten um, und die wenigsten kommen überhaupt auf die Idee, danach zu fragen.
 
@@ -32,19 +33,19 @@ So läuft es normalerweise ab, wenn jemand sein Handy an deine NFC-Karte hält o
 3. Die Plattform protokolliert den Vorgang - mindestens mit einem Zeitstempel
 4. Je nach Plattform kommt noch mehr dazu: die IP-Adresse des Betrachters, Gerätetyp, Browser, ungefährer Standort, wie lange er auf deiner Karte bleibt, welche Links er anklickt
 
-So weit die Basis. Manche Plattformen gehen weiter.
+So weit die Basis. Eine Plattform kann noch mehr tun.
 
 ### Werbung an deine Kontakte
 
-Mehrere Plattformen für digitale Visitenkarten - vor allem in ihren Gratis-Tarifen - schicken Werbung an die Leute, die deine Karte ansehen. Konkret: Jemand scannt deinen QR-Code, um an deine E-Mail-Adresse zu kommen, und danach bekommt er von *der Plattform* Werbemails, er solle sich doch auch anmelden.
+Eine Plattform für digitale Visitenkarten kann den Leuten, die deine Karte ansehen, Werbung schicken. Konkret: Jemand scannt deinen QR-Code, um an deine E-Mail-Adresse zu kommen, und danach bekommt er von *der Plattform* Werbemails, er solle sich doch auch anmelden.
 
-Darum hast du nicht gebeten. Und die Person, die deine Karte angesehen hat, schon gar nicht. Aber es passiert, weil die Plattform wachsen will und deine Kontakte kostenlose Leads sind.
+Darum hast du nicht gebeten. Und die Person, die deine Karte angesehen hat, schon gar nicht. Das passiert, wenn eine Plattform wachsen will und deine Kontakte als kostenlose Leads sieht.
 
-Nicht jede Plattform macht das. Aber genug, dass sich ein Blick vor der Anmeldung lohnt.
+Ein Blick vor der Anmeldung lohnt sich.
 
 ### Gesprächsaufzeichnung
 
-Das dürfte einige überraschen. Manche Plattformen bieten inzwischen KI-Notizfunktionen an, die persönliche Gespräche mitschneiden. Der Pitch klingt verlockend: Du triffst jemanden auf einer Konferenz, drückst auf Aufnahme, und die KI hält die wichtigsten Punkte automatisch fest.
+Das dürfte einige überraschen. KI-Notizfunktionen können persönliche Gespräche mitschneiden. Der Pitch klingt verlockend: Du triffst jemanden auf einer Konferenz, drückst auf Aufnahme, und die KI hält die wichtigsten Punkte automatisch fest.
 
 Das Problem ist die Einwilligung. In vielen Rechtsräumen - dazu gehört der Großteil der EU mit der DSGVO, dazu gehören über ein Dutzend US-Bundesstaaten mit sogenannten Two-Party-Consent-Gesetzen - ist es illegal, ein Gespräch ohne Wissen oder ausdrückliche Zustimmung des Gegenübers aufzuzeichnen. Und selbst dort, wo es rechtlich durchgeht, wirft es ernsthafte ethische Fragen auf, ein Networking-Gespräch heimlich mitzuschneiden.
 
@@ -52,7 +53,7 @@ Die Person, die du gerade kennengelernt hast, glaubt, sie führt ein nettes Gesp
 
 ### Datenanreicherung
 
-Manche Plattformen bieten „KI-Kontaktanreicherung“ an: Du scannst eine Visitenkarte oder tauschst Kontaktdaten aus, und die Plattform holt sich automatisch zusätzliche Daten aus öffentlichen Quellen dazu - LinkedIn-Profile, Firmeninformationen, Social-Media-Konten.
+„KI-Kontaktanreicherung“ funktioniert so: Du scannst eine Visitenkarte oder tauschst Kontaktdaten aus, und die Plattform holt sich automatisch zusätzliche Daten aus öffentlichen Quellen dazu - LinkedIn-Profile, Firmeninformationen, Social-Media-Konten.
 
 Praktisch? Klar. Aber es heißt auch, dass die Plattform ein Profil von den Leuten anlegt, die du triffst - meist ohne deren Wissen. Deine Kontakte haben dem nie zugestimmt. Sie haben dir ihre Visitenkarte gegeben, nicht ihren kompletten digitalen Fußabdruck.
 
@@ -69,7 +70,7 @@ Darauf gibt es mehrere ehrliche Antworten:
 - **Abgreifen von Empfängerdaten** - Deine Kontakte werden zu Leads für die Plattform selbst.
 - **Datenaggregation** - Anonymisierte (oder auch nicht anonymisierte) Networking-Muster, die an Dritte verkauft werden.
 
-Nicht jeder Gratis-Tarif hat einen Haken. Manche Plattformen - Wave Connect zum Beispiel - bieten wirklich brauchbare Gratis-Tarife an, ohne deinen Kontakten Werbung zu schicken. Andere nutzen „gratis“ als Trichter, um Kontaktdaten im großen Stil einzusammeln.
+Nicht jeder Gratis-Tarif hat einen Haken, aber „gratis“ kann auch ein Trichter sein, um Kontaktdaten im großen Stil einzusammeln.
 
 Faustregel: Wenn eine Plattform unbegrenzt Funktionen verschenkt und kein erkennbares Geschäftsmodell hat, dann *sind deine Daten* das Geschäftsmodell.
 
@@ -97,7 +98,7 @@ Die DSGVO gibt dir ein Recht auf Datenübertragbarkeit: Du solltest alles herunt
 
 ### 5. Kannst du deinen Account wirklich löschen?
 
-Nicht „deaktivieren“. Löschen. Samt aller zugehörigen Daten, runter von den Servern. Manche Plattformen machen das erstaunlich schwer und verstecken es hinter einem Support-Ticket, statt es direkt in der App anzubieten.
+Nicht „deaktivieren“. Löschen. Samt aller zugehörigen Daten, runter von den Servern, und zwar in Eigenregie statt über ein Support-Ticket.
 
 ### 6. Kannst du den Zugriff steuern?
 
@@ -105,7 +106,7 @@ Kannst du dein Profil auf privat stellen? Mit einer PIN schützen? Festlegen, we
 
 ### 7. Zeichnet sie Audio auf?
 
-Das ist relativ neu, wird im Lead-Capture-Umfeld aber immer üblicher. Bietet eine Plattform Gesprächsaufzeichnung oder KI-Notizen an, solltest du dir über die rechtlichen Folgen im Klaren sein, bevor du das benutzt. In der EU verstößt es gegen die DSGVO, Gespräche ohne Einwilligung aller Beteiligten aufzuzeichnen. In den USA hängt es vom Bundesstaat ab.
+Bietet eine Plattform Gesprächsaufzeichnung oder KI-Notizen an, solltest du dir über die rechtlichen Folgen im Klaren sein, bevor du das benutzt. In der EU verstößt es gegen die DSGVO, Gespräche ohne Einwilligung aller Beteiligten aufzuzeichnen. In den USA hängt es vom Bundesstaat ab.
 
 ---
 
@@ -150,17 +151,17 @@ Als ich [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id650292
 
 **Keine Gesprächsaufzeichnung** - Ich zeichne kein Audio auf. Punkt. Ich finde, Networking sollte auf Vertrauen aufbauen, nicht auf Überwachung.
 
-**Keine Werbung an deine Kontakte** - Wer deine Karte ansieht, sieht deine Karte. Und bekommt von mir keine Marketing-Mails. Deine Kontakte gehören dir, sie sind nicht meine Leads.
+**Keine Werbung an deine Kontakte** - Wer deine Karte ansieht, sieht deine Karte. Und bekommt von mir keine Marketing-Mails. Deine Kontakte gehören dir, sie sind nicht meine Leads. Im Team-Plan kann dein Team Follow-up-E-Mails an Leute schicken, die über dein Lead-Formular ihre Daten hinterlassen.
 
-**Keine Datenmonetarisierung, keine Werbung** - Deine vCard- und Account-Daten liegen auf meinem Server, damit der Dienst funktioniert. Nichts davon wird für Werbung oder für die Verarbeitung durch Dritte genutzt.
+**Ich verkaufe deine Daten nicht** - Deine vCard- und Account-Daten liegen auf meinem Server, damit der Dienst funktioniert. NFC.cool verkauft deine Daten nicht, und die Business Card App zeigt keine Werbung.
 
-**DSGVO-Datenexport** - Lade dir jederzeit alles als ZIP herunter, Kontakte inklusive, auf dem iPhone genauso wie auf Android. Kein Support-Ticket, keine Wartezeit.
+**DSGVO-Datenexport** - Hol dir alles als ZIP, Kontakte inklusive, wann immer du willst. „Meine Daten exportieren“ findest du in der App auf iPhone und Android und im Web. Kein Support-Ticket.
 
-**Freie Wahl der NFC-Hardware** - Die App funktioniert mit jedem handelsüblichen NFC-Tag. NFC.cool verkauft keine NFC-Hardware - du kannst jeden Tag von jedem Anbieter nehmen, ohne proprietäres Tracking, das du nicht überprüfen kannst.
+**Freie Wahl der NFC-Hardware** - Die App funktioniert mit jedem handelsüblichen NFC-Tag, du kannst also jeden Tag nehmen, den du willst, ohne proprietäres Tracking, das du nicht überprüfen kannst.
 
-**Europäischer Indie-Entwickler** - Ich bin Solo-Entwickler und sitze in Portugal. Hinter mir stehen keine VC-Investoren, die auf Wachstumszahlen drängen und dafür Nutzerdaten zu Geld machen wollen. Mein Anreiz ist ein Produkt, dem die Leute vertrauen - nicht möglichst viele Daten einzusammeln.
+**Nicht VC-finanziert** - NFC.cool sitzt in Portugal, und keine VC-Investoren drängen mich, für Wachstumszahlen Nutzerdaten zu Geld zu machen. Mein Anreiz ist ein Produkt, dem die Leute vertrauen - nicht möglichst viele Daten einzusammeln. Wenn du eine Frage hast, bekommst du die Antwort von mir, dem Gründer.
 
-Perfekt bin ich nicht. CRM-Integrationen oder Webhooks habe ich noch nicht - dafür gibt es einen vollständigen Datenexport, um deine Kontakte rauszuholen. App Clip und Apple-Wallet-Pässe gibt es nur auf dem iPhone, Android-Empfänger öffnen deine Karte stattdessen im Browser. Mein Marketing-Budget ist ein Bruchteil von dem der großen Anbieter. Aber hinter meinem Datenschutz-Modell stehe ich voll und ganz, und ich bin überzeugt, dass es darauf ankommt.
+Auch deine Kontakte kannst du jederzeit mitnehmen. Jeder Plan enthält einen vollständigen Datenexport, und mit [NFC.cool Business Card for Teams](/de/business-card/teams/) können Leads direkt in HubSpot landen oder per Webhook überall sonst. Hinter meinem Datenschutz-Modell stehe ich voll und ganz, und ich bin überzeugt, dass es darauf ankommt.
 
 ---
 
@@ -191,4 +192,4 @@ Beim Datenschutz geht es nicht darum, etwas zu verbergen. Es geht um das Recht, 
 
 Wähl mit Bedacht.
 
-*Lust auf eine digitale Visitenkarte, bei der Datenschutz an erster Stelle steht? [Lade dir NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) fürs iPhone oder [hol sie dir für Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-de). App-Oberfläche und App Clip gibt es in 35 Sprachen.*
+*Lust auf eine digitale Visitenkarte, bei der Datenschutz an erster Stelle steht? [Sieh dir an, was NFC.cool Business Card kann](/de/business-card/), und [lade sie dir dann fürs iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-de&mt=8) oder [hol sie dir für Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-de). App-Oberfläche und App Clip gibt es in 35 Sprachen.*

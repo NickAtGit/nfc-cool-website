@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# Tarjeta de visita digital NFC.cool
 
-Tu tarjeta de visita en el móvil, para ti y para tu equipo. Compártela con un toque NFC o un código QR, y mira cuántas personas la guardan.
+Tu tarjeta de visita digital en el móvil, para ti y para tu equipo. Compártela con un toque NFC o un código QR, y mira cuántas personas la guardan.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-es&mt=8" class="landing-store-button is-apple" aria-label="Descargar en la App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ Tu tarjeta de visita en el móvil, para ti y para tu equipo. Compártela con un 
 
 ## Precios
 
-Una persona o un equipo entero. Cualquier tarjeta se puede guardar como contacto, también en Free. Personal y Pro añaden leads, estadísticas y una tarjeta sin nuestro nombre, y se compran en la app. Los equipos empiezan en la web, gratis durante 14 días, y pagan por persona, al año o al mes. En euros, el precio para equipos es la misma cifra.
+Una persona o un equipo entero. Cualquier tarjeta se puede guardar como contacto, también en Free. Personal y Pro añaden leads, estadísticas y una tarjeta sin nuestro nombre, y se compran en la app. Los equipos empiezan en la web, gratis durante 14 días, y pagan por persona, al año o al mes. En euros, el precio para equipos es la misma cifra. [Mira el precio para equipos y cómo se compara](/es/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ Una persona o un equipo entero. Cualquier tarjeta se puede guardar como contacto
 <article class="page-card">
 <h3>Tarjetas de visita inteligentes</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Creación de tarjetas digitales</strong> - crea tarjetas a la medida de tu marca</li>
+<li><strong>Tarjetas de visita digitales</strong> - crea tarjetas a la medida de tu marca</li>
 <li><strong>Hasta 10 tarjetas con Pro</strong> - para distintos roles, marcas o eventos</li>
 <li><strong>Importar desde Contactos</strong> - convierte cualquier contacto existente en una tarjeta</li>
 <li><strong>Siempre al día</strong> - los cambios se reflejan al instante, sin reimprimir</li>
@@ -145,7 +145,7 @@ Una persona o un equipo entero. Cualquier tarjeta se puede guardar como contacto
 <article class="page-card">
 <h3>Privacidad y seguridad</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Perfiles protegidos con PIN</strong> - PIN de 4 dígitos, verificación con límite de intentos</li>
+<li><strong>Perfiles protegidos con PIN</strong> - un PIN de 4 dígitos en las tarjetas privadas</li>
 <li><strong>Pública o privada</strong> - una tarjeta privada solo se abre con su PIN</li>
 <li><strong>Exportación de datos RGPD</strong> - descarga todo en un ZIP en cualquier momento</li>
 <li><strong>Seguridad de la sesión</strong> - caducidad automática de la sesión con PIN</li>
@@ -181,7 +181,7 @@ Una persona o un equipo entero. Cualquier tarjeta se puede guardar como contacto
 
 ## Qué añade el plan Team
 
-Una tarjeta personal pertenece a una persona. En un equipo, las tarjetas pertenecen a la empresa, y eso cambia lo que pueden hacer.
+Una tarjeta personal pertenece a una persona. En un equipo, las tarjetas pertenecen a la empresa, y eso cambia lo que pueden hacer. Más información sobre las [tarjetas de visita digitales para equipos](/es/business-card/teams/).
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Una sola bandeja para todos los leads</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>Todos los leads que recoge el equipo llegan a una bandeja compartida. Mira de quién es cada uno y en qué punto está, asígnalo a la persona adecuada y expórtalo todo como hoja de cálculo.</p></article>
@@ -249,7 +249,7 @@ Una tarjeta personal pertenece a una persona. En un equipo, las tarjetas pertene
 
 <details class="faq-item">
 <summary>¿Qué pasa si cancelo un plan de pago?</summary>
-<p>No se borra nada y tus tarjetas siguen en línea. Dejan de llegar leads nuevos y la gente solo puede guardar como contacto tantas tarjetas como permita tu plan. Las demás aparecen bloqueadas.</p>
+<p>No se borra nada. Con Personal o Pro, tus tarjetas siguen en línea: dejan de llegar leads nuevos y la gente solo puede guardar como contacto tantas tarjetas como permita tu plan. Las demás aparecen bloqueadas. En un equipo, cuando termina la suscripción, las tarjetas del equipo muestran una página de "no disponible temporalmente" hasta que vuelvas a suscribirte, y entonces todo vuelve a estar como antes.</p>
 </details>
 
 </div>

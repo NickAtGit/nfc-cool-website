@@ -36,7 +36,7 @@ Cara tercepat untuk menghubungi kami adalah melalui email. Kami membaca setiap p
 
 <details class="faq-item">
 <summary>Apakah aplikasinya gratis?</summary>
-<p>Ya - kedua aplikasi ini gratis di App Store dan Google Play, tanpa iklan. Beberapa alur kerja lanjutan dapat dibuka di dalam aplikasi, tetapi setiap fitur inti - NFC, QR, dokumen, 3D, dan Business Card - gratis.</p>
+<p>Ya - kedua aplikasi ini gratis di App Store dan Google Play. Beberapa alur kerja lanjutan dapat dibuka di dalam aplikasi, tetapi setiap fitur inti - NFC, QR, dokumen, 3D, dan Business Card - gratis.</p>
 </details>
 
 <details class="faq-item">
@@ -51,7 +51,7 @@ Cara tercepat untuk menghubungi kami adalah melalui email. Kami membaca setiap p
 
 <details class="faq-item">
 <summary>Apakah ada versi untuk Mac, iPad, atau Apple Watch?</summary>
-<p>NFC.cool Tools berjalan di iPhone dan iPad, serta di Mac juga - di Mac Apple Silicon tersedia sebagai aplikasi iPad yang kompatibel dengan Mac (<a href="/blog/nfc-cool-comes-to-mac/">baca tentang NFC.cool di Mac</a>). Pemindaian 3D dan Ruangan memerlukan iPad dengan LiDAR. Tidak ada aplikasi Apple Watch. NFC.cool Business Card hanya tersedia di iOS dan Android.</p>
+<p>NFC.cool Tools berjalan di iPhone dan iPad, serta di Mac juga - di Mac Apple Silicon tersedia sebagai aplikasi iPad yang kompatibel dengan Mac (<a href="/id/blog/nfc-cool-comes-to-mac/">baca tentang NFC.cool di Mac</a>). Pemindaian 3D dan Ruangan memerlukan iPad dengan LiDAR. Tidak ada aplikasi Apple Watch. NFC.cool Business Card hanya tersedia di iOS dan Android.</p>
 </details>
 
 <details class="faq-item">

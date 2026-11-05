@@ -57,7 +57,7 @@ subsections:
     platforms: "iOS"
 
   - title: "iPhone, iPad ve Mac arasında iCloud eşitleme"
-    body: "<p>Tarama geçmişin ve QR Stüdyosu tasarımların iCloud hesabındaki her cihaz arasında eşitlenir. QR kodu iPad'de tasarla, iPhone'dan paylaş, <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac'te</a> düzenle: aynı kitaplık, aynı düzenlemeler, ileri geri dosya taşımak yok.</p>"
+    body: "<p>Tarama geçmişin ve QR Stüdyosu tasarımların iCloud hesabındaki her cihaz arasında eşitlenir. QR kodu iPad'de tasarla, iPhone'dan paylaş, <a href=\"/tr/blog/nfc-cool-comes-to-mac/\">Mac'te</a> düzenle: aynı kitaplık, aynı düzenlemeler, ileri geri dosya taşımak yok.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "iPhone, iPad ve Mac arasında eşitlenen NFC.cool"
     platforms: "iOS"

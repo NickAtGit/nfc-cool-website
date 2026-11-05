@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Sayım ve etkinlik girişleri için webhook'lar"
-    body: "<p>Barkod tarayıcıyı kendi arka ofis sistemine doğrult. Okunan her barkod senin adresine webhook gönderir, böylece kamera ilerledikçe stok veritabanın, katılımcı sistemin ya da kütüphane kataloğun anlık güncellenir. JSON yükünün biçimi ve örnek sunucu için <a href=\"/features/webhooks/\">Webhook ve Otomasyon</a> sayfasına bak.</p>"
+    body: "<p>Barkod tarayıcıyı kendi arka ofis sistemine doğrult. Okunan her barkod senin adresine webhook gönderir, böylece kamera ilerledikçe stok veritabanın, katılımcı sistemin ya da kütüphane kataloğun anlık güncellenir. JSON yükünün biçimi ve örnek sunucu için <a href=\"/tr/features/webhooks/\">Webhook ve Otomasyon</a> sayfasına bak.</p>"
     platforms: "iOS"
 
   - title: "Kısayollar ve App Intents"
@@ -45,7 +45,7 @@ subsections:
     platforms: "iOS"
 
   - title: "iPhone, iPad ve Mac arasında iCloud eşitleme"
-    body: "<p>Barkod tarama geçmişin iCloud hesabındaki her cihaz arasında eşitlenir. Raf dolusu ürünü iPhone'la tara, listeyi iPad'de gözden geçir, taramalara <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac'te</a> başlık verip paylaş: tek bir eşitlenmiş geçmiş, elle taşınacak hiçbir şey yok.</p>"
+    body: "<p>Barkod tarama geçmişin iCloud hesabındaki her cihaz arasında eşitlenir. Raf dolusu ürünü iPhone'la tara, listeyi iPad'de gözden geçir, taramalara <a href=\"/tr/blog/nfc-cool-comes-to-mac/\">Mac'te</a> başlık verip paylaş: tek bir eşitlenmiş geçmiş, elle taşınacak hiçbir şey yok.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "iPhone, iPad ve Mac arasında eşitlenen NFC.cool"
     platforms: "iOS"

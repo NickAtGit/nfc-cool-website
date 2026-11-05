@@ -2,10 +2,11 @@
 id: nfc-blog-026
 title: "NFC.coolデジタル名刺のセットアップ"
 date: 2024-04-06
+lastModified: "2026-11-05"
 tags: ["business-cards", "guides"]
 summary: "NFC.coolデジタル名刺のセットアップ手順：連絡先を作成し、公開する項目を選び、NFCタグに書き込み、共有する。本格的なネットワーキングには、編集可能なURLが固定vCard QRに勝る理由も解説。"
 metaTitle: "NFC.coolデジタル名刺のセットアップ方法"
-metaDescription: "NFC.coolデジタル名刺のステップバイステップ・セットアップ - 作成、NFCへ書き込み、共有。編集可能なURLが固定vCardに勝る理由。"
+metaDescription: "NFC.coolデジタル名刺のセットアップ手順をステップごとに解説します。カードの作成、公開する項目の選択、NFCタグへの書き込み、共有まで。本格的なネットワーキングで、編集可能なURLが固定のvCard QRに勝る理由もお話しします。"
 ogTitle: "NFC.coolデジタル名刺のセットアップ"
 ogDescription: "NFC.coolデジタル名刺の構築、カスタマイズ、共有の手順を解説。"
 image: "/assets/images/Blog/business-card-service.webp"
@@ -24,17 +25,17 @@ NFC.cool Business Cardを[iPhone](https://apps.apple.com/app/apple-store/id65029
 
 ## 連絡先アプリでソース連絡先を作る
 
-iOSの連絡先（またはAndroidの連絡先）アプリを開き、世界に公開したい詳細であなた自身の連絡先を作成します：名前、組織、肩書き、仕事のメール、仕事の電話、ウェブサイト、LinkedIn URL。スペルと書式をダブルチェック - これがマスターレコードです。
+アプリの空のカードから始めることも、スマホの連絡先から始めることもできます。連絡先から始める場合は、iOSの連絡先（またはAndroidの連絡先）アプリを開き、世界に公開したい詳細であなた自身の連絡先を作成します：名前、組織、肩書き、仕事のメール、仕事の電話、ウェブサイト、LinkedIn URL。スペルと書式をダブルチェック - これがマスターレコードです。
 
 すべてを入れる必要はありません。機微な情報（個人の携帯、自宅住所）はこの連絡先から完全に外してOKです。
 
 ---
 
-## NFC.coolを開いて名刺を作成
+## NFC.cool Business Cardを開いてカードを作成
 
-NFC.cool内で**Business Card**セクションに移動し、**アカウント作成**をタップ。ユーザー名とPINを設定します - PINは今後の編集を守るものなので、なくさないように。
+アプリを開き、**名刺を作成**をタップします。
 
-**連絡先を開く**をタップし、今作った連絡先を選択。NFC.coolがデータを取り込み、ドラフト名刺として表示します。
+**連絡先から作成**を選んで今作った連絡先を選択するか、**新規作成**で空のカードから始めます。NFC.coolがデータを取り込み、ドラフト名刺として表示します。
 
 ---
 
@@ -44,17 +45,17 @@ NFC.cool内で**Business Card**セクションに移動し、**アカウント�
 
 よくある構成：
 
-- **営業：** 名前、役職、仕事の電話、仕事のメール、会社、LinkedIn。
-- **エンジニア：** 名前、役職、仕事のメール、GitHub、ウェブサイト。
-- **クリエイティブ：** 名前、役職、Instagram、ポートフォリオURL、仕事のメール。
+- **営業**：名前、役職、仕事の電話、仕事のメール、会社、LinkedIn。
+- **エンジニア**：名前、役職、仕事のメール、GitHub、ウェブサイト。
+- **クリエイティブ**：名前、役職、Instagram、ポートフォリオURL、仕事のメール。
 
-完了したら**次へ**をタップ。
+完了したら先に進みます。次にユーザー名を決めます。これはカードのリンクの末尾（mycard.nfc.cool/John）に入ります。続いてアカウントを作成すると、アプリがアカウントに4桁のPINを発行します。PINは設定で変更でき、カードを非公開にするときにも使えます。
 
 ---
 
 ## ロゴをカスタマイズ
 
-**Your logo** → **ロゴ変更**をタップして、会社のロゴまたは個人のマークをアップロード。透明背景のPNGが最もクリーンな結果になります - ライトテーマとダークテーマ両方で正しく合成されます。
+カードのメニューからロゴを変更し、会社のロゴまたは個人のマークをアップロードします。背景が透明な画像が最もきれいに仕上がります。ライトモードとダークモードで同じロゴを使うことも、それぞれ別のロゴを追加することもできます。
 
 ---
 
@@ -66,11 +67,11 @@ NFC.cool内で**Business Card**セクションに移動し、**アカウント�
 </ol>
 </figure>
 
-ここで物理面の話。NFCタグは[NFC.coolショップ](https://shop.nfc.cool/collections/all)または任意のサードパーティリテーラーから購入可能 - ステッカー、カード、キーリング、どんな形でも。
+ここで物理面の話。標準的なNFCタグならどれでも使えます - ステッカー、カード、キーリング、どんな形でも。何を買えばいいかは、[おすすめのNFCタグ](/ja/affiliate-links/)のページにまとめています。
 
-NFC.coolで**名刺をNFCタグに書き込む**をタップ。スマホをタグに当てます。アプリがnfc.cool上のあなたの名刺ページを指す短いURLを書き込みます。書き込まれたら、スマホを持つ誰でもタップできます。
+カードのメニューで**NFCタグに書き込む**（Androidでは**名刺をNFCタグに書き込む**）をタップ。スマホをタグに当てます。アプリがnfc.cool上のあなたの名刺ページを指す短いURLを書き込みます。書き込まれたら、スマホを持つ誰でもタップできます。
 
-URLが後で上書きされないようタグをロックしたい場合、書き込み成功後に**ロック**をタップ。これは不可逆 - 確信のあるタグだけロックしましょう。
+URLが後で上書きされないようタグをロックしたい場合は、[NFC.cool Tools](/ja/features/nfc-reader-writer/)のPlatinumサブスクリプションでロックできます。ロックは不可逆 - 確信のあるタグだけロックしましょう。
 
 ---
 
@@ -82,7 +83,7 @@ URLが後で上書きされないようタグをロックしたい場合、書�
 </ol>
 </figure>
 
-**名刺を表示**をタップして、受信者が見るものとまったく同じものを確認します。ページはモバイルファースト、即座に読み込まれ、ワンタップの「連絡先に保存」ボタンを提供します。iOSの受信者はネイティブのApp Clipを見ます（アプリインストール不要）。Androidの受信者はnfc.coolドメインのクリーンなウェブページを見ます。両方とも結果として、あなたの連絡先がアドレス帳に入ります。
+カードのメニューで**プレビュー**（Androidでは**名刺をプレビュー**）をタップして、受信者が見るものとまったく同じものを確認します。ページはモバイルファースト、即座に読み込まれ、ワンタップの「連絡先を保存」ボタンを提供します。iOSの受信者はネイティブのApp Clipを見ます（アプリインストール不要）。Androidの受信者はnfc.coolドメインのクリーンなウェブページを見ます。両方とも結果として、あなたの連絡先がアドレス帳に入ります。
 
 ---
 
@@ -96,4 +97,4 @@ NFC.coolフローは連絡先詳細をサーバーに保持します。タグ（
 
 それが本格的なネットワーキングで唯一重要な機能です - データが印刷された名刺より長生きする。
 
-[NFC.cool Tools（iPhone）](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-ja&mt=8) · [NFC.cool Tools（Android）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ja) · または単独アプリのNFC.cool Business Cardを[iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-ja&mt=8)と[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ja)で。
+[NFC.cool Tools（iPhone）](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-ja&mt=8) · [NFC.cool Tools（Android）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ja) · または単独アプリの[NFC.cool Business Card](/ja/business-card/)を[iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-ja&mt=8)と[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ja)で。

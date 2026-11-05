@@ -15,7 +15,7 @@ ogDescription: "Satın alabileceğin her NFC çipi için bellek, güvenlik, daya
 
 Bir paket NFC tag'in ilanını açıyorsun. "NFC 213" yazıyor, ya da "NTAG215 uyumlu", ya da sadece "1K NFC kart, tüm telefonlarla çalışır". Tek bir şey öğrenmek istiyorsun: aklımdaki işi görür mü? İlan bunu söyleyemiyor, çünkü onu yazan kişi de bilmiyor.
 
-Yıllardır [NFC.cool Tools](/features/nfc-reader-writer/) uygulamasını geliştiriyorum. Uygulamanın her okutmadaki ilk işi tam olarak bu soruyu yanıtlamak: bu hangi çip ve ne yapabilir? Yalnızca tanımlama kodu, yedi üreticiden altmış civarında ürünü tanıyor ve her biri o listeye, biri onu telefona yaklaştırdığında ilanda vaat edilen gibi davranmadığı için girdi. Bu rehber, o kodu yazarken keşke elimde olsaydı dediğim başvuru kaynağı. Bilerek uzun. Kısa sürümünü istiyorsan [NFC tag'lere yeni başlayanlar rehberi](/blog/nfc-tags-beginners-guide/) iyi bir başlangıç; o da ayrıntı için buraya bağlantı veriyor.
+Yıllardır [NFC.cool Tools](/tr/features/nfc-reader-writer/) uygulamasını geliştiriyorum. Uygulamanın her okutmadaki ilk işi tam olarak bu soruyu yanıtlamak: bu hangi çip ve ne yapabilir? Yalnızca tanımlama kodu, yedi üreticiden altmış civarında ürünü tanıyor ve her biri o listeye, biri onu telefona yaklaştırdığında ilanda vaat edilen gibi davranmadığı için girdi. Bu rehber, o kodu yazarken keşke elimde olsaydı dediğim başvuru kaynağı. Bilerek uzun. Kısa sürümünü istiyorsan [NFC tag'lere yeni başlayanlar rehberi](/tr/blog/nfc-tags-beginners-guide/) iyi bir başlangıç; o da ayrıntı için buraya bağlantı veriyor.
 
 Tablolardan önce aklında olsun diye tek cümlelik özet: **en iyi NFC tag diye bir şey yok, yalnızca işe uygun çip var**. İşi de üç şey belirliyor: ne kadar veri saklaman gerektiği, kimi dışarıda tutman gerektiği ve onu neyin okuyabilmesi gerektiği.
 
@@ -25,7 +25,7 @@ Tablolardan önce aklında olsun diye tek cümlelik özet: **en iyi NFC tag diye
 
 Bu rehberdeki her rakam bir üreticinin veri sayfasından, Apple'ın ya da Google'ın platform belgelerinden veya kendi uygulamamın kodundan geliyor; [kaynaklar](#kaynaklar-ve-ek-okumalar) en sonda listeli. Bir çip masama geldiyse bunu "Kendi deneyimim" notunda söylüyorum. Gelmediyse onu da söylüyorum: egzotik parçalar veri sayfalarından geliyor ve veri sayfası bir ölçüm değil, bir vaattir.
 
-Burada bulamayacağın iki şey var: ilk tag'ini adım adım yazma anlatımı (o [yazma rehberinde](/blog/write-nfc-tags-iphone/)) ve [ayrı bir yazısı](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/) olan NTAG 424 DNA'nın bütün hikayesi.
+Burada bulamayacağın iki şey var: ilk tag'ini adım adım yazma anlatımı (o [yazma rehberinde](/tr/blog/write-nfc-tags-iphone/)) ve [ayrı bir yazısı](/tr/blog/ntag-424-dna-counterfeit-proof-nfc-tags/) olan NTAG 424 DNA'nın bütün hikayesi.
 
 - [NFC tag fiziksel olarak nedir](#nfc-tag-fiziksel-olarak-nedir)
 - [Kısaltma çorbası: standartlar, Forum tipleri ve NFC olmayanlar](#kısaltma-çorbası-standartlar-forum-tipleri-ve-nfc-olmayanlar)
@@ -106,10 +106,10 @@ Aldığım "telefonum bunu neden okumuyor" mesajlarının yarısı aslında hiç
 | mağaza hırsızlık önleme ya da lojistik etiketi | 860-960 MHz | UHF RAIN RFID, EPC Gen2 | hayır |
 | otel anahtarı ya da eski ulaşım kartı | 13,56 MHz | MIFARE Classic ya da tescilli bir HF kart | Android bazen; iPhone yalnızca UID'yi gösterir |
 | banka kartı | 13,56 MHz | ISO-DEP konuşan EMV akıllı kart | teknik olarak evet; uygulama kartın uygulama listesini ve herkese açık verilerini okuyabilir, ama Apple'ın Core NFC'si ödeme kartı okumayı engelliyor ve hiçbir telefon çalışan bir kopya üretemez |
-| pasaport | 13,56 MHz | ICAO 9303 e-belge | evet, anahtar olarak makine tarafından okunabilir bölgeyle; [bunu ben yaptım](/blog/read-passport-nfc-chip/) |
+| pasaport | 13,56 MHz | ICAO 9303 e-belge | evet, anahtar olarak makine tarafından okunabilir bölgeyle; [bunu ben yaptım](/tr/blog/read-passport-nfc-chip/) |
 | güvenlik anahtarı | 13,56 MHz | ISO 7816 üzerinden çalışan FIDO2 kimlik doğrulayıcı | tarayıcı için evet, tag olarak hayır |
 
-Asıl can sıkan 125 kHz'lik kart. Kapıdaki okuyucuya uyuyor, içinde bobin olan plastik bir kart ve asla bir telefonla konuşmayacak. [iPhone'un site kapısını neden açamadığını](/blog/iphone-rfid-condo-doors/) ayrıca yazdım, çünkü dürüst yanıt donanımda yatıyor.
+Asıl can sıkan 125 kHz'lik kart. Kapıdaki okuyucuya uyuyor, içinde bobin olan plastik bir kart ve asla bir telefonla konuşmayacak. [iPhone'un site kapısını neden açamadığını](/tr/blog/iphone-rfid-condo-doors/) ayrıca yazdım, çünkü dürüst yanıt donanımda yatıyor.
 
 ---
 
@@ -308,7 +308,7 @@ NTAG215 aynı yapıda; kullanıcı belleği 81. sayfaya kadar gidiyor, yapıland
 
 ### Tip 4: NTAG 424 DNA dosya sistemi
 
-Sayfa yok. D2760000850101 adlı bir ISO 7816 uygulaması üç dosya içerir: 32 baytlık yetenek kapsayıcısı (E103), 256 baytlık NDEF dosyası (E104) ve 128 baytlık tescilli dosya (E105). Her dosyanın kendi okuma, yazma ve değiştirme erişim hakları var ve her biri beş AES anahtarından birine bağlı. DESFire da aynı şekilde çalışır ama kendi uygulamalarını ve dosyalarını oluşturmana izin verir; NTAG 424 DNA'nın üç dosyası ise sabit. Onu [üç çekmeceli, küçük, kilitli bir kasa](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/) diye anlatmamın nedeni bu.
+Sayfa yok. D2760000850101 adlı bir ISO 7816 uygulaması üç dosya içerir: 32 baytlık yetenek kapsayıcısı (E103), 256 baytlık NDEF dosyası (E104) ve 128 baytlık tescilli dosya (E105). Her dosyanın kendi okuma, yazma ve değiştirme erişim hakları var ve her biri beş AES anahtarından birine bağlı. DESFire da aynı şekilde çalışır ama kendi uygulamalarını ve dosyalarını oluşturmana izin verir; NTAG 424 DNA'nın üç dosyası ise sabit. Onu [üç çekmeceli, küçük, kilitli bir kasa](/tr/blog/ntag-424-dna-counterfeit-proof-nfc-tags/) diye anlatmamın nedeni bu.
 
 ### Tip 5: ISO 15693 blokları
 
@@ -329,13 +329,13 @@ Classic 1K'da her biri 16 baytlık 4 bloktan oluşan 16 sektör var. Her sektör
 | bağlantı, Wi-Fi ağı, kısayol tetikleyicisi, bir eşyaya yapışan etiket | NTAG213 | 131 karakter URL, parola, sayaç, sekiz sent | iPhone, Android, iPad ve Mac'te tam |
 | kişi kartı, daha uzun bağlantı, büyüme payı gereken her şey | NTAG216 | 859 karakter, aynı özellikler, testlerimi üzerinde yaptığım çip | tam |
 | Amiibo | NTAG215 | konsol tam olarak bu çipi ve onun 504 baytını arar | iki platformda da yedekleme ve geri yükleme |
-| posterde, kartvizitte, demo cihazında okutmaları saymak | NTAG213, 215 ya da 216 | donanım okuma sayacı ve ASCII aynası; uygulamanın okutma sayacının desteklediği üç çip de bunlar | iki platformda da [okutma sayacı](/blog/count-nfc-tag-scans/) |
+| posterde, kartvizitte, demo cihazında okutmaları saymak | NTAG213, 215 ya da 216 | donanım okuma sayacı ve ASCII aynası; uygulamanın okutma sayacının desteklediği üç çip de bunlar | iki platformda da [okutma sayacı](/tr/blog/count-nfc-tag-scans/) |
 | minik anten, yüzük, ucuz tek kullanımlık | NTAG 210µ ya da Ultralight EV1 48 B | 48 bayt, küçük bobinler için 17 pF, parola yok | okuma ve yazma |
 | ürünün gerçek olduğunu kanıtlamak, tek okutmayla, uygulamasız | NTAG 424 DNA | her okutma kendini AES-128 ile imzalar; kopya bunu yapamaz | imza kontrolü dahil tam yapılandırma |
 | aynısı, ama ucuz bir Tip 2 etiket olarak | NTAG 223 DNA | Tip 2 çipte SUN, 144 bayt | Tip 2 tag olarak görünür; SUN kurulumu henüz desteklenmiyor |
 | açıldığında bunu bildiren mühür | NTAG 213 TT, NTAG 424 DNA TT, ST25TV02KC-T | kalıcı olarak hatırlanan bir kurcalama teli | 424 TT tam; diğerleri temel çipleri olarak okunur |
 | geçiş kapısı okuyucusuyla, kol boyu mesafeden envanter ya da kütüphane | ICODE SLIX2 ya da ICODE 3 | ISO 15693 düzgün bir okuyucuyla 1-1,5 metreden okunur, telefonla da okutulabilir | iki platformda da okuma, yazma, biçimlendirme |
-| yazıcının kendisinin okuması gereken 3B yazıcı makarası | ICODE SLIX2 | [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/) standardı NFC-V bekliyor | okuma ve yazma |
+| yazıcının kendisinin okuması gereken 3B yazıcı makarası | ICODE SLIX2 | [OpenPrintTag](/tr/blog/openprinttag-read-write-nfc-spools-phone/) standardı NFC-V bekliyor | okuma ve yazma |
 | kapı, turnike, ulaşım sistemi | DESFire EV3 ya da MIFARE Plus EV2 | AES, gerçek anahtar yönetimi, sertifikalı güvenlik | herkese açık kısmı tanımlar ve döker; anahtar işlemi yok |
 | mikrodenetleyiciyle konuşan pilsiz sensör | NTAG I2C plus, ST25DV, NTAG 5 | aynı kalıpta I2C arayüzü ve enerji hasadı | NFC yüzü olarak okunur |
 | Japonya'nın ulaşım ya da e-para dünyasındaki her şey | FeliCa | oradaki okuyucuların konuştuğu dil bu | okuma; iPhone'da Lite-S ve Standard'a NDEF yazma |
@@ -372,7 +372,7 @@ Tüketicilere satılan neredeyse her NFC etiketinde, jetonunda ve kartında bu �
 
 Hepsi NFC Forum Tip 2, ISO/IEC 14443 Type A, 7 baytlık UID, 106 kbit/s ve -25 ile +70 °C için derecelendirilmiş. NTAG210 ve NTAG212 küçük antenler için 17 pF giriş kapasitansıyla gelir; 213, 215 ve 216'da bu değer 50 pF. Orijinallik imzası secp128r1 eğrisinde ECDSA, 32 bayt ve READ_SIG komutuyla okunuyor. Doğrulama anahtarı herkese açık olmayan bir NXP uygulama notunda duruyor; neredeyse hiçbir tüketici uygulamasının imzayı kontrol etmemesinin nedeni bu.
 
-Pratikte önemli olan üç özellik var. **Parola**: 32 bitlik PWD, tag'in yanıt olarak verdiği 16 bitlik PACK, korumanın nereden başladığını söyleyen AUTH0 ve seçtiğin sayıda yanlış tahminden sonra tag'i kullanılmaz hale getiren AUTHLIM. **NFC sayacı**: 24 bit, her okuma oturumunda bir artar, özel bir komutla okunur. **ASCII aynası**: UID'yi ve sayacı metin olarak NDEF mesajına yapıştırır, böylece düz bir URL her okutmada `https://example.com/?u=04A1...&c=000123` haline gelir. Hakkında yazdığım Philips Sonicare fırça başlıkları, AUTHLIM'i üçe ayarlanmış bir NTAG213 kullanıyor; yanlış tahmin edince [fırça başlığının kendini kilitlemesi](/blog/reset-sonicare-brush-head-nfc/) bundan.
+Pratikte önemli olan üç özellik var. **Parola**: 32 bitlik PWD, tag'in yanıt olarak verdiği 16 bitlik PACK, korumanın nereden başladığını söyleyen AUTH0 ve seçtiğin sayıda yanlış tahminden sonra tag'i kullanılmaz hale getiren AUTHLIM. **NFC sayacı**: 24 bit, her okuma oturumunda bir artar, özel bir komutla okunur. **ASCII aynası**: UID'yi ve sayacı metin olarak NDEF mesajına yapıştırır, böylece düz bir URL her okutmada `https://example.com/?u=04A1...&c=000123` haline gelir. Hakkında yazdığım Philips Sonicare fırça başlıkları, AUTHLIM'i üçe ayarlanmış bir NTAG213 kullanıyor; yanlış tahmin edince [fırça başlığının kendini kilitlemesi](/tr/blog/reset-sonicare-brush-head-nfc/) bundan.
 
 > **Kendi deneyimim:** her sürümü bu çiplerle test ediyorum ve biri tek paket alıp bir daha düşünmek istemediğinde önerdiğim çip NTAG216. Herkese açık bir yerde bıraktığın her şeye parola koymaya değer; ücretsiz uygulaması olan kişiyi, yani çoğu insanı durdurur. Dinleme cihazı olan kimseyi durdurmaz, çünkü parolanın kendisi havada şifrelenmeden gidiyor; bunu uygulamada da açıkça söylüyorum.
 
@@ -395,7 +395,7 @@ Telefonlarda: her şeyde NDEF okuma ve yazma, iPhone'da URL kayıtlarının arka
 
 </div>
 
-**SUN** (Secure Unique NFC), bu çipleri NTAG213'ün üç katı fiyata değer kılan özellik: tag, UID'sini ve okuma sayacını URL'ye yansıtır ve bunların üzerine her okutmada yeniden hesaplanan bir AES-128 CMAC ekler. Sunucu MAC'i kontrol eder; klonlanmış tag'in anahtarı yoktur ve kontrolden geçemez. LRP modu ve beş anahtar dahil hepsini [NTAG 424 DNA yazısında](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/) anlattım, o yüzden burada yalnızca o zamandan beri değişenler var: NXP artık NTAG 426Q DNA'yı ve EAL6+ sertifikalı, 16 kB'lık bağlantılı bir Tip 4 çip olan NTAG X DNA'yı da satıyor. Yani 424 artık en yeni DNA çipi değil; yalnızca etiket olarak gerçekten satın alabildiğin çip.
+**SUN** (Secure Unique NFC), bu çipleri NTAG213'ün üç katı fiyata değer kılan özellik: tag, UID'sini ve okuma sayacını URL'ye yansıtır ve bunların üzerine her okutmada yeniden hesaplanan bir AES-128 CMAC ekler. Sunucu MAC'i kontrol eder; klonlanmış tag'in anahtarı yoktur ve kontrolden geçemez. LRP modu ve beş anahtar dahil hepsini [NTAG 424 DNA yazısında](/tr/blog/ntag-424-dna-counterfeit-proof-nfc-tags/) anlattım, o yüzden burada yalnızca o zamandan beri değişenler var: NXP artık NTAG 426Q DNA'yı ve EAL6+ sertifikalı, 16 kB'lık bağlantılı bir Tip 4 çip olan NTAG X DNA'yı da satıyor. Yani 424 artık en yeni DNA çipi değil; yalnızca etiket olarak gerçekten satın alabildiğin çip.
 
 22x DNA ailesi ilginç bir yeni gelen: Tip 2 çipte SUN. Etiket daha ucuz ve telefon onu düz bir NTAG olarak okuyor. **StatusDetect** varyantları bir sensör ekliyor: ya koptuğunu geri dönüşsüz kaydeden iletken bir döngü ya da iki pin arasında 0-11 pF aralığında kapasitans ölçümü. NXP ikincisini sıvı seviyesi, nem ve basınç için öneriyor.
 
@@ -566,7 +566,7 @@ Bu, ilanların okumanı istemediği bölüm.
 
 Magic NTAG21x kartlar da var ve tam öykünen olanlar kopyalanmış bir orijinallik imzasını bile kabul ediyor. NXP'nin statik imzalar konusundaki uyarısı da tam olarak bu.
 
-**Amiibo için "NTAG215 uyumlu".** Amiibo, 540 baytında tag'in kendi UID'sinden türetilen anahtarlarla şifrelenmiş ve imzalanmış veri taşıyan düz bir NTAG215. Baytları başka bir tag'e kopyalarsan imzalar artık tutmaz. Yedeğin hedef UID'ye göre yeniden anahtarlanması gerekmesinin nedeni bu ve NFC.cool'un [Amiibo yedekleme ve geri yükleme](/blog/amiibo-iphone-android-read-collect-backup/) özelliği de tam olarak bunu yapıyor. Konsolun okuma sırası GET_VERSION ile başlar, ardından UID'den türetilen parolayla kimlik doğrulama gelir, sonra yapılandırma sayfaları dahil 135 sayfanın tamamı okunur. GET_VERSION'ı olmayan ya da 135 yerine 45 sayfası olan çip ilk adımda takılır. TagMo'nun belgeleri bunu tek satırda söylüyor: yalnızca NTAG215 tanınır.
+**Amiibo için "NTAG215 uyumlu".** Amiibo, 540 baytında tag'in kendi UID'sinden türetilen anahtarlarla şifrelenmiş ve imzalanmış veri taşıyan düz bir NTAG215. Baytları başka bir tag'e kopyalarsan imzalar artık tutmaz. Yedeğin hedef UID'ye göre yeniden anahtarlanması gerekmesinin nedeni bu ve NFC.cool'un [Amiibo yedekleme ve geri yükleme](/tr/blog/amiibo-iphone-android-read-collect-backup/) özelliği de tam olarak bunu yapıyor. Konsolun okuma sırası GET_VERSION ile başlar, ardından UID'den türetilen parolayla kimlik doğrulama gelir, sonra yapılandırma sayfaları dahil 135 sayfanın tamamı okunur. GET_VERSION'ı olmayan ya da 135 yerine 45 sayfası olan çip ilk adımda takılır. TagMo'nun belgeleri bunu tek satırda söylüyor: yalnızca NTAG215 tanınır.
 
 **Klon uygulamada nasıl görünür.** NFC.cool önce GET_VERSION ile tanımlıyor. Buna yanıt vermeyen ya da ilan ettiğiyle eşleşmeyen bir bellek boyutu bildiren çip, ilandaki adıyla değil, gerçekte ne olduğuyla adlandırılıyor. NTAG 424 DNA'da uygulama bir adım daha ileri gidip ECDSA orijinallik imzasını NXP'nin açık anahtarıyla doğruluyor; uygulamada kriptografik dayanakla "Genuine NXP" diyebilen tek yer burası. NTAG21x'te uygulama imzayı okumuyor; kısmen NXP'nin doğrulama anahtarı gizlilik sözleşmesi (NDA) kapsamında olduğu için, kısmen de kopyalanmış statik bir imza zaten kontrolden geçtiği için. Tip 2 tag için dürüst kanıt zinciri şu: üretici kodu, GET_VERSION, bellek boyutu ve çipin iddia ettiği özelliklerin gerçekten var olması.
 
@@ -591,7 +591,7 @@ Tag'in ne yapabileceğine çip karar verir; telefonun ona ulaşıp ulaşamayaca�
 
 İki fiziksel kural, "okumuyor" şikayetlerinin çoğunu açıklıyor. **Menzili anten boyutu belirler**, kabaca: kart jetondan, jeton 10 mm'lik inlay'den daha uzaktan okunur, implant ise neredeyse temas ister. **Metal anteni bozar**: metal yüzeydeki bobin metalde girdap akımları indükler, bobinin endüktansı düşer ve rezonansı 13,56 MHz'den kayar; çelik dolaba yapıştırılmış normal bir tag bu yüzden ölüdür. Bobinle metal arasına konan ferrit tabaka alanı yönlendirip tag'i geri getirir, ama bedeli daha kısa menzil ve daha yüksek maliyet. Metal üstü tag'lerin üç kat pahalı olmasının nedeni bu.
 
-Telefonu nerede tuttuğun da tag kadar önemli. iPhone'da anten üst kenarda; Apple'ın kendi talimatı da "iPhone'unun üst kısmını" tag'e "yakın tut" diyor. Android'de modele göre değişiyor, genelde arka yüzün ortası ya da kameranın yakını. [Yeni başlayanlar rehberinde](/blog/nfc-tags-beginners-guide/) adım adım anlatım var.
+Telefonu nerede tuttuğun da tag kadar önemli. iPhone'da anten üst kenarda; Apple'ın kendi talimatı da "iPhone'unun üst kısmını" tag'e "yakın tut" diyor. Android'de modele göre değişiyor, genelde arka yüzün ortası ya da kameranın yakını. [Yeni başlayanlar rehberinde](/tr/blog/nfc-tags-beginners-guide/) adım adım anlatım var.
 
 ---
 
@@ -624,8 +624,8 @@ Birkaç satır ayrıca bir cümleyi hak ediyor.
 - **iPhone'da arka planda okuma** yalnızca NDEF URL kaydı için, yalnızca telefonun kilidi açıkken ve telefon kullanımdayken çalışır; kamera, Wallet, bir okuma oturumu ya da uçak modu etkinken çalışmaz. Asla ham bir çipi okumaz. iPhone XS ve sonrasında var.
 - **Hangi iPhone'lar tag okuyabiliyor:** Apple'ın WWDC 2019 oturumuna göre uygulama içinde iPhone 7 ve sonrası. Yazma ve ham komutlar iOS 13 ile geldi.
 - **Android'in `MifareClassic` sınıfı isteğe bağlı.** Google'ın kendi sözleriyle: "uygulanmamışsa MifareClassic asla listelenmez". Belirleyici olan Android sürümü değil, denetleyici.
-- **Web NFC** yalnızca NDEF; Chrome 89 ve sonrası, yalnızca Android. Apple'ın ona karşı olumsuz bir tutumu var, yani Safari sürümü olmayacak. Bu sitedeki [çevrimiçi NFC okuyucunun](/online-nfc-reader/) Android'de çalışıp iPhone kullanıcılarını uygulamaya yönlendirmesinin nedeni bu.
-- **iPad ve Mac'te NFC radyosu yok.** NFC.cool 6.15.0'dan beri uygulama bunun yerine Apple'ın akıllı kart altyapısı üzerinden bir USB CCID okuyucuyla konuşuyor. Test ettiğim model HID OMNIKEY 5022 CL; ACS ACR1552U-M1 ve ACR1255U-J1'in çalıştığını ise kullanıcılar bildirdi. Sınırları [ilgili yazıda](/blog/nfc-reading-ipad-mac/) listeledim. NTAG parolası belirlemek okuyucuyla çalışıyor; kaldırmak ise OMNIKEY'in reddettiği bir komut gerektiriyor, yani o iş telefona kalıyor.
+- **Web NFC** yalnızca NDEF; Chrome 89 ve sonrası, yalnızca Android. Apple'ın ona karşı olumsuz bir tutumu var, yani Safari sürümü olmayacak. Bu sitedeki [çevrimiçi NFC okuyucunun](/tr/online-nfc-reader/) Android'de çalışıp iPhone kullanıcılarını uygulamaya yönlendirmesinin nedeni bu.
+- **iPad ve Mac'te NFC radyosu yok.** NFC.cool 6.15.0'dan beri uygulama bunun yerine Apple'ın akıllı kart altyapısı üzerinden bir USB CCID okuyucuyla konuşuyor. Test ettiğim model HID OMNIKEY 5022 CL; ACS ACR1552U-M1 ve ACR1255U-J1'in çalıştığını ise kullanıcılar bildirdi. Sınırları [ilgili yazıda](/tr/blog/nfc-reading-ipad-mac/) listeledim. NTAG parolası belirlemek okuyucuyla çalışıyor; kaldırmak ise OMNIKEY'in reddettiği bir komut gerektiriyor, yani o iş telefona kalıyor.
 - **ACS ACR122U, ISO 15693 desteklemiyor**; ACR1252U ve ACR1255U-J1 de desteklemiyor. ACS serisinde bunu yalnızca ACR1552U yapıyor. OMNIKEY 5022 ise ikisini de yapıyor. Kütüphane tag'leri için okuyucu almadan önce bilmeye değer.
 - **Proxmark3 ve Flipper Zero**, MIFARE Classic anahtarlarını kurtarıp kartlara öykünebilen araçlar. Varlık nedenleri bu; rehberde yer almalarının nedeni de "onu ne okur" sorusunun yanıtının onlarsız dürüst olmayacak olması.
 
@@ -700,7 +700,7 @@ Tehlike işaretleri: "NTAG215 uyumlu" (NTAG215 değildir), merdivenin 4. basama�
 
 Örüntü tahmin edeceğin gibi: bellek neredeyse bedava, kriptografi fiyatı aşağı yukarı ikiye katlıyor, form faktörü de çipten pahalı. Çıplak bir NTAG213 kalıbı on dört sent; fiyatın çoğu onu saran etiket.
 
-Nereden alınır: Gerçekten kullandığım tag'lerin ve okuyucuların listesini [satış ortaklığı bağlantıları sayfasında](/affiliate-links/) tutuyorum. Bütün DNA özelliklerini başlatan 424 tag'ler de AliExpress'ten geldi, yani sana pazar yerlerinden uzak dur demeyeceğim. Bir şey yazmadan önce gelen ürünü uygulamayla kontrol et.
+Nereden alınır: Gerçekten kullandığım tag'lerin ve okuyucuların listesini [satış ortaklığı bağlantıları sayfasında](/tr/affiliate-links/) tutuyorum. Bütün DNA özelliklerini başlatan 424 tag'ler de AliExpress'ten geldi, yani sana pazar yerlerinden uzak dur demeyeceğim. Bir şey yazmadan önce gelen ürünü uygulamayla kontrol et.
 
 ---
 
@@ -941,4 +941,4 @@ Bu rehberdeki her tablo bunlardan biriyle karşılaştırılarak kontrol edildi.
 
 Çipi işe göre seç. Bağlantı için NTAG213, emin değilsen NTAG216, Amiibo için NTAG215, okutmanın bir şey kanıtlaması gerekiyorsa NTAG 424 DNA, bir geçiş kapısının okuması gerekiyorsa ICODE SLIX2 ya da ICODE 3, bir kapının ona güvenmesi gerekiyorsa DESFire EV3 ve MIFARE Classic rafından hiçbir şey. Bu rehberdeki geri kalan her şey o cümlenin gerekçesi; tablolar da bir daha asla bir ilanın sözüne güvenmek zorunda kalmaman için orada.
 
-Bir tag'e yazmadan önce onun gerçekte ne olduğunu görmek istiyorsan, [NFC.cool Tools](/features/nfc-reader-writer/) her okutmada tam olarak bunu yapıyor: [iPhone'da](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ultimate-nfc-tag-guide-tr&mt=8), [Android'de](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ultimate-nfc-tag-guide-tr) ve okuyucu takılı bir iPad'de ya da Mac'te. Masanda uygulamanın yanlış adlandırdığı ya da hiç adlandıramadığı bir çip varsa bana yaz. O altmış çipin çoğu listeye böyle girdi.
+Bir tag'e yazmadan önce onun gerçekte ne olduğunu görmek istiyorsan, [NFC.cool Tools](/tr/features/nfc-reader-writer/) her okutmada tam olarak bunu yapıyor: [iPhone'da](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ultimate-nfc-tag-guide-tr&mt=8), [Android'de](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ultimate-nfc-tag-guide-tr) ve okuyucu takılı bir iPad'de ya da Mac'te. Masanda uygulamanın yanlış adlandırdığı ya da hiç adlandıramadığı bir çip varsa bana yaz. O altmış çipin çoğu listeye böyle girdi.

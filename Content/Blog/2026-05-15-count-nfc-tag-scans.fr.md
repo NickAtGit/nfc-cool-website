@@ -23,7 +23,7 @@ Il existe une méthode plus simple, et elle est logée dans la puce NFC depuis l
 
 ## Ce qu'est réellement un NFC Tap Counter
 
-La plupart des [autocollants NFC que vous pouvez acheter](/affiliate-links/) utilisent des puces de la famille NTAG21x - `NTAG213`, `NTAG215` et `NTAG216`. Ces puces ont une petite fonction dont, je trouve, la plupart des gens ignoraient l'existence : un compteur intégré. Chaque fois que le tag est lu, le compteur augmente d'une unité. Il réside dans le matériel de la puce, pas dans une app, et pas sur un serveur. (Si vous voulez le détail plus poussé de ces puces, je les ai traitées dans [les types de tags NFC pour iPhone](/blog/nfc-tag-types-for-iphones/).)
+La plupart des [autocollants NFC que vous pouvez acheter](/fr/affiliate-links/) utilisent des puces de la famille NTAG21x - `NTAG213`, `NTAG215` et `NTAG216`. Ces puces ont une petite fonction dont, je trouve, la plupart des gens ignoraient l'existence : un compteur intégré. Chaque fois que le tag est lu, le compteur augmente d'une unité. Il réside dans le matériel de la puce, pas dans une app, et pas sur un serveur. (Si vous voulez le détail plus poussé de ces puces, je les ai traitées dans [les types de tags NFC pour iPhone](/fr/blog/nfc-tag-types-for-iphones/).)
 
 La façon dont je le décris, c'est un compteur kilométrique pour le tag. Le compteur kilométrique d'une voiture compte les kilomètres, que quelqu'un le regarde ou non ; le compteur NFC compte les lectures de la même manière. Le nombre est toujours là. La seule question, c'est de savoir si quelque chose est configuré pour vous le montrer.
 
@@ -55,7 +55,7 @@ Un tag qui se compte lui-même a l'air d'un joli tour jusqu'à ce que vous le co
 
 **Suivre l'engagement.** Collez un tag sur une carte de visite, une affiche, une boîte de produit ou une vitrine, et le compteur devient une mesure d'engagement discrète. Vous pouvez voir si une carte a été scannée deux fois ou deux cents fois sans construire de pipeline d'analyse pour ça.
 
-**Prouver l'authenticité.** Le compteur ne fait que monter - impossible de le faire revenir en arrière. Un nombre qui ne peut qu'augmenter est difficile à falsifier de façon crédible, et c'est pour ça qu'il a selon moi toute sa place dans les objets en édition limitée et les contrôles anti-contrefaçon. Un tag authentique a un historique plausible et croissant ; un tag cloné, non. Si ce versant du NFC vous intéresse, je suis allé plus loin dans [comment le NFC protège des secrets chiffrés](/blog/nfc-safe-encrypted-secrets/).
+**Prouver l'authenticité.** Le compteur ne fait que monter - impossible de le faire revenir en arrière. Un nombre qui ne peut qu'augmenter est difficile à falsifier de façon crédible, et c'est pour ça qu'il a selon moi toute sa place dans les objets en édition limitée et les contrôles anti-contrefaçon. Un tag authentique a un historique plausible et croissant ; un tag cloné, non. Si ce versant du NFC vous intéresse, je suis allé plus loin dans [comment le NFC protège des secrets chiffrés](/fr/blog/nfc-safe-encrypted-secrets/).
 
 Combinez quelques-uns de ces usages et vous obtenez quelque chose comme ça : un artisan glisse un tag dans chaque série numérotée d'un produit, tous pointant vers la même page de destination. L'ID du tag lui dit quel article un acheteur tient en main, le compteur lui dit à quelle fréquence cet acheteur est revenu, et comme le compteur ne fait que monter, un revendeur ne peut pas discrètement faire passer une copie pour l'original. Pas de comptes, pas de base de données, pas de facture mensuelle - juste la puce qui fait son travail. C'est le genre de résultat pour lequel j'ai construit cette fonction.
 
@@ -63,7 +63,7 @@ Combinez quelques-uns de ces usages et vous obtenez quelque chose comme ça : un
 
 ## La configuration, étape par étape
 
-La fonction se trouve dans NFC.cool Tools, à la fois sur iPhone et sur Android. Elle fait partie de l'abonnement Pro (Platinum), il vous le faudra donc pour écrire des tags avec compteur activé. Si vous n'avez jamais écrit de tag auparavant, mon tutoriel sur [comment écrire des tags NFC sur iPhone](/blog/write-nfc-tags-iphone/) couvre d'abord les bases.
+La fonction se trouve dans NFC.cool Tools, à la fois sur iPhone et sur Android. Elle fait partie de l'abonnement Pro (Platinum), il vous le faudra donc pour écrire des tags avec compteur activé. Si vous n'avez jamais écrit de tag auparavant, mon tutoriel sur [comment écrire des tags NFC sur iPhone](/fr/blog/write-nfc-tags-iphone/) couvre d'abord les bases.
 
 1. Ouvrez NFC.cool Tools, allez dans la section **NFC Tools** et appuyez sur **NFC Tap Counter**.
 2. Choisissez ce que le tag doit délivrer : une **URL**, un **e-mail**, un **SMS** ou un **Raccourci**. (Le Raccourci est réservé à iOS, puisque Raccourcis est une app d'Apple ; l'URL, l'e-mail et le SMS fonctionnent sur les deux plateformes.)
@@ -109,7 +109,7 @@ Si vous acheminez l'URL finalisée vers votre propre site, votre serveur lit ces
 
 Cette fonction dépend de la puce, donc le tag a son importance. NFC.cool prend en charge les puces `NTAG213`, `NTAG215` et `NTAG216` pour le Tap Counter. Ce sont les autocollants NFC les plus courants vendus pour les téléphones, donc faciles à trouver, mais je vérifierais quand même le type de puce avant d'acheter en gros. Si vous essayez d'utiliser un tag que la fonction ne prend pas en charge, l'app vous avertit plutôt que d'écrire quelque chose qui ne marchera pas - je m'en suis assuré, parce que j'ai vu à quel point un échec silencieux est frustrant.
 
-Si vous avez besoin de faire des réserves, notre page des [tags NFC recommandés](/affiliate-links/) répertorie les autocollants `NTAG216` que nous utilisons et sur lesquels nous testons. Et si vous débutez dans le choix des tags, mon guide sur [les différents types de tags NFC pour iPhone](/blog/nfc-tag-types-for-iphones/) passe en revue les compromis en termes simples.
+Si vous avez besoin de faire des réserves, notre page des [tags NFC recommandés](/fr/affiliate-links/) répertorie les autocollants `NTAG216` que nous utilisons et sur lesquels nous testons. Et si vous débutez dans le choix des tags, mon guide sur [les différents types de tags NFC pour iPhone](/fr/blog/nfc-tag-types-for-iphones/) passe en revue les compromis en termes simples.
 
 ---
 
@@ -131,6 +131,6 @@ Si vous avez besoin de faire des réserves, notre page des [tags NFC recommandé
 
 Pendant la plupart des années où j'ai travaillé avec le NFC, compter les scans voulait dire des liens uniques et un backend pour les additionner. Le compteur des NTAG21x supprime discrètement cette contrainte : le tag tient son propre décompte, et c'est la fonction NFC Tap Counter de NFC.cool Tools qui l'active. C'est l'une de ces fonctions dont je regrette sans cesse que plus de gens n'imaginent même qu'elles sont possibles.
 
-Envie de le voir fonctionner avant d'écrire le moindre tag ? Notre [démo de compteur de scans en direct](/tap-counter/) est une page qui fait exactement ce que décrit cet article - écrivez un tag qui pointe vers elle, scannez-la, et la page vous montre le compteur de scans et l'ID du tag que la puce vient de lui transmettre. Aucun serveur dans la boucle, juste l'URL.
+Envie de le voir fonctionner avant d'écrire le moindre tag ? Notre [démo de compteur de scans en direct](/fr/tap-counter/) est une page qui fait exactement ce que décrit cet article - écrivez un tag qui pointe vers elle, scannez-la, et la page vous montre le compteur de scans et l'ID du tag que la puce vient de lui transmettre. Aucun serveur dans la boucle, juste l'URL.
 
-Elle est disponible dès maintenant dans NFC.cool Tools, sur [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-fr&mt=8) et [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-fr). Pour découvrir la boîte à outils NFC complète que j'ai construite, jetez un œil à la [fonction de lecture et d'écriture NFC](/features/nfc-reader-writer/).
+Elle est disponible dès maintenant dans NFC.cool Tools, sur [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-fr&mt=8) et [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-fr). Pour découvrir la boîte à outils NFC complète que j'ai construite, jetez un œil à la [fonction de lecture et d'écriture NFC](/fr/features/nfc-reader-writer/).

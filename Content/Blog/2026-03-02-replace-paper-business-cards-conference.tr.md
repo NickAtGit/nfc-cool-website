@@ -2,6 +2,7 @@
 id: nfc-blog-007
 title: "Bir sonraki konferansında kağıt kartvizitlerden nasıl kurtulursun"
 date: 2026-03-02
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking"]
 summary: "Kağıt kartvizitlerin en çok çuvalladığı yer konferanslar. Bir daha kart aramak zorunda kalmayasın diye, etkinliğinden önce, sırasında ve sonrasında tamamen dijitale geçmenin adım adım planı."
 image: "/assets/images/Blog/replace-paper-business-cards-conference.webp"
@@ -69,7 +70,7 @@ Henüz yoksa şu konferansa özgü özelliklere bak:
 - **Alıcı için uygulama gerekmemesi.** Tanıştığın kişinin hiçbir şey indirmesi gerekmemeli. Kartın, karşındakinin bilgilerini görebilmesi için önce uygulama kurmasını istiyorsa onu çoktan kaybettin.
 - **Çok dilli destek.** Uluslararası konferanslarda kartının alıcının dilinde olması gerçek bir fark yaratıyor.
 
-[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-tr&mt=8) bunların hepsini karşılıyor: NFC, QR ve bağlantı paylaşımı, birden çok kart profili, alıcı için uygulama gerekmemesi (iOS'ta App Clip, Android'de web sitesi) ve 35 dili destekleyen uygulama arayüzü ile App Clip. Bizim önerimiz bu ama neyi seçersen seç, bu ölçütleri karşıladığından emin ol.
+[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-tr&mt=8) bunların hepsini karşılıyor: NFC, QR ve bağlantı paylaşımı, Pro'da 10 karta kadar ya da ekipte kişi başı 10 karta kadar, alıcı için uygulama gerekmemesi (iOS'ta App Clip, Android'de web sitesi) ve 35 dili destekleyen uygulama arayüzü ile App Clip. Bizim önerimiz bu ama neyi seçersen seç, bu ölçütleri karşıladığından emin ol.
 
 #### Etkinliğe özel kart oluştur (ya da mevcut kartını güncelle)
 
@@ -136,7 +137,7 @@ Konferanslar artık yalnızca fuar zemininden ibaret değil. Slack kanalları, W
 
 #### İlerledikçe kayıt tut
 
-Kağıda karşı en büyük üstünlüklerden biri: kartına kimin ne zaman baktığını görebiliyorsun. Özellikle iyi geçen bir sohbetten sonra telefonuna hızlıca not düş: "Sarah - Acme'de pazarlama direktörü - sürdürülebilirlik projesinde iş birliği konuştuk." Sonradan takip ederken, kağıt kartın asla vermediği bir bağlamın olacak.
+Kağıda karşı en büyük üstünlüklerden biri: ücretli planda kartını kaç kişinin görüntüleyip kaydettiğini gün gün görebiliyorsun. Özellikle iyi geçen bir sohbetten sonra telefonuna hızlıca not düş: "Sarah - Acme'de pazarlama direktörü - sürdürülebilirlik projesinde iş birliği konuştuk." Sonradan takip ederken, kağıt kartın asla vermediği bir bağlamın olacak.
 
 ### 3. aşama: konferanstan sonra
 
@@ -154,13 +155,13 @@ Dijital kartında fotoğrafın olduğu için mesajın vardığında seni gerçek
 
 #### Paylaşım istatistiklerine bak
 
-Birçok dijital kart platformu kartını kimin ne zaman açtığını gösteriyor (NFC.cool bunu hem iPhone hem Android'de yapıyor). Bu sana şunları söylüyor:
+NFC.cool'un ücretli planları kartını kaç kişinin görüntüleyip kaydettiğini ve her bağlantıya kaç kişinin dokunduğunu hem iPhone hem Android'de gösteriyor. Bu sana şunları söylüyor:
 
-- Kim, kartını nezaketen cebe atmakla kalmayıp gerçekten bakacak kadar ilgilendi
-- Ne zaman baktı; konferanstan üç gün sonra kartını inceleyen biri sıcak bir aday demek
-- Neye tıkladı: portföyüne mi, LinkedIn'ine mi, randevu bağlantına mı?
+- Kartını nezaketen cebe atmakla kalmayıp gerçekten kaç kişinin baktığı
+- Ne zaman baktıkları: konferanstan üç gün sonraki görüntülemeler, insanların seni hâlâ düşündüğü anlamına geliyor
+- Hangi bağlantılara dokunulduğu: portföyüne mi, LinkedIn'ine mi, randevu bağlantına mı?
 
-Bu veri konferans altını. Takipte kime öncelik vereceğini söylüyor.
+Bunlar sayı, isim değil, yani kimse izlenmiyor. Hangi etkinliklerin karşılığını verdiğini söylüyorlar. İsimler için müşteri adayı toplamayı aç, senden haber almak isteyenler bilgilerini bıraksın.
 
 #### Kartını bir sonrakine hazırla
 
@@ -189,7 +190,7 @@ Sırasıyla yapman gereken her şey:
 - [ ] **İsteğe bağlı: NFC kart ya da etiket sipariş et**, fiziksel okutma deneyimi için
 - [ ] **Kartını o etkinliğe göre özelleştir** (konuşma bilgileri, özel çağrı)
 - [ ] **Okutma ve QR akışını bir kez prova et** ki doğal gelsin
-- [ ] Etkinlikten sonra paylaşım verilerini kullanarak **48 saat içinde takip et**
+- [ ] Etkinlikten sonra notlarını kullanarak **48 saat içinde takip et**
 
 ---
 
@@ -205,7 +206,7 @@ NFC okutmasının kendisi Wi-Fi olmadan çalışıyor; bağlantıyı doğrudan t
 
 ### Farklı konferanslarda farklı kartlar kullanabilir miyim?
 
-Evet, dijital kart platformlarının çoğu birden çok kart profilini destekliyor. Her etkinlik, rol ya da kitle için bir tane oluştur. Aralarında saniyeler içinde geç. NFC.cool BC ile ihtiyacın kadar kart oluşturup yönetebilirsin.
+Evet, dijital kart platformlarının çoğu birden çok kart profilini destekliyor. Her etkinlik, rol ya da kitle için bir tane oluştur. Aralarında saniyeler içinde geç. NFC.cool Business Card'ın Free ve Personal planlarında tek kart, Pro'da 10 karta kadar, ekipte kişi başı 10 karta kadar var.
 
 ### NFC kartvizitler tüm telefonlarla uyumlu mu?
 
@@ -217,7 +218,7 @@ Temel bir dijital kartvizit platformların çoğunda (NFC.cool dahil) ücretsiz.
 
 ### Konferanslarda veri gizliliği ne durumda?
 
-Bu, kullandığın her platforma sorulmaya değer. Bazı dijital kart sağlayıcıları alıcıları izliyor, konuşmaları kaydediyor ya da kişi verisi satıyor. NFC.cool BC önce gizlilik diyor: veriden para kazanma ya da reklam yok, alıcıya pazarlama yok, konuşma kaydı yok, hassas kartlar için PIN koruması ve veri dışa aktarımıyla tam GDPR uyumu.
+Bu, kullandığın her platforma sorulmaya değer. NFC.cool Business Card önce gizlilik diyor: NFC.cool verini satmıyor, uygulamada reklam yok, konuşma kaydetmiyor ve kartına bakanlara pazarlama göndermiyor. Hassas bir kartı PIN ile koruyabilir, verilerini istediğin an ZIP olarak dışa aktarabilirsin.
 
 ---
 
@@ -225,8 +226,8 @@ Bu, kullandığın her platforma sorulmaya değer. Bazı dijital kart sağlayıc
 
 Konferanslar, kağıt kartvizitlerin en kötü halde olduğu yer: çok fazlasına ihtiyacın oluyor, hurdaya dönüyorlar, izlenemiyorlar ve yüzde 88'i bir hafta içinde çöpe gidiyor.
 
-Dijital kartvizitler ise konferansların en iyi halde olduğu yer: insanları gerçekten etkileyen hızlı paylaşım, kimin ilgilendiğini söyleyen istatistikler ve "bir gün" yerine kendiliğinden gerçekleşen takip.
+Dijital kartvizitler ise konferansların en iyi halde olduğu yer: insanları gerçekten etkileyen hızlı paylaşım, neyin işe yaradığını gösteren istatistikler ve "bir gün" yerine gerçekten yapılan takip.
 
 Bir sonraki konferansın yaklaşıyor. Bu sefer kağıdı evde bırak.
 
-*NFC.cool Business Card [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-tr&mt=8) ve [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-tr) sürümlerinde ücretsiz. İlk kartını bir dakikadan kısa sürede oluştur.*
+*[NFC.cool Business Card](/tr/business-card/) [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-tr&mt=8) ve [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-tr) sürümlerinde ücretsiz. İlk kartını bir dakikadan kısa sürede oluştur. Etkinliğe bütün ekibi mi gönderiyorsun? [NFC.cool Business Card for Teams](/tr/business-card/teams/) sayfasına bak.*

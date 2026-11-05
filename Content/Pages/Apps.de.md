@@ -1,7 +1,7 @@
 ---
 title: "Weitere Apps"
 slug: "apps"
-description: "Neben NFC.cool Tools und der Business Card App entwickle ich eine Handvoll kleinerer Apps: QR-Scannen, 3D-Scannen, Flugtracking, E-Bike-Monitoring und mehr - alles aus einer Indie-Werkstatt."
+description: "Neben NFC.cool Tools und der Business Card App entwickle ich eine Handvoll kleinerer Apps: QR-Scannen, 3D-Scannen, Flugtracking, E-Bike-Monitoring und mehr. Alle stammen vom Gründer von NFC.cool."
 ---
 
 <section class="page-hero">
@@ -10,7 +10,7 @@ description: "Neben NFC.cool Tools und der Business Card App entwickle ich eine 
 
 <div class="page-hero-text">
 
-# Weitere Apps aus einer Hand
+# Weitere Apps von NFC.cool
 
 NFC.cool Tools und die Business Card App sind die Hauptsache, aber nicht das Einzige, was ich entwickle. Hier ist der Rest des Lineups: kleinere, fokussierte Apps, die ich gebaut habe, weil ich wollte, dass es sie gibt - und die ich weiter poliere, weil Leute sie tatsächlich nutzen.
 

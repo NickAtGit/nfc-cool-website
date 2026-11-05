@@ -2,6 +2,7 @@
 id: nfc-blog-003
 title: "Kartu nama NFC vs kode QR: mana yang lebih baik untuk networking?"
 date: 2026-02-16
+lastModified: "2026-11-05"
 tags: ["business-cards", "qr-codes", "networking"]
 summary: "Ketukan NFC atau pemindaian kode QR - mana cara berbagi informasi kontak yang lebih baik? Saya membandingkan kecepatan, kompatibilitas, biaya, dan kasus penggunaan nyata untuk membantu Anda memutuskan."
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"
@@ -191,7 +192,7 @@ Beberapa platform mengenakan langganan bulanan ($5-$15/bulan) untuk fitur yang s
 
 Pengungkapan penuh: ini adalah blog saya, jadi tentu saya akan menyebut solusi saya sendiri. Tapi saya pikir ini benar-benar relevan di sini.
 
-[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) dibangun dari awal untuk mendukung **berbagi NFC maupun kode QR** - bukan sebagai produk terpisah, tetapi sebagai dua sisi dari kartu yang sama:
+[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-id&mt=8) dibangun dari awal untuk mendukung **berbagi NFC maupun kode QR** - bukan sebagai produk terpisah, tetapi sebagai dua sisi dari kartu yang sama:
 
 - **Ketukan NFC** - Tulis kartu nama Anda ke tag NFC standar apa pun (stiker, kartu, gantungan kunci - pilihan Anda) dan bagikan dengan satu ketukan. Tidak memerlukan perangkat keras eksklusif.
 - **Kode QR** - Buat kode yang bisa dipindai langsung di aplikasi. Tampilkan di ponsel atau cetak.
@@ -200,12 +201,12 @@ Pengungkapan penuh: ini adalah blog saya, jadi tentu saya akan menyebut solusi s
 
 Beberapa hal yang membedakannya:
 
-- **35 bahasa** - UI aplikasi dan App Clip mendukung 35 bahasa, sehingga kartu Anda ditampilkan dalam bahasa kontak Anda di iOS. Situs web berbagi Android saat ini hanya dalam bahasa Inggris.
-- **Mengutamakan privasi** - Tanpa permintaan ke penerima, perlindungan PIN opsional, tanpa monetisasi data atau iklan
+- **35 bahasa** - UI aplikasi dan App Clip mendukung 35 bahasa, sehingga tombol dan label di sekitar kartu Anda mengikuti bahasa kontak Anda di iOS.
+- **Privasi** - NFC.cool tidak mengirim pemasaran kepada orang yang melihat kartu Anda, kartu bisa diberi PIN, dan NFC.cool tidak menjual data Anda. Di paket Team, tim Anda bisa mengirim email tindak lanjut kepada orang yang meninggalkan datanya lewat formulir prospek Anda.
 - **NFC terbuka** - Bekerja dengan tag NFC standar apa pun - NFC.cool tidak menjual perangkat keras eksklusif
-- **Terjangkau** - Paket Personal €20/tahun, Usaha Kecil €50/tahun (10 kartu), Bisnis €100/tahun (100 kartu)
+- **Terjangkau** - Paket Free dengan satu kartu, Personal $19,99 per tahun, Pro $49,99 per tahun (10 kartu), dan [Team](/id/business-card/teams/) $50 per orang per tahun atau $5 per bulan (hingga 10 kartu per orang). Dalam euro, harga tim memakai angka yang sama.
 
-Coba NFC.cool Business Card: [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
+**Coba [NFC.cool Business Card](/id/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-id&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-id)
 
 ---
 

@@ -231,6 +231,46 @@ enum StructuredData {
       """
    }
 
+   /// The team product's public name. `Content/Pages/business-card-teams.md` says it in words too.
+   static let teamProductName = "NFC.cool Business Card for Teams"
+
+   /// Graph for `/business-card/teams/`: a 3-level BreadcrumbList, the product with its seat prices,
+   /// the Organization that makes it and the page's own FAQ. The prices mirror the Team column of
+   /// `Content/Data/Pricing/business-card.yaml`, the same numbers in dollars and euros, VAT included.
+   /// It carries no rating or review on purpose: none exists for the team product.
+   static func teamPageGraph(
+      baseURL: String,
+      homePath: String,
+      siteName: String,
+      parentTitle: String,
+      parentPath: String,
+      pageTitle: String,
+      pagePath: String,
+      description: String,
+      faq: [FAQItem]?
+   ) -> String {
+      let breadcrumb = """
+      {"@type":"BreadcrumbList","itemListElement":[\(self.listItem(position: 1, name: "Home", url: "\(baseURL)\(homePath)")),\(self.listItem(position: 2, name: parentTitle, url: "\(baseURL)\(parentPath)")),\(self.listItem(position: 3, name: pageTitle, url: "\(baseURL)\(pagePath)"))]}
+      """
+      let offers = ["USD", "EUR"].flatMap { currency in
+         [("50", "P1Y"), ("5", "P1M")].map { price, period in
+            """
+            {"@type":"Offer","url":"https://business.nfc.cool/org/start/","price":"\(price)","priceCurrency":"\(currency)","priceSpecification":{"@type":"UnitPriceSpecification","price":"\(price)","priceCurrency":"\(currency)","billingDuration":"\(period)","unitText":"seat","valueAddedTaxIncluded":true}}
+            """
+         }
+      }.joined(separator: ",")
+      let product = """
+      {"@type":"SoftwareApplication","@id":"\(baseURL)\(pagePath)#product","name":"\(self.teamProductName.jsonEscaped)","description":"\(description.jsonEscaped)","url":"\(baseURL)\(pagePath)","applicationCategory":"BusinessApplication","operatingSystem":"iOS, ANDROID, Web","image":"\(baseURL)/assets/images/BusinessCard/AppIcon-512.webp","offers":[\(offers)],"publisher":{"@id":"\(baseURL)/#organization"}}
+      """
+      var nodes = [breadcrumb, product, self.organization(baseURL: baseURL, siteName: siteName)]
+      if let faq, !faq.isEmpty {
+         nodes.append(self.faqPage(faq))
+      }
+      return """
+      {"@context":"https://schema.org","@graph":[\(nodes.joined(separator: ","))]}
+      """
+   }
+
    // MARK: - Schema fragments
 
    private static func organization(baseURL: String, siteName: String) -> String {

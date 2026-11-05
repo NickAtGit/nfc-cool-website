@@ -67,7 +67,7 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 
 تعمل بطاقات العمل بصيغة QR بهذه الطريقة مباشرةً دون أي إعداد. وهذا أيضًا سبب عمل رمز QR بصيغة vCard على كل هاتف دون تطبيق خاص - فـvCard معيار عمره ٣٠ عامًا يعرفه نظام التشغيل بالفعل.
 
-المقايضة مقابل تدفّق بطاقة العمل من NFC.cool: لا يمكن تحديث رمز QR بصيغة vCard. فبمجرد طباعته، تتجمّد بيانات جهة الاتصال. إذا أردت «مصدرًا واحدًا للحقيقة» يمكنك تعديله لاحقًا، فرمّز بدلًا من ذلك رابط URL يشير إلى صفحة بطاقة عملك الحيّة - هذا ما يفعله [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8)، وهو سبب توصيتنا به بدلًا من رمز QR الخام بصيغة vCard في التواصل المهني الجادّ.
+المقايضة مقابل تدفّق بطاقة العمل من NFC.cool: لا يمكن تحديث رمز QR بصيغة vCard. فبمجرد طباعته، تتجمّد بيانات جهة الاتصال. إذا أردت «مصدرًا واحدًا للحقيقة» يمكنك تعديله لاحقًا، فرمّز بدلًا من ذلك رابط URL يشير إلى صفحة بطاقة عملك الحيّة - هذا ما يفعله [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-ar&mt=8)، وهو سبب توصيتنا به بدلًا من رمز QR الخام بصيغة vCard في التواصل المهني الجادّ. ويمكنك [الاطلاع هنا على ما يقدّمه NFC.cool Business Card](/ar/business-card/).
 
 ---
 
@@ -93,4 +93,4 @@ image: "/assets/images/Blog/tap-scan-thrive.webp"
 
 يقرأ ماسح NFC.cool أيًا من الصيغ أعلاه ويوجّهها إلى الإجراء الصحيح: الروابط تُفتح في المتصفح، وبطاقات vCard تعرض الحفظ، وWi-Fi يطلب الاتصال، والمواقع تُفتح في الخرائط. كما يحتفظ بسجل محلي لكل عملية مسح، وهو أمر مفيد حين تكون قد مسحت ٣٠ قائمة طعام في مؤتمر وتريد الرجوع إلى إحداها.
 
-حزمة QR الكاملة - المولّد والماسح - متوفرة داخل [NFC.cool Tools لأجهزة iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8) و[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-en).
+حزمة QR الكاملة - المولّد والماسح - متوفرة داخل [NFC.cool Tools لأجهزة iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-ar&mt=8) و[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-ar).

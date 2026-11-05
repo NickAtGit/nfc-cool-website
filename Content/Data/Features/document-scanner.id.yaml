@@ -49,7 +49,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sinkronisasi iCloud di iPhone, iPad, dan Mac"
-    body: "<p>Dokumen tersinkronisasi dengan mulus melalui iCloud di setiap perangkat pada akun Anda. Pindai kontrak di iPhone, tinjau di iPad, tandatangani di <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - perpustakaan yang sama, tanpa ekspor bolak-balik. Gambar asli dan teks yang dikenali keduanya ikut terbawa.</p>"
+    body: "<p>Dokumen tersinkronisasi dengan mulus melalui iCloud di setiap perangkat pada akun Anda. Pindai kontrak di iPhone, tinjau di iPad, tandatangani di <a href=\"/id/blog/nfc-cool-comes-to-mac/\">Mac</a> - perpustakaan yang sama, tanpa ekspor bolak-balik. Gambar asli dan teks yang dikenali keduanya ikut terbawa.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool tersinkronisasi di iPhone, iPad, dan Mac"
     platforms: "iOS"

@@ -1,7 +1,7 @@
 ---
 title: "Chi c'è dietro NFC.cool"
 slug: "about"
-description: "La storia, la missione e la persona dietro NFC.cool - un set di strumenti di scansione che mette la privacy al primo posto, per iPhone e Android, sviluppato in autonomia da una sola persona che conosce a fondo le piattaforme."
+description: "La storia, la missione e il fondatore di NFC.cool - app per iPhone e Android che mettono la privacy al primo posto, sviluppate in autonomia e con una conoscenza profonda delle piattaforme."
 ---
 
 <section class="page-hero">
@@ -12,7 +12,7 @@ description: "La storia, la missione e la persona dietro NFC.cool - un set di st
 
 # Sviluppato in autonomia, in Europa.
 
-NFC.cool è un prodotto indipendente di **Nicolo Stanciu**, nato tra la Germania e il Portogallo. Una persona, una missione: rendere l'NFC accessibile a tutti gli altri. È una tecnologia notoriamente da smanettoni e quasi tutte le app che la sfruttano sono troppo tecniche, così NFC.cool punta a essere il miglior set di strumenti di scansione che si possa avere sul telefono, pensato per chiunque.
+NFC.cool è un prodotto indipendente del suo fondatore, **Nicolo Stanciu**, nato tra la Germania e il Portogallo. La missione: rendere l'NFC accessibile a tutti. È una tecnologia notoriamente da smanettoni e quasi tutte le app che la sfruttano sono troppo tecniche, così NFC.cool punta a essere il miglior set di strumenti di scansione che si possa avere sul telefono, pensato per chiunque.
 
 <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">Scrivimi</a>
 
@@ -32,9 +32,9 @@ NFC.cool è un prodotto indipendente di **Nicolo Stanciu**, nato tra la Germania
 
 NFC.cool è nato da un'esigenza personale. Nel 2017 Apple ha aperto l'NFC su iOS e io sono stato tra i primi a svilupparci sopra: quello stesso anno ho pubblicato la prima versione di NFC.cool Tools sull'App Store e ho visto formarsi intorno all'app una comunità piccola ma appassionata.
 
-Da allora NFC.cool è cresciuta fino a diventare una famiglia di app: il set completo di strumenti di scansione (NFC, QR, codici a barre, documenti, 3D, ambienti, webhook), l'app dedicata Business Card su iPhone e Android e una versione Android del set concentrata su ciò che Android sa fare meglio - insieme raccolgono oltre {{RATINGS_TOTAL}} valutazioni con {{RATINGS_AVG}} stelle tra App Store e Google Play. Tutto continua a uscire da una sola tastiera - una persona, che lavora tra la Germania e il Portogallo.
+Da allora NFC.cool è cresciuta fino a diventare una famiglia di app: il set completo di strumenti di scansione (NFC, QR, codici a barre, documenti, 3D, ambienti, webhook), l'app dedicata Business Card su iPhone e Android e una versione Android del set concentrata su ciò che Android sa fare meglio - insieme raccolgono oltre {{RATINGS_TOTAL}} valutazioni con {{RATINGS_AVG}} stelle tra App Store e Google Play. Tutto continua a essere sviluppato dal suo fondatore, tra la Germania e il Portogallo.
 
-È una scelta voluta. Niente investitori, niente team dedicato alla crescita, solo una persona che usa davvero ogni giorno quello che pubblica.
+È una scelta voluta. NFC.cool non ha alle spalle investitori di venture capital, quindi devo rendere conto a chi usa le app, e sono il primo a usare ogni giorno quello che pubblico.
 
 </section>
 
@@ -74,6 +74,6 @@ Da allora NFC.cool è cresciuta fino a diventare una famiglia di app: il set com
 
 Il modo più rapido per raggiungermi è [via email](mailto:info@nfc.cool?subject=NFC.cool%20Support). Leggo tutto personalmente. Le richieste di nuove funzioni orientano davvero la roadmap e le segnalazioni di bug vengono prese in carico entro un giorno.
 
-Per le richieste della stampa, consulta la [pagina stampa](/press/).
+Per le richieste della stampa, consulta la [pagina stampa](/it/press/).
 
 </section>

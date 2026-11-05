@@ -1,0 +1,17 @@
+# Порівняння цін для невеликих команд на /uk/business-card/teams/. Відмальовує PricingTableRenderer
+# за токеном {{PRICING_TABLE:business-card-teams}} у Content/Pages/business-card-teams.uk.md.
+# Кожне число взято зі сторінки цін компанії 2026-11-05. Перш ніж щось міняти, звір їх заново
+# і зміни дату в тексті сторінки. Джерела перелічені в Content/Data/Pricing/business-card-teams.yaml.
+columns: ["NFC.cool", "Wave Teams", "Blinq Business", "HiHello Business"]
+columnPills: [is-team]
+rows:
+  - label: "Найменша команда"
+    values: ["2 місця", "3 користувачі", "5 візитівок", "5 користувачів"]
+  - label: "За людину, річна оплата"
+    values: ["$50 на рік", "$60 на рік", "$59,88 на рік", "$60 на рік"]
+  - label: "Найнижча вартість за рік"
+    values: ["**$100**", "**$180**", "**$299,40**", "**$300**"]
+  - label: "За людину, щомісячна оплата"
+    values: ["$5 на місяць", "$7 на місяць", "$6,99 на місяць", "$6 на місяць"]
+  - label: "Синхронізація з CRM у комплекті"
+    values: ["✓", "✓", "✓", "✓"]

@@ -86,7 +86,7 @@ Praktisch, wenn du beim Arbeiten schnell einen Produkt-Barcode nachschlagen will
 
 Ich sage lieber offen, was nicht geht, statt es zu verschweigen.
 
-**NFC-Tags scannen** geht auf dem Mac nicht *von Haus aus*, weil kein Mac NFC-Hardware eingebaut hat. Früher war das Thema damit erledigt. Inzwischen nicht mehr: Mit einem externen USB-Lesegerät kannst du NFC-Tags direkt am Mac oder iPad lesen und beschreiben. Wie das geht, habe ich in [NFC-Tags auf iPad und Mac lesen](/blog/nfc-reading-ipad-mac/) aufgeschrieben.
+**NFC-Tags scannen** geht auf dem Mac nicht *von Haus aus*, weil kein Mac NFC-Hardware eingebaut hat. Früher war das Thema damit erledigt. Inzwischen nicht mehr: Mit einem externen USB-Lesegerät kannst du NFC-Tags direkt am Mac oder iPad lesen und beschreiben. Wie das geht, habe ich in [NFC-Tags auf iPad und Mac lesen](/de/blog/nfc-reading-ipad-mac/) aufgeschrieben.
 
 **Dokumente scannen** klappt ebenfalls nicht: Der Mac-Kamera fehlt die Autofokus- und Kantenerkennungs-Pipeline, die das Dokumentscannen auf iPhone und iPad überhaupt erst möglich macht.
 

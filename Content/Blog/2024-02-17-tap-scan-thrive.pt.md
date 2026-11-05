@@ -4,7 +4,7 @@ title: "Toque, leia, prospere: o que os códigos QR podem transportar para além
 date: 2024-02-17
 tags: ["qr-codes", "business-cards"]
 summary: "Os códigos QR não servem apenas para URLs. Podem transportar credenciais Wi-Fi, eventos de calendário, localizações, vCards, texto simples - tudo o que seja possível codificar. Eis o menu completo do que o gerador e o leitor de QR da NFC.cool conseguem fazer."
-metaTitle: "O Que os Códigos QR Podem Transportar: Para Além de Simples URLs"
+metaTitle: "O que os códigos QR podem transportar: para além de simples URLs"
 metaDescription: "Os códigos QR conseguem codificar credenciais Wi-Fi, contactos, eventos de calendário, localizações e mais - não apenas URLs. Um guia prático para cada tipo de conteúdo de QR."
 ogTitle: "Toque, leia, prospere: o que os códigos QR podem transportar para além de um URL"
 ogDescription: "Os códigos QR conseguem codificar Wi-Fi, contactos, calendários, localizações - não apenas URLs."
@@ -67,7 +67,7 @@ A alternativa mais comum aos URLs. Codifique um vCard completo (nome, telefone, 
 
 Os cartões de visita em QR funcionam assim, logo à partida. É também por isso que um QR com vCard funciona em todos os telemóveis sem nenhuma app especial - o vCard é uma norma com 30 anos que o sistema operativo já conhece.
 
-O compromisso face ao fluxo de cartão de visita da NFC.cool: um QR com vCard não pode ser atualizado. Uma vez impresso, os dados de contacto ficam congelados. Se quiser uma "fonte única de verdade" que possa editar mais tarde, codifique antes um URL para a sua página de cartão de visita ativa - é o que o [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8) faz, e é por isso que o recomendamos em vez de um QR com vCard puro para networking a sério.
+O compromisso face ao fluxo de cartão de visita da NFC.cool: um QR com vCard não pode ser atualizado. Uma vez impresso, os dados de contacto ficam congelados. Se quiser uma "fonte única de verdade" que possa editar mais tarde, codifique antes um URL para a sua página de cartão de visita ativa - é o que o [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-pt&mt=8) faz, e é por isso que o recomendamos em vez de um QR com vCard puro para networking a sério. Pode [ver aqui o que o NFC.cool Business Card faz](/pt/business-card/).
 
 ---
 
@@ -93,4 +93,4 @@ Algumas apps registam esquemas de URL personalizados (`myapp://...`) e reconhece
 
 O leitor da NFC.cool lê qualquer um dos formatos acima e encaminha-os para a ação certa: os URLs abrem no navegador, os vCards oferecem-se para guardar, o Wi-Fi propõe ligar, as localizações abrem nos mapas. Mantém também um histórico local de cada leitura, o que é útil quando leu 30 ementas numa conferência e quer voltar a uma delas.
 
-Toda a stack de QR - gerador e leitor - está disponível na [NFC.cool Tools para iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8) e no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-en).
+Toda a stack de QR - gerador e leitor - está disponível na [NFC.cool Tools para iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-pt&mt=8) e no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-pt).

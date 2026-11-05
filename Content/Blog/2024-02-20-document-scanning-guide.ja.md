@@ -5,7 +5,7 @@ date: 2024-02-20
 tags: ["guides", "iphone"]
 summary: "NFC.coolのドキュメントスキャナーの実践ガイド：シャープなスキャンを撮るコツ、後処理ステップが重要な理由、OCRが検索可能なテキストとPDFにスキャンを変える方法。"
 metaTitle: "NFC.cool Toolsでのドキュメントスキャン - 実践ガイド"
-metaDescription: "NFC.cool Toolsでドキュメントをスキャンする方法 - 撮影、後処理、OCR実行、検索可能PDFへのエクスポート。照明とコーナー検出のコツも。"
+metaDescription: "NFC.cool Toolsでドキュメントをスキャンする実践ガイドです。シャープに撮るための照明とコーナー検出のコツ、後処理が重要な理由、OCRで検索可能なテキストにする方法、検索可能なPDFへの書き出しまでを順に解説します。"
 ogTitle: "ポケットで使えるドキュメントスキャン - NFC.cool Tools実践ガイド"
 ogDescription: "NFC.cool Toolsでドキュメントをスキャン、OCRを実行、検索可能なPDFにエクスポートする方法。"
 image: "/assets/images/Blog/document-scanning-guide.webp"

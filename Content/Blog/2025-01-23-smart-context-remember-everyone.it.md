@@ -2,10 +2,11 @@
 id: nfc-blog-028
 title: "Non mi ricordo le persone che incontro. Così ho messo questa funzione nell'app dei biglietti da visita."
 date: 2025-01-23
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "Dopo un certo numero di conferenze ed eventi di networking mi sono reso conto che i biglietti da visita digitali risolvevano il problema sbagliato: salvavano gli alberi, non il contesto. Così ho aggiunto a NFC.cool Business Card un livello Smart Context: dove vi siete conosciuti, a cosa sta lavorando l'altra persona e cosa devi ricordarti di fare dopo."
 metaTitle: "Smart Context: la memoria dei biglietti da visita digitali"
-metaDescription: "I biglietti digitali risolvono la carta, non la memoria. Smart Context di NFC.cool Business Card registra dove, quando e perché, in sincronia col calendario."
+metaDescription: "I biglietti digitali risolvono la carta, non la memoria. La scheda Networking di NFC.cool Business Card conserva dove, quando e perché con ogni contatto."
 ogTitle: "Non mi ricordo le persone che incontro. Così ho messo questa funzione nell'app dei biglietti da visita."
 ogDescription: "Perché ai biglietti da visita digitali serviva qualcosa in più dei semplici recapiti, e il livello Smart Context che colma la lacuna."
 image: "/assets/images/Blog/smart-context-remember-everyone.webp"
@@ -29,22 +30,22 @@ I recapiti salvati sul telefono non servono a niente se non ricordi perché quel
 </ol>
 </figure>
 
-Così a NFC.cool Business Card ho aggiunto quello che chiamo da un po' il "potenziamento della memoria". Subito dopo lo scambio, che avvenga avvicinando il telefono a un tag NFC, con l'App Clip o con il codice QR sulla schermata di blocco della Modalità Conferenza, l'app ti chiede di annotare il contesto:
+Così a NFC.cool Business Card ho aggiunto quello che chiamo da un po' il "potenziamento della memoria": la scheda Networking su iPhone. Scegli chiunque tra i tuoi contatti e annota quello che vorrai ricordare:
 
-- **Dove e quando vi siete conosciuti.** Data e luogo vengono compilati in automatico e restano modificabili.
-- **A cosa sta lavorando l'altra persona.** Una nota breve sul progetto, sull'azienda o sull'ambito di cui si occupa.
-- **I momenti salienti della conversazione.** Una o due cose di cui avete parlato davvero e che vale la pena ricordare.
+- **Dove e quando vi siete conosciuti.** La data, l'evento, il luogo e chi vi ha presentati.
+- **A cosa sta lavorando l'altra persona.** I progetti in corso, le sue competenze e dove potreste collaborare.
+- **I momenti salienti della conversazione.** Una o due cose di cui avete parlato davvero, più gli interessi che avete in comune.
 - **Cosa fare dopo.** "Mi presenta il suo investitore." "Lunedì devo mandare la presentazione."
 
-Quest'ultima parte finisce nel calendario e nei promemoria, perché siamo tutti pessimi a dare seguito alle cose e a tutti serve una spinta.
+Quest'ultima parte si collega al calendario e ai promemoria, perché siamo tutti pessimi a dare seguito alle cose e a tutti serve una spinta. I pulsanti Aggiungi un promemoria e Aggiungi riunione sono proprio lì, sul contatto.
 
 ---
 
-## Perché il contesto si annota durante lo scambio, non dopo
+## Perché lo faccio subito dopo la conversazione
 
-Il trucco sta nel fatto che la richiesta compare subito dopo il salvataggio del contatto, quando la conversazione è ancora fresca. Cinque minuti più tardi sei già passato alla persona successiva. Tre giorni dopo non ricordi più se quel fondatore di una startup di AI l'hai conosciuto alla gara di pitch di Austin o all'hackathon di Berlino.
+Il trucco è scrivere tutto quando la conversazione è ancora fresca. Cinque minuti più tardi sei già passato alla persona successiva. Tre giorni dopo non ricordi più se quel fondatore di una startup di AI l'hai conosciuto alla gara di pitch di Austin o all'hackathon di Berlino.
 
-Annotare il contesto nello stesso flusso in cui si scambia il contatto è l'unico modo perché quelle informazioni vengano davvero messe per iscritto. L'alternativa, cioè aggiungerle a mano la settimana dopo andando a memoria, non succede mai.
+Così salvo il contatto, apro la scheda Networking e aggiungo il contesto prima di passare alla persona successiva. L'alternativa, cioè farlo la settimana dopo andando a memoria, non succede mai.
 
 ---
 
@@ -56,16 +57,11 @@ Apro la scheda Networking di NFC.cool Business Card e vedo: chi ho conosciuto e 
 
 ---
 
-## Funziona con ogni modo di scambiare il biglietto
+## Funziona in qualunque modo vi siate conosciuti
 
-Il livello Smart Context funziona a prescindere da come il contatto è arrivato in rubrica:
+La scheda Networking parte dai contatti che hai sul telefono, quindi non importa come una persona sia finita in rubrica: avvicinando il telefono al suo biglietto, con un codice QR in mezzo al frastuono di una conferenza o con un biglietto di carta che hai ricopiato a mano.
 
-- **Avvicinamento NFC.** Il flusso classico: avvicini il telefono al biglietto dell'altra persona, salvi il contatto, annoti il contesto.
-- **App Clip.** Chi riceve il biglietto su iOS vede comparire il riquadro dell'App Clip, salva il contatto e riceve la stessa richiesta di contesto.
-- **Modalità Conferenza (codice QR sulla schermata di blocco).** Mostri il codice QR dalla schermata di blocco per scambiare in fretta anche in mezzo alla confusione; appena l'altra persona salva, parte la stessa richiesta di contesto.
-- **Browser su Android.** Chi è su Android apre la versione in pagina web, salva il contatto e annota il contesto in un secondo momento dentro l'app NFC.cool Business Card.
-
-L'app gestisce fino a 100 biglietti diversi (ruoli diversi, eventi diversi, versioni diverse di te) e i dati Smart Context restano separati biglietto per biglietto: così un contatto conosciuto quando eri il "consulente di design al meetup di Berlino" è una voce distinta dalla stessa persona conosciuta quando eri il "cofondatore al demo day di YC".
+Free e Personal comprendono un biglietto, Pro fino a 10 (ruoli diversi, eventi diversi, versioni diverse di te) e un team fino a 10 a persona. Il contesto resta legato al contatto, quindi lo conservi qualunque biglietto tu abbia condiviso.
 
 ---
 
@@ -73,8 +69,8 @@ L'app gestisce fino a 100 biglietti diversi (ruoli diversi, eventi diversi, vers
 
 Cinque anni fa una cosa così non esisteva perché il collo di bottiglia non era la tecnologia, era l'attrito. Per annotare il contesto bisognava aprire un'app di note a parte, scrivere mentre l'altra persona ti guardava e poi, in qualche modo, collegare quegli appunti al contatto. Quasi tutti ci rinunciavano.
 
-Con NFC.cool Business Card basta un tocco, all'interno dello stesso scambio del contatto. È la differenza tra "questa cosa dovrei ricordarmela" e "questa cosa è ricordata".
+Con [NFC.cool Business Card](/it/business-card/) gli appunti stanno proprio accanto al contatto, nella stessa app del tuo biglietto. È la differenza tra "questa cosa dovrei ricordarmela" e "questa cosa è ricordata".
 
 In un mondo dove ci si scambiano contatti più in fretta che mai, il dato che conta non è chi conosci, ma perché lo conosci.
 
-[Scarica NFC.cool Business Card per iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-it&mt=8). Chi usa Android trova lo stesso biglietto da visita e le stesse funzioni Smart Context in [NFC.cool Business Card per Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-it).
+[Scarica NFC.cool Business Card per iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-smart-context-remember-everyone-it&mt=8), dove trovi la scheda Networking. Chi usa Android trova lo stesso biglietto da visita in [NFC.cool Business Card per Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-smart-context-remember-everyone-it).

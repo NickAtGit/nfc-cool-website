@@ -389,6 +389,12 @@
    max-width: 30em;
 }
 
+/* The link colour is brand blue in light mode, which vanishes on this gradient. */
+.landing-feature-banner-text p a {
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+
 /* Primary CTA button - the site's single button component. Outlined and
    context-aware via four local custom properties (--cta-border /
    --cta-text / --cta-fill-hover / --cta-border-hover); contexts rebind

@@ -1,0 +1,16 @@
+# Small-team price comparison for /business-card/teams/. Rendered by PricingTableRenderer via
+# the {{PRICING_TABLE:business-card-teams}} token in Content/Pages/business-card-teams.md.
+# Every number was read off the vendor's pricing page on 2026-11-05. See business-card-teams.yaml.
+columns: ["NFC.cool", "Wave Teams", "Blinq Business", "HiHello Business"]
+columnPills: ["is-team"]
+rows:
+  - label: "Tim terkecil"
+    values: ["2 kursi", "3 pengguna", "5 kartu", "5 pengguna"]
+  - label: "Per orang, bayar tahunan"
+    values: ["$50 per tahun", "$60 per tahun", "$59,88 per tahun", "$60 per tahun"]
+  - label: "Biaya terendah setahun"
+    values: ["**$100**", "**$180**", "**$299,40**", "**$300**"]
+  - label: "Per orang, bayar bulanan"
+    values: ["$5 per bulan", "$7 per bulan", "$6,99 per bulan", "$6 per bulan"]
+  - label: "Sinkronisasi CRM sudah termasuk"
+    values: ["✓", "✓", "✓", "✓"]

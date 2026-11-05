@@ -88,7 +88,7 @@ Ative em **separador Mais → Webhook** dentro da app: introduza um URL HTTPS, o
 
 A app dispara um único `POST` por leitura para o URL que configurou. Não há uma fila de repetição em separado: se o seu endpoint não estiver acessível ou devolver uma resposta que não seja 2xx, o POST da leitura falha. Procure devolver `204 No Content` em caso de sucesso; qualquer 2xx é tratado como aceite.
 
-Esta página é a referência técnica. Para a visão geral da funcionalidade - os outros quatro ganchos de automação do iOS, preços e perguntas frequentes - consulte a [página da funcionalidade Webhooks e Automação](/features/webhooks/).
+Esta página é a referência técnica. Para a visão geral da funcionalidade - os outros quatro ganchos de automação do iOS, preços e perguntas frequentes - consulte a [página da funcionalidade Webhooks e Automação](/pt/features/webhooks/).
 
 </section>
 

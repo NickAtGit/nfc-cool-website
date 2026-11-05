@@ -89,7 +89,7 @@ image: "/assets/images/og-landing.webp"
 <p class="nfc-reader-title">Считать NFC-метку</p>
 <p class="nfc-reader-lead">Нажми кнопку и поднеси метку к верхней части телефона. Я покажу, что на ней записано.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Read NFC</span></button>
-<p class="nfc-reader-fineprint">Do you want a native NFC experience with more NFC functions? <a href="/features/nfc-reader-writer/">Get the NFC.cool app!</a></p>
+<p class="nfc-reader-fineprint">Хочешь нативный NFC и больше функций? <a href="/ru/features/nfc-reader-writer/">Скачай приложение NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -163,7 +163,7 @@ image: "/assets/images/og-landing.webp"
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Записать на метку</span></button>
-<p class="nfc-reader-fineprint">Do you want a native NFC experience with more NFC functions? <a href="/features/nfc-reader-writer/">Get the NFC.cool app!</a></p>
+<p class="nfc-reader-fineprint">Хочешь нативный NFC и больше функций? <a href="/ru/features/nfc-reader-writer/">Скачай приложение NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -306,19 +306,19 @@ image: "/assets/images/og-landing.webp"
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
 <h3>Шифрование секретов в NFC Safe</h3>
-<p>NFC Safe шифрует секрет прямо на чипе алгоритмом AES-256, поэтому для всего, кроме приложения, метка выглядит набором мусора. <a href="/blog/nfc-safe-encrypted-secrets/">Как устроен NFC Safe</a>.</p>
+<p>NFC Safe шифрует секрет прямо на чипе алгоритмом AES-256, поэтому для всего, кроме приложения, метка выглядит набором мусора. <a href="/ru/blog/nfc-safe-encrypted-secrets/">Как устроен NFC Safe</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
 <h3>Автоматизация касания</h3>
-<p>Метка может отправить вебхук, запустить быструю команду iOS, зачитать содержимое вслух или посчитать, как часто её считывают. <a href="/blog/count-nfc-tag-scans/">Как считать сканирования NFC-метки</a>.</p>
+<p>Метка может отправить вебхук, запустить быструю команду iOS, зачитать содержимое вслух или посчитать, как часто её считывают. <a href="/ru/blog/count-nfc-tag-scans/">Как считать сканирования NFC-метки</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
 <h3>Копирование, сброс и разбор меток</h3>
-<p>Скопируй метку, выгрузи и определи сырую память её чипа или перепрограммируй технику, завязанную на NFC: <a href="/blog/openprinttag-read-write-nfc-spools-phone/">катушки с филаментом для 3D-принтера</a> и <a href="/blog/reset-sonicare-brush-head-nfc/">насадки электрических зубных щёток</a>.</p>
+<p>Скопируй метку, выгрузи и определи сырую память её чипа или перепрограммируй технику, завязанную на NFC: <a href="/ru/blog/openprinttag-read-write-nfc-spools-phone/">катушки с филаментом для 3D-принтера</a> и <a href="/ru/blog/reset-sonicare-brush-head-nfc/">насадки электрических зубных щёток</a>.</p>
 </article>
 
 </div>
@@ -355,7 +355,7 @@ Apple закрывает NFC во всех браузерах на iOS, поэт
 
 <details class="faq-item">
 <summary>Можно ли записать на метку сеть Wi-Fi или карточку контакта?</summary>
-<p>Да. Выбери в списке на вкладке записи «Сеть Wi-Fi» или «Карточка контакта» и заполни поля. Метка с Wi-Fi предложит телефону на Android подключиться к сети, а метка с контактом хранит обычный vCard, который телефон предложит сохранить.</p>
+<p>Да. Выбери в списке на вкладке записи «Сеть Wi-Fi» или «Карточка контакта» и заполни поля. Метка с Wi-Fi предложит телефону на Android подключиться к сети, а метка с контактом хранит обычный vCard, который телефон на Android предложит сохранить. Нужна визитка, которую можно обновлять после записи? <a href="/ru/business-card/">NFC.cool Business Card</a> записывает на метку ссылку, так что данные можно будет поменять позже.</p>
 </details>
 
 <details class="faq-item">
@@ -384,8 +384,8 @@ Apple закрывает NFC во всех браузерах на iOS, поэт
 Эта страница закрывает основы прямо в браузере. Бесплатное приложение NFC.cool идёт дальше: читает любую метку и записывает больше 25 типов данных, от ссылок и Wi-Fi до контактов и быстрых команд, и на iPhone, и на Android. Я делаю и поддерживаю его сам.
 
 <div class="tap-cta-buttons">
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Посмотреть чтение и запись NFC</a>
-<a href="/blog/nfc-tags-beginners-guide/" class="landing-cta-button">Впервые про NFC-метки? Начни отсюда</a>
+<a href="/ru/features/nfc-reader-writer/" class="landing-cta-button">Посмотреть чтение и запись NFC</a>
+<a href="/ru/blog/nfc-tags-beginners-guide/" class="landing-cta-button">Впервые про NFC-метки? Начни отсюда</a>
 </div>
 
 </section>

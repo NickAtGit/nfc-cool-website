@@ -118,8 +118,8 @@ Un tag NFC peut compter ses propres scans - le nombre vit dans la puce, pas sur 
 Le NFC Tap Counter, c'est bien plus que ça - quelles puces fonctionnent, les cas d'usage concrets et toute la configuration pas à pas.
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">Lire le guide</a>
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Voir la fonctionnalité</a>
+<a href="/fr/blog/count-nfc-tag-scans/" class="landing-cta-button">Lire le guide</a>
+<a href="/fr/features/nfc-reader-writer/" class="landing-cta-button">Voir la fonctionnalité</a>
 </div>
 
 </section>

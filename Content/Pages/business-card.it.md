@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# Biglietto da visita digitale NFC.cool
 
-Il tuo biglietto da visita sul telefono, per te e per il tuo team. Condividilo via NFC o con un codice QR e scopri quante persone lo salvano.
+Il tuo biglietto da visita digitale sul telefono, per te e per il tuo team. Condividilo via NFC o con un codice QR e scopri quante persone lo salvano.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-it&mt=8" class="landing-store-button is-apple" aria-label="Scarica dall'App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ Il tuo biglietto da visita sul telefono, per te e per il tuo team. Condividilo v
 
 ## Prezzi
 
-Una persona o un team intero. Ogni biglietto si può salvare come contatto, anche con Free. Personal e Pro aggiungono i lead, le statistiche e un biglietto senza il nostro nome, e si acquistano nell'app. I team partono dal web, gratis per 14 giorni, e pagano a persona, all'anno o al mese. In euro la cifra del piano Team è la stessa.
+Una persona o un team intero. Ogni biglietto si può salvare come contatto, anche con Free. Personal e Pro aggiungono i lead, le statistiche e un biglietto senza il nostro nome, e si acquistano nell'app. I team partono dal web, gratis per 14 giorni, e pagano a persona, all'anno o al mese. In euro la cifra del piano Team è la stessa. [Scopri il prezzo del piano Team e il confronto con le altre app](/it/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ Una persona o un team intero. Ogni biglietto si può salvare come contatto, anch
 <article class="page-card">
 <h3>Biglietti da visita intelligenti</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Biglietti digitali</strong> - creali in linea con il tuo brand</li>
+<li><strong>Biglietti da visita digitali</strong> - creali in linea con il tuo brand</li>
 <li><strong>Fino a 10 biglietti con Pro</strong> - per ruoli, brand o eventi diversi</li>
 <li><strong>Importazione da Contatti</strong> - trasforma una scheda già in rubrica in un biglietto</li>
 <li><strong>Sempre aggiornati</strong> - le modifiche si vedono subito, senza ristampare nulla</li>
@@ -145,7 +145,7 @@ Una persona o un team intero. Ogni biglietto si può salvare come contatto, anch
 <article class="page-card">
 <h3>Privacy e sicurezza</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Profili protetti da PIN</strong> - PIN di 4 cifre, con un limite ai tentativi di verifica</li>
+<li><strong>Profili protetti da PIN</strong> - un PIN di 4 cifre sui biglietti privati</li>
 <li><strong>Pubblico o privato</strong> - un biglietto privato si apre solo con il suo PIN</li>
 <li><strong>Esportazione GDPR</strong> - scarica tutto in un file ZIP quando vuoi</li>
 <li><strong>Sessioni sicure</strong> - la sessione sbloccata con il PIN scade da sola</li>
@@ -181,7 +181,7 @@ Una persona o un team intero. Ogni biglietto si può salvare come contatto, anch
 
 ## Cosa aggiunge il piano Team
 
-Un biglietto personale appartiene a una persona sola. In un team i biglietti appartengono all'azienda, e questo cambia quello che possono fare.
+Un biglietto personale appartiene a una persona sola. In un team i biglietti appartengono all'azienda, e questo cambia quello che possono fare. Scopri di più sui [biglietti da visita digitali per i team](/it/business-card/teams/).
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Una casella per tutti i lead</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>Tutti i lead raccolti dal team arrivano in un'unica casella condivisa. Vedi chi li segue e a che punto sono, assegnali alla persona giusta ed esporta tutto in un foglio di calcolo.</p></article>
@@ -249,7 +249,7 @@ Un biglietto personale appartiene a una persona sola. In un team i biglietti app
 
 <details class="faq-item">
 <summary>Cosa succede se disdico un piano a pagamento?</summary>
-<p>Nulla viene eliminato e i biglietti restano online. Non arrivano più nuovi lead e "Salva contatto" resta disponibile solo su tanti biglietti quanti ne prevede il piano. Gli altri risultano bloccati.</p>
+<p>Nulla viene eliminato. Con Personal o Pro i biglietti restano online: non arrivano più nuovi lead e "Salva contatto" resta disponibile solo su tanti biglietti quanti ne prevede il piano. Gli altri risultano bloccati. In un team, quando l'abbonamento termina, i biglietti del team mostrano una pagina "temporaneamente non disponibile" finché non riattivi l'abbonamento, e a quel punto torna tutto com'era.</p>
 </details>
 
 </div>

@@ -159,7 +159,7 @@ La solution n'est pas un contournement, c'est une approche fondamentalement meil
 2. Faites pointer cette URL vers un profil numérique riche
 3. Laissez le profil gérer l'enregistrement du contact, le partage de liens et tout le reste
 
-C'est ce que fait NFC.cool Business Card. C'est ce que j'utilise à chaque conférence, meetup et événement de networking.
+C'est ce que fait [NFC.cool Business Card](/fr/business-card/). C'est ce que j'utilise à chaque conférence, meetup et événement de networking.
 
 J'approche mon téléphone. La personne enregistre. On repart chacun de notre côté.
 

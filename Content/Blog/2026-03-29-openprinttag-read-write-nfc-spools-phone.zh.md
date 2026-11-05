@@ -7,7 +7,7 @@ summary: "OpenPrintTag 是智能耗材线轴的开放标准。了解它的工作
 image: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
 imageAlt: "带有 NFC 标签的 3D 打印线轴正被一部手机读取"
 metaTitle: "OpenPrintTag：用手机读写智能 3D 打印线轴"
-metaDescription: "学习如何用 OpenPrintTag 配合 NFC 来管理你的 3D 打印耗材线轴。在 iPhone 或 Android 上读取、写入并追踪材料数据，无需任何专有 App。"
+metaDescription: "学习如何用 OpenPrintTag 配合 NFC 来管理你的 3D 打印耗材线轴。在 iPhone 或 Android 上读取、写入并追踪材料数据，无需任何专有 App。这篇讲讲这项开放标准的原理、标签里存储哪些数据，以及它需要哪种标签。"
 ogTitle: "OpenPrintTag：基于 NFC 的智能 3D 打印线轴"
 ogDescription: "用手机读取和写入 OpenPrintTag NFC 线轴的完整指南。兼容任何打印机、任何耗材品牌。"
 ---
@@ -70,7 +70,7 @@ OpenPrintTag 是一种面向 3D 打印材料的通用、开放数据格式。与
 
 ## 这种标签：不是你常见的 NFC 贴纸
 
-这里有一个技术细节，我想在你买任何东西之前先提醒你：**OpenPrintTag 是为 ISO 15693（NFC-V）标签设计的**，具体来说是 **NXP ICODE SLIX 和 ICODE SLIX2** 芯片。这些是 NFC Forum Type 5 标签，读取距离比标准的 NFC-A 标签要长得多，配合专用读取器可达 1.5 米。如果你以往只买过大多数项目用的那种便宜 NTAG 贴纸，这是另一族标签。我在 [面向 iPhone 的 NFC 标签类型](/blog/nfc-tag-types-for-iphones/) 里梳理了完整的全貌。
+这里有一个技术细节，我想在你买任何东西之前先提醒你：**OpenPrintTag 是为 ISO 15693（NFC-V）标签设计的**，具体来说是 **NXP ICODE SLIX 和 ICODE SLIX2** 芯片。这些是 NFC Forum Type 5 标签，读取距离比标准的 NFC-A 标签要长得多，配合专用读取器可达 1.5 米。如果你以往只买过大多数项目用的那种便宜 NTAG 贴纸，这是另一族标签。我在 [面向 iPhone 的 NFC 标签类型](/zh/blog/nfc-tag-types-for-iphones/) 里梳理了完整的全貌。
 
 为什么用 NFC-V？打印机内置的 NFC 读取器需要无论线轴如何旋转都能检测到它。NFC-V 更长的读取距离让这成为可能，无需精确的标签对齐，这是一处巧妙的设计。
 
@@ -90,7 +90,7 @@ OpenPrintTag 是一种面向 3D 打印材料的通用、开放数据格式。与
 
 你不需要一台 Prusa 打印机或任何特殊硬件就能使用 OpenPrintTag，只要你的手机就行。这是我最想打造的部分，因为口袋里的一部手机就是最触手可及的 NFC 读取器。
 
-NFC.cool Tools 在 [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-en) 上都原生支持 OpenPrintTag，而且我确保这项功能完全免费。
+NFC.cool Tools 在 [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-zh) 上都原生支持 OpenPrintTag，而且我确保这项功能完全免费。
 
 **读取一张标签：**
 1. 打开 NFC.cool Tools
@@ -107,7 +107,7 @@ NFC.cool Tools 在 [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=
 **更新剩余材料：**
 打印结束后，更新标签上的已消耗重量字段。下次你扫描时，就会确切知道还剩多少耗材，无需猜测，无需称重。正是这一点，把一卷智能线轴从一个新奇玩意儿变成了我真正会依赖的东西。
 
-如果你想看看底层是怎么回事，可以用专家模式（Expert Mode）查看原始的 NDEF 记录，在你需要调试一张标签或核实数据结构时很有用。对写入标签整体还很陌生？我在 [如何在 iPhone 上写入 NFC 标签](/blog/write-nfc-tags-iphone/) 里讲了基础知识。
+如果你想看看底层是怎么回事，可以用专家模式（Expert Mode）查看原始的 NDEF 记录，在你需要调试一张标签或核实数据结构时很有用。对写入标签整体还很陌生？我在 [如何在 iPhone 上写入 NFC 标签](/zh/blog/write-nfc-tags-iphone/) 里讲了基础知识。
 
 ---
 
@@ -155,10 +155,10 @@ OpenPrintTag 还很年轻，但势头是实实在在的：
 
 **你需要什么：**
 - iPhone 7 或更新机型，或一部带 NFC 的 Android 手机
-- NFC.cool Tools（[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-en)），免费，已包含 OpenPrintTag
+- NFC.cool Tools（[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-openprinttag-read-write-nfc-spools-phone-zh&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-openprinttag-read-write-nfc-spools-phone-zh)），免费，已包含 OpenPrintTag
 - 空白的 ICODE SLIX2 / ISO 15693 NFC 标签（[Amazon 美国](https://amzn.to/3LTh1fT) / [Amazon 欧洲](https://amzn.to/4oJpQr4)，推广链接）
 - 一些待贴标的耗材线轴
 
-就这些。从现在起五分钟，你的第一卷线轴就能变智能。如果 NFC 本身对你还很陌生，我的 [NFC 标签新手指南](/blog/nfc-tags-beginners-guide/) 是我最先会带你去看的地方，而 [NFC 读取/写入功能页](/features/nfc-reader-writer/) 则介绍了 NFC.cool Tools 在 OpenPrintTag 之外还能做什么。
+就这些。从现在起五分钟，你的第一卷线轴就能变智能。如果 NFC 本身对你还很陌生，我的 [NFC 标签新手指南](/zh/blog/nfc-tags-beginners-guide/) 是我最先会带你去看的地方，而 [NFC 读取/写入功能页](/zh/features/nfc-reader-writer/) 则介绍了 NFC.cool Tools 在 OpenPrintTag 之外还能做什么。
 
 *OpenPrintTag 是 Prusa Research 发起的一项开源倡议。NFC.cool 是该标准的一个独立支持者。在 [openprinttag.org](https://openprinttag.org) 了解更多。*

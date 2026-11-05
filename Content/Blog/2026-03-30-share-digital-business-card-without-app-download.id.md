@@ -2,6 +2,7 @@
 id: nfc-blog-012
 title: "Bagikan kartu nama digital Anda tanpa meminta siapa pun mengunduh aplikasi"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "Kartu nama digital Anda seharusnya langsung berfungsi bagi penerimanya, tanpa unduhan, tanpa hambatan. Begini cara App Clips dan profil web instan mewujudkan itu."
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
@@ -57,7 +58,7 @@ Inilah yang terjadi:
 4. **Simpan satu ketukan:** tombol "Save Contact" ada di bagian bawah layar, tepat di mana ibu jari biasanya berada. Satu ketukan menyimpan segalanya ke aplikasi Contacts mereka
 5. **Bahasa mereka:** App Clip mendukung 35 bahasa dan secara otomatis menyesuaikan dengan bahasa perangkat penerima. Berikan kartu Anda kepada seseorang di Tokyo, São Paulo, atau Berlin, dan mereka melihatnya dalam bahasa mereka sendiri
 
-Tanpa pembuatan akun. Tanpa prompt pendaftaran. Tanpa iklan. Tanpa URL pelacakan. Hanya informasi kontak Anda, disimpan dalam hitungan detik.
+Tidak ada akun yang perlu dibuat. Tidak ada yang perlu didaftarkan. Tanpa iklan. Tanpa URL pelacakan. Hanya informasi kontak Anda, tersimpan dalam hitungan detik.
 
 Setelah menyimpan, penerima melihat undangan halus untuk membuat kartu nama NFC.cool mereka sendiri. Itu saja, tidak ada dorongan agresif, tidak ada pendaftaran paksa.
 
@@ -89,10 +90,10 @@ Yang membuat pengalaman penerima benar-benar baik bukan hanya apa yang ada, tapi
 
 Ketika seseorang menerima kartu nama NFC.cool Anda:
 
-- **Tanpa iklan:** halaman profil tidak mempromosikan NFC.cool atau menampilkan iklan pihak ketiga
+- **Tanpa iklan:** halaman profil tidak menampilkan iklan pihak ketiga. Kartu Free memuat baris kecil "Made with NFC.cool" di bagian bawah, dan paket berbayar menghilangkannya
 - **Tanpa pengalihan pelacakan:** tautan Anda adalah tautan Anda yang sebenarnya, tidak dibungkus dalam URL analitik
-- **Tanpa promosi:** penerima tidak mendapatkan email tindak lanjut dari NFC.cool yang meminta mereka mendaftar
-- **Tanpa pemanenan data:** informasi penerima tidak digunakan untuk pemasaran
+- **Tanpa pemasaran dari NFC.cool:** NFC.cool tidak mengirim pemasaran kepada orang yang melihat kartu Anda. Di paket Team, tim Anda bisa mengirim email tindak lanjut kepada orang yang meninggalkan datanya lewat formulir prospek Anda
+- **Tidak menjual data:** NFC.cool tidak menjual data Anda maupun data orang yang melihat kartu Anda
 
 Ini lebih penting dari yang disadari kebanyakan orang. Kartu nama Anda sering kali merupakan kesan pertama seseorang tentang Anda. Jika mengetuk kartu Anda mengarah ke halaman yang berantakan dengan banner iklan atau mengirimkan email spam kepada penerima keesokan harinya, itu mencerminkan Anda, bukan hanya aplikasinya.
 
@@ -106,7 +107,7 @@ Ini lebih penting dari yang disadari kebanyakan orang. Kartu nama Anda sering ka
 </ol>
 </figure>
 
-Di konferensi dan acara, Anda berbagi kartu puluhan kali. NFC.cool memiliki fitur yang disebut Conference Mode yang menggunakan iOS Live Activities untuk menempatkan kode QR langsung di layar kunci Anda.
+Di konferensi dan acara, Anda berbagi kartu puluhan kali. NFC.cool memiliki fitur yang disebut Mode Konferensi yang menggunakan iOS Live Activities untuk menempatkan kode QR langsung di layar kunci Anda.
 
 Tidak perlu membuka kunci ponsel, membuka aplikasi, atau menavigasi ke kartu Anda. Cukup tunjukkan layar kunci Anda, orang lain memindai kode QR, dan App Clip melakukan sisanya.
 
@@ -117,11 +118,11 @@ Ini adalah hal kecil, tetapi di acara yang ramai di mana Anda memegang kopi di s
 ## Memulai
 
 **Sebagai pemilik kartu:**
-- Unduh NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en))
+- Unduh NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-id&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-id))
 - Buat kartu Anda dengan detail, foto, dan tautan sosial Anda
 - Bagikan melalui tag NFC, kode QR, atau tautan langsung
 
 **Sebagai penerima:**
 - Tidak ada. Itulah intinya.
 
-*NFC.cool Business Card tersedia di iOS dan Android. Fungsionalitas App Clip adalah fitur iOS; penerima Android menerima profil web instan sebagai gantinya.*
+*[NFC.cool Business Card](/id/business-card/) tersedia di iOS dan Android, dan halamannya mencantumkan apa saja yang disertakan di setiap paket. Penerima di iPhone mendapatkan App Clip native, dan penerima di Android mendapatkan profil web instan.*

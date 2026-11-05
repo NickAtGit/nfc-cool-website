@@ -86,7 +86,7 @@ Berguna untuk mencari barcode produk dengan cepat saat Anda sedang bekerja, atau
 
 Saya percaya pada kejujuran tentang keterbatasan, bukan menyembunyikannya.
 
-**Pemindaian NFC** tidak memiliki dukungan *bawaan* di Mac, karena tidak ada Mac yang memiliki radio NFC. Dulu ceritanya berakhir di situ. Sekarang tidak lagi: dengan pembaca USB eksternal, kini Anda bisa membaca dan menulis tag NFC langsung dari Mac atau iPad. Saya menuliskan cara kerjanya di [Membaca tag NFC di iPad dan Mac](/blog/nfc-reading-ipad-mac/).
+**Pemindaian NFC** tidak memiliki dukungan *bawaan* di Mac, karena tidak ada Mac yang memiliki radio NFC. Dulu ceritanya berakhir di situ. Sekarang tidak lagi: dengan pembaca USB eksternal, kini Anda bisa membaca dan menulis tag NFC langsung dari Mac atau iPad. Saya menuliskan cara kerjanya di [Membaca tag NFC di iPad dan Mac](/id/blog/nfc-reading-ipad-mac/).
 
 **Pemindaian dokumen** juga tidak berfungsi - kamera Mac tidak memiliki pipeline fokus otomatis dan deteksi tepi yang membuat pemindaian dokumen bekerja di iPhone dan iPad.
 

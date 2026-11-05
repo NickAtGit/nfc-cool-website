@@ -20,7 +20,7 @@ Mentre ero lì ho fatto due chiacchiere con [Alexander Manzer](https://www.linke
 
 ## Avevo detto che non si poteva fare
 
-A maggio, [quando NFC.cool è arrivata su Mac](/blog/nfc-cool-comes-to-mac/), ho dedicato un'intera sezione a ciò che sul Mac non si può fare, e in cima alla lista avevo messo proprio la scansione NFC. Il ragionamento era semplice: i Mac non hanno una radio NFC, gli iPad non hanno una radio NFC, ed è un limite hardware che nessun mio aggiornamento software può superare.
+A maggio, [quando NFC.cool è arrivata su Mac](/it/blog/nfc-cool-comes-to-mac/), ho dedicato un'intera sezione a ciò che sul Mac non si può fare, e in cima alla lista avevo messo proprio la scansione NFC. Il ragionamento era semplice: i Mac non hanno una radio NFC, gli iPad non hanno una radio NFC, ed è un limite hardware che nessun mio aggiornamento software può superare.
 
 Quella parte è ancora vera, se parliamo del chip integrato nel dispositivo. Quello che mi era sfuggito è che il chip integrato non è l'unica strada: un lettore puoi anche collegarlo da fuori.
 
@@ -55,7 +55,7 @@ Ecco tutti i lettori che a oggi mi risulta funzionino con NFC.cool:
 - **ACS ACR1552U-M1** - segnalato come funzionante da un utente ([Amazon](https://amzn.to/4xZVEwe))
 - **ACS ACR1255U-J1** - segnalato come funzionante da un utente ([Amazon](https://amzn.to/4xZVEwe))
 
-Grazie a tutti quelli che mi hanno scritto. Non posso comprare ogni lettore in commercio, quindi ogni modello dopo il primo è finito in questa lista perché qualcuno lo ha comprato, lo ha provato e si è preso il tempo di raccontarmelo. Se usi un lettore che qui non c'è, [scrivimi](/contact/) e dimmi se ha funzionato oppure dove si è bloccato: lo aggiungo al post.
+Grazie a tutti quelli che mi hanno scritto. Non posso comprare ogni lettore in commercio, quindi ogni modello dopo il primo è finito in questa lista perché qualcuno lo ha comprato, lo ha provato e si è preso il tempo di raccontarmelo. Se usi un lettore che qui non c'è, [scrivimi](/it/contact/) e dimmi se ha funzionato oppure dove si è bloccato: lo aggiungo al post.
 
 Quelli sono link di affiliazione Amazon: se acquisti passando da lì posso ricevere una piccola commissione, senza costi aggiuntivi per te.
 
@@ -69,7 +69,7 @@ Quelli sono link di affiliazione Amazon: se acquisti passando da lì posso ricev
 </ol>
 </figure>
 
-Quasi tutto quello che faresti da iPhone. Leggi i tag ed estrai l'intera memoria, scrivi messaggi NDEF e lanci lavori in serie che leggono o scrivono una pila intera di tag uno dopo l'altro. La protezione con password funziona. Funziona anche [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), il formato per le bobine di filamento delle stampanti 3D, in entrambe le direzioni. E sì, gira pure l'[azzeramento del contatore delle testine Philips Sonicare](/blog/reset-sonicare-brush-head-nfc/).
+Quasi tutto quello che faresti da iPhone. Leggi i tag ed estrai l'intera memoria, scrivi messaggi NDEF e lanci lavori in serie che leggono o scrivono una pila intera di tag uno dopo l'altro. La protezione con password funziona. Funziona anche [OpenPrintTag](/it/blog/openprinttag-read-write-nfc-spools-phone/), il formato per le bobine di filamento delle stampanti 3D, in entrambe le direzioni. E sì, gira pure l'[azzeramento del contatore delle testine Philips Sonicare](/it/blog/reset-sonicare-brush-head-nfc/).
 
 Proprio quest'ultimo è stato il punto più ostico. Azzerare una testina Sonicare significa leggere un contatore dal tag e poi riscrivere su una pagina protetta da password, e il tag accetta quella scrittura solo se ti considera ancora autenticato dall'istante precedente. Con un lettore esterno questo voleva dire tenere aperta un'unica sessione con il lettore per entrambi i passaggi, invece di lasciarla chiudere nel mezzo. Sistemato quello, le operazioni che ne dipendono - le scritture protette, l'azzeramento della testina - hanno cominciato a funzionare esattamente come funzionano da telefono.
 

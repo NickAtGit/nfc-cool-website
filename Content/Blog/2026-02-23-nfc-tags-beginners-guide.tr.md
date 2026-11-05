@@ -53,7 +53,7 @@ NFC aslında RFID'nin (Radyo Frekansıyla Tanımlama) bir alt kümesi. Farkı ş
 | **Standart** | ISO 14443 / ISO 18092 | Birden çok standart |
 | **Tüketici kullanımı** | Yüksek (telefonlar, ödemeler) | Çoğunlukla endüstriyel |
 
-Her NFC bir RFID'dir ama her RFID bir NFC değildir. Ofise girmek için okuttuğun kart çoğu zaman 125 KHz'de çalışıyor ve telefonun onu okuyamıyor. NFC tag'ler ise telefonların desteklediği 13,56 MHz frekansını kullanıyor. "Telefonum iş kartımı neden okumuyor?" en sık aldığım sorulardan biri ve yanıtı neredeyse her zaman bu. (O tavşan deliğine düştüysen [iPhone'un RFID kapısını neden açmadığı](/blog/iphone-rfid-condo-doors/) üzerine koca bir yazı yazdım.)
+Her NFC bir RFID'dir ama her RFID bir NFC değildir. Ofise girmek için okuttuğun kart çoğu zaman 125 KHz'de çalışıyor ve telefonun onu okuyamıyor. NFC tag'ler ise telefonların desteklediği 13,56 MHz frekansını kullanıyor. "Telefonum iş kartımı neden okumuyor?" en sık aldığım sorulardan biri ve yanıtı neredeyse her zaman bu. (O tavşan deliğine düştüysen [iPhone'un RFID kapısını neden açmadığı](/tr/blog/iphone-rfid-condo-doors/) üzerine koca bir yazı yazdım.)
 
 ---
 
@@ -107,9 +107,9 @@ Tüketici NTAG hattındaki en yüksek bellek ve tek bir tag alacaksan seçeceği
 | Akıllı ev tetikleyicisi | NTAG213 | Yalnızca benzersiz kimlik yeterli |
 | Sahtecilikle mücadele | NTAG424 DNA | Kriptografik doğrulama |
 
-**Nereden alınır:** [Önerilen NFC tag'ler](/affiliate-links/) sayfam, kullandığım ve üzerinde sınadığım NTAG216 etiketleri listeliyor. Etiket biçimindeki tag'ler en çok yönlü olanlar; neredeyse her şeye yapışıyorlar.
+**Nereden alınır:** [Önerilen NFC tag'ler](/tr/affiliate-links/) sayfam, kullandığım ve üzerinde sınadığım NTAG216 etiketleri listeliyor. Etiket biçimindeki tag'ler en çok yönlü olanlar; neredeyse her şeye yapışıyorlar.
 
-Dürüst önerim: bir paket NTAG216 etiket al ve fazla düşünme. İnsanların, 20 sentlik bir tag'in rahatça karşıladığı bir proje için çip türleri üstünde saatlerce kafa yorduğunu gördüm. Daha derin dökümü istersen çip çip [iPhone için NFC tag türleri](/blog/nfc-tag-types-for-iphones/) yazısında anlattım.
+Dürüst önerim: bir paket NTAG216 etiket al ve fazla düşünme. İnsanların, 20 sentlik bir tag'in rahatça karşıladığı bir proje için çip türleri üstünde saatlerce kafa yorduğunu gördüm. Daha derin dökümü istersen çip çip [iPhone için NFC tag türleri](/tr/blog/nfc-tag-types-for-iphones/) yazısında anlattım.
 
 ---
 
@@ -160,7 +160,7 @@ Okuttuğunda ne olacağı veriye bağlı:
 - **App Clip.** Varsa bir App Clip başlıyor
 - **Özel veri.** İlgili uygulamayı açıyor
 
-Bir tag'de ne olduğunu hemen görmek istiyorsan Android'de [NFC tag'leri doğrudan tarayıcından da okuyabilirsin](/online-nfc-reader/); kurulum yok.
+Bir tag'de ne olduğunu hemen görmek istiyorsan Android'de [NFC tag'leri doğrudan tarayıcından da okuyabilirsin](/tr/online-nfc-reader/); kurulum yok.
 
 ### Android'de
 
@@ -187,7 +187,7 @@ Süreç kısa:
 4. Telefonunu tag'e tut
 5. Onayı bekle, genelde bir saniye kadar
 
-Hepsi bu. Tag artık verini taşıyor ve onu okuyan her NFC'li telefonla çalışıyor. iPhone'a özel anlatımı istersen burada yazdım: [iPhone'da NFC tag nasıl yazılır](/blog/write-nfc-tags-iphone/).
+Hepsi bu. Tag artık verini taşıyor ve onu okuyan her NFC'li telefonla çalışıyor. iPhone'a özel anlatımı istersen burada yazdım: [iPhone'da NFC tag nasıl yazılır](/tr/blog/write-nfc-tags-iphone/).
 
 ### Önemli: tag kilitlemek
 
@@ -326,7 +326,7 @@ Denemek ister misin? Herkesi başlatacağım beş dakikalık bir proje:
 
 **Proje: evin için Wi-Fi paylaşım tag'i**
 
-1. **Tag al:** bir paket [NTAG216 etiket](/affiliate-links/) edin (25 tanesi yaklaşık 10 dolar)
+1. **Tag al:** bir paket [NTAG216 etiket](/tr/affiliate-links/) edin (25 tanesi yaklaşık 10 dolar)
 2. **NFC.cool Tools'u indir:** [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-tr&mt=8) ya da [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-tr) için
 3. **Wi-Fi bilgilerini yaz:** uygulamayı aç, Yaz'ı, sonra Wi-Fi'yi seç, ağ adını ve parolanı gir ve telefonunu tag'e tut
 4. **Tag'i yerleştir:** görünür bir yere; kapının yanına, buzdolabına, misafir odasına

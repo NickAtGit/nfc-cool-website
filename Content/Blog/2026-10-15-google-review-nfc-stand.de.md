@@ -23,7 +23,7 @@ Nichts davon. Es ist ein ganz normaler NFC-Tag und ein gedruckter QR-Code, und b
 
 ## Was in einem Google-Bewertungsaufsteller wirklich steckt
 
-Der NFC-Tag in diesen Aufstellern ist dieselbe Art billiger Sticker, die du [im Fünfzigerpack kaufen kannst](/affiliate-links/). Jemand hat einen einzigen Weblink darauf geschrieben. Der QR-Code daneben ist genau derselbe Link, nur als Muster aus Quadraten gedruckt, für alle, deren Handy kein NFC hat oder bei denen es ausgeschaltet ist.
+Der NFC-Tag in diesen Aufstellern ist dieselbe Art billiger Sticker, die du [im Fünfzigerpack kaufen kannst](/de/affiliate-links/). Jemand hat einen einzigen Weblink darauf geschrieben. Der QR-Code daneben ist genau derselbe Link, nur als Muster aus Quadraten gedruckt, für alle, deren Handy kein NFC hat oder bei denen es ausgeschaltet ist.
 
 Spannend ist der Link selbst. Google hat eine URL, die Gäste direkt zum Bewertungsformular eines bestimmten Unternehmens bringt. Erkannt wird das Unternehmen an seiner **Place ID**. Jedes Unternehmen auf Google Maps hat eine, und falls deins dort noch fehlt, erklärt Google, wie du [ein Unternehmensprofil erstellst](https://support.google.com/business/answer/2911778?hl=de). Schreib diesen Link auf einen Tag, und vom Gedanken „Das war ein toller Abend“ bis zur geschriebenen Bewertung muss man das Handy nur noch kurz an den Aufsteller halten.
 
@@ -51,7 +51,7 @@ Bevor du loslegst: Ein paar Dinge habe ich beim Testen auf die harte Tour gelern
 
 Das [Piano Negro](https://mycard.nfc.cool/PianoNegro/Piano-Negro) ist eine Bar in Coimbra, die es seit 1993 gibt. Als ich dem Besitzer beim Einrichten der Aufsteller geholfen habe, haben wir nicht einfach nur einen Bewertungslink auf die Tische gestellt. Wer sich gerade an einen Tisch setzt, denkt noch nicht an Bewertungen. Da will man erst mal wissen, was es zu essen und zu trinken gibt.
 
-Deshalb steht auf jedem Tisch im Piano Negro ein Aufsteller mit der **[NFC.cool Business Card](/business-card/)** der Bar. Handy dranhalten oder den QR-Code scannen, und die Karte öffnet sich mit allem, was ein Gast brauchen könnte, jeweils nur einen Fingertipp entfernt:
+Deshalb steht auf jedem Tisch im Piano Negro ein Aufsteller mit der **[NFC.cool Business Card](/de/business-card/)** der Bar. Handy dranhalten oder den QR-Code scannen, und die Karte öffnet sich mit allem, was ein Gast brauchen könnte, jeweils nur einen Fingertipp entfernt:
 
 - die Speisekarte, auf Portugiesisch und auf Englisch
 - WhatsApp
@@ -70,10 +70,10 @@ Was mir an dieser Lösung außerdem gefällt: Der Aufsteller ist nie veraltet. T
 
 Die Einkaufsliste ist angenehm kurz:
 
-- **NFC-Tags.** Ein einfacher NTAG213-Sticker reicht völlig, die Links aus diesem Beitrag passen locker darauf. Falls du dir bei den Tag-Typen unsicher bist, erklärt mein [Ratgeber zu NFC-Tags fürs iPhone](/blog/nfc-tag-types-for-iphones/) die Unterschiede.
+- **NFC-Tags.** Ein einfacher NTAG213-Sticker reicht völlig, die Links aus diesem Beitrag passen locker darauf. Falls du dir bei den Tag-Typen unsicher bist, erklärt mein [Ratgeber zu NFC-Tags fürs iPhone](/de/blog/nfc-tag-types-for-iphones/) die Unterschiede.
 - **Durchsichtige Acrylaufsteller**, in die du eine gedruckte Karte einschiebst. Die werden als Menükarten- oder Schilderhalter verkauft und kosten ein paar Euro das Stück.
 - **Einen Farbdrucker.**
-- **[NFC.cool Business Card](/business-card/)** für die Tischaufsteller.
+- **[NFC.cool Business Card](/de/business-card/)** für die Tischaufsteller.
 - **NFC.cool Tools** für den Bewertungslink und um deine Tags mit einem Passwort zu schützen, fürs [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-google-review-nfc-stand-de&mt=8) und für [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-google-review-nfc-stand-de).
 
 ---
@@ -135,7 +135,7 @@ Taucht dein Geschäft gar nicht auf, hat es wahrscheinlich noch kein Google-Unte
 
 ### Schritt 2: Tag beschreiben
 
-Speichere den Link und schreib ihn auf deinen NFC-Sticker, indem du das Handy daran hältst. Falls du noch nie einen Tag beschrieben hast, erkläre ich das Schritt für Schritt in [NFC-Tags mit dem iPhone beschreiben](/blog/write-nfc-tags-iphone/).
+Speichere den Link und schreib ihn auf deinen NFC-Sticker, indem du das Handy daran hältst. Falls du noch nie einen Tag beschrieben hast, erkläre ich das Schritt für Schritt in [NFC-Tags mit dem iPhone beschreiben](/de/blog/write-nfc-tags-iphone/).
 
 ### Schritt 3: QR-Code erstellen
 

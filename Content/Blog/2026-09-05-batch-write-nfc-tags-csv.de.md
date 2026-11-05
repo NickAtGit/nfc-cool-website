@@ -24,7 +24,7 @@ Hier ist der komplette Ablauf, von der Tabelle bis zum letzten Tag. Genauso funk
 
 Du gibst der App eine CSV-Datei, und aus jeder Zeile wird ein Tag. Die App zeigt dir vorab, was auf jeden Tag kommt, du tippst auf **Schreiben starten** und hältst dann einen Tag nach dem anderen ans Handy. Jede geschriebene Zeile verschwindet aus der Datei, die Liste auf dem Bildschirm zeigt also immer nur, was noch übrig ist. Du kannst jederzeit aufhören und später weitermachen, auch Tage später.
 
-Wenn du noch nie einen NFC-Tag beschrieben hast, fang mit meiner [Anleitung zum Beschreiben von NFC-Tags mit dem iPhone](/blog/write-nfc-tags-iphone/) an. In diesem Beitrag geht es darum, viele davon zu beschreiben.
+Wenn du noch nie einen NFC-Tag beschrieben hast, fang mit meiner [Anleitung zum Beschreiben von NFC-Tags mit dem iPhone](/de/blog/write-nfc-tags-iphone/) an. In diesem Beitrag geht es darum, viele davon zu beschreiben.
 
 ---
 
@@ -120,7 +120,7 @@ Jeder Weg ist recht, solange die Datei am Ende auf dem iPhone in der Dateien-App
 
 Die App legt sich eine eigene Kopie der Datei an. Während du Tags beschreibst, werden die Zeilen aus dieser Kopie entfernt. Deine Originaltabelle auf dem Rechner bleibt unangetastet, die vollständige Liste hast du also immer noch.
 
-Sobald die Datei ausgewählt ist, zeigt die App, was sie erkannt hat: das Trennzeichen, die Anzahl der Spalten, den Gruppierungsmodus und wie viele Tags du brauchen wirst. Die eine Zahl, die ich immer prüfe, ist **Bytes pro NFC-Tag**, die Größe der größten Nachricht im Stapel. Vergleich sie mit deinen Tags. Ein NTAG213 fasst 144 Bytes, ein NTAG215 504 und ein NTAG216 888. Ein kurzer Link liegt bei etwa 50 Bytes, für Links reichen also die günstigsten Tags. Ein WLAN-Record oder eine längere Kontaktkarte braucht einen 215 oder 216. Wenn du nicht sicher bist, welchen Chip du hast, wirf einen Blick in meinen [Ratgeber zu den NFC-Tag-Typen](/blog/nfc-tag-types-for-iphones/).
+Sobald die Datei ausgewählt ist, zeigt die App, was sie erkannt hat: das Trennzeichen, die Anzahl der Spalten, den Gruppierungsmodus und wie viele Tags du brauchen wirst. Die eine Zahl, die ich immer prüfe, ist **Bytes pro NFC-Tag**, die Größe der größten Nachricht im Stapel. Vergleich sie mit deinen Tags. Ein NTAG213 fasst 144 Bytes, ein NTAG215 504 und ein NTAG216 888. Ein kurzer Link liegt bei etwa 50 Bytes, für Links reichen also die günstigsten Tags. Ein WLAN-Record oder eine längere Kontaktkarte braucht einen 215 oder 216. Wenn du nicht sicher bist, welchen Chip du hast, wirf einen Blick in meinen [Ratgeber zu den NFC-Tag-Typen](/de/blog/nfc-tag-types-for-iphones/).
 
 Öffne die **Stapelvorschau**, um jeden Tag mit den Records zu sehen, die er bekommt. Was dort steht, wird genau so geschrieben.
 

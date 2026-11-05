@@ -12,7 +12,7 @@ metaDescription: "NFC tag'lerini sırayla okutmadan susmayan, iPhone ve Android 
 ogTitle: "Erteleyerek kurtulamayacağın bir alarm"
 ogDescription: "NFC Alarmı, evinin içindeki NFC tag'leri tek tek okutana kadar susmuyor. iPhone ve Android'de nasıl çalıştığını anlatıyorum."
 ---
-Bağımsız geliştirici olmanın mesai saati tanımayan kendine has bir ritmi var. En verimli kod gece yazılıyor: mesajlar kesilmiş, ev sessizleşmiş, bir bakıyorum saat gece ikiyi bulmuş. Alarm ise tabii ki her sabah aynı saatte çalıyor. Ben de erteliyorum. Bir daha. Bir daha, ta ki planladığım sabahın yarısı gidene kadar.
+Kurucu olmanın mesai saati tanımayan kendine has bir ritmi var. En verimli kod gece yazılıyor: mesajlar kesilmiş, ev sessizleşmiş, bir bakıyorum saat gece ikiyi bulmuş. Alarm ise tabii ki her sabah aynı saatte çalıyor. Ben de erteliyorum. Bir daha. Bir daha, ta ki planladığım sabahın yarısı gidene kadar.
 
 Buna gerçekten ne yapabileceğimi epey düşündüm. Daha yüksek sesli bir alarm mı? Bir süre sonra onu da duymadan uyumayı öğrenirdim. Telefonu odanın öbür ucuna koymak mı? Kalkar, Durdur'a basar, yatağa geri gömülürdüm. Sorun hiçbir zaman alarmı duymamak değildi. Sorun, onu susturmanın tek dokunuşla, hiç düşünmeden olabilmesiydi.
 
@@ -80,7 +80,7 @@ Banyo lavabonun fotoğrafını çektiren ya da diş macununun barkodunu okuttura
 
 Tek başına bir NFC tag'i çıplak bir parça metalden ibaret: rafta duran, bir kimlik numarasından başka hiçbir şeyi olmayan minik bir çip. NFC.cool'u geliştirirken en çok keyif aldığım şey, o çıplak metale bir anlam katmak: birkaç kuruşluk bir etiketi hayatında gerçekten bir işe yarayan bir şeye dönüştürmek. NFC Alarmı'nda tag'in üstünde herhangi bir içerik olmasına bile gerek yok. Uygulama her tag'i çip kimliğinden tanıyor ve üstüne hiçbir şey yazmıyor. Çekmecende duran o yedek etiket paketi dahil, her tag işini görüyor. Işık da umurunda değil: kameranın zorlanacağı karanlık bir koridorda bile tag okutmak sorunsuz çalışıyor ve bir yere nişan almana da gerek yok.
 
-Henüz tag'in yoksa [NFC tag'ler için başlangıç rehberimde](/blog/nfc-tags-beginners-guide/) hangilerini alman gerektiğini anlatıyorum.
+Henüz tag'in yoksa [NFC tag'ler için başlangıç rehberimde](/tr/blog/nfc-tags-beginners-guide/) hangilerini alman gerektiğini anlatıyorum.
 
 ---
 

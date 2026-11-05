@@ -38,7 +38,7 @@ image: "/assets/images/og-landing.webp"
 <p class="nfc-reader-title">NFCタグを読み取る</p>
 <p class="nfc-reader-lead">ボタンをタップして、スマートフォンの上部にタグを当ててください。中身を表示します。</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>NFCを読み取る</span></button>
-<p class="nfc-reader-fineprint">より多くのNFC機能を備えたネイティブのNFC体験をご希望ですか？ <a href="/features/nfc-reader-writer/">NFC.coolアプリを入手！</a></p>
+<p class="nfc-reader-fineprint">より多くのNFC機能を備えたネイティブのNFC体験をご希望ですか？ <a href="/ja/features/nfc-reader-writer/">NFC.coolアプリを入手！</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -112,7 +112,7 @@ image: "/assets/images/og-landing.webp"
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>タグに書き込む</span></button>
-<p class="nfc-reader-fineprint">より多くのNFC機能を備えたネイティブのNFC体験をご希望ですか？ <a href="/features/nfc-reader-writer/">NFC.coolアプリを入手！</a></p>
+<p class="nfc-reader-fineprint">より多くのNFC機能を備えたネイティブのNFC体験をご希望ですか？ <a href="/ja/features/nfc-reader-writer/">NFC.coolアプリを入手！</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -255,19 +255,19 @@ image: "/assets/images/og-landing.webp"
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
 <h3>NFC Safeで機密情報を暗号化</h3>
-<p>NFC SafeはチップそのものにAES-256で機密情報を暗号化して書き込みます。アプリ以外からは、タグはスクランブルされたデータとしてしか読み取れません。<a href="/blog/nfc-safe-encrypted-secrets/">NFC Safeの仕組み</a>。</p>
+<p>NFC SafeはチップそのものにAES-256で機密情報を暗号化して書き込みます。アプリ以外からは、タグはスクランブルされたデータとしてしか読み取れません。<a href="/ja/blog/nfc-safe-encrypted-secrets/">NFC Safeの仕組み</a>。</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
 <h3>タップの動作を自動化</h3>
-<p>タグでウェブフックを実行したり、iOSショートカットを起動したり、内容を読み上げたり、スキャンされた回数を数えたりできます。<a href="/blog/count-nfc-tag-scans/">NFCタグのスキャン回数を数える方法</a>。</p>
+<p>タグでウェブフックを実行したり、iOSショートカットを起動したり、内容を読み上げたり、スキャンされた回数を数えたりできます。<a href="/ja/blog/count-nfc-tag-scans/">NFCタグのスキャン回数を数える方法</a>。</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
 <h3>タグのクローン、リセット、検査</h3>
-<p>タグをクローンしたり、生のチップメモリをダンプして識別したり、<a href="/blog/openprinttag-read-write-nfc-spools-phone/">3Dプリンターのフィラメントスプール</a>や<a href="/blog/reset-sonicare-brush-head-nfc/">電動歯ブラシのブラシヘッド</a>のようなNFCで制御されるハードウェアを再プログラムしたりできます。</p>
+<p>タグをクローンしたり、生のチップメモリをダンプして識別したり、<a href="/ja/blog/openprinttag-read-write-nfc-spools-phone/">3Dプリンターのフィラメントスプール</a>や<a href="/ja/blog/reset-sonicare-brush-head-nfc/">電動歯ブラシのブラシヘッド</a>のようなNFCで制御されるハードウェアを再プログラムしたりできます。</p>
 </article>
 
 </div>
@@ -304,7 +304,7 @@ AppleはすべてのiOSブラウザでNFCをブロックしているため、ど
 
 <details class="faq-item">
 <summary>Wi-Fiネットワークや連絡先カードをタグに書き込めますか？</summary>
-<p>はい。書き込みのドロップダウンでWi-Fiネットワークまたは連絡先カードを選び、各項目を入力してください。Wi-FiタグはAndroidスマートフォンにネットワークへの接続を促し、連絡先タグは標準的なvCardを保存します。スマートフォンはそれを保存するかどうか尋ねてきます。</p>
+<p>はい。書き込みのドロップダウンでWi-Fiネットワークまたは連絡先カードを選び、各項目を入力してください。Wi-FiタグはAndroidスマートフォンにネットワークへの接続を促し、連絡先タグは標準的なvCardを保存します。Androidスマートフォンはそれを保存するかどうか尋ねてきます。書き込んだあとも更新できるカードをお探しなら、<a href="/ja/business-card/">NFC.cool Business Card</a>はタグにリンクを書き込むので、あとから情報を編集できます。</p>
 </details>
 
 <details class="faq-item">
@@ -333,8 +333,8 @@ AppleはすべてのiOSブラウザでNFCをブロックしているため、ど
 このページはブラウザでの基本的な使い方をカバーしています。無料のNFC.coolアプリはさらに進みます。あらゆるタグを読み取り、リンク、Wi-Fi、連絡先、ショートカットなど25種類以上のデータをiPhoneとAndroidの両方で書き込めます。私自身が開発し、メンテナンスしています。
 
 <div class="tap-cta-buttons">
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">NFCリーダー & ライターを見る</a>
-<a href="/blog/nfc-tags-beginners-guide/" class="landing-cta-button">NFCタグは初めてですか？ここから始めましょう</a>
+<a href="/ja/features/nfc-reader-writer/" class="landing-cta-button">NFCリーダー & ライターを見る</a>
+<a href="/ja/blog/nfc-tags-beginners-guide/" class="landing-cta-button">NFCタグは初めてですか？ここから始めましょう</a>
 </div>
 
 </section>

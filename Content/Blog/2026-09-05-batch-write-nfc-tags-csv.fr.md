@@ -24,7 +24,7 @@ Voici tout le parcours, du tableur jusqu'au dernier tag. La méthode vaut aussi 
 
 Vous donnez un fichier CSV à l'app, et chaque ligne devient un tag. L'app vous montre un aperçu de ce qui ira sur chacun, vous appuyez sur Commencer l'écriture, puis vous présentez les tags l'un après l'autre au téléphone. Chaque ligne écrite est retirée du fichier, si bien que la liste à l'écran correspond toujours à ce qu'il reste à faire. Vous pouvez vous arrêter à tout moment et reprendre plus tard, même plusieurs jours après.
 
-Si vous n'avez encore jamais écrit de tag NFC, commencez par mon [guide pour écrire des tags NFC avec un iPhone](/blog/write-nfc-tags-iphone/). Ici, il est question d'en écrire beaucoup.
+Si vous n'avez encore jamais écrit de tag NFC, commencez par mon [guide pour écrire des tags NFC avec un iPhone](/fr/blog/write-nfc-tags-iphone/). Ici, il est question d'en écrire beaucoup.
 
 ---
 
@@ -120,7 +120,7 @@ Dans NFC.cool Tools, ouvrez l'écran des outils NFC et cherchez **Écriture par 
 
 L'app fait sa propre copie du fichier. Au fil des écritures, les lignes sont retirées de cette copie. Votre tableur d'origine sur l'ordinateur reste intact, vous gardez donc toujours la liste complète.
 
-Une fois le fichier sélectionné, l'app affiche ce qu'elle a détecté : le délimiteur, le nombre de colonnes, le mode de regroupement et le nombre de tags qu'il vous faudra. Le chiffre que je vérifie à chaque fois, c'est **Octets par étiquette NFC**, la taille du plus gros message du lot. Comparez-le à vos tags. Un NTAG213 contient 144 octets, un NTAG215 504 et un NTAG216 888. Un lien court pèse une cinquantaine d'octets, donc les tags les moins chers suffisent pour des liens. Un record Wi-Fi ou une fiche de contact un peu longue réclame un 215 ou un 216. Si vous ne savez pas quelle puce vous avez, jetez un œil à mon [guide des types de tags NFC](/blog/nfc-tag-types-for-iphones/).
+Une fois le fichier sélectionné, l'app affiche ce qu'elle a détecté : le délimiteur, le nombre de colonnes, le mode de regroupement et le nombre de tags qu'il vous faudra. Le chiffre que je vérifie à chaque fois, c'est **Octets par étiquette NFC**, la taille du plus gros message du lot. Comparez-le à vos tags. Un NTAG213 contient 144 octets, un NTAG215 504 et un NTAG216 888. Un lien court pèse une cinquantaine d'octets, donc les tags les moins chers suffisent pour des liens. Un record Wi-Fi ou une fiche de contact un peu longue réclame un 215 ou un 216. Si vous ne savez pas quelle puce vous avez, jetez un œil à mon [guide des types de tags NFC](/fr/blog/nfc-tag-types-for-iphones/).
 
 Ouvrez **Aperçu des lots** pour voir chaque tag avec les records qu'il recevra. Ce que vous voyez là est exactement ce qui sera écrit.
 

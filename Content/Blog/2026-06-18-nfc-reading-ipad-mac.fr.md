@@ -20,7 +20,7 @@ Là-bas, j'ai discuté avec [Alexander Manzer](https://www.linkedin.com/in/alexa
 
 ## Je vous avais dit que ça ne marcherait pas
 
-En mai dernier, [quand NFC.cool est arrivé sur Mac](/blog/nfc-cool-comes-to-mac/), j'ai écrit toute une section sur ce que le Mac ne sait pas faire, et j'ai mis le scan NFC tout en haut. Mon raisonnement était simple : les Mac n'ont pas de radio NFC, les iPad n'ont pas de radio NFC, et c'est une limite matérielle qu'aucune de mes mises à jour logicielles ne peut corriger.
+En mai dernier, [quand NFC.cool est arrivé sur Mac](/fr/blog/nfc-cool-comes-to-mac/), j'ai écrit toute une section sur ce que le Mac ne sait pas faire, et j'ai mis le scan NFC tout en haut. Mon raisonnement était simple : les Mac n'ont pas de radio NFC, les iPad n'ont pas de radio NFC, et c'est une limite matérielle qu'aucune de mes mises à jour logicielles ne peut corriger.
 
 Cette partie est toujours vraie - pour la puce intégrée à l'appareil. Ce que j'avais raté, c'est qu'on n'est pas obligé d'utiliser la puce intégrée. On peut en brancher une.
 
@@ -55,7 +55,7 @@ Voici tous les lecteurs dont je sais aujourd'hui qu'ils marchent avec NFC.cool :
 - **ACS ACR1552U-M1** - signalé comme fonctionnel par un utilisateur ([Amazon](https://amzn.to/4xZVEwe))
 - **ACS ACR1255U-J1** - signalé comme fonctionnel par un utilisateur ([Amazon](https://amzn.to/4xZVEwe))
 
-Merci à toutes celles et ceux qui m'ont écrit. Je ne peux pas acheter tous les lecteurs du marché : chaque modèle après le premier est ici parce que quelqu'un l'a acheté, l'a essayé et a pris le temps de me le dire. Si vous utilisez un lecteur qui n'y figure pas, [dites-moi](/contact/) si ça a marché ou là où ça a coincé, et je l'ajouterai à cet article.
+Merci à toutes celles et ceux qui m'ont écrit. Je ne peux pas acheter tous les lecteurs du marché : chaque modèle après le premier est ici parce que quelqu'un l'a acheté, l'a essayé et a pris le temps de me le dire. Si vous utilisez un lecteur qui n'y figure pas, [dites-moi](/fr/contact/) si ça a marché ou là où ça a coincé, et je l'ajouterai à cet article.
 
 Ce sont des liens affiliés Amazon : si vous achetez via l'un d'eux, je peux toucher une petite commission sans surcoût pour vous.
 
@@ -69,7 +69,7 @@ Ce sont des liens affiliés Amazon : si vous achetez via l'un d'eux, je peux tou
 </ol>
 </figure>
 
-Presque tout ce que vous feriez sur un iPhone. Vous pouvez lire des tags et vider l'intégralité de leur mémoire, écrire des messages NDEF, et lancer des traitements par lots qui lisent ou écrivent toute une pile de tags les uns après les autres. La protection des tags par mot de passe fonctionne. Tout comme [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), le format des bobines de filament pour imprimante 3D, dans les deux sens. Et oui, la [réinitialisation des têtes de brosse Philips Sonicare](/blog/reset-sonicare-brush-head-nfc/) fonctionne aussi.
+Presque tout ce que vous feriez sur un iPhone. Vous pouvez lire des tags et vider l'intégralité de leur mémoire, écrire des messages NDEF, et lancer des traitements par lots qui lisent ou écrivent toute une pile de tags les uns après les autres. La protection des tags par mot de passe fonctionne. Tout comme [OpenPrintTag](/fr/blog/openprinttag-read-write-nfc-spools-phone/), le format des bobines de filament pour imprimante 3D, dans les deux sens. Et oui, la [réinitialisation des têtes de brosse Philips Sonicare](/fr/blog/reset-sonicare-brush-head-nfc/) fonctionne aussi.
 
 Cette dernière, c'était la partie difficile. Réinitialiser une tête Sonicare consiste à lire un compteur sur le tag puis à réécrire sur une page protégée par mot de passe, et le tag n'accepte cette écriture que s'il vous considère toujours comme authentifié depuis un instant plus tôt. Via un lecteur externe, ça voulait dire garder une seule session ouverte avec le lecteur pendant les deux étapes, au lieu de la laisser se fermer entre les deux. Une fois que ça a tenu, les opérations qui en dépendent - les écritures protégées, la réinitialisation de la brosse - se sont mises à se comporter comme sur un téléphone.
 

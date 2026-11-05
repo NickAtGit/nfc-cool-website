@@ -24,7 +24,7 @@ Ecco tutto il procedimento, dal foglio di calcolo all'ultimo tag. Funziona allo 
 
 Dai all'app un file CSV e ogni riga diventa un tag. L'app ti mostra in anteprima che cosa finirà su ciascun tag, tocchi Avvia la scrittura e poi avvicini un tag dopo l'altro. Ogni riga scritta sparisce dal file, quindi l'elenco sullo schermo mostra sempre e solo quello che manca. Puoi fermarti quando vuoi e riprendere più tardi, anche dopo giorni.
 
-Se non hai mai scritto un tag NFC, parti dalla mia [guida per scrivere i tag NFC con l'iPhone](/blog/write-nfc-tags-iphone/). Qui si parla di scriverne tanti.
+Se non hai mai scritto un tag NFC, parti dalla mia [guida per scrivere i tag NFC con l'iPhone](/it/blog/write-nfc-tags-iphone/). Qui si parla di scriverne tanti.
 
 ---
 
@@ -120,7 +120,7 @@ In NFC.cool Tools apri la schermata degli strumenti NFC e cerca **Scrittura in s
 
 L'app si fa una copia del file. Man mano che scrivi i tag, le righe spariscono da quella copia. Il foglio di calcolo originale sul computer resta com'è, quindi l'elenco completo ce l'hai sempre.
 
-Appena scegli il file, l'app mostra quello che ha riconosciuto: il separatore, il numero di colonne, la modalità di raggruppamento e quanti tag ti serviranno. Il numero che controllo sempre è **Byte per tag NFC**, cioè la dimensione del messaggio più lungo della serie. Confrontalo con i tag che hai. Un NTAG213 arriva a 144 byte, un NTAG215 a 504 e un NTAG216 a 888. Un link corto sta sui 50 byte, quindi per i link vanno benissimo anche i tag più economici. Un record Wi-Fi o una scheda contatto lunga hanno bisogno di un 215 o di un 216. Se non sai che chip hai in mano, dai un'occhiata alla mia [guida ai tipi di tag NFC](/blog/nfc-tag-types-for-iphones/).
+Appena scegli il file, l'app mostra quello che ha riconosciuto: il separatore, il numero di colonne, la modalità di raggruppamento e quanti tag ti serviranno. Il numero che controllo sempre è **Byte per tag NFC**, cioè la dimensione del messaggio più lungo della serie. Confrontalo con i tag che hai. Un NTAG213 arriva a 144 byte, un NTAG215 a 504 e un NTAG216 a 888. Un link corto sta sui 50 byte, quindi per i link vanno benissimo anche i tag più economici. Un record Wi-Fi o una scheda contatto lunga hanno bisogno di un 215 o di un 216. Se non sai che chip hai in mano, dai un'occhiata alla mia [guida ai tipi di tag NFC](/it/blog/nfc-tag-types-for-iphones/).
 
 Apri l'**Anteprima della serie** per vedere ogni tag con i record che riceverà. Quello che compare lì è esattamente quello che verrà scritto.
 

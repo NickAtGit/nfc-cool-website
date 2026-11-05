@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Webhooks pour l'inventaire et les enregistrements aux événements"
-    body: "<p>Reliez le scanner de codes-barres à votre système de gestion. Chaque code-barres lu déclenche un webhook vers votre URL, si bien que votre base d'inventaire, votre CRM de participants ou votre catalogue de bibliothèque se mettent à jour en temps réel au fil du scan. Consultez <a href=\"/features/webhooks/\">Webhooks et automatisation</a> pour connaître la structure du payload JSON et un serveur de référence.</p>"
+    body: "<p>Reliez le scanner de codes-barres à votre système de gestion. Chaque code-barres lu déclenche un webhook vers votre URL, si bien que votre base d'inventaire, votre CRM de participants ou votre catalogue de bibliothèque se mettent à jour en temps réel au fil du scan. Consultez <a href=\"/fr/features/webhooks/\">Webhooks et automatisation</a> pour connaître la structure du payload JSON et un serveur de référence.</p>"
     platforms: "iOS"
 
   - title: "Raccourcis et App Intents"
@@ -45,7 +45,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Synchronisation iCloud entre iPhone, iPad et Mac"
-    body: "<p>Votre historique de scans de codes-barres se synchronise sur tous les appareils de votre compte iCloud. Scannez un rayon de produits sur l'iPhone, passez la liste en revue sur l'iPad, titrez et partagez vos scans depuis le <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - un seul historique synchronisé, rien à déplacer à la main.</p>"
+    body: "<p>Votre historique de scans de codes-barres se synchronise sur tous les appareils de votre compte iCloud. Scannez un rayon de produits sur l'iPhone, passez la liste en revue sur l'iPad, titrez et partagez vos scans depuis le <a href=\"/fr/blog/nfc-cool-comes-to-mac/\">Mac</a> - un seul historique synchronisé, rien à déplacer à la main.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool synchronisé entre iPhone, iPad et Mac"
     platforms: "iOS"

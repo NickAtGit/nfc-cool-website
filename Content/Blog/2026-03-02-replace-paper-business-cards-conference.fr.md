@@ -2,6 +2,7 @@
 id: nfc-blog-007
 title: "Comment remplacer les cartes de visite papier à votre prochaine conférence"
 date: 2026-03-02
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking"]
 summary: "Les conférences sont l'endroit où les cartes de visite papier échouent le plus fort. Voici un plan étape par étape pour passer entièrement au numérique - avant, pendant et après votre prochain événement - pour ne plus jamais fouiller à la recherche d'une carte."
 image: "/assets/images/Blog/replace-paper-business-cards-conference.webp"
@@ -69,7 +70,7 @@ Si vous n'en avez pas encore, cherchez ces fonctions propres aux conférences :
 - **Aucune app requise pour les destinataires** - La personne que vous rencontrez ne devrait rien avoir à télécharger. Si votre carte oblige l'autre personne à installer une app avant de voir vos infos, vous l'avez déjà perdue.
 - **Prise en charge multilingue** - Pour les conférences internationales, disposer de votre carte dans la langue du destinataire est un vrai facteur de différenciation.
 
-[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-fr&mt=8) couvre tout cela - partage NFC + QR + lien, plusieurs profils de carte, aucune app nécessaire pour les destinataires (App Clip sur iOS, site web sur Android), et l'interface de l'app et l'App Clip prennent en charge 35 langues. C'est ce que nous recommanderions, mais quel que soit votre choix, assurez-vous qu'il coche ces critères.
+[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-fr&mt=8) couvre tout cela - partage NFC + QR + lien, jusqu'à 10 cartes avec Pro ou jusqu'à 10 par personne en équipe, aucune app nécessaire pour les destinataires (App Clip sur iOS, site web sur Android), et l'interface de l'app et l'App Clip prennent en charge 35 langues. C'est ce que nous recommanderions, mais quel que soit votre choix, assurez-vous qu'il coche ces critères.
 
 #### Créez une carte propre à l'événement (ou mettez à jour l'existante)
 
@@ -136,7 +137,7 @@ Les conférences ne se résument plus au hall d'exposition. Il y a des canaux Sl
 
 #### Gardez la trace au fil de l'eau
 
-L'un des plus grands avantages sur le papier : vous pouvez voir qui a consulté votre carte et quand. Après une conversation particulièrement bonne, prenez vite une note dans votre téléphone : « Sarah - VP Marketing chez Acme - a parlé d'un partenariat sur le projet de développement durable ». Quand vous relancerez plus tard, vous aurez un contexte qu'une carte papier ne fournit jamais.
+L'un des plus grands avantages sur le papier : avec un forfait payant, vous pouvez voir combien de personnes ont consulté et enregistré votre carte, jour par jour. Après une conversation particulièrement bonne, prenez vite une note dans votre téléphone : « Sarah - VP Marketing chez Acme - a parlé d'un partenariat sur le projet de développement durable ». Quand vous relancerez plus tard, vous aurez un contexte qu'une carte papier ne fournit jamais.
 
 ### Phase 3 : après la conférence
 
@@ -154,13 +155,13 @@ Comme votre carte numérique inclut votre photo, la personne se souviendra vraim
 
 #### Consultez vos statistiques de partage
 
-Beaucoup de plateformes de cartes numériques vous montrent qui a ouvert votre carte et quand (NFC.cool le fait aussi bien sur iPhone que sur Android). Cela vous dit :
+Les forfaits payants de NFC.cool indiquent combien de personnes ont consulté et enregistré votre carte, et combien ont cliqué sur chaque lien, sur iPhone comme sur Android. Cela vous dit :
 
-- Qui était assez intéressé pour vraiment regarder votre profil (et pas seulement empocher poliment votre carte)
-- Quand la personne a regardé - quelqu'un qui consulte votre carte trois jours après la conférence est un prospect chaud
-- Sur quoi elle a cliqué - votre portfolio ? Votre LinkedIn ? Votre lien de réservation ?
+- Combien de personnes ont vraiment regardé votre carte (et ne se sont pas contentées de l'empocher poliment)
+- Quand elles l'ont regardée - des consultations trois jours après la conférence signifient qu'on pense encore à vous
+- Quels liens reçoivent des clics - votre portfolio ? Votre LinkedIn ? Votre lien de réservation ?
 
-Ces données valent de l'or en conférence. Elles vous disent qui prioriser dans votre relance.
+Ce sont des chiffres, pas des noms : personne n'est surveillé. Ils vous disent quels événements ont porté leurs fruits. Pour avoir des noms, activez la capture de prospects, et les personnes qui veulent avoir de vos nouvelles pourront laisser leurs coordonnées.
 
 #### Mettez à jour votre carte pour la prochaine fois
 
@@ -189,7 +190,7 @@ Voici tout ce que vous avez à faire, dans l'ordre :
 - [ ] **Optionnel : commandez une carte ou un autocollant NFC** pour l'expérience du partage physique
 - [ ] **Personnalisez votre carte pour l'événement précis** (détails de l'intervention, appel à l'action spécial)
 - [ ] **Répétez le flux geste/QR** une fois avant l'événement pour que ça paraisse naturel
-- [ ] **Relancez dans les 48 heures** après l'événement à l'aide de vos données de partage
+- [ ] **Relancez dans les 48 heures** après l'événement, à l'aide de vos notes
 
 ---
 
@@ -205,7 +206,7 @@ Le partage NFC lui-même fonctionne sans Wi-Fi - il transmet un lien directement
 
 ### Puis-je utiliser des cartes différentes pour différentes conférences ?
 
-Oui - la plupart des plateformes de cartes numériques prennent en charge plusieurs profils de carte. Créez-en un pour chaque événement, rôle ou public. Basculez de l'un à l'autre en quelques secondes. Avec NFC.cool BC, vous pouvez créer et gérer autant de cartes que nécessaire.
+Oui - la plupart des plateformes de cartes numériques prennent en charge plusieurs profils de carte. Créez-en un pour chaque événement, rôle ou public. Basculez de l'un à l'autre en quelques secondes. Avec NFC.cool Business Card, Free et Personal incluent une carte, Pro jusqu'à 10, et une équipe jusqu'à 10 par personne.
 
 ### Les cartes de visite NFC sont-elles compatibles avec tous les téléphones ?
 
@@ -217,7 +218,7 @@ Une carte de visite numérique de base est gratuite sur la plupart des plateform
 
 ### Qu'en est-il de la confidentialité des données en conférence ?
 
-Cela vaut la peine de le demander pour toute plateforme que vous utilisez. Certains fournisseurs de cartes numériques traquent les destinataires, enregistrent les conversations ou vendent les données de contact. NFC.cool BC place la confidentialité d'abord : aucune monétisation des données ni publicité, aucune sollicitation des destinataires, aucun enregistrement des conversations, une protection par code PIN pour les cartes sensibles, et une pleine conformité au RGPD avec export des données.
+Cela vaut la peine de le demander pour toute plateforme que vous utilisez. NFC.cool Business Card place la confidentialité d'abord : NFC.cool ne vend pas vos données, l'app n'a pas de publicité, elle n'enregistre pas les conversations et n'envoie pas de marketing aux personnes qui consultent votre carte. Vous pouvez protéger une carte sensible par un code PIN et exporter vos données au format ZIP quand vous voulez.
 
 ---
 
@@ -225,8 +226,8 @@ Cela vaut la peine de le demander pour toute plateforme que vous utilisez. Certa
 
 Les conférences sont l'endroit où les cartes de visite papier sont à leur pire : il vous en faut trop, elles se détruisent, elles ne peuvent pas être suivies, et 88 % finissent à la poubelle en une semaine.
 
-Les cartes de visite numériques sont l'endroit où les conférences sont à leur meilleur : un partage rapide qui impressionne vraiment les gens, des statistiques qui vous disent qui est intéressé, et une relance qui se fait automatiquement plutôt qu'« un jour ».
+Les cartes de visite numériques sont l'endroit où les conférences sont à leur meilleur : un partage rapide qui impressionne vraiment les gens, des statistiques qui montrent ce qui a marché, et une relance qui a vraiment lieu plutôt qu'« un jour ».
 
 Votre prochaine conférence approche. Cette fois, laissez le papier à la maison.
 
-*NFC.cool Business Card est disponible gratuitement sur [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-fr&mt=8) et sur [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-fr). Créez votre première carte en moins d'une minute.*
+*[NFC.cool Business Card](/fr/business-card/) est disponible gratuitement sur [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-fr&mt=8) et sur [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-fr). Créez votre première carte en moins d'une minute. Vous envoyez toute une équipe à l'événement ? Découvrez [NFC.cool Business Card for Teams](/fr/business-card/teams/).*

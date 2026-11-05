@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-<h1 dir="ltr">NFC.cool Business Card</h1>
+# بطاقة العمل الرقمية من NFC.cool
 
-بطاقة عملك على هاتفك، للأفراد والفرق. شاركها بلمسة NFC أو برمز QR، واعرف كم شخصًا حفظها.
+بطاقة عملك الرقمية على هاتفك، للأفراد والفرق. شاركها بلمسة NFC أو برمز QR، واعرف كم شخصًا حفظها.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ar&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## التسعير
 
-شخص واحد أو فريق كامل. يمكن حفظ كل بطاقة كجهة اتصال، حتى في Free. وتضيف Personal وPro العملاء المحتملين والتحليلات وبطاقة لا يظهر عليها اسمنا، وتُشترى داخل التطبيق. وتبدأ الفرق من الويب مجانًا لمدة ١٤ يومًا، وتدفع عن كل شخص سنويًا أو شهريًا. وباليورو، يبقى سعر الفريق بالرقم نفسه.
+شخص واحد أو فريق كامل. يمكن حفظ كل بطاقة كجهة اتصال، حتى في Free. وتضيف Personal وPro العملاء المحتملين والتحليلات وبطاقة لا يظهر عليها اسمنا، وتُشترى داخل التطبيق. وتبدأ الفرق من الويب مجانًا لمدة ١٤ يومًا، وتدفع عن كل شخص سنويًا أو شهريًا. وباليورو، يبقى سعر الفريق بالرقم نفسه. [اطّلع على سعر الفريق وكيف يقارَن بغيره](/ar/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <article class="page-card">
 <h3>بطاقات عمل ذكية</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>إنشاء بطاقات رقمية</strong> - أنشئ بطاقات تطابق علامتك التجارية</li>
+<li><strong>بطاقات عمل رقمية</strong> - أنشئ بطاقات تطابق علامتك التجارية</li>
 <li><strong>حتى ١٠ بطاقات مع Pro</strong> - لأدوار أو علامات تجارية أو فعاليات مختلفة</li>
 <li><strong>الاستيراد من جهات الاتصال</strong> - حوّل أي جهة اتصال قائمة إلى بطاقة</li>
 <li><strong>محدّثة دائمًا</strong> - تظهر التعديلات على الفور، دون إعادة طباعة</li>
@@ -145,7 +145,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <article class="page-card">
 <h3>الخصوصية والأمان</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>ملفات شخصية محمية برمز PIN</strong> - رمز PIN من ٤ أرقام، مع حد لعدد محاولات التحقق</li>
+<li><strong>ملفات شخصية محمية برمز PIN</strong> - رمز PIN من ٤ أرقام على البطاقات الخاصة</li>
 <li><strong>التبديل بين العام والخاص</strong> - لا تُفتح البطاقة الخاصة إلا برمز PIN الخاص بها</li>
 <li><strong>تصدير البيانات وفق GDPR</strong> - نزّل كل شيء بصيغة ZIP في أي وقت</li>
 <li><strong>أمان الجلسة</strong> - انتهاء تلقائي لمهلة جلسة PIN</li>
@@ -181,7 +181,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## ما تضيفه خطة Team
 
-البطاقة الشخصية ملك لشخص واحد. أما في الفريق فالبطاقات ملك للشركة، وهذا يغيّر ما يمكنها فعله.
+البطاقة الشخصية ملك لشخص واحد. أما في الفريق فالبطاقات ملك للشركة، وهذا يغيّر ما يمكنها فعله. اقرأ المزيد عن [بطاقات العمل الرقمية للفرق](/ar/business-card/teams/).
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>صندوق وارد واحد لكل العملاء المحتملين</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>كل عميل محتمل يجمعه الفريق يصل إلى صندوق وارد مشترك واحد. اعرف من المسؤول عنه وأين وصل، وأسنده إلى الشخص المناسب، وصدّر كل شيء في جدول بيانات.</p></article>
@@ -249,7 +249,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <details class="faq-item">
 <summary>ماذا يحدث إذا ألغيت خطة مدفوعة؟</summary>
-<p>لا يُحذف شيء وتبقى بطاقاتك متاحة على الإنترنت. يتوقف وصول العملاء المحتملين الجدد، ولا يستطيع مشاهدو بطاقاتك حفظك كجهة اتصال إلا من العدد الذي تسمح به خطتك منها. وتظهر البقية مقفلة.</p>
+<p>لا يُحذف شيء. في Personal أو Pro تبقى بطاقاتك متاحة على الإنترنت: يتوقف وصول العملاء المحتملين الجدد، ولا يستطيع مشاهدو بطاقاتك حفظك كجهة اتصال إلا من العدد الذي تسمح به خطتك منها. وتظهر البقية مقفلة. أما في الفريق، فعند انتهاء الاشتراك تعرض بطاقات فريقك صفحة «غير متاحة مؤقتًا» إلى أن تجدّد الاشتراك، وعندها يعود كل شيء.</p>
 </details>
 
 </div>

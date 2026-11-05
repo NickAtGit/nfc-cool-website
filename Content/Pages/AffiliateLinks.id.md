@@ -31,7 +31,7 @@ Setelah beberapa tahun merilis aplikasi NFC dan membaca ribuan email dukungan, i
 
 ## Tempat membeli
 
-Untuk 95% hal yang dilakukan orang dengan NFC - kartu kontak, pemicu otomasi, pintasan URL, berbagi Wi-Fi - beli stiker **NTAG216**. Andal di iPhone dan Android, 888 byte ruang yang dapat ditulis, murah dalam jumlah besar, dan chip persis yang diuji NFC.cool. Baru mengenal tag NFC? [Panduan lengkap tag NFC untuk pemula](/blog/nfc-tags-beginners-guide/) saya menjelaskan cara kerjanya dan perbedaan tiap chip. Pilih toko Amazon Anda - atau klik saja salah satunya, dan Amazon otomatis mengarahkan pembeli internasional ke toko terdekat mereka.
+Untuk 95% hal yang dilakukan orang dengan NFC - kartu kontak, pemicu otomasi, pintasan URL, berbagi Wi-Fi - beli stiker **NTAG216**. Andal di iPhone dan Android, 888 byte ruang yang dapat ditulis, murah dalam jumlah besar, dan chip persis yang diuji NFC.cool. Baru mengenal tag NFC? [Panduan lengkap tag NFC untuk pemula](/id/blog/nfc-tags-beginners-guide/) saya menjelaskan cara kerjanya dan perbedaan tiap chip. Pilih toko Amazon Anda - atau klik saja salah satunya, dan Amazon otomatis mengarahkan pembeli internasional ke toko terdekat mereka.
 
 <div class="affiliate-store-box">
 
@@ -58,7 +58,7 @@ Untuk 95% hal yang dilakukan orang dengan NFC - kartu kontak, pemicu otomasi, pi
 
 ## Mencadangkan Amiibo? Gunakan NTAG215
 
-Amiibo secara khusus menggunakan chip **NTAG215**. Jika Anda [mencadangkan Amiibo dengan NFC.cool](/blog/amiibo-iphone-android-read-collect-backup/), beli tag **NTAG215** kosong - bukan NTAG216 yang saya rekomendasikan untuk keperluan lainnya. Ini satu-satunya kasus di mana Anda harus mencocokkan chip secara persis: NFC.cool menulis salinan yang kuncinya diturunkan ulang ke sebuah NTAG215, tipe chip yang sama seperti yang digunakan Amiibo asli.
+Amiibo secara khusus menggunakan chip **NTAG215**. Jika Anda [mencadangkan Amiibo dengan NFC.cool](/id/blog/amiibo-iphone-android-read-collect-backup/), beli tag **NTAG215** kosong - bukan NTAG216 yang saya rekomendasikan untuk keperluan lainnya. Ini satu-satunya kasus di mana Anda harus mencocokkan chip secara persis: NFC.cool menulis salinan yang kuncinya diturunkan ulang ke sebuah NTAG215, tipe chip yang sama seperti yang digunakan Amiibo asli.
 
 <div class="affiliate-store-box">
 

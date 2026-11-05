@@ -23,7 +23,7 @@ Ada cara yang lebih sederhana, dan itu sudah ada di dalam chip NFC sepanjang wak
 
 ## Apa sebenarnya NFC Tap Counter itu
 
-Kebanyakan [stiker NFC yang bisa Anda beli](/affiliate-links/) menggunakan chip dari keluarga NTAG21x - `NTAG213`, `NTAG215`, dan `NTAG216`. Chip tersebut memiliki fitur kecil yang menurut saya sebagian besar orang tidak pernah tahu ada: counter bawaan. Setiap kali tag dibaca, counter bertambah satu. Ia ada di hardware chip, bukan di aplikasi, dan bukan di server. (Jika Anda ingin penjelasan mendalam tentang chip-chip ini, saya telah membahasnya di [jenis tag NFC untuk iPhone](/blog/nfc-tag-types-for-iphones/).)
+Kebanyakan [stiker NFC yang bisa Anda beli](/id/affiliate-links/) menggunakan chip dari keluarga NTAG21x - `NTAG213`, `NTAG215`, dan `NTAG216`. Chip tersebut memiliki fitur kecil yang menurut saya sebagian besar orang tidak pernah tahu ada: counter bawaan. Setiap kali tag dibaca, counter bertambah satu. Ia ada di hardware chip, bukan di aplikasi, dan bukan di server. (Jika Anda ingin penjelasan mendalam tentang chip-chip ini, saya telah membahasnya di [jenis tag NFC untuk iPhone](/id/blog/nfc-tag-types-for-iphones/).)
 
 Cara saya menggambarkannya adalah odometer untuk tag. Odometer mobil menghitung kilometer apakah ada yang mengawasinya atau tidak; counter NFC menghitung pembacaan dengan cara yang sama. Angkanya selalu ada. Satu-satunya pertanyaan adalah apakah ada yang dikonfigurasi untuk menampilkannya kepada Anda.
 
@@ -55,7 +55,7 @@ Tag yang bisa menghitung diri sendiri terdengar seperti trik yang menarik sampai
 
 **Lacak keterlibatan.** Tempelkan tag pada kartu nama, poster, kotak produk, atau etalase toko, dan counter menjadi metrik keterlibatan yang diam. Anda bisa melihat apakah sebuah kartu telah diketuk dua kali atau dua ratus kali tanpa membangun pipeline analitik untuk itu.
 
-**Buktikan keaslian.** Counter hanya bisa naik - tidak bisa diputar kembali. Angka yang hanya bisa meningkat sulit dipalsukan secara meyakinkan, itulah mengapa menurut saya ia mendapat tempat pada barang edisi terbatas dan pemeriksaan anti-pemalsuan. Tag asli memiliki riwayat yang masuk akal dan terus meningkat; klonan tidak. Jika sisi NFC itu menarik bagi Anda, saya membahasnya lebih jauh di [cara NFC menjaga rahasia terenkripsi tetap aman](/blog/nfc-safe-encrypted-secrets/).
+**Buktikan keaslian.** Counter hanya bisa naik - tidak bisa diputar kembali. Angka yang hanya bisa meningkat sulit dipalsukan secara meyakinkan, itulah mengapa menurut saya ia mendapat tempat pada barang edisi terbatas dan pemeriksaan anti-pemalsuan. Tag asli memiliki riwayat yang masuk akal dan terus meningkat; klonan tidak. Jika sisi NFC itu menarik bagi Anda, saya membahasnya lebih jauh di [cara NFC menjaga rahasia terenkripsi tetap aman](/id/blog/nfc-safe-encrypted-secrets/).
 
 Gabungkan beberapa dari itu dan Anda mendapatkan sesuatu seperti ini: seorang pengrajin menempatkan tag di setiap nomor seri produk, semuanya mengarah ke halaman landing yang sama. ID tag memberi tahu mereka barang mana yang dipegang pembeli, jumlahnya memberi tahu mereka seberapa sering pembeli tersebut kembali, dan karena jumlah hanya naik, penjual tidak bisa diam-diam meneruskan salinan sebagai yang asli. Tanpa akun, tanpa database, tanpa tagihan bulanan - hanya chip yang melakukan tugasnya. Itulah jenis hasil yang saya bangun fitur ini.
 
@@ -63,7 +63,7 @@ Gabungkan beberapa dari itu dan Anda mendapatkan sesuatu seperti ini: seorang pe
 
 ## Menyiapkannya, langkah demi langkah
 
-Fitur ini ada di NFC.cool Tools, di iPhone dan Android. Ini merupakan bagian dari langganan Pro (Platinum), jadi Anda memerlukan itu untuk menulis tag yang diaktifkan counter. Jika Anda belum pernah menulis tag sebelumnya, panduan saya tentang [cara menulis tag NFC di iPhone](/blog/write-nfc-tags-iphone/) mencakup dasar-dasarnya terlebih dahulu.
+Fitur ini ada di NFC.cool Tools, di iPhone dan Android. Ini merupakan bagian dari langganan Pro (Platinum), jadi Anda memerlukan itu untuk menulis tag yang diaktifkan counter. Jika Anda belum pernah menulis tag sebelumnya, panduan saya tentang [cara menulis tag NFC di iPhone](/id/blog/write-nfc-tags-iphone/) mencakup dasar-dasarnya terlebih dahulu.
 
 1. Buka NFC.cool Tools, buka bagian **NFC Tools**, dan ketuk **NFC Tap Counter**.
 2. Pilih apa yang harus dikirimkan tag: **URL**, **Email**, **SMS**, atau **Shortcut**. (Shortcut hanya iOS, karena Shortcuts adalah aplikasi Apple; URL, Email, dan SMS bekerja di kedua platform.)
@@ -109,7 +109,7 @@ Jika Anda mengarahkan URL yang sudah jadi ke situs web Anda sendiri, server Anda
 
 Fitur ini bergantung pada chip, jadi tag penting. NFC.cool mendukung chip `NTAG213`, `NTAG215`, dan `NTAG216` untuk Tap Counter. Itu adalah stiker NFC yang paling umum dijual untuk ponsel, jadi mudah ditemukan, tetapi saya tetap akan memeriksa jenis chip sebelum membeli dalam jumlah besar. Jika Anda mencoba menggunakan tag yang tidak didukung fitur ini, aplikasi memperingatkan Anda alih-alih menulis sesuatu yang tidak akan berfungsi - saya memastikan itu karena saya pernah melihat betapa frustrasinya kegagalan yang diam.
 
-Jika Anda perlu stok, halaman [tag NFC yang direkomendasikan](/affiliate-links/) kami mencantumkan stiker `NTAG216` yang kami gunakan dan uji. Dan jika Anda baru mengenal memilih tag, panduan saya tentang [berbagai jenis tag NFC untuk iPhone](/blog/nfc-tag-types-for-iphones/) menjelaskan trade-off dalam istilah yang sederhana.
+Jika Anda perlu stok, halaman [tag NFC yang direkomendasikan](/id/affiliate-links/) kami mencantumkan stiker `NTAG216` yang kami gunakan dan uji. Dan jika Anda baru mengenal memilih tag, panduan saya tentang [berbagai jenis tag NFC untuk iPhone](/id/blog/nfc-tag-types-for-iphones/) menjelaskan trade-off dalam istilah yang sederhana.
 
 ---
 
@@ -131,6 +131,6 @@ Jika Anda perlu stok, halaman [tag NFC yang direkomendasikan](/affiliate-links/)
 
 Selama sebagian besar tahun saya bekerja dengan NFC, menghitung ketukan berarti tautan unik dan backend untuk menjumlahkannya. Counter NTAG21x dengan diam-diam menghapus persyaratan itu: tag menyimpan catatan sendiri, dan fitur NFC Tap Counter di NFC.cool Tools adalah yang mengaktifkannya. Ini adalah salah satu fitur yang terus saya harapkan lebih banyak orang tahu bahwa itu bahkan mungkin.
 
-Ingin melihatnya bekerja sebelum menulis satu tag pun? [Demo tap counter langsung](/tap-counter/) kami adalah halaman yang melakukan persis apa yang dijelaskan tulisan ini - tulislah tag yang mengarah ke sana, berikan ketukan, dan halaman menampilkan jumlah pemindaian dan ID tag yang baru saja diserahkan chip. Tidak ada server dalam prosesnya, hanya URL.
+Ingin melihatnya bekerja sebelum menulis satu tag pun? [Demo tap counter langsung](/id/tap-counter/) kami adalah halaman yang melakukan persis apa yang dijelaskan tulisan ini - tulislah tag yang mengarah ke sana, berikan ketukan, dan halaman menampilkan jumlah pemindaian dan ID tag yang baru saja diserahkan chip. Tidak ada server dalam prosesnya, hanya URL.
 
-Ini tersedia sekarang di NFC.cool Tools, di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-en). Untuk melihat toolkit NFC lengkap yang telah saya bangun, lihat [fitur pembaca dan penulis NFC](/features/nfc-reader-writer/).
+Ini tersedia sekarang di NFC.cool Tools, di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-en). Untuk melihat toolkit NFC lengkap yang telah saya bangun, lihat [fitur pembaca dan penulis NFC](/id/features/nfc-reader-writer/).

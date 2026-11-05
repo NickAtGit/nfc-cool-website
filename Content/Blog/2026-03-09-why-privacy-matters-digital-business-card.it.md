@@ -2,6 +2,7 @@
 id: nfc-blog-004
 title: "Perché la privacy conta per il tuo biglietto da visita digitale"
 date: 2026-03-09
+lastModified: "2026-11-05"
 tags: ["business-cards", "privacy"]
 summary: "Un biglietto da visita digitale contiene nome, email, numero di telefono e altro ancora, eppure quasi nessuno si chiede dove finiscano davvero quei dati. Ecco perché la privacy dovrebbe essere il primo criterio di scelta."
 image: "/assets/images/Blog/why-privacy-matters-digital-business-card.webp"
@@ -15,7 +16,7 @@ Pensa a quello che c'è scritto sul tuo biglietto da visita. Nome e cognome. L'i
 
 Adesso pensa a quest'altra cosa: quando condividi un biglietto da visita digitale non stai solo allungando un cartoncino a qualcuno. Stai dando a una piattaforma l'accesso a quei dati - *e* ai dati della persona con cui li stai condividendo.
 
-Quasi tutte le app per biglietti da visita digitali raccolgono informazioni su entrambe le parti dello scambio. Chi ha condiviso, chi ha guardato, quando, dove, da quale dispositivo, per quanto tempo. Alcune si spingono più in là di quanto immagini.
+Un'app per biglietti da visita digitali può raccogliere informazioni su entrambe le parti dello scambio. Chi ha condiviso, chi ha guardato, quando, dove, da quale dispositivo, per quanto tempo.
 
 Non è un articolo allarmista. I biglietti da visita digitali sono davvero meglio della carta: per fare rete, per l'ambiente, per tenere aggiornati i propri recapiti. Ma non tutte le piattaforme trattano quei dati con la stessa cura, e quasi nessuno pensa a chiederlo.
 
@@ -32,19 +33,19 @@ Ecco come va di solito quando qualcuno avvicina il telefono alla tua tessera NFC
 3. La piattaforma registra l'interazione, come minimo con data e ora
 4. A seconda della piattaforma, può raccogliere anche l'indirizzo IP di chi guarda, il tipo di dispositivo, il browser, la posizione approssimativa, il tempo passato sul biglietto e quali link ha toccato
 
-Questo è il minimo. Alcune piattaforme fanno molto di più.
+Questo è il minimo. Una piattaforma può fare di più.
 
 ### Le email promozionali a chi riceve il biglietto
 
-Diverse piattaforme per biglietti da visita digitali, soprattutto nei piani gratuiti, fanno marketing verso le persone che guardano il biglietto. In pratica: qualcuno inquadra il tuo codice QR per prendere il tuo indirizzo email e poi si ritrova nella posta le email promozionali *della piattaforma*, che lo invitano a registrarsi.
+Una piattaforma per biglietti da visita digitali può fare marketing verso le persone che guardano il biglietto. In pratica: qualcuno inquadra il tuo codice QR per prendere il tuo indirizzo email e poi si ritrova nella posta le email promozionali *della piattaforma*, che lo invitano a registrarsi.
 
-Tu non l'hai chiesto. Chi ha guardato il biglietto ancora meno. Succede perché la piattaforma deve crescere e i tuoi contatti sono contatti commerciali a costo zero.
+Tu non l'hai chiesto. Chi ha guardato il biglietto ancora meno. Succede quando una piattaforma deve crescere e vede i tuoi contatti come lead a costo zero.
 
-Non lo fanno tutte, ma sono abbastanza da rendere utile un controllo prima di iscriversi.
+Vale la pena controllare prima di iscriversi.
 
 ### La registrazione delle conversazioni
 
-Questa forse ti sorprende. Alcune piattaforme offrono ormai funzioni di appunti automatici con l'intelligenza artificiale, che registrano le conversazioni dal vivo. La proposta è allettante: conosci qualcuno a una conferenza, avvii la registrazione e lasci che sia l'intelligenza artificiale ad annotare i punti principali.
+Questa forse ti sorprende. Gli appunti automatici con l'intelligenza artificiale possono registrare le conversazioni dal vivo. La proposta è allettante: conosci qualcuno a una conferenza, avvii la registrazione e lasci che sia l'intelligenza artificiale ad annotare i punti principali.
 
 Il problema è il consenso. In molti ordinamenti - buona parte dell'Unione Europea sotto il GDPR e più di una decina di stati americani, dove la legge pretende il consenso di entrambe le parti - registrare una conversazione senza che l'altra persona lo sappia o abbia dato un consenso esplicito è illegale. E anche dove formalmente è lecito, registrare di nascosto una conversazione di lavoro apre comunque questioni etiche serie.
 
@@ -52,7 +53,7 @@ La persona che hai appena conosciuto crede di fare due chiacchiere in tranquilli
 
 ### L'arricchimento dei dati
 
-Alcune piattaforme propongono quello che chiamano "arricchimento dei contatti con l'intelligenza artificiale": scansioni un biglietto da visita o scambi i contatti e la piattaforma va a prendere da sola altri dati da fonti pubbliche, come profili LinkedIn, informazioni aziendali e account sui social.
+L'"arricchimento dei contatti con l'intelligenza artificiale" funziona così: scansioni un biglietto da visita o scambi i contatti e la piattaforma va a prendere da sola altri dati da fonti pubbliche, come profili LinkedIn, informazioni aziendali e account sui social.
 
 Comodo? Certo. Ma vuol dire che la piattaforma costruisce un profilo delle persone che incontri, spesso a loro insaputa. I tuoi contatti non si sono iscritti a niente del genere: hanno condiviso un biglietto da visita, non tutta la loro impronta digitale.
 
@@ -69,7 +70,7 @@ Le risposte oneste sono diverse:
 - **La raccolta dei dati di chi riceve** - I tuoi contatti diventano contatti commerciali della piattaforma stessa.
 - **L'aggregazione dei dati** - Le abitudini di chi fa rete, rese anonime oppure no, rivendute a terze parti.
 
-Non tutti i piani gratuiti nascondono una fregatura. Alcune piattaforme, per esempio Wave Connect, offrono davvero un piano gratuito utile senza andare a bussare a chi riceve il biglietto. Altre usano il gratis come imbuto per raccogliere dati di contatto su larga scala.
+Non tutti i piani gratuiti nascondono una fregatura, ma il gratis può anche essere un imbuto per raccogliere dati di contatto su larga scala.
 
 La regola pratica: se una piattaforma regala funzioni illimitate e non si capisce da dove arrivino i soldi, il modello di business *sono* i tuoi dati.
 
@@ -97,7 +98,7 @@ Il GDPR riconosce il diritto alla portabilità: devi poter scaricare tutto quell
 
 ### 5. L'account si può cancellare sul serio?
 
-Non disattivare: cancellare, con tutti i dati collegati rimossi dai loro server. Certe piattaforme lo rendono sorprendentemente difficile, nascondendo la richiesta dietro un ticket all'assistenza invece di lasciartela fare in autonomia.
+Non disattivare: cancellare, con tutti i dati collegati rimossi dai loro server, in autonomia e senza passare da un ticket all'assistenza.
 
 ### 6. Ci sono controlli sugli accessi?
 
@@ -105,7 +106,7 @@ Il profilo si può rendere privato? Si può proteggere con un PIN? Si può scegl
 
 ### 7. Registra l'audio?
 
-È una faccenda recente, ma nel mondo della raccolta dei contatti si sta diffondendo. Se una piattaforma registra le conversazioni o prende appunti con l'intelligenza artificiale, informati sulle conseguenze legali prima di usarla. Nell'Unione Europea registrare una conversazione senza il consenso di tutte le persone coinvolte viola il GDPR. Negli Stati Uniti le regole cambiano da stato a stato.
+Se una piattaforma registra le conversazioni o prende appunti con l'intelligenza artificiale, informati sulle conseguenze legali prima di usarla. Nell'Unione Europea registrare una conversazione senza il consenso di tutte le persone coinvolte viola il GDPR. Negli Stati Uniti le regole cambiano da stato a stato.
 
 ---
 
@@ -150,17 +151,17 @@ Quando ho creato [NFC.cool Business Card](https://apps.apple.com/app/apple-store
 
 **Nessuna registrazione delle conversazioni** - Non registro audio. Punto. Le relazioni di lavoro si costruiscono sulla fiducia, non sulla sorveglianza.
 
-**Nessuna email a chi riceve il biglietto** - Chi apre il tuo biglietto vede il biglietto e basta. Da me non gli arriva nessuna email promozionale. I tuoi contatti sono tuoi, non contatti commerciali miei.
+**Nessuna email a chi riceve il biglietto** - Chi apre il tuo biglietto vede il biglietto e basta. Da me non gli arriva nessuna email promozionale. I tuoi contatti sono tuoi, non contatti commerciali miei. Con il piano Team, il tuo team può inviare email di follow-up a chi lascia i propri dati nel tuo modulo per i lead.
 
-**Nessuna monetizzazione dei dati e nessuna pubblicità** - La vCard e i dati dell'account stanno sul mio server perché il servizio possa funzionare, ma niente di tutto questo finisce nella pubblicità o in trattamenti di terze parti.
+**Non vendo i tuoi dati** - La vCard e i dati dell'account stanno sul mio server perché il servizio possa funzionare. NFC.cool non vende i tuoi dati e l'app Business Card non ha pubblicità.
 
-**Esportazione dei dati secondo il GDPR** - Scarichi tutto, contatti compresi, in un file ZIP quando vuoi, su iPhone e su Android. Senza ticket all'assistenza e senza attese.
+**Esportazione dei dati secondo il GDPR** - Ottieni tutto, contatti compresi, in un file ZIP quando vuoi. "Esporta i miei dati" si trova nell'app, su iPhone e Android, e sul web. Senza ticket all'assistenza.
 
-**Nessun vincolo sull'hardware NFC** - Funziona con qualsiasi tag NFC standard. NFC.cool non vende hardware NFC, quindi resti libero di usare i tag di chi preferisci, senza sistemi di tracciamento proprietari che non puoi verificare.
+**Nessun vincolo sull'hardware NFC** - Funziona con qualsiasi tag NFC standard, quindi resti libero di usare il tag che preferisci, senza sistemi di tracciamento proprietari che non puoi verificare.
 
-**Uno sviluppatore indipendente europeo** - Lavoro da solo, dal Portogallo. Non ho investitori alle spalle che mi spingono a monetizzare i dati delle persone per far quadrare le metriche di crescita. Il mio interesse è costruire un prodotto di cui le persone si fidano, non raccogliere quanti più dati possibile.
+**Niente venture capital** - NFC.cool ha sede in Portogallo e nessun investitore mi spinge a monetizzare i dati delle persone per far quadrare le metriche di crescita. Il mio interesse è costruire un prodotto di cui le persone si fidano, non raccogliere quanti più dati possibile. Quando hai una domanda, ti rispondo io, il fondatore.
 
-Non è tutto perfetto. Per ora mancano le integrazioni con i CRM e i webhook: per portare fuori i contatti c'è l'esportazione completa dei dati. L'App Clip e i pass di Apple Wallet esistono solo su iPhone, quindi chi riceve il biglietto su Android lo apre nel browser. Il mio budget di marketing è una frazione di quello dei nomi grossi. Ma nel modello di privacy che ho scelto credo davvero, e sono convinto che faccia la differenza.
+Anche i contatti restano tuoi, e puoi portarli dove vuoi. Ogni piano comprende un'esportazione completa dei dati e con [NFC.cool Business Card for Teams](/it/business-card/teams/) i lead possono finire direttamente in HubSpot, o altrove tramite webhook. Nel modello di privacy che ho scelto credo davvero, e sono convinto che faccia la differenza.
 
 ---
 
@@ -191,4 +192,4 @@ La privacy non è avere qualcosa da nascondere. È avere il diritto di scegliere
 
 Scegli con criterio.
 
-*Vuoi provare un biglietto da visita digitale che mette la privacy al primo posto? [Scarica NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-it&mt=8) per iPhone oppure [prendilo su Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-it). L'interfaccia dell'app e l'App Clip parlano 35 lingue.*
+*Vuoi provare un biglietto da visita digitale che mette la privacy al primo posto? [Scopri cosa fa NFC.cool Business Card](/it/business-card/), poi [scaricala per iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-it&mt=8) oppure [prendila su Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-it). L'interfaccia dell'app e l'App Clip parlano 35 lingue.*

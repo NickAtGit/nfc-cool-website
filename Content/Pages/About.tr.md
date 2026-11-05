@@ -1,7 +1,7 @@
 ---
 title: "NFC.cool Hakkında"
 slug: "about"
-description: "NFC.cool'un hikayesi, amacı ve arkasındaki kişi: iPhone ve Android için gizliliği önceleyen bir tarama araç seti, platformu iyi bilen tek bir geliştirici tarafından bağımsız olarak yazıldı."
+description: "NFC.cool'un hikayesi, amacı ve kurucusu: iPhone ve Android için gizliliği önceleyen uygulamalar, platformu derinlemesine bilerek bağımsız olarak geliştirildi."
 ---
 
 <section class="page-hero">
@@ -12,7 +12,7 @@ description: "NFC.cool'un hikayesi, amacı ve arkasındaki kişi: iPhone ve Andr
 
 # Avrupa'da, bağımsız olarak yazıldı.
 
-NFC.cool, **Nicolo Stanciu**'nun bağımsız ürünü; Almanya ile Portekiz arasında geliştiriliyor. Tek kişi, tek amaç: NFC'yi geri kalanımız için erişilebilir kılmak. Fena halde inek bir teknoloji ve uygulamalarının çoğu fazla teknik kalıyor. NFC.cool ise herkes için tasarlanmış, telefonda bulabileceğin en iyi tarama araç seti olmayı hedefliyor.
+NFC.cool, kurucusu **Nicolo Stanciu**'nun bağımsız ürünü; Almanya ile Portekiz arasında geliştiriliyor. Amaç: NFC'yi geri kalanımız için erişilebilir kılmak. Fena halde inek bir teknoloji ve uygulamalarının çoğu fazla teknik kalıyor. NFC.cool ise herkes için tasarlanmış, telefonda bulabileceğin en iyi tarama araç seti olmayı hedefliyor.
 
 <a href="mailto:info@nfc.cool?subject=NFC.cool%20Support" class="landing-cta-button">İletişime geç</a>
 
@@ -32,9 +32,9 @@ NFC.cool, **Nicolo Stanciu**'nun bağımsız ürünü; Almanya ile Portekiz aras
 
 NFC.cool kişisel bir merakla başladı. Apple, iOS'ta NFC'yi 2017'de açtı ve bunun için ilk geliştirenlerden biri bendim. NFC.cool Tools'un ilk sürümünü o yıl yayınladım, App Store'a koydum ve etrafında küçük ama tutkulu bir topluluğun oluşmasını izledim.
 
-NFC.cool o günden beri bir uygulama ailesine dönüştü: tam tarama araç seti (NFC, QR, barkod, belge, 3B, oda tarama, webhook'lar), iPhone ve Android'de ayrı duran Business Card uygulaması ve araç setinin Android'in en iyi yaptığı işe odaklanan Android sürümü. Hepsi birlikte App Store ile Google Play'de {{RATINGS_TOTAL}}+ değerlendirme ve {{RATINGS_AVG}} yıldız taşıyor. Her şey hâlâ tek bir klavyeden çıkıyor: Almanya ile Portekiz arasında çalışan tek kişi.
+NFC.cool o günden beri bir uygulama ailesine dönüştü: tam tarama araç seti (NFC, QR, barkod, belge, 3B, oda tarama, webhook'lar), iPhone ve Android'de ayrı duran Business Card uygulaması ve araç setinin Android'in en iyi yaptığı işe odaklanan Android sürümü. Hepsi birlikte App Store ile Google Play'de {{RATINGS_TOTAL}}+ değerlendirme ve {{RATINGS_AVG}} yıldız taşıyor. Her şeyi hâlâ kurucusu geliştiriyor, Almanya ile Portekiz arasında.
 
-Bunu bilerek böyle tutuyorum. Yatırımcı yok, büyüme ekibi yok; sadece yazdığı şeyi her gün gerçekten kullanan biri var.
+Bunu bilerek böyle tutuyorum. NFC.cool'un arkasında girişim sermayesi yok, bu yüzden hesap verdiğim kişiler uygulamaları kullananlar. Yayınladığım her şeyi de her gün kendim kullanıyorum.
 
 </section>
 
@@ -74,6 +74,6 @@ Bunu bilerek böyle tutuyorum. Yatırımcı yok, büyüme ekibi yok; sadece yazd
 
 Bana ulaşmanın en hızlı yolu [e-posta](mailto:info@nfc.cool?subject=NFC.cool%20Support). Hepsini bizzat okuyorum. Özellik istekleri yol haritasını doğrudan şekillendirir; hata bildirimleri bir gün içinde değerlendirilir.
 
-Basın soruları için [basın sayfasına](/press/) bakabilirsin.
+Basın soruları için [basın sayfasına](/tr/press/) bakabilirsin.
 
 </section>

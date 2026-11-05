@@ -159,7 +159,7 @@ The solution isn't a workaround - it's a fundamentally better approach:
 2. Point that URL to a rich digital profile
 3. Let the profile handle contact saving, link sharing, and everything else
 
-That's what NFC.cool Business Card does. It's what I use at every conference, meetup, and networking event.
+That's what [NFC.cool Business Card](/business-card/) does. It's what I use at every conference, meetup, and networking event.
 
 I tap. They save. We both move on with our lives.
 

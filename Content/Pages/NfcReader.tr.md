@@ -89,7 +89,7 @@ Bunu, NFC tag'ini doğrudan tarayıcından okuyabilesin diye yaptım: uygulama y
 <p class="nfc-reader-title">NFC tag oku</p>
 <p class="nfc-reader-lead">Düğmeye dokun, sonra tag'i telefonunun üst kısmına tut. İçinde ne varsa göstereyim.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>NFC oku</span></button>
-<p class="nfc-reader-fineprint">Daha fazla NFC işlevi olan yerel bir deneyim mi istiyorsun? <a href="/features/nfc-reader-writer/">NFC.cool uygulamasını edin!</a></p>
+<p class="nfc-reader-fineprint">Daha fazla NFC işlevi olan yerel bir deneyim mi istiyorsun? <a href="/tr/features/nfc-reader-writer/">NFC.cool uygulamasını edin!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -163,7 +163,7 @@ Bunu, NFC tag'ini doğrudan tarayıcından okuyabilesin diye yaptım: uygulama y
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Tag'e yaz</span></button>
-<p class="nfc-reader-fineprint">Daha fazla NFC işlevi olan yerel bir deneyim mi istiyorsun? <a href="/features/nfc-reader-writer/">NFC.cool uygulamasını edin!</a></p>
+<p class="nfc-reader-fineprint">Daha fazla NFC işlevi olan yerel bir deneyim mi istiyorsun? <a href="/tr/features/nfc-reader-writer/">NFC.cool uygulamasını edin!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -306,19 +306,19 @@ Bu sayfadaki okuyucu gündelik işleri görür: tag oku, sık kullanılan verile
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
 <h3>Gizli veriyi NFC Safe ile şifrele</h3>
-<p>NFC Safe gizli veriyi AES-256 ile çipin üstüne şifreler, böylece tag uygulama dışında her şeye karışık veri olarak görünür. <a href="/blog/nfc-safe-encrypted-secrets/">NFC Safe nasıl çalışır</a>.</p>
+<p>NFC Safe gizli veriyi AES-256 ile çipin üstüne şifreler, böylece tag uygulama dışında her şeye karışık veri olarak görünür. <a href="/tr/blog/nfc-safe-encrypted-secrets/">NFC Safe nasıl çalışır</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
 <h3>Okutunca ne olacağını otomatikleştir</h3>
-<p>Bir tag webhook tetikleyebilir, iOS kısayolu çalıştırabilir, içeriğini sesli okuyabilir ya da kaç kez okutulduğunu sayabilir. <a href="/blog/count-nfc-tag-scans/">NFC tag okumaları nasıl sayılır</a>.</p>
+<p>Bir tag webhook tetikleyebilir, iOS kısayolu çalıştırabilir, içeriğini sesli okuyabilir ya da kaç kez okutulduğunu sayabilir. <a href="/tr/blog/count-nfc-tag-scans/">NFC tag okumaları nasıl sayılır</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
 <h3>Tag'leri kopyala, sıfırla, incele</h3>
-<p>Tag'i kopyala, ham çip belleğini dök ve tanımla ya da NFC ile kilitlenmiş donanımları yeniden programla: <a href="/blog/openprinttag-read-write-nfc-spools-phone/">3B yazıcı filament makaraları</a> ve <a href="/blog/reset-sonicare-brush-head-nfc/">elektrikli diş fırçası başlıkları</a> gibi.</p>
+<p>Tag'i kopyala, ham çip belleğini dök ve tanımla ya da NFC ile kilitlenmiş donanımları yeniden programla: <a href="/tr/blog/openprinttag-read-write-nfc-spools-phone/">3B yazıcı filament makaraları</a> ve <a href="/tr/blog/reset-sonicare-brush-head-nfc/">elektrikli diş fırçası başlıkları</a> gibi.</p>
 </article>
 
 </div>
@@ -355,7 +355,7 @@ Apple, iOS'taki her tarayıcıda NFC'yi kapatıyor; bu yüzden hiçbir web sites
 
 <details class="faq-item">
 <summary>Tag'e Wi-Fi ağı ya da kişi kartı yazabilir miyim?</summary>
-<p>Evet. Yaz açılır menüsünden Wi-Fi ağı ya da Kişi kartı'nı seç ve alanları doldur. Wi-Fi tag'i Android telefonlara ağa katılmayı önerir; kişi tag'i ise telefonların kaydetmeyi teklif ettiği standart bir vCard tutar.</p>
+<p>Evet. Yaz açılır menüsünden Wi-Fi ağı ya da Kişi kartı'nı seç ve alanları doldur. Wi-Fi tag'i Android telefonlara ağa katılmayı önerir; kişi tag'i ise Android telefonların kaydetmeyi teklif ettiği standart bir vCard tutar. Yazdıktan sonra güncelleyebileceğin bir kart mı istiyorsun? <a href="/tr/business-card/">NFC.cool Business Card</a> tag'e bağlantı koyar, böylece bilgilerini sonradan düzenleyebilirsin.</p>
 </details>
 
 <details class="faq-item">
@@ -384,8 +384,8 @@ Apple, iOS'taki her tarayıcıda NFC'yi kapatıyor; bu yüzden hiçbir web sites
 Bu sayfa tarayıcıdaki temel işleri kapsıyor. Ücretsiz NFC.cool uygulaması daha ileri gidiyor: her tag'i okuyor ve 25'ten fazla veri türü yazıyor. Bağlantılar, Wi-Fi, kişiler, kısayollar ve dahası, hem iPhone'da hem Android'de. Uygulamayı ben yazıyor, ben sürdürüyorum.
 
 <div class="tap-cta-buttons">
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">NFC Okuma ve Yazma'yı gör</a>
-<a href="/blog/nfc-tags-beginners-guide/" class="landing-cta-button">NFC tag'lere yeni misin? Buradan başla</a>
+<a href="/tr/features/nfc-reader-writer/" class="landing-cta-button">NFC Okuma ve Yazma'yı gör</a>
+<a href="/tr/blog/nfc-tags-beginners-guide/" class="landing-cta-button">NFC tag'lere yeni misin? Buradan başla</a>
 </div>
 
 </section>

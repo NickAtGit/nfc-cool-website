@@ -2,6 +2,7 @@
 id: nfc-blog-026
 title: "Come si configura il biglietto da visita digitale NFC.cool"
 date: 2024-04-06
+lastModified: "2026-11-05"
 tags: ["business-cards", "guides"]
 summary: "Guida passo passo alla configurazione del biglietto da visita digitale NFC.cool: prepara la scheda contatto, scegli cosa rendere pubblico, scrivi il tag NFC e condividi. E perché un indirizzo modificabile batte una vCard congelata dentro un codice QR."
 metaTitle: "Biglietto da visita digitale NFC.cool: come configurarlo"
@@ -24,17 +25,17 @@ Scarica NFC.cool Business Card per [iPhone](https://apps.apple.com/app/apple-sto
 
 ## Prepara la scheda di partenza nell'app Contatti
 
-Apri l'app Contatti di iOS (o la rubrica di Android) e crea una scheda con i dati che vuoi rendere disponibili a tutti: nome, azienda, ruolo, email di lavoro, telefono di lavoro, sito web, profilo LinkedIn. Ricontrolla ortografia e formattazione, perché questa scheda è l'originale da cui parte tutto il resto.
+Puoi partire da un biglietto vuoto nell'app oppure da un contatto sul telefono. Nel secondo caso, apri l'app Contatti di iOS (o la rubrica di Android) e crea una scheda con i dati che vuoi rendere disponibili a tutti: nome, azienda, ruolo, email di lavoro, telefono di lavoro, sito web, profilo LinkedIn. Ricontrolla ortografia e formattazione, perché questa scheda è l'originale da cui parte tutto il resto.
 
 Non serve metterci tutto. I dati riservati, come il cellulare personale o l'indirizzo di casa, possono restare fuori da questa scheda.
 
 ---
 
-## Apri NFC.cool e crea il biglietto
+## Apri NFC.cool Business Card e crea il biglietto
 
-Dentro NFC.cool vai alla sezione **Business Card** e tocca **Crea account**. Ti verrà chiesto di scegliere un nome utente e un PIN: il PIN è quello che protegge le modifiche future, quindi non perderlo.
+Apri l'app e tocca **Crea biglietto da visita**.
 
-Tocca **Apri Contatti** e scegli la scheda che hai appena preparato. NFC.cool ne importa i dati e te li mostra come bozza del biglietto.
+Scegli **Crea dai contatti** e seleziona la scheda che hai appena preparato, oppure **Crea nuovo** per partire da un biglietto vuoto. NFC.cool ne importa i dati e te li mostra come bozza del biglietto.
 
 ---
 
@@ -48,13 +49,13 @@ Le combinazioni più comuni:
 - **Sviluppo:** nome, ruolo, email di lavoro, GitHub, sito web.
 - **Creativi:** nome, ruolo, Instagram, indirizzo del portfolio, email di lavoro.
 
-Quando hai finito, tocca **Avanti**.
+Quando hai finito, vai avanti. Poi sceglierai un nome utente, che compare alla fine del link del biglietto (mycard.nfc.cool/John), e creerai l'account. L'app assegna all'account un PIN di quattro cifre, che puoi cambiare in Impostazioni e usare per tenere privato un biglietto.
 
 ---
 
 ## Personalizza il logo
 
-Tocca **Il tuo logo** → **Cambia logo** per caricare il logo dell'azienda o il tuo segno personale. Il risultato migliore si ottiene con un PNG trasparente, che si sovrappone bene sia al tema chiaro sia a quello scuro.
+Apri il menu del biglietto e cambia il logo per caricare quello dell'azienda o il tuo segno personale. Il risultato migliore si ottiene con uno sfondo trasparente, e puoi usare un solo logo per il tema chiaro e quello scuro oppure uno per ciascuno.
 
 ---
 
@@ -66,11 +67,11 @@ Tocca **Il tuo logo** → **Cambia logo** per caricare il logo dell'azienda o il
 </ol>
 </figure>
 
-Passiamo alla parte fisica. Un tag NFC lo trovi nello [shop NFC.cool](https://shop.nfc.cool/collections/all) o da qualsiasi altro rivenditore: adesivo, tessera, portachiavi, il formato che ti serve.
+Passiamo alla parte fisica. Va bene qualsiasi tag NFC standard: adesivo, tessera, portachiavi, il formato che ti serve. La pagina dei miei [tag NFC consigliati](/it/affiliate-links/) ti mostra cosa comprare.
 
-In NFC.cool tocca **Scrivi il biglietto sul tag NFC** e avvicina il telefono al tag. L'app scrive un indirizzo breve che punta alla pagina del tuo biglietto su nfc.cool. Da quel momento chiunque abbia un telefono può avvicinarlo al tag.
+Nel menu del biglietto tocca **Scrivi su un tag NFC** (**Scrivi il biglietto da visita su un tag NFC** su Android) e avvicina il telefono al tag. L'app scrive un indirizzo breve che punta alla pagina del tuo biglietto su nfc.cool. Da quel momento chiunque abbia un telefono può avvicinarlo al tag.
 
-Se vuoi bloccare il tag perché nessuno possa sovrascrivere l'indirizzo in futuro, tocca **Blocca** appena la scrittura è andata a buon fine. L'operazione è irreversibile: blocca solo i tag su cui non hai dubbi.
+Se vuoi bloccare il tag perché nessuno possa sovrascrivere l'indirizzo in futuro, puoi farlo con [NFC.cool Tools](/it/features/nfc-reader-writer/) e il suo abbonamento Platinum. Il blocco è irreversibile: blocca solo i tag su cui non hai dubbi.
 
 ---
 
@@ -78,11 +79,11 @@ Se vuoi bloccare il tag perché nessuno possa sovrascrivere l'indirizzo in futur
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="Un biglietto come lo vede chi lo riceve: Samir Haddad di Haddad &amp; Lowe, con i link Website, LinkedIn e Facebook e il pulsante Save Contact"><p><strong>Quello che vedono.</strong> Su iPhone un App Clip nativo, con Save Contact a un tocco.</p></li>
+<li><img src="/assets/images/Blog/screens/business-card-service/preview-440w.webp" alt="Un biglietto come lo vede chi lo riceve: Samir Haddad di Haddad &amp; Lowe, con i link Website, LinkedIn e Facebook e il pulsante Save Contact"><p><strong>Quello che vedono.</strong> Su iPhone un'App Clip nativa, con Save Contact a un tocco.</p></li>
 </ol>
 </figure>
 
-Tocca **Mostra biglietto** per vedere esattamente quello che vede chi lo riceve. La pagina è pensata prima di tutto per il telefono, si carica all'istante e offre un pulsante "Salva nei contatti" che funziona con un tocco. Su iOS chi riceve il biglietto vede un'App Clip nativa, senza installare niente; su Android vede una pagina web pulita sul dominio nfc.cool. In entrambi i casi i tuoi dati finiscono nella rubrica dell'altra persona.
+Tocca **Anteprima** nel menu del biglietto (**Anteprima biglietto da visita** su Android) per vedere esattamente quello che vede chi lo riceve. La pagina è pensata prima di tutto per il telefono, si carica all'istante e offre un pulsante "Salva contatto" che funziona con un tocco. Su iOS chi riceve il biglietto vede un'App Clip nativa, senza installare niente; su Android vede una pagina web pulita sul dominio nfc.cool. In entrambi i casi i tuoi dati finiscono nella rubrica dell'altra persona.
 
 ---
 
@@ -96,4 +97,4 @@ Con NFC.cool i dati del contatto restano sul server e il tag (o il codice QR) si
 
 Quando fai networking sul serio, è questa l'unica cosa che conta davvero: i dati sopravvivono al cartoncino stampato.
 
-[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-it&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-it) · oppure NFC.cool Business Card per [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-it&mt=8) e [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-it).
+[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-it&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-it) · oppure [NFC.cool Business Card](/it/business-card/) per [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-it&mt=8) e [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-it).

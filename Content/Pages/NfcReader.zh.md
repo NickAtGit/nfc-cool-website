@@ -36,7 +36,7 @@ image: "/assets/images/og-landing.webp"
 <p class="nfc-reader-title">读取一个 NFC 标签</p>
 <p class="nfc-reader-lead">轻触按钮，然后把标签贴近手机顶部。我会告诉你里面有什么。</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>读取 NFC</span></button>
-<p class="nfc-reader-fineprint">想要拥有更多 NFC 功能的原生 NFC 体验吗？<a href="/features/nfc-reader-writer/">下载 NFC.cool App！</a></p>
+<p class="nfc-reader-fineprint">想要拥有更多 NFC 功能的原生 NFC 体验吗？<a href="/zh/features/nfc-reader-writer/">下载 NFC.cool App！</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -110,7 +110,7 @@ image: "/assets/images/og-landing.webp"
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>写入标签</span></button>
-<p class="nfc-reader-fineprint">想要拥有更多 NFC 功能的原生 NFC 体验吗？<a href="/features/nfc-reader-writer/">下载 NFC.cool App！</a></p>
+<p class="nfc-reader-fineprint">想要拥有更多 NFC 功能的原生 NFC 体验吗？<a href="/zh/features/nfc-reader-writer/">下载 NFC.cool App！</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -132,19 +132,19 @@ image: "/assets/images/og-landing.webp"
 <span class="nfc-reader-badge is-muted">iPhone</span>
 <p class="nfc-reader-title">iPhone 上无法使用浏览器 NFC</p>
 <p class="nfc-reader-lead">Apple 不允许任何浏览器访问 NFC 芯片。为此，我做了免费的 NFC.cool App，用来在 iPhone 上读写标签。</p>
-<div class="landing-store-buttons"><a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-en&mt=8" class="landing-store-button is-apple" aria-label="在 App Store 下载" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/AppStore.svg" alt="在 App Store 下载 NFC.cool" width="156" height="52"/></a></div>
+<div class="landing-store-buttons"><a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-zh&mt=8" class="landing-store-button is-apple" aria-label="在 App Store 下载" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/AppStore.svg" alt="在 App Store 下载 NFC.cool" width="156" height="52"/></a></div>
 </div>
 <div class="nfc-reader-panel" data-panel="android-other">
 <span class="nfc-reader-badge is-muted">在 Chrome 中打开</span>
 <p class="nfc-reader-title">切换到 Chrome 以在此扫描</p>
 <p class="nfc-reader-lead">你正在使用 Android，所以浏览器内的读写是可行的，只是需要 Chrome。在 Chrome 中打开本页面，读取器就会启用。</p>
-<div class="landing-store-buttons"><a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-en" class="landing-store-button is-google" aria-label="在 Google Play 获取" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/GooglePlay.svg" alt="在 Google Play 获取 NFC.cool" width="173" height="52"/></a></div>
+<div class="landing-store-buttons"><a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-zh" class="landing-store-button is-google" aria-label="在 Google Play 获取" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/GooglePlay.svg" alt="在 Google Play 获取 NFC.cool" width="173" height="52"/></a></div>
 </div>
 <div class="nfc-reader-panel" data-panel="desktop">
 <span class="nfc-reader-badge is-muted">仅限 Android + Chrome</span>
 <img class="nfc-reader-qr" src="/assets/images/nfc-reader-qr.svg" alt="可在手机上打开本页面的二维码" width="188" height="188"/>
 <p class="nfc-reader-lead">用 Android 手机扫描这个二维码，即可在手机上打开读取器。浏览器内的 NFC 需要 Android 上的 Chrome。</p>
-<p class="nfc-reader-fineprint">在用 iPhone？<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-en&mt=8" target="_blank" rel="noopener nofollow sponsored">下载 NFC.cool App</a>。</p>
+<p class="nfc-reader-fineprint">在用 iPhone？<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-zh&mt=8" target="_blank" rel="noopener nofollow sponsored">下载 NFC.cool App</a>。</p>
 </div>
 </div>
 </div>
@@ -164,10 +164,10 @@ image: "/assets/images/og-landing.webp"
 完整版 App 可在 iPhone 和 Android 上读取和写入任何 NFC 标签。
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-hero-ios-en&mt=8" class="landing-store-button is-apple" aria-label="在 App Store 下载" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-hero-ios-zh&mt=8" class="landing-store-button is-apple" aria-label="在 App Store 下载" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="在 App Store 下载 NFC.cool" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-hero-android-en" class="landing-store-button is-google" aria-label="在 Google Play 获取" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-hero-android-zh" class="landing-store-button is-google" aria-label="在 Google Play 获取" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="在 Google Play 获取 NFC.cool" width="173" height="52"/>
 </a>
 </div>
@@ -253,19 +253,19 @@ image: "/assets/images/og-landing.webp"
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
 <h3>用 NFC Safe 加密机密</h3>
-<p>NFC Safe 用 AES-256 把一段机密加密写到芯片本身，因此除了这个 App 之外，任何东西读取该标签都只会看到一堆乱码数据。<a href="/blog/nfc-safe-encrypted-secrets/">NFC Safe 的工作原理</a>。</p>
+<p>NFC Safe 用 AES-256 把一段机密加密写到芯片本身，因此除了这个 App 之外，任何东西读取该标签都只会看到一堆乱码数据。<a href="/zh/blog/nfc-safe-encrypted-secrets/">NFC Safe 的工作原理</a>。</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
 <h3>自动化轻触后的动作</h3>
-<p>一个标签可以触发 webhook、运行一条 iOS 快捷指令、朗读它的内容，或者统计它被扫描的次数。<a href="/blog/count-nfc-tag-scans/">如何统计 NFC 标签扫描次数</a>。</p>
+<p>一个标签可以触发 webhook、运行一条 iOS 快捷指令、朗读它的内容，或者统计它被扫描的次数。<a href="/zh/blog/count-nfc-tag-scans/">如何统计 NFC 标签扫描次数</a>。</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
 <h3>克隆、重置与检查标签</h3>
-<p>克隆一个标签，导出并识别它的原始芯片内存，或者重新编程那些受 NFC 控制的硬件，比如<a href="/blog/openprinttag-read-write-nfc-spools-phone/">3D 打印机的耗材线轴</a>和<a href="/blog/reset-sonicare-brush-head-nfc/">电动牙刷的刷头</a>。</p>
+<p>克隆一个标签，导出并识别它的原始芯片内存，或者重新编程那些受 NFC 控制的硬件，比如<a href="/zh/blog/openprinttag-read-write-nfc-spools-phone/">3D 打印机的耗材线轴</a>和<a href="/zh/blog/reset-sonicare-brush-head-nfc/">电动牙刷的刷头</a>。</p>
 </article>
 
 </div>
@@ -279,10 +279,10 @@ image: "/assets/images/og-landing.webp"
 Apple 在所有 iOS 浏览器中都封锁了 NFC，因此没有任何网站能在 iPhone 或 iPad 上读写标签。NFC.cool App 以原生方式实现这一点，效果和在 Android 上一样好。
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-en&mt=8" class="landing-store-button is-apple" aria-label="在 App Store 下载" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-zh&mt=8" class="landing-store-button is-apple" aria-label="在 App Store 下载" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="在 App Store 下载 NFC.cool" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-en" class="landing-store-button is-google" aria-label="在 Google Play 获取" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-zh" class="landing-store-button is-google" aria-label="在 Google Play 获取" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="在 Google Play 获取 NFC.cool" width="173" height="52"/>
 </a>
 </div>
@@ -302,7 +302,7 @@ Apple 在所有 iOS 浏览器中都封锁了 NFC，因此没有任何网站能�
 
 <details class="faq-item">
 <summary>我能把一个 Wi-Fi 网络或联系人名片写到标签上吗？</summary>
-<p>可以。在写入下拉菜单中选择 Wi-Fi 网络或联系人名片，并填好各字段。Wi-Fi 标签会提示 Android 手机加入该网络；联系人标签则存储一份标准 vCard，手机会提示保存。</p>
+<p>可以。在写入下拉菜单中选择 Wi-Fi 网络或联系人名片，并填好各字段。Wi-Fi 标签会提示 Android 手机加入该网络；联系人标签则存储一份标准 vCard，Android 手机会提示保存。想要一张写好后还能更新的名片？<a href="/zh/business-card/">NFC.cool Business Card</a> 在标签上放的是链接，所以你之后还可以修改信息。</p>
 </details>
 
 <details class="faq-item">
@@ -331,8 +331,8 @@ Apple 在所有 iOS 浏览器中都封锁了 NFC，因此没有任何网站能�
 本页面涵盖了浏览器里的基础操作。免费的 NFC.cool App 走得更远：它能读取任何标签，并写入 25 多种数据，包括链接、Wi-Fi、联系人、快捷指令等等，在 iPhone 和 Android 上都行。它由我亲手开发和维护。
 
 <div class="tap-cta-buttons">
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">了解 NFC 读取与写入工具</a>
-<a href="/blog/nfc-tags-beginners-guide/" class="landing-cta-button">刚接触 NFC 标签？从这里开始</a>
+<a href="/zh/features/nfc-reader-writer/" class="landing-cta-button">了解 NFC 读取与写入工具</a>
+<a href="/zh/blog/nfc-tags-beginners-guide/" class="landing-cta-button">刚接触 NFC 标签？从这里开始</a>
 </div>
 
 </section>

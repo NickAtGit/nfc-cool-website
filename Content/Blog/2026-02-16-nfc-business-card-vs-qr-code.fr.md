@@ -2,6 +2,7 @@
 id: nfc-blog-003
 title: "Carte de visite NFC ou QR code : lequel est le meilleur pour le réseautage ?"
 date: 2026-02-16
+lastModified: "2026-11-05"
 tags: ["business-cards", "qr-codes", "networking"]
 summary: "Approcher une carte NFC ou scanner un QR code - quelle est la meilleure façon de partager ses coordonnées ? Je décortique la vitesse, la compatibilité, le coût et les cas d'usage concrets pour vous aider à décider."
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"
@@ -200,12 +201,12 @@ En toute transparence : c'est mon blog, alors bien sûr que je vais mentionner m
 
 Quelques éléments qui la distinguent :
 
-- **35 langues** - L'interface de l'app et l'App Clip prennent en charge 35 langues, donc votre carte s'affiche dans la langue de votre contact sur iOS. Le site de partage Android est pour l'instant en anglais uniquement.
-- **La confidentialité d'abord** - Aucune sollicitation des destinataires, protection par code PIN en option, aucune monétisation des données ni publicité
+- **35 langues** - L'interface de l'app et l'App Clip prennent en charge 35 langues : sur iOS, les boutons et les libellés autour de votre carte suivent la langue de votre contact.
+- **Confidentialité** - NFC.cool n'envoie pas de marketing aux personnes qui consultent votre carte, les cartes peuvent avoir un code PIN, et NFC.cool ne vend pas vos données. Avec le forfait Team, votre équipe peut envoyer des e-mails de relance aux personnes qui laissent leurs coordonnées via votre formulaire de prospects.
 - **NFC ouvert** - Fonctionne avec n'importe quel tag NFC standard - NFC.cool ne vend pas de matériel propriétaire
-- **Abordable** - Forfait Personnel à 20 €/an, Petite Entreprise à 50 €/an (10 cartes), Entreprise à 100 €/an (100 cartes)
+- **Abordable** - Un forfait Free avec une carte, Personal à 19,99 $ par an, Pro à 49,99 $ par an (10 cartes) et [Team](/fr/business-card/teams/) à 50 $ par personne et par an ou 5 $ par mois (jusqu'à 10 cartes par personne). En euros, le tarif équipe affiche le même chiffre.
 
-**Essayez NFC.cool Business Card :** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-fr&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-fr)
+**Essayez [NFC.cool Business Card](/fr/business-card/) :** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-fr&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-fr)
 
 ---
 

@@ -22,7 +22,7 @@ Cuando me hacen esta pregunta, siempre empiezo separando dos términos que se us
 - **RFID (Identificación por Radiofrecuencia)** es una tecnología amplia que se usa para identificar y rastrear objetos de forma inalámbrica. Pienso en el RFID como gritar al otro lado de la calle a un amigo - normalmente un intercambio unidireccional en el que la tarjeta RFID de tu edificio emite una señal y la puerta escucha. El RFID viene en distintas variantes: baja frecuencia (LF), alta frecuencia (HF) y ultra alta frecuencia (UHF). Alimenta tarjetas de acceso, microchips de mascotas, control de inventario y, sí, esas tarjetas de edificio.
 - **NFC (Comunicación de Campo Cercano)** es esencialmente un subconjunto especializado del RFID que opera en alta frecuencia (13,56 MHz). Es una conversación íntima entre dos amigos muy cerca el uno del otro. El NFC permite comunicación bidireccional, intercambio seguro de datos e interacción rica - que es exactamente por qué tu iPhone usa NFC para funciones como Apple Pay, AirTags y [tarjetas de visita digitales](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-iphone-rfid-condo-doors-en&mt=8).
 
-Así que todo NFC es RFID, pero no todo RFID es NFC. Esa sola frase es la raíz de casi todos los emails del tipo "¿por qué no funciona?" que recibo. Si quieres la explicación más completa de cómo encaja el NFC dentro del RFID, la cubrí en mi [guía para principiantes sobre etiquetas NFC](/blog/nfc-tags-beginners-guide/).
+Así que todo NFC es RFID, pero no todo RFID es NFC. Esa sola frase es la raíz de casi todos los emails del tipo "¿por qué no funciona?" que recibo. Si quieres la explicación más completa de cómo encaja el NFC dentro del RFID, la cubrí en mi [guía para principiantes sobre etiquetas NFC](/es/blog/nfc-tags-beginners-guide/).
 
 ---
 
@@ -36,7 +36,7 @@ Así que todo NFC es RFID, pero no todo RFID es NFC. Esa sola frase es la raíz 
 
 Aquí está la parte que he tenido que explicar cientos de veces. La tarjeta de acceso de tu edificio muy probablemente usa una forma de RFID que queda fuera del estándar NFC que reconoce tu iPhone - a menudo RFID de baja frecuencia, o un esquema propietario de alta frecuencia cifrado de formas que los iPhones no pueden interpretar. Apple diseñó deliberadamente el iPhone para funcionar exclusivamente con NFC a 13,56 MHz por razones de seguridad, eficiencia de batería y una experiencia de usuario consistente.
 
-Dicho llanamente: tu iPhone no habla el dialecto RFID de tu edificio. Es como esperar que tu suscripción de Netflix te deje entrar en un cine. La misma idea general, mundos completamente distintos. Y esto tampoco es un error que yo pudiera parchear en mi propia app - la radio dentro del móvil simplemente no puede sintonizar la frecuencia en la que está hablando esa tarjeta. Si tienes curiosidad por saber exactamente qué abrió y qué no abrió Apple en el stack NFC, escribí sobre ello en [una mirada desde dentro del NFC en iPhones](/blog/nfc-on-iphones-insider-look/).
+Dicho llanamente: tu iPhone no habla el dialecto RFID de tu edificio. Es como esperar que tu suscripción de Netflix te deje entrar en un cine. La misma idea general, mundos completamente distintos. Y esto tampoco es un error que yo pudiera parchear en mi propia app - la radio dentro del móvil simplemente no puede sintonizar la frecuencia en la que está hablando esa tarjeta. Si tienes curiosidad por saber exactamente qué abrió y qué no abrió Apple en el stack NFC, escribí sobre ello en [una mirada desde dentro del NFC en iPhones](/es/blog/nfc-on-iphones-insider-look/).
 
 ---
 
@@ -44,7 +44,7 @@ Dicho llanamente: tu iPhone no habla el dialecto RFID de tu edificio. Es como es
 
 En resumen: no, y he dejado de tener reparos en decirlo. La Wallet y el stack NFC de Apple están deliberadamente bloqueados para evitar las pesadillas de seguridad obvias - que alguien copie despreocupadamente tu tarjeta de crédito o la llave de tu edificio en un móvil. Imagina un mundo en el que cualquiera pudiera clonar tarjetas de acceso en un iPhone: tu portal se convertiría en una puerta giratoria. Esta limitación de Apple existe para mantener tu vida digital segura, y como alguien que trabaja con este stack cada día, yo tomaría la misma decisión.
 
-También vale la pena saber que las tarjetas que *sí* pueden guardar secretos - las que tienen protección criptográfica real - no son triviales de copiar por diseño. Profundicé en ese aspecto en [mantener secretos seguros en etiquetas NFC cifradas](/blog/nfc-safe-encrypted-secrets/).
+También vale la pena saber que las tarjetas que *sí* pueden guardar secretos - las que tienen protección criptográfica real - no son triviales de copiar por diseño. Profundicé en ese aspecto en [mantener secretos seguros en etiquetas NFC cifradas](/es/blog/nfc-safe-encrypted-secrets/).
 
 ---
 
@@ -53,7 +53,7 @@ También vale la pena saber que las tarjetas que *sí* pueden guardar secretos -
 Apple no va a ceder en esto pronto, así que aquí te sugiero cómo hacer las paces con la realidad del RFID:
 
 - **Sistemas compatibles con smartphones.** Pregunta a la administración de tu edificio sobre actualizar a sistemas de acceso modernos que se integren con carteras digitales. Esta es la solución real, y cada año se vuelve más común.
-- **Pegatinas o etiquetas NFC.** Las etiquetas NFC programables son genuinamente útiles en casa y en escenarios controlados - yo las uso constantemente - pero aquí solo ayudan si el lector de tu edificio habla de verdad NFC. Si quieres intentarlo, [escribir tus propias etiquetas NFC en iPhone](/blog/write-nfc-tags-iphone/) es el punto de partida.
+- **Pegatinas o etiquetas NFC.** Las etiquetas NFC programables son genuinamente útiles en casa y en escenarios controlados - yo las uso constantemente - pero aquí solo ayudan si el lector de tu edificio habla de verdad NFC. Si quieres intentarlo, [escribir tus propias etiquetas NFC en iPhone](/es/blog/write-nfc-tags-iphone/) es el punto de partida.
 - **Tarjetas o llaveros RFID dedicados.** Por ahora, mantén esa tarjeta del edificio en tu llavero. Sigue siendo la herramienta correcta para esa cerradura en concreto.
 
 ---

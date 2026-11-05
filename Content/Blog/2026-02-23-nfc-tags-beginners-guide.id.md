@@ -53,7 +53,7 @@ NFC sebenarnya adalah bagian dari RFID (Radio-Frequency Identification / Identif
 | **Terstandarisasi** | ISO 14443 / ISO 18092 | Berbagai standar |
 | **Penggunaan konsumen** | Tinggi (ponsel, pembayaran) | Sebagian besar industri |
 
-Semua NFC adalah RFID, tetapi tidak semua RFID adalah NFC. Kartu yang Anda gesek untuk masuk ke kantor sering berjalan pada 125 KHz, dan ponsel Anda tidak dapat membacanya. Tag NFC menggunakan frekuensi 13,56 MHz yang didukung ponsel. "Mengapa ponsel saya tidak bisa membaca lencana kerja saya?" adalah salah satu pertanyaan yang paling sering saya terima, dan ini hampir selalu jawabannya. (Jika Anda sedang mendalami topik itu, saya menulis seluruh artikel tentang [mengapa iPhone Anda tidak bisa membuka pintu RFID](/blog/iphone-rfid-condo-doors/).)
+Semua NFC adalah RFID, tetapi tidak semua RFID adalah NFC. Kartu yang Anda gesek untuk masuk ke kantor sering berjalan pada 125 KHz, dan ponsel Anda tidak dapat membacanya. Tag NFC menggunakan frekuensi 13,56 MHz yang didukung ponsel. "Mengapa ponsel saya tidak bisa membaca lencana kerja saya?" adalah salah satu pertanyaan yang paling sering saya terima, dan ini hampir selalu jawabannya. (Jika Anda sedang mendalami topik itu, saya menulis seluruh artikel tentang [mengapa iPhone Anda tidak bisa membuka pintu RFID](/id/blog/iphone-rfid-condo-doors/).)
 
 ---
 
@@ -107,9 +107,9 @@ Memori terbesar dalam lini NTAG konsumen, dan tag yang akan saya pilih jika Anda
 | Pemicu rumah pintar | NTAG213 | Hanya membutuhkan ID unik |
 | Anti-pemalsuan | NTAG424 DNA | Verifikasi kriptografis |
 
-**Tempat membeli:** Halaman [tag NFC yang saya rekomendasikan](/affiliate-links/) mencantumkan stiker NTAG216 yang saya gunakan dan uji. Tag berformat stiker adalah yang paling serbaguna - bisa ditempel di hampir apa saja.
+**Tempat membeli:** Halaman [tag NFC yang saya rekomendasikan](/id/affiliate-links/) mencantumkan stiker NTAG216 yang saya gunakan dan uji. Tag berformat stiker adalah yang paling serbaguna - bisa ditempel di hampir apa saja.
 
-Saran jujur saya: beli satu paket stiker NTAG216 dan berhenti terlalu memikirkannya. Saya pernah melihat orang menghabiskan berjam-jam memikirkan jenis chip untuk proyek yang bisa ditangani dengan tag seharga 20 sen. Jika Anda ingin penjelasan yang lebih mendalam, saya membahas chip satu per satu di [jenis tag NFC untuk iPhone](/blog/nfc-tag-types-for-iphones/).
+Saran jujur saya: beli satu paket stiker NTAG216 dan berhenti terlalu memikirkannya. Saya pernah melihat orang menghabiskan berjam-jam memikirkan jenis chip untuk proyek yang bisa ditangani dengan tag seharga 20 sen. Jika Anda ingin penjelasan yang lebih mendalam, saya membahas chip satu per satu di [jenis tag NFC untuk iPhone](/id/blog/nfc-tag-types-for-iphones/).
 
 ---
 
@@ -160,7 +160,7 @@ Apa yang terjadi ketika Anda memindai bergantung pada datanya:
 - **App Clip** - meluncurkan App Clip jika ada
 - **Data kustom** - membuka aplikasi yang terkait
 
-Jika Anda hanya ingin melihat isi tag saat ini, Anda juga bisa [membaca tag NFC langsung dari browser](/online-nfc-reader/) di Android - tanpa instalasi.
+Jika Anda hanya ingin melihat isi tag saat ini, Anda juga bisa [membaca tag NFC langsung dari browser](/id/online-nfc-reader/) di Android - tanpa instalasi.
 
 ### Di Android
 
@@ -187,7 +187,7 @@ Prosesnya singkat:
 4. Dekatkan ponsel Anda ke tag
 5. Tunggu konfirmasi, biasanya sekitar satu detik
 
-Selesai. Tag sekarang menyimpan data Anda dan berfungsi dengan ponsel NFC mana pun yang membacanya. Jika Anda ingin panduan khusus iPhone, saya menulisnya di sini: [cara menulis tag NFC di iPhone](/blog/write-nfc-tags-iphone/).
+Selesai. Tag sekarang menyimpan data Anda dan berfungsi dengan ponsel NFC mana pun yang membacanya. Jika Anda ingin panduan khusus iPhone, saya menulisnya di sini: [cara menulis tag NFC di iPhone](/id/blog/write-nfc-tags-iphone/).
 
 ### Penting: mengunci tag
 
@@ -326,7 +326,7 @@ Ingin mencobanya? Ini adalah proyek lima menit yang akan saya rekomendasikan kep
 
 **Proyek: tag berbagi Wi-Fi untuk rumah Anda**
 
-1. **Beli tag:** ambil satu paket [stiker NTAG216](/affiliate-links/) (sekitar $10 untuk 25 buah)
+1. **Beli tag:** ambil satu paket [stiker NTAG216](/id/affiliate-links/) (sekitar $10 untuk 25 buah)
 2. **Unduh NFC.cool Tools:** untuk [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) atau [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-en)
 3. **Tulis kredensial Wi-Fi Anda:** buka aplikasi, pilih Tulis, lalu Wi-Fi, masukkan nama jaringan dan kata sandi Anda, dan dekatkan ponsel ke tag
 4. **Tempatkan tag:** di tempat yang terlihat - di dekat pintu depan, di lemari es, di kamar tamu

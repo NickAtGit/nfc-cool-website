@@ -24,7 +24,7 @@ Satu hal yang sangat saya perhatikan saat merancang ini: saya tidak ingin rahasi
 
 Jika Anda meminta saya menyebutkan titik lemah dari setiap metode penyimpanan rahasia yang pernah saya lihat, saya bisa melakukannya tanpa berpikir: kertas terbakar, konektor USB berkarat, layanan cloud diretas, dompet perangkat keras hanya menangani frasa seed kripto, dan otak Anda lupa. Setiap pilihan gagal dengan caranya sendiri.
 
-Jadi saya bekerja mundur. Cadangan ideal akan tahan secara fisik, terenkripsi, berdiri sendiri, redundan, dan tahan lama. Tag NFC memenuhi kelima kriteria itu, dan itu pun awalnya mengejutkan saya. Tag NFC tidak memiliki baterai, tidak ada bagian yang bergerak, dan chip NTAG216 dinilai memiliki retensi data 10+ tahun. Varian berlapis epoksi tahan terhadap air, benturan, dan puluhan tahun pengabaian. Jika Anda baru mengenal perbedaan chip ini, saya menguraikan trade-off-nya di [jenis tag NFC untuk iPhone](/blog/nfc-tag-types-for-iphones/).
+Jadi saya bekerja mundur. Cadangan ideal akan tahan secara fisik, terenkripsi, berdiri sendiri, redundan, dan tahan lama. Tag NFC memenuhi kelima kriteria itu, dan itu pun awalnya mengejutkan saya. Tag NFC tidak memiliki baterai, tidak ada bagian yang bergerak, dan chip NTAG216 dinilai memiliki retensi data 10+ tahun. Varian berlapis epoksi tahan terhadap air, benturan, dan puluhan tahun pengabaian. Jika Anda baru mengenal perbedaan chip ini, saya menguraikan trade-off-nya di [jenis tag NFC untuk iPhone](/id/blog/nfc-tag-types-for-iphones/).
 
 ---
 
@@ -51,7 +51,7 @@ NFC Safe ada di dalam NFC.cool Tools di bawah NFC Apps. Saya mempertahankan semu
 2. Masukkan frasa sandi Anda
 3. Tempelkan tag yang sebelumnya dienkripsi - rahasia Anda muncul
 
-Di balik layar, inilah yang sebenarnya saya lakukan: AES-256-GCM dengan PBKDF2 (HMAC-SHA-256, 100.000 iterasi, salt acak 16-byte). Hasilnya disimpan di tag sebagai rekaman NDEF kustom (`urn:nfc:ext:crypto`). Jika Anda ingin memverifikasi sendiri daripada mempercayai kata-kata saya, [spesifikasi format lengkapnya ada di GitHub](https://github.com/NickAtGit/nfc.cool-nfc-safe-format). Jika Anda penasaran seperti apa penulisan tag normal yang tidak terenkripsi, saya menjelaskannya di [cara menulis tag NFC di iPhone](/blog/write-nfc-tags-iphone/).
+Di balik layar, inilah yang sebenarnya saya lakukan: AES-256-GCM dengan PBKDF2 (HMAC-SHA-256, 100.000 iterasi, salt acak 16-byte). Hasilnya disimpan di tag sebagai rekaman NDEF kustom (`urn:nfc:ext:crypto`). Jika Anda ingin memverifikasi sendiri daripada mempercayai kata-kata saya, [spesifikasi format lengkapnya ada di GitHub](https://github.com/NickAtGit/nfc.cool-nfc-safe-format). Jika Anda penasaran seperti apa penulisan tag normal yang tidak terenkripsi, saya menjelaskannya di [cara menulis tag NFC di iPhone](/id/blog/write-nfc-tags-iphone/).
 
 ---
 
@@ -89,7 +89,7 @@ Saya lebih suka jujur tentang sisi tajamnya daripada Anda menemukannya belakanga
 
 ## Gambaran lebih besar
 
-Bekerja dengan NFC setiap hari, saya menyaksikan tag-tag ini secara diam-diam menjadi media penyimpanan untuk hal-hal yang penting. Paspor Produk Digital UE mencantumkan NFC sebagai salah satu pembawa data yang disetujui, berdampingan dengan kode QR. Philips memasangnya di kepala sikat gigi. Hotel menggunakannya untuk kunci kamar. Murah, tahan lama, dan dapat dibaca secara universal oleh perangkat yang sudah ada di saku Anda - kombinasi itu langka, dan itulah tepatnya mengapa saya terus menemukan kegunaan baru untuknya. Jika Anda ingin gambaran yang lebih luas, saya membahas dasar-dasarnya di [tag NFC dijelaskan: panduan lengkap untuk pemula](/blog/nfc-tags-beginners-guide/).
+Bekerja dengan NFC setiap hari, saya menyaksikan tag-tag ini secara diam-diam menjadi media penyimpanan untuk hal-hal yang penting. Paspor Produk Digital UE mencantumkan NFC sebagai salah satu pembawa data yang disetujui, berdampingan dengan kode QR. Philips memasangnya di kepala sikat gigi. Hotel menggunakannya untuk kunci kamar. Murah, tahan lama, dan dapat dibaca secara universal oleh perangkat yang sudah ada di saku Anda - kombinasi itu langka, dan itulah tepatnya mengapa saya terus menemukan kegunaan baru untuknya. Jika Anda ingin gambaran yang lebih luas, saya membahas dasar-dasarnya di [tag NFC dijelaskan: panduan lengkap untuk pemula](/id/blog/nfc-tags-beginners-guide/).
 
 NFC Safe adalah upaya saya untuk mengambil ketahanan itu dan menambahkan satu hal yang kurang - enkripsi. Cadangan yang bertahan lebih lama dari kertas, tidak bisa dibaca oleh siapa pun yang menemukannya, dan harganya kurang dari secangkir kopi. Itulah hal yang saya inginkan untuk diri sendiri, jadi saya membangunnya.
 

@@ -5,7 +5,7 @@ date: 2024-04-05
 tags: ["announcements", "android", "nfc-tags"]
 summary: "NFC.cool Tools Google Play'de yayında. NFC okuma ve tag yazma artık Android'de; donanımı ortak olan her kısımda iOS uygulamasıyla aynı özellik seti."
 metaTitle: "NFC.cool Tools artık Google Play'de"
-metaDescription: "NFC.cool Tools artık Android'de: NFC tag okuma ve yazma, iPhone'dan tanıdığın markanın aynısı, şimdi Google Play'de."
+metaDescription: "NFC.cool Tools Google Play'de. Android'de NFC tag oku ve yaz: URL'ler, vCard'lar, Wi-Fi, düz metin ve özel MIME kayıtları, iPhone'daki gibi."
 ogTitle: "NFC.cool artık Play Store'da"
 ogDescription: "NFC.cool Tools Google Play'de yayında: Android'de NFC okuma ve tag yazma."
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"

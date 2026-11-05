@@ -8,7 +8,7 @@ image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 imageAlt: "一枚 NFC 标签正被手机轻触，旁边是一个不断上升的扫描计数数字"
 author: "Nicolo Stanciu"
 metaTitle: "如何在没有服务器的情况下统计 NFC 标签的扫描次数"
-metaDescription: "用芯片内置的计数器追踪一枚 NFC 标签被轻触了多少次，以及到底是哪一枚实体标签。无需后端，无需联网。一份实用指南。"
+metaDescription: "用芯片内置的计数器追踪一枚 NFC 标签被轻触了多少次，以及到底是哪一枚实体标签。无需后端，无需联网。这份实用指南讲清 NFC 轻触计数器的原理、一步步的设置方法、计数和标签 ID 会出现在哪里，以及你需要哪种标签。"
 ogTitle: "如何在没有服务器的情况下统计 NFC 标签的扫描次数"
 ogDescription: "你的 NFC 标签可以自己统计扫描次数。下面讲讲怎么把它用在互动追踪、限量版和防伪验证上。"
 ---
@@ -23,7 +23,7 @@ ogDescription: "你的 NFC 标签可以自己统计扫描次数。下面讲讲�
 
 ## NFC 轻触计数器到底是什么
 
-大多数[你能买到的 NFC 贴纸](/affiliate-links/)用的都是 NTAG21x 系列芯片：`NTAG213`、`NTAG215` 和 `NTAG216`。这些芯片有一个我发现大多数人都从不知道它存在的小功能：内置计数器。标签每被读取一次，计数器就加一。它存在于芯片的硬件里，不在某个 App 里，也不在服务器上。（如果你想更深入地了解这些芯片，我在 [iPhone 上的 NFC 标签类型](/blog/nfc-tag-types-for-iphones/)里讲过。）
+大多数[你能买到的 NFC 贴纸](/zh/affiliate-links/)用的都是 NTAG21x 系列芯片：`NTAG213`、`NTAG215` 和 `NTAG216`。这些芯片有一个我发现大多数人都从不知道它存在的小功能：内置计数器。标签每被读取一次，计数器就加一。它存在于芯片的硬件里，不在某个 App 里，也不在服务器上。（如果你想更深入地了解这些芯片，我在 [iPhone 上的 NFC 标签类型](/zh/blog/nfc-tag-types-for-iphones/)里讲过。）
 
 我喜欢把它比作标签的里程表。不管有没有人盯着看，汽车的里程表都在计里程；NFC 计数器也用同样的方式统计读取次数。这个数字始终都在，唯一的问题是有没有什么东西被设置好来把它显示给你看。
 
@@ -55,7 +55,7 @@ ogDescription: "你的 NFC 标签可以自己统计扫描次数。下面讲讲�
 
 **追踪互动。** 把一枚标签贴到电子名片、海报、产品包装盒或橱窗上，计数器就成了一个安静的互动指标。你不必为它搭建分析管道，就能知道一张名片是被轻触过两次还是两百次。
 
-**证明真伪。** 这个计数器只会往上走，无法倒回。一个只能增加的数字很难令人信服地伪造，所以我认为它在限量版商品和防伪验证中很有用武之地。真品标签有一段合情合理、不断攀升的历史，而仿冒品没有。如果你对 NFC 的这一面感兴趣，我在 [NFC 如何保护加密的机密信息](/blog/nfc-safe-encrypted-secrets/)里讲得更深入。
+**证明真伪。** 这个计数器只会往上走，无法倒回。一个只能增加的数字很难令人信服地伪造，所以我认为它在限量版商品和防伪验证中很有用武之地。真品标签有一段合情合理、不断攀升的历史，而仿冒品没有。如果你对 NFC 的这一面感兴趣，我在 [NFC 如何保护加密的机密信息](/zh/blog/nfc-safe-encrypted-secrets/)里讲得更深入。
 
 把其中几点组合起来，你会得到这样的效果：一位手工艺人在某款产品每一批带编号的发行里都放进一枚标签，全部指向同一个落地页。标签 ID 告诉他买家手里拿的是哪一件，计数告诉他这位买家回头了多少次；而因为计数只会上升，二手转卖者无法神不知鬼不觉地把仿品当成原件出手。没有账户，没有数据库，没有月度账单，只有芯片在做它该做的事。这就是我做这个功能想要达到的那种效果。
 
@@ -63,7 +63,7 @@ ogDescription: "你的 NFC 标签可以自己统计扫描次数。下面讲讲�
 
 ## 一步一步设置
 
-这个功能在 NFC.cool Tools 里，iPhone 和 Android 上都有。它属于 Pro（Platinum）订阅，所以写入启用了计数器的标签需要这个订阅。如果你从没写入过标签，我那篇[如何在 iPhone 上写入 NFC 标签](/blog/write-nfc-tags-iphone/)的教程会先带你过一遍基础。
+这个功能在 NFC.cool Tools 里，iPhone 和 Android 上都有。它属于 Pro（Platinum）订阅，所以写入启用了计数器的标签需要这个订阅。如果你从没写入过标签，我那篇[如何在 iPhone 上写入 NFC 标签](/zh/blog/write-nfc-tags-iphone/)的教程会先带你过一遍基础。
 
 1. 打开 NFC.cool Tools，进入 **NFC Tools** 部分，轻触 **NFC Tap Counter**。
 2. 选择标签要传递的内容：**URL**、**Email**、**SMS** 或 **Shortcut**。（Shortcut 仅限 iOS，因为快捷指令是一款 Apple 的 App；URL、Email 和 SMS 在两个平台上都能用。）
@@ -109,7 +109,7 @@ ogDescription: "你的 NFC 标签可以自己统计扫描次数。下面讲讲�
 
 这个功能取决于芯片，所以标签很重要。NFC.cool 的轻触计数器支持 `NTAG213`、`NTAG215` 和 `NTAG216` 芯片。这些是面向手机销售的最常见的 NFC 贴纸，所以很容易买到，但在你大批量购买之前，我还是建议先确认芯片类型。如果你试图使用一枚这个功能不支持的标签，App 会提醒你，而不是写入一些无法工作的东西。我特意做了这一点，因为我见过无声失败有多让人抓狂。
 
-如果你需要备货，我们的[推荐 NFC 标签](/affiliate-links/)页面列出了我们使用并测试过的 `NTAG216` 贴纸。如果你刚开始挑选标签，我那篇[iPhone 适用的不同 NFC 标签类型](/blog/nfc-tag-types-for-iphones/)指南会用通俗的话讲清楚各种取舍。
+如果你需要备货，我们的[推荐 NFC 标签](/zh/affiliate-links/)页面列出了我们使用并测试过的 `NTAG216` 贴纸。如果你刚开始挑选标签，我那篇[iPhone 适用的不同 NFC 标签类型](/zh/blog/nfc-tag-types-for-iphones/)指南会用通俗的话讲清楚各种取舍。
 
 ---
 
@@ -131,6 +131,6 @@ ogDescription: "你的 NFC 标签可以自己统计扫描次数。下面讲讲�
 
 在我跟 NFC 打交道的大多数年头里，统计轻触次数都意味着要用唯一链接外加一个后端来汇总它们。NTAG21x 的计数器悄悄消除了这个要求：标签自己记账，而 NFC.cool Tools 里的 NFC 轻触计数器功能就是把它开启的那个开关。这是那种我一直希望更多人知道它居然能做到的功能之一。
 
-想在写入第一枚标签之前就先看看它怎么工作？我们的[实时轻触计数器演示](/tap-counter/)就是一个完全按本文所述运作的页面：写一枚指向它的标签，轻触一下，页面就会把芯片刚刚交给它的扫描计数和标签 ID 显示给你看。这中间没有服务器参与，只有那个 URL。
+想在写入第一枚标签之前就先看看它怎么工作？我们的[实时轻触计数器演示](/zh/tap-counter/)就是一个完全按本文所述运作的页面：写一枚指向它的标签，轻触一下，页面就会把芯片刚刚交给它的扫描计数和标签 ID 显示给你看。这中间没有服务器参与，只有那个 URL。
 
-它现已在 NFC.cool Tools 中提供，支持 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-en)。想看看我做的整套 NFC 工具，可以看看 [NFC 读取与写入功能](/features/nfc-reader-writer/)。
+它现已在 NFC.cool Tools 中提供，支持 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-zh)。想看看我做的整套 NFC 工具，可以看看 [NFC 读取与写入功能](/zh/features/nfc-reader-writer/)。

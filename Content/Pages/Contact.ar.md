@@ -36,7 +36,7 @@ description: "تواصل مع NFC.cool - دعم عبر البريد الإلكت
 
 <details class="faq-item">
 <summary>هل التطبيقات مجانية؟</summary>
-<p>نعم - كلا التطبيقين مجاني على App Store وGoogle Play، وبلا إعلانات. يمكن فتح بعض سير العمل المتقدمة داخل التطبيقات، لكن كل ميزة أساسية - NFC، وQR، والمستندات، وثلاثي الأبعاد، وبطاقة العمل - مجانية.</p>
+<p>نعم - كلا التطبيقين مجاني على App Store وGoogle Play. يمكن فتح بعض سير العمل المتقدمة داخل التطبيقات، لكن كل ميزة أساسية - NFC، وQR، والمستندات، وثلاثي الأبعاد، وبطاقة العمل - مجانية.</p>
 </details>
 
 <details class="faq-item">
@@ -51,7 +51,7 @@ description: "تواصل مع NFC.cool - دعم عبر البريد الإلكت
 
 <details class="faq-item">
 <summary>هل توجد نسخة لـMac أو iPad أو Apple Watch؟</summary>
-<p>يعمل NFC.cool Tools على iPhone وiPad، وعلى Mac أيضًا - فعلى أجهزة Mac المزوّدة بـApple Silicon يتوفّر كتطبيق iPad متوافق مع Mac (<a href="/blog/nfc-cool-comes-to-mac/">اقرأ عن NFC.cool على Mac</a>). يحتاج المسح ثلاثي الأبعاد ومسح الغرف إلى iPad مزوّد بـLiDAR. لا يوجد تطبيق لـApple Watch. تتوفّر NFC.cool Business Card على iOS وAndroid فقط.</p>
+<p>يعمل NFC.cool Tools على iPhone وiPad، وعلى Mac أيضًا - فعلى أجهزة Mac المزوّدة بـApple Silicon يتوفّر كتطبيق iPad متوافق مع Mac (<a href="/ar/blog/nfc-cool-comes-to-mac/">اقرأ عن NFC.cool على Mac</a>). يحتاج المسح ثلاثي الأبعاد ومسح الغرف إلى iPad مزوّد بـLiDAR. لا يوجد تطبيق لـApple Watch. تتوفّر NFC.cool Business Card على iOS وAndroid فقط.</p>
 </details>
 
 <details class="faq-item">

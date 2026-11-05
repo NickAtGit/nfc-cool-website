@@ -5,7 +5,7 @@ date: 2024-02-16
 tags: ["qr-codes", "industry"]
 summary: "QRコードは醜い黒い四角である必要はありません。NFC.coolのQR Studioを使えば、色を付けたり、ロゴを足したり、真ん中に絵文字を入れたりできます。守るべきルールはひとつだけ - コントラストです。"
 metaTitle: "個性あるQRコードをデザインする - NFC.cool QR Studio"
-metaDescription: "色、ロゴ、絵文字、形でQRコードをカスタマイズ - スキャンを壊さずに。ブランドに合うQRコードを作るための実践ガイド。"
+metaDescription: "色、ロゴ、絵文字、形でQRコードを自分らしくカスタマイズする方法を紹介します。NFC.coolのQR Studioを使い、スキャンできる状態を保ったままブランドに合うコードを作るための実践ガイドです。守るべきコントラストのルールも解説します。"
 ogTitle: "個性あるQRコードをデザインする：スキャンを壊さないカスタマイズ"
 ogDescription: "色、ロゴ、絵文字でQRコードをカスタマイズしながらスキャン可能に。"
 image: "/assets/images/Blog/flair-qr-codes.webp"

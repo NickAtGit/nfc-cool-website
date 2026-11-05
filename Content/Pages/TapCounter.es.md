@@ -118,8 +118,8 @@ Una etiqueta NFC puede contar sus propios escaneos - el número vive en el chip,
 Hay más que conocer sobre el contador de toques NFC - qué chips funcionan, los casos de uso reales y toda la configuración paso a paso.
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">Leer la guía</a>
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Ver la función</a>
+<a href="/es/blog/count-nfc-tag-scans/" class="landing-cta-button">Leer la guía</a>
+<a href="/es/features/nfc-reader-writer/" class="landing-cta-button">Ver la función</a>
 </div>
 
 </section>

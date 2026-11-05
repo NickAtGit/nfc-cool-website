@@ -1,14 +1,15 @@
 ---
 id: nfc-blog-012
-title: "Partilhe o Seu Cartão de Visita Digital Sem Obrigar Ninguém a Descarregar uma App"
+title: "Partilhe o seu cartão de visita digital sem obrigar ninguém a descarregar uma app"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "O seu cartão de visita digital deve funcionar de imediato para quem o recebe, sem descargas, sem atrito. Eis como os App Clips e os perfis web instantâneos tornam isso possível."
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
 imageAlt: "Dois telemóveis a partilhar um cartão de visita digital sem descarregar uma app"
-metaTitle: "Partilhe o Seu Cartão de Visita Digital Sem Obrigar Ninguém a Descarregar uma App"
+metaTitle: "Partilhe o seu cartão de visita digital sem obrigar ninguém a descarregar uma app"
 metaDescription: "Ninguém quer instalar uma app só para ver os seus dados de contacto. Saiba como a NFC.cool usa App Clips no iOS e perfis web instantâneos no Android para uma experiência impecável de quem recebe."
-ogTitle: "Cartões de Visita Digitais Sem Descarregar Apps"
+ogTitle: "Cartões de visita digitais sem descarregar apps"
 ogDescription: "Como os App Clips e os perfis web permitem que qualquer pessoa receba o seu cartão de visita digital de imediato, sem descargas, sem atrito, sem anúncios."
 ---
 Você toca com o seu cartão NFC no telemóvel de alguém, ou essa pessoa lê o seu código QR. O que acontece a seguir determina se ela guarda mesmo o seu contacto ou se simplesmente segue caminho.
@@ -19,7 +20,7 @@ A pergunta que realmente importa é outra: **o que é que experimenta a pessoa q
 
 ---
 
-## O Problema da Experiência de Quem Recebe
+## O problema da experiência de quem recebe
 
 Quando alguém recebe o seu cartão de visita digital, está a pedir-lhe que faça algo ali e naquele momento, normalmente numa conferência, numa reunião ou num evento de networking. Está ocupada. Tem três segundos de atenção.
 
@@ -33,7 +34,7 @@ Quem recebe não escolheu a sua app de cartão de visita. Não a investigou. Ape
 
 ---
 
-## Como a NFC.cool Resolve Isto
+## Como a NFC.cool resolve isto
 
 O NFC.cool Business Card adota duas abordagens diferentes consoante a plataforma de quem recebe, ambas concebidas para funcionar sem qualquer descarga.
 
@@ -43,7 +44,7 @@ O NFC.cool Business Card adota duas abordagens diferentes consoante a plataforma
 </ol>
 </figure>
 
-### No iPhone: Um App Clip Nativo
+### No iPhone: um App Clip nativo
 
 Quando um utilizador de iPhone toca no seu cartão NFC ou lê o seu código QR, o iOS abre um [App Clip](https://developer.apple.com/app-clips/): uma experiência leve e nativa, criada especificamente para momentos como este.
 
@@ -57,11 +58,11 @@ Eis o que acontece:
 4. **Guardar com um toque:** um botão "Guardar Contacto" fica na parte inferior do ecrã, mesmo onde o polegar pousa naturalmente. Um toque guarda tudo na app Contactos da pessoa
 5. **O idioma dela:** o App Clip suporta 35 idiomas e adapta-se automaticamente ao idioma do dispositivo de quem recebe. Entregue o seu cartão a alguém em Tóquio, São Paulo ou Berlim, e essa pessoa vê-o no seu próprio idioma
 
-Sem criação de conta. Sem pedidos de registo. Sem anúncios. Sem URLs de rastreio. Apenas os seus dados de contacto, guardados em segundos.
+Sem conta para criar. Nada para subscrever. Sem anúncios. Sem URLs de rastreio. Apenas os seus dados de contacto, guardados em segundos.
 
 Depois de guardar, quem recebe vê um convite discreto para criar o seu próprio cartão de visita NFC.cool. É só isto, sem insistência agressiva, sem registo obrigatório.
 
-### No Android: Um Perfil Web Instantâneo
+### No Android: um perfil web instantâneo
 
 Quem recebe no Android obtém um perfil web limpo alojado em nfc.cool. Toca no cartão NFC ou lê o código QR, e o perfil abre diretamente no navegador.
 
@@ -69,7 +70,7 @@ A mesma informação (nome, foto, ligações de redes sociais, dados de contacto
 
 ---
 
-## Porque é que a Experiência Nativa Importa
+## Porque é que a experiência nativa importa
 
 A maioria dos serviços de cartão de visita digital usa alguma forma de vista web ou página web para quem recebe, e isso funciona bem em muitos casos. Mas há uma diferença significativa entre uma página web e um App Clip nativo, sobretudo no iOS.
 
@@ -83,22 +84,22 @@ A maioria dos serviços de cartão de visita digital usa alguma forma de vista w
 
 ---
 
-## O Que Quem Recebe Não Vê
+## O que quem recebe não vê
 
 O que torna uma experiência de quem recebe verdadeiramente boa não é só o que lá está, é também o que não está.
 
 Quando alguém recebe o seu cartão de visita NFC.cool:
 
-- **Sem anúncios:** a página de perfil não promove a NFC.cool nem mostra anúncios de terceiros
+- **Sem anúncios:** a página de perfil não mostra anúncios de terceiros. Um cartão Free tem uma pequena linha "Made with NFC.cool" no fundo, e os planos pagos retiram-na
 - **Sem redirecionamentos de rastreio:** as suas ligações são as suas ligações reais, não embrulhadas em URLs de análise
-- **Sem solicitações:** quem recebe não recebe emails de seguimento da NFC.cool a pedir que se registe
-- **Sem recolha de dados:** a informação de quem recebe não é usada para marketing
+- **Sem marketing da NFC.cool:** a NFC.cool não envia marketing a quem vê o seu cartão. No plano Team, a sua equipa pode enviar emails de seguimento às pessoas que deixam os dados no seu formulário de leads
+- **Sem venda de dados:** a NFC.cool não vende os seus dados nem os dados de quem vê o seu cartão
 
 Isto importa mais do que a maioria das pessoas imagina. O seu cartão de visita é, muitas vezes, a primeira impressão que alguém tem de si. Se tocar no seu cartão levar a uma página atravancada de banners ou enviar a quem recebe emails de spam no dia seguinte, isso reflete-se em si, não apenas na app.
 
 ---
 
-## Modo Conferência: Partilhar a Partir do Ecrã de Bloqueio
+## Modo Conferência: partilhar a partir do ecrã de bloqueio
 
 <figure class="phone-figure" data-layout="float">
 <ol>
@@ -114,14 +115,14 @@ Não é preciso desbloquear o telemóvel, abrir a app ou navegar até ao seu car
 
 ---
 
-## Como Começar
+## Como começar
 
 **Enquanto dono do cartão:**
-- Descarregue o NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en))
+- Descarregue o NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-pt&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-pt))
 - Crie o seu cartão com os seus dados, foto e ligações sociais
 - Partilhe via tag NFC, código QR ou ligação direta
 
 **Enquanto quem recebe:**
 - Nada. É esse mesmo o objetivo.
 
-*O NFC.cool Business Card está disponível no iOS e no Android. A funcionalidade App Clip é uma funcionalidade do iOS; quem recebe no Android obtém um perfil web instantâneo em vez disso.*
+*O [NFC.cool Business Card](/pt/business-card/) está disponível no iOS e no Android, e a sua página lista o que cada plano inclui. Quem recebe no iPhone obtém um App Clip nativo, e quem recebe no Android obtém um perfil web instantâneo.*

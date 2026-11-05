@@ -7,7 +7,7 @@ summary: "Sonicareの電動歯ブラシは、すべてのブラシヘッドの�
 image: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
 imageAlt: "スマートフォンでリセットされる電動歯ブラシヘッドのNFCタグ"
 metaTitle: "Philips Sonicareブラシヘッドのカウンター確認・NFCリセット方法（2026年）"
-metaDescription: "SonicareブラシヘッドのNFCチップは、あなたが歯磨きをした時間を記録しています。残りの寿命を確認し、NFC.cool Toolsでカウンターをリセットする方法をご紹介。"
+metaDescription: "SonicareブラシヘッドのNFCチップは、あなたが歯磨きをした時間を記録し、交換時期までカウントダウンしています。実際に何が記録されているのか、残りの寿命の確認方法、NFC.cool Toolsでカウンターをリセットする方法を紹介します。"
 ogTitle: "Sonicareブラシヘッドのカウンターを確認・リセットする方法"
 ogDescription: "すべてのSonicareブラシヘッドにはNFCチップが入っており、交換時期までカウントダウンしています。使用状況を見て、必要ならタイマーをリセットしましょう。"
 ---

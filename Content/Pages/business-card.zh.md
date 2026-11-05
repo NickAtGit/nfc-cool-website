@@ -11,7 +11,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# NFC.cool 电子名片
 
 手机里的电子名片，个人和团队都能用。NFC 轻轻一触或出示二维码就能分享，还能看到有多少人保存了你的名片。
 
@@ -89,7 +89,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## 价格
 
-适合个人，也适合整个团队。每张名片都可以保存为联系人，Free 版也不例外。Personal 和 Pro 增加了线索功能、数据分析和不带我们名称的名片，在 App 内购买。团队版在网页端开通，可免费使用 14 天，之后按人数付费，可选按年或按月。以欧元计价时，团队价格的数字相同。
+适合个人，也适合整个团队。每张名片都可以保存为联系人，Free 版也不例外。Personal 和 Pro 增加了线索功能、数据分析和不带我们名称的名片，在 App 内购买。团队版在网页端开通，可免费使用 14 天，之后按人数付费，可选按年或按月。以欧元计价时，团队价格的数字相同。[查看团队价格及其对比](/zh/business-card/teams/)。
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <article class="page-card">
 <h3>智能电子名片</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>创建电子名片</strong>：打造契合你品牌形象的名片</li>
+<li><strong>电子名片</strong>：打造契合你品牌形象的名片</li>
 <li><strong>Pro 最多 10 张名片</strong>：适配不同身份、品牌或活动</li>
 <li><strong>从通讯录导入</strong>：把任意现有联系人转为名片</li>
 <li><strong>始终保持最新</strong>：编辑即时生效，无需重印</li>
@@ -145,7 +145,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <article class="page-card">
 <h3>隐私与安全</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>PIN 码保护的资料页</strong>：4 位 PIN 码，验证频率受限</li>
+<li><strong>PIN 码保护的资料页</strong>：私密名片使用 4 位 PIN 码</li>
 <li><strong>公开 / 私密切换</strong>：私密名片只有凭 PIN 码才能打开</li>
 <li><strong>符合 GDPR 的数据导出</strong>：随时将全部数据下载为 ZIP 文件</li>
 <li><strong>会话安全</strong>：PIN 会话自动超时</li>
@@ -181,7 +181,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## 团队版新增了什么
 
-个人名片属于一个人。而在团队中，名片属于公司，它们能做的事也因此不同。
+个人名片属于一个人。而在团队中，名片属于公司，它们能做的事也因此不同。进一步了解[团队电子名片](/zh/business-card/teams/)。
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>所有线索，一个收件箱</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>团队收集的每条线索都进入同一个共享收件箱。看清归谁负责、进展如何，分配给合适的人，还能全部导出为电子表格。</p></article>
@@ -249,7 +249,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <details class="faq-item">
 <summary>取消付费方案会怎样？</summary>
-<p>不会删除任何内容，你的名片仍然在线。不再接收新线索。查看者只能把当前方案允许数量内的名片存为联系人，其余名片显示为已锁定。</p>
+<p>不会删除任何内容。在 Personal 或 Pro 上，你的名片仍然在线：不再接收新线索，查看者只能把当前方案允许数量内的名片存为联系人，其余名片显示为已锁定。在团队中，订阅结束后，团队的名片会显示“暂时不可用”页面，直到你重新订阅，届时一切都会恢复。</p>
 </details>
 
 </div>

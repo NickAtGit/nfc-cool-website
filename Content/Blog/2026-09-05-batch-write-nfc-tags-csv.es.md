@@ -24,7 +24,7 @@ Aquí va el proceso completo, desde la hoja de cálculo hasta la última etiquet
 
 Le das a la app un archivo CSV y cada fila se convierte en una etiqueta. La app te enseña una vista previa de lo que irá en cada una, pulsas Empezar a escribir y vas acercando una etiqueta tras otra al móvil. Cada fila escrita se elimina del archivo, así que la lista que ves en pantalla es siempre lo que queda por hacer. Puedes parar en cualquier momento y seguir más tarde, incluso días después.
 
-Si nunca has escrito una etiqueta NFC, empieza por mi [guía para escribir etiquetas NFC con el iPhone](/blog/write-nfc-tags-iphone/). Este artículo va de escribir muchas.
+Si nunca has escrito una etiqueta NFC, empieza por mi [guía para escribir etiquetas NFC con el iPhone](/es/blog/write-nfc-tags-iphone/). Este artículo va de escribir muchas.
 
 ---
 
@@ -120,7 +120,7 @@ En NFC.cool Tools, abre la pantalla de herramientas NFC y busca **Escritura por 
 
 La app hace su propia copia del archivo. A medida que escribes etiquetas, las filas se van eliminando de esa copia. Tu hoja de cálculo original en el ordenador se queda como está, así que siempre conservas la lista completa.
 
-Una vez elegido el archivo, la app muestra lo que ha detectado: el delimitador, el número de columnas, el modo de agrupación y cuántas etiquetas vas a necesitar. El número que yo compruebo siempre es **Bytes por etiqueta NFC**, el tamaño del mensaje más grande del lote. Compáralo con tus etiquetas. Una NTAG213 tiene capacidad para 144 bytes, una NTAG215 para 504 y una NTAG216 para 888. Un enlace corto ronda los 50 bytes, así que para enlaces sirven las etiquetas más baratas. Un registro de Wi-Fi o una tarjeta de contacto larga necesita una 215 o una 216. Si no estás seguro de qué chip tienes, échale un vistazo a mi [guía sobre los tipos de etiquetas NFC](/blog/nfc-tag-types-for-iphones/).
+Una vez elegido el archivo, la app muestra lo que ha detectado: el delimitador, el número de columnas, el modo de agrupación y cuántas etiquetas vas a necesitar. El número que yo compruebo siempre es **Bytes por etiqueta NFC**, el tamaño del mensaje más grande del lote. Compáralo con tus etiquetas. Una NTAG213 tiene capacidad para 144 bytes, una NTAG215 para 504 y una NTAG216 para 888. Un enlace corto ronda los 50 bytes, así que para enlaces sirven las etiquetas más baratas. Un registro de Wi-Fi o una tarjeta de contacto larga necesita una 215 o una 216. Si no estás seguro de qué chip tienes, échale un vistazo a mi [guía sobre los tipos de etiquetas NFC](/es/blog/nfc-tag-types-for-iphones/).
 
 Abre **Vista previa de lotes** para ver cada etiqueta con los registros que va a recibir. Lo que ves ahí es exactamente lo que se va a escribir.
 

@@ -13,7 +13,7 @@ ogTitle: "Mem-parsing data NFC Tap Counter dengan iOS Shortcuts"
 ogDescription: "Shortcut iOS siap pakai untuk NFC Tap Counter: parser yang bisa digunakan ulang dan demo peringatan tag."
 ---
 
-Seminggu lalu saya [menjelaskan cara kerja NFC Tap Counter](/blog/count-nfc-tag-scans/): chip menghitung pemindaiannya sendiri, aplikasi menyematkan byte placeholder, dan tag mengganti jumlah terkini beserta ID tag ke dalam konten yang dibawa pada setiap ketukan. Tulisan itu berhenti di mana tag berhenti, yaitu pada saat nilai-nilai tersebut tiba di ponsel Anda.
+Seminggu lalu saya [menjelaskan cara kerja NFC Tap Counter](/id/blog/count-nfc-tag-scans/): chip menghitung pemindaiannya sendiri, aplikasi menyematkan byte placeholder, dan tag mengganti jumlah terkini beserta ID tag ke dalam konten yang dibawa pada setiap ketukan. Tulisan itu berhenti di mana tag berhenti, yaitu pada saat nilai-nilai tersebut tiba di ponsel Anda.
 
 Pertanyaan yang terus saya terima sejak itu adalah pertanyaan lanjutan yang paling jelas: "oke, tag memberikan saya `049F50824F1390x000007` - lalu apa?" Jika Anda menggunakan iPhone dan ingin menggunakan nilai-nilai tersebut di dalam Shortcut, Anda harus mem-parsingnya. Itu adalah pekerjaan string kecil namun agak rumit, dan saya lebih memilih Anda tidak perlu menulisnya sendiri.
 
@@ -34,12 +34,12 @@ Sebelum shortcut: penyegaran singkat tentang apa yang sebenarnya diterima, karen
 
 Di layar pengaturan Tap Counter, Anda memilih jenis konten untuk tag: URL, Email, SMS, atau Shortcut. Ketika Anda mengaktifkan tombol Tap Counter dan/atau Tag ID, aplikasi menyematkan byte placeholder ke dalam konten yang Anda tulis, dan chip menggantinya dengan nilai terkini pada setiap pembacaan. Menggunakan `049F50824F1390` sebagai ID tag dan `000007` sebagai jumlah, keempat jenis konten akan terlihat seperti ini:
 
-- **URL:** `https://nfc.cool/tap-counter/` menjadi [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007)
+- **URL:** `https://nfc.cool/tap-counter/` menjadi [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/id/tap-counter/?nfc=049F50824F1390x000007)
 - **Isi email:** `Hi, here's my card.` menjadi `Hi, here's my card. 049F50824F1390x000007`
 - **Isi SMS:** `Order confirmed!` menjadi `Order confirmed! 049F50824F1390x000007`
 - **Input Shortcut:** `log-entry` menjadi `log-entry 049F50824F1390x000007`
 
-URL di atas adalah URL yang nyata. [Halaman demo penghitung ketukan](/tap-counter/) kami dikonfigurasi untuk membaca nilai `?nfc=` langsung dari bilah alamatnya sendiri, jadi jika Anda ingin melihat substitusi terjadi sebelum membuat otomasi sendiri, tulislah sebuah tag yang mengarah ke `https://nfc.cool/tap-counter/` dengan kedua tombol aktif, tempelkan, dan halaman akan menampilkan ID tag serta jumlah yang baru saja diterimanya.
+URL di atas adalah URL yang nyata. [Halaman demo penghitung ketukan](/id/tap-counter/) kami dikonfigurasi untuk membaca nilai `?nfc=` langsung dari bilah alamatnya sendiri, jadi jika Anda ingin melihat substitusi terjadi sebelum membuat otomasi sendiri, tulislah sebuah tag yang mengarah ke `https://nfc.cool/tap-counter/` dengan kedua tombol aktif, tempelkan, dan halaman akan menampilkan ID tag serta jumlah yang baru saja diterimanya.
 
 Ketika jenis konten adalah **Shortcut**, NFC.cool menjalankan shortcut yang dipilih melalui `shortcuts://run-shortcut?name=Your%20Shortcut&input=text&text=<payload>`, dengan nilai NFC yang sudah ditambahkan di dalam teks. Input shortcut Anda adalah string teks biasa. Satu-satunya tugas Anda adalah mengekstrak kembali ID tag dan jumlah dari sana.
 
@@ -118,7 +118,7 @@ Beberapa hal kecil yang dibuka oleh parser, ditulis agar Anda tidak perlu menemu
 
 - **Percabangan berdasarkan ID tag.** Satu shortcut, banyak tag. Tambahkan aksi **If** per ID tag yang dikenal: jika tag pintu kantor dipindai, matikan notifikasi; jika tag studio dipindai, atur mode fokus; jika tag dapur dipindai, mulai timer. ID tag mengidentifikasi tag fisik, bukan konten, sehingga Anda dapat memberikan setiap tag URL yang sama dan tetap merespons masing-masing secara individual.
 - **Pilih pemenang pada pemindaian ke-N.** Gabungkan `hasCount` dengan perbandingan. Jika `count` sama dengan 100, kirimkan pesan konfirmasi; untuk setiap pemindaian lainnya, lakukan penanganan biasa. Chip menegakkan urutan; shortcut Anda tinggal membacanya.
-- **Kirim ke webhook.** Padukan ini dengan fitur [Webhooks](/features/webhooks/) NFC.cool jika Anda ingin penanganan sisi server tanpa menulis aplikasi iOS: kirimkan nilai yang sudah di-parsing sebagai JSON, biarkan server yang menangani selanjutnya. Dua aksi iOS dan tag Anda terhubung ke apa pun yang berbicara HTTP.
+- **Kirim ke webhook.** Padukan ini dengan fitur [Webhooks](/id/features/webhooks/) NFC.cool jika Anda ingin penanganan sisi server tanpa menulis aplikasi iOS: kirimkan nilai yang sudah di-parsing sebagai JSON, biarkan server yang menangani selanjutnya. Dua aksi iOS dan tag Anda terhubung ke apa pun yang berbicara HTTP.
 - **Catat ke file atau Catatan.** Yang paling sederhana dan mengejutkan berguna. Tambahkan `timestamp, tagID, count` ke file yang berjalan di iCloud Drive atau satu Catatan, dan Anda memiliki log ketukan yang bisa Anda gulir atau grafikan nanti. Bagus untuk melacak keterlibatan pada satu tag tanpa membangun infrastruktur.
 
 Jika Anda membangun sesuatu yang keren dengan ini, saya benar-benar ingin melihatnya.
@@ -139,6 +139,6 @@ Shortcuts adalah aplikasi Apple, jadi keduanya hanya berjalan di iPhone. Namun f
 
 ## Coba sekarang
 
-Jika Anda menginginkan penjelasan mendalam tentang cara kerja fitur Tap Counter sesungguhnya di balik layar, itu ada di [tulisan sebelumnya](/blog/count-nfc-tag-scans/). Dan jika Anda ingin melihat tag yang diaktifkan counter beraksi tanpa menyiapkan otomasi Anda sendiri terlebih dahulu, halaman [demo tap counter langsung](/tap-counter/) kami membaca nilai `?nfc=` langsung dari URL-nya sendiri: tulislah tag yang mengarah ke sana, tempelkan, lihat jumlah dan ID tag muncul.
+Jika Anda menginginkan penjelasan mendalam tentang cara kerja fitur Tap Counter sesungguhnya di balik layar, itu ada di [tulisan sebelumnya](/id/blog/count-nfc-tag-scans/). Dan jika Anda ingin melihat tag yang diaktifkan counter beraksi tanpa menyiapkan otomasi Anda sendiri terlebih dahulu, halaman [demo tap counter langsung](/id/tap-counter/) kami membaca nilai `?nfc=` langsung dari URL-nya sendiri: tulislah tag yang mengarah ke sana, tempelkan, lihat jumlah dan ID tag muncul.
 
-Fitur NFC Tap Counter itu sendiri ada di NFC.cool Tools, di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-en). Untuk rangkaian lengkap alat yang telah saya bangun seputar NFC, lihat [fitur pembaca dan penulis NFC](/features/nfc-reader-writer/).
+Fitur NFC Tap Counter itu sendiri ada di NFC.cool Tools, di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-en). Untuk rangkaian lengkap alat yang telah saya bangun seputar NFC, lihat [fitur pembaca dan penulis NFC](/id/features/nfc-reader-writer/).

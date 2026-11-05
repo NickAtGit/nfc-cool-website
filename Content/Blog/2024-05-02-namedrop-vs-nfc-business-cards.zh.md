@@ -4,7 +4,7 @@ title: "NameDrop 对比 NFC 电子名片：为什么跨平台依然胜出"
 date: "2024-05-02"
 tags: ["business-cards", "iphone", "networking"]
 summary: "NameDrop 很漂亮，但它仅限 iOS。为什么对于正经社交而言，NFC 电子名片依然是跨平台的赢家。"
-metaDescription: "NameDrop 很美，但只能在 iPhone 之间使用。这就是 NFC 名片在正式社交中依然更胜一筹的原因 - 它还能触达 Android、网页和其他所有人。"
+metaDescription: "NameDrop 很美，但只能在 iPhone 之间使用。一旦对方拿的是 Android 手机，那段漂亮的动画就没了用武之地。这就是 NFC 电子名片在正式社交场合依然更胜一筹的原因：轻触或扫码就能打开，不管对方用什么手机、有没有装 App。"
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/namedrop.webp"
 imageAlt: "两部 iPhone 在一张 NFC 电子名片旁交换联系信息"
@@ -28,4 +28,4 @@ NFC 电子名片不在乎对方的手机是什么。它运行在开放的 NFC �
 
 这就是我至今仍围绕 NFC 而非 NameDrop 来构建产品的那个并不光鲜的理由。NameDrop 为最理想的情况做了优化：两位 iPhone 用户，都开启了该功能，也都知道那个手势。NFC 则为活动现场真正会发生的情况做了优化：两个人、两部手机，对彼此都没有任何共同假设。NameDrop 是更好的演示。NFC 是更好的名片。
 
-想要一张？在 iPhone 上 [获取 NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-en&mt=8)，或者[在 Android 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-en)。
+想要一张？[NFC.cool Business Card](/zh/business-card/) 就是我为那一刻做的电子名片。[在 iPhone 上获取](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-zh&mt=8)，或者[在 Android 上获取](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-zh)。

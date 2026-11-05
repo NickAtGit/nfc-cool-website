@@ -15,7 +15,7 @@ Kebanyakan orang tahu iPhone mereka bisa *membaca* tag NFC - ketuk untuk membaya
 
 Saya telah menghabiskan bertahun-tahun membangun NFC.cool, sebuah aplikasi untuk membaca dan menulis tag NFC, dan menulis adalah bagian yang tidak pernah saya bosan. Ingin tag di meja samping tempat tidur yang membisukan ponsel Anda dan mengatur alarm? Tag di meja Anda yang membuka playlist kerja? Tag di depan pintu yang berbagi kata sandi Wi-Fi dengan tamu? iPhone Anda bisa memprogram semua ini, dan begitu Anda melakukannya sekali, Anda akan bertanya-tanya kenapa Anda menunggu.
 
-Ini adalah panduan yang akan saya berikan kepada teman yang baru saja membeli paket tag pertama mereka: apa yang Anda butuhkan, cara menulis berbagai jenis data, dan proyek praktis yang benar-benar akan saya siapkan dalam hitungan menit. Jika Anda benar-benar baru mengenal teknologi ini, [panduan lengkap pemula tentang tag NFC](/blog/nfc-tags-beginners-guide/) saya membahas dasarnya terlebih dahulu.
+Ini adalah panduan yang akan saya berikan kepada teman yang baru saja membeli paket tag pertama mereka: apa yang Anda butuhkan, cara menulis berbagai jenis data, dan proyek praktis yang benar-benar akan saya siapkan dalam hitungan menit. Jika Anda benar-benar baru mengenal teknologi ini, [panduan lengkap pemula tentang tag NFC](/id/blog/nfc-tags-beginners-guide/) saya membahas dasarnya terlebih dahulu.
 
 ---
 
@@ -27,11 +27,11 @@ Anda hanya membutuhkan tiga hal untuk mulai menulis, dan tidak ada yang mahal.
 
 Penulisan tag NFC memerlukan **iPhone 7 atau lebih baru** yang menjalankan **iOS 13 atau lebih baru**. Jika Anda membeli iPhone dalam delapan tahun terakhir, Anda sudah tercakup.
 
-Untuk pengalaman terbaik, saya akan memilih iPhone dengan **pembacaan NFC latar belakang** (iPhone XS dan lebih baru). Model-model ini dapat membaca tag NFC tanpa terlebih dahulu membuka aplikasi, yang membuat tag yang Anda tulis jauh lebih menyenangkan untuk digunakan. Jika Anda ingin mengetahui secara tepat bagaimana perangkat keras iPhone menangani semua ini, saya membahasnya secara mendalam di [panduan orang dalam tentang NFC di iPhone](/blog/nfc-on-iphones-insider-look/).
+Untuk pengalaman terbaik, saya akan memilih iPhone dengan **pembacaan NFC latar belakang** (iPhone XS dan lebih baru). Model-model ini dapat membaca tag NFC tanpa terlebih dahulu membuka aplikasi, yang membuat tag yang Anda tulis jauh lebih menyenangkan untuk digunakan. Jika Anda ingin mengetahui secara tepat bagaimana perangkat keras iPhone menangani semua ini, saya membahasnya secara mendalam di [panduan orang dalam tentang NFC di iPhone](/id/blog/nfc-on-iphones-insider-look/).
 
 ### 2. Tag NFC kosong
 
-Anda bisa [membeli tag NFC kosong](/affiliate-links/) secara online seharga **€0,30-€1,00 per buah**. Tag tersedia dalam beberapa bentuk:
+Anda bisa [membeli tag NFC kosong](/id/affiliate-links/) secara online seharga **€0,30-€1,00 per buah**. Tag tersedia dalam beberapa bentuk:
 
 | Bentuk | Terbaik untuk |
 |--------|---------------|
@@ -49,13 +49,13 @@ Jika Anda meminta saya memilih satu, untuk sebagian besar proyek **NTAG216** ada
 - **NTAG215** (504 byte) - Cukup untuk kartu kontak, kredensial Wi-Fi, dan beberapa rekaman.
 - **NTAG216** (888 byte) - Pilihan terbaik secara keseluruhan. Ruang paling besar untuk kartu kontak, kredensial Wi-Fi, dan konten lebih panjang seperti vCard terperinci - yang saya rekomendasikan untuk sebagian besar proyek.
 
-Jika Anda tidak yakin, mulailah dengan paket campuran stiker NTAG216 dan jangan terlalu banyak berpikir - tag ini menangani 90% kasus penggunaan. Untuk panduan lengkap chip per chip, termasuk jenis mana yang benar-benar disukai iPhone, saya menulis [panduan tentang jenis tag NFC untuk iPhone](/blog/nfc-tag-types-for-iphones/).
+Jika Anda tidak yakin, mulailah dengan paket campuran stiker NTAG216 dan jangan terlalu banyak berpikir - tag ini menangani 90% kasus penggunaan. Untuk panduan lengkap chip per chip, termasuk jenis mana yang benar-benar disukai iPhone, saya menulis [panduan tentang jenis tag NFC untuk iPhone](/id/blog/nfc-tag-types-for-iphones/).
 
 ### 3. Aplikasi penulisan NFC
 
 iPhone Anda membutuhkan aplikasi untuk menulis data ke tag. Dukungan NFC bawaan Apple menangani pembacaan, tetapi untuk penulisan, Anda membutuhkan aplikasi khusus.
 
-Ini adalah bagian yang telah saya kerjakan bertahun-tahun, jadi saya akan terus terang tentang bias saya: **[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** dirancang khusus untuk ini, baik di iPhone maupun [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en). Aplikasi ini mendukung penulisan semua jenis rekaman NDEF standar - URL, teks, konfigurasi Wi-Fi, kontak, dan lainnya - dengan antarmuka bersih yang menunjukkan persis berapa banyak memori tag yang Anda gunakan. Aplikasi ini juga memungkinkan Anda mengunci tag, membaca detail teknis, dan mengotomatiskan penulisan melalui iOS Shortcuts. Anda bisa melihat daftar fitur lengkap di [halaman pembaca dan penulis NFC](/features/nfc-reader-writer/).
+Ini adalah bagian yang telah saya kerjakan bertahun-tahun, jadi saya akan terus terang tentang bias saya: **[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** dirancang khusus untuk ini, baik di iPhone maupun [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en). Aplikasi ini mendukung penulisan semua jenis rekaman NDEF standar - URL, teks, konfigurasi Wi-Fi, kontak, dan lainnya - dengan antarmuka bersih yang menunjukkan persis berapa banyak memori tag yang Anda gunakan. Aplikasi ini juga memungkinkan Anda mengunci tag, membaca detail teknis, dan mengotomatiskan penulisan melalui iOS Shortcuts. Anda bisa melihat daftar fitur lengkap di [halaman pembaca dan penulis NFC](/id/features/nfc-reader-writer/).
 
 Opsi lain ada (seperti aplikasi Shortcuts Apple untuk penulisan URL dasar), tetapi aplikasi NFC khusus memberi Anda lebih banyak kontrol atas apa yang Anda tulis dan bagaimana caranya.
 
@@ -76,7 +76,7 @@ Saya akan memulai dari mana saya selalu memulai semua orang: menulis URL ke tag.
 
 Hanya itu. Siapa pun yang mengetuk tag itu dengan ponsel mereka sekarang akan dibawa ke URL Anda - tidak perlu aplikasi, tidak perlu memindai kode QR. Pertama kali saya melihat ekspresi wajah kolega saya ketika sebuah stiker kosong membuka situs web, saya tahu inilah demo yang harus didahulukan.
 
-**Tips:** Antena NFC di iPhone terletak di **tepi atas** ponsel, dekat kamera. Untuk koneksi terkuat, dekatkan bagian atas iPhone Anda langsung di atas tag. Jika Anda ingin memeriksa kembali apa yang Anda tulis tanpa aplikasi, Anda bisa [membaca tag NFC langsung dari browser Anda](/online-nfc-reader/) di Android.
+**Tips:** Antena NFC di iPhone terletak di **tepi atas** ponsel, dekat kamera. Untuk koneksi terkuat, dekatkan bagian atas iPhone Anda langsung di atas tag. Jika Anda ingin memeriksa kembali apa yang Anda tulis tanpa aplikasi, Anda bisa [membaca tag NFC langsung dari browser Anda](/id/online-nfc-reader/) di Android.
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>Menulis tag pertama Anda</figcaption>
@@ -135,7 +135,7 @@ Ini pada dasarnya adalah apa yang dilakukan kartu nama digital, tetapi langsung 
 
 **Memori yang dibutuhkan:** ~100-400 byte tergantung berapa banyak bidang yang Anda sertakan. Gunakan NTAG215 atau NTAG216 untuk kontak dengan alamat dan catatan.
 
-Satu peringatan jujur dari email dukungan yang saya baca: vCard mentah di tag bisa berperilaku tidak konsisten di iPhone. Jika vCard Anda tidak terbuka dengan bersih, saya menggali penyebabnya di [mengapa tag NFC vCard Anda tidak berfungsi di iPhone](/blog/vcard-nfc-iphone-not-working/).
+Satu peringatan jujur dari email dukungan yang saya baca: vCard mentah di tag bisa berperilaku tidak konsisten di iPhone. Jika vCard Anda tidak terbuka dengan bersih, saya menggali penyebabnya di [mengapa tag NFC vCard Anda tidak berfungsi di iPhone](/id/blog/vcard-nfc-iphone-not-working/).
 
 **Catatan:** Untuk pengalaman yang lebih kaya dengan foto, tautan sosial, dan analitik, lihat **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** - ini membuat profil kartu nama digital yang dihosting dan dapat menulis tautannya ke tag NFC mana pun. Ketika seseorang mengetuk, pengguna iOS melihat App Clip native dan pengguna Android membuka situs web di domain nfc.cool - tidak perlu aplikasi. Dalam networking saya sendiri, saya menemukan ini jauh lebih andal daripada vCard mentah.
 
@@ -338,7 +338,7 @@ Tidak. Tag NFC bersifat **pasif** - tidak memiliki baterai dan mengambil daya da
 
 ### Bisakah saya melindungi tag NFC dengan kata sandi?
 
-Ya. NFC.cool Tools dapat mengatur perlindungan kata sandi pada tag NTAG, baik di iPhone maupun Android. Perhatikan bahwa ini hanya mencegah tag dari **ditimpa** - ini tidak menghentikan siapa pun dari **membaca** apa yang sudah ada di tag. Jika Anda membutuhkan konten itu sendiri tidak dapat dibaca tanpa kunci, Anda menginginkan data terenkripsi - lihat panduan kami tentang [NFC Safe](/blog/nfc-safe-encrypted-secrets/). Mengunci tag adalah opsi lain: ini secara permanen memblokir penulisan lebih lanjut.
+Ya. NFC.cool Tools dapat mengatur perlindungan kata sandi pada tag NTAG, baik di iPhone maupun Android. Perhatikan bahwa ini hanya mencegah tag dari **ditimpa** - ini tidak menghentikan siapa pun dari **membaca** apa yang sudah ada di tag. Jika Anda membutuhkan konten itu sendiri tidak dapat dibaca tanpa kunci, Anda menginginkan data terenkripsi - lihat panduan kami tentang [NFC Safe](/id/blog/nfc-safe-encrypted-secrets/). Mengunci tag adalah opsi lain: ini secara permanen memblokir penulisan lebih lanjut.
 
 ### Apakah tag NFC berfungsi melalui casing ponsel?
 

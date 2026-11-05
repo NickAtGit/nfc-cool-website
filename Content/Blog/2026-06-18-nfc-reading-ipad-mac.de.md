@@ -20,7 +20,7 @@ Dort kam ich mit [Alexander Manzer](https://www.linkedin.com/in/alexander-manzer
 
 ## Ich hatte gesagt, das geht nicht
 
-Im Mai, [als NFC.cool auf den Mac kam](/blog/nfc-cool-comes-to-mac/), habe ich einen ganzen Abschnitt darüber geschrieben, was der Mac nicht kann, und NFC-Scannen stand ganz oben auf der Liste. Meine Begründung war simpel: Im Mac steckt kein NFC-Funkmodul, im iPad auch nicht, und an so einer Hardware-Grenze ändert kein Software-Update von mir etwas.
+Im Mai, [als NFC.cool auf den Mac kam](/de/blog/nfc-cool-comes-to-mac/), habe ich einen ganzen Abschnitt darüber geschrieben, was der Mac nicht kann, und NFC-Scannen stand ganz oben auf der Liste. Meine Begründung war simpel: Im Mac steckt kein NFC-Funkmodul, im iPad auch nicht, und an so einer Hardware-Grenze ändert kein Software-Update von mir etwas.
 
 Das stimmt auch weiterhin, zumindest für den Chip, der im Gerät verbaut ist. Was ich übersehen hatte: Auf den eingebauten Chip bist du gar nicht angewiesen. Du kannst einfach einen anstecken.
 
@@ -55,7 +55,7 @@ Das sind alle Reader, von denen ich bisher weiß, dass sie mit NFC.cool laufen:
 - **ACS ACR1552U-M1** - von einem Nutzer als funktionierend gemeldet ([Amazon](https://amzn.to/4xZVEwe))
 - **ACS ACR1255U-J1** - von einem Nutzer als funktionierend gemeldet ([Amazon](https://amzn.to/4xZVEwe))
 
-Danke an alle, die mir geschrieben haben. Ich kann nicht jeden Reader auf dem Markt kaufen, jedes Modell nach dem ersten steht also nur deshalb hier, weil jemand es gekauft, ausprobiert und sich die Zeit genommen hat, mir Bescheid zu sagen. Wenn du einen Reader benutzt, der hier fehlt: [Schreib mir](/contact/), ob er funktioniert hat oder wo es gehakt hat, und ich nehme ihn in diesen Beitrag auf.
+Danke an alle, die mir geschrieben haben. Ich kann nicht jeden Reader auf dem Markt kaufen, jedes Modell nach dem ersten steht also nur deshalb hier, weil jemand es gekauft, ausprobiert und sich die Zeit genommen hat, mir Bescheid zu sagen. Wenn du einen Reader benutzt, der hier fehlt: [Schreib mir](/de/contact/), ob er funktioniert hat oder wo es gehakt hat, und ich nehme ihn in diesen Beitrag auf.
 
 Das sind Amazon-Affiliate-Links: Kaufst du darüber, bekomme ich unter Umständen eine kleine Provision, für dich ändert sich am Preis nichts.
 
@@ -69,7 +69,7 @@ Das sind Amazon-Affiliate-Links: Kaufst du darüber, bekomme ich unter Umstände
 </ol>
 </figure>
 
-Fast alles, was du auch auf dem iPhone machen würdest. Tags lesen und den kompletten Speicher auslesen, NDEF-Nachrichten schreiben, Batch-Jobs, die einen ganzen Stapel Tags nacheinander lesen oder beschreiben. Tags mit Passwort schützen geht. [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), das Format für Filamentspulen im 3D-Druck, geht in beide Richtungen. Und ja, auch der [Reset von Philips-Sonicare-Bürstenköpfen](/blog/reset-sonicare-brush-head-nfc/) läuft.
+Fast alles, was du auch auf dem iPhone machen würdest. Tags lesen und den kompletten Speicher auslesen, NDEF-Nachrichten schreiben, Batch-Jobs, die einen ganzen Stapel Tags nacheinander lesen oder beschreiben. Tags mit Passwort schützen geht. [OpenPrintTag](/de/blog/openprinttag-read-write-nfc-spools-phone/), das Format für Filamentspulen im 3D-Druck, geht in beide Richtungen. Und ja, auch der [Reset von Philips-Sonicare-Bürstenköpfen](/de/blog/reset-sonicare-brush-head-nfc/) läuft.
 
 Der Sonicare-Reset war der schwierigste Brocken. Beim Zurücksetzen eines Bürstenkopfs liest man einen Zähler vom Tag und schreibt anschließend auf eine passwortgeschützte Seite zurück. Diesen Schreibvorgang lässt das Tag aber nur zu, wenn du für das Tag vom Moment davor noch als authentifiziert giltst. Mit einem externen Reader heißt das: Die Verbindung zum Reader muss über beide Schritte hinweg als eine einzige Sitzung offen bleiben, statt zwischendurch geschlossen zu werden. Als das stand, verhielten sich auf einmal alle Operationen, die darauf aufbauen, genau wie auf dem iPhone: geschützte Schreibvorgänge und eben der Bürstenkopf-Reset.
 

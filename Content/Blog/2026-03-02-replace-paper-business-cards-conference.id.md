@@ -2,6 +2,7 @@
 id: nfc-blog-007
 title: "Cara menggantikan kartu nama kertas di konferensi berikutnya"
 date: 2026-03-02
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking"]
 summary: "Konferensi adalah tempat kartu nama kertas paling sering gagal. Berikut rencana langkah demi langkah untuk beralih sepenuhnya ke digital - sebelum, selama, dan setelah acara berikutnya - sehingga Anda tidak pernah lagi kelabakan mencari kartu nama."
 image: "/assets/images/Blog/replace-paper-business-cards-conference.webp"
@@ -69,7 +70,7 @@ Jika Anda belum punya, carilah fitur-fitur khusus konferensi ini:
 - **Tidak perlu aplikasi bagi penerima** - Orang yang Anda temui tidak perlu mengunduh apa pun. Jika kartu Anda mengharuskan orang lain menginstal aplikasi sebelum bisa melihat info Anda, Anda sudah kehilangan mereka.
 - **Dukungan multibahasa** - Untuk konferensi internasional, memiliki kartu dalam bahasa penerima adalah nilai lebih yang nyata.
 
-[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) mencakup semua ini - berbagi via NFC + kode QR + tautan, beberapa profil kartu, tidak perlu aplikasi bagi penerima (App Clip di iOS, situs web di Android), dan antarmuka aplikasi serta App Clip mendukung 35 bahasa. Ini yang saya rekomendasikan, tetapi apa pun pilihan Anda, pastikan memenuhi kriteria tersebut.
+[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-id&mt=8) mencakup semua ini - berbagi via NFC + kode QR + tautan, hingga 10 kartu di Pro atau hingga 10 per orang dalam tim, tidak perlu aplikasi bagi penerima (App Clip di iOS, situs web di Android), dan antarmuka aplikasi serta App Clip mendukung 35 bahasa. Ini yang saya rekomendasikan, tetapi apa pun pilihan Anda, pastikan memenuhi kriteria tersebut.
 
 #### Buat kartu khusus acara (atau perbarui yang sudah ada)
 
@@ -92,7 +93,7 @@ Ini opsional tetapi memberikan kesan yang kuat:
 
 #### Tampilkan kode QR Anda di layar kunci (iOS)
 
-Conference Mode di NFC.cool Business Card menyematkan kode QR kartu Anda langsung di layar kunci sepanjang hari acara - di iPhone berjalan sebagai Live Activity, dan Android memiliki mode yang sama. Ini adalah metode berbagi tercepat di konferensi:
+Mode Konferensi di NFC.cool Business Card menyematkan kode QR kartu Anda langsung di layar kunci sepanjang hari acara - di iPhone berjalan sebagai Live Activity, dan Android memiliki mode yang sama. Ini adalah metode berbagi tercepat di konferensi:
 
 - Kode QR Anda selalu terlihat - tidak perlu membuka kunci, tidak perlu membuka aplikasi apa pun
 - Orang cukup memindai layar Anda saat berbicara dengan Anda
@@ -136,7 +137,7 @@ Konferensi kini bukan hanya soal lantai pameran. Ada saluran Slack, grup WhatsAp
 
 #### Terus lacak saat berjalan
 
-Salah satu keunggulan terbesar atas kertas: Anda dapat melihat siapa yang melihat kartu Anda dan kapan. Setelah percakapan yang sangat baik, buat catatan cepat di ponsel Anda: "Sarah - VP Marketing di Acme - diskusi kemitraan proyek keberlanjutan." Saat Anda menindaklanjuti nanti, Anda akan memiliki konteks yang tidak pernah diberikan kartu nama kertas.
+Salah satu keunggulan terbesar atas kertas: di paket berbayar, Anda dapat melihat berapa banyak orang yang melihat dan menyimpan kartu Anda, hari demi hari. Setelah percakapan yang sangat baik, buat catatan cepat di ponsel Anda: "Sarah - VP Marketing di Acme - diskusi kemitraan proyek keberlanjutan." Saat Anda menindaklanjuti nanti, Anda akan memiliki konteks yang tidak pernah diberikan kartu nama kertas.
 
 ### Fase 3: Setelah konferensi
 
@@ -154,13 +155,13 @@ Karena kartu digital Anda menyertakan foto Anda, mereka benar-benar akan menging
 
 #### Tinjau analitik berbagi Anda
 
-Banyak platform kartu digital menunjukkan siapa yang membuka kartu Anda dan kapan (NFC.cool menyediakannya di iPhone maupun Android). Ini memberi tahu Anda:
+Paket berbayar NFC.cool menunjukkan berapa banyak orang yang melihat dan menyimpan kartu Anda, serta berapa banyak yang mengetuk setiap tautan, baik di iPhone maupun Android. Ini memberi tahu Anda:
 
-- Siapa yang cukup tertarik untuk benar-benar melihat profil Anda (bukan hanya memasukkan kartu Anda ke saku dengan sopan)
-- Kapan mereka melihat - seseorang yang meninjau kartu Anda tiga hari setelah konferensi adalah prospek hangat
-- Apa yang mereka klik - portofolio Anda? LinkedIn Anda? Tautan pemesanan Anda?
+- Berapa banyak orang yang benar-benar melihat kartu Anda (bukan hanya memasukkannya ke saku dengan sopan)
+- Kapan mereka melihat - tayangan tiga hari setelah konferensi berarti orang masih memikirkan Anda
+- Tautan mana yang diketuk - portofolio Anda? LinkedIn Anda? Tautan pemesanan Anda?
 
-Data ini adalah harta karun konferensi. Data ini memberi tahu Anda siapa yang harus diprioritaskan dalam tindak lanjut Anda.
+Ini adalah jumlah, bukan nama, jadi tidak ada yang diawasi. Angka-angka ini memberi tahu Anda acara mana yang membuahkan hasil. Untuk nama, aktifkan perolehan prospek, dan orang yang ingin mendengar kabar dari Anda bisa meninggalkan datanya.
 
 #### Perbarui kartu Anda untuk lain kali
 
@@ -182,14 +183,14 @@ Dan jika seseorang benar-benar bersikeras pada kertas, Anda selalu bisa berkata 
 
 Ini semua yang perlu Anda lakukan, secara berurutan:
 
-- [ ] **Unduh aplikasi kartu nama digital** (kami merekomendasikan [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) - gratis di [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en))
+- [ ] **Unduh aplikasi kartu nama digital** (kami merekomendasikan [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-id&mt=8) - gratis di [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-id&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-id))
 - [ ] **Buat kartu Anda** dengan nama, jabatan, perusahaan, info kontak, dan tautan
 - [ ] **Tambahkan foto Anda** - membantu orang mengingat Anda setelah acara
 - [ ] **Simpan kode QR Anda ke Apple Wallet (iOS)** untuk akses cepat di layar kunci
 - [ ] **Opsional: Pesan kartu atau stiker NFC** untuk pengalaman ketukan fisik
 - [ ] **Sesuaikan kartu Anda untuk acara tertentu** (detail presentasi, CTA khusus)
 - [ ] **Latih alur ketukan/kode QR** sekali sebelum acara agar terasa alami
-- [ ] **Tindak lanjut dalam 48 jam** setelah acara menggunakan data berbagi Anda
+- [ ] **Tindak lanjut dalam 48 jam** setelah acara, dengan bantuan catatan Anda
 
 ---
 
@@ -205,7 +206,7 @@ Ketukan NFC itu sendiri berfungsi tanpa WiFi - mengirimkan tautan langsung dari 
 
 ### Bisakah saya menggunakan kartu berbeda untuk konferensi berbeda?
 
-Ya - sebagian besar platform kartu digital mendukung beberapa profil kartu. Buat satu untuk setiap acara, peran, atau audiens. Beralih di antara keduanya dalam hitungan detik. Dengan NFC.cool BC, Anda dapat membuat dan mengelola kartu sebanyak yang Anda butuhkan.
+Ya - sebagian besar platform kartu digital mendukung beberapa profil kartu. Buat satu untuk setiap acara, peran, atau audiens. Beralih di antaranya dalam hitungan detik. Di NFC.cool Business Card, Free dan Personal menyertakan satu kartu, Pro hingga 10, dan tim hingga 10 per orang.
 
 ### Apakah kartu nama NFC kompatibel dengan semua ponsel?
 
@@ -217,7 +218,7 @@ Kartu nama digital dasar gratis di sebagian besar platform (termasuk NFC.cool). 
 
 ### Bagaimana dengan privasi data di konferensi?
 
-Ini layak ditanyakan tentang platform apa pun yang Anda gunakan. Beberapa penyedia kartu digital melacak penerima, merekam percakapan, atau menjual data kontak. NFC.cool BC mengutamakan privasi: tidak ada monetisasi data atau iklan, tidak ada pendekatan ke penerima, tidak ada rekaman percakapan, perlindungan PIN untuk kartu sensitif, dan kepatuhan GDPR penuh dengan ekspor data.
+Ini layak ditanyakan tentang platform apa pun yang Anda gunakan. NFC.cool Business Card mengutamakan privasi: NFC.cool tidak menjual data Anda, aplikasinya tidak berisi iklan, tidak merekam percakapan, dan tidak mengirim pemasaran kepada orang yang melihat kartu Anda. Anda bisa melindungi kartu yang sensitif dengan PIN dan mengekspor data Anda sebagai ZIP kapan pun Anda mau.
 
 ---
 
@@ -225,8 +226,8 @@ Ini layak ditanyakan tentang platform apa pun yang Anda gunakan. Beberapa penyed
 
 Konferensi adalah tempat kartu nama kertas paling sering gagal: Anda butuh terlalu banyak, kartu itu rusak, tidak bisa dilacak, dan 88% berakhir di tempat sampah dalam seminggu.
 
-Kartu nama digital adalah tempat konferensi berada di kondisi terbaiknya: berbagi cepat yang benar-benar mengesankan orang, analitik yang memberi tahu siapa yang tertarik, dan tindak lanjut yang terjadi secara otomatis alih-alih "suatu hari nanti."
+Kartu nama digital adalah tempat konferensi berada di kondisi terbaiknya: berbagi cepat yang benar-benar mengesankan orang, analitik yang menunjukkan apa yang berhasil, dan tindak lanjut yang benar-benar terjadi alih-alih "suatu hari nanti."
 
 Konferensi berikutnya akan segera tiba. Kali ini, tinggalkan kertas di rumah.
 
-*NFC.cool Business Card tersedia gratis di [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-en&mt=8) dan di [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-en). Buat kartu pertama Anda dalam waktu kurang dari satu menit.*
+*[NFC.cool Business Card](/id/business-card/) tersedia gratis di [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-id&mt=8) dan di [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-id). Buat kartu pertama Anda dalam waktu kurang dari satu menit. Mengirim seluruh tim ke acara? Lihat [NFC.cool Business Card for Teams](/id/business-card/teams/).*

@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Webhook untuk penghitungan stok & check-in acara"
-    body: "<p>Arahkan pemindai barcode ke sistem back-office Anda. Setiap barcode yang dibaca memicu webhook ke URL Anda, sehingga basis data inventaris, CRM peserta, atau katalog perpustakaan Anda diperbarui secara real-time seiring kamera bergerak. Lihat <a href=\"/features/webhooks/\">Webhook & Otomatisasi</a> untuk bentuk payload JSON dan server referensi.</p>"
+    body: "<p>Arahkan pemindai barcode ke sistem back-office Anda. Setiap barcode yang dibaca memicu webhook ke URL Anda, sehingga basis data inventaris, CRM peserta, atau katalog perpustakaan Anda diperbarui secara real-time seiring kamera bergerak. Lihat <a href=\"/id/features/webhooks/\">Webhook & Otomatisasi</a> untuk bentuk payload JSON dan server referensi.</p>"
     platforms: "iOS"
 
   - title: "Shortcuts & App Intents"
@@ -45,7 +45,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sinkronisasi iCloud di iPhone, iPad, dan Mac"
-    body: "<p>Riwayat pemindaian barcode Anda tersinkronisasi di semua perangkat pada akun iCloud Anda. Pindai rak produk di iPhone, tinjau daftar di iPad, beri judul dan bagikan pemindaian dari <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - satu riwayat tersinkronisasi, tidak perlu memindahkan apa pun secara manual.</p>"
+    body: "<p>Riwayat pemindaian barcode Anda tersinkronisasi di semua perangkat pada akun iCloud Anda. Pindai rak produk di iPhone, tinjau daftar di iPad, beri judul dan bagikan pemindaian dari <a href=\"/id/blog/nfc-cool-comes-to-mac/\">Mac</a> - satu riwayat tersinkronisasi, tidak perlu memindahkan apa pun secara manual.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool tersinkronisasi di iPhone, iPad, dan Mac"
     platforms: "iOS"

@@ -12,7 +12,7 @@ metaDescription: "NFC.cool liest Amiibo auf iPhone und Android, führt deine Sam
 ogTitle: "Amiibo auf iPhone und Android lesen, sammeln und sichern"
 ogDescription: "NFC.cool kann jetzt Amiibo: scannen, sammeln und auf einen leeren Tag sichern. Wie Amiibo wirklich funktionieren und warum die App keine Keys mitbringt."
 ---
-Die meisten Leute gehen davon aus, dass in einem Amiibo irgendetwas Besonderes steckt. Ein Stück Nintendo-Silizium, das man nirgendwo sonst kaufen kann. Stimmt aber nicht. Im Sockel der Figur sitzt ein ganz normaler [NTAG215](/affiliate-links/) - derselbe Sticker-Chip, den ich jeden Tag lese und beschreibe, die Sorte, die es im Zehnerpack für Kleingeld gibt. Rund 540 Bytes Speicher, eine ab Werk eingebrannte Seriennummer, mehr ist da nicht. Teuer ist das Plastik. Der Chip ist fast schon Nebensache.
+Die meisten Leute gehen davon aus, dass in einem Amiibo irgendetwas Besonderes steckt. Ein Stück Nintendo-Silizium, das man nirgendwo sonst kaufen kann. Stimmt aber nicht. Im Sockel der Figur sitzt ein ganz normaler [NTAG215](/de/affiliate-links/) - derselbe Sticker-Chip, den ich jeden Tag lese und beschreibe, die Sorte, die es im Zehnerpack für Kleingeld gibt. Rund 540 Bytes Speicher, eine ab Werk eingebrannte Seriennummer, mehr ist da nicht. Teuer ist das Plastik. Der Chip ist fast schon Nebensache.
 
 Genau deshalb hat mich das so lange gewurmt. NFC-Tags lesen und beschreiben ist mein Beruf, und trotzdem gab es eine ganze Kategorie, mit der meine eigene App nichts anfangen konnte: die Handvoll Figuren im Regal neben meinem Schreibtisch. Dabei soll NFC.cool die leistungsfähigste NFC-App sein, die du auf dein Handy laden kannst, eine, die keinen Tag-Typ links liegen lässt.
 
@@ -22,7 +22,7 @@ Also habe ich mich hingesetzt, links die Figuren, rechts meine Switch, und NFC.c
 
 ## Wo steckt dann das Geheimnis?
 
-Wenn der Chip so gewöhnlich ist, kann das Geheimnis nicht im Silizium liegen. Es liegt in den Bytes. Ein Amiibo ist im Grunde ein billiges Notizbuch, das Nintendo in einer Geheimschrift vollgeschrieben und unten unterschrieben hat, damit sich eine Fälschung vom Original unterscheiden lässt. (Falls du die ausführliche Übersicht über die Tag-Typen nachlesen willst: Der Chip selbst ist ein schlichter [NTAG215](/blog/nfc-tag-types-for-iphones/).)
+Wenn der Chip so gewöhnlich ist, kann das Geheimnis nicht im Silizium liegen. Es liegt in den Bytes. Ein Amiibo ist im Grunde ein billiges Notizbuch, das Nintendo in einer Geheimschrift vollgeschrieben und unten unterschrieben hat, damit sich eine Fälschung vom Original unterscheiden lässt. (Falls du die ausführliche Übersicht über die Tag-Typen nachlesen willst: Der Chip selbst ist ein schlichter [NTAG215](/de/blog/nfc-tag-types-for-iphones/).)
 
 In diesen Bytes stecken zwei Dinge. Das erste liegt offen da: ein kleiner Block, der sagt, welche Figur das ist - Link, aus der Legend-of-Zelda-Reihe, aus einer bestimmten Amiibo-Serie. Diesen Teil liest deine Switch, um zu merken, dass gerade eine Figur aufgelegt wurde. Der zweite Teil ist verschlossen: die eigentlichen Spielstanddaten, also ein Spitzname, der Mii des Besitzers, wie oft die Figur schon benutzt wurde, und was das aktuelle Spiel in den kleinen Notizbereich geschrieben hat, der ihm zusteht. Dieser Teil ist verschlüsselt und obendrein signiert.
 
@@ -42,7 +42,7 @@ Für eine gültige Kopie musst du die Schlüssel für den Ziel-Tag neu ableiten 
 
 Drei Dinge, in der Reihenfolge, in der du sie vermutlich brauchst.
 
-**Lesen.** Halt ein Amiibo an die Rückseite deines Handys, so wie du [jeden anderen NFC-Tag liest](/features/nfc-reader-writer/), und NFC.cool erkennt es sofort: Charakter, Spielereihe, Amiibo-Serie, Figurentyp und Artwork, dazu ein paar Angaben vom Tag selbst, etwa wie oft er schon beschrieben wurde. Keys braucht es dafür keine. Zum Erkennen einer Figur reicht der Teil, der ohnehin offen daliegt.
+**Lesen.** Halt ein Amiibo an die Rückseite deines Handys, so wie du [jeden anderen NFC-Tag liest](/de/features/nfc-reader-writer/), und NFC.cool erkennt es sofort: Charakter, Spielereihe, Amiibo-Serie, Figurentyp und Artwork, dazu ein paar Angaben vom Tag selbst, etwa wie oft er schon beschrieben wurde. Keys braucht es dafür keine. Zum Erkennen einer Figur reicht der Teil, der ohnehin offen daliegt.
 
 **Sammeln.** Jedes gescannte Amiibo landet in „Meine Sammlung“, einem schlichten Raster mit allem, was du besitzt. Die Sammlung bleibt auf deinem Gerät (auf dem iPhone wird sie per iCloud mit deinen anderen Apple-Geräten synchronisiert), und die Artworks werden lokal zwischengespeichert, damit auch offline alles richtig aussieht. Allein das hat aus meinem tristen kleinen Regal etwas gemacht, in dem ich gern herumstöbere.
 

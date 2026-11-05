@@ -8,7 +8,7 @@ image: "/assets/images/Blog/google-review-nfc-stand.webp"
 imageAlt: "カフェのテーブルに置かれた透明なアクリルスタンド。金色の星5つとNFCマーク、QRコードが入ったカードが差し込まれ、隣には星5つのクチコミ画面を表示したiPhone"
 author: "Nicolo Stanciu"
 metaTitle: "お店用のGoogleクチコミNFCスタンドを自作する方法"
-metaDescription: "Googleクチコミスタンドの正体は、NFCタグとQRコードだけ。自分で作る手順と、メニューやSNS、クチコミのリンクをすべてのテーブルに置く方法を紹介します。"
+metaDescription: "Googleクチコミスタンドの正体は、NFCタグとQRコードだけ。お店用のスタンドを自分で作る手順と、メニューやSNS、クチコミのリンクをすべてのテーブルに置く方法を、Piano Negroのテーブルに置いた実例とともに紹介します。"
 ogTitle: "Googleクチコミスタンドは自作できる"
 ogDescription: "NFCタグとQRコード、それに差し込み式のアクリルスタンド。バーのメニューとSNS、Googleクチコミのリンクを、すべてのテーブルに置いた方法です。"
 ---
@@ -23,7 +23,7 @@ NFCアプリを作って暮らしている身としては、中に何が入っ�
 
 ## Googleクチコミスタンドの中身
 
-こうしたスタンドに入っているNFCタグは、[50枚入りのパックで買える](/affiliate-links/)安いステッカーと同じものです。そこにWebリンクが1つ書き込まれています。隣のQRコードは、同じリンクを四角い模様として印刷したもの。スマホがNFCに対応していない人や、NFCをオフにしている人のためにあります。
+こうしたスタンドに入っているNFCタグは、[50枚入りのパックで買える](/ja/affiliate-links/)安いステッカーと同じものです。そこにWebリンクが1つ書き込まれています。隣のQRコードは、同じリンクを四角い模様として印刷したもの。スマホがNFCに対応していない人や、NFCをオフにしている人のためにあります。
 
 面白いのはリンクそのものです。Googleには、特定のお店のクチコミ投稿フォームへお客さんを直接案内できるURLがあり、お店は**Place ID**で識別されます。Googleマップに載っているお店には必ずPlace IDがあります。まだ載っていない場合は、[ビジネスプロフィールの作成方法](https://support.google.com/business/answer/2911778?hl=ja)をGoogleが説明しています。このリンクをタグに書き込めば、スタンドにスマホをかざすことが、「今日はいい夜だったな」と思ってから実際にクチコミを書くまでの、いちばんの近道になります。
 
@@ -51,7 +51,7 @@ NFCアプリを作って暮らしている身としては、中に何が入っ�
 
 [Piano Negro](https://mycard.nfc.cool/PianoNegro/Piano-Negro)は、ポルトガルのCoimbraで1993年から続くバーです。オーナーと一緒にスタンドを用意したとき、テーブルにクチコミのリンクだけを置くことはしませんでした。席に着いたばかりのお客さんは、まだクチコミのことなど考えていません。まず知りたいのは、メニューに何があるかです。
 
-そこでPiano Negroでは、すべてのテーブルに、お店の[**NFC.cool Business Card**](/business-card/)を載せたスタンドを置いています。スマホをかざすか、QRコードを読み取るとカードが開き、お客さんが探しそうなものがそろっています。どれもワンタップです。
+そこでPiano Negroでは、すべてのテーブルに、お店の[**NFC.cool Business Card**](/ja/business-card/)を載せたスタンドを置いています。スマホをかざすか、QRコードを読み取るとカードが開き、お客さんが探しそうなものがそろっています。どれもワンタップです。
 
 - ポルトガル語と英語のメニュー
 - WhatsApp
@@ -70,10 +70,10 @@ NFCアプリを作って暮らしている身としては、中に何が入っ�
 
 買い物リストは、拍子抜けするほど短くて済みます。
 
-- **NFCタグ**。シンプルなNTAG213のステッカーで十分です。この記事で使うリンクなら、容量にかなり余裕を残して収まります。タグの種類がよくわからない場合は、[iPhoneで使えるNFCタグの種類を整理したガイド](/blog/nfc-tag-types-for-iphones/)で違いを説明しています。
+- **NFCタグ**。シンプルなNTAG213のステッカーで十分です。この記事で使うリンクなら、容量にかなり余裕を残して収まります。タグの種類がよくわからない場合は、[iPhoneで使えるNFCタグの種類を整理したガイド](/ja/blog/nfc-tag-types-for-iphones/)で違いを説明しています。
 - **透明なアクリルスタンド**。印刷したカードを差し込むタイプです。メニュースタンドやPOPスタンドとして売られていて、1つ数百円ほどで買えます。
 - **カラープリンター**。
-- [**NFC.cool Business Card**](/business-card/)。テーブル用のスタンドに使います。
+- [**NFC.cool Business Card**](/ja/business-card/)。テーブル用のスタンドに使います。
 - **NFC.cool Tools**。クチコミのリンク作りと、タグのパスワード保護に使います。[iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-google-review-nfc-stand-ja&mt=8)版と[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-google-review-nfc-stand-ja)版があります。
 
 ---
@@ -135,7 +135,7 @@ Googleマップをすでに開いているなら、もっと早い方法があ�
 
 ### ステップ2：タグに書き込む
 
-リンクを保存したら、スマホをNFCステッカーに近づけて書き込みます。タグに書き込むのが初めてなら、[iPhoneでNFCタグに書き込む方法](/blog/write-nfc-tags-iphone/)で手順を説明しています。
+リンクを保存したら、スマホをNFCステッカーに近づけて書き込みます。タグに書き込むのが初めてなら、[iPhoneでNFCタグに書き込む方法](/ja/blog/write-nfc-tags-iphone/)で手順を説明しています。
 
 ### ステップ3：QRコードを作る
 

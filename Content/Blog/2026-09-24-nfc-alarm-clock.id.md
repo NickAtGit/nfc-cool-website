@@ -12,7 +12,7 @@ metaDescription: "Alarm untuk iPhone dan Android yang baru berhenti setelah Anda
 ogTitle: "Alarm yang tidak bisa Anda tunda"
 ogDescription: "Alarm NFC baru diam setelah Anda menyusuri rute tag NFC di sekeliling rumah. Begini cara kerjanya di iPhone dan Android."
 ---
-Jadi developer indie punya ritme sendiri yang tidak peduli jam kantor. Kode terbaik saya justru lahir larut malam, saat notifikasi sudah berhenti dan rumah sudah sepi, dan tahu-tahu sudah jam dua pagi. Alarmnya, tentu saja, tetap berbunyi di jam yang sama. Lalu saya tekan Tunda. Sekali lagi. Lalu yang ketiga kalinya, sampai pagi yang sudah saya rencanakan tinggal separuh.
+Jadi founder punya ritme sendiri yang tidak peduli jam kantor. Kode terbaik saya justru lahir larut malam, saat notifikasi sudah berhenti dan rumah sudah sepi, dan tahu-tahu sudah jam dua pagi. Alarmnya, tentu saja, tetap berbunyi di jam yang sama. Lalu saya tekan Tunda. Sekali lagi. Lalu yang ketiga kalinya, sampai pagi yang sudah saya rencanakan tinggal separuh.
 
 Cukup lama saya memikirkan apa yang sebenarnya bisa saya lakukan. Alarm yang lebih keras? Lama-lama saya pasti kebal juga. Menaruh ponsel di seberang kamar? Saya akan jalan ke sana, tekan Hentikan, lalu merangkak kembali ke kasur. Masalahnya bukan karena saya tidak mendengar alarm. Masalahnya, mematikan alarm cuma butuh satu ketukan tanpa perlu berpikir sedikit pun.
 
@@ -80,7 +80,7 @@ Ada aplikasi alarm yang menyuruh Anda memotret wastafel kamar mandi atau meminda
 
 Tag NFC sendiri tidak lebih dari sepotong logam polos: chip mungil dengan sebuah ID, tidak ada yang lain, diam di atas rak. Bagian yang paling saya nikmati dari membangun NFC.cool justru memberi arti pada logam polos itu, mengubah stiker seharga beberapa sen menjadi sesuatu yang benar-benar berguna dalam keseharian Anda. Di Alarm NFC, tagnya bahkan tidak perlu berisi apa pun. Aplikasi mengenali setiap tag dari ID chip-nya, dan tidak ada yang ditulis ke tag. Tag apa pun bisa dipakai, termasuk sisa stiker yang tersimpan di laci Anda. Tag juga tidak butuh cahaya: memindai tag tetap lancar di lorong yang gelap, tempat kamera pasti kesulitan, dan Anda tidak perlu membidik apa pun.
 
-Kalau Anda belum punya tag, [panduan pemula saya tentang tag NFC](/blog/nfc-tags-beginners-guide/) menjelaskan tag mana yang sebaiknya dibeli.
+Kalau Anda belum punya tag, [panduan pemula saya tentang tag NFC](/id/blog/nfc-tags-beginners-guide/) menjelaskan tag mana yang sebaiknya dibeli.
 
 ---
 

@@ -4,13 +4,13 @@ title: "優れたApp Clip体験を作る：NFC.cool Business Cardから学んだ
 date: "2026-01-23"
 tags: ["business-cards", "networking", "iphone"]
 summary: "プラハで開催されたmDevCamp 2025での私の講演の振り返り。NFC.cool Business CardのApp Clipフローを支えるアーキテクチャについて。"
-metaDescription: "NFC.cool Business CardのApp Clipを作って得た学び - アーキテクチャ、サイズ制限、ワンタップでの連絡先保存を、プラハでのmDevCamp 2025の講演から振り返ります。"
+metaDescription: "NFC.cool Business CardのApp Clipを作って得た学びを、プラハで開催されたmDevCamp 2025の講演から振り返ります。アーキテクチャ、サイズ制限、ワンタップでの連絡先保存など、瞬時に開く体験を支える設計判断を紹介します。"
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/app-clip-mdevcamp.webp"
 imageAlt: "プラハのmDevCamp 2025での登壇"
 ---
 
-2025年、私は初めてのカンファレンス登壇をしました。テーマには、何年もその中で過ごしてきたものの、これまで一度も人前で説明する必要のなかったものを選びました。NFC.cool Business Cardを支えるApp Clipが実際にどう動いているか、という話です。講演はプラハのmDevCamp 2025で行い、この記事と同じタイトルを付けました。
+2025年、私は初めてのカンファレンス登壇をしました。テーマには、何年もその中で過ごしてきたものの、これまで一度も人前で説明する必要のなかったものを選びました。[NFC.cool Business Card](/ja/business-card/)を支えるApp Clipが実際にどう動いているか、という話です。講演はプラハのmDevCamp 2025で行い、この記事と同じタイトルを付けました。
 
 App Clipにまだ出会ったことがない方のために説明すると、App Clipとは、NFCのタップやQRスキャンから瞬時に開くiOSアプリの小さな一部分です。App Storeも不要、インストールも不要。これがあるおかげで、相手にスマートフォンをかざしてから1秒ほどで、何もダウンロードすることなく、あなたのNFC.coolの名刺を見てもらえます。それを本当に瞬時だと感じさせつつ、共有された名刺のデータを安全に保ち、誰にも登録を強いない。これを実現するには、外から見える以上に多くのアーキテクチャ上の判断が必要になります。講演では、それらを順を追って説明しました。App Clipがどう構築されているか、SwiftUIがどこでその価値を発揮するか、そしてバックエンドが名刺データをどう扱うか、という内容です。
 

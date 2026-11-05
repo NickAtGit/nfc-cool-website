@@ -31,7 +31,7 @@ Nach sieben Jahren NFC-App-Entwicklung und tausenden Support-E-Mails: Hier ist, 
 
 ## Wo kaufen
 
-Für 95 % der Anwendungsfälle - Kontaktkarten, Automations-Trigger, URL-Shortcuts, WLAN-Sharing - kauf **NTAG216**-Sticker. Zuverlässig auf iPhone und Android, 888 Bytes beschreibbar, günstig in der Bulk-Packung und genau der Chip, gegen den NFC.cool testet. Neu bei NFC-Tags? Mein [kompletter Einsteiger-Guide zu NFC-Tags](/blog/nfc-tags-beginners-guide/) erklärt, wie sie funktionieren und wie sich die Chips unterscheiden. Wähl deinen Amazon-Store - oder klick einfach irgendeinen, Amazon leitet internationale Käufer automatisch zum nächstgelegenen Store weiter.
+Für 95 % der Anwendungsfälle - Kontaktkarten, Automations-Trigger, URL-Shortcuts, WLAN-Sharing - kauf **NTAG216**-Sticker. Zuverlässig auf iPhone und Android, 888 Bytes beschreibbar, günstig in der Bulk-Packung und genau der Chip, gegen den NFC.cool testet. Neu bei NFC-Tags? Mein [kompletter Einsteiger-Guide zu NFC-Tags](/de/blog/nfc-tags-beginners-guide/) erklärt, wie sie funktionieren und wie sich die Chips unterscheiden. Wähl deinen Amazon-Store - oder klick einfach irgendeinen, Amazon leitet internationale Käufer automatisch zum nächstgelegenen Store weiter.
 
 <div class="affiliate-store-box">
 
@@ -58,7 +58,7 @@ Für 95 % der Anwendungsfälle - Kontaktkarten, Automations-Trigger, URL-Shortcu
 
 ## Amiibo sichern? Hol dir NTAG215
 
-Amiibo sind konkret **NTAG215**-Chips. Wenn du [Amiibo mit NFC.cool sicherst](/blog/amiibo-iphone-android-read-collect-backup/), kauf leere **NTAG215**-Tags - nicht das NTAG216, das wir sonst überall empfehlen. Das ist der eine Fall, in dem du den Chip exakt treffen musst: NFC.cool schreibt die neu verschlüsselte Kopie auf ein NTAG215, denselben Chiptyp, den auch ein echtes Amiibo nutzt.
+Amiibo sind konkret **NTAG215**-Chips. Wenn du [Amiibo mit NFC.cool sicherst](/de/blog/amiibo-iphone-android-read-collect-backup/), kauf leere **NTAG215**-Tags - nicht das NTAG216, das wir sonst überall empfehlen. Das ist der eine Fall, in dem du den Chip exakt treffen musst: NFC.cool schreibt die neu verschlüsselte Kopie auf ein NTAG215, denselben Chiptyp, den auch ein echtes Amiibo nutzt.
 
 <div class="affiliate-store-box">
 

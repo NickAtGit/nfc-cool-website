@@ -7,7 +7,7 @@ summary: "欧盟数字产品护照已经来了：电池已被纳入，纺织品�
 image: "/assets/images/Blog/eu-digital-product-passport-2026.webp"
 imageAlt: "手机扫描带 NFC 标签的产品包装，获取其数字产品护照"
 metaTitle: "2026 年欧盟数字产品护照：它是什么、谁受影响以及 NFC 的角色"
-metaDescription: "关于 2026 年欧盟数字产品护照（DPP）你需要了解的一切：强制时间表、数据要求、NFC 与二维码访问方式，以及如何为你的企业做好准备。"
+metaDescription: "关于 2026 年欧盟数字产品护照（DPP）你需要了解的一切：强制时间表、数据要求、NFC 与二维码访问方式，以及如何为你的企业做好准备。电池已经纳入，纺织品和电子产品紧随其后，这篇用通俗的语言讲清它对你的影响。"
 ogTitle: "欧盟数字产品护照：2026 年你需要了解的一切"
 ogDescription: "欧盟最重磅的产品透明度法规正在落地。了解 DPP 对电池、纺织品、电子产品意味着什么，以及为什么 NFC 是让它真正运转起来的核心。"
 ---
@@ -118,11 +118,11 @@ ESPR 强制要求为产品护照采用标准化的数据载体。三项获批的
 
 ### 为符合 DPP 要求而写入 NFC 标签
 
-如果你是通过 NFC 实施 DPP 的制造商或品牌方，你将需要工具来 **大规模编程 NFC 标签** ，写入指向你护照数据基础设施的正确网址。其底层机制并不神秘：一个 DPP 标签本质上就是携带一条网址记录的标签，和我在 [如何在 iPhone 上写入 NFC 标签](/blog/write-nfc-tags-iphone/) 一文中讲解的是同一回事。
+如果你是通过 NFC 实施 DPP 的制造商或品牌方，你将需要工具来 **大规模编程 NFC 标签** ，写入指向你护照数据基础设施的正确网址。其底层机制并不神秘：一个 DPP 标签本质上就是携带一条网址记录的标签，和我在 [如何在 iPhone 上写入 NFC 标签](/zh/blog/write-nfc-tags-iphone/) 一文中讲解的是同一回事。
 
-这正是 [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-eu-digital-product-passport-2026-en&mt=8) 这类应用的用武之地。它是我做的应用，让你能直接从 iPhone 或 Android 设备读取、写入、格式化和锁定 NFC 标签，无需额外硬件。对于小批量生产、原型开发或测试你的 DPP 实施方案，这是我所知最快速的编程和验证标签的方式。如果你正在选择要标准化采用哪种芯片，我对 [适用于 iPhone 的 NFC 标签类型](/blog/nfc-tag-types-for-iphones/) 的拆解讲清楚了实际差异；而对于任何需要法规所鼓励的密码学锁定的场景，在你最终决定之前，值得先了解 [加密、防篡改的标签](/blog/nfc-safe-encrypted-secrets/)。
+这正是 [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-eu-digital-product-passport-2026-zh&mt=8) 这类应用的用武之地。它是我做的应用，让你能直接从 iPhone 或 Android 设备读取、写入、格式化和锁定 NFC 标签，无需额外硬件。对于小批量生产、原型开发或测试你的 DPP 实施方案，这是我所知最快速的编程和验证标签的方式。如果你正在选择要标准化采用哪种芯片，我对 [适用于 iPhone 的 NFC 标签类型](/zh/blog/nfc-tag-types-for-iphones/) 的拆解讲清楚了实际差异；而对于任何需要法规所鼓励的密码学锁定的场景，在你最终决定之前，值得先了解 [加密、防篡改的标签](/zh/blog/nfc-safe-encrypted-secrets/)。
 
-对于企业级规模的部署，桌面 NFC 写卡器（兼容 NTAG、ICODE 和 MIFARE 芯片）可处理批量编程，但移动应用在 **现场验证** 方面仍然不可或缺：在货架上或仓库地面扫描产品，确认护照链接能正确工作。在 Android 上，你甚至可以 [直接从浏览器查看标签里存了什么](/online-nfc-reader/)，无需安装任何东西，做快速抽查很方便。
+对于企业级规模的部署，桌面 NFC 写卡器（兼容 NTAG、ICODE 和 MIFARE 芯片）可处理批量编程，但移动应用在 **现场验证** 方面仍然不可或缺：在货架上或仓库地面扫描产品，确认护照链接能正确工作。在 Android 上，你甚至可以 [直接从浏览器查看标签里存了什么](/zh/online-nfc-reader/)，无需安装任何东西，做快速抽查很方便。
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>NFC.cool Tools 里的数字产品护照</figcaption>
@@ -167,7 +167,7 @@ ESPR 强制要求为产品护照采用标准化的数据载体。三项获批的
 你的 DPP 需要和你的产品一样长寿。这意味着数据必须托管在能够持续存在的基础设施上，并具备在售后更新记录的能力。
 
 ### 5. 备好你的 NFC 工具
-如果你打算走 NFC 这条路，在它成为一个截止期限之前就先熟悉标签编程。[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-eu-digital-product-passport-2026-en) 支持在 iOS 和 Android 上读取、写入和验证 NFC 标签，它是我做的应用，也是在投入批量生产之前测试你的 DPP 标签的实用起点。如果你想了解 NFC 在护照之外能做什么的全貌，我的 [NFC 读取与写入功能概览](/features/nfc-reader-writer/) 把它讲清楚了。
+如果你打算走 NFC 这条路，在它成为一个截止期限之前就先熟悉标签编程。[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-eu-digital-product-passport-2026-zh) 支持在 iOS 和 Android 上读取、写入和验证 NFC 标签，它是我做的应用，也是在投入批量生产之前测试你的 DPP 标签的实用起点。如果你想了解 NFC 在护照之外能做什么的全貌，我的 [NFC 读取与写入功能概览](/zh/features/nfc-reader-writer/) 把它讲清楚了。
 
 ---
 
@@ -199,6 +199,6 @@ ESPR 强制要求为产品护照采用标准化的数据载体。三项获批的
 
 我承认这里有一点偏向，毕竟 NFC 是我所做的东西。但我真心认为这项技术在成为产品与其数字身份之间的物理桥梁这件事上，处于独一无二的位置。它耐用、安全、与智能手机兼容，且已经在规模化场景中得到验证，而一项如此体量的法规，实际上印证了这个押注押对了。
 
-无论你是一个正为合规做准备的品牌方，还是一个对夹克上那枚新 NFC 标签到底有什么用感到好奇的消费者，DPP 时代都已经开始。而如果你从没怎么想过它背后的那枚芯片，我的 [NFC 标签入门指南](/blog/nfc-tags-beginners-guide/) 是我建议你开始的地方。
+无论你是一个正为合规做准备的品牌方，还是一个对夹克上那枚新 NFC 标签到底有什么用感到好奇的消费者，DPP 时代都已经开始。而如果你从没怎么想过它背后的那枚芯片，我的 [NFC 标签入门指南](/zh/blog/nfc-tags-beginners-guide/) 是我建议你开始的地方。
 
-*需要读取、写入或测试 NFC 标签吗？[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-eu-digital-product-passport-2026-en&mt=8) 在 [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-eu-digital-product-passport-2026-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-eu-digital-product-passport-2026-en) 上均可免费获取。*
+*需要读取、写入或测试 NFC 标签吗？[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-eu-digital-product-passport-2026-zh&mt=8) 在 [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-eu-digital-product-passport-2026-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-eu-digital-product-passport-2026-zh) 上均可免费获取。*

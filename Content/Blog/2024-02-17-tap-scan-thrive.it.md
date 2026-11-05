@@ -67,7 +67,7 @@ Ristoranti, locali, punti di ritrovo: metti un piccolo codice QR sul volantino o
 
 I biglietti da visita in codice QR funzionano esattamente così. Ed è anche il motivo per cui una vCard in un codice QR funziona su qualsiasi telefono senza app dedicate: la vCard è uno standard vecchio di trent'anni che il sistema operativo conosce già.
 
-Rispetto al biglietto da visita di NFC.cool c'è però un compromesso: una vCard in un codice QR non si aggiorna. Una volta stampata, i dati del contatto sono congelati. Se ti serve un'unica fonte attendibile, modificabile anche dopo, codifica invece l'indirizzo della pagina del tuo biglietto, che resta sempre aggiornata: è quello che fa [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-it&mt=8) ed è il motivo per cui, quando si fa networking sul serio, la consiglio al posto della vCard nuda e cruda.
+Rispetto al biglietto da visita di NFC.cool c'è però un compromesso: una vCard in un codice QR non si aggiorna. Una volta stampata, i dati del contatto sono congelati. Se ti serve un'unica fonte attendibile, modificabile anche dopo, codifica invece l'indirizzo della pagina del tuo biglietto, che resta sempre aggiornata: è quello che fa [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-it&mt=8) ed è il motivo per cui, quando si fa networking sul serio, la consiglio al posto della vCard nuda e cruda. [Qui scopri cosa fa NFC.cool Business Card](/it/business-card/).
 
 ---
 

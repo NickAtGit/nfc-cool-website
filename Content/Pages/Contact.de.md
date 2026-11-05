@@ -36,7 +36,7 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 <details class="faq-item">
 <summary>Sind die Apps kostenlos?</summary>
-<p>Ja - beide Apps sind kostenlos im App Store und auf Google Play, ohne Werbung. Einige fortgeschrittene Workflows können in den Apps freischaltbar sein, aber die Kern-Funktionen NFC, QR, Dokumente, 3D und Visitenkarte sind gratis.</p>
+<p>Ja - beide Apps sind kostenlos im App Store und auf Google Play. Einige fortgeschrittene Workflows können in den Apps freischaltbar sein, aber die Kern-Funktionen NFC, QR, Dokumente, 3D und Visitenkarte sind gratis.</p>
 </details>
 
 <details class="faq-item">

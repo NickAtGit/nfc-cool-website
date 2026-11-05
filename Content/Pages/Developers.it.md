@@ -88,7 +88,7 @@ La configurazione sta nell'app, in **scheda Altro → Webhook**: inserisci un in
 
 L'app manda un solo `POST` per scansione all'indirizzo che hai configurato. Non c'è una coda di reinvio separata: se l'endpoint non risponde o restituisce un codice diverso da 2xx, il POST di quella scansione fallisce. In caso di successo conviene rispondere `204 No Content`; qualsiasi 2xx viene considerato un'accettazione.
 
-Questa pagina è la documentazione tecnica. Per una panoramica della funzione, con gli altri quattro agganci di automazione su iOS, i prezzi e le domande frequenti, vai alla [pagina su webhook e automazioni](/features/webhooks/).
+Questa pagina è la documentazione tecnica. Per una panoramica della funzione, con gli altri quattro agganci di automazione su iOS, i prezzi e le domande frequenti, vai alla [pagina su webhook e automazioni](/it/features/webhooks/).
 
 </section>
 

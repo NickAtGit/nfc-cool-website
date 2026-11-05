@@ -1,0 +1,17 @@
+# Confronto dei prezzi per i piccoli team per /it/business-card/teams/. Generato da PricingTableRenderer
+# tramite il token {{PRICING_TABLE:business-card-teams}} in Content/Pages/business-card-teams.it.md.
+# Tutti i numeri sono stati letti dalle pagine dei prezzi delle aziende il 2026-11-05: fonti e istruzioni
+# per aggiornarli in Content/Data/Pricing/business-card-teams.yaml.
+columns: ["NFC.cool", "Wave Teams", "Blinq Business", "HiHello Business"]
+columnPills: ["is-team"]
+rows:
+  - label: "Team più piccolo"
+    values: ["2 posti", "3 utenti", "5 biglietti", "5 utenti"]
+  - label: "A persona, con pagamento annuale"
+    values: ["$50 all'anno", "$60 all'anno", "$59,88 all'anno", "$60 all'anno"]
+  - label: "Spesa minima per un anno"
+    values: ["**$100**", "**$180**", "**$299,40**", "**$300**"]
+  - label: "A persona, con pagamento mensile"
+    values: ["$5 al mese", "$7 al mese", "$6,99 al mese", "$6 al mese"]
+  - label: "Sincronizzazione del CRM inclusa"
+    values: ["✓", "✓", "✓", "✓"]

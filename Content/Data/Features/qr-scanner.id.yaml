@@ -57,7 +57,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sinkronisasi iCloud di iPhone, iPad, dan Mac"
-    body: "<p>Riwayat pemindaian dan desain QR Studio Anda tersinkronisasi di setiap perangkat pada akun iCloud Anda. Rancang kode QR di iPad, bagikan dari iPhone, edit di <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - perpustakaan yang sama, pengeditan yang sama, tanpa ekspor bolak-balik.</p>"
+    body: "<p>Riwayat pemindaian dan desain QR Studio Anda tersinkronisasi di setiap perangkat pada akun iCloud Anda. Rancang kode QR di iPad, bagikan dari iPhone, edit di <a href=\"/id/blog/nfc-cool-comes-to-mac/\">Mac</a> - perpustakaan yang sama, pengeditan yang sama, tanpa ekspor bolak-balik.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool tersinkronisasi di iPhone, iPad, dan Mac"
     platforms: "iOS"

@@ -53,7 +53,7 @@ O NFC é, na verdade, um subconjunto do RFID (Radio-Frequency Identification). �
 | **Padronizado** | ISO 14443 / ISO 18092 | Vários padrões |
 | **Uso pelo consumidor** | Elevado (telemóveis, pagamentos) | Maioritariamente industrial |
 
-Todo o NFC é RFID, mas nem todo o RFID é NFC. O crachá que passa para entrar num escritório funciona muitas vezes a 125 KHz, e o seu telemóvel simplesmente não consegue ler isso. As tags NFC usam a frequência de 13,56 MHz que os telemóveis suportam. "Porque é que o meu telemóvel não lê o crachá do trabalho?" é uma das perguntas que mais me fazem, e esta é quase sempre a resposta. (Se é esse o buraco em que está metido, escrevi um artigo inteiro sobre [porque é que o seu iPhone não consegue abrir uma porta RFID](/blog/iphone-rfid-condo-doors/).)
+Todo o NFC é RFID, mas nem todo o RFID é NFC. O crachá que passa para entrar num escritório funciona muitas vezes a 125 KHz, e o seu telemóvel simplesmente não consegue ler isso. As tags NFC usam a frequência de 13,56 MHz que os telemóveis suportam. "Porque é que o meu telemóvel não lê o crachá do trabalho?" é uma das perguntas que mais me fazem, e esta é quase sempre a resposta. (Se é esse o buraco em que está metido, escrevi um artigo inteiro sobre [porque é que o seu iPhone não consegue abrir uma porta RFID](/pt/blog/iphone-rfid-condo-doors/).)
 
 ---
 
@@ -107,9 +107,9 @@ A maior memória da linha NTAG de consumo, e a tag que eu escolheria se só comp
 | Acionador de casa inteligente | NTAG213 | Só precisa de um ID único |
 | Anticontrafação | NTAG424 DNA | Verificação criptográfica |
 
-**Onde comprar:** A minha página de [tags NFC recomendadas](/affiliate-links/) lista os autocolantes NTAG216 que uso e contra os quais testo. As tags em formato de autocolante são as mais versáteis - colam em quase tudo.
+**Onde comprar:** A minha página de [tags NFC recomendadas](/pt/affiliate-links/) lista os autocolantes NTAG216 que uso e contra os quais testo. As tags em formato de autocolante são as mais versáteis - colam em quase tudo.
 
-O meu conselho honesto: compre um pacote de autocolantes NTAG216 e deixe de pensar demasiado nisso. Vi pessoas a agonizar sobre tipos de chip para um projeto que uma tag de 20 cêntimos resolve sem problemas. Se alguma vez quiser a análise mais aprofundada, fiz chip a chip em [tipos de tags NFC para iPhone](/blog/nfc-tag-types-for-iphones/).
+O meu conselho honesto: compre um pacote de autocolantes NTAG216 e deixe de pensar demasiado nisso. Vi pessoas a agonizar sobre tipos de chip para um projeto que uma tag de 20 cêntimos resolve sem problemas. Se alguma vez quiser a análise mais aprofundada, fiz chip a chip em [tipos de tags NFC para iPhone](/pt/blog/nfc-tag-types-for-iphones/).
 
 ---
 
@@ -160,7 +160,7 @@ O que acontece quando lê depende dos dados:
 - **App Clip** - lança um App Clip se existir um
 - **Dados personalizados** - abre a app associada
 
-Se apenas quer ver o que está numa tag neste momento, também pode [ler tags NFC diretamente a partir do navegador](/online-nfc-reader/) no Android - sem instalar nada.
+Se apenas quer ver o que está numa tag neste momento, também pode [ler tags NFC diretamente a partir do navegador](/pt/online-nfc-reader/) no Android - sem instalar nada.
 
 ### No Android
 
@@ -187,7 +187,7 @@ O processo é curto:
 4. Aproxime o telemóvel da tag
 5. Aguarde pela confirmação, normalmente cerca de um segundo
 
-É isso. A tag passa a conter os seus dados e funciona com qualquer telemóvel NFC que a leia. Se quiser o passo a passo específico para iPhone, escrevi um aqui: [como gravar tags NFC no iPhone](/blog/write-nfc-tags-iphone/).
+É isso. A tag passa a conter os seus dados e funciona com qualquer telemóvel NFC que a leia. Se quiser o passo a passo específico para iPhone, escrevi um aqui: [como gravar tags NFC no iPhone](/pt/blog/write-nfc-tags-iphone/).
 
 ### Importante: Bloquear Tags
 
@@ -326,7 +326,7 @@ Quer experimentar? Aqui está um projeto de cinco minutos por onde eu faria qual
 
 **Projeto: uma tag de partilha de Wi-Fi para a sua casa**
 
-1. **Compre tags:** arranje um pacote de [autocolantes NTAG216](/affiliate-links/) (cerca de 10 USD por 25)
+1. **Compre tags:** arranje um pacote de [autocolantes NTAG216](/pt/affiliate-links/) (cerca de 10 USD por 25)
 2. **Transfira a NFC.cool Tools:** para [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) ou [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-en)
 3. **Grave as suas credenciais de Wi-Fi:** abra a app, escolha Gravar, depois Wi-Fi, introduza o nome da rede e a palavra-passe, e aproxime o telemóvel da tag
 4. **Coloque a tag:** num sítio visível - junto à porta de entrada, no frigorífico, num quarto de hóspedes

@@ -8,7 +8,7 @@ image: "/assets/images/Blog/ntag-424-dna-counterfeit-proof-nfc-tags.webp"
 imageAlt: "一款带 NFC 认证吊牌的皮革手袋，旁边是显示安全盾牌和钥匙图标的 iPhone"
 author: "Nicolo Stanciu"
 metaTitle: "NTAG 424 DNA：读懂这种防伪 NFC 标签"
-metaDescription: "我买了一批 NTAG 424 DNA 标签，想看看品牌是怎么证明产品是真品的。这篇讲讲这种防伪 NFC 标签的原理，以及 NFC.cool 如何读取、验证和写入它们。"
+metaDescription: "我买了一批 NTAG 424 DNA 标签，想看看品牌是怎么证明产品是真品的。这篇讲讲这种防伪 NFC 标签的原理，为什么每次轻触都会变的链接能让克隆标签露馅，以及 NFC.cool 如何读取、验证和写入它们。"
 ogTitle: "能自证不是仿冒品的 NFC 标签"
 ogDescription: "NTAG 424 DNA 标签如何揪出克隆品，以及 NFC.cool 如何在 iPhone 和 Android 上读取、验证和配置它们。"
 ---
@@ -21,7 +21,7 @@ ogDescription: "NTAG 424 DNA 标签如何揪出克隆品，以及 NFC.cool 如�
 
 ## NTAG 424 DNA 标签究竟是什么
 
-从外表看，它就是一枚普通的 NFC 标签。把它扔进一堆廉价标签里你根本挑不出来，任何手机都能毫无怨言地读到它。如果你读过我那篇 [NFC 标签类型指南](/blog/nfc-tag-types-for-iphones/)，它不过是又一枚 Type 4 标签，iPhone 照读不误。
+从外表看，它就是一枚普通的 NFC 标签。把它扔进一堆廉价标签里你根本挑不出来，任何手机都能毫无怨言地读到它。如果你读过我那篇 [NFC 标签类型指南](/zh/blog/nfc-tag-types-for-iphones/)，它不过是又一枚 Type 4 标签，iPhone 照读不误。
 
 不一样的地方在“DNA”这部分。芯片内部藏着几把 AES-128 密钥和一个小小的加密引擎，它能做一件普通 NTAG215 或者整包里随便一张贴纸都做不到的事：它能给每一次轻触*签名*。这个签名就是关键所在。有没有它，正是这两种标签的区别：一种只会说“这里有个链接”，另一种会说“这里有个链接，还附上一份加密证明，证明此时此刻正是我，这枚特定的、货真价实的芯片，在提供它”。
 
@@ -33,7 +33,7 @@ ogDescription: "NTAG 424 DNA 标签如何揪出克隆品，以及 NFC.cool 如�
 
 接下来就是让我豁然开朗的那一刻。当我去看这枚标签实际发出的是什么时，我意识到，理解它所需的大部分机制，我其实早就做出来过了。
 
-今年早些时候，我上线了一个 [NFC 轻触计数器功能](/blog/count-nfc-tag-scans/)：一枚标签会统计自己被读取了多少次，并把这个数字放进 URL 里，这样一个链接就能知道这是第 47 次有人扫描它。一枚 NTAG 424 DNA 标签就是同一个思路，只不过在外面裹了一层加密，让它无法被伪造。
+今年早些时候，我上线了一个 [NFC 轻触计数器功能](/zh/blog/count-nfc-tag-scans/)：一枚标签会统计自己被读取了多少次，并把这个数字放进 URL 里，这样一个链接就能知道这是第 47 次有人扫描它。一枚 NTAG 424 DNA 标签就是同一个思路，只不过在外面裹了一层加密，让它无法被伪造。
 
 这套机制叫 **SUN**（Secure Unique NFC），如果你在读 [NXP 的数据手册](https://www.nxp.com/docs/en/data-sheet/NT4H2421Gx.pdf)，它又叫 **SDM**（Secure Dynamic Messaging）。你在标签上存一个普通链接，类似 `https://example.com` 这样。但你会告诉芯片，每次被轻触时就即时重写这个链接的一部分。于是你手机实际收到的，更接近这样：
 
@@ -196,7 +196,7 @@ File 03 是一个 128 字节的专有文件，芯片可以加密保存它，NFC.
 
 说实话？大多数轻触 NFC 标签的人，这一切都用不上，这也挺好。一张能打开链接的贴纸，本身就是一样美好、平淡而有用的东西。
 
-可一旦你亲手拿过一枚这样的标签，它的用武之地就一目了然了。一只奢侈品包可以证明自己是真货。一瓶葡萄酒或威士忌可以表明它从没被悄悄开瓶、再灌回去，防拆封条撑起的正是这后半件事。一盒药既担保里面是真药，也担保封条没被任何人破坏过。门票不再是那种截个图就能转手传给别人的东西，而门边的一枚标签，能证明确实有人真的站在过那里，而不是窝在沙发上重放一个存好的链接。这和[欧盟数字产品护照](/blog/eu-digital-product-passport-2026/)正从监管一侧兜着圈子想解决的，是同一个真伪问题，只不过这里是在单个物件的层面上把它解决掉的。
+可一旦你亲手拿过一枚这样的标签，它的用武之地就一目了然了。一只奢侈品包可以证明自己是真货。一瓶葡萄酒或威士忌可以表明它从没被悄悄开瓶、再灌回去，防拆封条撑起的正是这后半件事。一盒药既担保里面是真药，也担保封条没被任何人破坏过。门票不再是那种截个图就能转手传给别人的东西，而门边的一枚标签，能证明确实有人真的站在过那里，而不是窝在沙发上重放一个存好的链接。这和[欧盟数字产品护照](/zh/blog/eu-digital-product-passport-2026/)正从监管一侧兜着圈子想解决的，是同一个真伪问题，只不过这里是在单个物件的层面上把它解决掉的。
 
 我做这个功能，并不是因为有一千个用户开口要它。我做它，是因为我出于好奇从网上买了些奇怪的标签，弄明白了它们的原理，然后就非得把数据手册的每一页都翻个遍不可。好功能，通常就是这么开始的。
 
@@ -206,4 +206,4 @@ File 03 是一个 128 字节的专有文件，芯片可以加密保存它，NFC.
 
 NTAG 424 DNA 标签，是 NFC 里最接近防拆封条的东西。它们没法阻止有人复制一件产品，但它们让这件产品的*真品证明*无法伪造，因为那份证明是一个只有真芯片才能产生的、每次都新鲜的加密签名。
 
-NFC.cool Tools 能读取它们，验证芯片、验证轻触、验证防拆封条，并把整枚芯片交到你手上任你配置：每一把密钥、每个文件的权限、芯片自身的设置，甚至 LRP，全都在手机上完成。如果你曾好奇一次轻触怎么就能分辨真假，那就在 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-zh&mt=8) 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-zh) 上装上它，花几欧元订一批[这样的标签](/affiliate-links/)，自己亲手轻触一枚。这绝对值得你一头扎进去，好好研究一番。
+NFC.cool Tools 能读取它们，验证芯片、验证轻触、验证防拆封条，并把整枚芯片交到你手上任你配置：每一把密钥、每个文件的权限、芯片自身的设置，甚至 LRP，全都在手机上完成。如果你曾好奇一次轻触怎么就能分辨真假，那就在 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-zh&mt=8) 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-zh) 上装上它，花几欧元订一批[这样的标签](/zh/affiliate-links/)，自己亲手轻触一枚。这绝对值得你一头扎进去，好好研究一番。

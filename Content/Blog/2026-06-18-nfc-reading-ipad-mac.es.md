@@ -20,7 +20,7 @@ Mientras estaba allí me puse a hablar con [Alexander Manzer](https://www.linked
 
 ## Os dije que esto no funcionaría
 
-En mayo, [cuando NFC.cool llegó al Mac](/blog/nfc-cool-comes-to-mac/), escribí toda una sección sobre lo que el Mac no puede hacer y puse el escaneo NFC justo al principio. Mi razonamiento era sencillo: los Mac no tienen radio NFC, los iPad no tienen radio NFC, y eso es un límite de hardware que ninguna actualización de software mía puede arreglar.
+En mayo, [cuando NFC.cool llegó al Mac](/es/blog/nfc-cool-comes-to-mac/), escribí toda una sección sobre lo que el Mac no puede hacer y puse el escaneo NFC justo al principio. Mi razonamiento era sencillo: los Mac no tienen radio NFC, los iPad no tienen radio NFC, y eso es un límite de hardware que ninguna actualización de software mía puede arreglar.
 
 Esa parte sigue siendo cierta - para el chip integrado en el dispositivo. Lo que se me escapó es que no tienes por qué usar el chip integrado. Puedes conectar uno.
 
@@ -55,7 +55,7 @@ Estos son todos los lectores que sé hasta ahora que funcionan con NFC.cool:
 - **ACS ACR1552U-M1** - un usuario reporta que funciona ([Amazon](https://amzn.to/4xZVEwe))
 - **ACS ACR1255U-J1** - un usuario reporta que funciona ([Amazon](https://amzn.to/4xZVEwe))
 
-Gracias a todos los que me han escrito. No puedo comprar todos los lectores del mercado, así que cada modelo más allá del primero está en esta lista porque alguien lo compró, lo probó y se tomó el tiempo de contármelo. Si usas un lector que no aparece aquí, [cuéntame](/contact/) si funcionó o dónde falló, y lo añado a este artículo.
+Gracias a todos los que me han escrito. No puedo comprar todos los lectores del mercado, así que cada modelo más allá del primero está en esta lista porque alguien lo compró, lo probó y se tomó el tiempo de contármelo. Si usas un lector que no aparece aquí, [cuéntame](/es/contact/) si funcionó o dónde falló, y lo añado a este artículo.
 
 Son enlaces de afiliado de Amazon: si compras a través de uno puede que gane una pequeña comisión sin coste adicional para ti.
 
@@ -69,7 +69,7 @@ Son enlaces de afiliado de Amazon: si compras a través de uno puede que gane un
 </ol>
 </figure>
 
-Casi todo lo que harías en un iPhone. Puedes leer etiquetas y volcar toda su memoria, escribir mensajes NDEF y ejecutar tareas por lotes que leen o escriben una pila entera de etiquetas una tras otra. Proteger etiquetas con contraseña funciona. También [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), el formato de bobinas de filamento para impresoras 3D, en ambas direcciones. Y sí, el [reinicio del cabezal del cepillo Philips Sonicare](/blog/reset-sonicare-brush-head-nfc/) también se ejecuta.
+Casi todo lo que harías en un iPhone. Puedes leer etiquetas y volcar toda su memoria, escribir mensajes NDEF y ejecutar tareas por lotes que leen o escriben una pila entera de etiquetas una tras otra. Proteger etiquetas con contraseña funciona. También [OpenPrintTag](/es/blog/openprinttag-read-write-nfc-spools-phone/), el formato de bobinas de filamento para impresoras 3D, en ambas direcciones. Y sí, el [reinicio del cabezal del cepillo Philips Sonicare](/es/blog/reset-sonicare-brush-head-nfc/) también se ejecuta.
 
 Esto último fue la parte difícil. Reiniciar un cabezal Sonicare significa leer un contador de la etiqueta y luego volver a escribir en una página protegida con contraseña, y la etiqueta solo acepta esa escritura si todavía te considera autenticado de un momento anterior. A través de un lector externo, eso significaba mantener una única sesión abierta con el lector durante ambos pasos en lugar de dejar que se cerrara entre uno y otro. Una vez que eso aguantó, las operaciones que dependen de ello - escrituras protegidas, el reinicio del cepillo - empezaron a comportarse como lo hacen en un móvil.
 

@@ -1,0 +1,17 @@
+# /ja/business-card/teams/ の小規模チーム向け価格比較。Content/Pages/business-card-teams.ja.md 内の
+# {{PRICING_TABLE:business-card-teams}} トークンを通じて PricingTableRenderer が描画します。
+# 数字はすべて2026-11-05に各社の料金ページで確認したものです。変更する前に確認し直し、
+# ページ本文の日付も更新してください。確認先の一覧は Content/Data/Pricing/business-card-teams.yaml にあります。
+columns: ["NFC.cool", "Wave Teams", "Blinq Business", "HiHello Business"]
+columnPills: ["is-team"]
+rows:
+  - label: "最小構成"
+    values: ["2シート", "3ユーザー", "カード5枚", "5ユーザー"]
+  - label: "1人あたり（年払い）"
+    values: ["年$50", "年$60", "年$59.88", "年$60"]
+  - label: "年間の最低費用"
+    values: ["**$100**", "**$180**", "**$299.40**", "**$300**"]
+  - label: "1人あたり（月払い）"
+    values: ["月$5", "月$7", "月$6.99", "月$6"]
+  - label: "CRM連携込み"
+    values: ["✓", "✓", "✓", "✓"]

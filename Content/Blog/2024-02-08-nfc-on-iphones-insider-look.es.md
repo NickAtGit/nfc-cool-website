@@ -18,7 +18,7 @@ Mucha de la tecnología que usamos cada día desaparece en el fondo. Haces un to
 
 **Near Field Communication** es un protocolo inalámbrico de corto alcance - dos dispositivos pueden intercambiar datos cuando están a unos 4 cm el uno del otro. Yo lo veo como un primo simplificado y de alcance mucho más corto del Bluetooth y del Wi-Fi.
 
-Ese corto alcance desconcierta a la gente al principio, pero no es una limitación. Es el modelo de seguridad, y cuando eso me quedó claro, muchas de las decisiones de diseño de NFC empezaron a tener sentido. No puedes tocar accidentalmente un terminal de pago desde el otro lado de la habitación, y un lector malicioso no puede extraer datos en silencio de tu cartera a distancia. Si esto es todo nuevo para ti, escribí una [guía para principiantes sobre etiquetas NFC](/blog/nfc-tags-beginners-guide/) que empieza desde más atrás que este artículo.
+Ese corto alcance desconcierta a la gente al principio, pero no es una limitación. Es el modelo de seguridad, y cuando eso me quedó claro, muchas de las decisiones de diseño de NFC empezaron a tener sentido. No puedes tocar accidentalmente un terminal de pago desde el otro lado de la habitación, y un lector malicioso no puede extraer datos en silencio de tu cartera a distancia. Si esto es todo nuevo para ti, escribí una [guía para principiantes sobre etiquetas NFC](/es/blog/nfc-tags-beginners-guide/) que empieza desde más atrás que este artículo.
 
 ---
 
@@ -36,7 +36,7 @@ Los dispositivos NFC operan en uno de dos roles por interacción: **activo** (al
 
 Cuando haces un pago con Apple Pay, tu iPhone es el lector activo. Genera un campo de radio a 13,56 MHz. El elemento NFC del terminal de pago se activa dentro de ese campo, se identifica y intercambia una pequeña cantidad de datos criptográficos con tu móvil. Los datos de tu tarjeta nunca salen del **Secure Element** - un chip dedicado y aislado por hardware en el teléfono. Lo que sale es un token de un solo uso.
 
-Cuando tocas un adhesivo NFC en un cartel, los roles se invierten. La etiqueta del cartel es pasiva - no tiene batería. El lector de tu iPhone la alimenta, la etiqueta responde con los registros NDEF que tenga almacenados, e iOS decide qué hacer (abrir una URL, lanzar una app, mostrar una tarjeta de contacto, activar un Atajo). Esa segunda mitad - el lado de la etiqueta - es la parte donde vive NFC.cool, y si quieres verlo en acción sin instalar nada, puedes [leer etiquetas NFC directamente desde tu navegador](/online-nfc-reader/) en Android.
+Cuando tocas un adhesivo NFC en un cartel, los roles se invierten. La etiqueta del cartel es pasiva - no tiene batería. El lector de tu iPhone la alimenta, la etiqueta responde con los registros NDEF que tenga almacenados, e iOS decide qué hacer (abrir una URL, lanzar una app, mostrar una tarjeta de contacto, activar un Atajo). Esa segunda mitad - el lado de la etiqueta - es la parte donde vive NFC.cool, y si quieres verlo en acción sin instalar nada, puedes [leer etiquetas NFC directamente desde tu navegador](/es/online-nfc-reader/) en Android.
 
 ---
 
@@ -50,7 +50,7 @@ Cuando tocas un adhesivo NFC en un cartel, los roles se invierten. La etiqueta d
 
 La capa de datos sobre la radio NFC es **NDEF** - NFC Data Exchange Format. Yo lo describo como un pequeño formato de registro autodescriptivo: una etiqueta lleva uno o más registros, y cada registro tiene un tipo (URI, texto, vCard, credenciales Wi-Fi, MIME personalizado) y un contenido.
 
-Todos los móviles con NFC del planeta hablan NDEF, por eso una etiqueta programada en un dispositivo Android se lee sin problemas en un iPhone y viceversa. Es uno de los pocos sitios en el mundo móvil donde iOS y Android comparten genuinamente un estándar, y sinceramente esa interoperabilidad es lo que más agradezco cuando construyo funcionalidades - escribo para el formato, no para una plataforma. Si quieres probar a escribir tus propios registros, lo explico todo en [cómo escribir etiquetas NFC en el iPhone](/blog/write-nfc-tags-iphone/).
+Todos los móviles con NFC del planeta hablan NDEF, por eso una etiqueta programada en un dispositivo Android se lee sin problemas en un iPhone y viceversa. Es uno de los pocos sitios en el mundo móvil donde iOS y Android comparten genuinamente un estándar, y sinceramente esa interoperabilidad es lo que más agradezco cuando construyo funcionalidades - escribo para el formato, no para una plataforma. Si quieres probar a escribir tus propios registros, lo explico todo en [cómo escribir etiquetas NFC en el iPhone](/es/blog/write-nfc-tags-iphone/).
 
 ---
 
@@ -61,7 +61,7 @@ Vale la pena mencionar dos capas de defensa, y son las dos que más me encuentro
 - **Alcance.** Unos pocos centímetros son difíciles de interceptar sin una antena perceptible - este es el modelo de amenaza original alrededor del cual se diseñó NFC.
 - **Tokenización.** Apple Pay nunca transmite el número real de tu tarjeta. Cada transacción usa un Device Account Number más un criptograma de un solo uso, generado dentro del Secure Element. Ni siquiera un terminal comprometido puede reproducirlo.
 
-Para la lectura de etiquetas, la superficie de amenaza es diferente - la propia etiqueta es lo que se está confiando. Si controlas lo que hay en la etiqueta (tus propias automatizaciones del hogar, tu tarjeta de visita), no hay problema. Si tocas una etiqueta aleatoria en un espacio público, deberías ver igualmente un diálogo de confirmación en iOS antes de que ocurra nada. Cuando realmente necesito que una etiqueta guarde un secreto en lugar de simplemente apuntar a uno, recurro a etiquetas criptográficas, y lo traté en [guardar secretos seguros y cifrados en etiquetas NFC](/blog/nfc-safe-encrypted-secrets/).
+Para la lectura de etiquetas, la superficie de amenaza es diferente - la propia etiqueta es lo que se está confiando. Si controlas lo que hay en la etiqueta (tus propias automatizaciones del hogar, tu tarjeta de visita), no hay problema. Si tocas una etiqueta aleatoria en un espacio público, deberías ver igualmente un diálogo de confirmación en iOS antes de que ocurra nada. Cuando realmente necesito que una etiqueta guarde un secreto en lugar de simplemente apuntar a uno, recurro a etiquetas criptográficas, y lo traté en [guardar secretos seguros y cifrados en etiquetas NFC](/es/blog/nfc-safe-encrypted-secrets/).
 
 ---
 

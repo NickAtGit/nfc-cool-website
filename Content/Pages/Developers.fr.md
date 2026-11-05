@@ -88,7 +88,7 @@ Activez-les dans **onglet Plus → Webhook** à l'intérieur de l'app : saisisse
 
 L'app envoie un seul `POST` par scan vers l'URL que vous avez configurée. Il n'y a pas de file de nouvelles tentatives séparée : si votre endpoint est injoignable ou renvoie une réponse non 2xx, le POST du scan échoue. Visez `204 No Content` en cas de succès ; tout code 2xx est considéré comme accepté.
 
-Cette page est la référence technique. Pour un aperçu de la fonctionnalité - les quatre autres points d'automatisation iOS, les tarifs et la FAQ - consultez la [page de la fonctionnalité Webhooks et automatisation](/features/webhooks/).
+Cette page est la référence technique. Pour un aperçu de la fonctionnalité - les quatre autres points d'automatisation iOS, les tarifs et la FAQ - consultez la [page de la fonctionnalité Webhooks et automatisation](/fr/features/webhooks/).
 
 </section>
 

@@ -70,7 +70,7 @@ La spécification couvre même des champs propres à la résine comme `last_stir
 
 ## Le tag : pas votre autocollant NFC habituel
 
-Voici un détail technique que je signalerais avant tout achat : **OpenPrintTag est conçu pour les tags ISO 15693 (NFC-V)**, en particulier les puces **NXP ICODE SLIX et ICODE SLIX2**. Ce sont des tags NFC Forum Type 5 avec une portée de lecture nettement plus grande que les tags NFC-A standard, jusqu'à 1,5 mètre avec un lecteur dédié. Si vous n'avez jamais acheté que les autocollants NTAG bon marché qu'utilisent la plupart des projets, c'est une famille de tags différente - je couvre tout le paysage dans [les types de tags NFC pour iPhone](/blog/nfc-tag-types-for-iphones/).
+Voici un détail technique que je signalerais avant tout achat : **OpenPrintTag est conçu pour les tags ISO 15693 (NFC-V)**, en particulier les puces **NXP ICODE SLIX et ICODE SLIX2**. Ce sont des tags NFC Forum Type 5 avec une portée de lecture nettement plus grande que les tags NFC-A standard, jusqu'à 1,5 mètre avec un lecteur dédié. Si vous n'avez jamais acheté que les autocollants NTAG bon marché qu'utilisent la plupart des projets, c'est une famille de tags différente - je couvre tout le paysage dans [les types de tags NFC pour iPhone](/fr/blog/nfc-tag-types-for-iphones/).
 
 Pourquoi le NFC-V ? Le lecteur NFC intégré d'une imprimante doit détecter la bobine quelle que soit son orientation. La portée plus longue du NFC-V rend cela possible sans exiger un alignement précis du tag, ce qui est un choix de conception malin.
 
@@ -107,7 +107,7 @@ NFC.cool Tools prend en charge OpenPrintTag nativement sur [iOS](https://apps.ap
 **Mettre à jour le matériau restant :**
 Après une impression, mettez à jour le champ du poids consommé sur le tag. La prochaine fois que vous scannerez, vous saurez exactement combien de filament il reste, sans deviner, sans peser. C'est ce qui fait passer la bobine intelligente du gadget à quelque chose sur lequel je m'appuierais vraiment.
 
-Si vous voulez regarder sous le capot, vous pouvez utiliser le Mode Expert pour inspecter les enregistrements NDEF bruts - pratique quand vous devez déboguer un tag ou vérifier la structure des données. Vous débutez dans l'écriture de tags en général ? Je passe en revue les bases dans [comment écrire des tags NFC sur iPhone](/blog/write-nfc-tags-iphone/).
+Si vous voulez regarder sous le capot, vous pouvez utiliser le Mode Expert pour inspecter les enregistrements NDEF bruts - pratique quand vous devez déboguer un tag ou vérifier la structure des données. Vous débutez dans l'écriture de tags en général ? Je passe en revue les bases dans [comment écrire des tags NFC sur iPhone](/fr/blog/write-nfc-tags-iphone/).
 
 ---
 
@@ -159,6 +159,6 @@ J'ai vu l'industrie de l'impression 3D avoir besoin d'une norme ouverte pour les
 - Des tags NFC ICODE SLIX2 / ISO 15693 vierges ([Amazon US](https://amzn.to/3LTh1fT) / [Amazon Europe](https://amzn.to/4oJpQr4), liens affiliés)
 - Quelques bobines de filament à étiqueter
 
-C'est tout. Dans cinq minutes, votre première bobine pourrait être intelligente. Si le NFC lui-même est nouveau pour vous, mon [guide des tags NFC pour débutants](/blog/nfc-tags-beginners-guide/) est l'endroit où je vous orienterais en premier, et la [page de la fonction lecteur/enregistreur NFC](/features/nfc-reader-writer/) présente ce que NFC.cool Tools peut faire au-delà d'OpenPrintTag.
+C'est tout. Dans cinq minutes, votre première bobine pourrait être intelligente. Si le NFC lui-même est nouveau pour vous, mon [guide des tags NFC pour débutants](/fr/blog/nfc-tags-beginners-guide/) est l'endroit où je vous orienterais en premier, et la [page de la fonction lecteur/enregistreur NFC](/fr/features/nfc-reader-writer/) présente ce que NFC.cool Tools peut faire au-delà d'OpenPrintTag.
 
 *OpenPrintTag est une initiative open source de Prusa Research. NFC.cool en est un soutien indépendant. En savoir plus sur [openprinttag.org](https://openprinttag.org).*

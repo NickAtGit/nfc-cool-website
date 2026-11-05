@@ -20,7 +20,7 @@ Saat di sana saya sempat mengobrol dengan [Alexander Manzer](https://www.linkedi
 
 ## Saya bilang ini tidak akan berhasil
 
-Pada bulan Mei lalu, [ketika NFC.cool hadir di Mac](/blog/nfc-cool-comes-to-mac/), saya menulis satu bagian utuh tentang apa yang tidak bisa dilakukan Mac dan menempatkan pemindaian NFC tepat di urutan teratas. Alasan saya sederhana: Mac tidak memiliki radio NFC, iPad tidak memiliki radio NFC, dan itu adalah batas perangkat keras yang tidak bisa diperbaiki oleh pembaruan perangkat lunak apa pun dari saya.
+Pada bulan Mei lalu, [ketika NFC.cool hadir di Mac](/id/blog/nfc-cool-comes-to-mac/), saya menulis satu bagian utuh tentang apa yang tidak bisa dilakukan Mac dan menempatkan pemindaian NFC tepat di urutan teratas. Alasan saya sederhana: Mac tidak memiliki radio NFC, iPad tidak memiliki radio NFC, dan itu adalah batas perangkat keras yang tidak bisa diperbaiki oleh pembaruan perangkat lunak apa pun dari saya.
 
 Bagian itu masih benar - untuk chip yang tertanam di dalam perangkat. Yang saya lewatkan adalah Anda tidak harus menggunakan chip bawaan. Anda bisa mencolokkan satu.
 
@@ -55,7 +55,7 @@ Ini semua pembaca yang sejauh ini saya tahu berfungsi dengan NFC.cool:
 - **ACS ACR1552U-M1** - dilaporkan berfungsi oleh seorang pengguna ([Amazon](https://amzn.to/4xZVEwe))
 - **ACS ACR1255U-J1** - dilaporkan berfungsi oleh seorang pengguna ([Amazon](https://amzn.to/4xZVEwe))
 
-Terima kasih kepada semua yang sudah menulis kepada saya. Saya tidak bisa membeli setiap pembaca yang ada di pasaran, jadi setiap model setelah yang pertama ada di daftar ini karena seseorang membelinya, mencobanya, dan menyempatkan diri memberi tahu saya. Kalau Anda memakai pembaca yang belum ada di sini, [beri tahu saya](/contact/) apakah berhasil atau di bagian mana yang gagal, dan akan saya tambahkan ke tulisan ini.
+Terima kasih kepada semua yang sudah menulis kepada saya. Saya tidak bisa membeli setiap pembaca yang ada di pasaran, jadi setiap model setelah yang pertama ada di daftar ini karena seseorang membelinya, mencobanya, dan menyempatkan diri memberi tahu saya. Kalau Anda memakai pembaca yang belum ada di sini, [beri tahu saya](/id/contact/) apakah berhasil atau di bagian mana yang gagal, dan akan saya tambahkan ke tulisan ini.
 
 Itu adalah tautan afiliasi Amazon: jika Anda membeli melalui salah satunya, saya mungkin mendapat komisi kecil tanpa biaya tambahan bagi Anda.
 
@@ -69,7 +69,7 @@ Itu adalah tautan afiliasi Amazon: jika Anda membeli melalui salah satunya, saya
 </ol>
 </figure>
 
-Hampir semua yang akan Anda lakukan di iPhone. Anda bisa membaca tag dan menampilkan seluruh isi memorinya, menulis pesan NDEF, dan menjalankan tugas batch yang membaca atau menulis setumpuk tag satu per satu. Memproteksi tag dengan kata sandi berfungsi. Begitu pula [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/), format gulungan filamen printer 3D, dalam dua arah. Dan ya, [reset kepala sikat Philips Sonicare](/blog/reset-sonicare-brush-head-nfc/) juga berjalan.
+Hampir semua yang akan Anda lakukan di iPhone. Anda bisa membaca tag dan menampilkan seluruh isi memorinya, menulis pesan NDEF, dan menjalankan tugas batch yang membaca atau menulis setumpuk tag satu per satu. Memproteksi tag dengan kata sandi berfungsi. Begitu pula [OpenPrintTag](/id/blog/openprinttag-read-write-nfc-spools-phone/), format gulungan filamen printer 3D, dalam dua arah. Dan ya, [reset kepala sikat Philips Sonicare](/id/blog/reset-sonicare-brush-head-nfc/) juga berjalan.
 
 Yang terakhir itu adalah bagian yang sulit. Mereset kepala Sonicare berarti membaca penghitung dari tag lalu menulis kembali ke halaman yang diproteksi kata sandi, dan tag hanya menerima tulisan itu jika masih menganggap Anda terotentikasi dari sesaat sebelumnya. Melalui pembaca eksternal, itu berarti menjaga satu sesi dengan pembaca tetap terbuka di kedua langkah, alih-alih membiarkannya tertutup di antaranya. Begitu itu berhasil dipertahankan, operasi yang bergantung padanya - penulisan terproteksi, reset sikat - mulai berperilaku seperti di ponsel.
 

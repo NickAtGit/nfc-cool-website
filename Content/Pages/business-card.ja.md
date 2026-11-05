@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# NFC.coolデジタル名刺
 
-名刺をスマホの中に。個人にも、チームにも。NFCタッチやQRコードで渡せて、何人が保存したかもわかります。
+デジタル名刺をスマホの中に。個人にも、チームにも。NFCタッチやQRコードで渡せて、何人が保存したかもわかります。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ja&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## 料金プラン
 
-個人でもチームでも。Freeも含め、どのカードも連絡先として保存できます。PersonalとProはアプリ内で購入でき、リード、アナリティクス、当社の名前が入らないカードが加わります。チームはWebから14日間無料で始められ、料金は1人あたりの年払いまたは月払いです。ユーロ建てでも、チーム料金の数字は同じです。
+個人でもチームでも。Freeも含め、どのカードも連絡先として保存できます。PersonalとProはアプリ内で購入でき、リード、アナリティクス、当社の名前が入らないカードが加わります。チームはWebから14日間無料で始められ、料金は1人あたりの年払いまたは月払いです。ユーロ建てでも、チーム料金の数字は同じです。[チームの料金と他社との比較を見る](/ja/business-card/teams/)。
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <article class="page-card">
 <h3>スマート名刺</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>デジタルカード作成</strong> - ブランドにマッチしたデザイン</li>
+<li><strong>デジタル名刺</strong> - ブランドに合わせてデザイン</li>
 <li><strong>Proなら最大10枚</strong> - 役割、ブランド、イベントごとに使い分け</li>
 <li><strong>連絡先からインポート</strong> - 既存の連絡先をそのままカードへ</li>
 <li><strong>常に最新</strong> - 編集は即時反映、再印刷不要</li>
@@ -145,7 +145,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <article class="page-card">
 <h3>プライバシー・セキュリティ</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>PIN保護プロフィール</strong> - 4桁PIN、試行回数の制限つき</li>
+<li><strong>PIN保護プロフィール</strong> - 非公開カードに4桁のPIN</li>
 <li><strong>公開/非公開の切替</strong> - 非公開カードはPINがないと開けません</li>
 <li><strong>GDPRデータのエクスポート</strong> - いつでもZIPでダウンロード</li>
 <li><strong>セッション保護</strong> - PINセッションは自動でタイムアウト</li>
@@ -181,7 +181,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## チームでできること
 
-個人のカードは1人のものです。チームのカードは会社のものなので、できることが変わります。
+個人のカードは1人のものです。チームのカードは会社のものなので、できることが変わります。[チーム向けデジタル名刺](/ja/business-card/teams/)について、詳しくはこちらをご覧ください。
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>すべてのリードを1つの受信箱に</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>チームが集めたリードは、すべて1つの共有受信箱に届きます。担当者と進捗を確認し、適切な人に割り当て、まとめてスプレッドシートにエクスポートできます。</p></article>
@@ -249,7 +249,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <details class="faq-item">
 <summary>有料プランを解約するとどうなりますか？</summary>
-<p>何も削除されず、カードはオンラインのままです。新しいリードは届かなくなり、相手が連絡先に保存できるカードは、プランの上限枚数までになります。残りのカードはロックされた状態で表示されます。</p>
+<p>何も削除されません。PersonalやProでは、カードはオンラインのままです。新しいリードは届かなくなり、相手が連絡先に保存できるカードは、プランの上限枚数までになります。残りのカードはロックされた状態で表示されます。チームの場合は、サブスクリプションの終了後、再度登録するまでカードに「一時的に利用できません」というページが表示され、再登録すればすべて元どおりになります。</p>
 </details>
 
 </div>

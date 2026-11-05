@@ -4,7 +4,7 @@ title: "NFC Safe：把加密的机密信息存进耐用的 NFC 标签"
 date: "2026-05-03"
 tags: ["nfc-tags", "privacy"]
 summary: "在环氧树脂封装的 NFC 标签上用 256 位 AES 加密。纸质备份会被烧毁，云端备份会宕机，NFC 标签不会。"
-metaDescription: "NFC Safe 用 256 位 AES 把你的助记词、密码、恢复码等机密加密写入 NFC 标签。无需云端，无需账户，只需要这枚实体标签和你的密码短语。"
+metaDescription: "NFC Safe 用 256 位 AES 把你的助记词、密码、恢复码等机密加密写入 NFC 标签。无需云端，无需账户，只需要这枚实体标签和你的密码短语。这篇还讲讲冗余策略、安全提示，以及为什么选 NFC 而不是 USB 或 SD 卡。"
 image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
 imageAlt: "手机、NFC 卡片、盾牌和锁，代表加密的 NFC 机密信息"
 author: "Nicolo Stanciu"
@@ -24,7 +24,7 @@ author: "Nicolo Stanciu"
 
 如果你让我说出我见过的每一种机密信息存储方式的弱点，我不假思索就能答出来：纸会烧掉，USB 接口会腐蚀，云服务会被攻破，硬件钱包只能管加密货币助记词，而你的大脑会遗忘。每种方案都有它自己的失效方式。
 
-于是我反向推导。理想的备份应该是物理上耐用、加密、自包含、可冗余而且能长久保存的。NFC 标签把这五点全占齐了，一开始这一点也让我意外。它们没有电池、没有活动部件，而 NTAG216 芯片的数据保存期标定为 10 年以上。环氧树脂封装的型号能扛住水浸、撞击和数十年的搁置不管。如果你还不清楚这些芯片有什么区别，我在 [iPhone 上的 NFC 标签类型](/blog/nfc-tag-types-for-iphones/)一文里拆解过各种取舍。
+于是我反向推导。理想的备份应该是物理上耐用、加密、自包含、可冗余而且能长久保存的。NFC 标签把这五点全占齐了，一开始这一点也让我意外。它们没有电池、没有活动部件，而 NTAG216 芯片的数据保存期标定为 10 年以上。环氧树脂封装的型号能扛住水浸、撞击和数十年的搁置不管。如果你还不清楚这些芯片有什么区别，我在 [iPhone 上的 NFC 标签类型](/zh/blog/nfc-tag-types-for-iphones/)一文里拆解过各种取舍。
 
 ---
 
@@ -51,7 +51,7 @@ NFC Safe 位于 NFC.cool Tools 里的 NFC Apps 下。我把整个功能压缩到
 2. 输入你的口令
 3. 轻触一枚之前加密过的标签，你的机密信息就会显示出来
 
-底层我实际做的是这些：AES-256-GCM 配合 PBKDF2（HMAC-SHA-256，10 万次迭代，16 字节随机盐）。结果以一条自定义 NDEF 记录（`urn:nfc:ext:crypto`）的形式存储在标签上。如果你不想只听我说，而是想自己验证这些细节，完整的[格式规范就在 GitHub 上](https://github.com/NickAtGit/nfc.cool-nfc-safe-format)。如果你想先了解一次普通的、未加密的标签写入是什么样子，我在[如何在 iPhone 上写入 NFC 标签](/blog/write-nfc-tags-iphone/)一文里逐步讲过。
+底层我实际做的是这些：AES-256-GCM 配合 PBKDF2（HMAC-SHA-256，10 万次迭代，16 字节随机盐）。结果以一条自定义 NDEF 记录（`urn:nfc:ext:crypto`）的形式存储在标签上。如果你不想只听我说，而是想自己验证这些细节，完整的[格式规范就在 GitHub 上](https://github.com/NickAtGit/nfc.cool-nfc-safe-format)。如果你想先了解一次普通的、未加密的标签写入是什么样子，我在[如何在 iPhone 上写入 NFC 标签](/zh/blog/write-nfc-tags-iphone/)一文里逐步讲过。
 
 ---
 
@@ -89,8 +89,8 @@ NFC Safe 位于 NFC.cool Tools 里的 NFC Apps 下。我把整个功能压缩到
 
 ## 更大的图景
 
-每天跟 NFC 打交道，我眼看着这些标签悄悄成为存放重要东西的介质。欧盟数字产品护照（EU Digital Product Passport）把 NFC 列为认可的数据载体之一，与二维码并列。飞利浦把它们装进牙刷头里。酒店用它们做房卡。便宜、耐用，而且能被你口袋里已有的设备普遍读取，这样的组合并不多见，这也正是我不断为它们找到新用途的原因。如果你想了解更全面的内容，我在 [NFC 标签详解：完全新手指南](/blog/nfc-tags-beginners-guide/)里讲过基础知识。
+每天跟 NFC 打交道，我眼看着这些标签悄悄成为存放重要东西的介质。欧盟数字产品护照（EU Digital Product Passport）把 NFC 列为认可的数据载体之一，与二维码并列。飞利浦把它们装进牙刷头里。酒店用它们做房卡。便宜、耐用，而且能被你口袋里已有的设备普遍读取，这样的组合并不多见，这也正是我不断为它们找到新用途的原因。如果你想了解更全面的内容，我在 [NFC 标签详解：完全新手指南](/zh/blog/nfc-tags-beginners-guide/)里讲过基础知识。
 
 NFC Safe 是我想把这份耐用性补上它唯一欠缺的那样东西的尝试，那就是加密。一份比纸更耐久、任何捡到它的人都读不出来、而且成本不到一杯咖啡的备份。这正是我想为自己拥有的东西，所以我把它做了出来。
 
-现已在 [iPhone 版 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-safe-encrypted-secrets-en) 上线。
+现已在 [iPhone 版 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-safe-encrypted-secrets-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-safe-encrypted-secrets-zh) 上线。

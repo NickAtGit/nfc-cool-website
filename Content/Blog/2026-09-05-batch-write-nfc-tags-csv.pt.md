@@ -24,7 +24,7 @@ Aqui fica o processo completo, da folha de cálculo até à última tag. Funcion
 
 Dá um ficheiro CSV à aplicação e cada linha passa a ser uma tag. A aplicação mostra-lhe uma pré-visualização do que vai ficar em cada tag. Toca em Iniciar gravação e, a partir daí, é só ir encostando as tags ao telemóvel, uma a seguir à outra. Cada linha gravada é removida do ficheiro, por isso a lista no ecrã é sempre o que ainda falta. Pode parar a qualquer momento e continuar mais tarde, mesmo dias depois.
 
-Se nunca gravou uma tag NFC, comece pelo meu [guia para gravar tags NFC com o iPhone](/blog/write-nfc-tags-iphone/). Este artigo é sobre gravar muitas de uma vez.
+Se nunca gravou uma tag NFC, comece pelo meu [guia para gravar tags NFC com o iPhone](/pt/blog/write-nfc-tags-iphone/). Este artigo é sobre gravar muitas de uma vez.
 
 ---
 
@@ -120,7 +120,7 @@ Na NFC.cool Tools, abra o ecrã Ferramentas NFC e procure **Escrita em lote CSV*
 
 A aplicação faz a sua própria cópia do ficheiro. À medida que grava tags, as linhas vão sendo removidas dessa cópia. A folha de cálculo original no computador fica como está, por isso tem sempre a lista completa.
 
-Assim que o ficheiro está selecionado, a aplicação mostra o que detetou: o delimitador, o número de colunas, o modo de agrupamento e de quantas tags vai precisar. O número que verifico sempre é **Bytes por etiqueta NFC**, o tamanho da maior mensagem do lote. Compare-o com as suas tags. Um NTAG213 leva 144 bytes, um NTAG215 504 e um NTAG216 888. Um link curto anda à volta dos 50 bytes, por isso as tags mais baratas chegam perfeitamente para links. Um registo Wi-Fi ou um cartão de contacto mais comprido precisa de um 215 ou de um 216. Se não sabe ao certo qual é o chip das suas tags, dê uma vista de olhos ao meu [guia sobre os tipos de tags NFC](/blog/nfc-tag-types-for-iphones/).
+Assim que o ficheiro está selecionado, a aplicação mostra o que detetou: o delimitador, o número de colunas, o modo de agrupamento e de quantas tags vai precisar. O número que verifico sempre é **Bytes por etiqueta NFC**, o tamanho da maior mensagem do lote. Compare-o com as suas tags. Um NTAG213 leva 144 bytes, um NTAG215 504 e um NTAG216 888. Um link curto anda à volta dos 50 bytes, por isso as tags mais baratas chegam perfeitamente para links. Um registo Wi-Fi ou um cartão de contacto mais comprido precisa de um 215 ou de um 216. Se não sabe ao certo qual é o chip das suas tags, dê uma vista de olhos ao meu [guia sobre os tipos de tags NFC](/pt/blog/nfc-tag-types-for-iphones/).
 
 Abra a **Pré-visualização do lote** para ver cada tag com os registos que vai receber. O que vê ali é exatamente o que vai ser gravado.
 

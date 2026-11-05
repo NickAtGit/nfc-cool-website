@@ -2,12 +2,13 @@
 id: nfc-blog-012
 title: "分享你的电子名片，无需让任何人下载 App"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "你的电子名片应该让接收方即刻就能用上，无需下载、毫无阻力。本文讲讲 App Clip 和即时网页档案是如何做到这一点的。"
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
 imageAlt: "两部手机正在分享电子名片，无需下载 App"
 metaTitle: "分享你的电子名片，无需让任何人下载 App"
-metaDescription: "没人愿意仅仅为了看一眼你的联系方式就装一个 App。来了解 NFC.cool 如何在 iOS 上用 App Clip、在 Android 上用即时网页档案，带来无缝的接收方体验。"
+metaDescription: "没人愿意仅仅为了看一眼你的联系方式就装一个 App。来了解 NFC.cool 如何在 iOS 上用 App Clip、在 Android 上用即时网页档案，带来无缝的接收方体验：轻触或扫码后一键保存联系人，无需下载，也不用注册。"
 ogTitle: "无需下载 App 的电子名片"
 ogDescription: "App Clip 和网页档案如何让任何人都能即刻收到你的电子名片：无需下载、毫无阻力、没有广告。"
 ---
@@ -55,10 +56,10 @@ App Clip 不是一个伪装成 App 的网页。它是真正的原生 iOS 代码�
 1. **轻触或扫描**：接收方把 iPhone 靠近你的 NFC 名片，或者扫描你的二维码
 2. **即时加载**：App Clip 在两秒内出现，无需访问 App Store
 3. **完整档案**：你的姓名、照片、公司、电话、邮箱、社交媒体链接和网站
-4. **一键保存**：屏幕底部有一个「保存联系人」按钮，正好落在拇指自然停留的位置。轻触一下，所有信息都会保存到他们的通讯录 App
+4. **一键保存**：屏幕底部有一个“保存联系人”按钮，正好落在拇指自然停留的位置。轻触一下，所有信息都会保存到他们的通讯录 App
 5. **用他们的语言**：App Clip 支持 35 种语言，并会自动匹配接收方设备的语言。无论你把名片递给东京、圣保罗还是柏林的人，他们看到的都是自己的语言
 
-无需注册账户。没有注册提示。没有广告。没有跟踪链接。只有你的联系方式，几秒钟就保存好了。
+不用创建账户。不用注册任何东西。没有广告。没有跟踪链接。只有你的联系方式，几秒钟就保存好了。
 
 保存之后，接收方会看到一句温和的邀请，让他们也来创建自己的 NFC.cool 电子名片。仅此而已：没有强行推销，没有强制注册。
 
@@ -78,7 +79,7 @@ Android 接收方会得到一个托管在 nfc.cool 上的干净网页档案。�
 
 **信任感**：iOS 用户习惯了原生体验。App Clip 看起来、用起来就像是 Apple 内置在系统里的东西。没有浏览器外框，没有地址栏，没有 Cookie 同意弹窗，只有你的名片。
 
-**可靠性**：原生代码通过 iOS 自身的框架来处理联系人保存，这意味着保存操作每次都能稳定生效。没有浏览器的各种怪毛病，也没有「到底存上了没有？」的不确定感。
+**可靠性**：原生代码通过 iOS 自身的框架来处理联系人保存，这意味着保存操作每次都能稳定生效。没有浏览器的各种怪毛病，也没有“到底存上了没有？”的不确定感。
 
 **本地化**：网页可以被翻译，但原生 App Clip 会按照 iOS 用户的预期把一切都本地化（界面标签、按钮文字、日期格式、联系人字段顺序）。NFC.cool 原生支持 35 种语言，所以无论接收方说英语、日语、葡萄牙语还是阿拉伯语，他们的体验都是本地化的。
 
@@ -90,10 +91,10 @@ Android 接收方会得到一个托管在 nfc.cool 上的干净网页档案。�
 
 当有人收到你的 NFC.cool 电子名片时：
 
-- **没有广告**：档案页面不会推广 NFC.cool，也不会显示第三方广告
+- **没有广告**：档案页面不显示第三方广告。Free 名片底部有一行小字“Made with NFC.cool”，付费方案则不带这一行
 - **没有跟踪跳转**：你的链接就是你真实的链接，不会被包进分析链接里
-- **没有骚扰**：接收方不会收到 NFC.cool 后续发来的、催他们注册的邮件
-- **不收集数据**：接收方的信息不会被用于营销
+- **没有来自 NFC.cool 的营销**：NFC.cool 不会向查看你名片的人发送营销信息。在 Team 方案上，你的团队可以给通过线索表单留下信息的人发送跟进邮件
+- **不出售数据**：NFC.cool 不会出售你的数据，也不会出售查看你名片的人的数据
 
 这一点的重要性超出大多数人的想象。你的名片往往是别人对你的第一印象。如果轻触你的名片之后跳出的是一个塞满横幅广告的杂乱页面，或者第二天就给接收方发来垃圾邮件，那反映的是你，而不只是那个 App。
 
@@ -107,7 +108,7 @@ Android 接收方会得到一个托管在 nfc.cool 上的干净网页档案。�
 </ol>
 </figure>
 
-在会议和活动上，你会把名片分享几十次。NFC.cool 有一个叫「会议模式」的功能，它利用 iOS 的实时活动（Live Activities）把一个二维码直接放到你的锁屏上。
+在会议和活动上，你会把名片分享几十次。NFC.cool 有一个叫“会议模式”的功能，它利用 iOS 的实时活动（Live Activities）把一个二维码直接放到你的锁屏上。
 
 无需解锁手机、打开 App 或翻到你的名片。只要亮出锁屏，对方扫描二维码，剩下的就交给 App Clip。
 
@@ -119,7 +120,7 @@ Android 接收方会得到一个托管在 nfc.cool 上的干净网页档案。�
 
 **作为名片持有者：**
 
-- 下载 NFC.cool Business Card（[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en)）
+- 下载 NFC.cool Business Card（[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-zh&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-zh)）
 - 填上你的资料、照片和社交链接，创建你的名片
 - 通过 NFC 标签、二维码或直接链接分享
 
@@ -127,4 +128,4 @@ Android 接收方会得到一个托管在 nfc.cool 上的干净网页档案。�
 
 - 什么都不用做。这正是关键所在。
 
-*NFC.cool Business Card 在 iOS 和 Android 上均可使用。App Clip 是 iOS 上的功能；Android 接收方收到的是即时网页档案。*
+*[NFC.cool Business Card](/zh/business-card/) 在 iOS 和 Android 上都能使用，它的页面列出了每个方案包含的内容。iPhone 接收方看到的是原生 App Clip，Android 接收方看到的是即时网页档案。*

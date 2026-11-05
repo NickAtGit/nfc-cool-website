@@ -18,7 +18,7 @@ Banyak teknologi yang kita gunakan setiap hari menghilang ke latar belakang. And
 
 **Near Field Communication** adalah protokol nirkabel jarak pendek - dua perangkat dapat bertukar data ketika berada dalam jarak sekitar 4 cm satu sama lain. Saya menganggapnya sebagai saudara yang disederhanakan dengan jangkauan jauh lebih pendek dari Bluetooth dan Wi-Fi.
 
-Jangkauan pendek itu membuat orang bingung pada awalnya, tetapi itu bukan keterbatasan. Itu adalah model keamanannya, dan begitu hal itu masuk akal bagi saya, banyak pilihan desain NFC menjadi jelas. Anda tidak bisa secara tidak sengaja mengetuk terminal pembayaran dari seberang ruangan, dan pembaca berbahaya tidak bisa diam-diam menyedot data dari dompet Anda dari kejauhan. Jika Anda baru mengenal semua ini, saya menulis [panduan pemula tentang tag NFC](/blog/nfc-tags-beginners-guide/) yang memulai dari titik yang lebih awal dari postingan ini.
+Jangkauan pendek itu membuat orang bingung pada awalnya, tetapi itu bukan keterbatasan. Itu adalah model keamanannya, dan begitu hal itu masuk akal bagi saya, banyak pilihan desain NFC menjadi jelas. Anda tidak bisa secara tidak sengaja mengetuk terminal pembayaran dari seberang ruangan, dan pembaca berbahaya tidak bisa diam-diam menyedot data dari dompet Anda dari kejauhan. Jika Anda baru mengenal semua ini, saya menulis [panduan pemula tentang tag NFC](/id/blog/nfc-tags-beginners-guide/) yang memulai dari titik yang lebih awal dari postingan ini.
 
 ---
 
@@ -36,7 +36,7 @@ Perangkat NFC beroperasi dalam salah satu dari dua peran per interaksi: **aktif*
 
 Ketika Anda melakukan pembayaran Apple Pay, iPhone Anda adalah pembaca aktif. Ia menghasilkan medan radio pada 13,56 MHz. Elemen NFC terminal pembayaran terbangun di dalam medan itu, mengidentifikasi dirinya, dan bertukar sejumlah kecil muatan kriptografis dengan ponsel Anda. Data kartu Anda tidak pernah meninggalkan **Elemen Aman** - chip yang terdedikasi dan terisolasi secara perangkat keras di ponsel. Yang keluar adalah token sekali pakai.
 
-Ketika Anda mengetuk stiker NFC di poster, peran dibalik. Tag poster bersifat pasif - tidak memiliki baterai. Pembaca iPhone Anda memberinya daya, tag merespons dengan rekaman NDEF apa pun yang tersimpan di dalamnya, dan iOS memutuskan apa yang harus dilakukan (membuka URL, meluncurkan aplikasi, menampilkan kartu kontak, memicu Shortcut). Bagian kedua itu - sisi tag - adalah tempat NFC.cool berada, dan jika Anda ingin melihatnya beraksi tanpa menginstal apa pun, Anda bisa [membaca tag NFC langsung dari browser Anda](/online-nfc-reader/) di Android.
+Ketika Anda mengetuk stiker NFC di poster, peran dibalik. Tag poster bersifat pasif - tidak memiliki baterai. Pembaca iPhone Anda memberinya daya, tag merespons dengan rekaman NDEF apa pun yang tersimpan di dalamnya, dan iOS memutuskan apa yang harus dilakukan (membuka URL, meluncurkan aplikasi, menampilkan kartu kontak, memicu Shortcut). Bagian kedua itu - sisi tag - adalah tempat NFC.cool berada, dan jika Anda ingin melihatnya beraksi tanpa menginstal apa pun, Anda bisa [membaca tag NFC langsung dari browser Anda](/id/online-nfc-reader/) di Android.
 
 ---
 
@@ -50,7 +50,7 @@ Ketika Anda mengetuk stiker NFC di poster, peran dibalik. Tag poster bersifat pa
 
 Lapisan data di atas radio NFC adalah **NDEF** - NFC Data Exchange Format. Saya menggambarkannya sebagai format rekaman kecil yang mendeskripsikan dirinya sendiri: sebuah tag membawa satu atau lebih rekaman, dan setiap rekaman memiliki tipe (URI, teks, vCard, kredensial Wi-Fi, MIME khusus) dan muatan.
 
-Setiap ponsel berkemampuan NFC di seluruh dunia berbicara NDEF, itulah mengapa tag yang diprogram di perangkat Android akan terbaca dengan baik di iPhone dan sebaliknya. Ini adalah salah satu dari sedikit tempat di mobile di mana iOS dan Android benar-benar berbagi standar, dan jujur saja interoperabilitas itu adalah hal yang paling saya syukuri saat membangun fitur - saya menulis ke format, bukan ke platform. Jika Anda ingin mencoba menulis rekaman Anda sendiri, saya membahasnya di [cara menulis tag NFC di iPhone](/blog/write-nfc-tags-iphone/).
+Setiap ponsel berkemampuan NFC di seluruh dunia berbicara NDEF, itulah mengapa tag yang diprogram di perangkat Android akan terbaca dengan baik di iPhone dan sebaliknya. Ini adalah salah satu dari sedikit tempat di mobile di mana iOS dan Android benar-benar berbagi standar, dan jujur saja interoperabilitas itu adalah hal yang paling saya syukuri saat membangun fitur - saya menulis ke format, bukan ke platform. Jika Anda ingin mencoba menulis rekaman Anda sendiri, saya membahasnya di [cara menulis tag NFC di iPhone](/id/blog/write-nfc-tags-iphone/).
 
 ---
 
@@ -61,7 +61,7 @@ Dua lapisan pertahanan layak disebutkan, dan keduanya adalah yang paling sering 
 - **Jangkauan.** Beberapa sentimeter sulit untuk disadap tanpa antena yang mencolok - ini adalah model ancaman asli yang menjadi dasar desain NFC.
 - **Tokenisasi.** Apple Pay tidak pernah mengirimkan nomor kartu nyata Anda. Setiap transaksi menggunakan Nomor Akun Perangkat ditambah satu kriptogram sekali pakai, yang dihasilkan di dalam Elemen Aman. Bahkan terminal yang dikompromikan pun tidak bisa memutarnya kembali.
 
-Untuk pembacaan tag, permukaan ancaman berbeda - tag itu sendiri adalah hal yang dipercaya. Jika Anda mengontrol apa yang ada di tag (otomasi rumah Anda sendiri, kartu nama Anda), Anda baik-baik saja. Jika Anda mengetuk tag acak di ruang publik, Anda masih harus melihat prompt konfirmasi di iOS sebelum apa pun terjadi. Ketika saya benar-benar memerlukan tag untuk menyimpan rahasia daripada sekadar menunjuk ke salah satunya, saya menggunakan tag kriptografis, dan saya membahasnya di [menyimpan rahasia yang aman dan terenkripsi di tag NFC](/blog/nfc-safe-encrypted-secrets/).
+Untuk pembacaan tag, permukaan ancaman berbeda - tag itu sendiri adalah hal yang dipercaya. Jika Anda mengontrol apa yang ada di tag (otomasi rumah Anda sendiri, kartu nama Anda), Anda baik-baik saja. Jika Anda mengetuk tag acak di ruang publik, Anda masih harus melihat prompt konfirmasi di iOS sebelum apa pun terjadi. Ketika saya benar-benar memerlukan tag untuk menyimpan rahasia daripada sekadar menunjuk ke salah satunya, saya menggunakan tag kriptografis, dan saya membahasnya di [menyimpan rahasia yang aman dan terenkripsi di tag NFC](/id/blog/nfc-safe-encrypted-secrets/).
 
 ---
 

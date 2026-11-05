@@ -15,7 +15,7 @@ ogDescription: "iPhone'unla NFC tag yazmak için adım adım rehber: adresler, W
 
 NFC tag okuyup yazan bir uygulama olan NFC.cool'u yıllardır geliştiriyorum ve yazma kısmı gerçekten hiç bıkmadığım bölüm. Komodinde, telefonu susturup alarm kuran bir tag ister misin? Masanda çalışma listeni açan bir tag? Kapının yanında misafirlere Wi-Fi parolanı veren bir tag? iPhone'un bunların hepsini programlayabiliyor ve bir kez yaptığında neden beklediğine şaşıracaksın.
 
-Bu, ilk tag paketini yeni almış bir arkadaşıma anlatacağım rehber: neye ihtiyacın var, farklı veri türleri nasıl yazılır ve dakikalar içinde kurabileceğim projeler neler. Teknolojinin kendisine yepyeniysen [sıfırdan başlayanlar için NFC tag rehberim](/blog/nfc-tags-beginners-guide/) önce zemini hazırlıyor.
+Bu, ilk tag paketini yeni almış bir arkadaşıma anlatacağım rehber: neye ihtiyacın var, farklı veri türleri nasıl yazılır ve dakikalar içinde kurabileceğim projeler neler. Teknolojinin kendisine yepyeniysen [sıfırdan başlayanlar için NFC tag rehberim](/tr/blog/nfc-tags-beginners-guide/) önce zemini hazırlıyor.
 
 ---
 
@@ -27,11 +27,11 @@ Yazmaya başlamak için yalnızca üç şey gerekiyor ve hiçbiri pahalı değil
 
 NFC tag yazmak, **iOS 13 ya da sonrasını** çalıştıran **iPhone 7 ya da sonrası** istiyor. iPhone'unu son sekiz yılda aldıysan sorun yok.
 
-En iyi deneyim için **arka planda NFC okuyan** bir iPhone'a uzanırdım (iPhone XS ve sonrası). Bu modeller önce uygulama açmadan NFC tag okuyabiliyor ve bu, yazdığın tag'lerin kullanımını çok daha keyifli kılıyor. iPhone donanımının tüm bunu tam olarak nasıl karşıladığını merak ediyorsan [iPhone'da NFC'ye içeriden bakış](/blog/nfc-on-iphones-insider-look/) yazısında derinlemesine anlattım.
+En iyi deneyim için **arka planda NFC okuyan** bir iPhone'a uzanırdım (iPhone XS ve sonrası). Bu modeller önce uygulama açmadan NFC tag okuyabiliyor ve bu, yazdığın tag'lerin kullanımını çok daha keyifli kılıyor. iPhone donanımının tüm bunu tam olarak nasıl karşıladığını merak ediyorsan [iPhone'da NFC'ye içeriden bakış](/tr/blog/nfc-on-iphones-insider-look/) yazısında derinlemesine anlattım.
 
 ### 2. Boş NFC tag'ler
 
-[Boş NFC tag'leri](/affiliate-links/) internetten tanesi **0,30 ile 1,00 avro** arasında alabilirsin. Birkaç biçimde geliyorlar:
+[Boş NFC tag'leri](/tr/affiliate-links/) internetten tanesi **0,30 ile 1,00 avro** arasında alabilirsin. Birkaç biçimde geliyorlar:
 
 | Biçim | Nerede iyi |
 |-------------|----------|
@@ -49,13 +49,13 @@ Bir tane seçmemi istesen çoğu proje için **NTAG216** tam kıvamında: 888 ba
 - **NTAG215** (504 bayt) - Kişi kartları, Wi-Fi bilgileri ve birden çok kayıt için yeterli.
 - **NTAG216** (888 bayt) - En iyi çok yönlü seçim. Kişi kartları, Wi-Fi bilgileri ve ayrıntılı vCard gibi uzun içerikler için en geniş pay; çoğu projede önerdiğim de bu.
 
-Emin değilsen NTAG216 etiketlerden karışık bir paketle başla ve fazla düşünme; kullanımların yüzde 90'ını karşılıyorlar. Çip çip tam dökümü, iPhone'ların hangi türleri sevdiği dahil, [iPhone'lar için NFC tag türleri rehberimde](/blog/nfc-tag-types-for-iphones/) yazdım.
+Emin değilsen NTAG216 etiketlerden karışık bir paketle başla ve fazla düşünme; kullanımların yüzde 90'ını karşılıyorlar. Çip çip tam dökümü, iPhone'ların hangi türleri sevdiği dahil, [iPhone'lar için NFC tag türleri rehberimde](/tr/blog/nfc-tag-types-for-iphones/) yazdım.
 
 ### 3. NFC yazma uygulaması
 
 iPhone'unun tag'lere veri yazmak için bir uygulamaya ihtiyacı var. Apple'ın yerleşik NFC desteği okumayı karşılıyor ama yazmak için ayrı bir uygulama gerekiyor.
 
-Yıllarımı buna verdiğim için yanlılığımı açıkça söyleyeyim: **[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-tr&mt=8)** hem iPhone hem [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-tr) için tam bunun üzerine kuruldu. Standart tüm NDEF kayıt türlerini (adresler, metin, Wi-Fi ayarları, kişiler ve dahası) yazmayı destekliyor ve tag belleğinin ne kadarını kullandığını tam olarak gösteren temiz bir arayüzü var. Ayrıca tag kilitlemeni, teknik ayrıntıları okumanı ve iOS Kısayolları üzerinden yazmayı otomatikleştirmeni sağlıyor. Özelliklerin tamamını [NFC okuma ve yazma sayfasında](/features/nfc-reader-writer/) görebilirsin.
+Yıllarımı buna verdiğim için yanlılığımı açıkça söyleyeyim: **[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-tr&mt=8)** hem iPhone hem [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-tr) için tam bunun üzerine kuruldu. Standart tüm NDEF kayıt türlerini (adresler, metin, Wi-Fi ayarları, kişiler ve dahası) yazmayı destekliyor ve tag belleğinin ne kadarını kullandığını tam olarak gösteren temiz bir arayüzü var. Ayrıca tag kilitlemeni, teknik ayrıntıları okumanı ve iOS Kısayolları üzerinden yazmayı otomatikleştirmeni sağlıyor. Özelliklerin tamamını [NFC okuma ve yazma sayfasında](/tr/features/nfc-reader-writer/) görebilirsin.
 
 Başka seçenekler de var (temel adres yazımı için Apple'ın Kısayollar uygulaması gibi) ama ayrı bir NFC uygulaması, ne yazdığın ve nasıl yazdığın üzerinde daha çok denetim veriyor.
 
@@ -76,7 +76,7 @@ Herkesi başlattığım yerden başlatıyorum: tag'e adres yazmak. En yaygın ku
 
 Hepsi bu. O tag'i telefonuyla okutan herkes artık senin adresine gidecek; uygulama gerekmiyor, taranacak QR kod yok. Bir meslektaşımın yüzünde, boş bir etiketin bir siteyi açtığını gördüğü andaki ifadeyi görünce bu gösterinin baş rolde olması gerektiğini anladım.
 
-**İpucu:** iPhone'larda NFC anteni telefonun **üst kenarında**, kameranın yakınında duruyor. En güçlü bağlantı için iPhone'unun üstünü doğrudan tag'in üzerine tut. Yazdığın şeyi uygulama olmadan denetlemek istersen Android'de [NFC tag'leri doğrudan tarayıcından okuyabilirsin](/online-nfc-reader/).
+**İpucu:** iPhone'larda NFC anteni telefonun **üst kenarında**, kameranın yakınında duruyor. En güçlü bağlantı için iPhone'unun üstünü doğrudan tag'in üzerine tut. Yazdığın şeyi uygulama olmadan denetlemek istersen Android'de [NFC tag'leri doğrudan tarayıcından okuyabilirsin](/tr/online-nfc-reader/).
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>İlk tag'ine yazmak</figcaption>
@@ -135,7 +135,7 @@ Bu, aslında dijital kartvizitin yaptığı işin doğrudan fiziksel tag'e göm�
 
 **Gereken bellek:** kaç alan eklediğine göre yaklaşık 100-400 bayt. Adres ve not içeren kişiler için NTAG215 ya da NTAG216 kullan.
 
-Okuduğum destek e-postalarından dürüst bir uyarı: tag'in üstündeki ham vCard'lar iPhone'da tutarsız davranabiliyor. Seninki düzgün açılmıyorsa sebepleri [vCard NFC tag'in iPhone'da neden çalışmıyor](/blog/vcard-nfc-iphone-not-working/) yazısında inceledim.
+Okuduğum destek e-postalarından dürüst bir uyarı: tag'in üstündeki ham vCard'lar iPhone'da tutarsız davranabiliyor. Seninki düzgün açılmıyorsa sebepleri [vCard NFC tag'in iPhone'da neden çalışmıyor](/tr/blog/vcard-nfc-iphone-not-working/) yazısında inceledim.
 
 **Not:** Fotoğraflar, sosyal bağlantılar ve istatistiklerle daha zengin bir deneyim için **[NFC.cool Business Card'a](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-tr&mt=8)** bak; barındırılan bir dijital kartvizit profili oluşturuyor ve bağlantısını herhangi bir NFC tag'ine yazabiliyor. Biri okuttuğunda iOS kullanıcıları yerel bir App Clip, Android kullanıcıları ise nfc.cool alan adında bir site görüyor; uygulama gerekmiyor. Kendi tanışmalarımda bunu ham vCard'lardan çok daha güvenilir buldum.
 
@@ -338,7 +338,7 @@ Hayır. NFC tag'ler **edilgen**; pilleri yok ve okuttuğunda güçlerini telefon
 
 ### NFC tag'i parolayla koruyabilir miyim?
 
-Evet. NFC.cool Tools, NTAG tag'lerinde hem iPhone'da hem Android'de parola koruması kurabiliyor. Şunu bil ki bu yalnızca tag'in **üstüne yazılmasını** engelliyor; tag'de zaten olanı birinin **okumasını** engellemiyor. İçeriğin kendisinin anahtar olmadan okunamamasını istiyorsan şifreli veri istiyorsun demektir; [NFC Safe rehberimize](/blog/nfc-safe-encrypted-secrets/) bak. Tag'i kilitlemek ise diğer seçenek: sonraki tüm yazmaları kalıcı olarak engelliyor.
+Evet. NFC.cool Tools, NTAG tag'lerinde hem iPhone'da hem Android'de parola koruması kurabiliyor. Şunu bil ki bu yalnızca tag'in **üstüne yazılmasını** engelliyor; tag'de zaten olanı birinin **okumasını** engellemiyor. İçeriğin kendisinin anahtar olmadan okunamamasını istiyorsan şifreli veri istiyorsun demektir; [NFC Safe rehberimize](/tr/blog/nfc-safe-encrypted-secrets/) bak. Tag'i kilitlemek ise diğer seçenek: sonraki tüm yazmaları kalıcı olarak engelliyor.
 
 ### NFC tag'ler telefon kılıfının içinden çalışır mı?
 

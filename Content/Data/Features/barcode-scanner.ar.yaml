@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Webhooks للجرد وتسجيل الحضور في الفعاليات"
-    body: "<p>وجّه ماسح الباركود نحو نظام مكتبك الخلفي. تطلق كل قراءة باركود webhook إلى عنوان URL الخاص بك، فتُحدَّث قاعدة بيانات مخزونك أو نظام CRM للحضور أو فهرس مكتبتك في الوقت الفعلي مع تحرّك الكاميرا. راجع <a href=\"/features/webhooks/\">Webhooks والأتمتة</a> لمعرفة شكل حمولة JSON وخادم مرجعي.</p>"
+    body: "<p>وجّه ماسح الباركود نحو نظام مكتبك الخلفي. تطلق كل قراءة باركود webhook إلى عنوان URL الخاص بك، فتُحدَّث قاعدة بيانات مخزونك أو نظام CRM للحضور أو فهرس مكتبتك في الوقت الفعلي مع تحرّك الكاميرا. راجع <a href=\"/ar/features/webhooks/\">Webhooks والأتمتة</a> لمعرفة شكل حمولة JSON وخادم مرجعي.</p>"
     platforms: "iOS"
 
   - title: "الاختصارات وApp Intents"
@@ -45,7 +45,7 @@ subsections:
     platforms: "iOS"
 
   - title: "مزامنة iCloud عبر iPhone وiPad وMac"
-    body: "<p>يتزامن سجل مسح الباركود لديك عبر كل جهاز على حساب iCloud الخاص بك. امسح رفًا من المنتجات على iPhone، وراجع القائمة على iPad، وسمِّ عمليات المسح وشاركها من <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - سجل واحد متزامن، دون نقل أي شيء يدويًا.</p>"
+    body: "<p>يتزامن سجل مسح الباركود لديك عبر كل جهاز على حساب iCloud الخاص بك. امسح رفًا من المنتجات على iPhone، وراجع القائمة على iPad، وسمِّ عمليات المسح وشاركها من <a href=\"/ar/blog/nfc-cool-comes-to-mac/\">Mac</a> - سجل واحد متزامن، دون نقل أي شيء يدويًا.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool يتزامن عبر iPhone وiPad وMac"
     platforms: "iOS"

@@ -2,6 +2,7 @@
 id: nfc-blog-003
 title: "بطاقة العمل NFC مقابل رمز QR: أيهما أفضل للتواصل المهني؟"
 date: 2026-02-16
+lastModified: "2026-11-05"
 tags: ["business-cards", "qr-codes", "networking"]
 summary: "لمسة NFC أم مسح رمز QR - أيهما الطريقة الأفضل لمشاركة معلومات التواصل الخاصة بك؟ أفصّل السرعة والتوافق والتكلفة وحالات الاستخدام الواقعية لأساعدك على اتخاذ القرار."
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"
@@ -191,7 +192,7 @@ NFC اختصار لـ**Near Field Communication** (الاتصال قريب ال�
 
 إفصاح كامل: هذه مدونتي، لذا من الطبيعي أن أذكر حلّي الخاص. لكنني أعتقد أنه وثيق الصلة بالموضوع هنا فعلًا.
 
-صُمّمت [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) منذ البداية لدعم **المشاركة عبر NFC ورمز QR معًا** - ليس كمنتجين منفصلين، بل كوجهين لبطاقة واحدة:
+صُمّمت [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ar&mt=8) منذ البداية لدعم **المشاركة عبر NFC ورمز QR معًا** - ليس كمنتجين منفصلين، بل كوجهين لبطاقة واحدة:
 
 - **لمسة NFC** - اكتب بطاقة عملك على أي وسم NFC قياسي (ملصقات، أو بطاقات، أو ميداليات مفاتيح - الخيار لك) وشاركها بلمسة. دون حاجة إلى عتاد خاص.
 - **رمز QR** - أنشئ رمزًا قابلًا للمسح مباشرة في التطبيق. اعرضه على هاتفك أو اطبعه.
@@ -200,12 +201,12 @@ NFC اختصار لـ**Near Field Communication** (الاتصال قريب ال�
 
 بعض الأمور التي تميّزه:
 
-- **٣٥ لغة** - تدعم واجهة التطبيق وApp Clip ٣٥ لغة، فتُعرض بطاقتك بلغة جهة اتصالك على iOS. أما موقع المشاركة على Android فيدعم الإنجليزية فقط حاليًا.
-- **الخصوصية أولًا** - لا استهداف للمستقبِلين، وحماية اختيارية برمز PIN، ولا تحقيق أرباح من البيانات ولا إعلانات
+- **٣٥ لغة** - تدعم واجهة التطبيق وApp Clip ٣٥ لغة، فتتبع الأزرار والتسميات حول بطاقتك لغة جهة اتصالك على iOS.
+- **الخصوصية** - لا يرسل NFC.cool رسائل تسويقية إلى من يشاهدون بطاقتك، ويمكن حماية البطاقات برمز PIN، ولا يبيع NFC.cool بياناتك. وفي خطة Team، يمكن لفريقك إرسال رسائل متابعة إلى من يتركون بياناتهم عبر نموذج العملاء المحتملين لديك.
 - **NFC مفتوح** - يعمل مع أي وسم NFC قياسي - لا يبيع NFC.cool عتادًا خاصًا
-- **بأسعار معقولة** - باقة Personal بسعر €٢٠ سنويًا، وSmall Business بسعر €٥٠ سنويًا (١٠ بطاقات)، وBusiness بسعر €١٠٠ سنويًا (١٠٠ بطاقة)
+- **بأسعار معقولة** - خطة Free ببطاقة واحدة، وPersonal بسعر $١٩.٩٩ في السنة، وPro بسعر $٤٩.٩٩ في السنة (١٠ بطاقات)، و[Team](/ar/business-card/teams/) بسعر $٥٠ للشخص في السنة أو $٥ في الشهر (حتى ١٠ بطاقات لكل شخص). وباليورو، يبقى سعر الفريق بالرقم نفسه.
 
-**جرّب NFC.cool Business Card:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
+**جرّب [NFC.cool Business Card](/ar/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ar&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-ar)
 
 ---
 

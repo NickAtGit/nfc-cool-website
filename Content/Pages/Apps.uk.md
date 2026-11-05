@@ -1,7 +1,7 @@
 ---
 title: "Інші застосунки"
 slug: "apps"
-description: "Крім NFC.cool Tools і Business Card я випускаю кілька менших застосунків: сканування QR-кодів, 3D-сканування, стеження за рейсами, монітор для електровелосипеда та інші. Усе з-під однієї незалежної клавіатури."
+description: "Крім NFC.cool Tools і Business Card я випускаю кілька менших застосунків: сканування QR-кодів, 3D-сканування, стеження за рейсами, монітор для електровелосипеда та інші. Усі їх створює засновник NFC.cool."
 ---
 
 <section class="page-hero">
@@ -10,7 +10,7 @@ description: "Крім NFC.cool Tools і Business Card я випускаю кі�
 
 <div class="page-hero-text">
 
-# Інші застосунки з-під тієї самої клавіатури
+# Інші застосунки від NFC.cool
 
 На першому плані в мене NFC.cool Tools і застосунок Business Card, але випускаю я не тільки їх. Ось решта родини: невеликі застосунки з однією задачею, які я зробив, бо хотів, щоб вони існували, і полірую далі, бо ними почали користуватися.
 
@@ -36,47 +36,47 @@ description: "Крім NFC.cool Tools і Business Card я випускаю кі�
 
 <a class="page-card app-card" href="/holdem/">
 <img class="app-card-icon" src="/assets/images/Apps/holdem/icon.webp" alt="Іконка застосунку HoldEm" width="64" height="64" loading="lazy"/>
-<h3>HoldEm - Poker with Friends</h3>
+<h3>HoldEm: Poker with Friends</h3>
 <p>Техаський холдем за справжнім столом: планшет роздає, а карти кожного гравця в його телефоні. Лише ігрові фішки, зараз у відкритій беті.</p>
 <span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/flight-tracker/">
+<a class="page-card app-card" href="/uk/apps/flight-tracker/">
 <img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="Іконка застосунку 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
 <h3>1st Class - Flight Tracker</h3>
 <p>Стеж за рейсами, став голографічні штампи в паспорт і переживай кожну подорож заново. Щоденник мандрів, який працює без інтернету.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/qr-code-scanner/">
+<a class="page-card app-card" href="/uk/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="Іконка застосунку QR Code Scanner by NFC.cool" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
 <p>Сканування, створення і впорядкування QR-кодів без решти набору. Один застосунок з однією задачею.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/3d-scanner/">
+<a class="page-card app-card" href="/uk/apps/3d-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/3d-scanner/icon.webp" alt="Іконка застосунку 3D Object & Room Scanner" width="64" height="64" loading="lazy"/>
 <h3>3D Object &amp; Room Scanner</h3>
 <p>Перетворюй справжні об'єкти й цілі приміщення на 3D-моделі за допомогою датчика LiDAR на моделях iPhone Pro та iPad.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/ebike-monitor/">
+<a class="page-card app-card" href="/uk/apps/ebike-monitor/">
 <img class="app-card-icon" src="/assets/images/Apps/ebike-monitor/icon.webp" alt="Іконка застосунку eBike Monitor for Shimano" width="64" height="64" loading="lazy"/>
 <h3>eBike Monitor for Shimano</h3>
 <p>Заряд, швидкість і каденс із системи електровелосипеда Shimano наживо, просто на екрані блокування.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/pokemon-quiz/">
+<a class="page-card app-card" href="/uk/apps/pokemon-quiz/">
 <img class="app-card-icon" src="/assets/images/Apps/pokemon-quiz/icon.webp" alt="Іконка застосунку PvP Trainer Pokémon Quiz Game" width="64" height="64" loading="lazy"/>
 <h3>PvP Trainer Pokémon Quiz Game</h3>
 <p>Вивчай усі співвідношення типів прямо у грі. Вікторина і водночас довідник із сильних сторін, слабкостей і опірності.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/mondego-move/">
+<a class="page-card app-card" href="/uk/apps/mondego-move/">
 <img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon-v2.webp" alt="Іконка застосунку Mondego Move" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>Незалежний супутник для системи Metro Mondego в регіоні Коїмбри: планувальник поїздок, карта мережі й тарифи.</p>
@@ -91,6 +91,6 @@ description: "Крім NFC.cool Tools і Business Card я випускаю кі�
 
 ## Шукаєш головні застосунки?
 
-У повного набору для сканування та в окремого застосунку Business Card є власні сторінки: подивись [NFC.cool Tools](/features/) або [застосунок Business Card](/business-card/).
+У повного набору для сканування та в окремого застосунку Business Card є власні сторінки: подивись [NFC.cool Tools](/uk/features/) або [застосунок Business Card](/uk/business-card/).
 
 </section>

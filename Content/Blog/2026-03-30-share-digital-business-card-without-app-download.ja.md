@@ -2,12 +2,13 @@
 id: nfc-blog-012
 title: "アプリをダウンロードさせずにデジタル名刺を共有する方法"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "デジタル名刺は、受け取る側にとってもスムーズに機能するべきです。ダウンロード不要、煩わしさゼロ。App Clipとインスタントウェブプロフィールがそれを実現する仕組みを解説します。"
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
 imageAlt: "アプリのダウンロードなしでデジタル名刺を共有する2台のスマートフォン"
 metaTitle: "アプリをダウンロードさせずにデジタル名刺を共有する方法"
-metaDescription: "連絡先を見るためだけにアプリをインストールしたい人はいません。NFC.coolがiOSのApp ClipとAndroidのインスタントウェブプロフィールで実現するシームレスな受け手体験をご紹介。"
+metaDescription: "連絡先を見るためだけにアプリをインストールしたい人はいません。NFC.cool Business Cardが、iOSのApp ClipとAndroidのインスタントウェブプロフィールで実現する、ダウンロード不要で受け取れるスムーズな受け手体験をご紹介します。"
 ogTitle: "アプリ不要のデジタル名刺共有"
 ogDescription: "App Clipとウェブプロフィールで、誰でもあなたのデジタル名刺を即座に受け取れます。ダウンロード不要、煩わしさゼロ、広告なし。"
 ---
@@ -57,7 +58,7 @@ App Clipはアプリのふりをしたウェブページではありません。
 4. **ワンタップ保存** - 「連絡先を保存」ボタンが画面下部に配置、親指が自然に届く位置。ワンタップですべてが連絡先アプリに保存
 5. **相手の言語で表示** - App Clipは35言語に対応し、受け手のデバイス言語に自動的に合わせます。東京、サンパウロ、ベルリンで名刺を渡しても、相手は自分の言語で見ることができます
 
-アカウント作成なし。サインアップ要求なし。広告なし。トラッキングURLなし。あなたの連絡先情報だけが、数秒で保存されます。
+作成するアカウントはありません。登録も要りません。広告なし。トラッキングURLなし。あなたの連絡先情報だけが、数秒で保存されます。
 
 保存後、受け手には自分のNFC.cool名刺を作成するための控えめな案内が表示されます。それだけです。強引な誘導も、強制的なサインアップもありません。
 
@@ -73,13 +74,13 @@ Android受け手には、nfc.coolにホストされたクリーンなウェブ�
 
 ほとんどのデジタル名刺サービスは、受け手にウェブビューやウェブページを表示します。多くの場合それで問題ありません。しかし、ウェブページとネイティブApp Clipには、特にiOSにおいて大きな違いがあります。
 
-**速度：** App Clipは初回ロード後にiOSがキャッシュします。2回目のタップ（たとえばフォローアップミーティングでの）はさらに高速にロードされます。
+**速度**：App Clipは初回ロード後にiOSがキャッシュします。2回目のタップ（たとえばフォローアップミーティングでの）はさらに高速にロードされます。
 
-**信頼感：** iOSユーザーはネイティブ体験に慣れています。App ClipはAppleがシステムに組み込んだもののように見え、感じます。ブラウザのクローム、URLバー、Cookie同意ポップアップはありません。あなたのカードだけです。
+**信頼感**：iOSユーザーはネイティブ体験に慣れています。App ClipはAppleがシステムに組み込んだもののように見え、感じます。ブラウザのクローム、URLバー、Cookie同意ポップアップはありません。あなたのカードだけです。
 
-**安定性：** ネイティブコードがiOS独自のフレームワークを通じて連絡先保存を処理するため、保存動作が一貫して機能します。ブラウザの癖や「本当に保存された？」という不確実性がありません。
+**安定性**：ネイティブコードがiOS独自のフレームワークを通じて連絡先保存を処理するため、保存動作が一貫して機能します。ブラウザの癖や「本当に保存された？」という不確実性がありません。
 
-**ローカライゼーション：** ウェブページも翻訳できますが、ネイティブApp ClipはUIラベル、ボタンテキスト、日付形式、連絡先フィールドの並び順まで、iOSユーザーが期待する形ですべてをローカライズします。NFC.coolは35言語にネイティブ対応しているので、受け手が英語、日本語、ポルトガル語、アラビア語を話していても、体験はローカライズされます。
+**ローカライゼーション**：ウェブページも翻訳できますが、ネイティブApp ClipはUIラベル、ボタンテキスト、日付形式、連絡先フィールドの並び順まで、iOSユーザーが期待する形ですべてをローカライズします。NFC.coolは35言語にネイティブ対応しているので、受け手が英語、日本語、ポルトガル語、アラビア語を話していても、体験はローカライズされます。
 
 ---
 
@@ -89,10 +90,10 @@ Android受け手には、nfc.coolにホストされたクリーンなウェブ�
 
 NFC.coolの名刺を受け取った時：
 
-- **広告なし** - プロフィールページにNFC.coolの宣伝やサードパーティ広告は表示されません
+- **広告なし** - プロフィールページにサードパーティの広告は表示されません。Freeのカードには下部に小さく「Made with NFC.cool」の一行が入りますが、有料プランでは表示されません
 - **トラッキングリダイレクトなし** - あなたのリンクはそのままのリンクで、分析URLでラッピングされません
-- **勧誘なし** - 受け手はNFC.coolからサインアップを求めるフォローアップメールを受け取りません
-- **データ収集なし** - 受け手の情報がマーケティングに使用されることはありません
+- **NFC.coolからのマーケティングなし** - NFC.coolは、カードを見た人にマーケティングを送りません。Teamプランでは、リードフォームから情報を残してくれた人に、あなたのチームがフォローアップメールを送れます
+- **データの販売なし** - NFC.coolは、あなたのデータも、カードを見た人のデータも販売しません
 
 これは多くの人が思っている以上に重要です。あなたの名刺は、相手にとって最初の印象になることが多いのです。カードをタップした先がバナー広告だらけのページだったり、翌日スパムメールが届いたりすれば、それはアプリではなくあなた自身の印象に影響します。
 
@@ -102,7 +103,7 @@ NFC.coolの名刺を受け取った時：
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="NFC.cool Business Cardのカードメニュー。Preview、Edit Business Card、Start Conference Mode、View Analytics、Write to NFC Tag、Show QR Code、Share Business Card、Add to Apple Wallet"><p><strong>ワンタップで開始。</strong>Conference Modeはカードのメニューにあり、Write to NFC TagやAdd to Apple Walletと並んでいます。</p></li>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="NFC.cool Business Cardのカードメニュー。Preview、Edit Business Card、Start Conference Mode、View Analytics、Write to NFC Tag、Show QR Code、Share Business Card、Add to Apple Wallet"><p><strong>ワンタップで開始。</strong>カンファレンスモードはカードのメニューにあり、Write to NFC TagやAdd to Apple Walletと並んでいます。</p></li>
 </ol>
 </figure>
 
@@ -124,4 +125,4 @@ NFC.coolの名刺を受け取った時：
 **受け手として：**
 - 何もしなくていい。それがすべてです。
 
-*NFC.cool Business CardはiOSとAndroidで利用可能です。App Clip機能はiOSの機能です。Androidの受け手にはインスタントウェブプロフィールが表示されます。*
+*[NFC.cool Business Card](/ja/business-card/)はiOSとAndroidで利用でき、各プランの内容はそのページで確認できます。iPhoneの受け手にはネイティブのApp Clipが、Androidの受け手にはインスタントウェブプロフィールが表示されます。*

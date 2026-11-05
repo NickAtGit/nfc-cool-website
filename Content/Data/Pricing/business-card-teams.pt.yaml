@@ -1,0 +1,16 @@
+# Small-team price comparison for /business-card/teams/. Rendered by PricingTableRenderer via
+# the {{PRICING_TABLE:business-card-teams}} token in Content/Pages/business-card-teams.pt.md.
+# Every number mirrors Content/Data/Pricing/business-card-teams.yaml. Change them there first.
+columns: ["NFC.cool", "Wave Teams", "Blinq Business", "HiHello Business"]
+columnPills: ["is-team"]
+rows:
+  - label: "Equipa mais pequena"
+    values: ["2 lugares", "3 utilizadores", "5 cartões", "5 utilizadores"]
+  - label: "Por pessoa, com pagamento anual"
+    values: ["$50 por ano", "$60 por ano", "$59,88 por ano", "$60 por ano"]
+  - label: "Custo mais baixo por um ano"
+    values: ["**$100**", "**$180**", "**$299,40**", "**$300**"]
+  - label: "Por pessoa, com pagamento mensal"
+    values: ["$5 por mês", "$7 por mês", "$6,99 por mês", "$6 por mês"]
+  - label: "Sincronização com CRM incluída"
+    values: ["✓", "✓", "✓", "✓"]

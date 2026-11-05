@@ -1,7 +1,7 @@
 ---
 title: "Autres apps"
 slug: "apps"
-description: "Au-delà de NFC.cool Tools et de l'app Business Card, je développe une poignée d'apps plus petites : scan de QR codes, scan 3D, suivi de vols, monitoring de vélo électrique et plus encore - le tout depuis le même clavier indé."
+description: "Au-delà de NFC.cool Tools et de l'app Business Card, je développe une poignée d'apps plus petites : scan de QR codes, scan 3D, suivi de vols, monitoring de vélo électrique et plus encore. Toutes créées par le fondateur de NFC.cool."
 ---
 
 <section class="page-hero">
@@ -10,7 +10,7 @@ description: "Au-delà de NFC.cool Tools et de l'app Business Card, je développ
 
 <div class="page-hero-text">
 
-# D'autres apps venues du même clavier
+# D'autres apps de NFC.cool
 
 NFC.cool Tools et l'app Business Card sont le cœur du sujet, mais pas la seule chose que je développe. Voici le reste de la gamme : des apps plus petites et ciblées, créées parce que je voulais qu'elles existent - et peaufinées parce que des gens ont commencé à s'en servir.
 

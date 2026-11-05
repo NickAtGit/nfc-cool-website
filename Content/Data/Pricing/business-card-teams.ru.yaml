@@ -1,0 +1,17 @@
+# Сравнение цен для небольших команд на /ru/business-card/teams/. Отрисовывается PricingTableRenderer
+# по токену {{PRICING_TABLE:business-card-teams}} в Content/Pages/business-card-teams.ru.md.
+# Все цифры взяты со страниц с ценами компаний 2026-11-05. Источники перечислены в
+# Content/Data/Pricing/business-card-teams.yaml. Перед правкой перечитай их и поменяй дату в тексте страницы.
+columns: ["NFC.cool", "Wave Teams", "Blinq Business", "HiHello Business"]
+columnPills: [is-team]
+rows:
+  - label: "Самая маленькая команда"
+    values: ["2 места", "3 пользователя", "5 визиток", "5 пользователей"]
+  - label: "За человека при оплате за год"
+    values: ["$50 в год", "$60 в год", "$59,88 в год", "$60 в год"]
+  - label: "Минимум за год"
+    values: ["**$100**", "**$180**", "**$299,40**", "**$300**"]
+  - label: "За человека при помесячной оплате"
+    values: ["$5 в месяц", "$7 в месяц", "$6,99 в месяц", "$6 в месяц"]
+  - label: "Синхронизация с CRM включена"
+    values: ["✓", "✓", "✓", "✓"]

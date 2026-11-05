@@ -2,6 +2,7 @@
 id: nfc-blog-004
 title: "Why Privacy Matters for Your Digital Business Card"
 date: 2026-03-09
+lastModified: "2026-11-05"
 tags: ["business-cards", "privacy"]
 summary: "Your digital business card contains your name, email, phone number, and more - yet most people never think about where that data actually goes. Here's why privacy should be your #1 criterion."
 image: "/assets/images/Blog/why-privacy-matters-digital-business-card.webp"
@@ -15,7 +16,7 @@ Think about what's on your business card. Your full name. Your email address. Yo
 
 Now think about this: when you share a digital business card, you're not just handing someone a piece of cardboard. You're giving a platform access to that data - *and* to data about the person you're sharing it with.
 
-Most digital business card apps collect information about both sides of the exchange. Who shared, who viewed, when, where, on what device, for how long. Some go further than you'd expect.
+A digital business card app can collect information about both sides of the exchange. Who shared, who viewed, when, where, on what device, for how long.
 
 This isn't a scare piece. Digital business cards are genuinely better than paper - for networking, for the environment, for keeping your info up to date. But not all platforms treat your data with the same care, and most people never think to ask.
 
@@ -32,19 +33,19 @@ Here's the typical flow when someone taps your NFC card or scans your QR code:
 3. The platform logs the interaction - at minimum, a timestamp
 4. Depending on the platform, it may also capture: the viewer's IP address, device type, browser, approximate location, time spent on your card, which links they tapped
 
-That's the baseline. Some platforms do more.
+That's the baseline. A platform can do more.
 
 ### Recipient Solicitation
 
-Several digital business card platforms - especially on their free tiers - will market to the people who view your card. Meaning: someone scans your QR code to get your email, and then *the platform* sends them promotional emails about signing up.
+A digital business card platform can market to the people who view your card. Meaning: someone scans your QR code to get your email, and then *the platform* sends them promotional emails about signing up.
 
-You didn't ask for that. The person who viewed your card definitely didn't ask for it. But it happens because the platform needs to grow, and your contacts are free leads.
+You didn't ask for that. The person who viewed your card definitely didn't ask for it. It happens when a platform needs to grow and sees your contacts as free leads.
 
-Not every platform does this. But enough do that it's worth checking before you sign up.
+It's worth checking before you sign up.
 
 ### Conversation Recording
 
-This one might surprise you. Some platforms now offer AI-powered notetaking features that record in-person conversations. The pitch is appealing: meet someone at a conference, tap record, and let AI capture the key points automatically.
+This one might surprise you. AI-powered notetaking can record in-person conversations. The pitch is appealing: meet someone at a conference, tap record, and let AI capture the key points automatically.
 
 The problem is consent. In many jurisdictions - including most of the EU under GDPR and over a dozen US states with two-party consent laws - recording a conversation without the other person's knowledge or explicit consent is illegal. Even where it's technically legal, secretly recording a networking conversation raises serious ethical questions.
 
@@ -52,7 +53,7 @@ The person you just met thinks they're having a friendly chat. They don't know y
 
 ### Data Enrichment
 
-Some platforms offer "AI contact enrichment" - you scan a business card or exchange contacts, and the platform automatically pulls in additional data from public sources: LinkedIn profiles, company info, social media accounts.
+"AI contact enrichment" works like this: you scan a business card or exchange contacts, and the platform automatically pulls in additional data from public sources: LinkedIn profiles, company info, social media accounts.
 
 Convenient? Sure. But it means the platform is building a profile of the people you meet, often without their knowledge. Your contacts didn't sign up for this. They shared their business card, not their entire digital footprint.
 
@@ -69,7 +70,7 @@ The honest answers vary:
 - **Recipient data harvesting** - Your contacts become leads for the platform itself.
 - **Data aggregation** - Anonymized (or not) networking patterns sold to third parties.
 
-Not every free plan has hidden catches. Some platforms - like Wave Connect - genuinely offer useful free tiers without soliciting your recipients. Others use "free" as a pipeline to collect contact data at scale.
+Not every free plan has a hidden catch, but "free" can also be a pipeline for collecting contact data at scale.
 
 The rule of thumb: if a platform offers unlimited features for free and doesn't have a clear business model, your data *is* the business model.
 
@@ -97,7 +98,7 @@ GDPR gives you the right to data portability - you should be able to download ev
 
 ### 5. Can You Actually Delete Your Account?
 
-Not "deactivate." Delete. With all associated data removed from their servers. Some platforms make this surprisingly difficult, burying it behind support tickets rather than offering a self-service option.
+Not "deactivate." Delete. With all associated data removed from their servers, through a self-service option rather than a support ticket.
 
 ### 6. Does It Have Access Controls?
 
@@ -105,7 +106,7 @@ Can you set your profile to private? Can you protect it with a PIN? Can you choo
 
 ### 7. Does It Record Audio?
 
-This is newer, but becoming more common in the lead-capture space. If a platform offers conversation recording or AI notetaking, understand the legal implications before you use it. In the EU, recording conversations without all parties' consent violates GDPR. In the US, laws vary by state.
+If a platform offers conversation recording or AI notetaking, understand the legal implications before you use it. In the EU, recording conversations without all parties' consent violates GDPR. In the US, laws vary by state.
 
 ---
 
@@ -150,17 +151,17 @@ When I built [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6
 
 **No Conversation Recording** - I don't record audio. Period. I think networking should be built on trust, not surveillance.
 
-**No Recipient Solicitation** - When someone views your card, they see your card. They don't get marketing emails from me. Your contacts are yours, not my leads.
+**No Recipient Solicitation** - When someone views your card, they see your card. They don't get marketing emails from me. Your contacts are yours, not my leads. On the Team plan, your team can send follow-up emails to people who leave their details through your lead form.
 
-**No Data Monetization or Advertising** - Your vCard and account data are stored on my server to power the service, but nothing is used for advertising or third-party data processing.
+**I Don't Sell Your Data** - Your vCard and account data are stored on my server to power the service. NFC.cool doesn't sell your data, and the Business Card app has no ads.
 
-**GDPR Data Export** - Download everything, contacts included, as a ZIP anytime, on iPhone and Android. No support tickets, no waiting period.
+**GDPR Data Export** - Get everything, contacts included, as a ZIP whenever you want. Export my data is in the app on iPhone and Android, and on the web. No support tickets.
 
-**NFC Hardware Freedom** - It works with any standard NFC tag. NFC.cool doesn't sell NFC hardware - you're free to use any third-party tag you choose, without proprietary tracking you can't audit.
+**NFC Hardware Freedom** - It works with any standard NFC tag, so you're free to use any tag you choose, without proprietary tracking you can't audit.
 
-**European Indie Developer** - I'm a solo developer based in Portugal. I don't have VC investors pushing me to monetize user data for growth metrics. My incentive is building a product people trust, not maximizing data collection.
+**Not VC-Backed** - NFC.cool is based in Portugal, and no VC investors are pushing me to monetize user data for growth metrics. My incentive is building a product people trust, not maximizing data collection. When you have a question, you hear from me, the founder.
 
-I'm not perfect. There are no CRM integrations or webhooks yet - you get a full data export for getting your contacts out. App Clip and Apple Wallet passes are iPhone-only, so Android recipients open your card in the browser instead. My marketing budget is a fraction of the bigger players. But my privacy model is something I genuinely believe in, and I think it matters.
+Your contacts stay yours to move, too. Every plan includes a full data export, and with [NFC.cool Business Card for Teams](/business-card/teams/), leads can go straight into HubSpot, or anywhere else by webhook. My privacy model is something I genuinely believe in, and I think it matters.
 
 ---
 
@@ -191,4 +192,4 @@ Privacy isn't about having something to hide. It's about having the right to cho
 
 Choose wisely.
 
-*Ready to try a privacy-first digital business card? [Download NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8) for iPhone or [get it on Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-en). App UI and App Clip available in 35 languages.*
+*Ready to try a privacy-first digital business card? [See what NFC.cool Business Card does](/business-card/), then [download it for iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8) or [get it on Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-en). App UI and App Clip available in 35 languages.*

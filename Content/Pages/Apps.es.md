@@ -1,7 +1,7 @@
 ---
 title: "Más apps"
 slug: "apps"
-description: "Además de NFC.cool Tools y la app Business Card, desarrollo un puñado de apps más pequeñas: escaneo de QR, escaneo 3D, seguimiento de vuelos, monitorización de e-bikes y más - todo desde el mismo teclado indie."
+description: "Además de NFC.cool Tools y la app Business Card, desarrollo un puñado de apps más pequeñas: escaneo de QR, escaneo 3D, seguimiento de vuelos, monitorización de e-bikes y más. Todas creadas por el fundador de NFC.cool."
 ---
 
 <section class="page-hero">
@@ -10,7 +10,7 @@ description: "Además de NFC.cool Tools y la app Business Card, desarrollo un pu
 
 <div class="page-hero-text">
 
-# Más apps del mismo teclado
+# Más apps de NFC.cool
 
 NFC.cool Tools y la app Business Card son el plato fuerte, pero no lo único que desarrollo. Este es el resto de la alineación: apps más pequeñas y enfocadas que construí porque quería que existieran - y que sigo puliendo porque la gente empezó a usarlas.
 

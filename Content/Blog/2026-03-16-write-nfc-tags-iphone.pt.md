@@ -15,7 +15,7 @@ A maioria das pessoas sabe que o seu iPhone consegue *ler* tags NFC - tocar para
 
 Passei anos a construir o NFC.cool, uma app para ler e gravar tags NFC, e gravar é genuinamente a parte de que nunca me canso. Quer uma tag na sua mesa de cabeceira que silencie o telemóvel e configure um alarme? Uma tag na sua secretária que abra a sua playlist de trabalho? Uma tag à porta de casa que partilhe a palavra-passe do Wi-Fi com as visitas? O seu iPhone consegue programar todas estas, e depois de o fazer uma vez vai perguntar-se porque é que esperou tanto.
 
-Este é o guia que daria a um amigo que acabou de comprar o seu primeiro pacote de tags: o que precisa, como gravar os diferentes tipos de dados e os projetos práticos que eu próprio montaria em minutos. Se for totalmente novo na tecnologia em si, o meu [guia completo para principiantes sobre tags NFC](/blog/nfc-tags-beginners-guide/) cobre primeiro as bases.
+Este é o guia que daria a um amigo que acabou de comprar o seu primeiro pacote de tags: o que precisa, como gravar os diferentes tipos de dados e os projetos práticos que eu próprio montaria em minutos. Se for totalmente novo na tecnologia em si, o meu [guia completo para principiantes sobre tags NFC](/pt/blog/nfc-tags-beginners-guide/) cobre primeiro as bases.
 
 ---
 
@@ -27,11 +27,11 @@ Só precisa de três coisas para começar a gravar, e nenhuma delas é cara.
 
 Gravar tags NFC requer um **iPhone 7 ou mais recente** com **iOS 13 ou posterior**. Se comprou o seu iPhone nos últimos oito anos, está coberto.
 
-Para a melhor experiência, eu optaria por um iPhone com **leitura NFC em segundo plano** (iPhone XS e mais recentes). Estes modelos conseguem ler tags NFC sem abrir primeiro uma app, o que torna as tags que grava muito mais agradáveis de usar na prática. Se quiser saber exatamente como o hardware do iPhone lida com tudo isto, aprofundei o tema num [olhar de dentro sobre o NFC nos iPhone](/blog/nfc-on-iphones-insider-look/).
+Para a melhor experiência, eu optaria por um iPhone com **leitura NFC em segundo plano** (iPhone XS e mais recentes). Estes modelos conseguem ler tags NFC sem abrir primeiro uma app, o que torna as tags que grava muito mais agradáveis de usar na prática. Se quiser saber exatamente como o hardware do iPhone lida com tudo isto, aprofundei o tema num [olhar de dentro sobre o NFC nos iPhone](/pt/blog/nfc-on-iphones-insider-look/).
 
 ### 2. Tags NFC em Branco
 
-Pode [comprar tags NFC em branco](/affiliate-links/) online por apenas **0,30 a 1,00 € cada**. Vêm em vários formatos:
+Pode [comprar tags NFC em branco](/pt/affiliate-links/) online por apenas **0,30 a 1,00 € cada**. Vêm em vários formatos:
 
 | Formato | Melhor Para |
 |-------------|----------|
@@ -49,13 +49,13 @@ Se me pedisse para escolher um, para a maioria dos projetos o **NTAG216** é o p
 - **NTAG215** (504 bytes) - Suficiente para cartões de contacto, credenciais de Wi-Fi e vários registos.
 - **NTAG216** (888 bytes) - O melhor para tudo. A maior margem para cartões de contacto, credenciais de Wi-Fi e conteúdo mais longo, como vCards detalhados - o que recomendo para a maioria dos projetos.
 
-Se estiver indeciso, comece com um pacote misto de autocolantes NTAG216 e deixe de complicar - dão conta de 90% dos casos de uso. Para o resumo completo chip a chip, incluindo os tipos de que os iPhone realmente gostam, escrevi [um guia sobre os tipos de tags NFC para iPhone](/blog/nfc-tag-types-for-iphones/).
+Se estiver indeciso, comece com um pacote misto de autocolantes NTAG216 e deixe de complicar - dão conta de 90% dos casos de uso. Para o resumo completo chip a chip, incluindo os tipos de que os iPhone realmente gostam, escrevi [um guia sobre os tipos de tags NFC para iPhone](/pt/blog/nfc-tag-types-for-iphones/).
 
 ### 3. Uma App de Gravação NFC
 
 O seu iPhone precisa de uma app para gravar dados em tags. O suporte NFC integrado da Apple trata da leitura, mas para gravar precisa de uma app dedicada.
 
-Esta é a parte em que passei anos, por isso vou ser franco quanto à minha parcialidade: o **[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** foi feito de propósito para exatamente isto, tanto no iPhone como no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en). Suporta a gravação de todos os tipos de registo NDEF padrão - URLs, texto, configurações de Wi-Fi, contactos e mais - com uma interface limpa que mostra exatamente quanta memória da tag está a usar. Também lhe permite bloquear tags, ler detalhes técnicos e automatizar a gravação através dos Atalhos do iOS. Pode ver a lista completa de funcionalidades na [página de leitor e gravador NFC](/features/nfc-reader-writer/).
+Esta é a parte em que passei anos, por isso vou ser franco quanto à minha parcialidade: o **[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** foi feito de propósito para exatamente isto, tanto no iPhone como no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en). Suporta a gravação de todos os tipos de registo NDEF padrão - URLs, texto, configurações de Wi-Fi, contactos e mais - com uma interface limpa que mostra exatamente quanta memória da tag está a usar. Também lhe permite bloquear tags, ler detalhes técnicos e automatizar a gravação através dos Atalhos do iOS. Pode ver a lista completa de funcionalidades na [página de leitor e gravador NFC](/pt/features/nfc-reader-writer/).
 
 Existem outras opções (como a app Atalhos da Apple para gravação básica de URLs), mas uma app NFC dedicada dá-lhe mais controlo sobre o que grava e como.
 
@@ -76,7 +76,7 @@ Vou começar consigo onde começo com toda a gente: gravar um URL numa tag. É o
 
 É só isto. Qualquer pessoa que encoste o telemóvel a essa tag será agora levada para o seu URL - sem necessidade de app, sem código QR para ler. A primeira vez que vi a cara de um colega quando um autocolante em branco abriu um site, soube que era esta a demonstração com que liderar.
 
-**Dica profissional:** A antena NFC nos iPhone fica na **aresta superior** do telemóvel, junto à câmara. Para a ligação mais forte, mantenha o topo do seu iPhone diretamente sobre a tag. Se quiser confirmar o que gravou sem uma app, pode [ler tags NFC diretamente a partir do seu browser](/online-nfc-reader/) no Android.
+**Dica profissional:** A antena NFC nos iPhone fica na **aresta superior** do telemóvel, junto à câmara. Para a ligação mais forte, mantenha o topo do seu iPhone diretamente sobre a tag. Se quiser confirmar o que gravou sem uma app, pode [ler tags NFC diretamente a partir do seu browser](/pt/online-nfc-reader/) no Android.
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>Escrever a sua primeira tag</figcaption>
@@ -135,7 +135,7 @@ Isto é essencialmente o que um cartão de visita digital faz, mas integrado dir
 
 **Memória necessária:** ~100-400 bytes consoante o número de campos que incluir. Use NTAG215 ou NTAG216 para contactos com moradas e notas.
 
-Um aviso honesto, vindo dos e-mails de suporte que leio: os vCards em bruto numa tag podem comportar-se de forma inconsistente no iPhone. Se o seu não estiver a abrir corretamente, analisei as causas em [porque é que a sua tag NFC com vCard não está a funcionar no iPhone](/blog/vcard-nfc-iphone-not-working/).
+Um aviso honesto, vindo dos e-mails de suporte que leio: os vCards em bruto numa tag podem comportar-se de forma inconsistente no iPhone. Se o seu não estiver a abrir corretamente, analisei as causas em [porque é que a sua tag NFC com vCard não está a funcionar no iPhone](/pt/blog/vcard-nfc-iphone-not-working/).
 
 **Nota:** Para uma experiência mais rica com fotografias, ligações sociais e estatísticas, dê uma vista de olhos ao **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** - cria um perfil de cartão de visita digital alojado e consegue gravar a ligação em qualquer tag NFC. Quando alguém encosta o telemóvel, os utilizadores de iOS veem um App Clip nativo e os utilizadores de Android abrem um site no domínio nfc.cool - sem necessidade de app. No meu próprio networking, achei isto muito mais fiável do que os vCards em bruto.
 
@@ -338,7 +338,7 @@ Não. As tags NFC são **passivas** - não têm pilha e obtêm energia do leitor
 
 ### Posso proteger uma tag NFC com palavra-passe?
 
-Sim. O NFC.cool Tools consegue definir proteção por palavra-passe em tags NTAG, tanto no iPhone como no Android. Note que isto apenas impede que a tag seja **sobrescrita** - não impede ninguém de **ler** o que já está na tag. Se precisar de tornar o próprio conteúdo ilegível sem uma chave, o que quer são dados encriptados - veja o nosso guia sobre o [NFC Safe](/blog/nfc-safe-encrypted-secrets/). Bloquear uma tag é a outra opção: bloqueia permanentemente quaisquer gravações futuras.
+Sim. O NFC.cool Tools consegue definir proteção por palavra-passe em tags NTAG, tanto no iPhone como no Android. Note que isto apenas impede que a tag seja **sobrescrita** - não impede ninguém de **ler** o que já está na tag. Se precisar de tornar o próprio conteúdo ilegível sem uma chave, o que quer são dados encriptados - veja o nosso guia sobre o [NFC Safe](/pt/blog/nfc-safe-encrypted-secrets/). Bloquear uma tag é a outra opção: bloqueia permanentemente quaisquer gravações futuras.
 
 ### As tags NFC funcionam através de uma capa de telemóvel?
 

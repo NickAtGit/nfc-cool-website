@@ -12,7 +12,7 @@ metaDescription: "NFC.cool lit les Amiibo sur iPhone et Android, tient une colle
 ogTitle: "Lire, collectionner et sauvegarder vos Amiibo sur iPhone et Android"
 ogDescription: "J'ai donné à NFC.cool une prise en charge complète des Amiibo - scannez, collectionnez, et sauvegardez-en une sur un tag vierge. Voici comment les Amiibo fonctionnent vraiment, et pourquoi l'app ne fournit aucune clé."
 ---
-Les gens s'imaginent qu'il y a quelque chose d'exotique à l'intérieur d'un Amiibo. Un morceau de silicium Nintendo qu'on ne peut acheter nulle part ailleurs. Il n'y a rien de tel. Scellé dans le socle de la figurine se trouve un [NTAG215](/affiliate-links/) - la même puce vierge en autocollant que je lis et écris tous les jours, du genre qui se vend par dix dans un paquet pour trois fois rien. Environ 540 octets de mémoire, un numéro de série gravé en usine, et voilà toute la figurine. C'est le plastique qui coûte cher. La puce est presque accessoire.
+Les gens s'imaginent qu'il y a quelque chose d'exotique à l'intérieur d'un Amiibo. Un morceau de silicium Nintendo qu'on ne peut acheter nulle part ailleurs. Il n'y a rien de tel. Scellé dans le socle de la figurine se trouve un [NTAG215](/fr/affiliate-links/) - la même puce vierge en autocollant que je lis et écris tous les jours, du genre qui se vend par dix dans un paquet pour trois fois rien. Environ 540 octets de mémoire, un numéro de série gravé en usine, et voilà toute la figurine. C'est le plastique qui coûte cher. La puce est presque accessoire.
 
 C'est exactement pour ça que ça me tracassait depuis si longtemps. Je lis et j'écris des tags NFC pour gagner ma vie, et il y avait toute une catégorie d'entre eux - une poignée de figurines sur l'étagère à côté de mon bureau - devant laquelle ma propre app haussait simplement les épaules. Je veux que NFC.cool soit l'app NFC la plus complète que vous puissiez installer sur votre téléphone, celle qui ne laisse de côté aucun type de tag.
 
@@ -22,7 +22,7 @@ Alors je me suis assis, les figurines d'un côté et ma Switch de l'autre, et j'
 
 ## Alors, où est la magie ?
 
-Si la puce est aussi ordinaire, la magie n'est manifestement pas dans le silicium. Elle est dans les octets. Un Amiibo, c'est en réalité un carnet bon marché que Nintendo a rempli dans un code privé, puis signé en bas de page pour qu'on puisse distinguer une contrefaçon de l'original. (La puce elle-même est un simple [NTAG215](/blog/nfc-tag-types-for-iphones/), si vous voulez le tour d'horizon plus poussé des types de tags.)
+Si la puce est aussi ordinaire, la magie n'est manifestement pas dans le silicium. Elle est dans les octets. Un Amiibo, c'est en réalité un carnet bon marché que Nintendo a rempli dans un code privé, puis signé en bas de page pour qu'on puisse distinguer une contrefaçon de l'original. (La puce elle-même est un simple [NTAG215](/fr/blog/nfc-tag-types-for-iphones/), si vous voulez le tour d'horizon plus poussé des types de tags.)
 
 Deux choses vivent dans ces octets. La première est à découvert : un petit bloc qui indique de quel personnage il s'agit - Link, de la série Legend of Zelda, dans une gamme d'Amiibo particulière. C'est la partie que votre Switch lit pour savoir qu'une figurine vient de la toucher. La seconde partie est verrouillée : les vraies données de sauvegarde, comme un surnom, le Mii du propriétaire, le nombre de fois où la figurine a été utilisée, et tout ce que le jeu en cours a griffonné dans le petit bloc-notes qu'il a le droit d'utiliser. Cette partie est chiffrée, et elle est signée.
 
@@ -42,7 +42,7 @@ Pour faire une copie valide, vous devez redériver les clés en fonction du tag 
 
 Trois choses, dans l'ordre où vous les utiliserez probablement.
 
-**Lire.** Approchez un Amiibo du dos de votre téléphone, exactement comme vous [liriez n'importe quel tag NFC](/features/nfc-reader-writer/), et NFC.cool l'identifie sur-le-champ : le personnage, la série de jeu, la série d'Amiibo, le type de figurine et l'illustration, ainsi que quelques informations tirées du tag lui-même, comme le nombre de fois où il a été écrit. Aucune clé nécessaire pour ça. Identifier une figurine ne touche que la partie déjà à découvert.
+**Lire.** Approchez un Amiibo du dos de votre téléphone, exactement comme vous [liriez n'importe quel tag NFC](/fr/features/nfc-reader-writer/), et NFC.cool l'identifie sur-le-champ : le personnage, la série de jeu, la série d'Amiibo, le type de figurine et l'illustration, ainsi que quelques informations tirées du tag lui-même, comme le nombre de fois où il a été écrit. Aucune clé nécessaire pour ça. Identifier une figurine ne touche que la partie déjà à découvert.
 
 **Collectionner.** Chaque Amiibo que vous scannez est enregistré dans Ma collection, une simple grille de tout ce que vous possédez. Elle reste sur votre appareil - sur iPhone, elle se synchronise avec vos autres appareils Apple via iCloud - et les illustrations sont mises en cache pour que la collection reste correcte hors ligne. Rien que ça a transformé ma triste petite étagère en quelque chose que je peux réellement parcourir.
 

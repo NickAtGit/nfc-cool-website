@@ -5,7 +5,7 @@ hero:
 trust:
   price: "免费"
 
-description: "面向 iPhone 和 Android 的免费 NFC 工具。轻触即可读取任意 NFC 标签，写入你自己的链接、Wi-Fi 和联系人，还能扫描二维码、条形码和文档。"
+description: "面向 iPhone 和 Android 的免费 NFC 工具。轻触即可读取任意 NFC 标签，写入你自己的链接、Wi-Fi 和联系人，还能扫描二维码、条形码和文档。想分享电子名片，可以用 NFC.cool Business Card。"
 
 heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
 heroImageWidth: 480
@@ -21,7 +21,8 @@ featuresTitle: "扫描所需的一切"
 
 featureBanner:
   title: "NFC.cool Business Card"
-  subtitle: "面向 iPhone 和 Android 的专用电子名片 App，可通过 NFC 轻触或二维码分享，在 iPhone 上还支持 App Clip 和 Apple Wallet。追踪谁保存了你的名片、整理潜在客户，并在现场活动中开启会议模式。"
+  subtitle: "面向 iPhone 和 Android 的专用电子名片 App，可通过 NFC 轻触或二维码分享，在 iPhone 上还支持 App Clip 和 Apple Wallet。看到有多少人保存了你的名片、整理线索，并在现场活动中开启会议模式。"
+  teamLine: "需要为整个团队配备名片？<a href=\"/zh/business-card/teams/\">NFC.cool Business Card for Teams</a> 把你的品牌锁定在每张名片上，并把所有线索汇集到一个共享收件箱。"
   imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
   imageAlt: "手机扫描挂绳上的 NFC.cool 胸牌，并显示联系人信息"
   scene: "bizcardroom"
@@ -76,13 +77,13 @@ faq:
   - question: "我该如何开始使用 NFC.cool？"
     answer: "从 App Store 或 Google Play 下载 NFC.cool Tools，然后浏览各个标签页：NFC 用于读取和写入标签，QR 用于二维码和条形码，文档用于将纸质件扫描为 PDF，3D 用于物体和房间捕捉。无需账户，一切都在设备端运行。"
   - question: "我该如何扫描第一个 NFC 标签？"
-    answer: "打开 NFC.cool Tools，轻触\"读取 NFC\"，把 iPhone 的顶部边缘贴近 NFC 标签，NFC.cool 随即会打开并显示解析后的标签内容视图。除了安装 App 之外无需任何设置。在 Android 手机上，你还可以直接通过<a href=\"/online-nfc-reader/\">在线 NFC 读取器</a>立即试用，无需安装。"
+    answer: "打开 NFC.cool Tools，轻触“读取 NFC”，把 iPhone 的顶部边缘贴近 NFC 标签，NFC.cool 随即会打开并显示解析后的标签内容视图。除了安装 App 之外无需任何设置。在 Android 手机上，你还可以直接通过<a href=\"/zh/online-nfc-reader/\">在线 NFC 读取器</a>立即试用，无需安装。"
   - question: "我该如何写入第一个 NFC 标签？"
-    answer: "打开 NFC.cool Tools，切换到 NFC 标签页并选择\"写入 NFC\"，挑选一种消息类型（URL、Wi-Fi 凭据、联系人名片、iOS 快捷指令等），输入数据，然后把 iPhone 的顶部边缘贴近一枚空白的 NTAG216（或其他符合 NDEF 的标签）。这样一来，任何人轻触该标签都会触发你设定的操作。可在 <a href=\"/affiliate-links/\">NFC 标签页面</a>列出的任意零售商处购买 NDEF 标签。"
+    answer: "打开 NFC.cool Tools，切换到 NFC 标签页并选择“写入 NFC”，挑选一种消息类型（URL、Wi-Fi 凭据、联系人名片、iOS 快捷指令等），输入数据，然后把 iPhone 的顶部边缘贴近一枚空白的 NTAG216（或其他符合 NDEF 的标签）。这样一来，任何人轻触该标签都会触发你设定的操作。可在 <a href=\"/zh/affiliate-links/\">NFC 标签页面</a>列出的任意零售商处购买 NDEF 标签。"
   - question: "NFC.cool 能离线使用吗？"
     answer: "可以。读取和写入 NFC 标签、扫描二维码、扫描条形码、文档 OCR，以及 3D / 房间捕捉全部在设备端运行。只有可选的云端功能（向你服务器发送的 webhook、iCloud 同步）才需要联网。"
   - question: "哪些 NFC 标签可与 NFC.cool 配合使用？"
-    answer: "任何符合 NDEF 的 NFC 标签，包括 NTAG213、NTAG215、NTAG216、MIFARE Ultralight、ICODE SLIX 等。凭借 888 字节的容量以及与 iPhone 和 Android 的广泛兼容性，NTAG216 是日常使用的推荐默认选择。在 <a href=\"/affiliate-links/\">NFC 标签页面</a>可查看经过测试的零售商。"
+    answer: "任何符合 NDEF 的 NFC 标签，包括 NTAG213、NTAG215、NTAG216、MIFARE Ultralight、ICODE SLIX 等。凭借 888 字节的容量以及与 iPhone 和 Android 的广泛兼容性，NTAG216 是日常使用的推荐默认选择。在 <a href=\"/zh/affiliate-links/\">NFC 标签页面</a>可查看经过测试的零售商。"
   - question: "NFC.cool 能扫描二维码和条形码吗？"
     answer: "可以，iPhone 和 Android 都支持。在 iPhone 上，能从相机或相册中的任意照片识别 19 种码制：6 种二维码（QR Code、Micro QR、Aztec、Data Matrix、PDF417、Micro PDF417）和 13 种线性条形码（EAN-13、EAN-8、UPC-E、Code 39 含 Mod 43、Code 93、Code 128、Codabar、Interleaved 2 of 5、ITF-14，以及三种 GS1 DataBar 变体）。UPC-A 会作为带前导零的 EAN-13 读取。在 Android 上，相机可读取 13 种码制：QR Code、Aztec、Data Matrix、PDF417、EAN-13、EAN-8、UPC-A、UPC-E、Code 128、Code 39、Code 93、ITF 和 Codabar。在两个平台上，批量模式都会保持相机开启，便于盘点库存和活动签到。"
   - question: "我可以用 iPhone 写入 NFC 标签吗？"
@@ -92,7 +93,7 @@ faq:
   - question: "NFC.cool Business Card 如何在不安装 App 的情况下分享我的名片？"
     answer: "通过 Apple App Clip（无需下载即可即时分享，接收方在系统弹窗中看到你的名片）、二维码、Apple Wallet 卡片，或一个公开的网页资料 URL。接收方只需轻触一下即可把你的联系人保存到手机，无需安装 NFC.cool 或创建账户。"
   - question: "NFC.cool 与其他 NFC App 有何不同？"
-    answer: "大多数 NFC App 只专注于读取或写入，而 NFC.cool Tools 两者兼具，并且在同一款 App 中集成了二维码、条形码、文档 OCR、3D 捕捉和房间扫描。还有另外三点差异：隐私（扫描数据保留在设备端，绝不发送到 NFC.cool 服务器）；深度的 iOS 集成（App Intents、快捷指令、锁屏小组件、操作按钮、webhook），让扫描触发你自己的自动化，而不是被困在 App 内部；以及活跃的独立开发者支持，开发者亲自阅读每一封邮件，并在数天内推出修复。"
+    answer: "大多数 NFC App 只专注于读取或写入，而 NFC.cool Tools 两者兼具，并且在同一款 App 中集成了二维码、条形码、文档 OCR、3D 捕捉和房间扫描。还有另外三点差异：隐私（扫描数据保留在设备端，绝不发送到 NFC.cool 服务器）；深度的 iOS 集成（App Intents、快捷指令、锁屏小组件、操作按钮、webhook），让扫描触发你自己的自动化，而不是被困在 App 内部；以及来自创始人的快速答复，他亲自阅读每一封邮件，并在数天内推出修复。"
 
 newsletter:
   title: "保持关注"

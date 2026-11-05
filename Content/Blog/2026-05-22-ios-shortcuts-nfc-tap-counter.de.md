@@ -34,7 +34,7 @@ Bevor es an die Kurzbefehle geht, kurz zur Erinnerung, was bei ihnen eigentlich 
 
 Im Einrichtungsbildschirm des Tap-Zählers legst du fest, welchen Inhalt der Tag bekommt: URL, E-Mail, SMS oder Kurzbefehl. Schaltest du Tap-Zähler und/oder Tag-ID ein, bettet die App Platzhalter-Bytes in diesen Inhalt ein, und der Chip tauscht sie bei jedem Lesevorgang gegen die aktuellen Werte aus. Mit `049F50824F1390` als Tag-ID und `000007` als Zählerstand sehen die vier Inhaltstypen hinterher so aus:
 
-- **URL:** `https://nfc.cool/tap-counter/` wird zu [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007)
+- **URL:** `https://nfc.cool/tap-counter/` wird zu [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/de/tap-counter/?nfc=049F50824F1390x000007)
 - **E-Mail-Text:** `Hi, hier ist meine Karte.` wird zu `Hi, hier ist meine Karte. 049F50824F1390x000007`
 - **SMS-Text:** `Bestellung bestätigt!` wird zu `Bestellung bestätigt! 049F50824F1390x000007`
 - **Kurzbefehl-Eingabe:** `log-entry` wird zu `log-entry 049F50824F1390x000007`

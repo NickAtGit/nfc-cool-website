@@ -70,7 +70,7 @@ Spesifikasi bahkan mencakup kolom khusus resin seperti `last_stir_time`, yang me
 
 ## Tag: bukan stiker NFC biasa
 
-Inilah detail teknis yang ingin saya sampaikan sebelum Anda membeli apa pun: **OpenPrintTag dirancang untuk tag ISO 15693 (NFC-V)**, khususnya chip **NXP ICODE SLIX dan ICODE SLIX2**. Ini adalah tag NFC Forum Type 5 dengan jangkauan baca yang jauh lebih panjang daripada tag NFC-A standar, hingga 1,5 meter dengan pembaca khusus. Jika Anda hanya pernah membeli stiker NTAG murah yang digunakan oleh kebanyakan proyek, ini adalah keluarga tag yang berbeda - saya membahas seluruh lanskap tersebut di [tipe tag NFC untuk iPhone](/blog/nfc-tag-types-for-iphones/).
+Inilah detail teknis yang ingin saya sampaikan sebelum Anda membeli apa pun: **OpenPrintTag dirancang untuk tag ISO 15693 (NFC-V)**, khususnya chip **NXP ICODE SLIX dan ICODE SLIX2**. Ini adalah tag NFC Forum Type 5 dengan jangkauan baca yang jauh lebih panjang daripada tag NFC-A standar, hingga 1,5 meter dengan pembaca khusus. Jika Anda hanya pernah membeli stiker NTAG murah yang digunakan oleh kebanyakan proyek, ini adalah keluarga tag yang berbeda - saya membahas seluruh lanskap tersebut di [tipe tag NFC untuk iPhone](/id/blog/nfc-tag-types-for-iphones/).
 
 Mengapa NFC-V? Pembaca NFC bawaan printer perlu mendeteksi gulungan terlepas dari rotasinya. Jangkauan NFC-V yang lebih panjang memungkinkan hal ini tanpa memerlukan penyelarasan tag yang tepat, yang merupakan desain yang cerdas.
 
@@ -107,7 +107,7 @@ NFC.cool Tools mendukung OpenPrintTag secara native di [iOS](https://apps.apple.
 **Memperbarui material yang tersisa:**
 Setelah mencetak, perbarui kolom berat yang telah digunakan pada tag. Lain kali Anda memindai, Anda akan tahu persis berapa banyak filamen yang tersisa - tanpa menebak, tanpa menimbang. Inilah bagian yang mengubah gulungan pintar dari sekadar kebaruan menjadi sesuatu yang benar-benar saya andalkan.
 
-Jika Anda ingin melihat lebih dalam, Anda dapat menggunakan Expert Mode untuk memeriksa rekaman NDEF mentah - berguna saat Anda perlu men-debug tag atau memverifikasi struktur data. Baru pertama kali menulis tag? Saya membahas dasarnya di [cara menulis tag NFC di iPhone](/blog/write-nfc-tags-iphone/).
+Jika Anda ingin melihat lebih dalam, Anda dapat menggunakan Expert Mode untuk memeriksa rekaman NDEF mentah - berguna saat Anda perlu men-debug tag atau memverifikasi struktur data. Baru pertama kali menulis tag? Saya membahas dasarnya di [cara menulis tag NFC di iPhone](/id/blog/write-nfc-tags-iphone/).
 
 ---
 
@@ -159,6 +159,6 @@ Saya telah menyaksikan industri cetak 3D membutuhkan standar terbuka untuk gulun
 - Tag NFC ICODE SLIX2 / ISO 15693 kosong ([Amazon US](https://amzn.to/3LTh1fT) / [Amazon Europe](https://amzn.to/4oJpQr4), tautan afiliasi)
 - Beberapa gulungan filamen untuk diberi tag
 
-Itu saja. Lima menit dari sekarang, gulungan pertama Anda bisa menjadi pintar. Jika NFC masih baru bagi Anda, [panduan pemula tentang tag NFC](/blog/nfc-tags-beginners-guide/) adalah tempat yang akan saya sarankan pertama kali, dan [halaman fitur pembaca/penulis NFC](/features/nfc-reader-writer/) mencakup apa yang bisa dilakukan NFC.cool Tools di luar OpenPrintTag.
+Itu saja. Lima menit dari sekarang, gulungan pertama Anda bisa menjadi pintar. Jika NFC masih baru bagi Anda, [panduan pemula tentang tag NFC](/id/blog/nfc-tags-beginners-guide/) adalah tempat yang akan saya sarankan pertama kali, dan [halaman fitur pembaca/penulis NFC](/id/features/nfc-reader-writer/) mencakup apa yang bisa dilakukan NFC.cool Tools di luar OpenPrintTag.
 
 *OpenPrintTag adalah inisiatif sumber terbuka dari Prusa Research. NFC.cool adalah pendukung independen standar ini. Pelajari lebih lanjut di [openprinttag.org](https://openprinttag.org).*

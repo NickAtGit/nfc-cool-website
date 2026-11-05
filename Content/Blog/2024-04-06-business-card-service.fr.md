@@ -2,8 +2,9 @@
 id: nfc-blog-026
 title: "Configurer la carte de visite numérique NFC.cool"
 date: 2024-04-06
+lastModified: "2026-11-05"
 tags: ["business-cards", "guides"]
-summary: "Un guide pas à pas pour configurer votre carte de visite numérique NFC.cool: créez le contact, choisissez ce qui est public, écrivez-le sur un tag NFC, puis partagez. Et pourquoi une seule URL modifiable vaut mieux qu'un QR vCard à usage unique pour du réseautage sérieux."
+summary: "Un guide pas à pas pour configurer votre carte de visite numérique NFC.cool : créez le contact, choisissez ce qui est public, écrivez-le sur un tag NFC, puis partagez. Et pourquoi une seule URL modifiable vaut mieux qu'un QR vCard à usage unique pour du réseautage sérieux."
 metaTitle: "Comment configurer votre carte de visite numérique NFC.cool"
 metaDescription: "Configuration pas à pas de la carte de visite numérique NFC.cool - créez votre profil, écrivez-le sur un tag NFC, puis partagez. Et pourquoi une URL modifiable vaut mieux qu'une vCard figée."
 ogTitle: "Configurer la carte de visite numérique NFC.cool"
@@ -12,7 +13,7 @@ image: "/assets/images/Blog/business-card-service.webp"
 ---
 Une carte de visite en papier est un objet figé. À la minute où votre intitulé de poste change, où votre numéro de téléphone change, ou bien où vous changez d'agence, chaque carte dans le portefeuille de quelqu'un devient une information erronée à votre sujet.
 
-La carte de visite numérique NFC.cool renverse la logique: une seule URL que vous contrôlez, écrite sur un tag NFC (ou un QR code, ou les deux). Vous modifiez vos informations sur votre téléphone, et chaque tag existant se met à jour instantanément. Voici comment la configurer.
+La carte de visite numérique NFC.cool renverse la logique : une seule URL que vous contrôlez, écrite sur un tag NFC (ou un QR code, ou les deux). Vous modifiez vos informations sur votre téléphone, et chaque tag existant se met à jour instantanément. Voici comment la configurer.
 
 ---
 
@@ -24,17 +25,17 @@ Téléchargez NFC.cool Business Card pour [iPhone](https://apps.apple.com/app/ap
 
 ## Créer le contact source dans Contacts
 
-Ouvrez l'app Contacts d'iOS (ou l'app contacts d'Android) et créez un contact à votre nom avec les informations que vous voulez rendre accessibles à tous: nom, organisation, intitulé de poste, e-mail professionnel, téléphone professionnel, site web, URL LinkedIn. Vérifiez bien l'orthographe et la mise en forme - c'est la fiche de référence.
+Vous pouvez partir d'une carte vide dans l'app, ou d'un contact de votre téléphone. Pour la seconde option, ouvrez l'app Contacts d'iOS (ou l'app contacts d'Android) et créez un contact à votre nom avec les informations que vous voulez rendre accessibles à tous : nom, organisation, intitulé de poste, e-mail professionnel, téléphone professionnel, site web, URL LinkedIn. Vérifiez bien l'orthographe et la mise en forme - c'est la fiche de référence.
 
 Pas besoin de tout y mettre. Tout ce qui est sensible (mobile personnel, adresse du domicile) peut rester entièrement en dehors de ce contact.
 
 ---
 
-## Ouvrir NFC.cool et créer la carte de visite
+## Ouvrir NFC.cool Business Card et créer la carte
 
-Dans NFC.cool, rendez-vous dans la section **Business Card** et touchez **Créer un compte**. Vous définirez un nom d'utilisateur et un code PIN - c'est le code PIN qui protège les modifications futures, alors ne le perdez pas.
+Ouvrez l'app et touchez **Créer une carte de visite**.
 
-Touchez **Ouvrir Contacts** et sélectionnez le contact que vous venez de créer. NFC.cool importe les données et les affiche sous forme de brouillon de votre carte de visite.
+Choisissez **Créer à partir des contacts** et sélectionnez le contact que vous venez de créer, ou **Créer une nouvelle carte** pour partir d'une carte vide. NFC.cool importe les données et les affiche sous forme de brouillon de votre carte de visite.
 
 ---
 
@@ -42,19 +43,19 @@ Touchez **Ouvrir Contacts** et sélectionnez le contact que vous venez de créer
 
 C'est l'étape la plus importante. Vous pouvez décocher n'importe quel champ que vous ne voulez pas partager - si votre fiche Contacts contient un numéro de mobile personnel que vous préférez garder privé, décochez-le ici et il n'apparaîtra pas sur votre carte partagée.
 
-Configurations courantes:
+Configurations courantes :
 
-- **Commercial:** nom, poste, téléphone professionnel, e-mail professionnel, entreprise, LinkedIn.
-- **Ingénierie:** nom, poste, e-mail professionnel, GitHub, site web.
-- **Création:** nom, poste, Instagram, URL de portfolio, e-mail professionnel.
+- **Commercial :** nom, poste, téléphone professionnel, e-mail professionnel, entreprise, LinkedIn.
+- **Ingénierie :** nom, poste, e-mail professionnel, GitHub, site web.
+- **Création :** nom, poste, Instagram, URL de portfolio, e-mail professionnel.
 
-Touchez **Suivant** une fois terminé.
+Passez à la suite une fois terminé. Vous choisirez ensuite un nom d'utilisateur, qui figure à la fin du lien de votre carte (mycard.nfc.cool/John), puis vous créerez votre compte. L'app attribue à votre compte un code PIN à quatre chiffres, que vous pouvez modifier dans les Paramètres et utiliser pour garder une carte privée.
 
 ---
 
 ## Personnaliser le logo
 
-Touchez **Votre logo** → **Changer de logo** pour téléverser le logo de votre entreprise ou votre marque personnelle. Un PNG transparent donne le résultat le plus net - il se superpose correctement sur les thèmes clair et sombre.
+Ouvrez le menu de la carte et changez le logo pour téléverser le logo de votre entreprise ou votre marque personnelle. Un fond transparent donne le résultat le plus net, et vous pouvez utiliser un seul logo pour les modes clair et sombre ou en ajouter un pour chacun.
 
 ---
 
@@ -66,11 +67,11 @@ Touchez **Votre logo** → **Changer de logo** pour téléverser le logo de votr
 </ol>
 </figure>
 
-Passons au côté physique. Vous pouvez acheter un tag NFC dans [la boutique NFC.cool](https://shop.nfc.cool/collections/all) ou chez n'importe quel revendeur tiers - autocollant, carte, porte-clés, quel que soit le format qui vous convient.
+Passons au côté physique. N'importe quel tag NFC standard fonctionne - autocollant, carte, porte-clés, quel que soit le format qui vous convient. Ma page de [tags NFC recommandés](/fr/affiliate-links/) vous montre quoi acheter.
 
-Dans NFC.cool, touchez **Écrire la carte de visite sur un tag NFC**. Approchez votre téléphone du tag. L'app écrit une URL courte qui pointe vers la page de votre carte sur nfc.cool. Une fois écrite, il suffit d'approcher un téléphone pour la lire.
+Dans le menu de la carte, touchez **Écrire sur un tag NFC** (**Écrire la carte de visite sur un tag NFC** sur Android). Approchez votre téléphone du tag. L'app écrit une URL courte qui pointe vers la page de votre carte sur nfc.cool. Une fois écrite, il suffit d'approcher un téléphone pour la lire.
 
-Si vous voulez verrouiller le tag pour que personne ne puisse réécrire l'URL par la suite, touchez **Verrouiller** une fois l'écriture réussie. C'est irréversible - ne verrouillez que les tags dont vous êtes sûr.
+Si vous voulez verrouiller le tag pour que personne ne puisse réécrire l'URL par la suite, [NFC.cool Tools](/fr/features/nfc-reader-writer/) peut le faire avec son abonnement Platinum. Le verrouillage est irréversible - ne verrouillez que les tags dont vous êtes sûr.
 
 ---
 
@@ -82,7 +83,7 @@ Si vous voulez verrouiller le tag pour que personne ne puisse réécrire l'URL p
 </ol>
 </figure>
 
-Touchez **Voir la carte de visite** pour voir exactement ce qu'un destinataire verra. La page est pensée d'abord pour le mobile, se charge instantanément et propose un bouton « Enregistrer dans les contacts » en un seul geste. Sur iOS, les destinataires voient un App Clip natif (aucune installation d'app requise); sur Android, ils voient une page web soignée sur le domaine nfc.cool. Dans les deux cas, ils obtiennent votre contact dans leur répertoire.
+Touchez **Aperçu** dans le menu de la carte (**Aperçu de la carte de visite** sur Android) pour voir exactement ce qu'un destinataire verra. La page est pensée d'abord pour le mobile, se charge instantanément et propose un bouton « Enregistrer le contact » en un seul geste. Sur iOS, les destinataires voient un App Clip natif (aucune installation d'app requise) ; sur Android, ils voient une page web soignée sur le domaine nfc.cool. Dans les deux cas, ils obtiennent votre contact dans leur répertoire.
 
 ---
 
@@ -90,10 +91,10 @@ Touchez **Voir la carte de visite** pour voir exactement ce qu'un destinataire v
 
 L'alternative classique, c'est un QR code avec une vCard intégrée directement. Ça fonctionne sans aucun service intermédiaire - le QR encode lui-même les données du contact.
 
-Le compromis: impossible de le mettre à jour. Imprimez 500 cartes, changez de poste, et vous voilà avec 500 cartes aux données périmées.
+Le compromis : impossible de le mettre à jour. Imprimez 500 cartes, changez de poste, et vous voilà avec 500 cartes aux données périmées.
 
-Le fonctionnement de NFC.cool garde vos coordonnées sur le serveur. Le tag (ou le QR) ne fait que pointer vers l'URL. Vous modifiez vos informations une seule fois dans l'app; chaque tag que quiconque a un jour approché renvoie désormais vers les informations à jour.
+Le fonctionnement de NFC.cool garde vos coordonnées sur le serveur. Le tag (ou le QR) ne fait que pointer vers l'URL. Vous modifiez vos informations une seule fois dans l'app ; chaque tag que quiconque a un jour approché renvoie désormais vers les informations à jour.
 
 C'est la seule chose qui compte vraiment pour du réseautage sérieux - les données survivent à la carte imprimée.
 
-[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-fr&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-fr) · ou l'app autonome NFC.cool Business Card pour [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-fr&mt=8) et [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-fr).
+[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-fr&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-fr) · ou [NFC.cool Business Card](/fr/business-card/) pour [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-fr&mt=8) et [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-fr).

@@ -12,7 +12,7 @@ metaDescription: "Una alarma para iPhone y Android que solo se apaga cuando esca
 ogTitle: "El despertador con el que no hay posponer que valga"
 ogDescription: "Alarma NFC no se calla hasta que recorres un camino de etiquetas NFC por tu casa. Así funciona en iPhone y Android."
 ---
-Ser desarrollador independiente tiene un ritmo al que el horario de oficina le da igual. Donde mejor programo es de noche, cuando dejan de llegar mensajes y la casa está en silencio, y cuando me doy cuenta ya son las dos de la mañana. La alarma, claro, sigue sonando a la misma hora de siempre. Y yo le doy a posponer. Y otra vez. Y una tercera, hasta que media mañana de la que tenía planeada se me ha esfumado.
+Ser fundador tiene un ritmo al que el horario de oficina le da igual. Donde mejor programo es de noche, cuando dejan de llegar mensajes y la casa está en silencio, y cuando me doy cuenta ya son las dos de la mañana. La alarma, claro, sigue sonando a la misma hora de siempre. Y yo le doy a posponer. Y otra vez. Y una tercera, hasta que media mañana de la que tenía planeada se me ha esfumado.
 
 Estuve un tiempo dándole vueltas a qué podía hacer de verdad. ¿Una alarma más fuerte? Acabaría acostumbrándome a dormir con ella. ¿Dejar el móvil en la otra punta de la habitación? Iría hasta allí, pulsaría Detener y volvería a meterme en la cama. El problema nunca fue no oír la alarma. El problema era que para apagarla bastaba un toque, sin pensar nada.
 
@@ -80,7 +80,7 @@ Hay apps de alarma que te obligan a hacerle una foto al lavabo o a escanear el c
 
 Una etiqueta NFC, por sí sola, no es más que un trocito de metal. Un chip diminuto con un ID y nada más, quieto en una estantería. Lo que más disfruto de hacer NFC.cool es darle sentido a ese trocito de metal: convertir una pegatina de unos céntimos en algo que de verdad pinta algo en tu día a día. Con Alarma NFC, la etiqueta ni siquiera necesita tener contenido. La app reconoce cada una por el ID del chip y no escribe nada en ella. Vale cualquier etiqueta, también ese paquete de pegatinas de repuesto que tienes en un cajón. Y la luz le da igual: escanear una etiqueta funciona en un pasillo a oscuras, donde una cámara lo tendría difícil, y no hace falta apuntar a nada.
 
-Si todavía no tienes etiquetas, en mi [guía de etiquetas NFC para principiantes](/blog/nfc-tags-beginners-guide/) te explico cuáles comprar.
+Si todavía no tienes etiquetas, en mi [guía de etiquetas NFC para principiantes](/es/blog/nfc-tags-beginners-guide/) te explico cuáles comprar.
 
 ---
 

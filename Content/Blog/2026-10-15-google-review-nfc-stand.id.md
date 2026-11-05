@@ -23,7 +23,7 @@ Ternyata tidak. Isinya hanya tag NFC biasa dan kode QR yang dicetak, dan keduany
 
 ## Apa sebenarnya isi stand ulasan Google
 
-Tag NFC di stand seperti ini adalah stiker murah yang sama dengan yang bisa Anda [beli dalam paket isi lima puluh](/affiliate-links/). Seseorang menulis satu tautan web ke dalamnya. Kode QR di sebelahnya berisi tautan yang sama, dicetak sebagai pola kotak-kotak, untuk orang yang ponselnya tidak punya NFC atau NFC-nya sedang dimatikan.
+Tag NFC di stand seperti ini adalah stiker murah yang sama dengan yang bisa Anda [beli dalam paket isi lima puluh](/id/affiliate-links/). Seseorang menulis satu tautan web ke dalamnya. Kode QR di sebelahnya berisi tautan yang sama, dicetak sebagai pola kotak-kotak, untuk orang yang ponselnya tidak punya NFC atau NFC-nya sedang dimatikan.
 
 Bagian yang menarik justru tautannya. Google punya URL yang membawa tamu langsung ke formulir ulasan sebuah usaha tertentu, yang dikenali lewat **Place ID**-nya. Setiap usaha di Google Maps punya Place ID, dan kalau usaha Anda belum ada di sana, Google menjelaskan cara [membuat Profil Bisnis](https://support.google.com/business/answer/2911778?hl=id). Tulis tautan itu ke sebuah tag, dan stand tadi menjadi jalan tercepat untuk mengubah "malamnya seru sekali" menjadi ulasan tertulis.
 
@@ -51,7 +51,7 @@ Sebelum Anda mulai membuatnya, ada beberapa hal yang saya pelajari dengan susah 
 
 [Piano Negro](https://mycard.nfc.cool/PianoNegro/Piano-Negro) adalah bar di Coimbra yang sudah buka sejak 1993. Saat saya membantu pemiliknya menyiapkan stand mereka, kami tidak hanya menaruh tautan ulasan di meja. Orang yang baru duduk belum memikirkan ulasan. Mereka ingin melihat menunya dulu.
 
-Jadi setiap meja di Piano Negro punya stand berisi **[NFC.cool Business Card](/business-card/)** milik bar itu. Tempelkan ponsel ke stand, atau pindai kode QR-nya, dan kartu itu terbuka dengan semua yang mungkin dicari tamu, masing-masing cukup sekali ketuk:
+Jadi setiap meja di Piano Negro punya stand berisi **[NFC.cool Business Card](/id/business-card/)** milik bar itu. Tempelkan ponsel ke stand, atau pindai kode QR-nya, dan kartu itu terbuka dengan semua yang mungkin dicari tamu, masing-masing cukup sekali ketuk:
 
 - menu, dalam bahasa Portugis dan Inggris
 - WhatsApp
@@ -70,10 +70,10 @@ Hal lain yang saya suka dari cara ini: isi stand-nya tidak pernah usang. Tag dan
 
 Daftar belanjanya ternyata pendek sekali:
 
-- **Tag NFC.** Stiker NTAG213 sederhana sudah lebih dari cukup, dan tautan-tautan di artikel ini muat di dalamnya dengan ruang yang masih tersisa. Kalau Anda ragu soal jenis tag, [panduan tag NFC untuk iPhone](/blog/nfc-tag-types-for-iphones/) yang saya tulis menjelaskan perbedaannya.
+- **Tag NFC.** Stiker NTAG213 sederhana sudah lebih dari cukup, dan tautan-tautan di artikel ini muat di dalamnya dengan ruang yang masih tersisa. Kalau Anda ragu soal jenis tag, [panduan tag NFC untuk iPhone](/id/blog/nfc-tag-types-for-iphones/) yang saya tulis menjelaskan perbedaannya.
 - **Display akrilik bening** yang bisa diselipi kartu cetak. Biasanya dijual sebagai tempat menu atau papan nama akrilik, dan harganya hanya beberapa euro per buah.
 - **Printer warna.**
-- **[NFC.cool Business Card](/business-card/)** untuk stand di meja.
+- **[NFC.cool Business Card](/id/business-card/)** untuk stand di meja.
 - **NFC.cool Tools** untuk tautan ulasan dan untuk melindungi tag Anda dengan kata sandi, di [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-google-review-nfc-stand-id&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-google-review-nfc-stand-id).
 
 ---
@@ -135,7 +135,7 @@ Kalau usaha Anda sama sekali tidak muncul, kemungkinan besar usaha itu belum pun
 
 ### Langkah 2: Tulis tag
 
-Simpan tautannya, lalu tulis ke stiker NFC dengan mendekatkan ponsel. Kalau Anda belum pernah menulis tag, langkah-langkahnya saya jelaskan di [cara menulis tag NFC dengan iPhone](/blog/write-nfc-tags-iphone/).
+Simpan tautannya, lalu tulis ke stiker NFC dengan mendekatkan ponsel. Kalau Anda belum pernah menulis tag, langkah-langkahnya saya jelaskan di [cara menulis tag NFC dengan iPhone](/id/blog/write-nfc-tags-iphone/).
 
 ### Langkah 3: Buat kode QR
 

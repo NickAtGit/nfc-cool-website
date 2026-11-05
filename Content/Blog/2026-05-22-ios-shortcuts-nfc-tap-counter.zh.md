@@ -8,12 +8,12 @@ image: "/assets/images/Blog/ios-shortcuts-nfc-tap-counter.webp"
 imageAlt: "一部 iPhone，在轻触一枚 NFC 贴纸后显示出一条带有标签 ID 和扫描计数的提醒"
 author: "Nicolo Stanciu"
 metaTitle: "用 iOS 快捷指令解析 NFC 轻触计数器的数据"
-metaDescription: "一个可复用的 iOS 快捷指令，解析 NFC 轻触计数器的负载（标签 ID + 扫描计数），外加一个标签提醒演示。拿来即用的 iCloud 链接，无需设置。"
+metaDescription: "一个可复用的 iOS 快捷指令，解析 NFC 轻触计数器的负载（标签 ID + 扫描计数），外加一个标签提醒演示。拿来即用的 iCloud 链接，无需设置。这篇还讲讲怎么把它接进你自己的快捷指令，以及一些可以继续发挥的点子。"
 ogTitle: "用 iOS 快捷指令解析 NFC 轻触计数器的数据"
 ogDescription: "面向 NFC 轻触计数器的拿来即用 iOS 快捷指令：一个可复用的解析器和一个标签提醒演示。"
 ---
 
-一周前我[讲解过 NFC 轻触计数器是怎么工作的](/blog/count-nfc-tag-scans/)：芯片自己统计扫描次数，App 嵌入占位字节，而标签在每次轻触时把实时计数和标签 ID 替换进它所携带的任何内容里。那篇文章止步于标签止步的地方，也就是这些值到达你手机的那一刻。
+一周前我[讲解过 NFC 轻触计数器是怎么工作的](/zh/blog/count-nfc-tag-scans/)：芯片自己统计扫描次数，App 嵌入占位字节，而标签在每次轻触时把实时计数和标签 ID 替换进它所携带的任何内容里。那篇文章止步于标签止步的地方，也就是这些值到达你手机的那一刻。
 
 从那以后我一直被问到的，是那个显而易见的下一个问题：“很好，标签递给我 `049F50824F1390x000007` 了，那现在怎么办？”如果你用的是 iPhone，并且想在一个快捷指令里对这些值做点什么，你就得先解析它们。这是一件不大却挺琐碎的字符串处理活儿，我宁可你不必自己去写。
 
@@ -34,12 +34,12 @@ ogDescription: "面向 NFC 轻触计数器的拿来即用 iOS 快捷指令：一
 
 在轻触计数器的设置界面里，你为标签选择一种内容类型：URL、Email、SMS 或 Shortcut。当你打开轻触计数器和/或标签 ID 开关时，App 会在那段内容里嵌入占位字节，芯片则在每次读取时把它们替换成实时值。以 `049F50824F1390` 作为标签 ID、`000007` 作为计数，这四种内容类型最终长这样：
 
-- **URL：** `https://nfc.cool/tap-counter/` 变成 [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007)
+- **URL：** `https://nfc.cool/tap-counter/` 变成 [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/zh/tap-counter/?nfc=049F50824F1390x000007)
 - **Email 正文：** `Hi, here's my card.` 变成 `Hi, here's my card. 049F50824F1390x000007`
 - **SMS 正文：** `Order confirmed!` 变成 `Order confirmed! 049F50824F1390x000007`
 - **Shortcut 输入：** `log-entry` 变成 `log-entry 049F50824F1390x000007`
 
-上面那个 URL 是真实可用的。我们的[实时轻触计数器测试页面](/tap-counter/)被设置成会直接从它自己的地址栏里读取 `?nfc=` 的值，所以如果你想在编写自己的自动化之前先看看替换是怎么发生的，就写一枚指向 `https://nfc.cool/tap-counter/` 的标签，两个开关都打开，轻触它，页面就会把它刚收到的标签 ID 和计数显示给你看。
+上面那个 URL 是真实可用的。我们的[实时轻触计数器测试页面](/zh/tap-counter/)被设置成会直接从它自己的地址栏里读取 `?nfc=` 的值，所以如果你想在编写自己的自动化之前先看看替换是怎么发生的，就写一枚指向 `https://nfc.cool/tap-counter/` 的标签，两个开关都打开，轻触它，页面就会把它刚收到的标签 ID 和计数显示给你看。
 
 当内容类型为 **Shortcut** 时，NFC.cool 会通过 `shortcuts://run-shortcut?name=Your%20Shortcut&input=text&text=<payload>` 运行你选定的快捷指令，追加上去的 NFC 值已经在那段文本里了。你的快捷指令的输入是一个纯文本字符串。你唯一要做的，就是把标签 ID 和计数从中重新提取出来。
 
@@ -118,7 +118,7 @@ Scans: 7
 
 - **按标签 ID 分支。** 一个快捷指令，多枚标签。为每个已知的标签 ID 加一个 **If** 操作：如果扫描的是办公室门的标签，就静音通知；如果扫描的是工作室的标签，就设置一个专注模式；如果扫描的是厨房的标签，就启动一个计时器。标签 ID 标识的是实体标签，而不是内容，所以你可以给每一枚标签写同一个 URL，却仍然对每一枚单独做出反应。
 - **在第 N 次扫描时选出赢家。** 把 `hasCount` 和一个比较结合起来。如果 `count` 等于 100，就触发一条确认消息；对其他每一次扫描，就做常规处理。芯片负责保证顺序，你的快捷指令只管读取它。
-- **发送到一个 webhook。** 如果你想要服务端处理却不想写一个 iOS App，就把它和 NFC.cool 的 [Webhooks 功能](/features/webhooks/)搭配起来：把解析出的值作为 JSON 发出去，剩下的交给服务器。两个 iOS 操作，你的标签就接进了任何会说 HTTP 的东西里。
+- **发送到一个 webhook。** 如果你想要服务端处理却不想写一个 iOS App，就把它和 NFC.cool 的 [Webhooks 功能](/zh/features/webhooks/)搭配起来：把解析出的值作为 JSON 发出去，剩下的交给服务器。两个 iOS 操作，你的标签就接进了任何会说 HTTP 的东西里。
 - **记录到文件或备忘录。** 最简单的一种，却出乎意料地有用。把 `timestamp, tagID, count` 追加到 iCloud Drive 里一个不断累加的文件或者一条备忘录里，你就有了一份日后可以翻看或绘制成图的轻触日志。很适合在不搭建基础设施的情况下，对单枚标签做互动追踪。
 
 如果你用这些做出了什么有意思的东西，我真心想看看。
@@ -139,6 +139,6 @@ Scans: 7
 
 ## 来试试看
 
-如果你想更深入地了解轻触计数器功能底层到底是怎么工作的，那在[上一篇文章](/blog/count-nfc-tag-scans/)里。如果你想在不先设置自己的自动化的情况下，就看到一枚启用了计数器的标签实际运作，我们的[实时轻触计数器演示](/tap-counter/)页面会直接从它自己的 URL 里读取 `?nfc=` 的值：写一枚指向那里的标签，轻触它，看着计数和标签 ID 出现。
+如果你想更深入地了解轻触计数器功能底层到底是怎么工作的，那在[上一篇文章](/zh/blog/count-nfc-tag-scans/)里。如果你想在不先设置自己的自动化的情况下，就看到一枚启用了计数器的标签实际运作，我们的[实时轻触计数器演示](/zh/tap-counter/)页面会直接从它自己的 URL 里读取 `?nfc=` 的值：写一枚指向那里的标签，轻触它，看着计数和标签 ID 出现。
 
-NFC 轻触计数器功能本身在 NFC.cool Tools 里，支持 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-en)。想看看我围绕 NFC 做的整套工具，可以看看 [NFC 读取与写入功能](/features/nfc-reader-writer/)。
+NFC 轻触计数器功能本身在 NFC.cool Tools 里，支持 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-zh)。想看看我围绕 NFC 做的整套工具，可以看看 [NFC 读取与写入功能](/zh/features/nfc-reader-writer/)。

@@ -31,7 +31,7 @@ Yıllarca NFC uygulaması yayınlayıp binlerce destek e-postası okuduktan sonr
 
 ## Nereden alınır
 
-İnsanların NFC ile yaptığı işlerin yüzde 95'i için (kartvizit, otomasyon tetikleyicisi, adres kısayolu, Wi-Fi paylaşımı) **NTAG216** etiket al. iPhone'da da Android'de de güvenilir, 888 bayt yazılabilir alanı var, toptanda ucuz ve NFC.cool'un sınadığı çipin ta kendisi. NFC tag'lere yeniysen [sıfırdan başlayanlar için NFC tag rehberim](/blog/nfc-tags-beginners-guide/) bunların nasıl çalıştığını ve çipler arasındaki farkı anlatıyor. Amazon mağazanı seç ya da rastgele birine tıkla; Amazon yurt dışındaki alıcıları kendiliğinden en yakın mağazasına yönlendiriyor.
+İnsanların NFC ile yaptığı işlerin yüzde 95'i için (kartvizit, otomasyon tetikleyicisi, adres kısayolu, Wi-Fi paylaşımı) **NTAG216** etiket al. iPhone'da da Android'de de güvenilir, 888 bayt yazılabilir alanı var, toptanda ucuz ve NFC.cool'un sınadığı çipin ta kendisi. NFC tag'lere yeniysen [sıfırdan başlayanlar için NFC tag rehberim](/tr/blog/nfc-tags-beginners-guide/) bunların nasıl çalıştığını ve çipler arasındaki farkı anlatıyor. Amazon mağazanı seç ya da rastgele birine tıkla; Amazon yurt dışındaki alıcıları kendiliğinden en yakın mağazasına yönlendiriyor.
 
 <div class="affiliate-store-box">
 
@@ -58,7 +58,7 @@ Yıllarca NFC uygulaması yayınlayıp binlerce destek e-postası okuduktan sonr
 
 ## Amiibo mu yedekleyeceksin? NTAG215 al
 
-Amiibo'lar tam olarak **NTAG215** çipi taşır. [NFC.cool ile Amiibo yedekleyeceksen](/blog/amiibo-iphone-android-read-collect-backup/) boş **NTAG215** tag al, geri kalan her şey için önerdiğim NTAG216'yı değil. Çipi birebir eşleştirmen gereken tek durum bu: NFC.cool, anahtarı yeniden üretilmiş kopyayı NTAG215'e yazar, yani gerçek Amiibo'nun kullandığı çip türüne.
+Amiibo'lar tam olarak **NTAG215** çipi taşır. [NFC.cool ile Amiibo yedekleyeceksen](/tr/blog/amiibo-iphone-android-read-collect-backup/) boş **NTAG215** tag al, geri kalan her şey için önerdiğim NTAG216'yı değil. Çipi birebir eşleştirmen gereken tek durum bu: NFC.cool, anahtarı yeniden üretilmiş kopyayı NTAG215'e yazar, yani gerçek Amiibo'nun kullandığı çip türüne.
 
 <div class="affiliate-store-box">
 

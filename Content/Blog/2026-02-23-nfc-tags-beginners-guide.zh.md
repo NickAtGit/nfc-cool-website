@@ -7,7 +7,7 @@ summary: "NFC 标签是微小的、无需供电的芯片，轻触一下就能在
 image: "/assets/images/Blog/nfc-tags-beginners-guide.webp"
 imageAlt: "一部手机和几枚 NFC 标签，配有入门工作流图标"
 metaTitle: "NFC 标签详解：完整入门指南（2026）"
-metaDescription: "了解 NFC 标签是什么、如何工作、不同的类型（NTAG213、215、216），以及 15 种以上的实用玩法，从智能家居自动化到电子名片。"
+metaDescription: "了解 NFC 标签是什么、如何工作、不同的类型（NTAG213、215、216）以及该买哪一种，还有如何读取、写入和锁定标签。这份完整入门指南附上 15 种以上的实用玩法，从智能家居自动化到电子名片，再到 iPhone 快捷指令。"
 ogTitle: "NFC 标签详解：完整入门指南"
 ogDescription: "2026 年初学者需要知道的关于 NFC 标签的一切：类型、工作原理、买什么，以及在家庭、工作及更多场景下的实用玩法。"
 ---
@@ -31,7 +31,7 @@ ogDescription: "2026 年初学者需要知道的关于 NFC 标签的一切：类
 
 ## 什么是 NFC 标签？
 
-NFC 标签是一块小小的无源芯片，内置于贴纸、卡片、钥匙扣或几乎任何形态之中。「无源」是关键词：**NFC 标签没有电池** 。它完全由读取它的设备所发出的场来供电。
+NFC 标签是一块小小的无源芯片，内置于贴纸、卡片、钥匙扣或几乎任何形态之中。“无源”是关键词：**NFC 标签没有电池** 。它完全由读取它的设备所发出的场来供电。
 
 这正是它们如此好用的原因：
 
@@ -54,7 +54,7 @@ NFC 其实是 RFID（射频识别）的一个子集。我是这样解释这个�
 | **标准化** | ISO 14443 / ISO 18092 | 多种标准 |
 | **消费级使用** | 高（手机、支付） | 多为工业用途 |
 
-所有 NFC 都是 RFID，但并非所有 RFID 都是 NFC。你刷进办公室所用的工牌通常运行在 125 KHz，而你的手机根本读不了它。NFC 标签使用的是手机确实支持的 13.56 MHz 频率。「为什么我的手机读不了我的工牌？」是我被问得最多的问题之一，而这几乎总是答案。（如果你正陷在这个兔子洞里，我专门写过一篇 [为什么你的 iPhone 打不开 RFID 门](/blog/iphone-rfid-condo-doors/)。）
+所有 NFC 都是 RFID，但并非所有 RFID 都是 NFC。你刷进办公室所用的工牌通常运行在 125 KHz，而你的手机根本读不了它。NFC 标签使用的是手机确实支持的 13.56 MHz 频率。“为什么我的手机读不了我的工牌？”是我被问得最多的问题之一，而这几乎总是答案。（如果你正陷在这个兔子洞里，我专门写过一篇 [为什么你的 iPhone 打不开 RFID 门](/zh/blog/iphone-rfid-condo-doors/)。）
 
 ---
 
@@ -108,9 +108,9 @@ NFC 标签的类型由 **NFC Forum**（行业标准机构）定义。你实际�
 | 智能家居触发器 | NTAG213 | 只需要一个唯一 ID |
 | 防伪 | NTAG424 DNA | 密码学验证 |
 
-**在哪里购买：** 我的 [推荐 NFC 标签](/affiliate-links/) 页面列出了我自己使用并用来做测试的 NTAG216 贴纸。贴纸形态的标签最为通用，几乎能贴在任何东西上。
+**在哪里购买：** 我的 [推荐 NFC 标签](/zh/affiliate-links/) 页面列出了我自己使用并用来做测试的 NTAG216 贴纸。贴纸形态的标签最为通用，几乎能贴在任何东西上。
 
-我的诚实建议：买一包 NTAG216 贴纸，别再纠结了。我见过有人为一个 20 美分标签就能轻松搞定的项目，在芯片类型上反复纠结。如果你想要更深入的拆解，我在 [适用于 iPhone 的 NFC 标签类型](/blog/nfc-tag-types-for-iphones/) 里逐一讲解了各款芯片。
+我的诚实建议：买一包 NTAG216 贴纸，别再纠结了。我见过有人为一个 20 美分标签就能轻松搞定的项目，在芯片类型上反复纠结。如果你想要更深入的拆解，我在 [适用于 iPhone 的 NFC 标签类型](/zh/blog/nfc-tag-types-for-iphones/) 里逐一讲解了各款芯片。
 
 ---
 
@@ -161,11 +161,11 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 - **App Clip** ：如果存在 App Clip，则启动它
 - **自定义数据** ：打开关联的应用
 
-如果你只是想马上看看一枚标签上有什么，在 Android 上你也可以 [直接从浏览器读取 NFC 标签](/online-nfc-reader/)，无需安装。
+如果你只是想马上看看一枚标签上有什么，在 Android 上你也可以 [直接从浏览器读取 NFC 标签](/zh/online-nfc-reader/)，无需安装。
 
 ### 在 Android 上
 
-大多数 Android 手机从大约 2012 年起就有了 NFC。读取功能默认开启；你可以在「设置 → 已连接的设备 → NFC」里找到开关。轻触一枚标签，Android 就会把数据交给最合适的应用：网址交给浏览器、联系人交给通讯录、自定义记录交给它们对应的应用。
+大多数 Android 手机从大约 2012 年起就有了 NFC。读取功能默认开启；你可以在“设置 → 已连接的设备 → NFC”里找到开关。轻触一枚标签，Android 就会把数据交给最合适的应用：网址交给浏览器、联系人交给通讯录、自定义记录交给它们对应的应用。
 
 ---
 
@@ -176,7 +176,7 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 ### 你需要什么
 
 1. 一部支持 NFC 的手机
-2. 一个 NFC 写入应用（比如 **NFC.cool Tools** ，可在 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-en) 上获取）
+2. 一个 NFC 写入应用（比如 **NFC.cool Tools** ，可在 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-zh) 上获取）
 3. 一枚空白或可重写的 NFC 标签
 
 ### 如何写入一枚标签
@@ -188,7 +188,7 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 4. 把手机靠在标签上
 5. 等待确认，通常约一秒钟
 
-就这样。标签现在存下了你的数据，任何读取它的 NFC 手机都能用。如果你想要针对 iPhone 的具体演示，我写过一篇：[如何在 iPhone 上写入 NFC 标签](/blog/write-nfc-tags-iphone/)。
+就这样。标签现在存下了你的数据，任何读取它的 NFC 手机都能用。如果你想要针对 iPhone 的具体演示，我写过一篇：[如何在 iPhone 上写入 NFC 标签](/zh/blog/write-nfc-tags-iphone/)。
 
 ### 重要：锁定标签
 
@@ -216,7 +216,7 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 在前门或客房附近贴一枚标签，把你的 Wi-Fi 凭据写进去。客人轻触一下就能立即连上，无需输入一长串密码。
 
 **2. 智能家居场景**
-在家里各处放置标签来触发自动化。轻触床头柜上的那枚，启动「晚安」（关灯、设闹钟、开启勿扰）。轻触门边的那枚，启动「离家」（关灯、调低空调、扫地机开始工作）。
+在家里各处放置标签来触发自动化。轻触床头柜上的那枚，启动“晚安”（关灯、设闹钟、开启勿扰）。轻触门边的那枚，启动“离家”（关灯、调低空调、扫地机开始工作）。
 
 **3. 闹钟**
 在厨房或浴室放一枚标签，做一个快捷指令，只有当你亲自扫描它时才会关掉你的早晨闹钟。这招管用，它会逼你下床。
@@ -230,7 +230,7 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 ### 在工作中
 
 **6. 电子名片**
-商务场景中最受欢迎的 NFC 用例。一张 NFC 名片不用纸，轻触一下就能分享你的联系方式。[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) 让你能制作一张专业的电子名片，并把它的网址写入任何第三方 NFC 标签：iOS 收件人看到一个原生的 App Clip，Android 收件人打开一个 nfc.cool 域名下的网页，两者都能一次轻触就保存你的联系方式。
+商务场景中最受欢迎的 NFC 用例。一张 NFC 名片不用纸，轻触一下就能分享你的联系方式。[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-tags-beginners-guide-zh&mt=8) 让你能制作一张专业的电子名片，并把它的网址写入任何第三方 NFC 标签：iOS 收件人看到一个原生的 App Clip，Android 收件人打开一个 nfc.cool 域名下的网页，两者都能一次轻触就保存你的联系方式。
 
 **7. 会议室签到**
 在会议室外放一枚标签。轻触它会打开你的日历或记录出席情况，比任何预约系统都简单。
@@ -276,10 +276,10 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 </ol>
 </figure>
 
-这是我最爱展示给人看的东西。Apple 的 **快捷指令** 应用（iOS 内置）原生支持 NFC 触发，正是在这里，标签从「好用」升级为在 iPhone 上「真正强大」。
+这是我最爱展示给人看的东西。Apple 的 **快捷指令** 应用（iOS 内置）原生支持 NFC 触发，正是在这里，标签从“好用”升级为在 iPhone 上“真正强大”。
 
 下面是设置方法：
-1. 打开「快捷指令」应用
+1. 打开“快捷指令”应用
 2. 进入 **自动化** 标签页
 3. 轻触 **新建自动化** ，然后选 **NFC**
 4. 扫描你想用作触发器的标签
@@ -289,7 +289,7 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 
 - 轻触桌上的标签时，启动一个专注模式和一个计时器
 - 轻触办公室的标签时，把你的到达时间记进一张表格
-- 轻触车上的标签时，给伴侣发一条「我在回家路上」
+- 轻触车上的标签时，给伴侣发一条“我在回家路上”
 - 切换特定的智能家居设备
 
 在 Android 上，**Tasker** 和 **MacroDroid** 这类应用也能做同样的 NFC 触发自动化。
@@ -327,9 +327,9 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 
 **项目：一枚给你家用的 Wi-Fi 分享标签**
 
-1. **买标签：** 拿一包 [NTAG216 贴纸](/affiliate-links/)（25 枚约 10 美元）
-2. **下载 NFC.cool Tools：** 适用于 [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-en)
-3. **写入你的 Wi-Fi 凭据：** 打开应用，选择「写入」，然后选「Wi-Fi」，输入你的网络名称和密码，再把手机靠在标签上
+1. **买标签：** 拿一包 [NTAG216 贴纸](/zh/affiliate-links/)（25 枚约 10 美元）
+2. **下载 NFC.cool Tools：** 适用于 [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-zh&mt=8) 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-zh)
+3. **写入你的 Wi-Fi 凭据：** 打开应用，选择“写入”，然后选“Wi-Fi”，输入你的网络名称和密码，再把手机靠在标签上
 4. **放置标签：** 放在显眼处，比如前门旁、冰箱上或客房里
 5. **测试它：** 用另一部手机轻触一下，你应该会收到加入该网络的提示
 
@@ -341,8 +341,8 @@ iPhone 会自动处理标签。在 **iPhone XS 及更新机型** （以及第三
 
 NFC 标签是那种听起来复杂、结果出奇简单的技术。无需电池、无需配对、基础读取也无需应用。几分钱就能买到一块可编程的芯片，它能用上好几年，并能与数十亿部手机协同工作。
 
-我把自己的事业建立在这些小芯片之上，至今仍不断为它们发现新用途。无论你是想让早晨自动化、分享你的联系方式，还是做点好玩的东西，一枚标签都是「轻触手机」与「让现实世界中某件事发生」之间的桥梁。
+我把自己的事业建立在这些小芯片之上，至今仍不断为它们发现新用途。无论你是想让早晨自动化、分享你的联系方式，还是做点好玩的东西，一枚标签都是“轻触手机”与“让现实世界中某件事发生”之间的桥梁。
 
-**准备好开始为 NFC 标签编程了吗？** 为 iPhone 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-en) 下载 [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8)，这是我所知读取、写入和管理 NFC 标签最简单的方式。
+**准备好开始为 NFC 标签编程了吗？** 为 iPhone 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-zh) 下载 [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-zh&mt=8)，这是我所知读取、写入和管理 NFC 标签最简单的方式。
 
-**想要一张由 NFC 驱动的电子名片吗？** 看看 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8)，轻触一下就能分享你的联系方式。应用界面和 App Clip 提供 35 种语言。
+**想要一张由 NFC 驱动的电子名片吗？** 看看 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-tags-beginners-guide-zh&mt=8)，轻触一下就能分享你的联系方式。应用界面和 App Clip 提供 35 种语言。

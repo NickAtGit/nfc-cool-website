@@ -2,6 +2,7 @@
 id: nfc-blog-029
 title: "Mesleklere göre dijital kartvizitler"
 date: 2026-05-17
+lastModified: "2026-11-05"
 tags: ["business-cards", "industry", "guides"]
 summary: "Kağıt kartvizitler her meslekte çuvallıyor ama her birinde farklı biçimde. Emlakçılar, sağlık çalışanları ve danışmanlar için dijital kartvizit rehberi: neyi paylaşmalı, neye bakmalı ve uygulama nasıl seçilmeli."
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
@@ -16,7 +17,7 @@ NFC.cool'da Business Card uygulamasını ben yazıyorum ve son iki yılda kullan
 
 Çoğunlukla değil. Ama kağıt kartvizitin onları yüzüstü bırakma *sebebi* meslekten mesleğe gerçekten değişiyor. Bir emlakçı da bir hastane hekimi de kağıdı aşıyor, ama tamamen farklı gerekçelerle.
 
-Ben de "kağıt kartlar öldü" yazılarına bir yenisini eklemek yerine bunu, insanların sorunu gerçekte düşündüğü şekilde düzenledim: mesleğe göre. Üç bölüm var (emlak, sağlık ve bağımsız danışmanlık), ardından herkes için geçerli kısımlar geliyor; kendi uygulamamın nereye oturduğuna ve nereye oturmadığına dair dürüst bir bakış dahil.
+Ben de "kağıt kartlar öldü" yazılarına bir yenisini eklemek yerine bunu, insanların sorunu gerçekte düşündüğü şekilde düzenledim: mesleğe göre. Üç bölüm var (emlak, sağlık ve bağımsız danışmanlık), ardından herkes için geçerli kısımlar geliyor; kendi uygulamamın nereye oturduğu da dahil.
 
 ---
 
@@ -130,7 +131,7 @@ Meslekler farklı, denetim listesi çoğunlukla değil. Ne yaparsan yap, bir dij
 - **Hem NFC hem QR.** NFC yüz yüze daha hızlı ve daha etkileyici; QR ise evrensel ve basılı bir tabelada, broşürde, slaytta çalışıyor. İkisini de istersin, birini ücretli eklenti olarak değil.
 - **Birden çok kart.** Farklı roller, farklı etkinlikler, farklı kitleler. Birden çok şapkan varsa pazarlığa kapalı.
 - **Birden çok dil**, sınır ötesi çalışıyorsan; yalnızca uygulamanın arayüzü değil, kartın içeriği.
-- **Açıklayabildiğin bir gizlilik.** Bazı platformlar kartına bakanlara e-posta atıyor ya da konuşmaları kaydediyor. Kart sağlayıcın kişilerine spam gönderiyorsa bu sana yansır. Bağlanmadan önce gizlilik politikasını oku.
+- **Açıklayabildiğin bir gizlilik.** Platforma, kartına bakanlara e-posta atıp atmadığını ve konuşmaları kaydedip kaydetmediğini sor. Kart sağlayıcın kişilerine spam gönderiyorsa bu sana yansır. Bağlanmadan önce gizlilik politikasını oku.
 - **Donanıma bağlanma zorunluluğu olmaması.** Pek çok şirket 30-60 dolarlık kapalı NFC kartları satıyor. Kendin programladığın 2 dolarlık bir NFC etiketi aynı işi görüyor.
 - **Dürüst fiyatlandırma.** Tek kişilikken kurumsal oturum açma ve ekip panoları anlamsız. Gerçek bir ücretsiz plan ya da uygun fiyatlı bir bireysel plan ara.
 
@@ -138,33 +139,30 @@ Meslekler farklı, denetim listesi çoğunlukla değil. Ne yaparsan yap, bir dij
 
 ## NFC.cool Business Card nereye oturuyor
 
-Açık olayım: bu benim uygulamam, sonraki paragrafları bunu bilerek oku. Nerede güçlü, nerede değil, dürüst anlatmaya çalışacağım.
+Açık olayım: bu benim uygulamam, sonraki paragrafları bunu bilerek oku.
 
-NFC.cool Business Card, iPhone ve Android'de ayrı duran bir uygulama. Yukarıdaki meslekler için iyi yaptıkları:
+[NFC.cool Business Card](/tr/business-card/), iPhone ve Android'de ayrı duran bir uygulama. Yukarıdaki meslekler için iyi yaptıkları:
 
-- Uygulama arayüzünde ve App Clip'te **35 dil**; bildiğim başka hiçbir dijital kartvizitte bu kadarı yok. Kartın iOS'ta müşterinin dilinde görünüyor. (Android paylaşım sitesi şimdilik yalnızca İngilizce.)
+- Uygulama arayüzünde ve App Clip'te **35 dil**; bildiğim başka hiçbir dijital kartvizitte bu kadarı yok. Kartının çevresindeki düğmeler ve etiketler iOS'ta müşterinin dilini izliyor.
 - **Kartını alan kişi için uygulama yok.** iPhone'da yerel bir App Clip, Android'de nfc.cool alan adında bir sayfa görüyorlar. İkisinde de "Kişiyi Kaydet" düğmesi var.
 - **NFC okutması ve QR kod**, üstüne sohbetler ile e-posta imzaları için düz, paylaşılabilir bir bağlantı.
 - **Konferans Modu**: kartının QR kodunu tam bir etkinlik günü boyunca kilit ekranına sabitliyor; hem iPhone'da (Canlı Etkinlik olarak) hem Android'de. Telefonunu kaldırıyorsun, tarıyorlar, bitiyor. Kilit açmak yok, Apple Wallet'ta doğru kartı aramak yok. Wallet bütünleşmesi de alternatif olarak duruyor.
-- **100 karta kadar**, yani yukarıdaki "rol başına bir kart" önerisi gerçekten uygulanabilir.
+- **Pro'da 10 karta kadar**, yani yukarıdaki "rol başına bir kart" önerisi gerçekten uygulanabilir.
 - Hassas her şey için **PIN korumalı kartlar**.
-- **Önce gizlilik**: veriden para kazanma ya da reklam yok, alıcıya pazarlama yok, konuşma kaydı yok, GDPR uyumlu veri dışa aktarımı var.
+- **Gizlilik**: NFC.cool verini satmıyor, uygulamada reklam yok, konuşma kaydetmiyor ve her şeyi ZIP olarak dışa aktarabiliyorsun. NFC.cool kartına bakanlara pazarlama göndermiyor. Team planında ekibin, müşteri adayı formundan bilgi bırakan kişilere takip e-postası gönderebilir.
 - **Her NFC tag çalışıyor.** Donanım satmıyorum; kartını zaten elindeki bir etikete yaz.
-- **Fiyatlandırma:** bir ücretsiz plan, sonra Personal yılda 20 avro (1 kart), Small Business yılda 50 avro (10 kart) ve Business yılda 100 avro (100 kart).
+- **Fiyatlandırma:** tek kartlı Free plan, sonra yılda $19,99 Personal (1 kart), yılda $49,99 Pro (10 kart) ve kişi başı yılda $50 ya da ayda $5 [Team](/tr/business-card/teams/) (kişi başı 10 karta kadar). Ekip fiyatı euro olarak da aynı rakamdır.
+- **Ekipler için**: Team planı HubSpot'a bağlanıyor, müşteri adaylarını webhook'la her yere gönderiyor, roller ve davetlerle web panosu sunuyor. Tek oturum açma ve dizin eşitlemesi [talep üzerine](/tr/contact/) kuruluyor.
+- **Yerel uygulamalar ve kurucu desteği**: iPhone ve Android için yerel olarak yazıldı, arkasında girişim sermayesi yok ve bir şey sorduğunda yanıtı benden alıyorsun.
 
-Rakiplerin gerçekten önde olduğu yerler:
-
-- **CRM bütünleşmeleri.** Günün HubSpot ya da Salesforce üzerinden geçiyorsa Wave Connect veya Blinq gibi uygulamalar kişileri doğrudan eşitliyor. NFC.cool bunun yerine tam veri dışa aktarımı veriyor; henüz webhook yok.
-- **Kurumsal ekip yönetimi.** Yönetici panosu ve dizin eşitlemesi isteyen 50 kişilik bir firmaysan NFC.cool bunun için kurulmadı.
-
-Dürüst hali: bir emlakçı, bir hekim ya da tek başına çalışan biri için günlük olarak önemli olan, paylaşmanın hızlı olması, kartın *sana* benzemesi ve sonradan seni utandıracak bir şey olmaması. Onu bunun için yazdım. Kartvizitine kaynaklanmış bir satış CRM'i istiyorsan onu yapan aracı satın al.
+Bir emlakçı, bir hekim ya da tek başına çalışan biri için günlük olarak önemli olan, paylaşmanın hızlı olması, kartın *sana* benzemesi ve sonradan seni utandıracak bir şey olmaması. Onu bunun için yazdım.
 
 NFC.cool Business Card'ı [App Store'dan](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-tr&mt=8) ya da [Google Play'den](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-tr) edinebilirsin.
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>NFC.cool Business Card iş başında</figcaption>
 <ol>
-<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Kartvizitlerim; üç kart: AlexBerger, Conference ve Speaking"><p><strong>Her rol için bir kart.</strong> En fazla 100 kart, her birinin kendi görünümü ve bağlantıları.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Kartvizitlerim; üç kart: AlexBerger, Conference ve Speaking"><p><strong>Her rol için bir kart.</strong> Pro'da 10 karta kadar, her birinin kendi görünümü ve bağlantıları.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="Kartın QR kodu ve kartlar, potansiyel müşteriler, kişiler ve ayarlar menüsüyle Business Card sekmesi"><p><strong>Paylaş.</strong> NFC dokunuşuyla, QR kodla ya da düz bir bağlantıyla.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Profil Ayarları: herkese açık ya da PIN korumalı özel kart, kaydetmeden önce veya sonra potansiyel müşteri bilgisi toplama"><p><strong>Kuralları sen koy.</strong> Herkese açık ya da PIN korumalı; potansiyel müşteri bilgisini ne zaman istersen topla.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="Potansiyel müşteri listesi; her biri Qualified, New, Contacted ya da Converted olarak işaretli"><p><strong>Takip et.</strong> Tüm potansiyel müşteriler tek listede, her birinin durumuyla.</p></li>
@@ -185,7 +183,7 @@ Farklı anlar için ikisi de. NFC bir saniyelik bir okutma ve yüz yüze etkiley
 
 ### Farklı roller için farklı kartlarım olabilir mi?
 
-Evet ve olmalı. İlan adresi olan bir açık ev kartı, randevu masası olan bir sevk kartı, konuşma bilgilerini taşıyan bir konferans kartı; hepsi tek hesaptan ve her biri ayrı ayrı güncellenebilir.
+Evet ve olmalı. İlan adresi olan bir açık ev kartı, randevu masası olan bir sevk kartı, konuşma bilgilerini taşıyan bir konferans kartı; hepsi tek hesaptan ve her biri ayrı ayrı güncellenebilir. NFC.cool Business Card'da bunun için Pro planı gerekiyor.
 
 ### Yabancı müşterilerle çalışır mı?
 
@@ -193,7 +191,7 @@ NFC ve QR dünyanın her yerindeki telefonlarda çalışıyor. *Kartın kendisin
 
 ### Kartıma kimin baktığını görebilir miyim ve bu veri güvende mi?
 
-Bazı uygulamalar görüntülemeleri gösteriyor; bazıları daha ileri gidip kartına bakanlara pazarlama yapıyor. Bu ikinci davranış bir sorun: adayların senden haber almalı, kart sağlayıcından değil. NFC.cool hem iPhone hem Android'de istatistik sunuyor ve alıcılara hiçbir zaman pazarlama yapmıyor.
+Bazı uygulamalar görüntülemeleri gösteriyor. Birini seçmeden önce kartına bakanlara pazarlama da yapıp yapmadığına bak: adayların senden haber almalı, kart sağlayıcından değil. NFC.cool'un ücretli planları görüntülemeleri, kaydetmeleri ve bağlantı dokunuşlarını hem iPhone hem Android'de sayı olarak gösteriyor, isim olarak asla. NFC.cool da kartına bakanlara pazarlama göndermiyor. Team planında kendi ekibin, müşteri adayı formundan bilgi bırakan kişilere e-posta gönderebilir.
 
 ### Gerçekte maliyeti ne?
 

@@ -23,7 +23,7 @@ Hay una forma más simple, y ha estado dentro del chip NFC todo este tiempo. Muc
 
 ## Qué es realmente un contador de toques NFC
 
-La mayoría de los [adhesivos NFC que puedes comprar](/affiliate-links/) usan chips de la familia NTAG21x - `NTAG213`, `NTAG215` y `NTAG216`. Esos chips tienen una pequeña función que, en mi experiencia, la mayoría de la gente nunca supo que existía: un contador integrado. Cada vez que se lee la etiqueta, el contador sube una unidad. Vive en el hardware del chip, no en una app y no en un servidor. (Si quieres el desglose más detallado de estos chips, los traté en [tipos de etiquetas NFC para iPhone](/blog/nfc-tag-types-for-iphones/).)
+La mayoría de los [adhesivos NFC que puedes comprar](/es/affiliate-links/) usan chips de la familia NTAG21x - `NTAG213`, `NTAG215` y `NTAG216`. Esos chips tienen una pequeña función que, en mi experiencia, la mayoría de la gente nunca supo que existía: un contador integrado. Cada vez que se lee la etiqueta, el contador sube una unidad. Vive en el hardware del chip, no en una app y no en un servidor. (Si quieres el desglose más detallado de estos chips, los traté en [tipos de etiquetas NFC para iPhone](/es/blog/nfc-tag-types-for-iphones/).)
 
 La forma en que lo describo es como un cuentakilómetros para la etiqueta. El cuentakilómetros de un coche cuenta los kilómetros independientemente de si alguien lo está mirando; el contador NFC cuenta los lecturas del mismo modo. El número siempre está ahí. La única cuestión es si hay algo configurado para mostrártelo.
 
@@ -55,7 +55,7 @@ Una etiqueta que se cuenta a sí misma suena a truco ingenioso hasta que lo comb
 
 **Hacer seguimiento de interacciones.** Pega una etiqueta en una tarjeta de visita, un cartel, una caja de producto o un escaparate, y el contador se convierte en una métrica de interacción discreta. Puedes ver si una tarjeta ha recibido dos toques o doscientos sin montar una infraestructura de analíticas para ello.
 
-**Demostrar autenticidad.** El contador solo sube - no se puede revertir. Un número que solo puede aumentar es difícil de falsificar de forma convincente, por eso creo que tiene su lugar en artículos de edición limitada y verificaciones anti-falsificación. Una etiqueta genuina tiene un historial plausible y creciente; una clonada no. Si ese lado del NFC te interesa, lo desarrollé más en [cómo NFC mantiene secretos cifrados a salvo](/blog/nfc-safe-encrypted-secrets/).
+**Demostrar autenticidad.** El contador solo sube - no se puede revertir. Un número que solo puede aumentar es difícil de falsificar de forma convincente, por eso creo que tiene su lugar en artículos de edición limitada y verificaciones anti-falsificación. Una etiqueta genuina tiene un historial plausible y creciente; una clonada no. Si ese lado del NFC te interesa, lo desarrollé más en [cómo NFC mantiene secretos cifrados a salvo](/es/blog/nfc-safe-encrypted-secrets/).
 
 Combina varios de ellos y obtienes algo así: un artesano coloca una etiqueta en cada número de tirada de un producto, todas apuntando a la misma página de destino. El ID de etiqueta le dice qué artículo tiene un comprador en las manos, el recuento le dice con qué frecuencia ha vuelto ese comprador, y como el recuento solo sube, un revendedor no puede hacer pasar disimuladamente una copia por el original. Sin cuentas, sin base de datos, sin factura mensual - solo el chip haciendo su trabajo. Para ese tipo de resultado construí esta función.
 
@@ -63,7 +63,7 @@ Combina varios de ellos y obtienes algo así: un artesano coloca una etiqueta en
 
 ## Cómo configurarlo, paso a paso
 
-La función vive en NFC.cool Tools, tanto en iPhone como en Android. Forma parte de la suscripción Pro (Platinum), así que la necesitarás para escribir etiquetas con contador activado. Si nunca has escrito en una etiqueta, mi guía sobre [cómo escribir etiquetas NFC en iPhone](/blog/write-nfc-tags-iphone/) cubre primero lo básico.
+La función vive en NFC.cool Tools, tanto en iPhone como en Android. Forma parte de la suscripción Pro (Platinum), así que la necesitarás para escribir etiquetas con contador activado. Si nunca has escrito en una etiqueta, mi guía sobre [cómo escribir etiquetas NFC en iPhone](/es/blog/write-nfc-tags-iphone/) cubre primero lo básico.
 
 1. Abre NFC.cool Tools, ve a la sección **NFC Tools** y toca **NFC Tap Counter**.
 2. Elige qué debe entregar la etiqueta: una **URL**, un **Email**, un **SMS** o un **Atajo**. (El Atajo es solo para iOS, ya que Shortcuts es una app de Apple; URL, Email y SMS funcionan en ambas plataformas.)
@@ -109,7 +109,7 @@ Si estás enrutando la URL final a tu propio sitio web, tu servidor lee esos val
 
 Esta función depende del chip, así que la etiqueta importa. NFC.cool admite los chips `NTAG213`, `NTAG215` y `NTAG216` para el Contador de Toques. Son los adhesivos NFC más comunes que se venden para móviles, así que son fáciles de encontrar, pero aun así comprobaría el tipo de chip antes de comprar en cantidad. Si intentas usar una etiqueta que la función no admite, la app te avisa en lugar de escribir algo que no funcionará - me aseguré de eso porque he visto lo frustrante que es un fallo silencioso.
 
-Si necesitas abastecerte, nuestra página de [etiquetas NFC recomendadas](/affiliate-links/) lista los adhesivos `NTAG216` que usamos y con los que probamos. Y si estás empezando a elegir etiquetas, mi guía sobre [los diferentes tipos de etiquetas NFC para iPhone](/blog/nfc-tag-types-for-iphones/) explica las diferencias en términos sencillos.
+Si necesitas abastecerte, nuestra página de [etiquetas NFC recomendadas](/es/affiliate-links/) lista los adhesivos `NTAG216` que usamos y con los que probamos. Y si estás empezando a elegir etiquetas, mi guía sobre [los diferentes tipos de etiquetas NFC para iPhone](/es/blog/nfc-tag-types-for-iphones/) explica las diferencias en términos sencillos.
 
 ---
 
@@ -131,6 +131,6 @@ Si necesitas abastecerte, nuestra página de [etiquetas NFC recomendadas](/affil
 
 Durante la mayor parte de los años que llevo trabajando con NFC, contar toques significaba enlaces únicos y un backend para totalizarlos. El contador del NTAG21x elimina silenciosamente ese requisito: la etiqueta mantiene su propio recuento, y la función Contador de Toques NFC en NFC.cool Tools es lo que lo activa. Es una de esas funciones que sigo deseando que más gente supiera que es posible.
 
-¿Quieres verlo funcionar antes de escribir en una sola etiqueta? Nuestra [demo en vivo del contador de toques](/tap-counter/) es una página que hace exactamente lo que describe este artículo - escribe una etiqueta que apunte a ella, dale un toque, y la página te muestra el recuento de escaneos y el ID de etiqueta que el chip acaba de entregarte. Sin servidor de por medio, solo la URL.
+¿Quieres verlo funcionar antes de escribir en una sola etiqueta? Nuestra [demo en vivo del contador de toques](/es/tap-counter/) es una página que hace exactamente lo que describe este artículo - escribe una etiqueta que apunte a ella, dale un toque, y la página te muestra el recuento de escaneos y el ID de etiqueta que el chip acaba de entregarte. Sin servidor de por medio, solo la URL.
 
-Está disponible ahora en NFC.cool Tools, en [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-en&mt=8) y [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-en). Para ver el conjunto completo de herramientas NFC que he construido, echa un vistazo a la [función de lector y escritor NFC](/features/nfc-reader-writer/).
+Está disponible ahora en NFC.cool Tools, en [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-en&mt=8) y [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-en). Para ver el conjunto completo de herramientas NFC que he construido, echa un vistazo a la [función de lector y escritor NFC](/es/features/nfc-reader-writer/).

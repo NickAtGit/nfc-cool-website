@@ -12,7 +12,7 @@ imageAlt: "Bir iPhone'un yanına dizilmiş NFC tag türleri"
 
 NFC tag'ler, telefonun gibi NFC destekli her cihazın okuyabildiği bilgileri saklayan küçük tümleşik devreler. Ama keşke biri bana daha erken söyleseydi dediğim şey şu: her NFC tag birbirinin aynısı değil. Farklı üreticilerden gelen, her birinin kendi tuhaflığı olan koca bir tür bahçesi var ve bu da iPhone'una doğru olanı seçmeyi şaşırtıcı biçimde zorlaştırıyor.
 
-Yıllardır NFC tag okuyup yazan bir uygulama olan NFC.cool'u geliştiriyorum ve "iPhone'um için hangi tag'i almalıyım?" en sık karşıma çıkan sorulardan biri. Bu yazı da verdiğim yanıt. Beş NFC tag türünü, bunları kimlerin ürettiğini ve neredeyse her iPhone projesi için hangisinin güvenli seçim olduğunu anlatacağım. Bu işlere yepyeniysen önce [sıfırdan başlayanlar için NFC tag rehberimle](/blog/nfc-tags-beginners-guide/) başlamak isteyebilirsin; bu yazı bir kat daha derine iniyor.
+Yıllardır NFC tag okuyup yazan bir uygulama olan NFC.cool'u geliştiriyorum ve "iPhone'um için hangi tag'i almalıyım?" en sık karşıma çıkan sorulardan biri. Bu yazı da verdiğim yanıt. Beş NFC tag türünü, bunları kimlerin ürettiğini ve neredeyse her iPhone projesi için hangisinin güvenli seçim olduğunu anlatacağım. Bu işlere yepyeniysen önce [sıfırdan başlayanlar için NFC tag rehberimle](/tr/blog/nfc-tags-beginners-guide/) başlamak isteyebilirsin; bu yazı bir kat daha derine iniyor.
 
 ---
 
@@ -38,7 +38,7 @@ FeliCa™ olarak da bilinen Tip 3 tag'leri Sony geliştirdi. Çoğunlukla Asya'd
 
 ## Tip 4: MIFARE DESFire®
 
-Yine NXP Semiconductors'ın ürettiği MIFARE DESFire® tag'ler Tip 4. Bunlar yüksek güvenlikli, yüksek kapasiteli seçenek; güvenli geçiş denetimi ve toplu taşıma sistemleri gibi karmaşık işler için tasarlanmışlar. 8 KB'a kadar veri saklayabiliyorlar. Bir proje gerçekten kriptografik koruma istiyorsa baktığım aile bu. Güvenlik tarafını [şifreli NFC tag'lerde sırları güvende tutmak](/blog/nfc-safe-encrypted-secrets/) yazısında daha ayrıntılı ele aldım.
+Yine NXP Semiconductors'ın ürettiği MIFARE DESFire® tag'ler Tip 4. Bunlar yüksek güvenlikli, yüksek kapasiteli seçenek; güvenli geçiş denetimi ve toplu taşıma sistemleri gibi karmaşık işler için tasarlanmışlar. 8 KB'a kadar veri saklayabiliyorlar. Bir proje gerçekten kriptografik koruma istiyorsa baktığım aile bu. Güvenlik tarafını [şifreli NFC tag'lerde sırları güvende tutmak](/tr/blog/nfc-safe-encrypted-secrets/) yazısında daha ayrıntılı ele aldım.
 
 ---
 
@@ -56,7 +56,7 @@ O serideki NTAG213, NTAG215 ve NTAG216 modelleri en yaygın olanlar ve iPhone'la
 
 Bana çok sinir kaybı kazandıran pratik bir not: tag ve anteni büyüdükçe NFC okuyucu onu daha güvenilir yakalıyor. Projende güvenilirlik önemliyse aşırı ucuz, cılız etiketlerden uzak dururdum; kazandığın birkaç kuruş, ancak üçüncü denemede okunan bir tag'e değmiyor.
 
-iPhone'ların NFC ile yaptığı asıl iş, NFC Veri Alışverişi Biçimi (NDEF) mesajlarını okumak: adresler, düz metin ya da vCard'lar (dijital kartvizitler). NDEF destekleyen her tag, ki NTAG serisinin çoğu destekliyor, iPhone kullananlar için sağlam bir seçim. Gerçekten veri yazmaya hazır olduğunda [iPhone'da NFC tag nasıl yazılır](/blog/write-nfc-tags-iphone/) yazısında adım adım anlattım.
+iPhone'ların NFC ile yaptığı asıl iş, NFC Veri Alışverişi Biçimi (NDEF) mesajlarını okumak: adresler, düz metin ya da vCard'lar (dijital kartvizitler). NDEF destekleyen her tag, ki NTAG serisinin çoğu destekliyor, iPhone kullananlar için sağlam bir seçim. Gerçekten veri yazmaya hazır olduğunda [iPhone'da NFC tag nasıl yazılır](/tr/blog/write-nfc-tags-iphone/) yazısında adım adım anlattım.
 
 ---
 
@@ -64,6 +64,6 @@ iPhone'ların NFC ile yaptığı asıl iş, NFC Veri Alışverişi Biçimi (NDEF
 
 iPhone'unla kullanmak için NFC tag arıyorsan dürüst önerim basit: NXP Semiconductors'ın NTAG serisinden Tip 2 tag'ler. Hem uygun maliyetliler hem de çoğu kişinin iPhone'da NFC ile yapmak istediği işler için en iyi uyumluluğu ve işlevi veriyorlar. Bir paket NTAG215 etiket al, neredeyse her işe hazır olursun.
 
-NFC gelişmeyi sürdürüyor, o yüzden yeni gelişmelere ve tag belirtimlerine göz ucuyla bakmakta yarar var. Daha fazlası için [iPhone'larda NFC'nin büyüsüne dair](/blog/nfc-on-iphones-insider-look/) eski yazıma bakabilirsin; yalnızca bir tag'de ne olduğunu görmek istiyorsan [NFC tag'leri doğrudan tarayıcından okuyabilirsin](/online-nfc-reader/).
+NFC gelişmeyi sürdürüyor, o yüzden yeni gelişmelere ve tag belirtimlerine göz ucuyla bakmakta yarar var. Daha fazlası için [iPhone'larda NFC'nin büyüsüne dair](/tr/blog/nfc-on-iphones-insider-look/) eski yazıma bakabilirsin; yalnızca bir tag'de ne olduğunu görmek istiyorsan [NFC tag'leri doğrudan tarayıcından okuyabilirsin](/tr/online-nfc-reader/).
 
 Kolay gelsin!

@@ -23,7 +23,7 @@ Nada disso. É uma tag NFC comum e um código QR impresso, e ambos apontam para 
 
 ## O que há realmente dentro de um expositor de avaliações Google
 
-A tag NFC destes expositores é o mesmo tipo de autocolante barato que se [compra em packs de cinquenta](/affiliate-links/). Alguém gravou nela um único link. O código QR ao lado é esse mesmo link, impresso como um padrão de quadradinhos, para quem tem um telemóvel sem NFC ou com o NFC desligado.
+A tag NFC destes expositores é o mesmo tipo de autocolante barato que se [compra em packs de cinquenta](/pt/affiliate-links/). Alguém gravou nela um único link. O código QR ao lado é esse mesmo link, impresso como um padrão de quadradinhos, para quem tem um telemóvel sem NFC ou com o NFC desligado.
 
 O interessante é o próprio link. A Google tem um URL que leva o cliente diretamente ao formulário de avaliação de um negócio concreto, identificado pelo seu **Place ID**. Todos os negócios no Google Maps têm um e, se o seu ainda lá não estiver, a Google explica como [criar um Perfil da Empresa](https://support.google.com/business/answer/2911778?hl=pt-PT). Grave esse link numa tag e o expositor passa a ser o caminho mais curto entre "que bela noite" e uma avaliação escrita.
 
@@ -51,7 +51,7 @@ Antes de fazer o seu, há algumas coisas que aprendi à minha custa enquanto tes
 
 O [Piano Negro](https://mycard.nfc.cool/PianoNegro/Piano-Negro) é um bar de Coimbra, aberto desde 1993. Quando ajudei o dono a montar os expositores, não pusemos só um link de avaliação nas mesas. Quem se senta a uma mesa ainda não está a pensar em avaliações. Quer é ver a ementa.
 
-Por isso, cada mesa do Piano Negro tem um expositor com o cartão digital do bar, feito na **[NFC.cool Business Card](/business-card/)**. Basta encostar o telemóvel ou ler o código QR e o cartão abre-se com tudo o que um cliente pode querer, cada coisa à distância de um toque:
+Por isso, cada mesa do Piano Negro tem um expositor com o cartão digital do bar, feito na **[NFC.cool Business Card](/pt/business-card/)**. Basta encostar o telemóvel ou ler o código QR e o cartão abre-se com tudo o que um cliente pode querer, cada coisa à distância de um toque:
 
 - a ementa, em português e em inglês
 - WhatsApp
@@ -70,10 +70,10 @@ Outra coisa de que gosto nesta solução é que o expositor nunca fica desatuali
 
 A lista de compras é bem curta:
 
-- **Tags NFC.** Um simples autocolante NTAG213 chega e sobra, e os links deste artigo cabem nele com folga. Se tiver dúvidas sobre os tipos de tags, o meu [guia de tags NFC para iPhone](/blog/nfc-tag-types-for-iphones/) explica as diferenças.
+- **Tags NFC.** Um simples autocolante NTAG213 chega e sobra, e os links deste artigo cabem nele com folga. Se tiver dúvidas sobre os tipos de tags, o meu [guia de tags NFC para iPhone](/pt/blog/nfc-tag-types-for-iphones/) explica as diferenças.
 - **Expositores de acrílico transparente** onde se encaixa um cartão impresso. Vendem-se como porta-menus ou porta-avisos e custam poucos euros cada um.
 - **Uma impressora a cores.**
-- **A [NFC.cool Business Card](/business-card/)**, para os expositores das mesas.
+- **A [NFC.cool Business Card](/pt/business-card/)**, para os expositores das mesas.
 - **A NFC.cool Tools**, para o link de avaliação e para proteger as tags com palavra-passe, no [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-google-review-nfc-stand-pt&mt=8) e no [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-google-review-nfc-stand-pt).
 
 ---
@@ -135,7 +135,7 @@ Se o seu negócio não aparecer de todo, provavelmente ainda não tem Perfil da 
 
 ### Passo 2: grave a tag
 
-Guarde o link e grave-o no autocolante NFC, encostando-lhe o telemóvel. Se nunca gravou uma tag, explico tudo passo a passo em [como gravar tags NFC com o iPhone](/blog/write-nfc-tags-iphone/).
+Guarde o link e grave-o no autocolante NFC, encostando-lhe o telemóvel. Se nunca gravou uma tag, explico tudo passo a passo em [como gravar tags NFC com o iPhone](/pt/blog/write-nfc-tags-iphone/).
 
 ### Passo 3: crie o código QR
 

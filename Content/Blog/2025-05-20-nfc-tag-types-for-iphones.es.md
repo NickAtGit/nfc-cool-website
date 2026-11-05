@@ -12,7 +12,7 @@ imageAlt: "Tipos de etiquetas NFC alineadas junto a un iPhone"
 
 Las etiquetas NFC son pequeños circuitos integrados que almacenan información que cualquier dispositivo con NFC, como tu móvil, puede leer. Pero hay algo que ojalá alguien me hubiera dicho antes: no todas las etiquetas NFC son iguales. Existe todo un zoo de tipos de distintos fabricantes, cada uno con sus peculiaridades, y eso hace que elegir la correcta para tu iPhone sea sorprendentemente complicado.
 
-Llevo años desarrollando NFC.cool, una app para leer y escribir etiquetas NFC, y "¿qué etiqueta debo comprar para mi iPhone?" es fácilmente una de las preguntas que más me hacen. Así que esta es la respuesta que doy. Voy a repasar los cinco tipos de etiquetas NFC, quién las fabrica de verdad, y por qué una de ellas es la apuesta segura para casi cualquier proyecto con iPhone. Si eres totalmente nuevo en esto, puede que quieras empezar por mi [guía completa para principiantes sobre etiquetas NFC](/blog/nfc-tags-beginners-guide/) primero - este artículo va una capa más profundo.
+Llevo años desarrollando NFC.cool, una app para leer y escribir etiquetas NFC, y "¿qué etiqueta debo comprar para mi iPhone?" es fácilmente una de las preguntas que más me hacen. Así que esta es la respuesta que doy. Voy a repasar los cinco tipos de etiquetas NFC, quién las fabrica de verdad, y por qué una de ellas es la apuesta segura para casi cualquier proyecto con iPhone. Si eres totalmente nuevo en esto, puede que quieras empezar por mi [guía completa para principiantes sobre etiquetas NFC](/es/blog/nfc-tags-beginners-guide/) primero - este artículo va una capa más profundo.
 
 ---
 
@@ -38,7 +38,7 @@ Las etiquetas de Tipo 3, también conocidas como FeliCa™, fueron desarrolladas
 
 ## Tipo 4 - MIFARE DESFire®
 
-Las etiquetas MIFARE DESFire®, también de NXP Semiconductors, son de Tipo 4. Son la opción de alta seguridad y alta capacidad, diseñada para tareas complejas como el control de acceso seguro y los sistemas de transporte público. Pueden almacenar hasta 8 KB. Cuando un proyecto necesita de verdad protección criptográfica, es en esta familia donde miro - profundicé en el lado de la seguridad en mi artículo sobre [mantener secretos seguros en etiquetas NFC cifradas](/blog/nfc-safe-encrypted-secrets/).
+Las etiquetas MIFARE DESFire®, también de NXP Semiconductors, son de Tipo 4. Son la opción de alta seguridad y alta capacidad, diseñada para tareas complejas como el control de acceso seguro y los sistemas de transporte público. Pueden almacenar hasta 8 KB. Cuando un proyecto necesita de verdad protección criptográfica, es en esta familia donde miro - profundicé en el lado de la seguridad en mi artículo sobre [mantener secretos seguros en etiquetas NFC cifradas](/es/blog/nfc-safe-encrypted-secrets/).
 
 ---
 
@@ -56,7 +56,7 @@ Los modelos NTAG213, NTAG215 y NTAG216 son los más populares de esa serie, y fu
 
 Una nota práctica que me ha ahorrado mucha frustración: cuanto más grande sea la etiqueta y su antena, más fiable será la lectura por un lector NFC. Yo evitaría las pegatinas extremadamente baratas y endebles si la fiabilidad es importante para tu proyecto - los pocos céntimos que ahorras no compensan una etiqueta que solo lee al tercer toque.
 
-Lo principal que hacen los iPhones con NFC es leer mensajes en formato NFC Data Exchange Format (NDEF) - URLs, texto plano o vCards (tarjetas de visita digitales). Cualquier etiqueta que soporte NDEF, y la mayoría de las etiquetas de la serie NTAG lo hacen, es una elección sólida para usuarios de iPhone. Cuando estés listo para poner datos en una, escribí una guía paso a paso sobre [cómo escribir etiquetas NFC en iPhone](/blog/write-nfc-tags-iphone/).
+Lo principal que hacen los iPhones con NFC es leer mensajes en formato NFC Data Exchange Format (NDEF) - URLs, texto plano o vCards (tarjetas de visita digitales). Cualquier etiqueta que soporte NDEF, y la mayoría de las etiquetas de la serie NTAG lo hacen, es una elección sólida para usuarios de iPhone. Cuando estés listo para poner datos en una, escribí una guía paso a paso sobre [cómo escribir etiquetas NFC en iPhone](/es/blog/write-nfc-tags-iphone/).
 
 ---
 
@@ -64,6 +64,6 @@ Lo principal que hacen los iPhones con NFC es leer mensajes en formato NFC Data 
 
 Si estás buscando etiquetas NFC para usar con tu iPhone, mi recomendación honesta es sencilla: etiquetas de Tipo 2 de la serie NTAG de NXP Semiconductors. Son económicas y te dan la mejor compatibilidad y funcionalidad para lo que la mayoría de la gente realmente quiere hacer con NFC en iPhones. Compra un paquete de pegatinas NTAG215 y estarás preparado para casi cualquier cosa.
 
-El NFC sigue evolucionando, así que vale la pena estar atento a los nuevos desarrollos y las especificaciones de las etiquetas. Para saber más, mira mi artículo anterior sobre [aprovechar la magia del NFC en iPhones](/blog/nfc-on-iphones-insider-look/), y si solo quieres ver qué hay ya en una etiqueta, puedes [leer etiquetas NFC directamente desde tu navegador](/online-nfc-reader/).
+El NFC sigue evolucionando, así que vale la pena estar atento a los nuevos desarrollos y las especificaciones de las etiquetas. Para saber más, mira mi artículo anterior sobre [aprovechar la magia del NFC en iPhones](/es/blog/nfc-on-iphones-insider-look/), y si solo quieres ver qué hay ya en una etiqueta, puedes [leer etiquetas NFC directamente desde tu navegador](/es/online-nfc-reader/).
 
 ¡Feliz etiquetado!

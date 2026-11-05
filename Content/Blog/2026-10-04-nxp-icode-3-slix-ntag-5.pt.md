@@ -19,7 +19,7 @@ Não se tinha afastado. Tentei outra vez. A mesma mensagem. Experimentei antes d
 
 Já lá vou explicar o que se passava, porque foi o bug mais interessante que persegui este ano. Mas primeiro, porque é que eu andava sequer a mexer numa tag ICODE.
 
-Quero que a NFC.cool seja a aplicação NFC mais completa que se pode ter num telemóvel. Este verão, isso significou o [NTAG 424 DNA](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/), as tags que as marcas usam para provar que um produto é genuíno. Depois disso, a maior família de chips com que a aplicação ainda não se entendia a sério era a ICODE da NXP. Com a **NFC.cool Tools 7.1.0**, isso mudou.
+Quero que a NFC.cool seja a aplicação NFC mais completa que se pode ter num telemóvel. Este verão, isso significou o [NTAG 424 DNA](/pt/blog/ntag-424-dna-counterfeit-proof-nfc-tags/), as tags que as marcas usam para provar que um produto é genuíno. Depois disso, a maior família de chips com que a aplicação ainda não se entendia a sério era a ICODE da NXP. Com a **NFC.cool Tools 7.1.0**, isso mudou.
 
 ---
 
@@ -50,7 +50,7 @@ Leia um com a NFC.cool e fica a saber tudo: que chip é, a memória, o contador 
 
 A partir daí, pode alterar quase tudo o que o chip oferece:
 
-- **Contador de leituras.** O ICODE 3 consegue contar sozinho todas as leituras. Ative o espelho NFC e o chip escreve o seu ID e a contagem atual no link guardado, por isso cada toque abre um URL ligeiramente diferente que um site consegue contar. Se leu sobre o [Contador de Toques NFC](/blog/count-nfc-tag-scans/), é a mesma ideia noutro chip.
+- **Contador de leituras.** O ICODE 3 consegue contar sozinho todas as leituras. Ative o espelho NFC e o chip escreve o seu ID e a contagem atual no link guardado, por isso cada toque abre um URL ligeiramente diferente que um site consegue contar. Se leu sobre o [Contador de Toques NFC](/pt/blog/count-nfc-tag-scans/), é a mesma ideia noutro chip.
 - **Palavras-passe.** O ICODE 3 tem seis: uma para a leitura, uma para a escrita, uma para a privacidade, uma para a destruição, uma para as definições antifurto e uma para a configuração. Todas as tags saem da fábrica com os mesmos valores, por isso uma proteção só serve de alguma coisa depois de definir as suas. A NFC.cool guarda as palavras-passe de cada tag no seu Porta-chaves em iCloud.
 - **Proteção da memória.** Pode dividir a memória em duas partes e proteger cada uma em separado, por exemplo para deixar um link público legível e esconder os dados guardados a seguir.
 - **Definições antifurto e de biblioteca.** O indicador EAS é o que faz apitar o pórtico de uma loja ou de uma biblioteca. O byte AFI é o que as bibliotecas usam para marcar um livro como emprestado. Ambos podem ser alterados e bloqueados.
@@ -95,7 +95,7 @@ Depois de perceber o que se passava, a correção acabou por ser tão pequena qu
 
 ## Onde funciona
 
-No iPhone, tudo isto funciona com o leitor NFC integrado no telemóvel. No iPad e no Mac, que não têm chip NFC, funciona através de um [leitor NFC USB externo](/blog/nfc-reading-ipad-mac/). O leitor tem de passar os comandos ICODE diretamente à tag. Se o seu o fizer, a aplicação lê e gere tags ICODE exatamente como num iPhone, e o bug da secção anterior nem sequer existe aí. Um leitor que não os consiga passar continua a permitir ler a memória da tag.
+No iPhone, tudo isto funciona com o leitor NFC integrado no telemóvel. No iPad e no Mac, que não têm chip NFC, funciona através de um [leitor NFC USB externo](/pt/blog/nfc-reading-ipad-mac/). O leitor tem de passar os comandos ICODE diretamente à tag. Se o seu o fizer, a aplicação lê e gere tags ICODE exatamente como num iPhone, e o bug da secção anterior nem sequer existe aí. Um leitor que não os consiga passar continua a permitir ler a memória da tag.
 
 A aplicação para Android ainda não suporta ICODE.
 

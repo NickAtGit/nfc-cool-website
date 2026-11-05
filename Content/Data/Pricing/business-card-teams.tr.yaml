@@ -1,0 +1,16 @@
+# /tr/business-card/teams/ için küçük ekip fiyat karşılaştırması. Content/Pages/business-card-teams.tr.md
+# içindeki {{PRICING_TABLE:business-card-teams}} belirteciyle PricingTableRenderer üretir.
+# Rakamlar 2026-11-05'te şirketlerin fiyat sayfalarından okundu. Kaynaklar business-card-teams.yaml dosyasında.
+columns: ["NFC.cool", "Wave Teams", "Blinq Business", "HiHello Business"]
+columnPills: ["is-team"]
+rows:
+  - label: "En küçük ekip"
+    values: ["2 kullanıcı", "3 kullanıcı", "5 kart", "5 kullanıcı"]
+  - label: "Kişi başı, yıllık ödemede"
+    values: ["Yılda $50", "Yılda $60", "Yılda $59,88", "Yılda $60"]
+  - label: "Bir yıl için en düşük tutar"
+    values: ["**$100**", "**$180**", "**$299,40**", "**$300**"]
+  - label: "Kişi başı, aylık ödemede"
+    values: ["Ayda $5", "Ayda $7", "Ayda $6,99", "Ayda $6"]
+  - label: "CRM eşitlemesi dahil"
+    values: ["✓", "✓", "✓", "✓"]

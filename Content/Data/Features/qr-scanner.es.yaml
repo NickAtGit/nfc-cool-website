@@ -57,7 +57,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sincronización con iCloud en iPhone, iPad y Mac"
-    body: "<p>El historial de escaneos y tus diseños del estudio QR se sincronizan en todos los dispositivos de tu cuenta de iCloud. Diseña un QR en el iPad, compártelo desde el iPhone, edítalo en el <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - misma biblioteca, mismas ediciones, sin exportar de un lado a otro.</p>"
+    body: "<p>El historial de escaneos y tus diseños del estudio QR se sincronizan en todos los dispositivos de tu cuenta de iCloud. Diseña un QR en el iPad, compártelo desde el iPhone, edítalo en el <a href=\"/es/blog/nfc-cool-comes-to-mac/\">Mac</a> - misma biblioteca, mismas ediciones, sin exportar de un lado a otro.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool sincronizándose en iPhone, iPad y Mac"
     platforms: "iOS"

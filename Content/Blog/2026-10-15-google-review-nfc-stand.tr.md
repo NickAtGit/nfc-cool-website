@@ -23,7 +23,7 @@ Hayır. Sıradan bir NFC tag ve basılı bir QR koddan ibaretler, ikisi de aynı
 
 ## Google yorum standının içinde aslında ne var
 
-Bu stantlardaki NFC tag, [50'li paketler halinde satılan](/affiliate-links/) ucuz çıkartmaların aynısı. Biri üzerine tek bir web bağlantısı yazmış. Yanındaki QR kod da aynı bağlantı; telefonunda NFC olmayanlar ya da NFC'si kapalı olanlar için karelerden oluşan bir desen olarak basılmış.
+Bu stantlardaki NFC tag, [50'li paketler halinde satılan](/tr/affiliate-links/) ucuz çıkartmaların aynısı. Biri üzerine tek bir web bağlantısı yazmış. Yanındaki QR kod da aynı bağlantı; telefonunda NFC olmayanlar ya da NFC'si kapalı olanlar için karelerden oluşan bir desen olarak basılmış.
 
 Asıl ilginç olan bağlantının kendisi. Google'ın, misafiri doğrudan belirli bir işletmenin yorum formuna götüren bir URL'si var. İşletmeyi **Place ID** ile tanıyor. Google Haritalar'daki her işletmenin bir Place ID'si var; seninki henüz orada değilse Google, [İşletme Profili oluşturmayı](https://support.google.com/business/answer/2911778?hl=tr) adım adım anlatıyor. Bu bağlantıyı tag'e yazdığında, "ne güzel bir akşamdı" düşüncesinden yazılmış bir yoruma giden en kısa yol, telefonu standa yaklaştırmak oluyor.
 
@@ -51,7 +51,7 @@ Kendi standını yapmadan önce, test ederken deneye yanıla öğrendiğim birka
 
 [Piano Negro](https://mycard.nfc.cool/PianoNegro/Piano-Negro), Coimbra'da 1993'ten beri açık olan bir bar. Sahibine stantları kurarken yardım ettiğimde masalara yalnızca yorum bağlantısı koymadık. Masaya yeni oturan biri henüz yorumu düşünmüyor. Menüde ne olduğunu görmek istiyor.
 
-Bu yüzden Piano Negro'daki her masada, barın **[NFC.cool Business Card](/business-card/)** ile hazırlanmış kartını taşıyan bir stant var. Telefonu yaklaştırınca ya da QR kodu tarayınca kart açılıyor ve misafirin isteyebileceği her şey tek dokunuş uzağında:
+Bu yüzden Piano Negro'daki her masada, barın **[NFC.cool Business Card](/tr/business-card/)** ile hazırlanmış kartını taşıyan bir stant var. Telefonu yaklaştırınca ya da QR kodu tarayınca kart açılıyor ve misafirin isteyebileceği her şey tek dokunuş uzağında:
 
 - Portekizce ve İngilizce menü
 - WhatsApp
@@ -70,10 +70,10 @@ Bu düzende sevdiğim bir şey daha var: stant hiç eskimiyor. Tag ve QR kod men
 
 Alışveriş listesi kısacık:
 
-- **NFC tag'ler.** Basit bir NTAG213 çıkartma fazlasıyla yeter; bu yazıdaki bağlantılar üzerine rahatça sığıyor. Tag türlerinden emin değilsen [iPhone için NFC tag rehberimde](/blog/nfc-tag-types-for-iphones/) farkları anlatıyorum.
+- **NFC tag'ler.** Basit bir NTAG213 çıkartma fazlasıyla yeter; bu yazıdaki bağlantılar üzerine rahatça sığıyor. Tag türlerinden emin değilsen [iPhone için NFC tag rehberimde](/tr/blog/nfc-tag-types-for-iphones/) farkları anlatıyorum.
 - **Şeffaf akrilik stantlar**, basılı kartı içine kaydırdığın türden. Menülük ya da masa standı adıyla satılıyorlar ve tanesi birkaç avro.
 - **Renkli yazıcı.**
-- Masa stantları için **[NFC.cool Business Card](/business-card/)**.
+- Masa stantları için **[NFC.cool Business Card](/tr/business-card/)**.
 - Yorum bağlantısını oluşturmak ve tag'lerini parolayla korumak için **NFC.cool Tools**: [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-google-review-nfc-stand-tr&mt=8) ve [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-google-review-nfc-stand-tr).
 
 ---
@@ -135,7 +135,7 @@ Kaydetmeden önce **Değerlendirme sayfasını önizle** seçeneğine dokun. Mis
 
 ### Adım 2: Tag'i yaz
 
-Bağlantıyı kaydet ve telefonunu NFC çıkartmana yaklaştırarak tag'e yaz. Daha önce hiç tag yazmadıysan [iPhone ile NFC tag'e nasıl yazılır](/blog/write-nfc-tags-iphone/) yazımda adım adım anlatıyorum.
+Bağlantıyı kaydet ve telefonunu NFC çıkartmana yaklaştırarak tag'e yaz. Daha önce hiç tag yazmadıysan [iPhone ile NFC tag'e nasıl yazılır](/tr/blog/write-nfc-tags-iphone/) yazımda adım adım anlatıyorum.
 
 ### Adım 3: QR kodu hazırla
 

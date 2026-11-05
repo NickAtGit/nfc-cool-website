@@ -33,7 +33,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Com'è fatto il payload"
-    body: "<p>Ogni POST invia un corpo JSON fatto così:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p>I campi <code>tagType</code> e <code>structured</code> compaiono solo nei formati speciali come <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a>; tutte le altre scansioni inviano soltanto i primi tre campi. Nella <a href=\"/developers/\">documentazione per sviluppatori</a> trovi la descrizione campo per campo, l'autenticazione, gli esempi con curl e alcuni server pronti da avviare.</p>"
+    body: "<p>Ogni POST invia un corpo JSON fatto così:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p>I campi <code>tagType</code> e <code>structured</code> compaiono solo nei formati speciali come <a href=\"/it/features/nfc-reader-writer/\">OpenPrintTag</a>; tutte le altre scansioni inviano soltanto i primi tre campi. Nella <a href=\"/it/developers/\">documentazione per sviluppatori</a> trovi la descrizione campo per campo, l'autenticazione, gli esempi con curl e alcuni server pronti da avviare.</p>"
     platforms: "iOS · Android"
 
   - title: "Il server di esempio su GitHub"

@@ -24,7 +24,7 @@ Berikut seluruh prosesnya, dari spreadsheet sampai tag terakhir. Caranya sama pe
 
 Anda memberikan file CSV ke aplikasi, dan setiap baris menjadi satu tag. Aplikasi menampilkan pratinjau isi setiap tag, Anda mengetuk Mulai Menulis, lalu menempelkan tag satu demi satu ke ponsel. Setiap baris yang sudah ditulis dihapus dari file, sehingga daftar di layar selalu menunjukkan apa yang masih tersisa. Anda bisa berhenti kapan saja dan melanjutkannya nanti, bahkan beberapa hari kemudian.
 
-Kalau Anda belum pernah menulis tag NFC sama sekali, mulailah dari [panduan saya menulis tag NFC dengan iPhone](/blog/write-nfc-tags-iphone/). Tulisan ini khusus membahas cara menulis tag dalam jumlah banyak.
+Kalau Anda belum pernah menulis tag NFC sama sekali, mulailah dari [panduan saya menulis tag NFC dengan iPhone](/id/blog/write-nfc-tags-iphone/). Tulisan ini khusus membahas cara menulis tag dalam jumlah banyak.
 
 ---
 
@@ -120,7 +120,7 @@ Di NFC.cool Tools, buka layar Alat NFC dan cari **Menulis Batch CSV** di bagian 
 
 Aplikasi membuat salinan filenya sendiri. Saat Anda menulis tag, baris-baris dihapus dari salinan itu. Spreadsheet asli di komputer Anda tetap utuh, jadi Anda selalu punya daftar lengkapnya.
 
-Begitu file dipilih, aplikasi menampilkan apa yang terdeteksi: pemisahnya, jumlah kolom, mode pengelompokan, dan berapa tag yang Anda butuhkan. Satu angka yang selalu saya periksa adalah **Byte per tag NFC**, yaitu ukuran pesan terbesar dalam batch itu. Bandingkan dengan tag Anda. NTAG213 menampung 144 byte, NTAG215 504 byte, dan NTAG216 888 byte. Tautan pendek sekitar 50 byte, jadi tag paling murah pun cukup untuk tautan. Record Wi-Fi atau kartu kontak yang lebih panjang butuh 215 atau 216. Kalau tidak yakin chip mana yang Anda punya, lihat [panduan saya tentang jenis-jenis tag NFC](/blog/nfc-tag-types-for-iphones/).
+Begitu file dipilih, aplikasi menampilkan apa yang terdeteksi: pemisahnya, jumlah kolom, mode pengelompokan, dan berapa tag yang Anda butuhkan. Satu angka yang selalu saya periksa adalah **Byte per tag NFC**, yaitu ukuran pesan terbesar dalam batch itu. Bandingkan dengan tag Anda. NTAG213 menampung 144 byte, NTAG215 504 byte, dan NTAG216 888 byte. Tautan pendek sekitar 50 byte, jadi tag paling murah pun cukup untuk tautan. Record Wi-Fi atau kartu kontak yang lebih panjang butuh 215 atau 216. Kalau tidak yakin chip mana yang Anda punya, lihat [panduan saya tentang jenis-jenis tag NFC](/id/blog/nfc-tag-types-for-iphones/).
 
 Buka **Pratinjau Batch** untuk melihat setiap tag beserta record yang akan diterimanya. Yang Anda lihat di sana persis sama dengan yang akan ditulis.
 

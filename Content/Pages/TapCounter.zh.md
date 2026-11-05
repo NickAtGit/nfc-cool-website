@@ -1,7 +1,7 @@
 ---
 title: "NFC 轻触计数器：实时演示"
 slug: "tap-counter"
-description: "NFC 轻触计数器的实时演示。用 NFC.cool Tools 把本页网址写入 NFC 标签，轻触标签，即可看到它自带的扫描次数和标签 ID 显现出来，全程无需任何服务器。"
+description: "NFC 轻触计数器的实时演示。用 NFC.cool Tools 把本页网址写入 NFC 标签，轻触标签，即可看到它自带的扫描次数和标签 ID 显现出来，全程无需任何服务器。这个数字就存储在芯片里，实时显示在页面的卡片中。"
 image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 ---
 
@@ -16,10 +16,10 @@ image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 NFC 标签可以记录自己被扫描的次数：这个数字存储在芯片里，而不是服务器上。写入一个指向本页的标签，轻触一下，实时计数和标签 ID 就会显示在卡片中。
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-tap-counter-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-tap-counter-zh&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-tap-counter-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-tap-counter-zh" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -118,8 +118,8 @@ NFC 标签可以记录自己被扫描的次数：这个数字存储在芯片里�
 关于 NFC 轻触计数器，还有更多值得一探：哪些芯片可用、实际应用场景，以及完整的分步设置教程。
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">阅读指南</a>
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">了解该功能</a>
+<a href="/zh/blog/count-nfc-tag-scans/" class="landing-cta-button">阅读指南</a>
+<a href="/zh/features/nfc-reader-writer/" class="landing-cta-button">了解该功能</a>
 </div>
 
 </section>

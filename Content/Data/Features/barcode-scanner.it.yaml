@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Webhook per inventari e ingressi agli eventi"
-    body: "<p>Collega lo scanner di codici a barre al tuo gestionale. Ogni codice letto fa partire un webhook verso il tuo URL, così il magazzino, il CRM dei partecipanti o il catalogo della biblioteca si aggiornano in tempo reale mentre muovi la fotocamera. Nella pagina <a href=\"/features/webhooks/\">Webhook e automazione</a> trovi la struttura del payload JSON e un server di esempio.</p>"
+    body: "<p>Collega lo scanner di codici a barre al tuo gestionale. Ogni codice letto fa partire un webhook verso il tuo URL, così il magazzino, il CRM dei partecipanti o il catalogo della biblioteca si aggiornano in tempo reale mentre muovi la fotocamera. Nella pagina <a href=\"/it/features/webhooks/\">Webhook e automazione</a> trovi la struttura del payload JSON e un server di esempio.</p>"
     platforms: "iOS"
 
   - title: "Comandi Rapidi e App Intents"
@@ -45,7 +45,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sincronizzazione iCloud tra iPhone, iPad e Mac"
-    body: "<p>La cronologia delle scansioni si sincronizza su tutti i dispositivi collegati al tuo account iCloud. Leggi uno scaffale di prodotti con l'iPhone, controlla l'elenco sull'iPad, dai un titolo alle scansioni e condividile dal <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a>: una cronologia sola, senza spostare niente a mano.</p>"
+    body: "<p>La cronologia delle scansioni si sincronizza su tutti i dispositivi collegati al tuo account iCloud. Leggi uno scaffale di prodotti con l'iPhone, controlla l'elenco sull'iPad, dai un titolo alle scansioni e condividile dal <a href=\"/it/blog/nfc-cool-comes-to-mac/\">Mac</a>: una cronologia sola, senza spostare niente a mano.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool che si sincronizza tra iPhone, iPad e Mac"
     platforms: "iOS"

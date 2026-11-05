@@ -159,7 +159,7 @@ La soluzione non è un ripiego: è un approccio migliore in partenza.
 2. Fai puntare quell'URL a un profilo digitale completo
 3. Lascia che sia il profilo a salvare il contatto, condividere i link e fare tutto il resto
 
-È quello che fa NFC.cool Business Card. Ed è quello che uso io a ogni conferenza, meetup ed evento di networking.
+È quello che fa [NFC.cool Business Card](/it/business-card/). Ed è quello che uso io a ogni conferenza, meetup ed evento di networking.
 
 Avvicino il telefono. L'altra persona salva. E tutti e due andiamo avanti con la nostra giornata.
 

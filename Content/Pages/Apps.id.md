@@ -1,7 +1,7 @@
 ---
 title: "Aplikasi Lainnya"
 slug: "apps"
-description: "Selain NFC.cool Tools dan aplikasi Business Card, saya membuat beberapa aplikasi kecil: pemindaian QR, pemindaian 3D, pelacakan penerbangan, pemantauan e-bike, dan lainnya - semuanya dari satu keyboard indie."
+description: "Selain NFC.cool Tools dan aplikasi Business Card, saya membuat beberapa aplikasi kecil: pemindaian QR, pemindaian 3D, pelacakan penerbangan, pemantauan e-bike, dan lainnya. Semuanya dibangun oleh pendiri NFC.cool."
 ---
 
 <section class="page-hero">
@@ -10,7 +10,7 @@ description: "Selain NFC.cool Tools dan aplikasi Business Card, saya membuat beb
 
 <div class="page-hero-text">
 
-# Aplikasi lain dari keyboard yang sama
+# Aplikasi lain dari NFC.cool
 
 NFC.cool Tools dan aplikasi Business Card adalah bintang utamanya, tapi bukan satu-satunya yang saya buat. Inilah sisa jajarannya: aplikasi kecil dan fokus yang saya bangun karena ingin aplikasi itu ada - dan terus saya poles karena orang-orang mulai memakainya.
 

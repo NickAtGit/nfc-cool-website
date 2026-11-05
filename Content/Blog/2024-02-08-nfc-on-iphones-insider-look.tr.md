@@ -18,7 +18,7 @@ Her gün kullandığımız teknolojinin çoğu arka plana karışıp kayboluyor.
 
 **Yakın Alan İletişimi**, kısa menzilli bir kablosuz protokol: iki cihaz birbirine yaklaşık 4 cm yaklaştığında veri alışverişi yapabiliyor. Ben onu Bluetooth ile Wi-Fi'nin basitleştirilmiş, menzili çok daha kısa kuzeni gibi düşünüyorum.
 
-O kısa menzil başta insanların kafasını karıştırıyor ama kısıt değil. Güvenlik modelinin kendisi ve bu bende oturduğunda NFC'nin tasarım kararlarının çoğu anlam kazandı. Odanın öbür ucundan yanlışlıkla bir ödeme terminaline dokunamıyorsun ve kötü niyetli bir okuyucu cüzdanındaki veriyi uzaktan sessizce çekemiyor. Bu işlere yeniysen, bu yazıdan daha geriden başlayan yumuşak bir [sıfırdan başlayanlar için NFC tag rehberi](/blog/nfc-tags-beginners-guide/) yazdım.
+O kısa menzil başta insanların kafasını karıştırıyor ama kısıt değil. Güvenlik modelinin kendisi ve bu bende oturduğunda NFC'nin tasarım kararlarının çoğu anlam kazandı. Odanın öbür ucundan yanlışlıkla bir ödeme terminaline dokunamıyorsun ve kötü niyetli bir okuyucu cüzdanındaki veriyi uzaktan sessizce çekemiyor. Bu işlere yeniysen, bu yazıdan daha geriden başlayan yumuşak bir [sıfırdan başlayanlar için NFC tag rehberi](/tr/blog/nfc-tags-beginners-guide/) yazdım.
 
 ---
 
@@ -36,7 +36,7 @@ NFC cihazları her etkileşimde iki rolden birinde çalışıyor: **etkin** (gü
 
 Apple Pay ile ödeme yaptığında etkin okuyucu senin iPhone'un. 13,56 MHz'de bir radyo alanı üretiyor. Ödeme terminalinin NFC öğesi bu alanın içinde uyanıyor, kendini tanıtıyor ve telefonunla küçük bir kriptografik yük alışverişi yapıyor. Kart verin **Güvenli Öğe**'den, yani telefondaki ayrı, donanımsal olarak yalıtılmış çipten hiç çıkmıyor. Dışarı çıkan şey tek kullanımlık bir simge.
 
-Afişteki bir NFC etiketini okuttuğunda roller yer değiştiriyor. Afişin tag'i edilgen, pili yok. Senin iPhone'unun okuyucusu ona güç veriyor, tag üzerinde saklı NDEF kayıtlarıyla yanıt veriyor ve iOS ne yapacağına karar veriyor (adresi aç, uygulama başlat, kişi kartı göster, kısayol tetikle). O ikinci yarı, yani tag tarafı, NFC.cool'un yaşadığı yer. Hiçbir şey kurmadan iş başında görmek istersen Android'de [NFC tag'leri doğrudan tarayıcından okuyabilirsin](/online-nfc-reader/).
+Afişteki bir NFC etiketini okuttuğunda roller yer değiştiriyor. Afişin tag'i edilgen, pili yok. Senin iPhone'unun okuyucusu ona güç veriyor, tag üzerinde saklı NDEF kayıtlarıyla yanıt veriyor ve iOS ne yapacağına karar veriyor (adresi aç, uygulama başlat, kişi kartı göster, kısayol tetikle). O ikinci yarı, yani tag tarafı, NFC.cool'un yaşadığı yer. Hiçbir şey kurmadan iş başında görmek istersen Android'de [NFC tag'leri doğrudan tarayıcından okuyabilirsin](/tr/online-nfc-reader/).
 
 ---
 
@@ -50,7 +50,7 @@ Afişteki bir NFC etiketini okuttuğunda roller yer değiştiriyor. Afişin tag'
 
 NFC vericisinin üstündeki veri katmanı **NDEF**, yani NFC Veri Alışverişi Biçimi. Ben onu kendini tanıtan küçük bir kayıt biçimi diye anlatıyorum: tag bir ya da daha çok kayıt taşıyor ve her kaydın bir türü (URI, metin, vCard, Wi-Fi bilgisi, özel MIME) ve bir içeriği var.
 
-Gezegendeki NFC destekli her telefon NDEF konuşuyor; Android'de programlanan bir tag'in iPhone'da sorunsuz okunmasının, tersinin de geçerli olmasının sebebi bu. Mobil dünyada iOS ile Android'in gerçekten aynı standardı paylaştığı az sayıdaki yerden biri. Doğrusu, özellik yazarken en çok minnettar olduğum şey bu birlikte çalışabilirlik: bir platforma değil, bir biçime yazıyorum. Kendi kayıtlarını yazmayı denemek istersen [iPhone'da NFC tag nasıl yazılır](/blog/write-nfc-tags-iphone/) yazısında adım adım anlatıyorum.
+Gezegendeki NFC destekli her telefon NDEF konuşuyor; Android'de programlanan bir tag'in iPhone'da sorunsuz okunmasının, tersinin de geçerli olmasının sebebi bu. Mobil dünyada iOS ile Android'in gerçekten aynı standardı paylaştığı az sayıdaki yerden biri. Doğrusu, özellik yazarken en çok minnettar olduğum şey bu birlikte çalışabilirlik: bir platforma değil, bir biçime yazıyorum. Kendi kayıtlarını yazmayı denemek istersen [iPhone'da NFC tag nasıl yazılır](/tr/blog/write-nfc-tags-iphone/) yazısında adım adım anlatıyorum.
 
 ---
 
@@ -61,7 +61,7 @@ Anmaya değer iki savunma katmanı var ve bunlar en sık anlatmak zorunda kaldı
 - **Menzil.** Birkaç santimetreyi gözle görülür bir anten olmadan araya girip dinlemek zor; NFC'nin tasarlandığı özgün tehdit modeli bu.
 - **Simgeleştirme.** Apple Pay gerçek kart numaranı hiç göndermiyor. Her işlem, Güvenli Öğe'nin içinde üretilen bir Cihaz Hesap Numarası ile tek kullanımlık bir kriptogram kullanıyor. Ele geçirilmiş bir terminal bile bunu yeniden oynatamıyor.
 
-Tag okumada tehdit yüzeyi başka: güvenilen şey tag'in kendisi. Tag'in üstündekini sen denetliyorsan (kendi ev otomasyonların, kendi kartvizitin) sorun yok. Halka açık bir yerde rastgele bir tag okutuyorsan bir şey olmadan önce iOS'ta yine de onay istemi görmelisin. Bir tag'in bir sırra yalnızca işaret etmesini değil, sırrı gerçekten taşımasını istediğimde kriptografik tag'lere uzanıyorum ve bunu [NFC tag'lerde güvenli, şifreli sırlar saklamak](/blog/nfc-safe-encrypted-secrets/) yazısında anlattım.
+Tag okumada tehdit yüzeyi başka: güvenilen şey tag'in kendisi. Tag'in üstündekini sen denetliyorsan (kendi ev otomasyonların, kendi kartvizitin) sorun yok. Halka açık bir yerde rastgele bir tag okutuyorsan bir şey olmadan önce iOS'ta yine de onay istemi görmelisin. Bir tag'in bir sırra yalnızca işaret etmesini değil, sırrı gerçekten taşımasını istediğimde kriptografik tag'lere uzanıyorum ve bunu [NFC tag'lerde güvenli, şifreli sırlar saklamak](/tr/blog/nfc-safe-encrypted-secrets/) yazısında anlattım.
 
 ---
 

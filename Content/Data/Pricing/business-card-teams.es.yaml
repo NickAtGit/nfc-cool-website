@@ -1,0 +1,24 @@
+# Small-team price comparison for /es/business-card/teams/. Rendered by PricingTableRenderer via
+# the {{PRICING_TABLE:business-card-teams}} token in Content/Pages/business-card-teams.es.md.
+# Every number was read off the vendor's pricing page on 2026-11-05. Re-read them, and change the
+# date in the page's text, before changing anything here. The page does not link to these:
+# https://wavecnct.com/pricing (its currency selector shows the USD monthly price)
+# https://blinq.me/pricing
+# https://www.hihello.com/pricing
+# https://www.mobilocard.com/pricing-3
+# https://v1ce.co/pricing
+# https://www.uniqode.com/pricing
+# https://popl.co/pages/pricing
+columns: ["NFC.cool", "Wave Teams", "Blinq Business", "HiHello Business"]
+columnPills: ["is-team"]
+rows:
+  - label: "Equipo más pequeño"
+    values: ["2 plazas", "3 usuarios", "5 tarjetas", "5 usuarios"]
+  - label: "Por persona, con pago anual"
+    values: ["$50 al año", "$60 al año", "$59,88 al año", "$60 al año"]
+  - label: "Coste anual más bajo"
+    values: ["**$100**", "**$180**", "**$299,40**", "**$300**"]
+  - label: "Por persona, con pago mensual"
+    values: ["$5 al mes", "$7 al mes", "$6,99 al mes", "$6 al mes"]
+  - label: "Sincronización con CRM incluida"
+    values: ["✓", "✓", "✓", "✓"]

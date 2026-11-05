@@ -12,7 +12,7 @@ metaDescription: "NFC.cool legge gli Amiibo su iPhone e Android, ne tiene la col
 ogTitle: "Leggere, collezionare e fare il backup degli Amiibo su iPhone e Android"
 ogDescription: "Ho dato a NFC.cool il supporto completo agli Amiibo: scansiona, colleziona e fai il backup su un tag vuoto. Come funzionano davvero e perché l'app non contiene chiavi."
 ---
-Tutti danno per scontato che dentro un Amiibo ci sia qualcosa di esotico, un pezzo di silicio Nintendo che non si trova da nessun'altra parte. Non c'è. Sigillato nella base della statuina c'è un [NTAG215](/affiliate-links/), lo stesso chip degli adesivi vuoti che leggo e scrivo tutti i giorni, quelli che si comprano dieci alla volta per pochi spiccioli. Circa 540 byte di memoria, un numero di serie inciso in fabbrica, e la statuina è tutta lì. La parte cara è la plastica. Il chip è quasi un ripensamento.
+Tutti danno per scontato che dentro un Amiibo ci sia qualcosa di esotico, un pezzo di silicio Nintendo che non si trova da nessun'altra parte. Non c'è. Sigillato nella base della statuina c'è un [NTAG215](/it/affiliate-links/), lo stesso chip degli adesivi vuoti che leggo e scrivo tutti i giorni, quelli che si comprano dieci alla volta per pochi spiccioli. Circa 540 byte di memoria, un numero di serie inciso in fabbrica, e la statuina è tutta lì. La parte cara è la plastica. Il chip è quasi un ripensamento.
 
 Ed è proprio per questo che per tanto tempo la cosa ha continuato a rodermi. Leggo e scrivo tag NFC per lavoro, eppure c'era un'intera categoria di tag - qualche statuina sullo scaffale accanto alla scrivania - davanti a cui la mia app alzava le spalle. Voglio che NFC.cool sia l'app NFC più completa che si possa installare su un telefono, quella che non lascia indietro nessun tipo di tag.
 
@@ -22,7 +22,7 @@ Così mi ci sono messo, con le statuine da una parte e la Switch dall'altra, e h
 
 ## E allora dove sta la magia?
 
-Se il chip è così banale, la magia non sta di certo nel silicio. Sta nei byte. Un Amiibo in fondo è un taccuino da pochi soldi che Nintendo ha riempito con un codice privato e poi firmato in calce, così da poter distinguere un falso dall'originale. (Il chip in sé è un semplice [NTAG215](/blog/nfc-tag-types-for-iphones/), se ti interessa il giro completo tra i tipi di tag.)
+Se il chip è così banale, la magia non sta di certo nel silicio. Sta nei byte. Un Amiibo in fondo è un taccuino da pochi soldi che Nintendo ha riempito con un codice privato e poi firmato in calce, così da poter distinguere un falso dall'originale. (Il chip in sé è un semplice [NTAG215](/it/blog/nfc-tag-types-for-iphones/), se ti interessa il giro completo tra i tipi di tag.)
 
 In quei byte convivono due cose. La prima è in chiaro: un piccolo blocco che dice di quale personaggio si tratta, per esempio Link, della serie The Legend of Zelda, in una determinata linea di Amiibo. È la parte che la Switch legge per sapere che una statuina l'ha appena sfiorata. La seconda è chiusa a chiave: i dati salvati veri e propri, come il soprannome, il Mii del proprietario, quante volte la statuina è stata usata e tutto quello che il gioco del momento ha scarabocchiato nel piccolo spazio per appunti che gli viene concesso. Quella parte è cifrata ed è firmata.
 
@@ -42,7 +42,7 @@ Per ottenere una copia valida bisogna ricalcolare le chiavi sul tag di destinazi
 
 Tre cose, nell'ordine in cui probabilmente le userai.
 
-**Lettura.** Avvicina un Amiibo al retro del telefono, esattamente come faresti per [leggere un tag NFC qualsiasi](/features/nfc-reader-writer/), e NFC.cool lo riconosce all'istante: il personaggio, la serie del gioco, la serie di Amiibo, il tipo di statuina e l'illustrazione, insieme a un paio di informazioni prese dal tag stesso, come il numero di scritture che ha già subito. Qui non serve nessuna chiave: per riconoscere una statuina si tocca solo la parte già in chiaro.
+**Lettura.** Avvicina un Amiibo al retro del telefono, esattamente come faresti per [leggere un tag NFC qualsiasi](/it/features/nfc-reader-writer/), e NFC.cool lo riconosce all'istante: il personaggio, la serie del gioco, la serie di Amiibo, il tipo di statuina e l'illustrazione, insieme a un paio di informazioni prese dal tag stesso, come il numero di scritture che ha già subito. Qui non serve nessuna chiave: per riconoscere una statuina si tocca solo la parte già in chiaro.
 
 **Collezione.** Ogni Amiibo che scansioni finisce nella sezione La mia collezione, una semplice griglia con tutto quello che possiedi. Resta sul dispositivo (su iPhone si sincronizza con gli altri dispositivi Apple tramite iCloud) e le illustrazioni vengono conservate in locale, così la collezione si presenta bene anche senza connessione. Solo questo ha trasformato il mio tristissimo scaffale in qualcosa che posso davvero sfogliare.
 

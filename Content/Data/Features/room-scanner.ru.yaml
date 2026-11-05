@@ -43,7 +43,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Синхронизация с iCloud между iPhone, iPad и Mac"
-    body: "<p>Отсканированные комнаты лежат в папке «Документы» в iCloud, поэтому iPhone, которым ты снимал, iPad, на котором смотрел, и <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a>, на котором будешь править, видят одну и ту же библиотеку. Пройди пространство один раз, а план доведи потом за столом.</p>"
+    body: "<p>Отсканированные комнаты лежат в папке «Документы» в iCloud, поэтому iPhone, которым ты снимал, iPad, на котором смотрел, и <a href=\"/ru/blog/nfc-cool-comes-to-mac/\">Mac</a>, на котором будешь править, видят одну и ту же библиотеку. Пройди пространство один раз, а план доведи потом за столом.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool синхронизируется между iPhone, iPad и Mac"
     platforms: "iOS"

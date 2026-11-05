@@ -2,6 +2,7 @@
 id: nfc-blog-012
 title: "Dijital kartvizitini kimseye uygulama indirtmeden paylaş"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "Dijital kartvizitin, onu alan kişi için anında çalışmalı: indirme yok, sürtünme yok. App Clip'lerin ve anında açılan web profillerinin bunu nasıl sağladığı burada."
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
@@ -58,7 +59,7 @@ Olan şey şu:
 4. **Tek dokunuşla kaydetme:** ekranın altında, başparmağın doğal olarak durduğu yerde bir "Kişiyi Kaydet" düğmesi var. Tek dokunuş her şeyi Kişiler uygulamasına kaydediyor
 5. **Kendi dilinde:** App Clip 35 dili destekliyor ve alıcının cihaz diline kendiliğinden uyuyor. Kartını Tokyo'da, São Paulo'da ya da Berlin'de birine ver, onu kendi dilinde görsün
 
-Hesap açma yok. Kayıt istemi yok. Reklam yok. Takip bağlantısı yok. Yalnızca iletişim bilgin, saniyeler içinde kaydediliyor.
+Açılacak hesap yok. Kaydolacak bir şey yok. Reklam yok. Takip bağlantısı yok. Yalnızca iletişim bilgin, saniyeler içinde kaydediliyor.
 
 Kaydettikten sonra alıcı, kendi NFC.cool kartvizitini oluşturmak için nazik bir davet görüyor. Hepsi bu; agresif bir dayatma ya da zorunlu kayıt yok.
 
@@ -90,10 +91,10 @@ Bir alıcı deneyimini gerçekten iyi yapan şey yalnızca orada olanlar değil,
 
 Biri NFC.cool kartvizitini aldığında:
 
-- **Reklam yok:** profil sayfası ne NFC.cool'u tanıtıyor ne üçüncü taraf reklamı gösteriyor
+- **Reklam yok:** profil sayfası üçüncü taraf reklamı göstermiyor. Free kartın altında küçük bir "Made with NFC.cool" satırı var, ücretli planlarda bu satır yok
 - **Takip yönlendirmesi yok:** bağlantıların gerçek bağlantıların, analitik adreslerine sarılmış değil
-- **Rahatsız etme yok:** alıcıya NFC.cool'dan kayıt olmasını isteyen takip e-postaları gitmiyor
-- **Veri toplama yok:** alıcı bilgileri pazarlama için kullanılmıyor
+- **NFC.cool'dan pazarlama yok:** NFC.cool kartına bakanlara pazarlama göndermiyor. Team planında ekibin, müşteri adayı formundan bilgi bırakan kişilere takip e-postası gönderebilir
+- **Veri satışı yok:** NFC.cool ne senin verini ne de kartına bakanların verisini satıyor
 
 Bu, çoğu kişinin fark ettiğinden daha önemli. Kartvizitin çoğu zaman senin hakkındaki ilk izlenim. Kartını okutmak reklam kuşaklı, dağınık bir sayfaya çıkıyorsa ya da alıcıya ertesi gün spam gidiyorsa bu yalnızca uygulamaya değil, sana yansır.
 
@@ -125,4 +126,4 @@ Küçük bir şey ama bir elinde kahve tutup diğeriyle tokalaştığın yoğun 
 **Alıcı olarak:**
 - Hiçbir şey. Bütün mesele bu.
 
-*NFC.cool Business Card iOS ve Android'de var. App Clip bir iOS özelliği; Android'deki alıcılar onun yerine anında açılan bir web profili görüyor.*
+*[NFC.cool Business Card](/tr/business-card/) iOS ve Android'de var, her planın neleri kapsadığı da sayfasında yazıyor. iPhone'daki alıcılar yerel App Clip, Android'dekiler anında açılan web profili görüyor.*

@@ -1,7 +1,7 @@
 ---
-title: "Business Card Maker App für iPhone & Android"
+title: "Digitale Visitenkarte: App für iPhone und Android"
 slug: "business-card"
-description: "Eine digitale Business Card Maker App für iPhone und Android. Teile deine Visitenkarte per NFC, QR-Code, App Clip oder Apple Wallet. Sieh, wie viele Leute deine Karte speichern, und nutze den Konferenzmodus auf Events."
+description: "Eine digitale Visitenkarten-App für iPhone und Android. Teile deine Visitenkarte per NFC, QR-Code, App Clip oder Apple Wallet. Sieh, wie viele Leute deine Karte speichern, und nutze den Konferenzmodus auf Events."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# Digitale Visitenkarte von NFC.cool
 
-Deine Visitenkarte auf dem Handy, für dich und dein Team. Teile sie per NFC-Scan oder QR-Code und sieh, wie viele Leute sie speichern.
+Deine digitale Visitenkarte auf dem Handy, für dich und dein Team. Teile sie per NFC-Scan oder QR-Code und sieh, wie viele Leute sie speichern.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -66,7 +66,7 @@ Deine Visitenkarte auf dem Handy, für dich und dein Team. Teile sie per NFC-Sca
 
 <section class="page-section">
 
-## Für wen die Business Card gedacht ist
+## Für wen die digitale Visitenkarte gedacht ist
 
 <div class="page-cards-grid is-carousel" data-label-prev="Zurück" data-label-next="Weiter">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="Ein Smartphone wird an einen NFC.cool-Tag gehalten, öffnet eine Makler-Karte und startet einen Anruf, dann wird ein Hausschlüsselbund übergeben" width="1000" height="800" loading="lazy"/><h3>Immobilien & Architektur</h3><p>Kunden halten ihr Handy an deinen Tag und rufen dich an. Kurz darauf übergibst du die Schlüssel.</p></article>
@@ -89,7 +89,7 @@ Deine Visitenkarte auf dem Handy, für dich und dein Team. Teile sie per NFC-Sca
 
 ## Preise
 
-Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, auch mit Free. Personal und Pro bringen Leads, Analysen und eine Karte ohne unseren Namen darauf, und du kaufst sie in der App. Teams starten im Web, 14 Tage kostenlos, und zahlen pro Person, jährlich oder monatlich. In Euro gilt beim Team-Preis dieselbe Zahl.
+Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, auch mit Free. Personal und Pro bringen Leads, Analysen und eine Karte ohne unseren Namen darauf, und du kaufst sie in der App. Teams starten im Web, 14 Tage kostenlos, und zahlen pro Person, jährlich oder monatlich. In Euro gilt beim Team-Preis dieselbe Zahl. [Sieh dir den Team-Preis und den Vergleich an](/de/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, 
 <article class="page-card">
 <h3>Smarte Visitenkarten</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Digitale Karten erstellen</strong> - Karten, die zu deiner Marke passen</li>
+<li><strong>Digitale Visitenkarten</strong> - Karten, die zu deiner Marke passen</li>
 <li><strong>Bis zu 10 Karten mit Pro</strong> - für verschiedene Rollen, Marken oder Events</li>
 <li><strong>Aus Kontakten importieren</strong> - jeden bestehenden Kontakt als Karte nutzen</li>
 <li><strong>Immer aktuell</strong> - Änderungen werden sofort wirksam, ohne Nachdruck</li>
@@ -145,7 +145,7 @@ Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, 
 <article class="page-card">
 <h3>Datenschutz & Sicherheit</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>PIN-geschützte Profile</strong> - vierstellige PIN, Prüfung mit begrenzter Anzahl an Versuchen</li>
+<li><strong>PIN-geschützte Profile</strong> - eine vierstellige PIN für private Karten</li>
 <li><strong>Öffentlich / Privat</strong> - eine private Karte öffnet sich nur mit ihrer PIN</li>
 <li><strong>DSGVO-Export</strong> - alles als ZIP herunterladen, jederzeit</li>
 <li><strong>Sitzungssicherheit</strong> - PIN-Sitzungen laufen automatisch ab</li>
@@ -181,7 +181,7 @@ Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, 
 
 ## Was der Team-Plan zusätzlich bietet
 
-Eine persönliche Karte gehört einer Person. Im Team gehören die Karten der Firma, und dadurch können sie mehr.
+Eine persönliche Karte gehört einer Person. Im Team gehören die Karten der Firma, und dadurch können sie mehr. Lies mehr über [digitale Visitenkarten für Teams](/de/business-card/teams/).
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Ein Postfach für alle Leads</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>Jeder Lead des Teams landet in einem gemeinsamen Postfach. Sieh, wer zuständig ist und wie der Stand ist, weise Leads der richtigen Person zu und exportiere alles als Tabelle.</p></article>
@@ -200,7 +200,7 @@ Eine persönliche Karte gehört einer Person. Im Team gehören die Karten der Fi
 
 <div class="landing-container">
 
-<h2 class="landing-section-title">Häufige Fragen zur Business Card</h2>
+<h2 class="landing-section-title">Häufige Fragen zur digitalen Visitenkarte</h2>
 
 <details class="faq-item">
 <summary>Braucht mein Gegenüber die App?</summary>
@@ -249,7 +249,7 @@ Eine persönliche Karte gehört einer Person. Im Team gehören die Karten der Fi
 
 <details class="faq-item">
 <summary>Was passiert, wenn ich einen Bezahlplan kündige?</summary>
-<p>Es wird nichts gelöscht, und deine Karten bleiben online. Neue Leads kommen nicht mehr rein, und „Kontakt speichern“ funktioniert nur noch auf so vielen Karten, wie dein Plan erlaubt. Die übrigen werden als gesperrt angezeigt.</p>
+<p>Es wird nichts gelöscht. Bei Personal oder Pro bleiben deine Karten online: Neue Leads kommen nicht mehr rein, und „Kontakt speichern“ funktioniert nur noch auf so vielen Karten, wie dein Plan erlaubt. Die übrigen werden als gesperrt angezeigt. Bei einem Team zeigen die Karten nach dem Ende des Abos nur noch den Hinweis, dass sie vorübergehend nicht verfügbar sind. Schließt du wieder ein Abo ab, ist alles wieder da.</p>
 </details>
 
 </div>

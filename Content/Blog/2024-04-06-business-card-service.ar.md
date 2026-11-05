@@ -2,6 +2,7 @@
 id: nfc-blog-026
 title: "إعداد بطاقة العمل الرقمية من NFC.cool"
 date: 2024-04-06
+lastModified: "2026-11-05"
 tags: ["business-cards", "guides"]
 summary: "شرح تفصيلي لإعداد بطاقة العمل الرقمية من NFC.cool: بناء جهة الاتصال، واختيار ما يكون علنيًا، والكتابة على وسم NFC، والمشاركة. إضافة إلى سبب تفوّق رابط واحد قابل للتعديل على رمز QR ثابت يحمل vCard في التواصل المهني الجاد."
 metaTitle: "كيفية إعداد بطاقة العمل الرقمية من NFC.cool"
@@ -18,23 +19,23 @@ image: "/assets/images/Blog/business-card-service.webp"
 
 ## ثبّت التطبيق
 
-نزّل NFC.cool Business Card لـ[iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) أو [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en). التنزيل مجاني على كلتا المنصتين.
+نزّل NFC.cool Business Card لـ[iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-ar&mt=8) أو [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ar). التنزيل مجاني على كلتا المنصتين.
 
 ---
 
 ## أنشئ جهة الاتصال المصدر في تطبيق جهات الاتصال
 
-افتح تطبيق جهات الاتصال على iOS (أو جهات الاتصال على Android) وأنشئ جهة اتصال لنفسك تحمل التفاصيل التي تريد إتاحتها للعالم: الاسم، والمؤسسة، والمسمى الوظيفي، وبريد العمل الإلكتروني، وهاتف العمل، والموقع الإلكتروني، ورابط LinkedIn. راجع الإملاء والتنسيق مرتين - فهذا هو السجل الرئيسي.
+يمكنك البدء من بطاقة فارغة في التطبيق، أو من جهة اتصال على هاتفك. في الحالة الثانية، افتح تطبيق جهات الاتصال على iOS (أو جهات الاتصال على Android) وأنشئ جهة اتصال لنفسك تحمل التفاصيل التي تريد إتاحتها للعالم: الاسم، والمؤسسة، والمسمى الوظيفي، وبريد العمل الإلكتروني، وهاتف العمل، والموقع الإلكتروني، ورابط LinkedIn. راجع الإملاء والتنسيق مرتين - فهذا هو السجل الرئيسي.
 
 لستَ مضطرًا إلى إدراج كل شيء. أي معلومة حساسة (رقم الجوال الشخصي، أو عنوان المنزل) يمكن أن تبقى خارج جهة الاتصال هذه تمامًا.
 
 ---
 
-## افتح NFC.cool وأنشئ بطاقة العمل
+## افتح NFC.cool Business Card وأنشئ البطاقة
 
-داخل NFC.cool، انتقل إلى قسم **Business Card** والمس **إنشاء حساب**. ستضبط اسم مستخدم ورمز PIN - ورمز PIN هو ما يحمي التعديلات المستقبلية، لذا لا تفقده.
+افتح التطبيق والمس **إنشاء بطاقة عمل**.
 
-المس **فتح جهات الاتصال** واختر جهة الاتصال التي بنيتها للتو. يسحب NFC.cool البيانات ويعرضها كمسودة بطاقة عملك.
+اختر **إنشاء من جهات الاتصال** ثم جهة الاتصال التي بنيتها للتو، أو **إنشاء جديد** لتبدأ من بطاقة فارغة. يسحب NFC.cool البيانات ويعرضها كمسودة بطاقة عملك.
 
 ---
 
@@ -48,13 +49,13 @@ image: "/assets/images/Blog/business-card-service.webp"
 - **الهندسة:** الاسم، المسمى الوظيفي، بريد العمل الإلكتروني، GitHub، الموقع الإلكتروني.
 - **الإبداع:** الاسم، المسمى الوظيفي، Instagram، رابط معرض الأعمال، بريد العمل الإلكتروني.
 
-المس **التالي** عندما تنتهي.
+انتقل إلى الخطوة التالية عندما تنتهي. ستختار بعدها اسم مستخدم يظهر في آخر رابط بطاقتك (mycard.nfc.cool/John)، وتنشئ حسابك. ويمنح التطبيق حسابك رمز PIN من أربعة أرقام، يمكنك تغييره في الإعدادات واستخدامه لإبقاء البطاقة خاصة.
 
 ---
 
 ## خصّص الشعار
 
-المس **شعارك** → **تغيير الشعار** لرفع شعار شركتك أو علامتك الشخصية. يمنحك ملف PNG شفاف أنظف نتيجة - إذ يظهر بشكل صحيح على الثيمات الفاتحة والداكنة معًا.
+افتح قائمة البطاقة وغيّر الشعار لرفع شعار شركتك أو علامتك الشخصية. تمنحك الخلفية الشفافة أنظف نتيجة، ويمكنك استخدام شعار واحد للوضعين الفاتح والداكن أو إضافة شعار لكل منهما.
 
 ---
 
@@ -66,11 +67,11 @@ image: "/assets/images/Blog/business-card-service.webp"
 </ol>
 </figure>
 
-الآن الجانب المادي. يمكنك شراء وسم NFC من [متجر NFC.cool](https://shop.nfc.cool/collections/all) أو من أي بائع تجزئة خارجي - ملصق، أو بطاقة، أو ميدالية مفاتيح، أو أي شكل يناسبك.
+الآن الجانب المادي. أي وسم NFC قياسي يفي بالغرض - ملصق، أو بطاقة، أو ميدالية مفاتيح، أو أي شكل يناسبك. وتعرض صفحة [وسوم NFC التي أوصي بها](/ar/affiliate-links/) ما يمكنك شراؤه.
 
-في NFC.cool، المس **كتابة بطاقة العمل على وسم NFC**. قرّب هاتفك من الوسم. يكتب التطبيق رابطًا قصيرًا يشير إلى صفحة بطاقتك على nfc.cool. وبمجرد كتابته، يمكن لأي شخص يملك هاتفًا أن يلمسه.
+في قائمة البطاقة، المس **الكتابة إلى علامة NFC** (**كتابة بطاقة العمل على علامة NFC** على Android). قرّب هاتفك من الوسم. يكتب التطبيق رابطًا قصيرًا يشير إلى صفحة بطاقتك على nfc.cool. وبمجرد كتابته، يمكن لأي شخص يملك هاتفًا أن يلمسه.
 
-إذا أردتَ قفل الوسم كي لا يتمكن أحد من الكتابة فوق الرابط لاحقًا، فالمس **قفل** بعد نجاح الكتابة. هذا إجراء لا رجعة فيه - لا تقفل إلا الوسوم التي أنت متأكد منها.
+إذا أردتَ قفل الوسم كي لا يتمكن أحد من الكتابة فوق الرابط لاحقًا، فإن [NFC.cool Tools](/ar/features/nfc-reader-writer/) يتيح ذلك مع اشتراك Platinum. والقفل إجراء لا رجعة فيه - لا تقفل إلا الوسوم التي أنت متأكد منها.
 
 ---
 
@@ -82,7 +83,7 @@ image: "/assets/images/Blog/business-card-service.webp"
 </ol>
 </figure>
 
-المس **عرض بطاقة العمل** لترى بالضبط ما يراه المستقبِل. الصفحة مصمّمة للهاتف أولًا، وتُحمّل فورًا، وتوفّر زر «الحفظ في جهات الاتصال» بلمسة واحدة. على iOS، يرى المستقبِلون App Clip أصليًا (لا حاجة إلى تثبيت تطبيق)؛ وعلى Android يرون صفحة ويب أنيقة على نطاق nfc.cool. وينتهي الأمر بكليهما بحفظ جهة اتصالك في دفتر عناوينهم.
+المس **معاينة** في قائمة البطاقة (**معاينة البطاقة** على Android) لترى بالضبط ما يراه المستقبِل. الصفحة مصمّمة للهاتف أولًا، وتُحمّل فورًا، وتوفّر زر «حفظ جهة الاتصال» بلمسة واحدة. على iOS، يرى المستقبِلون App Clip أصليًا (لا حاجة إلى تثبيت تطبيق)؛ وعلى Android يرون صفحة ويب أنيقة على نطاق nfc.cool. وينتهي الأمر بكليهما بحفظ جهة اتصالك في دفتر عناوينهم.
 
 ---
 
@@ -96,4 +97,4 @@ image: "/assets/images/Blog/business-card-service.webp"
 
 هذه هي الميزة الوحيدة التي تهمّ في التواصل المهني الجاد - إذ تعمّر البيانات أطول من البطاقة المطبوعة.
 
-[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-en&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en) · أو NFC.cool Business Card المستقل لـ[iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) و[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en).
+[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-ar&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ar) · أو [NFC.cool Business Card](/ar/business-card/) لـ[iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-ar&mt=8) و[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-ar).

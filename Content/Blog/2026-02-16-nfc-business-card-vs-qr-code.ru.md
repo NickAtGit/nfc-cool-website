@@ -2,6 +2,7 @@
 id: nfc-blog-003
 title: "NFC-визитка или QR-код: что лучше для нетворкинга?"
 date: 2026-02-16
+lastModified: "2026-11-05"
 tags: ["business-cards", "qr-codes", "networking"]
 summary: "Касание NFC или сканирование QR-кода: как лучше передавать контакты? Разбираю скорость, совместимость, цену и реальные сценарии, чтобы было проще решить."
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"
@@ -200,12 +201,12 @@ QR-коды универсальнее для **широкой и гибкой �
 
 Несколько вещей, которые его отличают:
 
-- **35 языков.** Интерфейс приложения и App Clip поддерживают 35 языков, поэтому на iOS карточка показывается на языке собеседника. Сайт для передачи на Android пока только на английском.
-- **Приватность на первом месте.** Никакой рекламы получателям, PIN-код по желанию, никакой монетизации данных и рекламы
+- **35 языков.** Интерфейс приложения и App Clip поддерживают 35 языков, поэтому на iOS кнопки и подписи вокруг карточки показываются на языке собеседника.
+- **Приватность.** NFC.cool не шлёт рекламу тем, кто открыл твою карточку, на карточку можно поставить PIN-код, и NFC.cool не продаёт твои данные. На тарифе Team твоя команда может писать письма для повторного контакта тем, кто оставил свои данные через форму сбора лидов.
 - **Открытый NFC.** Работает с любой стандартной меткой, своего закрытого железа NFC.cool не продаёт
-- **Доступно.** Тариф Personal за 20 евро в год, Small Business за 50 евро в год (10 карточек), Business за 100 евро в год (100 карточек)
+- **Доступно.** Тариф Free с одной карточкой, Personal за $19,99 в год, Pro за $49,99 в год (10 карточек) и [Team](/ru/business-card/teams/): $50 за человека в год или $5 в месяц (до 10 карточек на человека). В евро для команды цифры те же.
 
-**Попробовать NFC.cool Business Card:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ru&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-ru)
+**Попробовать [NFC.cool Business Card](/ru/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ru&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-ru)
 
 ---
 

@@ -12,7 +12,7 @@ metaDescription: "Une alarme pour iPhone et Android qui ne s'arrête qu'une fois
 ogTitle: "Un réveil qu'on ne peut pas repousser"
 ogDescription: "Alarme NFC ne se tait qu'une fois que vous avez fait le tour de vos tags NFC dans la maison. Voici comment ça marche sur iPhone et Android."
 ---
-Quand on est développeur indépendant, on vit à un rythme qui se moque des horaires de bureau. Le meilleur code s'écrit tard, quand les messages se calment et que la maison est silencieuse, et sans que je m'en rende compte il est deux heures du matin. Le réveil, lui, sonne évidemment à la même heure que d'habitude. Et j'appuie sur Répéter. Puis je recommence. Puis une troisième fois, jusqu'à ce que la matinée que j'avais prévue soit à moitié envolée.
+Quand on est fondateur, on vit à un rythme qui se moque des horaires de bureau. Le meilleur code s'écrit tard, quand les messages se calment et que la maison est silencieuse, et sans que je m'en rende compte il est deux heures du matin. Le réveil, lui, sonne évidemment à la même heure que d'habitude. Et j'appuie sur Répéter. Puis je recommence. Puis une troisième fois, jusqu'à ce que la matinée que j'avais prévue soit à moitié envolée.
 
 J'ai longtemps réfléchi à ce que je pouvais vraiment y faire. Un réveil plus fort ? J'apprendrais vite à ne plus l'entendre. Poser le téléphone à l'autre bout de la pièce ? Je me lèverais, j'appuierais sur Arrêter et je retournerais sous la couette. Le problème n'a jamais été d'entendre le réveil. Le problème, c'est qu'il suffisait d'un geste pour l'arrêter, sans même avoir à réfléchir.
 
@@ -80,7 +80,7 @@ Il existe des apps de réveil qui vous demandent de photographier votre lavabo o
 
 Un tag NFC, à lui seul, ne fait rien. C'est une minuscule puce posée sur une étagère, avec un identifiant et rien d'autre. Ce que j'aime le plus en développant NFC.cool, c'est justement de donner un sens à ce petit bout de métal : transformer un autocollant qui coûte quelques centimes en quelque chose d'utile au quotidien. Avec Alarme NFC, le tag n'a même pas besoin de contenir quoi que ce soit. L'app reconnaît chaque tag à l'identifiant de sa puce, et rien n'y est écrit. N'importe quel tag fait l'affaire, y compris le paquet d'autocollants qui traîne au fond d'un tiroir. Et la lumière ne compte pas : un tag se scanne très bien dans un couloir plongé dans le noir, là où un appareil photo aurait du mal, et il n'y a rien à viser.
 
-Si vous n'avez pas encore de tags, mon [guide du débutant sur les tags NFC](/blog/nfc-tags-beginners-guide/) vous explique lesquels acheter.
+Si vous n'avez pas encore de tags, mon [guide du débutant sur les tags NFC](/fr/blog/nfc-tags-beginners-guide/) vous explique lesquels acheter.
 
 ---
 

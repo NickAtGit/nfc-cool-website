@@ -24,7 +24,7 @@ Bunu tasarlarken kesin olarak istediğim bir şey vardı: sırlarının benim uy
 
 Gördüğüm her sır saklama yönteminin zayıf noktasını saymamı istesen düşünmeden sayarım: kağıt yanar, USB uçları paslanır, bulut hizmetleri sızdırır, donanım cüzdanları yalnızca kripto kurtarma ifadesi tutar ve beynin unutur. Her seçenek kendince çöküyor.
 
-Ben de tersten çalıştım. İdeal yedek fiziksel olarak dayanıklı, şifreli, kendi başına yeterli, çoğaltılabilir ve uzun ömürlü olurdu. NFC tag'ler beşini de tutturuyor ve bu başta beni de şaşırttı. Pilleri yok, hareketli parçaları yok ve NTAG216 çipi 10 yılı aşkın veri saklama için belgelendirilmiş. Epoksi kaplı türleri suya, darbeye ve onlarca yıllık ihmale dayanıyor. Bu çiplerin nasıl ayrıştığına yeniysen ödünleri [iPhone için NFC tag türleri](/blog/nfc-tag-types-for-iphones/) yazısında ayrıştırdım.
+Ben de tersten çalıştım. İdeal yedek fiziksel olarak dayanıklı, şifreli, kendi başına yeterli, çoğaltılabilir ve uzun ömürlü olurdu. NFC tag'ler beşini de tutturuyor ve bu başta beni de şaşırttı. Pilleri yok, hareketli parçaları yok ve NTAG216 çipi 10 yılı aşkın veri saklama için belgelendirilmiş. Epoksi kaplı türleri suya, darbeye ve onlarca yıllık ihmale dayanıyor. Bu çiplerin nasıl ayrıştığına yeniysen ödünleri [iPhone için NFC tag türleri](/tr/blog/nfc-tag-types-for-iphones/) yazısında ayrıştırdım.
 
 ---
 
@@ -51,7 +51,7 @@ NFC Safe, NFC.cool Tools içinde NFC Apps altında duruyor. Her şeyi, üstünde
 2. Parolanı gir
 3. Daha önce şifrelediğin tag'i okut, sırrın karşına çıksın
 
-Kapağın altında yaptığım şu: PBKDF2 ile AES-256-GCM (HMAC-SHA-256, 100.000 yineleme, 16 baytlık rastgele tuz). Sonuç, tag'e özel bir NDEF kaydı (`urn:nfc:ext:crypto`) olarak yazılıyor. Bunların herhangi birini benim sözüme güvenmek yerine kendin doğrulamak istersen [biçim belirtiminin tamamı GitHub'da](https://github.com/NickAtGit/nfc.cool-nfc-safe-format). Önce sıradan, şifresiz bir tag yazmanın nasıl göründüğünü merak ediyorsan [iPhone'da NFC tag nasıl yazılır](/blog/write-nfc-tags-iphone/) yazısında anlatıyorum.
+Kapağın altında yaptığım şu: PBKDF2 ile AES-256-GCM (HMAC-SHA-256, 100.000 yineleme, 16 baytlık rastgele tuz). Sonuç, tag'e özel bir NDEF kaydı (`urn:nfc:ext:crypto`) olarak yazılıyor. Bunların herhangi birini benim sözüme güvenmek yerine kendin doğrulamak istersen [biçim belirtiminin tamamı GitHub'da](https://github.com/NickAtGit/nfc.cool-nfc-safe-format). Önce sıradan, şifresiz bir tag yazmanın nasıl göründüğünü merak ediyorsan [iPhone'da NFC tag nasıl yazılır](/tr/blog/write-nfc-tags-iphone/) yazısında anlatıyorum.
 
 ---
 
@@ -89,7 +89,7 @@ Keskin köşeleri sonradan keşfetmeni beklemektense baştan söylemeyi yeğleri
 
 ## Büyük resim
 
-NFC ile her gün uğraşırken bu tag'lerin sessizce önemli şeylerin saklama ortamına dönüştüğünü izledim. AB Dijital Ürün Pasaportu, onaylı veri taşıyıcıları arasında NFC'yi QR kodların hemen yanında sayıyor. Philips bunları diş fırçası başlıklarına koyuyor. Oteller oda anahtarı olarak kullanıyor. Ucuz, dayanıklı ve zaten cebinde duran cihazla evrensel biçimde okunabilir; bu birleşim nadir ve onlara sürekli yeni kullanım bulmamın sebebi tam bu. Daha geniş bir bakış istersen temelleri [NFC tag nedir: sıfırdan başlayanlar için tam rehber](/blog/nfc-tags-beginners-guide/) yazısında anlattım.
+NFC ile her gün uğraşırken bu tag'lerin sessizce önemli şeylerin saklama ortamına dönüştüğünü izledim. AB Dijital Ürün Pasaportu, onaylı veri taşıyıcıları arasında NFC'yi QR kodların hemen yanında sayıyor. Philips bunları diş fırçası başlıklarına koyuyor. Oteller oda anahtarı olarak kullanıyor. Ucuz, dayanıklı ve zaten cebinde duran cihazla evrensel biçimde okunabilir; bu birleşim nadir ve onlara sürekli yeni kullanım bulmamın sebebi tam bu. Daha geniş bir bakış istersen temelleri [NFC tag nedir: sıfırdan başlayanlar için tam rehber](/tr/blog/nfc-tags-beginners-guide/) yazısında anlattım.
 
 NFC Safe, o dayanıklılığı alıp eksik olan tek şeyi, yani şifrelemeyi eklemek için attığım adım. Kağıttan uzun yaşayan, onu bulan hiç kimsenin okuyamayacağı ve bir fincan kahveden ucuza gelen bir yedek. Kendim için istediğim türden bir şeydi, ben de yazdım.
 

@@ -2,6 +2,7 @@
 id: nfc-blog-003
 title: "NFC-Visitenkarte oder QR-Code: Was ist besser zum Netzwerken?"
 date: 2026-02-16
+lastModified: "2026-11-05"
 tags: ["business-cards", "qr-codes", "networking"]
 summary: "Kontaktdaten per NFC oder per QR-Code teilen - was ist der bessere Weg? Ich vergleiche Geschwindigkeit, Kompatibilität, Kosten und den Alltag auf Events, damit du dich entscheiden kannst."
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"
@@ -193,19 +194,19 @@ Der Ehrlichkeit halber: Das hier ist mein Blog, also erwähne ich natürlich auc
 
 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-de&mt=8) habe ich von Anfang an so gebaut, dass sie **NFC und QR-Code** beide beherrscht - nicht als getrennte Produkte, sondern als zwei Seiten derselben Karte:
 
-- **NFC-Tap** - Schreib deine Visitenkarte auf einen beliebigen Standard-NFC-Tag (Sticker, Karte, Schlüsselanhänger, was du willst) und teil sie, indem du ihn ans Handy hältst. Keine proprietäre Hardware nötig.
+- **NFC-Scan** - Schreib deine Visitenkarte auf einen beliebigen Standard-NFC-Tag (Sticker, Karte, Schlüsselanhänger, was du willst) und teil sie, indem du ihn ans Handy hältst. Keine proprietäre Hardware nötig.
 - **QR-Code** - Erzeuge einen scannbaren Code direkt in der App. Zeig ihn auf dem Handy oder druck ihn aus.
 - **Apple Wallet (iOS)** - Leg deine Karte als Wallet-Pass ab, dann hast du sie direkt vom Sperrbildschirm aus griffbereit.
 - **Link teilen** - Per SMS, E-Mail oder Social Media.
 
 Ein paar Dinge, die sie von anderen abheben:
 
-- **35 Sprachen** - App und App Clip gibt es in 35 Sprachen, auf iOS erscheint deine Karte also in der Sprache deines Gegenübers. Die Sharing-Website für Android ist derzeit nur auf Englisch.
-- **Datenschutz zuerst** - keine Werbung an die Empfänger, optionaler PIN-Schutz, keine Vermarktung von Daten, keine Anzeigen
+- **35 Sprachen** - App und App Clip gibt es in 35 Sprachen, auf iOS folgen die Buttons und Beschriftungen rund um deine Karte also der Sprache deines Gegenübers.
+- **Datenschutz** - NFC.cool schickt den Leuten, die deine Karte ansehen, kein Marketing, Karten können eine PIN haben, und NFC.cool verkauft deine Daten nicht. Im Team-Plan kann dein Team Follow-up-E-Mails an Leute schicken, die über dein Lead-Formular ihre Daten hinterlassen.
 - **Offenes NFC** - funktioniert mit jedem Standard-NFC-Tag, NFC.cool verkauft keine eigene Hardware
-- **Bezahlbar** - Personal-Tarif für 20 €/Jahr, Small Business für 50 €/Jahr (10 Karten), Business für 100 €/Jahr (100 Karten)
+- **Bezahlbar** - Ein Free-Plan mit einer Karte, Personal für 19,99 $ im Jahr, Pro für 49,99 $ im Jahr (10 Karten) und [Team](/de/business-card/teams/) für 50 $ pro Person im Jahr oder 5 $ im Monat (bis zu 10 Karten pro Person). In Euro gilt beim Team-Preis dieselbe Zahl.
 
-**NFC.cool Business Card ausprobieren:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-de&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-de)
+**[NFC.cool Business Card](/de/business-card/) ausprobieren:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-de&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-de)
 
 ---
 

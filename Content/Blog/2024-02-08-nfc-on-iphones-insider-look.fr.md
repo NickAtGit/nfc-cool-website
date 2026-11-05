@@ -18,7 +18,7 @@ Une bonne partie de la technologie qu'on utilise tous les jours s'efface dans le
 
 Le **Near Field Communication** (communication en champ proche) est un protocole sans fil à courte portée - deux appareils peuvent échanger des données lorsqu'ils sont à environ 4 cm l'un de l'autre. Je le vois comme un cousin simplifié, à portée bien plus courte, du Bluetooth et du Wi-Fi.
 
-Cette courte portée déroute au début, mais ce n'est pas une limite. C'est le modèle de sécurité, et le jour où ça a fait tilt pour moi, beaucoup de choix de conception du NFC ont pris tout leur sens. Vous ne pouvez pas déclencher par accident un terminal de paiement depuis l'autre bout de la pièce, et un lecteur malveillant ne peut pas siphonner discrètement les données de votre portefeuille à distance. Si tout cela est nouveau pour vous, j'ai écrit un [guide des tags NFC pour débutants](/blog/nfc-tags-beginners-guide/) tout en douceur, qui part de plus loin que cet article.
+Cette courte portée déroute au début, mais ce n'est pas une limite. C'est le modèle de sécurité, et le jour où ça a fait tilt pour moi, beaucoup de choix de conception du NFC ont pris tout leur sens. Vous ne pouvez pas déclencher par accident un terminal de paiement depuis l'autre bout de la pièce, et un lecteur malveillant ne peut pas siphonner discrètement les données de votre portefeuille à distance. Si tout cela est nouveau pour vous, j'ai écrit un [guide des tags NFC pour débutants](/fr/blog/nfc-tags-beginners-guide/) tout en douceur, qui part de plus loin que cet article.
 
 ---
 
@@ -36,7 +36,7 @@ Les appareils NFC jouent l'un des deux rôles à chaque interaction : **actif** 
 
 Quand vous payez avec Apple Pay, votre iPhone est le lecteur actif. Il génère un champ radio à 13,56 MHz. L'élément NFC du terminal de paiement se réveille dans ce champ, s'identifie, et échange une petite charge cryptographique avec votre téléphone. Les données de votre carte ne quittent jamais l'**élément sécurisé** (Secure Element) - une puce dédiée, isolée matériellement, dans le téléphone. Ce qui en sort, c'est un jeton à usage unique.
 
-Quand vous approchez votre téléphone d'un autocollant NFC sur une affiche, les rôles s'inversent. Le tag de l'affiche est passif - il n'a pas de batterie. Le lecteur de votre iPhone l'alimente, le tag répond avec les enregistrements NDEF qu'il contient, et iOS décide quoi faire (ouvrir une URL, lancer une app, afficher une fiche de contact, déclencher un raccourci). Cette seconde moitié - le côté tag - c'est là que vit NFC.cool, et si vous voulez la voir à l'œuvre sans rien installer, vous pouvez [lire des tags NFC directement depuis votre navigateur](/online-nfc-reader/) sur Android.
+Quand vous approchez votre téléphone d'un autocollant NFC sur une affiche, les rôles s'inversent. Le tag de l'affiche est passif - il n'a pas de batterie. Le lecteur de votre iPhone l'alimente, le tag répond avec les enregistrements NDEF qu'il contient, et iOS décide quoi faire (ouvrir une URL, lancer une app, afficher une fiche de contact, déclencher un raccourci). Cette seconde moitié - le côté tag - c'est là que vit NFC.cool, et si vous voulez la voir à l'œuvre sans rien installer, vous pouvez [lire des tags NFC directement depuis votre navigateur](/fr/online-nfc-reader/) sur Android.
 
 ---
 
@@ -50,7 +50,7 @@ Quand vous approchez votre téléphone d'un autocollant NFC sur une affiche, les
 
 La couche de données au-dessus de la radio NFC, c'est le **NDEF** - NFC Data Exchange Format. Je le décris comme un petit format d'enregistrement auto-descriptif : un tag contient un ou plusieurs enregistrements, et chaque enregistrement a un type (URI, texte, vCard, identifiants Wi-Fi, MIME personnalisé) et une charge utile.
 
-Tous les téléphones compatibles NFC de la planète parlent NDEF, et c'est pour ça qu'un tag programmé sur un appareil Android se lira sans problème sur un iPhone, et inversement. C'est l'un des rares endroits du mobile où iOS et Android partagent vraiment une norme, et honnêtement, cette interopérabilité est ce dont je suis le plus reconnaissant quand je développe des fonctionnalités - j'écris pour le format, pas pour une plateforme. Si vous voulez essayer d'écrire vos propres enregistrements, je détaille tout ça dans [comment écrire des tags NFC sur iPhone](/blog/write-nfc-tags-iphone/).
+Tous les téléphones compatibles NFC de la planète parlent NDEF, et c'est pour ça qu'un tag programmé sur un appareil Android se lira sans problème sur un iPhone, et inversement. C'est l'un des rares endroits du mobile où iOS et Android partagent vraiment une norme, et honnêtement, cette interopérabilité est ce dont je suis le plus reconnaissant quand je développe des fonctionnalités - j'écris pour le format, pas pour une plateforme. Si vous voulez essayer d'écrire vos propres enregistrements, je détaille tout ça dans [comment écrire des tags NFC sur iPhone](/fr/blog/write-nfc-tags-iphone/).
 
 ---
 
@@ -61,7 +61,7 @@ Deux couches de défense méritent d'être mentionnées, et ce sont les deux que
 - **La portée.** Quelques centimètres, c'est difficile à intercepter sans une antenne bien visible - c'est le modèle de menace d'origine autour duquel le NFC a été conçu.
 - **La tokenisation.** Apple Pay ne transmet jamais votre vrai numéro de carte. Chaque transaction utilise un numéro de compte d'appareil (Device Account Number) plus un cryptogramme à usage unique, généré dans l'élément sécurisé. Même un terminal compromis ne peut pas le rejouer.
 
-Pour la lecture de tags, la surface d'attaque est différente - c'est le tag lui-même qui fait l'objet de la confiance. Si vous maîtrisez ce qu'il y a sur le tag (vos propres automatisations domestiques, votre carte de visite), tout va bien. Si vous approchez votre téléphone d'un tag inconnu dans un lieu public, iOS devrait tout de même vous afficher une demande de confirmation avant que quoi que ce soit ne se passe. Et quand j'ai vraiment besoin qu'un tag contienne un secret plutôt que de simplement pointer vers un, je me tourne vers les tags cryptographiques, un sujet que j'ai traité dans [stocker des secrets chiffrés en toute sécurité sur des tags NFC](/blog/nfc-safe-encrypted-secrets/).
+Pour la lecture de tags, la surface d'attaque est différente - c'est le tag lui-même qui fait l'objet de la confiance. Si vous maîtrisez ce qu'il y a sur le tag (vos propres automatisations domestiques, votre carte de visite), tout va bien. Si vous approchez votre téléphone d'un tag inconnu dans un lieu public, iOS devrait tout de même vous afficher une demande de confirmation avant que quoi que ce soit ne se passe. Et quand j'ai vraiment besoin qu'un tag contienne un secret plutôt que de simplement pointer vers un, je me tourne vers les tags cryptographiques, un sujet que j'ai traité dans [stocker des secrets chiffrés en toute sécurité sur des tags NFC](/fr/blog/nfc-safe-encrypted-secrets/).
 
 ---
 

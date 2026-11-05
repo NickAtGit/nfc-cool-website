@@ -53,7 +53,7 @@ In realtà l'NFC è un sottoinsieme dell'RFID (Radio-Frequency Identification). 
 | **Standardizzazione** | ISO 14443 / ISO 18092 | Standard multipli |
 | **Uso di consumo** | Alto (telefoni, pagamenti) | Soprattutto industriale |
 
-Tutto l'NFC è RFID, ma non tutto l'RFID è NFC. Il badge che passi per entrare in ufficio spesso lavora a 125 KHz, e quella frequenza il telefono proprio non la legge. I tag NFC usano invece i 13,56 MHz che i telefoni supportano. "Perché il telefono non legge il badge del lavoro?" è una delle domande che ricevo più spesso, e la risposta è quasi sempre questa. (Se è il dubbio in cui ti sei impantanato, ci ho dedicato un articolo intero: [perché l'iPhone non apre una porta RFID](/blog/iphone-rfid-condo-doors/).)
+Tutto l'NFC è RFID, ma non tutto l'RFID è NFC. Il badge che passi per entrare in ufficio spesso lavora a 125 KHz, e quella frequenza il telefono proprio non la legge. I tag NFC usano invece i 13,56 MHz che i telefoni supportano. "Perché il telefono non legge il badge del lavoro?" è una delle domande che ricevo più spesso, e la risposta è quasi sempre questa. (Se è il dubbio in cui ti sei impantanato, ci ho dedicato un articolo intero: [perché l'iPhone non apre una porta RFID](/it/blog/iphone-rfid-condo-doors/).)
 
 ---
 
@@ -107,9 +107,9 @@ Una solida via di mezzo: spazio a sufficienza per URL lunghi e vCard con più ca
 | Comando per la casa intelligente | NTAG213 | Basta un ID univoco |
 | Anticontraffazione | NTAG424 DNA | Verifica crittografica |
 
-**Dove comprarli:** nella mia pagina dei [tag NFC consigliati](/affiliate-links/) trovi gli adesivi NTAG216 che uso e su cui faccio le prove. I tag in formato adesivo sono i più versatili: si attaccano quasi ovunque.
+**Dove comprarli:** nella mia pagina dei [tag NFC consigliati](/it/affiliate-links/) trovi gli adesivi NTAG216 che uso e su cui faccio le prove. I tag in formato adesivo sono i più versatili: si attaccano quasi ovunque.
 
-Il mio consiglio sincero: compra una confezione di adesivi NTAG216 e smetti di rimuginarci. Ho visto persone tormentarsi sulla scelta del chip per un progetto che un tag da venti centesimi risolve benissimo. Se poi ti serve l'analisi approfondita, li ho passati in rassegna uno per uno in [tipi di tag NFC per iPhone](/blog/nfc-tag-types-for-iphones/).
+Il mio consiglio sincero: compra una confezione di adesivi NTAG216 e smetti di rimuginarci. Ho visto persone tormentarsi sulla scelta del chip per un progetto che un tag da venti centesimi risolve benissimo. Se poi ti serve l'analisi approfondita, li ho passati in rassegna uno per uno in [tipi di tag NFC per iPhone](/it/blog/nfc-tag-types-for-iphones/).
 
 ---
 
@@ -160,7 +160,7 @@ Che cosa succede dopo la scansione dipende dai dati:
 - **App Clip**: se ne esiste una, si avvia
 - **Dati personalizzati**: si apre l'app associata
 
-Se ti serve solo vedere subito che cosa c'è su un tag, su Android puoi anche [leggere i tag NFC direttamente dal browser](/online-nfc-reader/), senza installare nulla.
+Se ti serve solo vedere subito che cosa c'è su un tag, su Android puoi anche [leggere i tag NFC direttamente dal browser](/it/online-nfc-reader/), senza installare nulla.
 
 ### Su Android
 
@@ -187,7 +187,7 @@ Il procedimento è breve:
 4. Tieni il telefono appoggiato al tag
 5. Aspetta la conferma, di solito circa un secondo
 
-Fatto. Ora il tag contiene i tuoi dati e funziona con qualsiasi telefono NFC che lo legga. Se ti serve la procedura specifica per iPhone, ne ho scritta una qui: [come scrivere i tag NFC da iPhone](/blog/write-nfc-tags-iphone/).
+Fatto. Ora il tag contiene i tuoi dati e funziona con qualsiasi telefono NFC che lo legga. Se ti serve la procedura specifica per iPhone, ne ho scritta una qui: [come scrivere i tag NFC da iPhone](/it/blog/write-nfc-tags-iphone/).
 
 ### Importante: bloccare i tag
 
@@ -326,7 +326,7 @@ Vuoi provare? Ecco un progetto da cinque minuti con cui farei partire chiunque:
 
 **Progetto: un tag per condividere il Wi-Fi di casa**
 
-1. **Compra i tag:** prendi una confezione di [adesivi NTAG216](/affiliate-links/) (circa 10 $ per 25 pezzi)
+1. **Compra i tag:** prendi una confezione di [adesivi NTAG216](/it/affiliate-links/) (circa 10 $ per 25 pezzi)
 2. **Scarica NFC.cool Tools:** per [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-it&mt=8) o [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-it)
 3. **Scrivi le credenziali del Wi-Fi:** apri l'app, scegli Scrivi e poi Wi-Fi, inserisci il nome della rete e la password e tieni il telefono appoggiato al tag
 4. **Posiziona il tag:** in un punto visibile, vicino alla porta d'ingresso, sul frigorifero o nella stanza degli ospiti

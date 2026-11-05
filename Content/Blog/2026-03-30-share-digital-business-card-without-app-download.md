@@ -2,6 +2,7 @@
 id: nfc-blog-012
 title: "Share Your Digital Business Card Without Making Anyone Download an App"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "Your digital business card should work instantly for the person receiving it, no downloads, no friction. Here's how App Clips and instant web profiles make that happen."
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
@@ -57,7 +58,7 @@ Here's what happens:
 4. **One-tap save:** a "Save Contact" button sits at the bottom of the screen, right where the thumb naturally rests. One tap saves everything to their Contacts app
 5. **Their language:** the App Clip supports 35 languages and automatically matches the recipient's device language. Hand your card to someone in Tokyo, São Paulo, or Berlin, and they see it in their own language
 
-No account creation. No sign-up prompts. No ads. No tracking URLs. Just your contact info, saved in seconds.
+No account to create. Nothing to sign up for. No ads. No tracking URLs. Just your contact info, saved in seconds.
 
 After saving, the recipient sees a gentle invitation to create their own NFC.cool business card. That's it, no aggressive push, no forced sign-up.
 
@@ -89,10 +90,10 @@ What makes a recipient experience truly good isn't just what's there, it's what 
 
 When someone receives your NFC.cool business card:
 
-- **No ads:** the profile page doesn't promote NFC.cool or show third-party ads
+- **No ads:** the profile page shows no third-party ads. A Free card carries a small "Made with NFC.cool" line at the bottom, and paid plans leave it off
 - **No tracking redirects:** your links are your actual links, not wrapped in analytics URLs
-- **No solicitation:** the recipient doesn't get follow-up emails from NFC.cool asking them to sign up
-- **No data harvesting:** recipient information isn't used for marketing
+- **No marketing from NFC.cool:** NFC.cool doesn't send marketing to people who view your card. On the Team plan, your team can send follow-up emails to people who leave their details through your lead form
+- **No data selling:** NFC.cool doesn't sell your data or the data of the people who view your card
 
 This matters more than most people realize. Your business card is often someone's first impression of you. If tapping your card leads to a cluttered page with banner ads or sends the recipient spam emails the next day, that reflects on you, not just the app.
 
@@ -124,4 +125,4 @@ It's a small thing, but at a busy event where you're holding a coffee in one han
 **As the recipient:**
 - Nothing. That's the whole point.
 
-*NFC.cool Business Card is available on iOS and Android. App Clip functionality is an iOS feature; Android recipients receive an instant web profile instead.*
+*[NFC.cool Business Card](/business-card/) is available on iOS and Android, and its page lists what each plan includes. iPhone recipients get a native App Clip, and Android recipients get an instant web profile.*

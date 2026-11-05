@@ -2,109 +2,191 @@
 id: nfc-blog-002
 title: "Le migliori app per biglietti da visita digitali nel 2026: un confronto onesto"
 date: 2026-02-02
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "privacy"]
-summary: "Ho provato le app per biglietti da visita digitali più diffuse del 2026, da Wave Connect a Blinq fino a NFC.cool, e le ho confrontate su prezzi, privacy, supporto NFC e funzioni. Ecco cosa ho scoperto."
+summary: "Sviluppo NFC.cool Business Card, e in questo confronto lo dico subito. Wave, Blinq, HiHello, Popl, Mobilo, V1CE e NFC.cool, divise in base a chi compra, con i prezzi controllati il 5 novembre 2026."
 image: "/assets/images/Blog/best-digital-business-card-apps-2026.webp"
 imageAlt: "Smartphone che mette a confronto diverse app per biglietti da visita digitali, con dettagli di tessere NFC"
+author: "Nicolo Stanciu"
 metaTitle: "Migliori app per biglietti da visita digitali 2026: confronto"
-metaDescription: "Confronto tra le 8 migliori app per biglietti da visita digitali 2026: NFC.cool, Wave Connect, Blinq, HiHello, Popl, Mobilo, Linq e V1CE, con prezzi e privacy."
+metaDescription: "Wave, Blinq, HiHello, Popl, Mobilo, V1CE e NFC.cool in base a chi compra, con i prezzi per i team controllati il 5 novembre 2026. Scritto da chi crea NFC.cool."
 ogTitle: "Le migliori app per biglietti da visita digitali nel 2026"
-ogDescription: "Un confronto onesto e dettagliato tra 8 app per biglietti da visita digitali, con il quadro dei prezzi, l'analisi della privacy e consigli concreti."
+ogDescription: "Sette app per biglietti da visita digitali divise in base a chi compra, con i prezzi datati, da chi ne sviluppa una."
 ---
-Il biglietto da visita di carta sta sparendo in fretta. Che tu stia facendo rete a una conferenza, incontrando clienti o cercando soltanto un modo professionale per passare i tuoi recapiti, il biglietto da visita digitale è la risposta di oggi.
+Altri sviluppatori di app mi scrivono regolarmente per chiedermi di entrare in questo articolo. Quindi è giusto che tu sappia chi lo scrive: sono Nicolo Stanciu e sviluppo [NFC.cool Business Card](/it/business-card/), una delle app qui sotto.
 
-Ma con decine di app che si contendono la tua attenzione, ognuna convinta di essere la migliore, scegliere non è per niente semplice. Quasi tutti gli articoli di "confronto" sono scritti dalle app stesse e, sorpresa, finiscono sempre al primo posto.
+Non troverai una classifica, perché il biglietto giusto dipende da chi lo compra. Troverai invece un elenco di situazioni e, per ognuna, il prodotto che guarderei per primo. Per la maggior parte dei professionisti e dei piccoli team io scelgo NFC.cool, e alla fine ti spiego perché.
 
-Io ho preso un'altra strada. Ho provato davvero otto tra le app più diffuse per il biglietto da visita digitale e le ho confrontate sulle cose che contano: **prezzo, privacy, supporto NFC, lingue disponibili e facilità d'uso**. Ecco cosa ho scoperto.
-
----
-
-## Come le ho valutate
-
-Ho guardato ogni app da sei angolazioni:
-
-- **Qualità del piano gratuito** - Cosa si riesce a fare davvero senza pagare?
-- **Correttezza del prezzo** - Il piano a pagamento vale la spesa? Ci sono costi nascosti?
-- **Privacy e gestione dei dati** - Chi vede i tuoi dati? Chi riceve il biglietto si ritrova con email promozionali?
-- **Supporto NFC** - Si possono usare tag o tessere NFC? Sei costretto a comprare hardware proprietario?
-- **Lingue disponibili** - L'app serve anche a chi non parla inglese?
-- **Facilità d'uso** - Quanto ci vuole per preparare un biglietto e condividerlo?
-
-Ho segnato anche se il piano gratuito di ogni app mostra il proprio marchio, cioè il suo logo sul tuo biglietto, e se manda email promozionali a chi apre il biglietto.
+> **Aggiornato il 5 novembre 2026.** In quella data ho ricontrollato tutti i prezzi e i piani citati qui. Linq non è più nell'elenco, perché nel frattempo si è spostata su altro (ne parlo più avanti).
 
 ---
 
-## Il confronto in breve
+## Come le ho confrontate
 
-Ecco il quadro d'insieme di tutte e otto le app:
+Le informazioni sulle altre aziende vengono dalle pagine pubbliche su prezzi e funzioni di ciascuna, controllate il 5 novembre 2026, mentre NFC.cool è l'unico prodotto di questo elenco che sviluppo e uso io. È quindi una lettura di ciò che pubblicano, non una prova sul campo: prima di impegnarti, verifica di persona quello che per te conta.
 
-**NFC.cool Business Card**
-- Piano gratuito: sì (con il marchio della piattaforma)
-- Prezzo di partenza: €20/anno (Personal, 1 biglietto)
-- Supporto NFC: funziona con qualsiasi tag NFC
-- Lingue: 35 (interfaccia dell'app e App Clip)
-- PIN di protezione: sì
-- Email promozionali ai destinatari: no
+Per ognuna ho guardato le stesse cose:
 
-**Wave Connect**
-- Piano gratuito: sì (generoso, senza marchio)
-- Prezzo di partenza: $7/mese
-- Supporto NFC: solo tessere proprietarie
-- Lingue: poche
-- PIN di protezione: no
-- Email promozionali ai destinatari: no (nel piano gratuito)
-
-**Blinq**
-- Piano gratuito: sì (con il marchio della piattaforma)
-- Prezzo di partenza: circa $9.99/mese
-- Supporto NFC: tessere proprietarie
-- Lingue: poche
-- PIN di protezione: no
-- Email promozionali ai destinatari: sì (nel piano gratuito)
-
-**HiHello**
-- Piano gratuito: sì (4 biglietti)
-- Prezzo di partenza: $6/mese (con abbonamento annuale)
-- Supporto NFC: nessun prodotto hardware
-- Lingue: poche
-- PIN di protezione: no
-- Email promozionali ai destinatari: sì (nel piano gratuito)
-
-**Popl**
-- Piano gratuito: essenziale (dall'app)
-- Prezzo di partenza: su misura, per le aziende
-- Supporto NFC: adesivi e tessere proprietarie
-- Lingue: poche
-- PIN di protezione: no
-- Email promozionali ai destinatari: dipende
-
-**Mobilo**
-- Piano gratuito: no
-- Prezzo di partenza: circa $4/mese più l'hardware
-- Supporto NFC: tessere proprietarie (è il prodotto principale)
-- Lingue: poche
-- PIN di protezione: no
-- Email promozionali ai destinatari: non applicabile
-
-**Linq**
-- Piano gratuito: limitato
-- Prezzo di partenza: variabile (tessera più abbonamento)
-- Supporto NFC: tessere proprietarie
-- Lingue: poche
-- PIN di protezione: no
-- Email promozionali ai destinatari: non applicabile
-
-**V1CE**
-- Piano gratuito: no (bisogna comprare la tessera)
-- Prezzo di partenza: $197 (una tantum)
-- Supporto NFC: tessere fisiche di fascia alta
-- Lingue: poche
-- PIN di protezione: no
-- Email promozionali ai destinatari: no
+- **Il piano gratuito:** cosa offre e di chi è il nome che resta sul biglietto
+- **Il prezzo pubblicato,** compreso il numero minimo di posti
+- **NFC:** se puoi usare i tag che hai già
+- **Controlli per i team:** sincronizzazione con il CRM, single sign-on e sincronizzazione della directory
+- **Lingue,** in base alla scheda di ogni app sull'App Store
+- **Privacy:** cosa viene registrato e chi contatta le persone che incontri
 
 ---
 
-## Le recensioni nel dettaglio
+## La versione breve
+
+| Se... | Guarda prima | Perché |
+| --- | --- | --- |
+| Vuoi un biglietto gratis e non pensi di pagare | Wave Connect | Modulo per i lead e statistiche nel piano gratuito |
+| Cerchi un biglietto per te e vuoi spendere poco | NFC.cool Personal o Pro | $19,99 o $49,99 all'anno, l'abbonamento pubblicato più basso di questo elenco |
+| Lavori in più lingue | NFC.cool | 35 lingue nella scheda dell'App Store |
+| Vuoi l'NFC sui tag che hai già | NFC.cool o HiHello | Entrambe dicono che puoi scrivere il biglietto su qualsiasi tag |
+| Hai un team da 2 a 4 persone e vuoi la sincronizzazione con il CRM | NFC.cool Team | $100 all'anno per 2 posti |
+| Vuoi risposte rapide dal fondatore | NFC.cool | Scrivi direttamente a chi la sviluppa |
+| Ti servono l'SSO o la sincronizzazione della directory | NFC.cool Team, oppure HiHello, Blinq e Wave | Su richiesta con NFC.cool, compresi in un piano nelle altre |
+| Compri per le fiere | Popl | Nata attorno alla raccolta dei lead agli eventi |
+| Vuoi un biglietto fisico che resti impresso | V1CE o Mobilo | Tessere in metallo, in bambù e personalizzate |
+
+---
+
+## Se vuoi un biglietto da visita digitale gratis
+
+**Wave Connect ha un piano gratuito generoso.** [Comprende](https://wavecnct.com/pricing) un biglietto digitale, la condivisione illimitata, Apple e Google Wallet, le statistiche individuali e un modulo per la raccolta dei lead.
+
+C'è una cosa da controllare. [Le FAQ di Wave](https://wavecnct.com/faq) dicono che non aggiunge alcun marchio, ma la sua pagina dei prezzi elenca "Remove Wave Connect branding" tra le funzioni di Pro. Le due pagine non coincidono, quindi guarda il tuo biglietto gratuito prima di fidarti di una delle due.
+
+Blinq e HiHello offrono ciascuna due biglietti gratuiti e una firma email gratuita. [Il piano gratuito di Blinq](https://blinq.me/pricing) aggiunge uno scanner di contatti, e il suo nome resta sul biglietto finché non passi a Premium. [Quello di HiHello](https://www.hihello.com/pricing) ti dà cinque scansioni al mese.
+
+Il piano Free di NFC.cool comprende un biglietto, la condivisione via NFC, codice QR o link, "Salva contatto", il codice QR della Modalità Conferenza, Apple Wallet e un PIN. I piani a pagamento aggiungono la raccolta dei lead e le statistiche.
+
+---
+
+## Se cerchi un biglietto per te e vuoi spendere poco
+
+Qui NFC.cool vince sul prezzo. Personal costa $19,99 all'anno per un biglietto e Pro $49,99 all'anno per 10 biglietti. Entrambi tolgono il nostro nome, aggiungono la raccolta dei lead e le statistiche e hanno una settimana di prova gratuita.
+
+Con la fatturazione annuale, le altre arrivano a $72 per HiHello Professional (8 biglietti), $84 per Wave Pro e circa $88 per Blinq Premium (5 biglietti). Per quella spesa in più, HiHello Professional comprende 20 scansioni al mese con l'arricchimento dei contatti e Wave Pro aggiunge la raccolta dei lead con l'IA.
+
+---
+
+## Se lavori in più lingue
+
+La [scheda di NFC.cool sull'App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-it&mt=8) mostra 35 lingue. Lo stesso giorno quella di HiHello ne indicava 3, mentre quelle di Blinq, Popl, Wave e Mobilo indicavano solo l'inglese. Anche l'App Clip è tradotta, quindi chi apre il tuo biglietto su iPhone vede pulsanti ed etichette nella propria lingua.
+
+---
+
+## Se vuoi l'NFC senza comprare la tessera di qualcuno
+
+NFC.cool funziona con qualsiasi tag NFC scrivibile, con tutti i piani, Free compreso: un adesivo, un gettone, un portachiavi, un braccialetto. Il tag contiene un link al biglietto, quindi resta aggiornato ogni volta che lo modifichi. Io tag non ne vendo, perciò comprali dove preferisci. Se ti serve un punto di partenza, ho una [pagina con i tag consigliati](/it/affiliate-links/), con link di affiliazione.
+
+[HiHello dice la stessa cosa](https://www.hihello.com/features/nfc-business-cards): non vende hardware e puoi scrivere il biglietto su qualsiasi tag NFC che hai già. La sua pagina dei prezzi, però, elenca la programmazione delle tessere NFC sotto il piano a pagamento Professional, quindi controlla quale delle due indicazioni vale per te.
+
+Blinq, Wave, Mobilo e V1CE vendono tutte le proprie tessere. Nelle pagine che ho letto nessuna documenta l'uso di tag di terze parti, il che non prova che non si possa fare.
+
+---
+
+## Se hai un piccolo team
+
+**In base ai prezzi pubblicati, NFC.cool Team è il piano team in abbonamento più economico che ho trovato per 2-4 persone con la sincronizzazione del CRM inclusa.** Costa $50 a persona all'anno, o $5 al mese, e puoi iniziare con due posti. Sono $100 all'anno per 2 persone, contro i $180 di Wave (minimo 3), i $299,40 di Blinq e i $300 di HiHello (entrambe minimo 5). In euro la cifra del piano Team è la stessa.
+
+<div class="table-scroll sticky-first">
+
+| Piano team | Per posto, con fatturazione annuale | Minimo | Spesa annua più bassa | Sincronizzazione del CRM in quel piano |
+| --- | --- | --- | --- | --- |
+| **NFC.cool Team** | $50 | 2 posti | $100 | HubSpot, webhook |
+| [Wave Teams](https://wavecnct.com/pricing) | $60 | 3 utenti | $180 | HubSpot, Salesforce, Dynamics 365, Zoho, Pipedrive, HighLevel |
+| [Blinq Business](https://blinq.me/pricing) | $59,88 a biglietto | 5 biglietti | $299,40 | HubSpot, Salesforce, Dynamics 365 e altri |
+| [HiHello Business](https://www.hihello.com/pricing) | $60 | 5 utenti | $300 | Salesforce, HubSpot, Dynamics |
+| [Mobilo Teams](https://www.mobilocard.com/pricing-3) | $48, più $10 per il componente aggiuntivo CRM e una tessera da $10 una tantum | Non indicato | Prenota una demo | Componente aggiuntivo |
+| [Popl](https://popl.co/pages/pricing) | Non pubblicato | Nessun costo per posto | Solo su preventivo | Salesforce, HubSpot, Marketo e altri |
+
+</div>
+
+*Dati letti dalla pagina dei prezzi di ogni azienda il 5 novembre 2026. I prezzi cambiano, quindi controlla prima di comprare. I totali annuali sono calcoli miei, e non ho confrontato come ogni azienda gestisce le imposte.*
+
+Altre due strutturano i prezzi in modo diverso, perciò non compaiono in quella tabella. [La colonna Pro di Mobilo](https://www.mobilocard.com/pricing-3) indica una licenza utente gratuita "up to 5 users", tessere da $4,99 una tantum e un componente aggiuntivo CRM da $20 all'anno. [V1CE](https://v1ce.co/pricing) fa pagare una tantum a tessera, da €74, con uno sconto fino al 30% da 5 tessere in su. Le loro pagine non specificano quali strumenti di amministrazione del team siano compresi, quindi chiedilo a loro.
+
+Ecco cosa ti dà [NFC.cool Business Card for Teams](/it/business-card/teams/): un biglietto per ogni persona (fino a 10 a persona), il brand aziendale bloccato su ogni biglietto, una dashboard web con ruoli e inviti, una casella condivisa dei lead, gli insights biglietto per biglietto, HubSpot e webhook, email di follow-up automatiche e con il tuo brand e un modo per collegare il tuo assistente IA. Quando qualcuno se ne va, i suoi lead restano al team. La [prova di 14 giorni](https://business.nfc.cool/org/start/) richiede una carta di pagamento.
+
+---
+
+## Se la tua azienda ha bisogno dell'SSO o della sincronizzazione della directory
+
+**NFC.cool Team può aggiungerli entrambi su richiesta.** [Dimmi che cosa usa la tua azienda](/it/contact/) e configuro per te il single sign-on e la sincronizzazione della directory.
+
+Ecco come li indicano le altre:
+
+- **HiHello** comprende nel suo [piano Business self-service](https://www.hihello.com/pricing), per 5-100 utenti, l'SSO con Google e Microsoft e la sincronizzazione della directory con Google Workspace ed Entra ID. Enterprise, da 100 utenti in su, aggiunge SAML e SCIM per Okta, Workday o qualsiasi altro provider.
+- **Blinq** consiglia il suo [piano Enterprise](https://blinq.me/pricing) sopra le 100 persone, con SSO obbligatorio e SCIM. Si definisce [numero 1 dei biglietti da visita digitali su G2](https://blinq.me/).
+- **Wave** ha SSO obbligatorio e SCIM nel suo [piano Enterprise](https://wavecnct.com/pricing), anche questo pensato per chi ha da 100 persone in su.
+- **Mobilo** [pubblicizza](https://www.mobilocard.com/) pure l'SSO con SAML e il provisioning dai sistemi HR, ma la sua pagina dei prezzi non dice quale piano li comprenda.
+
+---
+
+## Se compri soprattutto per gli eventi
+
+**Popl.** Si definisce una [piattaforma GTM basata sull'IA per la raccolta dei lead agli eventi](https://popl.co/), e il prodotto lo conferma: uno scanner di badge che a suo dire funziona a qualsiasi evento, domande di qualificazione, arricchimento dei contatti, sincronizzazione con il CRM e report sul ROI. Dichiara di avere la fiducia del 90% delle aziende Fortune 500.
+
+Il rovescio della medaglia è il prezzo. Con le sue parole, "we quote pricing over a meeting instead of publishing it on our website". Quello che promette è l'assenza di costi per posto e di costi di utilizzo. Se ti serve una cifra prima di parlare con qualcuno, Popl non può dartela. Ha anche [un piano gratuito e piani Pro per i singoli](https://popl.co/pages/digital-business-card), ma è evidente che la sua attenzione va ai team.
+
+Anche Wave, Blinq e HiHello scansionano i badge, con prezzi diversi. Wave vende crediti, a $2,50 l'uno nel pacchetto che la sua pagina dei prezzi mostra di default, e un badge ne consuma quattro. Blinq indica $9,99 per ogni lead acquisito e arricchito. HiHello Business comprende 50 scansioni a utente al mese, condivise in tutto il team.
+
+NFC.cool funziona al contrario: la Modalità Conferenza fissa il tuo codice QR sulla schermata di blocco, su iPhone e Android, così le persone scansionano *te* senza che tu debba sbloccare il telefono. Con i piani a pagamento, visualizzazioni, salvataggi e nuovi lead si aggiornano proprio lì, e puoi taggare tutti i lead di un evento.
+
+---
+
+## Se vuoi un biglietto fisico che faccia effetto
+
+**V1CE** è fatta per questo. Vende [tessere in metallo, in bambù e in oro 24K](https://v1ce.co/collections/nfc-business-cards), e la più economica, la Original, costa €74 una tantum senza canone mensile (prezzo mostrato in euro quando ho controllato). Raccolta dei lead, sincronizzazione con il CRM, prenotazioni e follow-up sono gratis con la tessera. Un piano IA facoltativo costa €59,10 al mese, e il piano gratuito trattiene il 5% se vendi servizi dalla tua pagina.
+
+**Mobilo** copre la fascia più economica, con [una tessera con il marchio Mobilo a $4,99](https://www.mobilocard.com/pricing-3), la classica personalizzata a $19,50 e quella in legno a $29,50. La sua pagina mostra la tessera in metallo personalizzata sia a $49,50 sia a $69, e quando l'ho letta era in corso uno sconto, quindi controlla prima di ordinare.
+
+Con NFC.cool puoi mettere il biglietto su qualsiasi tessera o tag NFC che hai già.
+
+---
+
+## Le domande sulla privacy che vale la pena fare
+
+Ecco le domande che farei io, insieme a quello che ogni azienda dice di sé.
+
+**Registra le conversazioni?** [AI Notetaker di Blinq](https://blinq.me/solutions/ai-notetaker) e AI Voice di Popl registrano entrambi le conversazioni dal vivo, e il piano IA di V1CE comprende un sistema per prendere appunti su Zoom, Meet e Teams. Può essere davvero utile. Blinq dice chiaramente che spetta a te ottenere il consenso di tutte le persone con cui parli, che conserva l'audio degli incontri dal vivo per 90 giorni nel piano gratuito e per tutta la durata dell'abbonamento con Premium o Pro, e che le tue registrazioni non vengono usate per addestrare l'IA. NFC.cool non registra le conversazioni.
+
+**Cerca informazioni sulle persone?** Quasi tutte le altre app di questo elenco offrono l'arricchimento dei contatti, che completa i dati delle persone che incontri attingendo ad altre fonti. I team commerciali vogliono proprio questo. [L'informativa sulla privacy di Blinq](https://blinq.me/legal/privacy-policy) dice che può raccogliere informazioni su chi non usa Blinq, anche da fornitori di dati terzi, e offre a queste persone un modo per opporsi. NFC.cool non arricchisce i contatti.
+
+**Chi contatta le persone che incontri?** Chiedilo, senza dare niente per scontato. Le FAQ di Wave dicono che i destinatari "never get solicited by Wave". Nemmeno NFC.cool invia marketing a chi guarda il tuo biglietto. Con Team, le email di follow-up sono quelle del tuo team: partono con il nome del mittente "via NFC.cool", le risposte vanno a quella persona e ognuna contiene un link per annullare l'iscrizione.
+
+**Che fine fanno i tuoi dati?** Wave, Blinq, HiHello e NFC.cool dichiarano tutte per iscritto di non venderli. Su NFC.cool proteggi un biglietto con un PIN di 4 cifre, tieni un biglietto privato fuori dai motori di ricerca, scarichi tutto in un file ZIP ed elimini l'account quando vuoi. L'app Business Card non ha pubblicità.
+
+---
+
+## Tutti i prezzi in un posto solo
+
+Controllati il 5 novembre 2026: prendili come una fotografia di quel giorno e guarda la pagina di ogni azienda prima di comprare.
+
+<div class="table-scroll sticky-first">
+
+| Prodotto | Gratis | Per una persona | Per un team |
+| --- | --- | --- | --- |
+| [NFC.cool](/it/business-card/) | 1 biglietto con condivisione e Apple Wallet, mostra "Made with NFC.cool" | Personal $19,99 all'anno (1 biglietto), Pro $49,99 all'anno (10 biglietti) | $50 a persona all'anno o $5 al mese, da 2 posti, fino a 10 biglietti a persona |
+| [Wave](https://wavecnct.com/pricing) | Sì, con modulo per i lead e statistiche | Pro $7 al mese, con fatturazione annuale | $5 a utente al mese, con fatturazione annuale, da 3 utenti |
+| [Blinq](https://blinq.me/pricing) | 2 biglietti | Premium $7,33 al mese con fatturazione annuale, o $9,99 con fatturazione mensile | $4,99 a biglietto al mese con fatturazione annuale, o $6,99 con fatturazione mensile, da 5 biglietti |
+| [HiHello](https://www.hihello.com/pricing) | 2 biglietti | Professional $6 al mese con fatturazione annuale, o $8 con fatturazione mensile | $5 a utente al mese con fatturazione annuale, o $6 con fatturazione mensile, da 5 utenti |
+| [Popl](https://popl.co/pages/pricing) | Piano gratuito per i singoli | Pro e Pro+, prezzi assenti dalle pagine che ho letto | Solo su preventivo |
+| [Mobilo](https://www.mobilocard.com/pricing-3) | Biglietto digitale gratuito | Licenza gratuita, tessere da $4,99 una tantum | $48 a dipendente all'anno, più una tessera da $10 una tantum |
+| [V1CE](https://v1ce.co/pricing) | Software gratuito con una tessera | Tessera da €74 una tantum | Stessa tessera, fino al 30% di sconto da 5 in su |
+
+</div>
+
+Personal e Pro di NFC.cool si acquistano nell'app, Team sul web.
+
+> **Che fine ha fatto Linq?** Prima era in questo articolo. [linqapp.com](https://linqapp.com/) ora propone "APIs for iMessage, RCS, SMS, and Voice built for Agents", la sua homepage non parla di biglietti da visita e [la sua pagina di contesto per l'IA](https://linqapp.com/s/ai-instructions) dice "Linq once sold digital business cards. Linq has pivoted." Ad agosto 2026 le sue app per i biglietti ricevevano ancora aggiornamenti. Se sei cliente di Linq, chiedi a loro cosa significa per i tuoi biglietti.
+
+---
+
+## Perché sceglierei NFC.cool
 
 <figure class="phone-figure" data-layout="float">
 <ol>
@@ -112,224 +194,32 @@ Ecco il quadro d'insieme di tutte e otto le app:
 </ol>
 </figure>
 
-### 1. NFC.cool Business Card - la migliore per privacy e uso internazionale
+Certo, è il mio prodotto, e lo adoro. Ci metto passione e continuo a migliorarlo.
 
-**Che cos'è:** un'app per il biglietto da visita digitale firmata NFC.cool, lo studio indipendente dietro 13 app NFC e di utilità con oltre 9 milioni di download. È disponibile come app a sé su iOS e [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-it).
+NFC.cool Business Card è un'app nativa per iPhone e Android. Condividi il biglietto avvicinando il telefono o con un codice QR, e l'altra persona non ha bisogno di nessuna app: il biglietto si apre in un'App Clip su iPhone e nel browser su Android e sui computer. In ogni caso può salvarti come contatto.
 
-**Cosa mi piace:**
-- **35 lingue** - l'interfaccia dell'app e l'App Clip sono disponibili in 35 lingue, e nessun altro biglietto da visita digitale sul mercato si avvicina. Se lavori all'estero, la differenza si sente.
-- **Progettata attorno alla privacy** - profili protetti da PIN (quattro cifre, con un limite ai tentativi), interruttore pubblico/privato, esportazione dei dati conforme al GDPR. Nessuna monetizzazione dei dati e nessuna pubblicità, nessuna registrazione delle conversazioni, nessuna email promozionale a chi riceve il biglietto.
-- **Funziona con qualsiasi tag NFC** - NFC.cool non vende tag NFC e non ti obbliga a comprare hardware proprietario. Scrivi l'indirizzo del tuo biglietto su qualunque tag, adesivo o tessera NFC di altri produttori che hai già in casa.
-- **Fino a 100 biglietti** - biglietti diversi per ruoli, eventi o clienti diversi.
-- **Modalità Conferenza** - è la funzione che spicca. Tiene il codice QR fissato sulla schermata di blocco per un'intera giornata di evento: sempre in vista, pronto da inquadrare, senza sbloccare il telefono e senza aprire nessuna app. Su iPhone gira come Live Activity, su Android c'è la stessa modalità. In pratica è più comoda dell'integrazione con Apple Wallet, perché il codice QR che porta al biglietto sta *lì*, sulla schermata di blocco. A una conferenza alzi il telefono e le persone inquadrano. Niente Wallet da aprire, niente pass da cercare.
-- **Curata nel design** - l'app e l'esperienza di condivisione sono fatte con attenzione, tra colori personalizzabili, logo aziendale e un App Clip su iOS che sembra parte del sistema.
-- **App Clip e condivisione via web** - su iOS chi riceve il biglietto vede un App Clip nativo senza installare l'app. Su Android apre una pagina sul dominio nfc.cool, anche qui senza app. In entrambi i casi compare un pulsante "Salva contatto" per archiviarlo al volo.
-- **Integrazione con Apple Wallet** - c'è anche questa, per chi preferisce passare da Wallet.
-- **Raccolta dei contatti** - su tutte e due le piattaforme, con la scelta di attivarla prima del salvataggio, dopo, oppure di lasciarla spenta.
+Al di là di questo, ecco perché credo che sia la scelta giusta per la maggior parte delle persone e dei piccoli team:
 
-**Cosa si può migliorare:**
-- L'App Clip e i pass di Apple Wallet esistono solo su iPhone. Chi usa Android apre il biglietto nel browser: funziona, ma è un passo meno integrato.
-- Non ci sono ancora integrazioni con i CRM né webhook, in compenso l'esportazione completa dei contatti c'è. Per la maggior parte dei singoli e dei piccoli team basta e avanza.
-- Essendo arrivata da poco, non ha la forza commerciale di Blinq o Popl.
-
-**Ideale per:** chi tiene alla privacy, chi fa rete a livello internazionale, chi vuole libertà sull'NFC senza vincoli hardware e chi apprezza uno sviluppo indipendente e trasparente.
-
-[Scarica NFC.cool Business Card sull'App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-it&mt=8) · [Prendila su Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-it)
-
-### 2. Wave Connect - il miglior piano gratuito
-
-**Che cos'è:** una piattaforma per biglietti da visita digitali nata nel 2020, diventata una delle più visibili a forza di SEO e contenuti.
-
-**Cosa mi piace:**
-- **Un piano gratuito davvero generoso** - condivisione con codice QR, pass per Apple e Google Wallet, contatti illimitati, statistiche ed esportazione dei contatti. Tutto gratis e senza il marchio della piattaforma sul biglietto. Difficile fare di meglio.
-- **Certificazione SOC 2 Type II** - sicurezza di livello aziendale.
-- **Condivisione con App Clip di Apple** - avvicini il telefono e condividi, senza che l'altra persona debba installare niente.
-- **Configurazione rapida** - la procedura iniziale è pulita e in pochi minuti stai già condividendo.
-
-**Cosa si può migliorare:**
-- Si crea un solo profilo: niente passaggio tra biglietto personale e biglietto di lavoro.
-- Nessuna integrazione con i link di pagamento (Venmo, Cash App).
-- Nessun widget su Android.
-- Meno lingue rispetto alle 35 di NFC.cool.
-- Le tessere NFC si possono comprare, ma sono proprietarie: i tuoi tag non li puoi usare.
-
-**Ideale per:** chi vuole un buon biglietto da visita digitale senza spendere niente. Se il budget è il primo pensiero, il piano gratuito di Wave è quello da battere.
-
-### 3. Blinq - la migliore per i team aziendali
-
-**Che cos'è:** un'azienda australiana che rivendica il primo posto su G2 per biglietti da visita digitali, raccolta dei contatti e firme email. Guarda soprattutto alle grandi organizzazioni.
-
-**Cosa mi piace:**
-- **Funzioni basate sull'AI** - arricchimento dei contatti (trova da sé il profilo LinkedIn e i dati dell'azienda) e uno scanner universale che legge badge, biglietti, codici QR e profili LinkedIn.
-- **AI Notetaker** - trascrive gli appunti delle riunioni, anche se questo apre qualche domanda sulla privacy, come vedrai più avanti.
-- **Gestione delle firme email** - un'aggiunta gradita se in azienda serve un'immagine coerente.
-- **Conforme al GDPR e certificata SOC 2 Type II.**
-
-**Cosa si può migliorare:**
-- **Il piano gratuito mostra il marchio della piattaforma** - il logo Blinq compare sul tuo biglietto.
-- **Il piano gratuito scrive a chi riceve il biglietto** - quando qualcuno apre un biglietto del piano gratuito, Blinq può mandargli materiale promozionale. Per molti professionisti è un motivo sufficiente per lasciar perdere.
-- **Dubbi sulla privacy** - l'AI Notetaker e la registrazione delle conversazioni sollevano domande concrete sul consenso e sul trattamento dei dati. Chi ha accesso a quelle registrazioni?
-- Per il singolo costa più della concorrenza (circa $9.99/mese).
-
-**Ideale per:** i team aziendali dalle 50 persone in su che hanno bisogno di gestire i biglietti in modo centralizzato, di integrare il CRM e a cui non pesa il compromesso sulla raccolta dei dati.
-
-### 4. HiHello - personalizzazione curata
-
-**Che cos'è:** un'app per biglietti da visita digitali con buone opzioni di personalizzazione e funzioni pensate per le aziende.
-
-**Cosa mi piace:**
-- **Buona personalizzazione** - HiHello offre scelte di design discrete, anche se l'App Clip e i colori personalizzabili di NFC.cool Business Card sono altrettanto curati.
-- **Piano gratuito solido** - 4 biglietti, firma email, condivisione con codice QR e sfondi virtuali, tutto senza pagare.
-- **Sfondi virtuali** - sfondi pronti per le videochiamate su Zoom o Teams con i dati del tuo biglietto. Un tocco intelligente.
-- **Sincronizzazione con le rubriche aziendali** - integrazioni con Workday, Okta ed Entra ID per le grandi imprese.
-
-**Cosa si può migliorare:**
-- Statistiche ed esportazione dei contatti sono riservate ai piani a pagamento.
-- Il piano gratuito scrive a chi riceve il biglietto.
-- Nessun prodotto NFC in catalogo: qui è tutto digitale.
-- Poche lingue.
-
-**Ideale per:** chi ha occhio per il design e guarda soprattutto all'aspetto del biglietto. Va bene per le aziende che vogliono biglietti curati e in linea con il marchio.
-
-### 5. Popl - la migliore per raccogliere contatti agli eventi
-
-**Che cos'è:** nata come azienda di adesivi NFC, Popl ha virato con decisione sulla raccolta dei contatti agli eventi aziendali. Dichiara di essere "usata dal 90% delle aziende Fortune 500".
-
-**Cosa mi piace:**
-- **La raccolta dei contatti agli eventi funziona bene** - scansione dei badge, qualificazione dei contatti, arricchimento dei dati e sincronizzazione con il CRM in tempo reale.
-- **Attribuzione del ritorno economico** - permette di capire quali eventi e quali incontri portano davvero a un contratto.
-- **Tessere NFC personalizzate disponibili.**
-
-**Cosa si può migliorare:**
-- **I prezzi non si vedono da nessuna parte** - i piani per il singolo rimandano allo store, quelli per i team chiedono di "prenotare una dimostrazione". Una cosa che innervosisce.
-- Il piano gratuito è ridotto all'osso (massimo 5 contatti).
-- Il prodotto si è chiaramente spostato verso i reparti eventi delle grandi aziende, lasciando indietro le persone singole.
-- Nessuna statistica gratuita.
-
-**Ideale per:** i team commerciali e i reparti eventi che devono raccogliere contatti su larga scala. Al singolo professionista non la consiglio più.
-
-### 6. Mobilo - il miglior hardware NFC
-
-**Che cos'è:** un'azienda che parte dall'NFC, dove la tessera fisica è il prodotto vero e proprio, affiancata da una piattaforma digitale.
-
-**Cosa mi piace:**
-- **L'hardware NFC è eccellente** - tessere, adesivi e tag fisici fatti bene.
-- **Pannelli per seguire i contatti** - funzioni simili a un CRM già integrate.
-- **Certificazione SOC 2 Type II.**
-
-**Cosa si può migliorare:**
-- **Nessun piano gratuito** - per usare la piattaforma devi comprare l'hardware e abbonarti.
-- **Sei legato al loro hardware** - puoi usare solo i prodotti NFC di Mobilo, non i tuoi tag.
-- Iniziare costa parecchio, tra l'acquisto della tessera e l'abbonamento mensile.
-
-**Ideale per:** chi vuole una tessera NFC fisica di qualità ed è disposto a pagare per un insieme curato di hardware e software.
-
-### 7. Linq - la migliore per chi vive dentro il CRM
-
-**Che cos'è:** una piattaforma per biglietti da visita digitali con CRM integrato e perfino un centralino, pensata per chi lavora nelle vendite.
-
-**Cosa mi piace:**
-- **Uno strumento unico per le vendite** - biglietto, CRM e telefonia insieme servono davvero nei ruoli commerciali.
-- Tessere NFC fisiche disponibili in vari stili.
-
-**Cosa si può migliorare:**
-- Troppo complessa per chi ha bisogno soltanto di un biglietto da visita.
-- Chi riceve il biglietto, se ha poca dimestichezza con la tecnologia, rischia di trovarsi spaesato.
-- Mettendo insieme le varie funzioni, il conto sale in fretta.
-
-**Ideale per:** chi lavora nelle vendite e vuole biglietto, CRM e chiamate in un'unica piattaforma.
-
-### 8. V1CE - le tessere fisiche più belle
-
-**Che cos'è:** un'azienda britannica specializzata in tessere NFC di fascia alta, in metallo, legno e altri materiali pregiati.
-
-**Cosa mi piace:**
-- **Tessere fisiche notevoli** - se la prima impressione conta, e conta, una tessera NFC in metallo o in legno fa partire la conversazione da sola.
-- **Prezzo unico e chiaro** - $197 una tantum, senza abbonamento.
-- **Nessuna email promozionale a chi riceve il biglietto.**
-
-**Cosa si può migliorare:**
-- Nessuna opzione gratuita: è un prodotto di fascia alta.
-- La piattaforma digitale dietro la tessera è essenziale rispetto alla concorrenza.
-- Dopo l'acquisto la personalizzazione è limitata.
-
-**Ideale per:** chi vuole una tessera fisica di lusso che lasci il segno. Dirigenti, agenti immobiliari del segmento alto, consulenti di alto profilo.
+- **Risposte rapide dal fondatore.** Quando scrivi a NFC.cool, ti rispondo io, la persona che la sviluppa. [Le recensioni](/it/reviews/) lo dicono meglio di me: "Creare il biglietto da visita è intuitivo e il contatto con l'assistenza è stato rapido e piacevole."
+- **Niente venture capital.** NFC.cool non ha alle spalle investitori di venture capital. Nessuno la spinge a crescere a ogni costo, quindi devo rendere conto a chi usa l'app.
+- **I tuoi dati non sono in vendita.** NFC.cool non vende i tuoi dati a nessuno e l'app Business Card non ha pubblicità.
+- **App native vere.** È sviluppata in modo nativo per iPhone e Android, non è un sito web dentro un involucro. È per questo che il biglietto può stare sulla schermata di blocco in Modalità Conferenza e aprirsi in un'App Clip su iPhone senza installare nulla.
+- **La seconda occasione.** Se qualcuno chiude il tuo biglietto senza salvarlo, la schermata di blocco del suo iPhone glielo ricorda. Non ho visto nessun concorrente dichiarare una cosa simile.
+- **La raccolta dei lead alle tue condizioni.** Con i piani a pagamento, chiedi i dati prima che ti salvino, dopo, oppure non chiederli affatto.
+- **Biglietti che seguono chi li guarda.** Il tuo logo e i tuoi colori, nel tema chiaro o scuro di chi apre il biglietto.
 
 ---
 
-## Il capitolo privacy
+## Come si entra in questo elenco
 
-Alla privacy dedico una sezione tutta sua, perché è proprio il punto che quasi tutti gli articoli di confronto saltano volentieri.
-
-Quando condividi un biglietto da visita digitale non passi soltanto i tuoi recapiti: decidi anche chi potrà vedere i dati di quello scambio. Qualche aspetto da tenere a mente:
-
-**Le email promozionali ai destinatari** partono quando una piattaforma scrive a chi ha aperto il tuo biglietto per fargli pubblicità. Blinq e HiHello lo fanno nei piani gratuiti, Wave Connect e NFC.cool no. Se dai il tuo biglietto a qualcuno e quella persona comincia a ricevere spam dal fornitore del biglietto, la brutta figura la fai *tu*.
-
-**La registrazione delle conversazioni**, come l'AI Notetaker di Blinq, apre questioni di privacy e di consenso, soprattutto sotto il GDPR e le normative simili. Vale la pena capire bene cosa viene registrato e chi ci può accedere.
-
-**La raccolta dei dati** cambia moltissimo da un'app all'altra. NFC.cool sceglie la strada della privacy prima di tutto, con profili protetti da PIN, interruttore pubblico/privato ed esportazione dei dati conforme al GDPR. Altre raccolgono di più per alimentare le funzioni di AI: può tornare utile, ma un prezzo c'è.
-
-Se la privacy ti sta a cuore, e nel 2026 dovrebbe, prima di scegliere un'app fatti queste domande:
-1. Il piano gratuito mostra il marchio della piattaforma o manda email promozionali?
-2. Quali dati vengono raccolti su chi riceve il mio biglietto?
-3. Posso esportare o cancellare i miei dati?
-4. L'azienda è trasparente su come lavora?
-
----
-
-## Il quadro dei prezzi
-
-I prezzi cambiano di continuo, quindi conviene sempre controllare sul sito di ogni app. Questo è quello che ho trovato a marzo 2026:
-
-- **NFC.cool** - piano gratuito disponibile; Personal a €20/anno (1 biglietto), Small Business a €50/anno (10 biglietti), Business a €100/anno (100 biglietti)
-- **Wave Connect** - gratuito (generoso); Pro a $7/mese o $59/anno; Teams a $60 per utente all'anno
-- **Blinq** - gratuito (con il marchio); Premium a circa $9.99/mese; Business a $4.99 per utente al mese (minimo 5)
-- **HiHello** - gratuito (4 biglietti); Professional a $6-8/mese; Business a $5-6 per utente al mese
-- **Popl** - gratuito (molto essenziale); Teams ed Enterprise solo dopo una dimostrazione
-- **Mobilo** - nessun piano gratuito; circa $4/mese più l'acquisto dell'hardware
-- **Linq** - dipende dal tipo di tessera e dal livello di abbonamento
-- **V1CE** - $197 una tantum, senza abbonamento
-
----
-
-## Chi dovrebbe scegliere cosa
-
-**"Voglio la migliore opzione gratuita"**
-→ **Wave Connect.** Il piano gratuito è davvero generoso, senza marchio e con le statistiche incluse.
-
-**"Lavoro all'estero e mi servono più lingue"**
-→ **NFC.cool Business Card.** 35 lingue, nessun'altra app ci si avvicina.
-
-**"La privacy viene prima di tutto"**
-→ **NFC.cool Business Card.** Protezione con PIN, niente email promozionali, niente registrazione delle conversazioni, esportazione dei dati conforme al GDPR.
-
-**"Mi serve per tutta l'azienda, dalle 50 persone in su"**
-→ **Blinq** o **HiHello.** Entrambe hanno funzioni aziendali solide, SSO e sincronizzazione delle rubriche.
-
-**"Vado a molti eventi e devo raccogliere contatti"**
-→ **Popl.** Hanno costruito tutto il prodotto attorno alla raccolta dei contatti agli eventi.
-
-**"Voglio una tessera NFC fisica di pregio"**
-→ **V1CE** per i materiali di lusso, **Mobilo** per un buon insieme di hardware e software.
-
-**"Voglio l'NFC ma non voglio comprare hardware proprietario"**
-→ **NFC.cool Business Card.** Scrivi l'indirizzo del tuo biglietto su qualsiasi tag NFC che possiedi già.
-
-**"Voglio soprattutto fare bella figura"**
-→ **HiHello.** Buona personalizzazione e funzioni aziendali, anche se NFC.cool Business Card regge il confronto sulla qualità del design.
+Nessuno paga per esserci e non scambio una citazione con un link di ritorno. Se sviluppi un biglietto da visita digitale, segnalamelo dalla mia [pagina dei contatti](/it/contact/).
 
 ---
 
 ## In conclusione
 
-Non esiste un'app "migliore" in assoluto per il biglietto da visita digitale: dipende da cosa ti sta più a cuore. Quello che posso dire è che il mercato è maturato parecchio e che oggi hai scelte vere.
+Il biglietto giusto dipende da chi lo compra. Wave ha un piano gratuito generoso, Popl è fatta per le fiere e V1CE crea oggetti bellissimi.
 
-Se per te contano **privacy, disponibilità in più lingue e libertà sull'NFC**, [NFC.cool Business Card](https://mycard.nfc.cool) è l'opzione più ragionata del settore. Dietro c'è uno sviluppatore indipendente e non un'azienda gonfiata dagli investitori, e le priorità sono le cose che servono davvero a chi fa rete tutti i giorni.
+Per la maggior parte dei professionisti e dei piccoli team, io sceglierei NFC.cool Business Card. Ha l'abbonamento pubblicato più basso di questo elenco per una persona e il piano team in abbonamento più economico che ho trovato per 2-4 persone con la sincronizzazione del CRM. Hai app native su iPhone e Android, nessuno vende i tuoi dati, non ci sono investitori di venture capital alle spalle e quando hai una domanda il fondatore risponde in fretta. Se la tua azienda ha bisogno del single sign-on, [chiedimelo](/it/contact/) e lo configuro.
 
-Se cerchi la **migliore esperienza gratuita**, contro il piano gratuito di Wave Connect c'è poco da obiettare.
-
-E se ti serve una **distribuzione su scala aziendale**, sia Blinq sia HiHello offrono buoni strumenti per gestire i team.
-
-Qualunque cosa tu scelga, lascia perdere la carta. Siamo nel 2026: il biglietto da visita dovrebbe essere sveglio quanto il resto dei tuoi strumenti di lavoro.
-
-*Vuoi provare NFC.cool Business Card? Scaricala gratis dall'[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-it&mt=8) oppure [prendila su Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-it).*
+Puoi [leggere i dettagli dei piani](/it/business-card/), [creare un team con 14 giorni di prova](https://business.nfc.cool/org/start/) oppure scaricare l'app dall'[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-it&mt=8) o da [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-it).

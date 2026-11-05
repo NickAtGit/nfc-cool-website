@@ -5,12 +5,12 @@ date: 2024-04-05
 tags: ["announcements", "android", "nfc-tags"]
 summary: "NFC.cool ToolsがGoogle Playで公開されました。NFCスキャンとタグの書き込みがAndroidでも - Android互換ハードウェアを共有する部分はiOSアプリと同じ機能セット。"
 metaTitle: "NFC.cool Tools - Google Playで公開"
-metaDescription: "NFC.cool ToolsがAndroidで利用可能に。NFCタグのスキャンと書き込みを、iPhoneでおなじみのブランドそのままにGoogle Playで。"
+metaDescription: "iPhoneでおなじみのNFC.cool Toolsが、Google Playに登場しました。AndroidでもNFCタグの読み書きができ、URL、vCard、Wi-Fi、プレーンテキスト、カスタムMIMEレコードを、iPhoneと同じように扱えます。"
 ogTitle: "NFC.coolがPlayストアに登場"
 ogDescription: "NFC.cool ToolsがGoogle Playで公開 - AndroidでのNFCスキャンとタグの書き込み。"
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
-> **2026年8月の追記：** NFC.cool Business CardはAndroidでも専用アプリになりました - [Google Playで入手](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-ja)。NFC.cool Tools内の既存のカードはそのまま使えますが、新しいカードは専用アプリで作成します。
+> **2026年8月の追記**：NFC.cool Business CardはAndroidでも専用アプリになりました - [Google Playで入手](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-ja)。NFC.cool Tools内の既存のカードはそのまま使えますが、新しいカードは専用アプリで作成します。
 
 **NFC.cool Tools**が[Google Playストア](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-ja)で利用可能になりました。iOSで数年を経て、Android版がライブです - そしてNFC.cool Business Cardが内蔵されています。
 
@@ -20,9 +20,9 @@ image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 
 Android版は両プラットフォームで共有されるコアNFC機能に集中しています。
 
-- **NFCタグの読み取り。** NDEF形式のあらゆるタグ、あらゆるレコードタイプ - URL、vCard、Wi-Fi、プレーンテキスト、カスタムMIME。
-- **NFCタグの書き込み。** あらゆるレコードタイプを構成し、空のタグに書き込み。タグを公共の場所に設置するなら書き込み後にロック。
-- **NFC.cool Business Card（内蔵）。** Android版は名刺フローをアプリ内の機能として含みます - 名刺を作成し、タグに書き込み、ワンタップで共有。iOSの受信者はApp Clipを見て、Androidの受信者はnfc.coolドメインのウェブページを開きます。
+- **NFCタグの読み取り**。NDEF形式のあらゆるタグ、あらゆるレコードタイプ - URL、vCard、Wi-Fi、プレーンテキスト、カスタムMIME。
+- **NFCタグの書き込み**。あらゆるレコードタイプを構成し、空のタグに書き込み。タグを公共の場所に設置するなら書き込み後にロック。
+- **NFC.cool Business Card（内蔵）**。Android版は名刺フローをアプリ内の機能として含みます - 名刺を作成し、タグに書き込み、ワンタップで共有。iOSの受信者はApp Clipを見て、Androidの受信者はnfc.coolドメインのウェブページを開きます。
 
 ---
 
@@ -44,7 +44,7 @@ AndroidはiPhoneより長く、2012年からNFCをサポートしてきました
 
 ## 入手先
 
-- **Android：** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-ja)
-- **iOS：** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-ja&mt=8)
+- **Android**：[Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-ja)
+- **iOS**：[App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-ja&mt=8)
 
 同じブランド。ハードウェアを共有する部分は同じ機能セット。今後の計画：NFC関連はすべて両プラットフォーム同時進行で。

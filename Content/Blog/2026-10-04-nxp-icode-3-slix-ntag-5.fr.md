@@ -19,7 +19,7 @@ Il n'avait pas bougé d'un millimètre. J'ai réessayé. Même message. J'ai ten
 
 Je reviendrai sur ce qui se passait, parce que c'est le bug le plus intéressant que j'aie traqué cette année. Mais d'abord, qu'est-ce que je fabriquais avec un tag ICODE ?
 
-Je veux que NFC.cool soit l'app NFC la plus complète qu'on puisse installer sur un téléphone. Cet été, cela s'est traduit par la prise en charge du [NTAG 424 DNA](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/), le tag qu'utilisent les marques pour prouver qu'un produit est authentique. Après ça, la plus grande famille de puces avec laquelle l'app ne savait pas encore vraiment dialoguer, c'était l'ICODE de NXP. Avec **NFC.cool Tools 7.1.0**, c'est chose faite.
+Je veux que NFC.cool soit l'app NFC la plus complète qu'on puisse installer sur un téléphone. Cet été, cela s'est traduit par la prise en charge du [NTAG 424 DNA](/fr/blog/ntag-424-dna-counterfeit-proof-nfc-tags/), le tag qu'utilisent les marques pour prouver qu'un produit est authentique. Après ça, la plus grande famille de puces avec laquelle l'app ne savait pas encore vraiment dialoguer, c'était l'ICODE de NXP. Avec **NFC.cool Tools 7.1.0**, c'est chose faite.
 
 ---
 
@@ -50,7 +50,7 @@ Scannez-en un avec NFC.cool et vous avez une vue d'ensemble : le modèle exact d
 
 À partir de là, vous pouvez modifier presque tout ce que la puce propose :
 
-- **Compteur de lectures.** L'ICODE 3 sait compter chaque lecture, toute seule. Activez le miroir NFC et la puce insère son ID et la valeur actuelle du compteur dans le lien enregistré : chaque scan ouvre ainsi une URL légèrement différente, qu'un site web peut comptabiliser. Si vous connaissez déjà le [NFC Tap Counter](/blog/count-nfc-tag-scans/), c'est la même idée sur une autre puce.
+- **Compteur de lectures.** L'ICODE 3 sait compter chaque lecture, toute seule. Activez le miroir NFC et la puce insère son ID et la valeur actuelle du compteur dans le lien enregistré : chaque scan ouvre ainsi une URL légèrement différente, qu'un site web peut comptabiliser. Si vous connaissez déjà le [NFC Tap Counter](/fr/blog/count-nfc-tag-scans/), c'est la même idée sur une autre puce.
 - **Mots de passe.** L'ICODE 3 en a six, un pour chacune de ces fonctions : lecture, écriture, mode privé, destruction, réglages antivol et configuration. Tous les tags sortent d'usine avec les mêmes valeurs, si bien qu'une protection n'a de sens qu'une fois que vous avez défini les vôtres. NFC.cool conserve vos mots de passe dans votre trousseau iCloud, tag par tag.
 - **Protection de la mémoire.** Vous pouvez diviser la mémoire en deux zones et protéger chacune séparément, par exemple pour laisser un lien public lisible tout en masquant les données enregistrées à la suite.
 - **Réglages antivol et bibliothèque.** C'est l'indicateur EAS qui fait sonner le portique d'un magasin ou d'une bibliothèque. C'est l'octet AFI que les bibliothèques utilisent pour indiquer qu'un livre est emprunté. Vous pouvez modifier l'un comme l'autre, et les verrouiller.
@@ -95,7 +95,7 @@ Une fois le problème compris, la correction s'est révélée d'une simplicité 
 
 ## Sur quels appareils ça fonctionne
 
-Sur iPhone, tout cela fonctionne avec le lecteur NFC intégré au téléphone. Sur iPad et Mac, qui n'ont pas de puce NFC, ça passe par un [lecteur NFC USB externe](/blog/nfc-reading-ipad-mac/). Le lecteur doit transmettre les commandes ICODE telles quelles au tag. Si le vôtre en est capable, l'app lit et gère les tags ICODE exactement comme sur un iPhone, et le bug de la section précédente n'y existe tout simplement pas. Un lecteur qui ne les transmet pas vous permet malgré tout de lire la mémoire du tag.
+Sur iPhone, tout cela fonctionne avec le lecteur NFC intégré au téléphone. Sur iPad et Mac, qui n'ont pas de puce NFC, ça passe par un [lecteur NFC USB externe](/fr/blog/nfc-reading-ipad-mac/). Le lecteur doit transmettre les commandes ICODE telles quelles au tag. Si le vôtre en est capable, l'app lit et gère les tags ICODE exactement comme sur un iPhone, et le bug de la section précédente n'y existe tout simplement pas. Un lecteur qui ne les transmet pas vous permet malgré tout de lire la mémoire du tag.
 
 L'app Android ne parle pas encore l'ICODE.
 

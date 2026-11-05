@@ -5,7 +5,7 @@ date: 2024-04-05
 tags: ["announcements", "android", "nfc-tags"]
 summary: "NFC.cool Tools est disponible sur Google Play. Scan NFC et écriture de tags - désormais sur Android, avec le même ensemble de fonctionnalités que l'app iOS pour tout ce qui repose sur du matériel compatible Android."
 metaTitle: "NFC.cool Tools - désormais disponible sur Google Play"
-metaDescription: "NFC.cool Tools est désormais sur Android - lecture et écriture de tags NFC, la marque que vous connaissez sur iPhone, désormais sur Google Play."
+metaDescription: "NFC.cool Tools est sur Google Play. Lisez et écrivez des tags NFC sur Android : URL, vCard, Wi-Fi, texte brut et enregistrements MIME personnalisés, comme sur iPhone."
 ogTitle: "NFC.cool est maintenant sur le Play Store"
 ogDescription: "NFC.cool Tools est disponible sur Google Play - scan NFC et écriture de tags sur Android."
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
@@ -18,11 +18,11 @@ image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 
 ## Ce que contient l'app Android
 
-La version Android se concentre sur le coeur NFC partagé par les deux plateformes:
+La version Android se concentre sur le coeur NFC partagé par les deux plateformes :
 
 - **Lire des tags NFC.** N'importe quel tag au format NDEF, n'importe quel type d'enregistrement - URL, vCard, Wi-Fi, texte brut, MIME personnalisé.
 - **Écrire des tags NFC.** Composez n'importe quel type d'enregistrement et écrivez-le sur des tags vierges. Verrouillez une fois terminé si le tag est destiné à un lieu public.
-- **NFC.cool Business Card (intégrée).** L'édition Android inclut le parcours de carte de visite comme fonctionnalité au sein de l'app - créez une carte, écrivez-la sur un tag, partagez-la d'un simple geste. Les destinataires sur iOS voient un App Clip; les destinataires sur Android ouvrent une page web sur le domaine nfc.cool.
+- **NFC.cool Business Card (intégrée).** L'édition Android inclut le parcours de carte de visite comme fonctionnalité au sein de l'app - créez une carte, écrivez-la sur un tag, partagez-la d'un simple geste. Les destinataires sur iOS voient un App Clip ; les destinataires sur Android ouvrent une page web sur le domaine nfc.cool.
 
 ---
 
@@ -36,15 +36,15 @@ En revanche, la partie lecture et écriture de tags NFC est identique. Tout ce q
 
 ## Pourquoi nous avons attendu
 
-Android prend en charge le NFC depuis 2012, plus longtemps que l'iPhone. Alors pourquoi l'app Android a-t-elle mis autant de temps?
+Android prend en charge le NFC depuis 2012, plus longtemps que l'iPhone. Alors pourquoi l'app Android a-t-elle mis autant de temps ?
 
-La réponse honnête: nous voulions que le parcours NFC.cool Business Card fonctionne d'une plateforme à l'autre avant de lancer sur Android. Cela impliquait de concevoir l'App Clip et son repli web pour qu'un utilisateur iOS et un utilisateur Android puissent échanger leurs cartes sans que ni l'un ni l'autre ne se soucie du téléphone d'en face. Une fois cela au point, Android est devenu un lancement viable.
+La réponse honnête : nous voulions que le parcours NFC.cool Business Card fonctionne d'une plateforme à l'autre avant de lancer sur Android. Cela impliquait de concevoir l'App Clip et son repli web pour qu'un utilisateur iOS et un utilisateur Android puissent échanger leurs cartes sans que ni l'un ni l'autre ne se soucie du téléphone d'en face. Une fois cela au point, Android est devenu un lancement viable.
 
 ---
 
 ## Où se la procurer
 
-- **Android:** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-fr)
-- **iOS:** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-fr&mt=8)
+- **Android :** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-fr)
+- **iOS :** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-fr&mt=8)
 
 Même marque. Même ensemble de fonctionnalités pour tout ce qui partage le même matériel. À partir de maintenant, le plan est de faire progresser les deux plateformes au même rythme sur tout ce qui touche au NFC.

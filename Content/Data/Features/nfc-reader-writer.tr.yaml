@@ -29,25 +29,25 @@ capabilities:
 subsectionsTitle: "Sıradan bir NFC uygulamasından daha derin"
 subsections:
   - title: "NFC Safe: gizli veriyi tag'in üstünde şifrele"
-    body: "<p>NFC uygulamalarının çoğu tag'e kartpostal gibi davranır: telefonu olan herkes okur. NFC Safe ise ona kapalı zarf gibi davranır. Gizli verin (parola, kurtarma ifadesi, lisans anahtarı ya da herhangi bir metin) tag'e ulaşmadan önce cihazında AES-256 ile şifrelenir. Tag'i kaybet, çaldır, bir yabancıya ver: parolan olmadan içerik yalnızca gürültüdür.</p><p>Aynı şifreleme iki platformda da çalışır, yani iPhone'da kilitlediğin gizli veriyi Android'de açabilirsin. Şifrelemenin ayrıntısını merak ediyorsan <a href=\"/blog/nfc-safe-encrypted-secrets/\">blogdaki NFC Safe incelemesini oku</a>.</p>"
+    body: "<p>NFC uygulamalarının çoğu tag'e kartpostal gibi davranır: telefonu olan herkes okur. NFC Safe ise ona kapalı zarf gibi davranır. Gizli verin (parola, kurtarma ifadesi, lisans anahtarı ya da herhangi bir metin) tag'e ulaşmadan önce cihazında AES-256 ile şifrelenir. Tag'i kaybet, çaldır, bir yabancıya ver: parolan olmadan içerik yalnızca gürültüdür.</p><p>Aynı şifreleme iki platformda da çalışır, yani iPhone'da kilitlediğin gizli veriyi Android'de açabilirsin. Şifrelemenin ayrıntısını merak ediyorsan <a href=\"/tr/blog/nfc-safe-encrypted-secrets/\">blogdaki NFC Safe incelemesini oku</a>.</p>"
     imagePath: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
     imageAlt: "Tag üzerinde NFC Safe ile şifrelenmiş gizli veri"
     platforms: "iOS · Android"
 
   - title: "NFC okutma sayacı: her tag'i kimliğiyle ve sayısıyla izle"
-    body: "<p>Bazı NFC çipleri kendi okunma sayısını donanımda tutar. NFC okutma sayacı bunu işe koşar: tag'i öyle ayarlar ki her okumada taşıdığı içeriğe (adres, e-posta, SMS ya da kısayol) anlık okutma sayısını, istersen benzersiz tag kimliğini de ekler. Sunucu yok, internet yok, bakılacak arka uç yok; sayma ve değiştirme işini çipin kendisi yapar.</p><p>Böylece tek tag hangi fiziksel etiketin okutulduğunu ve kaç kez okutulduğunu söyler, sen de buna göre davranırsın: ilk 100 okumayı demoyla sınırla, kartvizitindeki ilgiyi ölç ya da yalnızca artan bir sayaçla ürünün gerçek olduğunu kanıtla. Baştan sona anlatımını istersen <a href=\"/blog/count-nfc-tag-scans/\">blogdaki NFC okutma sayacı rehberini oku</a> ya da <a href=\"/tap-counter/\">canlı demoyu dene</a>: tag'i okut ve sayfadaki sayının arttığını gör.</p>"
+    body: "<p>Bazı NFC çipleri kendi okunma sayısını donanımda tutar. NFC okutma sayacı bunu işe koşar: tag'i öyle ayarlar ki her okumada taşıdığı içeriğe (adres, e-posta, SMS ya da kısayol) anlık okutma sayısını, istersen benzersiz tag kimliğini de ekler. Sunucu yok, internet yok, bakılacak arka uç yok; sayma ve değiştirme işini çipin kendisi yapar.</p><p>Böylece tek tag hangi fiziksel etiketin okutulduğunu ve kaç kez okutulduğunu söyler, sen de buna göre davranırsın: ilk 100 okumayı demoyla sınırla, kartvizitindeki ilgiyi ölç ya da yalnızca artan bir sayaçla ürünün gerçek olduğunu kanıtla. Baştan sona anlatımını istersen <a href=\"/tr/blog/count-nfc-tag-scans/\">blogdaki NFC okutma sayacı rehberini oku</a> ya da <a href=\"/tr/tap-counter/\">canlı demoyu dene</a>: tag'i okut ve sayfadaki sayının arttığını gör.</p>"
     imagePath: "/assets/images/Blog/count-nfc-tag-scans.webp"
     imageAlt: "Telefonla okutulan ve okuma sayısı artan bir NFC tag"
     platforms: "iOS · Android"
 
   - title: "OpenPrintTag: 3B yazıcı filamentin, makaranın üstünde"
-    body: "<p>OpenPrintTag, filament makarasının bilgilerini (malzeme, renk, üretici, UUID, kalan uzunluk) küçük, CBOR kodlu bir NDEF kaydına gömen açık bir standart. NFC.cool bu biçimi iki platformda da doğrudan okuyup yazar, böylece uyumlu yazıcılar makarayı takıldığı anda tanır. Biçime yabancıysan <a href=\"/blog/openprinttag-read-write-nfc-spools-phone/\">blog rehberimiz OpenPrintTag makaralarını okumayı ve yazmayı adım adım anlatıyor</a>.</p><p>Aynı biçim <a href=\"/features/webhooks/\">Webhook ve Otomasyon</a> sayfasındaki yapılandırılmış webhook yüklerini de besler: yeni makara algılandığı saniye baskı çiftliğine POST gönder.</p>"
+    body: "<p>OpenPrintTag, filament makarasının bilgilerini (malzeme, renk, üretici, UUID, kalan uzunluk) küçük, CBOR kodlu bir NDEF kaydına gömen açık bir standart. NFC.cool bu biçimi iki platformda da doğrudan okuyup yazar, böylece uyumlu yazıcılar makarayı takıldığı anda tanır. Biçime yabancıysan <a href=\"/tr/blog/openprinttag-read-write-nfc-spools-phone/\">blog rehberimiz OpenPrintTag makaralarını okumayı ve yazmayı adım adım anlatıyor</a>.</p><p>Aynı biçim <a href=\"/tr/features/webhooks/\">Webhook ve Otomasyon</a> sayfasındaki yapılandırılmış webhook yüklerini de besler: yeni makara algılandığı saniye baskı çiftliğine POST gönder.</p>"
     imagePath: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
     imageAlt: "Telefonla OpenPrintTag NFC makaralarını okuma ve yazma"
     platforms: "iOS · Android"
 
   - title: "Diş fırçası başlığı sıfırlama"
-    body: "<p>Philips Sonicare fırça başlıklarında kullanımı izleyen bir NFC tag var; sap bu yüzden değiştir diye başının etini yiyor. NFC.cool o sayacı sıfırlayabilir: tag'in durumunu okur, sıfırlama adımlarında sana eşlik eder, yeni durumu geri yazar. İki platformda da aynı. Çipin tam olarak neyi tuttuğunu merak ediyorsan <a href=\"/blog/reset-sonicare-brush-head-nfc/\">blogdaki Sonicare fırça başlığı rehberini oku</a>. (Fırça başlığı üretmiyoruz; sadece seninkine bir ay daha onurlu ömür veriyoruz.)</p>"
+    body: "<p>Philips Sonicare fırça başlıklarında kullanımı izleyen bir NFC tag var; sap bu yüzden değiştir diye başının etini yiyor. NFC.cool o sayacı sıfırlayabilir: tag'in durumunu okur, sıfırlama adımlarında sana eşlik eder, yeni durumu geri yazar. İki platformda da aynı. Çipin tam olarak neyi tuttuğunu merak ediyorsan <a href=\"/tr/blog/reset-sonicare-brush-head-nfc/\">blogdaki Sonicare fırça başlığı rehberini oku</a>. (Fırça başlığı üretmiyoruz; sadece seninkine bir ay daha onurlu ömür veriyoruz.)</p>"
     imagePath: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
     imageAlt: "Philips Sonicare fırça başlığını NFC ile sıfırlama"
     platforms: "iOS · Android"
@@ -77,7 +77,7 @@ subsections:
     platforms: "iOS"
 
   - title: "CSV'den toplu yazma"
-    body: "<p>Listeyi Numbers, Excel ya da Google E-Tablolar'da hazırla, CSV olarak dışa aktar ve o dosyayı telefonda içe al. Her satır bir tag olur; birden çok sütun varsa her hücre o tag'de kendi kaydı olur. NFC.cool ayracı algılar, tag başına baytı gösteren bir önizleme açar, sonra sen tag'leri telefona tuttukça birbiri ardına yazar. Yazılan satırlar dosyadan silinir, yani istediğin an durup kaldığın yerden devam edersin. <a href=\"/blog/batch-write-nfc-tags-csv/\">E-tablodan son tag'e kadar tüm anlatımı oku</a>.</p>"
+    body: "<p>Listeyi Numbers, Excel ya da Google E-Tablolar'da hazırla, CSV olarak dışa aktar ve o dosyayı telefonda içe al. Her satır bir tag olur; birden çok sütun varsa her hücre o tag'de kendi kaydı olur. NFC.cool ayracı algılar, tag başına baytı gösteren bir önizleme açar, sonra sen tag'leri telefona tuttukça birbiri ardına yazar. Yazılan satırlar dosyadan silinir, yani istediğin an durup kaldığın yerden devam edersin. <a href=\"/tr/blog/batch-write-nfc-tags-csv/\">E-tablodan son tag'e kadar tüm anlatımı oku</a>.</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
     imageAlt: "E-tablodan NFC tag'lerine toplu yazma yapan iPhone"
     platforms: "iOS · Android"
@@ -89,7 +89,7 @@ subsections:
     platforms: "iOS"
 
   - title: "iPhone, iPad ve Mac arasında iCloud eşitleme"
-    body: "<p>Okuma geçmişi, NFC Safe kayıtları ve yazma şablonları iCloud hesabına bağlı her cihaz arasında sorunsuz eşitlenir. Cebindeki iPhone'la tag'i okut, biraz sonra okuma iPad kitaplığında olsun. NFC.cool artık <a href=\"/blog/nfc-cool-comes-to-mac/\">Apple Silicon Mac'lerde de çalışıyor</a>, yani aynı kitaplık orada da karşına çıkar.</p>"
+    body: "<p>Okuma geçmişi, NFC Safe kayıtları ve yazma şablonları iCloud hesabına bağlı her cihaz arasında sorunsuz eşitlenir. Cebindeki iPhone'la tag'i okut, biraz sonra okuma iPad kitaplığında olsun. NFC.cool artık <a href=\"/tr/blog/nfc-cool-comes-to-mac/\">Apple Silicon Mac'lerde de çalışıyor</a>, yani aynı kitaplık orada da karşına çıkar.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "iPhone, iPad ve Mac arasında eşitlenen NFC.cool"
     platforms: "iOS"

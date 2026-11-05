@@ -28,7 +28,7 @@ NFC.cool Tools artık hem iPhone hem Android'de biyometrik pasaportun, kimlik ka
 
 Bunu çok hoş bir tasarım buluyorum. Yani kimse cebinde ya da çantanda dururken pasaportunu sessizce okuyamıyor. İçeri girmenin tek yolu belgeyi zaten elinde açık tutmak, çünkü anahtar üstünde yazanlardan kuruluyor: belge numarası, doğum tarihin ve son kullanma tarihi.
 
-Uygulama da önce tam bu üç şeyi, iki yoldan biriyle istiyor. Kameranı makineyle okunabilir alana doğrultabilirsin; pasaportunun fotoğraf sayfasının altındaki ya da kimlik kartının arkasındaki o kalın `<<<` karakterlerinden oluşan şerit. NFC.cool onu havalimanı kapısıyla aynı şekilde, optik olarak okuyor. Ya da belge yıpranmışsa veya ışık kötüyse üç değeri elle yazarsın. Nasıl olursa olsun, uygulama anahtarı aldıktan sonra telefonun üst kısmını belgeye tutmanı istiyor ve asıl çip okuması başlıyor. [NFC'nin iPhone'da gerçekte nasıl çalıştığını](/blog/nfc-on-iphones-insider-look/) hiç merak ettiysen bu da aynı yakın mesafe tokalaşması, yalnızca karşı tarafta çok daha titiz bir çip var.
+Uygulama da önce tam bu üç şeyi, iki yoldan biriyle istiyor. Kameranı makineyle okunabilir alana doğrultabilirsin; pasaportunun fotoğraf sayfasının altındaki ya da kimlik kartının arkasındaki o kalın `<<<` karakterlerinden oluşan şerit. NFC.cool onu havalimanı kapısıyla aynı şekilde, optik olarak okuyor. Ya da belge yıpranmışsa veya ışık kötüyse üç değeri elle yazarsın. Nasıl olursa olsun, uygulama anahtarı aldıktan sonra telefonun üst kısmını belgeye tutmanı istiyor ve asıl çip okuması başlıyor. [NFC'nin iPhone'da gerçekte nasıl çalıştığını](/tr/blog/nfc-on-iphones-insider-look/) hiç merak ettiysen bu da aynı yakın mesafe tokalaşması, yalnızca karşı tarafta çok daha titiz bir çip var.
 
 ---
 
@@ -68,6 +68,6 @@ Okumasına izin verilen kadarını okuyor, fazlasını değil. Bazı çipler par
 
 Bir de NFC'si olan bir telefon gerekiyor ve okuma boyunca telefonu belgeye sabit tutmalısın. Çip küçük ve bağlantı hassas, yani telefon kayarsa okumaya baştan başlıyorsun. Bitene kadar belgeyi telefonun üst kısmına düz tut.
 
-O havalimanı kapısını hâlâ düşünüyorum. Modern seyahatin tüm güvenlik gösterisi ve tam ortasında minik bir NFC çipi özenli, küçük bir tokalaşma yapıyor. Yıllardır [tag okuyup yazarken](/features/nfc-reader-writer/) kullandığım tokalaşmanın aynısı. Artık cebindeki okuyucu da bunu yapabiliyor.
+O havalimanı kapısını hâlâ düşünüyorum. Modern seyahatin tüm güvenlik gösterisi ve tam ortasında minik bir NFC çipi özenli, küçük bir tokalaşma yapıyor. Yıllardır [tag okuyup yazarken](/tr/features/nfc-reader-writer/) kullandığım tokalaşmanın aynısı. Artık cebindeki okuyucu da bunu yapabiliyor.
 
 Kendi pasaportunun sessizce ne taşıdığını görmek istersen Pasaport ve Kimlik okuyucusu, NFC için yaptığım her şeyin yanı başında, [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-read-passport-nfc-chip-tr&mt=8) ve [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-read-passport-nfc-chip-tr) için NFC.cool Tools içinde. Pasaportunu aç, telefonuna tut ve çipte yaşayan halinle tanış.

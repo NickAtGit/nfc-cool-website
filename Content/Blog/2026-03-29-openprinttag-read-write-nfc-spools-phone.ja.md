@@ -7,7 +7,7 @@ summary: "OpenPrintTagは3Dプリンター用フィラメントスプールの�
 image: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
 imageAlt: "スマートフォンで読み取られるNFCタグ付き3Dプリント用スプール"
 metaTitle: "OpenPrintTag：スマホで3Dプリンターのスマートスプールを読み書きする方法"
-metaDescription: "OpenPrintTagを使って3DプリンターのフィラメントスプールをNFCで管理する方法。iPhoneやAndroidでマテリアルデータの読み書き・追跡が可能、専用アプリ不要。"
+metaDescription: "OpenPrintTagは3Dプリンター用フィラメントスプールのオープン規格です。その仕組み、保存できるデータ、iPhoneやAndroidでマテリアルデータを読み書きして追跡する方法を解説します。スプールの管理に専用アプリは要りません。"
 ogTitle: "OpenPrintTag：NFCで3Dプリンターのスマートスプール管理"
 ogDescription: "スマートフォンでOpenPrintTag NFCスプールを読み書きする完全ガイド。あらゆるプリンター、あらゆるフィラメントブランドに対応。"
 ---

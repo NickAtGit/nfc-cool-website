@@ -12,7 +12,7 @@ metaDescription: "NFC.cool, iPhone ve Android'de Amiibo okuyor, koleksiyon tutuy
 ogTitle: "iPhone ve Android'de Amiibo oku, topla ve yedekle"
 ogDescription: "NFC.cool'a tam Amiibo desteği verdim: okut, topla ve birini boş bir tag'e yedekle. Amiibo'lar gerçekte nasıl çalışıyor ve uygulama neden hiç anahtar taşımıyor."
 ---
-İnsanlar Amiibo'nun içinde egzotik bir şey olduğunu sanıyor. Başka hiçbir yerden alamayacağın bir parça Nintendo silikonu. Öyle bir şey yok. Figürün tabanına kapatılmış olan şey bir [NTAG215](/affiliate-links/): her gün okuyup yazdığım boş etiket çipinin aynısı, paketinde on tane gelen ve bozuk paraya satılan cinsten. Yaklaşık 540 bayt bellek, fabrikada yakılmış bir seri numarası ve figürün tamamı bu kadar. Pahalı olan kısım plastik. Çip neredeyse sonradan akla gelmiş gibi.
+İnsanlar Amiibo'nun içinde egzotik bir şey olduğunu sanıyor. Başka hiçbir yerden alamayacağın bir parça Nintendo silikonu. Öyle bir şey yok. Figürün tabanına kapatılmış olan şey bir [NTAG215](/tr/affiliate-links/): her gün okuyup yazdığım boş etiket çipinin aynısı, paketinde on tane gelen ve bozuk paraya satılan cinsten. Yaklaşık 540 bayt bellek, fabrikada yakılmış bir seri numarası ve figürün tamamı bu kadar. Pahalı olan kısım plastik. Çip neredeyse sonradan akla gelmiş gibi.
 
 Beni bu kadar uzun süre dürtmesinin sebebi de tam bu. Geçimimi NFC tag okuyup yazarak sağlıyorum ve koca bir tag kategorisi, yani masamın yanındaki raftaki avuç dolusu figür, kendi uygulamamın omuz silktiği bir şeydi. NFC.cool'un telefonuna koyabileceğin en yetenekli NFC uygulaması olmasını, hiçbir tag türünü masada bırakmamasını istiyorum.
 
@@ -22,7 +22,7 @@ Ben de bir yanıma figürleri, öbür yanıma Switch'imi alıp oturdum ve NFC.co
 
 ## Peki sihir nerede?
 
-Çip bu kadar sıradansa sihir açıkça silikonda değil. Baytlarda. Amiibo aslında Nintendo'nun kendi özel şifresiyle yazdığı, sonra da sahtesini gerçeğinden ayırabilesin diye altını imzaladığı ucuz bir defter. (Tag türlerini derinlemesine gezmek istersen çipin kendisi düz bir [NTAG215](/blog/nfc-tag-types-for-iphones/).)
+Çip bu kadar sıradansa sihir açıkça silikonda değil. Baytlarda. Amiibo aslında Nintendo'nun kendi özel şifresiyle yazdığı, sonra da sahtesini gerçeğinden ayırabilesin diye altını imzaladığı ucuz bir defter. (Tag türlerini derinlemesine gezmek istersen çipin kendisi düz bir [NTAG215](/tr/blog/nfc-tag-types-for-iphones/).)
 
 O baytlarda iki şey yaşıyor. Birincisi açıkta: bu figürün kim olduğunu söyleyen küçük bir blok. Örneğin belirli bir Amiibo serisindeki, Legend of Zelda evreninden Link. Switch'in, az önce bir figürün dokunduğunu anlamak için okuduğu kısım bu. İkinci kısım kilitli: asıl kayıt verisi, yani takma ad, sahibinin Mii'si, figürün kaç kez kullanıldığı ve o anki oyunun kullanmasına izin verilen küçük not defterine karaladığı her şey. O kısım şifreli ve imzalı.
 
@@ -42,7 +42,7 @@ Geçerli bir kopya çıkarmak için anahtarları hedef tag'e göre yeniden türe
 
 Üç şey, muhtemelen kullanacağın sırayla.
 
-**Oku.** Amiibo'yu telefonunun arkasına tut, tıpkı [herhangi bir NFC tag'ini okur gibi](/features/nfc-reader-writer/), NFC.cool onu anında tanısın: karakter, oyun serisi, Amiibo serisi, figür türü ve görseli; yanında tag'in kendisinden gelen birkaç bilgi, örneğin kaç kez yazıldığı. Bunun için anahtar gerekmiyor. Figürü tanımak yalnızca zaten açıkta olan kısma dokunuyor.
+**Oku.** Amiibo'yu telefonunun arkasına tut, tıpkı [herhangi bir NFC tag'ini okur gibi](/tr/features/nfc-reader-writer/), NFC.cool onu anında tanısın: karakter, oyun serisi, Amiibo serisi, figür türü ve görseli; yanında tag'in kendisinden gelen birkaç bilgi, örneğin kaç kez yazıldığı. Bunun için anahtar gerekmiyor. Figürü tanımak yalnızca zaten açıkta olan kısma dokunuyor.
 
 **Topla.** Okuttuğun her Amiibo, sahip olduğun her şeyin yalın bir ızgarası olan Koleksiyonum'a kaydediliyor. Cihazında yaşıyor (iPhone'da iCloud üzerinden diğer Apple cihazlarına eşitleniyor) ve görseller önbelleğe alınıyor, böylece çevrimdışıyken de koleksiyon düzgün görünüyor. Tek başına bu bile masamın yanındaki o zavallı rafı gerçekten gezebildiğim bir şeye çevirdi.
 

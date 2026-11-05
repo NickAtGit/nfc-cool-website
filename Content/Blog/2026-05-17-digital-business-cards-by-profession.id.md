@@ -2,6 +2,7 @@
 id: nfc-blog-029
 title: "Kartu nama digital berdasarkan profesi"
 date: 2026-05-17
+lastModified: "2026-11-05"
 tags: ["business-cards", "industry", "guides"]
 summary: "Kartu nama kertas gagal untuk setiap profesi, tapi cara kegagalannya berbeda-beda. Panduan praktis kartu nama digital untuk agen properti, tenaga kesehatan, dan konsultan - apa yang perlu dibagikan, apa yang perlu diperhatikan, dan cara memilih aplikasi."
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
@@ -16,7 +17,7 @@ Saya membangun aplikasi Business Card di NFC.cool, dan selama dua tahun terakhir
 
 Kebanyakan tidak. Tapi *alasan* mengapa kartu nama kertas mengecewakan mereka memang berbeda dari satu profesi ke profesi lain. Seorang agen properti dan seorang dokter rumah sakit sama-sama melampaui keterbatasan kartu kertas - tapi dengan alasan yang sepenuhnya berbeda.
 
-Jadi alih-alih menulis satu artikel lagi tentang "kartu kertas sudah mati," saya mengorganisasi ini dengan cara orang-orang benar-benar memikirkan masalahnya: berdasarkan profesi. Ada tiga bagian - properti, kesehatan, dan konsultasi independen - diikuti oleh bagian-bagian yang berlaku untuk semua orang, termasuk pandangan jujur tentang di mana aplikasi saya cocok dan di mana tidak.
+Jadi alih-alih menulis satu artikel lagi tentang "kartu kertas sudah mati," saya mengorganisasi ini dengan cara orang-orang benar-benar memikirkan masalahnya: berdasarkan profesi. Ada tiga bagian - properti, kesehatan, dan konsultasi independen - diikuti oleh bagian-bagian yang berlaku untuk semua orang, termasuk di mana aplikasi saya cocok.
 
 ---
 
@@ -130,7 +131,7 @@ Profesinya berbeda; daftar periksa sebagian besar tidak. Apapun yang Anda lakuka
 - **NFC dan QR, keduanya.** NFC lebih cepat dan lebih mengesankan secara langsung; QR bersifat universal dan berfungsi pada tanda yang dicetak, brosur, slide. Anda menginginkan keduanya, bukan salah satu sebagai add-on berbayar.
 - **Beberapa kartu.** Peran yang berbeda, acara yang berbeda, audiens yang berbeda. Tidak bisa ditawar jika Anda mengenakan lebih dari satu topi.
 - **Beberapa bahasa**, jika Anda bekerja lintas batas - konten kartu, bukan hanya antarmuka aplikasi.
-- **Privasi yang bisa Anda jelaskan.** Beberapa platform mengirim email kepada orang yang melihat kartu Anda, atau merekam percakapan. Jika penyedia kartu Anda mengirim spam ke kontak Anda, itu mencerminkan Anda. Baca kebijakan privasi sebelum Anda berkomitmen.
+- **Privasi yang bisa Anda jelaskan.** Tanyakan apakah platform mengirim email kepada orang yang melihat kartu Anda, dan apakah platform itu merekam percakapan. Jika penyedia kartu Anda mengirim spam ke kontak Anda, itu mencerminkan Anda. Baca kebijakan privasi sebelum Anda berkomitmen.
 - **Tidak ada penguncian perangkat keras.** Banyak perusahaan menjual kartu NFC proprietary seharga $30-$60. Stiker NFC seharga $2 yang Anda program sendiri melakukan pekerjaan yang sama.
 - **Harga yang jujur.** Enterprise SSO dan dasbor tim tidak relevan ketika hanya Anda seorang. Cari tingkat gratis yang nyata atau paket individual yang terjangkau.
 
@@ -138,33 +139,30 @@ Profesinya berbeda; daftar periksa sebagian besar tidak. Apapun yang Anda lakuka
 
 ## Di mana NFC.cool Business Card cocok
 
-Pengungkapan penuh: ini adalah aplikasi saya, jadi baca beberapa paragraf berikut dengan mengetahui itu. Saya akan mencoba jujur tentang di mana ia kuat dan di mana tidak.
+Pengungkapan penuh: ini adalah aplikasi saya, jadi bacalah beberapa paragraf berikut dengan mengingat hal itu.
 
-NFC.cool Business Card adalah aplikasi mandiri di iPhone dan Android. Inilah yang dilakukannya dengan baik untuk profesi-profesi di atas:
+[NFC.cool Business Card](/id/business-card/) adalah aplikasi mandiri di iPhone dan Android. Inilah yang dilakukannya dengan baik untuk profesi-profesi di atas:
 
-- **35 bahasa** di antarmuka aplikasi dan App Clip - lebih dari aplikasi kartu nama digital lain yang saya ketahui. Kartu Anda ditampilkan dalam bahasa klien di iOS. (Situs web berbagi Android saat ini hanya dalam bahasa Inggris.)
+- **35 bahasa** di antarmuka aplikasi dan App Clip - lebih dari aplikasi kartu nama digital lain yang saya ketahui. Tombol dan label di sekitar kartu Anda mengikuti bahasa klien di iOS.
 - **Tidak ada aplikasi untuk orang yang menerima kartu Anda.** Di iPhone mereka mendapatkan App Clip native; di Android, halaman di domain nfc.cool. Keduanya memiliki tombol "Simpan Kontak."
 - **Ketukan NFC dan kode QR**, plus tautan yang bisa dibagikan biasa untuk obrolan dan tanda tangan email.
-- **Conference Mode** - menyematkan kode QR kartu Anda di layar kunci sepanjang hari acara, baik di iPhone (sebagai Live Activity) maupun di Android. Anda angkat ponsel, mereka pindai, selesai. Tidak perlu membuka kunci, tidak perlu mencari di Apple Wallet. Integrasi Wallet juga ada, sebagai alternatif.
-- **Hingga 100 kartu**, sehingga saran "satu kartu per peran" di atas benar-benar praktis.
+- **Mode Konferensi** - menyematkan kode QR kartu Anda di layar kunci sepanjang hari acara, baik di iPhone (sebagai Live Activity) maupun di Android. Anda angkat ponsel, mereka pindai, selesai. Tidak perlu membuka kunci, tidak perlu mencari di Apple Wallet. Integrasi Wallet juga ada, sebagai alternatif.
+- **Hingga 10 kartu di Pro**, sehingga saran "satu kartu per peran" di atas benar-benar praktis.
 - **Kartu yang dilindungi PIN** untuk hal-hal yang sensitif.
-- **Mengutamakan privasi**: tidak ada monetisasi data atau iklan, tidak ada permintaan kepada penerima, tidak ada perekaman percakapan, ekspor data sesuai GDPR.
+- **Privasi**: NFC.cool tidak menjual data Anda, aplikasinya tidak berisi iklan, tidak merekam percakapan, dan Anda bisa mengekspor semuanya sebagai ZIP. NFC.cool tidak mengirim pemasaran kepada orang yang melihat kartu Anda. Di paket Team, tim Anda bisa mengirim email tindak lanjut kepada orang yang meninggalkan datanya lewat formulir prospek Anda.
 - **Tag NFC apapun bisa digunakan.** Saya tidak menjual perangkat keras - tulis kartu Anda ke stiker yang sudah Anda miliki.
-- **Harga**: tingkat gratis, lalu Personal €20/tahun (1 kartu), Small Business €50/tahun (10 kartu), dan Business €100/tahun (100 kartu).
+- **Harga**: paket Free dengan satu kartu, lalu Personal $19,99 per tahun (1 kartu), Pro $49,99 per tahun (10 kartu), dan [Team](/id/business-card/teams/) $50 per orang per tahun atau $5 per bulan (hingga 10 kartu per orang). Dalam euro, harga tim memakai angka yang sama.
+- **Untuk tim**: paket Team terhubung ke HubSpot, mengirim prospek ke mana saja lewat webhook, dan memiliki dasbor web dengan peran dan undangan. Single sign-on dan sinkronisasi direktori disiapkan [atas permintaan](/id/contact/).
+- **Aplikasi native dan dukungan dari pendiri**: dibangun secara native untuk iPhone dan Android, tidak didukung VC, dan saat Anda punya pertanyaan, saya sendiri yang menjawab.
 
-Di mana pesaing benar-benar lebih unggul:
+Untuk agen, dokter, atau solopreneur, yang penting sehari-hari adalah berbagi yang cepat, kartu yang terlihat seperti *Anda*, dan tidak ada yang mempermalukan Anda kemudian. Itulah tujuan saya membangunnya.
 
-- **Integrasi CRM.** Jika hari-hari Anda bergantung pada HubSpot atau Salesforce, aplikasi seperti Wave Connect atau Blinq menyinkronkan kontak secara native. Sebagai gantinya, NFC.cool memberi Anda ekspor data lengkap - belum ada webhook.
-- **Manajemen tim enterprise.** Jika Anda adalah perusahaan dengan 50 orang yang membutuhkan dasbor admin dan sinkronisasi direktori, itu bukan yang dibangun oleh NFC.cool.
-
-Versi jujurnya: untuk agen, dokter, atau solopreneur, yang penting sehari-hari adalah berbagi yang cepat, kartu yang terlihat seperti *Anda*, dan tidak ada yang mempermalukan Anda kemudian. Itulah yang saya bangun. Jika Anda membutuhkan CRM penjualan yang terhubung ke kartu nama Anda, beli alat yang melakukan itu.
-
-Anda bisa [mendapatkan NFC.cool Business Card di App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) atau [di Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+Anda bisa [mendapatkan NFC.cool Business Card di App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-id&mt=8) atau [di Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-id).
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>NFC.cool Business Card saat dipakai</figcaption>
 <ol>
-<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Kartu Nama Saya dengan tiga kartu: AlexBerger, Conference, dan Speaking"><p><strong>Satu kartu per peran.</strong> Hingga 100 kartu, masing-masing dengan tampilan dan tautannya sendiri.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Kartu Nama Saya dengan tiga kartu: AlexBerger, Conference, dan Speaking"><p><strong>Satu kartu per peran.</strong> Hingga 10 kartu di Pro, masing-masing dengan tampilan dan tautannya sendiri.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="Tab Business Card dengan kode QR kartu dan menu untuk kartu, prospek, kontak, dan pengaturan"><p><strong>Bagikan.</strong> Lewat ketukan NFC, kode QR, atau tautan biasa.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Pengaturan Profil: kartu publik atau kartu privat dengan PIN, dan pengumpulan prospek sebelum atau sesudah menyimpan"><p><strong>Aturan Anda.</strong> Publik atau dilindungi PIN, dan pengumpulan prospek kapan pun Anda mau.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="Daftar prospek, masing-masing ditandai Qualified, New, Contacted, atau Converted"><p><strong>Tindak lanjuti.</strong> Semua prospek dalam satu daftar, lengkap dengan statusnya.</p></li>
@@ -185,7 +183,7 @@ Keduanya, untuk momen yang berbeda. NFC adalah ketukan satu detik dan terlihat m
 
 ### Bisakah saya memiliki kartu yang berbeda untuk peran yang berbeda?
 
-Ya, dan Anda harus melakukannya. Kartu open house dengan alamat properti, kartu rujukan dengan meja penjadwalan, kartu konferensi dengan detail pembicaraan Anda - semua dari satu akun, masing-masing bisa diperbarui sendiri.
+Ya, dan Anda harus melakukannya. Kartu open house dengan alamat properti, kartu rujukan dengan meja penjadwalan, kartu konferensi dengan detail pembicaraan Anda - semua dari satu akun, masing-masing bisa diperbarui sendiri. Di NFC.cool Business Card, ini memerlukan paket Pro.
 
 ### Apakah ini akan berfungsi dengan klien internasional?
 
@@ -193,7 +191,7 @@ NFC dan QR berfungsi di ponsel di seluruh dunia. Apakah *kartu itu sendiri* bera
 
 ### Bisakah saya melihat siapa yang melihat kartu saya, dan apakah data itu aman?
 
-Beberapa aplikasi menunjukkan tampilan kepada Anda; beberapa bahkan memasarkan kepada orang yang melihat kartu Anda. Perilaku kedua itu adalah masalah - prospek Anda seharusnya mendengar dari Anda, bukan dari penyedia kartu Anda. NFC.cool menawarkan analitik di iPhone maupun Android dan tidak pernah meminta penerima.
+Beberapa aplikasi menunjukkan jumlah tampilan kepada Anda. Sebelum memilih, periksa apakah aplikasinya juga memasarkan kepada orang yang melihat kartu Anda - prospek Anda seharusnya mendengar dari Anda, bukan dari penyedia kartu Anda. Paket berbayar NFC.cool menunjukkan jumlah dilihat, jumlah disimpan, dan ketukan tautan sebagai angka, bukan nama, baik di iPhone maupun Android, dan NFC.cool tidak mengirim pemasaran kepada orang yang melihat kartu Anda. Di paket Team, tim Anda sendiri bisa mengirim email kepada orang yang meninggalkan datanya lewat formulir prospek Anda.
 
 ### Berapa sebenarnya biayanya?
 
@@ -207,4 +205,4 @@ Kartu nama kertas tidak gagal karena terbuat dari kertas. Kartu itu gagal karena
 
 Kartu digital mengikuti perkembangan itu. Pilih yang tidak memerlukan aplikasi di pihak lain, mendukung NFC dan QR, dan memperlakukan data kontak Anda dengan hormat - lalu berhenti memikirkan kartu nama sama sekali. Itulah kemenangan sesungguhnya.
 
-Jika Anda ingin mencoba milik saya, NFC.cool Business Card gratis untuk dimulai di [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-en&mt=8) dan di [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-en).
+Jika Anda ingin mencoba milik saya, NFC.cool Business Card gratis untuk dimulai di [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-id&mt=8) dan di [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-id).

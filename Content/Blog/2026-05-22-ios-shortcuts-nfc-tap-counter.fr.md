@@ -13,7 +13,7 @@ ogTitle: "Analyser les données du Tap Counter NFC avec Raccourcis iOS"
 ogDescription: "Des raccourcis iOS prêts à l'emploi pour le Tap Counter NFC : un analyseur réutilisable et une démo d'alerte de tag."
 ---
 
-Il y a une semaine, j'ai [expliqué en détail comment fonctionne le Tap Counter NFC](/blog/count-nfc-tag-scans/) : la puce compte ses propres scans, l'app insère des octets réservés, et le tag substitue le compteur en direct et l'identifiant du tag dans ce qu'il transporte, à chaque toucher. Cet article s'arrête là où le tag s'arrête, c'est-à-dire au moment où les valeurs arrivent sur votre téléphone.
+Il y a une semaine, j'ai [expliqué en détail comment fonctionne le Tap Counter NFC](/fr/blog/count-nfc-tag-scans/) : la puce compte ses propres scans, l'app insère des octets réservés, et le tag substitue le compteur en direct et l'identifiant du tag dans ce qu'il transporte, à chaque toucher. Cet article s'arrête là où le tag s'arrête, c'est-à-dire au moment où les valeurs arrivent sur votre téléphone.
 
 La question qu'on me pose depuis est la suite logique : « super, le tag me donne `049F50824F1390x000007` - et maintenant ? » Si vous êtes sur iPhone et que vous voulez agir sur ces valeurs à l'intérieur d'un raccourci, vous devez les analyser. C'est un petit travail de manipulation de chaînes, minutieux, et je préfère vous éviter d'avoir à l'écrire vous-même.
 
@@ -34,12 +34,12 @@ Avant les raccourcis : un rapide rappel de ce qu'ils reçoivent réellement, par
 
 Dans l'écran de configuration du Tap Counter, vous choisissez un type de contenu pour le tag : URL, Email, SMS ou Shortcut. Quand vous activez les options Tap Counter et / ou Tag ID, l'app insère des octets réservés dans ce contenu, et la puce les remplace par les valeurs en direct à chaque lecture. Avec `049F50824F1390` comme identifiant de tag et `000007` comme compteur, les quatre types de contenu ressemblent à ceci :
 
-- **URL :** `https://nfc.cool/tap-counter/` devient [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007)
+- **URL :** `https://nfc.cool/tap-counter/` devient [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/fr/tap-counter/?nfc=049F50824F1390x000007)
 - **Corps de l'e-mail :** `Hi, here's my card.` devient `Hi, here's my card. 049F50824F1390x000007`
 - **Corps du SMS :** `Order confirmed!` devient `Order confirmed! 049F50824F1390x000007`
 - **Entrée du raccourci :** `log-entry` devient `log-entry 049F50824F1390x000007`
 
-L'URL ci-dessus est bien réelle. Notre [page de test du compteur de scans en direct](/tap-counter/) est configurée pour lire la valeur `?nfc=` directement dans sa propre barre d'adresse. Donc si vous voulez voir la substitution se produire avant d'écrire votre propre automatisation, écrivez un tag pointant vers `https://nfc.cool/tap-counter/` avec les deux options activées, touchez-le, et la page vous montrera l'identifiant du tag et le compteur qu'elle vient de recevoir.
+L'URL ci-dessus est bien réelle. Notre [page de test du compteur de scans en direct](/fr/tap-counter/) est configurée pour lire la valeur `?nfc=` directement dans sa propre barre d'adresse. Donc si vous voulez voir la substitution se produire avant d'écrire votre propre automatisation, écrivez un tag pointant vers `https://nfc.cool/tap-counter/` avec les deux options activées, touchez-le, et la page vous montrera l'identifiant du tag et le compteur qu'elle vient de recevoir.
 
 Quand le type de contenu est **Shortcut**, NFC.cool lance le raccourci choisi via `shortcuts://run-shortcut?name=Your%20Shortcut&input=text&text=<payload>`, avec les valeurs NFC ajoutées déjà présentes dans le texte. L'entrée de votre raccourci est une simple chaîne de texte. Votre seul travail est d'en extraire l'identifiant du tag et le compteur.
 
@@ -118,7 +118,7 @@ Une poignée de petites choses que l'analyseur rend possibles, notées ici pour 
 
 - **Créez un embranchement sur l'identifiant du tag.** Un seul raccourci, plein de tags. Ajoutez une action **If** par identifiant de tag connu : si le tag de la porte du bureau a été scanné, coupez les notifications ; si le tag du studio a été scanné, activez un mode de concentration ; si le tag de la cuisine a été scanné, lancez un minuteur. L'identifiant du tag identifie le tag physique, pas le contenu, donc vous pouvez donner la même URL à chaque tag et réagir quand même à chacun individuellement.
 - **Désignez un gagnant au scan N.** Combinez `hasCount` avec une comparaison. Si `count` vaut 100, déclenchez un message de confirmation ; pour tous les autres scans, appliquez le traitement habituel. La puce garantit l'ordre ; votre raccourci se contente de le lire.
-- **Envoyez vers un webhook.** Associez ça à la [fonctionnalité Webhooks](/features/webhooks/) de NFC.cool si vous voulez un traitement côté serveur sans écrire d'app iOS : envoyez les valeurs analysées en JSON, et laissez le serveur prendre le relais. Deux actions iOS et votre tag est relié à tout ce qui parle HTTP.
+- **Envoyez vers un webhook.** Associez ça à la [fonctionnalité Webhooks](/fr/features/webhooks/) de NFC.cool si vous voulez un traitement côté serveur sans écrire d'app iOS : envoyez les valeurs analysées en JSON, et laissez le serveur prendre le relais. Deux actions iOS et votre tag est relié à tout ce qui parle HTTP.
 - **Journalisez dans un fichier ou une note.** La plus simple, et étonnamment utile. Ajoutez `timestamp, tagID, count` à un fichier tenu à jour dans iCloud Drive ou à une seule note, et vous avez un journal des touchers que vous pourrez parcourir ou représenter sous forme de graphique plus tard. Pratique pour suivre l'engagement sur un tag unique sans monter d'infrastructure.
 
 Si vous construisez quelque chose de chouette avec ça, j'aimerais vraiment le voir.
@@ -139,6 +139,6 @@ Raccourcis est une app Apple, donc ces deux-là ne tournent que sur iPhone. La f
 
 ## Essayez-le
 
-Si vous voulez l'explication détaillée du fonctionnement réel du Tap Counter sous le capot, c'est dans l'[article précédent](/blog/count-nfc-tag-scans/). Et si vous voulez voir un tag avec compteur activé en action sans configurer d'abord votre propre automatisation, notre page de [démo du compteur de scans en direct](/tap-counter/) lit la valeur `?nfc=` directement dans sa propre URL : écrivez un tag qui pointe dessus, touchez-le, et regardez le compteur et l'identifiant du tag apparaître.
+Si vous voulez l'explication détaillée du fonctionnement réel du Tap Counter sous le capot, c'est dans l'[article précédent](/fr/blog/count-nfc-tag-scans/). Et si vous voulez voir un tag avec compteur activé en action sans configurer d'abord votre propre automatisation, notre page de [démo du compteur de scans en direct](/fr/tap-counter/) lit la valeur `?nfc=` directement dans sa propre URL : écrivez un tag qui pointe dessus, touchez-le, et regardez le compteur et l'identifiant du tag apparaître.
 
-La fonctionnalité Tap Counter NFC vit dans NFC.cool Tools, sur [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-fr&mt=8) et [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-fr). Pour l'ensemble des outils que j'ai construits autour du NFC, jetez un œil à la [fonctionnalité de lecture et d'écriture NFC](/features/nfc-reader-writer/).
+La fonctionnalité Tap Counter NFC vit dans NFC.cool Tools, sur [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-fr&mt=8) et [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-fr). Pour l'ensemble des outils que j'ai construits autour du NFC, jetez un œil à la [fonctionnalité de lecture et d'écriture NFC](/fr/features/nfc-reader-writer/).

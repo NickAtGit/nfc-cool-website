@@ -22,7 +22,7 @@ Ketika orang bertanya kepada saya tentang ini, saya selalu mulai dengan memisahk
 - **RFID (Radio-Frequency Identification)** adalah teknologi luas yang digunakan untuk mengidentifikasi dan melacak objek secara nirkabel. Saya memikirkan RFID seperti berteriak ke teman di seberang jalan - biasanya pertukaran satu arah di mana kartu RFID apartemen Anda memancarkan sinyal dan pintu mendengarkan. RFID hadir dalam berbagai varian: frekuensi rendah (LF), frekuensi tinggi (HF), dan frekuensi sangat tinggi (UHF). Teknologi ini menggerakkan kartu akses, microchip hewan peliharaan, pelacakan inventaris, dan ya, kartu apartemen itu.
 - **NFC (Near-Field Communication)** pada dasarnya adalah subset khusus dari RFID yang beroperasi pada frekuensi tinggi (13,56 MHz). Ini adalah obrolan hangat antara dua teman yang berdiri sangat berdekatan. NFC memungkinkan komunikasi dua arah, pertukaran data yang aman, dan interaksi yang kaya - itulah tepatnya mengapa iPhone Anda menggunakan NFC untuk fitur seperti Apple Pay, AirTags, dan [kartu nama digital](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-iphone-rfid-condo-doors-en&mt=8).
 
-Jadi semua NFC adalah RFID, tetapi tidak semua RFID adalah NFC. Satu kalimat itu adalah akar dari hampir setiap email "mengapa tidak berfungsi" yang saya terima. Jika Anda menginginkan penjelasan lebih lengkap tentang bagaimana NFC cocok di dalam RFID, saya membahasnya di [panduan pemula tentang tag NFC](/blog/nfc-tags-beginners-guide/).
+Jadi semua NFC adalah RFID, tetapi tidak semua RFID adalah NFC. Satu kalimat itu adalah akar dari hampir setiap email "mengapa tidak berfungsi" yang saya terima. Jika Anda menginginkan penjelasan lebih lengkap tentang bagaimana NFC cocok di dalam RFID, saya membahasnya di [panduan pemula tentang tag NFC](/id/blog/nfc-tags-beginners-guide/).
 
 ---
 
@@ -36,7 +36,7 @@ Jadi semua NFC adalah RFID, tetapi tidak semua RFID adalah NFC. Satu kalimat itu
 
 Inilah bagian yang sudah saya jelaskan ratusan kali. Kartu akses apartemen Anda kemungkinan besar menggunakan bentuk RFID yang berada di luar standar NFC yang dikenali iPhone Anda - seringkali RFID frekuensi rendah, atau skema frekuensi tinggi eksklusif yang dienkripsi dengan cara yang tidak bisa diinterpretasikan oleh iPhone. Apple dengan sengaja membangun iPhone untuk bekerja secara eksklusif dengan NFC pada 13,56 MHz demi keamanan, efisiensi baterai, dan pengalaman pengguna yang konsisten.
 
-Sederhananya: iPhone Anda tidak berbicara dialek RFID apartemen Anda. Ini seperti mengharapkan langganan Netflix Anda bisa membawa Anda masuk ke bioskop. Ide umum yang sama, dunia yang sama sekali berbeda. Dan ini bukan bug yang bisa saya tambal di aplikasi saya sendiri - radio di dalam ponsel sekadar tidak bisa menala ke frekuensi yang digunakan kartu tersebut. Jika Anda penasaran tentang apa yang Apple buka dan tidak buka dalam tumpukan NFC, saya menulis tentangnya di [pandangan orang dalam tentang NFC di iPhone](/blog/nfc-on-iphones-insider-look/).
+Sederhananya: iPhone Anda tidak berbicara dialek RFID apartemen Anda. Ini seperti mengharapkan langganan Netflix Anda bisa membawa Anda masuk ke bioskop. Ide umum yang sama, dunia yang sama sekali berbeda. Dan ini bukan bug yang bisa saya tambal di aplikasi saya sendiri - radio di dalam ponsel sekadar tidak bisa menala ke frekuensi yang digunakan kartu tersebut. Jika Anda penasaran tentang apa yang Apple buka dan tidak buka dalam tumpukan NFC, saya menulis tentangnya di [pandangan orang dalam tentang NFC di iPhone](/id/blog/nfc-on-iphones-insider-look/).
 
 ---
 
@@ -44,7 +44,7 @@ Sederhananya: iPhone Anda tidak berbicara dialek RFID apartemen Anda. Ini sepert
 
 Singkatnya: tidak, dan saya sudah berhenti ragu-ragu mengatakannya. Wallet dan tumpukan NFC Apple sengaja dikunci untuk menghindari mimpi buruk keamanan yang sudah jelas - seseorang dengan santai menyalin kartu kredit atau kunci gedung Anda ke sebuah ponsel. Bayangkan dunia di mana siapa pun bisa mengklon kartu akses ke iPhone: lobi Anda berubah menjadi pintu putar. Pembatasan Apple di sini ada untuk menjaga kehidupan digital Anda tetap aman, dan sebagai seseorang yang bekerja dengan tumpukan ini setiap hari, saya akan membuat keputusan yang sama.
 
-Perlu juga diketahui bahwa kartu yang *bisa* menyimpan rahasia - yang memiliki perlindungan kriptografis nyata - tidak mudah disalin memang berdasarkan desainnya. Saya menggali sisi itu di [menjaga rahasia tetap aman di tag NFC terenkripsi](/blog/nfc-safe-encrypted-secrets/).
+Perlu juga diketahui bahwa kartu yang *bisa* menyimpan rahasia - yang memiliki perlindungan kriptografis nyata - tidak mudah disalin memang berdasarkan desainnya. Saya menggali sisi itu di [menjaga rahasia tetap aman di tag NFC terenkripsi](/id/blog/nfc-safe-encrypted-secrets/).
 
 ---
 
@@ -53,7 +53,7 @@ Perlu juga diketahui bahwa kartu yang *bisa* menyimpan rahasia - yang memiliki p
 Apple tidak akan bergerak dalam hal ini dalam waktu dekat, jadi inilah cara saya menyarankan untuk berdamai dengan realitas RFID:
 
 - **Sistem yang kompatibel dengan ponsel pintar.** Tanyakan kepada administrasi apartemen Anda tentang peningkatan ke sistem akses modern yang terintegrasi dengan dompet digital. Ini adalah solusi nyata, dan semakin umum setiap tahunnya.
-- **Stiker atau tag NFC yang bisa diprogram.** Tag NFC yang bisa diprogram benar-benar berguna di rumah dan dalam skenario terkontrol - saya menggunakannya terus-menerus - tetapi hanya membantu di sini jika pembaca apartemen Anda memang berbicara NFC. Jika ingin mencoba, [menulis tag NFC Anda sendiri di iPhone](/blog/write-nfc-tags-iphone/) adalah tempat yang tepat untuk memulai.
+- **Stiker atau tag NFC yang bisa diprogram.** Tag NFC yang bisa diprogram benar-benar berguna di rumah dan dalam skenario terkontrol - saya menggunakannya terus-menerus - tetapi hanya membantu di sini jika pembaca apartemen Anda memang berbicara NFC. Jika ingin mencoba, [menulis tag NFC Anda sendiri di iPhone](/id/blog/write-nfc-tags-iphone/) adalah tempat yang tepat untuk memulai.
 - **Kartu atau fob RFID khusus.** Untuk saat ini, tetap simpan kartu apartemen di gantungan kunci Anda. Itu masih alat yang tepat untuk kunci tersebut.
 
 ---

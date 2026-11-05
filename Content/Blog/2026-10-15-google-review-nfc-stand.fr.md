@@ -23,7 +23,7 @@ Rien de tout ça. C'est un tag NFC ordinaire et un QR code imprimé, qui pointen
 
 ## Ce qu'il y a vraiment dans un présentoir d'avis Google
 
-Le tag NFC de ces présentoirs est le même genre d'autocollant bon marché que vous pouvez [acheter par lots de cinquante](/affiliate-links/). Quelqu'un y a écrit un seul lien web. Le QR code d'à côté, c'est ce même lien, imprimé sous forme de petits carrés, pour ceux dont le téléphone n'a pas le NFC ou l'a désactivé.
+Le tag NFC de ces présentoirs est le même genre d'autocollant bon marché que vous pouvez [acheter par lots de cinquante](/fr/affiliate-links/). Quelqu'un y a écrit un seul lien web. Le QR code d'à côté, c'est ce même lien, imprimé sous forme de petits carrés, pour ceux dont le téléphone n'a pas le NFC ou l'a désactivé.
 
 C'est le lien lui-même qui est intéressant. Google propose une URL qui mène un client directement au formulaire d'avis d'un établissement précis, identifié par son **Place ID**. Chaque établissement présent sur Google Maps en a un, et si le vôtre n'y figure pas encore, Google explique comment [créer une fiche d'établissement](https://support.google.com/business/answer/2911778?hl=fr). Mettez ce lien sur un tag, et le présentoir devient le plus court chemin entre un « quelle belle soirée » et un avis écrit noir sur blanc.
 
@@ -51,7 +51,7 @@ Avant de vous lancer, voici quelques leçons que j'ai apprises à mes dépens pe
 
 Le [Piano Negro](https://mycard.nfc.cool/PianoNegro/Piano-Negro) est un bar de Coimbra ouvert depuis 1993. Quand j'ai aidé le propriétaire à installer ses présentoirs, nous ne nous sommes pas contentés de mettre un lien d'avis sur les tables. Quelqu'un qui vient de s'asseoir ne pense pas encore à laisser un avis. Ce qu'il veut, c'est voir ce qu'il y a au menu.
 
-Chaque table du Piano Negro a donc un présentoir avec la **[NFC.cool Business Card](/business-card/)** du bar. Il suffit d'y approcher un téléphone, ou de scanner le QR code, pour que la carte s'ouvre sur tout ce qu'un client peut chercher, accessible d'un simple toucher :
+Chaque table du Piano Negro a donc un présentoir avec la **[NFC.cool Business Card](/fr/business-card/)** du bar. Il suffit d'y approcher un téléphone, ou de scanner le QR code, pour que la carte s'ouvre sur tout ce qu'un client peut chercher, accessible d'un simple toucher :
 
 - le menu, en portugais et en anglais
 - WhatsApp
@@ -70,10 +70,10 @@ Ce que j'aime aussi dans ce dispositif, c'est que le présentoir reste toujours 
 
 La liste d'achats est délicieusement courte :
 
-- **Des tags NFC.** Un simple autocollant NTAG213 suffit largement, et les liens de cet article y tiennent sans peine. Si vous hésitez entre les types de tags, mon [guide des tags NFC pour iPhone](/blog/nfc-tag-types-for-iphones/) explique les différences.
+- **Des tags NFC.** Un simple autocollant NTAG213 suffit largement, et les liens de cet article y tiennent sans peine. Si vous hésitez entre les types de tags, mon [guide des tags NFC pour iPhone](/fr/blog/nfc-tag-types-for-iphones/) explique les différences.
 - **Des présentoirs en plexiglas** dans lesquels on glisse un carton imprimé. On les trouve sous le nom de porte-menus ou de porte-affiches, pour quelques euros pièce.
 - **Une imprimante couleur.**
-- **[NFC.cool Business Card](/business-card/)** pour les présentoirs de table.
+- **[NFC.cool Business Card](/fr/business-card/)** pour les présentoirs de table.
 - **NFC.cool Tools** pour le lien d'avis et pour protéger vos tags par un mot de passe, sur [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-google-review-nfc-stand-fr&mt=8) et [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-google-review-nfc-stand-fr).
 
 ---
@@ -135,7 +135,7 @@ Si votre établissement n'apparaît pas du tout, c'est sans doute qu'il n'a pas 
 
 ### Étape 2 : écrire le tag
 
-Enregistrez le lien et écrivez-le sur votre autocollant NFC en approchant le téléphone. Si vous n'avez jamais écrit de tag, j'explique tout pas à pas dans [comment écrire des tags NFC avec un iPhone](/blog/write-nfc-tags-iphone/).
+Enregistrez le lien et écrivez-le sur votre autocollant NFC en approchant le téléphone. Si vous n'avez jamais écrit de tag, j'explique tout pas à pas dans [comment écrire des tags NFC avec un iPhone](/fr/blog/write-nfc-tags-iphone/).
 
 ### Étape 3 : créer le QR code
 

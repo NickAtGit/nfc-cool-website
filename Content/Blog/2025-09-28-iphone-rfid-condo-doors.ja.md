@@ -7,6 +7,7 @@ summary: "受信箱に最もよく届く質問のひとつへの正直な答え�
 author: "Nicolo Stanciu"
 image: "/assets/images/Blog/iphone-rfid-doors.webp"
 imageAlt: "マンションのRFID専用ドアリーダーに向き合うiPhone"
+metaDescription: "「なぜiPhoneでマンションのドアが開かないの？」は、私の受信箱に最もよく届く質問のひとつです。iPhoneのNFCがマンションのRFIDカードと通信できない理由、NFCとRFIDの違い、Appleがそう設計している背景を正直に解説します。"
 ---
 
 私はNFCタグの読み書きアプリ「NFC.cool」を何年も作り続けていますが、ほぼどんな質問よりも頻繁に私の受信箱に届くものがあります。「なぜiPhoneでマンションのドアが開かないの？」というものです。誰かが自信満々に建物のエントランスリーダーに自分の端末をかざし、魔法が起きるのを期待して、代わりに返ってくるのは冷たく無関心なドアの沈黙だけ。

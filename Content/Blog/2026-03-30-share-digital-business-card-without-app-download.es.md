@@ -2,6 +2,7 @@
 id: nfc-blog-012
 title: "Comparte tu tarjeta de visita digital sin obligar a nadie a descargar una app"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "Tu tarjeta de visita digital debería funcionar al instante para quien la recibe, sin descargas, sin fricciones. Así es como los App Clips y los perfiles web instantáneos lo hacen posible."
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
@@ -57,7 +58,7 @@ Esto es lo que ocurre:
 4. **Guardar con un toque:** un botón "Guardar contacto" aparece en la parte inferior de la pantalla, justo donde reposa el pulgar de forma natural. Un toque guarda todo en su app Contactos
 5. **Su idioma:** el App Clip soporta 35 idiomas y se adapta automáticamente al idioma del dispositivo de quien recibe. Dale tu tarjeta a alguien en Tokio, São Paulo o Berlín, y lo verá en su propio idioma
 
-Sin crear cuentas. Sin avisos de registro. Sin anuncios. Sin URLs de seguimiento. Solo tus datos de contacto, guardados en segundos.
+Sin cuenta que crear. Nada en lo que registrarse. Sin anuncios. Sin URLs de seguimiento. Solo tus datos de contacto, guardados en segundos.
 
 Después de guardar, quien recibe ve una invitación discreta para crear su propia tarjeta de visita NFC.cool. Solo eso - sin presión agresiva, sin registro obligatorio.
 
@@ -89,10 +90,10 @@ Lo que hace que una experiencia de quien recibe sea realmente buena no es solo l
 
 Cuando alguien recibe tu tarjeta de visita NFC.cool:
 
-- **Sin anuncios:** la página de perfil no promociona NFC.cool ni muestra anuncios de terceros
+- **Sin anuncios:** la página de perfil no muestra anuncios de terceros. Una tarjeta Free lleva una pequeña línea "Made with NFC.cool" al final, y los planes de pago la quitan
 - **Sin redirecciones de seguimiento:** tus enlaces son tus enlaces reales, no envueltos en URLs de analítica
-- **Sin solicitudes:** quien recibe no recibe emails de seguimiento de NFC.cool pidiéndole que se registre
-- **Sin recopilación de datos:** la información de quien recibe no se usa para marketing
+- **Sin marketing de NFC.cool:** NFC.cool no envía marketing a quienes ven tu tarjeta. En el plan Team, tu equipo puede enviar correos de seguimiento a quienes dejen sus datos en tu formulario de leads
+- **Sin venta de datos:** NFC.cool no vende tus datos ni los de las personas que ven tu tarjeta
 
 Esto importa más de lo que la mayoría de la gente cree. Tu tarjeta de visita suele ser la primera impresión que alguien tiene de ti. Si tocar tu tarjeta lleva a una página llena de banners publicitarios o le envía spam al día siguiente, eso te refleja a ti, no solo a la app.
 
@@ -102,7 +103,7 @@ Esto importa más de lo que la mayoría de la gente cree. Tu tarjeta de visita s
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="El menú de la tarjeta en NFC.cool Business Card: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card y Add to Apple Wallet"><p><strong>Un toque para empezar.</strong> El Conference Mode está en el menú de la tarjeta, junto a Write to NFC Tag y Add to Apple Wallet.</p></li>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="El menú de la tarjeta en NFC.cool Business Card: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card y Add to Apple Wallet"><p><strong>Un toque para empezar.</strong> El Modo Conferencia está en el menú de la tarjeta, junto a Write to NFC Tag y Add to Apple Wallet.</p></li>
 </ol>
 </figure>
 
@@ -117,11 +118,11 @@ Es algo pequeño, pero en un evento ajetreado donde llevas un café en una mano 
 ## Cómo empezar
 
 **Como propietario de la tarjeta:**
-- Descarga NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en))
+- Descarga NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-es&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-es))
 - Crea tu tarjeta con tus datos, foto y enlaces sociales
 - Comparte mediante etiqueta NFC, código QR o enlace directo
 
 **Como quien recibe:**
 - Nada. Ese es precisamente el objetivo.
 
-*NFC.cool Business Card está disponible en iOS y Android. La funcionalidad App Clip es una característica de iOS; quienes reciben en Android obtienen un perfil web instantáneo en su lugar.*
+*[NFC.cool Business Card](/es/business-card/) está disponible en iOS y Android, y en su página verás qué incluye cada plan. En iPhone, quienes reciben tu tarjeta ven un App Clip nativo, y en Android, un perfil web instantáneo.*

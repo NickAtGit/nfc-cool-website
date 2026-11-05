@@ -2,6 +2,7 @@
 id: nfc-blog-012
 title: "Deine digitale Visitenkarte teilen, ohne dass jemand eine App installieren muss"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "Deine digitale Visitenkarte muss beim Gegenüber sofort funktionieren: kein Download, keine Hürde. So klappt das mit App Clips und einem Web-Profil, das direkt im Browser aufgeht."
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
@@ -57,7 +58,7 @@ So läuft das ab:
 4. **Speichern mit einem Fingertipp:** Der Button „Kontakt speichern“ sitzt unten am Bildschirmrand, genau da, wo der Daumen ohnehin liegt. Ein Fingertipp, und alles landet in der Kontakte-App
 5. **In seiner Sprache:** Den App Clip gibt es in 35 Sprachen, und er richtet sich automatisch nach der Gerätesprache des Empfängers. Ob du deine Karte in Tokio, São Paulo oder Berlin weitergibst, dein Gegenüber sieht sie in seiner eigenen Sprache
 
-Kein Konto anlegen. Keine Anmelde-Aufforderung. Keine Werbung. Keine Tracking-URLs. Nur deine Kontaktdaten, in ein paar Sekunden gespeichert.
+Kein Konto anlegen. Keine Anmeldung. Keine Werbung. Keine Tracking-URLs. Nur deine Kontaktdaten, in ein paar Sekunden gespeichert.
 
 Nach dem Speichern bekommt der Empfänger noch einen dezenten Hinweis, dass er sich selbst eine NFC.cool-Visitenkarte anlegen kann. Das war es dann auch: kein Drängen, keine Zwangsregistrierung.
 
@@ -89,24 +90,24 @@ Ob sich eine Visitenkarte für den Empfänger gut anfühlt, hängt nicht nur dav
 
 Für alle, die deine NFC.cool-Visitenkarte bekommen, gilt:
 
-- **Keine Werbung:** Die Profilseite macht keine Reklame für NFC.cool und zeigt keine Anzeigen von Dritten
+- **Keine Werbung:** Die Profilseite zeigt keine Anzeigen von Dritten. Auf einer Free-Karte steht unten eine kleine Zeile „Made with NFC.cool“, in den Bezahlplänen fällt sie weg
 - **Keine Tracking-Umleitungen:** Deine Links sind deine echten Links, nicht in Analytics-URLs verpackt
-- **Keine Anwerbeversuche:** Der Empfänger bekommt hinterher keine E-Mails von NFC.cool, in denen er sich registrieren soll
-- **Kein Datensammeln:** Die Daten der Empfänger werden nicht fürs Marketing verwendet
+- **Kein Marketing von NFC.cool:** NFC.cool schickt den Leuten, die deine Karte ansehen, kein Marketing. Im Team-Plan kann dein Team Follow-up-E-Mails an Leute schicken, die über dein Lead-Formular ihre Daten hinterlassen
+- **Kein Datenverkauf:** NFC.cool verkauft weder deine Daten noch die der Leute, die deine Karte ansehen
 
 Das ist wichtiger, als viele denken. Deine Visitenkarte ist oft der erste Eindruck, den jemand von dir bekommt. Wenn ein Scan deiner Karte auf einer vollgestopften Seite mit Bannerwerbung landet oder der Empfänger am nächsten Tag Spam im Postfach hat, fällt das auf dich zurück, nicht nur auf die App.
 
 ---
 
-## Konferenz-Modus: Teilen direkt vom Sperrbildschirm
+## Konferenzmodus: Teilen direkt vom Sperrbildschirm
 
 <figure class="phone-figure" data-layout="float">
 <ol>
-<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="Das Kartenmenü in NFC.cool Business Card: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card und Add to Apple Wallet"><p><strong>Ein Tipp zum Start.</strong> Der Conference Mode steckt im Menü der Karte, neben Write to NFC Tag und Add to Apple Wallet.</p></li>
+<li><img src="/assets/images/Blog/screens/share-digital-business-card-without-app-download/conference-mode-440w.webp" alt="Das Kartenmenü in NFC.cool Business Card: Preview, Edit Business Card, Start Conference Mode, View Analytics, Write to NFC Tag, Show QR Code, Share Business Card und Add to Apple Wallet"><p><strong>Ein Tipp zum Start.</strong> Der Konferenzmodus steckt im Menü der Karte, neben Write to NFC Tag und Add to Apple Wallet.</p></li>
 </ol>
 </figure>
 
-Auf Konferenzen und Events gibst du deine Karte dutzende Male weiter. Dafür hat NFC.cool den Konferenz-Modus: Er nutzt die Live-Aktivitäten von iOS und legt einen QR-Code direkt auf deinen Sperrbildschirm.
+Auf Konferenzen und Events gibst du deine Karte dutzende Male weiter. Dafür hat NFC.cool den Konferenzmodus: Er nutzt die Live-Aktivitäten von iOS und legt einen QR-Code direkt auf deinen Sperrbildschirm.
 
 Du musst das Handy nicht entsperren, nicht die App öffnen und dich nicht zu deiner Karte durchklicken. Du zeigst einfach den Sperrbildschirm, dein Gegenüber scannt den QR-Code, und den Rest übernimmt der App Clip.
 
@@ -124,4 +125,4 @@ Klingt nach einer Kleinigkeit. Aber auf einem vollen Event, wo du in der einen H
 **Als Empfänger:**
 - Nichts. Genau darum geht es ja.
 
-*NFC.cool Business Card gibt es für iOS und Android. Der App Clip ist ein iOS-Feature; Android-Empfänger bekommen stattdessen ein Web-Profil, das sofort im Browser aufgeht.*
+*[NFC.cool Business Card](/de/business-card/) gibt es für iOS und Android, und auf der Seite steht, was jeder Plan enthält. iPhone-Empfänger bekommen einen nativen App Clip, Android-Empfänger ein Web-Profil, das sofort im Browser aufgeht.*

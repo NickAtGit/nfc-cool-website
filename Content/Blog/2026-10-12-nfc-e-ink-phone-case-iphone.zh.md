@@ -8,7 +8,7 @@ image: "/assets/images/Blog/nfc-e-ink-phone-case-iphone.webp"
 imageAlt: "一台装着黑色手机壳的 iPhone，背面的墨水屏上是黑色山丘上方一轮红黄相间的太阳；旁边另一台 iPhone 正通过 NFC 发送同一张图片"
 author: "Nicolo Stanciu"
 metaTitle: "iPhone 上的 NFC 墨水屏手机壳 App：照片、日历、QR 码"
-metaDescription: "用 iPhone 把照片、QR 码、日程和提醒事项显示到不用电池的 NFC 墨水屏手机壳上，支持 DeerPhoneCase、KAZAVA 和 AI Cast Assistant 手机壳。"
+metaDescription: "用 iPhone 把照片、QR 码、日程和提醒事项显示到不用电池的 NFC 墨水屏手机壳上，支持 DeerPhoneCase、KAZAVA 和 AI Cast Assistant 手机壳。这篇也讲讲我是怎么摸清它的通信方式的，以及用之前要知道的几件事。"
 ogTitle: "我破解了墨水屏手机壳，让 iPhone 直接给它换画面"
 ogDescription: "我是怎么逆向一个不用电池的 NFC 墨水屏手机壳的，以及 NFC.cool 现在能在它的屏幕上显示什么。"
 ---
@@ -154,7 +154,7 @@ NFC.cool 把这两点都做到之后，我们发过去的第一张图，是 Alex
 - 另一个开发者的 **SpaceInk+** 在我的手机壳上完全用不了，App 只会提示“device channel information mismatch”。
 - **AI Cast Assistant** 配的是另一种更大的手机壳，NFC.cool 从 7.3.0 起支持它。我只试过 Alex 那个为 iPhone 17 Pro Max 做的。
 
-但这并不代表 NFC.cool 就用不了 Bestie e-INK、KINGZER 或 SpaceInk+ 的手机壳。它们可能只是和我的手机壳稍有不同，而我没办法测试。如果你有这样的手机壳，请[告诉我](/contact/) NFC.cool 能不能用。如果你的手机壳用的是别的 App，NFC.cool 会告诉你暂时还不支持，并提供一个**发送手机壳信息**按钮。它只发送芯片的技术信息，不包含任何能识别你或你手机壳的内容。这样我就能知道大家手里实际用的是哪些手机壳，再把它们一一加进来。
+但这并不代表 NFC.cool 就用不了 Bestie e-INK、KINGZER 或 SpaceInk+ 的手机壳。它们可能只是和我的手机壳稍有不同，而我没办法测试。如果你有这样的手机壳，请[告诉我](/zh/contact/) NFC.cool 能不能用。如果你的手机壳用的是别的 App，NFC.cool 会告诉你暂时还不支持，并提供一个**发送手机壳信息**按钮。它只发送芯片的技术信息，不包含任何能识别你或你手机壳的内容。这样我就能知道大家手里实际用的是哪些手机壳，再把它们一一加进来。
 
 **哪里能买到**。在 Amazon 上，这类手机壳挂着各种各样的品牌名，有些相当让人摸不着头脑，但背后都是同样的手机壳。[这是在 Amazon 上的搜索结果](https://link.amazon/B0hUxLZTR)（推广链接）。我的手机壳内侧印着 DIY，有些商品标题里也写着 DIY，所以可以把它当作挑选时的线索。如果商品页写明了手机壳使用的 App，认准 DeerPhoneCase、KAZAVA、Novixand、TYOHINN 或 AI Cast Assistant。另外，一定要买专为你那款 iPhone 做的手机壳：它的天线是按那款手机调校的，我的 15 Pro Max 和 Alex 的 17 Pro Max 手机壳就完全合不来。
 

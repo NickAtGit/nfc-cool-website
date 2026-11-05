@@ -118,8 +118,8 @@ Uma tag NFC consegue contar as suas próprias leituras - o número fica guardado
 Há mais para conhecer no Contador de Toques NFC - que chips funcionam, os casos de uso reais e toda a configuração passo a passo.
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">Ler o guia</a>
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Ver a funcionalidade</a>
+<a href="/pt/blog/count-nfc-tag-scans/" class="landing-cta-button">Ler o guia</a>
+<a href="/pt/features/nfc-reader-writer/" class="landing-cta-button">Ver a funcionalidade</a>
 </div>
 
 </section>

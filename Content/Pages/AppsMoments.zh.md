@@ -1,7 +1,7 @@
 ---
 title: "Moments by NFC.cool：贴在 NFC 标签上的共享相册"
 slug: "apps/moments"
-description: "Moments 把 NFC 标签变成一本共享相册。宾客用手机轻触标签或扫描二维码，无需安装应用、无需注册账号，就能添加照片。每一张都由主人审核通过后才会显示。"
+description: "Moments 把 NFC 标签变成一本共享相册。宾客用手机轻触标签或扫描二维码，无需安装应用、无需注册账号，就能添加照片。每一张都由主人审核通过后才会显示。标签可以贴在签到簿、相框背面或礼物上，所有照片都汇集到同一个地方。"
 image: "/assets/images/Apps/moments/screenshot-1.webp"
 ---
 

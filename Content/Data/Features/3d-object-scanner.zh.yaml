@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "3D 物体扫描"
-  subtitle: "手持 iPhone 围绕真实物体走一圈，NFC.cool 会运行 Apple 的设备端 Object Capture 来重建带纹理的 3D 模型。把完成的模型导出到 AR 或任意 3D 工具中。"
+  subtitle: "手持 iPhone 围绕真实物体走一圈，NFC.cool 会运行 Apple 的设备端 Object Capture 来重建带纹理的 3D 模型。模型可导出为 USDZ 用于 AR、STL 用于 3D 打印，或 OBJ 用于 Blender。"
   platforms: "仅限 iOS"
   heroImagePath: "/assets/images/Webflow/3d-object.webp"
 
@@ -37,7 +37,7 @@ subsections:
     platforms: "iOS"
 
   - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
-    body: "<p>扫描出的模型存放在你的 iCloud 文档文件夹中，因此用来扫描的 iPhone、用来审阅的 iPad，以及你将用来编辑的 <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> 看到的都是同一个资料库。随手在外拍下，回到桌前完成。</p>"
+    body: "<p>扫描出的模型存放在你的 iCloud 文档文件夹中，因此用来扫描的 iPhone、用来审阅的 iPad，以及你将用来编辑的 <a href=\"/zh/blog/nfc-cool-comes-to-mac/\">Mac</a> 看到的都是同一个资料库。随手在外拍下，回到桌前完成。</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
     platforms: "iOS"

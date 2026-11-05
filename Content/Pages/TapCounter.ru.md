@@ -118,8 +118,8 @@ NFC-метка умеет считать свои сканирования са�
 О счётчике касаний есть что рассказать: какие чипы подходят, где это применяют на практике и как всё настроить по шагам.
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">Читать руководство</a>
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Посмотреть функцию</a>
+<a href="/ru/blog/count-nfc-tag-scans/" class="landing-cta-button">Читать руководство</a>
+<a href="/ru/features/nfc-reader-writer/" class="landing-cta-button">Посмотреть функцию</a>
 </div>
 
 </section>

@@ -88,7 +88,7 @@ Aktifkan di **tab Lainnya - Webhook** di dalam aplikasi: masukkan satu URL HTTPS
 
 Aplikasi mengirimkan satu `POST` per pemindaian ke URL yang Anda konfigurasikan. Tidak ada antrian percobaan ulang yang terpisah: jika endpoint Anda tidak dapat dijangkau atau mengembalikan respons non-2xx, POST pemindaian gagal. Targetkan `204 No Content` saat berhasil; 2xx apa pun diperlakukan sebagai diterima.
 
-Halaman ini adalah referensi teknis. Untuk ikhtisar fitur - empat hook otomasi iOS lainnya, harga, dan FAQ - lihat [halaman fitur Webhook & Otomasi](/features/webhooks/).
+Halaman ini adalah referensi teknis. Untuk ikhtisar fitur - empat hook otomasi iOS lainnya, harga, dan FAQ - lihat [halaman fitur Webhook & Otomasi](/id/features/webhooks/).
 
 </section>
 

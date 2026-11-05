@@ -12,7 +12,7 @@ imageAlt: "Tipos de tags NFC alinhados ao lado de um iPhone"
 
 As tags NFC são pequenos circuitos integrados que armazenam informação que qualquer dispositivo com NFC, como o seu telemóvel, consegue ler. Mas há uma coisa que gostava que alguém me tivesse dito mais cedo: nem todas as tags NFC são iguais. Existe todo um zoo de tipos de diferentes fabricantes, cada um com as suas particularidades, e isso torna a escolha do tipo certo para o seu iPhone surpreendentemente complicada.
 
-Passei anos a desenvolver o NFC.cool, uma app para ler e gravar tags NFC, e "que tag devo comprar para o meu iPhone?" é facilmente uma das perguntas que mais recebo. Por isso, esta é a resposta que dou. Vou percorrer os cinco tipos de tags NFC, quem os fabrica de facto, e porque é que um deles é a aposta segura para quase qualquer projeto com iPhone. Se for completamente novo nisto, talvez queira começar pelo meu [guia completo para principiantes sobre tags NFC](/blog/nfc-tags-beginners-guide/) primeiro - este artigo aprofunda mais uma camada.
+Passei anos a desenvolver o NFC.cool, uma app para ler e gravar tags NFC, e "que tag devo comprar para o meu iPhone?" é facilmente uma das perguntas que mais recebo. Por isso, esta é a resposta que dou. Vou percorrer os cinco tipos de tags NFC, quem os fabrica de facto, e porque é que um deles é a aposta segura para quase qualquer projeto com iPhone. Se for completamente novo nisto, talvez queira começar pelo meu [guia completo para principiantes sobre tags NFC](/pt/blog/nfc-tags-beginners-guide/) primeiro - este artigo aprofunda mais uma camada.
 
 ---
 
@@ -38,7 +38,7 @@ As tags de Tipo 3, também conhecidas como FeliCa™, foram desenvolvidas pela S
 
 ## Tipo 4 - MIFARE DESFire®
 
-As tags MIFARE DESFire®, também da NXP Semiconductors, são de Tipo 4. São a opção de alta segurança e alta capacidade, concebidas para tarefas complexas como controlo de acessos seguro e sistemas de transportes públicos. Conseguem armazenar até 8 KB. Quando um projeto precisa genuinamente de proteção criptográfica, é nesta família que olho - aprofundei o lado da segurança no meu artigo sobre [manter segredos seguros em tags NFC encriptadas](/blog/nfc-safe-encrypted-secrets/).
+As tags MIFARE DESFire®, também da NXP Semiconductors, são de Tipo 4. São a opção de alta segurança e alta capacidade, concebidas para tarefas complexas como controlo de acessos seguro e sistemas de transportes públicos. Conseguem armazenar até 8 KB. Quando um projeto precisa genuinamente de proteção criptográfica, é nesta família que olho - aprofundei o lado da segurança no meu artigo sobre [manter segredos seguros em tags NFC encriptadas](/pt/blog/nfc-safe-encrypted-secrets/).
 
 ---
 
@@ -56,7 +56,7 @@ Os modelos NTAG213, NTAG215 e NTAG216 são os mais populares dessa série, e fun
 
 Uma nota prática que me poupou muita frustração: quanto maior a tag e a sua antena, mais fiável é a leitura por um leitor NFC. Eu evitaria os autocolantes extremamente baratos e frágeis se a fiabilidade for importante para o seu projeto - os poucos cêntimos que poupa não compensam uma tag que só lê ao terceiro toque.
 
-O principal que os iPhones fazem com NFC é ler mensagens no formato NFC Data Exchange Format (NDEF) - URLs, texto simples ou vCards (cartões de visita digitais). Qualquer tag que suporte NDEF, e a maioria das tags da série NTAG suporta, é uma escolha sólida para utilizadores de iPhone. Quando estiver pronto para colocar de facto dados numa, escrevi um guia passo a passo sobre [como gravar tags NFC no iPhone](/blog/write-nfc-tags-iphone/).
+O principal que os iPhones fazem com NFC é ler mensagens no formato NFC Data Exchange Format (NDEF) - URLs, texto simples ou vCards (cartões de visita digitais). Qualquer tag que suporte NDEF, e a maioria das tags da série NTAG suporta, é uma escolha sólida para utilizadores de iPhone. Quando estiver pronto para colocar de facto dados numa, escrevi um guia passo a passo sobre [como gravar tags NFC no iPhone](/pt/blog/write-nfc-tags-iphone/).
 
 ---
 
@@ -64,6 +64,6 @@ O principal que os iPhones fazem com NFC é ler mensagens no formato NFC Data Ex
 
 Se anda à procura de tags NFC para usar com o seu iPhone, a minha recomendação honesta é simples: tags de Tipo 2 da série NTAG da NXP Semiconductors. São económicas e dão-lhe a melhor compatibilidade e funcionalidade para o que a maioria das pessoas realmente quer fazer com NFC em iPhones. Compre um pacote de autocolantes NTAG215 e estará preparado para quase tudo.
 
-O NFC continua a evoluir, por isso vale a pena manter um olho atento aos novos desenvolvimentos e às especificações das tags. Para saber mais, veja o meu artigo anterior sobre [aproveitar a magia do NFC em iPhones](/blog/nfc-on-iphones-insider-look/), e se só quiser ver o que já está numa tag, pode [ler tags NFC diretamente no seu navegador](/online-nfc-reader/).
+O NFC continua a evoluir, por isso vale a pena manter um olho atento aos novos desenvolvimentos e às especificações das tags. Para saber mais, veja o meu artigo anterior sobre [aproveitar a magia do NFC em iPhones](/pt/blog/nfc-on-iphones-insider-look/), e se só quiser ver o que já está numa tag, pode [ler tags NFC diretamente no seu navegador](/pt/online-nfc-reader/).
 
 Boas gravações!

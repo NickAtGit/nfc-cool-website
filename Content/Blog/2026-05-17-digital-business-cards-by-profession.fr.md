@@ -2,6 +2,7 @@
 id: nfc-blog-029
 title: "Les cartes de visite numériques selon votre métier"
 date: 2026-05-17
+lastModified: "2026-11-05"
 tags: ["business-cards", "industry", "guides"]
 summary: "Les cartes de visite papier échouent dans tous les métiers, mais elles échouent différemment dans chacun. Un guide pratique des cartes de visite numériques pour les agents immobiliers, les professionnels de santé et les consultants - quoi partager, quoi surveiller et comment choisir une app."
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
@@ -16,7 +17,7 @@ Je développe l'app Business Card chez NFC.cool, et depuis deux ans, j'ai lu bea
 
 La plupart du temps, elle ne l'est pas. Mais la *raison* pour laquelle une carte de visite papier les laisse tomber est vraiment différente d'un métier à l'autre. Un agent immobilier et un médecin hospitalier finissent tous deux par dépasser le papier - pour des raisons totalement différentes.
 
-Alors au lieu d'écrire un énième article « les cartes papier, c'est fini », j'ai organisé celui-ci comme les gens réfléchissent réellement au problème : par métier. Il y a trois sections - immobilier, santé et conseil indépendant - suivies des parties qui valent pour tout le monde, dont un regard honnête sur ce que mon app fait bien et ce qu'elle ne fait pas.
+Alors au lieu d'écrire un énième article « les cartes papier, c'est fini », j'ai organisé celui-ci comme les gens réfléchissent réellement au problème : par métier. Il y a trois sections - immobilier, santé et conseil indépendant - suivies des parties qui valent pour tout le monde, dont ce que mon app fait bien.
 
 ---
 
@@ -130,7 +131,7 @@ Les métiers diffèrent ; la check-list, pas vraiment. Quel que soit votre méti
 - **NFC et QR, les deux.** Le NFC est plus rapide et plus impressionnant en personne ; le QR est universel et fonctionne sur un panneau imprimé, un flyer, une diapo. Vous voulez les deux, pas l'un en option payante.
 - **Plusieurs cartes.** Différents rôles, différents événements, différents publics. Non négociable si vous portez plusieurs casquettes.
 - **Plusieurs langues**, si vous travaillez à l'international - le contenu de la carte, pas seulement l'interface de l'app.
-- **Une confidentialité que vous pouvez expliquer.** Certaines plateformes envoient des e-mails aux personnes qui consultent votre carte, ou enregistrent les conversations. Si votre fournisseur de carte spamme vos contacts, ça rejaillit sur vous. Lisez la politique de confidentialité avant de vous engager.
+- **Une confidentialité que vous pouvez expliquer.** Demandez si une plateforme envoie des e-mails aux personnes qui consultent votre carte, et si elle enregistre les conversations. Si votre fournisseur de carte spamme vos contacts, ça rejaillit sur vous. Lisez la politique de confidentialité avant de vous engager.
 - **Aucun verrouillage matériel.** Beaucoup d'entreprises vendent des cartes NFC propriétaires à 30 à 60 $. Un autocollant NFC à 2 $ que vous programmez vous-même fait exactement le même travail.
 - **Des tarifs honnêtes.** Le SSO d'entreprise et les tableaux de bord d'équipe n'ont aucun intérêt quand vous êtes seul. Cherchez une vraie offre gratuite ou un forfait individuel abordable.
 
@@ -138,33 +139,30 @@ Les métiers diffèrent ; la check-list, pas vraiment. Quel que soit votre méti
 
 ## La place de NFC.cool Business Card
 
-En toute transparence : c'est mon app, alors lisez les prochains paragraphes en le gardant à l'esprit. Je vais essayer d'être franc sur ses forces et ses faiblesses.
+En toute transparence : c'est mon app, alors lisez les prochains paragraphes en le gardant à l'esprit.
 
-NFC.cool Business Card est une app autonome sur iPhone et Android. Voici ce qu'elle fait bien pour les métiers ci-dessus :
+[NFC.cool Business Card](/fr/business-card/) est une app autonome sur iPhone et Android. Voici ce qu'elle fait bien pour les métiers ci-dessus :
 
-- **35 langues** dans l'interface de l'app et l'App Clip - plus que toute autre carte de visite numérique que je connaisse. Votre carte s'affiche dans la langue de votre client sur iOS. (Le site de partage Android est uniquement en anglais pour l'instant.)
+- **35 langues** dans l'interface de l'app et l'App Clip - plus que toute autre carte de visite numérique que je connaisse. Sur iOS, les boutons et les libellés autour de votre carte suivent la langue de votre client.
 - **Aucune app pour la personne qui reçoit votre carte.** Sur iPhone, elle obtient un App Clip natif ; sur Android, une page du domaine nfc.cool. Les deux ont un bouton « Enregistrer le contact ».
 - **Toucher NFC et QR code**, plus un simple lien partageable pour les messageries et les signatures d'e-mail.
 - **Le mode Conférence** - épingle le QR code de votre carte sur votre écran verrouillé pour toute une journée d'événement, sur iPhone (sous forme d'activité en direct) comme sur Android. Vous levez votre téléphone, on scanne, terminé. Pas de déverrouillage, pas besoin de fouiller dans Apple Wallet. L'intégration à Wallet existe aussi, en solution de rechange.
-- **Jusqu'à 100 cartes**, ce qui rend le conseil « une carte par rôle » ci-dessus réellement applicable.
+- **Jusqu'à 10 cartes avec Pro**, ce qui rend le conseil « une carte par rôle » ci-dessus réellement applicable.
 - **Des cartes protégées par code PIN** pour tout ce qui est sensible.
-- **La confidentialité d'abord** : aucune monétisation des données ni publicité, aucune sollicitation des destinataires, aucun enregistrement des conversations, export des données conforme au RGPD.
+- **Confidentialité** : NFC.cool ne vend pas vos données, l'app n'a pas de publicité, elle n'enregistre pas les conversations et vous pouvez tout exporter au format ZIP. NFC.cool n'envoie pas de marketing aux personnes qui consultent votre carte. Avec le forfait Team, votre équipe peut envoyer des e-mails de relance aux personnes qui laissent leurs coordonnées via votre formulaire de prospects.
 - **N'importe quel tag NFC fonctionne.** Je ne vends pas de matériel - écrivez votre carte sur un autocollant que vous possédez déjà.
-- **Tarifs** : une offre gratuite, puis Personal à 20 €/an (1 carte), Small Business à 50 €/an (10 cartes) et Business à 100 €/an (100 cartes).
+- **Tarifs** : un forfait Free avec une carte, puis Personal à 19,99 $ par an (1 carte), Pro à 49,99 $ par an (10 cartes) et [Team](/fr/business-card/teams/) à 50 $ par personne et par an ou 5 $ par mois (jusqu'à 10 cartes par personne). En euros, le tarif équipe affiche le même chiffre.
+- **Pour les équipes** : le forfait Team se connecte à HubSpot, envoie les prospects n'importe où par webhook et propose un tableau de bord web avec rôles et invitations. L'authentification unique et la synchronisation d'annuaire sont mises en place [sur demande](/fr/contact/).
+- **Apps natives et support du fondateur** : l'app est développée en natif pour iPhone et Android, elle n'est pas financée par du capital-risque, et quand vous avez une question, c'est moi qui réponds.
 
-Là où les concurrents ont une vraie longueur d'avance :
-
-- **Les intégrations CRM.** Si votre journée tourne autour de HubSpot ou Salesforce, des apps comme Wave Connect ou Blinq synchronisent les contacts nativement. NFC.cool vous propose à la place un export complet de vos données - pas encore de webhooks.
-- **La gestion d'équipe en entreprise.** Si vous êtes un cabinet de 50 personnes qui a besoin d'un tableau de bord d'administration et d'une synchronisation d'annuaire, ce n'est pas ce pour quoi NFC.cool est conçu.
-
-La version honnête : pour un agent, un médecin ou un indépendant, ce qui compte au quotidien, c'est que le partage soit rapide, que la carte vous ressemble *à vous*, et que rien ne vous mette dans l'embarras plus tard. C'est pour ça que je l'ai conçue. Si vous avez besoin d'un CRM commercial soudé à votre carte de visite, achetez l'outil qui fait ça.
+Pour un agent, un médecin ou un indépendant, ce qui compte au quotidien, c'est que le partage soit rapide, que la carte vous ressemble *à vous*, et que rien ne vous mette dans l'embarras plus tard. C'est pour ça que je l'ai conçue.
 
 Vous pouvez [obtenir NFC.cool Business Card sur l'App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-fr&mt=8) ou [sur Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-fr).
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>NFC.cool Business Card en action</figcaption>
 <ol>
-<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Mes cartes de visite, avec trois cartes : AlexBerger, Conference et Speaking"><p><strong>Une carte par rôle.</strong> Jusqu'à 100 cartes, chacune avec son style et ses liens.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="Mes cartes de visite, avec trois cartes : AlexBerger, Conference et Speaking"><p><strong>Une carte par rôle.</strong> Jusqu'à 10 cartes avec Pro, chacune avec son style et ses liens.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="L'onglet Business Card avec le QR code de la carte et le menu des cartes, leads, contacts et réglages"><p><strong>Partagez-la.</strong> Par NFC, par QR code ou par simple lien.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Les réglages du profil : carte publique ou privée protégée par PIN, et collecte de leads avant ou après l'enregistrement"><p><strong>Vos règles.</strong> Publique ou protégée par PIN, et la collecte de leads quand vous le voulez.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="La liste des leads, chacun marqué Qualified, New, Contacted ou Converted"><p><strong>Faites le suivi.</strong> Tous vos leads dans une liste, avec l'état de chacun.</p></li>
@@ -185,7 +183,7 @@ Les deux, pour des moments différents. Le NFC, c'est un toucher d'une seconde e
 
 ### Puis-je avoir différentes cartes pour différents rôles ?
 
-Oui, et vous devriez. Une carte de visite libre avec l'adresse d'un bien, une carte d'adressage avec un bureau de rendez-vous, une carte de congrès avec les détails de votre intervention - le tout depuis un seul compte, chacune modifiable séparément.
+Oui, et vous devriez. Une carte de visite libre avec l'adresse d'un bien, une carte d'adressage avec un bureau de rendez-vous, une carte de congrès avec les détails de votre intervention - le tout depuis un seul compte, chacune modifiable séparément. Sur NFC.cool Business Card, il vous faut pour cela le forfait Pro.
 
 ### Est-ce que ça marchera avec des clients internationaux ?
 
@@ -193,7 +191,7 @@ Le NFC et le QR fonctionnent sur les téléphones du monde entier. Que la *carte
 
 ### Puis-je voir qui a consulté ma carte, et ces données sont-elles en sécurité ?
 
-Certaines apps vous montrent les consultations ; d'autres vont plus loin et démarchent les personnes qui ont vu votre carte. Ce second comportement est un problème - vos prospects doivent avoir de vos nouvelles à vous, pas de votre fournisseur de carte. NFC.cool propose des statistiques aussi bien sur iPhone que sur Android et ne sollicite jamais les destinataires.
+Certaines apps vous montrent les consultations. Avant d'en choisir une, vérifiez si elle démarche aussi les personnes qui ont vu votre carte - vos prospects doivent avoir de vos nouvelles à vous, pas de votre fournisseur de carte. Les forfaits payants de NFC.cool vous montrent les vues, les enregistrements et les clics sur les liens sous forme de chiffres, jamais de noms, aussi bien sur iPhone que sur Android, et NFC.cool n'envoie pas de marketing aux personnes qui consultent votre carte. Avec le forfait Team, votre propre équipe peut écrire aux personnes qui laissent leurs coordonnées via votre formulaire de prospects.
 
 ### Combien ça coûte vraiment ?
 

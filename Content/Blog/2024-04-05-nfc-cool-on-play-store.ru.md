@@ -5,7 +5,7 @@ date: 2024-04-05
 tags: ["announcements", "android", "nfc-tags"]
 summary: "NFC.cool Tools доступен в Google Play. Сканирование NFC и запись меток теперь и на Android, с тем же набором функций, что и в версии для iOS, там где железо это позволяет."
 metaTitle: "NFC.cool Tools вышел в Google Play"
-metaDescription: "NFC.cool Tools теперь на Android: сканирование и запись NFC-меток, тот же бренд, который ты знаешь по iPhone, теперь в Google Play."
+metaDescription: "NFC.cool Tools в Google Play. Считывай и записывай NFC-метки на Android: ссылки, vCard, Wi-Fi, обычный текст и свои MIME-записи, как и на iPhone."
 ogTitle: "NFC.cool вышел в Play Store"
 ogDescription: "NFC.cool Tools доступен в Google Play: сканирование NFC и запись меток на Android."
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"

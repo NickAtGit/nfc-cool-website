@@ -37,7 +37,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Synchronisation iCloud entre iPhone, iPad et Mac"
-    body: "<p>Les modèles scannés se trouvent dans votre dossier iCloud Documents : l'iPhone avec lequel vous avez scanné, l'iPad sur lequel vous avez révisé et le <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> sur lequel vous éditerez voient tous la même bibliothèque. Capturez en déplacement, terminez au bureau.</p>"
+    body: "<p>Les modèles scannés se trouvent dans votre dossier iCloud Documents : l'iPhone avec lequel vous avez scanné, l'iPad sur lequel vous avez révisé et le <a href=\"/fr/blog/nfc-cool-comes-to-mac/\">Mac</a> sur lequel vous éditerez voient tous la même bibliothèque. Capturez en déplacement, terminez au bureau.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool synchronisé entre iPhone, iPad et Mac"
     platforms: "iOS"

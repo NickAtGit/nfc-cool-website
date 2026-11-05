@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# NFC.cool Dijital Kartvizit
 
-Kartvizitin telefonunda, ister tek başına kullan ister ekibinle. NFC okutarak ya da QR kodla paylaş, kaç kişinin kaydettiğini gör.
+Dijital kartvizitin telefonunda, ister tek başına kullan ister ekibinle. NFC okutarak ya da QR kodla paylaş, kaç kişinin kaydettiğini gör.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-tr&mt=8" class="landing-store-button is-apple" aria-label="App Store'dan indir" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ Kartvizitin telefonunda, ister tek başına kullan ister ekibinle. NFC okutarak 
 
 ## Fiyatlandırma
 
-Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. Uygulamadan alınan Personal ve Pro, müşteri adayı toplama, istatistikler ve üzerinde adımızın geçmediği kart ekler. Ekipler web'den başlar: 14 gün ücretsiz, sonra kişi başına yıllık ya da aylık ödeme. Ekip fiyatı euro olarak da aynı rakamdır.
+Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. Uygulamadan alınan Personal ve Pro, müşteri adayı toplama, istatistikler ve üzerinde adımızın geçmediği kart ekler. Ekipler web'den başlar: 14 gün ücretsiz, sonra kişi başına yıllık ya da aylık ödeme. Ekip fiyatı euro olarak da aynı rakamdır. [Ekip fiyatını ve karşılaştırmasını gör](/tr/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. 
 <article class="page-card">
 <h3>Akıllı kartvizitler</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Dijital kart oluşturma</strong> - markana uyan kartlar hazırla</li>
+<li><strong>Dijital kartvizitler</strong> - markana uyan kartlar hazırla</li>
 <li><strong>Pro ile 10 karta kadar</strong> - farklı roller, markalar ya da etkinlikler için</li>
 <li><strong>Kişiler'den içe aktarma</strong> - mevcut herhangi bir kişiyi karta çevir</li>
 <li><strong>Her zaman güncel</strong> - düzenlemeler anında yansır, yeniden baskı yok</li>
@@ -145,7 +145,7 @@ Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. 
 <article class="page-card">
 <h3>Gizlilik ve güvenlik</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>PIN korumalı profiller</strong> - 4 haneli PIN, sınırlı doğrulama denemesi</li>
+<li><strong>PIN korumalı profiller</strong> - özel kartlarda 4 haneli PIN</li>
 <li><strong>Herkese açık ya da özel</strong> - özel kart yalnızca PIN'iyle açılır</li>
 <li><strong>GDPR veri dışa aktarımı</strong> - istediğin an her şeyi ZIP olarak indir</li>
 <li><strong>Oturum güvenliği</strong> - PIN oturumu kendiliğinden zaman aşımına uğrar</li>
@@ -181,7 +181,7 @@ Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. 
 
 ## Ekiplere özel neler var
 
-Kişisel kart tek kişinindir. Ekipte ise kartlar şirketindir ve bu, kartların yapabileceklerini değiştirir.
+Kişisel kart tek kişinindir. Ekipte ise kartlar şirketindir ve bu, kartların yapabileceklerini değiştirir. [Ekipler için dijital kartvizit](/tr/business-card/teams/) hakkında daha fazlasını oku.
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Tüm müşteri adayları için tek gelen kutusu</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>Ekibin topladığı her müşteri adayı tek ortak gelen kutusuna düşer. Kimde olduğunu ve ne durumda olduğunu gör, doğru kişiye ata, hepsini hesap tablosu olarak dışa aktar.</p></article>
@@ -249,7 +249,7 @@ Kişisel kart tek kişinindir. Ekipte ise kartlar şirketindir ve bu, kartların
 
 <details class="faq-item">
 <summary>Ücretli planı iptal edersem ne olur?</summary>
-<p>Hiçbir şey silinmez, kartların yayında kalır. Yeni müşteri adayı gelmez. Kartlarını görenler de yalnızca planının izin verdiği sayıda kartı kişi olarak kaydedebilir. Diğer kartlar kilitli görünür.</p>
+<p>Hiçbir şey silinmez. Personal ya da Pro'da kartların yayında kalır: yeni müşteri adayı gelmez, kartlarını görenler de yalnızca planının izin verdiği sayıda kartı kişi olarak kaydedebilir. Diğer kartlar kilitli görünür. Ekipte ise abonelik bitince ekibinin kartlarında "geçici olarak kullanılamıyor" sayfası görünür, yeniden abone olduğunda her şey geri gelir.</p>
 </details>
 
 </div>

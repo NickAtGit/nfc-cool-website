@@ -8,7 +8,7 @@ image: "/assets/images/Blog/ios-shortcuts-nfc-tap-counter.webp"
 imageAlt: "NFCステッカーをタップしたあと、タグIDとスキャン回数を表示するアラートが出ているiPhone"
 author: "Nicolo Stanciu"
 metaTitle: "iOSショートカットでNFCタップカウンターのデータを取り出す"
-metaDescription: "NFCタップカウンターのペイロード(タグIDとスキャン回数)を解析する再利用可能なiOSショートカットと、タグアラートのデモ。iCloudリンクから入れてすぐ使えます。"
+metaDescription: "NFCタップカウンターのペイロードからタグIDとスキャン回数を取り出す、再利用可能なiOSショートカットと、それを使ったタグアラートのデモを用意しました。iCloudリンクから入れてすぐ使えるので、自分のショートカットにも組み込めます。"
 ogTitle: "iOSショートカットでNFCタップカウンターのデータを取り出す"
 ogDescription: "NFCタップカウンター向けの、すぐ使えるiOSショートカット2本 - 再利用可能なパーサーと、タグアラートのデモ。"
 ---
@@ -34,7 +34,7 @@ ogDescription: "NFCタップカウンター向けの、すぐ使えるiOSショ�
 
 タップカウンターの設定画面で、タグが配信する種類を選びます。URL、メール、SMS、またはショートカットです。タップカウンターやタグIDのスイッチをオンにすると、アプリはその内容の中にプレースホルダのバイト列を埋め込み、チップは読み取りごとにそれをライブの値で置き換えます。タグIDを`049F50824F1390`、カウントを`000007`とすると、4つの種類は最終的にこんな見た目になります。
 
-- **URL:** `https://nfc.cool/tap-counter/` は [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007) になります
+- **URL:** `https://nfc.cool/tap-counter/` は [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/ja/tap-counter/?nfc=049F50824F1390x000007) になります
 - **メール本文:** `こんにちは、私のカードです。` は `こんにちは、私のカードです。 049F50824F1390x000007` になります
 - **SMS本文:** `ご注文を承りました!` は `ご注文を承りました! 049F50824F1390x000007` になります
 - **ショートカット入力:** `log-entry` は `log-entry 049F50824F1390x000007` になります

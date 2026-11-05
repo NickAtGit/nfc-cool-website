@@ -7,13 +7,13 @@ summary: "你的 vCard NFC 名片在 Android 上能用、在 iPhone 上却不行
 image: "/assets/images/Blog/vcard-nfc-iphone-not-working.webp"
 imageAlt: "iPhone 排查 vCard NFC 名片问题，并附修复步骤"
 metaTitle: "为什么 vCard NFC 标签在 iPhone 上不管用 | NFC.cool"
-metaDescription: "你的 vCard NFC 名片在 Android 上能用、在 iPhone 上却不行？本文讲讲 iOS 为何会忽略 vCard 数据，以及在每一部手机上都管用的简单解决办法。"
+metaDescription: "你的 vCard NFC 名片在 Android 上能用、在 iPhone 上却不行？本文讲讲 iOS 为何会忽略标签上的 vCard 数据，App 能做到什么、做不到什么，以及在每一部手机上都管用的简单解决办法：改用基于网址的 NFC 名片。"
 ogTitle: "为什么 vCard NFC 标签在 iPhone 上不管用"
 ogDescription: "iPhone 会悄无声息地忽略 NFC 标签上的 vCard 数据。本文讲讲原因，以及什么才真正管用。"
 ---
 我做 NFC App 已经好多年了。每一周，无一例外，都会有人给我发来大致这样的邮件：
 
-> 「嘿，我买了一张 NFC 名片，把我的 vCard 写了上去。在我朋友的 Android 上好用得很。可我一轻触到我的 iPhone 上？什么都没发生。我这张卡是不是坏了？」
+> “嘿，我买了一张 NFC 名片，把我的 vCard 写了上去。在我朋友的 Android 上好用得很。可我一轻触到我的 iPhone 上？什么都没发生。我这张卡是不是坏了？”
 
 你的卡没坏。
 
@@ -52,11 +52,11 @@ Android 原生支持 vCard，是因为 Google 认为这么做有道理。Apple �
 
 ## 等等，App 在 iPhone 上不能读 vCard 吗？
 
-从技术上说，能。如果你在 iPhone 上装一个像 [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 这样的 NFC 读取 App，或者在 Android 上装 [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en)，它就能读取标签的原始数据（包括 vCard 记录）并显示出联系人信息。在 Android 上，[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) 在检测到标签上有 vCard 时会自动这么做。
+从技术上说，能。如果你在 iPhone 上装一个像 [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-zh&mt=8) 这样的 NFC 读取 App，或者在 Android 上装 [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-zh)，它就能读取标签的原始数据（包括 vCard 记录）并显示出联系人信息。在 Android 上，[NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-zh) 在检测到标签上有 vCard 时会自动这么做。
 
 但问题在于：**扫描你名片的那个人，得事先就装好这个 App。**
 
-在社交活动上，这意味着你得说：*「嘿，在你扫我的名片之前，能不能先去 App Store 搜一个 NFC App，下载它，等它装好，打开它，授予 NFC 权限，然后再扫？」*
+在社交活动上，这意味着你得说：*“嘿，在你扫我的名片之前，能不能先去 App Store 搜一个 NFC App，下载它，等它装好，打开它，授予 NFC 权限，然后再扫？”*
 
 人家早就走开了。那份神奇感也没了。
 
@@ -80,7 +80,7 @@ NFC.cool Tools 用来读取和写入 NFC 标签非常棒，我做它正是为了
 
 正确的做法是：存一个指向数字档案的网址。
 
-[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 做的正是这件事。我们不会把 vCard 数据硬塞进标签里（那样 iPhone 会忽略），而是存一个指向你数字档案的智能链接。
+[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-zh&mt=8) 做的正是这件事。我们不会把 vCard 数据硬塞进标签里（那样 iPhone 会忽略），而是存一个指向你数字档案的智能链接。
 
 **当有人轻触你的名片时：**
 
@@ -108,7 +108,7 @@ NFC.cool Tools 用来读取和写入 NFC 标签非常棒，我做它正是为了
 LinkedIn、Twitter、Instagram、你的作品集、你的 Calendly 预约链接，一次轻触全都能访问到。
 
 ▸ **智能社交功能**
-你知道那种感觉吧：认识了一个人，存下了他的联系方式，两周后却盯着「John - 会议」，对 John 是谁毫无印象？
+你知道那种感觉吧：认识了一个人，存下了他的联系方式，两周后却盯着“John - 会议”，对 John 是谁毫无印象？
 
 NFC.cool 让你把背景信息也记下来：你们在哪里认识、聊了些什么、后续跟进的备注。这就像一个不用每月花 50 美元的 CRM。
 
@@ -121,7 +121,7 @@ NFC.cool 让你把背景信息也记下来：你们在哪里认识、聊了些�
 vCard 做不到这些里的任何一项。它们从你写入的那一刻起就被定格在了时间里。
 
 ▸ **每一部手机都能用**
-和 vCard 不同，基于网址的档案在每一部智能手机上都能用：iPhone、Android，甚至只有浏览器的老旧设备。iOS 上的 [NFC.cool Business Card App](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 用的是 [App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8)，所以接收方甚至什么都不用装。在 Android 上，[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en)会即时打开一个网页档案。
+和 vCard 不同，基于网址的档案在每一部智能手机上都能用：iPhone、Android，甚至只有浏览器的老旧设备。iOS 上的 [NFC.cool Business Card App](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-zh&mt=8) 用的是 [App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-zh&mt=8)，所以接收方甚至什么都不用装。在 Android 上，[NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-zh)会即时打开一个网页档案。
 
 ---
 
@@ -137,7 +137,7 @@ vCard 做不到这些里的任何一项。它们从你写入的那一刻起就�
 
 **那我到底能不能在 iPhone 上读取 vCard NFC 标签？**
 
-只有装了 NFC 读取 App 才行。iPhone 上的 [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 和 Android 上的 [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) 都能读取并显示 NFC 标签上的 vCard 数据。Android 无需 App 即可原生完成；iPhone 则需要一个。但要分享名片，更好的路子是 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8)：接收方那一端不需要任何 App。
+只有装了 NFC 读取 App 才行。iPhone 上的 [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-zh&mt=8) 和 Android 上的 [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-zh) 都能读取并显示 NFC 标签上的 vCard 数据。Android 无需 App 即可原生完成；iPhone 则需要一个。但要分享名片，更好的路子是 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-zh&mt=8)：接收方那一端不需要任何 App。
 
 **哪种 NFC 标签最适合做电子名片？**
 
@@ -145,7 +145,7 @@ vCard 做不到这些里的任何一项。它们从你写入的那一刻起就�
 
 **我能用我的 iPhone 写入 NFC 标签吗？**
 
-能。[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 让你直接在 iPhone 上把网址和其他数据写入 NFC 标签。它支持所有常见的 NDEF 记录类型，并适用于任何 NTAG 标签。
+能。[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-zh&mt=8) 让你直接在 iPhone 上把网址和其他数据写入 NFC 标签。它支持所有常见的 NDEF 记录类型，并适用于任何 NTAG 标签。
 
 ---
 
@@ -159,10 +159,10 @@ vCard 做不到这些里的任何一项。它们从你写入的那一刻起就�
 2. 让这个网址指向一个内容丰富的数字档案
 3. 让档案去处理联系人保存、链接分享以及其余的一切
 
-这正是 NFC.cool Business Card 所做的。也是我在每一场会议、聚会和社交活动上都在用的。
+这正是 [NFC.cool Business Card](/zh/business-card/) 所做的。也是我在每一场会议、聚会和社交活动上都在用的。
 
 我轻触。他们保存。我们俩各自继续过自己的日子。
 
 **事情本就该这样。**
 
-*NFC.cool Business Card 在 [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 和 [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) 上均可使用。NFC.cool Tools（标签读取与写入工具）在 [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) 和 [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) 上均可使用。*
+*NFC.cool Business Card 在 [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-zh&mt=8) 和 [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-zh) 上均可使用。NFC.cool Tools（标签读取与写入工具）在 [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-zh&mt=8) 和 [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-zh) 上均可使用。*

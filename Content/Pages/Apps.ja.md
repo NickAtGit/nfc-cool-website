@@ -1,7 +1,7 @@
 ---
 title: "その他のアプリ"
 slug: "apps"
-description: "NFC.cool ToolsとBusiness Cardのほかにも、QRスキャン、3Dスキャン、フライト記録、eバイクモニターなど、小さなアプリをいくつも開発しています。すべてひとりの開発者の手から。"
+description: "NFC.cool ToolsとBusiness Cardのほかにも、QRスキャン、3Dスキャン、フライト記録、eバイクモニターなど、小さなアプリをいくつも開発しています。どれもNFC.coolの創業者が自ら作り、磨き続けているアプリです。"
 ---
 
 <section class="page-hero">
@@ -10,7 +10,7 @@ description: "NFC.cool ToolsとBusiness Cardのほかにも、QRスキャン、3
 
 <div class="page-hero-text">
 
-# 同じキーボードから生まれたその他のアプリ
+# NFC.coolのその他のアプリ
 
 NFC.cool ToolsとBusiness Cardアプリが主役ですが、私が作っているのはそれだけではありません。ここに並ぶのは、あったらいいのにと思って自分で作り、使ってくれる人が増えたから磨き続けている、小さくて集中したアプリたちです。
 

@@ -76,6 +76,20 @@ struct MarketingPageRenderer: Renderer {
             pagePath: pagePath,
             faq: Self.faqItems(inHTML: page.htmlContent)
          )
+      case "business-card/teams":
+         // Home → Business Card → this page, in this language's own words.
+         let parent = context.staticPages.first { $0.slug == "business-card" && $0.locale == page.locale }
+         jsonLD = StructuredData.teamPageGraph(
+            baseURL: context.config.baseURL,
+            homePath: context.router.homePath(),
+            siteName: context.config.name,
+            parentTitle: parent?.title ?? "Business Card",
+            parentPath: parent.map { context.router.staticPagePath(for: $0) } ?? "\(context.router.homePath())business-card/",
+            pageTitle: page.title,
+            pagePath: pagePath,
+            description: page.description ?? "",
+            faq: Self.faqItems(inHTML: page.htmlContent)
+         )
       case "reviews":
          // Reviews are translated into each page's language, so the English
          // review text in the JSON-LD only matches the default-locale page.

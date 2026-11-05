@@ -67,7 +67,7 @@ Alternatif paling umum untuk URL. Kodekan vCard lengkap (nama, telepon, email, o
 
 Kartu nama QR bekerja dengan cara ini secara langsung. Ini juga alasan vCard QR bekerja di setiap ponsel tanpa aplikasi khusus - vCard adalah standar berusia 30 tahun yang sudah dikenal OS.
 
-Trade-off vs alur kartu nama NFC.cool: vCard QR tidak bisa diperbarui. Begitu dicetak, data kontak beku. Jika Anda menginginkan "sumber kebenaran tunggal" yang bisa diedit nanti, kodekan URL ke halaman kartu nama langsung Anda sebagai gantinya - itulah yang dilakukan [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8), dan itulah mengapa kami merekomendasikannya daripada vCard QR mentah untuk networking serius.
+Trade-off vs alur kartu nama NFC.cool: vCard QR tidak bisa diperbarui. Begitu dicetak, data kontak beku. Jika Anda menginginkan "sumber kebenaran tunggal" yang bisa diedit nanti, kodekan URL ke halaman kartu nama langsung Anda sebagai gantinya - itulah yang dilakukan [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-id&mt=8), dan itulah mengapa kami merekomendasikannya daripada vCard QR mentah untuk networking serius. Anda bisa [melihat apa saja yang dilakukan NFC.cool Business Card di sini](/id/business-card/).
 
 ---
 
@@ -93,4 +93,4 @@ Beberapa aplikasi mendaftarkan skema URL kustom (`myapp://...`) dan mengenali ko
 
 Pemindai NFC.cool membaca semua format di atas dan mengarahkannya ke tindakan yang tepat: URL dibuka di browser, vCard menawarkan untuk disimpan, Wi-Fi meminta untuk terhubung, lokasi dibuka di peta. Pemindai juga menyimpan riwayat lokal setiap pemindaian, yang berguna saat Anda sudah memindai 30 menu di konferensi dan ingin mengunjungi kembali salah satunya.
 
-Seluruh stack QR - generator dan pemindai - tersedia di dalam [NFC.cool Tools untuk iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-en).
+Seluruh stack QR - generator dan pemindai - tersedia di dalam [NFC.cool Tools untuk iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-id&mt=8) dan [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-id).

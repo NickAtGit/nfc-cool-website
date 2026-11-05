@@ -52,7 +52,7 @@ iPhone الخاص بك ببساطة لا يدعم vCard على وسوم NFC. و�
 
 ## لكن مهلًا - ألا يستطيع تطبيق قراءة بطاقات vCard على iPhone؟
 
-من الناحية التقنية، نعم. إذا ثبّتَ تطبيق قراءة NFC مثل [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) على iPhone أو [NFC.cool Tools على Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en)، فيمكنه قراءة بيانات الوسم الخام - بما في ذلك سجلات vCard - وعرض معلومات جهة الاتصال. على Android، يفعل [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) هذا تلقائيًا عندما يكتشف vCard على وسم.
+من الناحية التقنية، نعم. إذا ثبّتَ تطبيق قراءة NFC مثل [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ar&mt=8) على iPhone أو [NFC.cool Tools على Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ar)، فيمكنه قراءة بيانات الوسم الخام - بما في ذلك سجلات vCard - وعرض معلومات جهة الاتصال. على Android، يفعل [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ar) هذا تلقائيًا عندما يكتشف vCard على وسم.
 
 لكن ها هي المشكلة: **الشخص الذي يمسح بطاقتك يحتاج إلى أن يكون التطبيق مثبّتًا لديه مسبقًا.**
 
@@ -80,7 +80,7 @@ iPhone الخاص بك ببساطة لا يدعم vCard على وسوم NFC. و�
 
 بدلًا من ذلك، خزّن رابطًا يشير إلى ملف تعريفي رقمي.
 
-هذا بالضبط ما يفعله [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8). بدلًا من حشر بيانات vCard على الوسم (حيث تتجاهلها هواتف iPhone)، نخزّن رابطًا ذكيًا يقود إلى ملفك التعريفي الرقمي.
+هذا بالضبط ما يفعله [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ar&mt=8). بدلًا من حشر بيانات vCard على الوسم (حيث تتجاهلها هواتف iPhone)، نخزّن رابطًا ذكيًا يقود إلى ملفك التعريفي الرقمي.
 
 **عندما يلمس أحدهم بطاقتك:**
 
@@ -121,7 +121,7 @@ LinkedIn، وTwitter، وInstagram، ومعرض أعمالك، ورابط الح
 لا تستطيع بطاقات vCard فعل أي من هذا. إنها مجمّدة في الزمن منذ لحظة كتابتها.
 
 ▸ **يعمل على كل هاتف**
-على عكس vCard، يعمل الملف التعريفي القائم على رابط على كل هاتف ذكي - iPhone وAndroid، وحتى الأجهزة الأقدم التي لا تملك سوى متصفح. يستخدم [تطبيق NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) على iOS تقنية [App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) حتى لا يحتاج المستقبِلون إلى تثبيت أي شيء. على Android، يفتح [NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) ملفًا تعريفيًا على الويب فورًا.
+على عكس vCard، يعمل الملف التعريفي القائم على رابط على كل هاتف ذكي - iPhone وAndroid، وحتى الأجهزة الأقدم التي لا تملك سوى متصفح. يستخدم [تطبيق NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ar&mt=8) على iOS تقنية [App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ar&mt=8) حتى لا يحتاج المستقبِلون إلى تثبيت أي شيء. على Android، يفتح [NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ar) ملفًا تعريفيًا على الويب فورًا.
 
 ---
 
@@ -137,7 +137,7 @@ LinkedIn، وTwitter، وInstagram، ومعرض أعمالك، ورابط الح
 
 **هل يمكنني قراءة وسوم vCard NFC على iPhone من الأساس؟**
 
-فقط مع تثبيت تطبيق قراءة NFC. يستطيع [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) على iPhone و[NFC.cool Tools على Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) كلاهما قراءة بيانات vCard من وسوم NFC وعرضها. يفعل Android هذا بشكل أصلي دون تطبيق؛ أما iPhone فيتطلب واحدًا. لكن لمشاركة بطاقات العمل، المسار الأفضل هو [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) - دون حاجة إلى تطبيق لدى الطرف المستقبِل.
+فقط مع تثبيت تطبيق قراءة NFC. يستطيع [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ar&mt=8) على iPhone و[NFC.cool Tools على Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ar) كلاهما قراءة بيانات vCard من وسوم NFC وعرضها. يفعل Android هذا بشكل أصلي دون تطبيق؛ أما iPhone فيتطلب واحدًا. لكن لمشاركة بطاقات العمل، المسار الأفضل هو [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ar&mt=8) - دون حاجة إلى تطبيق لدى الطرف المستقبِل.
 
 **ما وسوم NFC الأفضل لبطاقات العمل الرقمية؟**
 
@@ -145,7 +145,7 @@ LinkedIn، وTwitter، وInstagram، ومعرض أعمالك، ورابط الح
 
 **هل يمكنني كتابة وسوم NFC باستخدام iPhone؟**
 
-نعم - يتيح لك [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) كتابة الروابط وبيانات أخرى على وسوم NFC مباشرة على iPhone. يدعم جميع أنواع سجلات NDEF الشائعة ويعمل مع أي وسم NTAG.
+نعم - يتيح لك [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ar&mt=8) كتابة الروابط وبيانات أخرى على وسوم NFC مباشرة على iPhone. يدعم جميع أنواع سجلات NDEF الشائعة ويعمل مع أي وسم NTAG.
 
 ---
 
@@ -159,10 +159,10 @@ LinkedIn، وTwitter، وInstagram، ومعرض أعمالك، ورابط الح
 2. وجّه ذلك الرابط إلى ملف تعريفي رقمي غني
 3. دع الملف التعريفي يتولّى حفظ جهة الاتصال، ومشاركة الروابط، وكل شيء آخر
 
-هذا ما يفعله NFC.cool Business Card. إنه ما أستخدمه في كل مؤتمر ولقاء وفعالية تواصل.
+هذا ما يفعله [NFC.cool Business Card](/ar/business-card/). إنه ما أستخدمه في كل مؤتمر ولقاء وفعالية تواصل.
 
 أنا ألمس. هم يحفظون. وكلانا يمضي في حياته.
 
 **هكذا يجب أن يعمل الأمر.**
 
-*يتوفّر NFC.cool Business Card على [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) و[Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en). ويتوفّر NFC.cool Tools (قارئ الوسوم وكاتبها) على [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) و[Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en).*
+*يتوفّر NFC.cool Business Card على [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ar&mt=8) و[Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ar). ويتوفّر NFC.cool Tools (قارئ الوسوم وكاتبها) على [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-ar&mt=8) و[Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-ar).*

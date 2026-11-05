@@ -1,7 +1,7 @@
 ---
 title: "用户评价"
 slug: "reviews"
-description: "看看大家如何评价 NFC.cool：来自美国、德国、日本等地用户的真实五星好评，涵盖 iPhone 和 Android 上的 NFC.cool Tools。"
+description: "看看大家如何评价 NFC.cool：来自美国、德国、日本等地用户的真实五星好评，涵盖 iPhone 和 Android 上的 NFC.cool Tools，以及 NFC.cool Business Card。每条引言都附上了昵称，可以在应用商店中搜到原文。"
 ---
 
 <section class="page-hero">
@@ -17,10 +17,10 @@ description: "看看大家如何评价 NFC.cool：来自美国、德国、日本
 下方每一条引言都是真实的用户评价，并附上了评价者的昵称。部分评价原文为其他语言，已翻译成中文（标注为“已翻译”），在应用商店中搜索昵称即可找到原文。
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-reviews-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-reviews-zh&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-reviews-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-reviews-zh" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -203,9 +203,9 @@ description: "看看大家如何评价 NFC.cool：来自美国、德国、日本
 
 如果你用过 NFC.cool 又恰好有空，在 App Store 上花几秒钟评个分会很有帮助，而且这也是唯一一种无需运行任何数据分析就能获得的反馈信号。
 
-- [在 App Store 上为 NFC.cool Tools 评分](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-reviews-en&mt=8)
-- [在 App Store 上为 NFC.cool Business Card 评分](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-reviews-en&mt=8)
-- [在 Google Play 上为 NFC.cool Tools 评分](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-reviews-en)
+- [在 App Store 上为 NFC.cool Tools 评分](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-reviews-zh&mt=8)
+- [在 App Store 上为 NFC.cool Business Card 评分](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-reviews-zh&mt=8)
+- [在 Google Play 上为 NFC.cool Tools 评分](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-reviews-zh)
 
 感谢你成为这一切的一部分。
 

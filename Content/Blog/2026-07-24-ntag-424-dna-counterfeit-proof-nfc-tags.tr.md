@@ -21,7 +21,7 @@ Ben de bir tag'i merak ettiğimde hep yaptığım şeyi yaptım. AliExpress'e gi
 
 ## NTAG 424 DNA tag aslında nedir
 
-Dışarıdan sıradan bir NFC tag. Bir yığın ucuz tag'in arasından ayırt edemezsin ve her telefon onu şikayetsiz okur. [NFC tag türleri rehberimi](/blog/nfc-tag-types-for-iphones/) okuduysan, iPhone'unun okumaktan memnun olduğu bir Tip 4 tag daha olarak yerine oturuyor.
+Dışarıdan sıradan bir NFC tag. Bir yığın ucuz tag'in arasından ayırt edemezsin ve her telefon onu şikayetsiz okur. [NFC tag türleri rehberimi](/tr/blog/nfc-tag-types-for-iphones/) okuduysan, iPhone'unun okumaktan memnun olduğu bir Tip 4 tag daha olarak yerine oturuyor.
 
 Farklı olan kısım "DNA". Çipin içinde birkaç AES-128 anahtarı ve küçük bir kriptografi motoru var; düz bir NTAG215'in ya da çoklu paketten çıkan bir etiketin yapamayacağı bir şeyi yapabiliyor: her okutmayı tek tek *imzalayabiliyor*. Bütün mesele o imza. "Al sana bağlantı" diyen bir tag ile "al sana bağlantı ve şu anda onu sunanın ben, yani bu belirli gerçek çip olduğunun kriptografik kanıtı" diyen bir tag arasındaki fark bu.
 
@@ -33,7 +33,7 @@ Lüks markaların gerçekte parasını ödediği şey de bu: bağlantının kend
 
 Kafamda oturduğu an şu oldu. Tag'in gerçekte ne gönderdiğine baktığımda, bunu anlamak için gereken düzeneğin çoğunu çoktan kurmuş olduğumu fark ettim.
 
-Bu yılın başında bir [NFC okutma sayacı özelliği](/blog/count-nfc-tag-scans/) yayınladım: kaç kez okunduğunu sayan ve o sayıyı adrese koyan, böylece bir bağlantının bunun 47. okutma olduğunu bilebildiği bir tag. NTAG 424 DNA tag de aynı fikir, üstüne taklit edilmesini olanaksız kılan bir şifreleme katmanı sarılmış hali.
+Bu yılın başında bir [NFC okutma sayacı özelliği](/tr/blog/count-nfc-tag-scans/) yayınladım: kaç kez okunduğunu sayan ve o sayıyı adrese koyan, böylece bir bağlantının bunun 47. okutma olduğunu bilebildiği bir tag. NTAG 424 DNA tag de aynı fikir, üstüne taklit edilmesini olanaksız kılan bir şifreleme katmanı sarılmış hali.
 
 Mekanizmanın adı **SUN** (Güvenli Benzersiz NFC) ya da [NXP'nin veri sayfasını](https://www.nxp.com/docs/en/data-sheet/NT4H2421Gx.pdf) okuyorsan **SDM** (Güvenli Dinamik Mesajlaşma). Tag'e `https://example.com` gibi normal bir bağlantı yazıyorsun. Ama çipe, her okutulduğunda o bağlantının bazı parçalarını anında yeniden yazmasını söylüyorsun. Yani telefonunun gerçekte aldığı şey şuna benziyor:
 
@@ -196,7 +196,7 @@ Değer verdiğin bir tag'e dokunmadan önce yedeğinde alıştırma yap.
 
 Açıkçası? NFC tag okutan çoğu kişinin bunların hiçbirine ihtiyacı olmuyor ve bunda bir sorun yok. Bağlantı açan bir etiket harika, sıkıcı ve işe yarar bir şey.
 
-Ama bunlardan birini bir kez elinde tuttuğunda kullanımlar apaçık oluyor. Lüks bir çanta gerçek olduğunu kanıtlayabiliyor. Bir şişe şarap ya da viski, sessizce açılıp yeniden doldurulmadığını gösterebiliyor; o yarısını kurcalama mührü taşıyor. Bir kutu ilaç, hem içindeki gerçek ilaca hem kimsenin kırmadığı bir mühre kefil oluyor. Etkinlik biletleri ekran görüntüsü alınıp dağıtılabilen şeyler olmaktan çıkıyor ve kapıdaki bir tag, birinin kanepesinden kayıtlı bir bağlantıyı yeniden göndermek yerine gerçekten orada durduğunu kanıtlıyor. [AB Dijital Ürün Pasaportu'nun](/blog/eu-digital-product-passport-2026/) düzenleme tarafından dolandığı gerçeklik sorununun aynısı, tek tek nesne düzeyinde çözülmüş hali.
+Ama bunlardan birini bir kez elinde tuttuğunda kullanımlar apaçık oluyor. Lüks bir çanta gerçek olduğunu kanıtlayabiliyor. Bir şişe şarap ya da viski, sessizce açılıp yeniden doldurulmadığını gösterebiliyor; o yarısını kurcalama mührü taşıyor. Bir kutu ilaç, hem içindeki gerçek ilaca hem kimsenin kırmadığı bir mühre kefil oluyor. Etkinlik biletleri ekran görüntüsü alınıp dağıtılabilen şeyler olmaktan çıkıyor ve kapıdaki bir tag, birinin kanepesinden kayıtlı bir bağlantıyı yeniden göndermek yerine gerçekten orada durduğunu kanıtlıyor. [AB Dijital Ürün Pasaportu'nun](/tr/blog/eu-digital-product-passport-2026/) düzenleme tarafından dolandığı gerçeklik sorununun aynısı, tek tek nesne düzeyinde çözülmüş hali.
 
 Bunu bin kullanıcı istedi diye yapmadım. Merakımdan internetten tuhaf tag'ler aldım, nasıl çalıştıklarını çözdüm ve sonra veri sayfasının tek bir sayfasını bile çevirmeden bırakamadım diye yaptım. İyi özellikler genelde böyle başlıyor.
 
@@ -206,4 +206,4 @@ Bunu bin kullanıcı istedi diye yapmadım. Merakımdan internetten tuhaf tag'le
 
 NTAG 424 DNA tag'ler, NFC'nin kurcalamaya karşı korumalı mühre en çok yaklaştığı nokta. Birinin ürünü kopyalamasını engelleyemiyorlar ama ürünün *gerçek olduğunun kanıtını* taklit edilemez kılıyorlar, çünkü o kanıt yalnızca gerçek çipin üretebileceği taze bir kriptografik imza.
 
-NFC.cool Tools onları okuyor; çipi, okutmayı ve kurcalama mührünü doğruluyor ve çipin tamamını ayarlaman için sana veriyor: her anahtar, her dosyanın izinleri, çipin kendi ayarları, hatta LRP, hepsi telefonundan. Bir okutmanın gerçeği sahteden nasıl ayırdığını hiç merak ettiysen [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-tr&mt=8) ya da [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-tr) için indir, birkaç avroya [bu tag'lerden](/affiliate-links/) birkaç tane sipariş et ve kendin okut. İyi bir tavşan deliği.
+NFC.cool Tools onları okuyor; çipi, okutmayı ve kurcalama mührünü doğruluyor ve çipin tamamını ayarlaman için sana veriyor: her anahtar, her dosyanın izinleri, çipin kendi ayarları, hatta LRP, hepsi telefonundan. Bir okutmanın gerçeği sahteden nasıl ayırdığını hiç merak ettiysen [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ntag-424-dna-counterfeit-proof-nfc-tags-tr&mt=8) ya da [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ntag-424-dna-counterfeit-proof-nfc-tags-tr) için indir, birkaç avroya [bu tag'lerden](/tr/affiliate-links/) birkaç tane sipariş et ve kendin okut. İyi bir tavşan deliği.

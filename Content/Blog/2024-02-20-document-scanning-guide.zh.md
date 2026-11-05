@@ -5,7 +5,7 @@ date: 2024-02-20
 tags: ["guides", "iphone"]
 summary: "一份关于 NFC.cool 文档扫描的务实指南：如何拍出清晰的扫描件、后期处理这一步为什么重要，以及 OCR 如何把扫描件变成可搜索的文本和 PDF。"
 metaTitle: "用 NFC.cool Tools 扫描文档：一份务实指南"
-metaDescription: "如何用 NFC.cool Tools 扫描文档：拍摄、后期处理、运行 OCR，并导出为可搜索的 PDF。附带关于光线和边角检测的技巧。"
+metaDescription: "如何用 NFC.cool Tools 扫描文档：拍摄、后期处理、运行 OCR，并导出为可搜索的 PDF。这份务实指南附带关于光线和边角检测的技巧，也讲讲为什么扫描胜过直接拍照，而且 OCR 全程都在设备本地运行。"
 ogTitle: "随身可用的文档扫描，尽在 NFC.cool Tools"
 ogDescription: "用 NFC.cool Tools 扫描文档、运行 OCR，并导出可搜索的 PDF。"
 image: "/assets/images/Blog/document-scanning-guide.webp"
@@ -77,4 +77,4 @@ OCR 的质量取决于三点：图像清晰度、光线和字体。干净白底�
 
 对于收据、合同、已签字的表单、商务文档，请扫描，而不是拍照。
 
-文档扫描是 [iPhone 版 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-document-scanning-guide-en&mt=8) 的一部分（Android 版专注于 NFC，因为文档扫描需要用到 Apple 的 Vision 框架）。
+文档扫描是 [iPhone 版 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-document-scanning-guide-zh&mt=8) 的一部分（Android 版专注于 NFC，因为文档扫描需要用到 Apple 的 Vision 框架）。

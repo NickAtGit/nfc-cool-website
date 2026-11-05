@@ -118,8 +118,8 @@ Tag NFC dapat menghitung pemindaiannya sendiri - angkanya ada di chip, bukan di 
 Ada lebih banyak tentang NFC Tap Counter - chip mana yang bekerja, kasus penggunaan dunia nyata, dan pengaturan langkah demi langkah yang lengkap.
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">Baca panduannya</a>
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Lihat fiturnya</a>
+<a href="/id/blog/count-nfc-tag-scans/" class="landing-cta-button">Baca panduannya</a>
+<a href="/id/features/nfc-reader-writer/" class="landing-cta-button">Lihat fiturnya</a>
 </div>
 
 </section>

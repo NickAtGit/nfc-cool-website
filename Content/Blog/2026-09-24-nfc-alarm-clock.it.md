@@ -12,7 +12,7 @@ metaDescription: "Una sveglia per iPhone e Android che si spegne solo scansionan
 ogTitle: "La sveglia che non ti concede altri cinque minuti"
 ogDescription: "La Sveglia NFC tace solo quando hai seguito un percorso di tag NFC sparsi per casa. Ecco come funziona su iPhone e Android."
 ---
-Fare lo sviluppatore indipendente ha un ritmo tutto suo, che degli orari d'ufficio se ne infischia. Il codice migliore lo scrivo tardi, quando i messaggi smettono di arrivare e la casa è silenziosa, e senza accorgermene si fanno le due di notte. La sveglia, ovviamente, suona sempre alla stessa ora. E io premo Posticipa. Poi di nuovo. Poi una terza volta, finché metà della mattinata che avevo in programma è andata in fumo.
+Fare il fondatore ha un ritmo tutto suo, che degli orari d'ufficio se ne infischia. Il codice migliore lo scrivo tardi, quando i messaggi smettono di arrivare e la casa è silenziosa, e senza accorgermene si fanno le due di notte. La sveglia, ovviamente, suona sempre alla stessa ora. E io premo Posticipa. Poi di nuovo. Poi una terza volta, finché metà della mattinata che avevo in programma è andata in fumo.
 
 Ci ho rimuginato un bel po', chiedendomi cosa potessi fare davvero. Una sveglia più forte? Ci farei l'abitudine e continuerei a dormire. Il telefono dall'altra parte della stanza? Mi alzerei, premerei Interrompi e tornerei sotto le coperte. Il problema non è mai stato sentire la sveglia. Il problema era che per spegnerla bastava un tocco, senza nemmeno doverci pensare.
 
@@ -80,7 +80,7 @@ Esistono app sveglia che ti fanno fotografare il lavandino del bagno o scansiona
 
 Un tag NFC, preso da solo, è un pezzetto di metallo. Un chip minuscolo con un identificativo e nient'altro, appoggiato su una mensola. La cosa che più mi diverte del lavorare a NFC.cool è proprio dare un senso a quel pezzetto di metallo: trasformare un adesivo da pochi centesimi in qualcosa che nella tua vita ha davvero un ruolo. Con la Sveglia NFC il tag non deve nemmeno contenere dati. L'app riconosce ogni tag dall'identificativo del chip e non ci scrive sopra nulla. Va bene qualsiasi tag, anche quella confezione di adesivi di scorta che hai nel cassetto. E la luce non conta: un tag si scansiona anche in un corridoio buio, dove una fotocamera andrebbe in difficoltà, e non c'è niente da inquadrare.
 
-Se non hai ancora dei tag, nella mia [guida ai tag NFC per principianti](/blog/nfc-tags-beginners-guide/) spiego quali comprare.
+Se non hai ancora dei tag, nella mia [guida ai tag NFC per principianti](/it/blog/nfc-tags-beginners-guide/) spiego quali comprare.
 
 ---
 

@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "二维码扫描器与工作室"
-  subtitle: "在 iPhone 和 Android 上用摄像头扫描任意二维码，在 iPhone 上还可从截图中识别出二维码。在内置的二维码工作室里，用徽标、表情符号和品牌色设计自定义二维码。"
+  subtitle: "在 iPhone 和 Android 上用摄像头扫描任意二维码，在 iPhone 上还可从截图中识别出二维码。在内置的二维码工作室里，用徽标、表情符号和品牌色设计自定义二维码。每次扫描都保存在本地，可以随时重新打开、复制或分享。"
   platforms: "iOS · Android"
   heroImagePath: "/assets/images/Webflow/qr-studio.webp"
 
@@ -57,7 +57,7 @@ subsections:
     platforms: "iOS"
 
   - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
-    body: "<p>扫描历史和你的二维码工作室设计会在每一台登录了你 iCloud 账户的设备之间同步。在 iPad 上设计一个二维码、从 iPhone 上分享它、在 <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> 上编辑它：同一份资料库、同样的修改，无需来回导出。</p>"
+    body: "<p>扫描历史和你的二维码工作室设计会在每一台登录了你 iCloud 账户的设备之间同步。在 iPad 上设计一个二维码、从 iPhone 上分享它、在 <a href=\"/zh/blog/nfc-cool-comes-to-mac/\">Mac</a> 上编辑它：同一份资料库、同样的修改，无需来回导出。</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
     platforms: "iOS"

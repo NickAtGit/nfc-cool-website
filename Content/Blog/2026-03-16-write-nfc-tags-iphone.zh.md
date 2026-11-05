@@ -7,7 +7,7 @@ summary: "你的 iPhone 能做的不止读取 NFC 标签，它还能写入。这
 image: "/assets/images/Blog/write-nfc-tags-iphone.webp"
 imageAlt: "iPhone 正在向空白 NFC 标签写入数据，并带有进度和对勾图标"
 metaTitle: "如何用 iPhone 写入 NFC 标签：分步指南（2026）"
-metaDescription: "学习如何用 iPhone 写入 NFC 标签。一份分步说明，教你用 NFC.cool Tools 和 iOS 快捷指令给 URL、Wi-Fi、联系人和自动化操作编程。"
+metaDescription: "学习如何用 iPhone 写入 NFC 标签。一份分步说明，教你用 NFC.cool Tools 和 iOS 快捷指令给 URL、Wi-Fi、联系人和自动化操作编程。还讲讲要准备什么、如何锁定标签、写入失败时怎么排查，以及几个实用的标签项目。"
 ogTitle: "如何用 iPhone 写入 NFC 标签"
 ogDescription: "用 iPhone 写入 NFC 标签的分步指南：URL、Wi-Fi、联系人和自动化操作。无需任何特殊设备。"
 ---
@@ -15,7 +15,7 @@ ogDescription: "用 iPhone 写入 NFC 标签的分步指南：URL、Wi-Fi、联�
 
 我花了多年时间打造 NFC.cool，一款用于读取和写入 NFC 标签的 App，而写入正是我永远玩不腻的那部分。想要床头柜上有一张标签，让手机静音并设好闹钟？想要书桌上有一张标签，打开你的工作歌单？想要家门口有一张标签，把 Wi-Fi 密码分享给客人？你的 iPhone 全都能给它们编程，而且只要你做过一次，就会纳闷自己怎么没早点动手。
 
-这就是我会讲给一个刚买了第一包标签的朋友听的整套流程：你需要什么、如何写入不同类型的数据，以及我自己几分钟内就会动手搭建的那些实用项目。如果你对这项技术本身完全陌生，我的 [NFC 标签新手完全指南](/blog/nfc-tags-beginners-guide/) 会先帮你打好基础。
+这就是我会讲给一个刚买了第一包标签的朋友听的整套流程：你需要什么、如何写入不同类型的数据，以及我自己几分钟内就会动手搭建的那些实用项目。如果你对这项技术本身完全陌生，我的 [NFC 标签新手完全指南](/zh/blog/nfc-tags-beginners-guide/) 会先帮你打好基础。
 
 ---
 
@@ -27,11 +27,11 @@ ogDescription: "用 iPhone 写入 NFC 标签的分步指南：URL、Wi-Fi、联�
 
 写入 NFC 标签需要 **iPhone 7 或更新机型**，运行 **iOS 13 或更高版本**。如果你的 iPhone 是过去八年内买的，那就没问题。
 
-为了获得最佳体验，我会选一台支持**后台 NFC 读取**的 iPhone（iPhone XS 及更新机型）。这些机型无需先打开 App 就能读取 NFC 标签，这让你写入的标签用起来惬意得多。如果你想确切了解 iPhone 硬件是怎么处理这一切的，我在 [一次对 iPhone 上 NFC 的深入剖析](/blog/nfc-on-iphones-insider-look/) 里讲得很透。
+为了获得最佳体验，我会选一台支持**后台 NFC 读取**的 iPhone（iPhone XS 及更新机型）。这些机型无需先打开 App 就能读取 NFC 标签，这让你写入的标签用起来惬意得多。如果你想确切了解 iPhone 硬件是怎么处理这一切的，我在 [一次对 iPhone 上 NFC 的深入剖析](/zh/blog/nfc-on-iphones-insider-look/) 里讲得很透。
 
 ### 2. 空白 NFC 标签
 
-你可以在网上 [购买空白 NFC 标签](/affiliate-links/)，每张低至 **€0.30 到 €1.00**。它们有好几种形态：
+你可以在网上 [购买空白 NFC 标签](/zh/affiliate-links/)，每张低至 **€0.30 到 €1.00**。它们有好几种形态：
 
 | 形态 | 最适合 |
 |-------------|----------|
@@ -49,13 +49,13 @@ ogDescription: "用 iPhone 写入 NFC 标签的分步指南：URL、Wi-Fi、联�
 - **NTAG215**（504 字节）：足够装下联系人名片、Wi-Fi 凭据和多条记录。
 - **NTAG216**（888 字节）：最全能的选手。对联系人名片、Wi-Fi 凭据，以及像详尽 vCard 这样较长的内容而言，留有最大的余量，是我对大多数项目的推荐。
 
-如果你拿不定主意，就从一包混装的 NTAG216 贴纸开始，别再纠结了：它们能搞定 90% 的使用场景。想要逐一了解每款芯片的完整介绍，包括 iPhone 实际偏爱哪些类型，我写过 [一份面向 iPhone 的 NFC 标签类型指南](/blog/nfc-tag-types-for-iphones/)。
+如果你拿不定主意，就从一包混装的 NTAG216 贴纸开始，别再纠结了：它们能搞定 90% 的使用场景。想要逐一了解每款芯片的完整介绍，包括 iPhone 实际偏爱哪些类型，我写过 [一份面向 iPhone 的 NFC 标签类型指南](/zh/blog/nfc-tag-types-for-iphones/)。
 
 ### 3. 一款 NFC 写入 App
 
 你的 iPhone 需要一款 App 才能向标签写入数据。Apple 内置的 NFC 支持负责读取，但写入则需要一款专门的 App。
 
-这正是我花了多年时间打磨的部分，所以我会坦白我的偏向：**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** 正是为此量身打造，iPhone 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en) 上都有。它支持写入所有标准的 NDEF 记录类型：URL、文本、Wi-Fi 配置、联系人等等，界面简洁，能清楚显示你正用掉多少标签内存。它还能锁定标签、读取技术细节，并通过 iOS 快捷指令实现写入的自动化。你可以在 [NFC 读取与写入功能页](/features/nfc-reader-writer/) 上看到完整的功能列表。
+这正是我花了多年时间打磨的部分，所以我会坦白我的偏向：**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-zh&mt=8)** 正是为此量身打造，iPhone 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-zh) 上都有。它支持写入所有标准的 NDEF 记录类型：URL、文本、Wi-Fi 配置、联系人等等，界面简洁，能清楚显示你正用掉多少标签内存。它还能锁定标签、读取技术细节，并通过 iOS 快捷指令实现写入的自动化。你可以在 [NFC 读取与写入功能页](/zh/features/nfc-reader-writer/) 上看到完整的功能列表。
 
 也有其他选择（比如用 Apple 的快捷指令 App 做基础的 URL 写入），但一款专门的 NFC App 能让你对写入什么、如何写入有更多的掌控。
 
@@ -76,7 +76,7 @@ ogDescription: "用 iPhone 写入 NFC 标签的分步指南：URL、Wi-Fi、联�
 
 就这样。任何用手机轻触那张标签的人，现在都会被带到你的 URL：无需 App，也无需扫描二维码。当我第一次看到一位同事面对一张空白贴纸打开网站时的表情，我就知道这是开场该用的演示。
 
-**专业提示：** iPhone 上的 NFC 天线位于手机的**顶部边缘**，靠近摄像头。为了获得最强的连接，把 iPhone 的顶部直接对准标签。如果你想在不用 App 的情况下复核自己写了什么，在 Android 上你可以 [直接从浏览器读取 NFC 标签](/online-nfc-reader/)。
+**专业提示：** iPhone 上的 NFC 天线位于手机的**顶部边缘**，靠近摄像头。为了获得最强的连接，把 iPhone 的顶部直接对准标签。如果你想在不用 App 的情况下复核自己写了什么，在 Android 上你可以 [直接从浏览器读取 NFC 标签](/zh/online-nfc-reader/)。
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>写入你的第一枚标签</figcaption>
@@ -135,9 +135,9 @@ NFC 标签使用一种叫 **NDEF**（NFC 数据交换格式，NFC Data Exchange 
 
 **所需内存：** 约 100 到 400 字节，视你包含多少字段而定。对于带地址和备注的联系人，请使用 NTAG215 或 NTAG216。
 
-从我读过的支持邮件里得出一个诚实的提醒：标签上原始的 vCard 在 iPhone 上的表现可能时好时坏。如果你的没法干净地打开，我在 [为什么你的 vCard NFC 标签在 iPhone 上不工作](/blog/vcard-nfc-iphone-not-working/) 里深入剖析过原因。
+从我读过的支持邮件里得出一个诚实的提醒：标签上原始的 vCard 在 iPhone 上的表现可能时好时坏。如果你的没法干净地打开，我在 [为什么你的 vCard NFC 标签在 iPhone 上不工作](/zh/blog/vcard-nfc-iphone-not-working/) 里深入剖析过原因。
 
-**注意：** 想要带照片、社交链接和数据分析的更丰富体验，看看 **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)**：它会创建一个托管的电子名片资料，并能把链接写入任何 NFC 标签。当有人轻触时，iOS 用户看到的是原生 App Clip，Android 用户则打开 nfc.cool 域名上的一个网站，都无需 App。在我自己的社交中，我发现这比原始 vCard 可靠得多。
+**注意：** 想要带照片、社交链接和数据分析的更丰富体验，看看 **[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-zh&mt=8)**：它会创建一个托管的电子名片资料，并能把链接写入任何 NFC 标签。当有人轻触时，iOS 用户看到的是原生 App Clip，Android 用户则打开 nfc.cool 域名上的一个网站，都无需 App。在我自己的社交中，我发现这比原始 vCard 可靠得多。
 
 ### 纯文本
 
@@ -338,7 +338,7 @@ iOS 快捷指令内置了一个“设置 NFC 标签”动作，可做基础的�
 
 ### 我能给 NFC 标签设密码保护吗？
 
-可以。NFC.cool Tools 能在 iPhone 和 Android 上给 NTAG 标签设置密码保护。注意，这只能阻止标签被**覆盖**，并不能阻止任何人**读取**标签上已有的内容。如果你需要让内容本身在没有密钥时无法读取，那你想要的是加密数据，参见我们的 [NFC Safe](/blog/nfc-safe-encrypted-secrets/) 指南。锁定标签是另一个选择：它会永久阻止任何进一步的写入。
+可以。NFC.cool Tools 能在 iPhone 和 Android 上给 NTAG 标签设置密码保护。注意，这只能阻止标签被**覆盖**，并不能阻止任何人**读取**标签上已有的内容。如果你需要让内容本身在没有密钥时无法读取，那你想要的是加密数据，参见我们的 [NFC Safe](/zh/blog/nfc-safe-encrypted-secrets/) 指南。锁定标签是另一个选择：它会永久阻止任何进一步的写入。
 
 ### NFC 标签隔着手机壳能用吗？
 
@@ -354,10 +354,10 @@ iOS 快捷指令内置了一个“设置 NFC 标签”动作，可做基础的�
 
 既然你已经知道如何写入 NFC 标签，可能性就完全敞开了。我的建议一如既往：从一个简单的项目开始，给客人用的一张 Wi-Fi 标签，或者一张名片标签，先拿下这个小胜利，然后由此扩展开来。
 
-如果你在找一款强大、易用的 NFC 写入 App，**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** 正是我为应对这一切而打造的 App：从基础的 URL 写入到进阶的标签管理，并集成 iOS 快捷指令以实现自动化。
+如果你在找一款强大、易用的 NFC 写入 App，**[NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-zh&mt=8)** 正是我为应对这一切而打造的 App：从基础的 URL 写入到进阶的标签管理，并集成 iOS 快捷指令以实现自动化。
 
-而如果你想把 NFC 标签变成专业的电子名片，**[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8)** 让你创建一张精美的名片资料，并把它的 URL 写入任何 NFC 标签。在 iOS 上，App 界面和 App Clip 支持 35 种语言，而 Android 收件人看到的是 nfc.cool 域名上的一个网站（目前仅有英文）。
+而如果你想把 NFC 标签变成专业的电子名片，**[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-zh&mt=8)** 让你创建一张精美的名片资料，并把它的 URL 写入任何 NFC 标签。在 iOS 上，App 界面和 App Clip 支持 35 种语言，而 Android 收件人看到的是 nfc.cool 域名上的一个网站（目前仅有英文）。
 
-**下载 NFC.cool Tools：** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8) | [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en)
+**下载 NFC.cool Tools：** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-write-nfc-tags-iphone-zh&mt=8) | [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-zh)
 
-**下载 NFC.cool Business Card：** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-en&mt=8) | [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-en)
+**下载 NFC.cool Business Card：** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-write-nfc-tags-iphone-zh&mt=8) | [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-write-nfc-tags-iphone-zh)

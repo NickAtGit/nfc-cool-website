@@ -19,7 +19,7 @@ Padahal tag itu tidak bergeser sedikit pun. Saya coba lagi. Pesannya sama. Saya 
 
 Nanti saya ceritakan apa yang sebenarnya terjadi, karena ini bug paling menarik yang saya buru tahun ini. Tapi sebelumnya, kenapa saya sampai mengutak-atik tag ICODE.
 
-Saya ingin NFC.cool menjadi aplikasi NFC paling lengkap yang bisa Anda pasang di ponsel. Pertengahan tahun ini, itu berarti [NTAG 424 DNA](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/), tag yang dipakai merek-merek untuk membuktikan sebuah produk asli. Setelah itu, keluarga chip terbesar yang masih belum benar-benar bisa diajak bicara oleh aplikasi ini adalah ICODE dari NXP. Mulai **NFC.cool Tools 7.1.0**, akhirnya bisa.
+Saya ingin NFC.cool menjadi aplikasi NFC paling lengkap yang bisa Anda pasang di ponsel. Pertengahan tahun ini, itu berarti [NTAG 424 DNA](/id/blog/ntag-424-dna-counterfeit-proof-nfc-tags/), tag yang dipakai merek-merek untuk membuktikan sebuah produk asli. Setelah itu, keluarga chip terbesar yang masih belum benar-benar bisa diajak bicara oleh aplikasi ini adalah ICODE dari NXP. Mulai **NFC.cool Tools 7.1.0**, akhirnya bisa.
 
 ---
 
@@ -50,7 +50,7 @@ Pindai salah satunya dengan NFC.cool, dan Anda langsung mendapat gambaran lengka
 
 Dari situ, Anda bisa mengubah hampir semua yang ditawarkan chip ini:
 
-- **Penghitung ketukan.** ICODE 3 bisa menghitung setiap pembacaan dengan sendirinya. Aktifkan Cermin NFC, dan chip akan menuliskan ID-nya serta angka hitungan terbaru ke dalam tautan yang tersimpan, sehingga setiap ketukan membuka URL yang sedikit berbeda, yang bisa dihitung oleh sebuah situs web. Kalau Anda sudah membaca tentang [NFC Tap Counter](/blog/count-nfc-tag-scans/), ini ide yang sama pada chip yang berbeda.
+- **Penghitung ketukan.** ICODE 3 bisa menghitung setiap pembacaan dengan sendirinya. Aktifkan Cermin NFC, dan chip akan menuliskan ID-nya serta angka hitungan terbaru ke dalam tautan yang tersimpan, sehingga setiap ketukan membuka URL yang sedikit berbeda, yang bisa dihitung oleh sebuah situs web. Kalau Anda sudah membaca tentang [NFC Tap Counter](/id/blog/count-nfc-tag-scans/), ini ide yang sama pada chip yang berbeda.
 - **Kata sandi.** ICODE 3 punya enam kata sandi, masing-masing untuk membaca, menulis, privasi, penghancuran, pengaturan anti-pencurian, dan konfigurasi. Semua tag keluar dari pabrik dengan nilai yang sama, jadi perlindungan baru ada artinya setelah Anda mengatur kata sandi sendiri. NFC.cool menyimpan kata sandi Anda di iCloud Keychain, terpisah untuk setiap tag.
 - **Perlindungan memori.** Anda bisa membagi memori menjadi dua bagian dan melindungi masing-masing secara terpisah, misalnya agar tautan publik tetap bisa dibaca sementara data yang disimpan setelahnya tersembunyi.
 - **Pengaturan anti-pencurian dan perpustakaan.** Penanda EAS-lah yang membuat gerbang toko atau perpustakaan berbunyi. Byte AFI dipakai perpustakaan untuk menandai buku yang sedang dipinjam. Keduanya bisa diubah, juga dikunci.
@@ -95,7 +95,7 @@ Begitu saya paham masalahnya, perbaikannya ternyata sederhana sekali, sampai-sam
 
 ## Perangkat yang didukung
 
-Di iPhone, semua ini bekerja dengan pembaca NFC bawaan ponsel. Di iPad dan Mac, yang tidak punya chip NFC, semua ini bekerja lewat [pembaca NFC USB eksternal](/blog/nfc-reading-ipad-mac/). Pembaca itu harus bisa meneruskan perintah ICODE langsung ke tag. Kalau pembaca Anda bisa, aplikasi membaca dan mengelola tag ICODE persis seperti di iPhone, dan bug dari bagian sebelumnya sama sekali tidak muncul di sana. Pembaca yang tidak bisa meneruskan perintah tersebut tetap memungkinkan Anda membaca memori tag.
+Di iPhone, semua ini bekerja dengan pembaca NFC bawaan ponsel. Di iPad dan Mac, yang tidak punya chip NFC, semua ini bekerja lewat [pembaca NFC USB eksternal](/id/blog/nfc-reading-ipad-mac/). Pembaca itu harus bisa meneruskan perintah ICODE langsung ke tag. Kalau pembaca Anda bisa, aplikasi membaca dan mengelola tag ICODE persis seperti di iPhone, dan bug dari bagian sebelumnya sama sekali tidak muncul di sana. Pembaca yang tidak bisa meneruskan perintah tersebut tetap memungkinkan Anda membaca memori tag.
 
 Aplikasi Android belum mendukung ICODE.
 

@@ -5,7 +5,7 @@ date: 2024-02-17
 tags: ["qr-codes", "business-cards"]
 summary: "二维码不只是用来放 URL。它可以承载 Wi-Fi 凭据、日历事件、位置、vCard、纯文本，凡是能编码的都行。这里列出 NFC.cool 的二维码生成器和扫描器能做到的完整清单。"
 metaTitle: "二维码能装什么：远不止 URL"
-metaDescription: "二维码可以编码 Wi-Fi 凭据、联系人、日历事件、位置等等，而不只是 URL。一份务实的指南，覆盖每一种二维码数据类型。"
+metaDescription: "二维码可以编码 Wi-Fi 凭据、联系人、日历事件、位置等等，而不只是 URL。这份务实的指南覆盖每一种二维码数据类型，说明它们分别怎么用，以及为什么 vCard 二维码一旦印出来就无法更新，而指向在线名片的链接可以。"
 ogTitle: "轻触、扫描、玩出花样：二维码除了 URL 还能装什么"
 ogDescription: "二维码可以编码 Wi-Fi、联系人、日历、位置，而不只是 URL。"
 image: "/assets/images/Blog/tap-scan-thrive.webp"
@@ -67,7 +67,7 @@ URL 之外最常见的选择。编码一张完整的 vCard（姓名、电话、�
 
 二维码电子名片开箱即用，靠的正是这套机制。这也是为什么一个 vCard 二维码无需任何专门 App 就能在每一部手机上用：vCard 是一项有着 30 年历史的标准，系统早就认识它。
 
-相比 NFC.cool 电子名片的方案，它有一个取舍：vCard 二维码无法更新。一旦印出来，里面的联系人数据就被冻结了。如果你想要一个日后还能编辑的“单一可信来源”，那就改为编码一个指向你在线名片页面的 URL，这正是 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8) 所做的事，也是我们在正经社交场合更推荐它、而非原始 vCard 二维码的原因。
+相比 NFC.cool 电子名片的方案，它有一个取舍：vCard 二维码无法更新。一旦印出来，里面的联系人数据就被冻结了。如果你想要一个日后还能编辑的“单一可信来源”，那就改为编码一个指向你在线名片页面的 URL，这正是 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-zh&mt=8) 所做的事，也是我们在正经社交场合更推荐它、而非原始 vCard 二维码的原因。你可以[在这里看看 NFC.cool Business Card 能做什么](/zh/business-card/)。
 
 ---
 
@@ -93,4 +93,4 @@ URL 之外最常见的选择。编码一张完整的 vCard（姓名、电话、�
 
 NFC.cool 的扫描器能读取以上任意一种格式，并把它们引导到正确的操作上：URL 在浏览器里打开，vCard 提示保存，Wi-Fi 提示连接，位置在地图里打开。它还会在本地保留每一次扫描的历史记录，当你在一场会议上扫了 30 份菜单、之后想回头再看某一份时，这就很有用了。
 
-整套二维码能力，包括生成器和扫描器，都已内置于 [iPhone 版 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8) 和 [Android 版](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-en)。
+整套二维码能力，包括生成器和扫描器，都已内置于 [iPhone 版 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-tap-scan-thrive-zh&mt=8) 和 [Android 版](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-tap-scan-thrive-zh)。

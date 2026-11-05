@@ -1,7 +1,7 @@
 ---
 title: "Diğer Uygulamalar"
 slug: "apps"
-description: "NFC.cool Tools ve Business Card dışında birkaç küçük uygulama daha yayınlıyorum: QR tarama, 3B tarama, uçuş takibi, elektrikli bisiklet izleme ve dahası. Hepsi tek bir bağımsız klavyeden."
+description: "NFC.cool Tools ve Business Card dışında birkaç küçük uygulama daha yayınlıyorum: QR tarama, 3B tarama, uçuş takibi, elektrikli bisiklet izleme ve dahası. Hepsini NFC.cool'un kurucusu geliştiriyor."
 ---
 
 <section class="page-hero">
@@ -10,7 +10,7 @@ description: "NFC.cool Tools ve Business Card dışında birkaç küçük uygula
 
 <div class="page-hero-text">
 
-# Aynı klavyeden çıkan diğer uygulamalar
+# NFC.cool'dan diğer uygulamalar
 
 NFC.cool Tools ile Business Card uygulaması baş rolde ama yayınladığım tek şey onlar değil. Geri kalan kadro burada: var olsunlar istediğim için yazdığım, insanlar kullanmaya başlayınca da cilalamayı sürdürdüğüm küçük, odaklı uygulamalar.
 
@@ -41,42 +41,42 @@ NFC.cool Tools ile Business Card uygulaması baş rolde ama yayınladığım tek
 <span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/flight-tracker/">
+<a class="page-card app-card" href="/tr/apps/flight-tracker/">
 <img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="1st Class Flight Tracker uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>1st Class - Flight Tracker</h3>
 <p>Uçuşları takip et, holografik pasaportuna damga bas, her yolculuğu yeniden yaşa. Çevrimdışı çalışan bir seyahat günlüğü.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/qr-code-scanner/">
+<a class="page-card app-card" href="/tr/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="QR Code Scanner by NFC.cool uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
 <p>Araç setinin geri kalanı olmadan QR kod tara, oluştur ve düzenle. Tek işe odaklanan QR uygulaması.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/3d-scanner/">
+<a class="page-card app-card" href="/tr/apps/3d-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/3d-scanner/icon.webp" alt="3D Object & Room Scanner uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>3D Object &amp; Room Scanner</h3>
 <p>Pro iPhone ve iPad'lerdeki LiDAR algılayıcısıyla gerçek nesneleri ve tüm odaları 3B modele çevir.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/ebike-monitor/">
+<a class="page-card app-card" href="/tr/apps/ebike-monitor/">
 <img class="app-card-icon" src="/assets/images/Apps/ebike-monitor/icon.webp" alt="eBike Monitor for Shimano uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>eBike Monitor for Shimano</h3>
 <p>Shimano elektrikli bisiklet sisteminden anlık batarya, hız ve kadans bilgisi, doğrudan kilit ekranında.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/pokemon-quiz/">
+<a class="page-card app-card" href="/tr/apps/pokemon-quiz/">
 <img class="app-card-icon" src="/assets/images/Apps/pokemon-quiz/icon.webp" alt="PvP Trainer Pokémon Quiz Game uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>PvP Trainer Pokémon Quiz Game</h3>
 <p>Oynayarak tüm tür eşleşmelerini öğren. Güçlü ve zayıf yönlerle dirençler için hem bilgi yarışması hem başvuru kaynağı.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/mondego-move/">
+<a class="page-card app-card" href="/tr/apps/mondego-move/">
 <img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon-v2.webp" alt="Mondego Move uygulama simgesi" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>Coimbra bölgesindeki Metro Mondego ağı için bağımsız bir yardımcı: sefer planlayıcı, ağ haritası ve ücretler.</p>
@@ -91,6 +91,6 @@ NFC.cool Tools ile Business Card uygulaması baş rolde ama yayınladığım tek
 
 ## Ana uygulamaları mı arıyorsun?
 
-Tam tarama araç setinin ve ayrı Business Card uygulamasının kendi sayfaları var: [NFC.cool Tools](/features/) ya da [Business Card uygulaması](/business-card/).
+Tam tarama araç setinin ve ayrı Business Card uygulamasının kendi sayfaları var: [NFC.cool Tools](/tr/features/) ya da [Business Card uygulaması](/tr/business-card/).
 
 </section>

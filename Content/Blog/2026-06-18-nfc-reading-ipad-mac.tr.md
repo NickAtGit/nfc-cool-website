@@ -20,7 +20,7 @@ Oradayken iOS ve NFC geliştiricisi meslektaşım [Alexander Manzer](https://www
 
 ## Bunun çalışmayacağını söylemiştim
 
-Mayısta, [NFC.cool Mac'e geldiğinde](/blog/nfc-cool-comes-to-mac/), Mac'in yapamadıklarına koca bir bölüm ayırmış ve NFC okumayı en başa koymuştum. Gerekçem basitti: Mac'lerde NFC vericisi yok, iPad'lerde NFC vericisi yok ve bu, benim hiçbir yazılım güncellememin düzeltemeyeceği bir donanım sınırı.
+Mayısta, [NFC.cool Mac'e geldiğinde](/tr/blog/nfc-cool-comes-to-mac/), Mac'in yapamadıklarına koca bir bölüm ayırmış ve NFC okumayı en başa koymuştum. Gerekçem basitti: Mac'lerde NFC vericisi yok, iPad'lerde NFC vericisi yok ve bu, benim hiçbir yazılım güncellememin düzeltemeyeceği bir donanım sınırı.
 
 O kısım hâlâ doğru, cihazın içindeki çip için. Kaçırdığım şey şu: yerleşik çipi kullanmak zorunda değilsin. Dışarıdan takabilirsin.
 
@@ -55,7 +55,7 @@ NFC.cool ile çalıştığını bugün bildiğim tüm okuyucular:
 - **ACS ACR1552U-M1** - bir kullanıcı çalıştığını bildirdi ([Amazon](https://amzn.to/4xZVEwe))
 - **ACS ACR1255U-J1** - bir kullanıcı çalıştığını bildirdi ([Amazon](https://amzn.to/4xZVEwe))
 
-Yazan herkese teşekkürler. Piyasadaki her okuyucuyu satın alamam, yani ilkinden sonraki her model bu listede biri onu aldığı, denediği ve bana anlatmaya vakit ayırdığı için var. Burada olmayan bir okuyucu kullanıyorsan çalışıp çalışmadığını ya da nerede takıldığını [bana bildir](/contact/), yazıya ekleyeyim.
+Yazan herkese teşekkürler. Piyasadaki her okuyucuyu satın alamam, yani ilkinden sonraki her model bu listede biri onu aldığı, denediği ve bana anlatmaya vakit ayırdığı için var. Burada olmayan bir okuyucu kullanıyorsan çalışıp çalışmadığını ya da nerede takıldığını [bana bildir](/tr/contact/), yazıya ekleyeyim.
 
 Bunlar Amazon ortaklık bağlantıları: birinden alışveriş yaparsan sana ek bir maliyeti olmadan küçük bir komisyon kazanabilirim.
 
@@ -69,7 +69,7 @@ Bunlar Amazon ortaklık bağlantıları: birinden alışveriş yaparsan sana ek 
 </ol>
 </figure>
 
-iPhone'da yapacağın hemen her şeyi. Tag okuyup tüm belleğini dökebilir, NDEF mesajı yazabilir ve bir yığın tag'i arka arkaya okuyup yazan toplu işler çalıştırabilirsin. Tag'i parolayla korumak da işliyor. 3B yazıcı filament makarası biçimi [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/) da, iki yönde de. Ve evet, [Philips Sonicare fırça başlığı sıfırlaması](/blog/reset-sonicare-brush-head-nfc/) da çalışıyor.
+iPhone'da yapacağın hemen her şeyi. Tag okuyup tüm belleğini dökebilir, NDEF mesajı yazabilir ve bir yığın tag'i arka arkaya okuyup yazan toplu işler çalıştırabilirsin. Tag'i parolayla korumak da işliyor. 3B yazıcı filament makarası biçimi [OpenPrintTag](/tr/blog/openprinttag-read-write-nfc-spools-phone/) da, iki yönde de. Ve evet, [Philips Sonicare fırça başlığı sıfırlaması](/tr/blog/reset-sonicare-brush-head-nfc/) da çalışıyor.
 
 Zor kısım sonuncusuydu. Sonicare başlığını sıfırlamak, tag'den bir sayacı okuyup ardından parola korumalı bir sayfaya geri yazmak demek ve tag bu yazmayı ancak seni az önceki kimlik doğrulamasından hâlâ tanıyorsa kabul ediyor. Harici okuyucu üzerinden bu, iki adım arasında okuyucuyla tek bir oturumu kapanmasına izin vermeden açık tutmak anlamına geldi. Bu tutunca ona bağlı işlemler, yani korumalı yazmalar ile fırça sıfırlaması, telefondaki gibi davranmaya başladı.
 

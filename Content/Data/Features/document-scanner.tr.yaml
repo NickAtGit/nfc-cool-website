@@ -49,7 +49,7 @@ subsections:
     platforms: "iOS"
 
   - title: "iPhone, iPad ve Mac arasında iCloud eşitleme"
-    body: "<p>Belgeler hesabındaki her cihaz arasında iCloud üzerinden sorunsuz eşitlenir. Sözleşmeyi iPhone'la tara, iPad'de oku, <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac'te</a> imzala: aynı kitaplık, ileri geri aktarma yok. Özgün görseller de tanınan metin de birlikte gelir.</p>"
+    body: "<p>Belgeler hesabındaki her cihaz arasında iCloud üzerinden sorunsuz eşitlenir. Sözleşmeyi iPhone'la tara, iPad'de oku, <a href=\"/tr/blog/nfc-cool-comes-to-mac/\">Mac'te</a> imzala: aynı kitaplık, ileri geri aktarma yok. Özgün görseller de tanınan metin de birlikte gelir.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "iPhone, iPad ve Mac arasında eşitlenen NFC.cool"
     platforms: "iOS"

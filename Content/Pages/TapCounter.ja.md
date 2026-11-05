@@ -1,7 +1,7 @@
 ---
 title: "NFCタップカウンター - ライブデモ"
 slug: "tap-counter"
-description: "NFCタップカウンターのライブデモ。NFC.cool ToolsでこのページのURLをNFCタグに書き込み、タグをタップすると、そのスキャン回数とタグIDが表示されます - サーバーは一切不要です。"
+description: "NFCタップカウンターのライブデモです。NFC.cool ToolsでこのページのURLをNFCタグに書き込んでタップすると、そのタグのスキャン回数とタグIDがこのページに表示されます。サーバーは一切不要で、カウントはチップの中に記録されています。"
 image: "/assets/images/Blog/count-nfc-tag-scans.webp"
 ---
 

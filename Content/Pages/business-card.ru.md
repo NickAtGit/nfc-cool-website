@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# Цифровая визитка NFC.cool
 
-Визитка прямо в телефоне, для тебя и для всей команды. Делись ею касанием NFC или через QR-код и смотри, сколько человек её сохранили.
+Цифровая визитка прямо в телефоне, для тебя и для всей команды. Делись ею касанием NFC или через QR-код и смотри, сколько человек её сохранили.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ru&mt=8" class="landing-store-button is-apple" aria-label="Скачать в App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## Тарифы
 
-Один человек или целая команда. Любую визитку можно сохранить как контакт, даже на Free. Personal и Pro добавляют сбор лидов, аналитику и визитку без нашего названия и покупаются в приложении. Команды начинают на сайте, 14 дней бесплатно, и платят за каждого человека, за год или помесячно. В евро для команды цифры те же.
+Один человек или целая команда. Любую визитку можно сохранить как контакт, даже на Free. Personal и Pro добавляют сбор лидов, аналитику и визитку без нашего названия и покупаются в приложении. Команды начинают на сайте, 14 дней бесплатно, и платят за каждого человека, за год или помесячно. В евро для команды цифры те же. [Цена для команд и сравнение с другими сервисами](/ru/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <article class="page-card">
 <h3>Умные визитки</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Создание визиток</strong>: оформление под свой бренд</li>
+<li><strong>Цифровые визитки</strong>: оформление под свой бренд</li>
 <li><strong>До 10 визиток на тарифе Pro</strong>: под разные роли, бренды и мероприятия</li>
 <li><strong>Импорт из «Контактов»</strong>: любой контакт превращается в визитку</li>
 <li><strong>Всегда актуальна</strong>: правки видны сразу, перепечатывать нечего</li>
@@ -145,7 +145,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <article class="page-card">
 <h3>Приватность и безопасность</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Профиль под PIN-кодом</strong>: четыре цифры и ограничение числа попыток</li>
+<li><strong>Профиль под PIN-кодом</strong>: четыре цифры на закрытых визитках</li>
 <li><strong>Публичный или закрытый</strong>: закрытая визитка открывается только с PIN-кодом</li>
 <li><strong>Выгрузка данных по GDPR</strong>: всё одним архивом ZIP в любой момент</li>
 <li><strong>Безопасность сеанса</strong>: сеанс с PIN-кодом закрывается сам</li>
@@ -181,7 +181,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## Что получают команды
 
-Личная визитка принадлежит одному человеку. В команде визитки принадлежат компании, и возможности у них другие.
+Личная визитка принадлежит одному человеку. В команде визитки принадлежат компании, и возможности у них другие. Подробнее о [цифровых визитках для команд](/ru/business-card/teams/).
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Один список для всех лидов</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>Все лиды, которые собирает команда, попадают в один общий список. По каждому видно ответственного и статус. Назначай нужного человека и выгружай всё в таблицу.</p></article>
@@ -249,7 +249,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <details class="faq-item">
 <summary>Что будет, если отменить платный тариф?</summary>
-<p>Ничего не удалится, и визитки останутся в сети. Новые лиды перестанут поступать, а кнопка «Сохранить контакт» будет работать только на стольких визитках, сколько позволяет тариф. Остальные будут отмечены как заблокированные.</p>
+<p>Ничего не удалится. На Personal и Pro визитки останутся в сети: новые лиды перестанут поступать, а кнопка «Сохранить контакт» будет работать только на стольких визитках, сколько позволяет тариф. Остальные будут отмечены как заблокированные. В команде после окончания подписки на визитках появится страница «Временно недоступна», пока ты не возобновишь подписку, а затем всё вернётся.</p>
 </details>
 
 </div>

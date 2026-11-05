@@ -1,7 +1,7 @@
 {
    "name": "NFC.cool",
    "short_name": "NFC.cool",
-   "description": "NFC, QR & Barcode, Document, 3D and Room Scanning - plus a Digital Business Card. The all-in-one scanning toolkit, free on iPhone and Android.",
+   "description": "NFC.cool makes two apps. NFC.cool Tools scans NFC tags, QR codes and barcodes on iPhone and Android, plus documents, 3D objects and rooms on iPhone. NFC.cool Business Card is a digital business card for individuals and teams, on iPhone and Android.",
    "start_url": "/",
    "scope": "/",
    "display": "standalone",

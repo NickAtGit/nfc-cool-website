@@ -43,7 +43,7 @@ subsections:
     platforms: "iOS"
 
   - title: "iPhone, iPad ve Mac arasında iCloud eşitleme"
-    body: "<p>Taranan odalar iCloud Belgeler klasöründe durur, yani taradığın iPhone, gözden geçirdiğin iPad ve düzenleyeceğin <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> aynı kitaplığı görür. Mekanı bir kez dolaş, kat planını sonra masa başında düzelt.</p>"
+    body: "<p>Taranan odalar iCloud Belgeler klasöründe durur, yani taradığın iPhone, gözden geçirdiğin iPad ve düzenleyeceğin <a href=\"/tr/blog/nfc-cool-comes-to-mac/\">Mac</a> aynı kitaplığı görür. Mekanı bir kez dolaş, kat planını sonra masa başında düzelt.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "iPhone, iPad ve Mac arasında eşitlenen NFC.cool"
     platforms: "iOS"

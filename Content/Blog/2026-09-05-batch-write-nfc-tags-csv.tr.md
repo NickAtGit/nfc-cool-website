@@ -24,7 +24,7 @@ Bütün süreç, e-tablodan son tag'e kadar burada. Ürün bağlantıları, seri
 
 Uygulamaya bir CSV dosyası veriyorsun ve her satır bir tag oluyor. Uygulama her tag'e neyin gideceğinin önizlemesini gösteriyor, Yazmaya Başla'ya dokunuyorsun ve tag'leri birbiri ardına telefona tutuyorsun. Yazılan her satır dosyadan siliniyor, yani ekrandaki liste her zaman geriye kalan. İstediğin noktada durup sonra, hatta günler sonra devam edebilirsin.
 
-Daha önce hiç NFC tag yazmadıysan [iPhone'unla NFC tag yazma rehberimle](/blog/write-nfc-tags-iphone/) başla. Bu yazı çok sayıda tag yazmakla ilgili.
+Daha önce hiç NFC tag yazmadıysan [iPhone'unla NFC tag yazma rehberimle](/tr/blog/write-nfc-tags-iphone/) başla. Bu yazı çok sayıda tag yazmakla ilgili.
 
 ---
 
@@ -120,7 +120,7 @@ NFC.cool Tools'ta NFC araçları ekranını aç ve **Toplu Modlar** altında **C
 
 Uygulama dosyanın kendi kopyasını çıkarıyor. Tag yazdıkça satırlar o kopyadan siliniyor. Bilgisayarındaki özgün e-tablo olduğu gibi kalıyor, yani liste sende hep tam duruyor.
 
-Dosya seçilince uygulama ne algıladığını gösteriyor: ayraç, sütun sayısı, gruplama modu ve kaç tag'e ihtiyacın olacağı. Her zaman denetlediğim tek sayı **NFC tag başına bayt**, yani partideki en büyük mesajın boyutu. Onu tag'lerinle karşılaştır. NTAG213 144 bayt, NTAG215 504 ve NTAG216 888 bayt tutuyor. Kısa bir bağlantı yaklaşık 50 bayt, yani bağlantılar için en ucuz tag'ler yeterli. Wi-Fi kaydı ya da uzunca bir kişi kartı 215 veya 216 istiyor. Elindeki çipten emin değilsen [NFC tag türleri rehberime](/blog/nfc-tag-types-for-iphones/) göz at.
+Dosya seçilince uygulama ne algıladığını gösteriyor: ayraç, sütun sayısı, gruplama modu ve kaç tag'e ihtiyacın olacağı. Her zaman denetlediğim tek sayı **NFC tag başına bayt**, yani partideki en büyük mesajın boyutu. Onu tag'lerinle karşılaştır. NTAG213 144 bayt, NTAG215 504 ve NTAG216 888 bayt tutuyor. Kısa bir bağlantı yaklaşık 50 bayt, yani bağlantılar için en ucuz tag'ler yeterli. Wi-Fi kaydı ya da uzunca bir kişi kartı 215 veya 216 istiyor. Elindeki çipten emin değilsen [NFC tag türleri rehberime](/tr/blog/nfc-tag-types-for-iphones/) göz at.
 
 **Toplu Önizleme**'yi açıp her tag'i ve alacağı kayıtları gör. Orada gördüğün, yazılacak şeyin ta kendisi.
 

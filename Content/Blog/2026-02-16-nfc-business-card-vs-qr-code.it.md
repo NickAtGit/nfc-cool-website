@@ -2,6 +2,7 @@
 id: nfc-blog-003
 title: "Biglietto da visita NFC o codice QR: quale conviene per fare networking?"
 date: 2026-02-16
+lastModified: "2026-11-05"
 tags: ["business-cards", "qr-codes", "networking"]
 summary: "Avvicinare un tag NFC o scansionare un codice QR: quale dei due conviene per passare i propri contatti? Metto a confronto velocità, compatibilità, costi e situazioni reali per aiutarti a decidere."
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"
@@ -200,12 +201,12 @@ Metto le mani avanti: questo è il mio blog, quindi è ovvio che finisca per par
 
 Qualche cosa che la distingue dalle altre:
 
-- **35 lingue** - L'interfaccia dell'app e l'App Clip parlano 35 lingue, quindi su iOS il biglietto compare nella lingua di chi lo riceve. La pagina di condivisione su Android per ora è solo in inglese.
-- **Prima la privacy** - Nessuna email commerciale a chi riceve il biglietto, protezione con PIN facoltativa, nessuna vendita dei dati e nessuna pubblicità
+- **35 lingue** - L'interfaccia dell'app e l'App Clip parlano 35 lingue, quindi su iOS i pulsanti e le etichette attorno al biglietto seguono la lingua di chi lo riceve.
+- **Privacy** - NFC.cool non invia marketing a chi guarda il tuo biglietto, i biglietti possono avere un PIN e NFC.cool non vende i tuoi dati. Con il piano Team, il tuo team può inviare email di follow-up a chi lascia i propri dati nel tuo modulo per i lead.
 - **NFC aperto** - Funziona con qualsiasi tag NFC standard, perché NFC.cool non vende hardware proprietario
-- **Prezzi onesti** - Piano Personal a 20 € l'anno, Small Business a 50 € l'anno (10 biglietti), Business a 100 € l'anno (100 biglietti)
+- **Prezzi accessibili** - Un piano Free con un biglietto, Personal a $19,99 all'anno, Pro a $49,99 all'anno (10 biglietti) e [Team](/it/business-card/teams/) a $50 a persona all'anno o $5 al mese (fino a 10 biglietti a persona). In euro la cifra del piano Team è la stessa.
 
-**Prova NFC.cool Business Card:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-it&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-it)
+**Prova [NFC.cool Business Card](/it/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-it&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-it)
 
 ---
 

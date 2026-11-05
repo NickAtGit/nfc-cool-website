@@ -1,7 +1,7 @@
 ---
 title: "Altre app"
 slug: "apps"
-description: "Oltre a NFC.cool Tools e Business Card pubblico anche una manciata di app più piccole: scansione dei codici QR, scansione 3D, tracciamento dei voli, monitoraggio della bici elettrica e altro ancora. Tutto dalla stessa tastiera indipendente."
+description: "Oltre a NFC.cool Tools e Business Card pubblico anche una manciata di app più piccole: scansione dei codici QR, scansione 3D, tracciamento dei voli, monitoraggio della bici elettrica e altro ancora. Tutte sviluppate dal fondatore di NFC.cool."
 ---
 
 <section class="page-hero">
@@ -10,7 +10,7 @@ description: "Oltre a NFC.cool Tools e Business Card pubblico anche una manciata
 
 <div class="page-hero-text">
 
-# Altre app dalla stessa tastiera
+# Altre app di NFC.cool
 
 NFC.cool Tools e l'app Business Card sono il piatto forte, ma non sono l'unica cosa che pubblico. Questo è il resto: app più piccole e mirate, nate perché volevo che esistessero e poi curate nel tempo perché qualcuno ha iniziato a usarle.
 
@@ -41,42 +41,42 @@ NFC.cool Tools e l'app Business Card sono il piatto forte, ma non sono l'unica c
 <span class="app-card-platforms"><span class="platform-pill is-android"><span class="platform-pill-label">Android</span></span><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/flight-tracker/">
+<a class="page-card app-card" href="/it/apps/flight-tracker/">
 <img class="app-card-icon" src="/assets/images/Apps/flight-tracker/icon.webp" alt="Icona dell'app 1st Class Flight Tracker" width="64" height="64" loading="lazy"/>
 <h3>1st Class - Flight Tracker</h3>
 <p>Segui i voli, timbra un passaporto olografico e rivivi ogni viaggio. Un diario di bordo che funziona anche senza connessione.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/qr-code-scanner/">
+<a class="page-card app-card" href="/it/apps/qr-code-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/qr-code-scanner/icon.webp" alt="Icona dell'app QR Code Scanner by NFC.cool" width="64" height="64" loading="lazy"/>
 <h3>QR Code Scanner by NFC.cool</h3>
 <p>Scansiona, crea e organizza i codici QR senza il resto degli strumenti. L'app dedicata solo ai QR.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/3d-scanner/">
+<a class="page-card app-card" href="/it/apps/3d-scanner/">
 <img class="app-card-icon" src="/assets/images/Apps/3d-scanner/icon.webp" alt="Icona dell'app 3D Object & Room Scanner" width="64" height="64" loading="lazy"/>
 <h3>3D Object &amp; Room Scanner</h3>
 <p>Trasforma oggetti reali e interi ambienti in modelli 3D con il sensore LiDAR degli iPhone Pro e degli iPad Pro.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/ebike-monitor/">
+<a class="page-card app-card" href="/it/apps/ebike-monitor/">
 <img class="app-card-icon" src="/assets/images/Apps/ebike-monitor/icon.webp" alt="Icona dell'app eBike Monitor for Shimano" width="64" height="64" loading="lazy"/>
 <h3>eBike Monitor for Shimano</h3>
 <p>Batteria, velocità e cadenza in tempo reale dal sistema Shimano della bici elettrica, direttamente nella schermata di blocco.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/pokemon-quiz/">
+<a class="page-card app-card" href="/it/apps/pokemon-quiz/">
 <img class="app-card-icon" src="/assets/images/Apps/pokemon-quiz/icon.webp" alt="Icona dell'app PvP Trainer Pokémon Quiz Game" width="64" height="64" loading="lazy"/>
 <h3>PvP Trainer Pokémon Quiz Game</h3>
 <p>Impara giocando tutte le combinazioni di tipo. Un quiz e insieme una guida a punti forti, debolezze e resistenze.</p>
 <span class="app-card-platforms"><span class="platform-pill is-ios"><span class="platform-pill-label">iOS</span></span></span>
 </a>
 
-<a class="page-card app-card" href="/apps/mondego-move/">
+<a class="page-card app-card" href="/it/apps/mondego-move/">
 <img class="app-card-icon" src="/assets/images/Apps/mondego-move/icon-v2.webp" alt="Icona dell'app Mondego Move" width="64" height="64" loading="lazy"/>
 <h3>Mondego Move</h3>
 <p>Un'app indipendente dedicata al Metro Mondego, nella regione di Coimbra: pianificatore di viaggio, mappa della rete e tariffe.</p>
@@ -91,6 +91,6 @@ NFC.cool Tools e l'app Business Card sono il piatto forte, ma non sono l'unica c
 
 ## Cerchi le app principali?
 
-Il set completo di strumenti di scansione e l'app dedicata Business Card hanno pagine tutte loro: scopri [NFC.cool Tools](/features/) o l'[app Business Card](/business-card/).
+Il set completo di strumenti di scansione e l'app dedicata Business Card hanno pagine tutte loro: scopri [NFC.cool Tools](/it/features/) o l'[app Business Card](/it/business-card/).
 
 </section>

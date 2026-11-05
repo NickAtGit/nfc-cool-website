@@ -12,7 +12,7 @@ metaDescription: "An alarm for iPhone and Android that only stops once you scan 
 ogTitle: "An Alarm Clock You Can't Snooze Through"
 ogDescription: "NFC Alarm only goes quiet once you walk a trail of NFC tags around your home. Here's how it works on iPhone and Android."
 ---
-Being an indie developer has a rhythm that doesn't care about office hours. The best coding happens late, when the messages stop and the house is quiet, and before I know it it's two in the morning. The alarm, of course, still goes off at the same time. And I hit snooze. Then again. Then a third time, until the morning I had planned is half gone.
+Being a founder has a rhythm that doesn't care about office hours. The best coding happens late, when the messages stop and the house is quiet, and before I know it it's two in the morning. The alarm, of course, still goes off at the same time. And I hit snooze. Then again. Then a third time, until the morning I had planned is half gone.
 
 I spent a while thinking about what I could actually do about it. A louder alarm? I'd just learn to sleep through it. Putting the phone on the other side of the room? I'd walk over, press Stop and crawl back into bed. The problem was never hearing the alarm. The problem was that stopping it took one tap and zero thought.
 

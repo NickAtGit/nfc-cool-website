@@ -52,7 +52,7 @@ Saya tidak membuat aturan ini. Saya hanya membangun solusi di sekitarnya.
 
 ## Tapi tunggu - bisakah aplikasi membaca vCard di iPhone?
 
-Secara teknis, bisa. Jika Anda menginstal aplikasi pembaca NFC seperti [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) di iPhone atau [NFC.cool Tools di Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en), aplikasi tersebut dapat membaca data tag mentah - termasuk rekaman vCard - dan menampilkan info kontak. Di Android, [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) melakukan ini secara otomatis ketika mendeteksi vCard pada tag.
+Secara teknis, bisa. Jika Anda menginstal aplikasi pembaca NFC seperti [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-id&mt=8) di iPhone atau [NFC.cool Tools di Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-id), aplikasi tersebut dapat membaca data tag mentah - termasuk rekaman vCard - dan menampilkan info kontak. Di Android, [NFC.cool Tools](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-id) melakukan ini secara otomatis ketika mendeteksi vCard pada tag.
 
 Tapi inilah masalahnya: **orang yang memindai kartu Anda perlu sudah menginstal aplikasinya.**
 
@@ -80,7 +80,7 @@ Inilah hal yang tidak diberitahukan kepada Anda saat membeli kartu nama NFC:
 
 Sebaliknya, simpan URL yang mengarah ke profil digital.
 
-Itulah yang dilakukan oleh [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8). Alih-alih menjejalkan data vCard ke tag (yang diabaikan iPhone), kami menyimpan tautan pintar ke profil digital Anda.
+Itulah yang dilakukan oleh [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-id&mt=8). Alih-alih menjejalkan data vCard ke tag (yang diabaikan iPhone), kami menyimpan tautan pintar ke profil digital Anda.
 
 **Ketika seseorang menempelkan kartu Anda:**
 
@@ -121,7 +121,7 @@ Ganti pekerjaan? Nomor telepon baru? Perbarui profil Anda sekali - semua orang y
 vCard tidak bisa melakukan semua ini. Mereka membeku pada saat Anda menulisnya.
 
 ▸ **Berfungsi di setiap ponsel**
-Tidak seperti vCard, profil berbasis URL berfungsi di setiap smartphone - iPhone, Android, bahkan perangkat lama yang hanya memiliki browser. Aplikasi [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) di iOS menggunakan [App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) sehingga penerima tidak perlu menginstal apa pun. Di Android, [NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) langsung membuka profil web.
+Tidak seperti vCard, profil berbasis URL berfungsi di setiap smartphone - iPhone, Android, bahkan perangkat lama yang hanya memiliki browser. Aplikasi [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-id&mt=8) di iOS menggunakan [App Clip](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-id&mt=8) sehingga penerima tidak perlu menginstal apa pun. Di Android, [NFC.cool Business Card](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-id) langsung membuka profil web.
 
 ---
 
@@ -137,7 +137,7 @@ Ya. Setiap iPhone dengan pembacaan NFC latar belakang (iPhone XS dan yang lebih 
 
 **Bisakah saya membaca tag NFC vCard di iPhone sama sekali?**
 
-Hanya dengan aplikasi pembaca NFC yang terinstal. [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) di iPhone dan [NFC.cool Tools di Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en) keduanya dapat membaca dan menampilkan data vCard dari tag NFC. Android melakukan ini secara native tanpa aplikasi; iPhone memerlukan satu. Tetapi untuk berbagi kartu nama, jalur yang lebih baik adalah [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) - tidak diperlukan aplikasi di pihak penerima.
+Hanya dengan aplikasi pembaca NFC yang terinstal. [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-id&mt=8) di iPhone dan [NFC.cool Tools di Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-id) keduanya dapat membaca dan menampilkan data vCard dari tag NFC. Android melakukan ini secara native tanpa aplikasi; iPhone memerlukan satu. Tetapi untuk berbagi kartu nama, jalur yang lebih baik adalah [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-id&mt=8) - tidak diperlukan aplikasi di pihak penerima.
 
 **Tag NFC mana yang paling cocok untuk kartu nama digital?**
 
@@ -145,7 +145,7 @@ Tag NTAG213 atau NTAG215 apa pun berfungsi dengan baik. Data yang disimpan hanya
 
 **Bisakah saya menulis tag NFC dengan iPhone saya?**
 
-Ya - [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) memungkinkan Anda menulis URL dan data lainnya ke tag NFC langsung di iPhone. Ini mendukung semua tipe rekaman NDEF yang umum dan berfungsi dengan tag NTAG apa pun.
+Ya - [NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-id&mt=8) memungkinkan Anda menulis URL dan data lainnya ke tag NFC langsung di iPhone. Ini mendukung semua tipe rekaman NDEF yang umum dan berfungsi dengan tag NTAG apa pun.
 
 ---
 
@@ -159,10 +159,10 @@ Solusinya bukan sebuah jalan memutar - ini adalah pendekatan yang secara fundame
 2. Arahkan URL tersebut ke profil digital yang kaya
 3. Biarkan profil menangani penyimpanan kontak, berbagi tautan, dan segalanya
 
-Itulah yang dilakukan NFC.cool Business Card. Itulah yang saya gunakan di setiap konferensi, pertemuan, dan acara networking.
+Itulah yang dilakukan [NFC.cool Business Card](/id/business-card/). Itulah yang saya gunakan di setiap konferensi, pertemuan, dan acara networking.
 
 Saya ketuk. Mereka simpan. Kami berdua melanjutkan hidup kami.
 
 **Begitulah seharusnya bekerja.**
 
-*NFC.cool Business Card tersedia di [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) dan [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en). NFC.cool Tools (pembaca dan penulis tag) tersedia di [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-en&mt=8) dan [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-en).*
+*NFC.cool Business Card tersedia di [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-id&mt=8) dan [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-id). NFC.cool Tools (pembaca dan penulis tag) tersedia di [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-vcard-nfc-iphone-not-working-id&mt=8) dan [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-vcard-nfc-iphone-not-working-id).*

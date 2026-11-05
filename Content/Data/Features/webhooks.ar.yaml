@@ -33,7 +33,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "شكل الحمولة"
-    body: "<p>كل طلب POST يرسل جسم JSON بهذا الشكل:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p>يظهر <code>tagType</code> و<code>structured</code> فقط للصيغ الخاصة مثل <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a>؛ أما كل مسح آخر فيرسل الحقول الثلاثة الأولى فحسب. يحتوي <a href=\"/developers/\">مرجع المطوّرين</a> على التفصيل الكامل حقلًا بحقل، والمصادقة، وcurl، وخوادم أمثلة جاهزة للتشغيل.</p>"
+    body: "<p>كل طلب POST يرسل جسم JSON بهذا الشكل:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p>يظهر <code>tagType</code> و<code>structured</code> فقط للصيغ الخاصة مثل <a href=\"/ar/features/nfc-reader-writer/\">OpenPrintTag</a>؛ أما كل مسح آخر فيرسل الحقول الثلاثة الأولى فحسب. يحتوي <a href=\"/ar/developers/\">مرجع المطوّرين</a> على التفصيل الكامل حقلًا بحقل، والمصادقة، وcurl، وخوادم أمثلة جاهزة للتشغيل.</p>"
     platforms: "iOS · Android"
 
   - title: "خادم مرجعي على GitHub"

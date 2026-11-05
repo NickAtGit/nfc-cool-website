@@ -118,8 +118,8 @@ Un tag NFC sa contare da solo le proprie scansioni: il numero vive nel chip, non
 Sul contatore degli avvicinamenti c'è molto altro: quali chip funzionano, i casi d'uso reali e la procedura completa passo per passo.
 
 <div class="tap-cta-buttons">
-<a href="/blog/count-nfc-tag-scans/" class="landing-cta-button">Leggi la guida</a>
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Scopri la funzione</a>
+<a href="/it/blog/count-nfc-tag-scans/" class="landing-cta-button">Leggi la guida</a>
+<a href="/it/features/nfc-reader-writer/" class="landing-cta-button">Scopri la funzione</a>
 </div>
 
 </section>

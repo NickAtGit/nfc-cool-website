@@ -2,6 +2,7 @@
 id: nfc-blog-026
 title: "Cómo configurar tu tarjeta de visita digital NFC.cool"
 date: 2024-04-06
+lastModified: "2026-11-05"
 tags: ["business-cards", "guides"]
 summary: "Una guía paso a paso para configurar tu tarjeta de visita digital NFC.cool: crea el contacto, elige qué es público, escríbelo en una etiqueta NFC y compártelo. Además, por qué una sola URL editable supera a un código QR vCard de un solo uso para hacer networking en serio."
 metaTitle: "Cómo configurar tu tarjeta de visita digital NFC.cool"
@@ -18,23 +19,23 @@ La tarjeta de visita digital NFC.cool le da la vuelta a eso: una sola URL que co
 
 ## Instala la app
 
-Descarga NFC.cool Business Card para [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) o [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en). Es una descarga gratuita en las dos plataformas.
+Descarga NFC.cool Business Card para [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-es&mt=8) o [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-es). Es una descarga gratuita en las dos plataformas.
 
 ---
 
 ## Crea el contacto de origen en Contactos
 
-Abre la app Contactos de iOS (o los contactos de Android) y crea un contacto para ti con los datos que quieres que estén disponibles para el mundo: nombre, organización, cargo, email de trabajo, teléfono de trabajo, sitio web, URL de LinkedIn. Revisa bien la ortografía y el formato - este es el registro maestro.
+Puedes empezar desde una tarjeta vacía en la app o desde un contacto de tu móvil. Para lo segundo, abre la app Contactos de iOS (o los contactos de Android) y crea un contacto para ti con los datos que quieres que estén disponibles para el mundo: nombre, organización, cargo, email de trabajo, teléfono de trabajo, sitio web, URL de LinkedIn. Revisa bien la ortografía y el formato - este es el registro maestro.
 
 No tienes que poner todo. Lo que sea sensible (móvil personal, dirección de casa) puede quedarse fuera de este contacto.
 
 ---
 
-## Abre NFC.cool y crea la tarjeta de visita
+## Abre NFC.cool Business Card y crea la tarjeta
 
-Dentro de NFC.cool, ve a la sección **Business Card** y toca **Create Account**. Vas a definir un nombre de usuario y un PIN - el PIN es lo que protege las ediciones futuras, así que no lo pierdas.
+Abre la app y toca **Create Business Card**.
 
-Toca **Open Contacts** y selecciona el contacto que acabas de crear. NFC.cool importa los datos y te los muestra como el borrador de tu tarjeta de visita.
+Elige **Create from Contacts** y selecciona el contacto que acabas de crear, o **Create New** para empezar desde una tarjeta vacía. NFC.cool importa los datos y te los muestra como el borrador de tu tarjeta de visita.
 
 ---
 
@@ -48,13 +49,13 @@ Configuraciones habituales:
 - **Ingeniería:** nombre, cargo, email de trabajo, GitHub, sitio web.
 - **Creativo:** nombre, cargo, Instagram, URL del portfolio, email de trabajo.
 
-Toca **Next** cuando hayas terminado.
+Continúa cuando hayas terminado. Después elegirás un nombre de usuario, que va al final del enlace de tu tarjeta (mycard.nfc.cool/John), y crearás tu cuenta. La app le asigna a tu cuenta un PIN de cuatro dígitos, que puedes cambiar en Ajustes y usar para mantener una tarjeta privada.
 
 ---
 
 ## Personaliza el logotipo
 
-Toca **Your logo** → **Change logo** para subir el logotipo de tu empresa o tu marca personal. Un PNG transparente da el resultado más limpio - se compone correctamente tanto en tema claro como en oscuro.
+Abre el menú de la tarjeta y cambia el logotipo para subir el de tu empresa o tu marca personal. Un fondo transparente da el resultado más limpio, y puedes usar un solo logotipo para el modo claro y el oscuro, o añadir uno para cada modo.
 
 ---
 
@@ -66,11 +67,11 @@ Toca **Your logo** → **Change logo** para subir el logotipo de tu empresa o tu
 </ol>
 </figure>
 
-Ahora viene la parte física. Puedes comprar una etiqueta NFC en [la tienda de NFC.cool](https://shop.nfc.cool/collections/all) o en cualquier distribuidor externo - pegatina, tarjeta, llavero, el formato que mejor encaje.
+Ahora viene la parte física. Cualquier etiqueta NFC estándar sirve - pegatina, tarjeta, llavero, el formato que mejor encaje. Mi página de [etiquetas NFC recomendadas](/es/affiliate-links/) te muestra cuáles comprar.
 
-En NFC.cool, toca **Write business card to NFC tag**. Acerca el móvil a la etiqueta. La app escribe una URL corta que apunta a la página de tu tarjeta en nfc.cool. Una vez escrita, cualquier persona con un móvil puede tocarla.
+En el menú de la tarjeta, toca **Write to NFC Tag** (**Write Business Card to NFC Tag** en Android). Acerca el móvil a la etiqueta. La app escribe una URL corta que apunta a la página de tu tarjeta en nfc.cool. Una vez escrita, cualquier persona con un móvil puede tocarla.
 
-Si quieres bloquear la etiqueta para que nadie pueda sobrescribir la URL más adelante, toca **Lock** después de que la escritura haya sido correcta. Esto es irreversible - bloquea solo las etiquetas de las que estés seguro.
+Si quieres bloquear la etiqueta para que nadie pueda sobrescribir la URL más adelante, [NFC.cool Tools](/es/features/nfc-reader-writer/) puede hacerlo con su suscripción Platinum. El bloqueo es irreversible - bloquea solo las etiquetas de las que estés seguro.
 
 ---
 
@@ -82,7 +83,7 @@ Si quieres bloquear la etiqueta para que nadie pueda sobrescribir la URL más ad
 </ol>
 </figure>
 
-Toca **View Business Card** para ver exactamente lo que ve un destinatario. La página está pensada primero para móvil, carga al instante y ofrece un botón de "Guardar en Contactos" con un solo toque. En iOS, los destinatarios ven un App Clip nativo (sin necesidad de instalar ninguna app); en Android ven una página web limpia en el dominio nfc.cool. Ambos acaban con tu contacto en su agenda.
+Toca **Preview** en el menú de la tarjeta (**Preview Business Card** en Android) para ver exactamente lo que ve un destinatario. La página está pensada primero para móvil, carga al instante y ofrece un botón de "Guardar contacto" con un solo toque. En iOS, los destinatarios ven un App Clip nativo (sin necesidad de instalar ninguna app); en Android ven una página web limpia en el dominio nfc.cool. Ambos acaban con tu contacto en su agenda.
 
 ---
 
@@ -96,4 +97,4 @@ El flujo de NFC.cool mantiene tus datos de contacto en el servidor. La etiqueta 
 
 Esa es la única función que importa para hacer networking en serio - los datos sobreviven a la tarjeta impresa.
 
-[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-en&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en) · o NFC.cool Business Card independiente para [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) y [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en).
+[NFC.cool Tools (iPhone)](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-es&mt=8) · [NFC.cool Tools (Android)](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-es) · o [NFC.cool Business Card](/es/business-card/) para [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-es&mt=8) y [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-es).

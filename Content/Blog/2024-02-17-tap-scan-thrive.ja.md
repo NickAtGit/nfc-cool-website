@@ -5,7 +5,7 @@ date: 2024-02-17
 tags: ["qr-codes", "business-cards"]
 summary: "QRコードはURL専用ではありません。Wi-Fi認証情報、カレンダーイベント、位置情報、vCard、プレーンテキスト - エンコードできるものなら何でも運べます。NFC.coolのQRジェネレーターとスキャナーで何ができるか、フルメニューを解説します。"
 metaTitle: "QRコードが運べるもの：URL以外の選択肢"
-metaDescription: "QRコードはWi-Fi認証情報、連絡先、カレンダー、位置情報などをエンコード可能 - URLだけではありません。各QRペイロードタイプの実用ガイド。"
+metaDescription: "QRコードが運べるのはURLだけではありません。Wi-Fi認証情報、連絡先、カレンダーの予定、位置情報、プレーンテキストまで、エンコードできる内容をペイロードの種類ごとに紹介し、それぞれの実用的な使いどころを解説します。"
 ogTitle: "タップ、スキャン、その先へ：QRコードがURL以外に運べるもの"
 ogDescription: "QRコードはWi-Fi、連絡先、カレンダー、位置情報をエンコード可能 - URLだけではない。"
 image: "/assets/images/Blog/tap-scan-thrive.webp"
@@ -67,7 +67,7 @@ URLの最も一般的な代替手段。完全なvCard（名前、電話、メー
 
 QR名刺はそのまま動作するのがこれです。vCard QRが特別なアプリなしであらゆるスマホで動く理由でもあります - vCardは30年の歴史を持つ標準で、OSがすでに知っています。
 
-NFC.cool Business Cardのフローとのトレードオフ：vCard QRは更新できません。一度印刷すれば連絡先データは凍結します。後で編集できる「唯一の真実のソース」が欲しいなら、代わりにライブの名刺ページへのURLをエンコードしましょう。それが[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-ja&mt=8)の動作で、本格的なネットワーキングには生のvCard QRよりこちらを推奨する理由です。
+NFC.cool Business Cardのフローとのトレードオフ：vCard QRは更新できません。一度印刷すれば連絡先データは凍結します。後で編集できる「唯一の真実のソース」が欲しいなら、代わりにライブの名刺ページへのURLをエンコードしましょう。それが[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-ja&mt=8)の動作で、本格的なネットワーキングには生のvCard QRよりこちらを推奨する理由です。[NFC.cool Business Cardでできること](/ja/business-card/)もあわせてご覧ください。
 
 ---
 

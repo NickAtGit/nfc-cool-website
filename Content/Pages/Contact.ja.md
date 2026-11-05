@@ -36,7 +36,7 @@ description: "NFC.coolへのお問い合わせ - メールサポート、よく�
 
 <details class="faq-item">
 <summary>アプリは無料ですか？</summary>
-<p>はい - App StoreとGoogle Playで両方とも無料で、広告もありません。アプリ内で一部の高度なワークフローはアンロック方式で提供される場合がありますが、NFC、QR、書類、3D、デジタル名刺の中核機能はすべて無料です。</p>
+<p>はい - App StoreとGoogle Playで両方とも無料です。アプリ内で一部の高度なワークフローはアンロック方式で提供される場合がありますが、NFC、QR、書類、3D、デジタル名刺の中核機能はすべて無料です。</p>
 </details>
 
 <details class="faq-item">

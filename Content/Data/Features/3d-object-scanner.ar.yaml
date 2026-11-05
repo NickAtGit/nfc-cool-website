@@ -37,7 +37,7 @@ subsections:
     platforms: "iOS"
 
   - title: "مزامنة iCloud عبر iPhone وiPad وMac"
-    body: "<p>تعيش النماذج الممسوحة في مجلد iCloud Documents، فيرى iPhone الذي مسحت به، وiPad الذي راجعت عليه، و<a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> الذي ستحرّر عليه، المكتبةَ نفسها. التقط وأنت في الطريق، وأنجِز على المكتب.</p>"
+    body: "<p>تعيش النماذج الممسوحة في مجلد iCloud Documents، فيرى iPhone الذي مسحت به، وiPad الذي راجعت عليه، و<a href=\"/ar/blog/nfc-cool-comes-to-mac/\">Mac</a> الذي ستحرّر عليه، المكتبةَ نفسها. التقط وأنت في الطريق، وأنجِز على المكتب.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool يزامن عبر iPhone وiPad وMac"
     platforms: "iOS"

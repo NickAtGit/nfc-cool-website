@@ -29,25 +29,25 @@ capabilities:
 subsectionsTitle: "Lebih dalam dari aplikasi NFC biasa"
 subsections:
   - title: "NFC Safe - enkripsi rahasia di tag itu sendiri"
-    body: "<p>Sebagian besar aplikasi NFC memperlakukan tag seperti kartu pos - siapapun dengan ponsel bisa membacanya. NFC Safe memperlakukannya seperti amplop tersegel. Rahasia Anda (kata sandi, frasa pemulihan, kunci lisensi, atau teks apa pun) dienkripsi di perangkat Anda dengan AES-256 sebelum sampai ke tag. Kehilangan tag, dicuri, diserahkan ke orang asing - tanpa frasa sandi Anda, muatannya hanyalah kebisingan.</p><p>Enkripsi yang sama berfungsi di kedua platform, sehingga Anda bisa mengunci rahasia di iPhone dan membukanya di Android. Ingin penjelasan lengkap tentang cara enkripsinya? <a href=\"/blog/nfc-safe-encrypted-secrets/\">Baca panduan mendalam NFC Safe di blog</a>.</p>"
+    body: "<p>Sebagian besar aplikasi NFC memperlakukan tag seperti kartu pos - siapapun dengan ponsel bisa membacanya. NFC Safe memperlakukannya seperti amplop tersegel. Rahasia Anda (kata sandi, frasa pemulihan, kunci lisensi, atau teks apa pun) dienkripsi di perangkat Anda dengan AES-256 sebelum sampai ke tag. Kehilangan tag, dicuri, diserahkan ke orang asing - tanpa frasa sandi Anda, muatannya hanyalah kebisingan.</p><p>Enkripsi yang sama berfungsi di kedua platform, sehingga Anda bisa mengunci rahasia di iPhone dan membukanya di Android. Ingin penjelasan lengkap tentang cara enkripsinya? <a href=\"/id/blog/nfc-safe-encrypted-secrets/\">Baca panduan mendalam NFC Safe di blog</a>.</p>"
     imagePath: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
     imageAlt: "Rahasia terenkripsi NFC Safe di sebuah tag"
     platforms: "iOS · Android"
 
   - title: "NFC Tap Counter - lacak setiap tag berdasarkan ID dan hitungannya"
-    body: "<p>Beberapa chip NFC menghitung pemindaian mereka sendiri di perangkat keras. NFC Tap Counter memanfaatkan itu: ia mengatur tag sehingga menambahkan hitungan ketukan langsung - dan/atau ID tag uniknya - ke apapun yang dibawanya (URL, email, SMS, atau Shortcut) pada setiap pembacaan tunggal. Tidak ada server, tidak ada internet, tidak ada backend yang perlu dikelola - chip yang melakukan penghitungan dan penggantian sendiri.</p><p>Itu membuat satu tag memberi tahu Anda stiker fisik mana yang diketuk dan berapa kali, dan memungkinkan Anda bertindak: batasi 100 pemindaian pertama untuk demo, lacak keterlibatan di kartu nama, atau buktikan keaslian dengan penghitung yang hanya pernah naik. Ingin panduan lengkapnya? <a href=\"/blog/count-nfc-tag-scans/\">Baca panduan NFC Tap Counter di blog</a>, atau <a href=\"/tap-counter/\">coba demo langsung</a> - ketuk tag dan lihat halaman menghitung.</p>"
+    body: "<p>Beberapa chip NFC menghitung pemindaian mereka sendiri di perangkat keras. NFC Tap Counter memanfaatkan itu: ia mengatur tag sehingga menambahkan hitungan ketukan langsung - dan/atau ID tag uniknya - ke apapun yang dibawanya (URL, email, SMS, atau Shortcut) pada setiap pembacaan tunggal. Tidak ada server, tidak ada internet, tidak ada backend yang perlu dikelola - chip yang melakukan penghitungan dan penggantian sendiri.</p><p>Itu membuat satu tag memberi tahu Anda stiker fisik mana yang diketuk dan berapa kali, dan memungkinkan Anda bertindak: batasi 100 pemindaian pertama untuk demo, lacak keterlibatan di kartu nama, atau buktikan keaslian dengan penghitung yang hanya pernah naik. Ingin panduan lengkapnya? <a href=\"/id/blog/count-nfc-tag-scans/\">Baca panduan NFC Tap Counter di blog</a>, atau <a href=\"/id/tap-counter/\">coba demo langsung</a> - ketuk tag dan lihat halaman menghitung.</p>"
     imagePath: "/assets/images/Blog/count-nfc-tag-scans.webp"
     imageAlt: "Tag NFC diketuk oleh ponsel dengan hitungan pemindaiannya yang naik"
     platforms: "iOS · Android"
 
   - title: "OpenPrintTag - filamen printer 3D Anda, di gulungan"
-    body: "<p>OpenPrintTag adalah standar terbuka untuk menyematkan metadata gulungan filamen (material, warna, pabrikan, UUID, panjang tersisa) ke dalam rekaman NDEF kecil berenkode CBOR. NFC.cool membaca dan menulis format ini secara native di kedua platform - sehingga printer yang kompatibel dapat mengidentifikasi gulungan Anda begitu dimuat. Baru mengenal formatnya? <a href=\"/blog/openprinttag-read-write-nfc-spools-phone/\">Panduan blog kami memandu cara membaca dan menulis gulungan OpenPrintTag</a>.</p><p>Format yang sama mendukung muatan webhook terstruktur di halaman <a href=\"/features/webhooks/\">Webhooks & Otomasi</a> - aktifkan POST ke farm cetak Anda begitu gulungan baru terdeteksi.</p>"
+    body: "<p>OpenPrintTag adalah standar terbuka untuk menyematkan metadata gulungan filamen (material, warna, pabrikan, UUID, panjang tersisa) ke dalam rekaman NDEF kecil berenkode CBOR. NFC.cool membaca dan menulis format ini secara native di kedua platform - sehingga printer yang kompatibel dapat mengidentifikasi gulungan Anda begitu dimuat. Baru mengenal formatnya? <a href=\"/id/blog/openprinttag-read-write-nfc-spools-phone/\">Panduan blog kami memandu cara membaca dan menulis gulungan OpenPrintTag</a>.</p><p>Format yang sama mendukung muatan webhook terstruktur di halaman <a href=\"/id/features/webhooks/\">Webhooks & Otomasi</a> - aktifkan POST ke farm cetak Anda begitu gulungan baru terdeteksi.</p>"
     imagePath: "/assets/images/Blog/openprinttag-read-write-nfc-spools-phone.webp"
     imageAlt: "Membaca dan menulis gulungan NFC OpenPrintTag dengan ponsel"
     platforms: "iOS · Android"
 
   - title: "Reset kepala sikat gigi"
-    body: "<p>Kepala sikat Philips Sonicare membawa tag NFC yang melacak penggunaan sehingga gagangnya mengingatkan Anda untuk menggantinya. NFC.cool dapat mereset penghitung itu - membaca status tag, memandu Anda melalui reset, menulis status baru kembali. Sama di kedua platform. Ingin tahu persis apa yang dilacak chip? <a href=\"/blog/reset-sonicare-brush-head-nfc/\">Baca panduan kepala sikat Sonicare di blog</a>. (Kami tidak membuat kepala sikat; kami hanya memberi milik Anda satu bulan lagi masa pakai.)</p>"
+    body: "<p>Kepala sikat Philips Sonicare membawa tag NFC yang melacak penggunaan sehingga gagangnya mengingatkan Anda untuk menggantinya. NFC.cool dapat mereset penghitung itu - membaca status tag, memandu Anda melalui reset, menulis status baru kembali. Sama di kedua platform. Ingin tahu persis apa yang dilacak chip? <a href=\"/id/blog/reset-sonicare-brush-head-nfc/\">Baca panduan kepala sikat Sonicare di blog</a>. (Kami tidak membuat kepala sikat; kami hanya memberi milik Anda satu bulan lagi masa pakai.)</p>"
     imagePath: "/assets/images/Blog/reset-sonicare-brush-head-nfc.webp"
     imageAlt: "Mereset kepala sikat Philips Sonicare dengan NFC"
     platforms: "iOS · Android"
@@ -77,7 +77,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Tulis massal CSV"
-    body: "<p>Buat daftarnya di Numbers, Excel, atau Google Sheets, ekspor sebagai file CSV, lalu impor file itu di ponsel. Setiap baris menjadi satu tag, dan jika memakai beberapa kolom, setiap sel menjadi record tersendiri di tag itu. NFC.cool mendeteksi pemisahnya, menampilkan pratinjau beserta jumlah byte per tag, lalu menulis tag satu per satu sementara tag ditempelkan ke ponsel. Baris yang sudah ditulis dihapus dari file, jadi proses bisa dihentikan dan dilanjutkan kapan saja. <a href=\"/blog/batch-write-nfc-tags-csv/\">Baca panduan lengkapnya, dari spreadsheet sampai tag terakhir</a>.</p>"
+    body: "<p>Buat daftarnya di Numbers, Excel, atau Google Sheets, ekspor sebagai file CSV, lalu impor file itu di ponsel. Setiap baris menjadi satu tag, dan jika memakai beberapa kolom, setiap sel menjadi record tersendiri di tag itu. NFC.cool mendeteksi pemisahnya, menampilkan pratinjau beserta jumlah byte per tag, lalu menulis tag satu per satu sementara tag ditempelkan ke ponsel. Baris yang sudah ditulis dihapus dari file, jadi proses bisa dihentikan dan dilanjutkan kapan saja. <a href=\"/id/blog/batch-write-nfc-tags-csv/\">Baca panduan lengkapnya, dari spreadsheet sampai tag terakhir</a>.</p>"
     imagePath: "/assets/images/Features/nfc-reader-writer-csv-batch-write.webp"
     imageAlt: "iPhone menulis massal tag NFC dari spreadsheet"
     platforms: "iOS · Android"
@@ -89,7 +89,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sinkronisasi iCloud di iPhone, iPad, dan Mac"
-    body: "<p>Riwayat pemindaian, entri NFC Safe, dan templat penulisan sinkron dengan mulus di setiap perangkat yang masuk ke akun iCloud Anda. Ketuk tag di iPhone di saku Anda dan pemindaian ada di perpustakaan iPad Anda sesaat kemudian. NFC.cool kini <a href=\"/blog/nfc-cool-comes-to-mac/\">berjalan di Mac Apple Silicon</a> juga, sehingga perpustakaan yang sama muncul di sana.</p>"
+    body: "<p>Riwayat pemindaian, entri NFC Safe, dan templat penulisan sinkron dengan mulus di setiap perangkat yang masuk ke akun iCloud Anda. Ketuk tag di iPhone di saku Anda dan pemindaian ada di perpustakaan iPad Anda sesaat kemudian. NFC.cool kini <a href=\"/id/blog/nfc-cool-comes-to-mac/\">berjalan di Mac Apple Silicon</a> juga, sehingga perpustakaan yang sama muncul di sana.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool sinkron di iPhone, iPad, dan Mac"
     platforms: "iOS"

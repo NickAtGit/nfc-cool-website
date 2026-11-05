@@ -37,7 +37,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sinkronisasi iCloud di iPhone, iPad, dan Mac"
-    body: "<p>Model yang dipindai tersimpan di folder iCloud Documents Anda, sehingga iPhone yang Anda gunakan untuk memindai, iPad yang Anda gunakan untuk meninjau, dan <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> yang akan Anda gunakan untuk mengedit semuanya melihat perpustakaan yang sama. Pindai saat bepergian, selesaikan di meja kerja.</p>"
+    body: "<p>Model yang dipindai tersimpan di folder iCloud Documents Anda, sehingga iPhone yang Anda gunakan untuk memindai, iPad yang Anda gunakan untuk meninjau, dan <a href=\"/id/blog/nfc-cool-comes-to-mac/\">Mac</a> yang akan Anda gunakan untuk mengedit semuanya melihat perpustakaan yang sama. Pindai saat bepergian, selesaikan di meja kerja.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool tersinkronisasi di iPhone, iPad, dan Mac"
     platforms: "iOS"

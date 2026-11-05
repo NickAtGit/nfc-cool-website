@@ -10,7 +10,7 @@ image: "/assets/images/Blog/app-clip-mdevcamp.webp"
 imageAlt: "En conférence au mDevCamp 2025 à Prague"
 ---
 
-En 2025, j'ai donné ma toute première conférence, et j'ai choisi un sujet dans lequel je baignais depuis des années sans avoir jamais eu à l'expliquer à une salle : comment l'App Clip derrière NFC.cool Business Card fonctionne réellement. La conférence avait lieu au mDevCamp 2025 à Prague, et je lui ai donné le même titre que cet article.
+En 2025, j'ai donné ma toute première conférence, et j'ai choisi un sujet dans lequel je baignais depuis des années sans avoir jamais eu à l'expliquer à une salle : comment l'App Clip derrière [NFC.cool Business Card](/fr/business-card/) fonctionne réellement. La conférence avait lieu au mDevCamp 2025 à Prague, et je lui ai donné le même titre que cet article.
 
 Si vous n'en avez jamais croisé, un App Clip est cette petite partie d'une app iOS qui s'ouvre instantanément lorsqu'on approche un tag NFC ou qu'on scanne un QR code - sans App Store, sans installation. C'est ce qui permet à quelqu'un de voir votre carte de visite NFC.cool environ une seconde après avoir approché les téléphones l'un de l'autre, sans rien télécharger. Rendre cela instantané, tout en gardant les données de la carte partagée sécurisées et sans forcer qui que ce soit à créer un compte, demande plus de choix d'architecture qu'il n'y paraît de l'extérieur. La conférence les passait en revue : comment l'App Clip est structuré, où SwiftUI trouve toute sa place, et comment le backend gère les données de la carte.
 

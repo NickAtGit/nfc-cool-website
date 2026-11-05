@@ -24,7 +24,7 @@ Houve uma coisa em que insisti muito ao desenhar isto: não queria que os seus s
 
 Se me pedisse para nomear o ponto fraco de todos os métodos de armazenamento de segredos que já vi, conseguiria fazê-lo sem pensar: o papel arde, os conectores USB corroem-se, os serviços na nuvem são alvo de fugas, as carteiras de hardware só lidam com seed phrases de cripto, e o seu cérebro esquece-se. Cada opção falha à sua maneira.
 
-Por isso trabalhei de trás para a frente. A cópia de segurança ideal seria fisicamente duradoura, encriptada, autónoma, redundante e de longa duração. As tags NFC cumprem as cinco, e isso também me surpreendeu ao início. Não têm bateria, não têm peças móveis, e o chip NTAG216 está classificado para mais de 10 anos de retenção de dados. As variantes revestidas a epóxi sobrevivem à água, ao impacto e a décadas de abandono. Se ainda não conhece as diferenças entre estes chips, expliquei os prós e contras em [tipos de tags NFC para iPhone](/blog/nfc-tag-types-for-iphones/).
+Por isso trabalhei de trás para a frente. A cópia de segurança ideal seria fisicamente duradoura, encriptada, autónoma, redundante e de longa duração. As tags NFC cumprem as cinco, e isso também me surpreendeu ao início. Não têm bateria, não têm peças móveis, e o chip NTAG216 está classificado para mais de 10 anos de retenção de dados. As variantes revestidas a epóxi sobrevivem à água, ao impacto e a décadas de abandono. Se ainda não conhece as diferenças entre estes chips, expliquei os prós e contras em [tipos de tags NFC para iPhone](/pt/blog/nfc-tag-types-for-iphones/).
 
 ---
 
@@ -51,7 +51,7 @@ O NFC Safe vive dentro da NFC.cool Tools, em NFC Apps. Mantive tudo num único e
 2. Introduza a sua frase-passe
 3. Toque numa tag previamente encriptada - o seu segredo aparece
 
-Nos bastidores, eis o que estou de facto a fazer: AES-256-GCM com PBKDF2 (HMAC-SHA-256, 100 000 iterações, salt aleatório de 16 bytes). O resultado é guardado na tag como um registo NDEF personalizado (`urn:nfc:ext:crypto`). Se quiser verificar tudo isto por si próprio em vez de acreditar na minha palavra, a [especificação completa do formato está no GitHub](https://github.com/NickAtGit/nfc.cool-nfc-safe-format). E se tiver curiosidade em ver primeiro como é uma gravação normal, sem encriptação, descrevo-a passo a passo em [como gravar tags NFC no iPhone](/blog/write-nfc-tags-iphone/).
+Nos bastidores, eis o que estou de facto a fazer: AES-256-GCM com PBKDF2 (HMAC-SHA-256, 100 000 iterações, salt aleatório de 16 bytes). O resultado é guardado na tag como um registo NDEF personalizado (`urn:nfc:ext:crypto`). Se quiser verificar tudo isto por si próprio em vez de acreditar na minha palavra, a [especificação completa do formato está no GitHub](https://github.com/NickAtGit/nfc.cool-nfc-safe-format). E se tiver curiosidade em ver primeiro como é uma gravação normal, sem encriptação, descrevo-a passo a passo em [como gravar tags NFC no iPhone](/pt/blog/write-nfc-tags-iphone/).
 
 ---
 
@@ -89,7 +89,7 @@ Prefiro ser claro quanto às arestas afiadas do que deixar que as descubra mais 
 
 ## A visão mais ampla
 
-A trabalhar com NFC todos os dias, tenho visto estas tags tornarem-se discretamente o meio de armazenamento de coisas que importam. O Passaporte Digital de Produto da UE inclui o NFC entre os portadores de dados aprovados, lado a lado com os códigos QR. A Philips coloca-as nas cabeças das escovas de dentes. Os hotéis usam-nas como chaves de quarto. Baratas, duradouras e universalmente legíveis pelo dispositivo que já tem no bolso - essa combinação é rara, e é exatamente por isso que continuo a encontrar-lhes novos usos. Se quiser uma perspetiva mais alargada, abordei os fundamentos em [tags NFC explicadas: um guia completo para principiantes](/blog/nfc-tags-beginners-guide/).
+A trabalhar com NFC todos os dias, tenho visto estas tags tornarem-se discretamente o meio de armazenamento de coisas que importam. O Passaporte Digital de Produto da UE inclui o NFC entre os portadores de dados aprovados, lado a lado com os códigos QR. A Philips coloca-as nas cabeças das escovas de dentes. Os hotéis usam-nas como chaves de quarto. Baratas, duradouras e universalmente legíveis pelo dispositivo que já tem no bolso - essa combinação é rara, e é exatamente por isso que continuo a encontrar-lhes novos usos. Se quiser uma perspetiva mais alargada, abordei os fundamentos em [tags NFC explicadas: um guia completo para principiantes](/pt/blog/nfc-tags-beginners-guide/).
 
 O NFC Safe é a minha tentativa de pegar nessa durabilidade e acrescentar a única coisa que lhe faltava - encriptação. Uma cópia de segurança que dura mais do que o papel, que não pode ser lida por quem a encontre, e que custa menos do que uma chávena de café. É o tipo de coisa que eu queria para mim próprio, por isso construí-a.
 

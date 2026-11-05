@@ -1,7 +1,7 @@
 ---
 title: "更多应用"
 slug: "apps"
-description: "除了NFC.cool Tools和Business Card之外，我还开发了一些小而专注的应用：二维码扫描、3D扫描、航班记录、电助力车监控等，全部出自同一位独立开发者之手。"
+description: "除了 NFC.cool Tools 和 Business Card，我还开发了一些小而专注的应用：二维码扫描、3D 扫描、航班记录、电助力车监控等，全部由 NFC.cool 的创始人亲手打造。这些应用都是因为我想要才动手做的，又因为有人真正在用而不断打磨。"
 ---
 
 <section class="page-hero">
@@ -10,7 +10,7 @@ description: "除了NFC.cool Tools和Business Card之外，我还开发了一些
 
 <div class="page-hero-text">
 
-# 出自同一个键盘的更多应用
+# NFC.cool 的更多应用
 
 NFC.cool Tools和Business Card应用是主角，但它们并不是我开发的全部。这里是其余的阵容：一些小而专注的应用，因为我希望它们存在而动手去做，又因为有人真正在用而不断打磨。
 

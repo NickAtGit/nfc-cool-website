@@ -57,7 +57,7 @@ subsections:
     platforms: "iOS"
 
   - title: "مزامنة iCloud عبر iPhone وiPad وMac"
-    body: "<p>يتزامن سجل المسح وتصاميم استوديو QR عبر كل جهاز على حساب iCloud الخاص بك. صمّم رمز QR على iPad، وشاركه من iPhone، وحرّره على <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - المكتبة نفسها والتعديلات نفسها، دون تصدير ذهابًا وإيابًا.</p>"
+    body: "<p>يتزامن سجل المسح وتصاميم استوديو QR عبر كل جهاز على حساب iCloud الخاص بك. صمّم رمز QR على iPad، وشاركه من iPhone، وحرّره على <a href=\"/ar/blog/nfc-cool-comes-to-mac/\">Mac</a> - المكتبة نفسها والتعديلات نفسها، دون تصدير ذهابًا وإيابًا.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool يتزامن عبر iPhone وiPad وMac"
     platforms: "iOS"

@@ -2,6 +2,7 @@
 id: nfc-blog-029
 title: "Biglietti da visita digitali, professione per professione"
 date: 2026-05-17
+lastModified: "2026-11-05"
 tags: ["business-cards", "industry", "guides"]
 summary: "Il biglietto di carta delude tutte le professioni, ma ognuna a modo suo. Una guida pratica ai biglietti da visita digitali per agenti immobiliari, operatori sanitari e consulenti: cosa metterci, cosa cercare e come scegliere l'app."
 image: "/assets/images/Blog/digital-business-cards-consultants-freelancers.webp"
@@ -16,7 +17,7 @@ Sviluppo io l'app NFC.cool Business Card e negli ultimi due anni ho letto un muc
 
 Quasi mai lo è. Però il *motivo* per cui il biglietto di carta lascia a piedi cambia davvero da una professione all'altra. Un agente immobiliare e un medico ospedaliero stanno entrambi stretti nella carta, ma per ragioni completamente diverse.
 
-Così, invece di scrivere l'ennesimo articolo sulla morte del biglietto di carta, ho organizzato tutto come la gente ragiona davvero: per professione. Ci sono tre sezioni - immobiliare, sanità e consulenza indipendente - e poi le parti che valgono per chiunque, compreso uno sguardo onesto su dove la mia app funziona e dove no.
+Così, invece di scrivere l'ennesimo articolo sulla morte del biglietto di carta, ho organizzato tutto come la gente ragiona davvero: per professione. Ci sono tre sezioni - immobiliare, sanità e consulenza indipendente - e poi le parti che valgono per chiunque, compreso dove la mia app può esserti utile.
 
 ---
 
@@ -130,7 +131,7 @@ Le professioni cambiano, l'elenco delle cose da controllare quasi no. Qualunque 
 - **NFC e QR, tutti e due.** L'NFC è più rapido e di persona fa la sua figura; il QR è universale e funziona su un cartello stampato, un volantino, una slide. Servono entrambi, non uno dei due venduto come extra a pagamento.
 - **Più biglietti.** Ruoli diversi, eventi diversi, pubblici diversi. Irrinunciabile se fai più di un mestiere.
 - **Più lingue**, se lavori oltreconfine: nel contenuto del biglietto, non solo nell'interfaccia dell'app.
-- **Una privacy che sai spiegare.** Alcune piattaforme mandano email a chi apre il biglietto, o registrano le conversazioni. Se chi ti fornisce il servizio riempie di spam i tuoi contatti, la figuraccia è tua. Leggi l'informativa sulla privacy prima di legarti a un servizio.
+- **Una privacy che sai spiegare.** Chiedi se una piattaforma manda email a chi apre il biglietto e se registra le conversazioni. Se chi ti fornisce il servizio riempie di spam i tuoi contatti, la figuraccia è tua. Leggi l'informativa sulla privacy prima di legarti a un servizio.
 - **Nessun vincolo sull'hardware.** Parecchie aziende vendono tessere NFC proprietarie da 30-60 dollari. Un adesivo NFC da due dollari programmato da te fa lo stesso identico lavoro.
 - **Prezzi onesti.** Il single sign-on aziendale e i pannelli per i team non servono a niente se lavori da solo. Cerca una versione gratuita vera o un piano individuale a un prezzo accessibile.
 
@@ -138,33 +139,30 @@ Le professioni cambiano, l'elenco delle cose da controllare quasi no. Qualunque 
 
 ## Dove si colloca NFC.cool Business Card
 
-Trasparenza totale: questa è la mia app, quindi leggi i prossimi paragrafi tenendolo presente. Provo a dire chiaramente dove è forte e dove non lo è.
+Trasparenza totale: questa è la mia app, quindi leggi i prossimi paragrafi tenendolo presente.
 
-NFC.cool Business Card è un'app a sé stante, disponibile su iPhone e Android. Ecco cosa fa bene per le professioni appena elencate:
+[NFC.cool Business Card](/it/business-card/) è un'app a sé stante, disponibile su iPhone e Android. Ecco cosa fa bene per le professioni appena elencate:
 
-- **35 lingue** nell'interfaccia dell'app e nell'App Clip, più di qualsiasi altro biglietto da visita digitale che io conosca. Su iOS il biglietto compare nella lingua del cliente. (La pagina web di condivisione su Android per ora è solo in inglese.)
-- **Nessuna app per chi riceve il biglietto.** Su iPhone si apre una App Clip nativa, su Android una pagina sul dominio nfc.cool. In entrambi i casi c'è un pulsante "Salva contatto".
+- **35 lingue** nell'interfaccia dell'app e nell'App Clip, più di qualsiasi altro biglietto da visita digitale che io conosca. Su iOS i pulsanti e le etichette attorno al biglietto seguono la lingua del cliente.
+- **Nessuna app per chi riceve il biglietto.** Su iPhone si apre un'App Clip nativa, su Android una pagina sul dominio nfc.cool. In entrambi i casi c'è un pulsante "Salva contatto".
 - **Avvicinamento NFC e codice QR**, più un semplice link da condividere in chat e nelle firme email.
 - **Modalità Conferenza**: tiene il codice QR del biglietto fisso sulla schermata di blocco per l'intera giornata dell'evento, sia su iPhone (come Live Activity) sia su Android. Alzi il telefono, l'altra persona inquadra, fatto. Niente sblocco, niente ricerche dentro Apple Wallet. L'integrazione con Wallet c'è comunque, come alternativa.
-- **Fino a 100 biglietti**, così il consiglio "un biglietto per ogni ruolo" diventa davvero praticabile.
+- **Fino a 10 biglietti con Pro**, così il consiglio "un biglietto per ogni ruolo" diventa davvero praticabile.
 - **Biglietti protetti da PIN** per tutto ciò che è delicato.
-- **La privacy prima di tutto**: nessuna vendita dei dati e nessuna pubblicità, nessun contatto commerciale a chi riceve il biglietto, nessuna registrazione delle conversazioni, esportazione dei dati conforme al GDPR.
+- **Privacy**: NFC.cool non vende i tuoi dati, l'app non ha pubblicità, non registra le conversazioni e puoi esportare tutto in un file ZIP. NFC.cool non invia marketing a chi guarda il tuo biglietto. Con il piano Team, il tuo team può inviare email di follow-up a chi lascia i propri dati nel tuo modulo per i lead.
 - **Va bene qualsiasi tag NFC.** Io hardware non ne vendo: scrivi il biglietto su un adesivo che hai già.
-- **Prezzi**: una versione gratuita, poi Personal a 20 euro l'anno (1 biglietto), Small Business a 50 euro l'anno (10 biglietti) e Business a 100 euro l'anno (100 biglietti).
+- **Prezzi**: un piano Free con un biglietto, poi Personal a $19,99 all'anno (1 biglietto), Pro a $49,99 all'anno (10 biglietti) e [Team](/it/business-card/teams/) a $50 a persona all'anno o $5 al mese (fino a 10 biglietti a persona). In euro la cifra del piano Team è la stessa.
+- **Per i team**: il piano Team si collega a HubSpot, invia i lead ovunque tramite webhook e ha una dashboard web con ruoli e inviti. Il single sign-on e la sincronizzazione della directory si attivano [su richiesta](/it/contact/).
+- **App native e assistenza del fondatore**: è sviluppata in modo nativo per iPhone e Android, non ha investitori di venture capital alle spalle e quando hai una domanda ti rispondo io.
 
-Dove la concorrenza è davvero più avanti:
-
-- **Integrazioni con i CRM.** Se la tua giornata gira intorno a HubSpot o Salesforce, app come Wave Connect o Blinq sincronizzano i contatti in modo nativo. NFC.cool offre invece un'esportazione completa dei dati: di webhook, per ora, nemmeno l'ombra.
-- **Gestione dei team in azienda.** Se sei uno studio da cinquanta persone e ti serve un pannello di amministrazione con la rubrica aziendale sincronizzata, NFC.cool non è nata per quello.
-
-La versione onesta: per un agente, un medico o chi lavora da solo, quello che conta ogni giorno è che condividere sia rapido, che il biglietto assomigli davvero *a te* e che niente ti faccia fare brutta figura più avanti. L'ho costruita per questo. Se ti serve un CRM commerciale saldato al biglietto da visita, compra lo strumento nato per farlo.
+Per un agente, un medico o chi lavora in proprio, quello che conta ogni giorno è che condividere sia rapido, che il biglietto assomigli davvero *a te* e che niente ti faccia fare brutta figura più avanti. L'ho costruita per questo.
 
 Trovi [NFC.cool Business Card sull'App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-digital-business-cards-by-profession-it&mt=8) oppure [su Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-digital-business-cards-by-profession-it).
 
 <figure class="phone-figure" data-layout="stage">
 <figcaption>NFC.cool Business Card al lavoro</figcaption>
 <ol>
-<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="I miei biglietti da visita, con tre biglietti: AlexBerger, Conference e Speaking"><p><strong>Un biglietto per ruolo.</strong> Fino a 100 biglietti, ognuno con il suo aspetto e i suoi link.</p></li>
+<li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/1-cards-440w.webp" alt="I miei biglietti da visita, con tre biglietti: AlexBerger, Conference e Speaking"><p><strong>Un biglietto per ruolo.</strong> Fino a 10 biglietti con Pro, ognuno con il suo aspetto e i suoi link.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/2-share-440w.webp" alt="La scheda Business Card con il codice QR del biglietto e il menu di biglietti, lead, contatti e impostazioni"><p><strong>Condividilo.</strong> Con un tocco NFC, un codice QR o un semplice link.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/3-settings-440w.webp" alt="Le impostazioni del profilo: biglietto pubblico o privato con PIN, e raccolta dei lead prima o dopo il salvataggio"><p><strong>Le tue regole.</strong> Pubblico o protetto da PIN, e la raccolta dei lead quando vuoi.</p></li>
 <li><img src="/assets/images/Blog/screens/digital-business-cards-by-profession/4-leads-440w.webp" alt="L'elenco dei lead, ognuno segnato come Qualified, New, Contacted o Converted"><p><strong>Segui i contatti.</strong> Tutti i lead in un elenco, con lo stato di ciascuno.</p></li>
@@ -177,7 +175,7 @@ Trovi [NFC.cool Business Card sull'App Store](https://apps.apple.com/app/apple-s
 
 ### Chi riceve il biglietto deve installare un'app?
 
-No. Su iPhone vede una App Clip nativa, su Android una pagina web sul dominio nfc.cool. In tutti e due i casi salva il contatto direttamente sul telefono. Vale per quasi tutte le piattaforme moderne: se una obbliga chi riceve a scaricare un'app, lasciala perdere.
+No. Su iPhone vede un'App Clip nativa, su Android una pagina web sul dominio nfc.cool. In tutti e due i casi salva il contatto direttamente sul telefono. Vale per quasi tutte le piattaforme moderne: se una obbliga chi riceve a scaricare un'app, lasciala perdere.
 
 ### Meglio NFC o QR?
 
@@ -185,7 +183,7 @@ Entrambi, in momenti diversi. L'NFC è un avvicinamento da un secondo e dal vivo
 
 ### Posso avere biglietti diversi per ruoli diversi?
 
-Sì, ed è quello che conviene fare. Un biglietto per l'open house con l'indirizzo dell'immobile, uno per gli invii con il numero delle prenotazioni, uno per i congressi con i dettagli del tuo intervento: tutti dallo stesso account, ognuno aggiornabile per conto suo.
+Sì, ed è quello che conviene fare. Un biglietto per l'open house con l'indirizzo dell'immobile, uno per gli invii con il numero delle prenotazioni, uno per i congressi con i dettagli del tuo intervento: tutti dallo stesso account, ognuno aggiornabile per conto suo. Su NFC.cool Business Card serve il piano Pro.
 
 ### Funziona con i clienti stranieri?
 
@@ -193,7 +191,7 @@ NFC e QR funzionano sui telefoni di tutto il mondo. Se poi sia *il biglietto ste
 
 ### Posso vedere chi ha aperto il biglietto? E quei dati sono al sicuro?
 
-Alcune app mostrano le visualizzazioni; altre vanno oltre e fanno marketing verso chi ha aperto il biglietto. Il secondo comportamento è un problema: i tuoi potenziali clienti devono sentire te, non il fornitore del biglietto. NFC.cool offre le statistiche sia su iPhone sia su Android e non contatta mai chi riceve il biglietto.
+Alcune app mostrano le visualizzazioni. Prima di sceglierne una, controlla se fa anche marketing verso chi ha aperto il biglietto: i tuoi potenziali clienti devono sentire te, non il fornitore del biglietto. I piani a pagamento di NFC.cool mostrano visualizzazioni, salvataggi e tocchi sui link come numeri, mai come nomi, sia su iPhone sia su Android, e NFC.cool non invia marketing a chi guarda il tuo biglietto. Con il piano Team, il tuo team può scrivere a chi lascia i propri dati nel tuo modulo per i lead.
 
 ### Quanto costa davvero?
 

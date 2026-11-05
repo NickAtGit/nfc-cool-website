@@ -53,7 +53,7 @@ El NFC es en realidad un subconjunto del RFID (Radio-Frequency Identification, i
 | **Estandarizado** | ISO 14443 / ISO 18092 | Múltiples estándares |
 | **Uso de consumo** | Alto (móviles, pagos) | Principalmente industrial |
 
-Todo NFC es RFID, pero no todo RFID es NFC. La tarjeta que pasas para entrar a una oficina suele funcionar a 125 KHz, y tu móvil simplemente no puede leerla. Las etiquetas NFC usan la frecuencia de 13,56 MHz que sí soportan los móviles. "¿Por qué mi móvil no lee el carné del trabajo?" es una de las preguntas que más me hacen, y esta es casi siempre la respuesta. (Si es el agujero en el que estás metido, escribí un artículo entero sobre [por qué tu iPhone no puede abrir una puerta RFID](/blog/iphone-rfid-condo-doors/).)
+Todo NFC es RFID, pero no todo RFID es NFC. La tarjeta que pasas para entrar a una oficina suele funcionar a 125 KHz, y tu móvil simplemente no puede leerla. Las etiquetas NFC usan la frecuencia de 13,56 MHz que sí soportan los móviles. "¿Por qué mi móvil no lee el carné del trabajo?" es una de las preguntas que más me hacen, y esta es casi siempre la respuesta. (Si es el agujero en el que estás metido, escribí un artículo entero sobre [por qué tu iPhone no puede abrir una puerta RFID](/es/blog/iphone-rfid-condo-doors/).)
 
 ---
 
@@ -107,9 +107,9 @@ La mayor memoria de la línea NTAG de consumo, y la etiqueta que elegiría si so
 | Activador de hogar inteligente | NTAG213 | Solo necesita un ID único |
 | Antifalsificación | NTAG424 DNA | Verificación criptográfica |
 
-**Dónde comprar:** Mi página de [etiquetas NFC recomendadas](/affiliate-links/) lista las pegatinas NTAG216 que uso y con las que hago pruebas. Las etiquetas en formato pegatina son las más versátiles - se pegan en casi cualquier cosa.
+**Dónde comprar:** Mi página de [etiquetas NFC recomendadas](/es/affiliate-links/) lista las pegatinas NTAG216 que uso y con las que hago pruebas. Las etiquetas en formato pegatina son las más versátiles - se pegan en casi cualquier cosa.
 
-Mi consejo honesto: compra un pack de pegatinas NTAG216 y deja de darle vueltas. He visto a gente agonizar sobre los tipos de chip para un proyecto que una etiqueta de 20 céntimos resuelve sin problema. Si alguna vez quieres el análisis más detallado, hice un repaso chip a chip en [tipos de etiquetas NFC para iPhone](/blog/nfc-tag-types-for-iphones/).
+Mi consejo honesto: compra un pack de pegatinas NTAG216 y deja de darle vueltas. He visto a gente agonizar sobre los tipos de chip para un proyecto que una etiqueta de 20 céntimos resuelve sin problema. Si alguna vez quieres el análisis más detallado, hice un repaso chip a chip en [tipos de etiquetas NFC para iPhone](/es/blog/nfc-tag-types-for-iphones/).
 
 ---
 
@@ -160,7 +160,7 @@ Lo que ocurre al escanear depende de los datos:
 - **App Clip** - lanza un App Clip si existe uno
 - **Datos personalizados** - abre la app asociada
 
-Si solo quieres ver qué hay en una etiqueta ahora mismo, también puedes [leer etiquetas NFC directamente desde el navegador](/online-nfc-reader/) en Android - sin instalar nada.
+Si solo quieres ver qué hay en una etiqueta ahora mismo, también puedes [leer etiquetas NFC directamente desde el navegador](/es/online-nfc-reader/) en Android - sin instalar nada.
 
 ### En Android
 
@@ -187,7 +187,7 @@ El proceso es breve:
 4. Acerca el móvil a la etiqueta
 5. Espera la confirmación, normalmente en torno a un segundo
 
-Eso es todo. La etiqueta ya tiene tus datos y funciona con cualquier móvil NFC que la lea. Si quieres el paso a paso específico para iPhone, escribí uno aquí: [cómo grabar etiquetas NFC en iPhone](/blog/write-nfc-tags-iphone/).
+Eso es todo. La etiqueta ya tiene tus datos y funciona con cualquier móvil NFC que la lea. Si quieres el paso a paso específico para iPhone, escribí uno aquí: [cómo grabar etiquetas NFC en iPhone](/es/blog/write-nfc-tags-iphone/).
 
 ### Importante: bloquear etiquetas
 
@@ -326,7 +326,7 @@ Nada fundamental. Una tarjeta NFC es simplemente una etiqueta NFC en un cuerpo c
 
 **Proyecto: una etiqueta para compartir el Wi-Fi en casa**
 
-1. **Compra etiquetas:** hazte con un pack de [pegatinas NTAG216](/affiliate-links/) (unos 10 USD por 25)
+1. **Compra etiquetas:** hazte con un pack de [pegatinas NTAG216](/es/affiliate-links/) (unos 10 USD por 25)
 2. **Descarga NFC.cool Tools:** para [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-en&mt=8) o [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-en)
 3. **Graba tus credenciales de Wi-Fi:** abre la app, elige Grabar, luego Wi-Fi, introduce el nombre de tu red y la contraseña, y acerca el móvil a la etiqueta
 4. **Coloca la etiqueta:** en algún lugar visible - junto a la puerta, en la nevera, en la habitación de invitados

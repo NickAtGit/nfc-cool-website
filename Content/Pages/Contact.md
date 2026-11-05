@@ -36,7 +36,7 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="faq-item">
 <summary>Are the apps free?</summary>
-<p>Yes - both apps are free on the App Store and Google Play, with no ads. A few advanced workflows can be unlocked inside the apps, but every core feature - NFC, QR, document, 3D, and Business Card - is free.</p>
+<p>Yes - both apps are free on the App Store and Google Play. A few advanced workflows can be unlocked inside the apps, but every core feature - NFC, QR, document, 3D, and Business Card - is free.</p>
 </details>
 
 <details class="faq-item">

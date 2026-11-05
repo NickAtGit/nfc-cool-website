@@ -36,7 +36,7 @@ Bize ulaşmanın en hızlı yolu e-posta. Her mesajı bizzat okuyor ve bir iş g
 
 <details class="faq-item">
 <summary>Uygulamalar ücretsiz mi?</summary>
-<p>Evet, iki uygulama da App Store ve Google Play'de ücretsiz, reklamsız. Uygulama içinden birkaç gelişmiş akış açılabiliyor ama temel özelliklerin hepsi (NFC, QR, belge, 3B ve kartvizit) ücretsiz.</p>
+<p>Evet, iki uygulama da App Store ve Google Play'de ücretsiz. Uygulama içinden birkaç gelişmiş akış açılabiliyor ama temel özelliklerin hepsi (NFC, QR, belge, 3B ve kartvizit) ücretsiz.</p>
 </details>
 
 <details class="faq-item">
@@ -51,7 +51,7 @@ Bize ulaşmanın en hızlı yolu e-posta. Her mesajı bizzat okuyor ve bir iş g
 
 <details class="faq-item">
 <summary>Mac, iPad ya da Apple Watch sürümü var mı?</summary>
-<p>NFC.cool Tools iPhone ve iPad'de, ayrıca Mac'te de çalışıyor: Apple Silicon Mac'lerde Mac uyumlu iPad uygulaması olarak sunuluyor (<a href="/blog/nfc-cool-comes-to-mac/">NFC.cool'un Mac'e gelişini oku</a>). 3B ve oda tarama LiDAR'lı iPad ister. Apple Watch uygulaması yok. NFC.cool Business Card yalnızca iOS ve Android'de var.</p>
+<p>NFC.cool Tools iPhone ve iPad'de, ayrıca Mac'te de çalışıyor: Apple Silicon Mac'lerde Mac uyumlu iPad uygulaması olarak sunuluyor (<a href="/tr/blog/nfc-cool-comes-to-mac/">NFC.cool'un Mac'e gelişini oku</a>). 3B ve oda tarama LiDAR'lı iPad ister. Apple Watch uygulaması yok. NFC.cool Business Card yalnızca iOS ve Android'de var.</p>
 </details>
 
 <details class="faq-item">

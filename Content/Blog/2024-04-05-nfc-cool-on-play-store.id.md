@@ -5,14 +5,14 @@ date: 2024-04-05
 tags: ["announcements", "android", "nfc-tags"]
 summary: "NFC.cool Tools kini tersedia di Google Play. Pemindaian NFC dan penulisan tag - kini di Android, dengan fitur yang sama seperti aplikasi iOS untuk bagian yang berbagi perangkat keras yang kompatibel dengan Android."
 metaTitle: "NFC.cool Tools - Kini tersedia di Google Play"
-metaDescription: "NFC.cool Tools tersedia di Android. Membaca dan menulis tag NFC - merek yang sama seperti di iPhone, kini di Google Play."
+metaDescription: "NFC.cool Tools hadir di Google Play. Baca dan tulis tag NFC di Android: URL, vCard, Wi-Fi, teks biasa, dan rekaman MIME kustom, seperti di iPhone."
 ogTitle: "NFC.cool kini hadir di Play Store"
 ogDescription: "NFC.cool Tools kini tersedia di Google Play - pemindaian NFC dan penulisan tag di Android."
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"
 ---
-> **Pembaruan, Agustus 2026:** NFC.cool Business Card kini juga menjadi aplikasi tersendiri di Android - [dapatkan di Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). Kartu yang sudah ada di dalam NFC.cool Tools tetap berfungsi; kartu baru dibuat di aplikasi khusus tersebut.
+> **Pembaruan, Agustus 2026:** NFC.cool Business Card kini juga menjadi aplikasi tersendiri di Android - [dapatkan di Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-id). Kartu yang sudah ada di dalam NFC.cool Tools tetap berfungsi; kartu baru dibuat di aplikasi khusus tersebut.
 
-**NFC.cool Tools** kini tersedia di [Google Play Store](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en). Setelah bertahun-tahun hadir di iOS, versi Android kini telah tersedia - dan dilengkapi dengan NFC.cool Business Card yang sudah disertakan di dalamnya.
+**NFC.cool Tools** kini tersedia di [Google Play Store](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-id). Setelah bertahun-tahun hadir di iOS, versi Android kini telah tersedia - dan dilengkapi dengan NFC.cool Business Card yang sudah disertakan di dalamnya.
 
 ---
 
@@ -44,7 +44,7 @@ Jawaban jujurnya: kami ingin alur NFC.cool Business Card dapat bekerja lintas pl
 
 ## Di mana mendapatkannya
 
-- **Android:** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-en)
-- **iOS:** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-en&mt=8)
+- **Android:** [Google Play](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-cool-on-play-store-id)
+- **iOS:** [App Store](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-cool-on-play-store-id&mt=8)
 
 Merek yang sama. Fitur yang sama untuk bagian yang berbagi perangkat keras. Rencana ke depan adalah terus menghadirkan kedua platform secara bersamaan untuk hal apa pun yang berkaitan dengan NFC.

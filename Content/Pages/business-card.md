@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# NFC.cool Digital Business Card
 
-Your business card on your phone, for individuals and teams. Share it with an NFC tap or a QR code, and see how many people save it.
+Your digital business card on your phone, for individuals and teams. Share it with an NFC tap or a QR code, and see how many people save it.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ Your business card on your phone, for individuals and teams. Share it with an NF
 
 ## Pricing
 
-One person or a whole team. Every card can be saved as a contact, Free included. Personal and Pro add leads, analytics and a card without our name on it, and are bought in the app. Teams start on the web, free for 14 days, and pay per person, yearly or monthly. In euros, the team price is the same number.
+One person or a whole team. Every card can be saved as a contact, Free included. Personal and Pro add leads, analytics and a card without our name on it, and are bought in the app. Teams start on the web, free for 14 days, and pay per person, yearly or monthly. In euros, the team price is the same number. [See the team price and how it compares](/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ One person or a whole team. Every card can be saved as a contact, Free included.
 <article class="page-card">
 <h3>Smart business cards</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Digital card creation</strong> - build cards that match your brand</li>
+<li><strong>Digital business cards</strong> - build cards that match your brand</li>
 <li><strong>Up to 10 cards on Pro</strong> - for different roles, brands or events</li>
 <li><strong>Import from Contacts</strong> - turn any existing contact into a card</li>
 <li><strong>Always up to date</strong> - edits reflect immediately, no reprint</li>
@@ -145,7 +145,7 @@ One person or a whole team. Every card can be saved as a contact, Free included.
 <article class="page-card">
 <h3>Privacy & security</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>PIN-protected profiles</strong> - 4-digit PIN, rate-limited verification</li>
+<li><strong>PIN-protected profiles</strong> - a 4-digit PIN on private cards</li>
 <li><strong>Public / private toggle</strong> - a private card opens only with its PIN</li>
 <li><strong>GDPR data export</strong> - download everything as a ZIP at any time</li>
 <li><strong>Session security</strong> - automatic PIN-session timeout</li>
@@ -181,7 +181,7 @@ One person or a whole team. Every card can be saved as a contact, Free included.
 
 ## What teams add
 
-A personal card belongs to one person. On a team, the cards belong to the company, and that changes what they can do.
+A personal card belongs to one person. On a team, the cards belong to the company, and that changes what they can do. Read more about [digital business cards for teams](/business-card/teams/).
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>One inbox for every lead</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>Every lead the team collects lands in one shared inbox. See who owns it and where it stands, assign it to the right person, and export it all as a spreadsheet.</p></article>
@@ -249,7 +249,7 @@ A personal card belongs to one person. On a team, the cards belong to the compan
 
 <details class="faq-item">
 <summary>What happens if I cancel a paid plan?</summary>
-<p>Nothing is deleted and your cards stay online. New leads stop, and only as many cards as your plan allows can be saved. The rest show as locked.</p>
+<p>Nothing is deleted. On Personal or Pro your cards stay online: new leads stop, and only as many cards as your plan allows can be saved. The rest show as locked. On a team, once the subscription ends, your team's cards show a "temporarily unavailable" page until you resubscribe, and then it all comes back.</p>
 </details>
 
 </div>

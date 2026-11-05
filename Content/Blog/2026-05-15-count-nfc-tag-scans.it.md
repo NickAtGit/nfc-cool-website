@@ -23,7 +23,7 @@ C'è una strada più corta, e da sempre si trova dentro al chip NFC. Molti tag s
 
 ## Che cos'è davvero il contatore degli avvicinamenti
 
-Quasi tutti gli [adesivi NFC in commercio](/affiliate-links/) montano chip della famiglia NTAG21x: `NTAG213`, `NTAG215` e `NTAG216`. Questi chip hanno una piccola funzione che, a quanto vedo, quasi nessuno sa di avere tra le mani: un contatore integrato. A ogni lettura del tag sale di uno. Vive nell'hardware del chip, non in un'app e non su un server. (Se vuoi la panoramica approfondita su questi chip, ne ho scritto nella guida ai [tipi di tag NFC per iPhone](/blog/nfc-tag-types-for-iphones/).)
+Quasi tutti gli [adesivi NFC in commercio](/it/affiliate-links/) montano chip della famiglia NTAG21x: `NTAG213`, `NTAG215` e `NTAG216`. Questi chip hanno una piccola funzione che, a quanto vedo, quasi nessuno sa di avere tra le mani: un contatore integrato. A ogni lettura del tag sale di uno. Vive nell'hardware del chip, non in un'app e non su un server. (Se vuoi la panoramica approfondita su questi chip, ne ho scritto nella guida ai [tipi di tag NFC per iPhone](/it/blog/nfc-tag-types-for-iphones/).)
 
 Io lo descrivo come il contachilometri del tag. Il contachilometri di un'auto conta i chilometri anche quando nessuno lo guarda, e il contatore NFC conta le letture allo stesso modo. Il numero c'è sempre. L'unica domanda è se qualcosa sia configurato per mostrartelo.
 
@@ -55,7 +55,7 @@ Un tag che si conta da solo sembra un bel gioco finché non lo abbini a un probl
 
 **Misurare l'interesse.** Attacca un tag su un biglietto da visita, un manifesto, la scatola di un prodotto o la vetrina di un negozio e il contatore diventa una misura discreta dell'interesse. Sapere se un biglietto è stato avvicinato due volte o duecento non richiede di costruirci intorno un impianto di analisi.
 
-**Dimostrare l'autenticità.** Il contatore può solo salire e non si può riportare indietro. Un numero che cresce e basta è difficile da falsificare in modo credibile, ed è per questo che secondo me si guadagna un posto nelle edizioni limitate e nei controlli anticontraffazione. Un tag autentico ha una storia plausibile, che sale nel tempo; una copia no. Se questo lato dell'NFC ti interessa, l'ho approfondito in [come l'NFC custodisce i segreti cifrati](/blog/nfc-safe-encrypted-secrets/).
+**Dimostrare l'autenticità.** Il contatore può solo salire e non si può riportare indietro. Un numero che cresce e basta è difficile da falsificare in modo credibile, ed è per questo che secondo me si guadagna un posto nelle edizioni limitate e nei controlli anticontraffazione. Un tag autentico ha una storia plausibile, che sale nel tempo; una copia no. Se questo lato dell'NFC ti interessa, l'ho approfondito in [come l'NFC custodisce i segreti cifrati](/it/blog/nfc-safe-encrypted-secrets/).
 
 Mettine insieme un paio e ottieni una cosa così: un artigiano infila un tag in ogni pezzo di una serie numerata, tutti puntati alla stessa pagina. L'ID gli dice quale pezzo ha in mano chi ha comprato, il conteggio gli dice quante volte quella persona è tornata e, siccome il numero può solo salire, un rivenditore non riesce a spacciare in sordina una copia per l'originale. Niente account, niente database, nessun canone mensile: solo il chip che fa il suo mestiere. È per risultati così che ho sviluppato questa funzione.
 
@@ -63,7 +63,7 @@ Mettine insieme un paio e ottieni una cosa così: un artigiano infila un tag in 
 
 ## La configurazione, passo dopo passo
 
-La funzione si trova in NFC.cool Tools, sia su iPhone sia su Android. Fa parte dell'abbonamento Pro (Platinum), che serve quindi per scrivere i tag con il contatore attivo. Se non hai mai scritto un tag, la mia guida su [come scrivere i tag NFC con l'iPhone](/blog/write-nfc-tags-iphone/) parte dalle basi.
+La funzione si trova in NFC.cool Tools, sia su iPhone sia su Android. Fa parte dell'abbonamento Pro (Platinum), che serve quindi per scrivere i tag con il contatore attivo. Se non hai mai scritto un tag, la mia guida su [come scrivere i tag NFC con l'iPhone](/it/blog/write-nfc-tags-iphone/) parte dalle basi.
 
 1. Apri NFC.cool Tools, vai alla sezione **NFC Tools** e tocca **Contatore degli avvicinamenti**.
 2. Scegli che cosa deve trasmettere il tag: un **URL**, una **email**, un **SMS** o un **comando rapido**. (I comandi rapidi esistono solo su iOS, perché Comandi Rapidi è un'app di Apple; URL, email e SMS funzionano su entrambe le piattaforme.)
@@ -109,7 +109,7 @@ Se fai arrivare l'indirizzo finito a un sito tuo, il server legge quei valori di
 
 La funzione dipende dal chip, quindi il tag conta. Per il contatore degli avvicinamenti NFC.cool supporta i chip `NTAG213`, `NTAG215` e `NTAG216`. Sono gli adesivi NFC più diffusi tra quelli venduti per i telefoni, quindi si trovano facilmente, ma prima di farne una scorta consiglio comunque di verificare il tipo di chip. Se provi a usare un tag che la funzione non supporta, l'app ti avvisa invece di scrivere qualcosa che poi non funzionerà: ci ho tenuto, perché so quanto sia frustrante un errore silenzioso.
 
-Se devi fare rifornimento, la pagina dei [tag NFC consigliati](/affiliate-links/) elenca gli adesivi `NTAG216` che uso e su cui faccio le prove. E se scegliere i tag è ancora terreno nuovo, la mia guida ai [tipi di tag NFC per iPhone](/blog/nfc-tag-types-for-iphones/) spiega i pro e i contro in parole semplici.
+Se devi fare rifornimento, la pagina dei [tag NFC consigliati](/it/affiliate-links/) elenca gli adesivi `NTAG216` che uso e su cui faccio le prove. E se scegliere i tag è ancora terreno nuovo, la mia guida ai [tipi di tag NFC per iPhone](/it/blog/nfc-tag-types-for-iphones/) spiega i pro e i contro in parole semplici.
 
 ---
 
@@ -131,6 +131,6 @@ Se devi fare rifornimento, la pagina dei [tag NFC consigliati](/affiliate-links/
 
 Per gran parte degli anni che ho passato a lavorare con l'NFC, contare gli avvicinamenti voleva dire link univoci e un backend che tenesse il conto. Il contatore degli NTAG21x fa cadere quel vincolo senza far rumore: a tenere il conto è il tag, e il contatore degli avvicinamenti di NFC.cool Tools serve ad accenderlo. È una di quelle funzioni che vorrei più gente sapesse di avere a disposizione.
 
-Vuoi vederlo all'opera prima di scrivere un solo tag? La [demo dal vivo del contatore](/tap-counter/) è una pagina che fa esattamente quello che racconta questo articolo: scrivi un tag che punti a quell'indirizzo, avvicinalo e la pagina ti mostra il numero di scansioni e l'ID del tag che il chip le ha appena passato. Nessun server di mezzo, solo l'indirizzo.
+Vuoi vederlo all'opera prima di scrivere un solo tag? La [demo dal vivo del contatore](/it/tap-counter/) è una pagina che fa esattamente quello che racconta questo articolo: scrivi un tag che punti a quell'indirizzo, avvicinalo e la pagina ti mostra il numero di scansioni e l'ID del tag che il chip le ha appena passato. Nessun server di mezzo, solo l'indirizzo.
 
-È già disponibile in NFC.cool Tools, su [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-it&mt=8) e [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-it). Per vedere tutto il set di strumenti NFC che ho sviluppato, dai un'occhiata alla [pagina del lettore e scrittore NFC](/features/nfc-reader-writer/).
+È già disponibile in NFC.cool Tools, su [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-count-nfc-tag-scans-it&mt=8) e [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-count-nfc-tag-scans-it). Per vedere tutto il set di strumenti NFC che ho sviluppato, dai un'occhiata alla [pagina del lettore e scrittore NFC](/it/features/nfc-reader-writer/).

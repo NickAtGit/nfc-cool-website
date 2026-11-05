@@ -18,7 +18,7 @@ Buona parte della tecnologia che usiamo ogni giorno sparisce sullo sfondo. Avvic
 
 **Near Field Communication** è un protocollo wireless a corto raggio: due dispositivi si scambiano dati quando si trovano a circa 4 cm l'uno dall'altro. Io me lo immagino come un cugino semplificato di Bluetooth e Wi-Fi, con una portata molto più ridotta.
 
-All'inizio quella portata così corta spiazza, ma non è un limite: è il modello di sicurezza. Da quando l'ho capito, molte scelte di progettazione dell'NFC hanno cominciato ad avere senso. Non si paga per sbaglio a un terminale dall'altra parte della stanza e un lettore malevolo non può svuotarti il portafoglio a distanza senza che tu te ne accorga. Se parti da zero, ho scritto una [guida ai tag NFC per principianti](/blog/nfc-tags-beginners-guide/) che parte da molto più indietro di questo articolo.
+All'inizio quella portata così corta spiazza, ma non è un limite: è il modello di sicurezza. Da quando l'ho capito, molte scelte di progettazione dell'NFC hanno cominciato ad avere senso. Non si paga per sbaglio a un terminale dall'altra parte della stanza e un lettore malevolo non può svuotarti il portafoglio a distanza senza che tu te ne accorga. Se parti da zero, ho scritto una [guida ai tag NFC per principianti](/it/blog/nfc-tags-beginners-guide/) che parte da molto più indietro di questo articolo.
 
 ---
 
@@ -36,7 +36,7 @@ In ogni interazione un dispositivo NFC ricopre uno di due ruoli: **attivo** (ali
 
 Quando paghi con Apple Pay, l'iPhone è il lettore attivo: genera un campo radio a 13,56 MHz. L'elemento NFC del terminale di pagamento si sveglia dentro quel campo, si identifica e scambia con il telefono una piccola quantità di dati crittografici. I dati della carta non escono mai dal **Secure Element**, un chip dedicato e isolato a livello hardware. Quello che esce è un token monouso.
 
-Quando avvicini il telefono a un adesivo NFC su un manifesto, i ruoli si invertono. Il tag del manifesto è passivo e non ha batteria: lo alimenta il lettore dell'iPhone. Il tag risponde con i record NDEF che ha in memoria e iOS decide cosa farne: aprire un indirizzo web, lanciare un'app, mostrare una scheda contatto, avviare un Comando rapido. È in questa seconda metà, il lato del tag, che vive NFC.cool; se vuoi vederla all'opera senza installare niente, su Android puoi [leggere i tag NFC direttamente dal browser](/online-nfc-reader/).
+Quando avvicini il telefono a un adesivo NFC su un manifesto, i ruoli si invertono. Il tag del manifesto è passivo e non ha batteria: lo alimenta il lettore dell'iPhone. Il tag risponde con i record NDEF che ha in memoria e iOS decide cosa farne: aprire un indirizzo web, lanciare un'app, mostrare una scheda contatto, avviare un Comando rapido. È in questa seconda metà, il lato del tag, che vive NFC.cool; se vuoi vederla all'opera senza installare niente, su Android puoi [leggere i tag NFC direttamente dal browser](/it/online-nfc-reader/).
 
 ---
 
@@ -50,7 +50,7 @@ Quando avvicini il telefono a un adesivo NFC su un manifesto, i ruoli si inverto
 
 Sopra la radio NFC c'è il livello dei dati: **NDEF**, cioè NFC Data Exchange Format. Lo descrivo come un formato di record minuscolo e autodescrittivo: un tag contiene uno o più record, e ogni record ha un tipo (URI, testo, vCard, credenziali Wi-Fi, MIME personalizzato) e un payload.
 
-Tutti i telefoni con NFC al mondo parlano NDEF, ed è per questo che un tag programmato con un dispositivo Android si legge senza problemi su un iPhone, e viceversa. È uno dei pochi punti del mondo mobile in cui iOS e Android condividono davvero uno standard e, sinceramente, quando sviluppo nuove funzioni quell'interoperabilità è la cosa per cui sono più grato: scrivo per il formato, non per una piattaforma. Se vuoi provare a scrivere i tuoi record, l'ho spiegato passo passo in [come scrivere tag NFC da iPhone](/blog/write-nfc-tags-iphone/).
+Tutti i telefoni con NFC al mondo parlano NDEF, ed è per questo che un tag programmato con un dispositivo Android si legge senza problemi su un iPhone, e viceversa. È uno dei pochi punti del mondo mobile in cui iOS e Android condividono davvero uno standard e, sinceramente, quando sviluppo nuove funzioni quell'interoperabilità è la cosa per cui sono più grato: scrivo per il formato, non per una piattaforma. Se vuoi provare a scrivere i tuoi record, l'ho spiegato passo passo in [come scrivere tag NFC da iPhone](/it/blog/write-nfc-tags-iphone/).
 
 ---
 
@@ -61,7 +61,7 @@ Vale la pena citare due livelli di difesa, gli stessi che mi ritrovo a spiegare 
 - **La distanza.** Pochi centimetri sono difficili da intercettare senza un'antenna che si nota subito: è il modello di minaccia attorno a cui l'NFC è stato progettato fin dall'inizio.
 - **La tokenizzazione.** Apple Pay non trasmette mai il numero reale della carta. Ogni transazione usa un Device Account Number più un crittogramma monouso, generato dentro il Secure Element. Nemmeno un terminale compromesso riesce a riutilizzarlo.
 
-Con la lettura dei tag la superficie di attacco cambia: la fiducia si sposta sul tag stesso. Se controlli tu quello che c'è sopra, come nelle automazioni di casa tua o nel tuo biglietto da visita, non c'è problema. Se invece avvicini il telefono a un tag qualsiasi trovato in giro, iOS ti mostra comunque una richiesta di conferma prima che accada qualcosa. Quando ho bisogno che sia il tag a custodire un segreto, e non solo a indicarne uno, ricorro ai tag crittografici: ne ho parlato in [come conservare segreti cifrati sui tag NFC](/blog/nfc-safe-encrypted-secrets/).
+Con la lettura dei tag la superficie di attacco cambia: la fiducia si sposta sul tag stesso. Se controlli tu quello che c'è sopra, come nelle automazioni di casa tua o nel tuo biglietto da visita, non c'è problema. Se invece avvicini il telefono a un tag qualsiasi trovato in giro, iOS ti mostra comunque una richiesta di conferma prima che accada qualcosa. Quando ho bisogno che sia il tag a custodire un segreto, e non solo a indicarne uno, ricorro ai tag crittografici: ne ho parlato in [come conservare segreti cifrati sui tag NFC](/it/blog/nfc-safe-encrypted-secrets/).
 
 ---
 

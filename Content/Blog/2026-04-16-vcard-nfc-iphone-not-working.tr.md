@@ -159,7 +159,7 @@ NFC kartvizitin vCard verisi kullanıyorsa kitlenin yarısı için görünmez. i
 2. O adresi zengin bir dijital profile yönlendir
 3. Kişi kaydetmeyi, bağlantı paylaşmayı ve gerisini profil halletsin
 
-NFC.cool Business Card'ın yaptığı bu. Her konferansta, buluşmada ve tanışma etkinliğinde kullandığım şey de bu.
+[NFC.cool Business Card'ın](/tr/business-card/) yaptığı bu. Her konferansta, buluşmada ve tanışma etkinliğinde kullandığım şey de bu.
 
 Ben okutuyorum. Karşımdaki kaydediyor. İkimiz de hayatımıza devam ediyoruz.
 

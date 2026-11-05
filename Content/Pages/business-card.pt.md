@@ -1,5 +1,5 @@
 ---
-title: "App de Criação de Cartões de Visita Digitais para iPhone e Android"
+title: "App de criação de cartões de visita digitais para iPhone e Android"
 slug: "business-card"
 description: "Um criador de cartões de visita digitais para iPhone e Android. Partilhe por toque NFC, código QR, App Clip ou Apple Wallet. Veja quantas pessoas guardam o seu cartão e use o Modo Conferência em eventos ao vivo."
 image: "/assets/images/BusinessCard/og-business-card.webp"
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Business Card
+# Cartão de visita digital NFC.cool
 
-O seu cartão de visita no telemóvel, para si e para a sua equipa. Partilhe-o com um toque NFC ou um código QR e veja quantas pessoas o guardam.
+O seu cartão de visita digital no telemóvel, para si e para a sua equipa. Partilhe-o com um toque NFC ou um código QR e veja quantas pessoas o guardam.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-pt&mt=8" class="landing-store-button is-apple" aria-label="Transferir na App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -89,7 +89,7 @@ O seu cartão de visita no telemóvel, para si e para a sua equipa. Partilhe-o c
 
 ## Preços
 
-Uma pessoa ou uma equipa inteira. Qualquer cartão pode ser guardado como contacto, mesmo no Free. O Personal e o Pro acrescentam leads, análises e um cartão sem o nosso nome, e compram-se na app. As equipas começam na web, com 14 dias grátis, e pagam por pessoa, por ano ou por mês. Em euros, o preço para equipas mantém o mesmo número.
+Uma pessoa ou uma equipa inteira. Qualquer cartão pode ser guardado como contacto, mesmo no Free. O Personal e o Pro acrescentam leads, análises e um cartão sem o nosso nome, e compram-se na app. As equipas começam na web, com 14 dias grátis, e pagam por pessoa, por ano ou por mês. Em euros, o preço para equipas mantém o mesmo número. [Veja o preço para equipas e como se compara](/pt/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 
@@ -104,7 +104,7 @@ Uma pessoa ou uma equipa inteira. Qualquer cartão pode ser guardado como contac
 <article class="page-card">
 <h3>Cartões de visita inteligentes</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Criação de cartões digitais</strong> - crie cartões à medida da sua marca</li>
+<li><strong>Cartões de visita digitais</strong> - crie cartões à medida da sua marca</li>
 <li><strong>Até 10 cartões com o Pro</strong> - para diferentes funções, marcas ou eventos</li>
 <li><strong>Importar dos Contactos</strong> - transforme qualquer contacto existente num cartão</li>
 <li><strong>Sempre atualizado</strong> - as edições refletem-se de imediato, sem reimpressão</li>
@@ -145,7 +145,7 @@ Uma pessoa ou uma equipa inteira. Qualquer cartão pode ser guardado como contac
 <article class="page-card">
 <h3>Privacidade e segurança</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span>
 <ul>
-<li><strong>Perfis protegidos por PIN</strong> - PIN de 4 dígitos, verificação com limite de tentativas</li>
+<li><strong>Perfis protegidos por PIN</strong> - um PIN de 4 dígitos nos cartões privados</li>
 <li><strong>Alternar público / privado</strong> - um cartão privado só abre com o respetivo PIN</li>
 <li><strong>Exportação de dados RGPD</strong> - transfira tudo em ZIP a qualquer momento</li>
 <li><strong>Segurança da sessão</strong> - expiração automática da sessão com PIN</li>
@@ -181,7 +181,7 @@ Uma pessoa ou uma equipa inteira. Qualquer cartão pode ser guardado como contac
 
 ## O que o Team acrescenta
 
-Um cartão pessoal pertence a uma pessoa. Numa equipa, os cartões pertencem à empresa, e isso muda o que podem fazer.
+Um cartão pessoal pertence a uma pessoa. Numa equipa, os cartões pertencem à empresa, e isso muda o que podem fazer. Saiba mais sobre os [cartões de visita digitais para equipas](/pt/business-card/teams/).
 
 <div class="page-cards-grid">
 <article class="page-card"><h3>Uma caixa de entrada para todos os leads</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><p>Todos os leads que a equipa recolhe chegam a uma só caixa de entrada partilhada. Veja quem é o responsável e em que ponto está cada um, atribua-o à pessoa certa e exporte tudo como folha de cálculo.</p></article>
@@ -249,7 +249,7 @@ Um cartão pessoal pertence a uma pessoa. Numa equipa, os cartões pertencem à 
 
 <details class="faq-item">
 <summary>O que acontece se cancelar um plano pago?</summary>
-<p>Nada é apagado e os seus cartões continuam online. Os novos leads param e quem vê os seus cartões só pode usar Guardar contacto em tantos cartões quantos o seu plano permitir. Os restantes aparecem bloqueados.</p>
+<p>Nada é apagado. No Personal ou no Pro, os seus cartões continuam online: os novos leads param e quem vê os seus cartões só pode usar Guardar contacto em tantos cartões quantos o seu plano permitir. Os restantes aparecem bloqueados. Numa equipa, quando a subscrição termina, os cartões da equipa mostram uma página "temporariamente indisponível" até voltar a subscrever, e depois volta tudo.</p>
 </details>
 
 </div>

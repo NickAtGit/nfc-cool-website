@@ -36,7 +36,7 @@ Lo hice para que puedas leer una etiqueta NFC directamente desde tu navegador - 
 <p class="nfc-reader-title">Leer una etiqueta NFC</p>
 <p class="nfc-reader-lead">Toca el botón y luego acerca una etiqueta a la parte superior del móvil. Te mostraré qué contiene.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Leer NFC</span></button>
-<p class="nfc-reader-fineprint">¿Quieres una experiencia NFC nativa con más funciones de NFC? <a href="/features/nfc-reader-writer/">¡Consigue la app NFC.cool!</a></p>
+<p class="nfc-reader-fineprint">¿Quieres una experiencia NFC nativa con más funciones de NFC? <a href="/es/features/nfc-reader-writer/">¡Consigue la app NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -110,7 +110,7 @@ Lo hice para que puedas leer una etiqueta NFC directamente desde tu navegador - 
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Grabar en la etiqueta</span></button>
-<p class="nfc-reader-fineprint">¿Quieres una experiencia NFC nativa con más funciones de NFC? <a href="/features/nfc-reader-writer/">¡Consigue la app NFC.cool!</a></p>
+<p class="nfc-reader-fineprint">¿Quieres una experiencia NFC nativa con más funciones de NFC? <a href="/es/features/nfc-reader-writer/">¡Consigue la app NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -253,19 +253,19 @@ El lector de esta página se ocupa de las tareas del día a día - leer una etiq
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
 <h3>Cifrar secretos con NFC Safe</h3>
-<p>NFC Safe cifra un secreto en el propio chip con AES-256, así que la etiqueta se lee como datos revueltos para cualquier cosa que no sea la app. <a href="/blog/nfc-safe-encrypted-secrets/">Cómo funciona NFC Safe</a>.</p>
+<p>NFC Safe cifra un secreto en el propio chip con AES-256, así que la etiqueta se lee como datos revueltos para cualquier cosa que no sea la app. <a href="/es/blog/nfc-safe-encrypted-secrets/">Cómo funciona NFC Safe</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
 <h3>Automatizar lo que hace un toque</h3>
-<p>Una etiqueta puede disparar un webhook, ejecutar un Atajo de iOS, leer su contenido en voz alta o contar cuántas veces se escanea. <a href="/blog/count-nfc-tag-scans/">Cómo contar escaneos de etiquetas NFC</a>.</p>
+<p>Una etiqueta puede disparar un webhook, ejecutar un Atajo de iOS, leer su contenido en voz alta o contar cuántas veces se escanea. <a href="/es/blog/count-nfc-tag-scans/">Cómo contar escaneos de etiquetas NFC</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
 <h3>Clonar, restablecer e inspeccionar etiquetas</h3>
-<p>Clona una etiqueta, vuelca e identifica la memoria en bruto de su chip, o reprograma hardware protegido por NFC como <a href="/blog/openprinttag-read-write-nfc-spools-phone/">bobinas de filamento de impresoras 3D</a> y <a href="/blog/reset-sonicare-brush-head-nfc/">cabezales de cepillos de dientes eléctricos</a>.</p>
+<p>Clona una etiqueta, vuelca e identifica la memoria en bruto de su chip, o reprograma hardware protegido por NFC como <a href="/es/blog/openprinttag-read-write-nfc-spools-phone/">bobinas de filamento de impresoras 3D</a> y <a href="/es/blog/reset-sonicare-brush-head-nfc/">cabezales de cepillos de dientes eléctricos</a>.</p>
 </article>
 
 </div>
@@ -302,7 +302,7 @@ Apple bloquea el NFC en todos los navegadores de iOS, así que ningún sitio web
 
 <details class="faq-item">
 <summary>¿Puedo grabar una red Wi-Fi o una tarjeta de contacto en una etiqueta?</summary>
-<p>Sí. Elige Red Wi-Fi o Tarjeta de contacto en el desplegable de grabación y rellena los campos. Una etiqueta de Wi-Fi propone a los móviles Android conectarse a la red; una etiqueta de contacto guarda un vCard estándar que los móviles te ofrecen guardar.</p>
+<p>Sí. Elige Red Wi-Fi o Tarjeta de contacto en el desplegable de grabación y rellena los campos. Una etiqueta de Wi-Fi propone a los móviles Android conectarse a la red; una etiqueta de contacto guarda un vCard estándar que los móviles Android te ofrecen guardar. ¿Quieres una tarjeta que puedas actualizar después de grabarla? <a href="/es/business-card/">NFC.cool Business Card</a> pone un enlace en la etiqueta, así que puedes editar tus datos más adelante.</p>
 </details>
 
 <details class="faq-item">
@@ -331,8 +331,8 @@ Apple bloquea el NFC en todos los navegadores de iOS, así que ningún sitio web
 Esta página cubre lo básico en el navegador. La app NFC.cool gratis va más allá - lee cualquier etiqueta y graba más de 25 tipos de datos: enlaces, Wi-Fi, contactos, atajos y más, tanto en iPhone como en Android. La desarrollo y la mantengo yo mismo.
 
 <div class="tap-cta-buttons">
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Descubre el lector y grabador NFC</a>
-<a href="/blog/nfc-tags-beginners-guide/" class="landing-cta-button">¿Nuevo en las etiquetas NFC? Empieza aquí</a>
+<a href="/es/features/nfc-reader-writer/" class="landing-cta-button">Descubre el lector y grabador NFC</a>
+<a href="/es/blog/nfc-tags-beginners-guide/" class="landing-cta-button">¿Nuevo en las etiquetas NFC? Empieza aquí</a>
 </div>
 
 </section>

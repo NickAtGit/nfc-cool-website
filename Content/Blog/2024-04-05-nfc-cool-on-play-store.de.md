@@ -5,7 +5,7 @@ date: 2024-04-05
 tags: ["announcements", "android", "nfc-tags"]
 summary: "NFC.cool Tools ist jetzt bei Google Play. NFC-Tags scannen und beschreiben - ab sofort auch auf Android, mit demselben Funktionsumfang wie die iOS-App überall dort, wo Android die passende Hardware mitbringt."
 metaTitle: "NFC.cool Tools - jetzt bei Google Play"
-metaDescription: "NFC.cool Tools gibt es jetzt auch für Android: NFC-Tags scannen und beschreiben, von derselben Marke, die du schon vom iPhone kennst - ab sofort bei Google Play."
+metaDescription: "NFC.cool Tools gibt es bei Google Play. NFC-Tags lesen und beschreiben auf Android: URLs, vCards, WLAN, Klartext und eigene MIME-Records, genau wie auf dem iPhone."
 ogTitle: "NFC.cool ist jetzt im Play Store"
 ogDescription: "NFC.cool Tools ist jetzt bei Google Play - NFC-Tags scannen und beschreiben auf Android."
 image: "/assets/images/Blog/nfc-cool-on-play-store.webp"

@@ -13,7 +13,7 @@ ogTitle: "Leggere il contatore degli avvicinamenti con i Comandi Rapidi"
 ogDescription: "Due comandi rapidi pronti all'uso per il contatore degli avvicinamenti NFC: un parser riutilizzabile e una demo che lo mette alla prova."
 ---
 
-Una settimana fa ho spiegato [come funziona il contatore degli avvicinamenti](/blog/count-nfc-tag-scans/): il chip conta da solo le proprie scansioni, l'app inserisce dei byte segnaposto e a ogni avvicinamento il tag li sostituisce con il conteggio aggiornato e con il proprio ID, dentro qualunque contenuto stia trasportando. Quel post finisce dove finisce il tag, cioè nel momento in cui i valori arrivano sul telefono.
+Una settimana fa ho spiegato [come funziona il contatore degli avvicinamenti](/it/blog/count-nfc-tag-scans/): il chip conta da solo le proprie scansioni, l'app inserisce dei byte segnaposto e a ogni avvicinamento il tag li sostituisce con il conteggio aggiornato e con il proprio ID, dentro qualunque contenuto stia trasportando. Quel post finisce dove finisce il tag, cioè nel momento in cui i valori arrivano sul telefono.
 
 Da allora la domanda che mi arriva è quella successiva, la più ovvia: "bene, il tag mi passa `049F50824F1390x000007`, e adesso?" Se hai un iPhone e vuoi fare qualcosa con quei valori dentro un comando rapido, prima devi estrarli. È un lavoro di manipolazione di stringhe breve ma noioso, e preferisco risparmiartelo.
 
@@ -34,12 +34,12 @@ Prima dei comandi rapidi, un ripasso veloce su quello che ricevono davvero, perc
 
 Nella schermata di configurazione del contatore scegli un tipo di contenuto per il tag: URL, email, SMS o comando rapido. Quando attivi l'interruttore del contatore, quello dell'ID del tag o entrambi, l'app inserisce dei byte segnaposto dentro quel contenuto e a ogni lettura il chip li sostituisce con i valori reali. Prendendo `049F50824F1390` come ID del tag e `000007` come conteggio, i quattro tipi di contenuto diventano così:
 
-- **URL:** `https://nfc.cool/tap-counter/` diventa [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007)
+- **URL:** `https://nfc.cool/tap-counter/` diventa [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/it/tap-counter/?nfc=049F50824F1390x000007)
 - **Corpo dell'email:** `Hi, here's my card.` diventa `Hi, here's my card. 049F50824F1390x000007`
 - **Corpo dell'SMS:** `Order confirmed!` diventa `Order confirmed! 049F50824F1390x000007`
 - **Testo in ingresso del comando rapido:** `log-entry` diventa `log-entry 049F50824F1390x000007`
 
-L'indirizzo qui sopra è vero. La nostra [demo dal vivo del contatore](/tap-counter/) legge il valore `?nfc=` direttamente dalla barra degli indirizzi: se vuoi vedere la sostituzione all'opera prima di costruire un'automazione, scrivi un tag che punti a `https://nfc.cool/tap-counter/` con entrambi gli interruttori attivi, avvicinalo al telefono e la pagina ti mostra l'ID del tag e il conteggio appena ricevuti.
+L'indirizzo qui sopra è vero. La nostra [demo dal vivo del contatore](/it/tap-counter/) legge il valore `?nfc=` direttamente dalla barra degli indirizzi: se vuoi vedere la sostituzione all'opera prima di costruire un'automazione, scrivi un tag che punti a `https://nfc.cool/tap-counter/` con entrambi gli interruttori attivi, avvicinalo al telefono e la pagina ti mostra l'ID del tag e il conteggio appena ricevuti.
 
 Con il tipo di contenuto **Comando rapido**, NFC.cool avvia il comando scelto tramite `shortcuts://run-shortcut?name=Your%20Shortcut&input=text&text=<payload>`, con i valori NFC già aggiunti in coda al testo. In ingresso il comando rapido riceve quindi una stringa di testo semplice e l'unica cosa da fare è tirarne fuori l'ID del tag e il conteggio.
 
@@ -118,7 +118,7 @@ Qualche piccola cosa che il parser rende possibile, scritta nero su bianco per n
 
 - **Distingui i tag dall'ID.** Un solo comando rapido, tanti tag. Aggiungi un'azione **Se** per ogni ID che conosci: se è stato scansionato il tag della porta dell'ufficio, silenzia le notifiche; se è quello dello studio, attiva la modalità di concentrazione; se è quello della cucina, fai partire un timer. L'ID identifica il tag fisico, non il contenuto, quindi puoi scrivere lo stesso indirizzo su tutti i tag e reagire comunque a ciascuno in modo diverso.
 - **Premia la scansione numero cento.** Unisci `hasCount` a un confronto: se `count` vale 100, manda un messaggio di conferma; per tutte le altre scansioni, gestione normale. L'ordine lo garantisce il chip, al comando rapido resta solo da leggerlo.
-- **Manda tutto a un webhook.** Abbina il parser ai [webhook di NFC.cool](/features/webhooks/) se vuoi gestire le scansioni lato server senza scrivere un'app per iOS: mandi i valori estratti in JSON e da lì se ne occupa il server. Due azioni su iOS e il tag è collegato a qualsiasi cosa parli HTTP.
+- **Manda tutto a un webhook.** Abbina il parser ai [webhook di NFC.cool](/it/features/webhooks/) se vuoi gestire le scansioni lato server senza scrivere un'app per iOS: mandi i valori estratti in JSON e da lì se ne occupa il server. Due azioni su iOS e il tag è collegato a qualsiasi cosa parli HTTP.
 - **Registra tutto in un file o in una nota.** L'idea più semplice e, a sorpresa, una delle più utili. Aggiungi `timestamp, tagID, count` in coda a un file su iCloud Drive o a un'unica nota e hai un registro da scorrere, o da trasformare in un grafico più avanti. Comodo per seguire quanto viene usato un singolo tag senza tirare su nessuna infrastruttura.
 
 Se ci costruisci sopra qualcosa di bello, mi farebbe davvero piacere vederlo.
@@ -139,6 +139,6 @@ Comandi Rapidi è un'app di Apple, quindi i due comandi rapidi qui sopra funzion
 
 ## Come provarlo
 
-Se ti interessa la spiegazione dettagliata di come funziona davvero il contatore degli avvicinamenti, è nel [post precedente](/blog/count-nfc-tag-scans/). E se vuoi vedere all'opera un tag con il contatore attivo prima ancora di costruire un'automazione, la nostra [demo dal vivo del contatore](/tap-counter/) legge il valore `?nfc=` direttamente dal proprio indirizzo: scrivi un tag che punti lì, avvicinalo al telefono e guarda comparire il conteggio e l'ID del tag.
+Se ti interessa la spiegazione dettagliata di come funziona davvero il contatore degli avvicinamenti, è nel [post precedente](/it/blog/count-nfc-tag-scans/). E se vuoi vedere all'opera un tag con il contatore attivo prima ancora di costruire un'automazione, la nostra [demo dal vivo del contatore](/it/tap-counter/) legge il valore `?nfc=` direttamente dal proprio indirizzo: scrivi un tag che punti lì, avvicinalo al telefono e guarda comparire il conteggio e l'ID del tag.
 
-Il contatore degli avvicinamenti fa parte di NFC.cool Tools, su [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-it&mt=8) e su [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-it). Per l'elenco completo degli strumenti che ho costruito intorno all'NFC, dai un'occhiata alla [pagina del lettore e scrittore NFC](/features/nfc-reader-writer/).
+Il contatore degli avvicinamenti fa parte di NFC.cool Tools, su [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-it&mt=8) e su [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-it). Per l'elenco completo degli strumenti che ho costruito intorno all'NFC, dai un'occhiata alla [pagina del lettore e scrittore NFC](/it/features/nfc-reader-writer/).

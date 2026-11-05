@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Webhooks para Inventários e Registos de Entrada em Eventos"
-    body: "<p>Aponte o leitor de códigos de barras para o seu sistema de back-office. Cada código de barras lido dispara um webhook para o seu URL, para que a sua base de dados de inventário, o CRM de participantes ou o catálogo da biblioteca se atualizem em tempo real à medida que a câmara se move. Consulte <a href=\"/features/webhooks/\">Webhooks e Automação</a> para a estrutura do payload JSON e um servidor de referência.</p>"
+    body: "<p>Aponte o leitor de códigos de barras para o seu sistema de back-office. Cada código de barras lido dispara um webhook para o seu URL, para que a sua base de dados de inventário, o CRM de participantes ou o catálogo da biblioteca se atualizem em tempo real à medida que a câmara se move. Consulte <a href=\"/pt/features/webhooks/\">Webhooks e Automação</a> para a estrutura do payload JSON e um servidor de referência.</p>"
     platforms: "iOS"
 
   - title: "Atalhos e App Intents"
@@ -45,7 +45,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sincronização iCloud no iPhone, iPad e Mac"
-    body: "<p>O histórico das suas leituras de códigos de barras sincroniza-se em todos os dispositivos da sua conta iCloud. Leia uma prateleira de produtos no iPhone, reveja a lista no iPad, dê título e partilhe leituras a partir do <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - um histórico sincronizado, nada para mover à mão.</p>"
+    body: "<p>O histórico das suas leituras de códigos de barras sincroniza-se em todos os dispositivos da sua conta iCloud. Leia uma prateleira de produtos no iPhone, reveja a lista no iPad, dê título e partilhe leituras a partir do <a href=\"/pt/blog/nfc-cool-comes-to-mac/\">Mac</a> - um histórico sincronizado, nada para mover à mão.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool a sincronizar no iPhone, iPad e Mac"
     platforms: "iOS"

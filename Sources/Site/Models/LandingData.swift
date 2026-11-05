@@ -59,6 +59,9 @@ struct HeroSection: Decodable, Sendable {
 struct FeatureBannerSection: Decodable, Sendable {
    let title: String
    let subtitle: String
+   /// One line under the subtitle that routes companies to the team product. Raw HTML, like
+   /// `faq[].answer`, because it carries a link. A locale without it shows nothing.
+   let teamLine: String?
    let ctaText: String?
    let videoPath: String?
    let imagePath: String?

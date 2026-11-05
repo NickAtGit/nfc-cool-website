@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "用于盘点与活动签到的 Webhook"
-    body: "<p>把条形码扫描器对接到你的后台系统。每读取一个条形码，就会向你的 URL 触发一个 webhook，于是随着摄像头移动，你的库存数据库、参会者 CRM 或图书馆目录会实时更新。JSON 负载格式和参考服务器请见 <a href=\"/features/webhooks/\">Webhook 与自动化</a>。</p>"
+    body: "<p>把条形码扫描器对接到你的后台系统。每读取一个条形码，就会向你的 URL 触发一个 webhook，于是随着摄像头移动，你的库存数据库、参会者 CRM 或图书馆目录会实时更新。JSON 负载格式和参考服务器请见 <a href=\"/zh/features/webhooks/\">Webhook 与自动化</a>。</p>"
     platforms: "iOS"
 
   - title: "快捷指令与 App Intents"
@@ -45,7 +45,7 @@ subsections:
     platforms: "iOS"
 
   - title: "在 iPhone、iPad 和 Mac 之间通过 iCloud 同步"
-    body: "<p>你的条形码扫描历史会在每一台登录了你 iCloud 账户的设备之间同步。用 iPhone 扫描一货架商品、在 iPad 上查看列表、在 <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> 上为扫描记录命名并分享：一份同步的历史记录，无需手动搬运任何东西。</p>"
+    body: "<p>你的条形码扫描历史会在每一台登录了你 iCloud 账户的设备之间同步。用 iPhone 扫描一货架商品、在 iPad 上查看列表、在 <a href=\"/zh/blog/nfc-cool-comes-to-mac/\">Mac</a> 上为扫描记录命名并分享：一份同步的历史记录，无需手动搬运任何东西。</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool 在 iPhone、iPad 和 Mac 之间同步"
     platforms: "iOS"

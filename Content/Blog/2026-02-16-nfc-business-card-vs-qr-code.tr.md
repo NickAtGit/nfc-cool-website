@@ -2,6 +2,7 @@
 id: nfc-blog-003
 title: "NFC kartvizit mi QR kod mu: tanışmak için hangisi daha iyi?"
 date: 2026-02-16
+lastModified: "2026-11-05"
 tags: ["business-cards", "qr-codes", "networking"]
 summary: "NFC okutması mı QR kod taraması mı? İletişim bilgini paylaşmanın hangisi daha iyi yolu? Karar verebilmen için hızı, uyumluluğu, maliyeti ve gerçek kullanım örneklerini ayrıştırıyorum."
 image: "/assets/images/Blog/nfc-business-card-vs-qr-code.webp"
@@ -200,12 +201,12 @@ Açık olayım: burası benim blogum, elbette kendi çözümümden söz edeceği
 
 Onu ayıran birkaç şey:
 
-- **35 dil.** Uygulama arayüzü ve App Clip 35 dili destekliyor, yani kartın iOS'ta karşındakinin dilinde görünüyor. Android paylaşım sitesi şimdilik yalnızca İngilizce.
-- **Önce gizlilik.** Alıcıya pazarlama yok, isteğe bağlı PIN koruması, veriden para kazanma ya da reklam yok.
+- **35 dil.** Uygulama arayüzü ve App Clip 35 dili destekliyor, yani kartının çevresindeki düğmeler ve etiketler iOS'ta karşındakinin dilini izliyor.
+- **Gizlilik.** NFC.cool kartına bakanlara pazarlama göndermiyor, kartlara PIN konabiliyor ve NFC.cool verini satmıyor. Team planında ekibin, müşteri adayı formundan bilgi bırakan kişilere takip e-postası gönderebilir.
 - **Açık NFC.** Standart her NFC tag'iyle çalışıyor; NFC.cool kapalı donanım satmıyor.
-- **Uygun fiyat.** Personal planı yılda 20 avro, Small Business yılda 50 avro (10 kart), Business yılda 100 avro (100 kart).
+- **Uygun fiyat.** Tek kartlı Free plan, yılda $19,99 Personal, yılda $49,99 Pro (10 kart) ve kişi başı yılda $50 ya da ayda $5 [Team](/tr/business-card/teams/) (kişi başı 10 karta kadar). Ekip fiyatı euro olarak da aynı rakamdır.
 
-**NFC.cool Business Card'ı dene:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-tr&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-tr)
+**[NFC.cool Business Card'ı](/tr/business-card/) dene:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-tr&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-tr)
 
 ---
 

@@ -37,7 +37,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sincronização iCloud entre iPhone, iPad e Mac"
-    body: "<p>Os modelos digitalizados ficam na sua pasta de Documentos no iCloud, por isso o iPhone com que digitalizou, o iPad em que reviu e o <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> em que vai editar veem todos a mesma biblioteca. Capture em movimento, termine na secretária.</p>"
+    body: "<p>Os modelos digitalizados ficam na sua pasta de Documentos no iCloud, por isso o iPhone com que digitalizou, o iPad em que reviu e o <a href=\"/pt/blog/nfc-cool-comes-to-mac/\">Mac</a> em que vai editar veem todos a mesma biblioteca. Capture em movimento, termine na secretária.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool a sincronizar entre iPhone, iPad e Mac"
     platforms: "iOS"

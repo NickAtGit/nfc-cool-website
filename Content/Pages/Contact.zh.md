@@ -1,7 +1,7 @@
 ---
 title: "支持与联系"
 slug: "contact"
-description: "联系 NFC.cool：邮件支持、常见问题、开发者直接受理合作与集成咨询的渠道，以及社交媒体账号。"
+description: "联系 NFC.cool：有问题就发邮件，每条消息都有人亲自阅读，并在一个工作日内回复。这里还有 NFC.cool Tools 和 NFC.cool Business Card 的常见问题解答、合作与集成咨询的直接渠道，以及我们的社交媒体账号。"
 ---
 
 <section class="page-hero">
@@ -36,7 +36,7 @@ description: "联系 NFC.cool：邮件支持、常见问题、开发者直接受
 
 <details class="faq-item">
 <summary>这些 App 是免费的吗？</summary>
-<p>是的，两款 App 在 App Store 和 Google Play 上都免费，且无广告。App 内可以解锁少数高级工作流，但每一项核心功能（NFC、二维码、文档、3D 和电子名片）都是免费的。</p>
+<p>是的，两款 App 在 App Store 和 Google Play 上都免费。App 内可以解锁少数高级工作流，但每一项核心功能（NFC、二维码、文档、3D 和电子名片）都是免费的。</p>
 </details>
 
 <details class="faq-item">
@@ -51,7 +51,7 @@ description: "联系 NFC.cool：邮件支持、常见问题、开发者直接受
 
 <details class="faq-item">
 <summary>有 Mac、iPad 或 Apple Watch 版本吗？</summary>
-<p>NFC.cool Tools 可在 iPhone 和 iPad 上运行，也支持 Mac：在 Apple Silicon Mac 上，它以兼容 Mac 的 iPad App 形式提供（<a href="/blog/nfc-cool-comes-to-mac/">了解 NFC.cool 在 Mac 上的情况</a>）。3D 和房间扫描需要配备 LiDAR 的 iPad。目前没有 Apple Watch 版本。NFC.cool Business Card 仅在 iOS 和 Android 上提供。</p>
+<p>NFC.cool Tools 可在 iPhone 和 iPad 上运行，也支持 Mac：在 Apple Silicon Mac 上，它以兼容 Mac 的 iPad App 形式提供（<a href="/zh/blog/nfc-cool-comes-to-mac/">了解 NFC.cool 在 Mac 上的情况</a>）。3D 和房间扫描需要配备 LiDAR 的 iPad。目前没有 Apple Watch 版本。NFC.cool Business Card 仅在 iOS 和 Android 上提供。</p>
 </details>
 
 <details class="faq-item">
@@ -90,7 +90,7 @@ description: "联系 NFC.cool：邮件支持、常见问题、开发者直接受
 
 <details class="faq-item">
 <summary>它符合 GDPR 吗？</summary>
-<p>这些 App 在设备端处理数据，因此在默认模式下不会向 NFC.cool 传输任何个人数据。网站本身不使用 cookie。订阅通讯（Mailjet）是唯一的第三方数据流，而且表单为自托管，所以访问时不会设置任何 cookie。完整说明请查看<a href="/privacy/">隐私政策</a>。</p>
+<p>这些 App 在设备端处理数据，因此在默认模式下不会向 NFC.cool 传输任何个人数据。网站本身不使用 cookie。订阅通讯（Mailjet）是唯一的第三方数据流，而且表单为自托管，所以访问时不会设置任何 cookie。完整说明请查看<a href="/zh/privacy/">隐私政策</a>。</p>
 </details>
 
 <details class="faq-item">
@@ -170,7 +170,7 @@ description: "联系 NFC.cool：邮件支持、常见问题、开发者直接受
 <span class="contact-social-handle">@NFC</span>
 </a>
 
-<a href="/feed.xml" class="contact-social-card">
+<a href="/zh/feed.xml" class="contact-social-card">
 <span class="contact-social-name">RSS</span>
 <span class="contact-social-handle">feed.xml</span>
 </a>

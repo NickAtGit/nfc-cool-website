@@ -2,10 +2,11 @@
 id: nfc-blog-026
 title: "设置 NFC.cool 电子名片"
 date: 2024-04-06
+lastModified: "2026-11-05"
 tags: ["business-cards", "guides"]
 summary: "手把手教你设置 NFC.cool 电子名片：建立联系人、挑选公开内容、写入 NFC 标签，然后分享。还会讲讲为什么对于正经社交而言，一个可随时编辑的 URL 胜过一次性的 vCard 二维码。"
 metaTitle: "如何设置你的 NFC.cool 电子名片"
-metaDescription: "逐步设置 NFC.cool 电子名片：建好它、写入 NFC、分享出去。以及为什么可编辑的 URL 胜过被冻结的 vCard。"
+metaDescription: "一步步设置 NFC.cool 电子名片：创建名片、挑选公开字段、定制 Logo、写入 NFC 标签，再预览和分享。还会讲讲为什么可以随时编辑的链接胜过一次性的 vCard 二维码：信息改一次，每枚标签打开的都是最新内容。"
 ogTitle: "设置 NFC.cool 电子名片"
 ogDescription: "手把手教你构建、定制并分享你的 NFC.cool 电子名片。"
 image: "/assets/images/Blog/business-card-service.webp"
@@ -18,23 +19,23 @@ NFC.cool 电子名片把这件事反了过来：一个由你掌控的 URL，写�
 
 ## 安装 App
 
-为 [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en) 下载 NFC.cool Business Card。两个平台上都可免费下载。
+为 [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-zh&mt=8) 或 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-zh) 下载 NFC.cool Business Card。两个平台上都可免费下载。
 
 ---
 
 ## 在“通讯录”里建立源联系人
 
-打开 iOS 的“通讯录”（或 Android 的联系人）App，为你自己创建一个联系人，填上你愿意向外界公开的信息：姓名、单位、职位、工作邮箱、工作电话、网站、LinkedIn URL。仔细核对拼写和格式，这是主记录。
+你可以在 App 里从一张空白名片开始，也可以从手机里的联系人开始。如果选后者，打开 iOS 的“通讯录”（或 Android 的联系人）App，为你自己创建一个联系人，填上你愿意向外界公开的信息：姓名、单位、职位、工作邮箱、工作电话、网站、LinkedIn URL。仔细核对拼写和格式，这是主记录。
 
 你不必把所有东西都填进去。任何敏感信息（个人手机号、家庭住址）都可以完全不放进这个联系人。
 
 ---
 
-## 打开 NFC.cool 并创建电子名片
+## 打开 NFC.cool Business Card 并创建名片
 
-在 NFC.cool 中，进入 **Business Card** 板块，轻触 **Create Account**。你会设置一个用户名和一个 PIN，PIN 用来保护日后的编辑，所以别弄丢了。
+打开 App，轻触 **Create Business Card**。
 
-轻触 **Open Contacts**，选择你刚才建好的那个联系人。NFC.cool 会把数据读入，并以电子名片草稿的形式展示出来。
+选择 **Create from Contacts** 并选中你刚才建好的联系人，或者选择 **Create New**，从一张空白名片开始。NFC.cool 会把数据读入，并以电子名片草稿的形式展示出来。
 
 ---
 
@@ -48,13 +49,13 @@ NFC.cool 电子名片把这件事反了过来：一个由你掌控的 URL，写�
 - **工程：** 姓名、职位、工作邮箱、GitHub、网站。
 - **创意：** 姓名、职位、Instagram、作品集 URL、工作邮箱。
 
-完成后，轻触 **Next**。
+完成后继续下一步。接下来你要选一个用户名，它会出现在名片链接的末尾（mycard.nfc.cool/John），然后创建账户。App 会为你的账户生成一个四位 PIN 码，你可以在设置里更改，也可以用它让名片保持私密。
 
 ---
 
 ## 定制 Logo
 
-轻触 **Your logo** → **Change logo**，上传你的公司 Logo 或个人标识。透明 PNG 的效果最干净，在浅色和深色主题下都能正确合成。
+打开名片的菜单，更换 Logo，上传你的公司 Logo 或个人标识。透明背景的效果最干净；你可以让浅色和深色模式共用一个 Logo，也可以分别添加。
 
 ---
 
@@ -66,11 +67,11 @@ NFC.cool 电子名片把这件事反了过来：一个由你掌控的 URL，写�
 </ol>
 </figure>
 
-接下来是实体的一面。你可以从 [NFC.cool 商店](https://shop.nfc.cool/collections/all) 或任何第三方零售商那里购买 NFC 标签：贴纸、卡片、钥匙扣，哪种形态合适都行。
+接下来是实体的一面。任何标准 NFC 标签都可以：贴纸、卡片、钥匙扣，哪种形态合适都行。我的[推荐 NFC 标签](/zh/affiliate-links/)页面列出了该买什么。
 
-在 NFC.cool 中，轻触 **Write business card to NFC tag**。把你的手机贴近标签。App 会写入一个短 URL，指向你在 nfc.cool 上的名片页面。一旦写好，任何拿着手机的人都能轻触它。
+在名片菜单中，轻触 **Write to NFC Tag**（Android 上是 **Write Business Card to NFC Tag**）。把你的手机贴近标签。App 会写入一个短 URL，指向你在 nfc.cool 上的名片页面。一旦写好，任何拿着手机的人都能轻触它。
 
-如果你想锁定标签，让日后没人能覆盖这个 URL，可在写入成功后轻触 **Lock**。这一步不可逆，只对你确定无误的标签执行锁定。
+如果你想锁定标签，让日后没人能覆盖这个 URL，可以用 [NFC.cool Tools](/zh/features/nfc-reader-writer/) 的 Platinum 订阅来完成。锁定不可逆，只对你确定无误的标签执行。
 
 ---
 
@@ -82,7 +83,7 @@ NFC.cool 电子名片把这件事反了过来：一个由你掌控的 URL，写�
 </ol>
 </figure>
 
-轻触 **View Business Card**，看看接收者究竟会看到什么。这个页面以移动端为先，加载迅速，并提供一个一触即用的“保存到通讯录”按钮。在 iOS 上，接收者看到的是原生的 App Clip（无需安装 App）；在 Android 上，他们看到的是 nfc.cool 域名下一个清爽的网页。两种情况最终都会把你的联系人存进他们的通讯录。
+在名片菜单中轻触 **Preview**（Android 上是 **Preview Business Card**），看看接收者究竟会看到什么。这个页面以移动端为先，加载迅速，并提供一个一触即用的“保存联系人”按钮。在 iOS 上，接收者看到的是原生的 App Clip（无需安装 App）；在 Android 上，他们看到的是 nfc.cool 域名下一个清爽的网页。两种情况最终都会把你的联系人存进他们的通讯录。
 
 ---
 
@@ -96,4 +97,4 @@ NFC.cool 的流程，把你的联系信息保存在服务器上。标签（或�
 
 对于正经社交而言，这才是唯一重要的特性：数据比印好的名片更长寿。
 
-[NFC.cool Tools（iPhone）](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-en&mt=8) · [NFC.cool Tools（Android）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en) · 或者独立的 NFC.cool Business Card，支持 [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-en&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-en)。
+[NFC.cool Tools（iPhone）](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-business-card-service-zh&mt=8) · [NFC.cool Tools（Android）](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-zh) · 或者 [NFC.cool Business Card](/zh/business-card/)，支持 [iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-business-card-service-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-business-card-service-zh)。

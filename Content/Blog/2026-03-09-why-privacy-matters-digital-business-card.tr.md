@@ -2,6 +2,7 @@
 id: nfc-blog-004
 title: "Dijital kartvizitinde gizlilik neden önemli"
 date: 2026-03-09
+lastModified: "2026-11-05"
 tags: ["business-cards", "privacy"]
 summary: "Dijital kartvizitinde adın, e-postan, telefon numaran ve dahası var; yine de çoğu kişi o verinin gerçekte nereye gittiğini hiç düşünmüyor. Gizliliğin neden bir numaralı ölçütün olması gerektiği burada."
 image: "/assets/images/Blog/why-privacy-matters-digital-business-card.webp"
@@ -15,7 +16,7 @@ Kartvizitinde ne olduğunu düşün. Tam adın. E-posta adresin. Telefon numaran
 
 Şimdi şunu düşün: dijital kartvizit paylaştığında birine yalnızca bir karton parçası uzatmıyorsun. Bir platforma o veriye erişim veriyorsun, *üstelik* paylaştığın kişiye dair veriye de.
 
-Dijital kartvizit uygulamalarının çoğu alışverişin iki tarafından da bilgi topluyor. Kim paylaştı, kim gördü, ne zaman, nerede, hangi cihazda, ne kadar süre. Bazıları beklediğinden ileri gidiyor.
+Dijital kartvizit uygulaması alışverişin iki tarafından da bilgi toplayabilir. Kim paylaştı, kim gördü, ne zaman, nerede, hangi cihazda, ne kadar süre.
 
 Bu bir korku yazısı değil. Dijital kartvizitler kağıttan gerçekten daha iyi: tanışmak için, çevre için, bilgini güncel tutmak için. Ama her platform verine aynı özenle davranmıyor ve çoğu kişi bunu sormayı hiç akıl etmiyor.
 
@@ -32,19 +33,19 @@ Biri NFC kartını okuttuğunda ya da QR kodunu taradığında tipik akış şu:
 3. Platform etkileşimi kaydediyor; en azından bir zaman damgası
 4. Platforma göre şunları da yakalayabiliyor: bakan kişinin IP adresi, cihaz türü, tarayıcı, yaklaşık konum, kartında geçirdiği süre, hangi bağlantılara dokunduğu
 
-Bu asgari düzey. Bazı platformlar daha fazlasını yapıyor.
+Bu asgari düzey. Platform daha fazlasını da yapabilir.
 
 ### Alıcıya pazarlama
 
-Birçok dijital kartvizit platformu, özellikle ücretsiz planlarında, kartına bakan kişilere pazarlama yapıyor. Yani: biri e-postanı almak için QR kodunu tarıyor ve sonra *platform* ona kayıt olmasıyla ilgili tanıtım e-postaları gönderiyor.
+Dijital kartvizit platformu, kartına bakan kişilere pazarlama yapabilir. Yani: biri e-postanı almak için QR kodunu tarıyor ve sonra *platform* ona kayıt olmasıyla ilgili tanıtım e-postaları gönderiyor.
 
-Sen bunu istemedin. Kartına bakan kişi kesinlikle istemedi. Ama oluyor, çünkü platformun büyümesi gerekiyor ve senin kişilerin bedava müşteri adayı.
+Sen bunu istemedin. Kartına bakan kişi kesinlikle istemedi. Bu, platform büyümek zorunda olduğunda ve kişilerini bedava müşteri adayı olarak gördüğünde oluyor.
 
-Her platform bunu yapmıyor. Ama kayıt olmadan önce denetlemeye değecek kadarı yapıyor.
+Kayıt olmadan önce denetlemeye değer.
 
 ### Konuşma kaydı
 
-Bu seni şaşırtabilir. Bazı platformlar artık yüz yüze konuşmaları kaydeden, yapay zeka destekli not tutma özellikleri sunuyor. Sunuş cazip: konferansta biriyle tanış, kaydete bas ve yapay zeka önemli noktaları kendiliğinden yakalasın.
+Bu seni şaşırtabilir. Yapay zeka destekli not tutma, yüz yüze konuşmaları kaydedebilir. Sunuş cazip: konferansta biriyle tanış, kaydete bas ve yapay zeka önemli noktaları kendiliğinden yakalasın.
 
 Sorun rıza. Pek çok yargı bölgesinde, GDPR kapsamındaki AB ülkelerinin çoğu ve iki taraflı rıza yasası olan onlarca ABD eyaleti dahil, karşı tarafın bilgisi ya da açık rızası olmadan konuşma kaydetmek yasa dışı. Teknik olarak yasal olduğu yerlerde bile, bir tanışma sohbetini gizlice kaydetmek ciddi etik sorular doğuruyor.
 
@@ -52,7 +53,7 @@ Az önce tanıştığın kişi dostça sohbet ettiğini sanıyor. Telefonunun s�
 
 ### Veri zenginleştirme
 
-Bazı platformlar "yapay zeka destekli kişi zenginleştirme" sunuyor: bir kartvizit tarıyorsun ya da kişi alışverişi yapıyorsun ve platform kamuya açık kaynaklardan ek veri çekiyor: LinkedIn profilleri, şirket bilgileri, sosyal medya hesapları.
+"Yapay zeka destekli kişi zenginleştirme" şöyle çalışıyor: kartvizit tarıyorsun ya da kişi alışverişi yapıyorsun ve platform kamuya açık kaynaklardan ek veri çekiyor: LinkedIn profilleri, şirket bilgileri, sosyal medya hesapları.
 
 Kullanışlı mı? Elbette. Ama bu, platformun tanıştığın kişilerin profilini, çoğu zaman onların haberi olmadan kurduğu anlamına geliyor. Kişilerin buna kaydolmadı. Kartvizitlerini paylaştılar, tüm dijital izlerini değil.
 
@@ -69,7 +70,7 @@ Dürüst yanıtlar çeşitli:
 - **Alıcı verisi toplama.** Kişilerin, platformun kendi müşteri adayına dönüşüyor.
 - **Veri birleştirme.** Anonimleştirilmiş (ya da değil) tanışma örüntülerinin üçüncü taraflara satılması.
 
-Her ücretsiz planın gizli bir bit yeniği yok. Bazı platformlar, örneğin Wave Connect, alıcılarını rahatsız etmeden gerçekten yararlı ücretsiz planlar sunuyor. Diğerleri "ücretsiz"i, kişi verisini ölçekli toplamanın yolu olarak kullanıyor.
+Her ücretsiz planın gizli bir bit yeniği yok, ama "ücretsiz" kişi verisini ölçekli toplamanın yolu da olabilir.
 
 Genel kural: bir platform sınırsız özelliği bedava sunuyorsa ve net bir iş modeli yoksa, iş modeli senin verin *demektir*.
 
@@ -97,7 +98,7 @@ GDPR sana veri taşınabilirliği hakkı veriyor: platformun sana dair elindeki 
 
 ### 5. Hesabını gerçekten silebiliyor musun?
 
-"Dondurmak" değil. Silmek. Tüm ilgili veri sunucularından kaldırılarak. Bazı platformlar bunu şaşırtıcı biçimde zorlaştırıyor; kendi kendine yapabileceğin bir seçenek sunmak yerine destek taleplerinin arkasına gömüyorlar.
+"Dondurmak" değil. Silmek. Tüm ilgili veri sunucularından kaldırılarak ve destek talebiyle değil, kendi kendine yapabileceğin bir seçenekle.
 
 ### 6. Erişim denetimleri var mı?
 
@@ -105,7 +106,7 @@ Profilini özel yapabiliyor musun? PIN ile koruyabiliyor musun? Hangi bilginin k
 
 ### 7. Ses kaydı yapıyor mu?
 
-Bu daha yeni ama müşteri adayı toplama alanında yaygınlaşıyor. Bir platform konuşma kaydı ya da yapay zeka not tutma sunuyorsa, kullanmadan önce hukuki sonuçlarını anla. AB'de tüm tarafların rızası olmadan konuşma kaydetmek GDPR'ı ihlal ediyor. ABD'de yasalar eyalete göre değişiyor.
+Bir platform konuşma kaydı ya da yapay zeka not tutma sunuyorsa, kullanmadan önce hukuki sonuçlarını anla. AB'de tüm tarafların rızası olmadan konuşma kaydetmek GDPR'ı ihlal ediyor. ABD'de yasalar eyalete göre değişiyor.
 
 ---
 
@@ -150,17 +151,17 @@ Açık olayım: burası NFC.cool blogu, yani kendi yaklaşımımdan söz edeceğ
 
 **Konuşma kaydı yok.** Ses kaydetmiyorum. Nokta. Tanışmanın gözetim üzerine değil, güven üzerine kurulması gerektiğini düşünüyorum.
 
-**Alıcıya pazarlama yok.** Biri kartına baktığında kartını görüyor. Benden pazarlama e-postası almıyor. Kişilerin senin, benim müşteri adayım değil.
+**Alıcıya pazarlama yok.** Biri kartına baktığında kartını görüyor. Benden pazarlama e-postası almıyor. Kişilerin senin, benim müşteri adayım değil. Team planında ekibin, müşteri adayı formundan bilgi bırakan kişilere takip e-postası gönderebilir.
 
-**Veriden para kazanma ya da reklam yok.** vCard'ın ve hesap verin hizmeti çalıştırmak için sunucumda saklanıyor ama hiçbiri reklam ya da üçüncü taraf veri işleme için kullanılmıyor.
+**Verini satmıyorum.** vCard'ın ve hesap verin hizmeti çalıştırmak için sunucumda saklanıyor. NFC.cool verini satmıyor, Business Card uygulamasında da reklam yok.
 
-**GDPR veri dışa aktarımı.** Kişiler dahil her şeyi istediğin an ZIP olarak indir; hem iPhone hem Android'de. Destek talebi yok, bekleme süresi yok.
+**GDPR veri dışa aktarımı.** Kişiler dahil her şeyi istediğin an ZIP olarak al. Verilerimi Dışa Aktar seçeneği iPhone ve Android'deki uygulamada ve web'de. Destek talebi yok.
 
-**NFC donanımında özgürlük.** Standart her NFC tag'iyle çalışıyor. NFC.cool NFC donanımı satmıyor; denetleyemeyeceğin kapalı bir takip olmadan istediğin üçüncü taraf tag'i kullanmakta özgürsün.
+**NFC donanımında özgürlük.** Standart her NFC tag'iyle çalışıyor, yani denetleyemeyeceğin kapalı bir takip olmadan istediğin tag'i kullanmakta özgürsün.
 
-**Avrupalı bağımsız geliştirici.** Portekiz'de yaşayan tek kişilik bir geliştiriciyim. Büyüme ölçütleri için kullanıcı verisinden para kazanmam yönünde beni iten yatırımcılarım yok. Benim güdüm, veri toplamayı en üst düzeye çıkarmak değil, insanların güvendiği bir ürün yapmak.
+**Girişim sermayesi yok.** NFC.cool Portekiz'de, büyüme ölçütleri için kullanıcı verisinden para kazanmam yönünde beni zorlayan yatırımcılar da yok. Benim güdüm, veri toplamayı en üst düzeye çıkarmak değil, insanların güvendiği bir ürün yapmak. Bir şey sorduğunda yanıtı benden, kurucudan alıyorsun.
 
-Kusursuz değilim. Henüz CRM bütünleşmesi ya da webhook yok; kişilerini dışarı almak için tam veri dışa aktarımı veriyorum. App Clip ile Apple Wallet kartları yalnızca iPhone'da, yani Android'deki alıcılar kartını tarayıcıda açıyor. Pazarlama bütçem büyük oyuncuların bir kesri kadar. Ama gizlilik modelime gerçekten inanıyorum ve bunun önemli olduğunu düşünüyorum.
+Kişilerini taşımak da senin elinde. Her planda tam veri dışa aktarımı var; [NFC.cool Business Card for Teams](/tr/business-card/teams/) ile de müşteri adayları doğrudan HubSpot'a ya da webhook'la başka herhangi bir yere gidebiliyor. Gizlilik modelime gerçekten inanıyorum ve bunun önemli olduğunu düşünüyorum.
 
 ---
 
@@ -191,4 +192,4 @@ Gizlilik, saklayacak bir şeyin olması değil. Neyi, kiminle ve hangi koşullar
 
 Seçimini dikkatli yap.
 
-*Önce gizlilik diyen bir dijital kartviziti denemeye hazır mısın? [NFC.cool Business Card'ı](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-tr&mt=8) iPhone için indir ya da [Android'de edin](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-tr). Uygulama arayüzü ve App Clip 35 dilde.*
+*Önce gizlilik diyen bir dijital kartviziti denemeye hazır mısın? [NFC.cool Business Card'ın neler yaptığına bak](/tr/business-card/), sonra [iPhone için indir](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-tr&mt=8) ya da [Android'de edin](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-tr). Uygulama arayüzü ve App Clip 35 dilde.*

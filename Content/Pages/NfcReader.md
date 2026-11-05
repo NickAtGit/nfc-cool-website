@@ -302,7 +302,7 @@ Apple blocks NFC in every iOS browser, so no website can read or write tags on a
 
 <details class="faq-item">
 <summary>Can I write a Wi-Fi network or contact card to a tag?</summary>
-<p>Yes. Pick Wi-Fi network or Contact card in the Write dropdown and fill in the fields. A Wi-Fi tag prompts Android phones to join the network; a contact tag stores a standard vCard that phones offer to save.</p>
+<p>Yes. Pick Wi-Fi network or Contact card in the Write dropdown and fill in the fields. A Wi-Fi tag prompts Android phones to join the network; a contact tag stores a standard vCard that Android phones offer to save. Want a card you can update after writing it? <a href="/business-card/">NFC.cool Business Card</a> puts a link on the tag, so you can edit your details later.</p>
 </details>
 
 <details class="faq-item">

@@ -4,7 +4,7 @@ title: "NFC Safe：耐久性のあるNFCタグに暗号化されたシークレ�
 date: "2026-05-03"
 tags: ["nfc-tags", "privacy"]
 summary: "エポキシ加工のNFCタグに256-bit AES。紙は燃える。クラウドは落ちる。NFCタグは違います。"
-metaDescription: "NFC Safeは、シードフレーズやパスワード、リカバリーコードなどの秘密を256ビットAESでNFCタグに暗号化して書き込みます。クラウドもアカウントも不要。必要なのはタグとパスフレーズだけです。"
+metaDescription: "NFC Safeは、シードフレーズやパスワード、リカバリーコードなどの秘密を256ビットAESで暗号化し、耐久性のあるNFCタグに書き込みます。クラウドもアカウントも不要で、必要なのはエポキシ加工のタグとパスフレーズだけです。"
 image: "/assets/images/Blog/nfc-safe-encrypted-secrets.webp"
 imageAlt: "暗号化されたNFCシークレットを表すスマートフォン、NFCカード、盾、鍵"
 author: "Nicolo Stanciu"

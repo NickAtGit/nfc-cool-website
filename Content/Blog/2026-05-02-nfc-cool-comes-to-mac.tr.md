@@ -86,7 +86,7 @@ QR kodu Mac'inin kamerasına tut, NFC.cool onu okusun. Barkodlarda da aynısı. 
 
 Sınırları gizlemek yerine açıkça söylemeye inanıyorum.
 
-**NFC okuma** Mac'te *yerleşik* olarak desteklenmiyor, çünkü hiçbir Mac'te NFC vericisi yok. Eskiden hikaye burada biterdi. Artık bitmiyor: harici bir USB okuyucuyla artık Mac'ten ya da iPad'den doğrudan NFC tag okuyup yazabiliyorsun. Bunun nasıl işlediğini [iPad ve Mac'te NFC tag okuma](/blog/nfc-reading-ipad-mac/) yazısında anlattım.
+**NFC okuma** Mac'te *yerleşik* olarak desteklenmiyor, çünkü hiçbir Mac'te NFC vericisi yok. Eskiden hikaye burada biterdi. Artık bitmiyor: harici bir USB okuyucuyla artık Mac'ten ya da iPad'den doğrudan NFC tag okuyup yazabiliyorsun. Bunun nasıl işlediğini [iPad ve Mac'te NFC tag okuma](/tr/blog/nfc-reading-ipad-mac/) yazısında anlattım.
 
 **Belge tarama** da çalışmıyor; Mac kamerasında, belge taramayı iPhone ile iPad'de mümkün kılan otomatik odak ve kenar algılama hattı yok.
 

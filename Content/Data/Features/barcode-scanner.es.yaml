@@ -35,7 +35,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Webhooks para recuentos de stock y registros de entrada en eventos"
-    body: "<p>Apunta el escáner de códigos de barras a tu sistema de back-office. Cada código de barras leído dispara un webhook a tu URL, así que tu base de datos de inventario, tu CRM de asistentes o el catálogo de la biblioteca se actualizan en tiempo real a medida que mueves la cámara. Consulta <a href=\"/features/webhooks/\">Webhooks y automatización</a> para ver la estructura del payload JSON y un servidor de referencia.</p>"
+    body: "<p>Apunta el escáner de códigos de barras a tu sistema de back-office. Cada código de barras leído dispara un webhook a tu URL, así que tu base de datos de inventario, tu CRM de asistentes o el catálogo de la biblioteca se actualizan en tiempo real a medida que mueves la cámara. Consulta <a href=\"/es/features/webhooks/\">Webhooks y automatización</a> para ver la estructura del payload JSON y un servidor de referencia.</p>"
     platforms: "iOS"
 
   - title: "Atajos y App Intents"
@@ -45,7 +45,7 @@ subsections:
     platforms: "iOS"
 
   - title: "Sincronización con iCloud en iPhone, iPad y Mac"
-    body: "<p>El historial de tus escaneos de códigos de barras se sincroniza en todos los dispositivos de tu cuenta de iCloud. Escanea una estantería de productos en el iPhone, revisa la lista en el iPad, ponles título y comparte escaneos desde el <a href=\"/blog/nfc-cool-comes-to-mac/\">Mac</a> - un historial sincronizado, nada que mover a mano.</p>"
+    body: "<p>El historial de tus escaneos de códigos de barras se sincroniza en todos los dispositivos de tu cuenta de iCloud. Escanea una estantería de productos en el iPhone, revisa la lista en el iPad, ponles título y comparte escaneos desde el <a href=\"/es/blog/nfc-cool-comes-to-mac/\">Mac</a> - un historial sincronizado, nada que mover a mano.</p>"
     imagePath: "/assets/images/Blog/nfc-cool-comes-to-mac.webp"
     imageAlt: "NFC.cool sincronizándose en iPhone, iPad y Mac"
     platforms: "iOS"

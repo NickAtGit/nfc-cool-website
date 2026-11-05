@@ -8,14 +8,14 @@ image: "/assets/images/Blog/ultimate-nfc-tag-guide.webp"
 imageAlt: "一部 iPhone，背后是发光的 NFC 图标，前面排成一排各种形态的 NFC 标签：贴纸、圆片、PVC 卡、钥匙扣、腕带和一枚透明 Inlay"
 author: "Nicolo Stanciu"
 metaTitle: "NFC 标签终极指南：每一款芯片逐一讲透"
-metaDescription: "所有 NFC 芯片一次讲全：NTAG、MIFARE、DESFire、ICODE、ST25、FeliCa、Topaz 以及各种兼容芯片。内存、安全性、擦写寿命、什么设备能读，以及哪种标签适合哪种用途。"
+metaDescription: "所有 NFC 芯片一次讲全：NTAG、MIFARE、DESFire、ICODE、ST25、FeliCa、Topaz 以及各种兼容芯片。内存、安全性、擦写寿命、什么设备能读，以及哪种标签适合哪种用途，都放在这一份参考资料里。"
 ogTitle: "所有 NFC 芯片，一篇讲全"
 ogDescription: "你能买到的每一款 NFC 芯片：内存、安全性、擦写寿命、手机支持情况，以及它真正适合的用途。含规格表、选型决策表和完整芯片目录。"
 ---
 
 你点开一个 NFC 标签的商品链接。上面写着“NFC 213”，或者“兼容 NTAG215”，又或者只有一句“1K NFC 卡，所有手机通用”。你只想知道一件事：它能不能干我想让它干的活？而商品页回答不了你，因为写商品页的人自己也不知道。
 
-我花了好几年打造 [NFC.cool Tools](/features/nfc-reader-writer/)，这款应用每次被轻触时要做的第一件事，恰恰就是回答这个问题：这是什么芯片，它能做什么？光是芯片识别这部分代码，就能认出七家厂商的大约六十款产品，而其中每一款之所以会进这份名单，都是因为有人把它贴到手机上，结果它的表现跟商品页承诺的不一样。写那段代码的时候，我一直希望世上能有一份这样的参考资料。它故意写得很长。如果你想看简短版，[NFC 标签入门指南](/blog/nfc-tags-beginners-guide/) 是最好的起点，需要深入时它也会链回这里。
+我花了好几年打造 [NFC.cool Tools](/zh/features/nfc-reader-writer/)，这款应用每次被轻触时要做的第一件事，恰恰就是回答这个问题：这是什么芯片，它能做什么？光是芯片识别这部分代码，就能认出七家厂商的大约六十款产品，而其中每一款之所以会进这份名单，都是因为有人把它贴到手机上，结果它的表现跟商品页承诺的不一样。写那段代码的时候，我一直希望世上能有一份这样的参考资料。它故意写得很长。如果你想看简短版，[NFC 标签入门指南](/zh/blog/nfc-tags-beginners-guide/) 是最好的起点，需要深入时它也会链回这里。
 
 在看那些表格之前，先给你一句话结论：**没有最好的 NFC 标签，只有最适合这项任务的芯片**，而任务由三件事决定：你要存多少东西、你要防住谁，以及什么设备必须能读它。
 
@@ -25,7 +25,7 @@ ogDescription: "你能买到的每一款 NFC 芯片：内存、安全性、擦�
 
 这份指南里的每一个数字，都来自厂商的数据手册、Apple 或 Google 的平台文档，或者我自己应用的代码，[参考资料](#参考资料与延伸阅读) 列在文末。凡是我亲手摆弄过的芯片，我会用一段实测笔记说明。没摆弄过的，我也会直说：那些冷门型号的信息来自数据手册，而数据手册是承诺，不是实测。
 
-有两样东西你在这里找不到：写入第一枚标签的分步教程（那是 [写入指南](/blog/write-nfc-tags-iphone/) 的事），以及 NTAG 424 DNA 的完整故事，它有 [专门的一篇文章](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/)。
+有两样东西你在这里找不到：写入第一枚标签的分步教程（那是 [写入指南](/zh/blog/write-nfc-tags-iphone/) 的事），以及 NTAG 424 DNA 的完整故事，它有 [专门的一篇文章](/zh/blog/ntag-424-dna-counterfeit-proof-nfc-tags/)。
 
 - [NFC 标签的物理构造](#nfc-标签的物理构造)
 - [缩写大杂烩：标准、Forum 类型，以及哪些根本不是 NFC](#缩写大杂烩标准forum-类型以及哪些根本不是-nfc)
@@ -106,10 +106,10 @@ NFC Forum 并没有设计芯片。它写了五套“配方”，规定如何把 
 | 零售防盗或物流标签 | 860 至 960 MHz | 超高频 RAIN RFID，EPC Gen2 | 不能 |
 | 酒店房卡或老式交通卡 | 13.56 MHz | MIFARE Classic 或某种私有的高频卡 | Android 有时可以，iPhone 只显示 UID |
 | 银行卡 | 13.56 MHz | 说 ISO-DEP 的 EMV 智能卡 | 技术上可以；应用能读出卡上的应用列表和公开数据，但 Apple 的 Core NFC 禁止读取支付卡，而且没有任何手机能做出一张可用的副本 |
-| 护照 | 13.56 MHz | 符合 ICAO 9303 的电子证件 | 可以，用机读区当钥匙；[这个我做过](/blog/read-passport-nfc-chip/) |
+| 护照 | 13.56 MHz | 符合 ICAO 9303 的电子证件 | 可以，用机读区当钥匙；[这个我做过](/zh/blog/read-passport-nfc-chip/) |
 | 安全密钥 | 13.56 MHz | 基于 ISO 7816 的 FIDO2 认证器 | 浏览器可以用，但不是当作标签来读 |
 
-最让人心疼的是那张 125 kHz 的门禁卡。它能刷开门口的读卡器，它是一张里面有线圈的塑料卡，但它永远不会跟手机说话。我写过一篇 [为什么 iPhone 打不开你小区的门](/blog/iphone-rfid-condo-doors/)，因为诚实的答案是硬件层面的。
+最让人心疼的是那张 125 kHz 的门禁卡。它能刷开门口的读卡器，它是一张里面有线圈的塑料卡，但它永远不会跟手机说话。我写过一篇 [为什么 iPhone 打不开你小区的门](/zh/blog/iphone-rfid-condo-doors/)，因为诚实的答案是硬件层面的。
 
 ---
 
@@ -308,7 +308,7 @@ NTAG215 的结构相同，用户内存一直到第 81 页，配置位于 83 至 
 
 ### Type 4：NTAG 424 DNA 的文件系统
 
-这里没有页。一个名为 D2760000850101 的 ISO 7816 应用里包含三个文件：一个 32 字节的能力容器（E103）、一个 256 字节的 NDEF 文件（E104），以及一个 128 字节的专有文件（E105）。每个文件都有各自的读、写和修改权限，每项权限都对应五把 AES 密钥中的一把。DESFire 的工作方式相同，只是允许你自己创建应用和文件；NTAG 424 DNA 的三个文件是固定的，所以我才把它形容为 [一个带三个抽屉、上了锁的小保险箱](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/)。
+这里没有页。一个名为 D2760000850101 的 ISO 7816 应用里包含三个文件：一个 32 字节的能力容器（E103）、一个 256 字节的 NDEF 文件（E104），以及一个 128 字节的专有文件（E105）。每个文件都有各自的读、写和修改权限，每项权限都对应五把 AES 密钥中的一把。DESFire 的工作方式相同，只是允许你自己创建应用和文件；NTAG 424 DNA 的三个文件是固定的，所以我才把它形容为 [一个带三个抽屉、上了锁的小保险箱](/zh/blog/ntag-424-dna-counterfeit-proof-nfc-tags/)。
 
 ### Type 5：ISO 15693 的块
 
@@ -329,13 +329,13 @@ NTAG215 的结构相同，用户内存一直到第 81 页，配置位于 83 至 
 | 一个链接、一个 Wi-Fi 网络、一个快捷指令触发器、贴在某样东西上的贴纸 | NTAG213 | 131 个字符的 URL、密码、计数器，八美分 | 在 iPhone、Android、iPad 和 Mac 上完整支持 |
 | 一张联系人名片、一个较长的链接、任何需要留出余量的用途 | NTAG216 | 859 个字符，功能相同，也是我做测试用的芯片 | 完整支持 |
 | Amiibo | NTAG215 | 游戏机检查的正是这颗芯片和它的 504 字节 | 两个平台都支持备份与恢复 |
-| 统计海报、名片、演示机上的轻触次数 | NTAG213、215 或 216 | 硬件读取计数器和 ASCII 镜像，而且应用的轻触计数器支持的正是这三款芯片 | 两个平台都支持 [轻触计数器](/blog/count-nfc-tag-scans/) |
+| 统计海报、名片、演示机上的轻触次数 | NTAG213、215 或 216 | 硬件读取计数器和 ASCII 镜像，而且应用的轻触计数器支持的正是这三款芯片 | 两个平台都支持 [轻触计数器](/zh/blog/count-nfc-tag-scans/) |
 | 超小天线、戒指、廉价的一次性用途 | NTAG 210µ 或 Ultralight EV1 48 B | 48 字节，17 pF 适合小线圈，没有密码 | 读取和写入 |
 | 证明产品是正品，轻触一次，无需应用 | NTAG 424 DNA | 每次轻触都用 AES-128 自行签名；副本做不到 | 完整配置，包括签名校验 |
 | 同上，但想要一枚便宜的 Type 2 贴纸 | NTAG 223 DNA | Type 2 芯片上的 SUN，144 字节 | 显示为 Type 2 标签；暂不支持 SUN 配置 |
 | 一个被打开时会报告的封条 | NTAG 213 TT、NTAG 424 DNA TT、ST25TV02KC-T | 一根防拆导线，状态被永久记住 | 424 TT 完整支持；其他的按其基础芯片读取 |
 | 隔着一臂距离做库存盘点或图书馆管理，配合门禁式读写器 | ICODE SLIX2 或 ICODE 3 | ISO 15693 用合适的读写器能在 1 至 1.5 米读取，用手机照样能轻触读 | 两个平台都支持读取、写入、格式化 |
-| 需要被 3D 打印机本身读取的耗材盘 | ICODE SLIX2 | [OpenPrintTag](/blog/openprinttag-read-write-nfc-spools-phone/) 标准要求 NFC-V | 读取和写入 |
+| 需要被 3D 打印机本身读取的耗材盘 | ICODE SLIX2 | [OpenPrintTag](/zh/blog/openprinttag-read-write-nfc-spools-phone/) 标准要求 NFC-V | 读取和写入 |
 | 门禁、闸机、交通系统 | DESFire EV3 或 MIFARE Plus EV2 | AES、真正的密钥管理、经过认证的安全性 | 识别并导出公开内容；不做任何密钥操作 |
 | 与单片机通信的无源传感器 | NTAG I2C plus、ST25DV、NTAG 5 | 同一颗晶粒上集成 I2C 接口和能量采集 | 按其 NFC 一面读取 |
 | 日本交通或电子钱包体系里的一切 | FeliCa | 那里的读卡器说的就是这种语言 | 读取；在 iPhone 上可向 Lite-S 和 Standard 写入 NDEF |
@@ -372,7 +372,7 @@ NTAG215 的结构相同，用户内存一直到第 81 页，配置位于 83 至 
 
 它们全都是 NFC Forum Type 2、ISO/IEC 14443 Type A、7 字节 UID、106 kbit/s，额定工作温度 -25 到 +70 °C。NTAG210 和 NTAG212 的输入电容是 17 pF，适合小天线；213、215 和 216 是 50 pF。原厂签名是基于 secp128r1 曲线的 ECDSA，32 字节，用 READ_SIG 命令读取；验证用的密钥写在一份不公开的 NXP 应用笔记里，所以几乎没有哪款消费级应用会去核验它。
 
-实际使用中真正要紧的是三项功能：**密码**（32 位的 PWD，标签用来应答的 16 位 PACK，标明保护从哪一页开始的 AUTH0，以及在猜错指定次数后让标签变砖的 AUTHLIM）、**NFC 计数器**（24 位，每个读取会话加一，可以用专门的命令读出），以及 **ASCII 镜像**，它会把 UID 和计数器以文本形式贴进你的 NDEF 消息，于是一个普通的 URL 每次被轻触都会变成 `https://example.com/?u=04A1...&c=000123`。我写过的飞利浦 Sonicare 刷头用的就是 NTAG213，AUTHLIM 设成了三次，这就是你猜错密码时 [刷头会把自己锁死](/blog/reset-sonicare-brush-head-nfc/) 的原因。
+实际使用中真正要紧的是三项功能：**密码**（32 位的 PWD，标签用来应答的 16 位 PACK，标明保护从哪一页开始的 AUTH0，以及在猜错指定次数后让标签变砖的 AUTHLIM）、**NFC 计数器**（24 位，每个读取会话加一，可以用专门的命令读出），以及 **ASCII 镜像**，它会把 UID 和计数器以文本形式贴进你的 NDEF 消息，于是一个普通的 URL 每次被轻触都会变成 `https://example.com/?u=04A1...&c=000123`。我写过的飞利浦 Sonicare 刷头用的就是 NTAG213，AUTHLIM 设成了三次，这就是你猜错密码时 [刷头会把自己锁死](/zh/blog/reset-sonicare-brush-head-nfc/) 的原因。
 
 > **实测笔记**：每次发版我都拿这几颗芯片做测试，有人只想买一包、然后再也不用操心的话，我推荐的就是 NTAG216。凡是放在公共场所的标签，都值得设个密码；它能挡住拿着免费应用的人，而大多数人就是这样的人。它挡不住拿着嗅探器的人，因为密码本身是不加密地在空中传输的，这一点我在应用里也直说了。
 
@@ -395,7 +395,7 @@ NTAG215 的结构相同，用户内存一直到第 81 页，配置位于 83 至 
 
 </div>
 
-**SUN**（Secure Unique NFC）正是让这些芯片值 NTAG213 三倍价钱的那项功能：标签把自己的 UID 和读取计数器镜像进 URL，再附上一个针对它们计算的 AES-128 CMAC，每次轻触都重新计算。服务器校验这个 MAC；克隆标签没有密钥，就会校验失败。包括 LRP 模式和那五把密钥在内，我在 [NTAG 424 DNA 那篇文章](/blog/ntag-424-dna-counterfeit-proof-nfc-tags/) 里全都讲过了，所以这里只说之后的变化：NXP 现在还在卖 NTAG 426Q DNA 和 NTAG X DNA，后者是一颗 16 kB、获得 EAL6+ 认证的联网 Type 4 芯片，所以 424 已经不是最新的 DNA 芯片了，只是你真能以贴纸形式买到的那一款。
+**SUN**（Secure Unique NFC）正是让这些芯片值 NTAG213 三倍价钱的那项功能：标签把自己的 UID 和读取计数器镜像进 URL，再附上一个针对它们计算的 AES-128 CMAC，每次轻触都重新计算。服务器校验这个 MAC；克隆标签没有密钥，就会校验失败。包括 LRP 模式和那五把密钥在内，我在 [NTAG 424 DNA 那篇文章](/zh/blog/ntag-424-dna-counterfeit-proof-nfc-tags/) 里全都讲过了，所以这里只说之后的变化：NXP 现在还在卖 NTAG 426Q DNA 和 NTAG X DNA，后者是一颗 16 kB、获得 EAL6+ 认证的联网 Type 4 芯片，所以 424 已经不是最新的 DNA 芯片了，只是你真能以贴纸形式买到的那一款。
 
 22x DNA 家族是个有意思的新成员：Type 2 芯片上的 SUN，这意味着贴纸更便宜，手机也会把它当成普通 NTAG 来读。**StatusDetect** 版本多了一个传感器：要么是一个导电回路，会不可逆地记录下它曾被弄断；要么是在两个引脚之间测量 0 到 11 pF 的电容，NXP 把它推荐用于液位、湿度和压力检测。
 
@@ -566,7 +566,7 @@ ST 的 ST25TA 家族是基于 ISO/IEC 14443 Type A 的 Type 4 标签，但没有
 
 魔术 NTAG21x 卡也存在，而那些完全模拟的版本甚至会接受一份复制来的原厂签名，这正是 NXP 关于静态签名所强调的一点。
 
-**用于 Amiibo 的“NTAG215 兼容”芯片**。Amiibo 就是一枚普通的 NTAG215，它的 540 字节里装着用这枚标签自己的 UID 派生出的密钥加密并签名的数据。把这些字节复制到另一枚标签上，签名就对不上了，所以备份必须针对目标 UID 重新生成密钥，NFC.cool 的 [Amiibo 备份与恢复](/blog/amiibo-iphone-android-read-collect-backup/) 做的正是这件事。游戏机的读取流程是：先发 GET_VERSION，然后进行一次由 UID 派生的密码认证，再读取全部 135 页，包括配置页。缺少 GET_VERSION、或者只有 45 页而不是 135 页的芯片，第一步就会失败。TagMo 的文档用一句话概括了这件事：只认 NTAG215。
+**用于 Amiibo 的“NTAG215 兼容”芯片**。Amiibo 就是一枚普通的 NTAG215，它的 540 字节里装着用这枚标签自己的 UID 派生出的密钥加密并签名的数据。把这些字节复制到另一枚标签上，签名就对不上了，所以备份必须针对目标 UID 重新生成密钥，NFC.cool 的 [Amiibo 备份与恢复](/zh/blog/amiibo-iphone-android-read-collect-backup/) 做的正是这件事。游戏机的读取流程是：先发 GET_VERSION，然后进行一次由 UID 派生的密码认证，再读取全部 135 页，包括配置页。缺少 GET_VERSION、或者只有 45 页而不是 135 页的芯片，第一步就会失败。TagMo 的文档用一句话概括了这件事：只认 NTAG215。
 
 **克隆芯片在应用里会怎么显示**。NFC.cool 首先靠 GET_VERSION 来识别。不应答这条命令的芯片，或者应答的内存大小与它宣称的不符的芯片，会按它实际是什么来命名，而不是按商品页上写的。对于 NTAG 424 DNA，应用会再进一步，拿 NXP 的公钥去核验 ECDSA 原厂签名，这是应用里唯一一个能以密码学为依据说出“Genuine NXP”的地方。对于 NTAG21x，应用不读取签名，一方面因为 NXP 的验证密钥受保密协议约束，另一方面因为一份复制来的静态签名反正也能通过校验。对一枚 Type 2 标签来说，诚实的证据链是：厂商代码、GET_VERSION、内存大小，以及芯片宣称的那些功能是否真的存在。
 
@@ -591,7 +591,7 @@ ST 的 ST25TA 家族是基于 ISO/IEC 14443 Type A 的 Type 4 标签，但没有
 
 大多数“读不出来”的工单，都能用两条物理规律解释。**天线大小决定距离**，大致来说：卡片比圆片读得远，圆片比 10 mm 的 Inlay 读得远，而植入体得贴着读。**金属会让天线失谐**：贴在金属表面上的线圈会在金属里感应出涡流，电感随之下降，谐振频率偏离 13.56 MHz，所以一枚普通标签贴到铁皮柜上就废了。在线圈和金属之间垫一层铁氧体片，能把磁场引导回来，让标签复活，代价是距离更短、成本更高，这就是为什么抗金属标签要贵上三倍。
 
-手机怎么拿，和标签本身一样重要。iPhone 的天线在顶部边缘；Apple 自己的说明是“将 iPhone 的顶部靠近”标签。Android 则因机型而异，通常在背面中央或摄像头附近。[入门指南](/blog/nfc-tags-beginners-guide/) 里有详细的操作说明。
+手机怎么拿，和标签本身一样重要。iPhone 的天线在顶部边缘；Apple 自己的说明是“将 iPhone 的顶部靠近”标签。Android 则因机型而异，通常在背面中央或摄像头附近。[入门指南](/zh/blog/nfc-tags-beginners-guide/) 里有详细的操作说明。
 
 ---
 
@@ -624,8 +624,8 @@ ST 的 ST25TA 家族是基于 ISO/IEC 14443 Type A 的 Type 4 标签，但没有
 - **iPhone 后台读取** 只对 NDEF URL 记录生效，只在手机已解锁且正在使用时生效，而且在相机、钱包、某个读取会话或飞行模式处于活动状态时不会触发。它从不读取原始芯片。需要 iPhone XS 及更新机型。
 - **哪些 iPhone 能读标签**：根据 Apple 在 WWDC 2019 上的讲座，iPhone 7 及更新机型可以在应用内读取。写入和原始命令是从 iOS 13 开始支持的。
 - **Android 的 `MifareClassic` 类是可选的**。Google 的原话是：“如果它没有被实现，那么 MifareClassic 永远不会被枚举出来”。决定因素是控制器，而不是 Android 版本。
-- **Web NFC** 只支持 NDEF，需要 Chrome 89 及更高版本，仅限 Android，而 Apple 对它持反对立场，所以不会有 Safari 版本。这就是为什么本站的 [在线 NFC 读取器](/online-nfc-reader/) 在 Android 上能用，而对 iPhone 用户则会提示去用应用。
-- **iPad 和 Mac 没有 NFC 无线模块**。从 NFC.cool 6.15.0 起，应用改为通过 Apple 的智能卡框架与 USB CCID 读卡器通信；我测试的是 HID OMNIKEY 5022 CL，用户反馈 ACS ACR1552U-M1 和 ACR1255U-J1 也能用，[那篇文章](/blog/nfc-reading-ipad-mac/) 列出了各种限制。通过读卡器可以给 NTAG 设置密码；移除密码则需要一条 OMNIKEY 拒绝执行的命令，所以这件事得用手机来做。
+- **Web NFC** 只支持 NDEF，需要 Chrome 89 及更高版本，仅限 Android，而 Apple 对它持反对立场，所以不会有 Safari 版本。这就是为什么本站的 [在线 NFC 读取器](/zh/online-nfc-reader/) 在 Android 上能用，而对 iPhone 用户则会提示去用应用。
+- **iPad 和 Mac 没有 NFC 无线模块**。从 NFC.cool 6.15.0 起，应用改为通过 Apple 的智能卡框架与 USB CCID 读卡器通信；我测试的是 HID OMNIKEY 5022 CL，用户反馈 ACS ACR1552U-M1 和 ACR1255U-J1 也能用，[那篇文章](/zh/blog/nfc-reading-ipad-mac/) 列出了各种限制。通过读卡器可以给 NTAG 设置密码；移除密码则需要一条 OMNIKEY 拒绝执行的命令，所以这件事得用手机来做。
 - **ACS ACR122U 不支持 ISO 15693**，ACR1252U 和 ACR1255U-J1 也不支持。在 ACS 的产品线里，只有 ACR1552U 支持。OMNIKEY 5022 两者都支持。如果你要给图书馆标签买读卡器，这一点值得事先知道。
 - **Proxmark3 和 Flipper Zero** 是能够恢复 MIFARE Classic 密钥、模拟卡片的工具。它们就是干这个用的，这份指南之所以提到它们，是因为少了它们，“什么设备能读”这个问题的答案就不诚实了。
 
@@ -700,7 +700,7 @@ ST 的 ST25TA 家族是基于 ISO/IEC 14443 Type A 的 Type 4 标签，但没有
 
 规律跟你猜的一样：内存几乎不要钱，密码学功能大约让价格翻倍，而外形比芯片本身更贵。一颗裸 NTAG213 晶粒只要十四美分；包在它外面的贴纸才占了价格的大头。
 
-去哪里买：我在 [推荐链接页面](/affiliate-links/) 上维护着一份我自己真正在用的标签和读卡器清单，而当初催生整套 DNA 功能的那批 424 标签就是从 AliExpress 买的，所以我不会跟你说网购平台碰不得。只是在往标签里写任何东西之前，先用应用检查一下到手的是什么。
+去哪里买：我在 [推荐链接页面](/zh/affiliate-links/) 上维护着一份我自己真正在用的标签和读卡器清单，而当初催生整套 DNA 功能的那批 424 标签就是从 AliExpress 买的，所以我不会跟你说网购平台碰不得。只是在往标签里写任何东西之前，先用应用检查一下到手的是什么。
 
 ---
 
@@ -941,4 +941,4 @@ NTAG215，而且只能是 NTAG215。游戏机会先发 GET_VERSION，再用一�
 
 让芯片匹配任务。放链接用 NTAG213，拿不准就用 NTAG216，做 Amiibo 用 NTAG215，轻触必须证明点什么时用 NTAG 424 DNA，需要被门禁式读写器读取时用 ICODE SLIX2 或 ICODE 3，门禁必须信任它时用 DESFire EV3，而 MIFARE Classic 那一排货架上的东西，一样都别碰。这份指南里的其他所有内容，都是这句话背后的推理过程，而那些表格的存在，就是为了让你再也不必轻信商品页上的说辞。
 
-如果你想在写入之前先看清一枚标签到底是什么，这正是 [NFC.cool Tools](/features/nfc-reader-writer/) 每次轻触都会做的事，无论是在 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ultimate-nfc-tag-guide-zh&mt=8) 上、[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ultimate-nfc-tag-guide-zh) 上，还是在插着读卡器的 iPad 或 Mac 上。如果你桌上有一颗芯片被应用认错了，或者应用根本认不出来，请写信告诉我。那六十款里的大多数，就是这样进入名单的。
+如果你想在写入之前先看清一枚标签到底是什么，这正是 [NFC.cool Tools](/zh/features/nfc-reader-writer/) 每次轻触都会做的事，无论是在 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ultimate-nfc-tag-guide-zh&mt=8) 上、[Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ultimate-nfc-tag-guide-zh) 上，还是在插着读卡器的 iPad 或 Mac 上。如果你桌上有一颗芯片被应用认错了，或者应用根本认不出来，请写信告诉我。那六十款里的大多数，就是这样进入名单的。

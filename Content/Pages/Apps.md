@@ -1,7 +1,7 @@
 ---
 title: "More Apps"
 slug: "apps"
-description: "Beyond NFC.cool Tools and Business Card, I ship a handful of smaller apps: QR scanning, 3D scanning, flight tracking, e-bike monitoring, and more. All from one indie keyboard."
+description: "Beyond NFC.cool Tools and Business Card, I ship a handful of smaller apps: QR scanning, 3D scanning, flight tracking, e-bike monitoring, and more. All built by the founder of NFC.cool."
 ---
 
 <section class="page-hero">
@@ -10,7 +10,7 @@ description: "Beyond NFC.cool Tools and Business Card, I ship a handful of small
 
 <div class="page-hero-text">
 
-# More Apps From the Same Keyboard
+# More Apps From NFC.cool
 
 NFC.cool Tools and the Business Card app are the main act, but they are not the only thing I ship. This is the rest of the lineup: smaller, focused apps I built because I wanted them to exist - and kept polishing because people started using them.
 

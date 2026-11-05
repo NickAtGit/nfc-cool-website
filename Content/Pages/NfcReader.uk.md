@@ -36,7 +36,7 @@ image: "/assets/images/og-landing.webp"
 <p class="nfc-reader-title">Зчитати NFC-мітку</p>
 <p class="nfc-reader-lead">Натисни кнопку і піднеси мітку до верхнього краю телефона. Я покажу, що на ній записано.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Зчитати NFC</span></button>
-<p class="nfc-reader-fineprint">Хочеться нативного NFC і ширших можливостей? <a href="/features/nfc-reader-writer/">Завантаж застосунок NFC.cool!</a></p>
+<p class="nfc-reader-fineprint">Хочеться нативного NFC і ширших можливостей? <a href="/uk/features/nfc-reader-writer/">Завантаж застосунок NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -110,7 +110,7 @@ image: "/assets/images/og-landing.webp"
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Записати на мітку</span></button>
-<p class="nfc-reader-fineprint">Хочеться нативного NFC і ширших можливостей? <a href="/features/nfc-reader-writer/">Завантаж застосунок NFC.cool!</a></p>
+<p class="nfc-reader-fineprint">Хочеться нативного NFC і ширших можливостей? <a href="/uk/features/nfc-reader-writer/">Завантаж застосунок NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -253,19 +253,19 @@ image: "/assets/images/og-landing.webp"
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
 <h3>Шифрування секретів у NFC Safe</h3>
-<p>NFC Safe шифрує секрет просто на чипі за AES-256, тож для всього, крім застосунку, мітка виглядає як набір випадкових байтів. <a href="/blog/nfc-safe-encrypted-secrets/">Як влаштований NFC Safe</a>.</p>
+<p>NFC Safe шифрує секрет просто на чипі за AES-256, тож для всього, крім застосунку, мітка виглядає як набір випадкових байтів. <a href="/uk/blog/nfc-safe-encrypted-secrets/">Як влаштований NFC Safe</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
 <h3>Автоматизація одного дотику</h3>
-<p>Мітка вміє надіслати вебхук, запустити Швидку команду iOS, озвучити свій вміст або порахувати, скільки разів її зчитали. <a href="/blog/count-nfc-tag-scans/">Як рахувати дотики до NFC-мітки</a>.</p>
+<p>Мітка вміє надіслати вебхук, запустити Швидку команду iOS, озвучити свій вміст або порахувати, скільки разів її зчитали. <a href="/uk/blog/count-nfc-tag-scans/">Як рахувати дотики до NFC-мітки</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
 <h3>Копіювання, скидання і розбір міток</h3>
-<p>Скопіюй мітку, вивантаж і розпізнай сиру пам'ять чипа або перепрограмуй техніку, закриту через NFC: <a href="/blog/openprinttag-read-write-nfc-spools-phone/">котушки з філаментом для 3D-принтера</a> та <a href="/blog/reset-sonicare-brush-head-nfc/">насадки електричних зубних щіток</a>.</p>
+<p>Скопіюй мітку, вивантаж і розпізнай сиру пам'ять чипа або перепрограмуй техніку, закриту через NFC: <a href="/uk/blog/openprinttag-read-write-nfc-spools-phone/">котушки з філаментом для 3D-принтера</a> та <a href="/uk/blog/reset-sonicare-brush-head-nfc/">насадки електричних зубних щіток</a>.</p>
 </article>
 
 </div>
@@ -302,7 +302,7 @@ Apple закриває NFC для всіх браузерів на iOS, тому
 
 <details class="faq-item">
 <summary>Чи можна записати на мітку мережу Wi-Fi або контактну картку?</summary>
-<p>Так. У списку на вкладці запису вибери «Мережа Wi-Fi» або «Контактна картка» і заповни поля. Мітка з мережею пропонує телефонам на Android приєднатися до неї, а мітка з контактом несе звичайну vCard, яку телефон одразу пропонує зберегти.</p>
+<p>Так. У списку на вкладці запису вибери «Мережа Wi-Fi» або «Контактна картка» і заповни поля. Мітка з мережею пропонує телефонам на Android приєднатися до неї, а мітка з контактом несе звичайну vCard, яку телефони на Android пропонують зберегти. Хочеш картку, яку можна оновлювати й після запису? <a href="/uk/business-card/">NFC.cool Business Card</a> записує на мітку посилання, тож дані можна правити пізніше.</p>
 </details>
 
 <details class="faq-item">
@@ -331,8 +331,8 @@ Apple закриває NFC для всіх браузерів на iOS, тому
 Ця сторінка закриває основне просто в браузері. Безкоштовний застосунок NFC.cool іде далі: зчитує будь-яку мітку і записує понад 25 типів даних, серед них посилання, Wi-Fi, контакти та Швидкі команди, і на iPhone, і на Android. Я роблю й підтримую його сам.
 
 <div class="tap-cta-buttons">
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Більше про читання і запис NFC</a>
-<a href="/blog/nfc-tags-beginners-guide/" class="landing-cta-button">Уперше маєш справу з мітками? Почни звідси</a>
+<a href="/uk/features/nfc-reader-writer/" class="landing-cta-button">Більше про читання і запис NFC</a>
+<a href="/uk/blog/nfc-tags-beginners-guide/" class="landing-cta-button">Уперше маєш справу з мітками? Почни звідси</a>
 </div>
 
 </section>

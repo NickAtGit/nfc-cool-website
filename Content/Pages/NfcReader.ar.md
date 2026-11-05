@@ -36,7 +36,7 @@ image: "/assets/images/og-landing.webp"
 <p class="nfc-reader-title">اقرأ وسم NFC</p>
 <p class="nfc-reader-lead">المس الزر، ثم قرّب وسمًا من أعلى هاتفك. سأعرض لك ما عليه.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>اقرأ NFC</span></button>
-<p class="nfc-reader-fineprint">هل تريد تجربة NFC أصيلة بوظائف NFC أكثر؟ <a href="/features/nfc-reader-writer/">احصل على تطبيق NFC.cool!</a></p>
+<p class="nfc-reader-fineprint">هل تريد تجربة NFC أصيلة بوظائف NFC أكثر؟ <a href="/ar/features/nfc-reader-writer/">احصل على تطبيق NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -110,7 +110,7 @@ image: "/assets/images/og-landing.webp"
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>اكتب على الوسم</span></button>
-<p class="nfc-reader-fineprint">هل تريد تجربة NFC أصيلة بوظائف NFC أكثر؟ <a href="/features/nfc-reader-writer/">احصل على تطبيق NFC.cool!</a></p>
+<p class="nfc-reader-fineprint">هل تريد تجربة NFC أصيلة بوظائف NFC أكثر؟ <a href="/ar/features/nfc-reader-writer/">احصل على تطبيق NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -132,19 +132,19 @@ image: "/assets/images/og-landing.webp"
 <span class="nfc-reader-badge is-muted">iPhone</span>
 <p class="nfc-reader-title">قراءة NFC عبر المتصفّح غير متوفّرة على iPhone</p>
 <p class="nfc-reader-lead">لا تسمح Apple لأيّ متصفّح بالوصول إلى شريحة NFC. لذلك صنعتُ تطبيق NFC.cool المجاني لقراءة الوسوم والكتابة عليها على iPhone بدلًا من ذلك.</p>
-<div class="landing-store-buttons"><a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-en&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/AppStore.svg" alt="نزّل NFC.cool من App Store" width="156" height="52"/></a></div>
+<div class="landing-store-buttons"><a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-ar&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/AppStore.svg" alt="نزّل NFC.cool من App Store" width="156" height="52"/></a></div>
 </div>
 <div class="nfc-reader-panel" data-panel="android-other">
 <span class="nfc-reader-badge is-muted">افتحها في Chrome</span>
 <p class="nfc-reader-title">انتقل إلى Chrome للمسح هنا</p>
 <p class="nfc-reader-lead">أنت على Android، لذا تعمل القراءة والكتابة داخل المتصفّح - لكنها تحتاج Chrome فقط. افتح هذه الصفحة في Chrome ليعمل القارئ.</p>
-<div class="landing-store-buttons"><a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-en" class="landing-store-button is-google" aria-label="احصل عليه من Google Play" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/GooglePlay.svg" alt="احصل على NFC.cool من Google Play" width="173" height="52"/></a></div>
+<div class="landing-store-buttons"><a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-ar" class="landing-store-button is-google" aria-label="احصل عليه من Google Play" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/GooglePlay.svg" alt="احصل على NFC.cool من Google Play" width="173" height="52"/></a></div>
 </div>
 <div class="nfc-reader-panel" data-panel="desktop">
 <span class="nfc-reader-badge is-muted">Android + Chrome فقط</span>
 <img class="nfc-reader-qr" src="/assets/images/nfc-reader-qr.svg" alt="رمز QR يفتح هذه الصفحة على هاتفك" width="188" height="188"/>
 <p class="nfc-reader-lead">امسح هذا بهاتف Android لفتح القارئ عليه. يحتاج NFC داخل المتصفّح إلى Chrome على Android.</p>
-<p class="nfc-reader-fineprint">على iPhone؟ <a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-en&mt=8" target="_blank" rel="noopener nofollow sponsored">احصل على تطبيق NFC.cool</a>.</p>
+<p class="nfc-reader-fineprint">على iPhone؟ <a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ar&mt=8" target="_blank" rel="noopener nofollow sponsored">احصل على تطبيق NFC.cool</a>.</p>
 </div>
 </div>
 </div>
@@ -164,10 +164,10 @@ image: "/assets/images/og-landing.webp"
 يقرأ التطبيق الكامل أيّ وسم NFC ويكتب عليه على iPhone وAndroid.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-hero-ios-en&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-hero-ios-ar&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="نزّل NFC.cool من App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-hero-android-en" class="landing-store-button is-google" aria-label="احصل عليه من Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-hero-android-ar" class="landing-store-button is-google" aria-label="احصل عليه من Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="احصل على NFC.cool من Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -253,19 +253,19 @@ image: "/assets/images/og-landing.webp"
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
 <h3>شفّر الأسرار باستخدام NFC Safe</h3>
-<p>يشفّر NFC Safe سرًا على الشريحة نفسها باستخدام AES-256، فيُقرأ الوسم كبيانات مشوّشة لأيّ شيء غير التطبيق. <a href="/blog/nfc-safe-encrypted-secrets/">كيف يعمل NFC Safe</a>.</p>
+<p>يشفّر NFC Safe سرًا على الشريحة نفسها باستخدام AES-256، فيُقرأ الوسم كبيانات مشوّشة لأيّ شيء غير التطبيق. <a href="/ar/blog/nfc-safe-encrypted-secrets/">كيف يعمل NFC Safe</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
 <h3>أتمِت ما تفعله اللمسة</h3>
-<p>يمكن لوسم أن يُطلق الـwebhook، أو يشغّل اختصار iOS، أو ينطق محتواه بصوت مسموع، أو يعدّ عدد مرات مسحه. <a href="/blog/count-nfc-tag-scans/">كيفية عدّ عمليات مسح وسوم NFC</a>.</p>
+<p>يمكن لوسم أن يُطلق الـwebhook، أو يشغّل اختصار iOS، أو ينطق محتواه بصوت مسموع، أو يعدّ عدد مرات مسحه. <a href="/ar/blog/count-nfc-tag-scans/">كيفية عدّ عمليات مسح وسوم NFC</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
 <h3>استنساخ الوسوم وإعادة تعيينها وفحصها</h3>
-<p>استنسخ وسمًا، أو استخرج ذاكرة شريحته الخام وتعرّف عليها، أو أعد برمجة العتاد المحمي بـNFC مثل <a href="/blog/openprinttag-read-write-nfc-spools-phone/">بكرات خيوط الطابعات ثلاثية الأبعاد</a> و<a href="/blog/reset-sonicare-brush-head-nfc/">رؤوس فرشاة الأسنان الكهربائية</a>.</p>
+<p>استنسخ وسمًا، أو استخرج ذاكرة شريحته الخام وتعرّف عليها، أو أعد برمجة العتاد المحمي بـNFC مثل <a href="/ar/blog/openprinttag-read-write-nfc-spools-phone/">بكرات خيوط الطابعات ثلاثية الأبعاد</a> و<a href="/ar/blog/reset-sonicare-brush-head-nfc/">رؤوس فرشاة الأسنان الكهربائية</a>.</p>
 </article>
 
 </div>
@@ -279,10 +279,10 @@ image: "/assets/images/og-landing.webp"
 تحجب Apple تقنية NFC في كل متصفّح على iOS، لذا لا يمكن لأيّ موقع إلكتروني قراءة الوسوم أو الكتابة عليها على iPhone أو iPad. أما تطبيق NFC.cool فيفعل ذلك بشكل أصيل، وبكفاءة مماثلة لما هو عليه على Android.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-en&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-ar&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="نزّل NFC.cool من App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-en" class="landing-store-button is-google" aria-label="احصل عليه من Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-ar" class="landing-store-button is-google" aria-label="احصل عليه من Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="احصل على NFC.cool من Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -302,7 +302,7 @@ image: "/assets/images/og-landing.webp"
 
 <details class="faq-item">
 <summary>هل يمكنني كتابة شبكة Wi-Fi أو بطاقة جهة اتصال على وسم؟</summary>
-<p>نعم. اختر شبكة Wi-Fi أو بطاقة جهة اتصال من قائمة الكتابة المنسدلة واملأ الحقول. يدعو وسم Wi-Fi هواتف Android للانضمام إلى الشبكة؛ أما وسم جهة الاتصال فيخزّن vCard قياسية تعرض الهواتف حفظها.</p>
+<p>نعم. اختر شبكة Wi-Fi أو بطاقة جهة اتصال من قائمة الكتابة المنسدلة واملأ الحقول. يدعو وسم Wi-Fi هواتف Android للانضمام إلى الشبكة؛ أما وسم جهة الاتصال فيخزّن vCard قياسية تعرض هواتف Android حفظها. هل تريد بطاقة يمكنك تحديثها بعد كتابتها؟ يضع <a href="/ar/business-card/">NFC.cool Business Card</a> رابطًا على الوسم، فتتمكن من تعديل بياناتك لاحقًا.</p>
 </details>
 
 <details class="faq-item">
@@ -331,8 +331,8 @@ image: "/assets/images/og-landing.webp"
 تغطّي هذه الصفحة الأساسيات في المتصفّح. أما تطبيق NFC.cool المجاني فيمضي أبعد - إذ يقرأ أيّ وسم ويكتب أكثر من ٢٥ نوعًا من البيانات: روابط وWi-Fi وجهات اتصال واختصارات وأكثر، على iPhone وAndroid معًا. أبنيه وأعتني به بنفسي.
 
 <div class="tap-cta-buttons">
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">تعرّف على قارئ وكاتب NFC</a>
-<a href="/blog/nfc-tags-beginners-guide/" class="landing-cta-button">جديد على وسوم NFC؟ ابدأ من هنا</a>
+<a href="/ar/features/nfc-reader-writer/" class="landing-cta-button">تعرّف على قارئ وكاتب NFC</a>
+<a href="/ar/blog/nfc-tags-beginners-guide/" class="landing-cta-button">جديد على وسوم NFC؟ ابدأ من هنا</a>
 </div>
 
 </section>

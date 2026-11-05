@@ -88,7 +88,7 @@ Uygulama içinde **Daha fazla sekmesi → Webhook** yolundan aç: tek bir HTTPS 
 
 Uygulama, ayarladığın adrese tarama başına tek bir `POST` gönderir. Ayrı bir yeniden deneme kuyruğu yok: uç noktana ulaşılamıyorsa ya da 2xx dışında yanıt dönüyorsa tarama POST'u başarısız olur. Başarıda `204 No Content` dönmeyi hedefle; herhangi bir 2xx kabul sayılır.
 
-Bu sayfa teknik başvuru kaynağı. Özelliğin genel tanıtımı için (diğer dört iOS otomasyon kancası, fiyatlandırma ve sık sorulanlar) [Webhook ve Otomasyon özellik sayfasına](/features/webhooks/) bak.
+Bu sayfa teknik başvuru kaynağı. Özelliğin genel tanıtımı için (diğer dört iOS otomasyon kancası, fiyatlandırma ve sık sorulanlar) [Webhook ve Otomasyon özellik sayfasına](/tr/features/webhooks/) bak.
 
 </section>
 

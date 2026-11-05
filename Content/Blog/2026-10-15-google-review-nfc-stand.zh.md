@@ -8,7 +8,7 @@ image: "/assets/images/Blog/google-review-nfc-stand.webp"
 imageAlt: "咖啡馆桌上的一个透明亚克力立牌，卡片上印着五颗金色星星、NFC 标志和二维码，旁边的 iPhone 显示着五星评论页面"
 author: "Nicolo Stanciu"
 metaTitle: "为你的店自制 Google 评论 NFC 立牌"
-metaDescription: "Google 评论立牌其实就是一枚 NFC 标签加一个二维码。教你自己动手做一个，把菜单、社交账号和评论链接放到每张桌上。"
+metaDescription: "Google 评论立牌其实就是一枚 NFC 标签加一个二维码。我来教你自己动手做一个：生成评论链接、写入标签、打印并测试，再用 NFC.cool Business Card 把菜单、社交账号和评论链接放到每张桌上。"
 ogTitle: "自己动手做 Google 评论立牌"
 ogDescription: "一枚 NFC 标签、一个二维码、一个亚克力台卡。我是怎么把一家酒吧的菜单、社交账号和 Google 评论链接放到每张桌上的。"
 ---
@@ -23,7 +23,7 @@ ogDescription: "一枚 NFC 标签、一个二维码、一个亚克力台卡。�
 
 ## Google 评论立牌里到底有什么
 
-这类立牌里的 NFC 标签，就是那种[五十个一包就能买到](/affiliate-links/)的便宜贴纸，有人往里面写了一个网页链接而已。旁边的二维码还是同一个链接，只不过印成了一格一格的小方块，留给手机不支持 NFC 或者关掉了 NFC 的人。
+这类立牌里的 NFC 标签，就是那种[五十个一包就能买到](/zh/affiliate-links/)的便宜贴纸，有人往里面写了一个网页链接而已。旁边的二维码还是同一个链接，只不过印成了一格一格的小方块，留给手机不支持 NFC 或者关掉了 NFC 的人。
 
 真正有意思的是这个链接本身。Google 有一种网址，能把客人直接带到某一家商家的评论表单，靠的是这家商家的 **Place ID**。Google 地图上的每家商家都有一个。如果你的店还不在 Google 地图上，Google 有说明教你[创建商家资料](https://support.google.com/business/answer/2911778?hl=zh-Hans)。把这个链接写进标签，从客人心想“今晚真不错”到真正写下一条评论，中间就只隔着碰一下立牌。
 
@@ -51,7 +51,7 @@ ogDescription: "一枚 NFC 标签、一个二维码、一个亚克力台卡。�
 
 [Piano Negro](https://mycard.nfc.cool/PianoNegro/Piano-Negro) 是葡萄牙 Coimbra 的一家酒吧，1993 年就开业了。我帮老板布置立牌的时候，桌上放的并不只是一个评论链接。刚在桌边坐下的人，还想不到评论这回事。他们想先看看菜单上有什么。
 
-所以 Piano Negro 的每张桌上都有一个立牌，里面放的是这家酒吧的 [**NFC.cool Business Card**](/business-card/)。把手机靠上去，或者扫一下二维码，名片就会打开。客人可能想要的东西都在上面，每样点一下就到：
+所以 Piano Negro 的每张桌上都有一个立牌，里面放的是这家酒吧的 [**NFC.cool Business Card**](/zh/business-card/)。把手机靠上去，或者扫一下二维码，名片就会打开。客人可能想要的东西都在上面，每样点一下就到：
 
 - 菜单，葡萄牙语和英语各一份
 - WhatsApp
@@ -70,10 +70,10 @@ ogDescription: "一枚 NFC 标签、一个二维码、一个亚克力台卡。�
 
 要准备的东西少得出奇：
 
-- **NFC 标签**。一张普通的 NTAG213 贴纸就够了，这篇文章里的链接放进去还绰绰有余。如果你拿不准该选哪种标签，我写的 [iPhone 适用的 NFC 标签指南](/blog/nfc-tag-types-for-iphones/)讲清楚了它们的区别。
+- **NFC 标签**。一张普通的 NTAG213 贴纸就够了，这篇文章里的链接放进去还绰绰有余。如果你拿不准该选哪种标签，我写的 [iPhone 适用的 NFC 标签指南](/zh/blog/nfc-tag-types-for-iphones/)讲清楚了它们的区别。
 - **透明亚克力台卡**，就是能把印好的卡片插进去的那种。它们一般当作菜单架或桌牌架来卖，一个只要几欧元。
 - **一台彩色打印机**。
-- [**NFC.cool Business Card**](/business-card/)，用来做桌上的立牌。
+- [**NFC.cool Business Card**](/zh/business-card/)，用来做桌上的立牌。
 - **NFC.cool Tools**，用来生成评论链接，以及给标签加密码，有 [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-google-review-nfc-stand-zh&mt=8) 版和 [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-google-review-nfc-stand-zh) 版。
 
 ---
@@ -135,7 +135,7 @@ Piano Negro 只用了桌上的立牌。如果让我从零开始布置一家店�
 
 ### 第 2 步：写入标签
 
-保存链接，然后把手机靠近 NFC 贴纸，把链接写进去。如果你从没写过标签，可以看看[如何用 iPhone 写入 NFC 标签](/blog/write-nfc-tags-iphone/)，我在那篇文章里一步步讲过。
+保存链接，然后把手机靠近 NFC 贴纸，把链接写进去。如果你从没写过标签，可以看看[如何用 iPhone 写入 NFC 标签](/zh/blog/write-nfc-tags-iphone/)，我在那篇文章里一步步讲过。
 
 ### 第 3 步：制作二维码
 

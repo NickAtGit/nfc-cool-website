@@ -86,7 +86,7 @@ Práctico para consultar rápidamente el código de barras de un producto mientr
 
 Creo en ser transparente sobre las limitaciones, no en ocultarlas.
 
-**El escaneo NFC** no tiene compatibilidad *integrada* en Mac, porque ningún Mac tiene una radio NFC. Antes, ahí acababa la historia. Ya no: con un lector USB externo ahora puedes leer y escribir etiquetas NFC directamente desde un Mac o un iPad. Expliqué cómo funciona en [Lectura de etiquetas NFC en iPad y Mac](/blog/nfc-reading-ipad-mac/).
+**El escaneo NFC** no tiene compatibilidad *integrada* en Mac, porque ningún Mac tiene una radio NFC. Antes, ahí acababa la historia. Ya no: con un lector USB externo ahora puedes leer y escribir etiquetas NFC directamente desde un Mac o un iPad. Expliqué cómo funciona en [Lectura de etiquetas NFC en iPad y Mac](/es/blog/nfc-reading-ipad-mac/).
 
 **El escaneo de documentos** tampoco funciona - la cámara del Mac no tiene el sistema de enfoque automático y detección de bordes que hace que el escaneo de documentos funcione en iPhone y iPad.
 

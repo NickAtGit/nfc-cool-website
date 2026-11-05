@@ -33,7 +33,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Structure de la charge utile"
-    body: "<p>Chaque POST envoie un corps JSON de cette forme :</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p><code>tagType</code> et <code>structured</code> n'apparaissent que pour les formats spéciaux comme <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a> ; tous les autres scans n'envoient que les trois premiers champs. La <a href=\"/developers/\">référence développeur</a> contient le détail champ par champ, l'authentification, curl et des serveurs d'exemple prêts à l'emploi.</p>"
+    body: "<p>Chaque POST envoie un corps JSON de cette forme :</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p><code>tagType</code> et <code>structured</code> n'apparaissent que pour les formats spéciaux comme <a href=\"/fr/features/nfc-reader-writer/\">OpenPrintTag</a> ; tous les autres scans n'envoient que les trois premiers champs. La <a href=\"/fr/developers/\">référence développeur</a> contient le détail champ par champ, l'authentification, curl et des serveurs d'exemple prêts à l'emploi.</p>"
     platforms: "iOS · Android"
 
   - title: "Serveur de référence sur GitHub"

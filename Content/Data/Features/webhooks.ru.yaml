@@ -33,7 +33,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Что уходит в теле запроса"
-    body: "<p>Каждый POST отправляет тело JSON такого вида:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p>Поля <code>tagType</code> и <code>structured</code> появляются только у особых форматов вроде <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a>, а любое другое сканирование отправляет только первые три поля. В <a href=\"/developers/\">справочнике для разработчиков</a> разобрано каждое поле, авторизация, примеры curl и готовые к запуску серверы.</p>"
+    body: "<p>Каждый POST отправляет тело JSON такого вида:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p>Поля <code>tagType</code> и <code>structured</code> появляются только у особых форматов вроде <a href=\"/ru/features/nfc-reader-writer/\">OpenPrintTag</a>, а любое другое сканирование отправляет только первые три поля. В <a href=\"/ru/developers/\">справочнике для разработчиков</a> разобрано каждое поле, авторизация, примеры curl и готовые к запуску серверы.</p>"
     platforms: "iOS · Android"
 
   - title: "Пример сервера на GitHub"

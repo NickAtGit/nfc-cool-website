@@ -13,7 +13,7 @@ ogTitle: "NFC okutma sayacı verisini iOS Kısayolları ile çözümle"
 ogDescription: "NFC okutma sayacı için hazır iOS kısayolları: yeniden kullanılabilir bir çözümleyici ve bir tag uyarısı demosu."
 ---
 
-Bir hafta önce [NFC okutma sayacının nasıl çalıştığını anlatmıştım](/blog/count-nfc-tag-scans/): çip kendi okunmalarını sayıyor, uygulama yer tutucu baytlar gömüyor ve tag her okutmada taşıdığı içeriğe anlık sayıyı ve tag kimliğini yerleştiriyor. O yazı tag'in bittiği yerde, yani değerlerin telefonuna ulaştığı anda duruyor.
+Bir hafta önce [NFC okutma sayacının nasıl çalıştığını anlatmıştım](/tr/blog/count-nfc-tag-scans/): çip kendi okunmalarını sayıyor, uygulama yer tutucu baytlar gömüyor ve tag her okutmada taşıdığı içeriğe anlık sayıyı ve tag kimliğini yerleştiriyor. O yazı tag'in bittiği yerde, yani değerlerin telefonuna ulaştığı anda duruyor.
 
 O günden beri aldığım soru da bir sonraki bariz soru: "tamam, tag bana `049F50824F1390x000007` veriyor, şimdi ne olacak?" iPhone kullanıyorsan ve bu değerlere bir kısayolun içinde göre davranmak istiyorsan onları çözümlemen gerekiyor. Bu, küçük ama zahmetli bir metin işi ve bunu kendin yazmak zorunda kalmanı istemem.
 
@@ -34,12 +34,12 @@ Kısayollardan önce, tam olarak neyi aldıklarına dair kısa bir hatırlatma; 
 
 Okutma Sayacı kurulum ekranında tag için bir içerik türü seçiyorsun: URL, E-posta, SMS ya da Kısayol. Okutma Sayacı ve Tag Kimliği anahtarlarını açtığında uygulama o içeriğin içine yer tutucu baytlar gömüyor ve çip bunları her okumada anlık değerlerle değiştiriyor. Tag kimliği olarak `049F50824F1390`, sayı olarak `000007` alırsak dört içerik türü şöyle görünüyor:
 
-- **URL:** `https://nfc.cool/tap-counter/` şuna dönüşüyor: [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007)
+- **URL:** `https://nfc.cool/tap-counter/` şuna dönüşüyor: [`https://nfc.cool/tap-counter/?nfc=049F50824F1390x000007`](https://nfc.cool/tr/tap-counter/?nfc=049F50824F1390x000007)
 - **E-posta gövdesi:** `Merhaba, kartım burada.` şuna dönüşüyor: `Merhaba, kartım burada. 049F50824F1390x000007`
 - **SMS gövdesi:** `Sipariş onaylandı!` şuna dönüşüyor: `Sipariş onaylandı! 049F50824F1390x000007`
 - **Kısayol girdisi:** `log-entry` şuna dönüşüyor: `log-entry 049F50824F1390x000007`
 
-Yukarıdaki adres gerçek. [Canlı okutma sayacı deneme sayfamız](/tap-counter/) `?nfc=` değerini doğrudan kendi adres çubuğundan okuyacak biçimde ayarlandı; yani kendi otomasyonunu yazmadan önce değişimi görmek istiyorsan `https://nfc.cool/tap-counter/` adresine işaret eden bir tag'i iki anahtar da açıkken yaz, okut ve sayfa aldığı tag kimliğiyle sayıyı sana göstersin.
+Yukarıdaki adres gerçek. [Canlı okutma sayacı deneme sayfamız](/tr/tap-counter/) `?nfc=` değerini doğrudan kendi adres çubuğundan okuyacak biçimde ayarlandı; yani kendi otomasyonunu yazmadan önce değişimi görmek istiyorsan `https://nfc.cool/tap-counter/` adresine işaret eden bir tag'i iki anahtar da açıkken yaz, okut ve sayfa aldığı tag kimliğiyle sayıyı sana göstersin.
 
 İçerik türü **Kısayol** olduğunda NFC.cool, seçtiğin kısayolu `shortcuts://run-shortcut?name=Kısayolun&input=text&text=<içerik>` üzerinden çalıştırıyor ve eklenen NFC değerleri metnin içinde hazır geliyor. Kısayolunun girdisi düz bir metin dizesi. Tek işin tag kimliğiyle sayıyı oradan geri çıkarmak.
 
@@ -118,7 +118,7 @@ Artık tag'in kendi yazdığı, çalışan bir okutma günlüğün var. Arka uç
 
 - **Tag kimliğine göre dallan.** Tek kısayol, çok tag. Bilinen her tag kimliği için bir **Eğer** eylemi ekle: ofis kapısı tag'i okutulduysa bildirimleri sustur; stüdyo tag'i okutulduysa odak modunu aç; mutfak tag'i okutulduysa zamanlayıcı başlat. Tag kimliği içeriği değil fiziksel tag'i tanımlıyor, yani her tag'e aynı adresi verip yine de her birine ayrı tepki verebilirsin.
 - **N. okutmada kazanan seç.** `hasCount`'u bir karşılaştırmayla birleştir. `count` 100'e eşitse onay mesajı gönder; diğer tüm okumalarda normal işleyişi sürdür. Sırayı çip dayatıyor, kısayolun yalnızca okuyor.
-- **Webhook'a gönder.** iOS uygulaması yazmadan sunucu tarafında işlem istiyorsan bunu NFC.cool'un [webhook özelliğiyle](/features/webhooks/) eşleştir: çözümlenmiş değerleri JSON olarak gönder, gerisini sunucu alsın. İki iOS eylemi ve tag'in HTTP konuşan her şeye bağlanmış oluyor.
+- **Webhook'a gönder.** iOS uygulaması yazmadan sunucu tarafında işlem istiyorsan bunu NFC.cool'un [webhook özelliğiyle](/tr/features/webhooks/) eşleştir: çözümlenmiş değerleri JSON olarak gönder, gerisini sunucu alsın. İki iOS eylemi ve tag'in HTTP konuşan her şeye bağlanmış oluyor.
 - **Dosyaya ya da nota kaydet.** En yalını ve şaşırtıcı biçimde işe yarayanı. iCloud Drive'daki bir dosyaya ya da tek bir nota `zaman damgası, tagID, count` ekle; kaydırarak gezebileceğin ya da sonradan grafiğe dökebileceğin bir okutma günlüğün olsun. Altyapı kurmadan tek bir tag'de ilgi ölçmek için iyi.
 
 Bunlarla güzel bir şey kurarsan görmeyi gerçekten isterim.
@@ -139,6 +139,6 @@ Kısayollar bir Apple uygulaması, yani bu ikisi yalnızca iPhone'da çalışıy
 
 ## Dene
 
-Okutma Sayacı özelliğinin kapağın altında gerçekte nasıl çalıştığına dair daha derin açıklama [önceki yazıda](/blog/count-nfc-tag-scans/). Önce kendi otomasyonunu kurmadan sayaç açık bir tag'i iş başında görmek istersen [canlı okutma sayacı demosu](/tap-counter/) sayfamız `?nfc=` değerini doğrudan kendi adresinden okuyor: oraya işaret eden bir tag yaz, okut, sayının ve tag kimliğinin belirmesini izle.
+Okutma Sayacı özelliğinin kapağın altında gerçekte nasıl çalıştığına dair daha derin açıklama [önceki yazıda](/tr/blog/count-nfc-tag-scans/). Önce kendi otomasyonunu kurmadan sayaç açık bir tag'i iş başında görmek istersen [canlı okutma sayacı demosu](/tr/tap-counter/) sayfamız `?nfc=` değerini doğrudan kendi adresinden okuyor: oraya işaret eden bir tag yaz, okut, sayının ve tag kimliğinin belirmesini izle.
 
-NFC okutma sayacı özelliğinin kendisi NFC.cool Tools içinde, [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-tr&mt=8) ve [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-tr) sürümlerinde. NFC çevresinde kurduğum araçların tamamı için [NFC okuma ve yazma özelliğine](/features/nfc-reader-writer/) göz at.
+NFC okutma sayacı özelliğinin kendisi NFC.cool Tools içinde, [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-ios-shortcuts-nfc-tap-counter-tr&mt=8) ve [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-ios-shortcuts-nfc-tap-counter-tr) sürümlerinde. NFC çevresinde kurduğum araçların tamamı için [NFC okuma ve yazma özelliğine](/tr/features/nfc-reader-writer/) göz at.

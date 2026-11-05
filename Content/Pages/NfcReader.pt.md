@@ -36,7 +36,7 @@ Criei isto para que possa ler uma tag NFC diretamente do seu navegador - sem app
 <p class="nfc-reader-title">Ler uma tag NFC</p>
 <p class="nfc-reader-lead">Toque no botão e depois encoste uma tag ao topo do telemóvel. Vou mostrar-lhe o que tem.</p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-scan><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Ler NFC</span></button>
-<p class="nfc-reader-fineprint">Quer uma experiência NFC nativa com mais funções de NFC? <a href="/features/nfc-reader-writer/">Obtenha a app NFC.cool!</a></p>
+<p class="nfc-reader-fineprint">Quer uma experiência NFC nativa com mais funções de NFC? <a href="/pt/features/nfc-reader-writer/">Obtenha a app NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="scanning">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -110,7 +110,7 @@ Criei isto para que possa ler uma tag NFC diretamente do seu navegador - sem app
 </div>
 <p class="nfc-reader-input-error" data-nfc-input-error></p>
 <button type="button" class="landing-cta-button landing-cta-button--block" data-nfc-write><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg><span>Gravar na tag</span></button>
-<p class="nfc-reader-fineprint">Quer uma experiência NFC nativa com mais funções de NFC? <a href="/features/nfc-reader-writer/">Obtenha a app NFC.cool!</a></p>
+<p class="nfc-reader-fineprint">Quer uma experiência NFC nativa com mais funções de NFC? <a href="/pt/features/nfc-reader-writer/">Obtenha a app NFC.cool!</a></p>
 </div>
 <div class="nfc-reader-panel" data-panel="writing">
 <div class="nfc-reader-radar" aria-hidden="true"><span class="nfc-reader-radar-core"><svg class="nfc-reader-wave-icon" aria-hidden="true"><use href="#nfc-icon-wave"/></svg></span></div>
@@ -132,19 +132,19 @@ Criei isto para que possa ler uma tag NFC diretamente do seu navegador - sem app
 <span class="nfc-reader-badge is-muted">iPhone</span>
 <p class="nfc-reader-title">O NFC no navegador não está disponível no iPhone</p>
 <p class="nfc-reader-lead">A Apple não deixa nenhum navegador aceder ao chip NFC. Por isso fiz a app NFC.cool gratuita para ler e gravar tags no iPhone.</p>
-<div class="landing-store-buttons"><a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-en&mt=8" class="landing-store-button is-apple" aria-label="Descarregar na App Store" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/AppStore.svg" alt="Descarregar a NFC.cool na App Store" width="156" height="52"/></a></div>
+<div class="landing-store-buttons"><a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-pt&mt=8" class="landing-store-button is-apple" aria-label="Descarregar na App Store" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/AppStore.svg" alt="Descarregar a NFC.cool na App Store" width="156" height="52"/></a></div>
 </div>
 <div class="nfc-reader-panel" data-panel="android-other">
 <span class="nfc-reader-badge is-muted">Abrir no Chrome</span>
 <p class="nfc-reader-title">Mude para o Chrome para ler aqui</p>
 <p class="nfc-reader-lead">Está no Android, por isso a leitura e a gravação no navegador funcionam - só precisam do Chrome. Abra esta página no Chrome e o leitor ativa-se.</p>
-<div class="landing-store-buttons"><a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-en" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/GooglePlay.svg" alt="Obter a NFC.cool no Google Play" width="173" height="52"/></a></div>
+<div class="landing-store-buttons"><a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-pt" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored"><img src="/assets/theme/images/GooglePlay.svg" alt="Obter a NFC.cool no Google Play" width="173" height="52"/></a></div>
 </div>
 <div class="nfc-reader-panel" data-panel="desktop">
 <span class="nfc-reader-badge is-muted">Apenas Android + Chrome</span>
 <img class="nfc-reader-qr" src="/assets/images/nfc-reader-qr.svg" alt="Código QR que abre esta página no seu telemóvel" width="188" height="188"/>
 <p class="nfc-reader-lead">Leia isto com um telemóvel Android para abrir o leitor aí. O NFC no navegador precisa do Chrome em Android.</p>
-<p class="nfc-reader-fineprint">Está num iPhone? <a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-en&mt=8" target="_blank" rel="noopener nofollow sponsored">Obtenha a app NFC.cool</a>.</p>
+<p class="nfc-reader-fineprint">Está num iPhone? <a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-pt&mt=8" target="_blank" rel="noopener nofollow sponsored">Obtenha a app NFC.cool</a>.</p>
 </div>
 </div>
 </div>
@@ -164,10 +164,10 @@ Criei isto para que possa ler uma tag NFC diretamente do seu navegador - sem app
 A app lê e escreve qualquer etiqueta NFC no iPhone e Android.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-hero-ios-en&mt=8" class="landing-store-button is-apple" aria-label="Descarregar na App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-hero-ios-pt&mt=8" class="landing-store-button is-apple" aria-label="Descarregar na App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Descarregar a NFC.cool na App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-hero-android-en" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-hero-android-pt" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Obter a NFC.cool no Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -253,19 +253,19 @@ O leitor desta página trata das tarefas do dia a dia - ler uma tag e gravar nel
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
 <h3>Encriptar segredos com o NFC Safe</h3>
-<p>O NFC Safe encripta um segredo no próprio chip com AES-256, por isso a tag lê-se como dados baralhados para tudo o que não seja a app. <a href="/blog/nfc-safe-encrypted-secrets/">Como funciona o NFC Safe</a>.</p>
+<p>O NFC Safe encripta um segredo no próprio chip com AES-256, por isso a tag lê-se como dados baralhados para tudo o que não seja a app. <a href="/pt/blog/nfc-safe-encrypted-secrets/">Como funciona o NFC Safe</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
 <h3>Automatizar o que um toque faz</h3>
-<p>Uma tag pode disparar um webhook, executar um Atalho do iOS, dizer o seu conteúdo em voz alta ou contar quantas vezes é lida. <a href="/blog/count-nfc-tag-scans/">Como contar leituras de tags NFC</a>.</p>
+<p>Uma tag pode disparar um webhook, executar um Atalho do iOS, dizer o seu conteúdo em voz alta ou contar quantas vezes é lida. <a href="/pt/blog/count-nfc-tag-scans/">Como contar leituras de tags NFC</a>.</p>
 </article>
 
 <article class="page-card nfc-feature-card">
 <span class="nfc-feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 7V4M14 7V4M10 20v-3M14 20v-3M7 10H4M7 14H4M20 10h-3M20 14h-3"/></svg></span>
 <h3>Clonar, repor e inspecionar tags</h3>
-<p>Clone uma tag, extraia e identifique a memória em bruto do seu chip, ou reprograme hardware protegido por NFC como <a href="/blog/openprinttag-read-write-nfc-spools-phone/">bobinas de filamento de impressoras 3D</a> e <a href="/blog/reset-sonicare-brush-head-nfc/">cabeças de escovas de dentes elétricas</a>.</p>
+<p>Clone uma tag, extraia e identifique a memória em bruto do seu chip, ou reprograme hardware protegido por NFC como <a href="/pt/blog/openprinttag-read-write-nfc-spools-phone/">bobinas de filamento de impressoras 3D</a> e <a href="/pt/blog/reset-sonicare-brush-head-nfc/">cabeças de escovas de dentes elétricas</a>.</p>
 </article>
 
 </div>
@@ -279,10 +279,10 @@ O leitor desta página trata das tarefas do dia a dia - ler uma tag e gravar nel
 A Apple bloqueia o NFC em todos os navegadores do iOS, por isso nenhum site consegue ler ou gravar tags num iPhone ou iPad. A app NFC.cool fá-lo de forma nativa, tão bem como no Android.
 
 <div class="landing-store-buttons">
-<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-en&mt=8" class="landing-store-button is-apple" aria-label="Descarregar na App Store" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=web-nfc-reader-ios-pt&mt=8" class="landing-store-button is-apple" aria-label="Descarregar na App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Descarregar a NFC.cool na App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-en" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-nfc-reader-android-pt" class="landing-store-button is-google" aria-label="Obter no Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Obter a NFC.cool no Google Play" width="173" height="52"/>
 </a>
 </div>
@@ -302,7 +302,7 @@ A Apple bloqueia o NFC em todos os navegadores do iOS, por isso nenhum site cons
 
 <details class="faq-item">
 <summary>Posso gravar uma rede Wi-Fi ou um cartão de visita numa tag?</summary>
-<p>Sim. Escolha rede Wi-Fi ou cartão de visita no menu suspenso Gravar e preencha os campos. Uma tag de Wi-Fi sugere aos telemóveis Android que se liguem à rede; uma tag de contacto guarda um vCard padrão que os telemóveis se oferecem para guardar.</p>
+<p>Sim. Escolha rede Wi-Fi ou cartão de visita no menu suspenso Gravar e preencha os campos. Uma tag de Wi-Fi sugere aos telemóveis Android que se liguem à rede; uma tag de contacto guarda um vCard padrão que os telemóveis Android se oferecem para guardar. Quer um cartão que possa atualizar depois de o gravar? O <a href="/pt/business-card/">NFC.cool Business Card</a> coloca uma ligação na tag, para que possa editar os seus dados mais tarde.</p>
 </details>
 
 <details class="faq-item">
@@ -331,8 +331,8 @@ A Apple bloqueia o NFC em todos os navegadores do iOS, por isso nenhum site cons
 Esta página cobre o essencial no navegador. A app NFC.cool gratuita vai mais longe - lê qualquer tag e grava mais de 25 tipos de dados: ligações, Wi-Fi, contactos, atalhos e muito mais, tanto no iPhone como no Android. Sou eu próprio que a crio e mantenho.
 
 <div class="tap-cta-buttons">
-<a href="/features/nfc-reader-writer/" class="landing-cta-button">Conheça o leitor e gravador NFC</a>
-<a href="/blog/nfc-tags-beginners-guide/" class="landing-cta-button">Novo nas tags NFC? Comece aqui</a>
+<a href="/pt/features/nfc-reader-writer/" class="landing-cta-button">Conheça o leitor e gravador NFC</a>
+<a href="/pt/blog/nfc-tags-beginners-guide/" class="landing-cta-button">Novo nas tags NFC? Comece aqui</a>
 </div>
 
 </section>

@@ -23,7 +23,7 @@ Niente di tutto questo. È un normalissimo tag NFC con un codice QR stampato, ed
 
 ## Cosa c'è davvero dentro un espositore per le recensioni Google
 
-Il tag NFC di questi espositori è lo stesso adesivo economico che [si compra in confezioni da cinquanta](/affiliate-links/). Qualcuno ci ha scritto sopra un unico link. Il codice QR lì accanto è lo stesso link, stampato sotto forma di quadratini, per chi ha un telefono senza NFC o con l'NFC disattivato.
+Il tag NFC di questi espositori è lo stesso adesivo economico che [si compra in confezioni da cinquanta](/it/affiliate-links/). Qualcuno ci ha scritto sopra un unico link. Il codice QR lì accanto è lo stesso link, stampato sotto forma di quadratini, per chi ha un telefono senza NFC o con l'NFC disattivato.
 
 La parte interessante è il link. Google ha un indirizzo che porta il cliente dritto al modulo di recensione di una precisa attività, identificata dal suo **Place ID**. Ogni attività su Google Maps ne ha uno, e se la tua non c'è ancora, Google spiega come [creare un Profilo dell'attività](https://support.google.com/business/answer/2911778?hl=it). Scrivi quel link su un tag, e avvicinare il telefono all'espositore diventa la strada più breve tra un "che bella serata" e una recensione scritta.
 
@@ -51,7 +51,7 @@ Prima di metterti all'opera, ecco alcune cose che ho imparato a mie spese durant
 
 Il [Piano Negro](https://mycard.nfc.cool/PianoNegro/Piano-Negro) è un bar di Coimbra aperto dal 1993. Quando ho aiutato il proprietario a preparare gli espositori, sui tavoli non abbiamo messo solo un link per le recensioni. Chi si siede a un tavolo non sta ancora pensando alle recensioni. Vuole vedere cosa c'è nel menu.
 
-Così su ogni tavolo del Piano Negro c'è un espositore con il biglietto da visita del bar, fatto con **[NFC.cool Business Card](/business-card/)**. Avvicini il telefono, o scansioni il codice QR, e si apre il biglietto con tutto quello che un cliente può cercare, ogni voce a un tocco di distanza:
+Così su ogni tavolo del Piano Negro c'è un espositore con il biglietto da visita del bar, fatto con **[NFC.cool Business Card](/it/business-card/)**. Avvicini il telefono, o scansioni il codice QR, e si apre il biglietto con tutto quello che un cliente può cercare, ogni voce a un tocco di distanza:
 
 - il menu, in portoghese e in inglese
 - WhatsApp
@@ -70,10 +70,10 @@ L'altra cosa che mi piace di questa soluzione è che l'espositore non invecchia 
 
 La lista della spesa è piacevolmente corta:
 
-- **Tag NFC.** Un semplice adesivo NTAG213 basta e avanza, e i link di questo articolo ci stanno con spazio in abbondanza. Se hai dubbi sui tipi di tag, la mia [guida ai tag NFC per iPhone](/blog/nfc-tag-types-for-iphones/) spiega le differenze.
+- **Tag NFC.** Un semplice adesivo NTAG213 basta e avanza, e i link di questo articolo ci stanno con spazio in abbondanza. Se hai dubbi sui tipi di tag, la mia [guida ai tag NFC per iPhone](/it/blog/nfc-tag-types-for-iphones/) spiega le differenze.
 - **Espositori in plexiglass trasparente** in cui infilare un cartoncino stampato. Si vendono come portamenu o portacartelli da tavolo e costano pochi euro l'uno.
 - **Una stampante a colori.**
-- **[NFC.cool Business Card](/business-card/)** per gli espositori sui tavoli.
+- **[NFC.cool Business Card](/it/business-card/)** per gli espositori sui tavoli.
 - **NFC.cool Tools** per creare il link per le recensioni e proteggere i tag con una password, su [iPhone](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-google-review-nfc-stand-it&mt=8) e [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-google-review-nfc-stand-it).
 
 ---
@@ -135,7 +135,7 @@ Se l'attività non compare proprio, probabilmente non ha ancora un Profilo dell'
 
 ### Passo 2: scrivi il tag
 
-Salva il link e scrivilo sull'adesivo NFC avvicinandoci il telefono. Se non hai mai scritto un tag, ti spiego tutto passo per passo in [come scrivere i tag NFC con l'iPhone](/blog/write-nfc-tags-iphone/).
+Salva il link e scrivilo sull'adesivo NFC avvicinandoci il telefono. Se non hai mai scritto un tag, ti spiego tutto passo per passo in [come scrivere i tag NFC con l'iPhone](/it/blog/write-nfc-tags-iphone/).
 
 ### Passo 3: crea il codice QR
 

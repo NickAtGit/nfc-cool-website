@@ -5,7 +5,7 @@ date: 2024-02-16
 tags: ["qr-codes", "industry"]
 summary: "二维码不必都是难看的黑方块。借助 NFC.cool 的 QR Studio，你可以为它上色、加上 logo、在中间放一个表情符号，只要守住一条规则：对比度。"
 metaTitle: "设计有个性的二维码：NFC.cool QR Studio"
-metaDescription: "用颜色、logo、表情符号和形状定制二维码，又不影响扫描。一份务实的指南，教你设计出契合品牌的二维码。"
+metaDescription: "用颜色、logo、表情符号和形状定制二维码，又不影响扫描。这份务实的指南讲清对比度这条硬规则，以及背景、中间图案和印刷尺寸该怎么选，再告诉你如何用 NFC.cool 的 QR Studio 设计出契合品牌的二维码。"
 ogTitle: "设计有个性的二维码：在不影响扫描的前提下做定制"
 ogDescription: "用颜色、logo 和表情符号定制二维码，同时保持它可被扫描。"
 image: "/assets/images/Blog/flair-qr-codes.webp"
@@ -64,4 +64,4 @@ QR Studio 可导出最高 4096×4096 像素的清晰 PNG，所以你完全不用
 
 这正是 QR Studio 的初衷：做出好看又能扫的码，随时可以放进任何设计里。
 
-它已内置于 [iPhone 版 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-flair-qr-codes-en&mt=8) 和 [Android 版](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-flair-qr-codes-en)。
+它已内置于 [iPhone 版 NFC.cool Tools](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-flair-qr-codes-zh&mt=8) 和 [Android 版](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-flair-qr-codes-zh)。

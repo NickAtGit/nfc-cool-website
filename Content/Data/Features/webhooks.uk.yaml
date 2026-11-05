@@ -33,7 +33,7 @@ subsections:
     platforms: "iOS · Android"
 
   - title: "Що приходить у тілі запиту"
-    body: "<p>Кожен POST надсилає тіло JSON такого вигляду:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p>Поля <code>tagType</code> і <code>structured</code> приходять тільки з особливими форматами на кшталт <a href=\"/features/nfc-reader-writer/\">OpenPrintTag</a>, а будь-яке інше сканування надсилає лише три перші поля. У <a href=\"/developers/\">довіднику для розробників</a> розібрано кожне поле, авторизацію, приклади curl і готові до запуску сервери.</p>"
+    body: "<p>Кожен POST надсилає тіло JSON такого вигляду:</p><pre><code>{\n  \"identifier\": \"04:A2:7F:1B:5E:80:00\",\n  \"date\": \"2026-05-12T14:23:01Z\",\n  \"content\": \"Filament Spool #1234\",\n  \"tagType\": \"openPrintTag\",\n  \"structured\": {\n    \"material\": \"PLA\",\n    \"color\": \"#FF6F4C\",\n    \"manufacturer\": \"Prusament\",\n    \"uuid\": \"5e8a-7c1d-4f90\"\n  }\n}</code></pre><p>Поля <code>tagType</code> і <code>structured</code> приходять тільки з особливими форматами на кшталт <a href=\"/uk/features/nfc-reader-writer/\">OpenPrintTag</a>, а будь-яке інше сканування надсилає лише три перші поля. У <a href=\"/uk/developers/\">довіднику для розробників</a> розібрано кожне поле, авторизацію, приклади curl і готові до запуску сервери.</p>"
     platforms: "iOS · Android"
 
   - title: "Приклад сервера на GitHub"

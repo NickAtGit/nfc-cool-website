@@ -2,6 +2,7 @@
 id: nfc-blog-012
 title: "شارك بطاقة العمل الرقمية دون أن تُجبر أحدًا على تنزيل تطبيق"
 date: 2026-03-30
+lastModified: "2026-11-05"
 tags: ["business-cards", "networking", "iphone"]
 summary: "بطاقة العمل الرقمية يجب أن تعمل فورًا لمن يستقبلها، دون تنزيلات ودون أي عوائق. إليك كيف يحقق ذلك App Clips والملفات الشخصية الفورية على الويب."
 image: "/assets/images/Blog/share-digital-business-card-without-app-download.webp"
@@ -57,7 +58,7 @@ ogDescription: "كيف يتيح App Clips والملفات الشخصية على
 4. **حفظ بلمسة واحدة:** زر «حفظ جهة الاتصال» يقع أسفل الشاشة، تمامًا حيث يستقر الإبهام بشكل طبيعي. لمسة واحدة تحفظ كل شيء في تطبيق جهات الاتصال لديه
 5. **بلغته:** يدعم الـApp Clip ٣٥ لغة ويطابق تلقائيًا لغة جهاز المُستقبِل. ناوِل بطاقتك لشخص في طوكيو أو ساو باولو أو برلين، فيراها بلغته
 
-لا إنشاء حساب. لا رسائل تطالب بالتسجيل. لا إعلانات. لا روابط تتبُّع. فقط معلومات التواصل الخاصة بك، محفوظة في ثوانٍ.
+لا حساب لإنشائه. لا شيء للتسجيل فيه. لا إعلانات. لا روابط تتبُّع. فقط معلومات التواصل الخاصة بك، محفوظة في ثوانٍ.
 
 بعد الحفظ، يرى المُستقبِل دعوة لطيفة لإنشاء بطاقة عمل NFC.cool خاصة به. هذا كل شيء، دون إلحاح ودون تسجيل إجباري.
 
@@ -89,10 +90,10 @@ ogDescription: "كيف يتيح App Clips والملفات الشخصية على
 
 حين يستقبل شخص ما بطاقة عمل NFC.cool الخاصة بك:
 
-- **لا إعلانات:** صفحة الملف الشخصي لا تروّج لـNFC.cool ولا تعرض إعلانات من أطراف خارجية
+- **لا إعلانات:** لا تعرض صفحة الملف الشخصي إعلانات من أطراف خارجية. تحمل بطاقة Free سطرًا صغيرًا في الأسفل بعبارة «Made with NFC.cool»، ولا يظهر في الخطط المدفوعة
 - **لا عمليات إعادة توجيه للتتبُّع:** روابطك هي روابطك الفعلية، غير مُغلَّفة بروابط تحليلات
-- **لا استمالة:** لا يتلقى المُستقبِل رسائل بريد إلكتروني للمتابعة من NFC.cool تطلب منه التسجيل
-- **لا جمع للبيانات:** لا تُستخدم معلومات المُستقبِل لأغراض التسويق
+- **لا تسويق من NFC.cool:** لا يرسل NFC.cool رسائل تسويقية إلى من يشاهدون بطاقتك. وفي خطة Team، يمكن لفريقك إرسال رسائل متابعة إلى من يتركون بياناتهم عبر نموذج العملاء المحتملين لديك
+- **لا بيع للبيانات:** لا يبيع NFC.cool بياناتك ولا بيانات من يشاهدون بطاقتك
 
 هذا يهمّ أكثر مما يدركه معظم الناس. غالبًا ما تكون بطاقة عملك أول انطباع يكوّنه أحدهم عنك. فإذا كان لمس بطاقتك يقود إلى صفحة مزدحمة بإعلانات لافتة أو يرسل للمُستقبِل رسائل مزعجة في اليوم التالي، فهذا ينعكس عليك أنت، لا على التطبيق فحسب.
 
@@ -117,11 +118,11 @@ ogDescription: "كيف يتيح App Clips والملفات الشخصية على
 ## البداية
 
 **بصفتك صاحب البطاقة:**
-- نزّل NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-en&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-en))
+- نزّل NFC.cool Business Card ([App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-share-digital-business-card-without-app-download-ar&mt=8) / [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-share-digital-business-card-without-app-download-ar))
 - أنشئ بطاقتك بتفاصيلك وصورتك وروابط التواصل الاجتماعي
 - شاركها عبر وسم NFC أو رمز QR أو رابط مباشر
 
 **بصفتك المُستقبِل:**
 - لا شيء. هذا هو بيت القصيد.
 
-*يتوفر NFC.cool Business Card على iOS وAndroid. وظيفة App Clip ميزة خاصة بنظام iOS؛ أما مُستقبِلو Android فيحصلون على ملف شخصي فوري على الويب بدلًا من ذلك.*
+*يتوفر [NFC.cool Business Card](/ar/business-card/) على iOS وAndroid، وتعرض صفحته ما تشمله كل خطة. يحصل مُستقبِلو iPhone على App Clip أصلي، ويحصل مُستقبِلو Android على ملف شخصي فوري على الويب.*

@@ -2,6 +2,7 @@
 id: nfc-blog-004
 title: "Por qué la privacidad importa en tu tarjeta de visita digital"
 date: 2026-03-09
+lastModified: "2026-11-05"
 tags: ["business-cards", "privacy"]
 summary: "Tu tarjeta de visita digital contiene tu nombre, correo, número de teléfono y más - y aun así la mayoría de la gente nunca piensa adónde van esos datos realmente. Aquí tienes por qué la privacidad debería ser tu criterio número 1."
 image: "/assets/images/Blog/why-privacy-matters-digital-business-card.webp"
@@ -15,7 +16,7 @@ Piensa en lo que hay en tu tarjeta de visita. Tu nombre completo. Tu dirección 
 
 Ahora piensa en esto: cuando compartes una tarjeta de visita digital, no estás simplemente entregando a alguien un trozo de cartón. Le estás dando a una plataforma acceso a esos datos - *y* a datos sobre la persona con quien la compartes.
 
-La mayoría de las aplicaciones de tarjetas de visita digitales recopilan información sobre ambos lados del intercambio. Quién compartió, quién vio, cuándo, dónde, en qué dispositivo y durante cuánto tiempo. Algunas van más lejos de lo que esperarías.
+Una app de tarjeta de visita digital puede recopilar información sobre ambos lados del intercambio. Quién compartió, quién vio, cuándo, dónde, en qué dispositivo y durante cuánto tiempo.
 
 Esto no es un artículo alarmista. Las tarjetas de visita digitales son genuinamente mejores que el papel - para el networking, para el medioambiente, para mantener tu información actualizada. Pero no todas las plataformas tratan tus datos con el mismo cuidado, y la mayoría de la gente nunca se molesta en preguntar.
 
@@ -32,19 +33,19 @@ Este es el flujo típico cuando alguien acerca el móvil a tu tarjeta NFC o esca
 3. La plataforma registra la interacción - como mínimo, una marca de tiempo
 4. Dependiendo de la plataforma, también puede capturar: la dirección IP de quien la ve, el tipo de dispositivo, el navegador, la ubicación aproximada, el tiempo que pasó en tu tarjeta y en qué enlaces tocó
 
-Eso es el mínimo. Algunas plataformas hacen más.
+Eso es el mínimo. Una plataforma puede hacer más.
 
 ### Captación de destinatarios
 
-Varias plataformas de tarjetas de visita digitales - especialmente en sus planes gratuitos - hacen marketing a las personas que ven tu tarjeta. Es decir: alguien escanea tu código QR para obtener tu correo, y después *la plataforma* le envía correos promocionales invitándole a registrarse.
+Una plataforma de tarjetas de visita digitales puede hacer marketing a las personas que ven tu tarjeta. Es decir: alguien escanea tu código QR para obtener tu correo, y después *la plataforma* le envía correos promocionales invitándole a registrarse.
 
-Tú no pediste eso. La persona que vio tu tarjeta desde luego tampoco. Pero ocurre porque la plataforma necesita crecer, y tus contactos son leads gratuitos.
+Tú no pediste eso. La persona que vio tu tarjeta desde luego tampoco. Ocurre cuando una plataforma necesita crecer y ve a tus contactos como leads gratuitos.
 
-No todas las plataformas hacen esto. Pero las suficientes como para que valga la pena comprobarlo antes de registrarte.
+Vale la pena comprobarlo antes de registrarte.
 
 ### Grabación de conversaciones
 
-Puede que esta te sorprenda. Algunas plataformas ofrecen ahora funciones de toma de notas con IA que graban conversaciones en persona. El argumento es atractivo: conoces a alguien en una conferencia, pulsas grabar, y dejas que la IA capture los puntos clave automáticamente.
+Puede que esta te sorprenda. La toma de notas con IA puede grabar conversaciones en persona. El argumento es atractivo: conoces a alguien en una conferencia, pulsas grabar, y dejas que la IA capture los puntos clave automáticamente.
 
 El problema es el consentimiento. En muchas jurisdicciones - incluida la mayor parte de la UE bajo el RGPD y más de una docena de estados de EE. UU. con leyes de consentimiento bilateral - grabar una conversación sin el conocimiento o el consentimiento explícito de la otra persona es ilegal. Incluso donde es técnicamente legal, grabar en secreto una conversación de networking plantea serias cuestiones éticas.
 
@@ -52,7 +53,7 @@ La persona que acabas de conocer cree que está teniendo una charla amistosa. No
 
 ### Enriquecimiento de datos
 
-Algunas plataformas ofrecen "enriquecimiento de contactos con IA" - escaneas una tarjeta de visita o intercambias contactos, y la plataforma extrae automáticamente datos adicionales de fuentes públicas: perfiles de LinkedIn, información de la empresa, cuentas en redes sociales.
+El "enriquecimiento de contactos con IA" funciona así: escaneas una tarjeta de visita o intercambias contactos, y la plataforma extrae automáticamente datos adicionales de fuentes públicas: perfiles de LinkedIn, información de la empresa, cuentas en redes sociales.
 
 ¿Conveniente? Claro. Pero significa que la plataforma está construyendo un perfil de las personas que conoces, a menudo sin su conocimiento. Tus contactos no se inscribieron para esto. Compartieron su tarjeta de visita, no toda su huella digital.
 
@@ -69,7 +70,7 @@ Las respuestas honestas varían:
 - **Recolección de datos de destinatarios** - Tus contactos se convierten en leads para la propia plataforma.
 - **Agregación de datos** - Patrones de networking anonimizados (o no) vendidos a terceros.
 
-No todos los planes gratuitos tienen trampas ocultas. Algunas plataformas - como Wave Connect - ofrecen genuinamente planes gratuitos útiles sin captar a tus destinatarios. Otras usan lo "gratuito" como embudo para recopilar datos de contacto a escala.
+No todos los planes gratuitos tienen una trampa oculta, pero lo "gratuito" también puede ser un embudo para recopilar datos de contacto a escala.
 
 La regla general: si una plataforma ofrece funciones ilimitadas de forma gratuita y no tiene un modelo de negocio claro, tus datos *son* el modelo de negocio.
 
@@ -97,7 +98,7 @@ El RGPD te da el derecho a la portabilidad de los datos - deberías poder descar
 
 ### 5. ¿Puedes eliminar tu cuenta de verdad?
 
-No "desactivar". Eliminar. Con todos los datos asociados borrados de sus servidores. Algunas plataformas lo hacen sorprendentemente difícil, escondiendo esta opción detrás de tickets de soporte en lugar de ofrecer una opción de autoservicio.
+No "desactivar". Eliminar. Con todos los datos asociados borrados de sus servidores, mediante una opción de autoservicio y no con un ticket de soporte.
 
 ### 6. ¿Tiene controles de acceso?
 
@@ -105,7 +106,7 @@ No "desactivar". Eliminar. Con todos los datos asociados borrados de sus servido
 
 ### 7. ¿Graba audio?
 
-Esto es más reciente, pero cada vez más común en el espacio de captación de leads. Si una plataforma ofrece grabación de conversaciones o toma de notas con IA, entiende las implicaciones legales antes de usarla. En la UE, grabar conversaciones sin el consentimiento de todas las partes viola el RGPD. En EE. UU., las leyes varían según el estado.
+Si una plataforma ofrece grabación de conversaciones o toma de notas con IA, entiende las implicaciones legales antes de usarla. En la UE, grabar conversaciones sin el consentimiento de todas las partes viola el RGPD. En EE. UU., las leyes varían según el estado.
 
 ---
 
@@ -142,7 +143,7 @@ Hay que ser transparente: este es el blog de NFC.cool, así que voy a hablar de 
 </ol>
 </figure>
 
-Cuando construí [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8), la privacidad no fue una reflexión a posteriori ni una casilla de marketing que marcar. Moldeó el producto:
+Cuando construí [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-es&mt=8), la privacidad no fue una reflexión a posteriori ni una casilla de marketing que marcar. Moldeó el producto:
 
 **Perfiles protegidos por PIN** - Puedes bloquear tu tarjeta de visita con un PIN de 4 dígitos con intentos limitados. Comparte la URL de tu tarjeta libremente, pero solo deja que la gente vea tus datos cuando tú quieras. Esto es útil para tarjetas NFC que puedas perder, o cuando quieres controlar quién ve tu información de contacto completa.
 
@@ -150,17 +151,17 @@ Cuando construí [NFC.cool Business Card](https://apps.apple.com/app/apple-store
 
 **Sin grabación de conversaciones** - No grabo audio. Punto. Creo que el networking debe construirse sobre la confianza, no sobre la vigilancia.
 
-**Sin captación de destinatarios** - Cuando alguien ve tu tarjeta, ve tu tarjeta. No recibe correos de marketing de mi parte. Tus contactos son tuyos, no mis leads.
+**Sin captación de destinatarios** - Cuando alguien ve tu tarjeta, ve tu tarjeta. No recibe correos de marketing de mi parte. Tus contactos son tuyos, no mis leads. En el plan Team, tu equipo puede enviar correos de seguimiento a quienes dejen sus datos en tu formulario de leads.
 
-**Sin monetización de datos ni publicidad** - Tu vCard y los datos de tu cuenta se almacenan en mi servidor para dar el servicio, pero nada se usa para publicidad ni para tratamiento de datos por terceros.
+**No vendo tus datos** - Tu vCard y los datos de tu cuenta se almacenan en mi servidor para dar el servicio. NFC.cool no vende tus datos, y la app Business Card no tiene anuncios.
 
-**Exportación de datos RGPD** - Descarga todo, contactos incluidos, como ZIP en cualquier momento, tanto en iPhone como en Android. Sin tickets de soporte, sin periodos de espera.
+**Exportación de datos RGPD** - Descarga todo, contactos incluidos, en un ZIP cuando quieras. La opción de exportar tus datos está en la app, en iPhone y Android, y en la web. Sin tickets de soporte.
 
-**Libertad de hardware NFC** - Funciona con cualquier etiqueta NFC estándar. NFC.cool no vende hardware NFC - eres libre de usar cualquier etiqueta de terceros que elijas, sin rastreo propietario que no puedas auditar.
+**Libertad de hardware NFC** - Funciona con cualquier etiqueta NFC estándar, así que eres libre de usar la etiqueta que quieras, sin rastreo propietario que no puedas auditar.
 
-**Desarrollador indie europeo** - Soy un desarrollador en solitario con base en Portugal. No tengo inversores de capital riesgo presionándome para monetizar los datos de los usuarios en busca de métricas de crecimiento. Mi incentivo es construir un producto en el que la gente confíe, no maximizar la recopilación de datos.
+**Sin capital riesgo** - NFC.cool tiene su base en Portugal, y ningún inversor de capital riesgo me presiona para monetizar los datos de los usuarios en busca de métricas de crecimiento. Mi incentivo es construir un producto en el que la gente confíe, no maximizar la recopilación de datos. Cuando tienes una pregunta, te contesto yo, el fundador.
 
-No soy perfecto. Aún no hay integraciones con CRM ni webhooks - tienes una exportación completa de tus datos para sacar los contactos. El App Clip y los pases de Apple Wallet son exclusivos de iPhone, así que en Android los destinatarios abren tu tarjeta en el navegador. Mi presupuesto de marketing es una fracción del de los grandes. Pero mi modelo de privacidad es algo en lo que genuinamente creo, y pienso que importa.
+Además, tus contactos siguen siendo tuyos y puedes llevártelos adonde quieras. Todos los planes incluyen una exportación completa de datos y, con [NFC.cool Business Card for Teams](/es/business-card/teams/), los leads pueden ir directamente a HubSpot, o a cualquier otro sitio por webhook. Mi modelo de privacidad es algo en lo que creo de verdad, y pienso que importa.
 
 ---
 
@@ -191,4 +192,4 @@ La privacidad no tiene que ver con tener algo que ocultar. Tiene que ver con ten
 
 Elige bien.
 
-*¿Listo para probar una tarjeta de visita digital que prioriza la privacidad? [Descarga NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-en&mt=8) para iPhone u [obtén la versión para Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-en). La interfaz de la app y el App Clip están disponibles en 35 idiomas.*
+*¿Listo para probar una tarjeta de visita digital que prioriza la privacidad? [Mira lo que hace NFC.cool Business Card](/es/business-card/) y luego [descárgala para iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-es&mt=8) o [consíguela en Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-es). La interfaz de la app y el App Clip están disponibles en 35 idiomas.*

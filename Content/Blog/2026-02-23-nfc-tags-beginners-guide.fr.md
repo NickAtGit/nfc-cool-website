@@ -53,7 +53,7 @@ Le NFC est en fait un sous-ensemble du RFID (identification par radiofréquence)
 | **Normalisation** | ISO 14443 / ISO 18092 | Plusieurs normes |
 | **Usage grand public** | Élevé (téléphones, paiements) | Surtout industriel |
 
-Tout NFC est du RFID, mais tout RFID n'est pas du NFC. Le badge que vous passez pour entrer dans un bureau fonctionne souvent à 125 KHz, et votre téléphone ne peut tout simplement pas le lire. Les tags NFC utilisent la fréquence 13,56 MHz que les téléphones prennent en charge. « Pourquoi mon téléphone ne lit-il pas mon badge de travail ? » est l'une des questions qu'on me pose le plus, et c'est presque toujours la réponse. (Si c'est le sujet qui vous occupe, j'ai écrit tout un article sur [pourquoi votre iPhone ne peut pas ouvrir une porte RFID](/blog/iphone-rfid-condo-doors/).)
+Tout NFC est du RFID, mais tout RFID n'est pas du NFC. Le badge que vous passez pour entrer dans un bureau fonctionne souvent à 125 KHz, et votre téléphone ne peut tout simplement pas le lire. Les tags NFC utilisent la fréquence 13,56 MHz que les téléphones prennent en charge. « Pourquoi mon téléphone ne lit-il pas mon badge de travail ? » est l'une des questions qu'on me pose le plus, et c'est presque toujours la réponse. (Si c'est le sujet qui vous occupe, j'ai écrit tout un article sur [pourquoi votre iPhone ne peut pas ouvrir une porte RFID](/fr/blog/iphone-rfid-condo-doors/).)
 
 ---
 
@@ -107,9 +107,9 @@ La plus grande mémoire de la gamme NTAG grand public, et le tag que je choisira
 | Déclencheur domotique | NTAG213 | Il suffit d'un identifiant unique |
 | Anti-contrefaçon | NTAG424 DNA | Vérification cryptographique |
 
-**Où acheter :** ma page des [tags NFC recommandés](/affiliate-links/) répertorie les autocollants NTAG216 que j'utilise et sur lesquels je fais mes tests. Les tags au format autocollant sont les plus polyvalents - ils se collent sur presque tout.
+**Où acheter :** ma page des [tags NFC recommandés](/fr/affiliate-links/) répertorie les autocollants NTAG216 que j'utilise et sur lesquels je fais mes tests. Les tags au format autocollant sont les plus polyvalents - ils se collent sur presque tout.
 
-Mon conseil honnête : achetez un paquet d'autocollants NTAG216 et arrêtez de vous compliquer la vie. J'ai vu des gens se torturer sur les types de puces pour un projet qu'un tag à 20 centimes gère très bien. Si vous voulez un jour le décryptage plus poussé, j'ai fait un tour puce par puce dans [les types de tags NFC pour iPhone](/blog/nfc-tag-types-for-iphones/).
+Mon conseil honnête : achetez un paquet d'autocollants NTAG216 et arrêtez de vous compliquer la vie. J'ai vu des gens se torturer sur les types de puces pour un projet qu'un tag à 20 centimes gère très bien. Si vous voulez un jour le décryptage plus poussé, j'ai fait un tour puce par puce dans [les types de tags NFC pour iPhone](/fr/blog/nfc-tag-types-for-iphones/).
 
 ---
 
@@ -160,7 +160,7 @@ Ce qui se passe quand vous scannez dépend des données :
 - **App Clip** - lance un App Clip s'il en existe un
 - **Données personnalisées** - ouvre l'app associée
 
-Si vous voulez juste voir ce qui est sur un tag tout de suite, vous pouvez aussi [lire des tags NFC directement depuis votre navigateur](/online-nfc-reader/) sur Android - sans installation.
+Si vous voulez juste voir ce qui est sur un tag tout de suite, vous pouvez aussi [lire des tags NFC directement depuis votre navigateur](/fr/online-nfc-reader/) sur Android - sans installation.
 
 ### Sur Android
 
@@ -187,7 +187,7 @@ Le processus est court :
 4. Approchez votre téléphone du tag
 5. Attendez la confirmation, en général une seconde environ
 
-C'est tout. Le tag contient désormais vos données et fonctionne avec n'importe quel téléphone NFC qui le lit. Si vous voulez le guide propre à l'iPhone, j'en ai écrit un ici : [comment écrire des tags NFC sur iPhone](/blog/write-nfc-tags-iphone/).
+C'est tout. Le tag contient désormais vos données et fonctionne avec n'importe quel téléphone NFC qui le lit. Si vous voulez le guide propre à l'iPhone, j'en ai écrit un ici : [comment écrire des tags NFC sur iPhone](/fr/blog/write-nfc-tags-iphone/).
 
 ### Important : verrouiller les tags
 
@@ -326,7 +326,7 @@ Envie d'essayer ? Voici un projet de cinq minutes par lequel je ferais débuter 
 
 **Projet : un tag de partage Wi-Fi pour votre maison**
 
-1. **Achetez des tags :** procurez-vous un paquet d'[autocollants NTAG216](/affiliate-links/) (environ 10 $ les 25)
+1. **Achetez des tags :** procurez-vous un paquet d'[autocollants NTAG216](/fr/affiliate-links/) (environ 10 $ les 25)
 2. **Téléchargez NFC.cool Tools :** pour [iOS](https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=blog-nfc-tags-beginners-guide-fr&mt=8) ou [Android](https://play.google.com/store/apps/details?id=cool.nfc&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-tags-beginners-guide-fr)
 3. **Écrivez vos identifiants Wi-Fi :** ouvrez l'app, choisissez Écrire, puis Wi-Fi, saisissez le nom de votre réseau et le mot de passe, et approchez votre téléphone du tag
 4. **Placez le tag :** à un endroit visible - près de la porte d'entrée, sur le frigo, dans une chambre d'amis
