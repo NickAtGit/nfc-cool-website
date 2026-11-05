@@ -1,6 +1,7 @@
-// Business Card page scenes, hosted by /scenes/live-scenes.mjs (data-scene="bc/<name>"). Every scene is built in code and is a pure function of its loop
+// Business Card page scenes, hosted by /scenes/scene-worker.mjs (data-scene="bc/<name>"). Every scene is built in code and is a pure function of its loop
 // time (update(t)), so any frame can be shown or exported. One WebGL context on an OffscreenCanvas
-// draws all of them, handed to each tile as an ImageBitmap, the same way the site's live-scenes.mjs does.
+// draws all of them, handed to each tile as an ImageBitmap, the same way the site's other scenes are.
+// This runs in a worker: no document, so canvases are OffscreenCanvas and images are ImageBitmap.
 import * as THREE from '../vendor/three.scenes.min.mjs';
 const { CanvasTexture, SRGBColorSpace, Shape, ExtrudeGeometry, ShapeGeometry, Mesh, Group, MeshStandardMaterial, MeshBasicMaterial,
   ShaderMaterial, ShadowMaterial, PlaneGeometry, RingGeometry, TubeGeometry, CatmullRomCurve3, Vector3, Color, Box3, DoubleSide,
@@ -24,8 +25,7 @@ const arc = (from, to, k, lift) => [lerp(from[0], to[0], k), lerp(from[1], to[1]
 const made = [];
 // ---- 2D drawing for faces and screens ----
 function tex(w, h, paint) {
-  const c = document.createElement('canvas');
-  c.width = w; c.height = h;
+  const c = new OffscreenCanvas(w, h);
   const x = c.getContext('2d');
   const t = new CanvasTexture(c);
   t.colorSpace = SRGBColorSpace;
@@ -350,20 +350,23 @@ function lockScreen(x, W, H, card) {
 }
 // The NFC.cool card from the Business Card scenes (NFCcoolScenes/assets/bizcard/card_nfc.png), ISO card proportions.
 // Charcoal disappears on the dark stage, so in dark mode it is the blue NFC.cool card (assets/card/card_face.png).
-const isDark = () => {
-  const t = document.documentElement.dataset.theme;
-  return t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-};
+let darkTheme = false;
+const isDark = () => darkTheme;
 const nfcCards = [];
 const applyCardTheme = () => nfcCards.forEach(c => {
   const dark = isDark();
   c.face.material.map = dark ? c.blue : c.charcoal;
   c.body.material.color.set(dark ? '#1283E6' : '#26272C');
 });
-new MutationObserver(applyCardTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
-matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyCardTheme);
+// The page's theme, from the player whenever it changes.
+export function setDark(value) {
+  darkTheme = value;
+  applyCardTheme();
+}
+// WebGL ignores flipY on an ImageBitmap, so a texture that needs it gets a canvas copy of the image.
+const upright = im => { const c = new OffscreenCanvas(im.width, im.height); c.getContext('2d').drawImage(im, 0, 0); return c; };
 const nfcCard = width => {
-  const load = name => { const t = new THREE.Texture(images[name]); made.push(t); t.colorSpace = SRGBColorSpace; t.anisotropy = 8; t.needsUpdate = true; return t; };
+  const load = name => { const t = new THREE.Texture(upright(images[name])); made.push(t); t.colorSpace = SRGBColorSpace; t.anisotropy = 8; t.needsUpdate = true; return t; };
   const c = plate(width, width * shape('nfc-card'), { r: width * .042, d: width * .016, color: '#26272C', map: load('nfc-card'), rough: .4 });
   c.charcoal = c.face.material.map;
   c.blue = load('nfc-card-blue');
@@ -373,7 +376,7 @@ const nfcCard = width => {
 };
 const pendingUploads = [];
 const shot = name => { const t = new THREE.Texture(images[name]); made.push(t); t.colorSpace = SRGBColorSpace; t.flipY = false; t.anisotropy = 8; t.needsUpdate = true; pendingUploads.push(t); return t; };
-const tile = name => { const t = new THREE.Texture(images[name]); made.push(t); t.colorSpace = SRGBColorSpace; t.anisotropy = 8; t.needsUpdate = true; return t; };
+const tile = name => { const t = new THREE.Texture(upright(images[name])); made.push(t); t.colorSpace = SRGBColorSpace; t.anisotropy = 8; t.needsUpdate = true; return t; };
 const shape = name => images[name].height / images[name].width;
 const TILE_W = 1224 / 1158;
 
@@ -698,7 +701,7 @@ const SCENES = {
       root.add(app);
       const W = 2.9, H = W * shape('hero-nicolo');
       const card = plate(W, H, { r: .17, map: tile('hero-nicolo') });
-      const small = document.createElement('canvas'); small.width = 22; small.height = 21;
+      const small = new OffscreenCanvas(22, 21);
       { const im = images['hero-nicolo'], c = small.getContext('2d'); c.fillStyle = '#F2F3F5'; c.fillRect(0, 0, 22, 21); c.drawImage(im, im.width * .05, im.height * .05, im.width * .9, im.height * .9, 1, 1, 20, 19); }
       const blur = tex(640, 600, x => { x.imageSmoothingEnabled = true; x.imageSmoothingQuality = 'high'; x.drawImage(small, 0, 0, 640, 600); });
       const veil = new Mesh(faceGeo(W, H, .17), new MeshBasicMaterial({ map: blur, transparent: true, toneMapped: false }));
@@ -1575,8 +1578,7 @@ const PRO = {
   // A speaker's closing slide: someone in the room scans it and has the card.
   keynote() {
     return floating(9, 5, root => {
-      const slideCanvas = document.createElement('canvas');
-      slideCanvas.width = 1280; slideCanvas.height = 800;
+      const slideCanvas = new OffscreenCanvas(1280, 800);
       const paintSlide = (x, W, H) => {
         const g = x.createLinearGradient(0, 0, W, H); g.addColorStop(0, '#111520'); g.addColorStop(1, '#1B2436');
         x.fillStyle = g; x.fillRect(0, 0, W, H);
@@ -2779,8 +2781,7 @@ function matchBall(r) {
   [[0, 1, g], [0, 1, -g], [0, -1, g], [0, -1, -g], [1, g, 0], [1, -g, 0], [-1, g, 0], [-1, -g, 0], [g, 0, 1], [g, 0, -1], [-g, 0, 1], [-g, 0, -1]].forEach(v => centres.push([...v, 1]));
   [[1, 1, 1], [1, 1, -1], [1, -1, 1], [1, -1, -1], [-1, 1, 1], [-1, 1, -1], [-1, -1, 1], [-1, -1, -1], [0, 1 / g, g], [0, 1 / g, -g], [0, -1 / g, g], [0, -1 / g, -g], [1 / g, g, 0], [1 / g, -g, 0], [-1 / g, g, 0], [-1 / g, -g, 0], [g, 0, 1 / g], [g, 0, -1 / g], [-g, 0, 1 / g], [-g, 0, -1 / g]].forEach(v => centres.push([...v, 0]));
   const C = centres.map(([a, b, c, p]) => { const l = Math.hypot(a, b, c); return [a / l, b / l, c / l, p]; });
-  const W = 1024, H = 512, col = document.createElement('canvas'), bmp = document.createElement('canvas');
-  col.width = bmp.width = W; col.height = bmp.height = H;
+  const W = 1024, H = 512, col = new OffscreenCanvas(W, H), bmp = new OffscreenCanvas(W, H);
   const cx = col.getContext('2d'), bx = bmp.getContext('2d'), ci = cx.createImageData(W, H), bi = bx.createImageData(W, H);
   for (let j = 0; j < H; j++) {
     const th = (j + .5) / H * Math.PI, st = Math.sin(th), ct = Math.cos(th);
@@ -2838,7 +2839,7 @@ const callIcons = {
 const callScreen = label => (x, W, H) => {
   const u = W / 440, im = images['hero-realtor'], k = im.width / 1224;
   // Her photo blurred to soft colour, with no face left in it: drawn tiny and stretched back up.
-  const small = document.createElement('canvas'); small.width = 5; small.height = 10;
+  const small = new OffscreenCanvas(5, 10);
   const sx = small.getContext('2d'); sx.imageSmoothingQuality = 'high'; sx.drawImage(im, 312 * k, 96 * k, 600 * k, 600 * k, -1, -1, 7, 12);
   x.imageSmoothingEnabled = true; x.imageSmoothingQuality = 'high'; x.drawImage(small, 0, 0, W, H);
   x.fillStyle = 'rgba(16,12,18,.58)'; x.fillRect(0, 0, W, H);
@@ -3453,15 +3454,18 @@ const PROPS_FOR = {
 const MODELS_FOR = { realtors: ['cardfan'], doctors: ['cardfan'], trades: ['cardfan'], photographers: ['cardfan'], sales: ['cardfan'], networking: ['cardfan'], engineers: ['cardfan', 'mac'], consultants: ['cardfan'], coaches: ['cardfan'], recruiters: ['cardfan'], keynote: ['mac'], team: ['tags', 'mac'], writetag: ['tags'], handover: ['tags', 'mac'], leadboard: ['mac'] };
 const IMAGES_FOR = {"share": ["nfc-card", "nfc-card-blue", "card-dark", "card"], "leads": ["leads", "lead-detail"], "tradeshow": ["card", "live-qr", "card-dark", "live-lead-a", "live-lead-b", "live-stats-b", "hero-nicolo"], "cards": ["ten-00", "ten-01", "ten-03", "ten-02", "ten-05", "hero-nicolo", "logo-nicolo", "logo-consultant", "logo-coach", "logo-broker", "logo-photographer"], "insights": ["an-7d", "an-30d", "an-90d", "an-12m", "stats-7d", "stats-30d", "stats-90d", "stats-12m", "period-7d", "period-30d", "period-90d", "period-12m"], "appearance": ["ten-00", "ten-01", "ten-03", "ten-02", "ten-05", "look-1-dark", "look-2-dark", "look-3-dark", "look-4-dark", "look-5-dark"], "privacy": ["settings", "hero-nicolo"], "team": ["hero-coach", "team-coach", "nfc-card", "nfc-card-blue", "hero-engineer", "team-engineer", "hero-trades", "team-trades"], "realtors": ["card-dark", "card-realtor", "hero-realtor"], "doctors": ["card-dark", "card-doctor"], "sales": ["card-dark", "card-broker", "logo-broker", "nfc-card", "nfc-card-blue"], "keynote": ["card-engineer"], "networking": ["card-dark", "card"], "trades": ["card-dark", "card-trades"], "photographers": ["card-dark", "card-photographer", "nfc-card", "nfc-card-blue"], "followup": ["leads", "logo-broker", "hero-broker", "card-dark"], "selfie": ["card-dark", "leads", "emma", "hero-broker"], "firstscreen": ["card-dark", "leads", "hero-realtor", "card-realtor", "nfc-card", "nfc-card-blue"], "secondchance": ["card-dark", "leads", "card", "hero-nicolo", "nfc-card", "nfc-card-blue"], "changejobs": ["card-dark", "leads", "ten-02", "ten-04", "nfc-card", "nfc-card-blue"], "writetag": ["card-dark", "leads", "card-actions", "card"], "handover": ["hero-coach", "team-coach", "nfc-card", "nfc-card-blue", "hero-engineer", "team-engineer", "hero-trades", "team-trades"], "invite": ["card-dark", "leads", "logo-consultant", "ten-01"], "recruiters": ["card-dark", "card-recruiter"], "coaches": ["card-dark", "card-coach"], "engineers": ["card-dark", "card-engineer"], "consultants": ["card-dark", "ten-01", "nfc-card", "nfc-card-blue"], "leadboard": ["hero-coach", "hero-engineer", "hero-trades"]};
 const imgLoads = new Map(), glbLoads = new Map();
-const image = name => { if (!imgLoads.has(name)) imgLoads.set(name, (async () => { const i = new Image(); i.src = new URL(`s/${name}.webp`, import.meta.url).href; await i.decode(); images[name] = i; })()); return imgLoads.get(name); };
+// premultiplyAlpha none, as an <img> uploads: shot() hands the bitmap to WebGL as it is.
+const image = name => { if (!imgLoads.has(name)) imgLoads.set(name, (async () => { const r = await fetch(new URL(`s/${name}.webp`, import.meta.url)); if (!r.ok) throw new Error(`image ${name} ${r.status}`); images[name] = await createImageBitmap(await r.blob(), { premultiplyAlpha: 'none' }); })()); return imgLoads.get(name); };
 let boot;
 function init(renderer, loader, env) {
   const glb = url => { if (!glbLoads.has(url)) glbLoads.set(url, loader.loadAsync(url)); return glbLoads.get(url); };
   boot ??= (async () => {
-    // The site's own fonts come from its CSS; the wordmark also needs these two weights.
-    const extra = [['Titillium Web', 'titillium-300', '300'], ['Caveat', 'caveat-700', '700']];
-    await Promise.all(extra.map(async ([family, file, weight]) => { const f = new FontFace(family, `url(${new URL(`fonts/${file}.woff2`, import.meta.url).href})`, { weight }); await f.load(); document.fonts.add(f); }));
-    await Promise.all([400, 600, 700].map(w => document.fonts.load(`${w} 40px ${TW}`)));
+    // A worker sees none of the page's CSS fonts, so it loads the site's own here too (the browser's
+    // cache already has them); the wordmark also needs the other two weights.
+    const theme = w => new URL(`/assets/theme/fonts/TitilliumWeb-${w}.woff2`, import.meta.url).href;
+    const own = f => new URL(`fonts/${f}.woff2`, import.meta.url).href;
+    const faces = [['Titillium Web', theme(400), '400'], ['Titillium Web', theme(600), '600'], ['Titillium Web', theme(700), '700'], ['Titillium Web', own('titillium-300'), '300'], ['Caveat', own('caveat-700'), '700']];
+    await Promise.all(faces.map(async ([family, url, weight]) => { const f = new FontFace(family, `url(${url})`, { weight, display: 'swap' }); await f.load(); self.fonts.add(f); }));
     environment = env;
     const pmrem = new PMREMGenerator(renderer);
     studio = pmrem.fromScene(studioScene(), .02).texture;

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Rebuilds the live 3D scene assets in Content/StaticFiles/scenes/: the players (minified from
-# Scripts/scenes/live-scenes.mjs, and the blog's phone figures bundled from
-# Scripts/scenes/phone-figures.mjs) and the three bundle, all with source maps, then from
+# Scripts/scenes/live-scenes.mjs and its worker Scripts/scenes/scene-worker.mjs, and the blog's phone
+# figures bundled from Scripts/scenes/phone-figures.mjs) and the three bundle, all with source maps, then from
 # NFCcoolScenes one GLB + manifest + H.264 screen video per scene and the shared phone GLB (plus
 # blog_phone.glb, its slimmed copy for the phone figures: Scripts/scenes/blog-phone.mjs), the
 # cardfan scene (Scripts/scenes/cardfan.py, from the batch scene's cards: GLB + manifest), and the
@@ -35,9 +35,11 @@ trap 'rm -rf "$WORK"' EXIT
   # map is only fetched by DevTools and Lighthouse, never by a visitor's page load.
   npx esbuild entry.mjs --bundle --minify --format=esm --target=es2020 --legal-comments=eof \
     --sourcemap --outfile="$OUT/vendor/three.scenes.min.mjs"
-  # Not bundled: the player imports the three bundle itself, once the page is idle.
+  # Not bundled: the player has no dependencies, and its worker imports the three bundle itself.
   npx esbuild "$ROOT/Scripts/scenes/live-scenes.mjs" --minify --format=esm --target=es2020 \
     --sourcemap --outfile="$OUT/live-scenes.mjs"
+  npx esbuild "$ROOT/Scripts/scenes/scene-worker.mjs" --minify --format=esm --target=es2020 \
+    --sourcemap --outfile="$OUT/scene-worker.mjs"
   # Its small pure modules are bundled in; three stays the shared bundle, imported once idle.
   npx esbuild "$ROOT/Scripts/scenes/phone-figures.mjs" --bundle --external:./vendor/* --minify \
     --format=esm --target=es2020 --sourcemap --outfile="$OUT/phone-figures.mjs"

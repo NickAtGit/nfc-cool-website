@@ -1,5 +1,5 @@
 // Renders a live scene's poster still: frame <data-poster-frame> of the page's
-// <img data-scene> at its <data-frame-fill>, drawn by live-scenes.mjs itself in headless Chrome,
+// <img data-scene> at its <data-frame-fill>, drawn by the player's own worker in headless Chrome,
 // so the still and the first frame of the animation match exactly.
 //
 //   node Scripts/scenes/render-poster.mjs <page URL> <out.webp> [size]
@@ -61,7 +61,7 @@ try {
 
   const dataURL = await evaluate(`(async () => {
     const started = Date.now();
-    while (!window.liveScenes?.views?.[0]?.scene) {
+    while (window.liveScenes?.views?.[0]?.state !== 'ready') {
       if (Date.now() - started > 30000) throw new Error('scene not ready: ' + (window.liveScenes?.views?.[0]?.state ?? 'no live scene on the page'));
       await new Promise(resolve => setTimeout(resolve, 200));
     }
@@ -69,13 +69,8 @@ try {
     // their light colours, whatever the headless browser prefers.
     document.documentElement.dataset.theme = 'light';
     await new Promise(resolve => setTimeout(resolve, 50));
-    const { views, renderer, render, seekTo } = window.liveScenes;
-    const view = views[0];
-    view.scene.video?.pause();
-    await seekTo(view.scene, view.posterFrame);
-    renderer.setSize(${Number(size)}, ${Number(size)}, false);
-    render(view.scene, ${Number(size)}, ${Number(size)}, view.frameFill);
-    const blob = await renderer.domElement.convertToBlob({ type: 'image/webp', quality: 0.9 });
+    // Drawn in the scene worker, on the poster's frame at the view's framing.
+    const blob = await window.liveScenes.snapshot(0, { width: ${Number(size)}, height: ${Number(size)}, type: 'image/webp', quality: 0.9 });
     return await new Promise(resolve => { const reader = new FileReader(); reader.onload = () => resolve(reader.result); reader.readAsDataURL(blob); });
   })()`);
   writeFileSync(outFile, Buffer.from(dataURL.split(',')[1], 'base64'));

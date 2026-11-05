@@ -1,10 +1,10 @@
-// Everything Content/StaticFiles/scenes/live-scenes.mjs and phone-figures.mjs take from 'three',
+// Everything Content/StaticFiles/scenes/scene-worker.mjs and phone-figures.mjs take from 'three',
 // re-exported by name so esbuild can tree-shake the rest. No post-processing: the scenes are lit and tone mapped
 // like the app's RealityKit player, nothing more.
 export {
   AnimationMixer, Box3, DirectionalLight, DoubleSide, Group, MeshBasicMaterial, NeutralToneMapping,
   NoBlending, PCFShadowMap, PMREMGenerator, PerspectiveCamera, PointLight, SRGBColorSpace, Scene,
-  ShaderMaterial, SpotLight, Texture, Vector3, VideoTexture, WebGLRenderer,
+  ShaderMaterial, SpotLight, Texture, Vector3, VideoFrameTexture, VideoTexture, WebGLRenderer,
   // The Business Card page's code-built scenes (Content/StaticFiles/scenes/bc/bc-scenes.mjs).
   BackSide, BoxGeometry, BufferAttribute, CanvasTexture, CatmullRomCurve3, ClampToEdgeWrapping, Color,
   CylinderGeometry, ExtrudeGeometry, FrontSide, LatheGeometry, Mesh, MeshPhysicalMaterial, MeshStandardMaterial,
