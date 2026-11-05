@@ -1,9 +1,10 @@
 # Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
 columns: ["Free", "Personal", "Pro", "Team"]
+columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "价格"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "每人每年 $50，或每月 $5"]
+    values: ["**$0**", "**每年 $19.99**", "**每年 $49.99**", "每人每年 $50，或每月 $5"]
   - label: "名片数量"
     values: ["1", "1", "10", "每人最多 10 张"]
   - label: "分享、Apple Wallet、会议模式二维码、PIN 码、数据导出"
@@ -16,7 +17,7 @@ rows:
     values: ["✗", "✓", "✓", "✓"]
   - label: "数据分析：浏览量、保存数和链接点击数"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "锁定屏幕上的实时计数和新线索"
+  - label: "锁屏上的实时数据和新线索"
     values: ["✗", "✓", "✓", "✓"]
   - label: "公司品牌，锁定在每张名片上"
     values: ["✗", "✗", "✗", "✓"]
@@ -30,7 +31,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "品牌化跟进邮件和自动跟进邮件"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "连接您的 AI 助手"
+  - label: "连接你的 AI 助手"
     values: ["✗", "✗", "✗", "✓"]
   - label: "购买渠道"
-    values: ["应用内", "应用内", "应用内", "网页端，14 天试用"]
+    values: ["App 内", "App 内", "App 内", "网页端，14 天试用"]

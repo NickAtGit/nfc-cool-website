@@ -1,9 +1,10 @@
 # /ja/business-card/ のプラン比較。Content/Pages/business-card.ja.md 内の
 # {{PRICING_TABLE:business-card}} トークンを通じて PricingTableRenderer が描画します。
 columns: ["Free", "Personal", "Pro", "Team"]
+columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "価格"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "1人あたり年$50、または月$5"]
+    values: ["**$0**", "**年$19.99**", "**年$49.99**", "1人あたり年$50、または月$5"]
   - label: "カード数"
     values: ["1", "1", "10", "1人あたり最大10枚"]
   - label: "共有、Apple Wallet、カンファレンスモードのQR、PIN、データのエクスポート"
@@ -16,13 +17,13 @@ rows:
     values: ["✗", "✓", "✓", "✓"]
   - label: "アナリティクス：表示数、保存数、リンクのタップ数"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "ロック画面にライブの数値と新しいリード"
+  - label: "ロック画面にリアルタイムの数値と新しいリードを表示"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "会社のブランド、すべてのカードでロック"
+  - label: "すべてのカードで会社のブランドをロック"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Webダッシュボード、役割と招待"
+  - label: "役割設定と招待に対応したWebダッシュボード"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "共有のリード受信箱"
+  - label: "リードの共有受信箱"
     values: ["✗", "✗", "✗", "✓"]
   - label: "チームのInsights、カードごと"
     values: ["✗", "✗", "✗", "✓"]
@@ -33,4 +34,4 @@ rows:
   - label: "AIアシスタントとつなぐ"
     values: ["✗", "✗", "✗", "✓"]
   - label: "購入方法"
-    values: ["アプリ内", "アプリ内", "アプリ内", "Webで、14日間のトライアル"]
+    values: ["アプリ内", "アプリ内", "アプリ内", "Web（14日間のトライアルあり）"]

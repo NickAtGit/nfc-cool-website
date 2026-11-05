@@ -1,18 +1,19 @@
 # Confronto tra i piani per /it/business-card/. Generato da PricingTableRenderer tramite
 # il token {{PRICING_TABLE:business-card}} in Content/Pages/business-card.it.md.
 columns: ["Free", "Personal", "Pro", "Team"]
+columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "Prezzo"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "$50 a persona all'anno, o $5 al mese"]
+    values: ["**$0**", "**$19,99 all'anno**", "**$49,99 all'anno**", "$50 a persona all'anno, o $5 al mese"]
   - label: "Biglietti"
-    values: ["1", "1", "10", "Fino a 10 per persona"]
+    values: ["1", "1", "10", "Fino a 10 a persona"]
   - label: "Condivisione, Apple Wallet, codice QR della Modalità Conferenza, PIN, esportazione dei dati"
     values: ["✓", "✓", "✓", "✓"]
-  - label: "\"Salva il contatto\" sul biglietto"
+  - label: "\"Salva contatto\" sul biglietto"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Nessun \"Made with NFC.cool\" sul biglietto"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Acquisizione lead"
+  - label: "Raccolta dei lead"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Statistiche: visualizzazioni, salvataggi e tocchi sui link"
     values: ["✗", "✓", "✓", "✓"]
@@ -28,7 +29,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpot e webhook"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "E-mail di follow-up con il tuo brand e automatiche"
+  - label: "Email di follow-up automatiche e con il tuo brand"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Collega il tuo assistente IA"
     values: ["✗", "✗", "✗", "✓"]

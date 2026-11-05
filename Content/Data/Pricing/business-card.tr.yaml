@@ -1,9 +1,10 @@
 # /tr/business-card/ için plan karşılaştırması. Content/Pages/business-card.tr.md
 # içindeki {{PRICING_TABLE:business-card}} belirteciyle PricingTableRenderer üretir.
 columns: ["Free", "Personal", "Pro", "Team"]
+columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "Fiyat"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "Kişi başı yılda $50 ya da ayda $5"]
+    values: ["**$0**", "**Yılda $19,99**", "**Yılda $49,99**","Kişi başı yılda $50 ya da ayda $5"]
   - label: "Kart"
     values: ["1", "1", "10", "Kişi başı 10'a kadar"]
   - label: "Paylaşım, Apple Wallet, Konferans Modu QR kodu, PIN, veri dışa aktarma"
@@ -16,13 +17,13 @@ rows:
     values: ["✗", "✓", "✓", "✓"]
   - label: "İstatistikler: görüntülemeler, kaydetmeler ve bağlantı dokunuşları"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Kilit ekranında canlı sayılar ve yeni müşteri adayları"
+  - label: "Kilitli ekranda canlı sayılar ve yeni müşteri adayları"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Şirket markası, her kartta kilitli"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Roller ve davetlerle web panosu"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Ortak aday gelen kutusu"
+  - label: "Müşteri adayları için ortak gelen kutusu"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Ekip Insights'ı, kart kart"
     values: ["✗", "✗", "✗", "✓"]
@@ -33,4 +34,4 @@ rows:
   - label: "Yapay zekâ asistanını bağla"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Nereden alınır"
-    values: ["Uygulamada", "Uygulamada", "Uygulamada", "Web'de, 14 gün deneme"]
+    values: ["Uygulamadan", "Uygulamadan", "Uygulamadan", "Web'den, 14 günlük deneme"]

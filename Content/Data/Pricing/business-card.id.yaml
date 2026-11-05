@@ -1,22 +1,23 @@
 # Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
 columns: ["Free", "Personal", "Pro", "Team"]
+columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "Harga"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "$50 per orang per tahun, atau $5 per bulan"]
+    values: ["**$0**", "**$19,99 per tahun**", "**$49,99 per tahun**", "$50 per orang per tahun, atau $5 per bulan"]
   - label: "Kartu"
     values: ["1", "1", "10", "Hingga 10 per orang"]
-  - label: "Berbagi, Apple Wallet, QR Conference Mode, PIN, ekspor data"
+  - label: "Berbagi, Apple Wallet, QR Mode Konferensi, PIN, ekspor data"
     values: ["✓", "✓", "✓", "✓"]
   - label: "\"Simpan kontak\" di kartu Anda"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Tanpa \"Made with NFC.cool\" di kartu Anda"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Generasi prospek"
+  - label: "Perolehan prospek"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Analitik: tampilan, penyimpanan, dan ketukan tautan"
+  - label: "Analitik: jumlah dilihat, jumlah disimpan, dan ketukan tautan"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Hitungan real-time dan prospek baru di Layar Kunci"
+  - label: "Angka real-time dan prospek baru di Layar Terkunci"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Merek perusahaan, terkunci di setiap kartu"
     values: ["✗", "✗", "✗", "✓"]
@@ -28,9 +29,9 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpot dan webhook"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "E-mail tindak lanjut bermerek dan otomatis"
+  - label: "Email tindak lanjut dengan merek Anda, juga otomatis"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Hubungkan asisten AI Anda"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Tempat membeli"
-    values: ["Di aplikasi", "Di aplikasi", "Di aplikasi", "Di web, percobaan 14 hari"]
+  - label: "Tempat pembelian"
+    values: ["Di aplikasi", "Di aplikasi", "Di aplikasi", "Di web, uji coba 14 hari"]

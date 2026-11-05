@@ -1,12 +1,13 @@
 # Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
 columns: ["Free", "Personal", "Pro", "Team"]
+columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "Prix"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "$50 par personne et par an, ou $5 par mois"]
+    values: ["**0 $**", "**19,99 $ par an**", "**49,99 $ par an**", "50 $ par personne et par an, ou 5 $ par mois"]
   - label: "Cartes"
     values: ["1", "1", "10", "Jusqu'à 10 par personne"]
-  - label: "Partage, Apple Wallet, code QR du Mode Conférence, code PIN, export des données"
+  - label: "Partage, Apple Wallet, QR code du mode Conférence, code PIN, export des données"
     values: ["✓", "✓", "✓", "✓"]
   - label: "« Enregistrer le contact » sur votre carte"
     values: ["✓", "✓", "✓", "✓"]
@@ -16,13 +17,13 @@ rows:
     values: ["✗", "✓", "✓", "✓"]
   - label: "Statistiques : vues, enregistrements et clics sur les liens"
     values: ["✗", "✓", "✓", "✓"]
-  - label: "Compteurs en direct et nouveaux prospects sur l'écran de verrouillage"
+  - label: "Compteurs en direct et nouveaux prospects sur l'écran verrouillé"
     values: ["✗", "✓", "✓", "✓"]
   - label: "Marque de l'entreprise, verrouillée sur chaque carte"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Tableau de bord web avec rôles et invitations"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Boîte de réception de prospects partagée"
+  - label: "Boîte de réception partagée pour les prospects"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Insights d'équipe, carte par carte"
     values: ["✗", "✗", "✗", "✓"]

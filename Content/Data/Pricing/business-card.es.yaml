@@ -1,9 +1,10 @@
 # Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
 columns: ["Free", "Personal", "Pro", "Team"]
+columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "Precio"
-    values: ["**$0**", "**$19.99**", "**$49.99**", "$50 por persona al año, o $5 al mes"]
+    values: ["**$0**", "**$19,99 al año**", "**$49,99 al año**", "$50 por persona al año, o $5 al mes"]
   - label: "Tarjetas"
     values: ["1", "1", "10", "Hasta 10 por persona"]
   - label: "Compartir, Apple Wallet, QR del Modo Conferencia, PIN, exportación de datos"

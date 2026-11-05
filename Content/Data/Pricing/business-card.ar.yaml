@@ -1,9 +1,10 @@
 # Plan comparison for /business-card/. Rendered by PricingTableRenderer via the
 # {{PRICING_TABLE:business-card}} token in Content/Pages/business-card.md.
 columns: ["Free", "Personal", "Pro", "Team"]
+columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "السعر"
-    values: ["**$٠**", "**$١٩.٩٩**", "**$٤٩.٩٩**", "$٥٠ للشخص في السنة، أو $٥ في الشهر"]
+    values: ["**$٠**", "**$١٩.٩٩ في السنة**", "**$٤٩.٩٩ في السنة**","$٥٠ للشخص في السنة، أو $٥ في الشهر"]
   - label: "البطاقات"
     values: ["١", "١", "١٠", "حتى ١٠ لكل شخص"]
   - label: "المشاركة وApple Wallet ورمز QR لوضع المؤتمرات ورمز PIN وتصدير البيانات"
@@ -22,15 +23,15 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "لوحة إدارة على الويب مع الأدوار والدعوات"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "صندوق مشترك للعملاء المحتملين"
+  - label: "صندوق وارد مشترك للعملاء المحتملين"
     values: ["✗", "✗", "✗", "✓"]
   - label: "Insights الفريق، بطاقة بطاقة"
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpot وwebhooks"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "رسائل متابعة بالبريد الإلكتروني بعلامتك التجارية وتلقائية"
+  - label: "رسائل متابعة بالبريد الإلكتروني، بعلامتك التجارية وبإرسال تلقائي"
     values: ["✗", "✗", "✗", "✓"]
   - label: "اربط مساعد الذكاء الاصطناعي"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "أين تشتري"
+  - label: "مكان الشراء"
     values: ["داخل التطبيق", "داخل التطبيق", "داخل التطبيق", "على الويب، تجربة ١٤ يومًا"]

@@ -1,9 +1,10 @@
 # Plan-Vergleich für /de/business-card/. Gerendert von PricingTableRenderer über
 # das {{PRICING_TABLE:business-card}}-Token in Content/Pages/business-card.de.md.
 columns: ["Free", "Personal", "Pro", "Team"]
+columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "Preis"
-    values: ["**$0**", "**$19,99**", "**$49,99**", "$50 pro Person im Jahr oder $5 im Monat"]
+    values: ["**0 $**", "**19,99 $ im Jahr**", "**49,99 $ im Jahr**", "50 $ pro Person im Jahr oder 5 $ im Monat"]
   - label: "Karten"
     values: ["1", "1", "10", "Bis zu 10 pro Person"]
   - label: "Teilen, Apple Wallet, Konferenzmodus-QR, PIN, Datenexport"
@@ -28,7 +29,7 @@ rows:
     values: ["✗", "✗", "✗", "✓"]
   - label: "HubSpot und Webhooks"
     values: ["✗", "✗", "✗", "✓"]
-  - label: "Gebrandete und automatische Nachfass-E-Mails"
+  - label: "Follow-up-E-Mails im Markendesign, auch automatisch"
     values: ["✗", "✗", "✗", "✓"]
   - label: "KI-Assistent anbinden"
     values: ["✗", "✗", "✗", "✓"]
