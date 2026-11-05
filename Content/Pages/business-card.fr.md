@@ -2,7 +2,7 @@
 title: "Application de carte de visite numérique pour iPhone et Android"
 slug: "business-card"
 description: "Une application pour créer votre carte de visite numérique sur iPhone et Android. Partagez-la d'un simple geste : NFC, QR code, App Clip ou Apple Wallet. Voyez combien de personnes enregistrent votre carte et activez le mode Conférence lors de vos événements."
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

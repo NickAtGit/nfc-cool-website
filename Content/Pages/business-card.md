@@ -2,7 +2,7 @@
 title: "Digital Business Card Maker App for iPhone & Android"
 slug: "business-card"
 description: "A digital Business Card maker for iPhone and Android. Share via NFC tap, QR code, AppClip or Apple Wallet. See how many people save your card, run Conference Mode at live events."
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

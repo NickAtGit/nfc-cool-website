@@ -2,7 +2,7 @@
 title: "Застосунок цифрової візитівки для iPhone та Android"
 slug: "business-card"
 description: "Цифрова візитівка для iPhone та Android. Ділися нею дотиком NFC, через QR-код, App Clip або Apple Wallet. Дивись, скільки людей її зберегли, і вмикай режим конференції на живих заходах."
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

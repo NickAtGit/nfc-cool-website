@@ -2,7 +2,7 @@
 title: "iPhone・Android対応のデジタル名刺作成アプリ"
 slug: "business-card"
 description: "iPhoneとAndroid対応のデジタル名刺作成アプリ。NFCタッチ、QRコード、App Clip、Apple Walletで共有可能。何人がカードを保存したかがわかり、ライブイベントではカンファレンスモードを利用できます。"
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

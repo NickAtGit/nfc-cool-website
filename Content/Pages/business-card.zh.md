@@ -2,7 +2,7 @@
 title: "iPhone 与 Android 电子名片制作 App"
 slug: "business-card"
 description: "一款适用于 iPhone 和 Android 的电子名片制作 App。可通过 NFC 轻触、二维码、App Clip 或 Apple Wallet 分享。看到有多少人保存了你的名片，并在现场活动中启用会议模式。"
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

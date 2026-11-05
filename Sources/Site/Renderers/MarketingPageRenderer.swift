@@ -139,12 +139,16 @@ struct MarketingPageRenderer: Renderer {
       let hreflangMap = allLangMap?.filter { entry in
          entry.key == "x-default" || availableLocales.contains(entry.key)
       }
+      // Link previews expect a full URL here, and a relative one may not load.
+      let ogImageAbsolute: String? = page.image.map { path in
+         path.hasPrefix("http") ? path : context.config.baseURL + path
+      }
       var head = helper.buildHead(
          title: pageTitle,
          description: page.description,
          canonicalURL: "\(context.config.baseURL)\(pagePath)",
          ogType: "website",
-         image: page.image,
+         image: ogImageAbsolute,
          jsonLD: jsonLD,
          hreflang: hreflangMap
       )

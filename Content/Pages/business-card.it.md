@@ -2,7 +2,7 @@
 title: "App per creare biglietti da visita digitali su iPhone e Android"
 slug: "business-card"
 description: "Un'app per creare biglietti da visita digitali su iPhone e Android. Condividili via NFC, codice QR, App Clip o Apple Wallet. Scopri quante persone li salvano e usa la Modalità Conferenza agli eventi."
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

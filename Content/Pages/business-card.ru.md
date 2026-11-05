@@ -2,7 +2,7 @@
 title: "Приложение для цифровой визитки на iPhone и Android"
 slug: "business-card"
 description: "Конструктор цифровой визитки для iPhone и Android. Делись ею касанием NFC, через QR-код, App Clip или Apple Wallet. Смотри, сколько человек сохранили визитку, и включай режим конференции на мероприятиях."
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

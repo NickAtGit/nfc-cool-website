@@ -2,7 +2,7 @@
 title: "App de Criação de Cartões de Visita Digitais para iPhone e Android"
 slug: "business-card"
 description: "Um criador de cartões de visita digitais para iPhone e Android. Partilhe por toque NFC, código QR, App Clip ou Apple Wallet. Veja quantas pessoas guardam o seu cartão e use o Modo Conferência em eventos ao vivo."
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

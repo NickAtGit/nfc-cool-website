@@ -2,7 +2,7 @@
 title: "Aplikasi pembuat kartu nama digital untuk iPhone & Android"
 slug: "business-card"
 description: "Pembuat kartu nama digital untuk iPhone dan Android. Bagikan melalui ketukan NFC, kode QR, AppClip, atau Apple Wallet. Lihat berapa banyak orang yang menyimpan kartu Anda, aktifkan Mode Konferensi di acara langsung."
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

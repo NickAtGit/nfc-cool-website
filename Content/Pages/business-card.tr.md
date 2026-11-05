@@ -2,7 +2,7 @@
 title: "iPhone ve Android için Dijital Kartvizit Uygulaması"
 slug: "business-card"
 description: "iPhone ve Android için dijital kartvizit uygulaması. NFC okutarak, QR kodla, App Clip ya da Apple Wallet ile paylaş. Kartını kaç kişinin kaydettiğini gör, etkinliklerde Konferans Modu'nu aç."
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

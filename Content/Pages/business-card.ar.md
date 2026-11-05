@@ -2,7 +2,7 @@
 title: "تطبيق إنشاء بطاقات العمل الرقمية لأجهزة iPhone وAndroid"
 slug: "business-card"
 description: "أداة لإنشاء بطاقات العمل الرقمية لأجهزة iPhone وAndroid. شاركها عبر لمسة NFC أو رمز QR أو AppClip أو Apple Wallet. تتبّع عدد من يحفظون بطاقتك، وشغّل وضع المؤتمرات في الفعاليات المباشرة."
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">

@@ -2,7 +2,7 @@
 title: "Business Card Maker App für iPhone & Android"
 slug: "business-card"
 description: "Eine digitale Business Card Maker App für iPhone und Android. Teile deine Visitenkarte per NFC, QR-Code, App Clip oder Apple Wallet. Sieh, wie viele Leute deine Karte speichern, und nutze den Konferenzmodus auf Events."
-image: "/assets/images/BusinessCard/02BusinessCardTop.webp"
+image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
 <section class="page-hero">
