@@ -465,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function() {
    })();
 });
 
-// Sideways card grids: previous and next buttons that move one screenful of cards.
+// Sideways card grids: previous and next buttons that move one card at a time.
 document.addEventListener('DOMContentLoaded', function() {
    document.querySelectorAll('.page-cards-grid.is-carousel').forEach(function(track) {
       const nav = document.createElement('div');
@@ -480,9 +480,8 @@ document.addEventListener('DOMContentLoaded', function() {
          b.addEventListener('click', function() {
             const card = track.firstElementChild;
             const pitch = card.getBoundingClientRect().width + parseFloat(getComputedStyle(track).columnGap || 0);
-            const fit = Math.max(1, Math.floor((track.clientWidth + 1) / pitch));
             const rtl = getComputedStyle(track).direction === 'rtl' ? -1 : 1;
-            track.scrollBy({ left: step * rtl * fit * pitch, behavior: calm ? 'auto' : 'smooth' });
+            track.scrollBy({ left: step * rtl * pitch, behavior: calm ? 'auto' : 'smooth' });
          });
          nav.appendChild(b);
          return b;
