@@ -5,7 +5,7 @@ hero:
 trust:
   price: "Kostenlos"
 
-description: "Kostenlose NFC-Tools für iPhone und Android. Lies jeden NFC-Tag per Fingertipp, beschreibe eigene Tags mit Links, WLAN und Kontakten, dazu QR-, Barcode- und Dokumentenscan."
+description: "Kostenlose NFC-Tools für iPhone und Android. Lies jeden NFC-Tag mit einem Scan, beschreibe eigene Tags mit Links, WLAN und Kontakten, dazu QR-, Barcode- und Dokumentenscan."
 
 heroImagePath: "/assets/images/Landing/NFCTags-v14.webp"
 heroImageWidth: 480
@@ -21,7 +21,7 @@ featuresTitle: "Alles, was du zum Scannen brauchst"
 
 featureBanner:
   title: "NFC.cool Business Card"
-  subtitle: "Eine eigenständige Visitenkarten-App für iPhone und Android - teile sie per NFC-Tipp oder QR-Code, auf dem iPhone zusätzlich per AppClip und Apple Wallet. Sieh, wer deine Karte speichert, organisiere Leads und nutze den Konferenzmodus auf Events."
+  subtitle: "Eine eigenständige Visitenkarten-App für iPhone und Android - teile sie per NFC-Scan oder QR-Code, auf dem iPhone zusätzlich per AppClip und Apple Wallet. Sieh, wer deine Karte speichert, organisiere Leads und nutze den Konferenzmodus auf Events."
   imagePath: "/assets/images/BusinessCard/LanyardScene-v2.webp"
   imageAlt: "Ein Smartphone scannt ein NFC.cool Namensschild am Umhängeband und zeigt den Kontakt an"
   scene: "bizcardroom"
