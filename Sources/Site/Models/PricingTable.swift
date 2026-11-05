@@ -13,6 +13,9 @@ struct PricingTable: Decodable, Sendable {
    /// Column headers, left to right (e.g. `["Free", "Platinum"]`). The table's
    /// top-left corner cell is always blank and is not part of this list.
    let columns: [String]
+   /// Optional pill class per column (`is-free`, `is-personal`, `is-pro`, `is-team`). A column with one
+   /// shows its header as that plan's coloured pill, the same pill the page's feature rows carry.
+   let columnPills: [String]?
    let rows: [PricingTableRow]
 }
 

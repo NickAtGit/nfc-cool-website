@@ -18,8 +18,13 @@ enum PricingTableRenderer {
    /// so the CSS can size the table's responsive `min-width` without knowing
    /// the page context.
    static func renderTable(_ table: PricingTable, strings: UIStrings) -> String {
-      let headerCells = table.columns
-         .map { "<th scope=\"col\">\($0.htmlEscaped)</th>" }
+      let headerCells = table.columns.enumerated()
+         .map { index, name in
+            guard let pills = table.columnPills, index < pills.count else {
+               return "<th scope=\"col\">\(name.htmlEscaped)</th>"
+            }
+            return "<th scope=\"col\"><span class=\"platform-pill is-other \(pills[index].htmlEscaped)\"><span class=\"platform-pill-label\">\(name.htmlEscaped)</span></span></th>"
+         }
          .joined()
       let bodyRows = table.rows.map { row in
          let cells = row.values

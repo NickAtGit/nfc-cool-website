@@ -80,6 +80,37 @@
    display: block;
 }
 
+/* A third badge in the row with text that can be translated, drawn to match the two official ones:
+   their height, corner radius, hairline border, solid glyph and two lines of type. */
+.landing-store-button.is-team {
+   display: inline-flex;
+   align-items: center;
+   gap: 0.5rem;
+   height: 52px;
+   padding: 0 0.875rem 0 0.75rem;
+   background: #fff;
+   color: #000;
+   border: 1.3px solid #000;
+   border-radius: 9.75px;
+   line-height: 1;
+   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.landing-store-button.is-team svg { flex: none; }
+.landing-store-button.is-team span {
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+   font-size: 21px;
+   font-weight: 500;
+   letter-spacing: -0.01em;
+   white-space: nowrap;
+}
+.landing-store-button.is-team small {
+   font-size: 11px;
+   font-weight: 500;
+   letter-spacing: 0;
+}
+
 /* Hero variant: badges keep dark style on the blue gradient - they have authority */
 
 /* ============================================================
@@ -203,6 +234,18 @@
 .platform-pill-label {
    display: inline-block;
 }
+
+/* Text-only pill (plan names): no icon, so even padding. The plans rank like card rarities in a
+   game, each step up a richer colour: Free grey, Personal green, Pro blue, Team purple. */
+.platform-pill.is-other { padding: 0.3rem 0.7rem; }
+.platform-pill.is-free { background: rgba(104, 111, 118, 0.10); color: #565C63; border-color: rgba(104, 111, 118, 0.32); }
+.platform-pill.is-personal { background: rgba(30, 138, 74, 0.10); color: #1C7A47; border-color: rgba(30, 138, 74, 0.32); }
+.platform-pill.is-pro { background: rgba(19, 123, 217, 0.10); color: #136BC0; border-color: rgba(19, 123, 217, 0.30); }
+.platform-pill.is-team { background: rgba(123, 63, 196, 0.11); color: #6D33B5; border-color: rgba(123, 63, 196, 0.34); }
+[data-theme="dark"] .platform-pill.is-free { background: rgba(194, 200, 208, 0.10); color: #C2C8D0; border-color: rgba(194, 200, 208, 0.30); }
+[data-theme="dark"] .platform-pill.is-personal { background: rgba(61, 220, 132, 0.13); color: #5BE39A; border-color: rgba(61, 220, 132, 0.32); }
+[data-theme="dark"] .platform-pill.is-pro { background: rgba(0, 162, 243, 0.13); color: #55BDF6; border-color: rgba(0, 162, 243, 0.36); }
+[data-theme="dark"] .platform-pill.is-team { background: rgba(178, 132, 255, 0.15); color: #C9A4FF; border-color: rgba(178, 132, 255, 0.40); }
 
 /* iOS pill - brand-blue background + text, with a monochrome Apple mark
    (black in light mode, white in dark mode, per Apple brand guidelines) */
@@ -777,6 +820,10 @@ a[data-eml] {
    .landing-store-button img {
       height: 48px;
    }
+   .landing-store-button.is-team { height: 48px; }
+   .landing-store-button.is-team svg { width: 32px; height: 29px; }
+   .landing-store-button.is-team span { font-size: 19.5px; }
+   .landing-store-button.is-team small { font-size: 10.5px; }
 }
 
 /* ============================================================

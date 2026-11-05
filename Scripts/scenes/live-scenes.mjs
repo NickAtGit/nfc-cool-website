@@ -109,6 +109,8 @@ async function start() {
       view.visible = entry.isIntersecting;
       if (view.visible && view.state === 'idle') load(view);
       if (view.scene) view.visible ? play(view) : view.scene.video?.pause();
+      // A code-built scene gives its textures back while it is off screen (a long page would run out).
+      if (!view.visible) view.scene?.release?.();
     }
     wake();
   }, { rootMargin: NEAR_VIEWPORT });
@@ -148,6 +150,8 @@ async function start() {
   }
 
   async function buildScene(key) {
+    // bc/<name>: a scene built in code (the Business Card page) rather than a package of files.
+    if (key.startsWith('bc/')) return (await import('./bc/bc-scenes.mjs')).build(key.slice(3), { renderer, loader, environment });
     const manifestPromise = fetch(new URL(`${key}.json`, BASE)).then(r => {
       if (!r.ok) throw new Error(`manifest ${r.status}`);
       return r.json();

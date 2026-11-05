@@ -362,3 +362,141 @@ document.addEventListener('DOMContentLoaded', function () {
       tile.appendChild(badge);
    });
 });
+
+// A small line icon for the site's icon buttons.
+function siteIcon(path) {
+   const NS = 'http://www.w3.org/2000/svg';
+   const svg = document.createElementNS(NS, 'svg');
+   svg.setAttribute('viewBox', '0 0 24 24');
+   svg.setAttribute('width', '18');
+   svg.setAttribute('height', '18');
+   svg.setAttribute('fill', 'none');
+   svg.setAttribute('stroke', 'currentColor');
+   svg.setAttribute('stroke-width', '2');
+   svg.setAttribute('stroke-linecap', 'round');
+   svg.setAttribute('stroke-linejoin', 'round');
+   svg.setAttribute('aria-hidden', 'true');
+   const line = document.createElementNS(NS, 'path');
+   line.setAttribute('d', path);
+   svg.appendChild(line);
+   return svg;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+   // Business Card page: click a tile and its scene zooms up to 80% of the screen.
+   (function sceneZoom() {
+      const MEDIA = 'img[data-scene^="bc/"], canvas[data-scene^="bc/"]';
+      const tiles = Array.from(document.querySelectorAll('.page-card, .feature-subsection')).filter(function(tile) { return tile.querySelector(MEDIA); });
+      if (!tiles.length || typeof HTMLDialogElement === 'undefined') return;
+      const dialog = document.createElement('dialog');
+      dialog.className = 'scene-zoom';
+      dialog.tabIndex = -1;
+      const close = document.createElement('button');
+      close.type = 'button';
+      close.className = 'sk-theme-toggle scene-zoom-close';
+      close.setAttribute('aria-label', 'Close');
+      close.appendChild(siteIcon('M6 6l12 12M18 6L6 18'));
+      dialog.appendChild(close);
+      document.body.appendChild(dialog);
+      // No zoom transition at phone size, or when the visitor asked for less motion.
+      const still = function() { return window.matchMedia('(prefers-reduced-motion: reduce), (max-width: 639px)').matches; };
+      const EASE = 'cubic-bezier(0.22, 0.8, 0.26, 1)';
+      let holder = null, opener = null, busy = false, byKeys = false;
+      const fromRect = function(rect) {
+         const box = dialog.getBoundingClientRect();
+         const dx = rect.left + rect.width / 2 - (box.left + box.width / 2);
+         const dy = rect.top + rect.height / 2 - (box.top + box.height / 2);
+         return 'translate(' + dx + 'px, ' + dy + 'px) scale(' + rect.width / box.width + ')';
+      };
+      function open(tile, keys) {
+         if (busy || dialog.open) return;
+         const media = tile.querySelector(MEDIA);
+         const rect = media.getBoundingClientRect();
+         // The tile keeps its size while its scene is away, so the page doesn't jump.
+         holder = document.createElement('div');
+         holder.style.width = rect.width + 'px';
+         holder.style.height = rect.height + 'px';
+         holder.style.maxWidth = '100%';
+         holder.style.margin = getComputedStyle(media).margin;
+         media.before(holder);
+         media.style.width = '100%';
+         media.style.height = 'auto';
+         dialog.setAttribute('aria-label', media.getAttribute('alt') || media.getAttribute('aria-label') || '');
+         dialog.prepend(media);
+         opener = tile;
+         byKeys = !!keys;
+         dialog.showModal();
+         // Focus the panel, not the X, so no ring shows on the button until someone tabs to it.
+         dialog.focus();
+         if (!still()) dialog.animate([{ transform: fromRect(rect), opacity: 0.6 }, { transform: 'none', opacity: 1 }], { duration: 420, easing: EASE });
+      }
+      function shut() {
+         if (busy || !dialog.open) return;
+         busy = true;
+         const finish = function() {
+            const media = dialog.querySelector(MEDIA);
+            dialog.close();
+            if (media && holder) {
+               media.style.width = '100%';
+               holder.replaceWith(media);
+            }
+            holder = null;
+            busy = false;
+            // Only keyboard users get focus (and its ring) back on the tile; after a click or tap it stays clear.
+            if (byKeys && opener) opener.focus({ preventScroll: true });
+            else if (document.activeElement && document.activeElement !== document.body) document.activeElement.blur();
+         };
+         if (still() || !holder) return finish();
+         const anim = dialog.animate([{ transform: 'none', opacity: 1 }, { transform: fromRect(holder.getBoundingClientRect()), opacity: 0.6 }], { duration: 300, easing: EASE, fill: 'forwards' });
+         anim.finished.then(function() { finish(); anim.cancel(); });
+      }
+      tiles.forEach(function(tile) {
+         tile.setAttribute('data-scene-zoom', '');
+         tile.tabIndex = 0;
+         tile.addEventListener('click', function(event) { if (!event.target.closest('a, button')) open(tile); });
+         tile.addEventListener('keydown', function(event) {
+            if (event.target === tile && (event.key === 'Enter' || event.key === ' ')) { event.preventDefault(); open(tile, true); }
+         });
+      });
+      close.addEventListener('click', shut);
+      dialog.addEventListener('click', shut);
+      // Esc: animate out the same way instead of the browser's instant close.
+      dialog.addEventListener('cancel', function(event) { event.preventDefault(); shut(); });
+   })();
+});
+
+// Sideways card grids: previous and next buttons that move one screenful of cards.
+document.addEventListener('DOMContentLoaded', function() {
+   document.querySelectorAll('.page-cards-grid.is-carousel').forEach(function(track) {
+      const nav = document.createElement('div');
+      nav.className = 'page-carousel-nav';
+      const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const button = function(label, icon, step) {
+         const b = document.createElement('button');
+         b.type = 'button';
+         b.setAttribute('aria-label', label);
+         b.className = 'sk-theme-toggle';
+         b.appendChild(siteIcon(icon));
+         b.addEventListener('click', function() {
+            const card = track.firstElementChild;
+            const pitch = card.getBoundingClientRect().width + parseFloat(getComputedStyle(track).columnGap || 0);
+            const fit = Math.max(1, Math.floor((track.clientWidth + 1) / pitch));
+            const rtl = getComputedStyle(track).direction === 'rtl' ? -1 : 1;
+            track.scrollBy({ left: step * rtl * fit * pitch, behavior: calm ? 'auto' : 'smooth' });
+         });
+         nav.appendChild(b);
+         return b;
+      };
+      const prev = button(track.getAttribute('data-label-prev') || 'Previous', 'M15 5l-7 7 7 7', -1);
+      const next = button(track.getAttribute('data-label-next') || 'Next', 'M9 5l7 7-7 7', 1);
+      track.after(nav);
+      const update = function() {
+         const at = Math.abs(track.scrollLeft), end = track.scrollWidth - track.clientWidth;
+         prev.disabled = at < 2;
+         next.disabled = at > end - 2;
+      };
+      track.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update);
+      update();
+   });
+});
