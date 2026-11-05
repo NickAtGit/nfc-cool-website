@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # チーム向けデジタル名刺
 
-NFC.cool Business Card for Teamsは、社員全員に自社ブランドのデジタル名刺を用意し、全員が集めたリードを1か所にまとめます。料金は1人あたり年$50、または月$5で、2シートから始められます。14日間のトライアルには支払い用カードの登録が必要ですが、終了前に解約すれば料金はかかりません。
+NFC.cool Business Card for Teamsは、社員全員に自社ブランドのデジタル名刺を用意し、全員が集めたリードを1か所にまとめます。2シートから始められます。14日間のトライアルには支払い用カードの登録が必要ですが、終了前に解約すれば料金はかかりません。
 
 <div class="landing-store-buttons">
 <a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">

@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # 团队电子名片
 
-NFC.cool Business Card for Teams 让公司里的每个人都拥有一张符合你们品牌的电子名片，并把他们收集的每条线索都集中在一处。费用是每人每年 $50，或每月 $5，可以从两个席位开始。14 天试用需要绑定支付卡，在试用结束前取消就不用付费。
+NFC.cool Business Card for Teams 让公司里的每个人都拥有一张符合你们品牌的电子名片，并把他们收集的每条线索都集中在一处。可以从两个席位开始。14 天试用需要绑定支付卡，在试用结束前取消就不用付费。
 
 <div class="landing-store-buttons">
 <a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">

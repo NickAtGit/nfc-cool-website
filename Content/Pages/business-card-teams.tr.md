@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Ekipler için dijital kartvizit
 
-NFC.cool Business Card for Teams, şirketindeki herkese kendi markanla dijital kartvizit verir ve topladıkları her müşteri adayını tek yerde tutar. Kişi başı yılda $50 ya da ayda $5 tutar, iki kullanıcıyla başlayabilirsin. 14 günlük deneme için ödeme kartı gerekir. Deneme bitmeden iptal edersen hiçbir şey ödemezsin.
+NFC.cool Business Card for Teams, şirketindeki herkese kendi markanla dijital kartvizit verir ve topladıkları her müşteri adayını tek yerde tutar. İki kullanıcıyla başlayabilirsin. 14 günlük deneme için ödeme kartı gerekir. Deneme bitmeden iptal edersen hiçbir şey ödemezsin.
 
 <div class="landing-store-buttons">
 <a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">

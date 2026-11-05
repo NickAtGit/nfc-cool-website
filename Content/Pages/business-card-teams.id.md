@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Kartu nama digital untuk tim
 
-NFC.cool Business Card for Teams memberi semua orang di perusahaan Anda kartu nama digital dengan merek Anda, dan menyimpan semua prospek yang mereka kumpulkan di satu tempat. Biayanya $50 per orang per tahun, atau $5 per bulan, dan Anda bisa mulai dengan dua kursi. Uji coba 14 hari memerlukan kartu pembayaran. Batalkan sebelum berakhir, dan Anda tidak membayar apa pun.
+NFC.cool Business Card for Teams memberi semua orang di perusahaan Anda kartu nama digital dengan merek Anda, dan menyimpan semua prospek yang mereka kumpulkan di satu tempat. Anda bisa mulai dengan dua kursi. Uji coba 14 hari memerlukan kartu pembayaran. Batalkan sebelum berakhir, dan Anda tidak membayar apa pun.
 
 <div class="landing-store-buttons">
 <a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">

@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Biglietti da visita digitali per i team
 
-NFC.cool Business Card for Teams dà a ogni persona della tua azienda un biglietto da visita digitale con il tuo brand e riunisce in un posto solo tutti i lead raccolti. Costa $50 a persona all'anno, o $5 al mese, e puoi iniziare con due posti. La prova di 14 giorni richiede una carta di pagamento. Se disdici prima della scadenza non paghi nulla.
+NFC.cool Business Card for Teams dà a ogni persona della tua azienda un biglietto da visita digitale con il tuo brand e riunisce in un posto solo tutti i lead raccolti. Puoi iniziare con due posti. La prova di 14 giorni richiede una carta di pagamento. Se disdici prima della scadenza non paghi nulla.
 
 <div class="landing-store-buttons">
 <a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">

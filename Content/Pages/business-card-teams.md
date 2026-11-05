@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Digital Business Cards for Teams
 
-NFC.cool Business Card for Teams gives everyone in your company a digital business card in your brand, and keeps every lead they collect in one place. It costs $50 per person a year, or $5 a month, and you can start with two seats. The 14-day trial needs a payment card. Cancel before it ends and you pay nothing.
+NFC.cool Business Card for Teams gives everyone in your company a digital business card in your brand, and keeps every lead they collect in one place. You can start with two seats. The 14-day trial needs a payment card. Cancel before it ends and you pay nothing.
 
 <div class="landing-store-buttons">
 <a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">

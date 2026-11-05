@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Tarjetas de visita digitales para equipos
 
-NFC.cool Business Card for Teams da a todas las personas de tu empresa una tarjeta de visita digital con tu marca y reúne en un solo lugar todos los leads que recogen. Cuesta $50 por persona al año, o $5 al mes, y puedes empezar con dos plazas. La prueba de 14 días requiere una tarjeta bancaria. Si cancelas antes de que termine, no pagas nada.
+NFC.cool Business Card for Teams da a todas las personas de tu empresa una tarjeta de visita digital con tu marca y reúne en un solo lugar todos los leads que recogen. Puedes empezar con dos plazas. La prueba de 14 días requiere una tarjeta bancaria. Si cancelas antes de que termine, no pagas nada.
 
 <div class="landing-store-buttons">
 <a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">

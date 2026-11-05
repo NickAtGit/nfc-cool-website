@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Cartes de visite numériques pour les équipes
 
-NFC.cool Business Card for Teams donne à chaque membre de votre entreprise une carte de visite numérique à votre image, et réunit au même endroit tous les prospects collectés. Cela coûte 50 $ par personne et par an, ou 5 $ par mois, et vous pouvez commencer avec deux places. L'essai de 14 jours nécessite une carte bancaire. Résiliez avant la fin et vous ne payez rien.
+NFC.cool Business Card for Teams donne à chaque membre de votre entreprise une carte de visite numérique à votre image, et réunit au même endroit tous les prospects collectés. Vous pouvez commencer avec deux places. L'essai de 14 jours nécessite une carte bancaire. Résiliez avant la fin et vous ne payez rien.
 
 <div class="landing-store-buttons">
 <a href="https://business.nfc.cool/org/start/" class="landing-store-button is-team">
