@@ -22,13 +22,31 @@ struct FeatureSitemapDataAdapter: SitemapDataAdapting {
       // under /de/ and /ja/). Those pages are never rendered, so drop their URLs
       // here - otherwise the per-locale sitemaps hand crawlers a list of 404s.
       let defaultLang = context.config.effectiveDefaultLanguage
-      let fallbackPaths = Set(context.sections.flatMap { section in
+      var fallbackPaths = Set(context.sections.flatMap { section in
          section.pages
             .filter { !LocalizedContent.isEmitted($0, defaultLanguage: defaultLang) }
             .map { context.router.pagePath(for: $0, in: section.config) }
       })
+      // Same gate for static pages: MarketingPageRenderer turns an untranslated one
+      // (Privacy, Terms, the EN-only app pages) into a noindex bridge to the English
+      // page, which has no place in a sitemap. Each one joins its language's sitemap
+      // by itself on the day its `.{locale}.md` exists.
+      fallbackPaths.formUnion(
+         context.staticPages
+            .filter { !LocalizedContent.isEmitted($0, defaultLanguage: defaultLang) }
+            .map { context.router.staticPagePath(for: $0) }
+      )
       if !fallbackPaths.isEmpty {
          entries = entries.filter { !fallbackPaths.contains($0.path) }
+      }
+      entries = Self.usingLastModified(entries, context: context)
+
+      // HoldEm's own pages are hand-written in Content/StaticFiles, which SiteKit only
+      // copies, so it cannot list them. They exist in English only.
+      if context.router.homePath() == "/" {
+         for path in ["/holdem/", "/holdem/privacy-policy/", "/holdem/terms-of-service/"] {
+            entries.append(SitemapEntry(path: path))
+         }
       }
 
       // `loadFeatures` filters to the slugs whose YAML exists for the build's
@@ -43,5 +61,29 @@ struct FeatureSitemapDataAdapter: SitemapDataAdapting {
          entries.append(SitemapEntry(path: "\(basePath)features/\(feature.slug)/", changeFrequency: .monthly, priority: 0.7))
       }
       return entries
+   }
+
+   /// SiteKit stamps each post with its publish date, so a post whose facts were updated still
+   /// looks old to crawlers. A post's `lastModified` frontmatter wins, read the way
+   /// `BlogPostRenderer` reads it for `dateModified`.
+   private static func usingLastModified(_ entries: [SitemapEntry], context: BuildContext) -> [SitemapEntry] {
+      let formatter = DateFormatter()
+      formatter.locale = Locale(identifier: "en_US_POSIX")
+      formatter.dateFormat = "yyyy-MM-dd"
+      formatter.timeZone = TimeZone(secondsFromGMT: 0) // The zone SitemapRenderer prints in.
+
+      var modified: [String: Date] = [:]
+      for section in context.sections {
+         for page in section.pages {
+            guard let raw: String = page.extensionValue("lastModified"),
+                  let date = formatter.date(from: String(raw.prefix(10)))
+            else { continue }
+            modified[context.router.pagePath(for: page, in: section.config)] = date
+         }
+      }
+      return entries.map { entry in
+         guard let date = modified[entry.path] else { return entry }
+         return SitemapEntry(path: entry.path, lastModified: date, changeFrequency: entry.changeFrequency, priority: entry.priority)
+      }
    }
 }

@@ -25,6 +25,8 @@ jobs:
     # before it could save the caches below. Warm runs (cache hit) finish in a
     # few minutes; this ceiling is only there so the first run can populate them.
     timeout-minutes: 30
+    outputs:
+      indexnow_payload: ${{ steps.indexnow.outputs.payload }}
     steps:
       - uses: actions/checkout@v4
 
@@ -89,6 +91,15 @@ jobs:
       - name: Fix portrait image variants
         run: python3 Scripts/fix-portrait-variants.py
 
+      # Compares the built pages with the fingerprints the live site published on
+      # its last deploy, and adds the new fingerprints to _Site for the next one.
+      # Its failure only costs one announcement, never the deploy.
+      - name: Find the pages this deploy changes
+        id: indexnow
+        if: github.event_name != 'pull_request'
+        continue-on-error: true
+        run: python3 Scripts/indexnow.py
+
       - name: Upload artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
@@ -107,3 +118,17 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # After deploy-pages, so the announced pages and the key file are already live.
+      # An answer other than 200/202 shows as a warning on the run; the deploy stays green.
+      - name: Announce changed pages to IndexNow
+        if: needs.build.outputs.indexnow_payload != ''
+        continue-on-error: true
+        env:
+          PAYLOAD: ${{ needs.build.outputs.indexnow_payload }}
+        run: |
+          code=$(curl -sS --max-time 30 -o /dev/null -w '%{http_code}' \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            -d "$PAYLOAD" https://api.indexnow.org/indexnow) || code=failed
+          echo "IndexNow answered: $code"
+          case "$code" in 200|202) ;; *) echo "::warning::IndexNow answered $code, so this deploy's pages were not announced" ;; esac
