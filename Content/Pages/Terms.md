@@ -97,7 +97,7 @@ You can read the website and use its browser tools for free, without an account.
 
 ## Ads in the free version
 
-The free version of the app can show ads, served by Google AdMob. Before ads use data from your device, the app asks for your choice. The [privacy policy](/privacy/) explains what that choice covers. Platinum removes the ads.
+The free version of the app can show ads, served by Google AdMob. The app requests ads only after Google's consent tool has checked whether it needs your choice, and asks you where it does. The [privacy policy](/privacy/) explains what that choice covers. Platinum removes the ads.
 
 An ad leads to the advertiser's own offer. If you buy something from an advertiser, that is a contract between you and them. If you see an ad that looks illegal or misleading, tell us at info (at) nfc (dot) cool and we will look into it.
 
