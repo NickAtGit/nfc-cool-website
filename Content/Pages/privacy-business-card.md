@@ -331,7 +331,7 @@ We share data only with the people and services below, and only for the reasons 
 <li><strong>Anyone you share a card with</strong> sees what is on it. On a team, owners, admins and managers see the team's cards, contacts and statistics; members see their own.</li>
 <li><strong>DigitalOcean:</strong> hosts our server, database and files, and delivers files through its content delivery network.</li>
 <li><strong>Mailjet:</strong> sends our emails, teams' follow-up emails and the newsletter.</li>
-<li><strong>Cloudflare:</strong> runs the small service that adds newsletter sign-ups from the app to Mailjet.</li>
+<li><strong>Cloudflare:</strong> runs the small service that adds newsletter sign-ups from the app to Mailjet, and protects DigitalOcean's content delivery network against bots (see Cookies).</li>
 <li><strong>Google (Firebase):</strong> push notifications, app analytics, crash reports and remote settings.</li>
 <li><strong>PostHog:</strong> usage analytics and session recordings in the iPhone app, if you allow them.</li>
 <li><strong>Apple:</strong> Sign in with Apple, App Store purchases, push delivery on iPhone, and App Clip cards.</li>
