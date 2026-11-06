@@ -3,7 +3,7 @@ backLinkText: "← Semua fitur"
 
 card:
   title: "Pemindai dokumen dengan OCR"
-  description: "Pindai dokumen di iPhone atau iPad dengan deteksi tepi otomatis dan OCR - semuanya di perangkat Anda, tidak ada yang diunggah. Ekspor PDF multi-halaman yang dapat dicari."
+  description: "Pindai dokumen di iPhone atau iPad dengan deteksi tepi otomatis dan OCR langsung di perangkat. Dokumen tersinkron melalui iCloud Anda sendiri, dan NFC.cool tidak menerimanya. Ekspor PDF multi-halaman yang dapat dicari."
   imagePath: "/assets/images/Webflow/document-scan.webp"
   platforms: "iOS only"
 

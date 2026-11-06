@@ -3,7 +3,7 @@ backLinkText: "← Tutte le funzioni"
 
 card:
   title: "Scanner di documenti con OCR"
-  description: "Digitalizza i documenti su iPhone o iPad con il rilevamento automatico dei bordi e l'OCR, tutto sul dispositivo e senza caricare niente in rete. Esporta PDF di più pagine in cui puoi cercare il testo."
+  description: "Digitalizza i documenti su iPhone o iPad con il rilevamento automatico dei bordi e l'OCR sul dispositivo. I documenti si sincronizzano tramite il tuo iCloud e non arrivano a NFC.cool. Esporta PDF di più pagine in cui puoi cercare il testo."
   imagePath: "/assets/images/Webflow/document-scan.webp"
   platforms: "Solo iOS"
 

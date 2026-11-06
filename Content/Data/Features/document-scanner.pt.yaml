@@ -3,7 +3,7 @@ backLinkText: "← Todas as funcionalidades"
 
 card:
   title: "Digitalizador de Documentos com OCR"
-  description: "Digitalize documentos no iPhone ou iPad com deteção automática de margens e OCR - tudo no seu dispositivo, nada é enviado. Exporte PDFs pesquisáveis de várias páginas."
+  description: "Digitalize documentos no iPhone ou iPad com deteção automática de margens e OCR no próprio dispositivo. Os documentos sincronizam através do seu próprio iCloud, e o NFC.cool não os recebe. Exporte PDFs pesquisáveis de várias páginas."
   imagePath: "/assets/images/Webflow/document-scan.webp"
   platforms: "iOS apenas"
 

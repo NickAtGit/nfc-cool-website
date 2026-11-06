@@ -3,7 +3,7 @@ backLinkText: "← 全部功能"
 
 card:
   title: "支持 OCR 的文档扫描"
-  description: "在 iPhone 或 iPad 上扫描文档，自动识别边缘并进行 OCR，全部在设备端完成，不上传任何内容。导出可搜索的多页 PDF。"
+  description: "在 iPhone 或 iPad 上扫描文档，在设备端自动识别边缘并进行 OCR；文档通过你自己的 iCloud 同步，NFC.cool 不会收到。导出可搜索的多页 PDF。"
   imagePath: "/assets/images/Webflow/document-scan.webp"
   platforms: "仅限 iOS"
 

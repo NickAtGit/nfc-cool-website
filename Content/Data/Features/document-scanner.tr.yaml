@@ -3,7 +3,7 @@ backLinkText: "← Tüm özellikler"
 
 card:
   title: "OCR'lı Belge Tarayıcı"
-  description: "iPhone ya da iPad'de belgeleri kenar algılamayla ve OCR ile tara. Hepsi cihazında olur, hiçbir şey yüklenmez. İçinde arama yapılabilen, çok sayfalı PDF'ler üret."
+  description: "iPhone ya da iPad'de belgeleri kenar algılamayla ve OCR ile tara. İşlem cihazında yapılır; belgeler kendi iCloud'un üzerinden eşitlenir ve NFC.cool'a gelmez. İçinde arama yapılabilen, çok sayfalı PDF'ler üret."
   imagePath: "/assets/images/Webflow/document-scan.webp"
   platforms: "Yalnızca iOS"
 

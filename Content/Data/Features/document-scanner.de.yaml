@@ -3,7 +3,7 @@ backLinkText: "← Alle Funktionen"
 
 card:
   title: "Dokumenten-Scanner mit OCR"
-  description: "Scanne Dokumente auf iPhone oder iPad mit automatischer Kantenerkennung und OCR - alles auf deinem Gerät, nichts wird hochgeladen. Exportiere durchsuchbare, mehrseitige PDFs."
+  description: "Scanne Dokumente auf iPhone oder iPad mit automatischer Kantenerkennung und OCR direkt auf dem Gerät. Sie synchronisieren sich über deine eigene iCloud, und NFC.cool erhält sie nicht. Exportiere durchsuchbare, mehrseitige PDFs."
   imagePath: "/assets/images/Webflow/document-scan.webp"
   platforms: "Nur iOS"
 

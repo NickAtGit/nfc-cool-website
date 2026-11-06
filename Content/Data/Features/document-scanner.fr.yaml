@@ -3,7 +3,7 @@ backLinkText: "← Toutes les fonctionnalités"
 
 card:
   title: "Scanner de documents avec OCR"
-  description: "Numérisez des documents sur iPhone ou iPad avec détection automatique des bords et OCR - tout sur votre appareil, rien n'est envoyé en ligne. Exportez des PDF multipages avec recherche de texte."
+  description: "Numérisez des documents sur iPhone ou iPad avec détection automatique des bords et OCR sur l'appareil. Ils se synchronisent via votre propre iCloud et ne parviennent pas à NFC.cool. Exportez des PDF multipages avec recherche de texte."
   imagePath: "/assets/images/Webflow/document-scan.webp"
   platforms: "iOS uniquement"
 

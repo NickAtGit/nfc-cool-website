@@ -3,7 +3,7 @@ backLinkText: "→ كل الميزات"
 
 card:
   title: "ماسح المستندات مع OCR"
-  description: "امسح المستندات على iPhone أو iPad مع اكتشاف تلقائي للحواف وOCR - كل ذلك على جهازك، دون رفع أي شيء. صدّر ملفات PDF متعددة الصفحات قابلة للبحث."
+  description: "امسح المستندات على iPhone أو iPad مع اكتشاف تلقائي للحواف وOCR على جهازك. تتزامن المستندات عبر iCloud الخاص بك، ولا تصل إلى NFC.cool. صدّر ملفات PDF متعددة الصفحات قابلة للبحث."
   imagePath: "/assets/images/Webflow/document-scan.webp"
   platforms: "iOS فقط"
 

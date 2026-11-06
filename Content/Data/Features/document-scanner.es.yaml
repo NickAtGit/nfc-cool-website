@@ -3,7 +3,7 @@ backLinkText: "← Todas las funciones"
 
 card:
   title: "Escáner de documentos con OCR"
-  description: "Escanea documentos en iPhone o iPad con detección automática de bordes y OCR - todo en tu dispositivo, sin subir nada. Exporta PDFs de varias páginas que se pueden buscar."
+  description: "Escanea documentos en iPhone o iPad con detección automática de bordes y OCR en el propio dispositivo. Se sincronizan a través de tu propio iCloud y no llegan a NFC.cool. Exporta PDFs de varias páginas que se pueden buscar."
   imagePath: "/assets/images/Webflow/document-scan.webp"
   platforms: "Solo iOS"
 
