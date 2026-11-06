@@ -25,7 +25,6 @@ enOnly:
   files:
     - "Content/Pages/Privacy.md"
     - "Content/Pages/privacy-business-card.md"
-    - "Content/Pages/privacy-moments.md"
     - "Content/Pages/privacy-lost-pet-tag.md"
     - "Content/Pages/Terms.md"
     - "Content/Pages/terms-business-card.md"

@@ -182,7 +182,7 @@ struct MarketingPageRenderer: Renderer {
       // in markdown. Just drop the rendered body inside <main> - no auto h1,
       // no sk-article-body wrapper. The newsletter signup closes every page
       // except the legal ones, which stay focused with no signup CTA.
-      let legalSlugs: Set<String> = ["terms", "privacy", "impressum", "terms/business-card", "terms/business-card/dpa", "privacy/business-card", "privacy/moments", "privacy/lost-pet-tag"]
+      let legalSlugs: Set<String> = ["terms", "privacy", "impressum", "terms/business-card", "terms/business-card/dpa", "privacy/business-card", "privacy/lost-pet-tag"]
       let newsletter = legalSlugs.contains(page.slug) ? "" : newsletterHTML
       // Resolve any `{{PRICING_TABLE:<name>}}` tokens the markdown authored
       // (e.g. the business-card plan comparison) into generated table HTML,
