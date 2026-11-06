@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 slug: "privacy"
-description: "How NFC.cool collects, processes, and protects your personal data - across this website and the NFC.cool family of apps for iPhone, iPad, Mac, and Android."
+description: "How the nfc.cool website and the NFC.cool Tools app for iPhone, iPad and Android process personal data, who receives it, how long it is kept, and the rights you have under the GDPR."
 ---
 
 <section class="page-hero">
@@ -10,11 +10,11 @@ description: "How NFC.cool collects, processes, and protects your personal data 
 
 <div class="page-hero-text">
 
-# Privacy policy
+# Privacy policy for NFC.cool Tools and nfc.cool
 
-What personal data we collect, how we use it, the third parties involved, and the rights you have under the GDPR and equivalent laws.
+What personal data the nfc.cool website and the NFC.cool Tools app process, why, who receives it, how long it is kept, and the rights you have under the GDPR.
 
-<strong>Last modified: February 2024</strong>
+<strong>Last modified: November 6, 2026</strong>
 
 </div>
 
@@ -28,276 +28,394 @@ What personal data we collect, how we use it, the third parties involved, and th
 
 <section class="page-section">
 
-## Summary of Key Points
+## The short version
 
-This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents(Connect To Table OF Contents) below to find the section you are looking for.
+<div class="page-cards-grid">
+<article class="page-card"><h3>The website</h3><p>nfc.cool sets no cookies and uses no analytics, tracking pixels or third-party scripts. GitHub hosts it and logs visitors' IP addresses for security.</p></article>
+<article class="page-card"><h3>On your device</h3><p>Reading and writing tags, recognising text, reading passports and ID cards, and 3D capture all happen on your device.</p></article>
+<article class="page-card"><h3>Your iCloud, not ours</h3><p>On iPhone and iPad, what you save in the app syncs through your own iCloud account. We cannot read it.</p></article>
+<article class="page-card"><h3>Analytics and crash reports</h3><p>The app sends usage events and crash reports to Google Firebase, so we can see how it is used and fix problems. You can object.</p></article>
+<article class="page-card"><h3>Ads in the free version</h3><p>Google AdMob shows the ads. Google's consent form, and on iPhone and iPad Apple's tracking prompt, decide whether they can be personalised. Platinum has no ads.</p></article>
+<article class="page-card"><h3>We do not sell your data</h3><p>If you allow personalised ads, Google uses ad identifiers to choose them. See <a href="#we-do-not-sell-your-data">We do not sell your data</a> for how to say no.</p></article>
+<article class="page-card"><h3>Your rights</h3><p>You can see, correct or delete your data, object to how we use it, and complain to the CNPD. See <a href="#your-rights">Your rights</a>.</p></article>
+<article class="page-card"><h3>Who is responsible</h3><p>Nicolo Stanciu, trading as NFC.cool, in Coimbra, Portugal. Questions about your data: info (at) nfc (dot) cool.</p></article>
+</div>
 
-## What personal information do we process?
+</section>
 
-When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use.
+<section class="page-section is-reading">
 
-## Do we receive any information from third parties?
+<div class="page-cards-grid">
+<nav class="page-card" aria-label="On this page">
+<h3>On this page</h3>
+<ul>
+<li><a href="#what-this-policy-covers">What this policy covers</a></li>
+<li><a href="#who-is-responsible">Who is responsible</a></li>
+<li><a href="#the-data-we-process-and-why">The data we process, and why</a></li>
+<li><a href="#who-receives-data">Who receives data</a></li>
+<li><a href="#where-data-is-processed-and-data-outside-the-eu">Where data is processed, and data outside the EU</a></li>
+<li><a href="#how-long-we-keep-data">How long we keep data</a></li>
+<li><a href="#we-do-not-sell-your-data">We do not sell your data</a></li>
+<li><a href="#what-you-must-give-us-and-automated-decisions">What you must give us, and automated decisions</a></li>
+<li><a href="#your-rights">Your rights</a></li>
+<li><a href="#children">Children</a></li>
+<li><a href="#cookies-and-similar-technologies">Cookies and similar technologies</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#changes-to-this-policy">Changes to this policy</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
 
-We do not receive any information from third parties.
+## What this policy covers
 
-## How do we process your information?
-
-We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so.
-
-## In what situations and which parties do we share personal information?
-
-We may share information in specific situations and with specific third parties.
-
-## How do we keep your information safe?
-
-We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmisson over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or the unauthorized thrid parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.
-
-## What are your rights?
-
-Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding you personal information.
-
-## How do you exercise your rights?
-
-The easiest way to exercise your rights is by visiting us [here](/contact), or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
-
-## Table of Contents
+This policy covers:
 
 <ul>
-<li>What information do we collect?</li>
-<li>How do we process your information?</li>
-<li>What legal bases do we rely on to process your personal information?</li>
-<li>When and with who do we share your personal information?</li>
-<li>Do we use cookies and other tracking personal information?</li>
-<li>Marketing cookies.</li>
-<li>How long do we keep your information?</li>
-<li>How do we keep your information safe?</li>
-<li>Do we collect information from minors?</li>
-<li>What are your privacy rights?</li>
-<li>Controls for do-not-track features.</li>
-<li>Do we make updates to this notice?</li>
-<li>How can you contact us about this notice?</li>
-<li>How can you review, update or delete the data we collect from you?</li>
+<li>the website at nfc.cool, including its guides, its blog and the tools that work in your browser, such as the <a href="/online-nfc-reader/">online NFC reader</a> ("the website");</li>
+<li>the NFC.cool Tools app for iPhone and iPad, and for Android ("the app").</li>
 </ul>
 
-## What Information do we collect?
+NFC.cool Business Card has its own [privacy policy](/privacy/business-card/). It also covers NFC.cool business card accounts, including the ones you sign in to in this app, the cards made with them, and the details people leave on those cards. See [Business card accounts](#business-card-accounts).
 
-## Personal information you disclose to us
+## Who is responsible
 
-We collect personal information that you voluntarily provide to us when you register on the Services, express an interest in obtaining information about us or our products and Services, when you participate in activities on the Servicers, or otherwise when you contact us.
+The controller for the processing described here is:
 
-## Personal Information Provided by you
+<div class="page-cards-grid">
+<article class="page-card">
+<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934<br>Phone: +351 925 378 989</p>
+<p>E-Mail: info (at) nfc (dot) cool</p>
+</article>
+</div>
 
-The personal information that we collect depend on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:
+We have not appointed a data protection officer. For any question about your data, write to the controller at the address above.
+
+## The data we process, and why
+
+This section describes what data the website and the app process, why, and on what legal basis.
+
+### The website
+
+<strong>Hosting.</strong> The website is hosted on GitHub Pages, a service of GitHub, Inc., and delivered through GitHub's content delivery network. To deliver a page, GitHub's servers receive your IP address, the address of the page you open and the details your browser sends, as every web server does. GitHub logs visitors' IP addresses for security purposes, under the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). We do not receive these logs.
+
+<strong>Legal basis:</strong> our legitimate interest in delivering the website securely (Art. 6(1)(f) GDPR).
+
+<strong>No cookies, analytics or third-party scripts.</strong> The website sets no cookies. It uses no analytics, no tracking pixels and no ad networks, and loads no scripts, fonts or embedded content from other companies. Its fonts are served from nfc.cool itself. It keeps two settings in your browser's storage, described in [Cookies and similar technologies](#cookies-and-similar-technologies).
+
+<strong>Tools in your browser.</strong> The online NFC reader reads and writes tags with your browser's Web NFC feature. What it reads stays in your browser and is not sent to us. The tap counter page shows the count that a tag adds to the page's address, and your browser decodes it. Like any page request, that address, with the tag's serial number and count, reaches GitHub's servers.
+
+<strong>Newsletter.</strong> If you sign up on the website, your email address goes to our newsletter list at Mailjet. See [The newsletter](#the-newsletter).
+
+<strong>Links to shops and stores.</strong>
 
 <ul>
-<li>Names</li>
-<li>Phone Numbers</li>
-<li>Email Adresses</li>
-<li>Mailing Adresses</li>
-<li>Usernames</li>
-<li>Billing Adresses</li>
+<li>Some links to shops, such as Amazon, are affiliate links. If you follow one, the shop knows you came from our website, and sets its own cookies on its own site under its own policy. If you buy something, we may earn a commission. Amazon tells us which products were bought through our links, but not who bought them.</li>
+<li>Some links to the App Store carry a campaign name. Apple shows us only totals for each campaign, such as the number of downloads.</li>
+<li>Links to our social media profiles are plain links. Nothing loads from those networks until you click one.</li>
 </ul>
 
-## Sensitive Information
+### Analytics and crash reports in the app
 
-Sensitive data, including details about racial or ethnic background, health, religious views, or other categories as listed by applicable data protection laws, is not processed by us intentionally. Kindly study our comprehensive privacy policy or get in touch with us if you have any questions or issues regarding particular categories of data.
-
-## In what situations and which parties do we share personal information?
-
-We may share information in specific situations and with specific third parties. During the handling of personal data, there is a possibility that such data may be transferred to or disclosed to other entities, companies, legally independent organizational units, or individuals. The recipients of this information may encompass service providers entrusted with IT-related responsibilities or providers of services and content seamlessly integrated into a website. In these instances, we adhere to legal stipulations and, specifically, enter into suitable contracts or agreements designed to safeguard your data with the recipients thereof.
-
-## Data processing in thrid Countries
-
-In the event that we engage in data processing in a third country (i.e., outside the European Union (EU) or the European Economic Area (EEA)), or if the processing occurs within the context of utilizing third-party services, or involves the disclosure or transfer of data to other individuals, entities, or companies, such actions will strictly adhere to legal requirements. Unless explicit consent is given or there exists a contractual or legal necessity for the transfer, we ensure that data processing in third countries maintains a recognized standard of data protection. This may involve contractual obligations through the EU Commission's standard protection clauses, certifications, or adherence to binding internal data protection regulations, as outlined in Articles 44 to 49 of the General Data Protection Regulation (DSGVO), detailed on the [EU Commission's information page](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection_en).
-
-## Payment Data
-
-We may collect data necessary to process your payment if you make purchases, such as your payment instrument number, and the security code associated with your payment instrument. All payment data is stored by: Stripe.
-
-All personal information that you provide to us must be true, complete, accurate and you must notify us of any changes to such personal information.
-
-## Information automatically collected
-
-Some information such as your Internet Protocol (IP) adress or browser and device characteristics is collected automatically when you visit our Services.
-
-We automatically collect certain information when you visit, use or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP, address, browser and device characteristics, operating system, language preferences, referring's URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of your Services, and for our internal analytics and reporting purposes.
-
-Like many businesses, we also collect information through cookies and similar technologies.
-
-The information we collect includes:
+From the first time you open it, the app uses Firebase, a Google service:
 
 <ul>
-<li><strong>Log and Usage Data:</strong> Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, errors reports (sometimes called "crash dumps"), and hardware settings).</li>
-<li><strong>Device Data:</strong> We collect device data such as information about your computes, phone, tablet or other device you use to access the Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, Internet service provider and/or mobile carrier, operating system and system configuration information.</li>
-<li><strong>Location Data:</strong> We collect location data such as information about device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling you Location settings on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.</li>
+<li><strong>Firebase Analytics</strong> records which screens you open and what you do in the app. On iPhone and iPad this includes your answers to the questions the app asks when you first open it, the steps you take on the paywall, and your purchases: the transaction number, the product, its price and its currency. On Android it includes the first-run questions and your answers, the paywall, and the Google review link creator. Firebase also records some events by itself, such as the first time you open the app, each session and app updates. Each event comes with an identifier for the app on your device, device details such as the model, system version and language, and your approximate region, which Google works out from your IP address.</li>
+<li><strong>Advertising identifiers:</strong> the iPhone and iPad app does not give Firebase Analytics your device's advertising identifier (IDFA). On Android, Firebase Analytics also collects your phone's advertising ID where one is available. You can reset or delete it in your phone's settings.</li>
+<li><strong>Firebase Crashlytics</strong> sends a report when the app crashes, with the device model, system version, app version, where in the app the crash happened and an identifier for the app installation. On Android a report can also include technical notes from the app, such as the state of the NFC reader. We add no name, email address or user id to crash reports.</li>
 </ul>
 
-## How do we process your information?
+<strong>Purpose:</strong> to understand how the app is used, find and fix problems, and decide what to improve. <strong>Legal basis:</strong> our legitimate interest in an app that works and gets better (Art. 6(1)(f) GDPR). This data is linked to identifiers for the app and your device, not to your name or email address. You can object at any time by emailing info (at) nfc (dot) cool. See [Your rights](#your-rights).
 
-We process your information to provide, improve and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.
+### Ads in the free version
 
-We process your personal information for a variety of reasons, depending on how you interact with our Services, including:
+The free version of the app shows ads from Google AdMob. Platinum shows no ads.
 
 <ul>
-<li>To facilitate account creation and authentication and otherwise manage user accounts. We may process your information so you can create and log in to your account, as well as keep your account in working order.</li>
-<li>To fulfil and manage orders. We may process your information to fulfil and mage your orders, payments, returns, and exchanges made through the Services.</li>
-<li>To Save or protect and individual's vital interest. We may process your information when necessary to save or protect and individual's vital interest, such as to prevent harm.</li>
+<li><strong>Your choice first.</strong> The app requests ads only after Google's consent tool has checked whether your consent is needed where you are. Where it is, Google's consent form asks you whether Google may store and read information on your device and show you personalised ads.</li>
+<li><strong>iPhone and iPad:</strong> Apple's tracking prompt also asks whether the app may use your device's advertising identifier (IDFA). Google AdMob receives it only if you allow tracking.</li>
+<li><strong>Android:</strong> Google AdMob can use your phone's advertising ID. You can reset or delete it in your phone's settings.</li>
+<li><strong>Each ad request</strong> sends Google technical data, such as your IP address, your device model and system version, and the app, so that Google can deliver the ad, count it and protect against fraud.</li>
 </ul>
 
-## What legal bases do we rely on to process your information?
+Google decides itself how it uses ad data, as an independent controller, under its own [privacy policy](https://policies.google.com/privacy) and its [explanation of how it uses data from apps](https://policies.google.com/technologies/partner-sites).
 
-We only process your personal information when we believe it is necessary and we have a valid reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your tights, or to fulfill our legitimate business interests.
+<strong>Legal basis:</strong> your consent (Art. 6(1)(a) GDPR) for personalised ads and for storing and reading information on your device for ads, which is also the consent Portuguese law requires (Art. 5 of Lei 41/2004). If you decline, Google can still show ads that are not personalised. For those, we rely on our legitimate interest in funding the free version (Art. 6(1)(f) GDPR).
 
-The General Data Protection Regulation (GDPR) require us to explain the valid legal bases we reply on in order to process your personal information. As such, we may rely on the following legal bases to process your personal information:
+<strong>Changing your choice.</strong> You can change your choice at any time:
 
 <ul>
-<li><strong>Consent:</strong> We may process your information if you have given us permission (i.e., consent) to use your personal information for a specific purpose. You can withdraw you consent at any time.</li>
-<li><strong>Performance of a Contract:</strong>We may process your personal information when we believe it is necessary to fulfill our contractual obligations to you, including providing our Services or at your request prior to entering into a contract with you.</li>
-<li><strong>Legal Obligations:</strong>We may process your information where we believe it is necessary for compliance with our legal obligations, such as to cooperate with a law enforcement body or regulatory agency, exercise or defend our legal rights, or disclose your information as evidence in litigation in which we are involved.</li>
-<li><strong>Vital Interests:</strong>We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a thrid party, such as situations involving potential threats to the safety of any person.</li>
+<li>where the app offers it, with Reset Consent in More, which asks for your choice again;</li>
+<li>on iPhone and iPad, in Settings, Privacy &amp; Security, Tracking;</li>
+<li>on Android, by deleting or resetting your advertising ID in your phone's settings;</li>
+<li>by emailing info (at) nfc (dot) cool, and we help you change it.</li>
 </ul>
 
-## When and with whom do we share your personal information?
+Withdrawing your consent does not affect what happened before.
 
-We may share information in specific situations described in this section and/or with the following thrid parties.
+### Purchases and Platinum
 
-We utilize AdMob and Firebase, including their various features, to enhance the functionality of our app and deliver personalized content. AdMob, a mobile advertising platform provided by Google, allows us to serve ads within our app. Firebase, a mobile and web application development platform, provides us with valuable analytics and other functionalities.
+You buy Platinum, including free trials, lifetime purchases and offers you redeem with a code, through the App Store or Google Play. Apple or Google takes the payment. We do not receive your card or other payment details.
 
-By using our app, you consent to the data processing practices outlined by AdMob and Firebase. If you have any questions or concerns about how your data is handled, please contact us at [here](/contact).
-
-We may need to share your personal information in the following situations:
+We use Qonversion to manage purchases. Qonversion knows the app by an identifier it creates, the Qonversion user id, not by your name or email address. It receives:
 
 <ul>
-<li><strong>Business Transfers:</strong>We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
-<li><strong>When we use Google Analytics:</strong> We may share your information with Google Analytics to track and analyze the use of the Services. To opt out o f being tracked by Google Analytics across the Services visit: [https://tools.google.com/dlpage/gaoptout](https://tools.google.com/dlpage/gaoptout).</li>
-<li><strong>When we use Google Maps Platform APIs:</strong>We may share your information with certain Google Maps Platform APIs (e.g., Google Maps API, Places API).</li>
-<li><strong>AdMob:</strong>AdMob may collect certain information for the purpose of serving targeted advertisements. This may include device information, user interests, and in-app activities. For more details on AdMob's data processing practices, you can review [Google's AdMob Privacy & Terms](https://policies.google.com/privacy?hl=en).</li>
-<li><strong>Firebase:</strong>We leverage Firebase for analytics, crash reporting, and other features to improve the overall user experience. Firebase may collect data such as device information, usage patterns, and app performance metrics. To understand how Firebase handles data, please refer to [Google's Firebase Privacy & Terms](https://policies.google.com/privacy?hl=pt).</li>
-<li><strong>Affiliate Marketing:</strong>We may engage in affiliate marketing programs, which means that we may earn commissions on qualifying purchases made through links on our website. When you click on an affiliate link and make a purchase, the affiliate program may collect information to track the success of the referral. Rest assured, any data collected through affiliate marketing programs will be handled in accordance with this privacy policy. For further details, please feel free to contact us [here](/contact).</li>
+<li>your App Store receipts or Google Play purchases, and what they unlock, with technical details about your device and the app;</li>
+<li>on iPhone and iPad, your device's advertising identifier (IDFA), but only if you allowed tracking in Apple's prompt;</li>
+<li>on iPhone and iPad, Apple's attribution token. See <a href="#measuring-our-app-store-ads">Measuring our App Store ads</a>.</li>
 </ul>
 
-## Google AdMob
+We also use Qonversion to change settings in the app without an update, and to try out different versions of screens and offers (A/B tests). For a test, Qonversion places the app in one of the test's groups.
 
-This application incorporates Google AdMob ([https://www.google.de/admob/](https://www.google.de/admob/)) for advertising purposes, provided by Google (1600 Amphitheatre Parkway, Mountain View, CA 94043, USA). Google utilizes the Apple Advertising Identifier (referred to as Apple Ad-ID) for advertising taxation purposes. A pseudonymous user profile is established using the Apple Ad-ID, enabling the assignment of users to various advertising segments on the Apple advertising platform for the display of targeted advertising, whether actual or perceived based on user interests.
+<strong>Legal basis:</strong> performance of our contract with you (Art. 6(1)(b) GDPR) for your purchases. Our legitimate interest in improving the app and our offers (Art. 6(1)(f) GDPR) for settings and tests. Your consent in Apple's tracking prompt (Art. 6(1)(a) GDPR) for the IDFA.
 
-The Apple Ad-ID serves as a pseudonym, safeguarding against the disclosure of personal data to Google. The Apple Ad-ID is transmitted to and stored on a Google server in the USA. Google adheres to the data protection regulations outlined in the US Safe Harbor Agreement and is registered with the US Department of Commerce's Safe Harbor program.
+### Measuring our App Store ads
 
-To opt-out of the use of the Apple Ad-ID, users can navigate to "Privacy" in System Preferences and disable "Tracking." Additional information on data protection in connection with [Google](https://policies.google.com/technologies/partner-sites). The utilization of Google AdMob and the associated data processing aligns with our legitimate interests in accordance with Art. 6 para. 1 sentence 1 lit. f DSGVO. By employing Google AdMob, our aim is to ensure that users are presented with advertising on their devices tailored to their actual or perceived interests, deemed legitimate within the framework of the aforementioned provision.
+On iPhone and iPad, each time the app starts, it gets an attribution token from Apple and sends it to Qonversion. Qonversion uses the token to ask Apple whether the download came from one of our Apple Search Ads campaigns. The answer identifies the campaign, not you.
 
-## Do we use cookies and other tracking technologies?
+<strong>Legal basis:</strong> our legitimate interest in knowing which of our ads work (Art. 6(1)(f) GDPR). You can object by emailing info (at) nfc (dot) cool.
 
-We may use cookies and other tracking technologies to collect and store your information.
+### Notifications
 
-Cookies and related tracking technologies (such as pixels and web beacons) may be used by us to retrieve or store data.
-
-For detailed information about how we utilize these technologies and instructions on managing your cookie preferences, please refer to our cookie consent in the footer of this page.
-
-## Facebook Tracking Pixel
-
-At NFC.cool, we may utilize the Facebook Tracking Pixel to enhance our website's functionality, measure the effectiveness of our marketing strategies, and improve your overall experience. This technology allows us to collect data that helps us understand user interactions on our site and enables us to optimize our advertising efforts.
-
-### Information Collected by Facebook Tracking Pixel:
-
-The Facebook Tracking Pixel may collect the following information:
+If you allow notifications, Firebase Cloud Messaging, a Google service, gives the app a token so that we can send notifications to it. On iPhone and iPad, notifications are delivered through Apple's push service.
 
 <ul>
-<li><strong>User Interactions:</strong> We may track your interactions on our website, such as page views, clicks, and other engagement metrics.</li>
-<li><strong>Conversion Tracking:</strong> The pixel helps us measure the success of our Facebook advertising campaigns by tracking whether users take specific actions (e.g., making a purchase) after clicking on our ads.</li>
+<li>On iPhone and iPad, if you are signed in to a business card account, the app gives this token to the business card service, so it can tell you about new contacts. See the <a href="/privacy/business-card/">Business Card privacy policy</a>.</li>
+<li>On Android, the token stays with Google and is not sent to our server.</li>
 </ul>
 
-### Purpose of Data Collection:
+<strong>Legal basis:</strong> your consent, given when you allow notifications (Art. 6(1)(a) GDPR). You can turn notifications off in your device's settings.
 
-The data collected through the Facebook Tracking Pixel is used for the following purposes:
+### The newsletter
+
+You can sign up for our newsletter on the website and in the app. On iPhone and iPad the app offers it in More, in the screens you see when you first open it, and in a prompt on its third launch.
+
+Your email address is sent through a small service we run on Cloudflare to our newsletter list at Mailjet, which sends the newsletter. Cloudflare receives your IP address with the request, as every server does. Every newsletter has a link to unsubscribe.
+
+<strong>Legal basis:</strong> your consent (Art. 6(1)(a) GDPR). You can withdraw it at any time with the link in any newsletter, or by emailing us.
+
+### When you write to us
+
+If you email us, we receive your email address, your message and anything you attach. Our inbox is hosted by our email provider, lima-city.
+
+If you write from the app, it opens your own email app with a message that already includes your device model, system version, how often you have opened the app and your Qonversion user id, so that we can help you with the app and your purchases. You see these lines before you send the message, and you can remove them.
+
+<strong>Legal basis:</strong> our legitimate interest in answering you (Art. 6(1)(f) GDPR). Where your message is about a purchase or a problem with the app, performance of our contract with you (Art. 6(1)(b) GDPR).
+
+### Features that use an online service
 
 <ul>
-<li><strong>Marketing Optimization:</strong> To assess and enhance the effectiveness of our Facebook advertising campaigns.</li>
-<li><strong>Personalized Advertising:</strong> To deliver more relevant and personalized advertisements to users based on their interactions with our website.</li>
+<li><strong>Google review link:</strong> to find a business, the app sends Google's Places service the business name you type, your device's language and region, and the coordinates in a Google Maps link you paste. On Android, the app also shows a map from Google Maps.</li>
+<li><strong>Amiibo:</strong> when you scan an Amiibo, the app looks up the character at amiiboapi.org, a free public database run by others, using the character's id.</li>
+<li><strong>Google search (Android):</strong> if you tap search on a saved tag, the app opens Google search with the tag's text in a view inside the app. Google handles the search under its own privacy policy, and can set its own cookies in that view.</li>
+<li><strong>Game Center (iPhone and iPad):</strong> if you sign in to Game Center, the app reports the achievements you earn to Apple.</li>
 </ul>
 
-### User Choices:
+Each of these services also receives your IP address and the technical details of the request, as every server does.
 
-We respect your privacy, and you have the option to control the use of the Facebook Tracking Pixel:
+<strong>Legal basis:</strong> providing the feature you use (Art. 6(1)(b) GDPR).
+
+### Webhooks
+
+With Platinum you can set up a webhook. The app then sends the data of each tag you scan (its identifier, the date and its content) directly from your device to a web address you choose, with a user name and password if you set them. We do not receive this data. Whoever runs that address decides what happens to it.
+
+On iPhone and iPad, the user name and password are kept in the Keychain on your device, and the web address syncs through your iCloud.
+
+### iCloud on iPhone and iPad
+
+On iPhone and iPad, the app syncs what you save in it through Apple's iCloud, to the app's private storage in your own iCloud account:
 
 <ul>
-<li><strong>Opt-Out:</strong> If you prefer not to participate in the data collection facilitated by the Facebook Tracking Pixel, you can adjust your browser settings to disable cookies. Additionally, you can opt-out of personalized ads on Facebook through the[Facebook Ad Preferences](https://www.facebook.com/help/247395082112892).</li>
+<li>your saved tags, codes, scanned documents and pages, 3D models, your Amiibo collection and your QR code designs;</li>
+<li>the passport and ID wallet (Platinum): the name, date of birth, document number, nationality, address, phone number, face photo, signature image and machine-readable zone of the documents you add;</li>
+<li>your settings, through iCloud's key-value storage;</li>
+<li>tag passwords and keys, through iCloud Keychain if you use it.</li>
 </ul>
 
-### Compliance with Data Protection Laws:
+This storage belongs to your Apple account. Apple keeps it for you, under your agreement with Apple and Apple's privacy policy. We cannot see or read it, and it is not sent to us. Your device's iCloud settings control which apps use iCloud.
 
-We are committed to ensuring compliance with applicable data protection laws, including the General Data Protection Regulation (GDPR) and other relevant regulations. Our use of the Facebook Tracking Pixel is conducted in accordance with these laws.
+### Google Block Store on Android
 
-If you have any questions or concerns about our use of the Facebook Tracking Pixel, please contact us at [here](/contact) .
+On Android, the app keeps your NTAG 424 keys, ICODE passwords and AES keys in Google's Block Store, and, if you are signed in to a business card account, its sign-in token. They then come back when you set up a new Android phone. Block Store keeps them on your phone and, if backup is on, in your Google account's backup. Google keeps them for you, and we cannot read them.
 
-## Marketing Cookies
+### Business card accounts
 
-In addition to the essential cookies mentioned above, we may also use marketing cookies. These cookies are designed to track and analyze your browsing behavior for marketing purposes, such as delivering personalized advertisements and promotional content. By using these cookies, we aim to enhance your overall experience on our website. For detailed information on the types of marketing cookies we use and how you can manage your preferences, please refer to our cookie consent in the footer of this page.
+If you already have an NFC.cool business card account, you can sign in to it in the app. New accounts are made in the NFC.cool Business Card app. Your account, its cards and the contacts people leave on them are covered by the [Business Card privacy policy](/privacy/business-card/), not by this one.
 
-## How long do we keep your information?
+If you use the contact form on someone else's card to leave your details with them, your details go to that card's owner, as the Business Card privacy policy describes.
 
-We keep your information for as long as necessary to fulfill the purposes outline in this privacy notice unless otherwise required by law.
+### Features that work on your device
 
-We will only keep you personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than the period of time in which users have an account with us.
+These features process their data on your device:
 
-When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store personal information and isolate it from any further processing until deletion is possible.
+<ul>
+<li>reading and writing NFC tags;</li>
+<li>scanning QR codes and barcodes, and recognising text in scanned documents (on Android with Google's ML Kit, on your phone);</li>
+<li>title suggestions for scanned documents, on iPhone and iPad with Apple's on-device models;</li>
+<li>3D capture of objects and rooms;</li>
+<li>reading the chip in passports and ID cards, and checking that it is genuine. On Android, the passport and ID wallet stays on your phone, encrypted with AES-GCM. On iPhone and iPad it syncs through your iCloud, as described above.</li>
+</ul>
 
-## How do we keep your information safe?
+### Permissions the app asks for
 
-We aim to protect your personal information through a system of organizational and technical security measures.
+On iPhone and iPad:
 
-Although we have put strong organizational and technical security measures in place to protect your personal information, it's crucial to remember that no online platform can provide 100% security, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information.
+<ul>
+<li><strong>NFC:</strong> to read and write tags.</li>
+<li><strong>Camera:</strong> to scan QR codes, documents and the code lines on passports and ID cards.</li>
+<li><strong>Contacts:</strong> to pick a contact, for example to make a business card from it.</li>
+<li><strong>Calendars and reminders:</strong> to make QR codes for events, and to put your agenda or a reminders list on an e-ink phone case. What the app reads stays on your device.</li>
+<li><strong>Photos:</strong> to save QR codes and documents, and to save photos to the Photos app.</li>
+<li><strong>Face ID:</strong> to protect the keys stored for your tags, so only you can reveal them.</li>
+<li><strong>Alarms:</strong> for NFC Alarm, which keeps ringing until you scan your tags.</li>
+<li><strong>Tracking:</strong> see <a href="#ads-in-the-free-version">Ads in the free version</a>.</li>
+<li><strong>Notifications:</strong> see <a href="#notifications">Notifications</a>.</li>
+</ul>
 
-Even though we work hard to prevent unauthorized access to your data, users should be aware that there is always some risk involved with using the Internet for electronic communications.
+On Android:
 
-## Do we collect information from minors?
+<ul>
+<li><strong>NFC and camera:</strong> to read and write tags and to scan codes and documents.</li>
+<li><strong>Location:</strong> on older Android versions, to join Wi-Fi networks.</li>
+<li><strong>Nearby Wi-Fi devices:</strong> to join Wi-Fi networks.</li>
+<li><strong>Contacts and calendar:</strong> for the features that use them.</li>
+<li><strong>Notifications and exact alarms:</strong> for notifications and NFC Alarm.</li>
+<li><strong>Billing:</strong> for purchases through Google Play.</li>
+</ul>
 
-We do not knowingly solicit data from or market to children under 18 year of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent's use of the Service. If we learn that personal information from users les than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at [here](/contact).
+You can withdraw a permission at any time in your device's settings.
 
-## What are your privacy rights?
+## Who receives data
 
-In some regions (like the EEA, UK, Switzerland and Canada), you have certain right under applicable data protection laws. These may include the right to request access and obtain a copy of your personal information, to request rectification or erasure, to restrict the processing of your personal information, if applicable, to data portability and not to be subject to automated decision-making. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us at: [here](/contact).
+These are the recipients of the data this policy describes:
 
-We will consider and act upon any request in accordance with applicable data protection laws.
+<ul>
+<li><strong>GitHub:</strong> hosts the website.</li>
+<li><strong>Google:</strong> Firebase (analytics, crash reports and notification tokens), AdMob (ads in the free version), Google Places and Google Maps (the review link), Google search on Android, Google Play purchases, and Block Store, which keeps data for you on Android.</li>
+<li><strong>Apple:</strong> App Store purchases, push delivery, Game Center and the Apple Search Ads attribution token. iCloud keeps data for you, as your own provider.</li>
+<li><strong>Qonversion:</strong> manages purchases, settings and tests, and receives the attribution token.</li>
+<li><strong>Cloudflare:</strong> runs the small service that adds newsletter sign-ups to Mailjet.</li>
+<li><strong>Mailjet:</strong> sends the newsletter.</li>
+<li><strong>lima-city:</strong> hosts our email inbox.</li>
+<li><strong>amiiboapi.org:</strong> Amiibo lookups.</li>
+<li><strong>The addresses you choose</strong> for webhooks.</li>
+<li><strong>The NFC.cool business card service</strong>, if you sign in to a business card account. See the <a href="/privacy/business-card/">Business Card privacy policy</a>.</li>
+</ul>
 
-<strong>Withdrawing your consent:</strong> If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us [here.](https://nfc.cool/support)
+## Where data is processed, and data outside the EU
 
-However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
+Mailjet stores emails in the EU, in Germany and Belgium. The app sends data to Qonversion's EU endpoint.
 
-<strong>Opting out of marketing and promotional communications:</strong>You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, or by contacting us [here.](/contact) You will then be removed from the marketing lists. However, we may still communicate with you, for example, to send your service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.
+Some of the services we use are based in the USA. Where data leaves the European Economic Area for them, the transfer rests on one of these safeguards:
 
-<strong>Account Information</strong>: If you would at any time like to review or change the information in your account or terminate your account, you can contact us using the contact information provided.
+<ul>
+<li><strong>The EU-U.S. Data Privacy Framework.</strong> The European Commission decided that US companies certified under it protect personal data adequately (Art. 45 GDPR).</li>
+<li><strong>Standard contractual clauses.</strong> The European Commission's model clauses are part of our contract with the service (Art. 46(2)(c) GDPR).</li>
+</ul>
 
-Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoots problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.
+For each service:
 
-<strong>Cookies and similar technologies:</strong> Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set tour browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain feature or services of our Services.
+<ul>
+<li><strong>Google LLC</strong> (USA): Data Privacy Framework, with standard contractual clauses in Google's terms for Firebase.</li>
+<li><strong>Cloudflare, Inc.</strong> (USA): Data Privacy Framework.</li>
+<li><strong>Apple Inc.</strong> (USA): standard contractual clauses.</li>
+</ul>
 
-## Controls for Do-Not-Track Features
+For Qonversion, GitHub, lima-city and amiiboapi.org, email info (at) nfc (dot) cool if you want to know where they process data and what applies to a transfer outside the EEA.
 
-Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preferences not have data about your online browsing activities monitored and collected. At this stage no uniform technology's standard for recognizing and implementing DNT signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform about that practice in a revised version of this privacy police.
+To get a copy of the standard contractual clauses that apply, email info (at) nfc (dot) cool. The European Commission explains these safeguards on its [information page](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection_en).
 
-## Do we make updates to this notice?
+## How long we keep data
 
-Yes, we will update this notice as necessary to stay compliant with relevant laws.
+<ul>
+<li><strong>Firebase Analytics:</strong> Google deletes the event data linked to the app's identifier at the end of the retention period we set in Google Analytics. Google offers 2 or 14 months. Reports that show only totals can be kept longer.</li>
+<li><strong>Crash reports:</strong> 90 days.</li>
+<li><strong>Qonversion:</strong> as long as needed to manage your purchases and subscriptions.</li>
+<li><strong>The newsletter:</strong> we email you until you unsubscribe. Mailjet then keeps your address marked as unsubscribed, so you are not emailed again. To have it deleted completely, email us.</li>
+<li><strong>Emails you send us:</strong> as long as we need them to answer you and to deal with what follows from your message.</li>
+<li><strong>What the app keeps on your device:</strong> until you delete it, or delete the app.</li>
+<li><strong>What the app keeps in your iCloud or in Google Block Store:</strong> until you delete it there. Deleting the app does not delete it.</li>
+<li><strong>Services that decide themselves:</strong> GitHub's logs, Google's ad data, purchase records at Apple and Google, and the data that amiiboapi.org and Google search receive are kept under those services' own policies.</li>
+</ul>
 
-We may update this privacy notice from time to time. The update version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
+## We do not sell your data
 
-## How can you contact us about this notice?
+We do not sell your personal data.
 
-We aim to protect your personal information through a system of organizational and technical security measures.
+In the free version, if you allow personalised ads, Google uses your device's advertising identifier, together with information about the app and the ads you see, to choose the ads it shows you. Some US state privacy laws call this "sharing" personal data for targeted advertising, or treat it as a "sale". To say no:
 
-Nicolo Stanciu | NFC.cool
+<ul>
+<li>if the app shows you Google's consent form, do not allow personalised ads there. Where the app offers it, Reset Consent in More shows the form again;</li>
+<li>on iPhone and iPad, do not allow tracking when Apple's prompt asks, or turn it off in Settings, Privacy &amp; Security, Tracking;</li>
+<li>on Android, delete your advertising ID in your phone's settings, under Ads;</li>
+<li>or use Platinum, which shows no ads.</li>
+</ul>
 
-Rua Carminé Nobre 6
+If you cannot find these settings, email info (at) nfc (dot) cool and we help you.
 
-3040-193 Coimbra
+## What you must give us, and automated decisions
 
-Portugal
+No law or contract requires you to give us personal data. You can use the website and the app without telling us who you are. Some features need data to work: the newsletter needs your email address, and a purchase needs an App Store or Google Play account.
 
-NIF: PT315901934
+We make no decisions about you based solely on automated processing that have legal or similarly significant effects on you (Art. 22 GDPR). Testing different versions of screens and offers is not such a decision.
 
-E-Mail: [click here](mailto:info@nfc.cool?subject=NFC.cool%20Support)
+## Your rights
 
-## How can you review, update, or delete the data we collect from you?
+Under the GDPR you have the right to:
 
-Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information please contact us via [e-mail](mailto:info@nfc.cool?subject=NFC.cool%20Support).
+<ul>
+<li>get a copy of your data and information about how we use it (Art. 15);</li>
+<li>have wrong data corrected (Art. 16);</li>
+<li>have your data deleted (Art. 17);</li>
+<li>have processing restricted (Art. 18);</li>
+<li>receive data you gave us in a machine-readable format and take it elsewhere (Art. 20);</li>
+<li>withdraw consent at any time, without affecting what happened before (Art. 7(3)): for ads as described in <a href="#ads-in-the-free-version">Ads in the free version</a>, for the newsletter with the link in any newsletter, and for notifications in your device's settings.</li>
+</ul>
+
+<strong>Your right to object.</strong> Where we rely on legitimate interests (hosting the website, app analytics and crash reports, measuring our App Store ads, settings and tests, and answering your emails), you can object at any time, on grounds relating to your situation (Art. 21 GDPR). We must then stop, unless we show compelling legitimate grounds that override your interests, rights and freedoms, or need the data to establish, exercise or defend legal claims. Email info (at) nfc (dot) cool.
+
+To exercise any of these rights, email info (at) nfc (dot) cool. We answer within one month. Much of the app's data is linked only to identifiers for the app, not to your name. To find it, we may need your help, for example the Qonversion user id that the support email from the app includes. If we cannot identify you in some data, we tell you (Art. 11 GDPR).
+
+You also have the right to complain to a supervisory authority, in the EU country where you live or work or where you think your rights were infringed. In Portugal, where we are based, that is the Comissão Nacional de Proteção de Dados ([cnpd.pt](https://www.cnpd.pt)).
+
+For a business card account, the [Business Card privacy policy](/privacy/business-card/) explains how to download your data and delete your account.
+
+## Children
+
+You must be at least 16 to use the app. If you are under 18, you need a parent's or guardian's permission to buy Platinum. Neither the app nor the website is directed at children. If you think someone younger than 16 has given us personal data, for example by signing up for the newsletter, email info (at) nfc (dot) cool and we will delete it.
+
+## Cookies and similar technologies
+
+<strong>The website</strong> sets no cookies. It keeps two settings in your browser's storage:
+
+<ul>
+<li><strong>theme:</strong> light or dark. On your first visit it stores your device's setting, and it changes when you switch the theme;</li>
+<li><strong>preferredLang:</strong> the language you picked in the language menu, if you picked one.</li>
+</ul>
+
+On your first visit, the website can also take you to the version in your browser's language. Both settings stay in your browser until you clear them, and neither is sent to us. They only show the website the way your device or your choice set it, which is why we do not ask for consent.
+
+<strong>The app</strong> stores identifiers and choices on your device that Firebase, Qonversion and Google AdMob use as described above, including an identifier for the app at Firebase, the Qonversion user id, and your answers to Google's consent form. For ads, storing and reading information on your device depends on your consent, as described in [Ads in the free version](#ads-in-the-free-version). On Android, Google can set its own cookies in the Google search view.
+
+## Security
+
+The website is served only over HTTPS: a plain HTTP request is redirected. On iPhone and iPad, the keys stored for your tags are protected with Face ID, and webhook user names and passwords are kept in the Keychain. On Android, the passport and ID wallet is encrypted with AES-GCM.
+
+No system is completely secure, but we work to protect your data and fix problems quickly.
+
+## Changes to this policy
+
+When we change this policy, we update the "Last modified" date at the top of this page.
+
+## Contact
+
+Questions about this policy or your data:
+
+<div class="page-cards-grid">
+<article class="page-card">
+<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934<br>Phone: +351 925 378 989</p>
+<p>E-Mail: info (at) nfc (dot) cool</p>
+</article>
+</div>
 
 </section>
