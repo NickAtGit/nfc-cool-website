@@ -64,7 +64,7 @@ These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool
 <li>NFC.cool Business Card for Teams: the web console at business.nfc.cool, its API, and its connection for AI assistants.</li>
 </ul>
 
-In these terms, "the service" means all of them. The NFC.cool Tools app and the nfc.cool website have their own [terms](/terms/).
+In these terms, "the service" means all of them. They also cover business card accounts and cards used in the NFC.cool Tools app. Everything else in the NFC.cool Tools app, and the nfc.cool website, have their own [terms](/terms/).
 
 You accept these terms when you create an account, or when you set up a team or accept an invitation to one. In the app and at business.nfc.cool, we ask you to accept them, with a link to them, before you continue. If you accept them for a company or another organisation, you confirm that you are allowed to bind it, and "you" then also means that organisation.
 
@@ -362,7 +362,7 @@ If you use the service for your business, then, apart from that and as far as th
 
 <ul>
 <li>we are not liable for indirect loss, such as lost profits or lost business, or for loss of data you could have kept by exporting it;</li>
-<li>our total liability in any 12 months is limited to the higher of what you paid us for the service in those 12 months and EUR 100.</li>
+<li>our total liability in any 12 months is limited to the higher of what you paid for the service in those 12 months and EUR 100.</li>
 </ul>
 
 If you use the service for your business and someone makes a claim against us because of what is on your cards, or how you collected or used the contacts on them, you cover our reasonable costs of that claim, as far as you are responsible for it.
