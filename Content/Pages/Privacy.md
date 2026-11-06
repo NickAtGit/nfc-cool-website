@@ -286,11 +286,13 @@ We aim to protect your personal information through a system of organizational a
 
 Nicolo Stanciu | NFC.cool
 
-Rua Da Sofia 139
+Rua Carminé Nobre 6
 
-Coimbra 3000-390
+3040-193 Coimbra
 
 Portugal
+
+NIF: PT315901934
 
 E-Mail: [click here](mailto:info@nfc.cool?subject=NFC.cool%20Support)
 
