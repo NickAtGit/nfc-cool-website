@@ -24,7 +24,10 @@ enOnly:
     - "Content/Changelog"
   files:
     - "Content/Pages/Privacy.md"
+    - "Content/Pages/privacy-business-card.md"
     - "Content/Pages/Terms.md"
+    - "Content/Pages/terms-business-card.md"
+    - "Content/Pages/terms-business-card-dpa.md"
     - "Content/Pages/Impressum.md"
     # /apps/{slug}/ promo subpages ship EN-only (the /apps/ index is fully
     # localized); localized URLs fall back to redirects like the legal pages.

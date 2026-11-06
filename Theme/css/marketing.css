@@ -568,6 +568,38 @@
    font-weight: 600;
 }
 
+/* Legal pages (/privacy/business-card/, /terms/business-card/ and its DPA):
+   the long text sits at the FAQ measure instead of the 1200px tier, with room
+   above each heading. The address, the "On this page" list and the withdrawal
+   form are ordinary .page-card blocks in a .page-cards-grid; here they don't
+   lift on hover, since nothing in them is a link target as a whole. */
+.page-section.is-reading > * {
+   max-width: var(--faq-width);
+}
+.page-section.is-reading > h2:not(:first-child) {
+   margin-top: 3.5rem;
+}
+.page-section.is-reading > .page-cards-grid {
+   margin-top: 1.25rem;
+   margin-bottom: 1.5rem;
+}
+.page-section.is-reading .page-card ul + p {
+   margin-top: 0.875rem;
+}
+.page-section.is-reading .page-card:hover {
+   transform: none;
+   box-shadow: 0 1px 2px var(--color-shadow);
+}
+@media (min-width: 640px) {
+   .page-section.is-reading nav.page-card ul {
+      columns: 2;
+      column-gap: 2rem;
+   }
+   .page-section.is-reading nav.page-card li {
+      break-inside: avoid;
+   }
+}
+
 /* Brand-aware list markers across every list inside a marketing page -
    bullets on /developers/, /privacy/, /reviews/; numbers on /terms/;
    card bullets on /business-card/. var(--color-link) flips to brand blue

@@ -131,6 +131,13 @@ redirects:
     to: "/terms/"
   - from: "/privacy-policy"
     to: "/privacy/"
+  # The Business Card app's terms link (bcs-tc.nfc.cool 301s here) and its App
+  # Store privacy URL point at this path, which had no page until now. One entry
+  # covers both spellings on GitHub Pages: the bridge page is written to
+  # /business-card-service-terms-and-conditions/index.html, and GitHub Pages 301s
+  # the slashless path to that directory.
+  - from: "/business-card-service-terms-and-conditions"
+    to: "/terms/business-card/"
 
   # ----- Integrations consolidated into /developers/ -----
   - from: "/integrations"
