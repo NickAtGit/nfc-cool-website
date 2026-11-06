@@ -166,7 +166,7 @@ faq:
   - question: "¿Mi iPhone tiene que estar desbloqueado para leer una etiqueta?"
     answer: "Para la mayoría de los escaneos de etiquetas, no - el iPhone XS y más recientes pueden leer etiquetas NDEF desde la pantalla de bloqueo en segundo plano, sin necesidad de abrir la app. En Android, la app tiene que estar en primer plano para leer una etiqueta."
   - question: "¿Puedo leer una etiqueta sin conexión a internet?"
-    answer: "Sí. Las lecturas y grabaciones NFC ocurren por completo en el dispositivo. NFC.cool nunca sube el contenido de las etiquetas a ningún servidor."
+    answer: "Sí. Las lecturas y grabaciones NFC ocurren por completo en el dispositivo, y el contenido de tus etiquetas no llega a NFC.cool. En iPhone y iPad, las etiquetas guardadas se sincronizan a través de tu propio iCloud, y los webhooks, si los activas, envían los escaneos solo al servidor que elijas."
   - question: "¿Es seguro grabar etiquetas NFC?"
     answer: "La grabación es segura y reversible por defecto - puedes regrabar una etiqueta tantas veces como quieras. Usa la función de bloqueo solo cuando estés seguro: una vez que una etiqueta queda bloqueada de forma permanente, no se puede regrabar."
   - question: "¿Qué seguridad tiene NFC Safe?"

@@ -51,7 +51,7 @@ Lo mantengo así a propósito. NFC.cool no está financiada por capital riesgo, 
 
 <article class="page-card">
 <h3>Procesamiento en el dispositivo</h3>
-<p>OCR, fotogrametría, interpretación de NFC - todo se ejecuta localmente. Sin idas y vueltas a la nube, sin necesidad de internet.</p>
+<p>OCR, fotogrametría, interpretación de NFC: todo se ejecuta localmente. Sin idas y vueltas a la nube, sin necesidad de internet.</p>
 </article>
 
 <article class="page-card">

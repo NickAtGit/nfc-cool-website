@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "Scanner de documents avec OCR"
-  subtitle: "Numérisez des documents avec détection automatique des bords et correction de perspective. L'OCR sur l'appareil transforme chaque numérisation en texte que vous pouvez rechercher et qui ne quitte jamais votre appareil."
+  subtitle: "Numérisez des documents avec détection automatique des bords et correction de perspective. L'OCR sur l'appareil transforme chaque numérisation en texte que vous pouvez rechercher, synchronisé via votre propre iCloud, où NFC.cool ne peut pas le lire."
   platforms: "iOS uniquement"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 
@@ -20,7 +20,7 @@ capabilities:
   - title: "Correction de perspective"
     description: "Photo de travers ? NFC.cool redresse la page en un rectangle net, supprime les ombres et renforce le contraste pour un résultat digne d'un scan à plat."
   - title: "OCR sur l'appareil"
-    description: "La reconnaissance de texte se fait localement sur votre iPhone - aucun document, aucun texte ne quitte l'appareil. Le texte reconnu de chaque page est stocké avec l'image et peut être recherché dans l'app."
+    description: "La reconnaissance de texte se fait localement sur votre iPhone ou iPad, et ni vos documents ni leur texte ne parviennent à NFC.cool. Le texte reconnu de chaque page est stocké avec l'image, synchronisé via votre propre iCloud et peut être recherché dans l'app."
   - title: "Export PDF avec texte intégré"
     description: "Créez un PDF multipages avec la couche de texte OCR intégrée, pour que chaque mot soit sélectionnable, copiable et recherchable dans n'importe quel lecteur de PDF."
   - title: "Partage et enregistrement rapides"
@@ -74,7 +74,7 @@ specs:
     items:
       - "Tout l'OCR s'exécute sur l'appareil"
       - "Aucun document ni texte envoyé à NFC.cool"
-      - "Documents stockés dans iCloud ou dans le bac à sable de l'app - à vous de choisir"
+      - "Documents synchronisés via votre propre iCloud, pas via nos serveurs"
 
 pricing:
   title: "Free vs Platinum"
@@ -100,7 +100,7 @@ faq:
   - question: "Quelle est la précision de l'OCR ?"
     answer: "Très élevée pour le texte imprimé. Pour l'écriture manuscrite, la précision dépend de la netteté et du contraste. Vous pouvez modifier n'importe quel texte reconnu après la numérisation."
   - question: "Où sont stockés les documents numérisés ?"
-    answer: "Offre Free : dans le bac à sable de l'app, sur l'appareil. Platinum : exportés automatiquement, en option, vers iCloud Documents pour apparaître dans l'app Fichiers et sur tous les appareils connectés à votre iCloud."
+    answer: "Dans l'app, sur votre appareil. Via votre propre iCloud, ils se synchronisent avec vos autres iPhone, iPad et Mac connectés au même Compte Apple, et NFC.cool ne peut pas les lire. Avec Platinum, « Exportation automatique vers des fichiers » enregistre aussi chaque nouveau document en PDF dans le dossier de l'app sur iCloud Drive, pour qu'il apparaisse dans l'app Fichiers."
 
 relatedReadingTitle: "À lire aussi"
 relatedReading:

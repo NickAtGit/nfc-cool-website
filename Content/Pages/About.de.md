@@ -51,7 +51,7 @@ Ich halte das absichtlich so. NFC.cool ist nicht VC-finanziert, Rechenschaft sch
 
 <article class="page-card">
 <h3>Verarbeitung auf dem Gerät</h3>
-<p>OCR, Photogrammetrie, NFC-Parsing - alles läuft lokal. Keine Cloud-Roundtrips, keine Internet-Pflicht.</p>
+<p>OCR, Photogrammetrie, NFC-Parsing: Alles läuft lokal. Keine Cloud-Roundtrips, keine Internet-Pflicht.</p>
 </article>
 
 <article class="page-card">

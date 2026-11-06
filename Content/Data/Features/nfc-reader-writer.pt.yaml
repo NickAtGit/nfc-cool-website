@@ -166,7 +166,7 @@ faq:
   - question: "O meu iPhone precisa de estar desbloqueado para ler uma tag?"
     answer: "Para a maioria das leituras de tags, não - o iPhone XS e mais recentes conseguem ler tags NDEF a partir do ecrã de bloqueio em segundo plano, sem ser preciso abrir a app. No Android, a app precisa de estar em primeiro plano para ler uma tag."
   - question: "Posso ler uma tag sem ligação à internet?"
-    answer: "Sim. As leituras e gravações NFC acontecem inteiramente no dispositivo. A NFC.cool nunca carrega o conteúdo das tags para qualquer servidor."
+    answer: "Sim. As leituras e gravações NFC acontecem inteiramente no dispositivo, e o NFC.cool não recebe o conteúdo das suas tags. No iPhone e no iPad, as tags guardadas sincronizam através do seu próprio iCloud, e os webhooks, se os ativar, enviam as leituras apenas para o servidor que escolher."
   - question: "É seguro gravar tags NFC?"
     answer: "A gravação é segura e reversível por predefinição - pode regravar uma tag tantas vezes quantas quiser. Use a funcionalidade de bloqueio apenas quando tiver a certeza: assim que uma tag for permanentemente bloqueada, não pode ser regravada."
   - question: "Quão seguro é o NFC Safe?"

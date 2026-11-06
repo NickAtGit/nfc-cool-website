@@ -166,7 +166,7 @@ faq:
   - question: "Muss mein iPhone entsperrt sein, um einen Tag zu lesen?"
     answer: "Für die meisten Tag-Scans nein - iPhone XS und neuer lesen NDEF-Tags vom Lockscreen im Hintergrund, kein App-Start nötig. Unter Android muss die App im Vordergrund sein, um einen Tag zu lesen."
   - question: "Kann ich einen Tag ohne Internet lesen?"
-    answer: "Ja. NFC-Lese- und Schreibvorgänge passieren komplett auf dem Gerät. NFC.cool lädt Tag-Inhalte nie auf einen Server."
+    answer: "Ja. NFC-Lese- und Schreibvorgänge passieren komplett auf dem Gerät, und NFC.cool erhält deine Tag-Inhalte nicht. Auf iPhone und iPad synchronisieren sich gespeicherte Tags über deine eigene iCloud, und eingeschaltete Webhooks schicken Scans nur an den Server deiner Wahl."
   - question: "Ist NFC-Schreiben sicher?"
     answer: "Schreiben ist standardmäßig sicher und reversibel - du kannst einen Tag beliebig oft neu beschreiben. Verwende die Sperr-Funktion nur, wenn du sicher bist: einmal dauerhaft gesperrt, lässt sich der Tag nicht mehr beschreiben."
   - question: "Wie sicher ist NFC Safe?"

@@ -166,7 +166,7 @@ faq:
   - question: "Devo sbloccare l'iPhone per leggere un tag?"
     answer: "Nella maggior parte dei casi no: dall'iPhone XS in poi i tag NDEF si leggono in background dalla schermata di blocco, senza aprire nessuna app. Su Android, invece, per leggere un tag l'app deve essere in primo piano."
   - question: "Posso leggere un tag senza connessione a internet?"
-    answer: "Sì. La lettura e la scrittura NFC avvengono interamente sul dispositivo. NFC.cool non invia mai il contenuto dei tag a nessun server."
+    answer: "Sì. La lettura e la scrittura NFC avvengono interamente sul dispositivo, e il contenuto dei tag non arriva a NFC.cool. Su iPhone e iPad i tag salvati si sincronizzano tramite il tuo iCloud, e i webhook, se li attivi, inviano le scansioni solo al server che scegli tu."
   - question: "Scrivere un tag NFC è rischioso?"
     answer: "No, ed è un'operazione reversibile: un tag si può riscrivere tutte le volte che vuoi. Usa il blocco solo quando sei davvero sicuro, perché un tag bloccato in modo permanente non è più riscrivibile."
   - question: "Quanto è sicuro NFC Safe?"

@@ -166,7 +166,7 @@ faq:
   - question: "Apakah iPhone saya perlu dibuka kuncinya untuk membaca tag?"
     answer: "Untuk sebagian besar pemindaian tag, tidak - iPhone XS dan lebih baru dapat membaca tag NDEF dari layar kunci di latar belakang, tanpa perlu membuka aplikasi. Di Android, aplikasi perlu berada di latar depan untuk membaca tag."
   - question: "Bisakah saya membaca tag tanpa koneksi internet?"
-    answer: "Ya. Pembacaan dan penulisan NFC terjadi sepenuhnya di perangkat. NFC.cool tidak pernah mengunggah konten tag ke server manapun."
+    answer: "Ya. Pembacaan dan penulisan NFC terjadi sepenuhnya di perangkat, dan NFC.cool tidak menerima konten tag Anda. Di iPhone dan iPad, tag yang tersimpan tersinkron melalui iCloud Anda sendiri, dan webhook, jika Anda mengaktifkannya, hanya mengirim hasil pemindaian ke server pilihan Anda."
   - question: "Apakah menulis tag NFC aman?"
     answer: "Penulisan aman dan dapat dibatalkan secara default - Anda bisa menulis ulang tag sebanyak yang Anda suka. Gunakan fitur kunci hanya saat Anda yakin: setelah tag dikunci secara permanen, tag tidak bisa ditulis ulang."
   - question: "Seberapa aman NFC Safe?"

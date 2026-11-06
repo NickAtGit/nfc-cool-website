@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "Dokumenten-Scanner mit OCR"
-  subtitle: "Erfasse Dokumente mit automatischer Kantenerkennung und Perspektiv-Korrektur. On-Device-OCR macht jeden Scan zu durchsuchbarem Text, der dein Gerät nie verlässt."
+  subtitle: "Erfasse Dokumente mit automatischer Kantenerkennung und Perspektiv-Korrektur. On-Device-OCR macht jeden Scan zu durchsuchbarem Text, synchronisiert über deine eigene iCloud, in die NFC.cool keinen Einblick hat."
   platforms: "Nur iOS"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 
@@ -20,7 +20,7 @@ capabilities:
   - title: "Perspektiv-Korrektur"
     description: "Schiefer Schuss? NFC.cool richtet die Seite zu einem sauberen Rechteck aus, entfernt Schatten und verstärkt den Kontrast - das Ergebnis sieht wie ein Flachbett-Scan aus."
   - title: "On-Device-OCR"
-    description: "Texterkennung läuft lokal auf deinem iPhone - kein Dokument, kein Text verlässt das Gerät. Der erkannte Text jeder Seite wird neben dem Bild gespeichert und ist in der App durchsuchbar."
+    description: "Texterkennung läuft lokal auf deinem iPhone oder iPad, und NFC.cool erhält weder deine Dokumente noch ihren Text. Der erkannte Text jeder Seite wird neben dem Bild gespeichert, über deine eigene iCloud synchronisiert und ist in der App durchsuchbar."
   - title: "PDF-Export mit eingebettetem Text"
     description: "Erstelle mehrseitige PDFs mit eingebetteter OCR-Textebene, sodass jedes Wort in jedem PDF-Reader markier-, kopier- und durchsuchbar ist."
   - title: "Schnelles Teilen & Speichern"
@@ -74,7 +74,7 @@ specs:
     items:
       - "Alle OCR-Vorgänge auf dem Gerät"
       - "Kein Dokument, kein Text wird zu NFC.cool gesendet"
-      - "Dokumente in iCloud oder in der App-Sandbox - deine Wahl"
+      - "Dokumente synchronisieren über deine eigene iCloud, nicht über unsere Server"
 
 pricing:
   title: "Free vs Platinum"
@@ -100,4 +100,4 @@ faq:
   - question: "Wie genau ist die OCR?"
     answer: "Sehr genau bei gedrucktem Text. Handschrift-Genauigkeit hängt von Sauberkeit und Kontrast ab. Du kannst jeden erkannten Text nach dem Scan bearbeiten."
   - question: "Wo werden gescannte Dokumente gespeichert?"
-    answer: "Free: in der App-Sandbox auf dem Gerät. Platinum: optional auto-exportiert nach iCloud Dokumente - sichtbar in Dateien und auf allen Geräten an deinem iCloud-Account."
+    answer: "In der App auf deinem Gerät. Über deine eigene iCloud erscheinen sie auch auf deinen anderen iPhones, iPads und Macs mit demselben Apple Account, und NFC.cool kann sie nicht lesen. Mit Platinum speichert „Automatischer Export in Dateien“ jedes neue Dokument zusätzlich als PDF im iCloud-Drive-Ordner der App, sodass es in der Dateien-App erscheint."

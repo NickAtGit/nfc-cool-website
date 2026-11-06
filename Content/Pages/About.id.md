@@ -51,7 +51,7 @@ Saya mempertahankannya demikian dengan sengaja. NFC.cool tidak didukung VC, jadi
 
 <article class="page-card">
 <h3>Pemrosesan di perangkat</h3>
-<p>OCR, fotogrametri, penguraian NFC - semua berjalan secara lokal. Tidak ada bolak-balik cloud, tidak memerlukan internet.</p>
+<p>OCR, fotogrametri, penguraian NFC: semua berjalan secara lokal. Tidak ada bolak-balik cloud, tidak memerlukan internet.</p>
 </article>
 
 <article class="page-card">

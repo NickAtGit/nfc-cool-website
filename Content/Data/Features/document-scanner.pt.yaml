@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "Digitalizador de Documentos com OCR"
-  subtitle: "Capture documentos com deteção automática de margens e correção de perspetiva. O OCR no dispositivo transforma cada digitalização em texto pesquisável."
+  subtitle: "Capture documentos com deteção automática de margens e correção de perspetiva. O OCR no dispositivo transforma cada digitalização em texto pesquisável, sincronizado através do seu próprio iCloud, onde o NFC.cool não o consegue ler."
   platforms: "iOS apenas"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 
@@ -20,7 +20,7 @@ capabilities:
   - title: "Correção de Perspetiva"
     description: "Foto inclinada? O NFC.cool ajusta a página para um retângulo limpo, remove sombras e aumenta o contraste para que o resultado pareça uma digitalização plana."
   - title: "OCR no Dispositivo"
-    description: "O reconhecimento de texto acontece localmente no seu iPhone - nenhum documento, nenhum texto sai do dispositivo. O texto reconhecido de cada página é guardado junto da imagem e pesquisável dentro da aplicação."
+    description: "O reconhecimento de texto acontece localmente no seu iPhone ou iPad, e o NFC.cool não recebe os seus documentos nem o respetivo texto. O texto reconhecido de cada página é guardado junto da imagem, sincroniza através do seu próprio iCloud e é pesquisável dentro da aplicação."
   - title: "Exportação para PDF com Texto Incorporado"
     description: "Crie um PDF de várias páginas com a camada de texto do OCR incorporada, para que cada palavra seja selecionável, copiável e pesquisável em qualquer leitor de PDF."
   - title: "Partilha e Guardar Rápido"
@@ -74,7 +74,7 @@ specs:
     items:
       - "Todo o OCR corre no dispositivo"
       - "Nenhum documento ou texto é enviado para o NFC.cool"
-      - "Documentos guardados no iCloud ou na sandbox da aplicação - a sua escolha"
+      - "Documentos sincronizados através do seu próprio iCloud, não dos nossos servidores"
 
 pricing:
   title: "Gratuito vs Platinum"
@@ -100,7 +100,7 @@ faq:
   - question: "Qual é a precisão do OCR?"
     answer: "Muito elevada para texto impresso. A precisão da escrita manual depende da clareza e do contraste. Pode editar qualquer texto reconhecido após a digitalização."
   - question: "Onde são guardados os documentos digitalizados?"
-    answer: "Nível gratuito: na sandbox da aplicação no dispositivo. Platinum: opcionalmente exportados automaticamente para os Documentos no iCloud, para que apareçam na aplicação Ficheiros e em todos os dispositivos com sessão iniciada no seu iCloud."
+    answer: "Na aplicação, no seu dispositivo. Através do seu próprio iCloud, sincronizam com os seus outros iPhone, iPad e Mac com sessão iniciada na mesma Conta Apple, e o NFC.cool não os consegue ler. Com o Platinum, a Exportação automática para ficheiros também guarda cada novo documento como PDF na pasta da aplicação no iCloud Drive, para que apareça na aplicação Ficheiros."
 
 relatedReadingTitle: "Continuar a Ler"
 relatedReading:

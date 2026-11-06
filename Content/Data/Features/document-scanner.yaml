@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "Document Scanner with OCR"
-  subtitle: "Capture documents with automatic edge detection and perspective correction. On-device OCR turns every scan into searchable text that never leaves your device."
+  subtitle: "Capture documents with automatic edge detection and perspective correction. On-device OCR turns every scan into searchable text, synced through your own iCloud, where NFC.cool cannot read it."
   platforms: "iOS only"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 
@@ -20,7 +20,7 @@ capabilities:
   - title: "Perspective Correction"
     description: "Skewed shot? NFC.cool warps the page to a clean rectangle, removes shadows, and boosts contrast so the result looks like a flat scan."
   - title: "On-Device OCR"
-    description: "Text recognition happens locally on your iPhone - no document, no text leaves the device. Every page's recognized text is stored alongside the image and searchable inside the app."
+    description: "Text recognition happens locally on your iPhone or iPad, and NFC.cool does not receive your documents or their text. Every page's recognized text is stored alongside the image, syncs through your own iCloud, and is searchable inside the app."
   - title: "PDF Export with Embedded Text"
     description: "Build a multi-page PDF with the OCR'd text layer embedded, so every word is selectable, copyable, and searchable in any PDF reader."
   - title: "Quick Share & Save"
@@ -74,7 +74,7 @@ specs:
     items:
       - "All OCR runs on-device"
       - "No document or text uploaded to NFC.cool"
-      - "Documents stored in iCloud or in the app sandbox - your choice"
+      - "Documents sync through your own iCloud, not through our servers"
 
 pricing:
   title: "Free vs Platinum"
@@ -100,7 +100,7 @@ faq:
   - question: "How accurate is the OCR?"
     answer: "Very high for printed text. Handwriting accuracy depends on neatness and contrast. You can edit any recognised text after the scan."
   - question: "Where are scanned documents stored?"
-    answer: "Free tier: in the app sandbox on the device. Platinum: optionally auto-exported to iCloud Documents so they show up in the Files app and on every device signed into your iCloud."
+    answer: "In the app on your device. They sync through your own iCloud to your other iPhones, iPads and Macs signed in to the same Apple Account, and NFC.cool cannot read them. With Platinum, Auto Export to Files also saves each new document as a PDF in the app's iCloud Drive folder, so it shows up in the Files app."
 
 relatedReadingTitle: "Keep Reading"
 relatedReading:

@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "OCR'lı Belge Tarayıcı"
-  subtitle: "Belgeleri kendiliğinden kenar algılama ve perspektif düzeltmeyle çek. Cihazda çalışan OCR her taramayı, cihazından hiç çıkmayan aranabilir metne çevirir."
+  subtitle: "Belgeleri kendiliğinden kenar algılama ve perspektif düzeltmeyle çek. Cihazda çalışan OCR her taramayı aranabilir metne çevirir; metin, NFC.cool'un okuyamadığı kendi iCloud'un üzerinden eşitlenir."
   platforms: "Yalnızca iOS"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 
@@ -20,7 +20,7 @@ capabilities:
   - title: "Perspektif düzeltme"
     description: "Eğri mi çektin? NFC.cool sayfayı düzgün bir dikdörtgene oturtur, gölgeleri temizler ve kontrastı yükseltir, sonuç düz taranmış gibi görünür."
   - title: "Cihazda OCR"
-    description: "Metin tanıma iPhone'unda, yerelde çalışır: ne belge ne metin cihazdan çıkar. Her sayfanın tanınan metni görselin yanında saklanır ve uygulama içinde aranabilir."
+    description: "Metin tanıma iPhone'unda ya da iPad'inde, yerelde çalışır ve belgelerin de metinleri de NFC.cool'a gelmez. Her sayfanın tanınan metni görselin yanında saklanır, kendi iCloud'un üzerinden eşitlenir ve uygulama içinde aranabilir."
   - title: "Metin katmanı gömülü PDF"
     description: "OCR metnini katman olarak gömen çok sayfalı PDF üret, böylece her kelime herhangi bir PDF okuyucuda seçilebilir, kopyalanabilir ve aranabilir olsun."
   - title: "Hızlı paylaş ve kaydet"
@@ -74,7 +74,7 @@ specs:
     items:
       - "Tüm OCR cihazda çalışır"
       - "NFC.cool'a hiçbir belge ya da metin yüklenmez"
-      - "Belgeler iCloud'da ya da uygulama alanında saklanır, seçim senin"
+      - "Belgeler sunucularımız üzerinden değil, kendi iCloud'un üzerinden eşitlenir"
 
 pricing:
   title: "Ücretsiz ve Platinum"
@@ -100,7 +100,7 @@ faq:
   - question: "OCR ne kadar isabetli?"
     answer: "Basılı metinde çok yüksek. El yazısında isabet, yazının düzgünlüğüne ve kontrasta bağlı. Tanınan metni taramadan sonra düzenleyebilirsin."
   - question: "Taranan belgeler nerede saklanıyor?"
-    answer: "Ücretsiz sürümde cihazdaki uygulama alanında. Platinum'da istersen iCloud Belgeler'e otomatik aktarılır, böylece Dosyalar uygulamasında ve iCloud hesabına bağlı her cihazda görünür."
+    answer: "Cihazındaki uygulamada. Kendi iCloud'un üzerinden aynı Apple Hesabı ile oturum açılmış diğer iPhone, iPad ve Mac'lerine eşitlenir ve NFC.cool bunları okuyamaz. Platinum'da Dosyalara Otomatik Aktarım, her yeni belgeyi ayrıca uygulamanın iCloud Drive klasörüne PDF olarak kaydeder, böylece belge Dosyalar uygulamasında görünür."
 
 relatedReadingTitle: "Okumaya devam et"
 relatedReading:

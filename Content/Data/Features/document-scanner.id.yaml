@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "Pemindai dokumen dengan OCR"
-  subtitle: "Tangkap dokumen dengan deteksi tepi otomatis dan koreksi perspektif. OCR di perangkat mengubah setiap pemindaian menjadi teks yang dapat dicari dan tetap privat."
+  subtitle: "Tangkap dokumen dengan deteksi tepi otomatis dan koreksi perspektif. OCR di perangkat mengubah setiap pemindaian menjadi teks yang dapat dicari, tersinkron melalui iCloud Anda sendiri, yang tidak dapat dibaca oleh NFC.cool."
   platforms: "iOS only"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 
@@ -20,7 +20,7 @@ capabilities:
   - title: "Koreksi perspektif"
     description: "Foto miring? NFC.cool meluruskan halaman ke persegi panjang yang bersih, menghilangkan bayangan, dan meningkatkan kontras sehingga hasilnya terlihat seperti pemindaian datar."
   - title: "OCR di perangkat"
-    description: "Pengenalan teks terjadi secara lokal di iPhone Anda - tidak ada dokumen, tidak ada teks yang keluar dari perangkat. Teks yang dikenali dari setiap halaman disimpan bersama gambar dan dapat dicari di dalam aplikasi."
+    description: "Pengenalan teks terjadi secara lokal di iPhone atau iPad Anda, dan NFC.cool tidak menerima dokumen maupun teksnya. Teks yang dikenali dari setiap halaman disimpan bersama gambar, tersinkron melalui iCloud Anda sendiri, dan dapat dicari di dalam aplikasi."
   - title: "Ekspor PDF dengan teks tertanam"
     description: "Buat PDF multi-halaman dengan lapisan teks OCR yang tertanam, sehingga setiap kata dapat dipilih, disalin, dan dicari di pembaca PDF mana pun."
   - title: "Berbagi & simpan cepat"
@@ -74,7 +74,7 @@ specs:
     items:
       - "Semua OCR berjalan di perangkat"
       - "Tidak ada dokumen atau teks yang diunggah ke NFC.cool"
-      - "Dokumen disimpan di iCloud atau di sandbox aplikasi - pilihan Anda"
+      - "Dokumen tersinkron melalui iCloud Anda sendiri, bukan melalui server kami"
 
 pricing:
   title: "Gratis vs Platinum"
@@ -100,7 +100,7 @@ faq:
   - question: "Seberapa akurat OCR-nya?"
     answer: "Sangat tinggi untuk teks cetak. Akurasi tulisan tangan tergantung pada kerapian dan kontras. Anda dapat mengedit teks yang dikenali setelah pemindaian."
   - question: "Di mana dokumen yang dipindai disimpan?"
-    answer: "Tingkat gratis: di sandbox aplikasi pada perangkat. Platinum: secara opsional diekspor otomatis ke iCloud Documents sehingga muncul di aplikasi Files dan di setiap perangkat yang masuk ke iCloud Anda."
+    answer: "Di dalam aplikasi pada perangkat Anda. Melalui iCloud Anda sendiri, dokumen tersinkron ke iPhone, iPad, dan Mac lain yang masuk dengan Akun Apple yang sama, dan NFC.cool tidak dapat membacanya. Dengan Platinum, Ekspor Otomatis ke File juga menyimpan setiap dokumen baru sebagai PDF di folder aplikasi di iCloud Drive, sehingga muncul di aplikasi Files."
 
 relatedReadingTitle: "Lanjutkan membaca"
 relatedReading:

@@ -166,7 +166,7 @@ faq:
   - question: "Does my iPhone need to be unlocked to read a tag?"
     answer: "For most tag scans, no - iPhone XS and newer can read NDEF tags from the lock screen in the background, no app launch required. On Android, the app needs to be in the foreground to read a tag."
   - question: "Can I read a tag without an internet connection?"
-    answer: "Yes. NFC reads and writes happen entirely on-device. NFC.cool never uploads tag content to any server."
+    answer: "Yes. NFC reads and writes happen entirely on-device, and NFC.cool does not receive your tag content. On iPhone and iPad, saved tags sync through your own iCloud, and webhooks, if you turn them on, send scans only to the server you choose."
   - question: "Is writing NFC tags safe?"
     answer: "Writing is safe and reversible by default - you can re-write a tag as many times as you like. Use the lock feature only when you're sure: once a tag is permanently locked, it cannot be rewritten."
   - question: "How secure is NFC Safe?"

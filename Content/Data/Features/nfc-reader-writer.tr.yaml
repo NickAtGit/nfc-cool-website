@@ -166,7 +166,7 @@ faq:
   - question: "Tag okumak için iPhone'umun kilidi açık olmalı mı?"
     answer: "Okumaların çoğunda hayır: iPhone XS ve sonrası NDEF tag'leri kilit ekranından, arka planda okur, uygulamayı açmaya gerek kalmaz. Android'de ise tag okumak için uygulamanın ön planda olması gerekir."
   - question: "İnternet olmadan tag okuyabilir miyim?"
-    answer: "Evet. NFC okuma ve yazma tamamen cihazda olur. NFC.cool tag içeriğini hiçbir sunucuya yüklemez."
+    answer: "Evet. NFC okuma ve yazma tamamen cihazda olur ve tag içeriğin NFC.cool'a gelmez. iPhone ve iPad'de kayıtlı tag'ler kendi iCloud'un üzerinden eşitlenir; webhook'ları açarsan taramalar yalnızca seçtiğin sunucuya gider."
   - question: "NFC tag yazmak güvenli mi?"
     answer: "Yazma varsayılan olarak güvenli ve geri alınabilir: bir tag'i istediğin kadar yeniden yazabilirsin. Kilitleme özelliğini yalnızca emin olduğunda kullan, çünkü kalıcı olarak kilitlenen tag bir daha yazılamaz."
   - question: "NFC Safe ne kadar güvenli?"

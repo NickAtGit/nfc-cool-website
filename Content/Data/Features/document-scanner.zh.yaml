@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "支持 OCR 的文档扫描"
-  subtitle: "扫描文档时自动识别边缘并校正透视。设备端 OCR 让每一次扫描都变成可搜索的文本，文档和文本都不会离开你的设备。一次就能拍下整叠文件，再导出为内嵌文本的多页 PDF，通过邮件、信息或隔空投送发送，也可以保存到文件 App。"
+  subtitle: "扫描文档时自动识别边缘并校正透视。设备端 OCR 让每一次扫描都变成可搜索的文本，并通过你自己的 iCloud 同步，NFC.cool 无法读取。一次就能拍下整叠文件，再导出为内嵌文本的多页 PDF，通过邮件、信息或隔空投送发送，也可以保存到文件 App。"
   platforms: "仅限 iOS"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 
@@ -20,7 +20,7 @@ capabilities:
   - title: "透视校正"
     description: "拍歪了？NFC.cool 会把页面校正为规整的矩形，去除阴影并增强对比度，让结果看起来像平整的扫描件。"
   - title: "设备端 OCR"
-    description: "文字识别在你的 iPhone 本地完成，文档和文本都不会离开设备。每一页识别出的文本都会与图像一同保存，并可在 App 内搜索。"
+    description: "文字识别在你的 iPhone 或 iPad 本地完成，NFC.cool 不会收到你的文档或其中的文本。每一页识别出的文本都会与图像一同保存，通过你自己的 iCloud 同步，并可在 App 内搜索。"
   - title: "导出带内嵌文本的 PDF"
     description: "生成内嵌 OCR 文本层的多页 PDF，让每个字在任意 PDF 阅读器中都可选中、可复制、可搜索。"
   - title: "快速分享与保存"
@@ -74,7 +74,7 @@ specs:
     items:
       - "所有 OCR 均在设备端运行"
       - "文档和文本都不会上传到 NFC.cool"
-      - "文档存储在 iCloud 或 App 沙盒中，由你选择"
+      - "文档通过你自己的 iCloud 同步，不经过我们的服务器"
 
 pricing:
   title: "免费版与 Platinum 版"
@@ -100,7 +100,7 @@ faq:
   - question: "OCR 的准确度如何？"
     answer: "对印刷体文字准确度非常高。手写识别的准确度取决于字迹的工整程度和对比度。你可以在扫描后编辑任何识别出的文本。"
   - question: "扫描的文档存储在哪里？"
-    answer: "免费版：存储在设备上的 App 沙盒中。Platinum 版：可选择自动导出到 iCloud 文档，从而显示在文件 App 中，并出现在所有登录了你 iCloud 的设备上。"
+    answer: "保存在你设备上的 App 里，并通过你自己的 iCloud 同步到登录同一 Apple 账户的其他 iPhone、iPad 和 Mac，NFC.cool 无法读取。Platinum 版的“自动导出到文件”还会把每份新文档另存为 PDF，放进 App 在 iCloud 云盘中的文件夹，让它显示在文件 App 里。"
 
 relatedReadingTitle: "继续阅读"
 relatedReading:

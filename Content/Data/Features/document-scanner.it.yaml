@@ -9,7 +9,7 @@ card:
 
 hero:
   title: "Scanner di documenti con OCR"
-  subtitle: "Cattura i documenti con il rilevamento automatico dei bordi e la correzione della prospettiva. L'OCR lavora in locale e trasforma ogni scansione in testo consultabile, che non lascia mai il dispositivo."
+  subtitle: "Cattura i documenti con il rilevamento automatico dei bordi e la correzione della prospettiva. L'OCR lavora in locale e trasforma ogni scansione in testo consultabile, sincronizzato tramite il tuo iCloud, dove NFC.cool non può leggerlo."
   platforms: "Solo iOS"
   heroImagePath: "/assets/images/Webflow/document-scan.webp"
 
@@ -20,7 +20,7 @@ capabilities:
   - title: "Correzione della prospettiva"
     description: "Foto storta? NFC.cool raddrizza la pagina in un rettangolo pulito, toglie le ombre e alza il contrasto, così il risultato sembra uscito da uno scanner piano."
   - title: "OCR sul dispositivo"
-    description: "Il riconoscimento del testo avviene in locale sull'iPhone: né i documenti né il testo lasciano il dispositivo. Il testo riconosciuto di ogni pagina resta insieme all'immagine e si può cercare dentro l'app."
+    description: "Il riconoscimento del testo avviene in locale sull'iPhone o sull'iPad, e né i documenti né il testo arrivano a NFC.cool. Il testo riconosciuto di ogni pagina resta insieme all'immagine, si sincronizza tramite il tuo iCloud e si può cercare dentro l'app."
   - title: "Esportazione in PDF con testo incorporato"
     description: "Crea un PDF di più pagine con il livello di testo dell'OCR già incorporato: ogni parola si può selezionare, copiare e cercare in qualsiasi lettore di PDF."
   - title: "Condivisione e salvataggio rapidi"
@@ -74,7 +74,7 @@ specs:
     items:
       - "Tutto l'OCR avviene sul dispositivo"
       - "Nessun documento e nessun testo arriva a NFC.cool"
-      - "I documenti restano su iCloud o nella memoria dell'app, come preferisci"
+      - "I documenti si sincronizzano tramite il tuo iCloud, non tramite i nostri server"
 
 pricing:
   title: "Gratis vs Platinum"
@@ -100,7 +100,7 @@ faq:
   - question: "Quanto è preciso l'OCR?"
     answer: "Molto preciso sul testo stampato. Con la scrittura a mano dipende da quanto è ordinata e dal contrasto. In ogni caso il testo riconosciuto si può correggere dopo la scansione."
   - question: "Dove finiscono i documenti scansionati?"
-    answer: "Nella versione gratuita restano nella memoria dell'app, sul dispositivo. Con Platinum puoi esportarli in automatico su Documenti di iCloud, così compaiono nell'app File e su ogni dispositivo collegato al tuo iCloud."
+    answer: "Nell'app, sul dispositivo. Tramite il tuo iCloud si sincronizzano con gli altri iPhone, iPad e Mac collegati allo stesso Account Apple, e NFC.cool non può leggerli. Con Platinum, l'Esportazione automatica in file salva anche ogni nuovo documento come PDF nella cartella dell'app su iCloud Drive, così compare nell'app File."
 
 relatedReadingTitle: "Continua a leggere"
 relatedReading:

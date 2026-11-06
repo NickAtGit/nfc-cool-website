@@ -166,7 +166,7 @@ faq:
   - question: "Mon iPhone doit-il être déverrouillé pour lire un tag ?"
     answer: "Pour la plupart des scans, non - l'iPhone XS et les modèles plus récents peuvent lire les tags NDEF depuis l'écran verrouillé, en arrière-plan, sans lancer l'app. Sur Android, l'app doit être au premier plan pour lire un tag."
   - question: "Puis-je lire un tag sans connexion internet ?"
-    answer: "Oui. Les lectures et écritures NFC se font entièrement sur l'appareil. NFC.cool n'envoie jamais le contenu des tags vers un serveur."
+    answer: "Oui. Les lectures et écritures NFC se font entièrement sur l'appareil, et le contenu de vos tags ne parvient pas à NFC.cool. Sur iPhone et iPad, les tags enregistrés se synchronisent via votre propre iCloud, et les webhooks, si vous les activez, n'envoient vos scans qu'au serveur de votre choix."
   - question: "Est-il sans risque d'écrire des tags NFC ?"
     answer: "L'écriture est sans risque et réversible par défaut - vous pouvez réécrire un tag autant de fois que vous le souhaitez. N'utilisez la fonction de verrouillage que si vous êtes sûr : une fois un tag verrouillé définitivement, il ne peut plus être réécrit."
   - question: "Quel est le niveau de sécurité de NFC Safe ?"

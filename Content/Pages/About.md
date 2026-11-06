@@ -51,7 +51,7 @@ I keep it that way on purpose. NFC.cool isn't VC-backed, so the people I answer 
 
 <article class="page-card">
 <h3>On-device processing</h3>
-<p>OCR, photogrammetry, NFC parsing - all run locally. No cloud round-trips, no internet required.</p>
+<p>OCR, photogrammetry, NFC parsing: all run locally. No cloud round-trips, no internet required.</p>
 </article>
 
 <article class="page-card">

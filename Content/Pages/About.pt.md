@@ -51,7 +51,7 @@ Mantenho-o assim de propósito. A NFC.cool não tem investimento de capital de r
 
 <article class="page-card">
 <h3>Processamento no dispositivo</h3>
-<p>OCR, fotogrametria, interpretação de NFC - tudo corre localmente. Sem idas e voltas à nuvem, sem precisar de internet.</p>
+<p>OCR, fotogrametria, interpretação de NFC: tudo corre localmente. Sem idas e voltas à nuvem, sem precisar de internet.</p>
 </article>
 
 <article class="page-card">
