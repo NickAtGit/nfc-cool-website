@@ -888,3 +888,86 @@
 .page-carousel-nav button:disabled { opacity: 0.35; cursor: default; }
 [dir="rtl"] .page-carousel-nav button { transform: scaleX(-1); }
 
+/* ============================================================
+   Promo code (campaign pages such as /websummit26/). Sits on the
+   brand gradient of the hero and the final CTA, so it is drawn in
+   white on a translucent box with a dashed yellow edge, like a coupon.
+   ============================================================ */
+.promo-code {
+   display: inline-flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 0.75rem 1rem;
+   margin: 0.25rem 0 1.5rem;
+   padding: 0.625rem 0.625rem 0.625rem 1.125rem;
+   border: 2px dashed var(--color-accent);
+   border-radius: var(--radius-lg);
+   background: rgba(255, 255, 255, 0.12);
+   color: #FFFFFF;
+}
+.promo-code-text {
+   display: flex;
+   flex-direction: column;
+   line-height: 1.1;
+   text-align: start;
+}
+.promo-code-text small {
+   font-size: 0.75rem;
+   font-weight: 600;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   opacity: 0.85;
+}
+.promo-code-value {
+   font-family: var(--font-heading);
+   font-size: 1.625rem;
+   font-weight: 700;
+   letter-spacing: 0.06em;
+   user-select: all;
+}
+.promo-code-copy {
+   font: inherit;
+   font-weight: 700;
+   min-width: 5.5rem;
+   padding: 0.625rem 1.125rem;
+   border: 0;
+   border-radius: var(--radius-md, 10px);
+   background: var(--color-accent);
+   color: #161B22;
+   cursor: pointer;
+   transition: background var(--transition);
+}
+.promo-code-copy:hover { background: var(--color-accent-hover); }
+.promo-code-copy:focus-visible { outline: 3px solid #FFFFFF; outline-offset: 2px; }
+.landing-final-cta .promo-code { margin-inline: auto; }
+.page-hero-text .promo-hero-aside { margin-top: 1.25rem; font-size: 0.9375rem; }
+.page-hero-text .promo-hero-aside a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+
+/* The offer cards: a small plan label above the free period, the yearly
+   team plan outlined in brand blue (yellow in dark mode) as the one to pick. */
+.promo-plan-name {
+   display: block;
+   margin-bottom: 0.25rem;
+   font-size: 0.8125rem;
+   font-weight: 600;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: var(--color-text-muted);
+}
+.promo-plan h3 { font-size: 1.625rem; }
+.promo-plan.is-featured { border: 2px solid var(--brand-blue-1); }
+[data-theme="dark"] .promo-plan.is-featured { border-color: var(--color-accent); }
+
+/* Numbered setup steps: the order is the point, so the number leads. */
+.promo-step {
+   display: grid;
+   place-items: center;
+   width: 2rem;
+   height: 2rem;
+   margin-bottom: 0.75rem;
+   border-radius: 50%;
+   background: var(--brand-blue-1);
+   color: #FFFFFF;
+   font-weight: 700;
+}
+[data-theme="dark"] .promo-step { background: var(--color-accent); color: #161B22; }

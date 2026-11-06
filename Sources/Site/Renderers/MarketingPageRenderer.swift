@@ -19,6 +19,9 @@ import SiteKit
 /// the first thing inside `<main>`, no duplicate title, no inherited link
 /// rules.
 struct MarketingPageRenderer: Renderer {
+   /// Pages that render normally but stay out of search and the sitemap.
+   static let unlistedSlugs: Set<String> = ["websummit26"]
+
    func render(context: BuildContext) throws -> [OutputFile] {
       let helper = OutputFileRenderer(context: context)
       let defaultLang = context.config.effectiveDefaultLanguage
@@ -176,6 +179,14 @@ struct MarketingPageRenderer: Renderer {
       // for this one page; the URL (and its query) is then never rewritten.
       if page.slug == "tap-counter" {
          head = Self.removingLanguageRedirectScript(from: head)
+      }
+
+      // Campaign pages (one event, one promo code) are reached from a booth card
+      // or QR code, never from search, so an expired offer can't turn up there.
+      // RobotsIndexableProcessor leaves a page alone once it has a robots tag,
+      // and FeatureSitemapDataAdapter keeps these out of the sitemap.
+      if Self.unlistedSlugs.contains(page.slug) {
+         head += "<meta name=\"robots\" content=\"noindex, follow\"/>"
       }
 
       // Marketing pages author their own .page-hero / .page-section structure

@@ -37,8 +37,9 @@ struct SmartAppBannerProcessor: OutputProcessor {
 
    /// Matches `/business-card/index.html`, `/de/business-card/index.html`,
    /// `/ja/business-card/index.html`. Anything containing `business-card/` in
-   /// the trailing path segment, regardless of locale prefix.
+   /// the trailing path segment, regardless of locale prefix. The Web Summit
+   /// campaign page sells the Business Card app too.
    private func isBusinessCardPage(relativePath: String) -> Bool {
-      return relativePath.contains("/business-card/")
+      return relativePath.contains("/business-card/") || relativePath.contains("/websummit26/")
    }
 }

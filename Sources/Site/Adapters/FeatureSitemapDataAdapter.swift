@@ -36,6 +36,12 @@ struct FeatureSitemapDataAdapter: SitemapDataAdapting {
             .filter { !LocalizedContent.isEmitted($0, defaultLanguage: defaultLang) }
             .map { context.router.staticPagePath(for: $0) }
       )
+      // Campaign pages are noindex, so they have no place in a sitemap either.
+      fallbackPaths.formUnion(
+         context.staticPages
+            .filter { MarketingPageRenderer.unlistedSlugs.contains($0.slug) }
+            .map { context.router.staticPagePath(for: $0) }
+      )
       if !fallbackPaths.isEmpty {
          entries = entries.filter { !fallbackPaths.contains($0.path) }
       }

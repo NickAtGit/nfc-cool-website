@@ -499,3 +499,32 @@ document.addEventListener('DOMContentLoaded', function() {
       update();
    });
 });
+
+// Copy buttons for promo codes (`<button data-copy="CODE">`). Falls back to
+// selecting the code's text where the clipboard API is refused.
+document.addEventListener('DOMContentLoaded', function() {
+   document.querySelectorAll('button[data-copy]').forEach(function(button) {
+      const label = button.textContent;
+      const copied = button.getAttribute('data-copied-label') || label;
+      const selectCode = function() {
+         const value = button.parentElement && button.parentElement.querySelector('.promo-code-value');
+         if (!value) return;
+         const range = document.createRange();
+         range.selectNodeContents(value);
+         const selection = window.getSelection();
+         selection.removeAllRanges();
+         selection.addRange(range);
+      };
+      button.addEventListener('click', function() {
+         const done = function() {
+            button.textContent = copied;
+            setTimeout(function() { button.textContent = label; }, 1800);
+         };
+         if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(button.getAttribute('data-copy')).then(done, selectCode);
+         } else {
+            selectCode();
+         }
+      });
+   });
+});
