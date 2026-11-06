@@ -1,7 +1,7 @@
 ---
 title: "Terms & Conditions"
 slug: "terms"
-description: "The legal terms that govern your use of the NFC.cool website, the NFC.cool family of apps across iPhone and Android, and the services that surround them."
+description: "The terms for the NFC.cool Tools app on iPhone, iPad and Android and for the nfc.cool website: what the app does, ads, Platinum subscriptions and lifetime purchases, writing to NFC tags, your rights as a consumer, and how to settle a dispute."
 ---
 
 <section class="page-hero">
@@ -10,11 +10,11 @@ description: "The legal terms that govern your use of the NFC.cool website, the 
 
 <div class="page-hero-text">
 
-# Terms & conditions
+# Terms of service for NFC.cool Tools and nfc.cool
 
-The legal agreement between you and Nicolo Stanciu, trading as NFC.cool, covering this website, the NFC.cool apps, and the services around them.
+The agreement between you and NFC.cool for the NFC.cool Tools app and the nfc.cool website. How we handle personal data is in the [privacy policy](/privacy/).
 
-**Last modified: November 6, 2026**
+<strong>Last modified: November 6, 2026</strong>
 
 </div>
 
@@ -26,262 +26,233 @@ The legal agreement between you and Nicolo Stanciu, trading as NFC.cool, coverin
 
 </section>
 
-<section class="page-section">
+<section class="page-section is-reading">
 
-## Agreement to our Legal Terms
+<div class="page-cards-grid">
+<nav class="page-card" aria-label="On this page">
+<h3>On this page</h3>
+<ul>
+<li><a href="#who-we-are-and-what-these-terms-cover">Who we are and what these terms cover</a></li>
+<li><a href="#what-the-app-does">What the app does</a></li>
+<li><a href="#the-website-and-the-newsletter">The website and the newsletter</a></li>
+<li><a href="#ads-in-the-free-version">Ads in the free version</a></li>
+<li><a href="#platinum-and-other-purchases">Platinum and other purchases</a></li>
+<li><a href="#business-card-accounts">Business card accounts</a></li>
+<li><a href="#writing-to-nfc-tags">Writing to NFC tags</a></li>
+<li><a href="#how-you-may-use-the-app-and-the-website">How you may use the app and the website</a></li>
+<li><a href="#your-content-and-our-software">Your content and our software</a></li>
+<li><a href="#availability-and-changes-to-the-service">Availability and changes to the service</a></li>
+<li><a href="#warranty-and-liability">Warranty and liability</a></li>
+<li><a href="#changes-to-these-terms">Changes to these terms</a></li>
+<li><a href="#governing-law-and-disputes">Governing law and disputes</a></li>
+<li><a href="#other-terms">Other terms</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
 
-We are Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, NIF PT315901934 ("Company," "we," "us," "our").
+## Who we are and what these terms cover
 
-We operate [NFC.cool](https://nfc.cool/) & [NFC.cool App](https://apps.apple.com/us/app/nfc-cool-tools-tag-reader/id1249686798), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
-
-You can contact us via [e-mail](mailto:info@nfc.cool?subject=NFC.cool%20Support) or by mail to Nicolo Stanciu | NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal.
-
-These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and NFC.cool, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms.
-
-IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
-
-Supplemental terms and conditions or documents that may be posted on the Services from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms at any time and for any reason. We will alert you about any changes by updating the "Last updated" date of these Legal Terms, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Legal Terms to stay informed of updates.
-
-You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.
-
-## Table of Contents
+These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, NIF PT315901934, phone +351 925 378 989, email info (at) nfc (dot) cool ("NFC.cool", "we", "us"). They cover:
 
 <ul>
-<li>Our Services</li>
-<li>Intellectual Property Rights</li>
-<li>User Representations</li>
-<li>Prohibited Activities</li>
-<li>User Generated Contributions</li>
-<li>Contribution License</li>
-<li>Services Management</li>
-<li>Term and Termination</li>
-<li>Modification and Interruptions</li>
-<li>Governing Law</li>
-<li>Dispute Resolution</li>
-<li>Corrections</li>
-<li>Disclaimer</li>
-<li>Limitations of Liability</li>
-<li>Indemnification</li>
-<li>User Data</li>
-<li>Electronic Communications, Transactions and Signatures</li>
-<li>Miscellaneous</li>
-<li>Contact Us</li>
+<li>the NFC.cool Tools app for iPhone and iPad, from the <a href="https://apps.apple.com/app/id1249686798">App Store</a>, and for Android, from <a href="https://play.google.com/store/apps/details?id=cool.nfc">Google Play</a> ("the app");</li>
+<li>the website at nfc.cool, including its guides, its blog and the tools that work in your browser, such as the <a href="/online-nfc-reader/">online NFC reader</a> ("the website").</li>
 </ul>
 
-## Our Services
+In these terms, "the service" means both. NFC.cool Business Card has its own [terms](/terms/business-card/), and so do business card accounts you use in the app: see [Business card accounts](#business-card-accounts).
 
-The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.
+These terms apply when you use the app or the website, and to every purchase you make in the app. If you got the app from the App Store or Google Play, the store's terms apply as well: see [Your content and our software](#your-content-and-our-software). If you do not agree with these terms, please do not use the service.
 
-Our Services are intended for individuals who are 18 years of age or older. If you are under 18, you must have parental consent to use our Services.
+You must be at least 16 to use the app. If you are under 18, you need a parent's or guardian's permission to buy Platinum.
 
-## Intellectual Property Rights
+## What the app does
 
-### Our intellectual property
+NFC.cool Tools is a toolkit for NFC tags, codes and scans. With it you can:
 
-We are the owner or the licensee of all intellectual property rights in our Services, including all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics in the Services (collectively, the "Content"), as well as the trademarks, service marks, and logos contained therein (the "Marks").
+<ul>
+<li>read and write NFC tags, including tags protected by a password or by keys;</li>
+<li>scan QR codes and barcodes, and make QR codes;</li>
+<li>scan documents;</li>
+<li>read the chip in a passport or an ID card;</li>
+<li>make 3D scans of objects and rooms;</li>
+<li>send the data of a tag you scan to a web address you choose (a webhook);</li>
+<li>make a link that takes people to the page where they can review a business on Google;</li>
+<li>earn Game Center achievements, on iPhone and iPad.</li>
+</ul>
 
-Our Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in Portugal and around the world.
+Text recognition in scanned documents, the titles the app suggests for them, and the reading of passports and ID cards all happen on your device.
 
-The Content and Marks are provided in or through the Services "AS IS" for your personal, non-commercial use or internal business purpose only.
+The app shows which features are free and which need Platinum. Not every feature is available on every platform, and some work only on devices that support them, for example tag reading and writing on a phone with NFC.
 
-### Your use of our Services
+## The website and the newsletter
 
-Subject to your compliance with these Legal Terms, including the "PROHIBITED ACTIVITIES" section below, we grant you a non-exclusive, non-transferable, revocable license to:
+You can read the website and use its browser tools for free, without an account.
 
-a. access the Services; andb. download or print a copy of any portion of the Content to which you have properly gained access.
+<ul>
+<li><strong>Guides.</strong> Our guides explain how NFC and the app work in general. Your device or your tags may behave differently, so test a setup before you rely on it, for example before you write a large batch of tags.</li>
+<li><strong>Links to other sites.</strong> The website links to other websites and shops. Their owners are responsible for them. Some links to shops, such as Amazon, are affiliate links: if you buy something after following one, we may earn a commission. You pay the same price.</li>
+<li><strong>Newsletter.</strong> You can sign up for our newsletter on the website or in the app. We then email you news about NFC.cool, such as new features and guides. You can unsubscribe at any time with the link in each email. The <a href="/privacy/">privacy policy</a> explains how we handle your email address.</li>
+</ul>
 
-solely for your personal, non-commercial use or internal business purpose.
+## Ads in the free version
 
-Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
+The free version of the app can show ads, served by Google AdMob. Before ads use data from your device, the app asks for your choice. The [privacy policy](/privacy/) explains what that choice covers. Platinum removes the ads.
 
-If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request via [e-mail](mailto:info@nfc.cool?subject=NFC.cool%20Support). If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
+An ad leads to the advertiser's own offer. If you buy something from an advertiser, that is a contract between you and them. If you see an ad that looks illegal or misleading, tell us at info (at) nfc (dot) cool and we will look into it.
 
-We reserve all rights not expressly granted to you in and to the Services, Content, and Marks.
+## Platinum and other purchases
 
-Any breach of these Intellectual Property Rights will constitute a material breach of our Legal Terms and your right to use our Services will terminate immediately.
+Platinum unlocks the app's premium features and removes the ads. What it includes, its price and its billing period are shown in the app and in the store before you buy.
 
-### Your submissions
+### Buying through the App Store or Google Play
 
-Please review this section and the "PROHIBITED ACTIVITIES" section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.
+You buy Platinum in the app, through the App Store or Google Play. Apple or Google takes the payment, and their terms govern billing, renewal, cancellation and refunds:
 
-Submissions: By directly sending us any question, comment, suggestion, idea, feedback, or other information about the Services ("Submissions"), you agree to assign to us all intellectual property rights in such Submission. You agree that we shall own this Submission and be entitled to its unrestricted use and dissemination for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you.
+<ul>
+<li>the price and the billing period are shown in the store before you buy;</li>
+<li>a subscription, weekly, monthly or yearly, renews automatically at the end of each period until you cancel it in your App Store or Google Play account settings;</li>
+<li>deleting the app does not cancel a subscription;</li>
+<li>refunds, including any right of withdrawal, are handled by Apple or Google under their own rules. To ask for one, use Apple's <a href="https://reportaproblem.apple.com">Report a Problem</a> page or Google Play's <a href="https://support.google.com/googleplay/answer/2479637">refund page</a>.</li>
+</ul>
 
-You are responsible for what you post or upload: By sending us Submissions through any part of the Services you:
+This does not affect your rights under consumer law, including the legal guarantee that the app works as described. If something is wrong with the app, contact us and we will put it right.
 
-<ol>
-<li>Confirm that you have read and agree with our "PROHIBITED ACTIVITIES" and will not post, send, publish, upload, or transmit through the Services any Submission that is illegal, harassing, hateful, harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually explicit, false, inaccurate, deceitful, or misleading;</li>
-<li>To the extent permissible by applicable law, waive any and all moral rights to any such Submission;</li>
-<li>Warrant that any such Submission are original to you or that you have the necessary rights and licenses to submit such Submissions and that you have full authority to grant us the above-mentioned rights in relation to your Submissions;</li>
-<li>Warrant and represent that your Submissions do not constitute confidential information.</li>
-</ol>
+### Free trials
 
-You are solely responsible for your Submissions and you expressly agree to reimburse us for any and all losses that we may suffer because of your breach of (a) this section, (b) any third party’s intellectual property rights, or (c) applicable law.
+Some subscriptions start with a free trial of 3 or 7 days. The store shows the length of the trial, and the price you pay after it, before you start. When the trial ends, the subscription starts and you are charged, unless you cancelled it before then. Apple asks you to cancel at least 24 hours before the trial ends.
 
-## User Representations
+### Lifetime purchases
 
-By using the Services, you represent and warrant that:
+A lifetime purchase is paid once and does not renew. It gives you Platinum for as long as we offer the app.
 
-<ol>
-<li>You have the legal capacity and you agree to comply with these Legal Terms;</li>
-<li>You are not a minor in the jurisdiction in which you reside;</li>
-<li>You will not access the Services through automated or non-human means, whether through a bot, script or otherwise; (4) you will not use the Services for any illegal or unauthorized purpose;</li>
-<li>Your use of the Services will not violate any applicable law or regulation.</li>
-</ol>
+### Purchases we no longer sell
 
-If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the Services (or any portion thereof).
+If you bought an earlier one-off unlock that we no longer sell, it keeps what it was sold with.
 
-## Prohibited Activities
+### Restoring your purchases
 
-You may not access or use the Services for any purpose other than that for which we make the Services available. The Services may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
+A purchase belongs to the Apple ID or Google account you bought it with. If you reinstall the app, or use it on another device with the same account, you can restore your purchases in the app.
 
-As a user of the Services, you agree not to:
+### Offers and promotions
 
-<ol>
-<li>Systematically retrieve data or other content from the Services to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.</li>
-<li>Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.</li>
-<li>Circumvent, disable, or otherwise interfere with security-related features of the Services, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Services and/or the Content contained therein.</li>
-<li>Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Services.</li>
-<li>Use any information obtained from the Services in order to harass, abuse, or harm another person.</li>
-<li>Make improper use of our support services or submit false reports of abuse or misconduct.</li>
-<li>Use the Services in a manner inconsistent with any applicable laws or regulations.</li>
-<li>Engage in unauthorized framing of or linking to the Services.</li>
-<li>Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Services or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Services.</li>
-<li>Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.</li>
-<li>Delete the copyright or other proprietary rights notice from any Content.</li>
-<li>Attempt to impersonate another user or person or use the username of another user.</li>
-<li>Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats ("gifs"), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as "spyware" or "passive collection mechanisms" or "pcms").</li>
-<li>Interfere with, disrupt, or create an undue burden on the Services or the networks or services connected to the Services.</li>
-<li>Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Services to you.</li>
-<li>Attempt to bypass any measures of the Services designed to prevent or restrict access to the Services, or any portion of the Services.</li>
-<li>Copy or adapt the Services' software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.</li>
-<li>Except as permitted by applicable law, decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Services.</li>
-<li>Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Services, or use or launch any unauthorized script or other software.</li>
-<li>Use a buying agent or purchasing agent to make purchases on the Services.</li>
-<li>Make any unauthorized use of the Services, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.</li>
-<li>Use the Services as part of any effort to compete with us or otherwise use the Services and/or the Content for any revenue-generating endeavor or commercial enterprise.</li>
-</ol>
+We sometimes offer Platinum at a lower price, or free for a limited time, for example through an offer code you redeem in the app or in the store, or through a promotion in the app. What an offer gives you, and for how long, is shown in the app or in the store. If an offer leads into a paid subscription, the store shows the price and when it starts, and the subscription then renews like any other until you cancel it.
 
-## User Generated Contributions
+### Price changes
 
-The Services does not offer users to submit or post content. We may provide you with the opportunity to create, submit, post, display, transmit, perform, publish, distribute, or broadcast content and materials to us or on the Services, including but not limited to text, writings, video, audio, photographs, graphics, comments, suggestions, or personal information or other material (collectively, "Contributions"). Contributions may be viewable by other users of the Services and through third-party websites.
+We may change the price of Platinum for a valid reason, such as a change in our costs, in taxes or in what Platinum includes. A new price applies to a running subscription only from a later renewal. Apple or Google tell you before it applies, and ask for your consent where their rules require it. You can cancel before the new price applies. A price change never affects a purchase you have already paid for.
 
-## Contribution License
+## Business card accounts
 
-You and Services agree that we may access, store, process, and use any information and personal data that you provide and your choices (including settings).
+If you already have an NFC.cool business card account, you can sign in to it in the app and use it there. New business card accounts are made in the NFC.cool Business Card app.
 
-By submitting suggestions or other feedback regarding the Services, you agree that we can use and share (but do not have to) such feedback for any purpose without compensation to you.
+Your business card account, the cards you make with it, and the contacts people leave on them through a card's contact form, are covered by the [Business Card terms](/terms/business-card/) and the [Business Card privacy policy](/privacy/business-card/), not by these terms.
 
-You agree to only provide content or information that does not violate the law nor anyone’s rights (including intellectual property rights). You also agree that your profile information will be truthful. We may be required by law to remove certain information or content in certain countries.
+## Writing to NFC tags
 
-If we learn that you are infringing third-party intellectual property rights, we may disable your account.
+Some changes you can make to a tag cannot be undone:
 
-You agree that we may download and install updates to the Services on your device.
+<ul>
+<li><strong>Locking.</strong> Locking a tag makes it read-only for good. Nobody can change it after that, including you.</li>
+<li><strong>Passwords and keys.</strong> If you protect a tag with a password, or set or change its keys, only that password or those keys can change it again. If you lose them, the tag may become unusable. We cannot recover them for you.</li>
+</ul>
 
-## Services Management
+Before you lock a tag or set a password or a key, check what you wrote, and keep the password or key somewhere safe. Write only to tags you own or are allowed to change.
 
-We reserve the right, but not the obligation, to:
+You are responsible for the changes you choose to make to a tag. If the app writes something other than what you chose, or does not work as described, the legal guarantee applies: see [Warranty and liability](#warranty-and-liability).
 
-<ol>
-<li>Monitor the Services for violations of these Legal Terms;</li>
-<li>Take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities;</li>
-<li>In our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof;</li>
-<li>In our sole discretion and without limitation, notice, or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems;</li>
-<li>Otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.</li>
-</ol>
+## How you may use the app and the website
 
-## Terms and Termination
+Use the service lawfully and in a way that does not harm other people. In particular, do not:
 
-These Legal Terms shall remain in full force and effect while you use the Services.
+<ul>
+<li>use it for anything illegal, or to harm, deceive or spy on other people;</li>
+<li>read, copy or change tags or cards you are not allowed to, such as other people's access cards, tickets or payment cards;</li>
+<li>read someone else's passport or ID card without their permission;</li>
+<li>write tags or make QR codes that lead people to phishing, malware or scams, or that infringe other people's rights;</li>
+<li>use webhooks to send data you have no right to send, to send it to systems you are not allowed to use, or to flood a server with requests;</li>
+<li>use the review link to get fake reviews, or in any way that breaks Google's rules for reviews;</li>
+<li>get around the checks that unlock Platinum, or use a modified copy of the app;</li>
+<li>try to get into our systems or into data that is not yours, or probe or get around our security;</li>
+<li>copy, decompile or reverse engineer the app, except as far as the law allows you to;</li>
+<li>copy the website in bulk by automated means to republish it, or put an unreasonable load on it. Search engines and other crawlers that follow our robots.txt are welcome.</li>
+</ul>
 
-WITHOUT LIMITING ANY OTHER PROVISION OF THESE LEGAL TERMS, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SERVICES (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE LEGAL TERMS OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE SERVICES OR DELETE YOUR ACCOUNT AND ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.
+If someone seriously breaks these rules, or the law requires it, we may block their access to the website, or to the features of the app that run on our servers, as far as that is needed to stop it.
 
-If we terminate or suspend your account for any reason, you are prohibited from registering and creating a new account under your name, a fake or borrowed name, or the name of any third party, even if you may be acting on behalf of the third party.
+You can stop using the service at any time. To stop paying, cancel your subscription in your store account settings.
 
-In addition to terminating or suspending your account, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.
+## Your content and our software
 
-## Modification and Interruptions
+<ul>
+<li><strong>Your content stays yours.</strong> We claim no rights in what you scan, write or make with the app.</li>
+<li><strong>Our software stays ours.</strong> The app, the website and their design and texts are ours or our licensors'. We give you a personal, non-transferable right to use the app under these terms and the store's licence. You may quote the website as the law allows, with a link to the source.</li>
+<li><strong>App stores.</strong> If you got the app from the App Store, Apple's standard Licensed Application End User License Agreement also applies to the app. It is the licence that the app's "Terms of use" link opens on iPhone and iPad. If you got the app from Google Play, Google Play's terms apply to the download and to purchases. The store's terms cover your right to use the app and the purchase itself, and these terms add the rest. Apple and Google are not parties to these terms and are not responsible for the app or its support. Questions and claims about the app come to us.</li>
+<li><strong>Feedback.</strong> If you send us ideas or suggestions, we may use them without owing you anything.</li>
+</ul>
 
-We reserve the right to change, modify, or remove the contents of the Services at any time or for any reason at our sole discretion without notice. However, we have no obligation to update any information on our Services. We also reserve the right to modify or discontinue all or part of the Services without notice at any time. We will not be liable to you or any third party for any modification, price change, suspension, or discontinuance of the Services.
+## Availability and changes to the service
 
-We cannot guarantee the Services will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Services, resulting in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Services at any time or for any reason without notice to you. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Services during any downtime or discontinuance of the Services. Nothing in these Legal Terms will be construed to obligate us to maintain and support the Services or to supply any corrections, updates, or releases in connection therewith.
+We work to keep the app and the website running well, but we cannot promise they will always be available or free of errors. We sometimes need to interrupt the website for maintenance or to fix problems. Features that use the internet, such as webhooks and business card accounts, need a connection.
 
-## Governing Law
+Parts of the service depend on others: Apple and Google for the app, purchases and system features such as NFC, Google for ads, and the services you connect, such as the address a webhook sends to. We choose our providers with care. If you use the service for your business, we are not liable for their outages or decisions that we could not reasonably prevent or work around.
 
-These Legal Terms and your use of the Services are governed by and construed in accordance with the laws of the State of Portugal applicable to agreements made and to be entirely performed within the State of Portugal, without regard to its conflict of law principles.
+We improve the app and may change or remove features for a valid reason, such as a change in technology, in the law or in what Apple, Google or our other providers offer, at no extra cost to you. If a change takes away more than a minor part of what Platinum includes, we say so on this website and in the app's update notes in the store before it applies. You can then cancel your subscription, and you keep the rights consumer law gives you.
 
-## Dispute Resolution
+If we stop offering the app, we announce it on this website at least 60 days before. Subscriptions then stop renewing, and Apple or Google handle any refund. Your rights under consumer law are not affected.
 
-Any legal action of whatever nature brought by either you or us (collectively, the "Parties" and individually, a "Party") shall be commenced or prosecuted in the state and federal courts located in Portugal, with such venue and jurisdiction being exclusive. Any claim or cause of action arising out of or related to these Legal Terms or the Services must be filed within one (1) year after such claim or cause of action arose or be forever barred.
+## Warranty and liability
 
-## Corrections
+If you are a consumer, you keep every right that mandatory consumer law gives you, including the legal guarantee that the service conforms to the contract (Decreto-Lei n.º 84/2021). Nothing in these terms limits those rights or our liability to you under the law.
 
-There may be information on the Services that contains typographical errors, inaccuracies, or omissions that may relate to the Services, including descriptions, pricing, availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information at any time, without prior notice.
+Nothing in these terms excludes or limits our liability for damage we cause intentionally or through gross negligence, whether ourselves or through the people and providers we work with, for death, personal injury or damage to health, for damage to property outside the contract, or for anything else the law does not allow us to exclude or limit.
 
-## Disclaimer
+If you use the service for your business, then, apart from that and as far as the law allows:
 
-THE SERVICES ARE PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SERVICES AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SERVICES AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SERVICES' CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THE SERVICES AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY
+<ul>
+<li>we are not liable for indirect loss, such as lost profits or lost business, or for loss of data you could have kept with a backup or an export;</li>
+<li>our total liability in any 12 months is limited to the higher of what you paid for the service in those 12 months and EUR 100.</li>
+</ul>
 
-(1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS,
+If you use the service for your business and someone makes a claim against us because of how you used it, for example what you wrote to tags or sent through a webhook, you cover our reasonable costs of that claim, as far as you are responsible for it.
 
-(2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SERVICES,
+## Changes to these terms
 
-(3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN,
+We may change these terms for a valid reason: a change to the service, to the law or to a decision of a court or authority, or to protect users or the service. We publish the new version on this page, with the date it applies from at the top.
 
-(4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SERVICES,
+A change never takes away anything you have already paid for, such as the rest of a subscription period or a lifetime purchase, and never raises a price you have already paid. If a change reduces your rights, it applies to a running subscription only from its next renewal, so you can cancel before then. Other changes apply from the date at the top of this page.
 
-(5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SERVICES BY ANY THIRD PARTY, AND/OR
+## Governing law and disputes
 
-(6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SERVICES.
+These terms are governed by Portuguese law. If you are a consumer living in another country, you also keep the protection of the mandatory laws of that country.
 
-WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE SERVICES, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.
+If a dispute arises, write to us first: most problems can be solved that way. Courts in Coimbra, Portugal, decide disputes with business customers. If you are a consumer, you can also go to the courts where you live.
 
-## Limitations of Liability
+If you are a consumer, you can also bring a dispute with us to a consumer arbitration centre. For disputes up to EUR 5,000, we must take part if you choose this path. The centres competent for us are:
 
-IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO THE AMOUNT PAID, IF ANY, BY YOU TO US DURING THE SIX (6) MONTH PERIOD PRIOR TO ANY CAUSE OF ACTION ARISING. CERTAIN STATE LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.
+<ul>
+<li>Centro de Arbitragem de Conflitos de Consumo do Distrito de Coimbra (CACCDC), <a href="https://www.centrodearbitragemdecoimbra.com">www.centrodearbitragemdecoimbra.com</a>;</li>
+<li>Centro Nacional de Informação e Arbitragem de Conflitos de Consumo (CNIACC), <a href="https://www.cniacc.pt">www.cniacc.pt</a>.</li>
+</ul>
 
-## Indemnification
+The Direção-Geral do Consumidor lists all consumer arbitration centres at [consumidor.gov.pt](https://www.consumidor.gov.pt). You can also file a complaint in the electronic complaints book, the [Livro de Reclamações](https://www.livroreclamacoes.pt/Inicio/).
 
-You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneys' fees and expenses, made by any third party due to or arising out of:
+## Other terms
 
-<ol>
-<li>Your Contributions;</li>
-<li>Use of the Services;</li>
-<li>Breach of these Legal Terms;</li>
-<li>Any breach of your representations and warranties set forth in these Legal Terms;</li>
-<li>Your violation of the rights of a third party, including but not limited to intellectual property rights;</li>
-<li>Any overt harmful act toward any other user of the Services with whom you connected via the Services.</li>
-</ol>
+<ul>
+<li>If a court finds part of these terms invalid, the rest stays in force.</li>
+<li>If we do not enforce a right straight away, we do not give it up.</li>
+<li>We transfer this agreement to someone else only as the law allows.</li>
+<li>For business customers, these terms and the store's terms are the whole agreement about the service. Our privacy policy explains how we handle personal data. It is information, not part of this agreement.</li>
+</ul>
 
-Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.
+## Contact
 
-## User Data
-
-We will maintain certain data that you transmit to the Services for the purpose of managing the Services, as well as data relating to your use of the Services. Although we perform regular routine backups of data, you are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the Services. You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data.
-
-## Electronic Communications, Transactions and Signatures
-
-Visiting the Services, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Services, satisfy any legal requirement that such communication be in writing.
-
-YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SERVICES.
-
-You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.
-
-## Miscellaneous
-
-We reserve the right to update these Legal Terms. These Legal Terms and any policies or operating rules posted by us on the Services or in respect to the Services constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Legal Terms shall not operate as a waiver of such right or provision. These Legal Terms operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Legal Terms is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Legal Terms and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Legal Terms or use of the Services. You agree that these Legal Terms will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Legal Terms and the lack of signing by the parties hereto to execute these Legal Terms.
-
-## Contact Us
-
-In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:
-
-Nicolo Stanciu | NFC.cool
-
-Rua Carminé Nobre 6
-
-3040-193 Coimbra, Portugal
-
-NIF: PT315901934
-
-E-mail: [Click here](mailto:info@nfc.cool?subject=NFC.cool%20Support)
+<div class="page-cards-grid">
+<article class="page-card">
+<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934<br>Phone: +351 925 378 989</p>
+<p>E-Mail: info (at) nfc (dot) cool</p>
+</article>
+</div>
 
 </section>
