@@ -12,9 +12,9 @@ description: "The legal terms that govern your use of the NFC.cool website, the 
 
 # Terms & conditions
 
-The legal agreement between you and NFC.cool Unipessoal LDA covering this website, the NFC.cool apps, and the services around them.
+The legal agreement between you and Nicolo Stanciu, trading as NFC.cool, covering this website, the NFC.cool apps, and the services around them.
 
-**Last modified: February 2024**
+**Last modified: November 6, 2026**
 
 </div>
 
@@ -30,11 +30,11 @@ The legal agreement between you and NFC.cool Unipessoal LDA covering this websit
 
 ## Agreement to our Legal Terms
 
-We are NFC.cool Unipessoal LDA ("Company," "we," "us," "our").
+We are Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, NIF PT315901934 ("Company," "we," "us," "our").
 
 We operate [NFC.cool](https://nfc.cool/) & [NFC.cool App](https://apps.apple.com/us/app/nfc-cool-tools-tag-reader/id1249686798), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
 
-You can contact us via [e-mail](mailto:info@nfc.cool?subject=NFC.cool%20Support) or by mail to NFC.cool Unipessoal LDA, Rua da Sofia 139, 3000-390 Coimbra, Portugal.
+You can contact us via [e-mail](mailto:info@nfc.cool?subject=NFC.cool%20Support) or by mail to Nicolo Stanciu | NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal.
 
 These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and NFC.cool, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms.
 
@@ -276,9 +276,11 @@ In order to resolve a complaint regarding the Services or to receive further inf
 
 Nicolo Stanciu | NFC.cool
 
-Rua da Sofia 139,
+Rua Carminé Nobre 6
 
-3000-390 Coimbra, Portugal
+3040-193 Coimbra, Portugal
+
+NIF: PT315901934
 
 E-mail: [Click here](mailto:info@nfc.cool?subject=NFC.cool%20Support)
 
