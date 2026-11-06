@@ -460,19 +460,21 @@ You must be at least 16 to use NFC.cool Business Card. It is made for profession
 
 The card pages and the console use no advertising or analytics cookies, and load no third-party scripts. Fonts are served by us, through our hosting provider's content delivery network.
 
-They set only cookies that are needed for them to work:
+These are the only cookies set on them:
 
 <ul>
 <li><strong>csrftoken:</strong> protects forms, such as the contact form on a card or the console's forms, against forgery. It is set when you open a card or the console, and lasts about a year.</li>
-<li><strong>sessionid:</strong> keeps you signed in to the console. On a card page it is set only when it is needed, for example to count wrong PIN attempts, and then lasts only until the wait after those attempts ends. When you sign in, it lasts two weeks.</li>
+<li><strong>sessionid in the console:</strong> keeps you signed in. It remembers which team you last opened and where you are in team setup, and briefly holds what the console shows you only once, such as a new access token. It lasts two weeks from your last visit, and ends when you sign out. A team's pages renew it, because the console writes to it there. Before you sign in, it is set only if a Sign in with Apple attempt fails, to show you the error.</li>
+<li><strong>sessionid on a card page:</strong> set only if you enter a wrong PIN, or open a preview of your own card from the app. After a wrong PIN it counts your wrong PINs, and lasts five minutes from the last one. After three wrong PINs you wait those five minutes, and the cookie ends with the wait. A preview opens your card without its PIN for 30 minutes, and its cookie lasts two weeks.</li>
 <li><strong>org_apple_nonce:</strong> when you sign in to the console with Apple, ties the sign-in to your browser. It lasts 10 minutes.</li>
+<li><strong>__cf_bm:</strong> set by Cloudflare for DigitalOcean's content delivery network, which delivers the files and images of the console and the card pages. It tells people from bots, and lasts 30 minutes.</li>
 </ul>
 
-Counting a tap on a card's link sends no cookie. Paying for a team happens on Stripe's own page, which sets Stripe's cookies under Stripe's policy.
+Counting a tap on a card's link sends no cookie. Signing in with Apple happens on Apple's own page, which sets Apple's cookies under Apple's policy. Paying for a team happens on Stripe's own page, which sets Stripe's cookies under Stripe's policy.
 
-The console also keeps your light or dark theme, the step you are on in team setup, and copies of recently viewed console pages in your browser's storage, so the console works as you left it. This stays in your browser.
+The console also keeps two things in your browser's storage. Your light or dark theme is stored only when you pick one, and stays until you clear it. During team setup, the last setup step shown is kept until you close the tab, so the progress bar moves the right way. Neither is sent to us.
 
-<strong>Legal basis:</strong> these cookies and this storage are strictly necessary for a service you asked for, so they need no consent.
+<strong>Legal basis:</strong> these cookies are needed for the console and the card pages to work, which is why we do not ask for your consent.
 
 ## Security
 
