@@ -4,47 +4,6 @@ slug: "privacy/business-card"
 description: "How NFC.cool Business Card, its App Clip, its card pages and NFC.cool Business Card for Teams collect, use and protect personal data, who receives it, and the rights you have under the GDPR."
 ---
 
-<!--
-DRAFT FOR REVIEW. Every note in an HTML comment like this one is for the reviewers.
-The build copies comments into the page source, so remove them all before this page
-goes live.
-
-Updated on 2026-11-06 from the lawyer pre-review
-(business_card_service/docs/legal/lawyer-review-2026-11-06.md) and the owner's
-decisions D1 to D21 on it. It describes the next app release (built from main of
-DigitalBusinessCardApp, BusinessCardService, BusinessCardService-Android and
-BusinessCardService-Standalone-Android on 2026-11-06), which asks before analytics,
-and the server after the fixes another agent is making now.
-
-Markers:
- OPEN = still to do. "(code)" or "(settings)" means the text is right but the
-   product must change to match; "(verify)" means a fact to confirm; "(owner)"
-   means a choice only the owner can make.
- DEPENDS ON SERVER FIX = true only once the server fixes of 2026-11-06 are live
-   (admin 2FA enforced server side; PIN, share and sign-in tokens redacted from all
-   logs and Sentry; no request bodies, lead fields, PINs, tokens, emails or IP
-   addresses sent to Sentry; the 56-year session fixed and expired sessions
-   purged; the link-tap cookie stopped or explained).
-
-OPEN, blocks publishing:
- 1. Review by the owner and a lawyer, and removal of every HTML comment.
- 2. Publish together with /terms/business-card/ and /terms/business-card/dpa/.
- 3. Publish with the app release that asks before analytics (owner decision D1:
-    the apps are released right after this page). No version gate is planned, so
-    people who do not update keep the old behaviour for a while; that residual
-    risk is accepted by the owner.
- 4. Every DEPENDS ON SERVER FIX sentence checked against the server agent's report.
- 5. The safeguards under "Where your data is stored" verified (see the comment
-    there).
- 6. A Portuguese version, after the English is final (review S17; the terms need
-    theirs first, review M12).
-
-OPEN, when features ship: the map block's server side, the document scanner and
-menu reading, YouTube thumbnails, "build from a page", Google Wallet on Android, and
-the iOS onboarding-v2 "How did you hear about us?" (sends acquisition_source to
-RevenueCat). Each needs a line here when it goes live.
--->
-
 <section class="page-hero">
 
 <div class="page-hero-grid">
@@ -122,12 +81,6 @@ This policy covers:
 This policy also covers cards made in the NFC.cool Tools app and the contacts left on them.
 
 Everything else in the NFC.cool Tools app, and the nfc.cool website, have their own [privacy policy](/privacy/).
-
-<!--
-OPEN (owner, outside this page): the old /privacy/ and /terms/ still say they cover
-"the NFC.cool family of apps", which includes this app. Narrow them to the website
-and the Tools app on the day this page goes live (review S15).
--->
 
 ## Who is responsible
 
@@ -219,13 +172,6 @@ When a contact arrives:
 
 <strong>If you left your details on a card.</strong> The card's owner or team decides about your details, so ask them first. They can show you what they hold, correct it and delete it. If you cannot reach them, or they do not answer, email info (at) nfc (dot) cool with the card's link. We pass your request on to them and help them answer it. If a team is deleted, its owner chooses whether a contact assigned to one of its members moves to that member's own account, where that member becomes responsible for it, or is deleted with the team.
 
-<!--
-OPEN (code): the owner's choice at team deletion, with delete as the default
-(owner decision D8). Today org_deletion.py always moves assigned leads to the
-member. Lives in organization/services/org_deletion.py and the console's
-delete-team review screen.
--->
-
 ### Follow-up emails from teams
 
 A team member can email a contact who left an email address, using the team's templates. A team can also send one automatically after a delay, to every new contact during an event of up to 7 days.
@@ -239,34 +185,17 @@ A team member can email a contact who left an email address, using the team's te
 
 Only teams on a trial or a paid plan can send follow-up emails, and the number per member and per team is limited.
 
-<!--
-OPEN (settings): open tracking is off in code; click tracking is not set per
-message, so it follows the Mailjet account's default. Switch click tracking off in
-the Mailjet account, or describe it here.
--->
-
 ### Teams: NFC.cool Business Card for Teams
 
 When someone sets up a team at business.nfc.cool we store the team's name, its brand (logos, colours, company name, website), and, if the team sets up an App Clip card, its place name, address and phone number. We store the team's members and their roles, invitations (the email address and name a team admin enters, and the card prepared for the person), requests to move a card into or out of the team, and the team's cards.
 
 The email we send with an invitation says which team invited you and links to this policy.
 
-<!--
-OPEN (code): the invitation email (organization templates emails/invite.html) has
-no link to this policy yet. Add one (review S14).
--->
-
 <strong>Who is responsible for members' cards and invitations.</strong> The team decides what goes on the cards it makes for its members and whom it invites, so the team is the controller of these details. We process them on the team's behalf under our [data processing agreement](/terms/business-card/dpa/). Your own account (your email address, password, sign-in and settings) is ours to look after, as described in Your account.
 
 An admin can create and edit cards for members and set their job title and department. A member can see and edit their own card within the limits the team sets.
 
 When a member leaves the team or deletes their account, the team keeps the card and the contacts it collected. If the member deleted their account, we first remove their name, photos, contact details, birthday and PIN from the card. Their job title and department stay on it until the team changes them.
-
-<!--
-OPEN (code): parking a card must also clear its App Clip studio record
-(AppClipEdit: the original photo, its crop and layers). Call app_clip.edits.clear
-in organization/services/cards.py where a card is parked (review M13f).
--->
 
 <strong>Team billing:</strong> teams pay through Stripe. Stripe collects the payment details, billing address and any tax ID on its own checkout page. We do not see card numbers. We send Stripe the team's name, the buyer's email address and our internal team identifier, and we store Stripe's customer and subscription identifiers, the plan, its status and trial dates.
 
@@ -278,12 +207,6 @@ in organization/services/cards.py where a card is parked (review M13f).
 <li><strong>Access tokens and AI assistants:</strong> an admin can create an access token for the team's API, or to connect an AI assistant (such as ChatGPT or Claude) through our MCP server. Within the token holder's role, the assistant can read the team's contacts, members, cards and their statistics, and can act for the holder, for example assign a contact, send a follow-up, invite a member or edit a card or the brand. Whatever the assistant reads is passed to the AI service the team chose, under that service's terms. We store only a hash of each token, and record each use (the token's name, what it did, when, and for some actions a short description) so admins can see it.</li>
 <li><strong>Own domain:</strong> a team can serve its cards on its own domain. We check the domain's DNS records and request a TLS certificate for it from a public certificate authority.</li>
 </ul>
-
-<!--
-OPEN (verify): Salesforce is live in code and the deploy writes
-SALESFORCE_CLIENT_ID; confirm it is set in production. If it is not, a team cannot
-connect it and the mention is harmless, but confirm before publishing.
--->
 
 <strong>Legal basis:</strong> performance of our contract with you and with the team (Art. 6(1)(b) GDPR). Where we handle the details of a person who acts for a team, such as its billing contact, our legitimate interest in running our contract with the team (Art. 6(1)(f) GDPR).
 
@@ -301,13 +224,6 @@ You buy a plan through the App Store or Google Play. Apple or Google handles the
 
 <strong>Legal basis</strong> for the purchase: Art. 6(1)(b) GDPR.
 
-<!--
-OPEN (code): the attribution token only after "Allow" (owner decision D5). On iOS
-main, enableAdServicesAttributionTokenCollection() still runs on every launch
-(DigitalBusinessCardApp PurchasesManager.swift:81-82). Call it from the consent
-grant instead, and never on "Don't Allow".
--->
-
 ### Analytics and crash reports in the apps
 
 The iPhone and Android apps use the tools below. The App Clip, the card pages and the console use none of them.
@@ -320,14 +236,6 @@ The iPhone and Android apps use the tools below. The App Clip, the card pages an
 </ul>
 
 <strong>Purpose:</strong> to understand how the app is used and improve it. <strong>Legal basis:</strong> your consent (Art. 6(1)(a) GDPR), which is also the consent Portuguese law requires before an app stores or reads information on your phone for this purpose (Art. 5 of Lei 41/2004). You can withdraw it at any time, without affecting what happened before.
-
-<!--
-OPEN (verify): watch a PostHog recording of the leads screens from the release
-build and confirm that names, emails and selfies are masked. The SDK options on
-main are maskAllTextInputs, maskAllImages and maskAllSandboxedViews; the only
-explicit postHogMask() is on the card surface and the password fields. If labels
-show, add postHogMask() to the leads screens or change the sentence above.
--->
 
 <strong>Crash reports, for everyone.</strong>
 
@@ -345,19 +253,7 @@ Crash reports are sent whatever you choose above, because we need them to keep t
 
 <strong>Legal basis:</strong> our legitimate interest in adjusting the app without an update (Art. 6(1)(f) GDPR). Fetching these settings is needed to provide the app as you use it, so it does not depend on your choice about usage data.
 
-<!--
-DECIDED 2026-11-06 (owner): Remote Config stays outside the usage-data choice while
-it carries app settings only. If it is ever used for A/B tests or targeting, it
-must move under the "Allow" choice and this paragraph changes.
--->
-
 The iPhone app never asks for permission to track you, so it cannot read your device's advertising identifier. The Android app does not ask for the permission to use your advertising ID.
-
-<!--
-OPEN (code): Firebase still declares ACCESS_ADSERVICES_ATTRIBUTION in the Android
-app. Remove it in BusinessCardService-Standalone-Android app/src/main/AndroidManifest.xml
-with tools:node="remove", as done for AD_ID (review M14).
--->
 
 ### Push notifications
 
@@ -379,12 +275,6 @@ Conference Mode keeps your card's QR code on your lock screen as a Live Activity
 <li><strong>App Clip cards at Apple:</strong> if you give a card its own App Clip card (on a paid plan), or a team sets one up, we send Apple, through the App Store Connect API, the card's web address, a title (usually your name), a subtitle that can include your first name or company, a header image (made from your photo unless you upload another), a category and, for a team, its place name, address and phone number. Apple uses this to show the App Clip card when someone opens the card's link. We remove it at Apple when the card no longer has one.</li>
 <li><strong>Apple Wallet:</strong> when you add a card to Apple Wallet, our server builds the pass from the card (name, photo, job title, department, company, first email address and a QR code with the card's link), signs it with our certificate and sends it to your phone. We do not keep a copy, and the pass does not report back to us.</li>
 </ul>
-
-<!--
-OPEN (verify): whether Apple deletes the header images uploaded through the App
-Store Connect API when an App Clip experience is removed. app_clip/asc.py only
-flags the experience as removed.
--->
 
 ### On your phone
 
@@ -419,11 +309,6 @@ We send emails about your account and your team: confirming your email address, 
 
 <strong>Legal basis:</strong> Art. 6(1)(b) GDPR for account and team emails. Your consent (Art. 6(1)(a) GDPR) for the newsletter.
 
-<!--
-OPEN (verify): that every newsletter carries an unsubscribe link (sent from
-Mailjet, not from this code).
--->
-
 ### When you contact us
 
 If you write to us from the app, the email it prepares includes your subscription customer identifier, the app version, your system version and how often you opened the app, so we can help you. We use what you send us only to answer you.
@@ -435,10 +320,6 @@ If you write to us from the app, the email it prepares includes your subscriptio
 <li><strong>Error reports from the server:</strong> we use Sentry to find and fix errors. Every error is reported, and half of all requests are measured for speed. Sentry does not receive IP addresses, cookies, the contents of forms, contact details, email addresses, PINs or tokens. A report holds the technical details of the error, such as the address requested and the part of our code that failed.</li>
 <li><strong>Rate limits:</strong> see People who view a card.</li>
 </ul>
-
-<!-- SERVER FIX DONE in 8e3ef766 (local main, 2026-11-06): true once deployed. -->
-<!-- OPEN (settings): "deleted after 14 days" needs Docker log rotation set to 14 days on the droplet (no logging options in docker-compose.prod.yml today), and the in-container logs/ files kept no longer. -->
-<!-- SERVER FIX DONE in 537b986c (local main, 2026-11-06): no bodies, frame variables, emails, IPs, PINs or tokens reach Sentry; true once deployed. Also turn on Sentry's project setting to stop storing IP addresses (settings). -->
 
 <strong>Purpose:</strong> to run the service securely and fix problems. <strong>Legal basis:</strong> our legitimate interest in a secure, working service (Art. 6(1)(f) GDPR).
 
@@ -464,12 +345,6 @@ We share data only with the people and services below, and only for the reasons 
 </ul>
 
 We do not sell personal data.
-
-<!--
-OPEN (owner): confirm a data processing agreement is in place with each provider
-(DigitalOcean, Mailjet, Cloudflare, Google Firebase, PostHog, RevenueCat,
-Qonversion, Stripe, Sentry). Not verifiable from code.
--->
 
 ## Where your data is stored, and data outside the EU
 
@@ -499,22 +374,6 @@ Webhook addresses, HubSpot, Salesforce and AI assistants receive data only when 
 
 To get a copy of the standard contractual clauses that apply, email info (at) nfc (dot) cool. The European Commission explains these safeguards on its [information page](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection_en).
 
-<!--
-OPEN (verify), blocks publishing:
- - CONFIRMED 2026-11-06, region: the droplet's own metadata reports nyc3, the
-   managed Postgres host (business-card-db-...db.ondigitalocean.com, 159.89.45.148)
-   is DigitalOcean in Clifton, New Jersey (its New York region), and Spaces is nyc3
-   (web/app/settings.py:321). Everything is in the New York area, USA.
- - Each entity and safeguard above, on dataprivacyframework.gov (status "Active")
-   and in each provider's current DPA. DigitalOcean and Sentry were read from their
-   own pages on 2026-11-05. Google, Cloudflare and Stripe are believed certified;
-   Apple, RevenueCat and Qonversion are written as standard contractual clauses
-   because no certification could be confirmed. Qonversion's contracting entity
-   and country are unknown. Correct any line that does not match.
- - Mailjet's location is from its documentation (Google Cloud in Frankfurt and
-   Saint-Ghislain); confirm for this account.
--->
-
 ## How long we keep data
 
 <ul>
@@ -538,31 +397,7 @@ OPEN (verify), blocks publishing:
 <li><strong>Billing records of a team's subscription</strong> (invoices, payments and the details on them): 10 years, as Portuguese tax and accounting law requires, then deleted. This also applies after the team or the account is deleted. Legal basis: our legal obligation (Art. 6(1)(c) GDPR).</li>
 </ul>
 
-<!-- SERVER FIX DONE in c0c564ef (local main, 2026-11-06): true once deployed and Celery beat restarted. -->
-
-<!--
-OPEN (code): the 12-month deletion of lapsed teams and expired previews, with the
-30-day and 3-day emails (owner decision D7). Nothing deletes such a team today. A
-Celery beat job beside the inactive-account sweep (custom_account/services/
-inactivity.py, app/celery.py) calling organization/services/org_deletion.py.
-OPEN (settings, verify): set and confirm each period in its service: Sentry 90 days
-(plan setting), Firebase Analytics data retention 2 months, Crashlytics 90 days
-(fixed by Firebase), PostHog recordings 30 days and events 1 year (project
-settings), DigitalOcean managed Postgres backups 7 days. Change the line if a
-service does not allow the period.
-TO CONFIRM with the owner's accountant: the 10 years for billing records. Nothing
-in code deletes them: invoices live at Stripe, whose customer object survives team
-deletion. Deleting them after 10 years is a manual step, at Stripe and in the
-accounting.
--->
-
 <strong>Inactive accounts.</strong> If nobody has signed in to an account for a year, none of the cards it holds, its own or a team's, has been viewed in that year, and it has no active subscription, we email a warning that it will be deleted in 30 days. A final warning follows 3 days before. If the account is still inactive then, we delete it in the same way as when you delete it yourself. We never delete an account this way while its owner owns a team, or while it has a lifetime plan.
-
-<!--
-OPEN (code): views of team cards a person holds as assigned_user do not count as
-activity today (custom_account/services/inactivity.py), so a member whose team card
-is in use can be warned and deleted. Count them (review M13k).
--->
 
 ## What you must give us, and automated decisions
 
@@ -595,8 +430,6 @@ If you left your details on someone's card, that card's owner or team is respons
 
 Sign in to the web console at [business.nfc.cool](https://business.nfc.cool/org/account/export/) with your app account and open Export my data under your account. The app's settings also give you a way to export your data. We build a ZIP file in the background and email you when it is ready. You can download it for 7 days, then we delete it. If other accounts use the same confirmed email address, they are included too. If you cannot sign in there, email us and we will send you your data.
 
-<!-- OPEN (verify): an account made with Sign in with Apple has no password, and the console's web Apple sign-in is behind ORG_WEB_APPLE_SIGN_IN. Confirm such users can reach the export from the app's Export my data link. -->
-
 The file contains your account, your plan, your answer to the sign-up question, your teams and what you did in them, each card with its images and its vCard, and daily counts of views, saves and link taps. For your personal cards it also contains your contacts with their photos, notes, follow-ups and tags. It does not contain a team's contacts, which belong to the team: owners, admins and managers can export those as a CSV file from the team's Leads page. It also leaves out passwords, PINs and tokens, and payment records, which the App Store, Google Play and Stripe keep.
 
 ## Delete your account
@@ -619,22 +452,9 @@ Deleting your account does not cancel a subscription bought through the App Stor
 
 When you delete your account, we also ask RevenueCat to delete your customer record, if it is under the identifier our server gave your account or, for an older Android account, under your confirmed email address. A record we cannot tie to your account, such as an anonymous one, stays at RevenueCat. To have it deleted, email us. Data that Firebase and PostHog hold about your app use is not linked to your account on our side and is deleted on their schedules, described in How long we keep data.
 
-<!--
-OPEN (code, test before publishing): the server check found, by reading only, that
-someone who brought a personal card into a team, left the team and then deletes
-their account may hit the OrgCardsHeldError guard (organization/models.py
-1297-1305), because the card still has user=<them> and the release step looks only
-at active memberships. That would block deletion on every path, including Apple's
-revocation and the inactive-account sweep. Write a test for it (review M13m).
-OPEN (settings): the RevenueCat secret key needs
-customer_information:customers:read_write for the deletion to work.
--->
-
 ## Children
 
 You must be at least 16 to use NFC.cool Business Card. It is made for professional networking and is not directed at children. If you think someone younger than 16 has given us personal data, email info (at) nfc (dot) cool and we will delete it.
-
-<!-- OPEN (verify): check that the App Store and Google Play age ratings fit a minimum age of 16. The /terms/ page for NFC.cool Tools says 18. -->
 
 ## Cookies
 
@@ -654,23 +474,13 @@ The console also keeps your light or dark theme, the step you are on in team set
 
 <strong>Legal basis:</strong> these cookies and this storage are strictly necessary for a service you asked for, so they need no consent.
 
-<!-- SERVER FIX DONE in c0c564ef (local main, 2026-11-06): the PIN-wait session expires when the wait ends; true once deployed. -->
-<!-- SERVER FIX DONE in a308adf2 (local main, 2026-11-06): the tap is sent with fetch and credentials omitted, so no cookie; true once deployed. -->
-
 ## Security
 
 All connections to our servers are encrypted with HTTPS, and browsers are told to use HTTPS only. Passwords are stored as salted hashes. PINs are stored encrypted. Access tokens for the team API are stored only as hashes, and tokens from HubSpot and Salesforce are stored encrypted. Selfies left with a contact and data exports are kept privately: they can be opened only through short-lived signed links, by the people allowed to see them. Admin access to our server requires two-factor authentication.
 
-<!-- SERVER FIX DONE in 42e33276 (local main, 2026-11-06): the server checks the second factor. OPEN (verify): staff without 2FA can still sign in with a password, so the sentence is true only if every active staff and superuser account has 2FA turned on. Run the count query from the server agent's report on production; if any lack it, enrol them or require enrolment. -->
-
 Photos, logos and header images on a card are public, like the card itself, and are delivered through DigitalOcean's content delivery network.
 
 No system is completely secure, but we work to protect your data and fix problems quickly.
-
-<!--
-OPEN (owner): purge static/leads/photos/* on the Spaces CDN, so copies of selfies
-cached before they were made private (2026-11-06) can no longer be served.
--->
 
 ## Changes to this policy
 

@@ -4,36 +4,6 @@ slug: "terms/business-card/dpa"
 description: "The data processing agreement under Art. 28 GDPR for NFC.cool Business Card for Teams: what NFC.cool processes for a team, on whose instructions, with which subprocessors and safeguards, and what happens to the data at the end."
 ---
 
-<!--
-DRAFT FOR REVIEW. Every note in an HTML comment like this one is for the reviewers.
-The build copies comments into the page source, so remove them all before this page
-goes live.
-
-Made on 2026-11-06 from business_card_service/docs/legal/dpa-draft.md, the lawyer
-pre-review (docs/legal/lawyer-review-2026-11-06.md) and the owner's decisions:
-the agreement is part of the terms and accepted with them at team setup (D6), the
-team is the controller of its members' card details and invitations (D9), the
-owner chooses at team deletion what happens to contacts assigned to members, with
-delete as the default (D8), lapsed teams are deleted after 12 months (D7), and new
-subprocessors are announced 30 days ahead (D16). Markers as in
-/privacy/business-card/: OPEN (code, settings, verify, owner) and DEPENDS ON
-SERVER FIX.
-
-OPEN, blocks publishing:
- 1. Review by the owner and a lawyer, and removal of every HTML comment.
- 2. Publish together with /terms/business-card/ and /privacy/business-card/.
- 3. Acceptance at team setup (OPEN (code) in the terms, "Who we are").
- 4. Confirm a data processing agreement is in place with each subprocessor in
-    Annex 3 (owner; not verifiable from code).
- 5. Verify the safeguards in Annex 3 on dataprivacyframework.gov and in each
-    provider's DPA, and the hosting region in the DigitalOcean control panel.
- 6. The DEPENDS ON SERVER FIX items in Annex 2.
-OPEN (owner): the audit terms in section 14 (30 days' notice, once a year, at the
-Customer's cost) are a common proposal for a small processor; confirm or change.
-OPEN (owner): the breach notice in section 11 is sent by hand today; nothing in the
-service sends it. Keep the 48 hours only if that can be met.
--->
-
 <section class="page-hero">
 
 <div class="page-hero-grid">
@@ -193,13 +163,6 @@ NFC.cool helps the Customer, taking into account the nature of the processing an
 
 13.5 Billing records are not Customer Personal Data. NFC.cool keeps them as its own records for 10 years, as Portuguese tax and accounting law requires.
 
-<!--
-OPEN (code): the owner's choice in 13.2 with delete as the default (D8), and the
-12-month deletion in 13.3 (D7). Neither exists yet; see the notes in the terms.
-OPEN (verify): the 7-day backup period of the DigitalOcean managed Postgres
-database.
--->
-
 ## 14. Information and audits
 
 14.1 NFC.cool makes available to the Customer the information necessary to demonstrate compliance with Article 28 GDPR, in the first place this agreement, its annexes and written answers to reasonable questionnaires.
@@ -263,11 +226,6 @@ People who only open a card are counted, not identified: views, saves and link t
 <li><strong>Hosting.</strong> DigitalOcean, in its data centres in the New York area, USA.</li>
 </ul>
 
-<!-- SERVER FIX DONE in 42e33276 (local main): server-side check. OPEN (verify): true only if every staff account has 2FA turned on. -->
-<!-- SERVER FIX DONE in 8e3ef766 (local main): true once deployed. OPEN (settings): "deleted after 14 days" needs Docker log rotation on the droplet. -->
-<!-- SERVER FIX DONE in 537b986c (local main): true once deployed. -->
-<!-- OPEN (settings): Mailjet click tracking follows the account default; switch it off, or add it to "Follow-up email safety". -->
-
 ## Annex 3: Subprocessors
 
 "Safeguard" is the transfer mechanism for data leaving the European Economic Area (section 9).
@@ -282,15 +240,5 @@ People who only open a card are counted, not identified: views, saves and link t
 </ul>
 
 Not listed, and why: Stripe (team billing, NFC.cool's own controller data); RevenueCat, Firebase Analytics and Crashlytics (the apps' subscriptions, analytics and crash reports, NFC.cool's own; crash reports contain no contact details); Cloudflare (the app's newsletter sign-up); the public certificate authority for custom domains (receives the domain name only); and the services the Customer connects (webhooks, HubSpot, Salesforce, AI assistants: the Customer's own recipients, section 4.2).
-
-<!--
-OPEN (verify), blocks publishing: each entity, location and safeguard above, on
-dataprivacyframework.gov and in each provider's DPA (see the matching note in the
-privacy policy). Apple's line says standard contractual clauses because no
-certification could be confirmed. The hosting region is CONFIRMED (2026-11-06):
-droplet nyc3 by its metadata, database in DigitalOcean's New York region, Spaces
-nyc3. PostHog's line rests on the replay
-masking being confirmed on a real recording (see the privacy policy).
--->
 
 </section>

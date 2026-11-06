@@ -4,35 +4,6 @@ slug: "terms/business-card"
 description: "The terms for NFC.cool Business Card, its App Clip, its card pages and NFC.cool Business Card for Teams: accounts, what may be on a card, the contacts you collect, plans and trials, withdrawal, cancelling, and what happens to your data."
 ---
 
-<!--
-DRAFT FOR REVIEW. Every note in an HTML comment like this one is for the reviewers.
-The build copies comments into the page source, so remove them all before this page
-goes live.
-
-Updated on 2026-11-06 from the lawyer pre-review
-(business_card_service/docs/legal/lawyer-review-2026-11-06.md) and the owner's
-decisions D1 to D21 on it. Markers as in /privacy/business-card/: OPEN (code,
-settings, verify, owner) and DEPENDS ON SERVER FIX.
-
-OPEN, blocks publishing:
- 1. Review by the owner and a lawyer, and removal of every HTML comment.
- 2. Publish together with /privacy/business-card/ and /terms/business-card/dpa/,
-    which link to each other.
- 3. DONE 2026-11-06: phone number +351 925 378 989 filled in (owner decision D18).
-    It appears in "Who we are", in "If you buy as a consumer", in "Contact" and in
-    the model withdrawal form.
- 4. A Portuguese version of these terms (Decreto-Lei 238/86; review M12). Next
-    step once the English is final.
- 5. The product changes this text describes (each marked OPEN (code) or
-    (settings) below): terms acceptance at team setup and invitation, the order
-    button and the express request at checkout, the confirmation email with the
-    terms, Stripe Tax, the Report link on card pages, the lead choice at team
-    deletion, the 12-month deletion of lapsed teams.
-OPEN (owner, settings): point the App Store privacy URL (all 39 languages) at
-/privacy/business-card/ with the next release; today it lands on this page through
-bcs-tc.nfc.cool and the /business-card-service-terms-and-conditions redirect.
--->
-
 <section class="page-hero">
 
 <div class="page-hero-grid">
@@ -96,22 +67,6 @@ These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool
 In these terms, "the service" means all of them. The NFC.cool Tools app and the nfc.cool website have their own [terms](/terms/).
 
 You accept these terms when you create an account, or when you set up a team or accept an invitation to one. In the app and at business.nfc.cool, we ask you to accept them, with a link to them, before you continue. If you accept them for a company or another organisation, you confirm that you are allowed to bind it, and "you" then also means that organisation.
-
-<!--
-OPEN (code): the apps already ask (a required "Accept Terms & Conditions" switch).
-The web console does not: add a required checkbox to the last team setup step
-before Checkout and to invitation-accept for a new account, record the date and
-the terms version accepted, and turn on Stripe Checkout's terms-of-service consent
-(consent_collection) with this page's URL set in Stripe. Also replace the
-console's privacy link (privacy-policy.nfc.cool in organization templates
-dashboard/start.html and setup/setup_you.html) with /privacy/business-card/, and
-the sentence beside it (review M6). Suggested checkbox text: "I accept the terms
-of service, including the data processing agreement, for my organisation."
-OPEN (code): iOS More > "Terms & Conditions" opens Apple's standard EULA
-(DigitalBusinessCardApp MoreTabView.swift:103-104, Routes.swift:45-46); point it at
-this page. Make sure the RevenueCat paywall footer links this page and the privacy
-policy (review S9).
--->
 
 You must be at least 16 to use the service. If you are under 18, you need a parent's or guardian's permission to buy a plan or a team.
 
@@ -177,14 +132,6 @@ We confirm that we received your report, and tell you what we decided and how yo
 **How we moderate.** We do not monitor cards in general, and we use no automated tools to find or judge content. A person reviews every report, and every case we come across ourselves. We act carefully and objectively, and take into account the rights of everyone involved, including freedom of expression. We may then hide content or a card, suspend or close an account or a team, or take no action.
 
 **Our decision, and how to contest it.** When we restrict your card or your account, we tell you by email what we did and for how long, the facts behind it, the rule in the law or in these terms it is based on, and how to contest it. To contest it, reply to that email within six months: we review the decision again and answer you. You can also go to court.
-
-<!--
-OPEN (code): a "Report" link at the bottom of every card page that opens a
-prefilled email to dsa@nfc.cool with the card's link (owner decision D18). Lives
-in the card templates (web/vcard_profile/templates/my_profile.html and
-partial_profile.html), and in the App Clip's card view if it should show there too.
-OPEN (settings): create the dsa@nfc.cool mailbox or alias.
--->
 
 ## The contacts you collect
 
@@ -266,17 +213,6 @@ If you have a plan we no longer sell, it keeps what it was sold with for as long
 <li><strong>Separate agreements.</strong> A team that pays under a separate agreement with us follows that agreement where it differs from these terms.</li>
 </ul>
 
-<!--
-OPEN (settings): owner decision D12, normal VAT regime. STRIPE_AUTOMATIC_TAX is
-off in production (web/app/settings.py:547, default "0"), so Stripe adds no tax
-today. Turn on Stripe Tax (automatic_tax), add the Portuguese and OSS registrations,
-and check that tax ID validation drives the reverse charge. Ask the accountant
-whether Stripe's invoices are enough or invoices must also come from certified
-Portuguese software.
-OPEN (verify): that a yearly seat price (STRIPE_SEAT_PRICE_ID_YEARLY) is configured
-in production, and Stripe Smart Retries and the dunning schedule in the Dashboard.
--->
-
 ### How a team is bought
 
 <ol>
@@ -287,18 +223,6 @@ in production, and Stripe Smart Retries and the dunning schedule in the Dashboar
 </ol>
 
 We then email you a confirmation with these terms, including the withdrawal information and the withdrawal form. The contract is in English. We keep the version of these terms you accepted, and you can ask us for a copy at any time.
-
-<!--
-OPEN (code): the order steps above. Decreto-Lei 24/2014 art. 5(3)-(4) wants the
-button that places the order labelled "encomenda com obrigação de pagar" or an
-equally clear wording ("Order with obligation to pay" in English). Stripe Checkout
-cannot relabel its subscribe button, so add a review step with that button in the
-console's setup (organization setup views/templates) before the redirect, and use
-Checkout's custom_text near Stripe's button. Lawyer to confirm this two-step
-placement. The confirmation email with the terms, the withdrawal information and
-the form, as a PDF or in the email body (Decreto-Lei 24/2014 art. 6, durable
-medium), does not exist yet.
--->
 
 <strong>Price changes.</strong> We may change the price of a seat for a valid reason, such as a change in our costs, in taxes or in what the service includes. A new price applies to an existing subscription only from its next renewal, and only if we have told the team's owners by email at least 30 days before. The team can cancel before the new price applies.
 
@@ -320,28 +244,11 @@ Cancelling your subscription on the Billing page is not the same as withdrawing:
 
 If you then withdraw, you pay an amount in proportion to what was provided until you told us, compared with the full coverage of the contract. During a free trial nothing is charged, so a withdrawal during the trial costs nothing.
 
-<!--
-OPEN (code): the express request checkbox above, at the review step before the
-order button, shown when the order is not starting with a free trial or always;
-store that it was ticked, when, and the terms version (Decreto-Lei 24/2014
-arts. 15 and 17(1)(a)). Consider asking "Are you buying for a business?" first so
-business buyers skip it.
-OPEN (code, recommended): an online "Withdraw from contract here" function on the
-Billing page (Directive 2011/83/EU art. 11a, added by Directive (EU) 2023/2673,
-applies from 19 June 2026; Portugal's transposition not yet confirmed). Not
-promised in the text above until it exists.
--->
-
 ## Cancelling, and what happens to your data
 
 ### Cancelling a team subscription
 
 Owners and admins cancel in the console, under Billing, Manage payment and invoices. The subscription then ends at the end of the period already paid, and the console shows the date. Until then the team works as before. Apart from a withdrawal and the other cases in these terms, we do not refund the rest of a period you cancel, except where the law requires it.
-
-<!--
-OPEN (verify): that Stripe's billing portal is set to cancel at the end of the
-period (the portal configuration lives in the Stripe Dashboard).
--->
 
 ### When a personal plan ends
 
@@ -352,11 +259,6 @@ Your account, your cards and the contacts you collected stay. Your cards follow 
 Nothing is deleted straight away. The team's cards show a "temporarily unavailable" page and collect no contacts, and nobody new can join the team. Owners and admins can still sign in to the console and subscribe again from the Billing page, without a new trial. Everything then comes back as it was.
 
 We keep the team's data for 12 months after its subscription ended, or after its 7-day preview ended without a trial. We email the owners 30 days and 3 days before. If nobody subscribes again by then, we delete the team as described in Deleting a team.
-
-<!--
-OPEN (code): the 12-month deletion job and its two emails (owner decision D7).
-Nothing deletes such a team today. See the matching note in the privacy policy.
--->
 
 ### Deleting a team
 
@@ -371,13 +273,6 @@ An owner can delete a team in the console, under Settings, Delete team. This can
 </ul>
 
 Export the team's contacts first if you want to keep them. Deleting a team cannot be undone.
-
-<!--
-OPEN (code): the choice above, with delete as the default (owner decision D8).
-Today organization/services/org_deletion.py always moves assigned contacts to the
-member; add the choice to the console's delete-team review screen, which already
-shows the counts.
--->
 
 ### Leaving a team
 
@@ -447,13 +342,6 @@ We may limit how often the API and the MCP server can be called, and we may paus
 <li><strong>Feedback.</strong> If you send us ideas or suggestions, we may use them without owing you anything.</li>
 </ul>
 
-<!--
-OPEN (verify): that the App Store listing uses Apple's standard licence. If a
-custom licence is registered in App Store Connect, it must carry Apple's minimum
-terms (Apple is not a party, has no support or warranty duty beyond refunding the
-price, and is a third-party beneficiary).
--->
-
 ## Availability and changes to the service
 
 We work to keep the service running and your cards online, but we cannot promise it will always be available or free of errors. We sometimes need to interrupt it for maintenance or to fix problems.
@@ -497,13 +385,6 @@ If you are a consumer, you can also bring a dispute with us to a consumer arbitr
 </ul>
 
 The Direção-Geral do Consumidor lists all consumer arbitration centres at [consumidor.gov.pt](https://www.consumidor.gov.pt). You can also file a complaint in the electronic complaints book, the [Livro de Reclamações](https://www.livroreclamacoes.pt/Inicio/).
-
-<!--
-OPEN (verify): which arbitration centres the lawyer confirms as competent (the
-Coimbra centre for the business's seat, CNIACC as the national fallback, or also
-the consumer's local centre). Sources: Lei 144/2015 art. 18 as amended by
-Decreto-Lei 102/2017, and Lei 24/96 art. 14(2) as amended by Lei 63/2019.
--->
 
 ## Other terms
 
