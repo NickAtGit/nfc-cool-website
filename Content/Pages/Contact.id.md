@@ -85,17 +85,17 @@ Cara tercepat untuk menghubungi kami adalah melalui email. Kami membaca setiap p
 
 <details class="faq-item">
 <summary>Di mana data saya disimpan?</summary>
-<p>Secara default, semuanya tersimpan di perangkat Anda - pemindaian, tag yang ditulis, kontak, dokumen, model 3D. Tidak ada yang diunggah ke NFC.cool. Anda dapat memilih untuk menggunakan webhook jika ingin meneruskan data pemindaian ke server Anda sendiri; bahkan dalam hal itu NFC.cool tidak pernah melihat datanya.</p>
+<p>Tag yang Anda baca dan tulis, dokumen, paspor dan kartu identitas, serta model 3D Anda diproses di perangkat Anda, dan NFC.cool tidak menerima isinya. Aplikasi menyimpannya di sana dan, di iPhone dan iPad, menyinkronkannya melalui akun iCloud Anda sendiri, yang tidak dapat kami baca. Jika Anda mengaktifkan webhook, data pemindaian dikirim langsung dari perangkat Anda ke server pilihan Anda. Data yang dibagikan aplikasi, seperti analitik, laporan error, iklan, dan pembelian, dijelaskan dalam <a href="/privacy/">Kebijakan privasi</a>.</p>
 </details>
 
 <details class="faq-item">
 <summary>Apakah ini sesuai GDPR?</summary>
-<p>Fitur NFC.cool Tools yang berjalan di perangkat memproses data secara lokal, sehingga tidak ada transfer data pribadi ke NFC.cool. Situs web ini sendiri bebas cookie. Newsletter (Mailjet) adalah satu-satunya aliran data pihak ketiga, dan formulirnya di-host sendiri sehingga tidak ada cookie yang disetel saat kunjungan. Lihat <a href="/privacy/">Kebijakan privasi</a> untuk penjelasan lengkapnya. NFC.cool Business Card berbeda: aplikasi ini menyimpan akun dan kartu Anda di server kami, seperti dijelaskan dalam <a href="/privacy/business-card/">kebijakan privasinya</a> sendiri.</p>
+<p>NFC.cool Tools membaca dan menulis tag, memindai dokumen, membaca paspor dan kartu identitas, serta membuat model 3D di perangkat Anda, dan NFC.cool tidak menerima isinya. Situs web ini tidak menyetel cookie dan tidak memuat skrip pihak ketiga, dan pendaftaran newsletter dikirim ke daftar kami di Mailjet. <a href="/privacy/">Kebijakan privasi</a> menjelaskan data yang dibagikan aplikasi, seperti analitik, laporan error, iklan, dan pembelian, beserta dasar hukumnya dan hak-hak Anda. NFC.cool Business Card berbeda: aplikasi ini menyimpan akun dan kartu Anda di server kami, seperti dijelaskan dalam <a href="/privacy/business-card/">kebijakan privasinya</a> sendiri.</p>
 </details>
 
 <details class="faq-item">
 <summary>Bagaimana cara memindahkan data saya antara dua iPhone?</summary>
-<p>Data NFC.cool ada di sandbox aplikasi. Gunakan cadangan iCloud dari perangkat lama, lalu pulihkan di perangkat baru - pemindaian, tag yang ditulis, kartu nama, dan konfigurasi webhook Anda semua ikut terbawa.</p>
+<p>Di iPhone dan iPad, NFC.cool Tools menyinkronkan apa yang Anda simpan melalui akun iCloud Anda sendiri: tag dan kode yang tersimpan, dokumen, model 3D, koleksi Amiibo, dan pengaturan Anda. Masuk dengan Akun Apple yang sama di perangkat baru, dengan iCloud aktif, dan semuanya muncul di sana secara otomatis. Di Android, aplikasi menyimpan data Anda di ponsel, dan Google Block Store mengembalikan kunci dan kata sandi tag Anda saat Anda menyiapkan ponsel Android baru.</p>
 </details>
 
 ### Penagihan & kontak

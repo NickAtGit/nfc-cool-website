@@ -85,17 +85,17 @@ La forma más rápida de contactar con nosotros es por email. Leemos cada mensaj
 
 <details class="faq-item">
 <summary>¿Dónde se guardan mis datos?</summary>
-<p>Por defecto, todo se queda en tu dispositivo - escaneos, etiquetas grabadas, contactos, documentos, modelos 3D. Nada se sube a NFC.cool. Puedes activar los webhooks si quieres reenviar los datos de los escaneos a tu propio servidor; incluso entonces, NFC.cool nunca ve los datos.</p>
+<p>Las etiquetas que lees y grabas, tus documentos, pasaportes y documentos de identidad, y tus modelos 3D se procesan en tu dispositivo, y su contenido no llega a NFC.cool. La app los guarda ahí y, en iPhone y iPad, los sincroniza a través de tu propia cuenta de iCloud, que nosotros no podemos leer. Si activas los webhooks, los datos de los escaneos van directamente de tu dispositivo al servidor que elijas. Lo que la app sí comparte, como estadísticas de uso, informes de fallos, anuncios y compras, lo explica la <a href="/privacy/">Política de privacidad</a>.</p>
 </details>
 
 <details class="faq-item">
 <summary>¿Cumple con el RGPD?</summary>
-<p>Las funciones de NFC.cool Tools que se ejecutan en el dispositivo procesan los datos de forma local, así que no hay transferencia de datos personales a NFC.cool. El propio sitio web no usa cookies. La newsletter (Mailjet) es el único flujo de datos a terceros, y el formulario está alojado por nosotros, así que no se establecen cookies al visitarlo. Consulta la <a href="/privacy/">Política de privacidad</a> para ver el desglose completo. NFC.cool Business Card es distinta: guarda tu cuenta y tus tarjetas en nuestros servidores, como explica su propia <a href="/privacy/business-card/">política de privacidad</a>.</p>
+<p>NFC.cool Tools lee y graba etiquetas, escanea documentos, lee pasaportes y documentos de identidad y crea modelos 3D en tu dispositivo, y su contenido no llega a NFC.cool. El sitio web no usa cookies ni carga scripts de terceros, y las suscripciones a la newsletter van a nuestra lista en Mailjet. La <a href="/privacy/">Política de privacidad</a> detalla qué comparte la app, como estadísticas de uso, informes de fallos, anuncios y compras, con qué base legal y cuáles son tus derechos. NFC.cool Business Card es distinta: guarda tu cuenta y tus tarjetas en nuestros servidores, como explica su propia <a href="/privacy/business-card/">política de privacidad</a>.</p>
 </details>
 
 <details class="faq-item">
 <summary>¿Cómo paso mis datos entre dos iPhone?</summary>
-<p>Los datos de NFC.cool viven en el espacio aislado de la app. Usa una copia de seguridad de iCloud del dispositivo antiguo y restáurala en el nuevo - tus escaneos, etiquetas grabadas, tarjeta de visita y configuraciones de webhook se van contigo.</p>
+<p>En iPhone y iPad, NFC.cool Tools sincroniza lo que guardas a través de tu propia cuenta de iCloud: etiquetas y códigos guardados, documentos, modelos 3D, tu colección de Amiibo y tus ajustes. Inicia sesión con la misma Cuenta de Apple en el dispositivo nuevo, con iCloud activado, y todo aparece ahí automáticamente. En Android, la app guarda tus datos en el teléfono, y Google Block Store recupera las claves y contraseñas de tus etiquetas cuando configuras un Android nuevo.</p>
 </details>
 
 ### Facturación y contacto

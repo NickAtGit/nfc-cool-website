@@ -46,7 +46,7 @@ I keep it that way on purpose. NFC.cool isn't VC-backed, so the people I answer 
 
 <article class="page-card">
 <h3>Privacy by default</h3>
-<p>Scans, documents, contacts - everything stays on your device. Nothing flows back to me unless you explicitly opt into webhooks (and even then, the destination is <em>your</em> server).</p>
+<p>Tags you read and write, documents, passports and ID cards, 3D models: the app processes them on your device, and their contents don't reach me. If you turn on webhooks, scan data goes straight to <em>your</em> server. For what the app does share, such as analytics, crash reports, ads and purchases, see the <a href="/privacy/">privacy policy</a>.</p>
 </article>
 
 <article class="page-card">

@@ -85,17 +85,17 @@ description: "联系 NFC.cool：有问题就发邮件，每条消息都有人亲
 
 <details class="faq-item">
 <summary>我的数据存储在哪里？</summary>
-<p>默认情况下，一切都留在你的设备上：扫描记录、已写入的标签、联系人、文档、3D 模型。没有任何内容上传到 NFC.cool。如果你想把扫描数据转发到自己的服务器，可以主动选择启用 webhook；即便如此，NFC.cool 也永远看不到这些数据。</p>
+<p>你读取和写入的标签、文档、护照和身份证，以及 3D 模型，都由 NFC.cool Tools 在你的设备上处理，NFC.cool 不会收到其中的内容。App 把它们保存在设备上；在 iPhone 和 iPad 上，还会通过你自己的 iCloud 账户同步，我们无法读取。如果你启用 webhook，扫描数据会从你的设备直接发送到你选择的服务器。至于 App 会共享哪些数据，例如用于分析、崩溃报告、广告和购买的数据，请查看<a href="/zh/privacy/">隐私政策</a>。</p>
 </details>
 
 <details class="faq-item">
 <summary>它符合 GDPR 吗？</summary>
-<p>NFC.cool Tools 在设备端运行的功能只在本地处理数据，因此不会向 NFC.cool 传输任何个人数据。网站本身不使用 cookie。订阅通讯（Mailjet）是唯一的第三方数据流，而且表单为自托管，所以访问时不会设置任何 cookie。完整说明请查看<a href="/zh/privacy/">隐私政策</a>。NFC.cool Business Card 则不同：它会把你的账号和名片保存在我们的服务器上，详见它自己的<a href="/privacy/business-card/">隐私政策</a>。</p>
+<p>NFC.cool Tools 在你的设备上读写标签、扫描文档、读取护照和身份证、生成 3D 模型，NFC.cool 不会收到其中的内容。网站不设置 cookie，也不加载第三方脚本；订阅通讯的邮箱地址会进入我们在 Mailjet 的列表。App 会共享哪些数据（例如用于分析、崩溃报告、广告和购买的数据）、各自的法律依据以及你的权利，完整说明请查看<a href="/zh/privacy/">隐私政策</a>。NFC.cool Business Card 则不同：它会把你的账号和名片保存在我们的服务器上，详见它自己的<a href="/privacy/business-card/">隐私政策</a>。</p>
 </details>
 
 <details class="faq-item">
 <summary>如何在两台 iPhone 之间迁移我的数据？</summary>
-<p>NFC.cool 的数据保存在 App 的沙盒中。请对旧设备做一次 iCloud 备份，然后在新设备上恢复，你的扫描记录、已写入的标签、电子名片和 webhook 配置都会一并迁移过来。</p>
+<p>在 iPhone 和 iPad 上，NFC.cool Tools 会通过你自己的 iCloud 账户同步你保存的内容：已保存的标签和扫码记录、文档、3D 模型、Amiibo 收藏和设置。在新设备上登录同一个 Apple 账户并打开 iCloud，这些内容就会自动出现。在 Android 上，App 会把数据保存在手机里，而标签的密钥和密码由 Google Block Store 保管，设置新的 Android 手机时会自动恢复。</p>
 </details>
 
 ### 计费与联系

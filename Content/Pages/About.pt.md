@@ -46,7 +46,7 @@ Mantenho-o assim de propósito. A NFC.cool não tem investimento de capital de r
 
 <article class="page-card">
 <h3>Privacidade por omissão</h3>
-<p>Leituras, documentos, contactos - tudo fica no seu dispositivo. Nada me chega de volta a menos que opte explicitamente por usar webhooks (e mesmo assim o destino é o <em>seu</em> servidor).</p>
+<p>Tags que lê e grava, documentos, passaportes e cartões de identificação, modelos 3D: a app processa-os no seu dispositivo, e esse conteúdo não chega até mim. Se ativar os webhooks, os dados das leituras seguem diretamente para o <em>seu</em> servidor. O que a app partilha, como estatísticas de utilização, relatórios de falhas, anúncios e compras, está explicado na <a href="/privacy/">política de privacidade</a>.</p>
 </article>
 
 <article class="page-card">

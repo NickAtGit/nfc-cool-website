@@ -46,7 +46,7 @@ Saya mempertahankannya demikian dengan sengaja. NFC.cool tidak didukung VC, jadi
 
 <article class="page-card">
 <h3>Privasi secara default</h3>
-<p>Pemindaian, dokumen, kontak - semuanya tetap di perangkat Anda. Tidak ada yang mengalir kembali ke saya kecuali Anda secara eksplisit memilih webhook (dan bahkan saat itu, tujuannya adalah server <em>Anda</em>).</p>
+<p>Tag yang Anda baca dan tulis, dokumen, paspor dan kartu identitas, model 3D: aplikasi memprosesnya di perangkat Anda, dan isinya tidak sampai ke saya. Jika Anda mengaktifkan webhook, data pemindaian dikirim langsung ke server <em>Anda</em>. Data yang dibagikan aplikasi, seperti analitik, laporan error, iklan, dan pembelian, dijelaskan dalam <a href="/privacy/">kebijakan privasi</a>.</p>
 </article>
 
 <article class="page-card">

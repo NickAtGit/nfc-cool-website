@@ -85,17 +85,17 @@ Bize ulaşmanın en hızlı yolu e-posta. Her mesajı bizzat okuyor ve bir iş g
 
 <details class="faq-item">
 <summary>Verilerim nerede saklanıyor?</summary>
-<p>Varsayılan olarak her şey cihazında kalıyor: okumalar, yazdığın tag'ler, kişiler, belgeler, 3B modeller. NFC.cool'a hiçbir şey yüklenmiyor. Tarama verisini kendi sunucuna iletmek istersen webhook'ları açabilirsin; o durumda bile NFC.cool veriyi hiç görmüyor.</p>
+<p>Okuduğun ve yazdığın tag'leri, belgeleri, pasaportları, kimlik kartlarını ve 3B modelleri NFC.cool Tools cihazında işliyor; içerikleri NFC.cool'a gelmiyor. Uygulama bunları orada saklıyor, iPhone ve iPad'de de bizim okuyamadığımız kendi iCloud hesabın üzerinden eşitliyor. Webhook'ları açarsan tarama verisi cihazından doğrudan seçtiğin sunucuya gider. Uygulamanın kullanım istatistikleri, çökme raporları, reklamlar ve satın almalar için neleri paylaştığı <a href="/privacy/">gizlilik politikasında</a> yazıyor.</p>
 </details>
 
 <details class="faq-item">
 <summary>GDPR ile uyumlu mu?</summary>
-<p>NFC.cool Tools'un cihazda çalışan özellikleri veriyi orada işliyor, yani NFC.cool'a kişisel veri aktarımı olmuyor. Sitenin kendisi çerezsiz. Tek üçüncü taraf veri akışı bülten (Mailjet) ve form kendi sunucumuzda olduğu için ziyarette çerez düşmüyor. Ayrıntılı döküm için <a href="/privacy/">gizlilik politikasına</a> bak. NFC.cool Business Card'da durum farklı: uygulama hesabını ve kartlarını sunucularımızda saklıyor. Ayrıntılar uygulamanın kendi <a href="/privacy/business-card/">gizlilik politikasında</a>.</p>
+<p>NFC.cool Tools tag okuma ve yazmayı, belge taramayı, pasaport ve kimlik kartı okumayı ve 3B model oluşturmayı cihazında yapıyor; içerikleri NFC.cool'a gelmiyor. Site çerez kullanmıyor, üçüncü taraf betik yüklemiyor ve bülten kayıtları Mailjet'teki listemize gidiyor. Uygulamanın kullanım istatistikleri, çökme raporları, reklamlar ve satın almalar için neleri paylaştığı, bunların hukuki dayanağı ve hakların <a href="/privacy/">gizlilik politikasında</a> yazıyor. NFC.cool Business Card'da durum farklı: uygulama hesabını ve kartlarını sunucularımızda saklıyor. Ayrıntılar uygulamanın kendi <a href="/privacy/business-card/">gizlilik politikasında</a>.</p>
 </details>
 
 <details class="faq-item">
 <summary>Verilerimi iki iPhone arasında nasıl taşırım?</summary>
-<p>NFC.cool verisi uygulama alanında duruyor. Eski cihazın iCloud yedeğini al, yeni cihazda geri yükle: okumaların, yazdığın tag'ler, kartvizitin ve webhook ayarların seninle birlikte gelir.</p>
+<p>NFC.cool Tools, iPhone ve iPad'de kaydettiklerini kendi iCloud hesabın üzerinden eşitliyor: kayıtlı tag'ler ve kodlar, belgeler, 3B modeller, Amiibo koleksiyonun ve ayarların. Yeni cihazda aynı Apple Hesabı ile oturum aç ve iCloud'u açık tut, hepsi kendiliğinden gelir. Android'de uygulama verilerini telefonda tutuyor; tag anahtarların ve parolaların ise Google Block Store sayesinde yeni Android telefonu kurarken geri geliyor.</p>
 </details>
 
 ### Ödeme ve iletişim

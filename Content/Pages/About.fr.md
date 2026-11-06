@@ -46,7 +46,7 @@ Je fais ça exprès. NFC.cool n'est pas financé par du capital-risque : je ne r
 
 <article class="page-card">
 <h3>Confidentialité par défaut</h3>
-<p>Scans, documents, contacts - tout reste sur votre appareil. Rien ne me revient, sauf si vous activez explicitement les webhooks (et même dans ce cas, la destination est <em>votre</em> serveur).</p>
+<p>Les tags que vous lisez et écrivez, vos documents, passeports et cartes d'identité, vos modèles 3D : l'app les traite sur votre appareil, et leur contenu ne me parvient pas. Si vous activez les webhooks, les données de scan partent directement vers <em>votre</em> serveur. Ce que l'app transmet, comme les statistiques d'utilisation, les rapports de plantage, la publicité et les achats, est détaillé dans la <a href="/privacy/">politique de confidentialité</a>.</p>
 </article>
 
 <article class="page-card">

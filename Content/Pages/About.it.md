@@ -46,7 +46,7 @@ Da allora NFC.cool è cresciuta fino a diventare una famiglia di app: il set com
 
 <article class="page-card">
 <h3>Privacy per impostazione predefinita</h3>
-<p>Scansioni, documenti, contatti: resta tutto sul dispositivo. Nulla arriva fino a me, a meno che tu non attivi esplicitamente i webhook (e anche in quel caso la destinazione è <em>il tuo</em> server).</p>
+<p>Tag letti e scritti, documenti, passaporti e carte d'identità, modelli 3D: l'app li elabora sul dispositivo e il loro contenuto non arriva fino a me. Se attivi i webhook, i dati delle scansioni vanno direttamente al <em>tuo</em> server. Quello che l'app condivide, per esempio statistiche d'uso, rapporti sugli arresti anomali, pubblicità e acquisti, lo trovi nell'<a href="/privacy/">informativa sulla privacy</a>.</p>
 </article>
 
 <article class="page-card">

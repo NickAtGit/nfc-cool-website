@@ -46,7 +46,7 @@ Bunu bilerek böyle tutuyorum. NFC.cool'un arkasında girişim sermayesi yok, bu
 
 <article class="page-card">
 <h3>Varsayılan olarak gizlilik</h3>
-<p>Taramalar, belgeler, kişiler: hepsi cihazında kalır. Webhook'ları açıkça açmadığın sürece bana hiçbir şey gelmez (açtığında bile hedef <em>senin</em> sunucundur).</p>
+<p>Okuduğun ve yazdığın tag'ler, belgeler, pasaportlar ve kimlik kartları, 3B modeller: uygulama hepsini cihazında işler, içerikleri bana gelmez. Webhook'ları açarsan tarama verisi doğrudan <em>senin</em> sunucuna gider. Uygulamanın kullanım istatistikleri, çökme raporları, reklamlar ve satın almalar için neleri paylaştığı <a href="/privacy/">gizlilik politikasında</a> yazıyor.</p>
 </article>
 
 <article class="page-card">
