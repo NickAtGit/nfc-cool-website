@@ -55,6 +55,8 @@ NFC.cool Business Card for Teams 让公司里的每个人都拥有一张符合�
 
 单点登录（SSO）和目录同步（SCIM）可按需开通。[联系我们](/zh/contact/)，告诉我们你们公司用的是什么。
 
+我们如何处理你们团队的数据和收集到的线索，详见[隐私政策](/privacy/business-card/)。
+
 </section>
 
 <section class="page-section">

@@ -90,7 +90,7 @@ La forma más rápida de contactar con nosotros es por email. Leemos cada mensaj
 
 <details class="faq-item">
 <summary>¿Cumple con el RGPD?</summary>
-<p>Las apps procesan los datos en el dispositivo, así que no hay transferencia de datos personales a NFC.cool en el modo predeterminado. El propio sitio web no usa cookies. La newsletter (Mailjet) es el único flujo de datos a terceros, y el formulario está alojado por nosotros, así que no se establecen cookies al visitarlo. Consulta la <a href="/privacy/">Política de privacidad</a> para ver el desglose completo.</p>
+<p>Las funciones de NFC.cool Tools que se ejecutan en el dispositivo procesan los datos de forma local, así que no hay transferencia de datos personales a NFC.cool. El propio sitio web no usa cookies. La newsletter (Mailjet) es el único flujo de datos a terceros, y el formulario está alojado por nosotros, así que no se establecen cookies al visitarlo. Consulta la <a href="/privacy/">Política de privacidad</a> para ver el desglose completo. NFC.cool Business Card es distinta: guarda tu cuenta y tus tarjetas en nuestros servidores, como explica su propia <a href="/privacy/business-card/">política de privacidad</a>.</p>
 </details>
 
 <details class="faq-item">

@@ -90,7 +90,7 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 
 <details class="faq-item">
 <summary>Ist es DSGVO-konform?</summary>
-<p>Die Apps verarbeiten Daten auf dem Gerät, sodass im Standardmodus keine personenbezogenen Daten an NFC.cool übertragen werden. Die Website selbst ist cookie-frei. Der Newsletter (Mailjet) ist der einzige Drittanbieter-Datenfluss, und das Formular ist selbst gehostet, sodass beim Besuch keine Cookies gesetzt werden. Details in der <a href="/de/privacy/">Datenschutzerklärung</a>.</p>
+<p>Die Funktionen von NFC.cool Tools, die auf dem Gerät laufen, verarbeiten die Daten dort, sodass dabei keine personenbezogenen Daten an NFC.cool übertragen werden. Die Website selbst ist cookie-frei. Der Newsletter (Mailjet) ist der einzige Drittanbieter-Datenfluss, und das Formular ist selbst gehostet, sodass beim Besuch keine Cookies gesetzt werden. Details in der <a href="/de/privacy/">Datenschutzerklärung</a>. Bei NFC.cool Business Card ist das anders: Die App speichert dein Konto und deine Karten auf unseren Servern, wie ihre eigene <a href="/privacy/business-card/">Datenschutzerklärung</a> beschreibt.</p>
 </details>
 
 <details class="faq-item">

@@ -55,6 +55,8 @@ NFC.cool Business Card for Teams gibt allen in deiner Firma eine digitale Visite
 
 Single Sign-on (SSO) und Verzeichnis-Sync (SCIM) richten wir auf Anfrage ein. [Schreib uns](/de/contact/), was deine Firma nutzt.
 
+Wie wir mit den Daten deines Teams und den gesammelten Leads umgehen, steht in der [Datenschutzerklärung](/privacy/business-card/).
+
 </section>
 
 <section class="page-section">

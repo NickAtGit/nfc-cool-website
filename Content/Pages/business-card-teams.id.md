@@ -55,6 +55,8 @@ NFC.cool Business Card for Teams memberi semua orang di perusahaan Anda kartu na
 
 Single sign-on (SSO) dan sinkronisasi direktori (SCIM) disiapkan atas permintaan. [Hubungi kami](/id/contact/) dan sebutkan apa yang dipakai perusahaan Anda.
 
+[Kebijakan privasi](/privacy/business-card/) menjelaskan cara kami menangani data tim Anda dan prospek yang dikumpulkannya.
+
 </section>
 
 <section class="page-section">

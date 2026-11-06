@@ -55,6 +55,8 @@ NFC.cool Business Card for Teams donne à chaque membre de votre entreprise une 
 
 L'authentification unique (SSO) et la synchronisation d'annuaire (SCIM) sont mises en place sur demande. [Contactez-nous](/fr/contact/) en nous indiquant ce qu'utilise votre entreprise.
 
+La [politique de confidentialité](/privacy/business-card/) explique comment nous traitons les données de votre équipe et les prospects qu'elle collecte.
+
 </section>
 
 <section class="page-section">

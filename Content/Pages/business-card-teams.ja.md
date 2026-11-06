@@ -55,6 +55,8 @@ NFC.cool Business Card for Teamsは、社員全員に自社ブランドのデジ
 
 シングルサインオン（SSO）とディレクトリ同期（SCIM）は、ご要望に応じて設定します。お使いのシステムを添えて[お問い合わせください](/ja/contact/)。
 
+チームのデータと集めたリードをどう扱うかは、[プライバシーポリシー](/privacy/business-card/)で説明しています。
+
 </section>
 
 <section class="page-section">

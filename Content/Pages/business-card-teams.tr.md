@@ -55,6 +55,8 @@ NFC.cool Business Card for Teams, şirketindeki herkese kendi markanla dijital k
 
 Tek oturum açma (SSO) ve dizin eşitlemesi (SCIM) talep üzerine kurulur. Şirketinin ne kullandığını yazıp [bize ulaş](/tr/contact/).
 
+Ekibinin verilerini ve topladığı müşteri adaylarını nasıl işlediğimizi [gizlilik politikası](/privacy/business-card/) anlatıyor.
+
 </section>
 
 <section class="page-section">

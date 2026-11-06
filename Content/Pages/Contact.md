@@ -90,7 +90,7 @@ The fastest way to reach us is by email. We read every message personally and re
 
 <details class="faq-item">
 <summary>Is it GDPR-compliant?</summary>
-<p>The apps process data on-device, so there's no transfer of personal data to NFC.cool in the default mode. The website itself is cookie-free. The newsletter (Mailjet) is the only third-party data flow, and the form is self-hosted so no cookies are set on visit. See the <a href="/privacy/">Privacy policy</a> for the full breakdown.</p>
+<p>NFC.cool Tools' on-device features process data on your device, so they transfer no personal data to NFC.cool. The website itself is cookie-free. The newsletter (Mailjet) is the only third-party data flow, and the form is self-hosted so no cookies are set on visit. See the <a href="/privacy/">Privacy policy</a> for the full breakdown. NFC.cool Business Card is different: it stores your account and cards on our servers, as its own <a href="/privacy/business-card/">privacy policy</a> explains.</p>
 </details>
 
 <details class="faq-item">

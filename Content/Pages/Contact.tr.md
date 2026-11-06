@@ -90,7 +90,7 @@ Bize ulaşmanın en hızlı yolu e-posta. Her mesajı bizzat okuyor ve bir iş g
 
 <details class="faq-item">
 <summary>GDPR ile uyumlu mu?</summary>
-<p>Uygulamalar veriyi cihazda işliyor, yani varsayılan kullanımda NFC.cool'a kişisel veri aktarımı olmuyor. Sitenin kendisi çerezsiz. Tek üçüncü taraf veri akışı bülten (Mailjet) ve form kendi sunucumuzda olduğu için ziyarette çerez düşmüyor. Ayrıntılı döküm için <a href="/privacy/">gizlilik politikasına</a> bak.</p>
+<p>NFC.cool Tools'un cihazda çalışan özellikleri veriyi orada işliyor, yani NFC.cool'a kişisel veri aktarımı olmuyor. Sitenin kendisi çerezsiz. Tek üçüncü taraf veri akışı bülten (Mailjet) ve form kendi sunucumuzda olduğu için ziyarette çerez düşmüyor. Ayrıntılı döküm için <a href="/privacy/">gizlilik politikasına</a> bak. NFC.cool Business Card'da durum farklı: uygulama hesabını ve kartlarını sunucularımızda saklıyor. Ayrıntılar uygulamanın kendi <a href="/privacy/business-card/">gizlilik politikasında</a>.</p>
 </details>
 
 <details class="faq-item">

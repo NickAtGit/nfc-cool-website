@@ -90,7 +90,7 @@ Il modo più rapido per contattarci è l'email. Leggiamo ogni messaggio personal
 
 <details class="faq-item">
 <summary>È conforme al GDPR?</summary>
-<p>Le app elaborano i dati sul dispositivo, quindi nella configurazione predefinita nessun dato personale arriva a NFC.cool. Il sito non usa cookie. L'unico scambio di dati con terze parti è la newsletter (Mailjet), e il modulo è ospitato direttamente qui, perciò la semplice visita non lascia alcun cookie. Tutti i dettagli sono nell'<a href="/privacy/">informativa sulla privacy</a>.</p>
+<p>Le funzioni di NFC.cool Tools che girano sul dispositivo elaborano i dati in locale, quindi nessun dato personale arriva a NFC.cool. Il sito non usa cookie. L'unico scambio di dati con terze parti è la newsletter (Mailjet), e il modulo è ospitato direttamente qui, perciò la semplice visita non lascia alcun cookie. Tutti i dettagli sono nell'<a href="/privacy/">informativa sulla privacy</a>. Con NFC.cool Business Card è diverso: l'app salva l'account e i biglietti da visita sui nostri server, come spiega la sua <a href="/privacy/business-card/">informativa sulla privacy</a>.</p>
 </details>
 
 <details class="faq-item">

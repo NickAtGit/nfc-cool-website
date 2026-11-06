@@ -90,7 +90,7 @@ description: "联系 NFC.cool：有问题就发邮件，每条消息都有人亲
 
 <details class="faq-item">
 <summary>它符合 GDPR 吗？</summary>
-<p>这些 App 在设备端处理数据，因此在默认模式下不会向 NFC.cool 传输任何个人数据。网站本身不使用 cookie。订阅通讯（Mailjet）是唯一的第三方数据流，而且表单为自托管，所以访问时不会设置任何 cookie。完整说明请查看<a href="/zh/privacy/">隐私政策</a>。</p>
+<p>NFC.cool Tools 在设备端运行的功能只在本地处理数据，因此不会向 NFC.cool 传输任何个人数据。网站本身不使用 cookie。订阅通讯（Mailjet）是唯一的第三方数据流，而且表单为自托管，所以访问时不会设置任何 cookie。完整说明请查看<a href="/zh/privacy/">隐私政策</a>。NFC.cool Business Card 则不同：它会把你的账号和名片保存在我们的服务器上，详见它自己的<a href="/privacy/business-card/">隐私政策</a>。</p>
 </details>
 
 <details class="faq-item">

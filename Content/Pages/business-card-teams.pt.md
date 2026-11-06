@@ -55,6 +55,8 @@ O NFC.cool Business Card for Teams dá a todas as pessoas da sua empresa um cart
 
 O início de sessão único (SSO) e a sincronização de diretório (SCIM) são configurados a pedido. [Contacte-nos](/pt/contact/) e diga-nos o que a sua empresa usa.
 
+A [política de privacidade](/privacy/business-card/) explica como tratamos os dados da sua equipa e os leads que ela recolhe.
+
 </section>
 
 <section class="page-section">

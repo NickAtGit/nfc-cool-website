@@ -90,7 +90,7 @@ description: "NFC.coolへのお問い合わせ - メールサポート、よく�
 
 <details class="faq-item">
 <summary>GDPRに準拠していますか？</summary>
-<p>アプリはデバイス上でデータを処理するため、標準モードでは個人データがNFC.coolへ転送されることはありません。ウェブサイト自体もCookieを使用しません。ニュースレター(Mailjet)が唯一の第三者データフローですが、フォームはセルフホストなので訪問時にCookieは設定されません。詳しくは<a href="/ja/privacy/">プライバシーポリシー</a>をご覧ください。</p>
+<p>NFC.cool Toolsのうちデバイス上で動く機能は、データをデバイス内で処理するため、個人データがNFC.coolへ転送されることはありません。ウェブサイト自体もCookieを使用しません。ニュースレター(Mailjet)が唯一の第三者データフローですが、フォームはセルフホストなので訪問時にCookieは設定されません。詳しくは<a href="/ja/privacy/">プライバシーポリシー</a>をご覧ください。一方、NFC.cool Business Cardでは、アカウントとカードをNFC.coolのサーバーに保存します。詳しくは同アプリの<a href="/privacy/business-card/">プライバシーポリシー</a>をご覧ください。</p>
 </details>
 
 <details class="faq-item">

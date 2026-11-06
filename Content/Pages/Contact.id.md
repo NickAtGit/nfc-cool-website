@@ -90,7 +90,7 @@ Cara tercepat untuk menghubungi kami adalah melalui email. Kami membaca setiap p
 
 <details class="faq-item">
 <summary>Apakah ini sesuai GDPR?</summary>
-<p>Aplikasi memproses data di perangkat, sehingga tidak ada transfer data pribadi ke NFC.cool dalam mode default. Situs web ini sendiri bebas cookie. Newsletter (Mailjet) adalah satu-satunya aliran data pihak ketiga, dan formulirnya di-host sendiri sehingga tidak ada cookie yang disetel saat kunjungan. Lihat <a href="/privacy/">Kebijakan privasi</a> untuk penjelasan lengkapnya.</p>
+<p>Fitur NFC.cool Tools yang berjalan di perangkat memproses data secara lokal, sehingga tidak ada transfer data pribadi ke NFC.cool. Situs web ini sendiri bebas cookie. Newsletter (Mailjet) adalah satu-satunya aliran data pihak ketiga, dan formulirnya di-host sendiri sehingga tidak ada cookie yang disetel saat kunjungan. Lihat <a href="/privacy/">Kebijakan privasi</a> untuk penjelasan lengkapnya. NFC.cool Business Card berbeda: aplikasi ini menyimpan akun dan kartu Anda di server kami, seperti dijelaskan dalam <a href="/privacy/business-card/">kebijakan privasinya</a> sendiri.</p>
 </details>
 
 <details class="faq-item">

@@ -55,6 +55,8 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 يُعدّ تسجيل الدخول الموحّد (SSO) ومزامنة الدليل (SCIM) عند الطلب. [تواصل معنا](/ar/contact/) وأخبرنا بما تستخدمه شركتك.
 
+توضّح [سياسة الخصوصية](/privacy/business-card/) كيف نتعامل مع بيانات فريقك والعملاء المحتملين الذين يجمعهم.
+
 </section>
 
 <section class="page-section">
