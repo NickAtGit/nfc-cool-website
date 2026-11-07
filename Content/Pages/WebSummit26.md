@@ -77,14 +77,21 @@ The code works until 30 November 2026. Team prices include VAT, and in euros the
 <section class="feature-subsections">
 <div class="landing-container">
 <h2 class="landing-section-title">Here on Your Own? Get Personal Free</h2>
-<article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/selfie.webp" data-scene="bc/selfie" data-poster-frame="253" alt="A phone asks for a selfie, takes it, and a print with both names on it slides out" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Everything You Need After a Week of Handshakes</h3><div class="feature-subsection-body"><p>People you meet can send their details back. You see how many viewed your card, saved it and tapped your links, new leads show up on your Lock Screen, and there is no "Made with NFC.cool" on your card.</p><p>Redeem WEBSUMMIT26 in your phone's store. On iPhone you get a year free, on Android 90 days, and it starts right away.</p><div class="landing-store-buttons">
+<article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/selfie.webp" data-scene="bc/selfie" data-poster-frame="253" alt="A phone asks for a selfie, takes it, and a print with both names on it slides out" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Everything You Need After a Week of Handshakes</h3><div class="feature-subsection-body"><p>People you meet can send their details back. You see how many viewed your card, saved it and tapped your links, new leads show up on your Lock Screen, and there is no "Made with NFC.cool" on your card.</p><p>The code works on both, but you redeem it in a different place.</p><div class="page-card promo-redeem-card"><h3>iPhone: 1 year free</h3><p>Redeem the code on the App Store. Your free year starts right away.</p><p class="landing-store-buttons">
 <a href="https://apps.apple.com/redeem?ctx=offercodes&id=6502926572&code=WEBSUMMIT26" class="landing-store-button is-apple" aria-label="Redeem WEBSUMMIT26 on the App Store" target="_blank" rel="noopener nofollow">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
 </a>
-<a href="https://play.google.com/redeem?code=WEBSUMMIT26" class="landing-store-button is-google" aria-label="Redeem WEBSUMMIT26 on Google Play" target="_blank" rel="noopener nofollow">
+</p></div>
+<div class="page-card promo-redeem-card"><h3>Android: 90 days free</h3><ol>
+<li>Install NFC.cool Business Card, open it and pick Personal, yearly.</li>
+<li>On Google's payment sheet, tap the arrow next to your payment method.</li>
+<li>Tap "Redeem code" and enter WEBSUMMIT26.</li>
+</ol><p>The code only works inside the app, not in the Play Store, and only if you have never subscribed before.</p><p class="landing-store-buttons">
+<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dwebsummit26-en" class="landing-store-button is-google" aria-label="Get NFC.cool Business Card on Google Play" target="_blank" rel="noopener nofollow">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
-</div></div></div></article>
+</p></div>
+</div></div></article>
 </div>
 </section>
 </div>

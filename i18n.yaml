@@ -38,8 +38,6 @@ enOnly:
     - "Content/Pages/AppsPokemonQuiz.md"
     - "Content/Pages/AppsEbikeMonitor.md"
     - "Content/Pages/AppsMondegoMove.md"
-    # Campaign landing page for one event, English only and kept out of search.
-    - "Content/Pages/WebSummit26.md"
 
 # Values that are legitimately byte-identical across locales - suppresses the
 # "looks untranslated" check. (URLs, dimensions, brand names, and symbol/number

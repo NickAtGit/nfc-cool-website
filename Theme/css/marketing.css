@@ -547,7 +547,8 @@
    Explicit margin: 0 on the first li overrides the .page-section li
    { margin: 0.35rem 0 } rule, so the gap between h3 and the first
    bullet matches the h3-to-paragraph gap on neighbouring cards. */
-.page-card ul {
+.page-card ul,
+.page-card ol {
    /* The bullet hangs in its own column, level with the h3's left edge, and
       wrapped lines align with the first line's text. */
    padding-inline-start: 1.1em;
@@ -557,10 +558,12 @@
    line-height: 1.5;
    color: var(--color-text-secondary);
 }
-.page-card ul li {
+.page-card ul li,
+.page-card ol li {
    margin: 0 0 0.4rem;
 }
-.page-card ul li:last-child {
+.page-card ul li:last-child,
+.page-card ol li:last-child {
    margin-bottom: 0;
 }
 .page-card ul li strong {
@@ -971,3 +974,8 @@
    font-weight: 700;
 }
 [data-theme="dark"] .promo-step { background: var(--color-accent); color: #161B22; }
+
+/* How to redeem the code, one card per store, stacked: Apple takes it
+   through a link, Google only inside the app, so Android gets steps. */
+.promo-redeem-card + .promo-redeem-card { margin-top: 1rem; }
+.promo-redeem-card ol + p { margin-top: 0.875rem; }
