@@ -14,7 +14,7 @@ heroImageAlt: "Un téléphone lit les tags NFC les uns après les autres et affi
 heroScene: "nfctags"
 heroScenePosterFrame: 104
 
-ogImage: "/assets/images/og-landing.webp"
+ogImage: "/assets/images/og-landing-v2.webp"
 ogImageAlt: "NFC.cool - Scannez tags NFC, QR codes, codes-barres, documents, objets 3D et pièces"
 
 featuresTitle: "Tout ce qu'il vous faut pour scanner"

@@ -58,7 +58,7 @@ struct BlogIndexRenderer: Renderer {
          description: subtitle,
          canonicalURL: "\(context.config.baseURL)\(listingPath)",
          ogType: "website",
-         image: "\(context.config.baseURL)/assets/images/og-landing.webp",
+         image: "\(context.config.baseURL)/assets/images/og-landing-v2.webp",
          imageAlt: "\(title) - \(context.config.name)",
          rssFeedURL: rssFeedPath,
          rssFeedTitle: "\(title) - \(context.config.name)",

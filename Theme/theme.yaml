@@ -5,7 +5,7 @@ fontPairing: "custom"
 selfHostedFonts: true
 
 # Site-wide fallback OG/Twitter image for any page that doesn't pass its own.
-defaultImage: "https://nfc.cool/assets/images/og-landing.webp"
+defaultImage: "https://nfc.cool/assets/images/og-landing-v2.webp"
 
 css:
    - "css/theme.css"

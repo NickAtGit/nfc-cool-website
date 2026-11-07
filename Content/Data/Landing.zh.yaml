@@ -14,7 +14,7 @@ heroImageAlt: "手机依次读取一个个 NFC 标签，并显示每个标签的
 heroScene: "nfctags"
 heroScenePosterFrame: 104
 
-ogImage: "/assets/images/og-landing.webp"
+ogImage: "/assets/images/og-landing-v2.webp"
 ogImageAlt: "NFC.cool，扫描 NFC 标签、二维码、条形码、文档、3D 物体和房间"
 
 featuresTitle: "扫描所需的一切"

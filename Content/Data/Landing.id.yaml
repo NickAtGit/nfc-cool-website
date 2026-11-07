@@ -14,7 +14,7 @@ heroImageAlt: "Ponsel membaca tag NFC satu per satu dan menampilkan chip setiap 
 heroScene: "nfctags"
 heroScenePosterFrame: 104
 
-ogImage: "/assets/images/og-landing.webp"
+ogImage: "/assets/images/og-landing-v2.webp"
 ogImageAlt: "NFC.cool - Pindai Tag NFC, Kode QR, Barcode, Dokumen, Objek 3D, dan Ruangan"
 
 featuresTitle: "Semua yang Anda butuhkan untuk memindai"

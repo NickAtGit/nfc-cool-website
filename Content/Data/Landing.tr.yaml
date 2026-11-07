@@ -14,7 +14,7 @@ heroImageAlt: "Bir telefon NFC tag'lerini tek tek okuyor ve her birinin çipini 
 heroScene: "nfctags"
 heroScenePosterFrame: 104
 
-ogImage: "/assets/images/og-landing.webp"
+ogImage: "/assets/images/og-landing-v2.webp"
 ogImageAlt: "NFC.cool - NFC tag, QR kod, barkod, belge, 3B nesne ve oda tara"
 
 featuresTitle: "Taramak için gereken her şey"

@@ -14,7 +14,7 @@ heroImageAlt: "スマートフォンがNFCタグを次々に読み取り、そ�
 heroScene: "nfctags"
 heroScenePosterFrame: 104
 
-ogImage: "/assets/images/og-landing.webp"
+ogImage: "/assets/images/og-landing-v2.webp"
 ogImageAlt: "NFC.cool - NFCタグ、QRコード、バーコード、書類、3Dオブジェクト、ルームをスキャン"
 
 featuresTitle: "スキャンに必要なすべてが、ひとつに"

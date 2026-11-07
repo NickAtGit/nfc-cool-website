@@ -14,7 +14,7 @@ heroImageAlt: "Телефон считывает NFC-метки одну за д
 heroScene: "nfctags"
 heroScenePosterFrame: 104
 
-ogImage: "/assets/images/og-landing.webp"
+ogImage: "/assets/images/og-landing-v2.webp"
 ogImageAlt: "NFC.cool: сканирование NFC-меток, QR-кодов, штрихкодов, документов, 3D-объектов и помещений"
 
 featuresTitle: "Всё, что нужно для сканирования"

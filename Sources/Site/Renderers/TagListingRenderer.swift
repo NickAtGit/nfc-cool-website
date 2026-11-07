@@ -93,7 +93,7 @@ struct TagListingRenderer: Renderer {
          description: description,
          canonicalURL: "\(context.config.baseURL)\(tagPath)",
          ogType: "website",
-         image: "\(context.config.baseURL)/assets/images/og-landing.webp",
+         image: "\(context.config.baseURL)/assets/images/og-landing-v2.webp",
          imageAlt: "\(displayName) - \(context.config.name)",
          jsonLD: jsonLD,
          hreflang: helper.buildHreflangForAllLanguages { $0.tagPath(for: tag) }
@@ -160,7 +160,7 @@ struct TagListingRenderer: Renderer {
          description: description,
          canonicalURL: "\(context.config.baseURL)\(indexPath)",
          ogType: "website",
-         image: "\(context.config.baseURL)/assets/images/og-landing.webp",
+         image: "\(context.config.baseURL)/assets/images/og-landing-v2.webp",
          imageAlt: "\(heading) - \(context.config.name)",
          jsonLD: jsonLD,
          hreflang: helper.buildHreflangForAllLanguages { $0.tagsIndexPath() }

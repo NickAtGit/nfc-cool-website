@@ -14,7 +14,7 @@ heroImageAlt: "Um telemóvel lê uma tag NFC atrás da outra e mostra o chip de 
 heroScene: "nfctags"
 heroScenePosterFrame: 104
 
-ogImage: "/assets/images/og-landing.webp"
+ogImage: "/assets/images/og-landing-v2.webp"
 ogImageAlt: "NFC.cool - Leia Tags NFC, Códigos QR, Códigos de Barras, Documentos, Objetos 3D e Divisões"
 
 featuresTitle: "Tudo o que precisa para digitalizar"
