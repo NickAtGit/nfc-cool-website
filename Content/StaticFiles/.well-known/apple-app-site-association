@@ -10,6 +10,6 @@
     "apps": ["FMXL9R3NPC.io.stanc.DigitalBusinessCardApp.Clip"]
   },
   "webcredentials": {
-    "apps": ["FMXL9R3NPC.de.nicolo-stanciu.nfcing"]
+    "apps": ["FMXL9R3NPC.de.nicolo-stanciu.nfcing", "FMXL9R3NPC.cool.nfc.keel.admin"]
   }
 }
