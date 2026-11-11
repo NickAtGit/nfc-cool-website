@@ -45,7 +45,7 @@ jobs:
           url="https://download.swift.org/swift-${SWIFT_VERSION}-release/ubuntu2404/swift-${SWIFT_VERSION}-RELEASE/${base}.tar.gz"
           curl -fsSL "$url" -o /tmp/swift.tar.gz
           curl -fsSL "$url.sig" -o /tmp/swift.tar.gz.sig
-          curl -fsSL https://www.swift.org/keys/all-keys.asc | gpg --import -
+          curl -fsSL --compressed https://www.swift.org/keys/all-keys.asc | gpg --import -
           gpg --verify /tmp/swift.tar.gz.sig /tmp/swift.tar.gz
           sudo tar -xzf /tmp/swift.tar.gz -C /opt
           echo "/opt/${base}/usr/bin" >> "$GITHUB_PATH"
