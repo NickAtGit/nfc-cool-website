@@ -44,22 +44,37 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 بطاقة العمل الرقمية هي بيانات اتصالك في رابط واحد: الاسم والوظيفة والهاتف والبريد الإلكتروني والموقع الإلكتروني وحساباتك على مواقع التواصل، كلها في صفحة واحدة. فبدلًا من تسليم بطاقة ورقية، تشاركها بلمسة NFC أو برمز QR، فيحفظك الشخص الآخر في جهات اتصاله بلمسة واحدة، ولا يحتاج إلى أي تطبيق. وعندما يتغيّر رقمك أو وظيفتك، تعدّل البطاقة مرة واحدة، فتعرض كل الوسوم ورموز QR التي شاركتها البيانات الجديدة.
 
+</section>
+
+<section class="page-section">
+
 ## كيف تنشئ بطاقة العمل الرقمية الخاصة بك
 
-1. نزّل NFC.cool Business Card على iPhone أو Android، وهو مجاني.
-2. املأ بطاقتك، أو استورد جهة اتصال موجودة لديك. ثم أضف شعارك وألوانك.
-3. شاركها: اطلب من الشخص الآخر أن يقرّب هاتفه من بطاقة NFC أو الوسم الخاص بك، أو اعرض رمز QR، أو أرسل الرابط، أو أضفها إلى Apple Wallet على iPhone أو Google Wallet على Android.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>نزّل التطبيق</h3><p>تطبيق NFC.cool Business Card مجاني على <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ar&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> و<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ar" target="_blank" rel="noopener nofollow sponsored">Android</a>.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>املأ بطاقتك</h3><p>أدخل بياناتك أو استورد جهة اتصال موجودة لديك، ثم أضف شعارك وألوانك.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>شارك بطاقتك</h3><p>يقرّب الشخص الآخر هاتفه من بطاقة NFC الخاصة بك، أو يمسح رمز QR، أو يفتح رابطك. ويمكنك أيضًا إضافتها إلى Apple Wallet على iPhone أو Google Wallet على Android.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC أم QR؟
 
-استخدم الاثنين. لمسة NFC هي الأسرع: يقرّب الشخص الآخر هاتفه من بطاقتك أو وسمك فتُفتح بطاقتك. أما رمز QR فيعمل على أي هاتف فيه كاميرا، حتى الهواتف التي لا تدعم NFC. أقارن بين الطريقتين في مقالي [بطاقة العمل NFC مقابل رمز QR](/ar/blog/nfc-business-card-vs-qr-code/).
+<div class="page-cards-grid">
+<article class="page-card"><h3>لمسة NFC</h3><p>الطريقة الأسرع. يقرّب الشخص الآخر هاتفه من بطاقتك أو وسمك فتُفتح بطاقتك.</p></article>
+<article class="page-card"><h3>رمز QR</h3><p>يعمل على أي هاتف فيه كاميرا، حتى الهواتف التي لا تدعم NFC.</p></article>
+</div>
+
+استخدم الاثنين. أقارن بين الطريقتين في مقالي [بطاقة العمل NFC مقابل رمز QR](/ar/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">ما يمكنك تحقيقه</h2>
+<h2 class="landing-section-title">ما يمكنك تحقيقه مع بطاقة العمل الرقمية</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>احجز مكانك في هواتفهم</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>قرّب بطاقة NFC من هاتف محدّثك أو اعرض رمز QR الخاص بك. تُفتح بطاقتك فورًا ويمكنه حفظك كجهة اتصال، دون الحاجة إلى أي تطبيق.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="هاتف يلمس بطاقة NFC.cool فتُفتح بطاقة العمل، ثم يُضغط على «حفظ جهة الاتصال» وتظهر علامة صح خضراء" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="بطاقات جهات اتصال تتراكم فوق كومة متنامية، ثم تطير العليا منها إلى هاتف يفتح تفاصيل هذا العميل المحتمل" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>حوّل المحادثات إلى عملاء</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>يستطيع من تلتقيهم أن يرسلوا إليك بياناتهم في المقابل. تابع كل عميل محتمل من «جديد» إلى «أصبح عميلًا»، فلا يفوتك أحد.</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>مظهر أنيق على كل هاتف</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>شعارك وألوانك. وتتبع بطاقتك الوضع الفاتح أو الداكن لدى كل من يشاهدها.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="هاتفان يعرضان بطاقة العمل نفسها بحدود ملوّنة، على خلفية بيضاء في الوضع الفاتح وسوداء في الوضع الداكن" width="1000" height="800" loading="lazy"/></div></article>

@@ -44,22 +44,37 @@ NFC.cool Business Card переносить твою візитівку в те�
 
 Цифрова візитівка збирає твої контакти в одне посилання: ім'я, посада, телефон, пошта, сайт і профілі в соцмережах на одній сторінці. Паперову картку більше не простягаєш: ділишся візитівкою дотиком NFC або через QR-код, а співрозмовник зберігає тебе в контакти одним натисканням. Застосунок йому не потрібен. Змінився номер чи посада? Редагуєш візитівку один раз, і кожна мітка й кожен QR-код, які ти вже роздаєш, показують нові дані.
 
+</section>
+
+<section class="page-section">
+
 ## Як створити цифрову візитівку
 
-1. Встанови NFC.cool Business Card на iPhone або Android. Застосунок безкоштовний.
-2. Заповни візитівку або імпортуй контакт, який уже маєш. Додай логотип і свої кольори.
-3. Ділися: піднеси NFC-картку чи мітку до телефону співрозмовника, покажи QR-код, надішли посилання або додай візитівку в Apple Wallet на iPhone або в Google Wallet на Android.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>Встанови застосунок</h3><p>NFC.cool Business Card безкоштовний на <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-uk&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> і <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-uk" target="_blank" rel="noopener nofollow sponsored">Android</a>.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Заповни візитівку</h3><p>Впиши свої дані або імпортуй контакт, який уже маєш, а потім додай логотип і кольори.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Поділися візитівкою</h3><p>Співрозмовник підносить телефон до NFC-картки, сканує QR-код або відкриває посилання. А ще візитівку можна додати в Apple Wallet на iPhone або в Google Wallet на Android.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC чи QR?
 
-Використовуй обидва. Дотик NFC найшвидший: співрозмовник підносить телефон до твоєї картки чи мітки, і візитівка відкривається. QR-код працює на будь-якому телефоні з камерою, навіть без NFC. Детально я порівнюю їх у статті [NFC-візитівка чи QR-код](/uk/blog/nfc-business-card-vs-qr-code/).
+<div class="page-cards-grid">
+<article class="page-card"><h3>Дотик NFC</h3><p>Найшвидший спосіб. Співрозмовник підносить телефон до твоєї картки чи мітки, і візитівка відкривається.</p></article>
+<article class="page-card"><h3>QR-код</h3><p>Працює на будь-якому телефоні з камерою, навіть без NFC.</p></article>
+</div>
+
+Використовуй обидва. Детально я порівнюю їх у статті [NFC-візитівка чи QR-код](/uk/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">Що це дає</h2>
+<h2 class="landing-section-title">Що дає цифрова візитівка</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Потрап у їхні контакти</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Дай людині піднести телефон до NFC-картки або покажи QR-код. Візитівка відкриється одразу, і тебе можна зберегти як контакт. Застосунок для цього не потрібен.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="Телефон підносять до картки NFC.cool, відкривається візитівка, хтось натискає «Зберегти контакт», і з'являється зелена галочка" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="Картки контактів падають на стос, що росте; верхня летить у телефон, і там відкриваються дані цього ліда" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Від розмови до клієнта</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Люди, з якими знайомишся, можуть надіслати свої дані у відповідь. Веди кожного ліда від статусу «Новий» до «Став клієнтом», щоб ніхто не загубився.</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Бездоганний вигляд на кожному телефоні</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Власний логотип, власні кольори. Візитівка сама підлаштовується під світлу чи темну тему кожного, хто її відкриває.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="Два телефони показують ту саму візитівку з кольоровими рамками: на білому у світлій темі й на чорному в темній" width="1000" height="800" loading="lazy"/></div></article>

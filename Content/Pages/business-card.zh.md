@@ -44,22 +44,37 @@ NFC.cool Business Card 把你的名片装进手机，个人和团队都能用。
 
 电子名片就是一个装着你联系方式的链接：姓名、职位、电话、邮箱、网站和社交账号，都放在同一个页面上。不用再递纸质名片，只要 NFC 轻轻一触或出示二维码，对方点一下就能把你存进通讯录，而且不需要安装任何 App。换了号码或职位，只需改一次名片，你分享出去的每个标签和二维码都会显示最新信息。
 
+</section>
+
+<section class="page-section">
+
 ## 如何制作电子名片
 
-1. 在 iPhone 或 Android 上下载 NFC.cool Business Card，免费。
-2. 填写名片信息，或导入已有的联系人，再加上你的徽标和配色。
-3. 分享出去：让对方用手机轻触你的 NFC 名片或标签、出示二维码、发送链接，或者添加到 Apple Wallet（iPhone）或 Google Wallet（Android）。
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>下载 App</h3><p>NFC.cool Business Card 在 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-zh&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> 和 <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-zh" target="_blank" rel="noopener nofollow sponsored">Android</a> 上都免费。</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>填写名片</h3><p>输入你的信息，或导入已有的联系人，再加上徽标和配色。</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>分享名片</h3><p>对方用手机轻触你的 NFC 名片、扫描二维码或打开链接，就能收到你的名片。你也可以把它添加到 Apple Wallet（iPhone）或 Google Wallet（Android）。</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC 还是二维码？
 
-两个都用。NFC 轻触最快：对方把手机靠近你的名片或标签，你的名片就会打开。二维码适用于任何带摄像头的手机，包括不支持 NFC 的机型。两者的详细对比，我写在了[NFC 电子名片与二维码对比](/zh/blog/nfc-business-card-vs-qr-code/)这篇文章里。
+<div class="page-cards-grid">
+<article class="page-card"><h3>NFC 轻触</h3><p>最快的方式。对方把手机靠近你的名片或标签，你的名片就会打开。</p></article>
+<article class="page-card"><h3>二维码</h3><p>适用于任何带摄像头的手机，包括不支持 NFC 的机型。</p></article>
+</div>
+
+两个都用。两者的详细对比，我写在了[NFC 电子名片与二维码对比](/zh/blog/nfc-business-card-vs-qr-code/)这篇文章里。
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">它能帮你做到什么</h2>
+<h2 class="landing-section-title">电子名片能帮你做到什么</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>存进对方的手机</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>让对方用手机轻触你的 NFC 名片，或出示二维码。名片立刻打开，对方可以把你存为联系人，不需要任何 App。</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="手机轻触 NFC.cool 名片，打开电子名片，按下“保存联系人”，随后出现绿色对勾" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="联系人卡片落到越堆越高的一叠上，最上面一张飞入手机，打开这条线索的详情" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>从交谈到成交</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>你遇到的人也可以把自己的信息留给你。每条线索从“新建”一路跟到“已转化”，一条都不漏。</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>在每部手机上都好看</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>你的徽标，你的配色。名片会跟随每位查看者手机的浅色或深色模式。</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="两部手机显示同一张带彩色边框的名片，一部是浅色模式的白底，另一部是深色模式的黑底" width="1000" height="800" loading="lazy"/></div></article>

@@ -44,22 +44,37 @@ NFC.cool Business Card porta il tuo biglietto sul telefono, per privati e team. 
 
 Un biglietto da visita digitale raccoglie i tuoi contatti in un link: nome, ruolo, telefono, email, sito web e profili social in un'unica pagina. Invece di consegnare un cartoncino, lo condividi via NFC o con un codice QR, e l'altra persona ti salva in rubrica con un tocco. Non le serve nessuna app. Quando cambi numero o ruolo, modifichi il biglietto una volta sola e ogni tag e codice QR già condiviso mostra i dati aggiornati.
 
+</section>
+
+<section class="page-section">
+
 ## Come creare il biglietto da visita digitale
 
-1. Scarica NFC.cool Business Card su iPhone o Android. È gratis.
-2. Compila il biglietto oppure importa un contatto che hai già. Aggiungi logo e colori.
-3. Condividilo come preferisci: chi lo riceve avvicina il telefono al biglietto o al tag NFC, oppure mostri il codice QR, invii il link o lo aggiungi ad Apple Wallet su iPhone o a Google Wallet su Android.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>Scarica l'app</h3><p>NFC.cool Business Card è gratis su <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-it&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> e <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-it" target="_blank" rel="noopener nofollow sponsored">Android</a>.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Compila il biglietto</h3><p>Inserisci i tuoi dati o importa un contatto che hai già, poi aggiungi logo e colori.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Condividilo</h3><p>Chi lo riceve avvicina il telefono al biglietto NFC, inquadra il codice QR o apre il link. Puoi anche aggiungerlo ad Apple Wallet su iPhone o a Google Wallet su Android.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC o QR?
 
-Usali entrambi. L'NFC è la via più veloce: basta avvicinare il telefono al biglietto o al tag e i tuoi dati si aprono subito. Un codice QR funziona su qualsiasi telefono con fotocamera, anche su quelli senza NFC. Li confronto in [biglietto da visita NFC o codice QR](/it/blog/nfc-business-card-vs-qr-code/).
+<div class="page-cards-grid">
+<article class="page-card"><h3>Tocco NFC</h3><p>La via più veloce. Basta avvicinare il telefono al biglietto o al tag e i tuoi dati si aprono subito.</p></article>
+<article class="page-card"><h3>Codice QR</h3><p>Funziona su qualsiasi telefono con fotocamera, anche su quelli senza NFC.</p></article>
+</div>
+
+Usali entrambi. Li confronto in [biglietto da visita NFC o codice QR](/it/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">Cosa puoi ottenere</h2>
+<h2 class="landing-section-title">Cosa puoi ottenere con un biglietto da visita digitale</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Entra nella rubrica di chi incontri</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Avvicina la card NFC al telefono dell'altra persona o mostra il codice QR. Il biglietto si apre subito e chi lo riceve può salvarti come contatto. Non serve nessuna app.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="Uno smartphone si avvicina a una card NFC.cool e apre il biglietto da visita, poi si preme Salva contatto e compare una spunta verde" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="Schede di contatto cadono su una pila che cresce; quella in cima vola dentro uno smartphone, che apre i dati di quel lead" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Trasforma le conversazioni in clienti</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Chi incontri può lasciarti i suoi dati. Segui ogni lead da Nuovo a Convertito e non te ne sfugge nessuno.</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Fai bella figura su ogni telefono</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Il tuo logo, i tuoi colori. Il biglietto segue il tema chiaro o scuro di chi lo guarda.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="Due smartphone mostrano lo stesso biglietto da visita con i bordi colorati, su bianco con il tema chiaro e su nero con quello scuro" width="1000" height="800" loading="lazy"/></div></article>

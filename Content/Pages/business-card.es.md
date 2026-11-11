@@ -44,22 +44,37 @@ NFC.cool Business Card pone tu tarjeta en el móvil, para ti y para tu equipo. C
 
 Una tarjeta de visita digital son tus datos de contacto en un enlace: nombre, cargo, teléfono, correo, web y redes sociales en una sola página. En lugar de entregar un papel, la compartes con un toque NFC o un código QR, y la otra persona te guarda en sus contactos al momento. No necesita ninguna app. Cuando cambias de número o de puesto, editas la tarjeta una vez, y cada etiqueta y cada código QR que hayas compartido muestra los datos nuevos.
 
+</section>
+
+<section class="page-section">
+
 ## Cómo crear tu tarjeta de visita digital
 
-1. Descarga NFC.cool Business Card para iPhone o Android. Es gratis.
-2. Rellena tu tarjeta o importa un contacto que ya tengas. Añade tu logo y tus colores.
-3. Compártela: deja que la otra persona acerque su móvil a tu tarjeta o etiqueta NFC, enseña tu código QR, envía el enlace o añádela a Apple Wallet en iPhone o a Google Wallet en Android.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>Descarga la app</h3><p>NFC.cool Business Card es gratis en <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-es&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> y <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-es" target="_blank" rel="noopener nofollow sponsored">Android</a>.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Rellena tu tarjeta</h3><p>Escribe tus datos o importa un contacto que ya tengas, y añade tu logo y tus colores.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Comparte tu tarjeta</h3><p>La otra persona acerca su móvil a tu tarjeta NFC, escanea tu código QR o abre tu enlace. También puedes añadirla a Apple Wallet en iPhone o a Google Wallet en Android.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## ¿NFC o QR?
 
-Usa los dos. Un toque NFC es lo más rápido: la otra persona acerca el móvil a tu tarjeta o etiqueta y se abre tu tarjeta. Un código QR funciona en cualquier móvil con cámara, también en los que no tienen NFC. Comparo los dos en [tarjeta de visita NFC vs código QR](/es/blog/nfc-business-card-vs-qr-code/).
+<div class="page-cards-grid">
+<article class="page-card"><h3>Toque NFC</h3><p>Lo más rápido. La otra persona acerca el móvil a tu tarjeta o etiqueta y se abre tu tarjeta.</p></article>
+<article class="page-card"><h3>Código QR</h3><p>Funciona en cualquier móvil con cámara, también en los que no tienen NFC.</p></article>
+</div>
+
+Usa los dos. Los comparo en [tarjeta de visita NFC vs código QR](/es/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">Lo que puedes conseguir</h2>
+<h2 class="landing-section-title">Lo que puedes conseguir con una tarjeta de visita digital</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Que te guarden en el móvil</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Acerca tu tarjeta NFC a su móvil o enseña tu código QR. Tu tarjeta se abre al momento y pueden guardarte como contacto. No les hace falta ninguna app.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="Un móvil toca una tarjeta NFC.cool, abre la tarjeta de visita, se pulsa Guardar contacto y aparece una marca de verificación verde" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="Tarjetas de contacto caen sobre una pila que crece; la de arriba vuela hasta un móvil, que abre los datos de ese lead" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Convierte conversaciones en clientes</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Las personas que conozcas pueden enviarte sus datos a cambio. Sigue cada lead de Nuevo a Convertido para que no se te escape nadie.</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Impecable en cualquier móvil</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Tu logo, tus colores. La tarjeta se adapta al modo claro u oscuro de quien la ve.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="Dos móviles muestran la misma tarjeta de visita con bordes de color, sobre blanco en modo claro y sobre negro en modo oscuro" width="1000" height="800" loading="lazy"/></div></article>

@@ -44,22 +44,37 @@ NFC.cool Business Card kartvizitini telefonuna taşır, ister tek başına kulla
 
 Dijital kartvizit, iletişim bilgilerini tek bağlantıda toplar: adın, unvanın, telefonun, e-postan, web siten ve sosyal medya profillerin tek sayfada. Kâğıt kartvizit vermek yerine NFC okutarak ya da QR kodla paylaşırsın, karşındaki de seni tek dokunuşla rehberine kaydeder. Bunun için uygulamaya ihtiyacı yok. Numaran ya da işin değişince kartı bir kez düzenlersin, paylaştığın her tag ve QR kod yeni bilgileri gösterir.
 
+</section>
+
+<section class="page-section">
+
 ## Dijital kartvizitini nasıl oluşturursun?
 
-1. iPhone ya da Android için NFC.cool Business Card'ı indir. Ücretsiz.
-2. Kartını doldur ya da rehberindeki bir kişiyi içe aktar. Logonu ve renklerini ekle.
-3. Paylaş: NFC kartını ya da tag'ini karşındakinin telefonuna yaklaştır, QR kodunu göster, bağlantıyı gönder ya da kartı iPhone'da Apple Wallet'a, Android'de Google Wallet'a ekle.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>Uygulamayı indir</h3><p>NFC.cool Business Card, <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-tr&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a>'da ve <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-tr" target="_blank" rel="noopener nofollow sponsored">Android</a>'de ücretsiz.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Kartını doldur</h3><p>Bilgilerini gir ya da rehberindeki bir kişiyi içe aktar, sonra logonu ve renklerini ekle.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Kartını paylaş</h3><p>Karşındaki telefonunu NFC kartına yaklaştırır, QR kodunu okutur ya da bağlantını açar. Kartı iPhone'da Apple Wallet'a, Android'de Google Wallet'a da ekleyebilirsin.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC mi, QR mı?
 
-İkisini de kullan. En hızlısı NFC: karşındaki telefonunu kartına ya da tag'ine yaklaştırır ve kartvizitin açılır. QR kod ise kamerası olan her telefonda çalışır, NFC'si olmayanlarda da. İkisini [NFC kartvizit ile QR kod karşılaştırmamda](/tr/blog/nfc-business-card-vs-qr-code/) ayrıntılı anlattım.
+<div class="page-cards-grid">
+<article class="page-card"><h3>NFC ile okutma</h3><p>En hızlı yol. Karşındaki telefonunu kartına ya da tag'ine yaklaştırır ve kartvizitin açılır.</p></article>
+<article class="page-card"><h3>QR kod</h3><p>Kamerası olan her telefonda çalışır, NFC'si olmayanlarda da.</p></article>
+</div>
+
+İkisini de kullan. İkisini [NFC kartvizit ile QR kod karşılaştırmamda](/tr/blog/nfc-business-card-vs-qr-code/) ayrıntılı anlattım.
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">Neler başarabilirsin</h2>
+<h2 class="landing-section-title">Dijital kartvizitle neler başarabilirsin</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Karşındakinin rehberine gir</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>NFC kartını telefona yaklaştır ya da QR kodunu göster. Kartın hemen açılır, karşındaki de seni kişi olarak kaydedebilir. Uygulamaya ihtiyacı yok.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="Telefon NFC.cool karta yaklaşıyor, kartvizit açılıyor, Kişiyi kaydet düğmesine basılıyor ve yeşil onay işareti beliriyor" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="Kişi kartları büyüyen bir yığına düşüyor; en üstteki telefona uçuyor ve o müşteri adayının ayrıntıları açılıyor" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Sohbetleri müşteriye dönüştür</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Tanıştığın kişiler bilgilerini sana gönderebilir. Her müşteri adayını Yeni'den Dönüştürüldü'ye kadar izle, kimse gözden kaçmasın.</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Her telefonda istediğin gibi görün</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Senin logon, senin renklerin. Kartın, her bakanın açık ya da koyu moduna uyar.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="Renkli kenarlıklı aynı kartviziti gösteren iki telefon: açık modda beyaz, koyu modda siyah zeminde" width="1000" height="800" loading="lazy"/></div></article>

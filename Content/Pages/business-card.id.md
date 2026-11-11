@@ -44,22 +44,37 @@ NFC.cool Business Card menghadirkan kartu Anda di ponsel, untuk perorangan dan t
 
 Kartu nama digital adalah data kontak Anda dalam satu tautan: nama, jabatan, nomor telepon, email, situs web, dan profil media sosial di satu halaman. Alih-alih memberikan kartu kertas, Anda membagikannya dengan ketukan NFC atau kode QR, lalu orang lain menyimpan kontak Anda dengan sekali ketuk. Mereka tidak perlu memasang aplikasi apa pun. Saat nomor atau jabatan Anda berubah, cukup edit kartunya sekali, dan setiap tag serta kode QR yang sudah Anda bagikan akan menampilkan data terbaru.
 
+</section>
+
+<section class="page-section">
+
 ## Cara membuat kartu nama digital Anda
 
-1. Unduh NFC.cool Business Card untuk iPhone atau Android. Gratis.
-2. Isi kartu Anda, atau impor kontak yang sudah ada. Tambahkan logo dan warna Anda.
-3. Bagikan: minta mereka mendekatkan ponselnya ke kartu atau tag NFC Anda, tunjukkan kode QR, kirim tautannya, atau tambahkan ke Apple Wallet di iPhone atau Google Wallet di Android.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>Unduh aplikasinya</h3><p>NFC.cool Business Card gratis di <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-id&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> dan <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-id" target="_blank" rel="noopener nofollow sponsored">Android</a>.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Isi kartu Anda</h3><p>Masukkan data Anda atau impor kontak yang sudah ada, lalu tambahkan logo dan warna Anda.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Bagikan kartu Anda</h3><p>Orang lain cukup mendekatkan ponsel ke kartu NFC Anda, memindai kode QR, atau membuka tautan Anda. Anda juga bisa menambahkannya ke Apple Wallet di iPhone atau Google Wallet di Android.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC atau QR?
 
-Gunakan keduanya. Ketukan NFC adalah cara tercepat: mereka cukup mendekatkan ponsel ke kartu atau tag Anda, dan kartu Anda langsung terbuka. Kode QR bisa dipindai oleh ponsel apa pun yang punya kamera, termasuk yang tidak mendukung NFC. Saya membandingkan keduanya di [kartu nama NFC vs kode QR](/id/blog/nfc-business-card-vs-qr-code/).
+<div class="page-cards-grid">
+<article class="page-card"><h3>Ketukan NFC</h3><p>Cara tercepat. Mereka cukup mendekatkan ponsel ke kartu atau tag Anda, dan kartu Anda langsung terbuka.</p></article>
+<article class="page-card"><h3>Kode QR</h3><p>Bisa dipindai oleh ponsel apa pun yang punya kamera, termasuk yang tidak mendukung NFC.</p></article>
+</div>
+
+Gunakan keduanya. Saya membandingkan keduanya di [kartu nama NFC vs kode QR](/id/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">Yang bisa Anda capai</h2>
+<h2 class="landing-section-title">Yang bisa Anda capai dengan kartu nama digital</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Tersimpan di ponsel mereka</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Tempelkan kartu NFC Anda ke ponsel mereka atau tunjukkan kode QR. Kartu Anda langsung terbuka dan mereka bisa menyimpan Anda sebagai kontak. Mereka tidak perlu aplikasi.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="Ponsel mengetuk kartu NFC.cool, membuka kartu nama, tombol Simpan kontak ditekan, dan tanda centang hijau muncul" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="Kartu kontak mendarat di tumpukan yang terus bertambah; kartu teratas terbang ke ponsel, yang lalu membuka detail prospek tersebut" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Ubah obrolan jadi pelanggan</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Orang yang Anda temui bisa mengirimkan datanya kepada Anda. Pantau setiap prospek dari Baru hingga Terkonversi, agar tak ada yang terlewat.</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Tampil pas di setiap ponsel</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Logo Anda, warna Anda. Kartu Anda mengikuti mode terang atau gelap di ponsel orang yang melihatnya.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="Dua ponsel menampilkan kartu nama yang sama dengan batas berwarna, dengan latar putih pada mode terang dan latar hitam pada mode gelap" width="1000" height="800" loading="lazy"/></div></article>

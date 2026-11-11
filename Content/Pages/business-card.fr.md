@@ -44,22 +44,37 @@ NFC.cool Business Card met votre carte sur votre téléphone, pour les particuli
 
 Une carte de visite numérique, ce sont vos coordonnées réunies dans un lien : nom, poste, téléphone, e-mail, site web et réseaux sociaux sur une seule page. Au lieu de tendre un bout de papier, vous la partagez d'un simple contact NFC ou par QR code, et votre interlocuteur vous ajoute à ses contacts d'un seul geste. Il n'a besoin d'aucune app. Quand votre numéro ou votre poste change, vous modifiez la carte une seule fois, et chaque tag et chaque QR code que vous avez partagé affiche vos nouvelles coordonnées.
 
+</section>
+
+<section class="page-section">
+
 ## Comment créer votre carte de visite numérique
 
-1. Téléchargez NFC.cool Business Card sur iPhone ou Android. C'est gratuit.
-2. Remplissez votre carte, ou importez un contact que vous avez déjà. Ajoutez votre logo et vos couleurs.
-3. Partagez-la : laissez votre interlocuteur approcher son téléphone de votre carte ou de votre tag NFC, montrez votre QR code, envoyez le lien ou ajoutez la carte à Apple Wallet sur iPhone ou à Google Wallet sur Android.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>Téléchargez l'application</h3><p>NFC.cool Business Card est gratuite sur <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-fr&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> et <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-fr" target="_blank" rel="noopener nofollow sponsored">Android</a>.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Remplissez votre carte</h3><p>Saisissez vos coordonnées ou importez un contact existant, puis ajoutez votre logo et vos couleurs.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Partagez votre carte</h3><p>Votre interlocuteur approche son téléphone de votre carte NFC, scanne votre QR code ou ouvre votre lien. Vous pouvez aussi l'ajouter à Apple Wallet sur iPhone ou à Google Wallet sur Android.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC ou QR ?
 
-Utilisez les deux. Le NFC est le plus rapide : votre interlocuteur approche son téléphone de votre carte ou de votre tag, et votre carte s'ouvre. Un QR code fonctionne sur n'importe quel téléphone doté d'un appareil photo, y compris ceux qui n'ont pas de NFC. Je compare les deux dans [carte de visite NFC ou QR code](/fr/blog/nfc-business-card-vs-qr-code/).
+<div class="page-cards-grid">
+<article class="page-card"><h3>Contact NFC</h3><p>Le plus rapide. Votre interlocuteur approche son téléphone de votre carte ou de votre tag, et votre carte s'ouvre.</p></article>
+<article class="page-card"><h3>QR code</h3><p>Fonctionne sur n'importe quel téléphone doté d'un appareil photo, y compris ceux qui n'ont pas de NFC.</p></article>
+</div>
+
+Utilisez les deux. Je les compare dans [carte de visite NFC ou QR code](/fr/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">Ce que vous y gagnez</h2>
+<h2 class="landing-section-title">Ce que vous apporte une carte de visite numérique</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Entrez dans leur répertoire</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Présentez votre carte NFC ou montrez votre QR code. Votre carte de visite s'ouvre aussitôt et la personne en face peut vous enregistrer comme contact. Pas besoin d'app.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="Un téléphone s'approche d'une carte NFC.cool, la carte de visite s'ouvre, on appuie sur Enregistrer le contact et une coche verte apparaît" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="Des fiches de contact atterrissent sur une pile qui grandit ; celle du dessus s'envole vers un téléphone, qui ouvre la fiche de ce prospect" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Transformez vos rencontres en clients</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Les personnes que vous rencontrez peuvent vous envoyer leurs coordonnées en retour. Suivez chaque prospect de Nouveau à Converti, sans en laisser filer un seul.</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Impeccable sur tous les téléphones</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Votre logo, vos couleurs. Votre carte suit le mode clair ou sombre de la personne qui la consulte.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="Deux téléphones affichent la même carte de visite avec des bordures colorées, sur fond blanc en mode clair et sur fond noir en mode sombre" width="1000" height="800" loading="lazy"/></div></article>

@@ -51,9 +51,9 @@ A digital business card is your contact details as a link: name, job, phone, ema
 ## How to Make Your Digital Business Card
 
 <div class="page-cards-grid promo-steps">
-<article class="page-card"><span class="promo-step">1</span><h3>Get the app</h3><p>NFC.cool Business Card for iPhone or Android. It's free.</p></article>
-<article class="page-card"><span class="promo-step">2</span><h3>Fill in your card</h3><p>Or import a contact you already have. Add your logo and colours.</p></article>
-<article class="page-card"><span class="promo-step">3</span><h3>Share it</h3><p>Hold their phone to your NFC card or tag, show your QR code, send the link, or add it to Apple Wallet on iPhone or Google Wallet on Android.</p></article>
+<article class="page-card"><span class="promo-step">1</span><h3>Get the app</h3><p>NFC.cool Business Card is free on <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> and <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-en" target="_blank" rel="noopener nofollow sponsored">Android</a>.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Fill in your card</h3><p>Type in your details or import a contact you already have, then add your logo and colours.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Share your card</h3><p>Let people tap your NFC card, scan your QR code or open your link. You can also add it to Apple Wallet on iPhone or Google Wallet on Android.</p></article>
 </div>
 
 </section>

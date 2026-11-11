@@ -44,22 +44,37 @@ NFC.cool Business Cardなら、名刺をスマホの中に。個人にも、チ�
 
 デジタル名刺は、あなたの連絡先をまとめたリンクです。名前、肩書き、電話番号、メールアドレス、Webサイト、SNSのプロフィールが1ページにまとまります。紙の名刺を渡す代わりにNFCタッチやQRコードで共有すれば、相手はワンタップであなたを連絡先に保存できます。相手側にアプリは必要ありません。電話番号や肩書きが変わっても、カードを一度編集するだけで、これまでに渡したすべてのタグとQRコードに新しい情報が表示されます。
 
+</section>
+
+<section class="page-section">
+
 ## デジタル名刺の作り方
 
-1. iPhoneまたはAndroidにNFC.cool Business Cardをインストールします。無料です。
-2. カードに情報を入力するか、すでにある連絡先を読み込みます。ロゴや色も加えられます。
-3. 共有します。相手のスマホをあなたのNFCカードやタグにかざしてもらう、QRコードを見せる、リンクを送る、Apple Wallet（iPhone）やGoogle Wallet（Android）に追加する、のどれでも渡せます。
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>アプリを入手</h3><p>NFC.cool Business Cardは<a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ja&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a>でも<a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ja" target="_blank" rel="noopener nofollow sponsored">Android</a>でも無料です。</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>名刺を作成</h3><p>情報を入力するか、すでにある連絡先を読み込んで、ロゴや色を加えます。</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>名刺を共有</h3><p>相手がスマホをNFCカードにかざす、QRコードを読み取る、リンクを開く、のどれでも名刺が届きます。iPhoneならApple Wallet、AndroidならGoogle Walletにも追加できます。</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFCとQR、どちらがいい？
 
-両方使うのがおすすめです。いちばん速いのはNFCタッチで、相手がスマホをカードやタグに近づけるだけであなたの名刺が開きます。QRコードはカメラ付きのスマホならどれでも読み取れるので、NFC非対応の機種にも渡せます。2つの違いは[NFC名刺とQRコードの比較記事](/ja/blog/nfc-business-card-vs-qr-code/)で詳しく書いています。
+<div class="page-cards-grid">
+<article class="page-card"><h3>NFCタッチ</h3><p>いちばん速い方法です。相手がスマホをカードやタグに近づけるだけで、あなたの名刺が開きます。</p></article>
+<article class="page-card"><h3>QRコード</h3><p>カメラ付きのスマホならどれでも読み取れるので、NFC非対応の機種にも渡せます。</p></article>
+</div>
+
+両方使うのがおすすめです。2つの違いは[NFC名刺とQRコードの比較記事](/ja/blog/nfc-business-card-vs-qr-code/)で詳しく書いています。
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">この名刺でできること</h2>
+<h2 class="landing-section-title">デジタル名刺でできること</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>相手のスマホに、ちゃんと残る</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>NFCカードにスマホをかざしてもらうか、QRコードを見せるだけ。カードがすぐに開き、そのまま連絡先に保存してもらえます。相手にアプリは必要ありません。</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="スマートフォンをNFC.coolカードにかざすと名刺が開き、「連絡先を保存」を押すと緑のチェックマークが表示される様子" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="連絡先カードが積み重なっていき、一番上の1枚がスマートフォンに飛び込んで、そのリードの詳細が開く様子" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>会話を、次の商談へ</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>出会った相手は、自分の連絡先をあなたに送り返せます。リードごとに新規から成約まで追えるので、誰ひとり取りこぼしません。</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>どのスマホでも、きれいに見える</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>あなたのロゴに、あなたの色。カードは見る人のライトモードやダークモードに合わせて表示されます。</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="色付きの枠がある同じ名刺を表示した2台のスマートフォン。ライトモードでは白地に、ダークモードでは黒地に表示されている" width="1000" height="800" loading="lazy"/></div></article>

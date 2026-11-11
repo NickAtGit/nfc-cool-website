@@ -44,22 +44,37 @@ NFC.cool Business Card переносит твою визитку в телеф�
 
 Цифровая визитка превращает контакты в ссылку: имя, должность, телефон, почта, сайт и профили в соцсетях на одной странице. Бумажную карточку больше не протягиваешь: делишься визиткой касанием NFC или через QR-код, а собеседник сохраняет тебя в контакты одним нажатием. Приложение ему не нужно. Номер или должность поменялись? Исправляешь визитку один раз, и каждая метка и каждый QR-код, которые ты уже раздаёшь, показывают новые данные.
 
+</section>
+
+<section class="page-section">
+
 ## Как сделать цифровую визитку
 
-1. Установи NFC.cool Business Card на iPhone или Android. Приложение бесплатное.
-2. Заполни визитку или импортируй готовый контакт. Добавь логотип и свои цвета.
-3. Делись: приложи NFC-карту или метку к телефону собеседника, покажи QR-код, отправь ссылку или добавь визитку в Apple Wallet на iPhone или в Google Wallet на Android.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>Установи приложение</h3><p>NFC.cool Business Card бесплатно на <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ru&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> и <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-ru" target="_blank" rel="noopener nofollow sponsored">Android</a>.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Заполни визитку</h3><p>Впиши свои данные или импортируй готовый контакт, а потом добавь логотип и цвета.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Поделись визиткой</h3><p>Собеседник подносит телефон к NFC-карте, сканирует QR-код или открывает ссылку. А ещё визитку можно добавить в Apple Wallet на iPhone или в Google Wallet на Android.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC или QR?
 
-Используй оба. Касание NFC быстрее всего: собеседник подносит телефон к карте или метке, и визитка открывается. QR-код работает на любом телефоне с камерой, даже без NFC. Подробно я сравниваю их в статье [NFC-визитка или QR-код](/ru/blog/nfc-business-card-vs-qr-code/).
+<div class="page-cards-grid">
+<article class="page-card"><h3>Касание NFC</h3><p>Самый быстрый способ. Собеседник подносит телефон к карте или метке, и визитка открывается.</p></article>
+<article class="page-card"><h3>QR-код</h3><p>Работает на любом телефоне с камерой, даже без NFC.</p></article>
+</div>
+
+Используй оба. Подробно я сравниваю их в статье [NFC-визитка или QR-код](/ru/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">Чего можно добиться</h2>
+<h2 class="landing-section-title">Чего можно добиться с цифровой визиткой</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Останься в телефоне собеседника</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Приложи NFC-карту к телефону собеседника или покажи QR-код. Визитка откроется сразу, и тебя можно сохранить в контакты. Приложение ему не нужно.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="Телефон подносят к карте NFC.cool, открывается визитка, нажимают кнопку «Сохранить контакт», и появляется зелёная галочка" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="Карточки контактов падают в растущую стопку, верхняя влетает в телефон, и открываются данные этого лида" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Превращай собеседников в клиентов</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Новые знакомые могут прислать свои данные в ответ. Веди каждого лида от статуса «Новый» до «Стал клиентом», и никто не потеряется.</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Отлично выглядит на любом телефоне</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Свой логотип, свои цвета. Визитка сама подстраивается под светлую или тёмную тему на телефоне того, кто её открыл.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="Два телефона показывают одну и ту же визитку с цветными рамками: на белом фоне в светлой теме и на чёрном в тёмной" width="1000" height="800" loading="lazy"/></div></article>

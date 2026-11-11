@@ -44,22 +44,37 @@ O NFC.cool Business Card põe o seu cartão no telemóvel, para uso individual e
 
 Um cartão de visita digital são os seus contactos num link: nome, cargo, telefone, e-mail, site e perfis sociais numa só página. Em vez de entregar papel, partilha-o com um toque NFC ou um código QR, e a outra pessoa guarda-o nos contactos com um só toque. Não precisa de nenhuma app. Quando muda de número ou de cargo, edita o cartão uma vez, e todas as tags e códigos QR que já partilhou passam a mostrar os dados novos.
 
+</section>
+
+<section class="page-section">
+
 ## Como criar o seu cartão de visita digital
 
-1. Instale o NFC.cool Business Card no iPhone ou no Android. É grátis.
-2. Preencha o cartão ou importe um contacto que já tenha. Acrescente o logótipo e as cores da sua marca.
-3. Partilhe-o: peça à outra pessoa que aproxime o telemóvel do seu cartão ou tag NFC, mostre o código QR, envie o link ou adicione-o à Apple Wallet no iPhone ou à Google Wallet no Android.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>Instale a app</h3><p>O NFC.cool Business Card é gratuito no <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-pt&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> e no <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-pt" target="_blank" rel="noopener nofollow sponsored">Android</a>.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Preencha o cartão</h3><p>Introduza os seus dados ou importe um contacto que já tenha e acrescente o logótipo e as cores da sua marca.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Partilhe o cartão</h3><p>A outra pessoa aproxima o telemóvel do seu cartão NFC, lê o código QR ou abre o link. Também o pode adicionar à Apple Wallet no iPhone ou à Google Wallet no Android.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC ou QR?
 
-Use os dois. O toque NFC é o mais rápido: a outra pessoa aproxima o telemóvel do seu cartão ou tag e o cartão abre logo. Um código QR funciona em qualquer telemóvel com câmara, incluindo os que não têm NFC. Comparo os dois em [cartão de visita NFC vs código QR](/pt/blog/nfc-business-card-vs-qr-code/).
+<div class="page-cards-grid">
+<article class="page-card"><h3>Toque NFC</h3><p>O mais rápido. A outra pessoa aproxima o telemóvel do seu cartão ou tag e o cartão abre logo.</p></article>
+<article class="page-card"><h3>Código QR</h3><p>Funciona em qualquer telemóvel com câmara, incluindo os que não têm NFC.</p></article>
+</div>
+
+Use os dois. Comparo-os em [cartão de visita NFC vs código QR](/pt/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">O que pode conseguir</h2>
+<h2 class="landing-section-title">O que pode conseguir com um cartão de visita digital</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Entre nos contactos de quem conhece</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Encoste o seu cartão NFC ao telemóvel da pessoa ou mostre o seu código QR. O cartão abre de imediato e a pessoa pode guardá-lo como contacto. Não precisa de nenhuma app.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="Um telemóvel lê um cartão NFC.cool e abre o cartão de visita, alguém carrega em Guardar contacto e surge um visto verde" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="Cartões de contacto a cair numa pilha que vai crescendo; o de cima voa para um telemóvel, que abre os dados desse lead" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Transforme conversas em clientes</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>As pessoas que conhece podem enviar-lhe também os dados delas. Acompanhe cada lead de Novo a Convertido, para que nenhum lhe escape.</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Fique bem em qualquer telemóvel</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>O seu logótipo, as suas cores. O cartão segue o modo claro ou escuro de quem o vê.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="Dois telemóveis mostram o mesmo cartão de visita com contornos coloridos, sobre branco no modo claro e sobre preto no modo escuro" width="1000" height="800" loading="lazy"/></div></article>

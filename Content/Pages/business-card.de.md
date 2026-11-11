@@ -44,15 +44,30 @@ NFC.cool Business Card bringt deine Karte aufs Handy, für dich und dein Team. T
 
 Eine digitale Visitenkarte, das sind deine Kontaktdaten als Link: Name, Position, Telefon, E-Mail, Website und Social-Media-Profile auf einer Seite. Statt Papier zu überreichen, teilst du sie per NFC-Scan oder QR-Code, und dein Gegenüber speichert dich mit einem Tap in den Kontakten. Eine App braucht es dafür nicht. Ändern sich deine Nummer oder dein Job, bearbeitest du die Karte einmal, und jeder Tag und jeder QR-Code, den du geteilt hast, zeigt die neuen Daten.
 
+</section>
+
+<section class="page-section">
+
 ## So erstellst du deine digitale Visitenkarte
 
-1. Lade NFC.cool Business Card für iPhone oder Android. Die App ist kostenlos.
-2. Füll deine Karte aus oder importiere einen Kontakt, den du schon hast. Füge dein Logo und deine Farben hinzu.
-3. Teile sie: Lass dein Gegenüber das Handy an deine NFC-Karte oder deinen Tag halten, zeig deinen QR-Code, schick den Link oder leg die Karte auf dem iPhone in Apple Wallet oder auf Android in Google Wallet ab.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>Hol dir die App</h3><p>NFC.cool Business Card gibt es kostenlos für <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-de&mt=8" target="_blank" rel="noopener nofollow sponsored">iPhone</a> und <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-de" target="_blank" rel="noopener nofollow sponsored">Android</a>.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Füll deine Karte aus</h3><p>Gib deine Daten ein oder importiere einen Kontakt, den du schon hast, und füge dein Logo und deine Farben hinzu.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Teile deine Karte</h3><p>Dein Gegenüber hält das Handy an deine NFC-Karte, scannt deinen QR-Code oder öffnet deinen Link. Außerdem kannst du die Karte in Apple Wallet (iPhone) oder Google Wallet (Android) ablegen.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC oder QR?
 
-Nimm beides. NFC ist am schnellsten: Dein Gegenüber hält das Handy an deine Karte oder deinen Tag, und deine Visitenkarte öffnet sich. Ein QR-Code funktioniert auf jedem Handy mit Kamera, auch auf denen ohne NFC. Ich vergleiche beides in [NFC-Visitenkarte oder QR-Code](/de/blog/nfc-business-card-vs-qr-code/).
+<div class="page-cards-grid">
+<article class="page-card"><h3>NFC-Scan</h3><p>Am schnellsten. Dein Gegenüber hält das Handy an deine Karte oder deinen Tag, und deine Visitenkarte öffnet sich.</p></article>
+<article class="page-card"><h3>QR-Code</h3><p>Funktioniert auf jedem Handy mit Kamera, auch auf denen ohne NFC.</p></article>
+</div>
+
+Am besten nutzt du beides. Den ausführlichen Vergleich findest du in [NFC-Visitenkarte oder QR-Code](/de/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
