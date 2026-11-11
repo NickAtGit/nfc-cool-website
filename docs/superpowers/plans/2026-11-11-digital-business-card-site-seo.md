@@ -187,4 +187,9 @@ git commit -m "feat(site): links to the business card page say what it is, in ev
 
 ## Approved copy
 
-(Filled in by Task 1.)
+Picked by Nico on 2026-11-11:
+
+- Title: "Free Digital Business Card App with NFC & QR"
+- Description: "Make a free digital business card on your phone. Share it with an NFC tap, a QR code, App Clip or Apple Wallet, and see how many people save you."
+- H1: "Digital Business Card App"; under it: "NFC.cool Business Card puts your card on your phone, for individuals and teams. Share it with an NFC tap or a QR code, and see how many people save it."
+- Sections and headings: as drafted in Task 1 (What Is a Digital Business Card? / How to Make Your Digital Business Card / NFC or QR?; Who It's For -> A Digital Business Card for Every Job, Pricing -> Digital Business Card Pricing, Complete Feature Set -> Everything the Digital Business Card App Does, What teams add -> Digital Business Cards for Teams).
