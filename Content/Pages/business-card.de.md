@@ -1,7 +1,7 @@
 ---
-title: "Digitale Visitenkarte: App für iPhone und Android"
+title: "Digitale Visitenkarte kostenlos: App mit NFC & QR"
 slug: "business-card"
-description: "Eine digitale Visitenkarten-App für iPhone und Android. Teile deine Visitenkarte per NFC, QR-Code, App Clip oder Apple Wallet. Sieh, wie viele Leute deine Karte speichern, und nutze den Konferenzmodus auf Events."
+description: "Erstelle kostenlos deine digitale Visitenkarte auf dem Handy. Teile sie per NFC, QR-Code, App Clip oder Apple Wallet und sieh, wie viele dich speichern."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# Digitale Visitenkarte von NFC.cool
+# Digitale Visitenkarten-App
 
-Deine digitale Visitenkarte auf dem Handy, für dich und dein Team. Teile sie per NFC-Scan oder QR-Code und sieh, wie viele Leute sie speichern.
+NFC.cool Business Card bringt deine Karte aufs Handy, für dich und dein Team. Teile sie per NFC-Scan oder QR-Code und sieh, wie viele Leute sie speichern.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-de&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ Deine digitale Visitenkarte auf dem Handy, für dich und dein Team. Teile sie pe
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## Was ist eine digitale Visitenkarte?
+
+Eine digitale Visitenkarte sind deine Kontaktdaten als Link: Name, Position, Telefon, E-Mail, Website und Social-Media-Profile auf einer Seite. Statt Papier zu überreichen, teilst du sie per NFC-Scan oder QR-Code, und dein Gegenüber speichert dich mit einem Tap in den Kontakten. Eine App braucht es dafür nicht. Ändern sich deine Nummer oder dein Job, bearbeitest du die Karte einmal, und jeder Tag und jeder QR-Code, den du geteilt hast, zeigt die neuen Daten.
+
+## So erstellst du deine digitale Visitenkarte
+
+1. Lade NFC.cool Business Card für iPhone oder Android. Die App ist kostenlos.
+2. Füll deine Karte aus oder importiere einen Kontakt, den du schon hast. Füge dein Logo und deine Farben hinzu.
+3. Teile sie: Lass dein Gegenüber das Handy an deine NFC-Karte oder deinen Tag halten, zeig deinen QR-Code, schick den Link oder leg die Karte in Apple Wallet ab.
+
+## NFC oder QR?
+
+Nimm beides. NFC ist am schnellsten: Dein Gegenüber hält das Handy an deine Karte oder deinen Tag, und deine Visitenkarte öffnet sich. Ein QR-Code funktioniert auf jedem Handy mit Kamera, auch auf denen ohne NFC. Ich vergleiche beides in [NFC-Visitenkarte oder QR-Code](/de/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
@@ -63,7 +81,7 @@ Deine digitale Visitenkarte auf dem Handy, für dich und dein Team. Teile sie pe
 
 <section class="page-section">
 
-## Für wen die digitale Visitenkarte gedacht ist
+## Eine digitale Visitenkarte für jeden Beruf
 
 <div class="page-cards-grid is-carousel" data-label-prev="Zurück" data-label-next="Weiter">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="Ein Smartphone wird an einen NFC.cool-Tag gehalten, öffnet eine Makler-Karte und startet einen Anruf, dann wird ein Hausschlüsselbund übergeben" width="1000" height="800" loading="lazy"/><h3>Immobilien & Architektur</h3><p>Kunden halten ihr Handy an deinen Tag und rufen dich an. Kurz darauf übergibst du die Schlüssel.</p></article>
@@ -82,9 +100,9 @@ Deine digitale Visitenkarte auf dem Handy, für dich und dein Team. Teile sie pe
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="preise">
 
-## Preise
+## Preise für die digitale Visitenkarte
 
 Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, auch mit Free. Personal und Pro bringen Leads, Analysen und eine Karte ohne unseren Namen darauf, und du kaufst sie in der App. Teams starten im Web, 14 Tage kostenlos, und zahlen pro Person, jährlich oder monatlich. In Euro gilt beim Team-Preis dieselbe Zahl. [Sieh dir den Team-Preis und den Vergleich an](/de/business-card/teams/).
 
@@ -94,7 +112,7 @@ Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, 
 
 <section class="page-section">
 
-## Vollständiger Funktionsumfang
+## Alles, was die digitale Visitenkarten-App kann
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, 
 
 <section class="page-section" id="teams">
 
-## Was der Team-Plan zusätzlich bietet
+## Digitale Visitenkarten für Teams
 
 Eine persönliche Karte gehört einer Person. Im Team gehören die Karten der Firma, und dadurch können sie mehr. Lies mehr über [digitale Visitenkarten für Teams](/de/business-card/teams/).
 

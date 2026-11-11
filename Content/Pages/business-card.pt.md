@@ -1,7 +1,7 @@
 ---
-title: "App de criação de cartões de visita digitais para iPhone e Android"
+title: "Cartão de visita digital grátis: app NFC e QR"
 slug: "business-card"
-description: "Um criador de cartões de visita digitais para iPhone e Android. Partilhe por toque NFC, código QR, App Clip ou Apple Wallet. Veja quantas pessoas guardam o seu cartão e use o Modo Conferência em eventos ao vivo."
+description: "Crie um cartão de visita digital grátis no telemóvel. Partilhe-o com um toque NFC, um código QR, App Clip ou Apple Wallet e veja quantas pessoas o guardam."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# Cartão de visita digital NFC.cool
+# App de cartão de visita digital
 
-O seu cartão de visita digital no telemóvel, para si e para a sua equipa. Partilhe-o com um toque NFC ou um código QR e veja quantas pessoas o guardam.
+O NFC.cool Business Card põe o seu cartão no telemóvel, para uso individual e para equipas. Partilhe-o com um toque NFC ou um código QR e veja quantas pessoas o guardam.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-pt&mt=8" class="landing-store-button is-apple" aria-label="Transferir na App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ O seu cartão de visita digital no telemóvel, para si e para a sua equipa. Part
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## O que é um cartão de visita digital?
+
+Um cartão de visita digital são os seus contactos num link: nome, cargo, telefone, e-mail, site e perfis sociais numa só página. Em vez de entregar papel, partilha-o com um toque NFC ou um código QR, e a outra pessoa guarda-o nos contactos com um só toque. Não precisa de nenhuma app. Quando muda de número ou de cargo, edita o cartão uma vez, e todas as tags e códigos QR que já partilhou passam a mostrar os dados novos.
+
+## Como criar o seu cartão de visita digital
+
+1. Instale o NFC.cool Business Card no iPhone ou no Android. É grátis.
+2. Preencha o cartão ou importe um contacto que já tenha. Acrescente o logótipo e as cores da sua marca.
+3. Partilhe-o: peça à outra pessoa que aproxime o telemóvel do seu cartão ou tag NFC, mostre o código QR, envie o link ou adicione-o à Apple Wallet.
+
+## NFC ou QR?
+
+Use os dois. O toque NFC é o mais rápido: a outra pessoa aproxima o telemóvel do seu cartão ou tag e o cartão abre logo. Um código QR funciona em qualquer telemóvel com câmara, incluindo os que não têm NFC. Comparo os dois em [cartão de visita NFC vs código QR](/pt/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
@@ -63,7 +81,7 @@ O seu cartão de visita digital no telemóvel, para si e para a sua equipa. Part
 
 <section class="page-section">
 
-## Para quem é
+## Um cartão de visita digital para cada profissão
 
 <div class="page-cards-grid is-carousel" data-label-prev="Anterior" data-label-next="Seguinte">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="Um telemóvel lê uma tag NFC.cool, abre o cartão de um agente imobiliário e faz uma chamada; depois, é entregue um molho de chaves de casa" width="1000" height="800" loading="lazy"/><h3>Imobiliário e arquitetura</h3><p>Os clientes encostam o telemóvel à sua tag e ligam-lhe. Quando der por isso, está a entregar as chaves.</p></article>
@@ -82,9 +100,9 @@ O seu cartão de visita digital no telemóvel, para si e para a sua equipa. Part
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="preços">
 
-## Preços
+## Preços do cartão de visita digital
 
 Uma pessoa ou uma equipa inteira. Qualquer cartão pode ser guardado como contacto, mesmo no Free. O Personal e o Pro acrescentam leads, análises e um cartão sem o nosso nome, e compram-se na app. As equipas começam na web, com 14 dias grátis, e pagam por pessoa, por ano ou por mês. Em euros, o preço para equipas mantém o mesmo número. [Veja o preço para equipas e como se compara](/pt/business-card/teams/).
 
@@ -94,7 +112,7 @@ Uma pessoa ou uma equipa inteira. Qualquer cartão pode ser guardado como contac
 
 <section class="page-section">
 
-## Todas as funcionalidades
+## Tudo o que a app de cartão de visita digital faz
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ Uma pessoa ou uma equipa inteira. Qualquer cartão pode ser guardado como contac
 
 <section class="page-section" id="teams">
 
-## O que o Team acrescenta
+## Cartões de visita digitais para equipas
 
 Um cartão pessoal pertence a uma pessoa. Numa equipa, os cartões pertencem à empresa, e isso muda o que podem fazer. Saiba mais sobre os [cartões de visita digitais para equipas](/pt/business-card/teams/).
 

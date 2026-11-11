@@ -1,7 +1,7 @@
 ---
-title: "تطبيق إنشاء بطاقات العمل الرقمية لأجهزة iPhone وAndroid"
+title: "تطبيق مجاني لبطاقة العمل الرقمية عبر NFC وQR"
 slug: "business-card"
-description: "أداة لإنشاء بطاقات العمل الرقمية لأجهزة iPhone وAndroid. شاركها عبر لمسة NFC أو رمز QR أو AppClip أو Apple Wallet. تتبّع عدد من يحفظون بطاقتك، وشغّل وضع المؤتمرات في الفعاليات المباشرة."
+description: "أنشئ بطاقة عمل رقمية مجانية على هاتفك. شاركها بلمسة NFC أو برمز QR أو عبر App Clip أو Apple Wallet، واعرف كم شخصًا حفظك."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# بطاقة العمل الرقمية من NFC.cool
+# تطبيق بطاقة العمل الرقمية
 
-بطاقة عملك الرقمية على هاتفك، للأفراد والفرق. شاركها بلمسة NFC أو برمز QR، واعرف كم شخصًا حفظها.
+يضع NFC.cool Business Card بطاقتك على هاتفك، للأفراد والفرق. شاركها بلمسة NFC أو برمز QR، واعرف كم شخصًا حفظها.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ar&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## ما هي بطاقة العمل الرقمية؟
+
+بطاقة العمل الرقمية هي بيانات اتصالك في رابط واحد: الاسم والوظيفة والهاتف والبريد الإلكتروني والموقع الإلكتروني وحساباتك على مواقع التواصل، كلها في صفحة واحدة. فبدلًا من تسليم بطاقة ورقية، تشاركها بلمسة NFC أو برمز QR، فيحفظك الشخص الآخر في جهات اتصاله بلمسة واحدة، ولا يحتاج إلى أي تطبيق. وعندما يتغيّر رقمك أو وظيفتك، تعدّل البطاقة مرة واحدة، فتعرض كل الوسوم ورموز QR التي شاركتها البيانات الجديدة.
+
+## كيف تنشئ بطاقة العمل الرقمية الخاصة بك
+
+1. نزّل NFC.cool Business Card على iPhone أو Android، وهو مجاني.
+2. املأ بطاقتك، أو استورد جهة اتصال موجودة لديك. ثم أضف شعارك وألوانك.
+3. شاركها: اطلب من الشخص الآخر أن يقرّب هاتفه من بطاقة NFC أو الوسم الخاص بك، أو اعرض رمز QR، أو أرسل الرابط، أو أضفها إلى Apple Wallet.
+
+## NFC أم QR؟
+
+استخدم الاثنين. لمسة NFC هي الأسرع: يقرّب الشخص الآخر هاتفه من بطاقتك أو وسمك فتُفتح بطاقتك. أما رمز QR فيعمل على أي هاتف فيه كاميرا، حتى الهواتف التي لا تدعم NFC. أقارن بين الطريقتين في مقالي [بطاقة العمل NFC مقابل رمز QR](/ar/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
@@ -63,7 +81,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section">
 
-## لمن هذا التطبيق
+## بطاقة عمل رقمية لكل مهنة
 
 <div class="page-cards-grid is-carousel" data-label-prev="السابق" data-label-next="التالي">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="هاتف يلمس وسم NFC.cool فيفتح بطاقة وسيط عقاري ويجري مكالمة، ثم تُسلَّم مجموعة مفاتيح منزل" width="1000" height="800" loading="lazy"/><h3>العقارات والهندسة المعمارية</h3><p>يلمس عملاؤك وسمك بهواتفهم ويتصلون بك. وبعدها بقليل، تسلّمهم المفاتيح.</p></article>
@@ -82,9 +100,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="التسعير">
 
-## التسعير
+## أسعار بطاقة العمل الرقمية
 
 شخص واحد أو فريق كامل. يمكن حفظ كل بطاقة كجهة اتصال، حتى في Free. وتضيف Personal وPro العملاء المحتملين والتحليلات وبطاقة لا يظهر عليها اسمنا، وتُشترى داخل التطبيق. وتبدأ الفرق من الويب مجانًا لمدة ١٤ يومًا، وتدفع عن كل شخص سنويًا أو شهريًا. وباليورو، يبقى سعر الفريق بالرقم نفسه. [اطّلع على سعر الفريق وكيف يقارَن بغيره](/ar/business-card/teams/).
 
@@ -94,7 +112,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section">
 
-## مجموعة الميزات الكاملة
+## كل ما يفعله تطبيق بطاقة العمل الرقمية
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section" id="teams">
 
-## ما تضيفه خطة Team
+## بطاقات العمل الرقمية للفرق
 
 البطاقة الشخصية ملك لشخص واحد. أما في الفريق فالبطاقات ملك للشركة، وهذا يغيّر ما يمكنها فعله. اقرأ المزيد عن [بطاقات العمل الرقمية للفرق](/ar/business-card/teams/).
 

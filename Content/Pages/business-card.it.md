@@ -1,7 +1,7 @@
 ---
-title: "App per creare biglietti da visita digitali su iPhone e Android"
+title: "Biglietto da visita digitale gratis: app NFC e QR"
 slug: "business-card"
-description: "Un'app per creare biglietti da visita digitali su iPhone e Android. Condividili via NFC, codice QR, App Clip o Apple Wallet. Scopri quante persone li salvano e usa la Modalità Conferenza agli eventi."
+description: "Crea gratis un biglietto da visita digitale sul telefono. Condividilo via NFC, con un codice QR, App Clip o Apple Wallet e scopri quante persone ti salvano."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# Biglietto da visita digitale NFC.cool
+# App per biglietti da visita digitali
 
-Il tuo biglietto da visita digitale sul telefono, per te e per il tuo team. Condividilo via NFC o con un codice QR e scopri quante persone lo salvano.
+NFC.cool Business Card porta il tuo biglietto sul telefono, per privati e team. Condividilo via NFC o con un codice QR e scopri quante persone lo salvano.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-it&mt=8" class="landing-store-button is-apple" aria-label="Scarica dall'App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ Il tuo biglietto da visita digitale sul telefono, per te e per il tuo team. Cond
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## Cos'è un biglietto da visita digitale?
+
+Un biglietto da visita digitale raccoglie i tuoi contatti in un link: nome, ruolo, telefono, email, sito web e profili social in un'unica pagina. Invece di consegnare un cartoncino, lo condividi via NFC o con un codice QR, e l'altra persona ti salva in rubrica con un tocco. Non le serve nessuna app. Quando cambi numero o ruolo, modifichi il biglietto una volta sola e ogni tag e codice QR già condiviso mostra i dati aggiornati.
+
+## Come creare il biglietto da visita digitale
+
+1. Scarica NFC.cool Business Card su iPhone o Android. È gratis.
+2. Compila il biglietto oppure importa un contatto che hai già. Aggiungi logo e colori.
+3. Condividilo come preferisci: chi lo riceve avvicina il telefono al biglietto o al tag NFC, oppure mostri il codice QR, invii il link o lo aggiungi ad Apple Wallet.
+
+## NFC o QR?
+
+Usali entrambi. L'NFC è la via più veloce: basta avvicinare il telefono al biglietto o al tag e i tuoi dati si aprono subito. Un codice QR funziona su qualsiasi telefono con fotocamera, anche su quelli senza NFC. Li confronto in [biglietto da visita NFC o codice QR](/it/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
@@ -63,7 +81,7 @@ Il tuo biglietto da visita digitale sul telefono, per te e per il tuo team. Cond
 
 <section class="page-section">
 
-## Per chi è pensata l'app
+## Un biglietto da visita digitale per ogni professione
 
 <div class="page-cards-grid is-carousel" data-label-prev="Precedente" data-label-next="Successivo">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="Uno smartphone si avvicina a un tag NFC.cool, apre il biglietto di un agente immobiliare e fa partire una chiamata, poi viene consegnato un mazzo di chiavi di casa" width="1000" height="800" loading="lazy"/><h3>Immobiliare e architettura</h3><p>I clienti avvicinano il telefono al tuo tag e ti chiamano. Un attimo dopo stai già consegnando le chiavi.</p></article>
@@ -82,9 +100,9 @@ Il tuo biglietto da visita digitale sul telefono, per te e per il tuo team. Cond
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="prezzi">
 
-## Prezzi
+## Prezzi del biglietto da visita digitale
 
 Una persona o un team intero. Ogni biglietto si può salvare come contatto, anche con Free. Personal e Pro aggiungono i lead, le statistiche e un biglietto senza il nostro nome, e si acquistano nell'app. I team partono dal web, gratis per 14 giorni, e pagano a persona, all'anno o al mese. In euro la cifra del piano Team è la stessa. [Scopri il prezzo del piano Team e il confronto con le altre app](/it/business-card/teams/).
 
@@ -94,7 +112,7 @@ Una persona o un team intero. Ogni biglietto si può salvare come contatto, anch
 
 <section class="page-section">
 
-## Tutte le funzioni
+## Tutto quello che fa l'app per biglietti da visita digitali
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ Una persona o un team intero. Ogni biglietto si può salvare come contatto, anch
 
 <section class="page-section" id="teams">
 
-## Cosa aggiunge il piano Team
+## Biglietti da visita digitali per i team
 
 Un biglietto personale appartiene a una persona sola. In un team i biglietti appartengono all'azienda, e questo cambia quello che possono fare. Scopri di più sui [biglietti da visita digitali per i team](/it/business-card/teams/).
 

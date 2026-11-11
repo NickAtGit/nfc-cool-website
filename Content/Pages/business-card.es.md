@@ -1,7 +1,7 @@
 ---
-title: "App para crear tarjetas de visita digitales en iPhone y Android"
+title: "Tarjeta de visita digital gratis: app NFC y QR"
 slug: "business-card"
-description: "Un creador de tarjetas de visita digitales para iPhone y Android. Comparte con un toque NFC, código QR, AppClip o Apple Wallet. Mira cuántas personas guardan tu tarjeta y usa el Modo Conferencia en eventos en directo."
+description: "Crea gratis tu tarjeta de visita digital en el móvil. Compártela con un toque NFC, un código QR, App Clip o Apple Wallet, y mira cuántos te guardan."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# Tarjeta de visita digital NFC.cool
+# App de tarjetas de visita digitales
 
-Tu tarjeta de visita digital en el móvil, para ti y para tu equipo. Compártela con un toque NFC o un código QR, y mira cuántas personas la guardan.
+NFC.cool Business Card pone tu tarjeta en el móvil, para ti y para tu equipo. Compártela con un toque NFC o un código QR, y mira cuántas personas la guardan.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-es&mt=8" class="landing-store-button is-apple" aria-label="Descargar en la App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ Tu tarjeta de visita digital en el móvil, para ti y para tu equipo. Compártela
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## ¿Qué es una tarjeta de visita digital?
+
+Una tarjeta de visita digital son tus datos de contacto en un enlace: nombre, cargo, teléfono, correo, web y redes sociales en una sola página. En lugar de entregar un papel, la compartes con un toque NFC o un código QR, y la otra persona te guarda en sus contactos al momento. No necesita ninguna app. Cuando cambias de número o de puesto, editas la tarjeta una vez, y cada etiqueta y cada código QR que hayas compartido muestra los datos nuevos.
+
+## Cómo crear tu tarjeta de visita digital
+
+1. Descarga NFC.cool Business Card para iPhone o Android. Es gratis.
+2. Rellena tu tarjeta o importa un contacto que ya tengas. Añade tu logo y tus colores.
+3. Compártela: la otra persona acerca su móvil a tu tarjeta o etiqueta NFC, o bien enseña tu código QR, envía el enlace o añádela a Apple Wallet.
+
+## ¿NFC o QR?
+
+Usa los dos. Un toque NFC es lo más rápido: la otra persona acerca el móvil a tu tarjeta o etiqueta y se abre tu tarjeta. Un código QR funciona en cualquier móvil con cámara, también en los que no tienen NFC. Comparo los dos en [tarjeta de visita NFC vs código QR](/es/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
@@ -63,7 +81,7 @@ Tu tarjeta de visita digital en el móvil, para ti y para tu equipo. Compártela
 
 <section class="page-section">
 
-## Para quién es
+## Una tarjeta de visita digital para cada profesión
 
 <div class="page-cards-grid is-carousel" data-label-prev="Anterior" data-label-next="Siguiente">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="Un móvil toca una etiqueta NFC.cool, abre la tarjeta de un agente inmobiliario y hace una llamada; después se entrega un juego de llaves" width="1000" height="800" loading="lazy"/><h3>Sector inmobiliario y arquitectura</h3><p>Tus clientes acercan el móvil a tu etiqueta y te llaman. Y lo siguiente es entregarles las llaves.</p></article>
@@ -82,9 +100,9 @@ Tu tarjeta de visita digital en el móvil, para ti y para tu equipo. Compártela
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="precios">
 
-## Precios
+## Precios de la tarjeta de visita digital
 
 Una persona o un equipo entero. Cualquier tarjeta se puede guardar como contacto, también en Free. Personal y Pro añaden leads, estadísticas y una tarjeta sin nuestro nombre, y se compran en la app. Los equipos empiezan en la web, gratis durante 14 días, y pagan por persona, al año o al mes. En euros, el precio para equipos es la misma cifra. [Mira el precio para equipos y cómo se compara](/es/business-card/teams/).
 
@@ -94,7 +112,7 @@ Una persona o un equipo entero. Cualquier tarjeta se puede guardar como contacto
 
 <section class="page-section">
 
-## Todas las funciones
+## Todo lo que hace la app de tarjetas de visita digitales
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ Una persona o un equipo entero. Cualquier tarjeta se puede guardar como contacto
 
 <section class="page-section" id="teams">
 
-## Qué añade el plan Team
+## Tarjetas de visita digitales para equipos
 
 Una tarjeta personal pertenece a una persona. En un equipo, las tarjetas pertenecen a la empresa, y eso cambia lo que pueden hacer. Más información sobre las [tarjetas de visita digitales para equipos](/es/business-card/teams/).
 

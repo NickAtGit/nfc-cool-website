@@ -1,7 +1,7 @@
 ---
-title: "iPhone ve Android için Dijital Kartvizit Uygulaması"
+title: "Ücretsiz Dijital Kartvizit Uygulaması: NFC ve QR"
 slug: "business-card"
-description: "iPhone ve Android için dijital kartvizit uygulaması. NFC okutarak, QR kodla, App Clip ya da Apple Wallet ile paylaş. Kartını kaç kişinin kaydettiğini gör, etkinliklerde Konferans Modu'nu aç."
+description: "Telefonunda ücretsiz dijital kartvizit oluştur. NFC okutarak, QR kodla, App Clip ya da Apple Wallet ile paylaş ve seni kaç kişinin kaydettiğini gör."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Dijital Kartvizit
+# Dijital Kartvizit Uygulaması
 
-Dijital kartvizitin telefonunda, ister tek başına kullan ister ekibinle. NFC okutarak ya da QR kodla paylaş, kaç kişinin kaydettiğini gör.
+NFC.cool Business Card kartvizitini telefonuna taşır, ister tek başına kullan ister ekibinle. NFC okutarak ya da QR kodla paylaş, kaç kişinin kaydettiğini gör.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-tr&mt=8" class="landing-store-button is-apple" aria-label="App Store'dan indir" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ Dijital kartvizitin telefonunda, ister tek başına kullan ister ekibinle. NFC o
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## Dijital kartvizit nedir?
+
+Dijital kartvizit, iletişim bilgilerini tek bağlantıda toplar: adın, unvanın, telefonun, e-postan, web siten ve sosyal medya profillerin tek sayfada. Kâğıt kartvizit vermek yerine NFC okutarak ya da QR kodla paylaşırsın, karşındaki de seni tek dokunuşla rehberine kaydeder. Bunun için uygulamaya ihtiyacı yok. Numaran ya da işin değişince kartı bir kez düzenlersin, paylaştığın her tag ve QR kod yeni bilgileri gösterir.
+
+## Dijital kartvizitini nasıl oluşturursun?
+
+1. iPhone ya da Android için NFC.cool Business Card'ı indir. Ücretsiz.
+2. Kartını doldur ya da rehberindeki bir kişiyi içe aktar. Logonu ve renklerini ekle.
+3. Paylaş: NFC kartını ya da tag'ini karşındakinin telefonuna yaklaştır, QR kodunu göster, bağlantıyı gönder ya da kartı Apple Wallet'a ekle.
+
+## NFC mi, QR mı?
+
+İkisini de kullan. En hızlısı NFC: karşındaki telefonunu kartına ya da tag'ine yaklaştırır ve kartvizitin açılır. QR kod ise kamerası olan her telefonda çalışır, NFC'si olmayanlarda da. İkisini [NFC kartvizit ile QR kod karşılaştırmamda](/tr/blog/nfc-business-card-vs-qr-code/) ayrıntılı anlattım.
 
 </section>
 
@@ -63,7 +81,7 @@ Dijital kartvizitin telefonunda, ister tek başına kullan ister ekibinle. NFC o
 
 <section class="page-section">
 
-## Kimler için
+## Her iş için dijital kartvizit
 
 <div class="page-cards-grid is-carousel" data-label-prev="Önceki" data-label-next="Sonraki">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="Telefon NFC.cool tag'e yaklaşıyor, emlakçı kartını açıp arama yapıyor, ardından ev anahtarları teslim ediliyor" width="1000" height="800" loading="lazy"/><h3>Emlak ve mimarlık</h3><p>Müşterin telefonunu tag'ine yaklaştırıp seni arar. Bir bakmışsın, anahtarları teslim ediyorsun.</p></article>
@@ -82,9 +100,9 @@ Dijital kartvizitin telefonunda, ister tek başına kullan ister ekibinle. NFC o
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="fiyatlandırma">
 
-## Fiyatlandırma
+## Dijital kartvizit fiyatları
 
 Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. Uygulamadan alınan Personal ve Pro, müşteri adayı toplama, istatistikler ve üzerinde adımızın geçmediği kart ekler. Ekipler web'den başlar: 14 gün ücretsiz, sonra kişi başına yıllık ya da aylık ödeme. Ekip fiyatı euro olarak da aynı rakamdır. [Ekip fiyatını ve karşılaştırmasını gör](/tr/business-card/teams/).
 
@@ -94,7 +112,7 @@ Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. 
 
 <section class="page-section">
 
-## Özelliklerin tamamı
+## Dijital kartvizit uygulamasının tüm özellikleri
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. 
 
 <section class="page-section" id="teams">
 
-## Ekiplere özel neler var
+## Ekipler için dijital kartvizit
 
 Kişisel kart tek kişinindir. Ekipte ise kartlar şirketindir ve bu, kartların yapabileceklerini değiştirir. [Ekipler için dijital kartvizit](/tr/business-card/teams/) hakkında daha fazlasını oku.
 

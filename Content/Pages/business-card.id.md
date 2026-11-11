@@ -1,7 +1,7 @@
 ---
-title: "Aplikasi pembuat kartu nama digital untuk iPhone & Android"
+title: "Aplikasi kartu nama digital gratis, NFC & QR"
 slug: "business-card"
-description: "Pembuat kartu nama digital untuk iPhone dan Android. Bagikan melalui ketukan NFC, kode QR, AppClip, atau Apple Wallet. Lihat berapa banyak orang yang menyimpan kartu Anda, aktifkan Mode Konferensi di acara langsung."
+description: "Buat kartu nama digital gratis di ponsel. Bagikan lewat ketukan NFC, kode QR, App Clip, atau Apple Wallet, lalu lihat berapa banyak orang yang menyimpannya."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# Kartu nama digital NFC.cool
+# Aplikasi kartu nama digital
 
-Kartu nama digital Anda di ponsel, untuk perorangan dan tim. Bagikan dengan ketukan NFC atau kode QR, lalu lihat berapa banyak orang yang menyimpannya.
+NFC.cool Business Card menghadirkan kartu Anda di ponsel, untuk perorangan dan tim. Bagikan dengan ketukan NFC atau kode QR, lalu lihat berapa banyak orang yang menyimpannya.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-id&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ Kartu nama digital Anda di ponsel, untuk perorangan dan tim. Bagikan dengan ketu
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## Apa itu kartu nama digital?
+
+Kartu nama digital adalah data kontak Anda dalam satu tautan: nama, jabatan, nomor telepon, email, situs web, dan profil media sosial di satu halaman. Alih-alih memberikan kartu kertas, Anda membagikannya dengan ketukan NFC atau kode QR, lalu orang lain menyimpan kontak Anda dengan sekali ketuk. Mereka tidak perlu memasang aplikasi apa pun. Saat nomor atau jabatan Anda berubah, cukup edit kartunya sekali, dan setiap tag serta kode QR yang sudah Anda bagikan akan menampilkan data terbaru.
+
+## Cara membuat kartu nama digital Anda
+
+1. Unduh NFC.cool Business Card untuk iPhone atau Android. Gratis.
+2. Isi kartu Anda, atau impor kontak yang sudah ada. Tambahkan logo dan warna Anda.
+3. Bagikan: minta mereka mendekatkan ponselnya ke kartu atau tag NFC Anda, tunjukkan kode QR, kirim tautannya, atau tambahkan ke Apple Wallet.
+
+## NFC atau QR?
+
+Gunakan keduanya. Ketukan NFC adalah cara tercepat: mereka cukup mendekatkan ponsel ke kartu atau tag Anda, dan kartu Anda langsung terbuka. Kode QR bisa dipindai oleh ponsel apa pun yang punya kamera, termasuk yang tidak mendukung NFC. Saya membandingkan keduanya di [kartu nama NFC vs kode QR](/id/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
@@ -63,7 +81,7 @@ Kartu nama digital Anda di ponsel, untuk perorangan dan tim. Bagikan dengan ketu
 
 <section class="page-section">
 
-## Untuk siapa
+## Kartu nama digital untuk setiap profesi
 
 <div class="page-cards-grid is-carousel" data-label-prev="Sebelumnya" data-label-next="Berikutnya">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="Ponsel mengetuk tag NFC.cool, membuka kartu agen properti dan melakukan panggilan, lalu seikat kunci rumah diserahkan" width="1000" height="800" loading="lazy"/><h3>Properti & Arsitektur</h3><p>Klien mengetuk tag Anda lalu menelepon. Tak lama kemudian, Anda sudah menyerahkan kuncinya.</p></article>
@@ -82,9 +100,9 @@ Kartu nama digital Anda di ponsel, untuk perorangan dan tim. Bagikan dengan ketu
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="harga">
 
-## Harga
+## Harga kartu nama digital
 
 Satu orang atau seluruh tim. Setiap kartu bisa disimpan sebagai kontak, termasuk di Free. Personal dan Pro, yang dibeli di aplikasi, menambahkan prospek, analitik, dan kartu tanpa nama kami. Tim mulai di web, gratis selama 14 hari, lalu membayar per orang, tahunan atau bulanan. Dalam euro, harga tim memakai angka yang sama. [Lihat harga tim dan perbandingannya](/id/business-card/teams/).
 
@@ -94,7 +112,7 @@ Satu orang atau seluruh tim. Setiap kartu bisa disimpan sebagai kontak, termasuk
 
 <section class="page-section">
 
-## Fitur lengkap
+## Semua yang bisa dilakukan aplikasi kartu nama digital
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ Satu orang atau seluruh tim. Setiap kartu bisa disimpan sebagai kontak, termasuk
 
 <section class="page-section" id="teams">
 
-## Fitur tambahan untuk tim
+## Kartu nama digital untuk tim
 
 Kartu pribadi milik satu orang. Dalam tim, kartu menjadi milik perusahaan, dan itu mengubah apa yang bisa dilakukan kartu tersebut. Baca selengkapnya tentang [kartu nama digital untuk tim](/id/business-card/teams/).
 

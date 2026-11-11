@@ -1,7 +1,7 @@
 ---
-title: "Застосунок цифрової візитівки для iPhone та Android"
+title: "Безкоштовна цифрова візитівка з NFC і QR-кодом"
 slug: "business-card"
-description: "Цифрова візитівка для iPhone та Android. Ділися нею дотиком NFC, через QR-код, App Clip або Apple Wallet. Дивись, скільки людей її зберегли, і вмикай режим конференції на живих заходах."
+description: "Створи безкоштовну цифрову візитівку в телефоні. Ділися нею дотиком NFC, через QR-код, App Clip або Apple Wallet і дивись, скільки людей тебе зберегли."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# Цифрова візитівка NFC.cool
+# Застосунок цифрової візитівки
 
-Твоя цифрова візитівка в телефоні, для однієї людини чи цілої команди. Ділися нею дотиком NFC або через QR-код і дивись, скільки людей її зберегли.
+NFC.cool Business Card переносить твою візитівку в телефон, для однієї людини чи цілої команди. Ділися нею дотиком NFC або через QR-код і дивись, скільки людей її зберегли.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-uk&mt=8" class="landing-store-button is-apple" aria-label="Завантажити в App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## Що таке цифрова візитівка?
+
+Цифрова візитівка збирає твої контакти в одне посилання: ім'я, посада, телефон, пошта, сайт і профілі в соцмережах на одній сторінці. Паперову картку більше не простягаєш: ділишся візитівкою дотиком NFC або через QR-код, а співрозмовник зберігає тебе в контакти одним натисканням. Застосунок йому не потрібен. Змінився номер чи посада? Редагуєш візитівку один раз, і кожна мітка й кожен QR-код, якими ти вже поділився, показують нові дані.
+
+## Як створити цифрову візитівку
+
+1. Встанови NFC.cool Business Card на iPhone або Android. Застосунок безкоштовний.
+2. Заповни візитівку або імпортуй контакт, який уже маєш. Додай логотип і свої кольори.
+3. Ділися: піднеси NFC-картку чи мітку до телефону співрозмовника, покажи QR-код, надішли посилання або додай візитівку в Apple Wallet.
+
+## NFC чи QR?
+
+Використовуй обидва. Дотик NFC найшвидший: співрозмовник підносить телефон до твоєї картки чи мітки, і візитівка відкривається. QR-код працює на будь-якому телефоні з камерою, навіть без NFC. Детально я порівнюю їх у статті [NFC-візитівка чи QR-код](/uk/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
@@ -63,7 +81,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section">
 
-## Для кого це
+## Цифрова візитівка для будь-якої професії
 
 <div class="page-cards-grid is-carousel" data-label-prev="Назад" data-label-next="Далі">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="Телефон підносять до мітки NFC.cool, відкривається візитівка рієлтора, іде дзвінок, а потім передають в'язку ключів від будинку" width="1000" height="800" loading="lazy"/><h3>Нерухомість і архітектура</h3><p>Клієнт підносить телефон до мітки й телефонує тобі. Не встигнеш озирнутися, а вже передаєш ключі.</p></article>
@@ -82,9 +100,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="ціни">
 
-## Ціни
+## Ціни на цифрову візитівку
 
 Одна людина або ціла команда. Будь-яку візитівку можна зберегти як контакт, навіть на Free. Personal і Pro додають збір лідів, аналітику й візитівку без згадки про нас та купуються в застосунку. Команди починають у вебі, 14 днів безкоштовно, і платять за кожну людину, щороку або щомісяця. В євро для команди цифри ті самі. [Подивись ціну для команд і порівняння з іншими](/uk/business-card/teams/).
 
@@ -94,7 +112,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section">
 
-## Повний набір можливостей
+## Усе, що вміє застосунок цифрової візитівки
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section" id="teams">
 
-## Що отримують команди
+## Цифрові візитівки для команд
 
 Особиста візитівка належить одній людині. У команді візитівки належать компанії, і можливості в них інші. Докладніше про [цифрові візитівки для команд](/uk/business-card/teams/).
 

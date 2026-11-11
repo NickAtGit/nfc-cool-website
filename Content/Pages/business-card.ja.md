@@ -1,7 +1,7 @@
 ---
-title: "iPhone・Android対応のデジタル名刺作成アプリ"
+title: "NFC・QR対応の無料デジタル名刺アプリ"
 slug: "business-card"
-description: "iPhoneとAndroid対応のデジタル名刺作成アプリ。NFCタッチ、QRコード、App Clip、Apple Walletで共有可能。何人がカードを保存したかがわかり、ライブイベントではカンファレンスモードを利用できます。"
+description: "スマホで無料のデジタル名刺を作成。NFCタッチ、QRコード、App Clip、Apple Walletで渡せて、何人があなたを保存したかもわかります。"
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.coolデジタル名刺
+# デジタル名刺アプリ
 
-デジタル名刺をスマホの中に。個人にも、チームにも。NFCタッチやQRコードで渡せて、何人が保存したかもわかります。
+NFC.cool Business Cardなら、名刺をスマホの中に。個人にも、チームにも。NFCタッチやQRコードで渡せて、何人が保存したかもわかります。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ja&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## デジタル名刺とは？
+
+デジタル名刺は、あなたの連絡先をまとめたリンクです。名前、肩書き、電話番号、メールアドレス、Webサイト、SNSのプロフィールが1ページにまとまります。紙の名刺を渡す代わりにNFCタッチやQRコードで共有すれば、相手はワンタップであなたを連絡先に保存できます。相手側にアプリは必要ありません。電話番号や肩書きが変わっても、カードを一度編集するだけで、これまでに渡したすべてのタグとQRコードに新しい情報が表示されます。
+
+## デジタル名刺の作り方
+
+1. iPhoneまたはAndroidにNFC.cool Business Cardをインストールします。無料です。
+2. カードに情報を入力するか、すでにある連絡先を読み込みます。ロゴや色も加えられます。
+3. 共有します。相手のスマホをあなたのNFCカードやタグにかざしてもらう、QRコードを見せる、リンクを送る、Apple Walletに追加する、のどれでも渡せます。
+
+## NFCとQR、どちらがいい？
+
+両方使うのがおすすめです。いちばん速いのはNFCタッチで、相手がスマホをカードやタグに近づけるだけであなたの名刺が開きます。QRコードはカメラ付きのスマホならどれでも読み取れるので、NFC非対応の機種にも渡せます。2つの違いは[NFC名刺とQRコードの比較記事](/ja/blog/nfc-business-card-vs-qr-code/)で詳しく書いています。
 
 </section>
 
@@ -63,7 +81,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section">
 
-## こんな方に
+## あらゆるお仕事のためのデジタル名刺
 
 <div class="page-cards-grid is-carousel" data-label-prev="前へ" data-label-next="次へ">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="スマートフォンをNFC.coolタグにかざして不動産業者のカードを開いて電話をかけ、そのあと家の鍵が手渡される様子" width="1000" height="800" loading="lazy"/><h3>不動産・建築</h3><p>お客様がタグにスマホをかざして、そのままお電話。次は鍵をお渡しする番です。</p></article>
@@ -82,9 +100,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="料金プラン">
 
-## 料金プラン
+## デジタル名刺の料金プラン
 
 個人でもチームでも。Freeも含め、どのカードも連絡先として保存できます。PersonalとProはアプリ内で購入でき、リード、アナリティクス、当社の名前が入らないカードが加わります。チームはWebから14日間無料で始められ、料金は1人あたりの年払いまたは月払いです。ユーロ建てでも、チーム料金の数字は同じです。[チームの料金と他社との比較を見る](/ja/business-card/teams/)。
 
@@ -94,7 +112,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section">
 
-## 機能一覧
+## デジタル名刺アプリでできること
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section" id="teams">
 
-## チームでできること
+## チーム向けのデジタル名刺
 
 個人のカードは1人のものです。チームのカードは会社のものなので、できることが変わります。[チーム向けデジタル名刺](/ja/business-card/teams/)について、詳しくはこちらをご覧ください。
 

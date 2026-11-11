@@ -1,7 +1,7 @@
 ---
-title: "iPhone 与 Android 电子名片制作 App"
+title: "免费电子名片 App，支持 NFC 和二维码"
 slug: "business-card"
-description: "一款适用于 iPhone 和 Android 的电子名片制作 App。可通过 NFC 轻触、二维码、App Clip 或 Apple Wallet 分享。看到有多少人保存了你的名片，并在现场活动中启用会议模式。"
+description: "在手机上免费制作电子名片。通过 NFC 轻触、二维码、App Clip 或 Apple Wallet 分享，还能看到有多少人保存了你。"
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool 电子名片
+# 电子名片 App
 
-手机里的电子名片，个人和团队都能用。NFC 轻轻一触或出示二维码就能分享，还能看到有多少人保存了你的名片。
+NFC.cool Business Card 把你的名片装进手机，个人和团队都能用。NFC 轻轻一触或出示二维码就能分享，还能看到有多少人保存了你的名片。
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-zh&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## 什么是电子名片？
+
+电子名片就是一个装着你联系方式的链接：姓名、职位、电话、邮箱、网站和社交账号，都放在同一个页面上。不用再递纸质名片，只要 NFC 轻轻一触或出示二维码，对方点一下就能把你存进通讯录，而且不需要安装任何 App。换了号码或职位，只需改一次名片，你分享出去的每个标签和二维码都会显示最新信息。
+
+## 如何制作电子名片
+
+1. 在 iPhone 或 Android 上下载 NFC.cool Business Card，免费。
+2. 填写名片信息，或导入已有的联系人，再加上你的徽标和配色。
+3. 分享出去：让对方用手机轻触你的 NFC 名片或标签、出示二维码、发送链接，或者添加到 Apple Wallet。
+
+## NFC 还是二维码？
+
+两个都用。NFC 轻触最快：对方把手机靠近你的名片或标签，你的名片就会打开。二维码适用于任何带摄像头的手机，包括不支持 NFC 的机型。两者的详细对比，我写在了[NFC 电子名片与二维码对比](/zh/blog/nfc-business-card-vs-qr-code/)这篇文章里。
 
 </section>
 
@@ -63,7 +81,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section">
 
-## 适合谁用
+## 适合各行各业的电子名片
 
 <div class="page-cards-grid is-carousel" data-label-prev="上一个" data-label-next="下一个">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="手机轻触 NFC.cool 标签，打开房产经纪人的名片并拨出电话，随后一串房门钥匙被递了过去" width="1000" height="800" loading="lazy"/><h3>房地产与建筑</h3><p>客户用手机轻触你的标签，就能给你打电话。转眼间，你就在交钥匙了。</p></article>
@@ -82,9 +100,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="价格">
 
-## 价格
+## 电子名片价格
 
 适合个人，也适合整个团队。每张名片都可以保存为联系人，Free 版也不例外。Personal 和 Pro 增加了线索功能、数据分析和不带我们名称的名片，在 App 内购买。团队版在网页端开通，可免费使用 14 天，之后按人数付费，可选按年或按月。以欧元计价时，团队价格的数字相同。[查看团队价格及其对比](/zh/business-card/teams/)。
 
@@ -94,7 +112,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section">
 
-## 完整功能一览
+## 电子名片 App 的全部功能
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section" id="teams">
 
-## 团队版新增了什么
+## 团队电子名片
 
 个人名片属于一个人。而在团队中，名片属于公司，它们能做的事也因此不同。进一步了解[团队电子名片](/zh/business-card/teams/)。
 

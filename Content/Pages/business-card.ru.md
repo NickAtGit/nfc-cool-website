@@ -1,7 +1,7 @@
 ---
-title: "Приложение для цифровой визитки на iPhone и Android"
+title: "Бесплатная цифровая визитка с NFC и QR-кодом"
 slug: "business-card"
-description: "Конструктор цифровой визитки для iPhone и Android. Делись ею касанием NFC, через QR-код, App Clip или Apple Wallet. Смотри, сколько человек сохранили визитку, и включай режим конференции на мероприятиях."
+description: "Создай бесплатную цифровую визитку в телефоне. Делись ею касанием NFC, через QR-код, App Clip или Apple Wallet и смотри, сколько человек тебя сохранили."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# Цифровая визитка NFC.cool
+# Приложение для цифровой визитки
 
-Цифровая визитка прямо в телефоне, для тебя и для всей команды. Делись ею касанием NFC или через QR-код и смотри, сколько человек её сохранили.
+NFC.cool Business Card переносит твою визитку в телефон, для тебя и для всей команды. Делись ею касанием NFC или через QR-код и смотри, сколько человек её сохранили.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ru&mt=8" class="landing-store-button is-apple" aria-label="Скачать в App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## Что такое цифровая визитка?
+
+Цифровая визитка превращает контакты в ссылку: имя, должность, телефон, почта, сайт и профили в соцсетях на одной странице. Бумажную карточку больше не протягиваешь: делишься визиткой касанием NFC или через QR-код, а собеседник сохраняет тебя в контакты одним нажатием. Приложение ему не нужно. Сменил номер или должность? Исправляешь визитку один раз, и каждая метка и каждый QR-код, которыми уже поделился, показывают новые данные.
+
+## Как сделать цифровую визитку
+
+1. Установи NFC.cool Business Card на iPhone или Android. Приложение бесплатное.
+2. Заполни визитку или импортируй готовый контакт. Добавь логотип и свои цвета.
+3. Делись: приложи NFC-карту или метку к телефону собеседника, покажи QR-код, отправь ссылку или добавь визитку в Apple Wallet.
+
+## NFC или QR?
+
+Используй оба. Касание NFC быстрее всего: собеседник подносит телефон к карте или метке, и визитка открывается. QR-код работает на любом телефоне с камерой, даже без NFC. Подробно я сравниваю их в статье [NFC-визитка или QR-код](/ru/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
@@ -63,7 +81,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section">
 
-## Кому подойдёт
+## Цифровая визитка для любой профессии
 
 <div class="page-cards-grid is-carousel" data-label-prev="Назад" data-label-next="Вперёд">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="Телефон подносят к метке NFC.cool, открывается визитка риелтора, идёт звонок, а затем передают связку ключей от дома" width="1000" height="800" loading="lazy"/><h3>Недвижимость и архитектура</h3><p>Клиент подносит телефон к метке и звонит. А дальше ты уже вручаешь ключи.</p></article>
@@ -82,9 +100,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="тарифы">
 
-## Тарифы
+## Цены на цифровую визитку
 
 Один человек или целая команда. Любую визитку можно сохранить как контакт, даже на Free. Personal и Pro добавляют сбор лидов, аналитику и визитку без нашего названия и покупаются в приложении. Команды начинают на сайте, 14 дней бесплатно, и платят за каждого человека, за год или помесячно. В евро для команды цифры те же. [Цена для команд и сравнение с другими сервисами](/ru/business-card/teams/).
 
@@ -94,7 +112,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section">
 
-## Полный список возможностей
+## Всё, что умеет приложение для цифровой визитки
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <section class="page-section" id="teams">
 
-## Что получают команды
+## Цифровые визитки для команд
 
 Личная визитка принадлежит одному человеку. В команде визитки принадлежат компании, и возможности у них другие. Подробнее о [цифровых визитках для команд](/ru/business-card/teams/).
 

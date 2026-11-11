@@ -1,7 +1,7 @@
 ---
-title: "Application de carte de visite numérique pour iPhone et Android"
+title: "Carte de visite numérique gratuite avec NFC et QR"
 slug: "business-card"
-description: "Une application pour créer votre carte de visite numérique sur iPhone et Android. Partagez-la d'un simple geste : NFC, QR code, App Clip ou Apple Wallet. Voyez combien de personnes enregistrent votre carte et activez le mode Conférence lors de vos événements."
+description: "Créez gratuitement votre carte de visite numérique sur mobile. Partagez-la par NFC, QR code, App Clip ou Apple Wallet, et voyez combien vous enregistrent."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# Carte de visite numérique NFC.cool
+# Application de carte de visite numérique
 
-Votre carte de visite numérique sur votre téléphone, pour les particuliers comme pour les équipes. Partagez-la d'un simple contact NFC ou par QR code, et voyez combien de personnes l'enregistrent.
+NFC.cool Business Card met votre carte sur votre téléphone, pour les particuliers comme pour les équipes. Partagez-la d'un simple contact NFC ou par QR code, et voyez combien de personnes l'enregistrent.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-fr&mt=8" class="landing-store-button is-apple" aria-label="Télécharger dans l'App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ Votre carte de visite numérique sur votre téléphone, pour les particuliers co
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## Qu'est-ce qu'une carte de visite numérique ?
+
+Une carte de visite numérique, ce sont vos coordonnées réunies dans un lien : nom, poste, téléphone, e-mail, site web et réseaux sociaux sur une seule page. Au lieu de tendre un bout de papier, vous la partagez d'un simple contact NFC ou par QR code, et votre interlocuteur vous ajoute à ses contacts d'un seul geste. Il n'a besoin d'aucune app. Quand votre numéro ou votre poste change, vous modifiez la carte une seule fois, et chaque tag et chaque QR code que vous avez partagé affiche vos nouvelles coordonnées.
+
+## Comment créer votre carte de visite numérique
+
+1. Téléchargez NFC.cool Business Card sur iPhone ou Android. C'est gratuit.
+2. Remplissez votre carte, ou importez un contact que vous avez déjà. Ajoutez votre logo et vos couleurs.
+3. Partagez-la : votre interlocuteur approche son téléphone de votre carte ou de votre tag NFC, ou bien montrez votre QR code, envoyez le lien ou ajoutez la carte à Apple Wallet.
+
+## NFC ou QR ?
+
+Utilisez les deux. Le NFC est le plus rapide : votre interlocuteur approche son téléphone de votre carte ou de votre tag, et votre carte s'ouvre. Un QR code fonctionne sur n'importe quel téléphone doté d'un appareil photo, y compris ceux qui n'ont pas de NFC. Je compare les deux dans [carte de visite NFC ou QR code](/fr/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
@@ -63,7 +81,7 @@ Votre carte de visite numérique sur votre téléphone, pour les particuliers co
 
 <section class="page-section">
 
-## Pour qui ?
+## Une carte de visite numérique pour chaque métier
 
 <div class="page-cards-grid is-carousel" data-label-prev="Précédent" data-label-next="Suivant">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="Un téléphone s'approche d'un tag NFC.cool, ouvre la carte d'un agent immobilier et lance un appel, puis un trousseau de clés de maison est remis" width="1000" height="800" loading="lazy"/><h3>Immobilier et architecture</h3><p>Vos clients approchent leur téléphone de votre tag et vous appellent. La suite, c'est la remise des clés.</p></article>
@@ -82,9 +100,9 @@ Votre carte de visite numérique sur votre téléphone, pour les particuliers co
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="tarifs">
 
-## Tarifs
+## Tarifs de la carte de visite numérique
 
 Une personne ou toute une équipe. Chaque carte peut être enregistrée comme contact, Free compris. Personal et Pro ajoutent les prospects, les statistiques et une carte sans notre nom, et s'achètent dans l'app. Les équipes démarrent sur le web, gratuitement pendant 14 jours, puis paient par personne, à l'année ou au mois. En euros, le tarif équipe affiche le même chiffre. [Voir le tarif équipe et la comparaison avec les autres offres](/fr/business-card/teams/).
 
@@ -94,7 +112,7 @@ Une personne ou toute une équipe. Chaque carte peut être enregistrée comme co
 
 <section class="page-section">
 
-## Toutes les fonctionnalités
+## Tout ce que fait l'application de carte de visite numérique
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ Une personne ou toute une équipe. Chaque carte peut être enregistrée comme co
 
 <section class="page-section" id="teams">
 
-## Ce que Team apporte en plus
+## Des cartes de visite numériques pour les équipes
 
 Une carte personnelle appartient à une seule personne. Dans une équipe, les cartes appartiennent à l'entreprise, et cela change ce qu'elles permettent de faire. En savoir plus sur les [cartes de visite numériques pour les équipes](/fr/business-card/teams/).
 
