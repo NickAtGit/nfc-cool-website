@@ -76,8 +76,9 @@ jobs:
         run: |
           curl -fsSL "https://github.com/ImageMagick/ImageMagick/releases/download/${IM_VERSION}/ImageMagick-${IM_VERSION}-gcc-x86_64.AppImage" -o /tmp/magick.AppImage
           chmod +x /tmp/magick.AppImage
-          (cd /opt && sudo /tmp/magick.AppImage --appimage-extract >/dev/null)
-          printf '#!/bin/sh\nexec /opt/squashfs-root/AppRun "$@"\n' | sudo tee /usr/local/bin/magick >/dev/null
+          mkdir -p "$HOME/imagemagick"
+          (cd "$HOME/imagemagick" && /tmp/magick.AppImage --appimage-extract >/dev/null)
+          printf '#!/bin/sh\nexec %s/imagemagick/squashfs-root/AppRun "$@"\n' "$HOME" | sudo tee /usr/local/bin/magick >/dev/null
           sudo chmod +x /usr/local/bin/magick
           magick -version
           magick -list format | grep -iE "^ *WEBP"
