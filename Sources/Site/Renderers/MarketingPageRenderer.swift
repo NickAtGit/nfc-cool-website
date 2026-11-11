@@ -72,11 +72,12 @@ struct MarketingPageRenderer: Renderer {
          )
       case "business-card":
          // Read from the page's own FAQ, so every language gets its visible text.
-         jsonLD = StructuredData.staticPageGraph(
+         jsonLD = StructuredData.businessCardPageGraph(
             baseURL: context.config.baseURL,
             homePath: context.router.homePath(),
             pageTitle: page.title,
             pagePath: pagePath,
+            rating: AppRatings.load(projectDirectory: context.projectDirectory).businessCardIOS,
             faq: Self.faqItems(inHTML: page.htmlContent)
          )
       case "business-card/teams":

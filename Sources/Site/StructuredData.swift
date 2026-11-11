@@ -332,10 +332,34 @@ enum StructuredData {
       """
    }
 
+   /// The Business Card app's plans, as `Content/Data/Pricing/business-card.yaml` prices them:
+   /// Free, then Personal and Pro bought in the app by the year. Team has its own node on
+   /// `/business-card/teams/` (`teamPageGraph`).
+   private static let businessCardOffers = [("Free", "0", nil), ("Personal", "19.99", "P1Y"), ("Pro", "49.99", "P1Y")].map { name, price, period in
+      let spec = period.map { #","priceSpecification":{"@type":"UnitPriceSpecification","price":"\#(price)","priceCurrency":"USD","billingDuration":"\#($0)"}"# } ?? ""
+      return #"{"@type":"Offer","name":"\#(name)","price":"\#(price)","priceCurrency":"USD"\#(spec)}"#
+   }.joined(separator: ",")
+
+   /// Graph for `/business-card/`: the Home → page BreadcrumbList, the Business Card app with its
+   /// plans and rating (`softwareApplicationBusinessCard`, the same node the home and reviews
+   /// graphs carry), and the page's own FAQ when it has one.
+   static func businessCardPageGraph(baseURL: String, homePath: String, pageTitle: String, pagePath: String, rating: AppRating?, faq: [FAQItem]?) -> String {
+      let breadcrumb = """
+      {"@type":"BreadcrumbList","itemListElement":[\(self.listItem(position: 1, name: "Home", url: "\(baseURL)\(homePath)")),\(self.listItem(position: 2, name: pageTitle, url: "\(baseURL)\(pagePath)"))]}
+      """
+      var nodes = [breadcrumb, self.softwareApplicationBusinessCard(baseURL: baseURL, rating: rating)]
+      if let faq, !faq.isEmpty {
+         nodes.append(self.faqPage(faq))
+      }
+      return """
+      {"@context":"https://schema.org","@graph":[\(nodes.joined(separator: ","))]}
+      """
+   }
+
    static func softwareApplicationBusinessCard(baseURL: String, rating: AppRating?, reviews: [AppReview] = []) -> String {
       let ratingFragment = rating.map { ",\(self.aggregateRating($0))" } ?? ""
       return """
-      {"@type":"SoftwareApplication","name":"NFC.cool Business Card","operatingSystem":"iOS, ANDROID","applicationCategory":"BusinessApplication","image":"\(baseURL)/assets/images/BusinessCard/AppIcon-512.webp","url":"https://apps.apple.com/app/id6502926572","downloadUrl":["https://apps.apple.com/app/id6502926572","https://play.google.com/store/apps/details?id=cool.nfc.businesscard"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"\(baseURL)/#organization"}\(ratingFragment)\(self.reviewsFragment(reviews))}
+      {"@type":"SoftwareApplication","@id":"\(baseURL)/business-card/#app","name":"NFC.cool Digital Business Card","operatingSystem":"iOS, ANDROID","applicationCategory":"BusinessApplication","image":"\(baseURL)/assets/images/BusinessCard/AppIcon-512.webp","url":"https://apps.apple.com/app/id6502926572","downloadUrl":["https://apps.apple.com/app/id6502926572","https://play.google.com/store/apps/details?id=cool.nfc.businesscard"],"offers":[\(self.businessCardOffers)],"publisher":{"@id":"\(baseURL)/#organization"}\(ratingFragment)\(self.reviewsFragment(reviews))}
       """
    }
 
