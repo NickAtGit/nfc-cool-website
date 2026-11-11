@@ -44,22 +44,37 @@ NFC.cool Business Card puts your card on your phone, for individuals and teams. 
 
 A digital business card is your contact details as a link: name, job, phone, email, website and social profiles on one page. Instead of handing over paper, you share it with an NFC tap or a QR code, and the other person saves you to their contacts in one tap. They don't need an app. When your number or job changes, you edit the card once, and every tag and QR code you've shared shows the new details.
 
+</section>
+
+<section class="page-section">
+
 ## How to Make Your Digital Business Card
 
-1. Get NFC.cool Business Card for iPhone or Android. It's free.
-2. Fill in your card, or import a contact you already have. Add your logo and colours.
-3. Share it: hold their phone to your NFC card or tag, show your QR code, send the link, or add it to Apple Wallet on iPhone or Google Wallet on Android.
+<div class="page-cards-grid promo-steps">
+<article class="page-card"><span class="promo-step">1</span><h3>Get the app</h3><p>NFC.cool Business Card for iPhone or Android. It's free.</p></article>
+<article class="page-card"><span class="promo-step">2</span><h3>Fill in your card</h3><p>Or import a contact you already have. Add your logo and colours.</p></article>
+<article class="page-card"><span class="promo-step">3</span><h3>Share it</h3><p>Hold their phone to your NFC card or tag, show your QR code, send the link, or add it to Apple Wallet on iPhone or Google Wallet on Android.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
 
 ## NFC or QR?
 
-Use both. An NFC tap is the fastest: they hold their phone near your card or tag and your card opens. A QR code works on any phone with a camera, also the ones without NFC. I compare the two in [NFC business card vs QR code](/blog/nfc-business-card-vs-qr-code/).
+<div class="page-cards-grid">
+<article class="page-card"><h3>NFC tap</h3><p>The fastest. They hold their phone near your card or tag, and your card opens.</p></article>
+<article class="page-card"><h3>QR code</h3><p>Works on any phone with a camera, also the ones without NFC.</p></article>
+</div>
+
+Use both. I compare the two in [NFC business card vs QR code](/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
 <div class="feature-page">
 <section class="feature-subsections">
 <div class="landing-container">
-<h2 class="landing-section-title">What You Can Achieve</h2>
+<h2 class="landing-section-title">What You Can Achieve With a Digital Business Card</h2>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Get Saved in Their Phone</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Tap your NFC card or show your QR code. Your card opens right away and they can save you as a contact. They don't need an app.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/share.webp" data-scene="bc/share" data-poster-frame="187" alt="A phone taps an NFC.cool card, opens the business card, Save Contact is pressed and a green check appears" width="1000" height="800" loading="lazy"/></div></article>
 <article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" data-scene="bc/leads" data-poster-frame="223" alt="Contact cards landing on a growing pile; the top one flies into a phone, which opens that lead's details" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Turn Conversations Into Customers</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>People you meet can send their details back. Follow each lead from New to Converted, so nobody slips through.</p></div></div></article>
 <article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Look Right on Every Phone</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-free"><span class="platform-pill-label">Free</span></span><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Personal</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Pro</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Team</span></span></span><div class="feature-subsection-body"><p>Your logo, your colours. Your card follows each viewer's light or dark mode.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/appearance.webp" data-scene="bc/appearance" data-poster-frame="112" alt="Two phones showing the same business card with coloured borders, on white in light mode and on black in dark mode" width="1000" height="800" loading="lazy"/></div></article>
