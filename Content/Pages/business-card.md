@@ -1,7 +1,7 @@
 ---
-title: "Digital Business Card Maker App for iPhone & Android"
+title: "Free Digital Business Card App with NFC & QR"
 slug: "business-card"
-description: "A digital Business Card maker for iPhone and Android. Share via NFC tap, QR code, AppClip or Apple Wallet. See how many people save your card, run Conference Mode at live events."
+description: "Make a free digital business card on your phone. Share it with an NFC tap, a QR code, App Clip or Apple Wallet, and see how many people save you."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -11,9 +11,9 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-# NFC.cool Digital Business Card
+# Digital Business Card App
 
-Your digital business card on your phone, for individuals and teams. Share it with an NFC tap or a QR code, and see how many people save it.
+NFC.cool Business Card puts your card on your phone, for individuals and teams. Share it with an NFC tap or a QR code, and see how many people save it.
 
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-en&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
@@ -33,6 +33,24 @@ Your digital business card on your phone, for individuals and teams. Share it wi
 </div>
 
 </div>
+
+</section>
+
+<section class="page-section">
+
+## What Is a Digital Business Card?
+
+A digital business card is your contact details as a link: name, job, phone, email, website and social profiles on one page. Instead of handing over paper, you share it with an NFC tap or a QR code, and the other person saves you to their contacts in one tap. They don't need an app. When your number or job changes, you edit the card once, and every tag and QR code you've shared shows the new details.
+
+## How to Make Your Digital Business Card
+
+1. Get NFC.cool Business Card for iPhone or Android. It's free.
+2. Fill in your card, or import a contact you already have. Add your logo and colours.
+3. Share it: hold their phone to your NFC card or tag, show your QR code, send the link, or add it to Apple Wallet.
+
+## NFC or QR?
+
+Use both. An NFC tap is the fastest: they hold their phone near your card or tag and your card opens. A QR code works on any phone with a camera, also the ones without NFC. I compare the two in [NFC business card vs QR code](/blog/nfc-business-card-vs-qr-code/).
 
 </section>
 
@@ -63,7 +81,7 @@ Your digital business card on your phone, for individuals and teams. Share it wi
 
 <section class="page-section">
 
-## Who It's For
+## A Digital Business Card for Every Job
 
 <div class="page-cards-grid is-carousel" data-label-prev="Previous" data-label-next="Next">
 <article class="page-card"><img src="/scenes/bc/p/realtors.webp" data-scene="bc/realtors" data-poster-frame="319" alt="A phone taps an NFC.cool tag, opens a realtor card and makes a call, then a set of house keys is handed over" width="1000" height="800" loading="lazy"/><h3>Real Estate & Architecture</h3><p>Clients tap your tag and call you. Next thing, you are handing over the keys.</p></article>
@@ -82,9 +100,9 @@ Your digital business card on your phone, for individuals and teams. Share it wi
 
 </section>
 
-<section class="page-section">
+<section class="page-section" id="pricing">
 
-## Pricing
+## Digital Business Card Pricing
 
 One person or a whole team. Every card can be saved as a contact, Free included. Personal and Pro add leads, analytics and a card without our name on it, and are bought in the app. Teams start on the web, free for 14 days, and pay per person, yearly or monthly. In euros, the team price is the same number. [See the team price and how it compares](/business-card/teams/).
 
@@ -94,7 +112,7 @@ One person or a whole team. Every card can be saved as a contact, Free included.
 
 <section class="page-section">
 
-## Complete Feature Set
+## Everything the Digital Business Card App Does
 
 <div class="page-cards-grid">
 
@@ -176,7 +194,7 @@ One person or a whole team. Every card can be saved as a contact, Free included.
 
 <section class="page-section" id="teams">
 
-## What teams add
+## Digital Business Cards for Teams
 
 A personal card belongs to one person. On a team, the cards belong to the company, and that changes what they can do. Read more about [digital business cards for teams](/business-card/teams/).
 
