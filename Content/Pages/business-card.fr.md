@@ -48,7 +48,7 @@ Une carte de visite numérique, ce sont vos coordonnées réunies dans un lien :
 
 1. Téléchargez NFC.cool Business Card sur iPhone ou Android. C'est gratuit.
 2. Remplissez votre carte, ou importez un contact que vous avez déjà. Ajoutez votre logo et vos couleurs.
-3. Partagez-la : laissez votre interlocuteur approcher son téléphone de votre carte ou de votre tag NFC, montrez votre QR code, envoyez le lien ou ajoutez la carte à Apple Wallet ou Google Wallet.
+3. Partagez-la : laissez votre interlocuteur approcher son téléphone de votre carte ou de votre tag NFC, montrez votre QR code, envoyez le lien ou ajoutez la carte à Apple Wallet sur iPhone ou à Google Wallet sur Android.
 
 ## NFC ou QR ?
 

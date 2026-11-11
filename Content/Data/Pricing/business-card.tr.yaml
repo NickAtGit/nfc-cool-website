@@ -7,7 +7,7 @@ rows:
     values: ["**$0**", "**Yılda $19,99**", "**Yılda $49,99**","Kişi başı yılda $50 ya da ayda $5"]
   - label: "Kart"
     values: ["1", "1", "10", "Kişi başı 10'a kadar"]
-  - label: "Paylaşım, Apple Wallet, Konferans Modu QR kodu, PIN, veri dışa aktarma"
+  - label: "Paylaşım, Apple Wallet ve Google Wallet, Konferans Modu QR kodu, PIN, veri dışa aktarma"
     values: ["✓", "✓", "✓", "✓"]
   - label: "Kartında \"Kişiyi kaydet\" düğmesi"
     values: ["✓", "✓", "✓", "✓"]

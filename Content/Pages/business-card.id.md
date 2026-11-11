@@ -48,7 +48,7 @@ Kartu nama digital adalah data kontak Anda dalam satu tautan: nama, jabatan, nom
 
 1. Unduh NFC.cool Business Card untuk iPhone atau Android. Gratis.
 2. Isi kartu Anda, atau impor kontak yang sudah ada. Tambahkan logo dan warna Anda.
-3. Bagikan: minta mereka mendekatkan ponselnya ke kartu atau tag NFC Anda, tunjukkan kode QR, kirim tautannya, atau tambahkan ke Apple Wallet atau Google Wallet.
+3. Bagikan: minta mereka mendekatkan ponselnya ke kartu atau tag NFC Anda, tunjukkan kode QR, kirim tautannya, atau tambahkan ke Apple Wallet di iPhone atau Google Wallet di Android.
 
 ## NFC atau QR?
 

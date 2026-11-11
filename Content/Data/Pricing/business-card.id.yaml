@@ -7,7 +7,7 @@ rows:
     values: ["**$0**", "**$19,99 per tahun**", "**$49,99 per tahun**", "$50 per orang per tahun, atau $5 per bulan"]
   - label: "Kartu"
     values: ["1", "1", "10", "Hingga 10 per orang"]
-  - label: "Berbagi, Apple Wallet, QR Mode Konferensi, PIN, ekspor data"
+  - label: "Berbagi, Apple Wallet dan Google Wallet, QR Mode Konferensi, PIN, ekspor data"
     values: ["✓", "✓", "✓", "✓"]
   - label: "\"Simpan kontak\" di kartu Anda"
     values: ["✓", "✓", "✓", "✓"]

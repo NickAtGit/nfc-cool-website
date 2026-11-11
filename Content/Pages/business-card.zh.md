@@ -48,7 +48,7 @@ NFC.cool Business Card 把你的名片装进手机，个人和团队都能用。
 
 1. 在 iPhone 或 Android 上下载 NFC.cool Business Card，免费。
 2. 填写名片信息，或导入已有的联系人，再加上你的徽标和配色。
-3. 分享出去：让对方用手机轻触你的 NFC 名片或标签、出示二维码、发送链接，或者添加到 Apple Wallet 或 Google Wallet。
+3. 分享出去：让对方用手机轻触你的 NFC 名片或标签、出示二维码、发送链接，或者添加到 Apple Wallet（iPhone）或 Google Wallet（Android）。
 
 ## NFC 还是二维码？
 

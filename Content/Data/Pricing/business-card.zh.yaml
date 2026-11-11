@@ -7,7 +7,7 @@ rows:
     values: ["**$0**", "**每年 $19.99**", "**每年 $49.99**", "每人每年 $50，或每月 $5"]
   - label: "名片数量"
     values: ["1", "1", "10", "每人最多 10 张"]
-  - label: "分享、Apple Wallet、会议模式二维码、PIN 码、数据导出"
+  - label: "分享、Apple Wallet 和 Google Wallet、会议模式二维码、PIN 码、数据导出"
     values: ["✓", "✓", "✓", "✓"]
   - label: "名片上的“保存联系人”"
     values: ["✓", "✓", "✓", "✓"]

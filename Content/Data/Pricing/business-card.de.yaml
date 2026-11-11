@@ -7,7 +7,7 @@ rows:
     values: ["**0 $**", "**19,99 $ im Jahr**", "**49,99 $ im Jahr**", "50 $ pro Person im Jahr oder 5 $ im Monat"]
   - label: "Karten"
     values: ["1", "1", "10", "Bis zu 10 pro Person"]
-  - label: "Teilen, Apple Wallet, Konferenzmodus-QR, PIN, Datenexport"
+  - label: "Teilen, Apple Wallet und Google Wallet, Konferenzmodus-QR, PIN, Datenexport"
     values: ["✓", "✓", "✓", "✓"]
   - label: "„Kontakt speichern“ auf deiner Karte"
     values: ["✓", "✓", "✓", "✓"]

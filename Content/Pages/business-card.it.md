@@ -48,7 +48,7 @@ Un biglietto da visita digitale raccoglie i tuoi contatti in un link: nome, ruol
 
 1. Scarica NFC.cool Business Card su iPhone o Android. È gratis.
 2. Compila il biglietto oppure importa un contatto che hai già. Aggiungi logo e colori.
-3. Condividilo come preferisci: chi lo riceve avvicina il telefono al biglietto o al tag NFC, oppure mostri il codice QR, invii il link o lo aggiungi ad Apple Wallet o Google Wallet.
+3. Condividilo come preferisci: chi lo riceve avvicina il telefono al biglietto o al tag NFC, oppure mostri il codice QR, invii il link o lo aggiungi ad Apple Wallet su iPhone o a Google Wallet su Android.
 
 ## NFC o QR?
 

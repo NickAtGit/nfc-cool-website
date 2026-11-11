@@ -7,7 +7,7 @@ rows:
     values: ["**$0**", "**$19,99 all'anno**", "**$49,99 all'anno**", "$50 a persona all'anno, o $5 al mese"]
   - label: "Biglietti"
     values: ["1", "1", "10", "Fino a 10 a persona"]
-  - label: "Condivisione, Apple Wallet, codice QR della Modalità Conferenza, PIN, esportazione dei dati"
+  - label: "Condivisione, Apple Wallet e Google Wallet, codice QR della Modalità Conferenza, PIN, esportazione dei dati"
     values: ["✓", "✓", "✓", "✓"]
   - label: "\"Salva contatto\" sul biglietto"
     values: ["✓", "✓", "✓", "✓"]

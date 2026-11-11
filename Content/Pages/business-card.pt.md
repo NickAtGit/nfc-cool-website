@@ -48,7 +48,7 @@ Um cartão de visita digital são os seus contactos num link: nome, cargo, telef
 
 1. Instale o NFC.cool Business Card no iPhone ou no Android. É grátis.
 2. Preencha o cartão ou importe um contacto que já tenha. Acrescente o logótipo e as cores da sua marca.
-3. Partilhe-o: peça à outra pessoa que aproxime o telemóvel do seu cartão ou tag NFC, mostre o código QR, envie o link ou adicione-o à Apple Wallet ou à Google Wallet.
+3. Partilhe-o: peça à outra pessoa que aproxime o telemóvel do seu cartão ou tag NFC, mostre o código QR, envie o link ou adicione-o à Apple Wallet no iPhone ou à Google Wallet no Android.
 
 ## NFC ou QR?
 

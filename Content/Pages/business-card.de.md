@@ -48,7 +48,7 @@ Eine digitale Visitenkarte, das sind deine Kontaktdaten als Link: Name, Position
 
 1. Lade NFC.cool Business Card für iPhone oder Android. Die App ist kostenlos.
 2. Füll deine Karte aus oder importiere einen Kontakt, den du schon hast. Füge dein Logo und deine Farben hinzu.
-3. Teile sie: Lass dein Gegenüber das Handy an deine NFC-Karte oder deinen Tag halten, zeig deinen QR-Code, schick den Link oder leg die Karte in Apple Wallet oder Google Wallet ab.
+3. Teile sie: Lass dein Gegenüber das Handy an deine NFC-Karte oder deinen Tag halten, zeig deinen QR-Code, schick den Link oder leg die Karte auf dem iPhone in Apple Wallet oder auf Android in Google Wallet ab.
 
 ## NFC oder QR?
 
