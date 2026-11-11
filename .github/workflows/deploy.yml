@@ -33,10 +33,23 @@ jobs:
       - name: Configure git for private dependencies
         run: git config --global url."https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/".insteadOf "https://github.com/"
 
+      # Installs the toolchain straight from swift.org. swift-actions/setup-swift@v2
+      # refreshes its signing keys from keyserver.ubuntu.com and fails the whole
+      # deploy when that server is down (2026-11-11); here the keys come from
+      # swift.org over HTTPS and the download is still signature-checked.
       - name: Setup Swift
-        uses: swift-actions/setup-swift@v2
-        with:
-          swift-version: "6.2"
+        env:
+          SWIFT_VERSION: "6.2.1"
+        run: |
+          base="swift-${SWIFT_VERSION}-RELEASE-ubuntu24.04"
+          url="https://download.swift.org/swift-${SWIFT_VERSION}-release/ubuntu2404/swift-${SWIFT_VERSION}-RELEASE/${base}.tar.gz"
+          curl -fsSL "$url" -o /tmp/swift.tar.gz
+          curl -fsSL "$url.sig" -o /tmp/swift.tar.gz.sig
+          curl -fsSL https://www.swift.org/keys/all-keys.asc | gpg --import -
+          gpg --verify /tmp/swift.tar.gz.sig /tmp/swift.tar.gz
+          sudo tar -xzf /tmp/swift.tar.gz -C /opt
+          echo "/opt/${base}/usr/bin" >> "$GITHUB_PATH"
+          "/opt/${base}/usr/bin/swift" --version
 
       # Cache the Swift build products (compiled objects + resolved deps) keyed on
       # Package.resolved + Sources. Exact key = no recompile; the restore-keys fall
