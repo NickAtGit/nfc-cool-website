@@ -192,4 +192,4 @@ ogDescription: "اسمك وبريدك الإلكتروني ورقم هاتفك -
 
 اختر بحكمة.
 
-*مستعدّ لتجربة بطاقة عمل رقمية تضع الخصوصية أولًا؟ [اطّلع على ما يقدّمه NFC.cool Business Card](/ar/business-card/)، ثم [نزّله لِـiPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-ar&mt=8) أو [احصل عليه على Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-ar). واجهة التطبيق وApp Clip متوفّرتان بِـ٣٥ لغة.*
+*مستعدّ لتجربة بطاقة عمل رقمية تضع الخصوصية أولًا؟ [اطّلع على ما يقدّمه تطبيق بطاقة العمل الرقمية من NFC.cool](/ar/business-card/)، ثم [نزّله لِـiPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-ar&mt=8) أو [احصل عليه على Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-ar). واجهة التطبيق وApp Clip متوفّرتان بِـ٣٥ لغة.*

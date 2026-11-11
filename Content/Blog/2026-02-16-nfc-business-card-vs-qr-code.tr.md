@@ -206,7 +206,7 @@ Onu ayıran birkaç şey:
 - **Açık NFC.** Standart her NFC tag'iyle çalışıyor; NFC.cool kapalı donanım satmıyor.
 - **Uygun fiyat.** Tek kartlı Free plan, yılda $19,99 Personal, yılda $49,99 Pro (10 kart) ve kişi başı yılda $50 ya da ayda $5 [Team](/tr/business-card/teams/) (kişi başı 10 karta kadar). Ekip fiyatı euro olarak da aynı rakamdır.
 
-**[NFC.cool Business Card'ı](/tr/business-card/) dene:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-tr&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-tr)
+**[Ücretsiz NFC dijital kartvizit uygulamasını](/tr/business-card/) dene:** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-tr&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-tr)
 
 ---
 

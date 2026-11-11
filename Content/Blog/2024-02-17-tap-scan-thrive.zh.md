@@ -67,7 +67,7 @@ URL 之外最常见的选择。编码一张完整的 vCard（姓名、电话、�
 
 二维码电子名片开箱即用，靠的正是这套机制。这也是为什么一个 vCard 二维码无需任何专门 App 就能在每一部手机上用：vCard 是一项有着 30 年历史的标准，系统早就认识它。
 
-相比 NFC.cool 电子名片的方案，它有一个取舍：vCard 二维码无法更新。一旦印出来，里面的联系人数据就被冻结了。如果你想要一个日后还能编辑的“单一可信来源”，那就改为编码一个指向你在线名片页面的 URL，这正是 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-zh&mt=8) 所做的事，也是我们在正经社交场合更推荐它、而非原始 vCard 二维码的原因。你可以[在这里看看 NFC.cool Business Card 能做什么](/zh/business-card/)。
+相比 NFC.cool 电子名片的方案，它有一个取舍：vCard 二维码无法更新。一旦印出来，里面的联系人数据就被冻结了。如果你想要一个日后还能编辑的“单一可信来源”，那就改为编码一个指向你在线名片页面的 URL，这正是 [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-zh&mt=8) 所做的事，也是我们在正经社交场合更推荐它、而非原始 vCard 二维码的原因。你可以[在这里看看 NFC.cool 电子名片 App 能做什么](/zh/business-card/)。
 
 ---
 

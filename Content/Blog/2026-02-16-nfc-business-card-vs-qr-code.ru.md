@@ -206,7 +206,7 @@ QR-коды универсальнее для **широкой и гибкой �
 - **Открытый NFC.** Работает с любой стандартной меткой, своего закрытого железа NFC.cool не продаёт
 - **Доступно.** Тариф Free с одной карточкой, Personal за $19,99 в год, Pro за $49,99 в год (10 карточек) и [Team](/ru/business-card/teams/): $50 за человека в год или $5 в месяц (до 10 карточек на человека). В евро для команды цифры те же.
 
-**Попробовать [NFC.cool Business Card](/ru/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ru&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-ru)
+**Попробовать [бесплатную цифровую визитку с NFC](/ru/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ru&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-ru)
 
 ---
 

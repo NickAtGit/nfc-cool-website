@@ -206,7 +206,7 @@ QR-код гнучкіший там, де ділитися треба **широ
 - **Відкритий NFC.** Працює з будь-якою стандартною міткою, бо власного обладнання NFC.cool не продає.
 - **Доступна ціна.** Тариф Free з однією карткою, Personal за $19,99 на рік, Pro за $49,99 на рік (10 карток) і [Team](/uk/business-card/teams/) з ціною $50 за людину на рік або $5 на місяць (до 10 карток на людину). В євро для команди цифри ті самі.
 
-**Спробуй [NFC.cool Business Card](/uk/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-uk&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-uk)
+**Спробуй [безкоштовну цифрову візитівку з NFC](/uk/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-uk&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-uk)
 
 ---
 

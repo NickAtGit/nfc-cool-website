@@ -141,7 +141,7 @@ Die Berufe sind verschieden, die Checkliste ist es größtenteils nicht. Egal wa
 
 Um das gleich klarzustellen: Das ist meine App, lies die nächsten Absätze also entsprechend.
 
-[NFC.cool Business Card](/de/business-card/) ist eine eigenständige App für iPhone und Android. Das kann sie gut, gerade für die Berufe oben:
+NFC.cool Business Card ist eine eigenständige [digitale Visitenkarten-App](/de/business-card/) für iPhone und Android. Das kann sie gut, gerade für die Berufe oben:
 
 - **35 Sprachen** in der App und im App Clip, mehr als bei jeder anderen digitalen Visitenkarte, die ich kenne. Auf iOS folgen die Buttons und Beschriftungen rund um deine Karte der Sprache deines Gegenübers.
 - **Keine App für die Gegenseite.** Auf dem iPhone öffnet sich ein nativer App Clip, auf Android eine Seite unter nfc.cool. Beide haben einen Button „Kontakt speichern“.

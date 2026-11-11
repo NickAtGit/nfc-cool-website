@@ -206,7 +206,7 @@ Beberapa hal yang membedakannya:
 - **NFC terbuka** - Bekerja dengan tag NFC standar apa pun - NFC.cool tidak menjual perangkat keras eksklusif
 - **Terjangkau** - Paket Free dengan satu kartu, Personal $19,99 per tahun, Pro $49,99 per tahun (10 kartu), dan [Team](/id/business-card/teams/) $50 per orang per tahun atau $5 per bulan (hingga 10 kartu per orang). Dalam euro, harga tim memakai angka yang sama.
 
-**Coba [NFC.cool Business Card](/id/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-id&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-id)
+**Coba [kartu nama digital NFC gratis](/id/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-id&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-id)
 
 ---
 

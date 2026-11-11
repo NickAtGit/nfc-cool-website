@@ -67,7 +67,7 @@ Adreslerin en yaygın alternatifi. Tam bir vCard kodla (ad, telefon, e-posta, ku
 
 QR kartvizitler kutudan çıktığı gibi böyle çalışıyor. Özel bir uygulama olmadan her telefonda vCard QR'ın çalışmasının sebebi de bu: vCard, işletim sisteminin zaten bildiği 30 yıllık bir standart.
 
-NFC.cool kartvizit akışına göre ödünü şu: vCard QR güncellenemez. Bir kez basıldıktan sonra kişi bilgisi donar. Sonradan düzenleyebileceğin tek bir doğru kaynak istiyorsan onun yerine canlı kartvizit sayfana giden bir adres kodla. [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-tr&mt=8) tam bunu yapıyor ve ciddi tanışmalarda ham vCard QR yerine bunu önermemizin sebebi de bu. [NFC.cool Business Card'ın neler yaptığını buradan görebilirsin](/tr/business-card/).
+NFC.cool kartvizit akışına göre ödünü şu: vCard QR güncellenemez. Bir kez basıldıktan sonra kişi bilgisi donar. Sonradan düzenleyebileceğin tek bir doğru kaynak istiyorsan onun yerine canlı kartvizit sayfana giden bir adres kodla. [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-tr&mt=8) tam bunu yapıyor ve ciddi tanışmalarda ham vCard QR yerine bunu önermemizin sebebi de bu. [NFC.cool dijital kartvizit uygulamasının neler yaptığını buradan görebilirsin](/tr/business-card/).
 
 ---
 

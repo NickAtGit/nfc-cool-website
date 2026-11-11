@@ -206,7 +206,7 @@ NFC اختصار لـ**Near Field Communication** (الاتصال قريب ال�
 - **NFC مفتوح** - يعمل مع أي وسم NFC قياسي - لا يبيع NFC.cool عتادًا خاصًا
 - **بأسعار معقولة** - خطة Free ببطاقة واحدة، وPersonal بسعر $١٩.٩٩ في السنة، وPro بسعر $٤٩.٩٩ في السنة (١٠ بطاقات)، و[Team](/ar/business-card/teams/) بسعر $٥٠ للشخص في السنة أو $٥ في الشهر (حتى ١٠ بطاقات لكل شخص). وباليورو، يبقى سعر الفريق بالرقم نفسه.
 
-**جرّب [NFC.cool Business Card](/ar/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ar&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-ar)
+**جرّب [بطاقة العمل الرقمية المجانية بتقنية NFC](/ar/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-ar&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-ar)
 
 ---
 

@@ -28,4 +28,4 @@ NFC名刺は、相手の端末が何であろうと気にしません。iOSもAn
 
 これが、私がいまだにNameDropではなくNFCを軸に開発を続けている、地味な理由です。NameDropは最良のケースを最適化します。2人のiPhoneユーザー、どちらも機能が有効で、どちらもジェスチャーを知っている。NFCはイベントで実際に起こるケースを最適化します。2人の人間、2台の端末、そしてそのどちらについても共通の前提がない状況です。NameDropはデモとしては優れています。NFCは名刺としては優れています。
 
-欲しくなりましたか？　[NFC.cool Business Card](/ja/business-card/)は、まさにそんな場面のために私が作っているデジタル名刺です。[iPhone版はこちら](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-ja&mt=8)、[Android版はこちら](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-ja)からどうぞ。
+欲しくなりましたか？　NFC.cool Business Cardは、まさにそんな場面のために私が作っている[デジタル名刺アプリ](/ja/business-card/)です。[iPhone版はこちら](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-namedrop-vs-nfc-business-cards-ja&mt=8)、[Android版はこちら](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-namedrop-vs-nfc-business-cards-ja)からどうぞ。

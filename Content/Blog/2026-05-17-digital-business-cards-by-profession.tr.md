@@ -141,7 +141,7 @@ Meslekler farklı, denetim listesi çoğunlukla değil. Ne yaparsan yap, bir dij
 
 Açık olayım: bu benim uygulamam, sonraki paragrafları bunu bilerek oku.
 
-[NFC.cool Business Card](/tr/business-card/), iPhone ve Android'de ayrı duran bir uygulama. Yukarıdaki meslekler için iyi yaptıkları:
+NFC.cool Business Card, iPhone ve Android'de ayrı duran bir [dijital kartvizit uygulaması](/tr/business-card/). Yukarıdaki meslekler için iyi yaptıkları:
 
 - Uygulama arayüzünde ve App Clip'te **35 dil**; bildiğim başka hiçbir dijital kartvizitte bu kadarı yok. Kartının çevresindeki düğmeler ve etiketler iOS'ta müşterinin dilini izliyor.
 - **Kartını alan kişi için uygulama yok.** iPhone'da yerel bir App Clip, Android'de nfc.cool alan adında bir sayfa görüyorlar. İkisinde de "Kişiyi Kaydet" düğmesi var.

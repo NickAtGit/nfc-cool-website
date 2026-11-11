@@ -206,7 +206,7 @@ NFC 在你 **一对一、面对面** 见人的场景中大放异彩：
 - **开放的 NFC**：可配合任意标准 NFC 标签使用，NFC.cool 不卖专有硬件
 - **价格实惠**：Free 方案含一张名片，Personal 每年 $19.99，Pro 每年 $49.99（10 张名片），[Team](/zh/business-card/teams/) 每人每年 $50 或每月 $5（每人最多 10 张名片）。以欧元计价时，团队价格的数字相同。
 
-**试试 [NFC.cool Business Card](/zh/business-card/)**：[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-zh&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-zh)
+**试试[免费的 NFC 电子名片 App](/zh/business-card/)**：[App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-zh&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-zh)
 
 ---
 

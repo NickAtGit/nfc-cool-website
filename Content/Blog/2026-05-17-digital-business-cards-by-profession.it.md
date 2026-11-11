@@ -141,7 +141,7 @@ Le professioni cambiano, l'elenco delle cose da controllare quasi no. Qualunque 
 
 Trasparenza totale: questa è la mia app, quindi leggi i prossimi paragrafi tenendolo presente.
 
-[NFC.cool Business Card](/it/business-card/) è un'app a sé stante, disponibile su iPhone e Android. Ecco cosa fa bene per le professioni appena elencate:
+NFC.cool Business Card è un'[app per biglietti da visita digitali](/it/business-card/) a sé stante, disponibile su iPhone e Android. Ecco cosa fa bene per le professioni appena elencate:
 
 - **35 lingue** nell'interfaccia dell'app e nell'App Clip, più di qualsiasi altro biglietto da visita digitale che io conosca. Su iOS i pulsanti e le etichette attorno al biglietto seguono la lingua del cliente.
 - **Nessuna app per chi riceve il biglietto.** Su iPhone si apre un'App Clip nativa, su Android una pagina sul dominio nfc.cool. In entrambi i casi c'è un pulsante "Salva contatto".

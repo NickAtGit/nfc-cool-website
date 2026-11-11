@@ -230,4 +230,4 @@ iPhone 7（2016年）以降のすべてのiPhoneと、2018年以降の大多数�
 
 次のカンファレンスが近づいています。今度は、紙を家に置いていきましょう。
 
-*[NFC.cool Business Card](/ja/business-card/)は[iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-ja&mt=8)と[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-ja)で無料で利用可能。1分以内に最初のカードを作成できます。チーム全員でイベントに参加するなら、[NFC.cool Business Card for Teams](/ja/business-card/teams/)をご覧ください。*
+*[NFC.coolのデジタル名刺アプリ](/ja/business-card/)は[iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-ja&mt=8)と[Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-ja)で無料で利用可能。1分以内に最初のカードを作成できます。チーム全員でイベントに参加するなら、[NFC.cool Business Card for Teams](/ja/business-card/teams/)をご覧ください。*

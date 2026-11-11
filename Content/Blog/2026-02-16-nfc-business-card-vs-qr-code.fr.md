@@ -206,7 +206,7 @@ Quelques éléments qui la distinguent :
 - **NFC ouvert** - Fonctionne avec n'importe quel tag NFC standard - NFC.cool ne vend pas de matériel propriétaire
 - **Abordable** - Un forfait Free avec une carte, Personal à 19,99 $ par an, Pro à 49,99 $ par an (10 cartes) et [Team](/fr/business-card/teams/) à 50 $ par personne et par an ou 5 $ par mois (jusqu'à 10 cartes par personne). En euros, le tarif équipe affiche le même chiffre.
 
-**Essayez [NFC.cool Business Card](/fr/business-card/) :** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-fr&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-fr)
+**Essayez la [carte de visite numérique NFC gratuite](/fr/business-card/) :** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-fr&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-fr)
 
 ---
 

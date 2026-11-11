@@ -67,7 +67,7 @@ URLの最も一般的な代替手段。完全なvCard（名前、電話、メー
 
 QR名刺はそのまま動作するのがこれです。vCard QRが特別なアプリなしであらゆるスマホで動く理由でもあります - vCardは30年の歴史を持つ標準で、OSがすでに知っています。
 
-NFC.cool Business Cardのフローとのトレードオフ：vCard QRは更新できません。一度印刷すれば連絡先データは凍結します。後で編集できる「唯一の真実のソース」が欲しいなら、代わりにライブの名刺ページへのURLをエンコードしましょう。それが[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-ja&mt=8)の動作で、本格的なネットワーキングには生のvCard QRよりこちらを推奨する理由です。[NFC.cool Business Cardでできること](/ja/business-card/)もあわせてご覧ください。
+NFC.cool Business Cardのフローとのトレードオフ：vCard QRは更新できません。一度印刷すれば連絡先データは凍結します。後で編集できる「唯一の真実のソース」が欲しいなら、代わりにライブの名刺ページへのURLをエンコードしましょう。それが[NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-ja&mt=8)の動作で、本格的なネットワーキングには生のvCard QRよりこちらを推奨する理由です。[NFC.coolのデジタル名刺アプリでできること](/ja/business-card/)もあわせてご覧ください。
 
 ---
 

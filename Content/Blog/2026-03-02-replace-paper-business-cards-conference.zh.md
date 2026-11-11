@@ -230,4 +230,4 @@ NFC 轻触本身无需 WiFi 即可工作：它直接把链接从标签传输到�
 
 你的下一场会议就要到了。这一次，把纸质名片留在家里吧。
 
-*[NFC.cool Business Card](/zh/business-card/) 在 [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-zh) 上都可以免费使用。一分钟之内就能创建你的第一张名片。要带整个团队去参会？看看 [NFC.cool Business Card for Teams](/zh/business-card/teams/)。*
+*[NFC.cool 电子名片 App](/zh/business-card/) 在 [iOS](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-replace-paper-business-cards-conference-zh&mt=8) 和 [Android](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-replace-paper-business-cards-conference-zh) 上都可以免费使用。一分钟之内就能创建你的第一张名片。要带整个团队去参会？看看 [NFC.cool Business Card for Teams](/zh/business-card/teams/)。*

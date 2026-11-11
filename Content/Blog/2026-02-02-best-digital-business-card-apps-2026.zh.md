@@ -222,4 +222,4 @@ NFC.cool Business Card 是 iPhone 和 Android 上的原生 App。你可以通过
 
 对大多数个人和小团队，我会选 NFC.cool Business Card。在这里，它是面向个人的公开订阅价中最低的，也是我能找到的、面向 2 到 4 人且含 CRM 同步的团队订阅方案中最便宜的。你能用上 iPhone 和 Android 的原生 App，没有人出售你的数据，背后没有风险投资人，有问题时创始人会很快回复。如果你的公司需要单点登录，[问我](/zh/contact/)，我来帮你设置。
 
-你可以[了解各个方案](/zh/business-card/)，[开始 14 天团队试用](https://business.nfc.cool/org/start/)，或者在 [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-zh&mt=8) 或 [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-zh) 上获取 App。
+你可以[了解 NFC.cool 电子名片 App 及其各个方案](/zh/business-card/)，[开始 14 天团队试用](https://business.nfc.cool/org/start/)，或者在 [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-best-digital-business-card-apps-2026-zh&mt=8) 或 [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-best-digital-business-card-apps-2026-zh) 上获取 App。

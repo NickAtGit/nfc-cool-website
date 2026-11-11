@@ -141,7 +141,7 @@ Profesinya berbeda; daftar periksa sebagian besar tidak. Apapun yang Anda lakuka
 
 Pengungkapan penuh: ini adalah aplikasi saya, jadi bacalah beberapa paragraf berikut dengan mengingat hal itu.
 
-[NFC.cool Business Card](/id/business-card/) adalah aplikasi mandiri di iPhone dan Android. Inilah yang dilakukannya dengan baik untuk profesi-profesi di atas:
+NFC.cool Business Card adalah [aplikasi kartu nama digital](/id/business-card/) mandiri di iPhone dan Android. Inilah yang dilakukannya dengan baik untuk profesi-profesi di atas:
 
 - **35 bahasa** di antarmuka aplikasi dan App Clip - lebih dari aplikasi kartu nama digital lain yang saya ketahui. Tombol dan label di sekitar kartu Anda mengikuti bahasa klien di iOS.
 - **Tidak ada aplikasi untuk orang yang menerima kartu Anda.** Di iPhone mereka mendapatkan App Clip native; di Android, halaman di domain nfc.cool. Keduanya memiliki tombol "Simpan Kontak."

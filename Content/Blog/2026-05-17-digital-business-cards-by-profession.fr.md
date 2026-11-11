@@ -141,7 +141,7 @@ Les métiers diffèrent ; la check-list, pas vraiment. Quel que soit votre méti
 
 En toute transparence : c'est mon app, alors lisez les prochains paragraphes en le gardant à l'esprit.
 
-[NFC.cool Business Card](/fr/business-card/) est une app autonome sur iPhone et Android. Voici ce qu'elle fait bien pour les métiers ci-dessus :
+NFC.cool Business Card est une [application de carte de visite numérique](/fr/business-card/) autonome sur iPhone et Android. Voici ce qu'elle fait bien pour les métiers ci-dessus :
 
 - **35 langues** dans l'interface de l'app et l'App Clip - plus que toute autre carte de visite numérique que je connaisse. Sur iOS, les boutons et les libellés autour de votre carte suivent la langue de votre client.
 - **Aucune app pour la personne qui reçoit votre carte.** Sur iPhone, elle obtient un App Clip natif ; sur Android, une page du domaine nfc.cool. Les deux ont un bouton « Enregistrer le contact ».

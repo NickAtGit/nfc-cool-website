@@ -141,7 +141,7 @@ ogDescription: "房地产、医疗、咨询：纸质名片辜负每一种职业�
 
 充分披露：这是我自己的 App，所以请带着这一点来读接下来这几段。
 
-[NFC.cool Business Card](/zh/business-card/) 在 iPhone 和 Android 上都是一款独立 App。对于上面这些职业，它做得好的地方有：
+NFC.cool Business Card 在 iPhone 和 Android 上都是一款独立的[电子名片 App](/zh/business-card/)。对于上面这些职业，它做得好的地方有：
 
 - App 界面和 App Clip 支持 **35 种语言**，比我所知的任何其他电子名片都多。在 iOS 上，名片周围的按钮和标签会跟随客户的语言。
 - **接收你名片的人无需 App。** 在 iPhone 上他们看到的是原生的 App Clip；在 Android 上是 nfc.cool 域名下的一个页面。两者都有一个“保存联系人”按钮。

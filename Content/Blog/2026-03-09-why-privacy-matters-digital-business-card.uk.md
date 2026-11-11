@@ -192,4 +192,4 @@ GDPR дає право на перенесення даних: усе, що пл
 
 Обирай уважно.
 
-*Хочеш цифрову візитівку, де приватність на першому місці? [Подивись, що вміє NFC.cool Business Card](/uk/business-card/), а потім [завантаж для iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-uk&mt=8) або [постав із Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-uk). Інтерфейс застосунку та App Clip доступні 35 мовами.*
+*Хочеш цифрову візитівку, де приватність на першому місці? [Подивись, що вміє застосунок цифрової візитівки NFC.cool](/uk/business-card/), а потім [завантаж для iPhone](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-why-privacy-matters-digital-business-card-uk&mt=8) або [постав із Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-why-privacy-matters-digital-business-card-uk). Інтерфейс застосунку та App Clip доступні 35 мовами.*
