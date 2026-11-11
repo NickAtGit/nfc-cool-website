@@ -64,16 +64,23 @@ jobs:
             swift-build-${{ runner.os }}-${{ hashFiles('Package.resolved') }}-
             swift-build-${{ runner.os }}-
 
-      # The runner's apt sources read their mirrors from /etc/apt/apt-mirrors.txt,
-      # which lists only GitHub's azure.archive.ubuntu.com. When that mirror stalls
-      # (2026-11-11: 20 s timeout per package, the job hit its 30 min limit) apt
-      # has nowhere else to go, so archive.ubuntu.com goes first, with short timeouts.
+      # ImageMagick from its own pinned AppImage on GitHub, not apt: on 2026-11-11
+      # both GitHub's Azure Ubuntu mirror and archive.ubuntu.com stalled for the
+      # runners (20 s timeout per package) and the job ran into its 30 min limit.
+      # The AppImage is unpacked once and called through a `magick` launcher, which
+      # is the first name SiteKit's ImageToolResolver and fix-portrait-variants.py
+      # look for.
       - name: Install ImageMagick
+        env:
+          IM_VERSION: "7.1.2-35"
         run: |
-          printf '%s\n' "http://archive.ubuntu.com/ubuntu/" "http://azure.archive.ubuntu.com/ubuntu/" | sudo tee /etc/apt/apt-mirrors.txt
-          apt_opts="-o Acquire::http::Timeout=15 -o Acquire::Retries=3"
-          sudo apt-get $apt_opts update
-          sudo apt-get $apt_opts install -y imagemagick
+          curl -fsSL "https://github.com/ImageMagick/ImageMagick/releases/download/${IM_VERSION}/ImageMagick-${IM_VERSION}-gcc-x86_64.AppImage" -o /tmp/magick.AppImage
+          chmod +x /tmp/magick.AppImage
+          (cd /opt && sudo /tmp/magick.AppImage --appimage-extract >/dev/null)
+          printf '#!/bin/sh\nexec /opt/squashfs-root/AppRun "$@"\n' | sudo tee /usr/local/bin/magick >/dev/null
+          sudo chmod +x /usr/local/bin/magick
+          magick -version
+          magick -list format | grep -iE "^ *WEBP"
 
       # Persist SiteKit's content-addressed image/icon cache across runs. Variants
       # live at .sitekit-cache/images/<sha8>-<w>w.webp (sha8 = source content hash),
