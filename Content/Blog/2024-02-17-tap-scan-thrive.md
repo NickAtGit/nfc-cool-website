@@ -67,7 +67,7 @@ The most common alternative to URLs. Encode a full vCard (name, phone, email, or
 
 QR business cards work this way out of the box. It's also why a vCard QR works on every phone with no special app - vCard is a 30-year-old standard the OS already knows.
 
-The trade-off vs the NFC.cool business card flow: a vCard QR can't be updated. Once printed, the contact data is frozen. If you want a "single source of truth" that you can edit later, encode a URL to your live business card page instead - that's what [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8) does, and it's why we recommend it over raw vCard QR for serious networking. You can [see what NFC.cool Business Card does here](/business-card/).
+The trade-off vs the NFC.cool business card flow: a vCard QR can't be updated. Once printed, the contact data is frozen. If you want a "single source of truth" that you can edit later, encode a URL to your live business card page instead - that's what [NFC.cool Business Card](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-tap-scan-thrive-en&mt=8) does, and it's why we recommend it over raw vCard QR for serious networking. You can [see what the NFC.cool digital business card app does](/business-card/).
 
 ---
 

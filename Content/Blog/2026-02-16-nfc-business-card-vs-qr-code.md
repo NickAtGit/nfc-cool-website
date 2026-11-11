@@ -206,7 +206,7 @@ A few things that set it apart:
 - **Open NFC** - Works with any standard NFC tag - NFC.cool doesn't sell proprietary hardware
 - **Affordable** - A Free plan with one card, Personal at $19.99 a year, Pro at $49.99 a year (10 cards), and [Team](/business-card/teams/) at $50 per person a year or $5 a month (up to 10 cards per person). In euros, the team price is the same number.
 
-**Try [NFC.cool Business Card](/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
+**Try the [free NFC digital business card](/business-card/):** [App Store](https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=blog-nfc-business-card-vs-qr-code-en&mt=8) · [Google Play](https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dblog%26utm_campaign%3Dblog-nfc-business-card-vs-qr-code-en)
 
 ---
 

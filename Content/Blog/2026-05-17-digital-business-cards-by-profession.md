@@ -141,7 +141,7 @@ The professions differ; the checklist mostly doesn't. Whatever you do, a digital
 
 Full disclosure: this is my app, so read the next few paragraphs knowing that.
 
-[NFC.cool Business Card](/business-card/) is a standalone app on iPhone and Android. Here's what it does well for the professions above:
+NFC.cool Business Card is a standalone [digital business card app](/business-card/) on iPhone and Android. Here's what it does well for the professions above:
 
 - **35 languages** in the app interface and the App Clip - more than any other digital business card I'm aware of. The buttons and labels around your card follow your client's language on iOS.
 - **No app for the person receiving your card.** On iPhone they get a native App Clip; on Android, a page on the nfc.cool domain. Both have a "Save Contact" button.
