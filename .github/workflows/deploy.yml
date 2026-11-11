@@ -73,8 +73,12 @@ jobs:
       - name: Install ImageMagick
         env:
           IM_VERSION: "7.1.2-35"
+          # SHA-256 of that AppImage, as GitHub lists it for the release asset.
+          # Bump both together.
+          IM_SHA256: "f111044ed06b68cfb478df724c5a32d35145afa21073242f888d234a2f8cc002"
         run: |
           curl -fsSL "https://github.com/ImageMagick/ImageMagick/releases/download/${IM_VERSION}/ImageMagick-${IM_VERSION}-gcc-x86_64.AppImage" -o /tmp/magick.AppImage
+          echo "${IM_SHA256}  /tmp/magick.AppImage" | sha256sum -c -
           chmod +x /tmp/magick.AppImage
           mkdir -p "$HOME/imagemagick"
           (cd "$HOME/imagemagick" && /tmp/magick.AppImage --appimage-extract >/dev/null)
