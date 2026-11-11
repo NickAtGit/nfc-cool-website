@@ -15,6 +15,8 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 يضع NFC.cool Business Card بطاقتك على هاتفك، للأفراد والفرق. شاركها بلمسة NFC أو برمز QR، واعرف كم شخصًا حفظها.
 
+<p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card على iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} تقييم)</p>
+
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-ar&mt=8" class="landing-store-button is-apple" aria-label="التنزيل من App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="التنزيل من App Store" width="156" height="52"/>

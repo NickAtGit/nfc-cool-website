@@ -15,6 +15,8 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 NFC.cool Business Card porta il tuo biglietto sul telefono, per privati e team. Condividilo via NFC o con un codice QR e scopri quante persone lo salvano.
 
+<p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card su iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} valutazioni)</p>
+
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-it&mt=8" class="landing-store-button is-apple" aria-label="Scarica dall'App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Scarica dall'App Store" width="156" height="52"/>

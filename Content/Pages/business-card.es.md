@@ -15,6 +15,8 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 NFC.cool Business Card pone tu tarjeta en el móvil, para ti y para tu equipo. Compártela con un toque NFC o un código QR, y mira cuántas personas la guardan.
 
+<p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card en iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} valoraciones)</p>
+
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-es&mt=8" class="landing-store-button is-apple" aria-label="Descargar en la App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Descargar en la App Store" width="156" height="52"/>
@@ -46,7 +48,7 @@ Una tarjeta de visita digital son tus datos de contacto en un enlace: nombre, ca
 
 1. Descarga NFC.cool Business Card para iPhone o Android. Es gratis.
 2. Rellena tu tarjeta o importa un contacto que ya tengas. Añade tu logo y tus colores.
-3. Compártela: la otra persona acerca su móvil a tu tarjeta o etiqueta NFC, o bien enseña tu código QR, envía el enlace o añádela a Apple Wallet.
+3. Compártela: deja que la otra persona acerque su móvil a tu tarjeta o etiqueta NFC, enseña tu código QR, envía el enlace o añádela a Apple Wallet.
 
 ## ¿NFC o QR?
 

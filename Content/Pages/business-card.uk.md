@@ -15,6 +15,8 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 NFC.cool Business Card переносить твою візитівку в телефон, для однієї людини чи цілої команди. Ділися нею дотиком NFC або через QR-код і дивись, скільки людей її зберегли.
 
+<p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card на iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} оцінок)</p>
+
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-uk&mt=8" class="landing-store-button is-apple" aria-label="Завантажити в App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Завантажити в App Store" width="156" height="52"/>

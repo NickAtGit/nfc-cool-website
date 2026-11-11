@@ -15,6 +15,8 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 NFC.cool Business Card 把你的名片装进手机，个人和团队都能用。NFC 轻轻一触或出示二维码就能分享，还能看到有多少人保存了你的名片。
 
+<p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> iPhone 上的 NFC.cool Business Card（{{RATINGS_BUSINESS_CARD_COUNT}} 条评分）</p>
+
 <div class="landing-store-buttons">
 <a href="https://apps.apple.com/app/apple-store/id6502926572?pt=106913804&ct=web-business-card-zh&mt=8" class="landing-store-button is-apple" aria-label="Download on the App Store" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/AppStore.svg" alt="Download on the App Store" width="156" height="52"/>
