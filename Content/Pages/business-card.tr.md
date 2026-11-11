@@ -48,7 +48,7 @@ Dijital kartvizit, iletişim bilgilerini tek bağlantıda toplar: adın, unvanı
 
 1. iPhone ya da Android için NFC.cool Business Card'ı indir. Ücretsiz.
 2. Kartını doldur ya da rehberindeki bir kişiyi içe aktar. Logonu ve renklerini ekle.
-3. Paylaş: NFC kartını ya da tag'ini karşındakinin telefonuna yaklaştır, QR kodunu göster, bağlantıyı gönder ya da kartı Apple Wallet'a ekle.
+3. Paylaş: NFC kartını ya da tag'ini karşındakinin telefonuna yaklaştır, QR kodunu göster, bağlantıyı gönder ya da kartı Apple Wallet'a ya da Google Wallet'a ekle.
 
 ## NFC mi, QR mı?
 

@@ -1,7 +1,7 @@
 ---
 title: "Aplikasi kartu nama digital gratis, NFC & QR"
 slug: "business-card"
-description: "Buat kartu nama digital gratis di ponsel. Bagikan lewat ketukan NFC, kode QR, App Clip, atau Apple Wallet, lalu lihat berapa banyak orang yang menyimpannya."
+description: "Buat kartu nama digital gratis di ponsel. Bagikan lewat NFC, kode QR, App Clip, atau Apple Wallet, lalu lihat berapa banyak orang yang menyimpannya."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -48,7 +48,7 @@ Kartu nama digital adalah data kontak Anda dalam satu tautan: nama, jabatan, nom
 
 1. Unduh NFC.cool Business Card untuk iPhone atau Android. Gratis.
 2. Isi kartu Anda, atau impor kontak yang sudah ada. Tambahkan logo dan warna Anda.
-3. Bagikan: minta mereka mendekatkan ponselnya ke kartu atau tag NFC Anda, tunjukkan kode QR, kirim tautannya, atau tambahkan ke Apple Wallet.
+3. Bagikan: minta mereka mendekatkan ponselnya ke kartu atau tag NFC Anda, tunjukkan kode QR, kirim tautannya, atau tambahkan ke Apple Wallet atau Google Wallet.
 
 ## NFC atau QR?
 

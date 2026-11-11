@@ -1,7 +1,7 @@
 ---
 title: "Biglietto da visita digitale gratis: app NFC e QR"
 slug: "business-card"
-description: "Crea gratis un biglietto da visita digitale sul telefono. Condividilo via NFC, con un codice QR, App Clip o Apple Wallet e scopri quante persone ti salvano."
+description: "Crea gratis un biglietto da visita digitale sul telefono. Condividilo via NFC, codice QR, App Clip o Apple Wallet e scopri quante persone ti salvano."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -48,7 +48,7 @@ Un biglietto da visita digitale raccoglie i tuoi contatti in un link: nome, ruol
 
 1. Scarica NFC.cool Business Card su iPhone o Android. È gratis.
 2. Compila il biglietto oppure importa un contatto che hai già. Aggiungi logo e colori.
-3. Condividilo come preferisci: chi lo riceve avvicina il telefono al biglietto o al tag NFC, oppure mostri il codice QR, invii il link o lo aggiungi ad Apple Wallet.
+3. Condividilo come preferisci: chi lo riceve avvicina il telefono al biglietto o al tag NFC, oppure mostri il codice QR, invii il link o lo aggiungi ad Apple Wallet o Google Wallet.
 
 ## NFC o QR?
 

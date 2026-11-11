@@ -42,13 +42,13 @@ NFC.cool Business Card bringt deine Karte aufs Handy, für dich und dein Team. T
 
 ## Was ist eine digitale Visitenkarte?
 
-Eine digitale Visitenkarte sind deine Kontaktdaten als Link: Name, Position, Telefon, E-Mail, Website und Social-Media-Profile auf einer Seite. Statt Papier zu überreichen, teilst du sie per NFC-Scan oder QR-Code, und dein Gegenüber speichert dich mit einem Tap in den Kontakten. Eine App braucht es dafür nicht. Ändern sich deine Nummer oder dein Job, bearbeitest du die Karte einmal, und jeder Tag und jeder QR-Code, den du geteilt hast, zeigt die neuen Daten.
+Eine digitale Visitenkarte, das sind deine Kontaktdaten als Link: Name, Position, Telefon, E-Mail, Website und Social-Media-Profile auf einer Seite. Statt Papier zu überreichen, teilst du sie per NFC-Scan oder QR-Code, und dein Gegenüber speichert dich mit einem Tap in den Kontakten. Eine App braucht es dafür nicht. Ändern sich deine Nummer oder dein Job, bearbeitest du die Karte einmal, und jeder Tag und jeder QR-Code, den du geteilt hast, zeigt die neuen Daten.
 
 ## So erstellst du deine digitale Visitenkarte
 
 1. Lade NFC.cool Business Card für iPhone oder Android. Die App ist kostenlos.
 2. Füll deine Karte aus oder importiere einen Kontakt, den du schon hast. Füge dein Logo und deine Farben hinzu.
-3. Teile sie: Lass dein Gegenüber das Handy an deine NFC-Karte oder deinen Tag halten, zeig deinen QR-Code, schick den Link oder leg die Karte in Apple Wallet ab.
+3. Teile sie: Lass dein Gegenüber das Handy an deine NFC-Karte oder deinen Tag halten, zeig deinen QR-Code, schick den Link oder leg die Karte in Apple Wallet oder Google Wallet ab.
 
 ## NFC oder QR?
 

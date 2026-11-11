@@ -48,7 +48,7 @@ Una tarjeta de visita digital son tus datos de contacto en un enlace: nombre, ca
 
 1. Descarga NFC.cool Business Card para iPhone o Android. Es gratis.
 2. Rellena tu tarjeta o importa un contacto que ya tengas. Añade tu logo y tus colores.
-3. Compártela: deja que la otra persona acerque su móvil a tu tarjeta o etiqueta NFC, enseña tu código QR, envía el enlace o añádela a Apple Wallet.
+3. Compártela: deja que la otra persona acerque su móvil a tu tarjeta o etiqueta NFC, enseña tu código QR, envía el enlace o añádela a Apple Wallet o Google Wallet.
 
 ## ¿NFC o QR?
 

@@ -75,7 +75,7 @@ struct MarketingPageRenderer: Renderer {
          jsonLD = StructuredData.businessCardPageGraph(
             baseURL: context.config.baseURL,
             homePath: context.router.homePath(),
-            pageTitle: page.title,
+            pageTitle: Self.heading(inHTML: page.htmlContent) ?? page.title,
             pagePath: pagePath,
             rating: AppRatings.load(projectDirectory: context.projectDirectory).businessCardIOS,
             faq: Self.faqItems(inHTML: page.htmlContent)
@@ -87,7 +87,7 @@ struct MarketingPageRenderer: Renderer {
             baseURL: context.config.baseURL,
             homePath: context.router.homePath(),
             siteName: context.config.name,
-            parentTitle: parent?.title ?? "Business Card",
+            parentTitle: parent.flatMap { Self.heading(inHTML: $0.htmlContent) } ?? parent?.title ?? "Business Card",
             parentPath: parent.map { context.router.staticPagePath(for: $0) } ?? "\(context.router.homePath())business-card/",
             pageTitle: page.title,
             pagePath: pagePath,
@@ -339,6 +339,16 @@ struct MarketingPageRenderer: Renderer {
    /// than parsed from the markdown so the FAQPage JSON-LD is reliable - if the
    /// page's visible FAQ changes, update this list to match.
    /// The `<details class="faq-item">` questions and answers of a page, as written on it.
+   /// The page's H1 as plain text, for breadcrumb labels: the `title:` frontmatter is written
+   /// for search results and is too long for a breadcrumb. `nil` when the page has no H1.
+   private static func heading(inHTML html: String) -> String? {
+      guard let match = html.range(of: #"<h1[^>]*>(.*?)</h1>"#, options: .regularExpression) else { return nil }
+      let inner = String(html[match])
+         .replacingOccurrences(of: #"<[^>]+>"#, with: "", options: .regularExpression)
+         .trimmingCharacters(in: .whitespacesAndNewlines)
+      return inner.isEmpty ? nil : inner
+   }
+
    private static func faqItems(inHTML html: String) -> [FAQItem] {
       let pattern = #"<details class="faq-item">\s*<summary>(.*?)</summary>\s*<p>(.*?)</p>\s*</details>"#
       guard let regex = try? NSRegularExpression(pattern: pattern, options: [.dotMatchesLineSeparators]) else { return [] }
