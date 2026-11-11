@@ -1,7 +1,7 @@
 ---
 title: "Ücretsiz Dijital Kartvizit Uygulaması: NFC ve QR"
 slug: "business-card"
-description: "Telefonunda ücretsiz dijital kartvizit oluştur. NFC okutarak, QR kodla, App Clip ya da Apple Wallet ile paylaş ve seni kaç kişinin kaydettiğini gör."
+description: "Telefonunda ücretsiz dijital kartvizit oluştur. NFC okutarak, QR kodla, App Clip ya da Apple Wallet ile paylaş, karşındaki seni tek dokunuşla kaydetsin."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Dijital Kartvizit Uygulaması
 
-NFC.cool Business Card kartvizitini telefonuna taşır, ister tek başına kullan ister ekibinle. NFC okutarak ya da QR kodla paylaş, kaç kişinin kaydettiğini gör.
+NFC.cool Business Card kartvizitini telefonuna taşır, ister tek başına kullan ister ekibinle. NFC okutarak ya da QR kodla paylaş, karşındaki seni tek dokunuşla kaydetsin.
 
 <p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> iPhone'da NFC.cool Business Card ({{RATINGS_BUSINESS_CARD_COUNT}} değerlendirme)</p>
 

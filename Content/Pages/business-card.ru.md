@@ -1,7 +1,7 @@
 ---
 title: "Бесплатная цифровая визитка с NFC и QR-кодом"
 slug: "business-card"
-description: "Создай бесплатную цифровую визитку в телефоне. Делись ею касанием NFC, через QR-код, App Clip или Apple Wallet и смотри, сколько человек тебя сохранили."
+description: "Создай бесплатную цифровую визитку в телефоне. Делись касанием NFC, QR-кодом, через App Clip или Apple Wallet, а собеседник сохранит тебя одним нажатием."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Приложение для цифровой визитки
 
-NFC.cool Business Card переносит твою визитку в телефон, для тебя и для всей команды. Делись ею касанием NFC или через QR-код и смотри, сколько человек её сохранили.
+NFC.cool Business Card переносит твою визитку в телефон, для тебя и для всей команды. Делись ею касанием NFC или через QR-код, а собеседник сохранит тебя в контакты одним нажатием.
 
 <p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card на iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} оценок)</p>
 

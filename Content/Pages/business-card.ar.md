@@ -1,7 +1,7 @@
 ---
 title: "تطبيق مجاني لبطاقة العمل الرقمية عبر NFC وQR"
 slug: "business-card"
-description: "أنشئ بطاقة عمل رقمية مجانية على هاتفك. شاركها بلمسة NFC أو برمز QR أو عبر App Clip أو Apple Wallet، واعرف كم شخصًا حفظك."
+description: "أنشئ بطاقة عمل رقمية مجانية على هاتفك. شاركها بلمسة NFC أو برمز QR أو عبر App Clip أو Apple Wallet، ويحفظك الآخرون بلمسة واحدة."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # تطبيق بطاقة العمل الرقمية
 
-يضع NFC.cool Business Card بطاقتك على هاتفك، للأفراد والفرق. شاركها بلمسة NFC أو برمز QR، واعرف كم شخصًا حفظها.
+يضع NFC.cool Business Card بطاقتك على هاتفك، للأفراد والفرق. شاركها بلمسة NFC أو برمز QR، ويحفظك الآخرون بلمسة واحدة.
 
 <p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card على iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} تقييم)</p>
 

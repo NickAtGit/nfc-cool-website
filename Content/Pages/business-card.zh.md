@@ -1,7 +1,7 @@
 ---
 title: "免费电子名片 App，支持 NFC 和二维码"
 slug: "business-card"
-description: "在手机上免费制作电子名片。通过 NFC 轻触、二维码、App Clip 或 Apple Wallet 分享，还能看到有多少人保存了你。"
+description: "在手机上免费制作电子名片。通过 NFC 轻触、二维码、App Clip 或 Apple Wallet 分享，对方一点就能保存你的联系方式。"
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # 电子名片 App
 
-NFC.cool Business Card 把你的名片装进手机，个人和团队都能用。NFC 轻轻一触或出示二维码就能分享，还能看到有多少人保存了你的名片。
+NFC.cool Business Card 把你的名片装进手机，个人和团队都能用。NFC 轻轻一触或出示二维码就能分享，对方一点就能保存你的联系方式。
 
 <p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> iPhone 上的 NFC.cool Business Card（{{RATINGS_BUSINESS_CARD_COUNT}} 条评分）</p>
 

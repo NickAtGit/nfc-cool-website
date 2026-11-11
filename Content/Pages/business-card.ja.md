@@ -1,7 +1,7 @@
 ---
 title: "NFC・QR対応の無料デジタル名刺アプリ"
 slug: "business-card"
-description: "スマホで無料のデジタル名刺を作成。NFCタッチ、QRコード、App Clip、Apple Walletで渡せて、何人があなたを保存したかもわかります。"
+description: "スマホで無料のデジタル名刺を作成。NFCタッチ、QRコード、App Clip、Apple Walletで渡せて、相手はワンタップであなたを保存できます。"
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # デジタル名刺アプリ
 
-NFC.cool Business Cardなら、名刺をスマホの中に。個人にも、チームにも。NFCタッチやQRコードで渡せて、何人が保存したかもわかります。
+NFC.cool Business Cardなら、名刺をスマホの中に。個人にも、チームにも。NFCタッチやQRコードで渡せて、相手はワンタップであなたを保存できます。
 
 <p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card(iPhone・{{RATINGS_BUSINESS_CARD_COUNT}}件)</p>
 

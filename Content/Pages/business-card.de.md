@@ -1,7 +1,7 @@
 ---
 title: "Digitale Visitenkarte kostenlos: App mit NFC & QR"
 slug: "business-card"
-description: "Erstelle kostenlos deine digitale Visitenkarte auf dem Handy. Teile sie per NFC, QR-Code, App Clip oder Apple Wallet und sieh, wie viele dich speichern."
+description: "Erstelle kostenlos deine digitale Visitenkarte auf dem Handy. Teile sie per NFC, QR-Code, App Clip oder Apple Wallet, und man speichert dich mit einem Tap."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Digitale Visitenkarten-App
 
-NFC.cool Business Card bringt deine Karte aufs Handy, für dich und dein Team. Teile sie per NFC-Scan oder QR-Code und sieh, wie viele Leute sie speichern.
+NFC.cool Business Card bringt deine Karte aufs Handy, für dich und dein Team. Teile sie per NFC-Scan oder QR-Code, und man speichert dich mit einem Tap.
 
 <p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card auf iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} Bewertungen)</p>
 

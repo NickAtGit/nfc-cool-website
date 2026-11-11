@@ -1,7 +1,7 @@
 ---
 title: "Tarjeta de visita digital gratis: app NFC y QR"
 slug: "business-card"
-description: "Crea gratis tu tarjeta de visita digital en el móvil. Compártela con un toque NFC, un código QR, App Clip o Apple Wallet, y mira cuántos te guardan."
+description: "Crea gratis tu tarjeta de visita digital en el móvil. Compártela con un toque NFC, un código QR, App Clip o Apple Wallet, y te guardan con un toque."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # App de tarjetas de visita digitales
 
-NFC.cool Business Card pone tu tarjeta en el móvil, para ti y para tu equipo. Compártela con un toque NFC o un código QR, y mira cuántas personas la guardan.
+NFC.cool Business Card pone tu tarjeta en el móvil, para ti y para tu equipo. Compártela con un toque NFC o un código QR, y te guardan con un toque.
 
 <p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card en iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} valoraciones)</p>
 

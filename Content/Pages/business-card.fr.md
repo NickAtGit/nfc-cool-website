@@ -1,7 +1,7 @@
 ---
 title: "Carte de visite numérique gratuite avec NFC et QR"
 slug: "business-card"
-description: "Créez gratuitement votre carte de visite numérique sur mobile. Partagez-la par NFC, QR code, App Clip ou Apple Wallet, et voyez combien vous enregistrent."
+description: "Créez gratuitement votre carte de visite numérique sur mobile. Partagez-la par NFC, QR code, App Clip ou Apple Wallet, et l'on vous enregistre d'un geste."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Application de carte de visite numérique
 
-NFC.cool Business Card met votre carte sur votre téléphone, pour les particuliers comme pour les équipes. Partagez-la d'un simple contact NFC ou par QR code, et voyez combien de personnes l'enregistrent.
+NFC.cool Business Card met votre carte sur votre téléphone, pour les particuliers comme pour les équipes. Partagez-la d'un simple contact NFC ou par QR code, et l'on vous enregistre d'un geste.
 
 <p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card sur iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} évaluations)</p>
 

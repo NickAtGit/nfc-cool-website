@@ -1,7 +1,7 @@
 ---
 title: "Cartão de visita digital grátis: app NFC e QR"
 slug: "business-card"
-description: "Crie um cartão de visita digital grátis no telemóvel. Partilhe-o com um toque NFC, um código QR, App Clip ou Apple Wallet e veja quantas pessoas o guardam."
+description: "Crie um cartão de visita digital grátis no telemóvel. Partilhe-o por NFC, código QR, App Clip ou Apple Wallet, e guardam o seu contacto com um toque."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # App de cartão de visita digital
 
-O NFC.cool Business Card põe o seu cartão no telemóvel, para uso individual e para equipas. Partilhe-o com um toque NFC ou um código QR e veja quantas pessoas o guardam.
+O NFC.cool Business Card põe o seu cartão no telemóvel, para uso individual e para equipas. Partilhe-o com um toque NFC ou um código QR, e quem o recebe guarda o seu contacto com um toque.
 
 <p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card no iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} avaliações)</p>
 

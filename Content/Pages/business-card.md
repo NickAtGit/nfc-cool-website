@@ -1,7 +1,7 @@
 ---
 title: "Free Digital Business Card App with NFC & QR"
 slug: "business-card"
-description: "Make a free digital business card on your phone. Share it with an NFC tap, a QR code, App Clip or Apple Wallet, and see how many people save you."
+description: "Make a free digital business card on your phone. Share it with an NFC tap, a QR code, App Clip or Apple Wallet, and they save you in one tap."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -13,7 +13,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Digital Business Card App
 
-NFC.cool Business Card puts your card on your phone, for individuals and teams. Share it with an NFC tap or a QR code, and see how many people save it.
+NFC.cool Business Card puts your card on your phone, for individuals and teams. Share it with an NFC tap or a QR code, and they save you in one tap.
 
 <p class="landing-hero-trust"><strong>{{RATINGS_BUSINESS_CARD_VALUE}}★</strong> NFC.cool Business Card on iPhone ({{RATINGS_BUSINESS_CARD_COUNT}} ratings)</p>
 
