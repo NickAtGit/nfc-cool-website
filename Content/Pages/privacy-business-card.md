@@ -14,7 +14,7 @@ description: "How NFC.cool Business Card, its App Clip, its card pages and NFC.c
 
 What personal data the Business Card app, its App Clip, your card pages and NFC.cool Business Card for Teams process, why, who receives it, how long we keep it, and the rights you have under the GDPR.
 
-<strong>Last modified: November 6, 2026</strong>
+<strong>Last modified: November 15, 2026</strong>
 
 </div>
 
@@ -228,11 +228,10 @@ You buy a plan through the App Store or Google Play. Apple or Google handles the
 
 The iPhone and Android apps use the tools below. The App Clip, the card pages and the console use none of them.
 
-<strong>Usage data, only if you allow it.</strong> The app asks you once whether you want to share usage data, with two buttons: Allow and Don't Allow. Until you answer, and if you choose Don't Allow, Firebase Analytics and PostHog stay off. You can change your choice at any time in More, under Share Usage Data. Turning it off stops them from then on, and on Android also clears the analytics data kept on your phone.
+<strong>Usage data, only if you allow it.</strong> The app asks you once whether you want to share usage data, with two buttons: Allow and Don't Allow. Until you answer, and if you choose Don't Allow, Firebase Analytics stays off. You can change your choice at any time in More, under Share Usage Data. Turning it off stops it from then on, and on Android also clears the analytics data kept on your phone.
 
 <ul>
 <li><strong>Firebase Analytics (Google), iPhone and Android:</strong> records which screens you open and some actions in the app, such as opening the paywall, signing up, signing in, signing out and deleting your account, with an identifier for the app on your phone and device details. On Android it also records the steps of the first-run questions and your answers to them. Its advertising features are off.</li>
-<li><strong>PostHog, iPhone, on servers in the EU:</strong> records app opens, screens viewed and recordings of how you use the app. Recordings hide the text, text fields and images on the screen, and your card, so they do not show the details on your cards or contacts.</li>
 </ul>
 
 <strong>Purpose:</strong> to understand how the app is used and improve it. <strong>Legal basis:</strong> your consent (Art. 6(1)(a) GDPR), which is also the consent Portuguese law requires before an app stores or reads information on your phone for this purpose (Art. 5 of Lei 41/2004). You can withdraw it at any time, without affecting what happened before.
@@ -333,7 +332,6 @@ We share data only with the people and services below, and only for the reasons 
 <li><strong>Mailjet:</strong> sends our emails, teams' follow-up emails and the newsletter.</li>
 <li><strong>Cloudflare:</strong> runs the small service that adds newsletter sign-ups from the app to Mailjet, and protects DigitalOcean's content delivery network against bots (see Cookies).</li>
 <li><strong>Google (Firebase):</strong> push notifications, app analytics, crash reports and remote settings.</li>
-<li><strong>PostHog:</strong> usage analytics and session recordings in the iPhone app, if you allow them.</li>
 <li><strong>Apple:</strong> Sign in with Apple, App Store purchases, push delivery on iPhone, and App Clip cards.</li>
 <li><strong>Google Play:</strong> purchases on Android.</li>
 <li><strong>RevenueCat:</strong> manages in-app subscriptions.</li>
@@ -348,7 +346,7 @@ We do not sell personal data.
 
 ## Where your data is stored, and data outside the EU
 
-Our server, database and files are hosted by DigitalOcean in its data centres in the New York area, USA. Mailjet stores emails in the EU, in Germany and Belgium. PostHog stores the iPhone app's analytics in the EU.
+Our server, database and files are hosted by DigitalOcean in its data centres in the New York area, USA. Mailjet stores emails in the EU, in Germany and Belgium.
 
 Where data leaves the European Economic Area, each transfer rests on one of these safeguards:
 
@@ -392,7 +390,7 @@ To get a copy of the standard contractual clauses that apply, email info (at) nf
 <li><strong>Rate limit counters:</strong> at most a day.</li>
 <li><strong>Server logs:</strong> 14 days.</li>
 <li><strong>Error reports at Sentry:</strong> 90 days.</li>
-<li><strong>App analytics and crash reports:</strong> Firebase Analytics 2 months, Crashlytics 90 days, PostHog recordings 30 days and other PostHog usage data 1 year.</li>
+<li><strong>App analytics and crash reports:</strong> Firebase Analytics 2 months and Crashlytics 90 days.</li>
 <li><strong>Backups:</strong> deleted data stays in our database backups for up to 7 days, until they are overwritten.</li>
 <li><strong>Billing records of a team's subscription</strong> (invoices, payments and the details on them): 10 years, as Portuguese tax and accounting law requires, then deleted. This also applies after the team or the account is deleted. Legal basis: our legal obligation (Art. 6(1)(c) GDPR).</li>
 </ul>
@@ -450,7 +448,7 @@ If you are the only owner of a team, you first hand the team to someone else, or
 
 Deleting your account does not cancel a subscription bought through the App Store or Google Play. Cancel it in your store account settings.
 
-When you delete your account, we also ask RevenueCat to delete your customer record, if it is under the identifier our server gave your account or, for an older Android account, under your confirmed email address. A record we cannot tie to your account, such as an anonymous one, stays at RevenueCat. To have it deleted, email us. Data that Firebase and PostHog hold about your app use is not linked to your account on our side and is deleted on their schedules, described in How long we keep data.
+When you delete your account, we also ask RevenueCat to delete your customer record, if it is under the identifier our server gave your account or, for an older Android account, under your confirmed email address. A record we cannot tie to your account, such as an anonymous one, stays at RevenueCat. To have it deleted, email us. Data that Firebase holds about your app use is not linked to your account on our side and is deleted on its schedule, described in How long we keep data.
 
 ## Children
 

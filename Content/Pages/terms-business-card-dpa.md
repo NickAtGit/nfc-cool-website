@@ -14,7 +14,7 @@ description: "The data processing agreement under Art. 28 GDPR for NFC.cool Busi
 
 How NFC.cool processes personal data on behalf of a team, under Art. 28 GDPR. It is part of the [Business Card terms](/terms/business-card/) and applies to every team.
 
-<strong>Last modified: November 6, 2026</strong>
+<strong>Last modified: November 15, 2026</strong>
 
 </div>
 
@@ -236,7 +236,6 @@ People who only open a card are counted, not identified: views, saves and link t
 <li><strong>Mailjet SAS (Sinch Mailjet).</strong> Sends the team's follow-up emails. Location: EU (Germany and Belgium). No transfer.</li>
 <li><strong>Google LLC (Firebase Cloud Messaging).</strong> Push notifications about new contacts, with the contact's name and the member's name. Location: USA. Safeguard: EU-U.S. Data Privacy Framework.</li>
 <li><strong>Apple Inc. (Apple Push Notification service, App Store Connect).</strong> Push delivery and Conference Mode Live Activities on iPhones, with a contact's name and company; the team's App Clip card (card link, title, subtitle, header image, and the team's place name, address and phone number). Location: USA. Safeguard: standard contractual clauses.</li>
-<li><strong>PostHog.</strong> If a member allows usage data in the iPhone app, recordings of how the app is used, with text, text fields and images masked. Location: EU. No transfer.</li>
 </ul>
 
 Not listed, and why: Stripe (team billing, NFC.cool's own controller data); RevenueCat, Firebase Analytics and Crashlytics (the apps' subscriptions, analytics and crash reports, NFC.cool's own; crash reports contain no contact details); Cloudflare (the app's newsletter sign-up); the public certificate authority for custom domains (receives the domain name only); and the services the Customer connects (webhooks, HubSpot, Salesforce, AI assistants: the Customer's own recipients, section 4.2).
