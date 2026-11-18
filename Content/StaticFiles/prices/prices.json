@@ -1,0 +1,346 @@
+{
+ "_source": "business_card_service web/page_plan/tiers.py (feat/page-tab), read 2026-11-18. The service keys are kept: page_pro is Page Plus, page_ordering is Page Pro. Change both together; Scripts/prices/tests pins the rules.",
+ "products": [
+  "page",
+  "team_page",
+  "page_pro",
+  "team_page_pro",
+  "page_ordering",
+  "team_page_ordering",
+  "seat"
+ ],
+ "baseCurrency": {
+  "page": "eur",
+  "team_page": "eur",
+  "page_pro": "eur",
+  "team_page_pro": "eur",
+  "page_ordering": "eur",
+  "team_page_ordering": "eur",
+  "seat": "usd"
+ },
+ "amounts": {
+  "page": {
+   "A": {
+    "month": "4.99",
+    "year": "49.99"
+   },
+   "B": {
+    "month": "3.49",
+    "year": "34.99"
+   },
+   "C": {
+    "month": "1.99",
+    "year": "19.99"
+   }
+  },
+  "team_page": {
+   "A": {
+    "month": "3.99",
+    "year": "39.99"
+   },
+   "B": {
+    "month": "2.79",
+    "year": "27.99"
+   },
+   "C": {
+    "month": "1.59",
+    "year": "15.99"
+   }
+  },
+  "page_pro": {
+   "A": {
+    "month": "14.99",
+    "year": "149.99"
+   },
+   "B": {
+    "month": "10.49",
+    "year": "104.99"
+   },
+   "C": {
+    "month": "5.99",
+    "year": "59.99"
+   }
+  },
+  "team_page_pro": {
+   "A": {
+    "month": "11.99",
+    "year": "119.99"
+   },
+   "B": {
+    "month": "8.39",
+    "year": "83.99"
+   },
+   "C": {
+    "month": "4.79",
+    "year": "47.99"
+   }
+  },
+  "page_ordering": {
+   "A": {
+    "month": "39.99",
+    "year": "399.99"
+   },
+   "B": {
+    "month": "27.99",
+    "year": "279.99"
+   },
+   "C": {
+    "month": "15.99",
+    "year": "159.99"
+   }
+  },
+  "team_page_ordering": {
+   "A": {
+    "month": "31.99",
+    "year": "319.99"
+   },
+   "B": {
+    "month": "22.39",
+    "year": "223.99"
+   },
+   "C": {
+    "month": "12.79",
+    "year": "127.99"
+   }
+  },
+  "seat": {
+   "A": {
+    "month": "5.00",
+    "year": "50.00"
+   },
+   "B": {
+    "month": "3.50",
+    "year": "35.00"
+   },
+   "C": {
+    "month": "2.00",
+    "year": "20.00"
+   }
+  }
+ },
+ "tierByCountry": {
+  "PT": "B",
+  "GR": "B",
+  "CY": "B",
+  "MT": "B",
+  "SI": "B",
+  "HR": "B",
+  "CZ": "B",
+  "SK": "B",
+  "PL": "B",
+  "HU": "B",
+  "RO": "B",
+  "BG": "B",
+  "EE": "B",
+  "LV": "B",
+  "LT": "B",
+  "RS": "B",
+  "BA": "B",
+  "ME": "B",
+  "MK": "B",
+  "AL": "B",
+  "MD": "B",
+  "UA": "B",
+  "AR": "C",
+  "BO": "C",
+  "BR": "C",
+  "CL": "C",
+  "CO": "C",
+  "CR": "C",
+  "DO": "C",
+  "EC": "C",
+  "SV": "C",
+  "GT": "C",
+  "HN": "C",
+  "MX": "C",
+  "NI": "C",
+  "PA": "C",
+  "PY": "C",
+  "PE": "C",
+  "UY": "C",
+  "VE": "C",
+  "DZ": "C",
+  "AO": "C",
+  "BJ": "C",
+  "BW": "C",
+  "BF": "C",
+  "BI": "C",
+  "CV": "C",
+  "CM": "C",
+  "CF": "C",
+  "TD": "C",
+  "KM": "C",
+  "CG": "C",
+  "CD": "C",
+  "CI": "C",
+  "DJ": "C",
+  "EG": "C",
+  "GQ": "C",
+  "ER": "C",
+  "SZ": "C",
+  "ET": "C",
+  "GA": "C",
+  "GM": "C",
+  "GH": "C",
+  "GN": "C",
+  "GW": "C",
+  "KE": "C",
+  "LS": "C",
+  "LR": "C",
+  "LY": "C",
+  "MG": "C",
+  "MW": "C",
+  "ML": "C",
+  "MR": "C",
+  "MU": "C",
+  "MA": "C",
+  "MZ": "C",
+  "NA": "C",
+  "NE": "C",
+  "NG": "C",
+  "RW": "C",
+  "ST": "C",
+  "SN": "C",
+  "SC": "C",
+  "SL": "C",
+  "SO": "C",
+  "ZA": "C",
+  "SS": "C",
+  "SD": "C",
+  "TZ": "C",
+  "TG": "C",
+  "TN": "C",
+  "UG": "C",
+  "ZM": "C",
+  "ZW": "C",
+  "IN": "C",
+  "PK": "C",
+  "BD": "C",
+  "LK": "C",
+  "NP": "C",
+  "ID": "C",
+  "MY": "C",
+  "PH": "C",
+  "TH": "C",
+  "VN": "C",
+  "KH": "C",
+  "LA": "C",
+  "MM": "C"
+ },
+ "currencyByCountry": {
+  "GB": "gbp",
+  "GG": "gbp",
+  "JE": "gbp",
+  "IM": "gbp",
+  "US": "usd",
+  "PR": "usd",
+  "GU": "usd",
+  "VI": "usd",
+  "AS": "usd",
+  "MP": "usd",
+  "UM": "usd",
+  "EC": "usd",
+  "SV": "usd",
+  "PA": "usd",
+  "AT": "eur",
+  "BE": "eur",
+  "BG": "eur",
+  "CY": "eur",
+  "DE": "eur",
+  "EE": "eur",
+  "ES": "eur",
+  "FI": "eur",
+  "FR": "eur",
+  "GR": "eur",
+  "HR": "eur",
+  "IE": "eur",
+  "IT": "eur",
+  "LT": "eur",
+  "LU": "eur",
+  "LV": "eur",
+  "MT": "eur",
+  "NL": "eur",
+  "PT": "eur",
+  "SI": "eur",
+  "SK": "eur",
+  "AD": "eur",
+  "MC": "eur",
+  "SM": "eur",
+  "VA": "eur",
+  "ME": "eur",
+  "XK": "eur"
+ },
+ "_formats": "How a price is written per site language, read by the build (PriceToken.swift) and by prices.mjs, so both print the same text. Mirrors LocaleNumber.swift's separators and digits. 'after' puts a no-break space between number and symbol.",
+ "symbols": {
+  "eur": "€",
+  "usd": "$",
+  "gbp": "£"
+ },
+ "formats": {
+  "en": {
+   "symbol": "before",
+   "decimal": ".",
+   "digits": null
+  },
+  "ja": {
+   "symbol": "before",
+   "decimal": ".",
+   "digits": null
+  },
+  "zh": {
+   "symbol": "before",
+   "decimal": ".",
+   "digits": null
+  },
+  "id": {
+   "symbol": "before",
+   "decimal": ",",
+   "digits": null
+  },
+  "tr": {
+   "symbol": "before",
+   "decimal": ",",
+   "digits": null
+  },
+  "de": {
+   "symbol": "after",
+   "decimal": ",",
+   "digits": null
+  },
+  "fr": {
+   "symbol": "after",
+   "decimal": ",",
+   "digits": null
+  },
+  "es": {
+   "symbol": "after",
+   "decimal": ",",
+   "digits": null
+  },
+  "it": {
+   "symbol": "after",
+   "decimal": ",",
+   "digits": null
+  },
+  "pt": {
+   "symbol": "after",
+   "decimal": ",",
+   "digits": null
+  },
+  "ru": {
+   "symbol": "after",
+   "decimal": ",",
+   "digits": null
+  },
+  "uk": {
+   "symbol": "after",
+   "decimal": ",",
+   "digits": null
+  },
+  "ar": {
+   "symbol": "after",
+   "decimal": "٫",
+   "digits": "٠١٢٣٤٥٦٧٨٩"
+  }
+ }
+}
