@@ -151,7 +151,9 @@ One mechanism, used by every pricing table and price line on `/business-card/pag
   only where the site has a reliable source for it (from the apps' paywall configuration or App
   Store Connect, see memory "Feature tables mirror the paywall"). Without one, they show the US
   amount with a line that the app shows the price in your currency.
-- **No JS:** the HTML carries the default (USD, tier A, as the pages do today). The script swaps in
+- **No JS:** the HTML carries what the service shows a visitor whose country it cannot tell: tier
+  A in the product's base currency (EUR for page levels, USD for team seats; `BASE_CURRENCY` in
+  `tiers.py`). The script swaps in
   the visitor's amounts, so crawlers and screen readers see a coherent default.
 - Wherever a page says "in euros it is the same number", that sentence goes; the page now shows the
   visitor's own currency.
