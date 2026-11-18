@@ -3,7 +3,8 @@
     "apps": [],
     "details": [
       { "appID": "FMXL9R3NPC.cool.nfc.holdem", "paths": ["NOT /holdem/privacy-policy", "NOT /holdem/privacy-policy/*", "NOT /holdem/terms-of-service", "NOT /holdem/terms-of-service/*", "/holdem", "/holdem/*"] },
-      { "appID": "FMXL9R3NPC.de.nicolo-stanciu.nfcing", "paths": ["NOT /fidget", "NOT /fidget/*", "NOT /holdem", "NOT /holdem/*", "/*"] }
+      { "appID": "FMXL9R3NPC.io.stanc.DigitalBusinessCardApp", "paths": ["/business-card/pages", "/business-card/pages/*"] },
+      { "appID": "FMXL9R3NPC.de.nicolo-stanciu.nfcing", "paths": ["NOT /fidget", "NOT /fidget/*", "NOT /holdem", "NOT /holdem/*", "NOT /business-card/pages", "NOT /business-card/pages/*", "/*"] }
     ]
   },
   "appclips": {

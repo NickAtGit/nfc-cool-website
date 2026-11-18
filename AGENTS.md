@@ -19,6 +19,7 @@ python3 Scripts/lint-ukrainian.py --selftest   # check the Ukrainian lint's own 
 node --test "Scripts/fidget/tests/*.test.mjs"   # /fidget/ toy: GLB contract, three bundle, pure modules
 node --test "Scripts/scenes/tests/*.test.mjs"   # blog phone figures: step controller, tilt spring, swipe vs scroll
 node --test "Scripts/prices/tests/*.test.mjs"   # region-aware prices: data matches the service, region, format
+node --test "Scripts/pages/tests/*.test.mjs"   # /business-card/pages/?make=page: store forwarding by device
 ```
 
 `i18n-check` is this repo's own gate (see `Sources/Site/I18n/`, configured by repo-root
