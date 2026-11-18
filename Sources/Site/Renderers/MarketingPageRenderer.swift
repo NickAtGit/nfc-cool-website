@@ -47,6 +47,8 @@ struct MarketingPageRenderer: Renderer {
       newsletterHTML: String
    ) throws -> OutputFile {
       let pageTitle = "\(page.title) - \(context.config.name)"
+      // The FAQ JSON-LD below reads the page's own text, so it needs the default prices written in.
+      let pricedContent = try PriceToken.resolveTokens(in: page.htmlContent, locale: page.locale, context: context)
       let pagePath = context.router.staticPagePath(for: page)
       // JSON-LD per page type:
       //  - About: ProfilePage + Person, so AI engines can resolve the
@@ -78,7 +80,7 @@ struct MarketingPageRenderer: Renderer {
             pageTitle: Self.heading(inHTML: page.htmlContent) ?? page.title,
             pagePath: pagePath,
             rating: AppRatings.load(projectDirectory: context.projectDirectory).businessCardIOS,
-            faq: Self.faqItems(inHTML: page.htmlContent)
+            faq: Self.faqItems(inHTML: pricedContent)
          )
       case "business-card/teams":
          // Home → Business Card → this page, in this language's own words.
@@ -92,7 +94,7 @@ struct MarketingPageRenderer: Renderer {
             pageTitle: page.title,
             pagePath: pagePath,
             description: page.description ?? "",
-            faq: Self.faqItems(inHTML: page.htmlContent)
+            faq: Self.faqItems(inHTML: pricedContent)
          )
       case "reviews":
          // Reviews are translated into each page's language, so the English

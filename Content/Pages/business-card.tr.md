@@ -121,7 +121,7 @@ Dijital kartvizit, iletişim bilgilerini tek bağlantıda toplar: adın, unvanı
 
 ## Dijital kartvizit fiyatları
 
-Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. Uygulamadan alınan Personal ve Pro, müşteri adayı toplama, istatistikler ve üzerinde adımızın geçmediği kart ekler. Ekipler web'den başlar: 14 gün ücretsiz, sonra kişi başına yıllık ya da aylık ödeme. Ekip fiyatı euro olarak da aynı rakamdır. [Ekip fiyatını ve karşılaştırmasını gör](/tr/business-card/teams/).
+Tek kişi ya da koca bir ekip. Free dahil her kart kişi olarak kaydedilebilir. Uygulamadan alınan Personal ve Pro, müşteri adayı toplama, istatistikler ve üzerinde adımızın geçmediği kart ekler. Ekipler web'den başlar: 14 gün ücretsiz, sonra kişi başına yıllık ya da aylık ödeme. [Ekip fiyatını ve karşılaştırmasını gör](/tr/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 

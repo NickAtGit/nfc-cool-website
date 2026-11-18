@@ -63,11 +63,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## كم يكلّف
 
-تدفع الفرق عن كل شخص، سنويًا أو شهريًا. وباليورو، يبقى سعر الفريق بالرقم نفسه، والأسعار تشمل ضريبة القيمة المضافة.
+تدفع الفرق عن كل شخص، سنويًا أو شهريًا. والأسعار تشمل ضريبة القيمة المضافة.
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>$٥٠ للشخص في السنة</h3><p>أو $٥ في الشهر. والدفع السنوي يوفّر $١٠ للشخص.</p></article>
-<article class="page-card"><h3>بدءًا من مقعدين</h3><p>يكلّف فريق من شخصين $١٠٠ في السنة، أو $١٠ في الشهر. غيّر عدد المقاعد في أي وقت، حتى ٥٠٠ مقعد بنفسك. ولأكثر من ذلك، <a href="mailto:business@nfc.cool">راسلنا</a>.</p></article>
+<article class="page-card"><h3>{{PRICE:seat:year}} للشخص في السنة</h3><p>أو {{PRICE:seat:month}} في الشهر. والدفع السنوي يوفّر {{PRICE:seat:saving}} للشخص.</p></article>
+<article class="page-card"><h3>بدءًا من مقعدين</h3><p>يكلّف فريق من شخصين {{PRICE:seat:year:2}} في السنة، أو {{PRICE:seat:month:2}} في الشهر. غيّر عدد المقاعد في أي وقت، حتى ٥٠٠ مقعد بنفسك. ولأكثر من ذلك، <a href="mailto:business@nfc.cool">راسلنا</a>.</p></article>
 <article class="page-card"><h3>١٤ يومًا مجانًا</h3><p>تتطلب التجربة بطاقة دفع. وتُحاسَب عند انتهائها ما لم تلغِ. ولكل شخص تجربة واحدة.</p></article>
 </div>
 
@@ -107,7 +107,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <details class="faq-item">
 <summary>كم يكلّف؟</summary>
-<p>$٥٠ للشخص في السنة، أو $٥ في الشهر. وباليورو، يبقى سعر الفريق بالرقم نفسه، والأسعار تشمل ضريبة القيمة المضافة. وأصغر فريق مقعدان، أي $١٠٠ في السنة أو $١٠ في الشهر.</p>
+<p>{{PRICE:seat:year}} للشخص في السنة، أو {{PRICE:seat:month}} في الشهر. والأسعار تشمل ضريبة القيمة المضافة. وأصغر فريق مقعدان، أي {{PRICE:seat:year:2}} في السنة أو {{PRICE:seat:month:2}} في الشهر.</p>
 </details>
 
 <details class="faq-item">

@@ -63,11 +63,11 @@ NFC.cool Business Card for Teamsは、社員全員に自社ブランドのデジ
 
 ## 料金
 
-チームの料金は1人あたりで、年払いか月払いを選べます。ユーロ建てでも、チーム料金の数字は同じです。価格はVAT込みです。
+チームの料金は1人あたりで、年払いか月払いを選べます。価格はVAT込みです。
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>1人あたり年$50</h3><p>または月$5です。年払いなら1人あたり$10お得です。</p></article>
-<article class="page-card"><h3>2シートから</h3><p>2人のチームなら年$100、または月$10です。シート数はいつでも変更でき、500シートまではご自身で設定できます。それ以上は<a href="mailto:business@nfc.cool">メールでご相談ください</a>。</p></article>
+<article class="page-card"><h3>1人あたり年{{PRICE:seat:year}}</h3><p>または月{{PRICE:seat:month}}です。年払いなら1人あたり{{PRICE:seat:saving}}お得です。</p></article>
+<article class="page-card"><h3>2シートから</h3><p>2人のチームなら年{{PRICE:seat:year:2}}、または月{{PRICE:seat:month:2}}です。シート数はいつでも変更でき、500シートまではご自身で設定できます。それ以上は<a href="mailto:business@nfc.cool">メールでご相談ください</a>。</p></article>
 <article class="page-card"><h3>14日間無料</h3><p>トライアルには支払い用カードの登録が必要です。解約しない限り、終了時に課金されます。トライアルは1人につき1回です。</p></article>
 </div>
 
@@ -107,7 +107,7 @@ NFC.cool Business Card for Teamsは、社員全員に自社ブランドのデジ
 
 <details class="faq-item">
 <summary>料金はいくらですか？</summary>
-<p>1人あたり年$50、または月$5です。ユーロ建てでも、チーム料金の数字は同じで、価格はVAT込みです。最小構成は2シートなので、年$100または月$10からです。</p>
+<p>1人あたり年{{PRICE:seat:year}}、または月{{PRICE:seat:month}}です。価格はVAT込みです。最小構成は2シートなので、年{{PRICE:seat:year:2}}または月{{PRICE:seat:month:2}}からです。</p>
 </details>
 
 <details class="faq-item">

@@ -121,7 +121,7 @@ Usali entrambi. Li confronto in [biglietto da visita NFC o codice QR](/it/blog/n
 
 ## Prezzi del biglietto da visita digitale
 
-Una persona o un team intero. Ogni biglietto si può salvare come contatto, anche con Free. Personal e Pro aggiungono i lead, le statistiche e un biglietto senza il nostro nome, e si acquistano nell'app. I team partono dal web, gratis per 14 giorni, e pagano a persona, all'anno o al mese. In euro la cifra del piano Team è la stessa. [Scopri il prezzo del piano Team e il confronto con le altre app](/it/business-card/teams/).
+Una persona o un team intero. Ogni biglietto si può salvare come contatto, anche con Free. Personal e Pro aggiungono i lead, le statistiche e un biglietto senza il nostro nome, e si acquistano nell'app. I team partono dal web, gratis per 14 giorni, e pagano a persona, all'anno o al mese. [Scopri il prezzo del piano Team e il confronto con le altre app](/it/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 

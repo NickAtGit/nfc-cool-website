@@ -4,7 +4,7 @@ columns: ["Free", "Personal", "Pro", "Team"]
 columnPills: [is-free, is-personal, is-pro, is-team]
 rows:
   - label: "Цена"
-    values: ["**$0**", "**$19,99 в год**", "**$49,99 в год**", "$50 за человека в год или $5 в месяц"]
+    values: ["**$0**", "**$19,99 в год**", "**$49,99 в год**", "{{PRICE:seat:year}} за человека в год или {{PRICE:seat:month}} в месяц"]
   - label: "Визитки"
     values: ["1", "1", "10", "До 10 на человека"]
   - label: "Передача, Apple Wallet и Google Wallet, QR режима конференции, PIN-код, выгрузка данных"

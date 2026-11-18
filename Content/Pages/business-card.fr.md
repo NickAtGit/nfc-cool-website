@@ -121,7 +121,7 @@ Utilisez les deux. Je les compare dans [carte de visite NFC ou QR code](/fr/blog
 
 ## Tarifs de la carte de visite numérique
 
-Une personne ou toute une équipe. Chaque carte peut être enregistrée comme contact, Free compris. Personal et Pro ajoutent les prospects, les statistiques et une carte sans notre nom, et s'achètent dans l'app. Les équipes démarrent sur le web, gratuitement pendant 14 jours, puis paient par personne, à l'année ou au mois. En euros, le tarif équipe affiche le même chiffre. [Voir le tarif équipe et la comparaison avec les autres offres](/fr/business-card/teams/).
+Une personne ou toute une équipe. Chaque carte peut être enregistrée comme contact, Free compris. Personal et Pro ajoutent les prospects, les statistiques et une carte sans notre nom, et s'achètent dans l'app. Les équipes démarrent sur le web, gratuitement pendant 14 jours, puis paient par personne, à l'année ou au mois. [Voir le tarif équipe et la comparaison avec les autres offres](/fr/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 

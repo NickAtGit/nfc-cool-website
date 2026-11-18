@@ -121,7 +121,7 @@ Use both. I compare the two in [NFC business card vs QR code](/blog/nfc-business
 
 ## Digital Business Card Pricing
 
-One person or a whole team. Every card can be saved as a contact, Free included. Personal and Pro add leads, analytics and a card without our name on it, and are bought in the app. Teams start on the web, free for 14 days, and pay per person, yearly or monthly. In euros, the team price is the same number. [See the team price and how it compares](/business-card/teams/).
+One person or a whole team. Every card can be saved as a contact, Free included. Personal and Pro add leads, analytics and a card without our name on it, and are bought in the app. Teams start on the web, free for 14 days, and pay per person, yearly or monthly. [See the team price and how it compares](/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 

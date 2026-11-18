@@ -270,7 +270,7 @@
   "ME": "eur",
   "XK": "eur"
  },
- "_formats": "How a price is written per site language, read by the build (PriceToken.swift) and by prices.mjs, so both print the same text. Mirrors LocaleNumber.swift's separators and digits. 'after' puts a no-break space between number and symbol.",
+ "_formats": "How a price is written per site language, read by the build (PriceToken.swift) and by prices.mjs, so both print the same text. Decimal and digits mirror LocaleNumber.swift. 'after' lists the currencies whose symbol follows the number, after a no-break space; the rest go before it, as each language's Teams page wrote its dollars.",
  "symbols": {
   "eur": "€",
   "usd": "$",
@@ -278,69 +278,87 @@
  },
  "formats": {
   "en": {
-   "symbol": "before",
    "decimal": ".",
-   "digits": null
+   "digits": null,
+   "after": []
   },
   "ja": {
-   "symbol": "before",
    "decimal": ".",
-   "digits": null
+   "digits": null,
+   "after": []
   },
   "zh": {
-   "symbol": "before",
    "decimal": ".",
-   "digits": null
+   "digits": null,
+   "after": []
   },
   "id": {
-   "symbol": "before",
    "decimal": ",",
-   "digits": null
+   "digits": null,
+   "after": []
   },
   "tr": {
-   "symbol": "before",
    "decimal": ",",
-   "digits": null
-  },
-  "de": {
-   "symbol": "after",
-   "decimal": ",",
-   "digits": null
-  },
-  "fr": {
-   "symbol": "after",
-   "decimal": ",",
-   "digits": null
-  },
-  "es": {
-   "symbol": "after",
-   "decimal": ",",
-   "digits": null
-  },
-  "it": {
-   "symbol": "after",
-   "decimal": ",",
-   "digits": null
+   "digits": null,
+   "after": []
   },
   "pt": {
-   "symbol": "after",
    "decimal": ",",
-   "digits": null
+   "digits": null,
+   "after": [
+    "eur"
+   ]
+  },
+  "es": {
+   "decimal": ",",
+   "digits": null,
+   "after": [
+    "eur"
+   ]
+  },
+  "it": {
+   "decimal": ",",
+   "digits": null,
+   "after": [
+    "eur"
+   ]
   },
   "ru": {
-   "symbol": "after",
    "decimal": ",",
-   "digits": null
+   "digits": null,
+   "after": [
+    "eur"
+   ]
   },
   "uk": {
-   "symbol": "after",
    "decimal": ",",
-   "digits": null
+   "digits": null,
+   "after": [
+    "eur"
+   ]
+  },
+  "de": {
+   "decimal": ",",
+   "digits": null,
+   "after": [
+    "eur",
+    "usd",
+    "gbp"
+   ]
+  },
+  "fr": {
+   "decimal": ",",
+   "digits": null,
+   "after": [
+    "eur",
+    "usd",
+    "gbp"
+   ]
   },
   "ar": {
-   "symbol": "after",
    "decimal": "٫",
-   "digits": "٠١٢٣٤٥٦٧٨٩"
+   "digits": "٠١٢٣٤٥٦٧٨٩",
+   "after": []
   }
  }
 }

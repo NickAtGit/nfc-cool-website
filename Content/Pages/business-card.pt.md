@@ -121,7 +121,7 @@ Use os dois. Comparo-os em [cartão de visita NFC vs código QR](/pt/blog/nfc-bu
 
 ## Preços do cartão de visita digital
 
-Uma pessoa ou uma equipa inteira. Qualquer cartão pode ser guardado como contacto, mesmo no Free. O Personal e o Pro acrescentam leads, análises e um cartão sem o nosso nome, e compram-se na app. As equipas começam na web, com 14 dias grátis, e pagam por pessoa, por ano ou por mês. Em euros, o preço para equipas mantém o mesmo número. [Veja o preço para equipas e como se compara](/pt/business-card/teams/).
+Uma pessoa ou uma equipa inteira. Qualquer cartão pode ser guardado como contacto, mesmo no Free. O Personal e o Pro acrescentam leads, análises e um cartão sem o nosso nome, e compram-se na app. As equipas começam na web, com 14 dias grátis, e pagam por pessoa, por ano ou por mês. [Veja o preço para equipas e como se compara](/pt/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 

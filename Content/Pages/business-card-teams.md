@@ -63,11 +63,11 @@ How we handle your team's data and the leads you collect is in the [privacy poli
 
 ## What It Costs
 
-Teams pay per person, yearly or monthly. In euros, the team price is the same number, and prices include VAT.
+Teams pay per person, yearly or monthly. Prices include VAT.
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>$50 per person a year</h3><p>Or $5 a month. Paying yearly saves $10 per person.</p></article>
-<article class="page-card"><h3>From two seats</h3><p>A team of two costs $100 a year, or $10 a month. Change seats at any time, up to 500 on your own. For more, <a href="mailto:business@nfc.cool">write to us</a>.</p></article>
+<article class="page-card"><h3>{{PRICE:seat:year}} per person a year</h3><p>Or {{PRICE:seat:month}} a month. Paying yearly saves {{PRICE:seat:saving}} per person.</p></article>
+<article class="page-card"><h3>From two seats</h3><p>A team of two costs {{PRICE:seat:year:2}} a year, or {{PRICE:seat:month:2}} a month. Change seats at any time, up to 500 on your own. For more, <a href="mailto:business@nfc.cool">write to us</a>.</p></article>
 <article class="page-card"><h3>14 days free</h3><p>The trial needs a payment card. You're billed when it ends unless you cancel. Each person gets one trial.</p></article>
 </div>
 
@@ -107,7 +107,7 @@ The other companies we compared price their plans differently:
 
 <details class="faq-item">
 <summary>How much does it cost?</summary>
-<p>$50 per person a year, or $5 a month. In euros, the team price is the same number, and prices include VAT. The smallest team is two seats, so $100 a year or $10 a month.</p>
+<p>{{PRICE:seat:year}} per person a year, or {{PRICE:seat:month}} a month. Prices include VAT. The smallest team is two seats, so {{PRICE:seat:year:2}} a year or {{PRICE:seat:month:2}} a month.</p>
 </details>
 
 <details class="faq-item">

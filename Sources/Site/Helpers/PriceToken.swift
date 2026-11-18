@@ -13,7 +13,7 @@ import SiteKit
 /// text only changes when the visitor's region really changes the price.
 enum PriceToken {
    private struct Format: Decodable {
-      let symbol: String
+      let after: [String]
       let decimal: String
       let digits: String?
    }
@@ -65,7 +65,7 @@ enum PriceToken {
          case "saving": each = month * 12 - year
          default: throw UnknownPrice(token: token)
          }
-         let text = self.format(cents: each * (quantity ?? 1), symbol: symbol, locale: locale, data: data)
+         let text = self.format(cents: each * (quantity ?? 1), currency: currency, symbol: symbol, locale: locale, data: data)
          let quantityAttribute = quantity.map { " data-quantity=\"\($0)\"" } ?? ""
          let span = "<span class=\"price\" data-price=\"\(product)\" data-interval=\"\(interval)\"\(quantityAttribute)>\(text)</span>"
          result.replaceSubrange(range, with: span)
@@ -78,13 +78,13 @@ enum PriceToken {
    }
 
    /// Mirrors `formatPrice` in `prices.mjs`: whole amounts without decimals.
-   private static func format(cents: Int, symbol: String, locale: String, data: Data_) -> String {
+   private static func format(cents: Int, currency: String, symbol: String, locale: String, data: Data_) -> String {
       let language = locale.split(whereSeparator: { $0 == "-" || $0 == "_" }).first.map { String($0).lowercased() } ?? "en"
       guard let format = data.formats[language] ?? data.formats["en"] else { return "\(symbol)\(cents / 100)" }
       var number = cents % 100 == 0 ? "\(cents / 100)" : String(format: "%d%@%02d", cents / 100, format.decimal, cents % 100)
       if let digits = format.digits.map(Array.init) {
          number = String(number.map { $0.wholeNumberValue.map { digits[$0] } ?? $0 })
       }
-      return format.symbol == "after" ? "\(number)\u{00A0}\(symbol)" : "\(symbol)\(number)"
+      return format.after.contains(currency) ? "\(number)\u{00A0}\(symbol)" : "\(symbol)\(number)"
    }
 }

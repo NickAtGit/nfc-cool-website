@@ -63,11 +63,11 @@ NFC.cool Business Card for Teams 让公司里的每个人都拥有一张符合�
 
 ## 费用
 
-团队按人数付费，可选按年或按月。以欧元计价时，团队价格的数字相同，价格已含增值税。
+团队按人数付费，可选按年或按月。价格已含增值税。
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>每人每年 $50</h3><p>或每月 $5。按年付费，每人可省 $10。</p></article>
-<article class="page-card"><h3>两个席位起</h3><p>两人团队每年 $100，或每月 $10。席位可以随时调整，自助最多可增加到 500 个。需要更多，请<a href="mailto:business@nfc.cool">写信给我们</a>。</p></article>
+<article class="page-card"><h3>每人每年 {{PRICE:seat:year}}</h3><p>或每月 {{PRICE:seat:month}}。按年付费，每人可省 {{PRICE:seat:saving}}。</p></article>
+<article class="page-card"><h3>两个席位起</h3><p>两人团队每年 {{PRICE:seat:year:2}}，或每月 {{PRICE:seat:month:2}}。席位可以随时调整，自助最多可增加到 500 个。需要更多，请<a href="mailto:business@nfc.cool">写信给我们</a>。</p></article>
 <article class="page-card"><h3>免费试用 14 天</h3><p>试用需要绑定支付卡。除非你取消，否则试用结束时开始收费。每人只能试用一次。</p></article>
 </div>
 
@@ -107,7 +107,7 @@ NFC.cool Business Card for Teams 让公司里的每个人都拥有一张符合�
 
 <details class="faq-item">
 <summary>多少钱？</summary>
-<p>每人每年 $50，或每月 $5。以欧元计价时，团队价格的数字相同，价格已含增值税。最小的团队是两个席位，也就是每年 $100 或每月 $10。</p>
+<p>每人每年 {{PRICE:seat:year}}，或每月 {{PRICE:seat:month}}。价格已含增值税。最小的团队是两个席位，也就是每年 {{PRICE:seat:year:2}} 或每月 {{PRICE:seat:month:2}}。</p>
 </details>
 
 <details class="faq-item">

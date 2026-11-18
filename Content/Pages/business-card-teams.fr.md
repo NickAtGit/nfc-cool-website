@@ -63,11 +63,11 @@ La [politique de confidentialité](/privacy/business-card/) explique comment nou
 
 ## Combien ça coûte
 
-Les équipes paient par personne, à l'année ou au mois. En euros, le tarif équipe affiche le même chiffre, et les prix incluent la TVA.
+Les équipes paient par personne, à l'année ou au mois. Les prix incluent la TVA.
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>50 $ par personne et par an</h3><p>Ou 5 $ par mois. Payer à l'année fait économiser 10 $ par personne.</p></article>
-<article class="page-card"><h3>À partir de deux places</h3><p>Une équipe de deux coûte 100 $ par an, ou 10 $ par mois. Modifiez le nombre de places à tout moment, jusqu'à 500 par vous-même. Au-delà, <a href="mailto:business@nfc.cool">écrivez-nous</a>.</p></article>
+<article class="page-card"><h3>{{PRICE:seat:year}} par personne et par an</h3><p>Ou {{PRICE:seat:month}} par mois. Payer à l'année fait économiser {{PRICE:seat:saving}} par personne.</p></article>
+<article class="page-card"><h3>À partir de deux places</h3><p>Une équipe de deux coûte {{PRICE:seat:year:2}} par an, ou {{PRICE:seat:month:2}} par mois. Modifiez le nombre de places à tout moment, jusqu'à 500 par vous-même. Au-delà, <a href="mailto:business@nfc.cool">écrivez-nous</a>.</p></article>
 <article class="page-card"><h3>14 jours gratuits</h3><p>L'essai nécessite une carte bancaire. Vous êtes facturé à la fin de l'essai, sauf si vous résiliez. Chaque personne a droit à un seul essai.</p></article>
 </div>
 
@@ -107,7 +107,7 @@ Les autres entreprises comparées ont une tarification différente :
 
 <details class="faq-item">
 <summary>Combien ça coûte ?</summary>
-<p>50 $ par personne et par an, ou 5 $ par mois. En euros, le tarif équipe affiche le même chiffre, et les prix incluent la TVA. La plus petite équipe compte deux places, soit 100 $ par an ou 10 $ par mois.</p>
+<p>{{PRICE:seat:year}} par personne et par an, ou {{PRICE:seat:month}} par mois. Les prix incluent la TVA. La plus petite équipe compte deux places, soit {{PRICE:seat:year:2}} par an ou {{PRICE:seat:month:2}} par mois.</p>
 </details>
 
 <details class="faq-item">

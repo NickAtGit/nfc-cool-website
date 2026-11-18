@@ -4,7 +4,7 @@ columns: ["Free", "Personal", "Pro", "Team"]
 columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "Preis"
-    values: ["**0 $**", "**19,99 $ im Jahr**", "**49,99 $ im Jahr**", "50 $ pro Person im Jahr oder 5 $ im Monat"]
+    values: ["**0 $**", "**19,99 $ im Jahr**", "**49,99 $ im Jahr**", "{{PRICE:seat:year}} pro Person im Jahr oder {{PRICE:seat:month}} im Monat"]
   - label: "Karten"
     values: ["1", "1", "10", "Bis zu 10 pro Person"]
   - label: "Teilen, Apple Wallet und Google Wallet, Konferenzmodus-QR, PIN, Datenexport"

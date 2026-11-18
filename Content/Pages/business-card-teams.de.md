@@ -63,11 +63,11 @@ Wie wir mit den Daten deines Teams und den gesammelten Leads umgehen, steht in d
 
 ## Was es kostet
 
-Teams zahlen pro Person, jährlich oder monatlich. In Euro gilt beim Team-Preis dieselbe Zahl, und die Preise enthalten die Mehrwertsteuer.
+Teams zahlen pro Person, jährlich oder monatlich. Die Preise enthalten die Mehrwertsteuer.
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>50 $ pro Person im Jahr</h3><p>Oder 5 $ im Monat. Bei jährlicher Zahlung sparst du 10 $ pro Person.</p></article>
-<article class="page-card"><h3>Ab zwei Plätzen</h3><p>Ein Team aus zwei Personen kostet 100 $ im Jahr oder 10 $ im Monat. Die Anzahl der Plätze änderst du jederzeit selbst, bis zu 500. Wenn du mehr brauchst, <a href="mailto:business@nfc.cool">schreib uns</a>.</p></article>
+<article class="page-card"><h3>{{PRICE:seat:year}} pro Person im Jahr</h3><p>Oder {{PRICE:seat:month}} im Monat. Bei jährlicher Zahlung sparst du {{PRICE:seat:saving}} pro Person.</p></article>
+<article class="page-card"><h3>Ab zwei Plätzen</h3><p>Ein Team aus zwei Personen kostet {{PRICE:seat:year:2}} im Jahr oder {{PRICE:seat:month:2}} im Monat. Die Anzahl der Plätze änderst du jederzeit selbst, bis zu 500. Wenn du mehr brauchst, <a href="mailto:business@nfc.cool">schreib uns</a>.</p></article>
 <article class="page-card"><h3>14 Tage kostenlos</h3><p>Für den Test brauchst du eine Zahlungskarte. Die Abrechnung startet, wenn er endet, sofern du nicht kündigst. Pro Person gibt es einen Test.</p></article>
 </div>
 
@@ -107,7 +107,7 @@ Die anderen verglichenen Unternehmen haben andere Preismodelle:
 
 <details class="faq-item">
 <summary>Was kostet das?</summary>
-<p>50 $ pro Person im Jahr oder 5 $ im Monat. In Euro gilt beim Team-Preis dieselbe Zahl, und die Preise enthalten die Mehrwertsteuer. Das kleinste Team hat zwei Plätze, also 100 $ im Jahr oder 10 $ im Monat.</p>
+<p>{{PRICE:seat:year}} pro Person im Jahr oder {{PRICE:seat:month}} im Monat. Die Preise enthalten die Mehrwertsteuer. Das kleinste Team hat zwei Plätze, also {{PRICE:seat:year:2}} im Jahr oder {{PRICE:seat:month:2}} im Monat.</p>
 </details>
 
 <details class="faq-item">

@@ -4,7 +4,7 @@ columns: ["Free", "Personal", "Pro", "Team"]
 columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
 rows:
   - label: "Harga"
-    values: ["**$0**", "**$19,99 per tahun**", "**$49,99 per tahun**", "$50 per orang per tahun, atau $5 per bulan"]
+    values: ["**$0**", "**$19,99 per tahun**", "**$49,99 per tahun**", "$50 per orang per tahun, atau {{PRICE:seat:month}} per bulan"]
   - label: "Kartu"
     values: ["1", "1", "10", "Hingga 10 per orang"]
   - label: "Berbagi, Apple Wallet dan Google Wallet, QR Mode Konferensi, PIN, ekspor data"

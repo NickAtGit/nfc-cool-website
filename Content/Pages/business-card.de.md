@@ -121,7 +121,7 @@ Am besten nutzt du beides. Den ausführlichen Vergleich findest du in [NFC-Visit
 
 ## Preise für die digitale Visitenkarte
 
-Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, auch mit Free. Personal und Pro bringen Leads, Analysen und eine Karte ohne unseren Namen darauf, und du kaufst sie in der App. Teams starten im Web, 14 Tage kostenlos, und zahlen pro Person, jährlich oder monatlich. In Euro gilt beim Team-Preis dieselbe Zahl. [Sieh dir den Team-Preis und den Vergleich an](/de/business-card/teams/).
+Eine Person oder ein ganzes Team. Jede Karte lässt sich als Kontakt speichern, auch mit Free. Personal und Pro bringen Leads, Analysen und eine Karte ohne unseren Namen darauf, und du kaufst sie in der App. Teams starten im Web, 14 Tage kostenlos, und zahlen pro Person, jährlich oder monatlich. [Sieh dir den Team-Preis und den Vergleich an](/de/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 

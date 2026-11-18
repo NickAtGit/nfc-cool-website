@@ -63,11 +63,11 @@ La [política de privacidad](/privacy/business-card/) explica cómo tratamos los
 
 ## Cuánto cuesta
 
-Los equipos pagan por persona, al año o al mes. En euros, el precio para equipos es la misma cifra, y los precios incluyen el IVA.
+Los equipos pagan por persona, al año o al mes. Los precios incluyen el IVA.
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>$50 por persona al año</h3><p>O $5 al mes. Con el pago anual ahorras $10 por persona.</p></article>
-<article class="page-card"><h3>Desde dos plazas</h3><p>Un equipo de dos cuesta $100 al año, o $10 al mes. Cambia el número de plazas cuando quieras, hasta 500 por tu cuenta. Si necesitas más, <a href="mailto:business@nfc.cool">escríbenos</a>.</p></article>
+<article class="page-card"><h3>{{PRICE:seat:year}} por persona al año</h3><p>O {{PRICE:seat:month}} al mes. Con el pago anual ahorras {{PRICE:seat:saving}} por persona.</p></article>
+<article class="page-card"><h3>Desde dos plazas</h3><p>Un equipo de dos cuesta {{PRICE:seat:year:2}} al año, o {{PRICE:seat:month:2}} al mes. Cambia el número de plazas cuando quieras, hasta 500 por tu cuenta. Si necesitas más, <a href="mailto:business@nfc.cool">escríbenos</a>.</p></article>
 <article class="page-card"><h3>14 días gratis</h3><p>La prueba requiere una tarjeta bancaria. Se te cobra cuando termina, salvo que canceles. Cada persona solo tiene una prueba.</p></article>
 </div>
 
@@ -107,7 +107,7 @@ Las demás empresas que comparamos fijan sus precios de otra manera:
 
 <details class="faq-item">
 <summary>¿Cuánto cuesta?</summary>
-<p>$50 por persona al año, o $5 al mes. En euros, el precio para equipos es la misma cifra, y los precios incluyen el IVA. El equipo más pequeño es de dos plazas, es decir, $100 al año o $10 al mes.</p>
+<p>{{PRICE:seat:year}} por persona al año, o {{PRICE:seat:month}} al mes. Los precios incluyen el IVA. El equipo más pequeño es de dos plazas, es decir, {{PRICE:seat:year:2}} al año o {{PRICE:seat:month:2}} al mes.</p>
 </details>
 
 <details class="faq-item">

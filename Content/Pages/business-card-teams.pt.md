@@ -63,11 +63,11 @@ A [política de privacidade](/privacy/business-card/) explica como tratamos os d
 
 ## Quanto custa
 
-As equipas pagam por pessoa, por ano ou por mês. Em euros, o preço para equipas mantém o mesmo número, e os preços incluem IVA.
+As equipas pagam por pessoa, por ano ou por mês. Os preços incluem IVA.
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>$50 por pessoa e por ano</h3><p>Ou $5 por mês. Com o pagamento anual, poupa $10 por pessoa.</p></article>
-<article class="page-card"><h3>A partir de dois lugares</h3><p>Uma equipa de dois custa $100 por ano, ou $10 por mês. Altere o número de lugares a qualquer momento, até 500 por sua conta. Para mais, <a href="mailto:business@nfc.cool">escreva-nos</a>.</p></article>
+<article class="page-card"><h3>{{PRICE:seat:year}} por pessoa e por ano</h3><p>Ou {{PRICE:seat:month}} por mês. Com o pagamento anual, poupa {{PRICE:seat:saving}} por pessoa.</p></article>
+<article class="page-card"><h3>A partir de dois lugares</h3><p>Uma equipa de dois custa {{PRICE:seat:year:2}} por ano, ou {{PRICE:seat:month:2}} por mês. Altere o número de lugares a qualquer momento, até 500 por sua conta. Para mais, <a href="mailto:business@nfc.cool">escreva-nos</a>.</p></article>
 <article class="page-card"><h3>14 dias grátis</h3><p>O teste exige um cartão de pagamento. A cobrança é feita quando termina, a menos que cancele. Cada pessoa tem direito a um teste.</p></article>
 </div>
 
@@ -107,7 +107,7 @@ As outras empresas que comparámos definem os preços de outra forma:
 
 <details class="faq-item">
 <summary>Quanto custa?</summary>
-<p>$50 por pessoa e por ano, ou $5 por mês. Em euros, o preço para equipas mantém o mesmo número, e os preços incluem IVA. A equipa mais pequena tem dois lugares, ou seja, $100 por ano ou $10 por mês.</p>
+<p>{{PRICE:seat:year}} por pessoa e por ano, ou {{PRICE:seat:month}} por mês. Os preços incluem IVA. A equipa mais pequena tem dois lugares, ou seja, {{PRICE:seat:year:2}} por ano ou {{PRICE:seat:month:2}} por mês.</p>
 </details>
 
 <details class="faq-item">

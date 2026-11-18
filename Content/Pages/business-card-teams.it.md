@@ -63,11 +63,11 @@ Come trattiamo i dati del team e i lead che raccoglie lo spiega l'[informativa s
 
 ## Quanto costa
 
-I team pagano a persona, all'anno o al mese. In euro la cifra del piano Team è la stessa, e i prezzi includono l'IVA.
+I team pagano a persona, all'anno o al mese. I prezzi includono l'IVA.
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>$50 a persona all'anno</h3><p>Oppure $5 al mese. Pagando all'anno risparmi $10 a persona.</p></article>
-<article class="page-card"><h3>Da due posti</h3><p>Un team di due persone costa $100 all'anno, o $10 al mese. Cambia il numero di posti quando vuoi, fino a 500 in autonomia. Per averne di più, <a href="mailto:business@nfc.cool">scrivici</a>.</p></article>
+<article class="page-card"><h3>{{PRICE:seat:year}} a persona all'anno</h3><p>Oppure {{PRICE:seat:month}} al mese. Pagando all'anno risparmi {{PRICE:seat:saving}} a persona.</p></article>
+<article class="page-card"><h3>Da due posti</h3><p>Un team di due persone costa {{PRICE:seat:year:2}} all'anno, o {{PRICE:seat:month:2}} al mese. Cambia il numero di posti quando vuoi, fino a 500 in autonomia. Per averne di più, <a href="mailto:business@nfc.cool">scrivici</a>.</p></article>
 <article class="page-card"><h3>14 giorni gratis</h3><p>La prova richiede una carta di pagamento. L'addebito parte alla scadenza, a meno che tu non disdica. Ogni persona ha diritto a una sola prova.</p></article>
 </div>
 
@@ -107,7 +107,7 @@ Le altre aziende che abbiamo confrontato strutturano i prezzi in modo diverso:
 
 <details class="faq-item">
 <summary>Quanto costa?</summary>
-<p>$50 a persona all'anno, o $5 al mese. In euro la cifra del piano Team è la stessa, e i prezzi includono l'IVA. Il team più piccolo è di due posti, quindi $100 all'anno o $10 al mese.</p>
+<p>{{PRICE:seat:year}} a persona all'anno, o {{PRICE:seat:month}} al mese. I prezzi includono l'IVA. Il team più piccolo è di due posti, quindi {{PRICE:seat:year:2}} all'anno o {{PRICE:seat:month:2}} al mese.</p>
 </details>
 
 <details class="faq-item">

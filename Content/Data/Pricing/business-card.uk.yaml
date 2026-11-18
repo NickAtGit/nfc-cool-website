@@ -4,7 +4,7 @@ columns: ["Free", "Personal", "Pro", "Team"]
 columnPills: [is-free, is-personal, is-pro, is-team]
 rows:
   - label: "Ціна"
-    values: ["**$0**", "**$19,99 на рік**", "**$49,99 на рік**", "$50 за людину на рік або $5 на місяць"]
+    values: ["**$0**", "**$19,99 на рік**", "**$49,99 на рік**", "{{PRICE:seat:year}} за людину на рік або {{PRICE:seat:month}} на місяць"]
   - label: "Візитівки"
     values: ["1", "1", "10", "До 10 на людину"]
   - label: "Обмін, Apple Wallet і Google Wallet, QR режиму конференції, PIN-код, експорт даних"

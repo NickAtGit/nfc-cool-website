@@ -121,7 +121,7 @@ Gunakan keduanya. Saya membandingkan keduanya di [kartu nama NFC vs kode QR](/id
 
 ## Harga kartu nama digital
 
-Satu orang atau seluruh tim. Setiap kartu bisa disimpan sebagai kontak, termasuk di Free. Personal dan Pro, yang dibeli di aplikasi, menambahkan prospek, analitik, dan kartu tanpa nama kami. Tim mulai di web, gratis selama 14 hari, lalu membayar per orang, tahunan atau bulanan. Dalam euro, harga tim memakai angka yang sama. [Lihat harga tim dan perbandingannya](/id/business-card/teams/).
+Satu orang atau seluruh tim. Setiap kartu bisa disimpan sebagai kontak, termasuk di Free. Personal dan Pro, yang dibeli di aplikasi, menambahkan prospek, analitik, dan kartu tanpa nama kami. Tim mulai di web, gratis selama 14 hari, lalu membayar per orang, tahunan atau bulanan. [Lihat harga tim dan perbandingannya](/id/business-card/teams/).
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 

@@ -63,11 +63,11 @@ Single sign-on (SSO) dan sinkronisasi direktori (SCIM) disiapkan atas permintaan
 
 ## Berapa biayanya
 
-Tim membayar per orang, tahunan atau bulanan. Dalam euro, harga tim memakai angka yang sama, dan harga sudah termasuk PPN.
+Tim membayar per orang, tahunan atau bulanan. Harga sudah termasuk PPN.
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>$50 per orang per tahun</h3><p>Atau $5 per bulan. Membayar tahunan menghemat $10 per orang.</p></article>
-<article class="page-card"><h3>Mulai dua kursi</h3><p>Tim berisi dua orang berbiaya $100 per tahun, atau $10 per bulan. Ubah jumlah kursi kapan saja, hingga 500 secara mandiri. Untuk lebih dari itu, <a href="mailto:business@nfc.cool">tulis kepada kami</a>.</p></article>
+<article class="page-card"><h3>{{PRICE:seat:year}} per orang per tahun</h3><p>Atau {{PRICE:seat:month}} per bulan. Membayar tahunan menghemat {{PRICE:seat:saving}} per orang.</p></article>
+<article class="page-card"><h3>Mulai dua kursi</h3><p>Tim berisi dua orang berbiaya {{PRICE:seat:year:2}} per tahun, atau {{PRICE:seat:month:2}} per bulan. Ubah jumlah kursi kapan saja, hingga 500 secara mandiri. Untuk lebih dari itu, <a href="mailto:business@nfc.cool">tulis kepada kami</a>.</p></article>
 <article class="page-card"><h3>Gratis 14 hari</h3><p>Uji coba memerlukan kartu pembayaran. Anda ditagih saat uji coba berakhir, kecuali Anda membatalkan. Setiap orang mendapat satu kali uji coba.</p></article>
 </div>
 
@@ -107,7 +107,7 @@ Perusahaan lain yang kami bandingkan menetapkan harga paketnya secara berbeda:
 
 <details class="faq-item">
 <summary>Berapa biayanya?</summary>
-<p>$50 per orang per tahun, atau $5 per bulan. Dalam euro, harga tim memakai angka yang sama, dan harga sudah termasuk PPN. Tim terkecil adalah dua kursi, jadi $100 per tahun atau $10 per bulan.</p>
+<p>{{PRICE:seat:year}} per orang per tahun, atau {{PRICE:seat:month}} per bulan. Harga sudah termasuk PPN. Tim terkecil adalah dua kursi, jadi {{PRICE:seat:year:2}} per tahun atau {{PRICE:seat:month:2}} per bulan.</p>
 </details>
 
 <details class="faq-item">

@@ -36,7 +36,7 @@ export function formatPrice(data, amount, currency, locale) {
   let number = Number.isInteger(amount) ? String(amount) : amount.toFixed(2).replace('.', format.decimal);
   if (format.digits) number = number.replace(/[0-9]/g, d => format.digits[d]);
   const symbol = data.symbols[currency];
-  return format.symbol === 'after' ? `${number} ${symbol}` : `${symbol}${number}`;
+  return format.after.includes(currency) ? `${number}\u00A0${symbol}` : `${symbol}${number}`;
 }
 
 export function applyRegionPrices(root, data, lang) {

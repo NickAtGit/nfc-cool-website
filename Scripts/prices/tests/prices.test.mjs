@@ -75,6 +75,10 @@ test('formatPrice uses the shared per-language format, the same one the build us
   assert.equal(formatPrice(data, 50, 'usd', 'en'), '$50');
   assert.equal(formatPrice(data, 4.99, 'eur', 'de'), '4,99\u00A0€');
   assert.equal(formatPrice(data, 50, 'usd', 'ja'), '$50');
+  assert.equal(formatPrice(data, 50, 'usd', 'de'), '50\u00A0$', 'German puts every symbol after');
+  assert.equal(formatPrice(data, 50, 'usd', 'es'), '$50', 'as the Spanish pages write dollars');
+  assert.equal(formatPrice(data, 4.99, 'eur', 'es'), '4,99\u00A0€', 'but euros go after the number');
+  assert.equal(formatPrice(data, 50, 'usd', 'ar'), '$٥٠', 'as the Arabic pages write it');
   assert.equal(formatPrice(data, 3.49, 'gbp', 'fr'), '3,49\u00A0£');
   const ar = formatPrice(data, 4.99, 'eur', 'ar');
   assert.doesNotMatch(ar, /[0-9]/);

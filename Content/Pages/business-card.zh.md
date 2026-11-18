@@ -121,7 +121,7 @@ NFC.cool Business Card 把你的名片装进手机，个人和团队都能用。
 
 ## 电子名片价格
 
-适合个人，也适合整个团队。每张名片都可以保存为联系人，Free 版也不例外。Personal 和 Pro 增加了线索功能、数据分析和不带我们名称的名片，在 App 内购买。团队版在网页端开通，可免费使用 14 天，之后按人数付费，可选按年或按月。以欧元计价时，团队价格的数字相同。[查看团队价格及其对比](/zh/business-card/teams/)。
+适合个人，也适合整个团队。每张名片都可以保存为联系人，Free 版也不例外。Personal 和 Pro 增加了线索功能、数据分析和不带我们名称的名片，在 App 内购买。团队版在网页端开通，可免费使用 14 天，之后按人数付费，可选按年或按月。[查看团队价格及其对比](/zh/business-card/teams/)。
 
 <div class="pricing-table-mount">{{PRICING_TABLE:business-card}}</div>
 

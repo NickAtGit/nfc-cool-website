@@ -42,3 +42,29 @@ test('no {{PRICE: token is left in any built page', { skip: !built }, () => {
   const left = htmlFiles().filter(file => readFileSync(file, 'utf8').includes('{{PRICE:'));
   assert.deepEqual(left, []);
 });
+
+const LANGS = ['', 'de/', 'ja/', 'pt/', 'zh/', 'id/', 'es/', 'fr/', 'ar/', 'it/', 'tr/', 'ru/', 'uk/'];
+// The "in euros it is the same number" sentence each language had, now that the page shows the
+// visitor's own currency (the first words of each are enough to find it).
+const SAME_NUMBER = ['the same number', 'dieselbe Zahl', 'チーム料金の数字は同じ', 'mantém o mesmo número', '团队价格的数字相同',
+  'memakai angka yang sama', 'es la misma cifra', 'affiche le même chiffre', 'بالرقم نفسه', 'è la stessa', 'aynı rakamdır',
+  'цифры те же', 'цифри ті самі'];
+
+test('Teams and Business Card pages use region-aware seat prices in every language', { skip: !built }, () => {
+  for (const lang of LANGS) {
+    for (const page of ['business-card/teams/index.html', 'business-card/index.html']) {
+      const html = read(lang + page);
+      assert.match(html, /data-price="seat"/, `${lang}${page} has no seat price span`);
+      for (const phrase of SAME_NUMBER) assert.ok(!html.includes(phrase), `${lang}${page} still says "${phrase}"`);
+    }
+  }
+});
+
+test('the competitor comparison on Teams stays in the dollars each company listed', { skip: !built }, () => {
+  for (const lang of LANGS) {
+    const html = read(lang + 'business-card/teams/index.html');
+    const tables = html.split('class="feature-pricing-table"').slice(1).map(t => t.split('</table>')[0]);
+    assert.ok(tables.length >= 1, `${lang} Teams has no comparison table`);
+    for (const table of tables) assert.doesNotMatch(table, /data-price=/, `${lang} comparison table has a region-aware price`);
+  }
+});
