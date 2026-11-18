@@ -200,7 +200,9 @@ struct MarketingPageRenderer: Renderer {
       // (e.g. the business-card plan comparison) into generated table HTML,
       // and any `{{TEAM_BUTTON}}` into the shared "Start a team" badge.
       let withTables = try PricingTableRenderer.resolvePricingTokens(in: page.htmlContent, locale: page.locale, context: context)
-      let body = TeamButton.resolveTokens(in: withTables, context: context)
+      let withButton = TeamButton.resolveTokens(in: withTables, context: context)
+      // `{{PRICE:…}}` last, so tokens inside pricing-table cells are resolved too.
+      let body = try PriceToken.resolveTokens(in: withButton, locale: page.locale, context: context)
       // Nested slugs (`apps/qr-code-scanner`) carry a `/`, which is not valid
       // inside a CSS class name - flatten it for the styling hooks.
       let cssSlug = page.slug.replacingOccurrences(of: "/", with: "-")
