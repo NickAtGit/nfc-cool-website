@@ -1,7 +1,7 @@
 ---
 title: "开发者"
 slug: "developers"
-description: "如何把 NFC.cool 接入你的技术栈：webhook 载荷参考、App Intents、URL scheme、机器可读的数据源，以及在 iPhone 和 Android 上进行服务端集成所需的一切。"
+description: "如何把 NFC.cool 接入你的技术栈：webhook 载荷参考、App Intents、URL scheme、为你自己的 App 或网页读取标签 ID、机器可读的数据源，以及在 iPhone 和 Android 上进行服务端集成所需的一切。"
 ---
 
 <section class="page-hero">
@@ -268,6 +268,18 @@ nfcforiphone://scan-room         (iOS 17+)
 ```
 
 打开其中任意一个都会直接跳进对应的扫描器。`nfc://` 和 `geo://` scheme 也已注册，用于接管外部的标签 / 坐标链接。
+
+如果想让 NFC.cool 为你自己的 App 或网页扫描标签并把它的 ID 发给你，请使用 [`read-uid`](/zh/x-callback-url/#read-uid)。
+
+</section>
+
+<section class="page-section" id="read-uid">
+
+## 从你的 App 或网页读取标签 ID
+
+只需一个链接，就能让 NFC.cool 扫描一枚标签并把它的 UID 交还给你；加上 `ndef=1` 时，还会附带标签的 NDEF 消息。它可以从 iPhone 上的任何网页或 App 发起，除了安装 NFC.cool 之外无需任何设置。该链接遵循 [x-callback-url](https://x-callback-url.com) 约定。为其他 App 和网站读取标签属于 NFC.cool Business 的功能，即 iPhone 版 NFC.cool 的企业授权：如需开通，请[给我们写信](mailto:info@nfc.cool?subject=NFC.cool%20Business)。
+
+<a href="/zh/x-callback-url/#read-uid" class="landing-cta-button">查看文档</a>
 
 </section>
 

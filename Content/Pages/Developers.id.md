@@ -1,7 +1,7 @@
 ---
 title: "Pengembang"
 slug: "developers"
-description: "Cara menghubungkan NFC.cool ke stack Anda - referensi payload webhook, App Intents, skema URL, umpan yang dapat dibaca mesin, dan semua yang Anda butuhkan untuk integrasi sisi server di iPhone dan Android."
+description: "Cara menghubungkan NFC.cool ke stack Anda - referensi payload webhook, App Intents, skema URL, membaca ID tag untuk aplikasi atau halaman web Anda sendiri, umpan yang dapat dibaca mesin, dan semua yang Anda butuhkan untuk integrasi sisi server di iPhone dan Android."
 ---
 
 <section class="page-hero">
@@ -268,6 +268,18 @@ nfcforiphone://scan-room         (iOS 17+)
 ```
 
 Membuka salah satu dari ini langsung masuk ke pemindai yang sesuai. Skema `nfc://` dan `geo://` juga didaftarkan untuk meneruskan tautan tag/koordinat eksternal.
+
+Agar NFC.cool memindai tag untuk aplikasi atau halaman web Anda sendiri dan mengirimkan ID-nya kepada Anda, gunakan [`read-uid`](/id/x-callback-url/#read-uid).
+
+</section>
+
+<section class="page-section" id="read-uid">
+
+## Membaca ID tag dari aplikasi atau halaman web Anda
+
+Sebuah tautan meminta NFC.cool memindai satu tag dan mengembalikan UID-nya kepada Anda, dan dengan `ndef=1` juga pesan NDEF tag tersebut. Ini berfungsi dari halaman web atau aplikasi apa pun di iPhone, tanpa pengaturan apa pun selain memasang NFC.cool. Tautan ini mengikuti konvensi [x-callback-url](https://x-callback-url.com). Membaca tag untuk aplikasi dan situs web lain adalah bagian dari NFC.cool Business, lisensi perusahaan untuk NFC.cool di iPhone: [hubungi kami](mailto:info@nfc.cool?subject=NFC.cool%20Business) untuk mendapatkannya.
+
+<a href="/id/x-callback-url/#read-uid" class="landing-cta-button">Baca dokumentasi</a>
 
 </section>
 

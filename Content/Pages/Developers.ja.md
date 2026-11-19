@@ -1,7 +1,7 @@
 ---
 title: "開発者向け"
 slug: "developers"
-description: "NFC.coolをあなたのスタックへ接続する方法 - Webhookペイロードのリファレンス、App Intents、URLスキーム、機械可読フィードなど、iPhoneとAndroidでのサーバーサイド連携に必要なすべて。"
+description: "NFC.coolをあなたのスタックへ接続する方法 - Webhookペイロードのリファレンス、App Intents、URLスキーム、自分のアプリやWebページ向けのタグID読み取り、機械可読フィードなど、iPhoneとAndroidでのサーバーサイド連携に必要なすべて。"
 ---
 
 <section class="page-hero">
@@ -268,6 +268,18 @@ nfcforiphone://scan-room         (iOS 17+)
 ```
 
 いずれを開いても、対応するスキャナーが直接立ち上がります。`nfc://`と`geo://`スキームも登録されており、外部のタグ/座標リンクの受け渡しに対応します。
+
+NFC.coolにタグをスキャンさせ、そのIDを自分のアプリやWebページで受け取るには、[`read-uid`](/ja/x-callback-url/#read-uid)を使います。
+
+</section>
+
+<section class="page-section" id="read-uid">
+
+## アプリやWebページからタグのIDを読み取る
+
+リンクひとつで、NFC.coolにタグを1枚スキャンさせ、そのUIDを受け取れます。`ndef=1`を付ければ、タグのNDEFメッセージも受け取れます。iPhone上のどのWebページやアプリからでも使え、NFC.coolをインストールする以外の準備は要りません。リンクは[x-callback-url](https://x-callback-url.com)の規約に従います。他のアプリやWebサイトのためのタグ読み取りは、iPhone版NFC.coolの法人向けライセンスであるNFC.cool Businessに含まれます。ご希望の方は[お問い合わせください](mailto:info@nfc.cool?subject=NFC.cool%20Business)。
+
+<a href="/ja/x-callback-url/#read-uid" class="landing-cta-button">ドキュメントを見る</a>
 
 </section>
 

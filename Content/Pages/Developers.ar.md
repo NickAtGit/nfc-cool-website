@@ -1,7 +1,7 @@
 ---
 title: "المطوّرون"
 slug: "developers"
-description: "كيفية ربط NFC.cool بمنظومتك التقنية - مرجع حمولة الـwebhook، وApp Intents، ومخطّطات URL، والخلاصات القابلة للقراءة آليًا، وكل ما تحتاجه للتكامل من جهة الخادم على iPhone و Android."
+description: "كيفية ربط NFC.cool بمنظومتك التقنية - مرجع حمولة الـwebhook، وApp Intents، ومخطّطات URL، وقراءة معرّفات الوسوم لتطبيقك أو صفحة الويب الخاصة بك، والخلاصات القابلة للقراءة آليًا، وكل ما تحتاجه للتكامل من جهة الخادم على iPhone و Android."
 ---
 
 <section class="page-hero">
@@ -268,6 +268,18 @@ nfcforiphone://scan-room         (iOS 17+)
 ```
 
 يؤدي فتح أيٍّ منها إلى الانتقال مباشرةً إلى الماسح المطابق. كما يُسجَّل المخطّطان `nfc://` و`geo://` لتمرير روابط الوسوم/الإحداثيات الخارجية.
+
+لكي يقرأ NFC.cool وسمًا لصالح تطبيقك أو صفحة الويب الخاصة بك ويرسل إليك معرّفه، استخدم [`read-uid`](/ar/x-callback-url/#read-uid).
+
+</section>
+
+<section class="page-section" id="read-uid">
+
+## قراءة معرّف الوسم من تطبيقك أو صفحة الويب الخاصة بك
+
+يطلب الرابط من NFC.cool أن يقرأ وسمًا واحدًا ويعيد إليك معرّفه UID، ومع `ndef=1` يعيد رسالة NDEF المخزّنة على الوسم أيضًا. يعمل الرابط من أي صفحة ويب أو تطبيق على iPhone، ولا يحتاج إلى أي إعداد سوى تثبيت NFC.cool. ويتبع الرابط اصطلاح [x-callback-url](https://x-callback-url.com). قراءة الوسوم لصالح تطبيقات ومواقع أخرى جزء من NFC.cool Business، ترخيص الشركات لـNFC.cool على iPhone: [راسلنا](mailto:info@nfc.cool?subject=NFC.cool%20Business) للحصول عليه.
+
+<a href="/ar/x-callback-url/#read-uid" class="landing-cta-button">اقرأ التوثيق</a>
 
 </section>
 
