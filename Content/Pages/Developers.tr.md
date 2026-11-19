@@ -1,7 +1,7 @@
 ---
 title: "Geliştiriciler"
 slug: "developers"
-description: "NFC.cool'u kendi sistemine nasıl bağlarsın: webhook yükü belgeleri, App Intents, URL şemaları, makine tarafından okunabilir akışlar ve iPhone ile Android'de sunucu tarafı entegrasyon için gereken her şey."
+description: "NFC.cool'u kendi sistemine nasıl bağlarsın: webhook yükü belgeleri, App Intents, URL şemaları, kendi uygulaman ya da web sayfan için tag kimliği okuma, makine tarafından okunabilir akışlar ve iPhone ile Android'de sunucu tarafı entegrasyon için gereken her şey."
 ---
 
 <section class="page-hero">
@@ -268,6 +268,18 @@ nfcforiphone://scan-room         (iOS 17+)
 ```
 
 Bunlardan herhangi birini açmak doğrudan ilgili tarayıcıya götürür. Dışarıdan gelen tag ve konum bağlantılarını devralmak için `nfc://` ve `geo://` şemaları da kayıtlıdır.
+
+NFC.cool'a kendi uygulaman ya da web sayfan için tag okutup kimliğini almak istiyorsan [`read-uid`](/tr/x-callback-url/#read-uid) kullan.
+
+</section>
+
+<section class="page-section" id="read-uid">
+
+## Uygulamandan ya da web sayfandan tag kimliği okuma
+
+Bir bağlantıyla NFC.cool'dan tek bir tag okumasını ve UID'sini sana geri vermesini istersin; `ndef=1` eklersen tag'in NDEF mesajı da gelir. iPhone'daki her web sayfasından ve uygulamadan çalışır, NFC.cool'u yüklemek dışında hiçbir kurulum gerektirmez. Bağlantı [x-callback-url](https://x-callback-url.com) kuralına uyar. Başka uygulamalar ve web siteleri için tag okuma, NFC.cool'un iPhone'daki şirket lisansı NFC.cool Business'ın parçasıdır: lisans için [bize yaz](mailto:info@nfc.cool?subject=NFC.cool%20Business).
+
+<a href="/tr/x-callback-url/#read-uid" class="landing-cta-button">Belgelere git</a>
 
 </section>
 

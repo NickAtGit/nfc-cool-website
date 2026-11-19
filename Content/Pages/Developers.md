@@ -1,7 +1,7 @@
 ---
 title: "Developers"
 slug: "developers"
-description: "How to plug NFC.cool into your stack - webhook payload reference, App Intents, URL schemes, machine-readable feeds, and everything you need for server-side integration on iPhone and Android."
+description: "How to plug NFC.cool into your stack - webhook payload reference, App Intents, URL schemes, reading tag IDs for your own app or web page, machine-readable feeds, and everything you need for server-side integration on iPhone and Android."
 ---
 
 <section class="page-hero">
@@ -268,6 +268,18 @@ nfcforiphone://scan-room         (iOS 17+)
 ```
 
 Opening any of these jumps straight into the matching scanner. The `nfc://` and `geo://` schemes are also registered for handing off external tag/coordinate links.
+
+To have NFC.cool scan a tag for your own app or web page and send you its ID, use [`read-uid`](/x-callback-url/#read-uid).
+
+</section>
+
+<section class="page-section" id="read-uid">
+
+## Read a tag's ID from your app or web page
+
+A link asks NFC.cool to scan one tag and hand its UID back to you, and with `ndef=1` the tag's NDEF message too. It works from any web page or app on the iPhone, with nothing to set up beyond installing NFC.cool. The link follows the [x-callback-url](https://x-callback-url.com) convention. Reading tags for other apps and websites is part of NFC.cool Business, the company licence for NFC.cool on iPhone: [write to us](mailto:info@nfc.cool?subject=NFC.cool%20Business) for one.
+
+<a href="/x-callback-url/#read-uid" class="landing-cta-button">Read the docs</a>
 
 </section>
 

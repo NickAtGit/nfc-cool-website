@@ -24,6 +24,8 @@ enOnly:
     - "Content/Changelog"
   files:
     - "Content/Pages/Privacy.md"
+    - "Content/Pages/XCallbackURLReadUID.md"
+    - "Content/Pages/BusinessLicence.md"
     - "Content/Pages/privacy-business-card.md"
     - "Content/Pages/privacy-lost-pet-tag.md"
     - "Content/Pages/privacy-1st-class.md"
