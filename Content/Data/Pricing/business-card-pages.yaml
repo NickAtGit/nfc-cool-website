@@ -1,0 +1,28 @@
+# Plan comparison for /business-card/pages/. Rendered by PricingTableRenderer via the
+# {{PRICING_TABLE:business-card-pages}} token in Content/Pages/business-card-pages.md.
+# Every row was checked against the service (business_card_service, feat/page-tab, 2026-11-18):
+# levels in web/page_plan/models.py, gates in web/blocks/services/page_plan.py, gate.py,
+# requests.py (held requests, 7 days) and ordering.py. Prices are {{PRICE:…}} tokens, so they
+# follow the visitor's region (Content/StaticFiles/prices/prices.json). Service keys: page_pro is
+# Page Plus, page_ordering is Page Pro.
+columns: ["Free", "Page", "Page Plus", "Page Pro"]
+columnPills: ["is-free", "is-personal", "is-pro", "is-team"]
+rows:
+  - label: "Price"
+    values: ["**{{PRICE:page:month:0}}**", "{{PRICE:page:month}} a month, or {{PRICE:page:year}} a year", "{{PRICE:page_pro:month}} a month, or {{PRICE:page_pro:year}} a year", "{{PRICE:page_ordering:month}} a month, or {{PRICE:page_ordering:year}} a year"]
+  - label: "Your page live, built from your website, Google listing or Instagram"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Menus with allergens, photos, PDFs, opening hours"
+    values: ["✓", "✓", "✓", "✓"]
+  - label: "Quotes and messages from customers"
+    values: ["Held for 7 days", "✓", "✓", "✓"]
+  - label: "Booking requests"
+    values: ["Held for 7 days", "Held for 7 days", "✓", "✓"]
+  - label: "Guests order and call staff from the table, by NFC tag or QR code"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "Tablet screens for orders, staff and order insights"
+    values: ["✗", "✗", "✗", "✓"]
+  - label: "No \"Made with NFC.cool\" on your page"
+    values: ["✗", "✓", "✓", "✓"]
+  - label: "Where to get it"
+    values: ["In the app", "In the app, or on the web with 14 days free", "In the app, or on the web with 14 days free", "In the app, or on the web with 14 days free"]

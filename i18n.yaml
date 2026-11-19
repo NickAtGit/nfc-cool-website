@@ -23,6 +23,8 @@ enOnly:
   roots:
     - "Content/Changelog"
   files:
+    - "Content/Pages/business-card-pages.md"   # unlisted until Pages launches; translate after
+    - "Content/Data/Pricing/business-card-pages.yaml"
     - "Content/Pages/Privacy.md"
     - "Content/Pages/privacy-business-card.md"
     - "Content/Pages/privacy-lost-pet-tag.md"

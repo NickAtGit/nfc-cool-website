@@ -68,3 +68,26 @@ test('the competitor comparison on Teams stays in the dollars each company liste
     for (const table of tables) assert.doesNotMatch(table, /data-price=/, `${lang} comparison table has a region-aware price`);
   }
 });
+
+// /business-card/pages/ is live but unlisted until Pages ships in the apps (spec 2026-11-18).
+test('the Pages page is built, unlisted and priced', { skip: !built }, () => {
+  const path = 'business-card/pages/index.html';
+  assert.ok(existsSync(join(site, path)), 'no /business-card/pages/');
+  const html = read(path);
+  assert.match(html, /<meta name="robots" content="noindex, follow"\/>/);
+  for (const file of readdirSync(site).filter(f => /^sitemap.*\.xml$/.test(f))) {
+    assert.ok(!read(file).includes('/business-card/pages/'), `${file} lists the unlisted page`);
+  }
+  if (existsSync(join(site, 'llms.txt'))) assert.ok(!read('llms.txt').includes('/business-card/pages/'), 'llms.txt lists it');
+  const linkers = htmlFiles().filter(f => !f.includes('/business-card/pages/'))
+    .filter(f => /href="(https:\/\/nfc\.cool)?\/business-card\/pages\/?["?#]/.test(readFileSync(f, 'utf8')));
+  assert.deepEqual(linkers, [], 'another page links to it');
+
+  const table = html.split('class="feature-pricing-table"')[1]?.split('</table>')[0] ?? '';
+  const columns = [...table.split('</thead>')[0].matchAll(/platform-pill-label">([^<]*)</g)].map(m => m[1]);
+  assert.deepEqual(columns, ['Free', 'Page', 'Page Plus', 'Page Pro']);
+  for (const product of ['page', 'page_pro', 'page_ordering']) assert.match(html, new RegExp(`data-price="${product}"`), product);
+  assert.match(html, /href="https:\/\/business\.nfc\.cool\/org\/start\/page\/"/);
+  assert.match(html, /<script type="module" src="\/pages\/make-page\.mjs"><\/script>/);
+  assert.ok(!html.includes('Page Ordering'), 'legacy plan name');
+});

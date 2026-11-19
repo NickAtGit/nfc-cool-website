@@ -13,14 +13,24 @@ struct LlmsTxtFeaturesProcessor: OutputProcessor {
    func process(outputDirectory: URL, projectDirectory: URL, themeConfig: ThemeConfig?) throws {
       let llmsURL = outputDirectory.appendingPathComponent("llms.txt")
       guard var content = try? String(contentsOf: llmsURL, encoding: .utf8) else { return }
-      // Idempotent: skip if a previous run (or a future SiteKit version) already
-      // emitted a Features section.
-      guard !content.contains("## Features") else { return }
 
       let configURL = projectDirectory.appendingPathComponent("SiteConfig.yaml")
       guard let configData = try? Data(contentsOf: configURL),
             let config = try? YAMLDecoder().decode(SiteConfigSubset.self, from: configData)
       else { return }
+
+      // Unlisted pages (campaigns, pages waiting for a launch) are kept out of search and the
+      // sitemaps, so they stay out of llms.txt too.
+      let unlisted = MarketingPageRenderer.unlistedSlugs.map { "](\(config.baseURL)/\($0)/)" }
+      let kept = content.components(separatedBy: "\n").filter { line in !unlisted.contains { line.contains($0) } }
+      content = kept.joined(separator: "\n")
+
+      // Idempotent: skip if a previous run (or a future SiteKit version) already
+      // emitted a Features section.
+      guard !content.contains("## Features") else {
+         try content.write(to: llmsURL, atomically: true, encoding: .utf8)
+         return
+      }
 
       let featuresDir = projectDirectory
          .appendingPathComponent("Content")

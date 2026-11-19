@@ -20,7 +20,7 @@ import SiteKit
 /// rules.
 struct MarketingPageRenderer: Renderer {
    /// Pages that render normally but stay out of search and the sitemap.
-   static let unlistedSlugs: Set<String> = ["websummit26"]
+   static let unlistedSlugs: Set<String> = ["websummit26", "business-card/pages"]
 
    func render(context: BuildContext) throws -> [OutputFile] {
       let helper = OutputFileRenderer(context: context)
