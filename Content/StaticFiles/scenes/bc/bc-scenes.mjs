@@ -1082,7 +1082,7 @@ function prop(name, size, only, flat) {
     o.castShadow = o.receiveShadow = true;
     ['map', 'normalMap', 'roughnessMap', 'metalnessMap'].forEach(k => { if (o.material[k]) o.material[k].anisotropy = 16; });
     // Glass: the page has nothing to refract, so lenses are a thin coat with highlights.
-    if ((name === 'round_spectacles' || name === 'alarm_clock_01') && (o.material.transmission > 0 || /glass|lens/i.test(o.material.name))) { o.material = o.material.clone(); o.material.transmission = 0; o.material.transparent = true; o.material.opacity = .14; o.material.roughness = .06; o.material.color.set('#E8EEF4'); o.material.depthWrite = false; o.castShadow = false; }
+    if ((name === 'round_spectacles' || name === 'alarm_clock_01' || name === 'restaurant_table') && (o.material.transmission > 0 || /glass|lens/i.test(o.material.name))) { o.material = o.material.clone(); o.material.transmission = 0; o.material.transparent = true; o.material.opacity = .14; o.material.roughness = .06; o.material.color.set('#E8EEF4'); o.material.depthWrite = false; o.castShadow = false; }
   });
   const inner = new Group();
   inner.add(root);
@@ -3445,14 +3445,195 @@ Object.assign(PRO, {
   },
 });
 Object.assign(SCENES, PRO);
+// ---- /business-card/pages/: the business page scenes. The screens are the real page renderer's, with made-up businesses;
+// the props are scanned (Poly Haven, CC0), like the Business Card page's. ----
+// An iOS-style notification over a screen, in the 440 x 956 points the screenshots map to.
+function noteOn(x, W, H, initial, color, title, body) {
+  x.save(); x.scale(W / 440, H / 956);
+  x.save(); x.shadowColor = 'rgba(0,0,0,.18)'; x.shadowBlur = 18; x.shadowOffsetY = 4;
+  box(x, 12, 58, 416, 82, 26, 'rgba(250,250,252,.97)', 'rgba(0,0,0,.06)', 1);
+  x.restore();
+  x.beginPath(); x.arc(50, 99, 22, 0, 7); x.fillStyle = color; x.fill();
+  say(x, initial, 50, 107, `700 21px ${SYS}`, '#fff');
+  say(x, title, 86, 90, `600 16px ${SYS}`, '#111', 'left');
+  say(x, body, 86, 114, `400 14px ${SYS}`, '#3A3A3C', 'left');
+  x.restore();
+}
+// A green check over a whitened screen: the request is sent.
+function sentCheck(ph) {
+  const front = frontOf(ph);
+  const check = new Mesh(new PlaneGeometry(1.5, 1.5), new MeshBasicMaterial({ map: tex(512, 512, (x, W, H) => {
+    x.clearRect(0, 0, W, H);
+    x.beginPath(); x.arc(W / 2, H / 2, W * .46, 0, 7); x.fillStyle = '#34C759'; x.fill();
+    x.strokeStyle = '#fff'; x.lineWidth = W * .085; x.lineCap = x.lineJoin = 'round';
+    x.beginPath(); x.moveTo(W * .29, H * .52); x.lineTo(W * .44, H * .67); x.lineTo(W * .72, H * .36); x.stroke();
+  }), transparent: true, depthWrite: false, toneMapped: false }));
+  check.position.set(0, 0, front + .004); check.renderOrder = 4;
+  const veil = new Mesh(faceGeo(2.3, 4.9, .3), new MeshBasicMaterial({ color: '#fff', transparent: true, depthWrite: false, toneMapped: false }));
+  veil.position.z = front + .002; veil.renderOrder = 3;
+  ph.add(veil, check);
+  return on => { check.visible = veil.visible = on > .01; check.scale.setScalar(Math.max(on, .001)); veil.material.opacity = Math.min(1, Math.max(on, 0)) * .78; };
+}
+// https://mycard.nfc.cool/JohnAppleseed/LumenCoffeeHouse (QR version 4, level M): the demo page on the demo account
+// (business_card_service: manage.py seed_demo_page). Regenerate both together if the address changes.
+const DEMO_QR = ['111111100001001010111001001111111', '100000100101000111101010101000001', '101110101011101100011111101011101', '101110101101100101011010101011101', '101110101011101111111101001011101', '100000101011100001001110001000001', '111111101010101010101010101111111', '000000001011100010001101100000000', '101111100111111001000000001111100', '101001000011111110111101001101111', '000000101001111100001010011010110', '001110000110010010010100100011110', '110101100010101010101010110101010', '010010001111110101111000011000111', '010110101010000110001010111011010', '111000011011001100111101011011100', '000110111111011101110011110110001', '101011011011100010111101001101101', '001011110001101100100010010110110', '001110000011001100111101110111100', '001010101000110000110010110111011', '111010011100010111111001001101101', '101010110110001001000010011101110', '100000001011001010000100010001101', '101011100110111000010010111110010', '000000001010011011110100100010101', '111111100110011111001111101010110', '100000101000100011110111100011100', '101110101010010010000010111111000', '101110101101010101101101110011111', '101110101100001111101010011101100', '100000100010010100101100011011100', '111111101100010101000011110100010'];
+// Lumen's menu, chalked on the menu board's slate: a thin layer laid flush on the slate's front face.
+function chalkMenu(board) {
+  board.updateWorldMatrix(true, true);
+  const bb = new Box3().setFromObject(board), dim = bb.getSize(new Vector3()), mid = bb.getCenter(new Vector3());
+  const W = dim.x * CHALK.w, H = dim.y * CHALK.h, cy = mid.y + dim.y * CHALK.y;
+  const hit = new THREE.Raycaster(new Vector3(mid.x, cy, 40), new Vector3(0, 0, -1)).intersectObject(board, true)[0];
+  if (!hit) return;
+  const n = hit.face.normal.clone().transformDirection(hit.object.matrixWorld).normalize();
+  const map = tex(1024, Math.round(1024 * H / W), (x, w, h) => {
+    x.clearRect(0, 0, w, h);
+    const ink = 'rgba(244,242,236,.9)', u = w / 100;
+    say(x, 'Lumen', w / 2, h * .075, `700 ${16 * u}px ${TW}`, ink);
+    say(x, 'coffee house', w / 2, h * .135, `400 ${6.2 * u}px ${TW}`, ink);
+    x.strokeStyle = ink; x.lineWidth = .7 * u; x.beginPath(); x.moveTo(w * .26, h * .165); x.quadraticCurveTo(w * .5, h * .18, w * .74, h * .162); x.stroke();
+    [['Flat white', '3.60'], ['Oat cortado', '3.40'], ['Iced maple latte', '4.50'], ['Sourdough toast', '5.50']].forEach(([a, b], i) => {
+      const y = h * (.23 + i * .07);
+      say(x, a, w * .06, y, `400 ${8.8 * u}px ${TW}`, ink, 'left');
+      say(x, b, w * .94, y, `600 ${8.8 * u}px ${TW}`, ink, 'right');
+    });
+    // Chalk is never solid: knock small grains out of every stroke.
+    x.globalCompositeOperation = 'destination-out';
+    let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    for (let i = 0; i < 26000; i++) { x.fillStyle = `rgba(0,0,0,${.35 + rnd() * .5})`; x.fillRect(rnd() * w, rnd() * h, 1 + rnd() * 2.2, 1 + rnd() * 1.6); }
+    x.globalCompositeOperation = 'source-over';
+    // A printed QR card on the slate, after the grain so the code stays clean enough to scan.
+    // Centred under the menu, with "Scan here for our page" below it.
+    const n = DEMO_QR.length, base = h * .9, side = Math.min(w * .6, base - 12 * u - h * .47), cell = side / (n + 8);
+    const cx = (w - side) / 2, cy = base - 12 * u - side;
+    x.save(); x.shadowColor = 'rgba(0,0,0,.35)'; x.shadowBlur = 2 * u; x.shadowOffsetY = .5 * u;
+    x.fillStyle = '#FBFAF6'; x.beginPath(); x.roundRect(cx, cy, side, side, 1.2 * u); x.fill(); x.restore();
+    x.fillStyle = '#16181C';
+    DEMO_QR.forEach((row, j) => [...row].forEach((v, i) => { if (v === '1') x.fillRect(cx + (i + 4) * cell, cy + (j + 4) * cell, cell + .6, cell + .6); }));
+    say(x, 'Scan here for our page', w / 2, base, `400 ${8.6 * u}px ${TW}`, ink);
+  });
+  map.anisotropy = 16;
+  const m = new Mesh(new PlaneGeometry(W, H), new MeshBasicMaterial({ map, transparent: true, depthWrite: false, toneMapped: false }));
+  m.quaternion.setFromUnitVectors(new Vector3(0, 0, 1), n);
+  m.position.copy(hit.point).addScaledVector(n, .012);
+  board.add(m);
+}
+const CHALK = { w: .64, h: .74, y: .05 };
+const PAGES = {
+  // At the counter: the phone taps the NFC.cool card beside the till, the business's page opens, moves on to the menu, and a booking request comes in.
+  page() {
+    const D = 10;
+    return floating(D, 7.5, root => {
+      const cup = prop('restaurant_table', 4.3), card = fanCard(4, 2.3), spot = corner(card, 2.3);
+      const note = screenTex((x, W, H) => { x.drawImage(images['page-cafe-menu'], 0, 0, W, H); noteOn(x, W, H, 'L', '#B4562F', 'New booking request', 'Table for 2, Saturday at 19:00'); });
+      const ph = phone(5.05, [lockOf(undefined, 'ember'), shot('page-cafe-page'), shot('page-cafe-menu'), note]);
+      root.add(cup, card, ph);
+      const END = D - .85;
+      return t => {
+        const w = t / D * Math.PI * 2;
+        cup.position.set(-1.95, -1.55 + Math.sin(w) * .04, -1.2); cup.rotation.set(0, .5 + Math.sin(w) * .25, 0);
+        card.position.set(-1.55, 1.95 + Math.sin(w * 2 + 2) * .05, .7); card.rotation.set(-.08, .3, .06);
+        const go = tapGo(1.6, 2.1, 2.7, 3.5, t);
+        reach(ph, root, spot, go, .92, REST2, 1.8, { roll: .6 });
+        ph.position.y += Math.sin(w + 1) * .05 * (1 - go);
+        if (t < 4.7) opens(ph, t, 2.25, D);
+        else if (t < 6.7) ph.screen.show(1, 2, ss(4.7, 5.5, t), 1);
+        else if (t < END) ph.screen.show(2, 3, ss(6.7, 7.1, t));
+        else ph.screen.show(0, 3, 1 - ss(END, D - .25, t));
+        const kick = hitDecay(t - 6.8);
+        ph.position.z += kick * .08; ph.rotation.y += kick * .04;
+      };
+    });
+  },
+  // The menu board from the pavement and the menu on the phone: the board turns slowly, the page moves down to the menu and back up.
+  'page-food'() {
+    const D = 9;
+    return floating(D, 4.6, root => {
+      const board = prop('standing_chalkboard_01', 4.8);
+      chalkMenu(board);
+      const ph = phone(5.05, [shot('page-cafe-page'), shot('page-cafe-menu')]);
+      root.add(board, ph);
+      return t => {
+        const w = t / D * Math.PI * 2;
+        board.position.set(-2.3, -.1 + Math.sin(w) * .04, -1.4); board.rotation.set(.04, .55 + Math.sin(w) * .2, 0);
+        ph.position.set(2.05, Math.sin(w + 1) * .06, .9); ph.rotation.set(-.05, -.26 + Math.cos(w) * .03, .04);
+        ph.screen.show(0, 1, ss(2.4, 3.3, t) * (1 - ss(D - 1.6, D - .7, t)), 1);
+      };
+    });
+  },
+  // The salon chair turns slowly; on the phone a time is picked and the request is sent.
+  'page-booking'() {
+    const D = 9;
+    return floating(D, 3.8, root => {
+      const chair = prop('BarberShopChair_01', 4.4);
+      const ph = phone(5.05, [shot('page-salon-booking')]);
+      const press = pressFor(ph), sent = sentCheck(ph);
+      root.add(chair, ph);
+      const PICK = 3.2;
+      return t => {
+        const w = t / D * Math.PI * 2;
+        chair.position.set(-2.3, -.2 + Math.sin(w) * .04, -1.5); chair.rotation.set(.12, -.6 + w, 0);
+        ph.position.set(1.95, Math.sin(w + 1) * .05, .9); ph.rotation.set(-.05, -.24 + Math.cos(w) * .03, .04);
+        press(t, [[PICK, .8, -2.16]]);
+        sent(pop(PICK + 1.1, PICK + 1.55, t) * (1 - ss(D - 1.9, D - 1.5, t)));
+        const kick = hitDecay(t - PICK - .05);
+        ph.position.z += kick * .1; ph.rotation.y += kick * .05;
+      };
+    });
+  },
+  // The plumber's toolbox and pipe wrench; the customer's phone comes in with the price, and Accept is pressed.
+  'page-shop'() {
+    const D = 9;
+    return floating(D, 4.8, root => {
+      const kit = prop('metal_toolbox', 3.6), wrench = prop('pipe_wrench', 2.9, null, true);
+      const ph = phone(5.05, [shot('page-shop-quote')]);
+      const press = pressFor(ph);
+      root.add(kit, wrench, ph);
+      const ACCEPT = 4.4;
+      return t => {
+        const w = t / D * Math.PI * 2;
+        kit.position.set(-2.4, -1.1 + Math.sin(w) * .04, -1.3); kit.rotation.set(.3, .5 + Math.sin(w) * .2, 0);
+        wrench.position.set(-1.25, 1.85 + Math.sin(w * 2 + 1) * .05, -.2); wrench.rotation.set(-.1, -.2, -.9 + Math.sin(w) * .2);
+        const k = 1 - Math.pow(1 - ss(.2, 1.8, t), 2), out = ss(D - 1.4, D - .2, t);
+        ph.position.set(lerp(6.2, 2, k * (1 - out)), Math.sin(w + 1) * .05, .9);
+        ph.rotation.set(-.05, lerp(-.7, -.24, k * (1 - out)), .04);
+        ph.screen.show(0);
+        press(t, [[ACCEPT, 0, -1.82]]);
+        const kick = hitDecay(t - ACCEPT - .05);
+        ph.position.z += kick * .1; ph.rotation.y += kick * .05;
+      };
+    });
+  },
+  // The till and the owner's list of requests: a new booking drops in at the top.
+  'page-requests'() {
+    const D = 9;
+    return floating(D, 5.3, root => {
+      const cup = prop('restaurant_table', 3.4);
+      const note = screenTex((x, W, H) => { x.drawImage(images['page-requests'], 0, 0, W, H); noteOn(x, W, H, 'J', '#2E5E4E', 'Studio Juniper', 'New booking: Friday at 14:30'); });
+      const ph = phone(5.05, [shot('page-requests'), note]);
+      root.add(cup, ph);
+      const ARRIVE = 3.6;
+      return t => {
+        const w = t / D * Math.PI * 2;
+        cup.position.set(-2.1, -.4 + Math.sin(w) * .04, -1); cup.rotation.set(0, .5 + Math.sin(w) * .25, 0);
+        ph.position.set(1.7 + Math.sin(w) * .12, Math.sin(w * 2) * .04, .7);
+        ph.rotation.set(-.06, -.2 + Math.sin(w) * .12, .03);
+        ph.screen.show(0, 1, ss(ARRIVE, ARRIVE + .35, t) * (1 - ss(D - 1.2, D - .5, t)));
+        const kick = hitDecay(t - ARRIVE);
+        ph.position.z += kick * .1; ph.rotation.z += kick * .03;
+      };
+    });
+  },
+};
+Object.assign(SCENES, PAGES);
 // ---- what /scenes/live-scenes.mjs calls: builds a scene and hands it over in the shape of its own packages ----
 const GLB = { phone: '/scenes/blog_phone.glb', tags: '/scenes/nfctags.glb', mac: '/scenes/blog_mac.glb', biz: '/scenes/bizcardroom.glb', cardfan: '/scenes/cardfan.glb' };
 const propUrl = n => new URL(`props/${n}.glb`, import.meta.url).href;
 const PROPS_FOR = {
+  page: ['restaurant_table'], 'page-food': ['standing_chalkboard_01'], 'page-booking': ['BarberShopChair_01'], 'page-shop': ['metal_toolbox', 'pipe_wrench'], 'page-requests': ['restaurant_table'],
   sales: ['stationery_supplies'], consultants: ['stationery_supplies'], trades: ['cross_pein_hammer', 'pliers', 'combination_wrench'], doctors: ['industrial_microscope'], photographers: ['Camera_01'],
 };
-const MODELS_FOR = { realtors: ['cardfan'], doctors: ['cardfan'], trades: ['cardfan'], photographers: ['cardfan'], sales: ['cardfan'], networking: ['cardfan'], engineers: ['cardfan', 'mac'], consultants: ['cardfan'], coaches: ['cardfan'], recruiters: ['cardfan'], keynote: ['mac'], team: ['tags', 'mac'], writetag: ['tags'], handover: ['tags', 'mac'], leadboard: ['mac'] };
-const IMAGES_FOR = {"share": ["nfc-card", "nfc-card-blue", "card-dark", "card"], "leads": ["leads", "lead-detail"], "tradeshow": ["card", "live-qr", "card-dark", "live-lead-a", "live-lead-b", "live-stats-b", "hero-nicolo"], "cards": ["ten-00", "ten-01", "ten-03", "ten-02", "ten-05", "hero-nicolo", "logo-nicolo", "logo-consultant", "logo-coach", "logo-broker", "logo-photographer"], "insights": ["an-7d", "an-30d", "an-90d", "an-12m", "stats-7d", "stats-30d", "stats-90d", "stats-12m", "period-7d", "period-30d", "period-90d", "period-12m"], "appearance": ["ten-00", "ten-01", "ten-03", "ten-02", "ten-05", "look-1-dark", "look-2-dark", "look-3-dark", "look-4-dark", "look-5-dark"], "privacy": ["settings", "hero-nicolo"], "team": ["hero-coach", "team-coach", "nfc-card", "nfc-card-blue", "hero-engineer", "team-engineer", "hero-trades", "team-trades"], "realtors": ["card-dark", "card-realtor", "hero-realtor"], "doctors": ["card-dark", "card-doctor"], "sales": ["card-dark", "card-broker", "logo-broker", "nfc-card", "nfc-card-blue"], "keynote": ["card-engineer"], "networking": ["card-dark", "card"], "trades": ["card-dark", "card-trades"], "photographers": ["card-dark", "card-photographer", "nfc-card", "nfc-card-blue"], "followup": ["leads", "logo-broker", "hero-broker", "card-dark"], "selfie": ["card-dark", "leads", "emma", "hero-broker"], "firstscreen": ["card-dark", "leads", "hero-realtor", "card-realtor", "nfc-card", "nfc-card-blue"], "secondchance": ["card-dark", "leads", "card", "hero-nicolo", "nfc-card", "nfc-card-blue"], "changejobs": ["card-dark", "leads", "ten-02", "ten-04", "nfc-card", "nfc-card-blue"], "writetag": ["card-dark", "leads", "card-actions", "card"], "handover": ["hero-coach", "team-coach", "nfc-card", "nfc-card-blue", "hero-engineer", "team-engineer", "hero-trades", "team-trades"], "invite": ["card-dark", "leads", "logo-consultant", "ten-01"], "recruiters": ["card-dark", "card-recruiter"], "coaches": ["card-dark", "card-coach"], "engineers": ["card-dark", "card-engineer"], "consultants": ["card-dark", "ten-01", "nfc-card", "nfc-card-blue"], "leadboard": ["hero-coach", "hero-engineer", "hero-trades"]};
+const MODELS_FOR = { page: ['cardfan'], realtors: ['cardfan'], doctors: ['cardfan'], trades: ['cardfan'], photographers: ['cardfan'], sales: ['cardfan'], networking: ['cardfan'], engineers: ['cardfan', 'mac'], consultants: ['cardfan'], coaches: ['cardfan'], recruiters: ['cardfan'], keynote: ['mac'], team: ['tags', 'mac'], writetag: ['tags'], handover: ['tags', 'mac'], leadboard: ['mac'] };
+const IMAGES_FOR = {"page": ["card-dark", "page-cafe-page", "page-cafe-menu"], "page-food": ["page-cafe-page", "page-cafe-menu"], "page-booking": ["page-salon-booking"], "page-shop": ["page-shop-quote"], "page-requests": ["page-requests"], "share": ["nfc-card", "nfc-card-blue", "card-dark", "card"], "leads": ["leads", "lead-detail"], "tradeshow": ["card", "live-qr", "card-dark", "live-lead-a", "live-lead-b", "live-stats-b", "hero-nicolo"], "cards": ["ten-00", "ten-01", "ten-03", "ten-02", "ten-05", "hero-nicolo", "logo-nicolo", "logo-consultant", "logo-coach", "logo-broker", "logo-photographer"], "insights": ["an-7d", "an-30d", "an-90d", "an-12m", "stats-7d", "stats-30d", "stats-90d", "stats-12m", "period-7d", "period-30d", "period-90d", "period-12m"], "appearance": ["ten-00", "ten-01", "ten-03", "ten-02", "ten-05", "look-1-dark", "look-2-dark", "look-3-dark", "look-4-dark", "look-5-dark"], "privacy": ["settings", "hero-nicolo"], "team": ["hero-coach", "team-coach", "nfc-card", "nfc-card-blue", "hero-engineer", "team-engineer", "hero-trades", "team-trades"], "realtors": ["card-dark", "card-realtor", "hero-realtor"], "doctors": ["card-dark", "card-doctor"], "sales": ["card-dark", "card-broker", "logo-broker", "nfc-card", "nfc-card-blue"], "keynote": ["card-engineer"], "networking": ["card-dark", "card"], "trades": ["card-dark", "card-trades"], "photographers": ["card-dark", "card-photographer", "nfc-card", "nfc-card-blue"], "followup": ["leads", "logo-broker", "hero-broker", "card-dark"], "selfie": ["card-dark", "leads", "emma", "hero-broker"], "firstscreen": ["card-dark", "leads", "hero-realtor", "card-realtor", "nfc-card", "nfc-card-blue"], "secondchance": ["card-dark", "leads", "card", "hero-nicolo", "nfc-card", "nfc-card-blue"], "changejobs": ["card-dark", "leads", "ten-02", "ten-04", "nfc-card", "nfc-card-blue"], "writetag": ["card-dark", "leads", "card-actions", "card"], "handover": ["hero-coach", "team-coach", "nfc-card", "nfc-card-blue", "hero-engineer", "team-engineer", "hero-trades", "team-trades"], "invite": ["card-dark", "leads", "logo-consultant", "ten-01"], "recruiters": ["card-dark", "card-recruiter"], "coaches": ["card-dark", "card-coach"], "engineers": ["card-dark", "card-engineer"], "consultants": ["card-dark", "ten-01", "nfc-card", "nfc-card-blue"], "leadboard": ["hero-coach", "hero-engineer", "hero-trades"]};
 const imgLoads = new Map(), glbLoads = new Map();
 // premultiplyAlpha none, as an <img> uploads: shot() hands the bitmap to WebGL as it is.
 const image = name => { if (!imgLoads.has(name)) imgLoads.set(name, (async () => { const r = await fetch(new URL(`s/${name}.webp`, import.meta.url)); if (!r.ok) throw new Error(`image ${name} ${r.status}`); images[name] = await createImageBitmap(await r.blob(), { premultiplyAlpha: 'none' }); })()); return imgLoads.get(name); };
