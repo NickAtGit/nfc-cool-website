@@ -22,14 +22,13 @@ Give NFC.cool your website, Google listing or Instagram, and it builds a page fo
 <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-pages-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
+<a href="https://business.nfc.cool/org/start/page/" class="landing-store-button is-team"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5c2.600 2.700 3.900 5.900 3.900 9.500S14.600 18.800 12 21.500C9.400 18.800 8.100 15.600 8.100 12S9.400 5.200 12 2.500z"/></svg><span><small>In your browser</small>Start on the web</span></a>
 </div>
-
-<p class="page-hero-weblink">Or <a href="https://business.nfc.cool/org/start/page/">start on the web</a>.</p>
 
 </div>
 
 <div class="page-hero-visual is-scene is-boxed">
-<img src="/scenes/bc/p/team.webp" alt="A phone showing a café's page, where a booking request arrives" width="1000" height="800" loading="eager" fetchpriority="high"/>
+<img src="/scenes/bc/p/page.webp" data-scene="bc/page" data-poster-frame="225" alt="A phone taps the NFC tag on a café table, opens the café's page and its menu, and a booking request arrives" width="1000" height="800" loading="eager" fetchpriority="high"/>
 </div>
 
 </div>
@@ -41,8 +40,8 @@ Give NFC.cool your website, Google listing or Instagram, and it builds a page fo
 ## How It Works
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>1. Point it at what you have</h3><p>Your website, your Google listing, your Instagram, a link page or a few photos. NFC.cool reads them and fills in your menu, hours, photos and contact details. Or start from scratch.</p></article>
-<article class="page-card"><h3>2. Pick a style for your kind of business</h3><p>Twelve styles, from Counter for cafés and bakeries to Chair for salons and Trade for plumbers and builders.</p></article>
+<article class="page-card"><h3>1. Tell us where you are online</h3><p>Your website, your Google Maps listing or your Instagram. NFC.cool reads your menu, opening hours, photos and contact details from there. Nothing online yet? Add them yourself.</p></article>
+<article class="page-card"><h3>2. Pick a style for your kind of business</h3><p>A style for each kind of business, from Counter for cafés and bakeries to Chair for salons and Trade for plumbers and builders.</p></article>
 <article class="page-card"><h3>3. Share it</h3><p>Put an NFC tag or a QR code on your counter, your tables or your door, or share the link. Customers open your page in the browser, with nothing to install.</p></article>
 </div>
 
@@ -52,9 +51,9 @@ Give NFC.cool your website, Google listing or Instagram, and it builds a page fo
 <section class="feature-subsections">
 <div class="landing-container">
 <h2 class="landing-section-title">Made for Your Kind of Business</h2>
-<article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Cafés, Restaurants and Bars</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Page Pro</span></span></span><div class="feature-subsection-body"><p>Your menu, with allergens, on every table. Guests tap the NFC tag or scan the QR code at their table, order and call staff from their phone, and the orders show up on a tablet at the counter. Add up to 200 tables and 5 tablet screens, and invite your staff.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/leadboard.webp" alt="A menu page on a phone beside an NFC table tag, where an order comes in" width="1000" height="800" loading="lazy"/></div></article>
-<article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/leads.webp" alt="A booking sheet on a phone, where a time is picked and the request is sent" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Salons, Clinics and Studios</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Page Plus</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Page Pro</span></span></span><div class="feature-subsection-body"><p>Customers ask for a time within your booking hours. You confirm it, offer another time or say you can't, right from the app.</p></div></div></article>
-<article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Shops, Trades and Services</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Page</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Page Plus</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Page Pro</span></span></span><div class="feature-subsection-body"><p>Customers ask for a quote or send you a message. You answer with a price, or with a few words of your own.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/followup.webp" alt="A quote request on a phone, answered with a price" width="1000" height="800" loading="lazy"/></div></article>
+<article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Cafés, Restaurants and Bars</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-team"><span class="platform-pill-label">Page Pro</span></span></span><div class="feature-subsection-body"><p>Your menu, with allergens, on every table. Guests tap the NFC tag or scan the QR code at their table, order and call staff from their phone, and the orders show up on a tablet at the counter. Add up to 200 tables and 5 tablet screens, and invite your staff.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/page-food.webp" data-scene="bc/page-food" data-poster-frame="138" alt="A phone lifts from a café table beside a cup of coffee and an NFC tag, showing the café's menu" width="1000" height="800" loading="lazy"/></div></article>
+<article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/page-booking.webp" data-scene="bc/page-booking" data-poster-frame="114" alt="A salon's booking sheet on a phone, where 14:30 is picked and a green check confirms the request" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Salons, Clinics and Studios</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Page Plus</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Page Pro</span></span></span><div class="feature-subsection-body"><p>Customers ask for a time within your booking hours. You confirm it, offer another time or say you can't, right from the app.</p></div></div></article>
+<article class="feature-subsection feature-subsection--image-right"><div class="feature-subsection-text"><h3>Shops, Trades and Services</h3><span class="feature-subsection-platforms"><span class="platform-pill is-other is-personal"><span class="platform-pill-label">Page</span></span><span class="platform-pill is-other is-pro"><span class="platform-pill-label">Page Plus</span></span><span class="platform-pill is-other is-team"><span class="platform-pill-label">Page Pro</span></span></span><div class="feature-subsection-body"><p>Customers ask for a quote or send you a message. You answer with a price, what's included and how long it's valid, or with a few words of your own, and they can accept it from their phone.</p></div></div><div class="feature-subsection-visual"><img src="/scenes/bc/p/page-shop.webp" data-scene="bc/page-shop" data-poster-frame="144" alt="A phone beside a toolbox shows a plumber's price for a job, and Accept is pressed" width="1000" height="800" loading="lazy"/></div></article>
 </div>
 </section>
 </div>
@@ -63,7 +62,7 @@ Give NFC.cool your website, Google listing or Instagram, and it builds a page fo
 <section class="feature-subsections">
 <div class="landing-container">
 <h2 class="landing-section-title">Every Request in the App</h2>
-<article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/invite.webp" alt="The owner's list of requests on a phone, and a reply going out as an e-mail" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Bookings, Quotes and Messages in One Place</h3><div class="feature-subsection-body"><p>Every request lands in the app with a notification. Your reply reaches the customer by e-mail, and they can answer back on their own page for that request.</p></div></div></article>
+<article class="feature-subsection feature-subsection--image-left"><div class="feature-subsection-visual"><img src="/scenes/bc/p/page-requests.webp" data-scene="bc/page-requests" data-poster-frame="159" alt="The owner's list of bookings, quotes and messages on a phone, where a new booking arrives as a notification" width="1000" height="800" loading="lazy"/></div><div class="feature-subsection-text"><h3>Bookings, Quotes and Messages in One Place</h3><div class="feature-subsection-body"><p>Every request lands in the app with a notification. Your reply reaches the customer by e-mail, and they can answer back on their own page for that request.</p></div></div></article>
 </div>
 </section>
 </div>
@@ -147,11 +146,12 @@ A free page still takes requests. They wait for you for 7 days: you see that som
 <a href="https://play.google.com/store/apps/details?id=cool.nfc.businesscard&referrer=utm_source%3Dnfc.cool%26utm_medium%3Dweb%26utm_campaign%3Dweb-business-card-pages-en" class="landing-store-button is-google" aria-label="Get it on Google Play" target="_blank" rel="noopener nofollow sponsored">
 <img src="/assets/theme/images/GooglePlay.svg" alt="Get it on Google Play" width="173" height="52"/>
 </a>
+<a href="https://business.nfc.cool/org/start/page/" class="landing-store-button is-team"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5c2.600 2.700 3.900 5.900 3.900 9.500S14.600 18.800 12 21.500C9.400 18.800 8.100 15.600 8.100 12S9.400 5.200 12 2.500z"/></svg><span><small>In your browser</small>Start on the web</span></a>
 </div>
-
-<p class="page-hero-weblink">Or <a href="https://business.nfc.cool/org/start/page/">start on the web</a>.</p>
 
 </div>
 </section>
+
+<p class="scene-credit">3D model: <a href="https://sketchfab.com/3d-models/restaurant-table-fa86b35b358d40248cae79b5de8d536a" rel="noopener" target="_blank">"restaurant table"</a> by <a href="https://sketchfab.com/harway" rel="noopener" target="_blank">harway</a>, <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank">CC BY 4.0</a>.</p>
 
 <script type="module" src="/pages/make-page.mjs"></script>
