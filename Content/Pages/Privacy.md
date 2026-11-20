@@ -14,7 +14,7 @@ description: "How the nfc.cool website and the NFC.cool Tools app for iPhone, iP
 
 What personal data the nfc.cool website and the NFC.cool Tools app process, why, who receives it, how long it is kept, and the rights you have under the GDPR.
 
-<strong>Last modified: November 6, 2026</strong>
+<strong>Last modified: November 20, 2026</strong>
 
 </div>
 
@@ -34,7 +34,8 @@ What personal data the nfc.cool website and the NFC.cool Tools app process, why,
 <article class="page-card"><h3>The website</h3><p>nfc.cool sets no cookies and uses no analytics, tracking pixels or third-party scripts. GitHub hosts it and logs visitors' IP addresses for security.</p></article>
 <article class="page-card"><h3>On your device</h3><p>Reading and writing tags, recognising text, reading passports and ID cards, and 3D capture all happen on your device.</p></article>
 <article class="page-card"><h3>Your iCloud, not ours</h3><p>On iPhone and iPad, what you save in the app syncs through your own iCloud account. We cannot read it.</p></article>
-<article class="page-card"><h3>Analytics and crash reports</h3><p>The app sends usage events and crash reports to Google Firebase, so we can see how it is used and fix problems. You can object.</p></article>
+<article class="page-card"><h3>Analytics and crash reports</h3><p>The app sends usage events and crash reports to Google Firebase, and usage events to our own server, so we can see how it is used and fix problems. You can object.</p></article>
+<article class="page-card"><h3>Our own server</h3><p>Keel, a server we run ourselves in Germany, handles purchases, settings, notifications and NFC.cool Business, next to Qonversion. See <a href="#keel-our-own-server">Keel, our own server</a>.</p></article>
 <article class="page-card"><h3>Ads in the free version</h3><p>Google AdMob shows the ads. Google's consent form, and on iPhone and iPad Apple's tracking prompt, decide whether they can be personalised. Platinum has no ads.</p></article>
 <article class="page-card"><h3>We do not sell your data</h3><p>If you allow personalised ads, Google uses ad identifiers to choose them. See <a href="#we-do-not-sell-your-data">We do not sell your data</a> for how to say no.</p></article>
 <article class="page-card"><h3>Your rights</h3><p>You can see, correct or delete your data, object to how we use it, and complain to the CNPD. See <a href="#your-rights">Your rights</a>.</p></article>
@@ -125,6 +126,8 @@ From the first time you open it, the app uses Firebase, a Google service:
 <li><strong>Firebase Crashlytics</strong> sends a report when the app crashes, with the device model, system version, app version, where in the app the crash happened and an identifier for the app installation. On Android a report can also include technical notes from the app, such as the state of the NFC reader. We add no name, email address or user id to crash reports.</li>
 </ul>
 
+On iPhone and iPad, the app also gives the same usage events to Keel, our own server. See [Keel, our own server](#keel-our-own-server). When we move analytics over to Keel, the app stops sending usage events to Firebase Analytics.
+
 <strong>Purpose:</strong> to understand how the app is used, find and fix problems, and decide what to improve. <strong>Legal basis:</strong> our legitimate interest in an app that works and gets better (Art. 6(1)(f) GDPR). This data is linked to identifiers for the app and your device, not to your name or email address. You can object at any time by emailing info (at) nfc (dot) cool. See [Your rights](#your-rights).
 
 ### Ads in the free version
@@ -165,15 +168,60 @@ We use Qonversion to manage purchases. Qonversion knows the app by an identifier
 <li>on iPhone and iPad, Apple's attribution token. See <a href="#measuring-our-app-store-ads">Measuring our App Store ads</a>.</li>
 </ul>
 
-We also use Qonversion to change settings in the app without an update, and to try out different versions of screens and offers (A/B tests). For a test, Qonversion places the app in one of the test's groups.
+On iPhone and iPad, our own server Keel is taking over from Qonversion step by step, and for now both run side by side. Keel also receives your App Store purchases, and Apple sends Keel a notification about every purchase, renewal and refund in the app, which Keel passes on to Qonversion. See [Keel, our own server](#keel-our-own-server).
+
+We also use Qonversion and Keel to change settings in the app without an update, and to try out different versions of screens and offers (A/B tests). For a test, Qonversion places the app in one of the test's groups, or, for a test on Keel, the app picks its group itself from its Keel user id.
 
 <strong>Legal basis:</strong> performance of our contract with you (Art. 6(1)(b) GDPR) for your purchases. Our legitimate interest in improving the app and our offers (Art. 6(1)(f) GDPR) for settings and tests. Your consent in Apple's tracking prompt (Art. 6(1)(a) GDPR) for the IDFA.
 
 ### Measuring our App Store ads
 
-On iPhone and iPad, each time the app starts, it gets an attribution token from Apple and sends it to Qonversion. Qonversion uses the token to ask Apple whether the download came from one of our Apple Search Ads campaigns. The answer identifies the campaign, not you.
+On iPhone and iPad, each time the app starts, it gets an attribution token from Apple and sends it to Qonversion. It also sends a token to Keel, once per installation. Each uses the token to ask Apple whether the download came from one of our Apple Search Ads campaigns. The answer names the campaign, the ad group and the search keyword, not you. This does not use your device's advertising identifier (IDFA), and does not depend on Apple's tracking prompt.
 
 <strong>Legal basis:</strong> our legitimate interest in knowing which of our ads work (Art. 6(1)(f) GDPR). You can object by emailing info (at) nfc (dot) cool.
+
+### Keel, our own server
+
+Keel is a server we built and run ourselves for the app, at keel.nfc.cool. It runs on a virtual server that lima-city hosts for us in Germany. Keel is not another company: we are the controller for what it holds, as for everything else in this policy. It is taking over from Qonversion step by step, and for now both run side by side. Keel currently works with the iPhone and iPad app only.
+
+Keel knows the app by two random identifiers the app creates, not by your name or email address:
+
+<ul>
+<li>a <strong>Keel user id</strong>. If you use iCloud Keychain, it syncs to your other devices, so that your iPhone and iPad count as one person;</li>
+<li>an <strong>install id</strong> for the app on each device.</li>
+</ul>
+
+Depending on which parts of the app we have moved to Keel, it receives:
+
+<ul>
+<li><strong>Each time the app starts:</strong> both identifiers, your Qonversion user id, the app version, the system version, your device's language and region setting, the country of your App Store account, and the date your Apple account first downloaded the app.</li>
+<li><strong>Your App Store purchases:</strong> the purchase records Apple signs, including free trials, renewals and offers you redeem, with an identifier Apple gives the app on your device to check that a record belongs to it (the device verification ID). When purchases run on Keel, the app also gives Apple your Keel user id with each new purchase, so the purchase record names it.</li>
+<li><strong>Apple's notifications:</strong> Apple tells Keel about every purchase, renewal and refund in the app, and about refund requests. Keel passes these notifications on to Qonversion.</li>
+<li><strong>Usage events:</strong> the same events the app sends to Firebase Analytics, described in <a href="#analytics-and-crash-reports-in-the-app">Analytics and crash reports in the app</a>. With them, Keel receives the device model as a code such as iPhone16,1 (never your device's name), the app and system version, your language and region setting, the country of your App Store account and your time zone.</li>
+<li><strong>Tests and settings:</strong> which version of a screen or offer the app showed you in a test, and reports that compare the settings and unlocked features Keel would give with the ones Qonversion gives. Keel sends every copy of the app the same settings, and the app picks the ones that apply to it on your device.</li>
+<li><strong>The attribution token,</strong> once per installation. See <a href="#measuring-our-app-store-ads">Measuring our App Store ads</a>.</li>
+<li><strong>Notifications</strong>, if we send them through Keel. See <a href="#notifications">Notifications</a>.</li>
+<li><strong>NFC.cool Business</strong>, if you ask about it or join a company's licence. See <a href="#nfccool-business">NFC.cool Business</a>.</li>
+</ul>
+
+To check that Keel and Qonversion agree, Keel also asks Qonversion which features your Qonversion user id has unlocked.
+
+Like every server, Keel receives your IP address with each request. It uses it to limit how often one address can call it. For requests from the app, Keel's log records which function was called, but not your IP address, unless Keel refuses the request, for example one with a wrong key. Requests to the pages Keel shows in a browser, such as the NFC.cool Business pages, are logged with your IP address.
+
+<strong>Legal basis:</strong> performance of our contract with you (Art. 6(1)(b) GDPR) for your purchases and what they unlock. Our legal obligation to keep records of sales (Art. 6(1)(c) GDPR). Our legitimate interest in an app that works and gets better, in moving away from Qonversion without mistakes, in knowing which of our ads work and in protecting the server (Art. 6(1)(f) GDPR) for usage events, tests and settings, the comparison reports, the attribution token and the logs. Your consent (Art. 6(1)(a) GDPR) for notifications. You can object to what rests on legitimate interests by emailing info (at) nfc (dot) cool.
+
+### NFC.cool Business
+
+NFC.cool Business gives a company's iPhones the app's features under one licence. Keel runs it.
+
+<ul>
+<li><strong>Asking about Business.</strong> If you enter a work email address in the app to ask about Business, Keel stores it with the app's install id and your device's language, and emails you the details through Mailjet, with one reminder a week later. Every email has a link to unsubscribe. If you unsubscribe, Keel keeps only a keyed hash of your address, a code that cannot be turned back into it, so that you are not emailed again.</li>
+<li><strong>Buying Business.</strong> A company buys Business on a page at keel.nfc.cool and pays through Stripe's checkout. Stripe collects the payment details, billing address and any tax ID on its own page. We do not see card numbers. Keel receives from Stripe the buyer's email address, the company's name and Stripe's records of the purchase, and stores the licence with its seats, its status and Stripe's customer and subscription identifiers.</li>
+<li><strong>Managing a licence.</strong> Keel emails the buyer the licence's join link and sign-in links for the licence page, through Mailjet. On that page, the company sees who holds its seats and can free them.</li>
+<li><strong>Joining a licence.</strong> If you open your company's join link in the app, the app claims a seat. Keel stores the seat with the app's install id, a label made of your iPhone's model code and system version (for example "iPhone16,1 · iOS 26.1"), and a name for the seat, if one is given. The company's licence page shows the label and the name.</li>
+</ul>
+
+<strong>Legal basis:</strong> steps you ask for before a contract, and the contract for the licence (Art. 6(1)(b) GDPR). Our legal obligation to keep records of sales (Art. 6(1)(c) GDPR). Our legitimate interest in following up on what you asked about once, and the company's and our legitimate interest in managing its seats (Art. 6(1)(f) GDPR).
 
 ### Notifications
 
@@ -181,6 +229,7 @@ If you allow notifications, Firebase Cloud Messaging, a Google service, gives th
 
 <ul>
 <li>On iPhone and iPad, if you are signed in to a business card account, the app gives this token to the business card service, so it can tell you about new contacts. See the <a href="/privacy/business-card/">Business Card privacy policy</a>.</li>
+<li>On iPhone and iPad, when we send notifications through Keel, the app gives Keel your device's push token, whether notifications are allowed, your language setting, your time zone and the app version, and tells Keel when you open a notification it sent. Keel then sends notifications through Apple's push service itself. See <a href="#keel-our-own-server">Keel, our own server</a>.</li>
 <li>On Android, the token stays with Google and is not sent to our server.</li>
 </ul>
 
@@ -292,11 +341,12 @@ These are the recipients of the data this policy describes:
 <ul>
 <li><strong>GitHub:</strong> hosts the website.</li>
 <li><strong>Google:</strong> Firebase (analytics, crash reports and notification tokens), AdMob (ads in the free version), Google Places and Google Maps (the review link), Google search on Android, Google Play purchases, and Block Store, which keeps data for you on Android.</li>
-<li><strong>Apple:</strong> App Store purchases, push delivery, Game Center and the Apple Search Ads attribution token. iCloud keeps data for you, as your own provider.</li>
-<li><strong>Qonversion:</strong> manages purchases, settings and tests, and receives the attribution token.</li>
+<li><strong>Apple:</strong> App Store purchases and the notifications about them that Apple sends to Keel, push delivery, Game Center and the Apple Search Ads attribution token. iCloud keeps data for you, as your own provider.</li>
+<li><strong>Qonversion:</strong> manages purchases, settings and tests, receives the attribution token, and receives Apple's purchase notifications from Keel.</li>
 <li><strong>Cloudflare:</strong> runs the small service that adds newsletter sign-ups to Mailjet.</li>
-<li><strong>Mailjet:</strong> sends the newsletter.</li>
-<li><strong>lima-city:</strong> hosts our email inbox.</li>
+<li><strong>Mailjet:</strong> sends the newsletter, and Keel's emails about NFC.cool Business.</li>
+<li><strong>Stripe:</strong> takes payments for NFC.cool Business.</li>
+<li><strong>lima-city:</strong> hosts our email inbox and the server Keel runs on, and stores Keel's encrypted backups.</li>
 <li><strong>amiiboapi.org:</strong> Amiibo lookups.</li>
 <li><strong>The addresses you choose</strong> for webhooks.</li>
 <li><strong>The NFC.cool business card service</strong>, if you sign in to a business card account. See the <a href="/privacy/business-card/">Business Card privacy policy</a>.</li>
@@ -304,7 +354,7 @@ These are the recipients of the data this policy describes:
 
 ## Where data is processed, and data outside the EU
 
-Mailjet stores emails in the EU, in Germany and Belgium. The app sends data to Qonversion's EU endpoint.
+Keel runs on a server in Germany, and its encrypted backups are stored with lima-city in the EU. Mailjet stores emails in the EU, in Germany and Belgium. The app sends data to Qonversion's EU endpoint.
 
 Some of the services we use are based in the USA. Where data leaves the European Economic Area for them, the transfer rests on one of these safeguards:
 
@@ -319,6 +369,7 @@ For each service:
 <li><strong>Google LLC</strong> (USA): Data Privacy Framework, with standard contractual clauses in Google's terms for Firebase.</li>
 <li><strong>Cloudflare, Inc.</strong> (USA): Data Privacy Framework.</li>
 <li><strong>Apple Inc.</strong> (USA): standard contractual clauses.</li>
+<li><strong>Stripe:</strong> our contract is with Stripe Payments Europe, Limited in Ireland. Its transfers to Stripe, Inc. in the USA rest on the Data Privacy Framework.</li>
 </ul>
 
 For Qonversion, GitHub, lima-city and amiiboapi.org, email info (at) nfc (dot) cool if you want to know where they process data and what applies to a transfer outside the EEA.
@@ -331,6 +382,13 @@ To get a copy of the standard contractual clauses that apply, email info (at) nf
 <li><strong>Firebase Analytics:</strong> Google deletes the event data linked to the app's identifier at the end of the retention period we set in Google Analytics. Google offers 2 or 14 months. Reports that show only totals can be kept longer.</li>
 <li><strong>Crash reports:</strong> 90 days.</li>
 <li><strong>Qonversion:</strong> as long as needed to manage your purchases and subscriptions.</li>
+<li><strong>Keel, identifiers, purchase records and Apple's notifications:</strong> as long as needed to manage your purchases and what they unlock. Records of sales are kept as long as tax and accounting law requires, also after you ask us to delete your data, but then without anything that identifies you.</li>
+<li><strong>Keel, usage events:</strong> deleted 13 months after the month they were recorded. A count of the days the app was used, linked to the Keel user id, is kept for 25 months.</li>
+<li><strong>Keel, reports that compare Keel with Qonversion:</strong> 120 days.</li>
+<li><strong>Keel, requests about NFC.cool Business</strong> that do not lead to a purchase: 90 days. The unsubscribe record stays, so that the address is not emailed again.</li>
+<li><strong>Keel, NFC.cool Business licences:</strong> as long as the licence runs, and then as long as tax and accounting law requires. Sign-in links for the licence page expire, a sign-in lasts 12 hours, and both are deleted within a day after they expire.</li>
+<li><strong>Keel's logs:</strong> overwritten as new entries come in.</li>
+<li><strong>Keel's backups:</strong> encrypted, made once a day and kept for 7 days. Data deleted from Keel stays in a backup until that backup is deleted, at most 7 days later.</li>
 <li><strong>The newsletter:</strong> we email you until you unsubscribe. Mailjet then keeps your address marked as unsubscribed, so you are not emailed again. To have it deleted completely, email us.</li>
 <li><strong>Emails you send us:</strong> as long as we need them to answer you and to deal with what follows from your message.</li>
 <li><strong>What the app keeps on your device:</strong> until you delete it, or delete the app.</li>
@@ -355,7 +413,7 @@ If you cannot find these settings, email info (at) nfc (dot) cool and we help yo
 
 ## What you must give us, and automated decisions
 
-No law or contract requires you to give us personal data. You can use the website and the app without telling us who you are. Some features need data to work: the newsletter needs your email address, and a purchase needs an App Store or Google Play account.
+No law or contract requires you to give us personal data. You can use the website and the app without telling us who you are. Some features need data to work: the newsletter and asking about NFC.cool Business need your email address, and a purchase needs an App Store or Google Play account.
 
 We make no decisions about you based solely on automated processing that have legal or similarly significant effects on you (Art. 22 GDPR). Testing different versions of screens and offers is not such a decision.
 
@@ -372,9 +430,11 @@ Under the GDPR you have the right to:
 <li>withdraw consent at any time, without affecting what happened before (Art. 7(3)): for ads as described in <a href="#ads-in-the-free-version">Ads in the free version</a>, for the newsletter with the link in any newsletter, and for notifications in your device's settings.</li>
 </ul>
 
-<strong>Your right to object.</strong> Where we rely on legitimate interests (hosting the website, app analytics and crash reports, measuring our App Store ads, settings and tests, and answering your emails), you can object at any time, on grounds relating to your situation (Art. 21 GDPR). We must then stop, unless we show compelling legitimate grounds that override your interests, rights and freedoms, or need the data to establish, exercise or defend legal claims. Email info (at) nfc (dot) cool.
+<strong>Your right to object.</strong> Where we rely on legitimate interests (hosting the website, app analytics and crash reports, usage events and comparison reports in Keel, Keel's logs, measuring our App Store ads, settings and tests, the reminder about NFC.cool Business, and answering your emails), you can object at any time, on grounds relating to your situation (Art. 21 GDPR). We must then stop, unless we show compelling legitimate grounds that override your interests, rights and freedoms, or need the data to establish, exercise or defend legal claims. Email info (at) nfc (dot) cool.
 
 To exercise any of these rights, email info (at) nfc (dot) cool. We answer within one month. Much of the app's data is linked only to identifiers for the app, not to your name. To find it, we may need your help, for example the Qonversion user id that the support email from the app includes. If we cannot identify you in some data, we tell you (Art. 11 GDPR).
+
+<strong>Your data in Keel.</strong> Email info (at) nfc (dot) cool to get a copy of what Keel holds about you or to have it deleted. To find you there, we need the Keel ID or the Qonversion user id from a support email sent from the app (the lines "Keel:" and "Ref:" at the end of the email), or the email address you used for NFC.cool Business. We send the copy as a file. When we delete your data, your purchases stay active and keep working: Keel keeps the records of your purchases, which the law requires, without anything that identifies you, and deletes the rest.
 
 You also have the right to complain to a supervisory authority, in the EU country where you live or work or where you think your rights were infringed. In Portugal, where we are based, that is the Comissão Nacional de Proteção de Dados ([cnpd.pt](https://www.cnpd.pt)).
 
@@ -395,11 +455,15 @@ You must be at least 16 to use the app. If you are under 18, you need a parent's
 
 On your first visit, the website can also take you to the version in your browser's language. Both settings stay in your browser until you clear them, and neither is sent to us. They only show the website the way your device or your choice set it, which is why we do not ask for consent.
 
-<strong>The app</strong> stores identifiers and choices on your device that Firebase, Qonversion and Google AdMob use as described above, including an identifier for the app at Firebase, the Qonversion user id, and your answers to Google's consent form. For ads, storing and reading information on your device depends on your consent, as described in [Ads in the free version](#ads-in-the-free-version). On Android, Google can set its own cookies in the Google search view.
+<strong>Keel's pages</strong> at keel.nfc.cool, for NFC.cool Business, set only the cookies they need to work: one that protects their forms against forgery, one that keeps you signed in to a licence page for up to 12 hours, and one that holds a new join link for two minutes so the page can show it to you once. They need no consent.
+
+<strong>The app</strong> stores identifiers and choices on your device that Firebase, Qonversion, Keel and Google AdMob use as described above, including an identifier for the app at Firebase, the Qonversion user id, the Keel user id and install id in the Keychain, and your answers to Google's consent form. For ads, storing and reading information on your device depends on your consent, as described in [Ads in the free version](#ads-in-the-free-version). On Android, Google can set its own cookies in the Google search view.
 
 ## Security
 
 The website is served only over HTTPS: a plain HTTP request is redirected. On iPhone and iPad, the keys stored for your tags are protected with Face ID, and webhook user names and passwords are kept in the Keychain. On Android, the passport and ID wallet is encrypted with AES-GCM.
+
+Keel is reached only over HTTPS. Each installation proves itself to Keel with a credential Keel issued to it, and Keel's backups are encrypted before they leave the server.
 
 No system is completely secure, but we work to protect your data and fix problems quickly.
 
