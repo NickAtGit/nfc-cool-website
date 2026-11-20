@@ -54,7 +54,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>Зі стартових угод (40%)</p><p class="partner-big">близько <span data-out="found-month">$100</span> на місяць</p><p>близько <span data-out="found-year">$1&nbsp;200</span> на рік</p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Зі стартових угод (40%)</p><p class="partner-big">близько <span data-out="found-month">$100</span> на місяць</p><p>близько <span data-out="found-year">$1&nbsp;200</span> на рік</p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Після стартових угод (20%)</p><p class="partner-big">близько <span data-out="std-month">$50</span> на місяць</p><p>близько <span data-out="std-year">$600</span> на рік</p></div>
 <p class="partner-fine">Розрахунок за ціною у твоєму регіоні: <span data-out="price-line">$5 на місяць</span> за людину. Ціни залежать від країни кожної компанії, тому суми приблизні. Платежі в App Store і Google Play до програми не входять.</p>
 </div>

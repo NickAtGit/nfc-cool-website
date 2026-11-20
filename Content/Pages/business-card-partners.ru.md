@@ -54,7 +54,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>Со стартовых сделок (40%)</p><p class="partner-big">около <span data-out="found-month">$100</span> в месяц</p><p>около <span data-out="found-year">$1&nbsp;200</span> в год</p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Со стартовых сделок (40%)</p><p class="partner-big">около <span data-out="found-month">$100</span> в месяц</p><p>около <span data-out="found-year">$1&nbsp;200</span> в год</p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>После стартовых сделок (20%)</p><p class="partner-big">около <span data-out="std-month">$50</span> в месяц</p><p>около <span data-out="std-year">$600</span> в год</p></div>
 <p class="partner-fine">Расчёт по цене в твоём регионе: <span data-out="price-line">$5 в месяц</span> за человека. Цены зависят от страны каждой компании, поэтому суммы примерные. Платежи в App Store и Google Play в программу не входят.</p>
 </div>

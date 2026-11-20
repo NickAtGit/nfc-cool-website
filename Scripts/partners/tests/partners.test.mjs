@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
-import { earnings, foundingLine, localNumber, money } from '../../../Content/StaticFiles/partners/partners.mjs';
+import { earnings, foundingLine, foundingState, hideFoundingOffers, localNumber, money } from '../../../Content/StaticFiles/partners/partners.mjs';
 import { countryFromLanguage, priceFor } from '../../../Content/StaticFiles/prices/prices.mjs';
 
 const data = JSON.parse(readFileSync(
@@ -71,10 +71,32 @@ test('every locale page carries the strings the script fills in', () => {
     const text = readFileSync(new URL(file, dir), 'utf8');
     const attr = name => (text.match(new RegExp(`${name}="([^"]*)"`)) || [])[1] || '';
     assert.ok(attr('data-line').includes('{left}') && attr('data-line').includes('{total}'), `${file}: data-line`);
+    assert.ok(/class="partner-result is-founding" data-founding-only/.test(text), `${file}: the 40% column can be hidden`);
     assert.ok(attr('data-per-month').includes('{price}'), `${file}: data-per-month`);
     assert.ok(attr('data-per-year').includes('{price}'), `${file}: data-per-year`);
     // The built sentence names no total: Nico can raise it, and only the live line knows it.
     const fallback = (text.match(/data-founding[^>]*>([^<]*)</) || [])[1] || '';
     assert.ok(fallback && !/[0-9\u0660-\u0669]/.test(fallback.replace(/40|٤٠/g, '')), `${file}: the fallback names no number`);
   }
+});
+
+test('foundingState: open while deals are left, gone at zero, unknown on any failure', () => {
+  assert.equal(foundingState({ left: 63, total: 100 }), 'open');
+  assert.equal(foundingState({ left: 0, total: 100 }), 'gone');
+  assert.equal(foundingState({ left: 0, total: 250 }), 'gone');
+  assert.equal(foundingState(null), 'unknown');
+  assert.equal(foundingState({ error: 'x' }), 'unknown');
+  assert.equal(foundingState({ left: '0', total: 100 }), 'unknown');
+});
+
+test('at zero left, every 40% offer is hidden and the 20% figures stay', () => {
+  const el = (attrs) => ({ hidden: false, attrs });
+  const sentence = el('data-founding'), column = el('data-founding-only'), standard = el('');
+  const all = [sentence, column, standard];
+  const root = { querySelectorAll: sel => {
+    assert.equal(sel, '[data-founding], [data-founding-only]');
+    return all.filter(e => e.attrs === 'data-founding' || e.attrs === 'data-founding-only');
+  } };
+  hideFoundingOffers(root);
+  assert.deepEqual(all.map(e => e.hidden), [true, true, false]);
 });

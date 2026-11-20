@@ -54,7 +54,7 @@ Déplacez les curseurs. Chaque équipe paie par personne, au mois ou à l'année
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>Sur les accords fondateurs (40 %)</p><p class="partner-big">environ <span data-out="found-month">100&nbsp;$</span> par mois</p><p>environ <span data-out="found-year">1&#8239;200&nbsp;$</span> par an</p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Sur les accords fondateurs (40 %)</p><p class="partner-big">environ <span data-out="found-month">100&nbsp;$</span> par mois</p><p>environ <span data-out="found-year">1&#8239;200&nbsp;$</span> par an</p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Après les accords fondateurs (20 %)</p><p class="partner-big">environ <span data-out="std-month">50&nbsp;$</span> par mois</p><p>environ <span data-out="std-year">600&nbsp;$</span> par an</p></div>
 <p class="partner-fine">Calcul basé sur <span data-out="price-line">5&nbsp;$ par mois</span> par personne, le prix dans votre région. Les prix dépendent du pays de chaque entreprise, les montants sont donc approximatifs. Les paiements dans l'App Store ou sur Google Play ne font pas partie du programme.</p>
 </div>

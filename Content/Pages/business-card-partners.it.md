@@ -54,7 +54,7 @@ Sposta i cursori. Ogni team paga a persona, al mese o all'anno.
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>Con gli accordi fondatori (40%)</p><p class="partner-big">circa <span data-out="found-month">$100</span> al mese</p><p>circa <span data-out="found-year">$1.200</span> all'anno</p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Con gli accordi fondatori (40%)</p><p class="partner-big">circa <span data-out="found-month">$100</span> al mese</p><p>circa <span data-out="found-year">$1.200</span> all'anno</p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Dopo gli accordi fondatori (20%)</p><p class="partner-big">circa <span data-out="std-month">$50</span> al mese</p><p>circa <span data-out="std-year">$600</span> all'anno</p></div>
 <p class="partner-fine">Calcolato su <span data-out="price-line">$5 al mese</span> a persona, il prezzo nella tua zona. I prezzi dipendono dal paese di ciascuna azienda, quindi gli importi sono indicativi. I pagamenti nell'App Store o su Google Play non fanno parte del programma.</p>
 </div>

@@ -54,7 +54,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>创始名额（40%）</p><p class="partner-big">每月约 <span data-out="found-month">$100</span></p><p>每年约 <span data-out="found-year">$1,200</span></p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>创始名额（40%）</p><p class="partner-big">每月约 <span data-out="found-month">$100</span></p><p>每年约 <span data-out="found-year">$1,200</span></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>创始名额用完之后（20%）</p><p class="partner-big">每月约 <span data-out="std-month">$50</span></p><p>每年约 <span data-out="std-year">$600</span></p></div>
 <p class="partner-fine">按你所在地区的价格计算，每人 <span data-out="price-line">每月 $5</span>。价格取决于每家企业所在的国家，所以金额只是估算。App Store 或 Google Play 里的付款不计入本计划。</p>
 </div>

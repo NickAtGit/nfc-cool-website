@@ -997,6 +997,7 @@
    margin: 0 0 0.5rem;
 }
 .partner-founding { font-weight: 600; }
+[data-founding][hidden], [data-founding-only][hidden] { display: none; }
 .partner-actions {
    display: flex;
    flex-wrap: wrap;

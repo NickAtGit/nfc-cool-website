@@ -54,7 +54,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>من الصفقات التأسيسية (٤٠٪)</p><p class="partner-big">نحو <span data-out="found-month">$١٠٠</span> في الشهر</p><p>نحو <span data-out="found-year">$١٬٢٠٠</span> في السنة</p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>من الصفقات التأسيسية (٤٠٪)</p><p class="partner-big">نحو <span data-out="found-month">$١٠٠</span> في الشهر</p><p>نحو <span data-out="found-year">$١٬٢٠٠</span> في السنة</p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>بعد انتهاء الصفقات التأسيسية (٢٠٪)</p><p class="partner-big">نحو <span data-out="std-month">$٥٠</span> في الشهر</p><p>نحو <span data-out="std-year">$٦٠٠</span> في السنة</p></div>
 <p class="partner-fine">الحساب على أساس <span data-out="price-line">$٥ في الشهر</span> للشخص، وهو السعر في منطقتك. تختلف الأسعار حسب بلد كل شركة، لذا فالمبالغ تقريبية. المدفوعات في App Store أو Google Play ليست جزءًا من البرنامج.</p>
 </div>

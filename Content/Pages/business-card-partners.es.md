@@ -54,7 +54,7 @@ Mueve los controles. Cada equipo paga por persona, cada mes o cada año.
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>Con acuerdos fundadores (40%)</p><p class="partner-big">unos <span data-out="found-month">$100</span> al mes</p><p>unos <span data-out="found-year">$1.200</span> al año</p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Con acuerdos fundadores (40%)</p><p class="partner-big">unos <span data-out="found-month">$100</span> al mes</p><p>unos <span data-out="found-year">$1.200</span> al año</p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Después de los acuerdos fundadores (20%)</p><p class="partner-big">unos <span data-out="std-month">$50</span> al mes</p><p>unos <span data-out="std-year">$600</span> al año</p></div>
 <p class="partner-fine">Calculado con <span data-out="price-line">$5 al mes</span> por persona, el precio en tu región. Los precios dependen del país de cada empresa, así que las cantidades son aproximadas. Los pagos en el App Store o en Google Play no forman parte del programa.</p>
 </div>

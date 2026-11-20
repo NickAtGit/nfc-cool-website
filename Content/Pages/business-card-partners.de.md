@@ -54,7 +54,7 @@ Bewege die Regler. Jedes Team zahlt pro Person, monatlich oder jährlich.
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>Mit Gründungsdeals (40 %)</p><p class="partner-big">etwa <span data-out="found-month">100&nbsp;$</span> im Monat</p><p>etwa <span data-out="found-year">1.200&nbsp;$</span> im Jahr</p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Mit Gründungsdeals (40 %)</p><p class="partner-big">etwa <span data-out="found-month">100&nbsp;$</span> im Monat</p><p>etwa <span data-out="found-year">1.200&nbsp;$</span> im Jahr</p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Nach den Gründungsdeals (20 %)</p><p class="partner-big">etwa <span data-out="std-month">50&nbsp;$</span> im Monat</p><p>etwa <span data-out="std-year">600&nbsp;$</span> im Jahr</p></div>
 <p class="partner-fine">Gerechnet mit <span data-out="price-line">5&nbsp;$ im Monat</span> pro Person, dem Preis in deiner Region. Die Preise hängen vom Land der jeweiligen Firma ab, deshalb sind die Beträge ungefähr. Zahlungen im App Store oder bei Google Play gehören nicht zum Programm.</p>
 </div>

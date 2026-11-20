@@ -54,7 +54,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>創業ディールの場合（40%）</p><p class="partner-big">月約<span data-out="found-month">$100</span></p><p>年約<span data-out="found-year">$1,200</span></p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>創業ディールの場合（40%）</p><p class="partner-big">月約<span data-out="found-month">$100</span></p><p>年約<span data-out="found-year">$1,200</span></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>創業ディールの終了後（20%）</p><p class="partner-big">月約<span data-out="std-month">$50</span></p><p>年約<span data-out="std-year">$600</span></p></div>
 <p class="partner-fine">お住まいの地域の価格、1人あたり<span data-out="price-line">月$5</span>で計算しています。価格は各企業の国によって異なるため、金額は目安です。App StoreやGoogle Playでの支払いはプログラムの対象外です。</p>
 </div>

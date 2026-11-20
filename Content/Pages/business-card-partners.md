@@ -54,7 +54,7 @@ Move the sliders. Every team pays per person, every month or every year.
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>On founding deals (40%)</p><p class="partner-big">about <span data-out="found-month">$100</span> a month</p><p>about <span data-out="found-year">$1,200</span> a year</p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>On founding deals (40%)</p><p class="partner-big">about <span data-out="found-month">$100</span> a month</p><p>about <span data-out="found-year">$1,200</span> a year</p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>After the founding deals (20%)</p><p class="partner-big">about <span data-out="std-month">$50</span> a month</p><p>about <span data-out="std-year">$600</span> a year</p></div>
 <p class="partner-fine">Based on <span data-out="price-line">$5 a month</span> per person, the price in your region. Prices depend on each business's country, so the amounts are about. Payments in the App Store or Google Play are not part of the programme.</p>
 </div>

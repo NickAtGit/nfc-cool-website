@@ -47,12 +47,19 @@ export function earnings({ teams, people, interval, seatPrice, rate }) {
   return { perMonth: cents(perYear / 12), perYear: cents(perYear) };
 }
 
-// The founding sentence with the live count, or null when the static sentence should show:
-// no deals left, no answer, or an answer that is not what the service sends. `locale` is the
-// page's language, so the count is written the way the rest of the page writes numbers.
+// What the service's answer says about the founding deals: 'open' (some left, show the count),
+// 'gone' (a valid answer with none left: only 20% may show), or 'unknown' (no answer, or one that
+// is not what the service sends: keep the built page, whose sentence names no number).
+export function foundingState(answer) {
+  if (!answer || !Number.isInteger(answer.left) || !Number.isInteger(answer.total)) return 'unknown';
+  return answer.left > 0 ? 'open' : 'gone';
+}
+
+// The founding sentence with the live count, or null when it should not change: no deals left
+// (the sentence is hidden then, see wireFounding) or no usable answer. `locale` is the page's
+// language, so the count is written the way the rest of the page writes numbers.
 export function foundingLine(answer, strings, locale = 'en') {
-  if (!answer || !Number.isInteger(answer.left) || !Number.isInteger(answer.total)) return null;
-  if (answer.left <= 0) return null;
+  if (foundingState(answer) !== 'open') return null;
   return strings.line
     .replace('{left}', localNumber(answer.left, locale))
     .replace('{total}', localNumber(answer.total, locale));
@@ -105,6 +112,13 @@ function wireCalculator(root, data, lang) {
   paint();
 }
 
+// Everything on the page that offers 40% as available: the hero sentence ([data-founding]) and
+// the calculator's founding column ([data-founding-only]). Hidden once the service says none are
+// left, so only the 20% figures remain; an error leaves them as built.
+export function hideFoundingOffers(root) {
+  root.querySelectorAll('[data-founding], [data-founding-only]').forEach(el => { el.hidden = true; });
+}
+
 async function wireFounding(root) {
   const el = root.querySelector('[data-founding]');
   if (!el) return;
@@ -114,6 +128,7 @@ async function wireFounding(root) {
     const res = await fetch(FOUNDING_URL, { headers: { Accept: 'application/json' } });
     answer = res.ok ? await res.json() : null;
   } catch { answer = null; }
+  if (foundingState(answer) === 'gone') { hideFoundingOffers(root); return; }
   const line = strings.line ? foundingLine(answer, strings, pageLocale(root)) : null;
   if (line) el.textContent = line;
 }

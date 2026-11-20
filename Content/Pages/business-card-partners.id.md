@@ -54,7 +54,7 @@ Geser penggeser. Setiap tim membayar per orang, setiap bulan atau setiap tahun.
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>Dari kesepakatan pendiri (40%)</p><p class="partner-big">sekitar <span data-out="found-month">$100</span> per bulan</p><p>sekitar <span data-out="found-year">$1.200</span> per tahun</p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Dari kesepakatan pendiri (40%)</p><p class="partner-big">sekitar <span data-out="found-month">$100</span> per bulan</p><p>sekitar <span data-out="found-year">$1.200</span> per tahun</p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Setelah kesepakatan pendiri (20%)</p><p class="partner-big">sekitar <span data-out="std-month">$50</span> per bulan</p><p>sekitar <span data-out="std-year">$600</span> per tahun</p></div>
 <p class="partner-fine">Dihitung dengan <span data-out="price-line">$5 per bulan</span> per orang, harga di wilayah Anda. Harga bergantung pada negara tiap bisnis, jadi jumlahnya perkiraan. Pembayaran di App Store atau Google Play tidak termasuk dalam program ini.</p>
 </div>

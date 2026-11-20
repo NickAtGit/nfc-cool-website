@@ -54,7 +54,7 @@ Kaydırıcıları oynat. Her ekip kişi başına, aylık ya da yıllık öder.
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>Kurucu anlaşmalarda (yüzde 40)</p><p class="partner-big">ayda yaklaşık <span data-out="found-month">$100</span></p><p>yılda yaklaşık <span data-out="found-year">$1.200</span></p></div>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Kurucu anlaşmalarda (yüzde 40)</p><p class="partner-big">ayda yaklaşık <span data-out="found-month">$100</span></p><p>yılda yaklaşık <span data-out="found-year">$1.200</span></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Kurucu anlaşmalardan sonra (yüzde 20)</p><p class="partner-big">ayda yaklaşık <span data-out="std-month">$50</span></p><p>yılda yaklaşık <span data-out="std-year">$600</span></p></div>
 <p class="partner-fine">Hesap, bölgendeki fiyat olan kişi başı <span data-out="price-line">ayda $5</span> üzerinden yapıldı. Fiyatlar her işletmenin ülkesine göre değiştiği için tutarlar yaklaşıktır. App Store ya da Google Play üzerinden yapılan ödemeler programa dahil değildir.</p>
 </div>
