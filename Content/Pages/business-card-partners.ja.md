@@ -37,17 +37,17 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="partner-calc" data-partner-calc data-per-month="月{price}" data-per-year="年{price}">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>紹介するチーム数</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>1チームの人数</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>紹介するチーム数</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>1チームの人数</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="チームの支払い方法">
-<button type="button" data-interval="month" aria-pressed="true">月払い</button>
-<button type="button" data-interval="year" aria-pressed="false">年払い</button>
+<button type="button" data-interval="year" aria-pressed="true">年払い</button>
+<button type="button" data-interval="month" aria-pressed="false">月払い</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>創業ディールの場合（40%）</p><p class="partner-big">月約<span data-out="found-month">$100</span></p><p>年約<span data-out="found-year">$1,200</span></p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>創業ディールの終了後（20%）</p><p class="partner-big">月約<span data-out="std-month">$50</span></p><p>年約<span data-out="std-year">$600</span></p></div>
-<p class="partner-fine">お住まいの地域の価格、1人あたり<span data-out="price-line">月$5</span>で計算しています。価格は各企業の国によって異なるため、金額は目安です。App StoreやGoogle Playでの支払いはプログラムの対象外です。</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>創業ディールの場合（40%）</p><p class="partner-big" data-period="year">年約<span data-out="found-year">$26,520</span></p><p data-period="month">月約<span data-out="found-month">$2,210</span></p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>創業ディールの終了後（20%）</p><p class="partner-big" data-period="year">年約<span data-out="std-year">$13,260</span></p><p data-period="month">月約<span data-out="std-month">$1,105</span></p></div>
+<p class="partner-fine">お住まいの地域の価格、1人あたり<span data-out="price-line">年$50</span>で計算しています。価格は各企業の国によって異なるため、金額は目安です。App StoreやGoogle Playでの支払いはプログラムの対象外です。</p>
 </div>
 </div>
 

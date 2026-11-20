@@ -37,17 +37,17 @@ Kaydırıcıları oynat. Her ekip kişi başına, aylık ya da yıllık öder.
 
 <div class="partner-calc" data-partner-calc data-per-month="ayda {price}" data-per-year="yılda {price}">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Getirdiğin ekipler</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Ekip başına kişi</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>Getirdiğin ekipler</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Ekip başına kişi</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Ekipler nasıl öder">
-<button type="button" data-interval="month" aria-pressed="true">Aylık ödeme</button>
-<button type="button" data-interval="year" aria-pressed="false">Yıllık ödeme</button>
+<button type="button" data-interval="year" aria-pressed="true">Yıllık ödeme</button>
+<button type="button" data-interval="month" aria-pressed="false">Aylık ödeme</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Kurucu anlaşmalarda (yüzde 40)</p><p class="partner-big">ayda yaklaşık <span data-out="found-month">$100</span></p><p>yılda yaklaşık <span data-out="found-year">$1.200</span></p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Kurucu anlaşmalardan sonra (yüzde 20)</p><p class="partner-big">ayda yaklaşık <span data-out="std-month">$50</span></p><p>yılda yaklaşık <span data-out="std-year">$600</span></p></div>
-<p class="partner-fine">Hesap, bölgendeki fiyat olan kişi başı <span data-out="price-line">ayda $5</span> üzerinden yapıldı. Fiyatlar her işletmenin ülkesine göre değiştiği için tutarlar yaklaşıktır. App Store ya da Google Play üzerinden yapılan ödemeler programa dahil değildir.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Kurucu anlaşmalarda (yüzde 40)</p><p class="partner-big" data-period="year">yılda yaklaşık <span data-out="found-year">$26.520</span></p><p data-period="month">ayda yaklaşık <span data-out="found-month">$2.210</span></p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Kurucu anlaşmalardan sonra (yüzde 20)</p><p class="partner-big" data-period="year">yılda yaklaşık <span data-out="std-year">$13.260</span></p><p data-period="month">ayda yaklaşık <span data-out="std-month">$1.105</span></p></div>
+<p class="partner-fine">Hesap, bölgendeki fiyat olan kişi başı <span data-out="price-line">yılda $50</span> üzerinden yapıldı. Fiyatlar her işletmenin ülkesine göre değiştiği için tutarlar yaklaşıktır. App Store ya da Google Play üzerinden yapılan ödemeler programa dahil değildir.</p>
 </div>
 </div>
 

@@ -37,17 +37,17 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="partner-calc" data-partner-calc data-per-month="{price} в месяц" data-per-year="{price} в год">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Сколько команд ты приводишь</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Человек в команде</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>Сколько команд ты приводишь</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Человек в команде</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Как платят команды">
-<button type="button" data-interval="month" aria-pressed="true">Помесячно</button>
-<button type="button" data-interval="year" aria-pressed="false">За год</button>
+<button type="button" data-interval="year" aria-pressed="true">За год</button>
+<button type="button" data-interval="month" aria-pressed="false">Помесячно</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Со стартовых сделок (40%)</p><p class="partner-big">около <span data-out="found-month">$100</span> в месяц</p><p>около <span data-out="found-year">$1&nbsp;200</span> в год</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>После стартовых сделок (20%)</p><p class="partner-big">около <span data-out="std-month">$50</span> в месяц</p><p>около <span data-out="std-year">$600</span> в год</p></div>
-<p class="partner-fine">Расчёт по цене в твоём регионе: <span data-out="price-line">$5 в месяц</span> за человека. Цены зависят от страны каждой компании, поэтому суммы примерные. Платежи в App Store и Google Play в программу не входят.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Со стартовых сделок (40%)</p><p class="partner-big" data-period="year">около <span data-out="found-year">$26&nbsp;520</span> в год</p><p data-period="month">около <span data-out="found-month">$2&nbsp;210</span> в месяц</p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>После стартовых сделок (20%)</p><p class="partner-big" data-period="year">около <span data-out="std-year">$13&nbsp;260</span> в год</p><p data-period="month">около <span data-out="std-month">$1&nbsp;105</span> в месяц</p></div>
+<p class="partner-fine">Расчёт по цене в твоём регионе: <span data-out="price-line">$50 в год</span> за человека. Цены зависят от страны каждой компании, поэтому суммы примерные. Платежи в App Store и Google Play в программу не входят.</p>
 </div>
 </div>
 

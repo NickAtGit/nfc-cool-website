@@ -37,17 +37,17 @@ Bewege die Regler. Jedes Team zahlt pro Person, monatlich oder jährlich.
 
 <div class="partner-calc" data-partner-calc data-per-month="{price} im Monat" data-per-year="{price} im Jahr">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Teams, die du bringst</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Personen pro Team</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>Teams, die du bringst</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Personen pro Team</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Wie die Teams zahlen">
-<button type="button" data-interval="month" aria-pressed="true">Monatlich</button>
-<button type="button" data-interval="year" aria-pressed="false">Jährlich</button>
+<button type="button" data-interval="year" aria-pressed="true">Jährlich</button>
+<button type="button" data-interval="month" aria-pressed="false">Monatlich</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Mit Gründungsdeals (40 %)</p><p class="partner-big">etwa <span data-out="found-month">100&nbsp;$</span> im Monat</p><p>etwa <span data-out="found-year">1.200&nbsp;$</span> im Jahr</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Nach den Gründungsdeals (20 %)</p><p class="partner-big">etwa <span data-out="std-month">50&nbsp;$</span> im Monat</p><p>etwa <span data-out="std-year">600&nbsp;$</span> im Jahr</p></div>
-<p class="partner-fine">Gerechnet mit <span data-out="price-line">5&nbsp;$ im Monat</span> pro Person, dem Preis in deiner Region. Die Preise hängen vom Land der jeweiligen Firma ab, deshalb sind die Beträge ungefähr. Zahlungen im App Store oder bei Google Play gehören nicht zum Programm.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Mit Gründungsdeals (40 %)</p><p class="partner-big" data-period="year">etwa <span data-out="found-year">26.520&nbsp;$</span> im Jahr</p><p data-period="month">etwa <span data-out="found-month">2.210&nbsp;$</span> im Monat</p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Nach den Gründungsdeals (20 %)</p><p class="partner-big" data-period="year">etwa <span data-out="std-year">13.260&nbsp;$</span> im Jahr</p><p data-period="month">etwa <span data-out="std-month">1.105&nbsp;$</span> im Monat</p></div>
+<p class="partner-fine">Gerechnet mit <span data-out="price-line">50&nbsp;$ im Jahr</span> pro Person, dem Preis in deiner Region. Die Preise hängen vom Land der jeweiligen Firma ab, deshalb sind die Beträge ungefähr. Zahlungen im App Store oder bei Google Play gehören nicht zum Programm.</p>
 </div>
 </div>
 

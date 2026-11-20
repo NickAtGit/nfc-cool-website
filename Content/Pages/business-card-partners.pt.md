@@ -37,17 +37,17 @@ Mova os controlos. Cada equipa paga por pessoa, todos os meses ou todos os anos.
 
 <div class="partner-calc" data-partner-calc data-per-month="{price} por mês" data-per-year="{price} por ano">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Equipas que traz</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Pessoas por equipa</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>Equipas que traz</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Pessoas por equipa</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Como as equipas pagam">
-<button type="button" data-interval="month" aria-pressed="true">Pagamento mensal</button>
-<button type="button" data-interval="year" aria-pressed="false">Pagamento anual</button>
+<button type="button" data-interval="year" aria-pressed="true">Pagamento anual</button>
+<button type="button" data-interval="month" aria-pressed="false">Pagamento mensal</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Com acordos fundadores (40%)</p><p class="partner-big">cerca de <span data-out="found-month">$100</span> por mês</p><p>cerca de <span data-out="found-year">$1.200</span> por ano</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Depois dos acordos fundadores (20%)</p><p class="partner-big">cerca de <span data-out="std-month">$50</span> por mês</p><p>cerca de <span data-out="std-year">$600</span> por ano</p></div>
-<p class="partner-fine">Calculado com <span data-out="price-line">$5 por mês</span> por pessoa, o preço na sua região. Os preços dependem do país de cada empresa, por isso os valores são aproximados. Os pagamentos na App Store ou no Google Play não fazem parte do programa.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Com acordos fundadores (40%)</p><p class="partner-big" data-period="year">cerca de <span data-out="found-year">$26.520</span> por ano</p><p data-period="month">cerca de <span data-out="found-month">$2.210</span> por mês</p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Depois dos acordos fundadores (20%)</p><p class="partner-big" data-period="year">cerca de <span data-out="std-year">$13.260</span> por ano</p><p data-period="month">cerca de <span data-out="std-month">$1.105</span> por mês</p></div>
+<p class="partner-fine">Calculado com <span data-out="price-line">$50 por ano</span> por pessoa, o preço na sua região. Os preços dependem do país de cada empresa, por isso os valores são aproximados. Os pagamentos na App Store ou no Google Play não fazem parte do programa.</p>
 </div>
 </div>
 

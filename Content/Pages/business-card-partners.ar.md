@@ -37,17 +37,17 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="partner-calc" data-partner-calc data-per-month="{price} في الشهر" data-per-year="{price} في السنة">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>الفرق التي تجلبها</span><output for="partner-teams" data-out="teams" aria-live="polite">٥</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>الأشخاص في كل فريق</span><output for="partner-people" data-out="people" aria-live="polite">١٠</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>الفرق التي تجلبها</span><output for="partner-teams" data-out="teams" aria-live="polite">٢٦</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>الأشخاص في كل فريق</span><output for="partner-people" data-out="people" aria-live="polite">٥١</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="كيف تدفع الفرق">
-<button type="button" data-interval="month" aria-pressed="true">دفع شهري</button>
-<button type="button" data-interval="year" aria-pressed="false">دفع سنوي</button>
+<button type="button" data-interval="year" aria-pressed="true">دفع سنوي</button>
+<button type="button" data-interval="month" aria-pressed="false">دفع شهري</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>من الصفقات التأسيسية (٤٠٪)</p><p class="partner-big">نحو <span data-out="found-month">$١٠٠</span> في الشهر</p><p>نحو <span data-out="found-year">$١٬٢٠٠</span> في السنة</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>بعد انتهاء الصفقات التأسيسية (٢٠٪)</p><p class="partner-big">نحو <span data-out="std-month">$٥٠</span> في الشهر</p><p>نحو <span data-out="std-year">$٦٠٠</span> في السنة</p></div>
-<p class="partner-fine">الحساب على أساس <span data-out="price-line">$٥ في الشهر</span> للشخص، وهو السعر في منطقتك. تختلف الأسعار حسب بلد كل شركة، لذا فالمبالغ تقريبية. المدفوعات في App Store أو Google Play ليست جزءًا من البرنامج.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>من الصفقات التأسيسية (٤٠٪)</p><p class="partner-big" data-period="year">نحو <span data-out="found-year">$٢٦٬٥٢٠</span> في السنة</p><p data-period="month">نحو <span data-out="found-month">$٢٬٢١٠</span> في الشهر</p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>بعد انتهاء الصفقات التأسيسية (٢٠٪)</p><p class="partner-big" data-period="year">نحو <span data-out="std-year">$١٣٬٢٦٠</span> في السنة</p><p data-period="month">نحو <span data-out="std-month">$١٬١٠٥</span> في الشهر</p></div>
+<p class="partner-fine">الحساب على أساس <span data-out="price-line">$٥٠ في السنة</span> للشخص، وهو السعر في منطقتك. تختلف الأسعار حسب بلد كل شركة، لذا فالمبالغ تقريبية. المدفوعات في App Store أو Google Play ليست جزءًا من البرنامج.</p>
 </div>
 </div>
 

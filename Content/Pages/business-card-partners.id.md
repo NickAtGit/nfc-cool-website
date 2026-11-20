@@ -37,17 +37,17 @@ Geser penggeser. Setiap tim membayar per orang, setiap bulan atau setiap tahun.
 
 <div class="partner-calc" data-partner-calc data-per-month="{price} per bulan" data-per-year="{price} per tahun">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Tim yang Anda bawa</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Orang per tim</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>Tim yang Anda bawa</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Orang per tim</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Cara tim membayar">
-<button type="button" data-interval="month" aria-pressed="true">Bayar bulanan</button>
-<button type="button" data-interval="year" aria-pressed="false">Bayar tahunan</button>
+<button type="button" data-interval="year" aria-pressed="true">Bayar tahunan</button>
+<button type="button" data-interval="month" aria-pressed="false">Bayar bulanan</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Dari kesepakatan pendiri (40%)</p><p class="partner-big">sekitar <span data-out="found-month">$100</span> per bulan</p><p>sekitar <span data-out="found-year">$1.200</span> per tahun</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Setelah kesepakatan pendiri (20%)</p><p class="partner-big">sekitar <span data-out="std-month">$50</span> per bulan</p><p>sekitar <span data-out="std-year">$600</span> per tahun</p></div>
-<p class="partner-fine">Dihitung dengan <span data-out="price-line">$5 per bulan</span> per orang, harga di wilayah Anda. Harga bergantung pada negara tiap bisnis, jadi jumlahnya perkiraan. Pembayaran di App Store atau Google Play tidak termasuk dalam program ini.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Dari kesepakatan pendiri (40%)</p><p class="partner-big" data-period="year">sekitar <span data-out="found-year">$26.520</span> per tahun</p><p data-period="month">sekitar <span data-out="found-month">$2.210</span> per bulan</p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Setelah kesepakatan pendiri (20%)</p><p class="partner-big" data-period="year">sekitar <span data-out="std-year">$13.260</span> per tahun</p><p data-period="month">sekitar <span data-out="std-month">$1.105</span> per bulan</p></div>
+<p class="partner-fine">Dihitung dengan <span data-out="price-line">$50 per tahun</span> per orang, harga di wilayah Anda. Harga bergantung pada negara tiap bisnis, jadi jumlahnya perkiraan. Pembayaran di App Store atau Google Play tidak termasuk dalam program ini.</p>
 </div>
 </div>
 

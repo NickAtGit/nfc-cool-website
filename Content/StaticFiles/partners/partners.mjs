@@ -93,6 +93,17 @@ export function rateText(answer, format, locale = 'en') {
 
 const pageLocale = root => (root.documentElement && root.documentElement.lang) || 'en';
 
+// A result card leads with the chosen period: its line is the big one and comes first, the other
+// period's line follows, small. Lines are the card's `[data-period]` paragraphs.
+export function leadWith(card, interval) {
+  const lead = card.querySelector(`[data-period="${interval}"]`);
+  const other = card.querySelector(`[data-period]:not([data-period="${interval}"])`);
+  if (!lead || !other) return;
+  lead.classList.add('partner-big');
+  other.classList.remove('partner-big');
+  if (other.compareDocumentPosition(lead) & 4) other.parentNode.insertBefore(lead, other);
+}
+
 // Returns { setRates }, so the service's rates repaint the figures when its answer arrives.
 function wireCalculator(root, data, lang) {
   const box = root.querySelector('[data-partner-calc]');
@@ -111,8 +122,13 @@ function wireCalculator(root, data, lang) {
     month: priceFor(data, 'seat', 'month', country).amount,
     year: priceFor(data, 'seat', 'year', country).amount,
   };
-  const state = { teams: 5, people: 10, interval: 'month' };
   const $ = sel => box.querySelector(sel);
+  // The built page's own defaults: the sliders' values (each range's middle) and yearly.
+  const state = {
+    teams: Number(($('[data-in=teams]') || {}).value) || 26,
+    people: Number(($('[data-in=people]') || {}).value) || 51,
+    interval: (box.querySelector('[data-interval][aria-pressed="true"]') || { getAttribute: () => 'year' }).getAttribute('data-interval'),
+  };
   const set = (sel, text) => { const el = $(sel); if (el) el.textContent = text; };
 
   function paint() {
@@ -131,6 +147,7 @@ function wireCalculator(root, data, lang) {
     set('[data-out=price-line]', each);
     box.querySelectorAll('[data-interval]').forEach(b =>
       b.setAttribute('aria-pressed', String(b.getAttribute('data-interval') === state.interval)));
+    box.querySelectorAll('.partner-result').forEach(card => leadWith(card, state.interval));
   }
 
   $('[data-in=teams]').addEventListener('input', e => { state.teams = Number(e.target.value); paint(); });

@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
-import { earnings, foundingLine, foundingState, hideFoundingOffers, localNumber, money, rateText, ratesFrom } from '../../../Content/StaticFiles/partners/partners.mjs';
+import { earnings, foundingLine, foundingState, hideFoundingOffers, leadWith, localNumber, money, rateText, ratesFrom } from '../../../Content/StaticFiles/partners/partners.mjs';
 import { countryFromLanguage, priceFor } from '../../../Content/StaticFiles/prices/prices.mjs';
 
 const data = JSON.parse(readFileSync(
@@ -84,6 +84,14 @@ test('every locale page carries the strings the script fills in', () => {
     assert.ok(/class="partner-rate-count" data-founding data-line=/.test(text), `${file}: the count sits in the card`);
     assert.ok(!text.includes('partner-home'), `${file}: no Partner home illustration`);
     assert.ok(!text.includes('partner-kicker'), `${file}: no kicker above the h1`);
+    // The calculator starts yearly, with each slider in the middle of its range.
+    const mid = (min, max) => Math.round((min + max) / 2);
+    assert.ok(text.includes(`min="1" max="50" value="${mid(1, 50)}"`), `${file}: teams start in the middle`);
+    assert.ok(text.includes(`min="2" max="100" value="${mid(2, 100)}"`), `${file}: people start in the middle`);
+    assert.ok(/<button type="button" data-interval="year" aria-pressed="true">[^<]*<\/button>\n<button type="button" data-interval="month" aria-pressed="false">/.test(text), `${file}: Pay yearly first and chosen`);
+    for (const key of ['found', 'std']) {
+      assert.ok(new RegExp(`<p class="partner-big" data-period="year">[^<]*<span data-out="${key}-year">[^<]+</span>[^<]*</p><p data-period="month">[^<]*<span data-out="${key}-month">`).test(text), `${file}: ${key} leads with the year`);
+    }
     // The calls to action are the shared store-style badges (Sources/Site/Helpers/TeamButton.swift).
     assert.ok(text.includes('<div class="landing-store-buttons partner-actions">{{PARTNER_BUTTON}}{{DEMO_BUTTON}}</div>'), `${file}: the hero's two badges`);
     assert.ok(/<section class="landing-final-cta">[\s\S]*<div class="landing-store-buttons">\{\{PARTNER_BUTTON\}\}<\/div>/.test(text), `${file}: the closing badge`);
@@ -134,4 +142,30 @@ test('rateText: 40% while deals are left, 20% once none are, nothing on a failur
   assert.equal(rateText(null, '{n}%'), null);
   assert.equal(rateText({ error: 'x' }, '{n}%'), null);
   assert.equal(rateText(open, ''), null);
+});
+
+test('the built defaults: 26 teams of 51 at $50 a year', () => {
+  const seatPrice = { month: 5, year: 50 };
+  assert.deepEqual(earnings({ teams: 26, people: 51, interval: 'year', seatPrice, rate: 0.4 }), { perMonth: 2210, perYear: 26520 });
+  assert.deepEqual(earnings({ teams: 26, people: 51, interval: 'year', seatPrice, rate: 0.2 }), { perMonth: 1105, perYear: 13260 });
+});
+
+test('leadWith: the chosen period is the big first line, the other follows small', () => {
+  const line = period => ({ period, classes: new Set(period === 'year' ? ['partner-big'] : []),
+    get classList() { const c = this.classes; return { add: x => c.add(x), remove: x => c.delete(x) }; } });
+  const card = { lines: [line('year'), line('month')],
+    querySelector(sel) {
+      const want = sel.match(/data-period="(\w+)"/)[1];
+      return sel.includes(':not') ? this.lines.find(l => l.period !== want) : this.lines.find(l => l.period === want);
+    } };
+  for (const l of card.lines) {
+    l.compareDocumentPosition = other => (card.lines.indexOf(other) > card.lines.indexOf(l) ? 4 : 2);
+    l.parentNode = { insertBefore: (a, b) => { card.lines.splice(card.lines.indexOf(a), 1); card.lines.splice(card.lines.indexOf(b), 0, a); } };
+  }
+  leadWith(card, 'month');
+  assert.deepEqual(card.lines.map(l => l.period), ['month', 'year']);
+  assert.deepEqual(card.lines.map(l => l.classes.has('partner-big')), [true, false]);
+  leadWith(card, 'year');
+  assert.deepEqual(card.lines.map(l => l.period), ['year', 'month']);
+  assert.deepEqual(card.lines.map(l => l.classes.has('partner-big')), [true, false]);
 });

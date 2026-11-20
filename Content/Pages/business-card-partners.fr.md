@@ -37,17 +37,17 @@ Déplacez les curseurs. Chaque équipe paie par personne, au mois ou à l'année
 
 <div class="partner-calc" data-partner-calc data-per-month="{price} par mois" data-per-year="{price} par an">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Équipes amenées</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Personnes par équipe</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>Équipes amenées</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Personnes par équipe</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Comment les équipes paient">
-<button type="button" data-interval="month" aria-pressed="true">Au mois</button>
-<button type="button" data-interval="year" aria-pressed="false">À l'année</button>
+<button type="button" data-interval="year" aria-pressed="true">À l'année</button>
+<button type="button" data-interval="month" aria-pressed="false">Au mois</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Sur les accords fondateurs (40 %)</p><p class="partner-big">environ <span data-out="found-month">100&nbsp;$</span> par mois</p><p>environ <span data-out="found-year">1&#8239;200&nbsp;$</span> par an</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Après les accords fondateurs (20 %)</p><p class="partner-big">environ <span data-out="std-month">50&nbsp;$</span> par mois</p><p>environ <span data-out="std-year">600&nbsp;$</span> par an</p></div>
-<p class="partner-fine">Calcul basé sur <span data-out="price-line">5&nbsp;$ par mois</span> par personne, le prix dans votre région. Les prix dépendent du pays de chaque entreprise, les montants sont donc approximatifs. Les paiements dans l'App Store ou sur Google Play ne font pas partie du programme.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Sur les accords fondateurs (40 %)</p><p class="partner-big" data-period="year">environ <span data-out="found-year">26&#8239;520&nbsp;$</span> par an</p><p data-period="month">environ <span data-out="found-month">2&#8239;210&nbsp;$</span> par mois</p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Après les accords fondateurs (20 %)</p><p class="partner-big" data-period="year">environ <span data-out="std-year">13&#8239;260&nbsp;$</span> par an</p><p data-period="month">environ <span data-out="std-month">1&#8239;105&nbsp;$</span> par mois</p></div>
+<p class="partner-fine">Calcul basé sur <span data-out="price-line">50&nbsp;$ par an</span> par personne, le prix dans votre région. Les prix dépendent du pays de chaque entreprise, les montants sont donc approximatifs. Les paiements dans l'App Store ou sur Google Play ne font pas partie du programme.</p>
 </div>
 </div>
 

@@ -37,17 +37,17 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="partner-calc" data-partner-calc data-per-month="每月 {price}" data-per-year="每年 {price}">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>你带来的团队</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>每个团队的人数</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>你带来的团队</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>每个团队的人数</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="团队的付费方式">
-<button type="button" data-interval="month" aria-pressed="true">按月付费</button>
-<button type="button" data-interval="year" aria-pressed="false">按年付费</button>
+<button type="button" data-interval="year" aria-pressed="true">按年付费</button>
+<button type="button" data-interval="month" aria-pressed="false">按月付费</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>创始名额（40%）</p><p class="partner-big">每月约 <span data-out="found-month">$100</span></p><p>每年约 <span data-out="found-year">$1,200</span></p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>创始名额用完之后（20%）</p><p class="partner-big">每月约 <span data-out="std-month">$50</span></p><p>每年约 <span data-out="std-year">$600</span></p></div>
-<p class="partner-fine">按你所在地区的价格计算，每人 <span data-out="price-line">每月 $5</span>。价格取决于每家企业所在的国家，所以金额只是估算。App Store 或 Google Play 里的付款不计入本计划。</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>创始名额（40%）</p><p class="partner-big" data-period="year">每年约 <span data-out="found-year">$26,520</span></p><p data-period="month">每月约 <span data-out="found-month">$2,210</span></p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>创始名额用完之后（20%）</p><p class="partner-big" data-period="year">每年约 <span data-out="std-year">$13,260</span></p><p data-period="month">每月约 <span data-out="std-month">$1,105</span></p></div>
+<p class="partner-fine">按你所在地区的价格计算，每人 <span data-out="price-line">每年 $50</span>。价格取决于每家企业所在的国家，所以金额只是估算。App Store 或 Google Play 里的付款不计入本计划。</p>
 </div>
 </div>
 

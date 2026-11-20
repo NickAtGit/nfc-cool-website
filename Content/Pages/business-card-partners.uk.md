@@ -37,17 +37,17 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="partner-calc" data-partner-calc data-per-month="{price} на місяць" data-per-year="{price} на рік">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Скільки команд ти приводиш</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Людей у команді</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>Скільки команд ти приводиш</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Людей у команді</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Як платять команди">
-<button type="button" data-interval="month" aria-pressed="true">Щомісяця</button>
-<button type="button" data-interval="year" aria-pressed="false">Щороку</button>
+<button type="button" data-interval="year" aria-pressed="true">Щороку</button>
+<button type="button" data-interval="month" aria-pressed="false">Щомісяця</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Зі стартових угод (40%)</p><p class="partner-big">близько <span data-out="found-month">$100</span> на місяць</p><p>близько <span data-out="found-year">$1&nbsp;200</span> на рік</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Після стартових угод (20%)</p><p class="partner-big">близько <span data-out="std-month">$50</span> на місяць</p><p>близько <span data-out="std-year">$600</span> на рік</p></div>
-<p class="partner-fine">Розрахунок за ціною у твоєму регіоні: <span data-out="price-line">$5 на місяць</span> за людину. Ціни залежать від країни кожної компанії, тому суми приблизні. Платежі в App Store і Google Play до програми не входять.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Зі стартових угод (40%)</p><p class="partner-big" data-period="year">близько <span data-out="found-year">$26&nbsp;520</span> на рік</p><p data-period="month">близько <span data-out="found-month">$2&nbsp;210</span> на місяць</p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Після стартових угод (20%)</p><p class="partner-big" data-period="year">близько <span data-out="std-year">$13&nbsp;260</span> на рік</p><p data-period="month">близько <span data-out="std-month">$1&nbsp;105</span> на місяць</p></div>
+<p class="partner-fine">Розрахунок за ціною у твоєму регіоні: <span data-out="price-line">$50 на рік</span> за людину. Ціни залежать від країни кожної компанії, тому суми приблизні. Платежі в App Store і Google Play до програми не входять.</p>
 </div>
 </div>
 
