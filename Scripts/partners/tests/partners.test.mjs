@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
-import { earnings, foundingLine, foundingState, hideFoundingOffers, localNumber, money } from '../../../Content/StaticFiles/partners/partners.mjs';
+import { earnings, foundingLine, foundingState, hideFoundingOffers, localNumber, money, ratesFrom } from '../../../Content/StaticFiles/partners/partners.mjs';
 import { countryFromLanguage, priceFor } from '../../../Content/StaticFiles/prices/prices.mjs';
 
 const data = JSON.parse(readFileSync(
@@ -99,4 +99,13 @@ test('at zero left, every 40% offer is hidden and the 20% figures stay', () => {
   } };
   hideFoundingOffers(root);
   assert.deepEqual(all.map(e => e.hidden), [true, true, false]);
+});
+
+test('ratesFrom: the service\'s rate and founding_rate, the built-in 20% and 40% otherwise', () => {
+  assert.deepEqual(ratesFrom({ left: 63, total: 100, rate: 20, founding_rate: 40 }), { standard: 0.2, founding: 0.4 });
+  assert.deepEqual(ratesFrom({ rate: 25, founding_rate: 45 }), { standard: 0.25, founding: 0.45 });
+  assert.deepEqual(ratesFrom(null), { standard: 0.2, founding: 0.4 });
+  assert.deepEqual(ratesFrom({ error: 'x' }), { standard: 0.2, founding: 0.4 });
+  assert.deepEqual(ratesFrom({ rate: '20', founding_rate: 0 }), { standard: 0.2, founding: 0.4 });
+  assert.deepEqual(ratesFrom({ rate: 30 }), { standard: 0.3, founding: 0.4 });
 });

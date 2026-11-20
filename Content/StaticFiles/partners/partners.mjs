@@ -5,6 +5,8 @@
 import { countryFromLanguage, priceFor, currencyFor, formatPrice } from '../prices/prices.mjs';
 
 const FOUNDING_URL = 'https://business.nfc.cool/partners/founding.json';
+// The rates the calculator starts with, and keeps when the service's answer has none: 20% and the
+// founding 40%. The service's founding.json carries both (`rate`, `founding_rate`, whole percents).
 const STANDARD = 0.2;
 const FOUNDING = 0.4;
 
@@ -47,6 +49,17 @@ export function earnings({ teams, people, interval, seatPrice, rate }) {
   return { perMonth: cents(perYear / 12), perYear: cents(perYear) };
 }
 
+// The calculator's rates as fractions, from the service's answer: its `rate` and `founding_rate`
+// (whole percents, 20 and 40 today), each falling back to the built-in figure when it is missing
+// or not a percent.
+export function ratesFrom(answer) {
+  const percent = v => (Number.isInteger(v) && v > 0 && v <= 100 ? v / 100 : null);
+  return {
+    standard: percent(answer && answer.rate) ?? STANDARD,
+    founding: percent(answer && answer.founding_rate) ?? FOUNDING,
+  };
+}
+
 // What the service's answer says about the founding deals: 'open' (some left, show the count),
 // 'gone' (a valid answer with none left: only 20% may show), or 'unknown' (no answer, or one that
 // is not what the service sends: keep the built page, whose sentence names no number).
@@ -67,9 +80,11 @@ export function foundingLine(answer, strings, locale = 'en') {
 
 const pageLocale = root => (root.documentElement && root.documentElement.lang) || 'en';
 
+// Returns { setRates }, so the service's rates repaint the figures when its answer arrives.
 function wireCalculator(root, data, lang) {
   const box = root.querySelector('[data-partner-calc]');
-  if (!box) return;
+  if (!box) return null;
+  let rates = { standard: STANDARD, founding: FOUNDING };
   // Intentional: the region (so the price and currency) comes from the browser's language, like
   // every other price on the site, while the way numbers are written comes from the page's
   // <html lang>. A German reader in Brazil sees Brazil's price written the German way.
@@ -89,8 +104,8 @@ function wireCalculator(root, data, lang) {
 
   function paint() {
     const args = { teams: state.teams, people: state.people, interval: state.interval, seatPrice };
-    const found = earnings({ ...args, rate: FOUNDING });
-    const std = earnings({ ...args, rate: STANDARD });
+    const found = earnings({ ...args, rate: rates.founding });
+    const std = earnings({ ...args, rate: rates.standard });
     set('[data-out=teams]', localNumber(state.teams, locale));
     set('[data-out=people]', localNumber(state.people, locale));
     set('[data-out=found-month]', money(data, found.perMonth, currency, locale));
@@ -110,6 +125,7 @@ function wireCalculator(root, data, lang) {
   box.querySelectorAll('[data-interval]').forEach(b =>
     b.addEventListener('click', () => { state.interval = b.getAttribute('data-interval'); paint(); }));
   paint();
+  return { setRates(next) { rates = next; paint(); } };
 }
 
 // Everything on the page that offers 40% as available: the hero sentence ([data-founding]) and
@@ -119,26 +135,31 @@ export function hideFoundingOffers(root) {
   root.querySelectorAll('[data-founding], [data-founding-only]').forEach(el => { el.hidden = true; });
 }
 
-async function wireFounding(root) {
+// The service's founding answer, or null when it fails.
+async function fetchFounding() {
+  try {
+    const res = await fetch(FOUNDING_URL, { headers: { Accept: 'application/json' } });
+    return res.ok ? await res.json() : null;
+  } catch { return null; }
+}
+
+function wireFounding(root, answer) {
   const el = root.querySelector('[data-founding]');
   if (!el) return;
   const strings = { line: el.getAttribute('data-line') || '' };
-  let answer = null;
-  try {
-    const res = await fetch(FOUNDING_URL, { headers: { Accept: 'application/json' } });
-    answer = res.ok ? await res.json() : null;
-  } catch { answer = null; }
   if (foundingState(answer) === 'gone') { hideFoundingOffers(root); return; }
   const line = strings.line ? foundingLine(answer, strings, pageLocale(root)) : null;
   if (line) el.textContent = line;
 }
 
 export async function boot(root) {
-  wireFounding(root);
+  const founding = fetchFounding();
+  founding.then(answer => wireFounding(root, answer));
   try {
     const res = await fetch('/prices/prices.json');
     if (!res.ok) return;
-    wireCalculator(root, await res.json(), navigator.language);
+    const calc = wireCalculator(root, await res.json(), navigator.language);
+    if (calc) calc.setRates(ratesFrom(await founding));
   } catch { /* the built example stays */ }
 }
 
