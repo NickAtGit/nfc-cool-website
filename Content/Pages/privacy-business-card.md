@@ -214,14 +214,13 @@ The contacts a team's cards collect belong to the team: the team is their contro
 
 ### Partners
 
-Anyone with an account can join our partner programme at business.nfc.cool and earn a commission on the teams they bring. The [partner terms](/terms/partners/) describe the programme. [CHECK: the partner terms are not published yet; publish them before this link goes live.]
+Anyone with an account can join our partner programme at business.nfc.cool and earn a commission on the teams they bring. The [partner terms](/terms/partners/) describe the programme.
 
 <strong>What we keep about a partner:</strong>
 
 <ul>
 <li>your account, as described in Your account;</li>
 <li>your country, the kind of partner you chose, and your website or profile if you gave one;</li>
-<li>the partner rules you ticked when you joined, and when you ticked them; [CHECK: the sign-up does not record this yet]</li>
 <li>your link code, and the identifiers Creem gives you in its affiliate programme;</li>
 <li>the teams credited to you, how they were credited (your link, or a team you set up and handed over), when, and when each first paid; for a team you set up, its take-over link, of which we keep only a hash;</li>
 <li>the messages we send you about your teams, by push and in a daily email, and whether you switched them off;</li>
@@ -232,11 +231,11 @@ When you join, we also email ourselves your name, email address, the kind of par
 
 <strong>What a partner sees about a team they brought:</strong> its name, its stage (being set up, trial, paying, payment failed or ended), its dates, and about what it earns the partner. Never its members, cards, contacts or billing. A partner who sets up a team for a client is its owner until the client takes it over, and sees it as an owner until then. The team's overview names the partner who brought it with their first name.
 
-<strong>Creem:</strong> a team a partner brought pays on the web through Creem, which sells it as the merchant of record and pays the partner's commission. Creem collects the payment details on its own checkout page. We send Creem the buyer's email address, our internal identifiers of the team and the buyer, the price tier, and the partner's affiliate code. To invite a partner to its affiliate programme we send Creem the partner's confirmed email address, and Creem tells us their affiliate identifiers and earnings. Creem handles this data under its own [privacy policy](https://www.creem.io/privacy). [CHECK: Creem's privacy policy URL, its legal entity and country, and the transfer safeguard.]
+<strong>Creem:</strong> a team a partner brought pays on the web through Creem, which sells it as the merchant of record and pays the partner's commission. Creem collects the payment details on its own checkout page. We send Creem the buyer's email address, our internal identifiers of the team and the buyer, the price tier, and the partner's affiliate code. To invite a partner to its affiliate programme we send Creem the partner's confirmed email address, and Creem tells us their affiliate identifiers and earnings. To pay a partner, Creem also checks their identity through its provider Sumsub, with a government ID and a selfie; we do not receive these. Creem handles all of this under its own [privacy notice](https://www.creem.io/privacy).
 
-<strong>How long:</strong> until you delete your account, which also ends the partnership. [CHECK: what we delete when a partner leaves the programme without deleting the account; the server has no leave step yet.]
+<strong>How long:</strong> until you delete your account.
 
-<strong>Legal basis:</strong> performance of our contract with the partner (Art. 6(1)(b) GDPR). Showing a partner the name, stage, dates and earnings of a team they brought, and naming the partner to that team: our legitimate interest in running the partner programme (Art. 6(1)(f) GDPR). [LAWYER: confirm.]
+<strong>Legal basis:</strong> performance of our contract with the partner (Art. 6(1)(b) GDPR). Showing a partner the name, stage, dates and earnings of a team they brought, and naming the partner to that team: our legitimate interest in running the partner programme (Art. 6(1)(f) GDPR).
 
 ### Subscriptions in the app
 
@@ -389,7 +388,7 @@ For each service:
 <li><strong>Functional Software, Inc.</strong> (Sentry, USA): error reports. Data Privacy Framework, with standard contractual clauses as a fallback.</li>
 <li><strong>Google LLC</strong> (Firebase, USA): Data Privacy Framework, with standard contractual clauses in Google's terms.</li>
 <li><strong>Cloudflare, Inc.</strong> (USA): Data Privacy Framework.</li>
-<li><strong>Creem:</strong> [CHECK: Creem's legal entity, where it stores data, and the safeguard if outside the EEA.]</li>
+<li><strong>Creem:</strong> handles the data it receives as the merchant of record under its own [privacy notice](https://www.creem.io/privacy).</li>
 <li><strong>Stripe:</strong> our contract is with Stripe Payments Europe, Limited in Ireland. Its transfers to Stripe, Inc. in the USA rest on the Data Privacy Framework.</li>
 <li><strong>Apple Inc.</strong> (USA): standard contractual clauses.</li>
 <li><strong>RevenueCat, Inc.</strong> (USA): standard contractual clauses.</li>

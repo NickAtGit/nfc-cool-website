@@ -1,21 +1,32 @@
 ---
 title: "Partner Programme Terms"
 slug: "terms/partners"
-description: "The terms for the NFC.cool partner programme: who can join, the rules every partner keeps, what you earn on the teams you bring, founding deals, how a team is credited to you, how Creem pays you, and what happens when the rules are broken."
+description: "The terms for the NFC.cool partner programme: who can join, the rules every partner keeps, what you earn on the teams you bring, founding deals, how a team is credited to you, how Creem pays you, and how a partnership ends."
 ---
 
 <!--
 Draft for a lawyer's review before publishing.
 
-Draft for Nico, 2026-11-20 (second version, with Nico's answers). Not published: this file sits in
-docs/, which the site build does not read. The rules on credit, rates and founding deals are taken from
-the server (web/partners/, page_plan/routing.py, the Creem team billing) and the spec
-docs/superpowers/specs/2026-11-20-partners-for-teams-design.md in business_card_service; the rules of
-conduct, suspension, ending and changes are Nico's decisions of 2026-11-20.
-[CHECK WITH CREEM: ...] marks what only Creem can answer. [LAWYER: confirm] marks wording a lawyer must confirm.
+Draft for Nico, 2026-11-20 (third version: the open points filled in from
+.superpowers/sdd/2026-11-20-partners-for-teams/legal-research.md and creem-research.md in
+business_card_service, and Nico's decisions of 2026-11-20). Not published: this file sits in docs/,
+which the site build does not read.
+Markers left on purpose:
+- [ASK CREEM: n] points to question n in creem-support-questions.md (same folder). The sentence beside
+  it is true whatever Creem answers; the answer may let us say more.
+- [LAWYER: ...] marks a question legal-research.md section 9 leaves to a lawyer. The recommended text
+  is already in place.
+- Not on the page, for the lawyer: the terms are English only. Is that adequate communication
+  (DL 446/85 art. 5(2)) for private partners resident in Portugal, or is a Portuguese version or summary
+  needed? (legal-research.md 7)
 To publish: remove this comment and every bracket, move the file to Content/Pages/terms-partners.md, add it
-under enOnly.files in i18n.yaml (legal pages are English only), and set PARTNERS_TERMS_URL on the server to
-https://nfc.cool/terms/partners/. The sign-up must show the five rules as checkboxes first.
+under enOnly.files in i18n.yaml (legal pages are English only), add "terms/partners" to legalSlugs in
+MarketingPageRenderer.swift, and set PARTNERS_TERMS_URL on the server to https://nfc.cool/terms/partners/.
+The sign-up must first: ask whether the person joins as a business or as a private person; show the five
+rules as unticked checkboxes and the terms checkbox with a link to this page and its date; show the
+surprising points above it (Creem pays under its own rules; commission from breaking the rules is taken
+back; leaving ends all commission; courts of Coimbra); record the terms version accepted, when and which
+boxes; and send the terms by e-mail after joining (legal-research.md 7).
 -->
 
 <section class="page-hero">
@@ -48,7 +59,7 @@ The agreement between you and NFC.cool when you join the partner programme and b
 <article class="page-card"><h3>What you earn</h3><p>20% of every payment a team you bring makes on the web, for as long as it pays. The first founding deals of the programme earn 40%, for as long as the team pays.</p></article>
 <article class="page-card"><h3>When a team is yours</h3><p>The business buys within 30 days of opening your link, in the same browser, or takes over a team you set up for it. A team you belong to when it first buys is never yours.</p></article>
 <article class="page-card"><h3>Six rules</h3><p>No spam. No ads on our name. No false claims. Never pose as NFC.cool. Say that you earn from your link. Accept these terms. You tick each one when you join.</p></article>
-<article class="page-card"><h3>How you get paid</h3><p>Creem sells the teams you bring and pays your share, on the 1st and 15th of the month once you pass its minimum. We never pay commission ourselves.</p></article>
+<article class="page-card"><h3>How you get paid</h3><p>Creem sells the teams you bring and pays your share, on the 1st and 15th of the month once you have at least 50 USD or 50 EUR. We never pay commission ourselves.</p></article>
 </div>
 
 </section>
@@ -72,9 +83,8 @@ The agreement between you and NFC.cool when you join the partner programme and b
 <li><a href="#what-you-see-about-the-teams-you-bring">What you see about the teams you bring</a></li>
 <li><a href="#how-creem-pays-you">How Creem pays you</a></li>
 <li><a href="#using-the-nfccool-name-and-logo">Using the NFC.cool name and logo</a></li>
-<li><a href="#commission-from-bad-faith">Commission from bad faith</a></li>
-<li><a href="#suspending-and-ending-a-partnership">Suspending and ending a partnership</a></li>
-<li><a href="#leaving-and-deleting-your-account">Leaving, and deleting your account</a></li>
+<li><a href="#commission-from-a-breach">Commission from a breach</a></li>
+<li><a href="#how-a-partnership-ends">How a partnership ends</a></li>
 <li><a href="#you-are-an-independent-partner">You are an independent partner</a></li>
 <li><a href="#your-data">Your data</a></li>
 <li><a href="#changes-to-the-programme-and-these-terms">Changes to the programme and these terms</a></li>
@@ -92,26 +102,28 @@ These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool
 
 They cover the NFC.cool partner programme: your partner link, setting up teams for clients, the demo, the share kit and the sales guides in your partner area at business.nfc.cool, and the commission you earn on the teams you bring to NFC.cool Business Card for Teams.
 
-Commission is paid by Creem, not by us. When a team you bring buys on the web, Creem sells it to the team as the merchant of record, and Creem's affiliate programme pays your share. Creem's own terms for its affiliate programme also apply to you. [CHECK WITH CREEM: the name and link of Creem's affiliate terms, to cite here.]
+Commission is paid by Creem, not by us. When a team you bring buys on the web, Creem sells it to the team as the merchant of record, and Creem's affiliate programme pays your share under Creem's own rules. [ASK CREEM: 1]
+
+**Business or private person.** When you join, you tell us whether you join as a business or as a private person. You join as a business if you join for a company, or in the course of your trade or profession. Otherwise you join as a private person. Some rules below differ between the two, and say so.
 
 You accept these terms when you join the programme. Your NFC.cool account itself stays under the [Business Card terms](/terms/business-card/).
 
 ## Who can join
 
 <ul>
-<li>Anyone with an NFC.cool account who will promote NFC.cool in good faith, from any country.</li>
+<li>Anyone with an NFC.cool account who will promote NFC.cool in good faith, from any country where Creem can pay you.</li>
 <li>Accounts of the NFC.cool Tools app cannot join. Use an account at business.nfc.cool or in the Business Card app.</li>
 <li>One person, one partnership. Do not join with a second account.</li>
-<li>Joining is free and needs no approval. [CHECK WITH CREEM: a minimum age, and whether Creem accepts affiliates from every country.]</li>
+<li>Joining is free and needs no approval from us. To be paid, you also need Creem to accept you, which includes Creem's identity check. [ASK CREEM: 2]</li>
 </ul>
 
 ## Joining, and getting ready to sell
 
 <ol>
 <li>Open business.nfc.cool/partners/join/. Without an account, enter your email address: we send you a link that signs you in and makes your account. With an account, sign in with it.</li>
-<li>Tell us your country and what kind of partner you are. Your website or profile is optional.</li>
+<li>Tell us your country, what kind of partner you are, and whether you join as a business or as a private person. Your website or profile is optional.</li>
 <li>Tick each of the five rules below, and accept these terms.</li>
-<li>Creem invites you to its affiliate programme by email, at your account's confirmed email address. Accept that invite.</li>
+<li>Creem invites you to its affiliate programme by email, at your account's confirmed email address. Accept that invite. Creem then checks your identity through its provider Sumsub, with a government ID and a selfie, which takes about 1 to 2 working days.</li>
 </ol>
 
 Until you have accepted Creem's invite, nothing you do can be credited to you, so your partner area waits for it. Your link, Set up a team and the demo address with your code are shown once Creem has linked you. Your link opens the Teams page in that time, but it remembers no one. The guides, the share kit texts and the plain demo are yours to read at once.
@@ -125,7 +137,7 @@ You tick each of these when you join. They apply wherever you talk about NFC.coo
 <li><strong>No ads on our name.</strong> Do not bid on "NFC.cool" or close variants of it (such as "NFC cool", "nfccool" or misspellings) in search or social ads. Do not register or use domains, usernames, handles or pages that look like ours or contain our name.</li>
 <li><strong>No false claims.</strong> Say only what nfc.cool says. Do not invent prices, discounts, trials, features, results or guarantees.</li>
 <li><strong>Never pose as NFC.cool.</strong> You are an independent partner. Never present yourself as NFC.cool, its owner or its staff, and never use the NFC.cool logo as your own brand.</li>
-<li><strong>Say that you earn from your link.</strong> Wherever you share your link or recommend NFC.cool for a reward, say clearly that you earn a commission, for example "I earn a commission if you buy through my link." EU consumer law requires it. [LAWYER: confirm the reference, e.g. the Unfair Commercial Practices Directive.]</li>
+<li><strong>Say that you earn from your link.</strong> Wherever you share your link or recommend NFC.cool for a reward, say clearly that you earn a commission. Say it before or right next to the link, in the language of the post, where people see it without scrolling, opening "more" or watching to the end: for example "Ad: I earn a commission if you buy through my link." Where a platform has a label for paid partnerships or branded content, use it as well. Never present yourself as a neutral customer. The law requires advertising to be recognisable as advertising, wherever it is published and whoever it is for: in Portugal the Advertising Code (Código da Publicidade, article 8), and across the EU the rules on commercial communications and on unfair commercial practices. [LAWYER: whether to name these laws in the rule at all.]</li>
 </ol>
 
 The sixth is accepting these terms.
@@ -148,11 +160,11 @@ The sixth is accepting these terms.
 You earn **20%** of every payment a team you bring makes on Creem for its NFC.cool Business Card for Teams subscription, for as long as it pays.
 
 <ul>
-<li>Creem works out your share from the price the team pays on Creem, VAT included. [CHECK WITH CREEM: confirm the share is of the VAT-included price, and how discounts and promotion codes change it.]</li>
-<li>"For as long as it pays" means every renewal, monthly or yearly, and every change of seats. [CHECK WITH CREEM: the programme is set to pay on every renewal, with no end date.]</li>
+<li>Creem works out your share under its own rules, from what the team pays on Creem. [ASK CREEM: 3]</li>
+<li>Your share follows the team's payments, monthly or yearly, for as long as the team pays. [ASK CREEM: 4]</li>
 <li>A new team starts with a free trial. Nothing is paid during the trial, so it earns nothing. Your share starts with the first payment.</li>
 <li>Prices depend on the country of the business, so the same team earns a different amount in different countries. Your share is in the currency the team pays in.</li>
-<li>If a payment is refunded or charged back, the share it earned goes too. [CHECK WITH CREEM: how and when Creem takes back a commission on a refund or a chargeback, including one already paid out.]</li>
+<li>If a payment is refunded or charged back, the share it earned is not yours to keep. [ASK CREEM: 5]</li>
 </ul>
 
 ## Founding deals
@@ -162,7 +174,7 @@ The first founding deals across the whole programme earn **40%** instead of 20%,
 <ul>
 <li><strong>A place belongs to a team, not to a partner.</strong> If you bring 50 founding deals, all 50 earn you 40%.</li>
 <li><strong>How many there are.</strong> We start with 100 places. How many are left is shown on the partner page and in your partner area. We may add places at any time. If we ever lower the number, a team that holds a place keeps it.</li>
-<li><strong>When a team takes a place.</strong> When the team's checkout opens on Creem and a place is free, the team takes it, and its subscription is set up at 40% from the start. It stays at 40% when the team changes its seats or switches between monthly and yearly billing.</li>
+<li><strong>When a team takes a place.</strong> When the team's checkout opens on Creem and a place is free, the team takes it, and its subscription is set up at 40% from the start. It stays at 40% when the team changes its seats or switches between monthly and yearly billing. [ASK CREEM: 8]</li>
 <li><strong>Held, then final.</strong> The place is held until the team's first payment. From then on it is the team's for good.</li>
 <li><strong>When a held place goes back.</strong> It goes back to the programme if the checkout is not completed within a day, if the trial ends without a payment, or if the first payment is refunded or disputed. A team whose first payment was refunded but which goes on paying still earns you 40% while it pays.</li>
 <li><strong>A checkout completed late.</strong> If a checkout is completed after its place went back for not being completed in time, the team still earns 40%.</li>
@@ -179,7 +191,7 @@ A team is credited to you in one of two ways, and each team is credited to one p
 Your link is business.nfc.cool/partners/r/ followed by your code. It opens the Teams page on nfc.cool, in the visitor's language.
 
 <ul>
-<li>Opening it remembers you in that browser for 30 days. If the business then starts a team there and buys it, the team is yours.</li>
+<li>Opening it remembers you in that browser for 30 days. If the business then starts a team there and buys it within those 30 days, the team is yours.</li>
 <li>If the business opens another partner's link later, the last link opened counts.</li>
 <li>One opening of your link credits one purchase. For a second team, the business opens your link again.</li>
 <li>Your link is remembered by a cookie in the browser. If the business buys in another browser or on another device, or after clearing or blocking cookies, the team cannot be credited to you.</li>
@@ -232,10 +244,13 @@ The amounts in your partner area are estimates made from the team's price. What 
 ## How Creem pays you
 
 <ul>
-<li>Creem pays your share, under its affiliate terms. We do not pay commission ourselves.</li>
+<li>Creem pays your share. We do not pay commission ourselves.</li>
 <li>You see your balance and are paid in Creem's affiliate portal, where you sign in with the email address Creem invited.</li>
-<li>Creem pays on the 1st and 15th of each month, once your approved earnings pass Creem's minimum. [CHECK WITH CREEM: the minimum, how long a commission stays pending before it is approved, the payout methods and currencies, and any fees.]</li>
-<li>Your tax on what you earn is yours to pay. [CHECK WITH CREEM: what tax details Creem asks for, and whether it issues the invoices for your commissions, as the partner page's "no invoices to write" says.]</li>
+<li>A new commission stays on hold for about 7 to 12 days while Creem's payment partners check it for risk. Then it counts toward your balance.</li>
+<li>Creem pays on the 1st and 15th of each month, once your balance is at least 50 USD or 50 EUR.</li>
+<li>Creem pays by bank transfer in USD or EUR, through its provider Paysway, or in USDC on the Polygon network, through its provider Mural. Each method has its own fee, which Creem shows before you choose it. If your bank account is in another currency, your payment provider may charge for the conversion.</li>
+<li>For each payout, Creem makes an invoice, which you can download in its portal for your tax records. [ASK CREEM: 7]</li>
+<li>Your tax on what you earn is yours to pay.</li>
 </ul>
 
 ## Using the NFC.cool name and logo
@@ -251,52 +266,46 @@ While you are a partner, you may use the NFC.cool name, and the logos, screensho
 
 Everything else about NFC.cool, its name, logos, apps and website, stays ours.
 
-## Commission from bad faith
+## Commission from a breach
 
 The programme is for people who bring real businesses in good faith.
 
 <ul>
-<li>We may withhold, reverse or claw back any commission that comes from breaking these terms or from bad faith, such as a team you bought for yourself, a fake or rewarded sign-up, or a click you forced. [CHECK WITH CREEM: how we ask Creem to hold or reverse a commission, and how Creem recovers one it has already paid.]</li>
-<li>If such a commission has already been paid to you, you pay it back when we ask. [LAWYER: confirm.]</li>
-<li>We may take a team away from your credit if it was credited to you by breaking these terms.</li>
+<li>Commission is earned only on a payment that these terms credit to you. Commission that comes from breaking these terms or from fraud is not earned: for example a team you bought for yourself, a fake or rewarded sign-up, a click you forced, or a link you shared against the rules.</li>
+<li>If we have reason to believe a commission comes from such a breach, we may ask Creem to hold it while we look into it, for at most 60 days. We tell you which commission and why, and you can tell us your side. If the check does not show a breach, the commission is released. [ASK CREEM: 6]</li>
+<li>If such a commission has already been paid to you, you pay it back within 30 days of our written request, which names the commission and the reason. We never ask for an amount that Creem has already taken back from you, and we never ask for commission on teams that were credited to you correctly. [LAWYER: the 60-day hold and the 30-day repayment period; how this fits Creem's own rules for taking commission back.]</li>
+<li>A team that was credited to you by breaking these terms is no longer credited to you.</li>
 </ul>
 
-## Suspending and ending a partnership
+## How a partnership ends
 
 <ul>
-<li><strong>A broken rule.</strong> If you break a rule in these terms, we email you first and you have 14 days to stop. If you do not stop, we may suspend you or end the partnership.</li>
-<li><strong>Fraud.</strong> For fraud, we may suspend you or end the partnership at once, without warning.</li>
-<li><strong>While you are suspended,</strong> your link stops working, no new team is credited to you, and you cannot set up teams or make take-over links. Commission from the activity that broke the rules is withheld.</li>
-<li><strong>When we end a partnership,</strong> it ends as described in Leaving, and deleting your account.</li>
+<li><strong>You leave.</strong> You can leave the programme at any time by writing to business (at) nfc (dot) cool. Deleting your NFC.cool account also ends your partnership. When you leave, you are no longer entitled to commission on any team, including the teams you brought before, and nothing new is credited to you.</li>
+<li><strong>We end it without a breach.</strong> We may end your partnership, or the whole programme, without giving a reason, by email at least 3 months before. Unless you broke these terms, you keep earning commission on the teams credited to you before the end, for as long as they pay. Nothing new is credited to you after the end.</li>
+<li><strong>A broken rule.</strong> If you break a rule in these terms, we email you first and you have 14 days to stop. While those 14 days run, we may suspend you. If you do not stop, we may end the partnership at once.</li>
+<li><strong>Fraud.</strong> For fraud, we may end the partnership at once, without warning.</li>
+<li><strong>While you are suspended,</strong> your link stops working, no new team is credited to you, and you cannot set up teams or make take-over links. A commission from the activity that broke the rules is handled as described in Commission from a breach.</li>
+<li><strong>When a partnership ends for a broken rule or fraud,</strong> you are no longer entitled to commission on any team, and nothing new is credited to you.</li>
+<li><strong>Whenever a partnership ends,</strong> your link and any open take-over links stop working. [ASK CREEM: 6]</li>
 </ul>
-
-## Leaving, and deleting your account
-
-You can leave the programme at any time by writing to business (at) nfc (dot) cool. Deleting your NFC.cool account also ends your partnership.
-
-When a partnership ends, for any reason:
-
-<ul>
-<li>you earn no further commission on any team, including the teams you brought before;</li>
-<li>nothing new is credited to you;</li>
-<li>your link and any open take-over links stop working.</li>
-</ul>
-
-[CHECK WITH CREEM: how commissions on running subscriptions are stopped at Creem when a partnership ends, and what happens to a balance earned before the end.]
 
 ## You are an independent partner
 
 <ul>
-<li>You act on your own account. You are not our employee, agent or representative, and these terms make no partnership, joint venture or employment between us. [LAWYER: confirm.]</li>
-<li>You cannot make promises or sign anything for us.</li>
-<li>You carry your own costs.</li>
-<li>You are responsible for your own taxes and for following the laws that apply to you, including data protection law such as the GDPR and the rules on marketing email and messages.</li>
+<li>You act on your own account. You decide yourself whether, when, where, how and how much you promote NFC.cool. You have no duty to promote it, and there is no target, minimum or quota.</li>
+<li>You have no territory and no group of customers of your own, and no exclusivity: we work with other partners anywhere, and you may promote other products and services, including ones that compete with ours.</li>
+<li>You cannot negotiate, conclude or sign anything for us or for Creem, accept orders or payments, or make promises in our name. A business buys only by accepting our terms and completing Creem's checkout itself.</li>
+<li>The guides, the share kit and the demo are there to help you. Apart from the rules you keep, using them is up to you, and you do not report to us on what you do.</li>
+<li>These terms do not make you our employee, our commercial agent (agente, under Decreto-Lei n.º 178/86), our representative or our partner in a company or joint venture.</li>
+<li>You carry your own costs, and you are responsible for your own taxes and for following the laws that apply to you, including data protection law such as the GDPR and the rules on marketing email and messages.</li>
 <li>You are responsible for what you say and publish about NFC.cool.</li>
 </ul>
 
+[LAWYER: the risk that a partner who sets up and hands over teams is treated as a commercial agent; the 3-month notice for ending without a breach; whether partners outside Portugal could rely on their own country's agency rules.]
+
 ## Your data
 
-When you join, we keep your account, the kind of partner you chose, your website or profile if you gave one, the rules you ticked and when, your link code and the teams credited to you. Creem receives what it needs to pay you. The [Business Card privacy policy](/privacy/business-card/#partners) explains this in full.
+When you join, we keep your account, the kind of partner you chose, whether you joined as a business or as a private person, your website or profile if you gave one, the rules you ticked and when, the version of these terms you accepted, your link code and the teams credited to you. Creem receives what it needs to pay you. The [Business Card privacy policy](/privacy/business-card/#partners) explains this in full.
 
 ## Changes to the programme and these terms
 
@@ -313,14 +322,24 @@ We may change the programme and these terms for a valid reason, such as a change
 
 <ul>
 <li><strong>No guarantee of earnings.</strong> We do not promise that you will earn anything, or any amount. What you earn depends on the teams you bring and on what they pay.</li>
-<li><strong>The service.</strong> We work to keep NFC.cool and the partner area running, but cannot promise they are always available or free of errors. We are not responsible for what Creem pays or does not pay.</li>
-<li><strong>Our liability.</strong> Nothing in these terms limits our liability for damage we cause intentionally or through gross negligence, for death or personal injury, or for anything else the law does not allow us to limit. Apart from that, and as far as the law allows, we are not liable for indirect loss, such as lost commission or lost business, and our total liability to you is limited to the commission paid to you for teams you brought in the 12 months before the claim. [LAWYER: confirm.]</li>
-<li><strong>Your liability.</strong> If someone makes a claim against us because you broke these terms or the law, for example by spam, a false claim or a misuse of our name, you cover our reasonable costs of that claim, including legal costs, as far as you are responsible for it. [LAWYER: confirm.]</li>
+<li><strong>The service.</strong> We work to keep NFC.cool and the partner area running, but cannot promise they are always available or free of errors. Creem decides and makes its payments to you under its own rules.</li>
+<li><strong>Our liability.</strong> Nothing in these terms excludes or limits our liability for damage we cause intentionally or through gross negligence, whether ourselves or through the people and providers we work with, for death, personal injury or damage to health, for damage outside the contract, or for anything else the law does not allow us to exclude or limit. If you join as a private person, nothing else in these terms limits our liability to you under the law.<br>
+If you join as a business, then, apart from that and as far as the law allows:
+<ul>
+<li>we are not liable for commission you might have earned if your link, the partner area or the crediting of teams had worked, for lost profits or lost business, or for loss of goodwill or data. Commission owed for a team that was credited to you is not affected;</li>
+<li>our total liability to you in any 12 months is limited to the higher of the commission paid to you in those 12 months and EUR 100.</li>
+</ul>
+[LAWYER: the EUR 100 floor; whether to keep the exclusion of lost profits for business partners; whether Creem, in paying commission, counts as a provider we work with.]</li>
+<li><strong>Your liability.</strong> If you join as a business and someone makes a claim against us because you broke these terms or the law, for example by spam, a false claim, a missing disclosure or a misuse of our name, you compensate us for the loss this causes us: the amount we have to pay under a judgment or a settlement you agreed to, and our reasonable legal costs, as far as you are responsible for it. We tell you about the claim promptly, let you comment on it and do not settle it without asking you first. If we share responsibility, your share is reduced accordingly. If you join as a private person, you are liable for damage you cause us by breaking these terms under the general rules of Portuguese law. [LAWYER: fines are left out; whether to cap a business partner's liability.]</li>
 </ul>
 
 ## Law and disputes
 
-These terms are governed by Portuguese law. If a dispute arises, write to us first: most problems can be solved that way. The courts of Lisbon, Portugal, decide disputes about these terms. [LAWYER: confirm Lisbon (the Business Card terms name Coimbra), and what applies to a partner who joins as a private person rather than a business.]
+These terms are governed by Portuguese law. If you join as a private person and live in another country, you also keep the protection of the mandatory laws of that country.
+
+If a dispute arises, write to us first: most problems can be solved that way. The courts of Coimbra, Portugal, decide disputes with partners who join as a business, unless the law makes another court competent. If you join as a private person, you can also go to the courts where you live, and we can bring a claim against you only in the courts of the country where you live.
+
+[LAWYER: "private person" as the trigger; whether the Coimbra clause binds a Portuguese company partner (Lei 14/2006).]
 
 ## Other terms
 
@@ -328,7 +347,7 @@ These terms are governed by Portuguese law. If a dispute arises, write to us fir
 <li>If a court finds part of these terms invalid, the rest stays in force.</li>
 <li>If we do not enforce a right straight away, we do not give it up.</li>
 <li>You may not transfer your partnership, your link or these terms to someone else.</li>
-<li>These terms, together with Creem's affiliate terms for payment, are the whole agreement about the partner programme.</li>
+<li>These terms are the whole agreement between you and us about the partner programme. Creem's own rules govern how Creem pays you. These terms govern everything else, and prevail over Creem's rules on anything other than how Creem pays you.</li>
 </ul>
 
 ## Contact
