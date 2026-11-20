@@ -15,9 +15,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # NFC.coolに紹介したチームごとに報酬を
 
-取引のある企業にNFC.cool Business Card for Teamsを紹介してください。その企業がWebで支払うたびに、支払いが続く限りその20%を受け取れます。
-
-<p class="partner-founding" data-founding data-line="創業ディールは残り{left}件（全{total}件）：チームが支払う限り40%">創業ディール、つまりパートナーが最初に紹介したチームは、各チームが支払いを続ける限り40%になります。</p>
+取引のある企業にNFC.cool Business Card for Teamsを紹介して、Webで支払うチームごとに報酬を受け取りましょう。参加は無料です。
 
 <div class="partner-actions">
 <a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">パートナーになる</a>
@@ -26,12 +24,10 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 </div>
 
-<div class="partner-home" role="img" aria-label="3つのサンプル企業が並ぶパートナーホームのイラスト">
-<p class="partner-home-title">パートナーホーム</p>
-<div class="partner-home-row"><span>Alder &amp; Finch建築設計事務所</span><span>8シート、支払い中</span></div>
-<div class="partner-home-row"><span>ハーバー整骨院</span><span>4シート、トライアル中</span></div>
-<div class="partner-home-row"><span>ノースサイド不動産</span><span>引き継ぎ待ち</span></div>
-<p class="partner-home-note">サンプル企業によるイラストです。</p>
+<div class="partner-rate-card" data-rate-card>
+<p class="partner-rate" data-rate data-format="{n}%">40%</p>
+<p class="partner-rate-what">支払いが続く限り、毎回の支払いから</p>
+<p class="partner-rate-count" data-founding data-line="創業ディールは残り{left}件（全{total}件）、その後は20%">創業ディール、つまりパートナーが最初に紹介したチームが対象です。その後は20%。</p>
 </div>
 
 </div>

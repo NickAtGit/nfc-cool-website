@@ -15,9 +15,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # 每带来一个团队到 NFC.cool，都有你的收入
 
-把 NFC.cool Business Card for Teams 推荐给和你合作的企业。他们在网页端的每一笔付款，你都能拿到 20%，只要他们一直付费。
-
-<p class="partner-founding" data-founding data-line="创始名额还剩 {left} 个（共 {total} 个）：团队付费期间一直拿 40%">创始名额，也就是合作伙伴最早带来的那批团队，只要每个团队一直付费，就能拿 40%。</p>
+把 NFC.cool Business Card for Teams 推荐给和你合作的企业，每个在网页端付费的团队都会带来你的收入。加入免费。
 
 <div class="partner-actions">
 <a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">成为合作伙伴</a>
@@ -26,12 +24,10 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 </div>
 
-<div class="partner-home" role="img" aria-label="合作伙伴主页示意图，列出三家示例企业">
-<p class="partner-home-title">你的合作伙伴主页</p>
-<div class="partner-home-row"><span>Alder &amp; Finch 建筑事务所</span><span>8 个席位，付费中</span></div>
-<div class="partner-home-row"><span>港湾理疗</span><span>4 个席位，试用中</span></div>
-<div class="partner-home-row"><span>北岸地产</span><span>等待接手</span></div>
-<p class="partner-home-note">示意图，企业均为示例。</p>
+<div class="partner-rate-card" data-rate-card>
+<p class="partner-rate" data-rate data-format="{n}%">40%</p>
+<p class="partner-rate-what">每一笔付款都有，只要他们一直付费</p>
+<p class="partner-rate-count" data-founding data-line="创始名额还剩 {left} 个（共 {total} 个），之后为 20%">适用于创始名额，也就是合作伙伴最早带来的那批团队。之后为 20%。</p>
 </div>
 
 </div>

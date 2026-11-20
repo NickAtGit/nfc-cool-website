@@ -1,7 +1,8 @@
 // The partner page: the earnings calculator and the live founding count.
 // The seat price comes from /prices/prices.json (the visitor's own tier and currency, like every
-// other price on the site); the count from the service. Without JS, or when either fails, the
-// page keeps its built text: a static founding sentence and a USD example.
+// other price on the site); the hero card's rate and count from the service. Without JS, or when
+// either fails, the page keeps its built text: 40% over a founding sentence with no number, and a
+// USD example.
 import { countryFromLanguage, priceFor, currencyFor, formatPrice } from '../prices/prices.mjs';
 
 const FOUNDING_URL = 'https://business.nfc.cool/partners/founding.json';
@@ -78,6 +79,18 @@ export function foundingLine(answer, strings, locale = 'en') {
     .replace('{total}', localNumber(answer.total, locale));
 }
 
+// The hero card's big rate, or null when it should stay as built: the founding rate while deals are
+// left, the standard rate once none are, nothing on a failed or odd answer (the built card keeps
+// its 40% beside a sentence that names no number). `format` is the page's own way of writing a
+// percent, with {n} for the number ("{n}%", "{n} %", "%{n}", "{n}٪").
+export function rateText(answer, format, locale = 'en') {
+  const state = foundingState(answer);
+  if (state === 'unknown' || !format || !format.includes('{n}')) return null;
+  const rates = ratesFrom(answer);
+  const rate = state === 'open' ? rates.founding : rates.standard;
+  return format.replace('{n}', localNumber(Math.round(rate * 100), locale));
+}
+
 const pageLocale = root => (root.documentElement && root.documentElement.lang) || 'en';
 
 // Returns { setRates }, so the service's rates repaint the figures when its answer arrives.
@@ -128,7 +141,7 @@ function wireCalculator(root, data, lang) {
   return { setRates(next) { rates = next; paint(); } };
 }
 
-// Everything on the page that offers 40% as available: the hero sentence ([data-founding]) and
+// Everything on the page that offers 40% as available: the hero card's count ([data-founding]) and
 // the calculator's founding column ([data-founding-only]). Hidden once the service says none are
 // left, so only the 20% figures remain; an error leaves them as built.
 export function hideFoundingOffers(root) {
@@ -143,12 +156,18 @@ async function fetchFounding() {
   } catch { return null; }
 }
 
+// The hero card: open, the founding rate and the live count; gone, the standard rate and no count
+// (and the calculator's founding column hidden); unknown, the card as built.
 function wireFounding(root, answer) {
+  const locale = pageLocale(root);
+  const big = root.querySelector('[data-rate]');
+  const rate = big ? rateText(answer, big.getAttribute('data-format') || '', locale) : null;
+  if (rate) big.textContent = rate;
+  if (foundingState(answer) === 'gone') { hideFoundingOffers(root); return; }
   const el = root.querySelector('[data-founding]');
   if (!el) return;
   const strings = { line: el.getAttribute('data-line') || '' };
-  if (foundingState(answer) === 'gone') { hideFoundingOffers(root); return; }
-  const line = strings.line ? foundingLine(answer, strings, pageLocale(root)) : null;
+  const line = strings.line ? foundingLine(answer, strings, locale) : null;
   if (line) el.textContent = line;
 }
 

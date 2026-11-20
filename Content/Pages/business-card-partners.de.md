@@ -15,9 +15,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Verdiene an jedem Team, das du zu NFC.cool bringst
 
-Empfiehl NFC.cool Business Card for Teams den Firmen, mit denen du arbeitest. Du bekommst 20 % jeder Zahlung, die sie im Web leisten, so lange sie zahlen.
-
-<p class="partner-founding" data-founding data-line="Noch {left} von {total} Gründungsdeals frei: 40 %, solange das Team zahlt">Für Gründungsdeals, also die ersten Teams, die Partner mitbringen, gibt es 40 %, solange das jeweilige Team zahlt.</p>
+Empfiehl NFC.cool Business Card for Teams den Firmen, mit denen du arbeitest, und verdiene an jedem Team mit, das im Web zahlt. Mitmachen ist kostenlos.
 
 <div class="partner-actions">
 <a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Partner werden</a>
@@ -26,12 +24,10 @@ Empfiehl NFC.cool Business Card for Teams den Firmen, mit denen du arbeitest. Du
 
 </div>
 
-<div class="partner-home" role="img" aria-label="Illustration eines Partnerbereichs mit drei Beispielfirmen">
-<p class="partner-home-title">Dein Partnerbereich</p>
-<div class="partner-home-row"><span>Alder &amp; Finch Architekten</span><span>8 Plätze, zahlt</span></div>
-<div class="partner-home-row"><span>Physio am Hafen</span><span>4 Plätze, im Test</span></div>
-<div class="partner-home-row"><span>Northside Immobilien</span><span>wartet auf Übernahme</span></div>
-<p class="partner-home-note">Illustration mit Beispielfirmen.</p>
+<div class="partner-rate-card" data-rate-card>
+<p class="partner-rate" data-rate data-format="{n} %">40 %</p>
+<p class="partner-rate-what">jeder Zahlung, solange sie zahlen</p>
+<p class="partner-rate-count" data-founding data-line="Noch {left} von {total} Gründungsdeals frei, danach 20 %">Für Gründungsdeals, die ersten Teams, die Partner mitbringen. Danach 20 %.</p>
 </div>
 
 </div>

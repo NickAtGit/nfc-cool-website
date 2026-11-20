@@ -15,9 +15,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Earn With Every Team You Bring to NFC.cool
 
-Recommend NFC.cool for Teams to the businesses you work with. You earn 20% of every payment they make on the web, for as long as they pay.
-
-<p class="partner-founding" data-founding data-line="{left} of {total} founding deals left: 40% for as long as the team pays">Founding deals, the first teams partners bring, earn 40% for as long as each team pays.</p>
+Recommend NFC.cool for Teams to the businesses you work with, and earn from every team that pays on the web. Joining is free.
 
 <div class="partner-actions">
 <a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Become a partner</a>
@@ -26,12 +24,10 @@ Recommend NFC.cool for Teams to the businesses you work with. You earn 20% of ev
 
 </div>
 
-<div class="partner-home" role="img" aria-label="An illustration of a partner's home page with three sample businesses">
-<p class="partner-home-title">Your Partner home</p>
-<div class="partner-home-row"><span>Alder &amp; Finch Architects</span><span>8 seats, paying</span></div>
-<div class="partner-home-row"><span>Harbour Physio</span><span>4 seats, trial</span></div>
-<div class="partner-home-row"><span>Northside Realty</span><span>waiting for take-over</span></div>
-<p class="partner-home-note">Illustration with sample businesses.</p>
+<div class="partner-rate-card" data-rate-card>
+<p class="partner-rate" data-rate data-format="{n}%">40%</p>
+<p class="partner-rate-what">of every payment, for as long as they pay</p>
+<p class="partner-rate-count" data-founding data-line="{left} of {total} founding deals left, then 20%">On founding deals, the first teams partners bring. Then 20%.</p>
 </div>
 
 </div>

@@ -15,9 +15,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # اربح من كل فريق تجلبه إلى NFC.cool
 
-رشّح NFC.cool Business Card for Teams للشركات التي تعمل معها. تحصل على ٢٠٪ من كل دفعة تدفعها على الويب، طوال المدة التي تواصل فيها الدفع.
-
-<p class="partner-founding" data-founding data-line="بقيت {left} من أصل {total} صفقة تأسيسية: ٤٠٪ ما دام الفريق يدفع">الصفقات التأسيسية، أي أول الفرق التي يجلبها الشركاء، تكسب ٤٠٪ ما دام كل فريق منها يدفع.</p>
+رشّح NFC.cool Business Card for Teams للشركات التي تعمل معها، واربح من كل فريق يدفع على الويب. الانضمام مجاني.
 
 <div class="partner-actions">
 <a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">كن شريكًا</a>
@@ -26,12 +24,10 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 </div>
 
-<div class="partner-home" role="img" aria-label="رسم توضيحي لصفحة شريك تضم ثلاث شركات افتراضية">
-<p class="partner-home-title">صفحتك كشريك</p>
-<div class="partner-home-row"><span>Alder &amp; Finch للهندسة المعمارية</span><span>٨ مقاعد، يدفع</span></div>
-<div class="partner-home-row"><span>مركز المرفأ للعلاج الطبيعي</span><span>٤ مقاعد، في فترة التجربة</span></div>
-<div class="partner-home-row"><span>Northside للعقارات</span><span>بانتظار التسلّم</span></div>
-<p class="partner-home-note">رسم توضيحي بشركات افتراضية.</p>
+<div class="partner-rate-card" data-rate-card>
+<p class="partner-rate" data-rate data-format="{n}٪">٤٠٪</p>
+<p class="partner-rate-what">من كل دفعة، ما داموا يدفعون</p>
+<p class="partner-rate-count" data-founding data-line="بقيت {left} من أصل {total} صفقة تأسيسية، ثم ٢٠٪">على الصفقات التأسيسية، أي أول الفرق التي يجلبها الشركاء. بعدها ٢٠٪.</p>
 </div>
 
 </div>

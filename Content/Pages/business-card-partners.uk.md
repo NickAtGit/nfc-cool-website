@@ -15,9 +15,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Заробляй на кожній команді, яку приводиш у NFC.cool
 
-Рекомендуй NFC.cool Business Card for Teams компаніям, з якими працюєш. Отримуєш 20% із кожного їхнього платежу на сайті, і так увесь час, доки вони платять.
-
-<p class="partner-founding" data-founding data-line="Залишилося {left} із {total} стартових угод: 40%, доки команда платить">Стартові угоди, тобто перші команди, яких приводять партнери, приносять 40%, доки кожна з цих команд платить.</p>
+Рекомендуй NFC.cool Business Card for Teams компаніям, з якими працюєш, і заробляй на кожній команді, яка платить на сайті. Участь безкоштовна.
 
 <div class="partner-actions">
 <a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Стати партнером</a>
@@ -26,12 +24,10 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 </div>
 
-<div class="partner-home" role="img" aria-label="Ілюстрація сторінки партнера з трьома прикладами компаній">
-<p class="partner-home-title">Сторінка партнера</p>
-<div class="partner-home-row"><span>Alder &amp; Finch Architects</span><span>8 місць, платить</span></div>
-<div class="partner-home-row"><span>Фізіотерапія «Гавань»</span><span>4 місця, пробний період</span></div>
-<div class="partner-home-row"><span>Northside Realty</span><span>чекає на передачу</span></div>
-<p class="partner-home-note">Ілюстрація з прикладами компаній.</p>
+<div class="partner-rate-card" data-rate-card>
+<p class="partner-rate" data-rate data-format="{n}%">40%</p>
+<p class="partner-rate-what">з кожного платежу, доки вони платять</p>
+<p class="partner-rate-count" data-founding data-line="Залишилося {left} із {total} стартових угод, далі 20%">Зі стартових угод, тобто перших команд, яких приводять партнери. Далі 20%.</p>
 </div>
 
 </div>

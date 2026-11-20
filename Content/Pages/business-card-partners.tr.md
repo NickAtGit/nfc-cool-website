@@ -15,9 +15,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # NFC.cool'a getirdiğin her ekipten kazan
 
-Birlikte çalıştığın işletmelere NFC.cool Business Card for Teams'i öner. Web'de yaptıkları her ödemenin yüzde 20'si, ödemeye devam ettikleri sürece senin.
-
-<p class="partner-founding" data-founding data-line="{total} kurucu anlaşmadan {left} tanesi kaldı: ekip ödedikçe yüzde 40">Kurucu anlaşmalar, yani iş ortaklarının getirdiği ilk ekipler, her ekip ödemeye devam ettiği sürece yüzde 40 kazandırır.</p>
+Birlikte çalıştığın işletmelere NFC.cool Business Card for Teams'i öner, Web'de ödeme yapan her ekipten kazan. Katılmak ücretsiz.
 
 <div class="partner-actions">
 <a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">İş ortağı ol</a>
@@ -26,12 +24,10 @@ Birlikte çalıştığın işletmelere NFC.cool Business Card for Teams'i öner.
 
 </div>
 
-<div class="partner-home" role="img" aria-label="Üç örnek işletmenin yer aldığı iş ortağı sayfasının çizimi">
-<p class="partner-home-title">İş ortağı sayfan</p>
-<div class="partner-home-row"><span>Alder &amp; Finch Mimarlık</span><span>8 kullanıcı, ödüyor</span></div>
-<div class="partner-home-row"><span>Liman Fizyoterapi</span><span>4 kullanıcı, denemede</span></div>
-<div class="partner-home-row"><span>Northside Emlak</span><span>devralınmayı bekliyor</span></div>
-<p class="partner-home-note">Örnek işletmelerle hazırlanmış çizim.</p>
+<div class="partner-rate-card" data-rate-card>
+<p class="partner-rate" data-rate data-format="%{n}">%40</p>
+<p class="partner-rate-what">her ödemeden, ödemeye devam ettikleri sürece</p>
+<p class="partner-rate-count" data-founding data-line="{total} kurucu anlaşmadan {left} tanesi kaldı, sonra yüzde 20">Kurucu anlaşmalarda, yani iş ortaklarının getirdiği ilk ekiplerde. Sonra yüzde 20.</p>
 </div>
 
 </div>

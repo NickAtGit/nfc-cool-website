@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
-import { earnings, foundingLine, foundingState, hideFoundingOffers, localNumber, money, ratesFrom } from '../../../Content/StaticFiles/partners/partners.mjs';
+import { earnings, foundingLine, foundingState, hideFoundingOffers, localNumber, money, rateText, ratesFrom } from '../../../Content/StaticFiles/partners/partners.mjs';
 import { countryFromLanguage, priceFor } from '../../../Content/StaticFiles/prices/prices.mjs';
 
 const data = JSON.parse(readFileSync(
@@ -76,7 +76,13 @@ test('every locale page carries the strings the script fills in', () => {
     assert.ok(attr('data-per-year').includes('{price}'), `${file}: data-per-year`);
     // The built sentence names no total: Nico can raise it, and only the live line knows it.
     const fallback = (text.match(/data-founding[^>]*>([^<]*)</) || [])[1] || '';
-    assert.ok(fallback && !/[0-9\u0660-\u0669]/.test(fallback.replace(/40|٤٠/g, '')), `${file}: the fallback names no number`);
+    assert.ok(fallback && !/[0-9\u0660-\u0669]/.test(fallback.replace(/[24]0|[٢٤]٠/g, '')), `${file}: the fallback names no number`);
+    // The hero card: a big rate the script can rewrite in the page's own percent, built as 40%.
+    const big = text.match(/<p class="partner-rate" data-rate data-format="([^"]*)">([^<]*)</);
+    assert.ok(big && big[1].includes('{n}'), `${file}: the card's rate has a data-format`);
+    assert.equal(big[2], big[1].replace('{n}', file.includes('.ar.') ? '٤٠' : '40'), `${file}: the built rate is 40%`);
+    assert.ok(/class="partner-rate-count" data-founding data-line=/.test(text), `${file}: the count sits in the card`);
+    assert.ok(!text.includes('partner-home'), `${file}: no Partner home illustration`);
   }
 });
 
@@ -108,4 +114,18 @@ test('ratesFrom: the service\'s rate and founding_rate, the built-in 20% and 40%
   assert.deepEqual(ratesFrom({ error: 'x' }), { standard: 0.2, founding: 0.4 });
   assert.deepEqual(ratesFrom({ rate: '20', founding_rate: 0 }), { standard: 0.2, founding: 0.4 });
   assert.deepEqual(ratesFrom({ rate: 30 }), { standard: 0.3, founding: 0.4 });
+});
+
+test('rateText: 40% while deals are left, 20% once none are, nothing on a failure', () => {
+  const open = { left: 63, total: 100, rate: 20, founding_rate: 40 };
+  const gone = { left: 0, total: 100, rate: 20, founding_rate: 40 };
+  assert.equal(rateText(open, '{n}%'), '40%');
+  assert.equal(rateText(gone, '{n}%'), '20%');
+  assert.equal(rateText(open, '{n}\u00A0%', 'de'), '40\u00A0%');
+  assert.equal(rateText(gone, '%{n}', 'tr'), '%20');
+  assert.equal(rateText(open, '{n}٪', 'ar'), '٤٠٪');
+  assert.equal(rateText({ left: 5, total: 100, founding_rate: 45 }, '{n}%'), '45%');
+  assert.equal(rateText(null, '{n}%'), null);
+  assert.equal(rateText({ error: 'x' }, '{n}%'), null);
+  assert.equal(rateText(open, ''), null);
 });

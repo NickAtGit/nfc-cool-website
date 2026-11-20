@@ -15,9 +15,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Dapatkan penghasilan dari setiap tim yang Anda bawa ke NFC.cool
 
-Rekomendasikan NFC.cool Business Card for Teams kepada bisnis yang bekerja sama dengan Anda. Anda mendapat 20% dari setiap pembayaran yang mereka lakukan di web, selama mereka terus membayar.
-
-<p class="partner-founding" data-founding data-line="Tersisa {left} dari {total} kesepakatan pendiri: 40% selama tim membayar">Kesepakatan pendiri, yaitu tim-tim pertama yang dibawa mitra, menghasilkan 40% selama setiap tim terus membayar.</p>
+Rekomendasikan NFC.cool Business Card for Teams kepada bisnis yang bekerja sama dengan Anda, dan dapatkan penghasilan dari setiap tim yang membayar di web. Bergabung gratis.
 
 <div class="partner-actions">
 <a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Jadi mitra</a>
@@ -26,12 +24,10 @@ Rekomendasikan NFC.cool Business Card for Teams kepada bisnis yang bekerja sama 
 
 </div>
 
-<div class="partner-home" role="img" aria-label="Ilustrasi halaman mitra dengan tiga contoh bisnis">
-<p class="partner-home-title">Halaman mitra Anda</p>
-<div class="partner-home-row"><span>Alder &amp; Finch Arsitek</span><span>8 kursi, membayar</span></div>
-<div class="partner-home-row"><span>Harbour Fisioterapi</span><span>4 kursi, uji coba</span></div>
-<div class="partner-home-row"><span>Northside Properti</span><span>menunggu diambil alih</span></div>
-<p class="partner-home-note">Ilustrasi dengan contoh bisnis.</p>
+<div class="partner-rate-card" data-rate-card>
+<p class="partner-rate" data-rate data-format="{n}%">40%</p>
+<p class="partner-rate-what">dari setiap pembayaran, selama mereka terus membayar</p>
+<p class="partner-rate-count" data-founding data-line="Tersisa {left} dari {total} kesepakatan pendiri, lalu 20%">Untuk kesepakatan pendiri, yaitu tim-tim pertama yang dibawa mitra. Setelah itu 20%.</p>
 </div>
 
 </div>

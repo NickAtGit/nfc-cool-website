@@ -15,9 +15,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 # Guadagna con ogni team che porti a NFC.cool
 
-Consiglia NFC.cool Business Card for Teams alle aziende con cui lavori. Ricevi il 20% di ogni pagamento che fanno sul web, per tutto il tempo in cui pagano.
-
-<p class="partner-founding" data-founding data-line="Restano {left} accordi fondatori su {total}: 40% finché il team paga">Gli accordi fondatori, cioè i primi team portati dai partner, rendono il 40% finché ciascun team paga.</p>
+Consiglia NFC.cool Business Card for Teams alle aziende con cui lavori e guadagna con ogni team che paga sul web. Partecipare è gratis.
 
 <div class="partner-actions">
 <a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Diventa partner</a>
@@ -26,12 +24,10 @@ Consiglia NFC.cool Business Card for Teams alle aziende con cui lavori. Ricevi i
 
 </div>
 
-<div class="partner-home" role="img" aria-label="Illustrazione dell'area di un partner con tre aziende di esempio">
-<p class="partner-home-title">L'area partner</p>
-<div class="partner-home-row"><span>Alder &amp; Finch Architetti</span><span>8 posti, paga</span></div>
-<div class="partner-home-row"><span>Fisio del Porto</span><span>4 posti, in prova</span></div>
-<div class="partner-home-row"><span>Northside Immobiliare</span><span>in attesa del passaggio</span></div>
-<p class="partner-home-note">Illustrazione con aziende di esempio.</p>
+<div class="partner-rate-card" data-rate-card>
+<p class="partner-rate" data-rate data-format="{n}%">40%</p>
+<p class="partner-rate-what">di ogni pagamento, finché pagano</p>
+<p class="partner-rate-count" data-founding data-line="Restano {left} accordi fondatori su {total}, poi il 20%">Sugli accordi fondatori, i primi team portati dai partner. Poi il 20%.</p>
 </div>
 
 </div>
