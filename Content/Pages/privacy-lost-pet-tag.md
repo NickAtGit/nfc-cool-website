@@ -85,7 +85,7 @@ The controller for the processing described here is:
 
 <div class="page-cards-grid">
 <article class="page-card">
-<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934<br>Phone: +351 925 378 989</p>
+<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934</p>
 <p>E-Mail: info (at) nfc (dot) cool</p>
 </article>
 </div>
@@ -377,7 +377,7 @@ Questions about this policy or your data:
 
 <div class="page-cards-grid">
 <article class="page-card">
-<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934<br>Phone: +351 925 378 989</p>
+<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934</p>
 <p>E-Mail: info (at) nfc (dot) cool</p>
 </article>
 </div>

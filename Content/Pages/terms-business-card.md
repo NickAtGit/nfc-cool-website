@@ -56,7 +56,7 @@ The agreement between you and NFC.cool for the Business Card app, its App Clip, 
 
 ## Who we are and what these terms cover
 
-These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, NIF PT315901934, phone +351 925 378 989, email info (at) nfc (dot) cool ("NFC.cool", "we", "us"). They cover:
+These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, NIF PT315901934, email info (at) nfc (dot) cool ("NFC.cool", "we", "us"). They cover:
 
 <ul>
 <li>the Business Card by NFC.cool app for iPhone, iPad and Android, and its App Clip on iPhone;</li>
@@ -232,7 +232,7 @@ NFC.cool Business Card for Teams is made for businesses and professionals, and y
 
 **Right of withdrawal.** You have the right to withdraw from the contract within 14 days without giving any reason. The withdrawal period ends 14 days after the day the contract is concluded.
 
-To exercise the right of withdrawal, you must inform us (Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, phone +351 925 378 989, email business (at) nfc (dot) cool) of your decision to withdraw from this contract by an unequivocal statement, for example a letter sent by post or an email. You may use the model withdrawal form at the end of these terms, but you do not have to. To meet the withdrawal deadline, it is enough that you send your communication before the withdrawal period has ended.
+To exercise the right of withdrawal, you must inform us (Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, email business (at) nfc (dot) cool) of your decision to withdraw from this contract by an unequivocal statement, for example a letter sent by post or an email. You may use the model withdrawal form at the end of these terms, but you do not have to. To meet the withdrawal deadline, it is enough that you send your communication before the withdrawal period has ended.
 
 Cancelling your subscription on the Billing page is not the same as withdrawing: it stops the next renewal. To withdraw, write to us as above.
 
@@ -399,7 +399,7 @@ The Direção-Geral do Consumidor lists all consumer arbitration centres at [con
 
 <div class="page-cards-grid">
 <article class="page-card">
-<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934<br>Phone: +351 925 378 989</p>
+<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934</p>
 <p>E-Mail: info (at) nfc (dot) cool<br>For teams: business (at) nfc (dot) cool<br>Reports under the Digital Services Act: dsa (at) nfc (dot) cool</p>
 </article>
 </div>
@@ -411,7 +411,7 @@ Complete and return this form only if you wish to withdraw from the contract.
 <div class="page-cards-grid">
 <article class="page-card">
 <ul>
-<li>To: Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, phone +351 925 378 989, email business (at) nfc (dot) cool</li>
+<li>To: Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, email business (at) nfc (dot) cool</li>
 <li>I/We (*) hereby give notice that I/We (*) withdraw from my/our (*) contract for the provision of the following service (*):</li>
 <li>Ordered on (*):</li>
 <li>Name of consumer(s):</li>

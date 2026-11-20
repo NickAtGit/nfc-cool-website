@@ -53,7 +53,7 @@ The agreement between you and NFC.cool for the NFC.cool Tools app and the nfc.co
 
 ## Who we are and what these terms cover
 
-These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, NIF PT315901934, phone +351 925 378 989, email info (at) nfc (dot) cool ("NFC.cool", "we", "us"). They cover:
+These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, NIF PT315901934, email info (at) nfc (dot) cool ("NFC.cool", "we", "us"). They cover:
 
 <ul>
 <li>the NFC.cool Tools app for iPhone and iPad, from the <a href="https://apps.apple.com/app/id1249686798">App Store</a>, and for Android, from <a href="https://play.google.com/store/apps/details?id=cool.nfc">Google Play</a> ("the app");</li>
@@ -250,7 +250,7 @@ The Direção-Geral do Consumidor lists all consumer arbitration centres at [con
 
 <div class="page-cards-grid">
 <article class="page-card">
-<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934<br>Phone: +351 925 378 989</p>
+<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934</p>
 <p>E-Mail: info (at) nfc (dot) cool</p>
 </article>
 </div>
