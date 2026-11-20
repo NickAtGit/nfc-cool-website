@@ -66,7 +66,7 @@ Ekibinin verilerini ve topladığı müşteri adaylarını nasıl işlediğimizi
 Ekipler kişi başına yıllık ya da aylık öder. Fiyatlara KDV dahildir.
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>Kişi başı yılda {{PRICE:seat:year}}</h3><p>Ya da ayda $5. Yıllık ödersen kişi başı {{PRICE:seat:saving}} kazançlı çıkarsın.</p></article>
+<article class="page-card"><h3>Kişi başı yılda {{PRICE:seat:year}}</h3><p>Ya da ayda {{PRICE:seat:month}}. Yıllık ödersen kişi başı {{PRICE:seat:saving}} kazançlı çıkarsın.</p></article>
 <article class="page-card"><h3>İki kullanıcıdan başlar</h3><p>İki kişilik ekip yılda {{PRICE:seat:year:2}} ya da ayda {{PRICE:seat:month:2}} tutar. Kullanıcı sayısını istediğin an değiştir, kendi başına 500'e kadar çıkabilirsin. Daha fazlası için <a href="mailto:business@nfc.cool">bize yaz</a>.</p></article>
 <article class="page-card"><h3>14 gün ücretsiz</h3><p>Deneme için ödeme kartı gerekir. İptal etmezsen deneme bitince ücret alınır. Herkesin tek deneme hakkı var.</p></article>
 </div>
@@ -115,7 +115,7 @@ NFC.cool Business Card for Teams'i birlikte çalıştığın işletmelere öner,
 
 <details class="faq-item">
 <summary>Ne kadar tutuyor?</summary>
-<p>Kişi başı yılda {{PRICE:seat:year}} ya da ayda $5. Fiyatlara KDV dahildir. En küçük ekip iki kullanıcıdır, yani yılda {{PRICE:seat:year:2}} ya da ayda $10.</p>
+<p>Kişi başı yılda {{PRICE:seat:year}} ya da ayda {{PRICE:seat:month}}. Fiyatlara KDV dahildir. En küçük ekip iki kullanıcıdır, yani yılda {{PRICE:seat:year:2}} ya da ayda {{PRICE:seat:month:2}}.</p>
 </details>
 
 <details class="faq-item">
