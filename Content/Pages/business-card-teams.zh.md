@@ -94,6 +94,14 @@ NFC.cool Business Card for Teams 让公司里的每个人都拥有一张符合�
 
 </section>
 
+<section class="page-section">
+
+## 带来团队，一起分成
+
+把 NFC.cool Business Card for Teams 推荐给和你合作的企业，只要他们一直付费，他们在网页端的每笔付款你都能拿到 20%。合作伙伴最早带来的团队可拿 40%。 [了解合作伙伴计划](/zh/business-card/partners/).
+
+</section>
+
 <section class="page-section landing-faq">
 
 <div class="landing-container">

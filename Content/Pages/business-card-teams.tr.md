@@ -94,6 +94,14 @@ Karşılaştırdığımız diğer şirketler planlarını farklı fiyatlandırı
 
 </section>
 
+<section class="page-section">
+
+## Ekip getir, pay kazan
+
+NFC.cool Business Card for Teams'i birlikte çalıştığın işletmelere öner, ödemeye devam ettikleri sürece web'de yaptıkları her ödemenin yüzde 20'sini kazan. İş ortaklarının getirdiği ilk ekipler yüzde 40 kazandırır. [İş ortaklığı programına göz at](/tr/business-card/partners/).
+
+</section>
+
 <section class="page-section landing-faq">
 
 <div class="landing-container">

@@ -94,6 +94,14 @@ Perusahaan lain yang kami bandingkan menetapkan harga paketnya secara berbeda:
 
 </section>
 
+<section class="page-section">
+
+## Bawa tim, dapatkan bagian
+
+Rekomendasikan NFC.cool Business Card for Teams kepada bisnis yang bekerja sama dengan Anda dan dapatkan 20% dari setiap pembayaran mereka di web, selama mereka terus membayar. Tim-tim pertama yang dibawa mitra menghasilkan 40%. [Lihat program mitra](/id/business-card/partners/).
+
+</section>
+
 <section class="page-section landing-faq">
 
 <div class="landing-container">

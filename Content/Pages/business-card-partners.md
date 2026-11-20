@@ -1,7 +1,7 @@
 ---
 title: "NFC.cool Partners: Earn With Every Team You Bring"
 slug: "business-card/partners"
-description: "Recommend NFC.cool Business Card for Teams and earn 20% of every web payment, for as long as the team pays. The first 100 partner-brought teams earn 40%. Joining is free."
+description: "Recommend NFC.cool Business Card for Teams and earn 20% of every web payment, for as long as the team pays. The first teams partners bring earn 40%. Joining is free."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -17,7 +17,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 Recommend NFC.cool for Teams to the businesses you work with. You earn 20% of every payment they make on the web, for as long as they pay.
 
-<p class="partner-founding" data-founding data-line="{left} of {total} founding deals left: 40% for as long as the team pays">The first 100 teams brought by partners earn 40% for as long as each team pays.</p>
+<p class="partner-founding" data-founding data-line="{left} of {total} founding deals left: 40% for as long as the team pays">Founding deals, the first teams partners bring, earn 40% for as long as each team pays.</p>
 
 <div class="partner-actions">
 <a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Become a partner</a>
@@ -44,18 +44,18 @@ Recommend NFC.cool for Teams to the businesses you work with. You earn 20% of ev
 
 Move the sliders. Every team pays per person, every month or every year.
 
-<div class="partner-calc" data-partner-calc>
+<div class="partner-calc" data-partner-calc data-per-month="{price} a month" data-per-year="{price} a year">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Teams you bring</span><strong data-out="teams">5</strong></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>People per team</span><strong data-out="people">10</strong></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-teams"><span>Teams you bring</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>People per team</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="How teams pay">
 <button type="button" data-interval="month" aria-pressed="true">Pay monthly</button>
 <button type="button" data-interval="year" aria-pressed="false">Pay yearly</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding"><p>On founding deals (40%)</p><p class="partner-big">about <span data-out="found-month">$100</span> a month</p><p>about <span data-out="found-year">$1,200</span> a year</p></div>
-<div class="partner-result"><p>After the founding deals (20%)</p><p class="partner-big">about <span data-out="std-month">$50</span> a month</p><p>about <span data-out="std-year">$600</span> a year</p></div>
+<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>On founding deals (40%)</p><p class="partner-big">about <span data-out="found-month">$100</span> a month</p><p>about <span data-out="found-year">$1,200</span> a year</p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>After the founding deals (20%)</p><p class="partner-big">about <span data-out="std-month">$50</span> a month</p><p>about <span data-out="std-year">$600</span> a year</p></div>
 <p class="partner-fine">Based on <span data-out="price-line">$5 a month</span> per person, the price in your region. Prices depend on each business's country, so the amounts are about. Payments in the App Store or Google Play are not part of the programme.</p>
 </div>
 </div>
@@ -125,7 +125,7 @@ Each partner gets a sales guide written for the way they work.
 
 <details class="faq-item">
 <summary>What is a founding deal?</summary>
-<p>The first 100 teams brought by partners earn their partner 40% instead of 20%, for as long as each team pays.</p>
+<p>One of the first teams brought by partners. It earns its partner 40% instead of 20%, for as long as the team pays.</p>
 </details>
 
 <details class="faq-item">

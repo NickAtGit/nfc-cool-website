@@ -1,0 +1,164 @@
+---
+title: "Партнёры NFC.cool: зарабатывай на каждой команде, которую приводишь"
+slug: "business-card/partners"
+description: "Рекомендуй NFC.cool Business Card for Teams и получай 20% с каждого платежа на сайте, пока команда платит. Первые команды, которые приводят партнёры, приносят 40%. Участие бесплатное."
+image: "/assets/images/BusinessCard/og-business-card.webp"
+---
+
+<section class="page-hero">
+
+<div class="page-hero-grid">
+
+<div class="page-hero-text">
+
+<p class="partner-kicker">Партнёры NFC.cool</p>
+
+# Зарабатывай на каждой команде, которую приводишь в NFC.cool
+
+Рекомендуй NFC.cool Business Card for Teams компаниям, с которыми работаешь. Ты получаешь 20% с каждого их платежа на сайте, и так всё время, пока они платят.
+
+<p class="partner-founding" data-founding data-line="Осталось {left} из {total} стартовых сделок: 40%, пока команда платит">Стартовые сделки, то есть первые команды, которые приводят партнёры, приносят 40%, пока каждая из этих команд платит.</p>
+
+<div class="partner-actions">
+<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Стать партнёром</a>
+<a href="https://business.nfc.cool/demo/" class="landing-cta-button">Посмотреть демо</a>
+</div>
+
+</div>
+
+<div class="partner-home" role="img" aria-label="Иллюстрация страницы партнёра с тремя примерами компаний">
+<p class="partner-home-title">Твоя страница партнёра</p>
+<div class="partner-home-row"><span>Alder &amp; Finch Architects</span><span>8 мест, платит</span></div>
+<div class="partner-home-row"><span>Физиотерапия «Гавань»</span><span>4 места, пробный период</span></div>
+<div class="partner-home-row"><span>Northside Realty</span><span>ждёт передачи</span></div>
+<p class="partner-home-note">Иллюстрация с примерами компаний.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="page-section">
+
+## Сколько можно заработать?
+
+Подвигай ползунки. Каждая команда платит за человека, помесячно или за год.
+
+<div class="partner-calc" data-partner-calc data-per-month="{price} в месяц" data-per-year="{price} в год">
+<div class="partner-calc-inputs">
+<div class="partner-slider"><label for="partner-teams"><span>Сколько команд ты приводишь</span><output for="partner-teams" data-out="teams" aria-live="polite">5</output></label><input id="partner-teams" type="range" min="1" max="50" value="5" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Человек в команде</span><output for="partner-people" data-out="people" aria-live="polite">10</output></label><input id="partner-people" type="range" min="2" max="100" value="10" data-in="people"/></div>
+<div class="partner-toggle" role="group" aria-label="Как платят команды">
+<button type="button" data-interval="month" aria-pressed="true">Помесячно</button>
+<button type="button" data-interval="year" aria-pressed="false">За год</button>
+</div>
+</div>
+<div class="partner-calc-results">
+<div class="partner-result is-founding" aria-live="polite" aria-atomic="true"><p>Со стартовых сделок (40%)</p><p class="partner-big">около <span data-out="found-month">$100</span> в месяц</p><p>около <span data-out="found-year">$1&nbsp;200</span> в год</p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>После стартовых сделок (20%)</p><p class="partner-big">около <span data-out="std-month">$50</span> в месяц</p><p>около <span data-out="std-year">$600</span> в год</p></div>
+<p class="partner-fine">Расчёт по цене в твоём регионе: <span data-out="price-line">$5 в месяц</span> за человека. Цены зависят от страны каждой компании, поэтому суммы примерные. Платежи в App Store и Google Play в программу не входят.</p>
+</div>
+</div>
+
+</section>
+
+<section class="page-section">
+
+## Как это работает
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>1. Приведи компанию</h3><p>Поделись своей ссылкой или сам создай команду для клиента и передай её одной ссылкой.</p></article>
+<article class="page-card"><h3>2. Компания платит на сайте</h3><p>Команда начинает с бесплатного пробного периода, а потом платит за каждого человека. Учитывается каждый платёж, пока команда остаётся.</p></article>
+<article class="page-card"><h3>3. Creem платит тебе</h3><p>Наш платёжный партнёр Creem перечисляет твою долю 1-го и 15-го числа каждого месяца. Выставлять счета не нужно.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
+
+## Для тех, кому компании уже доверяют
+
+Каждый партнёр получает руководство по продажам, написанное под его способ работы.
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>Авторы и блогеры</h3><p>Расскажи о NFC.cool своей аудитории и добавь ссылку в публикацию.</p></article>
+<article class="page-card"><h3>Консультанты и фрилансеры</h3><p>Порекомендуй его отделам продаж и командам мероприятий, с которыми уже работаешь.</p></article>
+<article class="page-card"><h3>Агентства и IT-сервисы</h3><p>Настрой команду в фирменном стиле клиента, передай её и продолжай зарабатывать.</p></article>
+<article class="page-card"><h3>Типографии и магазины промопродукции</h3><p>Добавляй к каждому заказу визиток цифровые визитки для всей команды.</p></article>
+<article class="page-card"><h3>Продавцы и реселлеры</h3><p>Предложи NFC.cool компаниям, которым уже что-то продаёшь, и зарабатывай на каждой команде, которая начнёт.</p></article>
+<article class="page-card"><h3>Организаторы мероприятий и выставок</h3><p>Предложи его экспонентам и организаторам, которые хотят, чтобы каждое рукопожатие превращалось в лид.</p></article>
+<article class="page-card"><h3>Сообщества и ассоциации</h3><p>Деловые клубы, торговые палаты, коворкинги и головные офисы франшиз могут предложить его каждому участнику или точке.</p></article>
+<article class="page-card"><h3>Бухгалтеры и консультанты по бизнесу</h3><p>HR и онбординг тоже: дай каждому новому сотруднику визитку в фирменном стиле компании с первого дня.</p></article>
+</div>
+
+</section>
+
+<section class="page-section">
+
+## Всё, что нужно для продаж
+
+<div class="page-cards-grid">
+<article class="page-card"><h3>Своя ссылка</h3><p>Каждый, кто откроет её и создаст команду в течение 30 дней, засчитывается тебе.</p></article>
+<article class="page-card"><h3>Настрой и передай</h3><p>Собери команду за клиента, а потом отправь одну ссылку: клиент станет владельцем и будет платить.</p></article>
+<article class="page-card"><h3>Живое демо</h3><p>Настоящая панель команды, по которой можно пройтись вместе с клиентом: визитки, лиды и всё остальное.</p></article>
+<article class="page-card"><h3>Набор для публикаций</h3><p>Логотипы, скриншоты и готовые посты на 13 языках, твоя ссылка уже внутри.</p></article>
+<article class="page-card"><h3>Руководство по продажам</h3><p>С кем говорить, что сказать и ответы на вопросы, которые задают компании.</p></article>
+</div>
+
+</section>
+
+<section class="page-section landing-faq">
+
+<div class="landing-container">
+
+<h2 class="landing-section-title">Вопросы</h2>
+
+<details class="faq-item">
+<summary>Кто мне платит?</summary>
+<p>Creem, компания, которая продаёт NFC.cool для команд на сайте. Она перечисляет твою долю напрямую тебе.</p>
+</details>
+
+<details class="faq-item">
+<summary>Когда приходят выплаты?</summary>
+<p>1-го и 15-го числа, как только подтверждённый заработок превысит минимальную сумму Creem.</p>
+</details>
+
+<details class="faq-item">
+<summary>Что такое стартовая сделка?</summary>
+<p>Одна из первых команд, которые привели партнёры. Она приносит своему партнёру 40% вместо 20%, пока команда платит.</p>
+</details>
+
+<details class="faq-item">
+<summary>Сколько действует моя ссылка?</summary>
+<p>30 дней после того, как её открыли. Если потом человек откроет ссылку другого партнёра, засчитывается последняя ссылка.</p>
+</details>
+
+<details class="faq-item">
+<summary>Сколько это стоит мне?</summary>
+<p>Нисколько. Участие бесплатное и занимает минуту.</p>
+</details>
+
+<details class="faq-item">
+<summary>Остались вопросы?</summary>
+<p>Напиши на <a href="mailto:business@nfc.cool">business@nfc.cool</a>.</p>
+</details>
+
+</div>
+
+</section>
+
+<section class="landing-final-cta">
+<div class="landing-container">
+
+<h2 class="landing-cta-title">Начни зарабатывать с NFC.cool</h2>
+
+<p>Присоединяйся бесплатно, получи ссылку и приведи первую команду.</p>
+
+<div class="partner-actions">
+<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Стать партнёром</a>
+</div>
+
+</div>
+</section>
+
+<script type="module" src="/partners/partners.mjs"></script>

@@ -1022,7 +1022,7 @@
    border-top: 1px solid var(--color-border);
    font-size: 0.9375rem;
 }
-.partner-home-row span:last-child { color: var(--color-text-secondary); text-align: right; }
+.partner-home-row span:last-child { color: var(--color-text-secondary); text-align: end; }
 .partner-home-note { font-size: 0.8125rem; color: var(--color-text-secondary); margin: 0.75rem 0 0; }
 
 .partner-calc {
@@ -1045,6 +1045,7 @@
    font-weight: 600;
    margin-bottom: 0.5rem;
 }
+.partner-slider output { font-variant-numeric: tabular-nums; }
 .partner-slider input[type="range"] { width: 100%; min-height: 44px; accent-color: var(--color-link); }
 .partner-toggle { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
 .partner-toggle button {

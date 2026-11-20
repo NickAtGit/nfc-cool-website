@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
-import { earnings, foundingLine } from '../../../Content/StaticFiles/partners/partners.mjs';
+import { readFileSync, readdirSync } from 'node:fs';
+import { earnings, foundingLine, localNumber, money } from '../../../Content/StaticFiles/partners/partners.mjs';
 import { countryFromLanguage, priceFor } from '../../../Content/StaticFiles/prices/prices.mjs';
 
 const data = JSON.parse(readFileSync(
@@ -37,4 +37,44 @@ test('foundingLine: null at zero left and on any failure', () => {
 test('a pt visitor gets the tier B seat price: 35.00 a year', () => {
   const price = priceFor(data, 'seat', 'year', countryFromLanguage('pt-PT'));
   assert.equal(price.amount, 35);
+});
+
+test('numbers follow the page language, like the build writes them', () => {
+  assert.equal(localNumber(1200, 'en-US'), '1,200');
+  assert.equal(localNumber(1200, 'de-DE'), '1.200');
+  assert.equal(localNumber(120000, 'fr-FR'), '120\u202F000');
+  assert.equal(localNumber(1200, 'ru-RU'), '1\u00A0200');
+  assert.equal(localNumber(5, 'ar'), '٥');
+  assert.equal(localNumber(100000, 'ar'), '١٠٠٬٠٠٠');
+  assert.equal(localNumber(999, 'en'), '999');
+});
+
+test('money groups thousands and keeps the symbol where the language puts it', () => {
+  assert.equal(money(data, 1200, 'usd', 'en-US'), '$1,200');
+  assert.equal(money(data, 120000, 'usd', 'de-DE'), '120.000\u00A0$');
+  assert.equal(money(data, 600, 'usd', 'ar'), '$٦٠٠');
+  assert.equal(money(data, 1200, 'usd', 'ar'), '$١٬٢٠٠');
+  assert.equal(money(data, 1200, 'eur', 'pt-PT'), '1.200\u00A0€');
+});
+
+test('foundingLine writes the count in the page language', () => {
+  const line = '{left} من {total}';
+  assert.equal(foundingLine({ left: 63, total: 100 }, { line }, 'ar'), '٦٣ من ١٠٠');
+  assert.equal(foundingLine({ left: 1000, total: 1500 }, STRINGS, 'de-DE').slice(0, 13), '1.000 of 1.50');
+});
+
+test('every locale page carries the strings the script fills in', () => {
+  const dir = new URL('../../../Content/Pages/', import.meta.url);
+  const pages = readdirSync(dir).filter(f => /^business-card-partners(\.[a-z]{2})?\.md$/.test(f));
+  assert.equal(pages.length, 13);
+  for (const file of pages) {
+    const text = readFileSync(new URL(file, dir), 'utf8');
+    const attr = name => (text.match(new RegExp(`${name}="([^"]*)"`)) || [])[1] || '';
+    assert.ok(attr('data-line').includes('{left}') && attr('data-line').includes('{total}'), `${file}: data-line`);
+    assert.ok(attr('data-per-month').includes('{price}'), `${file}: data-per-month`);
+    assert.ok(attr('data-per-year').includes('{price}'), `${file}: data-per-year`);
+    // The built sentence names no total: Nico can raise it, and only the live line knows it.
+    const fallback = (text.match(/data-founding[^>]*>([^<]*)</) || [])[1] || '';
+    assert.ok(fallback && !/[0-9\u0660-\u0669]/.test(fallback.replace(/40|٤٠/g, '')), `${file}: the fallback names no number`);
+  }
 });

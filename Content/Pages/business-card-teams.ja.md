@@ -94,6 +94,14 @@ NFC.cool Business Card for Teamsは、社員全員に自社ブランドのデジ
 
 </section>
 
+<section class="page-section">
+
+## チームを紹介して報酬を
+
+取引のある企業にNFC.cool Business Card for Teamsを紹介すると、その企業が支払いを続ける限り、Webでの支払いの20%を受け取れます。パートナーが最初に紹介したチームは40%です。 [パートナープログラムを見る](/ja/business-card/partners/).
+
+</section>
+
 <section class="page-section landing-faq">
 
 <div class="landing-container">

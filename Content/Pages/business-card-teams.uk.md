@@ -94,6 +94,14 @@ NFC.cool Business Card for Teams дає кожному в компанії ци�
 
 </section>
 
+<section class="page-section">
+
+## Приводь команди й отримуй частку
+
+Рекомендуй NFC.cool Business Card for Teams компаніям, з якими працюєш, і отримуй 20% із кожного їхнього платежу на сайті, доки вони платять. Перші команди, яких приводять партнери, приносять 40%. [Дізнатися про партнерську програму](/uk/business-card/partners/).
+
+</section>
+
 <section class="page-section landing-faq">
 
 <div class="landing-container">

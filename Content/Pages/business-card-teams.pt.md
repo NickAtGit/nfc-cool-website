@@ -94,6 +94,14 @@ As outras empresas que comparámos definem os preços de outra forma:
 
 </section>
 
+<section class="page-section">
+
+## Traga equipas e ganhe uma parte
+
+Recomende o NFC.cool Business Card for Teams às empresas com quem trabalha e ganhe 20% de cada pagamento que fizerem na web, enquanto pagarem. As primeiras equipas trazidas por parceiros rendem 40%. [Conheça o programa de parceiros](/pt/business-card/partners/).
+
+</section>
+
 <section class="page-section landing-faq">
 
 <div class="landing-container">

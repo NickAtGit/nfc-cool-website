@@ -94,6 +94,14 @@ Die anderen verglichenen Unternehmen haben andere Preismodelle:
 
 </section>
 
+<section class="page-section">
+
+## Teams vermitteln, mitverdienen
+
+Empfiehl NFC.cool Business Card for Teams den Firmen, mit denen du arbeitest, und verdiene 20 % jeder Zahlung, die sie im Web leisten, solange sie zahlen. Für die ersten Teams, die Partner mitbringen, gibt es 40 %. [Zum Partnerprogramm](/de/business-card/partners/).
+
+</section>
+
 <section class="page-section landing-faq">
 
 <div class="landing-container">

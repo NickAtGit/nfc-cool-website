@@ -94,6 +94,14 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 </section>
 
+<section class="page-section">
+
+## اجلب الفرق واحصل على حصة
+
+رشّح NFC.cool Business Card for Teams للشركات التي تعمل معها، واربح ٢٠٪ من كل دفعة تدفعها على الويب ما دامت تدفع. أول الفرق التي يجلبها الشركاء تكسب ٤٠٪. [تعرّف على برنامج الشركاء](/ar/business-card/partners/).
+
+</section>
+
 <section class="page-section landing-faq">
 
 <div class="landing-container">

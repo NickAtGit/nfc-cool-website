@@ -94,6 +94,14 @@ Les autres entreprises comparées ont une tarification différente :
 
 </section>
 
+<section class="page-section">
+
+## Amenez des équipes, touchez une part
+
+Recommandez NFC.cool Business Card for Teams aux entreprises avec qui vous travaillez et touchez 20 % de chaque paiement qu'elles font sur le web, tant qu'elles paient. Les premières équipes amenées par des partenaires rapportent 40 %. [Découvrir le programme partenaires](/fr/business-card/partners/).
+
+</section>
+
 <section class="page-section landing-faq">
 
 <div class="landing-container">
