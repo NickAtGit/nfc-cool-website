@@ -122,7 +122,7 @@ You tick each of these when you join. They apply wherever you talk about NFC.coo
 <ol>
 <li><strong>No spam.</strong> Do not send unsolicited bulk email, messages or comments, and do not post your link in places where it is not welcome. Contact people only as the law allows.</li>
 <li><strong>No ads on our name.</strong> Do not bid on "NFC.cool" or close variants of it (such as "NFC cool", "nfccool" or misspellings) in search or social ads. Do not register or use domains, usernames, handles or pages that look like ours or contain our name.</li>
-<li><strong>No false claims.</strong> Say only what nfc.cool says. Do not invent prices, discounts, trials, features, results or guarantees.</li>
+<li><strong>No false claims.</strong> Say only what NFC.cool says. Do not invent prices, discounts, trials, features, results or guarantees.</li>
 <li><strong>Never pose as NFC.cool.</strong> You are an independent partner. Never present yourself as NFC.cool, its owner or its staff, and never use the NFC.cool logo as your own brand.</li>
 <li><strong>Say that you earn from your link.</strong> Wherever you share your link or recommend NFC.cool for a reward, say clearly that you earn a commission. Say it before or right next to the link, in the language of the post, where people see it without scrolling, opening "more" or watching to the end: for example "Ad: I earn a commission if you buy through my link." Where a platform has a label for paid partnerships or branded content, use it as well. Never present yourself as a neutral customer. In Portugal and across the EU, the law requires advertising to be recognisable as advertising, wherever it is published and whoever it is for.</li>
 </ol>
@@ -175,7 +175,7 @@ A team is credited to you in one of two ways, and each team is credited to one p
 
 ### Your link
 
-Your link is business.nfc.cool/partners/r/ followed by your code. It opens the Teams page on nfc.cool, in the visitor's language.
+Your link is business.nfc.cool/partners/r/ followed by your code. It opens the Teams page on NFC.cool, in the visitor's language.
 
 <ul>
 <li>Opening it remembers you in that browser for 30 days from the last time it was opened. If the business then starts a team there and buys it within those 30 days, the team is credited to you.</li>

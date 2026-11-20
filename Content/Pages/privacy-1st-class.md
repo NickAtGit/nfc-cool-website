@@ -67,7 +67,7 @@ What personal data the 1st Class app and our servers process, what stays on your
 
 ## What this policy covers
 
-This policy covers the 1st Class - Flight Tracker app for iPhone, including its widgets, Live Activities and share extension ("the app"), and the servers that support it. The nfc.cool website and our other apps have their own [privacy policies](/privacy/).
+This policy covers the 1st Class - Flight Tracker app for iPhone, including its widgets, Live Activities and share extension ("the app"), and the servers that support it. The NFC.cool website and our other apps have their own [privacy policies](/privacy/).
 
 ## Who is responsible
 

@@ -64,7 +64,7 @@ These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool
 <li>NFC.cool Business Card for Teams: the web console at business.nfc.cool, its API, and its connection for AI assistants.</li>
 </ul>
 
-In these terms, "the service" means all of them. They also cover business card accounts and cards used in the NFC.cool Tools app. Everything else in the NFC.cool Tools app, and the nfc.cool website, have their own [terms](/terms/).
+In these terms, "the service" means all of them. They also cover business card accounts and cards used in the NFC.cool Tools app. Everything else in the NFC.cool Tools app, and the NFC.cool website, have their own [terms](/terms/).
 
 You accept these terms when you create an account, or when you set up a team or accept an invitation to one. In the app and at business.nfc.cool, we ask you to accept them, with a link to them, before you continue. If you accept them for a company or another organisation, you confirm that you are allowed to bind it, and "you" then also means that organisation.
 

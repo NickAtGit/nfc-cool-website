@@ -80,7 +80,7 @@ This policy covers:
 
 This policy also covers cards made in the NFC.cool Tools app and the contacts left on them.
 
-Everything else in the NFC.cool Tools app, and the nfc.cool website, have their own [privacy policy](/privacy/).
+Everything else in the NFC.cool Tools app, and the NFC.cool website, have their own [privacy policy](/privacy/).
 
 ## Who is responsible
 

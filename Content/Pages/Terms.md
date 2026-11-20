@@ -1,7 +1,7 @@
 ---
 title: "Terms & Conditions"
 slug: "terms"
-description: "The terms for the NFC.cool Tools app on iPhone, iPad and Android and for the nfc.cool website: what the app does, ads, Platinum subscriptions and lifetime purchases, writing to NFC tags, your rights as a consumer, and how to settle a dispute."
+description: "The terms for the NFC.cool Tools app on iPhone, iPad and Android and for the NFC.cool website: what the app does, ads, Platinum subscriptions and lifetime purchases, writing to NFC tags, your rights as a consumer, and how to settle a dispute."
 ---
 
 <section class="page-hero">
@@ -10,9 +10,9 @@ description: "The terms for the NFC.cool Tools app on iPhone, iPad and Android a
 
 <div class="page-hero-text">
 
-# Terms of service for NFC.cool Tools and nfc.cool
+# Terms of service for NFC.cool Tools and NFC.cool
 
-The agreement between you and NFC.cool for the NFC.cool Tools app and the nfc.cool website. How we handle personal data is in the [privacy policy](/privacy/).
+The agreement between you and NFC.cool for the NFC.cool Tools app and the NFC.cool website. How we handle personal data is in the [privacy policy](/privacy/).
 
 <strong>Last modified: November 6, 2026</strong>
 

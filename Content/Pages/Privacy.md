@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 slug: "privacy"
-description: "How the nfc.cool website and the NFC.cool Tools app for iPhone, iPad and Android process personal data, who receives it, how long it is kept, and the rights you have under the GDPR."
+description: "How the NFC.cool website and the NFC.cool Tools app for iPhone, iPad and Android process personal data, who receives it, how long it is kept, and the rights you have under the GDPR."
 ---
 
 <section class="page-hero">
@@ -10,9 +10,9 @@ description: "How the nfc.cool website and the NFC.cool Tools app for iPhone, iP
 
 <div class="page-hero-text">
 
-# Privacy policy for NFC.cool Tools and nfc.cool
+# Privacy policy for NFC.cool Tools and NFC.cool
 
-What personal data the nfc.cool website and the NFC.cool Tools app process, why, who receives it, how long it is kept, and the rights you have under the GDPR.
+What personal data the NFC.cool website and the NFC.cool Tools app process, why, who receives it, how long it is kept, and the rights you have under the GDPR.
 
 <strong>Last modified: November 20, 2026</strong>
 
@@ -31,7 +31,7 @@ What personal data the nfc.cool website and the NFC.cool Tools app process, why,
 ## The short version
 
 <div class="page-cards-grid">
-<article class="page-card"><h3>The website</h3><p>nfc.cool sets no cookies and uses no analytics, tracking pixels or third-party scripts. GitHub hosts it and logs visitors' IP addresses for security.</p></article>
+<article class="page-card"><h3>The website</h3><p>NFC.cool sets no cookies and uses no analytics, tracking pixels or third-party scripts. GitHub hosts it and logs visitors' IP addresses for security.</p></article>
 <article class="page-card"><h3>On your device</h3><p>Reading and writing tags, recognising text, reading passports and ID cards, and 3D capture all happen on your device.</p></article>
 <article class="page-card"><h3>Your iCloud, not ours</h3><p>On iPhone and iPad, what you save in the app syncs through your own iCloud account. We cannot read it.</p></article>
 <article class="page-card"><h3>Analytics and crash reports</h3><p>The app sends usage events and crash reports to Google Firebase, and usage events to our own server, so we can see how it is used and fix problems. You can object.</p></article>

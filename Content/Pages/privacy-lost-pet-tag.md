@@ -77,7 +77,7 @@ This policy covers:
 <li>the pages at pets.nfc.cool: your pet's page, the page a finder writes from, the records you share and the invitations you send.</li>
 </ul>
 
-A Lost Pet Tag account is separate from an NFC.cool Business Card account, even if you use the same email address. NFC.cool Business Card, NFC.cool Tools and the nfc.cool website have their own [privacy policies](/privacy/).
+A Lost Pet Tag account is separate from an NFC.cool Business Card account, even if you use the same email address. NFC.cool Business Card, NFC.cool Tools and the NFC.cool website have their own [privacy policies](/privacy/).
 
 ## Who is responsible
 
