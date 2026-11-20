@@ -33,7 +33,7 @@ The agreement between you and NFC.cool when you join the partner programme and b
 <div class="page-cards-grid">
 <article class="page-card"><h3>What you earn</h3><p>20% of every payment a team you bring makes on the web, through Creem, for as long as it pays. The programme's founding deals, 100 places to start with, earn 40%, for as long as the team pays.</p></article>
 <article class="page-card"><h3>When a team is yours</h3><p>The business buys within 30 days of opening your link, in the same browser, or takes over a team you set up for it. A team you belong to when it first buys is never yours.</p></article>
-<article class="page-card"><h3>Six rules</h3><p>No spam. No ads on our name. No false claims. Never pose as NFC.cool. Say that you earn from your link. Accept these terms. You tick each one when you join.</p></article>
+<article class="page-card"><h3>What you tick</h3><p>No spam. No ads on our name. No false claims. Never pose as NFC.cool. Say that you earn from your link. You are 18 or older. You accept these terms. You tick each one when you join.</p></article>
 <article class="page-card"><h3>How you get paid</h3><p>Creem sells the teams you bring and pays your commission, under its own rules. Today it pays on the 1st and 15th of the month, once you have at least 50 USD or 50 EUR. We do not pay commission ourselves.</p></article>
 </div>
 
@@ -107,7 +107,7 @@ You accept these terms when you join the programme. Your NFC.cool account itself
 <ol>
 <li>Open business.nfc.cool/partners/join/. Without an account, enter your email address: we send you a link that signs you in and makes your account. With an account, sign in with it.</li>
 <li>Tell us your country, what kind of partner you are, and whether you join as a business or as a private person. Your website or profile is optional.</li>
-<li>Tick each of the five rules below, and accept these terms.</li>
+<li>Tick each of the five rules below, confirm that you are 18 or older, and accept these terms.</li>
 <li>We ask Creem to invite you to its affiliate programme. Creem's invite goes by email to your account's confirmed email address. Accept it. Before it pays you, Creem checks your identity. Today it does so through its provider Sumsub, with a government ID and a selfie, which takes about 1 to 2 working days.</li>
 </ol>
 
@@ -127,7 +127,7 @@ You tick each of these when you join. They apply wherever you talk about NFC.coo
 <li><strong>Say that you earn from your link.</strong> Wherever you share your link or recommend NFC.cool for a reward, say clearly that you earn a commission. Say it before or right next to the link, in the language of the post, where people see it without scrolling, opening "more" or watching to the end: for example "Ad: I earn a commission if you buy through my link." Where a platform has a label for paid partnerships or branded content, use it as well. Never present yourself as a neutral customer. In Portugal and across the EU, the law requires advertising to be recognisable as advertising, wherever it is published and whoever it is for.</li>
 </ol>
 
-The sixth is accepting these terms.
+When you join you also confirm that you are 18 or older, and you accept these terms.
 
 ## What is never allowed
 
