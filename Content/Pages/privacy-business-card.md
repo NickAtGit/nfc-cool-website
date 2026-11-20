@@ -14,7 +14,7 @@ description: "How NFC.cool Business Card, its App Clip, its card pages and NFC.c
 
 What personal data the Business Card app, its App Clip, your card pages and NFC.cool Business Card for Teams process, why, who receives it, how long we keep it, and the rights you have under the GDPR.
 
-<strong>Last modified: November 15, 2026</strong>
+<strong>Last modified: November 20, 2026</strong>
 
 </div>
 
@@ -212,6 +212,32 @@ When a member leaves the team or deletes their account, the team keeps the card 
 
 The contacts a team's cards collect belong to the team: the team is their controller, and we process them on its behalf. Our [data processing agreement](/terms/business-card/dpa/) under Art. 28 GDPR is part of our terms and applies to every team. It lists the services we use for this.
 
+### Partners
+
+Anyone with an account can join our partner programme at business.nfc.cool and earn a commission on the teams they bring. The [partner terms](/terms/partners/) describe the programme. [CHECK: the partner terms are not published yet; publish them before this link goes live.]
+
+<strong>What we keep about a partner:</strong>
+
+<ul>
+<li>your account, as described in Your account;</li>
+<li>your country, the kind of partner you chose, and your website or profile if you gave one;</li>
+<li>the partner rules you ticked when you joined, and when you ticked them; [CHECK: the sign-up does not record this yet]</li>
+<li>your link code, and the identifiers Creem gives you in its affiliate programme;</li>
+<li>the teams credited to you, how they were credited (your link, or a team you set up and handed over), when, and when each first paid; for a team you set up, its take-over link, of which we keep only a hash;</li>
+<li>the messages we send you about your teams, by push and in a daily email, and whether you switched them off;</li>
+<li>your earnings as Creem reports them, which we keep for up to 30 days to show you when Creem cannot be reached.</li>
+</ul>
+
+When you join, we also email ourselves your name, email address, the kind of partner, your website and your country, so we see who joins.
+
+<strong>What a partner sees about a team they brought:</strong> its name, its stage (being set up, trial, paying, payment failed or ended), its dates, and about what it earns the partner. Never its members, cards, contacts or billing. A partner who sets up a team for a client is its owner until the client takes it over, and sees it as an owner until then. The team's overview names the partner who brought it with their first name.
+
+<strong>Creem:</strong> a team a partner brought pays on the web through Creem, which sells it as the merchant of record and pays the partner's commission. Creem collects the payment details on its own checkout page. We send Creem the buyer's email address, our internal identifiers of the team and the buyer, the price tier, and the partner's affiliate code. To invite a partner to its affiliate programme we send Creem the partner's confirmed email address, and Creem tells us their affiliate identifiers and earnings. Creem handles this data under its own [privacy policy](https://www.creem.io/privacy). [CHECK: Creem's privacy policy URL, its legal entity and country, and the transfer safeguard.]
+
+<strong>How long:</strong> until you delete your account, which also ends the partnership. [CHECK: what we delete when a partner leaves the programme without deleting the account; the server has no leave step yet.]
+
+<strong>Legal basis:</strong> performance of our contract with the partner (Art. 6(1)(b) GDPR). Showing a partner the name, stage, dates and earnings of a team they brought, and naming the partner to that team: our legitimate interest in running the partner programme (Art. 6(1)(f) GDPR). [LAWYER: confirm.]
+
 ### Subscriptions in the app
 
 You buy a plan through the App Store or Google Play. Apple or Google handles the payment, and we never see your payment details. The app uses RevenueCat to manage purchases, and our server asks RevenueCat which plan is active. We store the plan, the store it came from, the customer identifier and when the plan ends.
@@ -337,6 +363,7 @@ We share data only with the people and services below, and only for the reasons 
 <li><strong>RevenueCat:</strong> manages in-app subscriptions.</li>
 <li><strong>Qonversion:</strong> checks subscriptions bought in the NFC.cool Tools app, for accounts made there.</li>
 <li><strong>Stripe:</strong> team billing.</li>
+<li><strong>Creem:</strong> billing of teams a partner brought, as the merchant of record, and the partners' commissions (see Partners).</li>
 <li><strong>Sentry:</strong> error reports from our server.</li>
 <li><strong>A public certificate authority:</strong> certificates for a team's own domain (the domain name only).</li>
 <li><strong>Services a team connects:</strong> its webhook addresses, HubSpot, Salesforce, and the AI assistants it connects. They receive data because the team chose to send it there.</li>
@@ -362,6 +389,7 @@ For each service:
 <li><strong>Functional Software, Inc.</strong> (Sentry, USA): error reports. Data Privacy Framework, with standard contractual clauses as a fallback.</li>
 <li><strong>Google LLC</strong> (Firebase, USA): Data Privacy Framework, with standard contractual clauses in Google's terms.</li>
 <li><strong>Cloudflare, Inc.</strong> (USA): Data Privacy Framework.</li>
+<li><strong>Creem:</strong> [CHECK: Creem's legal entity, where it stores data, and the safeguard if outside the EEA.]</li>
 <li><strong>Stripe:</strong> our contract is with Stripe Payments Europe, Limited in Ireland. Its transfers to Stripe, Inc. in the USA rest on the Data Privacy Framework.</li>
 <li><strong>Apple Inc.</strong> (USA): standard contractual clauses.</li>
 <li><strong>RevenueCat, Inc.</strong> (USA): standard contractual clauses.</li>
@@ -464,11 +492,12 @@ These are the only cookies set on them:
 <li><strong>csrftoken:</strong> protects forms, such as the contact form on a card or the console's forms, against forgery. It is set when you open a card or the console, and lasts about a year.</li>
 <li><strong>sessionid in the console:</strong> keeps you signed in. It remembers which team you last opened and where you are in team setup, and briefly holds what the console shows you only once, such as a new access token. It lasts two weeks from your last visit, and ends when you sign out. A team's pages renew it, because the console writes to it there. Before you sign in, it is set only if a Sign in with Apple attempt fails, to show you the error.</li>
 <li><strong>sessionid on a card page:</strong> set only if you enter a wrong PIN, or open a preview of your own card from the app. After a wrong PIN it counts your wrong PINs, and lasts five minutes from the last one. After three wrong PINs you wait those five minutes, and the cookie ends with the wait. A preview opens your card without its PIN for 30 minutes, and its cookie ends with it. If both happen, the cookie ends when the later one does.</li>
+<li><strong>nfc_partner:</strong> set on business.nfc.cool only when you open a partner's link, or the demo through a partner's link. It remembers which partner sent you and a random identifier of that visit, so a team you then buy is credited to that partner. It lasts 30 days, and opening another partner's link replaces it.</li>
 <li><strong>org_apple_nonce:</strong> when you sign in to the console with Apple, ties the sign-in to your browser. It lasts 10 minutes.</li>
 <li><strong>__cf_bm:</strong> set by Cloudflare for DigitalOcean's content delivery network, which delivers the files and images of the console and the card pages. It tells people from bots, and lasts 30 minutes.</li>
 </ul>
 
-Counting a tap on a card's link sends no cookie. Signing in with Apple happens on Apple's own page, which sets Apple's cookies under Apple's policy. Paying for a team happens on Stripe's own page, which sets Stripe's cookies under Stripe's policy.
+Counting a tap on a card's link sends no cookie. Signing in with Apple happens on Apple's own page, which sets Apple's cookies under Apple's policy. Paying for a team happens on Stripe's or Creem's own page, which sets their cookies under their policies.
 
 The console also keeps two things in your browser's storage. Your light or dark theme is stored only when you pick one, and stays until you clear it. During team setup, the last setup step shown is kept until you close the tab, so the progress bar moves the right way. Neither is sent to us.
 
