@@ -842,6 +842,8 @@ footer:
       url: "/business-card/"
     - title: "Business Card for Teams"
       url: "/business-card/teams/"
+    - title: "Partners"
+      url: "/business-card/partners/"
     - title: "NFC Tags"
       url: "/affiliate-links/"
     - title: "Developers"

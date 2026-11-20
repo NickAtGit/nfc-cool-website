@@ -94,6 +94,14 @@ The other companies we compared price their plans differently:
 
 </section>
 
+<section class="page-section">
+
+## Bring Teams, Earn a Share
+
+Recommend NFC.cool for Teams to the businesses you work with and earn 20% of every web payment they make, for as long as they pay. The first 100 partner-brought teams earn 40%. [See the partner programme](/business-card/partners/).
+
+</section>
+
 <section class="page-section landing-faq">
 
 <div class="landing-container">

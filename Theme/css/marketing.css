@@ -983,3 +983,85 @@
 /* A 3D model's licence credit (CC BY), under a page's last section. */
 .scene-credit { max-width: 72rem; margin: 0 auto 2rem; padding: 0 1rem; font-size: .8rem; color: var(--color-text-muted); text-align: center; }
 .scene-credit a { color: inherit; }
+
+/* ============================================================
+   Partner page (/business-card/partners/): the hero's founding line and
+   sample home, and the earnings calculator. Wired by partners/partners.mjs.
+   ============================================================ */
+.partner-kicker {
+   font-family: var(--font-heading);
+   font-weight: 600;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   font-size: 0.875rem;
+   margin: 0 0 0.5rem;
+}
+.partner-founding { font-weight: 600; }
+.partner-actions {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.75rem;
+   margin-top: 1.5rem;
+}
+.landing-final-cta .partner-actions { justify-content: center; }
+.partner-home {
+   background: var(--color-bg-card);
+   color: var(--color-text);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-lg);
+   padding: 1.25rem 1.5rem;
+   box-shadow: 0 8px 24px var(--color-shadow-lg);
+   align-self: center;
+}
+.partner-home-title { font-family: var(--font-heading); font-weight: 600; margin: 0 0 0.75rem; }
+.partner-home-row {
+   display: flex;
+   justify-content: space-between;
+   gap: 1rem;
+   padding: 0.625rem 0;
+   border-top: 1px solid var(--color-border);
+   font-size: 0.9375rem;
+}
+.partner-home-row span:last-child { color: var(--color-text-secondary); text-align: right; }
+.partner-home-note { font-size: 0.8125rem; color: var(--color-text-secondary); margin: 0.75rem 0 0; }
+
+.partner-calc {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   gap: 1.5rem;
+   margin-top: 1.5rem;
+}
+.partner-calc-inputs,
+.partner-result {
+   background: var(--color-bg-card);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-lg);
+   padding: 1.5rem;
+}
+.partner-slider + .partner-slider { margin-top: 1.25rem; }
+.partner-slider label {
+   display: flex;
+   justify-content: space-between;
+   font-weight: 600;
+   margin-bottom: 0.5rem;
+}
+.partner-slider input[type="range"] { width: 100%; min-height: 44px; accent-color: var(--color-link); }
+.partner-toggle { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+.partner-toggle button {
+   font: inherit;
+   font-weight: 600;
+   min-height: 44px;
+   padding: 0.5rem 1.25rem;
+   border-radius: 999px;
+   border: 1.5px solid var(--color-link);
+   background: transparent;
+   color: var(--color-link);
+   cursor: pointer;
+}
+.partner-toggle button[aria-pressed="true"] { background: var(--color-link); color: var(--color-bg); }
+.partner-calc-results { display: grid; gap: 1rem; align-content: start; }
+.partner-result p { margin: 0; max-width: none; }
+.partner-result p:first-child { font-weight: 600; margin-bottom: 0.25rem; }
+.partner-result.is-founding { border-color: var(--color-link); }
+.partner-big { font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; }
+.partner-fine { font-size: 0.8125rem; color: var(--color-text-secondary); max-width: none; }
