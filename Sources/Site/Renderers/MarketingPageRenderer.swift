@@ -20,7 +20,7 @@ import SiteKit
 /// rules.
 struct MarketingPageRenderer: Renderer {
    /// Pages that render normally but stay out of search and the sitemap.
-   static let unlistedSlugs: Set<String> = ["websummit26", "business-card/pages", "business-card/partners"]
+   static let unlistedSlugs: Set<String> = ["websummit26", "business-card/pages", "business-card/partners", "terms/partners"]
 
    func render(context: BuildContext) throws -> [OutputFile] {
       let helper = OutputFileRenderer(context: context)
@@ -196,7 +196,7 @@ struct MarketingPageRenderer: Renderer {
       // in markdown. Just drop the rendered body inside <main> - no auto h1,
       // no sk-article-body wrapper. The newsletter signup closes every page
       // except the legal ones, which stay focused with no signup CTA.
-      let legalSlugs: Set<String> = ["terms", "privacy", "impressum", "terms/business-card", "terms/business-card/dpa", "privacy/business-card", "privacy/lost-pet-tag", "1st-Class-Privacy-Policy"]
+      let legalSlugs: Set<String> = ["terms", "privacy", "impressum", "terms/business-card", "terms/business-card/dpa", "terms/partners", "privacy/business-card", "privacy/lost-pet-tag", "1st-Class-Privacy-Policy"]
       let newsletter = legalSlugs.contains(page.slug) ? "" : newsletterHTML
       // Resolve any `{{PRICING_TABLE:<name>}}` tokens the markdown authored
       // (e.g. the business-card plan comparison) into generated table HTML,

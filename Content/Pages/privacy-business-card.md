@@ -221,6 +221,7 @@ Anyone with an account can join our partner programme at business.nfc.cool and e
 <ul>
 <li>your account, as described in Your account;</li>
 <li>your country, the kind of partner you chose, and your website or profile if you gave one;</li>
+<li>whether you joined as a business or as a private person, the rules you ticked and when, and the version of the partner terms you accepted;</li>
 <li>your link code, and the identifiers Creem gives you in its affiliate programme;</li>
 <li>the teams credited to you, how they were credited (your link, or a team you set up and handed over), when, and when each first paid; for a team you set up, its take-over link, of which we keep only a hash;</li>
 <li>the messages we send you about your teams, by push and in a daily email, and whether you switched them off;</li>

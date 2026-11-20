@@ -34,6 +34,7 @@ enOnly:
     - "Content/Pages/Terms.md"
     - "Content/Pages/terms-business-card.md"
     - "Content/Pages/terms-business-card-dpa.md"
+    - "Content/Pages/terms-partners.md"
     - "Content/Pages/Impressum.md"
     # /apps/{slug}/ promo subpages ship EN-only (the /apps/ index is fully
     # localized); localized URLs fall back to redirects like the legal pages.
