@@ -11,16 +11,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-<p class="partner-kicker">NFC.cool iş ortakları</p>
-
 # NFC.cool'a getirdiğin her ekipten kazan
 
 Birlikte çalıştığın işletmelere NFC.cool Business Card for Teams'i öner, Web'de ödeme yapan her ekipten kazan. Katılmak ücretsiz.
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">İş ortağı ol</a>
-<a href="https://business.nfc.cool/demo/" class="landing-cta-button">Demoya göz at</a>
-</div>
+<div class="landing-store-buttons partner-actions">{{PARTNER_BUTTON}}{{DEMO_BUTTON}}</div>
 
 </div>
 
@@ -146,13 +141,11 @@ Her iş ortağı, kendi çalışma biçimine göre yazılmış satış rehberi a
 <section class="landing-final-cta">
 <div class="landing-container">
 
-<h2 class="landing-cta-title">NFC.cool ile kazanmaya başla</h2>
+<h2 class="landing-cta-title">Kazanmaya başlamaya hazır mısın?</h2>
 
 <p>Ücretsiz katıl, bağlantını al, ilk ekibini getir.</p>
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">İş ortağı ol</a>
-</div>
+<div class="landing-store-buttons">{{PARTNER_BUTTON}}</div>
 
 </div>
 </section>

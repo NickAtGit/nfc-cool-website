@@ -11,16 +11,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-<p class="partner-kicker">Partners de NFC.cool</p>
-
 # Gana con cada equipo que traigas a NFC.cool
 
 Recomienda NFC.cool Business Card for Teams a las empresas con las que trabajas y gana con cada equipo que pague en la web. Unirte es gratis.
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Hazte partner</a>
-<a href="https://business.nfc.cool/demo/" class="landing-cta-button">Ver la demo</a>
-</div>
+<div class="landing-store-buttons partner-actions">{{PARTNER_BUTTON}}{{DEMO_BUTTON}}</div>
 
 </div>
 
@@ -146,13 +141,11 @@ Cada partner recibe una guía de ventas escrita para su forma de trabajar.
 <section class="landing-final-cta">
 <div class="landing-container">
 
-<h2 class="landing-cta-title">Empieza a ganar con NFC.cool</h2>
+<h2 class="landing-cta-title">¿Todo listo para empezar a ganar?</h2>
 
 <p>Únete gratis, consigue tu enlace y trae tu primer equipo.</p>
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Hazte partner</a>
-</div>
+<div class="landing-store-buttons">{{PARTNER_BUTTON}}</div>
 
 </div>
 </section>

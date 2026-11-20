@@ -11,16 +11,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-<p class="partner-kicker">NFC.cool Partners</p>
-
 # Earn With Every Team You Bring to NFC.cool
 
 Recommend NFC.cool for Teams to the businesses you work with, and earn from every team that pays on the web. Joining is free.
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Become a partner</a>
-<a href="https://business.nfc.cool/demo/" class="landing-cta-button">See the demo</a>
-</div>
+<div class="landing-store-buttons partner-actions">{{PARTNER_BUTTON}}{{DEMO_BUTTON}}</div>
 
 </div>
 
@@ -146,13 +141,11 @@ Each partner gets a sales guide written for the way they work.
 <section class="landing-final-cta">
 <div class="landing-container">
 
-<h2 class="landing-cta-title">Start earning with NFC.cool</h2>
+<h2 class="landing-cta-title">Ready to start earning?</h2>
 
 <p>Join free, get your link, bring your first team.</p>
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Become a partner</a>
-</div>
+<div class="landing-store-buttons">{{PARTNER_BUTTON}}</div>
 
 </div>
 </section>

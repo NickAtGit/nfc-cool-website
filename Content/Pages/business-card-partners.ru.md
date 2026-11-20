@@ -11,16 +11,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-<p class="partner-kicker">Партнёры NFC.cool</p>
-
 # Зарабатывай на каждой команде, которую приводишь в NFC.cool
 
 Рекомендуй NFC.cool Business Card for Teams компаниям, с которыми работаешь, и зарабатывай на каждой команде, которая платит на сайте. Участие бесплатное.
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Стать партнёром</a>
-<a href="https://business.nfc.cool/demo/" class="landing-cta-button">Посмотреть демо</a>
-</div>
+<div class="landing-store-buttons partner-actions">{{PARTNER_BUTTON}}{{DEMO_BUTTON}}</div>
 
 </div>
 
@@ -146,13 +141,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <section class="landing-final-cta">
 <div class="landing-container">
 
-<h2 class="landing-cta-title">Начни зарабатывать с NFC.cool</h2>
+<h2 class="landing-cta-title">Пора начать зарабатывать?</h2>
 
 <p>Присоединяйся бесплатно, получи ссылку и приведи первую команду.</p>
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Стать партнёром</a>
-</div>
+<div class="landing-store-buttons">{{PARTNER_BUTTON}}</div>
 
 </div>
 </section>

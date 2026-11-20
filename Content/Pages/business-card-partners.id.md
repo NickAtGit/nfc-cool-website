@@ -11,16 +11,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-<p class="partner-kicker">Mitra NFC.cool</p>
-
 # Dapatkan penghasilan dari setiap tim yang Anda bawa ke NFC.cool
 
 Rekomendasikan NFC.cool Business Card for Teams kepada bisnis yang bekerja sama dengan Anda, dan dapatkan penghasilan dari setiap tim yang membayar di web. Bergabung gratis.
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Jadi mitra</a>
-<a href="https://business.nfc.cool/demo/" class="landing-cta-button">Lihat demo</a>
-</div>
+<div class="landing-store-buttons partner-actions">{{PARTNER_BUTTON}}{{DEMO_BUTTON}}</div>
 
 </div>
 
@@ -146,13 +141,11 @@ Setiap mitra mendapat panduan penjualan yang ditulis sesuai cara kerjanya.
 <section class="landing-final-cta">
 <div class="landing-container">
 
-<h2 class="landing-cta-title">Mulai dapatkan penghasilan dengan NFC.cool</h2>
+<h2 class="landing-cta-title">Siap mulai mendapatkan penghasilan?</h2>
 
 <p>Bergabung gratis, dapatkan tautan Anda, bawa tim pertama Anda.</p>
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">Jadi mitra</a>
-</div>
+<div class="landing-store-buttons">{{PARTNER_BUTTON}}</div>
 
 </div>
 </section>

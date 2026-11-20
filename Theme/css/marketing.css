@@ -988,22 +988,13 @@
    Partner page (/business-card/partners/): the hero's rate card with the
    founding count, and the earnings calculator. Wired by partners/partners.mjs.
    ============================================================ */
-.partner-kicker {
-   font-family: var(--font-heading);
-   font-weight: 600;
-   letter-spacing: 0.06em;
-   text-transform: uppercase;
-   font-size: 0.875rem;
-   margin: 0 0 0.5rem;
-}
 [data-founding][hidden], [data-founding-only][hidden] { display: none; }
-.partner-actions {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 0.75rem;
-   margin-top: 1.5rem;
+/* The hero's two badges ({{PARTNER_BUTTON}}, {{DEMO_BUTTON}} in a .landing-store-buttons row):
+   side by side, stacked on a phone. */
+.partner-actions { margin-top: 1.5rem; }
+@media (max-width: 480px) {
+   .partner-actions { flex-direction: column; align-items: flex-start; }
 }
-.landing-final-cta .partner-actions { justify-content: center; }
 /* The hero's rate card: the big rate in the display font and the brand accent (blue on light,
    yellow on dark, as links), the words under it, and the live founding count. */
 .partner-rate-card {
@@ -1035,6 +1026,7 @@
    line-height: 1.3;
    margin: 0.75rem auto 0;
    max-width: 18em;
+   text-wrap: balance;
 }
 .partner-rate-count {
    margin: 1.25rem auto 0;
@@ -1043,6 +1035,7 @@
    font-weight: 600;
    color: var(--color-text-secondary);
    max-width: 24em;
+   text-wrap: balance;
 }
 
 .partner-calc {

@@ -11,16 +11,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-<p class="partner-kicker">شركاء NFC.cool</p>
-
 # اربح من كل فريق تجلبه إلى NFC.cool
 
 رشّح NFC.cool Business Card for Teams للشركات التي تعمل معها، واربح من كل فريق يدفع على الويب. الانضمام مجاني.
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">كن شريكًا</a>
-<a href="https://business.nfc.cool/demo/" class="landing-cta-button">شاهد العرض التجريبي</a>
-</div>
+<div class="landing-store-buttons partner-actions">{{PARTNER_BUTTON}}{{DEMO_BUTTON}}</div>
 
 </div>
 
@@ -146,13 +141,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <section class="landing-final-cta">
 <div class="landing-container">
 
-<h2 class="landing-cta-title">ابدأ الربح مع NFC.cool</h2>
+<h2 class="landing-cta-title">هل أنت مستعد لتبدأ الربح؟</h2>
 
 <p>انضم مجانًا، واحصل على رابطك، واجلب فريقك الأول.</p>
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">كن شريكًا</a>
-</div>
+<div class="landing-store-buttons">{{PARTNER_BUTTON}}</div>
 
 </div>
 </section>

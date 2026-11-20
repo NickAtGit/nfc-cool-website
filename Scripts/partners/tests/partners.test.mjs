@@ -83,6 +83,12 @@ test('every locale page carries the strings the script fills in', () => {
     assert.equal(big[2], big[1].replace('{n}', file.includes('.ar.') ? '٤٠' : '40'), `${file}: the built rate is 40%`);
     assert.ok(/class="partner-rate-count" data-founding data-line=/.test(text), `${file}: the count sits in the card`);
     assert.ok(!text.includes('partner-home'), `${file}: no Partner home illustration`);
+    assert.ok(!text.includes('partner-kicker'), `${file}: no kicker above the h1`);
+    // The calls to action are the shared store-style badges (Sources/Site/Helpers/TeamButton.swift).
+    assert.ok(text.includes('<div class="landing-store-buttons partner-actions">{{PARTNER_BUTTON}}{{DEMO_BUTTON}}</div>'), `${file}: the hero's two badges`);
+    assert.ok(/<section class="landing-final-cta">[\s\S]*<div class="landing-store-buttons">\{\{PARTNER_BUTTON\}\}<\/div>/.test(text), `${file}: the closing badge`);
+    assert.ok(!text.includes('landing-cta-button'), `${file}: no outline buttons left`);
+    assert.ok(!/landing-cta-title">[^<]*NFC\.cool/.test(text), `${file}: no wordmark in the closing heading`);
   }
 });
 

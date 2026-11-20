@@ -200,7 +200,7 @@ struct MarketingPageRenderer: Renderer {
       let newsletter = legalSlugs.contains(page.slug) ? "" : newsletterHTML
       // Resolve any `{{PRICING_TABLE:<name>}}` tokens the markdown authored
       // (e.g. the business-card plan comparison) into generated table HTML,
-      // and any `{{TEAM_BUTTON}}` into the shared "Start a team" badge.
+      // and any badge token (`{{TEAM_BUTTON}}`, `{{PARTNER_BUTTON}}`, `{{DEMO_BUTTON}}`) into its badge.
       let withTables = try PricingTableRenderer.resolvePricingTokens(in: page.htmlContent, locale: page.locale, context: context)
       let withButton = TeamButton.resolveTokens(in: withTables, context: context)
       // `{{PRICE:…}}` last, so tokens inside pricing-table cells are resolved too.

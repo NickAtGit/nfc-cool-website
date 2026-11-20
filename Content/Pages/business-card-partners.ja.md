@@ -11,16 +11,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-<p class="partner-kicker">NFC.coolパートナー</p>
-
 # NFC.coolに紹介したチームごとに報酬を
 
 取引のある企業にNFC.cool Business Card for Teamsを紹介して、Webで支払うチームごとに報酬を受け取りましょう。参加は無料です。
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">パートナーになる</a>
-<a href="https://business.nfc.cool/demo/" class="landing-cta-button">デモを見る</a>
-</div>
+<div class="landing-store-buttons partner-actions">{{PARTNER_BUTTON}}{{DEMO_BUTTON}}</div>
 
 </div>
 
@@ -146,13 +141,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <section class="landing-final-cta">
 <div class="landing-container">
 
-<h2 class="landing-cta-title">NFC.coolで報酬を得よう</h2>
+<h2 class="landing-cta-title">さっそく報酬を得てみませんか？</h2>
 
 <p>無料で参加して、リンクを受け取り、最初のチームを紹介しましょう。</p>
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">パートナーになる</a>
-</div>
+<div class="landing-store-buttons">{{PARTNER_BUTTON}}</div>
 
 </div>
 </section>

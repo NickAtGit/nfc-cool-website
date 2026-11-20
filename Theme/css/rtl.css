@@ -30,6 +30,8 @@ html[lang="ar"] {
 }
 html[lang="ar"] body { line-height: 1.8; }
 html[lang="ar"] p { line-height: 1.9; }
+/* The partner card's big rate is one line of digits, not prose: keep it tight. */
+html[lang="ar"] p.partner-rate { line-height: 1.1; }
 
 /* Arabic is a connected (cursive) script: negative/positive letter-spacing
    pulls the joined letterforms apart and reads as broken. The base theme

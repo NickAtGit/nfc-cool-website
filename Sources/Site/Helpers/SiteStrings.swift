@@ -21,6 +21,7 @@ enum SiteStringKey: String, CaseIterable {
    case navToggle, themeToggle, langFlag, langName
    case trustRatings
    case teamButtonKicker, teamButtonLabel
+   case partnerButtonKicker, partnerButtonLabel, demoButtonKicker, demoButtonLabel
 }
 
 extension BuildContext {

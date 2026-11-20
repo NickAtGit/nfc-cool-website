@@ -11,16 +11,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="page-hero-text">
 
-<p class="partner-kicker">NFC.cool 合作伙伴</p>
-
 # 每带来一个团队到 NFC.cool，都有你的收入
 
 把 NFC.cool Business Card for Teams 推荐给和你合作的企业，每个在网页端付费的团队都会带来你的收入。加入免费。
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">成为合作伙伴</a>
-<a href="https://business.nfc.cool/demo/" class="landing-cta-button">查看演示</a>
-</div>
+<div class="landing-store-buttons partner-actions">{{PARTNER_BUTTON}}{{DEMO_BUTTON}}</div>
 
 </div>
 
@@ -146,13 +141,11 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <section class="landing-final-cta">
 <div class="landing-container">
 
-<h2 class="landing-cta-title">和 NFC.cool 一起赚钱</h2>
+<h2 class="landing-cta-title">准备好开始赚钱了吗？</h2>
 
 <p>免费加入，拿到你的链接，带来第一个团队。</p>
 
-<div class="partner-actions">
-<a href="https://business.nfc.cool/partners/join/" class="landing-cta-button">成为合作伙伴</a>
-</div>
+<div class="landing-store-buttons">{{PARTNER_BUTTON}}</div>
 
 </div>
 </section>

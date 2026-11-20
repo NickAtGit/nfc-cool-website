@@ -344,6 +344,18 @@
    "teamButtonLabel": {
       "localizations": { "en": "Start a team", "de": "Team starten", "ja": "チームで始める", "pt": "Criar uma equipa", "zh": "创建团队", "id": "Buat tim", "es": "Crear un equipo", "fr": "Créer une équipe", "ar": "أنشئ فريقًا", "it": "Crea un team", "tr": "Ekip kur", "ru": "Создать команду", "uk": "Створити команду" }
    },
+   "partnerButtonKicker": {
+      "localizations": { "en": "Free to join", "de": "Kostenlos mitmachen", "ja": "参加無料", "pt": "Adesão gratuita", "zh": "免费加入", "id": "Gratis bergabung", "es": "Unirte es gratis", "fr": "Inscription gratuite", "ar": "الانضمام مجاني", "it": "Partecipazione gratuita", "tr": "Katılım ücretsiz", "ru": "Участие бесплатное", "uk": "Участь безкоштовна" }
+   },
+   "partnerButtonLabel": {
+      "localizations": { "en": "Become a partner", "de": "Partner werden", "ja": "パートナーになる", "pt": "Tornar-se parceiro", "zh": "成为合作伙伴", "id": "Jadi mitra", "es": "Hazte partner", "fr": "Devenir partenaire", "ar": "كن شريكًا", "it": "Diventa partner", "tr": "İş ortağı ol", "ru": "Стать партнёром", "uk": "Стати партнером" }
+   },
+   "demoButtonKicker": {
+      "localizations": { "en": "No sign-up", "de": "Ohne Anmeldung", "ja": "登録不要", "pt": "Sem registo", "zh": "无需注册", "id": "Tanpa daftar", "es": "Sin registro", "fr": "Sans inscription", "ar": "دون تسجيل", "it": "Senza registrazione", "tr": "Kayıt gerekmez", "ru": "Без регистрации", "uk": "Без реєстрації" }
+   },
+   "demoButtonLabel": {
+      "localizations": { "en": "See the demo", "de": "Demo ansehen", "ja": "デモを見る", "pt": "Ver a demonstração", "zh": "查看演示", "id": "Lihat demo", "es": "Ver la demo", "fr": "Voir la démo", "ar": "شاهد العرض التجريبي", "it": "Guarda la demo", "tr": "Demoya göz at", "ru": "Посмотреть демо", "uk": "Переглянути демо" }
+   },
    "navToggle": {
       "localizations": { "en": "Toggle navigation menu", "de": "Navigationsmenü umschalten", "ja": "ナビゲーションメニューを開閉", "pt": "Alternar menu de navegação", "zh": "切换导航菜单", "id": "Alihkan menu navigasi", "es": "Alternar el menú de navegación", "fr": "Afficher ou masquer le menu de navigation", "ar": "تبديل قائمة التنقل", "it": "Apri o chiudi il menu di navigazione", "tr": "Gezinme menüsünü aç veya kapat", "ru": "Открыть или закрыть меню", "uk": "Відкрити або закрити меню" }
    },
