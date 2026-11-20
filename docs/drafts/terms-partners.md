@@ -88,7 +88,7 @@ The agreement between you and NFC.cool when you join the partner programme and b
 
 ## Who we are and what these terms cover
 
-These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, NIF PT315901934, phone +351 925 378 989, email business (at) nfc (dot) cool ("NFC.cool", "we", "us").
+These terms are an agreement between you and Nicolo Stanciu, trading as NFC.cool, Rua Carminé Nobre 6, 3040-193 Coimbra, Portugal, NIF PT315901934, email business (at) nfc (dot) cool ("NFC.cool", "we", "us").
 
 They cover the NFC.cool partner programme: your partner link, setting up teams for clients, the demo, the share kit and the sales guides in your partner area at business.nfc.cool, and the commission you earn on the teams you bring to NFC.cool Business Card for Teams.
 
@@ -335,7 +335,7 @@ These terms are governed by Portuguese law. If a dispute arises, write to us fir
 
 <div class="page-cards-grid">
 <article class="page-card">
-<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934<br>Phone: +351 925 378 989</p>
+<p>Nicolo Stanciu | NFC.cool<br>Rua Carminé Nobre 6<br>3040-193 Coimbra<br>Portugal<br>NIF: PT315901934</p>
 <p>For partners: business (at) nfc (dot) cool</p>
 </article>
 </div>
