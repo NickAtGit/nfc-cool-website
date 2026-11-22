@@ -135,9 +135,9 @@ Am schnellsten erreichst du uns per E-Mail. Wir lesen jede Nachricht persönlich
 <span class="contact-social-handle">@nfc.cool</span>
 </a>
 
-<a href="https://www.youtube.com/@nfc.cool" class="contact-social-card" target="_blank" rel="noopener">
+<a href="https://www.youtube.com/@NFC_cool" class="contact-social-card" target="_blank" rel="noopener">
 <span class="contact-social-name">YouTube</span>
-<span class="contact-social-handle">@nfc.cool</span>
+<span class="contact-social-handle">@NFC_cool</span>
 </a>
 
 <a href="https://x.com/nfc_cool" class="contact-social-card" target="_blank" rel="noopener">
