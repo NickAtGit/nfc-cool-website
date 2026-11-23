@@ -29,26 +29,15 @@ Setelah beberapa tahun merilis aplikasi NFC dan membaca ribuan email dukungan, i
 
 <section id="where-to-buy" class="page-section">
 
-## Tempat membeli
+## Paling serbaguna: NTAG216
 
-Untuk 95% hal yang dilakukan orang dengan NFC - kartu kontak, pemicu otomasi, pintasan URL, berbagi Wi-Fi - beli stiker **NTAG216**. Andal di iPhone dan Android, 888 byte ruang yang dapat ditulis, murah dalam jumlah besar, dan chip persis yang diuji NFC.cool. Baru mengenal tag NFC? [Panduan lengkap tag NFC untuk pemula](/id/blog/nfc-tags-beginners-guide/) saya menjelaskan cara kerjanya dan perbedaan tiap chip. Pilih toko Amazon Anda - atau klik saja salah satunya, dan Amazon otomatis mengarahkan pembeli internasional ke toko terdekat mereka.
+Untuk 95% hal yang dilakukan orang dengan NFC - kartu kontak, pemicu otomasi, pintasan URL, berbagi Wi-Fi - beli stiker **NTAG216**. Andal di iPhone dan Android, 888 byte ruang yang dapat ditulis, murah dalam jumlah besar, dan chip persis yang diuji NFC.cool. Baru mengenal tag NFC? [Panduan lengkap tag NFC untuk pemula](/id/blog/nfc-tags-beginners-guide/) saya menjelaskan cara kerjanya dan perbedaan tiap chip.
 
 <div class="affiliate-store-box">
 
-<div class="affiliate-country-grid" data-badge-label="Toko Anda">
-<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">Amerika Serikat</span></a>
-<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Britania Raya</span></a>
-<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Jerman</span></a>
-<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">Prancis</span></a>
-<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Italia</span></a>
-<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">Spanyol</span></a>
-<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Belanda</span></a>
-<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Swedia</span></a>
-<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Polandia</span></a>
-<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Kanada</span></a>
-</div>
+<p><a class="landing-cta-button" href="https://link.amazon/B0hH1mPTC" rel="sponsored noopener" target="_blank">Lihat stiker NTAG216 di Amazon</a></p>
 
-<p class="affiliate-disclosure"><strong>Pengungkapan:</strong> Ini adalah tautan afiliasi Amazon - beli melalui salah satunya dan saya mendapat komisi kecil tanpa biaya tambahan bagi Anda.</p>
+<p class="affiliate-disclosure"><strong>Pengungkapan:</strong> Ini adalah tautan afiliasi Amazon - tautan ini membawa Anda ke toko Amazon di negara Anda, dan jika Anda membeli melaluinya, saya mendapat komisi kecil tanpa biaya tambahan bagi Anda.</p>
 
 </div>
 
@@ -62,20 +51,25 @@ Amiibo secara khusus menggunakan chip **NTAG215**. Jika Anda [mencadangkan Amiib
 
 <div class="affiliate-store-box">
 
-<div class="affiliate-country-grid" data-badge-label="Toko Anda">
-<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">Amerika Serikat</span></a>
-<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Britania Raya</span></a>
-<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Jerman</span></a>
-<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">Prancis</span></a>
-<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Italia</span></a>
-<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">Spanyol</span></a>
-<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Belanda</span></a>
-<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Swedia</span></a>
-<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Polandia</span></a>
-<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Kanada</span></a>
+<p><a class="landing-cta-button" href="https://link.amazon/B0fw26EqT" rel="sponsored noopener" target="_blank">Lihat tag NTAG215 di Amazon</a></p>
+
+<p class="affiliate-disclosure"><strong>Pengungkapan:</strong> Ini adalah tautan afiliasi Amazon - tautan ini membawa Anda ke toko Amazon di negara Anda, dan jika Anda membeli melaluinya, saya mendapat komisi kecil tanpa biaya tambahan bagi Anda.</p>
+
 </div>
 
-<p class="affiliate-disclosure"><strong>Pengungkapan:</strong> Ini adalah tautan afiliasi Amazon - beli melalui salah satunya dan saya mendapat komisi kecil tanpa biaya tambahan bagi Anda.</p>
+</section>
+
+<section id="usb-nfc-reader" class="page-section">
+
+## Butuh pembaca NFC USB? Pilih OMNIKEY 5022 CL
+
+iPad dan Mac tidak punya chip NFC, dan beberapa kartu transit, seperti EZ-Link dari Singapura atau Yikatong dari Beijing, sama sekali tidak bisa dibaca aplikasi di iPhone. Pembaca NFC USB eksternal mengatasi keduanya. **HID OMNIKEY 5022 CL** adalah pembaca yang saya jadikan dasar dukungan pembaca eksternal di NFC.cool, dan satu-satunya yang sudah saya uji dari awal sampai akhir. Baca [cara kerja pembacaan dengan pembaca USB](/id/blog/nfc-reading-ipad-mac/).
+
+<div class="affiliate-store-box">
+
+<p><a class="landing-cta-button" href="https://amzn.to/3SNPi46" rel="sponsored noopener" target="_blank">Lihat OMNIKEY 5022 CL di Amazon</a></p>
+
+<p class="affiliate-disclosure"><strong>Pengungkapan:</strong> Ini adalah tautan afiliasi Amazon - tautan ini membawa Anda ke toko Amazon di negara Anda, dan jika Anda membeli melaluinya, saya mendapat komisi kecil tanpa biaya tambahan bagi Anda.</p>
 
 </div>
 

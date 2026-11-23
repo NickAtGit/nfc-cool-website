@@ -29,26 +29,15 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 <section id="where-to-buy" class="page-section">
 
-## Де купити
+## Найкращий універсальний варіант: NTAG216
 
-Для 95% того, що люди роблять з NFC (контактні картки, тригери автоматизації, посилання, роздача Wi-Fi), бери наліпки **NTAG216**. Вони надійні на iPhone і Android, мають 888 байтів під запис, у великій пачці коштують дешево, і саме на цьому чипі я тестую NFC.cool. Уперше маєш справу з мітками? Мій [повний посібник про NFC-мітки для початківців](/uk/blog/nfc-tags-beginners-guide/) пояснює, як вони працюють і чим відрізняються чипи. Вибери свій магазин Amazon, а можна натиснути будь-який: покупців з інших країн Amazon сам перекидає в найближчий.
+Для 95% того, що люди роблять з NFC (контактні картки, тригери автоматизації, посилання, роздача Wi-Fi), бери наліпки **NTAG216**. Вони надійні на iPhone і Android, мають 888 байтів під запис, у великій пачці коштують дешево, і саме на цьому чипі я тестую NFC.cool. Уперше маєш справу з мітками? Мій [повний посібник про NFC-мітки для початківців](/uk/blog/nfc-tags-beginners-guide/) пояснює, як вони працюють і чим відрізняються чипи.
 
 <div class="affiliate-store-box">
 
-<div class="affiliate-country-grid" data-badge-label="Твій магазин">
-<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">США</span></a>
-<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Велика Британія</span></a>
-<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Німеччина</span></a>
-<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">Франція</span></a>
-<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Італія</span></a>
-<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">Іспанія</span></a>
-<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Нідерланди</span></a>
-<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Швеція</span></a>
-<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Польща</span></a>
-<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Канада</span></a>
-</div>
+<p><a class="landing-cta-button" href="https://link.amazon/B0hH1mPTC" rel="sponsored noopener" target="_blank">Переглянути наліпки NTAG216 на Amazon</a></p>
 
-<p class="affiliate-disclosure"><strong>Розкриття:</strong> це партнерські посилання Amazon. Купівля за таким посиланням приносить мені невелику комісію, а для тебе ціна не змінюється.</p>
+<p class="affiliate-disclosure"><strong>Розкриття:</strong> посилання партнерське і веде до місцевого магазину Amazon. Купівля за ним приносить мені невелику комісію, а для тебе ціна не змінюється.</p>
 
 </div>
 
@@ -62,20 +51,25 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 <div class="affiliate-store-box">
 
-<div class="affiliate-country-grid" data-badge-label="Твій магазин">
-<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">США</span></a>
-<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Велика Британія</span></a>
-<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Німеччина</span></a>
-<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">Франція</span></a>
-<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">Італія</span></a>
-<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">Іспанія</span></a>
-<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Нідерланди</span></a>
-<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">Швеція</span></a>
-<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Польща</span></a>
-<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Канада</span></a>
+<p><a class="landing-cta-button" href="https://link.amazon/B0fw26EqT" rel="sponsored noopener" target="_blank">Переглянути мітки NTAG215 на Amazon</a></p>
+
+<p class="affiliate-disclosure"><strong>Розкриття:</strong> посилання партнерське і веде до місцевого магазину Amazon. Купівля за ним приносить мені невелику комісію, а для тебе ціна не змінюється.</p>
+
 </div>
 
-<p class="affiliate-disclosure"><strong>Розкриття:</strong> це партнерські посилання Amazon. Купівля за таким посиланням приносить мені невелику комісію, а для тебе ціна не змінюється.</p>
+</section>
+
+<section id="usb-nfc-reader" class="page-section">
+
+## Потрібен USB-зчитувач NFC? Бери OMNIKEY 5022 CL
+
+В iPad і Mac немає NFC-чипа, а деякі транспортні картки, як-от сінгапурська EZ-Link чи пекінська Yikatong, на iPhone не відкриваються жодному застосунку. Зовнішній USB-зчитувач NFC розв'язує обидві проблеми. З **HID OMNIKEY 5022 CL** я розробляв підтримку зовнішніх зчитувачів у NFC.cool, і лише його перевірив сам від початку до кінця. Ось [як працює зчитування через USB-зчитувач](/uk/blog/nfc-reading-ipad-mac/).
+
+<div class="affiliate-store-box">
+
+<p><a class="landing-cta-button" href="https://amzn.to/3SNPi46" rel="sponsored noopener" target="_blank">Переглянути OMNIKEY 5022 CL на Amazon</a></p>
+
+<p class="affiliate-disclosure"><strong>Розкриття:</strong> посилання партнерське і веде до місцевого магазину Amazon. Купівля за ним приносить мені невелику комісію, а для тебе ціна не змінюється.</p>
 
 </div>
 

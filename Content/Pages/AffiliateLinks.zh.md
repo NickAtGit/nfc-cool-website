@@ -29,26 +29,15 @@ image: "/assets/images/Affiliate/create-nfc-tag.webp"
 
 <section id="where-to-buy" class="page-section">
 
-## 到哪里买
+## 全能之选：NTAG216
 
-对于 95% 的 NFC 使用场景：联系人名片、自动化触发器、网址快捷方式、Wi-Fi 分享，买 **NTAG216** 贴纸就对了。在 iPhone 和 Android 上都很可靠，用户可写空间达 888 字节，批量购买便宜，而且也正是 NFC.cool 测试时所依据的那款芯片。刚接触 NFC 标签？我的[完整 NFC 标签新手指南](/zh/blog/nfc-tags-beginners-guide/)会讲清楚它们的工作原理，以及各种芯片之间的区别。选择你所在的 Amazon 商店，或者随便点一个都行，Amazon 会自动把国际买家引导到离你最近的商店。
+对于 95% 的 NFC 使用场景：联系人名片、自动化触发器、网址快捷方式、Wi-Fi 分享，买 **NTAG216** 贴纸就对了。在 iPhone 和 Android 上都很可靠，用户可写空间达 888 字节，批量购买便宜，而且也正是 NFC.cool 测试时所依据的那款芯片。刚接触 NFC 标签？我的[完整 NFC 标签新手指南](/zh/blog/nfc-tags-beginners-guide/)会讲清楚它们的工作原理，以及各种芯片之间的区别。
 
 <div class="affiliate-store-box">
 
-<div class="affiliate-country-grid" data-badge-label="你的商店">
-<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">美国</span></a>
-<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">英国</span></a>
-<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">德国</span></a>
-<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">法国</span></a>
-<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">意大利</span></a>
-<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">西班牙</span></a>
-<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">荷兰</span></a>
-<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">瑞典</span></a>
-<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">波兰</span></a>
-<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">加拿大</span></a>
-</div>
+<p><a class="landing-cta-button" href="https://link.amazon/B0hH1mPTC" rel="sponsored noopener" target="_blank">在 Amazon 上查看 NTAG216 贴纸</a></p>
 
-<p class="affiliate-disclosure"><strong>声明：</strong>这些是 Amazon 联盟链接，如果你通过它们购买，我会获得一笔小额佣金，而你不会因此多付任何费用。</p>
+<p class="affiliate-disclosure"><strong>声明：</strong> 这是 Amazon 联盟链接，会把你转到你所在国家的 Amazon 商店。如果你通过它购买，我会获得一笔小额佣金，而你不会因此多付任何费用。</p>
 
 </div>
 
@@ -62,20 +51,25 @@ Amiibo 用的正是 **NTAG215** 芯片。如果你要[用 NFC.cool 备份 Amiibo
 
 <div class="affiliate-store-box">
 
-<div class="affiliate-country-grid" data-badge-label="你的商店">
-<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">美国</span></a>
-<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">英国</span></a>
-<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">德国</span></a>
-<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">法国</span></a>
-<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">意大利</span></a>
-<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">西班牙</span></a>
-<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">荷兰</span></a>
-<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">瑞典</span></a>
-<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">波兰</span></a>
-<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">加拿大</span></a>
+<p><a class="landing-cta-button" href="https://link.amazon/B0fw26EqT" rel="sponsored noopener" target="_blank">在 Amazon 上查看 NTAG215 标签</a></p>
+
+<p class="affiliate-disclosure"><strong>声明：</strong> 这是 Amazon 联盟链接，会把你转到你所在国家的 Amazon 商店。如果你通过它购买，我会获得一笔小额佣金，而你不会因此多付任何费用。</p>
+
 </div>
 
-<p class="affiliate-disclosure"><strong>声明：</strong>这些是 Amazon 联盟链接，如果你通过它们购买，我会获得一笔小额佣金，而你不会因此多付任何费用。</p>
+</section>
+
+<section id="usb-nfc-reader" class="page-section">
+
+## 需要 USB NFC 读卡器？选 OMNIKEY 5022 CL
+
+iPad 和 Mac 没有 NFC 芯片，而有些交通卡，比如新加坡的 EZ-Link 和北京一卡通，在 iPhone 上根本不向任何 App 开放。一个外接 USB NFC 读卡器可以同时解决这两个问题。**HID OMNIKEY 5022 CL** 是我开发 NFC.cool 外接读卡器支持时所用的读卡器，也是我唯一完整测试过的一款。[用 USB 读卡器读取的原理](/zh/blog/nfc-reading-ipad-mac/)我在这里写过。
+
+<div class="affiliate-store-box">
+
+<p><a class="landing-cta-button" href="https://amzn.to/3SNPi46" rel="sponsored noopener" target="_blank">在 Amazon 上查看 OMNIKEY 5022 CL</a></p>
+
+<p class="affiliate-disclosure"><strong>声明：</strong> 这是 Amazon 联盟链接，会把你转到你所在国家的 Amazon 商店。如果你通过它购买，我会获得一笔小额佣金，而你不会因此多付任何费用。</p>
 
 </div>
 

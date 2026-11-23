@@ -29,26 +29,15 @@ NFCアプリを7年間開発し、何千ものサポートメールに答えて�
 
 <section id="where-to-buy" class="page-section">
 
-## どこで買うか
+## 万能の定番：NTAG216
 
-連絡先カード、自動化トリガー、URLショートカット、Wi-Fi共有など、NFCの用途の95%には**NTAG216**ステッカーを買ってください。iPhoneとAndroidで安定して動き、書き込み領域は888バイト、まとめ買いで安く、NFC.coolが標準でテストしている規格そのものです。NFCタグは初めてですか？[NFCタグ完全ビギナーズガイド](/ja/blog/nfc-tags-beginners-guide/)で、仕組みやチップごとの違いを解説しています。お使いのAmazonストアを選んでください - どれをクリックしても、Amazonが海外の購入者を自動で最寄りのストアへ案内します。
+連絡先カード、自動化トリガー、URLショートカット、Wi-Fi共有など、NFCの用途の95%には**NTAG216**ステッカーを買ってください。iPhoneとAndroidで安定して動き、書き込み領域は888バイト、まとめ買いで安く、NFC.coolが標準でテストしている規格そのものです。NFCタグは初めてですか？[NFCタグ完全ビギナーズガイド](/ja/blog/nfc-tags-beginners-guide/)で、仕組みやチップごとの違いを解説しています。
 
 <div class="affiliate-store-box">
 
-<div class="affiliate-country-grid" data-badge-label="あなたのストア">
-<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">アメリカ</span></a>
-<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">イギリス</span></a>
-<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">ドイツ</span></a>
-<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">フランス</span></a>
-<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">イタリア</span></a>
-<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">スペイン</span></a>
-<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">オランダ</span></a>
-<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">スウェーデン</span></a>
-<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">ポーランド</span></a>
-<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">カナダ</span></a>
-</div>
+<p><a class="landing-cta-button" href="https://link.amazon/B0hH1mPTC" rel="sponsored noopener" target="_blank">AmazonでNTAG216ステッカーを見る</a></p>
 
-<p class="affiliate-disclosure"><strong>開示:</strong> これらはAmazonアフィリエイトリンクです - 経由でご購入いただくと、追加費用なしで私に少額の手数料が入ります。</p>
+<p class="affiliate-disclosure"><strong>開示:</strong> これはAmazonアフィリエイトリンクです。お住まいの国のAmazonストアに転送され、経由でご購入いただくと、追加費用なしで私に少額の手数料が入ります。</p>
 
 </div>
 
@@ -62,20 +51,25 @@ Amiiboは具体的には**NTAG215**チップを使っています。[NFC.coolで
 
 <div class="affiliate-store-box">
 
-<div class="affiliate-country-grid" data-badge-label="あなたのストア">
-<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">アメリカ</span></a>
-<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">イギリス</span></a>
-<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">ドイツ</span></a>
-<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">フランス</span></a>
-<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">イタリア</span></a>
-<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">スペイン</span></a>
-<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">オランダ</span></a>
-<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">スウェーデン</span></a>
-<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">ポーランド</span></a>
-<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">カナダ</span></a>
+<p><a class="landing-cta-button" href="https://link.amazon/B0fw26EqT" rel="sponsored noopener" target="_blank">AmazonでNTAG215タグを見る</a></p>
+
+<p class="affiliate-disclosure"><strong>開示:</strong> これはAmazonアフィリエイトリンクです。お住まいの国のAmazonストアに転送され、経由でご購入いただくと、追加費用なしで私に少額の手数料が入ります。</p>
+
 </div>
 
-<p class="affiliate-disclosure"><strong>開示:</strong> これらはAmazonアフィリエイトリンクです - 経由でご購入いただくと、追加費用なしで私に少額の手数料が入ります。</p>
+</section>
+
+<section id="usb-nfc-reader" class="page-section">
+
+## USB NFCリーダーが必要ですか？OMNIKEY 5022 CLを選ぼう
+
+iPadとMacにはNFCチップがありません。また、シンガポールのEZ-Linkや北京の一卡通（Yikatong）のように、iPhoneではどのアプリにも中身を見せない交通系カードもあります。外付けのUSB NFCリーダーがあれば、どちらも解決します。**HID OMNIKEY 5022 CL**は、NFC.coolのリーダー対応を開発する基準にしたリーダーで、私が最初から最後まで自分で試した唯一の機種です。[USBリーダーで読み取る仕組み](/ja/blog/nfc-reading-ipad-mac/)はこちらで解説しています。
+
+<div class="affiliate-store-box">
+
+<p><a class="landing-cta-button" href="https://amzn.to/3SNPi46" rel="sponsored noopener" target="_blank">AmazonでOMNIKEY 5022 CLを見る</a></p>
+
+<p class="affiliate-disclosure"><strong>開示:</strong> これはAmazonアフィリエイトリンクです。お住まいの国のAmazonストアに転送され、経由でご購入いただくと、追加費用なしで私に少額の手数料が入ります。</p>
 
 </div>
 

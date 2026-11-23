@@ -155,9 +155,6 @@ html[lang="ar"] .sk-lang-current {
 }
 [dir="rtl"] .tap-demo-card { text-align: right; }
 
-/* "Your store" badge pins to the opposite top corner of its tile. */
-[dir="rtl"] .affiliate-country-badge { right: auto; left: -0.4rem; }
-
 /* ============================================================
    Online NFC Reader tool (nfc-reader.css)
    ============================================================ */

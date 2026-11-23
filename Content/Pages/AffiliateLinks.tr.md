@@ -29,26 +29,15 @@ Yıllarca NFC uygulaması yayınlayıp binlerce destek e-postası okuduktan sonr
 
 <section id="where-to-buy" class="page-section">
 
-## Nereden alınır
+## En iyi çok yönlü seçim: NTAG216
 
-İnsanların NFC ile yaptığı işlerin yüzde 95'i için (kartvizit, otomasyon tetikleyicisi, adres kısayolu, Wi-Fi paylaşımı) **NTAG216** etiket al. iPhone'da da Android'de de güvenilir, 888 bayt yazılabilir alanı var, toptanda ucuz ve NFC.cool'un sınadığı çipin ta kendisi. NFC tag'lere yeniysen [sıfırdan başlayanlar için NFC tag rehberim](/tr/blog/nfc-tags-beginners-guide/) bunların nasıl çalıştığını ve çipler arasındaki farkı anlatıyor. Amazon mağazanı seç ya da rastgele birine tıkla; Amazon yurt dışındaki alıcıları kendiliğinden en yakın mağazasına yönlendiriyor.
+İnsanların NFC ile yaptığı işlerin yüzde 95'i için (kartvizit, otomasyon tetikleyicisi, adres kısayolu, Wi-Fi paylaşımı) **NTAG216** etiket al. iPhone'da da Android'de de güvenilir, 888 bayt yazılabilir alanı var, toptanda ucuz ve NFC.cool'un sınadığı çipin ta kendisi. NFC tag'lere yeniysen [sıfırdan başlayanlar için NFC tag rehberim](/tr/blog/nfc-tags-beginners-guide/) bunların nasıl çalıştığını ve çipler arasındaki farkı anlatıyor.
 
 <div class="affiliate-store-box">
 
-<div class="affiliate-country-grid" data-badge-label="Senin mağazan">
-<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">Amerika Birleşik Devletleri</span></a>
-<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Birleşik Krallık</span></a>
-<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Almanya</span></a>
-<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">Fransa</span></a>
-<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">İtalya</span></a>
-<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">İspanya</span></a>
-<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Hollanda</span></a>
-<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">İsveç</span></a>
-<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Polonya</span></a>
-<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag216&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Kanada</span></a>
-</div>
+<p><a class="landing-cta-button" href="https://link.amazon/B0hH1mPTC" rel="sponsored noopener" target="_blank">NTAG216 etiketlerini Amazon'da gör</a></p>
 
-<p class="affiliate-disclosure"><strong>Bilgilendirme:</strong> Bunlar Amazon ortaklık bağlantıları. Birinden alışveriş yaparsan sana ek bir maliyeti olmadan küçük bir komisyon kazanıyorum.</p>
+<p class="affiliate-disclosure"><strong>Bilgilendirme:</strong> Bu bir Amazon ortaklık bağlantısı. Seni kendi ülkendeki Amazon mağazasına götürür ve üzerinden alışveriş yaparsan sana ek bir maliyeti olmadan küçük bir komisyon kazanıyorum.</p>
 
 </div>
 
@@ -62,20 +51,25 @@ Amiibo'lar tam olarak **NTAG215** çipi taşır. [NFC.cool ile Amiibo yedekleyec
 
 <div class="affiliate-store-box">
 
-<div class="affiliate-country-grid" data-badge-label="Senin mağazan">
-<a class="affiliate-country" data-region="US" href="https://www.amazon.com/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇺🇸</span><span class="affiliate-country-name">Amerika Birleşik Devletleri</span></a>
-<a class="affiliate-country" data-region="GB" href="https://www.amazon.co.uk/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇬🇧</span><span class="affiliate-country-name">Birleşik Krallık</span></a>
-<a class="affiliate-country" data-region="DE" href="https://www.amazon.de/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇩🇪</span><span class="affiliate-country-name">Almanya</span></a>
-<a class="affiliate-country" data-region="FR" href="https://www.amazon.fr/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇫🇷</span><span class="affiliate-country-name">Fransa</span></a>
-<a class="affiliate-country" data-region="IT" href="https://www.amazon.it/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇮🇹</span><span class="affiliate-country-name">İtalya</span></a>
-<a class="affiliate-country" data-region="ES" href="https://www.amazon.es/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇪🇸</span><span class="affiliate-country-name">İspanya</span></a>
-<a class="affiliate-country" data-region="NL" href="https://www.amazon.nl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇳🇱</span><span class="affiliate-country-name">Hollanda</span></a>
-<a class="affiliate-country" data-region="SE" href="https://www.amazon.se/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇸🇪</span><span class="affiliate-country-name">İsveç</span></a>
-<a class="affiliate-country" data-region="PL" href="https://www.amazon.pl/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇵🇱</span><span class="affiliate-country-name">Polonya</span></a>
-<a class="affiliate-country" data-region="CA" href="https://www.amazon.ca/s?k=ntag215&tag=1337420050185-20" rel="sponsored noopener" target="_blank"><span class="affiliate-country-flag" aria-hidden="true">🇨🇦</span><span class="affiliate-country-name">Kanada</span></a>
+<p><a class="landing-cta-button" href="https://link.amazon/B0fw26EqT" rel="sponsored noopener" target="_blank">NTAG215 tag'lerini Amazon'da gör</a></p>
+
+<p class="affiliate-disclosure"><strong>Bilgilendirme:</strong> Bu bir Amazon ortaklık bağlantısı. Seni kendi ülkendeki Amazon mağazasına götürür ve üzerinden alışveriş yaparsan sana ek bir maliyeti olmadan küçük bir komisyon kazanıyorum.</p>
+
 </div>
 
-<p class="affiliate-disclosure"><strong>Bilgilendirme:</strong> Bunlar Amazon ortaklık bağlantıları. Birinden alışveriş yaparsan sana ek bir maliyeti olmadan küçük bir komisyon kazanıyorum.</p>
+</section>
+
+<section id="usb-nfc-reader" class="page-section">
+
+## USB NFC okuyucu mu lazım? OMNIKEY 5022 CL al
+
+iPad ve Mac'te NFC çipi yok, ayrıca Singapur'un EZ-Link'i ya da Pekin'in Yikatong'u gibi bazı ulaşım kartları iPhone'da hiçbir uygulamaya açılmıyor. Harici bir USB NFC okuyucu ikisini de çözer. **HID OMNIKEY 5022 CL**, NFC.cool'un harici okuyucu desteğini geliştirirken kullandığım okuyucu ve baştan sona kendim test ettiğim tek model. [USB okuyucuyla okumanın nasıl çalıştığını](/tr/blog/nfc-reading-ipad-mac/) burada anlattım.
+
+<div class="affiliate-store-box">
+
+<p><a class="landing-cta-button" href="https://amzn.to/3SNPi46" rel="sponsored noopener" target="_blank">OMNIKEY 5022 CL'yi Amazon'da gör</a></p>
+
+<p class="affiliate-disclosure"><strong>Bilgilendirme:</strong> Bu bir Amazon ortaklık bağlantısı. Seni kendi ülkendeki Amazon mağazasına götürür ve üzerinden alışveriş yaparsan sana ek bir maliyeti olmadan küçük bir komisyon kazanıyorum.</p>
 
 </div>
 
