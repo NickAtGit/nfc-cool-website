@@ -1051,6 +1051,8 @@
    border-radius: var(--radius-lg);
    padding: 1.5rem;
 }
+/* The inputs card ends under its last control instead of stretching to the results column. */
+.partner-calc-inputs { align-self: start; }
 .partner-slider + .partner-slider { margin-top: 1.25rem; }
 .partner-slider label {
    display: flex;
