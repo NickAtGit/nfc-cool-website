@@ -33,12 +33,12 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## كم يمكنك أن تربح؟
 
-<div class="partner-calc" data-partner-calc data-per-month="{price} في الشهر" data-per-year="{price} في السنة" data-breakdown="يدفع كل شخص {price}. بعد خصم ضريبة {tax} ({taxAmount}) ورسوم الشركاء لدى Creem البالغة ٢٪ ({fee})، يبقى {base}: ومنه تُحسب حصتك.">
+<div class="partner-calc" data-partner-calc>
 <div class="partner-calc-inputs">
 <div class="partner-slider"><label for="partner-country"><span>بلد البيع</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>الولايات المتحدة</option></select></div>
 <div class="partner-slider"><label for="partner-teams"><span>الفرق التي تجلبها</span><output for="partner-teams" data-out="teams" aria-live="polite">٢٠</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
 <div class="partner-slider"><label for="partner-people"><span>الأشخاص في كل فريق</span><output for="partner-people" data-out="people" aria-live="polite">٢٥</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
-<div class="partner-toggle" role="group" aria-label="كيف تدفع الفرق">
+<div class="segmented" role="group" aria-label="كيف تدفع الفرق">
 <button type="button" data-interval="year" aria-pressed="true">دفع سنوي</button>
 <button type="button" data-interval="month" aria-pressed="false">دفع شهري</button>
 </div>
@@ -46,7 +46,8 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <div class="partner-calc-results">
 <div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>من الصفقات التأسيسية (٤٠٪)</p><p class="partner-big" data-period="year">نحو <span data-out="found-year">$٩٬٨٠٠</span> في السنة</p><p data-period="month">نحو <span data-out="found-month">$٨١٧</span> في الشهر</p><p class="partner-fine" data-out="mixed" data-line="بقيت {left} صفقة تأسيسية فقط: وتُحسب الفرق الأخرى بنسبة {rate}٪." hidden></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>بعد انتهاء الصفقات التأسيسية (٢٠٪)</p><p class="partner-big" data-period="year">نحو <span data-out="std-year">$٤٬٩٠٠</span> في السنة</p><p data-period="month">نحو <span data-out="std-month">$٤٠٨</span> في الشهر</p></div>
-<p class="partner-fine"><span data-out="breakdown">يدفع كل شخص $٥٠ في السنة. بعد خصم ضريبة ٠٪ ($٠) ورسوم الشركاء لدى Creem البالغة ٢٪ ($١)، يبقى $٤٩: ومنه تُحسب حصتك.</span> الضريبة هي السعر القياسي لضريبة القيمة المضافة أو ضريبة المبيعات في البلد. تحسب Creem المبالغ الدقيقة وتدفع لك بتحويل بنكي مقابل ٧ USD أو EUR أو ١٪، أيهما أكبر. المدفوعات في App Store أو Google Play ليست جزءًا من البرنامج.</p>
+<div class="partner-result partner-breakdown"><p data-out="b-heading" data-year="مقعد واحد في الفريق، في السنة" data-month="مقعد واحد في الفريق، في الشهر">مقعد واحد في الفريق، في السنة</p><dl><div><dt>السعر</dt><dd data-out="b-price">$٥٠٫٠٠</dd></div><div data-tax-row hidden><dt><span data-label="tax" data-line="الضريبة ({n})">الضريبة (٠٪)</span></dt><dd data-out="b-tax">−$٠٫٠٠</dd></div><div><dt>رسوم الشركاء لدى Creem (٢٪)</dt><dd data-out="b-fee">−$١٫٠٠</dd></div><div class="is-total"><dt>المبلغ الذي تُحسب منه حصتك</dt><dd data-out="b-base">$٤٩٫٠٠</dd></div><div><dt><span data-label="std" data-line="حصتك بنسبة {n}">حصتك بنسبة ٢٠٪</span></dt><dd data-out="b-std">$٩٫٨٠</dd></div><div data-founding-only><dt><span data-label="found" data-line="في صفقة تأسيسية، {n}">في صفقة تأسيسية، ٤٠٪</span></dt><dd data-out="b-found">$١٩٫٦٠</dd></div></dl></div>
+<p class="partner-fine">الضريبة هي السعر القياسي لضريبة القيمة المضافة أو ضريبة المبيعات في البلد. تحسب Creem المبالغ الدقيقة وتدفع لك بتحويل بنكي مقابل ٧ USD أو EUR أو ١٪، أيهما أكبر. المدفوعات في App Store أو Google Play ليست جزءًا من البرنامج.</p>
 </div>
 </div>
 

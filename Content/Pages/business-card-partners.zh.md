@@ -33,12 +33,12 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## 你能赚多少？
 
-<div class="partner-calc" data-partner-calc data-per-month="每月 {price}" data-per-year="每年 {price}" data-breakdown="每人的价格是{price}。扣除 {tax} 的税（{taxAmount}）和 Creem 2% 的合作伙伴费用（{fee}）后剩下 {base}，你的分成按这个金额计算。">
+<div class="partner-calc" data-partner-calc>
 <div class="partner-calc-inputs">
 <div class="partner-slider"><label for="partner-country"><span>销售国家</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>美国</option></select></div>
 <div class="partner-slider"><label for="partner-teams"><span>你带来的团队</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
 <div class="partner-slider"><label for="partner-people"><span>每个团队的人数</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
-<div class="partner-toggle" role="group" aria-label="团队的付费方式">
+<div class="segmented" role="group" aria-label="团队的付费方式">
 <button type="button" data-interval="year" aria-pressed="true">按年付费</button>
 <button type="button" data-interval="month" aria-pressed="false">按月付费</button>
 </div>
@@ -46,7 +46,8 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <div class="partner-calc-results">
 <div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>创始名额（40%）</p><p class="partner-big" data-period="year">每年约 <span data-out="found-year">$9,800</span></p><p data-period="month">每月约 <span data-out="found-month">$817</span></p><p class="partner-fine" data-out="mixed" data-line="创始名额只剩 {left} 个：其余团队按 {rate}% 计算。" hidden></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>创始名额用完之后（20%）</p><p class="partner-big" data-period="year">每年约 <span data-out="std-year">$4,900</span></p><p data-period="month">每月约 <span data-out="std-month">$408</span></p></div>
-<p class="partner-fine"><span data-out="breakdown">每人的价格是每年 $50。扣除 0% 的税（$0）和 Creem 2% 的合作伙伴费用（$1）后剩下 $49，你的分成按这个金额计算。</span> 税率按该国标准增值税或销售税税率计算。Creem 计算确切金额，并通过银行转账付款给你，手续费为 7 USD 或 EUR 与 1% 中较高者。App Store 或 Google Play 里的付款不计入本计划。</p>
+<div class="partner-result partner-breakdown"><p data-out="b-heading" data-year="每个团队席位，每年" data-month="每个团队席位，每月">每个团队席位，每年</p><dl><div><dt>价格</dt><dd data-out="b-price">$50.00</dd></div><div data-tax-row hidden><dt><span data-label="tax" data-line="税（{n}）">税（0%）</span></dt><dd data-out="b-tax">−$0.00</dd></div><div><dt>Creem 合作伙伴费用（2%）</dt><dd data-out="b-fee">−$1.00</dd></div><div class="is-total"><dt>你的分成基数</dt><dd data-out="b-base">$49.00</dd></div><div><dt><span data-label="std" data-line="你的分成（{n}）">你的分成（20%）</span></dt><dd data-out="b-std">$9.80</dd></div><div data-founding-only><dt><span data-label="found" data-line="创始名额（{n}）">创始名额（40%）</span></dt><dd data-out="b-found">$19.60</dd></div></dl></div>
+<p class="partner-fine">税率按该国标准增值税或销售税税率计算。Creem 计算确切金额，并通过银行转账付款给你，手续费为 7 USD 或 EUR 与 1% 中较高者。App Store 或 Google Play 里的付款不计入本计划。</p>
 </div>
 </div>
 

@@ -33,12 +33,12 @@ Consiglia NFC.cool Business Card for Teams alle aziende con cui lavori e guadagn
 
 ## Quanto potresti guadagnare?
 
-<div class="partner-calc" data-partner-calc data-per-month="{price} al mese" data-per-year="{price} all'anno" data-breakdown="Ogni persona paga {price}. Tolte le tasse ({tax}, {taxAmount}) e la commissione partner di Creem del 2% ({fee}), restano {base}: la tua quota si calcola su questo importo.">
+<div class="partner-calc" data-partner-calc>
 <div class="partner-calc-inputs">
 <div class="partner-slider"><label for="partner-country"><span>Paese di vendita</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>Stati Uniti</option></select></div>
 <div class="partner-slider"><label for="partner-teams"><span>Team che porti</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
 <div class="partner-slider"><label for="partner-people"><span>Persone per team</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
-<div class="partner-toggle" role="group" aria-label="Come pagano i team">
+<div class="segmented" role="group" aria-label="Come pagano i team">
 <button type="button" data-interval="year" aria-pressed="true">Pagamento annuale</button>
 <button type="button" data-interval="month" aria-pressed="false">Pagamento mensile</button>
 </div>
@@ -46,7 +46,8 @@ Consiglia NFC.cool Business Card for Teams alle aziende con cui lavori e guadagn
 <div class="partner-calc-results">
 <div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Con gli accordi fondatori (40%)</p><p class="partner-big" data-period="year">circa <span data-out="found-year">$9.800</span> all'anno</p><p data-period="month">circa <span data-out="found-month">$817</span> al mese</p><p class="partner-fine" data-out="mixed" data-line="Restano solo {left} accordi fondatori: gli altri team contano al {rate}%." hidden></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Dopo gli accordi fondatori (20%)</p><p class="partner-big" data-period="year">circa <span data-out="std-year">$4.900</span> all'anno</p><p data-period="month">circa <span data-out="std-month">$408</span> al mese</p></div>
-<p class="partner-fine"><span data-out="breakdown">Ogni persona paga $50 all'anno. Tolte le tasse (0%, $0) e la commissione partner di Creem del 2% ($1), restano $49: la tua quota si calcola su questo importo.</span> Le tasse seguono l'aliquota ordinaria di IVA o imposta sulle vendite del paese. Creem calcola gli importi esatti e ti paga con bonifico bancario per 7 USD o EUR o l'1%, il valore più alto. I pagamenti nell'App Store o su Google Play non fanno parte del programma.</p>
+<div class="partner-result partner-breakdown"><p data-out="b-heading" data-year="Un posto nel team, all'anno" data-month="Un posto nel team, al mese">Un posto nel team, all'anno</p><dl><div><dt>Prezzo</dt><dd data-out="b-price">$50,00</dd></div><div data-tax-row hidden><dt><span data-label="tax" data-line="Tasse ({n})">Tasse (0%)</span></dt><dd data-out="b-tax">−$0,00</dd></div><div><dt>Commissione partner di Creem (2%)</dt><dd data-out="b-fee">−$1,00</dd></div><div class="is-total"><dt>Base della tua quota</dt><dd data-out="b-base">$49,00</dd></div><div><dt><span data-label="std" data-line="La tua quota al {n}">La tua quota al 20%</span></dt><dd data-out="b-std">$9,80</dd></div><div data-founding-only><dt><span data-label="found" data-line="Con un accordo fondatore, {n}">Con un accordo fondatore, 40%</span></dt><dd data-out="b-found">$19,60</dd></div></dl></div>
+<p class="partner-fine">Le tasse seguono l'aliquota ordinaria di IVA o imposta sulle vendite del paese. Creem calcola gli importi esatti e ti paga con bonifico bancario per 7 USD o EUR o l'1%, il valore più alto. I pagamenti nell'App Store o su Google Play non fanno parte del programma.</p>
 </div>
 </div>
 

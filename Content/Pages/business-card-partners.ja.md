@@ -33,12 +33,12 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## どれくらい稼げる？
 
-<div class="partner-calc" data-partner-calc data-per-month="月{price}" data-per-year="年{price}" data-breakdown="1人あたりの支払いは{price}です。税金{tax}（{taxAmount}）とCreemのパートナー手数料2%（{fee}）を差し引いた{base}から、あなたの取り分が計算されます。">
+<div class="partner-calc" data-partner-calc>
 <div class="partner-calc-inputs">
 <div class="partner-slider"><label for="partner-country"><span>販売する国</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>アメリカ合衆国</option></select></div>
 <div class="partner-slider"><label for="partner-teams"><span>紹介するチーム数</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
 <div class="partner-slider"><label for="partner-people"><span>1チームの人数</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
-<div class="partner-toggle" role="group" aria-label="チームの支払い方法">
+<div class="segmented" role="group" aria-label="チームの支払い方法">
 <button type="button" data-interval="year" aria-pressed="true">年払い</button>
 <button type="button" data-interval="month" aria-pressed="false">月払い</button>
 </div>
@@ -46,7 +46,8 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <div class="partner-calc-results">
 <div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>創業ディールの場合（40%）</p><p class="partner-big" data-period="year">年約<span data-out="found-year">$9,800</span></p><p data-period="month">月約<span data-out="found-month">$817</span></p><p class="partner-fine" data-out="mixed" data-line="創業ディールは残り{left}件です。ほかのチームは{rate}%で計算しています。" hidden></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>創業ディールの終了後（20%）</p><p class="partner-big" data-period="year">年約<span data-out="std-year">$4,900</span></p><p data-period="month">月約<span data-out="std-month">$408</span></p></div>
-<p class="partner-fine"><span data-out="breakdown">1人あたりの支払いは年$50です。税金0%（$0）とCreemのパートナー手数料2%（$1）を差し引いた$49から、あなたの取り分が計算されます。</span> 税金は各国の標準的な付加価値税または売上税の税率です。Creemが正確な金額を計算し、銀行振込で支払います。振込手数料は7 USDまたはEURと1%のいずれか高い方です。App StoreやGoogle Playでの支払いはプログラムの対象外です。</p>
+<div class="partner-result partner-breakdown"><p data-out="b-heading" data-year="チーム1席あたり・年額" data-month="チーム1席あたり・月額">チーム1席あたり・年額</p><dl><div><dt>価格</dt><dd data-out="b-price">$50.00</dd></div><div data-tax-row hidden><dt><span data-label="tax" data-line="税金（{n}）">税金（0%）</span></dt><dd data-out="b-tax">−$0.00</dd></div><div><dt>Creemのパートナー手数料（2%）</dt><dd data-out="b-fee">−$1.00</dd></div><div class="is-total"><dt>取り分の計算基準</dt><dd data-out="b-base">$49.00</dd></div><div><dt><span data-label="std" data-line="あなたの取り分（{n}）">あなたの取り分（20%）</span></dt><dd data-out="b-std">$9.80</dd></div><div data-founding-only><dt><span data-label="found" data-line="創業ディールの場合（{n}）">創業ディールの場合（40%）</span></dt><dd data-out="b-found">$19.60</dd></div></dl></div>
+<p class="partner-fine">税金は各国の標準的な付加価値税または売上税の税率です。Creemが正確な金額を計算し、銀行振込で支払います。振込手数料は7 USDまたはEURと1%のいずれか高い方です。App StoreやGoogle Playでの支払いはプログラムの対象外です。</p>
 </div>
 </div>
 

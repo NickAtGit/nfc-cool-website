@@ -33,12 +33,12 @@ Birlikte çalıştığın işletmelere NFC.cool Business Card for Teams'i öner,
 
 ## Ne kadar kazanabilirsin?
 
-<div class="partner-calc" data-partner-calc data-per-month="ayda {price}" data-per-year="yılda {price}" data-breakdown="Her kişi {price} öder. {tax} vergi ({taxAmount}) ve Creem'in yüzde 2'lik iş ortağı ücreti ({fee}) düşülünce {base} kalır: payın bu tutar üzerinden hesaplanır.">
+<div class="partner-calc" data-partner-calc>
 <div class="partner-calc-inputs">
 <div class="partner-slider"><label for="partner-country"><span>Satış ülkesi</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>Amerika Birleşik Devletleri</option></select></div>
 <div class="partner-slider"><label for="partner-teams"><span>Getirdiğin ekipler</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
 <div class="partner-slider"><label for="partner-people"><span>Ekip başına kişi</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
-<div class="partner-toggle" role="group" aria-label="Ekipler nasıl öder">
+<div class="segmented" role="group" aria-label="Ekipler nasıl öder">
 <button type="button" data-interval="year" aria-pressed="true">Yıllık ödeme</button>
 <button type="button" data-interval="month" aria-pressed="false">Aylık ödeme</button>
 </div>
@@ -46,7 +46,8 @@ Birlikte çalıştığın işletmelere NFC.cool Business Card for Teams'i öner,
 <div class="partner-calc-results">
 <div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Kurucu anlaşmalarda (yüzde 40)</p><p class="partner-big" data-period="year">yılda yaklaşık <span data-out="found-year">$9.800</span></p><p data-period="month">ayda yaklaşık <span data-out="found-month">$817</span></p><p class="partner-fine" data-out="mixed" data-line="Yalnızca {left} kurucu anlaşma kaldı: diğer ekipler yüzde {rate} ile hesaplanır." hidden></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Kurucu anlaşmalardan sonra (yüzde 20)</p><p class="partner-big" data-period="year">yılda yaklaşık <span data-out="std-year">$4.900</span></p><p data-period="month">ayda yaklaşık <span data-out="std-month">$408</span></p></div>
-<p class="partner-fine"><span data-out="breakdown">Her kişi yılda $50 öder. %0 vergi ($0) ve Creem'in yüzde 2'lik iş ortağı ücreti ($1) düşülünce $49 kalır: payın bu tutar üzerinden hesaplanır.</span> Vergi, ülkenin standart KDV veya satış vergisi oranıdır. Creem kesin tutarları hesaplar ve sana banka havalesiyle öder; ücret 7 USD veya EUR ya da yüzde 1'dir, hangisi yüksekse. App Store ya da Google Play üzerinden yapılan ödemeler programa dahil değildir.</p>
+<div class="partner-result partner-breakdown"><p data-out="b-heading" data-year="Ekipte bir koltuk, yıllık" data-month="Ekipte bir koltuk, aylık">Ekipte bir koltuk, yıllık</p><dl><div><dt>Fiyat</dt><dd data-out="b-price">$50,00</dd></div><div data-tax-row hidden><dt><span data-label="tax" data-line="Vergi ({n})">Vergi (%0)</span></dt><dd data-out="b-tax">−$0,00</dd></div><div><dt>Creem iş ortağı ücreti (yüzde 2)</dt><dd data-out="b-fee">−$1,00</dd></div><div class="is-total"><dt>Payının hesaplandığı tutar</dt><dd data-out="b-base">$49,00</dd></div><div><dt><span data-label="std" data-line="Payın, {n}">Payın, %20</span></dt><dd data-out="b-std">$9,80</dd></div><div data-founding-only><dt><span data-label="found" data-line="Kurucu anlaşmada, {n}">Kurucu anlaşmada, %40</span></dt><dd data-out="b-found">$19,60</dd></div></dl></div>
+<p class="partner-fine">Vergi, ülkenin standart KDV veya satış vergisi oranıdır. Creem kesin tutarları hesaplar ve sana banka havalesiyle öder; ücret 7 USD veya EUR ya da yüzde 1'dir, hangisi yüksekse. App Store ya da Google Play üzerinden yapılan ödemeler programa dahil değildir.</p>
 </div>
 </div>
 

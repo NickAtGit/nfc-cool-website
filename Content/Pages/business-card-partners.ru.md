@@ -33,12 +33,12 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## Сколько можно заработать?
 
-<div class="partner-calc" data-partner-calc data-per-month="{price} в месяц" data-per-year="{price} в год" data-breakdown="Каждый человек платит {price}. После вычета налога {tax} ({taxAmount}) и партнёрской комиссии Creem 2% ({fee}) остаётся {base}: твоя доля считается от этой суммы.">
+<div class="partner-calc" data-partner-calc>
 <div class="partner-calc-inputs">
 <div class="partner-slider"><label for="partner-country"><span>Страна продажи</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>США</option></select></div>
 <div class="partner-slider"><label for="partner-teams"><span>Сколько команд ты приводишь</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
 <div class="partner-slider"><label for="partner-people"><span>Человек в команде</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
-<div class="partner-toggle" role="group" aria-label="Как платят команды">
+<div class="segmented" role="group" aria-label="Как платят команды">
 <button type="button" data-interval="year" aria-pressed="true">За год</button>
 <button type="button" data-interval="month" aria-pressed="false">Помесячно</button>
 </div>
@@ -46,7 +46,8 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 <div class="partner-calc-results">
 <div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Со стартовых сделок (40%)</p><p class="partner-big" data-period="year">около <span data-out="found-year">$9&nbsp;800</span> в год</p><p data-period="month">около <span data-out="found-month">$817</span> в месяц</p><p class="partner-fine" data-out="mixed" data-line="Стартовых сделок осталось: {left}. Остальные команды считаются по {rate}%." hidden></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>После стартовых сделок (20%)</p><p class="partner-big" data-period="year">около <span data-out="std-year">$4&nbsp;900</span> в год</p><p data-period="month">около <span data-out="std-month">$408</span> в месяц</p></div>
-<p class="partner-fine"><span data-out="breakdown">Каждый человек платит $50 в год. После вычета налога 0% ($0) и партнёрской комиссии Creem 2% ($1) остаётся $49: твоя доля считается от этой суммы.</span> Налог считается по стандартной ставке НДС или налога с продаж в стране. Creem рассчитывает точные суммы и выплачивает их банковским переводом за 7 USD или EUR либо 1%, в зависимости от того, что больше. Платежи в App Store и Google Play в программу не входят.</p>
+<div class="partner-result partner-breakdown"><p data-out="b-heading" data-year="Одно место в команде, в год" data-month="Одно место в команде, в месяц">Одно место в команде, в год</p><dl><div><dt>Цена</dt><dd data-out="b-price">$50,00</dd></div><div data-tax-row hidden><dt><span data-label="tax" data-line="Налог ({n})">Налог (0%)</span></dt><dd data-out="b-tax">−$0,00</dd></div><div><dt>Партнёрская комиссия Creem (2%)</dt><dd data-out="b-fee">−$1,00</dd></div><div class="is-total"><dt>База для твоей доли</dt><dd data-out="b-base">$49,00</dd></div><div><dt><span data-label="std" data-line="Твоя доля, {n}">Твоя доля, 20%</span></dt><dd data-out="b-std">$9,80</dd></div><div data-founding-only><dt><span data-label="found" data-line="Со стартовой сделки, {n}">Со стартовой сделки, 40%</span></dt><dd data-out="b-found">$19,60</dd></div></dl></div>
+<p class="partner-fine">Налог считается по стандартной ставке НДС или налога с продаж в стране. Creem рассчитывает точные суммы и выплачивает их банковским переводом за 7 USD или EUR либо 1%, в зависимости от того, что больше. Платежи в App Store и Google Play в программу не входят.</p>
 </div>
 </div>
 

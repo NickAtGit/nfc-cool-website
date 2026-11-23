@@ -31,6 +31,10 @@
    --radius-md: 10px;
    --radius-xl: 32px;
    --radius-pill: 999px;
+   /* The design kit's control radius and lift (nfc-cool-design src/tokens.css), for the kit's
+      segmented control (marketing.css .segmented). */
+   --radius-control: var(--radius-pill);
+   --elev-0: 0 1px 3px var(--color-shadow);
 }
 
 /* ============================================================

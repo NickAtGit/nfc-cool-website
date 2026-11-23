@@ -33,12 +33,12 @@ Recommandez NFC.cool Business Card for Teams aux entreprises avec qui vous trava
 
 ## Combien pouvez-vous gagner ?
 
-<div class="partner-calc" data-partner-calc data-per-month="{price} par mois" data-per-year="{price} par an" data-breakdown="Chaque personne paie {price}. Moins {tax} de taxes ({taxAmount}) et les frais partenaire de Creem de 2&nbsp;% ({fee}), il reste {base}&nbsp;: votre part est calculée sur ce montant.">
+<div class="partner-calc" data-partner-calc>
 <div class="partner-calc-inputs">
 <div class="partner-slider"><label for="partner-country"><span>Pays de vente</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>États-Unis</option></select></div>
 <div class="partner-slider"><label for="partner-teams"><span>Équipes amenées</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
 <div class="partner-slider"><label for="partner-people"><span>Personnes par équipe</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
-<div class="partner-toggle" role="group" aria-label="Comment les équipes paient">
+<div class="segmented" role="group" aria-label="Comment les équipes paient">
 <button type="button" data-interval="year" aria-pressed="true">À l'année</button>
 <button type="button" data-interval="month" aria-pressed="false">Au mois</button>
 </div>
@@ -46,7 +46,8 @@ Recommandez NFC.cool Business Card for Teams aux entreprises avec qui vous trava
 <div class="partner-calc-results">
 <div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Sur les accords fondateurs (40 %)</p><p class="partner-big" data-period="year">environ <span data-out="found-year">9 800&nbsp;$</span> par an</p><p data-period="month">environ <span data-out="found-month">817&nbsp;$</span> par mois</p><p class="partner-fine" data-out="mixed" data-line="Il ne reste que {left} accords fondateurs&nbsp;: les autres équipes comptent à {rate}&nbsp;%." hidden></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Après les accords fondateurs (20 %)</p><p class="partner-big" data-period="year">environ <span data-out="std-year">4 900&nbsp;$</span> par an</p><p data-period="month">environ <span data-out="std-month">408&nbsp;$</span> par mois</p></div>
-<p class="partner-fine"><span data-out="breakdown">Chaque personne paie 50&nbsp;$ par an. Moins 0&nbsp;% de taxes (0&nbsp;$) et les frais partenaire de Creem de 2&nbsp;% (1&nbsp;$), il reste 49&nbsp;$&nbsp;: votre part est calculée sur ce montant.</span> La taxe est le taux normal de TVA ou de taxe sur les ventes du pays. Creem calcule les montants exacts et vous paie par virement bancaire, pour 7 USD ou EUR ou 1&nbsp;%, le plus élevé des deux. Les paiements dans l'App Store ou sur Google Play ne font pas partie du programme.</p>
+<div class="partner-result partner-breakdown"><p data-out="b-heading" data-year="Un siège d'équipe, par an" data-month="Un siège d'équipe, par mois">Un siège d'équipe, par an</p><dl><div><dt>Prix</dt><dd data-out="b-price">50,00&nbsp;$</dd></div><div data-tax-row hidden><dt><span data-label="tax" data-line="Taxes ({n})">Taxes (0&nbsp;%)</span></dt><dd data-out="b-tax">−0,00&nbsp;$</dd></div><div><dt>Frais partenaire de Creem (2&nbsp;%)</dt><dd data-out="b-fee">−1,00&nbsp;$</dd></div><div class="is-total"><dt>Base de votre part</dt><dd data-out="b-base">49,00&nbsp;$</dd></div><div><dt><span data-label="std" data-line="Votre part à {n}">Votre part à 20&nbsp;%</span></dt><dd data-out="b-std">9,80&nbsp;$</dd></div><div data-founding-only><dt><span data-label="found" data-line="Sur un accord fondateur, {n}">Sur un accord fondateur, 40&nbsp;%</span></dt><dd data-out="b-found">19,60&nbsp;$</dd></div></dl></div>
+<p class="partner-fine">La taxe est le taux normal de TVA ou de taxe sur les ventes du pays. Creem calcule les montants exacts et vous paie par virement bancaire, pour 7 USD ou EUR ou 1&nbsp;%, le plus élevé des deux. Les paiements dans l'App Store ou sur Google Play ne font pas partie du programme.</p>
 </div>
 </div>
 

@@ -1062,22 +1062,52 @@
 .partner-slider input[type="range"] { width: 100%; min-height: 44px; accent-color: var(--color-link); }
 /* The country of sale: the site's dropdown (.nfc-reader-select), sitting under its label like a slider. */
 .partner-calc .nfc-reader-select { margin-top: 0; }
-.partner-toggle { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
-.partner-toggle button {
-   font: inherit;
-   font-weight: 600;
-   min-height: 44px;
-   padding: 0.5rem 1.25rem;
-   border-radius: 999px;
-   border: 1.5px solid var(--color-link);
-   background: transparent;
-   color: var(--color-link);
-   cursor: pointer;
+/* The design kit's segmented control (nfc-cool-design .nav-theme-switch, the console's .segmented):
+   a track with a hair of inset, the chosen segment lifted onto the card colour. */
+.segmented {
+   display: inline-grid;
+   grid-auto-flow: column;
+   grid-auto-columns: 1fr;
+   gap: 3px;
+   padding: 3px;
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-control);
+   background: var(--color-bg-alt);
 }
-.partner-toggle button[aria-pressed="true"] { background: var(--color-link); color: var(--color-bg); }
+.segmented button {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 38px;
+   padding: 6px 16px;
+   border: 0;
+   border-radius: var(--radius-control);
+   background: transparent;
+   color: var(--color-text-muted);
+   font: inherit;
+   font-size: 0.875rem;
+   font-weight: 600;
+   cursor: pointer;
+   transition: color var(--transition), background var(--transition);
+}
+@media (hover: hover) {
+   .segmented button:hover { color: var(--color-text); }
+}
+.segmented button[aria-pressed="true"] { background: var(--color-bg-card); color: var(--color-text); box-shadow: var(--elev-0); }
+.segmented button:focus-visible { outline: 2px solid var(--color-link); outline-offset: 1px; }
+/* How teams pay: the whole width of the calculator's card. */
+.partner-calc .segmented { display: grid; margin-top: 1.25rem; }
 .partner-calc-results { display: grid; gap: 1rem; align-content: start; }
 .partner-result p { margin: 0; max-width: none; }
 .partner-result p:first-child { font-weight: 600; margin-bottom: 0.25rem; }
 .partner-result.is-founding { border-color: var(--color-link); }
 .partner-big { font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; }
 .partner-fine { font-size: 0.8125rem; color: var(--color-text-secondary); max-width: none; }
+/* One person's payment, line by line: the price, what comes off it, and the share at each rate. */
+.partner-breakdown dl { margin: 0.5rem 0 0; }
+.partner-breakdown dl > div { display: flex; justify-content: space-between; gap: 1rem; padding: 0.3rem 0; }
+.partner-breakdown dl > div[hidden] { display: none; }
+.partner-breakdown dt { color: var(--color-text-secondary); }
+.partner-breakdown dd { margin: 0; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.partner-breakdown .is-total { border-top: 1px solid var(--color-border); margin-top: 0.25rem; padding-top: 0.55rem; }
+.partner-breakdown .is-total dt, .partner-breakdown .is-total dd { color: var(--color-text); font-weight: 600; }

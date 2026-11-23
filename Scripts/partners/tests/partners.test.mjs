@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
-import { breakdownLine, countryOptions, DEFAULT_COUNTRY, earnings, foundingEarnings, foundingLine, foundingSplit, foundingState, hideFoundingOffers, leadWith, localNumber, money, percent, rateText, ratesFrom, seatShare, TAX } from '../../../Content/StaticFiles/partners/partners.mjs';
+import { countryOptions, creemCurrency, DEFAULT_COUNTRY, exactMoney, earnings, foundingEarnings, foundingLine, foundingSplit, foundingState, hideFoundingOffers, leadWith, localNumber, money, percent, rateText, ratesFrom, seatShare, TAX } from '../../../Content/StaticFiles/partners/partners.mjs';
 import { countryFromLanguage, priceFor } from '../../../Content/StaticFiles/prices/prices.mjs';
 
 const data = JSON.parse(readFileSync(
@@ -72,9 +72,30 @@ test("percent: the page's own percent and decimal mark", () => {
   assert.equal(percent(data, 20, '{n}٪', 'ar'), '٢٠٪');
 });
 
-test('breakdownLine fills every placeholder', () => {
-  assert.equal(breakdownLine('{price}: {tax} ({taxAmount}), {fee}, {base} / {base}',
-    { price: '$50 a year', tax: '0%', taxAmount: '$0', fee: '$1', base: '$49' }), '$50 a year: 0% ($0), $1, $49 / $49');
+test('Creem charges in USD where the site prices in dollars, in EUR everywhere else', () => {
+  assert.equal(creemCurrency(data, 'US'), 'usd');
+  assert.equal(creemCurrency(data, 'RO'), 'usd');
+  assert.equal(creemCurrency(data, 'BR'), 'usd');
+  assert.equal(creemCurrency(data, 'DE'), 'eur');
+  assert.equal(creemCurrency(data, 'GB'), 'eur');
+});
+
+test('exactMoney keeps the cents, in the page language', () => {
+  assert.equal(exactMoney(data, 50, 'usd', 'en'), '$50.00');
+  assert.equal(exactMoney(data, 7.98, 'eur', 'de'), '7,98\u00A0€');
+  assert.equal(exactMoney(data, 9.8, 'usd', 'ar'), '$٩٫٨٠');
+});
+
+// docs.creem.io/merchant-of-record/supported-countries: no purchases from these.
+const CREEM_BLOCKED = 'AF AQ BY MM BI CF TD CU CD CG ER HT IR IQ LY ML AN NI KP RU SO SS SD SY VE YE ZW'.split(' ');
+
+test('the list holds no country Creem blocks, and every rate is a percent', () => {
+  for (const code of CREEM_BLOCKED) assert.ok(!(code in TAX), `${code} is blocked by Creem`);
+  for (const [code, rate] of Object.entries(TAX)) {
+    assert.match(code, /^[A-Z]{2}$/);
+    assert.ok(rate >= 0 && rate < 30, `${code}: ${rate}`);
+  }
+  assert.ok(Object.keys(TAX).length > 120);
 });
 
 test('foundingLine: the count while deals are left', () => {
@@ -128,8 +149,6 @@ test('every locale page carries the strings the script fills in', () => {
     const attr = name => (text.match(new RegExp(`${name}="([^"]*)"`)) || [])[1] || '';
     assert.ok(attr('data-line').includes('{left}') && attr('data-line').includes('{total}'), `${file}: data-line`);
     assert.ok(/class="partner-result is-founding" data-founding-only/.test(text), `${file}: the 40% column can be hidden`);
-    assert.ok(attr('data-per-month').includes('{price}'), `${file}: data-per-month`);
-    assert.ok(attr('data-per-year').includes('{price}'), `${file}: data-per-year`);
     // The built sentence names no total: Nico can raise it, and only the live line knows it.
     const fallback = (text.match(/data-founding[^>]*>([^<]*)</) || [])[1] || '';
     assert.ok(fallback && !/[0-9\u0660-\u0669]/.test(fallback.replace(/[24]0|[٢٤]٠/g, '')), `${file}: the fallback names no number`);
@@ -144,9 +163,20 @@ test('every locale page carries the strings the script fills in', () => {
     assert.ok(text.includes('min="1" max="50" value="20"'), `${file}: 20 teams to start`);
     assert.ok(text.includes('min="2" max="100" value="25"'), `${file}: 25 people to start`);
     assert.ok(/<select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>[^<]+<\/option><\/select>/.test(text), `${file}: the country of sale, the United States`);
-    const breakdown = attr('data-breakdown');
-    for (const key of ['price', 'tax', 'taxAmount', 'fee', 'base']) assert.ok(breakdown.includes(`{${key}}`), `${file}: data-breakdown has {${key}}`);
-    assert.ok(/<span data-out="breakdown">[^<]+<\/span>/.test(text), `${file}: the built breakdown`);
+    // One person's payment as a table: price, tax, Creem's fee, the base, the share at 20% and 40%.
+    for (const key of ['b-price', 'b-tax', 'b-fee', 'b-base', 'b-std', 'b-found']) {
+      assert.ok(new RegExp(`<dd data-out="${key}">[^<]+</dd>`).test(text), `${file}: ${key}`);
+    }
+    assert.ok(/data-out="b-heading" data-year="[^"]+" data-month="[^"]+"/.test(text), `${file}: the table's heading for each period`);
+    for (const key of ['tax', 'std', 'found']) {
+      assert.ok(new RegExp(`data-label="${key}" data-line="[^"]*\\{n\\}[^"]*"`).test(text), `${file}: ${key} label`);
+    }
+    assert.ok(/<div data-founding-only><dt>/.test(text), `${file}: the 40% row hides with the founding offers`);
+    // The United States starts with no tax, so its row starts hidden.
+    assert.ok(/<div data-tax-row hidden><dt><span data-label="tax"/.test(text), `${file}: the tax row starts hidden`);
+    // How teams pay is the kit's segmented control.
+    assert.ok(text.includes('<div class="segmented" role="group"'), `${file}: the segmented control`);
+    assert.ok(!text.includes('partner-toggle'), `${file}: no old toggle`);
     const mixed = (text.match(/data-out="mixed" data-line="([^"]*)" hidden>/) || [])[1] || '';
     assert.ok(mixed.includes('{left}') && mixed.includes('{rate}'), `${file}: the founding note`);
     // No sentence between the heading and the calculator.

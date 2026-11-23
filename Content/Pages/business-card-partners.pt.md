@@ -33,12 +33,12 @@ Recomende o NFC.cool Business Card for Teams às empresas com quem trabalha e ga
 
 ## Quanto poderia ganhar?
 
-<div class="partner-calc" data-partner-calc data-per-month="{price} por mês" data-per-year="{price} por ano" data-breakdown="Cada pessoa paga {price}. Descontados {tax} de impostos ({taxAmount}) e a taxa de parceiro de 2% da Creem ({fee}), ficam {base}: a sua parte é calculada sobre esse valor.">
+<div class="partner-calc" data-partner-calc>
 <div class="partner-calc-inputs">
 <div class="partner-slider"><label for="partner-country"><span>País da venda</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>Estados Unidos</option></select></div>
 <div class="partner-slider"><label for="partner-teams"><span>Equipas que traz</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
 <div class="partner-slider"><label for="partner-people"><span>Pessoas por equipa</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
-<div class="partner-toggle" role="group" aria-label="Como as equipas pagam">
+<div class="segmented" role="group" aria-label="Como as equipas pagam">
 <button type="button" data-interval="year" aria-pressed="true">Pagamento anual</button>
 <button type="button" data-interval="month" aria-pressed="false">Pagamento mensal</button>
 </div>
@@ -46,7 +46,8 @@ Recomende o NFC.cool Business Card for Teams às empresas com quem trabalha e ga
 <div class="partner-calc-results">
 <div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Com acordos fundadores (40%)</p><p class="partner-big" data-period="year">cerca de <span data-out="found-year">$9.800</span> por ano</p><p data-period="month">cerca de <span data-out="found-month">$817</span> por mês</p><p class="partner-fine" data-out="mixed" data-line="Restam apenas {left} acordos fundadores: as outras equipas contam a {rate}%." hidden></p></div>
 <div class="partner-result" aria-live="polite" aria-atomic="true"><p>Depois dos acordos fundadores (20%)</p><p class="partner-big" data-period="year">cerca de <span data-out="std-year">$4.900</span> por ano</p><p data-period="month">cerca de <span data-out="std-month">$408</span> por mês</p></div>
-<p class="partner-fine"><span data-out="breakdown">Cada pessoa paga $50 por ano. Descontados 0% de impostos ($0) e a taxa de parceiro de 2% da Creem ($1), ficam $49: a sua parte é calculada sobre esse valor.</span> O imposto é a taxa normal de IVA ou de imposto sobre vendas do país. A Creem calcula os valores exatos e paga-lhe por transferência bancária, por 7 USD ou EUR ou 1%, o que for maior. Os pagamentos na App Store ou no Google Play não fazem parte do programa.</p>
+<div class="partner-result partner-breakdown"><p data-out="b-heading" data-year="Um lugar na equipa, por ano" data-month="Um lugar na equipa, por mês">Um lugar na equipa, por ano</p><dl><div><dt>Preço</dt><dd data-out="b-price">$50,00</dd></div><div data-tax-row hidden><dt><span data-label="tax" data-line="Impostos ({n})">Impostos (0%)</span></dt><dd data-out="b-tax">−$0,00</dd></div><div><dt>Taxa de parceiro da Creem (2%)</dt><dd data-out="b-fee">−$1,00</dd></div><div class="is-total"><dt>Base da sua parte</dt><dd data-out="b-base">$49,00</dd></div><div><dt><span data-label="std" data-line="A sua parte a {n}">A sua parte a 20%</span></dt><dd data-out="b-std">$9,80</dd></div><div data-founding-only><dt><span data-label="found" data-line="Num acordo fundador, {n}">Num acordo fundador, 40%</span></dt><dd data-out="b-found">$19,60</dd></div></dl></div>
+<p class="partner-fine">O imposto é a taxa normal de IVA ou de imposto sobre vendas do país. A Creem calcula os valores exatos e paga-lhe por transferência bancária, por 7 USD ou EUR ou 1%, o que for maior. Os pagamentos na App Store ou no Google Play não fazem parte do programa.</p>
 </div>
 </div>
 

@@ -18,15 +18,49 @@ const FOUNDING = 0.4;
 // before the share.
 export const PARTNER_FEE = 0.02;
 
-// The countries the calculator offers and their standard VAT or sales tax rate, in percent. A copy
-// of the service's web/partners/vat.py (STANDARD_RATES): change the two together. The United States
-// is 0 (most states charge no sales tax on software) and is where the calculator starts.
+// The countries the calculator offers and their standard national VAT, GST or sales tax rate, in
+// percent: every country Creem sells to (all but the ones it blocks, docs.creem.io supported
+// countries) whose rate is clear. A copy of the service's web/partners/vat.py (STANDARD_RATES):
+// change the two together. 0 where there is no national one (the United States, where the
+// calculator starts; Brazil; the Gulf states without VAT); Canada is the federal GST only.
 export const TAX = {
-  US: 0, GB: 20, IE: 23, DE: 19, AT: 20, CH: 8.1, FR: 20, BE: 21, NL: 21, LU: 17, ES: 21, PT: 23,
-  IT: 22, GR: 24, PL: 23, CZ: 21, RO: 21, HU: 27, SE: 25, DK: 25, NO: 25, FI: 25.5, TR: 20, UA: 20,
-  AU: 10, NZ: 15, JP: 10, KR: 10, SG: 9, IN: 18, ID: 11, SA: 15, AE: 5, EG: 14, ZA: 15, MX: 16,
+  // Europe
+  AD: 4.5, AL: 20, AM: 20, AT: 20, AZ: 18, BA: 17, BE: 21, BG: 20, CH: 8.1, CY: 19, CZ: 21, DE: 19,
+  DK: 25, EE: 24, ES: 21, FI: 25.5, FR: 20, GB: 20, GE: 18, GR: 24, HR: 25, HU: 27, IE: 23, IS: 24,
+  IT: 22, LI: 8.1, LT: 21, LU: 17, LV: 21, MC: 20, MD: 20, ME: 21, MK: 18, MT: 18, NL: 21, NO: 25,
+  PL: 23, PT: 23, RO: 21, RS: 20, SE: 25, SI: 22, SK: 23, TR: 20, UA: 20, XK: 18,
+  // The Americas
+  US: 0, CA: 5, MX: 16, AR: 21, BB: 17.5, BO: 13, BR: 0, BS: 10, BZ: 12.5, CL: 19, CO: 19, CR: 13,
+  DO: 18, EC: 15, GT: 12, GY: 14, HN: 15, JM: 15, PA: 7, PE: 18, PY: 10, SR: 10, SV: 13, TT: 12.5,
+  UY: 22,
+  // Asia and the Pacific
+  AU: 10, BD: 15, BN: 0, FJ: 15, HK: 0, ID: 11, IN: 18, JP: 10, KG: 12, KH: 10, KR: 10, KZ: 16,
+  LA: 10, LK: 18, MN: 10, MO: 0, MV: 8, MY: 8, NP: 13, NZ: 15, PG: 10, PH: 12, SG: 9, TH: 7, TW: 5,
+  UZ: 12, VN: 10,
+  // The Middle East and Africa
+  AE: 5, AO: 14, BF: 18, BH: 10, BJ: 18, BW: 14, CI: 18, CM: 19.25, CV: 15, DZ: 19, EG: 14, ET: 15,
+  GA: 18, GM: 15, IL: 18, JO: 16, KE: 16, KW: 0, LB: 11, LS: 15, MA: 20, MG: 20, MU: 15, MW: 16.5,
+  MZ: 16, NA: 15, NG: 7.5, OM: 5, QA: 0, RW: 18, SA: 15, SC: 15, SL: 15, SN: 18, SZ: 15, TG: 18,
+  TN: 19, TZ: 18, UG: 18, ZA: 15, ZM: 16,
 };
 export const DEFAULT_COUNTRY = 'US';
+
+// The currency Creem charges a team in a country: it sells in EUR and USD only, so USD where the
+// site's price is in dollars and EUR everywhere else, the UK included. The service's
+// page_plan.creem_catalog.currency_for.
+export function creemCurrency(data, country) {
+  return currencyFor(data, 'seat', country) === 'usd' ? 'usd' : 'eur';
+}
+
+// An amount with its cents, for the per-person table: 50.00, 7.98 (prices.mjs's formatPrice
+// writes whole amounts without them).
+export function exactMoney(data, amount, currency, locale) {
+  const format = data.formats[String(locale).split(/[-_]/)[0].toLowerCase()] || data.formats.en;
+  let number = amount.toFixed(2).replace('.', format.decimal);
+  if (format.digits) number = number.replace(/[0-9]/g, d => format.digits[d]);
+  const symbol = data.symbols[currency];
+  return format.after.includes(currency) ? `${number} ${symbol}` : `${symbol}${number}`;
+}
 
 const cents = n => Math.round(n * 100) / 100;
 
@@ -114,12 +148,6 @@ export function countryOptions(locale, codes = Object.keys(TAX)) {
     .sort((a, b) => a.name.localeCompare(b.name, locale));
 }
 
-// The calculation under the results, for one person: the page's `data-breakdown` sentence with
-// {price}, {tax}, {taxAmount}, {fee} and {base} filled in.
-export function breakdownLine(template, parts) {
-  return Object.entries(parts).reduce((line, [key, value]) => line.split(`{${key}}`).join(value), template);
-}
-
 // The calculator's rates as fractions, from the service's answer: its `rate` and `founding_rate`
 // (whole percents, 20 and 40 today), each falling back to the built-in figure when it is missing
 // or not a percent.
@@ -181,11 +209,8 @@ function wireCalculator(root, data) {
   let rates = { standard: STANDARD, founding: FOUNDING };
   let left = null;
   const locale = pageLocale(root);
-  // The page's own words: around the seat price, the breakdown sentence, the founding note and the
-  // way it writes a percent (the hero card's).
-  const perMonth = box.getAttribute('data-per-month') || '{price} a month';
-  const perYear = box.getAttribute('data-per-year') || '{price} a year';
-  const template = box.getAttribute('data-breakdown') || '';
+  // The way the page writes a percent (the hero card's); the per-person table's own words sit on
+  // its labels (data-year, data-month, data-line).
   const rateEl = root.querySelector('[data-rate]');
   const pctFormat = (rateEl && rateEl.getAttribute('data-format')) || '{n}%';
   const $ = sel => box.querySelector(sel);
@@ -212,7 +237,7 @@ function wireCalculator(root, data) {
 
   function paint() {
     const { country, interval } = state;
-    const currency = currencyFor(data, 'seat', country);
+    const currency = creemCurrency(data, country);
     const seatPrice = {
       month: priceFor(data, 'seat', 'month', country).amount,
       year: priceFor(data, 'seat', 'year', country).amount,
@@ -234,18 +259,27 @@ function wireCalculator(root, data) {
         .replace('{left}', localNumber(found.split.founding, locale))
         .replace('{rate}', localNumber(Math.round(rates.standard * 100), locale));
     }
+    // The per-person table: one person's payment for the chosen period, what comes off it, and
+    // the partner's share at each rate.
     const price = seatPrice[interval];
     const share = seatShare(price, tax);
-    const fmt = amount => formatPrice(data, amount, currency, locale);
-    if (template) {
-      set('[data-out=breakdown]', breakdownLine(template, {
-        price: (interval === 'year' ? perYear : perMonth).replace('{price}', fmt(price)),
-        tax: percent(data, tax, pctFormat, locale),
-        taxAmount: fmt(share.taxAmount),
-        fee: fmt(share.fee),
-        base: fmt(share.base),
-      }));
-    }
+    const exact = amount => exactMoney(data, amount, currency, locale);
+    const pct = n => percent(data, n, pctFormat, locale);
+    const heading = $('[data-out=b-heading]');
+    if (heading) heading.textContent = heading.getAttribute(`data-${interval}`) || heading.textContent;
+    set('[data-out=b-price]', exact(price));
+    // No tax row where the country has none (the United States): a line of zeros says nothing.
+    const taxRow = $('[data-tax-row]');
+    if (taxRow) taxRow.hidden = tax === 0;
+    set('[data-out=b-tax]', `−${exact(share.taxAmount)}`);
+    set('[data-out=b-fee]', `−${exact(share.fee)}`);
+    set('[data-out=b-base]', exact(share.base));
+    set('[data-out=b-std]', exact(cents(share.base * rates.standard)));
+    set('[data-out=b-found]', exact(cents(share.base * rates.founding)));
+    box.querySelectorAll('[data-line][data-label]').forEach(label => {
+      const n = { tax, std: Math.round(rates.standard * 100), found: Math.round(rates.founding * 100) }[label.getAttribute('data-label')];
+      label.textContent = label.getAttribute('data-line').replace('{n}', pct(n));
+    });
     box.querySelectorAll('[data-interval]').forEach(b =>
       b.setAttribute('aria-pressed', String(b.getAttribute('data-interval') === interval)));
     box.querySelectorAll('.partner-result').forEach(card => leadWith(card, interval));
