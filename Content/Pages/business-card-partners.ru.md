@@ -1,7 +1,7 @@
 ---
 title: "Партнёры NFC.cool: зарабатывай на каждой команде, которую приводишь"
 slug: "business-card/partners"
-description: "Рекомендуй NFC.cool Business Card for Teams и получай 20% с каждого платежа на сайте, пока команда платит. Первые команды, которые приводят партнёры, приносят 40%. Участие бесплатное."
+description: "Рекомендуй NFC.cool Business Card for Teams и получай 20% с каждого платежа на сайте после налогов, пока команда платит. Первые команды, которые приводят партнёры, приносят 40%. Участие бесплатное."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -21,7 +21,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="partner-rate-card" data-rate-card>
 <p class="partner-rate" data-rate data-format="{n}%">40%</p>
-<p class="partner-rate-what">с каждого платежа, пока они платят</p>
+<p class="partner-rate-what">с каждого платежа после налогов, пока они платят</p>
 <p class="partner-rate-count" data-founding data-line="Осталось {left} из {total} стартовых сделок, дальше 20%">Со стартовых сделок, то есть первых команд, которые приводят партнёры. Дальше 20%.</p>
 </div>
 
@@ -33,21 +33,20 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## Сколько можно заработать?
 
-Подвигай ползунки. Каждая команда платит за человека, помесячно или за год.
-
-<div class="partner-calc" data-partner-calc data-per-month="{price} в месяц" data-per-year="{price} в год">
+<div class="partner-calc" data-partner-calc data-per-month="{price} в месяц" data-per-year="{price} в год" data-breakdown="Каждый человек платит {price}. После вычета налога {tax} ({taxAmount}) и партнёрской комиссии Creem 2% ({fee}) остаётся {base}: твоя доля считается от этой суммы.">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Сколько команд ты приводишь</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Человек в команде</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-country"><span>Страна продажи</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>США</option></select></div>
+<div class="partner-slider"><label for="partner-teams"><span>Сколько команд ты приводишь</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Человек в команде</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Как платят команды">
 <button type="button" data-interval="year" aria-pressed="true">За год</button>
 <button type="button" data-interval="month" aria-pressed="false">Помесячно</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Со стартовых сделок (40%)</p><p class="partner-big" data-period="year">около <span data-out="found-year">$26&nbsp;520</span> в год</p><p data-period="month">около <span data-out="found-month">$2&nbsp;210</span> в месяц</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>После стартовых сделок (20%)</p><p class="partner-big" data-period="year">около <span data-out="std-year">$13&nbsp;260</span> в год</p><p data-period="month">около <span data-out="std-month">$1&nbsp;105</span> в месяц</p></div>
-<p class="partner-fine">Расчёт по цене в твоём регионе: <span data-out="price-line">$50 в год</span> за человека. Цены зависят от страны каждой компании, поэтому суммы примерные. Платежи в App Store и Google Play в программу не входят.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Со стартовых сделок (40%)</p><p class="partner-big" data-period="year">около <span data-out="found-year">$9&nbsp;800</span> в год</p><p data-period="month">около <span data-out="found-month">$817</span> в месяц</p><p class="partner-fine" data-out="mixed" data-line="Стартовых сделок осталось: {left}. Остальные команды считаются по {rate}%." hidden></p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>После стартовых сделок (20%)</p><p class="partner-big" data-period="year">около <span data-out="std-year">$4&nbsp;900</span> в год</p><p data-period="month">около <span data-out="std-month">$408</span> в месяц</p></div>
+<p class="partner-fine"><span data-out="breakdown">Каждый человек платит $50 в год. После вычета налога 0% ($0) и партнёрской комиссии Creem 2% ($1) остаётся $49: твоя доля считается от этой суммы.</span> Налог считается по стандартной ставке НДС или налога с продаж в стране. Creem рассчитывает точные суммы и выплачивает их банковским переводом за 7 USD или EUR либо 1%, в зависимости от того, что больше. Платежи в App Store и Google Play в программу не входят.</p>
 </div>
 </div>
 

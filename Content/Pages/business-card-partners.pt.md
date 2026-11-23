@@ -1,7 +1,7 @@
 ---
 title: "Parceiros NFC.cool: ganhe com cada equipa que trouxer"
 slug: "business-card/partners"
-description: "Recomende o NFC.cool Business Card for Teams e ganhe 20% de cada pagamento feito na web, enquanto a equipa pagar. As primeiras equipas trazidas por parceiros rendem 40%. A adesão é gratuita."
+description: "Recomende o NFC.cool Business Card for Teams e ganhe 20% de cada pagamento feito na web, após impostos, enquanto a equipa pagar. As primeiras equipas trazidas por parceiros rendem 40%. A adesão é gratuita."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -21,7 +21,7 @@ Recomende o NFC.cool Business Card for Teams às empresas com quem trabalha e ga
 
 <div class="partner-rate-card" data-rate-card>
 <p class="partner-rate" data-rate data-format="{n}%">40%</p>
-<p class="partner-rate-what">de cada pagamento, enquanto pagarem</p>
+<p class="partner-rate-what">de cada pagamento após impostos, enquanto pagarem</p>
 <p class="partner-rate-count" data-founding data-line="Restam {left} de {total} acordos fundadores, depois 20%">Nos acordos fundadores, as primeiras equipas trazidas por parceiros. Depois, 20%.</p>
 </div>
 
@@ -33,21 +33,20 @@ Recomende o NFC.cool Business Card for Teams às empresas com quem trabalha e ga
 
 ## Quanto poderia ganhar?
 
-Mova os controlos. Cada equipa paga por pessoa, todos os meses ou todos os anos.
-
-<div class="partner-calc" data-partner-calc data-per-month="{price} por mês" data-per-year="{price} por ano">
+<div class="partner-calc" data-partner-calc data-per-month="{price} por mês" data-per-year="{price} por ano" data-breakdown="Cada pessoa paga {price}. Descontados {tax} de impostos ({taxAmount}) e a taxa de parceiro de 2% da Creem ({fee}), ficam {base}: a sua parte é calculada sobre esse valor.">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Equipas que traz</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Pessoas por equipa</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-country"><span>País da venda</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>Estados Unidos</option></select></div>
+<div class="partner-slider"><label for="partner-teams"><span>Equipas que traz</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Pessoas por equipa</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Como as equipas pagam">
 <button type="button" data-interval="year" aria-pressed="true">Pagamento anual</button>
 <button type="button" data-interval="month" aria-pressed="false">Pagamento mensal</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Com acordos fundadores (40%)</p><p class="partner-big" data-period="year">cerca de <span data-out="found-year">$26.520</span> por ano</p><p data-period="month">cerca de <span data-out="found-month">$2.210</span> por mês</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Depois dos acordos fundadores (20%)</p><p class="partner-big" data-period="year">cerca de <span data-out="std-year">$13.260</span> por ano</p><p data-period="month">cerca de <span data-out="std-month">$1.105</span> por mês</p></div>
-<p class="partner-fine">Calculado com <span data-out="price-line">$50 por ano</span> por pessoa, o preço na sua região. Os preços dependem do país de cada empresa, por isso os valores são aproximados. Os pagamentos na App Store ou no Google Play não fazem parte do programa.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Com acordos fundadores (40%)</p><p class="partner-big" data-period="year">cerca de <span data-out="found-year">$9.800</span> por ano</p><p data-period="month">cerca de <span data-out="found-month">$817</span> por mês</p><p class="partner-fine" data-out="mixed" data-line="Restam apenas {left} acordos fundadores: as outras equipas contam a {rate}%." hidden></p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Depois dos acordos fundadores (20%)</p><p class="partner-big" data-period="year">cerca de <span data-out="std-year">$4.900</span> por ano</p><p data-period="month">cerca de <span data-out="std-month">$408</span> por mês</p></div>
+<p class="partner-fine"><span data-out="breakdown">Cada pessoa paga $50 por ano. Descontados 0% de impostos ($0) e a taxa de parceiro de 2% da Creem ($1), ficam $49: a sua parte é calculada sobre esse valor.</span> O imposto é a taxa normal de IVA ou de imposto sobre vendas do país. A Creem calcula os valores exatos e paga-lhe por transferência bancária, por 7 USD ou EUR ou 1%, o que for maior. Os pagamentos na App Store ou no Google Play não fazem parte do programa.</p>
 </div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 title: "NFC.coolパートナー：紹介したチームごとに報酬を"
 slug: "business-card/partners"
-description: "NFC.cool Business Card for Teamsを紹介すると、チームが支払いを続ける限り、Webでの支払いの20%を受け取れます。パートナーが最初に紹介したチームは40%です。参加は無料です。"
+description: "NFC.cool Business Card for Teamsを紹介すると、チームが支払いを続ける限り、Webでの支払い（税引き後）の20%を受け取れます。パートナーが最初に紹介したチームは40%です。参加は無料です。"
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -21,7 +21,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="partner-rate-card" data-rate-card>
 <p class="partner-rate" data-rate data-format="{n}%">40%</p>
-<p class="partner-rate-what">支払いが続く限り、毎回の支払いから</p>
+<p class="partner-rate-what">支払いが続く限り、毎回の税引き後の支払いから</p>
 <p class="partner-rate-count" data-founding data-line="創業ディールは残り{left}件（全{total}件）、その後は20%">創業ディール、つまりパートナーが最初に紹介したチームが対象です。その後は20%。</p>
 </div>
 
@@ -33,21 +33,20 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## どれくらい稼げる？
 
-スライダーを動かしてみてください。どのチームも1人あたりで、月払いか年払いで支払います。
-
-<div class="partner-calc" data-partner-calc data-per-month="月{price}" data-per-year="年{price}">
+<div class="partner-calc" data-partner-calc data-per-month="月{price}" data-per-year="年{price}" data-breakdown="1人あたりの支払いは{price}です。税金{tax}（{taxAmount}）とCreemのパートナー手数料2%（{fee}）を差し引いた{base}から、あなたの取り分が計算されます。">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>紹介するチーム数</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>1チームの人数</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-country"><span>販売する国</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>アメリカ合衆国</option></select></div>
+<div class="partner-slider"><label for="partner-teams"><span>紹介するチーム数</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>1チームの人数</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="チームの支払い方法">
 <button type="button" data-interval="year" aria-pressed="true">年払い</button>
 <button type="button" data-interval="month" aria-pressed="false">月払い</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>創業ディールの場合（40%）</p><p class="partner-big" data-period="year">年約<span data-out="found-year">$26,520</span></p><p data-period="month">月約<span data-out="found-month">$2,210</span></p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>創業ディールの終了後（20%）</p><p class="partner-big" data-period="year">年約<span data-out="std-year">$13,260</span></p><p data-period="month">月約<span data-out="std-month">$1,105</span></p></div>
-<p class="partner-fine">お住まいの地域の価格、1人あたり<span data-out="price-line">年$50</span>で計算しています。価格は各企業の国によって異なるため、金額は目安です。App StoreやGoogle Playでの支払いはプログラムの対象外です。</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>創業ディールの場合（40%）</p><p class="partner-big" data-period="year">年約<span data-out="found-year">$9,800</span></p><p data-period="month">月約<span data-out="found-month">$817</span></p><p class="partner-fine" data-out="mixed" data-line="創業ディールは残り{left}件です。ほかのチームは{rate}%で計算しています。" hidden></p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>創業ディールの終了後（20%）</p><p class="partner-big" data-period="year">年約<span data-out="std-year">$4,900</span></p><p data-period="month">月約<span data-out="std-month">$408</span></p></div>
+<p class="partner-fine"><span data-out="breakdown">1人あたりの支払いは年$50です。税金0%（$0）とCreemのパートナー手数料2%（$1）を差し引いた$49から、あなたの取り分が計算されます。</span> 税金は各国の標準的な付加価値税または売上税の税率です。Creemが正確な金額を計算し、銀行振込で支払います。振込手数料は7 USDまたはEURと1%のいずれか高い方です。App StoreやGoogle Playでの支払いはプログラムの対象外です。</p>
 </div>
 </div>
 

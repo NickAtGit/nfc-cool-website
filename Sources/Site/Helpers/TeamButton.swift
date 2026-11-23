@@ -42,9 +42,9 @@ enum TeamButton {
       icon: ##"<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><g fill="currentColor"><circle cx="9.500" cy="7" r="4.800"/><path d="M1 21c0-5.400 3.700-8.500 8.500-8.500S18 15.600 18 21c0 .9-.6 1.500-1.500 1.500h-14C1.600 22.500 1 21.900 1 21z"/></g><path d="M21 4.500v8M17 8.500h8" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round"/></svg>"##,
       kicker: .partnerButtonKicker, label: .partnerButtonLabel)
 
-   /// A screen with a play mark: the live demo.
+   /// A screen with a play mark: the guided demo tour.
    static let demo = Badge(
-      token: "{{DEMO_BUTTON}}", href: "https://business.nfc.cool/demo/", modifier: " is-demo",
+      token: "{{DEMO_BUTTON}}", href: "https://business.nfc.cool/demo/tour/", modifier: " is-demo",
       icon: ##"<svg viewBox="0 0 26 24" width="35" height="32" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M3.500 2h19A2.500 2.500 0 0 1 25 4.500v11a2.500 2.500 0 0 1-2.500 2.500h-19A2.500 2.500 0 0 1 1 15.500v-11A2.500 2.500 0 0 1 3.500 2zm7 3.900v8.200l7-4.100z"/><path d="M8 22h10" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round"/></svg>"##,
       kicker: .demoButtonKicker, label: .demoButtonLabel)
 

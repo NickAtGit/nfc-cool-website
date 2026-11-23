@@ -1,7 +1,7 @@
 ---
 title: "Mitra NFC.cool: dapatkan penghasilan dari setiap tim yang Anda bawa"
 slug: "business-card/partners"
-description: "Rekomendasikan NFC.cool Business Card for Teams dan dapatkan 20% dari setiap pembayaran di web, selama tim itu terus membayar. Tim-tim pertama yang dibawa mitra menghasilkan 40%. Bergabung gratis."
+description: "Rekomendasikan NFC.cool Business Card for Teams dan dapatkan 20% dari setiap pembayaran di web setelah pajak, selama tim itu terus membayar. Tim-tim pertama yang dibawa mitra menghasilkan 40%. Bergabung gratis."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -21,7 +21,7 @@ Rekomendasikan NFC.cool Business Card for Teams kepada bisnis yang bekerja sama 
 
 <div class="partner-rate-card" data-rate-card>
 <p class="partner-rate" data-rate data-format="{n}%">40%</p>
-<p class="partner-rate-what">dari setiap pembayaran, selama mereka terus membayar</p>
+<p class="partner-rate-what">dari setiap pembayaran setelah pajak, selama mereka terus membayar</p>
 <p class="partner-rate-count" data-founding data-line="Tersisa {left} dari {total} kesepakatan pendiri, lalu 20%">Untuk kesepakatan pendiri, yaitu tim-tim pertama yang dibawa mitra. Setelah itu 20%.</p>
 </div>
 
@@ -33,21 +33,20 @@ Rekomendasikan NFC.cool Business Card for Teams kepada bisnis yang bekerja sama 
 
 ## Berapa yang bisa Anda dapatkan?
 
-Geser penggeser. Setiap tim membayar per orang, setiap bulan atau setiap tahun.
-
-<div class="partner-calc" data-partner-calc data-per-month="{price} per bulan" data-per-year="{price} per tahun">
+<div class="partner-calc" data-partner-calc data-per-month="{price} per bulan" data-per-year="{price} per tahun" data-breakdown="Setiap orang membayar {price}. Dikurangi pajak {tax} ({taxAmount}) dan biaya mitra Creem sebesar 2% ({fee}), tersisa {base}: bagian Anda dihitung dari jumlah itu.">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Tim yang Anda bawa</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Orang per tim</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-country"><span>Negara penjualan</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>Amerika Serikat</option></select></div>
+<div class="partner-slider"><label for="partner-teams"><span>Tim yang Anda bawa</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Orang per tim</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Cara tim membayar">
 <button type="button" data-interval="year" aria-pressed="true">Bayar tahunan</button>
 <button type="button" data-interval="month" aria-pressed="false">Bayar bulanan</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Dari kesepakatan pendiri (40%)</p><p class="partner-big" data-period="year">sekitar <span data-out="found-year">$26.520</span> per tahun</p><p data-period="month">sekitar <span data-out="found-month">$2.210</span> per bulan</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Setelah kesepakatan pendiri (20%)</p><p class="partner-big" data-period="year">sekitar <span data-out="std-year">$13.260</span> per tahun</p><p data-period="month">sekitar <span data-out="std-month">$1.105</span> per bulan</p></div>
-<p class="partner-fine">Dihitung dengan <span data-out="price-line">$50 per tahun</span> per orang, harga di wilayah Anda. Harga bergantung pada negara tiap bisnis, jadi jumlahnya perkiraan. Pembayaran di App Store atau Google Play tidak termasuk dalam program ini.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Dari kesepakatan pendiri (40%)</p><p class="partner-big" data-period="year">sekitar <span data-out="found-year">$9.800</span> per tahun</p><p data-period="month">sekitar <span data-out="found-month">$817</span> per bulan</p><p class="partner-fine" data-out="mixed" data-line="Hanya tersisa {left} kesepakatan pendiri: tim lainnya dihitung {rate}%." hidden></p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Setelah kesepakatan pendiri (20%)</p><p class="partner-big" data-period="year">sekitar <span data-out="std-year">$4.900</span> per tahun</p><p data-period="month">sekitar <span data-out="std-month">$408</span> per bulan</p></div>
+<p class="partner-fine"><span data-out="breakdown">Setiap orang membayar $50 per tahun. Dikurangi pajak 0% ($0) dan biaya mitra Creem sebesar 2% ($1), tersisa $49: bagian Anda dihitung dari jumlah itu.</span> Pajaknya adalah tarif standar PPN atau pajak penjualan negara tersebut. Creem menghitung jumlah pastinya dan membayar Anda lewat transfer bank dengan biaya 7 USD atau EUR atau 1%, mana yang lebih besar. Pembayaran di App Store atau Google Play tidak termasuk dalam program ini.</p>
 </div>
 </div>
 

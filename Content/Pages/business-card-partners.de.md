@@ -1,7 +1,7 @@
 ---
 title: "NFC.cool Partner: Verdiene an jedem Team, das du mitbringst"
 slug: "business-card/partners"
-description: "Empfiehl NFC.cool Business Card for Teams und verdiene 20 % jeder Zahlung im Web, solange das Team zahlt. Für die ersten Teams, die Partner mitbringen, gibt es 40 %. Die Teilnahme ist kostenlos."
+description: "Empfiehl NFC.cool Business Card for Teams und verdiene 20 % jeder Zahlung im Web nach Steuern, solange das Team zahlt. Für die ersten Teams, die Partner mitbringen, gibt es 40 %. Die Teilnahme ist kostenlos."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -21,7 +21,7 @@ Empfiehl NFC.cool Business Card for Teams den Firmen, mit denen du arbeitest, un
 
 <div class="partner-rate-card" data-rate-card>
 <p class="partner-rate" data-rate data-format="{n} %">40 %</p>
-<p class="partner-rate-what">jeder Zahlung, solange sie zahlen</p>
+<p class="partner-rate-what">jeder Zahlung nach Steuern, solange sie zahlen</p>
 <p class="partner-rate-count" data-founding data-line="Noch {left} von {total} Gründungsdeals frei, danach 20 %">Für Gründungsdeals, die ersten Teams, die Partner mitbringen. Danach 20 %.</p>
 </div>
 
@@ -33,21 +33,20 @@ Empfiehl NFC.cool Business Card for Teams den Firmen, mit denen du arbeitest, un
 
 ## Wie viel kannst du verdienen?
 
-Bewege die Regler. Jedes Team zahlt pro Person, monatlich oder jährlich.
-
-<div class="partner-calc" data-partner-calc data-per-month="{price} im Monat" data-per-year="{price} im Jahr">
+<div class="partner-calc" data-partner-calc data-per-month="{price} im Monat" data-per-year="{price} im Jahr" data-breakdown="Jede Person zahlt {price}. Abzüglich {tax} Steuer ({taxAmount}) und Creems Partnergebühr von 2&nbsp;% ({fee}) bleiben {base}: Davon bekommst du deinen Anteil.">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Teams, die du bringst</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>Personen pro Team</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-country"><span>Land des Verkaufs</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>Vereinigte Staaten</option></select></div>
+<div class="partner-slider"><label for="partner-teams"><span>Teams, die du bringst</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>Personen pro Team</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="Wie die Teams zahlen">
 <button type="button" data-interval="year" aria-pressed="true">Jährlich</button>
 <button type="button" data-interval="month" aria-pressed="false">Monatlich</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Mit Gründungsdeals (40 %)</p><p class="partner-big" data-period="year">etwa <span data-out="found-year">26.520&nbsp;$</span> im Jahr</p><p data-period="month">etwa <span data-out="found-month">2.210&nbsp;$</span> im Monat</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Nach den Gründungsdeals (20 %)</p><p class="partner-big" data-period="year">etwa <span data-out="std-year">13.260&nbsp;$</span> im Jahr</p><p data-period="month">etwa <span data-out="std-month">1.105&nbsp;$</span> im Monat</p></div>
-<p class="partner-fine">Gerechnet mit <span data-out="price-line">50&nbsp;$ im Jahr</span> pro Person, dem Preis in deiner Region. Die Preise hängen vom Land der jeweiligen Firma ab, deshalb sind die Beträge ungefähr. Zahlungen im App Store oder bei Google Play gehören nicht zum Programm.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>Mit Gründungsdeals (40 %)</p><p class="partner-big" data-period="year">etwa <span data-out="found-year">9.800&nbsp;$</span> im Jahr</p><p data-period="month">etwa <span data-out="found-month">817&nbsp;$</span> im Monat</p><p class="partner-fine" data-out="mixed" data-line="Nur noch {left} Gründungsdeals frei: Die übrigen Teams zählen mit {rate}&nbsp;%." hidden></p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>Nach den Gründungsdeals (20 %)</p><p class="partner-big" data-period="year">etwa <span data-out="std-year">4.900&nbsp;$</span> im Jahr</p><p data-period="month">etwa <span data-out="std-month">408&nbsp;$</span> im Monat</p></div>
+<p class="partner-fine"><span data-out="breakdown">Jede Person zahlt 50&nbsp;$ im Jahr. Abzüglich 0&nbsp;% Steuer (0&nbsp;$) und Creems Partnergebühr von 2&nbsp;% (1&nbsp;$) bleiben 49&nbsp;$: Davon bekommst du deinen Anteil.</span> Die Steuer ist der normale Mehrwert- oder Umsatzsteuersatz des Landes. Creem rechnet die genauen Beträge ab und zahlt dir per Banküberweisung aus, für 7 USD oder EUR oder 1&nbsp;%, je nachdem, was höher ist. Zahlungen im App Store oder bei Google Play gehören nicht zum Programm.</p>
 </div>
 </div>
 

@@ -1060,6 +1060,8 @@
 }
 .partner-slider output { font-variant-numeric: tabular-nums; }
 .partner-slider input[type="range"] { width: 100%; min-height: 44px; accent-color: var(--color-link); }
+/* The country of sale: the site's dropdown (.nfc-reader-select), sitting under its label like a slider. */
+.partner-calc .nfc-reader-select { margin-top: 0; }
 .partner-toggle { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
 .partner-toggle button {
    font: inherit;

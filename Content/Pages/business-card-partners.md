@@ -1,7 +1,7 @@
 ---
 title: "NFC.cool Partners: Earn With Every Team You Bring"
 slug: "business-card/partners"
-description: "Recommend NFC.cool Business Card for Teams and earn 20% of every web payment, for as long as the team pays. The first teams partners bring earn 40%. Joining is free."
+description: "Recommend NFC.cool Business Card for Teams and earn 20% of every web payment after tax, for as long as the team pays. The first teams partners bring earn 40%. Joining is free."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -21,7 +21,7 @@ Recommend NFC.cool for Teams to the businesses you work with, and earn from ever
 
 <div class="partner-rate-card" data-rate-card>
 <p class="partner-rate" data-rate data-format="{n}%">40%</p>
-<p class="partner-rate-what">of every payment, for as long as they pay</p>
+<p class="partner-rate-what">of every payment after tax, for as long as they pay</p>
 <p class="partner-rate-count" data-founding data-line="{left} of {total} founding deals left, then 20%">On founding deals, the first teams partners bring. Then 20%.</p>
 </div>
 
@@ -33,21 +33,20 @@ Recommend NFC.cool for Teams to the businesses you work with, and earn from ever
 
 ## What Could You Earn?
 
-Move the sliders. Every team pays per person, every month or every year.
-
-<div class="partner-calc" data-partner-calc data-per-month="{price} a month" data-per-year="{price} a year">
+<div class="partner-calc" data-partner-calc data-per-month="{price} a month" data-per-year="{price} a year" data-breakdown="Each person pays {price}. Minus {tax} tax ({taxAmount}) and Creem's 2% partner fee ({fee}), {base} is left: your share is taken from that.">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>Teams you bring</span><output for="partner-teams" data-out="teams" aria-live="polite">26</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>People per team</span><output for="partner-people" data-out="people" aria-live="polite">51</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-country"><span>Country of sale</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>United States</option></select></div>
+<div class="partner-slider"><label for="partner-teams"><span>Teams you bring</span><output for="partner-teams" data-out="teams" aria-live="polite">20</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>People per team</span><output for="partner-people" data-out="people" aria-live="polite">25</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="How teams pay">
 <button type="button" data-interval="year" aria-pressed="true">Pay yearly</button>
 <button type="button" data-interval="month" aria-pressed="false">Pay monthly</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>On founding deals (40%)</p><p class="partner-big" data-period="year">about <span data-out="found-year">$26,520</span> a year</p><p data-period="month">about <span data-out="found-month">$2,210</span> a month</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>After the founding deals (20%)</p><p class="partner-big" data-period="year">about <span data-out="std-year">$13,260</span> a year</p><p data-period="month">about <span data-out="std-month">$1,105</span> a month</p></div>
-<p class="partner-fine">Based on <span data-out="price-line">$50 a year</span> per person, the price in your region. Prices depend on each business's country, so the amounts are about. Payments in the App Store or Google Play are not part of the programme.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>On founding deals (40%)</p><p class="partner-big" data-period="year">about <span data-out="found-year">$9,800</span> a year</p><p data-period="month">about <span data-out="found-month">$817</span> a month</p><p class="partner-fine" data-out="mixed" data-line="Only {left} founding deals are left: the other teams count at {rate}%." hidden></p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>After the founding deals (20%)</p><p class="partner-big" data-period="year">about <span data-out="std-year">$4,900</span> a year</p><p data-period="month">about <span data-out="std-month">$408</span> a month</p></div>
+<p class="partner-fine"><span data-out="breakdown">Each person pays $50 a year. Minus 0% tax ($0) and Creem's 2% partner fee ($1), $49 is left: your share is taken from that.</span> Tax is the country's standard VAT or sales tax rate. Creem works out the exact amounts and pays you by bank for 7 USD or EUR or 1%, whichever is more. Payments in the App Store or Google Play are not part of the programme.</p>
 </div>
 </div>
 

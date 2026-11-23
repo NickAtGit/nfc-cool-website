@@ -1,7 +1,7 @@
 ---
 title: "شركاء NFC.cool: اربح من كل فريق تجلبه"
 slug: "business-card/partners"
-description: "رشّح NFC.cool Business Card for Teams واربح ٢٠٪ من كل دفعة على الويب، ما دام الفريق يدفع. أول الفرق التي يجلبها الشركاء تكسب ٤٠٪. الانضمام مجاني."
+description: "رشّح NFC.cool Business Card for Teams واربح ٢٠٪ من كل دفعة على الويب بعد الضريبة، ما دام الفريق يدفع. أول الفرق التي يجلبها الشركاء تكسب ٤٠٪. الانضمام مجاني."
 image: "/assets/images/BusinessCard/og-business-card.webp"
 ---
 
@@ -21,7 +21,7 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 <div class="partner-rate-card" data-rate-card>
 <p class="partner-rate" data-rate data-format="{n}٪">٤٠٪</p>
-<p class="partner-rate-what">من كل دفعة، ما داموا يدفعون</p>
+<p class="partner-rate-what">من كل دفعة بعد الضريبة، ما داموا يدفعون</p>
 <p class="partner-rate-count" data-founding data-line="بقيت {left} من أصل {total} صفقة تأسيسية، ثم ٢٠٪">على الصفقات التأسيسية، أي أول الفرق التي يجلبها الشركاء. بعدها ٢٠٪.</p>
 </div>
 
@@ -33,21 +33,20 @@ image: "/assets/images/BusinessCard/og-business-card.webp"
 
 ## كم يمكنك أن تربح؟
 
-حرّك المؤشرات. كل فريق يدفع عن كل شخص، شهريًا أو سنويًا.
-
-<div class="partner-calc" data-partner-calc data-per-month="{price} في الشهر" data-per-year="{price} في السنة">
+<div class="partner-calc" data-partner-calc data-per-month="{price} في الشهر" data-per-year="{price} في السنة" data-breakdown="يدفع كل شخص {price}. بعد خصم ضريبة {tax} ({taxAmount}) ورسوم الشركاء لدى Creem البالغة ٢٪ ({fee})، يبقى {base}: ومنه تُحسب حصتك.">
 <div class="partner-calc-inputs">
-<div class="partner-slider"><label for="partner-teams"><span>الفرق التي تجلبها</span><output for="partner-teams" data-out="teams" aria-live="polite">٢٦</output></label><input id="partner-teams" type="range" min="1" max="50" value="26" data-in="teams"/></div>
-<div class="partner-slider"><label for="partner-people"><span>الأشخاص في كل فريق</span><output for="partner-people" data-out="people" aria-live="polite">٥١</output></label><input id="partner-people" type="range" min="2" max="100" value="51" data-in="people"/></div>
+<div class="partner-slider"><label for="partner-country"><span>بلد البيع</span></label><select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>الولايات المتحدة</option></select></div>
+<div class="partner-slider"><label for="partner-teams"><span>الفرق التي تجلبها</span><output for="partner-teams" data-out="teams" aria-live="polite">٢٠</output></label><input id="partner-teams" type="range" min="1" max="50" value="20" data-in="teams"/></div>
+<div class="partner-slider"><label for="partner-people"><span>الأشخاص في كل فريق</span><output for="partner-people" data-out="people" aria-live="polite">٢٥</output></label><input id="partner-people" type="range" min="2" max="100" value="25" data-in="people"/></div>
 <div class="partner-toggle" role="group" aria-label="كيف تدفع الفرق">
 <button type="button" data-interval="year" aria-pressed="true">دفع سنوي</button>
 <button type="button" data-interval="month" aria-pressed="false">دفع شهري</button>
 </div>
 </div>
 <div class="partner-calc-results">
-<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>من الصفقات التأسيسية (٤٠٪)</p><p class="partner-big" data-period="year">نحو <span data-out="found-year">$٢٦٬٥٢٠</span> في السنة</p><p data-period="month">نحو <span data-out="found-month">$٢٬٢١٠</span> في الشهر</p></div>
-<div class="partner-result" aria-live="polite" aria-atomic="true"><p>بعد انتهاء الصفقات التأسيسية (٢٠٪)</p><p class="partner-big" data-period="year">نحو <span data-out="std-year">$١٣٬٢٦٠</span> في السنة</p><p data-period="month">نحو <span data-out="std-month">$١٬١٠٥</span> في الشهر</p></div>
-<p class="partner-fine">الحساب على أساس <span data-out="price-line">$٥٠ في السنة</span> للشخص، وهو السعر في منطقتك. تختلف الأسعار حسب بلد كل شركة، لذا فالمبالغ تقريبية. المدفوعات في App Store أو Google Play ليست جزءًا من البرنامج.</p>
+<div class="partner-result is-founding" data-founding-only aria-live="polite" aria-atomic="true"><p>من الصفقات التأسيسية (٤٠٪)</p><p class="partner-big" data-period="year">نحو <span data-out="found-year">$٩٬٨٠٠</span> في السنة</p><p data-period="month">نحو <span data-out="found-month">$٨١٧</span> في الشهر</p><p class="partner-fine" data-out="mixed" data-line="بقيت {left} صفقة تأسيسية فقط: وتُحسب الفرق الأخرى بنسبة {rate}٪." hidden></p></div>
+<div class="partner-result" aria-live="polite" aria-atomic="true"><p>بعد انتهاء الصفقات التأسيسية (٢٠٪)</p><p class="partner-big" data-period="year">نحو <span data-out="std-year">$٤٬٩٠٠</span> في السنة</p><p data-period="month">نحو <span data-out="std-month">$٤٠٨</span> في الشهر</p></div>
+<p class="partner-fine"><span data-out="breakdown">يدفع كل شخص $٥٠ في السنة. بعد خصم ضريبة ٠٪ ($٠) ورسوم الشركاء لدى Creem البالغة ٢٪ ($١)، يبقى $٤٩: ومنه تُحسب حصتك.</span> الضريبة هي السعر القياسي لضريبة القيمة المضافة أو ضريبة المبيعات في البلد. تحسب Creem المبالغ الدقيقة وتدفع لك بتحويل بنكي مقابل ٧ USD أو EUR أو ١٪، أيهما أكبر. المدفوعات في App Store أو Google Play ليست جزءًا من البرنامج.</p>
 </div>
 </div>
 
