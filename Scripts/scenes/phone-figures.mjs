@@ -275,10 +275,12 @@ async function goLive() {
     const textureFor = async i => {
       if (!textures.has(i)) {
         textures.set(i, (async () => {
+          // Decode the shot's bytes into a bitmap of our own rather than uploading the <img>: Safari
+          // sometimes hands WebGL the page's async-decoded copy of the shown shot, and the phone
+          // then showed its rows as garbled streaks until a reload.
           const img = view.shots[i];
-          img.loading = 'eager';
-          await img.decode();
-          const texture = new Texture(img);
+          const response = await fetch(img.currentSrc || img.src);
+          const texture = new Texture(await createImageBitmap(await response.blob()));
           texture.colorSpace = SRGBColorSpace;
           texture.flipY = false; // glTF UVs
           texture.anisotropy = renderer.capabilities.getMaxAnisotropy();
