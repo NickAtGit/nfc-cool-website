@@ -6,11 +6,6 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
-    inputs:
-      dry_run:
-        description: Build only, never deploy
-        type: boolean
-        default: false
 
 permissions:
   contents: read
@@ -23,12 +18,8 @@ concurrency:
 
 jobs:
   build:
-    # Pushes and manual runs build on the Mac mini (build-mini, Robin's, over Tailscale; off or logged
-    # out, the job waits for it). Pull requests stay on GitHub: this repository is public, and a
-    # stranger's pull request never runs on the mini. Ubuntu pinned: setup-swift@v2 cannot install
-    # Swift on ubuntu-latest (26.04) yet.
-    # Back to GitHub: runs-on: ubuntu-24.04 (each step below follows the runner on its own).
-    runs-on: ${{ github.event_name == 'pull_request' && 'ubuntu-24.04' || fromJSON('["self-hosted","build-mini"]') }}
+    # Pinned: setup-swift@v2 cannot install Swift on ubuntu-latest (26.04) yet
+    runs-on: ubuntu-24.04
     # 30 min headroom for the COLD run (no cache yet): a cold Swift compile plus
     # resizing every image can exceed 15 min, which previously cancelled the job
     # before it could save the caches below. Warm runs (cache hit) finish in a
@@ -37,30 +28,16 @@ jobs:
     outputs:
       indexnow_payload: ${{ steps.indexnow.outputs.payload }}
     steps:
-      # On the mini the checkout keeps .build and .sitekit-cache between runs instead of the caches below.
       - uses: actions/checkout@v4
-        with:
-          clean: ${{ runner.environment == 'github-hosted' }}
 
-      - name: Clean the checkout but its caches
-        if: runner.environment != 'github-hosted'
-        run: git clean -ffdx -e .build -e .sitekit-cache
-
-      # In the job's temp folder, never in a global git config: on the mini that would outlive the job.
       - name: Configure git for private dependencies
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-        run: |
-          umask 077
-          git config --file "$RUNNER_TEMP/gitconfig" url."https://x-access-token:${PAT_TOKEN}@github.com/".insteadOf "https://github.com/"
-          echo "GIT_CONFIG_GLOBAL=$RUNNER_TEMP/gitconfig" >> "$GITHUB_ENV"
+        run: git config --global url."https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/".insteadOf "https://github.com/"
 
       # Installs the toolchain straight from swift.org. swift-actions/setup-swift@v2
       # refreshes its signing keys from keyserver.ubuntu.com and fails the whole
       # deploy when that server is down (2026-11-11); here the keys come from
       # swift.org over HTTPS and the download is still signature-checked.
       - name: Setup Swift
-        if: runner.os == 'Linux'
         env:
           SWIFT_VERSION: "6.2.1"
         run: |
@@ -74,22 +51,11 @@ jobs:
           echo "/opt/${base}/usr/bin" >> "$GITHUB_PATH"
           "/opt/${base}/usr/bin/swift" --version
 
-      # The mini builds with its Xcode's Swift 6.2 (DEVELOPER_DIR in the runner's .env) and Homebrew's
-      # ImageMagick and GNU tar (gtar, for the Pages artifact).
-      - name: Check the mini's tools
-        if: runner.os == 'macOS'
-        run: |
-          swift --version
-          magick -version | head -1
-          magick -list format | grep -iE "^ *WEBP"
-          gtar --version | head -1
-
       # Cache the Swift build products (compiled objects + resolved deps) keyed on
       # Package.resolved + Sources. Exact key = no recompile; the restore-keys fall
       # back to the latest same-deps build so changed sources only need an
       # incremental compile. Occasionally Swift still does a full rebuild.
       - name: Cache Swift build
-        if: runner.environment == 'github-hosted'
         uses: actions/cache@v4
         with:
           path: .build
@@ -105,7 +71,6 @@ jobs:
       # is the first name SiteKit's ImageToolResolver and fix-portrait-variants.py
       # look for.
       - name: Install ImageMagick
-        if: runner.os == 'Linux'
         env:
           IM_VERSION: "7.1.2-35"
           # SHA-256 of that AppImage, as GitHub lists it for the release asset.
@@ -131,7 +96,6 @@ jobs:
       # newest cache with the same prefix, so a changed image reuses every unchanged
       # sibling instead of rebuilding all of them.
       - name: Cache resized images
-        if: runner.environment == 'github-hosted'
         uses: actions/cache@v4
         with:
           path: .sitekit-cache
@@ -163,23 +127,19 @@ jobs:
       # Its failure only costs one announcement, never the deploy.
       - name: Find the pages this deploy changes
         id: indexnow
-        if: github.event_name != 'pull_request' && !inputs.dry_run
+        if: github.event_name != 'pull_request'
         continue-on-error: true
         run: python3 Scripts/indexnow.py
 
       - name: Upload artifact
-        if: github.event_name != 'pull_request' && !inputs.dry_run
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: '_Site'
 
-      - name: Remove the git credentials
-        if: always()
-        run: rm -f "$RUNNER_TEMP/gitconfig"
-
   deploy:
-    # PRs and dry runs run the gate + build for verification only; deploy is push/dispatch.
-    if: github.event_name != 'pull_request' && !inputs.dry_run
+    # PRs run the gate + build for verification only; deploy is push/dispatch.
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
