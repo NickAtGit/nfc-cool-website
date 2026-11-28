@@ -1,7 +1,7 @@
 // The partner page: the earnings calculator and the live founding count.
 // The calculator's country of sale is picked by the visitor (the United States to start, never
 // guessed from the browser): it sets the seat price (its tier and currency in /prices/prices.json,
-// like every other price on the site) and the tax Creem takes out of that price. The hero card's
+// like every other price on the site). The hero card's
 // rate and count come from the service. Without JS, or when either fails, the page keeps its
 // built text: 40% over a founding sentence with no number, and the United States example.
 import { priceFor, currencyFor, formatPrice } from '../prices/prices.mjs';
@@ -12,13 +12,15 @@ const FOUNDING_URL = 'https://business.nfc.cool/partners/founding.json';
 const STANDARD = 0.2;
 const FOUNDING = 0.4;
 
-// Creem sells teams at tax-inclusive prices: it takes the buyer's VAT or sales tax out of the
-// price, then its 2% affiliate platform fee, and the partner's share is taken from what is left
+// A team's prices are without VAT since 2026-11-27 (the service's page_plan.tiers.TAX_EXCLUSIVE):
+// the buyer pays VAT or sales tax on top, so nothing of it comes out of the price. Creem takes its
+// 2% affiliate platform fee and the partner's share is taken from what is left
 // (docs.creem.io/merchant-of-record/finance/payouts). Creem's own 3.9% + 0.40 is not taken off
 // before the share.
 export const PARTNER_FEE = 0.02;
 
-// The countries the calculator offers and their standard national VAT, GST or sales tax rate, in
+// The countries the calculator offers (their currency follows), with their standard national VAT,
+// GST or sales tax rate, no longer in the share: kept as the service's table is. In
 // percent: every country Creem sells to (all but the ones it blocks, docs.creem.io supported
 // countries) whose rate is clear. A copy of the service's web/partners/vat.py (STANDARD_RATES):
 // change the two together. 0 where there is no national one (the United States, where the
@@ -64,14 +66,12 @@ export function exactMoney(data, amount, currency, locale) {
 
 const cents = n => Math.round(n * 100) / 100;
 
-// One person's payment and what is left of it for the partner's share: the tax in it, Creem's
-// partner fee, and the base the share is taken from. Each in cents, so the three add up to the
-// price the way the page writes them.
-export function seatShare(price, tax) {
-  const net = price / (1 + tax / 100);
-  const taxAmount = cents(price - net);
-  const fee = cents(net * PARTNER_FEE);
-  return { taxAmount, fee, base: cents(price - taxAmount - fee) };
+// One person's payment, without VAT, and what is left of it for the partner's share: Creem's
+// partner fee and the base the share is taken from. In cents, so the two add up to the price the
+// way the page writes them. The buyer's VAT is on top and never comes off.
+export function seatShare(price) {
+  const fee = cents(price * PARTNER_FEE);
+  return { fee, base: cents(price - fee) };
 }
 
 // How each site language groups thousands and writes digits. Mirrors the build's
@@ -112,14 +112,13 @@ export function percent(data, n, format, locale) {
 }
 
 // Partner earnings from `teams` teams of `people` seats. A yearly team pays seatPrice.year per
-// seat once a year, a monthly team pays seatPrice.month twelve times; `tax` is the country's rate
-// in percent and `rate` the partner's share as a fraction, taken from what tax and Creem's partner
-// fee leave of each payment.
-export function earnings({ teams, people, interval, seatPrice, rate, tax = 0 }) {
+// seat once a year, a monthly team pays seatPrice.month twelve times; `rate` is the partner's share
+// as a fraction, taken from what Creem's partner fee leaves of each payment (VAT is on top).
+export function earnings({ teams, people, interval, seatPrice, rate }) {
   const seats = teams * people;
   const perYear = interval === 'year'
-    ? seats * seatShare(seatPrice.year, tax).base * rate
-    : seats * seatShare(seatPrice.month, tax).base * rate * 12;
+    ? seats * seatShare(seatPrice.year).base * rate
+    : seats * seatShare(seatPrice.month).base * rate * 12;
   return { perMonth: cents(perYear / 12), perYear: cents(perYear) };
 }
 
@@ -242,8 +241,7 @@ function wireCalculator(root, data) {
       month: priceFor(data, 'seat', 'month', country).amount,
       year: priceFor(data, 'seat', 'year', country).amount,
     };
-    const tax = TAX[country] ?? 0;
-    const args = { teams: state.teams, people: state.people, interval, seatPrice, tax };
+    const args = { teams: state.teams, people: state.people, interval, seatPrice };
     const found = foundingEarnings({ ...args, left, rates });
     const std = earnings({ ...args, rate: rates.standard });
     set('[data-out=teams]', localNumber(state.teams, locale));
@@ -262,22 +260,18 @@ function wireCalculator(root, data) {
     // The per-person table: one person's payment for the chosen period, what comes off it, and
     // the partner's share at each rate.
     const price = seatPrice[interval];
-    const share = seatShare(price, tax);
+    const share = seatShare(price);
     const exact = amount => exactMoney(data, amount, currency, locale);
     const pct = n => percent(data, n, pctFormat, locale);
     const heading = $('[data-out=b-heading]');
     if (heading) heading.textContent = heading.getAttribute(`data-${interval}`) || heading.textContent;
     set('[data-out=b-price]', exact(price));
-    // No tax row where the country has none (the United States): a line of zeros says nothing.
-    const taxRow = $('[data-tax-row]');
-    if (taxRow) taxRow.hidden = tax === 0;
-    set('[data-out=b-tax]', `−${exact(share.taxAmount)}`);
     set('[data-out=b-fee]', `−${exact(share.fee)}`);
     set('[data-out=b-base]', exact(share.base));
     set('[data-out=b-std]', exact(cents(share.base * rates.standard)));
     set('[data-out=b-found]', exact(cents(share.base * rates.founding)));
     box.querySelectorAll('[data-line][data-label]').forEach(label => {
-      const n = { tax, std: Math.round(rates.standard * 100), found: Math.round(rates.founding * 100) }[label.getAttribute('data-label')];
+      const n = { std: Math.round(rates.standard * 100), found: Math.round(rates.founding * 100) }[label.getAttribute('data-label')];
       label.textContent = label.getAttribute('data-line').replace('{n}', pct(n));
     });
     box.querySelectorAll('[data-interval]').forEach(b =>

@@ -8,34 +8,34 @@ const data = JSON.parse(readFileSync(
   new URL('../../../Content/StaticFiles/prices/prices.json', import.meta.url), 'utf8'));
 const STRINGS = { line: '{left} of {total} founding deals left: 40% for as long as the team pays' };
 
-// Creem takes the buyer's tax out of a tax-inclusive price, then its 2% partner fee; the share is
-// taken from what is left (docs.creem.io/merchant-of-record/finance/payouts).
-test('monthly teams with no tax: 5 teams of 10 at $5 a month, the share of $4.90', () => {
+// A team's price is without VAT (2026-11-27): the buyer pays VAT on top, Creem takes its 2% partner
+// fee, and the share is taken from what is left (docs.creem.io/merchant-of-record/finance/payouts).
+test('monthly teams: 5 teams of 10 at $5 a month, the share of $4.90', () => {
   const seatPrice = { month: 5, year: 50 };
   assert.deepEqual(earnings({ teams: 5, people: 10, interval: 'month', seatPrice, rate: 0.4 }), { perMonth: 98, perYear: 1176 });
   assert.deepEqual(earnings({ teams: 5, people: 10, interval: 'month', seatPrice, rate: 0.2 }), { perMonth: 49, perYear: 588 });
 });
 
-test('yearly teams with no tax: 5 teams of 10 at $50 a year, the share of $49', () => {
+test('yearly teams: 5 teams of 10 at $50 a year, the share of $49', () => {
   const seatPrice = { month: 5, year: 50 };
   const e = earnings({ teams: 5, people: 10, interval: 'year', seatPrice, rate: 0.4 });
   assert.equal(e.perYear, 980);
   assert.equal(Math.round(e.perMonth * 100), Math.round(980 / 12 * 100));
 });
 
-test('seatShare: the tax and the 2% fee come off, in cents that add up to the price', () => {
-  assert.deepEqual(seatShare(50, 0), { taxAmount: 0, fee: 1, base: 49 });
-  assert.deepEqual(seatShare(50, 19), { taxAmount: 7.98, fee: 0.84, base: 41.18 });
-  assert.deepEqual(seatShare(35, 23), { taxAmount: 6.54, fee: 0.57, base: 27.89 });
-  for (const [price, tax] of [[50, 19], [35, 23], [5, 25.5], [20, 16]]) {
-    const s = seatShare(price, tax);
-    assert.equal(Math.round((s.taxAmount + s.fee + s.base) * 100), price * 100);
+test('seatShare: only the 2% fee comes off the price, in cents that add up to it', () => {
+  assert.deepEqual(seatShare(50), { fee: 1, base: 49 });
+  assert.deepEqual(seatShare(35), { fee: 0.7, base: 34.3 });
+  for (const price of [50, 35, 5, 20, 3.5]) {
+    const s = seatShare(price);
+    assert.equal(Math.round((s.fee + s.base) * 100), Math.round(price * 100));
   }
 });
 
-test('a German team pays 19% VAT in its price: 10 seats at 50 earn 20% of 41.18 each', () => {
+test('a German team pays its 19% VAT on top: 10 seats at 50 earn 20% of 49 each, as anywhere', () => {
   const seatPrice = { month: 5, year: 50 };
-  assert.equal(earnings({ teams: 1, people: 10, interval: 'year', seatPrice, rate: 0.2, tax: TAX.DE }).perYear, 82.36);
+  assert.equal(earnings({ teams: 1, people: 10, interval: 'year', seatPrice, rate: 0.2 }).perYear, 98);
+  assert.ok(TAX.DE > 0);  // the table stays: it is the country list
 });
 
 test('the founding column: at most the places left at 40%, the other teams at 20%', () => {
@@ -45,7 +45,7 @@ test('the founding column: at most the places left at 40%, the other teams at 20
   assert.deepEqual(foundingSplit(20, 0), { founding: 0, standard: 20 });
   const seatPrice = { month: 5, year: 50 };
   const rates = { standard: 0.2, founding: 0.4 };
-  const args = { people: 25, interval: 'year', seatPrice, tax: 0, rates };
+  const args = { people: 25, interval: 'year', seatPrice, rates };
   assert.equal(foundingEarnings({ ...args, teams: 20, left: null }).perYear, 9800);
   // 5 teams at 40% (2,450) and 15 at 20% (3,675).
   assert.equal(foundingEarnings({ ...args, teams: 20, left: 5 }).perYear, 6125);
@@ -163,17 +163,17 @@ test('every locale page carries the strings the script fills in', () => {
     assert.ok(text.includes('min="1" max="50" value="20"'), `${file}: 20 teams to start`);
     assert.ok(text.includes('min="2" max="100" value="25"'), `${file}: 25 people to start`);
     assert.ok(/<select id="partner-country" class="nfc-reader-select" data-in="country"><option value="US" selected>[^<]+<\/option><\/select>/.test(text), `${file}: the country of sale, the United States`);
-    // One person's payment as a table: price, tax, Creem's fee, the base, the share at 20% and 40%.
-    for (const key of ['b-price', 'b-tax', 'b-fee', 'b-base', 'b-std', 'b-found']) {
+    // One person's payment as a table: price, Creem's fee, the base, the share at 20% and 40%.
+    // No tax row: a team's price is without VAT, which the buyer pays on top (2026-11-27).
+    assert.ok(!text.includes('data-tax-row') && !text.includes('b-tax'), `${file}: no tax row`);
+    for (const key of ['b-price', 'b-fee', 'b-base', 'b-std', 'b-found']) {
       assert.ok(new RegExp(`<dd data-out="${key}">[^<]+</dd>`).test(text), `${file}: ${key}`);
     }
     assert.ok(/data-out="b-heading" data-year="[^"]+" data-month="[^"]+"/.test(text), `${file}: the table's heading for each period`);
-    for (const key of ['tax', 'std', 'found']) {
+    for (const key of ['std', 'found']) {
       assert.ok(new RegExp(`data-label="${key}" data-line="[^"]*\\{n\\}[^"]*"`).test(text), `${file}: ${key} label`);
     }
     assert.ok(/<div data-founding-only><dt>/.test(text), `${file}: the 40% row hides with the founding offers`);
-    // The United States starts with no tax, so its row starts hidden.
-    assert.ok(/<div data-tax-row hidden><dt><span data-label="tax"/.test(text), `${file}: the tax row starts hidden`);
     // How teams pay is the kit's segmented control.
     assert.ok(text.includes('<div class="segmented" role="group"'), `${file}: the segmented control`);
     assert.ok(!text.includes('partner-toggle'), `${file}: no old toggle`);
